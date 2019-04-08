@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.130 --> 00:00:04.500
+In this tutorial, I'm going to be making this
+game that you see here. In further tutorials,
+
+00:00:04.500 --> 00:00:08.240
+I'm going to build on this game until it's
+fairly decent. Have fun!
+
+00:00:08.240 --> 00:00:10.950
+[Installing TGF2]
+
+00:00:10.950 --> 00:00:17.210
+Now first of all, download and install The
+Games Factory 2 New Grounds Edition Setup...
+
+00:00:17.210 --> 00:00:31.149
+file. I'll do this right now. 
+
+00:00:31.149 --> 00:00:34.030
+Once it's done, load up The Games Factory
+2.
+
+00:00:34.030 --> 00:00:44.990
+[Making the game]
+
+00:00:44.990 --> 00:00:52.660
+Now, let's make the game. Go up to File, click
+New. Make this fullscreen. This shows all
+
+00:00:52.660 --> 00:00:57.240
+of the levels in your game. Currently, you
+only have one. And it's empty. Double click
+
+00:00:57.240 --> 00:01:04.040
+on it. This is your level. It's empty. Let's
+make some things. Right click on the screen,
+
+00:01:04.040 --> 00:01:11.979
+and choose 'Insert Object'. Choose 'Active'.
+That's all we need at the moment. Now, this
+
+00:01:11.979 --> 00:01:17.299
+one's going to be your character. So double-click
+on it to get this screen up, and then just
+
+00:01:17.299 --> 00:01:22.180
+draw it however you want. I'll be going into
+this in more detail in another tutorial. Click
+
+00:01:22.180 --> 00:01:27.820
+Okay when you're happy. That's your character.
+Now we're going to make the enemy. Right-click
+
+00:01:27.820 --> 00:01:36.240
+on the screen, Insert Object, Active. Double
+click on it, and... make it red. Because,
+
+00:01:36.240 --> 00:01:41.399
+clearly, red things are evil. Now we're going
+to make a bullet. To do that, right-click
+
+00:01:41.399 --> 00:01:47.700
+on the screen, Insert Object, Active. Click
+on the level to make it, double click on it.
+
+00:01:47.700 --> 00:01:54.890
+We're going to make this YELLOW because bullets
+are YELLOW. There. Next, we're going to make
+
+00:01:54.890 --> 00:01:59.759
+it so that your person can run around the
+screen. To do this, select your person, and
+
+00:01:59.759 --> 00:02:11.660
+in this properties thing, click the movement
+tab. In the type, choose... 8 directions.
+
+00:02:11.660 --> 00:02:16.690
+Now, you can play the game whenever you want
+by pressing F7. Or F8 for the entire game.
+
+00:02:16.690 --> 00:02:22.110
+But... F7 for now. Now, you can move your
+character around the screen using the arrow
+
+00:02:22.110 --> 00:02:28.920
+buttons. Next, let's make the enemy run around
+the screen. To do this, select the enemy,
+
+00:02:28.920 --> 00:02:39.480
+go to the movement tab and choose... bouncing
+ball movement. Play the game again, OH. Okay,
+
+00:02:39.480 --> 00:02:43.020
+we need to stop him from running off the side
+of the screen. To do this, we need to make
+
+00:02:43.020 --> 00:02:49.510
+our first bit of coding. And when I say 'coding',
+I mean... this. Choose the Event Editor button
+
+00:02:49.510 --> 00:02:56.870
+at the top of the screen and make a new condition.
+To do this, right click, choose the enemy
+
+00:02:56.870 --> 00:03:06.340
+character, positition, test position of active
+2, and tick all of the arrows that indiciate
+
+00:03:06.340 --> 00:03:13.350
+that it's leaving the frame area. Once you've
+done that, click okay, go across to where
+
+00:03:13.350 --> 00:03:25.070
+the enemy is in that event, right click, movement,
+bounce. Let's play the game again. YES, we
+
+00:03:25.070 --> 00:03:30.350
+have a very intelligent enemy. Next, let's
+make it so that our character can fire bullets
+
+00:03:30.350 --> 00:03:37.810
+at the enemy. To do this, make another event.
+Right click on new condition, choose this
+
+00:03:37.810 --> 00:03:44.320
+icon, the keyboard, upon pressing the key,
+spacebar. There are other ways of doing it,
+
+00:03:44.320 --> 00:03:50.920
+but this way's simple enough. Go across to
+where your character is, right click, launch
+
+00:03:50.920 --> 00:03:58.410
+an object. Because he wants to shoot a bullet.
+Choose a bullet. And that's fine. Let's play
+
+00:03:58.410 --> 00:04:04.240
+the game again. You can now fire out bullets,
+but it doesn't do anything when it hits the
+
+00:04:04.240 --> 00:04:09.480
+enemy. To make it so that it destroys the
+enemy, we need to make a third event. Right-click
+
+00:04:09.480 --> 00:04:18.720
+on 'New Condition', bullet, right click on
+that, collisions, another object, enemy, destroy
+
+00:04:18.720 --> 00:04:31.150
+the enemy. And the bullet. Let's try again.
+Yeah! You now have your first game. Well done.
+
+00:04:31.150 --> 00:04:34.500
+Let's just add some more enemies into it so
+that it's more fun. And delete the bullet,
+
+00:04:34.500 --> 00:04:39.370
+because it's no longer needed on this frame
+since it's already spawned in the events.
+
+00:04:39.370 --> 00:04:46.750
+Ignore everything I just said. Press F7 to
+play the game. Oh brilliant! Yeah!!! Now,
+
+00:04:46.750 --> 00:04:53.840
+should you want to, you can now save the game
+by going up to FILE, SAVE AS... and by calling
+
+00:04:53.840 --> 00:04:59.960
+it something. If you want to make it into
+a format that can be uploaded to newgrounds,
+
+00:04:59.960 --> 00:05:04.120
+which is the only thing you can do with The
+Games Factory 2 Newgrounds Edition, go up
+
+00:05:04.120 --> 00:05:16.090
+to File, Build, Application. Save. You should
+now find the file, wherever you saved it,
+
+00:05:16.090 --> 00:05:20.250
+you can now upload that file to newgrounds,
+and everyone will play your game. But don't
+
+00:05:20.250 --> 00:05:26.400
+do it! It's REALLY bad at the moment. Wait
+until the game's better. PLEASE. I hope this
+
+00:05:26.400 --> 00:05:31.070
+helps, watch more tutorials to find out how
+to make this game into a much better one.
+
+00:05:31.070 --> 00:05:31.740
+Have fun.
+
