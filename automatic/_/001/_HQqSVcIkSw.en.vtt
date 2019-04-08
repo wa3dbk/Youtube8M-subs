@@ -1,0 +1,1093 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.230 --> 00:00:02.629 
+
+hello<00:00:01.230> everyone<00:00:01.589> and<00:00:02.010> welcome<00:00:02.370> to<00:00:02.399> your
+
+00:00:02.629 --> 00:00:02.639 
+hello everyone and welcome to your
+
+00:00:02.639 --> 00:00:05.440 
+hello everyone and welcome to your
+fourth<00:00:03.149> swift<00:00:04.049> programming<00:00:04.680> tutorial<00:00:05.220> in
+
+00:00:05.440 --> 00:00:05.450 
+fourth swift programming tutorial in
+
+00:00:05.450 --> 00:00:08.210 
+fourth swift programming tutorial in
+this<00:00:06.450> tutorial<00:00:06.509> I'm<00:00:07.230> gonna<00:00:07.470> be<00:00:07.620> covering<00:00:07.980> how
+
+00:00:08.210 --> 00:00:08.220 
+this tutorial I'm gonna be covering how
+
+00:00:08.220 --> 00:00:11.509 
+this tutorial I'm gonna be covering how
+we<00:00:08.280> can<00:00:08.519> work<00:00:08.730> with<00:00:08.840> tuples<00:00:09.840> or<00:00:10.250> tuples<00:00:11.250> in
+
+00:00:11.509 --> 00:00:11.519 
+we can work with tuples or tuples in
+
+00:00:11.519 --> 00:00:15.140 
+we can work with tuples or tuples in
+Swift<00:00:12.889> from<00:00:13.889> now<00:00:14.099> on<00:00:14.309> I'm<00:00:14.610> just<00:00:14.700> going<00:00:15.030> to
+
+00:00:15.140 --> 00:00:15.150 
+Swift from now on I'm just going to
+
+00:00:15.150 --> 00:00:17.510 
+Swift from now on I'm just going to
+refer<00:00:15.389> to<00:00:15.420> them<00:00:15.599> as<00:00:15.680> tuples<00:00:16.680> although<00:00:17.340> I<00:00:17.369> know
+
+00:00:17.510 --> 00:00:17.520 
+refer to them as tuples although I know
+
+00:00:17.520 --> 00:00:19.370 
+refer to them as tuples although I know
+some<00:00:17.940> people<00:00:18.090> do<00:00:18.359> refer<00:00:18.660> to<00:00:18.750> them<00:00:18.869> as<00:00:18.960> tuples
+
+00:00:19.370 --> 00:00:19.380 
+some people do refer to them as tuples
+
+00:00:19.380 --> 00:00:21.980 
+some people do refer to them as tuples
+I've<00:00:19.800> just<00:00:20.189> learnt<00:00:20.430> them<00:00:20.670> as<00:00:20.850> tuples<00:00:21.480> and<00:00:21.720> so
+
+00:00:21.980 --> 00:00:21.990 
+I've just learnt them as tuples and so
+
+00:00:21.990 --> 00:00:23.900 
+I've just learnt them as tuples and so
+for<00:00:22.410> me<00:00:22.529> to<00:00:22.710> try<00:00:23.039> and<00:00:23.070> switch<00:00:23.310> that<00:00:23.519> in<00:00:23.640> my<00:00:23.730> head
+
+00:00:23.900 --> 00:00:23.910 
+for me to try and switch that in my head
+
+00:00:23.910 --> 00:00:27.109 
+for me to try and switch that in my head
+just<00:00:24.119> more<00:00:25.019> than<00:00:25.170> I<00:00:25.230> want<00:00:25.410> to<00:00:25.500> take<00:00:25.650> on<00:00:25.830> so<00:00:26.220> you
+
+00:00:27.109 --> 00:00:27.119 
+just more than I want to take on so you
+
+00:00:27.119 --> 00:00:29.630 
+just more than I want to take on so you
+can<00:00:27.330> learn<00:00:27.689> them<00:00:27.990> however<00:00:28.170> you<00:00:28.410> want<00:00:28.470> but<00:00:28.859> I'm
+
+00:00:29.630 --> 00:00:29.640 
+can learn them however you want but I'm
+
+00:00:29.640 --> 00:00:33.680 
+can learn them however you want but I'm
+gonna<00:00:29.820> say<00:00:30.210> tuples<00:00:30.949> so<00:00:31.949> what<00:00:32.759> is<00:00:32.880> a<00:00:32.910> tuple<00:00:33.420> in
+
+00:00:33.680 --> 00:00:33.690 
+gonna say tuples so what is a tuple in
+
+00:00:33.690 --> 00:00:36.560 
+gonna say tuples so what is a tuple in
+Swift<00:00:34.230> well<00:00:34.469> a<00:00:34.680> tuple<00:00:35.370> simply<00:00:35.700> represents<00:00:36.450> a
+
+00:00:36.560 --> 00:00:36.570 
+Swift well a tuple simply represents a
+
+00:00:36.570 --> 00:00:38.540 
+Swift well a tuple simply represents a
+collection<00:00:37.469> of<00:00:37.590> values<00:00:37.739> that<00:00:38.190> are<00:00:38.340> very
+
+00:00:38.540 --> 00:00:38.550 
+collection of values that are very
+
+00:00:38.550 --> 00:00:41.660 
+collection of values that are very
+closely<00:00:39.360> linked<00:00:39.960> to<00:00:40.020> each<00:00:40.170> other<00:00:40.320> so<00:00:40.770> maybe<00:00:41.489> as
+
+00:00:41.660 --> 00:00:41.670 
+closely linked to each other so maybe as
+
+00:00:41.670 --> 00:00:43.580 
+closely linked to each other so maybe as
+an<00:00:41.790> example<00:00:42.270> you're<00:00:42.690> looking<00:00:42.719> up<00:00:43.140> somebody's
+
+00:00:43.580 --> 00:00:43.590 
+an example you're looking up somebody's
+
+00:00:43.590 --> 00:00:46.790 
+an example you're looking up somebody's
+name<00:00:43.829> in<00:00:44.070> a<00:00:44.129> phone<00:00:44.370> book<00:00:44.640> and<00:00:45.140> you<00:00:46.140> come<00:00:46.469> across
+
+00:00:46.790 --> 00:00:46.800 
+name in a phone book and you come across
+
+00:00:46.800 --> 00:00:48.590 
+name in a phone book and you come across
+their<00:00:47.100> name<00:00:47.280> and<00:00:47.640> there's<00:00:48.030> specific
+
+00:00:48.590 --> 00:00:48.600 
+their name and there's specific
+
+00:00:48.600 --> 00:00:49.970 
+their name and there's specific
+information<00:00:48.840> that's<00:00:49.320> tired<00:00:49.590> of<00:00:49.680> them<00:00:49.770> right
+
+00:00:49.970 --> 00:00:49.980 
+information that's tired of them right
+
+00:00:49.980 --> 00:00:52.760 
+information that's tired of them right
+you<00:00:50.250> have<00:00:50.460> their<00:00:50.760> name<00:00:51.110> their<00:00:52.110> phone<00:00:52.410> number
+
+00:00:52.760 --> 00:00:52.770 
+you have their name their phone number
+
+00:00:52.770 --> 00:00:54.619 
+you have their name their phone number
+probably<00:00:53.039> if<00:00:53.430> it's<00:00:53.550> a<00:00:53.640> phone<00:00:53.820> book<00:00:54.059> is
+
+00:00:54.619 --> 00:00:54.629 
+probably if it's a phone book is
+
+00:00:54.629 --> 00:00:56.389 
+probably if it's a phone book is
+hopefully<00:00:55.110> there's<00:00:55.260> a<00:00:55.350> phone<00:00:55.860> number<00:00:55.890> and
+
+00:00:56.389 --> 00:00:56.399 
+hopefully there's a phone number and
+
+00:00:56.399 --> 00:00:58.970 
+hopefully there's a phone number and
+then<00:00:57.149> you<00:00:57.690> would<00:00:57.899> perhaps<00:00:58.199> have<00:00:58.649> their
+
+00:00:58.970 --> 00:00:58.980 
+then you would perhaps have their
+
+00:00:58.980 --> 00:01:01.910 
+then you would perhaps have their
+address<00:00:59.489> right<00:01:00.059> so<00:01:00.329> this<00:01:00.480> is<00:01:00.539> three<00:01:01.350> pieces<00:01:01.710> of
+
+00:01:01.910 --> 00:01:01.920 
+address right so this is three pieces of
+
+00:01:01.920 --> 00:01:04.490 
+address right so this is three pieces of
+information<00:01:02.100> that<00:01:02.879> would<00:01:03.570> be<00:01:03.629> very<00:01:04.140> closely
+
+00:01:04.490 --> 00:01:04.500 
+information that would be very closely
+
+00:01:04.500 --> 00:01:05.870 
+information that would be very closely
+linked<00:01:04.860> together<00:01:05.010> and<00:01:05.369> you<00:01:05.460> might<00:01:05.610> want<00:01:05.820> to
+
+00:01:05.870 --> 00:01:05.880 
+linked together and you might want to
+
+00:01:05.880 --> 00:01:08.420 
+linked together and you might want to
+represent<00:01:06.060> this<00:01:06.540> sort<00:01:07.080> of<00:01:07.170> as<00:01:07.320> a<00:01:07.350> group<00:01:07.530> and<00:01:07.860> we
+
+00:01:08.420 --> 00:01:08.430 
+represent this sort of as a group and we
+
+00:01:08.430 --> 00:01:12.890 
+represent this sort of as a group and we
+can<00:01:08.460> do<00:01:08.760> that<00:01:08.909> in<00:01:09.170> Swift<00:01:10.170> using<00:01:10.890> a<00:01:11.010> tuple<00:01:11.689> in<00:01:12.689> my
+
+00:01:12.890 --> 00:01:12.900 
+can do that in Swift using a tuple in my
+
+00:01:12.900 --> 00:01:14.240 
+can do that in Swift using a tuple in my
+example<00:01:13.320> I'm<00:01:13.530> going<00:01:13.619> to<00:01:13.680> use<00:01:13.740> something
+
+00:01:14.240 --> 00:01:14.250 
+example I'm going to use something
+
+00:01:14.250 --> 00:01:15.770 
+example I'm going to use something
+slightly<00:01:14.610> different<00:01:14.760> just<00:01:15.240> to<00:01:15.299> show<00:01:15.509> you<00:01:15.570> that
+
+00:01:15.770 --> 00:01:15.780 
+slightly different just to show you that
+
+00:01:15.780 --> 00:01:17.480 
+slightly different just to show you that
+you<00:01:15.840> can<00:01:15.960> have<00:01:16.110> different<00:01:16.950> things<00:01:17.009> other<00:01:17.400> than
+
+00:01:17.480 --> 00:01:17.490 
+you can have different things other than
+
+00:01:17.490 --> 00:01:20.990 
+you can have different things other than
+strings<00:01:18.500> you<00:01:19.500> could<00:01:19.680> represent<00:01:20.000> perhaps
+
+00:01:20.990 --> 00:01:21.000 
+strings you could represent perhaps
+
+00:01:21.000 --> 00:01:24.859 
+strings you could represent perhaps
+getting<00:01:21.630> somebody<00:01:22.320> out<00:01:22.590> of<00:01:22.860> the<00:01:23.659> address<00:01:24.659> book
+
+00:01:24.859 --> 00:01:24.869 
+getting somebody out of the address book
+
+00:01:24.869 --> 00:01:26.600 
+getting somebody out of the address book
+that<00:01:25.020> you<00:01:25.140> have<00:01:25.380> and<00:01:25.650> your<00:01:26.070> address<00:01:26.250> book
+
+00:01:26.600 --> 00:01:26.610 
+that you have and your address book
+
+00:01:26.610 --> 00:01:28.910 
+that you have and your address book
+might<00:01:26.820> contain<00:01:27.210> their<00:01:28.020> name<00:01:28.320> their<00:01:28.710> phone
+
+00:01:28.910 --> 00:01:28.920 
+might contain their name their phone
+
+00:01:28.920 --> 00:01:30.740 
+might contain their name their phone
+number<00:01:29.250> and<00:01:29.430> perhaps<00:01:29.909> their<00:01:30.299> birthday<00:01:30.689> so
+
+00:01:30.740 --> 00:01:30.750 
+number and perhaps their birthday so
+
+00:01:30.750 --> 00:01:33.200 
+number and perhaps their birthday so
+maybe<00:01:31.079> you<00:01:31.200> have<00:01:31.229> their<00:01:31.590> age<00:01:31.829> sort<00:01:32.610> of<00:01:32.759> kept
+
+00:01:33.200 --> 00:01:33.210 
+maybe you have their age sort of kept
+
+00:01:33.210 --> 00:01:35.929 
+maybe you have their age sort of kept
+track<00:01:33.509> in<00:01:33.780> the<00:01:34.350> address<00:01:34.710> book<00:01:34.950> just<00:01:35.640> as<00:01:35.820> an
+
+00:01:35.929 --> 00:01:35.939 
+track in the address book just as an
+
+00:01:35.939 --> 00:01:38.870 
+track in the address book just as an
+example<00:01:36.170> so<00:01:37.170> let's<00:01:37.770> call<00:01:38.009> this<00:01:38.189> thing<00:01:38.400> entry
+
+00:01:38.870 --> 00:01:38.880 
+example so let's call this thing entry
+
+00:01:38.880 --> 00:01:42.190 
+example so let's call this thing entry
+and<00:01:39.560> to<00:01:40.560> start<00:01:40.890> a<00:01:40.979> tuple<00:01:41.310> you<00:01:41.430> just<00:01:41.670> create
+
+00:01:42.190 --> 00:01:42.200 
+and to start a tuple you just create
+
+00:01:42.200 --> 00:01:43.789 
+and to start a tuple you just create
+parentheses<00:01:43.200> like<00:01:43.380> that
+
+00:01:43.789 --> 00:01:43.799 
+parentheses like that
+
+00:01:43.799 --> 00:01:47.030 
+parentheses like that
+and<00:01:43.939> all<00:01:44.939> I<00:01:44.970> want<00:01:45.210> to<00:01:45.270> say<00:01:45.450> is<00:01:45.750> this<00:01:46.320> guy's<00:01:46.649> Bob
+
+00:01:47.030 --> 00:01:47.040 
+and all I want to say is this guy's Bob
+
+00:01:47.040 --> 00:01:51.889 
+and all I want to say is this guy's Bob
+that's<00:01:47.909> his<00:01:48.090> name<00:01:48.380> then<00:01:49.380> I<00:01:49.860> want<00:01:50.490> to<00:01:50.850> have<00:01:51.750> his
+
+00:01:51.889 --> 00:01:51.899 
+that's his name then I want to have his
+
+00:01:51.899 --> 00:01:54.499 
+that's his name then I want to have his
+phone<00:01:52.079> number<00:01:52.110> so<00:01:52.710> we'll<00:01:53.610> just<00:01:53.729> give<00:01:54.149> him<00:01:54.210> some
+
+00:01:54.499 --> 00:01:54.509 
+phone number so we'll just give him some
+
+00:01:54.509 --> 00:01:58.069 
+phone number so we'll just give him some
+arbitrary<00:01:54.990> phone<00:01:55.229> number<00:01:56.600> there<00:01:57.600> you<00:01:57.719> go<00:01:57.869> and
+
+00:01:58.069 --> 00:01:58.079 
+arbitrary phone number there you go and
+
+00:01:58.079 --> 00:02:00.679 
+arbitrary phone number there you go and
+you<00:01:58.140> guys<00:01:58.320> can<00:01:58.590> all<00:01:58.740> go<00:01:59.040> home<00:01:59.280> and<00:01:59.340> call<00:02:00.180> Bob<00:02:00.450> if
+
+00:02:00.679 --> 00:02:00.689 
+you guys can all go home and call Bob if
+
+00:02:00.689 --> 00:02:04.639 
+you guys can all go home and call Bob if
+you<00:02:00.810> want<00:02:01.049> and<00:02:01.579> see<00:02:02.579> if<00:02:02.700> he<00:02:02.820> picks<00:02:02.969> up<00:02:03.240> and<00:02:03.689> then
+
+00:02:04.639 --> 00:02:04.649 
+you want and see if he picks up and then
+
+00:02:04.649 --> 00:02:09.199 
+you want and see if he picks up and then
+let's<00:02:05.219> just<00:02:05.430> say<00:02:05.610> he's<00:02:05.939> 22<00:02:06.509> years<00:02:06.689> old<00:02:07.250> okay<00:02:08.250> so
+
+00:02:09.199 --> 00:02:09.209 
+let's just say he's 22 years old okay so
+
+00:02:09.209 --> 00:02:11.270 
+let's just say he's 22 years old okay so
+with<00:02:09.780> that<00:02:09.810> how<00:02:10.410> can<00:02:10.470> we<00:02:10.649> get<00:02:11.039> this
+
+00:02:11.270 --> 00:02:11.280 
+with that how can we get this
+
+00:02:11.280 --> 00:02:12.610 
+with that how can we get this
+information<00:02:11.489> out<00:02:12.000> right
+
+00:02:12.610 --> 00:02:12.620 
+information out right
+
+00:02:12.620 --> 00:02:14.290 
+information out right
+we<00:02:12.769> just<00:02:13.010> created<00:02:13.250> this<00:02:13.400> little<00:02:13.700> grouping<00:02:14.120> of
+
+00:02:14.290 --> 00:02:14.300 
+we just created this little grouping of
+
+00:02:14.300 --> 00:02:17.170 
+we just created this little grouping of
+Bob<00:02:15.170> his<00:02:15.440> phone<00:02:15.620> number<00:02:15.920> in<00:02:16.040> his<00:02:16.160> age<00:02:16.310> how<00:02:17.000> can
+
+00:02:17.170 --> 00:02:17.180 
+Bob his phone number in his age how can
+
+00:02:17.180 --> 00:02:19.210 
+Bob his phone number in his age how can
+we<00:02:17.269> get<00:02:17.420> this<00:02:17.540> out<00:02:17.720> well<00:02:18.019> the<00:02:18.560> simplest<00:02:18.890> way<00:02:19.190> is
+
+00:02:19.210 --> 00:02:19.220 
+we get this out well the simplest way is
+
+00:02:19.220 --> 00:02:22.330 
+we get this out well the simplest way is
+just<00:02:19.489> to<00:02:19.670> say<00:02:19.849> entry<00:02:20.239> dot<00:02:20.569> the<00:02:21.290> index<00:02:21.830> of<00:02:22.069> what
+
+00:02:22.330 --> 00:02:22.340 
+just to say entry dot the index of what
+
+00:02:22.340 --> 00:02:23.860 
+just to say entry dot the index of what
+you<00:02:22.459> want<00:02:22.670> to<00:02:22.760> get<00:02:22.879> so<00:02:23.090> this<00:02:23.209> comes<00:02:23.450> back<00:02:23.690> to
+
+00:02:23.860 --> 00:02:23.870 
+you want to get so this comes back to
+
+00:02:23.870 --> 00:02:25.900 
+you want to get so this comes back to
+that<00:02:23.900> zero<00:02:24.349> indexing<00:02:25.010> system<00:02:25.459> that<00:02:25.610> we<00:02:25.700> work
+
+00:02:25.900 --> 00:02:25.910 
+that zero indexing system that we work
+
+00:02:25.910 --> 00:02:27.790 
+that zero indexing system that we work
+in<00:02:26.120> when<00:02:26.599> we're<00:02:26.780> programming<00:02:27.379> right<00:02:27.500> Bob
+
+00:02:27.790 --> 00:02:27.800 
+in when we're programming right Bob
+
+00:02:27.800 --> 00:02:31.150 
+in when we're programming right Bob
+represents<00:02:28.550> the<00:02:29.000> zero<00:02:29.360> if<00:02:29.599> index<00:02:30.410> and<00:02:30.709> the
+
+00:02:31.150 --> 00:02:31.160 
+represents the zero if index and the
+
+00:02:31.160 --> 00:02:32.830 
+represents the zero if index and the
+other<00:02:31.400> things<00:02:31.670> are<00:02:31.849> the<00:02:31.970> first<00:02:32.209> in<00:02:32.390> the<00:02:32.480> second
+
+00:02:32.830 --> 00:02:32.840 
+other things are the first in the second
+
+00:02:32.840 --> 00:02:35.559 
+other things are the first in the second
+so<00:02:33.680> to<00:02:33.980> get<00:02:34.280> if<00:02:34.489> we<00:02:34.549> get<00:02:34.760> entry<00:02:35.030> zero<00:02:35.299> we<00:02:35.450> can
+
+00:02:35.559 --> 00:02:35.569 
+so to get if we get entry zero we can
+
+00:02:35.569 --> 00:02:37.660 
+so to get if we get entry zero we can
+see<00:02:35.840> over<00:02:36.140> on<00:02:36.260> our<00:02:36.410> output<00:02:36.830> that<00:02:37.040> we<00:02:37.250> get<00:02:37.430> Bob
+
+00:02:37.660 --> 00:02:37.670 
+see over on our output that we get Bob
+
+00:02:37.670 --> 00:02:41.440 
+see over on our output that we get Bob
+if<00:02:38.420> we<00:02:38.540> do<00:02:38.660> entry<00:02:39.110> dot<00:02:39.500> one<00:02:39.799> we<00:02:40.430> get<00:02:40.610> the<00:02:41.269> phone
+
+00:02:41.440 --> 00:02:41.450 
+if we do entry dot one we get the phone
+
+00:02:41.450 --> 00:02:44.320 
+if we do entry dot one we get the phone
+number<00:02:41.780> and<00:02:41.989> entry<00:02:42.349> two<00:02:42.709> not<00:02:43.430> surprisingly<00:02:44.030> is
+
+00:02:44.320 --> 00:02:44.330 
+number and entry two not surprisingly is
+
+00:02:44.330 --> 00:02:47.650 
+number and entry two not surprisingly is
+his<00:02:45.049> age<00:02:45.230> so<00:02:46.010> a<00:02:46.040> very<00:02:46.280> simple<00:02:46.549> way<00:02:46.760> to<00:02:46.790> get<00:02:47.450> the
+
+00:02:47.650 --> 00:02:47.660 
+his age so a very simple way to get the
+
+00:02:47.660 --> 00:02:50.470 
+his age so a very simple way to get the
+values<00:02:48.160> however<00:02:49.160> this<00:02:49.880> isn't<00:02:50.120> the<00:02:50.329> most
+
+00:02:50.470 --> 00:02:50.480 
+values however this isn't the most
+
+00:02:50.480 --> 00:02:53.050 
+values however this isn't the most
+descriptive<00:02:51.140> way<00:02:51.470> and<00:02:51.739> it's<00:02:51.860> not<00:02:51.950> always<00:02:52.280> the
+
+00:02:53.050 --> 00:02:53.060 
+descriptive way and it's not always the
+
+00:02:53.060 --> 00:02:54.699 
+descriptive way and it's not always the
+easiest<00:02:53.420> if<00:02:53.630> you<00:02:53.780> have<00:02:53.959> to<00:02:54.079> reuse<00:02:54.290> these
+
+00:02:54.699 --> 00:02:54.709 
+easiest if you have to reuse these
+
+00:02:54.709 --> 00:02:57.309 
+easiest if you have to reuse these
+values<00:02:55.160> a<00:02:55.190> lot<00:02:55.430> so<00:02:56.209> let's<00:02:56.480> say<00:02:56.630> for<00:02:56.660> example<00:02:57.200> we
+
+00:02:57.309 --> 00:02:57.319 
+values a lot so let's say for example we
+
+00:02:57.319 --> 00:02:59.470 
+values a lot so let's say for example we
+wanted<00:02:57.620> to<00:02:57.709> get<00:02:57.890> all<00:02:58.160> these<00:02:58.370> values<00:02:58.760> out<00:02:59.269> of
+
+00:02:59.470 --> 00:02:59.480 
+wanted to get all these values out of
+
+00:02:59.480 --> 00:03:01.119 
+wanted to get all these values out of
+the<00:02:59.599> tuple<00:02:59.780> and<00:03:00.049> assign<00:03:00.379> them<00:03:00.560> to<00:03:00.799> their<00:03:00.980> own
+
+00:03:01.119 --> 00:03:01.129 
+the tuple and assign them to their own
+
+00:03:01.129 --> 00:03:03.789 
+the tuple and assign them to their own
+variables<00:03:01.700> so<00:03:02.000> perhaps<00:03:02.629> we<00:03:02.870> want<00:03:02.989> to<00:03:03.110> give<00:03:03.230> the
+
+00:03:03.789 --> 00:03:03.799 
+variables so perhaps we want to give the
+
+00:03:03.799 --> 00:03:07.300 
+variables so perhaps we want to give the
+name<00:03:04.069> or<00:03:04.760> create<00:03:05.540> a<00:03:05.569> variable<00:03:05.900> called<00:03:06.019> Bob<00:03:06.950> and
+
+00:03:07.300 --> 00:03:07.310 
+name or create a variable called Bob and
+
+00:03:07.310 --> 00:03:09.670 
+name or create a variable called Bob and
+his<00:03:07.430> name<00:03:07.670> and<00:03:08.000> phone<00:03:08.720> number<00:03:08.750> could<00:03:09.620> be
+
+00:03:09.670 --> 00:03:09.680 
+his name and phone number could be
+
+00:03:09.680 --> 00:03:11.830 
+his name and phone number could be
+represented<00:03:09.950> with<00:03:10.310> phone<00:03:10.579> and<00:03:10.879> age<00:03:11.450> could<00:03:11.720> be
+
+00:03:11.830 --> 00:03:11.840 
+represented with phone and age could be
+
+00:03:11.840 --> 00:03:14.140 
+represented with phone and age could be
+represented<00:03:12.019> with<00:03:12.410> age<00:03:12.620> and<00:03:12.890> to<00:03:13.879> do<00:03:13.970> this
+
+00:03:14.140 --> 00:03:14.150 
+represented with age and to do this
+
+00:03:14.150 --> 00:03:16.089 
+represented with age and to do this
+there's<00:03:14.360> very<00:03:14.629> easy<00:03:14.959> syntax<00:03:15.590> we<00:03:15.799> don't<00:03:15.980> have
+
+00:03:16.089 --> 00:03:16.099 
+there's very easy syntax we don't have
+
+00:03:16.099 --> 00:03:18.099 
+there's very easy syntax we don't have
+to<00:03:16.250> assign<00:03:16.639> each<00:03:17.030> element<00:03:17.450> to<00:03:17.540> a<00:03:17.569> new<00:03:17.750> variable
+
+00:03:18.099 --> 00:03:18.109 
+to assign each element to a new variable
+
+00:03:18.109 --> 00:03:20.379 
+to assign each element to a new variable
+we<00:03:18.319> can<00:03:18.470> simply<00:03:18.829> say<00:03:19.040> let<00:03:19.310> use<00:03:20.180> the
+
+00:03:20.379 --> 00:03:20.389 
+we can simply say let use the
+
+00:03:20.389 --> 00:03:21.940 
+we can simply say let use the
+parentheses<00:03:20.989> to<00:03:21.200> represent<00:03:21.680> that<00:03:21.799> we're
+
+00:03:21.940 --> 00:03:21.950 
+parentheses to represent that we're
+
+00:03:21.950 --> 00:03:25.090 
+parentheses to represent that we're
+assigning<00:03:22.639> a<00:03:22.790> tuple<00:03:23.239> basically<00:03:23.720> we<00:03:24.709> can<00:03:24.859> say
+
+00:03:25.090 --> 00:03:25.100 
+assigning a tuple basically we can say
+
+00:03:25.100 --> 00:03:28.720 
+assigning a tuple basically we can say
+name<00:03:25.730> phone<00:03:26.540> and<00:03:26.900> age<00:03:27.470> and<00:03:27.829> then<00:03:28.310> we<00:03:28.430> can<00:03:28.579> just
+
+00:03:28.720 --> 00:03:28.730 
+name phone and age and then we can just
+
+00:03:28.730 --> 00:03:32.170 
+name phone and age and then we can just
+say<00:03:29.239> assign<00:03:29.810> the<00:03:30.380> entry<00:03:30.829> to<00:03:31.370> these<00:03:31.519> values<00:03:31.940> so
+
+00:03:32.170 --> 00:03:32.180 
+say assign the entry to these values so
+
+00:03:32.180 --> 00:03:33.900 
+say assign the entry to these values so
+what<00:03:32.329> we're<00:03:32.480> doing<00:03:32.810> is<00:03:32.989> this<00:03:33.440> is<00:03:33.620> known<00:03:33.829> as
+
+00:03:33.900 --> 00:03:33.910 
+what we're doing is this is known as
+
+00:03:33.910 --> 00:03:37.030 
+what we're doing is this is known as
+decomposing<00:03:34.910> the<00:03:35.060> tuple<00:03:35.389> and<00:03:35.709> all<00:03:36.709> we're
+
+00:03:37.030 --> 00:03:37.040 
+decomposing the tuple and all we're
+
+00:03:37.040 --> 00:03:38.860 
+decomposing the tuple and all we're
+doing<00:03:37.340> is<00:03:37.489> we're<00:03:37.700> taking<00:03:37.730> the<00:03:38.209> elements<00:03:38.780> that
+
+00:03:38.860 --> 00:03:38.870 
+doing is we're taking the elements that
+
+00:03:38.870 --> 00:03:41.199 
+doing is we're taking the elements that
+are<00:03:38.930> in<00:03:39.019> the<00:03:39.230> entry<00:03:39.560> and<00:03:39.880> basically<00:03:40.880> breaking
+
+00:03:41.199 --> 00:03:41.209 
+are in the entry and basically breaking
+
+00:03:41.209 --> 00:03:43.690 
+are in the entry and basically breaking
+it<00:03:41.450> apart<00:03:41.750> and<00:03:41.900> then<00:03:42.139> setting<00:03:42.650> the<00:03:43.220> values
+
+00:03:43.690 --> 00:03:43.700 
+it apart and then setting the values
+
+00:03:43.700 --> 00:03:45.960 
+it apart and then setting the values
+into<00:03:44.389> the<00:03:44.569> ones<00:03:44.750> we<00:03:44.900> just<00:03:45.109> defined<00:03:45.410> here<00:03:45.709> so
+
+00:03:45.960 --> 00:03:45.970 
+into the ones we just defined here so
+
+00:03:45.970 --> 00:03:48.879 
+into the ones we just defined here so
+Bob<00:03:46.970> will<00:03:47.269> be<00:03:47.299> mapped<00:03:47.599> to<00:03:47.780> the<00:03:47.870> name<00:03:48.079> phone<00:03:48.590> to
+
+00:03:48.879 --> 00:03:48.889 
+Bob will be mapped to the name phone to
+
+00:03:48.889 --> 00:03:52.150 
+Bob will be mapped to the name phone to
+the<00:03:48.980> phone<00:03:49.220> and<00:03:49.579> the<00:03:49.819> age<00:03:49.970> to<00:03:50.480> the<00:03:50.660> age<00:03:50.919> so<00:03:51.919> if<00:03:52.069> I
+
+00:03:52.150 --> 00:03:52.160 
+the phone and the age to the age so if I
+
+00:03:52.160 --> 00:03:54.339 
+the phone and the age to the age so if I
+want<00:03:52.310> to<00:03:52.370> use<00:03:52.519> these<00:03:52.700> now<00:03:52.910> I<00:03:52.940> can<00:03:53.540> just<00:03:53.750> feel
+
+00:03:54.339 --> 00:03:54.349 
+want to use these now I can just feel
+
+00:03:54.349 --> 00:03:56.589 
+want to use these now I can just feel
+free<00:03:54.560> to<00:03:54.650> type<00:03:55.310> them<00:03:55.459> out<00:03:55.609> and<00:03:55.790> we<00:03:55.880> can<00:03:56.030> see<00:03:56.060> all
+
+00:03:56.589 --> 00:03:56.599 
+free to type them out and we can see all
+
+00:03:56.599 --> 00:03:58.270 
+free to type them out and we can see all
+the<00:03:56.840> values<00:03:57.200> that<00:03:57.380> are<00:03:57.530> associated<00:03:57.799> with<00:03:58.099> them
+
+00:03:58.270 --> 00:03:58.280 
+the values that are associated with them
+
+00:03:58.280 --> 00:04:00.099 
+the values that are associated with them
+and<00:03:58.459> as<00:03:58.549> you<00:03:58.700> can<00:03:58.790> see<00:03:59.030> they're<00:03:59.599> the<00:03:59.630> exact
+
+00:04:00.099 --> 00:04:00.109 
+and as you can see they're the exact
+
+00:04:00.109 --> 00:04:03.809 
+and as you can see they're the exact
+ones<00:04:00.380> that<00:04:00.620> we<00:04:00.709> had<00:04:00.980> in<00:04:01.310> the<00:04:02.000> tuple<00:04:02.709> another
+
+00:04:03.809 --> 00:04:03.819 
+ones that we had in the tuple another
+
+00:04:03.819 --> 00:04:06.129 
+ones that we had in the tuple another
+interesting<00:04:04.819> thing<00:04:04.849> that<00:04:05.540> we<00:04:05.720> can<00:04:05.870> do<00:04:05.989> with
+
+00:04:06.129 --> 00:04:06.139 
+interesting thing that we can do with
+
+00:04:06.139 --> 00:04:07.839 
+interesting thing that we can do with
+this<00:04:06.260> though<00:04:06.500> is<00:04:06.680> let's<00:04:07.010> say<00:04:07.220> for<00:04:07.250> example<00:04:07.760> we
+
+00:04:07.839 --> 00:04:07.849 
+this though is let's say for example we
+
+00:04:07.849 --> 00:04:10.059 
+this though is let's say for example we
+don't<00:04:07.970> actually<00:04:08.209> care<00:04:08.630> about<00:04:08.660> the<00:04:08.870> age<00:04:09.139> what
+
+00:04:10.059 --> 00:04:10.069 
+don't actually care about the age what
+
+00:04:10.069 --> 00:04:11.710 
+don't actually care about the age what
+we<00:04:10.190> can<00:04:10.340> do<00:04:10.519> with<00:04:10.669> this<00:04:10.790> is<00:04:11.030> we<00:04:11.150> can<00:04:11.329> use<00:04:11.359> the
+
+00:04:11.710 --> 00:04:11.720 
+we can do with this is we can use the
+
+00:04:11.720 --> 00:04:13.839 
+we can do with this is we can use the
+wild<00:04:12.049> card<00:04:12.349> character<00:04:12.410> or<00:04:13.190> the<00:04:13.340> wild<00:04:13.639> card
+
+00:04:13.839 --> 00:04:13.849 
+wild card character or the wild card
+
+00:04:13.849 --> 00:04:16.180 
+wild card character or the wild card
+expression<00:04:14.389> which<00:04:15.139> is<00:04:15.290> the<00:04:15.440> underscore<00:04:15.980> and
+
+00:04:16.180 --> 00:04:16.190 
+expression which is the underscore and
+
+00:04:16.190 --> 00:04:17.890 
+expression which is the underscore and
+this<00:04:16.669> indicates<00:04:16.970> that<00:04:17.359> we<00:04:17.510> don't<00:04:17.720> actually
+
+00:04:17.890 --> 00:04:17.900 
+this indicates that we don't actually
+
+00:04:17.900 --> 00:04:20.080 
+this indicates that we don't actually
+want<00:04:18.320> to<00:04:18.410> use<00:04:18.560> this<00:04:19.220> value<00:04:19.609> we<00:04:19.729> just<00:04:19.760> don't
+
+00:04:20.080 --> 00:04:20.090 
+want to use this value we just don't
+
+00:04:20.090 --> 00:04:22.630 
+want to use this value we just don't
+care<00:04:20.269> about<00:04:20.389> it<00:04:20.659> and<00:04:21.130> oftentimes<00:04:22.130> you<00:04:22.490> might
+
+00:04:22.630 --> 00:04:22.640 
+care about it and oftentimes you might
+
+00:04:22.640 --> 00:04:24.219 
+care about it and oftentimes you might
+not<00:04:22.849> care<00:04:23.090> about<00:04:23.210> it<00:04:23.419> maybe<00:04:23.570> you<00:04:23.780> just<00:04:23.930> want<00:04:24.169> to
+
+00:04:24.219 --> 00:04:24.229 
+not care about it maybe you just want to
+
+00:04:24.229 --> 00:04:25.360 
+not care about it maybe you just want to
+get<00:04:24.349> all<00:04:24.590> the<00:04:24.800> names
+
+00:04:25.360 --> 00:04:25.370 
+get all the names
+
+00:04:25.370 --> 00:04:28.030 
+get all the names
+that<00:04:25.460> you<00:04:25.550> had<00:04:25.760> in<00:04:26.090> these<00:04:27.050> entries<00:04:27.500> so<00:04:27.860> maybe
+
+00:04:28.030 --> 00:04:28.040 
+that you had in these entries so maybe
+
+00:04:28.040 --> 00:04:29.950 
+that you had in these entries so maybe
+you<00:04:28.130> have<00:04:28.190> a<00:04:28.340> array<00:04:28.940> of<00:04:29.090> entries<00:04:29.449> or<00:04:29.630> something
+
+00:04:29.950 --> 00:04:29.960 
+you have a array of entries or something
+
+00:04:29.960 --> 00:04:31.900 
+you have a array of entries or something
+and<00:04:30.139> you<00:04:30.860> wanted<00:04:31.130> just<00:04:31.310> to<00:04:31.370> get<00:04:31.550> the<00:04:31.699> name<00:04:31.880> of
+
+00:04:31.900 --> 00:04:31.910 
+and you wanted just to get the name of
+
+00:04:31.910 --> 00:04:34.360 
+and you wanted just to get the name of
+everybody<00:04:32.570> in<00:04:32.840> these<00:04:33.020> entries<00:04:33.410> well<00:04:34.070> to
+
+00:04:34.360 --> 00:04:34.370 
+everybody in these entries well to
+
+00:04:34.370 --> 00:04:36.040 
+everybody in these entries well to
+simply<00:04:34.699> do<00:04:34.850> that<00:04:35.000> you<00:04:35.300> could<00:04:35.479> just<00:04:35.600> say<00:04:35.810> name
+
+00:04:36.040 --> 00:04:36.050 
+simply do that you could just say name
+
+00:04:36.050 --> 00:04:38.409 
+simply do that you could just say name
+underscore<00:04:36.860> underscore<00:04:37.150> don't<00:04:38.150> worry<00:04:38.330> about
+
+00:04:38.409 --> 00:04:38.419 
+underscore underscore don't worry about
+
+00:04:38.419 --> 00:04:39.909 
+underscore underscore don't worry about
+the<00:04:38.600> other<00:04:38.720> parameters<00:04:39.229> because<00:04:39.410> you're<00:04:39.830> not
+
+00:04:39.909 --> 00:04:39.919 
+the other parameters because you're not
+
+00:04:39.919 --> 00:04:42.400 
+the other parameters because you're not
+interested<00:04:40.520> in<00:04:40.580> them<00:04:40.760> and<00:04:40.940> the<00:04:41.810> while<00:04:41.960> the
+
+00:04:42.400 --> 00:04:42.410 
+interested in them and the while the
+
+00:04:42.410 --> 00:04:44.140 
+interested in them and the while the
+wild-card<00:04:42.740> character<00:04:42.949> makes<00:04:43.460> this<00:04:43.610> a<00:04:43.850> little
+
+00:04:44.140 --> 00:04:44.150 
+wild-card character makes this a little
+
+00:04:44.150 --> 00:04:46.330 
+wild-card character makes this a little
+more<00:04:44.270> clear<00:04:44.570> so<00:04:44.600> if<00:04:45.290> I<00:04:45.710> include<00:04:46.040> that<00:04:46.280> of
+
+00:04:46.330 --> 00:04:46.340 
+more clear so if I include that of
+
+00:04:46.340 --> 00:04:48.640 
+more clear so if I include that of
+course<00:04:46.760> I<00:04:46.940> can't<00:04:47.180> use<00:04:47.419> that<00:04:47.690> age<00:04:48.199> variable
+
+00:04:48.640 --> 00:04:48.650 
+course I can't use that age variable
+
+00:04:48.650 --> 00:04:51.120 
+course I can't use that age variable
+because<00:04:49.160> it<00:04:49.970> doesn't<00:04:50.270> exist
+
+00:04:51.120 --> 00:04:51.130 
+because it doesn't exist
+
+00:04:51.130 --> 00:04:53.379 
+because it doesn't exist
+okay<00:04:52.130> so<00:04:52.190> that's<00:04:52.490> just<00:04:52.669> another<00:04:52.910> neat<00:04:53.360> thing
+
+00:04:53.379 --> 00:04:53.389 
+okay so that's just another neat thing
+
+00:04:53.389 --> 00:04:56.439 
+okay so that's just another neat thing
+that<00:04:53.720> you<00:04:53.810> can<00:04:53.930> do<00:04:54.139> with<00:04:54.680> tuples<00:04:55.130> the<00:04:56.120> last
+
+00:04:56.439 --> 00:04:56.449 
+that you can do with tuples the last
+
+00:04:56.449 --> 00:04:58.659 
+that you can do with tuples the last
+thing<00:04:56.720> that<00:04:56.750> I'm<00:04:56.960> gonna<00:04:57.110> show<00:04:57.350> you<00:04:57.410> is<00:04:58.010> naming
+
+00:04:58.659 --> 00:04:58.669 
+thing that I'm gonna show you is naming
+
+00:04:58.669 --> 00:05:01.120 
+thing that I'm gonna show you is naming
+the<00:04:58.940> parameters<00:04:59.419> when<00:04:59.780> you<00:04:59.810> create<00:05:00.440> them<00:05:00.650> so
+
+00:05:01.120 --> 00:05:01.130 
+the parameters when you create them so
+
+00:05:01.130 --> 00:05:03.730 
+the parameters when you create them so
+what<00:05:01.460> you<00:05:01.580> can<00:05:01.760> do<00:05:01.940> is<00:05:02.180> let's<00:05:03.020> say<00:05:03.199> for<00:05:03.229> example
+
+00:05:03.730 --> 00:05:03.740 
+what you can do is let's say for example
+
+00:05:03.740 --> 00:05:05.860 
+what you can do is let's say for example
+we<00:05:03.830> wanted<00:05:04.130> to<00:05:04.250> represent<00:05:04.430> the<00:05:04.940> size<00:05:05.360> of<00:05:05.720> a
+
+00:05:05.860 --> 00:05:05.870 
+we wanted to represent the size of a
+
+00:05:05.870 --> 00:05:09.370 
+we wanted to represent the size of a
+rectangle<00:05:06.500> we<00:05:07.039> could<00:05:07.220> say<00:05:07.400> let's<00:05:07.699> size<00:05:08.169> be<00:05:09.169> a
+
+00:05:09.370 --> 00:05:09.380 
+rectangle we could say let's size be a
+
+00:05:09.380 --> 00:05:13.029 
+rectangle we could say let's size be a
+tuple<00:05:10.070> and<00:05:10.510> we'll<00:05:11.510> name<00:05:11.810> each<00:05:12.199> parameter<00:05:12.800> so
+
+00:05:13.029 --> 00:05:13.039 
+tuple and we'll name each parameter so
+
+00:05:13.039 --> 00:05:15.909 
+tuple and we'll name each parameter so
+we'll<00:05:13.190> say<00:05:13.400> the<00:05:13.729> width<00:05:13.940> and<00:05:14.660> we<00:05:15.560> just<00:05:15.770> use
+
+00:05:15.909 --> 00:05:15.919 
+we'll say the width and we just use
+
+00:05:15.919 --> 00:05:18.550 
+we'll say the width and we just use
+colon<00:05:16.370> and<00:05:16.550> then<00:05:17.090> the<00:05:17.150> thing<00:05:17.840> that<00:05:17.990> we<00:05:18.080> want<00:05:18.229> so
+
+00:05:18.550 --> 00:05:18.560 
+colon and then the thing that we want so
+
+00:05:18.560 --> 00:05:23.620 
+colon and then the thing that we want so
+with<00:05:18.800> 10<00:05:19.310> and<00:05:19.960> we'll<00:05:20.960> say<00:05:21.169> length<00:05:21.470> and<00:05:22.630> that
+
+00:05:23.620 --> 00:05:23.630 
+with 10 and we'll say length and that
+
+00:05:23.630 --> 00:05:27.010 
+with 10 and we'll say length and that
+could<00:05:23.810> be<00:05:23.900> 20<00:05:24.229> for<00:05:24.500> example<00:05:24.889> okay<00:05:25.880> so<00:05:26.330> our<00:05:26.720> size
+
+00:05:27.010 --> 00:05:27.020 
+could be 20 for example okay so our size
+
+00:05:27.020 --> 00:05:29.260 
+could be 20 for example okay so our size
+we've<00:05:27.530> now<00:05:27.830> defined<00:05:28.070> to<00:05:28.490> have<00:05:28.520> a<00:05:28.639> width<00:05:28.850> of<00:05:29.060> 10
+
+00:05:29.260 --> 00:05:29.270 
+we've now defined to have a width of 10
+
+00:05:29.270 --> 00:05:31.659 
+we've now defined to have a width of 10
+the<00:05:29.450> length<00:05:29.630> of<00:05:29.810> 20<00:05:30.110> and<00:05:30.320> we<00:05:30.860> can<00:05:31.010> access<00:05:31.250> each
+
+00:05:31.659 --> 00:05:31.669 
+the length of 20 and we can access each
+
+00:05:31.669 --> 00:05:34.930 
+the length of 20 and we can access each
+one<00:05:32.000> of<00:05:32.120> these<00:05:32.210> by<00:05:32.810> saying<00:05:33.110> size<00:05:33.860> dot<00:05:34.340> length
+
+00:05:34.930 --> 00:05:34.940 
+one of these by saying size dot length
+
+00:05:34.940 --> 00:05:37.839 
+one of these by saying size dot length
+or<00:05:35.270> size<00:05:35.330> dot<00:05:36.020> width<00:05:36.320> and<00:05:36.650> as<00:05:37.130> we<00:05:37.340> can<00:05:37.430> see<00:05:37.490> we
+
+00:05:37.839 --> 00:05:37.849 
+or size dot width and as we can see we
+
+00:05:37.849 --> 00:05:40.930 
+or size dot width and as we can see we
+get<00:05:37.970> the<00:05:38.120> output<00:05:38.150> of<00:05:38.630> each<00:05:39.410> element<00:05:40.250> that<00:05:40.700> is
+
+00:05:40.930 --> 00:05:40.940 
+get the output of each element that is
+
+00:05:40.940 --> 00:05:44.650 
+get the output of each element that is
+in<00:05:41.090> this<00:05:41.900> tuple<00:05:42.770> so<00:05:43.310> we're<00:05:43.520> essentially<00:05:44.300> sort
+
+00:05:44.650 --> 00:05:44.660 
+in this tuple so we're essentially sort
+
+00:05:44.660 --> 00:05:46.300 
+in this tuple so we're essentially sort
+of<00:05:44.780> decomposing<00:05:45.410> it<00:05:45.650> but<00:05:45.889> this<00:05:46.099> is<00:05:46.280> a
+
+00:05:46.300 --> 00:05:46.310 
+of decomposing it but this is a
+
+00:05:46.310 --> 00:05:48.370 
+of decomposing it but this is a
+different<00:05:46.729> way<00:05:46.940> that<00:05:47.510> we<00:05:47.570> can<00:05:47.840> represent<00:05:48.020> it
+
+00:05:48.370 --> 00:05:48.380 
+different way that we can represent it
+
+00:05:48.380 --> 00:05:49.900 
+different way that we can represent it
+if<00:05:48.470> we<00:05:48.620> name<00:05:48.860> the<00:05:49.070> parameters<00:05:49.639> from<00:05:49.820> the
+
+00:05:49.900 --> 00:05:49.910 
+if we name the parameters from the
+
+00:05:49.910 --> 00:05:53.050 
+if we name the parameters from the
+beginning<00:05:50.270> instead<00:05:50.870> of<00:05:51.200> using<00:05:51.500> 0<00:05:51.830> 1<00:05:52.039> 2<00:05:52.280> we<00:05:52.910> can
+
+00:05:53.050 --> 00:05:53.060 
+beginning instead of using 0 1 2 we can
+
+00:05:53.060 --> 00:05:54.700 
+beginning instead of using 0 1 2 we can
+actually<00:05:53.450> use<00:05:53.660> the<00:05:53.990> names<00:05:54.229> that<00:05:54.560> we
+
+00:05:54.700 --> 00:05:54.710 
+actually use the names that we
+
+00:05:54.710 --> 00:05:58.450 
+actually use the names that we
+associated<00:05:55.580> with<00:05:55.940> that<00:05:56.710> anyway<00:05:57.710> I<00:05:57.860> hope<00:05:58.280> you
+
+00:05:58.450 --> 00:05:58.460 
+associated with that anyway I hope you
+
+00:05:58.460 --> 00:06:00.100 
+associated with that anyway I hope you
+enjoyed<00:05:58.760> this<00:05:58.910> tutorial<00:05:59.060> if<00:05:59.479> you<00:05:59.599> have<00:05:59.930> any
+
+00:06:00.100 --> 00:06:00.110 
+enjoyed this tutorial if you have any
+
+00:06:00.110 --> 00:06:01.689 
+enjoyed this tutorial if you have any
+other<00:06:00.229> questions<00:06:00.620> on<00:06:00.770> tuples<00:06:01.250> I<00:06:01.430> know<00:06:01.490> this
+
+00:06:01.689 --> 00:06:01.699 
+other questions on tuples I know this
+
+00:06:01.699 --> 00:06:03.339 
+other questions on tuples I know this
+was<00:06:01.820> a<00:06:01.910> pretty<00:06:02.090> quick<00:06:02.300> one<00:06:02.479> but<00:06:02.720> it's<00:06:03.169> all<00:06:03.289> I
+
+00:06:03.339 --> 00:06:03.349 
+was a pretty quick one but it's all I
+
+00:06:03.349 --> 00:06:04.930 
+was a pretty quick one but it's all I
+really<00:06:03.530> had<00:06:03.740> to<00:06:03.830> cover<00:06:04.010> for<00:06:04.160> tuples<00:06:04.760> that
+
+00:06:04.930 --> 00:06:04.940 
+really had to cover for tuples that
+
+00:06:04.940 --> 00:06:07.300 
+really had to cover for tuples that
+really<00:06:05.360> explains<00:06:06.169> just<00:06:06.979> about<00:06:07.099> everything
+
+00:06:07.300 --> 00:06:07.310 
+really explains just about everything
+
+00:06:07.310 --> 00:06:09.490 
+really explains just about everything
+you<00:06:07.430> can<00:06:07.669> do<00:06:07.880> with<00:06:07.910> them<00:06:08.120> we'll<00:06:08.870> talk<00:06:09.349> about
+
+00:06:09.490 --> 00:06:09.500 
+you can do with them we'll talk about
+
+00:06:09.500 --> 00:06:11.200 
+you can do with them we'll talk about
+how<00:06:09.740> we<00:06:09.770> can<00:06:10.010> use<00:06:10.039> these<00:06:10.370> in<00:06:10.580> functions<00:06:11.030> and
+
+00:06:11.200 --> 00:06:11.210 
+how we can use these in functions and
+
+00:06:11.210 --> 00:06:13.540 
+how we can use these in functions and
+everything<00:06:11.510> when<00:06:11.690> we<00:06:11.720> actually<00:06:12.590> get<00:06:12.770> to<00:06:12.800> using
+
+00:06:13.540 --> 00:06:13.550 
+everything when we actually get to using
+
+00:06:13.550 --> 00:06:15.159 
+everything when we actually get to using
+them<00:06:13.669> in<00:06:13.789> functions<00:06:14.150> but<00:06:14.840> you'll<00:06:15.020> actually
+
+00:06:15.159 --> 00:06:15.169 
+them in functions but you'll actually
+
+00:06:15.169 --> 00:06:17.409 
+them in functions but you'll actually
+see<00:06:15.530> the<00:06:15.740> use<00:06:15.979> of<00:06:16.160> them<00:06:16.340> in<00:06:16.520> the<00:06:16.760> next<00:06:16.970> tutorial
+
+00:06:17.409 --> 00:06:17.419 
+see the use of them in the next tutorial
+
+00:06:17.419 --> 00:06:19.659 
+see the use of them in the next tutorial
+as<00:06:17.479> well<00:06:17.660> so<00:06:17.990> I<00:06:18.020> figured<00:06:18.410> I'd<00:06:18.590> try<00:06:19.190> and<00:06:19.310> explain
+
+00:06:19.659 --> 00:06:19.669 
+as well so I figured I'd try and explain
+
+00:06:19.669 --> 00:06:21.760 
+as well so I figured I'd try and explain
+them<00:06:19.820> now<00:06:20.000> if<00:06:20.840> you<00:06:20.930> have<00:06:21.080> any<00:06:21.229> questions<00:06:21.560> leave
+
+00:06:21.760 --> 00:06:21.770 
+them now if you have any questions leave
+
+00:06:21.770 --> 00:06:23.200 
+them now if you have any questions leave
+your<00:06:21.889> questions<00:06:22.220> in<00:06:22.310> the<00:06:22.460> comments<00:06:22.729> below<00:06:22.849> and
+
+00:06:23.200 --> 00:06:23.210 
+your questions in the comments below and
+
+00:06:23.210 --> 00:06:26.800 
+your questions in the comments below and
+I<00:06:23.449> will<00:06:23.510> see<00:06:23.780> you<00:06:23.870> next<00:06:24.110> time<00:06:24.229> peace
+

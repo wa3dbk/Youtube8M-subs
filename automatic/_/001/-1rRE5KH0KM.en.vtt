@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:18.000 --> 00:00:35.000
+Hello, today I will show you, how to broadcast Wi-Fi from your computer, without any program.
+
+00:00:59.440 --> 00:01:01.440
+First step: run the "Commander"- as administrator
+
+00:01:01.440 --> 00:02:00.000
+In the commander write this: "netsh wlan set hostednetwork mode =allow ssid="network name" key="password""and press ENTER
+
+00:02:41.800 --> 00:02:52.800
+Open: Control panel -&gt; Network and Internet -&gt; Center of network and sharing-&gt; Click on the connection which you exactly connected.
+
+00:03:00.800 --> 00:03:36.853
+Click on the "properties"-&gt; sharing -&gt;mark "Enable sharing this internet connection to all users-&gt;settings-&gt; and mark all check boxes and press OK
+
+00:03:36.853 --> 00:03:57.600
+Go back to commander and write:"netsh wlan start hostednetwork" and now it broadcast your network, you can check it for example on mobile phone or other  device with Wi-Fi.
+
+00:03:58.100 --> 00:05:31.300
+And when you want turn off it, write in commander:"netsh wlan stop hostednetwork".
+
+00:05:31.300 --> 00:05:50.300
+THANKS FOR WATCHING AND ENJOY YOUR INTERNET CONNECTION
+
