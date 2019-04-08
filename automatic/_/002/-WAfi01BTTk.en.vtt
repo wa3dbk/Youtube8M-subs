@@ -1,0 +1,617 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:43.400 --> 00:00:45.830 
+
+welcome<00:00:44.400> to<00:00:44.520> the<00:00:44.640> advanced<00:00:45.150> visual<00:00:45.540> effects
+
+00:00:45.830 --> 00:00:45.840 
+welcome to the advanced visual effects
+
+00:00:45.840 --> 00:00:49.040 
+welcome to the advanced visual effects
+two-part<00:00:46.440> series<00:00:46.739> here<00:00:47.190> at<00:00:47.310> eat<00:00:47.489> 3d<00:00:47.880> comm<00:00:48.420> my
+
+00:00:49.040 --> 00:00:49.050 
+two-part series here at eat 3d comm my
+
+00:00:49.050 --> 00:00:50.780 
+two-part series here at eat 3d comm my
+name<00:00:49.230> is<00:00:49.379> Jeremy<00:00:49.770> Baldwin<00:00:50.190> and<00:00:50.370> during<00:00:50.700> the
+
+00:00:50.780 --> 00:00:50.790 
+name is Jeremy Baldwin and during the
+
+00:00:50.790 --> 00:00:52.850 
+name is Jeremy Baldwin and during the
+next<00:00:51.000> few<00:00:51.239> hours<00:00:51.300> we<00:00:51.809> will<00:00:51.840> be<00:00:51.960> exploring<00:00:52.590> many
+
+00:00:52.850 --> 00:00:52.860 
+next few hours we will be exploring many
+
+00:00:52.860 --> 00:00:54.860 
+next few hours we will be exploring many
+methods<00:00:53.309> and<00:00:53.460> techniques<00:00:53.879> it<00:00:54.360> will<00:00:54.540> expose
+
+00:00:54.860 --> 00:00:54.870 
+methods and techniques it will expose
+
+00:00:54.870 --> 00:00:57.140 
+methods and techniques it will expose
+you<00:00:55.200> to<00:00:55.230> some<00:00:55.440> of<00:00:55.680> the<00:00:55.770> practices<00:00:56.400> used<00:00:56.850> in
+
+00:00:57.140 --> 00:00:57.150 
+you to some of the practices used in
+
+00:00:57.150 --> 00:01:00.080 
+you to some of the practices used in
+triple-a<00:00:57.600> studios<00:00:58.020> today<00:00:58.260> in<00:00:58.650> part<00:00:59.610> 1<00:00:59.820> of<00:00:59.850> this
+
+00:01:00.080 --> 00:01:00.090 
+triple-a studios today in part 1 of this
+
+00:01:00.090 --> 00:01:01.939 
+triple-a studios today in part 1 of this
+crash<00:01:00.330> course<00:01:00.600> we<00:01:00.809> will<00:01:00.930> begin<00:01:01.110> by<00:01:01.320> looking<00:01:01.500> at
+
+00:01:01.939 --> 00:01:01.949 
+crash course we will begin by looking at
+
+00:01:01.949 --> 00:01:03.680 
+crash course we will begin by looking at
+how<00:01:02.129> the<00:01:02.190> influence<00:01:02.670> of<00:01:02.970> volumes<00:01:03.449> within
+
+00:01:03.680 --> 00:01:03.690 
+how the influence of volumes within
+
+00:01:03.690 --> 00:01:05.450 
+how the influence of volumes within
+unreal<00:01:04.199> shaders<00:01:04.589> can<00:01:04.770> be<00:01:04.920> visualized
+
+00:01:05.450 --> 00:01:05.460 
+unreal shaders can be visualized
+
+00:01:05.460 --> 00:01:07.940 
+unreal shaders can be visualized
+beginning<00:01:06.300> with<00:01:06.479> a<00:01:06.509> max<00:01:06.869> script<00:01:07.229> example<00:01:07.710> we
+
+00:01:07.940 --> 00:01:07.950 
+beginning with a max script example we
+
+00:01:07.950 --> 00:01:09.650 
+beginning with a max script example we
+will<00:01:08.100> learn<00:01:08.250> how<00:01:08.520> to<00:01:08.550> build<00:01:08.970> a<00:01:09.149> shader<00:01:09.420> that
+
+00:01:09.650 --> 00:01:09.660 
+will learn how to build a shader that
+
+00:01:09.660 --> 00:01:11.960 
+will learn how to build a shader that
+modifies<00:01:10.140> object<00:01:10.740> properties<00:01:11.220> within<00:01:11.460> unreal
+
+00:01:11.960 --> 00:01:11.970 
+modifies object properties within unreal
+
+00:01:11.970 --> 00:01:13.850 
+modifies object properties within unreal
+based<00:01:12.330> upon<00:01:12.660> their<00:01:12.810> position<00:01:13.350> relative<00:01:13.590> to
+
+00:01:13.850 --> 00:01:13.860 
+based upon their position relative to
+
+00:01:13.860 --> 00:01:16.030 
+based upon their position relative to
+the<00:01:14.040> world<00:01:14.310> and<00:01:14.700> a<00:01:14.910> world<00:01:14.940> mask
+
+00:01:16.030 --> 00:01:16.040 
+the world and a world mask
+
+00:01:16.040 --> 00:01:18.410 
+the world and a world mask
+we<00:01:17.040> will<00:01:17.190> then<00:01:17.340> focus<00:01:17.550> on<00:01:17.940> building<00:01:18.240> a
+
+00:01:18.410 --> 00:01:18.420 
+we will then focus on building a
+
+00:01:18.420 --> 00:01:20.300 
+we will then focus on building a
+material<00:01:18.869> function<00:01:19.229> sub<00:01:19.470> library<00:01:19.950> that<00:01:20.190> will
+
+00:01:20.300 --> 00:01:20.310 
+material function sub library that will
+
+00:01:20.310 --> 00:01:22.010 
+material function sub library that will
+make<00:01:20.490> future<00:01:20.759> development<00:01:21.420> fast<00:01:21.720> and
+
+00:01:22.010 --> 00:01:22.020 
+make future development fast and
+
+00:01:22.020 --> 00:01:23.480 
+make future development fast and
+efficient<00:01:22.470> we<00:01:22.920> will<00:01:23.070> begin<00:01:23.220> by<00:01:23.460> creating
+
+00:01:23.480 --> 00:01:23.490 
+efficient we will begin by creating
+
+00:01:23.490 --> 00:01:25.910 
+efficient we will begin by creating
+custom<00:01:24.030> distortion<00:01:24.840> that<00:01:25.020> will<00:01:25.200> help<00:01:25.380> future
+
+00:01:25.910 --> 00:01:25.920 
+custom distortion that will help future
+
+00:01:25.920 --> 00:01:27.770 
+custom distortion that will help future
+weapon<00:01:26.340> functions<00:01:26.940> stand<00:01:27.240> out<00:01:27.479> from
+
+00:01:27.770 --> 00:01:27.780 
+weapon functions stand out from
+
+00:01:27.780 --> 00:01:30.020 
+weapon functions stand out from
+traditional<00:01:28.380> distortion<00:01:28.979> methods<00:01:29.369> we<00:01:29.910> will
+
+00:01:30.020 --> 00:01:30.030 
+traditional distortion methods we will
+
+00:01:30.030 --> 00:01:31.820 
+traditional distortion methods we will
+then<00:01:30.180> move<00:01:30.330> on<00:01:30.570> to<00:01:30.810> multiple<00:01:31.229> vertex
+
+00:01:31.820 --> 00:01:31.830 
+then move on to multiple vertex
+
+00:01:31.830 --> 00:01:33.710 
+then move on to multiple vertex
+animation<00:01:32.460> techniques<00:01:32.970> using<00:01:33.330> world
+
+00:01:33.710 --> 00:01:33.720 
+animation techniques using world
+
+00:01:33.720 --> 00:01:35.630 
+animation techniques using world
+position<00:01:34.140> offset<00:01:34.380> to<00:01:34.830> manipulate<00:01:35.369> an<00:01:35.490> object
+
+00:01:35.630 --> 00:01:35.640 
+position offset to manipulate an object
+
+00:01:35.640 --> 00:01:39.109 
+position offset to manipulate an object
+state<00:01:36.360> in<00:01:36.630> gameplay<00:01:36.960> or<00:01:37.409> cinematics<00:01:38.100> we<00:01:38.970> will
+
+00:01:39.109 --> 00:01:39.119 
+state in gameplay or cinematics we will
+
+00:01:39.119 --> 00:01:41.210 
+state in gameplay or cinematics we will
+also<00:01:39.299> look<00:01:39.659> at<00:01:39.780> generating<00:01:40.170> fake<00:01:40.590> caustics
+
+00:01:41.210 --> 00:01:41.220 
+also look at generating fake caustics
+
+00:01:41.220 --> 00:01:43.070 
+also look at generating fake caustics
+using<00:01:41.640> world<00:01:41.940> coordinates<00:01:42.479> rather<00:01:42.720> than<00:01:42.930> you
+
+00:01:43.070 --> 00:01:43.080 
+using world coordinates rather than you
+
+00:01:43.080 --> 00:01:45.200 
+using world coordinates rather than you
+v's<00:01:43.320> this<00:01:43.979> can<00:01:44.159> be<00:01:44.250> extremely<00:01:44.549> useful<00:01:44.760> in
+
+00:01:45.200 --> 00:01:45.210 
+v's this can be extremely useful in
+
+00:01:45.210 --> 00:01:47.090 
+v's this can be extremely useful in
+situations<00:01:45.780> where<00:01:45.990> large-scale<00:01:46.710> effects
+
+00:01:47.090 --> 00:01:47.100 
+situations where large-scale effects
+
+00:01:47.100 --> 00:01:49.039 
+situations where large-scale effects
+need<00:01:47.400> to<00:01:47.580> be<00:01:47.700> displayed<00:01:48.210> across<00:01:48.540> multiple
+
+00:01:49.039 --> 00:01:49.049 
+need to be displayed across multiple
+
+00:01:49.049 --> 00:01:51.289 
+need to be displayed across multiple
+objects<00:01:49.619> within<00:01:49.799> the<00:01:49.950> game<00:01:50.250> yet<00:01:50.729> seamlessly
+
+00:01:51.289 --> 00:01:51.299 
+objects within the game yet seamlessly
+
+00:01:51.299 --> 00:01:53.359 
+objects within the game yet seamlessly
+blend<00:01:51.570> together<00:01:51.900> mixed<00:01:52.890> we<00:01:53.070> will<00:01:53.220> begin
+
+00:01:53.359 --> 00:01:53.369 
+blend together mixed we will begin
+
+00:01:53.369 --> 00:01:55.850 
+blend together mixed we will begin
+creating<00:01:54.030> a<00:01:54.210> few<00:01:54.540> unique<00:01:54.960> shaders<00:01:55.439> that<00:01:55.710> could
+
+00:01:55.850 --> 00:01:55.860 
+creating a few unique shaders that could
+
+00:01:55.860 --> 00:01:57.520 
+creating a few unique shaders that could
+be<00:01:55.979> useful<00:01:56.159> in<00:01:56.460> a<00:01:56.549> wide<00:01:56.760> range<00:01:56.790> of<00:01:57.330> situations
+
+00:01:57.520 --> 00:01:57.530 
+be useful in a wide range of situations
+
+00:01:57.530 --> 00:02:00.260 
+be useful in a wide range of situations
+we<00:01:58.530> will<00:01:58.680> develop<00:01:58.920> an<00:01:59.189> ice<00:01:59.400> shader<00:01:59.760> that<00:02:00.060> has
+
+00:02:00.260 --> 00:02:00.270 
+we will develop an ice shader that has
+
+00:02:00.270 --> 00:02:02.330 
+we will develop an ice shader that has
+many<00:02:00.689> customizable<00:02:01.200> options<00:02:01.470> for<00:02:02.100> modifying
+
+00:02:02.330 --> 00:02:02.340 
+many customizable options for modifying
+
+00:02:02.340 --> 00:02:04.429 
+many customizable options for modifying
+everything<00:02:03.150> from<00:02:03.360> depth<00:02:03.600> color<00:02:03.869> to<00:02:04.200> depth
+
+00:02:04.429 --> 00:02:04.439 
+everything from depth color to depth
+
+00:02:04.439 --> 00:02:07.070 
+everything from depth color to depth
+offsets<00:02:05.040> and<00:02:05.220> even<00:02:05.640> melt<00:02:05.880> factors<00:02:06.330> we<00:02:07.049> will
+
+00:02:07.070 --> 00:02:07.080 
+offsets and even melt factors we will
+
+00:02:07.080 --> 00:02:08.840 
+offsets and even melt factors we will
+then<00:02:07.320> look<00:02:07.500> at<00:02:07.650> generating<00:02:08.009> fluid<00:02:08.610> light
+
+00:02:08.840 --> 00:02:08.850 
+then look at generating fluid light
+
+00:02:08.850 --> 00:02:11.150 
+then look at generating fluid light
+movements<00:02:09.540> and<00:02:09.690> random<00:02:10.200> see<00:02:10.470> movies<00:02:10.890> that
+
+00:02:11.150 --> 00:02:11.160 
+movements and random see movies that
+
+00:02:11.160 --> 00:02:12.979 
+movements and random see movies that
+will<00:02:11.310> be<00:02:11.430> used<00:02:11.670> to<00:02:11.790> generate<00:02:12.030> many<00:02:12.600> variations
+
+00:02:12.979 --> 00:02:12.989 
+will be used to generate many variations
+
+00:02:12.989 --> 00:02:15.289 
+will be used to generate many variations
+of<00:02:13.470> falling<00:02:13.920> dust<00:02:14.190> all<00:02:14.400> from<00:02:14.910> one<00:02:15.090> material
+
+00:02:15.289 --> 00:02:15.299 
+of falling dust all from one material
+
+00:02:15.299 --> 00:02:17.600 
+of falling dust all from one material
+instance<00:02:16.049> we<00:02:16.620> will<00:02:16.709> also<00:02:16.920> look<00:02:17.280> at<00:02:17.459> how<00:02:17.579> to
+
+00:02:17.600 --> 00:02:17.610 
+instance we will also look at how to
+
+00:02:17.610 --> 00:02:19.940 
+instance we will also look at how to
+create<00:02:17.970> our<00:02:18.150> own<00:02:18.329> unique<00:02:19.049> dust<00:02:19.440> particulates
+
+00:02:19.940 --> 00:02:19.950 
+create our own unique dust particulates
+
+00:02:19.950 --> 00:02:22.069 
+create our own unique dust particulates
+based<00:02:20.610> off<00:02:20.880> of<00:02:20.910> a<00:02:21.180> noise<00:02:21.420> function<00:02:21.870> and
+
+00:02:22.069 --> 00:02:22.079 
+based off of a noise function and
+
+00:02:22.079 --> 00:02:24.380 
+based off of a noise function and
+texture<00:02:22.470> information<00:02:22.970> utilizing<00:02:23.970> the<00:02:24.090> many
+
+00:02:24.380 --> 00:02:24.390 
+texture information utilizing the many
+
+00:02:24.390 --> 00:02:26.330 
+texture information utilizing the many
+options<00:02:24.660> exposed<00:02:25.260> in<00:02:25.410> our<00:02:25.500> material<00:02:25.950> instance
+
+00:02:26.330 --> 00:02:26.340 
+options exposed in our material instance
+
+00:02:26.340 --> 00:02:28.310 
+options exposed in our material instance
+we<00:02:26.700> will<00:02:26.820> generate<00:02:27.209> a<00:02:27.269> unique<00:02:27.570> particle
+
+00:02:28.310 --> 00:02:28.320 
+we will generate a unique particle
+
+00:02:28.320 --> 00:02:30.410 
+we will generate a unique particle
+texture<00:02:28.739> and<00:02:28.950> applied<00:02:29.250> that<00:02:29.280> to<00:02:29.820> our<00:02:29.940> Cascade
+
+00:02:30.410 --> 00:02:30.420 
+texture and applied that to our Cascade
+
+00:02:30.420 --> 00:02:32.990 
+texture and applied that to our Cascade
+model<00:02:30.810> next<00:02:31.560> we<00:02:31.829> will<00:02:31.980> begin<00:02:32.130> constructing<00:02:32.760> a
+
+00:02:32.990 --> 00:02:33.000 
+model next we will begin constructing a
+
+00:02:33.000 --> 00:02:35.060 
+model next we will begin constructing a
+tiled<00:02:33.329> lava<00:02:33.660> shader<00:02:34.110> that<00:02:34.380> uses<00:02:34.739> a<00:02:34.769> custom
+
+00:02:35.060 --> 00:02:35.070 
+tiled lava shader that uses a custom
+
+00:02:35.070 --> 00:02:37.520 
+tiled lava shader that uses a custom
+exponent<00:02:35.910> based<00:02:36.150> fluid<00:02:36.510> map<00:02:36.840> and<00:02:37.079> simple
+
+00:02:37.520 --> 00:02:37.530 
+exponent based fluid map and simple
+
+00:02:37.530 --> 00:02:39.440 
+exponent based fluid map and simple
+vertex<00:02:37.980> animation<00:02:38.579> we<00:02:38.940> will<00:02:39.060> then<00:02:39.269> build
+
+00:02:39.440 --> 00:02:39.450 
+vertex animation we will then build
+
+00:02:39.450 --> 00:02:41.659 
+vertex animation we will then build
+several<00:02:39.930> variations<00:02:40.230> of<00:02:40.650> this<00:02:40.980> shader<00:02:41.340> to
+
+00:02:41.659 --> 00:02:41.669 
+several variations of this shader to
+
+00:02:41.669 --> 00:02:43.699 
+several variations of this shader to
+better<00:02:41.880> explore<00:02:42.389> the<00:02:42.570> individual<00:02:43.169> options
+
+00:02:43.699 --> 00:02:43.709 
+better explore the individual options
+
+00:02:43.709 --> 00:02:46.460 
+better explore the individual options
+and<00:02:43.950> their<00:02:44.130> flexibility<00:02:44.870> we<00:02:45.870> will<00:02:45.989> also<00:02:46.290> take
+
+00:02:46.460 --> 00:02:46.470 
+and their flexibility we will also take
+
+00:02:46.470 --> 00:02:47.090 
+and their flexibility we will also take
+a<00:02:46.500> look<00:02:46.590> at
+
+00:02:47.090 --> 00:02:47.100 
+a look at
+
+00:02:47.100 --> 00:02:49.100 
+a look at
+strutting<00:02:47.370> a<00:02:47.490> concrete<00:02:48.060> shader<00:02:48.450> based<00:02:48.780> solely
+
+00:02:49.100 --> 00:02:49.110 
+strutting a concrete shader based solely
+
+00:02:49.110 --> 00:02:52.160 
+strutting a concrete shader based solely
+off<00:02:49.260> of<00:02:49.440> world<00:02:49.890> coordinates<00:02:50.750> moving<00:02:51.750> to<00:02:51.840> 3ds
+
+00:02:52.160 --> 00:02:52.170 
+off of world coordinates moving to 3ds
+
+00:02:52.170 --> 00:02:54.170 
+off of world coordinates moving to 3ds
+max<00:02:52.260> there<00:02:52.950> will<00:02:53.070> be<00:02:53.100> a<00:02:53.220> brief<00:02:53.550> overview<00:02:54.150> of
+
+00:02:54.170 --> 00:02:54.180 
+max there will be a brief overview of
+
+00:02:54.180 --> 00:02:56.330 
+max there will be a brief overview of
+how<00:02:54.390> to<00:02:54.450> quickly<00:02:54.780> rig<00:02:55.140> a<00:02:55.320> simple<00:02:55.710> holographic
+
+00:02:56.330 --> 00:02:56.340 
+how to quickly rig a simple holographic
+
+00:02:56.340 --> 00:02:59.030 
+how to quickly rig a simple holographic
+mesh<00:02:56.640> and<00:02:56.940> set<00:02:57.300> up<00:02:57.420> its<00:02:57.570> UV<00:02:57.780> space<00:02:58.200> to<00:02:58.530> mask<00:02:58.770> off
+
+00:02:59.030 --> 00:02:59.040 
+mesh and set up its UV space to mask off
+
+00:02:59.040 --> 00:03:01.910 
+mesh and set up its UV space to mask off
+vertex<00:02:59.640> animation<00:03:00.210> in<00:03:00.500> unreal<00:03:01.500> we<00:03:01.770> will
+
+00:03:01.910 --> 00:03:01.920 
+vertex animation in unreal we will
+
+00:03:01.920 --> 00:03:04.040 
+vertex animation in unreal we will
+construct<00:03:02.280> a<00:03:02.610> holographic<00:03:03.150> master<00:03:03.810> shader
+
+00:03:04.040 --> 00:03:04.050 
+construct a holographic master shader
+
+00:03:04.050 --> 00:03:06.110 
+construct a holographic master shader
+full<00:03:04.380> of<00:03:04.530> intuitive<00:03:05.070> parameters<00:03:05.670> that<00:03:05.850> can<00:03:06.000> be
+
+00:03:06.110 --> 00:03:06.120 
+full of intuitive parameters that can be
+
+00:03:06.120 --> 00:03:08.720 
+full of intuitive parameters that can be
+driven<00:03:06.360> by<00:03:06.660> script<00:03:07.020> or<00:03:07.170> code<00:03:07.560> we<00:03:08.400> will<00:03:08.520> then
+
+00:03:08.720 --> 00:03:08.730 
+driven by script or code we will then
+
+00:03:08.730 --> 00:03:10.880 
+driven by script or code we will then
+set<00:03:08.970> up<00:03:09.090> a<00:03:09.210> fully<00:03:09.540> interactive<00:03:09.870> hollow<00:03:10.470> door
+
+00:03:10.880 --> 00:03:10.890 
+set up a fully interactive hollow door
+
+00:03:10.890 --> 00:03:12.470 
+set up a fully interactive hollow door
+that<00:03:11.190> will<00:03:11.310> display<00:03:11.730> information<00:03:11.910> to<00:03:12.390> the
+
+00:03:12.470 --> 00:03:12.480 
+that will display information to the
+
+00:03:12.480 --> 00:03:15.200 
+that will display information to the
+character<00:03:12.930> based<00:03:13.260> upon<00:03:13.650> player<00:03:13.920> position<00:03:14.430> we
+
+00:03:15.200 --> 00:03:15.210 
+character based upon player position we
+
+00:03:15.210 --> 00:03:17.120 
+character based upon player position we
+will<00:03:15.330> look<00:03:15.510> at<00:03:15.630> how<00:03:15.660> to<00:03:15.780> divide<00:03:16.260> interactive
+
+00:03:17.120 --> 00:03:17.130 
+will look at how to divide interactive
+
+00:03:17.130 --> 00:03:19.100 
+will look at how to divide interactive
+states<00:03:17.490> within<00:03:17.760> kismet<00:03:18.360> to<00:03:18.540> create<00:03:18.810> multiple
+
+00:03:19.100 --> 00:03:19.110 
+states within kismet to create multiple
+
+00:03:19.110 --> 00:03:21.230 
+states within kismet to create multiple
+player<00:03:19.650> based<00:03:19.980> conditions<00:03:20.610> that<00:03:20.850> will<00:03:20.970> allow
+
+00:03:21.230 --> 00:03:21.240 
+player based conditions that will allow
+
+00:03:21.240 --> 00:03:23.390 
+player based conditions that will allow
+for<00:03:21.510> random<00:03:21.960> or<00:03:22.140> controlled<00:03:22.740> events<00:03:22.860> to<00:03:23.250> take
+
+00:03:23.390 --> 00:03:23.400 
+for random or controlled events to take
+
+00:03:23.400 --> 00:03:25.370 
+for random or controlled events to take
+place<00:03:23.540> having<00:03:24.540> this<00:03:24.660> will<00:03:24.870> allow<00:03:25.110> us<00:03:25.350> to
+
+00:03:25.370 --> 00:03:25.380 
+place having this will allow us to
+
+00:03:25.380 --> 00:03:27.620 
+place having this will allow us to
+create<00:03:25.740> a<00:03:25.980> three-stage<00:03:26.790> process<00:03:27.090> and
+
+00:03:27.620 --> 00:03:27.630 
+create a three-stage process and
+
+00:03:27.630 --> 00:03:29.570 
+create a three-stage process and
+flexibility<00:03:28.350> over<00:03:28.740> how<00:03:28.980> those<00:03:29.280> stages
+
+00:03:29.570 --> 00:03:29.580 
+flexibility over how those stages
+
+00:03:29.580 --> 00:03:31.850 
+flexibility over how those stages
+proceed<00:03:30.120> Stage<00:03:30.720> 1<00:03:31.080> will<00:03:31.320> be<00:03:31.470> a<00:03:31.500> player
+
+00:03:31.850 --> 00:03:31.860 
+proceed Stage 1 will be a player
+
+00:03:31.860 --> 00:03:33.800 
+proceed Stage 1 will be a player
+position<00:03:32.490> function<00:03:32.790> that<00:03:33.210> will<00:03:33.360> cause<00:03:33.570> the
+
+00:03:33.800 --> 00:03:33.810 
+position function that will cause the
+
+00:03:33.810 --> 00:03:35.750 
+position function that will cause the
+holographic<00:03:34.320> to<00:03:34.680> be<00:03:34.770> revealed<00:03:35.130> to<00:03:35.400> the<00:03:35.550> player
+
+00:03:35.750 --> 00:03:35.760 
+holographic to be revealed to the player
+
+00:03:35.760 --> 00:03:38.690 
+holographic to be revealed to the player
+stage<00:03:36.330> 2<00:03:36.720> will<00:03:37.200> consist<00:03:37.620> of<00:03:37.740> several<00:03:38.010> frozen
+
+00:03:38.690 --> 00:03:38.700 
+stage 2 will consist of several frozen
+
+00:03:38.700 --> 00:03:40.490 
+stage 2 will consist of several frozen
+elements<00:03:39.120> and<00:03:39.270> texture<00:03:39.660> swaps<00:03:39.960> the
+
+00:03:40.490 --> 00:03:40.500 
+elements and texture swaps the
+
+00:03:40.500 --> 00:03:42.680 
+elements and texture swaps the
+progression<00:03:41.070> or<00:03:41.280> regression<00:03:41.820> of<00:03:42.150> this<00:03:42.390> stage
+
+00:03:42.680 --> 00:03:42.690 
+progression or regression of this stage
+
+00:03:42.690 --> 00:03:45.290 
+progression or regression of this stage
+will<00:03:42.930> be<00:03:43.050> decision<00:03:43.440> dependant<00:03:44.190> the<00:03:44.850> third<00:03:45.120> and
+
+00:03:45.290 --> 00:03:45.300 
+will be decision dependant the third and
+
+00:03:45.300 --> 00:03:46.970 
+will be decision dependant the third and
+final<00:03:45.510> stage<00:03:45.900> will<00:03:46.320> be<00:03:46.440> the<00:03:46.530> holographic
+
+00:03:46.970 --> 00:03:46.980 
+final stage will be the holographic
+
+00:03:46.980 --> 00:03:49.700 
+final stage will be the holographic
+dissipation<00:03:47.790> there's<00:03:48.660> a<00:03:48.810> lot<00:03:49.170> of<00:03:49.320> ground<00:03:49.560> to
+
+00:03:49.700 --> 00:03:49.710 
+dissipation there's a lot of ground to
+
+00:03:49.710 --> 00:03:51.650 
+dissipation there's a lot of ground to
+cover<00:03:49.740> in<00:03:50.130> this<00:03:50.250> DVD<00:03:50.700> so<00:03:51.000> let's<00:03:51.210> move<00:03:51.420> on<00:03:51.570> to
+
+00:03:51.650 --> 00:03:51.660 
+cover in this DVD so let's move on to
+
+00:03:51.660 --> 00:03:54.950 
+cover in this DVD so let's move on to
+the<00:03:51.810> first<00:03:51.930> section<00:03:52.230> and<00:03:52.560> get<00:03:52.680> started
+

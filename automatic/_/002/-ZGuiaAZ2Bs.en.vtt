@@ -1,0 +1,798 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.530 --> 00:00:03.350 
+
+welcome<00:00:01.530> back<00:00:01.709> to<00:00:01.920> the<00:00:02.040> next<00:00:02.340> video<00:00:02.490> in<00:00:02.909> this
+
+00:00:03.350 --> 00:00:03.360 
+welcome back to the next video in this
+
+00:00:03.360 --> 00:00:05.300 
+welcome back to the next video in this
+video<00:00:03.600> we're<00:00:03.990> going<00:00:04.200> to<00:00:04.319> learn<00:00:04.470> how<00:00:04.830> to<00:00:04.859> detect
+
+00:00:05.300 --> 00:00:05.310 
+video we're going to learn how to detect
+
+00:00:05.310 --> 00:00:09.110 
+video we're going to learn how to detect
+faces<00:00:05.670> and<00:00:06.649> this<00:00:07.649> time<00:00:07.830> let<00:00:08.010> us<00:00:08.040> start<00:00:08.790> coding
+
+00:00:09.110 --> 00:00:09.120 
+faces and this time let us start coding
+
+00:00:09.120 --> 00:00:13.160 
+faces and this time let us start coding
+in<00:00:09.210> the<00:00:09.240> script<00:00:11.030> so<00:00:12.030> firstly<00:00:12.540> we<00:00:12.809> are<00:00:12.840> going<00:00:13.080> to
+
+00:00:13.160 --> 00:00:13.170 
+in the script so firstly we are going to
+
+00:00:13.170 --> 00:00:13.970 
+in the script so firstly we are going to
+read<00:00:13.320> the<00:00:13.559> image
+
+00:00:13.970 --> 00:00:13.980 
+read the image
+
+00:00:13.980 --> 00:00:18.680 
+read the image
+I<00:00:14.009> am<00:00:14.340> read<00:00:15.059> off<00:00:15.330> face<00:00:16.049> dot<00:00:16.440> jpg<00:00:17.400> and<00:00:17.580> let<00:00:18.510> me
+
+00:00:18.680 --> 00:00:18.690 
+I am read off face dot jpg and let me
+
+00:00:18.690 --> 00:00:23.689 
+I am read off face dot jpg and let me
+show<00:00:18.840> you<00:00:18.900> the<00:00:19.140> image<00:00:19.410> first<00:00:19.939> so<00:00:22.130> oops<00:00:23.130> let<00:00:23.670> me
+
+00:00:23.689 --> 00:00:23.699 
+show you the image first so oops let me
+
+00:00:23.699 --> 00:00:28.640 
+show you the image first so oops let me
+save<00:00:24.090> it<00:00:24.119> as<00:00:24.890> video<00:00:26.630> okay<00:00:27.630> so<00:00:27.660> this<00:00:28.289> is<00:00:28.470> my
+
+00:00:28.640 --> 00:00:28.650 
+save it as video okay so this is my
+
+00:00:28.650 --> 00:00:32.749 
+save it as video okay so this is my
+photo<00:00:30.019> okay<00:00:31.050> in<00:00:31.470> this<00:00:31.800> photo<00:00:32.160> let<00:00:32.369> us<00:00:32.489> try<00:00:32.730> to
+
+00:00:32.749 --> 00:00:32.759 
+photo okay in this photo let us try to
+
+00:00:32.759 --> 00:00:38.600 
+photo okay in this photo let us try to
+detect<00:00:33.210> the<00:00:33.360> face<00:00:35.630> well<00:00:36.630> I<00:00:37.079> think<00:00:37.710> the<00:00:38.399> image
+
+00:00:38.600 --> 00:00:38.610 
+detect the face well I think the image
+
+00:00:38.610 --> 00:00:40.459 
+detect the face well I think the image
+sizes<00:00:39.030> too<00:00:39.239> big<00:00:39.270> let<00:00:39.690> me<00:00:39.840> just<00:00:40.020> scale<00:00:40.290> it<00:00:40.440> down
+
+00:00:40.459 --> 00:00:40.469 
+sizes too big let me just scale it down
+
+00:00:40.469 --> 00:00:47.060 
+sizes too big let me just scale it down
+a<00:00:40.920> -<00:00:41.670> I<00:00:41.879> am<00:00:42.200> the<00:00:43.200> size<00:00:43.620> of<00:00:44.070> a<00:00:44.399> comma<00:00:45.300> I<00:00:46.070> generally
+
+00:00:47.060 --> 00:00:47.070 
+a - I am the size of a comma I generally
+
+00:00:47.070 --> 00:00:48.770 
+a - I am the size of a comma I generally
+like<00:00:47.219> working<00:00:47.670> with<00:00:47.700> smaller<00:00:48.120> images<00:00:48.480> so<00:00:48.719> I
+
+00:00:48.770 --> 00:00:48.780 
+like working with smaller images so I
+
+00:00:48.780 --> 00:00:51.560 
+like working with smaller images so I
+will<00:00:48.899> just<00:00:49.489> make<00:00:50.489> it<00:00:50.550> smaller<00:00:50.760> okay<00:00:51.360> this
+
+00:00:51.560 --> 00:00:51.570 
+will just make it smaller okay this
+
+00:00:51.570 --> 00:00:53.360 
+will just make it smaller okay this
+looks<00:00:51.719> good
+
+00:00:53.360 --> 00:00:53.370 
+looks good
+
+00:00:53.370 --> 00:00:58.250 
+looks good
+the<00:00:54.149> next<00:00:54.510> thing<00:00:54.719> I'll<00:00:54.989> be<00:00:55.020> doing<00:00:55.260> is<00:00:57.260> detector
+
+00:00:58.250 --> 00:00:58.260 
+the next thing I'll be doing is detector
+
+00:00:58.260 --> 00:01:04.509 
+the next thing I'll be doing is detector
+I<00:01:00.199> hope<00:01:01.199> I<00:01:01.350> spelled<00:01:01.680> that<00:01:01.829> right<00:01:02.160> did<00:01:02.670> oh<00:01:02.940> sorry
+
+00:01:04.509 --> 00:01:04.519 
+I hope I spelled that right did oh sorry
+
+00:01:04.519 --> 00:01:09.800 
+I hope I spelled that right did oh sorry
+so<00:01:05.519> it's<00:01:05.700> going<00:01:05.850> to<00:01:05.970> be<00:01:06.260> detector<00:01:08.570> equal<00:01:09.570> to
+
+00:01:09.800 --> 00:01:09.810 
+so it's going to be detector equal to
+
+00:01:09.810 --> 00:01:12.230 
+so it's going to be detector equal to
+vision<00:01:10.770> this<00:01:11.310> is<00:01:11.520> a<00:01:11.549> function<00:01:12.000> from<00:01:12.119> the
+
+00:01:12.230 --> 00:01:12.240 
+vision this is a function from the
+
+00:01:12.240 --> 00:01:17.440 
+vision this is a function from the
+computer<00:01:12.630> vision<00:01:12.900> toolbox<00:01:14.060> cascade<00:01:15.229> object
+
+00:01:17.440 --> 00:01:17.450 
+computer vision toolbox cascade object
+
+00:01:17.450 --> 00:01:20.660 
+computer vision toolbox cascade object
+detector<00:01:18.450> I<00:01:18.750> hope<00:01:19.320> I<00:01:19.470> spelled<00:01:19.830> it<00:01:20.009> right<00:01:20.280> again
+
+00:01:20.660 --> 00:01:20.670 
+detector I hope I spelled it right again
+
+00:01:20.670 --> 00:01:26.240 
+detector I hope I spelled it right again
+or<00:01:21.479> and<00:01:22.470> that's<00:01:22.830> it<00:01:23.570> okay<00:01:24.570> and<00:01:24.830> next<00:01:25.830> thing
+
+00:01:26.240 --> 00:01:26.250 
+or and that's it okay and next thing
+
+00:01:26.250 --> 00:01:28.789 
+or and that's it okay and next thing
+that<00:01:26.310> you're<00:01:26.670> going<00:01:26.820> to<00:01:26.909> do<00:01:27.060> is<00:01:27.360> the<00:01:28.350> bounding
+
+00:01:28.789 --> 00:01:28.799 
+that you're going to do is the bounding
+
+00:01:28.799 --> 00:01:31.960 
+that you're going to do is the bounding
+box<00:01:28.829> of<00:01:29.430> the<00:01:29.820> detection<00:01:30.180> would<00:01:30.540> be<00:01:30.780> equal<00:01:31.200> to
+
+00:01:31.960 --> 00:01:31.970 
+box of the detection would be equal to
+
+00:01:31.970 --> 00:01:36.890 
+box of the detection would be equal to
+step<00:01:32.970> off<00:01:33.890> your<00:01:34.890> so<00:01:35.729> this<00:01:36.060> is<00:01:36.240> the<00:01:36.420> thing<00:01:36.659> that
+
+00:01:36.890 --> 00:01:36.900 
+step off your so this is the thing that
+
+00:01:36.900 --> 00:01:39.350 
+step off your so this is the thing that
+can<00:01:37.079> detect<00:01:37.439> a<00:01:37.530> face<00:01:37.770> it<00:01:38.400> will<00:01:38.640> be<00:01:38.790> step<00:01:39.150> off
+
+00:01:39.350 --> 00:01:39.360 
+can detect a face it will be step off
+
+00:01:39.360 --> 00:01:42.560 
+can detect a face it will be step off
+your<00:01:39.689> detector<00:01:40.290> comma<00:01:41.100> your<00:01:41.640> input<00:01:42.000> image<00:01:42.240> and
+
+00:01:42.560 --> 00:01:42.570 
+your detector comma your input image and
+
+00:01:42.570 --> 00:01:44.810 
+your detector comma your input image and
+you<00:01:43.500> will<00:01:43.680> get<00:01:43.860> the<00:01:44.009> value<00:01:44.130> of<00:01:44.310> the<00:01:44.460> bounding
+
+00:01:44.810 --> 00:01:44.820 
+you will get the value of the bounding
+
+00:01:44.820 --> 00:01:50.060 
+you will get the value of the bounding
+boxes<00:01:45.149> here<00:01:46.369> so<00:01:47.479> now<00:01:48.479> we<00:01:48.540> found<00:01:49.470> the<00:01:49.710> bounding
+
+00:01:50.060 --> 00:01:50.070 
+boxes here so now we found the bounding
+
+00:01:50.070 --> 00:01:51.920 
+boxes here so now we found the bounding
+box<00:01:50.100> we<00:01:50.490> want<00:01:50.700> to<00:01:50.790> put<00:01:50.939> back<00:01:51.299> on<00:01:51.509> the<00:01:51.689> image
+
+00:01:51.920 --> 00:01:51.930 
+box we want to put back on the image
+
+00:01:51.930 --> 00:01:54.800 
+box we want to put back on the image
+right<00:01:52.439> so<00:01:53.310> we<00:01:53.430> would<00:01:53.549> just<00:01:53.729> say<00:01:53.970> out<00:01:54.180> equal<00:01:54.659> to
+
+00:01:54.800 --> 00:01:54.810 
+right so we would just say out equal to
+
+00:01:54.810 --> 00:02:05.050 
+right so we would just say out equal to
+insert<00:01:56.810> object<00:01:57.810> a<00:01:58.820> notation<00:01:59.820> of<00:02:01.820> a<00:02:02.930> comma
+
+00:02:05.050 --> 00:02:05.060 
+insert object a notation of a comma
+
+00:02:05.060 --> 00:02:11.360 
+insert object a notation of a comma
+rectangle<00:02:06.170> comma<00:02:07.850> bounding<00:02:08.850> box<00:02:09.149> comma<00:02:10.370> let's
+
+00:02:11.360 --> 00:02:11.370 
+rectangle comma bounding box comma let's
+
+00:02:11.370 --> 00:02:19.640 
+rectangle comma bounding box comma let's
+just<00:02:11.580> say<00:02:14.780> detection<00:02:15.860> okay<00:02:16.880> I<00:02:18.560> spelled<00:02:19.560> it
+
+00:02:19.640 --> 00:02:19.650 
+just say detection okay I spelled it
+
+00:02:19.650 --> 00:02:22.610 
+just say detection okay I spelled it
+wrong<00:02:19.830> again<00:02:20.010> okay<00:02:20.459> and<00:02:20.630> I<00:02:21.630> would<00:02:21.810> show<00:02:22.590> you
+
+00:02:22.610 --> 00:02:22.620 
+wrong again okay and I would show you
+
+00:02:22.620 --> 00:02:23.770 
+wrong again okay and I would show you
+out
+
+00:02:23.770 --> 00:02:23.780 
+out
+
+00:02:23.780 --> 00:02:29.270 
+out
+so<00:02:24.780> let's<00:02:24.989> look<00:02:25.410> at<00:02:25.590> this<00:02:26.390> as<00:02:27.390> you<00:02:27.660> can<00:02:27.810> see<00:02:28.280> my
+
+00:02:29.270 --> 00:02:29.280 
+so let's look at this as you can see my
+
+00:02:29.280 --> 00:02:34.210 
+so let's look at this as you can see my
+face<00:02:29.670> has<00:02:30.150> been<00:02:30.510> detected<00:02:31.080> pretty<00:02:31.380> well<00:02:31.590> here
+
+00:02:34.210 --> 00:02:34.220 
+
+00:02:34.220 --> 00:02:39.320 
+
+so<00:02:36.470> let<00:02:37.470> me<00:02:37.500> just<00:02:37.800> go<00:02:38.580> through<00:02:38.790> the<00:02:38.880> code<00:02:39.060> again
+
+00:02:39.320 --> 00:02:39.330 
+so let me just go through the code again
+
+00:02:39.330 --> 00:02:41.780 
+so let me just go through the code again
+you<00:02:39.690> take<00:02:39.989> the<00:02:40.200> image<00:02:40.290> resize<00:02:40.950> it<00:02:41.100> to<00:02:41.130> 0.3
+
+00:02:41.780 --> 00:02:41.790 
+you take the image resize it to 0.3
+
+00:02:41.790 --> 00:02:45.740 
+you take the image resize it to 0.3
+times<00:02:42.000> and<00:02:42.420> then<00:02:42.900> use<00:02:43.350> the<00:02:44.030> Cascade<00:02:45.030> object
+
+00:02:45.740 --> 00:02:45.750 
+times and then use the Cascade object
+
+00:02:45.750 --> 00:02:47.900 
+times and then use the Cascade object
+detector<00:02:46.260> apply<00:02:46.950> this<00:02:47.190> detector<00:02:47.670> on<00:02:47.850> the
+
+00:02:47.900 --> 00:02:47.910 
+detector apply this detector on the
+
+00:02:47.910 --> 00:02:51.229 
+detector apply this detector on the
+image<00:02:48.360> and<00:02:48.630> then<00:02:49.550> you<00:02:50.550> get<00:02:50.760> the<00:02:50.850> bounding<00:02:51.209> box
+
+00:02:51.229 --> 00:02:51.239 
+image and then you get the bounding box
+
+00:02:51.239 --> 00:02:55.280 
+image and then you get the bounding box
+and<00:02:52.100> on<00:02:53.100> the<00:02:53.160> image<00:02:54.030> you<00:02:54.060> add<00:02:54.570> this<00:02:54.840> bounding
+
+00:02:55.280 --> 00:02:55.290 
+and on the image you add this bounding
+
+00:02:55.290 --> 00:02:58.940 
+and on the image you add this bounding
+box<00:02:56.570> annotation<00:02:57.570> and<00:02:57.780> store<00:02:58.260> it<00:02:58.380> an<00:02:58.530> out<00:02:58.680> and
+
+00:02:58.940 --> 00:02:58.950 
+box annotation and store it an out and
+
+00:02:58.950 --> 00:03:02.210 
+box annotation and store it an out and
+you<00:02:59.040> show<00:02:59.220> out<00:02:59.400> and<00:03:00.050> that's<00:03:01.050> the<00:03:01.200> result<00:03:01.530> but
+
+00:03:02.210 --> 00:03:02.220 
+you show out and that's the result but
+
+00:03:02.220 --> 00:03:05.059 
+you show out and that's the result but
+the<00:03:02.819> problem<00:03:03.269> here<00:03:03.540> is<00:03:03.810> that<00:03:03.870> you<00:03:04.380> see<00:03:04.410> another
+
+00:03:05.059 --> 00:03:05.069 
+the problem here is that you see another
+
+00:03:05.069 --> 00:03:08.330 
+the problem here is that you see another
+wrong<00:03:05.340> detection<00:03:05.880> here<00:03:06.090> right<00:03:06.569> this<00:03:07.319> a<00:03:07.620> false
+
+00:03:08.330 --> 00:03:08.340 
+wrong detection here right this a false
+
+00:03:08.340 --> 00:03:10.569 
+wrong detection here right this a false
+detection<00:03:08.640> here<00:03:09.120> how<00:03:09.660> do<00:03:09.720> you<00:03:09.870> get<00:03:10.049> rid<00:03:10.230> of<00:03:10.260> it
+
+00:03:10.569 --> 00:03:10.579 
+detection here how do you get rid of it
+
+00:03:10.579 --> 00:03:16.100 
+detection here how do you get rid of it
+so<00:03:12.230> let<00:03:13.230> us<00:03:13.260> look<00:03:13.769> into<00:03:13.980> this<00:03:14.269> just<00:03:15.269> say<00:03:15.510> doc
+
+00:03:16.100 --> 00:03:16.110 
+so let us look into this just say doc
+
+00:03:16.110 --> 00:03:19.160 
+so let us look into this just say doc
+space<00:03:16.500> cascade<00:03:17.130> object<00:03:17.489> detector<00:03:17.910> so<00:03:18.870> this
+
+00:03:19.160 --> 00:03:19.170 
+space cascade object detector so this
+
+00:03:19.170 --> 00:03:23.330 
+space cascade object detector so this
+pops<00:03:19.500> up<00:03:19.799> the<00:03:20.790> help<00:03:21.090> for<00:03:21.980> Cascade<00:03:22.980> object
+
+00:03:23.330 --> 00:03:23.340 
+pops up the help for Cascade object
+
+00:03:23.340 --> 00:03:25.789 
+pops up the help for Cascade object
+detector<00:03:23.760> and<00:03:23.940> let<00:03:24.329> us<00:03:24.480> look<00:03:25.440> at<00:03:25.590> all<00:03:25.709> the
+
+00:03:25.789 --> 00:03:25.799 
+detector and let us look at all the
+
+00:03:25.799 --> 00:03:27.650 
+detector and let us look at all the
+features<00:03:25.950> here<00:03:26.370> you<00:03:27.000> have<00:03:27.239> various
+
+00:03:27.650 --> 00:03:27.660 
+features here you have various
+
+00:03:27.660 --> 00:03:29.720 
+features here you have various
+classification<00:03:28.440> models<00:03:28.829> that<00:03:29.190> means<00:03:29.459> that
+
+00:03:29.720 --> 00:03:29.730 
+classification models that means that
+
+00:03:29.730 --> 00:03:33.229 
+classification models that means that
+you<00:03:29.910> can<00:03:30.200> detect<00:03:31.200> frontal<00:03:31.980> face<00:03:32.250> upper<00:03:32.700> body<00:03:32.940> I
+
+00:03:33.229 --> 00:03:33.239 
+you can detect frontal face upper body I
+
+00:03:33.239 --> 00:03:37.069 
+you can detect frontal face upper body I
+pay<00:03:33.540> a<00:03:33.570> single<00:03:34.140> eye<00:03:34.260> mouth<00:03:34.860> nose<00:03:35.370> wow<00:03:36.079> that
+
+00:03:37.069 --> 00:03:37.079 
+pay a single eye mouth nose wow that
+
+00:03:37.079 --> 00:03:40.640 
+pay a single eye mouth nose wow that
+really<00:03:37.350> looks<00:03:37.650> cool<00:03:37.950> and<00:03:38.370> then<00:03:39.470> you<00:03:40.470> can
+
+00:03:40.640 --> 00:03:40.650 
+really looks cool and then you can
+
+00:03:40.650 --> 00:03:42.650 
+really looks cool and then you can
+adjust<00:03:40.769> the<00:03:41.040> minimum<00:03:41.220> size<00:03:41.670> maximum<00:03:42.060> size
+
+00:03:42.650 --> 00:03:42.660 
+adjust the minimum size maximum size
+
+00:03:42.660 --> 00:03:46.009 
+adjust the minimum size maximum size
+scale<00:03:43.200> factor<00:03:43.739> and<00:03:43.980> merge<00:03:44.880> threshold<00:03:45.810> and
+
+00:03:46.009 --> 00:03:46.019 
+scale factor and merge threshold and
+
+00:03:46.019 --> 00:03:48.440 
+scale factor and merge threshold and
+this<00:03:46.890> is<00:03:47.040> what<00:03:47.250> will<00:03:47.459> need<00:03:47.640> the<00:03:48.150> default
+
+00:03:48.440 --> 00:03:48.450 
+this is what will need the default
+
+00:03:48.450 --> 00:03:52.940 
+this is what will need the default
+values<00:03:48.870> for<00:03:49.040> now<00:03:50.630> let<00:03:51.630> us<00:03:51.660> change<00:03:52.109> the<00:03:52.650> value
+
+00:03:52.940 --> 00:03:52.950 
+values for now let us change the value
+
+00:03:52.950 --> 00:03:57.800 
+values for now let us change the value
+of<00:03:53.760> merge<00:03:54.510> threshold<00:03:55.500> of<00:03:56.120> this<00:03:57.120> detector
+
+00:03:57.800 --> 00:03:57.810 
+of merge threshold of this detector
+
+00:03:57.810 --> 00:04:00.650 
+of merge threshold of this detector
+detector<00:03:58.620> that<00:03:58.769> merge<00:03:59.400> threshold<00:04:00.000> do
+
+00:04:00.650 --> 00:04:00.660 
+detector that merge threshold do
+
+00:04:00.660 --> 00:04:04.190 
+detector that merge threshold do
+something<00:04:01.440> higher<00:04:02.359> instead<00:04:03.359> of<00:04:03.450> 4<00:04:03.720> let's<00:04:03.959> say
+
+00:04:04.190 --> 00:04:04.200 
+something higher instead of 4 let's say
+
+00:04:04.200 --> 00:04:07.340 
+something higher instead of 4 let's say
+7<00:04:04.940> so<00:04:05.940> let's<00:04:05.970> see<00:04:06.420> if<00:04:06.540> we<00:04:06.600> can<00:04:06.870> get<00:04:07.049> rid<00:04:07.200> of<00:04:07.230> that
+
+00:04:07.340 --> 00:04:07.350 
+7 so let's see if we can get rid of that
+
+00:04:07.350 --> 00:04:12.180 
+7 so let's see if we can get rid of that
+box<00:04:07.739> and<00:04:07.950> we<00:04:08.160> did<00:04:08.600> because<00:04:09.600> we<00:04:10.170> took<00:04:10.709> a<00:04:10.950> higher
+
+00:04:12.180 --> 00:04:12.190 
+box and we did because we took a higher
+
+00:04:12.190 --> 00:04:15.210 
+box and we did because we took a higher
+a<00:04:12.540> higher<00:04:13.540> threshold<00:04:13.870> value<00:04:14.410> and<00:04:14.620> this<00:04:14.890> is<00:04:15.040> not
+
+00:04:15.210 --> 00:04:15.220 
+a higher threshold value and this is not
+
+00:04:15.220 --> 00:04:17.970 
+a higher threshold value and this is not
+there<00:04:15.460> anymore<00:04:15.700> now<00:04:16.480> if<00:04:16.750> you<00:04:16.900> take<00:04:17.260> a<00:04:17.590> lower
+
+00:04:17.970 --> 00:04:17.980 
+there anymore now if you take a lower
+
+00:04:17.980 --> 00:04:21.270 
+there anymore now if you take a lower
+threshold<00:04:18.220> value<00:04:18.850> you<00:04:19.440> would<00:04:20.440> find<00:04:20.830> a<00:04:21.040> lot<00:04:21.070> of
+
+00:04:21.270 --> 00:04:21.280 
+threshold value you would find a lot of
+
+00:04:21.280 --> 00:04:23.010 
+threshold value you would find a lot of
+other<00:04:21.519> deductions<00:04:21.850> which<00:04:22.420> are<00:04:22.570> not
+
+00:04:23.010 --> 00:04:23.020 
+other deductions which are not
+
+00:04:23.020 --> 00:04:26.010 
+other deductions which are not
+necessarily<00:04:23.500> so<00:04:23.770> you<00:04:23.830> need<00:04:24.190> to<00:04:24.810> select<00:04:25.810> the
+
+00:04:26.010 --> 00:04:26.020 
+necessarily so you need to select the
+
+00:04:26.020 --> 00:04:27.360 
+necessarily so you need to select the
+threshold<00:04:26.500> value<00:04:26.620> depending<00:04:27.190> on<00:04:27.280> your
+
+00:04:27.360 --> 00:04:27.370 
+threshold value depending on your
+
+00:04:27.370 --> 00:04:29.850 
+threshold value depending on your
+application<00:04:27.490> by<00:04:28.270> default<00:04:28.630> it's<00:04:28.780> four<00:04:29.050> but<00:04:29.320> for
+
+00:04:29.850 --> 00:04:29.860 
+application by default it's four but for
+
+00:04:29.860 --> 00:04:34.260 
+application by default it's four but for
+this<00:04:30.820> specific<00:04:31.060> case<00:04:32.460> seven<00:04:33.460> was<00:04:33.700> better
+
+00:04:34.260 --> 00:04:34.270 
+this specific case seven was better
+
+00:04:34.270 --> 00:04:37.100 
+this specific case seven was better
+because<00:04:34.750> that<00:04:35.530> gives<00:04:35.830> the<00:04:36.040> correct<00:04:36.310> result
+
+00:04:37.100 --> 00:04:37.110 
+because that gives the correct result
+
+00:04:37.110 --> 00:04:42.200 
+because that gives the correct result
+now<00:04:38.190> let's<00:04:39.190> try<00:04:39.610> to<00:04:39.640> detect<00:04:40.920> something<00:04:41.920> else
+
+00:04:42.200 --> 00:04:42.210 
+now let's try to detect something else
+
+00:04:42.210 --> 00:04:47.670 
+now let's try to detect something else
+so<00:04:43.230> let<00:04:44.230> us<00:04:44.260> go<00:04:44.620> back<00:04:44.650> and<00:04:44.830> I<00:04:45.250> go<00:04:45.700> here<00:04:46.060> so<00:04:46.680> else
+
+00:04:47.670 --> 00:04:47.680 
+so let us go back and I go here so else
+
+00:04:47.680 --> 00:04:50.040 
+so let us go back and I go here so else
+can<00:04:47.860> be<00:04:47.980> detected<00:04:48.220> let's<00:04:48.940> try<00:04:49.300> to<00:04:49.360> detect<00:04:49.810> them
+
+00:04:50.040 --> 00:04:50.050 
+can be detected let's try to detect them
+
+00:04:50.050 --> 00:04:54.600 
+can be detected let's try to detect them
+out<00:04:50.230> and<00:04:51.570> it's<00:04:52.570> okay<00:04:53.200> you<00:04:53.740> have<00:04:53.980> to<00:04:54.160> use<00:04:54.310> this
+
+00:04:54.600 --> 00:04:54.610 
+out and it's okay you have to use this
+
+00:04:54.610 --> 00:04:57.840 
+out and it's okay you have to use this
+string<00:04:55.300> in<00:04:55.630> the<00:04:56.140> classification<00:04:56.500> model<00:04:57.100> okay
+
+00:04:57.840 --> 00:04:57.850 
+string in the classification model okay
+
+00:04:57.850 --> 00:05:00.690 
+string in the classification model okay
+so<00:04:57.910> let's<00:04:58.210> just<00:04:58.300> use<00:04:58.690> that<00:04:58.960> and<00:04:59.320> try<00:05:00.130> to<00:05:00.190> detect
+
+00:05:00.690 --> 00:05:00.700 
+so let's just use that and try to detect
+
+00:05:00.700 --> 00:05:04.320 
+so let's just use that and try to detect
+them<00:05:00.910> out<00:05:01.060> I<00:05:01.360> just<00:05:02.020> comment<00:05:02.410> this<00:05:02.470> ctrl<00:05:03.340> R<00:05:03.580> okay
+
+00:05:04.320 --> 00:05:04.330 
+them out I just comment this ctrl R okay
+
+00:05:04.330 --> 00:05:08.580 
+them out I just comment this ctrl R okay
+oh<00:05:05.460> my<00:05:06.460> god<00:05:06.640> there's<00:05:06.850> so<00:05:06.910> many<00:05:07.180> deductions<00:05:07.590> so
+
+00:05:08.580 --> 00:05:08.590 
+oh my god there's so many deductions so
+
+00:05:08.590 --> 00:05:10.560 
+oh my god there's so many deductions so
+for<00:05:08.920> for<00:05:09.370> the<00:05:09.490> threshold<00:05:09.940> value<00:05:10.090> of<00:05:10.330> four
+
+00:05:10.560 --> 00:05:10.570 
+for for the threshold value of four
+
+00:05:10.570 --> 00:05:12.150 
+for for the threshold value of four
+there's<00:05:10.810> so<00:05:10.930> many<00:05:11.050> detections<00:05:11.530> we<00:05:11.830> need<00:05:12.010> to
+
+00:05:12.150 --> 00:05:12.160 
+there's so many detections we need to
+
+00:05:12.160 --> 00:05:15.780 
+there's so many detections we need to
+take<00:05:12.280> them<00:05:12.490> off<00:05:12.690> let<00:05:13.690> us<00:05:13.900> take<00:05:14.470> the<00:05:15.220> value<00:05:15.610> of
+
+00:05:15.780 --> 00:05:15.790 
+take them off let us take the value of
+
+00:05:15.790 --> 00:05:18.930 
+take them off let us take the value of
+ten<00:05:16.240> maybe<00:05:17.160> because<00:05:18.160> there's<00:05:18.340> a<00:05:18.400> lot<00:05:18.640> of<00:05:18.760> them
+
+00:05:18.930 --> 00:05:18.940 
+ten maybe because there's a lot of them
+
+00:05:18.940 --> 00:05:21.120 
+ten maybe because there's a lot of them
+oh<00:05:19.090> there's<00:05:19.600> still<00:05:19.810> so<00:05:20.020> many<00:05:20.140> I<00:05:20.410> guess<00:05:20.800> we'll
+
+00:05:21.120 --> 00:05:21.130 
+oh there's still so many I guess we'll
+
+00:05:21.130 --> 00:05:23.040 
+oh there's still so many I guess we'll
+have<00:05:21.310> to<00:05:21.490> go<00:05:21.640> for<00:05:21.910> a<00:05:21.940> bigger<00:05:22.180> value<00:05:22.419> let's<00:05:22.840> say
+
+00:05:23.040 --> 00:05:23.050 
+have to go for a bigger value let's say
+
+00:05:23.050 --> 00:05:27.150 
+have to go for a bigger value let's say
+50<00:05:24.780> okay<00:05:25.780> this<00:05:26.050> doesn't<00:05:26.350> look<00:05:26.710> good<00:05:26.919> and<00:05:27.070> of
+
+00:05:27.150 --> 00:05:27.160 
+50 okay this doesn't look good and of
+
+00:05:27.160 --> 00:05:33.630 
+50 okay this doesn't look good and of
+let's<00:05:27.370> go<00:05:27.580> 400<00:05:29.850> well<00:05:30.850> yeah<00:05:31.060> so<00:05:31.510> at<00:05:32.230> the<00:05:33.070> value
+
+00:05:33.630 --> 00:05:33.640 
+let's go 400 well yeah so at the value
+
+00:05:33.640 --> 00:05:37.490 
+let's go 400 well yeah so at the value
+of<00:05:33.760> 100<00:05:34.480> you<00:05:34.660> were<00:05:34.870> able<00:05:35.380> to<00:05:35.410> get<00:05:36.310> the<00:05:37.060> correct
+
+00:05:37.490 --> 00:05:37.500 
+of 100 you were able to get the correct
+
+00:05:37.500 --> 00:05:42.710 
+of 100 you were able to get the correct
+mouth<00:05:38.500> and<00:05:39.360> yeah<00:05:40.360> that's<00:05:40.960> that's<00:05:41.919> how<00:05:42.220> you
+
+00:05:42.710 --> 00:05:42.720 
+mouth and yeah that's that's how you
+
+00:05:42.720 --> 00:05:46.320 
+mouth and yeah that's that's how you
+detect<00:05:43.720> various<00:05:44.169> things<00:05:44.730> let's<00:05:45.730> see<00:05:46.030> if<00:05:46.150> we
+
+00:05:46.320 --> 00:05:46.330 
+detect various things let's see if we
+
+00:05:46.330 --> 00:05:48.720 
+detect various things let's see if we
+can<00:05:46.830> detect<00:05:47.830> something<00:05:48.190> else
+
+00:05:48.720 --> 00:05:48.730 
+can detect something else
+
+00:05:48.730 --> 00:05:53.460 
+can detect something else
+ah<00:05:49.440> let<00:05:50.440> us<00:05:50.620> say<00:05:50.860> I<00:05:51.100> paid<00:05:51.460> and<00:05:51.840> let<00:05:52.840> us<00:05:52.990> try<00:05:53.410> to
+
+00:05:53.460 --> 00:05:53.470 
+ah let us say I paid and let us try to
+
+00:05:53.470 --> 00:05:58.620 
+ah let us say I paid and let us try to
+detect<00:05:53.919> I<00:05:54.220> pay<00:05:54.550> big<00:05:56.760> okay<00:05:57.760> let's<00:05:58.000> just<00:05:58.240> have<00:05:58.600> it
+
+00:05:58.620 --> 00:05:58.630 
+detect I pay big okay let's just have it
+
+00:05:58.630 --> 00:06:01.380 
+detect I pay big okay let's just have it
+here<00:05:58.830> I'll<00:05:59.830> just<00:05:59.890> comment<00:06:00.430> this<00:06:00.700> out<00:06:00.880> control
+
+00:06:01.380 --> 00:06:01.390 
+here I'll just comment this out control
+
+00:06:01.390 --> 00:06:07.850 
+here I'll just comment this out control
+R<00:06:01.919> and<00:06:02.970> wow<00:06:03.970> it<00:06:04.330> works<00:06:04.840> well<00:06:05.080> and<00:06:05.350> let's<00:06:06.310> try<00:06:06.790> I
+
+00:06:07.850 --> 00:06:07.860 
+R and wow it works well and let's try I
+
+00:06:07.860 --> 00:06:13.740 
+R and wow it works well and let's try I
+pay<00:06:08.860> small<00:06:09.480> and<00:06:11.490> yeah<00:06:12.490> it's<00:06:12.640> it<00:06:13.060> works<00:06:13.390> pretty
+
+00:06:13.740 --> 00:06:13.750 
+pay small and yeah it's it works pretty
+
+00:06:13.750 --> 00:06:16.640 
+pay small and yeah it's it works pretty
+well<00:06:13.900> again<00:06:14.320> so<00:06:14.680> yeah<00:06:15.430> that's<00:06:15.880> the<00:06:16.060> thing<00:06:16.090> um
+
+00:06:16.640 --> 00:06:16.650 
+well again so yeah that's the thing um
+
+00:06:16.650 --> 00:06:18.960 
+well again so yeah that's the thing um
+sometimes<00:06:17.650> when<00:06:17.830> this<00:06:18.250> is<00:06:18.430> displayed<00:06:18.850> you
+
+00:06:18.960 --> 00:06:18.970 
+sometimes when this is displayed you
+
+00:06:18.970 --> 00:06:22.580 
+sometimes when this is displayed you
+can't<00:06:19.180> see<00:06:19.419> it<00:06:19.480> properly<00:06:19.660> because<00:06:20.940> it
+
+00:06:22.580 --> 00:06:22.590 
+can't see it properly because it
+
+00:06:22.590 --> 00:06:26.189 
+can't see it properly because it
+the<00:06:23.590> box<00:06:24.189> size<00:06:24.580> is<00:06:24.819> just<00:06:24.939> one<00:06:25.210> pixel<00:06:25.479> wide<00:06:25.810> and
+
+00:06:26.189 --> 00:06:26.199 
+the box size is just one pixel wide and
+
+00:06:26.199 --> 00:06:28.649 
+the box size is just one pixel wide and
+your<00:06:26.490> image<00:06:27.490> is<00:06:27.699> bigger<00:06:27.879> than<00:06:28.150> that<00:06:28.300> so<00:06:28.539> it
+
+00:06:28.649 --> 00:06:28.659 
+your image is bigger than that so it
+
+00:06:28.659 --> 00:06:30.420 
+your image is bigger than that so it
+scaled<00:06:29.050> down<00:06:29.259> and<00:06:29.500> while<00:06:29.710> it<00:06:29.889> is<00:06:30.039> scaled<00:06:30.310> down
+
+00:06:30.420 --> 00:06:30.430 
+scaled down and while it is scaled down
+
+00:06:30.430 --> 00:06:32.670 
+scaled down and while it is scaled down
+you<00:06:30.639> lose<00:06:30.849> this<00:06:31.090> so<00:06:31.719> you<00:06:31.780> just<00:06:31.900> have<00:06:32.289> to<00:06:32.319> zoom
+
+00:06:32.670 --> 00:06:32.680 
+you lose this so you just have to zoom
+
+00:06:32.680 --> 00:06:36.809 
+you lose this so you just have to zoom
+in<00:06:32.889> to<00:06:33.039> look<00:06:33.189> at<00:06:33.310> it<00:06:33.479> okay<00:06:35.189> then<00:06:36.189> yeah<00:06:36.340> so<00:06:36.400> that
+
+00:06:36.809 --> 00:06:36.819 
+in to look at it okay then yeah so that
+
+00:06:36.819 --> 00:06:39.749 
+in to look at it okay then yeah so that
+is<00:06:37.090> pretty<00:06:37.870> much<00:06:38.020> all<00:06:38.620> you<00:06:39.280> need<00:06:39.460> to<00:06:39.639> know
+
+00:06:39.749 --> 00:06:39.759 
+is pretty much all you need to know
+
+00:06:39.759 --> 00:06:43.110 
+is pretty much all you need to know
+about<00:06:40.169> phase<00:06:41.169> detection<00:06:41.590> in<00:06:41.889> MATLAB<00:06:42.310> so<00:06:42.699> this
+
+00:06:43.110 --> 00:06:43.120 
+about phase detection in MATLAB so this
+
+00:06:43.120 --> 00:06:45.570 
+about phase detection in MATLAB so this
+comes<00:06:43.449> from<00:06:43.719> the<00:06:44.020> computer<00:06:44.620> vision<00:06:44.889> toolbox<00:06:45.310> I
+
+00:06:45.570 --> 00:06:45.580 
+comes from the computer vision toolbox I
+
+00:06:45.580 --> 00:06:47.999 
+comes from the computer vision toolbox I
+I<00:06:46.090> hope<00:06:46.659> you<00:06:46.930> enjoyed<00:06:47.349> the<00:06:47.500> video<00:06:47.650> and<00:06:47.919> you
+
+00:06:47.999 --> 00:06:48.009 
+I hope you enjoyed the video and you
+
+00:06:48.009 --> 00:06:51.780 
+I hope you enjoyed the video and you
+learned<00:06:48.639> a<00:06:48.789> lot<00:06:48.939> thank<00:06:49.629> you
+
