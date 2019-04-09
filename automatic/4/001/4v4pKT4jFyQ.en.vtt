@@ -1,0 +1,631 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.890 --> 00:00:03.110 
+
+okay<00:00:01.890> in<00:00:02.040> this<00:00:02.129> tutorial<00:00:02.340> we're<00:00:02.850> going<00:00:03.000> to
+
+00:00:03.110 --> 00:00:03.120 
+okay in this tutorial we're going to
+
+00:00:03.120 --> 00:00:06.789 
+okay in this tutorial we're going to
+learn<00:00:03.389> how<00:00:03.629> to<00:00:03.659> take<00:00:04.170> a<00:00:04.230> bitmap<00:00:04.890> and<00:00:05.400> trace<00:00:06.060> it
+
+00:00:06.789 --> 00:00:06.799 
+learn how to take a bitmap and trace it
+
+00:00:06.799 --> 00:00:12.140 
+learn how to take a bitmap and trace it
+automatically<00:00:07.799> using<00:00:08.519> flash<00:00:09.139> so<00:00:10.139> I<00:00:10.679> I<00:00:11.460> already
+
+00:00:12.140 --> 00:00:12.150 
+automatically using flash so I I already
+
+00:00:12.150 --> 00:00:15.640 
+automatically using flash so I I already
+have<00:00:12.360> in<00:00:13.110> my<00:00:13.139> library<00:00:13.799> this<00:00:14.040> character<00:00:14.610> that<00:00:14.940> I
+
+00:00:15.640 --> 00:00:15.650 
+have in my library this character that I
+
+00:00:15.650 --> 00:00:22.279 
+have in my library this character that I
+traced<00:00:17.510> manually<00:00:18.510> and<00:00:20.000> and<00:00:21.000> that's<00:00:21.449> all<00:00:21.630> good
+
+00:00:22.279 --> 00:00:22.289 
+traced manually and and that's all good
+
+00:00:22.289 --> 00:00:24.890 
+traced manually and and that's all good
+and<00:00:22.320> well<00:00:22.470> but<00:00:22.859> in<00:00:23.670> in<00:00:23.939> some<00:00:24.180> instances<00:00:24.750> you
+
+00:00:24.890 --> 00:00:24.900 
+and well but in in some instances you
+
+00:00:24.900 --> 00:00:25.910 
+and well but in in some instances you
+might<00:00:25.019> want<00:00:25.199> to<00:00:25.230> go<00:00:25.350> a<00:00:25.380> little<00:00:25.560> bit<00:00:25.740> quicker
+
+00:00:25.910 --> 00:00:25.920 
+might want to go a little bit quicker
+
+00:00:25.920 --> 00:00:30.109 
+might want to go a little bit quicker
+and<00:00:26.510> you<00:00:27.510> don't<00:00:27.720> need<00:00:27.930> the<00:00:28.250> detail<00:00:29.250> that<00:00:30.090> I
+
+00:00:30.109 --> 00:00:30.119 
+and you don't need the detail that I
+
+00:00:30.119 --> 00:00:34.370 
+and you don't need the detail that I
+have<00:00:30.449> in<00:00:30.779> this<00:00:31.140> particular<00:00:31.470> piece<00:00:32.130> of<00:00:32.160> art<00:00:33.380> and
+
+00:00:34.370 --> 00:00:34.380 
+have in this particular piece of art and
+
+00:00:34.380 --> 00:00:36.950 
+have in this particular piece of art and
+if<00:00:35.340> you<00:00:35.610> don't<00:00:35.820> need<00:00:36.000> that<00:00:36.180> kind<00:00:36.420> of<00:00:36.540> detail
+
+00:00:36.950 --> 00:00:36.960 
+if you don't need that kind of detail
+
+00:00:36.960 --> 00:00:39.799 
+if you don't need that kind of detail
+then<00:00:37.829> using<00:00:38.280> the<00:00:38.370> trace<00:00:38.640> bitmap<00:00:38.940> function<00:00:39.690> in
+
+00:00:39.799 --> 00:00:39.809 
+then using the trace bitmap function in
+
+00:00:39.809 --> 00:00:43.639 
+then using the trace bitmap function in
+flash<00:00:40.140> might<00:00:40.739> be<00:00:40.950> a<00:00:41.129> good<00:00:41.460> solution<00:00:42.170> so<00:00:43.170> I'm
+
+00:00:43.639 --> 00:00:43.649 
+flash might be a good solution so I'm
+
+00:00:43.649 --> 00:00:45.560 
+flash might be a good solution so I'm
+gonna<00:00:43.890> switch<00:00:44.129> over<00:00:44.370> to<00:00:44.550> Chrome<00:00:44.850> here<00:00:45.329> I've
+
+00:00:45.560 --> 00:00:45.570 
+gonna switch over to Chrome here I've
+
+00:00:45.570 --> 00:00:47.360 
+gonna switch over to Chrome here I've
+already<00:00:45.930> searched<00:00:46.200> for<00:00:46.530> a<00:00:46.559> character<00:00:47.100> that<00:00:47.309> I
+
+00:00:47.360 --> 00:00:47.370 
+already searched for a character that I
+
+00:00:47.370 --> 00:00:50.360 
+already searched for a character that I
+want<00:00:47.640> to<00:00:47.760> get<00:00:47.940> in<00:00:48.289> using<00:00:49.289> a<00:00:49.649> Google<00:00:50.039> image
+
+00:00:50.360 --> 00:00:50.370 
+want to get in using a Google image
+
+00:00:50.370 --> 00:00:56.170 
+want to get in using a Google image
+search<00:00:51.980> I'm<00:00:52.980> gonna<00:00:53.160> right<00:00:53.640> click<00:00:53.670> copy<00:00:54.570> image
+
+00:00:56.170 --> 00:00:56.180 
+search I'm gonna right click copy image
+
+00:00:56.180 --> 00:00:59.740 
+search I'm gonna right click copy image
+flip<00:00:57.180> it<00:00:57.300> back<00:00:57.480> to<00:00:57.690> flash<00:00:58.020> right<00:00:58.920> click<00:00:59.250> and
+
+00:00:59.740 --> 00:00:59.750 
+flip it back to flash right click and
+
+00:00:59.750 --> 00:01:06.890 
+flip it back to flash right click and
+paste<00:01:00.750> that<00:01:01.140> image<00:01:01.760> okay<00:01:03.439> alright<00:01:04.439> and<00:01:04.680> so<00:01:05.900> go
+
+00:01:06.890 --> 00:01:06.900 
+paste that image okay alright and so go
+
+00:01:06.900 --> 00:01:09.469 
+paste that image okay alright and so go
+ahead<00:01:06.990> and<00:01:07.170> pause<00:01:07.350> the<00:01:07.560> video<00:01:07.680> and<00:01:08.189> grab<00:01:09.119> one
+
+00:01:09.469 --> 00:01:09.479 
+ahead and pause the video and grab one
+
+00:01:09.479 --> 00:01:12.670 
+ahead and pause the video and grab one
+more<00:01:09.799> character<00:01:10.799> from<00:01:11.100> Google<00:01:11.490> image<00:01:11.850> and
+
+00:01:12.670 --> 00:01:12.680 
+more character from Google image and
+
+00:01:12.680 --> 00:01:17.780 
+more character from Google image and
+import<00:01:13.680> it<00:01:13.799> in<00:01:13.950> the<00:01:14.070> flesh<00:01:16.280> okay<00:01:17.280> and<00:01:17.520> I'm
+
+00:01:17.780 --> 00:01:17.790 
+import it in the flesh okay and I'm
+
+00:01:17.790 --> 00:01:19.490 
+import it in the flesh okay and I'm
+going<00:01:18.240> to<00:01:18.270> assume<00:01:18.630> that<00:01:18.689> you've<00:01:18.990> already<00:01:19.200> done
+
+00:01:19.490 --> 00:01:19.500 
+going to assume that you've already done
+
+00:01:19.500 --> 00:01:21.590 
+going to assume that you've already done
+that<00:01:19.560> again<00:01:20.369> if<00:01:20.490> not<00:01:20.670> pause<00:01:21.030> the<00:01:21.270> video<00:01:21.540> here
+
+00:01:21.590 --> 00:01:21.600 
+that again if not pause the video here
+
+00:01:21.600 --> 00:01:25.760 
+that again if not pause the video here
+and<00:01:22.250> do<00:01:23.250> it<00:01:23.630> but<00:01:24.630> let's<00:01:24.780> go<00:01:24.930> on<00:01:25.110> I'm<00:01:25.380> gonna<00:01:25.530> zoom
+
+00:01:25.760 --> 00:01:25.770 
+and do it but let's go on I'm gonna zoom
+
+00:01:25.770 --> 00:01:27.530 
+and do it but let's go on I'm gonna zoom
+in<00:01:25.950> here<00:01:26.130> so<00:01:26.310> you<00:01:26.400> can<00:01:26.549> see<00:01:27.030> a<00:01:27.060> little<00:01:27.210> bit<00:01:27.330> more
+
+00:01:27.530 --> 00:01:27.540 
+in here so you can see a little bit more
+
+00:01:27.540 --> 00:01:30.230 
+in here so you can see a little bit more
+detail<00:01:27.990> with<00:01:28.320> what<00:01:28.590> this<00:01:28.710> is<00:01:28.890> doing<00:01:29.130> I'm<00:01:30.119> gonna
+
+00:01:30.230 --> 00:01:30.240 
+detail with what this is doing I'm gonna
+
+00:01:30.240 --> 00:01:33.859 
+detail with what this is doing I'm gonna
+go<00:01:30.390> up<00:01:30.479> to<00:01:30.540> the<00:01:30.630> modify<00:01:31.140> menu<00:01:32.509> and<00:01:33.509> go<00:01:33.659> to<00:01:33.720> the
+
+00:01:33.859 --> 00:01:33.869 
+go up to the modify menu and go to the
+
+00:01:33.869 --> 00:01:37.190 
+go up to the modify menu and go to the
+bitmap<00:01:34.759> menu<00:01:35.759> and<00:01:36.060> then<00:01:36.270> click<00:01:36.630> on<00:01:36.750> trace
+
+00:01:37.190 --> 00:01:37.200 
+bitmap menu and then click on trace
+
+00:01:37.200 --> 00:01:40.880 
+bitmap menu and then click on trace
+bitmap<00:01:37.560> and<00:01:38.750> then<00:01:39.750> if<00:01:39.840> I<00:01:39.930> click<00:01:40.140> on<00:01:40.229> preview<00:01:40.740> we
+
+00:01:40.880 --> 00:01:40.890 
+bitmap and then if I click on preview we
+
+00:01:40.890 --> 00:01:43.940 
+bitmap and then if I click on preview we
+can<00:01:40.920> see<00:01:41.070> what<00:01:41.340> it's<00:01:41.460> doing<00:01:41.700> so<00:01:42.659> here<00:01:43.140> if<00:01:43.649> the
+
+00:01:43.940 --> 00:01:43.950 
+can see what it's doing so here if the
+
+00:01:43.950 --> 00:01:48.010 
+can see what it's doing so here if the
+color<00:01:44.340> threshold<00:01:45.000> if<00:01:45.840> you<00:01:45.930> set<00:01:46.229> it<00:01:46.259> very<00:01:46.979> low
+
+00:01:48.010 --> 00:01:48.020 
+color threshold if you set it very low
+
+00:01:48.020 --> 00:01:52.069 
+color threshold if you set it very low
+you'll<00:01:49.020> see<00:01:49.170> that<00:01:49.290> we<00:01:49.409> get<00:01:49.560> a<00:01:49.590> lot<00:01:49.950> of<00:01:51.079> various
+
+00:01:52.069 --> 00:01:52.079 
+you'll see that we get a lot of various
+
+00:01:52.079 --> 00:01:54.710 
+you'll see that we get a lot of various
+different<00:01:52.409> colors<00:01:52.829> and<00:01:53.100> it's<00:01:53.970> fairly
+
+00:01:54.710 --> 00:01:54.720 
+different colors and it's fairly
+
+00:01:54.720 --> 00:01:57.980 
+different colors and it's fairly
+detailed<00:01:55.520> if<00:01:56.520> you<00:01:56.670> set<00:01:56.880> it<00:01:56.909> very<00:01:57.180> high<00:01:57.509> than<00:01:57.840> it
+
+00:01:57.980 --> 00:01:57.990 
+detailed if you set it very high than it
+
+00:01:57.990 --> 00:02:02.749 
+detailed if you set it very high than it
+loses<00:01:58.740> detail<00:01:59.189> but<00:01:59.520> it's<00:01:59.670> a<00:02:00.590> lot<00:02:01.590> easier<00:02:01.759> load
+
+00:02:02.749 --> 00:02:02.759 
+loses detail but it's a lot easier load
+
+00:02:02.759 --> 00:02:06.200 
+loses detail but it's a lot easier load
+for<00:02:03.270> Flash<00:02:03.570> to<00:02:03.899> bear<00:02:04.170> and<00:02:04.610> I<00:02:05.610> tend<00:02:05.939> to<00:02:06.000> find
+
+00:02:06.200 --> 00:02:06.210 
+for Flash to bear and I tend to find
+
+00:02:06.210 --> 00:02:09.589 
+for Flash to bear and I tend to find
+that<00:02:06.390> somewhere<00:02:07.020> around<00:02:07.170> the<00:02:07.789> fifty<00:02:08.789> to<00:02:09.569> a
+
+00:02:09.589 --> 00:02:09.599 
+that somewhere around the fifty to a
+
+00:02:09.599 --> 00:02:12.920 
+that somewhere around the fifty to a
+hundred<00:02:09.690> range<00:02:10.619> works<00:02:11.220> pretty<00:02:11.489> well
+
+00:02:12.920 --> 00:02:12.930 
+hundred range works pretty well
+
+00:02:12.930 --> 00:02:16.360 
+hundred range works pretty well
+and<00:02:13.019> then<00:02:13.640> the<00:02:14.640> same<00:02:14.849> thing<00:02:15.150> applies<00:02:15.719> with<00:02:16.019> the
+
+00:02:16.360 --> 00:02:16.370 
+and then the same thing applies with the
+
+00:02:16.370 --> 00:02:20.179 
+and then the same thing applies with the
+minimum<00:02:17.370> area<00:02:17.640> of<00:02:17.939> pixels<00:02:18.420> to<00:02:18.569> be<00:02:18.840> traced<00:02:19.200> if
+
+00:02:20.179 --> 00:02:20.189 
+minimum area of pixels to be traced if
+
+00:02:20.189 --> 00:02:23.690 
+minimum area of pixels to be traced if
+you<00:02:20.280> set<00:02:20.459> that<00:02:20.579> high<00:02:20.849> then<00:02:21.590> you<00:02:22.590> are<00:02:23.010> going<00:02:23.640> to
+
+00:02:23.690 --> 00:02:23.700 
+you set that high then you are going to
+
+00:02:23.700 --> 00:02:27.319 
+you set that high then you are going to
+get<00:02:23.819> a<00:02:23.849> less<00:02:24.150> detailed<00:02:24.750> version<00:02:26.090> than<00:02:27.090> if<00:02:27.209> you
+
+00:02:27.319 --> 00:02:27.329 
+get a less detailed version than if you
+
+00:02:27.329 --> 00:02:30.890 
+get a less detailed version than if you
+set<00:02:27.540> it<00:02:27.569> low<00:02:27.930> but<00:02:28.829> if<00:02:29.819> you<00:02:30.000> do<00:02:30.329> set<00:02:30.540> it<00:02:30.569> higher
+
+00:02:30.890 --> 00:02:30.900 
+set it low but if you do set it higher
+
+00:02:30.900 --> 00:02:35.509 
+set it low but if you do set it higher
+than<00:02:31.010> you<00:02:32.010> have<00:02:32.219> a<00:02:33.260> little<00:02:34.260> bit<00:02:34.439> more<00:02:34.709> math<00:02:34.980> for
+
+00:02:35.509 --> 00:02:35.519 
+than you have a little bit more math for
+
+00:02:35.519 --> 00:02:39.890 
+than you have a little bit more math for
+flash<00:02:35.819> to<00:02:36.120> have<00:02:36.299> to<00:02:36.480> do<00:02:37.939> and<00:02:38.939> we'll<00:02:39.540> just<00:02:39.750> leave
+
+00:02:39.890 --> 00:02:39.900 
+flash to have to do and we'll just leave
+
+00:02:39.900 --> 00:02:42.080 
+flash to have to do and we'll just leave
+the<00:02:40.139> corner<00:02:40.469> threshold<00:02:40.980> and<00:02:41.159> corner<00:02:41.700> curve
+
+00:02:42.080 --> 00:02:42.090 
+the corner threshold and corner curve
+
+00:02:42.090 --> 00:02:45.500 
+the corner threshold and corner curve
+fit<00:02:42.420> as<00:02:42.659> normal<00:02:43.549> and<00:02:44.549> you<00:02:45.030> can<00:02:45.150> experiment
+
+00:02:45.500 --> 00:02:45.510 
+fit as normal and you can experiment
+
+00:02:45.510 --> 00:02:46.970 
+fit as normal and you can experiment
+with<00:02:45.810> all<00:02:45.930> those<00:02:46.109> later<00:02:46.439> on
+
+00:02:46.970 --> 00:02:46.980 
+with all those later on
+
+00:02:46.980 --> 00:02:50.240 
+with all those later on
+I'm<00:02:47.909> going<00:02:48.030> to<00:02:48.090> click<00:02:48.269> OK<00:02:48.629> it<00:02:49.319> traces<00:02:50.040> that
+
+00:02:50.240 --> 00:02:50.250 
+I'm going to click OK it traces that
+
+00:02:50.250 --> 00:02:53.869 
+I'm going to click OK it traces that
+bitmap<00:02:50.519> and<00:02:51.349> automatically<00:02:52.349> creates<00:02:52.879> vector
+
+00:02:53.869 --> 00:02:53.879 
+bitmap and automatically creates vector
+
+00:02:53.879 --> 00:02:56.559 
+bitmap and automatically creates vector
+art<00:02:54.150> from<00:02:54.659> it's<00:02:54.840> going<00:02:55.590> to<00:02:55.650> do<00:02:55.739> a<00:02:55.769> command<00:02:56.129> s<00:02:56.370> to
+
+00:02:56.559 --> 00:02:56.569 
+art from it's going to do a command s to
+
+00:02:56.569 --> 00:02:59.899 
+art from it's going to do a command s to
+save<00:02:57.569> it<00:02:58.049> I<00:02:58.290> found<00:02:58.889> for<00:02:59.129> some<00:02:59.310> reason<00:02:59.669> you<00:02:59.760> need
+
+00:02:59.899 --> 00:02:59.909 
+save it I found for some reason you need
+
+00:02:59.909 --> 00:03:03.440 
+save it I found for some reason you need
+to<00:03:00.090> do<00:03:00.389> a<00:03:00.419> command<00:03:00.810> S<00:03:01.049> and<00:03:01.500> save<00:03:02.239> before<00:03:03.239> you
+
+00:03:03.440 --> 00:03:03.450 
+to do a command S and save before you
+
+00:03:03.450 --> 00:03:05.839 
+to do a command S and save before you
+can<00:03:03.659> proceed<00:03:04.049> with<00:03:04.189> with<00:03:05.189> this<00:03:05.430> there<00:03:05.730> are
+
+00:03:05.839 --> 00:03:05.849 
+can proceed with with this there are
+
+00:03:05.849 --> 00:03:08.659 
+can proceed with with this there are
+five<00:03:06.719> point<00:03:06.989> five<00:03:07.139> has<00:03:07.439> some<00:03:07.620> issues<00:03:07.889> kind<00:03:08.519> of
+
+00:03:08.659 --> 00:03:08.669 
+five point five has some issues kind of
+
+00:03:08.669 --> 00:03:13.459 
+five point five has some issues kind of
+locks<00:03:08.909> up<00:03:10.370> okay<00:03:11.370> but<00:03:11.400> once<00:03:11.700> it's<00:03:11.879> saved<00:03:12.469> then
+
+00:03:13.459 --> 00:03:13.469 
+locks up okay but once it's saved then
+
+00:03:13.469 --> 00:03:18.530 
+locks up okay but once it's saved then
+we<00:03:13.620> can<00:03:13.799> keep<00:03:13.980> going<00:03:14.930> and<00:03:16.760> if<00:03:17.760> i<00:03:17.940> zoom<00:03:17.970> in<00:03:18.359> here
+
+00:03:18.530 --> 00:03:18.540 
+we can keep going and if i zoom in here
+
+00:03:18.540 --> 00:03:21.229 
+we can keep going and if i zoom in here
+you<00:03:18.599> can<00:03:18.810> see<00:03:18.840> that<00:03:20.000> everything<00:03:21.000> has<00:03:21.030> been
+
+00:03:21.229 --> 00:03:21.239 
+you can see that everything has been
+
+00:03:21.239 --> 00:03:24.339 
+you can see that everything has been
+vectorized<00:03:21.930> if<00:03:22.379> I<00:03:22.500> get<00:03:22.709> my<00:03:23.120> subselection<00:03:24.120> tool
+
+00:03:24.339 --> 00:03:24.349 
+vectorized if I get my subselection tool
+
+00:03:24.349 --> 00:03:27.520 
+vectorized if I get my subselection tool
+you<00:03:25.349> can<00:03:25.440> see<00:03:25.650> all<00:03:25.859> of<00:03:25.889> those<00:03:26.159> little<00:03:26.489> points
+
+00:03:27.520 --> 00:03:27.530 
+you can see all of those little points
+
+00:03:27.530 --> 00:03:37.159 
+you can see all of those little points
+that<00:03:28.530> it<00:03:28.829> has<00:03:29.040> created<00:03:34.669> okay<00:03:35.750> well<00:03:36.750> I'm<00:03:37.019> going
+
+00:03:37.159 --> 00:03:37.169 
+that it has created okay well I'm going
+
+00:03:37.169 --> 00:03:40.490 
+that it has created okay well I'm going
+to<00:03:37.229> zoom<00:03:37.470> out<00:03:37.819> get<00:03:38.819> my<00:03:39.000> main<00:03:39.689> selection<00:03:40.079> tool
+
+00:03:40.490 --> 00:03:40.500 
+to zoom out get my main selection tool
+
+00:03:40.500 --> 00:03:43.490 
+to zoom out get my main selection tool
+hit<00:03:40.829> V<00:03:41.599> I'm<00:03:42.599> gonna<00:03:42.840> get<00:03:43.019> rid<00:03:43.169> of<00:03:43.199> this<00:03:43.319> other
+
+00:03:43.490 --> 00:03:43.500 
+hit V I'm gonna get rid of this other
+
+00:03:43.500 --> 00:03:45.530 
+hit V I'm gonna get rid of this other
+character<00:03:43.829> that's<00:03:44.280> standing<00:03:44.729> beside<00:03:45.120> my<00:03:45.329> main
+
+00:03:45.530 --> 00:03:45.540 
+character that's standing beside my main
+
+00:03:45.540 --> 00:03:47.530 
+character that's standing beside my main
+character<00:03:46.049> get<00:03:46.319> rid<00:03:46.439> of<00:03:46.500> that<00:03:46.650> white<00:03:46.919> space
+
+00:03:47.530 --> 00:03:47.540 
+character get rid of that white space
+
+00:03:47.540 --> 00:03:52.099 
+character get rid of that white space
+around<00:03:49.430> the<00:03:50.430> character<00:03:50.939> even<00:03:51.569> gonna<00:03:51.840> get<00:03:51.959> rid
+
+00:03:52.099 --> 00:03:52.109 
+around the character even gonna get rid
+
+00:03:52.109 --> 00:03:55.449 
+around the character even gonna get rid
+of<00:03:52.169> the<00:03:52.259> shadow<00:03:52.560> and<00:03:53.540> then<00:03:54.540> I'm<00:03:54.659> going<00:03:54.870> to
+
+00:03:55.449 --> 00:03:55.459 
+of the shadow and then I'm going to
+
+00:03:55.459 --> 00:03:58.819 
+of the shadow and then I'm going to
+highlight<00:03:56.459> the<00:03:56.609> character<00:03:57.290> right<00:03:58.290> click<00:03:58.650> on
+
+00:03:58.819 --> 00:03:58.829 
+highlight the character right click on
+
+00:03:58.829 --> 00:04:05.809 
+highlight the character right click on
+him<00:03:59.129> and<00:04:01.040> convert<00:04:02.040> to<00:04:02.310> symbol<00:04:04.519> and<00:04:05.519> I'm<00:04:05.669> just
+
+00:04:05.809 --> 00:04:05.819 
+him and convert to symbol and I'm just
+
+00:04:05.819 --> 00:04:09.680 
+him and convert to symbol and I'm just
+gonna<00:04:05.939> name<00:04:06.209> him<00:04:07.669> traced
+
+00:04:09.680 --> 00:04:09.690 
+gonna name him traced
+
+00:04:09.690 --> 00:04:15.770 
+gonna name him traced
+bitmap<00:04:13.040> okay<00:04:14.040> and<00:04:14.550> now<00:04:15.030> you'll<00:04:15.210> see<00:04:15.450> that<00:04:15.480> he's
+
+00:04:15.770 --> 00:04:15.780 
+bitmap okay and now you'll see that he's
+
+00:04:15.780 --> 00:04:20.800 
+bitmap okay and now you'll see that he's
+showing<00:04:16.080> up<00:04:16.290> in<00:04:16.590> the<00:04:17.310> library<00:04:17.549> here<00:04:18.920> so<00:04:19.920> I<00:04:19.950> can
+
+00:04:20.800 --> 00:04:20.810 
+showing up in the library here so I can
+
+00:04:20.810 --> 00:04:23.930 
+showing up in the library here so I can
+drag<00:04:21.810> out<00:04:21.989> multiple<00:04:22.530> instances<00:04:23.250> of<00:04:23.610> this
+
+00:04:23.930 --> 00:04:23.940 
+drag out multiple instances of this
+
+00:04:23.940 --> 00:04:26.030 
+drag out multiple instances of this
+character<00:04:24.510> from<00:04:24.780> the<00:04:24.960> library<00:04:25.410> at<00:04:25.560> this<00:04:25.740> point
+
+00:04:26.030 --> 00:04:26.040 
+character from the library at this point
+
+00:04:26.040 --> 00:04:29.570 
+character from the library at this point
+and<00:04:26.840> that's<00:04:27.840> what<00:04:28.050> ultimately<00:04:28.860> you<00:04:29.310> want<00:04:29.430> to
+
+00:04:29.570 --> 00:04:29.580 
+and that's what ultimately you want to
+
+00:04:29.580 --> 00:04:31.880 
+and that's what ultimately you want to
+be<00:04:29.700> able<00:04:29.760> to<00:04:29.880> do<00:04:30.350> now<00:04:31.350> I'm<00:04:31.470> going<00:04:31.590> to<00:04:31.650> delete
+
+00:04:31.880 --> 00:04:31.890 
+be able to do now I'm going to delete
+
+00:04:31.890 --> 00:04:36.260 
+be able to do now I'm going to delete
+him<00:04:32.010> from<00:04:32.040> the<00:04:32.850> stage<00:04:33.560> hit<00:04:34.560> save<00:04:34.860> again<00:04:34.890> and<00:04:35.270> I
+
+00:04:36.260 --> 00:04:36.270 
+him from the stage hit save again and I
+
+00:04:36.270 --> 00:04:39.260 
+him from the stage hit save again and I
+can<00:04:37.170> even<00:04:37.410> delete<00:04:37.800> this<00:04:38.040> bitmap<00:04:38.610> if<00:04:39.000> I'm<00:04:39.120> no
+
+00:04:39.260 --> 00:04:39.270 
+can even delete this bitmap if I'm no
+
+00:04:39.270 --> 00:04:42.290 
+can even delete this bitmap if I'm no
+longer<00:04:39.300> using<00:04:39.930> it<00:04:40.020> and<00:04:40.640> I<00:04:41.640> have<00:04:41.820> only<00:04:42.030> the
+
+00:04:42.290 --> 00:04:42.300 
+longer using it and I have only the
+
+00:04:42.300 --> 00:04:46.760 
+longer using it and I have only the
+trace<00:04:43.290> bitmap<00:04:44.030> vector<00:04:45.030> art<00:04:45.440> left<00:04:46.440> to<00:04:46.590> play
+
+00:04:46.760 --> 00:04:46.770 
+trace bitmap vector art left to play
+
+00:04:46.770 --> 00:04:51.830 
+trace bitmap vector art left to play
+with<00:04:47.420> okay<00:04:48.440> so<00:04:49.440> that<00:04:50.340> is<00:04:50.760> how<00:04:51.240> you<00:04:51.270> trace<00:04:51.810> a
+
+00:04:51.830 --> 00:04:51.840 
+with okay so that is how you trace a
+
+00:04:51.840 --> 00:04:54.650 
+with okay so that is how you trace a
+bitmap<00:04:52.700> automatically<00:04:53.700> again<00:04:54.060> not<00:04:54.270> quite<00:04:54.510> as
+
+00:04:54.650 --> 00:04:54.660 
+bitmap automatically again not quite as
+
+00:04:54.660 --> 00:04:59.090 
+bitmap automatically again not quite as
+detailed<00:04:54.930> as<00:04:56.300> the<00:04:57.300> the<00:04:57.630> previous<00:04:58.140> method<00:04:58.620> that
+
+00:04:59.090 --> 00:04:59.100 
+detailed as the the previous method that
+
+00:04:59.100 --> 00:05:02.600 
+detailed as the the previous method that
+we<00:04:59.190> use<00:04:59.460> to<00:04:59.760> get<00:04:59.880> art<00:05:00.180> in<00:05:00.450> there<00:05:00.690> but<00:05:01.590> in<00:05:01.890> some
+
+00:05:02.600 --> 00:05:02.610 
+we use to get art in there but in some
+
+00:05:02.610 --> 00:05:04.490 
+we use to get art in there but in some
+cases<00:05:02.850> you<00:05:03.330> don't<00:05:03.510> need<00:05:03.660> it<00:05:03.780> quite<00:05:04.350> that
+
+00:05:04.490 --> 00:05:04.500 
+cases you don't need it quite that
+
+00:05:04.500 --> 00:05:06.110 
+cases you don't need it quite that
+detailed<00:05:04.950> you<00:05:05.130> can<00:05:05.190> get<00:05:05.370> away<00:05:05.490> with<00:05:05.790> just<00:05:05.970> a
+
+00:05:06.110 --> 00:05:06.120 
+detailed you can get away with just a
+
+00:05:06.120 --> 00:05:10.670 
+detailed you can get away with just a
+trace<00:05:06.390> to<00:05:06.630> bitmap<00:05:07.460> okay<00:05:09.200> that<00:05:10.200> is<00:05:10.350> it<00:05:10.380> for<00:05:10.620> this
+
+00:05:10.670 --> 00:05:10.680 
+trace to bitmap okay that is it for this
+
+00:05:10.680 --> 00:05:11.360 
+trace to bitmap okay that is it for this
+tutorial
+
+00:05:11.360 --> 00:05:11.370 
+tutorial
+
+00:05:11.370 --> 00:05:13.580 
+tutorial
+next<00:05:11.880> we'll<00:05:12.060> talk<00:05:12.270> about<00:05:12.330> drawing<00:05:13.170> from
+
+00:05:13.580 --> 00:05:13.590 
+next we'll talk about drawing from
+
+00:05:13.590 --> 00:05:18.440 
+next we'll talk about drawing from
+scratch<00:05:13.980> using<00:05:14.550> the<00:05:15.510> tools<00:05:15.810> and<00:05:16.140> flash
+

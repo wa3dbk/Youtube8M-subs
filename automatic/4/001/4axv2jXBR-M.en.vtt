@@ -1,0 +1,561 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.260 --> 00:00:02.780 
+
+hi<00:00:01.260> and<00:00:01.500> welcome<00:00:01.620> to<00:00:01.829> this<00:00:01.949> edition<00:00:02.010> of<00:00:02.490> mobile
+
+00:00:02.780 --> 00:00:02.790 
+hi and welcome to this edition of mobile
+
+00:00:02.790 --> 00:00:04.309 
+hi and welcome to this edition of mobile
+tech<00:00:02.939> videos<00:00:03.270> I'm<00:00:03.570> Josh
+
+00:00:04.309 --> 00:00:04.319 
+tech videos I'm Josh
+
+00:00:04.319 --> 00:00:06.140 
+tech videos I'm Josh
+also<00:00:04.620> known<00:00:04.740> as<00:00:04.770> connection<00:00:05.250> 2005<00:00:05.940> on<00:00:06.120> the
+
+00:00:06.140 --> 00:00:06.150 
+also known as connection 2005 on the
+
+00:00:06.150 --> 00:00:08.120 
+also known as connection 2005 on the
+forums<00:00:06.540> today<00:00:07.230> we'll<00:00:07.379> be<00:00:07.470> talking<00:00:07.620> about<00:00:07.890> how
+
+00:00:08.120 --> 00:00:08.130 
+forums today we'll be talking about how
+
+00:00:08.130 --> 00:00:10.730 
+forums today we'll be talking about how
+to<00:00:08.160> install<00:00:08.730> any<00:00:09.030> application<00:00:09.740> via
+
+00:00:10.730 --> 00:00:10.740 
+to install any application via
+
+00:00:10.740 --> 00:00:14.030 
+to install any application via
+sideloading<00:00:11.370> using<00:00:12.059> ADB<00:00:12.769> if<00:00:13.769> you<00:00:13.920> are
+
+00:00:14.030 --> 00:00:14.040 
+sideloading using ADB if you are
+
+00:00:14.040 --> 00:00:16.279 
+sideloading using ADB if you are
+unfamiliar<00:00:14.519> with<00:00:14.639> the<00:00:14.880> SDK<00:00:15.179> tools<00:00:15.540> please<00:00:16.080> go
+
+00:00:16.279 --> 00:00:16.289 
+unfamiliar with the SDK tools please go
+
+00:00:16.289 --> 00:00:19.130 
+unfamiliar with the SDK tools please go
+see<00:00:16.500> the<00:00:16.619> SDK<00:00:17.039> tools<00:00:17.250> video<00:00:17.750> run<00:00:18.750> through<00:00:18.990> and
+
+00:00:19.130 --> 00:00:19.140 
+see the SDK tools video run through and
+
+00:00:19.140 --> 00:00:21.170 
+see the SDK tools video run through and
+install<00:00:19.260> the<00:00:19.590> tools<00:00:19.859> and<00:00:20.160> then<00:00:20.580> come<00:00:20.789> back<00:00:20.820> and
+
+00:00:21.170 --> 00:00:21.180 
+install the tools and then come back and
+
+00:00:21.180 --> 00:00:22.820 
+install the tools and then come back and
+check<00:00:21.270> us<00:00:21.420> out<00:00:21.570> for<00:00:21.990> how<00:00:22.140> to<00:00:22.199> do<00:00:22.410> this<00:00:22.439> okay
+
+00:00:22.820 --> 00:00:22.830 
+check us out for how to do this okay
+
+00:00:22.830 --> 00:00:25.550 
+check us out for how to do this okay
+what<00:00:23.550> we're<00:00:23.640> going<00:00:23.760> to<00:00:23.789> do<00:00:24.000> here<00:00:24.269> is<00:00:24.539> side<00:00:25.260> load
+
+00:00:25.550 --> 00:00:25.560 
+what we're going to do here is side load
+
+00:00:25.560 --> 00:00:28.790 
+what we're going to do here is side load
+which<00:00:26.369> means<00:00:26.670> to<00:00:26.939> load<00:00:27.449> an<00:00:27.750> application<00:00:28.529> from
+
+00:00:28.790 --> 00:00:28.800 
+which means to load an application from
+
+00:00:28.800 --> 00:00:31.820 
+which means to load an application from
+the<00:00:28.980> PC<00:00:29.400> to<00:00:29.730> the<00:00:29.760> phone<00:00:30.140> with<00:00:31.140> no<00:00:31.320> market
+
+00:00:31.820 --> 00:00:31.830 
+the PC to the phone with no market
+
+00:00:31.830 --> 00:00:34.100 
+the PC to the phone with no market
+interaction<00:00:32.460> we're<00:00:32.940> going<00:00:33.059> to<00:00:33.120> do<00:00:33.270> this<00:00:33.420> on<00:00:33.690> a
+
+00:00:34.100 --> 00:00:34.110 
+interaction we're going to do this on a
+
+00:00:34.110 --> 00:00:38.030 
+interaction we're going to do this on a
+stop<00:00:34.620> 2.1<00:00:35.370> unrooted<00:00:36.090> captivate<00:00:37.040> the
+
+00:00:38.030 --> 00:00:38.040 
+stop 2.1 unrooted captivate the
+
+00:00:38.040 --> 00:00:39.470 
+stop 2.1 unrooted captivate the
+application<00:00:38.520> we're<00:00:38.610> going<00:00:38.640> to<00:00:38.760> install<00:00:39.210> is
+
+00:00:39.470 --> 00:00:39.480 
+application we're going to install is
+
+00:00:39.480 --> 00:00:43.040 
+application we're going to install is
+set<00:00:39.870> CPU<00:00:40.379> it<00:00:41.370> is<00:00:41.550> not<00:00:41.730> exist<00:00:42.149> there's<00:00:42.870> raw
+
+00:00:43.040 --> 00:00:43.050 
+set CPU it is not exist there's raw
+
+00:00:43.050 --> 00:00:44.810 
+set CPU it is not exist there's raw
+manager<00:00:43.410> settings<00:00:43.710> and<00:00:43.950> talk<00:00:44.129> and<00:00:44.340> just<00:00:44.399> to
+
+00:00:44.810 --> 00:00:44.820 
+manager settings and talk and just to
+
+00:00:44.820 --> 00:00:45.950 
+manager settings and talk and just to
+prove<00:00:44.940> around<00:00:45.210> Rudy<00:00:45.420> will<00:00:45.570> go<00:00:45.660> into<00:00:45.780> raw
+
+00:00:45.950 --> 00:00:45.960 
+prove around Rudy will go into raw
+
+00:00:45.960 --> 00:00:48.410 
+prove around Rudy will go into raw
+manager<00:00:46.410> and<00:00:46.620> we'll<00:00:47.129> get<00:00:47.280> the<00:00:47.460> error<00:00:47.940> for<00:00:48.329> you
+
+00:00:48.410 --> 00:00:48.420 
+manager and we'll get the error for you
+
+00:00:48.420 --> 00:00:51.709 
+manager and we'll get the error for you
+must<00:00:48.629> root<00:00:48.809> your<00:00:48.960> device<00:00:48.989> so<00:00:50.030> now<00:00:51.030> we<00:00:51.090> verified
+
+00:00:51.709 --> 00:00:51.719 
+must root your device so now we verified
+
+00:00:51.719 --> 00:00:53.810 
+must root your device so now we verified
+that<00:00:51.930> we<00:00:52.050> are<00:00:52.199> not<00:00:52.379> rooted<00:00:52.829> let's<00:00:53.340> prepare<00:00:53.640> the
+
+00:00:53.810 --> 00:00:53.820 
+that we are not rooted let's prepare the
+
+00:00:53.820 --> 00:00:56.240 
+that we are not rooted let's prepare the
+install<00:00:54.180> what<00:00:54.989> we<00:00:55.110> want<00:00:55.289> to<00:00:55.350> do<00:00:55.469> is<00:00:55.800> go<00:00:56.129> ahead
+
+00:00:56.240 --> 00:00:56.250 
+install what we want to do is go ahead
+
+00:00:56.250 --> 00:00:58.430 
+install what we want to do is go ahead
+and<00:00:56.370> press<00:00:56.640> the<00:00:56.670> bottom-left<00:00:57.210> button<00:00:57.440> size
+
+00:00:58.430 --> 00:00:58.440 
+and press the bottom-left button size
+
+00:00:58.440 --> 00:01:01.220 
+and press the bottom-left button size
+Settings<00:00:58.859> applications<00:01:00.050> development<00:01:01.050> and
+
+00:01:01.220 --> 00:01:01.230 
+Settings applications development and
+
+00:01:01.230 --> 00:01:03.380 
+Settings applications development and
+then<00:01:01.649> make<00:01:01.800> sure<00:01:01.829> USB<00:01:02.399> debugging<00:01:02.550> is<00:01:02.820> checked
+
+00:01:03.380 --> 00:01:03.390 
+then make sure USB debugging is checked
+
+00:01:03.390 --> 00:01:05.450 
+then make sure USB debugging is checked
+check<00:01:03.750> it<00:01:03.930> say<00:01:04.110> ok<00:01:04.470> and<00:01:04.650> then<00:01:04.920> go<00:01:05.100> back<00:01:05.250> to<00:01:05.369> the
+
+00:01:05.450 --> 00:01:05.460 
+check it say ok and then go back to the
+
+00:01:05.460 --> 00:01:07.940 
+check it say ok and then go back to the
+home<00:01:05.580> screen<00:01:05.780> once<00:01:06.780> we've<00:01:06.960> done<00:01:07.140> that<00:01:07.200> we<00:01:07.920> can
+
+00:01:07.940 --> 00:01:07.950 
+home screen once we've done that we can
+
+00:01:07.950 --> 00:01:12.530 
+home screen once we've done that we can
+plug<00:01:08.280> in<00:01:08.400> our<00:01:08.460> phone<00:01:08.729> and<00:01:08.939> set<00:01:09.570> it<00:01:09.659> aside<00:01:11.540> with
+
+00:01:12.530 --> 00:01:12.540 
+plug in our phone and set it aside with
+
+00:01:12.540 --> 00:01:14.240 
+plug in our phone and set it aside with
+the<00:01:12.570> phones<00:01:12.840> that<00:01:12.960> aside<00:01:13.350> we'll<00:01:13.979> go<00:01:14.100> to<00:01:14.159> the
+
+00:01:14.240 --> 00:01:14.250 
+the phones that aside we'll go to the
+
+00:01:14.250 --> 00:01:17.300 
+the phones that aside we'll go to the
+computer<00:01:14.520> and<00:01:14.820> open<00:01:15.090> a<00:01:15.420> command<00:01:15.750> prompt<00:01:16.310> once
+
+00:01:17.300 --> 00:01:17.310 
+computer and open a command prompt once
+
+00:01:17.310 --> 00:01:19.010 
+computer and open a command prompt once
+you've<00:01:17.490> read<00:01:17.670> through<00:01:17.850> the<00:01:18.000> SDK<00:01:18.390> tools<00:01:18.630> video
+
+00:01:19.010 --> 00:01:19.020 
+you've read through the SDK tools video
+
+00:01:19.020 --> 00:01:21.109 
+you've read through the SDK tools video
+or<00:01:19.259> if<00:01:19.500> you're<00:01:19.680> already<00:01:19.710> aware<00:01:20.310> of<00:01:20.369> where<00:01:20.939> the
+
+00:01:21.109 --> 00:01:21.119 
+or if you're already aware of where the
+
+00:01:21.119 --> 00:01:23.899 
+or if you're already aware of where the
+SDK<00:01:21.570> tools<00:01:22.080> mean<00:01:22.439> and<00:01:22.770> how<00:01:22.860> to<00:01:22.920> use<00:01:23.189> them<00:01:23.400> we're
+
+00:01:23.899 --> 00:01:23.909 
+SDK tools mean and how to use them we're
+
+00:01:23.909 --> 00:01:25.880 
+SDK tools mean and how to use them we're
+going<00:01:24.030> to<00:01:24.119> launch<00:01:24.360> the<00:01:25.200> install<00:01:25.530> using<00:01:25.710> the
+
+00:01:25.880 --> 00:01:25.890 
+going to launch the install using the
+
+00:01:25.890 --> 00:01:28.070 
+going to launch the install using the
+adb<00:01:26.400> command<00:01:26.759> so<00:01:27.360> go<00:01:27.479> ahead<00:01:27.689> and<00:01:27.840> change
+
+00:01:28.070 --> 00:01:28.080 
+adb command so go ahead and change
+
+00:01:28.080 --> 00:01:30.080 
+adb command so go ahead and change
+directories<00:01:28.619> to<00:01:28.650> where<00:01:29.040> you<00:01:29.250> got<00:01:29.460> your<00:01:29.520> adb
+
+00:01:30.080 --> 00:01:30.090 
+directories to where you got your adb
+
+00:01:30.090 --> 00:01:31.670 
+directories to where you got your adb
+file<00:01:30.420> for<00:01:30.780> us<00:01:30.930> we're<00:01:31.320> going<00:01:31.409> to<00:01:31.500> change
+
+00:01:31.670 --> 00:01:31.680 
+file for us we're going to change
+
+00:01:31.680 --> 00:01:35.270 
+file for us we're going to change
+directories<00:01:32.130> to<00:01:32.360> see<00:01:33.500> Android<00:01:34.500> SDK<00:01:34.890> windows
+
+00:01:35.270 --> 00:01:35.280 
+directories to see Android SDK windows
+
+00:01:35.280 --> 00:01:37.340 
+directories to see Android SDK windows
+backslash<00:01:35.850> tools<00:01:36.180> we'll<00:01:36.689> press<00:01:36.900> enter<00:01:37.200> and
+
+00:01:37.340 --> 00:01:37.350 
+backslash tools we'll press enter and
+
+00:01:37.350 --> 00:01:40.730 
+backslash tools we'll press enter and
+then<00:01:38.009> we<00:01:38.100> want<00:01:38.310> to<00:01:38.460> run<00:01:38.670> an<00:01:38.909> ADB<00:01:39.450> space<00:01:40.110> install
+
+00:01:40.730 --> 00:01:40.740 
+then we want to run an ADB space install
+
+00:01:40.740 --> 00:01:43.969 
+then we want to run an ADB space install
+space<00:01:41.509> the<00:01:42.509> location<00:01:43.049> that<00:01:43.170> the<00:01:43.290> file<00:01:43.530> is<00:01:43.770> at
+
+00:01:43.969 --> 00:01:43.979 
+space the location that the file is at
+
+00:01:43.979 --> 00:01:46.639 
+space the location that the file is at
+for<00:01:44.549> us<00:01:44.670> we're<00:01:44.909> using<00:01:45.060> set<00:01:45.360> CPU<00:01:45.869> it's<00:01:46.140> located
+
+00:01:46.639 --> 00:01:46.649 
+for us we're using set CPU it's located
+
+00:01:46.649 --> 00:01:48.620 
+for us we're using set CPU it's located
+right<00:01:46.770> here<00:01:46.829> on<00:01:46.950> the<00:01:47.040> desktop<00:01:47.490> so<00:01:48.090> we've<00:01:48.240> got<00:01:48.420> a
+
+00:01:48.620 --> 00:01:48.630 
+right here on the desktop so we've got a
+
+00:01:48.630 --> 00:01:49.819 
+right here on the desktop so we've got a
+DB<00:01:48.810> installed
+
+00:01:49.819 --> 00:01:49.829 
+DB installed
+
+00:01:49.829 --> 00:01:55.090 
+DB installed
+space<00:01:50.369> C<00:01:51.360> and<00:01:52.130> then<00:01:53.130> we<00:01:53.189> want<00:01:53.340> our<00:01:53.460> users<00:01:53.720> Josh
+
+00:01:55.090 --> 00:01:55.100 
+space C and then we want our users Josh
+
+00:01:55.100 --> 00:01:57.740 
+space C and then we want our users Josh
+desktop<00:01:56.100> and<00:01:56.820> we're<00:01:57.180> going<00:01:57.299> to<00:01:57.329> start<00:01:57.570> typing
+
+00:01:57.740 --> 00:01:57.750 
+desktop and we're going to start typing
+
+00:01:57.750 --> 00:01:59.870 
+desktop and we're going to start typing
+set<00:01:58.229> CPU<00:01:58.770> and<00:01:58.979> I'll<00:01:59.070> press<00:01:59.280> tab<00:01:59.549> to<00:01:59.579> complete
+
+00:01:59.870 --> 00:01:59.880 
+set CPU and I'll press tab to complete
+
+00:01:59.880 --> 00:02:03.200 
+set CPU and I'll press tab to complete
+the<00:02:00.659> full<00:02:01.219> full<00:02:02.219> thing<00:02:02.430> you<00:02:02.759> can<00:02:02.909> always<00:02:03.000> use
+
+00:02:03.200 --> 00:02:03.210 
+the full full thing you can always use
+
+00:02:03.210 --> 00:02:05.060 
+the full full thing you can always use
+tab<00:02:03.479> in<00:02:03.659> any<00:02:03.780> situation<00:02:04.320> to<00:02:04.350> autofill<00:02:05.040> the
+
+00:02:05.060 --> 00:02:05.070 
+tab in any situation to autofill the
+
+00:02:05.070 --> 00:02:06.620 
+tab in any situation to autofill the
+line<00:02:05.430> so<00:02:05.759> for<00:02:05.909> us<00:02:06.030> it's<00:02:06.210> going<00:02:06.329> to<00:02:06.390> make<00:02:06.509> things
+
+00:02:06.620 --> 00:02:06.630 
+line so for us it's going to make things
+
+00:02:06.630 --> 00:02:08.830 
+line so for us it's going to make things
+a<00:02:06.780> lot<00:02:06.960> easier<00:02:06.990> than<00:02:07.500> having<00:02:07.560> to<00:02:07.860> use
+
+00:02:08.830 --> 00:02:08.840 
+a lot easier than having to use
+
+00:02:08.840 --> 00:02:11.300 
+a lot easier than having to use
+parenthesis<00:02:09.840> for<00:02:10.170> spacing<00:02:10.440> and<00:02:10.920> typing<00:02:11.160> in
+
+00:02:11.300 --> 00:02:11.310 
+parenthesis for spacing and typing in
+
+00:02:11.310 --> 00:02:13.220 
+parenthesis for spacing and typing in
+all<00:02:11.400> those<00:02:11.580> letters<00:02:11.790> so<00:02:12.360> let's<00:02:12.510> take<00:02:12.660> a<00:02:12.690> closer
+
+00:02:13.220 --> 00:02:13.230 
+all those letters so let's take a closer
+
+00:02:13.230 --> 00:02:13.920 
+all those letters so let's take a closer
+look<00:02:13.440> at<00:02:13.590> what
+
+00:02:13.920 --> 00:02:13.930 
+look at what
+
+00:02:13.930 --> 00:02:18.720 
+look at what
+out<00:02:14.049> there<00:02:16.109> okay<00:02:17.109> we've<00:02:17.530> got<00:02:17.829> the<00:02:18.129> let's<00:02:18.640> see
+
+00:02:18.720 --> 00:02:18.730 
+out there okay we've got the let's see
+
+00:02:18.730 --> 00:02:23.339 
+out there okay we've got the let's see
+if<00:02:18.790> I<00:02:18.849> can<00:02:19.000> focus<00:02:19.120> that<00:02:19.420> out<00:02:21.840> I'm<00:02:22.840> not<00:02:23.019> sure<00:02:23.230> if
+
+00:02:23.339 --> 00:02:23.349 
+if I can focus that out I'm not sure if
+
+00:02:23.349 --> 00:02:24.869 
+if I can focus that out I'm not sure if
+you<00:02:23.439> can<00:02:23.530> see<00:02:23.709> that<00:02:23.829> but<00:02:24.250> we've<00:02:24.430> got<00:02:24.640> the
+
+00:02:24.869 --> 00:02:24.879 
+you can see that but we've got the
+
+00:02:24.879 --> 00:02:28.709 
+you can see that but we've got the
+change<00:02:25.870> directory<00:02:26.379> to<00:02:26.709> see<00:02:26.739> Android<00:02:27.670> SDK<00:02:28.540> des
+
+00:02:28.709 --> 00:02:28.719 
+change directory to see Android SDK des
+
+00:02:28.719 --> 00:02:30.569 
+change directory to see Android SDK des
+windows<00:02:29.079> backslash<00:02:29.590> tools<00:02:29.890> that's<00:02:30.340> where<00:02:30.489> we
+
+00:02:30.569 --> 00:02:30.579 
+windows backslash tools that's where we
+
+00:02:30.579 --> 00:02:33.569 
+windows backslash tools that's where we
+know<00:02:30.760> our<00:02:30.879> ADB<00:02:31.359> exe<00:02:32.170> file<00:02:32.409> is<00:02:32.650> and<00:02:33.250> once<00:02:33.489> we've
+
+00:02:33.569 --> 00:02:33.579 
+know our ADB exe file is and once we've
+
+00:02:33.579 --> 00:02:35.190 
+know our ADB exe file is and once we've
+done<00:02:33.609> that<00:02:33.790> we've<00:02:34.450> gone<00:02:34.599> ahead<00:02:34.750> and<00:02:34.900> around
+
+00:02:35.190 --> 00:02:35.200 
+done that we've gone ahead and around
+
+00:02:35.200 --> 00:02:37.890 
+done that we've gone ahead and around
+the<00:02:35.319> adb<00:02:35.739> install<00:02:36.129> space<00:02:37.060> and<00:02:37.389> then<00:02:37.780> the
+
+00:02:37.890 --> 00:02:37.900 
+the adb install space and then the
+
+00:02:37.900 --> 00:02:41.220 
+the adb install space and then the
+location<00:02:38.530> of<00:02:38.799> the<00:02:39.400> apk<00:02:40.120> file<00:02:40.389> which<00:02:40.689> for<00:02:40.900> us<00:02:40.930> is
+
+00:02:41.220 --> 00:02:41.230 
+location of the apk file which for us is
+
+00:02:41.230 --> 00:02:42.149 
+location of the apk file which for us is
+on<00:02:41.409> our<00:02:41.530> desktop
+
+00:02:42.149 --> 00:02:42.159 
+on our desktop
+
+00:02:42.159 --> 00:02:44.099 
+on our desktop
+so<00:02:42.700> put<00:02:43.120> that<00:02:43.150> file<00:02:43.480> wherever<00:02:43.750> you<00:02:43.959> would<00:02:44.049> like
+
+00:02:44.099 --> 00:02:44.109 
+so put that file wherever you would like
+
+00:02:44.109 --> 00:02:50.099 
+so put that file wherever you would like
+it<00:02:45.299> then<00:02:46.299> we<00:02:47.049> want<00:02:47.290> to<00:02:47.760> press<00:02:48.760> ENTER<00:02:49.209> at<00:02:49.870> that
+
+00:02:50.099 --> 00:02:50.109 
+it then we want to press ENTER at that
+
+00:02:50.109 --> 00:02:54.420 
+it then we want to press ENTER at that
+point<00:02:50.439> will<00:02:50.769> receive<00:02:51.359> a<00:02:52.739> rate<00:02:53.739> and<00:02:53.980> which<00:02:54.250> the
+
+00:02:54.420 --> 00:02:54.430 
+point will receive a rate and which the
+
+00:02:54.430 --> 00:02:56.909 
+point will receive a rate and which the
+file<00:02:54.609> was<00:02:54.849> installed<00:02:55.329> and<00:02:55.599> annika<00:02:56.260> success<00:02:56.680> or
+
+00:02:56.909 --> 00:02:56.919 
+file was installed and annika success or
+
+00:02:56.919 --> 00:02:58.920 
+file was installed and annika success or
+failure<00:02:57.370> so<00:02:57.819> for<00:02:58.000> us<00:02:58.090> we've<00:02:58.269> gotten<00:02:58.480> a<00:02:58.540> success
+
+00:02:58.920 --> 00:02:58.930 
+failure so for us we've gotten a success
+
+00:02:58.930 --> 00:03:01.170 
+failure so for us we've gotten a success
+now<00:02:59.530> if<00:02:59.650> we<00:02:59.769> go<00:02:59.859> back<00:02:59.889> to<00:03:00.250> the<00:03:00.340> phone<00:03:00.609> and<00:03:00.969> press
+
+00:03:01.170 --> 00:03:01.180 
+now if we go back to the phone and press
+
+00:03:01.180 --> 00:03:03.479 
+now if we go back to the phone and press
+applications<00:03:01.930> BAM<00:03:02.439> there<00:03:02.739> setcpu
+
+00:03:03.479 --> 00:03:03.489 
+applications BAM there setcpu
+
+00:03:03.489 --> 00:03:05.729 
+applications BAM there setcpu
+and<00:03:03.730> that's<00:03:04.569> how<00:03:04.780> you<00:03:04.840> side<00:03:05.260> load<00:03:05.500> an
+
+00:03:05.729 --> 00:03:05.739 
+and that's how you side load an
+
+00:03:05.739 --> 00:03:08.429 
+and that's how you side load an
+application<00:03:06.400> to<00:03:06.579> your<00:03:06.730> Android<00:03:07.180> device<00:03:07.510> using
+
+00:03:08.429 --> 00:03:08.439 
+application to your Android device using
+
+00:03:08.439 --> 00:03:10.860 
+application to your Android device using
+adb<00:03:08.889> tools<00:03:09.219> and<00:03:09.579> adb<00:03:10.030> install<00:03:10.389> commands
+
+00:03:10.860 --> 00:03:10.870 
+adb tools and adb install commands
+
+00:03:10.870 --> 00:03:13.199 
+adb tools and adb install commands
+please<00:03:11.799> check<00:03:12.010> out<00:03:12.129> our<00:03:12.159> other<00:03:12.310> videos<00:03:12.700> in<00:03:13.060> the
+
+00:03:13.199 --> 00:03:13.209 
+please check out our other videos in the
+
+00:03:13.209 --> 00:03:15.479 
+please check out our other videos in the
+channel<00:03:13.239> visit<00:03:13.900> mobile<00:03:14.349> tech<00:03:14.560> videos<00:03:14.950> comm
+
+00:03:15.479 --> 00:03:15.489 
+channel visit mobile tech videos comm
+
+00:03:15.489 --> 00:03:17.369 
+channel visit mobile tech videos comm
+for<00:03:15.819> the<00:03:15.909> latest<00:03:16.180> info<00:03:16.540> about<00:03:16.659> the<00:03:16.900> site<00:03:17.169> and
+
+00:03:17.369 --> 00:03:17.379 
+for the latest info about the site and
+
+00:03:17.379 --> 00:03:19.379 
+for the latest info about the site and
+what<00:03:17.469> we're<00:03:17.590> coming<00:03:17.769> up<00:03:17.919> with<00:03:17.979> and<00:03:18.340> as<00:03:19.090> always
+
+00:03:19.379 --> 00:03:19.389 
+what we're coming up with and as always
+
+00:03:19.389 --> 00:03:21.840 
+what we're coming up with and as always
+good<00:03:19.780> luck
+

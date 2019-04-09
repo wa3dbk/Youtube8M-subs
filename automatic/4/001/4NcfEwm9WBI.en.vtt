@@ -1,0 +1,1037 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.170 --> 00:00:04.750 
+
+how's<00:00:03.170> it<00:00:03.199> going<00:00:03.560> guys<00:00:03.710> welcome<00:00:04.310> to<00:00:04.520> the
+
+00:00:04.750 --> 00:00:04.760 
+how's it going guys welcome to the
+
+00:00:04.760 --> 00:00:06.820 
+how's it going guys welcome to the
+seventh<00:00:05.240> argument<00:00:05.660> tutorial<00:00:06.140> in<00:00:06.319> which<00:00:06.589> we're
+
+00:00:06.820 --> 00:00:06.830 
+seventh argument tutorial in which we're
+
+00:00:06.830 --> 00:00:08.980 
+seventh argument tutorial in which we're
+going<00:00:07.009> to<00:00:07.129> discuss<00:00:07.640> what<00:00:08.330> are<00:00:08.420> the<00:00:08.510> basic
+
+00:00:08.980 --> 00:00:08.990 
+going to discuss what are the basic
+
+00:00:08.990 --> 00:00:11.020 
+going to discuss what are the basic
+concepts<00:00:09.500> that<00:00:09.770> I<00:00:09.799> wanted<00:00:10.100> to<00:00:10.160> discuss<00:00:10.340> a<00:00:10.760> long
+
+00:00:11.020 --> 00:00:11.030 
+concepts that I wanted to discuss a long
+
+00:00:11.030 --> 00:00:13.150 
+concepts that I wanted to discuss a long
+time<00:00:11.270> ago<00:00:11.539> but<00:00:11.719> never<00:00:11.869> got<00:00:12.199> around<00:00:12.559> to<00:00:12.709> it<00:00:12.830> so
+
+00:00:13.150 --> 00:00:13.160 
+time ago but never got around to it so
+
+00:00:13.160 --> 00:00:16.150 
+time ago but never got around to it so
+that<00:00:14.150> would<00:00:14.270> be<00:00:14.449> button<00:00:15.049> debouncing<00:00:15.830> so<00:00:16.039> as
+
+00:00:16.150 --> 00:00:16.160 
+that would be button debouncing so as
+
+00:00:16.160 --> 00:00:17.980 
+that would be button debouncing so as
+you<00:00:16.250> can<00:00:16.369> see<00:00:16.430> I<00:00:16.580> have<00:00:16.760> a<00:00:16.820> small<00:00:16.910> setup<00:00:17.750> where<00:00:17.930> I
+
+00:00:17.980 --> 00:00:17.990 
+you can see I have a small setup where I
+
+00:00:17.990 --> 00:00:20.589 
+you can see I have a small setup where I
+have<00:00:18.199> two<00:00:18.439> LEDs<00:00:18.859> on<00:00:19.099> the<00:00:19.279> bread<00:00:19.490> board<00:00:19.759> along
+
+00:00:20.589 --> 00:00:20.599 
+have two LEDs on the bread board along
+
+00:00:20.599 --> 00:00:22.779 
+have two LEDs on the bread board along
+with<00:00:20.630> a<00:00:20.839> button<00:00:21.349> which<00:00:21.859> is<00:00:21.890> used<00:00:22.130> to<00:00:22.550> toggle
+
+00:00:22.779 --> 00:00:22.789 
+with a button which is used to toggle
+
+00:00:22.789 --> 00:00:26.019 
+with a button which is used to toggle
+the<00:00:23.509> LEDs<00:00:24.109> and<00:00:24.550> currently<00:00:25.550> there<00:00:25.820> is<00:00:25.880> no
+
+00:00:26.019 --> 00:00:26.029 
+the LEDs and currently there is no
+
+00:00:26.029 --> 00:00:28.060 
+the LEDs and currently there is no
+button<00:00:26.269> debouncing<00:00:26.990> present<00:00:27.650> and<00:00:27.829> my
+
+00:00:28.060 --> 00:00:28.070 
+button debouncing present and my
+
+00:00:28.070 --> 00:00:31.149 
+button debouncing present and my
+software<00:00:28.669> or<00:00:28.999> hardware<00:00:29.509> as<00:00:30.320> you<00:00:30.470> can<00:00:30.619> see<00:00:30.859> if<00:00:31.009> I
+
+00:00:31.149 --> 00:00:31.159 
+software or hardware as you can see if I
+
+00:00:31.159 --> 00:00:34.450 
+software or hardware as you can see if I
+if<00:00:32.090> I<00:00:32.300> keep<00:00:32.540> just<00:00:32.780> pressing<00:00:33.200> the<00:00:33.320> button<00:00:33.680> you
+
+00:00:34.450 --> 00:00:34.460 
+if I keep just pressing the button you
+
+00:00:34.460 --> 00:00:37.600 
+if I keep just pressing the button you
+would<00:00:34.610> see<00:00:34.790> the<00:00:34.910> LEDs<00:00:35.300> blinking<00:00:35.750> sometimes<00:00:36.610> so
+
+00:00:37.600 --> 00:00:37.610 
+would see the LEDs blinking sometimes so
+
+00:00:37.610 --> 00:00:40.240 
+would see the LEDs blinking sometimes so
+I'm<00:00:38.390> going<00:00:38.690> to<00:00:38.810> discuss<00:00:39.140> the<00:00:39.350> concept<00:00:39.890> of<00:00:40.040> the
+
+00:00:40.240 --> 00:00:40.250 
+I'm going to discuss the concept of the
+
+00:00:40.250 --> 00:00:42.460 
+I'm going to discuss the concept of the
+whole<00:00:40.330> button<00:00:41.330> debouncing<00:00:41.960> and<00:00:42.230> what's
+
+00:00:42.460 --> 00:00:42.470 
+whole button debouncing and what's
+
+00:00:42.470 --> 00:00:44.670 
+whole button debouncing and what's
+happening<00:00:42.950> exactly<00:00:43.130> in<00:00:43.640> a<00:00:43.760> separate<00:00:44.240> video
+
+00:00:44.670 --> 00:00:44.680 
+happening exactly in a separate video
+
+00:00:44.680 --> 00:00:47.680 
+happening exactly in a separate video
+but<00:00:45.680> I<00:00:45.710> actually<00:00:45.890> wanted<00:00:46.340> to<00:00:46.400> show<00:00:46.520> you<00:00:46.820> what
+
+00:00:47.680 --> 00:00:47.690 
+but I actually wanted to show you what
+
+00:00:47.690 --> 00:00:49.450 
+but I actually wanted to show you what
+is<00:00:47.780> actually<00:00:48.140> happening<00:00:48.590> in<00:00:48.770> the<00:00:48.860> hardware<00:00:49.250> so
+
+00:00:49.450 --> 00:00:49.460 
+is actually happening in the hardware so
+
+00:00:49.460 --> 00:00:52.090 
+is actually happening in the hardware so
+as<00:00:49.520> you<00:00:49.730> can<00:00:49.850> see<00:00:49.910> sometimes<00:00:50.270> I<00:00:50.720> press<00:00:51.140> and<00:00:51.470> the
+
+00:00:52.090 --> 00:00:52.100 
+as you can see sometimes I press and the
+
+00:00:52.100 --> 00:00:55.330 
+as you can see sometimes I press and the
+LEDs<00:00:52.550> quickly<00:00:53.180> blink<00:00:53.510> and<00:00:53.920> they<00:00:54.920> don't<00:00:55.100> just
+
+00:00:55.330 --> 00:00:55.340 
+LEDs quickly blink and they don't just
+
+00:00:55.340 --> 00:01:00.010 
+LEDs quickly blink and they don't just
+saw<00:00:55.610> as<00:00:56.030> you<00:00:56.300> would<00:00:56.510> expect<00:00:56.630> them<00:00:57.110> to<00:00:58.060> so<00:00:59.060> let's
+
+00:01:00.010 --> 00:01:00.020 
+saw as you would expect them to so let's
+
+00:01:00.020 --> 00:01:01.750 
+saw as you would expect them to so let's
+take<00:01:00.200> a<00:01:00.230> look<00:01:00.440> at<00:01:00.530> the<00:01:00.650> code<00:01:00.890> what<00:01:01.160> which<00:01:01.640> I
+
+00:01:01.750 --> 00:01:01.760 
+take a look at the code what which I
+
+00:01:01.760 --> 00:01:04.420 
+take a look at the code what which I
+have<00:01:01.940> right<00:01:02.150> now<00:01:02.210> and<00:01:02.660> see<00:01:02.960> how<00:01:03.200> we<00:01:03.830> can<00:01:04.100> first
+
+00:01:04.420 --> 00:01:04.430 
+have right now and see how we can first
+
+00:01:04.430 --> 00:01:07.899 
+have right now and see how we can first
+of<00:01:04.549> all<00:01:05.109> debounce<00:01:06.109> and<00:01:06.499> software<00:01:07.429> and<00:01:07.670> then
+
+00:01:07.899 --> 00:01:07.909 
+of all debounce and software and then
+
+00:01:07.909 --> 00:01:10.209 
+of all debounce and software and then
+I'm<00:01:08.210> also<00:01:08.570> going<00:01:08.960> to<00:01:09.200> explain<00:01:09.590> how<00:01:09.649> you<00:01:09.859> can
+
+00:01:10.209 --> 00:01:10.219 
+I'm also going to explain how you can
+
+00:01:10.219 --> 00:01:13.539 
+I'm also going to explain how you can
+debounce<00:01:10.939> in<00:01:11.240> hardware<00:01:12.049> so<00:01:12.950> stay<00:01:13.340> tuned
+
+00:01:13.539 --> 00:01:13.549 
+debounce in hardware so stay tuned
+
+00:01:13.549 --> 00:01:16.120 
+debounce in hardware so stay tuned
+alright<00:01:14.359> so<00:01:14.600> they<00:01:14.719> can<00:01:14.869> look<00:01:15.140> at<00:01:15.289> the<00:01:15.439> sketch
+
+00:01:16.120 --> 00:01:16.130 
+alright so they can look at the sketch
+
+00:01:16.130 --> 00:01:18.099 
+alright so they can look at the sketch
+that<00:01:16.159> I<00:01:16.369> have<00:01:16.579> currently<00:01:16.999> uploaded<00:01:17.539> in<00:01:17.659> on<00:01:17.840> the
+
+00:01:18.099 --> 00:01:18.109 
+that I have currently uploaded in on the
+
+00:01:18.109 --> 00:01:20.830 
+that I have currently uploaded in on the
+Arduino<00:01:18.469> as<00:01:18.740> you<00:01:19.369> can<00:01:19.520> see<00:01:19.700> I<00:01:19.729> have<00:01:19.999> a<00:01:20.270> button
+
+00:01:20.830 --> 00:01:20.840 
+Arduino as you can see I have a button
+
+00:01:20.840 --> 00:01:23.260 
+Arduino as you can see I have a button
+and<00:01:21.049> two<00:01:21.380> LEDs<00:01:21.890> declared<00:01:22.399> I<00:01:22.609> also<00:01:22.909> have<00:01:23.240> a
+
+00:01:23.260 --> 00:01:23.270 
+and two LEDs declared I also have a
+
+00:01:23.270 --> 00:01:26.770 
+and two LEDs declared I also have a
+boolean<00:01:23.659> for<00:01:24.999> to<00:01:25.999> keep<00:01:26.149> the<00:01:26.329> state<00:01:26.569> of<00:01:26.689> the
+
+00:01:26.770 --> 00:01:26.780 
+boolean for to keep the state of the
+
+00:01:26.780 --> 00:01:29.950 
+boolean for to keep the state of the
+button<00:01:27.140> and<00:01:27.259> I<00:01:27.469> have<00:01:27.679> a<00:01:27.859> toggle<00:01:28.280> which<00:01:28.659> is<00:01:29.659> also
+
+00:01:29.950 --> 00:01:29.960 
+button and I have a toggle which is also
+
+00:01:29.960 --> 00:01:32.349 
+button and I have a toggle which is also
+a<00:01:30.109> boolean<00:01:30.649> I'm<00:01:31.189> going<00:01:31.579> to<00:01:31.670> explain<00:01:31.969> that<00:01:32.119> in<00:01:32.270> a
+
+00:01:32.349 --> 00:01:32.359 
+a boolean I'm going to explain that in a
+
+00:01:32.359 --> 00:01:34.359 
+a boolean I'm going to explain that in a
+second<00:01:32.719> what<00:01:32.869> it<00:01:32.960> does<00:01:33.170> in<00:01:33.409> the<00:01:33.469> setup
+
+00:01:34.359 --> 00:01:34.369 
+second what it does in the setup
+
+00:01:34.369 --> 00:01:37.870 
+second what it does in the setup
+function<00:01:34.729> I<00:01:34.819> have<00:01:35.139> two<00:01:36.139> LEDs<00:01:36.619> as<00:01:36.889> output<00:01:37.490> one
+
+00:01:37.870 --> 00:01:37.880 
+function I have two LEDs as output one
+
+00:01:37.880 --> 00:01:41.200 
+function I have two LEDs as output one
+button<00:01:38.240> as<00:01:38.389> an<00:01:38.749> input<00:01:39.259> and<00:01:40.030> arbitrarily<00:01:41.030> I
+
+00:01:41.200 --> 00:01:41.210 
+button as an input and arbitrarily I
+
+00:01:41.210 --> 00:01:43.440 
+button as an input and arbitrarily I
+have<00:01:41.359> declared<00:01:41.719> two<00:01:41.840> LEDs<00:01:42.380> one<00:01:42.799> high<00:01:43.069> one<00:01:43.399> low
+
+00:01:43.440 --> 00:01:43.450 
+have declared two LEDs one high one low
+
+00:01:43.450 --> 00:01:46.539 
+have declared two LEDs one high one low
+just<00:01:44.450> for<00:01:44.659> starting<00:01:45.109> purposes<00:01:45.619> and<00:01:45.829> the<00:01:46.369> loop
+
+00:01:46.539 --> 00:01:46.549 
+just for starting purposes and the loop
+
+00:01:46.549 --> 00:01:49.120 
+just for starting purposes and the loop
+as<00:01:46.729> you<00:01:46.880> can<00:01:47.030> see<00:01:47.240> I<00:01:47.270> write<00:01:47.689> a<00:01:47.899> digital<00:01:48.469> read<00:01:48.859> of
+
+00:01:49.120 --> 00:01:49.130 
+as you can see I write a digital read of
+
+00:01:49.130 --> 00:01:52.480 
+as you can see I write a digital read of
+the<00:01:49.340> button<00:01:49.700> high<00:01:49.999> and<00:01:50.359> if<00:01:51.229> that<00:01:51.950> is<00:01:52.130> the<00:01:52.310> case
+
+00:01:52.480 --> 00:01:52.490 
+the button high and if that is the case
+
+00:01:52.490 --> 00:01:54.370 
+the button high and if that is the case
+I'm<00:01:52.819> going<00:01:53.270> to<00:01:53.389> say<00:01:53.569> that<00:01:53.749> the<00:01:53.869> button<00:01:54.200> is
+
+00:01:54.370 --> 00:01:54.380 
+I'm going to say that the button is
+
+00:01:54.380 --> 00:01:58.269 
+I'm going to say that the button is
+pressed<00:01:55.090> that<00:01:56.090> is<00:01:56.240> set<00:01:56.509> to<00:01:56.539> true<00:01:56.840> otherwise<00:01:57.829> it
+
+00:01:58.269 --> 00:01:58.279 
+pressed that is set to true otherwise it
+
+00:01:58.279 --> 00:02:01.029 
+pressed that is set to true otherwise it
+is<00:01:58.459> false<00:01:58.819> and<00:01:59.179> the<00:01:59.359> toggle<00:01:59.600> is<00:01:59.869> false<00:02:00.200> so<00:02:00.859> what
+
+00:02:01.029 --> 00:02:01.039 
+is false and the toggle is false so what
+
+00:02:01.039 --> 00:02:03.459 
+is false and the toggle is false so what
+this<00:02:01.189> creates<00:02:01.490> is<00:02:01.700> a<00:02:01.789> situation<00:02:02.209> where<00:02:02.899> I<00:02:03.170> can
+
+00:02:03.459 --> 00:02:03.469 
+this creates is a situation where I can
+
+00:02:03.469 --> 00:02:05.379 
+this creates is a situation where I can
+actually<00:02:04.159> check<00:02:04.429> if<00:02:04.700> the<00:02:04.850> button<00:02:05.149> has<00:02:05.359> been
+
+00:02:05.379 --> 00:02:05.389 
+actually check if the button has been
+
+00:02:05.389 --> 00:02:08.590 
+actually check if the button has been
+pressed<00:02:05.749> once<00:02:06.289> or<00:02:06.560> it<00:02:06.950> has<00:02:07.189> been<00:02:07.360> just<00:02:08.360> held
+
+00:02:08.590 --> 00:02:08.600 
+pressed once or it has been just held
+
+00:02:08.600 --> 00:02:11.320 
+pressed once or it has been just held
+down<00:02:08.840> and<00:02:09.679> what<00:02:10.069> that<00:02:10.280> basically<00:02:10.580> means<00:02:10.909> is
+
+00:02:11.320 --> 00:02:11.330 
+down and what that basically means is
+
+00:02:11.330 --> 00:02:13.539 
+down and what that basically means is
+that<00:02:11.390> if<00:02:12.110> I<00:02:12.349> just<00:02:12.379> hold<00:02:12.739> my<00:02:12.950> finger<00:02:13.310> on<00:02:13.340> the
+
+00:02:13.539 --> 00:02:13.549 
+that if I just hold my finger on the
+
+00:02:13.549 --> 00:02:13.960 
+that if I just hold my finger on the
+button
+
+00:02:13.960 --> 00:02:13.970 
+button
+
+00:02:13.970 --> 00:02:16.570 
+button
+I'm<00:02:14.150> not<00:02:14.510> going<00:02:14.840> to<00:02:14.900> just<00:02:15.320> keep<00:02:15.890> on<00:02:16.040> toggling
+
+00:02:16.570 --> 00:02:16.580 
+I'm not going to just keep on toggling
+
+00:02:16.580 --> 00:02:18.400 
+I'm not going to just keep on toggling
+the<00:02:16.670> LEDs<00:02:17.120> during<00:02:17.480> that<00:02:17.570> process<00:02:17.810> I'm<00:02:18.170> only
+
+00:02:18.400 --> 00:02:18.410 
+the LEDs during that process I'm only
+
+00:02:18.410 --> 00:02:21.760 
+the LEDs during that process I'm only
+going<00:02:18.740> to<00:02:18.890> toggle<00:02:19.070> at<00:02:19.310> once<00:02:19.520> so<00:02:20.440> once<00:02:21.440> again
+
+00:02:21.760 --> 00:02:21.770 
+going to toggle at once so once again
+
+00:02:21.770 --> 00:02:25.180 
+going to toggle at once so once again
+because<00:02:22.580> of<00:02:22.610> that<00:02:23.110> issue<00:02:24.110> I<00:02:24.590> have<00:02:24.800> to<00:02:24.980> check
+
+00:02:25.180 --> 00:02:25.190 
+because of that issue I have to check
+
+00:02:25.190 --> 00:02:28.570 
+because of that issue I have to check
+for<00:02:25.520> if<00:02:25.820> the<00:02:25.970> button<00:02:26.240> is<00:02:26.360> pressed<00:02:26.770> is<00:02:27.770> true<00:02:28.370> and
+
+00:02:28.570 --> 00:02:28.580 
+for if the button is pressed is true and
+
+00:02:28.580 --> 00:02:30.400 
+for if the button is pressed is true and
+the<00:02:28.880> toggle<00:02:29.210> is<00:02:29.360> currently<00:02:29.870> false<00:02:30.200> so<00:02:30.380> that
+
+00:02:30.400 --> 00:02:30.410 
+the toggle is currently false so that
+
+00:02:30.410 --> 00:02:32.290 
+the toggle is currently false so that
+means<00:02:30.710> that<00:02:30.890> the<00:02:31.370> toggle<00:02:31.730> has<00:02:31.880> not<00:02:32.090> been
+
+00:02:32.290 --> 00:02:32.300 
+means that the toggle has not been
+
+00:02:32.300 --> 00:02:35.410 
+means that the toggle has not been
+executed<00:02:32.990> yet<00:02:33.260> so<00:02:34.190> it<00:02:34.430> if<00:02:34.610> it<00:02:35.030> has<00:02:35.180> not<00:02:35.360> been
+
+00:02:35.410 --> 00:02:35.420 
+executed yet so it if it has not been
+
+00:02:35.420 --> 00:02:38.170 
+executed yet so it if it has not been
+executed<00:02:36.170> I<00:02:36.260> execute<00:02:36.890> it<00:02:37.010> once<00:02:37.310> so<00:02:37.790> I<00:02:37.820> set<00:02:38.060> it
+
+00:02:38.170 --> 00:02:38.180 
+executed I execute it once so I set it
+
+00:02:38.180 --> 00:02:40.690 
+executed I execute it once so I set it
+to<00:02:38.300> true<00:02:38.510> and<00:02:38.750> I<00:02:39.620> execute<00:02:40.310> the<00:02:40.520> function
+
+00:02:40.690 --> 00:02:40.700 
+to true and I execute the function
+
+00:02:40.700 --> 00:02:43.900 
+to true and I execute the function
+toggle<00:02:41.330> which<00:02:41.510> is<00:02:41.540> basically<00:02:42.130> setting<00:02:43.130> LED
+
+00:02:43.900 --> 00:02:43.910 
+toggle which is basically setting LED
+
+00:02:43.910 --> 00:02:46.449 
+toggle which is basically setting LED
+LEDs<00:02:44.420> to<00:02:44.810> the<00:02:44.930> opposite<00:02:45.470> of<00:02:45.620> the<00:02:45.800> of<00:02:46.010> what<00:02:46.070> they
+
+00:02:46.449 --> 00:02:46.459 
+LEDs to the opposite of the of what they
+
+00:02:46.459 --> 00:02:50.490 
+LEDs to the opposite of the of what they
+currently<00:02:46.700> are<00:02:47.680> so<00:02:48.680> in<00:02:48.830> order<00:02:48.980> to<00:02:49.190> make<00:02:49.520> this
+
+00:02:50.490 --> 00:02:50.500 
+currently are so in order to make this
+
+00:02:50.500 --> 00:02:53.530 
+currently are so in order to make this
+fukin<00:02:51.500> debounce<00:02:52.370> able<00:02:52.760> I'm<00:02:52.940> going<00:02:53.360> to
+
+00:02:53.530 --> 00:02:53.540 
+fukin debounce able I'm going to
+
+00:02:53.540 --> 00:02:57.160 
+fukin debounce able I'm going to
+actually<00:02:53.750> go<00:02:54.680> ahead<00:02:54.709> and<00:02:55.040> add<00:02:55.490> a<00:02:56.030> condition<00:02:56.720> so
+
+00:02:57.160 --> 00:02:57.170 
+actually go ahead and add a condition so
+
+00:02:57.170 --> 00:03:00.130 
+actually go ahead and add a condition so
+I'm<00:02:57.260> going<00:02:57.500> to<00:02:57.560> add<00:02:57.740> an<00:02:57.920> int<00:02:58.240> bounce<00:02:59.240> which<00:02:59.870> is
+
+00:03:00.130 --> 00:03:00.140 
+I'm going to add an int bounce which is
+
+00:03:00.140 --> 00:03:03.030 
+I'm going to add an int bounce which is
+which<00:03:00.530> I'm<00:03:00.709> going<00:03:00.890> to<00:03:00.980> set<00:03:01.280> to<00:03:01.430> zero<00:03:01.700> for<00:03:02.000> now
+
+00:03:03.030 --> 00:03:03.040 
+which I'm going to set to zero for now
+
+00:03:03.040 --> 00:03:05.800 
+which I'm going to set to zero for now
+I'm<00:03:04.040> going<00:03:04.459> to<00:03:04.580> change<00:03:04.850> this<00:03:05.150> button<00:03:05.660> is
+
+00:03:05.800 --> 00:03:05.810 
+I'm going to change this button is
+
+00:03:05.810 --> 00:03:08.410 
+I'm going to change this button is
+pressed<00:03:06.280> true<00:03:07.280> because<00:03:07.640> I'm<00:03:07.790> going<00:03:08.000> to<00:03:08.120> add<00:03:08.390> a
+
+00:03:08.410 --> 00:03:08.420 
+pressed true because I'm going to add a
+
+00:03:08.420 --> 00:03:11.830 
+pressed true because I'm going to add a
+condition<00:03:08.780> so<00:03:09.290> if<00:03:09.650> it<00:03:10.459> is<00:03:10.580> high<00:03:10.850> I'm<00:03:11.180> going<00:03:11.630> to
+
+00:03:11.830 --> 00:03:11.840 
+condition so if it is high I'm going to
+
+00:03:11.840 --> 00:03:16.690 
+condition so if it is high I'm going to
+simply<00:03:12.290> increment<00:03:13.390> the<00:03:14.390> bounce<00:03:14.980> so<00:03:15.980> we're
+
+00:03:16.690 --> 00:03:16.700 
+simply increment the bounce so we're
+
+00:03:16.700 --> 00:03:19.570 
+simply increment the bounce so we're
+going<00:03:16.880> to<00:03:17.000> increment<00:03:17.209> the<00:03:17.660> bounce<00:03:18.340> we're<00:03:19.340> also
+
+00:03:19.570 --> 00:03:19.580 
+going to increment the bounce we're also
+
+00:03:19.580 --> 00:03:22.900 
+going to increment the bounce we're also
+going<00:03:20.000> to<00:03:20.120> say<00:03:20.510> that<00:03:20.830> the<00:03:21.830> bounce<00:03:22.100> is<00:03:22.430> going<00:03:22.730> to
+
+00:03:22.900 --> 00:03:22.910 
+going to say that the bounce is going to
+
+00:03:22.910 --> 00:03:27.970 
+going to say that the bounce is going to
+be<00:03:23.060> reset<00:03:23.870> back<00:03:24.140> to<00:03:24.200> zero<00:03:25.060> in<00:03:26.060> case<00:03:26.480> of<00:03:26.980> the
+
+00:03:27.970 --> 00:03:27.980 
+be reset back to zero in case of the
+
+00:03:27.980 --> 00:03:29.979 
+be reset back to zero in case of the
+button<00:03:28.310> not<00:03:28.550> being<00:03:28.880> pressed<00:03:29.180> anymore<00:03:29.630> or<00:03:29.810> the
+
+00:03:29.979 --> 00:03:29.989 
+button not being pressed anymore or the
+
+00:03:29.989 --> 00:03:34.960 
+button not being pressed anymore or the
+button<00:03:30.290> going<00:03:30.650> back<00:03:31.040> to<00:03:31.280> low<00:03:32.890> and<00:03:33.890> we<00:03:34.430> are<00:03:34.459> also
+
+00:03:34.960 --> 00:03:34.970 
+button going back to low and we are also
+
+00:03:34.970 --> 00:03:38.190 
+button going back to low and we are also
+going<00:03:35.690> to<00:03:35.810> add<00:03:36.170> an<00:03:36.560> if<00:03:36.800> statement<00:03:37.100> so<00:03:37.850> if
+
+00:03:38.190 --> 00:03:38.200 
+going to add an if statement so if
+
+00:03:38.200 --> 00:03:42.759 
+going to add an if statement so if
+debounce<00:03:39.940> bigger<00:03:40.940> equal<00:03:41.570> to<00:03:41.810> and<00:03:42.050> I<00:03:42.350> have
+
+00:03:42.759 --> 00:03:42.769 
+debounce bigger equal to and I have
+
+00:03:42.769 --> 00:03:45.460 
+debounce bigger equal to and I have
+tested<00:03:43.010> several<00:03:43.430> values<00:03:44.030> for<00:03:44.480> this<00:03:44.660> case<00:03:44.959> so
+
+00:03:45.460 --> 00:03:45.470 
+tested several values for this case so
+
+00:03:45.470 --> 00:03:48.699 
+tested several values for this case so
+in<00:03:45.830> my<00:03:46.459> case<00:03:46.820> 5000<00:03:47.690> worked<00:03:47.870> pretty<00:03:48.140> well<00:03:48.500> you
+
+00:03:48.699 --> 00:03:48.709 
+in my case 5000 worked pretty well you
+
+00:03:48.709 --> 00:03:51.220 
+in my case 5000 worked pretty well you
+can<00:03:48.890> experiment<00:03:49.310> on<00:03:49.610> your<00:03:49.790> own<00:03:49.850> this<00:03:50.720> value<00:03:51.140> is
+
+00:03:51.220 --> 00:03:51.230 
+can experiment on your own this value is
+
+00:03:51.230 --> 00:03:53.380 
+can experiment on your own this value is
+basically<00:03:51.440> going<00:03:51.890> to<00:03:52.040> indicate<00:03:52.430> how<00:03:52.820> long<00:03:52.880> you
+
+00:03:53.380 --> 00:03:53.390 
+basically going to indicate how long you
+
+00:03:53.390 --> 00:03:56.470 
+basically going to indicate how long you
+wait<00:03:53.860> to<00:03:54.860> be<00:03:54.890> certain<00:03:55.459> that<00:03:55.850> the<00:03:56.060> button<00:03:56.360> is
+
+00:03:56.470 --> 00:03:56.480 
+wait to be certain that the button is
+
+00:03:56.480 --> 00:03:58.840 
+wait to be certain that the button is
+actually<00:03:56.870> not<00:03:57.290> bouncing<00:03:57.739> any<00:03:57.860> more<00:03:58.130> so<00:03:58.730> you
+
+00:03:58.840 --> 00:03:58.850 
+actually not bouncing any more so you
+
+00:03:58.850 --> 00:04:00.729 
+actually not bouncing any more so you
+may<00:03:59.120> set<00:03:59.390> this<00:03:59.570> to<00:03:59.780> something<00:04:00.170> lower<00:04:00.380> it
+
+00:04:00.729 --> 00:04:00.739 
+may set this to something lower it
+
+00:04:00.739 --> 00:04:03.640 
+may set this to something lower it
+depends<00:04:01.220> on<00:04:01.310> your<00:04:01.489> on<00:04:01.670> many<00:04:02.090> factors<00:04:02.650> notably
+
+00:04:03.640 --> 00:04:03.650 
+depends on your on many factors notably
+
+00:04:03.650 --> 00:04:08.170 
+depends on your on many factors notably
+your<00:04:03.860> button<00:04:05.140> so<00:04:06.140> in<00:04:06.470> this<00:04:06.680> case<00:04:06.980> I<00:04:07.310> am<00:04:08.000> going
+
+00:04:08.170 --> 00:04:08.180 
+your button so in this case I am going
+
+00:04:08.180 --> 00:04:13.030 
+your button so in this case I am going
+to<00:04:08.420> say<00:04:08.600> button<00:04:09.049> pressed<00:04:10.030> equals<00:04:11.030> to<00:04:11.239> true
+
+00:04:13.030 --> 00:04:13.040 
+to say button pressed equals to true
+
+00:04:13.040 --> 00:04:16.000 
+to say button pressed equals to true
+and<00:04:13.330> this<00:04:14.330> should<00:04:14.629> be<00:04:14.659> about<00:04:14.959> all<00:04:15.379> we<00:04:15.560> need<00:04:15.769> for
+
+00:04:16.000 --> 00:04:16.010 
+and this should be about all we need for
+
+00:04:16.010 --> 00:04:18.849 
+and this should be about all we need for
+button<00:04:16.310> D<00:04:16.459> bouncing<00:04:16.940> so<00:04:17.150> let's<00:04:17.709> check<00:04:18.709> the
+
+00:04:18.849 --> 00:04:18.859 
+button D bouncing so let's check the
+
+00:04:18.859 --> 00:04:21.189 
+button D bouncing so let's check the
+sketch<00:04:19.130> and<00:04:19.340> upload<00:04:19.820> it<00:04:19.850> and<00:04:20.120> once<00:04:20.690> again<00:04:20.840> this
+
+00:04:21.189 --> 00:04:21.199 
+sketch and upload it and once again this
+
+00:04:21.199 --> 00:04:26.200 
+sketch and upload it and once again this
+is<00:04:21.410> the<00:04:21.769> value<00:04:22.990> which<00:04:23.990> indicates<00:04:24.880> how<00:04:25.880> long
+
+00:04:26.200 --> 00:04:26.210 
+is the value which indicates how long
+
+00:04:26.210 --> 00:04:32.110 
+is the value which indicates how long
+you<00:04:27.199> need<00:04:27.380> to<00:04:27.490> wait<00:04:28.490> before<00:04:30.550> accepting<00:04:31.550> that
+
+00:04:32.110 --> 00:04:32.120 
+you need to wait before accepting that
+
+00:04:32.120 --> 00:04:37.000 
+you need to wait before accepting that
+the<00:04:32.630> button<00:04:33.320> was<00:04:34.160> pressed<00:04:35.620> so<00:04:36.620> just<00:04:36.889> to
+
+00:04:37.000 --> 00:04:37.010 
+the button was pressed so just to
+
+00:04:37.010 --> 00:04:39.010 
+the button was pressed so just to
+explain<00:04:37.130> this<00:04:37.639> a<00:04:37.850> little<00:04:37.880> bit<00:04:38.300> you<00:04:38.539> may<00:04:38.690> set
+
+00:04:39.010 --> 00:04:39.020 
+explain this a little bit you may set
+
+00:04:39.020 --> 00:04:41.620 
+explain this a little bit you may set
+this<00:04:39.229> to<00:04:39.590> a<00:04:39.620> lower<00:04:39.949> lower<00:04:40.610> value<00:04:41.180> so<00:04:41.449> for
+
+00:04:41.620 --> 00:04:41.630 
+this to a lower lower value so for
+
+00:04:41.630 --> 00:04:44.890 
+this to a lower lower value so for
+example<00:04:42.050> 500<00:04:42.650> or<00:04:42.830> even<00:04:43.160> 50<00:04:43.639> but<00:04:44.330> the<00:04:44.479> lower<00:04:44.690> you
+
+00:04:44.890 --> 00:04:44.900 
+example 500 or even 50 but the lower you
+
+00:04:44.900 --> 00:04:47.830 
+example 500 or even 50 but the lower you
+set<00:04:45.169> it<00:04:45.350> the<00:04:45.979> less<00:04:46.220> time<00:04:46.639> you<00:04:47.180> give<00:04:47.389> yourself
+
+00:04:47.830 --> 00:04:47.840 
+set it the less time you give yourself
+
+00:04:47.840 --> 00:04:50.830 
+set it the less time you give yourself
+to<00:04:47.960> pick<00:04:48.260> the<00:04:48.470> D<00:04:48.710> bones<00:04:48.949> so<00:04:49.910> preferably<00:04:50.750> you
+
+00:04:50.830 --> 00:04:50.840 
+to pick the D bones so preferably you
+
+00:04:50.840 --> 00:04:52.689 
+to pick the D bones so preferably you
+would<00:04:50.990> like<00:04:51.169> to<00:04:51.350> set<00:04:51.560> it<00:04:51.590> as<00:04:51.830> long<00:04:52.100> as<00:04:52.280> you<00:04:52.430> can
+
+00:04:52.689 --> 00:04:52.699 
+would like to set it as long as you can
+
+00:04:52.699 --> 00:04:56.590 
+would like to set it as long as you can
+without<00:04:53.120> having<00:04:53.539> a<00:04:53.870> delay<00:04:54.289> in<00:04:55.160> your<00:04:55.220> button<00:04:55.669> so
+
+00:04:56.590 --> 00:04:56.600 
+without having a delay in your button so
+
+00:04:56.600 --> 00:04:59.920 
+without having a delay in your button so
+let's<00:04:56.630> take<00:04:57.020> a<00:04:57.050> look<00:04:57.289> at<00:04:57.410> what<00:04:57.560> our<00:04:58.479> same<00:04:59.479> setup
+
+00:04:59.920 --> 00:04:59.930 
+let's take a look at what our same setup
+
+00:04:59.930 --> 00:05:04.930 
+let's take a look at what our same setup
+does<00:05:00.169> right<00:05:00.620> now<00:05:02.169> alright<00:05:03.169> so<00:05:03.320> we<00:05:03.410> have<00:05:03.440> our<00:05:03.940> D
+
+00:05:04.930 --> 00:05:04.940 
+does right now alright so we have our D
+
+00:05:04.940 --> 00:05:07.210 
+does right now alright so we have our D
+bouncing<00:05:05.389> implemented<00:05:05.960> so<00:05:06.199> as<00:05:06.470> you<00:05:06.770> can<00:05:06.949> see
+
+00:05:07.210 --> 00:05:07.220 
+bouncing implemented so as you can see
+
+00:05:07.220 --> 00:05:11.730 
+bouncing implemented so as you can see
+no<00:05:07.910> matter<00:05:07.940> how<00:05:08.389> hard<00:05:09.020> I<00:05:09.169> try<00:05:09.760> the<00:05:10.760> LEDs<00:05:11.240> are
+
+00:05:11.730 --> 00:05:11.740 
+no matter how hard I try the LEDs are
+
+00:05:11.740 --> 00:05:14.020 
+no matter how hard I try the LEDs are
+responding<00:05:12.740> perfectly<00:05:13.310> to<00:05:13.520> my<00:05:13.669> button
+
+00:05:14.020 --> 00:05:14.030 
+responding perfectly to my button
+
+00:05:14.030 --> 00:05:16.270 
+responding perfectly to my button
+presses<00:05:14.539> you<00:05:15.380> no<00:05:15.530> longer<00:05:15.740> see<00:05:16.130> them
+
+00:05:16.270 --> 00:05:16.280 
+presses you no longer see them
+
+00:05:16.280 --> 00:05:20.140 
+presses you no longer see them
+flickering<00:05:16.880> here<00:05:17.330> and<00:05:17.479> there<00:05:18.849> so<00:05:19.849> obviously
+
+00:05:20.140 --> 00:05:20.150 
+flickering here and there so obviously
+
+00:05:20.150 --> 00:05:25.210 
+flickering here and there so obviously
+if<00:05:20.479> I<00:05:20.599> if<00:05:21.260> I<00:05:21.440> try<00:05:21.770> and<00:05:22.190> sort<00:05:22.820> of<00:05:24.220> press
+
+00:05:25.210 --> 00:05:25.220 
+if I if I try and sort of press
+
+00:05:25.220 --> 00:05:27.879 
+if I if I try and sort of press
+extremely<00:05:25.940> fast<00:05:26.210> that's<00:05:26.900> only<00:05:27.199> the<00:05:27.440> contact
+
+00:05:27.879 --> 00:05:27.889 
+extremely fast that's only the contact
+
+00:05:27.889 --> 00:05:31.779 
+extremely fast that's only the contact
+not<00:05:28.160> making<00:05:28.669> um<00:05:29.770> sort<00:05:30.770> of<00:05:30.919> the<00:05:31.039> closure<00:05:31.340> and
+
+00:05:31.779 --> 00:05:31.789 
+not making um sort of the closure and
+
+00:05:31.789 --> 00:05:34.689 
+not making um sort of the closure and
+it's<00:05:32.030> not<00:05:32.240> actually<00:05:32.660> the<00:05:32.930> button<00:05:33.889> bouncing
+
+00:05:34.689 --> 00:05:34.699 
+it's not actually the button bouncing
+
+00:05:34.699 --> 00:05:37.060 
+it's not actually the button bouncing
+effect<00:05:35.050> so<00:05:36.050> let's<00:05:36.380> take<00:05:36.530> a<00:05:36.560> look<00:05:36.740> at<00:05:36.889> the
+
+00:05:37.060 --> 00:05:37.070 
+effect so let's take a look at the
+
+00:05:37.070 --> 00:05:38.800 
+effect so let's take a look at the
+hardware<00:05:37.729> solution<00:05:38.240> that<00:05:38.360> we<00:05:38.449> can<00:05:38.599> also
+
+00:05:38.800 --> 00:05:38.810 
+hardware solution that we can also
+
+00:05:38.810 --> 00:05:40.900 
+hardware solution that we can also
+implement<00:05:39.289> alright<00:05:40.039> so<00:05:40.190> if<00:05:40.280> you<00:05:40.340> have<00:05:40.490> noticed
+
+00:05:40.900 --> 00:05:40.910 
+implement alright so if you have noticed
+
+00:05:40.910 --> 00:05:43.570 
+implement alright so if you have noticed
+this<00:05:41.599> is<00:05:41.750> my<00:05:41.930> current<00:05:42.169> setup<00:05:42.530> for<00:05:42.889> the<00:05:43.130> button
+
+00:05:43.570 --> 00:05:43.580 
+this is my current setup for the button
+
+00:05:43.580 --> 00:05:46.450 
+this is my current setup for the button
+so<00:05:44.419> as<00:05:44.570> you<00:05:44.720> can<00:05:44.840> see<00:05:44.900> the<00:05:45.650> pen<00:05:45.830> is<00:05:45.979> normally
+
+00:05:46.450 --> 00:05:46.460 
+so as you can see the pen is normally
+
+00:05:46.460 --> 00:05:48.580 
+so as you can see the pen is normally
+pulled<00:05:46.789> down<00:05:46.970> low<00:05:47.270> and<00:05:47.510> once<00:05:47.840> you<00:05:48.020> press<00:05:48.320> the
+
+00:05:48.580 --> 00:05:48.590 
+pulled down low and once you press the
+
+00:05:48.590 --> 00:05:50.800 
+pulled down low and once you press the
+button<00:05:49.039> it<00:05:49.250> goes<00:05:49.520> too<00:05:49.820> high<00:05:50.000> so<00:05:50.330> that's<00:05:50.539> what
+
+00:05:50.800 --> 00:05:50.810 
+button it goes too high so that's what
+
+00:05:50.810 --> 00:05:55.060 
+button it goes too high so that's what
+I'm<00:05:51.220> detecting<00:05:52.220> in<00:05:52.490> my<00:05:52.669> software<00:05:53.919> so<00:05:54.919> what
+
+00:05:55.060 --> 00:05:55.070 
+I'm detecting in my software so what
+
+00:05:55.070 --> 00:05:59.279 
+I'm detecting in my software so what
+happens<00:05:55.430> is<00:05:55.990> when<00:05:56.990> this<00:05:57.229> contact<00:05:57.680> makes
+
+00:05:59.279 --> 00:05:59.289 
+happens is when this contact makes
+
+00:05:59.289 --> 00:06:01.390 
+happens is when this contact makes
+basically<00:06:00.289> when<00:06:00.440> I<00:06:00.470> create<00:06:00.800> this<00:06:00.979> contact
+
+00:06:01.390 --> 00:06:01.400 
+basically when I create this contact
+
+00:06:01.400 --> 00:06:03.820 
+basically when I create this contact
+with<00:06:01.669> the<00:06:01.820> button<00:06:02.180> it<00:06:02.780> goes<00:06:03.050> high<00:06:03.320> low<00:06:03.560> high
+
+00:06:03.820 --> 00:06:03.830 
+with the button it goes high low high
+
+00:06:03.830 --> 00:06:06.670 
+with the button it goes high low high
+low<00:06:03.860> which<00:06:04.789> is<00:06:05.030> the<00:06:05.659> bouncing<00:06:06.169> of<00:06:06.260> the<00:06:06.380> button
+
+00:06:06.670 --> 00:06:06.680 
+low which is the bouncing of the button
+
+00:06:06.680 --> 00:06:11.200 
+low which is the bouncing of the button
+but<00:06:07.460> if<00:06:07.669> you<00:06:07.909> were<00:06:08.180> to<00:06:08.780> insert<00:06:09.260> a<00:06:10.210> capacitor
+
+00:06:11.200 --> 00:06:11.210 
+but if you were to insert a capacitor
+
+00:06:11.210 --> 00:06:17.560 
+but if you were to insert a capacitor
+right<00:06:11.539> here<00:06:15.430> basically<00:06:16.430> you<00:06:16.940> would<00:06:17.090> have<00:06:17.330> a
+
+00:06:17.560 --> 00:06:17.570 
+right here basically you would have a
+
+00:06:17.570 --> 00:06:20.920 
+right here basically you would have a
+low<00:06:18.380> on<00:06:18.770> this<00:06:19.159> capacitor<00:06:19.789> right<00:06:20.000> so<00:06:20.330> zero
+
+00:06:20.920 --> 00:06:20.930 
+low on this capacitor right so zero
+
+00:06:20.930 --> 00:06:24.820 
+low on this capacitor right so zero
+volts<00:06:21.349> and<00:06:21.760> when<00:06:22.760> you<00:06:23.389> press<00:06:23.690> the<00:06:23.870> button
+
+00:06:24.820 --> 00:06:24.830 
+volts and when you press the button
+
+00:06:24.830 --> 00:06:27.370 
+volts and when you press the button
+instead<00:06:25.490> of<00:06:25.610> going<00:06:25.910> up<00:06:26.030> instantly<00:06:26.750> this
+
+00:06:27.370 --> 00:06:27.380 
+instead of going up instantly this
+
+00:06:27.380 --> 00:06:29.500 
+instead of going up instantly this
+voltage<00:06:27.920> would<00:06:28.100> actually<00:06:28.520> take<00:06:28.760> time<00:06:29.090> to<00:06:29.390> go
+
+00:06:29.500 --> 00:06:29.510 
+voltage would actually take time to go
+
+00:06:29.510 --> 00:06:31.660 
+voltage would actually take time to go
+to<00:06:29.570> five<00:06:29.840> volts<00:06:30.260> depending<00:06:30.470> on<00:06:30.920> the<00:06:31.100> capacitor
+
+00:06:31.660 --> 00:06:31.670 
+to five volts depending on the capacitor
+
+00:06:31.670 --> 00:06:34.350 
+to five volts depending on the capacitor
+value<00:06:32.030> so<00:06:32.600> that<00:06:32.630> is<00:06:32.930> one<00:06:33.230> way<00:06:33.470> that<00:06:33.740> you<00:06:33.890> can
+
+00:06:34.350 --> 00:06:34.360 
+value so that is one way that you can
+
+00:06:34.360 --> 00:06:38.050 
+value so that is one way that you can
+debounce<00:06:35.360> the<00:06:35.750> button<00:06:36.200> through<00:06:36.440> hardware<00:06:37.060> so
+
+00:06:38.050 --> 00:06:38.060 
+debounce the button through hardware so
+
+00:06:38.060 --> 00:06:40.330 
+debounce the button through hardware so
+thank<00:06:38.330> you<00:06:38.420> guys<00:06:38.570> for<00:06:38.750> watching<00:06:39.160> these<00:06:40.160> are
+
+00:06:40.330 --> 00:06:40.340 
+thank you guys for watching these are
+
+00:06:40.340 --> 00:06:42.700 
+thank you guys for watching these are
+the<00:06:40.460> two<00:06:40.640> methods<00:06:40.870> which<00:06:41.870> you<00:06:42.050> can<00:06:42.230> use<00:06:42.380> to<00:06:42.590> do
+
+00:06:42.700 --> 00:06:42.710 
+the two methods which you can use to do
+
+00:06:42.710 --> 00:06:44.860 
+the two methods which you can use to do
+bounce<00:06:42.920> your<00:06:43.130> buttons<00:06:43.490> right<00:06:43.940> now<00:06:44.150> so<00:06:44.570> the
+
+00:06:44.860 --> 00:06:44.870 
+bounce your buttons right now so the
+
+00:06:44.870 --> 00:06:47.290 
+bounce your buttons right now so the
+hardware<00:06:45.260> method<00:06:45.740> as<00:06:45.890> well<00:06:46.580> as<00:06:46.730> the<00:06:46.910> software
+
+00:06:47.290 --> 00:06:47.300 
+hardware method as well as the software
+
+00:06:47.300 --> 00:06:49.480 
+hardware method as well as the software
+that<00:06:47.510> I<00:06:47.540> explained<00:06:48.050> in<00:06:48.890> the<00:06:48.980> extended<00:06:49.430> version
+
+00:06:49.480 --> 00:06:49.490 
+that I explained in the extended version
+
+00:06:49.490 --> 00:06:52.270 
+that I explained in the extended version
+I<00:06:49.880> would<00:06:49.940> like<00:06:50.210> to<00:06:50.390> touch<00:06:50.570> up<00:06:50.840> on<00:06:51.130> button<00:06:52.130> D
+
+00:06:52.270 --> 00:06:52.280 
+I would like to touch up on button D
+
+00:06:52.280 --> 00:06:53.470 
+I would like to touch up on button D
+bounce<00:06:52.490> and<00:06:52.700> a<00:06:52.730> little<00:06:52.970> bit<00:06:53.120> more<00:06:53.300> and
+
+00:06:53.470 --> 00:06:53.480 
+bounce and a little bit more and
+
+00:06:53.480 --> 00:06:55.150 
+bounce and a little bit more and
+actually<00:06:53.900> explain<00:06:54.230> the<00:06:54.320> concept<00:06:54.800> so<00:06:54.950> take<00:06:55.130> a
+
+00:06:55.150 --> 00:06:55.160 
+actually explain the concept so take a
+
+00:06:55.160 --> 00:06:57.850 
+actually explain the concept so take a
+look<00:06:55.370> at<00:06:55.520> that<00:06:55.700> I'm<00:06:56.330> going<00:06:56.630> to<00:06:56.780> post<00:06:57.320> a<00:06:57.500> link<00:06:57.620> in
+
+00:06:57.850 --> 00:06:57.860 
+look at that I'm going to post a link in
+
+00:06:57.860 --> 00:06:59.890 
+look at that I'm going to post a link in
+the<00:06:58.040> description<00:06:58.190> thank<00:06:59.180> you<00:06:59.300> very<00:06:59.450> much<00:06:59.660> if
+
+00:06:59.890 --> 00:06:59.900 
+the description thank you very much if
+
+00:06:59.900 --> 00:07:01.270 
+the description thank you very much if
+you've<00:07:00.110> enjoyed<00:07:00.230> the<00:07:00.560> video<00:07:00.680> make<00:07:01.070> sure<00:07:01.100> to
+
+00:07:01.270 --> 00:07:01.280 
+you've enjoyed the video make sure to
+
+00:07:01.280 --> 00:07:02.590 
+you've enjoyed the video make sure to
+leave<00:07:01.580> me<00:07:01.730> a<00:07:01.760> comment<00:07:02.030> if<00:07:02.330> you<00:07:02.450> have<00:07:02.570> a
+
+00:07:02.590 --> 00:07:02.600 
+leave me a comment if you have a
+
+00:07:02.600 --> 00:07:05.080 
+leave me a comment if you have a
+question<00:07:03.140> post<00:07:03.890> it<00:07:04.100> down<00:07:04.250> there<00:07:04.430> as<00:07:04.610> well<00:07:04.820> if
+
+00:07:05.080 --> 00:07:05.090 
+question post it down there as well if
+
+00:07:05.090 --> 00:07:07.780 
+question post it down there as well if
+you<00:07:05.720> feel<00:07:06.200> like<00:07:06.440> you<00:07:06.800> enjoyed<00:07:07.130> the<00:07:07.280> video<00:07:07.490> make
+
+00:07:07.780 --> 00:07:07.790 
+you feel like you enjoyed the video make
+
+00:07:07.790 --> 00:07:11.500 
+you feel like you enjoyed the video make
+sure<00:07:07.850> to<00:07:08.000> subscribe<00:07:08.390> thank<00:07:09.140> you<00:07:09.230> bye
+
