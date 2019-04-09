@@ -1,0 +1,605 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.570 
+
+hi<00:00:00.570> welcome<00:00:01.020> to<00:00:01.410> the<00:00:01.650> app<00:00:01.770> codes<00:00:02.040> channel<00:00:02.429> on
+
+00:00:02.570 --> 00:00:02.580 
+hi welcome to the app codes channel on
+
+00:00:02.580 --> 00:00:05.390 
+hi welcome to the app codes channel on
+YouTube<00:00:03.000> I<00:00:03.360> recently<00:00:04.350> had<00:00:04.680> someone<00:00:04.920> ask<00:00:05.100> me
+
+00:00:05.390 --> 00:00:05.400 
+YouTube I recently had someone ask me
+
+00:00:05.400 --> 00:00:09.259 
+YouTube I recently had someone ask me
+about<00:00:05.779> loading<00:00:06.779> some<00:00:07.200> local<00:00:07.710> HTML<00:00:08.370> files<00:00:08.639> into
+
+00:00:09.259 --> 00:00:09.269 
+about loading some local HTML files into
+
+00:00:09.269 --> 00:00:13.039 
+about loading some local HTML files into
+a<00:00:09.870> UI<00:00:10.349> webview<00:00:10.740> after<00:00:11.580> a<00:00:11.610> user<00:00:11.969> selects<00:00:12.540> a<00:00:12.750> row
+
+00:00:13.039 --> 00:00:13.049 
+a UI webview after a user selects a row
+
+00:00:13.049 --> 00:00:17.330 
+a UI webview after a user selects a row
+and<00:00:13.700> a<00:00:14.700> UI<00:00:15.030> tableview<00:00:15.500> so<00:00:16.500> I<00:00:16.529> decided<00:00:16.920> to<00:00:17.070> do<00:00:17.310> a
+
+00:00:17.330 --> 00:00:17.340 
+and a UI tableview so I decided to do a
+
+00:00:17.340 --> 00:00:20.689 
+and a UI tableview so I decided to do a
+little<00:00:17.760> tutorial<00:00:18.119> on<00:00:18.570> that<00:00:19.250> but<00:00:20.250> because<00:00:20.400> I
+
+00:00:20.689 --> 00:00:20.699 
+little tutorial on that but because I
+
+00:00:20.699 --> 00:00:23.300 
+little tutorial on that but because I
+like<00:00:20.910> my<00:00:21.180> videos<00:00:21.900> to<00:00:22.230> not<00:00:22.350> be<00:00:22.500> too<00:00:22.710> long<00:00:22.890> I'm
+
+00:00:23.300 --> 00:00:23.310 
+like my videos to not be too long I'm
+
+00:00:23.310 --> 00:00:24.890 
+like my videos to not be too long I'm
+gonna<00:00:23.460> break<00:00:23.789> this<00:00:23.970> up<00:00:24.150> into<00:00:24.359> a<00:00:24.539> number<00:00:24.689> of
+
+00:00:24.890 --> 00:00:24.900 
+gonna break this up into a number of
+
+00:00:24.900 --> 00:00:27.529 
+gonna break this up into a number of
+parts<00:00:25.199> so<00:00:25.670> today<00:00:26.670> it<00:00:26.760> will<00:00:26.849> just<00:00:27.029> be<00:00:27.119> the<00:00:27.269> first
+
+00:00:27.529 --> 00:00:27.539 
+parts so today it will just be the first
+
+00:00:27.539 --> 00:00:30.679 
+parts so today it will just be the first
+in<00:00:27.900> a<00:00:28.710> series<00:00:29.130> of<00:00:29.340> tutorials<00:00:30.000> dealing<00:00:30.539> with
+
+00:00:30.679 --> 00:00:30.689 
+in a series of tutorials dealing with
+
+00:00:30.689 --> 00:00:33.590 
+in a series of tutorials dealing with
+that<00:00:31.340> today<00:00:32.340> is<00:00:32.460> going<00:00:32.640> to<00:00:32.700> be<00:00:32.820> very<00:00:32.969> short<00:00:33.360> and
+
+00:00:33.590 --> 00:00:33.600 
+that today is going to be very short and
+
+00:00:33.600 --> 00:00:35.870 
+that today is going to be very short and
+very<00:00:33.719> simple<00:00:34.380> and<00:00:34.649> it's<00:00:35.280> just<00:00:35.460> gonna<00:00:35.610> deal
+
+00:00:35.870 --> 00:00:35.880 
+very simple and it's just gonna deal
+
+00:00:35.880 --> 00:00:38.150 
+very simple and it's just gonna deal
+with<00:00:35.940> loading<00:00:36.450> a<00:00:36.630> local<00:00:36.960> file<00:00:37.170> into<00:00:37.800> a<00:00:37.829> UI
+
+00:00:38.150 --> 00:00:38.160 
+with loading a local file into a UI
+
+00:00:38.160 --> 00:00:40.400 
+with loading a local file into a UI
+webview<00:00:38.540> so<00:00:39.540> that's<00:00:39.780> all<00:00:39.899> we're<00:00:40.050> gonna<00:00:40.140> take
+
+00:00:40.400 --> 00:00:40.410 
+webview so that's all we're gonna take
+
+00:00:40.410 --> 00:00:41.930 
+webview so that's all we're gonna take
+care<00:00:40.620> of<00:00:40.739> today<00:00:40.860> and<00:00:41.219> then<00:00:41.370> we'll<00:00:41.489> use<00:00:41.730> this
+
+00:00:41.930 --> 00:00:41.940 
+care of today and then we'll use this
+
+00:00:41.940 --> 00:00:46.670 
+care of today and then we'll use this
+one<00:00:42.210> as<00:00:43.280> a<00:00:44.280> base<00:00:44.760> to<00:00:45.120> build<00:00:45.149> off<00:00:45.510> of<00:00:45.539> as<00:00:46.020> we<00:00:46.410> move
+
+00:00:46.670 --> 00:00:46.680 
+one as a base to build off of as we move
+
+00:00:46.680 --> 00:00:51.380 
+one as a base to build off of as we move
+into<00:00:47.120> the<00:00:48.120> rest<00:00:48.360> of<00:00:48.539> it<00:00:48.690> so<00:00:49.680> today<00:00:50.309> I'm<00:00:51.239> just
+
+00:00:51.380 --> 00:00:51.390 
+into the rest of it so today I'm just
+
+00:00:51.390 --> 00:00:53.840 
+into the rest of it so today I'm just
+going<00:00:51.570> to<00:00:51.600> create<00:00:51.780> a<00:00:51.840> new<00:00:51.989> project<00:00:52.230> on<00:00:52.850> this
+
+00:00:53.840 --> 00:00:53.850 
+going to create a new project on this
+
+00:00:53.850 --> 00:00:56.360 
+going to create a new project on this
+like<00:00:54.059> a<00:00:54.090> tab<00:00:54.390> bar<00:00:54.420> application<00:00:55.100> and<00:00:56.100> I'm<00:00:56.219> gonna
+
+00:00:56.360 --> 00:00:56.370 
+like a tab bar application and I'm gonna
+
+00:00:56.370 --> 00:01:03.740 
+like a tab bar application and I'm gonna
+name<00:00:56.579> it<00:00:56.610> web<00:00:58.219> view<00:00:59.219> tutorial<00:01:02.390> I'm<00:01:03.390> just<00:01:03.480> gonna
+
+00:01:03.740 --> 00:01:03.750 
+name it web view tutorial I'm just gonna
+
+00:01:03.750 --> 00:01:08.450 
+name it web view tutorial I'm just gonna
+name<00:01:03.960> this<00:01:04.049> web<00:01:04.260> view<00:01:04.379> tutorial<00:01:04.409> 1<00:01:05.299> okay<00:01:07.460> my
+
+00:01:08.450 --> 00:01:08.460 
+name this web view tutorial 1 okay my
+
+00:01:08.460 --> 00:01:12.240 
+name this web view tutorial 1 okay my
+source<00:01:08.729> control<00:01:09.299> there
+
+00:01:12.240 --> 00:01:12.250 
+
+00:01:12.250 --> 00:01:14.550 
+
+okay<00:01:12.970> now<00:01:13.270> the<00:01:13.690> first<00:01:13.930> thing<00:01:14.050> I<00:01:14.110> need<00:01:14.170> to<00:01:14.380> do
+
+00:01:14.550 --> 00:01:14.560 
+okay now the first thing I need to do
+
+00:01:14.560 --> 00:01:17.100 
+okay now the first thing I need to do
+since<00:01:14.920> we<00:01:15.040> are<00:01:15.190> going<00:01:15.490> to<00:01:15.760> be<00:01:16.360> working<00:01:16.750> with<00:01:16.900> a
+
+00:01:17.100 --> 00:01:17.110 
+since we are going to be working with a
+
+00:01:17.110 --> 00:01:24.180 
+since we are going to be working with a
+local<00:01:21.930> HTML<00:01:22.930> file<00:01:23.140> is<00:01:23.440> I<00:01:23.560> need<00:01:23.710> to<00:01:23.740> create<00:01:24.070> that
+
+00:01:24.180 --> 00:01:24.190 
+local HTML file is I need to create that
+
+00:01:24.190 --> 00:01:27.120 
+local HTML file is I need to create that
+local<00:01:24.550> HTML<00:01:25.030> file<00:01:25.320> I'm<00:01:26.320> just<00:01:26.470> gonna<00:01:26.620> select<00:01:26.770> an
+
+00:01:27.120 --> 00:01:27.130 
+local HTML file I'm just gonna select an
+
+00:01:27.130 --> 00:01:38.490 
+local HTML file I'm just gonna select an
+empty<00:01:27.460> file<00:01:27.670> here<00:01:31.650> and<00:01:33.960> then<00:01:34.960> I<00:01:35.290> need<00:01:35.590> to<00:01:37.500> fill
+
+00:01:38.490 --> 00:01:38.500 
+empty file here and then I need to fill
+
+00:01:38.500 --> 00:02:12.660 
+empty file here and then I need to fill
+out<00:01:38.680> my<00:01:38.830> HTML<00:01:39.280> here<00:01:39.670> which<00:02:10.080> equal<00:02:11.080> to<00:02:11.320> red<00:02:11.670> on
+
+00:02:12.660 --> 00:02:12.670 
+out my HTML here which equal to red on
+
+00:02:12.670 --> 00:02:15.780 
+out my HTML here which equal to red on
+our<00:02:12.820> body<00:02:13.800> and<00:02:14.800> then<00:02:14.950> we're<00:02:15.100> just<00:02:15.130> gonna<00:02:15.310> put<00:02:15.580> a
+
+00:02:15.780 --> 00:02:15.790 
+our body and then we're just gonna put a
+
+00:02:15.790 --> 00:02:20.009 
+our body and then we're just gonna put a
+simple<00:02:16.600> little<00:02:17.100> header<00:02:18.100> in<00:02:18.280> there<00:02:18.750> I'm<00:02:19.750> going
+
+00:02:20.009 --> 00:02:20.019 
+simple little header in there I'm going
+
+00:02:20.019 --> 00:02:25.470 
+simple little header in there I'm going
+to<00:02:20.140> line<00:02:20.350> to<00:02:20.860> the<00:02:21.010> center<00:02:23.400> and<00:02:24.400> we'll<00:02:24.940> just<00:02:25.180> put
+
+00:02:25.470 --> 00:02:25.480 
+to line to the center and we'll just put
+
+00:02:25.480 --> 00:02:39.540 
+to line to the center and we'll just put
+in<00:02:25.570> here
+
+00:02:39.540 --> 00:02:39.550 
+
+00:02:39.550 --> 00:02:42.900 
+
+HTML<00:02:40.690> and<00:02:41.690> we<00:02:41.960> should<00:02:42.140> be<00:02:42.230> good<00:02:42.350> to<00:02:42.410> go<00:02:42.500> there
+
+00:02:42.900 --> 00:02:42.910 
+HTML and we should be good to go there
+
+00:02:42.910 --> 00:02:46.630 
+HTML and we should be good to go there
+okay<00:02:43.910> so<00:02:44.270> now<00:02:44.450> we<00:02:44.870> have<00:02:44.900> our<00:02:45.380> very<00:02:45.440> simple<00:02:45.800> HTML
+
+00:02:46.630 --> 00:02:46.640 
+okay so now we have our very simple HTML
+
+00:02:46.640 --> 00:02:49.090 
+okay so now we have our very simple HTML
+page<00:02:46.670> here<00:02:47.120> and<00:02:47.360> we're<00:02:48.110> going<00:02:48.320> to<00:02:48.380> load<00:02:48.710> it<00:02:48.950> in
+
+00:02:49.090 --> 00:02:49.100 
+page here and we're going to load it in
+
+00:02:49.100 --> 00:02:52.780 
+page here and we're going to load it in
+a<00:02:49.520> UI<00:02:49.730> webview<00:02:50.090> on<00:02:50.660> our<00:02:51.470> first<00:02:51.860> view<00:02:52.250> here<00:02:52.550> so
+
+00:02:52.780 --> 00:02:52.790 
+a UI webview on our first view here so
+
+00:02:52.790 --> 00:02:56.260 
+a UI webview on our first view here so
+let's<00:02:52.970> open<00:02:53.060> my<00:02:53.240> first<00:02:53.390> view<00:02:53.630> nib<00:02:53.840> file<00:02:55.180> rid<00:02:56.180> of
+
+00:02:56.260 --> 00:02:56.270 
+let's open my first view nib file rid of
+
+00:02:56.270 --> 00:03:08.340 
+let's open my first view nib file rid of
+those<00:02:56.500> labels<00:03:00.370> view<00:03:01.370> here<00:03:03.940> add<00:03:04.940> it<00:03:06.640> like<00:03:07.640> so
+
+00:03:08.340 --> 00:03:08.350 
+those labels view here add it like so
+
+00:03:08.350 --> 00:03:12.460 
+those labels view here add it like so
+let's<00:03:09.350> open<00:03:09.590> our<00:03:09.950> header<00:03:10.280> file<00:03:11.260> and<00:03:12.260> let's
+
+00:03:12.460 --> 00:03:12.470 
+let's open our header file and let's
+
+00:03:12.470 --> 00:03:35.040 
+let's open our header file and let's
+create<00:03:12.770> an<00:03:12.890> instance<00:03:13.370> variable<00:03:13.430> for<00:03:13.970> a<00:03:14.000> UI
+
+00:03:35.040 --> 00:03:35.050 
+
+00:03:35.050 --> 00:03:39.820 
+
+synthesize<00:03:36.050> that<00:03:37.420> instance<00:03:38.420> variable<00:03:38.930> now
+
+00:03:39.820 --> 00:03:39.830 
+synthesize that instance variable now
+
+00:03:39.830 --> 00:03:41.230 
+synthesize that instance variable now
+let's<00:03:40.070> open<00:03:40.160> our<00:03:40.370> nib<00:03:40.520> file<00:03:40.700> again<00:03:41.060> and
+
+00:03:41.230 --> 00:03:41.240 
+let's open our nib file again and
+
+00:03:41.240 --> 00:03:49.840 
+let's open our nib file again and
+connect<00:03:41.630> that<00:03:41.840> up<00:03:46.870> like<00:03:47.870> so<00:03:48.190> okay<00:03:49.190> back<00:03:49.640> to<00:03:49.670> our
+
+00:03:49.840 --> 00:03:49.850 
+connect that up like so okay back to our
+
+00:03:49.850 --> 00:03:52.420 
+connect that up like so okay back to our
+implementation<00:03:50.600> file<00:03:50.810> and<00:03:51.260> let's<00:03:51.980> go<00:03:52.190> ahead
+
+00:03:52.420 --> 00:03:52.430 
+implementation file and let's go ahead
+
+00:03:52.430 --> 00:04:15.340 
+implementation file and let's go ahead
+and<00:03:53.080> do<00:03:54.080> the<00:03:54.200> work<00:04:12.070> address<00:04:13.070> and<00:04:13.790> then<00:04:14.600> this<00:04:15.200> is
+
+00:04:15.340 --> 00:04:15.350 
+and do the work address and then this is
+
+00:04:15.350 --> 00:04:25.629 
+and do the work address and then this is
+gonna<00:04:15.530> get<00:04:15.800> a<00:04:16.070> resource<00:04:16.910> path<00:04:18.370> the<00:04:19.370> bundles
+
+00:04:25.629 --> 00:04:25.639 
+
+00:04:25.639 --> 00:04:27.909 
+
+path<00:04:25.939> for<00:04:26.599> resource<00:04:27.080> in<00:04:27.409> the<00:04:27.530> name<00:04:27.680> of<00:04:27.710> our
+
+00:04:27.909 --> 00:04:27.919 
+path for resource in the name of our
+
+00:04:27.919 --> 00:04:36.730 
+path for resource in the name of our
+file<00:04:28.300> it<00:04:29.300> is<00:04:29.659> read<00:04:30.699> of<00:04:31.699> the<00:04:31.939> type<00:04:33.789> HTML<00:04:35.740> so
+
+00:04:36.730 --> 00:04:36.740 
+file it is read of the type HTML so
+
+00:04:36.740 --> 00:04:39.219 
+file it is read of the type HTML so
+that's<00:04:36.949> gonna<00:04:37.159> get<00:04:37.310> a<00:04:37.340> path<00:04:37.610> to<00:04:38.569> our<00:04:38.780> resource
+
+00:04:39.219 --> 00:04:39.229 
+that's gonna get a path to our resource
+
+00:04:39.229 --> 00:04:42.339 
+that's gonna get a path to our resource
+which<00:04:39.560> in<00:04:39.740> this<00:04:39.860> case<00:04:40.099> is<00:04:40.460> our<00:04:41.150> read<00:04:41.479> HTML<00:04:42.139> file
+
+00:04:42.339 --> 00:04:42.349 
+which in this case is our read HTML file
+
+00:04:42.349 --> 00:04:45.249 
+which in this case is our read HTML file
+over<00:04:42.620> here<00:04:43.539> okay<00:04:44.539> I'm<00:04:44.599> just<00:04:44.750> gonna<00:04:44.840> stick<00:04:45.139> it
+
+00:04:45.249 --> 00:04:45.259 
+over here okay I'm just gonna stick it
+
+00:04:45.259 --> 00:04:47.170 
+over here okay I'm just gonna stick it
+in<00:04:45.349> a<00:04:45.439> string<00:04:45.710> there<00:04:45.979> and<00:04:46.310> then<00:04:46.939> we're<00:04:47.090> gonna
+
+00:04:47.170 --> 00:04:47.180 
+in a string there and then we're gonna
+
+00:04:47.180 --> 00:05:10.179 
+in a string there and then we're gonna
+create<00:04:47.449> a<00:04:47.599> US<00:05:06.819> we're<00:05:07.819> gonna<00:05:07.969> do<00:05:08.150> file<00:05:08.949> URL<00:05:09.949> with
+
+00:05:10.179 --> 00:05:10.189 
+create a US we're gonna do file URL with
+
+00:05:10.189 --> 00:05:48.850 
+create a US we're gonna do file URL with
+path<00:05:10.460> and<00:05:10.840> passing<00:05:11.840> that<00:05:12.020> we<00:05:46.029> created<00:05:47.860> and
+
+00:05:48.850 --> 00:05:48.860 
+path and passing that we created and
+
+00:05:48.860 --> 00:05:51.430 
+path and passing that we created and
+then<00:05:48.979> finally<00:05:49.460> we<00:05:49.819> want<00:05:50.029> to<00:05:50.150> load<00:05:50.360> that<00:05:50.440> into
+
+00:05:51.430 --> 00:05:51.440 
+then finally we want to load that into
+
+00:05:51.440 --> 00:06:01.179 
+then finally we want to load that into
+our<00:05:51.940> web<00:05:52.940> view<00:05:53.860> request<00:05:58.750> and<00:05:59.750> there<00:06:00.650> we<00:06:00.770> go
+
+00:06:01.179 --> 00:06:01.189 
+our web view request and there we go
+
+00:06:01.189 --> 00:06:03.219 
+our web view request and there we go
+so<00:06:01.729> what<00:06:01.969> we've<00:06:02.089> done<00:06:02.120> is<00:06:02.300> we've<00:06:02.599> created<00:06:02.779> a
+
+00:06:03.219 --> 00:06:03.229 
+so what we've done is we've created a
+
+00:06:03.229 --> 00:06:06.189 
+so what we've done is we've created a
+string<00:06:03.860> that's<00:06:04.729> holding<00:06:05.120> the<00:06:05.210> path<00:06:05.449> to<00:06:06.169> our
+
+00:06:06.189 --> 00:06:06.199 
+string that's holding the path to our
+
+00:06:06.199 --> 00:06:10.629 
+string that's holding the path to our
+file<00:06:06.650> named<00:06:07.430> red<00:06:07.729> of<00:06:08.060> type<00:06:08.330> HTML<00:06:09.080> so<00:06:09.919> we<00:06:10.069> have<00:06:10.279> a
+
+00:06:10.629 --> 00:06:10.639 
+file named red of type HTML so we have a
+
+00:06:10.639 --> 00:06:14.589 
+file named red of type HTML so we have a
+string<00:06:12.039> that<00:06:13.039> has<00:06:13.099> the<00:06:13.490> path<00:06:13.669> to<00:06:13.939> our<00:06:14.000> file<00:06:14.240> and
+
+00:06:14.589 --> 00:06:14.599 
+string that has the path to our file and
+
+00:06:14.599 --> 00:06:19.240 
+string that has the path to our file and
+then<00:06:15.319> we<00:06:15.500> pass<00:06:15.830> that<00:06:16.189> string<00:06:16.879> into<00:06:18.250> this
+
+00:06:19.240 --> 00:06:19.250 
+then we pass that string into this
+
+00:06:19.250 --> 00:06:22.179 
+then we pass that string into this
+method<00:06:19.699> file<00:06:19.909> URL<00:06:20.509> with<00:06:20.719> path<00:06:20.990> that<00:06:21.740> creates
+
+00:06:22.179 --> 00:06:22.189 
+method file URL with path that creates
+
+00:06:22.189 --> 00:06:26.589 
+method file URL with path that creates
+our<00:06:22.400> NS<00:06:22.819> URL<00:06:23.360> and<00:06:23.779> then<00:06:24.469> that<00:06:24.740> nsurl<00:06:25.759> we<00:06:26.330> pass
+
+00:06:26.589 --> 00:06:26.599 
+our NS URL and then that nsurl we pass
+
+00:06:26.599 --> 00:06:30.429 
+our NS URL and then that nsurl we pass
+to<00:06:27.110> request<00:06:27.620> with<00:06:28.159> URL<00:06:28.669> which<00:06:29.599> is<00:06:29.810> creating
+
+00:06:30.429 --> 00:06:30.439 
+to request with URL which is creating
+
+00:06:30.439 --> 00:06:34.189 
+to request with URL which is creating
+our<00:06:30.939> nsurl<00:06:31.939> request<00:06:32.389> which<00:06:33.199> then
+
+00:06:34.189 --> 00:06:34.199 
+our nsurl request which then
+
+00:06:34.199 --> 00:06:37.850 
+our nsurl request which then
+gets<00:06:34.919> loaded<00:06:35.219> into<00:06:35.610> our<00:06:35.819> webview<00:06:36.300> okay<00:06:37.199> pretty
+
+00:06:37.850 --> 00:06:37.860 
+gets loaded into our webview okay pretty
+
+00:06:37.860 --> 00:06:38.480 
+gets loaded into our webview okay pretty
+simple
+
+00:06:38.480 --> 00:06:38.490 
+simple
+
+00:06:38.490 --> 00:06:41.029 
+simple
+let's<00:06:39.419> go<00:06:39.539> ahead<00:06:39.719> and<00:06:39.840> run<00:06:39.960> it<00:06:39.990> see<00:06:40.860> if<00:06:40.949> it
+
+00:06:41.029 --> 00:06:41.039 
+let's go ahead and run it see if it
+
+00:06:41.039 --> 00:06:49.159 
+let's go ahead and run it see if it
+works<00:06:41.280> okay<00:06:42.800> simulator<00:06:44.930> run<00:06:46.699> and<00:06:47.699> I<00:06:48.419> haven't
+
+00:06:49.159 --> 00:06:49.169 
+works okay simulator run and I haven't
+
+00:06:49.169 --> 00:06:54.790 
+works okay simulator run and I haven't
+forgotten<00:06:49.289> anything<00:06:49.909> we<00:06:50.909> should<00:06:51.150> see<00:06:51.479> our
+
+00:06:54.790 --> 00:06:54.800 
+
+00:06:54.800 --> 00:06:58.969 
+
+read<00:06:56.419> HTML<00:06:57.419> file<00:06:57.629> once<00:06:58.110> we<00:06:58.259> do<00:06:58.409> without<00:06:58.800> red
+
+00:06:58.969 --> 00:06:58.979 
+read HTML file once we do without red
+
+00:06:58.979 --> 00:07:05.300 
+read HTML file once we do without red
+background<00:06:59.189> and<00:07:02.539> get<00:07:03.539> that<00:07:03.719> open<00:07:03.870> there<00:07:04.249> so<00:07:05.249> we
+
+00:07:05.300 --> 00:07:05.310 
+background and get that open there so we
+
+00:07:05.310 --> 00:07:07.550 
+background and get that open there so we
+can<00:07:05.490> see<00:07:05.639> we<00:07:05.759> have<00:07:05.789> our<00:07:05.999> red<00:07:06.180> background<00:07:06.560> and
+
+00:07:07.550 --> 00:07:07.560 
+can see we have our red background and
+
+00:07:07.560 --> 00:07:11.360 
+can see we have our red background and
+we<00:07:07.949> have<00:07:08.189> our<00:07:08.520> header<00:07:09.270> tag<00:07:09.539> says<00:07:10.259> read<00:07:10.529> read
+
+00:07:11.360 --> 00:07:11.370 
+we have our header tag says read read
+
+00:07:11.370 --> 00:07:15.429 
+we have our header tag says read read
+what<00:07:11.909> you<00:07:12.409> okay<00:07:13.580> that<00:07:14.580> was<00:07:14.699> pretty<00:07:14.879> simple
+
+00:07:15.429 --> 00:07:15.439 
+what you okay that was pretty simple
+
+00:07:15.439 --> 00:07:17.990 
+what you okay that was pretty simple
+again<00:07:16.469> we<00:07:16.740> knew<00:07:16.860> this<00:07:16.979> was<00:07:17.099> gonna<00:07:17.250> be<00:07:17.430> easy<00:07:17.460> but
+
+00:07:17.990 --> 00:07:18.000 
+again we knew this was gonna be easy but
+
+00:07:18.000 --> 00:07:20.240 
+again we knew this was gonna be easy but
+this<00:07:18.389> is<00:07:18.569> going<00:07:18.840> to<00:07:18.930> be<00:07:19.050> the<00:07:19.199> foundation<00:07:19.349> with
+
+00:07:20.240 --> 00:07:20.250 
+this is going to be the foundation with
+
+00:07:20.250 --> 00:07:23.089 
+this is going to be the foundation with
+which<00:07:20.490> we<00:07:20.729> will<00:07:20.879> build<00:07:21.150> on<00:07:21.360> the<00:07:22.229> next<00:07:22.500> tutorial
+
+00:07:23.089 --> 00:07:23.099 
+which we will build on the next tutorial
+
+00:07:23.099 --> 00:07:26.390 
+which we will build on the next tutorial
+which<00:07:23.879> is<00:07:24.180> going<00:07:24.629> to<00:07:24.750> add<00:07:25.169> these<00:07:25.680> web<00:07:26.009> views
+
+00:07:26.390 --> 00:07:26.400 
+which is going to add these web views
+
+00:07:26.400 --> 00:07:30.439 
+which is going to add these web views
+depending<00:07:26.639> on<00:07:27.050> what<00:07:28.050> row<00:07:28.680> a<00:07:29.069> user<00:07:29.400> selects<00:07:29.789> in
+
+00:07:30.439 --> 00:07:30.449 
+depending on what row a user selects in
+
+00:07:30.449 --> 00:07:33.350 
+depending on what row a user selects in
+a<00:07:30.479> UI<00:07:30.960> tableview<00:07:31.819> so<00:07:32.819> anyway<00:07:33.060> I<00:07:33.089> hope<00:07:33.300> you
+
+00:07:33.350 --> 00:07:33.360 
+a UI tableview so anyway I hope you
+
+00:07:33.360 --> 00:07:36.499 
+a UI tableview so anyway I hope you
+found<00:07:33.479> this<00:07:33.749> helpful<00:07:34.069> in<00:07:35.069> some<00:07:35.339> regard<00:07:35.729> and
+
+00:07:36.499 --> 00:07:36.509 
+found this helpful in some regard and
+
+00:07:36.509 --> 00:07:38.119 
+found this helpful in some regard and
+make<00:07:36.749> sure<00:07:36.870> you<00:07:36.960> keep<00:07:37.139> it<00:07:37.349> and<00:07:37.560> we'll<00:07:37.710> build<00:07:37.919> on
+
+00:07:38.119 --> 00:07:38.129 
+make sure you keep it and we'll build on
+
+00:07:38.129 --> 00:07:41.600 
+make sure you keep it and we'll build on
+it<00:07:38.339> and<00:07:39.020> as<00:07:40.020> always<00:07:40.319> please<00:07:40.680> come<00:07:40.949> visit<00:07:41.099> me<00:07:41.370> at
+
+00:07:41.600 --> 00:07:41.610 
+it and as always please come visit me at
+
+00:07:41.610 --> 00:07:46.249 
+it and as always please come visit me at
+the<00:07:42.300> app<00:07:42.419> code<00:07:42.719> blog.com<00:07:44.599> we're<00:07:45.599> gonna<00:07:45.689> find<00:07:45.990> a
+
+00:07:46.249 --> 00:07:46.259 
+the app code blog.com we're gonna find a
+
+00:07:46.259 --> 00:07:49.459 
+the app code blog.com we're gonna find a
+lot<00:07:46.500> more<00:07:46.529> tutorials<00:07:47.279> and<00:07:48.020> until<00:07:49.020> next<00:07:49.139> time
+
+00:07:49.459 --> 00:07:49.469 
+lot more tutorials and until next time
+
+00:07:49.469 --> 00:07:52.580 
+lot more tutorials and until next time
+have<00:07:50.310> a<00:07:50.370> great<00:07:50.490> day
+
