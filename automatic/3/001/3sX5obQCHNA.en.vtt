@@ -1,0 +1,1555 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.510 
+
+now<00:00:00.750> let's<00:00:00.960> see<00:00:01.110> how<00:00:01.260> tal<00:00:01.620> bees<00:00:01.829> and<00:00:02.070> caches
+
+00:00:02.510 --> 00:00:02.520 
+now let's see how tal bees and caches
+
+00:00:02.520 --> 00:00:04.760 
+now let's see how tal bees and caches
+interact<00:00:02.939> since<00:00:03.780> they<00:00:03.929> both<00:00:04.140> have<00:00:04.470> to<00:00:04.650> do<00:00:04.740> with
+
+00:00:04.760 --> 00:00:04.770 
+interact since they both have to do with
+
+00:00:04.770 --> 00:00:07.010 
+interact since they both have to do with
+accessing<00:00:05.400> data<00:00:05.700> and<00:00:05.970> addresses<00:00:06.600> they've<00:00:06.839> got
+
+00:00:07.010 --> 00:00:07.020 
+accessing data and addresses they've got
+
+00:00:07.020 --> 00:00:09.589 
+accessing data and addresses they've got
+to<00:00:07.140> be<00:00:07.230> pretty<00:00:07.379> tightly<00:00:07.799> coupled<00:00:08.480> so<00:00:09.480> they're
+
+00:00:09.589 --> 00:00:09.599 
+to be pretty tightly coupled so they're
+
+00:00:09.599 --> 00:00:11.720 
+to be pretty tightly coupled so they're
+basically<00:00:09.929> two<00:00:10.349> ways<00:00:10.740> that<00:00:11.010> we<00:00:11.070> can<00:00:11.160> put<00:00:11.460> TL
+
+00:00:11.720 --> 00:00:11.730 
+basically two ways that we can put TL
+
+00:00:11.730 --> 00:00:13.940 
+basically two ways that we can put TL
+bees<00:00:11.880> and<00:00:12.059> caches<00:00:12.389> together<00:00:12.690> we<00:00:13.290> have<00:00:13.440> our<00:00:13.590> CPU
+
+00:00:13.940 --> 00:00:13.950 
+bees and caches together we have our CPU
+
+00:00:13.950 --> 00:00:16.700 
+bees and caches together we have our CPU
+our<00:00:14.309> CPU<00:00:14.969> generates<00:00:15.089> a<00:00:15.389> virtual<00:00:15.570> address<00:00:16.230> we
+
+00:00:16.700 --> 00:00:16.710 
+our CPU generates a virtual address we
+
+00:00:16.710 --> 00:00:18.439 
+our CPU generates a virtual address we
+can<00:00:16.859> take<00:00:17.010> that<00:00:17.190> virtual<00:00:17.609> address<00:00:18.000> you<00:00:18.300> just
+
+00:00:18.439 --> 00:00:18.449 
+can take that virtual address you just
+
+00:00:18.449 --> 00:00:20.240 
+can take that virtual address you just
+put<00:00:18.630> it<00:00:18.720> in<00:00:18.810> the<00:00:18.900> TLB<00:00:19.199> we'll<00:00:19.890> get<00:00:20.039> out<00:00:20.130> of
+
+00:00:20.240 --> 00:00:20.250 
+put it in the TLB we'll get out of
+
+00:00:20.250 --> 00:00:21.830 
+put it in the TLB we'll get out of
+physical<00:00:20.609> address<00:00:20.939> then<00:00:21.480> we<00:00:21.539> take<00:00:21.689> that
+
+00:00:21.830 --> 00:00:21.840 
+physical address then we take that
+
+00:00:21.840 --> 00:00:23.420 
+physical address then we take that
+physical<00:00:22.260> address<00:00:22.590> put<00:00:22.859> it<00:00:22.949> into<00:00:23.100> our<00:00:23.130> cache
+
+00:00:23.420 --> 00:00:23.430 
+physical address put it into our cache
+
+00:00:23.430 --> 00:00:25.460 
+physical address put it into our cache
+and<00:00:23.760> if<00:00:24.240> we're<00:00:24.390> lucky<00:00:24.510> we<00:00:24.750> get<00:00:24.869> a<00:00:24.930> hit<00:00:25.170> and<00:00:25.410> we
+
+00:00:25.460 --> 00:00:25.470 
+and if we're lucky we get a hit and we
+
+00:00:25.470 --> 00:00:27.470 
+and if we're lucky we get a hit and we
+return<00:00:25.769> it<00:00:25.890> to<00:00:25.949> the<00:00:26.070> CPU<00:00:26.369> and<00:00:26.670> if<00:00:27.210> we're<00:00:27.330> not
+
+00:00:27.470 --> 00:00:27.480 
+return it to the CPU and if we're not
+
+00:00:27.480 --> 00:00:29.150 
+return it to the CPU and if we're not
+lucky<00:00:27.660> we<00:00:27.869> get<00:00:27.960> a<00:00:28.019> miss<00:00:28.320> and<00:00:28.470> we<00:00:28.830> go<00:00:28.949> to<00:00:29.010> our
+
+00:00:29.150 --> 00:00:29.160 
+lucky we get a miss and we go to our
+
+00:00:29.160 --> 00:00:30.980 
+lucky we get a miss and we go to our
+memory<00:00:29.490> so<00:00:30.300> this<00:00:30.480> is<00:00:30.630> sort<00:00:30.810> of<00:00:30.869> the
+
+00:00:30.980 --> 00:00:30.990 
+memory so this is sort of the
+
+00:00:30.990 --> 00:00:33.170 
+memory so this is sort of the
+straightforward<00:00:31.320> way<00:00:31.769> to<00:00:31.800> do<00:00:31.980> it<00:00:32.130> first<00:00:32.730> we<00:00:33.059> do
+
+00:00:33.170 --> 00:00:33.180 
+straightforward way to do it first we do
+
+00:00:33.180 --> 00:00:35.150 
+straightforward way to do it first we do
+our<00:00:33.300> translation<00:00:33.989> then<00:00:34.500> we<00:00:34.680> do<00:00:34.800> our<00:00:34.829> cache
+
+00:00:35.150 --> 00:00:35.160 
+our translation then we do our cache
+
+00:00:35.160 --> 00:00:37.729 
+our translation then we do our cache
+look<00:00:35.460> up<00:00:35.610> this<00:00:36.570> is<00:00:36.719> called<00:00:36.899> a<00:00:36.989> physical<00:00:37.530> cache
+
+00:00:37.729 --> 00:00:37.739 
+look up this is called a physical cache
+
+00:00:37.739 --> 00:00:39.590 
+look up this is called a physical cache
+because<00:00:38.250> our<00:00:38.489> cache<00:00:38.700> uses<00:00:39.030> a<00:00:39.059> physical
+
+00:00:39.590 --> 00:00:39.600 
+because our cache uses a physical
+
+00:00:39.600 --> 00:00:42.229 
+because our cache uses a physical
+address<00:00:39.920> now<00:00:40.920> physical<00:00:41.340> caches<00:00:41.670> are<00:00:41.790> simple
+
+00:00:42.229 --> 00:00:42.239 
+address now physical caches are simple
+
+00:00:42.239 --> 00:00:44.330 
+address now physical caches are simple
+but<00:00:42.690> they're<00:00:42.930> slow<00:00:43.440> this<00:00:43.860> is<00:00:43.920> the<00:00:44.190> real
+
+00:00:44.330 --> 00:00:44.340 
+but they're slow this is the real
+
+00:00:44.340 --> 00:00:46.549 
+but they're slow this is the real
+problem<00:00:44.550> we<00:00:45.149> have<00:00:45.300> to<00:00:45.450> do<00:00:45.570> this<00:00:45.690> TLB<00:00:46.170> look<00:00:46.379> up
+
+00:00:46.549 --> 00:00:46.559 
+problem we have to do this TLB look up
+
+00:00:46.559 --> 00:00:49.400 
+problem we have to do this TLB look up
+before<00:00:47.160> we<00:00:47.399> access<00:00:47.760> the<00:00:47.910> cache<00:00:48.090> so<00:00:48.899> this<00:00:49.170> takes
+
+00:00:49.400 --> 00:00:49.410 
+before we access the cache so this takes
+
+00:00:49.410 --> 00:00:51.380 
+before we access the cache so this takes
+about<00:00:49.590> one<00:00:49.890> cycle<00:00:50.370> and<00:00:50.520> this<00:00:50.640> takes<00:00:50.969> about<00:00:51.120> one
+
+00:00:51.380 --> 00:00:51.390 
+about one cycle and this takes about one
+
+00:00:51.390 --> 00:00:53.240 
+about one cycle and this takes about one
+cycle<00:00:51.840> it's<00:00:52.289> now<00:00:52.469> going<00:00:52.620> to<00:00:52.680> take<00:00:52.800> us<00:00:52.980> two
+
+00:00:53.240 --> 00:00:53.250 
+cycle it's now going to take us two
+
+00:00:53.250 --> 00:00:56.450 
+cycle it's now going to take us two
+cycles<00:00:53.820> to<00:00:54.120> find<00:00:54.390> data<00:00:54.600> in<00:00:54.719> the<00:00:54.780> cache<00:00:55.460> the
+
+00:00:56.450 --> 00:00:56.460 
+cycles to find data in the cache the
+
+00:00:56.460 --> 00:00:58.220 
+cycles to find data in the cache the
+other<00:00:56.610> way<00:00:56.760> to<00:00:56.820> do<00:00:56.969> this<00:00:57.000> is<00:00:57.300> a<00:00:57.449> virtual<00:00:58.020> cache
+
+00:00:58.220 --> 00:00:58.230 
+other way to do this is a virtual cache
+
+00:00:58.230 --> 00:01:00.349 
+other way to do this is a virtual cache
+so<00:00:58.890> we<00:00:58.980> take<00:00:59.160> our<00:00:59.309> CPU<00:00:59.760> which<00:01:00.000> is<00:01:00.149> going<00:01:00.300> to
+
+00:01:00.349 --> 00:01:00.359 
+so we take our CPU which is going to
+
+00:01:00.359 --> 00:01:02.150 
+so we take our CPU which is going to
+give<00:01:00.510> us<00:01:00.539> a<00:01:00.690> virtual<00:01:01.079> address<00:01:01.410> and<00:01:01.559> we<00:01:01.859> connect
+
+00:01:02.150 --> 00:01:02.160 
+give us a virtual address and we connect
+
+00:01:02.160 --> 00:01:04.670 
+give us a virtual address and we connect
+that<00:01:02.250> directly<00:01:02.789> to<00:01:02.969> our<00:01:03.000> cache<00:01:03.329> now<00:01:04.229> our<00:01:04.379> cache
+
+00:01:04.670 --> 00:01:04.680 
+that directly to our cache now our cache
+
+00:01:04.680 --> 00:01:06.230 
+that directly to our cache now our cache
+is<00:01:04.949> going<00:01:05.100> to<00:01:05.159> look<00:01:05.309> up<00:01:05.460> data<00:01:05.640> based<00:01:05.939> on<00:01:06.119> the
+
+00:01:06.230 --> 00:01:06.240 
+is going to look up data based on the
+
+00:01:06.240 --> 00:01:08.420 
+is going to look up data based on the
+virtual<00:01:06.750> address<00:01:06.900> so<00:01:07.770> if<00:01:07.830> we<00:01:07.920> have<00:01:08.010> a<00:01:08.040> hit<00:01:08.220> here
+
+00:01:08.420 --> 00:01:08.430 
+virtual address so if we have a hit here
+
+00:01:08.430 --> 00:01:10.429 
+virtual address so if we have a hit here
+we<00:01:08.549> return<00:01:08.820> it<00:01:08.939> to<00:01:09.030> the<00:01:09.119> CPU<00:01:09.450> and<00:01:09.720> this<00:01:10.290> is
+
+00:01:10.429 --> 00:01:10.439 
+we return it to the CPU and this is
+
+00:01:10.439 --> 00:01:12.620 
+we return it to the CPU and this is
+really<00:01:10.770> fast<00:01:11.040> because<00:01:11.640> we<00:01:11.790> don't<00:01:12.060> have<00:01:12.150> to<00:01:12.510> do
+
+00:01:12.620 --> 00:01:12.630 
+really fast because we don't have to do
+
+00:01:12.630 --> 00:01:14.600 
+really fast because we don't have to do
+any<00:01:12.840> translation<00:01:13.380> we<00:01:13.770> just<00:01:13.950> go<00:01:14.040> directly<00:01:14.369> to
+
+00:01:14.600 --> 00:01:14.610 
+any translation we just go directly to
+
+00:01:14.610 --> 00:01:16.640 
+any translation we just go directly to
+the<00:01:14.670> cache<00:01:14.880> now<00:01:15.600> if<00:01:15.780> we<00:01:15.900> miss<00:01:16.170> in<00:01:16.350> the<00:01:16.439> cache
+
+00:01:16.640 --> 00:01:16.650 
+the cache now if we miss in the cache
+
+00:01:16.650 --> 00:01:18.679 
+the cache now if we miss in the cache
+we've<00:01:17.220> got<00:01:17.340> to<00:01:17.460> go<00:01:17.520> to<00:01:17.580> DRAM<00:01:18.030> and<00:01:18.240> DRAM<00:01:18.630> is
+
+00:01:18.679 --> 00:01:18.689 
+we've got to go to DRAM and DRAM is
+
+00:01:18.689 --> 00:01:20.630 
+we've got to go to DRAM and DRAM is
+physical<00:01:19.229> address<00:01:19.560> so<00:01:20.009> if<00:01:20.100> we<00:01:20.159> have<00:01:20.250> a<00:01:20.280> Miss
+
+00:01:20.630 --> 00:01:20.640 
+physical address so if we have a Miss
+
+00:01:20.640 --> 00:01:22.310 
+physical address so if we have a Miss
+then<00:01:21.180> we're<00:01:21.390> going<00:01:21.509> to<00:01:21.570> go<00:01:21.689> to<00:01:21.750> the<00:01:21.869> TLB
+
+00:01:22.310 --> 00:01:22.320 
+then we're going to go to the TLB
+
+00:01:22.320 --> 00:01:24.260 
+then we're going to go to the TLB
+translate<00:01:23.070> to<00:01:23.159> a<00:01:23.189> physical<00:01:23.580> address<00:01:23.670> and<00:01:24.060> go
+
+00:01:24.260 --> 00:01:24.270 
+translate to a physical address and go
+
+00:01:24.270 --> 00:01:27.950 
+translate to a physical address and go
+to<00:01:24.299> DRAM<00:01:24.860> so<00:01:25.860> the<00:01:26.280> virtual<00:01:26.460> cache<00:01:26.820> is<00:01:27.030> fast<00:01:27.330> we
+
+00:01:27.950 --> 00:01:27.960 
+to DRAM so the virtual cache is fast we
+
+00:01:27.960 --> 00:01:30.140 
+to DRAM so the virtual cache is fast we
+only<00:01:28.170> have<00:01:28.500> to<00:01:28.650> do<00:01:28.740> a<00:01:28.770> TLB<00:01:29.100> mail<00:01:29.430> Cup<00:01:29.670> when<00:01:30.030> we
+
+00:01:30.140 --> 00:01:30.150 
+only have to do a TLB mail Cup when we
+
+00:01:30.150 --> 00:01:31.910 
+only have to do a TLB mail Cup when we
+miss<00:01:30.329> in<00:01:30.479> the<00:01:30.570> cache<00:01:30.780> and<00:01:31.079> while<00:01:31.530> we<00:01:31.710> know<00:01:31.740> if
+
+00:01:31.910 --> 00:01:31.920 
+miss in the cache and while we know if
+
+00:01:31.920 --> 00:01:33.499 
+miss in the cache and while we know if
+we<00:01:32.009> list<00:01:32.220> miss<00:01:32.490> in<00:01:32.640> the<00:01:32.729> cache<00:01:32.939> it's<00:01:33.180> going<00:01:33.450> to
+
+00:01:33.499 --> 00:01:33.509 
+we list miss in the cache it's going to
+
+00:01:33.509 --> 00:01:35.600 
+we list miss in the cache it's going to
+take<00:01:33.659> a<00:01:33.689> long<00:01:33.990> time<00:01:34.200> to<00:01:34.350> go<00:01:34.439> to<00:01:34.500> DRM<00:01:34.829> anyways<00:01:35.189> so
+
+00:01:35.600 --> 00:01:35.610 
+take a long time to go to DRM anyways so
+
+00:01:35.610 --> 00:01:37.210 
+take a long time to go to DRM anyways so
+this<00:01:35.759> sounds<00:01:36.000> like<00:01:36.060> the<00:01:36.150> right<00:01:36.420> way<00:01:36.540> to<00:01:36.600> do<00:01:36.780> it
+
+00:01:37.210 --> 00:01:37.220 
+this sounds like the right way to do it
+
+00:01:37.220 --> 00:01:39.020 
+this sounds like the right way to do it
+now<00:01:38.220> here's<00:01:38.400> a<00:01:38.460> question
+
+00:01:39.020 --> 00:01:39.030 
+now here's a question
+
+00:01:39.030 --> 00:01:41.929 
+now here's a question
+can<00:01:39.450> I<00:01:39.540> have<00:01:39.689> two<00:01:39.720> programs<00:01:40.500> share<00:01:41.189> a<00:01:41.220> virtual
+
+00:01:41.929 --> 00:01:41.939 
+can I have two programs share a virtual
+
+00:01:41.939 --> 00:01:48.620 
+can I have two programs share a virtual
+cache<00:01:45.020> well<00:01:46.020> not<00:01:46.500> really<00:01:46.890> and<00:01:47.329> this<00:01:48.329> is<00:01:48.509> the
+
+00:01:48.620 --> 00:01:48.630 
+cache well not really and this is the
+
+00:01:48.630 --> 00:01:50.359 
+cache well not really and this is the
+problem<00:01:48.960> with<00:01:49.110> virtual<00:01:49.439> caches<00:01:49.680> so<00:01:50.250> the
+
+00:01:50.359 --> 00:01:50.369 
+problem with virtual caches so the
+
+00:01:50.369 --> 00:01:52.280 
+problem with virtual caches so the
+virtual<00:01:50.909> cache<00:01:51.149> here<00:01:51.509> is<00:01:51.720> storing<00:01:52.200> the
+
+00:01:52.280 --> 00:01:52.290 
+virtual cache here is storing the
+
+00:01:52.290 --> 00:01:54.499 
+virtual cache here is storing the
+program<00:01:52.649> by<00:01:52.799> the<00:01:52.829> virtual<00:01:53.460> address<00:01:53.700> there's
+
+00:01:54.499 --> 00:01:54.509 
+program by the virtual address there's
+
+00:01:54.509 --> 00:01:57.560 
+program by the virtual address there's
+no<00:01:54.869> translation<00:01:55.579> so<00:01:56.579> I<00:01:56.610> can't<00:01:57.090> run<00:01:57.299> two
+
+00:01:57.560 --> 00:01:57.570 
+no translation so I can't run two
+
+00:01:57.570 --> 00:01:59.690 
+no translation so I can't run two
+programs<00:01:57.600> on<00:01:58.200> my<00:01:58.290> CPU<00:01:58.799> and<00:01:59.070> keep<00:01:59.310> their<00:01:59.520> data
+
+00:01:59.690 --> 00:01:59.700 
+programs on my CPU and keep their data
+
+00:01:59.700 --> 00:02:01.969 
+programs on my CPU and keep their data
+separate<00:02:00.270> if<00:02:00.450> I<00:02:00.930> have<00:02:01.049> two<00:02:01.259> programs<00:02:01.500> that<00:02:01.860> are
+
+00:02:01.969 --> 00:02:01.979 
+separate if I have two programs that are
+
+00:02:01.979 --> 00:02:03.560 
+separate if I have two programs that are
+running<00:02:02.159> here<00:02:02.490> they're<00:02:02.790> both<00:02:03.000> outputting
+
+00:02:03.560 --> 00:02:03.570 
+running here they're both outputting
+
+00:02:03.570 --> 00:02:05.240 
+running here they're both outputting
+virtual<00:02:03.930> addresses<00:02:04.320> and<00:02:04.530> there's<00:02:04.649> nothing<00:02:05.219> to
+
+00:02:05.240 --> 00:02:05.250 
+virtual addresses and there's nothing to
+
+00:02:05.250 --> 00:02:07.639 
+virtual addresses and there's nothing to
+prevent<00:02:05.640> those<00:02:05.850> two<00:02:06.210> virtual<00:02:06.719> addresses<00:02:07.110> from
+
+00:02:07.639 --> 00:02:07.649 
+prevent those two virtual addresses from
+
+00:02:07.649 --> 00:02:10.219 
+prevent those two virtual addresses from
+colliding<00:02:08.069> in<00:02:08.369> the<00:02:08.459> cache<00:02:08.670> so<00:02:09.569> program<00:02:09.959> one
+
+00:02:10.219 --> 00:02:10.229 
+colliding in the cache so program one
+
+00:02:10.229 --> 00:02:12.170 
+colliding in the cache so program one
+access<00:02:10.770> address<00:02:11.190> a<00:02:11.220> thousand<00:02:11.849> that's<00:02:12.030> a
+
+00:02:12.170 --> 00:02:12.180 
+access address a thousand that's a
+
+00:02:12.180 --> 00:02:13.670 
+access address a thousand that's a
+virtual<00:02:12.569> address<00:02:12.930> it'll<00:02:13.170> go<00:02:13.410> look
+
+00:02:13.670 --> 00:02:13.680 
+virtual address it'll go look
+
+00:02:13.680 --> 00:02:15.770 
+virtual address it'll go look
+address<00:02:14.129> a<00:02:14.159> thousand<00:02:14.670> in<00:02:14.790> the<00:02:14.879> cash<00:02:15.060> and<00:02:15.360> a
+
+00:02:15.770 --> 00:02:15.780 
+address a thousand in the cash and a
+
+00:02:15.780 --> 00:02:17.839 
+address a thousand in the cash and a
+program<00:02:16.110> two<00:02:16.349> runs<00:02:16.590> on<00:02:16.769> the<00:02:16.860> CPU<00:02:17.220> and<00:02:17.250> accesses
+
+00:02:17.839 --> 00:02:17.849 
+program two runs on the CPU and accesses
+
+00:02:17.849 --> 00:02:19.729 
+program two runs on the CPU and accesses
+virtual<00:02:18.239> address<00:02:18.540> a<00:02:18.569> thousand<00:02:18.989> it<00:02:19.349> will<00:02:19.470> also
+
+00:02:19.729 --> 00:02:19.739 
+virtual address a thousand it will also
+
+00:02:19.739 --> 00:02:21.380 
+virtual address a thousand it will also
+find<00:02:19.920> virtual<00:02:20.310> address<00:02:20.610> a<00:02:20.640> thousand<00:02:21.209> in<00:02:21.299> the
+
+00:02:21.380 --> 00:02:21.390 
+find virtual address a thousand in the
+
+00:02:21.390 --> 00:02:23.660 
+find virtual address a thousand in the
+cache<00:02:21.620> because<00:02:22.620> there's<00:02:22.799> no<00:02:23.010> translation
+
+00:02:23.660 --> 00:02:23.670 
+cache because there's no translation
+
+00:02:23.670 --> 00:02:25.399 
+cache because there's no translation
+before<00:02:24.120> I<00:02:24.180> access<00:02:24.659> the<00:02:24.780> data<00:02:24.959> in<00:02:25.110> the<00:02:25.200> cache
+
+00:02:25.399 --> 00:02:25.409 
+before I access the data in the cache
+
+00:02:25.409 --> 00:02:27.619 
+before I access the data in the cache
+there's<00:02:26.069> no<00:02:26.340> way<00:02:26.549> to<00:02:26.610> keep<00:02:26.849> the<00:02:27.030> applications
+
+00:02:27.619 --> 00:02:27.629 
+there's no way to keep the applications
+
+00:02:27.629 --> 00:02:29.449 
+there's no way to keep the applications
+apart<00:02:27.989> so<00:02:28.739> this<00:02:28.860> is<00:02:29.010> the<00:02:29.069> problem<00:02:29.250> of<00:02:29.370> the
+
+00:02:29.449 --> 00:02:29.459 
+apart so this is the problem of the
+
+00:02:29.459 --> 00:02:32.030 
+apart so this is the problem of the
+virtual<00:02:29.790> cache<00:02:30.319> you<00:02:31.319> know<00:02:31.379> there<00:02:31.530> are<00:02:31.680> ways<00:02:32.010> to
+
+00:02:32.030 --> 00:02:32.040 
+virtual cache you know there are ways to
+
+00:02:32.040 --> 00:02:34.429 
+virtual cache you know there are ways to
+work<00:02:32.280> around<00:02:32.549> this<00:02:32.879> so<00:02:33.629> you<00:02:34.109> can<00:02:34.260> have<00:02:34.379> a
+
+00:02:34.429 --> 00:02:34.439 
+work around this so you can have a
+
+00:02:34.439 --> 00:02:36.050 
+work around this so you can have a
+separate<00:02:34.890> bit<00:02:35.159> in<00:02:35.310> here<00:02:35.519> so<00:02:35.879> that<00:02:35.909> I<00:02:36.030> don't
+
+00:02:36.050 --> 00:02:36.060 
+separate bit in here so that I don't
+
+00:02:36.060 --> 00:02:38.030 
+separate bit in here so that I don't
+just<00:02:36.599> send<00:02:36.900> the<00:02:37.019> virtual<00:02:37.379> address<00:02:37.530> that's<00:02:37.890> in
+
+00:02:38.030 --> 00:02:38.040 
+just send the virtual address that's in
+
+00:02:38.040 --> 00:02:40.039 
+just send the virtual address that's in
+the<00:02:38.129> virtual<00:02:38.489> address<00:02:38.579> plus<00:02:39.180> a<00:02:39.450> special<00:02:39.870> bit
+
+00:02:40.039 --> 00:02:40.049 
+the virtual address plus a special bit
+
+00:02:40.049 --> 00:02:41.839 
+the virtual address plus a special bit
+which<00:02:40.230> tells<00:02:40.500> me<00:02:40.560> which<00:02:40.829> program<00:02:41.310> it<00:02:41.459> is<00:02:41.579> or
+
+00:02:41.839 --> 00:02:41.849 
+which tells me which program it is or
+
+00:02:41.849 --> 00:02:44.660 
+which tells me which program it is or
+every<00:02:42.810> time<00:02:42.989> I<00:02:43.019> switch<00:02:43.290> programs<00:02:43.829> on<00:02:43.980> my<00:02:44.069> CPU<00:02:44.489> I
+
+00:02:44.660 --> 00:02:44.670 
+every time I switch programs on my CPU I
+
+00:02:44.670 --> 00:02:46.430 
+every time I switch programs on my CPU I
+can<00:02:45.090> flush<00:02:45.450> out<00:02:45.659> all<00:02:45.840> the<00:02:45.989> data<00:02:46.109> from<00:02:46.349> the
+
+00:02:46.430 --> 00:02:46.440 
+can flush out all the data from the
+
+00:02:46.440 --> 00:02:49.009 
+can flush out all the data from the
+cache<00:02:46.680> so<00:02:47.430> you<00:02:47.519> can<00:02:47.730> make<00:02:47.940> this<00:02:48.090> work<00:02:48.359> and<00:02:48.599> it
+
+00:02:49.009 --> 00:02:49.019 
+cache so you can make this work and it
+
+00:02:49.019 --> 00:02:50.420 
+cache so you can make this work and it
+will<00:02:49.109> be<00:02:49.170> great<00:02:49.379> if<00:02:49.530> we<00:02:49.560> could<00:02:49.829> make<00:02:50.040> this<00:02:50.190> work
+
+00:02:50.420 --> 00:02:50.430 
+will be great if we could make this work
+
+00:02:50.430 --> 00:02:51.949 
+will be great if we could make this work
+because<00:02:50.760> this<00:02:50.849> is<00:02:50.940> a<00:02:51.000> lot<00:02:51.180> faster<00:02:51.750> I<00:02:51.780> don't
+
+00:02:51.949 --> 00:02:51.959 
+because this is a lot faster I don't
+
+00:02:51.959 --> 00:02:53.960 
+because this is a lot faster I don't
+have<00:02:52.079> to<00:02:52.200> wait<00:02:52.470> for<00:02:52.769> the<00:02:52.859> TLB<00:02:53.340> the<00:02:53.519> way<00:02:53.639> I<00:02:53.670> do<00:02:53.790> in
+
+00:02:53.960 --> 00:02:53.970 
+have to wait for the TLB the way I do in
+
+00:02:53.970 --> 00:02:58.129 
+have to wait for the TLB the way I do in
+the<00:02:54.060> physical<00:02:54.420> cache<00:02:55.609> now<00:02:56.750> can<00:02:57.750> we<00:02:57.840> get<00:02:57.959> the
+
+00:02:58.129 --> 00:02:58.139 
+the physical cache now can we get the
+
+00:02:58.139 --> 00:03:01.220 
+the physical cache now can we get the
+best<00:02:58.319> of<00:02:58.500> both<00:02:58.680> worlds<00:02:59.220> so<00:03:00.120> can<00:03:00.510> we<00:03:00.569> access<00:03:00.780> the
+
+00:03:01.220 --> 00:03:01.230 
+best of both worlds so can we access the
+
+00:03:01.230 --> 00:03:03.140 
+best of both worlds so can we access the
+cache<00:03:01.439> at<00:03:01.650> the<00:03:01.739> same<00:03:01.980> time<00:03:02.250> as<00:03:02.370> the<00:03:02.489> TLB<00:03:02.939> but
+
+00:03:03.140 --> 00:03:03.150 
+cache at the same time as the TLB but
+
+00:03:03.150 --> 00:03:04.849 
+cache at the same time as the TLB but
+still<00:03:03.569> have<00:03:03.810> the<00:03:03.959> protection<00:03:04.439> of<00:03:04.470> the<00:03:04.560> virtual
+
+00:03:04.849 --> 00:03:04.859 
+still have the protection of the virtual
+
+00:03:04.859 --> 00:03:06.740 
+still have the protection of the virtual
+memory<00:03:04.980> so<00:03:05.760> it<00:03:05.849> can<00:03:05.939> go<00:03:06.120> straight<00:03:06.389> to<00:03:06.659> the
+
+00:03:06.740 --> 00:03:06.750 
+memory so it can go straight to the
+
+00:03:06.750 --> 00:03:08.449 
+memory so it can go straight to the
+cache<00:03:06.959> without<00:03:07.290> having<00:03:07.590> to<00:03:07.680> wait<00:03:07.829> for<00:03:08.010> the<00:03:08.099> TLB
+
+00:03:08.449 --> 00:03:08.459 
+cache without having to wait for the TLB
+
+00:03:08.459 --> 00:03:10.509 
+cache without having to wait for the TLB
+but<00:03:08.639> still<00:03:09.000> get<00:03:09.209> virtual<00:03:09.540> memory<00:03:09.720> protection
+
+00:03:10.509 --> 00:03:10.519 
+but still get virtual memory protection
+
+00:03:10.519 --> 00:03:13.099 
+but still get virtual memory protection
+so<00:03:11.519> the<00:03:11.639> idea<00:03:12.000> here<00:03:12.090> is<00:03:12.359> we're<00:03:12.599> going<00:03:12.689> to<00:03:12.750> look
+
+00:03:13.099 --> 00:03:13.109 
+so the idea here is we're going to look
+
+00:03:13.109 --> 00:03:14.420 
+so the idea here is we're going to look
+up<00:03:13.290> the<00:03:13.470> data<00:03:13.680> in<00:03:13.799> the<00:03:13.920> cache<00:03:14.099> with<00:03:14.400> the
+
+00:03:14.420 --> 00:03:14.430 
+up the data in the cache with the
+
+00:03:14.430 --> 00:03:16.640 
+up the data in the cache with the
+virtual<00:03:14.879> address<00:03:15.319> but<00:03:16.319> we're<00:03:16.470> going<00:03:16.590> to
+
+00:03:16.640 --> 00:03:16.650 
+virtual address but we're going to
+
+00:03:16.650 --> 00:03:18.680 
+virtual address but we're going to
+verify<00:03:17.159> the<00:03:17.220> data<00:03:17.459> is<00:03:17.669> right<00:03:17.819> with<00:03:18.000> a<00:03:18.030> physical
+
+00:03:18.680 --> 00:03:18.690 
+verify the data is right with a physical
+
+00:03:18.690 --> 00:03:21.170 
+verify the data is right with a physical
+tag<00:03:18.980> so<00:03:19.980> remember<00:03:20.250> when<00:03:20.340> we<00:03:20.430> look<00:03:20.639> up<00:03:20.819> data<00:03:21.000> in
+
+00:03:21.170 --> 00:03:21.180 
+tag so remember when we look up data in
+
+00:03:21.180 --> 00:03:23.180 
+tag so remember when we look up data in
+the<00:03:21.299> cache<00:03:21.540> we<00:03:21.870> get<00:03:22.019> the<00:03:22.169> tag<00:03:22.440> out<00:03:22.709> and<00:03:22.889> the<00:03:22.949> tag
+
+00:03:23.180 --> 00:03:23.190 
+the cache we get the tag out and the tag
+
+00:03:23.190 --> 00:03:24.559 
+the cache we get the tag out and the tag
+tells<00:03:23.519> us<00:03:23.669> at<00:03:23.879> the<00:03:23.970> right<00:03:24.090> address
+
+00:03:24.559 --> 00:03:24.569 
+tells us at the right address
+
+00:03:24.569 --> 00:03:26.180 
+tells us at the right address
+so<00:03:24.989> we're<00:03:25.109> going<00:03:25.199> to<00:03:25.290> use<00:03:25.379> the<00:03:25.500> tag<00:03:25.799> as<00:03:26.160> a
+
+00:03:26.180 --> 00:03:26.190 
+so we're going to use the tag as a
+
+00:03:26.190 --> 00:03:28.220 
+so we're going to use the tag as a
+physical<00:03:26.760> tag<00:03:27.000> but<00:03:27.660> we're<00:03:27.750> going<00:03:27.870> to<00:03:27.930> look<00:03:28.079> up
+
+00:03:28.220 --> 00:03:28.230 
+physical tag but we're going to look up
+
+00:03:28.230 --> 00:03:31.099 
+physical tag but we're going to look up
+by<00:03:28.410> the<00:03:28.470> virtual<00:03:28.919> address<00:03:29.840> so<00:03:30.840> here's<00:03:31.019> our
+
+00:03:31.099 --> 00:03:31.109 
+by the virtual address so here's our
+
+00:03:31.109 --> 00:03:33.439 
+by the virtual address so here's our
+cache<00:03:31.349> we're<00:03:32.069> going<00:03:32.190> to<00:03:32.250> use<00:03:32.340> a<00:03:32.370> virtual<00:03:32.699> index
+
+00:03:33.439 --> 00:03:33.449 
+cache we're going to use a virtual index
+
+00:03:33.449 --> 00:03:35.659 
+cache we're going to use a virtual index
+so<00:03:33.659> straight<00:03:34.049> from<00:03:34.260> the<00:03:34.379> CPU<00:03:34.799> virtual<00:03:35.340> address
+
+00:03:35.659 --> 00:03:35.669 
+so straight from the CPU virtual address
+
+00:03:35.669 --> 00:03:37.490 
+so straight from the CPU virtual address
+to<00:03:36.030> look<00:03:36.239> in<00:03:36.389> the<00:03:36.510> cache<00:03:36.720> and<00:03:36.930> find<00:03:37.199> the<00:03:37.349> right
+
+00:03:37.490 --> 00:03:37.500 
+to look in the cache and find the right
+
+00:03:37.500 --> 00:03:39.680 
+to look in the cache and find the right
+cache<00:03:37.769> line<00:03:38.090> then<00:03:39.090> we're<00:03:39.269> going<00:03:39.389> to<00:03:39.449> get<00:03:39.599> out
+
+00:03:39.680 --> 00:03:39.690 
+cache line then we're going to get out
+
+00:03:39.690 --> 00:03:41.449 
+cache line then we're going to get out
+the<00:03:39.840> tag<00:03:40.139> for<00:03:40.440> that<00:03:40.500> cache<00:03:40.799> line<00:03:41.010> but<00:03:41.129> the<00:03:41.220> tag
+
+00:03:41.449 --> 00:03:41.459 
+the tag for that cache line but the tag
+
+00:03:41.459 --> 00:03:44.030 
+the tag for that cache line but the tag
+is<00:03:41.639> going<00:03:41.790> to<00:03:41.849> be<00:03:41.909> a<00:03:41.940> physical<00:03:42.180> address<00:03:42.919> so<00:03:43.919> in
+
+00:03:44.030 --> 00:03:44.040 
+is going to be a physical address so in
+
+00:03:44.040 --> 00:03:45.469 
+is going to be a physical address so in
+order<00:03:44.190> to<00:03:44.340> see<00:03:44.579> if<00:03:44.699> this<00:03:44.819> is<00:03:44.879> the<00:03:45.060> right<00:03:45.209> data
+
+00:03:45.469 --> 00:03:45.479 
+order to see if this is the right data
+
+00:03:45.479 --> 00:03:46.909 
+order to see if this is the right data
+we're<00:03:45.659> going<00:03:45.780> to<00:03:45.840> take<00:03:46.019> that<00:03:46.199> physical<00:03:46.680> tag
+
+00:03:46.909 --> 00:03:46.919 
+we're going to take that physical tag
+
+00:03:46.919 --> 00:03:48.589 
+we're going to take that physical tag
+we're<00:03:47.459> going<00:03:47.579> to<00:03:47.669> take<00:03:47.790> the<00:03:47.909> physical<00:03:48.449> address
+
+00:03:48.589 --> 00:03:48.599 
+we're going to take the physical address
+
+00:03:48.599 --> 00:03:51.080 
+we're going to take the physical address
+from<00:03:49.199> the<00:03:49.440> TLB<00:03:49.919> and<00:03:50.129> we're<00:03:50.489> going<00:03:50.609> to<00:03:50.669> compare
+
+00:03:51.080 --> 00:03:51.090 
+from the TLB and we're going to compare
+
+00:03:51.090 --> 00:03:53.390 
+from the TLB and we're going to compare
+them<00:03:51.239> to<00:03:51.389> see<00:03:51.540> if<00:03:51.629> we<00:03:51.750> have<00:03:51.840> a<00:03:51.870> hit<00:03:52.049> or<00:03:52.169> miss<00:03:52.400> so
+
+00:03:53.390 --> 00:03:53.400 
+them to see if we have a hit or miss so
+
+00:03:53.400 --> 00:03:54.979 
+them to see if we have a hit or miss so
+the<00:03:53.489> benefit<00:03:53.909> of<00:03:53.940> this<00:03:54.090> is<00:03:54.329> I<00:03:54.419> can<00:03:54.599> start
+
+00:03:54.979 --> 00:03:54.989 
+the benefit of this is I can start
+
+00:03:54.989 --> 00:03:56.719 
+the benefit of this is I can start
+looking<00:03:55.229> in<00:03:55.440> the<00:03:55.530> cache<00:03:55.709> right<00:03:56.099> away<00:03:56.400> with<00:03:56.609> the
+
+00:03:56.719 --> 00:03:56.729 
+looking in the cache right away with the
+
+00:03:56.729 --> 00:03:59.360 
+looking in the cache right away with the
+virtual<00:03:57.209> address<00:03:57.470> from<00:03:58.470> the<00:03:58.590> processor<00:03:59.220> and
+
+00:03:59.360 --> 00:03:59.370 
+virtual address from the processor and
+
+00:03:59.370 --> 00:04:01.460 
+virtual address from the processor and
+at<00:03:59.940> the<00:04:00.030> same<00:04:00.269> time<00:04:00.540> I<00:04:00.569> can<00:04:00.840> go<00:04:00.959> start<00:04:01.169> doing
+
+00:04:01.460 --> 00:04:01.470 
+at the same time I can go start doing
+
+00:04:01.470 --> 00:04:03.170 
+at the same time I can go start doing
+the<00:04:01.560> translation<00:04:02.280> so<00:04:02.639> that<00:04:02.699> when<00:04:02.849> I'm<00:04:02.940> done
+
+00:04:03.170 --> 00:04:03.180 
+the translation so that when I'm done
+
+00:04:03.180 --> 00:04:04.939 
+the translation so that when I'm done
+looking<00:04:03.569> in<00:04:03.659> the<00:04:03.750> cache<00:04:03.959> I<00:04:04.260> have<00:04:04.739> the
+
+00:04:04.939 --> 00:04:04.949 
+looking in the cache I have the
+
+00:04:04.949 --> 00:04:06.409 
+looking in the cache I have the
+translation<00:04:05.609> and<00:04:05.729> you<00:04:05.819> can<00:04:05.909> see<00:04:06.060> if<00:04:06.180> there's<00:04:06.359> a
+
+00:04:06.409 --> 00:04:06.419 
+translation and you can see if there's a
+
+00:04:06.419 --> 00:04:09.830 
+translation and you can see if there's a
+hit<00:04:06.569> or<00:04:06.690> miss<00:04:06.720> so<00:04:07.790> this<00:04:08.790> is<00:04:08.940> called<00:04:09.120> a<00:04:09.209> VIP<00:04:09.569> or
+
+00:04:09.830 --> 00:04:09.840 
+hit or miss so this is called a VIP or
+
+00:04:09.840 --> 00:04:12.110 
+hit or miss so this is called a VIP or
+virtually<00:04:10.769> indexed<00:04:11.099> physically<00:04:11.879> tagged
+
+00:04:12.110 --> 00:04:12.120 
+virtually indexed physically tagged
+
+00:04:12.120 --> 00:04:14.270 
+virtually indexed physically tagged
+cache<00:04:12.389> and<00:04:12.690> this<00:04:13.049> is<00:04:13.199> the<00:04:13.290> most<00:04:13.440> common<00:04:14.010> sort
+
+00:04:14.270 --> 00:04:14.280 
+cache and this is the most common sort
+
+00:04:14.280 --> 00:04:16.189 
+cache and this is the most common sort
+of<00:04:14.340> level<00:04:14.729> 1<00:04:14.879> cache<00:04:15.150> used<00:04:15.510> in<00:04:15.629> processors
+
+00:04:16.189 --> 00:04:16.199 
+of level 1 cache used in processors
+
+00:04:16.199 --> 00:04:18.920 
+of level 1 cache used in processors
+today<00:04:16.609> so<00:04:17.609> the<00:04:17.699> key<00:04:17.880> here<00:04:17.909> is<00:04:18.180> the<00:04:18.539> data<00:04:18.780> is
+
+00:04:18.920 --> 00:04:18.930 
+today so the key here is the data is
+
+00:04:18.930 --> 00:04:21.319 
+today so the key here is the data is
+indexed<00:04:19.590> by<00:04:19.650> the<00:04:19.709> virtual<00:04:20.130> address<00:04:20.280> so<00:04:21.090> we<00:04:21.180> can
+
+00:04:21.319 --> 00:04:21.329 
+indexed by the virtual address so we can
+
+00:04:21.329 --> 00:04:23.000 
+indexed by the virtual address so we can
+right<00:04:21.630> away<00:04:21.840> start<00:04:22.229> looking<00:04:22.529> into<00:04:22.680> the<00:04:22.830> cache
+
+00:04:23.000 --> 00:04:23.010 
+right away start looking into the cache
+
+00:04:23.010 --> 00:04:25.219 
+right away start looking into the cache
+but<00:04:23.760> it's<00:04:23.909> tagged<00:04:24.300> by<00:04:24.539> the<00:04:24.570> physical<00:04:25.110> address
+
+00:04:25.219 --> 00:04:25.229 
+but it's tagged by the physical address
+
+00:04:25.229 --> 00:04:27.020 
+but it's tagged by the physical address
+so<00:04:26.039> we<00:04:26.159> can<00:04:26.279> look<00:04:26.490> at<00:04:26.669> the<00:04:26.760> tea
+
+00:04:27.020 --> 00:04:27.030 
+so we can look at the tea
+
+00:04:27.030 --> 00:04:28.879 
+so we can look at the tea
+be<00:04:27.180> in<00:04:27.300> parallel<00:04:27.780> we're<00:04:27.990> done<00:04:28.260> with<00:04:28.410> the<00:04:28.500> TLB
+
+00:04:28.879 --> 00:04:28.889 
+be in parallel we're done with the TLB
+
+00:04:28.889 --> 00:04:31.040 
+be in parallel we're done with the TLB
+we<00:04:29.040> can<00:04:29.190> see<00:04:29.340> if<00:04:29.430> we<00:04:29.550> get<00:04:29.760> it<00:04:29.880> but<00:04:30.389> because<00:04:30.540> it's
+
+00:04:31.040 --> 00:04:31.050 
+we can see if we get it but because it's
+
+00:04:31.050 --> 00:04:32.990 
+we can see if we get it but because it's
+tagged<00:04:31.350> by<00:04:31.530> the<00:04:31.560> physical<00:04:31.980> address<00:04:32.130> we<00:04:32.820> get
+
+00:04:32.990 --> 00:04:33.000 
+tagged by the physical address we get
+
+00:04:33.000 --> 00:04:35.570 
+tagged by the physical address we get
+all<00:04:33.120> the<00:04:33.240> protections<00:04:33.810> of<00:04:33.900> virtual<00:04:34.260> memory<00:04:34.580> so
+
+00:04:35.570 --> 00:04:35.580 
+all the protections of virtual memory so
+
+00:04:35.580 --> 00:04:37.220 
+all the protections of virtual memory so
+we<00:04:35.700> only<00:04:35.850> get<00:04:36.120> a<00:04:36.150> hit<00:04:36.480> that<00:04:36.840> is<00:04:37.020> we're<00:04:37.139> only
+
+00:04:37.220 --> 00:04:37.230 
+we only get a hit that is we're only
+
+00:04:37.230 --> 00:04:38.930 
+we only get a hit that is we're only
+sure<00:04:37.470> it's<00:04:37.620> the<00:04:37.710> right<00:04:37.830> data<00:04:38.070> if<00:04:38.280> the<00:04:38.639> tag
+
+00:04:38.930 --> 00:04:38.940 
+sure it's the right data if the tag
+
+00:04:38.940 --> 00:04:41.090 
+sure it's the right data if the tag
+matches<00:04:39.330> or<00:04:39.600> the<00:04:39.660> physical<00:04:40.080> address<00:04:40.200> so<00:04:41.070> that
+
+00:04:41.090 --> 00:04:41.100 
+matches or the physical address so that
+
+00:04:41.100 --> 00:04:42.590 
+matches or the physical address so that
+means<00:04:41.490> that<00:04:41.669> we<00:04:41.760> get<00:04:41.970> all<00:04:42.180> these<00:04:42.360> wonderful
+
+00:04:42.590 --> 00:04:42.600 
+means that we get all these wonderful
+
+00:04:42.600 --> 00:04:45.830 
+means that we get all these wonderful
+protections<00:04:44.060> now<00:04:45.060> let's<00:04:45.330> take<00:04:45.480> a<00:04:45.510> look<00:04:45.690> at
+
+00:04:45.830 --> 00:04:45.840 
+protections now let's take a look at
+
+00:04:45.840 --> 00:04:47.720 
+protections now let's take a look at
+this<00:04:45.930> so<00:04:46.590> here's<00:04:46.770> my<00:04:46.889> CPU<00:04:47.340> and<00:04:47.490> it's<00:04:47.580> going<00:04:47.669> to
+
+00:04:47.720 --> 00:04:47.730 
+this so here's my CPU and it's going to
+
+00:04:47.730 --> 00:04:49.790 
+this so here's my CPU and it's going to
+put<00:04:47.970> a<00:04:48.000> virtual<00:04:48.360> address<00:04:48.690> I've<00:04:49.230> got<00:04:49.440> my<00:04:49.560> cache
+
+00:04:49.790 --> 00:04:49.800 
+put a virtual address I've got my cache
+
+00:04:49.800 --> 00:04:51.620 
+put a virtual address I've got my cache
+over<00:04:50.160> here<00:04:50.370> and<00:04:50.520> I<00:04:51.090> want<00:04:51.240> to<00:04:51.300> have<00:04:51.389> a<00:04:51.450> cache
+
+00:04:51.620 --> 00:04:51.630 
+over here and I want to have a cache
+
+00:04:51.630 --> 00:04:54.140 
+over here and I want to have a cache
+return<00:04:51.990> the<00:04:52.110> value<00:04:52.350> as<00:04:52.470> quickly<00:04:52.650> as<00:04:52.860> I<00:04:52.950> can<00:04:53.160> but
+
+00:04:54.140 --> 00:04:54.150 
+return the value as quickly as I can but
+
+00:04:54.150 --> 00:04:55.220 
+return the value as quickly as I can but
+my<00:04:54.270> cache<00:04:54.510> is<00:04:54.660> going<00:04:54.810> to<00:04:54.870> have<00:04:54.990> physical
+
+00:04:55.220 --> 00:04:55.230 
+my cache is going to have physical
+
+00:04:55.230 --> 00:04:57.620 
+my cache is going to have physical
+address<00:04:55.800> tags<00:04:56.100> so<00:04:56.880> that<00:04:56.910> means<00:04:57.210> in<00:04:57.330> order<00:04:57.480> to
+
+00:04:57.620 --> 00:04:57.630 
+address tags so that means in order to
+
+00:04:57.630 --> 00:04:59.870 
+address tags so that means in order to
+know<00:04:57.780> if<00:04:57.810> the<00:04:57.990> data<00:04:58.260> is<00:04:58.440> correct<00:04:58.830> in<00:04:59.070> the<00:04:59.130> Tash
+
+00:04:59.870 --> 00:04:59.880 
+know if the data is correct in the Tash
+
+00:04:59.880 --> 00:05:01.220 
+know if the data is correct in the Tash
+I'm<00:04:59.940> going<00:05:00.360> to<00:05:00.419> get<00:05:00.540> out<00:05:00.660> a<00:05:00.690> physical<00:05:01.140> address
+
+00:05:01.220 --> 00:05:01.230 
+I'm going to get out a physical address
+
+00:05:01.230 --> 00:05:03.950 
+I'm going to get out a physical address
+tag<00:05:01.710> to<00:05:02.190> compare<00:05:02.640> this<00:05:02.820> I<00:05:03.030> need<00:05:03.630> to<00:05:03.660> know<00:05:03.780> the
+
+00:05:03.950 --> 00:05:03.960 
+tag to compare this I need to know the
+
+00:05:03.960 --> 00:05:05.680 
+tag to compare this I need to know the
+physical<00:05:04.410> address<00:05:04.590> I'm<00:05:04.950> trying<00:05:05.190> to<00:05:05.280> look<00:05:05.430> up
+
+00:05:05.680 --> 00:05:05.690 
+physical address I'm trying to look up
+
+00:05:05.690 --> 00:05:08.210 
+physical address I'm trying to look up
+in<00:05:06.690> order<00:05:06.990> to<00:05:07.080> get<00:05:07.200> that<00:05:07.440> I<00:05:07.620> have<00:05:07.800> to<00:05:07.980> use<00:05:08.100> the
+
+00:05:08.210 --> 00:05:08.220 
+in order to get that I have to use the
+
+00:05:08.220 --> 00:05:10.520 
+in order to get that I have to use the
+TLB<00:05:08.700> so<00:05:09.660> now<00:05:09.780> we<00:05:09.840> want<00:05:10.050> to<00:05:10.110> do<00:05:10.169> these<00:05:10.260> two
+
+00:05:10.520 --> 00:05:10.530 
+TLB so now we want to do these two
+
+00:05:10.530 --> 00:05:12.260 
+TLB so now we want to do these two
+things<00:05:10.800> at<00:05:10.919> the<00:05:11.010> same<00:05:11.190> time<00:05:11.250> we<00:05:11.970> want<00:05:12.120> to<00:05:12.180> look
+
+00:05:12.260 --> 00:05:12.270 
+things at the same time we want to look
+
+00:05:12.270 --> 00:05:14.030 
+things at the same time we want to look
+up<00:05:12.450> the<00:05:12.480> TLB<00:05:12.930> and<00:05:13.110> the<00:05:13.350> cache<00:05:13.560> at<00:05:13.740> the<00:05:13.860> same
+
+00:05:14.030 --> 00:05:14.040 
+up the TLB and the cache at the same
+
+00:05:14.040 --> 00:05:18.800 
+up the TLB and the cache at the same
+time<00:05:16.580> so<00:05:17.580> in<00:05:17.700> order<00:05:17.820> to<00:05:18.000> do<00:05:18.120> that<00:05:18.270> we<00:05:18.450> take<00:05:18.630> our
+
+00:05:18.800 --> 00:05:18.810 
+time so in order to do that we take our
+
+00:05:18.810 --> 00:05:20.690 
+time so in order to do that we take our
+page<00:05:19.050> offset<00:05:19.620> and<00:05:19.830> we<00:05:19.979> use<00:05:20.070> the<00:05:20.160> page<00:05:20.400> offset
+
+00:05:20.690 --> 00:05:20.700 
+page offset and we use the page offset
+
+00:05:20.700 --> 00:05:23.000 
+page offset and we use the page offset
+to<00:05:21.060> index<00:05:21.510> into<00:05:21.720> the<00:05:21.900> tags<00:05:22.140> on<00:05:22.380> the<00:05:22.470> cache<00:05:22.680> and
+
+00:05:23.000 --> 00:05:23.010 
+to index into the tags on the cache and
+
+00:05:23.010 --> 00:05:25.820 
+to index into the tags on the cache and
+we<00:05:23.790> use<00:05:23.940> the<00:05:24.060> virtual<00:05:24.240> page<00:05:24.840> in<00:05:25.200> order<00:05:25.590> to<00:05:25.680> look
+
+00:05:25.820 --> 00:05:25.830 
+we use the virtual page in order to look
+
+00:05:25.830 --> 00:05:28.640 
+we use the virtual page in order to look
+in<00:05:25.979> the<00:05:26.040> TLB<00:05:26.780> so<00:05:27.780> now<00:05:27.930> we're<00:05:28.080> using<00:05:28.200> part<00:05:28.560> of
+
+00:05:28.640 --> 00:05:28.650 
+in the TLB so now we're using part of
+
+00:05:28.650 --> 00:05:30.200 
+in the TLB so now we're using part of
+our<00:05:28.770> bits<00:05:28.919> to<00:05:29.100> index<00:05:29.190> the<00:05:29.520> cache<00:05:29.729> right<00:05:29.970> away
+
+00:05:30.200 --> 00:05:30.210 
+our bits to index the cache right away
+
+00:05:30.210 --> 00:05:32.300 
+our bits to index the cache right away
+part<00:05:30.750> of<00:05:30.900> our<00:05:31.050> bits<00:05:31.200> to<00:05:31.320> index<00:05:31.440> the<00:05:31.740> TLB<00:05:32.130> right
+
+00:05:32.300 --> 00:05:32.310 
+part of our bits to index the TLB right
+
+00:05:32.310 --> 00:05:34.610 
+part of our bits to index the TLB right
+away<00:05:32.490> we<00:05:32.940> run<00:05:33.060> the<00:05:33.180> TLB<00:05:33.630> at<00:05:33.750> the<00:05:33.870> same<00:05:34.140> time<00:05:34.440> as
+
+00:05:34.610 --> 00:05:34.620 
+away we run the TLB at the same time as
+
+00:05:34.620 --> 00:05:36.409 
+away we run the TLB at the same time as
+the<00:05:34.710> cache<00:05:34.950> and<00:05:35.310> then<00:05:35.729> we<00:05:35.820> compare<00:05:36.210> them<00:05:36.360> at
+
+00:05:36.409 --> 00:05:36.419 
+the cache and then we compare them at
+
+00:05:36.419 --> 00:05:39.050 
+the cache and then we compare them at
+the<00:05:36.510> end<00:05:36.660> here<00:05:36.900> so<00:05:37.080> this<00:05:37.890> is<00:05:38.040> great<00:05:38.280> now<00:05:38.820> we've
+
+00:05:39.050 --> 00:05:39.060 
+the end here so this is great now we've
+
+00:05:39.060 --> 00:05:40.730 
+the end here so this is great now we've
+gone<00:05:39.240> and<00:05:39.510> we're<00:05:39.690> comparing<00:05:40.110> based<00:05:40.470> on<00:05:40.650> the
+
+00:05:40.730 --> 00:05:40.740 
+gone and we're comparing based on the
+
+00:05:40.740 --> 00:05:42.500 
+gone and we're comparing based on the
+physical<00:05:41.160> address<00:05:41.610> so<00:05:41.910> we're<00:05:42.030> guaranteed<00:05:42.390> to
+
+00:05:42.500 --> 00:05:42.510 
+physical address so we're guaranteed to
+
+00:05:42.510 --> 00:05:44.480 
+physical address so we're guaranteed to
+get<00:05:42.630> all<00:05:42.780> the<00:05:42.930> protections<00:05:43.410> of<00:05:43.470> the<00:05:43.560> TLB<00:05:43.979> but
+
+00:05:44.480 --> 00:05:44.490 
+get all the protections of the TLB but
+
+00:05:44.490 --> 00:05:47.029 
+get all the protections of the TLB but
+we're<00:05:44.610> looking<00:05:45.060> up<00:05:45.210> very<00:05:45.840> quickly<00:05:46.260> based<00:05:46.770> on
+
+00:05:47.029 --> 00:05:47.039 
+we're looking up very quickly based on
+
+00:05:47.039 --> 00:05:48.560 
+we're looking up very quickly based on
+the<00:05:47.130> offset<00:05:47.610> here<00:05:47.789> which<00:05:47.910> is<00:05:48.030> the<00:05:48.120> same<00:05:48.360> for
+
+00:05:48.560 --> 00:05:48.570 
+the offset here which is the same for
+
+00:05:48.570 --> 00:05:50.810 
+the offset here which is the same for
+the<00:05:48.630> physical<00:05:49.080> and<00:05:49.200> the<00:05:49.289> virtual<00:05:49.620> address<00:05:50.220> so
+
+00:05:50.810 --> 00:05:50.820 
+the physical and the virtual address so
+
+00:05:50.820 --> 00:05:52.550 
+the physical and the virtual address so
+we<00:05:50.940> don't<00:05:51.120> have<00:05:51.300> to<00:05:51.450> wait<00:05:51.690> for<00:05:51.930> the<00:05:52.020> TLB<00:05:52.410> to
+
+00:05:52.550 --> 00:05:52.560 
+we don't have to wait for the TLB to
+
+00:05:52.560 --> 00:05:55.969 
+we don't have to wait for the TLB to
+start<00:05:52.890> looking<00:05:53.250> in<00:05:53.370> the<00:05:53.460> cache<00:05:54.260> so<00:05:55.260> in<00:05:55.500> a<00:05:55.800> VIP
+
+00:05:55.969 --> 00:05:55.979 
+start looking in the cache so in a VIP
+
+00:05:55.979 --> 00:05:58.340 
+start looking in the cache so in a VIP
+cache<00:05:56.310> we're<00:05:56.880> doing<00:05:57.090> a<00:05:57.180> TLB<00:05:57.479> translation<00:05:58.229> and
+
+00:05:58.340 --> 00:05:58.350 
+cache we're doing a TLB translation and
+
+00:05:58.350 --> 00:06:00.469 
+cache we're doing a TLB translation and
+cache<00:05:58.560> look<00:05:58.830> up<00:05:58.950> at<00:05:59.100> the<00:05:59.190> same<00:05:59.400> time<00:05:59.669> TLB<00:06:00.330> at
+
+00:06:00.469 --> 00:06:00.479 
+cache look up at the same time TLB at
+
+00:06:00.479 --> 00:06:02.930 
+cache look up at the same time TLB at
+the<00:06:00.600> same<00:06:00.840> time<00:06:01.080> we<00:06:01.169> do<00:06:01.289> the<00:06:01.380> cache<00:06:01.669> we<00:06:02.669> use<00:06:02.789> the
+
+00:06:02.930 --> 00:06:02.940 
+the same time we do the cache we use the
+
+00:06:02.940 --> 00:06:05.270 
+the same time we do the cache we use the
+virtual<00:06:03.120> page<00:06:03.690> to<00:06:04.050> do<00:06:04.140> the<00:06:04.260> TLB<00:06:04.680> and<00:06:04.830> lookup
+
+00:06:05.270 --> 00:06:05.280 
+virtual page to do the TLB and lookup
+
+00:06:05.280 --> 00:06:07.790 
+virtual page to do the TLB and lookup
+and<00:06:05.430> we<00:06:06.030> use<00:06:06.180> the<00:06:06.330> page<00:06:06.510> offset<00:06:06.780> bits<00:06:07.320> to<00:06:07.650> look
+
+00:06:07.790 --> 00:06:07.800 
+and we use the page offset bits to look
+
+00:06:07.800 --> 00:06:10.610 
+and we use the page offset bits to look
+into<00:06:08.039> the<00:06:08.130> cache<00:06:08.780> so<00:06:09.780> the<00:06:09.870> TLB<00:06:10.289> is<00:06:10.410> going<00:06:10.560> to
+
+00:06:10.610 --> 00:06:10.620 
+into the cache so the TLB is going to
+
+00:06:10.620 --> 00:06:11.990 
+into the cache so the TLB is going to
+give<00:06:10.710> us<00:06:10.800> the<00:06:10.919> physical<00:06:11.310> page<00:06:11.520> and<00:06:11.729> the<00:06:11.789> cache
+
+00:06:11.990 --> 00:06:12.000 
+give us the physical page and the cache
+
+00:06:12.000 --> 00:06:14.120 
+give us the physical page and the cache
+is<00:06:12.210> giving<00:06:12.450> us<00:06:12.570> a<00:06:12.660> physical<00:06:12.810> tag<00:06:13.229> and<00:06:13.500> then<00:06:14.039> we
+
+00:06:14.120 --> 00:06:14.130 
+is giving us a physical tag and then we
+
+00:06:14.130 --> 00:06:15.680 
+is giving us a physical tag and then we
+just<00:06:14.280> compare<00:06:14.610> them<00:06:14.760> at<00:06:14.880> the<00:06:14.970> end<00:06:15.120> and<00:06:15.240> we're
+
+00:06:15.680 --> 00:06:15.690 
+just compare them at the end and we're
+
+00:06:15.690 --> 00:06:17.510 
+just compare them at the end and we're
+doing<00:06:15.870> a<00:06:15.960> physical<00:06:16.260> address<00:06:16.710> comparison
+
+00:06:17.510 --> 00:06:17.520 
+doing a physical address comparison
+
+00:06:17.520 --> 00:06:19.100 
+doing a physical address comparison
+which<00:06:17.910> means<00:06:18.120> we<00:06:18.240> get<00:06:18.330> all<00:06:18.479> the<00:06:18.660> benefits<00:06:19.050> of
+
+00:06:19.100 --> 00:06:19.110 
+which means we get all the benefits of
+
+00:06:19.110 --> 00:06:21.980 
+which means we get all the benefits of
+the<00:06:19.229> TLB<00:06:19.620> if<00:06:19.830> it<00:06:20.550> turns<00:06:20.850> out<00:06:21.060> that<00:06:21.210> the<00:06:21.360> virtual
+
+00:06:21.980 --> 00:06:21.990 
+the TLB if it turns out that the virtual
+
+00:06:21.990 --> 00:06:24.140 
+the TLB if it turns out that the virtual
+in<00:06:22.200> the<00:06:22.530> virtual<00:06:22.979> address<00:06:23.100> the<00:06:23.550> offset<00:06:23.970> here
+
+00:06:24.140 --> 00:06:24.150 
+in the virtual address the offset here
+
+00:06:24.150 --> 00:06:25.340 
+in the virtual address the offset here
+we<00:06:24.240> use<00:06:24.330> to<00:06:24.479> look<00:06:24.600> it<00:06:24.750> up<00:06:24.810> is<00:06:24.960> for<00:06:25.140> another
+
+00:06:25.340 --> 00:06:25.350 
+we use to look it up is for another
+
+00:06:25.350 --> 00:06:27.529 
+we use to look it up is for another
+program<00:06:25.919> then<00:06:26.370> the<00:06:26.520> physical<00:06:26.850> tags<00:06:27.180> won't
+
+00:06:27.529 --> 00:06:27.539 
+program then the physical tags won't
+
+00:06:27.539 --> 00:06:30.710 
+program then the physical tags won't
+match<00:06:27.810> and<00:06:28.140> we'll<00:06:28.530> say<00:06:28.680> it's<00:06:28.830> a<00:06:28.919> Miss<00:06:29.570> so<00:06:30.570> this
+
+00:06:30.710 --> 00:06:30.720 
+match and we'll say it's a Miss so this
+
+00:06:30.720 --> 00:06:32.719 
+match and we'll say it's a Miss so this
+has<00:06:30.870> the<00:06:30.990> benefits<00:06:31.380> you<00:06:31.470> want<00:06:31.620> this<00:06:32.130> is<00:06:32.340> fast
+
+00:06:32.719 --> 00:06:32.729 
+has the benefits you want this is fast
+
+00:06:32.729 --> 00:06:35.450 
+has the benefits you want this is fast
+we<00:06:33.360> don't<00:06:33.539> have<00:06:33.780> to<00:06:33.960> wait<00:06:34.229> for<00:06:34.530> the<00:06:34.590> TLB<00:06:35.039> before
+
+00:06:35.450 --> 00:06:35.460 
+we don't have to wait for the TLB before
+
+00:06:35.460 --> 00:06:37.100 
+we don't have to wait for the TLB before
+we<00:06:35.610> look<00:06:35.789> in<00:06:35.909> the<00:06:36.000> cache<00:06:36.180> we<00:06:36.450> can<00:06:36.750> look<00:06:36.900> in<00:06:37.020> the
+
+00:06:37.100 --> 00:06:37.110 
+we look in the cache we can look in the
+
+00:06:37.110 --> 00:06:39.170 
+we look in the cache we can look in the
+cache<00:06:37.289> right<00:06:37.530> away<00:06:37.770> and<00:06:37.979> look<00:06:38.490> in<00:06:38.610> the<00:06:38.640> TLB<00:06:38.970> at
+
+00:06:39.170 --> 00:06:39.180 
+cache right away and look in the TLB at
+
+00:06:39.180 --> 00:06:40.129 
+cache right away and look in the TLB at
+the<00:06:39.300> same<00:06:39.479> time
+
+00:06:40.129 --> 00:06:40.139 
+the same time
+
+00:06:40.139 --> 00:06:42.649 
+the same time
+we<00:06:40.289> get<00:06:40.409> a<00:06:40.439> hit<00:06:40.650> but<00:06:41.310> it's<00:06:41.430> also<00:06:41.580> safe<00:06:42.030> because
+
+00:06:42.649 --> 00:06:42.659 
+we get a hit but it's also safe because
+
+00:06:42.659 --> 00:06:45.110 
+we get a hit but it's also safe because
+we<00:06:42.810> compare<00:06:43.229> the<00:06:43.379> physical<00:06:43.800> address<00:06:43.919> tags<00:06:44.490> so
+
+00:06:45.110 --> 00:06:45.120 
+we compare the physical address tags so
+
+00:06:45.120 --> 00:06:46.670 
+we compare the physical address tags so
+we're<00:06:45.270> all<00:06:45.419> guaranteed<00:06:45.810> to<00:06:45.990> only<00:06:46.169> get<00:06:46.409> a<00:06:46.469> hit
+
+00:06:46.670 --> 00:06:46.680 
+we're all guaranteed to only get a hit
+
+00:06:46.680 --> 00:06:47.929 
+we're all guaranteed to only get a hit
+if<00:06:46.830> it's<00:06:46.979> really<00:06:47.280> the<00:06:47.400> right<00:06:47.610> physical
+
+00:06:47.929 --> 00:06:47.939 
+if it's really the right physical
+
+00:06:47.939 --> 00:06:50.989 
+if it's really the right physical
+address<00:06:48.479> for<00:06:48.509> our<00:06:48.689> program<00:06:49.550> now<00:06:50.550> there's<00:06:50.939> a
+
+00:06:50.989 --> 00:06:50.999 
+address for our program now there's a
+
+00:06:50.999 --> 00:06:52.969 
+address for our program now there's a
+caveat<00:06:51.210> here<00:06:51.719> if<00:06:51.870> you<00:06:52.529> look<00:06:52.710> at<00:06:52.830> what's
+
+00:06:52.969 --> 00:06:52.979 
+caveat here if you look at what's
+
+00:06:52.979 --> 00:06:55.670 
+caveat here if you look at what's
+happening<00:06:53.400> here<00:06:53.639> I<00:06:53.759> only<00:06:54.330> can<00:06:54.689> I<00:06:54.870> can<00:06:55.050> only<00:06:55.319> use
+
+00:06:55.670 --> 00:06:55.680 
+happening here I only can I can only use
+
+00:06:55.680 --> 00:06:58.610 
+happening here I only can I can only use
+bits<00:06:56.039> that<00:06:56.550> aren't<00:06:56.849> part<00:06:57.449> of<00:06:57.629> my<00:06:57.810> virtual<00:06:58.289> page
+
+00:06:58.610 --> 00:06:58.620 
+bits that aren't part of my virtual page
+
+00:06:58.620 --> 00:07:01.010 
+bits that aren't part of my virtual page
+in<00:06:58.889> order<00:06:59.340> to<00:06:59.460> look<00:06:59.610> into<00:06:59.879> the<00:06:59.969> cache<00:07:00.180> here<00:07:00.479> so
+
+00:07:01.010 --> 00:07:01.020 
+in order to look into the cache here so
+
+00:07:01.020 --> 00:07:02.809 
+in order to look into the cache here so
+I<00:07:01.050> can't<00:07:01.349> make<00:07:01.469> my<00:07:01.620> cache<00:07:01.860> infinitely<00:07:02.550> big
+
+00:07:02.809 --> 00:07:02.819 
+I can't make my cache infinitely big
+
+00:07:02.819 --> 00:07:04.700 
+I can't make my cache infinitely big
+because<00:07:03.479> I<00:07:03.569> can<00:07:03.719> only<00:07:03.870> have<00:07:04.050> a<00:07:04.080> certain<00:07:04.409> number
+
+00:07:04.700 --> 00:07:04.710 
+because I can only have a certain number
+
+00:07:04.710 --> 00:07:07.670 
+because I can only have a certain number
+of<00:07:04.860> bits<00:07:05.099> to<00:07:05.219> index<00:07:05.400> into<00:07:05.999> it<00:07:06.120> here<00:07:06.680> however
+
+00:07:07.670 --> 00:07:07.680 
+of bits to index into it here however
+
+00:07:07.680 --> 00:07:09.890 
+of bits to index into it here however
+despite<00:07:08.099> that<00:07:08.279> most<00:07:08.849> processors<00:07:09.539> use<00:07:09.749> this
+
+00:07:09.890 --> 00:07:09.900 
+despite that most processors use this
+
+00:07:09.900 --> 00:07:11.570 
+despite that most processors use this
+today<00:07:10.169> so<00:07:10.229> this<00:07:10.469> is<00:07:10.529> the<00:07:10.650> most<00:07:10.800> common<00:07:11.249> sort<00:07:11.490> of
+
+00:07:11.570 --> 00:07:11.580 
+today so this is the most common sort of
+
+00:07:11.580 --> 00:07:13.369 
+today so this is the most common sort of
+level<00:07:11.879> 1<00:07:12.060> cache<00:07:12.330> used<00:07:12.599> in<00:07:12.750> processors<00:07:13.259> today
+
+00:07:13.369 --> 00:07:13.379 
+level 1 cache used in processors today
+
+00:07:13.379 --> 00:07:15.709 
+level 1 cache used in processors today
+so<00:07:14.370> let's<00:07:14.610> take<00:07:14.759> a<00:07:14.789> look<00:07:15.060> at<00:07:15.180> this<00:07:15.330> limit<00:07:15.539> a
+
+00:07:15.709 --> 00:07:15.719 
+so let's take a look at this limit a
+
+00:07:15.719 --> 00:07:19.129 
+so let's take a look at this limit a
+little<00:07:15.750> bit<00:07:16.050> more<00:07:16.400> so<00:07:17.400> if<00:07:17.699> I<00:07:18.150> have<00:07:18.360> 4<00:07:18.659> kilobyte
+
+00:07:19.129 --> 00:07:19.139 
+little bit more so if I have 4 kilobyte
+
+00:07:19.139 --> 00:07:21.769 
+little bit more so if I have 4 kilobyte
+pages<00:07:19.620> how<00:07:20.310> many<00:07:20.520> bytes<00:07:20.819> can<00:07:20.969> a<00:07:21.150> direct<00:07:21.539> map
+
+00:07:21.769 --> 00:07:21.779 
+pages how many bytes can a direct map
+
+00:07:21.779 --> 00:07:27.350 
+pages how many bytes can a direct map
+that<00:07:22.020> is<00:07:22.110> one<00:07:22.439> way<00:07:22.680> whipped<00:07:23.219> cache<00:07:23.610> store<00:07:26.360> well
+
+00:07:27.350 --> 00:07:27.360 
+that is one way whipped cache store well
+
+00:07:27.360 --> 00:07:29.809 
+that is one way whipped cache store well
+it<00:07:27.539> can<00:07:27.659> only<00:07:27.779> store<00:07:28.110> four<00:07:28.469> kilobyte<00:07:28.949> now<00:07:29.639> if<00:07:29.729> I
+
+00:07:29.809 --> 00:07:29.819 
+it can only store four kilobyte now if I
+
+00:07:29.819 --> 00:07:31.369 
+it can only store four kilobyte now if I
+have<00:07:29.909> four<00:07:30.090> kilobyte<00:07:30.479> pages<00:07:30.960> that<00:07:31.110> means<00:07:31.259> I
+
+00:07:31.369 --> 00:07:31.379 
+have four kilobyte pages that means I
+
+00:07:31.379 --> 00:07:33.529 
+have four kilobyte pages that means I
+have<00:07:31.529> 12<00:07:31.919> bits<00:07:32.279> for<00:07:32.520> this<00:07:32.610> page<00:07:32.819> offsets<00:07:33.330> only
+
+00:07:33.529 --> 00:07:33.539 
+have 12 bits for this page offsets only
+
+00:07:33.539 --> 00:07:35.209 
+have 12 bits for this page offsets only
+have<00:07:33.629> 12<00:07:33.900> bits<00:07:34.139> that<00:07:34.319> I<00:07:34.349> can<00:07:34.589> use<00:07:34.740> to<00:07:34.889> index
+
+00:07:35.209 --> 00:07:35.219 
+have 12 bits that I can use to index
+
+00:07:35.219 --> 00:07:37.670 
+have 12 bits that I can use to index
+into<00:07:35.460> my<00:07:35.580> cache<00:07:35.900> so<00:07:36.900> I<00:07:36.930> only<00:07:37.169> store<00:07:37.469> four
+
+00:07:37.670 --> 00:07:37.680 
+into my cache so I only store four
+
+00:07:37.680 --> 00:07:40.249 
+into my cache so I only store four
+kilobytes<00:07:38.099> of<00:07:38.249> data<00:07:38.279> that's<00:07:39.089> not<00:07:39.719> very<00:07:40.020> good
+
+00:07:40.249 --> 00:07:40.259 
+kilobytes of data that's not very good
+
+00:07:40.259 --> 00:07:42.890 
+kilobytes of data that's not very good
+but<00:07:41.159> if<00:07:41.430> we<00:07:41.729> increase<00:07:42.029> the<00:07:42.210> associativity<00:07:42.389> we
+
+00:07:42.890 --> 00:07:42.900 
+but if we increase the associativity we
+
+00:07:42.900 --> 00:07:44.480 
+but if we increase the associativity we
+can<00:07:43.020> do<00:07:43.110> better<00:07:43.319> so<00:07:43.589> if<00:07:44.069> I<00:07:44.129> make<00:07:44.279> it<00:07:44.310> an
+
+00:07:44.480 --> 00:07:44.490 
+can do better so if I make it an
+
+00:07:44.490 --> 00:07:46.459 
+can do better so if I make it an
+eight-way<00:07:45.029> cache<00:07:45.330> then<00:07:45.930> I<00:07:46.020> can<00:07:46.169> have<00:07:46.229> eight
+
+00:07:46.459 --> 00:07:46.469 
+eight-way cache then I can have eight
+
+00:07:46.469 --> 00:07:48.469 
+eight-way cache then I can have eight
+times<00:07:46.770> as<00:07:46.919> much<00:07:47.069> data<00:07:47.400> so<00:07:47.729> I<00:07:47.759> could<00:07:47.909> have<00:07:48.000> 32
+
+00:07:48.469 --> 00:07:48.479 
+times as much data so I could have 32
+
+00:07:48.479 --> 00:07:50.719 
+times as much data so I could have 32
+kilobytes<00:07:48.960> and<00:07:49.139> that's<00:07:49.740> because<00:07:50.069> each<00:07:50.250> way<00:07:50.580> is
+
+00:07:50.719 --> 00:07:50.729 
+kilobytes and that's because each way is
+
+00:07:50.729 --> 00:07:52.339 
+kilobytes and that's because each way is
+using<00:07:50.909> the<00:07:51.089> same<00:07:51.270> index<00:07:51.810> we<00:07:52.050> just<00:07:52.229> have
+
+00:07:52.339 --> 00:07:52.349 
+using the same index we just have
+
+00:07:52.349 --> 00:07:54.379 
+using the same index we just have
+different<00:07:52.560> tags<00:07:52.949> for<00:07:53.250> them<00:07:53.400> so<00:07:54.060> this<00:07:54.240> is<00:07:54.300> a
+
+00:07:54.379 --> 00:07:54.389 
+different tags for them so this is a
+
+00:07:54.389 --> 00:07:56.119 
+different tags for them so this is a
+real<00:07:54.569> limitation<00:07:54.960> of<00:07:55.259> it<00:07:55.439> and<00:07:55.680> this<00:07:55.740> is<00:07:55.889> one<00:07:56.039> of
+
+00:07:56.119 --> 00:07:56.129 
+real limitation of it and this is one of
+
+00:07:56.129 --> 00:07:57.409 
+real limitation of it and this is one of
+the<00:07:56.189> reasons<00:07:56.460> you<00:07:56.550> don't<00:07:56.729> see<00:07:56.879> very<00:07:56.909> large
+
+00:07:57.409 --> 00:07:57.419 
+the reasons you don't see very large
+
+00:07:57.419 --> 00:08:00.379 
+the reasons you don't see very large
+level<00:07:57.779> one<00:07:58.080> caches
+
