@@ -1,0 +1,630 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:12.469 --> 00:00:14.959 
+
+hey<00:00:13.469> guys<00:00:13.679> I'm<00:00:13.980> at<00:00:14.160> from<00:00:14.309> model<00:00:14.519> flat<00:00:14.700> and
+
+00:00:14.959 --> 00:00:14.969 
+hey guys I'm at from model flat and
+
+00:00:14.969 --> 00:00:16.070 
+hey guys I'm at from model flat and
+today<00:00:15.120> we're<00:00:15.240> gonna<00:00:15.330> do<00:00:15.480> a<00:00:15.509> little<00:00:15.660> tutorial
+
+00:00:16.070 --> 00:00:16.080 
+today we're gonna do a little tutorial
+
+00:00:16.080 --> 00:00:18.529 
+today we're gonna do a little tutorial
+on<00:00:16.470> how<00:00:16.680> to<00:00:16.710> use<00:00:16.859> the<00:00:17.160> RX<00:00:17.550> 2<00:00:17.850> sim<00:00:18.119> with<00:00:18.449> the
+
+00:00:18.529 --> 00:00:18.539 
+on how to use the RX 2 sim with the
+
+00:00:18.539 --> 00:00:21.439 
+on how to use the RX 2 sim with the
+Phoenix<00:00:18.900> flight<00:00:18.990> simulator<00:00:20.060> okay<00:00:21.060> so<00:00:21.119> here<00:00:21.420> we
+
+00:00:21.439 --> 00:00:21.449 
+Phoenix flight simulator okay so here we
+
+00:00:21.449 --> 00:00:24.230 
+Phoenix flight simulator okay so here we
+have<00:00:21.539> the<00:00:21.750> RX<00:00:22.080> 2<00:00:22.260> sim<00:00:22.470> module<00:00:23.150> included<00:00:24.150> with
+
+00:00:24.230 --> 00:00:24.240 
+have the RX 2 sim module included with
+
+00:00:24.240 --> 00:00:25.519 
+have the RX 2 sim module included with
+the<00:00:24.330> package<00:00:24.480> you'll<00:00:24.900> also<00:00:25.019> receive<00:00:25.320> some
+
+00:00:25.519 --> 00:00:25.529 
+the package you'll also receive some
+
+00:00:25.529 --> 00:00:29.120 
+the package you'll also receive some
+adapter<00:00:26.099> leads<00:00:26.310> so<00:00:26.760> we've<00:00:26.910> got<00:00:27.060> a<00:00:27.090> 7<00:00:27.779> pin<00:00:28.130> sort
+
+00:00:29.120 --> 00:00:29.130 
+adapter leads so we've got a 7 pin sort
+
+00:00:29.130 --> 00:00:30.380 
+adapter leads so we've got a 7 pin sort
+of<00:00:29.189> parallel<00:00:29.519> connector<00:00:29.820> which<00:00:29.970> uses<00:00:30.300> the
+
+00:00:30.380 --> 00:00:30.390 
+of parallel connector which uses the
+
+00:00:30.390 --> 00:00:32.990 
+of parallel connector which uses the
+signal<00:00:30.750> wires<00:00:30.929> off<00:00:31.140> the<00:00:31.260> receiver<00:00:31.590> and<00:00:32.000> also
+
+00:00:32.990 --> 00:00:33.000 
+signal wires off the receiver and also
+
+00:00:33.000 --> 00:00:34.639 
+signal wires off the receiver and also
+just<00:00:33.510> a<00:00:33.600> normal<00:00:33.870> mouse<00:00:34.050> mouse<00:00:34.320> servo
+
+00:00:34.639 --> 00:00:34.649 
+just a normal mouse mouse servo
+
+00:00:34.649 --> 00:00:36.770 
+just a normal mouse mouse servo
+extension<00:00:35.190> lead<00:00:35.370> and<00:00:35.610> what<00:00:36.270> this<00:00:36.390> does<00:00:36.570> is
+
+00:00:36.770 --> 00:00:36.780 
+extension lead and what this does is
+
+00:00:36.780 --> 00:00:38.479 
+extension lead and what this does is
+allows<00:00:37.020> you<00:00:37.050> to<00:00:37.260> get<00:00:37.350> the<00:00:37.469> signal<00:00:38.219> from<00:00:38.370> the
+
+00:00:38.479 --> 00:00:38.489 
+allows you to get the signal from the
+
+00:00:38.489 --> 00:00:42.229 
+allows you to get the signal from the
+receiver<00:00:38.820> to<00:00:39.360> the<00:00:39.390> module<00:00:40.340> so<00:00:41.340> firstly<00:00:41.730> to<00:00:42.120> get
+
+00:00:42.229 --> 00:00:42.239 
+receiver to the module so firstly to get
+
+00:00:42.239 --> 00:00:42.979 
+receiver to the module so firstly to get
+this<00:00:42.360> working
+
+00:00:42.979 --> 00:00:42.989 
+this working
+
+00:00:42.989 --> 00:00:45.139 
+this working
+we'll<00:00:43.379> need<00:00:43.530> obviously<00:00:43.770> your<00:00:44.219> receiver<00:00:44.610> for
+
+00:00:45.139 --> 00:00:45.149 
+we'll need obviously your receiver for
+
+00:00:45.149 --> 00:00:46.459 
+we'll need obviously your receiver for
+the<00:00:45.210> purposes<00:00:45.570> of<00:00:45.660> the<00:00:45.719> video<00:00:45.809> we've<00:00:46.110> got<00:00:46.260> an<00:00:46.350> 8
+
+00:00:46.459 --> 00:00:46.469 
+the purposes of the video we've got an 8
+
+00:00:46.469 --> 00:00:47.690 
+the purposes of the video we've got an 8
+channel<00:00:46.500> here<00:00:46.980> so<00:00:47.010> we<00:00:47.250> can<00:00:47.370> get<00:00:47.489> all<00:00:47.610> the
+
+00:00:47.690 --> 00:00:47.700 
+channel here so we can get all the
+
+00:00:47.700 --> 00:00:49.670 
+channel here so we can get all the
+functions<00:00:48.120> but<00:00:48.809> if<00:00:48.899> you're<00:00:49.079> using<00:00:49.289> a<00:00:49.469> 6
+
+00:00:49.670 --> 00:00:49.680 
+functions but if you're using a 6
+
+00:00:49.680 --> 00:00:51.080 
+functions but if you're using a 6
+channel<00:00:49.739> you<00:00:50.070> would<00:00:50.190> just<00:00:50.309> drop<00:00:50.489> let's<00:00:51.000> say
+
+00:00:51.080 --> 00:00:51.090 
+channel you would just drop let's say
+
+00:00:51.090 --> 00:00:53.479 
+channel you would just drop let's say
+the<00:00:51.239> two<00:00:51.390> end<00:00:51.539> connectors<00:00:51.960> off<00:00:52.140> so<00:00:53.070> how<00:00:53.309> we've
+
+00:00:53.479 --> 00:00:53.489 
+the two end connectors off so how we've
+
+00:00:53.489 --> 00:00:55.520 
+the two end connectors off so how we've
+got<00:00:53.670> it<00:00:53.789> we've<00:00:54.030> got<00:00:54.239> the<00:00:54.270> lead<00:00:55.230> with<00:00:55.440> the
+
+00:00:55.520 --> 00:00:55.530 
+got it we've got the lead with the
+
+00:00:55.530 --> 00:00:56.750 
+got it we've got the lead with the
+negative<00:00:55.829> and<00:00:55.920> positive<00:00:55.980> wire<00:00:56.370> into<00:00:56.670> the
+
+00:00:56.750 --> 00:00:56.760 
+negative and positive wire into the
+
+00:00:56.760 --> 00:00:58.340 
+negative and positive wire into the
+throttle<00:00:56.940> channel<00:00:57.360> so<00:00:57.600> channel<00:00:57.840> number<00:00:58.170> one
+
+00:00:58.340 --> 00:00:58.350 
+throttle channel so channel number one
+
+00:00:58.350 --> 00:01:01.130 
+throttle channel so channel number one
+and<00:00:58.620> then<00:00:59.609> following<00:01:00.329> that<00:01:00.510> in<00:01:00.660> sequence
+
+00:01:01.130 --> 00:01:01.140 
+and then following that in sequence
+
+00:01:01.140 --> 00:01:02.450 
+and then following that in sequence
+we've<00:01:01.500> got<00:01:01.680> obviously<00:01:01.770> aileron<00:01:02.370> elevator
+
+00:01:02.450 --> 00:01:02.460 
+we've got obviously aileron elevator
+
+00:01:02.460 --> 00:01:04.189 
+we've got obviously aileron elevator
+rudder<00:01:02.940> and<00:01:03.270> then<00:01:03.480> moving<00:01:03.660> on<00:01:03.870> through<00:01:04.080> the
+
+00:01:04.189 --> 00:01:04.199 
+rudder and then moving on through the
+
+00:01:04.199 --> 00:01:06.440 
+rudder and then moving on through the
+axillary<00:01:04.500> channels<00:01:04.890> and<00:01:05.159> they're<00:01:05.760> all<00:01:05.909> in<00:01:06.090> as
+
+00:01:06.440 --> 00:01:06.450 
+axillary channels and they're all in as
+
+00:01:06.450 --> 00:01:09.109 
+axillary channels and they're all in as
+they<00:01:06.869> fall<00:01:07.140> on<00:01:07.290> the<00:01:07.380> plug<00:01:07.590> so<00:01:07.939> this<00:01:08.939> particular
+
+00:01:09.109 --> 00:01:09.119 
+they fall on the plug so this particular
+
+00:01:09.119 --> 00:01:11.960 
+they fall on the plug so this particular
+throttle<00:01:09.689> channel<00:01:09.720> will<00:01:10.380> go<00:01:10.500> into<00:01:10.710> the<00:01:10.979> RX<00:01:11.790> 2
+
+00:01:11.960 --> 00:01:11.970 
+throttle channel will go into the RX 2
+
+00:01:11.970 --> 00:01:14.450 
+throttle channel will go into the RX 2
+sim<00:01:12.150> module<00:01:12.540> in<00:01:12.799> port<00:01:13.799> number<00:01:14.070> one<00:01:14.220> whereas
+
+00:01:14.450 --> 00:01:14.460 
+sim module in port number one whereas
+
+00:01:14.460 --> 00:01:15.740 
+sim module in port number one whereas
+there's<00:01:14.670> negative<00:01:14.850> and<00:01:15.090> positive<00:01:15.420> obviously
+
+00:01:15.740 --> 00:01:15.750 
+there's negative and positive obviously
+
+00:01:15.750 --> 00:01:19.219 
+there's negative and positive obviously
+observing<00:01:16.409> the<00:01:16.500> correct<00:01:16.710> polarity<00:01:18.229> that
+
+00:01:19.219 --> 00:01:19.229 
+observing the correct polarity that
+
+00:01:19.229 --> 00:01:20.870 
+observing the correct polarity that
+plugs<00:01:19.439> into<00:01:19.590> there<00:01:19.860> and<00:01:20.100> then<00:01:20.759> again
+
+00:01:20.870 --> 00:01:20.880 
+plugs into there and then again
+
+00:01:20.880 --> 00:01:22.910 
+plugs into there and then again
+obviously<00:01:21.299> aileron<00:01:21.869> being<00:01:22.110> channel<00:01:22.470> number<00:01:22.710> 2
+
+00:01:22.910 --> 00:01:22.920 
+obviously aileron being channel number 2
+
+00:01:22.920 --> 00:01:24.380 
+obviously aileron being channel number 2
+so<00:01:23.400> we<00:01:23.490> follow<00:01:23.700> that<00:01:23.909> wire
+
+00:01:24.380 --> 00:01:24.390 
+so we follow that wire
+
+00:01:24.390 --> 00:01:25.370 
+so we follow that wire
+we'll<00:01:24.509> have<00:01:24.630> to<00:01:24.750> flip<00:01:24.900> this<00:01:24.990> connector<00:01:25.350> over
+
+00:01:25.370 --> 00:01:25.380 
+we'll have to flip this connector over
+
+00:01:25.380 --> 00:01:27.830 
+we'll have to flip this connector over
+and<00:01:25.799> then<00:01:26.400> two<00:01:26.670> three<00:01:26.880> four<00:01:27.150> five<00:01:27.330> six<00:01:27.509> seven
+
+00:01:27.830 --> 00:01:27.840 
+and then two three four five six seven
+
+00:01:27.840 --> 00:01:30.410 
+and then two three four five six seven
+eight<00:01:27.960> next<00:01:28.829> to<00:01:29.040> that<00:01:29.189> and<00:01:29.610> that<00:01:30.030> connects<00:01:30.299> the
+
+00:01:30.410 --> 00:01:30.420 
+eight next to that and that connects the
+
+00:01:30.420 --> 00:01:33.679 
+eight next to that and that connects the
+receiver<00:01:30.750> to<00:01:30.960> the<00:01:30.990> sim<00:01:31.290> module<00:01:32.689> secondly
+
+00:01:33.679 --> 00:01:33.689 
+receiver to the sim module secondly
+
+00:01:33.689 --> 00:01:36.020 
+receiver to the sim module secondly
+we'll<00:01:34.020> be<00:01:34.110> using<00:01:34.320> the<00:01:34.619> adapter<00:01:35.310> so<00:01:35.549> the<00:01:35.670> dongle
+
+00:01:36.020 --> 00:01:36.030 
+we'll be using the adapter so the dongle
+
+00:01:36.030 --> 00:01:37.730 
+we'll be using the adapter so the dongle
+that's<00:01:36.329> included<00:01:36.960> with<00:01:36.990> your<00:01:37.079> Phoenix<00:01:37.320> flight
+
+00:01:37.730 --> 00:01:37.740 
+that's included with your Phoenix flight
+
+00:01:37.740 --> 00:01:39.469 
+that's included with your Phoenix flight
+sim<00:01:38.009> and<00:01:38.250> this<00:01:38.790> is<00:01:38.909> to<00:01:39.090> allow<00:01:39.390> the
+
+00:01:39.469 --> 00:01:39.479 
+sim and this is to allow the
+
+00:01:39.479 --> 00:01:40.999 
+sim and this is to allow the
+registration<00:01:40.140> to<00:01:40.229> go<00:01:40.380> through<00:01:40.590> and<00:01:40.740> make<00:01:40.890> it
+
+00:01:40.999 --> 00:01:41.009 
+registration to go through and make it
+
+00:01:41.009 --> 00:01:42.350 
+registration to go through and make it
+legal<00:01:41.340> for<00:01:41.369> the<00:01:41.670> sim<00:01:41.850> to<00:01:42.000> work<00:01:42.150> on<00:01:42.299> the
+
+00:01:42.350 --> 00:01:42.360 
+legal for the sim to work on the
+
+00:01:42.360 --> 00:01:44.480 
+legal for the sim to work on the
+computer<00:01:42.810> and<00:01:43.110> once<00:01:43.710> plugged<00:01:43.950> in<00:01:44.070> this<00:01:44.220> can<00:01:44.399> be
+
+00:01:44.480 --> 00:01:44.490 
+computer and once plugged in this can be
+
+00:01:44.490 --> 00:01:46.460 
+computer and once plugged in this can be
+neatly<00:01:45.000> stowed<00:01:45.780> away<00:01:45.899> behind<00:01:46.170> the<00:01:46.320> computer
+
+00:01:46.460 --> 00:01:46.470 
+neatly stowed away behind the computer
+
+00:01:46.470 --> 00:01:47.450 
+neatly stowed away behind the computer
+to<00:01:46.770> keep<00:01:46.920> it<00:01:47.040> neat
+
+00:01:47.450 --> 00:01:47.460 
+to keep it neat
+
+00:01:47.460 --> 00:01:50.319 
+to keep it neat
+quite<00:01:47.939> simply<00:01:48.240> the<00:01:48.570> USB<00:01:48.990> in<00:01:49.200> the<00:01:49.229> RX<00:01:49.649> 2<00:01:49.860> sim
+
+00:01:50.319 --> 00:01:50.329 
+quite simply the USB in the RX 2 sim
+
+00:01:50.329 --> 00:01:52.100 
+quite simply the USB in the RX 2 sim
+followed<00:01:51.329> by<00:01:51.479> the<00:01:51.540> three<00:01:51.869> and<00:01:51.960> a<00:01:52.020> half
+
+00:01:52.100 --> 00:01:52.110 
+followed by the three and a half
+
+00:01:52.110 --> 00:01:55.039 
+followed by the three and a half
+millimeter<00:01:52.560> jack<00:01:52.970> to<00:01:53.970> the<00:01:54.000> ppm<00:01:54.450> output<00:01:54.840> and
+
+00:01:55.039 --> 00:01:55.049 
+millimeter jack to the ppm output and
+
+00:01:55.049 --> 00:01:57.920 
+millimeter jack to the ppm output and
+that's<00:01:55.799> the<00:01:56.130> sim<00:01:56.490> adapter<00:01:57.119> module<00:01:57.360> bull
+
+00:01:57.920 --> 00:01:57.930 
+that's the sim adapter module bull
+
+00:01:57.930 --> 00:02:00.410 
+that's the sim adapter module bull
+plugged<00:01:58.170> in<00:01:58.460> again<00:01:59.460> very<00:01:59.670> simple<00:02:00.030> to<00:02:00.180> connect
+
+00:02:00.410 --> 00:02:00.420 
+plugged in again very simple to connect
+
+00:02:00.420 --> 00:02:02.480 
+plugged in again very simple to connect
+the<00:02:00.509> rhs<00:02:00.960> into<00:02:01.259> the<00:02:01.350> computer<00:02:01.770> it's<00:02:02.130> just<00:02:02.399> a
+
+00:02:02.480 --> 00:02:02.490 
+the rhs into the computer it's just a
+
+00:02:02.490 --> 00:02:04.520 
+the rhs into the computer it's just a
+USB<00:02:02.729> again<00:02:03.570> for<00:02:03.780> the<00:02:03.840> purposes<00:02:04.200> the<00:02:04.320> video
+
+00:02:04.520 --> 00:02:04.530 
+USB again for the purposes the video
+
+00:02:04.530 --> 00:02:06.080 
+USB again for the purposes the video
+we're<00:02:04.740> just<00:02:04.770> using<00:02:05.070> a<00:02:05.100> laptop<00:02:05.280> so<00:02:05.850> we'll<00:02:05.939> check
+
+00:02:06.080 --> 00:02:06.090 
+we're just using a laptop so we'll check
+
+00:02:06.090 --> 00:02:07.850 
+we're just using a laptop so we'll check
+that<00:02:06.149> in<00:02:06.360> there<00:02:06.540> and<00:02:07.320> you<00:02:07.380> see<00:02:07.530> the<00:02:07.560> lights
+
+00:02:07.850 --> 00:02:07.860 
+that in there and you see the lights
+
+00:02:07.860 --> 00:02:09.320 
+that in there and you see the lights
+light<00:02:08.099> up<00:02:08.280> and<00:02:08.550> you'll<00:02:08.789> also<00:02:08.910> see<00:02:09.060> your
+
+00:02:09.320 --> 00:02:09.330 
+light up and you'll also see your
+
+00:02:09.330 --> 00:02:11.930 
+light up and you'll also see your
+receiver<00:02:09.660> come<00:02:09.929> back<00:02:10.080> online<00:02:10.520> this<00:02:11.520> feeds<00:02:11.790> the
+
+00:02:11.930 --> 00:02:11.940 
+receiver come back online this feeds the
+
+00:02:11.940 --> 00:02:13.750 
+receiver come back online this feeds the
+power<00:02:12.120> to<00:02:12.330> the<00:02:12.420> receiver<00:02:12.750> as<00:02:12.930> well
+
+00:02:13.750 --> 00:02:13.760 
+power to the receiver as well
+
+00:02:13.760 --> 00:02:14.979 
+power to the receiver as well
+again<00:02:13.909> you<00:02:14.030> can<00:02:14.180> keep<00:02:14.480> that<00:02:14.629> behind<00:02:14.750> your
+
+00:02:14.979 --> 00:02:14.989 
+again you can keep that behind your
+
+00:02:14.989 --> 00:02:17.339 
+again you can keep that behind your
+computer<00:02:15.080> and<00:02:15.560> it'll<00:02:16.250> happen<00:02:16.400> automatically
+
+00:02:17.339 --> 00:02:17.349 
+computer and it'll happen automatically
+
+00:02:17.349 --> 00:02:19.360 
+computer and it'll happen automatically
+we've<00:02:18.349> got<00:02:18.500> status<00:02:18.860> lights<00:02:19.069> on<00:02:19.250> the<00:02:19.340> front
+
+00:02:19.360 --> 00:02:19.370 
+we've got status lights on the front
+
+00:02:19.370 --> 00:02:21.130 
+we've got status lights on the front
+here<00:02:19.790> now<00:02:20.090> single<00:02:20.420> channels<00:02:20.750> obviously
+
+00:02:21.130 --> 00:02:21.140 
+here now single channels obviously
+
+00:02:21.140 --> 00:02:22.539 
+here now single channels obviously
+because<00:02:21.319> we've<00:02:21.439> got<00:02:21.650> all<00:02:22.099> of<00:02:22.159> our<00:02:22.310> single
+
+00:02:22.539 --> 00:02:22.549 
+because we've got all of our single
+
+00:02:22.549 --> 00:02:25.030 
+because we've got all of our single
+channels<00:02:22.939> plugged<00:02:23.180> in<00:02:23.409> this<00:02:24.409> also<00:02:24.590> has<00:02:24.860> the
+
+00:02:25.030 --> 00:02:25.040 
+channels plugged in this also has the
+
+00:02:25.040 --> 00:02:26.800 
+channels plugged in this also has the
+option<00:02:25.159> to<00:02:25.340> run<00:02:25.549> a<00:02:25.579> remote<00:02:26.000> receiver<00:02:26.150> directly
+
+00:02:26.800 --> 00:02:26.810 
+option to run a remote receiver directly
+
+00:02:26.810 --> 00:02:29.170 
+option to run a remote receiver directly
+into<00:02:27.079> the<00:02:27.200> Erik's<00:02:27.470> two<00:02:27.650> sim<00:02:27.890> okay<00:02:28.849> so<00:02:28.939> here<00:02:29.150> we
+
+00:02:29.170 --> 00:02:29.180 
+into the Erik's two sim okay so here we
+
+00:02:29.180 --> 00:02:31.270 
+into the Erik's two sim okay so here we
+have<00:02:29.269> a<00:02:29.360> dx6i<00:02:29.780> transmitter<00:02:30.470> I've<00:02:30.709> bound<00:02:31.159> this
+
+00:02:31.270 --> 00:02:31.280 
+have a dx6i transmitter I've bound this
+
+00:02:31.280 --> 00:02:33.550 
+have a dx6i transmitter I've bound this
+to<00:02:31.430> the<00:02:31.519> receiver<00:02:31.879> this<00:02:32.870> is<00:02:32.989> all<00:02:33.140> connected<00:02:33.319> up
+
+00:02:33.550 --> 00:02:33.560 
+to the receiver this is all connected up
+
+00:02:33.560 --> 00:02:34.899 
+to the receiver this is all connected up
+to<00:02:33.590> the<00:02:33.739> computer<00:02:34.010> I've<00:02:34.340> gone<00:02:34.579> through<00:02:34.819> the
+
+00:02:34.899 --> 00:02:34.909 
+to the computer I've gone through the
+
+00:02:34.909 --> 00:02:37.240 
+to the computer I've gone through the
+calibration<00:02:35.180> on<00:02:35.690> this<00:02:35.900> Phoenix<00:02:36.590> sim<00:02:36.829> to<00:02:37.099> make
+
+00:02:37.240 --> 00:02:37.250 
+calibration on this Phoenix sim to make
+
+00:02:37.250 --> 00:02:38.350 
+calibration on this Phoenix sim to make
+sure<00:02:37.370> all<00:02:37.459> the<00:02:37.579> control<00:02:37.879> directions<00:02:38.239> are
+
+00:02:38.350 --> 00:02:38.360 
+sure all the control directions are
+
+00:02:38.360 --> 00:02:40.030 
+sure all the control directions are
+correct<00:02:38.659> but<00:02:39.319> as<00:02:39.440> you<00:02:39.560> can<00:02:39.650> see<00:02:39.709> we've<00:02:40.010> got
+
+00:02:40.030 --> 00:02:40.040 
+correct but as you can see we've got
+
+00:02:40.040 --> 00:02:42.610 
+correct but as you can see we've got
+elevator<00:02:40.549> we've<00:02:41.180> got<00:02:41.329> our<00:02:41.510> ons<00:02:41.840> we've<00:02:42.440> got
+
+00:02:42.610 --> 00:02:42.620 
+elevator we've got our ons we've got
+
+00:02:42.620 --> 00:02:56.530 
+elevator we've got our ons we've got
+rudder<00:02:42.829> and<00:02:43.489> we've<00:02:43.700> got<00:02:43.849> throttle
+
+00:02:56.530 --> 00:02:56.540 
+
+00:02:56.540 --> 00:02:58.729 
+
+so<00:02:57.540> there<00:02:57.689> you<00:02:57.750> go<00:02:57.840> guys<00:02:57.870> there's<00:02:58.409> a<00:02:58.470> bit<00:02:58.590> of<00:02:58.680> a
+
+00:02:58.729 --> 00:02:58.739 
+so there you go guys there's a bit of a
+
+00:02:58.739 --> 00:03:00.740 
+so there you go guys there's a bit of a
+tutorial<00:02:58.920> of<00:02:59.280> how<00:02:59.340> to<00:02:59.459> set<00:02:59.670> up<00:02:59.700> the<00:02:59.909> RX<00:03:00.269> to<00:03:00.510> sim
+
+00:03:00.740 --> 00:03:00.750 
+tutorial of how to set up the RX to sim
+
+00:03:00.750 --> 00:03:02.690 
+tutorial of how to set up the RX to sim
+as<00:03:01.620> you<00:03:01.799> can<00:03:01.890> see<00:03:02.010> we're<00:03:02.159> using<00:03:02.310> it<00:03:02.519> on<00:03:02.610> the
+
+00:03:02.690 --> 00:03:02.700 
+as you can see we're using it on the
+
+00:03:02.700 --> 00:03:04.970 
+as you can see we're using it on the
+Phoenix<00:03:03.030> flight<00:03:03.239> sim<00:03:03.569> we're<00:03:04.470> using<00:03:04.620> a<00:03:04.769> version
+
+00:03:04.970 --> 00:03:04.980 
+Phoenix flight sim we're using a version
+
+00:03:04.980 --> 00:03:07.729 
+Phoenix flight sim we're using a version
+4<00:03:05.400> it's<00:03:06.090> a<00:03:06.180> free<00:03:06.420> upgrade<00:03:06.569> to<00:03:06.870> version<00:03:06.900> 5<00:03:07.439> and
+
+00:03:07.729 --> 00:03:07.739 
+4 it's a free upgrade to version 5 and
+
+00:03:07.739 --> 00:03:09.410 
+4 it's a free upgrade to version 5 and
+we<00:03:07.920> do<00:03:08.099> have<00:03:08.280> version<00:03:08.579> 5<00:03:08.730> coming<00:03:09.000> available
+
+00:03:09.410 --> 00:03:09.420 
+we do have version 5 coming available
+
+00:03:09.420 --> 00:03:11.420 
+we do have version 5 coming available
+very<00:03:09.569> soon<00:03:09.629> the<00:03:10.260> RF<00:03:10.470> system<00:03:10.799> is<00:03:10.950> compatible
+
+00:03:11.420 --> 00:03:11.430 
+very soon the RF system is compatible
+
+00:03:11.430 --> 00:03:13.610 
+very soon the RF system is compatible
+with<00:03:11.489> all<00:03:11.790> of<00:03:11.970> the<00:03:12.090> Phoenix<00:03:12.390> flight<00:03:12.599> Sims<00:03:12.870> if
+
+00:03:13.610 --> 00:03:13.620 
+with all of the Phoenix flight Sims if
+
+00:03:13.620 --> 00:03:14.869 
+with all of the Phoenix flight Sims if
+you<00:03:13.799> would<00:03:13.890> like<00:03:14.040> more<00:03:14.190> information<00:03:14.430> about
+
+00:03:14.869 --> 00:03:14.879 
+you would like more information about
+
+00:03:14.879 --> 00:03:16.759 
+you would like more information about
+the<00:03:15.180> rh<00:03:15.450> 2<00:03:15.629> sim<00:03:15.840> please<00:03:16.170> click<00:03:16.409> on<00:03:16.530> the<00:03:16.620> link
+
+00:03:16.759 --> 00:03:16.769 
+the rh 2 sim please click on the link
+
+00:03:16.769 --> 00:03:18.979 
+the rh 2 sim please click on the link
+just<00:03:16.829> here<00:03:17.190> and<00:03:17.610> if<00:03:18.599> you<00:03:18.690> would<00:03:18.780> like<00:03:18.930> some
+
+00:03:18.979 --> 00:03:18.989 
+just here and if you would like some
+
+00:03:18.989 --> 00:03:20.420 
+just here and if you would like some
+more<00:03:19.290> information<00:03:19.349> of<00:03:19.860> the<00:03:19.980> Phoenix<00:03:20.340> flight
+
+00:03:20.420 --> 00:03:20.430 
+more information of the Phoenix flight
+
+00:03:20.430 --> 00:03:23.149 
+more information of the Phoenix flight
+simulator<00:03:21.000> please<00:03:21.420> click<00:03:21.659> up<00:03:21.810> here<00:03:21.840> and<00:03:22.230> also
+
+00:03:23.149 --> 00:03:23.159 
+simulator please click up here and also
+
+00:03:23.159 --> 00:03:24.559 
+simulator please click up here and also
+don't<00:03:23.310> forget<00:03:23.459> to<00:03:23.640> subscribe<00:03:24.060> to<00:03:24.090> our<00:03:24.209> channel
+
+00:03:24.559 --> 00:03:24.569 
+don't forget to subscribe to our channel
+
+00:03:24.569 --> 00:03:26.989 
+don't forget to subscribe to our channel
+up<00:03:24.720> here
+
