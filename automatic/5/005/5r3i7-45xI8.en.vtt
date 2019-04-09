@@ -1,0 +1,526 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.300 
+
+in<00:00:00.060> this<00:00:00.870> video<00:00:01.110> we'll<00:00:01.530> look<00:00:01.709> at<00:00:01.860> how<00:00:01.920> to<00:00:02.070> work
+
+00:00:02.300 --> 00:00:02.310 
+in this video we'll look at how to work
+
+00:00:02.310 --> 00:00:06.280 
+in this video we'll look at how to work
+with<00:00:02.460> Jason<00:00:02.879> in<00:00:03.060> Corona<00:00:03.600> SDK<00:00:04.910> Jason<00:00:05.910> or
+
+00:00:06.280 --> 00:00:06.290 
+with Jason in Corona SDK Jason or
+
+00:00:06.290 --> 00:00:08.900 
+with Jason in Corona SDK Jason or
+JavaScript<00:00:07.290> object<00:00:07.859> notation<00:00:07.919> is<00:00:08.580> a
+
+00:00:08.900 --> 00:00:08.910 
+JavaScript object notation is a
+
+00:00:08.910 --> 00:00:11.810 
+JavaScript object notation is a
+lightweight<00:00:09.269> data<00:00:09.929> interchange<00:00:10.320> format<00:00:11.040> it's
+
+00:00:11.810 --> 00:00:11.820 
+lightweight data interchange format it's
+
+00:00:11.820 --> 00:00:13.640 
+lightweight data interchange format it's
+easy<00:00:12.150> for<00:00:12.360> humans<00:00:12.690> to<00:00:12.780> read<00:00:13.049> and<00:00:13.200> write<00:00:13.410> and
+
+00:00:13.640 --> 00:00:13.650 
+easy for humans to read and write and
+
+00:00:13.650 --> 00:00:15.470 
+easy for humans to read and write and
+it's<00:00:13.920> easy<00:00:14.190> for<00:00:14.370> machines<00:00:14.759> to<00:00:14.969> parse<00:00:15.210> and
+
+00:00:15.470 --> 00:00:15.480 
+it's easy for machines to parse and
+
+00:00:15.480 --> 00:00:18.800 
+it's easy for machines to parse and
+generate<00:00:16.369> coronas<00:00:17.369> Jason<00:00:17.880> library<00:00:18.390> allows
+
+00:00:18.800 --> 00:00:18.810 
+generate coronas Jason library allows
+
+00:00:18.810 --> 00:00:21.439 
+generate coronas Jason library allows
+you<00:00:19.050> to<00:00:19.230> serialize<00:00:19.800> and<00:00:20.130> deserialize<00:00:21.000> lua
+
+00:00:21.439 --> 00:00:21.449 
+you to serialize and deserialize lua
+
+00:00:21.449 --> 00:00:25.189 
+you to serialize and deserialize lua
+tables<00:00:21.930> into<00:00:22.140> jason<00:00:22.949> and<00:00:23.100> vice<00:00:23.490> versa<00:00:24.199> you
+
+00:00:25.189 --> 00:00:25.199 
+tables into jason and vice versa you
+
+00:00:25.199 --> 00:00:27.410 
+tables into jason and vice versa you
+typically<00:00:25.680> use<00:00:25.710> JSON<00:00:26.490> formatted<00:00:26.880> data<00:00:27.119> in
+
+00:00:27.410 --> 00:00:27.420 
+typically use JSON formatted data in
+
+00:00:27.420 --> 00:00:29.960 
+typically use JSON formatted data in
+conjunction<00:00:27.869> with<00:00:27.960> web<00:00:28.320> ap<00:00:28.710> is<00:00:28.890> but<00:00:29.730> you<00:00:29.849> can
+
+00:00:29.960 --> 00:00:29.970 
+conjunction with web ap is but you can
+
+00:00:29.970 --> 00:00:32.389 
+conjunction with web ap is but you can
+also<00:00:30.179> store<00:00:30.599> json<00:00:31.140> formatted<00:00:31.529> data<00:00:31.769> in<00:00:32.040> text
+
+00:00:32.389 --> 00:00:32.399 
+also store json formatted data in text
+
+00:00:32.399 --> 00:00:34.970 
+also store json formatted data in text
+files<00:00:32.610> within<00:00:32.910> your<00:00:33.149> projects<00:00:33.710> apart<00:00:34.710> from<00:00:34.829> a
+
+00:00:34.970 --> 00:00:34.980 
+files within your projects apart from a
+
+00:00:34.980 --> 00:00:37.430 
+files within your projects apart from a
+few<00:00:35.010> small<00:00:35.370> send<00:00:35.820> text<00:00:36.090> differences<00:00:36.570> Jason<00:00:37.290> is
+
+00:00:37.430 --> 00:00:37.440 
+few small send text differences Jason is
+
+00:00:37.440 --> 00:00:39.680 
+few small send text differences Jason is
+very<00:00:37.710> similar<00:00:37.980> in<00:00:38.250> structure<00:00:38.610> to<00:00:38.760> lua<00:00:39.210> tables
+
+00:00:39.680 --> 00:00:39.690 
+very similar in structure to lua tables
+
+00:00:39.690 --> 00:00:41.990 
+very similar in structure to lua tables
+the<00:00:40.530> main<00:00:40.710> formatting<00:00:41.309> difference<00:00:41.640> between
+
+00:00:41.990 --> 00:00:42.000 
+the main formatting difference between
+
+00:00:42.000 --> 00:00:44.660 
+the main formatting difference between
+Jason<00:00:42.329> and<00:00:42.480> lua<00:00:42.840> tables<00:00:43.320> is<00:00:43.469> the<00:00:43.890> use<00:00:44.040> of<00:00:44.070> colon
+
+00:00:44.660 --> 00:00:44.670 
+Jason and lua tables is the use of colon
+
+00:00:44.670 --> 00:00:46.880 
+Jason and lua tables is the use of colon
+instead<00:00:44.879> of<00:00:45.360> the<00:00:45.450> equal<00:00:45.750> sign<00:00:45.780> for<00:00:46.350> assignment
+
+00:00:46.880 --> 00:00:46.890 
+instead of the equal sign for assignment
+
+00:00:46.890 --> 00:00:49.400 
+instead of the equal sign for assignment
+it's<00:00:47.700> worth<00:00:48.000> noting<00:00:48.300> that<00:00:48.510> just<00:00:48.989> like<00:00:49.200> with
+
+00:00:49.400 --> 00:00:49.410 
+it's worth noting that just like with
+
+00:00:49.410 --> 00:00:51.979 
+it's worth noting that just like with
+lua<00:00:49.649> tables<00:00:50.129> jason<00:00:50.910> allows<00:00:51.210> for<00:00:51.600> nested
+
+00:00:51.979 --> 00:00:51.989 
+lua tables jason allows for nested
+
+00:00:51.989 --> 00:00:54.580 
+lua tables jason allows for nested
+objects<00:00:52.469> or<00:00:52.620> tables<00:00:53.190> for<00:00:53.489> organizing<00:00:54.120> data
+
+00:00:54.580 --> 00:00:54.590 
+objects or tables for organizing data
+
+00:00:54.590 --> 00:00:57.619 
+objects or tables for organizing data
+see<00:00:55.590> the<00:00:55.739> Jason<00:00:56.129> documentation<00:00:56.879> located<00:00:57.510> on
+
+00:00:57.619 --> 00:00:57.629 
+see the Jason documentation located on
+
+00:00:57.629 --> 00:01:00.410 
+see the Jason documentation located on
+Jason<00:00:58.050> org<00:00:58.440> for<00:00:58.920> more<00:00:59.100> details<00:00:59.579> about<00:00:59.969> Jason
+
+00:01:00.410 --> 00:01:00.420 
+Jason org for more details about Jason
+
+00:01:00.420 --> 00:01:03.170 
+Jason org for more details about Jason
+formatting<00:01:01.309> coronas<00:01:02.309> Jason<00:01:02.760> library
+
+00:01:03.170 --> 00:01:03.180 
+formatting coronas Jason library
+
+00:01:03.180 --> 00:01:05.060 
+formatting coronas Jason library
+provides<00:01:03.539> three<00:01:03.899> main<00:01:04.140> methods<00:01:04.170> for<00:01:04.710> working
+
+00:01:05.060 --> 00:01:05.070 
+provides three main methods for working
+
+00:01:05.070 --> 00:01:08.719 
+provides three main methods for working
+with<00:01:05.220> Jason<00:01:05.640> Jason<00:01:06.510> encode<00:01:07.140> Jason<00:01:08.040> got<00:01:08.220> decode
+
+00:01:08.719 --> 00:01:08.729 
+with Jason Jason encode Jason got decode
+
+00:01:08.729 --> 00:01:13.100 
+with Jason Jason encode Jason got decode
+and<00:01:08.939> Jason<00:01:09.689> know<00:01:10.640> Jason<00:01:11.640> code<00:01:12.240> is<00:01:12.570> used<00:01:12.930> for
+
+00:01:13.100 --> 00:01:13.110 
+and Jason know Jason code is used for
+
+00:01:13.110 --> 00:01:15.620 
+and Jason know Jason code is used for
+encoding<00:01:13.470> or<00:01:13.740> sterilizing<00:01:14.670> lua<00:01:14.939> tables<00:01:15.420> into
+
+00:01:15.620 --> 00:01:15.630 
+encoding or sterilizing lua tables into
+
+00:01:15.630 --> 00:01:18.020 
+encoding or sterilizing lua tables into
+adjacent<00:01:15.960> encoded<00:01:16.740> string<00:01:16.830> which<00:01:17.580> is<00:01:17.610> stored
+
+00:01:18.020 --> 00:01:18.030 
+adjacent encoded string which is stored
+
+00:01:18.030 --> 00:01:20.840 
+adjacent encoded string which is stored
+in<00:01:18.270> a<00:01:18.390> lua<00:01:18.570> table<00:01:19.020> the<00:01:19.830> method<00:01:20.220> accepts<00:01:20.610> one
+
+00:01:20.840 --> 00:01:20.850 
+in a lua table the method accepts one
+
+00:01:20.850 --> 00:01:23.149 
+in a lua table the method accepts one
+required<00:01:21.270> parameter<00:01:21.869> for<00:01:22.350> passing<00:01:22.740> an<00:01:22.860> Aloha
+
+00:01:23.149 --> 00:01:23.159 
+required parameter for passing an Aloha
+
+00:01:23.159 --> 00:01:26.359 
+required parameter for passing an Aloha
+table<00:01:23.580> while<00:01:24.180> json<00:01:24.720> decode<00:01:25.170> is<00:01:25.650> used<00:01:26.220> to
+
+00:01:26.359 --> 00:01:26.369 
+table while json decode is used to
+
+00:01:26.369 --> 00:01:28.850 
+table while json decode is used to
+decode<00:01:26.700> or<00:01:26.970> deserialize<00:01:27.930> JSON<00:01:28.439> formatted
+
+00:01:28.850 --> 00:01:28.860 
+decode or deserialize JSON formatted
+
+00:01:28.860 --> 00:01:32.090 
+decode or deserialize JSON formatted
+data<00:01:29.070> into<00:01:29.790> a<00:01:29.820> lua<00:01:30.060> table<00:01:30.540> the<00:01:31.290> method<00:01:31.680> accepts
+
+00:01:32.090 --> 00:01:32.100 
+data into a lua table the method accepts
+
+00:01:32.100 --> 00:01:33.920 
+data into a lua table the method accepts
+one<00:01:32.400> required<00:01:32.850> string<00:01:33.270> parameter<00:01:33.780> for
+
+00:01:33.920 --> 00:01:33.930 
+one required string parameter for
+
+00:01:33.930 --> 00:01:36.740 
+one required string parameter for
+passing<00:01:34.350> and<00:01:34.500> jason<00:01:34.890> data<00:01:35.270> Jason<00:01:36.270> null
+
+00:01:36.740 --> 00:01:36.750 
+passing and jason data Jason null
+
+00:01:36.750 --> 00:01:38.870 
+passing and jason data Jason null
+doesn't<00:01:37.530> accept<00:01:37.860> any<00:01:38.100> parameters<00:01:38.520> and
+
+00:01:38.870 --> 00:01:38.880 
+doesn't accept any parameters and
+
+00:01:38.880 --> 00:01:41.060 
+doesn't accept any parameters and
+returns<00:01:39.360> a<00:01:39.540> unique<00:01:39.900> value<00:01:40.350> that<00:01:40.530> is<00:01:40.650> encoded
+
+00:01:41.060 --> 00:01:41.070 
+returns a unique value that is encoded
+
+00:01:41.070 --> 00:01:44.510 
+returns a unique value that is encoded
+as<00:01:41.189> a<00:01:41.250> null<00:01:41.610> in<00:01:41.880> Jason<00:01:42.360> encoding<00:01:43.250> Jason<00:01:44.250> nulls
+
+00:01:44.510 --> 00:01:44.520 
+as a null in Jason encoding Jason nulls
+
+00:01:44.520 --> 00:01:46.999 
+as a null in Jason encoding Jason nulls
+are<00:01:44.790> decoded<00:01:45.420> to<00:01:45.570> Lou<00:01:45.780> anil<00:01:46.170> and<00:01:46.439> treated<00:01:46.860> by
+
+00:01:46.999 --> 00:01:47.009 
+are decoded to Lou anil and treated by
+
+00:01:47.009 --> 00:01:49.969 
+are decoded to Lou anil and treated by
+lua<00:01:47.250> in<00:01:47.520> the<00:01:47.939> normal<00:01:48.270> way<00:01:48.860> see<00:01:49.860> the
+
+00:01:49.969 --> 00:01:49.979 
+lua in the normal way see the
+
+00:01:49.979 --> 00:01:52.190 
+lua in the normal way see the
+documentation<00:01:50.549> located<00:01:51.360> on<00:01:51.509> the<00:01:51.630> corona<00:01:51.930> labs
+
+00:01:52.190 --> 00:01:52.200 
+documentation located on the corona labs
+
+00:01:52.200 --> 00:01:55.069 
+documentation located on the corona labs
+website<00:01:52.409> for<00:01:52.950> more<00:01:52.979> details<00:01:53.780> let's<00:01:54.780> look<00:01:54.930> at
+
+00:01:55.069 --> 00:01:55.079 
+website for more details let's look at
+
+00:01:55.079 --> 00:01:56.719 
+website for more details let's look at
+some<00:01:55.200> example<00:01:55.649> code<00:01:55.829> for<00:01:56.100> encoding<00:01:56.430> and
+
+00:01:56.719 --> 00:01:56.729 
+some example code for encoding and
+
+00:01:56.729 --> 00:01:59.600 
+some example code for encoding and
+decoding<00:01:56.790> JSON<00:01:57.659> data<00:01:58.040> will<00:01:59.040> display<00:01:59.460> the
+
+00:01:59.600 --> 00:01:59.610 
+decoding JSON data will display the
+
+00:01:59.610 --> 00:02:01.760 
+decoding JSON data will display the
+results<00:02:00.030> of<00:02:00.119> each<00:02:00.299> process<00:02:00.869> in<00:02:01.110> the<00:02:01.380> terminal
+
+00:02:01.760 --> 00:02:01.770 
+results of each process in the terminal
+
+00:02:01.770 --> 00:02:05.719 
+results of each process in the terminal
+window<00:02:02.869> to<00:02:03.869> encode<00:02:04.259> data<00:02:04.320> into<00:02:04.979> JSON<00:02:05.340> format
+
+00:02:05.719 --> 00:02:05.729 
+window to encode data into JSON format
+
+00:02:05.729 --> 00:02:08.029 
+window to encode data into JSON format
+first<00:02:06.240> we<00:02:06.450> need<00:02:06.600> to<00:02:06.780> add<00:02:06.899> support<00:02:07.200> for<00:02:07.469> Jason
+
+00:02:08.029 --> 00:02:08.039 
+first we need to add support for Jason
+
+00:02:08.039 --> 00:02:10.070 
+first we need to add support for Jason
+to<00:02:08.190> our<00:02:08.520> project<00:02:09.000> by<00:02:09.090> declaring<00:02:09.420> a<00:02:09.690> local
+
+00:02:10.070 --> 00:02:10.080 
+to our project by declaring a local
+
+00:02:10.080 --> 00:02:12.500 
+to our project by declaring a local
+variable<00:02:10.259> called<00:02:10.619> Jason<00:02:11.129> which<00:02:11.760> we<00:02:11.940> assign<00:02:12.270> to
+
+00:02:12.500 --> 00:02:12.510 
+variable called Jason which we assign to
+
+00:02:12.510 --> 00:02:14.140 
+variable called Jason which we assign to
+the<00:02:12.599> required<00:02:12.959> Jason
+
+00:02:14.140 --> 00:02:14.150 
+the required Jason
+
+00:02:14.150 --> 00:02:16.670 
+the required Jason
+then<00:02:15.150> we<00:02:15.330> create<00:02:15.630> a<00:02:15.690> local<00:02:16.110> variable<00:02:16.260> called
+
+00:02:16.670 --> 00:02:16.680 
+then we create a local variable called
+
+00:02:16.680 --> 00:02:19.580 
+then we create a local variable called
+Lua<00:02:17.070> table<00:02:17.580> which<00:02:18.540> is<00:02:18.720> assigned<00:02:19.020> to<00:02:19.230> a<00:02:19.320> lua
+
+00:02:19.580 --> 00:02:19.590 
+Lua table which is assigned to a lua
+
+00:02:19.590 --> 00:02:23.090 
+Lua table which is assigned to a lua
+table<00:02:20.040> filled<00:02:20.340> with<00:02:20.610> key<00:02:20.850> value<00:02:21.270> pairs<00:02:22.100> next
+
+00:02:23.090 --> 00:02:23.100 
+table filled with key value pairs next
+
+00:02:23.100 --> 00:02:25.490 
+table filled with key value pairs next
+we<00:02:23.220> create<00:02:23.550> a<00:02:23.580> local<00:02:24.090> variable<00:02:24.540> called<00:02:24.780> Jason
+
+00:02:25.490 --> 00:02:25.500 
+we create a local variable called Jason
+
+00:02:25.500 --> 00:02:27.980 
+we create a local variable called Jason
+data<00:02:25.770> which<00:02:26.700> will<00:02:26.910> hold<00:02:27.060> the<00:02:27.210> Jason<00:02:27.570> encoded
+
+00:02:27.980 --> 00:02:27.990 
+data which will hold the Jason encoded
+
+00:02:27.990 --> 00:02:31.670 
+data which will hold the Jason encoded
+data<00:02:28.140> returned<00:02:28.620> from<00:02:28.890> Jason<00:02:29.310> dot<00:02:29.520> encode<00:02:30.680> we
+
+00:02:31.670 --> 00:02:31.680 
+data returned from Jason dot encode we
+
+00:02:31.680 --> 00:02:33.860 
+data returned from Jason dot encode we
+then<00:02:31.920> print<00:02:32.280> the<00:02:32.460> JSON<00:02:32.850> encoded<00:02:33.270> string<00:02:33.390> to
+
+00:02:33.860 --> 00:02:33.870 
+then print the JSON encoded string to
+
+00:02:33.870 --> 00:02:37.790 
+then print the JSON encoded string to
+the<00:02:33.900> terminal<00:02:34.350> window<00:02:34.470> for<00:02:34.860> viewing<00:02:36.590> to<00:02:37.590> pull
+
+00:02:37.790 --> 00:02:37.800 
+the terminal window for viewing to pull
+
+00:02:37.800 --> 00:02:39.800 
+the terminal window for viewing to pull
+values<00:02:38.250> out<00:02:38.430> of<00:02:38.700> our<00:02:38.820> JSON<00:02:39.090> formatted<00:02:39.630> string
+
+00:02:39.800 --> 00:02:39.810 
+values out of our JSON formatted string
+
+00:02:39.810 --> 00:02:42.230 
+values out of our JSON formatted string
+will<00:02:40.530> create<00:02:40.920> a<00:02:40.950> local<00:02:41.430> variable<00:02:41.550> called<00:02:41.940> data
+
+00:02:42.230 --> 00:02:42.240 
+will create a local variable called data
+
+00:02:42.240 --> 00:02:44.690 
+will create a local variable called data
+that<00:02:42.810> is<00:02:42.960> assigned<00:02:43.290> to<00:02:43.500> the<00:02:43.710> return<00:02:44.160> value<00:02:44.370> of
+
+00:02:44.690 --> 00:02:44.700 
+that is assigned to the return value of
+
+00:02:44.700 --> 00:02:48.350 
+that is assigned to the return value of
+our<00:02:44.940> call<00:02:45.150> to<00:02:45.420> json<00:02:45.810> decode<00:02:46.370> we<00:02:47.370> pass<00:02:47.610> in<00:02:47.880> JSON
+
+00:02:48.350 --> 00:02:48.360 
+our call to json decode we pass in JSON
+
+00:02:48.360 --> 00:02:51.260 
+our call to json decode we pass in JSON
+data<00:02:48.510> into<00:02:49.080> json<00:02:49.470> decode<00:02:49.890> which<00:02:50.640> decodes<00:02:51.090> the
+
+00:02:51.260 --> 00:02:51.270 
+data into json decode which decodes the
+
+00:02:51.270 --> 00:02:53.060 
+data into json decode which decodes the
+data<00:02:51.540> and<00:02:51.810> returns<00:02:52.140> a<00:02:52.290> lua<00:02:52.440> table<00:02:52.920> with
+
+00:02:53.060 --> 00:02:53.070 
+data and returns a lua table with
+
+00:02:53.070 --> 00:02:56.180 
+data and returns a lua table with
+deserialized<00:02:53.850> key<00:02:54.090> value<00:02:54.480> pairs<00:02:54.950> we<00:02:55.950> then
+
+00:02:56.180 --> 00:02:56.190 
+deserialized key value pairs we then
+
+00:02:56.190 --> 00:02:57.800 
+deserialized key value pairs we then
+print<00:02:56.490> the<00:02:56.610> data<00:02:56.790> in<00:02:57.060> the<00:02:57.270> terminal<00:02:57.510> window
+
+00:02:57.800 --> 00:02:57.810 
+print the data in the terminal window
+
+00:02:57.810 --> 00:03:01.010 
+print the data in the terminal window
+for<00:02:58.470> viewing<00:02:59.270> notice<00:03:00.270> how<00:03:00.390> we<00:03:00.450> can<00:03:00.660> once<00:03:00.900> again
+
+00:03:01.010 --> 00:03:01.020 
+for viewing notice how we can once again
+
+00:03:01.020 --> 00:03:04.190 
+for viewing notice how we can once again
+use<00:03:01.470> the<00:03:01.620> key<00:03:01.980> name<00:03:02.640> two<00:03:03.060> and<00:03:03.360> an<00:03:03.690> index<00:03:04.080> of
+
+00:03:04.190 --> 00:03:04.200 
+use the key name two and an index of
+
+00:03:04.200 --> 00:03:08.000 
+use the key name two and an index of
+four<00:03:04.530> to<00:03:04.920> return<00:03:05.280> the<00:03:05.490> value<00:03:05.990> 23.5<00:03:06.990> for<00:03:07.380> from
+
+00:03:08.000 --> 00:03:08.010 
+four to return the value 23.5 for from
+
+00:03:08.010 --> 00:03:11.650 
+four to return the value 23.5 for from
+our<00:03:08.160> decoded<00:03:08.670> values<00:03:09.030> in<00:03:09.240> the<00:03:09.360> lua<00:03:09.540> table<00:03:09.960> and
+
+00:03:11.650 --> 00:03:11.660 
+our decoded values in the lua table and
+
+00:03:11.660 --> 00:03:14.210 
+our decoded values in the lua table and
+that's<00:03:12.660> a<00:03:12.780> look<00:03:12.960> at<00:03:13.110> how<00:03:13.260> to<00:03:13.320> work<00:03:13.590> with<00:03:13.800> Jason
+
+00:03:14.210 --> 00:03:14.220 
+that's a look at how to work with Jason
+
+00:03:14.220 --> 00:03:17.060 
+that's a look at how to work with Jason
+in<00:03:14.340> Corona<00:03:15.030> SDK<00:03:15.380> learn<00:03:16.380> more<00:03:16.650> about<00:03:16.770> working
+
+00:03:17.060 --> 00:03:17.070 
+in Corona SDK learn more about working
+
+00:03:17.070 --> 00:03:20.180 
+in Corona SDK learn more about working
+with<00:03:17.220> corona<00:03:17.670> sdk<00:03:17.760> at<00:03:18.330> corona<00:03:18.870> labs<00:03:19.140> com<00:03:19.620> /
+
+00:03:20.180 --> 00:03:20.190 
+with corona sdk at corona labs com /
+
+00:03:20.190 --> 00:03:23.150 
+with corona sdk at corona labs com /
+University
+
