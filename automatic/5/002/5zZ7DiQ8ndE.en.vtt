@@ -1,0 +1,925 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:02.540 
+
+so<00:00:00.719> we<00:00:00.810> now<00:00:00.930> look<00:00:01.140> at<00:00:01.350> how<00:00:01.620> we<00:00:01.680> can<00:00:02.040> connect<00:00:02.460> to
+
+00:00:02.540 --> 00:00:02.550 
+so we now look at how we can connect to
+
+00:00:02.550 --> 00:00:06.769 
+so we now look at how we can connect to
+our<00:00:02.669> MySQL<00:00:03.629> server<00:00:04.069> within<00:00:05.069> our<00:00:05.339> droplet<00:00:06.060> and
+
+00:00:06.769 --> 00:00:06.779 
+our MySQL server within our droplet and
+
+00:00:06.779 --> 00:00:09.320 
+our MySQL server within our droplet and
+we<00:00:06.870> can<00:00:06.990> do<00:00:07.140> this<00:00:07.350> in<00:00:07.620> a<00:00:08.160> couple<00:00:08.670> of<00:00:08.790> ways<00:00:09.000> or<00:00:09.269> a
+
+00:00:09.320 --> 00:00:09.330 
+we can do this in a couple of ways or a
+
+00:00:09.330 --> 00:00:11.780 
+we can do this in a couple of ways or a
+few<00:00:09.750> ways<00:00:09.960> the<00:00:10.889> first<00:00:11.160> way<00:00:11.309> we're<00:00:11.580> going<00:00:11.700> to
+
+00:00:11.780 --> 00:00:11.790 
+few ways the first way we're going to
+
+00:00:11.790 --> 00:00:13.669 
+few ways the first way we're going to
+look<00:00:12.000> at<00:00:12.240> is<00:00:12.480> doing<00:00:13.049> this<00:00:13.170> within<00:00:13.440> the
+
+00:00:13.669 --> 00:00:13.679 
+look at is doing this within the
+
+00:00:13.679 --> 00:00:15.890 
+look at is doing this within the
+terminal<00:00:13.950> and<00:00:14.370> the<00:00:15.089> second<00:00:15.540> way<00:00:15.630> we're<00:00:15.780> going
+
+00:00:15.890 --> 00:00:15.900 
+terminal and the second way we're going
+
+00:00:15.900 --> 00:00:19.700 
+terminal and the second way we're going
+to<00:00:15.960> look<00:00:16.049> at<00:00:16.170> doing<00:00:16.440> this<00:00:16.590> is<00:00:16.859> with<00:00:17.850> a<00:00:18.710> MySQL
+
+00:00:19.700 --> 00:00:19.710 
+to look at doing this is with a MySQL
+
+00:00:19.710 --> 00:00:22.849 
+to look at doing this is with a MySQL
+client<00:00:20.039> like<00:00:20.400> sequel<00:00:21.029> pro<00:00:21.410> now<00:00:22.410> this<00:00:22.680> is<00:00:22.830> a
+
+00:00:22.849 --> 00:00:22.859 
+client like sequel pro now this is a
+
+00:00:22.859 --> 00:00:24.980 
+client like sequel pro now this is a
+really<00:00:23.250> good<00:00:23.340> option<00:00:23.550> because<00:00:24.119> you<00:00:24.150> can<00:00:24.660> have
+
+00:00:24.980 --> 00:00:24.990 
+really good option because you can have
+
+00:00:24.990 --> 00:00:27.290 
+really good option because you can have
+this<00:00:25.260> as<00:00:25.500> a<00:00:25.560> native<00:00:26.369> application<00:00:26.519> on<00:00:27.269> your
+
+00:00:27.290 --> 00:00:27.300 
+this as a native application on your
+
+00:00:27.300 --> 00:00:29.330 
+this as a native application on your
+computer<00:00:27.590> and<00:00:28.590> you<00:00:28.680> can<00:00:28.830> go<00:00:28.920> ahead<00:00:29.130> and<00:00:29.250> just
+
+00:00:29.330 --> 00:00:29.340 
+computer and you can go ahead and just
+
+00:00:29.340 --> 00:00:30.950 
+computer and you can go ahead and just
+connect<00:00:29.699> and<00:00:29.910> manage<00:00:30.150> your<00:00:30.269> database<00:00:30.449> this
+
+00:00:30.950 --> 00:00:30.960 
+connect and manage your database this
+
+00:00:30.960 --> 00:00:33.319 
+connect and manage your database this
+way<00:00:31.140> it<00:00:31.830> avoids<00:00:32.189> the<00:00:32.399> need<00:00:32.640> to<00:00:32.820> have<00:00:32.969> to<00:00:33.030> use
+
+00:00:33.319 --> 00:00:33.329 
+way it avoids the need to have to use
+
+00:00:33.329 --> 00:00:35.270 
+way it avoids the need to have to use
+something<00:00:33.570> like<00:00:33.870> PHP<00:00:34.170> myadmin
+
+00:00:35.270 --> 00:00:35.280 
+something like PHP myadmin
+
+00:00:35.280 --> 00:00:37.100 
+something like PHP myadmin
+which<00:00:35.880> we<00:00:36.059> will<00:00:36.300> be<00:00:36.480> looking<00:00:36.750> at<00:00:36.840> in<00:00:36.989> the<00:00:37.079> next
+
+00:00:37.100 --> 00:00:37.110 
+which we will be looking at in the next
+
+00:00:37.110 --> 00:00:40.580 
+which we will be looking at in the next
+video<00:00:37.800> I<00:00:38.100> would<00:00:38.430> highly<00:00:39.090> recommend<00:00:39.350> you<00:00:40.350> do<00:00:40.500> it
+
+00:00:40.580 --> 00:00:40.590 
+video I would highly recommend you do it
+
+00:00:40.590 --> 00:00:42.470 
+video I would highly recommend you do it
+this<00:00:40.739> way<00:00:40.980> it<00:00:41.520> just<00:00:41.579> means<00:00:41.940> you<00:00:42.120> don't<00:00:42.210> have<00:00:42.360> to
+
+00:00:42.470 --> 00:00:42.480 
+this way it just means you don't have to
+
+00:00:42.480 --> 00:00:45.049 
+this way it just means you don't have to
+upload<00:00:42.750> PHP<00:00:43.710> myadmin<00:00:43.890> to<00:00:44.399> your<00:00:44.520> server<00:00:44.789> to
+
+00:00:45.049 --> 00:00:45.059 
+upload PHP myadmin to your server to
+
+00:00:45.059 --> 00:00:47.900 
+upload PHP myadmin to your server to
+actually<00:00:45.360> manage<00:00:45.629> your<00:00:45.809> database<00:00:46.460> so<00:00:47.460> if<00:00:47.760> you
+
+00:00:47.900 --> 00:00:47.910 
+actually manage your database so if you
+
+00:00:47.910 --> 00:00:50.690 
+actually manage your database so if you
+are<00:00:48.059> using<00:00:48.270> windows<00:00:48.780> there<00:00:49.079> are<00:00:49.700> alternative
+
+00:00:50.690 --> 00:00:50.700 
+are using windows there are alternative
+
+00:00:50.700 --> 00:00:53.420 
+are using windows there are alternative
+solutions<00:00:51.210> to<00:00:51.300> sequel<00:00:51.840> pro<00:00:52.079> which<00:00:52.379> is<00:00:52.410> an<00:00:52.770> OSX
+
+00:00:53.420 --> 00:00:53.430 
+solutions to sequel pro which is an OSX
+
+00:00:53.430 --> 00:00:56.119 
+solutions to sequel pro which is an OSX
+only<00:00:53.969> piece<00:00:54.180> of<00:00:54.329> software<00:00:54.829> so<00:00:55.829> there's<00:00:56.010> one
+
+00:00:56.119 --> 00:00:56.129 
+only piece of software so there's one
+
+00:00:56.129 --> 00:00:58.369 
+only piece of software so there's one
+called<00:00:56.250> high<00:00:56.610> D<00:00:56.670> SQL<00:00:57.449> which<00:00:57.690> pretty<00:00:57.960> much<00:00:58.050> does
+
+00:00:58.369 --> 00:00:58.379 
+called high D SQL which pretty much does
+
+00:00:58.379 --> 00:01:00.860 
+called high D SQL which pretty much does
+exactly<00:00:58.710> the<00:00:59.039> same<00:00:59.070> thing<00:00:59.460> as<00:00:59.550> sequel<00:00:59.910> pro<00:01:00.149> so
+
+00:01:00.860 --> 00:01:00.870 
+exactly the same thing as sequel pro so
+
+00:01:00.870 --> 00:01:02.170 
+exactly the same thing as sequel pro so
+you<00:01:00.960> can<00:01:01.050> go<00:01:01.170> ahead<00:01:01.260> and<00:01:01.440> download<00:01:01.590> that
+
+00:01:02.170 --> 00:01:02.180 
+you can go ahead and download that
+
+00:01:02.180 --> 00:01:05.000 
+you can go ahead and download that
+install<00:01:03.180> that<00:01:03.390> and<00:01:03.629> you<00:01:03.840> can<00:01:04.049> connect<00:01:04.680> pretty
+
+00:01:05.000 --> 00:01:05.010 
+install that and you can connect pretty
+
+00:01:05.010 --> 00:01:07.940 
+install that and you can connect pretty
+much<00:01:05.189> how<00:01:05.369> I'm<00:01:05.519> going<00:01:05.790> to<00:01:06.320> so<00:01:07.320> the<00:01:07.619> first<00:01:07.799> thing
+
+00:01:07.940 --> 00:01:07.950 
+much how I'm going to so the first thing
+
+00:01:07.950 --> 00:01:11.480 
+much how I'm going to so the first thing
+that<00:01:07.979> we<00:01:08.159> want<00:01:08.340> to<00:01:08.490> do<00:01:08.640> then<00:01:08.850> is<00:01:09.680> SSH<00:01:10.680> into<00:01:10.979> our
+
+00:01:11.480 --> 00:01:11.490 
+that we want to do then is SSH into our
+
+00:01:11.490 --> 00:01:16.100 
+that we want to do then is SSH into our
+server<00:01:11.990> remember<00:01:12.990> we<00:01:13.350> use<00:01:14.340> SSH<00:01:15.150> command<00:01:15.420> we
+
+00:01:16.100 --> 00:01:16.110 
+server remember we use SSH command we
+
+00:01:16.110 --> 00:01:19.700 
+server remember we use SSH command we
+choose<00:01:16.590> our<00:01:16.740> project<00:01:17.390> private<00:01:18.390> key<00:01:18.600> and<00:01:18.869> we
+
+00:01:19.700 --> 00:01:19.710 
+choose our project private key and we
+
+00:01:19.710 --> 00:01:22.789 
+choose our project private key and we
+hook<00:01:20.520> up<00:01:20.670> to<00:01:20.820> our<00:01:20.909> server<00:01:21.500> however<00:01:22.500> you're
+
+00:01:22.789 --> 00:01:22.799 
+hook up to our server however you're
+
+00:01:22.799 --> 00:01:23.929 
+hook up to our server however you're
+doing<00:01:22.830> this<00:01:23.130> with<00:01:23.369> you<00:01:23.490> doing<00:01:23.640> it<00:01:23.729> through
+
+00:01:23.929 --> 00:01:23.939 
+doing this with you doing it through
+
+00:01:23.939 --> 00:01:25.940 
+doing this with you doing it through
+putty<00:01:24.210> or<00:01:24.630> whatever<00:01:25.470> it<00:01:25.650> doesn't<00:01:25.860> really
+
+00:01:25.940 --> 00:01:25.950 
+putty or whatever it doesn't really
+
+00:01:25.950 --> 00:01:28.520 
+putty or whatever it doesn't really
+matter<00:01:26.189> so<00:01:26.869> remember<00:01:27.869> we<00:01:27.960> get<00:01:28.080> this<00:01:28.259> message
+
+00:01:28.520 --> 00:01:28.530 
+matter so remember we get this message
+
+00:01:28.530 --> 00:01:32.510 
+matter so remember we get this message
+our<00:01:28.979> MySQL<00:01:29.270> user's<00:01:30.270> password<00:01:30.479> is<00:01:31.110> this<00:01:31.520> when
+
+00:01:32.510 --> 00:01:32.520 
+our MySQL user's password is this when
+
+00:01:32.520 --> 00:01:35.390 
+our MySQL user's password is this when
+we<00:01:32.670> ran<00:01:32.909> the<00:01:33.150> MySQL<00:01:33.900> secure<00:01:34.740> installation
+
+00:01:35.390 --> 00:01:35.400 
+we ran the MySQL secure installation
+
+00:01:35.400 --> 00:01:37.249 
+we ran the MySQL secure installation
+command<00:01:35.759> earlier<00:01:36.119> in<00:01:36.270> the<00:01:36.360> series<00:01:36.750> you<00:01:36.780> might
+
+00:01:37.249 --> 00:01:37.259 
+command earlier in the series you might
+
+00:01:37.259 --> 00:01:39.590 
+command earlier in the series you might
+have<00:01:37.380> changed<00:01:37.860> your<00:01:38.009> root<00:01:38.250> password<00:01:38.520> in<00:01:39.420> which
+
+00:01:39.590 --> 00:01:39.600 
+have changed your root password in which
+
+00:01:39.600 --> 00:01:41.270 
+have changed your root password in which
+case<00:01:39.869> you're<00:01:40.079> going<00:01:40.560> to<00:01:40.650> want<00:01:40.799> to<00:01:40.920> use<00:01:41.070> that
+
+00:01:41.270 --> 00:01:41.280 
+case you're going to want to use that
+
+00:01:41.280 --> 00:01:43.280 
+case you're going to want to use that
+but<00:01:42.000> I<00:01:42.030> didn't<00:01:42.450> so<00:01:42.659> I'm<00:01:42.720> going<00:01:42.899> to<00:01:42.960> use<00:01:43.110> this
+
+00:01:43.280 --> 00:01:43.290 
+but I didn't so I'm going to use this
+
+00:01:43.290 --> 00:01:45.590 
+but I didn't so I'm going to use this
+one<00:01:43.560> and<00:01:43.829> just<00:01:43.860> a<00:01:44.759> word<00:01:44.880> of<00:01:45.000> warning<00:01:45.149> you're
+
+00:01:45.590 --> 00:01:45.600 
+one and just a word of warning you're
+
+00:01:45.600 --> 00:01:46.940 
+one and just a word of warning you're
+not<00:01:45.750> always<00:01:46.049> going<00:01:46.259> to<00:01:46.380> want<00:01:46.560> to<00:01:46.590> connect
+
+00:01:46.940 --> 00:01:46.950 
+not always going to want to connect
+
+00:01:46.950 --> 00:01:49.340 
+not always going to want to connect
+using<00:01:47.340> your<00:01:47.640> root<00:01:47.909> account<00:01:48.360> you<00:01:48.960> might<00:01:49.170> want
+
+00:01:49.340 --> 00:01:49.350 
+using your root account you might want
+
+00:01:49.350 --> 00:01:50.690 
+using your root account you might want
+to<00:01:49.470> go<00:01:49.590> ahead<00:01:49.770> and<00:01:49.860> look<00:01:49.950> up<00:01:50.130> how<00:01:50.340> you<00:01:50.399> can
+
+00:01:50.690 --> 00:01:50.700 
+to go ahead and look up how you can
+
+00:01:50.700 --> 00:01:54.050 
+to go ahead and look up how you can
+create<00:01:50.880> additional<00:01:51.350> MySQL<00:01:52.350> users<00:01:52.829> with<00:01:53.640> very
+
+00:01:54.050 --> 00:01:54.060 
+create additional MySQL users with very
+
+00:01:54.060 --> 00:01:56.719 
+create additional MySQL users with very
+specific<00:01:54.380> permissions<00:01:55.380> and<00:01:56.040> that<00:01:56.219> means<00:01:56.430> that
+
+00:01:56.719 --> 00:01:56.729 
+specific permissions and that means that
+
+00:01:56.729 --> 00:01:59.749 
+specific permissions and that means that
+you're<00:01:57.350> securing<00:01:58.350> the<00:01:59.159> account<00:01:59.520> you're
+
+00:01:59.749 --> 00:01:59.759 
+you're securing the account you're
+
+00:01:59.759 --> 00:02:00.469 
+you're securing the account you're
+connecting<00:02:00.210> to
+
+00:02:00.469 --> 00:02:00.479 
+connecting to
+
+00:02:00.479 --> 00:02:02.690 
+connecting to
+by<00:02:00.930> not<00:02:01.229> allowing<00:02:01.619> certain<00:02:01.860> operations<00:02:02.490> like
+
+00:02:02.690 --> 00:02:02.700 
+by not allowing certain operations like
+
+00:02:02.700 --> 00:02:05.179 
+by not allowing certain operations like
+dropping<00:02:03.090> entire<00:02:03.540> tables<00:02:04.079> the<00:02:04.619> root<00:02:04.890> account
+
+00:02:05.179 --> 00:02:05.189 
+dropping entire tables the root account
+
+00:02:05.189 --> 00:02:08.809 
+dropping entire tables the root account
+pretty<00:02:05.579> much<00:02:05.759> has<00:02:06.000> all<00:02:06.240> privileges<00:02:07.250> so<00:02:08.250> to<00:02:08.700> go
+
+00:02:08.809 --> 00:02:08.819 
+pretty much has all privileges so to go
+
+00:02:08.819 --> 00:02:10.369 
+pretty much has all privileges so to go
+ahead<00:02:09.000> and<00:02:09.090> do<00:02:09.209> this<00:02:09.360> then<00:02:09.690> we're<00:02:10.200> going<00:02:10.319> to
+
+00:02:10.369 --> 00:02:10.379 
+ahead and do this then we're going to
+
+00:02:10.379 --> 00:02:12.380 
+ahead and do this then we're going to
+use<00:02:10.530> the<00:02:10.709> MySQL<00:02:11.430> command
+
+00:02:12.380 --> 00:02:12.390 
+use the MySQL command
+
+00:02:12.390 --> 00:02:16.010 
+use the MySQL command
+or<00:02:12.690> the<00:02:13.020> MySQL<00:02:13.700> manager<00:02:14.700> within<00:02:15.030> our<00:02:15.450> terminal
+
+00:02:16.010 --> 00:02:16.020 
+or the MySQL manager within our terminal
+
+00:02:16.020 --> 00:02:18.350 
+or the MySQL manager within our terminal
+we're<00:02:16.890> gonna<00:02:16.980> go<00:02:17.160> ahead<00:02:17.280> and<00:02:17.520> choose<00:02:17.790> the<00:02:18.060> user
+
+00:02:18.350 --> 00:02:18.360 
+we're gonna go ahead and choose the user
+
+00:02:18.360 --> 00:02:21.710 
+we're gonna go ahead and choose the user
+by<00:02:18.750> using<00:02:18.990> the<00:02:19.230> u<00:02:19.860> option<00:02:20.580> and<00:02:21.390> we're<00:02:21.630> gonna
+
+00:02:21.710 --> 00:02:21.720 
+by using the u option and we're gonna
+
+00:02:21.720 --> 00:02:25.130 
+by using the u option and we're gonna
+choose<00:02:22.550> or<00:02:23.550> user<00:02:23.820> the<00:02:23.970> P<00:02:24.180> option<00:02:24.600> to<00:02:24.780> say<00:02:24.960> that
+
+00:02:25.130 --> 00:02:25.140 
+choose or user the P option to say that
+
+00:02:25.140 --> 00:02:27.470 
+choose or user the P option to say that
+we<00:02:25.230> want<00:02:25.440> to<00:02:25.500> provide<00:02:25.800> a<00:02:25.860> password<00:02:26.300> and<00:02:27.300> now<00:02:27.330> we
+
+00:02:27.470 --> 00:02:27.480 
+we want to provide a password and now we
+
+00:02:27.480 --> 00:02:29.600 
+we want to provide a password and now we
+just<00:02:27.720> paste<00:02:27.960> that<00:02:28.170> password<00:02:28.380> in<00:02:28.740> and<00:02:28.950> we're
+
+00:02:29.600 --> 00:02:29.610 
+just paste that password in and we're
+
+00:02:29.610 --> 00:02:33.230 
+just paste that password in and we're
+into<00:02:30.090> our<00:02:30.330> MySQL<00:02:30.630> monitor<00:02:31.700> so<00:02:32.700> from<00:02:32.910> here<00:02:33.090> we
+
+00:02:33.230 --> 00:02:33.240 
+into our MySQL monitor so from here we
+
+00:02:33.240 --> 00:02:36.530 
+into our MySQL monitor so from here we
+can<00:02:33.360> do<00:02:33.510> things<00:02:33.690> like<00:02:33.840> show<00:02:34.350> up<00:02:35.190> databases<00:02:35.940> you
+
+00:02:36.530 --> 00:02:36.540 
+can do things like show up databases you
+
+00:02:36.540 --> 00:02:38.660 
+can do things like show up databases you
+see<00:02:36.720> we<00:02:36.900> have<00:02:37.050> three<00:02:37.320> at<00:02:37.410> the<00:02:37.500> moment<00:02:37.860> we<00:02:38.520> can
+
+00:02:38.660 --> 00:02:38.670 
+see we have three at the moment we can
+
+00:02:38.670 --> 00:02:40.790 
+see we have three at the moment we can
+go<00:02:38.790> ahead<00:02:38.880> and<00:02:39.090> create<00:02:39.720> a<00:02:39.870> base<00:02:40.170> uh<00:02:40.200> base<00:02:40.500> if<00:02:40.680> we
+
+00:02:40.790 --> 00:02:40.800 
+go ahead and create a base uh base if we
+
+00:02:40.800 --> 00:02:44.120 
+go ahead and create a base uh base if we
+want<00:02:40.980> to<00:02:41.220> we<00:02:42.210> can<00:02:42.350> create<00:02:43.350> tables<00:02:43.620> on<00:02:44.010> that
+
+00:02:44.120 --> 00:02:44.130 
+want to we can create tables on that
+
+00:02:44.130 --> 00:02:46.640 
+want to we can create tables on that
+database<00:02:44.490> we<00:02:44.910> can<00:02:45.060> update<00:02:45.210> it<00:02:45.420> if<00:02:45.960> you're<00:02:46.350> used
+
+00:02:46.640 --> 00:02:46.650 
+database we can update it if you're used
+
+00:02:46.650 --> 00:02:49.070 
+database we can update it if you're used
+to<00:02:46.800> using<00:02:46.980> SQL<00:02:47.670> in<00:02:47.910> a<00:02:48.030> terminal<00:02:48.570> to<00:02:48.720> do<00:02:48.840> things
+
+00:02:49.070 --> 00:02:49.080 
+to using SQL in a terminal to do things
+
+00:02:49.080 --> 00:02:50.540 
+to using SQL in a terminal to do things
+like<00:02:49.260> this<00:02:49.500> this<00:02:49.680> will<00:02:49.830> be<00:02:49.890> the<00:02:49.980> perfect<00:02:50.490> way
+
+00:02:50.540 --> 00:02:50.550 
+like this this will be the perfect way
+
+00:02:50.550 --> 00:02:52.910 
+like this this will be the perfect way
+for<00:02:50.580> you<00:02:50.820> to<00:02:50.970> do<00:02:51.090> it<00:02:51.240> so<00:02:51.390> you<00:02:51.870> have<00:02:52.050> free<00:02:52.650> reign
+
+00:02:52.910 --> 00:02:52.920 
+for you to do it so you have free reign
+
+00:02:52.920 --> 00:02:55.190 
+for you to do it so you have free reign
+over<00:02:53.610> whatever<00:02:54.030> you<00:02:54.270> want<00:02:54.450> to<00:02:54.600> do<00:02:54.720> within<00:02:54.900> here
+
+00:02:55.190 --> 00:02:55.200 
+over whatever you want to do within here
+
+00:02:55.200 --> 00:02:57.290 
+over whatever you want to do within here
+we're<00:02:55.950> not<00:02:56.040> gonna<00:02:56.160> looking<00:02:56.400> into<00:02:56.910> this<00:02:57.000> too
+
+00:02:57.290 --> 00:02:57.300 
+we're not gonna looking into this too
+
+00:02:57.300 --> 00:02:59.540 
+we're not gonna looking into this too
+much<00:02:57.510> we're<00:02:57.840> gonna<00:02:57.900> go<00:02:58.140> straight<00:02:58.590> over<00:02:58.620> to
+
+00:02:59.540 --> 00:02:59.550 
+much we're gonna go straight over to
+
+00:02:59.550 --> 00:03:01.840 
+much we're gonna go straight over to
+using<00:02:59.730> sequel<00:03:00.300> Pro<00:03:00.510> to<00:03:00.570> connect<00:03:01.050> with<00:03:01.320> our
+
+00:03:01.840 --> 00:03:01.850 
+using sequel Pro to connect with our
+
+00:03:01.850 --> 00:03:06.260 
+using sequel Pro to connect with our
+private<00:03:02.850> key<00:03:03.060> so<00:03:04.490> we<00:03:05.490> want<00:03:05.670> to<00:03:05.730> keep<00:03:05.970> known<00:03:06.150> at
+
+00:03:06.260 --> 00:03:06.270 
+private key so we want to keep known at
+
+00:03:06.270 --> 00:03:07.730 
+private key so we want to keep known at
+this<00:03:06.360> password<00:03:06.630> because<00:03:07.440> we're<00:03:07.590> going<00:03:07.680> to
+
+00:03:07.730 --> 00:03:07.740 
+this password because we're going to
+
+00:03:07.740 --> 00:03:08.780 
+this password because we're going to
+have<00:03:07.890> to<00:03:07.980> enter<00:03:08.130> it<00:03:08.400> here
+
+00:03:08.780 --> 00:03:08.790 
+have to enter it here
+
+00:03:08.790 --> 00:03:13.010 
+have to enter it here
+so<00:03:09.830> you<00:03:10.830> need<00:03:10.980> to<00:03:11.130> choose<00:03:11.370> your<00:03:11.400> SSH<00:03:12.209> option<00:03:12.810> so
+
+00:03:13.010 --> 00:03:13.020 
+so you need to choose your SSH option so
+
+00:03:13.020 --> 00:03:16.070 
+so you need to choose your SSH option so
+you<00:03:13.110> need<00:03:13.290> to<00:03:13.530> be<00:03:14.370> able<00:03:14.490> to<00:03:14.610> SSH<00:03:15.180> into<00:03:15.420> this<00:03:15.720> and
+
+00:03:16.070 --> 00:03:16.080 
+you need to be able to SSH into this and
+
+00:03:16.080 --> 00:03:18.500 
+you need to be able to SSH into this and
+we<00:03:16.830> have<00:03:17.010> quite<00:03:17.340> a<00:03:17.400> few<00:03:17.519> options<00:03:18.030> here<00:03:18.120> but
+
+00:03:18.500 --> 00:03:18.510 
+we have quite a few options here but
+
+00:03:18.510 --> 00:03:21.350 
+we have quite a few options here but
+they're<00:03:18.810> all<00:03:19.019> pretty<00:03:19.470> standard<00:03:20.030> so<00:03:21.030> the<00:03:21.150> first
+
+00:03:21.350 --> 00:03:21.360 
+they're all pretty standard so the first
+
+00:03:21.360 --> 00:03:23.810 
+they're all pretty standard so the first
+thing<00:03:21.510> is<00:03:21.630> the<00:03:21.750> MySQL<00:03:22.320> host<00:03:22.650> we<00:03:23.459> know<00:03:23.640> that
+
+00:03:23.810 --> 00:03:23.820 
+thing is the MySQL host we know that
+
+00:03:23.820 --> 00:03:25.490 
+thing is the MySQL host we know that
+this<00:03:23.940> is<00:03:24.120> just<00:03:24.150> going<00:03:24.420> to<00:03:24.510> be<00:03:24.630> our<00:03:24.810> IP<00:03:25.019> address
+
+00:03:25.490 --> 00:03:25.500 
+this is just going to be our IP address
+
+00:03:25.500 --> 00:03:28.550 
+this is just going to be our IP address
+so<00:03:26.459> let's<00:03:26.550> go<00:03:26.760> ahead<00:03:27.000> and<00:03:27.269> paste<00:03:27.930> this<00:03:28.140> in<00:03:28.320> here
+
+00:03:28.550 --> 00:03:28.560 
+so let's go ahead and paste this in here
+
+00:03:28.560 --> 00:03:32.720 
+so let's go ahead and paste this in here
+a<00:03:29.570> username<00:03:30.570> for<00:03:30.810> our<00:03:31.110> MySQL<00:03:31.380> server<00:03:32.100> is<00:03:32.370> root
+
+00:03:32.720 --> 00:03:32.730 
+a username for our MySQL server is root
+
+00:03:32.730 --> 00:03:35.630 
+a username for our MySQL server is root
+and<00:03:33.450> remember<00:03:34.080> we<00:03:34.230> have<00:03:34.440> our<00:03:34.680> mysql<00:03:35.430> password
+
+00:03:35.630 --> 00:03:35.640 
+and remember we have our mysql password
+
+00:03:35.640 --> 00:03:38.810 
+and remember we have our mysql password
+here<00:03:36.239> so<00:03:36.570> I'm<00:03:36.660> going<00:03:36.780> to<00:03:36.870> copy<00:03:37.080> this<00:03:37.340> and<00:03:38.340> I'm
+
+00:03:38.810 --> 00:03:38.820 
+here so I'm going to copy this and I'm
+
+00:03:38.820 --> 00:03:41.000 
+here so I'm going to copy this and I'm
+going<00:03:38.910> to<00:03:38.970> paste<00:03:39.150> that<00:03:39.360> into<00:03:39.510> there<00:03:39.920> we<00:03:40.920> don't
+
+00:03:41.000 --> 00:03:41.010 
+going to paste that into there we don't
+
+00:03:41.010 --> 00:03:42.320 
+going to paste that into there we don't
+need<00:03:41.160> to<00:03:41.280> choose<00:03:41.459> the<00:03:41.610> database<00:03:42.030> that<00:03:42.180> we'll
+
+00:03:42.320 --> 00:03:42.330 
+need to choose the database that we'll
+
+00:03:42.330 --> 00:03:43.940 
+need to choose the database that we'll
+just<00:03:42.360> flicked<00:03:42.989> you<00:03:43.140> straight<00:03:43.500> over<00:03:43.739> to<00:03:43.860> your
+
+00:03:43.940 --> 00:03:43.950 
+just flicked you straight over to your
+
+00:03:43.950 --> 00:03:46.280 
+just flicked you straight over to your
+database<00:03:44.430> and<00:03:44.670> the<00:03:45.330> port<00:03:45.600> we<00:03:45.750> don't<00:03:45.959> need<00:03:46.110> to
+
+00:03:46.280 --> 00:03:46.290 
+database and the port we don't need to
+
+00:03:46.290 --> 00:03:47.900 
+database and the port we don't need to
+change<00:03:46.590> it's<00:03:46.860> going<00:03:47.040> to<00:03:47.100> be<00:03:47.190> three<00:03:47.459> three<00:03:47.670> zero
+
+00:03:47.900 --> 00:03:47.910 
+change it's going to be three three zero
+
+00:03:47.910 --> 00:03:52.729 
+change it's going to be three three zero
+six<00:03:48.320> standard<00:03:49.320> mysql<00:03:49.980> port<00:03:50.600> so<00:03:51.600> the<00:03:51.630> ssh<00:03:52.380> host
+
+00:03:52.729 --> 00:03:52.739 
+six standard mysql port so the ssh host
+
+00:03:52.739 --> 00:03:56.300 
+six standard mysql port so the ssh host
+is<00:03:53.070> the<00:03:53.340> same<00:03:53.580> as<00:03:53.790> the<00:03:53.940> mysql<00:03:54.540> host<00:03:54.860> the<00:03:55.860> ssh
+
+00:03:56.300 --> 00:03:56.310 
+is the same as the mysql host the ssh
+
+00:03:56.310 --> 00:03:59.330 
+is the same as the mysql host the ssh
+user<00:03:56.880> is<00:03:57.209> root<00:03:57.600> now<00:03:58.050> this<00:03:58.230> isn't<00:03:58.410> the<00:03:58.530> same<00:03:58.980> as
+
+00:03:59.330 --> 00:03:59.340 
+user is root now this isn't the same as
+
+00:03:59.340 --> 00:04:02.390 
+user is root now this isn't the same as
+our<00:03:59.790> mysql<00:04:00.480> user<00:04:00.510> this<00:04:01.470> is<00:04:01.650> just<00:04:01.860> basically
+
+00:04:02.390 --> 00:04:02.400 
+our mysql user this is just basically
+
+00:04:02.400 --> 00:04:05.540 
+our mysql user this is just basically
+our<00:04:02.489> servers<00:04:03.060> user<00:04:03.840> and<00:04:04.170> we<00:04:05.160> now<00:04:05.250> need<00:04:05.430> to
+
+00:04:05.540 --> 00:04:05.550 
+our servers user and we now need to
+
+00:04:05.550 --> 00:04:08.090 
+our servers user and we now need to
+change<00:04:05.790> out<00:04:05.970> or<00:04:06.390> choose<00:04:06.840> rather<00:04:07.140> our<00:04:07.440> SSH
+
+00:04:08.090 --> 00:04:08.100 
+change out or choose rather our SSH
+
+00:04:08.100 --> 00:04:10.759 
+change out or choose rather our SSH
+password<00:04:08.989> so<00:04:09.989> in<00:04:10.080> my<00:04:10.200> case<00:04:10.260> I'm<00:04:10.470> going<00:04:10.560> to<00:04:10.680> hit
+
+00:04:10.759 --> 00:04:10.769 
+password so in my case I'm going to hit
+
+00:04:10.769 --> 00:04:13.100 
+password so in my case I'm going to hit
+this<00:04:10.890> key<00:04:11.190> and<00:04:11.459> I<00:04:12.269> can<00:04:12.299> go<00:04:12.540> ahead<00:04:12.660> and<00:04:12.810> choose
+
+00:04:13.100 --> 00:04:13.110 
+this key and I can go ahead and choose
+
+00:04:13.110 --> 00:04:16.159 
+this key and I can go ahead and choose
+project<00:04:13.890> my<00:04:14.220> private<00:04:14.970> key<00:04:15.180> so<00:04:15.450> I<00:04:15.840> click<00:04:16.049> on
+
+00:04:16.159 --> 00:04:16.169 
+project my private key so I click on
+
+00:04:16.169 --> 00:04:18.259 
+project my private key so I click on
+this<00:04:16.380> and<00:04:16.739> that's<00:04:17.519> pretty<00:04:17.640> much<00:04:17.820> it
+
+00:04:18.259 --> 00:04:18.269 
+this and that's pretty much it
+
+00:04:18.269 --> 00:04:19.490 
+this and that's pretty much it
+so<00:04:18.450> I'm<00:04:18.510> going<00:04:18.630> to<00:04:18.720> go<00:04:18.780> ahead<00:04:18.870> and<00:04:19.080> hit<00:04:19.200> test
+
+00:04:19.490 --> 00:04:19.500 
+so I'm going to go ahead and hit test
+
+00:04:19.500 --> 00:04:21.740 
+so I'm going to go ahead and hit test
+connection<00:04:19.799> you<00:04:20.640> can<00:04:20.789> see<00:04:20.910> that's<00:04:21.060> tested<00:04:21.539> and
+
+00:04:21.740 --> 00:04:21.750 
+connection you can see that's tested and
+
+00:04:21.750 --> 00:04:24.830 
+connection you can see that's tested and
+we<00:04:22.710> have<00:04:22.860> a<00:04:22.890> connection<00:04:23.430> succeeded
+
+00:04:24.830 --> 00:04:24.840 
+we have a connection succeeded
+
+00:04:24.840 --> 00:04:26.360 
+we have a connection succeeded
+I'm<00:04:24.900> gonna<00:04:25.020> save<00:04:25.380> these<00:04:25.680> I<00:04:25.919> currently<00:04:26.130> have
+
+00:04:26.360 --> 00:04:26.370 
+I'm gonna save these I currently have
+
+00:04:26.370 --> 00:04:28.310 
+I'm gonna save these I currently have
+this<00:04:26.580> stored<00:04:26.850> in<00:04:26.970> a<00:04:27.030> favorite<00:04:27.570> just<00:04:27.780> over<00:04:28.080> here
+
+00:04:28.310 --> 00:04:28.320 
+this stored in a favorite just over here
+
+00:04:28.320 --> 00:04:30.409 
+this stored in a favorite just over here
+and<00:04:29.010> I'm<00:04:29.190> gonna<00:04:29.280> hit<00:04:29.490> connect<00:04:29.820> and<00:04:30.180> that's
+
+00:04:30.409 --> 00:04:30.419 
+and I'm gonna hit connect and that's
+
+00:04:30.419 --> 00:04:34.719 
+and I'm gonna hit connect and that's
+gonna<00:04:30.949> basically<00:04:31.949> connect<00:04:32.580> me<00:04:32.730> to<00:04:32.760> my<00:04:33.300> SQL
+
+00:04:34.719 --> 00:04:34.729 
+gonna basically connect me to my SQL
+
+00:04:34.729 --> 00:04:37.909 
+gonna basically connect me to my SQL
+MySQL<00:04:35.729> server<00:04:35.970> so<00:04:36.840> now<00:04:37.020> within<00:04:37.199> here<00:04:37.590> you
+
+00:04:37.909 --> 00:04:37.919 
+MySQL server so now within here you
+
+00:04:37.919 --> 00:04:39.740 
+MySQL server so now within here you
+pretty<00:04:38.310> much<00:04:38.430> can<00:04:38.669> do<00:04:38.790> what<00:04:38.940> you<00:04:39.030> want<00:04:39.270> we<00:04:39.540> see
+
+00:04:39.740 --> 00:04:39.750 
+pretty much can do what you want we see
+
+00:04:39.750 --> 00:04:41.629 
+pretty much can do what you want we see
+them<00:04:39.930> three<00:04:40.320> tables<00:04:40.770> that<00:04:40.919> we<00:04:41.010> saw<00:04:41.190> earlier
+
+00:04:41.629 --> 00:04:41.639 
+them three tables that we saw earlier
+
+00:04:41.639 --> 00:04:43.340 
+them three tables that we saw earlier
+when<00:04:41.850> we<00:04:41.880> were<00:04:42.000> connecting<00:04:42.600> with<00:04:43.169> in<00:04:43.260> our
+
+00:04:43.340 --> 00:04:43.350 
+when we were connecting with in our
+
+00:04:43.350 --> 00:04:45.770 
+when we were connecting with in our
+terminal<00:04:43.860> we<00:04:44.639> can<00:04:44.760> go<00:04:44.880> ahead<00:04:44.970> and<00:04:45.120> add<00:04:45.389> a<00:04:45.449> new
+
+00:04:45.770 --> 00:04:45.780 
+terminal we can go ahead and add a new
+
+00:04:45.780 --> 00:04:49.010 
+terminal we can go ahead and add a new
+database<00:04:46.139> so<00:04:46.949> we<00:04:46.979> could<00:04:47.400> create<00:04:47.550> a<00:04:48.120> project
+
+00:04:49.010 --> 00:04:49.020 
+database so we could create a project
+
+00:04:49.020 --> 00:04:52.070 
+database so we could create a project
+database<00:04:49.729> we<00:04:50.729> can<00:04:50.820> go<00:04:50.970> ahead<00:04:51.090> and<00:04:51.240> add<00:04:51.479> tables
+
+00:04:52.070 --> 00:04:52.080 
+database we can go ahead and add tables
+
+00:04:52.080 --> 00:04:54.170 
+database we can go ahead and add tables
+here<00:04:52.350> so<00:04:52.800> we<00:04:52.860> can<00:04:52.979> add<00:04:53.070> the<00:04:53.220> users<00:04:53.639> table<00:04:53.850> for
+
+00:04:54.170 --> 00:04:54.180 
+here so we can add the users table for
+
+00:04:54.180 --> 00:04:56.930 
+here so we can add the users table for
+example<00:04:54.690> and<00:04:55.080> we<00:04:55.620> go<00:04:55.860> ahead<00:04:55.979> and<00:04:56.250> modify<00:04:56.639> the
+
+00:04:56.930 --> 00:04:56.940 
+example and we go ahead and modify the
+
+00:04:56.940 --> 00:05:01.969 
+example and we go ahead and modify the
+structure<00:04:57.360> of<00:04:57.570> it<00:04:59.930> we<00:05:00.930> can<00:05:01.050> do<00:05:01.229> pretty<00:05:01.830> much
+
+00:05:01.969 --> 00:05:01.979 
+structure of it we can do pretty much
+
+00:05:01.979 --> 00:05:04.370 
+structure of it we can do pretty much
+whatever<00:05:02.340> we<00:05:02.490> want<00:05:02.760> over<00:05:03.030> here<00:05:03.270> so<00:05:04.169> now
+
+00:05:04.370 --> 00:05:04.380 
+whatever we want over here so now
+
+00:05:04.380 --> 00:05:06.320 
+whatever we want over here so now
+obviously<00:05:04.710> these<00:05:05.190> changes<00:05:06.000> are<00:05:06.120> going<00:05:06.210> to<00:05:06.270> be
+
+00:05:06.320 --> 00:05:06.330 
+obviously these changes are going to be
+
+00:05:06.330 --> 00:05:08.300 
+obviously these changes are going to be
+reflected<00:05:07.020> so<00:05:07.320> if<00:05:07.410> we<00:05:07.560> just<00:05:07.740> show<00:05:07.979> databases
+
+00:05:08.300 --> 00:05:08.310 
+reflected so if we just show databases
+
+00:05:08.310 --> 00:05:11.030 
+reflected so if we just show databases
+in<00:05:08.880> here<00:05:09.150> we<00:05:09.270> have<00:05:09.419> that<00:05:09.570> project<00:05:10.050> so<00:05:10.860> if<00:05:10.919> we
+
+00:05:11.030 --> 00:05:11.040 
+in here we have that project so if we
+
+00:05:11.040 --> 00:05:14.090 
+in here we have that project so if we
+use<00:05:11.430> project<00:05:12.090> we<00:05:12.780> can<00:05:12.930> go<00:05:13.050> ahead<00:05:13.139> and<00:05:13.590> show
+
+00:05:14.090 --> 00:05:14.100 
+use project we can go ahead and show
+
+00:05:14.100 --> 00:05:18.140 
+use project we can go ahead and show
+tables<00:05:15.740> and<00:05:16.740> there<00:05:17.130> we<00:05:17.190> go<00:05:17.340> so<00:05:17.700> it's<00:05:17.970> pretty
+
+00:05:18.140 --> 00:05:18.150 
+tables and there we go so it's pretty
+
+00:05:18.150 --> 00:05:21.080 
+tables and there we go so it's pretty
+much<00:05:18.270> you<00:05:18.930> know<00:05:19.050> exactly<00:05:19.350> the<00:05:19.530> same<00:05:19.770> thing<00:05:20.090> but
+
+00:05:21.080 --> 00:05:21.090 
+much you know exactly the same thing but
+
+00:05:21.090 --> 00:05:23.840 
+much you know exactly the same thing but
+there<00:05:21.330> we<00:05:21.630> have<00:05:21.930> the<00:05:22.530> ability<00:05:23.010> to<00:05:23.039> connect<00:05:23.729> to
+
+00:05:23.840 --> 00:05:23.850 
+there we have the ability to connect to
+
+00:05:23.850 --> 00:05:28.640 
+there we have the ability to connect to
+our<00:05:23.970> server<00:05:24.710> via<00:05:25.710> a<00:05:25.949> MySQL<00:05:26.880> client<00:05:27.210> and<00:05:27.780> we've
+
+00:05:28.640 --> 00:05:28.650 
+our server via a MySQL client and we've
+
+00:05:28.650 --> 00:05:30.080 
+our server via a MySQL client and we've
+also<00:05:28.800> looked<00:05:29.070> at<00:05:29.310> doing<00:05:29.550> this<00:05:29.729> within<00:05:29.940> our
+
+00:05:30.080 --> 00:05:30.090 
+also looked at doing this within our
+
+00:05:30.090 --> 00:05:32.570 
+also looked at doing this within our
+terminal<00:05:30.720> now<00:05:30.900> in<00:05:31.620> the<00:05:31.710> next<00:05:31.889> video<00:05:32.130> although
+
+00:05:32.570 --> 00:05:32.580 
+terminal now in the next video although
+
+00:05:32.580 --> 00:05:34.610 
+terminal now in the next video although
+I<00:05:32.700> don't<00:05:32.820> entirely<00:05:33.510> advise<00:05:33.870> it<00:05:34.200> we're<00:05:34.500> gonna
+
+00:05:34.610 --> 00:05:34.620 
+I don't entirely advise it we're gonna
+
+00:05:34.620 --> 00:05:37.520 
+I don't entirely advise it we're gonna
+look<00:05:34.830> at<00:05:34.979> how<00:05:35.130> we<00:05:35.190> can<00:05:35.610> use<00:05:35.850> PHP<00:05:36.300> myadmin
+
+00:05:37.520 --> 00:05:37.530 
+look at how we can use PHP myadmin
+
+00:05:37.530 --> 00:05:41.300 
+look at how we can use PHP myadmin
+on<00:05:37.950> our<00:05:38.190> server<00:05:38.490> to<00:05:39.270> manage<00:05:39.870> our<00:05:40.139> database<00:05:41.010> if
+
+00:05:41.300 --> 00:05:41.310 
+on our server to manage our database if
+
+00:05:41.310 --> 00:05:45.050 
+on our server to manage our database if
+we<00:05:41.550> want<00:05:41.760> or<00:05:42.090> databases
+
