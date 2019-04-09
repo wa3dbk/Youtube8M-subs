@@ -1,0 +1,1040 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:09.509 --> 00:00:13.650 
+
+okay<00:00:10.509> so<00:00:10.570> after<00:00:11.530> removing<00:00:12.040> the<00:00:12.280> ROM<00:00:13.089> chip<00:00:13.389> from
+
+00:00:13.650 --> 00:00:13.660 
+okay so after removing the ROM chip from
+
+00:00:13.660 --> 00:00:16.680 
+okay so after removing the ROM chip from
+the<00:00:13.900> Game<00:00:14.110> Boy<00:00:14.259> cartridge<00:00:14.559> PCB<00:00:15.280> the<00:00:15.549> next<00:00:16.510> step
+
+00:00:16.680 --> 00:00:16.690 
+the Game Boy cartridge PCB the next step
+
+00:00:16.690 --> 00:00:20.400 
+the Game Boy cartridge PCB the next step
+is<00:00:16.900> to<00:00:17.230> interface<00:00:18.130> the<00:00:18.190> flash<00:00:19.150> chip<00:00:19.450> with<00:00:20.050> your
+
+00:00:20.400 --> 00:00:20.410 
+is to interface the flash chip with your
+
+00:00:20.410 --> 00:00:26.040 
+is to interface the flash chip with your
+PCB<00:00:21.010> using<00:00:21.520> the<00:00:21.760> interface<00:00:22.420> wires<00:00:24.810> so<00:00:25.810> we<00:00:25.930> have
+
+00:00:26.040 --> 00:00:26.050 
+PCB using the interface wires so we have
+
+00:00:26.050 --> 00:00:28.320 
+PCB using the interface wires so we have
+to<00:00:26.170> make<00:00:26.350> sure<00:00:26.560> that<00:00:26.830> we<00:00:26.980> interface<00:00:27.520> the<00:00:27.910> flash
+
+00:00:28.320 --> 00:00:28.330 
+to make sure that we interface the flash
+
+00:00:28.330 --> 00:00:31.620 
+to make sure that we interface the flash
+chip<00:00:28.630> to<00:00:29.230> the<00:00:29.380> PCB<00:00:30.160> with<00:00:30.880> the<00:00:31.000> correct<00:00:31.300> pin
+
+00:00:31.620 --> 00:00:31.630 
+chip to the PCB with the correct pin
+
+00:00:31.630 --> 00:00:33.480 
+chip to the PCB with the correct pin
+connections<00:00:32.170> according<00:00:32.680> to<00:00:32.860> the<00:00:33.040> diagram
+
+00:00:33.480 --> 00:00:33.490 
+connections according to the diagram
+
+00:00:33.490 --> 00:00:38.580 
+connections according to the diagram
+which<00:00:33.790> I've<00:00:33.970> provided<00:00:36.840> and<00:00:37.840> so<00:00:38.320> what<00:00:38.470> we're
+
+00:00:38.580 --> 00:00:38.590 
+which I've provided and so what we're
+
+00:00:38.590 --> 00:00:40.890 
+which I've provided and so what we're
+gonna<00:00:38.650> be<00:00:38.890> doing<00:00:39.190> is<00:00:39.370> interfacing<00:00:39.940> the<00:00:40.360> Atmel
+
+00:00:40.890 --> 00:00:40.900 
+gonna be doing is interfacing the Atmel
+
+00:00:40.900 --> 00:00:45.060 
+gonna be doing is interfacing the Atmel
+flash<00:00:41.380> chip<00:00:41.740> as<00:00:42.430> you<00:00:42.580> can<00:00:42.730> see<00:00:42.910> here<00:00:43.180> the<00:00:44.020> 84<00:00:44.890> 9
+
+00:00:45.060 --> 00:00:45.070 
+flash chip as you can see here the 84 9
+
+00:00:45.070 --> 00:00:49.590 
+flash chip as you can see here the 84 9
+F<00:00:45.370> 0<00:00:45.730> 4<00:00:46.060> 0<00:00:46.090> which<00:00:46.690> is<00:00:46.930> a<00:00:46.960> 512<00:00:47.920> KB<00:00:48.400> flash<00:00:48.880> chip<00:00:49.240> and
+
+00:00:49.590 --> 00:00:49.600 
+F 0 4 0 which is a 512 KB flash chip and
+
+00:00:49.600 --> 00:00:52.680 
+F 0 4 0 which is a 512 KB flash chip and
+it's<00:00:50.350> a<00:00:50.470> 5<00:00:50.740> volt<00:00:50.980> flash<00:00:51.340> chip<00:00:51.690> which
+
+00:00:52.680 --> 00:00:52.690 
+it's a 5 volt flash chip which
+
+00:00:52.690 --> 00:00:55.920 
+it's a 5 volt flash chip which
+accommodates<00:00:53.260> most<00:00:53.890> sizes<00:00:54.220> for<00:00:55.180> Game<00:00:55.750> Boy
+
+00:00:55.920 --> 00:00:55.930 
+accommodates most sizes for Game Boy
+
+00:00:55.930 --> 00:00:59.010 
+accommodates most sizes for Game Boy
+games<00:00:56.350> and<00:00:56.800> the<00:00:57.730> most<00:00:58.210> custom<00:00:58.720> code<00:00:58.899> that
+
+00:00:59.010 --> 00:00:59.020 
+games and the most custom code that
+
+00:00:59.020 --> 00:01:01.020 
+games and the most custom code that
+you're<00:00:59.110> gonna<00:00:59.230> be<00:00:59.320> doing<00:00:59.590> will<00:00:59.890> be<00:01:00.030> fairly
+
+00:01:01.020 --> 00:01:01.030 
+you're gonna be doing will be fairly
+
+00:01:01.030 --> 00:01:04.799 
+you're gonna be doing will be fairly
+small<00:01:01.960> in<00:01:02.290> the<00:01:02.440> beginning<00:01:02.829> so<00:01:03.180> it's<00:01:04.180> more<00:01:04.629> than
+
+00:01:04.799 --> 00:01:04.809 
+small in the beginning so it's more than
+
+00:01:04.809 --> 00:01:06.060 
+small in the beginning so it's more than
+you<00:01:04.900> need<00:01:05.080> when<00:01:05.260> if<00:01:05.409> you're<00:01:05.560> playing<00:01:05.979> around
+
+00:01:06.060 --> 00:01:06.070 
+you need when if you're playing around
+
+00:01:06.070 --> 00:01:11.399 
+you need when if you're playing around
+with<00:01:06.310> your<00:01:06.460> own<00:01:06.640> in-game<00:01:06.820> clothes<00:01:10.409> now
+
+00:01:11.399 --> 00:01:11.409 
+with your own in-game clothes now
+
+00:01:11.409 --> 00:01:12.420 
+with your own in-game clothes now
+there's<00:01:11.620> a<00:01:11.680> couple<00:01:11.860> of<00:01:11.979> ways<00:01:12.100> that<00:01:12.130> you<00:01:12.340> could
+
+00:01:12.420 --> 00:01:12.430 
+there's a couple of ways that you could
+
+00:01:12.430 --> 00:01:14.340 
+there's a couple of ways that you could
+do<00:01:12.550> this<00:01:12.700> project<00:01:12.909> you<00:01:13.390> can<00:01:13.600> choose<00:01:13.990> to
+
+00:01:14.340 --> 00:01:14.350 
+do this project you can choose to
+
+00:01:14.350 --> 00:01:16.380 
+do this project you can choose to
+actually<00:01:14.800> have<00:01:15.010> the<00:01:15.310> Atmel<00:01:15.760> flash<00:01:16.060> chip
+
+00:01:16.380 --> 00:01:16.390 
+actually have the Atmel flash chip
+
+00:01:16.390 --> 00:01:18.600 
+actually have the Atmel flash chip
+embedded<00:01:16.720> directly<00:01:17.560> inside<00:01:17.950> the<00:01:18.010> cartridge
+
+00:01:18.600 --> 00:01:18.610 
+embedded directly inside the cartridge
+
+00:01:18.610 --> 00:01:20.940 
+embedded directly inside the cartridge
+and<00:01:18.850> leave<00:01:19.659> it<00:01:19.810> there<00:01:19.840> permanently<00:01:20.200> connected
+
+00:01:20.940 --> 00:01:20.950 
+and leave it there permanently connected
+
+00:01:20.950 --> 00:01:23.130 
+and leave it there permanently connected
+so<00:01:21.670> using<00:01:22.000> this<00:01:22.120> type<00:01:22.330> of<00:01:22.360> a<00:01:22.570> programming
+
+00:01:23.130 --> 00:01:23.140 
+so using this type of a programming
+
+00:01:23.140 --> 00:01:26.250 
+so using this type of a programming
+interface<00:01:23.290> the<00:01:23.860> dockable<00:01:24.820> cartridge<00:01:25.390> type<00:01:26.080> of
+
+00:01:26.250 --> 00:01:26.260 
+interface the dockable cartridge type of
+
+00:01:26.260 --> 00:01:29.190 
+interface the dockable cartridge type of
+a<00:01:26.350> programmer<00:01:26.850> the<00:01:27.850> signals<00:01:28.360> for<00:01:28.600> programming
+
+00:01:29.190 --> 00:01:29.200 
+a programmer the signals for programming
+
+00:01:29.200 --> 00:01:30.660 
+a programmer the signals for programming
+the<00:01:29.260> chip<00:01:29.530> are<00:01:29.710> actually<00:01:30.070> sent<00:01:30.369> through<00:01:30.640> the
+
+00:01:30.660 --> 00:01:30.670 
+the chip are actually sent through the
+
+00:01:30.670 --> 00:01:35.600 
+the chip are actually sent through the
+trace<00:01:31.090> lines<00:01:31.330> of<00:01:31.630> the<00:01:31.810> cartridge<00:01:32.260> PCB
+
+00:01:35.600 --> 00:01:35.610 
+
+00:01:35.610 --> 00:01:38.450 
+
+so<00:01:36.180> anyhow<00:01:36.780> essentially<00:01:37.290> the<00:01:37.470> next<00:01:38.070> step<00:01:38.280> is
+
+00:01:38.450 --> 00:01:38.460 
+so anyhow essentially the next step is
+
+00:01:38.460 --> 00:01:41.390 
+so anyhow essentially the next step is
+to<00:01:38.700> just<00:01:38.730> follow<00:01:39.210> the<00:01:39.480> in<00:01:40.140> wiring<00:01:40.860> diagram
+
+00:01:41.390 --> 00:01:41.400 
+to just follow the in wiring diagram
+
+00:01:41.400 --> 00:01:43.250 
+to just follow the in wiring diagram
+which<00:01:41.820> I<00:01:41.940> provided<00:01:42.330> in<00:01:42.540> the<00:01:42.630> PDF<00:01:43.020> document
+
+00:01:43.250 --> 00:01:43.260 
+which I provided in the PDF document
+
+00:01:43.260 --> 00:01:47.480 
+which I provided in the PDF document
+that<00:01:45.290> I<00:01:46.290> have<00:01:46.350> available<00:01:46.920> in<00:01:47.070> the<00:01:47.220> description
+
+00:01:47.480 --> 00:01:47.490 
+that I have available in the description
+
+00:01:47.490 --> 00:01:49.430 
+that I have available in the description
+of<00:01:47.970> this<00:01:48.090> YouTube<00:01:48.540> video<00:01:48.660> the<00:01:48.990> download<00:01:49.290> link
+
+00:01:49.430 --> 00:01:49.440 
+of this YouTube video the download link
+
+00:01:49.440 --> 00:01:53.600 
+of this YouTube video the download link
+is<00:01:49.560> there<00:01:49.680> for<00:01:49.950> you<00:01:51.530> so<00:01:52.530> I'll<00:01:53.160> throw<00:01:53.370> it<00:01:53.430> up<00:01:53.520> on
+
+00:01:53.600 --> 00:01:53.610 
+is there for you so I'll throw it up on
+
+00:01:53.610 --> 00:01:55.520 
+is there for you so I'll throw it up on
+the<00:01:53.670> screen<00:01:53.790> here<00:01:54.000> so<00:01:54.390> as<00:01:54.510> long<00:01:54.660> as<00:01:54.720> you<00:01:55.050> follow
+
+00:01:55.520 --> 00:01:55.530 
+the screen here so as long as you follow
+
+00:01:55.530 --> 00:01:57.950 
+the screen here so as long as you follow
+the<00:01:55.770> wiring<00:01:56.310> connections<00:01:57.120> exactly<00:01:57.720> as<00:01:57.810> I've
+
+00:01:57.950 --> 00:01:57.960 
+the wiring connections exactly as I've
+
+00:01:57.960 --> 00:02:00.950 
+the wiring connections exactly as I've
+laid<00:01:58.200> out<00:01:58.230> to<00:01:58.980> your<00:01:59.220> flash<00:01:59.460> tip<00:01:59.790> you<00:02:00.750> shouldn't
+
+00:02:00.950 --> 00:02:00.960 
+laid out to your flash tip you shouldn't
+
+00:02:00.960 --> 00:02:02.930 
+laid out to your flash tip you shouldn't
+have<00:02:01.110> any<00:02:01.260> issues<00:02:01.290> whatsoever<00:02:01.800> and<00:02:02.280> just<00:02:02.310> make
+
+00:02:02.930 --> 00:02:02.940 
+have any issues whatsoever and just make
+
+00:02:02.940 --> 00:02:04.970 
+have any issues whatsoever and just make
+sure<00:02:02.970> that<00:02:03.330> you<00:02:03.450> remember<00:02:03.840> the<00:02:03.960> 47k<00:02:04.830> ohm
+
+00:02:04.970 --> 00:02:04.980 
+sure that you remember the 47k ohm
+
+00:02:04.980 --> 00:02:08.150 
+sure that you remember the 47k ohm
+resistor<00:02:05.520> which<00:02:05.970> is<00:02:06.000> interface<00:02:06.570> to<00:02:06.930> tap<00:02:07.470> 31
+
+00:02:08.150 --> 00:02:08.160 
+resistor which is interface to tap 31
+
+00:02:08.160 --> 00:02:12.470 
+resistor which is interface to tap 31
+and<00:02:08.479> also<00:02:09.479> connects<00:02:09.990> to<00:02:10.200> n<00:02:10.679> 31<00:02:11.430> of<00:02:11.670> the<00:02:12.240> flash
+
+00:02:12.470 --> 00:02:12.480 
+and also connects to n 31 of the flash
+
+00:02:12.480 --> 00:02:22.940 
+and also connects to n 31 of the flash
+chip<00:02:20.780> so<00:02:21.780> just<00:02:21.990> to<00:02:22.050> make<00:02:22.170> it<00:02:22.290> easier<00:02:22.560> to<00:02:22.620> read
+
+00:02:22.940 --> 00:02:22.950 
+chip so just to make it easier to read
+
+00:02:22.950 --> 00:02:26.810 
+chip so just to make it easier to read
+the<00:02:23.730> PCB<00:02:24.600> contacts<00:02:25.470> for<00:02:25.860> the<00:02:26.070> flash<00:02:26.520> tip
+
+00:02:26.810 --> 00:02:26.820 
+the PCB contacts for the flash tip
+
+00:02:26.820 --> 00:02:30.110 
+the PCB contacts for the flash tip
+itself<00:02:27.410> i've<00:02:28.410> highlighted<00:02:29.100> in<00:02:29.520> blue<00:02:29.820> in<00:02:30.000> the
+
+00:02:30.110 --> 00:02:30.120 
+itself i've highlighted in blue in the
+
+00:02:30.120 --> 00:02:32.840 
+itself i've highlighted in blue in the
+diagram<00:02:30.600> just<00:02:31.140> so<00:02:31.230> you<00:02:31.320> know<00:02:31.400> which<00:02:32.400> which
+
+00:02:32.840 --> 00:02:32.850 
+diagram just so you know which which
+
+00:02:32.850 --> 00:02:36.080 
+diagram just so you know which which
+connections<00:02:33.720> those<00:02:33.870> are<00:02:34.080> for<00:02:34.350> so<00:02:34.790> the<00:02:35.790> ROM
+
+00:02:36.080 --> 00:02:36.090 
+connections those are for so the ROM
+
+00:02:36.090 --> 00:02:39.320 
+connections those are for so the ROM
+connections<00:02:36.780> for<00:02:37.530> the<00:02:37.770> chip<00:02:38.070> are<00:02:38.820> highlighted
+
+00:02:39.320 --> 00:02:39.330 
+connections for the chip are highlighted
+
+00:02:39.330 --> 00:02:43.970 
+connections for the chip are highlighted
+in<00:02:39.390> blue<00:02:39.660> in<00:02:39.930> the<00:02:40.110> diagram<00:02:40.610> and<00:02:42.650> all<00:02:43.650> of<00:02:43.860> the
+
+00:02:43.970 --> 00:02:43.980 
+in blue in the diagram and all of the
+
+00:02:43.980 --> 00:02:46.850 
+in blue in the diagram and all of the
+appropriate<00:02:44.870> pin<00:02:45.870> designations<00:02:46.560> for<00:02:46.709> the
+
+00:02:46.850 --> 00:02:46.860 
+appropriate pin designations for the
+
+00:02:46.860 --> 00:02:49.940 
+appropriate pin designations for the
+chip<00:02:47.100> are<00:02:47.310> labeled<00:02:47.970> accordingly<00:02:48.739> so<00:02:49.739> if<00:02:49.830> you
+
+00:02:49.940 --> 00:02:49.950 
+chip are labeled accordingly so if you
+
+00:02:49.950 --> 00:02:51.380 
+chip are labeled accordingly so if you
+have<00:02:50.070> any<00:02:50.220> issues<00:02:50.640> with<00:02:50.670> that<00:02:50.790> you<00:02:51.090> can<00:02:51.239> always
+
+00:02:51.380 --> 00:02:51.390 
+have any issues with that you can always
+
+00:02:51.390 --> 00:02:54.620 
+have any issues with that you can always
+compare<00:02:52.230> those<00:02:52.440> connection<00:02:53.330> indicators<00:02:54.330> to
+
+00:02:54.620 --> 00:02:54.630 
+compare those connection indicators to
+
+00:02:54.630 --> 00:03:00.259 
+compare those connection indicators to
+the<00:02:54.870> datasheet<00:02:55.200> or<00:02:55.650> the<00:02:55.830> Atmel<00:02:56.160> flash<00:02:56.459> chip
+
+00:03:00.259 --> 00:03:00.269 
+
+00:03:00.269 --> 00:03:04.050 
+
+so<00:03:01.269> now<00:03:01.540> sometimes<00:03:02.379> the<00:03:02.709> data<00:03:03.040> sheets<00:03:03.430> have
+
+00:03:04.050 --> 00:03:04.060 
+so now sometimes the data sheets have
+
+00:03:04.060 --> 00:03:06.839 
+so now sometimes the data sheets have
+different<00:03:04.510> pin<00:03:05.110> assignment<00:03:05.560> names<00:03:05.849> compared
+
+00:03:06.839 --> 00:03:06.849 
+different pin assignment names compared
+
+00:03:06.849 --> 00:03:09.540 
+different pin assignment names compared
+to<00:03:07.060> other<00:03:07.480> data<00:03:07.750> sheets<00:03:08.050> and<00:03:08.260> so<00:03:08.980> just<00:03:09.310> as<00:03:09.430> an
+
+00:03:09.540 --> 00:03:09.550 
+to other data sheets and so just as an
+
+00:03:09.550 --> 00:03:12.750 
+to other data sheets and so just as an
+example<00:03:09.879> for<00:03:10.300> instance<00:03:10.480> the<00:03:11.050> the<00:03:11.760> cartridge
+
+00:03:12.750 --> 00:03:12.760 
+example for instance the the cartridge
+
+00:03:12.760 --> 00:03:17.009 
+example for instance the the cartridge
+PCB<00:03:13.480> is<00:03:14.019> labeled<00:03:14.530> d0<00:03:15.010> for<00:03:15.280> data<00:03:15.489> pin<00:03:15.760> 0<00:03:16.090> whereas
+
+00:03:17.009 --> 00:03:17.019 
+PCB is labeled d0 for data pin 0 whereas
+
+00:03:17.019 --> 00:03:18.479 
+PCB is labeled d0 for data pin 0 whereas
+in<00:03:17.170> the<00:03:17.230> datasheet<00:03:17.590> it<00:03:17.950> actually<00:03:18.400> is
+
+00:03:18.479 --> 00:03:18.489 
+in the datasheet it actually is
+
+00:03:18.489 --> 00:03:20.820 
+in the datasheet it actually is
+indicated<00:03:19.030> as<00:03:19.150> IO<00:03:19.420> for<00:03:20.049> input-output
+
+00:03:20.820 --> 00:03:20.830 
+indicated as IO for input-output
+
+00:03:20.830 --> 00:03:23.850 
+indicated as IO for input-output
+connections<00:03:21.519> 0<00:03:22.239> so<00:03:22.750> sometimes<00:03:23.680> they're
+
+00:03:23.850 --> 00:03:23.860 
+connections 0 so sometimes they're
+
+00:03:23.860 --> 00:03:25.229 
+connections 0 so sometimes they're
+different<00:03:24.099> so<00:03:24.580> you<00:03:24.670> just<00:03:24.819> have<00:03:24.970> to<00:03:25.060> be<00:03:25.150> aware
+
+00:03:25.229 --> 00:03:25.239 
+different so you just have to be aware
+
+00:03:25.239 --> 00:03:27.809 
+different so you just have to be aware
+of<00:03:25.510> that<00:03:25.629> but<00:03:25.989> you<00:03:26.290> can<00:03:26.440> always<00:03:26.709> check<00:03:27.010> and
+
+00:03:27.809 --> 00:03:27.819 
+of that but you can always check and
+
+00:03:27.819 --> 00:03:29.460 
+of that but you can always check and
+within<00:03:28.209> the<00:03:28.420> datasheet<00:03:28.720> it<00:03:28.959> should<00:03:29.110> explain
+
+00:03:29.460 --> 00:03:29.470 
+within the datasheet it should explain
+
+00:03:29.470 --> 00:03:31.650 
+within the datasheet it should explain
+what<00:03:29.650> those<00:03:29.830> pins<00:03:30.099> are<00:03:30.340> and<00:03:30.640> you<00:03:31.360> can<00:03:31.510> just
+
+00:03:31.650 --> 00:03:31.660 
+what those pins are and you can just
+
+00:03:31.660 --> 00:03:33.809 
+what those pins are and you can just
+confirm<00:03:32.170> that<00:03:32.590> they're<00:03:32.769> actually<00:03:32.980> a<00:03:33.220> data<00:03:33.549> pin
+
+00:03:33.809 --> 00:03:33.819 
+confirm that they're actually a data pin
+
+00:03:33.819 --> 00:03:37.140 
+confirm that they're actually a data pin
+or<00:03:34.180> an<00:03:34.420> address<00:03:34.599> pin<00:03:35.430> so<00:03:36.430> now<00:03:36.579> for<00:03:36.910> this
+
+00:03:37.140 --> 00:03:37.150 
+or an address pin so now for this
+
+00:03:37.150 --> 00:03:38.759 
+or an address pin so now for this
+particular<00:03:37.390> cartridge<00:03:37.989> that<00:03:38.079> I've<00:03:38.349> built
+
+00:03:38.759 --> 00:03:38.769 
+particular cartridge that I've built
+
+00:03:38.769 --> 00:03:42.449 
+particular cartridge that I've built
+I<00:03:38.920> use<00:03:39.430> an<00:03:39.610> external<00:03:40.470> socket<00:03:41.470> which<00:03:41.680> is<00:03:41.829> a<00:03:41.860> PLC
+
+00:03:42.449 --> 00:03:42.459 
+I use an external socket which is a PLC
+
+00:03:42.459 --> 00:03:45.509 
+I use an external socket which is a PLC
+see<00:03:42.670> socket<00:03:43.180> which<00:03:43.299> is<00:03:43.480> the<00:03:43.739> 32<00:03:44.739> pin<00:03:45.069> socket
+
+00:03:45.509 --> 00:03:45.519 
+see socket which is the 32 pin socket
+
+00:03:45.519 --> 00:03:46.860 
+see socket which is the 32 pin socket
+that<00:03:45.640> I'd<00:03:45.760> have<00:03:45.849> attached<00:03:46.150> to<00:03:46.420> the<00:03:46.510> enclosure
+
+00:03:46.860 --> 00:03:46.870 
+that I'd have attached to the enclosure
+
+00:03:46.870 --> 00:03:48.600 
+that I'd have attached to the enclosure
+as<00:03:47.230> you<00:03:47.349> can<00:03:47.500> see<00:03:47.680> here<00:03:47.860> in<00:03:47.980> the<00:03:48.069> image<00:03:48.370> and
+
+00:03:48.600 --> 00:03:48.610 
+as you can see here in the image and
+
+00:03:48.610 --> 00:03:50.759 
+as you can see here in the image and
+what<00:03:49.360> the<00:03:49.480> way<00:03:49.599> that<00:03:49.780> I<00:03:49.810> have<00:03:49.989> interfaced<00:03:50.470> this
+
+00:03:50.759 --> 00:03:50.769 
+what the way that I have interfaced this
+
+00:03:50.769 --> 00:03:53.420 
+what the way that I have interfaced this
+is<00:03:50.950> I<00:03:51.040> have<00:03:51.280> extension<00:03:51.879> oners<00:03:52.239> using<00:03:52.840> the<00:03:52.989> 30
+
+00:03:53.420 --> 00:03:53.430 
+is I have extension oners using the 30
+
+00:03:53.430 --> 00:03:56.819 
+is I have extension oners using the 30
+gauge<00:03:54.430> wire<00:03:54.760> to<00:03:55.510> make<00:03:56.349> those<00:03:56.530> connections
+
+00:03:56.819 --> 00:03:56.829 
+gauge wire to make those connections
+
+00:03:56.829 --> 00:04:01.610 
+gauge wire to make those connections
+between<00:03:57.370> the<00:03:57.730> PCB<00:03:58.239> contact<00:03:59.430> for<00:04:00.430> the<00:04:00.549> ROM<00:04:00.730> and
+
+00:04:01.610 --> 00:04:01.620 
+between the PCB contact for the ROM and
+
+00:04:01.620 --> 00:04:04.680 
+between the PCB contact for the ROM and
+connecting<00:04:02.620> those<00:04:02.769> to<00:04:03.519> the<00:04:03.850> actual<00:04:04.209> p2<00:04:04.569> the
+
+00:04:04.680 --> 00:04:04.690 
+connecting those to the actual p2 the
+
+00:04:04.690 --> 00:04:07.860 
+connecting those to the actual p2 the
+PLC<00:04:05.079> see<00:04:05.260> socket<00:04:05.739> to<00:04:05.950> accommodate<00:04:06.489> the<00:04:06.870> PLC
+
+00:04:07.860 --> 00:04:07.870 
+PLC see socket to accommodate the PLC
+
+00:04:07.870 --> 00:04:11.099 
+PLC see socket to accommodate the PLC
+see<00:04:08.049> 32<00:04:08.739> pin<00:04:09.010> Atmel<00:04:09.489> flash<00:04:09.790> chip<00:04:10.030> so<00:04:10.840> it's<00:04:10.989> just
+
+00:04:11.099 --> 00:04:11.109 
+see 32 pin Atmel flash chip so it's just
+
+00:04:11.109 --> 00:04:12.300 
+see 32 pin Atmel flash chip so it's just
+a<00:04:11.230> different<00:04:11.530> way<00:04:11.590> of<00:04:11.620> doing<00:04:11.799> it<00:04:12.040> it<00:04:12.160> allows
+
+00:04:12.300 --> 00:04:12.310 
+a different way of doing it it allows
+
+00:04:12.310 --> 00:04:13.860 
+a different way of doing it it allows
+you<00:04:12.489> to<00:04:12.549> remove<00:04:12.790> the<00:04:12.910> chip<00:04:13.150> for<00:04:13.299> programming
+
+00:04:13.860 --> 00:04:13.870 
+you to remove the chip for programming
+
+00:04:13.870 --> 00:04:17.430 
+you to remove the chip for programming
+it<00:04:14.079> makes<00:04:14.290> a<00:04:14.470> little<00:04:14.620> easier<00:04:15.299> now<00:04:16.299> again<00:04:16.989> as<00:04:17.320> I
+
+00:04:17.430 --> 00:04:17.440 
+it makes a little easier now again as I
+
+00:04:17.440 --> 00:04:18.839 
+it makes a little easier now again as I
+mentioned<00:04:17.470> before<00:04:17.859> if<00:04:18.280> you're<00:04:18.489> going<00:04:18.669> to<00:04:18.760> be
+
+00:04:18.839 --> 00:04:18.849 
+mentioned before if you're going to be
+
+00:04:18.849 --> 00:04:22.050 
+mentioned before if you're going to be
+changing<00:04:19.329> the<00:04:19.510> game<00:04:20.200> image<00:04:20.769> frequently<00:04:21.669> or<00:04:21.940> if
+
+00:04:22.050 --> 00:04:22.060 
+changing the game image frequently or if
+
+00:04:22.060 --> 00:04:24.510 
+changing the game image frequently or if
+you're<00:04:22.210> playing<00:04:22.419> with<00:04:22.599> code<00:04:22.840> a<00:04:22.870> lot<00:04:23.190> you<00:04:24.190> might
+
+00:04:24.510 --> 00:04:24.520 
+you're playing with code a lot you might
+
+00:04:24.520 --> 00:04:27.390 
+you're playing with code a lot you might
+want<00:04:24.789> to<00:04:24.880> use<00:04:25.450> a<00:04:25.479> as<00:04:26.229> if<00:04:26.590> socket<00:04:26.979> which<00:04:27.130> is<00:04:27.250> the
+
+00:04:27.390 --> 00:04:27.400 
+want to use a as if socket which is the
+
+00:04:27.400 --> 00:04:29.760 
+want to use a as if socket which is the
+zero<00:04:27.760> insertion<00:04:28.090> force<00:04:28.500> socket<00:04:29.500> as<00:04:29.620> I've
+
+00:04:29.760 --> 00:04:29.770 
+zero insertion force socket as I've
+
+00:04:29.770 --> 00:04:36.900 
+zero insertion force socket as I've
+mentioned<00:04:29.889> before
+
+00:04:36.900 --> 00:04:36.910 
+
+00:04:36.910 --> 00:04:39.940 
+
+and<00:04:37.910> it's<00:04:38.180> also<00:04:38.360> a<00:04:38.510> good<00:04:38.780> point<00:04:39.200> to<00:04:39.320> remember
+
+00:04:39.940 --> 00:04:39.950 
+and it's also a good point to remember
+
+00:04:39.950 --> 00:04:41.350 
+and it's also a good point to remember
+that<00:04:40.190> you<00:04:40.610> don't<00:04:40.730> want<00:04:40.940> to<00:04:41.000> have<00:04:41.150> the
+
+00:04:41.350 --> 00:04:41.360 
+that you don't want to have the
+
+00:04:41.360 --> 00:04:43.960 
+that you don't want to have the
+extension<00:04:42.230> wires<00:04:42.440> too<00:04:43.070> long<00:04:43.340> because<00:04:43.670> you
+
+00:04:43.960 --> 00:04:43.970 
+extension wires too long because you
+
+00:04:43.970 --> 00:04:46.660 
+extension wires too long because you
+have<00:04:44.090> to<00:04:44.270> be<00:04:44.420> able<00:04:44.510> to<00:04:44.920> push<00:04:45.920> them<00:04:46.130> inside<00:04:46.310> the
+
+00:04:46.660 --> 00:04:46.670 
+have to be able to push them inside the
+
+00:04:46.670 --> 00:04:47.920 
+have to be able to push them inside the
+cartridge<00:04:47.090> when<00:04:47.330> you're<00:04:47.450> going<00:04:47.780> to<00:04:47.870> be
+
+00:04:47.920 --> 00:04:47.930 
+cartridge when you're going to be
+
+00:04:47.930 --> 00:04:49.270 
+cartridge when you're going to be
+closing<00:04:48.200> the<00:04:48.440> cartridge<00:04:48.800> up<00:04:48.980> once<00:04:49.160> you're
+
+00:04:49.270 --> 00:04:49.280 
+closing the cartridge up once you're
+
+00:04:49.280 --> 00:04:51.670 
+closing the cartridge up once you're
+done<00:04:49.430> all<00:04:49.580> the<00:04:49.700> soldering<00:04:50.060> so<00:04:50.960> as<00:04:51.050> long<00:04:51.230> as<00:04:51.290> you
+
+00:04:51.670 --> 00:04:51.680 
+done all the soldering so as long as you
+
+00:04:51.680 --> 00:04:55.330 
+done all the soldering so as long as you
+match<00:04:52.400> the<00:04:52.880> diagram<00:04:53.660> wiring<00:04:54.440> diagram<00:04:55.130> that<00:04:55.160> I
+
+00:04:55.330 --> 00:04:55.340 
+match the diagram wiring diagram that I
+
+00:04:55.340 --> 00:04:57.430 
+match the diagram wiring diagram that I
+have<00:04:55.580> in<00:04:55.850> the<00:04:56.150> PDF<00:04:56.510> as<00:04:56.840> long<00:04:57.020> as<00:04:57.170> you<00:04:57.260> match
+
+00:04:57.430 --> 00:04:57.440 
+have in the PDF as long as you match
+
+00:04:57.440 --> 00:05:00.250 
+have in the PDF as long as you match
+those<00:04:57.680> connections<00:04:58.280> accordingly<00:04:58.910> and<00:04:59.270> you
+
+00:05:00.250 --> 00:05:00.260 
+those connections accordingly and you
+
+00:05:00.260 --> 00:05:02.350 
+those connections accordingly and you
+have<00:05:00.440> enough<00:05:00.680> room<00:05:00.920> to<00:05:00.950> push<00:05:01.910> all<00:05:02.060> the<00:05:02.180> wires
+
+00:05:02.350 --> 00:05:02.360 
+have enough room to push all the wires
+
+00:05:02.360 --> 00:05:04.270 
+have enough room to push all the wires
+inside<00:05:02.660> the<00:05:02.930> cartridge<00:05:03.380> you<00:05:03.710> should<00:05:03.980> be<00:05:04.070> fine
+
+00:05:04.270 --> 00:05:04.280 
+inside the cartridge you should be fine
+
+00:05:04.280 --> 00:05:05.620 
+inside the cartridge you should be fine
+but<00:05:04.610> just<00:05:04.640> make<00:05:04.940> sure<00:05:04.970> you<00:05:05.210> don't<00:05:05.390> make<00:05:05.540> them
+
+00:05:05.620 --> 00:05:05.630 
+but just make sure you don't make them
+
+00:05:05.630 --> 00:05:07.870 
+but just make sure you don't make them
+too<00:05:05.840> long<00:05:05.990> because<00:05:06.350> you<00:05:06.560> don't<00:05:06.740> want<00:05:06.920> them<00:05:07.100> to
+
+00:05:07.870 --> 00:05:07.880 
+too long because you don't want them to
+
+00:05:07.880 --> 00:05:08.950 
+too long because you don't want them to
+be<00:05:08.000> you<00:05:08.180> don't<00:05:08.300> want<00:05:08.419> the<00:05:08.540> cartridge
+
+00:05:08.950 --> 00:05:08.960 
+be you don't want the cartridge
+
+00:05:08.960 --> 00:05:11.020 
+be you don't want the cartridge
+enclosure<00:05:09.470> to<00:05:09.680> be<00:05:09.800> crowding<00:05:10.370> and<00:05:10.460> cramming
+
+00:05:11.020 --> 00:05:11.030 
+enclosure to be crowding and cramming
+
+00:05:11.030 --> 00:05:13.540 
+enclosure to be crowding and cramming
+the<00:05:11.120> wires<00:05:11.330> and<00:05:11.690> so<00:05:11.960> tight<00:05:12.260> that<00:05:12.290> it<00:05:12.560> may<00:05:13.370> cause
+
+00:05:13.540 --> 00:05:13.550 
+the wires and so tight that it may cause
+
+00:05:13.550 --> 00:05:16.200 
+the wires and so tight that it may cause
+you<00:05:13.610> issues<00:05:14.020> so<00:05:15.020> just<00:05:15.290> be<00:05:15.380> aware<00:05:15.530> of<00:05:15.590> that<00:05:15.770> so
+
+00:05:16.200 --> 00:05:16.210 
+you issues so just be aware of that so
+
+00:05:16.210 --> 00:05:18.490 
+you issues so just be aware of that so
+anyway<00:05:17.210> let's<00:05:17.510> move<00:05:17.750> on<00:05:17.900> to<00:05:18.050> the<00:05:18.140> soldering
+
+00:05:18.490 --> 00:05:18.500 
+anyway let's move on to the soldering
+
+00:05:18.500 --> 00:05:20.409 
+anyway let's move on to the soldering
+I'm<00:05:19.340> gonna<00:05:19.520> start<00:05:19.820> with<00:05:19.970> soldering<00:05:20.240> our
+
+00:05:20.409 --> 00:05:20.419 
+I'm gonna start with soldering our
+
+00:05:20.419 --> 00:05:25.840 
+I'm gonna start with soldering our
+interface<00:05:20.810> wires<00:05:21.080> to<00:05:21.410> the<00:05:21.530> PCB<00:05:24.580> so<00:05:25.580> now<00:05:25.790> to
+
+00:05:25.840 --> 00:05:25.850 
+interface wires to the PCB so now to
+
+00:05:25.850 --> 00:05:28.710 
+interface wires to the PCB so now to
+prepare<00:05:26.120> the<00:05:26.480> 30<00:05:26.840> gauge<00:05:27.080> wire<00:05:27.380> for<00:05:27.800> soldering
+
+00:05:28.710 --> 00:05:28.720 
+prepare the 30 gauge wire for soldering
+
+00:05:28.720 --> 00:05:31.140 
+prepare the 30 gauge wire for soldering
+what<00:05:29.720> we're<00:05:29.840> gonna<00:05:29.930> have<00:05:30.110> to<00:05:30.169> do<00:05:30.350> is<00:05:30.530> actually
+
+00:05:31.140 --> 00:05:31.150 
+what we're gonna have to do is actually
+
+00:05:31.150 --> 00:05:36.340 
+what we're gonna have to do is actually
+strip<00:05:32.150> off<00:05:32.300> the<00:05:32.540> wire<00:05:33.040> ends<00:05:34.060> and<00:05:35.060> this<00:05:35.930> wire<00:05:36.169> is
+
+00:05:36.340 --> 00:05:36.350 
+strip off the wire ends and this wire is
+
+00:05:36.350 --> 00:05:39.490 
+strip off the wire ends and this wire is
+extremely<00:05:37.130> difficult<00:05:37.340> to<00:05:37.669> strip<00:05:38.419> using<00:05:39.200> a
+
+00:05:39.490 --> 00:05:39.500 
+extremely difficult to strip using a
+
+00:05:39.500 --> 00:05:42.490 
+extremely difficult to strip using a
+standard<00:05:40.250> wire<00:05:40.490> cutter<00:05:40.820> or<00:05:41.330> a<00:05:41.630> wire<00:05:42.110> stripping
+
+00:05:42.490 --> 00:05:42.500 
+standard wire cutter or a wire stripping
+
+00:05:42.500 --> 00:05:46.240 
+standard wire cutter or a wire stripping
+tool<00:05:43.780> the<00:05:44.780> one<00:05:44.960> thing<00:05:45.229> is<00:05:45.380> that<00:05:45.560> with<00:05:45.770> 30<00:05:46.040> gauge
+
+00:05:46.240 --> 00:05:46.250 
+tool the one thing is that with 30 gauge
+
+00:05:46.250 --> 00:05:49.719 
+tool the one thing is that with 30 gauge
+wire<00:05:46.550> or<00:05:46.790> even<00:05:47.030> 26<00:05:47.630> gauge<00:05:47.840> wire<00:05:48.160> most<00:05:49.160> wire
+
+00:05:49.719 --> 00:05:49.729 
+wire or even 26 gauge wire most wire
+
+00:05:49.729 --> 00:05:51.550 
+wire or even 26 gauge wire most wire
+strippers<00:05:50.210> do<00:05:50.419> not<00:05:50.540> have<00:05:50.750> that<00:05:50.900> particular
+
+00:05:51.550 --> 00:05:51.560 
+strippers do not have that particular
+
+00:05:51.560 --> 00:05:55.360 
+strippers do not have that particular
+type<00:05:51.919> of<00:05:51.950> gauge<00:05:52.220> is<00:05:52.640> very<00:05:53.270> very<00:05:53.540> small<00:05:54.220> so<00:05:55.220> what
+
+00:05:55.360 --> 00:05:55.370 
+type of gauge is very very small so what
+
+00:05:55.370 --> 00:05:56.710 
+type of gauge is very very small so what
+we're<00:05:55.490> gonna<00:05:55.550> need<00:05:55.790> is<00:05:55.850> a<00:05:55.940> special<00:05:56.330> stripping
+
+00:05:56.710 --> 00:05:56.720 
+we're gonna need is a special stripping
+
+00:05:56.720 --> 00:05:58.600 
+we're gonna need is a special stripping
+that<00:05:57.260> tool<00:05:57.470> for<00:05:57.740> this<00:05:57.830> particular<00:05:58.340> kind<00:05:58.550> of
+
+00:05:58.600 --> 00:05:58.610 
+that tool for this particular kind of
+
+00:05:58.610 --> 00:06:02.590 
+that tool for this particular kind of
+wire<00:05:58.790> and<00:06:00.070> usually<00:06:01.070> these<00:06:01.220> tools<00:06:01.550> will<00:06:02.270> strip
+
+00:06:02.590 --> 00:06:02.600 
+wire and usually these tools will strip
+
+00:06:02.600 --> 00:06:06.070 
+wire and usually these tools will strip
+gauges<00:06:03.229> 26<00:06:03.860> down<00:06:04.400> to<00:06:04.669> I<00:06:04.729> think<00:06:04.760> 32<00:06:05.510> I<00:06:05.540> think<00:06:05.930> is
+
+00:06:06.070 --> 00:06:06.080 
+gauges 26 down to I think 32 I think is
+
+00:06:06.080 --> 00:06:08.500 
+gauges 26 down to I think 32 I think is
+one<00:06:06.620> of<00:06:06.650> these<00:06:06.860> smallest<00:06:07.340> wired<00:06:07.940> gauges<00:06:08.390> that
+
+00:06:08.500 --> 00:06:08.510 
+one of these smallest wired gauges that
+
+00:06:08.510 --> 00:06:11.170 
+one of these smallest wired gauges that
+they<00:06:08.660> will<00:06:08.840> do<00:06:08.990> now<00:06:09.860> if<00:06:10.220> you<00:06:10.400> don't<00:06:10.580> have<00:06:10.910> one
+
+00:06:11.170 --> 00:06:11.180 
+they will do now if you don't have one
+
+00:06:11.180 --> 00:06:13.330 
+they will do now if you don't have one
+of<00:06:11.210> these<00:06:11.360> stripping<00:06:11.840> tools<00:06:12.080> I<00:06:12.470> can<00:06:12.590> I<00:06:13.160> can
+
+00:06:13.330 --> 00:06:13.340 
+of these stripping tools I can I can
+
+00:06:13.340 --> 00:06:15.379 
+of these stripping tools I can I can
+show<00:06:13.550> you<00:06:13.610> how<00:06:13.850> to<00:06:13.880> do<00:06:14.120> it<00:06:14.270> using<00:06:14.419> names
+
+00:06:15.379 --> 00:06:15.389 
+show you how to do it using names
+
+00:06:15.389 --> 00:06:18.920 
+show you how to do it using names
+using<00:06:16.080> a<00:06:16.169> regular<00:06:16.439> pair<00:06:16.770> of<00:06:16.919> wire<00:06:17.460> cutters<00:06:17.930> but
+
+00:06:18.920 --> 00:06:18.930 
+using a regular pair of wire cutters but
+
+00:06:18.930 --> 00:06:21.770 
+using a regular pair of wire cutters but
+it's<00:06:19.110> a<00:06:19.229> it's<00:06:19.530> a<00:06:19.650> tricky<00:06:20.150> procedure<00:06:21.150> to<00:06:21.360> do<00:06:21.509> and
+
+00:06:21.770 --> 00:06:21.780 
+it's a it's a tricky procedure to do and
+
+00:06:21.780 --> 00:06:24.080 
+it's a it's a tricky procedure to do and
+because<00:06:22.080> the<00:06:22.229> wire<00:06:22.409> is<00:06:22.590> so<00:06:22.830> delicate<00:06:23.099> it's
+
+00:06:24.080 --> 00:06:24.090 
+because the wire is so delicate it's
+
+00:06:24.090 --> 00:06:26.510 
+because the wire is so delicate it's
+easily<00:06:24.419> broken<00:06:25.050> so<00:06:25.439> you<00:06:25.469> have<00:06:25.740> to<00:06:25.889> it<00:06:26.250> takes<00:06:26.430> a
+
+00:06:26.510 --> 00:06:26.520 
+easily broken so you have to it takes a
+
+00:06:26.520 --> 00:06:27.800 
+easily broken so you have to it takes a
+controlled<00:06:26.909> hand<00:06:27.150> and<00:06:27.389> a<00:06:27.419> little<00:06:27.509> bit<00:06:27.719> of
+
+00:06:27.800 --> 00:06:27.810 
+controlled hand and a little bit of
+
+00:06:27.810 --> 00:06:31.309 
+controlled hand and a little bit of
+practice<00:06:29.090> and<00:06:30.090> so<00:06:30.270> by<00:06:30.419> pinching<00:06:30.840> a<00:06:30.930> wire<00:06:31.080> with
+
+00:06:31.309 --> 00:06:31.319 
+practice and so by pinching a wire with
+
+00:06:31.319 --> 00:06:33.050 
+practice and so by pinching a wire with
+your<00:06:31.349> your<00:06:31.919> thumb<00:06:32.159> and<00:06:32.310> your<00:06:32.430> index<00:06:32.460> finger
+
+00:06:33.050 --> 00:06:33.060 
+your your thumb and your index finger
+
+00:06:33.060 --> 00:06:36.800 
+your your thumb and your index finger
+and<00:06:33.210> then<00:06:34.189> resting<00:06:35.189> the<00:06:35.699> wire<00:06:36.180> strippers<00:06:36.659> up
+
+00:06:36.800 --> 00:06:36.810 
+and then resting the wire strippers up
+
+00:06:36.810 --> 00:06:38.600 
+and then resting the wire strippers up
+against<00:06:37.199> your<00:06:37.349> your<00:06:37.770> thumb<00:06:38.129> and<00:06:38.370> your<00:06:38.580> index
+
+00:06:38.600 --> 00:06:38.610 
+against your your thumb and your index
+
+00:06:38.610 --> 00:06:41.209 
+against your your thumb and your index
+finger<00:06:39.270> and<00:06:39.449> prying<00:06:39.900> it<00:06:40.110> up<00:06:40.199> very<00:06:40.560> very<00:06:40.800> gently
+
+00:06:41.209 --> 00:06:41.219 
+finger and prying it up very very gently
+
+00:06:41.219 --> 00:06:43.279 
+finger and prying it up very very gently
+you<00:06:42.000> can<00:06:42.150> develop<00:06:42.330> a<00:06:42.539> skill<00:06:42.840> to<00:06:42.990> actually
+
+00:06:43.279 --> 00:06:43.289 
+you can develop a skill to actually
+
+00:06:43.289 --> 00:06:44.990 
+you can develop a skill to actually
+strip<00:06:43.590> the<00:06:43.710> wire<00:06:43.860> without<00:06:44.219> causing<00:06:44.669> too<00:06:44.879> much
+
+00:06:44.990 --> 00:06:45.000 
+strip the wire without causing too much
+
+00:06:45.000 --> 00:06:47.629 
+strip the wire without causing too much
+surface<00:06:45.270> tinge<00:06:45.919> now<00:06:46.919> sometimes<00:06:47.490> you<00:06:47.610> might
+
+00:06:47.629 --> 00:06:47.639 
+surface tinge now sometimes you might
+
+00:06:47.639 --> 00:06:49.339 
+surface tinge now sometimes you might
+get<00:06:47.969> a<00:06:48.000> little<00:06:48.300> bit<00:06:48.419> of<00:06:48.539> scratching<00:06:49.169> and
+
+00:06:49.339 --> 00:06:49.349 
+get a little bit of scratching and
+
+00:06:49.349 --> 00:06:51.860 
+get a little bit of scratching and
+damage<00:06:49.919> to<00:06:49.949> the<00:06:50.189> wire<00:06:50.370> but<00:06:50.759> you<00:06:51.539> might<00:06:51.689> have<00:06:51.810> to
+
+00:06:51.860 --> 00:06:51.870 
+damage to the wire but you might have to
+
+00:06:51.870 --> 00:06:54.439 
+damage to the wire but you might have to
+play<00:06:52.590> with<00:06:52.680> it<00:06:52.979> and<00:06:53.129> takes<00:06:53.759> a<00:06:53.849> little<00:06:54.000> practice
+
+00:06:54.439 --> 00:06:54.449 
+play with it and takes a little practice
+
+00:06:54.449 --> 00:07:32.090 
+play with it and takes a little practice
+before<00:06:54.569> you'll<00:06:54.870> get<00:06:55.020> it<00:06:55.139> right
+
+00:07:32.090 --> 00:07:32.100 
+
+00:07:32.100 --> 00:07:35.130 
+
+but<00:07:33.100> if<00:07:33.310> you<00:07:33.430> can<00:07:33.640> afford<00:07:34.030> to<00:07:34.180> purchase<00:07:34.780> one<00:07:35.110> of
+
+00:07:35.130 --> 00:07:35.140 
+but if you can afford to purchase one of
+
+00:07:35.140 --> 00:07:38.010 
+but if you can afford to purchase one of
+these<00:07:35.430> 30<00:07:36.430> gauge<00:07:36.670> wire<00:07:37.270> stripping<00:07:37.690> tools
+
+00:07:38.010 --> 00:07:38.020 
+these 30 gauge wire stripping tools
+
+00:07:38.020 --> 00:07:40.320 
+these 30 gauge wire stripping tools
+which<00:07:38.890> I've<00:07:39.070> provided<00:07:39.430> a<00:07:39.640> link<00:07:39.820> for<00:07:40.030> in<00:07:40.270> the
+
+00:07:40.320 --> 00:07:40.330 
+which I've provided a link for in the
+
+00:07:40.330 --> 00:07:44.910 
+which I've provided a link for in the
+description<00:07:40.560> of<00:07:41.560> the<00:07:41.620> video<00:07:42.240> you<00:07:43.620> should<00:07:44.620> be
+
+00:07:44.910 --> 00:07:44.920 
+description of the video you should be
+
+00:07:44.920 --> 00:07:46.680 
+description of the video you should be
+okay<00:07:45.220> and<00:07:45.460> you'll<00:07:45.880> get<00:07:46.060> the<00:07:46.210> wires<00:07:46.420> all
+
+00:07:46.680 --> 00:07:46.690 
+okay and you'll get the wires all
+
+00:07:46.690 --> 00:07:49.710 
+okay and you'll get the wires all
+stripped<00:07:47.050> and<00:07:47.260> ready<00:07:47.440> to<00:07:47.500> go
+
