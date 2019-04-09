@@ -1,0 +1,1505 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.299 --> 00:00:02.180 
+
+hello<00:00:01.290> everyone<00:00:01.500> my<00:00:01.709> name<00:00:01.860> is<00:00:01.890> Shawn<00:00:02.159> Hendrikx
+
+00:00:02.180 --> 00:00:02.190 
+hello everyone my name is Shawn Hendrikx
+
+00:00:02.190 --> 00:00:03.740 
+hello everyone my name is Shawn Hendrikx
+and<00:00:02.760> in<00:00:02.820> this<00:00:02.909> video<00:00:03.210> what<00:00:03.389> I'm<00:00:03.480> going<00:00:03.600> to<00:00:03.629> do
+
+00:00:03.740 --> 00:00:03.750 
+and in this video what I'm going to do
+
+00:00:03.750 --> 00:00:04.999 
+and in this video what I'm going to do
+is<00:00:03.899> take<00:00:04.080> you<00:00:04.170> through<00:00:04.200> the<00:00:04.410> process<00:00:04.440> of
+
+00:00:04.999 --> 00:00:05.009 
+is take you through the process of
+
+00:00:05.009 --> 00:00:07.190 
+is take you through the process of
+creating<00:00:05.100> a<00:00:05.759> shader<00:00:06.089> that<00:00:06.600> will<00:00:06.779> allow<00:00:06.960> you<00:00:07.020> to
+
+00:00:07.190 --> 00:00:07.200 
+creating a shader that will allow you to
+
+00:00:07.200 --> 00:00:08.960 
+creating a shader that will allow you to
+have<00:00:07.319> rim<00:00:07.560> lighting<00:00:07.799> on<00:00:08.010> a<00:00:08.040> character<00:00:08.460> and<00:00:08.880> I
+
+00:00:08.960 --> 00:00:08.970 
+have rim lighting on a character and I
+
+00:00:08.970 --> 00:00:10.490 
+have rim lighting on a character and I
+don't<00:00:09.030> mean<00:00:09.240> rim<00:00:09.450> lighting<00:00:09.780> is<00:00:09.870> actually
+
+00:00:10.490 --> 00:00:10.500 
+don't mean rim lighting is actually
+
+00:00:10.500 --> 00:00:11.839 
+don't mean rim lighting is actually
+using<00:00:10.710> lights<00:00:10.889> but<00:00:11.070> the<00:00:11.130> shader<00:00:11.309> itself<00:00:11.670> will
+
+00:00:11.839 --> 00:00:11.849 
+using lights but the shader itself will
+
+00:00:11.849 --> 00:00:14.390 
+using lights but the shader itself will
+generate<00:00:12.240> the<00:00:12.420> rim<00:00:12.570> light<00:00:12.980> the<00:00:13.980> reason<00:00:14.250> I<00:00:14.309> do
+
+00:00:14.390 --> 00:00:14.400 
+generate the rim light the reason I do
+
+00:00:14.400 --> 00:00:16.160 
+generate the rim light the reason I do
+this<00:00:14.670> for<00:00:14.880> a<00:00:14.910> lot<00:00:15.000> of<00:00:15.059> the<00:00:15.150> stuff<00:00:15.330> work<00:00:15.599> stuff<00:00:16.080> I
+
+00:00:16.160 --> 00:00:16.170 
+this for a lot of the stuff work stuff I
+
+00:00:16.170 --> 00:00:19.010 
+this for a lot of the stuff work stuff I
+work<00:00:16.350> on<00:00:16.529> is<00:00:17.180> often<00:00:18.180> gets<00:00:18.359> annoying<00:00:18.600> trying<00:00:18.960> to
+
+00:00:19.010 --> 00:00:19.020 
+work on is often gets annoying trying to
+
+00:00:19.020 --> 00:00:20.480 
+work on is often gets annoying trying to
+continuously<00:00:19.529> adjust<00:00:19.980> your<00:00:20.130> lights<00:00:20.310> to
+
+00:00:20.480 --> 00:00:20.490 
+continuously adjust your lights to
+
+00:00:20.490 --> 00:00:22.279 
+continuously adjust your lights to
+create<00:00:20.760> that<00:00:20.850> perfect<00:00:21.119> glancing<00:00:21.750> angle<00:00:21.900> rim
+
+00:00:22.279 --> 00:00:22.289 
+create that perfect glancing angle rim
+
+00:00:22.289 --> 00:00:23.840 
+create that perfect glancing angle rim
+light<00:00:22.529> on<00:00:22.769> something<00:00:23.100> when<00:00:23.369> that<00:00:23.400> thing<00:00:23.820> is
+
+00:00:23.840 --> 00:00:23.850 
+light on something when that thing is
+
+00:00:23.850 --> 00:00:25.099 
+light on something when that thing is
+moving<00:00:24.269> around<00:00:24.510> or<00:00:24.750> you're<00:00:24.840> constantly
+
+00:00:25.099 --> 00:00:25.109 
+moving around or you're constantly
+
+00:00:25.109 --> 00:00:26.990 
+moving around or you're constantly
+adjusting<00:00:25.260> the<00:00:25.619> pose<00:00:25.800> you<00:00:26.490> know<00:00:26.609> spending<00:00:26.849> off
+
+00:00:26.990 --> 00:00:27.000 
+adjusting the pose you know spending off
+
+00:00:27.000 --> 00:00:28.400 
+adjusting the pose you know spending off
+a<00:00:27.029> lot<00:00:27.210> of<00:00:27.240> time<00:00:27.449> tweaking<00:00:27.720> your<00:00:27.960> lights<00:00:28.170> and
+
+00:00:28.400 --> 00:00:28.410 
+a lot of time tweaking your lights and
+
+00:00:28.410 --> 00:00:29.779 
+a lot of time tweaking your lights and
+rendering<00:00:28.980> to<00:00:29.099> see<00:00:29.220> if<00:00:29.310> it's<00:00:29.460> getting<00:00:29.609> you
+
+00:00:29.779 --> 00:00:29.789 
+rendering to see if it's getting you
+
+00:00:29.789 --> 00:00:31.999 
+rendering to see if it's getting you
+what<00:00:29.939> you<00:00:30.029> want<00:00:30.269> so<00:00:31.199> instead<00:00:31.769> what<00:00:31.949> I
+
+00:00:31.999 --> 00:00:32.009 
+what you want so instead what I
+
+00:00:32.009 --> 00:00:34.340 
+what you want so instead what I
+sometimes<00:00:32.430> do<00:00:32.850> is<00:00:33.120> create<00:00:33.570> a<00:00:33.600> shader<00:00:33.930> that
+
+00:00:34.340 --> 00:00:34.350 
+sometimes do is create a shader that
+
+00:00:34.350 --> 00:00:36.350 
+sometimes do is create a shader that
+will<00:00:34.590> basically<00:00:35.579> render<00:00:35.910> me<00:00:36.030> a<00:00:36.059> rim<00:00:36.329> light
+
+00:00:36.350 --> 00:00:36.360 
+will basically render me a rim light
+
+00:00:36.360 --> 00:00:38.569 
+will basically render me a rim light
+into<00:00:36.809> a<00:00:36.840> separate<00:00:37.170> pass<00:00:37.380> in<00:00:37.710> that<00:00:37.739> way<00:00:38.010> in<00:00:38.250> comp
+
+00:00:38.569 --> 00:00:38.579 
+into a separate pass in that way in comp
+
+00:00:38.579 --> 00:00:39.860 
+into a separate pass in that way in comp
+I<00:00:38.790> can<00:00:38.969> just<00:00:39.149> control<00:00:39.480> the<00:00:39.510> rim<00:00:39.719> light
+
+00:00:39.860 --> 00:00:39.870 
+I can just control the rim light
+
+00:00:39.870 --> 00:00:42.020 
+I can just control the rim light
+directly<00:00:40.309> so<00:00:41.309> the<00:00:41.399> way<00:00:41.489> I'm<00:00:41.579> going<00:00:41.700> to<00:00:41.760> do<00:00:41.910> this
+
+00:00:42.020 --> 00:00:42.030 
+directly so the way I'm going to do this
+
+00:00:42.030 --> 00:00:43.490 
+directly so the way I'm going to do this
+is<00:00:42.149> I'm<00:00:42.210> going<00:00:42.270> to<00:00:42.390> use<00:00:42.450> fall-off<00:00:43.050> maps<00:00:43.290> to
+
+00:00:43.490 --> 00:00:43.500 
+is I'm going to use fall-off maps to
+
+00:00:43.500 --> 00:00:44.990 
+is I'm going to use fall-off maps to
+create<00:00:43.739> my<00:00:43.860> rim<00:00:44.040> light<00:00:44.250> and<00:00:44.489> I'm<00:00:44.789> going<00:00:44.969> to
+
+00:00:44.990 --> 00:00:45.000 
+create my rim light and I'm going to
+
+00:00:45.000 --> 00:00:46.369 
+create my rim light and I'm going to
+take<00:00:45.149> you<00:00:45.270> through<00:00:45.450> the<00:00:45.570> basic<00:00:45.870> process<00:00:46.260> for
+
+00:00:46.369 --> 00:00:46.379 
+take you through the basic process for
+
+00:00:46.379 --> 00:00:47.690 
+take you through the basic process for
+anyone<00:00:46.620> who<00:00:46.710> isn't<00:00:46.920> familiar<00:00:47.129> with<00:00:47.430> how<00:00:47.640> you
+
+00:00:47.690 --> 00:00:47.700 
+anyone who isn't familiar with how you
+
+00:00:47.700 --> 00:00:50.299 
+anyone who isn't familiar with how you
+do<00:00:47.910> it<00:00:48.379> so<00:00:49.379> here<00:00:49.590> you<00:00:49.649> can<00:00:49.770> see<00:00:49.920> what<00:00:50.100> Dave
+
+00:00:50.299 --> 00:00:50.309 
+do it so here you can see what Dave
+
+00:00:50.309 --> 00:00:52.310 
+do it so here you can see what Dave
+looks<00:00:50.579> like<00:00:50.820> to<00:00:51.420> start<00:00:51.690> off<00:00:51.809> with<00:00:51.870> this<00:00:52.260> is
+
+00:00:52.310 --> 00:00:52.320 
+looks like to start off with this is
+
+00:00:52.320 --> 00:00:56.720 
+looks like to start off with this is
+using<00:00:53.039> a<00:00:53.160> Sun<00:00:53.399> Sky<00:00:53.730> system<00:00:54.320> to<00:00:55.320> general<00:00:55.829> bright
+
+00:00:56.720 --> 00:00:56.730 
+using a Sun Sky system to general bright
+
+00:00:56.730 --> 00:00:58.099 
+using a Sun Sky system to general bright
+lights<00:00:57.030> that<00:00:57.239> just<00:00:57.390> give<00:00:57.629> them<00:00:57.750> a<00:00:57.780> general
+
+00:00:58.099 --> 00:00:58.109 
+lights that just give them a general
+
+00:00:58.109 --> 00:00:59.750 
+lights that just give them a general
+illumination<00:00:58.230> and<00:00:58.800> I've<00:00:59.190> got<00:00:59.340> one<00:00:59.550> light
+
+00:00:59.750 --> 00:00:59.760 
+illumination and I've got one light
+
+00:00:59.760 --> 00:01:00.950 
+illumination and I've got one light
+looking<00:01:00.090> straight<00:01:00.329> into<00:01:00.510> his<00:01:00.629> eyes<00:01:00.690> that<00:01:00.899> just
+
+00:01:00.950 --> 00:01:00.960 
+looking straight into his eyes that just
+
+00:01:00.960 --> 00:01:02.689 
+looking straight into his eyes that just
+lights<00:01:01.559> up<00:01:01.770> that<00:01:01.920> area<00:01:02.070> a<00:01:02.160> little<00:01:02.250> bit<00:01:02.399> puts
+
+00:01:02.689 --> 00:01:02.699 
+lights up that area a little bit puts
+
+00:01:02.699 --> 00:01:05.750 
+lights up that area a little bit puts
+the<00:01:02.820> highlights<00:01:03.210> on<00:01:03.449> the<00:01:03.480> on<00:01:04.229> the<00:01:04.320> eyeballs<00:01:04.760> so
+
+00:01:05.750 --> 00:01:05.760 
+the highlights on the on the eyeballs so
+
+00:01:05.760 --> 00:01:08.149 
+the highlights on the on the eyeballs so
+we'll<00:01:05.880> just<00:01:06.030> minimize<00:01:06.420> that<00:01:06.689> and<00:01:07.010> so<00:01:08.010> the
+
+00:01:08.149 --> 00:01:08.159 
+we'll just minimize that and so the
+
+00:01:08.159 --> 00:01:09.830 
+we'll just minimize that and so the
+first<00:01:08.250> thing<00:01:08.430> we<00:01:08.520> need<00:01:08.670> to<00:01:08.729> do<00:01:08.850> is<00:01:08.970> set<00:01:09.150> up<00:01:09.270> two
+
+00:01:09.830 --> 00:01:09.840 
+first thing we need to do is set up two
+
+00:01:09.840 --> 00:01:11.240 
+first thing we need to do is set up two
+passes<00:01:10.409> we're<00:01:10.619> just<00:01:10.740> going<00:01:10.860> to<00:01:10.890> I'm<00:01:11.100> not<00:01:11.130> going
+
+00:01:11.240 --> 00:01:11.250 
+passes we're just going to I'm not going
+
+00:01:11.250 --> 00:01:12.770 
+passes we're just going to I'm not going
+to<00:01:11.400> get<00:01:11.490> too<00:01:11.670> deep<00:01:11.880> into<00:01:12.060> passes<00:01:12.450> we'll<00:01:12.600> just
+
+00:01:12.770 --> 00:01:12.780 
+to get too deep into passes we'll just
+
+00:01:12.780 --> 00:01:14.570 
+to get too deep into passes we'll just
+create<00:01:13.020> one<00:01:13.290> pass<00:01:13.950> which<00:01:14.250> will<00:01:14.369> be<00:01:14.460> the
+
+00:01:14.570 --> 00:01:14.580 
+create one pass which will be the
+
+00:01:14.580 --> 00:01:17.300 
+create one pass which will be the
+general<00:01:14.970> render<00:01:15.450> pass<00:01:15.630> the<00:01:16.020> overall<00:01:16.530> Beauty
+
+00:01:17.300 --> 00:01:17.310 
+general render pass the overall Beauty
+
+00:01:17.310 --> 00:01:18.980 
+general render pass the overall Beauty
+pass<00:01:17.490> and<00:01:17.759> we'll<00:01:18.119> create<00:01:18.390> one<00:01:18.570> for<00:01:18.750> the<00:01:18.840> rim
+
+00:01:18.980 --> 00:01:18.990 
+pass and we'll create one for the rim
+
+00:01:18.990 --> 00:01:22.219 
+pass and we'll create one for the rim
+light<00:01:19.520> so<00:01:20.520> what<00:01:20.670> I'm<00:01:20.759> going<00:01:20.880> to<00:01:20.909> do<00:01:21.060> is<00:01:21.299> go<00:01:22.080> into
+
+00:01:22.219 --> 00:01:22.229 
+light so what I'm going to do is go into
+
+00:01:22.229 --> 00:01:24.499 
+light so what I'm going to do is go into
+rendering<00:01:22.740> pick<00:01:22.979> on<00:01:23.100> state<00:01:23.430> sets<00:01:23.700> and<00:01:24.390> I'm
+
+00:01:24.499 --> 00:01:24.509 
+rendering pick on state sets and I'm
+
+00:01:24.509 --> 00:01:28.600 
+rendering pick on state sets and I'm
+just<00:01:24.659> going<00:01:24.840> to<00:01:24.900> go<00:01:25.049> and<00:01:25.320> reset<00:01:25.979> my<00:01:26.009> state<00:01:26.340> sets
+
+00:01:28.600 --> 00:01:28.610 
+just going to go and reset my state sets
+
+00:01:28.610 --> 00:01:31.520 
+just going to go and reset my state sets
+so<00:01:29.610> we<00:01:29.729> now<00:01:29.880> have<00:01:30.150> one<00:01:30.689> state<00:01:30.990> this<00:01:31.259> for<00:01:31.470> all
+
+00:01:31.520 --> 00:01:31.530 
+so we now have one state this for all
+
+00:01:31.530 --> 00:01:32.870 
+so we now have one state this for all
+intents<00:01:31.770> purposes<00:01:31.799> now<00:01:32.220> is<00:01:32.340> the<00:01:32.430> beauty<00:01:32.640> state
+
+00:01:32.870 --> 00:01:32.880 
+intents purposes now is the beauty state
+
+00:01:32.880 --> 00:01:34.460 
+intents purposes now is the beauty state
+could<00:01:33.090> it<00:01:33.210> because<00:01:33.479> it<00:01:33.600> is<00:01:33.720> the<00:01:34.020> scene<00:01:34.259> as<00:01:34.439> it
+
+00:01:34.460 --> 00:01:34.470 
+could it because it is the scene as it
+
+00:01:34.470 --> 00:01:37.370 
+could it because it is the scene as it
+currently<00:01:34.890> sits<00:01:35.310> so<00:01:36.270> now<00:01:36.390> I<00:01:36.450> can<00:01:36.630> go<00:01:36.780> in<00:01:37.020> and
+
+00:01:37.370 --> 00:01:37.380 
+currently sits so now I can go in and
+
+00:01:37.380 --> 00:01:39.319 
+currently sits so now I can go in and
+just<00:01:37.590> create<00:01:37.829> a<00:01:37.860> second<00:01:38.250> state<00:01:38.460> and<00:01:38.700> what<00:01:39.240> I'm
+
+00:01:39.319 --> 00:01:39.329 
+just create a second state and what I'm
+
+00:01:39.329 --> 00:01:41.929 
+just create a second state and what I'm
+going<00:01:39.450> to<00:01:39.479> do<00:01:39.600> is<00:01:39.720> turn<00:01:39.900> on<00:01:39.960> record<00:01:40.439> and<00:01:40.939> first
+
+00:01:41.929 --> 00:01:41.939 
+going to do is turn on record and first
+
+00:01:41.939 --> 00:01:42.830 
+going to do is turn on record and first
+thing<00:01:42.060> I<00:01:42.090> want<00:01:42.240> to<00:01:42.299> do<00:01:42.360> is<00:01:42.450> get<00:01:42.570> rid<00:01:42.689> of<00:01:42.750> the
+
+00:01:42.830 --> 00:01:42.840 
+thing I want to do is get rid of the
+
+00:01:42.840 --> 00:01:44.450 
+thing I want to do is get rid of the
+background<00:01:43.320> so<00:01:43.530> I'm<00:01:43.649> just<00:01:43.770> going<00:01:43.890> to<00:01:43.979> go<00:01:44.130> into
+
+00:01:44.450 --> 00:01:44.460 
+background so I'm just going to go into
+
+00:01:44.460 --> 00:01:46.670 
+background so I'm just going to go into
+my<00:01:44.729> layer<00:01:45.210> manager<00:01:45.720> and<00:01:45.869> say<00:01:46.020> I<00:01:46.049> don't<00:01:46.409> need
+
+00:01:46.670 --> 00:01:46.680 
+my layer manager and say I don't need
+
+00:01:46.680 --> 00:01:48.859 
+my layer manager and say I don't need
+the<00:01:46.799> background<00:01:47.299> then<00:01:48.299> I'm<00:01:48.390> going<00:01:48.540> to<00:01:48.600> go<00:01:48.720> up
+
+00:01:48.859 --> 00:01:48.869 
+the background then I'm going to go up
+
+00:01:48.869 --> 00:01:51.380 
+the background then I'm going to go up
+into<00:01:49.259> my<00:01:49.500> light<00:01:49.770> Lister<00:01:50.159> and<00:01:50.430> we're<00:01:51.240> just
+
+00:01:51.380 --> 00:01:51.390 
+into my light Lister and we're just
+
+00:01:51.390 --> 00:01:52.880 
+into my light Lister and we're just
+going<00:01:51.509> to<00:01:51.540> turn<00:01:51.750> off<00:01:51.810> all<00:01:52.229> the<00:01:52.500> lights<00:01:52.680> because
+
+00:01:52.880 --> 00:01:52.890 
+going to turn off all the lights because
+
+00:01:52.890 --> 00:01:54.410 
+going to turn off all the lights because
+I<00:01:52.979> really<00:01:53.399> don't<00:01:53.579> need<00:01:53.670> them<00:01:53.850> for<00:01:53.880> this<00:01:54.060> pass<00:01:54.240> I
+
+00:01:54.410 --> 00:01:54.420 
+I really don't need them for this pass I
+
+00:01:54.420 --> 00:01:56.300 
+I really don't need them for this pass I
+don't<00:01:54.570> want<00:01:54.780> lighting<00:01:55.619> affecting<00:01:56.070> where<00:01:56.189> my
+
+00:01:56.300 --> 00:01:56.310 
+don't want lighting affecting where my
+
+00:01:56.310 --> 00:01:58.420 
+don't want lighting affecting where my
+rim<00:01:56.490> light<00:01:56.640> goes<00:01:56.850> which<00:01:57.090> sounds<00:01:57.810> a<00:01:57.840> little<00:01:57.930> odd
+
+00:01:58.420 --> 00:01:58.430 
+rim light goes which sounds a little odd
+
+00:01:58.430 --> 00:02:00.859 
+rim light goes which sounds a little odd
+so<00:01:59.430> we<00:01:59.520> close<00:01:59.759> that<00:01:59.790> down<00:02:00.210> so<00:02:00.450> those<00:02:00.600> are<00:02:00.750> all
+
+00:02:00.859 --> 00:02:00.869 
+so we close that down so those are all
+
+00:02:00.869 --> 00:02:02.870 
+so we close that down so those are all
+gone<00:02:01.020> so<00:02:01.320> now<00:02:01.439> all<00:02:01.680> I<00:02:01.710> need<00:02:02.040> is<00:02:02.280> to<00:02:02.460> change<00:02:02.700> the
+
+00:02:02.870 --> 00:02:02.880 
+gone so now all I need is to change the
+
+00:02:02.880 --> 00:02:04.459 
+gone so now all I need is to change the
+texture<00:02:03.210> on<00:02:03.240> this<00:02:03.509> character<00:02:03.780> to<00:02:03.990> create<00:02:04.290> the
+
+00:02:04.459 --> 00:02:04.469 
+texture on this character to create the
+
+00:02:04.469 --> 00:02:06.560 
+texture on this character to create the
+rim<00:02:04.619> light<00:02:04.799> that<00:02:04.950> I<00:02:04.979> want<00:02:05.250> so<00:02:06.000> I'm<00:02:06.210> going<00:02:06.390> to<00:02:06.420> go
+
+00:02:06.560 --> 00:02:06.570 
+rim light that I want so I'm going to go
+
+00:02:06.570 --> 00:02:08.119 
+rim light that I want so I'm going to go
+and<00:02:06.810> open<00:02:06.899> up<00:02:07.110> my<00:02:07.229> materials<00:02:07.680> editor<00:02:07.770> and
+
+00:02:08.119 --> 00:02:08.129 
+and open up my materials editor and
+
+00:02:08.129 --> 00:02:09.710 
+and open up my materials editor and
+let's<00:02:08.759> say<00:02:08.879> we're<00:02:09.000> going<00:02:09.090> to<00:02:09.149> use<00:02:09.239> this
+
+00:02:09.710 --> 00:02:09.720 
+let's say we're going to use this
+
+00:02:09.720 --> 00:02:12.320 
+let's say we're going to use this
+material<00:02:10.319> as<00:02:10.500> my<00:02:11.160> rim<00:02:11.610> light<00:02:11.790> material<00:02:12.180> so
+
+00:02:12.320 --> 00:02:12.330 
+material as my rim light material so
+
+00:02:12.330 --> 00:02:13.340 
+material as my rim light material so
+I'll<00:02:12.420> just<00:02:12.569> drag<00:02:12.810> and<00:02:13.050> drop
+
+00:02:13.340 --> 00:02:13.350 
+I'll just drag and drop
+
+00:02:13.350 --> 00:02:16.670 
+I'll just drag and drop
+that<00:02:13.500> on<00:02:13.740> to<00:02:14.400> Dave<00:02:14.640> and<00:02:15.140> we're<00:02:16.140> basically<00:02:16.260> set
+
+00:02:16.670 --> 00:02:16.680 
+that on to Dave and we're basically set
+
+00:02:16.680 --> 00:02:18.860 
+that on to Dave and we're basically set
+up<00:02:16.800> I<00:02:16.920> can<00:02:16.950> now<00:02:17.160> turn<00:02:17.400> off<00:02:17.430> record<00:02:17.970> and<00:02:18.270> if<00:02:18.780> I
+
+00:02:18.860 --> 00:02:18.870 
+up I can now turn off record and if I
+
+00:02:18.870 --> 00:02:21.860 
+up I can now turn off record and if I
+turn<00:02:18.930> this<00:02:19.350> state<00:02:19.680> off<00:02:20.240> it'll<00:02:21.240> go<00:02:21.420> back<00:02:21.630> to<00:02:21.810> a
+
+00:02:21.860 --> 00:02:21.870 
+turn this state off it'll go back to a
+
+00:02:21.870 --> 00:02:26.300 
+turn this state off it'll go back to a
+default<00:02:22.230> state<00:02:23.780> which<00:02:24.780> has<00:02:25.650> the<00:02:25.830> background
+
+00:02:26.300 --> 00:02:26.310 
+default state which has the background
+
+00:02:26.310 --> 00:02:27.980 
+default state which has the background
+has<00:02:26.460> a<00:02:26.490> texture<00:02:26.910> on<00:02:26.940> everything<00:02:27.390> else<00:02:27.540> set<00:02:27.780> I
+
+00:02:27.980 --> 00:02:27.990 
+has a texture on everything else set I
+
+00:02:27.990 --> 00:02:30.710 
+has a texture on everything else set I
+have<00:02:28.980> this<00:02:29.220> null<00:02:29.850> state<00:02:30.150> that<00:02:30.330> I<00:02:30.360> left<00:02:30.570> behind
+
+00:02:30.710 --> 00:02:30.720 
+have this null state that I left behind
+
+00:02:30.720 --> 00:02:33.440 
+have this null state that I left behind
+which<00:02:31.080> is<00:02:31.110> a<00:02:31.230> beauty<00:02:31.530> pass<00:02:32.450> technically
+
+00:02:33.440 --> 00:02:33.450 
+which is a beauty pass technically
+
+00:02:33.450 --> 00:02:34.850 
+which is a beauty pass technically
+without<00:02:33.780> any<00:02:33.930> states<00:02:34.200> I'll<00:02:34.350> have<00:02:34.590> a<00:02:34.620> beauty
+
+00:02:34.850 --> 00:02:34.860 
+without any states I'll have a beauty
+
+00:02:34.860 --> 00:02:36.440 
+without any states I'll have a beauty
+pass<00:02:35.010> but<00:02:35.250> I<00:02:35.310> usually<00:02:35.520> like<00:02:35.700> to<00:02:35.850> leave<00:02:36.120> one
+
+00:02:36.440 --> 00:02:36.450 
+pass but I usually like to leave one
+
+00:02:36.450 --> 00:02:39.650 
+pass but I usually like to leave one
+state<00:02:37.320> on<00:02:37.530> touch<00:02:38.220> that<00:02:38.460> isn't<00:02:38.730> either<00:02:39.300> my
+
+00:02:39.650 --> 00:02:39.660 
+state on touch that isn't either my
+
+00:02:39.660 --> 00:02:41.840 
+state on touch that isn't either my
+original<00:02:40.140> seeing<00:02:40.770> or<00:02:41.010> any<00:02:41.370> of<00:02:41.460> the<00:02:41.520> states<00:02:41.700> I'm
+
+00:02:41.840 --> 00:02:41.850 
+original seeing or any of the states I'm
+
+00:02:41.850 --> 00:02:44.210 
+original seeing or any of the states I'm
+using<00:02:42.030> for<00:02:42.240> passes<00:02:42.590> that's<00:02:43.590> just<00:02:43.860> personal
+
+00:02:44.210 --> 00:02:44.220 
+using for passes that's just personal
+
+00:02:44.220 --> 00:02:46.310 
+using for passes that's just personal
+preference<00:02:44.400> for<00:02:44.670> me<00:02:44.730> so<00:02:45.510> once<00:02:45.840> I've<00:02:45.960> got<00:02:45.990> this
+
+00:02:46.310 --> 00:02:46.320 
+preference for me so once I've got this
+
+00:02:46.320 --> 00:02:48.050 
+preference for me so once I've got this
+state<00:02:46.590> in<00:02:46.800> here<00:02:47.040> let's<00:02:47.250> just<00:02:47.430> turn<00:02:47.610> that<00:02:47.820> back
+
+00:02:48.050 --> 00:02:48.060 
+state in here let's just turn that back
+
+00:02:48.060 --> 00:02:49.670 
+state in here let's just turn that back
+on<00:02:48.090> so<00:02:48.480> we<00:02:48.570> can<00:02:48.720> see<00:02:49.140> what<00:02:49.290> we're<00:02:49.380> working<00:02:49.530> with
+
+00:02:49.670 --> 00:02:49.680 
+on so we can see what we're working with
+
+00:02:49.680 --> 00:02:51.260 
+on so we can see what we're working with
+and<00:02:49.980> if<00:02:50.070> I<00:02:50.160> hit<00:02:50.310> render<00:02:50.730> at<00:02:50.820> this<00:02:51.000> point
+
+00:02:51.260 --> 00:02:51.270 
+and if I hit render at this point
+
+00:02:51.270 --> 00:02:52.970 
+and if I hit render at this point
+remember<00:02:51.660> there<00:02:51.930> is<00:02:52.050> no<00:02:52.230> light<00:02:52.440> in<00:02:52.620> the<00:02:52.740> scene
+
+00:02:52.970 --> 00:02:52.980 
+remember there is no light in the scene
+
+00:02:52.980 --> 00:02:55.430 
+remember there is no light in the scene
+nothing<00:02:53.610> so<00:02:54.180> we<00:02:54.540> should<00:02:54.750> just<00:02:54.780> get<00:02:55.200> a
+
+00:02:55.430 --> 00:02:55.440 
+nothing so we should just get a
+
+00:02:55.440 --> 00:03:00.230 
+nothing so we should just get a
+completely<00:02:56.010> black<00:02:56.420> seam<00:02:57.420> just<00:02:57.930> like<00:02:58.050> so<00:02:59.240> now
+
+00:03:00.230 --> 00:03:00.240 
+completely black seam just like so now
+
+00:03:00.240 --> 00:03:01.490 
+completely black seam just like so now
+we're<00:03:00.570> going<00:03:00.660> to<00:03:00.720> jump<00:03:00.960> in<00:03:01.170> and<00:03:01.320> we're<00:03:01.410> going
+
+00:03:01.490 --> 00:03:01.500 
+we're going to jump in and we're going
+
+00:03:01.500 --> 00:03:03.980 
+we're going to jump in and we're going
+to<00:03:01.590> change<00:03:01.860> the<00:03:02.130> material<00:03:02.250> to<00:03:02.820> a<00:03:03.270> Arts<00:03:03.870> and
+
+00:03:03.980 --> 00:03:03.990 
+to change the material to a Arts and
+
+00:03:03.990 --> 00:03:05.210 
+to change the material to a Arts and
+Design<00:03:04.050> material<00:03:04.440> since<00:03:04.800> I'm<00:03:04.890> working<00:03:04.980> with
+
+00:03:05.210 --> 00:03:05.220 
+Design material since I'm working with
+
+00:03:05.220 --> 00:03:07.070 
+Design material since I'm working with
+mental<00:03:05.520> ray<00:03:05.670> we're<00:03:06.360> going<00:03:06.480> to<00:03:06.540> set<00:03:06.720> the<00:03:06.870> color
+
+00:03:07.070 --> 00:03:07.080 
+mental ray we're going to set the color
+
+00:03:07.080 --> 00:03:10.730 
+mental ray we're going to set the color
+to<00:03:07.170> black<00:03:07.740> and<00:03:08.600> I'm<00:03:09.600> going<00:03:09.870> to<00:03:09.900> completely
+
+00:03:10.730 --> 00:03:10.740 
+to black and I'm going to completely
+
+00:03:10.740 --> 00:03:12.740 
+to black and I'm going to completely
+remove<00:03:10.980> reflectivity<00:03:11.490> so<00:03:12.210> that<00:03:12.420> there's<00:03:12.600> no
+
+00:03:12.740 --> 00:03:12.750 
+remove reflectivity so that there's no
+
+00:03:12.750 --> 00:03:13.970 
+remove reflectivity so that there's no
+glossiness<00:03:13.260> nothing<00:03:13.590> that<00:03:13.740> could<00:03:13.860> be
+
+00:03:13.970 --> 00:03:13.980 
+glossiness nothing that could be
+
+00:03:13.980 --> 00:03:16.130 
+glossiness nothing that could be
+affecting<00:03:14.400> the<00:03:14.490> overall<00:03:14.820> look<00:03:15.000> once<00:03:15.990> I've
+
+00:03:16.130 --> 00:03:16.140 
+affecting the overall look once I've
+
+00:03:16.140 --> 00:03:18.050 
+affecting the overall look once I've
+done<00:03:16.320> that<00:03:16.380> now<00:03:17.370> we<00:03:17.430> go<00:03:17.610> into<00:03:17.760> self
+
+00:03:18.050 --> 00:03:18.060 
+done that now we go into self
+
+00:03:18.060 --> 00:03:19.700 
+done that now we go into self
+illumination<00:03:18.270> glow<00:03:18.930> and<00:03:19.170> we're<00:03:19.410> going<00:03:19.530> to<00:03:19.590> use
+
+00:03:19.700 --> 00:03:19.710 
+illumination glow and we're going to use
+
+00:03:19.710 --> 00:03:22.250 
+illumination glow and we're going to use
+a<00:03:19.740> map<00:03:20.070> type<00:03:20.370> called<00:03:20.700> a<00:03:20.880> fall-off<00:03:21.240> so<00:03:22.020> first
+
+00:03:22.250 --> 00:03:22.260 
+a map type called a fall-off so first
+
+00:03:22.260 --> 00:03:24.290 
+a map type called a fall-off so first
+I'll<00:03:22.380> just<00:03:22.410> turn<00:03:22.710> on<00:03:22.860> self<00:03:23.160> illumination<00:03:23.370> I'm
+
+00:03:24.290 --> 00:03:24.300 
+I'll just turn on self illumination I'm
+
+00:03:24.300 --> 00:03:25.790 
+I'll just turn on self illumination I'm
+going<00:03:24.450> to<00:03:24.510> say<00:03:24.600> I<00:03:24.630> want<00:03:24.930> this<00:03:25.050> to<00:03:25.290> be<00:03:25.530> really
+
+00:03:25.790 --> 00:03:25.800 
+going to say I want this to be really
+
+00:03:25.800 --> 00:03:27.860 
+going to say I want this to be really
+bright<00:03:26.280> so<00:03:27.210> I'm<00:03:27.360> going<00:03:27.480> to<00:03:27.540> set<00:03:27.660> to<00:03:27.690> like
+
+00:03:27.860 --> 00:03:27.870 
+bright so I'm going to set to like
+
+00:03:27.870 --> 00:03:32.270 
+bright so I'm going to set to like
+50,000<00:03:28.850> candles<00:03:29.850> per<00:03:30.030> meter<00:03:30.240> square<00:03:31.130> click<00:03:32.130> on
+
+00:03:32.270 --> 00:03:32.280 
+50,000 candles per meter square click on
+
+00:03:32.280 --> 00:03:35.420 
+50,000 candles per meter square click on
+here<00:03:32.700> and<00:03:32.760> pick<00:03:33.300> fall-off<00:03:34.110> now<00:03:34.740> for<00:03:35.280> those<00:03:35.370> who
+
+00:03:35.420 --> 00:03:35.430 
+here and pick fall-off now for those who
+
+00:03:35.430 --> 00:03:36.760 
+here and pick fall-off now for those who
+aren't<00:03:35.610> familiar<00:03:35.700> with<00:03:35.970> fall-off<00:03:36.390> map
+
+00:03:36.760 --> 00:03:36.770 
+aren't familiar with fall-off map
+
+00:03:36.770 --> 00:03:39.200 
+aren't familiar with fall-off map
+fall-off<00:03:37.770> map<00:03:38.040> basically<00:03:38.520> controls<00:03:39.000> the
+
+00:03:39.200 --> 00:03:39.210 
+fall-off map basically controls the
+
+00:03:39.210 --> 00:03:41.150 
+fall-off map basically controls the
+application<00:03:39.810> of<00:03:39.930> a<00:03:40.020> gradient<00:03:40.320> of<00:03:40.650> texture
+
+00:03:41.150 --> 00:03:41.160 
+application of a gradient of texture
+
+00:03:41.160 --> 00:03:44.450 
+application of a gradient of texture
+based<00:03:41.820> on<00:03:42.150> angle<00:03:42.840> so<00:03:43.440> for<00:03:43.710> instance<00:03:44.010> right<00:03:44.190> now
+
+00:03:44.450 --> 00:03:44.460 
+based on angle so for instance right now
+
+00:03:44.460 --> 00:03:47.180 
+based on angle so for instance right now
+it's<00:03:45.210> set<00:03:45.450> to<00:03:45.480> perpendicular<00:03:46.230> pair<00:03:46.440> parallel
+
+00:03:47.180 --> 00:03:47.190 
+it's set to perpendicular pair parallel
+
+00:03:47.190 --> 00:03:48.440 
+it's set to perpendicular pair parallel
+based<00:03:47.430> on<00:03:47.610> the<00:03:47.700> viewing<00:03:47.970> direction<00:03:48.330> of<00:03:48.390> the
+
+00:03:48.440 --> 00:03:48.450 
+based on the viewing direction of the
+
+00:03:48.450 --> 00:03:51.050 
+based on the viewing direction of the
+camera<00:03:48.750> so<00:03:48.960> what<00:03:49.290> it'll<00:03:49.410> mean<00:03:49.500> is<00:03:49.830> the<00:03:50.640> faces
+
+00:03:51.050 --> 00:03:51.060 
+camera so what it'll mean is the faces
+
+00:03:51.060 --> 00:03:54.200 
+camera so what it'll mean is the faces
+that<00:03:51.300> most<00:03:51.930> face<00:03:52.320> the<00:03:52.590> camera<00:03:53.130> are<00:03:53.700> going<00:03:54.060> to
+
+00:03:54.200 --> 00:03:54.210 
+that most face the camera are going to
+
+00:03:54.210 --> 00:03:56.240 
+that most face the camera are going to
+get<00:03:54.450> black<00:03:54.900> texture<00:03:55.380> in<00:03:55.470> the<00:03:55.560> faces<00:03:55.920> that<00:03:55.950> most
+
+00:03:56.240 --> 00:03:56.250 
+get black texture in the faces that most
+
+00:03:56.250 --> 00:03:58.460 
+get black texture in the faces that most
+face<00:03:56.580> away<00:03:57.180> from<00:03:57.210> the<00:03:57.420> camera<00:03:57.870> are<00:03:58.110> going<00:03:58.410> to
+
+00:03:58.460 --> 00:03:58.470 
+face away from the camera are going to
+
+00:03:58.470 --> 00:04:00.170 
+face away from the camera are going to
+get<00:03:58.560> a<00:03:58.590> white<00:03:58.860> and<00:03:59.100> whatever's<00:03:59.970> in<00:04:00.000> those
+
+00:04:00.170 --> 00:04:00.180 
+get a white and whatever's in those
+
+00:04:00.180 --> 00:04:01.850 
+get a white and whatever's in those
+textures<00:04:00.450> Lots<00:04:00.750> so<00:04:01.200> at<00:04:01.380> this<00:04:01.470> point<00:04:01.620> it<00:04:01.800> will
+
+00:04:01.850 --> 00:04:01.860 
+textures Lots so at this point it will
+
+00:04:01.860 --> 00:04:05.510 
+textures Lots so at this point it will
+create<00:04:02.250> an<00:04:02.430> x-ray<00:04:02.790> gradient<00:04:03.300> across<00:04:04.290> this<00:04:04.520> so
+
+00:04:05.510 --> 00:04:05.520 
+create an x-ray gradient across this so
+
+00:04:05.520 --> 00:04:09.560 
+create an x-ray gradient across this so
+if<00:04:05.640> I<00:04:05.730> hit<00:04:05.910> render<00:04:06.360> right<00:04:06.690> now<00:04:08.510> you'll<00:04:09.510> see
+
+00:04:09.560 --> 00:04:09.570 
+if I hit render right now you'll see
+
+00:04:09.570 --> 00:04:11.300 
+if I hit render right now you'll see
+exactly<00:04:10.020> that<00:04:10.170> effect<00:04:10.530> all<00:04:10.710> the<00:04:10.770> polygons
+
+00:04:11.300 --> 00:04:11.310 
+exactly that effect all the polygons
+
+00:04:11.310 --> 00:04:12.740 
+exactly that effect all the polygons
+that<00:04:11.430> face<00:04:11.610> the<00:04:11.790> camera<00:04:12.060> directly<00:04:12.360> are<00:04:12.510> black
+
+00:04:12.740 --> 00:04:12.750 
+that face the camera directly are black
+
+00:04:12.750 --> 00:04:14.690 
+that face the camera directly are black
+and<00:04:13.050> as<00:04:13.440> it<00:04:13.620> goes<00:04:13.740> off<00:04:13.920> angle<00:04:14.340> you<00:04:14.430> get<00:04:14.550> the
+
+00:04:14.690 --> 00:04:14.700 
+and as it goes off angle you get the
+
+00:04:14.700 --> 00:04:17.270 
+and as it goes off angle you get the
+white<00:04:15.140> now<00:04:16.140> if<00:04:16.380> I<00:04:16.470> go<00:04:16.680> in<00:04:16.830> here<00:04:17.040> and<00:04:17.220> just
+
+00:04:17.270 --> 00:04:17.280 
+white now if I go in here and just
+
+00:04:17.280 --> 00:04:19.550 
+white now if I go in here and just
+change<00:04:17.640> this<00:04:17.790> to<00:04:17.940> a<00:04:17.970> different<00:04:18.180> type<00:04:18.660> we
+
+00:04:19.550 --> 00:04:19.560 
+change this to a different type we
+
+00:04:19.560 --> 00:04:21.590 
+change this to a different type we
+change<00:04:20.220> it<00:04:20.310> to<00:04:20.430> a<00:04:20.460> fernell<00:04:20.880> and<00:04:21.120> this<00:04:21.479> is
+
+00:04:21.590 --> 00:04:21.600 
+change it to a fernell and this is
+
+00:04:21.600 --> 00:04:23.030 
+change it to a fernell and this is
+really<00:04:21.810> just<00:04:21.989> a<00:04:22.049> different<00:04:22.169> algorithm<00:04:22.680> and
+
+00:04:23.030 --> 00:04:23.040 
+really just a different algorithm and
+
+00:04:23.040 --> 00:04:24.950 
+really just a different algorithm and
+this<00:04:23.100> is<00:04:23.310> the<00:04:23.940> algorithm<00:04:24.210> usually<00:04:24.630> used<00:04:24.840> to
+
+00:04:24.950 --> 00:04:24.960 
+this is the algorithm usually used to
+
+00:04:24.960 --> 00:04:27.180 
+this is the algorithm usually used to
+control<00:04:25.919> reflections<00:04:26.640> on<00:04:26.760> things<00:04:26.940> like
+
+00:04:27.180 --> 00:04:27.190 
+control reflections on things like
+
+00:04:27.190 --> 00:04:28.470 
+control reflections on things like
+our<00:04:27.280> pain<00:04:27.520> where<00:04:27.730> the<00:04:27.790> reflection<00:04:28.000> gets<00:04:28.360> more
+
+00:04:28.470 --> 00:04:28.480 
+our pain where the reflection gets more
+
+00:04:28.480 --> 00:04:30.420 
+our pain where the reflection gets more
+powerful<00:04:28.930> as<00:04:29.080> you<00:04:29.200> get<00:04:29.350> more<00:04:30.100> of<00:04:30.160> a<00:04:30.220> glancing
+
+00:04:30.420 --> 00:04:30.430 
+powerful as you get more of a glancing
+
+00:04:30.430 --> 00:04:36.840 
+powerful as you get more of a glancing
+angle<00:04:30.790> and<00:04:31.180> if<00:04:31.660> I<00:04:31.780> render<00:04:32.170> that<00:04:35.580> you<00:04:36.580> will<00:04:36.700> see
+
+00:04:36.840 --> 00:04:36.850 
+angle and if I render that you will see
+
+00:04:36.850 --> 00:04:38.310 
+angle and if I render that you will see
+exactly<00:04:37.120> that<00:04:37.300> you<00:04:37.540> get<00:04:37.660> this<00:04:37.780> much<00:04:37.990> more
+
+00:04:38.310 --> 00:04:38.320 
+exactly that you get this much more
+
+00:04:38.320 --> 00:04:41.160 
+exactly that you get this much more
+refined<00:04:39.000> highlight<00:04:40.000> this<00:04:40.180> rim<00:04:40.570> light<00:04:40.750> you
+
+00:04:41.160 --> 00:04:41.170 
+refined highlight this rim light you
+
+00:04:41.170 --> 00:04:42.750 
+refined highlight this rim light you
+could<00:04:41.320> call<00:04:41.500> it<00:04:41.680> all<00:04:41.860> the<00:04:42.280> way<00:04:42.370> around<00:04:42.640> the
+
+00:04:42.750 --> 00:04:42.760 
+could call it all the way around the
+
+00:04:42.760 --> 00:04:45.030 
+could call it all the way around the
+object<00:04:43.150> so<00:04:43.840> now<00:04:43.960> this<00:04:44.260> is<00:04:44.320> my<00:04:44.440> problem<00:04:44.770> those
+
+00:04:45.030 --> 00:04:45.040 
+object so now this is my problem those
+
+00:04:45.040 --> 00:04:46.920 
+object so now this is my problem those
+the<00:04:45.190> rim<00:04:45.340> like<00:04:45.490> literally<00:04:46.000> is<00:04:46.240> all<00:04:46.540> the<00:04:46.840> way
+
+00:04:46.920 --> 00:04:46.930 
+the rim like literally is all the way
+
+00:04:46.930 --> 00:04:48.810 
+the rim like literally is all the way
+around<00:04:47.050> the<00:04:47.350> object<00:04:47.710> and<00:04:47.830> that's<00:04:47.890> really<00:04:48.670> not
+
+00:04:48.810 --> 00:04:48.820 
+around the object and that's really not
+
+00:04:48.820 --> 00:04:51.720 
+around the object and that's really not
+what<00:04:49.000> I<00:04:49.060> want<00:04:49.390> so<00:04:49.860> I<00:04:50.860> want<00:04:51.130> to<00:04:51.220> control<00:04:51.490> the<00:04:51.610> rim
+
+00:04:51.720 --> 00:04:51.730 
+what I want so I want to control the rim
+
+00:04:51.730 --> 00:04:52.860 
+what I want so I want to control the rim
+light<00:04:51.850> so<00:04:51.970> it's<00:04:52.090> just<00:04:52.240> on<00:04:52.420> one<00:04:52.720> particular
+
+00:04:52.860 --> 00:04:52.870 
+light so it's just on one particular
+
+00:04:52.870 --> 00:04:54.930 
+light so it's just on one particular
+side<00:04:53.440> so<00:04:54.280> what<00:04:54.400> I'm<00:04:54.490> going<00:04:54.580> to<00:04:54.640> do<00:04:54.760> is<00:04:54.850> I'm
+
+00:04:54.930 --> 00:04:54.940 
+side so what I'm going to do is I'm
+
+00:04:54.940 --> 00:04:58.050 
+side so what I'm going to do is I'm
+going<00:04:55.030> to<00:04:55.090> change<00:04:55.330> this<00:04:55.720> back<00:04:55.990> to<00:04:56.560> a<00:04:57.060> towards
+
+00:04:58.050 --> 00:04:58.060 
+going to change this back to a towards
+
+00:04:58.060 --> 00:05:00.870 
+going to change this back to a towards
+away<00:04:58.600> and<00:04:59.380> instead<00:05:00.220> of<00:05:00.280> based<00:05:00.490> on<00:05:00.610> viewing
+
+00:05:00.870 --> 00:05:00.880 
+away and instead of based on viewing
+
+00:05:00.880 --> 00:05:02.160 
+away and instead of based on viewing
+direction<00:05:01.210> I'm<00:05:01.270> going<00:05:01.390> to<00:05:01.450> base<00:05:01.600> it<00:05:01.630> off<00:05:01.870> of<00:05:02.050> an
+
+00:05:02.160 --> 00:05:02.170 
+direction I'm going to base it off of an
+
+00:05:02.170 --> 00:05:07.820 
+direction I'm going to base it off of an
+object<00:05:02.850> and<00:05:03.850> I'm<00:05:04.510> going<00:05:04.660> to<00:05:04.690> say<00:05:04.870> well<00:05:05.320> look<00:05:05.590> at
+
+00:05:07.820 --> 00:05:07.830 
+
+00:05:07.830 --> 00:05:11.040 
+
+this<00:05:08.830> point<00:05:09.310> helper<00:05:09.610> here<00:05:09.820> so<00:05:10.570> you<00:05:10.660> now<00:05:10.780> go<00:05:10.930> out
+
+00:05:11.040 --> 00:05:11.050 
+this point helper here so you now go out
+
+00:05:11.050 --> 00:05:14.160 
+this point helper here so you now go out
+point<00:05:11.320> o4<00:05:11.470> which<00:05:11.920> is<00:05:12.070> going<00:05:12.220> to<00:05:12.280> control<00:05:13.170> where
+
+00:05:14.160 --> 00:05:14.170 
+point o4 which is going to control where
+
+00:05:14.170 --> 00:05:16.470 
+point o4 which is going to control where
+it<00:05:14.410> looks<00:05:14.680> and<00:05:14.980> let's<00:05:15.580> just<00:05:15.820> see<00:05:16.060> what<00:05:16.300> that
+
+00:05:16.470 --> 00:05:16.480 
+it looks and let's just see what that
+
+00:05:16.480 --> 00:05:23.660 
+it looks and let's just see what that
+gets<00:05:16.720> us<00:05:16.930> right<00:05:17.140> now<00:05:21.780> so<00:05:22.780> you<00:05:22.870> can<00:05:22.930> see<00:05:23.020> here
+
+00:05:23.660 --> 00:05:23.670 
+gets us right now so you can see here
+
+00:05:23.670 --> 00:05:26.430 
+gets us right now so you can see here
+the<00:05:24.670> tort<00:05:25.030> is<00:05:25.240> actually<00:05:25.570> blacks<00:05:25.870> what's<00:05:26.230> going
+
+00:05:26.430 --> 00:05:26.440 
+the tort is actually blacks what's going
+
+00:05:26.440 --> 00:05:27.900 
+the tort is actually blacks what's going
+black<00:05:26.650> towards<00:05:27.130> that<00:05:27.250> point<00:05:27.460> helper<00:05:27.730> so<00:05:27.820> I'm
+
+00:05:27.900 --> 00:05:27.910 
+black towards that point helper so I'm
+
+00:05:27.910 --> 00:05:29.820 
+black towards that point helper so I'm
+just<00:05:28.000> going<00:05:28.150> to<00:05:28.180> reverse<00:05:28.450> that<00:05:28.720> and<00:05:28.960> then<00:05:29.740> I'm
+
+00:05:29.820 --> 00:05:29.830 
+just going to reverse that and then I'm
+
+00:05:29.830 --> 00:05:32.490 
+just going to reverse that and then I'm
+going<00:05:29.860> to<00:05:29.980> add<00:05:30.130> two<00:05:30.490> points<00:05:30.840> to<00:05:31.840> the<00:05:31.960> gradient
+
+00:05:32.490 --> 00:05:32.500 
+going to add two points to the gradient
+
+00:05:32.500 --> 00:05:34.290 
+going to add two points to the gradient
+for<00:05:32.680> the<00:05:32.770> shader<00:05:33.100> and<00:05:33.340> what<00:05:33.610> these<00:05:33.760> two<00:05:33.940> points
+
+00:05:34.290 --> 00:05:34.300 
+for the shader and what these two points
+
+00:05:34.300 --> 00:05:35.970 
+for the shader and what these two points
+will<00:05:34.419> allow<00:05:34.510> me<00:05:34.660> to<00:05:34.780> do<00:05:34.930> is<00:05:35.110> control<00:05:35.770> which
+
+00:05:35.970 --> 00:05:35.980 
+will allow me to do is control which
+
+00:05:35.980 --> 00:05:38.460 
+will allow me to do is control which
+where<00:05:36.700> the<00:05:36.940> boundary<00:05:37.720> is<00:05:37.810> between<00:05:38.230> black<00:05:38.440> and
+
+00:05:38.460 --> 00:05:38.470 
+where the boundary is between black and
+
+00:05:38.470 --> 00:05:41.040 
+where the boundary is between black and
+white<00:05:38.800> and<00:05:38.950> how<00:05:39.100> strong<00:05:39.730> it<00:05:39.910> is<00:05:40.000> so<00:05:40.720> I<00:05:40.750> can<00:05:40.930> go
+
+00:05:41.040 --> 00:05:41.050 
+white and how strong it is so I can go
+
+00:05:41.050 --> 00:05:43.850 
+white and how strong it is so I can go
+in<00:05:41.200> here<00:05:41.230> and<00:05:41.440> say<00:05:41.680> well<00:05:41.919> let's<00:05:42.130> just<00:05:42.220> do<00:05:42.520> that
+
+00:05:43.850 --> 00:05:43.860 
+in here and say well let's just do that
+
+00:05:43.860 --> 00:05:46.860 
+in here and say well let's just do that
+like<00:05:44.860> so<00:05:45.130> and<00:05:45.400> we'll<00:05:45.580> again<00:05:46.060> render<00:05:46.450> and<00:05:46.660> see
+
+00:05:46.860 --> 00:05:46.870 
+like so and we'll again render and see
+
+00:05:46.870 --> 00:05:49.620 
+like so and we'll again render and see
+what<00:05:47.020> that<00:05:47.140> looks<00:05:47.380> like<00:05:47.440> so<00:05:48.300> now<00:05:49.300> you<00:05:49.390> can<00:05:49.480> see
+
+00:05:49.620 --> 00:05:49.630 
+what that looks like so now you can see
+
+00:05:49.630 --> 00:05:52.250 
+what that looks like so now you can see
+it's<00:05:49.750> starting<00:05:50.020> to<00:05:50.110> get<00:05:50.169> much<00:05:50.470> stronger<00:05:50.800> let's
+
+00:05:52.250 --> 00:05:52.260 
+it's starting to get much stronger let's
+
+00:05:52.260 --> 00:05:54.930 
+it's starting to get much stronger let's
+see<00:05:53.260> if<00:05:53.350> maybe<00:05:53.470> we<00:05:53.710> do<00:05:53.890> that<00:05:54.130> well<00:05:54.550> we<00:05:54.580> end<00:05:54.790> up
+
+00:05:54.930 --> 00:05:54.940 
+see if maybe we do that well we end up
+
+00:05:54.940 --> 00:05:56.850 
+see if maybe we do that well we end up
+with<00:05:55.150> actually<00:05:56.080> I<00:05:56.140> think<00:05:56.230> I<00:05:56.380> need<00:05:56.560> to<00:05:56.650> go<00:05:56.740> the
+
+00:05:56.850 --> 00:05:56.860 
+with actually I think I need to go the
+
+00:05:56.860 --> 00:05:59.310 
+with actually I think I need to go the
+other<00:05:56.890> way<00:05:57.040> and<00:05:57.190> yes<00:05:57.669> I<00:05:57.850> am<00:05:58.000> correct<00:05:58.390> so<00:05:59.230> I'll
+
+00:05:59.310 --> 00:05:59.320 
+other way and yes I am correct so I'll
+
+00:05:59.320 --> 00:06:03.090 
+other way and yes I am correct so I'll
+grab<00:05:59.470> those<00:05:59.740> two<00:05:59.980> points<00:06:00.220> and<00:06:00.690> do<00:06:01.690> that<00:06:01.919> and<00:06:02.919> we
+
+00:06:03.090 --> 00:06:03.100 
+grab those two points and do that and we
+
+00:06:03.100 --> 00:06:08.940 
+grab those two points and do that and we
+render<00:06:03.370> again<00:06:06.240> maybe<00:06:07.240> a<00:06:07.390> little<00:06:07.750> too<00:06:08.080> far<00:06:08.470> so
+
+00:06:08.940 --> 00:06:08.950 
+render again maybe a little too far so
+
+00:06:08.950 --> 00:06:12.270 
+render again maybe a little too far so
+we'll<00:06:09.900> kind<00:06:10.900> of<00:06:10.930> expand<00:06:11.380> that<00:06:11.410> just<00:06:11.860> a<00:06:11.919> little
+
+00:06:12.270 --> 00:06:12.280 
+we'll kind of expand that just a little
+
+00:06:12.280 --> 00:06:16.320 
+we'll kind of expand that just a little
+bit<00:06:12.430> and<00:06:12.760> there<00:06:13.750> we<00:06:13.780> go<00:06:14.050> so<00:06:15.240> what<00:06:16.240> I've
+
+00:06:16.320 --> 00:06:16.330 
+bit and there we go so what I've
+
+00:06:16.330 --> 00:06:18.060 
+bit and there we go so what I've
+essentially<00:06:16.690> done<00:06:16.960> is<00:06:17.110> created<00:06:17.440> a<00:06:17.530> mask<00:06:17.800> with
+
+00:06:18.060 --> 00:06:18.070 
+essentially done is created a mask with
+
+00:06:18.070 --> 00:06:21.300 
+essentially done is created a mask with
+the<00:06:18.160> first<00:06:18.400> fall-off<00:06:18.910> map<00:06:19.210> saying<00:06:19.900> only<00:06:20.310> do
+
+00:06:21.300 --> 00:06:21.310 
+the first fall-off map saying only do
+
+00:06:21.310 --> 00:06:23.610 
+the first fall-off map saying only do
+work<00:06:21.610> in<00:06:21.850> the<00:06:22.060> white<00:06:22.240> areas<00:06:22.660> of<00:06:22.900> this<00:06:23.260> model
+
+00:06:23.610 --> 00:06:23.620 
+work in the white areas of this model
+
+00:06:23.620 --> 00:06:27.120 
+work in the white areas of this model
+and<00:06:23.740> now<00:06:24.400> in<00:06:24.700> the<00:06:25.180> white<00:06:25.390> portion<00:06:26.260> of<00:06:26.620> the
+
+00:06:27.120 --> 00:06:27.130 
+and now in the white portion of the
+
+00:06:27.130 --> 00:06:28.890 
+and now in the white portion of the
+fall-off<00:06:27.370> map<00:06:27.790> I'll<00:06:28.000> go<00:06:28.330> in<00:06:28.450> here<00:06:28.690> and<00:06:28.810> I'm
+
+00:06:28.890 --> 00:06:28.900 
+fall-off map I'll go in here and I'm
+
+00:06:28.900 --> 00:06:31.920 
+fall-off map I'll go in here and I'm
+going<00:06:29.020> to<00:06:29.080> apply<00:06:29.290> another<00:06:29.620> fall-off<00:06:30.280> and<00:06:30.930> this
+
+00:06:31.920 --> 00:06:31.930 
+going to apply another fall-off and this
+
+00:06:31.930 --> 00:06:35.159 
+going to apply another fall-off and this
+one<00:06:32.140> I'm<00:06:32.260> going<00:06:32.440> to<00:06:32.620> set<00:06:32.890> to<00:06:33.040> for<00:06:33.250> now<00:06:34.169> and
+
+00:06:35.159 --> 00:06:35.169 
+one I'm going to set to for now and
+
+00:06:35.169 --> 00:06:37.340 
+one I'm going to set to for now and
+again<00:06:35.680> I<00:06:35.740> hit<00:06:36.039> render
+
+00:06:37.340 --> 00:06:37.350 
+again I hit render
+
+00:06:37.350 --> 00:06:40.640 
+again I hit render
+and<00:06:38.250> so<00:06:38.430> now<00:06:38.580> what<00:06:38.730> you'll<00:06:38.880> see<00:06:39.090> is<00:06:39.410> I<00:06:40.410> get<00:06:40.620> a
+
+00:06:40.640 --> 00:06:40.650 
+and so now what you'll see is I get a
+
+00:06:40.650 --> 00:06:44.900 
+and so now what you'll see is I get a
+perfectly<00:06:41.270> set<00:06:42.270> rim<00:06:42.780> light<00:06:42.990> on<00:06:43.200> just<00:06:43.640> the<00:06:44.640> one
+
+00:06:44.900 --> 00:06:44.910 
+perfectly set rim light on just the one
+
+00:06:44.910 --> 00:06:47.930 
+perfectly set rim light on just the one
+side<00:06:45.240> of<00:06:45.570> the<00:06:45.810> character<00:06:46.230> now<00:06:47.190> if<00:06:47.370> I<00:06:47.490> want<00:06:47.730> to<00:06:47.910> I
+
+00:06:47.930 --> 00:06:47.940 
+side of the character now if I want to I
+
+00:06:47.940 --> 00:06:49.370 
+side of the character now if I want to I
+can<00:06:48.270> go<00:06:48.390> through<00:06:48.600> and<00:06:48.690> start<00:06:48.810> to<00:06:49.020> adjust
+
+00:06:49.370 --> 00:06:49.380 
+can go through and start to adjust
+
+00:06:49.380 --> 00:06:52.070 
+can go through and start to adjust
+because<00:06:49.530> the<00:06:49.740> beauty<00:06:50.010> is<00:06:50.480> for<00:06:51.480> instance<00:06:51.870> that
+
+00:06:52.070 --> 00:06:52.080 
+because the beauty is for instance that
+
+00:06:52.080 --> 00:06:56.210 
+because the beauty is for instance that
+I<00:06:52.140> am<00:06:52.530> currently<00:06:53.460> using<00:06:54.620> this<00:06:55.620> object<00:06:55.890> to
+
+00:06:56.210 --> 00:06:56.220 
+I am currently using this object to
+
+00:06:56.220 --> 00:06:58.520 
+I am currently using this object to
+control<00:06:56.610> where<00:06:56.820> my<00:06:57.000> lighting<00:06:57.360> is<00:06:57.570> so<00:06:58.320> if<00:06:58.440> I
+
+00:06:58.520 --> 00:06:58.530 
+control where my lighting is so if I
+
+00:06:58.530 --> 00:07:01.400 
+control where my lighting is so if I
+want<00:06:58.740> I<00:06:58.950> can<00:06:59.010> for<00:06:59.730> instance<00:06:59.790> move<00:07:00.210> it<00:07:00.390> up<00:07:01.140> and
+
+00:07:01.400 --> 00:07:01.410 
+want I can for instance move it up and
+
+00:07:01.410 --> 00:07:03.620 
+want I can for instance move it up and
+over<00:07:01.620> here<00:07:01.980> and<00:07:02.190> if<00:07:02.940> I<00:07:03.030> go<00:07:03.180> and<00:07:03.330> hit<00:07:03.450> render
+
+00:07:03.620 --> 00:07:03.630 
+over here and if I go and hit render
+
+00:07:03.630 --> 00:07:06.340 
+over here and if I go and hit render
+again<00:07:04.020> what<00:07:04.230> you'll<00:07:04.380> see<00:07:04.590> is<00:07:04.830> my<00:07:05.040> rim<00:07:05.250> light
+
+00:07:06.340 --> 00:07:06.350 
+again what you'll see is my rim light
+
+00:07:06.350 --> 00:07:08.420 
+again what you'll see is my rim light
+adjusts<00:07:07.350> itself<00:07:07.560> and<00:07:07.800> now<00:07:07.890> it's<00:07:08.040> more<00:07:08.250> to<00:07:08.400> the
+
+00:07:08.420 --> 00:07:08.430 
+adjusts itself and now it's more to the
+
+00:07:08.430 --> 00:07:10.610 
+adjusts itself and now it's more to the
+top<00:07:08.670> of<00:07:08.790> the<00:07:08.850> character<00:07:09.180> so<00:07:09.990> you<00:07:10.020> can<00:07:10.230> actually
+
+00:07:10.610 --> 00:07:10.620 
+top of the character so you can actually
+
+00:07:10.620 --> 00:07:12.800 
+top of the character so you can actually
+basically<00:07:11.250> put<00:07:11.580> a<00:07:11.610> point<00:07:11.880> helper<00:07:12.300> for<00:07:12.540> every
+
+00:07:12.800 --> 00:07:12.810 
+basically put a point helper for every
+
+00:07:12.810 --> 00:07:14.840 
+basically put a point helper for every
+character<00:07:13.170> or<00:07:13.500> whatever<00:07:13.650> in<00:07:13.890> the<00:07:14.010> scene<00:07:14.250> so
+
+00:07:14.840 --> 00:07:14.850 
+character or whatever in the scene so
+
+00:07:14.850 --> 00:07:16.130 
+character or whatever in the scene so
+you<00:07:14.940> can<00:07:15.060> adjust<00:07:15.360> where<00:07:15.510> the<00:07:15.570> rim<00:07:15.810> light<00:07:15.990> is
+
+00:07:16.130 --> 00:07:16.140 
+you can adjust where the rim light is
+
+00:07:16.140 --> 00:07:18.620 
+you can adjust where the rim light is
+per<00:07:16.440> character<00:07:16.860> and<00:07:17.310> move<00:07:17.760> it<00:07:17.880> around<00:07:17.940> now<00:07:18.570> the
+
+00:07:18.620 --> 00:07:18.630 
+per character and move it around now the
+
+00:07:18.630 --> 00:07:19.580 
+per character and move it around now the
+one<00:07:18.840> thing<00:07:19.020> you're<00:07:19.170> going<00:07:19.320> to<00:07:19.380> have<00:07:19.500> to
+
+00:07:19.580 --> 00:07:19.590 
+one thing you're going to have to
+
+00:07:19.590 --> 00:07:21.530 
+one thing you're going to have to
+remember<00:07:19.740> in<00:07:19.950> this<00:07:20.070> process<00:07:20.460> is<00:07:20.760> I've<00:07:21.150> created
+
+00:07:21.530 --> 00:07:21.540 
+remember in this process is I've created
+
+00:07:21.540 --> 00:07:23.540 
+remember in this process is I've created
+a<00:07:21.720> whole<00:07:21.930> new<00:07:21.960> material<00:07:22.620> to<00:07:22.650> do<00:07:22.830> this<00:07:22.980> I<00:07:23.190> could
+
+00:07:23.540 --> 00:07:23.550 
+a whole new material to do this I could
+
+00:07:23.550 --> 00:07:25.790 
+a whole new material to do this I could
+obviously<00:07:24.390> put<00:07:24.660> these<00:07:24.810> texture<00:07:25.170> Maps<00:07:25.350> as<00:07:25.590> well
+
+00:07:25.790 --> 00:07:25.800 
+obviously put these texture Maps as well
+
+00:07:25.800 --> 00:07:28.730 
+obviously put these texture Maps as well
+right<00:07:26.550> into<00:07:26.880> the<00:07:26.970> original<00:07:27.360> shader<00:07:27.690> in<00:07:28.170> the<00:07:28.470> in
+
+00:07:28.730 --> 00:07:28.740 
+right into the original shader in the in
+
+00:07:28.740 --> 00:07:30.980 
+right into the original shader in the in
+the<00:07:29.010> self<00:07:29.550> illumination<00:07:29.700> glow<00:07:30.240> channel<00:07:30.810> of
+
+00:07:30.980 --> 00:07:30.990 
+the self illumination glow channel of
+
+00:07:30.990 --> 00:07:33.410 
+the self illumination glow channel of
+the<00:07:31.260> original<00:07:31.560> shader<00:07:31.800> for<00:07:32.130> Dave<00:07:32.730> and<00:07:33.030> it
+
+00:07:33.410 --> 00:07:33.420 
+the original shader for Dave and it
+
+00:07:33.420 --> 00:07:34.310 
+the original shader for Dave and it
+would<00:07:33.510> create<00:07:33.720> that<00:07:33.810> highlight<00:07:34.170> but<00:07:34.290> I
+
+00:07:34.310 --> 00:07:34.320 
+would create that highlight but I
+
+00:07:34.320 --> 00:07:36.920 
+would create that highlight but I
+wouldn't<00:07:34.470> have<00:07:34.560> much<00:07:34.710> control<00:07:35.690> but<00:07:36.690> the<00:07:36.780> thing
+
+00:07:36.920 --> 00:07:36.930 
+wouldn't have much control but the thing
+
+00:07:36.930 --> 00:07:38.030 
+wouldn't have much control but the thing
+remember<00:07:37.230> is<00:07:37.290> if<00:07:37.380> you're<00:07:37.500> creating<00:07:37.800> it<00:07:37.890> on<00:07:37.980> a
+
+00:07:38.030 --> 00:07:38.040 
+remember is if you're creating it on a
+
+00:07:38.040 --> 00:07:40.190 
+remember is if you're creating it on a
+separate<00:07:38.610> material<00:07:39.360> then<00:07:39.630> the<00:07:39.780> original
+
+00:07:40.190 --> 00:07:40.200 
+separate material then the original
+
+00:07:40.200 --> 00:07:42.980 
+separate material then the original
+material<00:07:40.710> for<00:07:40.890> your<00:07:40.980> object<00:07:41.540> if<00:07:42.540> you<00:07:42.720> have<00:07:42.840> any
+
+00:07:42.980 --> 00:07:42.990 
+material for your object if you have any
+
+00:07:42.990 --> 00:07:44.390 
+material for your object if you have any
+displacement<00:07:43.620> in<00:07:43.680> that<00:07:43.800> regional<00:07:44.070> materia
+
+00:07:44.390 --> 00:07:44.400 
+displacement in that regional materia
+
+00:07:44.400 --> 00:07:45.470 
+displacement in that regional materia
+you're<00:07:44.490> going<00:07:44.610> to<00:07:44.700> want<00:07:44.850> to<00:07:44.880> also<00:07:45.240> put<00:07:45.390> those
+
+00:07:45.470 --> 00:07:45.480 
+you're going to want to also put those
+
+00:07:45.480 --> 00:07:47.060 
+you're going to want to also put those
+displacement<00:07:46.080> controls<00:07:46.440> into<00:07:46.740> this<00:07:46.860> one
+
+00:07:47.060 --> 00:07:47.070 
+displacement controls into this one
+
+00:07:47.070 --> 00:07:49.190 
+displacement controls into this one
+otherwise<00:07:47.310> your<00:07:48.180> rim<00:07:48.450> light<00:07:48.630> will<00:07:48.840> not<00:07:48.960> match
+
+00:07:49.190 --> 00:07:49.200 
+otherwise your rim light will not match
+
+00:07:49.200 --> 00:07:51.380 
+otherwise your rim light will not match
+the<00:07:49.470> actual<00:07:49.680> contours<00:07:50.220> of<00:07:50.310> your<00:07:50.550> character<00:07:51.210> so
+
+00:07:51.380 --> 00:07:51.390 
+the actual contours of your character so
+
+00:07:51.390 --> 00:07:53.630 
+the actual contours of your character so
+just<00:07:51.870> something<00:07:52.170> to<00:07:52.260> keep<00:07:52.350> in<00:07:52.440> mind<00:07:52.640> once
+
+00:07:53.630 --> 00:07:53.640 
+just something to keep in mind once
+
+00:07:53.640 --> 00:07:55.070 
+just something to keep in mind once
+you've<00:07:53.760> got<00:07:53.940> this<00:07:54.120> this<00:07:54.330> now<00:07:54.450> becomes<00:07:54.750> a<00:07:54.900> pass
+
+00:07:55.070 --> 00:07:55.080 
+you've got this this now becomes a pass
+
+00:07:55.080 --> 00:07:56.930 
+you've got this this now becomes a pass
+that<00:07:55.350> inside<00:07:55.770> of<00:07:55.800> Photoshop<00:07:56.430> or<00:07:56.670> whatever
+
+00:07:56.930 --> 00:07:56.940 
+that inside of Photoshop or whatever
+
+00:07:56.940 --> 00:07:59.180 
+that inside of Photoshop or whatever
+compositor<00:07:57.450> you<00:07:57.570> want<00:07:57.780> you<00:07:58.320> can<00:07:58.500> now<00:07:58.650> control
+
+00:07:59.180 --> 00:07:59.190 
+compositor you want you can now control
+
+00:07:59.190 --> 00:08:01.250 
+compositor you want you can now control
+this<00:07:59.460> extra<00:07:59.820> rim<00:08:00.000> lighting<00:08:00.270> put<00:08:00.570> glows<00:08:00.870> on<00:08:01.020> do
+
+00:08:01.250 --> 00:08:01.260 
+this extra rim lighting put glows on do
+
+00:08:01.260 --> 00:08:02.510 
+this extra rim lighting put glows on do
+whatever<00:08:01.380> you<00:08:01.620> want<00:08:01.830> to<00:08:02.250> give<00:08:02.400> it<00:08:02.490> that
+
+00:08:02.510 --> 00:08:02.520 
+whatever you want to give it that
+
+00:08:02.520 --> 00:08:05.540 
+whatever you want to give it that
+finesse<00:08:03.000> to<00:08:03.780> your<00:08:03.900> final<00:08:04.080> image<00:08:04.380> so<00:08:04.980> that's
+
+00:08:05.540 --> 00:08:05.550 
+finesse to your final image so that's
+
+00:08:05.550 --> 00:08:07.340 
+finesse to your final image so that's
+creating<00:08:06.030> rim<00:08:06.300> lights<00:08:06.540> with<00:08:06.780> a<00:08:06.810> shader<00:08:07.080> and
+
+00:08:07.340 --> 00:08:07.350 
+creating rim lights with a shader and
+
+00:08:07.350 --> 00:08:10.610 
+creating rim lights with a shader and
+fall-off<00:08:07.740> Maps<00:08:07.950> thank<00:08:08.340> you<00:08:08.400> very<00:08:08.490> much
+

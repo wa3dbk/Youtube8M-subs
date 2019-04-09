@@ -1,0 +1,430 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.450 --> 00:00:18.330
+ hello to all if florian for the site 
+
+00:00:16.650 --> 00:00:19.860
+ tahiti knows today we are 
+
+00:00:18.330 --> 00:00:23.160
+ found to see how to add a 
+
+00:00:19.860 --> 00:00:25.710
+ user to every pc of the domain in 
+
+00:00:23.160 --> 00:00:28.529
+ as a local administrator so for 
+
+00:00:25.710 --> 00:00:31.320
+ so we will start from a server 
+
+00:00:28.529 --> 00:00:33.480
+ active directory already installed and a 
+
+00:00:31.320 --> 00:00:35.540
+ windows client 8 points to 32 bits and 
+
+00:00:33.480 --> 00:00:38.040
+ already integrated into this same domain 
+
+00:00:35.540 --> 00:00:39.930
+ so the goal is to have a 
+
+00:00:38.040 --> 00:00:42.690
+ user who will automatically 
+
+00:00:39.930 --> 00:00:45.750
+ added as a local administrator 
+
+00:00:42.690 --> 00:00:49.049
+ of all the domain machine of course 
+
+00:00:45.750 --> 00:00:50.400
+ we can limit the impact by applying 
+
+00:00:49.049 --> 00:00:52.769
+ the group strategy that we will create 
+
+00:00:50.400 --> 00:00:55.559
+ only on some units in 
+
+00:00:52.769 --> 00:00:57.989
+ of organization that allows to have a 
+
+00:00:55.559 --> 00:00:59.220
+ greater flexibility to still have 
+
+00:00:57.989 --> 00:01:00.930
+ greater flexibility 
+
+00:00:59.220 --> 00:01:03.449
+ we will rather than add a 
+
+00:01:00.930 --> 00:01:05.460
+ user automatically to the group 
+
+00:01:03.449 --> 00:01:07.650
+ local postal administrators 
+
+00:01:05.460 --> 00:01:09.840
+ customers recreate a group in 
+
+00:01:07.650 --> 00:01:11.610
+ the directory active directory and it is this 
+
+00:01:09.840 --> 00:01:13.710
+ group that we will add as 
+
+00:01:11.610 --> 00:01:15.659
+ as a local administrator of all 
+
+00:01:13.710 --> 00:01:18.060
+ machines like that if we want to add 
+
+00:01:15.659 --> 00:01:20.940
+ additional users who 
+
+00:01:18.060 --> 00:01:22.860
+ have to become local admin of all 
+
+00:01:20.940 --> 00:01:24.870
+ pc it will be enough to add in the night 
+
+00:01:22.860 --> 00:01:26.970
+ active directory the user in the 
+
+00:01:24.870 --> 00:01:32.220
+ group will gain flexibility 
+
+00:01:26.970 --> 00:01:34.890
+ so to get started 
+
+00:01:32.220 --> 00:01:39.180
+ so we will create on our activity 
+
+00:01:34.890 --> 00:01:41.280
+ rectorie in the egg administrators a 
+
+00:01:39.180 --> 00:01:44.230
+ new group that we want to name 
+
+00:01:41.280 --> 00:01:49.000
+ for example administrators 
+
+00:01:44.230 --> 00:01:51.370
+ local so all the users who 
+
+00:01:49.000 --> 00:01:53.800
+ will be put in this group will become 
+
+00:01:51.370 --> 00:01:55.530
+ automatically local admin of any 
+
+00:01:53.800 --> 00:01:59.110
+ the domain machine 
+
+00:01:55.530 --> 00:02:01.780
+ so we will add the forian user 
+
+00:01:59.110 --> 00:02:07.590
+ burnel which is for the moment the only 
+
+00:02:01.780 --> 00:02:09.580
+ who can become local admin that's ok 
+
+00:02:07.590 --> 00:02:11.290
+ so now we're going to tackle the 
+
+00:02:09.580 --> 00:02:13.870
+ creating a group strategy for 
+
+00:02:11.290 --> 00:02:15.310
+ deploy this configuration are 
+
+00:02:13.870 --> 00:02:17.770
+ automatically on all machines 
+
+00:02:15.310 --> 00:02:20.140
+ of the domain so for that it's very 
+
+00:02:17.770 --> 00:02:21.790
+ simple one opens the management console 
+
+00:02:20.140 --> 00:02:24.780
+ group strategies that you can 
+
+00:02:21.790 --> 00:02:24.780
+ find in the administration tools 
+
+00:02:28.830 --> 00:02:36.600
+ as part of this video i'm going 
+
+00:02:31.600 --> 00:02:39.460
+ for my part create a new gp object at 
+
+00:02:36.600 --> 00:02:39.850
+ I'm going to position it at the level of 
+
+00:02:39.460 --> 00:02:41.410
+ field 
+
+00:02:39.850 --> 00:02:43.150
+ so I'm going to right click on the 
+
+00:02:41.410 --> 00:02:45.670
+ domain created a gpu object in this 
+
+00:02:43.150 --> 00:02:48.450
+ domain and link it here I want to name 
+
+00:02:45.670 --> 00:02:48.450
+ administrator 
+
+00:02:50.100 --> 00:02:55.300
+ here you can very well added 
+
+00:02:52.680 --> 00:02:56.410
+ that includes in a train of doing at 
+
+00:02:55.300 --> 00:02:57.100
+ within a group strategy 
+
+00:02:56.410 --> 00:03:00.040
+ existing 
+
+00:02:57.100 --> 00:03:03.940
+ the goal is not to make a 
+
+00:03:00.040 --> 00:03:06.280
+ multitude of strategies for very few 
+
+00:03:03.940 --> 00:03:11.200
+ settings have cut a right click have 
+
+00:03:06.280 --> 00:03:13.470
+ does modify so this applies to 
+
+00:03:11.200 --> 00:03:16.180
+ level 2 the computer 
+
+00:03:13.470 --> 00:03:17.680
+ I unfolded it's a little bit 
+
+00:03:16.180 --> 00:03:21.670
+ applies at level 2 the computer 
+
+00:03:17.680 --> 00:03:30.310
+ then in settings policies 
+
+00:03:21.670 --> 00:03:31.989
+ windows security settings and group 
+
+00:03:30.310 --> 00:03:32.500
+ therefore restricted to groups 
+
+00:03:31.989 --> 00:03:34.090
+ restricted 
+
+00:03:32.500 --> 00:03:35.730
+ we will right click in the area 
+
+00:03:34.090 --> 00:03:40.770
+ right added a group 
+
+00:03:35.730 --> 00:03:40.770
+ and there we told the group 
+
+00:03:43.300 --> 00:03:47.890
+ this is this administrators group 
+
+00:03:46.730 --> 00:03:53.270
+ local 
+
+00:03:47.890 --> 00:03:55.970
+ ok so now we're going to add this 
+
+00:03:53.270 --> 00:03:57.830
+ group in a group 
+
+00:03:55.970 --> 00:04:00.650
+ so this group and member of 
+
+00:03:57.830 --> 00:04:02.690
+ administrators do not translate by the 
+
+00:04:00.650 --> 00:04:05.480
+ local administrators group in the domain 
+
+00:04:02.690 --> 00:04:08.630
+ active directory alti connect point 
+
+00:04:05.480 --> 00:04:11.210
+ local and member of directors and 
+
+00:04:08.630 --> 00:04:13.610
+ administrator is a group 
+
+00:04:11.210 --> 00:04:15.620
+ local on a machine we will do a 
+
+00:04:13.610 --> 00:04:17.120
+ added have it traveled because 
+
+00:04:15.620 --> 00:04:20.239
+ if we run it, it will propose us 
+
+00:04:17.120 --> 00:04:21.200
+ choosing a group that is so store 
+
+00:04:20.239 --> 00:04:24.100
+ in the directory while it's not 
+
+00:04:21.200 --> 00:04:26.090
+ our case so we'll grab it by hand 
+
+00:04:24.100 --> 00:04:27.580
+ administrators with an ace doing 
+
+00:04:26.090 --> 00:04:31.580
+ be careful with the spelling 
+
+00:04:27.580 --> 00:04:33.800
+ valid with oak is applied ok 
+
+00:04:31.580 --> 00:04:36.290
+ so that's the strategy she's 
+
+00:04:33.800 --> 00:04:38.030
+ finished you see it's very fast and 
+
+00:04:36.290 --> 00:04:41.080
+ very simple so now for 
+
+00:04:38.030 --> 00:04:46.220
+ check that it is well taken into account 
+
+00:04:41.080 --> 00:04:50.090
+ we just go on the machine 
+
+00:04:46.220 --> 00:04:51.860
+ client made an update of the 
+
+00:04:50.090 --> 00:05:00.190
+ Group Policy which is a gp update 
+
+00:04:51.860 --> 00:05:00.190
+ loose force this is how 
+
+00:05:04.810 --> 00:05:08.470
+ so here after a few seconds so 
+
+00:05:06.460 --> 00:05:11.860
+ the friend the group strategy this but 
+
+00:05:08.470 --> 00:05:14.050
+ well up to date on the client machine or what 
+
+00:05:11.860 --> 00:05:16.630
+ now make a right click to wax 
+
+00:05:14.050 --> 00:05:19.150
+ in the computer management see if 
+
+00:05:16.630 --> 00:05:21.940
+ the local administrators group the 
+
+00:05:19.150 --> 00:05:25.450
+ domain and well add in the group 
+
+00:05:21.940 --> 00:05:27.040
+ local administrator of the machine so 
+
+00:05:25.450 --> 00:05:29.260
+ then on the left - of which 
+
+00:05:27.040 --> 00:05:30.820
+ the user and plots to the group 
+
+00:05:29.260 --> 00:05:32.680
+ my double click on the group 
+
+00:05:30.820 --> 00:05:36.280
+ administrator no who is the group 
+
+00:05:32.680 --> 00:05:38.950
+ local and there we have the pleasant surprise of 
+
+00:05:36.280 --> 00:05:41.560
+ regain our group and it is therefore 
+
+00:05:38.950 --> 00:05:43.030
+ from the admin domain 
+
+00:05:41.560 --> 00:05:44.710
+ local so who is the group we 
+
+00:05:43.030 --> 00:05:44.979
+ that we defined in the strategy of the 
+
+00:05:44.710 --> 00:05:47.590
+ group 
+
+00:05:44.979 --> 00:05:49.630
+ so here you can be sure that all 
+
+00:05:47.590 --> 00:05:51.669
+ administrators group members 
+
+00:05:49.630 --> 00:05:54.010
+ your domain will be 
+
+00:05:51.669 --> 00:05:56.370
+ automatically administrators 
+
+00:05:54.010 --> 00:05:56.370
+ machinery 
+
+00:05:57.660 --> 00:06:02.200
+ here you have seen it's a 
+
+00:05:59.800 --> 00:06:03.810
+ very fast configuration but who can 
+
+00:06:02.200 --> 00:06:06.729
+ save you time and have a 
+
+00:06:03.810 --> 00:06:07.630
+ a homogeneous configuration on your 
+
+00:06:06.729 --> 00:06:09.729
+ IT infrastructure 
+
+00:06:07.630 --> 00:06:12.160
+ after to you to see if you prefer 
+
+00:06:09.729 --> 00:06:14.830
+ use a group or a user 
+
+00:06:12.160 --> 00:06:16.630
+ it's as you wish but 
+
+00:06:14.830 --> 00:06:18.130
+ know that if you have questions 
+
+00:06:16.630 --> 00:06:20.169
+ could very well deposit on our 
+
+00:06:18.130 --> 00:06:21.760
+ forum leave us a comment on 
+
+00:06:20.169 --> 00:06:24.340
+ on the video on youtube 
+
+00:06:21.760 --> 00:06:26.340
+ Thank you 
+
+00:06:24.340 --> 00:06:26.340
+ 1 
+

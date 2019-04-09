@@ -1,0 +1,750 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.490 --> 00:00:06.050 
+
+hi<00:00:03.480> this<00:00:04.260> is<00:00:04.319> Mike<00:00:04.620> Danzig<00:00:05.040> Leo<00:00:05.220> and<00:00:05.580> I'm<00:00:05.939> going
+
+00:00:06.050 --> 00:00:06.060 
+hi this is Mike Danzig Leo and I'm going
+
+00:00:06.060 --> 00:00:07.790 
+hi this is Mike Danzig Leo and I'm going
+to<00:00:06.090> show<00:00:06.300> you<00:00:06.359> an<00:00:06.569> advanced<00:00:06.899> network<00:00:07.319> monitor
+
+00:00:07.790 --> 00:00:07.800 
+to show you an advanced network monitor
+
+00:00:07.800 --> 00:00:10.820 
+to show you an advanced network monitor
+technique<00:00:08.550> in<00:00:09.240> actually<00:00:10.080> taking<00:00:10.470> a<00:00:10.559> look<00:00:10.679> at<00:00:10.799> a
+
+00:00:10.820 --> 00:00:10.830 
+technique in actually taking a look at a
+
+00:00:10.830 --> 00:00:14.539 
+technique in actually taking a look at a
+couple<00:00:11.219> of<00:00:11.309> interesting<00:00:11.759> traces<00:00:12.660> one<00:00:13.620> much
+
+00:00:14.539 --> 00:00:14.549 
+couple of interesting traces one much
+
+00:00:14.549 --> 00:00:16.490 
+couple of interesting traces one much
+more<00:00:14.820> difficult<00:00:15.629> to<00:00:15.719> understand<00:00:16.230> than<00:00:16.379> the
+
+00:00:16.490 --> 00:00:16.500 
+more difficult to understand than the
+
+00:00:16.500 --> 00:00:19.730 
+more difficult to understand than the
+other<00:00:17.000> but<00:00:18.000> both<00:00:18.300> really<00:00:18.930> important<00:00:19.439> for<00:00:19.650> the
+
+00:00:19.730 --> 00:00:19.740 
+other but both really important for the
+
+00:00:19.740 --> 00:00:21.830 
+other but both really important for the
+IT<00:00:19.920> professional<00:00:20.849> to<00:00:21.000> understand<00:00:21.570> these
+
+00:00:21.830 --> 00:00:21.840 
+IT professional to understand these
+
+00:00:21.840 --> 00:00:23.710 
+IT professional to understand these
+kinds<00:00:22.230> of<00:00:22.289> patterns<00:00:22.500> and<00:00:22.890> these<00:00:23.070> kinds<00:00:23.519> of
+
+00:00:23.710 --> 00:00:23.720 
+kinds of patterns and these kinds of
+
+00:00:23.720 --> 00:00:25.820 
+kinds of patterns and these kinds of
+behaviors<00:00:24.720> that<00:00:24.750> they<00:00:25.199> see<00:00:25.259> on<00:00:25.560> the<00:00:25.679> network
+
+00:00:25.820 --> 00:00:25.830 
+behaviors that they see on the network
+
+00:00:25.830 --> 00:00:28.099 
+behaviors that they see on the network
+this<00:00:26.789> first<00:00:27.060> trace<00:00:27.330> I'm<00:00:27.480> showing<00:00:27.779> you<00:00:27.810> this
+
+00:00:28.099 --> 00:00:28.109 
+this first trace I'm showing you this
+
+00:00:28.109 --> 00:00:32.269 
+this first trace I'm showing you this
+example<00:00:28.759> com6<00:00:29.759> dot<00:00:30.150> pcap<00:00:30.630> is<00:00:31.259> actually<00:00:32.160> an
+
+00:00:32.269 --> 00:00:32.279 
+example com6 dot pcap is actually an
+
+00:00:32.279 --> 00:00:35.150 
+example com6 dot pcap is actually an
+example<00:00:32.400> of<00:00:32.970> network<00:00:33.900> captured<00:00:34.440> traffic
+
+00:00:35.150 --> 00:00:35.160 
+example of network captured traffic
+
+00:00:35.160 --> 00:00:39.070 
+example of network captured traffic
+between<00:00:35.370> a<00:00:35.910> host<00:00:36.570> called<00:00:36.900> quark<00:00:37.770> 2<00:00:38.010> and<00:00:38.310> Skynet
+
+00:00:39.070 --> 00:00:39.080 
+between a host called quark 2 and Skynet
+
+00:00:39.080 --> 00:00:42.230 
+between a host called quark 2 and Skynet
+example.com<00:00:40.080> and<00:00:40.590> actually<00:00:41.240> although
+
+00:00:42.230 --> 00:00:42.240 
+example.com and actually although
+
+00:00:42.240 --> 00:00:43.850 
+example.com and actually although
+there's<00:00:42.450> a<00:00:42.540> bunch<00:00:42.840> of<00:00:43.020> different<00:00:43.380> types<00:00:43.620> of
+
+00:00:43.850 --> 00:00:43.860 
+there's a bunch of different types of
+
+00:00:43.860 --> 00:00:45.890 
+there's a bunch of different types of
+traffic<00:00:44.400> going<00:00:44.850> on<00:00:44.970> between<00:00:45.180> these<00:00:45.510> two<00:00:45.720> we
+
+00:00:45.890 --> 00:00:45.900 
+traffic going on between these two we
+
+00:00:45.900 --> 00:00:48.500 
+traffic going on between these two we
+can<00:00:46.080> actually<00:00:46.230> see<00:00:46.650> ICMP<00:00:47.340> we<00:00:47.550> could<00:00:47.700> see<00:00:47.850> TCP
+
+00:00:48.500 --> 00:00:48.510 
+can actually see ICMP we could see TCP
+
+00:00:48.510 --> 00:00:52.250 
+can actually see ICMP we could see TCP
+we<00:00:49.470> see<00:00:49.650> some<00:00:49.860> SMB<00:00:50.490> traffic<00:00:51.000> going<00:00:51.300> on
+
+00:00:52.250 --> 00:00:52.260 
+we see some SMB traffic going on
+
+00:00:52.260 --> 00:00:54.710 
+we see some SMB traffic going on
+we<00:00:52.710> actually<00:00:52.920> down<00:00:53.550> here<00:00:53.580> we<00:00:53.940> see<00:00:54.120> some<00:00:54.360> Samer
+
+00:00:54.710 --> 00:00:54.720 
+we actually down here we see some Samer
+
+00:00:54.720 --> 00:00:56.300 
+we actually down here we see some Samer
+and<00:00:55.050> then<00:00:55.170> we<00:00:55.290> actually<00:00:55.500> and<00:00:55.830> then<00:00:56.040> we<00:00:56.160> get
+
+00:00:56.300 --> 00:00:56.310 
+and then we actually and then we get
+
+00:00:56.310 --> 00:00:58.520 
+and then we actually and then we get
+into<00:00:56.520> a<00:00:57.420> little<00:00:57.810> bit<00:00:57.930> of<00:00:58.020> Kerberos
+
+00:00:58.520 --> 00:00:58.530 
+into a little bit of Kerberos
+
+00:00:58.530 --> 00:01:01.370 
+into a little bit of Kerberos
+authentication<00:00:58.890> traffic<00:00:59.850> where<00:01:00.690> we're<00:01:01.020> we're
+
+00:01:01.370 --> 00:01:01.380 
+authentication traffic where we're we're
+
+00:01:01.380 --> 00:01:03.410 
+authentication traffic where we're we're
+quark<00:01:01.740> is<00:01:01.920> actually<00:01:02.280> asking<00:01:02.640> to<00:01:02.760> authenticate
+
+00:01:03.410 --> 00:01:03.420 
+quark is actually asking to authenticate
+
+00:01:03.420 --> 00:01:05.929 
+quark is actually asking to authenticate
+using<00:01:03.900> Kerberos<00:01:04.379> b5<00:01:04.860> against<00:01:05.580> a<00:01:05.670> domain
+
+00:01:05.929 --> 00:01:05.939 
+using Kerberos b5 against a domain
+
+00:01:05.939 --> 00:01:08.179 
+using Kerberos b5 against a domain
+controller<00:01:06.119> these<00:01:07.079> are<00:01:07.229> fairly<00:01:07.530> normal<00:01:08.100> and
+
+00:01:08.179 --> 00:01:08.189 
+controller these are fairly normal and
+
+00:01:08.189 --> 00:01:10.069 
+controller these are fairly normal and
+fairly<00:01:08.609> typical<00:01:08.820> kinds<00:01:09.420> of<00:01:09.509> behavior<00:01:09.929> because
+
+00:01:10.069 --> 00:01:10.079 
+fairly typical kinds of behavior because
+
+00:01:10.079 --> 00:01:12.700 
+fairly typical kinds of behavior because
+we're<00:01:10.350> not<00:01:10.469> seeing<00:01:10.770> just<00:01:11.250> one<00:01:11.549> kind<00:01:12.000> of
+
+00:01:12.700 --> 00:01:12.710 
+we're not seeing just one kind of
+
+00:01:12.710 --> 00:01:14.660 
+we're not seeing just one kind of
+communication<00:01:13.710> we're<00:01:13.890> seeing<00:01:14.130> a<00:01:14.189> variety<00:01:14.340> of
+
+00:01:14.660 --> 00:01:14.670 
+communication we're seeing a variety of
+
+00:01:14.670 --> 00:01:17.870 
+communication we're seeing a variety of
+communication<00:01:15.179> where<00:01:16.170> communication<00:01:16.880> starts
+
+00:01:17.870 --> 00:01:17.880 
+communication where communication starts
+
+00:01:17.880 --> 00:01:21.560 
+communication where communication starts
+up<00:01:18.090> it<00:01:18.929> works<00:01:19.829> and<00:01:20.249> then<00:01:20.549> it<00:01:20.759> shuts<00:01:21.090> down<00:01:21.210> so
+
+00:01:21.560 --> 00:01:21.570 
+up it works and then it shuts down so
+
+00:01:21.570 --> 00:01:24.679 
+up it works and then it shuts down so
+we're<00:01:21.719> seeing<00:01:21.869> TCP<00:01:22.560> sessions<00:01:23.689> instantiate
+
+00:01:24.679 --> 00:01:24.689 
+we're seeing TCP sessions instantiate
+
+00:01:24.689 --> 00:01:26.539 
+we're seeing TCP sessions instantiate
+we're<00:01:24.960> seeing<00:01:25.200> them<00:01:25.439> transfer<00:01:26.130> data<00:01:26.310> and
+
+00:01:26.539 --> 00:01:26.549 
+we're seeing them transfer data and
+
+00:01:26.549 --> 00:01:28.219 
+we're seeing them transfer data and
+we're<00:01:26.640> seeing<00:01:26.850> them<00:01:26.999> closed<00:01:27.359> off<00:01:27.630> so
+
+00:01:28.219 --> 00:01:28.229 
+we're seeing them closed off so
+
+00:01:28.229 --> 00:01:29.690 
+we're seeing them closed off so
+transferring<00:01:28.740> files<00:01:28.979> or<00:01:29.280> transferring
+
+00:01:29.690 --> 00:01:29.700 
+transferring files or transferring
+
+00:01:29.700 --> 00:01:32.539 
+transferring files or transferring
+chunks<00:01:29.999> of<00:01:30.119> data<00:01:30.270> in<00:01:31.140> this<00:01:31.319> particular<00:01:31.549> case
+
+00:01:32.539 --> 00:01:32.549 
+chunks of data in this particular case
+
+00:01:32.549 --> 00:01:35.419 
+chunks of data in this particular case
+of<00:01:32.789> these<00:01:32.909> sets<00:01:33.210> of<00:01:33.420> Kerberos<00:01:34.109> traffic<00:01:34.799> what
+
+00:01:35.419 --> 00:01:35.429 
+of these sets of Kerberos traffic what
+
+00:01:35.429 --> 00:01:38.330 
+of these sets of Kerberos traffic what
+we're<00:01:35.579> seeing<00:01:35.819> is<00:01:36.179> I<00:01:36.560> quark<00:01:37.560> 2<00:01:37.740> is<00:01:37.890> asking<00:01:38.219> for
+
+00:01:38.330 --> 00:01:38.340 
+we're seeing is I quark 2 is asking for
+
+00:01:38.340 --> 00:01:39.499 
+we're seeing is I quark 2 is asking for
+authentication<00:01:38.999> and<00:01:39.090> receiving
+
+00:01:39.499 --> 00:01:39.509 
+authentication and receiving
+
+00:01:39.509 --> 00:01:41.719 
+authentication and receiving
+authentication<00:01:40.200> and<00:01:40.319> then<00:01:40.439> moving<00:01:40.679> on<00:01:40.950> to
+
+00:01:41.719 --> 00:01:41.729 
+authentication and then moving on to
+
+00:01:41.729 --> 00:01:44.630 
+authentication and then moving on to
+communicate<00:01:42.299> that's<00:01:43.079> fairly<00:01:43.920> typical<00:01:44.249> and
+
+00:01:44.630 --> 00:01:44.640 
+communicate that's fairly typical and
+
+00:01:44.640 --> 00:01:46.190 
+communicate that's fairly typical and
+fairly<00:01:45.119> normal<00:01:45.509> when<00:01:45.630> we<00:01:45.749> look<00:01:45.990> at
+
+00:01:46.190 --> 00:01:46.200 
+fairly normal when we look at
+
+00:01:46.200 --> 00:01:49.279 
+fairly normal when we look at
+communication<00:01:47.039> on<00:01:47.369> the<00:01:47.490> network<00:01:47.819> and<00:01:48.109> I<00:01:49.109> want
+
+00:01:49.279 --> 00:01:49.289 
+communication on the network and I want
+
+00:01:49.289 --> 00:01:52.039 
+communication on the network and I want
+to<00:01:49.380> compare<00:01:49.799> that<00:01:49.859> for<00:01:50.819> you<00:01:50.969> with<00:01:51.569> something
+
+00:01:52.039 --> 00:01:52.049 
+to compare that for you with something
+
+00:01:52.049 --> 00:01:55.789 
+to compare that for you with something
+like<00:01:52.439> an<00:01:52.619> IP<00:01:52.889> fragmentation<00:01:53.819> attack<00:01:54.689> which<00:01:55.530> is
+
+00:01:55.789 --> 00:01:55.799 
+like an IP fragmentation attack which is
+
+00:01:55.799 --> 00:01:58.690 
+like an IP fragmentation attack which is
+a<00:01:56.159> very<00:01:56.579> very<00:01:56.850> different<00:01:57.240> look<00:01:57.569> and<00:01:57.780> feel<00:01:58.020> so
+
+00:01:58.690 --> 00:01:58.700 
+a very very different look and feel so
+
+00:01:58.700 --> 00:02:00.949 
+a very very different look and feel so
+click<00:01:59.700> here<00:01:59.909> and<00:02:00.030> I've<00:02:00.119> pre-loaded<00:02:00.420> an<00:02:00.810> IP
+
+00:02:00.949 --> 00:02:00.959 
+click here and I've pre-loaded an IP
+
+00:02:00.959 --> 00:02:03.199 
+click here and I've pre-loaded an IP
+fragmentation<00:02:01.679> attack<00:02:02.159> and<00:02:02.729> we<00:02:02.909> can<00:02:03.060> actually
+
+00:02:03.199 --> 00:02:03.209 
+fragmentation attack and we can actually
+
+00:02:03.209 --> 00:02:06.379 
+fragmentation attack and we can actually
+see<00:02:03.829> first<00:02:04.829> of<00:02:05.039> all<00:02:05.189> that<00:02:05.490> most<00:02:06.030> of<00:02:06.299> these
+
+00:02:06.379 --> 00:02:06.389 
+see first of all that most of these
+
+00:02:06.389 --> 00:02:08.900 
+see first of all that most of these
+packets<00:02:06.929> look<00:02:07.229> almost<00:02:07.530> identical<00:02:07.889> very<00:02:08.610> very
+
+00:02:08.900 --> 00:02:08.910 
+packets look almost identical very very
+
+00:02:08.910 --> 00:02:11.240 
+packets look almost identical very very
+similar<00:02:09.270> to<00:02:09.690> each<00:02:10.259> other<00:02:10.530> as<00:02:10.740> we<00:02:10.890> scroll<00:02:11.220> down
+
+00:02:11.240 --> 00:02:11.250 
+similar to each other as we scroll down
+
+00:02:11.250 --> 00:02:13.520 
+similar to each other as we scroll down
+and<00:02:11.700> scroll<00:02:11.940> through<00:02:12.000> these<00:02:12.450> we'll<00:02:13.080> see<00:02:13.290> the
+
+00:02:13.520 --> 00:02:13.530 
+and scroll through these we'll see the
+
+00:02:13.530 --> 00:02:15.710 
+and scroll through these we'll see the
+source<00:02:14.220> and<00:02:14.400> destination<00:02:14.490> addresses<00:02:15.300> every
+
+00:02:15.710 --> 00:02:15.720 
+source and destination addresses every
+
+00:02:15.720 --> 00:02:16.190 
+source and destination addresses every
+once<00:02:15.930> in<00:02:16.050> a
+
+00:02:16.190 --> 00:02:16.200 
+once in a
+
+00:02:16.200 --> 00:02:18.530 
+once in a
+while<00:02:16.319> change<00:02:16.709> but<00:02:16.890> for<00:02:17.040> the<00:02:17.129> most<00:02:17.370> part<00:02:17.700> these
+
+00:02:18.530 --> 00:02:18.540 
+while change but for the most part these
+
+00:02:18.540 --> 00:02:21.020 
+while change but for the most part these
+addresses<00:02:19.170> are<00:02:19.440> identical<00:02:20.099> and<00:02:20.310> if<00:02:20.640> we<00:02:20.760> click
+
+00:02:21.020 --> 00:02:21.030 
+addresses are identical and if we click
+
+00:02:21.030 --> 00:02:23.030 
+addresses are identical and if we click
+on<00:02:21.239> one<00:02:21.269> of<00:02:21.480> these<00:02:21.690> we<00:02:21.930> can<00:02:21.959> actually<00:02:22.530> see<00:02:22.800> that
+
+00:02:23.030 --> 00:02:23.040 
+on one of these we can actually see that
+
+00:02:23.040 --> 00:02:26.170 
+on one of these we can actually see that
+the<00:02:23.190> traffic<00:02:23.430> is<00:02:24.140> reportedly<00:02:25.140> going<00:02:25.410> between
+
+00:02:26.170 --> 00:02:26.180 
+the traffic is reportedly going between
+
+00:02:26.180 --> 00:02:30.470 
+the traffic is reportedly going between
+d-link<00:02:27.180> and<00:02:27.420> a<00:02:27.480> Cisco<00:02:28.370> hardware<00:02:29.370> our<00:02:29.730> hosts
+
+00:02:30.470 --> 00:02:30.480 
+d-link and a Cisco hardware our hosts
+
+00:02:30.480 --> 00:02:33.530 
+d-link and a Cisco hardware our hosts
+rather<00:02:30.750> and<00:02:31.730> network<00:02:32.730> monitor<00:02:33.120> is<00:02:33.209> able<00:02:33.450> to
+
+00:02:33.530 --> 00:02:33.540 
+rather and network monitor is able to
+
+00:02:33.540 --> 00:02:34.820 
+rather and network monitor is able to
+figure<00:02:33.720> that<00:02:33.840> out<00:02:33.989> based<00:02:34.349> on<00:02:34.530> the<00:02:34.650> MAC<00:02:34.800> address
+
+00:02:34.820 --> 00:02:34.830 
+figure that out based on the MAC address
+
+00:02:34.830 --> 00:02:36.949 
+figure that out based on the MAC address
+and<00:02:35.190> based<00:02:35.580> on<00:02:35.760> some<00:02:35.940> other<00:02:36.000> properties<00:02:36.660> and
+
+00:02:36.949 --> 00:02:36.959 
+and based on some other properties and
+
+00:02:36.959 --> 00:02:39.440 
+and based on some other properties and
+based<00:02:37.140> on<00:02:37.319> some<00:02:37.500> of<00:02:37.530> its<00:02:37.739> parsers<00:02:38.250> but<00:02:38.849> what<00:02:39.330> we
+
+00:02:39.440 --> 00:02:39.450 
+based on some of its parsers but what we
+
+00:02:39.450 --> 00:02:41.870 
+based on some of its parsers but what we
+can<00:02:39.630> see<00:02:39.930> is<00:02:40.260> that<00:02:40.830> we've<00:02:40.950> got<00:02:41.220> tons<00:02:41.519> and<00:02:41.849> tons
+
+00:02:41.870 --> 00:02:41.880 
+can see is that we've got tons and tons
+
+00:02:41.880 --> 00:02:45.979 
+can see is that we've got tons and tons
+of<00:02:42.209> tons<00:02:42.540> of<00:02:42.810> IP<00:02:43.769> fragments<00:02:44.610> ipv4<00:02:45.299> fragments
+
+00:02:45.979 --> 00:02:45.989 
+of tons of IP fragments ipv4 fragments
+
+00:02:45.989 --> 00:02:47.539 
+of tons of IP fragments ipv4 fragments
+as<00:02:46.110> shown<00:02:46.349> here<00:02:46.620> in<00:02:46.709> the<00:02:46.799> description<00:02:47.370> and
+
+00:02:47.539 --> 00:02:47.549 
+as shown here in the description and
+
+00:02:47.549 --> 00:02:50.120 
+as shown here in the description and
+also<00:02:48.000> shown<00:02:48.420> down<00:02:48.630> here<00:02:48.690> in<00:02:48.989> the<00:02:49.080> details<00:02:49.590> we
+
+00:02:50.120 --> 00:02:50.130 
+also shown down here in the details we
+
+00:02:50.130 --> 00:02:52.729 
+also shown down here in the details we
+don't<00:02:50.370> see<00:02:50.610> we<00:02:51.420> don't<00:02:51.540> see<00:02:51.750> sessions<00:02:52.260> being
+
+00:02:52.729 --> 00:02:52.739 
+don't see we don't see sessions being
+
+00:02:52.739 --> 00:02:54.800 
+don't see we don't see sessions being
+instantiated<00:02:53.099> we<00:02:53.670> don't<00:02:53.880> see<00:02:54.030> authentication
+
+00:02:54.800 --> 00:02:54.810 
+instantiated we don't see authentication
+
+00:02:54.810 --> 00:02:56.809 
+instantiated we don't see authentication
+or<00:02:54.900> authorization<00:02:55.099> we<00:02:56.099> don't<00:02:56.310> see<00:02:56.489> any<00:02:56.640> of
+
+00:02:56.809 --> 00:02:56.819 
+or authorization we don't see any of
+
+00:02:56.819 --> 00:02:59.000 
+or authorization we don't see any of
+these<00:02:56.940> shutting<00:02:57.420> down<00:02:57.660> we<00:02:57.989> just<00:02:58.019> see<00:02:58.440> tons<00:02:58.769> and
+
+00:02:59.000 --> 00:02:59.010 
+these shutting down we just see tons and
+
+00:02:59.010 --> 00:03:01.059 
+these shutting down we just see tons and
+tons<00:02:59.069> and<00:02:59.400> tons<00:02:59.489> of<00:02:59.849> very<00:03:00.120> very<00:03:00.450> similar
+
+00:03:01.059 --> 00:03:01.069 
+tons and tons of very very similar
+
+00:03:01.069 --> 00:03:04.460 
+tons and tons of very very similar
+network<00:03:02.069> traffic<00:03:02.549> going<00:03:02.910> between<00:03:03.120> hosts<00:03:03.840> this
+
+00:03:04.460 --> 00:03:04.470 
+network traffic going between hosts this
+
+00:03:04.470 --> 00:03:08.300 
+network traffic going between hosts this
+is<00:03:04.680> very<00:03:04.950> typical<00:03:05.310> of<00:03:05.730> a<00:03:06.540> problem<00:03:06.989> and<00:03:07.440> this
+
+00:03:08.300 --> 00:03:08.310 
+is very typical of a problem and this
+
+00:03:08.310 --> 00:03:10.309 
+is very typical of a problem and this
+may<00:03:08.610> be<00:03:08.640> in<00:03:09.150> this<00:03:09.360> particular<00:03:09.660> case<00:03:10.019> it's<00:03:10.230> an
+
+00:03:10.309 --> 00:03:10.319 
+may be in this particular case it's an
+
+00:03:10.319 --> 00:03:12.319 
+may be in this particular case it's an
+IP<00:03:10.440> IP<00:03:10.799> fragmentation<00:03:11.579> attack<00:03:12.030> it's<00:03:12.239> an
+
+00:03:12.319 --> 00:03:12.329 
+IP IP fragmentation attack it's an
+
+00:03:12.329 --> 00:03:15.020 
+IP IP fragmentation attack it's an
+intentional<00:03:12.690> attack<00:03:13.430> by<00:03:14.430> a<00:03:14.459> malicious
+
+00:03:15.020 --> 00:03:15.030 
+intentional attack by a malicious
+
+00:03:15.030 --> 00:03:18.380 
+intentional attack by a malicious
+attacker<00:03:15.390> but<00:03:16.019> it<00:03:16.170> may<00:03:16.380> be<00:03:16.410> a<00:03:17.390> malfunctioning
+
+00:03:18.380 --> 00:03:18.390 
+attacker but it may be a malfunctioning
+
+00:03:18.390 --> 00:03:20.990 
+attacker but it may be a malfunctioning
+piece<00:03:18.599> of<00:03:18.750> hardware<00:03:19.079> maybe<00:03:19.319> this<00:03:19.530> Cisco<00:03:20.010> piece
+
+00:03:20.990 --> 00:03:21.000 
+piece of hardware maybe this Cisco piece
+
+00:03:21.000 --> 00:03:22.789 
+piece of hardware maybe this Cisco piece
+of<00:03:21.150> hardware<00:03:21.510> that<00:03:21.569> we've<00:03:21.810> described<00:03:22.260> here<00:03:22.680> is
+
+00:03:22.789 --> 00:03:22.799 
+of hardware that we've described here is
+
+00:03:22.799 --> 00:03:24.979 
+of hardware that we've described here is
+actually<00:03:23.639> malfunctioning<00:03:24.389> or<00:03:24.600> door<00:03:24.810> has<00:03:24.959> a
+
+00:03:24.979 --> 00:03:24.989 
+actually malfunctioning or door has a
+
+00:03:24.989 --> 00:03:27.949 
+actually malfunctioning or door has a
+bad<00:03:25.290> piece<00:03:25.560> of<00:03:25.590> firmware<00:03:26.370> on<00:03:26.700> it<00:03:26.880> and<00:03:27.030> it's
+
+00:03:27.949 --> 00:03:27.959 
+bad piece of firmware on it and it's
+
+00:03:27.959 --> 00:03:30.259 
+bad piece of firmware on it and it's
+just<00:03:28.290> sending<00:03:28.650> the<00:03:28.950> same<00:03:29.130> packet<00:03:29.609> out<00:03:29.790> over
+
+00:03:30.259 --> 00:03:30.269 
+just sending the same packet out over
+
+00:03:30.269 --> 00:03:32.479 
+just sending the same packet out over
+and<00:03:30.389> over<00:03:30.480> and<00:03:30.810> over<00:03:31.049> again<00:03:31.200> this<00:03:32.010> is<00:03:32.069> the<00:03:32.340> kind
+
+00:03:32.479 --> 00:03:32.489 
+and over and over again this is the kind
+
+00:03:32.489 --> 00:03:34.460 
+and over and over again this is the kind
+of<00:03:32.670> behavior<00:03:33.030> that<00:03:33.060> we<00:03:33.299> are<00:03:33.540> looking<00:03:33.989> for<00:03:34.290> when
+
+00:03:34.460 --> 00:03:34.470 
+of behavior that we are looking for when
+
+00:03:34.470 --> 00:03:35.990 
+of behavior that we are looking for when
+we're<00:03:34.620> trying<00:03:34.769> to<00:03:35.010> troubleshoot<00:03:35.220> a<00:03:35.639> network
+
+00:03:35.990 --> 00:03:36.000 
+we're trying to troubleshoot a network
+
+00:03:36.000 --> 00:03:38.240 
+we're trying to troubleshoot a network
+with<00:03:36.720> network<00:03:37.200> monitors<00:03:37.709> this<00:03:37.920> kind<00:03:38.190> of
+
+00:03:38.240 --> 00:03:38.250 
+with network monitors this kind of
+
+00:03:38.250 --> 00:03:42.069 
+with network monitors this kind of
+repeated<00:03:38.970> very<00:03:39.900> very<00:03:40.230> obvious<00:03:40.440> looking
+
+00:03:42.069 --> 00:03:42.079 
+repeated very very obvious looking
+
+00:03:42.079 --> 00:03:45.349 
+repeated very very obvious looking
+pattern<00:03:43.079> where<00:03:43.980> we<00:03:44.130> just<00:03:44.430> see<00:03:44.639> one<00:03:44.910> thing<00:03:45.150> over
+
+00:03:45.349 --> 00:03:45.359 
+pattern where we just see one thing over
+
+00:03:45.359 --> 00:03:48.170 
+pattern where we just see one thing over
+and<00:03:45.600> over<00:03:45.720> again<00:03:46.019> as<00:03:46.980> opposed<00:03:47.489> to<00:03:47.639> a<00:03:47.760> more
+
+00:03:48.170 --> 00:03:48.180 
+and over again as opposed to a more
+
+00:03:48.180 --> 00:03:51.410 
+and over again as opposed to a more
+typical<00:03:48.709> enterprise<00:03:50.090> sessions<00:03:51.090> where<00:03:51.329> we
+
+00:03:51.410 --> 00:03:51.420 
+typical enterprise sessions where we
+
+00:03:51.420 --> 00:03:52.580 
+typical enterprise sessions where we
+actually<00:03:51.540> see<00:03:51.930> a<00:03:51.959> variety<00:03:52.170> of<00:03:52.500> different
+
+00:03:52.580 --> 00:03:52.590 
+actually see a variety of different
+
+00:03:52.590 --> 00:03:55.699 
+actually see a variety of different
+traffic<00:03:53.370> where<00:03:53.549> we<00:03:53.639> see<00:03:54.049> DHCP<00:03:55.049> traffic<00:03:55.560> where
+
+00:03:55.699 --> 00:03:55.709 
+traffic where we see DHCP traffic where
+
+00:03:55.709 --> 00:03:59.839 
+traffic where we see DHCP traffic where
+we<00:03:55.799> see<00:03:55.950> DNS<00:03:56.400> traffic<00:03:56.940> where<00:03:57.900> we<00:03:57.989> see<00:03:58.170> SMB<00:03:58.849> and
+
+00:03:59.839 --> 00:03:59.849 
+we see DNS traffic where we see SMB and
+
+00:03:59.849 --> 00:04:02.270 
+we see DNS traffic where we see SMB and
+RPC<00:04:00.239> traffic<00:04:00.780> that<00:04:00.930> are<00:04:01.109> transferring<00:04:02.069> data
+
+00:04:02.270 --> 00:04:02.280 
+RPC traffic that are transferring data
+
+00:04:02.280 --> 00:04:05.150 
+RPC traffic that are transferring data
+and<00:04:02.609> we<00:04:03.540> see<00:04:03.780> these<00:04:03.930> sessions<00:04:04.349> coming<00:04:04.650> up<00:04:04.859> and
+
+00:04:05.150 --> 00:04:05.160 
+and we see these sessions coming up and
+
+00:04:05.160 --> 00:04:07.879 
+and we see these sessions coming up and
+being<00:04:05.579> torn<00:04:05.970> down<00:04:06.290> so<00:04:07.290> hopefully<00:04:07.680> that<00:04:07.859> gives
+
+00:04:07.879 --> 00:04:07.889 
+being torn down so hopefully that gives
+
+00:04:07.889 --> 00:04:11.300 
+being torn down so hopefully that gives
+you<00:04:08.160> a<00:04:08.690> interesting<00:04:09.690> first<00:04:09.900> perspective<00:04:10.709> into
+
+00:04:11.300 --> 00:04:11.310 
+you a interesting first perspective into
+
+00:04:11.310 --> 00:04:14.030 
+you a interesting first perspective into
+how<00:04:12.030> to<00:04:12.060> use<00:04:12.269> network<00:04:13.109> monitor<00:04:13.560> in<00:04:13.680> order<00:04:13.799> to
+
+00:04:14.030 --> 00:04:14.040 
+how to use network monitor in order to
+
+00:04:14.040 --> 00:04:16.069 
+how to use network monitor in order to
+take<00:04:14.190> a<00:04:14.220> look<00:04:14.459> at<00:04:14.579> your<00:04:14.730> network<00:04:15.030> and<00:04:15.239> do<00:04:16.049> a
+
+00:04:16.069 --> 00:04:16.079 
+take a look at your network and do a
+
+00:04:16.079 --> 00:04:18.800 
+take a look at your network and do a
+real<00:04:16.349> basic<00:04:16.769> analysis<00:04:17.340> of<00:04:17.579> are<00:04:17.849> things<00:04:18.239> going
+
+00:04:18.800 --> 00:04:18.810 
+real basic analysis of are things going
+
+00:04:18.810 --> 00:04:21.409 
+real basic analysis of are things going
+as<00:04:19.049> planned<00:04:19.829> or<00:04:20.250> as<00:04:20.370> expected<00:04:20.820> or<00:04:21.180> in<00:04:21.329> a
+
+00:04:21.409 --> 00:04:21.419 
+as planned or as expected or in a
+
+00:04:21.419 --> 00:04:22.969 
+as planned or as expected or in a
+relatively<00:04:21.780> normal<00:04:22.229> way<00:04:22.380> or<00:04:22.650> are<00:04:22.770> there
+
+00:04:22.969 --> 00:04:22.979 
+relatively normal way or are there
+
+00:04:22.979 --> 00:04:24.260 
+relatively normal way or are there
+things<00:04:23.010> that<00:04:23.400> maybe<00:04:23.700> I<00:04:23.820> should<00:04:24.090> take<00:04:24.210> a
+
+00:04:24.260 --> 00:04:24.270 
+things that maybe I should take a
+
+00:04:24.270 --> 00:04:27.980 
+things that maybe I should take a
+further<00:04:24.630> look<00:04:24.810> at<00:04:25.169> and<00:04:25.849> possibly<00:04:26.849> analyze<00:04:27.360> to
+
+00:04:27.980 --> 00:04:27.990 
+further look at and possibly analyze to
+
+00:04:27.990 --> 00:04:29.990 
+further look at and possibly analyze to
+see<00:04:28.020> if<00:04:28.320> I'm<00:04:28.530> undergoing<00:04:29.250> an<00:04:29.430> attack<00:04:29.700> or
+
+00:04:29.990 --> 00:04:30.000 
+see if I'm undergoing an attack or
+
+00:04:30.000 --> 00:04:32.690 
+see if I'm undergoing an attack or
+possibly<00:04:30.450> have<00:04:31.140> some<00:04:31.380> malfunctioning<00:04:32.070> or<00:04:32.250> can
+
+00:04:32.690 --> 00:04:32.700 
+possibly have some malfunctioning or can
+
+00:04:32.700 --> 00:04:36.140 
+possibly have some malfunctioning or can
+misconfigured<00:04:33.420> Hardware<00:04:33.750> out<00:04:33.780> there
+

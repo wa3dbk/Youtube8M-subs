@@ -1,0 +1,205 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.689
+ in this lesson, let's get the news out to 
+
+00:00:03.000 --> 00:00:06.330
+ our website 
+
+00:00:03.689 --> 00:00:08.099
+ but first we need to create a table 
+
+00:00:06.330 --> 00:00:11.969
+ where this news will be stored and 
+
+00:00:08.099 --> 00:00:17.520
+ put there news go to the database 
+
+00:00:11.969 --> 00:00:24.380
+ data click create a table so 
+
+00:00:17.520 --> 00:00:24.380
+ the first thing to do is lead news 
+
+00:00:24.859 --> 00:00:32.750
+ choose auto increment 
+
+00:00:29.119 --> 00:00:43.469
+ next is the name of the news 
+
+00:00:32.750 --> 00:00:48.020
+ the one there is the text of the news and the date so now 
+
+00:00:43.469 --> 00:00:54.390
+ here we set for the title grumble we set 
+
+00:00:48.020 --> 00:01:00.359
+ 255 text set text and date 
+
+00:00:54.390 --> 00:01:07.100
+ also put the date here so we 
+
+00:01:00.359 --> 00:01:07.100
+ indicate date title and description text 
+
+00:01:07.710 --> 00:01:21.350
+ and call the news table now you can 
+
+00:01:13.290 --> 00:01:24.020
+ save all tables it is created 
+
+00:01:21.350 --> 00:01:24.909
+ now let's add there a little bit 
+
+00:01:24.020 --> 00:01:28.700
+ of news 
+
+00:01:24.909 --> 00:01:38.570
+ so I opened such a site there are such 
+
+00:01:28.700 --> 00:01:42.549
+ news and just copy click 
+
+00:01:38.570 --> 00:01:52.899
+ insert and paste here 
+
+00:01:42.549 --> 00:01:58.610
+ title and description choose the date 
+
+00:01:52.899 --> 00:02:01.240
+ so also leave one news also 
+
+00:01:58.610 --> 00:02:01.240
+ we copy 
+
+00:02:08.300 --> 00:02:14.770
+ and text 
+
+00:02:23.150 --> 00:02:31.890
+ So let's get 5 more news. 
+
+00:02:27.920 --> 00:02:37.760
+ she fill them all will not fill 
+
+00:02:31.890 --> 00:02:37.760
+ here's a couple more choose this news 
+
+00:02:41.670 --> 00:02:47.030
+ and text 
+
+00:03:13.050 --> 00:03:22.250
+ here you go 
+
+00:03:15.290 --> 00:03:28.189
+ so much is enough ok ok everything we have 
+
+00:03:22.250 --> 00:03:33.879
+ news added so now we need 
+
+00:03:28.189 --> 00:03:36.549
+ send them to the site go block news 
+
+00:03:33.879 --> 00:03:41.599
+ separate block where we have news and 
+
+00:03:36.549 --> 00:03:45.950
+ now here you need to print a loop 
+
+00:03:41.599 --> 00:03:49.189
+ this code and substitute here already place 
+
+00:03:45.950 --> 00:03:50.659
+ these values ​​are values ​​from the table that is 
+
+00:03:49.189 --> 00:03:56.810
+ display all news 
+
+00:03:50.659 --> 00:04:09.879
+ here it can be removed and this description 
+
+00:03:56.810 --> 00:04:17.560
+ here, too, delete like this and now here 
+
+00:04:09.879 --> 00:04:21.049
+ insert loop open php tags and loop 
+
+00:04:17.560 --> 00:04:22.039
+ standard loop just request here 
+
+00:04:21.049 --> 00:04:25.940
+ already indicate 
+
+00:04:22.039 --> 00:04:30.770
+ news table select all news tables 
+
+00:04:25.940 --> 00:04:33.650
+ here that we created here and here 
+
+00:04:30.770 --> 00:04:36.409
+ simply specify the sort buy order 
+
+00:04:33.650 --> 00:04:41.389
+ sort by ID 
+
+00:04:36.409 --> 00:04:45.590
+ that is, on the newest news and in 
+
+00:04:41.389 --> 00:04:48.520
+ loop, now output this code 
+
+00:04:45.590 --> 00:04:48.520
+ cut it 
+
+00:04:50.160 --> 00:05:04.590
+ point it out and so now 
+
+00:05:00.140 --> 00:05:09.410
+ substitute values from the table here at 
+
+00:05:04.590 --> 00:05:18.120
+ we are going to date we copy the variable 
+
+00:05:09.410 --> 00:05:23.640
+ break the string and indicate the date here 
+
+00:05:18.120 --> 00:05:27.440
+ This field indicates the date but the way we write 
+
+00:05:23.640 --> 00:05:32.150
+ do it further we have this name 
+
+00:05:27.440 --> 00:05:36.360
+ we copy changes and we insert here 
+
+00:05:32.150 --> 00:05:39.510
+ indicate the title here we specify here 
+
+00:05:36.360 --> 00:05:44.960
+ this title and then we have the text 
+
+00:05:39.510 --> 00:05:47.960
+ description here description here insert 
+
+00:05:44.960 --> 00:05:47.960
+ text 
+
+00:05:48.740 --> 00:05:59.090
+ so if we save and check that 
+
+00:05:54.270 --> 00:06:03.000
+ we get update we see 
+
+00:05:59.090 --> 00:06:05.010
+ news are all displayed he is all that we are 
+
+00:06:03.000 --> 00:06:07.890
+ added all the usual 
+
+00:06:05.010 --> 00:06:10.700
+ Well, that's basically all on this I 
+
+00:06:07.890 --> 00:06:10.700
+ finish this lesson 
+

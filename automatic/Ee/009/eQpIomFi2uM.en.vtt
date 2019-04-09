@@ -1,0 +1,1085 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:01.400 
+
+in<00:00:00.299> this<00:00:00.450> video<00:00:00.719> we're<00:00:00.960> going<00:00:01.050> to<00:00:01.110> be<00:00:01.230> looking
+
+00:00:01.400 --> 00:00:01.410 
+in this video we're going to be looking
+
+00:00:01.410 --> 00:00:04.010 
+in this video we're going to be looking
+at<00:00:01.800> deploying<00:00:02.190> code<00:00:02.909> from<00:00:03.480> a<00:00:03.570> hosted
+
+00:00:04.010 --> 00:00:04.020 
+at deploying code from a hosted
+
+00:00:04.020 --> 00:00:07.280 
+at deploying code from a hosted
+repository<00:00:04.710> like<00:00:05.009> github<00:00:05.549> or<00:00:06.120> bitbucket<00:00:06.290> and
+
+00:00:07.280 --> 00:00:07.290 
+repository like github or bitbucket and
+
+00:00:07.290 --> 00:00:10.580 
+repository like github or bitbucket and
+pushing<00:00:08.160> that<00:00:08.309> to<00:00:08.639> a<00:00:08.670> server<00:00:09.210> like<00:00:09.809> in<00:00:10.110> Amazon
+
+00:00:10.580 --> 00:00:10.590 
+pushing that to a server like in Amazon
+
+00:00:10.590 --> 00:00:14.690 
+pushing that to a server like in Amazon
+ec2<00:00:10.849> instance<00:00:11.849> or<00:00:12.179> a<00:00:12.929> digital<00:00:13.620> ocean<00:00:13.889> droplet
+
+00:00:14.690 --> 00:00:14.700 
+ec2 instance or a digital ocean droplet
+
+00:00:14.700 --> 00:00:17.510 
+ec2 instance or a digital ocean droplet
+now<00:00:15.360> I'm<00:00:15.480> going<00:00:15.660> to<00:00:15.719> be<00:00:15.839> using<00:00:16.379> github<00:00:17.100> in<00:00:17.340> this
+
+00:00:17.510 --> 00:00:17.520 
+now I'm going to be using github in this
+
+00:00:17.520 --> 00:00:19.040 
+now I'm going to be using github in this
+case<00:00:17.789> and<00:00:18.090> I'm<00:00:18.180> going<00:00:18.330> to<00:00:18.359> be<00:00:18.480> using<00:00:18.840> digital
+
+00:00:19.040 --> 00:00:19.050 
+case and I'm going to be using digital
+
+00:00:19.050 --> 00:00:22.670 
+case and I'm going to be using digital
+ocean<00:00:19.560> to<00:00:20.310> create<00:00:20.670> a<00:00:20.939> droplet<00:00:21.449> and<00:00:21.840> we're
+
+00:00:22.670 --> 00:00:22.680 
+ocean to create a droplet and we're
+
+00:00:22.680 --> 00:00:25.009 
+ocean to create a droplet and we're
+going<00:00:22.830> to<00:00:22.890> be<00:00:23.010> using<00:00:23.369> deployed<00:00:23.939> io<00:00:24.390> to
+
+00:00:25.009 --> 00:00:25.019 
+going to be using deployed io to
+
+00:00:25.019 --> 00:00:28.550 
+going to be using deployed io to
+actually<00:00:25.410> deploy<00:00:26.220> this<00:00:27.090> and<00:00:27.510> this<00:00:28.050> makes<00:00:28.289> it
+
+00:00:28.550 --> 00:00:28.560 
+actually deploy this and this makes it
+
+00:00:28.560 --> 00:00:30.859 
+actually deploy this and this makes it
+really<00:00:28.920> easy<00:00:29.189> to<00:00:29.760> actually<00:00:30.300> deploy<00:00:30.660> your
+
+00:00:30.859 --> 00:00:30.869 
+really easy to actually deploy your
+
+00:00:30.869 --> 00:00:33.380 
+really easy to actually deploy your
+application<00:00:31.560> and<00:00:31.910> keeps<00:00:32.910> it<00:00:33.059> all<00:00:33.149> in<00:00:33.270> one
+
+00:00:33.380 --> 00:00:33.390 
+application and keeps it all in one
+
+00:00:33.390 --> 00:00:35.750 
+application and keeps it all in one
+place<00:00:33.600> and<00:00:34.020> keeps<00:00:34.200> it<00:00:34.350> really<00:00:34.469> nice<00:00:34.680> I've<00:00:35.460> used
+
+00:00:35.750 --> 00:00:35.760 
+place and keeps it really nice I've used
+
+00:00:35.760 --> 00:00:39.110 
+place and keeps it really nice I've used
+a<00:00:35.880> couple<00:00:35.910> of<00:00:36.390> different<00:00:37.380> websites<00:00:38.190> that<00:00:38.850> work
+
+00:00:39.110 --> 00:00:39.120 
+a couple of different websites that work
+
+00:00:39.120 --> 00:00:41.780 
+a couple of different websites that work
+like<00:00:39.600> deploy<00:00:40.050> but<00:00:40.620> I<00:00:40.680> found<00:00:40.890> that<00:00:41.129> deploy<00:00:41.489> has
+
+00:00:41.780 --> 00:00:41.790 
+like deploy but I found that deploy has
+
+00:00:41.790 --> 00:00:44.119 
+like deploy but I found that deploy has
+the<00:00:42.090> most<00:00:42.329> options<00:00:42.719> and<00:00:43.260> it's<00:00:43.350> also<00:00:43.530> really
+
+00:00:44.119 --> 00:00:44.129 
+the most options and it's also really
+
+00:00:44.129 --> 00:00:47.630 
+the most options and it's also really
+easy<00:00:44.520> to<00:00:44.910> set<00:00:45.149> up<00:00:45.180> as<00:00:45.600> well<00:00:45.950> so<00:00:46.950> as<00:00:47.309> you<00:00:47.460> can<00:00:47.579> see
+
+00:00:47.630 --> 00:00:47.640 
+easy to set up as well so as you can see
+
+00:00:47.640 --> 00:00:51.319 
+easy to set up as well so as you can see
+I<00:00:48.090> have<00:00:48.450> a<00:00:48.690> github<00:00:49.170> repo<00:00:49.559> here<00:00:50.219> it's<00:00:51.090> called
+
+00:00:51.319 --> 00:00:51.329 
+I have a github repo here it's called
+
+00:00:51.329 --> 00:00:53.750 
+I have a github repo here it's called
+hello<00:00:51.660> world<00:00:51.780> and<00:00:52.559> I<00:00:52.770> basically<00:00:53.070> just<00:00:53.340> have
+
+00:00:53.750 --> 00:00:53.760 
+hello world and I basically just have
+
+00:00:53.760 --> 00:00:56.360 
+hello world and I basically just have
+one<00:00:54.059> file<00:00:54.449> in<00:00:54.690> here<00:00:54.899> one<00:00:55.170> commit<00:00:55.649> and<00:00:55.949> this
+
+00:00:56.360 --> 00:00:56.370 
+one file in here one commit and this
+
+00:00:56.370 --> 00:00:59.299 
+one file in here one commit and this
+just<00:00:56.640> says<00:00:56.789> hello<00:00:57.030> world<00:00:57.420> in<00:00:58.260> real<00:00:58.800> life<00:00:59.010> your
+
+00:00:59.299 --> 00:00:59.309 
+just says hello world in real life your
+
+00:00:59.309 --> 00:01:01.069 
+just says hello world in real life your
+application<00:01:00.030> will<00:01:00.359> obviously<00:01:00.600> be<00:01:00.840> a<00:01:00.870> lot
+
+00:01:01.069 --> 00:01:01.079 
+application will obviously be a lot
+
+00:01:01.079 --> 00:01:03.529 
+application will obviously be a lot
+larger<00:01:01.579> but<00:01:02.579> in<00:01:02.699> this<00:01:02.820> case<00:01:03.030> I'm<00:01:03.270> just<00:01:03.300> going
+
+00:01:03.529 --> 00:01:03.539 
+larger but in this case I'm just going
+
+00:01:03.539 --> 00:01:05.780 
+larger but in this case I'm just going
+to<00:01:03.690> use<00:01:03.899> this<00:01:04.080> as<00:01:04.320> an<00:01:04.470> example<00:01:04.589> and<00:01:05.339> you<00:01:05.640> can
+
+00:01:05.780 --> 00:01:05.790 
+to use this as an example and you can
+
+00:01:05.790 --> 00:01:07.910 
+to use this as an example and you can
+see<00:01:06.000> the<00:01:06.119> result<00:01:06.479> of<00:01:06.600> this<00:01:06.780> here<00:01:07.049> so<00:01:07.710> by<00:01:07.860> the
+
+00:01:07.910 --> 00:01:07.920 
+see the result of this here so by the
+
+00:01:07.920 --> 00:01:09.530 
+see the result of this here so by the
+end<00:01:08.100> of<00:01:08.220> the<00:01:08.340> video<00:01:08.610> we'll<00:01:09.000> have<00:01:09.119> deployed
+
+00:01:09.530 --> 00:01:09.540 
+end of the video we'll have deployed
+
+00:01:09.540 --> 00:01:12.050 
+end of the video we'll have deployed
+this<00:01:10.080> all<00:01:10.799> of<00:01:11.010> the<00:01:11.100> code<00:01:11.369> in<00:01:11.640> this<00:01:11.729> repository
+
+00:01:12.050 --> 00:01:12.060 
+this all of the code in this repository
+
+00:01:12.060 --> 00:01:16.700 
+this all of the code in this repository
+to<00:01:12.900> a<00:01:13.200> digital<00:01:13.710> ocean<00:01:14.130> server<00:01:15.049> so<00:01:16.049> regardless
+
+00:01:16.700 --> 00:01:16.710 
+to a digital ocean server so regardless
+
+00:01:16.710 --> 00:01:18.380 
+to a digital ocean server so regardless
+of<00:01:16.920> what<00:01:17.040> serve<00:01:17.310> you're<00:01:17.520> using<00:01:17.850> I'm<00:01:18.180> going<00:01:18.330> to
+
+00:01:18.380 --> 00:01:18.390 
+of what serve you're using I'm going to
+
+00:01:18.390 --> 00:01:20.539 
+of what serve you're using I'm going to
+go<00:01:18.479> ahead<00:01:18.570> and<00:01:18.780> set<00:01:19.020> this<00:01:19.170> up<00:01:19.380> now<00:01:19.710> so<00:01:20.310> I'm
+
+00:01:20.539 --> 00:01:20.549 
+go ahead and set this up now so I'm
+
+00:01:20.549 --> 00:01:23.149 
+go ahead and set this up now so I'm
+going<00:01:20.700> to<00:01:20.729> create<00:01:21.090> a<00:01:21.360> new<00:01:21.840> droplet<00:01:22.500> in<00:01:22.770> digital
+
+00:01:23.149 --> 00:01:23.159 
+going to create a new droplet in digital
+
+00:01:23.159 --> 00:01:25.100 
+going to create a new droplet in digital
+ocean<00:01:23.400> if<00:01:23.939> you've<00:01:24.270> not<00:01:24.420> already<00:01:24.479> signed<00:01:24.900> up
+
+00:01:25.100 --> 00:01:25.110 
+ocean if you've not already signed up
+
+00:01:25.110 --> 00:01:26.719 
+ocean if you've not already signed up
+with<00:01:25.229> digital<00:01:25.560> ocean<00:01:25.710> go<00:01:26.159> ahead<00:01:26.400> and<00:01:26.520> feel
+
+00:01:26.719 --> 00:01:26.729 
+with digital ocean go ahead and feel
+
+00:01:26.729 --> 00:01:29.840 
+with digital ocean go ahead and feel
+free<00:01:26.759> if<00:01:27.060> you<00:01:27.119> want<00:01:27.390> to<00:01:27.600> so<00:01:28.470> I'm<00:01:28.829> going<00:01:29.100> to<00:01:29.310> not
+
+00:01:29.840 --> 00:01:29.850 
+free if you want to so I'm going to not
+
+00:01:29.850 --> 00:01:31.819 
+free if you want to so I'm going to not
+really<00:01:29.880> choose<00:01:30.200> too<00:01:31.200> many<00:01:31.380> different<00:01:31.710> options
+
+00:01:31.819 --> 00:01:31.829 
+really choose too many different options
+
+00:01:31.829 --> 00:01:33.230 
+really choose too many different options
+here<00:01:32.250> and<00:01:32.369> just<00:01:32.610> going<00:01:32.700> to<00:01:32.820> hit<00:01:32.970> create
+
+00:01:33.230 --> 00:01:33.240 
+here and just going to hit create
+
+00:01:33.240 --> 00:01:35.480 
+here and just going to hit create
+droplet<00:01:33.930> and<00:01:34.530> that's<00:01:34.680> going<00:01:34.890> to<00:01:34.950> create<00:01:35.220> my
+
+00:01:35.480 --> 00:01:35.490 
+droplet and that's going to create my
+
+00:01:35.490 --> 00:01:38.149 
+droplet and that's going to create my
+droplet<00:01:35.970> for<00:01:36.329> me<00:01:36.630> and<00:01:36.960> I'll<00:01:37.229> get<00:01:37.470> a<00:01:37.500> username
+
+00:01:38.149 --> 00:01:38.159 
+droplet for me and I'll get a username
+
+00:01:38.159 --> 00:01:40.760 
+droplet for me and I'll get a username
+and<00:01:38.430> a<00:01:38.490> password<00:01:38.520> just<00:01:39.299> email<00:01:39.780> to<00:01:39.960> me<00:01:40.110> you<00:01:40.590> can
+
+00:01:40.760 --> 00:01:40.770 
+and a password just email to me you can
+
+00:01:40.770 --> 00:01:43.910 
+and a password just email to me you can
+add<00:01:40.920> an<00:01:41.040> SSH<00:01:41.549> key<00:01:41.579> here<00:01:42.210> I<00:01:42.420> really<00:01:43.409> depends<00:01:43.829> on
+
+00:01:43.910 --> 00:01:43.920 
+add an SSH key here I really depends on
+
+00:01:43.920 --> 00:01:46.550 
+add an SSH key here I really depends on
+your<00:01:44.250> you<00:01:45.119> know<00:01:45.240> how<00:01:45.509> you<00:01:45.570> want<00:01:45.869> to<00:01:45.930> work<00:01:46.350> with
+
+00:01:46.550 --> 00:01:46.560 
+your you know how you want to work with
+
+00:01:46.560 --> 00:01:49.249 
+your you know how you want to work with
+this<00:01:46.729> okay<00:01:47.729> so<00:01:47.790> once<00:01:48.090> your<00:01:48.270> droplets<00:01:48.720> created
+
+00:01:49.249 --> 00:01:49.259 
+this okay so once your droplets created
+
+00:01:49.259 --> 00:01:51.020 
+this okay so once your droplets created
+we're<00:01:49.590> going<00:01:49.740> to<00:01:49.799> open<00:01:49.920> up<00:01:50.159> a<00:01:50.220> terminal<00:01:50.610> and
+
+00:01:51.020 --> 00:01:51.030 
+we're going to open up a terminal and
+
+00:01:51.030 --> 00:01:53.840 
+we're going to open up a terminal and
+SSH<00:01:51.810> over<00:01:52.140> to<00:01:52.259> our<00:01:52.350> server<00:01:52.619> if<00:01:53.189> you're<00:01:53.579> using
+
+00:01:53.840 --> 00:01:53.850 
+SSH over to our server if you're using
+
+00:01:53.850 --> 00:01:56.179 
+SSH over to our server if you're using
+something<00:01:54.149> like<00:01:54.270> Windows<00:01:54.630> you<00:01:55.200> can<00:01:55.229> use<00:01:55.409> party
+
+00:01:56.179 --> 00:01:56.189 
+something like Windows you can use party
+
+00:01:56.189 --> 00:01:58.850 
+something like Windows you can use party
+to<00:01:56.399> do<00:01:56.520> this<00:01:56.729> so<00:01:57.509> once<00:01:57.689> we're<00:01:57.869> connected<00:01:58.530> the
+
+00:01:58.850 --> 00:01:58.860 
+to do this so once we're connected the
+
+00:01:58.860 --> 00:02:00.319 
+to do this so once we're connected the
+first<00:01:59.040> thing<00:01:59.280> we<00:01:59.369> want<00:01:59.549> to<00:01:59.640> do<00:01:59.820> is<00:01:59.939> install
+
+00:02:00.319 --> 00:02:00.329 
+first thing we want to do is install
+
+00:02:00.329 --> 00:02:02.330 
+first thing we want to do is install
+Apache<00:02:00.719> just<00:02:01.259> so<00:02:01.380> we<00:02:01.469> can<00:02:01.619> test<00:02:01.950> that<00:02:02.130> this
+
+00:02:02.330 --> 00:02:02.340 
+Apache just so we can test that this
+
+00:02:02.340 --> 00:02:05.719 
+Apache just so we can test that this
+works<00:02:02.700> via<00:02:03.450> an<00:02:03.689> HTTP<00:02:04.530> server<00:02:04.579> you<00:02:05.579> can
+
+00:02:05.719 --> 00:02:05.729 
+works via an HTTP server you can
+
+00:02:05.729 --> 00:02:08.150 
+works via an HTTP server you can
+obviously<00:02:06.000> set<00:02:06.390> up<00:02:06.600> your<00:02:07.079> droplet<00:02:07.710> however
+
+00:02:08.150 --> 00:02:08.160 
+obviously set up your droplet however
+
+00:02:08.160 --> 00:02:10.160 
+obviously set up your droplet however
+you<00:02:08.310> want<00:02:08.550> to<00:02:08.670> with<00:02:09.179> the<00:02:09.509> services<00:02:09.989> you<00:02:10.140> need
+
+00:02:10.160 --> 00:02:10.170 
+you want to with the services you need
+
+00:02:10.170 --> 00:02:13.430 
+you want to with the services you need
+etc<00:02:10.950> etc<00:02:11.209> so<00:02:12.209> I'm<00:02:12.360> going<00:02:12.660> to<00:02:12.690> fir
+
+00:02:13.430 --> 00:02:13.440 
+etc etc so I'm going to fir
+
+00:02:13.440 --> 00:02:19.160 
+etc etc so I'm going to fir
+of<00:02:13.590> all<00:02:14.120> update<00:02:15.120> apt<00:02:15.870> and<00:02:17.870> now<00:02:18.870> that<00:02:19.050> that's
+
+00:02:19.160 --> 00:02:19.170 
+of all update apt and now that that's
+
+00:02:19.170 --> 00:02:24.830 
+of all update apt and now that that's
+done<00:02:19.350> i'm<00:02:19.770> going<00:02:20.130> to<00:02:20.460> install<00:02:21.030> apache<00:02:23.690> so<00:02:24.690> what
+
+00:02:24.830 --> 00:02:24.840 
+done i'm going to install apache so what
+
+00:02:24.840 --> 00:02:27.110 
+done i'm going to install apache so what
+we're<00:02:24.990> now<00:02:25.170> interested<00:02:25.710> in<00:02:26.220> is<00:02:26.460> where<00:02:26.880> our
+
+00:02:27.110 --> 00:02:27.120 
+we're now interested in is where our
+
+00:02:27.120 --> 00:02:30.950 
+we're now interested in is where our
+public<00:02:27.990> files<00:02:28.350> are<00:02:28.800> located<00:02:29.360> in<00:02:30.360> this<00:02:30.570> case<00:02:30.780> it
+
+00:02:30.950 --> 00:02:30.960 
+public files are located in this case it
+
+00:02:30.960 --> 00:02:34.850 
+public files are located in this case it
+happens<00:02:31.290> to<00:02:31.440> be<00:02:31.560> involved<00:02:32.070> at<00:02:33.030> HTML<00:02:33.720> this<00:02:34.710> will
+
+00:02:34.850 --> 00:02:34.860 
+happens to be involved at HTML this will
+
+00:02:34.860 --> 00:02:36.200 
+happens to be involved at HTML this will
+differ<00:02:35.130> depending<00:02:35.370> on<00:02:35.730> the<00:02:35.850> server<00:02:36.120> that
+
+00:02:36.200 --> 00:02:36.210 
+differ depending on the server that
+
+00:02:36.210 --> 00:02:38.500 
+differ depending on the server that
+you're<00:02:36.390> using<00:02:36.750> you<00:02:37.680> can<00:02:37.710> see<00:02:37.980> that<00:02:38.100> we've<00:02:38.220> got
+
+00:02:38.500 --> 00:02:38.510 
+you're using you can see that we've got
+
+00:02:38.510 --> 00:02:41.630 
+you're using you can see that we've got
+index.html<00:02:39.510> in<00:02:39.750> here<00:02:39.960> by<00:02:40.110> default<00:02:40.340> so<00:02:41.340> if<00:02:41.490> we
+
+00:02:41.630 --> 00:02:41.640 
+index.html in here by default so if we
+
+00:02:41.640 --> 00:02:45.260 
+index.html in here by default so if we
+actually<00:02:41.790> go<00:02:42.510> over<00:02:42.540> to<00:02:42.900> a<00:02:43.460> browser<00:02:44.460> window<00:02:44.850> of
+
+00:02:45.260 --> 00:02:45.270 
+actually go over to a browser window of
+
+00:02:45.270 --> 00:02:47.210 
+actually go over to a browser window of
+our<00:02:45.360> IP<00:02:45.720> address<00:02:45.930> we'll<00:02:46.410> we<00:02:46.740> should<00:02:46.920> see<00:02:47.070> the
+
+00:02:47.210 --> 00:02:47.220 
+our IP address we'll we should see the
+
+00:02:47.220 --> 00:02:50.060 
+our IP address we'll we should see the
+default<00:02:47.610> bin<00:02:47.910> to<00:02:48.090> a<00:02:48.120> battery<00:02:48.540> page<00:02:48.810> and<00:02:49.200> here's
+
+00:02:50.060 --> 00:02:50.070 
+default bin to a battery page and here's
+
+00:02:50.070 --> 00:02:52.580 
+default bin to a battery page and here's
+the<00:02:50.340> default<00:02:50.880> page<00:02:51.090> that<00:02:51.420> we<00:02:51.540> would<00:02:51.690> see<00:02:51.930> so<00:02:52.470> as
+
+00:02:52.580 --> 00:02:52.590 
+the default page that we would see so as
+
+00:02:52.590 --> 00:02:53.990 
+the default page that we would see so as
+long<00:02:52.680> as<00:02:52.740> you've<00:02:52.980> got<00:02:53.130> this<00:02:53.250> working<00:02:53.790> and<00:02:53.940> you
+
+00:02:53.990 --> 00:02:54.000 
+long as you've got this working and you
+
+00:02:54.000 --> 00:02:56.180 
+long as you've got this working and you
+know<00:02:54.240> the<00:02:54.420> directory<00:02:55.080> where<00:02:55.560> your<00:02:55.710> public
+
+00:02:56.180 --> 00:02:56.190 
+know the directory where your public
+
+00:02:56.190 --> 00:02:58.910 
+know the directory where your public
+files<00:02:56.460> are<00:02:56.760> stored<00:02:57.120> we<00:02:57.900> can<00:02:57.930> use<00:02:58.110> deploy<00:02:58.680> to
+
+00:02:58.910 --> 00:02:58.920 
+files are stored we can use deploy to
+
+00:02:58.920 --> 00:03:02.150 
+files are stored we can use deploy to
+i/o<00:02:59.160> to<00:02:59.700> copy<00:03:00.090> the<00:03:00.900> fast<00:03:01.290> from<00:03:01.680> our<00:03:01.830> github
+
+00:03:02.150 --> 00:03:02.160 
+i/o to copy the fast from our github
+
+00:03:02.160 --> 00:03:05.660 
+i/o to copy the fast from our github
+repository<00:03:02.870> over<00:03:03.870> to<00:03:04.260> our<00:03:04.530> public<00:03:04.890> directory
+
+00:03:05.660 --> 00:03:05.670 
+repository over to our public directory
+
+00:03:05.670 --> 00:03:07.520 
+repository over to our public directory
+so<00:03:06.210> we'll<00:03:06.360> leave<00:03:06.510> this<00:03:06.660> open<00:03:06.870> so<00:03:07.260> we'll<00:03:07.380> need
+
+00:03:07.520 --> 00:03:07.530 
+so we'll leave this open so we'll need
+
+00:03:07.530 --> 00:03:09.860 
+so we'll leave this open so we'll need
+this<00:03:07.710> later<00:03:08.010> on<00:03:08.190> now<00:03:09.150> what<00:03:09.360> we're<00:03:09.480> going<00:03:09.570> to<00:03:09.630> do
+
+00:03:09.860 --> 00:03:09.870 
+this later on now what we're going to do
+
+00:03:09.870 --> 00:03:13.100 
+this later on now what we're going to do
+is<00:03:10.230> inside<00:03:10.890> of<00:03:11.040> deploy<00:03:11.430> IO<00:03:11.760> we're<00:03:12.690> going<00:03:12.870> to
+
+00:03:13.100 --> 00:03:13.110 
+is inside of deploy IO we're going to
+
+00:03:13.110 --> 00:03:15.380 
+is inside of deploy IO we're going to
+connect<00:03:13.680> a<00:03:13.860> repository<00:03:14.220> so<00:03:15.090> you're<00:03:15.210> going<00:03:15.330> to
+
+00:03:15.380 --> 00:03:15.390 
+connect a repository so you're going to
+
+00:03:15.390 --> 00:03:17.690 
+connect a repository so you're going to
+need<00:03:15.540> to<00:03:15.690> provide<00:03:15.840> your<00:03:16.230> github<00:03:16.500> it<00:03:16.980> bucket<00:03:17.610> or
+
+00:03:17.690 --> 00:03:17.700 
+need to provide your github it bucket or
+
+00:03:17.700 --> 00:03:20.210 
+need to provide your github it bucket or
+self<00:03:18.030> hosted<00:03:18.480> details<00:03:18.959> here<00:03:19.290> in<00:03:19.800> this<00:03:20.010> case
+
+00:03:20.210 --> 00:03:20.220 
+self hosted details here in this case
+
+00:03:20.220 --> 00:03:21.860 
+self hosted details here in this case
+I'm<00:03:20.370> going<00:03:20.459> to<00:03:20.520> choose<00:03:20.820> the<00:03:21.180> HelloWorld
+
+00:03:21.860 --> 00:03:21.870 
+I'm going to choose the HelloWorld
+
+00:03:21.870 --> 00:03:23.690 
+I'm going to choose the HelloWorld
+repository<00:03:22.590> so<00:03:23.160> I'm<00:03:23.220> going<00:03:23.370> to<00:03:23.430> give<00:03:23.520> it<00:03:23.640> a
+
+00:03:23.690 --> 00:03:23.700 
+repository so I'm going to give it a
+
+00:03:23.700 --> 00:03:26.390 
+repository so I'm going to give it a
+title<00:03:23.940> here<00:03:24.450> and<00:03:24.630> a<00:03:25.260> color<00:03:25.560> label<00:03:25.950> if<00:03:26.040> you<00:03:26.160> want
+
+00:03:26.390 --> 00:03:26.400 
+title here and a color label if you want
+
+00:03:26.400 --> 00:03:28.250 
+title here and a color label if you want
+and<00:03:26.610> I'm<00:03:26.700> going<00:03:26.820> to<00:03:26.880> hit<00:03:27.030> connect<00:03:27.420> so<00:03:28.080> once
+
+00:03:28.250 --> 00:03:28.260 
+and I'm going to hit connect so once
+
+00:03:28.260 --> 00:03:29.930 
+and I'm going to hit connect so once
+that's<00:03:28.410> done<00:03:28.680> you'll<00:03:29.070> see<00:03:29.160> that<00:03:29.610> your
+
+00:03:29.930 --> 00:03:29.940 
+that's done you'll see that your
+
+00:03:29.940 --> 00:03:32.300 
+that's done you'll see that your
+repository<00:03:30.840> has<00:03:30.900> been<00:03:31.110> added<00:03:31.680> to<00:03:31.890> the<00:03:32.160> list
+
+00:03:32.300 --> 00:03:32.310 
+repository has been added to the list
+
+00:03:32.310 --> 00:03:34.460 
+repository has been added to the list
+here<00:03:32.489> bear<00:03:33.480> in<00:03:33.630> mind<00:03:33.780> that<00:03:33.930> before<00:03:34.350> you
+
+00:03:34.460 --> 00:03:34.470 
+here bear in mind that before you
+
+00:03:34.470 --> 00:03:36.050 
+here bear in mind that before you
+actually<00:03:34.590> do<00:03:35.010> any<00:03:35.160> of<00:03:35.250> this<00:03:35.400> you<00:03:35.610> will<00:03:35.820> need<00:03:36.000> to
+
+00:03:36.050 --> 00:03:36.060 
+actually do any of this you will need to
+
+00:03:36.060 --> 00:03:39.260 
+actually do any of this you will need to
+connect<00:03:36.780> your<00:03:36.930> github<00:03:37.470> or<00:03:37.709> other<00:03:37.950> account<00:03:38.459> so
+
+00:03:39.260 --> 00:03:39.270 
+connect your github or other account so
+
+00:03:39.270 --> 00:03:41.449 
+connect your github or other account so
+I'm<00:03:39.330> going<00:03:39.390> to<00:03:39.510> hit<00:03:39.690> hello<00:03:40.170> world<00:03:40.440> here<00:03:40.739> and<00:03:40.890> we
+
+00:03:41.449 --> 00:03:41.459 
+I'm going to hit hello world here and we
+
+00:03:41.459 --> 00:03:43.040 
+I'm going to hit hello world here and we
+have<00:03:41.670> the<00:03:41.820> option<00:03:42.120> to<00:03:42.269> create<00:03:42.480> an<00:03:42.750> environment
+
+00:03:43.040 --> 00:03:43.050 
+have the option to create an environment
+
+00:03:43.050 --> 00:03:45.860 
+have the option to create an environment
+and<00:03:43.500> server<00:03:43.850> so<00:03:44.850> what<00:03:45.239> we<00:03:45.330> need<00:03:45.480> to<00:03:45.510> do<00:03:45.720> is
+
+00:03:45.860 --> 00:03:45.870 
+and server so what we need to do is
+
+00:03:45.870 --> 00:03:47.780 
+and server so what we need to do is
+create<00:03:46.200> an<00:03:46.320> environment<00:03:47.280> here<00:03:47.310> and<00:03:47.580> I'm<00:03:47.640> just
+
+00:03:47.780 --> 00:03:47.790 
+create an environment here and I'm just
+
+00:03:47.790 --> 00:03:48.820 
+create an environment here and I'm just
+going<00:03:47.940> to<00:03:48.000> call<00:03:48.150> this<00:03:48.300> hello<00:03:48.720> world
+
+00:03:48.820 --> 00:03:48.830 
+going to call this hello world
+
+00:03:48.830 --> 00:03:51.320 
+going to call this hello world
+production<00:03:49.830> and<00:03:50.010> you<00:03:50.670> can<00:03:50.790> give<00:03:50.940> it<00:03:51.030> a<00:03:51.090> color
+
+00:03:51.320 --> 00:03:51.330 
+production and you can give it a color
+
+00:03:51.330 --> 00:03:53.300 
+production and you can give it a color
+label<00:03:51.720> if<00:03:51.810> you<00:03:51.930> want<00:03:52.170> and<00:03:52.709> we<00:03:52.800> also<00:03:52.980> need<00:03:53.190> to
+
+00:03:53.300 --> 00:03:53.310 
+label if you want and we also need to
+
+00:03:53.310 --> 00:03:55.550 
+label if you want and we also need to
+choose<00:03:53.640> the<00:03:53.850> branch<00:03:54.269> as<00:03:54.660> well<00:03:54.690> so<00:03:55.170> this<00:03:55.320> could
+
+00:03:55.550 --> 00:03:55.560 
+choose the branch as well so this could
+
+00:03:55.560 --> 00:03:58.100 
+choose the branch as well so this could
+be<00:03:55.590> a<00:03:55.980> development<00:03:56.670> branch<00:03:56.820> a<00:03:57.269> specific
+
+00:03:58.100 --> 00:03:58.110 
+be a development branch a specific
+
+00:03:58.110 --> 00:03:59.630 
+be a development branch a specific
+branch<00:03:58.380> or<00:03:58.680> in<00:03:58.830> this<00:03:58.950> case<00:03:59.160> it's<00:03:59.370> just<00:03:59.550> going
+
+00:03:59.630 --> 00:03:59.640 
+branch or in this case it's just going
+
+00:03:59.640 --> 00:04:01.640 
+branch or in this case it's just going
+to<00:03:59.730> be<00:03:59.820> the<00:03:59.910> master<00:04:00.300> branch<00:04:00.480> and<00:04:00.870> there's<00:04:01.560> not
+
+00:04:01.640 --> 00:04:01.650 
+to be the master branch and there's not
+
+00:04:01.650 --> 00:04:03.140 
+to be the master branch and there's not
+really<00:04:01.709> much<00:04:01.920> else<00:04:02.250> you<00:04:02.370> need<00:04:02.519> to<00:04:02.640> do<00:04:02.730> here<00:04:03.000> but
+
+00:04:03.140 --> 00:04:03.150 
+really much else you need to do here but
+
+00:04:03.150 --> 00:04:05.150 
+really much else you need to do here but
+you<00:04:03.239> can<00:04:03.540> do<00:04:04.230> things<00:04:04.380> like<00:04:04.530> HipChat
+
+00:04:05.150 --> 00:04:05.160 
+you can do things like HipChat
+
+00:04:05.160 --> 00:04:08.390 
+you can do things like HipChat
+or<00:04:05.400> campfire<00:04:06.120> deployment<00:04:06.989> notifications<00:04:07.650> so
+
+00:04:08.390 --> 00:04:08.400 
+or campfire deployment notifications so
+
+00:04:08.400 --> 00:04:09.890 
+or campfire deployment notifications so
+I'm<00:04:08.459> going<00:04:08.580> to<00:04:08.640> hit<00:04:08.790> add<00:04:08.940> environment<00:04:09.690> and
+
+00:04:09.890 --> 00:04:09.900 
+I'm going to hit add environment and
+
+00:04:09.900 --> 00:04:12.860 
+I'm going to hit add environment and
+once<00:04:10.530> that's<00:04:10.769> done<00:04:11.010> we<00:04:11.400> can<00:04:11.430> choose<00:04:12.030> a<00:04:12.300> server
+
+00:04:12.860 --> 00:04:12.870 
+once that's done we can choose a server
+
+00:04:12.870 --> 00:04:15.259 
+once that's done we can choose a server
+so<00:04:13.680> you<00:04:13.769> can<00:04:14.130> see<00:04:14.280> the<00:04:14.400> options<00:04:14.730> here<00:04:15.000> and
+
+00:04:15.259 --> 00:04:15.269 
+so you can see the options here and
+
+00:04:15.269 --> 00:04:16.670 
+so you can see the options here and
+depending<00:04:15.840> on<00:04:16.109> when<00:04:16.260> you're<00:04:16.380> watching<00:04:16.500> this
+
+00:04:16.670 --> 00:04:16.680 
+depending on when you're watching this
+
+00:04:16.680 --> 00:04:18.860 
+depending on when you're watching this
+video<00:04:16.859> there<00:04:17.190> may<00:04:17.310> be<00:04:17.340> additional<00:04:17.870> options
+
+00:04:18.860 --> 00:04:18.870 
+video there may be additional options
+
+00:04:18.870 --> 00:04:20.810 
+video there may be additional options
+when<00:04:19.080> you<00:04:19.290> come<00:04:19.500> to<00:04:19.680> use<00:04:19.830> this<00:04:20.040> but<00:04:20.640> in<00:04:20.730> this
+
+00:04:20.810 --> 00:04:20.820 
+when you come to use this but in this
+
+00:04:20.820 --> 00:04:22.430 
+when you come to use this but in this
+case<00:04:21.030> I'm<00:04:21.209> going<00:04:21.330> to<00:04:21.390> hit<00:04:21.539> digitalocean
+
+00:04:22.430 --> 00:04:22.440 
+case I'm going to hit digitalocean
+
+00:04:22.440 --> 00:04:25.820 
+case I'm going to hit digitalocean
+and<00:04:22.560> click<00:04:23.070> next<00:04:23.520> step<00:04:24.350> so<00:04:25.350> I'm<00:04:25.440> going<00:04:25.590> to<00:04:25.650> call
+
+00:04:25.820 --> 00:04:25.830 
+and click next step so I'm going to call
+
+00:04:25.830 --> 00:04:26.750 
+and click next step so I'm going to call
+this
+
+00:04:26.750 --> 00:04:26.760 
+this
+
+00:04:26.760 --> 00:04:29.450 
+this
+hello<00:04:27.030> world<00:04:27.360> server<00:04:27.930> the<00:04:28.560> repository<00:04:29.190> path
+
+00:04:29.450 --> 00:04:29.460 
+hello world server the repository path
+
+00:04:29.460 --> 00:04:32.360 
+hello world server the repository path
+we<00:04:29.730> can<00:04:29.760> just<00:04:30.120> leave<00:04:30.540> as<00:04:30.720> a<00:04:30.840> forward<00:04:31.080> slash<00:04:31.370> for
+
+00:04:32.360 --> 00:04:32.370 
+we can just leave as a forward slash for
+
+00:04:32.370 --> 00:04:33.980 
+we can just leave as a forward slash for
+the<00:04:32.460> droplet<00:04:32.940> though<00:04:33.120> what<00:04:33.390> we<00:04:33.510> need<00:04:33.660> to<00:04:33.780> do
+
+00:04:33.980 --> 00:04:33.990 
+the droplet though what we need to do
+
+00:04:33.990 --> 00:04:36.740 
+the droplet though what we need to do
+here<00:04:34.260> is<00:04:34.470> we<00:04:34.890> need<00:04:35.010> to<00:04:35.160> actually<00:04:35.340> change<00:04:35.940> this
+
+00:04:36.740 --> 00:04:36.750 
+here is we need to actually change this
+
+00:04:36.750 --> 00:04:40.910 
+here is we need to actually change this
+to<00:04:37.200> the<00:04:37.590> hello<00:04:37.620> world<00:04:38.400> droplet<00:04:39.050> so<00:04:40.050> now<00:04:40.710> what
+
+00:04:40.910 --> 00:04:40.920 
+to the hello world droplet so now what
+
+00:04:40.920 --> 00:04:42.770 
+to the hello world droplet so now what
+we<00:04:41.010> can<00:04:41.160> do<00:04:41.310> is<00:04:41.460> we<00:04:41.640> can<00:04:41.790> provide<00:04:42.120> the<00:04:42.450> remote
+
+00:04:42.770 --> 00:04:42.780 
+we can do is we can provide the remote
+
+00:04:42.780 --> 00:04:45.560 
+we can do is we can provide the remote
+path<00:04:43.140> remember<00:04:43.980> this<00:04:44.220> remote<00:04:44.580> path<00:04:44.850> is<00:04:45.120> far
+
+00:04:45.560 --> 00:04:45.570 
+path remember this remote path is far
+
+00:04:45.570 --> 00:04:48.320 
+path remember this remote path is far
+above<00:04:45.840> Double<00:04:46.530> H<00:04:46.650> tml<00:04:47.220> so<00:04:47.760> we<00:04:47.850> can<00:04:47.970> enter<00:04:48.300> that
+
+00:04:48.320 --> 00:04:48.330 
+above Double H tml so we can enter that
+
+00:04:48.330 --> 00:04:51.440 
+above Double H tml so we can enter that
+in<00:04:48.630> here<00:04:49.040> so<00:04:50.040> now<00:04:50.190> we<00:04:50.250> can<00:04:50.550> go<00:04:50.670> and<00:04:50.820> click<00:04:51.090> check
+
+00:04:51.440 --> 00:04:51.450 
+in here so now we can go and click check
+
+00:04:51.450 --> 00:04:54.020 
+in here so now we can go and click check
+connection<00:04:52.080> but<00:04:52.350> this<00:04:52.620> is<00:04:52.800> going<00:04:53.010> to<00:04:53.130> fail<00:04:53.550> so
+
+00:04:54.020 --> 00:04:54.030 
+connection but this is going to fail so
+
+00:04:54.030 --> 00:04:55.790 
+connection but this is going to fail so
+you'll<00:04:54.180> see<00:04:54.450> what<00:04:54.630> we<00:04:54.780> need<00:04:54.900> to<00:04:55.050> do<00:04:55.260> here<00:04:55.500> to
+
+00:04:55.790 --> 00:04:55.800 
+you'll see what we need to do here to
+
+00:04:55.800 --> 00:04:57.590 
+you'll see what we need to do here to
+actually<00:04:56.130> make<00:04:56.310> this<00:04:56.430> work<00:04:56.730> and<00:04:57.030> this<00:04:57.540> is
+
+00:04:57.590 --> 00:04:57.600 
+actually make this work and this is
+
+00:04:57.600 --> 00:05:00.710 
+actually make this work and this is
+because<00:04:58.020> we<00:04:58.140> don't<00:04:58.410> have<00:04:58.530> the<00:04:59.010> SSH<00:04:59.640> key<00:05:00.030> for
+
+00:05:00.710 --> 00:05:00.720 
+because we don't have the SSH key for
+
+00:05:00.720 --> 00:05:03.470 
+because we don't have the SSH key for
+deployed<00:05:01.320> i/o<00:05:01.650> added<00:05:02.370> to<00:05:02.850> our<00:05:02.880> authorized
+
+00:05:03.470 --> 00:05:03.480 
+deployed i/o added to our authorized
+
+00:05:03.480 --> 00:05:06.140 
+deployed i/o added to our authorized
+keys<00:05:03.840> on<00:05:04.230> our<00:05:04.380> server<00:05:04.740> and<00:05:05.550> there's<00:05:05.730> cool
+
+00:05:06.140 --> 00:05:06.150 
+keys on our server and there's cool
+
+00:05:06.150 --> 00:05:07.340 
+keys on our server and there's cool
+instructions<00:05:06.870> here<00:05:07.080> that<00:05:07.230> will<00:05:07.320> actually
+
+00:05:07.340 --> 00:05:07.350 
+instructions here that will actually
+
+00:05:07.350 --> 00:05:09.560 
+instructions here that will actually
+tell<00:05:07.710> you<00:05:08.040> how<00:05:08.160> to<00:05:08.220> do<00:05:08.520> this<00:05:08.730> so<00:05:09.270> if<00:05:09.330> you<00:05:09.420> hit
+
+00:05:09.560 --> 00:05:09.570 
+tell you how to do this so if you hit
+
+00:05:09.570 --> 00:05:11.000 
+tell you how to do this so if you hit
+learn<00:05:09.870> about<00:05:10.140> public<00:05:10.560> key<00:05:10.710> authentication
+
+00:05:11.000 --> 00:05:11.010 
+learn about public key authentication
+
+00:05:11.010 --> 00:05:13.490 
+learn about public key authentication
+you<00:05:11.430> do<00:05:11.790> get<00:05:12.000> a<00:05:12.030> guide<00:05:12.300> here<00:05:12.780> what<00:05:13.380> we're<00:05:13.470> going
+
+00:05:13.490 --> 00:05:13.500 
+you do get a guide here what we're going
+
+00:05:13.500 --> 00:05:14.780 
+you do get a guide here what we're going
+to<00:05:13.650> do<00:05:13.740> is<00:05:13.830> we're<00:05:13.920> going<00:05:14.010> to<00:05:14.070> hit<00:05:14.280> this<00:05:14.520> and
+
+00:05:14.780 --> 00:05:14.790 
+to do is we're going to hit this and
+
+00:05:14.790 --> 00:05:16.880 
+to do is we're going to hit this and
+we're<00:05:14.880> going<00:05:15.000> to<00:05:15.030> take<00:05:15.360> this<00:05:15.660> key<00:05:16.050> we're<00:05:16.770> going
+
+00:05:16.880 --> 00:05:16.890 
+we're going to take this key we're going
+
+00:05:16.890 --> 00:05:18.290 
+we're going to take this key we're going
+to<00:05:16.950> copy<00:05:17.220> this<00:05:17.550> and<00:05:17.760> we're<00:05:17.940> going<00:05:18.060> to<00:05:18.090> paste
+
+00:05:18.290 --> 00:05:18.300 
+to copy this and we're going to paste
+
+00:05:18.300 --> 00:05:20.930 
+to copy this and we're going to paste
+this<00:05:18.570> into<00:05:19.110> our<00:05:19.320> authorized<00:05:20.160> keys<00:05:20.550> on<00:05:20.790> our
+
+00:05:20.930 --> 00:05:20.940 
+this into our authorized keys on our
+
+00:05:20.940 --> 00:05:24.310 
+this into our authorized keys on our
+server<00:05:21.240> so<00:05:22.140> we're<00:05:22.230> going<00:05:22.320> to<00:05:22.410> use<00:05:22.530> vim<00:05:22.830> to<00:05:23.220> hit
+
+00:05:24.310 --> 00:05:24.320 
+server so we're going to use vim to hit
+
+00:05:24.320 --> 00:05:26.240 
+server so we're going to use vim to hit
+our<00:05:25.320> home<00:05:25.590> directory
+
+00:05:26.240 --> 00:05:26.250 
+our home directory
+
+00:05:26.250 --> 00:05:33.770 
+our home directory
+in<00:05:27.140> SSH<00:05:28.140> and<00:05:28.530> it's<00:05:29.160> authorized<00:05:30.980> keys<00:05:32.360> so<00:05:33.360> we'll
+
+00:05:33.770 --> 00:05:33.780 
+in SSH and it's authorized keys so we'll
+
+00:05:33.780 --> 00:05:36.410 
+in SSH and it's authorized keys so we'll
+hit<00:05:34.050> insert<00:05:34.620> mode<00:05:34.920> or<00:05:35.280> paste<00:05:35.550> this<00:05:35.730> in<00:05:35.970> will
+
+00:05:36.410 --> 00:05:36.420 
+hit insert mode or paste this in will
+
+00:05:36.420 --> 00:05:40.040 
+hit insert mode or paste this in will
+come<00:05:36.660> out<00:05:36.840> and<00:05:37.110> we'll<00:05:37.590> save<00:05:38.370> that<00:05:38.400> and<00:05:38.640> quit<00:05:39.050> so
+
+00:05:40.040 --> 00:05:40.050 
+come out and we'll save that and quit so
+
+00:05:40.050 --> 00:05:47.050 
+come out and we'll save that and quit so
+now<00:05:40.320> when<00:05:40.710> we<00:05:40.740> go<00:05:41.010> and<00:05:41.600> hit<00:05:42.600> check<00:05:42.900> connection
+
+00:05:47.050 --> 00:05:47.060 
+
+00:05:47.060 --> 00:05:50.030 
+
+there<00:05:48.060> we<00:05:48.180> go<00:05:48.300> it<00:05:48.600> works<00:05:48.840> so<00:05:49.590> there's<00:05:49.710> a<00:05:49.860> couple
+
+00:05:50.030 --> 00:05:50.040 
+there we go it works so there's a couple
+
+00:05:50.040 --> 00:05:52.010 
+there we go it works so there's a couple
+of<00:05:50.250> optional<00:05:50.850> things<00:05:51.060> you<00:05:51.240> can<00:05:51.390> do<00:05:51.570> here<00:05:51.840> like
+
+00:05:52.010 --> 00:05:52.020 
+of optional things you can do here like
+
+00:05:52.020 --> 00:05:54.260 
+of optional things you can do here like
+post-deployment<00:05:52.830> commands<00:05:53.370> and<00:05:53.790> web<00:05:54.000> hooks
+
+00:05:54.260 --> 00:05:54.270 
+post-deployment commands and web hooks
+
+00:05:54.270 --> 00:05:55.910 
+post-deployment commands and web hooks
+I'm<00:05:54.810> going<00:05:55.110> to<00:05:55.170> skip<00:05:55.380> this<00:05:55.530> for<00:05:55.710> now
+
+00:05:55.910 --> 00:05:55.920 
+I'm going to skip this for now
+
+00:05:55.920 --> 00:05:58.580 
+I'm going to skip this for now
+so<00:05:56.700> we're<00:05:56.970> now<00:05:57.090> ready<00:05:57.330> to<00:05:57.480> deploy<00:05:57.900> so<00:05:58.350> on<00:05:58.470> our
+
+00:05:58.580 --> 00:05:58.590 
+so we're now ready to deploy so on our
+
+00:05:58.590 --> 00:06:00.410 
+so we're now ready to deploy so on our
+server<00:05:58.980> here<00:05:59.370> what's<00:05:59.640> now<00:05:59.820> going<00:05:59.880> to<00:06:00.060> happen
+
+00:06:00.410 --> 00:06:00.420 
+server here what's now going to happen
+
+00:06:00.420 --> 00:06:03.170 
+server here what's now going to happen
+is<00:06:00.540> when<00:06:00.780> we<00:06:00.900> deploy<00:06:01.290> from<00:06:02.100> our<00:06:02.340> github<00:06:02.580> repo
+
+00:06:03.170 --> 00:06:03.180 
+is when we deploy from our github repo
+
+00:06:03.180 --> 00:06:05.060 
+is when we deploy from our github repo
+this<00:06:03.660> is<00:06:03.840> then<00:06:04.020> going<00:06:04.140> to<00:06:04.200> be<00:06:04.290> copied<00:06:04.740> over<00:06:04.830> to
+
+00:06:05.060 --> 00:06:05.070 
+this is then going to be copied over to
+
+00:06:05.070 --> 00:06:09.290 
+this is then going to be copied over to
+our<00:06:05.370> public<00:06:06.170> HTTP<00:06:07.170> directory<00:06:07.890> so<00:06:08.820> let's<00:06:09.000> click
+
+00:06:09.290 --> 00:06:09.300 
+our public HTTP directory so let's click
+
+00:06:09.300 --> 00:06:12.290 
+our public HTTP directory so let's click
+deploy<00:06:10.040> we<00:06:11.040> have<00:06:11.160> the<00:06:11.310> option<00:06:11.610> to<00:06:11.640> choose<00:06:12.000> a
+
+00:06:12.290 --> 00:06:12.300 
+deploy we have the option to choose a
+
+00:06:12.300 --> 00:06:15.320 
+deploy we have the option to choose a
+revision<00:06:12.930> and<00:06:13.190> we<00:06:14.190> can<00:06:14.400> enter<00:06:15.150> some
+
+00:06:15.320 --> 00:06:15.330 
+revision and we can enter some
+
+00:06:15.330 --> 00:06:16.910 
+revision and we can enter some
+deployment<00:06:16.050> notes<00:06:16.290> here<00:06:16.530> I'm<00:06:16.590> not<00:06:16.710> going<00:06:16.830> to
+
+00:06:16.910 --> 00:06:16.920 
+deployment notes here I'm not going to
+
+00:06:16.920 --> 00:06:21.100 
+deployment notes here I'm not going to
+do<00:06:17.040> this<00:06:17.220> so<00:06:17.460> I'm<00:06:17.520> going<00:06:17.610> to<00:06:17.670> hit<00:06:17.900> review<00:06:18.900> and
+
+00:06:21.100 --> 00:06:21.110 
+do this so I'm going to hit review and
+
+00:06:21.110 --> 00:06:25.090 
+do this so I'm going to hit review and
+then<00:06:22.110> I'm<00:06:22.200> going<00:06:22.320> to<00:06:22.410> hit<00:06:22.560> start<00:06:23.040> deployment
+
+00:06:25.090 --> 00:06:25.100 
+then I'm going to hit start deployment
+
+00:06:25.100 --> 00:06:27.800 
+then I'm going to hit start deployment
+so<00:06:26.100> that's<00:06:26.430> now<00:06:26.670> deploying<00:06:27.210> if<00:06:27.510> we<00:06:27.660> just
+
+00:06:27.800 --> 00:06:27.810 
+so that's now deploying if we just
+
+00:06:27.810 --> 00:06:29.450 
+so that's now deploying if we just
+refresh<00:06:28.170> the<00:06:28.320> page<00:06:28.500> there's<00:06:28.920> not<00:06:29.190> a<00:06:29.220> lot<00:06:29.400> of
+
+00:06:29.450 --> 00:06:29.460 
+refresh the page there's not a lot of
+
+00:06:29.460 --> 00:06:31.010 
+refresh the page there's not a lot of
+files<00:06:29.700> here<00:06:30.000> so<00:06:30.120> that<00:06:30.270> should<00:06:30.480> be<00:06:30.570> done<00:06:30.810> now
+
+00:06:31.010 --> 00:06:31.020 
+files here so that should be done now
+
+00:06:31.020 --> 00:06:33.500 
+files here so that should be done now
+and<00:06:31.560> when<00:06:31.770> we<00:06:31.830> go<00:06:31.950> over<00:06:32.220> to<00:06:32.340> our<00:06:32.370> server<00:06:32.790> you
+
+00:06:33.500 --> 00:06:33.510 
+and when we go over to our server you
+
+00:06:33.510 --> 00:06:37.010 
+and when we go over to our server you
+can<00:06:33.630> see<00:06:33.870> that's<00:06:34.380> been<00:06:34.620> deployed
+

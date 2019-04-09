@@ -1,0 +1,591 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.620 --> 00:00:05.140 
+
+hi<00:00:01.620> there<00:00:01.920> this<00:00:02.190> is<00:00:02.610> Paul<00:00:03.149> and<00:00:03.510> in<00:00:04.020> this<00:00:04.319> new
+
+00:00:05.140 --> 00:00:05.150 
+hi there this is Paul and in this new
+
+00:00:05.150 --> 00:00:09.140 
+hi there this is Paul and in this new
+can<00:00:06.150> make<00:00:06.359> her<00:00:06.629> video<00:00:07.049> tutorial<00:00:07.589> I'm<00:00:08.340> going<00:00:09.000> to
+
+00:00:09.140 --> 00:00:09.150 
+can make her video tutorial I'm going to
+
+00:00:09.150 --> 00:00:12.230 
+can make her video tutorial I'm going to
+show<00:00:09.300> you<00:00:09.510> how<00:00:10.019> to<00:00:10.080> implement<00:00:10.590> a<00:00:11.240> circular
+
+00:00:12.230 --> 00:00:12.240 
+show you how to implement a circular
+
+00:00:12.240 --> 00:00:17.200 
+show you how to implement a circular
+movement<00:00:13.309> circular<00:00:14.309> movement<00:00:15.000> for<00:00:15.450> sprite
+
+00:00:17.200 --> 00:00:17.210 
+movement circular movement for sprite
+
+00:00:17.210 --> 00:00:22.310 
+movement circular movement for sprite
+basically<00:00:18.210> sometimes<00:00:19.109> you<00:00:19.650> want<00:00:19.980> to<00:00:20.520> have<00:00:21.420> one
+
+00:00:22.310 --> 00:00:22.320 
+basically sometimes you want to have one
+
+00:00:22.320 --> 00:00:28.509 
+basically sometimes you want to have one
+or<00:00:22.619> more<00:00:23.220> sprites<00:00:24.470> in<00:00:25.760> moving<00:00:26.760> in<00:00:26.970> circles<00:00:27.539> and
+
+00:00:28.509 --> 00:00:28.519 
+or more sprites in moving in circles and
+
+00:00:28.519 --> 00:00:31.569 
+or more sprites in moving in circles and
+that's<00:00:29.519> why<00:00:29.939> you<00:00:30.000> need<00:00:30.359> a<00:00:30.570> circular<00:00:31.170> movement
+
+00:00:31.569 --> 00:00:31.579 
+that's why you need a circular movement
+
+00:00:31.579 --> 00:00:35.530 
+that's why you need a circular movement
+well<00:00:32.579> let's<00:00:33.059> start<00:00:33.690> first<00:00:34.380> let's<00:00:35.010> create
+
+00:00:35.530 --> 00:00:35.540 
+well let's start first let's create
+
+00:00:35.540 --> 00:00:41.590 
+well let's start first let's create
+sprite<00:00:36.540> I<00:00:37.640> already<00:00:38.640> made<00:00:39.329> this<00:00:39.920> little<00:00:40.920> guy
+
+00:00:41.590 --> 00:00:41.600 
+sprite I already made this little guy
+
+00:00:41.600 --> 00:00:46.670 
+sprite I already made this little guy
+just<00:00:42.600> load<00:00:43.079> it<00:00:44.090> let's<00:00:45.090> name<00:00:46.020> it
+
+00:00:46.670 --> 00:00:46.680 
+just load it let's name it
+
+00:00:46.680 --> 00:00:54.080 
+just load it let's name it
+I<00:00:50.480> want<00:00:51.480> the<00:00:52.079> region<00:00:52.620> in<00:00:52.770> the<00:00:52.949> center<00:00:53.550> of<00:00:53.789> the
+
+00:00:54.080 --> 00:00:54.090 
+I want the region in the center of the
+
+00:00:54.090 --> 00:00:57.139 
+I want the region in the center of the
+sprite<00:00:54.449> I'm<00:00:54.949> not<00:00:55.949> going<00:00:56.250> to<00:00:56.370> use<00:00:56.579> precise
+
+00:00:57.139 --> 00:00:57.149 
+sprite I'm not going to use precise
+
+00:00:57.149 --> 00:01:01.209 
+sprite I'm not going to use precise
+collision<00:00:57.840> checking<00:00:58.230> and<00:00:59.000> we<00:01:00.000> are<00:01:00.300> done<00:01:00.600> now
+
+00:01:01.209 --> 00:01:01.219 
+collision checking and we are done now
+
+00:01:01.219 --> 00:01:05.380 
+collision checking and we are done now
+we're<00:01:02.219> done<00:01:02.600> now<00:01:03.600> let's<00:01:03.660> create<00:01:04.589> an<00:01:04.979> object
+
+00:01:05.380 --> 00:01:05.390 
+we're done now let's create an object
+
+00:01:05.390 --> 00:01:13.010 
+we're done now let's create an object
+create<00:01:06.390> object<00:01:08.420> let's<00:01:09.420> name<00:01:10.409> it<00:01:11.510> now<00:01:12.510> I'm
+
+00:01:13.010 --> 00:01:13.020 
+create object let's name it now I'm
+
+00:01:13.020 --> 00:01:16.100 
+create object let's name it now I'm
+going<00:01:13.380> to<00:01:13.619> assign<00:01:14.189> the<00:01:15.180> sprite<00:01:15.630> to<00:01:15.960> the<00:01:16.080> oh
+
+00:01:16.100 --> 00:01:16.110 
+going to assign the sprite to the oh
+
+00:01:16.110 --> 00:01:24.800 
+going to assign the sprite to the oh
+ we<00:01:19.909> finish<00:01:20.960> okay<00:01:21.960> now<00:01:22.380> is<00:01:23.150> where<00:01:24.150> the<00:01:24.509> fun
+
+00:01:24.800 --> 00:01:24.810 
+ we finish okay now is where the fun
+
+00:01:24.810 --> 00:01:27.950 
+ we finish okay now is where the fun
+part<00:01:24.840> begins<00:01:25.670> first<00:01:26.670> I'm<00:01:27.030> going<00:01:27.330> to<00:01:27.450> need<00:01:27.540> I
+
+00:01:27.950 --> 00:01:27.960 
+part begins first I'm going to need I
+
+00:01:27.960 --> 00:01:30.890 
+part begins first I'm going to need I
+create<00:01:28.770> a<00:01:29.009> band<00:01:29.340> for<00:01:30.090> variables
+
+00:01:30.890 --> 00:01:30.900 
+create a band for variables
+
+00:01:30.900 --> 00:01:33.280 
+create a band for variables
+initialization
+
+00:01:33.280 --> 00:01:33.290 
+initialization
+
+00:01:33.290 --> 00:01:38.600 
+initialization
+let's<00:01:34.290> add<00:01:34.590> some<00:01:35.340> variables<00:01:36.710> first<00:01:37.710> I'm<00:01:38.250> going
+
+00:01:38.600 --> 00:01:38.610 
+let's add some variables first I'm going
+
+00:01:38.610 --> 00:01:46.780 
+let's add some variables first I'm going
+to<00:01:38.729> need<00:01:38.880> an<00:01:39.500> angle<00:01:40.500> variable<00:01:42.170> and<00:01:43.220> a<00:01:44.270> lamp
+
+00:01:46.780 --> 00:01:46.790 
+to need an angle variable and a lamp
+
+00:01:46.790 --> 00:01:53.410 
+to need an angle variable and a lamp
+variable<00:01:47.869> let's<00:01:48.869> put<00:01:49.350> a<00:01:49.799> thing<00:01:50.610> that<00:01:51.049> we<00:01:52.369> that
+
+00:01:53.410 --> 00:01:53.420 
+variable let's put a thing that we that
+
+00:01:53.420 --> 00:01:58.690 
+variable let's put a thing that we that
+they'll<00:01:54.420> be<00:01:54.780> enough<00:01:55.140> of<00:01:55.890> this<00:01:56.250> for<00:01:56.759> now<00:01:57.649> now
+
+00:01:58.690 --> 00:01:58.700 
+they'll be enough of this for now now
+
+00:01:58.700 --> 00:02:04.010 
+they'll be enough of this for now now
+let's<00:01:59.700> add<00:01:59.939> a<00:02:00.829> step<00:02:01.829> band<00:02:02.490> and<00:02:02.790> in<00:02:03.210> this<00:02:03.540> band
+
+00:02:04.010 --> 00:02:04.020 
+let's add a step band and in this band
+
+00:02:04.020 --> 00:02:07.789 
+let's add a step band and in this band
+we<00:02:04.350> are<00:02:04.380> going<00:02:04.890> to<00:02:05.189> implement<00:02:06.259> the<00:02:07.259> circular
+
+00:02:07.789 --> 00:02:07.799 
+we are going to implement the circular
+
+00:02:07.799 --> 00:02:09.859 
+we are going to implement the circular
+movement
+
+00:02:09.859 --> 00:02:09.869 
+movement
+
+00:02:09.869 --> 00:02:18.309 
+movement
+in<00:02:10.739> the<00:02:12.950> x-coordinate<00:02:13.950> we<00:02:14.730> use<00:02:15.030> the<00:02:15.390> cosine<00:02:16.020> or
+
+00:02:18.309 --> 00:02:18.319 
+in the x-coordinate we use the cosine or
+
+00:02:18.319 --> 00:02:26.750 
+in the x-coordinate we use the cosine or
+coast<00:02:19.670> of<00:02:20.670> an<00:02:21.410> angle<00:02:23.390> in<00:02:24.390> the<00:02:24.780> way<00:02:25.760> coordinate
+
+00:02:26.750 --> 00:02:26.760 
+coast of an angle in the way coordinate
+
+00:02:26.760 --> 00:02:34.160 
+coast of an angle in the way coordinate
+we<00:02:27.420> use<00:02:27.840> the<00:02:28.349> sine<00:02:29.660> sing<00:02:31.400> a<00:02:32.400> note<00:02:32.940> and<00:02:33.420> now<00:02:33.780> we
+
+00:02:34.160 --> 00:02:34.170 
+we use the sine sing a note and now we
+
+00:02:34.170 --> 00:02:41.559 
+we use the sine sing a note and now we
+are<00:02:34.230> going<00:02:34.530> to<00:02:34.769> multiply<00:02:35.900> this<00:02:36.900> by<00:02:38.510> length
+
+00:02:41.559 --> 00:02:41.569 
+
+00:02:41.569 --> 00:02:44.949 
+
+sorry
+
+00:02:44.949 --> 00:02:44.959 
+
+00:02:44.959 --> 00:02:51.880 
+
+and<00:02:45.959> we<00:02:46.590> we're<00:02:47.190> done<00:02:48.500> all<00:02:49.500> right<00:02:49.560> now<00:02:50.459> I<00:02:50.700> want
+
+00:02:51.880 --> 00:02:51.890 
+and we we're done all right now I want
+
+00:02:51.890 --> 00:02:58.990 
+and we we're done all right now I want
+the<00:02:53.269> sprite<00:02:54.530> moving<00:02:55.530> in<00:02:55.650> circles<00:02:56.930> in<00:02:57.980> this
+
+00:02:58.990 --> 00:02:59.000 
+the sprite moving in circles in this
+
+00:02:59.000 --> 00:03:04.670 
+the sprite moving in circles in this
+sprite<00:03:00.440> already<00:03:01.610> define<00:03:02.610> position<00:03:03.239> so<00:03:03.680> that's
+
+00:03:04.670 --> 00:03:04.680 
+sprite already define position so that's
+
+00:03:04.680 --> 00:03:08.270 
+sprite already define position so that's
+why<00:03:04.950> I'm<00:03:05.959> going<00:03:06.959> to<00:03:07.200> do<00:03:07.410> this<00:03:07.650> like<00:03:08.040> an
+
+00:03:08.270 --> 00:03:08.280 
+why I'm going to do this like an
+
+00:03:08.280 --> 00:03:13.520 
+why I'm going to do this like an
+increment<00:03:09.120> as<00:03:09.569> shown<00:03:10.160> and<00:03:11.630> I<00:03:12.630> think<00:03:13.170> we<00:03:13.380> are
+
+00:03:13.520 --> 00:03:13.530 
+increment as shown and I think we are
+
+00:03:13.530 --> 00:03:19.789 
+increment as shown and I think we are
+done<00:03:15.829> not<00:03:16.829> really<00:03:17.209> we<00:03:18.209> need<00:03:18.390> a<00:03:18.600> room<00:03:18.930> let's
+
+00:03:19.789 --> 00:03:19.799 
+done not really we need a room let's
+
+00:03:19.799 --> 00:03:23.750 
+done not really we need a room let's
+create<00:03:20.220> it<00:03:20.370> and<00:03:21.209> now<00:03:21.420> I'm<00:03:21.750> going<00:03:22.019> to<00:03:22.140> put<00:03:22.760> here
+
+00:03:23.750 --> 00:03:23.760 
+create it and now I'm going to put here
+
+00:03:23.760 --> 00:03:31.280 
+create it and now I'm going to put here
+the<00:03:23.970> sprite<00:03:26.540> that'll<00:03:27.540> be<00:03:27.720> enough<00:03:29.840> let's<00:03:30.840> see
+
+00:03:31.280 --> 00:03:31.290 
+the sprite that'll be enough let's see
+
+00:03:31.290 --> 00:03:31.729 
+the sprite that'll be enough let's see
+it
+
+00:03:31.729 --> 00:03:31.739 
+it
+
+00:03:31.739 --> 00:03:41.539 
+it
+Oh<00:03:35.299> something<00:03:36.299> went<00:03:36.690> wrong<00:03:37.670> let's<00:03:38.670> see<00:03:38.970> oh<00:03:40.549> yes
+
+00:03:41.539 --> 00:03:41.549 
+Oh something went wrong let's see oh yes
+
+00:03:41.549 --> 00:03:45.590 
+Oh something went wrong let's see oh yes
+I<00:03:41.880> forgot<00:03:42.769> something<00:03:43.850> extremely<00:03:44.850> important<00:03:45.329> I
+
+00:03:45.590 --> 00:03:45.600 
+I forgot something extremely important I
+
+00:03:45.600 --> 00:03:48.770 
+I forgot something extremely important I
+need<00:03:46.500> to<00:03:46.829> increment<00:03:47.340> the<00:03:48.060> angle
+
+00:03:48.770 --> 00:03:48.780 
+need to increment the angle
+
+00:03:48.780 --> 00:03:54.590 
+need to increment the angle
+I<00:03:48.810> think<00:03:49.609> this<00:03:50.609> be<00:03:50.880> all<00:03:51.030> right<00:03:53.000> let's<00:03:54.000> see<00:03:54.269> and
+
+00:03:54.590 --> 00:03:54.600 
+I think this be all right let's see and
+
+00:03:54.600 --> 00:04:02.050 
+I think this be all right let's see and
+yeah<00:03:55.200> now<00:03:55.950> it<00:03:56.220> was<00:03:57.019> but<00:03:58.040> I<00:03:59.180> forgot<00:04:00.180> something<00:04:00.810> I
+
+00:04:02.050 --> 00:04:02.060 
+yeah now it was but I forgot something I
+
+00:04:02.060 --> 00:04:05.750 
+yeah now it was but I forgot something I
+always<00:04:03.060> want<00:04:03.530> to<00:04:04.530> run<00:04:04.950> the<00:04:05.280> game<00:04:05.489> in
+
+00:04:05.750 --> 00:04:05.760 
+always want to run the game in
+
+00:04:05.760 --> 00:04:10.759 
+always want to run the game in
+full-screen<00:04:06.660> mode<00:04:08.540> as<00:04:09.540> you<00:04:09.750> can<00:04:09.930> see<00:04:10.170> the
+
+00:04:10.759 --> 00:04:10.769 
+full-screen mode as you can see the
+
+00:04:10.769 --> 00:04:15.180 
+full-screen mode as you can see the
+circular<00:04:11.400> movement<00:04:12.650> works
+
+00:04:15.180 --> 00:04:15.190 
+circular movement works
+
+00:04:15.190 --> 00:04:24.060 
+circular movement works
+very<00:04:16.260> smoothly<00:04:18.000> it<00:04:19.000> looks<00:04:20.040> very<00:04:21.040> well<00:04:22.110> now<00:04:23.110> I'm
+
+00:04:24.060 --> 00:04:24.070 
+very smoothly it looks very well now I'm
+
+00:04:24.070 --> 00:04:27.770 
+very smoothly it looks very well now I'm
+going<00:04:24.370> to<00:04:24.520> make<00:04:24.760> it<00:04:24.970> a<00:04:25.210> little<00:04:25.690> bit<00:04:25.900> more
+
+00:04:27.770 --> 00:04:27.780 
+going to make it a little bit more
+
+00:04:27.780 --> 00:04:34.500 
+going to make it a little bit more
+interesting<00:04:28.860> by<00:04:29.860> adding<00:04:30.040> more<00:04:31.170> sprites<00:04:33.510> let's
+
+00:04:34.500 --> 00:04:34.510 
+interesting by adding more sprites let's
+
+00:04:34.510 --> 00:04:38.780 
+interesting by adding more sprites let's
+see<00:04:34.840> it<00:04:35.490> as<00:04:36.490> you<00:04:36.700> can<00:04:36.820> see<00:04:36.880> that<00:04:37.270> three<00:04:37.810> sprites
+
+00:04:38.780 --> 00:04:38.790 
+see it as you can see that three sprites
+
+00:04:38.790 --> 00:04:43.980 
+see it as you can see that three sprites
+moves<00:04:40.140> in<00:04:41.140> in<00:04:41.680> the<00:04:42.040> same<00:04:42.540> exactly<00:04:43.540> the<00:04:43.750> same
+
+00:04:43.980 --> 00:04:43.990 
+moves in in the same exactly the same
+
+00:04:43.990 --> 00:04:46.800 
+moves in in the same exactly the same
+way<00:04:44.200> I<00:04:44.470> don't<00:04:44.560> like<00:04:45.070> I<00:04:45.400> don't<00:04:46.090> like<00:04:46.450> it<00:04:46.780> that
+
+00:04:46.800 --> 00:04:46.810 
+way I don't like I don't like it that
+
+00:04:46.810 --> 00:04:51.900 
+way I don't like I don't like it that
+way<00:04:47.170> I<00:04:47.730> want<00:04:48.730> to<00:04:48.970> introduce<00:04:49.740> some<00:04:50.910> variation
+
+00:04:51.900 --> 00:04:51.910 
+way I want to introduce some variation
+
+00:04:51.910 --> 00:04:55.020 
+way I want to introduce some variation
+so<00:04:52.240> we<00:04:52.810> are<00:04:52.900> going<00:04:53.260> to<00:04:53.650> image<00:04:54.100> and<00:04:54.340> set<00:04:54.640> the
+
+00:04:55.020 --> 00:04:55.030 
+so we are going to image and set the
+
+00:04:55.030 --> 00:05:00.110 
+so we are going to image and set the
+angle<00:04:55.300> variable<00:04:55.950> with<00:04:56.950> a<00:04:57.250> random<00:04:58.260> number
+
+00:05:00.110 --> 00:05:00.120 
+angle variable with a random number
+
+00:05:00.120 --> 00:05:04.680 
+angle variable with a random number
+Allegro<00:05:01.120> maker<00:05:01.390> allows<00:05:01.840> you<00:05:02.380> to<00:05:02.560> do<00:05:02.710> this<00:05:03.690> with
+
+00:05:04.680 --> 00:05:04.690 
+Allegro maker allows you to do this with
+
+00:05:04.690 --> 00:05:12.660 
+Allegro maker allows you to do this with
+this<00:05:05.190> instruction<00:05:07.650> random<00:05:08.650> range<00:05:09.580> and<00:05:10.590> as<00:05:11.670> the
+
+00:05:12.660 --> 00:05:12.670 
+this instruction random range and as the
+
+00:05:12.670 --> 00:05:18.500 
+this instruction random range and as the
+name<00:05:12.910> suggests<00:05:16.110> you<00:05:17.110> had<00:05:17.350> to<00:05:17.500> enter<00:05:17.710> two
+
+00:05:18.500 --> 00:05:18.510 
+name suggests you had to enter two
+
+00:05:18.510 --> 00:05:26.490 
+name suggests you had to enter two
+values<00:05:21.810> and<00:05:22.810> that<00:05:23.380> be<00:05:23.880> okay<00:05:24.880> now<00:05:25.750> let's<00:05:26.140> see
+
+00:05:26.490 --> 00:05:26.500 
+values and that be okay now let's see
+
+00:05:26.500 --> 00:05:31.070 
+values and that be okay now let's see
+how<00:05:27.310> it<00:05:27.880> looks<00:05:28.210> now
+
+00:05:31.070 --> 00:05:31.080 
+
+00:05:31.080 --> 00:05:38.210 
+
+well<00:05:32.520> the<00:05:33.520> Sun<00:05:33.760> look<00:05:34.000> very<00:05:34.300> different
+
+00:05:38.210 --> 00:05:38.220 
+
+00:05:38.220 --> 00:05:45.320 
+
+let's<00:05:39.220> see<00:05:39.490> now<00:05:41.940> yeah<00:05:42.940> now<00:05:43.480> I<00:05:43.900> like<00:05:44.380> it<00:05:44.590> more
+
+00:05:45.320 --> 00:05:45.330 
+let's see now yeah now I like it more
+
+00:05:45.330 --> 00:05:52.530 
+let's see now yeah now I like it more
+yes<00:05:47.490> every<00:05:48.490> time<00:05:48.520> I<00:05:49.090> run<00:05:49.510> I<00:05:49.960> run<00:05:50.440> the<00:05:51.340> game<00:05:51.540> it
+
+00:05:52.530 --> 00:05:52.540 
+yes every time I run I run the game it
+
+00:05:52.540 --> 00:05:57.780 
+yes every time I run I run the game it
+will<00:05:53.350> look<00:05:53.740> different<00:05:53.770> because<00:05:54.610> I<00:05:55.210> say<00:05:56.790> ciao
+
+00:05:57.780 --> 00:05:57.790 
+will look different because I say ciao
+
+00:05:57.790 --> 00:05:59.240 
+will look different because I say ciao
+ciao
+
+00:05:59.240 --> 00:05:59.250 
+ciao
+
+00:05:59.250 --> 00:06:05.730 
+ciao
+we<00:06:00.250> are<00:06:00.960> initialization<00:06:01.960> the<00:06:03.840> bearable<00:06:04.840> with
+
+00:06:05.730 --> 00:06:05.740 
+we are initialization the bearable with
+
+00:06:05.740 --> 00:06:13.500 
+we are initialization the bearable with
+random<00:06:06.580> numbers<00:06:08.220> and<00:06:09.540> that's<00:06:10.540> it<00:06:11.460> as<00:06:12.460> you<00:06:13.330> can
+
+00:06:13.500 --> 00:06:13.510 
+random numbers and that's it as you can
+
+00:06:13.510 --> 00:06:17.760 
+random numbers and that's it as you can
+see<00:06:14.700> we<00:06:15.810> implemented<00:06:16.810> this<00:06:17.200> circular
+
+00:06:17.760 --> 00:06:17.770 
+see we implemented this circular
+
+00:06:17.770 --> 00:06:21.960 
+see we implemented this circular
+movement<00:06:18.340> with<00:06:18.700> with<00:06:19.360> only<00:06:19.660> two<00:06:20.380> lines<00:06:20.890> in<00:06:21.580> the
+
+00:06:21.960 --> 00:06:21.970 
+movement with with only two lines in the
+
+00:06:21.970 --> 00:06:24.130 
+movement with with only two lines in the
+create<00:06:22.300> event<00:06:22.480> and
+
+00:06:24.130 --> 00:06:24.140 
+create event and
+
+00:06:24.140 --> 00:06:29.930 
+create event and
+three<00:06:25.790> lines<00:06:26.790> in<00:06:27.360> the<00:06:27.960> step<00:06:28.260> band<00:06:28.860> this<00:06:29.730> is
+
+00:06:29.930 --> 00:06:29.940 
+three lines in the step band this is
+
+00:06:29.940 --> 00:06:32.600 
+three lines in the step band this is
+really<00:06:30.420> straightforward<00:06:30.900> and<00:06:31.470> very<00:06:31.830> easy<00:06:32.220> of
+
+00:06:32.600 --> 00:06:32.610 
+really straightforward and very easy of
+
+00:06:32.610 --> 00:06:35.780 
+really straightforward and very easy of
+course<00:06:33.480> there<00:06:34.110> are<00:06:34.140> other<00:06:34.560> ways<00:06:34.980> to<00:06:35.400> do<00:06:35.670> the
+
+00:06:35.780 --> 00:06:35.790 
+course there are other ways to do the
+
+00:06:35.790 --> 00:06:41.320 
+course there are other ways to do the
+same<00:06:35.820> thing<00:06:36.390> you<00:06:36.990> hear<00:06:37.740> be<00:06:38.490> maker<00:06:39.830> affairs
+
+00:06:41.320 --> 00:06:41.330 
+same thing you hear be maker affairs
+
+00:06:41.330 --> 00:06:46.670 
+same thing you hear be maker affairs
+allows<00:06:42.330> you<00:06:42.690> to<00:06:42.840> use<00:06:43.110> this<00:06:45.680> graphical
+
+00:06:46.670 --> 00:06:46.680 
+allows you to use this graphical
+
+00:06:46.680 --> 00:06:53.390 
+allows you to use this graphical
+integrated<00:06:49.490> events<00:06:50.490> but<00:06:50.760> I<00:06:50.970> prefer<00:06:51.600> to<00:06:52.400> to
+
+00:06:53.390 --> 00:06:53.400 
+integrated events but I prefer to to
+
+00:06:53.400 --> 00:06:55.730 
+integrated events but I prefer to to
+stay<00:06:53.610> away<00:06:53.970> from<00:06:54.030> them<00:06:54.510> I<00:06:54.690> prefer<00:06:55.410> to
+
+00:06:55.730 --> 00:06:55.740 
+stay away from them I prefer to
+
+00:06:55.740 --> 00:07:00.590 
+stay away from them I prefer to
+implement<00:06:56.460> it<00:06:56.730> by<00:06:57.540> code<00:06:58.010> because<00:06:59.010> I<00:06:59.340> think<00:07:00.330> is
+
+00:07:00.590 --> 00:07:00.600 
+implement it by code because I think is
+
+00:07:00.600 --> 00:07:06.440 
+implement it by code because I think is
+easier<00:07:00.960> and<00:07:01.470> it<00:07:02.220> works<00:07:02.820> better<00:07:04.250> okay<00:07:05.280> hope<00:07:06.210> you
+
+00:07:06.440 --> 00:07:06.450 
+easier and it works better okay hope you
+
+00:07:06.450 --> 00:07:08.780 
+easier and it works better okay hope you
+like<00:07:06.660> it
+
+00:07:08.780 --> 00:07:08.790 
+
+00:07:08.790 --> 00:07:14.450 
+
+I'd<00:07:09.420> be<00:07:10.050> out<00:07:10.370> loading<00:07:11.370> new<00:07:11.900> videos<00:07:12.900> new<00:07:13.460> game
+
+00:07:14.450 --> 00:07:14.460 
+I'd be out loading new videos new game
+
+00:07:14.460 --> 00:07:19.640 
+I'd be out loading new videos new game
+maker<00:07:14.760> video<00:07:15.300> tutorials<00:07:16.020> so<00:07:16.460> see<00:07:17.460> you
+

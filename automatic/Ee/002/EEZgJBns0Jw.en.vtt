@@ -1,0 +1,550 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.470 --> 00:00:08.470
+ hello that such video tutorial number 5 of 
+
+00:00:05.380 --> 00:00:10.570
+ course windows server 2003 and we continue 
+
+00:00:08.470 --> 00:00:12.670
+ with a new video in which we see how 
+
+00:00:10.570 --> 00:00:15.400
+ install and configure the hcp service 
+
+00:00:12.670 --> 00:00:17.050
+ in our server well it's about 
+
+00:00:15.400 --> 00:00:19.779
+ Dynamic configuration protocol 
+
+00:00:17.050 --> 00:00:21.669
+ host a tcp / ip standard designed to 
+
+00:00:19.779 --> 00:00:23.259
+ simplify the administration of the 
+
+00:00:21.669 --> 00:00:24.670
+ ip configuration of the equipment 
+
+00:00:23.259 --> 00:00:27.610
+ our network 
+
+00:00:24.670 --> 00:00:30.040
+ hcp dynamically assigns directions 
+
+00:00:27.610 --> 00:00:32.230
+ ip for a time known as 
+
+00:00:30.040 --> 00:00:34.540
+ granting time to the stations of 
+
+00:00:32.230 --> 00:00:35.830
+ work distributing in addition others 
+
+00:00:34.540 --> 00:00:38.320
+ configuration parameters between 
+
+00:00:35.830 --> 00:00:41.300
+ authorized network clients such as 
+
+00:00:38.320 --> 00:00:42.800
+ the link port or the dns servers 
+
+00:00:41.300 --> 00:00:47.770
+ good to carry out the extraction 
+
+00:00:42.800 --> 00:00:50.590
+ of the hcp service we will use the start 
+
+00:00:47.770 --> 00:00:54.460
+ the control panel in add or remove 
+
+00:00:50.590 --> 00:00:55.570
+ programs within the window add or 
+
+00:00:54.460 --> 00:00:58.890
+ remove programs in add or remove 
+
+00:00:55.570 --> 00:00:58.890
+ windows components 
+
+00:00:59.120 --> 00:01:02.680
+ we will look for network services 
+
+00:01:03.230 --> 00:01:06.860
+ what are they 
+
+00:01:04.710 --> 00:01:10.670
+ we will select them 
+
+00:01:06.860 --> 00:01:12.410
+ we will click on details and here we will mark 
+
+00:01:10.670 --> 00:01:17.060
+ Dynamic configuration protocol 
+
+00:01:12.410 --> 00:01:20.280
+ host of hcp click on accept and then 
+
+00:01:17.060 --> 00:01:22.500
+ in next the installation will begin 
+
+00:01:20.280 --> 00:01:25.830
+ remember that it is necessary to have the 
+
+00:01:22.500 --> 00:01:28.470
+ windows or the installation disk of 
+
+00:01:25.830 --> 00:01:31.500
+ windows server 2003 and once finished 
+
+00:01:28.470 --> 00:01:33.740
+ the installation then we are going to finish 
+
+00:01:31.500 --> 00:01:37.220
+ and we will have installed the hcp 
+
+00:01:33.740 --> 00:01:39.920
+ we closed the seats of this window 
+
+00:01:37.220 --> 00:01:42.350
+ and now we will click on start in 
+
+00:01:39.920 --> 00:01:44.360
+ administrative tools and we will do 
+
+00:01:42.350 --> 00:01:47.200
+ click on hcp to start configuring 
+
+00:01:44.360 --> 00:01:47.200
+ the hcp 
+
+00:01:47.860 --> 00:01:52.450
+ we will begin by defining new areas 
+
+00:01:49.990 --> 00:01:55.720
+ for this we have to click on 
+
+00:01:52.450 --> 00:01:58.120
+ our server and we will click with the 
+
+00:01:55.720 --> 00:02:00.690
+ right mouse button over it and 
+
+00:01:58.120 --> 00:02:02.580
+ click on the new field 
+
+00:02:00.690 --> 00:02:05.820
+ we are shown a creation assistant 
+
+00:02:02.580 --> 00:02:07.380
+ of a new field whose first window 
+
+00:02:05.820 --> 00:02:09.450
+ then we simply click on next 
+
+00:02:07.380 --> 00:02:11.790
+ in the next window of the assistant 
+
+00:02:09.450 --> 00:02:14.670
+ we must indicate the name that we associate 
+
+00:02:11.790 --> 00:02:17.290
+ to the new field 
+
+00:02:14.670 --> 00:02:21.719
+ in this case 
+
+00:02:17.290 --> 00:02:21.719
+ I call my field oliver informatics 
+
+00:02:23.350 --> 00:02:29.470
+ and a description 
+
+00:02:25.390 --> 00:02:31.450
+ For example, an area that will provide services 
+
+00:02:29.470 --> 00:02:33.710
+ hcp 
+
+00:02:31.450 --> 00:02:37.760
+ to the entire network 
+
+00:02:33.710 --> 00:02:39.740
+ of oliver computer point is we press 
+
+00:02:37.760 --> 00:02:41.930
+ the next 
+
+00:02:39.740 --> 00:02:43.610
+ then we must indicate the range 
+
+00:02:41.930 --> 00:02:45.660
+ of ip addresses that will serve 
+
+00:02:43.610 --> 00:02:48.600
+ our server dhcp 
+
+00:02:45.660 --> 00:02:50.550
+ in our case we will indicate that the 
+
+00:02:48.600 --> 00:02:53.650
+ next sipe to be seen in the range 
+
+00:02:50.550 --> 00:02:58.040
+ ranging from 192 
+
+00:02:53.650 --> 00:03:05.480
+ 168 150 
+
+00:02:58.040 --> 00:03:08.150
+ at 192 168 1 200 so that it would be of 
+
+00:03:05.480 --> 00:03:09.760
+ hcp can assign 150 ip addresses to 
+
+00:03:08.150 --> 00:03:13.930
+ the clients 
+
+00:03:09.760 --> 00:03:16.709
+ and we reserve from 1 to 49 for 
+
+00:03:13.930 --> 00:03:19.450
+ the router address of our house 
+
+00:03:16.709 --> 00:03:22.420
+ as well as the other equipment that 
+
+00:03:19.450 --> 00:03:24.880
+ connect to our network 
+
+00:03:22.420 --> 00:03:27.849
+ we also saved him from 201 to 
+
+00:03:24.880 --> 00:03:29.830
+ the 254 to any other element 
+
+00:03:27.849 --> 00:03:32.410
+ susceptible to having ip addresses 
+
+00:03:29.830 --> 00:03:36.160
+ static as our own server 
+
+00:03:32.410 --> 00:03:37.510
+ that has the 220 as well as can also 
+
+00:03:36.160 --> 00:03:41.080
+ be acr access point printer 
+
+00:03:37.510 --> 00:03:42.610
+ wireless etcetera well also say 
+
+00:03:41.080 --> 00:03:49.430
+ that the mask is about we will use 
+
+00:03:42.610 --> 00:03:52.290
+ will be of length 24 or 255 155 255 0 
+
+00:03:49.430 --> 00:03:55.849
+ we press the following 
+
+00:03:52.290 --> 00:03:59.480
+ and in the next window it appears 
+
+00:03:55.849 --> 00:03:59.480
+ add exclusions 
+
+00:03:59.620 --> 00:04:03.599
+ in our case, not 
+
+00:04:01.650 --> 00:04:06.540
+ we will not add exclusions so 
+
+00:04:03.599 --> 00:04:08.400
+ we know directly the following 
+
+00:04:06.540 --> 00:04:10.200
+ and here we must specify the duration 
+
+00:04:08.400 --> 00:04:13.109
+ of the granting of addresses to 
+
+00:04:10.200 --> 00:04:14.969
+ client teams we will leave our case 
+
+00:04:13.109 --> 00:04:16.949
+ which it is a default option 
+
+00:04:14.969 --> 00:04:18.900
+ eight-day assistants we are in 
+
+00:04:16.949 --> 00:04:21.810
+ following 
+
+00:04:18.900 --> 00:04:23.960
+ our window we will select the 
+
+00:04:21.810 --> 00:04:27.419
+ option sets these options now 
+
+00:04:23.960 --> 00:04:31.080
+ we press the next one and here then 
+
+00:04:27.419 --> 00:04:33.030
+ we must indicate the address 
+
+00:04:31.080 --> 00:04:35.819
+ the router the door of the cee 
+
+00:04:33.030 --> 00:04:38.099
+ default a paramount parameter 
+
+00:04:35.819 --> 00:04:40.379
+ that should be served through this cp to the 
+
+00:04:38.099 --> 00:04:43.169
+ client teams and in this case 
+
+00:04:40.379 --> 00:04:44.039
+ we will indicate in the address of the router 
+
+00:04:43.169 --> 00:04:49.379
+ of the network 
+
+00:04:44.039 --> 00:04:51.060
+ in my case 192 168 11 
+
+00:04:49.379 --> 00:04:53.150
+ click on add 
+
+00:04:51.060 --> 00:04:55.250
+ and then the next 
+
+00:04:53.150 --> 00:04:57.810
+ comes now let's configure Mr. dns 
+
+00:04:55.250 --> 00:05:00.800
+ which will be associated with our customers 
+
+00:04:57.810 --> 00:05:03.540
+ we will specify as domain name 
+
+00:05:00.800 --> 00:05:06.870
+ of the primary domain that manages 
+
+00:05:03.540 --> 00:05:10.500
+ our server team in this case or 
+
+00:05:06.870 --> 00:05:13.650
+ computer level point is already 
+
+00:05:10.500 --> 00:05:14.970
+ then we write the name of 
+
+00:05:13.650 --> 00:05:17.580
+ our servers that is the box 
+
+00:05:14.970 --> 00:05:20.220
+ server name or free server 
+
+00:05:17.580 --> 00:05:22.410
+ the name of my team and we will click on 
+
+00:05:20.220 --> 00:05:23.550
+ solve and we will appear here in 
+
+00:05:22.410 --> 00:05:26.120
+ address expected from the next of 
+
+00:05:23.550 --> 00:05:30.330
+ our server we know how to add 
+
+00:05:26.120 --> 00:05:32.220
+ and the next without center allows us 
+
+00:05:30.330 --> 00:05:34.590
+ define the ip address of our 
+
+00:05:32.220 --> 00:05:36.169
+ server wins true that in our case 
+
+00:05:34.590 --> 00:05:38.639
+ we are not going to use any we will press 
+
+00:05:36.169 --> 00:05:41.009
+ directly the next 
+
+00:05:38.639 --> 00:05:43.800
+ and finally he asks us if we want 
+
+00:05:41.009 --> 00:05:45.569
+ activate this scope now of course 
+
+00:05:43.800 --> 00:05:47.400
+ we'll give it to that if we want to activate 
+
+00:05:45.569 --> 00:05:48.840
+ this area will now click on 
+
+00:05:47.400 --> 00:05:51.300
+ next and finally finally 
+
+00:05:48.840 --> 00:05:52.780
+ we will press finish to conclude this 
+
+00:05:51.300 --> 00:05:55.660
+ assistant 
+
+00:05:52.780 --> 00:05:57.040
+ so that the service remains hcp 
+
+00:05:55.660 --> 00:05:59.530
+ finally operative should be 
+
+00:05:57.040 --> 00:06:01.120
+ used by the active directory for 
+
+00:05:59.530 --> 00:06:02.430
+ serve s &amp; p address to customers of the 
+
+00:06:01.120 --> 00:06:05.010
+ domain 
+
+00:06:02.430 --> 00:06:06.570
+ and then we will have to press again 
+
+00:06:05.010 --> 00:06:09.420
+ on our server with the button 
+
+00:06:06.570 --> 00:06:12.240
+ right mouse and click on 
+
+00:06:09.420 --> 00:06:15.510
+ authorize well done this if we press 
+
+00:06:12.240 --> 00:06:17.670
+ now f5 to refresh the window we see 
+
+00:06:15.510 --> 00:06:19.500
+ like the arrow that is the red arrow 
+
+00:06:17.670 --> 00:06:21.570
+ that was pointing down now 
+
+00:06:19.500 --> 00:06:24.930
+ it is green and points upwards with 
+
+00:06:21.570 --> 00:06:27.540
+ this we will have our our 
+
+00:06:24.930 --> 00:06:31.370
+ dhcp server serving ip addresses 
+
+00:06:27.540 --> 00:06:33.720
+ in the field that we have set up good 
+
+00:06:31.370 --> 00:06:35.610
+ we will mention that it is an interesting 
+
+00:06:33.720 --> 00:06:38.640
+ option that we can configure in the 
+
+00:06:35.610 --> 00:06:40.620
+ dhcp server although we at the moment 
+
+00:06:38.640 --> 00:06:42.600
+ We will not use in the reservation of 
+
+00:06:40.620 --> 00:06:44.550
+ directions that allows us to the 
+
+00:06:42.600 --> 00:06:46.260
+ dhcp server always grant the same 
+
+00:06:44.550 --> 00:06:49.350
+ ip address to the clients we want 
+
+00:06:46.260 --> 00:06:52.830
+ to configure this this option we must 
+
+00:06:49.350 --> 00:06:56.640
+ place over reserve and click with the 
+
+00:06:52.830 --> 00:06:59.550
+ right button and on new reservation here 
+
+00:06:56.640 --> 00:07:01.530
+ we must indicate a reservation name 
+
+00:06:59.550 --> 00:07:03.139
+ the name is usually used 
+
+00:07:01.530 --> 00:07:05.270
+ of the team 
+
+00:07:03.139 --> 00:07:08.930
+ the ip address we want to say nothing 
+
+00:07:05.270 --> 00:07:10.580
+ to that team and the mac address of the 
+
+00:07:08.930 --> 00:07:12.259
+ computer network card so that 
+
+00:07:10.580 --> 00:07:13.969
+ this ip address will never be served to 
+
+00:07:12.259 --> 00:07:15.349
+ another team that is not the one with the 
+
+00:07:13.969 --> 00:07:18.199
+ network card that mac directions 
+
+00:07:15.349 --> 00:07:20.779
+ that we have indicated here we have of 
+
+00:07:18.199 --> 00:07:24.020
+ moment we are not going to make any 
+
+00:07:20.779 --> 00:07:25.759
+ reserve close this window 
+
+00:07:24.020 --> 00:07:27.919
+ indicate also that when our 
+
+00:07:25.759 --> 00:07:29.509
+ dhcp server begins to serve 
+
+00:07:27.919 --> 00:07:31.910
+ ip addresses to our customers 
+
+00:07:29.509 --> 00:07:34.280
+ network in the concessions folder of 
+
+00:07:31.910 --> 00:07:36.409
+ addresses for each ip address 
+
+00:07:34.280 --> 00:07:38.840
+ granted will be shown an entry with 
+
+00:07:36.409 --> 00:07:40.909
+ the address given to the team that has 
+
+00:07:38.840 --> 00:07:43.639
+ been served the expiration date of the 
+
+00:07:40.909 --> 00:07:45.379
+ of the good concession with this 
+
+00:07:43.639 --> 00:07:47.389
+ we conclude today's video spoke to them 
+
+00:07:45.379 --> 00:07:49.569
+ raúl de sol and computer sails up 
+
+00:07:47.389 --> 00:07:49.569
+ then 
+

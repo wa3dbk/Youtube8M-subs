@@ -1,0 +1,190 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.350 --> 00:00:04.350
+Hi there!
+
+00:00:04.350 --> 00:00:07.350
+Welcome to the first video of the OpenCV Moments
+channel.
+
+00:00:07.350 --> 00:00:12.549
+In this video you will learn how to install
+OpenCV 3 on a Windows 8 machine, the easy
+
+00:00:12.549 --> 00:00:13.549
+way.
+
+00:00:13.549 --> 00:00:17.230
+It is really simple, there is only 3 steps.
+
+00:00:17.230 --> 00:00:18.230
+1.
+
+00:00:18.230 --> 00:00:20.960
+Download the precompiled version for windows
+from www.opencv.org
+
+00:00:20.960 --> 00:00:21.960
+2.
+
+00:00:21.960 --> 00:00:27.780
+Extract the downloaded file into your favourite
+folder.
+
+00:00:27.780 --> 00:00:28.790
+3.
+
+00:00:28.790 --> 00:00:31.699
+Set a couple of system environment variables.
+
+00:00:31.699 --> 00:00:34.640
+So, let’s proceed.
+
+00:00:34.640 --> 00:00:39.149
+Open your browser and point it to www.opencv.org.
+
+00:00:39.149 --> 00:00:42.659
+You will notice the download link on the top
+right side of the page.
+
+00:00:42.659 --> 00:00:45.110
+It reads “OpenCV for Windows”.
+
+00:00:45.110 --> 00:00:50.090
+That will take you to the download page where
+you will select the version to download.
+
+00:00:50.090 --> 00:00:52.429
+Click on it and wait for the download to complete.
+
+00:00:52.429 --> 00:00:57.149
+Next, you need to extract the file that you
+just downloaded into a folder of your choice.
+
+00:00:57.149 --> 00:01:02.010
+Let’s say… you are going to extract it
+into the root folder of the C hard drive.
+
+00:01:02.010 --> 00:01:06.120
+Remember, this is just an example, you can
+use any other folder.
+
+00:01:06.120 --> 00:01:07.939
+That’s it.
+
+00:01:07.939 --> 00:01:11.700
+Now the only tricky part is setting the environment
+variables.
+
+00:01:11.700 --> 00:01:15.890
+These variables tell the system where to look
+for OpenCV library-related stuff.
+
+00:01:15.890 --> 00:01:22.969
+You are going to define an environment variable
+called OPENCV_DIR with the following structure:
+
+00:01:22.969 --> 00:01:30.149
+“path to the library, slash build, slash
+architecture, slash visual c version”
+
+00:01:30.149 --> 00:01:34.009
+where “path to the library” will be the
+path to the folder where you extracted the
+
+00:01:34.009 --> 00:01:42.049
+library, “architecture” will be x64 or
+x86 depending on wether your system is 64
+
+00:01:42.049 --> 00:01:50.329
+or 32 bits, and visual c version will be vc10,
+vc11 or vc12 depending on which version of
+
+00:01:50.329 --> 00:01:53.140
+visual c you will use for development.
+
+00:01:53.140 --> 00:01:58.630
+If you extracted the library on the root folder
+of your C drive and you use the latest visual
+
+00:01:58.630 --> 00:02:04.859
+c on a 32 bit machine then the content of
+the OPENCV_DIR environment variable will be
+
+00:02:04.859 --> 00:02:09.119
+as shown on the screen.
+
+00:02:09.119 --> 00:02:14.260
+Then, you need to update the PATH environment
+variable with the following value.
+
+00:02:14.260 --> 00:02:20.580
+This will allow your system to locate the
+OpenCV Dynamic-link libraries, or DLL, that
+
+00:02:20.580 --> 00:02:25.230
+your opencv programs will need at run time.
+
+00:02:25.230 --> 00:02:26.840
+Lets go for it.
+
+00:02:26.840 --> 00:02:34.300
+Open your system properties, access “Advanced
+System Settings” and click the button “Environment
+
+00:02:34.300 --> 00:02:36.160
+Variables”.
+
+00:02:36.160 --> 00:02:41.340
+Under “System Variables” click the button
+“New” and set a variable with name OPENCV_DIR
+
+00:02:41.340 --> 00:02:45.500
+and a value according to the previous explanation.
+
+00:02:45.500 --> 00:02:53.730
+In the case of this machine it will be c,
+opencv, build, x86, vc12.
+
+00:02:53.730 --> 00:02:55.340
+Click OK
+
+00:02:55.340 --> 00:03:03.000
+Now find the “path” variable under system
+variables, select it and click the edit button.
+
+00:03:03.000 --> 00:03:10.040
+Set the cursor at the end of the “Variable
+Value” field and add %OPENCV_DIR%\bin.
+
+00:03:10.040 --> 00:03:15.990
+Click OK to save the changes, close the environment
+variables dialog by clicking the OK button
+
+00:03:15.990 --> 00:03:19.800
+and close the advance system settings dialog
+clicking OK.
+
+00:03:19.800 --> 00:03:22.090
+And that’s it!
+
+00:03:22.090 --> 00:03:26.070
+OpenCV is installed in your system!!
+
+00:03:26.070 --> 00:03:29.260
+Now you know how to install OpenCV 3 in Windows
+8.
+
+00:03:29.260 --> 00:03:34.840
+For an explanation on how to create your first
+project using Visual Studio, check out the
+
+00:03:34.840 --> 00:03:38.730
+next video and don’t forget to subscribe
+and share if you want more OpenCV moments.
+
+00:03:38.730 --> 00:03:39.099
+Thank you!
+
