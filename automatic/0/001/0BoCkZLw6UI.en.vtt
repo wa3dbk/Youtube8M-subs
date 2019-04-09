@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.180 --> 00:00:03.820 
+
+hi<00:00:02.180> folks<00:00:02.420> welcome<00:00:02.750> back<00:00:03.229> to<00:00:03.409> our<00:00:03.530> next
+
+00:00:03.820 --> 00:00:03.830 
+hi folks welcome back to our next
+
+00:00:03.830 --> 00:00:05.770 
+hi folks welcome back to our next
+tutorial<00:00:03.919> and<00:00:04.580> today<00:00:04.850> we<00:00:05.180> are<00:00:05.210> going<00:00:05.420> to<00:00:05.510> talk
+
+00:00:05.770 --> 00:00:05.780 
+tutorial and today we are going to talk
+
+00:00:05.780 --> 00:00:08.490 
+tutorial and today we are going to talk
+about<00:00:06.080> soft<00:00:06.650> states<00:00:07.010> and<00:00:07.400> nested<00:00:07.880> animations
+
+00:00:08.490 --> 00:00:08.500 
+about soft states and nested animations
+
+00:00:08.500 --> 00:00:11.800 
+about soft states and nested animations
+the<00:00:09.500> states<00:00:09.830> we<00:00:10.040> now<00:00:10.190> used<00:00:10.550> our<00:00:10.850> heart<00:00:11.300> States
+
+00:00:11.800 --> 00:00:11.810 
+the states we now used our heart States
+
+00:00:11.810 --> 00:00:14.650 
+the states we now used our heart States
+but<00:00:12.740> we<00:00:12.920> also<00:00:13.070> have<00:00:13.250> soft<00:00:13.790> states<00:00:14.210> which<00:00:14.510> I
+
+00:00:14.650 --> 00:00:14.660 
+but we also have soft states which I
+
+00:00:14.660 --> 00:00:17.439 
+but we also have soft states which I
+want<00:00:14.870> to<00:00:14.960> show<00:00:15.140> you<00:00:15.200> now<00:00:15.889> for<00:00:16.670> example<00:00:17.210> if<00:00:17.329> I
+
+00:00:17.439 --> 00:00:17.449 
+want to show you now for example if I
+
+00:00:17.449 --> 00:00:19.630 
+want to show you now for example if I
+have<00:00:17.480> the<00:00:17.779> scenario<00:00:18.349> that<00:00:18.650> i<00:00:18.710> want<00:00:19.009> this<00:00:19.159> cube
+
+00:00:19.630 --> 00:00:19.640 
+have the scenario that i want this cube
+
+00:00:19.640 --> 00:00:23.169 
+have the scenario that i want this cube
+to<00:00:20.239> come<00:00:20.480> in<00:00:20.749> from<00:00:21.199> the<00:00:21.230> left<00:00:21.529> for<00:00:21.859> example<00:00:22.400> go
+
+00:00:23.169 --> 00:00:23.179 
+to come in from the left for example go
+
+00:00:23.179 --> 00:00:26.829 
+to come in from the left for example go
+out<00:00:23.449> to<00:00:23.689> the<00:00:23.839> right<00:00:24.050> and<00:00:24.409> then<00:00:25.189> come<00:00:25.880> back<00:00:26.150> in
+
+00:00:26.829 --> 00:00:26.839 
+out to the right and then come back in
+
+00:00:26.839 --> 00:00:30.759 
+out to the right and then come back in
+from<00:00:27.230> left<00:00:27.529> i<00:00:28.509> would<00:00:29.509> do<00:00:29.659> this<00:00:29.839> like<00:00:30.199> this<00:00:30.439> i
+
+00:00:30.759 --> 00:00:30.769 
+from left i would do this like this i
+
+00:00:30.769 --> 00:00:34.479 
+from left i would do this like this i
+have<00:00:31.159> a<00:00:31.429> heart<00:00:31.759> state<00:00:32.119> which<00:00:32.509> is<00:00:32.540> in<00:00:32.960> and<00:00:33.489> then
+
+00:00:34.479 --> 00:00:34.489 
+have a heart state which is in and then
+
+00:00:34.489 --> 00:00:39.069 
+have a heart state which is in and then
+I<00:00:34.609> do<00:00:34.670> the<00:00:34.940> soft<00:00:35.300> state<00:00:35.690> which<00:00:36.379> is<00:00:36.430> out<00:00:38.079> so
+
+00:00:39.069 --> 00:00:39.079 
+I do the soft state which is out so
+
+00:00:39.079 --> 00:00:41.979 
+I do the soft state which is out so
+we're<00:00:39.500> now<00:00:39.649> going<00:00:39.859> to<00:00:39.980> do<00:00:40.219> is<00:00:40.460> odd<00:00:40.699> is<00:00:41.359> over
+
+00:00:41.979 --> 00:00:41.989 
+we're now going to do is odd is over
+
+00:00:41.989 --> 00:00:47.950 
+we're now going to do is odd is over
+here<00:00:42.379> and<00:00:43.390> in<00:00:44.390> is<00:00:45.109> over<00:00:46.039> there<00:00:46.539> so<00:00:47.539> we<00:00:47.570> make<00:00:47.929> a
+
+00:00:47.950 --> 00:00:47.960 
+here and in is over there so we make a
+
+00:00:47.960 --> 00:00:50.619 
+here and in is over there so we make a
+connection<00:00:48.379> between<00:00:48.620> this<00:00:49.190> but<00:00:50.179> we<00:00:50.300> want<00:00:50.480> this
+
+00:00:50.619 --> 00:00:50.629 
+connection between this but we want this
+
+00:00:50.629 --> 00:00:55.389 
+connection between this but we want this
+to<00:00:50.690> go<00:00:51.100> out<00:00:52.100> to<00:00:52.460> the<00:00:52.609> other<00:00:52.730> direction<00:00:54.370> so<00:00:55.370> we
+
+00:00:55.389 --> 00:00:55.399 
+to go out to the other direction so we
+
+00:00:55.399 --> 00:00:59.079 
+to go out to the other direction so we
+do<00:00:55.730> like<00:00:56.449> this<00:00:56.780> so<00:00:57.410> now<00:00:57.620> you<00:00:57.679> see<00:00:58.070> we<00:00:58.190> have<00:00:58.339> two
+
+00:00:59.079 --> 00:00:59.089 
+do like this so now you see we have two
+
+00:00:59.089 --> 00:01:02.380 
+do like this so now you see we have two
+animations<00:00:59.539> between<00:01:00.260> in<00:01:00.469> and<00:01:00.739> out<00:01:01.390> the
+
+00:01:02.380 --> 00:01:02.390 
+animations between in and out the
+
+00:01:02.390 --> 00:01:05.710 
+animations between in and out the
+difference<00:01:02.809> on<00:01:03.140> this<00:01:03.620> soft<00:01:03.920> state<00:01:04.250> is<00:01:04.460> i<00:01:04.730> can
+
+00:01:05.710 --> 00:01:05.720 
+difference on this soft state is i can
+
+00:01:05.720 --> 00:01:09.910 
+difference on this soft state is i can
+define<00:01:05.870> this<00:01:06.350> out<00:01:06.590> value<00:01:07.750> different<00:01:08.920> inside
+
+00:01:09.910 --> 00:01:09.920 
+define this out value different inside
+
+00:01:09.920 --> 00:01:13.510 
+define this out value different inside
+this<00:01:10.100> animation<00:01:10.550> like<00:01:11.510> here<00:01:12.170> i<00:01:12.200> can<00:01:12.530> say<00:01:12.860> i<00:01:13.130> put
+
+00:01:13.510 --> 00:01:13.520 
+this animation like here i can say i put
+
+00:01:13.520 --> 00:01:16.900 
+this animation like here i can say i put
+a<00:01:13.580> keyframe<00:01:14.000> here<00:01:14.120> and<00:01:14.600> this<00:01:15.500> is<00:01:15.560> left<00:01:16.070> and
+
+00:01:16.900 --> 00:01:16.910 
+a keyframe here and this is left and
+
+00:01:16.910 --> 00:01:20.590 
+a keyframe here and this is left and
+then<00:01:18.130> this<00:01:19.130> side<00:01:19.430> of<00:01:19.610> the<00:01:19.730> animation<00:01:20.300> which
+
+00:01:20.590 --> 00:01:20.600 
+then this side of the animation which
+
+00:01:20.600 --> 00:01:25.780 
+then this side of the animation which
+will<00:01:20.900> be<00:01:21.110> this<00:01:21.740> one<00:01:22.040> I<00:01:24.280> set<00:01:25.280> another<00:01:25.490> keyframe
+
+00:01:25.780 --> 00:01:25.790 
+will be this one I set another keyframe
+
+00:01:25.790 --> 00:01:30.790 
+will be this one I set another keyframe
+and<00:01:26.330> say<00:01:26.600> this<00:01:27.530> is<00:01:27.790> over<00:01:28.790> here<00:01:29.350> so<00:01:30.350> now<00:01:30.500> you<00:01:30.560> can
+
+00:01:30.790 --> 00:01:30.800 
+and say this is over here so now you can
+
+00:01:30.800 --> 00:01:34.360 
+and say this is over here so now you can
+see<00:01:31.040> it<00:01:31.940> goes<00:01:32.210> in<00:01:32.570> here<00:01:33.080> and<00:01:33.260> goes<00:01:33.650> out<00:01:33.860> there
+
+00:01:34.360 --> 00:01:34.370 
+see it goes in here and goes out there
+
+00:01:34.370 --> 00:01:38.560 
+see it goes in here and goes out there
+and<00:01:34.810> I<00:01:35.810> can<00:01:36.110> also<00:01:36.200> add<00:01:36.590> custom<00:01:36.890> models<00:01:37.570> like
+
+00:01:38.560 --> 00:01:38.570 
+and I can also add custom models like
+
+00:01:38.570 --> 00:01:41.730 
+and I can also add custom models like
+for<00:01:39.110> example<00:01:39.200> if<00:01:39.650> i<00:01:39.830> add<00:01:39.980> custom<00:01:40.250> model<00:01:40.730> here
+
+00:01:41.730 --> 00:01:41.740 
+for example if i add custom model here
+
+00:01:41.740 --> 00:01:50.680 
+for example if i add custom model here
+in<00:01:43.810> and<00:01:44.810> out<00:01:47.380> and<00:01:48.380> I<00:01:48.770> say<00:01:49.100> you<00:01:49.160> go<00:01:49.340> in<00:01:49.970> from<00:01:50.660> here
+
+00:01:50.680 --> 00:01:50.690 
+in and out and I say you go in from here
+
+00:01:50.690 --> 00:02:00.430 
+in and out and I say you go in from here
+and<00:01:51.440> out<00:01:51.980> from<00:01:52.700> there<00:01:53.770> out<00:01:54.790> in<00:01:55.790> out<00:01:56.890> in
+
+00:02:00.430 --> 00:02:00.440 
+
+00:02:00.440 --> 00:02:03.890 
+
+that's<00:02:01.440> already<00:02:01.890> it<00:02:02.190> as<00:02:02.400> you<00:02:03.300> can<00:02:03.480> see<00:02:03.690> there
+
+00:02:03.890 --> 00:02:03.900 
+that's already it as you can see there
+
+00:02:03.900 --> 00:02:05.960 
+that's already it as you can see there
+are<00:02:03.930> still<00:02:04.260> those<00:02:04.410> previous<00:02:05.010> methods<00:02:05.520> on<00:02:05.760> this
+
+00:02:05.960 --> 00:02:05.970 
+are still those previous methods on this
+
+00:02:05.970 --> 00:02:07.880 
+are still those previous methods on this
+points<00:02:06.480> they<00:02:06.960> don't<00:02:07.200> disturb<00:02:07.500> this<00:02:07.650> right
+
+00:02:07.880 --> 00:02:07.890 
+points they don't disturb this right
+
+00:02:07.890 --> 00:02:09.380 
+points they don't disturb this right
+here<00:02:08.190> but<00:02:08.369> let's<00:02:08.550> say<00:02:08.729> we<00:02:08.880> wanted<00:02:09.090> to<00:02:09.150> lead
+
+00:02:09.380 --> 00:02:09.390 
+here but let's say we wanted to lead
+
+00:02:09.390 --> 00:02:11.720 
+here but let's say we wanted to lead
+them<00:02:09.660> you<00:02:10.290> do<00:02:10.440> this<00:02:10.590> by<00:02:10.650> clicking<00:02:10.920> on<00:02:11.580> the
+
+00:02:11.720 --> 00:02:11.730 
+them you do this by clicking on the
+
+00:02:11.730 --> 00:02:13.640 
+them you do this by clicking on the
+connection<00:02:12.150> not<00:02:12.720> on<00:02:12.870> the<00:02:12.960> state<00:02:13.230> on<00:02:13.590> the
+
+00:02:13.640 --> 00:02:13.650 
+connection not on the state on the
+
+00:02:13.650 --> 00:02:16.930 
+connection not on the state on the
+connection<00:02:14.310> and<00:02:14.630> you<00:02:15.630> go<00:02:15.780> over<00:02:15.930> here<00:02:16.110> to<00:02:16.470> end
+
+00:02:16.930 --> 00:02:16.940 
+connection and you go over here to end
+
+00:02:16.940 --> 00:02:22.100 
+connection and you go over here to end
+on<00:02:17.940> previous<00:02:18.750> if<00:02:18.960> idle<00:02:19.530> on<00:02:19.740> in<00:02:20.450> so<00:02:21.450> you<00:02:21.840> can
+
+00:02:22.100 --> 00:02:22.110 
+on previous if idle on in so you can
+
+00:02:22.110 --> 00:02:25.610 
+on previous if idle on in so you can
+just<00:02:22.350> reset<00:02:23.040> this<00:02:23.310> one<00:02:23.610> and<00:02:23.910> you'll<00:02:24.060> see<00:02:24.620> the
+
+00:02:25.610 --> 00:02:25.620 
+just reset this one and you'll see the
+
+00:02:25.620 --> 00:02:30.430 
+just reset this one and you'll see the
+method<00:02:25.800> is<00:02:26.070> gone<00:02:26.340> we<00:02:26.550> can<00:02:26.610> do<00:02:26.910> the<00:02:27.030> same<00:02:27.300> here
+
+00:02:30.430 --> 00:02:30.440 
+
+00:02:30.440 --> 00:02:34.960 
+
+and<00:02:31.440> it<00:02:31.590> goes<00:02:31.620> like<00:02:32.130> this<00:02:33.050> functionality<00:02:34.050> is
+
+00:02:34.960 --> 00:02:34.970 
+and it goes like this functionality is
+
+00:02:34.970 --> 00:02:41.240 
+and it goes like this functionality is
+still<00:02:35.970> there<00:02:36.360> of<00:02:36.660> course<00:02:39.530> also<00:02:40.530> i<00:02:40.770> already
+
+00:02:41.240 --> 00:02:41.250 
+still there of course also i already
+
+00:02:41.250 --> 00:02:43.790 
+still there of course also i already
+showed<00:02:41.520> you<00:02:41.580> how<00:02:41.970> to<00:02:42.080> delete<00:02:43.080> connections
+
+00:02:43.790 --> 00:02:43.800 
+showed you how to delete connections
+
+00:02:43.800 --> 00:02:49.790 
+showed you how to delete connections
+like<00:02:44.040> this<00:02:46.100> you<00:02:47.100> just<00:02:47.370> go<00:02:47.610> on<00:02:47.880> the<00:02:48.000> slides<00:02:48.900> in
+
+00:02:49.790 --> 00:02:49.800 
+like this you just go on the slides in
+
+00:02:49.800 --> 00:02:53.840 
+like this you just go on the slides in
+this<00:02:50.070> case<00:02:50.340> into<00:02:51.000> in<00:02:51.260> deletes<00:02:52.260> lies<00:02:52.560> and<00:02:53.010> it's
+
+00:02:53.840 --> 00:02:53.850 
+this case into in deletes lies and it's
+
+00:02:53.850 --> 00:02:57.650 
+this case into in deletes lies and it's
+gone<00:02:54.090> i<00:02:55.400> also<00:02:56.400> show<00:02:56.820> you<00:02:56.850> how<00:02:57.150> to<00:02:57.210> delete<00:02:57.600> a
+
+00:02:57.650 --> 00:02:57.660 
+gone i also show you how to delete a
+
+00:02:57.660 --> 00:03:00.680 
+gone i also show you how to delete a
+jump<00:02:58.020> state<00:02:58.410> let's<00:02:59.310> just<00:02:59.730> chill<00:03:00.030> to<00:03:00.240> do<00:03:00.450> one
+
+00:03:00.680 --> 00:03:00.690 
+jump state let's just chill to do one
+
+00:03:00.690 --> 00:03:07.729 
+jump state let's just chill to do one
+jump<00:03:03.800> so<00:03:04.800> i<00:03:05.220> want<00:03:05.820> to<00:03:05.880> put<00:03:06.330> this<00:03:06.450> on<00:03:06.660> in<00:03:06.870> now<00:03:07.680> we
+
+00:03:07.729 --> 00:03:07.739 
+jump so i want to put this on in now we
+
+00:03:07.739 --> 00:03:10.190 
+jump so i want to put this on in now we
+have<00:03:07.920> here<00:03:08.130> this<00:03:08.280> jump<00:03:08.610> state<00:03:09.060> and<00:03:09.390> you<00:03:09.959> can
+
+00:03:10.190 --> 00:03:10.200 
+have here this jump state and you can
+
+00:03:10.200 --> 00:03:12.470 
+have here this jump state and you can
+delete<00:03:10.440> this<00:03:10.680> state<00:03:10.980> for<00:03:11.300> resetting<00:03:12.300> this
+
+00:03:12.470 --> 00:03:12.480 
+delete this state for resetting this
+
+00:03:12.480 --> 00:03:16.400 
+delete this state for resetting this
+value<00:03:12.870> and<00:03:13.459> it's<00:03:14.459> gone<00:03:14.989> let's<00:03:15.989> talk<00:03:16.230> a<00:03:16.290> bit
+
+00:03:16.400 --> 00:03:16.410 
+value and it's gone let's talk a bit
+
+00:03:16.410 --> 00:03:19.970 
+value and it's gone let's talk a bit
+about<00:03:16.590> the<00:03:17.130> animation<00:03:17.970> rules<00:03:18.380> on<00:03:19.380> these
+
+00:03:19.970 --> 00:03:19.980 
+about the animation rules on these
+
+00:03:19.980 --> 00:03:22.810 
+about the animation rules on these
+connections<00:03:20.370> there<00:03:20.820> are<00:03:20.940> rules<00:03:21.239> this<00:03:22.230> means
+
+00:03:22.810 --> 00:03:22.820 
+connections there are rules this means
+
+00:03:22.820 --> 00:03:27.080 
+connections there are rules this means
+the<00:03:23.820> method<00:03:24.390> on<00:03:24.630> here<00:03:25.350> for<00:03:25.680> example<00:03:26.250> will<00:03:26.820> only
+
+00:03:27.080 --> 00:03:27.090 
+the method on here for example will only
+
+00:03:27.090 --> 00:03:31.160 
+the method on here for example will only
+be<00:03:27.840> fired<00:03:28.140> if<00:03:28.730> in<00:03:29.730> this<00:03:30.030> case<00:03:30.330> the<00:03:30.630> condition
+
+00:03:31.160 --> 00:03:31.170 
+be fired if in this case the condition
+
+00:03:31.170 --> 00:03:35.290 
+be fired if in this case the condition
+is<00:03:31.830> idle<00:03:32.400> which<00:03:32.640> means<00:03:32.940> one<00:03:33.870> state<00:03:34.260> is<00:03:34.560> reached
+
+00:03:35.290 --> 00:03:35.300 
+is idle which means one state is reached
+
+00:03:35.300 --> 00:03:38.990 
+is idle which means one state is reached
+it<00:03:36.300> won't<00:03:36.570> be<00:03:36.720> idle<00:03:37.110> in<00:03:37.320> for<00:03:38.310> example<00:03:38.820> this
+
+00:03:38.990 --> 00:03:39.000 
+it won't be idle in for example this
+
+00:03:39.000 --> 00:03:41.810 
+it won't be idle in for example this
+case<00:03:39.300> in<00:03:39.570> the<00:03:40.170> time<00:03:40.440> its<00:03:40.769> animating<00:03:41.580> this
+
+00:03:41.810 --> 00:03:41.820 
+case in the time its animating this
+
+00:03:41.820 --> 00:03:43.720 
+case in the time its animating this
+means<00:03:42.090> if<00:03:42.300> it's<00:03:42.600> going<00:03:42.840> in<00:03:43.080> and<00:03:43.200> I<00:03:43.260> press<00:03:43.470> out
+
+00:03:43.720 --> 00:03:43.730 
+means if it's going in and I press out
+
+00:03:43.730 --> 00:03:47.570 
+means if it's going in and I press out
+nothing<00:03:44.730> will<00:03:44.880> happen<00:03:46.130> because<00:03:47.130> it's<00:03:47.400> not
+
+00:03:47.570 --> 00:03:47.580 
+nothing will happen because it's not
+
+00:03:47.580 --> 00:03:52.850 
+nothing will happen because it's not
+idle<00:03:48.030> I<00:03:48.800> can<00:03:49.800> also<00:03:49.980> change<00:03:50.160> this<00:03:51.560> to<00:03:52.560> for
+
+00:03:52.850 --> 00:03:52.860 
+idle I can also change this to for
+
+00:03:52.860 --> 00:03:57.350 
+idle I can also change this to for
+example<00:03:52.950> always<00:03:53.760> now<00:03:54.209> you<00:03:54.269> can<00:03:54.540> see<00:03:56.030> if<00:03:57.030> I<00:03:57.180> go
+
+00:03:57.350 --> 00:03:57.360 
+example always now you can see if I go
+
+00:03:57.360 --> 00:04:01.640 
+example always now you can see if I go
+out<00:03:57.390> and<00:03:57.540> in<00:03:59.150> this<00:04:00.150> will<00:04:00.420> always<00:04:00.840> trigger<00:04:01.320> in
+
+00:04:01.640 --> 00:04:01.650 
+out and in this will always trigger in
+
+00:04:01.650 --> 00:04:05.449 
+out and in this will always trigger in
+no<00:04:02.370> matter<00:04:02.610> where<00:04:02.850> it<00:04:03.000> is<00:04:04.040> also<00:04:05.040> there<00:04:05.430> are
+
+00:04:05.449 --> 00:04:05.459 
+no matter where it is also there are
+
+00:04:05.459 --> 00:04:08.300 
+no matter where it is also there are
+conditions<00:04:05.850> like<00:04:06.300> never<00:04:06.660> targeted<00:04:07.170> or<00:04:07.650> idle<00:04:08.100> I
+
+00:04:08.300 --> 00:04:08.310 
+conditions like never targeted or idle I
+
+00:04:08.310 --> 00:04:10.130 
+conditions like never targeted or idle I
+just<00:04:08.910> recommend<00:04:09.390> to<00:04:09.540> try<00:04:09.780> them<00:04:09.960> out<00:04:10.080> and
+
+00:04:10.130 --> 00:04:10.140 
+just recommend to try them out and
+
+00:04:10.140 --> 00:04:14.210 
+just recommend to try them out and
+you're<00:04:10.620> pretty<00:04:11.100> fast<00:04:11.340> get<00:04:11.760> how<00:04:12.030> to<00:04:12.060> use<00:04:12.450> them
+
+00:04:14.210 --> 00:04:14.220 
+you're pretty fast get how to use them
+
+00:04:14.220 --> 00:04:16.650 
+you're pretty fast get how to use them
+next<00:04:15.220> I<00:04:15.280> want<00:04:15.370> to<00:04:15.520> show<00:04:15.670> you<00:04:15.730> how<00:04:16.180> to<00:04:16.239> use<00:04:16.390> the
+
+00:04:16.650 --> 00:04:16.660 
+next I want to show you how to use the
+
+00:04:16.660 --> 00:04:19.680 
+next I want to show you how to use the
+nested<00:04:17.230> animations<00:04:17.830> so<00:04:18.820> for<00:04:19.090> example<00:04:19.209> if<00:04:19.570> we
+
+00:04:19.680 --> 00:04:19.690 
+nested animations so for example if we
+
+00:04:19.690 --> 00:04:21.750 
+nested animations so for example if we
+go<00:04:19.870> back<00:04:20.050> to<00:04:20.110> this<00:04:20.709> part<00:04:21.430> of<00:04:21.489> the<00:04:21.640> tutorial
+
+00:04:21.750 --> 00:04:21.760 
+go back to this part of the tutorial
+
+00:04:21.760 --> 00:04:24.990 
+go back to this part of the tutorial
+when<00:04:22.510> we<00:04:22.660> have<00:04:23.100> the<00:04:24.100> animation<00:04:24.670> for<00:04:24.850> the
+
+00:04:24.990 --> 00:04:25.000 
+when we have the animation for the
+
+00:04:25.000 --> 00:04:27.450 
+when we have the animation for the
+different<00:04:25.330> corners<00:04:25.980> we<00:04:26.980> can<00:04:27.130> now<00:04:27.250> just
+
+00:04:27.450 --> 00:04:27.460 
+different corners we can now just
+
+00:04:27.460 --> 00:04:31.920 
+different corners we can now just
+duplicate<00:04:28.210> this<00:04:29.050> element<00:04:29.530> or<00:04:30.270> for<00:04:31.270> example<00:04:31.300> I
+
+00:04:31.920 --> 00:04:31.930 
+duplicate this element or for example I
+
+00:04:31.930 --> 00:04:35.190 
+duplicate this element or for example I
+merge<00:04:32.230> district<00:04:32.800> container<00:04:33.300> say<00:04:34.300> this<00:04:34.570> is<00:04:34.720> Q
+
+00:04:35.190 --> 00:04:35.200 
+merge district container say this is Q
+
+00:04:35.200 --> 00:04:42.000 
+merge district container say this is Q
+on<00:04:35.710> for<00:04:36.430> example<00:04:37.740> so<00:04:38.740> now<00:04:39.100> I<00:04:40.500> expose<00:04:41.500> the
+
+00:04:42.000 --> 00:04:42.010 
+on for example so now I expose the
+
+00:04:42.010 --> 00:04:46.220 
+on for example so now I expose the
+control<00:04:42.550> of<00:04:42.580> this<00:04:43.120> animation<00:04:43.660> which<00:04:44.200> is<00:04:44.410> here
+
+00:04:46.220 --> 00:04:46.230 
+control of this animation which is here
+
+00:04:46.230 --> 00:04:49.890 
+control of this animation which is here
+now<00:04:47.230> I<00:04:47.260> can<00:04:47.530> see<00:04:47.710> this<00:04:47.890> control<00:04:48.340> here<00:04:48.750> and<00:04:49.750> i
+
+00:04:49.890 --> 00:04:49.900 
+now I can see this control here and i
+
+00:04:49.900 --> 00:04:55.230 
+now I can see this control here and i
+right<00:04:50.230> drag<00:04:50.740> click<00:04:52.140> to<00:04:53.140> copy<00:04:54.010> it<00:04:54.340> into<00:04:54.610> four
+
+00:04:55.230 --> 00:04:55.240 
+right drag click to copy it into four
+
+00:04:55.240 --> 00:04:57.690 
+right drag click to copy it into four
+instances<00:04:55.690> now<00:04:56.230> I've<00:04:56.440> got<00:04:56.710> this<00:04:56.890> cube<00:04:57.220> five
+
+00:04:57.690 --> 00:04:57.700 
+instances now I've got this cube five
+
+00:04:57.700 --> 00:05:01.110 
+instances now I've got this cube five
+times<00:04:58.120> here<00:04:58.560> all<00:04:59.560> with<00:05:00.100> this<00:05:00.220> control<00:05:00.700> channel
+
+00:05:01.110 --> 00:05:01.120 
+times here all with this control channel
+
+00:05:01.120 --> 00:05:06.800 
+times here all with this control channel
+and<00:05:01.360> now<00:05:02.350> I<00:05:02.710> can<00:05:03.130> just<00:05:03.720> bind<00:05:04.720> this<00:05:05.560> control
+
+00:05:06.800 --> 00:05:06.810 
+and now I can just bind this control
+
+00:05:06.810 --> 00:05:17.660 
+and now I can just bind this control
+like<00:05:07.810> this<00:05:08.050> or<00:05:08.350> like<00:05:10.290> this<00:05:13.650> to<00:05:14.650> this<00:05:14.910> animation
+
+00:05:17.660 --> 00:05:17.670 
+like this or like this to this animation
+
+00:05:17.670 --> 00:05:20.550 
+like this or like this to this animation
+now<00:05:18.670> define<00:05:19.180> this<00:05:19.390> animation<00:05:19.810> to<00:05:20.110> have<00:05:20.260> for
+
+00:05:20.550 --> 00:05:20.560 
+now define this animation to have for
+
+00:05:20.560 --> 00:05:24.300 
+now define this animation to have for
+example<00:05:20.650> three<00:05:21.520> states<00:05:22.740> like<00:05:23.740> state<00:05:24.040> 1<00:05:24.280> state
+
+00:05:24.300 --> 00:05:24.310 
+example three states like state 1 state
+
+00:05:24.310 --> 00:05:27.710 
+example three states like state 1 state
+2<00:05:24.610> and<00:05:25.330> state<00:05:25.750> 3<00:05:26.050> i'll<00:05:26.260> leave<00:05:26.470> it<00:05:26.590> as<00:05:26.740> it<00:05:26.920> is<00:05:27.010> and
+
+00:05:27.710 --> 00:05:27.720 
+2 and state 3 i'll leave it as it is and
+
+00:05:27.720 --> 00:05:32.490 
+2 and state 3 i'll leave it as it is and
+i<00:05:28.720> see<00:05:29.290> now<00:05:30.190> the<00:05:30.250> controls<00:05:31.150> of<00:05:31.570> the<00:05:31.930> animations
+
+00:05:32.490 --> 00:05:32.500 
+i see now the controls of the animations
+
+00:05:32.500 --> 00:05:36.030 
+i see now the controls of the animations
+i<00:05:32.890> missed<00:05:33.640> it<00:05:33.790> into<00:05:34.120> this<00:05:34.300> animation<00:05:34.900> and<00:05:35.800> if<00:05:35.920> I
+
+00:05:36.030 --> 00:05:36.040 
+i missed it into this animation and if I
+
+00:05:36.040 --> 00:05:38.820 
+i missed it into this animation and if I
+now<00:05:36.250> click<00:05:36.610> here<00:05:37.120> with<00:05:37.690> a<00:05:37.720> right-click<00:05:38.050> for
+
+00:05:38.820 --> 00:05:38.830 
+now click here with a right-click for
+
+00:05:38.830 --> 00:05:43.170 
+now click here with a right-click for
+example<00:05:39.310> for<00:05:39.490> cube<00:05:39.850> 1<00:05:40.090> i<00:05:40.330> can<00:05:41.050> say<00:05:41.410> go<00:05:42.130> from<00:05:42.670> for
+
+00:05:43.170 --> 00:05:43.180 
+example for cube 1 i can say go from for
+
+00:05:43.180 --> 00:05:47.010 
+example for cube 1 i can say go from for
+example<00:05:43.810> button<00:05:44.620> right<00:05:44.890> to<00:05:45.610> middle<00:05:45.940> and<00:05:46.180> then
+
+00:05:47.010 --> 00:05:47.020 
+example button right to middle and then
+
+00:05:47.020 --> 00:05:50.430 
+example button right to middle and then
+from<00:05:47.560> for<00:05:48.310> example<00:05:48.390> middle<00:05:49.390> to<00:05:49.870> bottom<00:05:50.230> right
+
+00:05:50.430 --> 00:05:50.440 
+from for example middle to bottom right
+
+00:05:50.440 --> 00:05:53.370 
+from for example middle to bottom right
+and<00:05:50.680> i<00:05:51.460> can<00:05:51.700> tell<00:05:51.910> the<00:05:52.030> next<00:05:52.210> one<00:05:52.480> to<00:05:52.720> go<00:05:52.900> bottom
+
+00:05:53.370 --> 00:05:53.380 
+and i can tell the next one to go bottom
+
+00:05:53.380 --> 00:05:57.000 
+and i can tell the next one to go bottom
+left<00:05:53.620> to<00:05:53.710> middle<00:05:54.160> and<00:05:54.430> then<00:05:55.300> middle<00:05:55.900> to<00:05:56.530> top
+
+00:05:57.000 --> 00:05:57.010 
+left to middle and then middle to top
+
+00:05:57.010 --> 00:05:59.370 
+left to middle and then middle to top
+right<00:05:57.250> for<00:05:57.610> example<00:05:58.210> now<00:05:58.630> i<00:05:58.660> just<00:05:58.720> give<00:05:59.169> this
+
+00:05:59.370 --> 00:05:59.380 
+right for example now i just give this
+
+00:05:59.380 --> 00:06:02.490 
+right for example now i just give this
+random<00:06:00.100> values<00:06:00.460> now<00:06:00.750> what<00:06:01.750> you<00:06:01.870> have<00:06:02.020> to<00:06:02.200> look
+
+00:06:02.490 --> 00:06:02.500 
+random values now what you have to look
+
+00:06:02.500 --> 00:06:07.710 
+random values now what you have to look
+for<00:06:02.919> is<00:06:03.100> that<00:06:03.540> the<00:06:05.580> state<00:06:06.580> has<00:06:06.880> to<00:06:06.910> start<00:06:07.419> where
+
+00:06:07.710 --> 00:06:07.720 
+for is that the state has to start where
+
+00:06:07.720 --> 00:06:11.100 
+for is that the state has to start where
+the<00:06:07.810> last<00:06:08.020> one<00:06:08.320> ended<00:06:09.030> so<00:06:10.030> if<00:06:10.480> I<00:06:10.750> for<00:06:11.080> example
+
+00:06:11.100 --> 00:06:11.110 
+the last one ended so if I for example
+
+00:06:11.110 --> 00:06:14.940 
+the last one ended so if I for example
+say<00:06:11.860> I'm<00:06:12.100> going<00:06:12.370> from<00:06:12.790> let's<00:06:13.720> say<00:06:14.050> top<00:06:14.470> left<00:06:14.740> to
+
+00:06:14.940 --> 00:06:14.950 
+say I'm going from let's say top left to
+
+00:06:14.950 --> 00:06:18.930 
+say I'm going from let's say top left to
+bottom<00:06:14.980> left<00:06:15.669> and<00:06:16.090> then<00:06:16.630> go<00:06:17.020> I<00:06:17.610> would<00:06:18.610> have<00:06:18.790> to
+
+00:06:18.930 --> 00:06:18.940 
+bottom left and then go I would have to
+
+00:06:18.940 --> 00:06:20.909 
+bottom left and then go I would have to
+start<00:06:19.240> now<00:06:19.419> from<00:06:19.690> button<00:06:19.990> left<00:06:20.169> but<00:06:20.560> if<00:06:20.740> i<00:06:20.890> say
+
+00:06:20.909 --> 00:06:20.919 
+start now from button left but if i say
+
+00:06:20.919 --> 00:06:23.700 
+start now from button left but if i say
+i'm<00:06:21.160> starting<00:06:21.729> from<00:06:21.910> button<00:06:22.090> right<00:06:22.560> then<00:06:23.560> this
+
+00:06:23.700 --> 00:06:23.710 
+i'm starting from button right then this
+
+00:06:23.710 --> 00:06:25.810 
+i'm starting from button right then this
+will<00:06:23.860> change<00:06:24.190> this<00:06:24.640> part<00:06:24.940> of<00:06:25.060> the<00:06:25.150> innovation
+
+00:06:25.810 --> 00:06:25.820 
+will change this part of the innovation
+
+00:06:25.820 --> 00:06:27.880 
+will change this part of the innovation
+so<00:06:26.000> it<00:06:26.150> fits<00:06:26.450> so<00:06:26.720> you<00:06:27.020> don't<00:06:27.350> have<00:06:27.500> a<00:06:27.530> broken
+
+00:06:27.880 --> 00:06:27.890 
+so it fits so you don't have a broken
+
+00:06:27.890 --> 00:06:31.750 
+so it fits so you don't have a broken
+state<00:06:29.590> I'll<00:06:30.590> take<00:06:30.830> another<00:06:31.100> random<00:06:31.370> value
+
+00:06:31.750 --> 00:06:31.760 
+state I'll take another random value
+
+00:06:31.760 --> 00:06:34.960 
+state I'll take another random value
+here<00:06:32.150> let's<00:06:32.960> say<00:06:33.230> for<00:06:33.860> example<00:06:33.890> this<00:06:34.760> can
+
+00:06:34.960 --> 00:06:34.970 
+here let's say for example this can
+
+00:06:34.970 --> 00:06:38.950 
+here let's say for example this can
+stave<00:06:35.360> button<00:06:35.870> right<00:06:36.110> and<00:06:36.640> if<00:06:37.640> I<00:06:37.760> now<00:06:37.970> go<00:06:38.030> to
+
+00:06:38.950 --> 00:06:38.960 
+stave button right and if I now go to
+
+00:06:38.960 --> 00:06:44.400 
+stave button right and if I now go to
+begin<00:06:39.400> you<00:06:40.400> see<00:06:40.670> this<00:06:40.880> and<00:06:41.710> the<00:06:42.710> next<00:06:42.890> day<00:06:43.390> each
+
+00:06:44.400 --> 00:06:44.410 
+begin you see this and the next day each
+
+00:06:44.410 --> 00:06:47.410 
+begin you see this and the next day each
+cube<00:06:45.410> will<00:06:45.710> go<00:06:45.890> to<00:06:45.950> its<00:06:46.250> destination<00:06:46.550> where<00:06:47.390> I
+
+00:06:47.410 --> 00:06:47.420 
+cube will go to its destination where I
+
+00:06:47.420 --> 00:06:51.430 
+cube will go to its destination where I
+set<00:06:47.870> it<00:06:48.050> and<00:06:48.830> I<00:06:49.010> can<00:06:49.190> easily<00:06:49.820> change<00:06:50.720> this<00:06:51.050> here
+
+00:06:51.430 --> 00:06:51.440 
+set it and I can easily change this here
+
+00:06:51.440 --> 00:06:55.950 
+set it and I can easily change this here
+by<00:06:51.710> just<00:06:51.980> saying<00:06:52.460> for<00:06:52.940> example<00:06:53.180> cube<00:06:53.990> for<00:06:54.310> go
+
+00:06:55.950 --> 00:06:55.960 
+by just saying for example cube for go
+
+00:06:55.960 --> 00:06:58.240 
+by just saying for example cube for go
+elsewhere<00:06:56.960> this<00:06:57.470> saves<00:06:57.710> you<00:06:57.830> a<00:06:57.920> lot<00:06:57.950> of<00:06:58.130> time
+
+00:06:58.240 --> 00:06:58.250 
+elsewhere this saves you a lot of time
+
+00:06:58.250 --> 00:07:02.170 
+elsewhere this saves you a lot of time
+and<00:06:58.700> bigger<00:06:58.910> animations<00:07:00.700> also<00:07:01.700> i<00:07:01.730> can<00:07:01.820> now
+
+00:07:02.170 --> 00:07:02.180 
+and bigger animations also i can now
+
+00:07:02.180 --> 00:07:05.140 
+and bigger animations also i can now
+time<00:07:02.690> pull<00:07:03.380> the<00:07:03.590> events<00:07:04.040> to<00:07:04.190> each<00:07:04.340> others<00:07:04.790> like
+
+00:07:05.140 --> 00:07:05.150 
+time pull the events to each others like
+
+00:07:05.150 --> 00:07:08.950 
+time pull the events to each others like
+i<00:07:05.360> can<00:07:05.690> say<00:07:06.020> this<00:07:06.920> happens<00:07:07.580> earlier<00:07:08.090> this
+
+00:07:08.950 --> 00:07:08.960 
+i can say this happens earlier this
+
+00:07:08.960 --> 00:07:19.330 
+i can say this happens earlier this
+later<00:07:09.770> and<00:07:10.310> this<00:07:11.240> earlier<00:07:12.050> and<00:07:13.630> now<00:07:17.770> all<00:07:18.770> the
+
+00:07:19.330 --> 00:07:19.340 
+later and this earlier and now all the
+
+00:07:19.340 --> 00:07:22.680 
+later and this earlier and now all the
+states<00:07:19.640> will<00:07:20.090> be<00:07:20.320> consistent<00:07:21.320> to<00:07:21.380> each<00:07:21.590> other
+
+00:07:22.680 --> 00:07:22.690 
+states will be consistent to each other
+
+00:07:22.690 --> 00:07:25.540 
+states will be consistent to each other
+so<00:07:23.690> that's<00:07:24.080> it<00:07:24.290> for<00:07:24.320> now<00:07:24.620> and<00:07:24.950> in<00:07:25.340> the<00:07:25.430> next
+
+00:07:25.540 --> 00:07:25.550 
+so that's it for now and in the next
+
+00:07:25.550 --> 00:07:27.700 
+so that's it for now and in the next
+tutorial<00:07:25.790> we'll<00:07:26.390> be<00:07:26.540> talking<00:07:26.750> about<00:07:27.260> the
+
+00:07:27.700 --> 00:07:27.710 
+tutorial we'll be talking about the
+
+00:07:27.710 --> 00:07:30.310 
+tutorial we'll be talking about the
+template<00:07:28.100> engine
+

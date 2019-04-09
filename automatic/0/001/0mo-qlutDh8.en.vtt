@@ -1,0 +1,1100 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.300 
+
+so<00:00:00.659> you<00:00:00.930> know<00:00:01.020> let's<00:00:01.199> also<00:00:01.380> look<00:00:01.589> at<00:00:01.740> what<00:00:02.220> is
+
+00:00:02.300 --> 00:00:02.310 
+so you know let's also look at what is
+
+00:00:02.310 --> 00:00:04.370 
+so you know let's also look at what is
+the<00:00:02.429> performance<00:00:02.820> impact<00:00:03.330> of<00:00:03.570> simultaneous
+
+00:00:04.370 --> 00:00:04.380 
+the performance impact of simultaneous
+
+00:00:04.380 --> 00:00:07.730 
+the performance impact of simultaneous
+multithreading<00:00:04.879> okay<00:00:05.879> so<00:00:06.109> if<00:00:07.109> you<00:00:07.290> just<00:00:07.529> ride
+
+00:00:07.730 --> 00:00:07.740 
+multithreading okay so if you just ride
+
+00:00:07.740 --> 00:00:10.250 
+multithreading okay so if you just ride
+a<00:00:07.770> thread<00:00:08.099> by<00:00:08.250> itself<00:00:08.750> it's<00:00:09.750> going<00:00:10.019> to<00:00:10.080> have
+
+00:00:10.250 --> 00:00:10.260 
+a thread by itself it's going to have
+
+00:00:10.260 --> 00:00:11.839 
+a thread by itself it's going to have
+you<00:00:10.469> know<00:00:10.500> pretty<00:00:10.769> high<00:00:10.950> performance<00:00:11.460> because
+
+00:00:11.839 --> 00:00:11.849 
+you know pretty high performance because
+
+00:00:11.849 --> 00:00:13.759 
+you know pretty high performance because
+it<00:00:11.880> has<00:00:12.240> access<00:00:12.630> to<00:00:12.870> the<00:00:12.990> entire<00:00:13.200> issue<00:00:13.410> cue
+
+00:00:13.759 --> 00:00:13.769 
+it has access to the entire issue cue
+
+00:00:13.769 --> 00:00:16.039 
+it has access to the entire issue cue
+the<00:00:13.920> entire<00:00:14.190> reorder<00:00:14.580> buffer<00:00:14.910> all<00:00:15.299> the<00:00:15.839> four
+
+00:00:16.039 --> 00:00:16.049 
+the entire reorder buffer all the four
+
+00:00:16.049 --> 00:00:17.570 
+the entire reorder buffer all the four
+functional<00:00:16.619> units<00:00:16.920> and<00:00:17.130> so<00:00:17.250> on
+
+00:00:17.570 --> 00:00:17.580 
+functional units and so on
+
+00:00:17.580 --> 00:00:19.130 
+functional units and so on
+right<00:00:17.850> so<00:00:18.029> that's<00:00:18.240> the<00:00:18.449> best<00:00:18.570> way<00:00:18.750> to<00:00:18.779> optimize
+
+00:00:19.130 --> 00:00:19.140 
+right so that's the best way to optimize
+
+00:00:19.140 --> 00:00:22.099 
+right so that's the best way to optimize
+performance<00:00:19.609> for<00:00:20.609> one<00:00:20.789> thread<00:00:21.060> when<00:00:21.960> I<00:00:21.990> do
+
+00:00:22.099 --> 00:00:22.109 
+performance for one thread when I do
+
+00:00:22.109 --> 00:00:23.689 
+performance for one thread when I do
+simultaneous<00:00:22.439> multi-threading<00:00:23.130> what<00:00:23.580> I'm
+
+00:00:23.689 --> 00:00:23.699 
+simultaneous multi-threading what I'm
+
+00:00:23.699 --> 00:00:25.250 
+simultaneous multi-threading what I'm
+trying<00:00:23.939> to<00:00:24.029> do<00:00:24.180> is<00:00:24.359> I'm<00:00:24.449> trying<00:00:24.570> to<00:00:24.840> increase
+
+00:00:25.250 --> 00:00:25.260 
+trying to do is I'm trying to increase
+
+00:00:25.260 --> 00:00:27.140 
+trying to do is I'm trying to increase
+my<00:00:25.529> overall<00:00:26.039> throughput<00:00:26.340> I'm<00:00:26.640> trying<00:00:27.029> to
+
+00:00:27.140 --> 00:00:27.150 
+my overall throughput I'm trying to
+
+00:00:27.150 --> 00:00:29.599 
+my overall throughput I'm trying to
+maximize<00:00:27.720> the<00:00:28.529> number<00:00:28.710> of<00:00:28.949> instructions<00:00:29.279> that
+
+00:00:29.599 --> 00:00:29.609 
+maximize the number of instructions that
+
+00:00:29.609 --> 00:00:32.540 
+maximize the number of instructions that
+get<00:00:29.910> executed<00:00:30.060> every<00:00:31.019> single<00:00:31.320> cycle<00:00:31.560> okay<00:00:32.460> and
+
+00:00:32.540 --> 00:00:32.550 
+get executed every single cycle okay and
+
+00:00:32.550 --> 00:00:33.709 
+get executed every single cycle okay and
+I'm<00:00:32.610> trying<00:00:32.790> to<00:00:32.880> minimize<00:00:33.270> the<00:00:33.420> under
+
+00:00:33.709 --> 00:00:33.719 
+I'm trying to minimize the under
+
+00:00:33.719 --> 00:00:36.650 
+I'm trying to minimize the under
+utilization<00:00:33.750> of<00:00:34.380> the<00:00:34.530> processor<00:00:35.030> okay<00:00:36.030> so<00:00:36.090> if
+
+00:00:36.650 --> 00:00:36.660 
+utilization of the processor okay so if
+
+00:00:36.660 --> 00:00:39.979 
+utilization of the processor okay so if
+you<00:00:37.050> know<00:00:37.140> one<00:00:37.350> thread<00:00:38.420> let's<00:00:39.420> say<00:00:39.600> hand<00:00:39.870> an
+
+00:00:39.979 --> 00:00:39.989 
+you know one thread let's say hand an
+
+00:00:39.989 --> 00:00:44.510 
+you know one thread let's say hand an
+IPC<00:00:40.530> off<00:00:41.450> let's<00:00:42.450> say<00:00:42.540> 1.0<00:00:43.079> okay<00:00:44.010> so<00:00:44.070> if<00:00:44.250> it<00:00:44.340> ran
+
+00:00:44.510 --> 00:00:44.520 
+IPC off let's say 1.0 okay so if it ran
+
+00:00:44.520 --> 00:00:47.360 
+IPC off let's say 1.0 okay so if it ran
+by<00:00:44.700> itself<00:00:44.940> it<00:00:45.120> has<00:00:45.270> an<00:00:45.390> IPC<00:00:45.750> of<00:00:45.780> 1.0<00:00:46.320> when<00:00:47.309> I
+
+00:00:47.360 --> 00:00:47.370 
+by itself it has an IPC of 1.0 when I
+
+00:00:47.370 --> 00:00:51.369 
+by itself it has an IPC of 1.0 when I
+run<00:00:47.550> two<00:00:47.910> threads<00:00:48.719> together<00:00:49.820> you<00:00:50.820> know<00:00:50.910> each
+
+00:00:51.369 --> 00:00:51.379 
+run two threads together you know each
+
+00:00:51.379 --> 00:00:56.420 
+run two threads together you know each
+may<00:00:52.379> have<00:00:52.620> an<00:00:52.829> IPC<00:00:53.370> off<00:00:55.010> you<00:00:56.010> know<00:00:56.100> let's<00:00:56.309> say
+
+00:00:56.420 --> 00:00:56.430 
+may have an IPC off you know let's say
+
+00:00:56.430 --> 00:00:59.420 
+may have an IPC off you know let's say
+0.5<00:00:56.789> 0.75<00:00:57.719> okay<00:00:58.620> so<00:00:58.680> why<00:00:58.859> does<00:00:59.010> each<00:00:59.160> thread
+
+00:00:59.420 --> 00:00:59.430 
+0.5 0.75 okay so why does each thread
+
+00:00:59.430 --> 00:01:01.670 
+0.5 0.75 okay so why does each thread
+get<00:00:59.609> slowed<00:00:59.850> down<00:00:59.879> it<00:01:00.750> is<00:01:00.899> because<00:01:01.260> all<00:01:01.530> the
+
+00:01:01.670 --> 00:01:01.680 
+get slowed down it is because all the
+
+00:01:01.680 --> 00:01:03.799 
+get slowed down it is because all the
+resources<00:01:02.100> are<00:01:02.219> being<00:01:02.370> shared<00:01:02.640> right<00:01:03.030> now<00:01:03.359> one
+
+00:01:03.799 --> 00:01:03.809 
+resources are being shared right now one
+
+00:01:03.809 --> 00:01:05.690 
+resources are being shared right now one
+thread<00:01:04.080> no<00:01:04.260> longer<00:01:04.619> has<00:01:04.799> access<00:01:05.189> to<00:01:05.220> all<00:01:05.519> the
+
+00:01:05.690 --> 00:01:05.700 
+thread no longer has access to all the
+
+00:01:05.700 --> 00:01:07.969 
+thread no longer has access to all the
+registers<00:01:06.119> and<00:01:06.420> the<00:01:07.049> entire<00:01:07.350> reorder<00:01:07.710> buffer
+
+00:01:07.969 --> 00:01:07.979 
+registers and the entire reorder buffer
+
+00:01:07.979 --> 00:01:09.500 
+registers and the entire reorder buffer
+and<00:01:08.159> all<00:01:08.310> four<00:01:08.549> functional<00:01:08.939> units<00:01:09.240> where
+
+00:01:09.500 --> 00:01:09.510 
+and all four functional units where
+
+00:01:09.510 --> 00:01:11.480 
+and all four functional units where
+there<00:01:09.720> are<00:01:09.810> some<00:01:09.990> cycles<00:01:10.200> well<00:01:11.130> one<00:01:11.310> of<00:01:11.400> the
+
+00:01:11.480 --> 00:01:11.490 
+there are some cycles well one of the
+
+00:01:11.490 --> 00:01:12.710 
+there are some cycles well one of the
+thread<00:01:11.700> is<00:01:11.850> going<00:01:12.030> to<00:01:12.119> get<00:01:12.240> slowed<00:01:12.510> down
+
+00:01:12.710 --> 00:01:12.720 
+thread is going to get slowed down
+
+00:01:12.720 --> 00:01:14.390 
+thread is going to get slowed down
+because<00:01:12.930> some<00:01:13.439> of<00:01:13.680> the<00:01:13.830> resources<00:01:14.250> are<00:01:14.369> being
+
+00:01:14.390 --> 00:01:14.400 
+because some of the resources are being
+
+00:01:14.400 --> 00:01:17.600 
+because some of the resources are being
+used<00:01:14.790> by<00:01:15.090> the<00:01:15.450> other<00:01:15.630> thread<00:01:15.960> so<00:01:16.740> when<00:01:17.310> you<00:01:17.400> do
+
+00:01:17.600 --> 00:01:17.610 
+used by the other thread so when you do
+
+00:01:17.610 --> 00:01:19.880 
+used by the other thread so when you do
+simultaneous<00:01:18.150> multi-threading<00:01:18.500> each<00:01:19.500> thread
+
+00:01:19.880 --> 00:01:19.890 
+simultaneous multi-threading each thread
+
+00:01:19.890 --> 00:01:22.280 
+simultaneous multi-threading each thread
+by<00:01:20.040> itself<00:01:20.340> is<00:01:20.580> going<00:01:20.700> to<00:01:20.909> slow<00:01:21.119> down<00:01:21.270> but<00:01:22.170> on
+
+00:01:22.280 --> 00:01:22.290 
+by itself is going to slow down but on
+
+00:01:22.290 --> 00:01:27.980 
+by itself is going to slow down but on
+average<00:01:22.710> my<00:01:23.299> total<00:01:24.299> IPC<00:01:24.750> is<00:01:25.610> now<00:01:26.610> 1.5<00:01:27.270> right<00:01:27.810> so
+
+00:01:27.980 --> 00:01:27.990 
+average my total IPC is now 1.5 right so
+
+00:01:27.990 --> 00:01:30.200 
+average my total IPC is now 1.5 right so
+before<00:01:28.110> in<00:01:28.920> any<00:01:29.040> given<00:01:29.250> cycle<00:01:29.400> only<00:01:29.729> one<00:01:30.060> out
+
+00:01:30.200 --> 00:01:30.210 
+before in any given cycle only one out
+
+00:01:30.210 --> 00:01:31.810 
+before in any given cycle only one out
+of<00:01:30.240> the<00:01:30.390> four<00:01:30.570> units<00:01:30.900> were<00:01:31.020> being<00:01:31.170> kept<00:01:31.439> busy
+
+00:01:31.810 --> 00:01:31.820 
+of the four units were being kept busy
+
+00:01:31.820 --> 00:01:34.640 
+of the four units were being kept busy
+now<00:01:32.820> in<00:01:33.240> any<00:01:33.479> given<00:01:33.750> cycle<00:01:33.900> out<00:01:34.259> of<00:01:34.380> the<00:01:34.470> four
+
+00:01:34.640 --> 00:01:34.650 
+now in any given cycle out of the four
+
+00:01:34.650 --> 00:01:37.789 
+now in any given cycle out of the four
+units<00:01:34.979> 1.5<00:01:35.880> of<00:01:36.060> them<00:01:36.180> are<00:01:36.329> being<00:01:36.450> kept<00:01:36.689> busy<00:01:36.840> so
+
+00:01:37.789 --> 00:01:37.799 
+units 1.5 of them are being kept busy so
+
+00:01:37.799 --> 00:01:40.340 
+units 1.5 of them are being kept busy so
+overall<00:01:38.340> throughput<00:01:39.090> and<00:01:39.420> utilization<00:01:40.049> has
+
+00:01:40.340 --> 00:01:40.350 
+overall throughput and utilization has
+
+00:01:40.350 --> 00:01:42.380 
+overall throughput and utilization has
+gone<00:01:40.619> up<00:01:40.829> and<00:01:41.009> my<00:01:41.610> under<00:01:41.790> utilization<00:01:42.360> has
+
+00:01:42.380 --> 00:01:42.390 
+gone up and my under utilization has
+
+00:01:42.390 --> 00:01:43.789 
+gone up and my under utilization has
+gone<00:01:42.630> down<00:01:42.840> so<00:01:43.110> this<00:01:43.290> is<00:01:43.350> why<00:01:43.619> I'm<00:01:43.770> doing
+
+00:01:43.789 --> 00:01:43.799 
+gone down so this is why I'm doing
+
+00:01:43.799 --> 00:01:46.340 
+gone down so this is why I'm doing
+simultaneous<00:01:44.310> multi-threading<00:01:45.000> to<00:01:45.659> maximize
+
+00:01:46.340 --> 00:01:46.350 
+simultaneous multi-threading to maximize
+
+00:01:46.350 --> 00:01:48.530 
+simultaneous multi-threading to maximize
+my<00:01:46.560> overall<00:01:47.070> throughput<00:01:47.310> but<00:01:48.240> you<00:01:48.329> have<00:01:48.450> to
+
+00:01:48.530 --> 00:01:48.540 
+my overall throughput but you have to
+
+00:01:48.540 --> 00:01:49.910 
+my overall throughput but you have to
+realize<00:01:48.689> that<00:01:49.110> this<00:01:49.259> is<00:01:49.409> happening<00:01:49.439> at<00:01:49.890> the
+
+00:01:49.910 --> 00:01:49.920 
+realize that this is happening at the
+
+00:01:49.920 --> 00:01:51.889 
+realize that this is happening at the
+expense<00:01:50.399> of<00:01:50.490> the<00:01:51.060> performance<00:01:51.509> of<00:01:51.630> each
+
+00:01:51.889 --> 00:01:51.899 
+expense of the performance of each
+
+00:01:51.899 --> 00:01:54.170 
+expense of the performance of each
+individual<00:01:52.560> thread<00:01:52.799> okay<00:01:53.790> and<00:01:53.880> you<00:01:53.970> could
+
+00:01:54.170 --> 00:01:54.180 
+individual thread okay and you could
+
+00:01:54.180 --> 00:01:55.819 
+individual thread okay and you could
+minimize<00:01:54.479> this<00:01:54.810> effect<00:01:54.960> by<00:01:55.229> saying<00:01:55.470> that<00:01:55.590> you
+
+00:01:55.819 --> 00:01:55.829 
+minimize this effect by saying that you
+
+00:01:55.829 --> 00:01:57.289 
+minimize this effect by saying that you
+know<00:01:55.950> of<00:01:56.040> these<00:01:56.159> two<00:01:56.369> threads<00:01:56.610> one<00:01:57.000> will<00:01:57.180> have
+
+00:01:57.289 --> 00:01:57.299 
+know of these two threads one will have
+
+00:01:57.299 --> 00:01:59.780 
+know of these two threads one will have
+really<00:01:57.630> high<00:01:57.750> priority<00:01:58.189> okay<00:01:59.189> so<00:01:59.369> as<00:01:59.549> far<00:01:59.729> as
+
+00:01:59.780 --> 00:01:59.790 
+really high priority okay so as far as
+
+00:01:59.790 --> 00:02:01.730 
+really high priority okay so as far as
+possible<00:02:00.299> it'll<00:02:00.540> get<00:02:00.689> really<00:02:00.869> close<00:02:01.259> to<00:02:01.560> its
+
+00:02:01.730 --> 00:02:01.740 
+possible it'll get really close to its
+
+00:02:01.740 --> 00:02:04.580 
+possible it'll get really close to its
+standalone<00:02:02.399> IPC<00:02:02.909> of<00:02:02.939> one<00:02:03.320> okay<00:02:04.320> so<00:02:04.350> that's
+
+00:02:04.580 --> 00:02:04.590 
+standalone IPC of one okay so that's
+
+00:02:04.590 --> 00:02:06.920 
+standalone IPC of one okay so that's
+what<00:02:04.770> you<00:02:04.860> can<00:02:05.009> do<00:02:05.130> by<00:02:05.310> by<00:02:06.149> prioritizing<00:02:06.600> one
+
+00:02:06.920 --> 00:02:06.930 
+what you can do by by prioritizing one
+
+00:02:06.930 --> 00:02:08.749 
+what you can do by by prioritizing one
+thread<00:02:07.170> over<00:02:07.409> the<00:02:07.500> other<00:02:07.649> and<00:02:07.920> this<00:02:08.550> just
+
+00:02:08.749 --> 00:02:08.759 
+thread over the other and this just
+
+00:02:08.759 --> 00:02:10.369 
+thread over the other and this just
+means<00:02:08.910> that<00:02:09.090> the<00:02:09.239> second<00:02:09.660> thread<00:02:09.869> just<00:02:10.110> gets
+
+00:02:10.369 --> 00:02:10.379 
+means that the second thread just gets
+
+00:02:10.379 --> 00:02:13.170 
+means that the second thread just gets
+any<00:02:10.560> left<00:02:10.890> over<00:02:11.250> issue<00:02:11.550> slots
+
+00:02:13.170 --> 00:02:13.180 
+any left over issue slots
+
+00:02:13.180 --> 00:02:15.390 
+any left over issue slots
+so<00:02:13.329> you<00:02:13.390> know<00:02:13.629> it's<00:02:13.750> in<00:02:14.379> that<00:02:14.530> case<00:02:14.769> the<00:02:14.950> IPC's
+
+00:02:15.390 --> 00:02:15.400 
+so you know it's in that case the IPC's
+
+00:02:15.400 --> 00:02:22.470 
+so you know it's in that case the IPC's
+might<00:02:15.579> be<00:02:15.790> in<00:02:16.439> 0.97<00:02:17.470> and<00:02:18.810> you<00:02:19.810> know<00:02:19.930> 0.5<00:02:21.269> 0.5<00:02:22.269> 2
+
+00:02:22.470 --> 00:02:22.480 
+might be in 0.97 and you know 0.5 0.5 2
+
+00:02:22.480 --> 00:02:24.059 
+might be in 0.97 and you know 0.5 0.5 2
+let's<00:02:22.659> say<00:02:22.720> which<00:02:23.590> gives<00:02:23.799> you<00:02:23.920> total
+
+00:02:24.059 --> 00:02:24.069 
+let's say which gives you total
+
+00:02:24.069 --> 00:02:27.119 
+let's say which gives you total
+throughput<00:02:24.610> of<00:02:24.640> 1<00:02:24.939> point<00:02:25.120> 4<00:02:25.510> 9<00:02:25.720> IPC<00:02:26.200> okay<00:02:26.950> and
+
+00:02:27.119 --> 00:02:27.129 
+throughput of 1 point 4 9 IPC okay and
+
+00:02:27.129 --> 00:02:28.500 
+throughput of 1 point 4 9 IPC okay and
+I'm<00:02:27.189> just<00:02:27.400> making<00:02:27.640> up<00:02:27.730> numbers<00:02:27.790> at<00:02:28.150> this<00:02:28.239> point
+
+00:02:28.500 --> 00:02:28.510 
+I'm just making up numbers at this point
+
+00:02:28.510 --> 00:02:30.780 
+I'm just making up numbers at this point
+but<00:02:28.659> this<00:02:29.650> gives<00:02:29.799> you<00:02:29.920> an<00:02:30.010> idea<00:02:30.099> of<00:02:30.340> how<00:02:30.579> at
+
+00:02:30.780 --> 00:02:30.790 
+but this gives you an idea of how at
+
+00:02:30.790 --> 00:02:32.309 
+but this gives you an idea of how at
+least<00:02:30.819> one<00:02:31.269> thread<00:02:31.540> can<00:02:31.569> come<00:02:31.930> pretty<00:02:32.049> close
+
+00:02:32.309 --> 00:02:32.319 
+least one thread can come pretty close
+
+00:02:32.319 --> 00:02:34.740 
+least one thread can come pretty close
+to<00:02:32.650> a<00:02:32.680> standalone<00:02:33.099> IPC<00:02:33.609> and<00:02:34.000> simultaneous
+
+00:02:34.740 --> 00:02:34.750 
+to a standalone IPC and simultaneous
+
+00:02:34.750 --> 00:02:36.089 
+to a standalone IPC and simultaneous
+multi-threading<00:02:35.079> will<00:02:35.500> still<00:02:35.739> improve
+
+00:02:36.089 --> 00:02:36.099 
+multi-threading will still improve
+
+00:02:36.099 --> 00:02:37.559 
+multi-threading will still improve
+throughput<00:02:36.370> because<00:02:36.640> there<00:02:36.939> are<00:02:37.000> many<00:02:37.120> cycles
+
+00:02:37.559 --> 00:02:37.569 
+throughput because there are many cycles
+
+00:02:37.569 --> 00:02:39.599 
+throughput because there are many cycles
+where<00:02:37.870> the<00:02:38.560> high<00:02:38.709> priority<00:02:39.129> thread<00:02:39.310> is<00:02:39.459> not
+
+00:02:39.599 --> 00:02:39.609 
+where the high priority thread is not
+
+00:02:39.609 --> 00:02:42.539 
+where the high priority thread is not
+using<00:02:40.090> up<00:02:40.209> all<00:02:40.450> the<00:02:40.750> resources<00:02:41.140> and<00:02:41.530> it<00:02:42.310> can
+
+00:02:42.539 --> 00:02:42.549 
+using up all the resources and it can
+
+00:02:42.549 --> 00:02:44.610 
+using up all the resources and it can
+you<00:02:42.939> know<00:02:43.030> use<00:02:43.209> the<00:02:43.390> other<00:02:43.540> idle<00:02:43.870> slots<00:02:44.140> to<00:02:44.439> get
+
+00:02:44.610 --> 00:02:44.620 
+you know use the other idle slots to get
+
+00:02:44.620 --> 00:02:46.379 
+you know use the other idle slots to get
+at<00:02:44.769> least<00:02:44.799> some<00:02:45.040> work<00:02:45.310> done<00:02:45.549> and<00:02:45.730> that<00:02:46.030> helps
+
+00:02:46.379 --> 00:02:46.389 
+at least some work done and that helps
+
+00:02:46.389 --> 00:02:49.110 
+at least some work done and that helps
+improve<00:02:46.720> overall<00:02:47.530> throughput<00:02:47.799> okay<00:02:48.760> so<00:02:48.819> you
+
+00:02:49.110 --> 00:02:49.120 
+improve overall throughput okay so you
+
+00:02:49.120 --> 00:02:50.280 
+improve overall throughput okay so you
+know<00:02:49.209> one<00:02:49.329> thing<00:02:49.510> that<00:02:49.690> people<00:02:49.840> have<00:02:49.989> studied
+
+00:02:50.280 --> 00:02:50.290 
+know one thing that people have studied
+
+00:02:50.290 --> 00:02:53.399 
+know one thing that people have studied
+very<00:02:50.470> carefully<00:02:50.680> with<00:02:51.340> SMT<00:02:51.909> process<00:02:52.389> is<00:02:52.569> how
+
+00:02:53.399 --> 00:02:53.409 
+very carefully with SMT process is how
+
+00:02:53.409 --> 00:02:55.349 
+very carefully with SMT process is how
+would<00:02:53.470> you<00:02:53.709> how<00:02:54.370> would<00:02:54.400> you<00:02:54.519> influence<00:02:55.060> fetch
+
+00:02:55.349 --> 00:02:55.359 
+would you how would you influence fetch
+
+00:02:55.359 --> 00:02:58.440 
+would you how would you influence fetch
+how<00:02:56.079> would<00:02:56.139> instructions<00:02:56.829> get<00:02:57.010> injected<00:02:57.879> into
+
+00:02:58.440 --> 00:02:58.450 
+how would instructions get injected into
+
+00:02:58.450 --> 00:03:00.330 
+how would instructions get injected into
+the<00:02:58.540> execution<00:02:58.780> engine<00:02:59.260> to<00:02:59.889> try<00:03:00.069> and<00:03:00.220> maximize
+
+00:03:00.330 --> 00:03:00.340 
+the execution engine to try and maximize
+
+00:03:00.340 --> 00:03:02.099 
+the execution engine to try and maximize
+overall<00:03:01.150> throughput<00:03:01.389> right<00:03:01.750> so<00:03:01.870> you<00:03:01.930> have<00:03:02.019> to
+
+00:03:02.099 --> 00:03:02.109 
+overall throughput right so you have to
+
+00:03:02.109 --> 00:03:03.539 
+overall throughput right so you have to
+recognize<00:03:02.260> when<00:03:02.769> some<00:03:03.040> thread<00:03:03.250> is<00:03:03.340> being
+
+00:03:03.539 --> 00:03:03.549 
+recognize when some thread is being
+
+00:03:03.549 --> 00:03:05.729 
+recognize when some thread is being
+stalled<00:03:03.849> at<00:03:04.090> that<00:03:04.840> times<00:03:05.109> you<00:03:05.530> will
+
+00:03:05.729 --> 00:03:05.739 
+stalled at that times you will
+
+00:03:05.739 --> 00:03:07.589 
+stalled at that times you will
+prioritize<00:03:06.310> some<00:03:06.579> other<00:03:06.760> thread<00:03:07.030> for<00:03:07.209> example
+
+00:03:07.589 --> 00:03:07.599 
+prioritize some other thread for example
+
+00:03:07.599 --> 00:03:08.610 
+prioritize some other thread for example
+okay
+
+00:03:08.610 --> 00:03:08.620 
+okay
+
+00:03:08.620 --> 00:03:12.569 
+okay
+so<00:03:09.900> you<00:03:10.900> know<00:03:10.989> let<00:03:11.170> me<00:03:11.200> just<00:03:11.260> talk<00:03:11.889> about<00:03:12.010> one
+
+00:03:12.569 --> 00:03:12.579 
+so you know let me just talk about one
+
+00:03:12.579 --> 00:03:14.879 
+so you know let me just talk about one
+empirical<00:03:13.120> study<00:03:13.359> that<00:03:13.510> was<00:03:13.689> done<00:03:13.720> to<00:03:14.560> try<00:03:14.769> and
+
+00:03:14.879 --> 00:03:14.889 
+empirical study that was done to try and
+
+00:03:14.889 --> 00:03:16.319 
+empirical study that was done to try and
+understand<00:03:15.310> this<00:03:15.459> behavior<00:03:15.639> so<00:03:16.030> this<00:03:16.150> is<00:03:16.299> a
+
+00:03:16.319 --> 00:03:16.329 
+understand this behavior so this is a
+
+00:03:16.329 --> 00:03:18.539 
+understand this behavior so this is a
+case<00:03:16.629> study<00:03:16.659> of<00:03:16.959> a<00:03:17.139> real<00:03:17.290> processor<00:03:17.769> this<00:03:18.370> is
+
+00:03:18.539 --> 00:03:18.549 
+case study of a real processor this is
+
+00:03:18.549 --> 00:03:20.339 
+case study of a real processor this is
+the<00:03:18.609> Pentium<00:03:18.970> 4<00:03:19.209> witches<00:03:19.599> which<00:03:19.900> was<00:03:20.049> built<00:03:20.230> in
+
+00:03:20.339 --> 00:03:20.349 
+the Pentium 4 witches which was built in
+
+00:03:20.349 --> 00:03:22.890 
+the Pentium 4 witches which was built in
+the<00:03:20.379> early<00:03:20.620> 2000s<00:03:21.220> but<00:03:21.370> you<00:03:22.180> know<00:03:22.269> it's<00:03:22.449> form
+
+00:03:22.890 --> 00:03:22.900 
+the early 2000s but you know it's form
+
+00:03:22.900 --> 00:03:24.539 
+the early 2000s but you know it's form
+of<00:03:23.049> multi-threading<00:03:23.620> is<00:03:23.709> very<00:03:23.919> similar<00:03:24.370> to
+
+00:03:24.539 --> 00:03:24.549 
+of multi-threading is very similar to
+
+00:03:24.549 --> 00:03:26.430 
+of multi-threading is very similar to
+the<00:03:24.639> kind<00:03:24.849> of<00:03:25.000> SMT<00:03:25.449> that<00:03:25.599> you<00:03:25.720> might<00:03:25.870> see<00:03:26.109> in
+
+00:03:26.430 --> 00:03:26.440 
+the kind of SMT that you might see in
+
+00:03:26.440 --> 00:03:29.699 
+the kind of SMT that you might see in
+modern-day<00:03:27.280> Intel<00:03:27.760> processors<00:03:28.180> okay<00:03:29.139> so<00:03:29.199> the
+
+00:03:29.699 --> 00:03:29.709 
+modern-day Intel processors okay so the
+
+00:03:29.709 --> 00:03:31.229 
+modern-day Intel processors okay so the
+Pentium<00:03:30.010> 4<00:03:30.190> and<00:03:30.310> even<00:03:30.400> modern<00:03:30.819> process
+
+00:03:31.229 --> 00:03:31.239 
+Pentium 4 and even modern process
+
+00:03:31.239 --> 00:03:33.390 
+Pentium 4 and even modern process
+usually<00:03:31.419> I<00:03:31.659> love<00:03:31.959> to<00:03:32.290> threads<00:03:32.560> to<00:03:32.709> execute<00:03:33.159> at
+
+00:03:33.390 --> 00:03:33.400 
+usually I love to threads to execute at
+
+00:03:33.400 --> 00:03:35.610 
+usually I love to threads to execute at
+the<00:03:33.579> same<00:03:33.730> time<00:03:34.109> there<00:03:35.109> are<00:03:35.199> some<00:03:35.349> resources
+
+00:03:35.610 --> 00:03:35.620 
+the same time there are some resources
+
+00:03:35.620 --> 00:03:37.170 
+the same time there are some resources
+that<00:03:35.829> are<00:03:36.010> statically<00:03:36.400> divided<00:03:36.970> when<00:03:37.090> you
+
+00:03:37.170 --> 00:03:37.180 
+that are statically divided when you
+
+00:03:37.180 --> 00:03:38.849 
+that are statically divided when you
+have<00:03:37.389> 2<00:03:37.690> threads<00:03:37.959> running<00:03:38.169> so<00:03:38.560> when<00:03:38.680> two
+
+00:03:38.849 --> 00:03:38.859 
+have 2 threads running so when two
+
+00:03:38.859 --> 00:03:40.830 
+have 2 threads running so when two
+threads<00:03:39.099> one<00:03:39.310> they<00:03:39.940> get<00:03:40.090> an<00:03:40.209> equal<00:03:40.540> share<00:03:40.780> of
+
+00:03:40.830 --> 00:03:40.840 
+threads one they get an equal share of
+
+00:03:40.840 --> 00:03:43.319 
+threads one they get an equal share of
+the<00:03:41.290> reorder<00:03:41.590> buffer<00:03:41.620> lsq<00:03:42.489> and<00:03:42.790> the<00:03:43.209> issue
+
+00:03:43.319 --> 00:03:43.329 
+the reorder buffer lsq and the issue
+
+00:03:43.329 --> 00:03:45.360 
+the reorder buffer lsq and the issue
+queue<00:03:43.599> and<00:03:43.810> this<00:03:44.440> ensures<00:03:44.650> that<00:03:44.829> in<00:03:45.129> a<00:03:45.190> 1
+
+00:03:45.360 --> 00:03:45.370 
+queue and this ensures that in a 1
+
+00:03:45.370 --> 00:03:47.729 
+queue and this ensures that in a 1
+thread<00:03:46.180> which<00:03:46.540> which<00:03:47.079> tends<00:03:47.319> to<00:03:47.500> hog
+
+00:03:47.729 --> 00:03:47.739 
+thread which which tends to hog
+
+00:03:47.739 --> 00:03:50.309 
+thread which which tends to hog
+resources<00:03:48.340> is<00:03:48.609> not<00:03:49.239> going<00:03:49.569> to<00:03:49.720> cripple<00:03:50.079> the
+
+00:03:50.309 --> 00:03:50.319 
+resources is not going to cripple the
+
+00:03:50.319 --> 00:03:52.229 
+resources is not going to cripple the
+throughput<00:03:50.500> for<00:03:50.859> the<00:03:50.949> second<00:03:51.250> thread<00:03:51.400> then
+
+00:03:52.229 --> 00:03:52.239 
+throughput for the second thread then
+
+00:03:52.239 --> 00:03:53.490 
+throughput for the second thread then
+there<00:03:52.389> are<00:03:52.479> some<00:03:52.599> other<00:03:52.780> resources<00:03:52.900> which<00:03:53.349> are
+
+00:03:53.490 --> 00:03:53.500 
+there are some other resources which are
+
+00:03:53.500 --> 00:03:55.379 
+there are some other resources which are
+dynamically<00:03:53.949> shared<00:03:54.340> such<00:03:54.579> as<00:03:54.790> the<00:03:55.180> trace
+
+00:03:55.379 --> 00:03:55.389 
+dynamically shared such as the trace
+
+00:03:55.389 --> 00:03:57.930 
+dynamically shared such as the trace
+cache<00:03:55.629> which<00:03:55.930> is<00:03:56.169> a<00:03:56.440> cache<00:03:57.340> to<00:03:57.669> fetch
+
+00:03:57.930 --> 00:03:57.940 
+cache which is a cache to fetch
+
+00:03:57.940 --> 00:04:00.360 
+cache which is a cache to fetch
+sequences<00:03:58.479> of<00:03:58.510> instructions<00:03:58.829> the<00:03:59.829> decode
+
+00:04:00.360 --> 00:04:00.370 
+sequences of instructions the decode
+
+00:04:00.370 --> 00:04:01.589 
+sequences of instructions the decode
+units<00:04:00.669> are<00:04:00.760> dynamically<00:04:01.120> shared<00:04:01.389> the
+
+00:04:01.589 --> 00:04:01.599 
+units are dynamically shared the
+
+00:04:01.599 --> 00:04:03.839 
+units are dynamically shared the
+functional<00:04:01.989> units<00:04:02.349> state<00:04:02.769> of<00:04:02.889> cache<00:04:03.069> branch
+
+00:04:03.839 --> 00:04:03.849 
+functional units state of cache branch
+
+00:04:03.849 --> 00:04:06.149 
+functional units state of cache branch
+prater<00:04:04.209> and<00:04:04.359> so<00:04:04.479> on<00:04:04.659> ok<00:04:05.470> so<00:04:05.530> let's<00:04:05.739> look<00:04:05.799> at<00:04:05.979> how
+
+00:04:06.149 --> 00:04:06.159 
+prater and so on ok so let's look at how
+
+00:04:06.159 --> 00:04:09.449 
+prater and so on ok so let's look at how
+the<00:04:06.819> spec<00:04:07.060> benchmarks<00:04:08.019> behaved<00:04:08.889> on<00:04:09.159> this
+
+00:04:09.449 --> 00:04:09.459 
+the spec benchmarks behaved on this
+
+00:04:09.459 --> 00:04:11.729 
+the spec benchmarks behaved on this
+processor<00:04:09.940> ok<00:04:10.870> so<00:04:10.930> this<00:04:11.109> table<00:04:11.290> is<00:04:11.470> a<00:04:11.530> little
+
+00:04:11.729 --> 00:04:11.739 
+processor ok so this table is a little
+
+00:04:11.739 --> 00:04:13.319 
+processor ok so this table is a little
+hard<00:04:11.919> to<00:04:12.040> read<00:04:12.129> let<00:04:12.310> me<00:04:12.400> explain<00:04:12.729> what<00:04:13.209> is
+
+00:04:13.319 --> 00:04:13.329 
+hard to read let me explain what is
+
+00:04:13.329 --> 00:04:15.689 
+hard to read let me explain what is
+going<00:04:13.569> on<00:04:13.739> so<00:04:14.739> let's<00:04:14.919> say<00:04:15.010> there<00:04:15.129> are<00:04:15.220> 26
+
+00:04:15.689 --> 00:04:15.699 
+going on so let's say there are 26
+
+00:04:15.699 --> 00:04:17.039 
+going on so let's say there are 26
+programs<00:04:16.479> over<00:04:16.690> here
+
+00:04:17.039 --> 00:04:17.049 
+programs over here
+
+00:04:17.049 --> 00:04:21.029 
+programs over here
+the<00:04:17.709> first<00:04:17.919> program<00:04:18.130> is<00:04:18.510> gzip<00:04:19.769> ok<00:04:20.769> so<00:04:20.829> I<00:04:20.949> have
+
+00:04:21.029 --> 00:04:21.039 
+the first program is gzip ok so I have
+
+00:04:21.039 --> 00:04:23.250 
+the first program is gzip ok so I have
+taken<00:04:21.159> gzip<00:04:21.700> and<00:04:21.820> I've<00:04:22.270> run<00:04:22.510> it<00:04:22.659> with<00:04:22.840> every
+
+00:04:23.250 --> 00:04:23.260 
+taken gzip and I've run it with every
+
+00:04:23.260 --> 00:04:25.110 
+taken gzip and I've run it with every
+one<00:04:23.469> of<00:04:23.710> these<00:04:23.950> other<00:04:24.190> programs
+
+00:04:25.110 --> 00:04:25.120 
+one of these other programs
+
+00:04:25.120 --> 00:04:26.910 
+one of these other programs
+okay<00:04:25.810> so<00:04:25.870> gzip
+
+00:04:26.910 --> 00:04:26.920 
+okay so gzip
+
+00:04:26.920 --> 00:04:29.670 
+okay so gzip
+has<00:04:27.250> run<00:04:27.550> with<00:04:27.850> gzip<00:04:28.570> itself<00:04:28.930> it's<00:04:29.350> run<00:04:29.530> with
+
+00:04:29.670 --> 00:04:29.680 
+has run with gzip itself it's run with
+
+00:04:29.680 --> 00:04:32.340 
+has run with gzip itself it's run with
+the<00:04:29.740> next<00:04:29.860> program<00:04:30.280> vpr<00:04:30.940> with<00:04:31.390> GCC<00:04:31.900> and<00:04:32.050> so<00:04:32.200> on
+
+00:04:32.340 --> 00:04:32.350 
+the next program vpr with GCC and so on
+
+00:04:32.350 --> 00:04:34.680 
+the next program vpr with GCC and so on
+right<00:04:33.190> so<00:04:33.430> essentially<00:04:33.880> if<00:04:34.060> if<00:04:34.300> you<00:04:34.450> ran<00:04:34.600> it
+
+00:04:34.680 --> 00:04:34.690 
+right so essentially if if you ran it
+
+00:04:34.690 --> 00:04:36.690 
+right so essentially if if you ran it
+with<00:04:34.870> 26<00:04:35.260> other<00:04:35.320> programs<00:04:35.770> you<00:04:35.860> would<00:04:36.040> get<00:04:36.220> 26
+
+00:04:36.690 --> 00:04:36.700 
+with 26 other programs you would get 26
+
+00:04:36.700 --> 00:04:39.360 
+with 26 other programs you would get 26
+different<00:04:36.910> throughput<00:04:37.630> numbers<00:04:38.190> okay<00:04:39.190> and
+
+00:04:39.360 --> 00:04:39.370 
+different throughput numbers okay and
+
+00:04:39.370 --> 00:04:41.280 
+different throughput numbers okay and
+what<00:04:39.610> is<00:04:39.730> being<00:04:39.910> recorded<00:04:40.270> in<00:04:40.540> the<00:04:40.570> stable<00:04:40.690> is
+
+00:04:41.280 --> 00:04:41.290 
+what is being recorded in the stable is
+
+00:04:41.290 --> 00:04:43.620 
+what is being recorded in the stable is
+the<00:04:41.800> best<00:04:42.040> throughput<00:04:42.370> I<00:04:42.460> observed<00:04:42.880> for<00:04:43.150> gzip
+
+00:04:43.620 --> 00:04:43.630 
+the best throughput I observed for gzip
+
+00:04:43.630 --> 00:04:44.640 
+the best throughput I observed for gzip
+and<00:04:43.810> somebody<00:04:44.260> else
+
+00:04:44.640 --> 00:04:44.650 
+and somebody else
+
+00:04:44.650 --> 00:04:47.040 
+and somebody else
+the<00:04:45.280> first<00:04:45.550> throughput<00:04:45.910> I<00:04:45.940> observed<00:04:46.450> for<00:04:46.690> gzip
+
+00:04:47.040 --> 00:04:47.050 
+the first throughput I observed for gzip
+
+00:04:47.050 --> 00:04:48.750 
+the first throughput I observed for gzip
+and<00:04:47.140> somebody<00:04:47.470> else<00:04:47.650> and<00:04:47.890> what<00:04:48.520> is<00:04:48.640> the
+
+00:04:48.750 --> 00:04:48.760 
+and somebody else and what is the
+
+00:04:48.760 --> 00:04:50.550 
+and somebody else and what is the
+average<00:04:48.910> speed<00:04:49.210> up<00:04:49.480> when<00:04:49.870> I<00:04:49.900> run<00:04:50.080> gzip<00:04:50.440> is
+
+00:04:50.550 --> 00:04:50.560 
+average speed up when I run gzip is
+
+00:04:50.560 --> 00:04:52.220 
+average speed up when I run gzip is
+somebody<00:04:50.830> else<00:04:50.950> what<00:04:51.250> is<00:04:51.400> the<00:04:51.640> average
+
+00:04:52.220 --> 00:04:52.230 
+somebody else what is the average
+
+00:04:52.230 --> 00:04:54.750 
+somebody else what is the average
+throughput<00:04:53.230> I<00:04:53.440> can<00:04:53.590> expect<00:04:53.950> alright<00:04:54.610> so
+
+00:04:54.750 --> 00:04:54.760 
+throughput I can expect alright so
+
+00:04:54.760 --> 00:04:58.980 
+throughput I can expect alright so
+you'll<00:04:54.910> see<00:04:55.060> that<00:04:55.350> you<00:04:56.350> know<00:04:56.470> the<00:04:57.540> IPC<00:04:58.540> ranges
+
+00:04:58.980 --> 00:04:58.990 
+you'll see that you know the IPC ranges
+
+00:04:58.990 --> 00:05:01.560 
+you'll see that you know the IPC ranges
+from<00:04:59.200> or<00:04:59.590> the<00:05:00.220> normalized<00:05:00.670> IPC<00:05:01.090> ranges<00:05:01.450> from
+
+00:05:01.560 --> 00:05:01.570 
+from or the normalized IPC ranges from
+
+00:05:01.570 --> 00:05:03.930 
+from or the normalized IPC ranges from
+one<00:05:01.840> point<00:05:02.020> one<00:05:02.260> four<00:05:02.500> to<00:05:03.220> one<00:05:03.370> point<00:05:03.580> four
+
+00:05:03.930 --> 00:05:03.940 
+one point one four to one point four
+
+00:05:03.940 --> 00:05:06.570 
+one point one four to one point four
+eight<00:05:04.150> right<00:05:04.510> so<00:05:04.810> if<00:05:05.530> I<00:05:05.710> ran<00:05:05.860> gzip<00:05:06.220> by<00:05:06.310> itself
+
+00:05:06.570 --> 00:05:06.580 
+eight right so if I ran gzip by itself
+
+00:05:06.580 --> 00:05:09.690 
+eight right so if I ran gzip by itself
+the<00:05:06.850> IPC<00:05:07.240> would<00:05:07.390> be<00:05:07.540> 1.0<00:05:08.410> when<00:05:09.130> I<00:05:09.160> run<00:05:09.370> gzip
+
+00:05:09.690 --> 00:05:09.700 
+the IPC would be 1.0 when I run gzip
+
+00:05:09.700 --> 00:05:11.430 
+the IPC would be 1.0 when I run gzip
+with<00:05:09.820> somebody<00:05:10.150> else<00:05:10.300> the<00:05:10.420> total<00:05:10.720> IPC<00:05:11.110> can<00:05:11.320> be
+
+00:05:11.430 --> 00:05:11.440 
+with somebody else the total IPC can be
+
+00:05:11.440 --> 00:05:13.950 
+with somebody else the total IPC can be
+as<00:05:11.590> high<00:05:11.860> as<00:05:11.890> one<00:05:12.460> point<00:05:12.730> four<00:05:12.940> eight<00:05:13.120> and<00:05:13.330> you
+
+00:05:13.950 --> 00:05:13.960 
+as high as one point four eight and you
+
+00:05:13.960 --> 00:05:15.420 
+as high as one point four eight and you
+could<00:05:14.110> interpret<00:05:14.350> that<00:05:14.530> as<00:05:14.950> you<00:05:15.190> know<00:05:15.280> maybe
+
+00:05:15.420 --> 00:05:15.430 
+could interpret that as you know maybe
+
+00:05:15.430 --> 00:05:17.250 
+could interpret that as you know maybe
+gzip<00:05:15.850> rotting<00:05:16.120> at<00:05:16.210> point<00:05:16.450> seven<00:05:16.600> four<00:05:16.930> and<00:05:16.960> the
+
+00:05:17.250 --> 00:05:17.260 
+gzip rotting at point seven four and the
+
+00:05:17.260 --> 00:05:18.840 
+gzip rotting at point seven four and the
+other<00:05:17.380> program<00:05:17.800> running<00:05:18.250> at<00:05:18.340> point<00:05:18.580> seven
+
+00:05:18.840 --> 00:05:18.850 
+other program running at point seven
+
+00:05:18.850 --> 00:05:21.090 
+other program running at point seven
+four<00:05:19.230> okay<00:05:20.230> so<00:05:20.290> this<00:05:20.440> is<00:05:20.590> similar<00:05:20.770> to<00:05:21.010> the
+
+00:05:21.090 --> 00:05:21.100 
+four okay so this is similar to the
+
+00:05:21.100 --> 00:05:22.790 
+four okay so this is similar to the
+numbers<00:05:21.400> I<00:05:21.490> just<00:05:21.670> had<00:05:21.850> in<00:05:22.000> my<00:05:22.150> earlier<00:05:22.660> example
+
+00:05:22.790 --> 00:05:22.800 
+numbers I just had in my earlier example
+
+00:05:22.800 --> 00:05:26.160 
+numbers I just had in my earlier example
+so<00:05:23.800> if<00:05:24.070> you<00:05:24.190> look<00:05:24.340> at<00:05:24.430> the<00:05:24.550> final<00:05:25.170> average
+
+00:05:26.160 --> 00:05:26.170 
+so if you look at the final average
+
+00:05:26.170 --> 00:05:28.860 
+so if you look at the final average
+throughput<00:05:26.560> it<00:05:26.890> says<00:05:27.100> one<00:05:27.340> point<00:05:27.610> two<00:05:27.760> okay<00:05:28.720> so
+
+00:05:28.860 --> 00:05:28.870 
+throughput it says one point two okay so
+
+00:05:28.870 --> 00:05:31.110 
+throughput it says one point two okay so
+if<00:05:29.170> your<00:05:29.290> programs<00:05:29.710> are<00:05:30.070> well<00:05:30.460> represented<00:05:30.670> by
+
+00:05:31.110 --> 00:05:31.120 
+if your programs are well represented by
+
+00:05:31.120 --> 00:05:33.330 
+if your programs are well represented by
+the<00:05:31.270> spec<00:05:31.600> workloads<00:05:32.050> then<00:05:32.860> it<00:05:32.950> means<00:05:33.160> that
+
+00:05:33.330 --> 00:05:33.340 
+the spec workloads then it means that
+
+00:05:33.340 --> 00:05:35.310 
+the spec workloads then it means that
+when<00:05:33.460> you<00:05:33.520> want<00:05:33.700> to<00:05:33.850> threads<00:05:34.090> together<00:05:34.320> your
+
+00:05:35.310 --> 00:05:35.320 
+when you want to threads together your
+
+00:05:35.320 --> 00:05:37.350 
+when you want to threads together your
+overall<00:05:35.890> throughput<00:05:36.160> instead<00:05:36.520> of<00:05:36.640> being<00:05:36.820> 1.0
+
+00:05:37.350 --> 00:05:37.360 
+overall throughput instead of being 1.0
+
+00:05:37.360 --> 00:05:40.320 
+overall throughput instead of being 1.0
+becomes<00:05:37.750> 1.2<00:05:38.500> okay<00:05:39.280> so<00:05:39.340> you<00:05:39.580> can<00:05:39.820> say<00:05:40.060> that<00:05:40.090> not
+
+00:05:40.320 --> 00:05:40.330 
+becomes 1.2 okay so you can say that not
+
+00:05:40.330 --> 00:05:42.270 
+becomes 1.2 okay so you can say that not
+on<00:05:40.510> average<00:05:40.900> when<00:05:41.710> I<00:05:41.740> run<00:05:41.920> two<00:05:42.040> threads
+
+00:05:42.270 --> 00:05:42.280 
+on average when I run two threads
+
+00:05:42.280 --> 00:05:44.430 
+on average when I run two threads
+together<00:05:42.580> you<00:05:43.060> know<00:05:43.150> each<00:05:43.330> threads<00:05:43.720> IPC<00:05:44.230> goes
+
+00:05:44.430 --> 00:05:44.440 
+together you know each threads IPC goes
+
+00:05:44.440 --> 00:05:46.980 
+together you know each threads IPC goes
+from<00:05:44.680> 1.0<00:05:45.130> to<00:05:45.250> 0.6<00:05:45.700> okay<00:05:46.600> but<00:05:46.750> since<00:05:46.900> I'm
+
+00:05:46.980 --> 00:05:46.990 
+from 1.0 to 0.6 okay but since I'm
+
+00:05:46.990 --> 00:05:48.780 
+from 1.0 to 0.6 okay but since I'm
+running<00:05:47.110> two<00:05:47.380> of<00:05:47.500> these<00:05:47.650> the<00:05:48.070> net<00:05:48.220> effect<00:05:48.670> is
+
+00:05:48.780 --> 00:05:48.790 
+running two of these the net effect is
+
+00:05:48.790 --> 00:05:51.900 
+running two of these the net effect is
+that<00:05:48.850> my<00:05:49.630> throughput<00:05:49.840> improves<00:05:50.290> to<00:05:50.440> 1.2<00:05:51.190> so
+
+00:05:51.900 --> 00:05:51.910 
+that my throughput improves to 1.2 so
+
+00:05:51.910 --> 00:05:54.030 
+that my throughput improves to 1.2 so
+SMT<00:05:52.300> does<00:05:52.480> help<00:05:52.780> but<00:05:53.170> it<00:05:53.290> can<00:05:53.500> severely<00:05:53.860> impact
+
+00:05:54.030 --> 00:05:54.040 
+SMT does help but it can severely impact
+
+00:05:54.040 --> 00:05:56.280 
+SMT does help but it can severely impact
+the<00:05:54.460> performance<00:05:55.030> of<00:05:55.300> each<00:05:55.570> individual
+
+00:05:56.280 --> 00:05:56.290 
+the performance of each individual
+
+00:05:56.290 --> 00:05:58.530 
+the performance of each individual
+thread
+
