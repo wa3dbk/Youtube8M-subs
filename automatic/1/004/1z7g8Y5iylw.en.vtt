@@ -1,0 +1,561 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.960 
+
+hey<00:00:00.450> guys<00:00:00.750> in<00:00:01.050> this<00:00:01.110> video<00:00:01.500> I'm<00:00:02.190> going<00:00:02.429> to<00:00:02.760> show
+
+00:00:02.960 --> 00:00:02.970 
+hey guys in this video I'm going to show
+
+00:00:02.970 --> 00:00:05.059 
+hey guys in this video I'm going to show
+you<00:00:03.030> how<00:00:03.210> to<00:00:03.959> make<00:00:04.110> an<00:00:04.350> ambient<00:00:04.830> occlusion
+
+00:00:05.059 --> 00:00:05.069 
+you how to make an ambient occlusion
+
+00:00:05.069 --> 00:00:07.519 
+you how to make an ambient occlusion
+pass<00:00:05.580> in<00:00:05.850> Houdini<00:00:06.359> I'm<00:00:06.990> not<00:00:07.109> going<00:00:07.259> to<00:00:07.350> go<00:00:07.500> over
+
+00:00:07.519 --> 00:00:07.529 
+pass in Houdini I'm not going to go over
+
+00:00:07.529 --> 00:00:10.879 
+pass in Houdini I'm not going to go over
+a<00:00:07.830> lot<00:00:08.069> of<00:00:08.130> the<00:00:08.780> finer<00:00:09.780> details<00:00:09.900> but<00:00:10.679> i'm<00:00:10.769> just
+
+00:00:10.879 --> 00:00:10.889 
+a lot of the finer details but i'm just
+
+00:00:10.889 --> 00:00:12.080 
+a lot of the finer details but i'm just
+going<00:00:11.010> to<00:00:11.040> show<00:00:11.130> you<00:00:11.280> how<00:00:11.370> to<00:00:11.460> do<00:00:11.580> this<00:00:11.730> real
+
+00:00:12.080 --> 00:00:12.090 
+going to show you how to do this real
+
+00:00:12.090 --> 00:00:16.189 
+going to show you how to do this real
+fast<00:00:13.099> okay<00:00:14.099> so<00:00:14.880> let's<00:00:15.240> start<00:00:15.420> from<00:00:15.599> scratch<00:00:15.839> at
+
+00:00:16.189 --> 00:00:16.199 
+fast okay so let's start from scratch at
+
+00:00:16.199 --> 00:00:17.900 
+fast okay so let's start from scratch at
+our<00:00:16.289> object<00:00:16.680> level<00:00:16.830> first<00:00:17.460> this<00:00:17.670> is<00:00:17.789> an
+
+00:00:17.900 --> 00:00:17.910 
+our object level first this is an
+
+00:00:17.910 --> 00:00:19.970 
+our object level first this is an
+ambulance<00:00:18.359> engine<00:00:18.570> i<00:00:18.660> made<00:00:18.900> show<00:00:19.439> an<00:00:19.710> example
+
+00:00:19.970 --> 00:00:19.980 
+ambulance engine i made show an example
+
+00:00:19.980 --> 00:00:21.290 
+ambulance engine i made show an example
+of<00:00:20.160> what<00:00:20.310> it<00:00:20.400> looks<00:00:20.520> like<00:00:20.640> i<00:00:20.789> put<00:00:21.000> this<00:00:21.119> little
+
+00:00:21.290 --> 00:00:21.300 
+of what it looks like i put this little
+
+00:00:21.300 --> 00:00:23.060 
+of what it looks like i put this little
+neck<00:00:21.600> on<00:00:21.840> that<00:00:22.199> texture<00:00:22.650> on<00:00:22.740> there<00:00:22.890> in<00:00:22.980> these
+
+00:00:23.060 --> 00:00:23.070 
+neck on that texture on there in these
+
+00:00:23.070 --> 00:00:24.560 
+neck on that texture on there in these
+blocks<00:00:23.430> and<00:00:23.670> his<00:00:23.760> tea<00:00:23.910> pot<00:00:24.090> just<00:00:24.300> to<00:00:24.390> show<00:00:24.539> you
+
+00:00:24.560 --> 00:00:24.570 
+blocks and his tea pot just to show you
+
+00:00:24.570 --> 00:00:26.599 
+blocks and his tea pot just to show you
+what<00:00:24.689> ambient<00:00:25.199> occlusion<00:00:25.350> looks<00:00:25.769> like<00:00:25.949> and<00:00:26.519> we
+
+00:00:26.599 --> 00:00:26.609 
+what ambient occlusion looks like and we
+
+00:00:26.609 --> 00:00:28.070 
+what ambient occlusion looks like and we
+can<00:00:26.730> go<00:00:26.849> into<00:00:27.000> add<00:00:27.180> to<00:00:27.300> adjust<00:00:27.660> the<00:00:27.779> ambient
+
+00:00:28.070 --> 00:00:28.080 
+can go into add to adjust the ambient
+
+00:00:28.080 --> 00:00:29.810 
+can go into add to adjust the ambient
+occlusion<00:00:28.199> in<00:00:28.619> a<00:00:28.680> later<00:00:28.830> video<00:00:29.039> this<00:00:29.519> one<00:00:29.699> is
+
+00:00:29.810 --> 00:00:29.820 
+occlusion in a later video this one is
+
+00:00:29.820 --> 00:00:32.240 
+occlusion in a later video this one is
+just<00:00:29.849> show<00:00:30.210> you<00:00:30.269> how<00:00:30.420> to<00:00:30.480> use<00:00:30.599> it<00:00:30.990> so<00:00:31.800> let's<00:00:32.130> lay
+
+00:00:32.240 --> 00:00:32.250 
+just show you how to use it so let's lay
+
+00:00:32.250 --> 00:00:39.069 
+just show you how to use it so let's lay
+down<00:00:32.430> a<00:00:32.460> grid<00:00:32.759> and<00:00:34.010> let's<00:00:35.010> lay<00:00:35.190> down<00:00:35.430> a<00:00:36.110> teapot
+
+00:00:39.069 --> 00:00:39.079 
+down a grid and let's lay down a teapot
+
+00:00:39.079 --> 00:00:46.770 
+down a grid and let's lay down a teapot
+let's<00:00:40.079> bring<00:00:40.290> it<00:00:40.410> up<00:00:40.790> let's<00:00:41.790> scale<00:00:42.180> it<00:00:42.329> up
+
+00:00:46.770 --> 00:00:46.780 
+
+00:00:46.780 --> 00:00:51.750 
+
+like<00:00:47.350> so<00:00:48.899> okay<00:00:49.899> now<00:00:50.770> the<00:00:51.129> first<00:00:51.309> thing<00:00:51.460> we're
+
+00:00:51.750 --> 00:00:51.760 
+like so okay now the first thing we're
+
+00:00:51.760 --> 00:00:55.430 
+like so okay now the first thing we're
+going<00:00:51.910> to<00:00:51.969> want<00:00:52.030> to<00:00:52.300> do<00:00:52.449> is<00:00:53.640> hit<00:00:54.640> the<00:00:54.760> tab<00:00:54.969> key
+
+00:00:55.430 --> 00:00:55.440 
+going to want to do is hit the tab key
+
+00:00:55.440 --> 00:01:00.020 
+going to want to do is hit the tab key
+type<00:00:56.440> lot<00:00:56.800> and<00:00:57.269> choose<00:00:58.269> the<00:00:58.420> lot<00:00:58.600> template
+
+00:01:00.020 --> 00:01:00.030 
+type lot and choose the lot template
+
+00:01:00.030 --> 00:01:02.369 
+type lot and choose the lot template
+boom<00:01:01.030> this<00:01:01.239> will<00:01:01.420> throw<00:01:01.539> us<00:01:01.719> in<00:01:01.870> our<00:01:02.019> lot
+
+00:01:02.369 --> 00:01:02.379 
+boom this will throw us in our lot
+
+00:01:02.379 --> 00:01:07.950 
+boom this will throw us in our lot
+template<00:01:02.860> okay<00:01:06.210> you<00:01:07.210> can<00:01:07.330> go<00:01:07.360> in<00:01:07.659> your<00:01:07.810> lock
+
+00:01:07.950 --> 00:01:07.960 
+template okay you can go in your lock
+
+00:01:07.960 --> 00:01:09.690 
+template okay you can go in your lock
+template<00:01:08.409> and<00:01:08.560> look<00:01:08.830> and<00:01:08.979> see<00:01:09.190> if<00:01:09.220> you're
+
+00:01:09.690 --> 00:01:09.700 
+template and look and see if you're
+
+00:01:09.700 --> 00:01:11.749 
+template and look and see if you're
+interested<00:01:10.180> in<00:01:10.270> seeing<00:01:10.570> how<00:01:10.600> its<00:01:10.840> laid<00:01:10.990> out
+
+00:01:11.749 --> 00:01:11.759 
+interested in seeing how its laid out
+
+00:01:11.759 --> 00:01:14.460 
+interested in seeing how its laid out
+but<00:01:12.759> for<00:01:12.940> now<00:01:12.970> we're<00:01:13.960> just<00:01:13.990> going<00:01:14.140> to<00:01:14.290> go<00:01:14.440> to
+
+00:01:14.460 --> 00:01:14.470 
+but for now we're just going to go to
+
+00:01:14.470 --> 00:01:21.120 
+but for now we're just going to go to
+our<00:01:15.270> shop<00:01:16.270> network<00:01:17.729> now<00:01:18.729> let's<00:01:18.940> tab<00:01:19.380> type<00:01:20.380> ve<00:01:20.679> x
+
+00:01:21.120 --> 00:01:21.130 
+our shop network now let's tab type ve x
+
+00:01:21.130 --> 00:01:25.649 
+our shop network now let's tab type ve x
+global<00:01:23.399> you<00:01:24.399> see<00:01:24.580> a<00:01:24.610> vex<00:01:24.940> global<00:01:25.420> illumination
+
+00:01:25.649 --> 00:01:25.659 
+global you see a vex global illumination
+
+00:01:25.659 --> 00:01:30.450 
+global you see a vex global illumination
+and<00:01:27.479> we'll<00:01:28.479> lay<00:01:28.659> that<00:01:28.840> down<00:01:29.039> okay<00:01:30.039> so<00:01:30.130> now
+
+00:01:30.450 --> 00:01:30.460 
+and we'll lay that down okay so now
+
+00:01:30.460 --> 00:01:32.100 
+and we'll lay that down okay so now
+let's<00:01:30.490> go<00:01:30.789> back<00:01:30.820> to<00:01:31.000> our<00:01:31.149> shop<00:01:31.390> network<00:01:31.780> or<00:01:31.960> our
+
+00:01:32.100 --> 00:01:32.110 
+let's go back to our shop network or our
+
+00:01:32.110 --> 00:01:37.410 
+let's go back to our shop network or our
+object<00:01:32.500> network<00:01:33.509> select<00:01:34.509> our<00:01:34.690> lot<00:01:36.240> let's<00:01:37.240> go
+
+00:01:37.410 --> 00:01:37.420 
+object network select our lot let's go
+
+00:01:37.420 --> 00:01:41.309 
+object network select our lot let's go
+to<00:01:37.479> our<00:01:37.539> render<00:01:37.990> cab<00:01:38.909> shaders<00:01:40.110> we're<00:01:41.110> going<00:01:41.229> to
+
+00:01:41.309 --> 00:01:41.319 
+to our render cab shaders we're going to
+
+00:01:41.319 --> 00:01:43.080 
+to our render cab shaders we're going to
+define<00:01:41.619> our<00:01:41.800> lock<00:01:42.130> shader<00:01:42.460> here<00:01:42.700> so<00:01:42.850> let's<00:01:43.000> hit
+
+00:01:43.080 --> 00:01:43.090 
+define our lock shader here so let's hit
+
+00:01:43.090 --> 00:01:45.270 
+define our lock shader here so let's hit
+our<00:01:43.210> little<00:01:43.420> button<00:01:43.690> and<00:01:43.840> let's<00:01:44.649> give<00:01:45.009> it<00:01:45.130> the
+
+00:01:45.270 --> 00:01:45.280 
+our little button and let's give it the
+
+00:01:45.280 --> 00:01:47.910 
+our little button and let's give it the
+V<00:01:45.580> the<00:01:46.360> vex<00:01:46.659> global<00:01:47.200> illumination<00:01:47.350> that<00:01:47.830> we
+
+00:01:47.910 --> 00:01:47.920 
+V the vex global illumination that we
+
+00:01:47.920 --> 00:01:52.080 
+V the vex global illumination that we
+just<00:01:48.100> laid<00:01:48.250> down<00:01:49.080> okay<00:01:50.250> so<00:01:51.250> now<00:01:51.520> let's<00:01:51.790> go<00:01:52.060> to
+
+00:01:52.080 --> 00:01:52.090 
+just laid down okay so now let's go to
+
+00:01:52.090 --> 00:01:56.569 
+just laid down okay so now let's go to
+render<00:01:52.659> create<00:01:53.110> a<00:01:53.140> render<00:01:53.469> node<00:01:53.500> man<00:01:54.159> trip
+
+00:01:56.569 --> 00:01:56.579 
+
+00:01:56.579 --> 00:02:00.510 
+
+let's<00:01:57.579> go<00:01:57.729> to<00:01:57.820> our<00:01:57.880> shop
+
+00:02:00.510 --> 00:02:00.520 
+
+00:02:00.520 --> 00:02:02.819 
+
+network<00:02:01.359> make<00:02:01.960> sure<00:02:02.140> everything's<00:02:02.530> set<00:02:02.799> up
+
+00:02:02.819 --> 00:02:02.829 
+network make sure everything's set up
+
+00:02:02.829 --> 00:02:07.130 
+network make sure everything's set up
+I'm<00:02:03.579> going<00:02:03.729> to<00:02:03.789> take<00:02:03.909> my<00:02:04.060> global<00:02:04.359> tent<00:02:04.689> to<00:02:04.899> to
+
+00:02:07.130 --> 00:02:07.140 
+
+00:02:07.140 --> 00:02:09.509 
+
+sampling<00:02:08.140> quality<00:02:08.619> is<00:02:08.769> how<00:02:08.950> good<00:02:09.220> and<00:02:09.489> how
+
+00:02:09.509 --> 00:02:09.519 
+sampling quality is how good and how
+
+00:02:09.519 --> 00:02:11.820 
+sampling quality is how good and how
+well<00:02:09.970> it's<00:02:10.179> going<00:02:10.269> to<00:02:10.390> look<00:02:10.629> I'll<00:02:11.200> reduce<00:02:11.620> this
+
+00:02:11.820 --> 00:02:11.830 
+well it's going to look I'll reduce this
+
+00:02:11.830 --> 00:02:14.309 
+well it's going to look I'll reduce this
+to<00:02:11.890> 64<00:02:12.580> and<00:02:12.790> you'll<00:02:13.000> see<00:02:13.269> that<00:02:13.540> the<00:02:13.750> speed<00:02:14.200> of
+
+00:02:14.309 --> 00:02:14.319 
+to 64 and you'll see that the speed of
+
+00:02:14.319 --> 00:02:16.589 
+to 64 and you'll see that the speed of
+the<00:02:14.349> render<00:02:14.650> will<00:02:14.830> be<00:02:15.010> a<00:02:15.040> lot<00:02:15.250> better<00:02:15.480> but<00:02:16.480> it
+
+00:02:16.589 --> 00:02:16.599 
+the render will be a lot better but it
+
+00:02:16.599 --> 00:02:20.280 
+the render will be a lot better but it
+won't<00:02:16.720> be<00:02:16.810> as<00:02:16.980> sharp<00:02:17.980> let's<00:02:18.640> go<00:02:18.760> to<00:02:18.819> out<00:02:19.290> let's
+
+00:02:20.280 --> 00:02:20.290 
+won't be as sharp let's go to out let's
+
+00:02:20.290 --> 00:02:21.990 
+won't be as sharp let's go to out let's
+control<00:02:21.069> click<00:02:21.370> the<00:02:21.459> camera<00:02:21.670> and<00:02:21.879> add<00:02:21.970> a
+
+00:02:21.990 --> 00:02:22.000 
+control click the camera and add a
+
+00:02:22.000 --> 00:02:28.559 
+control click the camera and add a
+camera<00:02:24.720> and<00:02:26.580> let's<00:02:27.580> go<00:02:27.700> to<00:02:27.760> our<00:02:27.849> banter<00:02:28.390> node
+
+00:02:28.559 --> 00:02:28.569 
+camera and let's go to our banter node
+
+00:02:28.569 --> 00:02:34.670 
+camera and let's go to our banter node
+and<00:02:28.750> render<00:02:29.190> see<00:02:30.190> what<00:02:30.310> we<00:02:30.430> get
+
+00:02:34.670 --> 00:02:34.680 
+
+00:02:34.680 --> 00:02:37.670 
+
+and<00:02:35.129> there<00:02:35.519> we<00:02:35.640> go<00:02:35.670> there's<00:02:36.480> our<00:02:36.719> ambient
+
+00:02:37.670 --> 00:02:37.680 
+and there we go there's our ambient
+
+00:02:37.680 --> 00:02:40.940 
+and there we go there's our ambient
+occlusion<00:02:38.069> pass<00:02:38.549> and<00:02:39.510> Houdini<00:02:40.409> it's<00:02:40.650> that
+
+00:02:40.940 --> 00:02:40.950 
+occlusion pass and Houdini it's that
+
+00:02:40.950 --> 00:02:45.759 
+occlusion pass and Houdini it's that
+easy<00:02:41.219> guys<00:02:41.700> no<00:02:42.180> problem<00:02:42.780> if<00:02:43.590> you<00:02:43.680> want<00:02:43.859> to<00:02:43.950> add
+
+00:02:45.759 --> 00:02:45.769 
+easy guys no problem if you want to add
+
+00:02:45.769 --> 00:02:48.170 
+easy guys no problem if you want to add
+let's<00:02:46.769> go<00:02:46.859> back<00:02:47.010> to<00:02:47.040> our<00:02:47.129> shop<00:02:47.340> network<00:02:47.549> now
+
+00:02:48.170 --> 00:02:48.180 
+let's go back to our shop network now
+
+00:02:48.180 --> 00:02:49.490 
+let's go back to our shop network now
+let's<00:02:48.359> go<00:02:48.450> to<00:02:48.510> our<00:02:48.540> materials<00:02:49.049> palette<00:02:49.409> and
+
+00:02:49.490 --> 00:02:49.500 
+let's go to our materials palette and
+
+00:02:49.500 --> 00:02:53.589 
+let's go to our materials palette and
+let's<00:02:50.069> add<00:02:50.189> a<00:02:50.250> simple<00:02:50.730> displace<00:02:52.310> like<00:02:53.310> this
+
+00:02:53.589 --> 00:02:53.599 
+let's add a simple displace like this
+
+00:02:53.599 --> 00:02:56.059 
+let's add a simple displace like this
+let's<00:02:54.599> pick<00:02:54.840> our<00:02:54.989> simple<00:02:55.349> displace<00:02:55.680> let's<00:02:55.920> use
+
+00:02:56.059 --> 00:02:56.069 
+let's pick our simple displace let's use
+
+00:02:56.069 --> 00:03:00.440 
+let's pick our simple displace let's use
+a<00:02:56.099> displacement<00:02:56.549> map<00:02:56.909> and<00:02:57.290> let's<00:02:58.290> pick<00:02:59.450> let's
+
+00:03:00.440 --> 00:03:00.450 
+a displacement map and let's pick let's
+
+00:03:00.450 --> 00:03:01.940 
+a displacement map and let's pick let's
+see<00:03:00.659> here<00:03:00.870> what<00:03:00.989> can<00:03:01.139> we<00:03:01.260> pick<00:03:01.500> what<00:03:01.739> looks
+
+00:03:01.940 --> 00:03:01.950 
+see here what can we pick what looks
+
+00:03:01.950 --> 00:03:05.119 
+see here what can we pick what looks
+good<00:03:02.040> to<00:03:02.370> you<00:03:02.430> let's<00:03:03.180> pick<00:03:03.329> this<00:03:03.359> Apple<00:03:04.129> will
+
+00:03:05.119 --> 00:03:05.129 
+good to you let's pick this Apple will
+
+00:03:05.129 --> 00:03:08.059 
+good to you let's pick this Apple will
+open<00:03:05.459> that<00:03:05.609> up<00:03:06.230> okay<00:03:07.230> everything<00:03:07.590> looks<00:03:07.620> good
+
+00:03:08.059 --> 00:03:08.069 
+open that up okay everything looks good
+
+00:03:08.069 --> 00:03:12.890 
+open that up okay everything looks good
+let's<00:03:08.549> go<00:03:08.700> back<00:03:08.849> to<00:03:08.879> our<00:03:08.970> object<00:03:09.389> level<00:03:11.900> select
+
+00:03:12.890 --> 00:03:12.900 
+let's go back to our object level select
+
+00:03:12.900 --> 00:03:16.819 
+let's go back to our object level select
+our<00:03:13.079> grid<00:03:14.629> just<00:03:15.629> make<00:03:15.810> our<00:03:15.959> rows<00:03:16.200> and<00:03:16.439> columns
+
+00:03:16.819 --> 00:03:16.829 
+our grid just make our rows and columns
+
+00:03:16.829 --> 00:03:23.449 
+our grid just make our rows and columns
+to<00:03:20.750> go<00:03:21.750> back<00:03:21.930> to<00:03:22.079> our<00:03:22.109> shop<00:03:22.409> network<00:03:22.709> and<00:03:23.219> let's
+
+00:03:23.449 --> 00:03:23.459 
+to go back to our shop network and let's
+
+00:03:23.459 --> 00:03:25.360 
+to go back to our shop network and let's
+look<00:03:23.609> and<00:03:23.760> see<00:03:23.849> how<00:03:24.060> we<00:03:24.120> got<00:03:24.299> this<00:03:24.510> set<00:03:24.750> up<00:03:24.780> here
+
+00:03:25.360 --> 00:03:25.370 
+look and see how we got this set up here
+
+00:03:25.370 --> 00:03:30.220 
+look and see how we got this set up here
+it's<00:03:26.370> on<00:03:26.489> repeat<00:03:26.730> and<00:03:27.150> let's<00:03:27.359> make<00:03:27.510> it<00:03:27.569> decal
+
+00:03:30.220 --> 00:03:30.230 
+
+00:03:30.230 --> 00:03:33.500 
+
+let's<00:03:31.230> go<00:03:31.409> to<00:03:31.500> our<00:03:31.579> out<00:03:32.579> and<00:03:32.939> let's<00:03:33.299> grab<00:03:33.480> a
+
+00:03:33.500 --> 00:03:33.510 
+let's go to our out and let's grab a
+
+00:03:33.510 --> 00:03:37.670 
+let's go to our out and let's grab a
+quick<00:03:33.780> render<00:03:36.079> this<00:03:37.079> is<00:03:37.260> what<00:03:37.439> it's<00:03:37.530> going<00:03:37.620> to
+
+00:03:37.670 --> 00:03:37.680 
+quick render this is what it's going to
+
+00:03:37.680 --> 00:03:40.729 
+quick render this is what it's going to
+look<00:03:37.769> like<00:03:37.950> before<00:03:38.400> our<00:03:38.970> displacement<00:03:39.620> as<00:03:40.620> you
+
+00:03:40.729 --> 00:03:40.739 
+look like before our displacement as you
+
+00:03:40.739 --> 00:03:42.050 
+look like before our displacement as you
+can<00:03:40.829> see<00:03:40.979> it's<00:03:41.129> just<00:03:41.159> a<00:03:41.310> regular<00:03:41.519> ambient
+
+00:03:42.050 --> 00:03:42.060 
+can see it's just a regular ambient
+
+00:03:42.060 --> 00:03:44.659 
+can see it's just a regular ambient
+occlusion<00:03:42.180> pass<00:03:42.949> so<00:03:43.949> now<00:03:44.099> that<00:03:44.250> we've<00:03:44.370> set<00:03:44.579> up
+
+00:03:44.659 --> 00:03:44.669 
+occlusion pass so now that we've set up
+
+00:03:44.669 --> 00:03:45.680 
+occlusion pass so now that we've set up
+our<00:03:44.790> displacement<00:03:45.120> let's<00:03:45.479> go<00:03:45.569> to<00:03:45.629> our
+
+00:03:45.680 --> 00:03:45.690 
+our displacement let's go to our
+
+00:03:45.690 --> 00:03:47.539 
+our displacement let's go to our
+material<00:03:46.109> tab<00:03:46.260> tablet<00:03:46.739> here<00:03:47.010> that's<00:03:47.190> this<00:03:47.340> one
+
+00:03:47.539 --> 00:03:47.549 
+material tab tablet here that's this one
+
+00:03:47.549 --> 00:03:53.910 
+material tab tablet here that's this one
+this<00:03:48.329> drag<00:03:48.659> and<00:03:48.840> drop<00:03:48.959> it<00:03:49.019> onto<00:03:49.319> our<00:03:49.879> grid
+
+00:03:53.910 --> 00:03:53.920 
+
+00:03:53.920 --> 00:03:57.860 
+
+now<00:03:54.490> as<00:03:54.700> you<00:03:54.819> can<00:03:54.940> see<00:03:55.140> we<00:03:56.140> have<00:03:56.349> our<00:03:56.380> apple
+
+00:03:57.860 --> 00:03:57.870 
+now as you can see we have our apple
+
+00:03:57.870 --> 00:04:03.140 
+now as you can see we have our apple
+right<00:03:58.870> in<00:03:59.050> the<00:03:59.170> middle<00:03:59.349> of<00:03:59.590> our<00:04:00.489> grid<00:04:00.810> okay
+
+00:04:03.140 --> 00:04:03.150 
+right in the middle of our grid okay
+
+00:04:03.150 --> 00:04:05.699 
+right in the middle of our grid okay
+this<00:04:04.150> is<00:04:04.390> how<00:04:04.510> you<00:04:04.599> make<00:04:04.989> an<00:04:05.260> ambient
+
+00:04:05.699 --> 00:04:05.709 
+this is how you make an ambient
+
+00:04:05.709 --> 00:04:11.220 
+this is how you make an ambient
+occlusion<00:04:05.890> pass<00:04:06.370> em<00:04:06.959> inside<00:04:08.700> Houdini<00:04:10.230> and
+
+00:04:11.220 --> 00:04:11.230 
+occlusion pass em inside Houdini and
+
+00:04:11.230 --> 00:04:13.140 
+occlusion pass em inside Houdini and
+it's<00:04:11.590> that<00:04:11.800> simple<00:04:12.069> you<00:04:12.580> lay<00:04:12.730> down<00:04:12.760> your<00:04:12.940> life
+
+00:04:13.140 --> 00:04:13.150 
+it's that simple you lay down your life
+
+00:04:13.150 --> 00:04:15.270 
+it's that simple you lay down your life
+template<00:04:13.690> you<00:04:14.170> lay<00:04:14.560> down<00:04:14.590> your<00:04:14.770> global
+
+00:04:15.270 --> 00:04:15.280 
+template you lay down your global
+
+00:04:15.280 --> 00:04:16.680 
+template you lay down your global
+illumination<00:04:15.489> inside<00:04:16.150> your<00:04:16.299> shop<00:04:16.450> network
+
+00:04:16.680 --> 00:04:16.690 
+illumination inside your shop network
+
+00:04:16.690 --> 00:04:18.659 
+illumination inside your shop network
+you<00:04:17.380> point<00:04:17.680> them<00:04:17.739> to<00:04:17.919> one<00:04:18.010> another<00:04:18.280> and<00:04:18.489> you
+
+00:04:18.659 --> 00:04:18.669 
+you point them to one another and you
+
+00:04:18.669 --> 00:04:20.400 
+you point them to one another and you
+have<00:04:18.820> your<00:04:18.970> ambient<00:04:19.329> occlusion<00:04:19.450> it's<00:04:20.200> that
+
+00:04:20.400 --> 00:04:20.410 
+have your ambient occlusion it's that
+
+00:04:20.410 --> 00:04:23.760 
+have your ambient occlusion it's that
+easy<00:04:20.560> thanks<00:04:21.250> for<00:04:21.370> watching<00:04:21.400> guys
+

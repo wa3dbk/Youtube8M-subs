@@ -1,0 +1,397 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:10.140 --> 00:00:13.830
+ as we have seen in the videos 
+
+00:00:11.670 --> 00:00:16.800
+ previous tutorials related to 
+
+00:00:13.830 --> 00:00:19.950
+ wake on lan what we have to do is 
+
+00:00:16.800 --> 00:00:22.470
+ find out the mch of the remote computer that 
+
+00:00:19.950 --> 00:00:24.689
+ we want to wake up well we are going to 
+
+00:00:22.470 --> 00:00:26.820
+ see it both on a windows system as 
+
+00:00:24.689 --> 00:00:28.670
+ in a linux system how to get the mac 
+
+00:00:26.820 --> 00:00:31.040
+ of the team 
+
+00:00:28.670 --> 00:00:34.220
+ well imagine that we are in the team 
+
+00:00:31.040 --> 00:00:36.290
+ In this case, remote is valid in an 
+
+00:00:34.220 --> 00:00:39.250
+ windows as we find out the brand 
+
+00:00:36.290 --> 00:00:42.890
+ so very simple there are different ways 
+
+00:00:39.250 --> 00:00:45.260
+ one of them is to go to the little drawing 
+
+00:00:42.890 --> 00:00:47.750
+ that we have down to the right of the network 
+
+00:00:45.260 --> 00:00:50.230
+ of the two computers we click with 
+
+00:00:47.750 --> 00:00:50.230
+ the secondary button 
+
+00:00:52.200 --> 00:00:56.480
+ we select the state option 
+
+00:00:56.600 --> 00:01:01.480
+ and we click on the support tab 
+
+00:01:01.670 --> 00:01:07.119
+ and then we click on the button 
+
+00:01:04.400 --> 00:01:07.119
+ details 
+
+00:01:07.370 --> 00:01:14.540
+ and here in the address section 
+
+00:01:09.800 --> 00:01:16.730
+ physical we have the mac address of the 
+
+00:01:14.540 --> 00:01:19.460
+ computer in this case the network card 
+
+00:01:16.730 --> 00:01:22.970
+ that we are going to use to awaken this 
+
+00:01:19.460 --> 00:01:24.470
+ computer in agreement this would be one of 
+
+00:01:22.970 --> 00:01:26.020
+ the ways to get the 
+
+00:01:24.470 --> 00:01:29.219
+ mac address 
+
+00:01:26.020 --> 00:01:32.579
+ or physical address of the network card 
+
+00:01:29.219 --> 00:01:35.110
+ another which would be going to close 
+
+00:01:32.579 --> 00:01:39.840
+ we close 
+
+00:01:35.110 --> 00:01:41.820
+ we would go to a symbol of the system 
+
+00:01:39.840 --> 00:01:44.280
+ we click on command prompt and if 
+
+00:01:41.820 --> 00:01:46.520
+ we do not have it here we go to all 
+
+00:01:44.280 --> 00:01:49.329
+ programs 
+
+00:01:46.520 --> 00:01:49.329
+ accessories 
+
+00:01:50.100 --> 00:01:53.210
+ and system symbol 
+
+00:01:54.130 --> 00:02:02.680
+ and type the ipconfig command 
+
+00:01:59.250 --> 00:02:05.700
+ bar space 
+
+00:02:02.680 --> 00:02:05.700
+ press enter 
+
+00:02:06.720 --> 00:02:11.869
+ and what we have to look for is in this 
+
+00:02:09.540 --> 00:02:11.869
+ case 
+
+00:02:13.760 --> 00:02:18.890
+ here we have it physical address in this 
+
+00:02:16.939 --> 00:02:21.439
+ case be careful if you have several 
+
+00:02:18.890 --> 00:02:23.769
+ network cards is worth because you will have to 
+
+00:02:21.439 --> 00:02:26.269
+ look for the card that in this case is 
+
+00:02:23.769 --> 00:02:28.879
+ we are using to awaken the 
+
+00:02:26.269 --> 00:02:33.079
+ computer ok in this case we have a 
+
+00:02:28.879 --> 00:02:36.560
+ as it is 80% of the time and there 
+
+00:02:33.079 --> 00:02:37.849
+ You see here we have physical address of 
+
+00:02:36.560 --> 00:02:42.950
+ agreement what we would do would be 
+
+00:02:37.849 --> 00:02:45.019
+ point that mac to then use it 
+
+00:02:42.950 --> 00:02:47.030
+ it then this would be the other way 
+
+00:02:45.019 --> 00:02:49.170
+ we could use from an environment 
+
+00:02:47.030 --> 00:02:51.599
+ windows 
+
+00:02:49.170 --> 00:02:53.580
+ ok now let's see how we could 
+
+00:02:51.599 --> 00:02:55.610
+ do it in an easy way from a 
+
+00:02:53.580 --> 00:02:58.190
+ linux system 
+
+00:02:55.610 --> 00:03:01.490
+ well in this case we are going to use 
+
+00:02:58.190 --> 00:03:03.860
+ this machine that has installed 
+
+00:03:01.490 --> 00:03:06.040
+ devia and let's see how we could 
+
+00:03:03.860 --> 00:03:06.040
+ do 
+
+00:03:09.450 --> 00:03:14.280
+ just as we have done in the 
+
+00:03:12.180 --> 00:03:16.769
+ environment windows we are going to do in the 
+
+00:03:14.280 --> 00:03:19.410
+ vial system that is going to see 
+
+00:03:16.769 --> 00:03:22.440
+ first a graphic way and then a 
+
+00:03:19.410 --> 00:03:26.280
+ way in command mode it comes in way 
+
+00:03:22.440 --> 00:03:29.450
+ graphic a simple method would be open 
+
+00:03:26.280 --> 00:03:29.450
+ the applications menu 
+
+00:03:29.640 --> 00:03:37.910
+ System tools 
+
+00:03:32.250 --> 00:03:37.910
+ and we select network tools 
+
+00:03:38.700 --> 00:03:43.019
+ then in this window that simply 
+
+00:03:41.280 --> 00:03:45.480
+ has a series of utilities 
+
+00:03:43.019 --> 00:03:48.690
+ related to 
+
+00:03:45.480 --> 00:03:50.220
+ with the world of networks ' we have to 
+
+00:03:48.690 --> 00:03:51.930
+ appears on this tab first 
+
+00:03:50.220 --> 00:03:54.989
+ devices and the different 
+
+00:03:51.930 --> 00:03:56.190
+ network devices or cards us 
+
+00:03:54.989 --> 00:03:59.459
+ what we have to do is simply 
+
+00:03:56.190 --> 00:04:01.739
+ open this list and select the 
+
+00:03:59.459 --> 00:04:06.390
+ network card that we are using in 
+
+00:04:01.739 --> 00:04:09.900
+ this case the etea h3 we click 
+
+00:04:06.390 --> 00:04:13.050
+ and set down here address hardware 
+
+00:04:09.900 --> 00:04:16.200
+ the one that appears here the one that I am 
+
+00:04:13.050 --> 00:04:19.200
+ pointing right now is the mac this 
+
+00:04:16.200 --> 00:04:21.390
+ Terre card worth this would be the one 
+
+00:04:19.200 --> 00:04:24.270
+ we should use if we are going to 
+
+00:04:21.390 --> 00:04:27.180
+ wake up this computer in agreement 
+
+00:04:24.270 --> 00:04:30.030
+ from another from another team well 
+
+00:04:27.180 --> 00:04:32.390
+ we would sign it and we could already 
+
+00:04:30.030 --> 00:04:34.680
+ use from the other computer to 
+
+00:04:32.390 --> 00:04:38.130
+ wake up this we are seeing now 
+
+00:04:34.680 --> 00:04:42.720
+ same here agree well let's see another 
+
+00:04:38.130 --> 00:04:47.450
+ way of power in this case get the 
+
+00:04:42.720 --> 00:04:47.450
+ I love it well let's go out 
+
+00:04:47.740 --> 00:04:51.979
+ with tools and go out 
+
+00:04:50.300 --> 00:04:55.220
+ and in this case what we are going to do 
+
+00:04:51.979 --> 00:04:58.950
+ now it's in command mode so what 
+
+00:04:55.220 --> 00:05:01.689
+ we have to do is go to accessories 
+
+00:04:58.950 --> 00:05:05.240
+ inside the main menu 
+
+00:05:01.689 --> 00:05:09.620
+ and then click on terminal 
+
+00:05:05.240 --> 00:05:13.630
+ and now just type the command and 
+
+00:05:09.620 --> 00:05:18.289
+ efe config space 
+
+00:05:13.630 --> 00:05:21.229
+ today trust dry we press intro 
+
+00:05:18.289 --> 00:05:24.830
+ and in this case gives us an error because 
+
+00:05:21.229 --> 00:05:26.500
+ we are like as users therefore 
+
+00:05:24.830 --> 00:05:31.890
+ we will enter 
+
+00:05:26.500 --> 00:05:31.890
+ We type room's password 
+
+00:05:33.400 --> 00:05:37.660
+ we go back to typing the command and 
+
+00:05:36.910 --> 00:05:39.880
+ efe 
+
+00:05:37.660 --> 00:05:42.580
+ press enter 
+
+00:05:39.880 --> 00:05:44.440
+ and fix it appears the name of the 
+
+00:05:42.580 --> 00:05:49.240
+ network card as we saw before the etea 
+
+00:05:44.440 --> 00:05:52.420
+ h3 in a linux system and fix this 
+
+00:05:49.240 --> 00:05:54.670
+ that we have here is the mac address of 
+
+00:05:52.420 --> 00:05:57.260
+ the network card the same as we have 
+
+00:05:54.670 --> 00:06:00.020
+ seen before graphically 
+
+00:05:57.260 --> 00:06:02.210
+ okay then well 
+
+00:06:00.020 --> 00:06:05.150
+ in this way in this video tutorial 
+
+00:06:02.210 --> 00:06:07.639
+ we have seen how to obtain the brand of 
+
+00:06:05.150 --> 00:06:09.650
+ remote computer where we would have 
+
+00:06:07.639 --> 00:06:12.169
+ simply that you start the system so much 
+
+00:06:09.650 --> 00:06:16.069
+ windows or linux and then being in the 
+
+00:06:12.169 --> 00:06:18.830
+ system get the mac address or well 
+
+00:06:16.069 --> 00:06:22.009
+ graphically or in command mode 
+
+00:06:18.830 --> 00:06:24.590
+ As we have done, we would point it out in 
+
+00:06:22.009 --> 00:06:26.990
+ a piece of paper and in this way the 
+
+00:06:24.590 --> 00:06:29.930
+ we could use to wake up 
+
+00:06:26.990 --> 00:06:32.569
+ these computers as we will see in the 
+
+00:06:29.930 --> 00:06:35.599
+ Next tutorial video is worth 
+
+00:06:32.569 --> 00:06:38.470
+ here we have finished agreement come 
+
+00:06:35.599 --> 00:06:38.470
+ see you later 
+
