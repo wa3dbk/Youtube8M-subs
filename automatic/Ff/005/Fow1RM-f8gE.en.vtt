@@ -1,0 +1,406 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.780 
+
+hello<00:00:00.630> this<00:00:00.900> is<00:00:00.930> zach<00:00:01.350> from<00:00:01.680> I<00:00:01.860> teen<00:00:02.220> computer
+
+00:00:02.780 --> 00:00:02.790 
+hello this is zach from I teen computer
+
+00:00:02.790 --> 00:00:05.570 
+hello this is zach from I teen computer
+services<00:00:03.300> in<00:00:03.510> this<00:00:04.259> tutorial<00:00:04.470> I'm<00:00:05.069> going<00:00:05.310> to
+
+00:00:05.570 --> 00:00:05.580 
+services in this tutorial I'm going to
+
+00:00:05.580 --> 00:00:07.670 
+services in this tutorial I'm going to
+show<00:00:05.700> you<00:00:05.940> how<00:00:06.299> to<00:00:06.359> add<00:00:06.810> Active<00:00:07.470> Directory
+
+00:00:07.670 --> 00:00:07.680 
+show you how to add Active Directory
+
+00:00:07.680 --> 00:00:11.150 
+show you how to add Active Directory
+domain<00:00:08.490> groups<00:00:08.910> to<00:00:09.269> the<00:00:09.420> sudoers<00:00:09.780> file<00:00:10.200> this
+
+00:00:11.150 --> 00:00:11.160 
+domain groups to the sudoers file this
+
+00:00:11.160 --> 00:00:12.850 
+domain groups to the sudoers file this
+is<00:00:11.340> really<00:00:11.490> helpful<00:00:11.670> for<00:00:12.120> administration
+
+00:00:12.850 --> 00:00:12.860 
+is really helpful for administration
+
+00:00:12.860 --> 00:00:14.810 
+is really helpful for administration
+first<00:00:13.860> thing<00:00:14.040> you're<00:00:14.190> going<00:00:14.309> to<00:00:14.370> need<00:00:14.490> to<00:00:14.670> do
+
+00:00:14.810 --> 00:00:14.820 
+first thing you're going to need to do
+
+00:00:14.820 --> 00:00:18.260 
+first thing you're going to need to do
+is<00:00:15.059> open<00:00:15.420> up<00:00:15.750> a<00:00:15.929> terminal<00:00:16.199> window<00:00:17.270> meanwhile
+
+00:00:18.260 --> 00:00:18.270 
+is open up a terminal window meanwhile
+
+00:00:18.270 --> 00:00:19.910 
+is open up a terminal window meanwhile
+needs<00:00:18.630> note<00:00:18.900> that<00:00:19.140> we<00:00:19.260> are<00:00:19.289> logged<00:00:19.560> in<00:00:19.740> as<00:00:19.890> a
+
+00:00:19.910 --> 00:00:19.920 
+needs note that we are logged in as a
+
+00:00:19.920 --> 00:00:23.019 
+needs note that we are logged in as a
+local<00:00:20.460> account<00:00:20.550> that<00:00:21.029> has<00:00:21.240> sudo<00:00:21.689> privileges
+
+00:00:23.019 --> 00:00:23.029 
+local account that has sudo privileges
+
+00:00:23.029 --> 00:00:28.900 
+local account that has sudo privileges
+so<00:00:24.029> start<00:00:24.359> off<00:00:24.510> by<00:00:25.250> typing<00:00:26.250> sudo<00:00:26.730> VI<00:00:27.449> sudo<00:00:28.080> and
+
+00:00:28.900 --> 00:00:28.910 
+so start off by typing sudo VI sudo and
+
+00:00:28.910 --> 00:00:32.269 
+so start off by typing sudo VI sudo and
+then<00:00:29.910> your<00:00:30.090> password<00:00:30.210> if<00:00:30.599> it<00:00:30.689> prompts<00:00:31.050> you<00:00:31.279> so
+
+00:00:32.269 --> 00:00:32.279 
+then your password if it prompts you so
+
+00:00:32.279 --> 00:00:34.040 
+then your password if it prompts you so
+this<00:00:32.460> opens<00:00:32.850> up<00:00:32.969> what's<00:00:33.239> called<00:00:33.329> the<00:00:33.600> sudoers
+
+00:00:34.040 --> 00:00:34.050 
+this opens up what's called the sudoers
+
+00:00:34.050 --> 00:00:37.850 
+this opens up what's called the sudoers
+file<00:00:34.790> this<00:00:35.790> is<00:00:36.000> basically<00:00:36.600> the<00:00:36.899> configuration
+
+00:00:37.850 --> 00:00:37.860 
+file this is basically the configuration
+
+00:00:37.860 --> 00:00:42.200 
+file this is basically the configuration
+file<00:00:38.100> for<00:00:38.489> the<00:00:38.730> sudras<00:00:39.239> command<00:00:40.170> and<00:00:41.210> it
+
+00:00:42.200 --> 00:00:42.210 
+file for the sudras command and it
+
+00:00:42.210 --> 00:00:44.119 
+file for the sudras command and it
+defines<00:00:42.540> who<00:00:42.870> can<00:00:43.110> use<00:00:43.290> a<00:00:43.320> command<00:00:43.649> and<00:00:43.950> what
+
+00:00:44.119 --> 00:00:44.129 
+defines who can use a command and what
+
+00:00:44.129 --> 00:00:46.459 
+defines who can use a command and what
+credentials<00:00:44.460> they<00:00:44.730> need<00:00:44.879> to<00:00:45.030> have<00:00:45.230> so<00:00:46.230> if<00:00:46.350> you
+
+00:00:46.459 --> 00:00:46.469 
+credentials they need to have so if you
+
+00:00:46.469 --> 00:00:48.170 
+credentials they need to have so if you
+scroll<00:00:46.739> down<00:00:46.920> to<00:00:47.100> the<00:00:47.190> bottom<00:00:47.280> you<00:00:47.730> should<00:00:47.969> see
+
+00:00:48.170 --> 00:00:48.180 
+scroll down to the bottom you should see
+
+00:00:48.180 --> 00:00:50.150 
+scroll down to the bottom you should see
+this<00:00:48.510> section<00:00:49.020> which<00:00:49.260> is<00:00:49.289> members<00:00:49.860> of<00:00:50.070> the
+
+00:00:50.150 --> 00:00:50.160 
+this section which is members of the
+
+00:00:50.160 --> 00:00:52.880 
+this section which is members of the
+admin<00:00:50.579> group<00:00:50.760> and<00:00:51.120> we<00:00:52.020> want<00:00:52.199> to<00:00:52.289> add<00:00:52.410> ourselves
+
+00:00:52.880 --> 00:00:52.890 
+admin group and we want to add ourselves
+
+00:00:52.890 --> 00:00:55.520 
+admin group and we want to add ourselves
+a<00:00:52.980> new<00:00:53.190> group<00:00:53.840> so<00:00:54.840> first<00:00:55.110> thing<00:00:55.260> you<00:00:55.350> need<00:00:55.469> to
+
+00:00:55.520 --> 00:00:55.530 
+a new group so first thing you need to
+
+00:00:55.530 --> 00:00:57.439 
+a new group so first thing you need to
+do<00:00:55.739> to<00:00:55.770> define<00:00:56.309> that<00:00:56.340> as<00:00:56.520> group<00:00:56.940> is<00:00:57.149> use<00:00:57.420> a
+
+00:00:57.439 --> 00:00:57.449 
+do to define that as group is use a
+
+00:00:57.449 --> 00:01:00.500 
+do to define that as group is use a
+percentage<00:00:58.109> sign<00:00:58.379> and<00:00:59.280> you<00:00:59.579> need<00:00:59.789> to<00:00:59.940> use<00:01:00.480> your
+
+00:01:00.500 --> 00:01:00.510 
+percentage sign and you need to use your
+
+00:01:00.510 --> 00:01:02.630 
+percentage sign and you need to use your
+group<00:01:00.960> name<00:01:01.219> now<00:01:02.219> you<00:01:02.309> might<00:01:02.460> be<00:01:02.609> wondering
+
+00:01:02.630 --> 00:01:02.640 
+group name now you might be wondering
+
+00:01:02.640 --> 00:01:05.359 
+group name now you might be wondering
+what<00:01:03.300> is<00:01:03.449> my<00:01:03.600> group<00:01:03.809> name<00:01:04.049> to<00:01:04.769> figure<00:01:05.040> out<00:01:05.159> this
+
+00:01:05.359 --> 00:01:05.369 
+what is my group name to figure out this
+
+00:01:05.369 --> 00:01:07.880 
+what is my group name to figure out this
+we<00:01:05.670> can<00:01:05.820> simply<00:01:06.180> open<00:01:06.210> up<00:01:06.659> a<00:01:06.869> new<00:01:06.900> terminal
+
+00:01:07.880 --> 00:01:07.890 
+we can simply open up a new terminal
+
+00:01:07.890 --> 00:01:16.700 
+we can simply open up a new terminal
+window<00:01:08.189> type<00:01:08.909> in<00:01:09.650> SU<00:01:12.619> your<00:01:13.619> domain<00:01:15.710> double
+
+00:01:16.700 --> 00:01:16.710 
+window type in SU your domain double
+
+00:01:16.710 --> 00:01:21.710 
+window type in SU your domain double
+backslash<00:01:17.189> and<00:01:18.470> then<00:01:19.470> your<00:01:19.619> username<00:01:20.720> what
+
+00:01:21.710 --> 00:01:21.720 
+backslash and then your username what
+
+00:01:21.720 --> 00:01:23.960 
+backslash and then your username what
+this<00:01:21.869> does<00:01:22.110> is<00:01:22.439> the<00:01:22.590> SU<00:01:22.950> parts<00:01:23.340> which<00:01:23.729> is<00:01:23.939> a
+
+00:01:23.960 --> 00:01:23.970 
+this does is the SU parts which is a
+
+00:01:23.970 --> 00:01:29.030 
+this does is the SU parts which is a
+user<00:01:24.299> to<00:01:26.270> dirt<00:01:27.270> and<00:01:27.450> gas<00:01:27.680> double<00:01:28.680> backslash
+
+00:01:29.030 --> 00:01:29.040 
+user to dirt and gas double backslash
+
+00:01:29.040 --> 00:01:32.120 
+user to dirt and gas double backslash
+test<00:01:29.549> which<00:01:30.420> is<00:01:30.450> what<00:01:30.780> we<00:01:30.900> need<00:01:31.049> to<00:01:31.170> type<00:01:31.380> in<00:01:31.619> to
+
+00:01:32.120 --> 00:01:32.130 
+test which is what we need to type in to
+
+00:01:32.130 --> 00:01:37.480 
+test which is what we need to type in to
+use<00:01:32.790> the<00:01:32.820> Active<00:01:33.600> Directory<00:01:33.720> domain<00:01:34.350> account
+
+00:01:37.480 --> 00:01:37.490 
+
+00:01:37.490 --> 00:01:42.319 
+
+so<00:01:38.490> now<00:01:38.640> we<00:01:39.119> are<00:01:39.170> the<00:01:40.170> dirt<00:01:40.619> and<00:01:40.770> gas<00:01:41.009> /<00:01:41.850> test
+
+00:01:42.319 --> 00:01:42.329 
+so now we are the dirt and gas / test
+
+00:01:42.329 --> 00:01:44.480 
+so now we are the dirt and gas / test
+user<00:01:42.899> as<00:01:43.200> far<00:01:43.530> as<00:01:43.680> this<00:01:43.799> terminal<00:01:44.189> windows
+
+00:01:44.480 --> 00:01:44.490 
+user as far as this terminal windows
+
+00:01:44.490 --> 00:01:48.889 
+user as far as this terminal windows
+concern<00:01:44.939> type<00:01:45.840> ID<00:01:46.470> in<00:01:47.100> your<00:01:47.369> terminal<00:01:47.970> and<00:01:48.329> it
+
+00:01:48.889 --> 00:01:48.899 
+concern type ID in your terminal and it
+
+00:01:48.899 --> 00:01:53.600 
+concern type ID in your terminal and it
+will<00:01:49.020> display<00:01:49.500> your<00:01:50.240> user<00:01:51.240> ID<00:01:51.979> your<00:01:52.979> group<00:01:53.310> ID
+
+00:01:53.600 --> 00:01:53.610 
+will display your user ID your group ID
+
+00:01:53.610 --> 00:01:56.090 
+will display your user ID your group ID
+and<00:01:54.140> then<00:01:55.140> the<00:01:55.259> groups<00:01:55.530> that<00:01:55.680> you're<00:01:55.890> a<00:01:55.920> part
+
+00:01:56.090 --> 00:01:56.100 
+and then the groups that you're a part
+
+00:01:56.100 --> 00:01:59.959 
+and then the groups that you're a part
+of<00:01:57.619> so<00:01:58.619> this<00:01:58.770> is<00:01:58.950> useful<00:01:59.159> because<00:01:59.520> we<00:01:59.820> can
+
+00:01:59.959 --> 00:01:59.969 
+of so this is useful because we can
+
+00:01:59.969 --> 00:02:02.889 
+of so this is useful because we can
+figure<00:02:00.149> out<00:02:00.500> right<00:02:01.500> here<00:02:01.710> dirt<00:02:02.490> and<00:02:02.670> gas
+
+00:02:02.889 --> 00:02:02.899 
+figure out right here dirt and gas
+
+00:02:02.899 --> 00:02:05.690 
+figure out right here dirt and gas
+domain<00:02:03.899> admins<00:02:04.350> is<00:02:04.530> a<00:02:04.860> group<00:02:05.219> we'd<00:02:05.430> like<00:02:05.579> to
+
+00:02:05.690 --> 00:02:05.700 
+domain admins is a group we'd like to
+
+00:02:05.700 --> 00:02:08.240 
+domain admins is a group we'd like to
+add<00:02:05.790> to<00:02:06.090> our<00:02:06.119> pseudo<00:02:06.509> res<00:02:06.659> file<00:02:07.069> so<00:02:08.069> what<00:02:08.160> we
+
+00:02:08.240 --> 00:02:08.250 
+add to our pseudo res file so what we
+
+00:02:08.250 --> 00:02:11.660 
+add to our pseudo res file so what we
+need<00:02:08.399> to<00:02:08.459> do<00:02:08.729> is<00:02:08.970> take<00:02:09.720> note<00:02:09.959> of<00:02:09.989> this<00:02:10.259> and<00:02:10.670> also
+
+00:02:11.660 --> 00:02:11.670 
+need to do is take note of this and also
+
+00:02:11.670 --> 00:02:13.610 
+need to do is take note of this and also
+that<00:02:12.569> if<00:02:12.690> there's<00:02:12.870> any<00:02:13.020> space
+
+00:02:13.610 --> 00:02:13.620 
+that if there's any space
+
+00:02:13.620 --> 00:02:15.830 
+that if there's any space
+your<00:02:13.739> group<00:02:13.950> names<00:02:14.220> that<00:02:15.060> you<00:02:15.390> should<00:02:15.569> replace
+
+00:02:15.830 --> 00:02:15.840 
+your group names that you should replace
+
+00:02:15.840 --> 00:02:18.619 
+your group names that you should replace
+them<00:02:16.110> with<00:02:16.379> the<00:02:16.560> circumflex<00:02:17.360> you<00:02:18.360> can<00:02:18.510> also
+
+00:02:18.619 --> 00:02:18.629 
+them with the circumflex you can also
+
+00:02:18.629 --> 00:02:20.570 
+them with the circumflex you can also
+find<00:02:18.870> out<00:02:19.019> this<00:02:19.170> information<00:02:19.349> if<00:02:20.099> you're<00:02:20.370> on
+
+00:02:20.570 --> 00:02:20.580 
+find out this information if you're on
+
+00:02:20.580 --> 00:02:23.509 
+find out this information if you're on
+your<00:02:20.879> Active<00:02:21.330> Directory<00:02:22.220> suddenly<00:02:23.220> can<00:02:23.370> move
+
+00:02:23.509 --> 00:02:23.519 
+your Active Directory suddenly can move
+
+00:02:23.519 --> 00:02:25.940 
+your Active Directory suddenly can move
+on<00:02:23.700> back<00:02:23.879> over<00:02:24.150> type<00:02:24.900> in<00:02:25.140> the<00:02:25.530> name<00:02:25.739> of<00:02:25.769> the
+
+00:02:25.940 --> 00:02:25.950 
+on back over type in the name of the
+
+00:02:25.950 --> 00:02:30.979 
+on back over type in the name of the
+domain<00:02:26.280> so<00:02:27.239> dirt<00:02:27.810> and<00:02:28.080> gas<00:02:29.569> double<00:02:30.569> backslash
+
+00:02:30.979 --> 00:02:30.989 
+domain so dirt and gas double backslash
+
+00:02:30.989 --> 00:02:35.569 
+domain so dirt and gas double backslash
+and<00:02:32.659> then<00:02:33.659> the<00:02:33.840> name<00:02:33.989> of<00:02:34.170> the<00:02:34.260> group<00:02:34.470> so<00:02:35.400> in<00:02:35.489> our
+
+00:02:35.569 --> 00:02:35.579 
+and then the name of the group so in our
+
+00:02:35.579 --> 00:02:38.479 
+and then the name of the group so in our
+case<00:02:35.640> is<00:02:36.000> domain<00:02:36.629> admins<00:02:37.049> and<00:02:37.370> then<00:02:38.370> the
+
+00:02:38.479 --> 00:02:38.489 
+case is domain admins and then the
+
+00:02:38.489 --> 00:02:42.229 
+case is domain admins and then the
+permissions<00:02:38.970> all<00:02:39.799> equals<00:02:40.799> in<00:02:41.069> brackets<00:02:41.670> all
+
+00:02:42.229 --> 00:02:42.239 
+permissions all equals in brackets all
+
+00:02:42.239 --> 00:02:47.900 
+permissions all equals in brackets all
+and<00:02:43.310> all<00:02:44.480> now<00:02:45.480> hit<00:02:45.720> control<00:02:46.260> go<00:02:46.829> to<00:02:47.609> write<00:02:47.760> the
+
+00:02:47.900 --> 00:02:47.910 
+and all now hit control go to write the
+
+00:02:47.910 --> 00:02:50.920 
+and all now hit control go to write the
+file<00:02:48.200> enter<00:02:49.200> to<00:02:49.709> select<00:02:49.859> the<00:02:50.099> location<00:02:50.250> and
+
+00:02:50.920 --> 00:02:50.930 
+file enter to select the location and
+
+00:02:50.930 --> 00:02:54.740 
+file enter to select the location and
+control<00:02:51.930> x<00:02:52.260> to<00:02:52.799> quit<00:02:53.010> now<00:02:53.790> we<00:02:54.120> can<00:02:54.209> go<00:02:54.329> back<00:02:54.480> to
+
+00:02:54.740 --> 00:02:54.750 
+control x to quit now we can go back to
+
+00:02:54.750 --> 00:02:57.229 
+control x to quit now we can go back to
+our<00:02:54.780> terminal<00:02:55.079> window<00:02:55.530> where<00:02:56.220> we're<00:02:56.400> logged
+
+00:02:57.229 --> 00:02:57.239 
+our terminal window where we're logged
+
+00:02:57.239 --> 00:03:01.130 
+our terminal window where we're logged
+in<00:02:57.450> as<00:02:57.660> the<00:02:57.959> dirt<00:02:58.230> and<00:02:58.349> gas<00:02:58.560> test<00:02:59.250> user<00:02:59.700> and<00:03:00.140> we
+
+00:03:01.130 --> 00:03:01.140 
+in as the dirt and gas test user and we
+
+00:03:01.140 --> 00:03:05.960 
+in as the dirt and gas test user and we
+can<00:03:01.349> try<00:03:01.530> and<00:03:01.590> pseudo<00:03:01.980> a<00:03:02.010> command<00:03:04.879> it<00:03:05.879> will
+
+00:03:05.960 --> 00:03:05.970 
+can try and pseudo a command it will
+
+00:03:05.970 --> 00:03:08.840 
+can try and pseudo a command it will
+prompt<00:03:06.269> us<00:03:06.329> for<00:03:06.540> a<00:03:06.569> password
+

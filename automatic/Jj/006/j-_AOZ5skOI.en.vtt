@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.280 --> 00:00:05.500
+Proprietary is a synonym to bad. Proprietary
+is non-standard and not open.
+
+00:00:05.500 --> 00:00:09.790
+That means, others cannot poke into the proprietary
+stuff to make it better,
+
+00:00:09.790 --> 00:00:13.700
+and the consumers are stuck with inferior
+yet overpriced products.
+
+00:00:13.700 --> 00:00:18.280
+Microsoft XBOX is a textbook example of proprietary
+being bad: it uses
+
+00:00:18.280 --> 00:00:23.530
+USB joysticks with non-standard shaped connectors,
+it uses common dvds with
+
+00:00:23.530 --> 00:00:27.950
+proprietary security sectors, it uses common
+flash memory cards with
+
+00:00:27.950 --> 00:00:32.499
+proprietary power specifications, it uses
+common hard-drives with proprietary
+
+00:00:32.499 --> 00:00:37.120
+filesystems and non-standard plugs, and it
+uses common USB drives limiting
+
+00:00:37.120 --> 00:00:42.649
+them to 16Gbs. Needless to say, that official
+XBOX hardware costs several
+
+00:00:42.649 --> 00:00:46.890
+times more than the average for the similar products.
+You can get a terabyte
+
+00:00:46.890 --> 00:00:50.879
+hard drive for the price of Microsoft 20 gigabyte
+drive, and you can get
+
+00:00:50.879 --> 00:00:55.800
+32 gigabyte flash card for the price of Microsoft's
+16 megabytes memory card.
+
+00:00:55.800 --> 00:00:59.879
+The problem is Microsoft did not develop any
+hardware, they order standard
+
+00:00:59.879 --> 00:01:03.350
+and just change a few bytes in the firmware
+and alter the shape of the
+
+00:01:03.350 --> 00:01:07.270
+connectors, so it won't fit to standard ports
+no more, and resell them to the
+
+00:01:07.270 --> 00:01:11.759
+customers. Basically, it is the same equipment
+available on the market much
+
+00:01:11.759 --> 00:01:16.170
+cheaper. That is called extortion, and that
+is exactly the reason proprietary
+
+00:01:16.170 --> 00:01:20.460
+stuff exists: to glue the customers to the
+original supplier, depriving them
+
+00:01:20.460 --> 00:01:23.689
+of choice.
+There's is a way to spoil the feast for the
+
+00:01:23.689 --> 00:01:27.259
+Microsoft, well, for a little bit
+at least. Some time ago, Microsoft allowed
+
+00:01:27.259 --> 00:01:31.520
+the users to store their data
+on USB drives. Of course, there is a catch:
+
+00:01:31.520 --> 00:01:37.390
+no matter how big the storage is,
+you may use only 16gb of that. Want more?
+
+00:01:37.390 --> 00:01:41.149
+Purchase the original MS HDD
+for a skyrocket price.
+
+00:01:41.149 --> 00:01:46.130
+Actually, you may use the external drive to
+the full capacity with the XBOX360.
+
+00:01:46.130 --> 00:01:51.479
+A quick disclaimer: no, the system will see
+only 16gb, since increasing this
+
+00:01:51.479 --> 00:01:55.109
+value just crashes the system. But will trick
+the console to use the rest
+
+00:01:55.109 --> 00:01:57.859
+of the space.
+To do that, connect your external drive to
+
+00:01:57.859 --> 00:02:02.289
+the XBOX and follow the options
+menu item to prepare it for use with the console.
+
+00:02:02.289 --> 00:02:04.259
+Then connect the drive
+to your computer.
+
+00:02:04.259 --> 00:02:09.970
+What you'll see is a 16gb partition with only
+one folder - XBOX360. If
+
+00:02:09.970 --> 00:02:13.459
+you don't see the folder, enable hidden files
+view in the Control Panel
+
+00:02:13.459 --> 00:02:18.620
+Folder options. The folder contains at least
+three Data files, together
+
+00:02:18.620 --> 00:02:23.909
+they form the so-called FAT-X file system.
+Now, copy this folder to your computer.
+
+00:02:23.909 --> 00:02:28.040
+Then, use a partitioning software to reformat
+the drive. There's like a ton
+
+00:02:28.040 --> 00:02:31.700
+of drive partitioning tools, I wouldn't give
+instructions on using every
+
+00:02:31.700 --> 00:02:36.260
+single one of them. But I would recommend
+starting with GParted, which is free.
+
+00:02:36.260 --> 00:02:39.790
+What you need to is delete all partitions
+from the external drive and
+
+00:02:39.790 --> 00:02:44.569
+create a single one for the whole space, and
+format it to FAT32. You have to
+
+00:02:44.569 --> 00:02:48.379
+do it in partitioning editor, since Windows
+is bad at managing partitions on
+
+00:02:48.379 --> 00:02:53.030
+removable drives and it doesn't allow a FAT32
+partition to exceed a couple
+
+00:02:53.030 --> 00:02:57.549
+gigs. Partitioning editors have none of this
+limitations, so use it to create
+
+00:02:57.549 --> 00:03:04.080
+a single FAT32 volume for the whole capacity.
+Now, copy the XBOX360 folder to this drive.
+
+00:03:04.080 --> 00:03:08.750
+And create multiple copies of it,
+adding a digit to the end of the name. Basically,
+
+00:03:08.750 --> 00:03:13.110
+we are filling the entire
+drive capacity with 16gigabytes chunks.
+
+00:03:13.110 --> 00:03:16.560
+With the USB drive attached, the console will
+be using the folder named
+
+00:03:16.560 --> 00:03:22.379
+XBOX360. So, by renaming the XBOX360 folder
+to some other name, and removing
+
+00:03:22.379 --> 00:03:27.250
+the end number of some other XBOX360 folder,
+you will force XBOX to use this
+
+00:03:27.250 --> 00:03:31.730
+folder. Yes, that is not very convenient and
+you have to use a computer for that,
+
+00:03:31.730 --> 00:03:36.200
+but this is the only way to use a standard
+drive with XBOX to its full capacity.
+

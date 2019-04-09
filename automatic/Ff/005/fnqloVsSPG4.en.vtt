@@ -1,0 +1,722 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.580 --> 00:00:04.730 
+
+hi<00:00:03.300> my<00:00:03.600> name's<00:00:03.780> Rob<00:00:04.020> Tarek<00:00:04.350> and<00:00:04.529> in<00:00:04.590> this
+
+00:00:04.730 --> 00:00:04.740 
+hi my name's Rob Tarek and in this
+
+00:00:04.740 --> 00:00:06.170 
+hi my name's Rob Tarek and in this
+tutorial<00:00:05.010> I'm<00:00:05.399> going<00:00:05.520> to<00:00:05.580> show<00:00:05.760> you<00:00:05.790> how<00:00:06.149> to
+
+00:00:06.170 --> 00:00:06.180 
+tutorial I'm going to show you how to
+
+00:00:06.180 --> 00:00:07.910 
+tutorial I'm going to show you how to
+create<00:00:06.509> a<00:00:06.540> simple<00:00:06.750> program<00:00:07.200> using<00:00:07.500> LabVIEW
+
+00:00:07.910 --> 00:00:07.920 
+create a simple program using LabVIEW
+
+00:00:07.920 --> 00:00:10.970 
+create a simple program using LabVIEW
+for<00:00:08.189> Mindstorms<00:00:08.820> NXT<00:00:09.380> the<00:00:10.380> first<00:00:10.710> thing<00:00:10.830> we're
+
+00:00:10.970 --> 00:00:10.980 
+for Mindstorms NXT the first thing we're
+
+00:00:10.980 --> 00:00:14.299 
+for Mindstorms NXT the first thing we're
+going<00:00:11.100> to<00:00:11.190> do<00:00:11.370> is<00:00:12.410> click<00:00:13.410> on<00:00:13.560> this<00:00:13.710> blank<00:00:13.980> of<00:00:14.160> VI
+
+00:00:14.299 --> 00:00:14.309 
+going to do is click on this blank of VI
+
+00:00:14.309 --> 00:00:19.700 
+going to do is click on this blank of VI
+targeted<00:00:15.210> to<00:00:15.480> NXT<00:00:16.049> and<00:00:18.199> LabVIEW<00:00:19.199> brings<00:00:19.560> up
+
+00:00:19.700 --> 00:00:19.710 
+targeted to NXT and LabVIEW brings up
+
+00:00:19.710 --> 00:00:21.380 
+targeted to NXT and LabVIEW brings up
+these<00:00:19.829> two<00:00:20.070> windows<00:00:20.460> the<00:00:20.730> front<00:00:20.999> panel<00:00:21.359> that
+
+00:00:21.380 --> 00:00:21.390 
+these two windows the front panel that
+
+00:00:21.390 --> 00:00:24.890 
+these two windows the front panel that
+we<00:00:21.779> will<00:00:21.960> minimize<00:00:22.259> and<00:00:23.089> the<00:00:24.089> block<00:00:24.300> diagram
+
+00:00:24.890 --> 00:00:24.900 
+we will minimize and the block diagram
+
+00:00:24.900 --> 00:00:27.589 
+we will minimize and the block diagram
+that<00:00:25.199> we<00:00:25.679> will<00:00:25.890> maximize<00:00:26.519> because<00:00:27.239> we<00:00:27.359> want<00:00:27.539> to
+
+00:00:27.589 --> 00:00:27.599 
+that we will maximize because we want to
+
+00:00:27.599 --> 00:00:30.109 
+that we will maximize because we want to
+see<00:00:27.720> all<00:00:27.839> of<00:00:27.869> this<00:00:28.050> and<00:00:28.859> we're<00:00:29.730> going<00:00:29.880> to<00:00:29.909> need
+
+00:00:30.109 --> 00:00:30.119 
+see all of this and we're going to need
+
+00:00:30.119 --> 00:00:32.870 
+see all of this and we're going to need
+some<00:00:30.419> functions<00:00:31.019> so<00:00:31.319> we<00:00:31.349> need<00:00:31.649> to<00:00:31.769> find<00:00:32.730> the
+
+00:00:32.870 --> 00:00:32.880 
+some functions so we need to find the
+
+00:00:32.880 --> 00:00:36.729 
+some functions so we need to find the
+functions<00:00:33.210> palette<00:00:33.600> by<00:00:33.750> right-clicking<00:00:34.440> and
+
+00:00:36.729 --> 00:00:36.739 
+functions palette by right-clicking and
+
+00:00:36.739 --> 00:00:38.540 
+functions palette by right-clicking and
+you<00:00:37.739> see<00:00:38.039> we've<00:00:38.160> got<00:00:38.250> a<00:00:38.309> few<00:00:38.489> different
+
+00:00:38.540 --> 00:00:38.550 
+you see we've got a few different
+
+00:00:38.550 --> 00:00:41.840 
+you see we've got a few different
+options<00:00:38.760> here<00:00:39.120> NXT<00:00:39.480> programming<00:00:40.379> NXT<00:00:41.340> i/o<00:00:41.519> and
+
+00:00:41.840 --> 00:00:41.850 
+options here NXT programming NXT i/o and
+
+00:00:41.850 --> 00:00:43.939 
+options here NXT programming NXT i/o and
+a<00:00:41.879> bunch<00:00:42.059> of<00:00:42.120> other<00:00:42.300> things<00:00:42.420> we<00:00:43.140> want<00:00:43.320> NXT<00:00:43.769> i/o
+
+00:00:43.939 --> 00:00:43.949 
+a bunch of other things we want NXT i/o
+
+00:00:43.949 --> 00:00:47.000 
+a bunch of other things we want NXT i/o
+the<00:00:44.760> way<00:00:44.910> to<00:00:44.969> make<00:00:45.300> this<00:00:45.649> functions<00:00:46.649> palette
+
+00:00:47.000 --> 00:00:47.010 
+the way to make this functions palette
+
+00:00:47.010 --> 00:00:49.040 
+the way to make this functions palette
+stay<00:00:47.250> on<00:00:47.370> the<00:00:47.489> screen<00:00:47.760> is<00:00:48.030> by<00:00:48.269> selecting<00:00:48.929> this
+
+00:00:49.040 --> 00:00:49.050 
+stay on the screen is by selecting this
+
+00:00:49.050 --> 00:00:52.130 
+stay on the screen is by selecting this
+pin<00:00:49.879> up<00:00:50.879> in<00:00:51.120> the<00:00:51.210> top<00:00:51.359> left<00:00:51.570> hand<00:00:51.660> corner<00:00:51.809> of
+
+00:00:52.130 --> 00:00:52.140 
+pin up in the top left hand corner of
+
+00:00:52.140 --> 00:00:55.639 
+pin up in the top left hand corner of
+this<00:00:52.320> window<00:00:53.030> you<00:00:54.030> could<00:00:54.239> also<00:00:54.469> pin<00:00:55.469> that
+
+00:00:55.639 --> 00:00:55.649 
+this window you could also pin that
+
+00:00:55.649 --> 00:00:57.319 
+this window you could also pin that
+first<00:00:55.829> functions<00:00:56.249> palette<00:00:56.640> and<00:00:56.820> then<00:00:57.059> click
+
+00:00:57.319 --> 00:00:57.329 
+first functions palette and then click
+
+00:00:57.329 --> 00:00:59.900 
+first functions palette and then click
+on<00:00:57.510> the<00:00:57.929> NXT<00:00:58.289> i/o<00:00:58.559> to<00:00:59.160> bring<00:00:59.339> up<00:00:59.460> that<00:00:59.579> window
+
+00:00:59.900 --> 00:00:59.910 
+on the NXT i/o to bring up that window
+
+00:00:59.910 --> 00:01:01.810 
+on the NXT i/o to bring up that window
+and<00:01:00.269> you<00:01:00.390> see<00:01:00.449> more<00:01:00.690> or<00:01:00.780> less<00:01:00.870> the<00:01:00.989> same<00:01:01.140> thing
+
+00:01:01.810 --> 00:01:01.820 
+and you see more or less the same thing
+
+00:01:01.820 --> 00:01:05.060 
+and you see more or less the same thing
+if<00:01:02.820> yours<00:01:03.149> ends<00:01:03.690> up<00:01:03.780> being<00:01:03.989> a<00:01:04.500> little<00:01:04.860> bit
+
+00:01:05.060 --> 00:01:05.070 
+if yours ends up being a little bit
+
+00:01:05.070 --> 00:01:07.820 
+if yours ends up being a little bit
+different<00:01:05.370> to<00:01:05.460> mine<00:01:05.840> you<00:01:06.840> can<00:01:07.050> do<00:01:07.170> customized
+
+00:01:07.820 --> 00:01:07.830 
+different to mine you can do customized
+
+00:01:07.830 --> 00:01:09.590 
+different to mine you can do customized
+view<00:01:08.130> this<00:01:08.280> palette<00:01:08.670> adds<00:01:08.820> and<00:01:09.180> you<00:01:09.450> can
+
+00:01:09.590 --> 00:01:09.600 
+view this palette adds and you can
+
+00:01:09.600 --> 00:01:12.710 
+view this palette adds and you can
+choose<00:01:10.190> we<00:01:11.190> can<00:01:11.820> try<00:01:12.000> different<00:01:12.060> options<00:01:12.390> here
+
+00:01:12.710 --> 00:01:12.720 
+choose we can try different options here
+
+00:01:12.720 --> 00:01:16.310 
+choose we can try different options here
+to<00:01:12.930> see<00:01:13.080> how<00:01:13.290> displays<00:01:14.180> so<00:01:15.180> this<00:01:15.480> one<00:01:15.690> here<00:01:16.020> is
+
+00:01:16.310 --> 00:01:16.320 
+to see how displays so this one here is
+
+00:01:16.320 --> 00:01:22.360 
+to see how displays so this one here is
+view<00:01:17.010> this<00:01:17.100> palette<00:01:17.520> as<00:01:17.700> icons<00:01:18.270> and<00:01:18.480> text<00:01:20.660> and
+
+00:01:22.360 --> 00:01:22.370 
+view this palette as icons and text and
+
+00:01:22.370 --> 00:01:33.080 
+view this palette as icons and text and
+we'll<00:01:23.370> drag<00:01:23.670> out<00:01:23.850> a<00:01:23.880> motor<00:01:24.150> block<00:01:30.770> and<00:01:32.090> that
+
+00:01:33.080 --> 00:01:33.090 
+we'll drag out a motor block and that
+
+00:01:33.090 --> 00:01:35.120 
+we'll drag out a motor block and that
+motor<00:01:33.420> block<00:01:33.720> you'll<00:01:34.020> see<00:01:34.320> it's<00:01:34.710> got<00:01:34.830> a<00:01:34.890> few
+
+00:01:35.120 --> 00:01:35.130 
+motor block you'll see it's got a few
+
+00:01:35.130 --> 00:01:37.850 
+motor block you'll see it's got a few
+little<00:01:35.300> these<00:01:36.300> little<00:01:36.330> terminals<00:01:37.290> around<00:01:37.680> us
+
+00:01:37.850 --> 00:01:37.860 
+little these little terminals around us
+
+00:01:37.860 --> 00:01:39.950 
+little these little terminals around us
+and<00:01:38.730> we<00:01:38.880> get<00:01:39.030> a<00:01:39.060> bit<00:01:39.180> of<00:01:39.210> information<00:01:39.750> when<00:01:39.870> we
+
+00:01:39.950 --> 00:01:39.960 
+and we get a bit of information when we
+
+00:01:39.960 --> 00:01:41.630 
+and we get a bit of information when we
+hold<00:01:40.140> the<00:01:40.200> mouse<00:01:40.350> over<00:01:40.710> those<00:01:40.890> these<00:01:41.400> are<00:01:41.580> the
+
+00:01:41.630 --> 00:01:41.640 
+hold the mouse over those these are the
+
+00:01:41.640 --> 00:01:44.180 
+hold the mouse over those these are the
+inputs<00:01:42.000> and<00:01:42.150> outputs<00:01:42.710> we're<00:01:43.710> also<00:01:43.860> going<00:01:44.130> to
+
+00:01:44.180 --> 00:01:44.190 
+inputs and outputs we're also going to
+
+00:01:44.190 --> 00:01:49.040 
+inputs and outputs we're also going to
+put<00:01:44.340> in<00:01:44.430> a<00:01:44.520> wait<00:01:45.710> block<00:01:47.510> so<00:01:48.510> the<00:01:48.630> idea<00:01:48.870> here<00:01:49.020> is
+
+00:01:49.040 --> 00:01:49.050 
+put in a wait block so the idea here is
+
+00:01:49.050 --> 00:01:51.050 
+put in a wait block so the idea here is
+going<00:01:49.230> to<00:01:49.290> be<00:01:49.410> we<00:01:49.920> want<00:01:50.130> to<00:01:50.340> make<00:01:50.520> the<00:01:50.640> robot<00:01:50.940> go
+
+00:01:51.050 --> 00:01:51.060 
+going to be we want to make the robot go
+
+00:01:51.060 --> 00:01:52.880 
+going to be we want to make the robot go
+forward<00:01:51.480> for<00:01:51.660> a<00:01:51.690> couple<00:01:51.900> of<00:01:51.960> seconds<00:01:52.320> and<00:01:52.590> then
+
+00:01:52.880 --> 00:01:52.890 
+forward for a couple of seconds and then
+
+00:01:52.890 --> 00:01:56.750 
+forward for a couple of seconds and then
+stop<00:01:53.190> now<00:01:54.090> if<00:01:54.990> you<00:01:55.260> bring<00:01:55.530> a<00:01:55.980> block<00:01:56.340> close
+
+00:01:56.750 --> 00:01:56.760 
+stop now if you bring a block close
+
+00:01:56.760 --> 00:01:58.670 
+stop now if you bring a block close
+enough<00:01:57.150> when<00:01:57.630> you<00:01:57.720> first<00:01:57.930> drag<00:01:58.170> it<00:01:58.320> out<00:01:58.440> from
+
+00:01:58.670 --> 00:01:58.680 
+enough when you first drag it out from
+
+00:01:58.680 --> 00:02:01.810 
+enough when you first drag it out from
+the<00:01:58.860> pallet<00:01:59.430> it<00:01:59.640> will<00:01:59.820> wire<00:02:00.090> in<00:02:00.480> automatically
+
+00:02:01.810 --> 00:02:01.820 
+the pallet it will wire in automatically
+
+00:02:01.820 --> 00:02:04.010 
+the pallet it will wire in automatically
+that<00:02:02.820> didn't<00:02:03.060> happen<00:02:03.330> here<00:02:03.360> because<00:02:03.600> I<00:02:03.840> didn't
+
+00:02:04.010 --> 00:02:04.020 
+that didn't happen here because I didn't
+
+00:02:04.020 --> 00:02:05.570 
+that didn't happen here because I didn't
+bring<00:02:04.110> it<00:02:04.260> close<00:02:04.470> enough<00:02:04.650> but<00:02:04.980> if<00:02:05.070> I<00:02:05.160> click<00:02:05.220> on
+
+00:02:05.570 --> 00:02:05.580 
+bring it close enough but if I click on
+
+00:02:05.580 --> 00:02:07.250 
+bring it close enough but if I click on
+this<00:02:05.730> icon<00:02:05.910> and<00:02:06.150> move<00:02:06.780> it<00:02:06.930> over<00:02:07.110> here<00:02:07.140> and
+
+00:02:07.250 --> 00:02:07.260 
+this icon and move it over here and
+
+00:02:07.260 --> 00:02:08.300 
+this icon and move it over here and
+press<00:02:07.440> the<00:02:07.560> spacebar
+
+00:02:08.300 --> 00:02:08.310 
+press the spacebar
+
+00:02:08.310 --> 00:02:11.090 
+press the spacebar
+that<00:02:08.849> will<00:02:09.060> rename<00:02:09.509> all<00:02:09.720> the<00:02:09.869> auto<00:02:10.319> wiring<00:02:10.920> and
+
+00:02:11.090 --> 00:02:11.100 
+that will rename all the auto wiring and
+
+00:02:11.100 --> 00:02:15.320 
+that will rename all the auto wiring and
+that's<00:02:11.940> pretty<00:02:12.120> handy<00:02:12.830> it's<00:02:13.830> also<00:02:14.300> good<00:02:15.300> to
+
+00:02:15.320 --> 00:02:15.330 
+that's pretty handy it's also good to
+
+00:02:15.330 --> 00:02:16.610 
+that's pretty handy it's also good to
+know<00:02:15.510> how<00:02:15.630> to<00:02:15.660> why<00:02:15.870> yourself
+
+00:02:16.610 --> 00:02:16.620 
+know how to why yourself
+
+00:02:16.620 --> 00:02:17.930 
+know how to why yourself
+we'll<00:02:16.800> do<00:02:16.920> that<00:02:17.069> but<00:02:17.190> the<00:02:17.250> next<00:02:17.519> block<00:02:17.700> will
+
+00:02:17.930 --> 00:02:17.940 
+we'll do that but the next block will
+
+00:02:17.940 --> 00:02:20.330 
+we'll do that but the next block will
+grab<00:02:18.360> another<00:02:18.599> motor<00:02:18.870> block<00:02:19.080> drag<00:02:19.890> that<00:02:20.069> next
+
+00:02:20.330 --> 00:02:20.340 
+grab another motor block drag that next
+
+00:02:20.340 --> 00:02:23.119 
+grab another motor block drag that next
+to<00:02:20.430> this<00:02:20.550> wait<00:02:20.849> for<00:02:21.180> time<00:02:21.540> and<00:02:22.290> this<00:02:22.800> one<00:02:22.980> will
+
+00:02:23.119 --> 00:02:23.129 
+to this wait for time and this one will
+
+00:02:23.129 --> 00:02:24.949 
+to this wait for time and this one will
+wire<00:02:23.310> manually<00:02:23.819> by<00:02:24.209> clicking<00:02:24.239> on<00:02:24.690> the<00:02:24.780> top
+
+00:02:24.949 --> 00:02:24.959 
+wire manually by clicking on the top
+
+00:02:24.959 --> 00:02:28.030 
+wire manually by clicking on the top
+right<00:02:25.200> hand<00:02:25.379> corner<00:02:25.530> of<00:02:26.069> the<00:02:26.849> wait<00:02:27.000> for<00:02:27.269> time
+
+00:02:28.030 --> 00:02:28.040 
+right hand corner of the wait for time
+
+00:02:28.040 --> 00:02:30.650 
+right hand corner of the wait for time
+and<00:02:29.040> going<00:02:29.250> across<00:02:29.550> to<00:02:29.910> the<00:02:30.060> top<00:02:30.269> left-hand
+
+00:02:30.650 --> 00:02:30.660 
+and going across to the top left-hand
+
+00:02:30.660 --> 00:02:34.910 
+and going across to the top left-hand
+corner<00:02:30.900> of<00:02:32.720> forward<00:02:33.720> we<00:02:34.440> don't<00:02:34.590> have<00:02:34.709> to<00:02:34.799> have
+
+00:02:34.910 --> 00:02:34.920 
+corner of forward we don't have to have
+
+00:02:34.920 --> 00:02:36.440 
+corner of forward we don't have to have
+that<00:02:35.069> mouse<00:02:35.459> held<00:02:35.790> down<00:02:36.000> while<00:02:36.299> we're
+
+00:02:36.440 --> 00:02:36.450 
+that mouse held down while we're
+
+00:02:36.450 --> 00:02:39.380 
+that mouse held down while we're
+dragging<00:02:36.959> across<00:02:37.730> which<00:02:38.730> is<00:02:38.760> pretty<00:02:39.090> handy
+
+00:02:39.380 --> 00:02:39.390 
+dragging across which is pretty handy
+
+00:02:39.390 --> 00:02:41.509 
+dragging across which is pretty handy
+now<00:02:40.230> we<00:02:40.290> want<00:02:40.500> to<00:02:40.560> make<00:02:40.620> the<00:02:40.739> robot<00:02:41.010> go<00:02:41.099> forward
+
+00:02:41.509 --> 00:02:41.519 
+now we want to make the robot go forward
+
+00:02:41.519 --> 00:02:44.420 
+now we want to make the robot go forward
+for<00:02:42.299> some<00:02:42.420> time<00:02:42.660> and<00:02:43.049> then<00:02:43.830> we'll<00:02:44.250> make<00:02:44.370> the
+
+00:02:44.420 --> 00:02:44.430 
+for some time and then we'll make the
+
+00:02:44.430 --> 00:02:47.300 
+for some time and then we'll make the
+robot<00:02:44.879> stop<00:02:44.910> so<00:02:45.870> we<00:02:46.110> need<00:02:46.260> to<00:02:46.470> go<00:02:47.069> to<00:02:47.129> the
+
+00:02:47.300 --> 00:02:47.310 
+robot stop so we need to go to the
+
+00:02:47.310 --> 00:02:50.120 
+robot stop so we need to go to the
+second<00:02:47.700> motor<00:02:47.910> block<00:02:48.200> and<00:02:49.200> click<00:02:49.890> on<00:02:50.010> this
+
+00:02:50.120 --> 00:02:50.130 
+second motor block and click on this
+
+00:02:50.130 --> 00:02:53.240 
+second motor block and click on this
+drop<00:02:50.310> down<00:02:50.489> list<00:02:50.700> and<00:02:51.500> go<00:02:52.500> and<00:02:52.620> select<00:02:52.769> motor
+
+00:02:53.240 --> 00:02:53.250 
+drop down list and go and select motor
+
+00:02:53.250 --> 00:02:55.940 
+drop down list and go and select motor
+off<00:02:53.519> and<00:02:54.019> we've<00:02:55.019> got<00:02:55.140> a<00:02:55.170> choice<00:02:55.380> of<00:02:55.500> coastal
+
+00:02:55.940 --> 00:02:55.950 
+off and we've got a choice of coastal
+
+00:02:55.950 --> 00:02:58.850 
+off and we've got a choice of coastal
+brake<00:02:56.130> let's<00:02:56.430> choose<00:02:56.730> brake<00:02:57.030> and<00:02:57.930> then<00:02:58.650> to
+
+00:02:58.850 --> 00:02:58.860 
+brake let's choose brake and then to
+
+00:02:58.860 --> 00:03:01.100 
+brake let's choose brake and then to
+download<00:02:59.340> the<00:02:59.549> program<00:03:00.060> we<00:03:00.810> hit<00:03:00.989> this
+
+00:03:01.100 --> 00:03:01.110 
+download the program we hit this
+
+00:03:01.110 --> 00:03:03.199 
+download the program we hit this
+download<00:03:01.319> button<00:03:01.769> and<00:03:01.890> it<00:03:02.700> will<00:03:02.790> download<00:03:02.970> it
+
+00:03:03.199 --> 00:03:03.209 
+download button and it will download it
+
+00:03:03.209 --> 00:03:04.640 
+download button and it will download it
+and<00:03:03.450> run<00:03:03.569> it<00:03:03.629> straightaway<00:03:04.049> and<00:03:04.230> you<00:03:04.319> might<00:03:04.470> be
+
+00:03:04.640 --> 00:03:04.650 
+and run it straightaway and you might be
+
+00:03:04.650 --> 00:03:06.500 
+and run it straightaway and you might be
+able<00:03:04.769> to<00:03:04.890> hear<00:03:05.040> the<00:03:05.160> motor<00:03:05.370> once<00:03:06.299> it's
+
+00:03:06.500 --> 00:03:06.510 
+able to hear the motor once it's
+
+00:03:06.510 --> 00:03:11.809 
+able to hear the motor once it's
+downloaded<00:03:06.750> alone<00:03:09.709> okay<00:03:10.739> and<00:03:10.980> that's<00:03:11.579> worked
+
+00:03:11.809 --> 00:03:11.819 
+downloaded alone okay and that's worked
+
+00:03:11.819 --> 00:03:13.699 
+downloaded alone okay and that's worked
+fine<00:03:12.090> now<00:03:12.720> let's<00:03:12.900> say<00:03:13.049> we<00:03:13.170> wanted<00:03:13.410> to<00:03:13.470> change
+
+00:03:13.699 --> 00:03:13.709 
+fine now let's say we wanted to change
+
+00:03:13.709 --> 00:03:17.960 
+fine now let's say we wanted to change
+the<00:03:14.040> time<00:03:14.370> or<00:03:14.760> the<00:03:15.829> output<00:03:16.829> port<00:03:17.099> or<00:03:17.400> the<00:03:17.430> power
+
+00:03:17.960 --> 00:03:17.970 
+the time or the output port or the power
+
+00:03:17.970 --> 00:03:20.110 
+the time or the output port or the power
+level<00:03:18.299> of<00:03:18.360> the<00:03:18.540> motor
+
+00:03:20.110 --> 00:03:20.120 
+level of the motor
+
+00:03:20.120 --> 00:03:22.970 
+level of the motor
+you<00:03:21.120> notice<00:03:21.389> we<00:03:21.540> with<00:03:22.260> each<00:03:22.380> of<00:03:22.530> these<00:03:22.590> blocks
+
+00:03:22.970 --> 00:03:22.980 
+you notice we with each of these blocks
+
+00:03:22.980 --> 00:03:26.150 
+you notice we with each of these blocks
+we<00:03:23.310> don't<00:03:23.549> see<00:03:24.410> the<00:03:25.410> configuration<00:03:26.040> panel
+
+00:03:26.150 --> 00:03:26.160 
+we don't see the configuration panel
+
+00:03:26.160 --> 00:03:29.720 
+we don't see the configuration panel
+like<00:03:26.430> you<00:03:26.549> would<00:03:26.700> in<00:03:26.790> NXT<00:03:27.060> G<00:03:27.630> to<00:03:28.410> find<00:03:28.680> out<00:03:28.950> what
+
+00:03:29.720 --> 00:03:29.730 
+like you would in NXT G to find out what
+
+00:03:29.730 --> 00:03:31.640 
+like you would in NXT G to find out what
+you<00:03:29.880> can<00:03:30.060> change<00:03:30.359> on<00:03:30.540> either<00:03:30.660> any<00:03:31.350> of<00:03:31.530> these
+
+00:03:31.640 --> 00:03:31.650 
+you can change on either any of these
+
+00:03:31.650 --> 00:03:34.670 
+you can change on either any of these
+blocks<00:03:32.010> you<00:03:32.310> can<00:03:33.299> go<00:03:33.780> to<00:03:33.840> the<00:03:33.989> help<00:03:34.200> menu<00:03:34.260> and
+
+00:03:34.670 --> 00:03:34.680 
+blocks you can go to the help menu and
+
+00:03:34.680 --> 00:03:37.460 
+blocks you can go to the help menu and
+show<00:03:34.769> context<00:03:35.700> help<00:03:35.880> and<00:03:36.209> then<00:03:37.019> hold<00:03:37.319> the
+
+00:03:37.460 --> 00:03:37.470 
+show context help and then hold the
+
+00:03:37.470 --> 00:03:39.530 
+show context help and then hold the
+mouse<00:03:37.650> over<00:03:38.250> the<00:03:38.549> relevant<00:03:38.910> icon<00:03:39.239> and<00:03:39.450> you'll
+
+00:03:39.530 --> 00:03:39.540 
+mouse over the relevant icon and you'll
+
+00:03:39.540 --> 00:03:42.530 
+mouse over the relevant icon and you'll
+see<00:03:39.690> this<00:03:39.810> one's<00:03:40.019> a<00:03:40.139> motor<00:03:40.349> on<00:03:41.060> at<00:03:42.060> the<00:03:42.329> top
+
+00:03:42.530 --> 00:03:42.540 
+see this one's a motor on at the top
+
+00:03:42.540 --> 00:03:44.660 
+see this one's a motor on at the top
+we've<00:03:42.750> got<00:03:42.780> an<00:03:43.230> output<00:03:43.829> port<00:03:44.069> which<00:03:44.430> by
+
+00:03:44.660 --> 00:03:44.670 
+we've got an output port which by
+
+00:03:44.670 --> 00:03:47.059 
+we've got an output port which by
+default<00:03:44.730> is<00:03:45.090> all<00:03:45.359> ports<00:03:45.799> bottom<00:03:46.799> left<00:03:46.950> hand
+
+00:03:47.059 --> 00:03:47.069 
+default is all ports bottom left hand
+
+00:03:47.069 --> 00:03:49.159 
+default is all ports bottom left hand
+corner<00:03:47.190> we<00:03:47.549> can<00:03:47.579> change<00:03:47.910> the<00:03:48.090> power<00:03:48.269> so<00:03:49.019> if<00:03:49.079> we
+
+00:03:49.159 --> 00:03:49.169 
+corner we can change the power so if we
+
+00:03:49.169 --> 00:03:51.490 
+corner we can change the power so if we
+want<00:03:49.319> to<00:03:49.410> make<00:03:50.250> the<00:03:50.370> robot<00:03:50.669> run<00:03:50.790> at<00:03:50.880> full<00:03:51.090> power
+
+00:03:51.490 --> 00:03:51.500 
+want to make the robot run at full power
+
+00:03:51.500 --> 00:03:56.710 
+want to make the robot run at full power
+we<00:03:52.500> can<00:03:52.739> right<00:03:53.459> click<00:03:53.489> on<00:03:54.090> that<00:03:55.099> terminal<00:03:56.099> and
+
+00:03:56.710 --> 00:03:56.720 
+we can right click on that terminal and
+
+00:03:56.720 --> 00:04:01.490 
+we can right click on that terminal and
+select<00:03:57.720> create<00:03:58.260> a<00:03:58.560> constant<00:03:59.430> and<00:04:00.169> you<00:04:01.169> can<00:04:01.349> see
+
+00:04:01.490 --> 00:04:01.500 
+select create a constant and you can see
+
+00:04:01.500 --> 00:04:03.650 
+select create a constant and you can see
+from<00:04:01.709> the<00:04:01.829> help<00:04:02.069> that<00:04:02.310> it<00:04:02.430> can<00:04:02.609> range<00:04:03.540> from
+
+00:04:03.650 --> 00:04:03.660 
+from the help that it can range from
+
+00:04:03.660 --> 00:04:06.830 
+from the help that it can range from
+negative<00:04:03.959> 100<00:04:04.620> to<00:04:04.859> 100<00:04:05.549> so<00:04:06.269> let's<00:04:06.540> make<00:04:06.720> it
+
+00:04:06.830 --> 00:04:06.840 
+negative 100 to 100 so let's make it
+
+00:04:06.840 --> 00:04:09.770 
+negative 100 to 100 so let's make it
+full<00:04:07.019> power<00:04:07.230> 100<00:04:07.950> now<00:04:08.790> the<00:04:09.030> negative<00:04:09.209> powers
+
+00:04:09.770 --> 00:04:09.780 
+full power 100 now the negative powers
+
+00:04:09.780 --> 00:04:12.580 
+full power 100 now the negative powers
+make<00:04:10.620> the<00:04:10.769> motor<00:04:10.919> go<00:04:11.099> in<00:04:11.190> a<00:04:11.280> reverse<00:04:11.609> direction
+
+00:04:12.580 --> 00:04:12.590 
+make the motor go in a reverse direction
+
+00:04:12.590 --> 00:04:17.270 
+make the motor go in a reverse direction
+and<00:04:14.150> the<00:04:15.150> time<00:04:15.419> let's<00:04:15.810> say<00:04:16.019> instead<00:04:16.530> of<00:04:16.680> going
+
+00:04:17.270 --> 00:04:17.280 
+and the time let's say instead of going
+
+00:04:17.280 --> 00:04:19.009 
+and the time let's say instead of going
+for<00:04:17.519> one<00:04:17.880> second<00:04:18.329> we<00:04:18.419> want<00:04:18.599> to<00:04:18.660> make<00:04:18.780> it<00:04:18.900> go
+
+00:04:19.009 --> 00:04:19.019 
+for one second we want to make it go
+
+00:04:19.019 --> 00:04:21.349 
+for one second we want to make it go
+forward<00:04:19.260> for<00:04:19.829> two<00:04:20.220> seconds<00:04:20.579> so<00:04:20.789> we<00:04:21.030> can<00:04:21.180> right
+
+00:04:21.349 --> 00:04:21.359 
+forward for two seconds so we can right
+
+00:04:21.359 --> 00:04:23.089 
+forward for two seconds so we can right
+click<00:04:21.389> on<00:04:21.810> that<00:04:21.870> and<00:04:22.260> again<00:04:22.650> do<00:04:22.830> the<00:04:22.919> same
+
+00:04:23.089 --> 00:04:23.099 
+click on that and again do the same
+
+00:04:23.099 --> 00:04:26.570 
+click on that and again do the same
+thing<00:04:23.310> create<00:04:24.229> constant<00:04:25.229> change<00:04:26.099> that<00:04:26.280> to<00:04:26.400> 2
+
+00:04:26.570 --> 00:04:26.580 
+thing create constant change that to 2
+
+00:04:26.580 --> 00:04:29.910 
+thing create constant change that to 2
+press<00:04:27.060> ENTER<00:04:27.450> now<00:04:28.200> if<00:04:28.349> we<00:04:28.469> download
+
+00:04:29.910 --> 00:04:29.920 
+press ENTER now if we download
+
+00:04:29.920 --> 00:04:34.350 
+press ENTER now if we download
+and<00:04:29.980> run<00:04:30.160> this<00:04:30.310> program<00:04:30.520> you<00:04:31.560> will<00:04:32.560> hear<00:04:33.360> the
+
+00:04:34.350 --> 00:04:34.360 
+and run this program you will hear the
+
+00:04:34.360 --> 00:04:41.910 
+and run this program you will hear the
+motor<00:04:34.540> go<00:04:34.750> for<00:04:34.930> two<00:04:35.050> seconds<00:04:35.410> and<00:04:39.540> that's<00:04:40.920> the
+
+00:04:41.910 --> 00:04:41.920 
+motor go for two seconds and that's the
+
+00:04:41.920 --> 00:04:47.070 
+motor go for two seconds and that's the
+first<00:04:42.190> program<00:04:42.580> in<00:04:42.700> LabVIEW<00:04:45.840> why<00:04:46.840> don't<00:04:46.990> you
+
+00:04:47.070 --> 00:04:47.080 
+first program in LabVIEW why don't you
+
+00:04:47.080 --> 00:04:49.470 
+first program in LabVIEW why don't you
+have<00:04:47.200> a<00:04:47.230> go<00:04:47.410> now<00:04:47.590> and<00:04:47.950> come<00:04:48.250> up<00:04:48.400> with<00:04:48.580> your<00:04:49.420> own
+
+00:04:49.470 --> 00:04:49.480 
+have a go now and come up with your own
+
+00:04:49.480 --> 00:04:52.950 
+have a go now and come up with your own
+sequence<00:04:50.170> of<00:04:50.470> move<00:04:51.010> commands<00:04:51.670> and<00:04:52.150> weights
+
+00:04:52.950 --> 00:04:52.960 
+sequence of move commands and weights
+
+00:04:52.960 --> 00:04:56.100 
+sequence of move commands and weights
+and<00:04:53.290> see<00:04:54.040> what<00:04:54.220> you<00:04:54.370> can<00:04:54.690> so<00:04:55.690> what<00:04:55.780> you<00:04:55.870> can<00:04:55.990> do
+
+00:04:56.100 --> 00:04:56.110 
+and see what you can so what you can do
+
+00:04:56.110 --> 00:04:57.870 
+and see what you can so what you can do
+it<00:04:56.230> maybe<00:04:56.350> you<00:04:56.470> try<00:04:56.680> and<00:04:56.770> make<00:04:56.890> the<00:04:57.010> robot<00:04:57.340> move
+
+00:04:57.870 --> 00:04:57.880 
+it maybe you try and make the robot move
+
+00:04:57.880 --> 00:05:00.450 
+it maybe you try and make the robot move
+in<00:04:58.000> a<00:04:58.060> figure<00:04:58.300> eight
+

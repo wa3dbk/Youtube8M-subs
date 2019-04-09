@@ -1,0 +1,409 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.140 --> 00:00:06.270
+ good morning this presentation talks about 
+
+00:00:04.049 --> 00:00:09.250
+ memory hierarchy was made by 
+
+00:00:06.270 --> 00:00:11.680
+ daniel castro rooms 
+
+00:00:09.250 --> 00:00:14.380
+ to begin with I will summarize that it is a 
+
+00:00:11.680 --> 00:00:16.119
+ I cache a cache is a 
+
+00:00:14.380 --> 00:00:19.150
+ very small memory for faster access 
+
+00:00:16.119 --> 00:00:21.250
+ for pp and store data copies 
+
+00:00:19.150 --> 00:00:24.099
+ that are in main memory or memory 
+
+00:00:21.250 --> 00:00:26.260
+ ram when you need some memory 
+
+00:00:24.099 --> 00:00:28.060
+ main first is done from some 
+
+00:00:26.260 --> 00:00:30.160
+ shape 
+
+00:00:28.060 --> 00:00:32.559
+ memory hierarchy is told to the 
+
+00:00:30.160 --> 00:00:35.500
+ pyramid organization of memory the 
+
+00:00:32.559 --> 00:00:38.350
+ level that your goal is to get a 
+
+00:00:35.500 --> 00:00:41.640
+ high speed performance the cost 
+
+00:00:38.350 --> 00:00:41.640
+ of a low speed memory 
+
+00:00:41.950 --> 00:00:46.030
+ take into account that the principle of 
+
+00:00:43.750 --> 00:00:47.890
+ locality that says most of the 
+
+00:00:46.030 --> 00:00:50.180
+ programs do not access the data 
+
+00:00:47.890 --> 00:00:52.430
+ uniformly 
+
+00:00:50.180 --> 00:00:54.500
+ As the smallest hardware is more 
+
+00:00:52.430 --> 00:00:57.140
+ fast at the highest level of the 
+
+00:00:54.500 --> 00:01:00.890
+ hierarchy are the fastest memories 
+
+00:00:57.140 --> 00:01:02.480
+ smaller and more expensive with all this 
+
+00:01:00.890 --> 00:01:05.979
+ a system is provided where the cost 
+
+00:01:02.480 --> 00:01:08.840
+ It is not very high and the speed is good 
+
+00:01:05.979 --> 00:01:11.270
+ well here I will show an example of 
+
+00:01:08.840 --> 00:01:16.510
+ how the cache works as we can see 
+
+00:01:11.270 --> 00:01:16.510
+ here I have the processor and the memory 
+
+00:01:17.040 --> 00:01:21.660
+ remember that all the programs that 
+
+00:01:19.170 --> 00:01:24.600
+ we are going to execute they must be already loaded 
+
+00:01:21.660 --> 00:01:27.300
+ in the branch one of the purposes of the 
+
+00:01:24.600 --> 00:01:30.360
+ cache is to save instructions 
+
+00:01:27.300 --> 00:01:31.770
+ commonly used when the processor 
+
+00:01:30.360 --> 00:01:33.750
+ need a tap 
+
+00:01:31.770 --> 00:01:36.290
+ The first thing he does is ask the 
+
+00:01:33.750 --> 00:01:36.290
+ cache 
+
+00:01:36.850 --> 00:01:42.290
+ as of the first inscription in the 
+
+00:01:39.340 --> 00:01:44.240
+ cache this machine 
+
+00:01:42.290 --> 00:01:47.950
+ then the presenter brings the 
+
+00:01:44.240 --> 00:01:47.950
+ ram information 
+
+00:01:49.560 --> 00:01:56.310
+ concentrates the ram data is made 
+
+00:01:51.990 --> 00:01:58.649
+ a copy and so the following in access to 
+
+00:01:56.310 --> 00:02:00.979
+ that data can be copied in 
+
+00:01:58.649 --> 00:02:00.979
+ cache 
+
+00:02:06.190 --> 00:02:12.040
+ once the bar and the 
+
+00:02:08.710 --> 00:02:14.200
+ processor does not need again is going to 
+
+00:02:12.040 --> 00:02:16.310
+ ask the cache and have it in your 
+
+00:02:14.200 --> 00:02:18.349
+ memory 
+
+00:02:16.310 --> 00:02:22.150
+ as in this case we have a copy in 
+
+00:02:18.349 --> 00:02:24.590
+ the return cache of that fortune 
+
+00:02:22.150 --> 00:02:27.140
+ making reading much faster 
+
+00:02:24.590 --> 00:02:29.510
+ before giving a question that we 
+
+00:02:27.140 --> 00:02:30.970
+ we can do is because we do not put all 
+
+00:02:29.510 --> 00:02:33.650
+ ram memory 
+
+00:02:30.970 --> 00:02:36.640
+ the problem with this is that memory 
+
+00:02:33.650 --> 00:02:39.010
+ cache is very expensive 
+
+00:02:36.640 --> 00:02:42.330
+ so it's also very small by 
+
+00:02:39.010 --> 00:02:42.330
+ example there is an i7 processor 
+
+00:02:44.900 --> 00:02:49.879
+ as the quick memory scale is 
+
+00:02:47.540 --> 00:02:52.879
+ organize a hierarchy on many levels 
+
+00:02:49.879 --> 00:02:55.250
+ where at the highest level are the 
+
+00:02:52.879 --> 00:02:56.980
+ faster memories smaller and more 
+
+00:02:55.250 --> 00:02:59.170
+ faces 
+
+00:02:56.980 --> 00:03:02.680
+ when the teacher requires a piece of information 
+
+00:02:59.170 --> 00:03:04.659
+ either a byte or a word actually 
+
+00:03:02.680 --> 00:03:07.260
+ bring a blog that is a set of 
+
+00:03:04.659 --> 00:03:10.620
+ multiple words 
+
+00:03:07.260 --> 00:03:14.510
+ a key decision in the design is where 
+
+00:03:10.620 --> 00:03:14.510
+ I'm going to put those blocks in the cache 
+
+00:03:16.040 --> 00:03:23.090
+ the most popular way is to use a system 
+
+00:03:19.110 --> 00:03:23.090
+ associative by sets 
+
+00:03:24.930 --> 00:03:29.840
+ a set is a group of blocks a 
+
+00:03:28.170 --> 00:03:32.720
+ cache 
+
+00:03:29.840 --> 00:03:35.000
+ then a block is first assigned to 
+
+00:03:32.720 --> 00:03:39.300
+ a set and then that is the block can 
+
+00:03:35.000 --> 00:03:41.430
+ be placed anywhere in the pp 
+
+00:03:39.300 --> 00:03:43.270
+ without being chosen with the following 
+
+00:03:41.430 --> 00:03:45.820
+ formula 
+
+00:03:43.270 --> 00:03:48.010
+ and there you have positions a block in the 
+
+00:03:45.820 --> 00:03:50.650
+ set to place the blogging the 
+
+00:03:48.010 --> 00:03:52.240
+ placement is called associative that comes 
+
+00:03:50.650 --> 00:03:54.040
+ ways 
+
+00:03:52.240 --> 00:03:56.470
+ never get a direct subsidy 
+
+00:03:54.040 --> 00:03:58.780
+ has only one block per zero 
+
+00:03:56.470 --> 00:04:01.740
+ then the block will always be 
+
+00:03:58.780 --> 00:04:03.810
+ placed in one place 
+
+00:04:01.740 --> 00:04:07.110
+ and finally a car completely 
+
+00:04:03.810 --> 00:04:10.460
+ associative has only 12 so 
+
+00:04:07.110 --> 00:04:12.710
+ is what can be placed anywhere 
+
+00:04:10.460 --> 00:04:14.440
+ Now I'm going to explain the concepts of a 
+
+00:04:12.710 --> 00:04:16.600
+ rotating 
+
+00:04:14.440 --> 00:04:18.700
+ a cache failure is an increase 
+
+00:04:16.600 --> 00:04:19.950
+ failed to read you can write in a 
+
+00:04:18.700 --> 00:04:22.140
+ cache what 
+
+00:04:19.950 --> 00:04:24.390
+ the failure rate is the attraction of 
+
+00:04:22.140 --> 00:04:25.830
+ access the cache that resulted 
+
+00:04:24.390 --> 00:04:28.349
+ failed 
+
+00:04:25.830 --> 00:04:30.920
+ and the penalty of failure that in his time 
+
+00:04:28.349 --> 00:04:33.110
+ lost due to a cache failure 
+
+00:04:30.920 --> 00:04:37.060
+ On the other hand we have the success of 
+
+00:04:33.110 --> 00:04:39.070
+ cache and the time of success of the people 
+
+00:04:37.060 --> 00:04:42.160
+ With this you can get close to time 
+
+00:04:39.070 --> 00:04:46.140
+ excess memory 
+
+00:04:42.160 --> 00:04:46.140
+ that would be the following form 
+
+00:04:46.950 --> 00:04:50.330
+ but not 
+
+00:04:52.630 --> 00:04:56.680
+ Now I'm going to mention some 
+
+00:04:54.480 --> 00:05:01.630
+ basic optimizations that are made 
+
+00:04:56.680 --> 00:05:04.560
+ the cache block larger caches more 
+
+00:05:01.630 --> 00:05:08.630
+ large and increase the associativity 
+
+00:05:04.560 --> 00:05:12.350
+ all to reduce the failure rate 
+
+00:05:08.630 --> 00:05:14.810
+ multi-level cache and give priority to 
+
+00:05:12.350 --> 00:05:17.330
+ reading failures that failures of 
+
+00:05:14.810 --> 00:05:20.330
+ writing everything to reduce the penalty 
+
+00:05:17.330 --> 00:05:22.250
+ by country and finally avoid the 
+
+00:05:20.330 --> 00:05:25.220
+ address translation during the 
+
+00:05:22.250 --> 00:05:28.180
+ cache indexing to reduce the 
+
+00:05:25.220 --> 00:05:28.180
+ hit time 
+
+00:05:29.080 --> 00:05:33.729
+ finally I will mention eleven 
+
+00:05:31.270 --> 00:05:35.400
+ advanced optimizations that make the 
+
+00:05:33.729 --> 00:05:39.710
+ cache 
+
+00:05:35.400 --> 00:05:43.870
+ first small and simple cheeks 
+
+00:05:39.710 --> 00:05:48.090
+ second road prediction 
+
+00:05:43.870 --> 00:05:52.760
+ grow use three boxes 
+
+00:05:48.090 --> 00:05:58.000
+ fourth street with access with dance 
+
+00:05:52.760 --> 00:06:01.560
+ fifth caches with what here 
+
+00:05:58.000 --> 00:06:05.100
+ multibanco caches text 
+
+00:06:01.560 --> 00:06:07.020
+ seventh word most critical first and of 
+
+00:06:05.100 --> 00:06:11.409
+ early start 
+
+00:06:07.020 --> 00:06:15.590
+ 8th join reading boxers 
+
+00:06:11.409 --> 00:06:20.450
+ ninth compiler optimizations 
+
+00:06:15.590 --> 00:06:23.140
+ from lime cricket from hard to thrill made 
+
+00:06:20.450 --> 00:06:23.140
+ compiler 
+
+00:06:23.650 --> 00:06:29.620
+ 11th the uncontrolled chest by compiler 
+
+00:06:31.900 --> 00:06:35.490
+ thank you very much for your attention 
+

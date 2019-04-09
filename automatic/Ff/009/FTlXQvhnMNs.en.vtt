@@ -1,0 +1,413 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.119 
+
+in<00:00:00.179> this<00:00:00.810> video<00:00:01.110> we'll<00:00:01.530> look<00:00:01.560> at<00:00:01.800> how<00:00:01.860> to<00:00:02.040> work
+
+00:00:02.119 --> 00:00:02.129 
+in this video we'll look at how to work
+
+00:00:02.129 --> 00:00:05.749 
+in this video we'll look at how to work
+with<00:00:02.429> timers<00:00:02.879> in<00:00:03.090> Corona<00:00:03.540> SDK<00:00:04.520> timers<00:00:05.520> allow
+
+00:00:05.749 --> 00:00:05.759 
+with timers in Corona SDK timers allow
+
+00:00:05.759 --> 00:00:07.730 
+with timers in Corona SDK timers allow
+for<00:00:06.029> the<00:00:06.089> calling<00:00:06.299> of<00:00:06.480> a<00:00:06.540> function<00:00:06.600> at<00:00:07.140> some
+
+00:00:07.730 --> 00:00:07.740 
+for the calling of a function at some
+
+00:00:07.740 --> 00:00:09.379 
+for the calling of a function at some
+time<00:00:08.040> in<00:00:08.160> the<00:00:08.250> future<00:00:08.429> rather<00:00:09.120> than
+
+00:00:09.379 --> 00:00:09.389 
+time in the future rather than
+
+00:00:09.389 --> 00:00:12.200 
+time in the future rather than
+immediately<00:00:10.070> the<00:00:11.070> timer<00:00:11.309> library<00:00:11.820> provides
+
+00:00:12.200 --> 00:00:12.210 
+immediately the timer library provides
+
+00:00:12.210 --> 00:00:14.240 
+immediately the timer library provides
+the<00:00:12.450> basic<00:00:12.809> functions<00:00:13.200> needed<00:00:13.710> to<00:00:13.830> set<00:00:14.040> up<00:00:14.070> the
+
+00:00:14.240 --> 00:00:14.250 
+the basic functions needed to set up the
+
+00:00:14.250 --> 00:00:16.430 
+the basic functions needed to set up the
+timer<00:00:14.519> and<00:00:14.820> manage<00:00:15.540> the<00:00:15.780> event<00:00:16.080> listener
+
+00:00:16.430 --> 00:00:16.440 
+timer and manage the event listener
+
+00:00:16.440 --> 00:00:18.500 
+timer and manage the event listener
+we'll<00:00:17.310> talk<00:00:17.520> more<00:00:17.699> about<00:00:17.760> creating<00:00:18.210> event
+
+00:00:18.500 --> 00:00:18.510 
+we'll talk more about creating event
+
+00:00:18.510 --> 00:00:21.109 
+we'll talk more about creating event
+listeners<00:00:18.840> in<00:00:19.050> an<00:00:19.230> upcoming<00:00:19.410> video<00:00:20.029> for<00:00:21.029> the
+
+00:00:21.109 --> 00:00:21.119 
+listeners in an upcoming video for the
+
+00:00:21.119 --> 00:00:23.330 
+listeners in an upcoming video for the
+purposes<00:00:21.510> of<00:00:21.570> this<00:00:21.900> video<00:00:22.080> a<00:00:22.470> listener<00:00:23.070> will
+
+00:00:23.330 --> 00:00:23.340 
+purposes of this video a listener will
+
+00:00:23.340 --> 00:00:25.580 
+purposes of this video a listener will
+be<00:00:23.460> a<00:00:23.490> function<00:00:23.939> that<00:00:24.119> we<00:00:24.390> will<00:00:24.539> invoke<00:00:24.869> after
+
+00:00:25.580 --> 00:00:25.590 
+be a function that we will invoke after
+
+00:00:25.590 --> 00:00:29.210 
+be a function that we will invoke after
+the<00:00:25.710> timer<00:00:25.920> completes<00:00:27.740> the<00:00:28.740> four<00:00:28.949> functions
+
+00:00:29.210 --> 00:00:29.220 
+the timer completes the four functions
+
+00:00:29.220 --> 00:00:32.049 
+the timer completes the four functions
+for<00:00:29.609> creating<00:00:30.000> and<00:00:30.179> controlling<00:00:30.720> timers<00:00:31.170> our
+
+00:00:32.049 --> 00:00:32.059 
+for creating and controlling timers our
+
+00:00:32.059 --> 00:00:35.330 
+for creating and controlling timers our
+timer<00:00:33.059> dot<00:00:33.360> performed<00:00:33.989> with<00:00:34.200> delay<00:00:34.649> which
+
+00:00:35.330 --> 00:00:35.340 
+timer dot performed with delay which
+
+00:00:35.340 --> 00:00:37.930 
+timer dot performed with delay which
+calls<00:00:35.610> a<00:00:35.820> specific<00:00:36.329> function<00:00:36.809> after<00:00:37.350> a<00:00:37.380> delay
+
+00:00:37.930 --> 00:00:37.940 
+calls a specific function after a delay
+
+00:00:37.940 --> 00:00:41.569 
+calls a specific function after a delay
+timer<00:00:38.940> dot<00:00:39.239> pause<00:00:39.590> timer<00:00:40.590> dot<00:00:40.829> resume<00:00:41.160> and
+
+00:00:41.569 --> 00:00:41.579 
+timer dot pause timer dot resume and
+
+00:00:41.579 --> 00:00:45.529 
+timer dot pause timer dot resume and
+timer<00:00:42.120> dot<00:00:42.329> cancel<00:00:43.789> timer<00:00:44.789> duck<00:00:45.030> performed
+
+00:00:45.529 --> 00:00:45.539 
+timer dot cancel timer duck performed
+
+00:00:45.539 --> 00:00:47.660 
+timer dot cancel timer duck performed
+with<00:00:45.660> delay<00:00:45.989> accepts<00:00:46.590> three<00:00:46.980> parameters
+
+00:00:47.660 --> 00:00:47.670 
+with delay accepts three parameters
+
+00:00:47.670 --> 00:00:52.100 
+with delay accepts three parameters
+delay<00:00:48.500> listener<00:00:49.500> in<00:00:49.649> iterations<00:00:50.780> the<00:00:51.780> delay
+
+00:00:52.100 --> 00:00:52.110 
+delay listener in iterations the delay
+
+00:00:52.110 --> 00:00:54.369 
+delay listener in iterations the delay
+is<00:00:52.350> how<00:00:52.680> long<00:00:52.980> you<00:00:53.190> want<00:00:53.399> the<00:00:53.460> timer<00:00:53.789> to<00:00:53.910> last
+
+00:00:54.369 --> 00:00:54.379 
+is how long you want the timer to last
+
+00:00:54.379 --> 00:00:58.160 
+is how long you want the timer to last
+before<00:00:55.379> calling<00:00:55.739> the<00:00:55.770> function<00:00:56.600> the<00:00:57.600> delay<00:00:57.899> is
+
+00:00:58.160 --> 00:00:58.170 
+before calling the function the delay is
+
+00:00:58.170 --> 00:01:01.160 
+before calling the function the delay is
+in<00:00:58.410> milliseconds<00:00:59.359> meaning<00:01:00.359> 1000
+
+00:01:01.160 --> 00:01:01.170 
+in milliseconds meaning 1000
+
+00:01:01.170 --> 00:01:04.609 
+in milliseconds meaning 1000
+milliseconds<00:01:01.739> equals<00:01:02.280> one<00:01:02.699> second<00:01:03.180> in<00:01:03.619> the
+
+00:01:04.609 --> 00:01:04.619 
+milliseconds equals one second in the
+
+00:01:04.619 --> 00:01:06.340 
+milliseconds equals one second in the
+example<00:01:05.040> for<00:01:05.189> this<00:01:05.309> video<00:01:05.610> we'll<00:01:06.060> be<00:01:06.090> using
+
+00:01:06.340 --> 00:01:06.350 
+example for this video we'll be using
+
+00:01:06.350 --> 00:01:09.710 
+example for this video we'll be using
+milliseconds<00:01:07.880> for<00:01:08.880> more<00:01:09.090> information<00:01:09.630> about
+
+00:01:09.710 --> 00:01:09.720 
+milliseconds for more information about
+
+00:01:09.720 --> 00:01:11.510 
+milliseconds for more information about
+working<00:01:10.200> with<00:01:10.320> times<00:01:10.619> and<00:01:10.860> dates<00:01:11.040> in<00:01:11.280> Corona
+
+00:01:11.510 --> 00:01:11.520 
+working with times and dates in Corona
+
+00:01:11.520 --> 00:01:14.420 
+working with times and dates in Corona
+SDK<00:01:11.720> see<00:01:12.720> the<00:01:12.869> tutorial<00:01:13.380> located<00:01:14.130> on<00:01:14.280> the
+
+00:01:14.420 --> 00:01:14.430 
+SDK see the tutorial located on the
+
+00:01:14.430 --> 00:01:17.480 
+SDK see the tutorial located on the
+corona<00:01:14.729> labs<00:01:14.970> website<00:01:16.130> the<00:01:17.130> listener
+
+00:01:17.480 --> 00:01:17.490 
+corona labs website the listener
+
+00:01:17.490 --> 00:01:19.429 
+corona labs website the listener
+parameter<00:01:17.909> tells<00:01:18.210> the<00:01:18.390> timer<00:01:18.630> what<00:01:19.020> to<00:01:19.170> invoke
+
+00:01:19.429 --> 00:01:19.439 
+parameter tells the timer what to invoke
+
+00:01:19.439 --> 00:01:23.480 
+parameter tells the timer what to invoke
+after<00:01:19.979> the<00:01:20.100> delay<00:01:20.430> and<00:01:21.530> lastly<00:01:22.530> iterations<00:01:23.310> is
+
+00:01:23.480 --> 00:01:23.490 
+after the delay and lastly iterations is
+
+00:01:23.490 --> 00:01:25.580 
+after the delay and lastly iterations is
+optional<00:01:24.030> it<00:01:24.540> specifies<00:01:25.080> the<00:01:25.320> number<00:01:25.439> of
+
+00:01:25.580 --> 00:01:25.590 
+optional it specifies the number of
+
+00:01:25.590 --> 00:01:28.010 
+optional it specifies the number of
+times<00:01:25.920> to<00:01:26.189> invoke<00:01:26.430> the<00:01:26.670> listener<00:01:27.030> by<00:01:27.630> default
+
+00:01:28.010 --> 00:01:28.020 
+times to invoke the listener by default
+
+00:01:28.020 --> 00:01:30.740 
+times to invoke the listener by default
+it's<00:01:28.259> 1<00:01:28.590> but<00:01:29.100> you<00:01:29.130> can<00:01:29.369> use<00:01:29.579> 0<00:01:29.939> if<00:01:30.210> you<00:01:30.420> want<00:01:30.659> to
+
+00:01:30.740 --> 00:01:30.750 
+it's 1 but you can use 0 if you want to
+
+00:01:30.750 --> 00:01:33.649 
+it's 1 but you can use 0 if you want to
+loop<00:01:30.900> forever<00:01:32.060> let's<00:01:33.060> look<00:01:33.240> at<00:01:33.329> some<00:01:33.479> sample
+
+00:01:33.649 --> 00:01:33.659 
+loop forever let's look at some sample
+
+00:01:33.659 --> 00:01:36.440 
+loop forever let's look at some sample
+code<00:01:33.960> in<00:01:34.250> this<00:01:35.250> example<00:01:35.640> we<00:01:35.909> create<00:01:36.180> a<00:01:36.210> local
+
+00:01:36.440 --> 00:01:36.450 
+code in this example we create a local
+
+00:01:36.450 --> 00:01:38.300 
+code in this example we create a local
+function<00:01:36.930> called<00:01:37.140> listener<00:01:37.590> that<00:01:37.770> will<00:01:38.100> print
+
+00:01:38.300 --> 00:01:38.310 
+function called listener that will print
+
+00:01:38.310 --> 00:01:40.520 
+function called listener that will print
+the<00:01:38.430> message<00:01:38.579> listener<00:01:39.150> called<00:01:39.630> after<00:01:40.320> 1
+
+00:01:40.520 --> 00:01:40.530 
+the message listener called after 1
+
+00:01:40.530 --> 00:01:42.649 
+the message listener called after 1
+second<00:01:41.070> which<00:01:41.490> is<00:01:41.640> the<00:01:41.759> amount<00:01:41.970> of<00:01:42.150> delay<00:01:42.329> that
+
+00:01:42.649 --> 00:01:42.659 
+second which is the amount of delay that
+
+00:01:42.659 --> 00:01:44.840 
+second which is the amount of delay that
+has<00:01:42.899> passed<00:01:43.170> into<00:01:43.470> our<00:01:43.740> timer<00:01:44.070> dot<00:01:44.369> performed
+
+00:01:44.840 --> 00:01:44.850 
+has passed into our timer dot performed
+
+00:01:44.850 --> 00:01:49.100 
+has passed into our timer dot performed
+to<00:01:45.030> delay<00:01:45.180> function<00:01:47.240> if<00:01:48.240> we<00:01:48.509> increase<00:01:48.899> the
+
+00:01:49.100 --> 00:01:49.110 
+to delay function if we increase the
+
+00:01:49.110 --> 00:01:52.580 
+to delay function if we increase the
+delay<00:01:49.259> to<00:01:49.710> 5000<00:01:50.579> milliseconds<00:01:51.149> or<00:01:51.270> 5<00:01:51.990> seconds
+
+00:01:52.580 --> 00:01:52.590 
+delay to 5000 milliseconds or 5 seconds
+
+00:01:52.590 --> 00:01:54.950 
+delay to 5000 milliseconds or 5 seconds
+we<00:01:53.220> see<00:01:53.250> that<00:01:53.610> the<00:01:53.700> message<00:01:53.850> prints<00:01:54.390> after<00:01:54.540> the
+
+00:01:54.950 --> 00:01:54.960 
+we see that the message prints after the
+
+00:01:54.960 --> 00:01:58.490 
+we see that the message prints after the
+longer<00:01:55.320> delay<00:01:55.590> completes<00:01:56.990> as<00:01:57.990> mentioned
+
+00:01:58.490 --> 00:01:58.500 
+longer delay completes as mentioned
+
+00:01:58.500 --> 00:02:00.830 
+longer delay completes as mentioned
+before<00:01:58.890> we<00:01:59.579> can<00:01:59.610> also<00:01:59.909> control<00:02:00.420> how<00:02:00.780> many
+
+00:02:00.830 --> 00:02:00.840 
+before we can also control how many
+
+00:02:00.840 --> 00:02:03.560 
+before we can also control how many
+times<00:02:01.350> the<00:02:01.619> timer<00:02:01.950> repeats<00:02:02.430> by<00:02:02.670> passing<00:02:03.149> in<00:02:03.329> an
+
+00:02:03.560 --> 00:02:03.570 
+times the timer repeats by passing in an
+
+00:02:03.570 --> 00:02:06.530 
+times the timer repeats by passing in an
+optional<00:02:03.810> iterations<00:02:04.649> parameter<00:02:05.159> if<00:02:05.310> we<00:02:06.299> set
+
+00:02:06.530 --> 00:02:06.540 
+optional iterations parameter if we set
+
+00:02:06.540 --> 00:02:09.109 
+optional iterations parameter if we set
+the<00:02:06.659> iterations<00:02:07.170> to<00:02:07.350> 3<00:02:07.710> and<00:02:07.920> set<00:02:08.729> our<00:02:08.849> delay
+
+00:02:09.109 --> 00:02:09.119 
+the iterations to 3 and set our delay
+
+00:02:09.119 --> 00:02:11.990 
+the iterations to 3 and set our delay
+back<00:02:09.390> to<00:02:09.569> one<00:02:09.780> second<00:02:10.259> we<00:02:11.160> see<00:02:11.400> that<00:02:11.640> the<00:02:11.760> timer
+
+00:02:11.990 --> 00:02:12.000 
+back to one second we see that the timer
+
+00:02:12.000 --> 00:02:13.240 
+back to one second we see that the timer
+completes<00:02:12.510> three<00:02:12.840> times
+
+00:02:13.240 --> 00:02:13.250 
+completes three times
+
+00:02:13.250 --> 00:02:15.850 
+completes three times
+within<00:02:13.790> three<00:02:14.060> seconds<00:02:14.510> each<00:02:15.080> time<00:02:15.500> calling
+
+00:02:15.850 --> 00:02:15.860 
+within three seconds each time calling
+
+00:02:15.860 --> 00:02:18.970 
+within three seconds each time calling
+our<00:02:16.100> listener<00:02:16.400> function<00:02:16.910> if<00:02:17.240> we<00:02:18.050> pass<00:02:18.410> in<00:02:18.650> zero
+
+00:02:18.970 --> 00:02:18.980 
+our listener function if we pass in zero
+
+00:02:18.980 --> 00:02:26.309 
+our listener function if we pass in zero
+we<00:02:19.760> see<00:02:19.940> that<00:02:20.090> the<00:02:20.210> timer<00:02:20.450> loops<00:02:20.780> forever
+
+00:02:26.309 --> 00:02:26.319 
+
+00:02:26.319 --> 00:02:28.440 
+
+to<00:02:26.890> learn<00:02:27.099> more<00:02:27.340> about<00:02:27.400> working<00:02:27.879> with<00:02:28.030> timers
+
+00:02:28.440 --> 00:02:28.450 
+to learn more about working with timers
+
+00:02:28.450 --> 00:02:30.899 
+to learn more about working with timers
+see<00:02:29.260> the<00:02:29.409> timer<00:02:29.709> docks<00:02:30.069> located<00:02:30.670> on<00:02:30.819> the
+
+00:02:30.899 --> 00:02:30.909 
+see the timer docks located on the
+
+00:02:30.909 --> 00:02:34.709 
+see the timer docks located on the
+corona<00:02:31.269> labs<00:02:31.540> website<00:02:31.840> and<00:02:33.299> that's<00:02:34.299> a<00:02:34.420> look<00:02:34.569> at
+
+00:02:34.709 --> 00:02:34.719 
+corona labs website and that's a look at
+
+00:02:34.719 --> 00:02:37.399 
+corona labs website and that's a look at
+how<00:02:34.959> to<00:02:35.019> work<00:02:35.170> with<00:02:35.530> timers<00:02:35.920> in<00:02:36.159> Corona<00:02:36.639> SDK
+
+00:02:37.399 --> 00:02:37.409 
+how to work with timers in Corona SDK
+
+00:02:37.409 --> 00:02:39.899 
+how to work with timers in Corona SDK
+learn<00:02:38.409> more<00:02:38.680> about<00:02:38.829> working<00:02:39.159> with<00:02:39.310> Corona<00:02:39.790> SDK
+
+00:02:39.899 --> 00:02:39.909 
+learn more about working with Corona SDK
+
+00:02:39.909 --> 00:02:41.940 
+learn more about working with Corona SDK
+at<00:02:40.450> Corona<00:02:40.959> labs.com
+
+00:02:41.940 --> 00:02:41.950 
+at Corona labs.com
+
+00:02:41.950 --> 00:02:45.420 
+at Corona labs.com
+slash<00:02:42.459> University
+

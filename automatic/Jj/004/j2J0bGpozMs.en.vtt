@@ -1,0 +1,728 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.310 --> 00:00:07.129 
+
+hello<00:00:04.210> friends<00:00:04.859> welcome<00:00:05.859> to<00:00:06.130> my<00:00:06.279> new<00:00:06.580> JPA
+
+00:00:07.129 --> 00:00:07.139 
+hello friends welcome to my new JPA
+
+00:00:07.139 --> 00:00:09.810 
+hello friends welcome to my new JPA
+hibernate<00:00:08.139> programming<00:00:08.800> tutorial<00:00:09.400> series
+
+00:00:09.810 --> 00:00:09.820 
+hibernate programming tutorial series
+
+00:00:09.820 --> 00:00:12.690 
+hibernate programming tutorial series
+video<00:00:10.150> in<00:00:11.110> this<00:00:11.410> series<00:00:11.830> we<00:00:12.490> will<00:00:12.519> discuss
+
+00:00:12.690 --> 00:00:12.700 
+video in this series we will discuss
+
+00:00:12.700 --> 00:00:16.049 
+video in this series we will discuss
+about<00:00:13.240> how<00:00:13.599> JPA<00:00:14.559> and<00:00:14.919> hibernate<00:00:15.280> helps<00:00:15.730> us<00:00:15.910> to
+
+00:00:16.049 --> 00:00:16.059 
+about how JPA and hibernate helps us to
+
+00:00:16.059 --> 00:00:18.470 
+about how JPA and hibernate helps us to
+achieve<00:00:16.180> resistance<00:00:16.990> in<00:00:17.170> a<00:00:17.260> java<00:00:17.500> application
+
+00:00:18.470 --> 00:00:18.480 
+achieve resistance in a java application
+
+00:00:18.480 --> 00:00:22.530 
+achieve resistance in a java application
+let's<00:00:19.480> move<00:00:19.720> ahead<00:00:20.190> today<00:00:21.190> we<00:00:21.940> will<00:00:22.120> discuss
+
+00:00:22.530 --> 00:00:22.540 
+let's move ahead today we will discuss
+
+00:00:22.540 --> 00:00:25.350 
+let's move ahead today we will discuss
+how<00:00:22.720> to<00:00:23.200> find<00:00:23.410> a<00:00:23.770> java<00:00:24.040> entity<00:00:24.490> by<00:00:24.670> its<00:00:24.850> primary
+
+00:00:25.350 --> 00:00:25.360 
+how to find a java entity by its primary
+
+00:00:25.360 --> 00:00:29.910 
+how to find a java entity by its primary
+key<00:00:25.630> in<00:00:25.840> hibernate<00:00:26.770> using<00:00:27.190> JPA<00:00:28.110> friends<00:00:29.110> in<00:00:29.260> my
+
+00:00:29.910 --> 00:00:29.920 
+key in hibernate using JPA friends in my
+
+00:00:29.920 --> 00:00:31.980 
+key in hibernate using JPA friends in my
+previous<00:00:30.400> tutorials<00:00:31.090> we<00:00:31.300> discussed<00:00:31.750> how<00:00:31.930> to
+
+00:00:31.980 --> 00:00:31.990 
+previous tutorials we discussed how to
+
+00:00:31.990 --> 00:00:35.639 
+previous tutorials we discussed how to
+create<00:00:32.410> persistence<00:00:33.010> XML<00:00:33.969> file<00:00:34.440> we<00:00:35.440> also
+
+00:00:35.639 --> 00:00:35.649 
+create persistence XML file we also
+
+00:00:35.649 --> 00:00:39.000 
+create persistence XML file we also
+created<00:00:36.249> an<00:00:36.460> entity<00:00:36.640> by<00:00:37.030> name<00:00:37.269> person<00:00:37.749> in<00:00:38.739> this
+
+00:00:39.000 --> 00:00:39.010 
+created an entity by name person in this
+
+00:00:39.010 --> 00:00:41.639 
+created an entity by name person in this
+tutorial<00:00:39.249> I<00:00:39.820> will<00:00:40.210> refer<00:00:40.749> the<00:00:40.929> person<00:00:41.109> entity
+
+00:00:41.639 --> 00:00:41.649 
+tutorial I will refer the person entity
+
+00:00:41.649 --> 00:00:43.619 
+tutorial I will refer the person entity
+and<00:00:41.829> will<00:00:42.010> find<00:00:42.280> a<00:00:42.429> person<00:00:42.820> entity<00:00:43.179> instance
+
+00:00:43.619 --> 00:00:43.629 
+and will find a person entity instance
+
+00:00:43.629 --> 00:00:46.349 
+and will find a person entity instance
+by<00:00:43.839> its<00:00:44.019> primary<00:00:44.350> key<00:00:44.800> in<00:00:45.010> hibernate<00:00:45.940> using
+
+00:00:46.349 --> 00:00:46.359 
+by its primary key in hibernate using
+
+00:00:46.359 --> 00:00:46.919 
+by its primary key in hibernate using
+JPA
+
+00:00:46.919 --> 00:00:46.929 
+JPA
+
+00:00:46.929 --> 00:00:49.649 
+JPA
+in<00:00:47.320> order<00:00:48.309> to<00:00:48.489> find<00:00:48.730> an<00:00:48.879> entity<00:00:49.300> by<00:00:49.449> its
+
+00:00:49.649 --> 00:00:49.659 
+in order to find an entity by its
+
+00:00:49.659 --> 00:00:52.319 
+in order to find an entity by its
+primary<00:00:50.170> key<00:00:50.440> let's<00:00:50.649> discuss<00:00:51.609> the<00:00:51.789> code<00:00:52.030> point
+
+00:00:52.319 --> 00:00:52.329 
+primary key let's discuss the code point
+
+00:00:52.329 --> 00:00:55.919 
+primary key let's discuss the code point
+by<00:00:52.539> point<00:00:53.219> number<00:00:54.219> one<00:00:54.429> create<00:00:55.269> a<00:00:55.359> test<00:00:55.659> class
+
+00:00:55.919 --> 00:00:55.929 
+by point number one create a test class
+
+00:00:55.929 --> 00:00:57.959 
+by point number one create a test class
+as<00:00:56.260> read<00:00:56.499> entity<00:00:56.979> test<00:00:57.219> in<00:00:57.429> Java
+
+00:00:57.959 --> 00:00:57.969 
+as read entity test in Java
+
+00:00:57.969 --> 00:01:02.069 
+as read entity test in Java
+having<00:00:58.600> main<00:00:58.780> method<00:00:59.460> moving<00:01:00.460> ahead<00:01:01.079> number
+
+00:01:02.069 --> 00:01:02.079 
+having main method moving ahead number
+
+00:01:02.079 --> 00:01:04.829 
+having main method moving ahead number
+two<00:01:02.260> in<00:01:02.469> order<00:01:03.100> to<00:01:03.370> find<00:01:03.639> instances<00:01:04.300> of<00:01:04.449> person
+
+00:01:04.829 --> 00:01:04.839 
+two in order to find instances of person
+
+00:01:04.839 --> 00:01:07.709 
+two in order to find instances of person
+entity<00:01:05.199> in<00:01:05.379> database<00:01:05.860> by<00:01:06.100> its<00:01:06.310> primary<00:01:06.610> key<00:01:07.090> we
+
+00:01:07.709 --> 00:01:07.719 
+entity in database by its primary key we
+
+00:01:07.719 --> 00:01:10.740 
+entity in database by its primary key we
+need<00:01:07.750> entity<00:01:08.350> manager<00:01:08.820> this<00:01:09.820> entity<00:01:10.180> manager
+
+00:01:10.740 --> 00:01:10.750 
+need entity manager this entity manager
+
+00:01:10.750 --> 00:01:12.539 
+need entity manager this entity manager
+can<00:01:10.960> be<00:01:11.110> obtained<00:01:11.500> by<00:01:11.590> entity<00:01:12.130> manager
+
+00:01:12.539 --> 00:01:12.549 
+can be obtained by entity manager
+
+00:01:12.549 --> 00:01:15.840 
+can be obtained by entity manager
+factory<00:01:13.409> using<00:01:14.409> Java<00:01:14.710> X<00:01:14.950> dot<00:01:15.250> persistence
+
+00:01:15.840 --> 00:01:15.850 
+factory using Java X dot persistence
+
+00:01:15.850 --> 00:01:18.030 
+factory using Java X dot persistence
+persistence<00:01:16.450> class<00:01:16.990> we<00:01:17.229> create<00:01:17.590> entity
+
+00:01:18.030 --> 00:01:18.040 
+persistence class we create entity
+
+00:01:18.040 --> 00:01:21.149 
+persistence class we create entity
+manager<00:01:18.460> factory<00:01:19.590> persistence<00:01:20.590> class<00:01:20.890> has
+
+00:01:21.149 --> 00:01:21.159 
+manager factory persistence class has
+
+00:01:21.159 --> 00:01:23.130 
+manager factory persistence class has
+static<00:01:21.549> method<00:01:21.909> create<00:01:22.270> entity<00:01:22.689> manager
+
+00:01:23.130 --> 00:01:23.140 
+static method create entity manager
+
+00:01:23.140 --> 00:01:25.649 
+static method create entity manager
+Factory<00:01:23.759> this<00:01:24.759> method<00:01:25.180> has<00:01:25.360> a<00:01:25.390> parameter
+
+00:01:25.649 --> 00:01:25.659 
+Factory this method has a parameter
+
+00:01:25.659 --> 00:01:27.990 
+Factory this method has a parameter
+which<00:01:26.170> takes<00:01:26.500> in<00:01:26.710> name<00:01:26.920> of<00:01:27.100> persistence<00:01:27.640> unit
+
+00:01:27.990 --> 00:01:28.000 
+which takes in name of persistence unit
+
+00:01:28.000 --> 00:01:31.889 
+which takes in name of persistence unit
+to<00:01:28.149> find<00:01:28.390> in<00:01:28.600> persistence<00:01:29.170> XML<00:01:30.479> after<00:01:31.479> calling
+
+00:01:31.889 --> 00:01:31.899 
+to find in persistence XML after calling
+
+00:01:31.899 --> 00:01:34.380 
+to find in persistence XML after calling
+persistence<00:01:32.439> class<00:01:32.740> static<00:01:33.219> method<00:01:33.609> create
+
+00:01:34.380 --> 00:01:34.390 
+persistence class static method create
+
+00:01:34.390 --> 00:01:36.929 
+persistence class static method create
+entity<00:01:34.840> manager<00:01:35.289> Factory<00:01:35.740> by<00:01:36.430> passing
+
+00:01:36.929 --> 00:01:36.939 
+entity manager Factory by passing
+
+00:01:36.939 --> 00:01:39.209 
+entity manager Factory by passing
+persistence<00:01:37.509> unit<00:01:37.869> named<00:01:38.079> as<00:01:38.289> person<00:01:38.740> PU<00:01:39.070> it
+
+00:01:39.209 --> 00:01:39.219 
+persistence unit named as person PU it
+
+00:01:39.219 --> 00:01:41.660 
+persistence unit named as person PU it
+creates<00:01:39.579> entity<00:01:40.060> manager<00:01:40.479> factory<00:01:40.899> for<00:01:41.229> us
+
+00:01:41.660 --> 00:01:41.670 
+creates entity manager factory for us
+
+00:01:41.670 --> 00:01:45.660 
+creates entity manager factory for us
+moving<00:01:42.670> ahead<00:01:43.289> number<00:01:44.289> three<00:01:44.560> from<00:01:45.250> entity
+
+00:01:45.660 --> 00:01:45.670 
+moving ahead number three from entity
+
+00:01:45.670 --> 00:01:48.149 
+moving ahead number three from entity
+manager<00:01:46.090> factory<00:01:46.539> object<00:01:47.049> we<00:01:47.679> create<00:01:48.009> an
+
+00:01:48.149 --> 00:01:48.159 
+manager factory object we create an
+
+00:01:48.159 --> 00:01:51.090 
+manager factory object we create an
+instance<00:01:48.460> of<00:01:48.759> entity<00:01:49.149> manager<00:01:49.570> in<00:01:49.950> order<00:01:50.950> to
+
+00:01:51.090 --> 00:01:51.100 
+instance of entity manager in order to
+
+00:01:51.100 --> 00:01:53.010 
+instance of entity manager in order to
+create<00:01:51.369> entity<00:01:51.880> manager<00:01:52.299> we<00:01:52.479> call<00:01:52.719> a<00:01:52.750> method
+
+00:01:53.010 --> 00:01:53.020 
+create entity manager we call a method
+
+00:01:53.020 --> 00:01:55.260 
+create entity manager we call a method
+present<00:01:53.619> in<00:01:53.770> entity<00:01:54.159> manager<00:01:54.579> factory<00:01:55.030> as
+
+00:01:55.260 --> 00:01:55.270 
+present in entity manager factory as
+
+00:01:55.270 --> 00:01:58.020 
+present in entity manager factory as
+create<00:01:55.630> entity<00:01:56.079> manager<00:01:56.609> this<00:01:57.609> method
+
+00:01:58.020 --> 00:01:58.030 
+create entity manager this method
+
+00:01:58.030 --> 00:02:00.090 
+create entity manager this method
+returns<00:01:58.420> us<00:01:58.659> back<00:01:58.929> an<00:01:59.109> instance<00:01:59.530> of<00:01:59.679> entity
+
+00:02:00.090 --> 00:02:00.100 
+returns us back an instance of entity
+
+00:02:00.100 --> 00:02:03.840 
+returns us back an instance of entity
+manager<00:02:00.780> moving<00:02:01.780> ahead<00:02:02.369> number<00:02:03.369> four<00:02:03.640> in
+
+00:02:03.840 --> 00:02:03.850 
+manager moving ahead number four in
+
+00:02:03.850 --> 00:02:06.480 
+manager moving ahead number four in
+order<00:02:04.600> to<00:02:04.780> find<00:02:05.020> instances<00:02:05.679> of<00:02:05.829> person<00:02:06.249> entity
+
+00:02:06.480 --> 00:02:06.490 
+order to find instances of person entity
+
+00:02:06.490 --> 00:02:09.300 
+order to find instances of person entity
+in<00:02:06.759> database<00:02:07.240> by<00:02:07.479> its<00:02:07.689> primary<00:02:08.020> key<00:02:08.470> we<00:02:09.100> have
+
+00:02:09.300 --> 00:02:09.310 
+in database by its primary key we have
+
+00:02:09.310 --> 00:02:12.600 
+in database by its primary key we have
+to<00:02:09.460> create<00:02:09.729> entity<00:02:10.240> transaction<00:02:10.929> object<00:02:11.580> here
+
+00:02:12.600 --> 00:02:12.610 
+to create entity transaction object here
+
+00:02:12.610 --> 00:02:14.820 
+to create entity transaction object here
+entity<00:02:13.480> manager<00:02:13.900> is<00:02:14.080> responsible<00:02:14.800> for
+
+00:02:14.820 --> 00:02:14.830 
+entity manager is responsible for
+
+00:02:14.830 --> 00:02:17.090 
+entity manager is responsible for
+beginning<00:02:15.430> and<00:02:15.610> committing<00:02:16.060> transaction
+
+00:02:17.090 --> 00:02:17.100 
+beginning and committing transaction
+
+00:02:17.100 --> 00:02:20.060 
+beginning and committing transaction
+it<00:02:17.760> has<00:02:18.000> a<00:02:18.030> method<00:02:18.450> get'<00:02:18.660> transaction<00:02:19.410> which
+
+00:02:20.060 --> 00:02:20.070 
+it has a method get' transaction which
+
+00:02:20.070 --> 00:02:21.680 
+it has a method get' transaction which
+returns<00:02:20.520> an<00:02:20.730> instance<00:02:20.910> of<00:02:21.330> entity
+
+00:02:21.680 --> 00:02:21.690 
+returns an instance of entity
+
+00:02:21.690 --> 00:02:24.320 
+returns an instance of entity
+transaction<00:02:22.440> in<00:02:22.830> order<00:02:23.700> to<00:02:24.000> begin<00:02:24.150> a
+
+00:02:24.320 --> 00:02:24.330 
+transaction in order to begin a
+
+00:02:24.330 --> 00:02:26.420 
+transaction in order to begin a
+transaction<00:02:24.660> call<00:02:25.290> entity<00:02:25.710> transaction
+
+00:02:26.420 --> 00:02:26.430 
+transaction call entity transaction
+
+00:02:26.430 --> 00:02:30.560 
+transaction call entity transaction
+method<00:02:26.760> as<00:02:26.910> begin<00:02:27.680> moving<00:02:28.680> ahead<00:02:29.270> number<00:02:30.270> five
+
+00:02:30.560 --> 00:02:30.570 
+method as begin moving ahead number five
+
+00:02:30.570 --> 00:02:33.080 
+method as begin moving ahead number five
+entity<00:02:31.470> manager<00:02:31.890> class<00:02:32.160> has<00:02:32.430> a<00:02:32.460> method<00:02:32.610> by
+
+00:02:33.080 --> 00:02:33.090 
+entity manager class has a method by
+
+00:02:33.090 --> 00:02:36.170 
+entity manager class has a method by
+name<00:02:33.300> find<00:02:33.860> this<00:02:34.860> method<00:02:35.130> is<00:02:35.430> responsible<00:02:36.150> for
+
+00:02:36.170 --> 00:02:36.180 
+name find this method is responsible for
+
+00:02:36.180 --> 00:02:38.450 
+name find this method is responsible for
+finding<00:02:36.600> instances<00:02:37.380> of<00:02:37.530> person<00:02:37.950> entity<00:02:38.190> in
+
+00:02:38.450 --> 00:02:38.460 
+finding instances of person entity in
+
+00:02:38.460 --> 00:02:41.660 
+finding instances of person entity in
+database<00:02:38.940> by<00:02:39.180> its<00:02:39.390> primary<00:02:39.900> key<00:02:40.250> this<00:02:41.250> method
+
+00:02:41.660 --> 00:02:41.670 
+database by its primary key this method
+
+00:02:41.670 --> 00:02:44.420 
+database by its primary key this method
+takes<00:02:41.850> in<00:02:42.120> two<00:02:42.300> parameters<00:02:42.510> of<00:02:43.080> type<00:02:43.320> as<00:02:43.560> class
+
+00:02:44.420 --> 00:02:44.430 
+takes in two parameters of type as class
+
+00:02:44.430 --> 00:02:48.050 
+takes in two parameters of type as class
+and<00:02:44.730> object<00:02:45.740> the<00:02:46.740> first<00:02:46.980> argument<00:02:47.310> takes<00:02:47.850> in
+
+00:02:48.050 --> 00:02:48.060 
+and object the first argument takes in
+
+00:02:48.060 --> 00:02:50.300 
+and object the first argument takes in
+argument<00:02:48.570> of<00:02:48.690> type<00:02:48.900> class<00:02:49.170> which<00:02:50.040> let
+
+00:02:50.300 --> 00:02:50.310 
+argument of type class which let
+
+00:02:50.310 --> 00:02:51.980 
+argument of type class which let
+hibernate<00:02:50.820> know<00:02:51.030> that<00:02:51.240> to<00:02:51.420> which<00:02:51.570> entity
+
+00:02:51.980 --> 00:02:51.990 
+hibernate know that to which entity
+
+00:02:51.990 --> 00:02:55.400 
+hibernate know that to which entity
+query<00:02:52.320> is<00:02:52.530> to<00:02:52.560> be<00:02:52.830> fired<00:02:53.390> here<00:02:54.390> in<00:02:54.630> our<00:02:55.230> case
+
+00:02:55.400 --> 00:02:55.410 
+query is to be fired here in our case
+
+00:02:55.410 --> 00:02:58.670 
+query is to be fired here in our case
+class<00:02:55.830> type<00:02:56.130> is<00:02:56.340> person<00:02:56.790> class<00:02:57.260> the<00:02:58.260> second
+
+00:02:58.670 --> 00:02:58.680 
+class type is person class the second
+
+00:02:58.680 --> 00:03:01.220 
+class type is person class the second
+argument<00:02:58.890> is<00:02:59.280> of<00:02:59.490> type<00:02:59.730> object<00:03:00.270> which<00:03:00.900> is<00:03:01.080> the
+
+00:03:01.220 --> 00:03:01.230 
+argument is of type object which is the
+
+00:03:01.230 --> 00:03:03.320 
+argument is of type object which is the
+primary<00:03:01.500> key<00:03:01.800> value<00:03:02.370> by<00:03:02.580> which<00:03:02.640> hibernate
+
+00:03:03.320 --> 00:03:03.330 
+primary key value by which hibernate
+
+00:03:03.330 --> 00:03:07.520 
+primary key value by which hibernate
+queries<00:03:03.780> the<00:03:03.960> database<00:03:04.670> here<00:03:05.670> in<00:03:05.910> our<00:03:06.510> case<00:03:06.810> we
+
+00:03:07.520 --> 00:03:07.530 
+queries the database here in our case we
+
+00:03:07.530 --> 00:03:09.440 
+queries the database here in our case we
+want<00:03:07.800> want<00:03:07.980> to<00:03:08.100> query<00:03:08.400> person<00:03:08.940> table<00:03:09.150> in
+
+00:03:09.440 --> 00:03:09.450 
+want want to query person table in
+
+00:03:09.450 --> 00:03:12.320 
+want want to query person table in
+database<00:03:09.900> based<00:03:10.740> on<00:03:10.980> primary<00:03:11.490> key<00:03:11.760> value<00:03:11.790> as
+
+00:03:12.320 --> 00:03:12.330 
+database based on primary key value as
+
+00:03:12.330 --> 00:03:15.440 
+database based on primary key value as
+one<00:03:12.680> the<00:03:13.680> find<00:03:13.980> method<00:03:14.220> executes<00:03:14.520> and<00:03:15.180> brings
+
+00:03:15.440 --> 00:03:15.450 
+one the find method executes and brings
+
+00:03:15.450 --> 00:03:18.320 
+one the find method executes and brings
+single<00:03:15.870> record<00:03:16.200> from<00:03:16.380> table<00:03:16.800> person<00:03:17.330> this
+
+00:03:18.320 --> 00:03:18.330 
+single record from table person this
+
+00:03:18.330 --> 00:03:20.390 
+single record from table person this
+single<00:03:18.720> record<00:03:19.050> is<00:03:19.200> nothing<00:03:19.590> but<00:03:19.740> instance<00:03:20.220> of
+
+00:03:20.390 --> 00:03:20.400 
+single record is nothing but instance of
+
+00:03:20.400 --> 00:03:23.240 
+single record is nothing but instance of
+person<00:03:20.790> entity<00:03:21.440> after<00:03:22.440> getting<00:03:22.770> the<00:03:22.860> record
+
+00:03:23.240 --> 00:03:23.250 
+person entity after getting the record
+
+00:03:23.250 --> 00:03:25.310 
+person entity after getting the record
+let's<00:03:23.940> print<00:03:24.180> the<00:03:24.300> person<00:03:24.750> name<00:03:24.990> on<00:03:25.200> the
+
+00:03:25.310 --> 00:03:25.320 
+let's print the person name on the
+
+00:03:25.320 --> 00:03:28.360 
+let's print the person name on the
+console<00:03:25.770> using<00:03:26.040> system<00:03:26.640> dot<00:03:26.880> out<00:03:27.030> dot<00:03:27.090> println
+
+00:03:28.360 --> 00:03:28.370 
+console using system dot out dot println
+
+00:03:28.370 --> 00:03:31.490 
+console using system dot out dot println
+moving<00:03:29.370> ahead<00:03:29.960> number<00:03:30.960> six
+
+00:03:31.490 --> 00:03:31.500 
+moving ahead number six
+
+00:03:31.500 --> 00:03:33.800 
+moving ahead number six
+calling<00:03:32.220> entity<00:03:32.610> transaction<00:03:33.330> method<00:03:33.660> as
+
+00:03:33.800 --> 00:03:33.810 
+calling entity transaction method as
+
+00:03:33.810 --> 00:03:35.780 
+calling entity transaction method as
+commit<00:03:34.170> to<00:03:34.770> commit<00:03:35.070> the<00:03:35.190> particular
+
+00:03:35.780 --> 00:03:35.790 
+commit to commit the particular
+
+00:03:35.790 --> 00:03:39.830 
+commit to commit the particular
+transaction<00:03:36.300> of<00:03:36.660> read<00:03:37.250> moving<00:03:38.250> ahead<00:03:38.840> number
+
+00:03:39.830 --> 00:03:39.840 
+transaction of read moving ahead number
+
+00:03:39.840 --> 00:03:43.220 
+transaction of read moving ahead number
+seven<00:03:40.230> if<00:03:40.380> any<00:03:41.040> runtime<00:03:41.340> exception<00:03:42.180> occurs<00:03:42.510> we
+
+00:03:43.220 --> 00:03:43.230 
+seven if any runtime exception occurs we
+
+00:03:43.230 --> 00:03:45.020 
+seven if any runtime exception occurs we
+first<00:03:43.560> check<00:03:43.830> whether<00:03:44.010> current<00:03:44.520> transaction
+
+00:03:45.020 --> 00:03:45.030 
+first check whether current transaction
+
+00:03:45.030 --> 00:03:48.470 
+first check whether current transaction
+is<00:03:45.360> active<00:03:45.780> or<00:03:45.990> not<00:03:46.550> entity<00:03:47.550> transaction<00:03:48.300> has
+
+00:03:48.470 --> 00:03:48.480 
+is active or not entity transaction has
+
+00:03:48.480 --> 00:03:51.500 
+is active or not entity transaction has
+a<00:03:48.510> method<00:03:48.930> by<00:03:49.110> name<00:03:49.350> is<00:03:49.530> active<00:03:49.980> if<00:03:50.210> the<00:03:51.210> method
+
+00:03:51.500 --> 00:03:51.510 
+a method by name is active if the method
+
+00:03:51.510 --> 00:03:53.930 
+a method by name is active if the method
+returns<00:03:51.900> true<00:03:52.320> we<00:03:52.950> have<00:03:53.130> to<00:03:53.310> rollback<00:03:53.520> the
+
+00:03:53.930 --> 00:03:53.940 
+returns true we have to rollback the
+
+00:03:53.940 --> 00:03:56.150 
+returns true we have to rollback the
+transaction<00:03:54.420> by<00:03:55.320> calling<00:03:55.770> entity
+
+00:03:56.150 --> 00:03:56.160 
+transaction by calling entity
+
+00:03:56.160 --> 00:03:58.360 
+transaction by calling entity
+transaction<00:03:56.850> method<00:03:57.180> as<00:03:57.330> roll<00:03:57.600> back
+
+00:03:58.360 --> 00:03:58.370 
+transaction method as roll back
+
+00:03:58.370 --> 00:04:01.580 
+transaction method as roll back
+finally<00:03:59.370> we<00:03:59.970> throw<00:04:00.270> that<00:04:00.510> runtime<00:04:00.990> exception
+
+00:04:01.580 --> 00:04:01.590 
+finally we throw that runtime exception
+
+00:04:01.590 --> 00:04:05.780 
+finally we throw that runtime exception
+to<00:04:01.740> JVM<00:04:02.280> to<00:04:02.460> handle<00:04:02.960> moving<00:04:03.960> ahead<00:04:04.580> let's<00:04:05.580> say
+
+00:04:05.780 --> 00:04:05.790 
+to JVM to handle moving ahead let's say
+
+00:04:05.790 --> 00:04:07.970 
+to JVM to handle moving ahead let's say
+we<00:04:05.970> have<00:04:06.150> few<00:04:06.390> database<00:04:06.840> entries<00:04:07.320> for<00:04:07.560> person
+
+00:04:07.970 --> 00:04:07.980 
+we have few database entries for person
+
+00:04:07.980 --> 00:04:11.170 
+we have few database entries for person
+table<00:04:08.190> as<00:04:08.490> shown<00:04:08.730> in<00:04:08.760> figure<00:04:09.500> moving<00:04:10.500> ahead
+
+00:04:11.170 --> 00:04:11.180 
+table as shown in figure moving ahead
+
+00:04:11.180 --> 00:04:12.610 
+table as shown in figure moving ahead
+after<00:04:12.180> running
+
+00:04:12.610 --> 00:04:12.620 
+after running
+
+00:04:12.620 --> 00:04:15.640 
+after running
+test<00:04:12.890> class<00:04:13.220> successfully<00:04:14.019> it<00:04:15.019> outputs<00:04:15.470> a
+
+00:04:15.640 --> 00:04:15.650 
+test class successfully it outputs a
+
+00:04:15.650 --> 00:04:18.819 
+test class successfully it outputs a
+person<00:04:16.040> named<00:04:16.280> on<00:04:16.489> the<00:04:16.519> console<00:04:17.060> as<00:04:17.829> person
+
+00:04:18.819 --> 00:04:18.829 
+person named on the console as person
+
+00:04:18.829 --> 00:04:22.090 
+person named on the console as person
+name<00:04:19.040> is<00:04:19.250> :<00:04:19.639> person<00:04:20.060> 1<00:04:20.500> so<00:04:21.500> friends<00:04:21.889> this<00:04:22.040> is
+
+00:04:22.090 --> 00:04:22.100 
+name is : person 1 so friends this is
+
+00:04:22.100 --> 00:04:24.280 
+name is : person 1 so friends this is
+how<00:04:22.430> we<00:04:22.490> can<00:04:22.820> find<00:04:23.060> a<00:04:23.210> Java<00:04:23.479> entity<00:04:23.900> by<00:04:24.080> its
+
+00:04:24.280 --> 00:04:24.290 
+how we can find a Java entity by its
+
+00:04:24.290 --> 00:04:26.879 
+how we can find a Java entity by its
+primary<00:04:24.770> key<00:04:25.040> in<00:04:25.250> hibernate<00:04:25.760> using<00:04:26.150> JPA
+
+00:04:26.879 --> 00:04:26.889 
+primary key in hibernate using JPA
+
+00:04:26.889 --> 00:04:30.550 
+primary key in hibernate using JPA
+so<00:04:27.889> friends<00:04:28.370> go<00:04:29.030> through<00:04:29.060> this<00:04:29.449> video<00:04:29.810> 2<00:04:29.900> to<00:04:30.290> 3
+
+00:04:30.550 --> 00:04:30.560 
+so friends go through this video 2 to 3
+
+00:04:30.560 --> 00:04:33.280 
+so friends go through this video 2 to 3
+times<00:04:30.800> so<00:04:31.160> that<00:04:31.370> finding<00:04:32.300> a<00:04:32.419> java<00:04:32.690> entity<00:04:33.110> by
+
+00:04:33.280 --> 00:04:33.290 
+times so that finding a java entity by
+
+00:04:33.290 --> 00:04:35.800 
+times so that finding a java entity by
+its<00:04:33.470> primary<00:04:33.800> key<00:04:34.250> in<00:04:34.460> hibernate<00:04:34.970> using<00:04:35.360> JPA
+
+00:04:35.800 --> 00:04:35.810 
+its primary key in hibernate using JPA
+
+00:04:35.810 --> 00:04:38.890 
+its primary key in hibernate using JPA
+concept<00:04:36.470> gets<00:04:36.650> more<00:04:36.949> clear<00:04:37.250> to<00:04:37.280> you<00:04:37.720> hope<00:04:38.720> you
+
+00:04:38.890 --> 00:04:38.900 
+concept gets more clear to you hope you
+
+00:04:38.900 --> 00:04:41.710 
+concept gets more clear to you hope you
+liked<00:04:39.139> this<00:04:39.320> video<00:04:39.820> please<00:04:40.820> give<00:04:41.150> one<00:04:41.419> minute
+
+00:04:41.710 --> 00:04:41.720 
+liked this video please give one minute
+
+00:04:41.720 --> 00:04:44.770 
+liked this video please give one minute
+to<00:04:41.870> like<00:04:42.080> share<00:04:42.860> comment<00:04:43.669> or<00:04:44.030> subscribe<00:04:44.540> my
+
+00:04:44.770 --> 00:04:44.780 
+to like share comment or subscribe my
+
+00:04:44.780 --> 00:04:48.719 
+to like share comment or subscribe my
+channel<00:04:45.199> or<00:04:45.380> you<00:04:45.979> can<00:04:46.190> visit<00:04:46.490> my<00:04:46.669> website<00:04:46.699> at
+
+00:04:48.719 --> 00:04:48.729 
+channel or you can visit my website at
+
+00:04:48.729 --> 00:04:58.270 
+channel or you can visit my website at
+www.opm.gov/tribalprograms
+
+00:04:58.270 --> 00:04:58.280 
+
+00:04:58.280 --> 00:05:00.340 
+
+you
+

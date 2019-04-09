@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.200 --> 00:00:08.639
+Hi, my name is Jeremy Farrell,
+
+00:00:08.639 --> 00:00:11.210
+I'm the Manager of Standard Product Engineering here at VPT.
+
+00:00:11.210 --> 00:00:14.560
+Today, I'm going to talk about line and load regulation.
+
+00:00:14.840 --> 00:00:17.240
+Both of these specs are in our datasheet.
+
+00:00:17.240 --> 00:00:19.040
+The load regulation is
+
+00:00:19.040 --> 00:00:21.890
+the change in V-out when the load is
+
+00:00:21.890 --> 00:00:24.920
+varied from zero to one hundred percent
+
+00:00:25.080 --> 00:00:29.840
+and line regulation is the change in V-out
+
+00:00:29.840 --> 00:00:34.260
+when V-in goes from its minimum, either 15 or 16,
+
+00:00:34.260 --> 00:00:37.400
+to its maximum, which is either 40 or 50,
+
+00:00:37.400 --> 00:00:39.140
+depending on the part.
+
+00:00:39.420 --> 00:00:41.300
+For this example, we're going to use a
+
+00:00:41.300 --> 00:00:47.090
+DVFL2812S and we're going to show that
+
+00:00:47.090 --> 00:00:50.980
+the line and load regulation is well-within
+
+00:00:50.980 --> 00:00:54.360
+the specs that we have in our datasheet.
+
+00:00:55.000 --> 00:00:59.100
+First, we're going to measure the load regulation of our DVFL.
+
+00:00:59.100 --> 00:01:01.660
+The set up is critical in this measurement.
+
+00:01:01.660 --> 00:01:04.480
+The DVFL has sense leads.
+
+00:01:04.480 --> 00:01:11.260
+The output voltage calculation internal to the unit is done through the sense leads.
+
+00:01:11.420 --> 00:01:15.340
+If you want to measure the load regulation at the pins,
+
+00:01:15.340 --> 00:01:17.880
+you can short the sense leads directly to the pins,
+
+00:01:17.880 --> 00:01:20.520
+which is what we have in our test setup here.
+
+00:01:22.040 --> 00:01:23.640
+First, it's running at no load.
+
+00:01:23.860 --> 00:01:28.360
+The output is 12.019 at the output pins,
+
+00:01:28.360 --> 00:01:31.020
+where the sence pins are shorted
+
+00:01:31.020 --> 00:01:36.900
+and 12.019 at the load, with no load.
+
+00:01:36.900 --> 00:01:39.280
+Next, if I switch to full load,
+
+00:01:39.760 --> 00:01:42.820
+which in this case is 9.2 amps,
+
+00:01:42.960 --> 00:01:48.480
+the output at the pins is still 12.019
+
+00:01:48.600 --> 00:01:51.020
+which is zero volts of load regulation.
+
+00:01:51.040 --> 00:01:56.460
+However, the voltage at the load is 11.826,
+
+00:01:56.460 --> 00:02:00.920
+which is a result of the resistance in the load connection.
+
+00:02:03.240 --> 00:02:05.300
+Next, we're going to talk about line regulation.
+
+00:02:06.640 --> 00:02:10.480
+First, the line regulation is the change in V-out
+
+00:02:10.660 --> 00:02:15.670
+when V-in is varied from 16 to 40 volts for the DVFL product.
+
+00:02:16.720 --> 00:02:20.340
+And also taking that full load.
+
+00:02:20.480 --> 00:02:23.960
+Here, a full load 9.2 amps.
+
+00:02:24.160 --> 00:02:30.040
+V-in is 16 volts and V-out is 12.017.
+
+00:02:30.200 --> 00:02:34.720
+As V-in is varied up to 40 volts,
+
+00:02:42.740 --> 00:02:47.580
+V-out has changed to 12.013
+
+00:02:47.580 --> 00:02:50.460
+which is a variation of 4 millivolts,
+
+00:02:50.460 --> 00:02:53.460
+well-within the specs of the datasheet.
+
+00:02:53.460 --> 00:02:55.110
+When you're measuring these two parameters,
+
+00:02:55.110 --> 00:02:58.500
+the measurement point is critical for V-out.
+
+00:02:58.500 --> 00:03:00.740
+For our parts with sense pins,
+
+00:03:00.740 --> 00:03:05.760
+V-out should be measured at the sense pins and wherever they're connected.
+
+00:03:05.840 --> 00:03:07.740
+For our parts without sense pins,
+
+00:03:07.740 --> 00:03:10.260
+V-out needs to be measured at the pins
+
+00:03:10.260 --> 00:03:12.900
+because any kind of connection resistance
+
+00:03:12.900 --> 00:03:17.020
+can cause a large variation in the V-out measurement.
+
+00:03:17.220 --> 00:03:25.420
+Thank you
+

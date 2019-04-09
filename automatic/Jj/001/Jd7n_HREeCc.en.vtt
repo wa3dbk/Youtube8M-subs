@@ -1,0 +1,535 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:10.019 --> 00:00:14.580
+ hi thank you for your interest in this 
+
+00:00:12.330 --> 00:00:16.170
+ video tutorial since microsoft left 
+
+00:00:14.580 --> 00:00:18.300
+ to offer your product small windows 
+
+00:00:16.170 --> 00:00:20.009
+ business server the central server is 
+
+00:00:18.300 --> 00:00:22.020
+ the only alternative available for 
+
+00:00:20.009 --> 00:00:23.520
+ replace both natively 
+
+00:00:22.020 --> 00:00:25.710
+ microsoft electrical activity like 
+
+00:00:23.520 --> 00:00:27.220
+ microsoft change in the small and medium 
+
+00:00:25.710 --> 00:00:29.710
+ company 
+
+00:00:27.220 --> 00:00:31.000
+ this tutorial is part of a series 
+
+00:00:29.710 --> 00:00:33.070
+ of videos where the 
+
+00:00:31.000 --> 00:00:34.480
+ central server capabilities like 
+
+00:00:33.070 --> 00:00:36.970
+ native replacement of these solutions 
+
+00:00:34.480 --> 00:00:38.379
+ microsoft we will show different cases 
+
+00:00:36.970 --> 00:00:40.540
+ of use with real examples in 
+
+00:00:38.379 --> 00:00:42.519
+ working for it let's do 
+
+00:00:40.540 --> 00:00:44.450
+ use of various virtual machines to 
+
+00:00:42.519 --> 00:00:46.550
+ develop the scenarios 
+
+00:00:44.450 --> 00:00:48.260
+ in our second scenario we will show 
+
+00:00:46.550 --> 00:00:49.610
+ how to join our central server to a 
+
+00:00:48.260 --> 00:00:52.130
+ deployment with a windows domain 
+
+00:00:49.610 --> 00:00:53.750
+ preexisting this case is especially 
+
+00:00:52.130 --> 00:00:56.300
+ interesting since it allows us to maintain 
+
+00:00:53.750 --> 00:00:57.980
+ our previous infrastructure and 
+
+00:00:56.300 --> 00:00:59.750
+ start a smooth migration of services 
+
+00:00:57.980 --> 00:01:02.090
+ that is totally transparent for the 
+
+00:00:59.750 --> 00:01:03.890
+ end user we will check the 
+
+00:01:02.090 --> 00:01:06.140
+ replication directory tree the 
+
+00:01:03.890 --> 00:01:07.930
+ ns records is a system of 
+
+00:01:06.140 --> 00:01:10.310
+ kerberos and group policies 
+
+00:01:07.930 --> 00:01:12.650
+ replication in both directions and 
+
+00:01:10.310 --> 00:01:14.450
+ practically instantaneous keeping the 
+
+00:01:12.650 --> 00:01:16.550
+ coherence of information in our 
+
+00:01:14.450 --> 00:01:18.710
+ domain servers in our 
+
+00:01:16.550 --> 00:01:20.330
+ previous tutorial we have seen that we 
+
+00:01:18.710 --> 00:01:22.700
+ can offer entity as controller 
+
+00:01:20.330 --> 00:01:24.530
+ of domain standalone however it is very 
+
+00:01:22.700 --> 00:01:25.790
+ frequent finding an infrastructure 
+
+00:01:24.530 --> 00:01:27.980
+ established around a domain 
+
+00:01:25.790 --> 00:01:30.140
+ pre-existing windows 
+
+00:01:27.980 --> 00:01:31.520
+ in these cases the administrator wish to 
+
+00:01:30.140 --> 00:01:34.940
+ enter central as a controller 
+
+00:01:31.520 --> 00:01:36.140
+ additional to replicate the information 
+
+00:01:34.940 --> 00:01:38.540
+ go migrating some services 
+
+00:01:36.140 --> 00:01:40.370
+ progressively all this without any 
+
+00:01:38.540 --> 00:01:42.680
+ service stop and no need to 
+
+00:01:40.370 --> 00:01:44.720
+ reconfigure install additional software 
+
+00:01:42.680 --> 00:01:47.330
+ or rejoin the domain to the 
+
+00:01:44.720 --> 00:01:49.670
+ clients this is exactly what we 
+
+00:01:47.330 --> 00:01:51.350
+ offers the central server we are going to 
+
+00:01:49.670 --> 00:01:53.630
+ from a scenario with a domain already 
+
+00:01:51.350 --> 00:01:57.860
+ configured in windows we have in this 
+
+00:01:53.630 --> 00:02:01.140
+ case a windows server 2008 r2 with the 
+
+00:01:57.860 --> 00:02:03.300
+ central domain 2000 land 
+
+00:02:01.140 --> 00:02:04.740
+ this windows server was located in the 
+
+00:02:03.300 --> 00:02:07.170
+ same local network as our server 
+
+00:02:04.740 --> 00:02:09.060
+ essential in fact in this central case 
+
+00:02:07.170 --> 00:02:12.380
+ is acting as a gateway as a door 
+
+00:02:09.060 --> 00:02:14.270
+ link for this server windows 
+
+00:02:12.380 --> 00:02:16.340
+ As indicated in the official documentation 
+
+00:02:14.270 --> 00:02:18.470
+ of central office available in two points 
+
+00:02:16.340 --> 00:02:20.210
+ to the point or heretic there is a series of 
+
+00:02:18.470 --> 00:02:23.830
+ points that we must ensure before 
+
+00:02:20.210 --> 00:02:23.830
+ join this domain of windows 
+
+00:02:24.060 --> 00:02:28.020
+ most of these points are pretty 
+
+00:02:26.010 --> 00:02:31.050
+ Obvious the servers must have the 
+
+00:02:28.020 --> 00:02:34.340
+ same time and time zone the name of the 
+
+00:02:31.050 --> 00:02:35.989
+ Local domain has to be the same etc 
+
+00:02:34.340 --> 00:02:38.660
+ with our scenario has prepared 
+
+00:02:35.989 --> 00:02:43.030
+ we go back to central interface and from 
+
+00:02:38.660 --> 00:02:44.620
+ the configuration domain form 
+
+00:02:43.030 --> 00:02:46.660
+ we can verify that you only have to 
+
+00:02:44.620 --> 00:02:49.090
+ fill in a pretty data set 
+
+00:02:46.660 --> 00:02:50.590
+ accessible to the administrator the 
+
+00:02:49.090 --> 00:02:52.900
+ server function in this case 
+
+00:02:50.590 --> 00:02:54.370
+ control of additional domain 
+
+00:02:52.900 --> 00:02:55.870
+ the effect of n of the controller of the 
+
+00:02:54.370 --> 00:02:58.150
+ domain 
+
+00:02:55.870 --> 00:02:59.890
+ the ip of the main server of the 
+
+00:02:58.150 --> 00:03:01.510
+ domain in this case is the same machine 
+
+00:02:59.890 --> 00:03:03.170
+ is in local network with central as 
+
+00:03:01.510 --> 00:03:04.819
+ we said 
+
+00:03:03.170 --> 00:03:06.210
+ and the account to the administrator and his 
+
+00:03:04.819 --> 00:03:09.030
+ password 
+
+00:03:06.210 --> 00:03:11.370
+ fill in this form 
+
+00:03:09.030 --> 00:03:13.090
+ ward we would make the changes and now we only 
+
+00:03:11.370 --> 00:03:16.260
+ it would be 
+
+00:03:13.090 --> 00:03:16.260
+ activate the module 
+
+00:03:18.280 --> 00:03:22.920
+ of file and domain sharing 
+
+00:03:29.420 --> 00:03:34.819
+ at the end of this operation we can already 
+
+00:03:31.520 --> 00:03:36.290
+ see on the domain controllers here 
+
+00:03:34.819 --> 00:03:38.750
+ appears essential as one of the 
+
+00:03:36.290 --> 00:03:40.510
+ decent domain controllers to 
+
+00:03:38.750 --> 00:03:42.450
+ Sunday lnd 
+
+00:03:40.510 --> 00:03:45.930
+ We are going to create 
+
+00:03:42.450 --> 00:03:48.680
+ an example user here in our 
+
+00:03:45.930 --> 00:03:48.680
+ windows server 
+
+00:04:02.600 --> 00:04:06.580
+ we create a user and we are going to create 
+
+00:04:05.360 --> 00:04:09.570
+ as well 
+
+00:04:06.580 --> 00:04:09.570
+ an example group 
+
+00:04:13.200 --> 00:04:16.220
+ once the group is created 
+
+00:04:16.570 --> 00:04:22.690
+ let's add 
+
+00:04:19.400 --> 00:04:22.690
+ to this user the group 
+
+00:04:24.920 --> 00:04:29.120
+ in agreement 
+
+00:04:26.780 --> 00:04:31.540
+ we apply the changes in the domain of 
+
+00:04:29.120 --> 00:04:31.540
+ windows 
+
+00:04:33.160 --> 00:04:38.310
+ here in users and teams manage 
+
+00:04:35.820 --> 00:04:41.510
+ we see what 
+
+00:04:38.310 --> 00:04:41.510
+ our user 
+
+00:04:42.009 --> 00:04:46.150
+ to check that the synchronization is 
+
+00:04:43.719 --> 00:04:49.319
+ effectively bidirectional let's 
+
+00:04:46.150 --> 00:04:49.319
+ add another user 
+
+00:05:04.940 --> 00:05:11.440
+ and after a short period they can be 
+
+00:05:07.910 --> 00:05:11.440
+ half a minute or two minutes 
+
+00:05:12.270 --> 00:05:16.400
+ let's go to our windows server 
+
+00:05:16.580 --> 00:05:21.319
+ we refresh the list and see that 
+
+00:05:18.800 --> 00:05:23.000
+ effectively here the user appears 
+
+00:05:21.319 --> 00:05:24.349
+ that we have created from the license the 
+
+00:05:23.000 --> 00:05:28.039
+ users that we created in winners are 
+
+00:05:24.349 --> 00:05:31.139
+ have synchronized lit and vice versa what 
+
+00:05:28.039 --> 00:05:33.160
+ same will happen with the system 
+
+00:05:31.139 --> 00:05:35.400
+ from ms 
+
+00:05:33.160 --> 00:05:38.740
+ and here 
+
+00:05:35.400 --> 00:05:40.930
+ for example we consulted central point 
+
+00:05:38.740 --> 00:05:43.449
+ central mail point a record that 
+
+00:05:40.930 --> 00:05:45.759
+ originally did not exist in this this 
+
+00:05:43.449 --> 00:05:47.320
+ server windows we see that you can 
+
+00:05:45.759 --> 00:05:49.630
+ solve 
+
+00:05:47.320 --> 00:05:53.200
+ if we add new records in our 
+
+00:05:49.630 --> 00:05:57.160
+ We can solve them in science in 
+
+00:05:53.200 --> 00:05:58.780
+ windows and vice versa and we're going to 
+
+00:05:57.160 --> 00:06:03.190
+ check the operation of the system 
+
+00:05:58.780 --> 00:06:05.050
+ kerberos throughout the entire domain 
+
+00:06:03.190 --> 00:06:09.139
+ in this case we have the client here 
+
+00:06:05.050 --> 00:06:10.759
+ windows already joined the domain 
+
+00:06:09.139 --> 00:06:13.270
+ has started the session with one of the 
+
+00:06:10.759 --> 00:06:13.270
+ users 
+
+00:06:13.500 --> 00:06:20.310
+ and this user if we play here playing 
+
+00:06:16.560 --> 00:06:22.380
+ list we see that the tickets in this case 
+
+00:06:20.310 --> 00:06:24.830
+ are offered by win says center point 
+
+00:06:22.380 --> 00:06:26.990
+ domain point land 
+
+00:06:24.830 --> 00:06:30.880
+ from science we can have a brooch 
+
+00:06:26.990 --> 00:06:33.460
+ ttp that I used as we see this check 
+
+00:06:30.880 --> 00:06:36.169
+ there is kerberos 
+
+00:06:33.460 --> 00:06:38.029
+ and arranging access 
+
+00:06:36.169 --> 00:06:41.889
+ instead of allowing everything we are going to 
+
+00:06:38.029 --> 00:06:45.129
+ restrict that they can only 
+
+00:06:41.889 --> 00:06:47.199
+ Our users enter our proxy 
+
+00:06:45.129 --> 00:06:49.460
+ valid users in the domain to 
+
+00:06:47.199 --> 00:06:52.460
+ allow everything for this case 
+
+00:06:49.460 --> 00:06:55.130
+ we keep changes 
+
+00:06:52.460 --> 00:06:58.100
+ in a system where we are not using 
+
+00:06:55.130 --> 00:06:59.570
+ lose you we would have to 
+
+00:06:58.100 --> 00:07:01.040
+ and enter the credentials of 
+
+00:06:59.570 --> 00:07:03.550
+ user as soon as we start the 
+
+00:07:01.040 --> 00:07:03.550
+ navigation 
+
+00:07:04.129 --> 00:07:07.930
+ in this case 
+
+00:07:05.800 --> 00:07:11.050
+ our windows 7 we have here a 
+
+00:07:07.930 --> 00:07:13.720
+ browser is already configured 
+
+00:07:11.050 --> 00:07:16.180
+ to use this proxy we are going to navigate to 
+
+00:07:13.720 --> 00:07:19.870
+ any page 
+
+00:07:16.180 --> 00:07:23.199
+ as we see, he has asked for credentials and 
+
+00:07:19.870 --> 00:07:26.130
+ however, if we ask again 
+
+00:07:23.199 --> 00:07:26.130
+ ticket list 
+
+00:07:30.480 --> 00:07:37.890
+ we see that effectively 
+
+00:07:33.750 --> 00:07:39.540
+ the main tickets the axis and the 
+
+00:07:37.890 --> 00:07:42.330
+ tics is to say if they were offered by 
+
+00:07:39.540 --> 00:07:44.670
+ windows originally but we see here 
+
+00:07:42.330 --> 00:07:46.200
+ central point central point domino dot 
+
+00:07:44.670 --> 00:07:48.870
+ land which means that these 
+
+00:07:46.200 --> 00:07:50.310
+ same tickets have allowed him to obtain 
+
+00:07:48.870 --> 00:07:52.590
+ other tickets for the other services 
+
+00:07:50.310 --> 00:07:55.260
+ so that we can 
+
+00:07:52.590 --> 00:07:57.090
+ have different services in all 
+
+00:07:55.260 --> 00:07:59.550
+ domain controllers and the same 
+
+00:07:57.090 --> 00:08:02.060
+ ticket system authorize the 
+
+00:07:59.550 --> 00:08:02.060
+ users 
+

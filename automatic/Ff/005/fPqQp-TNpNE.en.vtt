@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.850
+ hello there i can sysadmin today i 
+
+00:00:03.750 --> 00:00:07.109
+ I will tell how the partition converter 
+
+00:00:05.850 --> 00:00:10.230
+ gpt to mbr 
+
+00:00:07.109 --> 00:00:11.219
+ but here's a banal situation you try 
+
+00:00:10.230 --> 00:00:14.099
+ install windows 
+
+00:00:11.219 --> 00:00:15.680
+ and it does not work out an installation error 
+
+00:00:14.099 --> 00:00:18.630
+ windows on this drive is not possible 
+
+00:00:15.680 --> 00:00:21.900
+ the selected disk has gpt partition style 
+
+00:00:18.630 --> 00:00:24.320
+ that is, the windows installer requires strength 
+
+00:00:21.900 --> 00:00:26.310
+ sections mbr you have a dpt 
+
+00:00:24.320 --> 00:00:28.289
+ it happens if you try 
+
+00:00:26.310 --> 00:00:31.320
+ reinstall the computer or laptop with 
+
+00:00:28.289 --> 00:00:33.809
+ windows 8 on windows 7 because 
+
+00:00:31.320 --> 00:00:36.989
+ windows 8 has a gpt partition style 
+
+00:00:33.809 --> 00:00:40.170
+ windows 7 has strongly mbr partition like 
+
+00:00:36.989 --> 00:00:41.940
+ fix it all for it in the very 
+
+00:00:40.170 --> 00:00:44.070
+ windows installer need to run 
+
+00:00:41.940 --> 00:00:46.890
+ command line for this click 
+
+00:00:44.070 --> 00:00:50.039
+ shift and 10 and command line need 
+
+00:00:46.890 --> 00:00:52.289
+ run the diskpart utility for this in 
+
+00:00:50.039 --> 00:00:55.469
+ command line we write the diskpart command 
+
+00:00:52.289 --> 00:00:58.379
+ and press enter utility diskpart 
+
+00:00:55.469 --> 00:01:00.030
+ started now let's see the list 
+
+00:00:58.379 --> 00:01:03.239
+ installed hard drives on 
+
+00:01:00.030 --> 00:01:04.430
+ computer for this we write the list command 
+
+00:01:03.239 --> 00:01:08.490
+ disk 
+
+00:01:04.430 --> 00:01:10.979
+ have the drive and press enter my case 
+
+00:01:08.490 --> 00:01:13.830
+ I have only one disk on my computer 
+
+00:01:10.979 --> 00:01:16.470
+ which is called disk 0 let's get it 
+
+00:01:13.830 --> 00:01:20.820
+ select for this we write the select command 
+
+00:01:16.470 --> 00:01:23.220
+ disk 0 click again bender disk 0 
+
+00:01:20.820 --> 00:01:25.590
+ now you need it completely 
+
+00:01:23.220 --> 00:01:29.130
+ clear it will completely remove everything 
+
+00:01:25.590 --> 00:01:29.430
+ To do this, we write a wedge command and press 
+
+00:01:29.130 --> 00:01:35.189
+ again 
+
+00:01:29.430 --> 00:01:37.170
+ enter diskpart cleared disk now 
+
+00:01:35.189 --> 00:01:40.430
+ let's convert it to a different style 
+
+00:01:37.170 --> 00:01:42.600
+ markup for this we write a command envelope 
+
+00:01:40.430 --> 00:01:46.020
+ mbr and click again 
+
+00:01:42.600 --> 00:01:48.869
+ enter and write and output that utility 
+
+00:01:46.020 --> 00:01:52.439
+ diskpart converted disk to mbr 
+
+00:01:48.869 --> 00:01:54.149
+ format now need to quit push exit 
+
+00:01:52.439 --> 00:01:57.180
+ and exit again 
+
+00:01:54.149 --> 00:01:58.380
+ all can now safely continue 
+
+00:01:57.180 --> 00:02:00.810
+ install windows 7 
+
+00:01:58.380 --> 00:02:02.880
+ because the hard drive was converted to 
+
+00:02:00.810 --> 00:02:05.610
+ another sat markup and no errors about 
+
+00:02:02.880 --> 00:02:08.009
+ the fact that the wrong forces markup times 
+
+00:02:05.610 --> 00:02:09.479
+ the hard disk will not be at the same time I 
+
+00:02:08.009 --> 00:02:13.370
+ all subscribe to the channel put 
+
+00:02:09.479 --> 00:02:13.370
+ likes watch the video all bye 
+

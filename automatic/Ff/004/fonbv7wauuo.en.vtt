@@ -1,0 +1,960 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.360 
+
+this<00:00:00.599> is<00:00:00.750> Tim<00:00:00.930> O'Brien<00:00:01.230> with<00:00:01.530> Sano<00:00:01.740> type<00:00:01.949> in
+
+00:00:02.360 --> 00:00:02.370 
+this is Tim O'Brien with Sano type in
+
+00:00:02.370 --> 00:00:04.280 
+this is Tim O'Brien with Sano type in
+this<00:00:02.550> video<00:00:02.850> I'm<00:00:03.090> going<00:00:03.270> to<00:00:03.360> discuss<00:00:03.720> staging
+
+00:00:04.280 --> 00:00:04.290 
+this video I'm going to discuss staging
+
+00:00:04.290 --> 00:00:06.650 
+this video I'm going to discuss staging
+staging<00:00:04.740> is<00:00:05.069> a<00:00:05.100> critical<00:00:05.490> feature<00:00:05.640> in<00:00:06.029> our<00:00:06.509> new
+
+00:00:06.650 --> 00:00:06.660 
+staging is a critical feature in our new
+
+00:00:06.660 --> 00:00:09.680 
+staging is a critical feature in our new
+product<00:00:07.080> next<00:00:07.620> is<00:00:07.710> professional<00:00:08.510> I'm<00:00:09.510> going
+
+00:00:09.680 --> 00:00:09.690 
+product next is professional I'm going
+
+00:00:09.690 --> 00:00:11.720 
+product next is professional I'm going
+to<00:00:09.750> discuss<00:00:10.080> hosted<00:00:10.710> repositories<00:00:11.340> and<00:00:11.490> how<00:00:11.700> a
+
+00:00:11.720 --> 00:00:11.730 
+to discuss hosted repositories and how a
+
+00:00:11.730 --> 00:00:13.640 
+to discuss hosted repositories and how a
+hosted<00:00:12.240> repository<00:00:12.780> can<00:00:13.320> encourage
+
+00:00:13.640 --> 00:00:13.650 
+hosted repository can encourage
+
+00:00:13.650 --> 00:00:15.379 
+hosted repository can encourage
+collaboration<00:00:14.340> but<00:00:14.790> then<00:00:15.000> I'm<00:00:15.089> going<00:00:15.240> to<00:00:15.269> move
+
+00:00:15.379 --> 00:00:15.389 
+collaboration but then I'm going to move
+
+00:00:15.389 --> 00:00:18.230 
+collaboration but then I'm going to move
+on<00:00:15.570> to<00:00:15.690> staging<00:00:16.260> and<00:00:16.460> talk<00:00:17.460> about<00:00:17.580> how<00:00:17.789> staging
+
+00:00:18.230 --> 00:00:18.240 
+on to staging and talk about how staging
+
+00:00:18.240 --> 00:00:20.540 
+on to staging and talk about how staging
+takes<00:00:18.900> hosted<00:00:19.410> repositories<00:00:20.010> a<00:00:20.039> step<00:00:20.310> further
+
+00:00:20.540 --> 00:00:20.550 
+takes hosted repositories a step further
+
+00:00:20.550 --> 00:00:22.730 
+takes hosted repositories a step further
+introducing<00:00:21.510> the<00:00:21.570> concept<00:00:21.960> of<00:00:21.990> workflow<00:00:22.529> a
+
+00:00:22.730 --> 00:00:22.740 
+introducing the concept of workflow a
+
+00:00:22.740 --> 00:00:25.429 
+introducing the concept of workflow a
+managed<00:00:23.580> release<00:00:23.910> but<00:00:24.779> before<00:00:25.050> we<00:00:25.140> get<00:00:25.260> into
+
+00:00:25.429 --> 00:00:25.439 
+managed release but before we get into
+
+00:00:25.439 --> 00:00:27.200 
+managed release but before we get into
+those<00:00:25.560> details<00:00:25.619> I<00:00:26.250> want<00:00:26.699> to<00:00:26.789> talk<00:00:26.939> about<00:00:27.090> a
+
+00:00:27.200 --> 00:00:27.210 
+those details I want to talk about a
+
+00:00:27.210 --> 00:00:29.419 
+those details I want to talk about a
+common<00:00:27.480> pattern<00:00:27.990> that<00:00:28.170> emerges<00:00:29.010> in<00:00:29.189> most
+
+00:00:29.419 --> 00:00:29.429 
+common pattern that emerges in most
+
+00:00:29.429 --> 00:00:32.269 
+common pattern that emerges in most
+enterprise<00:00:29.910> builds<00:00:30.650> most<00:00:31.650> enterprise
+
+00:00:32.269 --> 00:00:32.279 
+enterprise builds most enterprise
+
+00:00:32.279 --> 00:00:34.280 
+enterprise builds most enterprise
+applications<00:00:33.000> begin<00:00:33.420> life<00:00:33.600> as<00:00:33.870> simple
+
+00:00:34.280 --> 00:00:34.290 
+applications begin life as simple
+
+00:00:34.290 --> 00:00:37.010 
+applications begin life as simple
+focused<00:00:34.980> applications<00:00:35.610> over<00:00:35.940> the<00:00:36.180> years<00:00:36.450> they
+
+00:00:37.010 --> 00:00:37.020 
+focused applications over the years they
+
+00:00:37.020 --> 00:00:40.040 
+focused applications over the years they
+gather<00:00:37.230> complexity<00:00:37.890> and<00:00:38.480> after<00:00:39.480> a<00:00:39.510> few<00:00:39.809> years
+
+00:00:40.040 --> 00:00:40.050 
+gather complexity and after a few years
+
+00:00:40.050 --> 00:00:41.569 
+gather complexity and after a few years
+you<00:00:40.530> can<00:00:40.649> have<00:00:40.860> an<00:00:40.980> enterprise<00:00:41.219> application
+
+00:00:41.569 --> 00:00:41.579 
+you can have an enterprise application
+
+00:00:41.579 --> 00:00:44.630 
+you can have an enterprise application
+that<00:00:42.480> consists<00:00:42.870> of<00:00:42.930> many<00:00:43.260> complex<00:00:43.890> subsystems
+
+00:00:44.630 --> 00:00:44.640 
+that consists of many complex subsystems
+
+00:00:44.640 --> 00:00:46.610 
+that consists of many complex subsystems
+with<00:00:45.210> the<00:00:45.329> complex<00:00:45.870> interactions<00:00:46.440> between
+
+00:00:46.610 --> 00:00:46.620 
+with the complex interactions between
+
+00:00:46.620 --> 00:00:49.459 
+with the complex interactions between
+those<00:00:47.010> subsystems<00:00:47.809> for<00:00:48.809> most<00:00:49.110> organizations
+
+00:00:49.459 --> 00:00:49.469 
+those subsystems for most organizations
+
+00:00:49.469 --> 00:00:52.400 
+those subsystems for most organizations
+that<00:00:49.860> have<00:00:49.980> evolved<00:00:50.430> such<00:00:50.670> complexity<00:00:51.410> they
+
+00:00:52.400 --> 00:00:52.410 
+that have evolved such complexity they
+
+00:00:52.410 --> 00:00:54.860 
+that have evolved such complexity they
+tend<00:00:52.739> to<00:00:52.800> have<00:00:52.920> monolithic<00:00:53.340> builds<00:00:54.000> to<00:00:54.629> build
+
+00:00:54.860 --> 00:00:54.870 
+tend to have monolithic builds to build
+
+00:00:54.870 --> 00:00:56.750 
+tend to have monolithic builds to build
+a<00:00:55.050> release<00:00:55.440> for<00:00:56.160> an<00:00:56.219> enterprise<00:00:56.550> application
+
+00:00:56.750 --> 00:00:56.760 
+a release for an enterprise application
+
+00:00:56.760 --> 00:00:59.090 
+a release for an enterprise application
+you<00:00:57.570> often<00:00:57.930> need<00:00:58.050> to<00:00:58.079> build<00:00:58.350> the<00:00:58.500> entire<00:00:58.800> code
+
+00:00:59.090 --> 00:00:59.100 
+you often need to build the entire code
+
+00:00:59.100 --> 00:01:01.580 
+you often need to build the entire code
+base<00:00:59.129> the<00:00:59.940> build<00:01:00.180> is<00:01:00.329> so<00:01:00.539> brittle<00:01:00.930> highly
+
+00:01:01.580 --> 00:01:01.590 
+base the build is so brittle highly
+
+00:01:01.590 --> 00:01:03.740 
+base the build is so brittle highly
+interconnected<00:01:01.859> and<00:01:02.460> coupled<00:01:02.879> that<00:01:03.359> small
+
+00:01:03.740 --> 00:01:03.750 
+interconnected and coupled that small
+
+00:01:03.750 --> 00:01:06.320 
+interconnected and coupled that small
+bugs<00:01:04.049> are<00:01:04.199> magnified<00:01:04.559> a<00:01:04.979> bug<00:01:05.580> in<00:01:05.729> one<00:01:05.760> system
+
+00:01:06.320 --> 00:01:06.330 
+bugs are magnified a bug in one system
+
+00:01:06.330 --> 00:01:09.020 
+bugs are magnified a bug in one system
+can<00:01:06.510> often<00:01:07.260> bring<00:01:07.799> the<00:01:07.920> entire<00:01:08.280> system<00:01:08.850> to<00:01:09.000> a
+
+00:01:09.020 --> 00:01:09.030 
+can often bring the entire system to a
+
+00:01:09.030 --> 00:01:11.600 
+can often bring the entire system to a
+crashing<00:01:09.510> halt<00:01:09.689> this<00:01:10.470> complexity<00:01:11.159> this
+
+00:01:11.600 --> 00:01:11.610 
+crashing halt this complexity this
+
+00:01:11.610 --> 00:01:14.030 
+crashing halt this complexity this
+monolithic<00:01:12.360> build<00:01:12.689> is<00:01:12.960> often<00:01:13.860> what<00:01:14.010> happens
+
+00:01:14.030 --> 00:01:14.040 
+monolithic build is often what happens
+
+00:01:14.040 --> 00:01:16.700 
+monolithic build is often what happens
+in<00:01:14.640> a<00:01:14.880> group<00:01:15.090> that's<00:01:15.330> grown<00:01:15.600> over<00:01:15.810> time<00:01:16.020> no
+
+00:01:16.700 --> 00:01:16.710 
+in a group that's grown over time no
+
+00:01:16.710 --> 00:01:18.859 
+in a group that's grown over time no
+one's<00:01:16.890> taken<00:01:17.280> a<00:01:17.340> step<00:01:17.549> back<00:01:17.759> and<00:01:18.030> reconsidered
+
+00:01:18.859 --> 00:01:18.869 
+one's taken a step back and reconsidered
+
+00:01:18.869 --> 00:01:20.780 
+one's taken a step back and reconsidered
+the<00:01:18.960> build<00:01:19.159> the<00:01:20.159> problem<00:01:20.549> with<00:01:20.700> the
+
+00:01:20.780 --> 00:01:20.790 
+the build the problem with the
+
+00:01:20.790 --> 00:01:23.030 
+the build the problem with the
+monolithic<00:01:21.150> build<00:01:21.450> is<00:01:21.659> that<00:01:22.350> it<00:01:22.619> doesn't
+
+00:01:23.030 --> 00:01:23.040 
+monolithic build is that it doesn't
+
+00:01:23.040 --> 00:01:25.039 
+monolithic build is that it doesn't
+scale<00:01:23.340> with<00:01:23.729> the<00:01:23.850> size<00:01:24.090> of<00:01:24.270> your<00:01:24.330> group<00:01:24.450> as<00:01:24.810> you
+
+00:01:25.039 --> 00:01:25.049 
+scale with the size of your group as you
+
+00:01:25.049 --> 00:01:26.929 
+scale with the size of your group as you
+need<00:01:25.409> more<00:01:25.590> people<00:01:25.799> to<00:01:26.130> build<00:01:26.280> an<00:01:26.430> ever<00:01:26.700> more
+
+00:01:26.929 --> 00:01:26.939 
+need more people to build an ever more
+
+00:01:26.939 --> 00:01:29.899 
+need more people to build an ever more
+complex<00:01:27.450> application<00:01:28.110> it's<00:01:28.680> tough<00:01:29.130> to<00:01:29.549> break
+
+00:01:29.899 --> 00:01:29.909 
+complex application it's tough to break
+
+00:01:29.909 --> 00:01:31.969 
+complex application it's tough to break
+up<00:01:30.150> the<00:01:30.360> build<00:01:30.570> so<00:01:31.110> that<00:01:31.259> one<00:01:31.530> group<00:01:31.740> doesn't
+
+00:01:31.969 --> 00:01:31.979 
+up the build so that one group doesn't
+
+00:01:31.979 --> 00:01:33.649 
+up the build so that one group doesn't
+have<00:01:32.189> to<00:01:32.280> be<00:01:32.369> concerned<00:01:32.700> with<00:01:32.970> the<00:01:33.060> AERS<00:01:33.270> or
+
+00:01:33.649 --> 00:01:33.659 
+have to be concerned with the AERS or
+
+00:01:33.659 --> 00:01:36.649 
+have to be concerned with the AERS or
+API<00:01:34.619> changes<00:01:35.070> from<00:01:35.250> another<00:01:35.490> group<00:01:35.610> if<00:01:36.450> you
+
+00:01:36.649 --> 00:01:36.659 
+API changes from another group if you
+
+00:01:36.659 --> 00:01:38.450 
+API changes from another group if you
+take<00:01:36.869> this<00:01:37.049> idea<00:01:37.290> and<00:01:37.530> you<00:01:37.860> spread<00:01:38.220> it<00:01:38.280> out
+
+00:01:38.450 --> 00:01:38.460 
+take this idea and you spread it out
+
+00:01:38.460 --> 00:01:41.030 
+take this idea and you spread it out
+beyond<00:01:38.939> development<00:01:39.509> you<00:01:40.110> can<00:01:40.140> use<00:01:40.409> Nexus<00:01:40.860> as
+
+00:01:41.030 --> 00:01:41.040 
+beyond development you can use Nexus as
+
+00:01:41.040 --> 00:01:43.429 
+beyond development you can use Nexus as
+a<00:01:41.070> collaboration<00:01:41.670> point<00:01:42.030> for<00:01:42.630> QA<00:01:42.899> and<00:01:43.290> for
+
+00:01:43.429 --> 00:01:43.439 
+a collaboration point for QA and for
+
+00:01:43.439 --> 00:01:46.069 
+a collaboration point for QA and for
+operations<00:01:44.000> your<00:01:45.000> work<00:01:45.180> group<00:01:45.420> can<00:01:45.689> publish<00:01:46.020> a
+
+00:01:46.069 --> 00:01:46.079 
+operations your work group can publish a
+
+00:01:46.079 --> 00:01:47.840 
+operations your work group can publish a
+release<00:01:46.350> for<00:01:46.560> the<00:01:46.619> website<00:01:46.770> and<00:01:47.159> then<00:01:47.729> they
+
+00:01:47.840 --> 00:01:47.850 
+release for the website and then they
+
+00:01:47.850 --> 00:01:50.060 
+release for the website and then they
+can<00:01:48.000> call<00:01:48.210> QA<00:01:48.509> and<00:01:48.869> say<00:01:49.079> grab<00:01:49.619> the<00:01:49.799> release
+
+00:01:50.060 --> 00:01:50.070 
+can call QA and say grab the release
+
+00:01:50.070 --> 00:01:52.190 
+can call QA and say grab the release
+artifacts<00:01:50.579> from<00:01:51.180> the<00:01:51.450> hosted<00:01:51.930> release
+
+00:01:52.190 --> 00:01:52.200 
+artifacts from the hosted release
+
+00:01:52.200 --> 00:01:54.920 
+artifacts from the hosted release
+repository<00:01:52.860> test<00:01:53.460> them<00:01:53.670> certify<00:01:54.090> them<00:01:54.299> once
+
+00:01:54.920 --> 00:01:54.930 
+repository test them certify them once
+
+00:01:54.930 --> 00:01:57.319 
+repository test them certify them once
+QA<00:01:55.200> is<00:01:55.439> done<00:01:55.619> they<00:01:56.130> can<00:01:56.189> notify<00:01:56.549> operations
+
+00:01:57.319 --> 00:01:57.329 
+QA is done they can notify operations
+
+00:01:57.329 --> 00:01:58.969 
+QA is done they can notify operations
+that<00:01:57.810> a<00:01:57.840> specific<00:01:58.140> release<00:01:58.710> has<00:01:58.950> been
+
+00:01:58.969 --> 00:01:58.979 
+that a specific release has been
+
+00:01:58.979 --> 00:02:02.780 
+that a specific release has been
+certified<00:01:59.670> for<00:01:59.700> release<00:02:01.430> what<00:02:02.430> you're<00:02:02.579> doing
+
+00:02:02.780 --> 00:02:02.790 
+certified for release what you're doing
+
+00:02:02.790 --> 00:02:04.179 
+certified for release what you're doing
+once<00:02:03.000> you<00:02:03.210> start<00:02:03.540> to<00:02:03.659> centralize
+
+00:02:04.179 --> 00:02:04.189 
+once you start to centralize
+
+00:02:04.189 --> 00:02:06.620 
+once you start to centralize
+collaboration<00:02:05.189> on<00:02:05.430> Nexus<00:02:06.000> once<00:02:06.240> you<00:02:06.329> start<00:02:06.540> to
+
+00:02:06.620 --> 00:02:06.630 
+collaboration on Nexus once you start to
+
+00:02:06.630 --> 00:02:09.020 
+collaboration on Nexus once you start to
+deploy<00:02:06.990> your<00:02:07.200> artifacts<00:02:07.890> to<00:02:08.009> Nexus<00:02:08.340> is<00:02:08.520> that
+
+00:02:09.020 --> 00:02:09.030 
+deploy your artifacts to Nexus is that
+
+00:02:09.030 --> 00:02:10.820 
+deploy your artifacts to Nexus is that
+each<00:02:09.209> work<00:02:09.479> group<00:02:09.509> can<00:02:10.080> work<00:02:10.319> independently
+
+00:02:10.820 --> 00:02:10.830 
+each work group can work independently
+
+00:02:10.830 --> 00:02:12.339 
+each work group can work independently
+of<00:02:11.250> the<00:02:11.489> other
+
+00:02:12.339 --> 00:02:12.349 
+of the other
+
+00:02:12.349 --> 00:02:13.780 
+of the other
+we're<00:02:12.499> group<00:02:12.739> a<00:02:12.890> depends<00:02:13.400> on<00:02:13.459> the<00:02:13.579> binary
+
+00:02:13.780 --> 00:02:13.790 
+we're group a depends on the binary
+
+00:02:13.790 --> 00:02:16.059 
+we're group a depends on the binary
+artifact<00:02:14.480> support<00:02:14.900> group<00:02:15.079> being<00:02:15.290> so<00:02:15.890> work
+
+00:02:16.059 --> 00:02:16.069 
+artifact support group being so work
+
+00:02:16.069 --> 00:02:17.770 
+artifact support group being so work
+group<00:02:16.280> a<00:02:16.430> doesn't<00:02:16.819> need<00:02:17.030> all<00:02:17.209> the<00:02:17.329> source<00:02:17.569> you
+
+00:02:17.770 --> 00:02:17.780 
+group a doesn't need all the source you
+
+00:02:17.780 --> 00:02:20.410 
+group a doesn't need all the source you
+divide<00:02:18.170> and<00:02:18.349> conquer<00:02:18.739> work<00:02:19.310> group<00:02:19.730> a<00:02:19.939> is
+
+00:02:20.410 --> 00:02:20.420 
+divide and conquer work group a is
+
+00:02:20.420 --> 00:02:22.239 
+divide and conquer work group a is
+effectively<00:02:21.230> insulated<00:02:21.980> from<00:02:22.099> the
+
+00:02:22.239 --> 00:02:22.249 
+effectively insulated from the
+
+00:02:22.249 --> 00:02:24.339 
+effectively insulated from the
+complexity<00:02:22.939> of<00:02:22.969> the<00:02:23.269> overall<00:02:23.840> enterprise
+
+00:02:24.339 --> 00:02:24.349 
+complexity of the overall enterprise
+
+00:02:24.349 --> 00:02:26.500 
+complexity of the overall enterprise
+application<00:02:24.950> and<00:02:25.129> this<00:02:25.609> is<00:02:25.730> how<00:02:25.879> very<00:02:26.239> large
+
+00:02:26.500 --> 00:02:26.510 
+application and this is how very large
+
+00:02:26.510 --> 00:02:28.780 
+application and this is how very large
+organizations<00:02:27.260> scale<00:02:27.590> upwards<00:02:28.010> this<00:02:28.489> is<00:02:28.670> how
+
+00:02:28.780 --> 00:02:28.790 
+organizations scale upwards this is how
+
+00:02:28.790 --> 00:02:31.839 
+organizations scale upwards this is how
+very<00:02:29.120> large<00:02:29.389> open<00:02:29.840> source<00:02:30.079> projects<00:02:30.560> work<00:02:30.849> you
+
+00:02:31.839 --> 00:02:31.849 
+very large open source projects work you
+
+00:02:31.849 --> 00:02:34.420 
+very large open source projects work you
+start<00:02:32.030> to<00:02:32.180> specialize<00:02:32.480> so<00:02:33.109> when<00:02:34.040> maven
+
+00:02:34.420 --> 00:02:34.430 
+start to specialize so when maven
+
+00:02:34.430 --> 00:02:37.300 
+start to specialize so when maven
+depends<00:02:35.239> on<00:02:35.329> log4j<00:02:35.810> maven<00:02:36.739> doesn't<00:02:37.010> have<00:02:37.159> to
+
+00:02:37.300 --> 00:02:37.310 
+depends on log4j maven doesn't have to
+
+00:02:37.310 --> 00:02:39.429 
+depends on log4j maven doesn't have to
+get<00:02:37.430> the<00:02:37.579> source<00:02:37.849> for<00:02:38.060> log4j<00:02:38.419> and<00:02:38.780> incorporate
+
+00:02:39.429 --> 00:02:39.439 
+get the source for log4j and incorporate
+
+00:02:39.439 --> 00:02:42.009 
+get the source for log4j and incorporate
+it<00:02:39.530> into<00:02:39.680> its<00:02:39.889> build<00:02:40.099> it<00:02:40.909> depends<00:02:41.659> on<00:02:41.749> the
+
+00:02:42.009 --> 00:02:42.019 
+it into its build it depends on the
+
+00:02:42.019 --> 00:02:44.530 
+it into its build it depends on the
+binary<00:02:42.560> output<00:02:43.189> of<00:02:43.340> the<00:02:43.430> long<00:02:43.609> 4j<00:02:43.939> project<00:02:44.389> if
+
+00:02:44.530 --> 00:02:44.540 
+binary output of the long 4j project if
+
+00:02:44.540 --> 00:02:46.869 
+binary output of the long 4j project if
+you<00:02:45.200> could<00:02:45.500> conceive<00:02:45.980> of<00:02:46.010> open<00:02:46.760> source
+
+00:02:46.869 --> 00:02:46.879 
+you could conceive of open source
+
+00:02:46.879 --> 00:02:51.030 
+you could conceive of open source
+projects<00:02:47.329> as<00:02:47.450> groups<00:02:48.230> of<00:02:48.439> focused<00:02:49.310> developers
+
+00:02:51.030 --> 00:02:51.040 
+projects as groups of focused developers
+
+00:02:51.040 --> 00:02:53.349 
+projects as groups of focused developers
+exchanging<00:02:52.040> dependencies<00:02:52.730> binary
+
+00:02:53.349 --> 00:02:53.359 
+exchanging dependencies binary
+
+00:02:53.359 --> 00:02:55.390 
+exchanging dependencies binary
+dependencies<00:02:53.900> with<00:02:54.620> the<00:02:55.040> maven<00:02:55.370> central
+
+00:02:55.390 --> 00:02:55.400 
+dependencies with the maven central
+
+00:02:55.400 --> 00:02:58.030 
+dependencies with the maven central
+repository<00:02:56.299> that's<00:02:57.109> exactly<00:02:57.769> what<00:02:57.919> your
+
+00:02:58.030 --> 00:02:58.040 
+repository that's exactly what your
+
+00:02:58.040 --> 00:02:59.860 
+repository that's exactly what your
+going<00:02:58.159> to<00:02:58.219> bring<00:02:58.430> into<00:02:58.790> your<00:02:59.000> organization
+
+00:02:59.860 --> 00:02:59.870 
+going to bring into your organization
+
+00:02:59.870 --> 00:03:01.360 
+going to bring into your organization
+it's<00:03:00.379> gonna<00:03:00.560> allow<00:03:00.859> you<00:03:00.919> to<00:03:01.010> scale
+
+00:03:01.360 --> 00:03:01.370 
+it's gonna allow you to scale
+
+00:03:01.370 --> 00:03:05.229 
+it's gonna allow you to scale
+collaboration<00:03:02.769> the<00:03:03.769> staging<00:03:04.280> suite<00:03:04.579> in<00:03:04.790> Nexus
+
+00:03:05.229 --> 00:03:05.239 
+collaboration the staging suite in Nexus
+
+00:03:05.239 --> 00:03:06.670 
+collaboration the staging suite in Nexus
+Professional<00:03:05.750> allows<00:03:06.049> for<00:03:06.319> even<00:03:06.500> more
+
+00:03:06.670 --> 00:03:06.680 
+Professional allows for even more
+
+00:03:06.680 --> 00:03:09.009 
+Professional allows for even more
+flexibility<00:03:07.269> let's<00:03:08.269> say<00:03:08.389> you<00:03:08.449> have<00:03:08.659> a<00:03:08.689> release
+
+00:03:09.009 --> 00:03:09.019 
+flexibility let's say you have a release
+
+00:03:09.019 --> 00:03:11.349 
+flexibility let's say you have a release
+repository<00:03:09.680> in<00:03:09.859> your<00:03:10.010> Nexus<00:03:10.310> instance<00:03:10.699> and<00:03:10.879> a
+
+00:03:11.349 --> 00:03:11.359 
+repository in your Nexus instance and a
+
+00:03:11.359 --> 00:03:13.030 
+repository in your Nexus instance and a
+development<00:03:11.959> team<00:03:12.079> that's<00:03:12.620> deploying
+
+00:03:13.030 --> 00:03:13.040 
+development team that's deploying
+
+00:03:13.040 --> 00:03:15.069 
+development team that's deploying
+artifacts<00:03:13.760> to<00:03:13.879> this<00:03:14.000> release<00:03:14.359> repository
+
+00:03:15.069 --> 00:03:15.079 
+artifacts to this release repository
+
+00:03:15.079 --> 00:03:17.559 
+artifacts to this release repository
+releases<00:03:15.859> a<00:03:15.889> hosted<00:03:16.400> repository<00:03:16.970> when<00:03:17.479> you
+
+00:03:17.559 --> 00:03:17.569 
+releases a hosted repository when you
+
+00:03:17.569 --> 00:03:19.240 
+releases a hosted repository when you
+deploy<00:03:17.870> an<00:03:18.139> artifact<00:03:18.560> to<00:03:18.709> a<00:03:18.739> hosted
+
+00:03:19.240 --> 00:03:19.250 
+deploy an artifact to a hosted
+
+00:03:19.250 --> 00:03:21.550 
+deploy an artifact to a hosted
+repository<00:03:19.849> you<00:03:20.359> can<00:03:20.540> configure<00:03:20.959> rules
+
+00:03:21.550 --> 00:03:21.560 
+repository you can configure rules
+
+00:03:21.560 --> 00:03:24.069 
+repository you can configure rules
+that'll<00:03:22.459> have<00:03:22.699> the<00:03:22.790> staging<00:03:23.239> suite<00:03:23.479> intercept
+
+00:03:24.069 --> 00:03:24.079 
+that'll have the staging suite intercept
+
+00:03:24.079 --> 00:03:25.899 
+that'll have the staging suite intercept
+those<00:03:24.259> artifacts<00:03:24.709> and<00:03:24.919> place<00:03:25.430> them<00:03:25.669> into<00:03:25.819> a
+
+00:03:25.899 --> 00:03:25.909 
+those artifacts and place them into a
+
+00:03:25.909 --> 00:03:28.270 
+those artifacts and place them into a
+temporary<00:03:26.449> staging<00:03:27.169> location<00:03:27.650> this
+
+00:03:28.270 --> 00:03:28.280 
+temporary staging location this
+
+00:03:28.280 --> 00:03:31.300 
+temporary staging location this
+temporary<00:03:28.849> location<00:03:29.419> is<00:03:29.569> there<00:03:30.290> so<00:03:30.829> that<00:03:30.859> your
+
+00:03:31.300 --> 00:03:31.310 
+temporary location is there so that your
+
+00:03:31.310 --> 00:03:34.149 
+temporary location is there so that your
+QA<00:03:31.819> resources<00:03:32.599> can<00:03:33.290> perform<00:03:33.680> a<00:03:33.799> certification
+
+00:03:34.149 --> 00:03:34.159 
+QA resources can perform a certification
+
+00:03:34.159 --> 00:03:37.990 
+QA resources can perform a certification
+function<00:03:35.259> when<00:03:36.259> the<00:03:36.859> deployment<00:03:37.759> of<00:03:37.849> those
+
+00:03:37.990 --> 00:03:38.000 
+function when the deployment of those
+
+00:03:38.000 --> 00:03:39.879 
+function when the deployment of those
+artifacts<00:03:38.419> the<00:03:38.689> release<00:03:38.989> repository<00:03:39.709> was
+
+00:03:39.879 --> 00:03:39.889 
+artifacts the release repository was
+
+00:03:39.889 --> 00:03:42.219 
+artifacts the release repository was
+intercepted<00:03:40.609> and<00:03:40.759> the<00:03:41.239> temporary<00:03:41.629> staging
+
+00:03:42.219 --> 00:03:42.229 
+intercepted and the temporary staging
+
+00:03:42.229 --> 00:03:44.679 
+intercepted and the temporary staging
+repository<00:03:42.979> was<00:03:43.129> created<00:03:43.519> an<00:03:43.669> email<00:03:44.239> was<00:03:44.659> sent
+
+00:03:44.679 --> 00:03:44.689 
+repository was created an email was sent
+
+00:03:44.689 --> 00:03:47.229 
+repository was created an email was sent
+to<00:03:44.989> a<00:03:45.139> QA<00:03:45.470> user<00:03:45.769> and<00:03:46.099> that<00:03:46.729> QA
+
+00:03:47.229 --> 00:03:47.239 
+to a QA user and that QA
+
+00:03:47.239 --> 00:03:50.229 
+to a QA user and that QA
+user<00:03:47.659> can<00:03:47.989> now<00:03:48.139> test<00:03:48.859> that<00:03:49.159> release<00:03:49.459> to<00:03:49.669> make
+
+00:03:50.229 --> 00:03:50.239 
+user can now test that release to make
+
+00:03:50.239 --> 00:03:52.179 
+user can now test that release to make
+sure<00:03:50.479> that<00:03:50.659> that<00:03:50.780> release<00:03:51.139> is<00:03:51.349> worthy<00:03:52.009> of
+
+00:03:52.179 --> 00:03:52.189 
+sure that that release is worthy of
+
+00:03:52.189 --> 00:03:54.399 
+sure that that release is worthy of
+really<00:03:52.489> being<00:03:52.790> released<00:03:53.209> or<00:03:53.449> if<00:03:53.959> it<00:03:54.079> needs<00:03:54.290> to
+
+00:03:54.399 --> 00:03:54.409 
+really being released or if it needs to
+
+00:03:54.409 --> 00:03:57.909 
+really being released or if it needs to
+be<00:03:54.530> discarded<00:03:55.540> to<00:03:56.540> promote<00:03:56.870> a<00:03:56.900> release<00:03:57.229> the<00:03:57.620> QA
+
+00:03:57.909 --> 00:03:57.919 
+be discarded to promote a release the QA
+
+00:03:57.919 --> 00:03:59.890 
+be discarded to promote a release the QA
+user<00:03:58.189> would<00:03:58.549> go<00:03:58.729> into<00:03:59.000> the<00:03:59.209> nexus<00:03:59.540> interface
+
+00:03:59.890 --> 00:03:59.900 
+user would go into the nexus interface
+
+00:03:59.900 --> 00:04:02.740 
+user would go into the nexus interface
+and<00:04:00.109> approve<00:04:00.919> the<00:04:01.280> release<00:04:01.629> approving<00:04:02.629> that
+
+00:04:02.740 --> 00:04:02.750 
+and approve the release approving that
+
+00:04:02.750 --> 00:04:05.259 
+and approve the release approving that
+release<00:04:03.169> would<00:04:03.829> copy<00:04:04.129> the<00:04:04.759> bundle<00:04:05.150> of
+
+00:04:05.259 --> 00:04:05.269 
+release would copy the bundle of
+
+00:04:05.269 --> 00:04:06.969 
+release would copy the bundle of
+artifacts<00:04:05.870> contained<00:04:06.290> in<00:04:06.469> the<00:04:06.560> temporary
+
+00:04:06.969 --> 00:04:06.979 
+artifacts contained in the temporary
+
+00:04:06.979 --> 00:04:09.129 
+artifacts contained in the temporary
+staging<00:04:07.669> repository<00:04:08.239> to<00:04:08.449> the<00:04:08.840> release
+
+00:04:09.129 --> 00:04:09.139 
+staging repository to the release
+
+00:04:09.139 --> 00:04:12.279 
+staging repository to the release
+repository<00:04:09.949> after<00:04:10.849> it's<00:04:10.969> done<00:04:11.239> the<00:04:11.900> temporary
+
+00:04:12.279 --> 00:04:12.289 
+repository after it's done the temporary
+
+00:04:12.289 --> 00:04:16.569 
+repository after it's done the temporary
+staging<00:04:12.889> repository<00:04:13.639> would<00:04:13.849> be<00:04:14.030> removed<00:04:15.579> if
+
+00:04:16.569 --> 00:04:16.579 
+staging repository would be removed if
+
+00:04:16.579 --> 00:04:18.909 
+staging repository would be removed if
+QA<00:04:17.150> finds<00:04:17.599> that<00:04:17.900> the<00:04:17.989> release<00:04:18.229> does<00:04:18.500> not<00:04:18.650> meet
+
+00:04:18.909 --> 00:04:18.919 
+QA finds that the release does not meet
+
+00:04:18.919 --> 00:04:20.649 
+QA finds that the release does not meet
+their<00:04:19.099> standards<00:04:19.209> they<00:04:20.209> can<00:04:20.389> choose<00:04:20.630> to
+
+00:04:20.649 --> 00:04:20.659 
+their standards they can choose to
+
+00:04:20.659 --> 00:04:24.459 
+their standards they can choose to
+discard<00:04:22.120> discarding<00:04:23.120> a<00:04:23.270> temporary<00:04:23.719> staging
+
+00:04:24.459 --> 00:04:24.469 
+discard discarding a temporary staging
+
+00:04:24.469 --> 00:04:27.760 
+discard discarding a temporary staging
+repository<00:04:25.070> just<00:04:25.340> destroys<00:04:25.729> it
+
+00:04:27.760 --> 00:04:27.770 
+repository just destroys it
+
+00:04:27.770 --> 00:04:29.750 
+repository just destroys it
+so<00:04:28.770> the<00:04:28.860> staging<00:04:29.220> suite<00:04:29.400> is<00:04:29.490> very
+
+00:04:29.750 --> 00:04:29.760 
+so the staging suite is very
+
+00:04:29.760 --> 00:04:31.700 
+so the staging suite is very
+straightforward<00:04:30.060> it's<00:04:30.540> just<00:04:30.870> a<00:04:30.960> workflow<00:04:31.410> for
+
+00:04:31.700 --> 00:04:31.710 
+straightforward it's just a workflow for
+
+00:04:31.710 --> 00:04:34.120 
+straightforward it's just a workflow for
+manage<00:04:32.070> releases<00:04:32.580> this<00:04:33.030> simple<00:04:33.570> mechanism
+
+00:04:34.120 --> 00:04:34.130 
+manage releases this simple mechanism
+
+00:04:34.130 --> 00:04:37.100 
+manage releases this simple mechanism
+supports<00:04:35.130> a<00:04:35.250> decision<00:04:35.700> do<00:04:36.270> we<00:04:36.450> promote<00:04:36.750> a
+
+00:04:37.100 --> 00:04:37.110 
+supports a decision do we promote a
+
+00:04:37.110 --> 00:04:39.530 
+supports a decision do we promote a
+release<00:04:37.530> a<00:04:37.740> bundle<00:04:38.460> of<00:04:38.520> related<00:04:38.940> artifacts<00:04:39.300> or
+
+00:04:39.530 --> 00:04:39.540 
+release a bundle of related artifacts or
+
+00:04:39.540 --> 00:04:42.950 
+release a bundle of related artifacts or
+do<00:04:39.930> we<00:04:40.050> discard<00:04:40.440> it<00:04:40.590> it<00:04:41.340> notifies<00:04:42.000> QA<00:04:42.510> users
+
+00:04:42.950 --> 00:04:42.960 
+do we discard it it notifies QA users
+
+00:04:42.960 --> 00:04:44.840 
+do we discard it it notifies QA users
+and<00:04:43.170> administrative<00:04:43.740> users<00:04:44.010> that<00:04:44.430> a<00:04:44.460> staged
+
+00:04:44.840 --> 00:04:44.850 
+and administrative users that a staged
+
+00:04:44.850 --> 00:04:46.550 
+and administrative users that a staged
+release<00:04:45.240> is<00:04:45.420> available<00:04:45.900> and<00:04:46.140> needs<00:04:46.410> to<00:04:46.470> be
+
+00:04:46.550 --> 00:04:46.560 
+release is available and needs to be
+
+00:04:46.560 --> 00:04:48.680 
+release is available and needs to be
+tested<00:04:46.830> and<00:04:47.190> it's<00:04:47.640> a<00:04:47.730> further<00:04:47.970> evolution<00:04:48.210> of
+
+00:04:48.680 --> 00:04:48.690 
+tested and it's a further evolution of
+
+00:04:48.690 --> 00:04:51.680 
+tested and it's a further evolution of
+Nexus<00:04:49.080> towards<00:04:49.800> a<00:04:49.890> more<00:04:50.690> Universal
+
+00:04:51.680 --> 00:04:51.690 
+Nexus towards a more Universal
+
+00:04:51.690 --> 00:04:53.950 
+Nexus towards a more Universal
+collaboration<00:04:52.320> point<00:04:52.560> for<00:04:52.980> an<00:04:53.220> organization
+
+00:04:53.950 --> 00:04:53.960 
+collaboration point for an organization
+
+00:04:53.960 --> 00:04:56.720 
+collaboration point for an organization
+it's<00:04:54.960> more<00:04:55.320> than<00:04:55.500> just<00:04:55.770> publishing<00:04:56.130> artifacts
+
+00:04:56.720 --> 00:04:56.730 
+it's more than just publishing artifacts
+
+00:04:56.730 --> 00:04:58.910 
+it's more than just publishing artifacts
+it's<00:04:57.330> supporting<00:04:57.960> the<00:04:57.990> decisions<00:04:58.560> that<00:04:58.770> need
+
+00:04:58.910 --> 00:04:58.920 
+it's supporting the decisions that need
+
+00:04:58.920 --> 00:05:01.490 
+it's supporting the decisions that need
+to<00:04:58.950> be<00:04:59.130> made<00:04:59.370> in<00:04:59.610> any<00:05:00.060> software<00:05:00.630> release<00:05:00.870> I'd
+
+00:05:01.490 --> 00:05:01.500 
+to be made in any software release I'd
+
+00:05:01.500 --> 00:05:03.320 
+to be made in any software release I'd
+encourage<00:05:01.890> you<00:05:02.040> to<00:05:02.250> download<00:05:02.460> and<00:05:02.940> exces
+
+00:05:03.320 --> 00:05:03.330 
+encourage you to download and exces
+
+00:05:03.330 --> 00:05:04.730 
+encourage you to download and exces
+professional<00:05:03.840> you<00:05:03.930> can<00:05:04.080> download<00:05:04.290> it<00:05:04.500> today
+
+00:05:04.730 --> 00:05:04.740 
+professional you can download it today
+
+00:05:04.740 --> 00:05:07.480 
+professional you can download it today
+we'll<00:05:05.430> give<00:05:05.580> you<00:05:05.700> an<00:05:05.850> evaluation<00:05:05.940> key<00:05:06.600> go<00:05:07.050> to
+
+00:05:07.480 --> 00:05:07.490 
+we'll give you an evaluation key go to
+
+00:05:07.490 --> 00:05:10.970 
+we'll give you an evaluation key go to
+wwl<00:05:08.490> type<00:05:08.700> com<00:05:09.090> slash<00:05:09.810> product<00:05:10.260> slash<00:05:10.530> Nexus
+
+00:05:10.970 --> 00:05:10.980 
+wwl type com slash product slash Nexus
+
+00:05:10.980 --> 00:05:13.790 
+wwl type com slash product slash Nexus
+if<00:05:11.700> you<00:05:12.180> just<00:05:12.420> want<00:05:12.660> to<00:05:12.690> benefit<00:05:13.110> from<00:05:13.290> hosted
+
+00:05:13.790 --> 00:05:13.800 
+if you just want to benefit from hosted
+
+00:05:13.800 --> 00:05:16.130 
+if you just want to benefit from hosted
+repositories<00:05:14.700> you<00:05:14.880> can<00:05:15.030> do<00:05:15.180> so<00:05:15.390> in<00:05:15.630> the<00:05:15.810> open
+
+00:05:16.130 --> 00:05:16.140 
+repositories you can do so in the open
+
+00:05:16.140 --> 00:05:18.230 
+repositories you can do so in the open
+source<00:05:16.260> version<00:05:16.650> of<00:05:16.740> Nexus<00:05:17.090> it's<00:05:18.090> an
+
+00:05:18.230 --> 00:05:18.240 
+source version of Nexus it's an
+
+00:05:18.240 --> 00:05:21.110 
+source version of Nexus it's an
+incredibly<00:05:19.140> powerful<00:05:19.230> tool<00:05:19.740> once<00:05:20.640> you<00:05:20.820> start
+
+00:05:21.110 --> 00:05:21.120 
+incredibly powerful tool once you start
+
+00:05:21.120 --> 00:05:23.960 
+incredibly powerful tool once you start
+to<00:05:21.270> use<00:05:21.450> hosted<00:05:22.050> repositories<00:05:23.010> you<00:05:23.580> won't<00:05:23.820> go
+
+00:05:23.960 --> 00:05:23.970 
+to use hosted repositories you won't go
+
+00:05:23.970 --> 00:05:25.820 
+to use hosted repositories you won't go
+back<00:05:24.150> it's<00:05:24.480> gonna<00:05:24.660> change<00:05:24.750> the<00:05:25.140> way<00:05:25.320> that<00:05:25.650> you
+
+00:05:25.820 --> 00:05:25.830 
+back it's gonna change the way that you
+
+00:05:25.830 --> 00:05:29.300 
+back it's gonna change the way that you
+package<00:05:26.280> and<00:05:26.460> distribute<00:05:26.790> your<00:05:26.820> software
+

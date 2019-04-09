@@ -1,0 +1,256 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.452
+♪♪♪
+
+00:00:05.503 --> 00:00:07.742
+Wes Bunn: Greetings and welcome everyone.
+
+00:00:07.793 --> 00:00:13.440
+In this video, we are going to take a look at how we
+can publicly expose variables inside our Blueprints
+
+00:00:13.551 --> 00:00:15.660
+upon spawning them in our level.
+
+00:00:15.840 --> 00:00:22.475
+Let's  get started. We are using the Blueprint First 
+Person Template project with Starter Content enabled.
+
+00:00:22.752 --> 00:00:27.398
+ First, we are going to create a brand new Blueprint. 
+Go to the Basic tab of the Modes panel.
+
+00:00:27.449 --> 00:00:30.168
+Left-click + drag an Empty Actor into our scene.
+
+00:00:30.517 --> 00:00:32.871
+Let's add some Components to 
+the Blueprint in the Details panel.
+
+00:00:32.929 --> 00:00:34.479
+Click the Add Component button.
+
+00:00:34.585 --> 00:00:40.876
+Type and select, "Scene Component" . This will allow 
+us to manipulate the transform of this Blueprint .
+
+00:00:40.927 --> 00:00:48.034
+Name this Scene Component "Root". Click +Add Component,
+type and select, "Static Mesh Component".
+
+00:00:48.431 --> 00:00:49.867
+The default name is fine.
+
+00:00:49.868 --> 00:00:57.225
+In the Details panel under Static Mesh, 
+click the drop down, type and select "Shape_Sphere".
+
+00:00:57.812 --> 00:01:01.605
+With that, let's turn this Component into a 
+Blueprint so that we can add some script to it.
+
+00:01:01.656 --> 00:01:07.340
+Click the Blueprint/Add Script button. 
+Name this Blueprint "Sphere_Blueprint".
+
+00:01:07.340 --> 00:01:08.679
+Click Create Blueprint.
+
+00:01:08.814 --> 00:01:12.636
+UE4 is going to create a brand new Blueprint in the 
+Content Browser and open a new tab for us.
+
+00:01:12.687 --> 00:01:18.103
+Click the Sphere_Blueprint tab. We are now
+inside the Blueprint Editor Viewport tab.
+
+00:01:18.453 --> 00:01:22.555
+First, we are going to create a new variable 
+that we can publicly expose on spawn.
+
+00:01:22.606 --> 00:01:24.585
+In the My Blueprint panel, click +Variable.
+
+00:01:24.958 --> 00:01:29.998
+For this example, name this variable "Velocity".
+
+00:01:30.049 --> 00:01:32.274
+In a moment, you will see why.
+
+00:01:33.366 --> 00:01:37.930
+In the Details panel, click the Variable Type 
+drop down and select Vector.
+
+00:01:38.383 --> 00:01:41.329
+Check the Editable checkbox to make
+the variable publicly editable,
+
+00:01:41.610 --> 00:01:46.033
+Check the Expose on Spawn checkbox as well.
+
+00:01:46.433 --> 00:01:49.691
+Click Compile. Go to the Construction Script.
+
+00:01:50.239 --> 00:01:55.841
+On the Construction Script, 
+hold Ctrl + drag in our StaticMesh.
+
+00:01:56.223 --> 00:01:59.912
+Actually, there is one more 
+thing we need to do before I forget.
+
+00:02:00.217 --> 00:02:06.348
+Select the StaticMesh, and check the Simulate Physics
+checkbox in the Details panel. Physics are fun.
+
+00:02:07.340 --> 00:02:11.729
+Now that physics have been enabled, 
+drag off Static Mesh,
+
+00:02:11.780 --> 00:02:16.701
+and type "physics". There are several options in here.
+
+00:02:17.042 --> 00:02:22.550
+Scroll down and select "Set Physics Linear Velocity".
+
+00:02:24.009 --> 00:02:26.679
+Connect the Construction Script 
+to Set Physics Linear Velocity.
+
+00:02:26.730 --> 00:02:32.615
+Select the Velocity variable. The Set Physics 
+Linear Velocity node is asking for a vector.
+
+00:02:32.665 --> 00:02:35.897
+Drag-and-drop Velocity onto the New Vel pin.
+
+00:02:36.687 --> 00:02:40.231
+There we go. Our Blueprint is set.
+Click Compile and Save.
+
+00:02:41.048 --> 00:02:43.593
+Go back to the level.
+
+00:02:43.644 --> 00:02:48.747
+We can delete this instance of Sphere_Blueprint 
+in the level. Select it and press Delete.
+
+00:02:49.256 --> 00:02:51.520
+In the Modes panel, type and select "Target Point".
+
+00:02:53.238 --> 00:02:54.920
+ because we are going to use this as a spawn location.
+
+00:02:55.841 --> 00:02:57.412
+Left-click + drag in Target Point.
+
+00:02:57.857 --> 00:03:02.116
+I am going to drag it up into the world 
+because that is going to be cool.
+
+00:03:02.532 --> 00:03:04.669
+Go to the Level Blueprint.
+
+00:03:04.720 --> 00:03:08.444
+At the very top, click the Blueprints button 
+and click Open Level Blueprint.
+
+00:03:09.183 --> 00:03:12.350
+Make sure you have Target Point is 
+still selected, which we do.
+
+00:03:12.401 --> 00:03:17.410
+Go back to our Level Blueprint. Right-click, type 
+and select "Create a Reference to Target Point".
+
+00:03:17.773 --> 00:03:22.871
+Right-click and press "F" for the F key.
+
+00:03:23.713 --> 00:03:26.856
+We did this so that we can get a reference 
+of where we want to spawn
+
+00:03:27.459 --> 00:03:30.392
+our Sphere_Blueprint whenever we press F.
+
+00:03:30.443 --> 00:03:36.599
+The first thing we need to do is actually spawn it. 
+Right-click, type and select "Spawn Actor from Class".
+
+00:03:38.012 --> 00:03:39.579
+Connect Pressed to Spawn Actor from Class.
+
+00:03:40.306 --> 00:03:42.200
+You see it is asking for a transform, so let's
+
+00:03:42.250 --> 00:03:50.260
+provide that. Drag off Target Point, 
+type and select "Get Actor Transform".
+
+00:03:51.565 --> 00:03:54.221
+ Plug the Return Value into Spawn Transform.
+
+00:03:54.983 --> 00:03:58.659
+Click the Select Class drop down menu and select 
+Sphere_Blueprint. Watch what happens to the node.
+
+00:04:02.403 --> 00:04:03.332
+Sphere_Blueprint.
+
+00:04:03.383 --> 00:04:08.235
+Now we can specify a Velocity 
+at which to spawn our Blueprint.
+
+00:04:09.852 --> 00:04:23.479
+For fun, let's Right-click, type and select 
+"Random Unit Vector". That is the one we want.
+
+00:04:24.915 --> 00:04:37.614
+Drag off the Return Value, type "*" and select 
+Vector * Float. This will allow for a large spawn radius.
+
+00:04:38.128 --> 00:04:40.683
+Set B of the Multiply node to 500. 
+You can set it to whatever you would like.
+
+00:04:41.057 --> 00:04:43.169
+ Let's plug that in to our Velocity like so.
+
+00:04:44.260 --> 00:04:47.175
+Click Compile and go back to the level.
+
+00:04:47.490 --> 00:04:50.890
+Now when we click Play and press F,
+
+00:04:51.179 --> 00:04:54.577
+you can see the sphere is being launched at a velocity
+
+00:04:54.753 --> 00:04:57.959
+that we specified to occur on spawn.
+
+00:04:58.681 --> 00:05:02.406
+There you go, you have learned how to expose a variable
+
+00:05:02.482 --> 00:05:06.383
+that can be edited on spawn. You can use this
+in a number of different ways.
+
+00:05:06.434 --> 00:05:08.589
+ We could change the Material on Spawn. We could change
+
+00:05:08.640 --> 00:05:11.377
+the actual Static Mesh on Spawn if we wanted.
+
+00:05:11.588 --> 00:05:13.820
+It is completely up to you and your gameplay needs.
+
+00:05:13.969 --> 00:05:17.137
+I hope you all enjoyed this video 
+and we will see you next time.
+
+00:05:17.188 --> 00:05:25.453
+♪♪♪
+

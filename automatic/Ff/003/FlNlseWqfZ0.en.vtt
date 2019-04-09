@@ -1,0 +1,460 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.950 --> 00:00:12.389
+ in this video we are going to see the concept of 
+
+00:00:09.840 --> 00:00:15.240
+ addressing in matrices that 
+
+00:00:12.389 --> 00:00:17.520
+ means to address means to extract 
+
+00:00:15.240 --> 00:00:20.550
+ vector and matrix elements 
+
+00:00:17.520 --> 00:00:21.900
+ extract rows extract columns then for 
+
+00:00:20.550 --> 00:00:24.329
+ use those elements in our 
+
+00:00:21.900 --> 00:00:26.700
+ programs for example at the time of 
+
+00:00:24.329 --> 00:00:29.750
+ extract elements we can use this this 
+
+00:00:26.700 --> 00:00:32.210
+ Address to modify arrays 
+
+00:00:29.750 --> 00:00:34.220
+ again this is an optional video 
+
+00:00:32.210 --> 00:00:35.810
+ I insist a series of 
+
+00:00:34.220 --> 00:00:37.640
+ mathematical concepts to be able to follow 
+
+00:00:35.810 --> 00:00:39.920
+ this video can be ignored in a way 
+
+00:00:37.640 --> 00:00:41.750
+ sure to follow the rest of the course not 
+
+00:00:39.920 --> 00:00:44.210
+ there is nothing here that does not need to 
+
+00:00:41.750 --> 00:00:45.800
+ the rest of the course but if you know the 
+
+00:00:44.210 --> 00:00:46.970
+ concept of matrix and vector only makes 
+
+00:00:45.800 --> 00:00:48.800
+ lack of those concepts to follow this 
+
+00:00:46.970 --> 00:00:50.710
+ video you can continue following the 
+
+00:00:48.800 --> 00:00:53.800
+ video 
+
+00:00:50.710 --> 00:00:56.129
+ look at the code we have here 
+
+00:00:53.800 --> 00:00:56.129
+ above 
+
+00:00:57.130 --> 00:01:05.000
+ that refers to the element that is in 
+
+00:00:59.800 --> 00:01:07.310
+ the row and in the j column of the matrix 
+
+00:01:05.000 --> 00:01:08.720
+ let's see it then notice that I 
+
+00:01:07.310 --> 00:01:13.010
+ here he had created a random matrix 
+
+00:01:08.720 --> 00:01:15.620
+ I'm going to keep this in the matrix 
+
+00:01:13.010 --> 00:01:18.530
+ and now I have that matrix with four 
+
+00:01:15.620 --> 00:01:20.660
+ rows and three columns and I'll be 
+
+00:01:18.530 --> 00:01:23.900
+ extract the element that is in the 
+
+00:01:20.660 --> 00:01:25.340
+ third row in the first column the 
+
+00:01:23.900 --> 00:01:27.470
+ element that is in the third row and 
+
+00:01:25.340 --> 00:01:29.880
+ the first column we see clearly that 
+
+00:01:27.470 --> 00:01:33.240
+ it's a zero 
+
+00:01:29.880 --> 00:01:36.450
+ we have a zero I will take for example 
+
+00:01:33.240 --> 00:01:39.409
+ this 5 from here this 5 is row 4 and 
+
+00:01:36.450 --> 00:01:39.409
+ in column 2 
+
+00:01:40.860 --> 00:01:43.970
+ there is the 5 
+
+00:01:44.130 --> 00:01:49.439
+ note that you have to be careful to the 
+
+00:01:46.590 --> 00:01:51.840
+ address time if I ask for the 
+
+00:01:49.439 --> 00:01:54.570
+ element is in row 4 in the column 
+
+00:01:51.840 --> 00:01:56.610
+ 9 what happens because there is no 
+
+00:01:54.570 --> 00:01:59.520
+ column 9 is nothing else that has nothing 
+
+00:01:56.610 --> 00:02:02.460
+ more that it has three columns then we 
+
+00:01:59.520 --> 00:02:05.579
+ says that the index is outside the 
+
+00:02:02.460 --> 00:02:08.519
+ limits tells us here the value 9 is 
+
+00:02:05.579 --> 00:02:09.959
+ beyond the 3 is to say that it does not have 
+
+00:02:08.519 --> 00:02:12.599
+ nine columns but it only has three 
+
+00:02:09.959 --> 00:02:14.130
+ you have to be careful and know what the 
+
+00:02:12.599 --> 00:02:16.569
+ size of the matrices and of the two 
+
+00:02:14.130 --> 00:02:19.390
+ vectors to be able to address 
+
+00:02:16.569 --> 00:02:21.819
+ just as we extract elements we can 
+
+00:02:19.390 --> 00:02:23.769
+ extract rows and entire columns I'm going to 
+
+00:02:21.819 --> 00:02:26.950
+ delete the command line for more 
+
+00:02:23.769 --> 00:02:30.159
+ clarity I continue here with the matrix ay 
+
+00:02:26.950 --> 00:02:32.920
+ I'm going to extract the second row this is 
+
+00:02:30.159 --> 00:02:35.920
+ performs putting the operator two points 
+
+00:02:32.920 --> 00:02:38.170
+ in an isolated way on the site of 
+
+00:02:35.920 --> 00:02:40.569
+ columns this means give me the second 
+
+00:02:38.170 --> 00:02:44.139
+ row and all the columns is to say the 
+
+00:02:40.569 --> 00:02:47.370
+ second row on 4 on 6 and 9 
+
+00:02:44.139 --> 00:02:50.109
+ I'm going to extract the 
+
+00:02:47.370 --> 00:02:53.019
+ third column then here I put 
+
+00:02:50.109 --> 00:02:55.659
+ all the rows third column then 
+
+00:02:53.019 --> 00:02:58.989
+ this is going to give me 7 9 11 a vector 
+
+00:02:55.659 --> 00:03:02.999
+ column with four elements 7 9 11 is 
+
+00:02:58.989 --> 00:03:02.999
+ the last column of the matrix 
+
+00:03:04.480 --> 00:03:09.040
+ this operator two points when he goes from 
+
+00:03:07.569 --> 00:03:11.470
+ way that when you put on so 
+
+00:03:09.040 --> 00:03:14.019
+ isolated means all rows or 
+
+00:03:11.470 --> 00:03:18.430
+ all the columns but you can also 
+
+00:03:14.019 --> 00:03:22.090
+ use to extract their matrices 
+
+00:03:18.430 --> 00:03:24.069
+ subset parts of the matrix this 
+
+00:03:22.090 --> 00:03:25.930
+ example here would be the third row 
+
+00:03:24.069 --> 00:03:29.590
+ and columns two to four we go to 
+
+00:03:25.930 --> 00:03:32.590
+ see it in octave then I'm going to extract 
+
+00:03:29.590 --> 00:03:35.769
+ this sub matrix here is its matrix 
+
+00:03:32.590 --> 00:03:38.379
+ from here it goes from row 2 to 4 and 
+
+00:03:35.769 --> 00:03:42.200
+ from column 2 to 3 then 
+
+00:03:38.379 --> 00:03:46.790
+ I say from row 2 to 4 
+
+00:03:42.200 --> 00:03:48.709
+ from column 2 to 3 that I'm going 
+
+00:03:46.790 --> 00:03:51.140
+ to generate because it will generate a 
+
+00:03:48.709 --> 00:03:53.209
+ matrix with three rows and with two columns 
+
+00:03:51.140 --> 00:03:56.300
+ which is equal to this corner 
+
+00:03:53.209 --> 00:03:58.870
+ below right of the matrix there we see 
+
+00:03:56.300 --> 00:04:01.190
+ as we have extracted that sub matrix 
+
+00:03:58.870 --> 00:04:03.830
+ obviously for example if I do this 
+
+00:04:01.190 --> 00:04:06.040
+ from here it means giving me all the rows 
+
+00:04:03.830 --> 00:04:08.360
+ and all the columns that he will give me 
+
+00:04:06.040 --> 00:04:10.370
+ will effectively give the matrix to 
+
+00:04:08.360 --> 00:04:12.440
+ exactly the same if all the rows 
+
+00:04:10.370 --> 00:04:15.430
+ all the columns is the matrix to such and 
+
+00:04:12.440 --> 00:04:15.430
+ how it was at the beginning 
+
+00:04:15.780 --> 00:04:20.730
+ we've been using it with arrays with 
+
+00:04:18.570 --> 00:04:22.590
+ vectors is the same but the vectors 
+
+00:04:20.730 --> 00:04:24.780
+ they have only one dimension we are going to 
+
+00:04:22.590 --> 00:04:27.510
+ retrieve for example this vector that 
+
+00:04:24.780 --> 00:04:29.700
+ had we are going to put just four 
+
+00:04:27.510 --> 00:04:33.060
+ elements to make it easier to 
+
+00:04:29.700 --> 00:04:37.020
+ use the screen then I will get 
+
+00:04:33.060 --> 00:04:39.990
+ the second element of the vector v sub 211 
+
+00:04:37.020 --> 00:04:41.610
+ with 33 fixes that looks different to 
+
+00:04:39.990 --> 00:04:43.470
+ number here but remember that this 
+
+00:04:41.610 --> 00:04:45.360
+ good number because it is representing well 
+
+00:04:43.470 --> 00:04:47.639
+ because it was by default being stable 
+
+00:04:45.360 --> 00:04:52.260
+ is multiplying by 10 then that 
+
+00:04:47.639 --> 00:04:55.400
+ it's a 1.13 newspaper but multiplied 
+
+00:04:52.260 --> 00:04:57.560
+ by 10 that is 11.3 periodic 
+
+00:04:55.400 --> 00:05:01.260
+ in the same way I could ask you for 
+
+00:04:57.560 --> 00:05:03.150
+ example elements 2 to 4 
+
+00:05:01.260 --> 00:05:05.460
+ and it returns the last three elements 
+
+00:05:03.150 --> 00:05:07.500
+ and if I put this from here then 
+
+00:05:05.460 --> 00:05:09.000
+ obviously it's the same vector but 
+
+00:05:07.500 --> 00:05:11.070
+ Notice that the column has changed 
+
+00:05:09.000 --> 00:05:14.070
+ then the operator two points when 
+
+00:05:11.070 --> 00:05:18.180
+ it gets only returns always vectors 
+
+00:05:14.070 --> 00:05:20.490
+ column for example with the matrix if I 
+
+00:05:18.180 --> 00:05:23.070
+ I put this operator in the matrix to me 
+
+00:05:20.490 --> 00:05:24.960
+ to return a column vector where the 
+
+00:05:23.070 --> 00:05:26.610
+ columns of a are placed one on top 
+
+00:05:24.960 --> 00:05:28.590
+ from the other this column vector goes to 
+
+00:05:26.610 --> 00:05:31.230
+ as having the matrix of four 
+
+00:05:28.590 --> 00:05:33.030
+ three I will have 12 elements there we see 
+
+00:05:31.230 --> 00:05:35.910
+ Well, if you tell us there are two 
+
+00:05:33.030 --> 00:05:39.780
+ elements and this 1408 in the first 
+
+00:05:35.910 --> 00:05:42.360
+ column and so on let's see it 1408 the 
+
+00:05:39.780 --> 00:05:46.640
+ next column was 16 15 16 15 in the 
+
+00:05:42.360 --> 00:05:49.710
+ last column 7 9 11 11 11 11 then 
+
+00:05:46.640 --> 00:05:52.260
+ this can be useful to transform 
+
+00:05:49.710 --> 00:05:55.940
+ matrices in vectors that in some 
+
+00:05:52.260 --> 00:05:55.940
+ occasion then that can come in handy 
+
+00:05:56.040 --> 00:06:02.160
+ just as we access elements we can 
+
+00:05:59.340 --> 00:06:05.070
+ delete elements for example I return to the 
+
+00:06:02.160 --> 00:06:08.160
+ matrix I put it again and I put this in 
+
+00:06:05.070 --> 00:06:10.470
+ here as I had said before third row 
+
+00:06:08.160 --> 00:06:13.410
+ all the columns the third row if I 
+
+00:06:10.470 --> 00:06:14.730
+ to this he assigned the empty vector fixes 
+
+00:06:13.410 --> 00:06:16.470
+ a bracket has been opened is to close a 
+
+00:06:14.730 --> 00:06:18.990
+ bracket without putting anything in between is a 
+
+00:06:16.470 --> 00:06:22.050
+ empty vector has nothing inside if the 
+
+00:06:18.990 --> 00:06:24.810
+ assigned this what is going to happen that erases 
+
+00:06:22.050 --> 00:06:27.480
+ the third row set that to the matrix to 
+
+00:06:24.810 --> 00:06:28.920
+ that row does not have the same with 
+
+00:06:27.480 --> 00:06:31.260
+ vectors I'm going to erase the second 
+
+00:06:28.920 --> 00:06:34.830
+ element that I do assign the vector 
+
+00:06:31.260 --> 00:06:37.200
+ empty and I just deleted the second 
+
+00:06:34.830 --> 00:06:42.290
+ element that was this from here as you see 
+
+00:06:37.200 --> 00:06:42.290
+ it passes 0 7 to 1 56 directly 
+
+00:06:43.300 --> 00:06:47.979
+ there we have it for example to erase 
+
+00:06:45.669 --> 00:06:52.080
+ with vectors ie to erase 
+
+00:06:47.979 --> 00:06:52.080
+ we always assign the empty vector 
+
+00:07:02.500 --> 00:07:04.920
+ ah 
+

@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.160 --> 00:00:08.830
+Buenos dias soy Joan Codina de Simplyrhino
+y en este pequeño video vamos
+
+00:00:08.830 --> 00:00:16.110
+a ver el tema de desfasar polysuperficie en
+Rhino 5.
+
+00:00:16.110 --> 00:00:23.740
+Aquí podeis ver el modelo de una botella
+que es un solido cerrado y tiene
+
+00:00:23.740 --> 00:00:32.750
+unas pequeñas protuberancias, unas esferas
+y unas zonas con mucho detalle.
+
+00:00:32.750 --> 00:00:46.680
+Si estubieramos en Rhino 4, para darle grosor
+a esto 
+
+00:00:46.680 --> 00:00:49.600
+lo que tendríamos que
+
+00:00:49.600 --> 00:00:54.910
+hacer seria bastante complejo, tendríamos
+que descomponerlo, eliminar
+
+00:00:54.910 --> 00:01:00.140
+la tapa de arriba, y hacer un desfase de superficie,
+dándole un grosor
+
+00:01:00.140 --> 00:01:03.730
+nos haría el interior de la botella.
+
+00:01:03.730 --> 00:01:10.580
+Le damos 1.4mm de grosor y nos a hecho
+
+00:01:10.580 --> 00:01:17.520
+el interior, si miramos el resultado y lo
+analizamos, veremos que todo
+
+00:01:17.520 --> 00:01:27.250
+esta muy separado, si lo unimos y analizamos
+las aristas, tenemos muchas
+
+00:01:27.250 --> 00:01:37.380
+aristas desnudas lo cual supone bastante trabajo
+de reparación de los objetos,
+
+00:01:37.380 --> 00:01:41.340
+tendríamos incluso que crear una tapa manualmente
+arriba para asi
+
+00:01:41.340 --> 00:01:45.530
+cerrar el objeto.
+
+00:01:45.530 --> 00:01:53.670
+En rhino 5, tenemos una opción, Shell polysurface
+que,
+
+00:01:53.670 --> 00:01:58.780
+seleccionando la tapa de arriba ( le damos
+un grosor evidentemente)
+
+00:01:58.780 --> 00:02:01.920
+seleccionamos por arriba y jecutamos el comando.
+
+00:02:01.920 --> 00:02:06.130
+Como veis el resultado
+
+00:02:06.130 --> 00:02:11.000
+es totalmente valido.
+
+00:02:11.000 --> 00:02:17.990
+Fijaros que si analizamos de nuevo esta
+
+00:02:17.990 --> 00:02:20.450
+polysuperficie no tiene bordes desnudos.
+
+00:02:20.450 --> 00:02:22.540
+Tecnicamente esta mucho mejor,
+
+00:02:22.540 --> 00:02:37.170
+con lo cual no tenemos que reparar nada después.
+
+00:02:37.170 --> 00:02:40.700
+Esta herramienta realmente va a ahorrar mucho
+tiempo
+
+00:02:40.700 --> 00:02:42.660
+a los diseñadores que usan Rhino 5
+

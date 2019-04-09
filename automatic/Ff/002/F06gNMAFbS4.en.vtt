@@ -1,0 +1,638 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.540 --> 00:00:05.019 
+
+when<00:00:03.290> you<00:00:03.440> model<00:00:03.800> in<00:00:03.920> NURBS<00:00:04.250> a<00:00:04.520> lot<00:00:04.670> of<00:00:04.760> times
+
+00:00:05.019 --> 00:00:05.029 
+when you model in NURBS a lot of times
+
+00:00:05.029 --> 00:00:06.700 
+when you model in NURBS a lot of times
+the<00:00:05.390> reason<00:00:05.569> you're<00:00:05.899> doing<00:00:06.050> it<00:00:06.260> is<00:00:06.410> to<00:00:06.529> get<00:00:06.680> a
+
+00:00:06.700 --> 00:00:06.710 
+the reason you're doing it is to get a
+
+00:00:06.710 --> 00:00:09.280 
+the reason you're doing it is to get a
+very<00:00:07.040> smooth<00:00:07.609> flowing<00:00:08.149> surface<00:00:08.840> but<00:00:09.110> there
+
+00:00:09.280 --> 00:00:09.290 
+very smooth flowing surface but there
+
+00:00:09.290 --> 00:00:12.070 
+very smooth flowing surface but there
+are<00:00:09.320> times<00:00:09.590> when<00:00:09.830> you<00:00:10.070> want<00:00:10.429> to<00:00:10.760> convert<00:00:11.660> NURBS
+
+00:00:12.070 --> 00:00:12.080 
+are times when you want to convert NURBS
+
+00:00:12.080 --> 00:00:14.020 
+are times when you want to convert NURBS
+surfaces<00:00:12.680> to<00:00:12.860> polygons<00:00:13.370> let's<00:00:13.670> say<00:00:13.820> for
+
+00:00:14.020 --> 00:00:14.030 
+surfaces to polygons let's say for
+
+00:00:14.030 --> 00:00:15.700 
+surfaces to polygons let's say for
+example<00:00:14.360> you're<00:00:14.480> working<00:00:14.600> in<00:00:14.930> games<00:00:15.230> most
+
+00:00:15.700 --> 00:00:15.710 
+example you're working in games most
+
+00:00:15.710 --> 00:00:18.400 
+example you're working in games most
+game<00:00:16.010> engines<00:00:16.400> don't<00:00:16.789> accept<00:00:17.750> NURBS<00:00:18.050> they
+
+00:00:18.400 --> 00:00:18.410 
+game engines don't accept NURBS they
+
+00:00:18.410 --> 00:00:20.170 
+game engines don't accept NURBS they
+accept<00:00:18.740> polygons<00:00:19.250> so<00:00:19.400> you<00:00:19.460> have<00:00:19.730> to<00:00:19.880> convert
+
+00:00:20.170 --> 00:00:20.180 
+accept polygons so you have to convert
+
+00:00:20.180 --> 00:00:23.050 
+accept polygons so you have to convert
+your<00:00:20.390> models<00:00:20.840> to<00:00:21.220> polygons<00:00:22.220> so<00:00:22.640> let<00:00:22.820> me<00:00:22.880> show
+
+00:00:23.050 --> 00:00:23.060 
+your models to polygons so let me show
+
+00:00:23.060 --> 00:00:25.720 
+your models to polygons so let me show
+you<00:00:23.150> some<00:00:23.360> techniques<00:00:23.539> for<00:00:24.230> conversion<00:00:24.980> let's
+
+00:00:25.720 --> 00:00:25.730 
+you some techniques for conversion let's
+
+00:00:25.730 --> 00:00:27.189 
+you some techniques for conversion let's
+go<00:00:25.820> ahead<00:00:25.940> and<00:00:26.150> take<00:00:26.270> a<00:00:26.300> very<00:00:26.539> simple<00:00:26.869> NURBS
+
+00:00:27.189 --> 00:00:27.199 
+go ahead and take a very simple NURBS
+
+00:00:27.199 --> 00:00:30.820 
+go ahead and take a very simple NURBS
+object<00:00:27.710> and<00:00:27.949> convert<00:00:28.279> it<00:00:28.810> we<00:00:29.810> convert<00:00:30.260> under
+
+00:00:30.820 --> 00:00:30.830 
+object and convert it we convert under
+
+00:00:30.830 --> 00:00:33.729 
+object and convert it we convert under
+the<00:00:31.100> modify<00:00:31.670> menu<00:00:31.939> so<00:00:32.660> we<00:00:32.750> go<00:00:32.870> modify<00:00:33.350> convert
+
+00:00:33.729 --> 00:00:33.739 
+the modify menu so we go modify convert
+
+00:00:33.739 --> 00:00:37.180 
+the modify menu so we go modify convert
+and<00:00:34.340> we're<00:00:35.149> going<00:00:35.329> to<00:00:35.359> go<00:00:35.539> NURBS<00:00:36.140> two<00:00:36.649> polygons
+
+00:00:37.180 --> 00:00:37.190 
+and we're going to go NURBS two polygons
+
+00:00:37.190 --> 00:00:38.770 
+and we're going to go NURBS two polygons
+now<00:00:37.399> there<00:00:37.579> are<00:00:37.640> a<00:00:37.670> number<00:00:37.699> of<00:00:38.089> options<00:00:38.359> here
+
+00:00:38.770 --> 00:00:38.780 
+now there are a number of options here
+
+00:00:38.780 --> 00:00:42.430 
+now there are a number of options here
+let<00:00:38.960> me<00:00:38.989> just<00:00:39.050> go<00:00:39.260> through<00:00:39.710> these<00:00:41.050> now<00:00:42.050> how<00:00:42.379> you
+
+00:00:42.430 --> 00:00:42.440 
+let me just go through these now how you
+
+00:00:42.440 --> 00:00:44.410 
+let me just go through these now how you
+convert<00:00:42.889> a<00:00:43.100> NURBS<00:00:43.370> to<00:00:43.550> polygon<00:00:44.030> really
+
+00:00:44.410 --> 00:00:44.420 
+convert a NURBS to polygon really
+
+00:00:44.420 --> 00:00:47.349 
+convert a NURBS to polygon really
+depends<00:00:44.899> on<00:00:45.050> the<00:00:45.289> type<00:00:45.469> of<00:00:45.530> surface<00:00:46.039> and<00:00:46.359> your
+
+00:00:47.349 --> 00:00:47.359 
+depends on the type of surface and your
+
+00:00:47.359 --> 00:00:50.229 
+depends on the type of surface and your
+desired<00:00:47.839> results<00:00:48.649> so<00:00:48.769> we<00:00:48.889> have<00:00:49.159> a<00:00:49.399> bunch<00:00:49.999> of
+
+00:00:50.229 --> 00:00:50.239 
+desired results so we have a bunch of
+
+00:00:50.239 --> 00:00:52.450 
+desired results so we have a bunch of
+different<00:00:50.600> options<00:00:50.780> so<00:00:51.530> first<00:00:51.799> of<00:00:51.949> all<00:00:52.069> what
+
+00:00:52.450 --> 00:00:52.460 
+different options so first of all what
+
+00:00:52.460 --> 00:00:54.009 
+different options so first of all what
+do<00:00:52.519> we<00:00:52.639> want<00:00:52.819> to<00:00:52.909> output<00:00:53.359> what's<00:00:53.870> our
+
+00:00:54.009 --> 00:00:54.019 
+do we want to output what's our
+
+00:00:54.019 --> 00:00:56.379 
+do we want to output what's our
+tessellation<00:00:55.010> method<00:00:55.399> in<00:00:55.549> other<00:00:55.699> words<00:00:55.909> how
+
+00:00:56.379 --> 00:00:56.389 
+tessellation method in other words how
+
+00:00:56.389 --> 00:00:59.259 
+tessellation method in other words how
+do<00:00:56.449> we<00:00:56.629> convert<00:00:57.019> a<00:00:57.199> NURBS<00:00:57.649> surface<00:00:58.489> to
+
+00:00:59.259 --> 00:00:59.269 
+do we convert a NURBS surface to
+
+00:00:59.269 --> 00:01:01.419 
+do we convert a NURBS surface to
+polygons<00:00:59.839> now<00:01:00.019> remember<00:01:00.409> a<00:01:00.440> NURBS<00:01:00.679> surface<00:01:01.159> is
+
+00:01:01.419 --> 00:01:01.429 
+polygons now remember a NURBS surface is
+
+00:01:01.429 --> 00:01:03.910 
+polygons now remember a NURBS surface is
+a<00:01:01.539> mathematically<00:01:02.539> defined<00:01:02.929> surface<00:01:03.469> and<00:01:03.679> so
+
+00:01:03.910 --> 00:01:03.920 
+a mathematically defined surface and so
+
+00:01:03.920 --> 00:01:06.219 
+a mathematically defined surface and so
+how<00:01:04.519> are<00:01:04.640> we<00:01:04.729> going<00:01:05.000> to<00:01:05.089> tessellate<00:01:05.750> that<00:01:05.990> or
+
+00:01:06.219 --> 00:01:06.229 
+how are we going to tessellate that or
+
+00:01:06.229 --> 00:01:09.310 
+how are we going to tessellate that or
+break<00:01:06.500> that<00:01:06.710> down<00:01:06.950> into<00:01:07.630> discrete<00:01:08.630> polygons
+
+00:01:09.310 --> 00:01:09.320 
+break that down into discrete polygons
+
+00:01:09.320 --> 00:01:12.850 
+break that down into discrete polygons
+so<00:01:09.710> we<00:01:09.830> can<00:01:10.000> output<00:01:11.000> triangles<00:01:11.750> or<00:01:11.990> quads<00:01:12.560> I
+
+00:01:12.850 --> 00:01:12.860 
+so we can output triangles or quads I
+
+00:01:12.860 --> 00:01:15.850 
+so we can output triangles or quads I
+typically<00:01:13.610> go<00:01:14.330> for<00:01:14.360> quads<00:01:14.840> and<00:01:15.200> then<00:01:15.560> we<00:01:15.710> can
+
+00:01:15.850 --> 00:01:15.860 
+typically go for quads and then we can
+
+00:01:15.860 --> 00:01:18.220 
+typically go for quads and then we can
+do<00:01:16.040> several<00:01:16.730> different<00:01:17.230> tessellation
+
+00:01:18.220 --> 00:01:18.230 
+do several different tessellation
+
+00:01:18.230 --> 00:01:20.200 
+do several different tessellation
+methods<00:01:18.680> so<00:01:19.190> if<00:01:19.370> we<00:01:19.520> go<00:01:19.640> general<00:01:19.940> this
+
+00:01:20.200 --> 00:01:20.210 
+methods so if we go general this
+
+00:01:20.210 --> 00:01:23.080 
+methods so if we go general this
+actually<00:01:20.630> tells<00:01:20.900> us<00:01:21.170> how<00:01:21.500> much<00:01:21.940> detail<00:01:22.940> we
+
+00:01:23.080 --> 00:01:23.090 
+actually tells us how much detail we
+
+00:01:23.090 --> 00:01:25.510 
+actually tells us how much detail we
+want<00:01:23.270> so<00:01:23.420> for<00:01:23.600> example<00:01:23.990> if<00:01:24.170> we<00:01:24.320> want<00:01:24.590> per<00:01:25.100> span
+
+00:01:25.510 --> 00:01:25.520 
+want so for example if we want per span
+
+00:01:25.520 --> 00:01:29.560 
+want so for example if we want per span
+number<00:01:25.820> of<00:01:26.060> iso<00:01:26.240> parameters<00:01:26.930> on<00:01:27.220> U<00:01:28.220> and<00:01:28.460> V<00:01:28.820> this
+
+00:01:29.560 --> 00:01:29.570 
+number of iso parameters on U and V this
+
+00:01:29.570 --> 00:01:32.290 
+number of iso parameters on U and V this
+will<00:01:29.810> actually<00:01:30.070> convert<00:01:31.070> that<00:01:31.340> so<00:01:31.820> for<00:01:32.030> every
+
+00:01:32.290 --> 00:01:32.300 
+will actually convert that so for every
+
+00:01:32.300 --> 00:01:35.650 
+will actually convert that so for every
+one<00:01:32.360> of<00:01:32.900> these<00:01:33.260> will<00:01:34.040> have<00:01:34.070> three<00:01:34.730> polygons<00:01:35.510> so
+
+00:01:35.650 --> 00:01:35.660 
+one of these will have three polygons so
+
+00:01:35.660 --> 00:01:38.530 
+one of these will have three polygons so
+when<00:01:35.810> we<00:01:35.900> do<00:01:36.020> tessellate<00:01:36.650> you'll<00:01:37.220> see<00:01:37.490> how<00:01:37.790> for
+
+00:01:38.530 --> 00:01:38.540 
+when we do tessellate you'll see how for
+
+00:01:38.540 --> 00:01:40.720 
+when we do tessellate you'll see how for
+each<00:01:38.600> one<00:01:38.900> of<00:01:38.990> these<00:01:39.080> we<00:01:39.350> get<00:01:39.560> three<00:01:39.950> but<00:01:40.460> this
+
+00:01:40.720 --> 00:01:40.730 
+each one of these we get three but this
+
+00:01:40.730 --> 00:01:43.450 
+each one of these we get three but this
+is<00:01:40.880> also<00:01:41.060> polygamy<00:01:42.020> so<00:01:42.710> you're<00:01:43.010> going<00:01:43.220> to<00:01:43.280> have
+
+00:01:43.450 --> 00:01:43.460 
+is also polygamy so you're going to have
+
+00:01:43.460 --> 00:01:45.700 
+is also polygamy so you're going to have
+hard<00:01:43.730> edges<00:01:43.910> between<00:01:44.300> those<00:01:44.810> do<00:01:45.320> this<00:01:45.530> one
+
+00:01:45.700 --> 00:01:45.710 
+hard edges between those do this one
+
+00:01:45.710 --> 00:01:50.350 
+hard edges between those do this one
+more<00:01:45.860> time<00:01:46.100> as<00:01:46.430> go<00:01:46.970> convert<00:01:48.730> NURBS<00:01:49.730> to<00:01:49.940> Polly's
+
+00:01:50.350 --> 00:01:50.360 
+more time as go convert NURBS to Polly's
+
+00:01:50.360 --> 00:01:52.480 
+more time as go convert NURBS to Polly's
+and<00:01:50.600> let's<00:01:51.050> do<00:01:51.170> another<00:01:51.290> option<00:01:52.130> here<00:01:52.370> the
+
+00:01:52.480 --> 00:01:52.490 
+and let's do another option here the
+
+00:01:52.490 --> 00:01:55.149 
+and let's do another option here the
+other<00:01:53.090> option<00:01:53.540> would<00:01:53.630> be<00:01:53.690> just<00:01:54.140> count<00:01:54.440> how
+
+00:01:55.149 --> 00:01:55.159 
+other option would be just count how
+
+00:01:55.159 --> 00:01:57.970 
+other option would be just count how
+many<00:01:55.220> polygons<00:01:56.180> do<00:01:56.690> we<00:01:56.960> want<00:01:57.350> now<00:01:57.650> this<00:01:57.830> is
+
+00:01:57.970 --> 00:01:57.980 
+many polygons do we want now this is
+
+00:01:57.980 --> 00:02:00.280 
+many polygons do we want now this is
+great<00:01:58.220> for<00:01:58.820> game<00:01:59.150> engines<00:01:59.570> because<00:01:59.870> sometimes
+
+00:02:00.280 --> 00:02:00.290 
+great for game engines because sometimes
+
+00:02:00.290 --> 00:02:02.590 
+great for game engines because sometimes
+you're<00:02:00.560> just<00:02:00.590> have<00:02:01.010> a<00:02:01.040> hard<00:02:01.370> limit<00:02:01.640> as<00:02:01.880> I<00:02:02.060> can't
+
+00:02:02.590 --> 00:02:02.600 
+you're just have a hard limit as I can't
+
+00:02:02.600 --> 00:02:05.170 
+you're just have a hard limit as I can't
+have<00:02:02.780> more<00:02:03.050> than<00:02:03.110> X<00:02:03.500> number<00:02:03.890> of<00:02:03.979> polygons<00:02:04.520> well
+
+00:02:05.170 --> 00:02:05.180 
+have more than X number of polygons well
+
+00:02:05.180 --> 00:02:07.750 
+have more than X number of polygons well
+you<00:02:05.659> can<00:02:05.870> just<00:02:06.110> say<00:02:06.320> well<00:02:06.560> this<00:02:06.800> cannot<00:02:07.340> be<00:02:07.580> any
+
+00:02:07.750 --> 00:02:07.760 
+you can just say well this cannot be any
+
+00:02:07.760 --> 00:02:11.440 
+you can just say well this cannot be any
+more<00:02:07.880> than<00:02:08.149> 200<00:02:08.780> and<00:02:08.929> you<00:02:09.860> rock<00:02:10.129> a<00:02:10.450> standard
+
+00:02:11.440 --> 00:02:11.450 
+more than 200 and you rock a standard
+
+00:02:11.450 --> 00:02:15.190 
+more than 200 and you rock a standard
+fit<00:02:11.749> basically<00:02:12.549> what<00:02:13.549> this<00:02:13.969> does<00:02:14.030> is<00:02:14.569> allows
+
+00:02:15.190 --> 00:02:15.200 
+fit basically what this does is allows
+
+00:02:15.200 --> 00:02:16.210 
+fit basically what this does is allows
+Maya
+
+00:02:16.210 --> 00:02:16.220 
+Maya
+
+00:02:16.220 --> 00:02:18.160 
+Maya
+to<00:02:16.310> determine<00:02:16.820> how<00:02:17.000> many<00:02:17.060> polygons<00:02:17.840> based
+
+00:02:18.160 --> 00:02:18.170 
+to determine how many polygons based
+
+00:02:18.170 --> 00:02:20.440 
+to determine how many polygons based
+upon<00:02:18.560> the<00:02:19.070> curvature<00:02:19.580> of<00:02:19.610> the<00:02:19.700> surface<00:02:20.120> so<00:02:20.150> if
+
+00:02:20.440 --> 00:02:20.450 
+upon the curvature of the surface so if
+
+00:02:20.450 --> 00:02:22.450 
+upon the curvature of the surface so if
+you<00:02:20.570> have<00:02:20.720> something<00:02:20.960> that's<00:02:21.080> broad<00:02:21.920> and<00:02:22.220> flat
+
+00:02:22.450 --> 00:02:22.460 
+you have something that's broad and flat
+
+00:02:22.460 --> 00:02:24.310 
+you have something that's broad and flat
+and<00:02:22.790> will<00:02:22.910> have<00:02:23.090> very<00:02:23.360> few<00:02:23.600> polygons<00:02:24.140> if
+
+00:02:24.310 --> 00:02:24.320 
+and will have very few polygons if
+
+00:02:24.320 --> 00:02:26.320 
+and will have very few polygons if
+something's<00:02:25.100> really<00:02:25.310> tight<00:02:25.700> and<00:02:25.940> needs
+
+00:02:26.320 --> 00:02:26.330 
+something's really tight and needs
+
+00:02:26.330 --> 00:02:29.020 
+something's really tight and needs
+additional<00:02:27.020> detail<00:02:27.650> it<00:02:27.890> will<00:02:28.130> add<00:02:28.310> in<00:02:28.670> that
+
+00:02:29.020 --> 00:02:29.030 
+additional detail it will add in that
+
+00:02:29.030 --> 00:02:32.320 
+additional detail it will add in that
+detail<00:02:29.540> so<00:02:29.830> let's<00:02:30.830> go<00:02:30.920> ahead<00:02:30.980> and<00:02:31.160> do<00:02:31.250> that<00:02:31.400> so
+
+00:02:32.320 --> 00:02:32.330 
+detail so let's go ahead and do that so
+
+00:02:32.330 --> 00:02:34.840 
+detail so let's go ahead and do that so
+you<00:02:32.420> can<00:02:32.570> see<00:02:32.750> how<00:02:32.900> for<00:02:32.960> this<00:02:33.620> that<00:02:34.310> works<00:02:34.610> now
+
+00:02:34.840 --> 00:02:34.850 
+you can see how for this that works now
+
+00:02:34.850 --> 00:02:37.000 
+you can see how for this that works now
+if<00:02:35.000> I<00:02:35.090> actually<00:02:35.330> were<00:02:35.630> to<00:02:35.780> modify<00:02:36.050> this<00:02:36.710> and
+
+00:02:37.000 --> 00:02:37.010 
+if I actually were to modify this and
+
+00:02:37.010 --> 00:02:41.370 
+if I actually were to modify this and
+for<00:02:37.880> example<00:02:38.210> added<00:02:38.630> in<00:02:38.840> some<00:02:39.140> curvature<00:02:39.440> here
+
+00:02:41.370 --> 00:02:41.380 
+for example added in some curvature here
+
+00:02:41.380 --> 00:02:44.470 
+for example added in some curvature here
+in<00:02:42.380> fact<00:02:42.620> if<00:02:42.800> you<00:02:42.920> want<00:02:43.190> you<00:02:43.880> can<00:02:44.000> see<00:02:44.210> how<00:02:44.300> this
+
+00:02:44.470 --> 00:02:44.480 
+in fact if you want you can see how this
+
+00:02:44.480 --> 00:02:46.810 
+in fact if you want you can see how this
+is<00:02:44.660> live<00:02:44.990> so<00:02:45.860> if<00:02:45.950> I<00:02:46.010> do<00:02:46.070> wireframe<00:02:46.640> on<00:02:46.760> shaded
+
+00:02:46.810 --> 00:02:46.820 
+is live so if I do wireframe on shaded
+
+00:02:46.820 --> 00:02:50.020 
+is live so if I do wireframe on shaded
+you<00:02:47.360> can<00:02:47.540> see<00:02:47.780> how<00:02:48.020> it's<00:02:48.620> adding<00:02:49.280> in<00:02:49.490> detail
+
+00:02:50.020 --> 00:02:50.030 
+you can see how it's adding in detail
+
+00:02:50.030 --> 00:02:53.800 
+you can see how it's adding in detail
+right<00:02:50.300> here<00:02:50.360> as<00:02:50.930> the<00:02:51.770> curvature<00:02:52.130> changes<00:02:52.810> so
+
+00:02:53.800 --> 00:02:53.810 
+right here as the curvature changes so
+
+00:02:53.810 --> 00:02:55.900 
+right here as the curvature changes so
+that's<00:02:54.050> basically<00:02:54.560> the<00:02:54.709> more<00:02:55.250> the<00:02:55.430> smart
+
+00:02:55.900 --> 00:02:55.910 
+that's basically the more the smart
+
+00:02:55.910 --> 00:02:58.780 
+that's basically the more the smart
+tessellation<00:02:56.870> now<00:02:57.350> this<00:02:57.590> may<00:02:57.890> not<00:02:58.100> give<00:02:58.490> you
+
+00:02:58.780 --> 00:02:58.790 
+tessellation now this may not give you
+
+00:02:58.790 --> 00:03:02.290 
+tessellation now this may not give you
+the<00:02:58.820> regular<00:02:59.630> tessellation<00:03:00.530> you<00:03:00.740> want<00:03:01.060> but<00:03:02.060> it
+
+00:03:02.290 --> 00:03:02.300 
+the regular tessellation you want but it
+
+00:03:02.300 --> 00:03:04.210 
+the regular tessellation you want but it
+will<00:03:02.420> give<00:03:02.600> you<00:03:02.720> the<00:03:02.840> most<00:03:03.020> accurate<00:03:03.680> and<00:03:03.830> the
+
+00:03:04.210 --> 00:03:04.220 
+will give you the most accurate and the
+
+00:03:04.220 --> 00:03:05.940 
+will give you the most accurate and the
+most<00:03:04.400> efficient<00:03:05.000> type<00:03:05.180> of<00:03:05.330> tessellation
+
+00:03:05.940 --> 00:03:05.950 
+most efficient type of tessellation
+
+00:03:05.950 --> 00:03:08.110 
+most efficient type of tessellation
+let's<00:03:06.950> go<00:03:07.010> ahead<00:03:07.100> and<00:03:07.280> delete<00:03:07.490> this<00:03:07.760> so<00:03:07.940> let's
+
+00:03:08.110 --> 00:03:08.120 
+let's go ahead and delete this so let's
+
+00:03:08.120 --> 00:03:11.590 
+let's go ahead and delete this so let's
+get<00:03:08.270> our<00:03:09.220> slightly<00:03:10.220> deformed<00:03:10.700> sphere<00:03:11.390> here
+
+00:03:11.590 --> 00:03:11.600 
+get our slightly deformed sphere here
+
+00:03:11.600 --> 00:03:13.449 
+get our slightly deformed sphere here
+let's<00:03:11.840> do<00:03:11.990> one<00:03:12.200> more<00:03:12.230> convert<00:03:12.770> and<00:03:13.070> show<00:03:13.400> you
+
+00:03:13.449 --> 00:03:13.459 
+let's do one more convert and show you
+
+00:03:13.459 --> 00:03:16.210 
+let's do one more convert and show you
+the<00:03:14.390> last<00:03:14.630> option<00:03:14.900> which<00:03:15.230> is<00:03:15.290> by<00:03:15.650> control
+
+00:03:16.210 --> 00:03:16.220 
+the last option which is by control
+
+00:03:16.220 --> 00:03:18.940 
+the last option which is by control
+points<00:03:16.670> and<00:03:16.850> when<00:03:17.360> we<00:03:17.510> tessellate<00:03:18.350> that<00:03:18.709> way
+
+00:03:18.940 --> 00:03:18.950 
+points and when we tessellate that way
+
+00:03:18.950 --> 00:03:23.050 
+points and when we tessellate that way
+all<00:03:19.280> it<00:03:19.820> does<00:03:20.090> is<00:03:20.420> basically<00:03:20.870> just<00:03:21.620> every<00:03:22.430> CV
+
+00:03:23.050 --> 00:03:23.060 
+all it does is basically just every CV
+
+00:03:23.060 --> 00:03:24.640 
+all it does is basically just every CV
+fact<00:03:23.750> let's<00:03:23.959> go<00:03:24.019> ahead<00:03:24.200> and<00:03:24.290> take<00:03:24.380> a<00:03:24.410> look<00:03:24.530> at
+
+00:03:24.640 --> 00:03:24.650 
+fact let's go ahead and take a look at
+
+00:03:24.650 --> 00:03:26.259 
+fact let's go ahead and take a look at
+the<00:03:24.739> whole<00:03:24.950> basically<00:03:25.730> what<00:03:25.880> it<00:03:25.970> does<00:03:26.000> it<00:03:26.239> just
+
+00:03:26.259 --> 00:03:26.269 
+the whole basically what it does it just
+
+00:03:26.269 --> 00:03:28.390 
+the whole basically what it does it just
+takes<00:03:26.630> the<00:03:26.720> hull<00:03:27.050> of<00:03:27.320> the<00:03:27.739> object<00:03:28.220> and
+
+00:03:28.390 --> 00:03:28.400 
+takes the hull of the object and
+
+00:03:28.400 --> 00:03:32.320 
+takes the hull of the object and
+converts<00:03:28.970> it<00:03:29.209> to<00:03:29.360> a<00:03:30.340> polygonal<00:03:31.340> surface<00:03:31.910> so
+
+00:03:32.320 --> 00:03:32.330 
+converts it to a polygonal surface so
+
+00:03:32.330 --> 00:03:34.830 
+converts it to a polygonal surface so
+for<00:03:32.570> each<00:03:32.720> one<00:03:32.750> of<00:03:33.170> these<00:03:33.459> squares<00:03:34.459> or
+
+00:03:34.830 --> 00:03:34.840 
+for each one of these squares or
+
+00:03:34.840 --> 00:03:37.570 
+for each one of these squares or
+quadrilaterals<00:03:35.840> in<00:03:36.050> the<00:03:36.230> hull<00:03:36.440> it<00:03:36.830> creates<00:03:37.250> a
+
+00:03:37.570 --> 00:03:37.580 
+quadrilaterals in the hull it creates a
+
+00:03:37.580 --> 00:03:40.270 
+quadrilaterals in the hull it creates a
+polygon<00:03:38.510> so<00:03:39.410> those<00:03:39.620> are<00:03:39.800> some<00:03:39.950> of<00:03:40.040> the<00:03:40.070> ways<00:03:40.250> to
+
+00:03:40.270 --> 00:03:40.280 
+polygon so those are some of the ways to
+
+00:03:40.280 --> 00:03:43.750 
+polygon so those are some of the ways to
+convert<00:03:40.700> NURBS<00:03:41.090> to<00:03:41.720> polygons<00:03:42.350> now<00:03:43.010> the<00:03:43.430> method
+
+00:03:43.750 --> 00:03:43.760 
+convert NURBS to polygons now the method
+
+00:03:43.760 --> 00:03:46.390 
+convert NURBS to polygons now the method
+you<00:03:43.880> choose<00:03:44.120> really<00:03:44.540> depends<00:03:45.019> upon<00:03:45.290> what<00:03:46.280> you
+
+00:03:46.390 --> 00:03:46.400 
+you choose really depends upon what you
+
+00:03:46.400 --> 00:03:47.949 
+you choose really depends upon what you
+want<00:03:46.430> your<00:03:46.760> desired<00:03:47.060> result<00:03:47.540> to<00:03:47.630> be<00:03:47.660> do<00:03:47.870> you
+
+00:03:47.949 --> 00:03:47.959 
+want your desired result to be do you
+
+00:03:47.959 --> 00:03:49.630 
+want your desired result to be do you
+need<00:03:48.110> a<00:03:48.140> very<00:03:48.350> specific<00:03:48.890> number<00:03:49.010> of<00:03:49.190> polygons
+
+00:03:49.630 --> 00:03:49.640 
+need a very specific number of polygons
+
+00:03:49.640 --> 00:03:51.400 
+need a very specific number of polygons
+do<00:03:49.850> you<00:03:49.910> need<00:03:50.090> your<00:03:50.360> polygons<00:03:51.019> to<00:03:51.170> be<00:03:51.260> in<00:03:51.350> a
+
+00:03:51.400 --> 00:03:51.410 
+do you need your polygons to be in a
+
+00:03:51.410 --> 00:03:53.590 
+do you need your polygons to be in a
+very<00:03:51.590> specific<00:03:51.860> order<00:03:52.340> those<00:03:53.180> are<00:03:53.360> decisions
+
+00:03:53.590 --> 00:03:53.600 
+very specific order those are decisions
+
+00:03:53.600 --> 00:03:55.690 
+very specific order those are decisions
+you're<00:03:53.930> going<00:03:54.049> to<00:03:54.140> have<00:03:54.260> to<00:03:54.410> make<00:03:54.620> as<00:03:54.830> you<00:03:55.489> do
+
+00:03:55.690 --> 00:03:55.700 
+you're going to have to make as you do
+
+00:03:55.700 --> 00:03:58.030 
+you're going to have to make as you do
+the<00:03:55.880> conversion
+

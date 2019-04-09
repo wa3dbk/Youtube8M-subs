@@ -1,0 +1,572 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.589 --> 00:00:03.080 
+
+hi<00:00:01.589> guys<00:00:01.770> my<00:00:02.070> name<00:00:02.220> is<00:00:02.250> Steven<00:00:02.610> welcome<00:00:02.850> to
+
+00:00:03.080 --> 00:00:03.090 
+hi guys my name is Steven welcome to
+
+00:00:03.090 --> 00:00:04.730 
+hi guys my name is Steven welcome to
+video<00:00:03.330> number<00:00:03.360> eight<00:00:03.810> in<00:00:04.080> this<00:00:04.230> series<00:00:04.589> where
+
+00:00:04.730 --> 00:00:04.740 
+video number eight in this series where
+
+00:00:04.740 --> 00:00:06.769 
+video number eight in this series where
+I'm<00:00:04.859> building<00:00:05.069> a<00:00:05.400> login<00:00:05.940> registration<00:00:06.480> system
+
+00:00:06.769 --> 00:00:06.779 
+I'm building a login registration system
+
+00:00:06.779 --> 00:00:08.660 
+I'm building a login registration system
+with<00:00:06.899> codeigniter<00:00:07.470> what<00:00:08.220> I'll<00:00:08.309> be<00:00:08.370> doing<00:00:08.490> in
+
+00:00:08.660 --> 00:00:08.670 
+with codeigniter what I'll be doing in
+
+00:00:08.670 --> 00:00:10.280 
+with codeigniter what I'll be doing in
+this<00:00:08.730> video<00:00:08.880> is<00:00:09.210> I'll<00:00:09.540> make<00:00:09.690> the<00:00:09.809> read<00:00:09.960> the
+
+00:00:10.280 --> 00:00:10.290 
+this video is I'll make the read the
+
+00:00:10.290 --> 00:00:13.339 
+this video is I'll make the read the
+restricted<00:00:10.769> view<00:00:10.980> I<00:00:11.219> will<00:00:11.780> create<00:00:12.780> a<00:00:12.929> login
+
+00:00:13.339 --> 00:00:13.349 
+restricted view I will create a login
+
+00:00:13.349 --> 00:00:15.890 
+restricted view I will create a login
+form<00:00:13.799> or<00:00:14.009> log<00:00:14.370> out<00:00:14.580> button<00:00:14.969> essentially<00:00:15.750> on
+
+00:00:15.890 --> 00:00:15.900 
+form or log out button essentially on
+
+00:00:15.900 --> 00:00:19.130 
+form or log out button essentially on
+the<00:00:16.250> members<00:00:17.250> view<00:00:17.630> which<00:00:18.630> will<00:00:18.779> log<00:00:18.930> you<00:00:19.050> out
+
+00:00:19.130 --> 00:00:19.140 
+the members view which will log you out
+
+00:00:19.140 --> 00:00:22.550 
+the members view which will log you out
+store<00:00:19.439> your<00:00:19.529> session<00:00:19.859> data<00:00:20.220> and<00:00:21.230> that<00:00:22.230> way<00:00:22.380> we
+
+00:00:22.550 --> 00:00:22.560 
+store your session data and that way we
+
+00:00:22.560 --> 00:00:24.109 
+store your session data and that way we
+can<00:00:22.710> actually<00:00:22.980> check<00:00:23.400> whether<00:00:23.670> our<00:00:23.760> members
+
+00:00:24.109 --> 00:00:24.119 
+can actually check whether our members
+
+00:00:24.119 --> 00:00:25.640 
+can actually check whether our members
+page<00:00:24.330> is<00:00:24.480> secure<00:00:24.840> or<00:00:25.019> not
+
+00:00:25.640 --> 00:00:25.650 
+page is secure or not
+
+00:00:25.650 --> 00:00:27.920 
+page is secure or not
+so<00:00:26.039> because<00:00:27.029> we<00:00:27.150> can't<00:00:27.330> actually<00:00:27.510> right<00:00:27.810> now
+
+00:00:27.920 --> 00:00:27.930 
+so because we can't actually right now
+
+00:00:27.930 --> 00:00:31.130 
+so because we can't actually right now
+so<00:00:28.590> here's<00:00:29.160> our<00:00:29.250> members<00:00:29.609> view<00:00:30.480> first<00:00:30.990> thing
+
+00:00:31.130 --> 00:00:31.140 
+so here's our members view first thing
+
+00:00:31.140 --> 00:00:35.900 
+so here's our members view first thing
+I'll<00:00:31.470> actually<00:00:31.890> create<00:00:32.099> a<00:00:32.160> little<00:00:32.309> a<00:00:34.910> link
+
+00:00:35.900 --> 00:00:35.910 
+I'll actually create a little a link
+
+00:00:35.910 --> 00:00:42.560 
+I'll actually create a little a link
+it's<00:00:36.600> what<00:00:36.780> I<00:00:36.809> want<00:00:37.050> and<00:00:41.059> this<00:00:42.059> is<00:00:42.120> just<00:00:42.480> gonna
+
+00:00:42.560 --> 00:00:42.570 
+it's what I want and this is just gonna
+
+00:00:42.570 --> 00:00:45.170 
+it's what I want and this is just gonna
+link<00:00:42.840> to<00:00:42.899> a<00:00:43.110> to<00:00:44.100> a<00:00:44.129> method<00:00:44.550> on<00:00:44.700> one<00:00:45.030> of<00:00:45.059> our
+
+00:00:45.170 --> 00:00:45.180 
+link to a to a method on one of our
+
+00:00:45.180 --> 00:00:51.979 
+link to a to a method on one of our
+controllers<00:00:45.570> so<00:00:46.289> we'll<00:00:46.379> go<00:00:47.539> Jeff<00:00:50.719> we<00:00:51.719> actually
+
+00:00:51.979 --> 00:00:51.989 
+controllers so we'll go Jeff we actually
+
+00:00:51.989 --> 00:00:55.040 
+controllers so we'll go Jeff we actually
+need<00:00:52.110> to<00:00:52.260> echo<00:00:52.590> the<00:00:52.860> base<00:00:53.039> name<00:00:53.309> first<00:00:53.670> so<00:00:54.050> our
+
+00:00:55.040 --> 00:00:55.050 
+need to echo the base name first so our
+
+00:00:55.050 --> 00:01:06.649 
+need to echo the base name first so our
+base<00:00:55.379> URL<00:00:59.030> dot<00:01:02.570> and<00:01:04.159> then<00:01:05.210> we'll<00:01:06.210> say<00:01:06.360> main
+
+00:01:06.649 --> 00:01:06.659 
+base URL dot and then we'll say main
+
+00:01:06.659 --> 00:01:12.469 
+base URL dot and then we'll say main
+slash<00:01:07.140> log<00:01:07.590> out<00:01:09.080> logo<00:01:10.080> -<00:01:10.760> okay<00:01:11.760> perfect<00:01:12.330> and
+
+00:01:12.469 --> 00:01:12.479 
+slash log out logo - okay perfect and
+
+00:01:12.479 --> 00:01:20.060 
+slash log out logo - okay perfect and
+then<00:01:13.439> right<00:01:14.040> here<00:01:14.070> we'll<00:01:14.460> say<00:01:15.080> oh<00:01:18.320> sweet<00:01:19.320> now
+
+00:01:20.060 --> 00:01:20.070 
+then right here we'll say oh sweet now
+
+00:01:20.070 --> 00:01:21.920 
+then right here we'll say oh sweet now
+I'll<00:01:20.250> go<00:01:20.430> to<00:01:20.460> our<00:01:20.670> members<00:01:21.030> page<00:01:21.240> see<00:01:21.689> if<00:01:21.720> we
+
+00:01:21.920 --> 00:01:21.930 
+I'll go to our members page see if we
+
+00:01:21.930 --> 00:01:27.020 
+I'll go to our members page see if we
+see<00:01:22.170> if<00:01:22.259> it's<00:01:22.380> working<00:01:22.560> we<00:01:23.340> say<00:01:23.520> password<00:01:26.030> log
+
+00:01:27.020 --> 00:01:27.030 
+see if it's working we say password log
+
+00:01:27.030 --> 00:01:29.719 
+see if it's working we say password log
+descend<00:01:27.420> no<00:01:27.509> problem<00:01:28.189> click<00:01:29.189> on<00:01:29.310> the<00:01:29.430> log<00:01:29.579> up
+
+00:01:29.719 --> 00:01:29.729 
+descend no problem click on the log up
+
+00:01:29.729 --> 00:01:32.749 
+descend no problem click on the log up
+button<00:01:30.240> and<00:01:30.450> it<00:01:31.170> redirects<00:01:31.680> us<00:01:31.799> to<00:01:31.950> the<00:01:32.100> logout
+
+00:01:32.749 --> 00:01:32.759 
+button and it redirects us to the logout
+
+00:01:32.759 --> 00:01:33.950 
+button and it redirects us to the logout
+function<00:01:33.030> so<00:01:33.299> we<00:01:33.360> can<00:01:33.420> actually<00:01:33.750> write<00:01:33.930> that
+
+00:01:33.950 --> 00:01:33.960 
+function so we can actually write that
+
+00:01:33.960 --> 00:01:38.690 
+function so we can actually write that
+now<00:01:34.310> we'll<00:01:35.310> go<00:01:35.490> made<00:01:35.880> up<00:01:36.030> PHP<00:01:36.509> and<00:01:37.549> at<00:01:38.549> the
+
+00:01:38.690 --> 00:01:38.700 
+now we'll go made up PHP and at the
+
+00:01:38.700 --> 00:01:48.440 
+now we'll go made up PHP and at the
+bottom<00:01:38.970> we'll<00:01:39.090> go<00:01:39.210> public<00:01:41.600> function<00:01:44.060> out<00:01:47.450> no
+
+00:01:48.440 --> 00:01:48.450 
+bottom we'll go public function out no
+
+00:01:48.450 --> 00:01:51.639 
+bottom we'll go public function out no
+we're<00:01:48.600> gonna<00:01:48.689> do<00:01:48.899> here<00:01:49.200> is<00:01:49.939> we'll<00:01:50.939> go<00:01:51.060> this
+
+00:01:51.639 --> 00:01:51.649 
+we're gonna do here is we'll go this
+
+00:01:51.649 --> 00:01:58.280 
+we're gonna do here is we'll go this
+session<00:01:52.649> I<00:01:54.649> believe<00:01:55.649> it's<00:01:56.250> called<00:01:57.000> some<00:01:57.930> check
+
+00:01:58.280 --> 00:01:58.290 
+session I believe it's called some check
+
+00:01:58.290 --> 00:02:07.560 
+session I believe it's called some check
+here<00:02:00.229> cess<00:02:01.229> under<00:02:01.740> destroy<00:02:02.219> yeah<00:02:02.549> okay
+
+00:02:07.560 --> 00:02:07.570 
+
+00:02:07.570 --> 00:02:10.180 
+
+okay<00:02:08.570> so<00:02:08.630> what<00:02:08.869> that<00:02:08.899> does<00:02:09.200> is<00:02:09.440> it'll<00:02:09.770> destroy
+
+00:02:10.180 --> 00:02:10.190 
+okay so what that does is it'll destroy
+
+00:02:10.190 --> 00:02:11.740 
+okay so what that does is it'll destroy
+all<00:02:10.399> of<00:02:10.550> your<00:02:10.700> session<00:02:11.060> data<00:02:11.210> so<00:02:11.450> you<00:02:11.540> can't
+
+00:02:11.740 --> 00:02:11.750 
+all of your session data so you can't
+
+00:02:11.750 --> 00:02:14.590 
+all of your session data so you can't
+see<00:02:11.930> it<00:02:12.050> anymore<00:02:12.580> and<00:02:13.580> it's<00:02:13.970> just<00:02:14.180> gone<00:02:14.360> it'll
+
+00:02:14.590 --> 00:02:14.600 
+see it anymore and it's just gone it'll
+
+00:02:14.600 --> 00:02:16.030 
+see it anymore and it's just gone it'll
+be<00:02:14.750> completely<00:02:14.900> deleted<00:02:15.560> from<00:02:15.710> the<00:02:15.860> browser
+
+00:02:16.030 --> 00:02:16.040 
+be completely deleted from the browser
+
+00:02:16.040 --> 00:02:19.900 
+be completely deleted from the browser
+in<00:02:16.280> a<00:02:16.370> very<00:02:17.080> secure<00:02:18.080> way<00:02:18.260> and<00:02:18.710> after<00:02:19.700> that
+
+00:02:19.900 --> 00:02:19.910 
+in a very secure way and after that
+
+00:02:19.910 --> 00:02:22.990 
+in a very secure way and after that
+we're<00:02:20.090> just<00:02:20.120> gonna<00:02:20.300> redirect<00:02:21.670> to<00:02:22.670> the<00:02:22.820> login
+
+00:02:22.990 --> 00:02:23.000 
+we're just gonna redirect to the login
+
+00:02:23.000 --> 00:02:31.540 
+we're just gonna redirect to the login
+page<00:02:25.900> log<00:02:27.760> Beauty<00:02:29.290> and<00:02:30.290> now<00:02:30.440> let's<00:02:31.220> try<00:02:31.430> it<00:02:31.490> out
+
+00:02:31.540 --> 00:02:31.550 
+page log Beauty and now let's try it out
+
+00:02:31.550 --> 00:02:33.910 
+page log Beauty and now let's try it out
+refresh<00:02:32.270> this<00:02:32.420> now<00:02:32.959> we<00:02:33.380> assume<00:02:33.500> that<00:02:33.709> the
+
+00:02:33.910 --> 00:02:33.920 
+refresh this now we assume that the
+
+00:02:33.920 --> 00:02:37.090 
+refresh this now we assume that the
+session<00:02:34.250> data<00:02:34.400> has<00:02:34.580> been<00:02:34.730> destroyed<00:02:36.100> because
+
+00:02:37.090 --> 00:02:37.100 
+session data has been destroyed because
+
+00:02:37.100 --> 00:02:38.979 
+session data has been destroyed because
+we've<00:02:37.310> also<00:02:37.700> been<00:02:37.940> redirected<00:02:38.239> we<00:02:38.660> didn't<00:02:38.900> get
+
+00:02:38.979 --> 00:02:38.989 
+we've also been redirected we didn't get
+
+00:02:38.989 --> 00:02:40.660 
+we've also been redirected we didn't get
+any<00:02:39.140> errors<00:02:39.470> but<00:02:39.680> what<00:02:39.890> happens<00:02:40.310> if<00:02:40.550> I
+
+00:02:40.660 --> 00:02:40.670 
+any errors but what happens if I
+
+00:02:40.670 --> 00:02:42.970 
+any errors but what happens if I
+actually<00:02:40.760> try<00:02:41.090> and<00:02:41.180> go<00:02:41.590> manually<00:02:42.590> go<00:02:42.709> to<00:02:42.800> the
+
+00:02:42.970 --> 00:02:42.980 
+actually try and go manually go to the
+
+00:02:42.980 --> 00:02:45.610 
+actually try and go manually go to the
+members<00:02:43.250> page<00:02:43.430> now<00:02:43.970> it<00:02:44.810> sends<00:02:45.080> me<00:02:45.320> to<00:02:45.500> the
+
+00:02:45.610 --> 00:02:45.620 
+members page now it sends me to the
+
+00:02:45.620 --> 00:02:48.960 
+members page now it sends me to the
+restricted<00:02:46.190> page<00:02:46.370> because<00:02:47.170> if<00:02:48.170> you<00:02:48.440> remember
+
+00:02:48.960 --> 00:02:48.970 
+restricted page because if you remember
+
+00:02:48.970 --> 00:02:53.400 
+restricted page because if you remember
+when<00:02:49.970> I<00:02:50.000> create<00:02:50.420> the<00:02:50.450> session<00:02:50.989> right<00:02:51.970> here<00:02:52.970> I
+
+00:02:53.400 --> 00:02:53.410 
+when I create the session right here I
+
+00:02:53.410 --> 00:02:56.350 
+when I create the session right here I
+pass<00:02:54.410> in<00:02:54.560> a<00:02:54.920> data<00:02:55.250> array<00:02:55.459> and<00:02:55.790> I<00:02:55.850> check<00:02:56.150> is
+
+00:02:56.350 --> 00:02:56.360 
+pass in a data array and I check is
+
+00:02:56.360 --> 00:02:58.330 
+pass in a data array and I check is
+logged<00:02:56.810> in<00:02:57.020> or<00:02:57.350> whatever<00:02:57.500> and<00:02:57.830> then<00:02:58.010> in<00:02:58.160> the
+
+00:02:58.330 --> 00:02:58.340 
+logged in or whatever and then in the
+
+00:02:58.340 --> 00:03:01.449 
+logged in or whatever and then in the
+members<00:02:59.209> I<00:02:59.709> actually<00:03:00.709> check<00:03:01.160> if<00:03:01.310> they're
+
+00:03:01.449 --> 00:03:01.459 
+members I actually check if they're
+
+00:03:01.459 --> 00:03:02.920 
+members I actually check if they're
+logged<00:03:01.700> in<00:03:01.880> before<00:03:02.000> I<00:03:02.239> give<00:03:02.450> them<00:03:02.600> access<00:03:02.780> to
+
+00:03:02.920 --> 00:03:02.930 
+logged in before I give them access to
+
+00:03:02.930 --> 00:03:04.780 
+logged in before I give them access to
+the<00:03:03.110> members<00:03:03.440> view<00:03:03.620> or<00:03:03.860> else<00:03:04.100> I<00:03:04.220> redirect<00:03:04.640> them
+
+00:03:04.780 --> 00:03:04.790 
+the members view or else I redirect them
+
+00:03:04.790 --> 00:03:07.090 
+the members view or else I redirect them
+to<00:03:04.820> the<00:03:04.940> restricted<00:03:05.420> view<00:03:05.600> so<00:03:06.230> I'll<00:03:06.980> actually
+
+00:03:07.090 --> 00:03:07.100 
+to the restricted view so I'll actually
+
+00:03:07.100 --> 00:03:10.060 
+to the restricted view so I'll actually
+go<00:03:07.370> and<00:03:07.489> create<00:03:07.670> that<00:03:07.820> restricted<00:03:08.239> view<00:03:09.070> right
+
+00:03:10.060 --> 00:03:10.070 
+go and create that restricted view right
+
+00:03:10.070 --> 00:03:16.660 
+go and create that restricted view right
+now<00:03:14.620> why<00:03:15.620> do<00:03:15.680> I<00:03:15.769> have<00:03:15.860> a<00:03:15.890> problem<00:03:16.040> spelling<00:03:16.549> a
+
+00:03:16.660 --> 00:03:16.670 
+now why do I have a problem spelling a
+
+00:03:16.670 --> 00:03:22.240 
+now why do I have a problem spelling a
+word<00:03:17.920> should<00:03:18.920> be<00:03:19.040> good<00:03:20.860> excellent
+
+00:03:22.240 --> 00:03:22.250 
+word should be good excellent
+
+00:03:22.250 --> 00:03:31.410 
+word should be good excellent
+I'll<00:03:23.060> just<00:03:23.239> copy<00:03:23.989> this<00:03:24.290> code<00:03:26.830> this<00:03:27.830> let's<00:03:28.430> say
+
+00:03:31.410 --> 00:03:31.420 
+
+00:03:31.420 --> 00:03:44.590 
+
+you<00:03:32.420> do<00:03:32.870> not<00:03:34.420> access<00:03:35.920> this<00:03:36.920> page<00:03:43.600> fresh
+
+00:03:44.590 --> 00:03:44.600 
+you do not access this page fresh
+
+00:03:44.600 --> 00:03:47.949 
+you do not access this page fresh
+excellent<00:03:45.880> cool<00:03:46.880> so<00:03:47.360> now<00:03:47.390> I<00:03:47.510> can<00:03:47.630> go<00:03:47.720> back<00:03:47.870> to
+
+00:03:47.949 --> 00:03:47.959 
+excellent cool so now I can go back to
+
+00:03:47.959 --> 00:03:49.210 
+excellent cool so now I can go back to
+the<00:03:48.049> login<00:03:48.230> page<00:03:48.410> or<00:03:48.769> will<00:03:48.890> make<00:03:49.010> another
+
+00:03:49.210 --> 00:03:49.220 
+the login page or will make another
+
+00:03:49.220 --> 00:03:50.890 
+the login page or will make another
+little<00:03:49.459> link<00:03:49.730> here<00:03:50.030> which<00:03:50.360> will<00:03:50.510> send<00:03:50.690> us<00:03:50.780> back
+
+00:03:50.890 --> 00:03:50.900 
+little link here which will send us back
+
+00:03:50.900 --> 00:04:02.729 
+little link here which will send us back
+to<00:03:51.049> the<00:03:51.170> login<00:03:51.440> page<00:03:51.620> a<00:03:58.780> echo<00:03:59.780> base<00:04:00.670> URL<00:04:01.670> and
+
+00:04:02.729 --> 00:04:02.739 
+to the login page a echo base URL and
+
+00:04:02.739 --> 00:04:10.150 
+to the login page a echo base URL and
+depend<00:04:05.799> main
+
+00:04:10.150 --> 00:04:10.160 
+
+00:04:10.160 --> 00:04:26.140 
+
+looks<00:04:10.970> good<00:04:16.720> all<00:04:17.720> right<00:04:22.180> there<00:04:25.000> click<00:04:26.000> this
+
+00:04:26.140 --> 00:04:26.150 
+looks good all right there click this
+
+00:04:26.150 --> 00:04:28.210 
+looks good all right there click this
+sends<00:04:26.600> me<00:04:26.660> back<00:04:26.810> to<00:04:26.960> the<00:04:27.050> lot<00:04:27.260> perfect
+
+00:04:28.210 --> 00:04:28.220 
+sends me back to the lot perfect
+
+00:04:28.220 --> 00:04:32.310 
+sends me back to the lot perfect
+so<00:04:28.730> now<00:04:28.850> check<00:04:29.690> that<00:04:29.840> again<00:04:30.140> hello<00:04:30.440> welcome
+
+00:04:32.310 --> 00:04:32.320 
+so now check that again hello welcome
+
+00:04:32.320 --> 00:04:38.500 
+so now check that again hello welcome
+comm<00:04:36.010> logged<00:04:37.010> in<00:04:37.220> it's<00:04:37.970> all<00:04:38.090> good
+
+00:04:38.500 --> 00:04:38.510 
+comm logged in it's all good
+
+00:04:38.510 --> 00:04:41.410 
+comm logged in it's all good
+click<00:04:38.750> logout<00:04:39.140> log<00:04:39.590> this<00:04:39.770> out<00:04:39.980> suite<00:04:40.970> can
+
+00:04:41.410 --> 00:04:41.420 
+click logout log this out suite can
+
+00:04:41.420 --> 00:04:44.860 
+click logout log this out suite can
+access<00:04:41.750> the<00:04:41.870> members<00:04:42.020> page<00:04:43.540> send<00:04:44.540> this<00:04:44.630> to<00:04:44.750> the
+
+00:04:44.860 --> 00:04:44.870 
+access the members page send this to the
+
+00:04:44.870 --> 00:04:46.270 
+access the members page send this to the
+stricted<00:04:45.260> page<00:04:45.440> so<00:04:45.650> we<00:04:45.710> just<00:04:45.830> go<00:04:45.950> back<00:04:46.100> to<00:04:46.130> the
+
+00:04:46.270 --> 00:04:46.280 
+stricted page so we just go back to the
+
+00:04:46.280 --> 00:04:49.900 
+stricted page so we just go back to the
+login<00:04:46.430> perfect<00:04:47.950> in<00:04:48.950> the<00:04:49.070> next<00:04:49.280> video<00:04:49.490> we'll<00:04:49.790> be
+
+00:04:49.900 --> 00:04:49.910 
+login perfect in the next video we'll be
+
+00:04:49.910 --> 00:04:51.700 
+login perfect in the next video we'll be
+starting<00:04:50.120> I'll<00:04:50.780> probably<00:04:50.990> start<00:04:51.290> building
+
+00:04:51.700 --> 00:04:51.710 
+starting I'll probably start building
+
+00:04:51.710 --> 00:04:54.240 
+starting I'll probably start building
+the<00:04:51.800> form<00:04:52.040> for<00:04:52.250> the<00:04:52.840> email<00:04:53.840> registration
+
+00:04:54.240 --> 00:04:54.250 
+the form for the email registration
+
+00:04:54.250 --> 00:04:56.470 
+the form for the email registration
+section<00:04:55.250> of<00:04:55.400> the<00:04:55.580> website<00:04:56.060> which<00:04:56.330> is
+
+00:04:56.470 --> 00:04:56.480 
+section of the website which is
+
+00:04:56.480 --> 00:04:58.260 
+section of the website which is
+obviously<00:04:56.960> the<00:04:57.020> next<00:04:57.260> thing<00:04:57.440> that<00:04:57.470> we'll<00:04:57.710> do
+
+00:04:58.260 --> 00:04:58.270 
+obviously the next thing that we'll do
+
+00:04:58.270 --> 00:05:01.300 
+obviously the next thing that we'll do
+where<00:04:59.270> users<00:04:59.690> can<00:04:59.960> sign<00:05:00.380> up<00:05:00.440> by<00:05:00.800> entering
+
+00:05:01.300 --> 00:05:01.310 
+where users can sign up by entering
+
+00:05:01.310 --> 00:05:04.210 
+where users can sign up by entering
+their<00:05:01.730> email<00:05:01.760> -<00:05:02.510> and<00:05:02.720> the<00:05:03.380> password<00:05:03.770> twice<00:05:04.040> so
+
+00:05:04.210 --> 00:05:04.220 
+their email - and the password twice so
+
+00:05:04.220 --> 00:05:05.920 
+their email - and the password twice so
+they<00:05:04.400> confirm<00:05:04.760> it<00:05:04.910> it'll<00:05:05.450> send<00:05:05.630> them<00:05:05.750> an<00:05:05.810> email
+
+00:05:05.920 --> 00:05:05.930 
+they confirm it it'll send them an email
+
+00:05:05.930 --> 00:05:09.700 
+they confirm it it'll send them an email
+with<00:05:06.380> a<00:05:06.680> randomly<00:05:07.520> generated<00:05:07.610> key<00:05:08.710> attached
+
+00:05:09.700 --> 00:05:09.710 
+with a randomly generated key attached
+
+00:05:09.710 --> 00:05:11.080 
+with a randomly generated key attached
+to<00:05:09.860> a<00:05:09.920> link<00:05:10.160> so<00:05:10.370> and<00:05:10.580> they<00:05:10.700> click<00:05:10.910> the<00:05:11.060> link
+
+00:05:11.080 --> 00:05:11.090 
+to a link so and they click the link
+
+00:05:11.090 --> 00:05:12.880 
+to a link so and they click the link
+it'll<00:05:11.510> send<00:05:11.750> it<00:05:11.870> back<00:05:11.990> to<00:05:12.140> a<00:05:12.200> controller<00:05:12.710> which
+
+00:05:12.880 --> 00:05:12.890 
+it'll send it back to a controller which
+
+00:05:12.890 --> 00:05:16.390 
+it'll send it back to a controller which
+we<00:05:13.040> then<00:05:13.190> handle<00:05:13.580> then<00:05:13.940> we<00:05:14.920> know<00:05:15.920> you'll<00:05:16.220> see
+
+00:05:16.390 --> 00:05:16.400 
+we then handle then we know you'll see
+
+00:05:16.400 --> 00:05:21.670 
+we then handle then we know you'll see
+it'll<00:05:17.060> be<00:05:17.210> cool<00:05:18.340> thanks<00:05:19.340> for<00:05:19.430> watching
+

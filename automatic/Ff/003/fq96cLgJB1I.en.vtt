@@ -1,0 +1,424 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:06.399
+ hello everyone welcome to a new 
+
+00:00:03.130 --> 00:00:09.190
+ tutorial in this opportunity I'm going to 
+
+00:00:06.399 --> 00:00:14.800
+ show how to implement a movement 
+
+00:00:09.190 --> 00:00:17.050
+ circulate in game maker 8.1 but also 
+
+00:00:14.800 --> 00:00:20.279
+ they will be able to follow this tutorial if 
+
+00:00:17.050 --> 00:00:24.749
+ they are using that game maker studio or 
+
+00:00:20.279 --> 00:00:27.609
+ versions under 15 may care 8.1 
+
+00:00:24.749 --> 00:00:30.130
+ good as I told you in this opportunity 
+
+00:00:27.609 --> 00:00:32.829
+ I'm going to show you how to implement a 
+
+00:00:30.130 --> 00:00:35.230
+ circular movement that is very useful 
+
+00:00:32.829 --> 00:00:37.390
+ in many games and it is something that is 
+
+00:00:35.230 --> 00:00:40.269
+ seen in infinity of games we are going to 
+
+00:00:37.390 --> 00:00:42.640
+ start creating a sprite here I already 
+
+00:00:40.269 --> 00:00:46.570
+ I have one that I was drawing as the 
+
+00:00:42.640 --> 00:00:48.440
+ it's a face we load it and we're going to give it 
+
+00:00:46.570 --> 00:00:53.370
+ a name 
+
+00:00:48.440 --> 00:00:56.519
+ spr bow I'm going to put it to center 
+
+00:00:53.370 --> 00:00:59.129
+ the origin presses by clicking on the 
+
+00:00:56.519 --> 00:01:02.670
+ center button and let's distill the 
+
+00:00:59.129 --> 00:01:05.610
+ precise collision check option already 
+
+00:01:02.670 --> 00:01:08.180
+ we have our sprite and now we are going to 
+
+00:01:05.610 --> 00:01:10.730
+ create the object 
+
+00:01:08.180 --> 00:01:14.110
+ here we have our object we are going to 
+
+00:01:10.730 --> 00:01:19.070
+ give it a name or bj voice and we're going to 
+
+00:01:14.110 --> 00:01:22.130
+ assign the previously created sprite and 
+
+00:01:19.070 --> 00:01:25.610
+ Now we are ready to 
+
+00:01:22.130 --> 00:01:29.930
+ start adding the events we're going to 
+
+00:01:25.610 --> 00:01:32.840
+ start by adding a create event a 
+
+00:01:29.930 --> 00:01:35.630
+ create event to initialize variables 
+
+00:01:32.840 --> 00:01:38.840
+ more than anything inside this event 
+
+00:01:35.630 --> 00:01:41.660
+ we add the action executive code or 
+
+00:01:38.840 --> 00:01:44.920
+ execute code and here we are going to create 
+
+00:01:41.660 --> 00:01:48.729
+ these two variables first angle d 
+
+00:01:44.920 --> 00:01:51.130
+ angle in Spanish we start it at zero 
+
+00:01:48.729 --> 00:01:54.189
+ Here we have a bad line written in English 
+
+00:01:51.130 --> 00:01:57.340
+ that comes to mean length and what 
+
+00:01:54.189 --> 00:01:59.470
+ initialize with a value of 4 then 
+
+00:01:57.340 --> 00:02:02.470
+ let's see well the meaning of these 
+
+00:01:59.470 --> 00:02:06.460
+ variables so do not worry let's go 
+
+00:02:02.470 --> 00:02:10.330
+ to add a step event and inside it 
+
+00:02:06.460 --> 00:02:13.300
+ we add another action 
+
+00:02:10.330 --> 00:02:17.760
+ execute code and here we are going to do what 
+
+00:02:13.300 --> 00:02:23.890
+ next in the horizontal coordinate x 
+
+00:02:17.760 --> 00:02:27.610
+ let's use the cosine function 
+
+00:02:23.890 --> 00:02:30.180
+ cosine of the angle and obviously for the 
+
+00:02:27.610 --> 00:02:32.709
+ coordinate and we're going to use the function 
+
+00:02:30.180 --> 00:02:35.950
+ sine this then I'll explain it well 
+
+00:02:32.709 --> 00:02:39.130
+ this wheat trigonometry is very basic 
+
+00:02:35.950 --> 00:02:41.530
+ but if they do not remember it in others 
+
+00:02:39.130 --> 00:02:45.730
+ tutorials I'll explain it with more 
+
+00:02:41.530 --> 00:02:50.260
+ good detail we make angle cosine 
+
+00:02:45.730 --> 00:02:53.020
+ by the length for the xy coordinate 
+
+00:02:50.260 --> 00:02:57.250
+ sine of the angle by length for the 
+
+00:02:53.020 --> 00:03:01.530
+ coordinate i but this value we have it 
+
+00:02:57.250 --> 00:03:01.530
+ that increase and that we do 
+
+00:03:01.850 --> 00:03:07.110
+ putting more 
+
+00:03:03.860 --> 00:03:10.290
+ with the operator more equal 
+
+00:03:07.110 --> 00:03:13.470
+ with this formula we are going to achieve that 
+
+00:03:10.290 --> 00:03:18.000
+ circular movement that we are looking for 
+
+00:03:13.470 --> 00:03:20.730
+ we're already going to see it, so 
+
+00:03:18.000 --> 00:03:24.120
+ well now it's just to create a room in 
+
+00:03:20.730 --> 00:03:27.700
+ our project and add the object that 
+
+00:03:24.120 --> 00:03:32.690
+ we create our run 
+
+00:03:27.700 --> 00:03:37.250
+ and good now it only remains to prove it 
+
+00:03:32.690 --> 00:03:42.830
+ to see what happens and it does not work to see that 
+
+00:03:37.250 --> 00:03:45.800
+ I forgot this is fine I forgot 
+
+00:03:42.830 --> 00:03:47.510
+ something important I forgot to increase 
+
+00:03:45.800 --> 00:03:49.790
+ the angle 
+
+00:03:47.510 --> 00:03:53.329
+ I have to increase the angle I'm going to 
+
+00:03:49.790 --> 00:03:57.319
+ put a small value 0 1 and good now 
+
+00:03:53.329 --> 00:04:00.930
+ should work and if indeed there 
+
+00:03:57.319 --> 00:04:03.900
+ we are seeing how the objects move 
+
+00:04:00.930 --> 00:04:04.379
+ in a circular form but let's see it 
+
+00:04:03.900 --> 00:04:07.340
+ best 
+
+00:04:04.379 --> 00:04:07.340
+ in full screen 
+
+00:04:07.500 --> 00:04:14.490
+ and there we see it again a movement 
+
+00:04:10.830 --> 00:04:17.570
+ circular to the object using 
+
+00:04:14.490 --> 00:04:17.570
+ trigonometric functions 
+
+00:04:17.700 --> 00:04:24.240
+ very very basic but well let's see if 
+
+00:04:22.110 --> 00:04:27.890
+ we can do this a little more 
+
+00:04:24.240 --> 00:04:32.130
+ interesting I'm going to add new 
+
+00:04:27.890 --> 00:04:33.600
+ instances of the same object within the 
+
+00:04:32.130 --> 00:04:36.450
+ room 
+
+00:04:33.600 --> 00:04:39.510
+ and let's see now what happens and here 
+
+00:04:36.450 --> 00:04:42.140
+ we see the three objects moving in 
+
+00:04:39.510 --> 00:04:45.180
+ circular shape but perfectly 
+
+00:04:42.140 --> 00:04:47.880
+ synchronized and really I do not want 
+
+00:04:45.180 --> 00:04:51.840
+ that because it looks like too perfect 
+
+00:04:47.880 --> 00:04:54.830
+ I would like to add some variation to 
+
+00:04:51.840 --> 00:04:58.620
+ movement so for that I'm going to 
+
+00:04:54.830 --> 00:05:02.810
+ initialize the angle variable with a 
+
+00:04:58.620 --> 00:05:06.750
+ random value and for that I'm going to use 
+
+00:05:02.810 --> 00:05:08.900
+ the function when range 
+
+00:05:06.750 --> 00:05:12.780
+ that allows me to select 
+
+00:05:08.900 --> 00:05:15.450
+ randomly a number within a 
+
+00:05:12.780 --> 00:05:17.490
+ specified range that is what I am 
+
+00:05:15.450 --> 00:05:20.450
+ doing now this range will be 
+
+00:05:17.490 --> 00:05:20.450
+ between 0 
+
+00:05:21.810 --> 00:05:27.009
+ 05 I think that's going to be good there 
+
+00:05:25.330 --> 00:05:30.220
+ Let's see 
+
+00:05:27.009 --> 00:05:33.130
+ let's see how they look now 
+
+00:05:30.220 --> 00:05:36.280
+ and well there is a very small variation 
+
+00:05:33.130 --> 00:05:39.070
+ almost imperceptible so I'm going to 
+
+00:05:36.280 --> 00:05:41.780
+ increase this range now it will stay 
+
+00:05:39.070 --> 00:05:44.420
+ between 0 and 5 
+
+00:05:41.780 --> 00:05:48.680
+ and good if indeed we can now 
+
+00:05:44.420 --> 00:05:51.410
+ see a much bigger variation now 
+
+00:05:48.680 --> 00:05:54.470
+ the three objects stopped being 
+
+00:05:51.410 --> 00:05:57.860
+ perfectly synchronized that is about 
+
+00:05:54.470 --> 00:06:01.340
+ what what we were looking for so 
+
+00:05:57.860 --> 00:06:04.970
+ well basically this is all that 
+
+00:06:01.340 --> 00:06:08.600
+ they need to implement a movement 
+
+00:06:04.970 --> 00:06:11.980
+ circulate in your objects that as you 
+
+00:06:08.600 --> 00:06:15.050
+ I said it can be very useful in many 
+
+00:06:11.980 --> 00:06:19.250
+ circumstances and it is something that is very 
+
+00:06:15.050 --> 00:06:22.010
+ used in countless video games and 
+
+00:06:19.250 --> 00:06:24.020
+ be for items or for other things and as 
+
+00:06:22.010 --> 00:06:26.629
+ See the code is very 
+
+00:06:24.020 --> 00:06:28.789
+ but very simple are two lines in the 
+
+00:06:26.629 --> 00:06:32.700
+ event credit event 
+
+00:06:28.789 --> 00:06:35.760
+ kate and three lines in the step event 
+
+00:06:32.700 --> 00:06:37.610
+ There are a total of five lines of code 
+
+00:06:35.760 --> 00:06:42.229
+ Really 
+
+00:06:37.610 --> 00:06:44.509
+ very easy and quick to implement myself 
+
+00:06:42.229 --> 00:06:47.650
+ always prefer to implement these things 
+
+00:06:44.509 --> 00:06:50.599
+ by codes and in events and not use 
+
+00:06:47.650 --> 00:06:52.819
+ these predefined actions that come 
+
+00:06:50.599 --> 00:06:54.370
+ in game maker that although they are good 
+
+00:06:52.819 --> 00:06:56.110
+ for 
+
+00:06:54.370 --> 00:06:58.690
+ for beginners who do not understand 
+
+00:06:56.110 --> 00:07:02.710
+ a lot of code then they are very limited 
+
+00:06:58.690 --> 00:07:07.330
+ instead, starting to program 
+
+00:07:02.710 --> 00:07:09.280
+ properly said with code that is to the 
+
+00:07:07.330 --> 00:07:11.710
+ long I think it ends up being the best 
+
+00:07:09.280 --> 00:07:13.449
+ so this is what I want with 
+
+00:07:11.710 --> 00:07:16.320
+ these tutorials do not start with things 
+
+00:07:13.449 --> 00:07:16.320
+ very basic but 
+
+00:07:16.599 --> 00:07:23.360
+ using code true so good 
+
+00:07:20.210 --> 00:07:27.460
+ I hope it has served you and this was 
+
+00:07:23.360 --> 00:07:27.460
+ another tutorial we'll see you 
+

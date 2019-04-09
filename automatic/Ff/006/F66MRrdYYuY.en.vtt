@@ -1,0 +1,680 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.300 --> 00:00:08.000 
+
+welcome<00:00:06.300> to<00:00:06.480> this<00:00:06.630> video<00:00:06.870> tutorial<00:00:07.260> on<00:00:07.800> how<00:00:07.980> to
+
+00:00:08.000 --> 00:00:08.010 
+welcome to this video tutorial on how to
+
+00:00:08.010 --> 00:00:10.250 
+welcome to this video tutorial on how to
+make<00:00:08.190> your<00:00:08.340> own<00:00:08.610> breakout<00:00:09.059> style<00:00:09.389> game<00:00:09.630> in
+
+00:00:10.250 --> 00:00:10.260 
+make your own breakout style game in
+
+00:00:10.260 --> 00:00:12.890 
+make your own breakout style game in
+game<00:00:10.650> maker<00:00:10.830> studio<00:00:11.120> the<00:00:12.120> last<00:00:12.330> tutorials
+
+00:00:12.890 --> 00:00:12.900 
+game maker studio the last tutorials
+
+00:00:12.900 --> 00:00:16.520 
+game maker studio the last tutorials
+focused<00:00:13.350> on<00:00:13.530> making<00:00:14.219> sprites<00:00:14.730> and<00:00:15.530> objects
+
+00:00:16.520 --> 00:00:16.530 
+focused on making sprites and objects
+
+00:00:16.530 --> 00:00:20.150 
+focused on making sprites and objects
+for<00:00:16.710> the<00:00:16.800> game<00:00:18.020> now<00:00:19.020> we<00:00:19.080> will<00:00:19.440> focus<00:00:19.650> it<00:00:19.949> on
+
+00:00:20.150 --> 00:00:20.160 
+for the game now we will focus it on
+
+00:00:20.160 --> 00:00:23.840 
+for the game now we will focus it on
+making<00:00:21.030> a<00:00:21.360> live<00:00:21.990> system<00:00:22.320> and<00:00:22.680> a<00:00:23.130> score<00:00:23.430> system
+
+00:00:23.840 --> 00:00:23.850 
+making a live system and a score system
+
+00:00:23.850 --> 00:00:28.700 
+making a live system and a score system
+for<00:00:24.210> the<00:00:24.300> game<00:00:26.030> the<00:00:27.030> first<00:00:27.300> thing<00:00:27.570> is<00:00:27.810> to<00:00:28.470> make
+
+00:00:28.700 --> 00:00:28.710 
+for the game the first thing is to make
+
+00:00:28.710 --> 00:00:32.179 
+for the game the first thing is to make
+an<00:00:28.890> object<00:00:29.280> called<00:00:29.760> game<00:00:30.420> start<00:00:30.810> and<00:00:31.080> end<00:00:31.320> so
+
+00:00:32.179 --> 00:00:32.189 
+an object called game start and end so
+
+00:00:32.189 --> 00:00:36.610 
+an object called game start and end so
+we'll<00:00:32.399> create<00:00:32.790> an<00:00:33.000> object<00:00:33.420> and<00:00:33.690> name<00:00:34.680> it<00:00:34.890> game
+
+00:00:36.610 --> 00:00:36.620 
+we'll create an object and name it game
+
+00:00:36.620 --> 00:00:41.420 
+we'll create an object and name it game
+underscore<00:00:37.620> start<00:00:38.329> and<00:00:39.329> end<00:00:40.290> this<00:00:41.010> is<00:00:41.250> an
+
+00:00:41.420 --> 00:00:41.430 
+underscore start and end this is an
+
+00:00:41.430 --> 00:00:43.430 
+underscore start and end this is an
+object<00:00:42.000> that<00:00:42.060> will<00:00:42.360> not<00:00:42.600> have<00:00:42.840> any<00:00:43.140> sprite
+
+00:00:43.430 --> 00:00:43.440 
+object that will not have any sprite
+
+00:00:43.440 --> 00:00:45.979 
+object that will not have any sprite
+attached<00:00:43.800> to<00:00:44.040> it<00:00:44.130> it<00:00:44.700> will<00:00:44.910> be<00:00:45.060> an<00:00:45.300> invisible
+
+00:00:45.979 --> 00:00:45.989 
+attached to it it will be an invisible
+
+00:00:45.989 --> 00:00:48.470 
+attached to it it will be an invisible
+object<00:00:46.200> within<00:00:46.680> the<00:00:46.860> game<00:00:47.040> but<00:00:47.640> it<00:00:47.760> will<00:00:47.940> have
+
+00:00:48.470 --> 00:00:48.480 
+object within the game but it will have
+
+00:00:48.480 --> 00:00:52.040 
+object within the game but it will have
+an<00:00:48.690> function<00:00:49.680> because<00:00:50.040> it<00:00:50.340> will<00:00:50.520> always<00:00:51.420> check
+
+00:00:52.040 --> 00:00:52.050 
+an function because it will always check
+
+00:00:52.050 --> 00:00:54.770 
+an function because it will always check
+whenever<00:00:52.620> the<00:00:52.980> score<00:00:53.460> goes<00:00:53.700> up<00:00:53.910> and<00:00:54.210> whenever
+
+00:00:54.770 --> 00:00:54.780 
+whenever the score goes up and whenever
+
+00:00:54.780 --> 00:00:58.010 
+whenever the score goes up and whenever
+there's<00:00:55.500> a<00:00:55.560> risk<00:00:55.829> of<00:00:56.070> the<00:00:56.309> player<00:00:56.790> dying<00:00:57.149> so<00:00:57.750> we
+
+00:00:58.010 --> 00:00:58.020 
+there's a risk of the player dying so we
+
+00:00:58.020 --> 00:01:01.069 
+there's a risk of the player dying so we
+will<00:00:58.500> need<00:00:58.710> to<00:00:59.130> add<00:00:59.370> an<00:00:59.550> event<00:00:59.670> and<00:01:00.630> select
+
+00:01:01.069 --> 00:01:01.079 
+will need to add an event and select
+
+00:01:01.079 --> 00:01:04.579 
+will need to add an event and select
+other<00:01:01.530> and<00:01:01.980> then<00:01:02.730> on<00:01:02.910> room<00:01:03.270> start<00:01:03.660> something
+
+00:01:04.579 --> 00:01:04.589 
+other and then on room start something
+
+00:01:04.589 --> 00:01:09.020 
+other and then on room start something
+should<00:01:04.799> happen<00:01:04.979> on<00:01:06.259> room<00:01:07.259> start<00:01:07.590> we<00:01:08.219> will<00:01:08.460> sit
+
+00:01:09.020 --> 00:01:09.030 
+should happen on room start we will sit
+
+00:01:09.030 --> 00:01:11.960 
+should happen on room start we will sit
+the<00:01:09.600> lives<00:01:09.840> and<00:01:10.110> the<00:01:10.409> score<00:01:10.710> at<00:01:11.190> the<00:01:11.430> start
+
+00:01:11.960 --> 00:01:11.970 
+the lives and the score at the start
+
+00:01:11.970 --> 00:01:17.060 
+the lives and the score at the start
+values<00:01:12.650> so<00:01:13.650> use<00:01:13.979> this<00:01:14.450> set<00:01:15.450> lives<00:01:16.070> into
+
+00:01:17.060 --> 00:01:17.070 
+values so use this set lives into
+
+00:01:17.070 --> 00:01:23.620 
+values so use this set lives into
+actions<00:01:17.520> and<00:01:17.729> set<00:01:18.420> lives<00:01:18.840> to<00:01:19.200> 3<00:01:21.229> click<00:01:22.229> OK<00:01:22.740> and
+
+00:01:23.620 --> 00:01:23.630 
+actions and set lives to 3 click OK and
+
+00:01:23.630 --> 00:01:27.350 
+actions and set lives to 3 click OK and
+then<00:01:24.630> take<00:01:24.930> this<00:01:25.170> score<00:01:25.500> and<00:01:25.820> use<00:01:26.820> this<00:01:27.060> also
+
+00:01:27.350 --> 00:01:27.360 
+then take this score and use this also
+
+00:01:27.360 --> 00:01:30.550 
+then take this score and use this also
+sets<00:01:28.229> goal<00:01:28.500> and<00:01:28.710> we'll<00:01:29.190> set<00:01:29.460> this<00:01:29.670> to<00:01:29.909> zero
+
+00:01:30.550 --> 00:01:30.560 
+sets goal and we'll set this to zero
+
+00:01:30.560 --> 00:01:35.469 
+sets goal and we'll set this to zero
+click<00:01:31.560> OK<00:01:33.170> then<00:01:34.170> we<00:01:34.500> will<00:01:34.619> add<00:01:34.799> an<00:01:35.070> event
+
+00:01:35.469 --> 00:01:35.479 
+click OK then we will add an event
+
+00:01:35.479 --> 00:01:39.230 
+click OK then we will add an event
+called<00:01:36.479> step<00:01:36.840> step<00:01:37.830> happens<00:01:38.220> every<00:01:38.820> time<00:01:39.000> the
+
+00:01:39.230 --> 00:01:39.240 
+called step step happens every time the
+
+00:01:39.240 --> 00:01:41.690 
+called step step happens every time the
+game<00:01:39.450> is<00:01:39.479> updated<00:01:40.200> and<00:01:40.350> that<00:01:40.380> happens<00:01:40.950> many
+
+00:01:41.690 --> 00:01:41.700 
+game is updated and that happens many
+
+00:01:41.700 --> 00:01:45.140 
+game is updated and that happens many
+times<00:01:41.850> every<00:01:42.299> second<00:01:42.900> so<00:01:43.680> click<00:01:43.950> step<00:01:44.189> and<00:01:44.430> add
+
+00:01:45.140 --> 00:01:45.150 
+times every second so click step and add
+
+00:01:45.150 --> 00:01:51.560 
+times every second so click step and add
+this<00:01:45.950> test<00:01:46.950> lives<00:01:49.310> this<00:01:50.310> is<00:01:50.369> an<00:01:50.759> action<00:01:51.090> that
+
+00:01:51.560 --> 00:01:51.570 
+this test lives this is an action that
+
+00:01:51.570 --> 00:01:55.190 
+this test lives this is an action that
+will<00:01:51.720> test<00:01:52.049> if<00:01:53.000> lives<00:01:54.000> are<00:01:54.299> equal<00:01:54.750> to<00:01:54.960> a<00:01:54.990> value
+
+00:01:55.190 --> 00:01:55.200 
+will test if lives are equal to a value
+
+00:01:55.200 --> 00:01:58.219 
+will test if lives are equal to a value
+and<00:01:55.619> we<00:01:55.830> will<00:01:56.009> set<00:01:56.670> 0<00:01:57.060> that<00:01:57.509> is<00:01:57.630> the<00:01:57.810> standard
+
+00:01:58.219 --> 00:01:58.229 
+and we will set 0 that is the standard
+
+00:01:58.229 --> 00:02:03.080 
+and we will set 0 that is the standard
+value<00:01:58.710> and<00:02:00.110> ask<00:02:01.110> if<00:02:01.590> that<00:02:01.890> happens<00:02:02.610> what
+
+00:02:03.080 --> 00:02:03.090 
+value and ask if that happens what
+
+00:02:03.090 --> 00:02:05.359 
+value and ask if that happens what
+should<00:02:03.270> happen<00:02:03.450> next<00:02:03.720> and<00:02:04.049> the<00:02:04.920> next<00:02:04.950> thing
+
+00:02:05.359 --> 00:02:05.369 
+should happen next and the next thing
+
+00:02:05.369 --> 00:02:07.550 
+should happen next and the next thing
+that<00:02:05.729> should<00:02:05.939> happen<00:02:06.119> is<00:02:06.390> then<00:02:06.960> we<00:02:07.110> will<00:02:07.229> start
+
+00:02:07.550 --> 00:02:07.560 
+that should happen is then we will start
+
+00:02:07.560 --> 00:02:10.429 
+that should happen is then we will start
+what<00:02:08.129> is<00:02:08.220> called<00:02:08.519> a<00:02:08.729> block<00:02:09.000> a<00:02:09.239> block<00:02:09.750> is<00:02:10.140> and
+
+00:02:10.429 --> 00:02:10.439 
+what is called a block a block is and
+
+00:02:10.439 --> 00:02:11.509 
+what is called a block a block is and
+Catina
+
+00:02:11.509 --> 00:02:11.519 
+Catina
+
+00:02:11.519 --> 00:02:16.400 
+Catina
+that<00:02:11.970> surrounds<00:02:12.959> different<00:02:13.680> actions<00:02:15.170> so<00:02:16.170> we
+
+00:02:16.400 --> 00:02:16.410 
+that surrounds different actions so we
+
+00:02:16.410 --> 00:02:18.500 
+that surrounds different actions so we
+will<00:02:16.590> use<00:02:16.950> this<00:02:17.190> dart<00:02:17.580> block
+
+00:02:18.500 --> 00:02:18.510 
+will use this dart block
+
+00:02:18.510 --> 00:02:20.960 
+will use this dart block
+and<00:02:18.599> we'll<00:02:18.780> also<00:02:19.110> to<00:02:19.349> add<00:02:19.830> this<00:02:20.069> end<00:02:20.370> block<00:02:20.700> and
+
+00:02:20.960 --> 00:02:20.970 
+and we'll also to add this end block and
+
+00:02:20.970 --> 00:02:23.300 
+and we'll also to add this end block and
+everything<00:02:21.930> in<00:02:22.140> between<00:02:22.200> should<00:02:22.950> happen
+
+00:02:23.300 --> 00:02:23.310 
+everything in between should happen
+
+00:02:23.310 --> 00:02:27.259 
+everything in between should happen
+whenever<00:02:23.670> lives<00:02:24.150> reached<00:02:24.689> zero<00:02:25.730> so<00:02:26.730> the<00:02:27.060> next
+
+00:02:27.259 --> 00:02:27.269 
+whenever lives reached zero so the next
+
+00:02:27.269 --> 00:02:29.300 
+whenever lives reached zero so the next
+thing<00:02:27.510> that<00:02:27.540> should<00:02:27.959> happen<00:02:28.140> is<00:02:28.379> that<00:02:28.829> we<00:02:29.040> take
+
+00:02:29.300 --> 00:02:29.310 
+thing that should happen is that we take
+
+00:02:29.310 --> 00:02:32.750 
+thing that should happen is that we take
+from<00:02:29.730> our<00:02:29.879> main<00:02:30.150> to<00:02:30.450> tap<00:02:30.959> this<00:02:31.760> message
+
+00:02:32.750 --> 00:02:32.760 
+from our main to tap this message
+
+00:02:32.760 --> 00:02:36.289 
+from our main to tap this message
+display<00:02:33.420> message<00:02:33.810> function<00:02:34.370> so<00:02:35.370> add<00:02:35.579> this<00:02:35.940> in
+
+00:02:36.289 --> 00:02:36.299 
+display message function so add this in
+
+00:02:36.299 --> 00:02:40.720 
+display message function so add this in
+between<00:02:36.810> the<00:02:36.959> block<00:02:37.170> and<00:02:37.440> say<00:02:38.280> game<00:02:39.260> ovah
+
+00:02:40.720 --> 00:02:40.730 
+between the block and say game ovah
+
+00:02:40.730 --> 00:02:46.099 
+between the block and say game ovah
+click<00:02:41.730> OK<00:02:43.159> next<00:02:44.159> the<00:02:44.730> game<00:02:45.000> should<00:02:45.269> restart<00:02:45.780> so
+
+00:02:46.099 --> 00:02:46.109 
+click OK next the game should restart so
+
+00:02:46.109 --> 00:02:48.319 
+click OK next the game should restart so
+the<00:02:46.260> player<00:02:46.500> gets<00:02:46.769> another<00:02:47.040> try<00:02:47.459> and<00:02:47.700> we<00:02:48.150> will
+
+00:02:48.319 --> 00:02:48.329 
+the player gets another try and we will
+
+00:02:48.329 --> 00:02:54.949 
+the player gets another try and we will
+use<00:02:48.540> this<00:02:48.920> restart<00:02:49.920> game<00:02:53.209> so<00:02:54.209> display<00:02:54.780> the
+
+00:02:54.949 --> 00:02:54.959 
+use this restart game so display the
+
+00:02:54.959 --> 00:02:56.869 
+use this restart game so display the
+message<00:02:55.109> game<00:02:55.560> over<00:02:55.890> then<00:02:56.220> restart<00:02:56.730> the<00:02:56.790> game
+
+00:02:56.869 --> 00:02:56.879 
+message game over then restart the game
+
+00:02:56.879 --> 00:03:03.740 
+message game over then restart the game
+whenever<00:02:57.780> lives<00:02:58.500> hit<00:02:58.799> zero<00:03:01.370> okay<00:03:02.370> now<00:03:03.359> we<00:03:03.420> will
+
+00:03:03.740 --> 00:03:03.750 
+whenever lives hit zero okay now we will
+
+00:03:03.750 --> 00:03:05.899 
+whenever lives hit zero okay now we will
+make<00:03:03.989> sure<00:03:04.200> that<00:03:04.230> the<00:03:04.650> game<00:03:04.889> knows<00:03:05.220> where<00:03:05.879> to
+
+00:03:05.899 --> 00:03:05.909 
+make sure that the game knows where to
+
+00:03:05.909 --> 00:03:10.039 
+make sure that the game knows where to
+draw<00:03:06.420> this<00:03:06.690> lives<00:03:07.440> and<00:03:07.829> score<00:03:08.549> on<00:03:08.909> the<00:03:09.540> level
+
+00:03:10.039 --> 00:03:10.049 
+draw this lives and score on the level
+
+00:03:10.049 --> 00:03:13.039 
+draw this lives and score on the level
+that<00:03:10.379> we<00:03:10.560> see<00:03:10.769> so<00:03:11.670> we<00:03:12.090> will<00:03:12.239> add<00:03:12.420> a<00:03:12.599> new<00:03:12.840> object
+
+00:03:13.039 --> 00:03:13.049 
+that we see so we will add a new object
+
+00:03:13.049 --> 00:03:18.830 
+that we see so we will add a new object
+called<00:03:14.750> draw<00:03:16.849> this<00:03:17.849> will<00:03:18.030> not<00:03:18.420> have<00:03:18.659> any
+
+00:03:18.830 --> 00:03:18.840 
+called draw this will not have any
+
+00:03:18.840 --> 00:03:21.440 
+called draw this will not have any
+sprite<00:03:19.170> either<00:03:19.409> so<00:03:20.159> we'll<00:03:20.340> just<00:03:20.849> add<00:03:21.060> event
+
+00:03:21.440 --> 00:03:21.450 
+sprite either so we'll just add event
+
+00:03:21.450 --> 00:03:24.770 
+sprite either so we'll just add event
+and<00:03:21.659> then<00:03:22.230> use<00:03:22.470> this<00:03:22.739> draw<00:03:23.310> and<00:03:23.609> then<00:03:24.150> use<00:03:24.359> draw
+
+00:03:24.770 --> 00:03:24.780 
+and then use this draw and then use draw
+
+00:03:24.780 --> 00:03:29.449 
+and then use this draw and then use draw
+GUI<00:03:26.840> then<00:03:27.840> we<00:03:28.079> will<00:03:28.230> use<00:03:28.470> from<00:03:28.769> the<00:03:28.949> score<00:03:29.190> tab
+
+00:03:29.449 --> 00:03:29.459 
+GUI then we will use from the score tab
+
+00:03:29.459 --> 00:03:36.830 
+GUI then we will use from the score tab
+this<00:03:30.180> draw<00:03:31.079> lives<00:03:31.579> and<00:03:32.780> set<00:03:33.780> 40<00:03:34.669> by<00:03:35.669> 40<00:03:36.269> pixels
+
+00:03:36.830 --> 00:03:36.840 
+this draw lives and set 40 by 40 pixels
+
+00:03:36.840 --> 00:03:43.780 
+this draw lives and set 40 by 40 pixels
+in<00:03:37.430> click<00:03:38.430> ok<00:03:38.879> and<00:03:39.090> then<00:03:39.569> also<00:03:40.069> draw<00:03:41.069> score<00:03:42.530> 200
+
+00:03:43.780 --> 00:03:43.790 
+in click ok and then also draw score 200
+
+00:03:43.790 --> 00:03:50.689 
+in click ok and then also draw score 200
+by<00:03:44.790> 40<00:03:46.160> and<00:03:47.160> click<00:03:47.370> OK<00:03:48.139> then<00:03:49.139> ok<00:03:49.560> and<00:03:49.769> now<00:03:50.639> we
+
+00:03:50.689 --> 00:03:50.699 
+by 40 and click OK then ok and now we
+
+00:03:50.699 --> 00:03:54.110 
+by 40 and click OK then ok and now we
+will<00:03:51.000> open<00:03:51.180> the<00:03:51.449> room<00:03:51.660> and<00:03:52.040> insert<00:03:53.040> both<00:03:53.819> of
+
+00:03:54.110 --> 00:03:54.120 
+will open the room and insert both of
+
+00:03:54.120 --> 00:03:57.500 
+will open the room and insert both of
+these<00:03:54.329> new<00:03:54.900> objects<00:03:55.440> game<00:03:55.709> start<00:03:56.069> end<00:03:56.510> I'll
+
+00:03:57.500 --> 00:03:57.510 
+these new objects game start end I'll
+
+00:03:57.510 --> 00:04:02.539 
+these new objects game start end I'll
+set<00:03:57.780> it<00:03:57.810> here<00:03:58.109> and<00:03:59.329> draw<00:04:00.329> set<00:04:01.139> it<00:04:01.260> here<00:04:01.549> notice
+
+00:04:02.539 --> 00:04:02.549 
+set it here and draw set it here notice
+
+00:04:02.549 --> 00:04:04.789 
+set it here and draw set it here notice
+how<00:04:02.940> they<00:04:03.329> don't<00:04:03.599> have<00:04:03.780> any<00:04:04.019> sprite<00:04:04.440> attached
+
+00:04:04.789 --> 00:04:04.799 
+how they don't have any sprite attached
+
+00:04:04.799 --> 00:04:07.490 
+how they don't have any sprite attached
+so<00:04:05.340> they<00:04:05.579> just<00:04:05.849> used<00:04:06.120> the<00:04:06.329> basic<00:04:06.750> question
+
+00:04:07.490 --> 00:04:07.500 
+so they just used the basic question
+
+00:04:07.500 --> 00:04:10.189 
+so they just used the basic question
+mark<00:04:07.739> will<00:04:08.730> not<00:04:08.940> be<00:04:09.090> able<00:04:09.180> to<00:04:09.329> see<00:04:09.659> this<00:04:09.840> in<00:04:10.079> the
+
+00:04:10.189 --> 00:04:10.199 
+mark will not be able to see this in the
+
+00:04:10.199 --> 00:04:12.379 
+mark will not be able to see this in the
+game<00:04:10.379> but<00:04:10.829> now<00:04:11.040> since<00:04:11.489> they<00:04:11.699> are<00:04:11.879> in<00:04:12.060> the<00:04:12.209> level
+
+00:04:12.379 --> 00:04:12.389 
+game but now since they are in the level
+
+00:04:12.389 --> 00:04:16.210 
+game but now since they are in the level
+they<00:04:12.870> are<00:04:13.019> also<00:04:13.199> activated<00:04:13.980> so<00:04:14.819> click<00:04:15.209> OK<00:04:15.540> and
+
+00:04:16.210 --> 00:04:16.220 
+they are also activated so click OK and
+
+00:04:16.220 --> 00:04:19.339 
+they are also activated so click OK and
+finally<00:04:17.220> the<00:04:17.579> last<00:04:17.760> thing<00:04:18.150> we<00:04:18.930> will<00:04:18.989> go<00:04:19.199> into
+
+00:04:19.339 --> 00:04:19.349 
+finally the last thing we will go into
+
+00:04:19.349 --> 00:04:23.149 
+finally the last thing we will go into
+the<00:04:19.560> ball<00:04:19.739> and<00:04:20.010> actually<00:04:20.579> set<00:04:21.419> it<00:04:21.590> to<00:04:22.590> give<00:04:23.130> a
+
+00:04:23.149 --> 00:04:23.159 
+the ball and actually set it to give a
+
+00:04:23.159 --> 00:04:25.310 
+the ball and actually set it to give a
+score<00:04:23.550> whenever<00:04:24.120> we<00:04:24.449> hit<00:04:24.599> the<00:04:24.780> stone<00:04:25.020> one
+
+00:04:25.310 --> 00:04:25.320 
+score whenever we hit the stone one
+
+00:04:25.320 --> 00:04:28.760 
+score whenever we hit the stone one
+object<00:04:25.770> so<00:04:26.460> go<00:04:27.030> into<00:04:27.330> stone<00:04:27.539> one<00:04:27.750> object<00:04:28.200> go
+
+00:04:28.760 --> 00:04:28.770 
+object so go into stone one object go
+
+00:04:28.770 --> 00:04:32.090 
+object so go into stone one object go
+into<00:04:29.010> score<00:04:29.280> tap<00:04:29.580> and<00:04:29.789> then<00:04:30.479> use<00:04:30.990> this<00:04:31.260> sets
+
+00:04:32.090 --> 00:04:32.100 
+into score tap and then use this sets
+
+00:04:32.100 --> 00:04:36.740 
+into score tap and then use this sets
+or<00:04:32.330> drag<00:04:33.330> it<00:04:33.510> into<00:04:33.950> the<00:04:34.950> actions<00:04:35.370> and<00:04:35.580> add<00:04:36.210> some
+
+00:04:36.740 --> 00:04:36.750 
+or drag it into the actions and add some
+
+00:04:36.750 --> 00:04:41.420 
+or drag it into the actions and add some
+score<00:04:37.080> roulette<00:04:37.740> 100<00:04:38.520> points<00:04:39.980> very<00:04:40.980> important
+
+00:04:41.420 --> 00:04:41.430 
+score roulette 100 points very important
+
+00:04:41.430 --> 00:04:42.590 
+score roulette 100 points very important
+here<00:04:41.610> is<00:04:41.760> that<00:04:41.790> we<00:04:42.000> quit
+
+00:04:42.590 --> 00:04:42.600 
+here is that we quit
+
+00:04:42.600 --> 00:04:45.140 
+here is that we quit
+check<00:04:42.900> the<00:04:43.080> relative<00:04:43.560> marker<00:04:44.130> so<00:04:44.760> that<00:04:44.790> it
+
+00:04:45.140 --> 00:04:45.150 
+check the relative marker so that it
+
+00:04:45.150 --> 00:04:49.100 
+check the relative marker so that it
+adds<00:04:45.440> 100<00:04:46.440> points<00:04:46.800> to<00:04:47.280> the<00:04:47.400> current<00:04:47.820> value<00:04:48.110> if
+
+00:04:49.100 --> 00:04:49.110 
+adds 100 points to the current value if
+
+00:04:49.110 --> 00:04:51.890 
+adds 100 points to the current value if
+we<00:04:49.170> forget<00:04:49.920> about<00:04:49.950> this<00:04:50.340> then<00:04:50.760> it'll<00:04:51.030> just<00:04:51.060> set
+
+00:04:51.890 --> 00:04:51.900 
+we forget about this then it'll just set
+
+00:04:51.900 --> 00:04:54.560 
+we forget about this then it'll just set
+our<00:04:52.200> score<00:04:52.560> to<00:04:52.740> 100<00:04:53.370> every<00:04:53.580> time<00:04:54.060> and<00:04:54.360> that
+
+00:04:54.560 --> 00:04:54.570 
+our score to 100 every time and that
+
+00:04:54.570 --> 00:04:55.370 
+our score to 100 every time and that
+will<00:04:54.720> not<00:04:54.900> work
+
+00:04:55.370 --> 00:04:55.380 
+will not work
+
+00:04:55.380 --> 00:04:59.600 
+will not work
+so<00:04:55.830> remember<00:04:56.640> relative<00:04:57.180> and<00:04:57.420> click<00:04:57.810> OK<00:04:58.610> also
+
+00:04:59.600 --> 00:04:59.610 
+so remember relative and click OK also
+
+00:04:59.610 --> 00:05:01.730 
+so remember relative and click OK also
+whenever<00:05:00.060> the<00:05:00.330> ball<00:05:00.540> goes<00:05:00.810> outside<00:05:01.110> the<00:05:01.530> room
+
+00:05:01.730 --> 00:05:01.740 
+whenever the ball goes outside the room
+
+00:05:01.740 --> 00:05:04.400 
+whenever the ball goes outside the room
+we<00:05:02.310> will<00:05:02.490> subtract<00:05:03.210> one<00:05:03.510> life<00:05:03.750> from<00:05:04.260> the
+
+00:05:04.400 --> 00:05:04.410 
+we will subtract one life from the
+
+00:05:04.410 --> 00:05:07.220 
+we will subtract one life from the
+players<00:05:04.680> lives<00:05:05.190> count<00:05:05.550> so<00:05:06.240> use<00:05:06.750> this<00:05:06.990> set
+
+00:05:07.220 --> 00:05:07.230 
+players lives count so use this set
+
+00:05:07.230 --> 00:05:12.980 
+players lives count so use this set
+lives<00:05:08.330> here<00:05:09.330> and<00:05:10.400> minus<00:05:11.400> one<00:05:11.940> and<00:05:12.150> of<00:05:12.720> course
+
+00:05:12.980 --> 00:05:12.990 
+lives here and minus one and of course
+
+00:05:12.990 --> 00:05:15.290 
+lives here and minus one and of course
+relative<00:05:13.560> again<00:05:13.830> because<00:05:14.310> it's<00:05:14.550> according<00:05:15.090> to
+
+00:05:15.290 --> 00:05:15.300 
+relative again because it's according to
+
+00:05:15.300 --> 00:05:18.890 
+relative again because it's according to
+the<00:05:15.540> current<00:05:15.750> value<00:05:16.020> click<00:05:16.950> OK<00:05:17.630> ok<00:05:18.630> and<00:05:18.870> let's
+
+00:05:18.890 --> 00:05:18.900 
+the current value click OK ok and let's
+
+00:05:18.900 --> 00:05:28.730 
+the current value click OK ok and let's
+test<00:05:19.680> the<00:05:19.830> game<00:05:26.150> so<00:05:27.150> now<00:05:27.300> we<00:05:27.360> see<00:05:27.720> that<00:05:27.960> on<00:05:28.230> the
+
+00:05:28.730 --> 00:05:28.740 
+test the game so now we see that on the
+
+00:05:28.740 --> 00:05:30.830 
+test the game so now we see that on the
+top<00:05:28.980> of<00:05:29.100> the<00:05:29.250> screen<00:05:29.490> we<00:05:29.880> have<00:05:29.910> the<00:05:30.570> score
+
+00:05:30.830 --> 00:05:30.840 
+top of the screen we have the score
+
+00:05:30.840 --> 00:05:34.960 
+top of the screen we have the score
+counter<00:05:31.230> and<00:05:31.380> it<00:05:32.010> adds<00:05:32.340> points<00:05:33.120> whenever<00:05:33.720> we
+
+00:05:34.960 --> 00:05:34.970 
+counter and it adds points whenever we
+
+00:05:34.970 --> 00:05:39.640 
+counter and it adds points whenever we
+destroy<00:05:35.970> a<00:05:36.000> wall<00:05:36.750> piece<00:05:37.080> and<00:05:37.350> then<00:05:37.980> when<00:05:38.520> we<00:05:38.820> go
+
+00:05:39.640 --> 00:05:39.650 
+destroy a wall piece and then when we go
+
+00:05:39.650 --> 00:05:45.290 
+destroy a wall piece and then when we go
+down<00:05:41.270> lives<00:05:42.470> it<00:05:43.470> will<00:05:44.070> subtract<00:05:44.700> the<00:05:44.760> live<00:05:45.000> and
+
+00:05:45.290 --> 00:05:45.300 
+down lives it will subtract the live and
+
+00:05:45.300 --> 00:05:48.710 
+down lives it will subtract the live and
+once<00:05:45.900> we<00:05:46.110> reach<00:05:46.140> 0<00:05:46.650> we<00:05:47.490> will<00:05:47.730> get<00:05:47.940> this<00:05:48.360> game
+
+00:05:48.710 --> 00:05:48.720 
+once we reach 0 we will get this game
+
+00:05:48.720 --> 00:05:52.130 
+once we reach 0 we will get this game
+over<00:05:48.960> message<00:05:49.410> and<00:05:49.680> once<00:05:50.580> we<00:05:50.790> click<00:05:50.940> OK<00:05:51.540> the
+
+00:05:52.130 --> 00:05:52.140 
+over message and once we click OK the
+
+00:05:52.140 --> 00:05:59.900 
+over message and once we click OK the
+game<00:05:52.380> will<00:05:52.590> be<00:05:52.740> reset<00:05:58.160> that<00:05:59.160> concludes<00:05:59.670> this
+
+00:05:59.900 --> 00:05:59.910 
+game will be reset that concludes this
+
+00:05:59.910 --> 00:06:04.130 
+game will be reset that concludes this
+part<00:06:00.210> of<00:06:00.330> the<00:06:00.480> tutorials<00:06:01.020> thanks<00:06:01.860> for<00:06:02.010> now
+
