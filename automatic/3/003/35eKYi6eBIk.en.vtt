@@ -1,0 +1,388 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.339 --> 00:00:04.009
+ installation of tories service services windows server 2008 
+
+00:00:07.390 --> 00:00:11.299
+ in our example we will create the hierarchy of active directory starting 
+
+00:00:11.299 --> 00:00:12.309
+ of the start 
+
+00:00:12.309 --> 00:00:13.449
+ that is to say 
+
+00:00:13.449 --> 00:00:15.119
+ percent we will install 
+
+00:00:15.119 --> 00:00:18.119
+ percent a domain controller the domain 
+
+00:00:18.859 --> 00:00:21.849
+ and the domain itself will be inside the forest 
+
+00:00:21.849 --> 00:00:22.779
+ percent 
+
+00:00:22.779 --> 00:00:25.880
+ For this it will be necessary that our services 
+
+00:00:25.880 --> 00:00:31.699
+ I also acted as a dms domain name server and will therefore have 
+
+00:00:31.699 --> 00:00:34.699
+ to have static united 
+
+00:00:35.950 --> 00:00:40.670
+ in our example the server will act as domain controller 
+
+00:00:40.670 --> 00:00:42.370
+ for all our 
+
+00:00:42.370 --> 00:00:44.010
+ me mr efe 
+
+00:00:44.010 --> 00:00:46.260
+ d virtual machines 
+
+00:00:46.260 --> 00:00:48.110
+ the domain server 
+
+00:00:48.110 --> 00:00:51.630
+ of active directory is a server function therefore it will be necessary 
+
+00:00:51.630 --> 00:00:54.630
+ add this function 
+
+00:01:09.950 --> 00:01:12.950
+ appear assistant to add functions 
+
+00:01:14.870 --> 00:01:17.870
+ we point out active directory domain services 
+
+00:01:19.960 --> 00:01:24.719
+ we follow the wizard warns us that it is necessary to have a server dns 
+
+00:01:26.820 --> 00:01:29.820
+ and proceed to the installation 
+
+00:01:30.470 --> 00:01:33.359
+ then when the institution is finished 
+
+00:01:33.359 --> 00:01:35.350
+ d said function 
+
+00:01:35.350 --> 00:01:39.970
+ tells us that in order for the computer to become a server of 
+
+00:01:39.970 --> 00:01:41.640
+ domain controller 
+
+00:01:41.640 --> 00:01:45.120
+ it will be necessary to run the tc promo application 
+
+00:01:45.120 --> 00:01:46.270
+ percent 
+
+00:01:46.270 --> 00:01:49.560
+ and this can be done from this link 
+
+00:01:49.560 --> 00:01:51.170
+ or from the beginning 
+
+00:01:51.170 --> 00:01:52.430
+ run 
+
+00:01:52.430 --> 00:01:55.100
+ and we write the order 
+
+00:01:55.100 --> 00:01:58.100
+ of c promo 
+
+00:02:02.890 --> 00:02:05.890
+ initial assistant click on next 
+
+00:02:06.480 --> 00:02:10.030
+ percent and it gives us a notice that we're going to be the controller and in this 
+
+00:02:10.030 --> 00:02:11.379
+ moment tells us 
+
+00:02:11.379 --> 00:02:14.379
+ that if our domain controller belongs to an existing forest 
+
+00:02:15.119 --> 00:02:18.909
+ or that we are going to create a new domain in a new forest our case 
+
+00:02:18.909 --> 00:02:23.769
+ we create a new domain in a new forest including our first domain 
+
+00:02:23.769 --> 00:02:26.769
+ base of the domain made master domain 
+
+00:02:28.609 --> 00:02:32.689
+ is going to ask us to indicate a bonus name dn sem 
+
+00:02:32.689 --> 00:02:34.229
+ in our case 
+
+00:02:34.229 --> 00:02:37.229
+ let's indicate 
+
+00:02:39.789 --> 00:02:42.789
+ that name 
+
+00:02:43.579 --> 00:02:47.769
+ pd also from him if the domain already belongs to a forest 
+
+00:02:48.329 --> 00:02:50.769
+ I would start from 
+
+00:02:50.769 --> 00:02:53.070
+ here indicating the name 
+
+00:02:53.070 --> 00:02:54.740
+ of the domain us 
+
+00:02:54.740 --> 00:02:57.119
+ simply stunning 
+
+00:02:57.119 --> 00:03:00.479
+ configure the first domain that is also the same name 
+
+00:03:00.999 --> 00:03:03.999
+ that the forest will have a hundred 
+
+00:03:07.389 --> 00:03:09.840
+ as I say it's going to be the root domain 
+
+00:03:09.840 --> 00:03:10.990
+ distance 
+
+00:03:10.990 --> 00:03:13.990
+ the point with 
+
+00:03:15.209 --> 00:03:17.599
+ this domain controller 
+
+00:03:17.599 --> 00:03:18.929
+ is going to be the teacher 
+
+00:03:18.929 --> 00:03:23.789
+ and as we do not have a server dns will also act as a server dns 
+
+00:03:24.649 --> 00:03:25.959
+ and to contain 
+
+00:03:25.959 --> 00:03:29.969
+ the global catalog is the central repository of all objects 
+
+00:03:29.969 --> 00:03:32.669
+ that a domain tree 
+
+00:03:32.669 --> 00:03:33.919
+ that way 
+
+00:03:33.919 --> 00:03:36.919
+ all the domains that 
+
+00:03:37.839 --> 00:03:39.169
+ from the same tree 
+
+00:03:39.169 --> 00:03:42.659
+ they have access to the same set of resources 
+
+00:03:42.659 --> 00:03:45.569
+ in the next screen it tells us what level 
+
+00:03:45.569 --> 00:03:48.609
+ will have the functional the forest 
+
+00:03:48.609 --> 00:03:53.430
+ is equal to moss to have domain controllers from previous discussions of 
+
+00:03:53.430 --> 00:03:56.779
+ windows we must indicate here 
+
+00:03:56.779 --> 00:04:01.179
+ so that our server windows server 2008 our driver is compatible 
+
+00:04:01.759 --> 00:04:03.270
+ with functions of 
+
+00:04:03.270 --> 00:04:06.749
+ the previous distributions in our case is not like that 
+
+00:04:06.749 --> 00:04:11.680
+ and so never members to have more resources and more possibilities because 
+
+00:04:11.679 --> 00:04:14.999
+ we are choosing a pretty high functional type 
+
+00:04:18.299 --> 00:04:20.409
+ as indicated previously 
+
+00:04:20.409 --> 00:04:23.330
+ North Nador hates that we do not have 
+
+00:04:23.330 --> 00:04:26.050
+ configured a recent server in that 
+
+00:04:26.050 --> 00:04:31.040
+ at that moment, reading tells us that he has already selected himself 
+
+00:04:31.040 --> 00:04:34.610
+ And what's more, it's going to be the first master domain domain in the 
+
+00:04:34.610 --> 00:04:36.010
+ it will suffice that the catalog 
+
+00:04:36.010 --> 00:04:38.900
+ global 
+
+00:04:38.900 --> 00:04:43.610
+ in the next screen tells us that how is going to be a server of percent 
+
+00:04:43.610 --> 00:04:45.940
+ and order your will be installed in it 
+
+00:04:45.940 --> 00:04:47.960
+ it tells us that the ip addresses 
+
+00:04:47.960 --> 00:04:52.200
+ they have to be static I hope he detests that we have an address 
+
+00:04:52.200 --> 00:04:54.280
+ or an interface or an address 
+
+00:04:54.280 --> 00:04:58.729
+ dynamic clear our dynamic ip digestion is the itv 6 
+
+00:04:58.729 --> 00:05:01.729
+ that we will not need it and the ip is not configured 
+
+00:05:02.529 --> 00:05:07.879
+ 4 percent is set up as static anyway it warns us and 
+
+00:05:07.879 --> 00:05:11.039
+ click to continue the installation 
+
+00:05:11.039 --> 00:05:15.819
+ as we do not have the server configured dns delegating there is in our service to 
+
+00:05:15.819 --> 00:05:20.129
+ another server asks us if we say continued and gives us that notice we indicate 
+
+00:05:20.129 --> 00:05:20.960
+ yes 
+
+00:05:20.960 --> 00:05:25.260
+ then it tells us where on the disk where folder are created 
+
+00:05:25.260 --> 00:05:26.860
+ where is the fifa hosting 
+
+00:05:26.860 --> 00:05:27.789
+ the 
+
+00:05:27.789 --> 00:05:29.949
+ the catalog values ​​it database 
+
+00:05:29.949 --> 00:05:33.189
+ where is it also hosts the log files 
+
+00:05:34.490 --> 00:05:36.050
+ and the Bolt earthquake 
+
+00:05:36.050 --> 00:05:40.080
+ percent click next leaving the default configuration 
+
+00:05:41.039 --> 00:05:45.349
+ asks us a password to manage the active directory 
+
+00:05:55.219 --> 00:05:59.799
+ after him the administrator password of the director fide and we push in 
+
+00:05:59.799 --> 00:06:02.680
+ following 
+
+00:06:02.680 --> 00:06:04.009
+ start now 
+
+00:06:04.009 --> 00:06:05.490
+ the process of 
+
+00:06:05.490 --> 00:06:07.080
+ installation 
+
+00:06:07.080 --> 00:06:09.259
+ the last screen indicated us 
+
+00:06:09.259 --> 00:06:11.099
+ that has finished 
+
+00:06:11.099 --> 00:06:12.169
+ installation 
+
+00:06:12.169 --> 00:06:14.059
+ and we demand 
+
+00:06:14.059 --> 00:06:16.550
+ what percent is we restart 
+
+00:06:16.550 --> 00:06:18.330
+ to have installed 
+
+00:06:18.330 --> 00:06:21.330
+ all with somoza restart 
+
+00:06:49.139 --> 00:06:52.509
+ now we will check that we have installed 
+
+00:06:52.509 --> 00:06:55.539
+ percent in our already domain controller 
+
+00:06:57.229 --> 00:07:00.020
+ correctly 
+
+00:07:00.020 --> 00:07:03.020
+ we go to functions 
+
+00:07:10.119 --> 00:07:13.119
+ services 
+
+00:07:14.539 --> 00:07:15.949
+ and we have here already 
+
+00:07:15.949 --> 00:07:17.509
+ that we have installed 
+
+00:07:17.509 --> 00:07:21.280
+ our domain controller that as we have commented how its root domains 
+
+00:07:21.279 --> 00:07:23.999
+ we have also put that to the same name 
+
+00:07:23.999 --> 00:07:25.759
+ what the forest 
+
+00:07:25.759 --> 00:07:28.399
+ although the most logical thing would be to have done 
+
+00:07:28.399 --> 00:07:30.080
+ positions 
+
+00:07:30.080 --> 00:07:33.139
+ three different stories one for the forest 
+
+00:07:33.139 --> 00:07:35.559
+ and another one for the domains 
+
+00:07:35.559 --> 00:07:37.120
+ and with this already 
+
+00:07:37.120 --> 00:07:37.750
+ hermetic bush 
+
