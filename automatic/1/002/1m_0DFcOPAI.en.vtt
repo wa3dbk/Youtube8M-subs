@@ -1,0 +1,357 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:05.200
+Now that we have taken a look at the basics
+of HD index painting, we can delve further
+
+00:00:05.200 --> 00:00:06.930
+into its practical uses.
+
+00:00:06.930 --> 00:00:12.990
+In this video, I want to share with you 7
+tips to get a better hang of HD index painting
+
+00:00:12.990 --> 00:00:14.700
+and its power.
+
+00:00:14.700 --> 00:00:17.330
+Tips number one: start with a painting.
+
+00:00:17.330 --> 00:00:22.310
+You should generally start with a quick painting
+in grayscale or in color, without worrying
+
+00:00:22.310 --> 00:00:24.009
+about the final pixel art.
+
+00:00:24.009 --> 00:00:28.359
+At this point, what matters the most is to
+prepare the composition of your image, but
+
+00:00:28.359 --> 00:00:30.199
+also to have a pleasant time.
+
+00:00:30.199 --> 00:00:35.290
+Actually, the HD Index technique gives us
+the freedom to draw the way we want to, with
+
+00:00:35.290 --> 00:00:42.370
+any resolution, as we will always be able
+to transform our creation in pixel art later.
+
+00:00:42.370 --> 00:00:47.360
+Tips number 2: the 4 steps to change a painting
+into pixel art.
+
+00:00:47.360 --> 00:00:52.390
+Here’s how I proceed to transform a painting
+into a pixel art:
+
+00:00:52.390 --> 00:00:56.040
+First of all, you can prepare your color palette
+on a new layer.
+
+00:00:56.040 --> 00:01:02.850
+We have to sample the main colors of every
+key element in our painting one by one.
+
+00:01:02.850 --> 00:01:07.729
+After that, it is sometimes necessary to remove
+the characters and other gameplay related
+
+00:01:07.729 --> 00:01:12.420
+sprites, which are hard to draw properly using
+HD Index painting.
+
+00:01:12.420 --> 00:01:17.060
+It is more interesting to redraw them by hand
+in order to make them pop.
+
+00:01:17.060 --> 00:01:21.960
+Then, we downscale our painting, to adapt
+its scale to pixel art.
+
+00:01:21.960 --> 00:01:26.450
+To do that in Krita, we have to go to the
+image menu, and select the Scale Image to
+
+00:01:26.450 --> 00:01:28.090
+New Size option.
+
+00:01:28.090 --> 00:01:31.399
+We can also use the keyboard shortcut Ctrl
+Alt I.
+
+00:01:31.399 --> 00:01:38.909
+In general, I use a value of less than 200
+pixels for the image’s width and height.
+
+00:01:38.909 --> 00:01:46.310
+The 4th step is the most tedious of all: we
+have to desaturate the image, and then cut
+
+00:01:46.310 --> 00:01:52.920
+a piece of it for each color palette or layers
+we want.
+
+00:01:52.920 --> 00:01:57.649
+We then have to create multiple layer groups
+with the index colors filter, as we have seen
+
+00:01:57.649 --> 00:01:59.540
+in the previous video.
+
+00:01:59.540 --> 00:02:04.909
+And once this is done, we can paint freely
+and benefit from the real-time color indexing.
+
+00:02:04.909 --> 00:02:09.750
+Note that this process also works with textures
+and other photos.
+
+00:02:09.750 --> 00:02:14.080
+Tips number 3: Ctrl Alt Click to sample the
+right colors.
+
+00:02:14.080 --> 00:02:18.480
+When we are painting with indexed colors,
+if we sample a color or a dithering pattern
+
+00:02:18.480 --> 00:02:23.690
+on our layer using the control key, you’ll
+notice that we can’t really paint with it.
+
+00:02:23.690 --> 00:02:27.130
+This manipulation fetches a color from the
+screen.
+
+00:02:27.130 --> 00:02:33.320
+Instead, we want to select the grayscale value
+that is contained inside our painting layer,
+
+00:02:33.320 --> 00:02:35.400
+not a screen color.
+
+00:02:35.400 --> 00:02:41.060
+Krita provides a shortcut to grab a color
+from the active layer: we have to press the
+
+00:02:41.060 --> 00:02:43.650
+Ctrl and Alt keys, and click on the canvas.
+
+00:02:43.650 --> 00:02:48.550
+For this to work, we need to select the layer
+on which we are painting.
+
+00:02:48.550 --> 00:02:53.430
+Thanks to this tool, we can sample the value
+corresponding to a dithering pattern and paint
+
+00:02:53.430 --> 00:02:55.000
+with it.
+
+00:02:55.000 --> 00:02:58.600
+Tips number 4: groups limit the scope of filter
+layers.
+
+00:02:58.600 --> 00:03:02.980
+By default, a filter is only applied to the
+group it belongs to.
+
+00:03:02.980 --> 00:03:07.930
+Thus, you can put as many filters as you want
+inside of a group, they will not affect the
+
+00:03:07.930 --> 00:03:09.820
+rest of the painting.
+
+00:03:09.820 --> 00:03:14.740
+If you want a filter to affect the entire
+image, you have to put it outside of the group,
+
+00:03:14.740 --> 00:03:16.480
+at the top of the layer stack.
+
+00:03:16.480 --> 00:03:22.180
+Or you can activate the Pass Through option
+on its group in the layer docker.
+
+00:03:22.180 --> 00:03:28.010
+Tips number 5: use gradients to quickly add
+shadows and light on your painting.
+
+00:03:28.010 --> 00:03:30.980
+Gradients synergize really well with the preserve
+alpha option.
+
+00:03:30.980 --> 00:03:36.820
+I always work with the default gradient type,
+which applies your foreground color with transparency.
+
+00:03:36.820 --> 00:03:42.100
+You just have to pick a dark gray to add shadows
+to the painting, and a lighter tone to add
+
+00:03:42.100 --> 00:03:43.100
+light.
+
+00:03:43.100 --> 00:03:48.760
+You can also combine gradients with selections
+to add shadows and lights to specific portions
+
+00:03:48.760 --> 00:03:50.820
+of your composition.
+
+00:03:50.820 --> 00:03:55.900
+Tips number 6: Draw silhouette fast with the
+Outline Selection Tool.
+
+00:03:55.900 --> 00:04:00.430
+Speaking of selections, the Outline tool is
+very efficient to plot the silhouette of your
+
+00:04:00.430 --> 00:04:05.120
+trees, your clouds, or simply to add details
+to your creation.
+
+00:04:05.120 --> 00:04:09.691
+You just have to draw a selection, and then
+fill it either using the fill tool, or by
+
+00:04:09.691 --> 00:04:13.220
+using the Shift Backspace key combination.
+
+00:04:13.220 --> 00:04:16.790
+This shortcut fills the selection with your
+foreground color.
+
+00:04:16.790 --> 00:04:22.220
+By pressing the Backspace key alone, you can
+fill the selection using the background color.
+
+00:04:22.220 --> 00:04:25.520
+This technique is good for the creation of
+silhouettes, but not only!
+
+00:04:25.520 --> 00:04:31.340
+It also allows us to draw sharp details over
+a layer, or to add shadows and lights to specific
+
+00:04:31.340 --> 00:04:35.099
+areas using soft brushes or the gradient tool.
+
+00:04:35.099 --> 00:04:37.710
+And tips number 7: you can stack filters.
+
+00:04:37.710 --> 00:04:43.139
+There are many painting techniques I haven’t
+shown you yet on the channel.
+
+00:04:43.139 --> 00:04:47.689
+Thus for some of you, the HD index painting
+technique may look a bit limited.
+
+00:04:47.689 --> 00:04:52.020
+The small layer stack I showed you in the
+previous tutorial is only the base upon which
+
+00:04:52.020 --> 00:04:53.870
+you can build freely.
+
+00:04:53.870 --> 00:04:58.550
+In Krita, you can pile up as many layers and
+filters as you need to.
+
+00:04:58.550 --> 00:05:03.850
+As I have a hard time controlling my color
+palette with the index colors filter alone,
+
+00:05:03.850 --> 00:05:10.300
+I use other filters like Levels or Color Balance
+to fine tune or even radically change the
+
+00:05:10.300 --> 00:05:12.539
+look of my pixel art.
+
+00:05:12.539 --> 00:05:17.699
+All of the filters I use the most are basic
+ones as far as digital painting is concerned.
+
+00:05:17.699 --> 00:05:20.870
+You will find them in most image editing software.
+
+00:05:20.870 --> 00:05:27.379
+In the add filter window, you can find them
+all under the first category, called Adjust.
+
+00:05:27.379 --> 00:05:32.160
+On top of this week’s pixel art example,
+I’ve prepared an HD index painting template
+
+00:05:32.160 --> 00:05:33.160
+for you.
+
+00:05:33.160 --> 00:05:37.169
+Credit goes to Amadiro for all of the dithering
+textures.
+
+00:05:37.169 --> 00:05:41.999
+This file gives you a basic structure as well
+as a few predefined filters to facilitate
+
+00:05:41.999 --> 00:05:44.819
+the creation of a pixel art illustration.
+
+00:05:44.819 --> 00:05:48.550
+You can find the download link in the video
+description.
+
+00:05:48.550 --> 00:05:53.340
+This week, I invite you to head over to the
+Pixel Dailies twitter page.
+
+00:05:53.340 --> 00:05:58.710
+There, you will find a daily pixel art exercise
+to sharpen your skills.
+
+00:05:58.710 --> 00:06:03.969
+The themes sometimes come with some stylistic
+or size constraints, but most of the time
+
+00:06:03.969 --> 00:06:07.520
+you should be able to use the HD index painting
+technique.
+
+00:06:07.520 --> 00:06:14.969
+Don’t hesitate to tweet your creations using
+the #pixelart hashtag, and @pixel_dailies
+
+00:06:14.969 --> 00:06:16.639
+for everyone to see it!
+
+00:06:16.639 --> 00:06:22.020
+You can also tweet @NathanLovatoArt if you
+want me to check it out.
+
+00:06:22.020 --> 00:06:26.889
+If you liked the video, you can hit the like
+button, become a subscriber to support the
+
+00:06:26.889 --> 00:06:28.810
+channel, or share it with your friends!
+
+00:06:28.810 --> 00:06:31.189
+Do you have a question, or suggestions?
+
+00:06:31.189 --> 00:06:35.479
+You can leave me a message in the comments
+below or on social networks.
+
+00:06:35.479 --> 00:06:37.610
+I want to thank you all for watching.
+
+00:06:37.610 --> 00:06:40.979
+Be creative, have fun… until next time!
+
