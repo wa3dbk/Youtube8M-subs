@@ -1,0 +1,451 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.070 --> 00:00:06.750
+ hi all this is a tutorial on 
+
+00:00:04.259 --> 00:00:09.150
+ mapping of two types of images called 
+
+00:00:06.750 --> 00:00:11.429
+ also map angular maps ee here 
+
+00:00:09.150 --> 00:00:14.549
+ rectangular like wallpapers in the universe 
+
+00:00:11.429 --> 00:00:15.420
+ virtual world in blender 3d is col 
+
+00:00:14.549 --> 00:00:18.390
+ internal engine 
+
+00:00:15.420 --> 00:00:20.220
+ blender render that with cycles this 
+
+00:00:18.390 --> 00:00:22.920
+ mapping allows you to make one 
+
+00:00:20.220 --> 00:00:25.410
+ 360 degree background with photographs 
+
+00:00:22.920 --> 00:00:27.060
+ of real environments very useful operation 
+
+00:00:25.410 --> 00:00:30.179
+ in some cases but not really 
+
+00:00:27.060 --> 00:00:33.390
+ intuitive we will see four combinations 
+
+00:00:30.179 --> 00:00:36.329
+ that is, here it is rectangular or and map with 
+
+00:00:33.390 --> 00:00:38.309
+ blender internal and cycles starting with 
+
+00:00:36.329 --> 00:00:40.230
+ the blender internal rendering engine 
+
+00:00:38.309 --> 00:00:42.329
+ render for evidence 
+
+00:00:40.230 --> 00:00:44.910
+ I'm using images taken online 
+
+00:00:42.329 --> 00:00:47.550
+ look for example mirror ball textures 
+
+00:00:44.910 --> 00:00:50.520
+ or and here rectangular background and here 
+
+00:00:47.550 --> 00:00:52.170
+ rectangular panorama hung map texture e 
+
+00:00:50.520 --> 00:00:55.140
+ etc 
+
+00:00:52.170 --> 00:00:56.820
+ ok let's start with blender return first 
+
+00:00:55.140 --> 00:00:59.340
+ what to do is select the tab 
+
+00:00:56.820 --> 00:01:01.440
+ world in the properties windows then 
+
+00:00:59.340 --> 00:01:03.480
+ switch to the texture tab in order to 
+
+00:01:01.440 --> 00:01:05.700
+ create a texture that will be associated 
+
+00:01:03.480 --> 00:01:07.310
+ precisely to the background in the universe 
+
+00:01:05.700 --> 00:01:09.659
+ virtual 
+
+00:01:07.310 --> 00:01:11.820
+ then we add a texture i mayor 
+
+00:01:09.659 --> 00:01:14.310
+ movie and upload an image from disk 
+
+00:01:11.820 --> 00:01:17.009
+ or if already present in the project file 
+
+00:01:14.310 --> 00:01:20.430
+ using the browse image to be button 
+
+00:01:17.009 --> 00:01:21.930
+ linked the images here are the rectangular ones 
+
+00:01:20.430 --> 00:01:24.750
+ they are rectangular images that 
+
+00:01:21.930 --> 00:01:26.490
+ represent 360-degree panoramas of 
+
+00:01:24.750 --> 00:01:28.799
+ an environment in the upper half 
+
+00:01:26.490 --> 00:01:31.110
+ we find therefore from the horizon to the sky 
+
+00:01:28.799 --> 00:01:33.780
+ while in the lower half we have the 
+
+00:01:31.110 --> 00:01:35.880
+ ground or black if the floor for so 
+
+00:01:33.780 --> 00:01:38.040
+ to say is not important because for example 
+
+00:01:35.880 --> 00:01:41.970
+ we will insert a digital plot in the 
+
+00:01:38.040 --> 00:01:43.409
+ scene images eng map that in cycles 
+
+00:01:41.970 --> 00:01:46.049
+ we will call mirror ball 
+
+00:01:43.409 --> 00:01:48.000
+ are square format images 
+
+00:01:46.049 --> 00:01:50.399
+ peculiar aspect of the image itself and 
+
+00:01:48.000 --> 00:01:52.950
+ circular and appears flattened at the edges 
+
+00:01:50.399 --> 00:01:54.509
+ like the photos taken with a fisheye in 
+
+00:01:52.950 --> 00:01:56.790
+ actually it is a photo of a 
+
+00:01:54.509 --> 00:01:59.310
+ mirrorball a reflective sphere that 
+
+00:01:56.790 --> 00:02:02.280
+ precisely reflects the surrounding environment 
+
+00:01:59.310 --> 00:02:04.380
+ and when it is produced one must avoid 
+
+00:02:02.280 --> 00:02:07.110
+ to photograph the photographer 
+
+00:02:04.380 --> 00:02:08.819
+ however, let us return to the practice in 
+
+00:02:07.110 --> 00:02:10.770
+ mapping card we have to change the 
+
+00:02:08.819 --> 00:02:13.350
+ projection mode via the menu 
+
+00:02:10.770 --> 00:02:15.780
+ cordi born and here rectangular 
+
+00:02:13.350 --> 00:02:18.900
+ orami that rectangular eng map dai 
+
+00:02:15.780 --> 00:02:19.950
+ we have no mirror ball images 
+
+00:02:18.900 --> 00:02:21.870
+ still finished 
+
+00:02:19.950 --> 00:02:24.440
+ in the influence of texture section 
+
+00:02:21.870 --> 00:02:27.000
+ we must select horizon color 
+
+00:02:24.440 --> 00:02:29.300
+ let's go back to the world e tab 
+
+00:02:27.000 --> 00:02:32.580
+ select the real sky item 
+
+00:02:29.300 --> 00:02:35.550
+ literally there is no real sky 
+
+00:02:32.580 --> 00:02:37.170
+ that render with f12 changing 
+
+00:02:35.550 --> 00:02:38.580
+ from time to time the orientation of the 
+
+00:02:37.170 --> 00:02:42.320
+ camera to see the result 
+
+00:02:38.580 --> 00:02:42.320
+ looking in different directions 
+
+00:02:45.060 --> 00:02:49.200
+ let's move on to a new scene with the 
+
+00:02:47.100 --> 00:02:50.640
+ rendering cycles engine where 
+
+00:02:49.200 --> 00:02:52.710
+ mapping settings for one 
+
+00:02:50.640 --> 00:02:54.720
+ texture world are definitely more 
+
+00:02:52.710 --> 00:02:56.190
+ simple since everything takes place in 
+
+00:02:54.720 --> 00:02:57.930
+ tab world 
+
+00:02:56.190 --> 00:02:59.970
+ not only do we have the possibility of 
+
+00:02:57.930 --> 00:03:02.220
+ see the real-time preview in the 
+
+00:02:59.970 --> 00:03:04.770
+ 3d view instead of having to start each time 
+
+00:03:02.220 --> 00:03:06.780
+ a render as with blender render for 
+
+00:03:04.770 --> 00:03:09.570
+ which we first change the mode 
+
+00:03:06.780 --> 00:03:12.690
+ viewport shading of the 3d view render 
+
+00:03:09.570 --> 00:03:15.330
+ and in this case the texture goes 
+
+00:03:12.690 --> 00:03:17.820
+ associate world in the homonymous card but 
+
+00:03:15.330 --> 00:03:20.520
+ it is also a texture image of 
+
+00:03:17.820 --> 00:03:23.610
+ one in byron ment texture ie one 
+
+00:03:20.520 --> 00:03:25.230
+ environmental texture to associate a 
+
+00:03:23.610 --> 00:03:27.510
+ texture a world in this tab 
+
+00:03:25.230 --> 00:03:28.980
+ first we activate the nodes then 
+
+00:03:27.510 --> 00:03:31.380
+ we click on the box with 
+
+00:03:28.980 --> 00:03:34.920
+ circle next to color and choose 
+
+00:03:31.380 --> 00:03:37.140
+ inv ironman textures the first thing to 
+
+00:03:34.920 --> 00:03:39.240
+ do of course upload the image or 
+
+00:03:37.140 --> 00:03:42.210
+ with open and then choosing the disc 
+
+00:03:39.240 --> 00:03:43.950
+ or with browse image to be linked if 
+
+00:03:42.210 --> 00:03:45.360
+ the image is already present in the file of 
+
+00:03:43.950 --> 00:03:47.820
+ project because it is loaded 
+
+00:03:45.360 --> 00:03:49.770
+ previously at this point the 
+
+00:03:47.820 --> 00:03:52.080
+ second and last thing to do is 
+
+00:03:49.770 --> 00:03:54.720
+ choose the projection mode in the 
+
+00:03:52.080 --> 00:03:56.630
+ projection selector and here rectangular 
+
+00:03:54.720 --> 00:03:59.190
+ default entry for maps 
+
+00:03:56.630 --> 00:04:01.490
+ panoramic rectangularball mirrors 
+
+00:03:59.190 --> 00:04:04.350
+ for the hung up 
+
+00:04:01.490 --> 00:04:06.200
+ it must be said that a mirror ball will realize 
+
+00:04:04.350 --> 00:04:09.330
+ a good background for a certain openness 
+
+00:04:06.200 --> 00:04:11.070
+ behind and to the sides of the observer but not 
+
+00:04:09.330 --> 00:04:13.620
+ exactly opposite where it will come 
+
+00:04:11.070 --> 00:04:15.330
+ introduced an obvious distortion 
+
+00:04:13.620 --> 00:04:16.980
+ in reality these distortions are there 
+
+00:04:15.330 --> 00:04:19.380
+ also in the other combinations of 
+
+00:04:16.980 --> 00:04:20.310
+ modes and rendering engines but they are 
+
+00:04:19.380 --> 00:04:22.350
+ less obvious 
+
+00:04:20.310 --> 00:04:24.300
+ to solve this problem we can 
+
+00:04:22.350 --> 00:04:25.650
+ use multiple techniques such as one 
+
+00:04:24.300 --> 00:04:26.370
+ scheme of mapping nodes 
+
+00:04:25.650 --> 00:04:28.620
+ picture 
+
+00:04:26.370 --> 00:04:29.520
+ original but maybe we will talk about this 
+
+00:04:28.620 --> 00:04:32.250
+ another time 
+
+00:04:29.520 --> 00:04:33.840
+ as you may have noticed and how you can try 
+
+00:04:32.250 --> 00:04:36.360
+ first-hand looking online 
+
+00:04:33.840 --> 00:04:38.760
+ images here rectangular o and map o 
+
+00:04:36.360 --> 00:04:41.220
+ mirror ball to be applied to world in the 
+
+00:04:38.760 --> 00:04:42.860
+ your scenes the resolution of these 
+
+00:04:41.220 --> 00:04:45.630
+ images is of fundamental importance 
+
+00:04:42.860 --> 00:04:47.940
+ since the photos are stretched 
+
+00:04:45.630 --> 00:04:49.560
+ on the whole background a low image 
+
+00:04:47.940 --> 00:04:51.479
+ resolution will show effects of 
+
+00:04:49.560 --> 00:04:54.449
+ obvious compression in the rendering 
+
+00:04:51.479 --> 00:04:56.610
+ final good background images can 
+
+00:04:54.449 --> 00:04:59.370
+ also have more than 6 thousand pixels in the side 
+
+00:04:56.610 --> 00:05:02.280
+ minor or per side in the case of and maps 
+
+00:04:59.370 --> 00:05:04.410
+ and occupy several megabytes on disk 
+
+00:05:02.280 --> 00:05:06.570
+ so if you look for photos online 
+
+00:05:04.410 --> 00:05:09.690
+ put a search filter to search 
+
+00:05:06.570 --> 00:05:11.970
+ just great photos before closing one 
+
+00:05:09.690 --> 00:05:13.919
+ final consideration to make the 
+
+00:05:11.970 --> 00:05:16.110
+ background textures of illuminants 
+
+00:05:13.919 --> 00:05:18.090
+ particularly interesting operation 
+
+00:05:16.110 --> 00:05:23.370
+ when the image used is a photo 
+
+00:05:18.090 --> 00:05:25.860
+ hdr informed and xr or precisely hdr in 
+
+00:05:23.370 --> 00:05:27.810
+ cycles we do n't have to do anything because 
+
+00:05:25.860 --> 00:05:30.360
+ this is how it is structured 
+
+00:05:27.810 --> 00:05:31.530
+ the rendering engine is implicit for 
+
+00:05:30.360 --> 00:05:34.260
+ regarding the internal engine 
+
+00:05:31.530 --> 00:05:35.720
+ blender instead render the only thing to 
+
+00:05:34.260 --> 00:05:38.460
+ to do is check the box 
+
+00:05:35.720 --> 00:05:42.650
+ environment lighting and set the 
+
+00:05:38.460 --> 00:05:45.630
+ color from white default to sky texture 
+
+00:05:42.650 --> 00:05:47.900
+ well for this tutorial it's all a 
+
+00:05:45.630 --> 00:05:47.900
+ soon 
+
