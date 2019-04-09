@@ -1,0 +1,727 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.939 
+
+what<00:00:00.960> is<00:00:01.050> going<00:00:01.230> on<00:00:01.290> everybody<00:00:01.560> and<00:00:01.800> welcome
+
+00:00:01.939 --> 00:00:01.949 
+what is going on everybody and welcome
+
+00:00:01.949 --> 00:00:04.519 
+what is going on everybody and welcome
+back<00:00:02.129> to<00:00:02.850> another<00:00:02.879> Python<00:00:03.780> and<00:00:04.110> robotics
+
+00:00:04.519 --> 00:00:04.529 
+back to another Python and robotics
+
+00:00:04.529 --> 00:00:06.289 
+back to another Python and robotics
+tutorial<00:00:05.040> video<00:00:05.250> in<00:00:05.279> the<00:00:05.400> last<00:00:05.580> video<00:00:05.879> we<00:00:06.150> got
+
+00:00:06.289 --> 00:00:06.299 
+tutorial video in the last video we got
+
+00:00:06.299 --> 00:00:09.530 
+tutorial video in the last video we got
+our<00:00:06.540> robot<00:00:07.290> car<00:00:07.500> to<00:00:07.950> turn<00:00:08.460> left<00:00:08.700> in<00:00:08.880> turn<00:00:09.059> right
+
+00:00:09.530 --> 00:00:09.540 
+our robot car to turn left in turn right
+
+00:00:09.540 --> 00:00:12.200 
+our robot car to turn left in turn right
+and<00:00:09.870> in<00:00:10.800> this<00:00:10.889> video<00:00:11.099> we<00:00:11.429> want<00:00:11.550> to<00:00:11.639> do<00:00:11.820> is<00:00:12.059> we
+
+00:00:12.200 --> 00:00:12.210 
+and in this video we want to do is we
+
+00:00:12.210 --> 00:00:14.660 
+and in this video we want to do is we
+want<00:00:12.360> to<00:00:12.450> program<00:00:12.719> it<00:00:13.110> to<00:00:13.290> pivot<00:00:13.590> left<00:00:14.460> and
+
+00:00:14.660 --> 00:00:14.670 
+want to program it to pivot left and
+
+00:00:14.670 --> 00:00:16.519 
+want to program it to pivot left and
+right<00:00:14.820> because<00:00:15.000> then<00:00:15.240> the<00:00:15.360> turn<00:00:15.690> it<00:00:16.080> would
+
+00:00:16.519 --> 00:00:16.529 
+right because then the turn it would
+
+00:00:16.529 --> 00:00:18.170 
+right because then the turn it would
+have<00:00:16.680> to<00:00:16.800> gain<00:00:16.949> forward<00:00:17.430> ground<00:00:17.699> whereas<00:00:18.029> in<00:00:18.119> a
+
+00:00:18.170 --> 00:00:18.180 
+have to gain forward ground whereas in a
+
+00:00:18.180 --> 00:00:19.790 
+have to gain forward ground whereas in a
+pivot<00:00:18.480> it<00:00:18.600> would<00:00:18.750> just<00:00:18.930> spin<00:00:19.140> in<00:00:19.230> place<00:00:19.260> so
+
+00:00:19.790 --> 00:00:19.800 
+pivot it would just spin in place so
+
+00:00:19.800 --> 00:00:23.210 
+pivot it would just spin in place so
+let's<00:00:20.699> go<00:00:20.850> ahead<00:00:20.939> and<00:00:21.090> sudo<00:00:21.810> nano<00:00:22.050> robot<00:00:22.920> too
+
+00:00:23.210 --> 00:00:23.220 
+let's go ahead and sudo nano robot too
+
+00:00:23.220 --> 00:00:27.109 
+let's go ahead and sudo nano robot too
+high<00:00:24.500> and<00:00:25.500> here's<00:00:26.070> our<00:00:26.220> file<00:00:26.519> let's<00:00:26.820> go<00:00:26.939> down
+
+00:00:27.109 --> 00:00:27.119 
+high and here's our file let's go down
+
+00:00:27.119 --> 00:00:28.970 
+high and here's our file let's go down
+to<00:00:27.150> the<00:00:27.330> very<00:00:27.420> bottom<00:00:27.689> we<00:00:28.500> don't<00:00:28.650> need<00:00:28.740> it<00:00:28.890> to
+
+00:00:28.970 --> 00:00:28.980 
+to the very bottom we don't need it to
+
+00:00:28.980 --> 00:00:31.040 
+to the very bottom we don't need it to
+turn<00:00:29.189> right<00:00:29.460> anymore<00:00:29.760> and<00:00:30.150> now<00:00:30.660> let's<00:00:30.929> go
+
+00:00:31.040 --> 00:00:31.050 
+turn right anymore and now let's go
+
+00:00:31.050 --> 00:00:36.590 
+turn right anymore and now let's go
+ahead<00:00:31.170> and<00:00:31.679> define<00:00:32.460> a<00:00:33.170> pivot<00:00:34.760> underscore<00:00:35.760> left
+
+00:00:36.590 --> 00:00:36.600 
+ahead and define a pivot underscore left
+
+00:00:36.600 --> 00:00:42.470 
+ahead and define a pivot underscore left
+time<00:00:37.380> frame<00:00:37.800> :<00:00:38.430> 1<00:00:38.940> 2<00:00:39.120> 3<00:00:39.300> 4<00:00:39.690> in<00:00:40.050> it<00:00:40.590> and<00:00:41.399> now<00:00:42.329> we're
+
+00:00:42.470 --> 00:00:42.480 
+time frame : 1 2 3 4 in it and now we're
+
+00:00:42.480 --> 00:00:47.420 
+time frame : 1 2 3 4 in it and now we're
+ready<00:00:42.629> to<00:00:42.840> go<00:00:43.370> so<00:00:44.370> now<00:00:44.399> to<00:00:45.059> pivot<00:00:45.510> left<00:00:46.289> what<00:00:47.280> we
+
+00:00:47.420 --> 00:00:47.430 
+ready to go so now to pivot left what we
+
+00:00:47.430 --> 00:00:49.970 
+ready to go so now to pivot left what we
+would<00:00:47.640> need<00:00:47.820> is<00:00:48.180> sense<00:00:48.539> forward<00:00:49.289> is<00:00:49.500> in<00:00:49.890> the
+
+00:00:49.970 --> 00:00:49.980 
+would need is sense forward is in the
+
+00:00:49.980 --> 00:00:51.860 
+would need is sense forward is in the
+direction<00:00:50.309> of<00:00:50.700> you<00:00:51.180> know<00:00:51.300> going<00:00:51.600> right
+
+00:00:51.860 --> 00:00:51.870 
+direction of you know going right
+
+00:00:51.870 --> 00:00:55.010 
+direction of you know going right
+on-screen<00:00:52.670> to<00:00:53.670> pivot<00:00:53.910> left<00:00:54.390> the<00:00:54.840> wheels
+
+00:00:55.010 --> 00:00:55.020 
+on-screen to pivot left the wheels
+
+00:00:55.020 --> 00:01:00.319 
+on-screen to pivot left the wheels
+closest<00:00:55.829> to<00:00:57.469> the<00:00:58.469> screen<00:00:58.829> would<00:00:59.760> need<00:00:59.969> to<00:01:00.180> move
+
+00:01:00.319 --> 00:01:00.329 
+closest to the screen would need to move
+
+00:01:00.329 --> 00:01:05.179 
+closest to the screen would need to move
+forward<00:01:02.270> whereas<00:01:03.270> the<00:01:04.229> wheels<00:01:04.920> in<00:01:05.100> the<00:01:05.159> back
+
+00:01:05.179 --> 00:01:05.189 
+forward whereas the wheels in the back
+
+00:01:05.189 --> 00:01:08.149 
+forward whereas the wheels in the back
+would<00:01:06.030> need<00:01:06.210> to<00:01:06.299> move<00:01:06.619> backwards<00:01:07.619> and<00:01:07.890> that
+
+00:01:08.149 --> 00:01:08.159 
+would need to move backwards and that
+
+00:01:08.159 --> 00:01:09.620 
+would need to move backwards and that
+would<00:01:08.310> help<00:01:08.400> its<00:01:08.610> spin<00:01:08.970> in<00:01:09.210> the<00:01:09.360> left
+
+00:01:09.620 --> 00:01:09.630 
+would help its spin in the left
+
+00:01:09.630 --> 00:01:11.960 
+would help its spin in the left
+direction<00:01:09.960> or<00:01:10.439> maybe<00:01:11.130> the<00:01:11.280> better<00:01:11.430> word<00:01:11.549> to<00:01:11.880> be
+
+00:01:11.960 --> 00:01:11.970 
+direction or maybe the better word to be
+
+00:01:11.970 --> 00:01:15.370 
+direction or maybe the better word to be
+would<00:01:12.210> be<00:01:12.330> pivot<00:01:12.689> or<00:01:12.840> turn<00:01:13.710> counterclockwise
+
+00:01:15.370 --> 00:01:15.380 
+would be pivot or turn counterclockwise
+
+00:01:15.380 --> 00:01:18.620 
+would be pivot or turn counterclockwise
+so<00:01:16.380> to<00:01:16.470> do<00:01:16.830> that<00:01:17.100> to<00:01:17.490> make<00:01:17.729> that<00:01:17.939> happen<00:01:18.150> what
+
+00:01:18.620 --> 00:01:18.630 
+so to do that to make that happen what
+
+00:01:18.630 --> 00:01:22.940 
+so to do that to make that happen what
+we<00:01:18.750> want<00:01:18.930> to<00:01:19.049> do<00:01:19.170> is<00:01:19.880> we<00:01:20.880> would<00:01:21.030> want<00:01:21.270> to<00:01:21.420> use<00:01:21.950> 7
+
+00:01:22.940 --> 00:01:22.950 
+we want to do is we would want to use 7
+
+00:01:22.950 --> 00:01:32.899 
+we want to do is we would want to use 7
+as<00:01:23.130> true<00:01:23.909> so<00:01:24.210> GPIO<00:01:24.659> 2<00:01:24.810> output<00:01:26.630> 7<00:01:28.430> true<00:01:29.479> and<00:01:31.909> then
+
+00:01:32.899 --> 00:01:32.909 
+as true so GPIO 2 output 7 true and then
+
+00:01:32.909 --> 00:01:36.289 
+as true so GPIO 2 output 7 true and then
+we're<00:01:33.090> going<00:01:33.210> to<00:01:33.240> need<00:01:33.479> 11<00:01:34.200> to<00:01:34.320> be<00:01:34.439> false<00:01:35.299> the
+
+00:01:36.289 --> 00:01:36.299 
+we're going to need 11 to be false the
+
+00:01:36.299 --> 00:01:42.380 
+we're going to need 11 to be false the
+GPIO<00:01:36.810> dot<00:01:37.110> output<00:01:38.090> 11<00:01:39.090> falls<00:01:39.900> and<00:01:40.530> then<00:01:41.460> 13
+
+00:01:42.380 --> 00:01:42.390 
+GPIO dot output 11 falls and then 13
+
+00:01:42.390 --> 00:01:49.660 
+GPIO dot output 11 falls and then 13
+should<00:01:42.780> be<00:01:42.869> true<00:01:45.799> and<00:01:46.799> then<00:01:47.159> 15
+
+00:01:49.660 --> 00:01:49.670 
+should be true and then 15
+
+00:01:49.670 --> 00:01:55.850 
+should be true and then 15
+should<00:01:50.670> be<00:01:50.909> false<00:01:54.079> now<00:01:55.079> that<00:01:55.259> ought<00:01:55.500> to<00:01:55.530> give
+
+00:01:55.850 --> 00:01:55.860 
+should be false now that ought to give
+
+00:01:55.860 --> 00:01:58.700 
+should be false now that ought to give
+us<00:01:55.979> a<00:01:56.100> pivot<00:01:56.399> left<00:01:56.670> let's<00:01:57.299> check<00:01:57.929> it<00:01:58.110> have<00:01:58.590> it
+
+00:01:58.700 --> 00:01:58.710 
+us a pivot left let's check it have it
+
+00:01:58.710 --> 00:02:03.800 
+us a pivot left let's check it have it
+left<00:01:59.039> for<00:01:59.850> one<00:02:00.450> second<00:02:01.020> X<00:02:01.350> yes<00:02:01.829> save<00:02:02.250> and<00:02:02.640> up<00:02:03.570> to
+
+00:02:03.800 --> 00:02:03.810 
+left for one second X yes save and up to
+
+00:02:03.810 --> 00:02:08.809 
+left for one second X yes save and up to
+sudo<00:02:04.140> python<00:02:04.259> a<00:02:04.439> robot<00:02:04.710> to<00:02:04.829> type<00:02:04.979> I<00:02:05.250> enter<00:02:07.819> and
+
+00:02:08.809 --> 00:02:08.819 
+sudo python a robot to type I enter and
+
+00:02:08.819 --> 00:02:15.289 
+sudo python a robot to type I enter and
+we<00:02:09.060> forgot<00:02:09.300> our<00:02:09.420> clean<00:02:09.630> up<00:02:09.750> as<00:02:09.929> usual<00:02:14.299> good
+
+00:02:15.289 --> 00:02:15.299 
+we forgot our clean up as usual good
+
+00:02:15.299 --> 00:02:15.710 
+we forgot our clean up as usual good
+stuff
+
+00:02:15.710 --> 00:02:15.720 
+stuff
+
+00:02:15.720 --> 00:02:18.170 
+stuff
+how<00:02:15.780> come<00:02:15.930> nobody<00:02:16.200> warned<00:02:16.620> me<00:02:16.680> about<00:02:16.890> this<00:02:17.180> now
+
+00:02:18.170 --> 00:02:18.180 
+how come nobody warned me about this now
+
+00:02:18.180 --> 00:02:23.509 
+how come nobody warned me about this now
+let's<00:02:18.569> go<00:02:18.690> down<00:02:18.870> to<00:02:18.959> the<00:02:19.019> bottom<00:02:19.170> and<00:02:22.400> first<00:02:23.400> of
+
+00:02:23.509 --> 00:02:23.519 
+let's go down to the bottom and first of
+
+00:02:23.519 --> 00:02:26.870 
+let's go down to the bottom and first of
+all<00:02:23.610> we<00:02:23.880> want<00:02:24.060> to<00:02:24.120> do<00:02:24.440> time<00:02:25.440> Don<00:02:25.799> sleep<00:02:26.459> for
+
+00:02:26.870 --> 00:02:26.880 
+all we want to do time Don sleep for
+
+00:02:26.880 --> 00:02:30.140 
+all we want to do time Don sleep for
+time<00:02:27.120> frame<00:02:27.450> and<00:02:27.840> then<00:02:28.470> GPIO<00:02:29.069> dot<00:02:29.340> clean<00:02:29.970> up
+
+00:02:30.140 --> 00:02:30.150 
+time frame and then GPIO dot clean up
+
+00:02:30.150 --> 00:02:34.009 
+time frame and then GPIO dot clean up
+clean<00:02:30.750> it<00:02:30.930> clean<00:02:31.680> up<00:02:32.000> yes<00:02:33.000> and<00:02:33.690> now<00:02:33.840> we're
+
+00:02:34.009 --> 00:02:34.019 
+clean it clean up yes and now we're
+
+00:02:34.019 --> 00:02:35.780 
+clean it clean up yes and now we're
+going<00:02:34.110> to<00:02:34.170> run<00:02:34.410> it<00:02:34.560> once<00:02:34.799> just<00:02:34.950> to<00:02:35.459> clear
+
+00:02:35.780 --> 00:02:35.790 
+going to run it once just to clear
+
+00:02:35.790 --> 00:02:40.880 
+going to run it once just to clear
+everything<00:02:36.060> for<00:02:36.540> myself<00:02:36.720> and<00:02:37.670> battery<00:02:39.890> and
+
+00:02:40.880 --> 00:02:40.890 
+everything for myself and battery and
+
+00:02:40.890 --> 00:02:45.759 
+everything for myself and battery and
+let's<00:02:41.190> run<00:02:41.340> it<00:02:41.459> again
+
+00:02:45.759 --> 00:02:45.769 
+
+00:02:45.769 --> 00:02:48.440 
+
+okay<00:02:46.769> so<00:02:47.280> that<00:02:47.430> worked<00:02:47.579> out<00:02:47.700> so<00:02:48.060> that<00:02:48.209> would
+
+00:02:48.440 --> 00:02:48.450 
+okay so that worked out so that would
+
+00:02:48.450 --> 00:02:51.380 
+okay so that worked out so that would
+make<00:02:48.660> it<00:02:48.810> pivot<00:02:49.170> left<00:02:49.890> now<00:02:50.549> the<00:02:51.000> last<00:02:51.209> thing
+
+00:02:51.380 --> 00:02:51.390 
+make it pivot left now the last thing
+
+00:02:51.390 --> 00:02:54.140 
+make it pivot left now the last thing
+that<00:02:51.599> we<00:02:51.690> really<00:02:52.019> want<00:02:52.049> to<00:02:52.290> do<00:02:52.410> is<00:02:52.650> pivot<00:02:53.519> right
+
+00:02:54.140 --> 00:02:54.150 
+that we really want to do is pivot right
+
+00:02:54.150 --> 00:02:57.340 
+that we really want to do is pivot right
+and<00:02:55.040> that<00:02:56.040> should<00:02:56.310> do<00:02:56.459> for<00:02:56.760> all<00:02:56.940> of<00:02:56.970> our
+
+00:02:57.340 --> 00:02:57.350 
+and that should do for all of our
+
+00:02:57.350 --> 00:03:00.020 
+and that should do for all of our
+commands<00:02:58.350> or<00:02:58.470> at<00:02:58.590> least<00:02:58.769> you<00:02:59.190> know<00:02:59.280> not
+
+00:03:00.020 --> 00:03:00.030 
+commands or at least you know not
+
+00:03:00.030 --> 00:03:01.849 
+commands or at least you know not
+commands<00:03:00.389> I<00:03:00.600> suppose<00:03:00.870> I<00:03:01.049> guess<00:03:01.200> commands<00:03:01.560> yeah
+
+00:03:01.849 --> 00:03:01.859 
+commands I suppose I guess commands yeah
+
+00:03:01.859 --> 00:03:03.680 
+commands I suppose I guess commands yeah
+as<00:03:01.920> far<00:03:02.250> as<00:03:02.310> you<00:03:02.819> know<00:03:02.910> what<00:03:02.940> we<00:03:03.150> want<00:03:03.540> this
+
+00:03:03.680 --> 00:03:03.690 
+as far as you know what we want this
+
+00:03:03.690 --> 00:03:06.819 
+as far as you know what we want this
+robot<00:03:04.109> to<00:03:04.230> be<00:03:04.260> able<00:03:04.440> to<00:03:04.590> do<00:03:04.799> so<00:03:05.069> now<00:03:05.220> define
+
+00:03:06.819 --> 00:03:06.829 
+robot to be able to do so now define
+
+00:03:06.829 --> 00:03:12.710 
+robot to be able to do so now define
+pivot<00:03:07.829> right<00:03:08.549> time<00:03:09.510> frame<00:03:09.859> as<00:03:11.389> usual<00:03:12.389> we<00:03:12.569> need
+
+00:03:12.710 --> 00:03:12.720 
+pivot right time frame as usual we need
+
+00:03:12.720 --> 00:03:15.110 
+pivot right time frame as usual we need
+the<00:03:12.840> individual<00:03:13.350> arms<00:03:13.709> and<00:03:13.950> now<00:03:14.609> we<00:03:14.670> want<00:03:15.000> to
+
+00:03:15.110 --> 00:03:15.120 
+the individual arms and now we want to
+
+00:03:15.120 --> 00:03:17.690 
+the individual arms and now we want to
+begin<00:03:15.209> so<00:03:16.139> what's<00:03:16.859> going<00:03:17.040> to<00:03:17.069> change<00:03:17.400> well
+
+00:03:17.690 --> 00:03:17.700 
+begin so what's going to change well
+
+00:03:17.700 --> 00:03:21.580 
+begin so what's going to change well
+basically<00:03:18.299> I<00:03:19.079> know<00:03:19.859> this<00:03:20.130> got<00:03:20.400> us<00:03:20.549> last<00:03:20.790> time
+
+00:03:21.580 --> 00:03:21.590 
+basically I know this got us last time
+
+00:03:21.590 --> 00:03:24.110 
+basically I know this got us last time
+so<00:03:22.590> I<00:03:22.620> hope<00:03:22.769> it<00:03:22.950> doesn't<00:03:23.100> get<00:03:23.280> me<00:03:23.459> again<00:03:23.579> but<00:03:24.000> we
+
+00:03:24.110 --> 00:03:24.120 
+so I hope it doesn't get me again but we
+
+00:03:24.120 --> 00:03:28.270 
+so I hope it doesn't get me again but we
+should<00:03:24.299> just<00:03:24.329> have<00:03:24.630> to<00:03:24.780> flip<00:03:25.019> everything<00:03:25.319> I
+
+00:03:28.270 --> 00:03:28.280 
+
+00:03:28.280 --> 00:03:30.080 
+
+think<00:03:29.280> we'll<00:03:29.400> get<00:03:29.489> away<00:03:29.670> with<00:03:29.850> flipping
+
+00:03:30.080 --> 00:03:30.090 
+think we'll get away with flipping
+
+00:03:30.090 --> 00:03:32.059 
+think we'll get away with flipping
+everything<00:03:30.510> this<00:03:30.600> time<00:03:30.660> so<00:03:31.200> did<00:03:31.829> you<00:03:31.920> pee<00:03:32.040> out
+
+00:03:32.059 --> 00:03:32.069 
+everything this time so did you pee out
+
+00:03:32.069 --> 00:03:39.080 
+everything this time so did you pee out
+an<00:03:32.340> output<00:03:33.500> seven<00:03:34.500> bowls<00:03:36.079> GPIO<00:03:37.079> output<00:03:38.090> eleven
+
+00:03:39.080 --> 00:03:39.090 
+an output seven bowls GPIO output eleven
+
+00:03:39.090 --> 00:03:47.509 
+an output seven bowls GPIO output eleven
+true<00:03:42.019> GPI<00:03:43.019> head<00:03:43.200> and<00:03:43.349> I'll<00:03:43.470> put<00:03:44.180> 13<00:03:45.180> false<00:03:46.519> gb
+
+00:03:47.509 --> 00:03:47.519 
+true GPI head and I'll put 13 false gb
+
+00:03:47.519 --> 00:03:48.560 
+true GPI head and I'll put 13 false gb
+out
+
+00:03:48.560 --> 00:03:48.570 
+out
+
+00:03:48.570 --> 00:03:52.460 
+out
+fifteen<00:03:49.570> true<00:03:50.560> now<00:03:51.490> don't<00:03:51.910> forget<00:03:52.030> to<00:03:52.180> sleep
+
+00:03:52.460 --> 00:03:52.470 
+fifteen true now don't forget to sleep
+
+00:03:52.470 --> 00:03:57.050 
+fifteen true now don't forget to sleep
+time<00:03:53.470> dot<00:03:53.800> sleep<00:03:54.640> for<00:03:55.000> the<00:03:55.030> time<00:03:55.330> frame<00:03:55.660> and
+
+00:03:57.050 --> 00:03:57.060 
+time dot sleep for the time frame and
+
+00:03:57.060 --> 00:04:04.190 
+time dot sleep for the time frame and
+GPIO<00:03:58.060> dot<00:03:58.390> cleanup<00:04:00.450> now<00:04:01.710> we<00:04:02.710> want<00:04:02.950> to<00:04:03.310> pivot
+
+00:04:04.190 --> 00:04:04.200 
+GPIO dot cleanup now we want to pivot
+
+00:04:04.200 --> 00:04:07.020 
+GPIO dot cleanup now we want to pivot
+underscore<00:04:05.200> right<00:04:05.770> for<00:04:06.220> the<00:04:06.310> time<00:04:06.520> frame<00:04:06.760> with
+
+00:04:07.020 --> 00:04:07.030 
+underscore right for the time frame with
+
+00:04:07.030 --> 00:04:11.610 
+underscore right for the time frame with
+one<00:04:07.420> save<00:04:08.380> yep<00:04:09.010> same<00:04:09.730> file<00:04:10.230> suit<00:04:11.230> a<00:04:11.290> Python
+
+00:04:11.610 --> 00:04:11.620 
+one save yep same file suit a Python
+
+00:04:11.620 --> 00:04:16.920 
+one save yep same file suit a Python
+robot<00:04:11.890> tune-up<00:04:12.190> I<00:04:12.490> run<00:04:13.060> it<00:04:13.260> and<00:04:15.150> sho'nuff<00:04:16.150> so
+
+00:04:16.920 --> 00:04:16.930 
+robot tune-up I run it and sho'nuff so
+
+00:04:16.930 --> 00:04:18.660 
+robot tune-up I run it and sho'nuff so
+the<00:04:17.049> wheels<00:04:17.290> closest<00:04:17.680> to<00:04:17.769> us<00:04:17.890> spun<00:04:18.220> backwards
+
+00:04:18.660 --> 00:04:18.670 
+the wheels closest to us spun backwards
+
+00:04:18.670 --> 00:04:20.759 
+the wheels closest to us spun backwards
+whereas<00:04:19.420> the<00:04:19.510> ones<00:04:19.660> furthest<00:04:20.019> from<00:04:20.140> us<00:04:20.350> spun
+
+00:04:20.759 --> 00:04:20.769 
+whereas the ones furthest from us spun
+
+00:04:20.769 --> 00:04:23.010 
+whereas the ones furthest from us spun
+forwards<00:04:21.370> thus<00:04:22.000> making<00:04:22.330> us<00:04:22.540> turn<00:04:22.780> in<00:04:22.900> a
+
+00:04:23.010 --> 00:04:23.020 
+forwards thus making us turn in a
+
+00:04:23.020 --> 00:04:27.420 
+forwards thus making us turn in a
+clockwise<00:04:23.380> rotation<00:04:24.240> or<00:04:25.240> pivot<00:04:25.930> right<00:04:26.430> so
+
+00:04:27.420 --> 00:04:27.430 
+clockwise rotation or pivot right so
+
+00:04:27.430 --> 00:04:29.190 
+clockwise rotation or pivot right so
+that's<00:04:27.520> it<00:04:27.730> for<00:04:27.940> that<00:04:27.970> now<00:04:28.630> what<00:04:28.870> do<00:04:28.930> we<00:04:29.020> want
+
+00:04:29.190 --> 00:04:29.200 
+that's it for that now what do we want
+
+00:04:29.200 --> 00:04:31.350 
+that's it for that now what do we want
+to<00:04:29.290> do<00:04:29.380> well<00:04:29.700> now<00:04:30.700> that<00:04:30.850> we've<00:04:30.940> done<00:04:31.120> that<00:04:31.300> we
+
+00:04:31.350 --> 00:04:31.360 
+to do well now that we've done that we
+
+00:04:31.360 --> 00:04:35.960 
+to do well now that we've done that we
+want<00:04:31.720> some<00:04:32.140> way<00:04:32.170> to<00:04:32.440> be<00:04:33.250> able<00:04:33.970> to<00:04:34.060> control<00:04:34.600> our
+
+00:04:35.960 --> 00:04:35.970 
+want some way to be able to control our
+
+00:04:35.970 --> 00:04:38.330 
+want some way to be able to control our
+car<00:04:36.970> so<00:04:37.450> you<00:04:37.540> don't<00:04:37.660> want<00:04:37.780> to<00:04:37.870> have<00:04:37.990> to<00:04:38.110> like
+
+00:04:38.330 --> 00:04:38.340 
+car so you don't want to have to like
+
+00:04:38.340 --> 00:04:40.200 
+car so you don't want to have to like
+pre-program<00:04:39.340> the<00:04:39.490> car<00:04:39.700> now<00:04:39.850> there's<00:04:40.030> a<00:04:40.090> few
+
+00:04:40.200 --> 00:04:40.210 
+pre-program the car now there's a few
+
+00:04:40.210 --> 00:04:41.580 
+pre-program the car now there's a few
+ways<00:04:40.420> that<00:04:40.450> you<00:04:40.600> can<00:04:40.780> do<00:04:40.870> this<00:04:41.050> either<00:04:41.170> you<00:04:41.440> can
+
+00:04:41.580 --> 00:04:41.590 
+ways that you can do this either you can
+
+00:04:41.590 --> 00:04:44.880 
+ways that you can do this either you can
+allow<00:04:41.860> the<00:04:42.180> robot<00:04:43.180> to<00:04:43.330> accept<00:04:43.930> controls<00:04:44.530> from
+
+00:04:44.880 --> 00:04:44.890 
+allow the robot to accept controls from
+
+00:04:44.890 --> 00:04:46.890 
+allow the robot to accept controls from
+you<00:04:45.070> the<00:04:45.250> user<00:04:45.460> or<00:04:46.030> you<00:04:46.180> can<00:04:46.330> make<00:04:46.450> the<00:04:46.570> robot
+
+00:04:46.890 --> 00:04:46.900 
+you the user or you can make the robot
+
+00:04:46.900 --> 00:04:49.140 
+you the user or you can make the robot
+somewhat<00:04:47.260> autonomous<00:04:47.680> now<00:04:48.580> the<00:04:48.640> problem
+
+00:04:49.140 --> 00:04:49.150 
+somewhat autonomous now the problem
+
+00:04:49.150 --> 00:04:51.000 
+somewhat autonomous now the problem
+right<00:04:49.300> now<00:04:49.360> with<00:04:49.540> our<00:04:49.810> little<00:04:50.080> car<00:04:50.290> is<00:04:50.560> we
+
+00:04:51.000 --> 00:04:51.010 
+right now with our little car is we
+
+00:04:51.010 --> 00:04:52.650 
+right now with our little car is we
+don't<00:04:51.070> have<00:04:51.220> any<00:04:51.370> sort<00:04:51.610> of<00:04:51.670> real<00:04:51.880> sensor<00:04:52.360> to
+
+00:04:52.650 --> 00:04:52.660 
+don't have any sort of real sensor to
+
+00:04:52.660 --> 00:04:55.860 
+don't have any sort of real sensor to
+sense<00:04:52.690> when<00:04:53.200> anything<00:04:54.100> is<00:04:54.220> happening<00:04:54.640> so<00:04:55.150> we
+
+00:04:55.860 --> 00:04:55.870 
+sense when anything is happening so we
+
+00:04:55.870 --> 00:04:58.230 
+sense when anything is happening so we
+can't<00:04:56.050> really<00:04:56.200> make<00:04:56.290> it<00:04:56.530> autonomous<00:04:57.190> just<00:04:57.760> yet
+
+00:04:58.230 --> 00:04:58.240 
+can't really make it autonomous just yet
+
+00:04:58.240 --> 00:05:00.300 
+can't really make it autonomous just yet
+so<00:04:58.270> first<00:04:59.050> we<00:04:59.169> want<00:04:59.350> to<00:04:59.380> make<00:04:59.500> it<00:04:59.650> controllable
+
+00:05:00.300 --> 00:05:00.310 
+so first we want to make it controllable
+
+00:05:00.310 --> 00:05:02.340 
+so first we want to make it controllable
+and<00:05:00.490> even<00:05:01.030> if<00:05:01.150> you<00:05:01.240> made<00:05:01.540> it<00:05:01.570> autonomous<00:05:02.230> you
+
+00:05:02.340 --> 00:05:02.350 
+and even if you made it autonomous you
+
+00:05:02.350 --> 00:05:03.420 
+and even if you made it autonomous you
+want<00:05:02.530> it<00:05:02.620> you<00:05:02.710> would<00:05:02.830> want<00:05:02.860> to<00:05:03.070> kind<00:05:03.370> of
+
+00:05:03.420 --> 00:05:03.430 
+want it you would want to kind of
+
+00:05:03.430 --> 00:05:05.730 
+want it you would want to kind of
+eventually<00:05:04.150> have<00:05:04.419> some<00:05:04.690> sort<00:05:04.900> of<00:05:04.990> control<00:05:05.560> to
+
+00:05:05.730 --> 00:05:05.740 
+eventually have some sort of control to
+
+00:05:05.740 --> 00:05:09.000 
+eventually have some sort of control to
+it<00:05:05.890> as<00:05:06.669> a<00:05:06.730> sort<00:05:07.150> of<00:05:07.180> failsafe<00:05:07.419> if<00:05:07.870> anything<00:05:08.290> so
+
+00:05:09.000 --> 00:05:09.010 
+it as a sort of failsafe if anything so
+
+00:05:09.010 --> 00:05:10.470 
+it as a sort of failsafe if anything so
+what<00:05:09.669> we're<00:05:09.760> going<00:05:09.850> to<00:05:09.910> be<00:05:10.000> doing<00:05:10.120> in<00:05:10.240> the<00:05:10.300> next
+
+00:05:10.470 --> 00:05:10.480 
+what we're going to be doing in the next
+
+00:05:10.480 --> 00:05:11.790 
+what we're going to be doing in the next
+video<00:05:10.690> is<00:05:10.840> actually<00:05:11.200> working<00:05:11.440> with<00:05:11.740> some
+
+00:05:11.790 --> 00:05:11.800 
+video is actually working with some
+
+00:05:11.800 --> 00:05:15.840 
+video is actually working with some
+input<00:05:12.610> that<00:05:12.880> we<00:05:13.090> can<00:05:13.270> give<00:05:13.530> to<00:05:14.530> this<00:05:15.010> robot<00:05:15.220> to
+
+00:05:15.840 --> 00:05:15.850 
+input that we can give to this robot to
+
+00:05:15.850 --> 00:05:17.790 
+input that we can give to this robot to
+use<00:05:16.060> our<00:05:16.390> functions<00:05:16.930> however<00:05:17.320> we<00:05:17.560> see<00:05:17.770> fit
+
+00:05:17.790 --> 00:05:17.800 
+use our functions however we see fit
+
+00:05:17.800 --> 00:05:19.320 
+use our functions however we see fit
+that<00:05:18.220> way<00:05:18.370> we'd<00:05:18.520> have<00:05:18.700> to<00:05:18.790> pre-program
+
+00:05:19.320 --> 00:05:19.330 
+that way we'd have to pre-program
+
+00:05:19.330 --> 00:05:21.510 
+that way we'd have to pre-program
+anything<00:05:19.720> so<00:05:20.470> that's<00:05:20.919> what<00:05:21.070> you<00:05:21.160> have<00:05:21.250> to<00:05:21.280> look
+
+00:05:21.510 --> 00:05:21.520 
+anything so that's what you have to look
+
+00:05:21.520 --> 00:05:22.650 
+anything so that's what you have to look
+forward<00:05:21.730> to<00:05:21.910> hopefully<00:05:22.180> you<00:05:22.360> guys<00:05:22.450> are
+
+00:05:22.650 --> 00:05:22.660 
+forward to hopefully you guys are
+
+00:05:22.660 --> 00:05:23.850 
+forward to hopefully you guys are
+enjoying<00:05:22.930> if<00:05:23.110> you<00:05:23.200> have<00:05:23.290> any<00:05:23.410> questions<00:05:23.740> or
+
+00:05:23.850 --> 00:05:23.860 
+enjoying if you have any questions or
+
+00:05:23.860 --> 00:05:24.810 
+enjoying if you have any questions or
+comments<00:05:24.190> feel<00:05:24.310> free<00:05:24.370> to<00:05:24.520> leave<00:05:24.580> them<00:05:24.760> below
+
+00:05:24.810 --> 00:05:24.820 
+comments feel free to leave them below
+
+00:05:24.820 --> 00:05:26.880 
+comments feel free to leave them below
+as<00:05:25.300> always<00:05:26.050> thanks<00:05:26.260> for<00:05:26.290> watching<00:05:26.410> thanks<00:05:26.710> for
+
+00:05:26.880 --> 00:05:26.890 
+as always thanks for watching thanks for
+
+00:05:26.890 --> 00:05:28.230 
+as always thanks for watching thanks for
+all<00:05:27.040> the<00:05:27.130> support<00:05:27.370> and<00:05:27.400> subscriptions<00:05:27.970> and
+
+00:05:28.230 --> 00:05:28.240 
+all the support and subscriptions and
+
+00:05:28.240 --> 00:05:31.650 
+all the support and subscriptions and
+until<00:05:28.630> the<00:05:28.960> next<00:05:28.990> video
+

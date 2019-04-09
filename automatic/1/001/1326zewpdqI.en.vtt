@@ -1,0 +1,1077 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.100 --> 00:00:11.110 
+
+you
+
+00:00:11.110 --> 00:00:11.120 
+
+00:00:11.120 --> 00:00:13.459 
+
+along<00:00:12.120> my<00:00:12.269> comments<00:00:12.719> today<00:00:12.780> I'm<00:00:12.990> going<00:00:13.230> to<00:00:13.349> be
+
+00:00:13.459 --> 00:00:13.469 
+along my comments today I'm going to be
+
+00:00:13.469 --> 00:00:15.080 
+along my comments today I'm going to be
+showing<00:00:13.740> you<00:00:13.889> how<00:00:13.920> to<00:00:14.070> set<00:00:14.549> up<00:00:14.580> an<00:00:14.789> Apache
+
+00:00:15.080 --> 00:00:15.090 
+showing you how to set up an Apache
+
+00:00:15.090 --> 00:00:17.540 
+showing you how to set up an Apache
+server<00:00:15.510> so<00:00:16.170> will<00:00:16.320> be<00:00:16.439> accessible<00:00:17.070> to<00:00:17.340> you<00:00:17.520> and
+
+00:00:17.540 --> 00:00:17.550 
+server so will be accessible to you and
+
+00:00:17.550 --> 00:00:20.540 
+server so will be accessible to you and
+other<00:00:18.090> people<00:00:18.599> around<00:00:18.810> the<00:00:19.230> world<00:00:19.470> now<00:00:20.250> first
+
+00:00:20.540 --> 00:00:20.550 
+other people around the world now first
+
+00:00:20.550 --> 00:00:23.330 
+other people around the world now first
+of<00:00:20.669> all<00:00:20.759> you<00:00:20.820> have<00:00:21.329> to<00:00:21.660> have<00:00:21.930> to<00:00:22.619> port<00:00:22.980> forward
+
+00:00:23.330 --> 00:00:23.340 
+of all you have to have to port forward
+
+00:00:23.340 --> 00:00:26.480 
+of all you have to have to port forward
+your<00:00:23.789> router<00:00:24.060> or<00:00:24.570> modem<00:00:24.920> or<00:00:25.920> whatever<00:00:26.340> you
+
+00:00:26.480 --> 00:00:26.490 
+your router or modem or whatever you
+
+00:00:26.490 --> 00:00:28.910 
+your router or modem or whatever you
+using<00:00:26.880> now<00:00:27.300> you<00:00:27.359> don't<00:00:27.720> port<00:00:28.019> forward<00:00:28.439> then
+
+00:00:28.910 --> 00:00:28.920 
+using now you don't port forward then
+
+00:00:28.920 --> 00:00:31.249 
+using now you don't port forward then
+you<00:00:29.039> won't<00:00:29.279> be<00:00:29.400> able<00:00:29.519> to<00:00:29.939> do<00:00:30.060> it<00:00:30.210> now<00:00:30.840> the<00:00:30.900> port
+
+00:00:31.249 --> 00:00:31.259 
+you won't be able to do it now the port
+
+00:00:31.259 --> 00:00:33.680 
+you won't be able to do it now the port
+you<00:00:31.410> need<00:00:31.619> to<00:00:31.740> port<00:00:31.949> forward<00:00:32.189> is<00:00:32.369> 80<00:00:32.879> even<00:00:33.449> and
+
+00:00:33.680 --> 00:00:33.690 
+you need to port forward is 80 even and
+
+00:00:33.690 --> 00:00:36.680 
+you need to port forward is 80 even and
+that's<00:00:34.080> their<00:00:34.290> HTTP<00:00:35.220> port<00:00:35.510> obviously<00:00:36.510> as<00:00:36.660> I
+
+00:00:36.680 --> 00:00:36.690 
+that's their HTTP port obviously as I
+
+00:00:36.690 --> 00:00:39.020 
+that's their HTTP port obviously as I
+said<00:00:37.019> we<00:00:37.260> don't<00:00:37.470> do<00:00:37.650> that<00:00:37.920> then<00:00:38.400> it<00:00:38.580> will<00:00:38.820> be
+
+00:00:39.020 --> 00:00:39.030 
+said we don't do that then it will be
+
+00:00:39.030 --> 00:00:41.869 
+said we don't do that then it will be
+only<00:00:39.120> accessible<00:00:39.750> to<00:00:40.019> you<00:00:40.379> so<00:00:41.339> first<00:00:41.610> of<00:00:41.760> all
+
+00:00:41.869 --> 00:00:41.879 
+only accessible to you so first of all
+
+00:00:41.879 --> 00:00:44.900 
+only accessible to you so first of all
+we<00:00:42.090> have<00:00:42.329> to<00:00:42.570> download<00:00:43.309> Apache<00:00:44.309> as<00:00:44.670> you<00:00:44.789> can
+
+00:00:44.900 --> 00:00:44.910 
+we have to download Apache as you can
+
+00:00:44.910 --> 00:00:46.279 
+we have to download Apache as you can
+see<00:00:45.090> well<00:00:45.360> obviously<00:00:45.809> once<00:00:45.989> you<00:00:46.110> pull
+
+00:00:46.279 --> 00:00:46.289 
+see well obviously once you pull
+
+00:00:46.289 --> 00:00:48.290 
+see well obviously once you pull
+forwarded<00:00:46.770> and<00:00:47.250> we'll<00:00:47.460> be<00:00:47.610> ready<00:00:47.850> to<00:00:47.940> set<00:00:48.270> up
+
+00:00:48.290 --> 00:00:48.300 
+forwarded and we'll be ready to set up
+
+00:00:48.300 --> 00:00:51.529 
+forwarded and we'll be ready to set up
+Apache<00:00:49.010> so<00:00:50.010> basically<00:00:50.670> just<00:00:50.789> go<00:00:51.120> on<00:00:51.180> this<00:00:51.329> link
+
+00:00:51.529 --> 00:00:51.539 
+Apache so basically just go on this link
+
+00:00:51.539 --> 00:00:53.900 
+Apache so basically just go on this link
+it<00:00:51.719> will<00:00:51.809> be<00:00:52.289> in<00:00:52.379> the<00:00:52.469> description<00:00:53.039> and<00:00:53.219> you'll
+
+00:00:53.900 --> 00:00:53.910 
+it will be in the description and you'll
+
+00:00:53.910 --> 00:00:55.849 
+it will be in the description and you'll
+download<00:00:54.120> you<00:00:54.660> want<00:00:54.840> to<00:00:54.930> download<00:00:55.320> a<00:00:55.350> stable
+
+00:00:55.849 --> 00:00:55.859 
+download you want to download a stable
+
+00:00:55.859 --> 00:00:58.849 
+download you want to download a stable
+release<00:00:56.190> to<00:00:56.520> point<00:00:56.760> to<00:00:56.969> point<00:00:57.000> 19<00:00:57.719> and<00:00:58.050> then
+
+00:00:58.849 --> 00:00:58.859 
+release to point to point 19 and then
+
+00:00:58.859 --> 00:01:01.220 
+release to point to point 19 and then
+you<00:00:59.039> want<00:00:59.190> to<00:00:59.280> download<00:00:59.399> Windows<00:00:59.989> prefer<00:01:00.989> to
+
+00:01:01.220 --> 00:01:01.230 
+you want to download Windows prefer to
+
+00:01:01.230 --> 00:01:04.639 
+you want to download Windows prefer to
+binary<00:01:01.590> including<00:01:02.489> open<00:01:03.449> SSL<00:01:03.930> MSI<00:01:04.470> installer
+
+00:01:04.639 --> 00:01:04.649 
+binary including open SSL MSI installer
+
+00:01:04.649 --> 00:01:07.880 
+binary including open SSL MSI installer
+so<00:01:05.190> go<00:01:05.339> ahead<00:01:05.700> and<00:01:05.910> open<00:01:06.539> that<00:01:06.810> and<00:01:07.259> download
+
+00:01:07.880 --> 00:01:07.890 
+so go ahead and open that and download
+
+00:01:07.890 --> 00:01:10.850 
+so go ahead and open that and download
+it<00:01:08.600> now<00:01:09.600> since<00:01:09.960> I've<00:01:10.080> already<00:01:10.350> downloaded<00:01:10.500> it
+
+00:01:10.850 --> 00:01:10.860 
+it now since I've already downloaded it
+
+00:01:10.860 --> 00:01:13.219 
+it now since I've already downloaded it
+I<00:01:11.039> don't<00:01:11.280> even<00:01:11.429> need<00:01:11.610> to<00:01:11.789> do<00:01:11.910> it<00:01:12.030> again<00:01:12.240> so<00:01:12.479> go
+
+00:01:13.219 --> 00:01:13.229 
+I don't even need to do it again so go
+
+00:01:13.229 --> 00:01:16.039 
+I don't even need to do it again so go
+ahead<00:01:13.380> and<00:01:13.530> install<00:01:13.890> it<00:01:14.270> so<00:01:15.270> I'm<00:01:15.659> just<00:01:15.869> going
+
+00:01:16.039 --> 00:01:16.049 
+ahead and install it so I'm just going
+
+00:01:16.049 --> 00:01:19.190 
+ahead and install it so I'm just going
+to<00:01:16.080> install<00:01:16.259> it<00:01:16.560> here<00:01:17.119> click<00:01:18.119> Next<00:01:18.630> alright
+
+00:01:19.190 --> 00:01:19.200 
+to install it here click Next alright
+
+00:01:19.200 --> 00:01:23.179 
+to install it here click Next alright
+set<00:01:19.759> Next<00:01:20.759> Next<00:01:21.540> now<00:01:21.900> here<00:01:22.200> you<00:01:22.740> want<00:01:22.920> to<00:01:23.009> type
+
+00:01:23.179 --> 00:01:23.189 
+set Next Next now here you want to type
+
+00:01:23.189 --> 00:01:28.039 
+set Next Next now here you want to type
+localhost<00:01:24.799> local<00:01:25.799> host<00:01:26.490> and<00:01:27.420> here<00:01:27.630> you<00:01:27.810> put
+
+00:01:28.039 --> 00:01:28.049 
+localhost local host and here you put
+
+00:01:28.049 --> 00:01:29.539 
+localhost local host and here you put
+your<00:01:28.079> email<00:01:28.320> you<00:01:28.710> can<00:01:28.740> put<00:01:29.009> anything<00:01:29.220> you<00:01:29.520> want
+
+00:01:29.539 --> 00:01:29.549 
+your email you can put anything you want
+
+00:01:29.549 --> 00:01:34.760 
+your email you can put anything you want
+you<00:01:29.850> know<00:01:30.590> yeah<00:01:31.820> okay<00:01:32.820> and<00:01:33.030> then<00:01:33.930> click<00:01:34.200> Next
+
+00:01:34.760 --> 00:01:34.770 
+you know yeah okay and then click Next
+
+00:01:34.770 --> 00:01:37.280 
+you know yeah okay and then click Next
+and<00:01:34.970> then<00:01:35.970> you<00:01:36.090> want<00:01:36.210> to<00:01:36.270> select<00:01:36.420> typical<00:01:37.049> and
+
+00:01:37.280 --> 00:01:37.290 
+and then you want to select typical and
+
+00:01:37.290 --> 00:01:41.600 
+and then you want to select typical and
+click<00:01:37.950> Next<00:01:38.460> and<00:01:38.640> then<00:01:39.079> let<00:01:40.079> it<00:01:40.229> install<00:01:40.610> and
+
+00:01:41.600 --> 00:01:41.610 
+click Next and then let it install and
+
+00:01:41.610 --> 00:01:43.370 
+click Next and then let it install and
+I'll<00:01:41.700> just<00:01:41.880> pause<00:01:42.149> the<00:01:42.329> video<00:01:42.600> so<00:01:42.990> you<00:01:43.020> don't
+
+00:01:43.370 --> 00:01:43.380 
+I'll just pause the video so you don't
+
+00:01:43.380 --> 00:01:46.280 
+I'll just pause the video so you don't
+have<00:01:43.470> to<00:01:43.619> watch<00:01:43.799> it<00:01:44.070> now<00:01:44.540> you<00:01:45.540> may<00:01:45.840> see<00:01:45.899> these
+
+00:01:46.280 --> 00:01:46.290 
+have to watch it now you may see these
+
+00:01:46.290 --> 00:01:48.050 
+have to watch it now you may see these
+command<00:01:46.740> prompt<00:01:47.070> windows<00:01:47.399> but<00:01:47.670> just<00:01:47.880> ignore
+
+00:01:48.050 --> 00:01:48.060 
+command prompt windows but just ignore
+
+00:01:48.060 --> 00:01:53.090 
+command prompt windows but just ignore
+them<00:01:49.670> so<00:01:50.670> um<00:01:50.939> here<00:01:51.450> as<00:01:51.600> you<00:01:51.720> can<00:01:51.750> see<00:01:51.979> now<00:01:52.979> if
+
+00:01:53.090 --> 00:01:53.100 
+them so um here as you can see now if
+
+00:01:53.100 --> 00:01:54.800 
+them so um here as you can see now if
+you<00:01:53.189> get<00:01:53.369> this<00:01:53.460> error<00:01:53.729> message<00:01:53.880> just<00:01:54.570> click
+
+00:01:54.800 --> 00:01:54.810 
+you get this error message just click
+
+00:01:54.810 --> 00:01:55.429 
+you get this error message just click
+escape
+
+00:01:55.429 --> 00:01:55.439 
+escape
+
+00:01:55.439 --> 00:01:57.440 
+escape
+it's<00:01:55.799> just<00:01:56.159> shown<00:01:56.490> as<00:01:56.670> a<00:01:56.700> problem<00:01:57.060> of<00:01:57.149> the<00:01:57.270> IP
+
+00:01:57.440 --> 00:01:57.450 
+it's just shown as a problem of the IP
+
+00:01:57.450 --> 00:01:59.630 
+it's just shown as a problem of the IP
+but<00:01:57.810> we'll<00:01:57.990> wait<00:01:58.259> we<00:01:58.740> will<00:01:58.950> fix<00:01:59.189> that<00:01:59.430> so<00:01:59.610> just
+
+00:01:59.630 --> 00:01:59.640 
+but we'll wait we will fix that so just
+
+00:01:59.640 --> 00:02:03.200 
+but we'll wait we will fix that so just
+click<00:01:59.939> escape<00:02:00.329> and<00:02:00.979> here<00:02:01.979> just<00:02:02.340> click<00:02:02.820> escape
+
+00:02:03.200 --> 00:02:03.210 
+click escape and here just click escape
+
+00:02:03.210 --> 00:02:04.490 
+click escape and here just click escape
+there<00:02:04.079> we<00:02:04.170> go
+
+00:02:04.490 --> 00:02:04.500 
+there we go
+
+00:02:04.500 --> 00:02:07.310 
+there we go
+now<00:02:04.979> once<00:02:05.219> the<00:02:05.689> installation<00:02:06.689> finished<00:02:07.079> we
+
+00:02:07.310 --> 00:02:07.320 
+now once the installation finished we
+
+00:02:07.320 --> 00:02:09.560 
+now once the installation finished we
+need<00:02:07.560> to<00:02:07.770> configure<00:02:08.280> the<00:02:08.610> Windows<00:02:09.269> Firewall
+
+00:02:09.560 --> 00:02:09.570 
+need to configure the Windows Firewall
+
+00:02:09.570 --> 00:02:13.009 
+need to configure the Windows Firewall
+and<00:02:10.070> we<00:02:11.070> need<00:02:11.280> to<00:02:11.430> configure<00:02:11.820> some<00:02:12.120> Apache
+
+00:02:13.009 --> 00:02:13.019 
+and we need to configure some Apache
+
+00:02:13.019 --> 00:02:15.860 
+and we need to configure some Apache
+files<00:02:13.350> so<00:02:14.160> I'm<00:02:14.370> go<00:02:14.880> ahead<00:02:14.910> and<00:02:15.239> go<00:02:15.390> to<00:02:15.420> your<00:02:15.660> C
+
+00:02:15.860 --> 00:02:15.870 
+files so I'm go ahead and go to your C
+
+00:02:15.870 --> 00:02:16.190 
+files so I'm go ahead and go to your C
+Drive
+
+00:02:16.190 --> 00:02:16.200 
+Drive
+
+00:02:16.200 --> 00:02:19.580 
+Drive
+as<00:02:17.100> you<00:02:17.220> can<00:02:17.340> see<00:02:17.519> local<00:02:17.880> disk<00:02:18.060> C<00:02:18.269> now<00:02:19.260> you<00:02:19.320> want
+
+00:02:19.580 --> 00:02:19.590 
+as you can see local disk C now you want
+
+00:02:19.590 --> 00:02:21.530 
+as you can see local disk C now you want
+to<00:02:19.680> go<00:02:19.829> on<00:02:19.919> program<00:02:20.400> files<00:02:20.430> now<00:02:21.000> if<00:02:21.180> you<00:02:21.329> on
+
+00:02:21.530 --> 00:02:21.540 
+to go on program files now if you on
+
+00:02:21.540 --> 00:02:23.030 
+to go on program files now if you on
+64-bit<00:02:22.139> then
+
+00:02:23.030 --> 00:02:23.040 
+64-bit then
+
+00:02:23.040 --> 00:02:25.339 
+64-bit then
+go<00:02:23.129> into<00:02:23.400> this<00:02:23.519> folder<00:02:24.060> as<00:02:24.120> you<00:02:24.209> can<00:02:24.329> see<00:02:24.510> x86
+
+00:02:25.339 --> 00:02:25.349 
+go into this folder as you can see x86
+
+00:02:25.349 --> 00:02:27.589 
+go into this folder as you can see x86
+if<00:02:25.950> you<00:02:26.129> run<00:02:26.219> fo<00:02:26.400> two-bit<00:02:26.909> then<00:02:27.060> just<00:02:27.269> go<00:02:27.420> ahead
+
+00:02:27.589 --> 00:02:27.599 
+if you run fo two-bit then just go ahead
+
+00:02:27.599 --> 00:02:30.050 
+if you run fo two-bit then just go ahead
+and<00:02:27.750> go<00:02:27.900> on<00:02:27.930> program<00:02:28.439> folds<00:02:28.859> so<00:02:29.010> I'm<00:02:29.849> just
+
+00:02:30.050 --> 00:02:30.060 
+and go on program folds so I'm just
+
+00:02:30.060 --> 00:02:31.670 
+and go on program folds so I'm just
+going<00:02:30.299> program<00:02:30.810> files<00:02:31.019> and<00:02:31.290> then<00:02:31.409> go<00:02:31.620> on
+
+00:02:31.670 --> 00:02:31.680 
+going program files and then go on
+
+00:02:31.680 --> 00:02:35.089 
+going program files and then go on
+Apache<00:02:32.040> Software<00:02:32.489> Foundation<00:02:33.739> app<00:02:34.739> actually
+
+00:02:35.089 --> 00:02:35.099 
+Apache Software Foundation app actually
+
+00:02:35.099 --> 00:02:39.289 
+Apache Software Foundation app actually
+tip<00:02:35.250> 1<00:02:35.430> to<00:02:36.349> heroes<00:02:37.349> it's<00:02:37.530> config<00:02:38.010> and<00:02:38.189> you<00:02:39.120> want
+
+00:02:39.289 --> 00:02:39.299 
+tip 1 to heroes it's config and you want
+
+00:02:39.299 --> 00:02:43.220 
+tip 1 to heroes it's config and you want
+to<00:02:39.390> go<00:02:39.480> into<00:02:39.629> this<00:02:39.810> text<00:02:40.230> document<00:02:41.000> httpd<00:02:42.230> just
+
+00:02:43.220 --> 00:02:43.230 
+to go into this text document httpd just
+
+00:02:43.230 --> 00:02:45.949 
+to go into this text document httpd just
+open<00:02:43.560> that<00:02:44.000> now<00:02:45.000> here<00:02:45.239> you<00:02:45.480> want<00:02:45.629> to<00:02:45.689> scroll
+
+00:02:45.949 --> 00:02:45.959 
+open that now here you want to scroll
+
+00:02:45.959 --> 00:02:48.440 
+open that now here you want to scroll
+down<00:02:45.989> just<00:02:46.200> a<00:02:46.500> little<00:02:46.560> bit<00:02:47.000> you<00:02:48.000> can<00:02:48.120> see<00:02:48.299> here
+
+00:02:48.440 --> 00:02:48.450 
+down just a little bit you can see here
+
+00:02:48.450 --> 00:02:50.449 
+down just a little bit you can see here
+where<00:02:48.689> it<00:02:48.780> says<00:02:48.810> listen<00:02:49.170> now<00:02:49.889> you<00:02:49.950> want<00:02:50.220> to<00:02:50.280> put
+
+00:02:50.449 --> 00:02:50.459 
+where it says listen now you want to put
+
+00:02:50.459 --> 00:02:53.119 
+where it says listen now you want to put
+your<00:02:50.579> ipv4<00:02:51.150> address<00:02:52.049> in<00:02:52.230> there<00:02:52.469> now<00:02:52.680> to<00:02:52.739> find
+
+00:02:53.119 --> 00:02:53.129 
+your ipv4 address in there now to find
+
+00:02:53.129 --> 00:02:55.819 
+your ipv4 address in there now to find
+out<00:02:53.250> your<00:02:53.450> ipv4<00:02:54.450> address<00:02:54.840> you<00:02:55.439> want<00:02:55.500> to<00:02:55.650> go<00:02:55.739> on
+
+00:02:55.819 --> 00:02:55.829 
+out your ipv4 address you want to go on
+
+00:02:55.829 --> 00:02:58.250 
+out your ipv4 address you want to go on
+command<00:02:56.189> prompt<00:02:56.579> so<00:02:57.120> just<00:02:57.329> type<00:02:57.510> CMD<00:02:58.019> in<00:02:58.049> this
+
+00:02:58.250 --> 00:02:58.260 
+command prompt so just type CMD in this
+
+00:02:58.260 --> 00:03:02.300 
+command prompt so just type CMD in this
+little<00:02:58.530> search<00:02:58.709> area<00:03:00.169> learn<00:03:01.169> app<00:03:01.379> and<00:03:01.620> you
+
+00:03:02.300 --> 00:03:02.310 
+little search area learn app and you
+
+00:03:02.310 --> 00:03:05.720 
+little search area learn app and you
+will<00:03:02.430> know<00:03:02.549> type<00:03:02.760> in<00:03:02.939> IP<00:03:03.290> config<00:03:04.290> as<00:03:04.579> you<00:03:05.579> can
+
+00:03:05.720 --> 00:03:05.730 
+will know type in IP config as you can
+
+00:03:05.730 --> 00:03:08.300 
+will know type in IP config as you can
+see<00:03:05.939> ipv4<00:03:06.780> address<00:03:07.109> you<00:03:07.409> want<00:03:07.500> to<00:03:07.620> put<00:03:07.799> this<00:03:08.010> in
+
+00:03:08.300 --> 00:03:08.310 
+see ipv4 address you want to put this in
+
+00:03:08.310 --> 00:03:14.559 
+see ipv4 address you want to put this in
+there<00:03:08.760> so<00:03:08.989> I'm<00:03:09.989> going<00:03:10.139> to<00:03:10.200> type<00:03:10.379> mining<00:03:10.769> one<00:03:11.069> on
+
+00:03:14.559 --> 00:03:14.569 
+
+00:03:14.569 --> 00:03:18.409 
+
+192.168.0<00:03:15.569> free<00:03:16.379> I<00:03:16.590> mean<00:03:17.220> not<00:03:17.400> one<00:03:17.609> free<00:03:18.090> and
+
+00:03:18.409 --> 00:03:18.419 
+192.168.0 free I mean not one free and
+
+00:03:18.419 --> 00:03:22.399 
+192.168.0 free I mean not one free and
+at<00:03:18.810> the<00:03:18.930> end<00:03:19.109> you<00:03:19.260> wanna<00:03:19.439> put<00:03:19.620> :<00:03:20.069> 80<00:03:20.959> as<00:03:21.959> you<00:03:22.169> may
+
+00:03:22.399 --> 00:03:22.409 
+at the end you wanna put : 80 as you may
+
+00:03:22.409 --> 00:03:25.429 
+at the end you wanna put : 80 as you may
+realize<00:03:23.280> that<00:03:23.730> we<00:03:23.879> brought<00:03:24.120> forward<00:03:24.329> 80<00:03:24.689> and
+
+00:03:25.429 --> 00:03:25.439 
+realize that we brought forward 80 and
+
+00:03:25.439 --> 00:03:28.869 
+realize that we brought forward 80 and
+the<00:03:26.250> Apache<00:03:26.879> needs<00:03:27.239> to<00:03:27.419> listen<00:03:27.599> to<00:03:27.959> port<00:03:28.229> 80<00:03:28.440> so
+
+00:03:28.869 --> 00:03:28.879 
+the Apache needs to listen to port 80 so
+
+00:03:28.879 --> 00:03:32.509 
+the Apache needs to listen to port 80 so
+people<00:03:29.879> can<00:03:30.030> access<00:03:30.209> it<00:03:30.599> so<00:03:30.629> them<00:03:31.519> basically
+
+00:03:32.509 --> 00:03:32.519 
+people can access it so them basically
+
+00:03:32.519 --> 00:03:35.000 
+people can access it so them basically
+all<00:03:33.090> you<00:03:33.180> have<00:03:33.209> to<00:03:33.359> do<00:03:33.479> is<00:03:33.810> this<00:03:34.229> as<00:03:34.470> I<00:03:34.739> already
+
+00:03:35.000 --> 00:03:35.010 
+all you have to do is this as I already
+
+00:03:35.010 --> 00:03:37.490 
+all you have to do is this as I already
+explained<00:03:35.549> and<00:03:36.239> once<00:03:36.419> you<00:03:36.540> turn<00:03:36.659> this<00:03:36.930> you
+
+00:03:37.490 --> 00:03:37.500 
+explained and once you turn this you
+
+00:03:37.500 --> 00:03:40.430 
+explained and once you turn this you
+want<00:03:37.680> to<00:03:37.739> click<00:03:37.889> Save<00:03:38.220> and<00:03:38.519> in<00:03:39.440> configuration
+
+00:03:40.430 --> 00:03:40.440 
+want to click Save and in configuration
+
+00:03:40.440 --> 00:03:44.089 
+want to click Save and in configuration
+is<00:03:40.560> done<00:03:41.540> now<00:03:42.540> we<00:03:42.599> will<00:03:43.019> need<00:03:43.290> to<00:03:43.560> configure
+
+00:03:44.089 --> 00:03:44.099 
+is done now we will need to configure
+
+00:03:44.099 --> 00:03:47.030 
+is done now we will need to configure
+our<00:03:44.459> Windows<00:03:45.209> File<00:03:45.540> also<00:03:45.959> go<00:03:46.620> on<00:03:46.680> Windows
+
+00:03:47.030 --> 00:03:47.040 
+our Windows File also go on Windows
+
+00:03:47.040 --> 00:03:52.339 
+our Windows File also go on Windows
+Firewall<00:03:47.750> you<00:03:48.750> can<00:03:48.900> see<00:03:49.109> there<00:03:49.530> is<00:03:50.269> and<00:03:51.349> you
+
+00:03:52.339 --> 00:03:52.349 
+Firewall you can see there is and you
+
+00:03:52.349 --> 00:03:54.860 
+Firewall you can see there is and you
+want<00:03:52.530> to<00:03:52.739> go<00:03:53.040> on<00:03:53.340> allow<00:03:54.030> our<00:03:54.180> program<00:03:54.690> or
+
+00:03:54.860 --> 00:03:54.870 
+want to go on allow our program or
+
+00:03:54.870 --> 00:03:58.369 
+want to go on allow our program or
+feature<00:03:55.109> through<00:03:55.530> Windows<00:03:55.560> Firewall<00:03:56.340> and<00:03:57.379> in
+
+00:03:58.369 --> 00:03:58.379 
+feature through Windows Firewall and in
+
+00:03:58.379 --> 00:04:00.199 
+feature through Windows Firewall and in
+this<00:03:58.530> window<00:03:58.739> should<00:03:59.099> come<00:03:59.280> up<00:03:59.400> and<00:03:59.970> as<00:04:00.120> you
+
+00:04:00.199 --> 00:04:00.209 
+this window should come up and as you
+
+00:04:00.209 --> 00:04:03.080 
+this window should come up and as you
+can<00:04:00.299> see<00:04:00.510> I<00:04:00.540> already<00:04:01.109> added<00:04:01.319> a<00:04:01.680> patchy<00:04:02.489> but<00:04:02.699> you
+
+00:04:03.080 --> 00:04:03.090 
+can see I already added a patchy but you
+
+00:04:03.090 --> 00:04:04.939 
+can see I already added a patchy but you
+will<00:04:03.239> need<00:04:03.389> to<00:04:03.540> edit<00:04:03.720> yourself<00:04:03.959> if<00:04:04.440> you<00:04:04.590> didn't
+
+00:04:04.939 --> 00:04:04.949 
+will need to edit yourself if you didn't
+
+00:04:04.949 --> 00:04:06.469 
+will need to edit yourself if you didn't
+if<00:04:05.040> you<00:04:05.280> installed<00:04:05.699> it<00:04:05.819> for<00:04:05.849> the<00:04:06.030> first<00:04:06.239> time
+
+00:04:06.469 --> 00:04:06.479 
+if you installed it for the first time
+
+00:04:06.479 --> 00:04:09.589 
+if you installed it for the first time
+so<00:04:06.810> I'm<00:04:07.260> just<00:04:07.530> going<00:04:07.709> to<00:04:07.739> remove<00:04:08.040> this<00:04:08.340> as<00:04:08.639> if<00:04:09.449> I
+
+00:04:09.589 --> 00:04:09.599 
+so I'm just going to remove this as if I
+
+00:04:09.599 --> 00:04:11.569 
+so I'm just going to remove this as if I
+installed<00:04:10.079> it<00:04:10.139> the<00:04:10.319> first<00:04:10.530> time<00:04:10.739> so<00:04:10.799> basically
+
+00:04:11.569 --> 00:04:11.579 
+installed it the first time so basically
+
+00:04:11.579 --> 00:04:15.020 
+installed it the first time so basically
+what<00:04:12.120> you<00:04:12.239> need<00:04:12.449> to<00:04:12.659> do<00:04:12.780> is<00:04:13.199> um<00:04:13.799> you<00:04:14.790> want<00:04:14.939> to
+
+00:04:15.020 --> 00:04:15.030 
+what you need to do is um you want to
+
+00:04:15.030 --> 00:04:20.509 
+what you need to do is um you want to
+click<00:04:15.239> allow<00:04:15.930> another<00:04:16.470> program<00:04:19.340> it<00:04:20.340> should
+
+00:04:20.509 --> 00:04:20.519 
+click allow another program it should
+
+00:04:20.519 --> 00:04:22.570 
+click allow another program it should
+take<00:04:20.759> in<00:04:20.909> quite<00:04:21.389> a<00:04:21.419> while<00:04:21.479> to<00:04:21.780> load<00:04:21.959> the
+
+00:04:22.570 --> 00:04:22.580 
+take in quite a while to load the
+
+00:04:22.580 --> 00:04:25.909 
+take in quite a while to load the
+programs<00:04:23.580> list<00:04:23.909> so<00:04:24.210> I<00:04:24.509> just<00:04:25.380> pause<00:04:25.620> it<00:04:25.800> right
+
+00:04:25.909 --> 00:04:25.919 
+programs list so I just pause it right
+
+00:04:25.919 --> 00:04:28.879 
+programs list so I just pause it right
+here<00:04:26.810> so<00:04:27.810> as<00:04:27.960> you<00:04:28.080> can<00:04:28.199> see<00:04:28.409> this<00:04:28.560> is<00:04:28.740> my
+
+00:04:28.879 --> 00:04:28.889 
+here so as you can see this is my
+
+00:04:28.889 --> 00:04:31.360 
+here so as you can see this is my
+programs<00:04:29.370> let's<00:04:29.669> not<00:04:29.880> Apache<00:04:30.240> won't<00:04:30.750> be
+
+00:04:31.360 --> 00:04:31.370 
+programs let's not Apache won't be
+
+00:04:31.370 --> 00:04:34.070 
+programs let's not Apache won't be
+appeared<00:04:32.370> in<00:04:32.580> here<00:04:32.849> you<00:04:33.090> need<00:04:33.300> to<00:04:33.510> browse<00:04:33.750> for
+
+00:04:34.070 --> 00:04:34.080 
+appeared in here you need to browse for
+
+00:04:34.080 --> 00:04:36.140 
+appeared in here you need to browse for
+it<00:04:34.139> yourself<00:04:34.260> so<00:04:34.710> here<00:04:35.219> is<00:04:35.400> his<00:04:35.580> path<00:04:35.849> just
+
+00:04:36.140 --> 00:04:36.150 
+it yourself so here is his path just
+
+00:04:36.150 --> 00:04:36.650 
+it yourself so here is his path just
+click
+
+00:04:36.650 --> 00:04:36.660 
+click
+
+00:04:36.660 --> 00:04:40.190 
+click
+owls<00:04:36.810> and<00:04:37.640> you<00:04:38.640> want<00:04:38.790> to<00:04:38.880> go<00:04:39.000> onto<00:04:39.150> the<00:04:39.450> Program
+
+00:04:40.190 --> 00:04:40.200 
+owls and you want to go onto the Program
+
+00:04:40.200 --> 00:04:43.370 
+owls and you want to go onto the Program
+Files<00:04:40.610> x86<00:04:41.840> perhaps<00:04:42.840> your<00:04:43.020> Software
+
+00:04:43.370 --> 00:04:43.380 
+Files x86 perhaps your Software
+
+00:04:43.380 --> 00:04:46.340 
+Files x86 perhaps your Software
+Foundation<00:04:44.420> Apache<00:04:45.420> and<00:04:45.750> you<00:04:45.870> want<00:04:46.020> to<00:04:46.080> go<00:04:46.200> and
+
+00:04:46.340 --> 00:04:46.350 
+Foundation Apache and you want to go and
+
+00:04:46.350 --> 00:04:52.180 
+Foundation Apache and you want to go and
+bin<00:04:46.650> and<00:04:46.890> you<00:04:47.390> want<00:04:48.390> to<00:04:48.570> select<00:04:49.140> hates<00:04:50.420> httpd
+
+00:04:52.180 --> 00:04:52.190 
+bin and you want to select hates httpd
+
+00:04:52.190 --> 00:04:55.430 
+bin and you want to select hates httpd
+application<00:04:53.190> here<00:04:53.400> and<00:04:53.550> click<00:04:53.820> open<00:04:54.300> and<00:04:54.570> as
+
+00:04:55.430 --> 00:04:55.440 
+application here and click open and as
+
+00:04:55.440 --> 00:04:58.340 
+application here and click open and as
+you<00:04:55.590> can<00:04:55.680> see<00:04:55.740> Apache<00:04:56.220> HTTP<00:04:57.210> server<00:04:57.240> and<00:04:57.780> click
+
+00:04:58.340 --> 00:04:58.350 
+you can see Apache HTTP server and click
+
+00:04:58.350 --> 00:05:02.330 
+you can see Apache HTTP server and click
+Add<00:04:59.000> now<00:05:00.000> you<00:05:00.060> want<00:05:00.270> to<00:05:00.710> allow<00:05:01.710> it<00:05:01.740> as<00:05:02.070> you<00:05:02.220> can
+
+00:05:02.330 --> 00:05:02.340 
+Add now you want to allow it as you can
+
+00:05:02.340 --> 00:05:04.700 
+Add now you want to allow it as you can
+see<00:05:02.520> it's<00:05:02.700> ticked<00:05:03.000> full<00:05:03.600> public<00:05:04.020> and<00:05:04.170> home
+
+00:05:04.700 --> 00:05:04.710 
+see it's ticked full public and home
+
+00:05:04.710 --> 00:05:07.750 
+see it's ticked full public and home
+slash<00:05:05.640> work<00:05:05.970> and<00:05:06.570> then<00:05:06.660> click<00:05:06.870> OK<00:05:07.230> and<00:05:07.530> now
+
+00:05:07.750 --> 00:05:07.760 
+slash work and then click OK and now
+
+00:05:07.760 --> 00:05:11.030 
+slash work and then click OK and now
+Apache<00:05:08.760> is<00:05:09.090> allowed<00:05:09.510> for<00:05:09.750> the<00:05:09.900> firewall<00:05:10.380> now
+
+00:05:11.030 --> 00:05:11.040 
+Apache is allowed for the firewall now
+
+00:05:11.040 --> 00:05:13.490 
+Apache is allowed for the firewall now
+you<00:05:11.100> can<00:05:11.370> start<00:05:11.670> server<00:05:12.090> you<00:05:12.480> can<00:05:12.720> see<00:05:12.930> just
+
+00:05:13.490 --> 00:05:13.500 
+you can start server you can see just
+
+00:05:13.500 --> 00:05:16.070 
+you can start server you can see just
+click<00:05:13.830> it<00:05:13.980> and<00:05:14.100> then<00:05:14.460> click<00:05:14.490> start<00:05:15.060> and<00:05:15.270> there
+
+00:05:16.070 --> 00:05:16.080 
+click it and then click start and there
+
+00:05:16.080 --> 00:05:17.630 
+click it and then click start and there
+should<00:05:16.320> be<00:05:16.440> little<00:05:16.590> player<00:05:16.860> as<00:05:17.190> you<00:05:17.250> can<00:05:17.460> see
+
+00:05:17.630 --> 00:05:17.640 
+should be little player as you can see
+
+00:05:17.640 --> 00:05:21.050 
+should be little player as you can see
+it's<00:05:17.790> running<00:05:18.440> now<00:05:19.640> you<00:05:20.640> want<00:05:20.760> to<00:05:20.850> go<00:05:20.940> on<00:05:21.000> your
+
+00:05:21.050 --> 00:05:21.060 
+it's running now you want to go on your
+
+00:05:21.060 --> 00:05:23.300 
+it's running now you want to go on your
+web<00:05:21.240> browser<00:05:21.480> now<00:05:21.870> that<00:05:22.050> there<00:05:22.380> is<00:05:22.410> a<00:05:22.710> several
+
+00:05:23.300 --> 00:05:23.310 
+web browser now that there is a several
+
+00:05:23.310 --> 00:05:26.480 
+web browser now that there is a several
+ways<00:05:23.550> on<00:05:23.940> accessing<00:05:24.540> your<00:05:24.780> website<00:05:25.460> the<00:05:26.460> first
+
+00:05:26.480 --> 00:05:26.490 
+ways on accessing your website the first
+
+00:05:26.490 --> 00:05:31.430 
+ways on accessing your website the first
+way<00:05:26.910> is<00:05:26.940> to<00:05:27.860> go<00:05:28.860> on<00:05:28.920> what's<00:05:29.130> my<00:05:29.370> IP<00:05:29.910> and<00:05:30.440> paste
+
+00:05:31.430 --> 00:05:31.440 
+way is to go on what's my IP and paste
+
+00:05:31.440 --> 00:05:34.730 
+way is to go on what's my IP and paste
+paste<00:05:32.310> the<00:05:32.610> IP<00:05:32.910> address<00:05:33.570> into<00:05:33.870> your<00:05:34.200> dress<00:05:34.440> bar
+
+00:05:34.730 --> 00:05:34.740 
+paste the IP address into your dress bar
+
+00:05:34.740 --> 00:05:37.850 
+paste the IP address into your dress bar
+and<00:05:35.070> then<00:05:35.670> it<00:05:35.880> should<00:05:36.150> be<00:05:36.330> X<00:05:36.630> you'll<00:05:37.590> be<00:05:37.740> able
+
+00:05:37.850 --> 00:05:37.860 
+and then it should be X you'll be able
+
+00:05:37.860 --> 00:05:39.260 
+and then it should be X you'll be able
+to<00:05:38.100> access<00:05:38.280> your<00:05:38.520> website
+
+00:05:39.260 --> 00:05:39.270 
+to access your website
+
+00:05:39.270 --> 00:05:41.540 
+to access your website
+only<00:05:39.810> if<00:05:39.870> you<00:05:39.990> port<00:05:40.290> forwarded<00:05:40.920> you'll<00:05:41.370> be
+
+00:05:41.540 --> 00:05:41.550 
+only if you port forwarded you'll be
+
+00:05:41.550 --> 00:05:44.120 
+only if you port forwarded you'll be
+able<00:05:41.760> to<00:05:42.090> do<00:05:42.270> that<00:05:42.510> now<00:05:43.380> if<00:05:43.470> you<00:05:43.560> haven't<00:05:43.800> port
+
+00:05:44.120 --> 00:05:44.130 
+able to do that now if you haven't port
+
+00:05:44.130 --> 00:05:46.700 
+able to do that now if you haven't port
+forwarded<00:05:44.610> then<00:05:45.090> type<00:05:45.390> in<00:05:45.600> localhost<00:05:45.750> then
+
+00:05:46.700 --> 00:05:46.710 
+forwarded then type in localhost then
+
+00:05:46.710 --> 00:05:48.380 
+forwarded then type in localhost then
+you<00:05:46.830> should<00:05:47.040> be<00:05:47.130> able<00:05:47.460> to<00:05:47.550> get<00:05:47.940> to<00:05:48.090> the<00:05:48.210> website
+
+00:05:48.380 --> 00:05:48.390 
+you should be able to get to the website
+
+00:05:48.390 --> 00:05:50.180 
+you should be able to get to the website
+unfortunately<00:05:49.350> it's<00:05:49.440> not<00:05:49.530> working<00:05:49.890> for<00:05:50.010> me
+
+00:05:50.180 --> 00:05:50.190 
+unfortunately it's not working for me
+
+00:05:50.190 --> 00:05:52.880 
+unfortunately it's not working for me
+today<00:05:50.370> because<00:05:51.300> it's<00:05:51.600> kind<00:05:51.900> of<00:05:51.960> messed<00:05:52.140> up<00:05:52.410> I'm
+
+00:05:52.880 --> 00:05:52.890 
+today because it's kind of messed up I'm
+
+00:05:52.890 --> 00:05:54.980 
+today because it's kind of messed up I'm
+Trung<00:05:53.340> I'm<00:05:53.580> going<00:05:53.790> to<00:05:53.880> try<00:05:54.030> one<00:05:54.300> on<00:05:54.330> two<00:05:54.630> dot
+
+00:05:54.980 --> 00:05:54.990 
+Trung I'm going to try one on two dot
+
+00:05:54.990 --> 00:05:58.610 
+Trung I'm going to try one on two dot
+one<00:05:55.020> sixty<00:05:55.200> eight<00:05:55.680> dot<00:05:55.800> zero<00:05:56.190> dot<00:05:56.490> free<00:05:57.290> as<00:05:58.290> you
+
+00:05:58.610 --> 00:05:58.620 
+one sixty eight dot zero dot free as you
+
+00:05:58.620 --> 00:06:00.909 
+one sixty eight dot zero dot free as you
+can<00:05:58.770> see<00:05:58.980> I<00:05:59.220> went<00:05:59.700> onto<00:05:59.970> the<00:06:00.120> website<00:06:00.360> and
+
+00:06:00.909 --> 00:06:00.919 
+can see I went onto the website and
+
+00:06:00.919 --> 00:06:04.400 
+can see I went onto the website and
+which<00:06:01.919> is<00:06:02.160> you<00:06:02.610> know<00:06:02.730> Apache<00:06:03.150> I<00:06:03.570> went<00:06:04.050> onto<00:06:04.169> my
+
+00:06:04.400 --> 00:06:04.410 
+which is you know Apache I went onto my
+
+00:06:04.410 --> 00:06:06.860 
+which is you know Apache I went onto my
+website<00:06:04.770> now<00:06:05.010> if<00:06:05.220> you<00:06:05.400> actually<00:06:05.700> have<00:06:06.419> a<00:06:06.570> sub
+
+00:06:06.860 --> 00:06:06.870 
+website now if you actually have a sub
+
+00:06:06.870 --> 00:06:09.650 
+website now if you actually have a sub
+domain<00:06:07.320> you<00:06:07.860> can<00:06:07.890> use<00:06:08.250> your<00:06:08.400> sub<00:06:08.640> domain<00:06:09.090> since
+
+00:06:09.650 --> 00:06:09.660 
+domain you can use your sub domain since
+
+00:06:09.660 --> 00:06:12.710 
+domain you can use your sub domain since
+you<00:06:09.810> port<00:06:10.050> forwarded<00:06:10.440> to<00:06:10.560> eighty<00:06:11.450> your<00:06:12.450> sub
+
+00:06:12.710 --> 00:06:12.720 
+you port forwarded to eighty your sub
+
+00:06:12.720 --> 00:06:14.690 
+you port forwarded to eighty your sub
+domain<00:06:13.140> will<00:06:13.350> work<00:06:13.590> now<00:06:14.100> if<00:06:14.340> you<00:06:14.430> don't<00:06:14.580> know
+
+00:06:14.690 --> 00:06:14.700 
+domain will work now if you don't know
+
+00:06:14.700 --> 00:06:16.580 
+domain will work now if you don't know
+what<00:06:14.850> one<00:06:15.000> is<00:06:15.030> I<00:06:15.390> will<00:06:15.840> be<00:06:15.870> making<00:06:16.320> the
+
+00:06:16.580 --> 00:06:16.590 
+what one is I will be making the
+
+00:06:16.590 --> 00:06:19.670 
+what one is I will be making the
+tutorial<00:06:17.240> in<00:06:18.240> my<00:06:18.630> next<00:06:18.840> video<00:06:19.169> showing<00:06:19.530> you
+
+00:06:19.670 --> 00:06:19.680 
+tutorial in my next video showing you
+
+00:06:19.680 --> 00:06:22.520 
+tutorial in my next video showing you
+how<00:06:19.740> to<00:06:19.919> like<00:06:20.310> make<00:06:20.340> one<00:06:20.940> so<00:06:21.510> my<00:06:21.720> sub<00:06:21.930> domain<00:06:22.290> is
+
+00:06:22.520 --> 00:06:22.530 
+how to like make one so my sub domain is
+
+00:06:22.530 --> 00:06:25.730 
+how to like make one so my sub domain is
+map<00:06:23.370> map<00:06:24.270> books<00:06:24.510> are<00:06:24.930> chicken<00:06:25.590> killer
+
+00:06:25.730 --> 00:06:25.740 
+map map books are chicken killer
+
+00:06:25.740 --> 00:06:28.400 
+map map books are chicken killer
+calm<00:06:26.250> now<00:06:26.760> we<00:06:26.820> click<00:06:27.210> enter<00:06:27.630> as<00:06:27.810> you<00:06:27.840> can<00:06:28.020> see<00:06:28.260> I
+
+00:06:28.400 --> 00:06:28.410 
+calm now we click enter as you can see I
+
+00:06:28.410 --> 00:06:32.510 
+calm now we click enter as you can see I
+have<00:06:28.710> accessed<00:06:29.220> my<00:06:29.460> website<00:06:29.940> there<00:06:30.270> so<00:06:31.520> there
+
+00:06:32.510 --> 00:06:32.520 
+have accessed my website there so there
+
+00:06:32.520 --> 00:06:35.659 
+have accessed my website there so there
+are<00:06:32.580> four<00:06:32.850> ways<00:06:33.440> localhost<00:06:34.440> or<00:06:34.830> put<00:06:35.520> in<00:06:35.640> your
+
+00:06:35.659 --> 00:06:35.669 
+are four ways localhost or put in your
+
+00:06:35.669 --> 00:06:38.510 
+are four ways localhost or put in your
+ipv4<00:06:36.300> address<00:06:37.230> that<00:06:37.800> that's<00:06:38.040> kind<00:06:38.310> of<00:06:38.370> low
+
+00:06:38.510 --> 00:06:38.520 
+ipv4 address that that's kind of low
+
+00:06:38.520 --> 00:06:42.080 
+ipv4 address that that's kind of low
+sound<00:06:38.820> category<00:06:39.300> or<00:06:39.510> you<00:06:40.260> can<00:06:40.440> put<00:06:40.710> your<00:06:41.090> IP
+
+00:06:42.080 --> 00:06:42.090 
+sound category or you can put your IP
+
+00:06:42.090 --> 00:06:45.800 
+sound category or you can put your IP
+address<00:06:42.480> or<00:06:43.070> you<00:06:44.070> can<00:06:44.130> put<00:06:45.060> your<00:06:45.090> sub<00:06:45.419> domain
+
+00:06:45.800 --> 00:06:45.810 
+address or you can put your sub domain
+
+00:06:45.810 --> 00:06:47.300 
+address or you can put your sub domain
+in<00:06:45.990> there<00:06:46.229> and<00:06:46.440> then<00:06:46.560> you<00:06:46.710> should<00:06:46.770> be<00:06:47.039> able<00:06:47.160> to
+
+00:06:47.300 --> 00:06:47.310 
+in there and then you should be able to
+
+00:06:47.310 --> 00:06:49.879 
+in there and then you should be able to
+get<00:06:47.520> it<00:06:47.640> so<00:06:47.789> M<00:06:48.360> that<00:06:48.690> is<00:06:48.720> pretty<00:06:49.140> much<00:06:49.320> it
+
+00:06:49.879 --> 00:06:49.889 
+get it so M that is pretty much it
+
+00:06:49.889 --> 00:06:53.140 
+get it so M that is pretty much it
+how<00:06:50.039> to<00:06:50.099> set<00:06:50.430> up<00:06:50.610> a<00:06:50.759> Apache<00:06:51.360> server<00:06:52.129> obviously
+
+00:06:53.140 --> 00:06:53.150 
+how to set up a Apache server obviously
+
+00:06:53.150 --> 00:06:57.860 
+how to set up a Apache server obviously
+your<00:06:54.229> HTML<00:06:55.229> files<00:06:55.680> will<00:06:56.129> be<00:06:56.159> saved<00:06:56.699> in<00:06:57.120> the
+
+00:06:57.860 --> 00:06:57.870 
+your HTML files will be saved in the
+
+00:06:57.870 --> 00:07:01.489 
+your HTML files will be saved in the
+Apache<00:06:58.620> Software<00:06:59.039> Foundation<00:07:00.499> patched
+
+00:07:01.489 --> 00:07:01.499 
+Apache Software Foundation patched
+
+00:07:01.499 --> 00:07:03.499 
+Apache Software Foundation patched
+Ubuntu<00:07:02.099> and<00:07:02.310> HD<00:07:02.849> Docs
+
+00:07:03.499 --> 00:07:03.509 
+Ubuntu and HD Docs
+
+00:07:03.509 --> 00:07:06.170 
+Ubuntu and HD Docs
+now<00:07:03.870> these<00:07:04.139> are<00:07:04.469> where<00:07:04.770> your<00:07:04.949> HTML<00:07:05.639> documents
+
+00:07:06.170 --> 00:07:06.180 
+now these are where your HTML documents
+
+00:07:06.180 --> 00:07:09.469 
+now these are where your HTML documents
+are<00:07:06.270> saved<00:07:06.539> and<00:07:07.819> basically<00:07:08.819> we<00:07:09.090> want<00:07:09.240> to<00:07:09.300> go<00:07:09.419> on
+
+00:07:09.469 --> 00:07:09.479 
+are saved and basically we want to go on
+
+00:07:09.479 --> 00:07:11.600 
+are saved and basically we want to go on
+Dreamweaver<00:07:09.990> make<00:07:10.319> a<00:07:10.349> website<00:07:10.860> and<00:07:11.129> you
+
+00:07:11.600 --> 00:07:11.610 
+Dreamweaver make a website and you
+
+00:07:11.610 --> 00:07:13.969 
+Dreamweaver make a website and you
+should<00:07:11.789> put<00:07:11.969> everything<00:07:12.270> in<00:07:12.659> here<00:07:13.050> so<00:07:13.770> when
+
+00:07:13.969 --> 00:07:13.979 
+should put everything in here so when
+
+00:07:13.979 --> 00:07:16.450 
+should put everything in here so when
+again<00:07:14.639> I<00:07:14.849> think<00:07:15.270> that's<00:07:15.449> pretty<00:07:15.779> much<00:07:15.930> it<00:07:16.199> so
+
+00:07:16.450 --> 00:07:16.460 
+again I think that's pretty much it so
+
+00:07:16.460 --> 00:07:19.239 
+again I think that's pretty much it so
+thanks<00:07:17.460> for<00:07:17.550> watching<00:07:17.939> and<00:07:18.120> please<00:07:19.110> subscribe
+
+00:07:19.239 --> 00:07:19.249 
+thanks for watching and please subscribe
+
+00:07:19.249 --> 00:07:22.490 
+thanks for watching and please subscribe
+comment<00:07:20.249> and<00:07:20.580> thumbs<00:07:20.939> up<00:07:21.210> for<00:07:21.389> more<00:07:21.629> of<00:07:21.900> these
+
+00:07:22.490 --> 00:07:22.500 
+comment and thumbs up for more of these
+
+00:07:22.500 --> 00:07:26.449 
+comment and thumbs up for more of these
+videos<00:07:23.400> so<00:07:23.909> yeah
+
