@@ -1,0 +1,1020 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.500 --> 00:00:02.929 
+
+hello<00:00:01.500> and<00:00:01.680> welcome<00:00:02.040> to<00:00:02.250> this<00:00:02.370> video<00:00:02.490> series
+
+00:00:02.929 --> 00:00:02.939 
+hello and welcome to this video series
+
+00:00:02.939 --> 00:00:04.220 
+hello and welcome to this video series
+about<00:00:02.970> using<00:00:03.389> Internet<00:00:03.720> Information
+
+00:00:04.220 --> 00:00:04.230 
+about using Internet Information
+
+00:00:04.230 --> 00:00:08.419 
+about using Internet Information
+Services<00:00:04.259> version<00:00:04.980> 7<00:00:05.310> also<00:00:06.029> called<00:00:06.540> iis7<00:00:07.429> the
+
+00:00:08.419 --> 00:00:08.429 
+Services version 7 also called iis7 the
+
+00:00:08.429 --> 00:00:09.620 
+Services version 7 also called iis7 the
+techniques<00:00:08.820> will<00:00:08.970> be<00:00:09.059> shown<00:00:09.240> on<00:00:09.269> Windows
+
+00:00:09.620 --> 00:00:09.630 
+techniques will be shown on Windows
+
+00:00:09.630 --> 00:00:11.959 
+techniques will be shown on Windows
+Vista<00:00:09.780> with<00:00:10.080> service<00:00:10.320> pack<00:00:10.469> 1<00:00:10.710> and<00:00:10.950> you<00:00:11.759> can<00:00:11.880> do
+
+00:00:11.959 --> 00:00:11.969 
+Vista with service pack 1 and you can do
+
+00:00:11.969 --> 00:00:13.580 
+Vista with service pack 1 and you can do
+the<00:00:12.059> same<00:00:12.210> things<00:00:12.480> that<00:00:12.540> you<00:00:12.690> see<00:00:12.870> here<00:00:13.200> with<00:00:13.530> a
+
+00:00:13.580 --> 00:00:13.590 
+the same things that you see here with a
+
+00:00:13.590 --> 00:00:15.320 
+the same things that you see here with a
+version<00:00:13.920> of<00:00:13.980> iOS<00:00:14.160> 7<00:00:14.759> that<00:00:14.880> comes<00:00:15.030> along<00:00:15.150> with
+
+00:00:15.320 --> 00:00:15.330 
+version of iOS 7 that comes along with
+
+00:00:15.330 --> 00:00:18.410 
+version of iOS 7 that comes along with
+windows<00:00:15.839> server<00:00:15.960> 2008<00:00:16.970> this<00:00:17.970> video<00:00:18.270> will
+
+00:00:18.410 --> 00:00:18.420 
+windows server 2008 this video will
+
+00:00:18.420 --> 00:00:20.210 
+windows server 2008 this video will
+cover<00:00:18.570> using<00:00:18.840> the<00:00:19.080> new<00:00:19.199> fast<00:00:19.410> CGI<00:00:19.740> module
+
+00:00:20.210 --> 00:00:20.220 
+cover using the new fast CGI module
+
+00:00:20.220 --> 00:00:22.070 
+cover using the new fast CGI module
+available<00:00:20.910> in<00:00:20.970> the<00:00:21.060> version<00:00:21.330> of<00:00:21.390> iOS<00:00:21.539> 7<00:00:21.930> that's
+
+00:00:22.070 --> 00:00:22.080 
+available in the version of iOS 7 that's
+
+00:00:22.080 --> 00:00:23.300 
+available in the version of iOS 7 that's
+found<00:00:22.199> in<00:00:22.320> Windows<00:00:22.590> Vista<00:00:22.680> with<00:00:22.980> service<00:00:23.189> pack
+
+00:00:23.300 --> 00:00:23.310 
+found in Windows Vista with service pack
+
+00:00:23.310 --> 00:00:25.839 
+found in Windows Vista with service pack
+1<00:00:23.550> and<00:00:23.760> available<00:00:24.600> in<00:00:24.689> windows<00:00:24.930> server<00:00:25.050> 2008
+
+00:00:25.839 --> 00:00:25.849 
+1 and available in windows server 2008
+
+00:00:25.849 --> 00:00:28.160 
+1 and available in windows server 2008
+there's<00:00:26.849> also<00:00:27.060> a<00:00:27.210> version<00:00:27.570> of<00:00:27.660> fast<00:00:27.869> cgi
+
+00:00:28.160 --> 00:00:28.170 
+there's also a version of fast cgi
+
+00:00:28.170 --> 00:00:30.290 
+there's also a version of fast cgi
+that's<00:00:28.470> available<00:00:28.650> for<00:00:29.010> download<00:00:29.340> 4<00:00:29.640> is<00:00:30.029> 6
+
+00:00:30.290 --> 00:00:30.300 
+that's available for download 4 is 6
+
+00:00:30.300 --> 00:00:32.359 
+that's available for download 4 is 6
+which<00:00:30.929> runs<00:00:31.140> on<00:00:31.260> windows<00:00:31.560> server<00:00:31.769> 2003
+
+00:00:32.359 --> 00:00:32.369 
+which runs on windows server 2003
+
+00:00:32.369 --> 00:00:35.270 
+which runs on windows server 2003
+machines<00:00:33.020> the<00:00:34.020> common<00:00:34.350> gateway<00:00:34.559> interface<00:00:34.649> or
+
+00:00:35.270 --> 00:00:35.280 
+machines the common gateway interface or
+
+00:00:35.280 --> 00:00:38.270 
+machines the common gateway interface or
+CGI<00:00:35.850> allows<00:00:36.600> the<00:00:36.780> program's<00:00:37.140> logic<00:00:37.620> to<00:00:38.190> be
+
+00:00:38.270 --> 00:00:38.280 
+CGI allows the program's logic to be
+
+00:00:38.280 --> 00:00:41.209 
+CGI allows the program's logic to be
+exposed<00:00:38.640> as<00:00:38.879> web<00:00:39.059> content<00:00:39.649> the<00:00:40.649> most<00:00:40.829> popular
+
+00:00:41.209 --> 00:00:41.219 
+exposed as web content the most popular
+
+00:00:41.219 --> 00:00:42.619 
+exposed as web content the most popular
+kind<00:00:41.399> of<00:00:41.489> programs<00:00:41.820> to<00:00:42.000> be<00:00:42.090> used<00:00:42.300> in<00:00:42.480> this<00:00:42.570> way
+
+00:00:42.619 --> 00:00:42.629 
+kind of programs to be used in this way
+
+00:00:42.629 --> 00:00:44.959 
+kind of programs to be used in this way
+are<00:00:43.020> those<00:00:43.950> that<00:00:44.129> interpret<00:00:44.550> scripts<00:00:44.789> for
+
+00:00:44.959 --> 00:00:44.969 
+are those that interpret scripts for
+
+00:00:44.969 --> 00:00:47.900 
+are those that interpret scripts for
+programming<00:00:45.390> languages<00:00:45.780> like<00:00:46.530> Ruby<00:00:46.910> pearl
+
+00:00:47.900 --> 00:00:47.910 
+programming languages like Ruby pearl
+
+00:00:47.910 --> 00:00:52.760 
+programming languages like Ruby pearl
+and<00:00:48.410> PHP<00:00:49.410> in<00:00:50.989> the<00:00:51.989> past<00:00:52.199> these<00:00:52.410> single
+
+00:00:52.760 --> 00:00:52.770 
+and PHP in the past these single
+
+00:00:52.770 --> 00:00:54.200 
+and PHP in the past these single
+threaded<00:00:52.949> applications<00:00:53.129> can<00:00:53.820> be<00:00:53.850> configured
+
+00:00:54.200 --> 00:00:54.210 
+threaded applications can be configured
+
+00:00:54.210 --> 00:00:55.279 
+threaded applications can be configured
+to<00:00:54.360> run<00:00:54.570> under<00:00:54.719> internet<00:00:55.110> information
+
+00:00:55.279 --> 00:00:55.289 
+to run under internet information
+
+00:00:55.289 --> 00:01:01.939 
+to run under internet information
+services<00:00:55.910> using<00:00:56.910> CGI<00:01:00.140> older<00:01:01.140> versions<00:01:01.500> of<00:01:01.620> CGI
+
+00:01:01.939 --> 00:01:01.949 
+services using CGI older versions of CGI
+
+00:01:01.949 --> 00:01:03.439 
+services using CGI older versions of CGI
+would<00:01:02.280> work<00:01:02.460> simply<00:01:02.820> by<00:01:02.969> starting<00:01:03.270> up<00:01:03.359> a<00:01:03.420> new
+
+00:01:03.439 --> 00:01:03.449 
+would work simply by starting up a new
+
+00:01:03.449 --> 00:01:05.420 
+would work simply by starting up a new
+process<00:01:03.960> every<00:01:04.320> time<00:01:04.470> a<00:01:04.500> request<00:01:04.890> had<00:01:05.070> come<00:01:05.250> in
+
+00:01:05.420 --> 00:01:05.430 
+process every time a request had come in
+
+00:01:05.430 --> 00:01:07.460 
+process every time a request had come in
+and<00:01:05.580> then<00:01:06.420> after<00:01:06.659> a<00:01:06.689> web<00:01:06.900> response<00:01:07.260> was
+
+00:01:07.460 --> 00:01:07.470 
+and then after a web response was
+
+00:01:07.470 --> 00:01:09.440 
+and then after a web response was
+delivered<00:01:07.890> it<00:01:08.549> would<00:01:08.700> then<00:01:08.820> closed<00:01:09.060> off<00:01:09.240> that
+
+00:01:09.440 --> 00:01:09.450 
+delivered it would then closed off that
+
+00:01:09.450 --> 00:01:12.140 
+delivered it would then closed off that
+process<00:01:09.869> this<00:01:10.680> works<00:01:11.070> but<00:01:11.670> it<00:01:11.790> has<00:01:11.820> quite<00:01:12.060> a
+
+00:01:12.140 --> 00:01:12.150 
+process this works but it has quite a
+
+00:01:12.150 --> 00:01:15.499 
+process this works but it has quite a
+bit<00:01:12.210> of<00:01:12.330> overhead<00:01:13.549> now<00:01:14.549> when<00:01:14.760> you<00:01:14.790> install<00:01:15.119> CGI
+
+00:01:15.499 --> 00:01:15.509 
+bit of overhead now when you install CGI
+
+00:01:15.509 --> 00:01:17.719 
+bit of overhead now when you install CGI
+you<00:01:15.930> still<00:01:16.200> get<00:01:16.350> this<00:01:16.530> behavior<00:01:17.040> but<00:01:17.490> as<00:01:17.580> well
+
+00:01:17.719 --> 00:01:17.729 
+you still get this behavior but as well
+
+00:01:17.729 --> 00:01:19.640 
+you still get this behavior but as well
+a<00:01:17.759> new<00:01:18.030> module<00:01:18.180> is<00:01:18.450> also<00:01:18.720> installed<00:01:19.049> called
+
+00:01:19.640 --> 00:01:19.650 
+a new module is also installed called
+
+00:01:19.650 --> 00:01:23.749 
+a new module is also installed called
+fast<00:01:19.920> cgi<00:01:21.740> fast<00:01:22.740> cgi<00:01:23.100> as<00:01:23.310> a<00:01:23.340> speedier
+
+00:01:23.749 --> 00:01:23.759 
+fast cgi fast cgi as a speedier
+
+00:01:23.759 --> 00:01:25.550 
+fast cgi fast cgi as a speedier
+alternative<00:01:24.330> in<00:01:24.570> which<00:01:25.020> the<00:01:25.140> program<00:01:25.439> has
+
+00:01:25.550 --> 00:01:25.560 
+alternative in which the program has
+
+00:01:25.560 --> 00:01:27.590 
+alternative in which the program has
+started<00:01:25.799> once<00:01:26.009> and<00:01:26.310> then<00:01:26.850> it<00:01:27.000> can<00:01:27.150> satisfy
+
+00:01:27.590 --> 00:01:27.600 
+started once and then it can satisfy
+
+00:01:27.600 --> 00:01:29.929 
+started once and then it can satisfy
+multiple<00:01:28.020> requests<00:01:28.640> performance<00:01:29.640> is<00:01:29.790> then
+
+00:01:29.929 --> 00:01:29.939 
+multiple requests performance is then
+
+00:01:29.939 --> 00:01:32.450 
+multiple requests performance is then
+much<00:01:30.150> better<00:01:30.390> in<00:01:30.540> this<00:01:30.630> way<00:01:31.189> now<00:01:32.189> that<00:01:32.220> we<00:01:32.430> have
+
+00:01:32.450 --> 00:01:32.460 
+much better in this way now that we have
+
+00:01:32.460 --> 00:01:34.399 
+much better in this way now that we have
+CGI<00:01:32.970> installed<00:01:33.390> on<00:01:33.479> this<00:01:33.600> machine<00:01:33.659> which
+
+00:01:34.399 --> 00:01:34.409 
+CGI installed on this machine which
+
+00:01:34.409 --> 00:01:36.230 
+CGI installed on this machine which
+includes<00:01:34.710> both<00:01:34.890> the<00:01:35.009> older<00:01:35.369> CGI<00:01:35.700> module<00:01:36.119> as
+
+00:01:36.230 --> 00:01:36.240 
+includes both the older CGI module as
+
+00:01:36.240 --> 00:01:39.170 
+includes both the older CGI module as
+well<00:01:36.299> as<00:01:36.869> the<00:01:36.990> newer<00:01:37.110> fast<00:01:37.439> cgi<00:01:37.799> module<00:01:38.280> let's
+
+00:01:39.170 --> 00:01:39.180 
+well as the newer fast cgi module let's
+
+00:01:39.180 --> 00:01:42.260 
+well as the newer fast cgi module let's
+now<00:01:39.390> download<00:01:39.930> and<00:01:40.079> install<00:01:40.409> PHP<00:01:41.270> it's
+
+00:01:42.260 --> 00:01:42.270 
+now download and install PHP it's
+
+00:01:42.270 --> 00:01:49.450 
+now download and install PHP it's
+available<00:01:42.570> from<00:01:42.840> PHP<00:01:43.140> net
+
+00:01:49.450 --> 00:01:49.460 
+
+00:01:49.460 --> 00:01:51.830 
+
+versions<00:01:50.460> five<00:01:50.640> point<00:01:50.910> two<00:01:51.000> point<00:01:51.330> one<00:01:51.450> and
+
+00:01:51.830 --> 00:01:51.840 
+versions five point two point one and
+
+00:01:51.840 --> 00:01:53.600 
+versions five point two point one and
+later<00:01:52.050> contain<00:01:52.860> key<00:01:53.100> performance
+
+00:01:53.600 --> 00:01:53.610 
+later contain key performance
+
+00:01:53.610 --> 00:01:55.100 
+later contain key performance
+enhancements<00:01:54.270> that<00:01:54.420> are<00:01:54.570> specific<00:01:55.080> to
+
+00:01:55.100 --> 00:01:55.110 
+enhancements that are specific to
+
+00:01:55.110 --> 00:01:57.410 
+enhancements that are specific to
+Microsoft<00:01:55.620> Windows<00:01:55.800> machines<00:01:56.280> these<00:01:57.240> were
+
+00:01:57.410 --> 00:01:57.420 
+Microsoft Windows machines these were
+
+00:01:57.420 --> 00:01:59.330 
+Microsoft Windows machines these were
+made<00:01:57.540> by<00:01:57.720> zend<00:01:58.020> which<00:01:58.680> is<00:01:58.830> a<00:01:58.860> leading<00:01:59.100> company
+
+00:01:59.330 --> 00:01:59.340 
+made by zend which is a leading company
+
+00:01:59.340 --> 00:02:03.320 
+made by zend which is a leading company
+involved<00:01:59.820> with<00:02:00.090> PHP<00:02:01.790> Zenda<00:02:02.790> also<00:02:03.030> markets
+
+00:02:03.320 --> 00:02:03.330 
+involved with PHP Zenda also markets
+
+00:02:03.330 --> 00:02:05.600 
+involved with PHP Zenda also markets
+their<00:02:03.480> own<00:02:03.630> version<00:02:03.990> of<00:02:04.080> PHP<00:02:04.260> called<00:02:05.010> Zen<00:02:05.310> core
+
+00:02:05.600 --> 00:02:05.610 
+their own version of PHP called Zen core
+
+00:02:05.610 --> 00:02:07.220 
+their own version of PHP called Zen core
+for<00:02:05.850> Windows<00:02:06.150> that<00:02:06.900> adds<00:02:07.080> additional
+
+00:02:07.220 --> 00:02:07.230 
+for Windows that adds additional
+
+00:02:07.230 --> 00:02:10.520 
+for Windows that adds additional
+performance<00:02:07.950> enhancements<00:02:08.460> at<00:02:09.320> this<00:02:10.320> point
+
+00:02:10.520 --> 00:02:10.530 
+performance enhancements at this point
+
+00:02:10.530 --> 00:02:11.510 
+performance enhancements at this point
+we're<00:02:10.650> downloading<00:02:10.830> the<00:02:11.130> freely<00:02:11.430> available
+
+00:02:11.510 --> 00:02:11.520 
+we're downloading the freely available
+
+00:02:11.520 --> 00:02:15.440 
+we're downloading the freely available
+version<00:02:12.210> in<00:02:12.330> a<00:02:12.840> zip<00:02:12.990> file<00:02:14.000> I'll<00:02:15.000> just<00:02:15.240> place<00:02:15.420> it
+
+00:02:15.440 --> 00:02:15.450 
+version in a zip file I'll just place it
+
+00:02:15.450 --> 00:02:19.100 
+version in a zip file I'll just place it
+on<00:02:15.630> the<00:02:15.690> desktop<00:02:17.570> using<00:02:18.570> this<00:02:18.810> suit
+
+00:02:19.100 --> 00:02:19.110 
+on the desktop using this suit
+
+00:02:19.110 --> 00:02:21.200 
+on the desktop using this suit
+distribution<00:02:19.890> automatically<00:02:20.700> includes<00:02:21.030> all
+
+00:02:21.200 --> 00:02:21.210 
+distribution automatically includes all
+
+00:02:21.210 --> 00:02:22.430 
+distribution automatically includes all
+the<00:02:21.450> different<00:02:21.720> extensions<00:02:22.230> that<00:02:22.380> are
+
+00:02:22.430 --> 00:02:22.440 
+the different extensions that are
+
+00:02:22.440 --> 00:02:25.160 
+the different extensions that are
+available<00:02:22.560> for<00:02:23.010> PHP<00:02:23.460> such<00:02:24.420> as<00:02:24.600> extensions<00:02:25.080> to
+
+00:02:25.160 --> 00:02:25.170 
+available for PHP such as extensions to
+
+00:02:25.170 --> 00:02:26.840 
+available for PHP such as extensions to
+reference<00:02:25.470> database<00:02:25.860> engines<00:02:26.220> like<00:02:26.790> a
+
+00:02:26.840 --> 00:02:26.850 
+reference database engines like a
+
+00:02:26.850 --> 00:02:29.600 
+reference database engines like a
+Microsoft<00:02:27.360> sequel<00:02:27.690> server<00:02:27.840> database<00:02:28.610> with
+
+00:02:29.600 --> 00:02:29.610 
+Microsoft sequel server database with
+
+00:02:29.610 --> 00:02:32.450 
+Microsoft sequel server database with
+that<00:02:29.760> zip<00:02:29.970> file<00:02:30.180> now<00:02:30.390> downloaded<00:02:31.340> we'll<00:02:32.340> go
+
+00:02:32.450 --> 00:02:32.460 
+that zip file now downloaded we'll go
+
+00:02:32.460 --> 00:02:33.950 
+that zip file now downloaded we'll go
+ahead<00:02:32.580> and<00:02:32.700> extract<00:02:33.000> it<00:02:33.420> to<00:02:33.450> the<00:02:33.660> root<00:02:33.810> of<00:02:33.870> the
+
+00:02:33.950 --> 00:02:33.960 
+ahead and extract it to the root of the
+
+00:02:33.960 --> 00:02:43.480 
+ahead and extract it to the root of the
+C<00:02:34.140> Drive<00:02:34.290> in<00:02:34.560> a<00:02:34.620> folder<00:02:34.890> simply<00:02:35.040> called<00:02:35.370> PHP
+
+00:02:43.480 --> 00:02:43.490 
+
+00:02:43.490 --> 00:02:45.860 
+
+the<00:02:44.490> path<00:02:44.670> that<00:02:44.850> we<00:02:44.910> choose<00:02:45.150> is<00:02:45.390> important<00:02:45.780> to
+
+00:02:45.860 --> 00:02:45.870 
+the path that we choose is important to
+
+00:02:45.870 --> 00:02:47.840 
+the path that we choose is important to
+remember<00:02:46.110> for<00:02:46.530> later<00:02:46.740> when<00:02:47.310> we<00:02:47.400> go<00:02:47.520> to<00:02:47.550> set<00:02:47.760> up
+
+00:02:47.840 --> 00:02:47.850 
+remember for later when we go to set up
+
+00:02:47.850 --> 00:02:51.770 
+remember for later when we go to set up
+a<00:02:47.940> handler<00:02:48.270> for<00:02:48.450> fast<00:02:48.660> CGI<00:02:50.600> we've<00:02:51.600> now
+
+00:02:51.770 --> 00:02:51.780 
+a handler for fast CGI we've now
+
+00:02:51.780 --> 00:02:53.660 
+a handler for fast CGI we've now
+installed<00:02:52.170> everything<00:02:52.380> that<00:02:52.560> we<00:02:52.620> need<00:02:52.800> so<00:02:53.550> now
+
+00:02:53.660 --> 00:02:53.670 
+installed everything that we need so now
+
+00:02:53.670 --> 00:02:55.610 
+installed everything that we need so now
+it's<00:02:53.850> simply<00:02:54.090> time<00:02:54.270> to<00:02:54.300> configure<00:02:54.720> it<00:02:54.840> well
+
+00:02:55.610 --> 00:02:55.620 
+it's simply time to configure it well
+
+00:02:55.620 --> 00:02:58.130 
+it's simply time to configure it well
+first<00:02:55.830> run<00:02:56.010> the<00:02:56.100> inet<00:02:56.250> manager<00:02:56.700> tool<00:02:57.140> which
+
+00:02:58.130 --> 00:02:58.140 
+first run the inet manager tool which
+
+00:02:58.140 --> 00:03:01.660 
+first run the inet manager tool which
+requires<00:02:58.470> elevated<00:02:58.890> privileges<00:02:59.390> and
+
+00:03:01.660 --> 00:03:01.670 
+requires elevated privileges and
+
+00:03:01.670 --> 00:03:03.650 
+requires elevated privileges and
+selecting<00:03:02.670> the<00:03:02.730> node<00:03:02.880> for<00:03:03.090> the<00:03:03.180> server<00:03:03.390> in<00:03:03.630> the
+
+00:03:03.650 --> 00:03:03.660 
+selecting the node for the server in the
+
+00:03:03.660 --> 00:03:07.370 
+selecting the node for the server in the
+tool<00:03:03.930> we<00:03:04.890> see<00:03:05.040> a<00:03:05.070> couple<00:03:05.310> of<00:03:05.520> new<00:03:05.640> icons<00:03:06.380> cgi
+
+00:03:07.370 --> 00:03:07.380 
+tool we see a couple of new icons cgi
+
+00:03:07.380 --> 00:03:11.750 
+tool we see a couple of new icons cgi
+and<00:03:07.770> I<00:03:08.489> sappy<00:03:08.880> and<00:03:09.000> CGI<00:03:09.270> restrictions<00:03:09.840> as<00:03:10.760> well
+
+00:03:11.750 --> 00:03:11.760 
+and I sappy and CGI restrictions as well
+
+00:03:11.760 --> 00:03:13.670 
+and I sappy and CGI restrictions as well
+under<00:03:12.209> modules<00:03:12.690> we<00:03:12.870> find<00:03:13.110> two<00:03:13.350> new<00:03:13.470> pieces
+
+00:03:13.670 --> 00:03:13.680 
+under modules we find two new pieces
+
+00:03:13.680 --> 00:03:17.479 
+under modules we find two new pieces
+here<00:03:14.750> the<00:03:15.750> older<00:03:16.050> version<00:03:16.080> called<00:03:16.590> CGI<00:03:17.100> module
+
+00:03:17.479 --> 00:03:17.489 
+here the older version called CGI module
+
+00:03:17.489 --> 00:03:21.290 
+here the older version called CGI module
+and<00:03:17.610> the<00:03:18.390> new<00:03:18.510> fast<00:03:18.870> CGI<00:03:19.200> module<00:03:20.180> we'll<00:03:21.180> be
+
+00:03:21.290 --> 00:03:21.300 
+and the new fast CGI module we'll be
+
+00:03:21.300 --> 00:03:23.479 
+and the new fast CGI module we'll be
+setting<00:03:21.540> up<00:03:21.630> a<00:03:21.690> handler<00:03:22.050> for<00:03:22.290> PHP<00:03:22.770> files<00:03:23.010> that
+
+00:03:23.479 --> 00:03:23.489 
+setting up a handler for PHP files that
+
+00:03:23.489 --> 00:03:25.870 
+setting up a handler for PHP files that
+makes<00:03:23.670> use<00:03:23.820> of<00:03:23.850> this<00:03:24.060> new<00:03:24.239> fast<00:03:24.510> CGI<00:03:24.840> module<00:03:25.320> in
+
+00:03:25.870 --> 00:03:25.880 
+makes use of this new fast CGI module in
+
+00:03:25.880 --> 00:03:28.430 
+makes use of this new fast CGI module in
+fact<00:03:26.880> let's<00:03:27.120> do<00:03:27.270> that<00:03:27.390> now<00:03:27.570> at<00:03:27.870> a<00:03:27.959> server<00:03:28.230> wide
+
+00:03:28.430 --> 00:03:28.440 
+fact let's do that now at a server wide
+
+00:03:28.440 --> 00:03:32.870 
+fact let's do that now at a server wide
+level<00:03:29.360> referencing<00:03:30.360> handler<00:03:30.840> mappings<00:03:31.880> we
+
+00:03:32.870 --> 00:03:32.880 
+level referencing handler mappings we
+
+00:03:32.880 --> 00:03:35.560 
+level referencing handler mappings we
+can<00:03:33.000> add<00:03:33.120> in<00:03:33.239> a<00:03:33.300> specific<00:03:33.510> handler<00:03:34.140> for<00:03:34.500> PHP<00:03:35.040> as
+
+00:03:35.560 --> 00:03:35.570 
+can add in a specific handler for PHP as
+
+00:03:35.570 --> 00:03:40.070 
+can add in a specific handler for PHP as
+a<00:03:36.570> module<00:03:37.080> mapping<00:03:38.300> if<00:03:39.300> the<00:03:39.450> request<00:03:39.780> is<00:03:39.930> any
+
+00:03:40.070 --> 00:03:40.080 
+a module mapping if the request is any
+
+00:03:40.080 --> 00:03:42.440 
+a module mapping if the request is any
+PHP<00:03:40.470> file<00:03:40.890> then<00:03:41.580> we'll<00:03:41.760> want<00:03:41.910> to<00:03:42.000> use<00:03:42.090> the<00:03:42.239> fast
+
+00:03:42.440 --> 00:03:42.450 
+PHP file then we'll want to use the fast
+
+00:03:42.450 --> 00:03:45.949 
+PHP file then we'll want to use the fast
+cgi<00:03:42.840> module<00:03:43.380> and<00:03:44.390> have<00:03:45.390> it<00:03:45.480> refer<00:03:45.720> to<00:03:45.870> the
+
+00:03:45.949 --> 00:03:45.959 
+cgi module and have it refer to the
+
+00:03:45.959 --> 00:03:51.530 
+cgi module and have it refer to the
+executable<00:03:46.620> in<00:03:46.800> the<00:03:47.400> skin<00:03:47.959> and<00:03:50.209> have<00:03:51.209> it<00:03:51.330> refer
+
+00:03:51.530 --> 00:03:51.540 
+executable in the skin and have it refer
+
+00:03:51.540 --> 00:03:53.479 
+executable in the skin and have it refer
+to<00:03:51.630> the<00:03:51.720> executable<00:03:52.380> in<00:03:52.530> the<00:03:52.770> PHP<00:03:53.040> folder
+
+00:03:53.479 --> 00:03:53.489 
+to the executable in the PHP folder
+
+00:03:53.489 --> 00:03:55.340 
+to the executable in the PHP folder
+under<00:03:53.580> the<00:03:53.730> C<00:03:53.880> Drive<00:03:54.030> which<00:03:54.690> is<00:03:54.870> specific<00:03:55.320> for
+
+00:03:55.340 --> 00:03:55.350 
+under the C Drive which is specific for
+
+00:03:55.350 --> 00:03:58.880 
+under the C Drive which is specific for
+use<00:03:55.680> with<00:03:55.920> fast<00:03:56.160> CGI<00:03:57.350> changing<00:03:58.350> the<00:03:58.440> focus<00:03:58.739> to
+
+00:03:58.880 --> 00:03:58.890 
+use with fast CGI changing the focus to
+
+00:03:58.890 --> 00:04:01.310 
+use with fast CGI changing the focus to
+exe<00:03:59.370> files<00:03:59.690> there<00:04:00.690> are<00:04:00.720> three<00:04:01.019> different
+
+00:04:01.310 --> 00:04:01.320 
+exe files there are three different
+
+00:04:01.320 --> 00:04:02.400 
+exe files there are three different
+options<00:04:01.410> for<00:04:01.680> us
+
+00:04:02.400 --> 00:04:02.410 
+options for us
+
+00:04:02.410 --> 00:04:04.230 
+options for us
+and<00:04:02.500> it<00:04:03.130> may<00:04:03.220> be<00:04:03.280> tempting<00:04:03.520> to<00:04:03.760> choose<00:04:03.970> the<00:04:04.090> one
+
+00:04:04.230 --> 00:04:04.240 
+and it may be tempting to choose the one
+
+00:04:04.240 --> 00:04:07.320 
+and it may be tempting to choose the one
+called<00:04:04.510> PHP<00:04:05.020> when<00:04:05.550> but<00:04:06.550> the<00:04:06.640> proper<00:04:06.910> choice<00:04:07.090> is
+
+00:04:07.320 --> 00:04:07.330 
+called PHP when but the proper choice is
+
+00:04:07.330 --> 00:04:10.170 
+called PHP when but the proper choice is
+actually<00:04:07.630> PHP<00:04:08.110> CGI<00:04:08.670> which<00:04:09.670> is<00:04:09.820> specifically
+
+00:04:10.170 --> 00:04:10.180 
+actually PHP CGI which is specifically
+
+00:04:10.180 --> 00:04:13.830 
+actually PHP CGI which is specifically
+designed<00:04:10.270> for<00:04:10.660> use<00:04:10.900> with<00:04:11.110> fast<00:04:11.320> CGI<00:04:12.690> with<00:04:13.690> that
+
+00:04:13.830 --> 00:04:13.840 
+designed for use with fast CGI with that
+
+00:04:13.840 --> 00:04:15.570 
+designed for use with fast CGI with that
+choice<00:04:13.990> in<00:04:14.200> place<00:04:14.410> now<00:04:14.950> we<00:04:15.010> simply<00:04:15.400> need<00:04:15.520> to
+
+00:04:15.570 --> 00:04:15.580 
+choice in place now we simply need to
+
+00:04:15.580 --> 00:04:17.789 
+choice in place now we simply need to
+name<00:04:15.820> this<00:04:15.970> handler<00:04:16.299> mapping<00:04:16.690> and<00:04:17.560> we<00:04:17.650> could
+
+00:04:17.789 --> 00:04:17.799 
+name this handler mapping and we could
+
+00:04:17.799 --> 00:04:23.730 
+name this handler mapping and we could
+call<00:04:17.950> it<00:04:17.980> something<00:04:18.190> like<00:04:18.340> PHP<00:04:19.000> a<00:04:19.570> CGI<00:04:22.740> here
+
+00:04:23.730 --> 00:04:23.740 
+call it something like PHP a CGI here
+
+00:04:23.740 --> 00:04:24.870 
+call it something like PHP a CGI here
+it's<00:04:23.860> asking<00:04:24.160> if<00:04:24.280> we'd<00:04:24.370> like<00:04:24.490> to<00:04:24.640> allow<00:04:24.850> the
+
+00:04:24.870 --> 00:04:24.880 
+it's asking if we'd like to allow the
+
+00:04:24.880 --> 00:04:27.450 
+it's asking if we'd like to allow the
+PHP<00:04:25.540> application<00:04:26.080> to<00:04:26.230> run<00:04:26.440> under<00:04:26.710> fast<00:04:27.040> CGI
+
+00:04:27.450 --> 00:04:27.460 
+PHP application to run under fast CGI
+
+00:04:27.460 --> 00:04:31.080 
+PHP application to run under fast CGI
+and<00:04:27.840> yes<00:04:28.840> we<00:04:28.960> do<00:04:29.110> and<00:04:29.370> with<00:04:30.370> that<00:04:30.400> in<00:04:30.640> place<00:04:30.670> all
+
+00:04:31.080 --> 00:04:31.090 
+and yes we do and with that in place all
+
+00:04:31.090 --> 00:04:33.270 
+and yes we do and with that in place all
+we<00:04:31.390> have<00:04:31.510> to<00:04:31.630> now<00:04:31.750> do<00:04:31.810> is<00:04:32.170> add<00:04:32.800> some<00:04:33.010> PHP
+
+00:04:33.270 --> 00:04:33.280 
+we have to now do is add some PHP
+
+00:04:33.280 --> 00:04:36.450 
+we have to now do is add some PHP
+content<00:04:34.590> this<00:04:35.590> web<00:04:35.830> server<00:04:36.070> doesn't<00:04:36.280> have
+
+00:04:36.450 --> 00:04:36.460 
+content this web server doesn't have
+
+00:04:36.460 --> 00:04:38.400 
+content this web server doesn't have
+anything<00:04:36.670> special<00:04:37.060> going<00:04:37.420> on<00:04:37.510> yet<00:04:37.720> all<00:04:38.110> we
+
+00:04:38.400 --> 00:04:38.410 
+anything special going on yet all we
+
+00:04:38.410 --> 00:04:40.920 
+anything special going on yet all we
+have<00:04:38.560> is<00:04:38.590> default<00:04:39.100> web<00:04:39.280> site<00:04:39.660> being<00:04:40.660> served
+
+00:04:40.920 --> 00:04:40.930 
+have is default web site being served
+
+00:04:40.930 --> 00:04:43.410 
+have is default web site being served
+out<00:04:41.080> from<00:04:41.260> the<00:04:41.380> sea<00:04:41.560> inet<00:04:42.160> pub<00:04:42.370> www<00:04:43.270> root
+
+00:04:43.410 --> 00:04:43.420 
+out from the sea inet pub www root
+
+00:04:43.420 --> 00:04:46.400 
+out from the sea inet pub www root
+folder<00:04:43.750> and<00:04:44.070> nothing<00:04:45.070> special<00:04:45.310> inside<00:04:45.730> in
+
+00:04:46.400 --> 00:04:46.410 
+folder and nothing special inside in
+
+00:04:46.410 --> 00:04:48.510 
+folder and nothing special inside in
+order<00:04:47.410> to<00:04:47.470> add<00:04:47.620> a<00:04:47.650> new<00:04:47.800> file<00:04:48.160> in<00:04:48.310> this<00:04:48.460> folder
+
+00:04:48.510 --> 00:04:48.520 
+order to add a new file in this folder
+
+00:04:48.520 --> 00:04:51.000 
+order to add a new file in this folder
+in<00:04:49.000> Vista<00:04:49.510> will<00:04:50.380> have<00:04:50.500> to<00:04:50.590> be<00:04:50.680> running<00:04:50.800> an
+
+00:04:51.000 --> 00:04:51.010 
+in Vista will have to be running an
+
+00:04:51.010 --> 00:04:53.010 
+in Vista will have to be running an
+editing<00:04:51.340> tool<00:04:51.520> like<00:04:51.790> notepad<00:04:52.030> as<00:04:52.480> an
+
+00:04:53.010 --> 00:04:53.020 
+editing tool like notepad as an
+
+00:04:53.020 --> 00:04:54.840 
+editing tool like notepad as an
+administrator<00:04:53.530> so<00:04:54.190> I'll<00:04:54.250> press<00:04:54.430> shift<00:04:54.760> ctrl
+
+00:04:54.840 --> 00:04:54.850 
+administrator so I'll press shift ctrl
+
+00:04:54.850 --> 00:04:57.990 
+administrator so I'll press shift ctrl
+enter<00:04:55.800> in<00:04:56.800> order<00:04:57.040> to<00:04:57.190> run<00:04:57.310> notepad<00:04:57.760> with
+
+00:04:57.990 --> 00:04:58.000 
+enter in order to run notepad with
+
+00:04:58.000 --> 00:05:01.920 
+enter in order to run notepad with
+elevated<00:04:58.390> privileges<00:05:00.480> will<00:05:01.480> create<00:05:01.690> a<00:05:01.720> very
+
+00:05:01.920 --> 00:05:01.930 
+elevated privileges will create a very
+
+00:05:01.930 --> 00:05:04.590 
+elevated privileges will create a very
+simple<00:05:02.320> PHP<00:05:02.530> script<00:05:03.100> and<00:05:03.340> have<00:05:04.150> it<00:05:04.270> just<00:05:04.420> call
+
+00:05:04.590 --> 00:05:04.600 
+simple PHP script and have it just call
+
+00:05:04.600 --> 00:05:11.160 
+simple PHP script and have it just call
+into<00:05:04.840> this<00:05:04.930> PHP<00:05:05.260> info<00:05:05.560> function<00:05:10.080> saving<00:05:11.080> this
+
+00:05:11.160 --> 00:05:11.170 
+into this PHP info function saving this
+
+00:05:11.170 --> 00:05:16.200 
+into this PHP info function saving this
+file<00:05:11.410> as<00:05:11.680> test.php<00:05:13.260> under<00:05:14.260> the<00:05:14.350> inet<00:05:14.500> pub<00:05:15.210> www
+
+00:05:16.200 --> 00:05:16.210 
+file as test.php under the inet pub www
+
+00:05:16.210 --> 00:05:19.890 
+file as test.php under the inet pub www
+root<00:05:16.330> folder<00:05:18.060> we<00:05:19.060> can<00:05:19.210> now<00:05:19.300> assess<00:05:19.570> it<00:05:19.690> out<00:05:19.780> in
+
+00:05:19.890 --> 00:05:19.900 
+root folder we can now assess it out in
+
+00:05:19.900 --> 00:05:28.980 
+root folder we can now assess it out in
+the<00:05:19.960> browser<00:05:26.669> surfing<00:05:27.669> a<00:05:27.760> local<00:05:28.060> host<00:05:28.270> test
+
+00:05:28.980 --> 00:05:28.990 
+the browser surfing a local host test
+
+00:05:28.990 --> 00:05:33.630 
+the browser surfing a local host test
+dot<00:05:29.200> PHP<00:05:31.410> now<00:05:32.410> we<00:05:32.470> see<00:05:32.710> a<00:05:32.740> rich<00:05:32.980> informational
+
+00:05:33.630 --> 00:05:33.640 
+dot PHP now we see a rich informational
+
+00:05:33.640 --> 00:05:35.220 
+dot PHP now we see a rich informational
+page<00:05:33.880> describing<00:05:34.390> all<00:05:34.570> the<00:05:34.690> settings<00:05:35.020> that
+
+00:05:35.220 --> 00:05:35.230 
+page describing all the settings that
+
+00:05:35.230 --> 00:05:36.570 
+page describing all the settings that
+have<00:05:35.260> been<00:05:35.410> configured<00:05:35.680> for<00:05:36.040> this<00:05:36.190> version<00:05:36.490> of
+
+00:05:36.570 --> 00:05:36.580 
+have been configured for this version of
+
+00:05:36.580 --> 00:05:39.630 
+have been configured for this version of
+PHP<00:05:37.380> these<00:05:38.380> are<00:05:38.560> all<00:05:38.590> found<00:05:38.890> on<00:05:39.070> the<00:05:39.160> php.ini
+
+00:05:39.630 --> 00:05:39.640 
+PHP these are all found on the php.ini
+
+00:05:39.640 --> 00:05:42.540 
+PHP these are all found on the php.ini
+file<00:05:40.510> and<00:05:40.780> some<00:05:41.530> applications<00:05:42.070> will<00:05:42.220> require
+
+00:05:42.540 --> 00:05:42.550 
+file and some applications will require
+
+00:05:42.550 --> 00:05:43.980 
+file and some applications will require
+that<00:05:42.760> you<00:05:42.850> make<00:05:42.970> changes<00:05:43.210> to<00:05:43.450> these<00:05:43.630> settings
+
+00:05:43.980 --> 00:05:43.990 
+that you make changes to these settings
+
+00:05:43.990 --> 00:05:47.490 
+that you make changes to these settings
+in<00:05:45.120> our<00:05:46.120> case<00:05:46.330> this<00:05:46.600> file<00:05:46.810> is<00:05:46.990> found<00:05:47.230> in<00:05:47.440> the
+
+00:05:47.490 --> 00:05:47.500 
+in our case this file is found in the
+
+00:05:47.500 --> 00:05:53.970 
+in our case this file is found in the
+sea<00:05:47.740> PHP<00:05:48.580> folder<00:05:49.680> and<00:05:52.380> there<00:05:53.380> are<00:05:53.470> some<00:05:53.590> sample
+
+00:05:53.970 --> 00:05:53.980 
+sea PHP folder and there are some sample
+
+00:05:53.980 --> 00:05:56.040 
+sea PHP folder and there are some sample
+versions<00:05:54.310> of<00:05:54.370> PHP<00:05:54.550> ini<00:05:55.210> that<00:05:55.540> you<00:05:55.600> can<00:05:55.780> test
+
+00:05:56.040 --> 00:05:56.050 
+versions of PHP ini that you can test
+
+00:05:56.050 --> 00:06:01.370 
+versions of PHP ini that you can test
+out<00:05:56.700> php.ini<00:05:57.700> recommended<00:05:58.570> and<00:05:59.010> PHP<00:06:00.010> ini<00:06:00.220> dist
+
+00:06:01.370 --> 00:06:01.380 
+out php.ini recommended and PHP ini dist
+
+00:06:01.380 --> 00:06:05.460 
+out php.ini recommended and PHP ini dist
+renaming<00:06:02.380> one<00:06:02.590> of<00:06:02.680> these<00:06:02.800> as<00:06:03.040> PHP<00:06:03.490> ini<00:06:04.470> allows
+
+00:06:05.460 --> 00:06:05.470 
+renaming one of these as PHP ini allows
+
+00:06:05.470 --> 00:06:06.600 
+renaming one of these as PHP ini allows
+you<00:06:05.590> to<00:06:05.680> configure<00:06:05.830> all<00:06:06.160> these<00:06:06.310> various
+
+00:06:06.600 --> 00:06:06.610 
+you to configure all these various
+
+00:06:06.610 --> 00:06:09.310 
+you to configure all these various
+different<00:06:06.880> settings
+
+00:06:09.310 --> 00:06:09.320 
+
+00:06:09.320 --> 00:06:12.730 
+
+and<00:06:10.300> in<00:06:11.300> making<00:06:11.450> any<00:06:11.780> kind<00:06:12.020> of<00:06:12.080> change<00:06:12.320> to<00:06:12.500> the
+
+00:06:12.730 --> 00:06:12.740 
+and in making any kind of change to the
+
+00:06:12.740 --> 00:06:15.880 
+and in making any kind of change to the
+php.ini<00:06:13.160> file<00:06:13.900> to<00:06:14.900> see<00:06:15.110> those<00:06:15.320> changes<00:06:15.350> we
+
+00:06:15.880 --> 00:06:15.890 
+php.ini file to see those changes we
+
+00:06:15.890 --> 00:06:17.320 
+php.ini file to see those changes we
+then<00:06:16.010> have<00:06:16.190> to<00:06:16.310> recycle<00:06:16.640> the<00:06:16.910> appropriate
+
+00:06:17.320 --> 00:06:17.330 
+then have to recycle the appropriate
+
+00:06:17.330 --> 00:06:21.490 
+then have to recycle the appropriate
+application<00:06:17.450> pool<00:06:19.840> which<00:06:20.840> in<00:06:20.960> our<00:06:21.020> case<00:06:21.080> is
+
+00:06:21.490 --> 00:06:21.500 
+application pool which in our case is
+
+00:06:21.500 --> 00:06:27.910 
+application pool which in our case is
+the<00:06:21.620> default<00:06:21.920> application<00:06:22.430> pool<00:06:26.710> not<00:06:27.710> a<00:06:27.740> lot
+
+00:06:27.910 --> 00:06:27.920 
+the default application pool not a lot
+
+00:06:27.920 --> 00:06:31.120 
+the default application pool not a lot
+of<00:06:27.950> changes<00:06:29.230> but<00:06:30.230> after<00:06:30.320> refreshing<00:06:30.710> we<00:06:31.010> would
+
+00:06:31.120 --> 00:06:31.130 
+of changes but after refreshing we would
+
+00:06:31.130 --> 00:06:36.040 
+of changes but after refreshing we would
+now<00:06:31.220> see<00:06:31.430> them<00:06:31.550> represented<00:06:32.000> here<00:06:34.930> with<00:06:35.930> the
+
+00:06:36.040 --> 00:06:36.050 
+now see them represented here with the
+
+00:06:36.050 --> 00:06:38.050 
+now see them represented here with the
+handler<00:06:36.380> mapping<00:06:36.710> for<00:06:36.920> PHP<00:06:37.370> configured<00:06:38.030> to
+
+00:06:38.050 --> 00:06:38.060 
+handler mapping for PHP configured to
+
+00:06:38.060 --> 00:06:43.870 
+handler mapping for PHP configured to
+use<00:06:38.180> fast<00:06:38.540> CGI<00:06:41.740> we're<00:06:42.740> now<00:06:42.860> enjoying<00:06:43.250> about<00:06:43.520> 20
+
+00:06:43.870 --> 00:06:43.880 
+use fast CGI we're now enjoying about 20
+
+00:06:43.880 --> 00:06:46.930 
+use fast CGI we're now enjoying about 20
+times<00:06:44.060> faster<00:06:44.210> performance<00:06:44.840> as<00:06:45.850> compared<00:06:46.850> to
+
+00:06:46.930 --> 00:06:46.940 
+times faster performance as compared to
+
+00:06:46.940 --> 00:06:51.160 
+times faster performance as compared to
+just<00:06:47.090> using<00:06:47.450> the<00:06:47.570> CGI<00:06:47.930> module<00:06:49.870> we<00:06:50.870> hope<00:06:50.990> you've
+
+00:06:51.160 --> 00:06:51.170 
+just using the CGI module we hope you've
+
+00:06:51.170 --> 00:06:52.360 
+just using the CGI module we hope you've
+enjoyed<00:06:51.230> this<00:06:51.560> walkthrough<00:06:51.830> about
+
+00:06:52.360 --> 00:06:52.370 
+enjoyed this walkthrough about
+
+00:06:52.370 --> 00:06:56.640 
+enjoyed this walkthrough about
+configuring<00:06:52.670> PHP<00:06:53.510> and<00:06:53.750> fast<00:06:54.290> CGI<00:06:54.650> on<00:06:54.980> iis7
+
+00:06:56.640 --> 00:06:56.650 
+configuring PHP and fast CGI on iis7
+
+00:06:56.650 --> 00:06:58.930 
+configuring PHP and fast CGI on iis7
+having<00:06:57.650> this<00:06:57.740> option<00:06:58.070> available<00:06:58.160> makes
+
+00:06:58.930 --> 00:06:58.940 
+having this option available makes
+
+00:06:58.940 --> 00:07:00.940 
+having this option available makes
+windows<00:06:59.240> server<00:06:59.450> 2008<00:07:00.080> a<00:07:00.290> very<00:07:00.560> compelling
+
+00:07:00.940 --> 00:07:00.950 
+windows server 2008 a very compelling
+
+00:07:00.950 --> 00:07:05.440 
+windows server 2008 a very compelling
+platform<00:07:01.610> to<00:07:02.030> deploy<00:07:02.270> PHP<00:07:02.840> applications
+

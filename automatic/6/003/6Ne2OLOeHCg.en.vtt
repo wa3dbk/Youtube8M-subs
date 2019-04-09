@@ -1,0 +1,1308 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.220 --> 00:00:07.309 
+
+hey<00:00:05.220> guys<00:00:05.490> welcome<00:00:05.819> back<00:00:06.150> this<00:00:06.390> is<00:00:06.569> episode<00:00:07.049> 12
+
+00:00:07.309 --> 00:00:07.319 
+hey guys welcome back this is episode 12
+
+00:00:07.319 --> 00:00:09.950 
+hey guys welcome back this is episode 12
+of<00:00:07.589> our<00:00:07.740> unity<00:00:08.160> making<00:00:08.490> RPG<00:00:08.940> series<00:00:09.210> and<00:00:09.660> today
+
+00:00:09.950 --> 00:00:09.960 
+of our unity making RPG series and today
+
+00:00:09.960 --> 00:00:12.680 
+of our unity making RPG series and today
+I'm<00:00:10.170> gonna<00:00:10.320> cover<00:00:10.620> our<00:00:11.070> loading<00:00:12.030> and<00:00:12.360> saving
+
+00:00:12.680 --> 00:00:12.690 
+I'm gonna cover our loading and saving
+
+00:00:12.690 --> 00:00:14.419 
+I'm gonna cover our loading and saving
+information<00:00:13.290> I'm<00:00:13.380> gonna<00:00:13.590> continue<00:00:13.950> to<00:00:14.250> cover
+
+00:00:14.419 --> 00:00:14.429 
+information I'm gonna continue to cover
+
+00:00:14.429 --> 00:00:17.029 
+information I'm gonna continue to cover
+what<00:00:14.610> we<00:00:14.790> started<00:00:15.570> last<00:00:15.630> time<00:00:15.929> so<00:00:16.770> just<00:00:16.920> a
+
+00:00:17.029 --> 00:00:17.039 
+what we started last time so just a
+
+00:00:17.039 --> 00:00:20.269 
+what we started last time so just a
+quick<00:00:17.220> reminder<00:00:17.550> what<00:00:17.850> we<00:00:17.940> did<00:00:18.119> last<00:00:18.240> time<00:00:19.279> we
+
+00:00:20.269 --> 00:00:20.279 
+quick reminder what we did last time we
+
+00:00:20.279 --> 00:00:22.279 
+quick reminder what we did last time we
+set<00:00:20.609> up<00:00:20.730> two<00:00:20.910> scripts<00:00:21.210> that<00:00:21.449> are<00:00:21.689> slowed<00:00:22.140> and
+
+00:00:22.279 --> 00:00:22.289 
+set up two scripts that are slowed and
+
+00:00:22.289 --> 00:00:24.500 
+set up two scripts that are slowed and
+safe<00:00:22.500> information<00:00:23.039> scripts<00:00:23.340> and<00:00:23.550> we<00:00:24.269> have<00:00:24.390> it
+
+00:00:24.500 --> 00:00:24.510 
+safe information scripts and we have it
+
+00:00:24.510 --> 00:00:25.880 
+safe information scripts and we have it
+set<00:00:24.720> up<00:00:24.750> so<00:00:24.840> that<00:00:24.990> you<00:00:25.140> can<00:00:25.410> create<00:00:25.619> a<00:00:25.710> class
+
+00:00:25.880 --> 00:00:25.890 
+set up so that you can create a class
+
+00:00:25.890 --> 00:00:27.890 
+set up so that you can create a class
+and<00:00:26.310> create<00:00:26.430> a<00:00:26.580> name<00:00:26.760> and<00:00:27.000> hit<00:00:27.180> create<00:00:27.330> and<00:00:27.779> it
+
+00:00:27.890 --> 00:00:27.900 
+and create a name and hit create and it
+
+00:00:27.900 --> 00:00:30.919 
+and create a name and hit create and it
+saves<00:00:28.199> our<00:00:28.380> information<00:00:29.179> now<00:00:30.179> there's<00:00:30.660> one
+
+00:00:30.919 --> 00:00:30.929 
+saves our information now there's one
+
+00:00:30.929 --> 00:00:32.900 
+saves our information now there's one
+problem<00:00:31.170> with<00:00:31.410> this<00:00:31.710> and<00:00:31.949> what<00:00:32.610> I<00:00:32.640> want<00:00:32.850> you
+
+00:00:32.900 --> 00:00:32.910 
+problem with this and what I want you
+
+00:00:32.910 --> 00:00:34.580 
+problem with this and what I want you
+guys<00:00:33.090> to<00:00:33.120> do<00:00:33.329> is<00:00:33.540> open<00:00:33.989> our<00:00:34.110> load<00:00:34.320> information
+
+00:00:34.580 --> 00:00:34.590 
+guys to do is open our load information
+
+00:00:34.590 --> 00:00:36.590 
+guys to do is open our load information
+and<00:00:35.100> save<00:00:35.280> information<00:00:35.910> and<00:00:36.120> create<00:00:36.480> new
+
+00:00:36.590 --> 00:00:36.600 
+and save information and create new
+
+00:00:36.600 --> 00:00:38.000 
+and save information and create new
+character<00:00:36.989> scripts<00:00:37.320> and<00:00:37.530> go<00:00:37.890> into
+
+00:00:38.000 --> 00:00:38.010 
+character scripts and go into
+
+00:00:38.010 --> 00:00:38.750 
+character scripts and go into
+monodevelop
+
+00:00:38.750 --> 00:00:38.760 
+monodevelop
+
+00:00:38.760 --> 00:00:41.690 
+monodevelop
+the<00:00:39.480> problem<00:00:39.960> that<00:00:40.110> the<00:00:40.860> the<00:00:41.160> first<00:00:41.399> problem
+
+00:00:41.690 --> 00:00:41.700 
+the problem that the the first problem
+
+00:00:41.700 --> 00:00:43.040 
+the problem that the the first problem
+or<00:00:41.790> the<00:00:41.940> problem<00:00:41.969> that<00:00:42.239> we<00:00:42.360> have<00:00:42.540> is<00:00:42.809> that
+
+00:00:43.040 --> 00:00:43.050 
+or the problem that we have is that
+
+00:00:43.050 --> 00:00:45.979 
+or the problem that we have is that
+we're<00:00:43.200> saving<00:00:43.469> information<00:00:44.660> that's<00:00:45.660> being
+
+00:00:45.979 --> 00:00:45.989 
+we're saving information that's being
+
+00:00:45.989 --> 00:00:47.360 
+we're saving information that's being
+that<00:00:46.350> we're<00:00:46.559> all<00:00:46.800> the<00:00:46.829> information<00:00:47.309> that
+
+00:00:47.360 --> 00:00:47.370 
+that we're all the information that
+
+00:00:47.370 --> 00:00:48.770 
+that we're all the information that
+we're<00:00:47.550> saving<00:00:47.730> when<00:00:47.969> we<00:00:48.059> call<00:00:48.239> this<00:00:48.360> save<00:00:48.600> all
+
+00:00:48.770 --> 00:00:48.780 
+we're saving when we call this save all
+
+00:00:48.780 --> 00:00:50.540 
+we're saving when we call this save all
+information<00:00:49.320> is<00:00:49.469> actually<00:00:50.070> in<00:00:50.219> our<00:00:50.340> game
+
+00:00:50.540 --> 00:00:50.550 
+information is actually in our game
+
+00:00:50.550 --> 00:00:53.330 
+information is actually in our game
+information<00:00:51.239> object<00:00:51.870> or<00:00:52.110> in<00:00:52.379> script<00:00:52.829> stored
+
+00:00:53.330 --> 00:00:53.340 
+information object or in script stored
+
+00:00:53.340 --> 00:00:56.060 
+information object or in script stored
+in<00:00:53.460> these<00:00:53.579> public<00:00:54.120> static<00:00:54.480> variables<00:00:55.070> but
+
+00:00:56.060 --> 00:00:56.070 
+in these public static variables but
+
+00:00:56.070 --> 00:00:57.799 
+in these public static variables but
+when<00:00:56.489> we<00:00:56.640> when<00:00:56.940> we<00:00:57.030> create<00:00:57.300> our<00:00:57.329> character
+
+00:00:57.799 --> 00:00:57.809 
+when we when we create our character
+
+00:00:57.809 --> 00:01:00.080 
+when we when we create our character
+we're<00:00:58.649> not<00:00:58.800> we<00:00:58.980> haven't<00:00:59.129> actually<00:00:59.399> put<00:00:59.879> them
+
+00:01:00.080 --> 00:01:00.090 
+we're not we haven't actually put them
+
+00:01:00.090 --> 00:01:01.970 
+we're not we haven't actually put them
+there<00:01:00.270> so<00:01:00.480> it<00:01:00.629> doesn't<00:01:00.809> see<00:01:01.199> it<00:01:01.379> so<00:01:01.620> what<00:01:01.770> we
+
+00:01:01.970 --> 00:01:01.980 
+there so it doesn't see it so what we
+
+00:01:01.980 --> 00:01:04.189 
+there so it doesn't see it so what we
+need<00:01:02.160> to<00:01:02.280> do<00:01:02.430> and<00:01:02.699> we'll<00:01:03.300> do<00:01:03.449> it<00:01:03.539> in<00:01:03.660> a<00:01:03.719> function
+
+00:01:04.189 --> 00:01:04.199 
+need to do and we'll do it in a function
+
+00:01:04.199 --> 00:01:10.670 
+need to do and we'll do it in a function
+is<00:01:05.090> go<00:01:06.090> private<00:01:07.220> void<00:01:08.390> and<00:01:09.390> then<00:01:10.380> we'll<00:01:10.530> just
+
+00:01:10.670 --> 00:01:10.680 
+is go private void and then we'll just
+
+00:01:10.680 --> 00:01:17.270 
+is go private void and then we'll just
+say<00:01:10.860> store<00:01:11.869> new<00:01:12.869> player<00:01:14.210> info<00:01:15.210> and<00:01:16.159> what<00:01:17.159> this
+
+00:01:17.270 --> 00:01:17.280 
+say store new player info and what this
+
+00:01:17.280 --> 00:01:19.130 
+say store new player info and what this
+will<00:01:17.490> do<00:01:17.700> is<00:01:17.729> we're<00:01:18.150> gonna<00:01:18.240> store<00:01:18.570> when<00:01:18.900> we<00:01:19.020> hit
+
+00:01:19.130 --> 00:01:19.140 
+will do is we're gonna store when we hit
+
+00:01:19.140 --> 00:01:20.390 
+will do is we're gonna store when we hit
+create<00:01:19.409> we'll<00:01:19.590> call<00:01:19.740> this<00:01:19.860> function<00:01:20.070> and
+
+00:01:20.390 --> 00:01:20.400 
+create we'll call this function and
+
+00:01:20.400 --> 00:01:22.340 
+create we'll call this function and
+we're<00:01:20.520> just<00:01:20.580> going<00:01:20.820> to<00:01:20.909> store<00:01:21.150> our<00:01:21.420> new<00:01:22.110> player
+
+00:01:22.340 --> 00:01:22.350 
+we're just going to store our new player
+
+00:01:22.350 --> 00:01:24.380 
+we're just going to store our new player
+name<00:01:22.650> or<00:01:23.130> our<00:01:23.610> player<00:01:23.820> name<00:01:24.060> all<00:01:24.240> that
+
+00:01:24.380 --> 00:01:24.390 
+name or our player name all that
+
+00:01:24.390 --> 00:01:26.149 
+name or our player name all that
+information<00:01:24.930> into<00:01:25.229> our<00:01:25.259> game<00:01:25.560> information
+
+00:01:26.149 --> 00:01:26.159 
+information into our game information
+
+00:01:26.159 --> 00:01:28.310 
+information into our game information
+script<00:01:26.549> so<00:01:26.850> that<00:01:26.880> when<00:01:27.150> we<00:01:27.299> call<00:01:27.659> our<00:01:27.960> save<00:01:28.200> all
+
+00:01:28.310 --> 00:01:28.320 
+script so that when we call our save all
+
+00:01:28.320 --> 00:01:31.030 
+script so that when we call our save all
+information<00:01:28.950> it<00:01:29.640> will<00:01:29.820> actually<00:01:29.970> save<00:01:30.390> it
+
+00:01:31.030 --> 00:01:31.040 
+information it will actually save it
+
+00:01:31.040 --> 00:01:34.370 
+information it will actually save it
+properly<00:01:32.040> so<00:01:33.000> what<00:01:33.479> you<00:01:33.570> need<00:01:33.720> to<00:01:33.810> do<00:01:33.990> is<00:01:34.170> in
+
+00:01:34.370 --> 00:01:34.380 
+properly so what you need to do is in
+
+00:01:34.380 --> 00:01:36.789 
+properly so what you need to do is in
+this<00:01:34.560> store<00:01:35.189> new<00:01:35.369> player<00:01:35.579> info<00:01:35.850> you<00:01:36.090> go<00:01:36.240> game
+
+00:01:36.789 --> 00:01:36.799 
+this store new player info you go game
+
+00:01:36.799 --> 00:01:42.469 
+this store new player info you go game
+information<00:01:38.930> dot<00:01:39.930> player<00:01:40.229> name<00:01:41.119> is<00:01:42.119> equal<00:01:42.450> to
+
+00:01:42.469 --> 00:01:42.479 
+information dot player name is equal to
+
+00:01:42.479 --> 00:01:47.350 
+information dot player name is equal to
+new<00:01:42.750> player<00:01:44.840> dot<00:01:45.840> name<00:01:46.140> player<00:01:46.649> name<00:01:46.920> and
+
+00:01:47.350 --> 00:01:47.360 
+new player dot name player name and
+
+00:01:47.360 --> 00:01:49.429 
+new player dot name player name and
+we're<00:01:48.360> gonna<00:01:48.479> go<00:01:48.720> in<00:01:48.869> here<00:01:48.899> and<00:01:49.200> we're<00:01:49.350> going
+
+00:01:49.429 --> 00:01:49.439 
+we're gonna go in here and we're going
+
+00:01:49.439 --> 00:01:53.510 
+we're gonna go in here and we're going
+to<00:01:49.500> do<00:01:49.649> that<00:01:49.829> for<00:01:50.130> all<00:01:50.340> of<00:01:50.369> our<00:01:52.340> for<00:01:53.340> all<00:01:53.399> the
+
+00:01:53.510 --> 00:01:53.520 
+to do that for all of our for all the
+
+00:01:53.520 --> 00:01:54.920 
+to do that for all of our for all the
+things<00:01:53.670> we<00:01:53.790> created<00:01:54.299> so<00:01:54.420> I'm<00:01:54.509> actually<00:01:54.659> going
+
+00:01:54.920 --> 00:01:54.930 
+things we created so I'm actually going
+
+00:01:54.930 --> 00:01:56.690 
+things we created so I'm actually going
+to<00:01:55.020> come<00:01:55.200> up<00:01:55.320> here<00:01:55.530> and<00:01:55.710> select<00:01:56.310> new<00:01:56.460> player
+
+00:01:56.690 --> 00:01:56.700 
+to come up here and select new player
+
+00:01:56.700 --> 00:02:03.700 
+to come up here and select new player
+level<00:01:57.119> and<00:01:57.590> our<00:01:58.590> stats<00:01:59.310> so<00:02:00.000> I'm<00:02:00.119> copy<00:02:00.360> that<00:02:02.240> and
+
+00:02:03.700 --> 00:02:03.710 
+level and our stats so I'm copy that and
+
+00:02:03.710 --> 00:02:09.029 
+level and our stats so I'm copy that and
+I'm<00:02:04.710> gonna<00:02:04.829> erase<00:02:05.310> a<00:02:05.610> few<00:02:05.850> things
+
+00:02:09.029 --> 00:02:09.039 
+
+00:02:09.039 --> 00:02:11.410 
+
+you<00:02:10.039> can<00:02:10.220> do<00:02:10.340> that<00:02:10.459> you<00:02:10.580> can<00:02:10.700> fast-forward
+
+00:02:11.410 --> 00:02:11.420 
+you can do that you can fast-forward
+
+00:02:11.420 --> 00:02:12.850 
+you can do that you can fast-forward
+through<00:02:11.750> the<00:02:11.810> video<00:02:12.050> if<00:02:12.170> you<00:02:12.200> need<00:02:12.440> to<00:02:12.560> but<00:02:12.770> I'm
+
+00:02:12.850 --> 00:02:12.860 
+through the video if you need to but I'm
+
+00:02:12.860 --> 00:02:14.910 
+through the video if you need to but I'm
+just<00:02:12.950> going<00:02:13.100> to<00:02:13.190> do<00:02:13.250> this<00:02:13.370> real<00:02:13.550> quick<00:02:13.760> and
+
+00:02:14.910 --> 00:02:14.920 
+just going to do this real quick and
+
+00:02:14.920 --> 00:02:18.220 
+just going to do this real quick and
+instead<00:02:15.920> of<00:02:16.010> name<00:02:16.190> is<00:02:16.370> gonna<00:02:16.489> be<00:02:16.580> level<00:02:17.230> so
+
+00:02:18.220 --> 00:02:18.230 
+instead of name is gonna be level so
+
+00:02:18.230 --> 00:02:19.840 
+instead of name is gonna be level so
+here<00:02:18.440> I<00:02:18.500> just<00:02:18.530> a<00:02:18.800> game<00:02:18.980> information<00:02:19.220> player
+
+00:02:19.840 --> 00:02:19.850 
+here I just a game information player
+
+00:02:19.850 --> 00:02:21.610 
+here I just a game information player
+level<00:02:20.239> is<00:02:20.420> equal<00:02:20.720> to<00:02:20.870> new<00:02:21.020> player<00:02:21.230> top<00:02:21.440> player
+
+00:02:21.610 --> 00:02:21.620 
+level is equal to new player top player
+
+00:02:21.620 --> 00:02:25.180 
+level is equal to new player top player
+level<00:02:21.950> exactly<00:02:22.910> what<00:02:23.180> we<00:02:23.300> want<00:02:23.800> gonna<00:02:24.800> come<00:02:25.069> in
+
+00:02:25.180 --> 00:02:25.190 
+level exactly what we want gonna come in
+
+00:02:25.190 --> 00:02:32.229 
+level exactly what we want gonna come in
+here<00:02:27.940> gonna<00:02:28.940> race<00:02:29.239> this<00:02:30.970> change<00:02:31.970> it<00:02:32.120> to
+
+00:02:32.229 --> 00:02:32.239 
+here gonna race this change it to
+
+00:02:32.239 --> 00:02:40.270 
+here gonna race this change it to
+stamina<00:02:37.000> go<00:02:38.000> in<00:02:38.120> here<00:02:38.450> a<00:02:38.830> lot<00:02:39.830> of<00:02:39.950> copying
+
+00:02:40.270 --> 00:02:40.280 
+stamina go in here a lot of copying
+
+00:02:40.280 --> 00:02:43.140 
+stamina go in here a lot of copying
+pasting<00:02:40.550> and<00:02:41.000> coding<00:02:41.360> but<00:02:42.350> it's<00:02:42.500> okay
+
+00:02:43.140 --> 00:02:43.150 
+pasting and coding but it's okay
+
+00:02:43.150 --> 00:02:50.080 
+pasting and coding but it's okay
+it's<00:02:44.150> good<00:02:44.330> practice<00:02:44.360> I<00:02:44.870> think<00:02:47.440> and<00:02:49.090> then
+
+00:02:50.080 --> 00:02:50.090 
+it's good practice I think and then
+
+00:02:50.090 --> 00:02:53.770 
+it's good practice I think and then
+strength<00:02:50.540> and<00:02:50.810> then<00:02:51.709> I<00:02:51.830> think<00:02:52.600> since<00:02:53.600> we're
+
+00:02:53.770 --> 00:02:53.780 
+strength and then I think since we're
+
+00:02:53.780 --> 00:02:57.790 
+strength and then I think since we're
+not<00:02:53.840> gonna<00:02:54.019> be<00:02:54.200> saving<00:02:54.470> our<00:02:55.480> in<00:02:56.500> the<00:02:57.500> next
+
+00:02:57.790 --> 00:02:57.800 
+not gonna be saving our in the next
+
+00:02:57.800 --> 00:02:59.559 
+not gonna be saving our in the next
+video<00:02:58.100> I'm<00:02:58.250> gonna<00:02:58.370> cover<00:02:58.640> a<00:02:58.730> serialization
+
+00:02:59.559 --> 00:02:59.569 
+video I'm gonna cover a serialization
+
+00:02:59.569 --> 00:03:02.500 
+video I'm gonna cover a serialization
+and<00:02:59.720> so<00:03:00.560> right<00:03:01.459> now<00:03:01.580> we're<00:03:01.760> not<00:03:01.790> saving<00:03:02.239> our
+
+00:03:02.500 --> 00:03:02.510 
+and so right now we're not saving our
+
+00:03:02.510 --> 00:03:06.580 
+and so right now we're not saving our
+class<00:03:03.220> which<00:03:04.220> isn't<00:03:04.730> a<00:03:04.940> huge<00:03:05.090> problem<00:03:05.209> yet<00:03:05.870> but
+
+00:03:06.580 --> 00:03:06.590 
+class which isn't a huge problem yet but
+
+00:03:06.590 --> 00:03:07.930 
+class which isn't a huge problem yet but
+we<00:03:06.739> definitely<00:03:06.920> want<00:03:07.130> to<00:03:07.280> cover<00:03:07.400> that<00:03:07.519> because
+
+00:03:07.930 --> 00:03:07.940 
+we definitely want to cover that because
+
+00:03:07.940 --> 00:03:09.220 
+we definitely want to cover that because
+it's<00:03:08.120> gonna<00:03:08.269> allow<00:03:08.390> you<00:03:08.540> guys<00:03:08.780> to<00:03:08.840> really
+
+00:03:09.220 --> 00:03:09.230 
+it's gonna allow you guys to really
+
+00:03:09.230 --> 00:03:11.620 
+it's gonna allow you guys to really
+expand<00:03:09.739> a<00:03:09.830> lot<00:03:09.950> of<00:03:10.069> your<00:03:10.160> projects
+
+00:03:11.620 --> 00:03:11.630 
+expand a lot of your projects
+
+00:03:11.630 --> 00:03:17.140 
+expand a lot of your projects
+so<00:03:13.209> let<00:03:14.209> me<00:03:14.239> game<00:03:15.079> information<00:03:15.650> we<00:03:15.739> have<00:03:16.150> yep
+
+00:03:17.140 --> 00:03:17.150 
+so let me game information we have yep
+
+00:03:17.150 --> 00:03:20.350 
+so let me game information we have yep
+okay<00:03:17.480> so<00:03:18.320> an<00:03:18.860> a<00:03:19.340> credit<00:03:19.610> character<00:03:19.910> we<00:03:20.090> created
+
+00:03:20.350 --> 00:03:20.360 
+okay so an a credit character we created
+
+00:03:20.360 --> 00:03:21.910 
+okay so an a credit character we created
+a<00:03:20.420> need<00:03:20.540> in<00:03:20.870> our<00:03:21.110> create<00:03:21.410> new<00:03:21.500> character<00:03:21.799> we
+
+00:03:21.910 --> 00:03:21.920 
+a need in our create new character we
+
+00:03:21.920 --> 00:03:24.009 
+a need in our create new character we
+created<00:03:22.310> a<00:03:22.459> function<00:03:22.700> called<00:03:23.269> store<00:03:23.540> new<00:03:23.660> and
+
+00:03:24.009 --> 00:03:24.019 
+created a function called store new and
+
+00:03:24.019 --> 00:03:25.990 
+created a function called store new and
+fro<00:03:24.200> information<00:03:24.980> and<00:03:25.190> what<00:03:25.310> its<00:03:25.430> gonna<00:03:25.519> do<00:03:25.820> is
+
+00:03:25.990 --> 00:03:26.000 
+fro information and what its gonna do is
+
+00:03:26.000 --> 00:03:27.580 
+fro information and what its gonna do is
+all<00:03:26.150> the<00:03:26.269> new<00:03:26.359> input<00:03:26.510> information<00:03:26.959> we<00:03:27.500> have
+
+00:03:27.580 --> 00:03:27.590 
+all the new input information we have
+
+00:03:27.590 --> 00:03:28.840 
+all the new input information we have
+here<00:03:27.769> we're<00:03:27.950> gonna<00:03:28.040> put<00:03:28.280> immediately<00:03:28.609> into
+
+00:03:28.840 --> 00:03:28.850 
+here we're gonna put immediately into
+
+00:03:28.850 --> 00:03:31.000 
+here we're gonna put immediately into
+our<00:03:29.150> game<00:03:29.329> information<00:03:29.630> object<00:03:30.290> and<00:03:30.500> then
+
+00:03:31.000 --> 00:03:31.010 
+our game information object and then
+
+00:03:31.010 --> 00:03:32.979 
+our game information object and then
+when<00:03:31.160> we<00:03:31.370> call<00:03:31.609> save<00:03:32.180> all<00:03:32.329> information<00:03:32.780> we'll
+
+00:03:32.979 --> 00:03:32.989 
+when we call save all information we'll
+
+00:03:32.989 --> 00:03:36.759 
+when we call save all information we'll
+save<00:03:33.230> the<00:03:33.350> information<00:03:33.440> properly<00:03:35.320> so<00:03:36.320> above
+
+00:03:36.759 --> 00:03:36.769 
+save the information properly so above
+
+00:03:36.769 --> 00:03:38.140 
+save the information properly so above
+save<00:03:37.070> your<00:03:37.190> information<00:03:37.640> save<00:03:38.000> all
+
+00:03:38.140 --> 00:03:38.150 
+save your information save all
+
+00:03:38.150 --> 00:03:41.440 
+save your information save all
+information<00:03:38.660> go<00:03:39.140> type<00:03:39.590> in<00:03:39.799> store<00:03:40.190> player<00:03:41.060> info
+
+00:03:41.440 --> 00:03:41.450 
+information go type in store player info
+
+00:03:41.450 --> 00:03:45.940 
+information go type in store player info
+and<00:03:42.160> type<00:03:43.160> call<00:03:43.940> the<00:03:44.030> function<00:03:44.390> and<00:03:44.950> that
+
+00:03:45.940 --> 00:03:45.950 
+and type call the function and that
+
+00:03:45.950 --> 00:03:48.520 
+and type call the function and that
+should<00:03:46.130> be<00:03:46.190> done<00:03:46.220> and<00:03:46.780> so<00:03:47.780> we'll<00:03:47.930> go<00:03:48.109> we'll
+
+00:03:48.520 --> 00:03:48.530 
+should be done and so we'll go we'll
+
+00:03:48.530 --> 00:03:49.690 
+should be done and so we'll go we'll
+just<00:03:48.560> go<00:03:48.739> to<00:03:48.799> unity<00:03:49.100> make<00:03:49.250> sure<00:03:49.370> that<00:03:49.489> we<00:03:49.609> don't
+
+00:03:49.690 --> 00:03:49.700 
+just go to unity make sure that we don't
+
+00:03:49.700 --> 00:03:52.810 
+just go to unity make sure that we don't
+have<00:03:49.880> any<00:03:50.150> issues<00:03:50.570> controls<00:03:51.109> to<00:03:51.230> save<00:03:51.470> no<00:03:52.370> no
+
+00:03:52.810 --> 00:03:52.820 
+have any issues controls to save no no
+
+00:03:52.820 --> 00:03:55.599 
+have any issues controls to save no no
+problems<00:03:53.239> so<00:03:53.450> that's<00:03:53.540> good<00:03:54.220> now<00:03:55.220> what<00:03:55.489> we're
+
+00:03:55.599 --> 00:03:55.609 
+problems so that's good now what we're
+
+00:03:55.609 --> 00:03:57.220 
+problems so that's good now what we're
+gonna<00:03:55.670> do<00:03:55.940> is<00:03:56.239> I<00:03:56.570> create<00:03:56.630> an<00:03:56.930> if<00:03:57.019> statement
+
+00:03:57.220 --> 00:03:57.230 
+gonna do is I create an if statement
+
+00:03:57.230 --> 00:03:58.630 
+gonna do is I create an if statement
+down<00:03:57.500> here<00:03:57.620> just<00:03:57.829> commented<00:03:58.160> out<00:03:58.250> this<00:03:58.489> is
+
+00:03:58.630 --> 00:03:58.640 
+down here just commented out this is
+
+00:03:58.640 --> 00:04:01.180 
+down here just commented out this is
+what<00:03:58.790> you<00:03:58.880> guys<00:03:59.000> need<00:03:59.209> to<00:03:59.239> do<00:03:59.450> is<00:03:59.690> create<00:04:00.049> a<00:04:00.260> new
+
+00:04:01.180 --> 00:04:01.190 
+what you guys need to do is create a new
+
+00:04:01.190 --> 00:04:03.610 
+what you guys need to do is create a new
+button<00:04:01.519> GUI<00:04:02.180> layout<00:04:02.390> up<00:04:02.750> button<00:04:02.989> and<00:04:03.200> type<00:04:03.470> in
+
+00:04:03.610 --> 00:04:03.620 
+button GUI layout up button and type in
+
+00:04:03.620 --> 00:04:05.440 
+button GUI layout up button and type in
+load<00:04:03.890> and<00:04:04.160> then<00:04:04.850> we're<00:04:04.940> gonna<00:04:05.030> load<00:04:05.269> a<00:04:05.329> new
+
+00:04:05.440 --> 00:04:05.450 
+load and then we're gonna load a new
+
+00:04:05.450 --> 00:04:07.150 
+load and then we're gonna load a new
+scene<00:04:05.840> and<00:04:06.079> the<00:04:06.170> way<00:04:06.290> you<00:04:06.350> load<00:04:06.560> new<00:04:06.739> scene<00:04:06.950> is
+
+00:04:07.150 --> 00:04:07.160 
+scene and the way you load new scene is
+
+00:04:07.160 --> 00:04:09.729 
+scene and the way you load new scene is
+application<00:04:07.850> dot<00:04:08.390> load<00:04:08.660> level<00:04:09.049> and<00:04:09.230> then<00:04:09.530> the
+
+00:04:09.729 --> 00:04:09.739 
+application dot load level and then the
+
+00:04:09.739 --> 00:04:12.460 
+application dot load level and then the
+name<00:04:10.040> of<00:04:10.190> that<00:04:10.280> scene<00:04:10.609> in<00:04:10.850> this<00:04:11.600> case<00:04:11.840> the<00:04:12.109> C
+
+00:04:12.460 --> 00:04:12.470 
+name of that scene in this case the C
+
+00:04:12.470 --> 00:04:15.729 
+name of that scene in this case the C
+name<00:04:12.620> is<00:04:12.829> T<00:04:13.040> set<00:04:13.310> i<00:04:13.549> misspelled<00:04:14.239> test<00:04:14.569> so<00:04:15.560> going
+
+00:04:15.729 --> 00:04:15.739 
+name is T set i misspelled test so going
+
+00:04:15.739 --> 00:04:18.129 
+name is T set i misspelled test so going
+to<00:04:15.859> control<00:04:16.160> s<00:04:16.310> go<00:04:16.549> to<00:04:16.579> unity<00:04:17.030> i<00:04:17.209> mean<00:04:17.870> you<00:04:18.019> need
+
+00:04:18.129 --> 00:04:18.139 
+to control s go to unity i mean you need
+
+00:04:18.139 --> 00:04:19.990 
+to control s go to unity i mean you need
+to<00:04:18.290> add<00:04:18.410> the<00:04:18.620> scenes<00:04:18.889> that<00:04:19.100> we<00:04:19.250> have
+
+00:04:19.990 --> 00:04:20.000 
+to add the scenes that we have
+
+00:04:20.000 --> 00:04:21.370 
+to add the scenes that we have
+to<00:04:20.060> our<00:04:20.150> building<00:04:20.390> setting<00:04:20.959> our<00:04:21.170> build
+
+00:04:21.370 --> 00:04:21.380 
+to our building setting our build
+
+00:04:21.380 --> 00:04:22.990 
+to our building setting our build
+settings<00:04:21.680> could<00:04:21.920> so<00:04:22.220> go<00:04:22.370> to<00:04:22.430> build<00:04:22.670> settings
+
+00:04:22.990 --> 00:04:23.000 
+settings could so go to build settings
+
+00:04:23.000 --> 00:04:25.030 
+settings could so go to build settings
+and<00:04:23.210> you<00:04:23.330> can<00:04:23.360> just<00:04:23.630> drag<00:04:23.840> and<00:04:24.050> drop<00:04:24.080> the
+
+00:04:25.030 --> 00:04:25.040 
+and you can just drag and drop the
+
+00:04:25.040 --> 00:04:28.330 
+and you can just drag and drop the
+scenes<00:04:25.340> into<00:04:25.850> the<00:04:26.150> scenes<00:04:26.450> in<00:04:26.660> build<00:04:26.900> and<00:04:27.340> what
+
+00:04:28.330 --> 00:04:28.340 
+scenes into the scenes in build and what
+
+00:04:28.340 --> 00:04:30.490 
+scenes into the scenes in build and what
+this<00:04:28.550> will<00:04:28.730> allow<00:04:28.760> us<00:04:28.940> to<00:04:29.120> do<00:04:29.390> is<00:04:29.690> when<00:04:30.110> we<00:04:30.230> hit
+
+00:04:30.490 --> 00:04:30.500 
+this will allow us to do is when we hit
+
+00:04:30.500 --> 00:04:32.380 
+this will allow us to do is when we hit
+the<00:04:30.860> load<00:04:31.070> button<00:04:31.100> that<00:04:31.550> shows<00:04:31.700> up<00:04:32.000> it'll
+
+00:04:32.380 --> 00:04:32.390 
+the load button that shows up it'll
+
+00:04:32.390 --> 00:04:34.780 
+the load button that shows up it'll
+allow<00:04:32.810> us<00:04:32.840> to<00:04:32.990> load<00:04:33.260> that<00:04:33.410> level<00:04:33.800> so<00:04:34.580> I'm<00:04:34.670> going
+
+00:04:34.780 --> 00:04:34.790 
+allow us to load that level so I'm going
+
+00:04:34.790 --> 00:04:36.010 
+allow us to load that level so I'm going
+to<00:04:34.850> press<00:04:34.970> play<00:04:35.000> and<00:04:35.420> you'll<00:04:35.510> see<00:04:35.660> the<00:04:35.750> button
+
+00:04:36.010 --> 00:04:36.020 
+to press play and you'll see the button
+
+00:04:36.020 --> 00:04:38.350 
+to press play and you'll see the button
+pop<00:04:36.170> up<00:04:36.640> and<00:04:37.640> I'm<00:04:37.760> going<00:04:37.880> to<00:04:37.910> create<00:04:38.120> a<00:04:38.180> new
+
+00:04:38.350 --> 00:04:38.360 
+pop up and I'm going to create a new
+
+00:04:38.360 --> 00:04:42.220 
+pop up and I'm going to create a new
+character<00:04:38.600> I'm<00:04:39.020> going<00:04:39.140> to<00:04:39.290> name<00:04:39.410> it<00:04:39.440> test<00:04:41.230> I'm
+
+00:04:42.220 --> 00:04:42.230 
+character I'm going to name it test I'm
+
+00:04:42.230 --> 00:04:45.460 
+character I'm going to name it test I'm
+gonna<00:04:43.010> hit<00:04:43.460> create<00:04:43.730> so<00:04:44.660> right<00:04:44.840> away<00:04:44.960> we<00:04:45.080> saved
+
+00:04:45.460 --> 00:04:45.470 
+gonna hit create so right away we saved
+
+00:04:45.470 --> 00:04:46.690 
+gonna hit create so right away we saved
+all<00:04:45.620> the<00:04:45.740> information<00:04:46.250> and<00:04:46.460> then<00:04:46.640> we
+
+00:04:46.690 --> 00:04:46.700 
+all the information and then we
+
+00:04:46.700 --> 00:04:49.450 
+all the information and then we
+displayed<00:04:47.150> that<00:04:47.330> information<00:04:47.960> now<00:04:48.950> I<00:04:49.010> want<00:04:49.370> to
+
+00:04:49.450 --> 00:04:49.460 
+displayed that information now I want to
+
+00:04:49.460 --> 00:04:51.040 
+displayed that information now I want to
+prove<00:04:49.610> to<00:04:49.670> you<00:04:49.820> guys<00:04:49.940> that<00:04:50.090> we<00:04:50.390> actually<00:04:50.840> save
+
+00:04:51.040 --> 00:04:51.050 
+prove to you guys that we actually save
+
+00:04:51.050 --> 00:04:53.200 
+prove to you guys that we actually save
+that<00:04:51.230> information<00:04:51.410> so<00:04:52.370> when<00:04:52.610> we<00:04:52.730> start<00:04:53.090> this
+
+00:04:53.200 --> 00:04:53.210 
+that information so when we start this
+
+00:04:53.210 --> 00:05:00.310 
+that information so when we start this
+script<00:04:53.510> again<00:04:58.630> so<00:04:59.630> when<00:04:59.810> we<00:04:59.870> start<00:05:00.080> that<00:05:00.169> yet
+
+00:05:00.310 --> 00:05:00.320 
+script again so when we start that yet
+
+00:05:00.320 --> 00:05:01.960 
+script again so when we start that yet
+so<00:05:00.350> when<00:05:00.650> we<00:05:00.710> start<00:05:00.919> the<00:05:01.010> script<00:05:01.250> again<00:05:01.340> I'm
+
+00:05:01.960 --> 00:05:01.970 
+so when we start the script again I'm
+
+00:05:01.970 --> 00:05:04.750 
+so when we start the script again I'm
+going<00:05:02.390> to<00:05:02.540> just<00:05:02.870> hit<00:05:03.230> load<00:05:03.620> and<00:05:03.919> I<00:05:04.310> created<00:05:04.640> a
+
+00:05:04.750 --> 00:05:04.760 
+going to just hit load and I created a
+
+00:05:04.760 --> 00:05:06.130 
+going to just hit load and I created a
+script<00:05:05.000> and<00:05:05.210> this<00:05:05.270> is<00:05:05.450> what<00:05:05.600> I<00:05:05.660> want<00:05:05.840> you<00:05:05.960> guys
+
+00:05:06.130 --> 00:05:06.140 
+script and this is what I want you guys
+
+00:05:06.140 --> 00:05:08.890 
+script and this is what I want you guys
+to<00:05:06.169> do<00:05:06.440> that<00:05:06.730> loads<00:05:07.730> the<00:05:08.090> information<00:05:08.690> from
+
+00:05:08.890 --> 00:05:08.900 
+to do that loads the information from
+
+00:05:08.900 --> 00:05:13.750 
+to do that loads the information from
+our<00:05:09.080> game<00:05:09.290> object<00:05:11.200> right<00:05:12.200> here<00:05:12.500> so<00:05:12.980> go<00:05:13.310> into
+
+00:05:13.750 --> 00:05:13.760 
+our game object right here so go into
+
+00:05:13.760 --> 00:05:16.330 
+our game object right here so go into
+unity<00:05:14.120> and<00:05:14.300> create<00:05:15.110> a<00:05:15.140> new<00:05:15.470> C<00:05:15.650> sharp<00:05:15.890> script<00:05:16.190> I
+
+00:05:16.330 --> 00:05:16.340 
+unity and create a new C sharp script I
+
+00:05:16.340 --> 00:05:18.430 
+unity and create a new C sharp script I
+just<00:05:16.370> label<00:05:17.150> a<00:05:17.300> tea<00:05:17.510> set<00:05:17.720> script<00:05:18.050> so<00:05:18.200> I<00:05:18.260> could
+
+00:05:18.430 --> 00:05:18.440 
+just label a tea set script so I could
+
+00:05:18.440 --> 00:05:21.100 
+just label a tea set script so I could
+attach<00:05:18.650> it<00:05:18.860> to<00:05:19.010> in<00:05:19.190> our<00:05:19.310> tea<00:05:19.520> set<00:05:19.760> scene<00:05:20.150> went
+
+00:05:21.100 --> 00:05:21.110 
+attach it to in our tea set scene went
+
+00:05:21.110 --> 00:05:23.590 
+attach it to in our tea set scene went
+into<00:05:21.470> the<00:05:22.130> start<00:05:22.430> function<00:05:22.820> and<00:05:23.030> I<00:05:23.210> called<00:05:23.480> our
+
+00:05:23.590 --> 00:05:23.600 
+into the start function and I called our
+
+00:05:23.600 --> 00:05:26.260 
+into the start function and I called our
+load<00:05:23.840> information<00:05:24.140> load<00:05:25.040> all<00:05:25.310> information<00:05:25.970> so
+
+00:05:26.260 --> 00:05:26.270 
+load information load all information so
+
+00:05:26.270 --> 00:05:28.570 
+load information load all information so
+it's<00:05:26.390> going<00:05:26.510> to<00:05:26.570> load<00:05:26.810> so<00:05:27.710> what<00:05:27.830> that<00:05:27.950> does<00:05:28.160> if
+
+00:05:28.570 --> 00:05:28.580 
+it's going to load so what that does if
+
+00:05:28.580 --> 00:05:30.130 
+it's going to load so what that does if
+we<00:05:28.850> go<00:05:28.970> back<00:05:29.150> to<00:05:29.180> what<00:05:29.419> when<00:05:29.570> we<00:05:29.750> wrote<00:05:29.900> it<00:05:30.020> last
+
+00:05:30.130 --> 00:05:30.140 
+we go back to what when we wrote it last
+
+00:05:30.140 --> 00:05:31.990 
+we go back to what when we wrote it last
+time<00:05:30.410> it's<00:05:30.860> we're<00:05:31.160> saving<00:05:31.610> all<00:05:31.790> of<00:05:31.820> our
+
+00:05:31.990 --> 00:05:32.000 
+time it's we're saving all of our
+
+00:05:32.000 --> 00:05:33.909 
+time it's we're saving all of our
+information<00:05:32.600> from<00:05:32.870> the<00:05:33.020> player<00:05:33.200> press<00:05:33.500> area
+
+00:05:33.909 --> 00:05:33.919 
+information from the player press area
+
+00:05:33.919 --> 00:05:38.469 
+information from the player press area
+into<00:05:34.490> our<00:05:34.790> game<00:05:35.030> information<00:05:35.570> object<00:05:37.360> so<00:05:38.360> now
+
+00:05:38.469 --> 00:05:38.479 
+into our game information object so now
+
+00:05:38.479 --> 00:05:40.060 
+into our game information object so now
+I'm<00:05:38.660> gonna<00:05:38.780> go<00:05:38.960> back<00:05:38.990> to<00:05:39.229> unity<00:05:39.500> I'm<00:05:39.710> gonna
+
+00:05:40.060 --> 00:05:40.070 
+I'm gonna go back to unity I'm gonna
+
+00:05:40.070 --> 00:05:43.930 
+I'm gonna go back to unity I'm gonna
+press<00:05:40.310> play<00:05:40.340> and<00:05:40.880> I'm<00:05:41.360> gonna<00:05:41.479> hit<00:05:41.630> load<00:05:41.990> and<00:05:42.940> we
+
+00:05:43.930 --> 00:05:43.940 
+press play and I'm gonna hit load and we
+
+00:05:43.940 --> 00:05:45.520 
+press play and I'm gonna hit load and we
+should<00:05:44.090> have<00:05:44.270> all<00:05:44.300> the<00:05:44.660> information<00:05:44.900> from<00:05:45.350> our
+
+00:05:45.520 --> 00:05:45.530 
+should have all the information from our
+
+00:05:45.530 --> 00:05:47.409 
+should have all the information from our
+character<00:05:45.830> last<00:05:46.040> time<00:05:46.250> and<00:05:46.460> we<00:05:46.640> do<00:05:46.820> and<00:05:47.120> so<00:05:47.360> you
+
+00:05:47.409 --> 00:05:47.419 
+character last time and we do and so you
+
+00:05:47.419 --> 00:05:49.090 
+character last time and we do and so you
+can<00:05:47.600> see<00:05:47.780> that<00:05:47.960> the<00:05:48.050> information<00:05:48.200> actually
+
+00:05:49.090 --> 00:05:49.100 
+can see that the information actually
+
+00:05:49.100 --> 00:05:52.210 
+can see that the information actually
+saved<00:05:49.400> so<00:05:49.790> if<00:05:49.880> I<00:05:50.000> I'm<00:05:50.930> gonna<00:05:51.110> clear<00:05:51.770> you<00:05:52.040> I'm
+
+00:05:52.210 --> 00:05:52.220 
+saved so if I I'm gonna clear you I'm
+
+00:05:52.220 --> 00:05:54.250 
+saved so if I I'm gonna clear you I'm
+gonna<00:05:52.340> leave<00:05:52.490> this<00:05:52.610> up<00:05:52.790> so<00:05:53.450> we<00:05:53.540> can<00:05:53.690> compare<00:05:54.140> it
+
+00:05:54.250 --> 00:05:54.260 
+gonna leave this up so we can compare it
+
+00:05:54.260 --> 00:05:56.980 
+gonna leave this up so we can compare it
+and<00:05:54.290> go<00:05:54.440> to<00:05:54.470> press<00:05:54.710> play<00:05:55.660> instead<00:05:56.660> of<00:05:56.750> creating
+
+00:05:56.980 --> 00:05:56.990 
+and go to press play instead of creating
+
+00:05:56.990 --> 00:05:58.840 
+and go to press play instead of creating
+a<00:05:57.050> new<00:05:57.169> character<00:05:57.380> I'm<00:05:57.830> gonna<00:05:58.010> hit<00:05:58.220> load<00:05:58.520> and
+
+00:05:58.840 --> 00:05:58.850 
+a new character I'm gonna hit load and
+
+00:05:58.850 --> 00:06:01.060 
+a new character I'm gonna hit load and
+you<00:05:59.630> can<00:05:59.780> see<00:05:59.900> that<00:06:00.110> it<00:06:00.229> loaded<00:06:00.650> a<00:06:00.740> character
+
+00:06:01.060 --> 00:06:01.070 
+you can see that it loaded a character
+
+00:06:01.070 --> 00:06:02.650 
+you can see that it loaded a character
+from<00:06:01.190> memory<00:06:01.520> and<00:06:01.760> that's<00:06:01.970> exactly<00:06:02.360> what
+
+00:06:02.650 --> 00:06:02.660 
+from memory and that's exactly what
+
+00:06:02.660 --> 00:06:05.800 
+from memory and that's exactly what
+saving<00:06:03.050> does<00:06:03.229> and<00:06:03.610> player<00:06:04.610> what<00:06:04.940> just<00:06:05.510> to<00:06:05.630> go
+
+00:06:05.800 --> 00:06:05.810 
+saving does and player what just to go
+
+00:06:05.810 --> 00:06:07.750 
+saving does and player what just to go
+over<00:06:06.110> just<00:06:06.410> to<00:06:06.919> let<00:06:07.130> you<00:06:07.220> guys<00:06:07.340> know<00:06:07.520> player
+
+00:06:07.750 --> 00:06:07.760 
+over just to let you guys know player
+
+00:06:07.760 --> 00:06:11.350 
+over just to let you guys know player
+press<00:06:08.090> is<00:06:08.330> good<00:06:08.630> for<00:06:09.530> very<00:06:09.800> simple<00:06:10.340> saves<00:06:10.640> for
+
+00:06:11.350 --> 00:06:11.360 
+press is good for very simple saves for
+
+00:06:11.360 --> 00:06:12.880 
+press is good for very simple saves for
+not<00:06:11.660> a<00:06:11.690> lot<00:06:11.870> of<00:06:11.900> information<00:06:12.200> but<00:06:12.500> when<00:06:12.800> you
+
+00:06:12.880 --> 00:06:12.890 
+not a lot of information but when you
+
+00:06:12.890 --> 00:06:15.130 
+not a lot of information but when you
+start<00:06:13.130> having<00:06:13.280> a<00:06:13.550> ton<00:06:13.790> of<00:06:13.820> information<00:06:14.180> you
+
+00:06:15.130 --> 00:06:15.140 
+start having a ton of information you
+
+00:06:15.140 --> 00:06:16.780 
+start having a ton of information you
+need<00:06:15.290> to<00:06:15.320> start<00:06:15.590> looking<00:06:15.710> at<00:06:16.040> different<00:06:16.430> like
+
+00:06:16.780 --> 00:06:16.790 
+need to start looking at different like
+
+00:06:16.790 --> 00:06:18.100 
+need to start looking at different like
+other<00:06:16.970> options<00:06:17.479> and<00:06:17.660> saving<00:06:18.020> your
+
+00:06:18.100 --> 00:06:18.110 
+other options and saving your
+
+00:06:18.110 --> 00:06:20.200 
+other options and saving your
+information<00:06:18.710> so<00:06:19.010> look<00:06:19.220> at<00:06:19.340> serialization
+
+00:06:20.200 --> 00:06:20.210 
+information so look at serialization
+
+00:06:20.210 --> 00:06:22.870 
+information so look at serialization
+which<00:06:20.450> I'm<00:06:20.720> gonna<00:06:20.840> start<00:06:21.169> covering<00:06:21.729> in<00:06:22.729> the
+
+00:06:22.870 --> 00:06:22.880 
+which I'm gonna start covering in the
+
+00:06:22.880 --> 00:06:24.909 
+which I'm gonna start covering in the
+next<00:06:23.120> video<00:06:23.360> here's<00:06:23.660> the<00:06:23.750> script<00:06:23.990> so<00:06:24.229> here's<00:06:24.860> a
+
+00:06:24.909 --> 00:06:24.919 
+next video here's the script so here's a
+
+00:06:24.919 --> 00:06:26.590 
+next video here's the script so here's a
+script<00:06:25.190> that<00:06:25.250> kind<00:06:25.640> of<00:06:25.729> starts<00:06:25.940> covering<00:06:26.180> what
+
+00:06:26.590 --> 00:06:26.600 
+script that kind of starts covering what
+
+00:06:26.600 --> 00:06:28.510 
+script that kind of starts covering what
+we're<00:06:26.750> going<00:06:26.930> to<00:06:26.990> do<00:06:27.229> but<00:06:27.950> basically<00:06:28.280> we're
+
+00:06:28.510 --> 00:06:28.520 
+we're going to do but basically we're
+
+00:06:28.520 --> 00:06:30.159 
+we're going to do but basically we're
+gonna<00:06:28.610> start<00:06:28.910> converting<00:06:29.270> all<00:06:29.570> information
+
+00:06:30.159 --> 00:06:30.169 
+gonna start converting all information
+
+00:06:30.169 --> 00:06:33.050 
+gonna start converting all information
+into<00:06:30.650> a<00:06:30.950> binary<00:06:31.550> string<00:06:32.300> and<00:06:32.570> then<00:06:32.840> we're
+
+00:06:33.050 --> 00:06:33.060 
+into a binary string and then we're
+
+00:06:33.060 --> 00:06:35.510 
+into a binary string and then we're
+save<00:06:33.300> that<00:06:33.450> string<00:06:33.780> to<00:06:33.990> a<00:06:34.020> save<00:06:34.290> file<00:06:34.620> and<00:06:34.919> then
+
+00:06:35.510 --> 00:06:35.520 
+save that string to a save file and then
+
+00:06:35.520 --> 00:06:38.330 
+save that string to a save file and then
+access<00:06:35.880> that<00:06:36.060> save<00:06:36.360> file<00:06:36.770> but<00:06:37.770> for<00:06:37.950> now<00:06:38.040> I<00:06:38.070> just
+
+00:06:38.330 --> 00:06:38.340 
+access that save file but for now I just
+
+00:06:38.340 --> 00:06:40.129 
+access that save file but for now I just
+wanted<00:06:38.520> to<00:06:38.610> cover<00:06:38.790> the<00:06:39.120> basics<00:06:39.510> of<00:06:39.630> saving<00:06:40.020> and
+
+00:06:40.129 --> 00:06:40.139 
+wanted to cover the basics of saving and
+
+00:06:40.139 --> 00:06:42.470 
+wanted to cover the basics of saving and
+loading<00:06:40.320> under<00:06:40.650> player<00:06:40.950> preps<00:06:41.340> and<00:06:41.610> show<00:06:42.419> you
+
+00:06:42.470 --> 00:06:42.480 
+loading under player preps and show you
+
+00:06:42.480 --> 00:06:44.780 
+loading under player preps and show you
+that<00:06:43.020> we're<00:06:43.200> not<00:06:43.230> that<00:06:44.130> when<00:06:44.280> we<00:06:44.400> load<00:06:44.610> a<00:06:44.639> new
+
+00:06:44.780 --> 00:06:44.790 
+that we're not that when we load a new
+
+00:06:44.790 --> 00:06:48.620 
+that we're not that when we load a new
+scene<00:06:46.280> when<00:06:47.280> we<00:06:47.370> load<00:06:47.580> in<00:06:47.669> a<00:06:47.700> new<00:06:47.850> scene<00:06:48.090> we're
+
+00:06:48.620 --> 00:06:48.630 
+scene when we load in a new scene we're
+
+00:06:48.630 --> 00:06:50.600 
+scene when we load in a new scene we're
+loading<00:06:48.870> the<00:06:49.050> information<00:06:49.590> it's<00:06:49.889> our<00:06:50.310> game
+
+00:06:50.600 --> 00:06:50.610 
+loading the information it's our game
+
+00:06:50.610 --> 00:06:53.060 
+loading the information it's our game
+information<00:06:51.000> object<00:06:51.810> is<00:06:51.960> still<00:06:52.290> staying<00:06:52.590> with
+
+00:06:53.060 --> 00:06:53.070 
+information object is still staying with
+
+00:06:53.070 --> 00:06:55.970 
+information object is still staying with
+us<00:06:53.280> and<00:06:53.580> that's<00:06:54.360> because<00:06:54.780> of<00:06:54.930> this<00:06:55.080> do<00:06:55.800> not
+
+00:06:55.970 --> 00:06:55.980 
+us and that's because of this do not
+
+00:06:55.980 --> 00:07:00.409 
+us and that's because of this do not
+destroy<00:06:56.340> it<00:06:56.430> on<00:06:56.520> load<00:06:58.250> piece<00:06:59.250> of<00:06:59.400> code<00:06:59.610> so<00:07:00.389> I
+
+00:07:00.409 --> 00:07:00.419 
+destroy it on load piece of code so I
+
+00:07:00.419 --> 00:07:02.060 
+destroy it on load piece of code so I
+hope<00:07:00.870> that<00:07:00.900> wasn't<00:07:01.169> too<00:07:01.320> confusing<00:07:01.590> for<00:07:01.889> you
+
+00:07:02.060 --> 00:07:02.070 
+hope that wasn't too confusing for you
+
+00:07:02.070 --> 00:07:06.230 
+hope that wasn't too confusing for you
+guys<00:07:02.220> I<00:07:02.250> didn't<00:07:02.850> move<00:07:03.000> too<00:07:03.240> fast<00:07:04.790> again<00:07:05.790> I'll
+
+00:07:06.230 --> 00:07:06.240 
+guys I didn't move too fast again I'll
+
+00:07:06.240 --> 00:07:07.640 
+guys I didn't move too fast again I'll
+go<00:07:06.360> over<00:07:06.510> it<00:07:06.570> one<00:07:06.690> more<00:07:06.750> time<00:07:06.960> of<00:07:07.169> what<00:07:07.290> we<00:07:07.500> did
+
+00:07:07.640 --> 00:07:07.650 
+go over it one more time of what we did
+
+00:07:07.650 --> 00:07:10.070 
+go over it one more time of what we did
+today<00:07:07.800> is<00:07:08.240> we<00:07:09.240> can<00:07:09.419> create<00:07:09.570> a<00:07:09.720> brand<00:07:09.900> new
+
+00:07:10.070 --> 00:07:10.080 
+today is we can create a brand new
+
+00:07:10.080 --> 00:07:12.440 
+today is we can create a brand new
+character<00:07:10.350> so<00:07:11.160> we're<00:07:11.280> gonna<00:07:11.370> say<00:07:11.580> a<00:07:11.880> Colin
+
+00:07:12.440 --> 00:07:12.450 
+character so we're gonna say a Colin
+
+00:07:12.450 --> 00:07:15.770 
+character so we're gonna say a Colin
+brand<00:07:12.750> icon<00:07:13.680> brand<00:07:13.950> new<00:07:14.100> he'll<00:07:15.060> be<00:07:15.210> a<00:07:15.240> mage<00:07:15.510> and
+
+00:07:15.770 --> 00:07:15.780 
+brand icon brand new he'll be a mage and
+
+00:07:15.780 --> 00:07:17.690 
+brand icon brand new he'll be a mage and
+when<00:07:15.960> I<00:07:15.990> hit<00:07:16.139> create<00:07:16.290> it<00:07:16.770> creates<00:07:17.460> the<00:07:17.669> new
+
+00:07:17.690 --> 00:07:17.700 
+when I hit create it creates the new
+
+00:07:17.700 --> 00:07:19.460 
+when I hit create it creates the new
+character<00:07:18.210> for<00:07:18.419> us<00:07:18.540> and<00:07:18.780> it<00:07:18.900> saves<00:07:19.169> all<00:07:19.410> the
+
+00:07:19.460 --> 00:07:19.470 
+character for us and it saves all the
+
+00:07:19.470 --> 00:07:23.330 
+character for us and it saves all the
+information<00:07:20.570> on<00:07:21.570> the<00:07:22.020> computer<00:07:22.139> when<00:07:23.100> I<00:07:23.160> hit
+
+00:07:23.330 --> 00:07:23.340 
+information on the computer when I hit
+
+00:07:23.340 --> 00:07:25.969 
+information on the computer when I hit
+load<00:07:23.729> it's<00:07:24.240> gonna<00:07:24.389> we<00:07:24.690> change<00:07:25.020> to<00:07:25.560> a<00:07:25.590> different
+
+00:07:25.969 --> 00:07:25.979 
+load it's gonna we change to a different
+
+00:07:25.979 --> 00:07:28.850 
+load it's gonna we change to a different
+scene<00:07:26.220> and<00:07:27.169> it's<00:07:28.169> going<00:07:28.350> to<00:07:28.410> load<00:07:28.620> that
+
+00:07:28.850 --> 00:07:28.860 
+scene and it's going to load that
+
+00:07:28.860 --> 00:07:32.210 
+scene and it's going to load that
+character<00:07:29.370> so<00:07:30.150> and<00:07:30.600> then<00:07:31.320> it<00:07:31.650> outputs<00:07:31.979> it<00:07:32.130> in
+
+00:07:32.210 --> 00:07:32.220 
+character so and then it outputs it in
+
+00:07:32.220 --> 00:07:33.620 
+character so and then it outputs it in
+the<00:07:32.280> console<00:07:32.639> so<00:07:32.760> we<00:07:32.880> loaded<00:07:33.210> the<00:07:33.300> brand-new
+
+00:07:33.620 --> 00:07:33.630 
+the console so we loaded the brand-new
+
+00:07:33.630 --> 00:07:36.469 
+the console so we loaded the brand-new
+character<00:07:34.100> it's<00:07:35.100> level<00:07:35.460> 112<00:07:35.970> all<00:07:36.150> the<00:07:36.270> stats
+
+00:07:36.469 --> 00:07:36.479 
+character it's level 112 all the stats
+
+00:07:36.479 --> 00:07:38.029 
+character it's level 112 all the stats
+are<00:07:36.660> saying<00:07:36.870> exactly<00:07:37.020> what<00:07:37.350> we<00:07:37.590> wanted<00:07:37.860> so<00:07:37.919> we
+
+00:07:38.029 --> 00:07:38.039 
+are saying exactly what we wanted so we
+
+00:07:38.039 --> 00:07:41.540 
+are saying exactly what we wanted so we
+know<00:07:38.400> we're<00:07:38.760> loading<00:07:39.000> it<00:07:39.240> and<00:07:40.190> that's<00:07:41.190> it<00:07:41.400> for
+
+00:07:41.540 --> 00:07:41.550 
+know we're loading it and that's it for
+
+00:07:41.550 --> 00:07:43.850 
+know we're loading it and that's it for
+today<00:07:41.850> in<00:07:42.690> the<00:07:42.840> next<00:07:42.960> video<00:07:43.289> like<00:07:43.410> I<00:07:43.500> said<00:07:43.710> I'm
+
+00:07:43.850 --> 00:07:43.860 
+today in the next video like I said I'm
+
+00:07:43.860 --> 00:07:46.480 
+today in the next video like I said I'm
+gonna<00:07:43.979> start<00:07:44.220> covering<00:07:44.810> player<00:07:45.810> prep
+
+00:07:46.480 --> 00:07:46.490 
+gonna start covering player prep
+
+00:07:46.490 --> 00:07:50.990 
+gonna start covering player prep
+serialization<00:07:47.490> so<00:07:47.700> that<00:07:47.850> we<00:07:47.940> can<00:07:48.090> save<00:07:50.000> binary
+
+00:07:50.990 --> 00:07:51.000 
+serialization so that we can save binary
+
+00:07:51.000 --> 00:07:52.850 
+serialization so that we can save binary
+strings<00:07:51.360> and<00:07:51.570> player<00:07:51.720> press<00:07:51.990> and<00:07:52.229> stuff<00:07:52.320> so
+
+00:07:52.850 --> 00:07:52.860 
+strings and player press and stuff so
+
+00:07:52.860 --> 00:07:54.770 
+strings and player press and stuff so
+and<00:07:53.220> then<00:07:53.729> we're<00:07:53.850> gonna<00:07:53.940> move<00:07:54.180> on<00:07:54.330> to<00:07:54.419> actually
+
+00:07:54.770 --> 00:07:54.780 
+and then we're gonna move on to actually
+
+00:07:54.780 --> 00:07:56.719 
+and then we're gonna move on to actually
+creating<00:07:55.080> save<00:07:55.350> files<00:07:55.650> so<00:07:56.310> I<00:07:56.340> hope<00:07:56.520> you<00:07:56.610> guys
+
+00:07:56.719 --> 00:07:56.729 
+creating save files so I hope you guys
+
+00:07:56.729 --> 00:07:58.520 
+creating save files so I hope you guys
+found<00:07:56.910> this<00:07:57.030> useful<00:07:57.240> please<00:07:57.690> like<00:07:57.990> comment
+
+00:07:58.520 --> 00:07:58.530 
+found this useful please like comment
+
+00:07:58.530 --> 00:08:00.170 
+found this useful please like comment
+and<00:07:58.710> subscribe<00:07:58.950> and<00:07:59.430> I'll<00:07:59.640> see<00:07:59.789> you<00:07:59.880> guys<00:08:00.000> next
+
+00:08:00.170 --> 00:08:00.180 
+and subscribe and I'll see you guys next
+
+00:08:00.180 --> 00:08:05.810 
+and subscribe and I'll see you guys next
+time
+
+00:08:05.810 --> 00:08:05.820 
+
+00:08:05.820 --> 00:08:10.820 
+
+[Music]
+
+00:08:10.820 --> 00:08:10.830 
+[Music]
+
+00:08:10.830 --> 00:08:12.890 
+[Music]
+you
+

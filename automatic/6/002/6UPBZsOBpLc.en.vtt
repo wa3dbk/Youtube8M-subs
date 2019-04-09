@@ -1,0 +1,743 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.389 
+
+hello<00:00:00.690> everyone<00:00:01.410> in<00:00:01.500> this<00:00:01.740> video<00:00:02.010> we
+
+00:00:02.389 --> 00:00:02.399 
+hello everyone in this video we
+
+00:00:02.399 --> 00:00:04.400 
+hello everyone in this video we
+demonstrate<00:00:02.939> how<00:00:02.970> to<00:00:03.210> easily<00:00:03.929> and
+
+00:00:04.400 --> 00:00:04.410 
+demonstrate how to easily and
+
+00:00:04.410 --> 00:00:07.579 
+demonstrate how to easily and
+efficiently<00:00:04.830> these<00:00:05.819> lines<00:00:06.089> or<00:00:06.589> applications
+
+00:00:07.579 --> 00:00:07.589 
+efficiently these lines or applications
+
+00:00:07.589 --> 00:00:10.400 
+efficiently these lines or applications
+to<00:00:07.980> stream<00:00:08.340> and<00:00:08.610> analyze<00:00:09.240> Twitter<00:00:09.809> messages
+
+00:00:10.400 --> 00:00:10.410 
+to stream and analyze Twitter messages
+
+00:00:10.410 --> 00:00:13.450 
+to stream and analyze Twitter messages
+using<00:00:11.010> talent<00:00:11.550> spark<00:00:12.059> specific<00:00:12.719> components
+
+00:00:13.450 --> 00:00:13.460 
+using talent spark specific components
+
+00:00:13.460 --> 00:00:16.189 
+using talent spark specific components
+before<00:00:14.460> replicating<00:00:15.420> this<00:00:15.690> is<00:00:15.839> the<00:00:16.049> real
+
+00:00:16.189 --> 00:00:16.199 
+before replicating this is the real
+
+00:00:16.199 --> 00:00:18.050 
+before replicating this is the real
+ensure<00:00:16.920> that<00:00:17.130> you<00:00:17.400> have<00:00:17.550> met<00:00:17.789> the
+
+00:00:18.050 --> 00:00:18.060 
+ensure that you have met the
+
+00:00:18.060 --> 00:00:21.140 
+ensure that you have met the
+prerequisites<00:00:18.779> described<00:00:19.500> on<00:00:19.740> the<00:00:19.920> screen<00:00:20.220> to
+
+00:00:21.140 --> 00:00:21.150 
+prerequisites described on the screen to
+
+00:00:21.150 --> 00:00:23.689 
+prerequisites described on the screen to
+design<00:00:21.539> the<00:00:21.779> spark<00:00:22.109> streaming<00:00:22.590> job<00:00:22.800> we<00:00:23.460> use
+
+00:00:23.689 --> 00:00:23.699 
+design the spark streaming job we use
+
+00:00:23.699 --> 00:00:25.849 
+design the spark streaming job we use
+the<00:00:23.939> spark<00:00:24.300> connection<00:00:24.930> to<00:00:25.289> visually<00:00:25.650> create
+
+00:00:25.849 --> 00:00:25.859 
+the spark connection to visually create
+
+00:00:25.859 --> 00:00:28.519 
+the spark connection to visually create
+the<00:00:26.279> connection<00:00:26.730> to<00:00:27.000> the<00:00:27.119> cluster<00:00:27.539> in<00:00:28.349> its
+
+00:00:28.519 --> 00:00:28.529 
+the connection to the cluster in its
+
+00:00:28.529 --> 00:00:30.769 
+the connection to the cluster in its
+component<00:00:29.070> view<00:00:29.310> we<00:00:29.699> select<00:00:30.029> the<00:00:30.300> standalone
+
+00:00:30.769 --> 00:00:30.779 
+component view we select the standalone
+
+00:00:30.779 --> 00:00:34.100 
+component view we select the standalone
+spark<00:00:31.289> running<00:00:31.679> mode<00:00:32.300> activating<00:00:33.300> the<00:00:33.750> spark
+
+00:00:34.100 --> 00:00:34.110 
+spark running mode activating the spark
+
+00:00:34.110 --> 00:00:36.860 
+spark running mode activating the spark
+streaming<00:00:34.649> mode<00:00:34.829> and<00:00:35.300> find<00:00:36.300> the<00:00:36.570> spark
+
+00:00:36.860 --> 00:00:36.870 
+streaming mode and find the spark
+
+00:00:36.870 --> 00:00:39.170 
+streaming mode and find the spark
+specific<00:00:37.500> connection<00:00:38.010> information<00:00:38.520> from<00:00:38.850> web
+
+00:00:39.170 --> 00:00:39.180 
+specific connection information from web
+
+00:00:39.180 --> 00:00:41.810 
+specific connection information from web
+console<00:00:39.600> of<00:00:39.809> the<00:00:40.050> cloud<00:00:40.260> or<00:00:40.440> cluster<00:00:40.950> apart
+
+00:00:41.810 --> 00:00:41.820 
+console of the cloud or cluster apart
+
+00:00:41.820 --> 00:00:43.880 
+console of the cloud or cluster apart
+from<00:00:42.090> the<00:00:42.329> connection<00:00:42.690> information<00:00:42.930> you<00:00:43.680> also
+
+00:00:43.880 --> 00:00:43.890 
+from the connection information you also
+
+00:00:43.890 --> 00:00:46.430 
+from the connection information you also
+need<00:00:44.250> to<00:00:44.280> indicate<00:00:45.270> their<00:00:45.750> address<00:00:46.050> of<00:00:46.260> the
+
+00:00:46.430 --> 00:00:46.440 
+need to indicate their address of the
+
+00:00:46.440 --> 00:00:48.920 
+need to indicate their address of the
+host<00:00:46.649> from<00:00:47.399> which<00:00:47.610> the<00:00:47.969> spark<00:00:48.239> master<00:00:48.660> can
+
+00:00:48.920 --> 00:00:48.930 
+host from which the spark master can
+
+00:00:48.930 --> 00:00:50.810 
+host from which the spark master can
+find<00:00:49.170> the<00:00:49.379> spark<00:00:49.680> driver<00:00:50.070> program<00:00:50.579> and
+
+00:00:50.810 --> 00:00:50.820 
+find the spark driver program and
+
+00:00:50.820 --> 00:00:54.229 
+find the spark driver program and
+creates<00:00:51.360> tasks<00:00:51.870> out<00:00:52.050> of<00:00:52.289> it<00:00:52.640> from<00:00:53.640> T<00:00:53.910> spark
+
+00:00:54.229 --> 00:00:54.239 
+creates tasks out of it from T spark
+
+00:00:54.239 --> 00:00:57.200 
+creates tasks out of it from T spark
+load<00:00:54.480> we<00:00:55.199> define<00:00:55.559> the<00:00:55.800> component<00:00:56.370> schema<00:00:56.760> to
+
+00:00:57.200 --> 00:00:57.210 
+load we define the component schema to
+
+00:00:57.210 --> 00:00:59.389 
+load we define the component schema to
+specify<00:00:57.840> the<00:00:57.899> Twitter<00:00:58.379> related<00:00:58.920> information
+
+00:00:59.389 --> 00:00:59.399 
+specify the Twitter related information
+
+00:00:59.399 --> 00:01:02.510 
+specify the Twitter related information
+we're<00:00:59.940> interested<00:01:00.510> in<00:01:00.629> then<00:01:01.469> we<00:01:01.710> indicate<00:01:02.190> the
+
+00:01:02.510 --> 00:01:02.520 
+we're interested in then we indicate the
+
+00:01:02.520 --> 00:01:05.359 
+we're interested in then we indicate the
+storage<00:01:02.969> source<00:01:03.300> in<00:01:03.539> straight<00:01:03.870> fade<00:01:04.170> and<00:01:04.439> the
+
+00:01:05.359 --> 00:01:05.369 
+storage source in straight fade and the
+
+00:01:05.369 --> 00:01:07.399 
+storage source in straight fade and the
+related<00:01:05.670> streaming<00:01:06.600> parameters<00:01:07.140> are
+
+00:01:07.399 --> 00:01:07.409 
+related streaming parameters are
+
+00:01:07.409 --> 00:01:09.830 
+related streaming parameters are
+displayed<00:01:07.970> your<00:01:08.970> authentication
+
+00:01:09.830 --> 00:01:09.840 
+displayed your authentication
+
+00:01:09.840 --> 00:01:12.469 
+displayed your authentication
+information<00:01:10.049> can<00:01:10.560> be<00:01:10.680> found<00:01:10.710> in<00:01:11.040> Twitter<00:01:11.479> we
+
+00:01:12.469 --> 00:01:12.479 
+information can be found in Twitter we
+
+00:01:12.479 --> 00:01:14.539 
+information can be found in Twitter we
+define<00:01:12.810> the<00:01:12.990> keyboard<00:01:13.409> to<00:01:13.680> select<00:01:13.830> the<00:01:14.250> tweets
+
+00:01:14.539 --> 00:01:14.549 
+define the keyboard to select the tweets
+
+00:01:14.549 --> 00:01:17.330 
+define the keyboard to select the tweets
+and<00:01:14.820> we<00:01:14.850> map<00:01:15.750> the<00:01:16.049> schema<00:01:16.439> to<00:01:16.619> each<00:01:16.860> Twitter
+
+00:01:17.330 --> 00:01:17.340 
+and we map the schema to each Twitter
+
+00:01:17.340 --> 00:01:21.140 
+and we map the schema to each Twitter
+property<00:01:18.259> using<00:01:19.259> T<00:01:19.590> spark<00:01:19.920> normalise<00:01:20.430> we<00:01:20.939> put
+
+00:01:21.140 --> 00:01:21.150 
+property using T spark normalise we put
+
+00:01:21.150 --> 00:01:23.620 
+property using T spark normalise we put
+each<00:01:21.299> hashtag<00:01:21.930> one<00:01:22.170> on<00:01:22.380> so<00:01:22.860> as<00:01:23.040> to<00:01:23.310> facilitate
+
+00:01:23.620 --> 00:01:23.630 
+each hashtag one on so as to facilitate
+
+00:01:23.630 --> 00:01:26.990 
+each hashtag one on so as to facilitate
+the<00:01:24.630> processing<00:01:25.080> that<00:01:25.380> follows<00:01:25.850> in<00:01:26.850> the
+
+00:01:26.990 --> 00:01:27.000 
+the processing that follows in the
+
+00:01:27.000 --> 00:01:30.230 
+the processing that follows in the
+component<00:01:27.360> view<00:01:27.780> of<00:01:27.990> T<00:01:28.259> spark<00:01:28.619> filter<00:01:29.070> row<00:01:29.250> we
+
+00:01:30.230 --> 00:01:30.240 
+component view of T spark filter row we
+
+00:01:30.240 --> 00:01:32.749 
+component view of T spark filter row we
+define<00:01:30.600> a<00:01:30.630> filter<00:01:31.170> to<00:01:31.380> select<00:01:32.159> only<00:01:32.400> the
+
+00:01:32.749 --> 00:01:32.759 
+define a filter to select only the
+
+00:01:32.759 --> 00:01:35.899 
+define a filter to select only the
+tweets<00:01:33.030> with<00:01:33.450> hashtags<00:01:34.400> then<00:01:35.400> the<00:01:35.670> last
+
+00:01:35.899 --> 00:01:35.909 
+tweets with hashtags then the last
+
+00:01:35.909 --> 00:01:39.020 
+tweets with hashtags then the last
+action<00:01:36.360> is<00:01:36.780> to<00:01:37.079> write<00:01:37.320> the<00:01:37.590> valid<00:01:38.009> tweets<00:01:38.369> into
+
+00:01:39.020 --> 00:01:39.030 
+action is to write the valid tweets into
+
+00:01:39.030 --> 00:01:42.859 
+action is to write the valid tweets into
+a<00:01:39.060> given<00:01:39.409> HDFS<00:01:40.409> system<00:01:41.180> so<00:01:42.180> in<00:01:42.450> a<00:01:42.570> component
+
+00:01:42.859 --> 00:01:42.869 
+a given HDFS system so in a component
+
+00:01:42.869 --> 00:01:46.429 
+a given HDFS system so in a component
+view<00:01:43.320> of<00:01:43.500> T<00:01:43.829> stock<00:01:44.159> store<00:01:44.630> we<00:01:45.630> keep<00:01:45.840> the<00:01:46.049> input
+
+00:01:46.429 --> 00:01:46.439 
+view of T stock store we keep the input
+
+00:01:46.439 --> 00:01:48.889 
+view of T stock store we keep the input
+schema<00:01:46.860> and<00:01:47.040> changed<00:01:47.490> select<00:01:48.210> the<00:01:48.479> storage
+
+00:01:48.889 --> 00:01:48.899 
+schema and changed select the storage
+
+00:01:48.899 --> 00:01:51.109 
+schema and changed select the storage
+target<00:01:49.140> and<00:01:49.560> keep<00:01:50.490> the<00:01:50.729> name<00:01:50.909> load
+
+00:01:51.109 --> 00:01:51.119 
+target and keep the name load
+
+00:01:51.119 --> 00:01:53.690 
+target and keep the name load
+information<00:01:51.840> found<00:01:52.500> from<00:01:52.920> the<00:01:53.100> web<00:01:53.280> console
+
+00:01:53.690 --> 00:01:53.700 
+information found from the web console
+
+00:01:53.700 --> 00:01:57.350 
+information found from the web console
+of<00:01:53.909> the<00:01:54.149> HDFS<00:01:54.990> system<00:01:55.820> the<00:01:56.820> result
+
+00:01:57.350 --> 00:01:57.360 
+of the HDFS system the result
+
+00:01:57.360 --> 00:02:00.289 
+of the HDFS system the result
+store<00:01:57.750> URI<00:01:58.140> in<00:01:58.560> the<00:01:59.009> directory<00:01:59.520> in<00:01:59.759> which<00:02:00.030> we
+
+00:02:00.289 --> 00:02:00.299 
+store URI in the directory in which we
+
+00:02:00.299 --> 00:02:03.469 
+store URI in the directory in which we
+want<00:02:00.509> to<00:02:00.570> store<00:02:00.960> the<00:02:01.409> retrieved<00:02:01.950> tweets<00:02:02.479> if
+
+00:02:03.469 --> 00:02:03.479 
+want to store the retrieved tweets if
+
+00:02:03.479 --> 00:02:05.499 
+want to store the retrieved tweets if
+not<00:02:03.930> exists<00:02:04.590> it<00:02:04.770> will<00:02:05.159> be<00:02:05.310> created
+
+00:02:05.499 --> 00:02:05.509 
+not exists it will be created
+
+00:02:05.509 --> 00:02:06.620 
+not exists it will be created
+automatically
+
+00:02:06.620 --> 00:02:06.630 
+automatically
+
+00:02:06.630 --> 00:02:09.529 
+automatically
+now<00:02:07.500> we<00:02:07.619> execute<00:02:08.250> this<00:02:08.459> job<00:02:08.789> from<00:02:09.119> the<00:02:09.270> revenue
+
+00:02:09.529 --> 00:02:09.539 
+now we execute this job from the revenue
+
+00:02:09.539 --> 00:02:12.410 
+now we execute this job from the revenue
+and<00:02:09.869> when<00:02:10.739> the<00:02:10.860> execution<00:02:11.370> is<00:02:11.459> done<00:02:11.489> we<00:02:12.150> check
+
+00:02:12.410 --> 00:02:12.420 
+and when the execution is done we check
+
+00:02:12.420 --> 00:02:13.600 
+and when the execution is done we check
+the<00:02:12.569> tweets<00:02:12.870> read
+
+00:02:13.600 --> 00:02:13.610 
+the tweets read
+
+00:02:13.610 --> 00:02:17.260 
+the tweets read
+in<00:02:13.790> the<00:02:13.970> hdfs<00:02:14.600> system<00:02:15.520> now<00:02:16.520> we<00:02:16.580> use<00:02:16.880> another
+
+00:02:17.260 --> 00:02:17.270 
+in the hdfs system now we use another
+
+00:02:17.270 --> 00:02:20.230 
+in the hdfs system now we use another
+stock<00:02:17.660> drop<00:02:17.930> to<00:02:18.200> analyze<00:02:18.590> these<00:02:18.950> twits<00:02:19.310> we
+
+00:02:20.230 --> 00:02:20.240 
+stock drop to analyze these twits we
+
+00:02:20.240 --> 00:02:22.410 
+stock drop to analyze these twits we
+still<00:02:20.480> connect<00:02:20.870> to<00:02:21.020> the<00:02:21.290> same<00:02:21.530> spark<00:02:21.980> cluster
+
+00:02:22.410 --> 00:02:22.420 
+still connect to the same spark cluster
+
+00:02:22.420 --> 00:02:25.360 
+still connect to the same spark cluster
+but<00:02:23.420> clear<00:02:23.750> they<00:02:24.020> execute<00:02:24.560> this<00:02:24.800> job<00:02:25.130> as<00:02:25.310> a
+
+00:02:25.360 --> 00:02:25.370 
+but clear they execute this job as a
+
+00:02:25.370 --> 00:02:27.970 
+but clear they execute this job as a
+streaming<00:02:25.910> application<00:02:26.480> checkbox<00:02:26.990> today
+
+00:02:27.970 --> 00:02:27.980 
+streaming application checkbox today
+
+00:02:27.980 --> 00:02:31.180 
+streaming application checkbox today
+active<00:02:28.460> the<00:02:28.910> streaming<00:02:29.630> mode<00:02:30.010> from<00:02:31.010> the
+
+00:02:31.180 --> 00:02:31.190 
+active the streaming mode from the
+
+00:02:31.190 --> 00:02:33.490 
+active the streaming mode from the
+component<00:02:31.700> view<00:02:31.910> of<00:02:32.090> the<00:02:32.270> spot<00:02:32.540> load<00:02:32.780> this
+
+00:02:33.490 --> 00:02:33.500 
+component view of the spot load this
+
+00:02:33.500 --> 00:02:36.370 
+component view of the spot load this
+time<00:02:33.770> the<00:02:34.040> storage<00:02:34.430> sauce<00:02:34.730> has<00:02:35.030> become<00:02:35.510> HDFS
+
+00:02:36.370 --> 00:02:36.380 
+time the storage sauce has become HDFS
+
+00:02:36.380 --> 00:02:39.670 
+time the storage sauce has become HDFS
+we<00:02:37.310> use<00:02:37.520> the<00:02:37.760> same<00:02:38.000> schema<00:02:38.420> as<00:02:38.600> it's<00:02:38.960> used<00:02:39.320> to
+
+00:02:39.670 --> 00:02:39.680 
+we use the same schema as it's used to
+
+00:02:39.680 --> 00:02:42.460 
+we use the same schema as it's used to
+retrieve<00:02:40.010> the<00:02:40.220> twits<00:02:40.490> and<00:02:40.810> put<00:02:41.810> the<00:02:41.990> directory
+
+00:02:42.460 --> 00:02:42.470 
+retrieve the twits and put the directory
+
+00:02:42.470 --> 00:02:44.710 
+retrieve the twits and put the directory
+where<00:02:42.770> the<00:02:42.800> tweets<00:02:43.250> are<00:02:43.430> stored<00:02:43.730> in<00:02:43.940> the<00:02:44.330> input
+
+00:02:44.710 --> 00:02:44.720 
+where the tweets are stored in the input
+
+00:02:44.720 --> 00:02:47.650 
+where the tweets are stored in the input
+file<00:02:44.959> field<00:02:45.580> since<00:02:46.580> we<00:02:46.760> want<00:02:46.970> to<00:02:47.090> use<00:02:47.300> all<00:02:47.540> of
+
+00:02:47.650 --> 00:02:47.660 
+file field since we want to use all of
+
+00:02:47.660 --> 00:02:50.440 
+file field since we want to use all of
+the<00:02:47.870> retrieved<00:02:48.410> treats<00:02:48.860> we<00:02:49.790> put<00:02:50.000> an<00:02:50.180> asterisk
+
+00:02:50.440 --> 00:02:50.450 
+the retrieved treats we put an asterisk
+
+00:02:50.450 --> 00:02:53.590 
+the retrieved treats we put an asterisk
+in<00:02:51.350> the<00:02:51.530> end<00:02:51.680> of<00:02:51.890> the<00:02:52.010> directory<00:02:52.430> now<00:02:53.300> that
+
+00:02:53.590 --> 00:02:53.600 
+in the end of the directory now that
+
+00:02:53.600 --> 00:02:55.540 
+in the end of the directory now that
+these<00:02:53.870> tweets<00:02:54.200> have<00:02:54.500> been<00:02:54.709> loaded<00:02:54.950> into<00:02:55.310> the
+
+00:02:55.540 --> 00:02:55.550 
+these tweets have been loaded into the
+
+00:02:55.550 --> 00:02:58.780 
+these tweets have been loaded into the
+process<00:02:56.050> we<00:02:57.050> use<00:02:57.290> T<00:02:57.650> spark<00:02:58.010> field<00:02:58.250> role<00:02:58.580> to
+
+00:02:58.780 --> 00:02:58.790 
+process we use T spark field role to
+
+00:02:58.790 --> 00:03:00.460 
+process we use T spark field role to
+improve<00:02:59.150> the<00:02:59.330> quality<00:02:59.510> of<00:02:59.750> the<00:03:00.200> Twitter
+
+00:03:00.460 --> 00:03:00.470 
+improve the quality of the Twitter
+
+00:03:00.470 --> 00:03:03.280 
+improve the quality of the Twitter
+messages<00:03:01.010> to<00:03:01.340> be<00:03:01.459> processed<00:03:01.970> knowing<00:03:02.930> that<00:03:03.110> a
+
+00:03:03.280 --> 00:03:03.290 
+messages to be processed knowing that a
+
+00:03:03.290 --> 00:03:06.130 
+messages to be processed knowing that a
+good<00:03:03.560> twitter<00:03:03.920> messages<00:03:04.520> ID<00:03:04.850> is<00:03:05.180> numerical
+
+00:03:06.130 --> 00:03:06.140 
+good twitter messages ID is numerical
+
+00:03:06.140 --> 00:03:08.590 
+good twitter messages ID is numerical
+only<00:03:06.470> this<00:03:07.280> components<00:03:07.970> prevents<00:03:08.450> the
+
+00:03:08.590 --> 00:03:08.600 
+only this components prevents the
+
+00:03:08.600 --> 00:03:10.810 
+only this components prevents the
+Twitter<00:03:08.870> messages<00:03:09.380> in<00:03:09.739> which<00:03:09.980> the<00:03:10.220> IDS<00:03:10.610> are
+
+00:03:10.810 --> 00:03:10.820 
+Twitter messages in which the IDS are
+
+00:03:10.820 --> 00:03:12.610 
+Twitter messages in which the IDS are
+not<00:03:10.940> compliant<00:03:11.450> from<00:03:11.810> coming<00:03:12.170> to<00:03:12.320> the<00:03:12.440> next
+
+00:03:12.610 --> 00:03:12.620 
+not compliant from coming to the next
+
+00:03:12.620 --> 00:03:16.990 
+not compliant from coming to the next
+component<00:03:13.040> to<00:03:13.970> spark<00:03:14.360> aggregate<00:03:15.310> the<00:03:16.310> T<00:03:16.580> spark
+
+00:03:16.990 --> 00:03:17.000 
+component to spark aggregate the T spark
+
+00:03:17.000 --> 00:03:19.270 
+component to spark aggregate the T spark
+aggregate<00:03:17.600> component<00:03:18.170> groups<00:03:18.620> the<00:03:18.950> incoming
+
+00:03:19.270 --> 00:03:19.280 
+aggregate component groups the incoming
+
+00:03:19.280 --> 00:03:21.930 
+aggregate component groups the incoming
+records<00:03:19.790> on<00:03:20.000> the<00:03:20.269> basis<00:03:20.630> of<00:03:20.660> their<00:03:21.049> hash<00:03:21.290> tags
+
+00:03:21.930 --> 00:03:21.940 
+records on the basis of their hash tags
+
+00:03:21.940 --> 00:03:24.940 
+records on the basis of their hash tags
+count<00:03:22.940> the<00:03:23.239> occurrences<00:03:23.450> of<00:03:23.840> each<00:03:24.320> hash<00:03:24.680> tag
+
+00:03:24.940 --> 00:03:24.950 
+count the occurrences of each hash tag
+
+00:03:24.950 --> 00:03:28.630 
+count the occurrences of each hash tag
+in<00:03:25.190> these<00:03:25.760> tweets<00:03:26.150> and<00:03:26.769> write<00:03:27.769> the<00:03:28.070> result<00:03:28.220> of
+
+00:03:28.630 --> 00:03:28.640 
+in these tweets and write the result of
+
+00:03:28.640 --> 00:03:31.750 
+in these tweets and write the result of
+the<00:03:28.850> count<00:03:29.090> to<00:03:29.510> the<00:03:29.600> output<00:03:30.019> schema<00:03:30.580> the<00:03:31.580> T
+
+00:03:31.750 --> 00:03:31.760 
+the count to the output schema the T
+
+00:03:31.760 --> 00:03:34.030 
+the count to the output schema the T
+spark<00:03:32.180> salt<00:03:32.480> component<00:03:32.720> allows<00:03:33.500> us<00:03:33.769> to
+
+00:03:34.030 --> 00:03:34.040 
+spark salt component allows us to
+
+00:03:34.040 --> 00:03:36.610 
+spark salt component allows us to
+visually<00:03:34.459> develop<00:03:34.910> the<00:03:35.150> sub<00:03:35.420> program<00:03:35.900> to<00:03:36.470> put
+
+00:03:36.610 --> 00:03:36.620 
+visually develop the sub program to put
+
+00:03:36.620 --> 00:03:39.670 
+visually develop the sub program to put
+the<00:03:36.799> most<00:03:37.040> used<00:03:37.400> hash<00:03:37.760> tag<00:03:38.060> at<00:03:38.330> the<00:03:39.019> top<00:03:39.260> of<00:03:39.470> the
+
+00:03:39.670 --> 00:03:39.680 
+the most used hash tag at the top of the
+
+00:03:39.680 --> 00:03:43.449 
+the most used hash tag at the top of the
+hash<00:03:39.830> tag<00:03:40.070> based<00:03:40.370> to<00:03:40.880> be<00:03:41.000> generated<00:03:42.190> then<00:03:43.190> the
+
+00:03:43.449 --> 00:03:43.459 
+hash tag based to be generated then the
+
+00:03:43.459 --> 00:03:46.180 
+hash tag based to be generated then the
+taste<00:03:43.730> of<00:03:43.850> our<00:03:44.000> clock<00:03:44.269> component<00:03:44.860> prints<00:03:45.860> this
+
+00:03:46.180 --> 00:03:46.190 
+taste of our clock component prints this
+
+00:03:46.190 --> 00:03:49.630 
+taste of our clock component prints this
+list<00:03:46.489> to<00:03:46.970> the<00:03:47.090> console<00:03:47.480> of<00:03:47.720> the<00:03:47.959> top<00:03:48.230> view<00:03:48.640> now
+
+00:03:49.630 --> 00:03:49.640 
+list to the console of the top view now
+
+00:03:49.640 --> 00:03:52.060 
+list to the console of the top view now
+we<00:03:50.120> can<00:03:50.330> execute<00:03:50.630> this<00:03:50.959> job<00:03:51.290> and<00:03:51.560> in<00:03:51.830> real-time
+
+00:03:52.060 --> 00:03:52.070 
+we can execute this job and in real-time
+
+00:03:52.070 --> 00:03:55.030 
+we can execute this job and in real-time
+we<00:03:52.940> see<00:03:53.209> the<00:03:53.420> most<00:03:53.630> used<00:03:53.930> hash<00:03:54.230> tags<00:03:54.560> in<00:03:54.830> the
+
+00:03:55.030 --> 00:03:55.040 
+we see the most used hash tags in the
+
+00:03:55.040 --> 00:03:57.759 
+we see the most used hash tags in the
+retrieved<00:03:55.400> treats<00:03:55.959> once<00:03:56.959> the<00:03:57.140> execution<00:03:57.410> is
+
+00:03:57.759 --> 00:03:57.769 
+retrieved treats once the execution is
+
+00:03:57.769 --> 00:04:00.190 
+retrieved treats once the execution is
+done<00:03:58.040> we<00:03:58.459> can<00:03:58.640> see<00:03:58.820> from<00:03:59.060> the<00:03:59.360> hash<00:03:59.720> tag<00:03:59.989> list
+
+00:04:00.190 --> 00:04:00.200 
+done we can see from the hash tag list
+
+00:04:00.200 --> 00:04:02.920 
+done we can see from the hash tag list
+that<00:04:00.620> the<00:04:00.769> most<00:04:00.980> used<00:04:01.370> hashtags<00:04:02.000> related<00:04:02.299> to
+
+00:04:02.920 --> 00:04:02.930 
+that the most used hashtags related to
+
+00:04:02.930 --> 00:04:06.880 
+that the most used hashtags related to
+Christmas<00:04:04.060> present<00:04:05.060> stockings<00:04:05.709> which<00:04:06.709> is
+
+00:04:06.880 --> 00:04:06.890 
+Christmas present stockings which is
+
+00:04:06.890 --> 00:04:09.759 
+Christmas present stockings which is
+logical<00:04:07.400> and<00:04:08.180> some<00:04:08.450> commercial<00:04:08.870> sites<00:04:09.260> for
+
+00:04:09.759 --> 00:04:09.769 
+logical and some commercial sites for
+
+00:04:09.769 --> 00:04:12.640 
+logical and some commercial sites for
+advertising<00:04:10.480> handicrafts<00:04:11.480> from<00:04:11.660> individual
+
+00:04:12.640 --> 00:04:12.650 
+advertising handicrafts from individual
+
+00:04:12.650 --> 00:04:16.150 
+advertising handicrafts from individual
+persons<00:04:13.360> now<00:04:14.360> the<00:04:14.420> development<00:04:15.079> of<00:04:15.440> both<00:04:15.709> jobs
+
+00:04:16.150 --> 00:04:16.160 
+persons now the development of both jobs
+
+00:04:16.160 --> 00:04:19.390 
+persons now the development of both jobs
+is<00:04:16.400> done<00:04:16.820> we<00:04:17.810> can<00:04:17.989> further<00:04:18.200> use<00:04:18.680> tear<00:04:18.950> and<00:04:19.160> drop
+
+00:04:19.390 --> 00:04:19.400 
+is done we can further use tear and drop
+
+00:04:19.400 --> 00:04:22.270 
+is done we can further use tear and drop
+to<00:04:19.700> orchestrate<00:04:20.269> their<00:04:20.600> executions<00:04:21.290> so<00:04:21.859> as<00:04:22.039> to
+
+00:04:22.270 --> 00:04:22.280 
+to orchestrate their executions so as to
+
+00:04:22.280 --> 00:04:25.659 
+to orchestrate their executions so as to
+analyze<00:04:22.760> Twitter<00:04:23.180> messages<00:04:23.720> in<00:04:24.140> real<00:04:24.410> time<00:04:24.680> so
+
+00:04:25.659 --> 00:04:25.669 
+analyze Twitter messages in real time so
+
+00:04:25.669 --> 00:04:27.280 
+analyze Twitter messages in real time so
+in<00:04:25.940> this<00:04:26.060> video<00:04:26.300> we<00:04:26.720> demonstrate
+
+00:04:27.280 --> 00:04:27.290 
+in this video we demonstrate
+
+00:04:27.290 --> 00:04:29.590 
+in this video we demonstrate
+how<00:04:27.500> to<00:04:27.560> use<00:04:27.860> a<00:04:27.890> set<00:04:28.280> of<00:04:28.430> spark<00:04:28.940> specific
+
+00:04:29.590 --> 00:04:29.600 
+how to use a set of spark specific
+
+00:04:29.600 --> 00:04:32.530 
+how to use a set of spark specific
+components<00:04:30.260> to<00:04:30.980> easily<00:04:31.310> build<00:04:31.790> and<00:04:32.000> test<00:04:32.330> a
+
+00:04:32.530 --> 00:04:32.540 
+components to easily build and test a
+
+00:04:32.540 --> 00:04:35.560 
+components to easily build and test a
+spark<00:04:32.930> application<00:04:33.680> now<00:04:34.580> the<00:04:34.640> demonstration
+
+00:04:35.560 --> 00:04:35.570 
+spark application now the demonstration
+
+00:04:35.570 --> 00:04:38.680 
+spark application now the demonstration
+is<00:04:35.780> done<00:04:36.130> remember<00:04:37.130> to<00:04:37.340> visit<00:04:37.580> tonight<00:04:38.120> calm
+
+00:04:38.680 --> 00:04:38.690 
+is done remember to visit tonight calm
+
+00:04:38.690 --> 00:04:41.140 
+is done remember to visit tonight calm
+down<00:04:39.140> load<00:04:39.320> of<00:04:39.530> latest<00:04:39.950> version<00:04:40.460> of<00:04:40.640> talents
+
+00:04:41.140 --> 00:04:41.150 
+down load of latest version of talents
+
+00:04:41.150 --> 00:04:43.600 
+down load of latest version of talents
+to<00:04:41.330> do<00:04:41.450> with<00:04:41.660> big<00:04:41.870> data<00:04:42.080> or<00:04:42.410> visit<00:04:43.250> talent
+
+00:04:43.600 --> 00:04:43.610 
+to do with big data or visit talent
+
+00:04:43.610 --> 00:04:46.120 
+to do with big data or visit talent
+effort<00:04:43.880> comm<00:04:44.480> talents<00:04:45.140> primary<00:04:45.680> source<00:04:45.920> of
+
+00:04:46.120 --> 00:04:46.130 
+effort comm talents primary source of
+
+00:04:46.130 --> 00:04:47.980 
+effort comm talents primary source of
+technical<00:04:46.730> information<00:04:46.820> and<00:04:47.480> a<00:04:47.750> user
+
+00:04:47.980 --> 00:04:47.990 
+technical information and a user
+
+00:04:47.990 --> 00:04:50.650 
+technical information and a user
+community
+

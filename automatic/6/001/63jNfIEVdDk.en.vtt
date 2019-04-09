@@ -1,0 +1,582 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.969 
+
+hey<00:00:00.539> I'm<00:00:00.690> Chris<00:00:00.989> and<00:00:01.199> today<00:00:01.290> we're<00:00:01.829> going<00:00:01.920> to
+
+00:00:01.969 --> 00:00:01.979 
+hey I'm Chris and today we're going to
+
+00:00:01.979 --> 00:00:04.190 
+hey I'm Chris and today we're going to
+demonstrate<00:00:02.210> alarming<00:00:03.210> with<00:00:03.419> a<00:00:03.480> ni<00:00:03.929> data
+
+00:00:04.190 --> 00:00:04.200 
+demonstrate alarming with a ni data
+
+00:00:04.200 --> 00:00:07.160 
+demonstrate alarming with a ni data
+acquisition<00:00:04.770> device<00:00:05.040> and<00:00:05.370> LabVIEW<00:00:05.990> so<00:00:06.990> I'll
+
+00:00:07.160 --> 00:00:07.170 
+acquisition device and LabVIEW so I'll
+
+00:00:07.170 --> 00:00:10.070 
+acquisition device and LabVIEW so I'll
+be<00:00:07.259> using<00:00:07.410> an<00:00:07.799> ni<00:00:08.220> C<00:00:08.730> Series<00:00:09.150> data<00:00:09.510> acquisition
+
+00:00:10.070 --> 00:00:10.080 
+be using an ni C Series data acquisition
+
+00:00:10.080 --> 00:00:12.140 
+be using an ni C Series data acquisition
+module<00:00:10.670> specifically<00:00:11.670> designed<00:00:12.059> for
+
+00:00:12.140 --> 00:00:12.150 
+module specifically designed for
+
+00:00:12.150 --> 00:00:14.839 
+module specifically designed for
+thermocouples<00:00:12.900> and<00:00:13.110> a<00:00:13.590> compact<00:00:14.070> DAC<00:00:14.340> chassis
+
+00:00:14.839 --> 00:00:14.849 
+thermocouples and a compact DAC chassis
+
+00:00:14.849 --> 00:00:16.970 
+thermocouples and a compact DAC chassis
+and<00:00:15.000> I've<00:00:15.540> wired<00:00:15.780> my<00:00:15.960> thermocouple<00:00:16.590> into
+
+00:00:16.970 --> 00:00:16.980 
+and I've wired my thermocouple into
+
+00:00:16.980 --> 00:00:19.790 
+and I've wired my thermocouple into
+analog<00:00:17.369> input<00:00:17.760> 0<00:00:18.170> if<00:00:19.170> we<00:00:19.350> switch<00:00:19.529> over<00:00:19.770> to
+
+00:00:19.790 --> 00:00:19.800 
+analog input 0 if we switch over to
+
+00:00:19.800 --> 00:00:21.710 
+analog input 0 if we switch over to
+LabVIEW<00:00:20.279> you<00:00:20.850> can<00:00:21.000> see<00:00:21.150> I've<00:00:21.270> already<00:00:21.510> placed
+
+00:00:21.710 --> 00:00:21.720 
+LabVIEW you can see I've already placed
+
+00:00:21.720 --> 00:00:24.080 
+LabVIEW you can see I've already placed
+my<00:00:21.869> DAC<00:00:22.380> assistant<00:00:22.560> on<00:00:23.070> the<00:00:23.130> block<00:00:23.550> diagram
+
+00:00:24.080 --> 00:00:24.090 
+my DAC assistant on the block diagram
+
+00:00:24.090 --> 00:00:26.779 
+my DAC assistant on the block diagram
+and<00:00:24.269> so<00:00:24.840> what<00:00:25.080> we<00:00:25.170> want<00:00:25.320> to<00:00:25.410> do<00:00:25.560> is<00:00:25.769> detect<00:00:26.490> if
+
+00:00:26.779 --> 00:00:26.789 
+and so what we want to do is detect if
+
+00:00:26.789 --> 00:00:28.880 
+and so what we want to do is detect if
+our<00:00:27.029> temperature<00:00:27.480> has<00:00:27.840> crossed<00:00:28.380> a<00:00:28.680> certain
+
+00:00:28.880 --> 00:00:28.890 
+our temperature has crossed a certain
+
+00:00:28.890 --> 00:00:31.790 
+our temperature has crossed a certain
+threshold<00:00:29.550> or<00:00:30.000> limit<00:00:30.630> to<00:00:31.260> do<00:00:31.410> that<00:00:31.560> we'll<00:00:31.769> use
+
+00:00:31.790 --> 00:00:31.800 
+threshold or limit to do that we'll use
+
+00:00:31.800 --> 00:00:33.860 
+threshold or limit to do that we'll use
+the<00:00:32.099> masking<00:00:32.520> limit<00:00:32.790> VI<00:00:32.940> so<00:00:33.450> if<00:00:33.540> I<00:00:33.630> right<00:00:33.840> click
+
+00:00:33.860 --> 00:00:33.870 
+the masking limit VI so if I right click
+
+00:00:33.870 --> 00:00:37.100 
+the masking limit VI so if I right click
+go<00:00:34.380> to<00:00:34.739> signal<00:00:35.160> analysis<00:00:35.730> and<00:00:35.969> we'll<00:00:36.809> see<00:00:36.960> the
+
+00:00:37.100 --> 00:00:37.110 
+go to signal analysis and we'll see the
+
+00:00:37.110 --> 00:00:39.830 
+go to signal analysis and we'll see the
+masking<00:00:37.500> limit<00:00:37.770> VI<00:00:37.920> and<00:00:38.390> we'll<00:00:39.390> place<00:00:39.540> that<00:00:39.570> on
+
+00:00:39.830 --> 00:00:39.840 
+masking limit VI and we'll place that on
+
+00:00:39.840 --> 00:00:41.479 
+masking limit VI and we'll place that on
+the<00:00:39.870> block<00:00:40.110> diagram<00:00:40.320> and<00:00:40.890> it<00:00:40.980> will<00:00:41.100> pop<00:00:41.250> up<00:00:41.280> a
+
+00:00:41.479 --> 00:00:41.489 
+the block diagram and it will pop up a
+
+00:00:41.489 --> 00:00:44.000 
+the block diagram and it will pop up a
+dialog<00:00:41.969> where<00:00:42.360> I<00:00:42.420> can<00:00:42.629> select<00:00:42.780> from<00:00:43.170> the<00:00:43.649> upper
+
+00:00:44.000 --> 00:00:44.010 
+dialog where I can select from the upper
+
+00:00:44.010 --> 00:00:46.160 
+dialog where I can select from the upper
+or<00:00:44.040> lower<00:00:44.550> limit<00:00:44.760> in<00:00:45.090> this<00:00:45.629> case<00:00:45.870> we're<00:00:46.079> going
+
+00:00:46.160 --> 00:00:46.170 
+or lower limit in this case we're going
+
+00:00:46.170 --> 00:00:48.590 
+or lower limit in this case we're going
+to<00:00:46.260> configure<00:00:46.559> an<00:00:46.890> upper<00:00:47.250> limit<00:00:47.550> and<00:00:47.670> define
+
+00:00:48.590 --> 00:00:48.600 
+to configure an upper limit and define
+
+00:00:48.600 --> 00:00:50.479 
+to configure an upper limit and define
+that<00:00:48.719> as<00:00:48.870> a<00:00:48.899> constant<00:00:49.469> value<00:00:49.620> so<00:00:50.219> when<00:00:50.370> we
+
+00:00:50.479 --> 00:00:50.489 
+that as a constant value so when we
+
+00:00:50.489 --> 00:00:55.040 
+that as a constant value so when we
+cross<00:00:51.230> 27<00:00:52.230> degrees<00:00:52.949> then<00:00:53.789> it'll<00:00:54.780> it'll
+
+00:00:55.040 --> 00:00:55.050 
+cross 27 degrees then it'll it'll
+
+00:00:55.050 --> 00:00:58.310 
+cross 27 degrees then it'll it'll
+trigger<00:00:55.379> our<00:00:55.649> alarm<00:00:56.780> so<00:00:57.780> the<00:00:57.930> next<00:00:58.079> thing<00:00:58.230> we
+
+00:00:58.310 --> 00:00:58.320 
+trigger our alarm so the next thing we
+
+00:00:58.320 --> 00:01:00.709 
+trigger our alarm so the next thing we
+need<00:00:58.469> to<00:00:58.500> do<00:00:58.649> is<00:00:58.859> wire<00:00:59.219> up<00:00:59.460> our<00:00:59.609> data<00:01:00.030> signal<00:01:00.449> to
+
+00:01:00.709 --> 00:01:00.719 
+need to do is wire up our data signal to
+
+00:01:00.719 --> 00:01:04.130 
+need to do is wire up our data signal to
+the<00:01:00.840> input<00:01:01.020> the<00:01:01.530> signals<00:01:02.160> input<00:01:02.579> and<00:01:02.780> then<00:01:03.780> I'm
+
+00:01:04.130 --> 00:01:04.140 
+the input the signals input and then I'm
+
+00:01:04.140 --> 00:01:07.010 
+the input the signals input and then I'm
+actually<00:01:04.409> going<00:01:04.680> to<00:01:04.769> move<00:01:05.119> my<00:01:06.119> my<00:01:06.780> waveform
+
+00:01:07.010 --> 00:01:07.020 
+actually going to move my my waveform
+
+00:01:07.020 --> 00:01:10.399 
+actually going to move my my waveform
+graph<00:01:08.150> to<00:01:09.150> the<00:01:09.270> output<00:01:09.659> of<00:01:09.840> the<00:01:10.020> mask<00:01:10.229> and
+
+00:01:10.399 --> 00:01:10.409 
+graph to the output of the mask and
+
+00:01:10.409 --> 00:01:14.270 
+graph to the output of the mask and
+limit<00:01:10.710> VI<00:01:12.320> this<00:01:13.320> way<00:01:13.500> it<00:01:13.590> will<00:01:13.680> display<00:01:14.010> my
+
+00:01:14.270 --> 00:01:14.280 
+limit VI this way it will display my
+
+00:01:14.280 --> 00:01:16.609 
+limit VI this way it will display my
+limits<00:01:14.670> on<00:01:14.850> the<00:01:15.600> graph<00:01:15.810> as<00:01:16.110> well<00:01:16.290> as<00:01:16.470> my
+
+00:01:16.609 --> 00:01:16.619 
+limits on the graph as well as my
+
+00:01:16.619 --> 00:01:20.090 
+limits on the graph as well as my
+original<00:01:17.159> signal<00:01:17.520> and<00:01:18.409> now<00:01:19.409> to<00:01:19.470> indicate
+
+00:01:20.090 --> 00:01:20.100 
+original signal and now to indicate
+
+00:01:20.100 --> 00:01:23.719 
+original signal and now to indicate
+whether<00:01:20.460> our<00:01:21.259> actual<00:01:22.259> signal<00:01:22.619> value<00:01:22.920> is<00:01:23.159> below
+
+00:01:23.719 --> 00:01:23.729 
+whether our actual signal value is below
+
+00:01:23.729 --> 00:01:26.149 
+whether our actual signal value is below
+or<00:01:24.180> above<00:01:24.659> that<00:01:24.990> limit<00:01:25.170> we<00:01:25.409> can<00:01:25.590> use<00:01:25.770> the<00:01:25.950> pass
+
+00:01:26.149 --> 00:01:26.159 
+or above that limit we can use the pass
+
+00:01:26.159 --> 00:01:28.940 
+or above that limit we can use the pass
+foulon<00:01:26.640> so<00:01:27.119> if<00:01:27.420> it<00:01:27.540> is<00:01:27.659> below<00:01:27.990> the<00:01:28.350> limit<00:01:28.650> it
+
+00:01:28.940 --> 00:01:28.950 
+foulon so if it is below the limit it
+
+00:01:28.950 --> 00:01:32.120 
+foulon so if it is below the limit it
+will<00:01:29.159> indicate<00:01:29.549> a<00:01:30.030> true<00:01:30.659> value<00:01:31.020> so<00:01:31.920> I<00:01:31.950> can
+
+00:01:32.120 --> 00:01:32.130 
+will indicate a true value so I can
+
+00:01:32.130 --> 00:01:33.859 
+will indicate a true value so I can
+right<00:01:32.310> click<00:01:32.340> that<00:01:32.759> and<00:01:33.000> create<00:01:33.299> an<00:01:33.420> indicator
+
+00:01:33.859 --> 00:01:33.869 
+right click that and create an indicator
+
+00:01:33.869 --> 00:01:37.039 
+right click that and create an indicator
+and<00:01:34.110> it'll<00:01:34.890> create<00:01:35.070> a<00:01:35.430> LED<00:01:36.210> boolean<00:01:36.630> on<00:01:36.900> my
+
+00:01:37.039 --> 00:01:37.049 
+and it'll create a LED boolean on my
+
+00:01:37.049 --> 00:01:40.749 
+and it'll create a LED boolean on my
+front<00:01:37.350> panel<00:01:37.850> and<00:01:38.850> now<00:01:39.240> when<00:01:39.450> I<00:01:39.479> run<00:01:39.570> the<00:01:39.869> VI
+
+00:01:40.749 --> 00:01:40.759 
+front panel and now when I run the VI
+
+00:01:40.759 --> 00:01:43.639 
+front panel and now when I run the VI
+you<00:01:41.759> can<00:01:41.909> see<00:01:42.060> that<00:01:42.240> by<00:01:42.360> default<00:01:42.420> the<00:01:43.110> boolean
+
+00:01:43.639 --> 00:01:43.649 
+you can see that by default the boolean
+
+00:01:43.649 --> 00:01:46.370 
+you can see that by default the boolean
+value<00:01:44.009> is<00:01:44.159> true<00:01:44.460> because<00:01:45.060> my<00:01:45.750> temperature
+
+00:01:46.370 --> 00:01:46.380 
+value is true because my temperature
+
+00:01:46.380 --> 00:01:48.530 
+value is true because my temperature
+signal<00:01:46.619> which<00:01:46.890> is<00:01:47.009> in<00:01:47.130> the<00:01:47.220> white<00:01:47.430> is<00:01:47.670> below
+
+00:01:48.530 --> 00:01:48.540 
+signal which is in the white is below
+
+00:01:48.540 --> 00:01:51.440 
+signal which is in the white is below
+the<00:01:48.899> threshold<00:01:49.280> so<00:01:50.280> in<00:01:50.520> our<00:01:50.610> case<00:01:50.820> we<00:01:51.060> want<00:01:51.210> to
+
+00:01:51.440 --> 00:01:51.450 
+the threshold so in our case we want to
+
+00:01:51.450 --> 00:01:53.630 
+the threshold so in our case we want to
+generate<00:01:52.110> alarm<00:01:52.530> so<00:01:52.829> we<00:01:52.979> want<00:01:53.189> the<00:01:53.340> value<00:01:53.610> to
+
+00:01:53.630 --> 00:01:53.640 
+generate alarm so we want the value to
+
+00:01:53.640 --> 00:01:57.020 
+generate alarm so we want the value to
+be<00:01:53.759> true<00:01:54.119> if<00:01:54.390> it<00:01:55.140> is<00:01:55.320> above<00:01:55.649> our<00:01:55.890> threshold<00:01:56.399> so
+
+00:01:57.020 --> 00:01:57.030 
+be true if it is above our threshold so
+
+00:01:57.030 --> 00:01:58.280 
+be true if it is above our threshold so
+what<00:01:57.270> we're<00:01:57.390> actually<00:01:57.540> going<00:01:57.780> to<00:01:57.869> do<00:01:58.049> is
+
+00:01:58.280 --> 00:01:58.290 
+what we're actually going to do is
+
+00:01:58.290 --> 00:02:01.280 
+what we're actually going to do is
+invert<00:01:59.040> that<00:01:59.310> value<00:01:59.759> and<00:01:59.969> so<00:02:00.689> I<00:02:00.719> can<00:02:00.990> right
+
+00:02:01.280 --> 00:02:01.290 
+invert that value and so I can right
+
+00:02:01.290 --> 00:02:03.620 
+invert that value and so I can right
+click<00:02:01.320> on<00:02:01.680> the<00:02:01.920> boolean<00:02:02.189> wire<00:02:02.460> go<00:02:03.360> to<00:02:03.420> the
+
+00:02:03.620 --> 00:02:03.630 
+click on the boolean wire go to the
+
+00:02:03.630 --> 00:02:08.740 
+click on the boolean wire go to the
+boolean<00:02:03.930> palette<00:02:04.409> and<00:02:04.610> insert<00:02:05.610> a<00:02:06.950> not
+
+00:02:08.740 --> 00:02:08.750 
+boolean palette and insert a not
+
+00:02:08.750 --> 00:02:13.059 
+boolean palette and insert a not
+function<00:02:09.750> and<00:02:11.150> now<00:02:12.150> when<00:02:12.330> I<00:02:12.360> press
+
+00:02:13.059 --> 00:02:13.069 
+function and now when I press
+
+00:02:13.069 --> 00:02:15.699 
+function and now when I press
+the<00:02:13.219> Run<00:02:13.400> button<00:02:13.780> you'll<00:02:14.780> see<00:02:14.840> the<00:02:15.409> boolean
+
+00:02:15.699 --> 00:02:15.709 
+the Run button you'll see the boolean
+
+00:02:15.709 --> 00:02:18.899 
+the Run button you'll see the boolean
+values<00:02:16.040> off<00:02:16.280> if<00:02:16.640> I<00:02:17.120> touch<00:02:17.329> the<00:02:17.569> thermocouple
+
+00:02:18.899 --> 00:02:18.909 
+values off if I touch the thermocouple
+
+00:02:18.909 --> 00:02:23.039 
+values off if I touch the thermocouple
+it'll<00:02:19.909> warm<00:02:20.120> up<00:02:20.299> and<00:02:20.480> the<00:02:21.019> LED<00:02:21.379> will<00:02:21.590> turn<00:02:21.890> on
+
+00:02:23.039 --> 00:02:23.049 
+it'll warm up and the LED will turn on
+
+00:02:23.049 --> 00:02:27.009 
+it'll warm up and the LED will turn on
+in<00:02:24.049> addition<00:02:24.709> to<00:02:24.890> displaying<00:02:25.569> LEDs<00:02:26.569> or<00:02:26.810> lights
+
+00:02:27.009 --> 00:02:27.019 
+in addition to displaying LEDs or lights
+
+00:02:27.019 --> 00:02:28.660 
+in addition to displaying LEDs or lights
+on<00:02:27.200> the<00:02:27.290> user<00:02:27.500> interface<00:02:27.920> we<00:02:28.370> can<00:02:28.400> also
+
+00:02:28.660 --> 00:02:28.670 
+on the user interface we can also
+
+00:02:28.670 --> 00:02:32.500 
+on the user interface we can also
+display<00:02:29.239> a<00:02:29.750> light<00:02:30.170> in<00:02:30.439> the<00:02:31.310> real<00:02:31.489> world<00:02:31.700> so<00:02:32.390> in
+
+00:02:32.500 --> 00:02:32.510 
+display a light in the real world so in
+
+00:02:32.510 --> 00:02:34.149 
+display a light in the real world so in
+this<00:02:32.599> case<00:02:32.840> I'm<00:02:33.049> using<00:02:33.079> a<00:02:33.560> spinning<00:02:33.859> light
+
+00:02:34.149 --> 00:02:34.159 
+this case I'm using a spinning light
+
+00:02:34.159 --> 00:02:36.970 
+this case I'm using a spinning light
+which<00:02:34.489> is<00:02:34.670> plugged<00:02:35.030> into<00:02:35.269> the<00:02:35.510> wall<00:02:35.989> and<00:02:36.470> I'll
+
+00:02:36.970 --> 00:02:36.980 
+which is plugged into the wall and I'll
+
+00:02:36.980 --> 00:02:39.879 
+which is plugged into the wall and I'll
+be<00:02:37.099> using<00:02:37.280> a<00:02:38.049> National<00:02:39.049> Instruments<00:02:39.230> e-series
+
+00:02:39.879 --> 00:02:39.889 
+be using a National Instruments e-series
+
+00:02:39.889 --> 00:02:43.240 
+be using a National Instruments e-series
+relay<00:02:40.579> module<00:02:41.030> to<00:02:41.629> switch<00:02:42.200> on<00:02:42.439> or<00:02:42.769> off<00:02:42.799> that
+
+00:02:43.240 --> 00:02:43.250 
+relay module to switch on or off that
+
+00:02:43.250 --> 00:02:44.580 
+relay module to switch on or off that
+light
+
+00:02:44.580 --> 00:02:44.590 
+light
+
+00:02:44.590 --> 00:02:47.379 
+light
+so<00:02:45.590> to<00:02:45.650> interface<00:02:46.189> with<00:02:46.250> the<00:02:46.519> relay<00:02:46.819> module<00:02:47.000> I
+
+00:02:47.379 --> 00:02:47.389 
+so to interface with the relay module I
+
+00:02:47.389 --> 00:02:50.349 
+so to interface with the relay module I
+can<00:02:48.109> add<00:02:48.349> another<00:02:48.560> DAC<00:02:48.950> assistant<00:02:49.239> to<00:02:50.239> the
+
+00:02:50.349 --> 00:02:50.359 
+can add another DAC assistant to the
+
+00:02:50.359 --> 00:02:54.699 
+can add another DAC assistant to the
+block<00:02:50.540> diagram<00:02:50.569> and<00:02:53.230> then<00:02:54.230> what<00:02:54.409> I'm<00:02:54.500> going<00:02:54.680> to
+
+00:02:54.699 --> 00:02:54.709 
+block diagram and then what I'm going to
+
+00:02:54.709 --> 00:02:56.920 
+block diagram and then what I'm going to
+be<00:02:54.829> doing<00:02:55.010> is<00:02:55.189> generating<00:02:55.849> a<00:02:56.000> digital<00:02:56.540> signal
+
+00:02:56.920 --> 00:02:56.930 
+be doing is generating a digital signal
+
+00:02:56.930 --> 00:03:01.270 
+be doing is generating a digital signal
+to<00:02:57.319> turn<00:02:57.560> on<00:02:57.889> or<00:02:58.430> off<00:02:59.230> the<00:03:00.230> line<00:03:00.409> and<00:03:00.709> so<00:03:01.129> you'll
+
+00:03:01.270 --> 00:03:01.280 
+to turn on or off the line and so you'll
+
+00:03:01.280 --> 00:03:05.259 
+to turn on or off the line and so you'll
+notice<00:03:01.340> on<00:03:01.819> the<00:03:02.599> wizard<00:03:03.260> here<00:03:03.530> that<00:03:03.970> the<00:03:04.970> relay
+
+00:03:05.259 --> 00:03:05.269 
+notice on the wizard here that the relay
+
+00:03:05.269 --> 00:03:07.240 
+notice on the wizard here that the relay
+module<00:03:05.419> has<00:03:05.810> up<00:03:05.989> to<00:03:06.019> four<00:03:06.349> digital<00:03:06.739> lines<00:03:06.980> in
+
+00:03:07.240 --> 00:03:07.250 
+module has up to four digital lines in
+
+00:03:07.250 --> 00:03:08.649 
+module has up to four digital lines in
+this<00:03:07.669> case<00:03:07.879> we're<00:03:08.060> only<00:03:08.090> going<00:03:08.329> to<00:03:08.389> use<00:03:08.480> one
+
+00:03:08.649 --> 00:03:08.659 
+this case we're only going to use one
+
+00:03:08.659 --> 00:03:14.530 
+this case we're only going to use one
+and<00:03:10.359> then<00:03:11.359> we<00:03:11.540> can<00:03:11.689> hit<00:03:11.840> OK<00:03:12.200> and<00:03:13.299> then<00:03:14.299> when<00:03:14.450> the
+
+00:03:14.530 --> 00:03:14.540 
+and then we can hit OK and then when the
+
+00:03:14.540 --> 00:03:17.559 
+and then we can hit OK and then when the
+DAC<00:03:14.720> assistant<00:03:15.129> VI<00:03:16.129> is<00:03:16.250> generated<00:03:17.000> you'll<00:03:17.419> see
+
+00:03:17.559 --> 00:03:17.569 
+DAC assistant VI is generated you'll see
+
+00:03:17.569 --> 00:03:20.740 
+DAC assistant VI is generated you'll see
+it<00:03:17.659> only<00:03:17.720> has<00:03:17.989> one<00:03:18.019> data<00:03:18.919> input<00:03:19.370> and<00:03:20.269> so<00:03:20.599> it's
+
+00:03:20.740 --> 00:03:20.750 
+it only has one data input and so it's
+
+00:03:20.750 --> 00:03:23.199 
+it only has one data input and so it's
+actually<00:03:20.900> looking<00:03:21.379> for<00:03:21.590> an<00:03:21.799> array<00:03:22.159> of<00:03:22.370> four
+
+00:03:23.199 --> 00:03:23.209 
+actually looking for an array of four
+
+00:03:23.209 --> 00:03:26.080 
+actually looking for an array of four
+values<00:03:23.479> for<00:03:23.870> each<00:03:23.989> of<00:03:24.019> those<00:03:24.409> relay<00:03:25.069> lines<00:03:25.340> so
+
+00:03:26.080 --> 00:03:26.090 
+values for each of those relay lines so
+
+00:03:26.090 --> 00:03:27.699 
+values for each of those relay lines so
+if<00:03:26.180> I<00:03:26.239> right<00:03:26.479> click<00:03:26.510> the<00:03:26.810> input<00:03:27.139> I<00:03:27.349> can<00:03:27.560> go<00:03:27.650> to
+
+00:03:27.699 --> 00:03:27.709 
+if I right click the input I can go to
+
+00:03:27.709 --> 00:03:29.920 
+if I right click the input I can go to
+the<00:03:27.889> rape<00:03:28.099> allit<00:03:28.669> and<00:03:28.819> we're<00:03:29.540> going<00:03:29.659> to<00:03:29.690> build
+
+00:03:29.920 --> 00:03:29.930 
+the rape allit and we're going to build
+
+00:03:29.930 --> 00:03:34.059 
+the rape allit and we're going to build
+an<00:03:30.290> array<00:03:30.680> of<00:03:31.510> values<00:03:32.530> so<00:03:33.530> in<00:03:33.680> this<00:03:33.769> case<00:03:34.040> just
+
+00:03:34.059 --> 00:03:34.069 
+an array of values so in this case just
+
+00:03:34.069 --> 00:03:38.349 
+an array of values so in this case just
+our<00:03:34.609> one<00:03:34.849> value<00:03:36.099> from<00:03:37.099> the<00:03:37.790> same<00:03:38.030> value<00:03:38.329> that
+
+00:03:38.349 --> 00:03:38.359 
+our one value from the same value that
+
+00:03:38.359 --> 00:03:41.050 
+our one value from the same value that
+we're<00:03:38.510> passing<00:03:38.870> to<00:03:38.989> that<00:03:39.139> LED<00:03:40.040> indicator<00:03:40.609> and
+
+00:03:41.050 --> 00:03:41.060 
+we're passing to that LED indicator and
+
+00:03:41.060 --> 00:03:43.839 
+we're passing to that LED indicator and
+now<00:03:41.419> if<00:03:41.540> I<00:03:41.599> press<00:03:41.870> the<00:03:41.900> Run<00:03:42.199> button<00:03:42.699> you<00:03:43.699> can
+
+00:03:43.839 --> 00:03:43.849 
+now if I press the Run button you can
+
+00:03:43.849 --> 00:03:46.089 
+now if I press the Run button you can
+see<00:03:44.030> if<00:03:44.239> I<00:03:44.389> touch<00:03:44.659> the<00:03:45.319> thermocouple<00:03:45.919> wire
+
+00:03:46.089 --> 00:03:46.099 
+see if I touch the thermocouple wire
+
+00:03:46.099 --> 00:03:50.379 
+see if I touch the thermocouple wire
+once<00:03:46.940> it<00:03:47.090> crosses<00:03:47.299> that<00:03:47.659> threshold<00:03:49.389> the
+
+00:03:50.379 --> 00:03:50.389 
+once it crosses that threshold the
+
+00:03:50.389 --> 00:03:53.800 
+once it crosses that threshold the
+spinning<00:03:51.079> light<00:03:51.260> will<00:03:51.440> turn<00:03:51.560> on<00:03:51.620> and<00:03:52.810> that's
+
+00:03:53.800 --> 00:03:53.810 
+spinning light will turn on and that's
+
+00:03:53.810 --> 00:03:55.479 
+spinning light will turn on and that's
+how<00:03:53.930> you<00:03:54.019> do<00:03:54.199> alarming<00:03:54.709> with<00:03:54.859> an<00:03:55.010> ni<00:03:55.220> data
+
+00:03:55.479 --> 00:03:55.489 
+how you do alarming with an ni data
+
+00:03:55.489 --> 00:03:59.079 
+how you do alarming with an ni data
+acquisition<00:03:56.120> device<00:03:56.389> and<00:03:56.689> LabVIEW
+

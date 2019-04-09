@@ -1,0 +1,1317 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.399 --> 00:00:08.550 
+
+hello<00:00:06.399> hexers<00:00:06.819> I'm<00:00:06.999> mocha<00:00:07.839> and<00:00:08.080> today<00:00:08.349> we're
+
+00:00:08.550 --> 00:00:08.560 
+hello hexers I'm mocha and today we're
+
+00:00:08.560 --> 00:00:10.140 
+hello hexers I'm mocha and today we're
+going<00:00:08.590> to<00:00:08.770> take<00:00:08.920> a<00:00:08.980> look<00:00:09.220> at<00:00:09.310> the<00:00:09.430> card<00:00:09.670> economy
+
+00:00:10.140 --> 00:00:10.150 
+going to take a look at the card economy
+
+00:00:10.150 --> 00:00:13.110 
+going to take a look at the card economy
+of<00:00:10.270> hex<00:00:10.560> based<00:00:11.560> on<00:00:11.770> the<00:00:11.920> release<00:00:12.310> data<00:00:12.640> we're
+
+00:00:13.110 --> 00:00:13.120 
+of hex based on the release data we're
+
+00:00:13.120 --> 00:00:15.480 
+of hex based on the release data we're
+going<00:00:13.270> to<00:00:13.390> calculate<00:00:13.600> a<00:00:13.900> baseline<00:00:14.500> value<00:00:14.980> for
+
+00:00:15.480 --> 00:00:15.490 
+going to calculate a baseline value for
+
+00:00:15.490 --> 00:00:18.290 
+going to calculate a baseline value for
+common<00:00:15.910> uncommon<00:00:16.750> rare<00:00:17.110> and<00:00:17.410> legendary<00:00:17.620> cards
+
+00:00:18.290 --> 00:00:18.300 
+common uncommon rare and legendary cards
+
+00:00:18.300 --> 00:00:20.880 
+common uncommon rare and legendary cards
+these<00:00:19.300> values<00:00:19.720> will<00:00:19.930> be<00:00:19.960> approximate<00:00:20.680> and
+
+00:00:20.880 --> 00:00:20.890 
+these values will be approximate and
+
+00:00:20.890 --> 00:00:22.620 
+these values will be approximate and
+some<00:00:21.220> specific<00:00:21.820> cards<00:00:22.210> will<00:00:22.360> fluctuate
+
+00:00:22.620 --> 00:00:22.630 
+some specific cards will fluctuate
+
+00:00:22.630 --> 00:00:25.020 
+some specific cards will fluctuate
+wildly<00:00:23.199> but<00:00:24.070> we're<00:00:24.250> going<00:00:24.430> to<00:00:24.520> take<00:00:24.670> a<00:00:24.699> look<00:00:24.880> at
+
+00:00:25.020 --> 00:00:25.030 
+wildly but we're going to take a look at
+
+00:00:25.030 --> 00:00:26.640 
+wildly but we're going to take a look at
+the<00:00:25.150> aggregate<00:00:25.300> values<00:00:25.990> and<00:00:26.260> what<00:00:26.440> they'll
+
+00:00:26.640 --> 00:00:26.650 
+the aggregate values and what they'll
+
+00:00:26.650 --> 00:00:28.680 
+the aggregate values and what they'll
+mean<00:00:26.680> to<00:00:27.160> the<00:00:27.279> a<00:00:27.310> vertex<00:00:27.730> ER<00:00:27.970> our<00:00:28.330> main
+
+00:00:28.680 --> 00:00:28.690 
+mean to the a vertex ER our main
+
+00:00:28.690 --> 00:00:30.390 
+mean to the a vertex ER our main
+assumptions<00:00:29.320> are<00:00:29.500> that<00:00:29.529> each<00:00:29.830> player<00:00:30.220> will
+
+00:00:30.390 --> 00:00:30.400 
+assumptions are that each player will
+
+00:00:30.400 --> 00:00:32.429 
+assumptions are that each player will
+open<00:00:30.730> all<00:00:30.910> of<00:00:31.180> their<00:00:31.330> packs<00:00:31.600> and<00:00:31.930> immediately
+
+00:00:32.429 --> 00:00:32.439 
+open all of their packs and immediately
+
+00:00:32.439 --> 00:00:34.380 
+open all of their packs and immediately
+play<00:00:32.710> all<00:00:32.950> of<00:00:33.160> their<00:00:33.310> Kickstarter<00:00:33.880> dress<00:00:34.149> and
+
+00:00:34.380 --> 00:00:34.390 
+play all of their Kickstarter dress and
+
+00:00:34.390 --> 00:00:36.690 
+play all of their Kickstarter dress and
+lose<00:00:34.960> the<00:00:35.800> reason<00:00:36.160> for<00:00:36.340> this<00:00:36.430> is<00:00:36.670> because
+
+00:00:36.690 --> 00:00:36.700 
+lose the reason for this is because
+
+00:00:36.700 --> 00:00:39.210 
+lose the reason for this is because
+using<00:00:37.450> boosters<00:00:37.660> to<00:00:38.020> draft<00:00:38.320> and<00:00:38.559> calculating
+
+00:00:39.210 --> 00:00:39.220 
+using boosters to draft and calculating
+
+00:00:39.220 --> 00:00:41.370 
+using boosters to draft and calculating
+winning<00:00:39.640> boosters<00:00:40.090> will<00:00:40.690> dilute<00:00:40.930> the<00:00:41.110> card
+
+00:00:41.370 --> 00:00:41.380 
+winning boosters will dilute the card
+
+00:00:41.380 --> 00:00:44.250 
+winning boosters will dilute the card
+for<00:00:41.649> lowering<00:00:42.250> values<00:00:42.760> this<00:00:43.630> assumption<00:00:44.020> is
+
+00:00:44.250 --> 00:00:44.260 
+for lowering values this assumption is
+
+00:00:44.260 --> 00:00:46.350 
+for lowering values this assumption is
+unrealistic<00:00:44.800> but<00:00:45.309> without<00:00:45.610> additional<00:00:46.120> data
+
+00:00:46.350 --> 00:00:46.360 
+unrealistic but without additional data
+
+00:00:46.360 --> 00:00:48.420 
+unrealistic but without additional data
+we<00:00:46.630> cannot<00:00:46.870> calculate<00:00:47.170> further<00:00:47.739> with<00:00:48.010> meaning
+
+00:00:48.420 --> 00:00:48.430 
+we cannot calculate further with meaning
+
+00:00:48.430 --> 00:00:50.389 
+we cannot calculate further with meaning
+after<00:00:48.579> compiling<00:00:49.450> data<00:00:49.840> into<00:00:50.230> a<00:00:50.260> spreadsheet
+
+00:00:50.389 --> 00:00:50.399 
+after compiling data into a spreadsheet
+
+00:00:50.399 --> 00:00:53.610 
+after compiling data into a spreadsheet
+with<00:00:51.399> data<00:00:51.670> from<00:00:51.940> Kickstarter<00:00:52.540> and<00:00:52.570> hex<00:00:53.050> TCG
+
+00:00:53.610 --> 00:00:53.620 
+with data from Kickstarter and hex TCG
+
+00:00:53.620 --> 00:00:57.270 
+with data from Kickstarter and hex TCG
+com<00:00:54.040> we<00:00:54.969> can<00:00:55.210> guarantee<00:00:55.420> a<00:00:55.750> minimum<00:00:56.280> available
+
+00:00:57.270 --> 00:00:57.280 
+com we can guarantee a minimum available
+
+00:00:57.280 --> 00:01:01.440 
+com we can guarantee a minimum available
+amount<00:00:57.640> of<00:00:57.820> PvP<00:00:58.420> boosters<00:00:58.840> of<00:00:59.460> 1.7<00:01:00.460> 2<00:01:00.670> million
+
+00:01:01.440 --> 00:01:01.450 
+amount of PvP boosters of 1.7 2 million
+
+00:01:01.450 --> 00:01:03.750 
+amount of PvP boosters of 1.7 2 million
+at<00:01:01.600> beta<00:01:01.960> launch<00:01:02.260> this<00:01:02.770> does<00:01:03.010> not<00:01:03.280> account<00:01:03.610> for
+
+00:01:03.750 --> 00:01:03.760 
+at beta launch this does not account for
+
+00:01:03.760 --> 00:01:06.480 
+at beta launch this does not account for
+the<00:01:04.030> VIP<00:01:04.360> program<00:01:04.809> nor<00:01:05.740> the<00:01:05.979> free<00:01:06.190> year<00:01:06.460> of
+
+00:01:06.480 --> 00:01:06.490 
+the VIP program nor the free year of
+
+00:01:06.490 --> 00:01:08.490 
+the VIP program nor the free year of
+boosters<00:01:07.000> for<00:01:07.299> the<00:01:07.510> different<00:01:08.200> tiers
+
+00:01:08.490 --> 00:01:08.500 
+boosters for the different tiers
+
+00:01:08.500 --> 00:01:11.219 
+boosters for the different tiers
+cryptozoic<00:01:09.369> will<00:01:09.820> be<00:01:09.940> experiencing<00:01:10.570> a<00:01:10.690> flood
+
+00:01:11.219 --> 00:01:11.229 
+cryptozoic will be experiencing a flood
+
+00:01:11.229 --> 00:01:13.410 
+cryptozoic will be experiencing a flood
+of<00:01:11.260> data<00:01:11.619> on<00:01:11.740> their<00:01:11.979> servers<00:01:12.400> so<00:01:13.000> we<00:01:13.119> should<00:01:13.150> be
+
+00:01:13.410 --> 00:01:13.420 
+of data on their servers so we should be
+
+00:01:13.420 --> 00:01:15.210 
+of data on their servers so we should be
+patient<00:01:13.900> when<00:01:14.020> the<00:01:14.140> beta<00:01:14.350> launches<00:01:14.799> as<00:01:15.040> their
+
+00:01:15.210 --> 00:01:15.220 
+patient when the beta launches as their
+
+00:01:15.220 --> 00:01:18.600 
+patient when the beta launches as their
+processing<00:01:15.850> over<00:01:16.500> 49,000<00:01:17.500> booster<00:01:18.130> boxes
+
+00:01:18.600 --> 00:01:18.610 
+processing over 49,000 booster boxes
+
+00:01:18.610 --> 00:01:22.200 
+processing over 49,000 booster boxes
+worth<00:01:19.299> of<00:01:19.570> cards<00:01:20.049> for<00:01:20.560> over<00:01:20.830> 18,000<00:01:21.790> backers
+
+00:01:22.200 --> 00:01:22.210 
+worth of cards for over 18,000 backers
+
+00:01:22.210 --> 00:01:24.420 
+worth of cards for over 18,000 backers
+the<00:01:22.600> auction<00:01:23.140> house<00:01:23.320> will<00:01:23.619> be<00:01:23.650> a<00:01:23.770> washing
+
+00:01:24.420 --> 00:01:24.430 
+the auction house will be a washing
+
+00:01:24.430 --> 00:01:26.730 
+the auction house will be a washing
+cards<00:01:24.880> and<00:01:25.090> very<00:01:25.810> little<00:01:26.020> gained<00:01:26.380> currency
+
+00:01:26.730 --> 00:01:26.740 
+cards and very little gained currency
+
+00:01:26.740 --> 00:01:30.719 
+cards and very little gained currency
+will<00:01:27.100> be<00:01:27.250> available<00:01:27.820> from<00:01:27.970> pde<00:01:28.390> or<00:01:28.840> pvp<00:01:29.530> we<00:01:30.520> can
+
+00:01:30.719 --> 00:01:30.729 
+will be available from pde or pvp we can
+
+00:01:30.729 --> 00:01:32.910 
+will be available from pde or pvp we can
+deduce<00:01:30.850> several<00:01:31.540> initial<00:01:31.990> market<00:01:32.380> conditions
+
+00:01:32.910 --> 00:01:32.920 
+deduce several initial market conditions
+
+00:01:32.920 --> 00:01:35.429 
+deduce several initial market conditions
+the<00:01:33.729> minimum<00:01:34.210> total<00:01:34.420> card<00:01:34.840> stock<00:01:35.140> of
+
+00:01:35.429 --> 00:01:35.439 
+the minimum total card stock of
+
+00:01:35.439 --> 00:01:39.090 
+the minimum total card stock of
+approximately<00:01:36.130> 20<00:01:36.430> 6.8<00:01:37.150> million<00:01:37.570> cards<00:01:38.100> far
+
+00:01:39.090 --> 00:01:39.100 
+approximately 20 6.8 million cards far
+
+00:01:39.100 --> 00:01:42.030 
+approximately 20 6.8 million cards far
+outpaces<00:01:39.939> the<00:01:39.939> in-game<00:01:40.659> currency<00:01:41.259> allowing<00:01:41.920> a
+
+00:01:42.030 --> 00:01:42.040 
+outpaces the in-game currency allowing a
+
+00:01:42.040 --> 00:01:44.520 
+outpaces the in-game currency allowing a
+massive<00:01:42.670> deflation<00:01:43.240> and<00:01:43.360> respect<00:01:43.990> the<00:01:44.259> gold
+
+00:01:44.520 --> 00:01:44.530 
+massive deflation and respect the gold
+
+00:01:44.530 --> 00:01:46.710 
+massive deflation and respect the gold
+and<00:01:44.680> platinum<00:01:44.970> this<00:01:45.970> effect<00:01:46.450> will<00:01:46.689> be
+
+00:01:46.710 --> 00:01:46.720 
+and platinum this effect will be
+
+00:01:46.720 --> 00:01:49.350 
+and platinum this effect will be
+temporary<00:01:47.530> as<00:01:47.790> eventually<00:01:48.790> the<00:01:48.939> in-game
+
+00:01:49.350 --> 00:01:49.360 
+temporary as eventually the in-game
+
+00:01:49.360 --> 00:01:51.600 
+temporary as eventually the in-game
+currency<00:01:49.930> will<00:01:50.110> outpace<00:01:50.560> the<00:01:50.799> expanding<00:01:51.369> card
+
+00:01:51.600 --> 00:01:51.610 
+currency will outpace the expanding card
+
+00:01:51.610 --> 00:01:54.690 
+currency will outpace the expanding card
+pool<00:01:51.850> expect<00:01:52.630> inflation<00:01:52.869> as<00:01:53.470> the<00:01:53.740> in<00:01:54.040> respect
+
+00:01:54.690 --> 00:01:54.700 
+pool expect inflation as the in respect
+
+00:01:54.700 --> 00:01:56.639 
+pool expect inflation as the in respect
+to<00:01:54.759> the<00:01:54.970> gold<00:01:55.270> and<00:01:55.509> platinum<00:01:55.900> as<00:01:56.290> the<00:01:56.439> game
+
+00:01:56.639 --> 00:01:56.649 
+to the gold and platinum as the game
+
+00:01:56.649 --> 00:01:59.550 
+to the gold and platinum as the game
+progresses<00:01:57.180> each<00:01:58.180> new<00:01:58.570> set<00:01:58.840> release<00:01:59.140> will
+
+00:01:59.550 --> 00:01:59.560 
+progresses each new set release will
+
+00:01:59.560 --> 00:02:02.370 
+progresses each new set release will
+exacerbate<00:02:00.369> the<00:02:00.939> inflationary<00:02:01.540> pressures<00:02:02.110> as
+
+00:02:02.370 --> 00:02:02.380 
+exacerbate the inflationary pressures as
+
+00:02:02.380 --> 00:02:04.410 
+exacerbate the inflationary pressures as
+spikes<00:02:02.710> of<00:02:02.950> new<00:02:03.100> cards<00:02:03.520> at<00:02:03.700> the<00:02:03.729> market<00:02:04.210> this
+
+00:02:04.410 --> 00:02:04.420 
+spikes of new cards at the market this
+
+00:02:04.420 --> 00:02:06.240 
+spikes of new cards at the market this
+may<00:02:04.630> seem<00:02:04.689> counterintuitive<00:02:05.350> but<00:02:06.040> let<00:02:06.220> me
+
+00:02:06.240 --> 00:02:06.250 
+may seem counterintuitive but let me
+
+00:02:06.250 --> 00:02:08.609 
+may seem counterintuitive but let me
+explain<00:02:06.759> right<00:02:07.210> before<00:02:07.420> asset<00:02:08.019> releases
+
+00:02:08.609 --> 00:02:08.619 
+explain right before asset releases
+
+00:02:08.619 --> 00:02:10.649 
+explain right before asset releases
+players<00:02:08.919> will<00:02:09.159> have<00:02:09.189> accumulated<00:02:09.669> large<00:02:10.269> sums
+
+00:02:10.649 --> 00:02:10.659 
+players will have accumulated large sums
+
+00:02:10.659 --> 00:02:12.720 
+players will have accumulated large sums
+of<00:02:10.809> currency<00:02:11.319> and<00:02:11.590> the<00:02:12.040> market<00:02:12.430> will<00:02:12.549> have<00:02:12.700> a
+
+00:02:12.720 --> 00:02:12.730 
+of currency and the market will have a
+
+00:02:12.730 --> 00:02:13.920 
+of currency and the market will have a
+lull<00:02:13.120> in<00:02:13.150> activity
+
+00:02:13.920 --> 00:02:13.930 
+lull in activity
+
+00:02:13.930 --> 00:02:16.679 
+lull in activity
+the<00:02:14.769> new<00:02:14.950> card<00:02:15.310> stock<00:02:15.609> will<00:02:15.819> induce<00:02:16.269> players
+
+00:02:16.679 --> 00:02:16.689 
+the new card stock will induce players
+
+00:02:16.689 --> 00:02:18.479 
+the new card stock will induce players
+to<00:02:16.959> fill<00:02:17.140> out<00:02:17.319> their<00:02:17.500> collections<00:02:17.650> using<00:02:18.370> the
+
+00:02:18.479 --> 00:02:18.489 
+to fill out their collections using the
+
+00:02:18.489 --> 00:02:21.059 
+to fill out their collections using the
+in-game<00:02:18.640> currency<00:02:19.390> having<00:02:20.079> large<00:02:20.409> piles<00:02:20.799> of
+
+00:02:21.059 --> 00:02:21.069 
+in-game currency having large piles of
+
+00:02:21.069 --> 00:02:24.179 
+in-game currency having large piles of
+coins<00:02:21.310> chasing<00:02:22.000> too<00:02:22.180> few<00:02:22.209> cards<00:02:23.040> expect<00:02:24.040> there
+
+00:02:24.179 --> 00:02:24.189 
+coins chasing too few cards expect there
+
+00:02:24.189 --> 00:02:26.069 
+coins chasing too few cards expect there
+to<00:02:24.219> be<00:02:24.400> an<00:02:24.549> inflationary<00:02:25.180> spiral<00:02:25.329> for<00:02:25.959> the
+
+00:02:26.069 --> 00:02:26.079 
+to be an inflationary spiral for the
+
+00:02:26.079 --> 00:02:28.589 
+to be an inflationary spiral for the
+life<00:02:26.230> of<00:02:26.439> the<00:02:26.560> game<00:02:26.769> in<00:02:27.090> relation<00:02:28.090> to<00:02:28.209> end<00:02:28.390> game
+
+00:02:28.589 --> 00:02:28.599 
+life of the game in relation to end game
+
+00:02:28.599 --> 00:02:31.170 
+life of the game in relation to end game
+currency<00:02:29.019> now<00:02:30.010> you<00:02:30.069> may<00:02:30.280> be<00:02:30.310> asking<00:02:30.489> what
+
+00:02:31.170 --> 00:02:31.180 
+currency now you may be asking what
+
+00:02:31.180 --> 00:02:33.449 
+currency now you may be asking what
+about<00:02:31.420> my<00:02:31.569> real<00:02:31.870> money<00:02:32.139> what<00:02:32.769> about<00:02:32.980> the<00:02:33.129> value
+
+00:02:33.449 --> 00:02:33.459 
+about my real money what about the value
+
+00:02:33.459 --> 00:02:35.789 
+about my real money what about the value
+of<00:02:33.579> my<00:02:33.730> collection<00:02:34.030> first<00:02:34.659> I<00:02:34.959> need<00:02:35.439> to<00:02:35.469> state<00:02:35.769> a
+
+00:02:35.789 --> 00:02:35.799 
+of my collection first I need to state a
+
+00:02:35.799 --> 00:02:38.910 
+of my collection first I need to state a
+few<00:02:36.129> more<00:02:36.420> assumptions<00:02:37.420> so<00:02:38.049> we<00:02:38.500> can<00:02:38.709> calculate
+
+00:02:38.910 --> 00:02:38.920 
+few more assumptions so we can calculate
+
+00:02:38.920 --> 00:02:41.940 
+few more assumptions so we can calculate
+those<00:02:39.370> values<00:02:39.790> I<00:02:40.030> will<00:02:40.870> use<00:02:41.049> the<00:02:41.200> ratios<00:02:41.680> from
+
+00:02:41.940 --> 00:02:41.950 
+those values I will use the ratios from
+
+00:02:41.950 --> 00:02:43.740 
+those values I will use the ratios from
+the<00:02:42.069> while<00:02:42.250> TCG<00:02:42.849> is<00:02:42.969> the<00:02:43.150> baseline<00:02:43.569> for
+
+00:02:43.740 --> 00:02:43.750 
+the while TCG is the baseline for
+
+00:02:43.750 --> 00:02:45.899 
+the while TCG is the baseline for
+calculating<00:02:44.260> rares<00:02:44.590> epics<00:02:45.159> in<00:02:45.310> each<00:02:45.430> booster
+
+00:02:45.899 --> 00:02:45.909 
+calculating rares epics in each booster
+
+00:02:45.909 --> 00:02:48.360 
+calculating rares epics in each booster
+we<00:02:46.750> will<00:02:46.900> guarantee<00:02:47.109> one<00:02:47.680> primal<00:02:48.159> paca
+
+00:02:48.360 --> 00:02:48.370 
+we will guarantee one primal paca
+
+00:02:48.370 --> 00:02:50.369 
+we will guarantee one primal paca
+specified<00:02:49.060> by<00:02:49.239> the<00:02:49.269> Kickstarter<00:02:49.930> and<00:02:49.959> one
+
+00:02:50.369 --> 00:02:50.379 
+specified by the Kickstarter and one
+
+00:02:50.379 --> 00:02:52.770 
+specified by the Kickstarter and one
+legendary<00:02:50.919> card<00:02:51.310> in<00:02:51.519> that<00:02:51.549> primal<00:02:52.120> pack<00:02:52.269> still
+
+00:02:52.770 --> 00:02:52.780 
+legendary card in that primal pack still
+
+00:02:52.780 --> 00:02:54.869 
+legendary card in that primal pack still
+note<00:02:53.019> these<00:02:53.260> values<00:02:53.680> are<00:02:53.859> approximate<00:02:54.639> and<00:02:54.669> I
+
+00:02:54.869 --> 00:02:54.879 
+note these values are approximate and I
+
+00:02:54.879 --> 00:02:56.490 
+note these values are approximate and I
+do<00:02:54.939> not<00:02:55.239> have<00:02:55.510> all<00:02:55.540> of<00:02:55.810> the<00:02:56.079> paypal
+
+00:02:56.490 --> 00:02:56.500 
+do not have all of the paypal
+
+00:02:56.500 --> 00:02:58.319 
+do not have all of the paypal
+distribution<00:02:57.220> for<00:02:57.400> the<00:02:57.430> Kickstarter<00:02:58.060> tears
+
+00:02:58.319 --> 00:02:58.329 
+distribution for the Kickstarter tears
+
+00:02:58.329 --> 00:03:01.470 
+distribution for the Kickstarter tears
+and<00:02:58.599> drafting<00:02:59.560> expands<00:03:00.250> the<00:03:00.400> card<00:03:00.700> for<00:03:01.030> now
+
+00:03:01.470 --> 00:03:01.480 
+and drafting expands the card for now
+
+00:03:01.480 --> 00:03:03.059 
+and drafting expands the card for now
+after<00:03:01.900> crunching<00:03:02.139> the<00:03:02.439> numbers<00:03:02.469> we<00:03:02.950> can
+
+00:03:03.059 --> 00:03:03.069 
+after crunching the numbers we can
+
+00:03:03.069 --> 00:03:04.490 
+after crunching the numbers we can
+estimate<00:03:03.250> the<00:03:03.519> packs<00:03:03.879> will<00:03:04.060> be<00:03:04.180> worth
+
+00:03:04.490 --> 00:03:04.500 
+estimate the packs will be worth
+
+00:03:04.500 --> 00:03:07.830 
+estimate the packs will be worth
+unopened<00:03:05.500> roughly<00:03:06.310> a<00:03:06.340> dollar<00:03:06.639> 30<00:03:07.000> commons
+
+00:03:07.830 --> 00:03:07.840 
+unopened roughly a dollar 30 commons
+
+00:03:07.840 --> 00:03:09.990 
+unopened roughly a dollar 30 commons
+will<00:03:08.019> be<00:03:08.139> worth<00:03:08.290> roughly<00:03:08.590> a<00:03:08.739> penny<00:03:09.069> uncommons
+
+00:03:09.990 --> 00:03:10.000 
+will be worth roughly a penny uncommons
+
+00:03:10.000 --> 00:03:11.369 
+will be worth roughly a penny uncommons
+eight<00:03:10.209> cents<00:03:10.629> and<00:03:10.780> where's<00:03:10.989> will<00:03:11.200> average
+
+00:03:11.369 --> 00:03:11.379 
+eight cents and where's will average
+
+00:03:11.379 --> 00:03:14.280 
+eight cents and where's will average
+about<00:03:12.099> a<00:03:12.129> dollar<00:03:12.430> forty<00:03:12.730> three<00:03:13.290> legendary
+
+00:03:14.280 --> 00:03:14.290 
+about a dollar forty three legendary
+
+00:03:14.290 --> 00:03:16.459 
+about a dollar forty three legendary
+cards<00:03:14.650> can<00:03:14.919> average<00:03:15.099> up<00:03:15.370> to<00:03:15.489> fourteen<00:03:15.939> dollars
+
+00:03:16.459 --> 00:03:16.469 
+cards can average up to fourteen dollars
+
+00:03:16.469 --> 00:03:19.170 
+cards can average up to fourteen dollars
+interestingly<00:03:17.469> at<00:03:18.010> these<00:03:18.310> valuations<00:03:18.729> are
+
+00:03:19.170 --> 00:03:19.180 
+interestingly at these valuations are
+
+00:03:19.180 --> 00:03:21.240 
+interestingly at these valuations are
+rare<00:03:19.419> in<00:03:19.449> hand<00:03:19.900> maybe<00:03:20.199> slightly<00:03:20.650> worth<00:03:20.949> more
+
+00:03:21.240 --> 00:03:21.250 
+rare in hand maybe slightly worth more
+
+00:03:21.250 --> 00:03:23.039 
+rare in hand maybe slightly worth more
+than<00:03:21.430> an<00:03:21.579> unopened<00:03:21.970> pack<00:03:22.329> now<00:03:22.750> please
+
+00:03:23.039 --> 00:03:23.049 
+than an unopened pack now please
+
+00:03:23.049 --> 00:03:25.469 
+than an unopened pack now please
+remember<00:03:23.560> the<00:03:24.010> play<00:03:24.340> power<00:03:24.669> of<00:03:24.909> each<00:03:25.090> card
+
+00:03:25.469 --> 00:03:25.479 
+remember the play power of each card
+
+00:03:25.479 --> 00:03:27.899 
+remember the play power of each card
+will<00:03:25.690> influence<00:03:26.229> these<00:03:26.530> values<00:03:26.979> and<00:03:27.250> as<00:03:27.639> time
+
+00:03:27.899 --> 00:03:27.909 
+will influence these values and as time
+
+00:03:27.909 --> 00:03:30.449 
+will influence these values and as time
+goes<00:03:28.180> on<00:03:28.329> these<00:03:28.599> values<00:03:28.989> will<00:03:29.199> trend<00:03:29.590> downward
+
+00:03:30.449 --> 00:03:30.459 
+goes on these values will trend downward
+
+00:03:30.459 --> 00:03:32.550 
+goes on these values will trend downward
+if<00:03:30.849> you<00:03:31.569> would<00:03:31.689> like<00:03:31.840> a<00:03:31.870> copy<00:03:32.019> of<00:03:32.379> the
+
+00:03:32.550 --> 00:03:32.560 
+if you would like a copy of the
+
+00:03:32.560 --> 00:03:34.559 
+if you would like a copy of the
+spreadsheet<00:03:32.859> d<00:03:33.189> that<00:03:33.699> was<00:03:33.819> used<00:03:34.060> to<00:03:34.209> calculate
+
+00:03:34.559 --> 00:03:34.569 
+spreadsheet d that was used to calculate
+
+00:03:34.569 --> 00:03:37.050 
+spreadsheet d that was used to calculate
+these<00:03:34.900> values<00:03:34.959> feel<00:03:35.739> free<00:03:35.979> to<00:03:36.069> contact<00:03:36.370> me<00:03:36.790> the
+
+00:03:37.050 --> 00:03:37.060 
+these values feel free to contact me the
+
+00:03:37.060 --> 00:03:38.939 
+these values feel free to contact me the
+real<00:03:37.329> question<00:03:37.540> from<00:03:37.930> these<00:03:38.079> valuations<00:03:38.439> is
+
+00:03:38.939 --> 00:03:38.949 
+real question from these valuations is
+
+00:03:38.949 --> 00:03:41.460 
+real question from these valuations is
+what<00:03:39.609> can<00:03:39.790> the<00:03:39.939> average<00:03:40.120> hex<00:03:40.629> r<00:03:40.840> expect<00:03:41.290> when
+
+00:03:41.460 --> 00:03:41.470 
+what can the average hex r expect when
+
+00:03:41.470 --> 00:03:44.069 
+what can the average hex r expect when
+opening<00:03:41.829> a<00:03:41.919> pack<00:03:42.189> the<00:03:42.970> initial<00:03:43.479> phases<00:03:43.720> of<00:03:43.930> the
+
+00:03:44.069 --> 00:03:44.079 
+opening a pack the initial phases of the
+
+00:03:44.079 --> 00:03:46.469 
+opening a pack the initial phases of the
+beta<00:03:44.319> you<00:03:44.919> may<00:03:45.159> wish<00:03:45.400> to<00:03:45.430> open<00:03:45.879> your<00:03:45.970> packs<00:03:46.239> to
+
+00:03:46.469 --> 00:03:46.479 
+beta you may wish to open your packs to
+
+00:03:46.479 --> 00:03:48.509 
+beta you may wish to open your packs to
+fill<00:03:46.689> out<00:03:46.810> your<00:03:46.840> PDE<00:03:47.409> dick<00:03:47.739> to<00:03:47.979> earn<00:03:48.250> the
+
+00:03:48.509 --> 00:03:48.519 
+fill out your PDE dick to earn the
+
+00:03:48.519 --> 00:03:50.969 
+fill out your PDE dick to earn the
+in-game<00:03:48.909> currency<00:03:49.540> this<00:03:50.259> will<00:03:50.439> allow<00:03:50.709> you<00:03:50.769> to
+
+00:03:50.969 --> 00:03:50.979 
+in-game currency this will allow you to
+
+00:03:50.979 --> 00:03:53.099 
+in-game currency this will allow you to
+snap<00:03:51.310> up<00:03:51.340> early<00:03:52.120> deals<00:03:52.359> on<00:03:52.569> the<00:03:52.659> auction<00:03:52.989> house
+
+00:03:53.099 --> 00:03:53.109 
+snap up early deals on the auction house
+
+00:03:53.109 --> 00:03:55.110 
+snap up early deals on the auction house
+for<00:03:53.379> comment<00:03:53.799> on<00:03:53.919> common<00:03:54.250> cards<00:03:54.579> you<00:03:54.970> will
+
+00:03:55.110 --> 00:03:55.120 
+for comment on common cards you will
+
+00:03:55.120 --> 00:03:56.969 
+for comment on common cards you will
+need<00:03:55.329> to<00:03:55.569> brush<00:03:55.810> up<00:03:55.989> on<00:03:56.139> your<00:03:56.199> hexa<00:03:56.620> nomics
+
+00:03:56.969 --> 00:03:56.979 
+need to brush up on your hexa nomics
+
+00:03:56.979 --> 00:03:59.640 
+need to brush up on your hexa nomics
+with<00:03:57.129> Jack's<00:03:57.400> he<00:03:58.209> has<00:03:58.329> provided<00:03:58.540> a<00:03:58.870> fantastic
+
+00:03:59.640 --> 00:03:59.650 
+with Jack's he has provided a fantastic
+
+00:03:59.650 --> 00:04:01.349 
+with Jack's he has provided a fantastic
+guide<00:03:59.829> on<00:04:00.040> how<00:04:00.159> to<00:04:00.189> maximize<00:04:00.759> your<00:04:00.879> boosters
+
+00:04:01.349 --> 00:04:01.359 
+guide on how to maximize your boosters
+
+00:04:01.359 --> 00:04:03.990 
+guide on how to maximize your boosters
+to<00:04:01.389> drafting<00:04:01.989> the<00:04:02.650> initial<00:04:03.099> data<00:04:03.280> I<00:04:03.609> have<00:04:03.759> seen
+
+00:04:03.990 --> 00:04:04.000 
+to drafting the initial data I have seen
+
+00:04:04.000 --> 00:04:05.879 
+to drafting the initial data I have seen
+appears<00:04:04.509> to<00:04:04.659> support<00:04:05.049> his<00:04:05.199> theories<00:04:05.620> and
+
+00:04:05.879 --> 00:04:05.889 
+appears to support his theories and
+
+00:04:05.889 --> 00:04:08.280 
+appears to support his theories and
+these<00:04:06.400> early<00:04:06.790> valuations<00:04:07.449> will<00:04:07.720> only<00:04:07.959> last
+
+00:04:08.280 --> 00:04:08.290 
+these early valuations will only last
+
+00:04:08.290 --> 00:04:10.080 
+these early valuations will only last
+for<00:04:08.439> the<00:04:08.650> first<00:04:08.889> few<00:04:09.099> days<00:04:09.310> and<00:04:09.579> weeks<00:04:09.790> of<00:04:09.970> the
+
+00:04:10.080 --> 00:04:10.090 
+for the first few days and weeks of the
+
+00:04:10.090 --> 00:04:12.240 
+for the first few days and weeks of the
+beta<00:04:10.269> as<00:04:10.569> the<00:04:10.989> rares<00:04:11.259> and<00:04:11.500> legendary<00:04:11.949> cards
+
+00:04:12.240 --> 00:04:12.250 
+beta as the rares and legendary cards
+
+00:04:12.250 --> 00:04:14.369 
+beta as the rares and legendary cards
+become<00:04:12.669> more<00:04:12.909> available<00:04:13.030> it<00:04:13.900> will<00:04:14.019> become
+
+00:04:14.369 --> 00:04:14.379 
+become more available it will become
+
+00:04:14.379 --> 00:04:16.890 
+become more available it will become
+harder<00:04:14.859> to<00:04:14.979> draft<00:04:15.250> for<00:04:15.549> free<00:04:15.939> using<00:04:16.599> your
+
+00:04:16.890 --> 00:04:16.900 
+harder to draft for free using your
+
+00:04:16.900 --> 00:04:19.080 
+harder to draft for free using your
+hard-fought<00:04:17.349> winnings<00:04:17.799> the<00:04:17.979> next<00:04:18.609> valuable
+
+00:04:19.080 --> 00:04:19.090 
+hard-fought winnings the next valuable
+
+00:04:19.090 --> 00:04:20.939 
+hard-fought winnings the next valuable
+question<00:04:19.419> we<00:04:19.539> can<00:04:19.720> answer<00:04:19.870> is<00:04:20.259> is<00:04:20.769> it<00:04:20.919> worth
+
+00:04:20.939 --> 00:04:20.949 
+question we can answer is is it worth
+
+00:04:20.949 --> 00:04:23.430 
+question we can answer is is it worth
+opening<00:04:21.400> your<00:04:21.699> primal<00:04:22.150> pack<00:04:22.330> I<00:04:22.690> would
+
+00:04:23.430 --> 00:04:23.440 
+opening your primal pack I would
+
+00:04:23.440 --> 00:04:25.740 
+opening your primal pack I would
+recommend<00:04:23.620> selling<00:04:24.190> your<00:04:24.370> first<00:04:24.700> primal<00:04:25.539> pack
+
+00:04:25.740 --> 00:04:25.750 
+recommend selling your first primal pack
+
+00:04:25.750 --> 00:04:27.690 
+recommend selling your first primal pack
+on<00:04:25.960> release<00:04:26.289> if<00:04:26.500> you're<00:04:26.650> focused<00:04:27.070> on<00:04:27.190> monitor
+
+00:04:27.690 --> 00:04:27.700 
+on release if you're focused on monitor
+
+00:04:27.700 --> 00:04:29.730 
+on release if you're focused on monitor
+regain<00:04:28.000> the<00:04:28.420> trade-off<00:04:28.930> is<00:04:28.960> that<00:04:29.140> you<00:04:29.440> will<00:04:29.590> be
+
+00:04:29.730 --> 00:04:29.740 
+regain the trade-off is that you will be
+
+00:04:29.740 --> 00:04:32.220 
+regain the trade-off is that you will be
+15<00:04:30.280> powerful<00:04:30.790> cards<00:04:31.090> behind<00:04:31.510> your<00:04:31.720> peers<00:04:32.020> when
+
+00:04:32.220 --> 00:04:32.230 
+15 powerful cards behind your peers when
+
+00:04:32.230 --> 00:04:33.930 
+15 powerful cards behind your peers when
+deck<00:04:32.440> building<00:04:32.830> and<00:04:33.040> you'll<00:04:33.250> need<00:04:33.430> to<00:04:33.580> work<00:04:33.760> to
+
+00:04:33.930 --> 00:04:33.940 
+deck building and you'll need to work to
+
+00:04:33.940 --> 00:04:35.340 
+deck building and you'll need to work to
+make<00:04:34.060> up<00:04:34.090> the<00:04:34.330> difference<00:04:34.480> primal<00:04:35.140> packs
+
+00:04:35.340 --> 00:04:35.350 
+make up the difference primal packs
+
+00:04:35.350 --> 00:04:37.590 
+make up the difference primal packs
+appear<00:04:35.680> to<00:04:35.800> serve<00:04:35.950> several<00:04:36.280> purposes<00:04:36.600> they
+
+00:04:37.590 --> 00:04:37.600 
+appear to serve several purposes they
+
+00:04:37.600 --> 00:04:39.680 
+appear to serve several purposes they
+accelerate<00:04:38.290> the<00:04:38.440> rare<00:04:38.650> content<00:04:39.190> the<00:04:39.340> game
+
+00:04:39.680 --> 00:04:39.690 
+accelerate the rare content the game
+
+00:04:39.690 --> 00:04:42.030 
+accelerate the rare content the game
+circulate<00:04:40.690> more<00:04:40.870> powerful<00:04:41.380> cards<00:04:41.770> and
+
+00:04:42.030 --> 00:04:42.040 
+circulate more powerful cards and
+
+00:04:42.040 --> 00:04:43.770 
+circulate more powerful cards and
+they're<00:04:42.520> also<00:04:42.730> the<00:04:42.910> incentive<00:04:43.540> to
+
+00:04:43.770 --> 00:04:43.780 
+they're also the incentive to
+
+00:04:43.780 --> 00:04:46.020 
+they're also the incentive to
+continuously<00:04:44.410> buy<00:04:44.680> packs<00:04:45.010> from<00:04:45.310> Cryptozoic
+
+00:04:46.020 --> 00:04:46.030 
+continuously buy packs from Cryptozoic
+
+00:04:46.030 --> 00:04:48.540 
+continuously buy packs from Cryptozoic
+the<00:04:46.870> average<00:04:47.290> initial<00:04:47.710> value<00:04:47.950> of<00:04:48.040> a<00:04:48.130> primal
+
+00:04:48.540 --> 00:04:48.550 
+the average initial value of a primal
+
+00:04:48.550 --> 00:04:51.450 
+the average initial value of a primal
+pack<00:04:48.730> is<00:04:48.940> roughly<00:04:49.300> thirty<00:04:49.570> four<00:04:49.900> dollars<00:04:50.460> how
+
+00:04:51.450 --> 00:04:51.460 
+pack is roughly thirty four dollars how
+
+00:04:51.460 --> 00:04:53.640 
+pack is roughly thirty four dollars how
+much<00:04:51.730> this<00:04:51.940> value<00:04:52.300> holds<00:04:52.930> will<00:04:53.110> be<00:04:53.260> based<00:04:53.500> on
+
+00:04:53.640 --> 00:04:53.650 
+much this value holds will be based on
+
+00:04:53.650 --> 00:04:55.890 
+much this value holds will be based on
+the<00:04:53.800> influx<00:04:54.190> of<00:04:54.370> new<00:04:54.430> packs<00:04:54.940> over<00:04:55.510> the<00:04:55.600> life<00:04:55.750> of
+
+00:04:55.890 --> 00:04:55.900 
+the influx of new packs over the life of
+
+00:04:55.900 --> 00:04:57.360 
+the influx of new packs over the life of
+the<00:04:55.960> game<00:04:56.200> how<00:04:56.590> will<00:04:56.800> the<00:04:56.890> Kickstarter
+
+00:04:57.360 --> 00:04:57.370 
+the game how will the Kickstarter
+
+00:04:57.370 --> 00:05:00.000 
+the game how will the Kickstarter
+exclusives<00:04:57.880> hold<00:04:58.150> up<00:04:58.300> for<00:04:58.480> value<00:04:58.750> this<00:04:59.680> is<00:04:59.890> the
+
+00:05:00.000 --> 00:05:00.010 
+exclusives hold up for value this is the
+
+00:05:00.010 --> 00:05:02.490 
+exclusives hold up for value this is the
+most<00:05:00.160> subjective<00:05:00.370> amount<00:05:01.120> in<00:05:01.390> least<00:05:01.810> usable
+
+00:05:02.490 --> 00:05:02.500 
+most subjective amount in least usable
+
+00:05:02.500 --> 00:05:04.890 
+most subjective amount in least usable
+data<00:05:02.680> the<00:05:03.550> Kickstarter<00:05:04.120> promos<00:05:04.540> will<00:05:04.660> need<00:05:04.810> to
+
+00:05:04.890 --> 00:05:04.900 
+data the Kickstarter promos will need to
+
+00:05:04.900 --> 00:05:06.870 
+data the Kickstarter promos will need to
+be<00:05:04.960> treated<00:05:05.410> more<00:05:05.590> like<00:05:05.770> fine<00:05:06.130> art<00:05:06.340> until<00:05:06.580> an
+
+00:05:06.870 --> 00:05:06.880 
+be treated more like fine art until an
+
+00:05:06.880 --> 00:05:08.610 
+be treated more like fine art until an
+alternative<00:05:07.480> method<00:05:07.840> for<00:05:08.020> gaining<00:05:08.200> them<00:05:08.470> is
+
+00:05:08.610 --> 00:05:08.620 
+alternative method for gaining them is
+
+00:05:08.620 --> 00:05:10.470 
+alternative method for gaining them is
+found<00:05:08.860> the<00:05:09.280> high<00:05:09.490> art<00:05:09.730> world<00:05:10.000> is<00:05:10.180> the<00:05:10.270> best
+
+00:05:10.470 --> 00:05:10.480 
+found the high art world is the best
+
+00:05:10.480 --> 00:05:12.270 
+found the high art world is the best
+model<00:05:10.900> to<00:05:11.020> use<00:05:11.140> for<00:05:11.410> this<00:05:11.500> case<00:05:11.740> is<00:05:11.920> they<00:05:12.070> deal
+
+00:05:12.270 --> 00:05:12.280 
+model to use for this case is they deal
+
+00:05:12.280 --> 00:05:14.070 
+model to use for this case is they deal
+with<00:05:12.340> one-of-a-kind<00:05:12.910> items<00:05:13.600> as<00:05:13.780> well<00:05:13.810> as
+
+00:05:14.070 --> 00:05:14.080 
+with one-of-a-kind items as well as
+
+00:05:14.080 --> 00:05:16.050 
+with one-of-a-kind items as well as
+exclusive<00:05:14.410> sets<00:05:15.070> in<00:05:15.310> the<00:05:15.610> end<00:05:15.730> the<00:05:16.030> auction
+
+00:05:16.050 --> 00:05:16.060 
+exclusive sets in the end the auction
+
+00:05:16.060 --> 00:05:18.720 
+exclusive sets in the end the auction
+house<00:05:16.630> will<00:05:16.870> decide<00:05:17.320> their<00:05:17.680> value<00:05:18.100> if<00:05:18.310> you<00:05:18.550> do
+
+00:05:18.720 --> 00:05:18.730 
+house will decide their value if you do
+
+00:05:18.730 --> 00:05:20.040 
+house will decide their value if you do
+plan<00:05:18.970> on<00:05:19.030> letting<00:05:19.390> your<00:05:19.510> kickstarter
+
+00:05:20.040 --> 00:05:20.050 
+plan on letting your kickstarter
+
+00:05:20.050 --> 00:05:22.020 
+plan on letting your kickstarter
+exclusive<00:05:20.140> cards<00:05:20.890> go<00:05:21.100> and<00:05:21.430> put<00:05:21.700> them<00:05:21.820> on<00:05:21.880> the
+
+00:05:22.020 --> 00:05:22.030 
+exclusive cards go and put them on the
+
+00:05:22.030 --> 00:05:24.690 
+exclusive cards go and put them on the
+auction<00:05:22.360> house<00:05:22.480> timing<00:05:23.200> will<00:05:23.380> be<00:05:23.410> key<00:05:23.860> you'll
+
+00:05:24.690 --> 00:05:24.700 
+auction house timing will be key you'll
+
+00:05:24.700 --> 00:05:26.460 
+auction house timing will be key you'll
+need<00:05:24.850> to<00:05:24.910> rely<00:05:25.300> on<00:05:25.330> the<00:05:25.690> usefulness<00:05:26.110> of<00:05:26.350> the
+
+00:05:26.460 --> 00:05:26.470 
+need to rely on the usefulness of the
+
+00:05:26.470 --> 00:05:29.130 
+need to rely on the usefulness of the
+pde<00:05:26.800> for<00:05:27.160> early<00:05:27.430> evaluations<00:05:28.150> as<00:05:28.390> well<00:05:29.020> as
+
+00:05:29.130 --> 00:05:29.140 
+pde for early evaluations as well as
+
+00:05:29.140 --> 00:05:31.020 
+pde for early evaluations as well as
+collectors<00:05:29.620> after<00:05:29.950> the<00:05:30.070> beta<00:05:30.250> release<00:05:30.580> the
+
+00:05:31.020 --> 00:05:31.030 
+collectors after the beta release the
+
+00:05:31.030 --> 00:05:33.570 
+collectors after the beta release the
+exclusion<00:05:31.900> from<00:05:32.020> the<00:05:32.110> system<00:05:32.590> is<00:05:32.770> spectral
+
+00:05:33.570 --> 00:05:33.580 
+exclusion from the system is spectral
+
+00:05:33.580 --> 00:05:36.720 
+exclusion from the system is spectral
+Lotus<00:05:34.650> Cryptozoic<00:05:35.650> has<00:05:35.770> set<00:05:35.980> this<00:05:36.130> card<00:05:36.460> up<00:05:36.580> as
+
+00:05:36.720 --> 00:05:36.730 
+Lotus Cryptozoic has set this card up as
+
+00:05:36.730 --> 00:05:38.640 
+Lotus Cryptozoic has set this card up as
+an<00:05:36.880> economic<00:05:37.120> money<00:05:37.840> sink<00:05:38.170> putting<00:05:38.560> the
+
+00:05:38.640 --> 00:05:38.650 
+an economic money sink putting the
+
+00:05:38.650 --> 00:05:41.250 
+an economic money sink putting the
+profit<00:05:39.130> into<00:05:39.250> the<00:05:39.460> hands<00:05:39.940> of<00:05:40.030> the<00:05:40.120> king<00:05:40.840> level
+
+00:05:41.250 --> 00:05:41.260 
+profit into the hands of the king level
+
+00:05:41.260 --> 00:05:44.010 
+profit into the hands of the king level
+backers<00:05:41.650> and<00:05:41.860> above<00:05:42.160> I<00:05:42.430> say<00:05:43.360> this<00:05:43.570> because<00:05:43.630> of
+
+00:05:44.010 --> 00:05:44.020 
+backers and above I say this because of
+
+00:05:44.020 --> 00:05:46.380 
+backers and above I say this because of
+the<00:05:44.230> slow<00:05:44.560> cyclical<00:05:45.160> nature<00:05:45.490> of<00:05:45.790> the<00:05:45.940> card<00:05:46.240> in
+
+00:05:46.380 --> 00:05:46.390 
+the slow cyclical nature of the card in
+
+00:05:46.390 --> 00:05:48.720 
+the slow cyclical nature of the card in
+its<00:05:46.540> transformation<00:05:47.290> cycle<00:05:47.740> if<00:05:47.920> you<00:05:48.340> do<00:05:48.580> not
+
+00:05:48.720 --> 00:05:48.730 
+its transformation cycle if you do not
+
+00:05:48.730 --> 00:05:50.640 
+its transformation cycle if you do not
+already<00:05:48.910> know<00:05:49.270> there<00:05:49.750> are<00:05:49.870> a<00:05:49.900> limited<00:05:50.290> amount
+
+00:05:50.640 --> 00:05:50.650 
+already know there are a limited amount
+
+00:05:50.650 --> 00:05:52.740 
+already know there are a limited amount
+of<00:05:50.950> spectral<00:05:51.370> lotus<00:05:51.640> garden<00:05:51.700> each<00:05:52.270> garden
+
+00:05:52.740 --> 00:05:52.750 
+of spectral lotus garden each garden
+
+00:05:52.750 --> 00:05:54.630 
+of spectral lotus garden each garden
+produces<00:05:53.200> a<00:05:53.230> single<00:05:53.710> lotus<00:05:54.010> each<00:05:54.190> day<00:05:54.430> when<00:05:54.610> a
+
+00:05:54.630 --> 00:05:54.640 
+produces a single lotus each day when a
+
+00:05:54.640 --> 00:05:56.790 
+produces a single lotus each day when a
+person<00:05:55.030> logs<00:05:55.270> in<00:05:55.570> when<00:05:55.870> you<00:05:56.020> gain<00:05:56.260> threshold
+
+00:05:56.790 --> 00:05:56.800 
+person logs in when you gain threshold
+
+00:05:56.800 --> 00:05:58.560 
+person logs in when you gain threshold
+with<00:05:56.980> its<00:05:57.130> ability<00:05:57.670> the<00:05:57.880> card<00:05:58.120> forever
+
+00:05:58.560 --> 00:05:58.570 
+with its ability the card forever
+
+00:05:58.570 --> 00:06:01.260 
+with its ability the card forever
+transforms<00:05:59.260> into<00:05:59.440> a<00:05:59.530> black<00:05:59.830> tiger<00:06:00.220> for<00:06:00.790> tigers
+
+00:06:01.260 --> 00:06:01.270 
+transforms into a black tiger for tigers
+
+00:06:01.270 --> 00:06:03.330 
+transforms into a black tiger for tigers
+can<00:06:01.450> then<00:06:01.750> be<00:06:01.960> converted<00:06:02.200> into<00:06:02.650> one<00:06:02.920> Lotus
+
+00:06:03.330 --> 00:06:03.340 
+can then be converted into one Lotus
+
+00:06:03.340 --> 00:06:05.160 
+can then be converted into one Lotus
+those<00:06:03.610> who<00:06:03.790> have<00:06:03.940> a<00:06:03.970> garden<00:06:04.360> may<00:06:04.600> be<00:06:04.660> the<00:06:04.990> only
+
+00:06:05.160 --> 00:06:05.170 
+those who have a garden may be the only
+
+00:06:05.170 --> 00:06:07.320 
+those who have a garden may be the only
+initial<00:06:05.740> suppliers<00:06:06.190> during<00:06:06.610> beta<00:06:06.820> and<00:06:07.180> the
+
+00:06:07.320 --> 00:06:07.330 
+initial suppliers during beta and the
+
+00:06:07.330 --> 00:06:09.270 
+initial suppliers during beta and the
+most<00:06:07.540> consistent<00:06:08.020> suppliers<00:06:08.650> on<00:06:08.920> release
+
+00:06:09.270 --> 00:06:09.280 
+most consistent suppliers on release
+
+00:06:09.280 --> 00:06:11.730 
+most consistent suppliers on release
+spectra<00:06:09.910> Louis<00:06:10.180> itself<00:06:10.570> is<00:06:10.750> fantastic<00:06:11.560> as<00:06:11.710> a
+
+00:06:11.730 --> 00:06:11.740 
+spectra Louis itself is fantastic as a
+
+00:06:11.740 --> 00:06:14.490 
+spectra Louis itself is fantastic as a
+card<00:06:12.070> and<00:06:12.220> can<00:06:12.700> accelerate<00:06:13.180> PvE<00:06:13.750> Dixit<00:06:14.380> has
+
+00:06:14.490 --> 00:06:14.500 
+card and can accelerate PvE Dixit has
+
+00:06:14.500 --> 00:06:16.470 
+card and can accelerate PvE Dixit has
+loads<00:06:14.890> of<00:06:15.040> potential<00:06:15.400> and<00:06:15.580> an<00:06:15.790> inherent<00:06:16.300> value
+
+00:06:16.470 --> 00:06:16.480 
+loads of potential and an inherent value
+
+00:06:16.480 --> 00:06:18.840 
+loads of potential and an inherent value
+spectral<00:06:17.320> lotuses<00:06:17.740> and<00:06:17.770> Black<00:06:18.130> Tigers<00:06:18.640> will
+
+00:06:18.840 --> 00:06:18.850 
+spectral lotuses and Black Tigers will
+
+00:06:18.850 --> 00:06:20.820 
+spectral lotuses and Black Tigers will
+have<00:06:18.970> to<00:06:19.120> be<00:06:19.240> purchased<00:06:19.780> to<00:06:19.870> maintain<00:06:20.380> some<00:06:20.650> P
+
+00:06:20.820 --> 00:06:20.830 
+have to be purchased to maintain some P
+
+00:06:20.830 --> 00:06:23.460 
+have to be purchased to maintain some P
+de<00:06:21.010> andrade<00:06:21.550> decks<00:06:21.820> it's<00:06:22.120> colorful<00:06:22.750> to<00:06:23.080> repair
+
+00:06:23.460 --> 00:06:23.470 
+de andrade decks it's colorful to repair
+
+00:06:23.470 --> 00:06:26.340 
+de andrade decks it's colorful to repair
+costs<00:06:23.920> than<00:06:24.070> other<00:06:24.250> MMOs<00:06:24.790> and<00:06:25.180> the<00:06:25.720> king<00:06:25.960> level
+
+00:06:26.340 --> 00:06:26.350 
+costs than other MMOs and the king level
+
+00:06:26.350 --> 00:06:28.680 
+costs than other MMOs and the king level
+and<00:06:26.500> above<00:06:26.950> backers<00:06:27.910> will<00:06:28.120> be<00:06:28.270> the<00:06:28.390> ones<00:06:28.570> who
+
+00:06:28.680 --> 00:06:28.690 
+and above backers will be the ones who
+
+00:06:28.690 --> 00:06:31.080 
+and above backers will be the ones who
+reap<00:06:28.930> those<00:06:29.110> benefits<00:06:29.170> so<00:06:29.860> to<00:06:29.920> sum<00:06:30.220> up<00:06:30.250> with
+
+00:06:31.080 --> 00:06:31.090 
+reap those benefits so to sum up with
+
+00:06:31.090 --> 00:06:33.930 
+reap those benefits so to sum up with
+over<00:06:31.360> 1.7<00:06:32.230> two<00:06:32.350> million<00:06:32.980> boosters<00:06:33.430> flooding
+
+00:06:33.930 --> 00:06:33.940 
+over 1.7 two million boosters flooding
+
+00:06:33.940 --> 00:06:35.790 
+over 1.7 two million boosters flooding
+the<00:06:34.060> beta<00:06:34.270> you'll<00:06:34.780> want<00:06:35.110> to<00:06:35.200> use<00:06:35.290> your<00:06:35.560> in-game
+
+00:06:35.790 --> 00:06:35.800 
+the beta you'll want to use your in-game
+
+00:06:35.800 --> 00:06:37.650 
+the beta you'll want to use your in-game
+currency<00:06:36.460> to<00:06:36.580> fill<00:06:36.790> out<00:06:36.940> your<00:06:36.970> common<00:06:37.540> and
+
+00:06:37.650 --> 00:06:37.660 
+currency to fill out your common and
+
+00:06:37.660 --> 00:06:39.270 
+currency to fill out your common and
+uncommon<00:06:37.930> collection<00:06:38.650> while<00:06:38.890> using<00:06:39.100> the
+
+00:06:39.270 --> 00:06:39.280 
+uncommon collection while using the
+
+00:06:39.280 --> 00:06:41.100 
+uncommon collection while using the
+draft<00:06:39.640> process<00:06:40.030> to<00:06:40.420> gain<00:06:40.630> use
+
+00:06:41.100 --> 00:06:41.110 
+draft process to gain use
+
+00:06:41.110 --> 00:06:43.350 
+draft process to gain use
+invaluable<00:06:41.530> rares<00:06:42.010> and<00:06:42.250> legendary<00:06:42.700> make<00:06:43.150> your
+
+00:06:43.350 --> 00:06:43.360 
+invaluable rares and legendary make your
+
+00:06:43.360 --> 00:06:44.940 
+invaluable rares and legendary make your
+personal<00:06:43.780> choice<00:06:44.020> with<00:06:44.200> your<00:06:44.320> primal<00:06:44.710> packs
+
+00:06:44.940 --> 00:06:44.950 
+personal choice with your primal packs
+
+00:06:44.950 --> 00:06:46.920 
+personal choice with your primal packs
+but<00:06:45.160> I<00:06:45.220> recommend<00:06:45.760> selling<00:06:46.000> enough<00:06:46.450> primal
+
+00:06:46.920 --> 00:06:46.930 
+but I recommend selling enough primal
+
+00:06:46.930 --> 00:06:48.930 
+but I recommend selling enough primal
+packs<00:06:47.170> to<00:06:47.380> always<00:06:47.710> be<00:06:47.860> able<00:06:48.130> to<00:06:48.310> draft<00:06:48.640> when
+
+00:06:48.930 --> 00:06:48.940 
+packs to always be able to draft when
+
+00:06:48.940 --> 00:06:50.640 
+packs to always be able to draft when
+you<00:06:49.060> desire<00:06:49.420> keep<00:06:49.960> your<00:06:50.140> kickstarter
+
+00:06:50.640 --> 00:06:50.650 
+you desire keep your kickstarter
+
+00:06:50.650 --> 00:06:52.710 
+you desire keep your kickstarter
+exclusive<00:06:50.740> cards<00:06:51.460> as<00:06:51.550> well<00:06:51.580> they're<00:06:52.180> special
+
+00:06:52.710 --> 00:06:52.720 
+exclusive cards as well they're special
+
+00:06:52.720 --> 00:06:54.510 
+exclusive cards as well they're special
+they're<00:06:53.110> there<00:06:53.290> for<00:06:53.350> a<00:06:53.560> reason<00:06:53.620> thanks<00:06:54.370> for
+
+00:06:54.510 --> 00:06:54.520 
+they're there for a reason thanks for
+
+00:06:54.520 --> 00:06:56.040 
+they're there for a reason thanks for
+listening<00:06:54.820> to<00:06:54.940> this<00:06:54.970> essay<00:06:55.420> on<00:06:55.600> the<00:06:55.780> beta
+
+00:06:56.040 --> 00:06:56.050 
+listening to this essay on the beta
+
+00:06:56.050 --> 00:06:57.990 
+listening to this essay on the beta
+valuations<00:06:56.740> in<00:06:56.860> heck<00:06:57.040> if<00:06:57.220> you'd<00:06:57.460> like<00:06:57.610> a<00:06:57.670> copy
+
+00:06:57.990 --> 00:06:58.000 
+valuations in heck if you'd like a copy
+
+00:06:58.000 --> 00:06:59.730 
+valuations in heck if you'd like a copy
+of<00:06:58.180> the<00:06:58.360> underlying<00:06:58.630> data<00:06:59.080> please<00:06:59.440> leave<00:06:59.650> a
+
+00:06:59.730 --> 00:06:59.740 
+of the underlying data please leave a
+
+00:06:59.740 --> 00:07:01.260 
+of the underlying data please leave a
+comment<00:06:59.980> below<00:07:00.190> when<00:07:00.580> I<00:07:00.670> will<00:07:00.850> forward<00:07:01.090> you
+
+00:07:01.260 --> 00:07:01.270 
+comment below when I will forward you
+
+00:07:01.270 --> 00:07:03.300 
+comment below when I will forward you
+the<00:07:01.300> information<00:07:01.660> if<00:07:02.230> you've<00:07:02.920> compiled
+
+00:07:03.300 --> 00:07:03.310 
+the information if you've compiled
+
+00:07:03.310 --> 00:07:05.520 
+the information if you've compiled
+contrary<00:07:03.910> data<00:07:04.240> let<00:07:04.930> me<00:07:05.050> know<00:07:05.200> so<00:07:05.410> I<00:07:05.440> can
+
+00:07:05.520 --> 00:07:05.530 
+contrary data let me know so I can
+
+00:07:05.530 --> 00:07:07.620 
+contrary data let me know so I can
+correct<00:07:06.010> where<00:07:06.220> needed<00:07:06.460> please<00:07:07.210> be<00:07:07.360> sure<00:07:07.390> to
+
+00:07:07.620 --> 00:07:07.630 
+correct where needed please be sure to
+
+00:07:07.630 --> 00:07:09.150 
+correct where needed please be sure to
+hit<00:07:07.750> that<00:07:07.810> like<00:07:07.960> and<00:07:08.140> subscribe<00:07:08.680> button<00:07:09.040> and
+
+00:07:09.150 --> 00:07:09.160 
+hit that like and subscribe button and
+
+00:07:09.160 --> 00:07:14.460 
+hit that like and subscribe button and
+as<00:07:09.430> always<00:07:09.730> I'm<00:07:10.150> mo<00:07:10.960> cog<00:07:11.200> this<00:07:11.770> is<00:07:11.950> hex<00:07:12.160> hunter
+

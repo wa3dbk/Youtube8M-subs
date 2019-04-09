@@ -1,0 +1,430 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.570 --> 00:00:05.570
+ and 
+
+00:00:10.060 --> 00:00:15.220
+ and what's the point here is the code agent 
+
+00:00:12.670 --> 00:00:18.430
+ I welcome you to tutorial 7 of 
+
+00:00:15.220 --> 00:00:20.110
+ game development course with html5 
+
+00:00:18.430 --> 00:00:22.420
+ remember that we are probably 
+
+00:00:20.110 --> 00:00:25.300
+ seeing fundamentals and good in the day of 
+
+00:00:22.420 --> 00:00:29.169
+ today we are going to learn to draw pads in 
+
+00:00:25.300 --> 00:00:32.380
+ canvas for that we're going to use as 
+
+00:00:29.169 --> 00:00:34.200
+ example this face well the important thing 
+
+00:00:32.380 --> 00:00:37.120
+ it's not obviously not learning to draw 
+
+00:00:34.200 --> 00:00:41.620
+ what you are seeing on the screen but more 
+
+00:00:37.120 --> 00:00:44.740
+ well see how it works in vic impact and 
+
+00:00:41.620 --> 00:00:47.830
+ move to that are two methods that we are going to 
+
+00:00:44.740 --> 00:00:50.610
+ see well to start drawing 
+
+00:00:47.830 --> 00:00:53.080
+ let's call the viking path method 
+
+00:00:50.610 --> 00:00:55.390
+ so with that we started a new pack 
+
+00:00:53.080 --> 00:00:59.020
+ I'm going to place some methods for now 
+
+00:00:55.390 --> 00:01:00.520
+ to draw the eyes arq 
+
+00:00:59.020 --> 00:01:05.430
+ we will place the first one with the 
+
+00:01:00.520 --> 00:01:05.430
+ position as 50 as 50.10 
+
+00:01:06.090 --> 00:01:11.609
+ this is the pupil within a diameter 
+
+00:01:09.359 --> 00:01:16.789
+ of 10 and it's going to do a full circle 
+
+00:01:11.609 --> 00:01:16.789
+ then it will go from scratch 
+
+00:01:18.720 --> 00:01:28.360
+ 360 and here we are going to put between the 
+
+00:01:24.400 --> 00:01:30.130
+ old wise that is not so relevant 
+
+00:01:28.360 --> 00:01:32.890
+ well let's put it so that after 
+
+00:01:30.130 --> 00:01:36.940
+ there are no problems and then we will 
+
+00:01:32.890 --> 00:01:40.930
+ place good and what is the eye I'm going 
+
+00:01:36.940 --> 00:01:43.090
+ copy and paste this over here is 
+
+00:01:40.930 --> 00:01:46.990
+ worry about the tutorial, it's not about this 
+
+00:01:43.090 --> 00:01:50.350
+ because the arc method we already saw it 
+
+00:01:46.990 --> 00:01:52.840
+ before then I'm going to draw the 
+
+00:01:50.350 --> 00:01:56.890
+ the second pupils I 'll put it in 
+
+00:01:52.840 --> 00:01:59.979
+ the 150 x 50 coordinate of leads to 
+
+00:01:56.890 --> 00:02:02.190
+ have a diameter of 10 and perfect and 
+
+00:01:59.979 --> 00:02:04.700
+ finally he 
+
+00:02:02.190 --> 00:02:08.590
+ the second eye 
+
+00:02:04.700 --> 00:02:08.590
+ that will have a diameter of 30 
+
+00:02:08.789 --> 00:02:16.890
+ and I think it's going to be here from 90 and 
+
+00:02:14.400 --> 00:02:20.100
+ which is a false 
+
+00:02:16.890 --> 00:02:24.000
+ let's see what it is that draws 
+
+00:02:20.100 --> 00:02:26.340
+ we update so we forget that after 
+
+00:02:24.000 --> 00:02:28.380
+ that we put a method a pad 
+
+00:02:26.340 --> 00:02:30.450
+ to be able to draw the pad this already 
+
+00:02:28.380 --> 00:02:33.060
+ we saw earlier we used a method 
+
+00:02:30.450 --> 00:02:34.880
+ stroke we saw this in the tutorial 
+
+00:02:33.060 --> 00:02:38.230
+ passed well 
+
+00:02:34.880 --> 00:02:40.120
+ how can you tell 
+
+00:02:38.230 --> 00:02:43.209
+ this is not what we are 
+
+00:02:40.120 --> 00:02:45.700
+ looking for each time we move 
+
+00:02:43.209 --> 00:02:48.010
+ the context for the other side to 
+
+00:02:45.700 --> 00:02:49.959
+ draw the arc elsewhere what 
+
+00:02:48.010 --> 00:02:53.530
+ does canvas is to draw a line from 
+
+00:02:49.959 --> 00:02:57.849
+ from there and move it in fact it seems to me that 
+
+00:02:53.530 --> 00:03:02.540
+ the second and the second eye is wrong 
+
+00:02:57.849 --> 00:03:04.909
+ drawn but if we update there is 
+
+00:03:02.540 --> 00:03:07.849
+ you do not see anything right as I say good 
+
+00:03:04.909 --> 00:03:09.730
+ this line trace every time you move 
+
+00:03:07.849 --> 00:03:12.209
+ the context 
+
+00:03:09.730 --> 00:03:14.350
+ it's not at all at all what 
+
+00:03:12.209 --> 00:03:17.250
+ we 
+
+00:03:14.350 --> 00:03:17.250
+ we want 
+
+00:03:17.370 --> 00:03:23.269
+ all right 
+
+00:03:18.930 --> 00:03:25.860
+ and it seems that you have to move the second to 
+
+00:03:23.269 --> 00:03:29.040
+ 180 
+
+00:03:25.860 --> 00:03:31.890
+ there it is there it's good there you can already see 
+
+00:03:29.040 --> 00:03:35.569
+ the eyes as I had them at the beginning 
+
+00:03:31.890 --> 00:03:37.609
+ but because he is drawing these lines 
+
+00:03:35.569 --> 00:03:39.730
+ He does this because every time he tries 
+
+00:03:37.609 --> 00:03:42.200
+ to make the stroke of a pad 
+
+00:03:39.730 --> 00:03:47.410
+ draw a line from the last point 
+
+00:03:42.200 --> 00:03:49.390
+ for example here draw the eye arch 
+
+00:03:47.410 --> 00:03:51.970
+ end here 
+
+00:03:49.390 --> 00:03:53.740
+ and then good drag it to draw 
+
+00:03:51.970 --> 00:03:56.319
+ the eye first we draw the eye of 
+
+00:03:53.740 --> 00:03:58.300
+ in the middle he pulls it to draw the eye 
+
+00:03:56.319 --> 00:04:00.040
+ big then pull it to draw the 
+
+00:03:58.300 --> 00:04:03.120
+ another in the middle and then pull it to 
+
+00:04:00.040 --> 00:04:03.120
+ draw the other govern 
+
+00:04:03.470 --> 00:04:10.340
+ the handling of pads has a method for 
+
+00:04:06.140 --> 00:04:12.590
+ that we avoid that and the how 
+
+00:04:10.340 --> 00:04:14.330
+ find the right coordinates for 
+
+00:04:12.590 --> 00:04:17.150
+ that the figures come out good is going to 
+
+00:04:14.330 --> 00:04:19.850
+ require that you are testing and playing 
+
+00:04:17.150 --> 00:04:23.030
+ a bit with the values ​​the method that 
+
+00:04:19.850 --> 00:04:25.910
+ serves to make the movement without 
+
+00:04:23.030 --> 00:04:27.410
+ a line is called move to and what 
+
+00:04:25.910 --> 00:04:29.350
+ what it does is simply move the 
+
+00:04:27.410 --> 00:04:33.230
+ context from one place to another for example 
+
+00:04:29.350 --> 00:04:35.480
+ here back the circle and before drawing 
+
+00:04:33.230 --> 00:04:37.850
+ the next arc moves the context and what 
+
+00:04:35.480 --> 00:04:42.790
+ place at this point and then if you already 
+
+00:04:37.850 --> 00:04:45.560
+ draw without plotting that horrible line no 
+
+00:04:42.790 --> 00:04:48.590
+ then let's see let's go back to 
+
+00:04:45.560 --> 00:04:51.200
+ apply every time we move the 
+
+00:04:48.590 --> 00:04:54.050
+ context 
+
+00:04:51.200 --> 00:04:55.490
+ the place where you have to move the 
+
+00:04:54.050 --> 00:04:58.280
+ context is the place where you go to 
+
+00:04:55.490 --> 00:05:00.350
+ start drawing 
+
+00:04:58.280 --> 00:05:02.720
+ the next the next line in the 
+
+00:05:00.350 --> 00:05:06.650
+ next stroke that in this case good 
+
+00:05:02.720 --> 00:05:09.969
+ these bows are pure but in other cases 
+
+00:05:06.650 --> 00:05:12.249
+ are going to be this lines 
+
+00:05:09.969 --> 00:05:14.009
+ and it's so perfect then we have 
+
+00:05:12.249 --> 00:05:17.189
+ the eyes 
+
+00:05:14.009 --> 00:05:19.650
+ for example we draw the arch from the 
+
+00:05:17.189 --> 00:05:23.009
+ point where it was finished looking for the 
+
+00:05:19.650 --> 00:05:26.729
+ we move it to the coordinate 50 x 80 
+
+00:05:23.009 --> 00:05:29.159
+ from there in 50 of x 80 that is this 
+
+00:05:26.729 --> 00:05:31.080
+ point begins to trace the bow and then 
+
+00:05:29.159 --> 00:05:33.020
+ we move it again to trace the 
+
+00:05:31.080 --> 00:05:36.169
+ next figure 
+
+00:05:33.020 --> 00:05:39.470
+ well perfect it looks pretty that you spend 
+
+00:05:36.169 --> 00:05:41.460
+ I after giving stroke I want to draw 
+
+00:05:39.470 --> 00:05:47.250
+ more things 
+
+00:05:41.460 --> 00:05:50.099
+ for example the smile 30 to radials that 
+
+00:05:47.250 --> 00:05:53.970
+ let's put 0 and again to radial 
+
+00:05:50.099 --> 00:05:56.420
+ and that we're going to place 180 and here's good 
+
+00:05:53.970 --> 00:06:00.560
+ let's see what happens 
+
+00:05:56.420 --> 00:06:04.700
+ so whenever you add something must 
+
+00:06:00.560 --> 00:06:07.660
+ call this so that even after 
+
+00:06:04.700 --> 00:06:07.660
+ that I give a stroke 
+
+00:06:07.689 --> 00:06:12.760
+ the figure comes back to trace another 
+
+00:06:10.929 --> 00:06:15.070
+ stripe 
+
+00:06:12.760 --> 00:06:17.470
+ the solution that we can give you 
+
+00:06:15.070 --> 00:06:21.040
+ to that is 
+
+00:06:17.470 --> 00:06:24.460
+ one use again move to or another 
+
+00:06:21.040 --> 00:06:26.920
+ would start a new pack every time 
+
+00:06:24.460 --> 00:06:28.870
+ we started a new pad the context 
+
+00:06:26.920 --> 00:06:30.880
+ loses the information of the last point 
+
+00:06:28.870 --> 00:06:33.490
+ in which it was and well it draws the 
+
+00:06:30.880 --> 00:06:36.700
+ next circle the next stroke 
+
+00:06:33.490 --> 00:06:39.940
+ from the position in which we 
+
+00:06:36.700 --> 00:06:41.440
+ we are indicating then this is how 
+
+00:06:39.940 --> 00:06:43.300
+ the trace of irregular figures works 
+
+00:06:41.440 --> 00:06:46.330
+ in this case, everything is 
+
+00:06:43.300 --> 00:06:48.270
+ doing with bows but now other 
+
+00:06:46.330 --> 00:06:53.820
+ occasions when you have to use 
+
+00:06:48.270 --> 00:06:53.820
+ rectangles or others are 
+
+00:06:54.080 --> 00:06:58.340
+ other types of strokes so far the 
+
+00:06:56.870 --> 00:07:01.509
+ tutorial today I send you a greeting and to 
+
+00:06:58.340 --> 00:07:01.509
+ hernandez thank you very much 
+

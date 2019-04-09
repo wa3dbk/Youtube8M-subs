@@ -1,0 +1,505 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.020 --> 00:00:05.509
+ hi all my name is hair gómez i am 
+
+00:00:02.510 --> 00:00:08.240
+ in settat displacement you can see my 
+
+00:00:05.509 --> 00:00:11.140
+ data on screen a user on twitter 
+
+00:00:08.240 --> 00:00:13.520
+ Ask me the next question the month 
+
+00:00:11.140 --> 00:00:16.730
+ more specifically diego towers me 
+
+00:00:13.520 --> 00:00:18.590
+ question how can you disable or 
+
+00:00:16.730 --> 00:00:21.810
+ remove the expiration of passwords 
+
+00:00:18.590 --> 00:00:23.670
+ in windows server 2012 
+
+00:00:21.810 --> 00:00:25.949
+ this we can do it in two 
+
+00:00:23.670 --> 00:00:28.890
+ ways if we have our 
+
+00:00:25.949 --> 00:00:30.329
+ team in a domain let's go to 
+
+00:00:28.890 --> 00:00:33.329
+ our password policies 
+
+00:00:30.329 --> 00:00:34.860
+ policies of domain policies or if 
+
+00:00:33.329 --> 00:00:37.590
+ we have it in local then we have to 
+
+00:00:34.860 --> 00:00:41.690
+ go to our directives or 
+
+00:00:37.590 --> 00:00:43.519
+ by local password policy 
+
+00:00:41.690 --> 00:00:44.870
+ so let's see what the process is 
+
+00:00:43.519 --> 00:00:47.840
+ what is the guide that we must carry out 
+
+00:00:44.870 --> 00:00:49.399
+ to be able to have these policies 
+
+00:00:47.840 --> 00:00:50.809
+ password this is something that is not 
+
+00:00:49.399 --> 00:00:52.370
+ Recommended for by good 
+
+00:00:50.809 --> 00:00:54.800
+ policies for good practices 
+
+00:00:52.370 --> 00:00:57.500
+ sorry to disable the expiration 
+
+00:00:54.800 --> 00:00:59.360
+ of passwords because this generates a 
+
+00:00:57.500 --> 00:01:02.089
+ risk to our infrastructure for 
+
+00:00:59.360 --> 00:01:04.409
+ our network is good to have this well 
+
+00:01:02.089 --> 00:01:07.289
+ this video stipulated for 
+
+00:01:04.409 --> 00:01:11.670
+ and make our network much more 
+
+00:01:07.289 --> 00:01:14.580
+ strengthened in the face of any attack 
+
+00:01:11.670 --> 00:01:16.560
+ strangers then let's see how 
+
+00:01:14.580 --> 00:01:18.119
+ we can configure this we are going then to 
+
+00:01:16.560 --> 00:01:21.390
+ my virtual machine with windows server 
+
+00:01:18.119 --> 00:01:24.869
+ 2012 here I have as you can see I have a 
+
+00:01:21.390 --> 00:01:26.430
+ domain controller if I go by 
+
+00:01:24.869 --> 00:01:28.880
+ example to password policies 
+
+00:01:26.430 --> 00:01:28.880
+ local 
+
+00:01:29.260 --> 00:01:33.640
+ in configuration edit directives of 
+
+00:01:31.870 --> 00:01:35.570
+ group but the locals as you can see 
+
+00:01:33.640 --> 00:01:37.530
+ here local group 
+
+00:01:35.570 --> 00:01:39.450
+ and I go 
+
+00:01:37.530 --> 00:01:43.290
+ in the configuration of the team this all 
+
+00:01:39.450 --> 00:01:46.890
+ we will be for you native team and 
+
+00:01:43.290 --> 00:01:48.659
+ we go to windows configuration 
+
+00:01:46.890 --> 00:01:51.770
+ here in windows configuration we are going to 
+
+00:01:48.659 --> 00:01:54.479
+ see the security settings and 
+
+00:01:51.770 --> 00:01:55.680
+ we will look for account directives in 
+
+00:01:54.479 --> 00:01:58.650
+ account directives we will select 
+
+00:01:55.680 --> 00:02:00.320
+ password directives here we go to 
+
+00:01:58.650 --> 00:02:02.940
+ see the passwords directives 
+
+00:02:00.320 --> 00:02:05.610
+ such as storing passwords 
+
+00:02:02.940 --> 00:02:07.979
+ with reversible encryption demand the 
+
+00:02:05.610 --> 00:02:09.330
+ password password history 
+
+00:02:07.979 --> 00:02:12.450
+ to meet the requirements of 
+
+00:02:09.330 --> 00:02:17.810
+ complexities with these are the ones that by 
+
+00:02:12.450 --> 00:02:20.340
+ example numbers letters characters 
+
+00:02:17.810 --> 00:02:23.230
+ specials and these so should 
+
+00:02:20.340 --> 00:02:25.420
+ complete at least 3 
+
+00:02:23.230 --> 00:02:27.430
+ and uppercase and lowercase then 
+
+00:02:25.420 --> 00:02:30.040
+ we also have minimum length of the 
+
+00:02:27.430 --> 00:02:32.769
+ password and we have the maximum validity 
+
+00:02:30.040 --> 00:02:35.980
+ of the password and the minimum validity of 
+
+00:02:32.769 --> 00:02:38.799
+ the password if we open 
+
+00:02:35.980 --> 00:02:40.629
+ maximum validity of the password we are going to 
+
+00:02:38.799 --> 00:02:43.060
+ see who we have the established value 
+
+00:02:40.629 --> 00:02:45.519
+ from 42 days but they do not let us 
+
+00:02:43.060 --> 00:02:48.220
+ modify it here we can not modify 
+
+00:02:45.519 --> 00:02:50.260
+ because because we are in a domain and 
+
+00:02:48.220 --> 00:02:52.870
+ domain password policies 
+
+00:02:50.260 --> 00:02:55.150
+ prevail or are superior to 
+
+00:02:52.870 --> 00:02:57.690
+ local password policies in the 
+
+00:02:55.150 --> 00:02:59.610
+ application we can see what 
+
+00:02:57.690 --> 00:03:01.770
+ this security configuration 
+
+00:02:59.610 --> 00:03:04.470
+ determines the period of time in days 
+
+00:03:01.770 --> 00:03:06.150
+ in which a password can be used before 
+
+00:03:04.470 --> 00:03:08.790
+ that the system asks the user 
+
+00:03:06.150 --> 00:03:11.130
+ that change it can establish the 
+
+00:03:08.790 --> 00:03:13.950
+ passwords to expire after a 
+
+00:03:11.130 --> 00:03:16.950
+ number of days between 1 and 999 
+
+00:03:13.950 --> 00:03:19.650
+ or you can specify that the passwords 
+
+00:03:16.950 --> 00:03:22.260
+ never expire by setting the number 
+
+00:03:19.650 --> 00:03:24.900
+ from days to zero then how can we 
+
+00:03:22.260 --> 00:03:26.850
+ see gives us those possibilities and also 
+
+00:03:24.900 --> 00:03:28.230
+ gives us the possibility as the use says 
+
+00:03:26.850 --> 00:03:31.290
+ of half a question to the user in you at 
+
+00:03:28.230 --> 00:03:33.570
+ twitter to remove that expiration of 
+
+00:03:31.290 --> 00:03:37.950
+ passwords but this we have to 
+
+00:03:33.570 --> 00:03:40.230
+ do it by domain directives because 
+
+00:03:37.950 --> 00:03:42.780
+ at this moment we are in a domain and 
+
+00:03:40.230 --> 00:03:44.460
+ we have to do it for that reason if 
+
+00:03:42.780 --> 00:03:46.560
+ we of this one are in our 
+
+00:03:44.460 --> 00:03:50.430
+ local team we are not in a group of 
+
+00:03:46.560 --> 00:03:52.560
+ dom rupo work we can do 
+
+00:03:50.430 --> 00:03:54.330
+ by policies of local groups then 
+
+00:03:52.560 --> 00:03:56.520
+ let's go to our 
+
+00:03:54.330 --> 00:03:59.250
+ server manager in let's access now 
+
+00:03:56.520 --> 00:04:00.780
+ yes to our administration of 
+
+00:03:59.250 --> 00:04:03.660
+ group policies but directives 
+
+00:04:00.780 --> 00:04:06.030
+ of domain we will see that now here it 
+
+00:04:03.660 --> 00:04:09.060
+ the editor is going to go and I will see that 
+
+00:04:06.030 --> 00:04:12.210
+ I have my domain with my policies 
+
+00:04:09.060 --> 00:04:15.240
+ password in my domain policies and 
+
+00:04:12.210 --> 00:04:17.640
+ let's for example to edit it from fordo 
+
+00:04:15.240 --> 00:04:19.890
+ main policy as an example we can 
+
+00:04:17.640 --> 00:04:21.540
+ create another policy for this too 
+
+00:04:19.890 --> 00:04:24.420
+ We can set different types of 
+
+00:04:21.540 --> 00:04:26.640
+ passwords in 
+
+00:04:24.420 --> 00:04:27.810
+ to users or user groups because 
+
+00:04:26.640 --> 00:04:30.180
+ this is a new possibility that 
+
+00:04:27.810 --> 00:04:31.500
+ we have in windows server 2012 and in my 
+
+00:04:30.180 --> 00:04:33.960
+ youtube channel can find a 
+
+00:04:31.500 --> 00:04:36.210
+ video already in regards to this then 
+
+00:04:33.960 --> 00:04:39.150
+ we open edit let's do a test 
+
+00:04:36.210 --> 00:04:41.130
+ with this password with this directive 
+
+00:04:39.150 --> 00:04:44.070
+ and then we go to configuration of the 
+
+00:04:41.130 --> 00:04:47.540
+ team directives in directives let's 
+
+00:04:44.070 --> 00:04:49.160
+ access configuration windows 
+
+00:04:47.540 --> 00:04:50.960
+ in windows configuration we are going to 
+
+00:04:49.160 --> 00:04:54.080
+ access security settings on 
+
+00:04:50.960 --> 00:04:55.760
+ same almost the same route and here in 
+
+00:04:54.080 --> 00:04:59.300
+ directing account directives 
+
+00:04:55.760 --> 00:05:01.070
+ password here we will see the same thing the 
+
+00:04:59.300 --> 00:05:03.020
+ same configurations 
+
+00:05:01.070 --> 00:05:04.730
+ and we're going to see the maximum validity of the 
+
+00:05:03.020 --> 00:05:08.140
+ password we are going to open the counter in the 
+
+00:05:04.730 --> 00:05:10.289
+ policy and we see that here if they let us 
+
+00:05:08.140 --> 00:05:13.319
+ set up 
+
+00:05:10.289 --> 00:05:15.839
+ and is in full force of the 
+
+00:05:13.319 --> 00:05:17.879
+ password then we can not say the 
+
+00:05:15.839 --> 00:05:20.550
+ policy that we can set the in 0 
+
+00:05:17.879 --> 00:05:22.740
+ days or we can also remove this check 
+
+00:05:20.550 --> 00:05:23.999
+ which gives us here to define this 
+
+00:05:22.740 --> 00:05:26.430
+ policy configuration we can 
+
+00:05:23.999 --> 00:05:30.169
+ remove and as we see it is disabled 
+
+00:05:26.430 --> 00:05:30.169
+ this option 
+
+00:05:31.220 --> 00:05:36.560
+ we are going to do what the 
+
+00:05:33.410 --> 00:05:39.320
+ policy we are going to establish that it is in 
+
+00:05:36.560 --> 00:05:42.500
+ zero and as we see here it tells us that the 
+
+00:05:39.320 --> 00:05:43.990
+ password will never expire sa 
+
+00:05:42.500 --> 00:05:47.840
+ as the explanation tells us here 
+
+00:05:43.990 --> 00:05:50.630
+ set the in 0 days as we see here 
+
+00:05:47.840 --> 00:05:53.289
+ and that will never expire then we will 
+
+00:05:50.630 --> 00:05:56.070
+ tell him to apply 
+
+00:05:53.289 --> 00:06:00.150
+ let's tell him to accept 
+
+00:05:56.070 --> 00:06:02.160
+ as we see here has already left us in zero 
+
+00:06:00.150 --> 00:06:04.980
+ days so the password never 
+
+00:06:02.160 --> 00:06:06.990
+ will expire we must modify the validity 
+
+00:06:04.980 --> 00:06:09.120
+ minimum password we open it 
+
+00:06:06.990 --> 00:06:11.580
+ also and we specify it in 0 days 
+
+00:06:09.120 --> 00:06:14.250
+ then it tells us that the password is 
+
+00:06:11.580 --> 00:06:16.680
+ You can change immediately here 
+
+00:06:14.250 --> 00:06:17.940
+ we can then apply another class 
+
+00:06:16.680 --> 00:06:20.190
+ directive but we can also 
+
+00:06:17.940 --> 00:06:23.940
+ establish the and as we see already has 
+
+00:06:20.190 --> 00:06:27.210
+ removed the expiration of our 
+
+00:06:23.940 --> 00:06:30.630
+ passwords then this is the father 
+
+00:06:27.210 --> 00:06:33.420
+ these are the steps we have for 
+
+00:06:30.630 --> 00:06:36.510
+ can configure these policies of 
+
+00:06:33.420 --> 00:06:38.910
+ password as a recommendation and how 
+
+00:06:36.510 --> 00:06:40.110
+ I recommend microsoft this should have 
+
+00:06:38.910 --> 00:06:42.690
+ established policies of 
+
+00:06:40.110 --> 00:06:44.760
+ passwords for our users and more 
+
+00:06:42.690 --> 00:06:48.720
+ if we are administrators at the time of 
+
+00:06:44.760 --> 00:06:51.860
+ protect our network then I hope that 
+
+00:06:48.720 --> 00:06:54.480
+ this video is very helpful 
+
+00:06:51.860 --> 00:06:57.870
+ see you on a next occasion before 
+
+00:06:54.480 --> 00:07:03.410
+ to tell them who for example visit my 
+
+00:06:57.870 --> 00:07:03.410
+ youtube channel and my blog see you soon 
+

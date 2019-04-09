@@ -1,0 +1,1184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.100 --> 00:00:01.629 
+
+[Music]
+
+00:00:01.629 --> 00:00:01.639 
+[Music]
+
+00:00:01.639 --> 00:00:04.430 
+[Music]
+hey<00:00:02.639> what's<00:00:02.970> up<00:00:03.149> Andrew<00:00:03.600> Kramer<00:00:03.929> here<00:00:04.290> and
+
+00:00:04.430 --> 00:00:04.440 
+hey what's up Andrew Kramer here and
+
+00:00:04.440 --> 00:00:06.170 
+hey what's up Andrew Kramer here and
+today<00:00:04.859> we're<00:00:05.220> going<00:00:05.310> to<00:00:05.400> take<00:00:05.549> a<00:00:05.580> look<00:00:05.790> at<00:00:06.000> the
+
+00:00:06.170 --> 00:00:06.180 
+today we're going to take a look at the
+
+00:00:06.180 --> 00:00:09.530 
+today we're going to take a look at the
+element<00:00:06.660> 3d<00:00:07.049> render<00:00:07.500> engine<00:00:08.010> so<00:00:08.519> what<00:00:09.059> it<00:00:09.179> is
+
+00:00:09.530 --> 00:00:09.540 
+element 3d render engine so what it is
+
+00:00:09.540 --> 00:00:12.049 
+element 3d render engine so what it is
+is<00:00:09.780> an<00:00:09.990> OpenGL<00:00:10.410> based<00:00:10.980> renderer<00:00:11.429> that<00:00:11.910> was
+
+00:00:12.049 --> 00:00:12.059 
+is an OpenGL based renderer that was
+
+00:00:12.059 --> 00:00:14.930 
+is an OpenGL based renderer that was
+specifically<00:00:12.750> designed<00:00:13.049> for<00:00:13.530> element<00:00:14.309> and<00:00:14.490> it
+
+00:00:14.930 --> 00:00:14.940 
+specifically designed for element and it
+
+00:00:14.940 --> 00:00:17.120 
+specifically designed for element and it
+was<00:00:15.030> designed<00:00:15.420> to<00:00:15.509> be<00:00:15.690> fast<00:00:16.049> and<00:00:16.500> looked
+
+00:00:17.120 --> 00:00:17.130 
+was designed to be fast and looked
+
+00:00:17.130 --> 00:00:20.090 
+was designed to be fast and looked
+really<00:00:17.609> good<00:00:18.029> so<00:00:18.420> let's<00:00:19.140> take<00:00:19.350> a<00:00:19.380> look<00:00:19.619> at<00:00:19.800> some
+
+00:00:20.090 --> 00:00:20.100 
+really good so let's take a look at some
+
+00:00:20.100 --> 00:00:22.519 
+really good so let's take a look at some
+of<00:00:20.130> the<00:00:20.250> different<00:00:20.670> features<00:00:21.230> first<00:00:22.230> of<00:00:22.380> all
+
+00:00:22.519 --> 00:00:22.529 
+of the different features first of all
+
+00:00:22.529 --> 00:00:25.340 
+of the different features first of all
+it<00:00:22.800> works<00:00:23.369> with<00:00:23.640> After<00:00:24.119> Effects<00:00:24.480> lighting<00:00:25.140> so
+
+00:00:25.340 --> 00:00:25.350 
+it works with After Effects lighting so
+
+00:00:25.350 --> 00:00:27.109 
+it works with After Effects lighting so
+we<00:00:25.619> can<00:00:25.769> actually<00:00:26.099> move<00:00:26.340> the<00:00:26.699> lights<00:00:26.910> around
+
+00:00:27.109 --> 00:00:27.119 
+we can actually move the lights around
+
+00:00:27.119 --> 00:00:30.169 
+we can actually move the lights around
+and<00:00:27.779> you<00:00:28.619> can<00:00:28.710> get<00:00:28.830> some<00:00:28.980> instant<00:00:29.460> interactive
+
+00:00:30.169 --> 00:00:30.179 
+and you can get some instant interactive
+
+00:00:30.179 --> 00:00:32.600 
+and you can get some instant interactive
+feedback<00:00:30.449> so<00:00:30.960> it's<00:00:31.949> great<00:00:32.160> if<00:00:32.189> you're<00:00:32.369> trying
+
+00:00:32.600 --> 00:00:32.610 
+feedback so it's great if you're trying
+
+00:00:32.610 --> 00:00:34.010 
+feedback so it's great if you're trying
+to<00:00:32.640> match<00:00:32.880> the<00:00:33.180> lighting<00:00:33.420> of<00:00:33.750> say<00:00:33.899> the
+
+00:00:34.010 --> 00:00:34.020 
+to match the lighting of say the
+
+00:00:34.020 --> 00:00:36.560 
+to match the lighting of say the
+background<00:00:34.559> you<00:00:35.250> can<00:00:35.280> see<00:00:35.460> exactly<00:00:36.030> what<00:00:36.390> it's
+
+00:00:36.560 --> 00:00:36.570 
+background you can see exactly what it's
+
+00:00:36.570 --> 00:00:39.049 
+background you can see exactly what it's
+looking<00:00:36.870> like<00:00:36.899> as<00:00:37.290> you<00:00:37.950> move<00:00:38.160> the<00:00:38.489> lights
+
+00:00:39.049 --> 00:00:39.059 
+looking like as you move the lights
+
+00:00:39.059 --> 00:00:42.740 
+looking like as you move the lights
+it<00:00:39.690> also<00:00:39.870> has<00:00:40.200> real<00:00:40.590> 3d<00:00:41.280> motion<00:00:41.850> blur<00:00:42.059> so<00:00:42.329> if<00:00:42.600> I
+
+00:00:42.740 --> 00:00:42.750 
+it also has real 3d motion blur so if I
+
+00:00:42.750 --> 00:00:44.569 
+it also has real 3d motion blur so if I
+turn<00:00:42.809> the<00:00:43.079> motion<00:00:43.500> blur<00:00:43.649> on<00:00:43.680> for<00:00:44.010> the<00:00:44.070> comp<00:00:44.309> you
+
+00:00:44.569 --> 00:00:44.579 
+turn the motion blur on for the comp you
+
+00:00:44.579 --> 00:00:46.819 
+turn the motion blur on for the comp you
+can<00:00:45.149> see<00:00:45.390> that<00:00:45.570> we<00:00:45.660> get<00:00:45.809> some<00:00:46.020> real<00:00:46.260> 3d<00:00:46.649> motion
+
+00:00:46.819 --> 00:00:46.829 
+can see that we get some real 3d motion
+
+00:00:46.829 --> 00:00:49.549 
+can see that we get some real 3d motion
+blur<00:00:47.160> and<00:00:47.340> it's<00:00:48.090> very<00:00:48.390> responsive<00:00:48.870> so<00:00:49.350> the
+
+00:00:49.549 --> 00:00:49.559 
+blur and it's very responsive so the
+
+00:00:49.559 --> 00:00:52.069 
+blur and it's very responsive so the
+speed<00:00:49.950> doesn't<00:00:50.670> get<00:00:50.789> slowed<00:00:51.120> down<00:00:51.149> that<00:00:51.780> much
+
+00:00:52.069 --> 00:00:52.079 
+speed doesn't get slowed down that much
+
+00:00:52.079 --> 00:00:54.410 
+speed doesn't get slowed down that much
+by<00:00:52.680> turning<00:00:53.100> it<00:00:53.190> on<00:00:53.280> now<00:00:53.579> another<00:00:54.300> thing
+
+00:00:54.410 --> 00:00:54.420 
+by turning it on now another thing
+
+00:00:54.420 --> 00:00:57.080 
+by turning it on now another thing
+you'll<00:00:54.719> notice<00:00:54.989> is<00:00:55.289> that<00:00:55.829> element<00:00:56.100> can<00:00:56.699> handle
+
+00:00:57.080 --> 00:00:57.090 
+you'll notice is that element can handle
+
+00:00:57.090 --> 00:00:59.540 
+you'll notice is that element can handle
+some<00:00:57.270> pretty<00:00:57.539> high<00:00:57.870> quality<00:00:57.980> models<00:00:58.980> this<00:00:59.430> is
+
+00:00:59.540 --> 00:00:59.550 
+some pretty high quality models this is
+
+00:00:59.550 --> 00:01:01.580 
+some pretty high quality models this is
+a<00:00:59.640> hundred<00:00:59.969> thousand<00:01:00.510> polygons<00:01:00.989> model<00:01:01.410> and
+
+00:01:01.580 --> 00:01:01.590 
+a hundred thousand polygons model and
+
+00:01:01.590 --> 00:01:03.950 
+a hundred thousand polygons model and
+it's<00:01:02.340> looking<00:01:02.820> really<00:01:03.000> good<00:01:03.270> it<00:01:03.510> has<00:01:03.600> 4k
+
+00:01:03.950 --> 00:01:03.960 
+it's looking really good it has 4k
+
+00:01:03.960 --> 00:01:06.890 
+it's looking really good it has 4k
+textures<00:01:04.890> so<00:01:05.610> it's<00:01:05.880> pretty<00:01:06.119> impressive<00:01:06.360> and
+
+00:01:06.890 --> 00:01:06.900 
+textures so it's pretty impressive and
+
+00:01:06.900 --> 00:01:08.330 
+textures so it's pretty impressive and
+it<00:01:07.049> doesn't<00:01:07.290> seem<00:01:07.439> to<00:01:07.530> be<00:01:07.650> slowing<00:01:07.830> things
+
+00:01:08.330 --> 00:01:08.340 
+it doesn't seem to be slowing things
+
+00:01:08.340 --> 00:01:11.260 
+it doesn't seem to be slowing things
+down<00:01:08.520> a<00:01:09.030> bit<00:01:09.060> so<00:01:09.960> we'll<00:01:10.229> go<00:01:10.350> and<00:01:10.470> hit<00:01:10.650> OK<00:01:10.979> and
+
+00:01:11.260 --> 00:01:11.270 
+down a bit so we'll go and hit OK and
+
+00:01:11.270 --> 00:01:14.570 
+down a bit so we'll go and hit OK and
+let's<00:01:12.270> jump<00:01:12.689> into<00:01:12.869> another<00:01:13.400> example<00:01:14.400> another
+
+00:01:14.570 --> 00:01:14.580 
+let's jump into another example another
+
+00:01:14.580 --> 00:01:17.840 
+let's jump into another example another
+great<00:01:15.240> feature<00:01:15.479> is<00:01:15.840> the<00:01:16.049> 3d<00:01:16.530> fog<00:01:16.920> so<00:01:17.369> if<00:01:17.640> we<00:01:17.729> go
+
+00:01:17.840 --> 00:01:17.850 
+great feature is the 3d fog so if we go
+
+00:01:17.850 --> 00:01:20.149 
+great feature is the 3d fog so if we go
+to<00:01:17.880> the<00:01:18.060> render<00:01:18.330> settings<00:01:18.960> we<00:01:19.560> can<00:01:19.740> turn<00:01:19.979> the
+
+00:01:20.149 --> 00:01:20.159 
+to the render settings we can turn the
+
+00:01:20.159 --> 00:01:22.910 
+to the render settings we can turn the
+fog<00:01:20.400> on<00:01:20.759> and<00:01:21.210> we<00:01:22.020> can<00:01:22.170> adjust<00:01:22.259> the<00:01:22.710> distance
+
+00:01:22.910 --> 00:01:22.920 
+fog on and we can adjust the distance
+
+00:01:22.920 --> 00:01:25.820 
+fog on and we can adjust the distance
+the<00:01:23.790> fog<00:01:24.090> starts<00:01:24.630> and<00:01:24.930> we<00:01:25.049> can<00:01:25.170> also<00:01:25.320> set<00:01:25.650> the
+
+00:01:25.820 --> 00:01:25.830 
+the fog starts and we can also set the
+
+00:01:25.830 --> 00:01:28.850 
+the fog starts and we can also set the
+range<00:01:26.100> for<00:01:26.759> how<00:01:26.880> far<00:01:27.210> the<00:01:27.420> fog<00:01:27.630> goes<00:01:27.960> you<00:01:28.680> can
+
+00:01:28.850 --> 00:01:28.860 
+range for how far the fog goes you can
+
+00:01:28.860 --> 00:01:30.710 
+range for how far the fog goes you can
+control<00:01:29.280> the<00:01:29.430> color<00:01:29.610> and<00:01:30.119> do<00:01:30.329> some<00:01:30.509> really
+
+00:01:30.710 --> 00:01:30.720 
+control the color and do some really
+
+00:01:30.720 --> 00:01:32.420 
+control the color and do some really
+cool<00:01:30.930> stuff<00:01:30.990> so<00:01:31.409> it's<00:01:31.920> great<00:01:32.100> for<00:01:32.130> motion
+
+00:01:32.420 --> 00:01:32.430 
+cool stuff so it's great for motion
+
+00:01:32.430 --> 00:01:34.550 
+cool stuff so it's great for motion
+graphics<00:01:33.060> but<00:01:33.150> it's<00:01:33.299> also<00:01:33.420> great<00:01:33.720> for<00:01:33.960> making
+
+00:01:34.550 --> 00:01:34.560 
+graphics but it's also great for making
+
+00:01:34.560 --> 00:01:36.380 
+graphics but it's also great for making
+things<00:01:34.710> look<00:01:35.009> like<00:01:35.070> they<00:01:35.369> go<00:01:35.520> off<00:01:35.729> into<00:01:36.030> the
+
+00:01:36.380 --> 00:01:36.390 
+things look like they go off into the
+
+00:01:36.390 --> 00:01:39.410 
+things look like they go off into the
+distance<00:01:36.600> now<00:01:37.530> another<00:01:38.460> really<00:01:38.820> important
+
+00:01:39.410 --> 00:01:39.420 
+distance now another really important
+
+00:01:39.420 --> 00:01:42.230 
+distance now another really important
+feature<00:01:39.570> is<00:01:39.930> depth<00:01:40.740> of<00:01:40.950> field<00:01:41.250> so<00:01:41.460> we'll<00:01:42.150> go
+
+00:01:42.230 --> 00:01:42.240 
+feature is depth of field so we'll go
+
+00:01:42.240 --> 00:01:44.870 
+feature is depth of field so we'll go
+and<00:01:42.390> turn<00:01:42.689> that<00:01:43.049> on<00:01:43.380> now<00:01:44.070> the<00:01:44.130> one<00:01:44.490> thing<00:01:44.640> about
+
+00:01:44.870 --> 00:01:44.880 
+and turn that on now the one thing about
+
+00:01:44.880 --> 00:01:46.910 
+and turn that on now the one thing about
+depth<00:01:45.119> of<00:01:45.240> field<00:01:45.450> is<00:01:45.689> that<00:01:46.110> it<00:01:46.320> does<00:01:46.590> slow
+
+00:01:46.910 --> 00:01:46.920 
+depth of field is that it does slow
+
+00:01:46.920 --> 00:01:48.950 
+depth of field is that it does slow
+things<00:01:47.220> down<00:01:47.340> a<00:01:47.490> little<00:01:47.850> bit<00:01:48.060> but<00:01:48.600> in<00:01:48.780> most
+
+00:01:48.950 --> 00:01:48.960 
+things down a little bit but in most
+
+00:01:48.960 --> 00:01:50.630 
+things down a little bit but in most
+cases<00:01:49.110> you<00:01:49.619> want<00:01:49.740> to<00:01:49.890> turn<00:01:50.040> it<00:01:50.159> on<00:01:50.250> at<00:01:50.490> the<00:01:50.520> end
+
+00:01:50.630 --> 00:01:50.640 
+cases you want to turn it on at the end
+
+00:01:50.640 --> 00:01:53.179 
+cases you want to turn it on at the end
+when<00:01:51.420> you're<00:01:51.509> ready<00:01:51.750> to<00:01:52.020> render<00:01:52.380> but<00:01:52.560> the<00:01:53.009> cool
+
+00:01:53.179 --> 00:01:53.189 
+when you're ready to render but the cool
+
+00:01:53.189 --> 00:01:54.980 
+when you're ready to render but the cool
+thing<00:01:53.430> is<00:01:53.579> that<00:01:53.670> it<00:01:53.880> actually<00:01:54.270> interacts<00:01:54.720> with
+
+00:01:54.980 --> 00:01:54.990 
+thing is that it actually interacts with
+
+00:01:54.990 --> 00:01:57.139 
+thing is that it actually interacts with
+the<00:01:55.110> focus<00:01:55.470> distance<00:01:55.920> of<00:01:56.070> the<00:01:56.549> camera<00:01:56.969> so<00:01:57.119> you
+
+00:01:57.139 --> 00:01:57.149 
+the focus distance of the camera so you
+
+00:01:57.149 --> 00:01:59.389 
+the focus distance of the camera so you
+can<00:01:57.240> control<00:01:58.020> it<00:01:58.200> just<00:01:58.649> by<00:01:58.770> changing<00:01:59.130> the
+
+00:01:59.389 --> 00:01:59.399 
+can control it just by changing the
+
+00:01:59.399 --> 00:02:01.670 
+can control it just by changing the
+camera<00:01:59.820> settings<00:02:00.180> the<00:02:00.930> other<00:02:01.079> nice<00:02:01.290> thing<00:02:01.560> is
+
+00:02:01.670 --> 00:02:01.680 
+camera settings the other nice thing is
+
+00:02:01.680 --> 00:02:03.380 
+camera settings the other nice thing is
+that<00:02:01.710> we've<00:02:01.920> actually<00:02:02.130> built<00:02:02.579> in<00:02:02.759> a<00:02:02.939> couple<00:02:03.270> of
+
+00:02:03.380 --> 00:02:03.390 
+that we've actually built in a couple of
+
+00:02:03.390 --> 00:02:05.780 
+that we've actually built in a couple of
+different<00:02:03.780> depth<00:02:04.049> of<00:02:04.200> field<00:02:04.380> modes<00:02:04.710> so<00:02:05.460> if<00:02:05.700> we
+
+00:02:05.780 --> 00:02:05.790 
+different depth of field modes so if we
+
+00:02:05.790 --> 00:02:07.880 
+different depth of field modes so if we
+go<00:02:05.969> in<00:02:06.149> there<00:02:06.329> we<00:02:06.810> can<00:02:06.990> see<00:02:07.170> the<00:02:07.290> pixel<00:02:07.710> blur
+
+00:02:07.880 --> 00:02:07.890 
+go in there we can see the pixel blur
+
+00:02:07.890 --> 00:02:09.859 
+go in there we can see the pixel blur
+and<00:02:08.099> the<00:02:08.220> multipass<00:02:08.759> are<00:02:09.119> a<00:02:09.479> little<00:02:09.780> bit
+
+00:02:09.859 --> 00:02:09.869 
+and the multipass are a little bit
+
+00:02:09.869 --> 00:02:12.020 
+and the multipass are a little bit
+slower<00:02:10.200> but<00:02:10.920> they<00:02:11.039> look<00:02:11.280> the<00:02:11.489> most<00:02:11.640> accurate
+
+00:02:12.020 --> 00:02:12.030 
+slower but they look the most accurate
+
+00:02:12.030 --> 00:02:13.760 
+slower but they look the most accurate
+and<00:02:12.480> then<00:02:12.840> we<00:02:12.900> also<00:02:13.050> have<00:02:13.319> the<00:02:13.440> pre
+
+00:02:13.760 --> 00:02:13.770 
+and then we also have the pre
+
+00:02:13.770 --> 00:02:16.100 
+and then we also have the pre
+you<00:02:13.980> and<00:02:14.190> the<00:02:14.580> continuous<00:02:15.180> blur<00:02:15.420> which<00:02:15.630> are<00:02:15.900> a
+
+00:02:16.100 --> 00:02:16.110 
+you and the continuous blur which are a
+
+00:02:16.110 --> 00:02:19.010 
+you and the continuous blur which are a
+lot<00:02:16.440> faster<00:02:16.980> but<00:02:17.520> not<00:02:17.700> as<00:02:17.880> accurate<00:02:18.090> so<00:02:18.540> you
+
+00:02:19.010 --> 00:02:19.020 
+lot faster but not as accurate so you
+
+00:02:19.020 --> 00:02:20.600 
+lot faster but not as accurate so you
+can<00:02:19.170> use<00:02:19.350> those<00:02:19.620> while<00:02:19.830> you're<00:02:19.860> previewing
+
+00:02:20.600 --> 00:02:20.610 
+can use those while you're previewing
+
+00:02:20.610 --> 00:02:22.130 
+can use those while you're previewing
+and<00:02:20.850> just<00:02:21.030> get<00:02:21.120> a<00:02:21.150> sense<00:02:21.210> for<00:02:21.660> what<00:02:21.780> the<00:02:21.930> depth
+
+00:02:22.130 --> 00:02:22.140 
+and just get a sense for what the depth
+
+00:02:22.140 --> 00:02:24.590 
+and just get a sense for what the depth
+of<00:02:22.260> field<00:02:22.500> is<00:02:22.710> going<00:02:23.250> to<00:02:23.340> look<00:02:23.490> like<00:02:23.520> let<00:02:24.510> me
+
+00:02:24.590 --> 00:02:24.600 
+of field is going to look like let me
+
+00:02:24.600 --> 00:02:26.660 
+of field is going to look like let me
+show<00:02:24.750> you<00:02:24.840> another<00:02:24.960> great<00:02:25.380> feature<00:02:25.740> so<00:02:26.160> here
+
+00:02:26.660 --> 00:02:26.670 
+show you another great feature so here
+
+00:02:26.670 --> 00:02:28.430 
+show you another great feature so here
+we<00:02:26.790> have<00:02:26.910> this<00:02:27.090> chess<00:02:27.450> set<00:02:27.480> and<00:02:27.960> it<00:02:28.260> looks
+
+00:02:28.430 --> 00:02:28.440 
+we have this chess set and it looks
+
+00:02:28.440 --> 00:02:30.530 
+we have this chess set and it looks
+pretty<00:02:28.680> good<00:02:28.920> but<00:02:29.490> the<00:02:29.640> shading<00:02:30.060> is<00:02:30.210> really
+
+00:02:30.530 --> 00:02:30.540 
+pretty good but the shading is really
+
+00:02:30.540 --> 00:02:33.080 
+pretty good but the shading is really
+flat<00:02:30.810> so<00:02:31.200> let<00:02:31.710> me<00:02:31.800> add<00:02:31.980> it<00:02:32.190> into<00:02:32.490> our<00:02:32.610> scene<00:02:32.880> and
+
+00:02:33.080 --> 00:02:33.090 
+flat so let me add it into our scene and
+
+00:02:33.090 --> 00:02:34.850 
+flat so let me add it into our scene and
+we'll<00:02:33.600> come<00:02:33.810> down<00:02:33.840> to<00:02:34.110> the<00:02:34.200> render<00:02:34.560> settings
+
+00:02:34.850 --> 00:02:34.860 
+we'll come down to the render settings
+
+00:02:34.860 --> 00:02:36.760 
+we'll come down to the render settings
+and<00:02:35.220> you'll<00:02:35.610> see<00:02:35.790> we<00:02:35.880> have<00:02:35.910> ambient<00:02:36.510> occlusion
+
+00:02:36.760 --> 00:02:36.770 
+and you'll see we have ambient occlusion
+
+00:02:36.770 --> 00:02:40.370 
+and you'll see we have ambient occlusion
+built-in<00:02:37.770> so<00:02:38.430> we'll<00:02:38.730> open<00:02:38.880> that<00:02:39.180> up<00:02:39.330> and<00:02:39.480> we'll
+
+00:02:40.370 --> 00:02:40.380 
+built-in so we'll open that up and we'll
+
+00:02:40.380 --> 00:02:43.070 
+built-in so we'll open that up and we'll
+turn<00:02:40.590> it<00:02:40.740> on<00:02:40.860> and<00:02:41.100> you<00:02:42.090> can<00:02:42.210> see<00:02:42.390> we<00:02:42.510> instantly
+
+00:02:43.070 --> 00:02:43.080 
+turn it on and you can see we instantly
+
+00:02:43.080 --> 00:02:45.380 
+turn it on and you can see we instantly
+get<00:02:43.320> a<00:02:43.350> more<00:02:43.590> realistic<00:02:44.070> look<00:02:44.310> and<00:02:44.790> you<00:02:45.270> can
+
+00:02:45.380 --> 00:02:45.390 
+get a more realistic look and you can
+
+00:02:45.390 --> 00:02:46.670 
+get a more realistic look and you can
+see<00:02:45.540> we're<00:02:45.720> still<00:02:45.750> getting<00:02:46.140> amazing
+
+00:02:46.670 --> 00:02:46.680 
+see we're still getting amazing
+
+00:02:46.680 --> 00:02:48.860 
+see we're still getting amazing
+performance<00:02:47.610> so<00:02:47.790> this<00:02:48.270> is<00:02:48.360> a<00:02:48.420> really<00:02:48.630> great
+
+00:02:48.860 --> 00:02:48.870 
+performance so this is a really great
+
+00:02:48.870 --> 00:02:50.780 
+performance so this is a really great
+look<00:02:49.230> to<00:02:49.410> make<00:02:49.560> things<00:02:49.800> look<00:02:50.010> a<00:02:50.160> lot<00:02:50.460> less<00:02:50.730> like
+
+00:02:50.780 --> 00:02:50.790 
+look to make things look a lot less like
+
+00:02:50.790 --> 00:02:54.860 
+look to make things look a lot less like
+the<00:02:51.200> 1990s<00:02:52.250> we<00:02:53.250> can<00:02:53.430> control<00:02:53.820> the<00:02:54.120> radius<00:02:54.600> here
+
+00:02:54.860 --> 00:02:54.870 
+the 1990s we can control the radius here
+
+00:02:54.870 --> 00:02:56.240 
+the 1990s we can control the radius here
+so<00:02:55.110> we<00:02:55.200> can<00:02:55.320> make<00:02:55.470> it<00:02:55.620> you<00:02:55.800> know<00:02:55.920> like<00:02:56.070> really
+
+00:02:56.240 --> 00:02:56.250 
+so we can make it you know like really
+
+00:02:56.250 --> 00:02:59.090 
+so we can make it you know like really
+tight<00:02:56.610> or<00:02:56.880> really<00:02:57.660> soft<00:02:57.990> and<00:02:58.380> we<00:02:58.860> can<00:02:58.980> also
+
+00:02:59.090 --> 00:02:59.100 
+tight or really soft and we can also
+
+00:02:59.100 --> 00:03:01.760 
+tight or really soft and we can also
+control<00:02:59.550> the<00:02:59.820> intensity<00:03:00.540> so<00:03:00.750> really<00:03:01.590> cool
+
+00:03:01.760 --> 00:03:01.770 
+control the intensity so really cool
+
+00:03:01.770 --> 00:03:03.500 
+control the intensity so really cool
+feature<00:03:02.040> for<00:03:02.340> making<00:03:02.640> things<00:03:02.910> look<00:03:03.270> good
+
+00:03:03.500 --> 00:03:03.510 
+feature for making things look good
+
+00:03:03.510 --> 00:03:06.440 
+feature for making things look good
+without<00:03:04.080> slowing<00:03:04.650> you<00:03:05.040> down<00:03:05.180> now
+
+00:03:06.440 --> 00:03:06.450 
+without slowing you down now
+
+00:03:06.450 --> 00:03:08.510 
+without slowing you down now
+while<00:03:06.930> we're<00:03:07.170> in<00:03:07.200> this<00:03:07.560> project<00:03:07.860> let<00:03:08.250> me<00:03:08.310> show
+
+00:03:08.510 --> 00:03:08.520 
+while we're in this project let me show
+
+00:03:08.520 --> 00:03:11.180 
+while we're in this project let me show
+you<00:03:08.580> something<00:03:09.060> in<00:03:09.210> the<00:03:09.240> lighting<00:03:09.900> tab<00:03:10.110> so<00:03:10.890> if
+
+00:03:11.180 --> 00:03:11.190 
+you something in the lighting tab so if
+
+00:03:11.190 --> 00:03:12.650 
+you something in the lighting tab so if
+you<00:03:11.430> look<00:03:11.580> at<00:03:11.670> my<00:03:11.760> project<00:03:12.240> I<00:03:12.300> don't<00:03:12.450> have<00:03:12.540> any
+
+00:03:12.650 --> 00:03:12.660 
+you look at my project I don't have any
+
+00:03:12.660 --> 00:03:15.080 
+you look at my project I don't have any
+lights<00:03:12.990> in<00:03:13.200> the<00:03:13.350> scene<00:03:13.590> but<00:03:14.250> what<00:03:14.580> I<00:03:14.610> do<00:03:14.700> have
+
+00:03:15.080 --> 00:03:15.090 
+lights in the scene but what I do have
+
+00:03:15.090 --> 00:03:17.210 
+lights in the scene but what I do have
+is<00:03:15.120> this<00:03:15.390> additional<00:03:15.780> lighting<00:03:16.500> option<00:03:17.040> and
+
+00:03:17.210 --> 00:03:17.220 
+is this additional lighting option and
+
+00:03:17.220 --> 00:03:19.160 
+is this additional lighting option and
+this<00:03:17.670> is<00:03:17.790> a<00:03:17.820> great<00:03:18.060> way<00:03:18.209> to<00:03:18.240> experiment<00:03:18.750> with
+
+00:03:19.160 --> 00:03:19.170 
+this is a great way to experiment with
+
+00:03:19.170 --> 00:03:21.050 
+this is a great way to experiment with
+different<00:03:19.320> lighting<00:03:19.860> setups<00:03:20.250> without<00:03:20.760> having
+
+00:03:21.050 --> 00:03:21.060 
+different lighting setups without having
+
+00:03:21.060 --> 00:03:23.540 
+different lighting setups without having
+to<00:03:21.150> add<00:03:21.270> them<00:03:21.510> all<00:03:21.630> in<00:03:21.870> manually<00:03:22.410> yourself<00:03:22.560> but
+
+00:03:23.540 --> 00:03:23.550 
+to add them all in manually yourself but
+
+00:03:23.550 --> 00:03:25.400 
+to add them all in manually yourself but
+what's<00:03:24.030> great<00:03:24.240> is<00:03:24.540> you<00:03:24.600> can<00:03:24.840> actually<00:03:25.050> add
+
+00:03:25.400 --> 00:03:25.410 
+what's great is you can actually add
+
+00:03:25.410 --> 00:03:28.340 
+what's great is you can actually add
+additional<00:03:26.250> lights<00:03:26.520> on<00:03:26.760> top<00:03:27.180> of<00:03:27.390> it<00:03:27.510> so<00:03:27.690> I<00:03:27.959> can
+
+00:03:28.340 --> 00:03:28.350 
+additional lights on top of it so I can
+
+00:03:28.350 --> 00:03:31.490 
+additional lights on top of it so I can
+say<00:03:28.560> add<00:03:28.770> a<00:03:28.800> spotlight<00:03:29.580> here<00:03:30.090> and<00:03:30.350> let's<00:03:31.350> see
+
+00:03:31.490 --> 00:03:31.500 
+say add a spotlight here and let's see
+
+00:03:31.500 --> 00:03:35.150 
+say add a spotlight here and let's see
+it<00:03:31.590> up<00:03:32.100> here<00:03:32.580> and<00:03:32.880> we'll<00:03:33.000> hit<00:03:33.060> OK<00:03:33.390> and<00:03:34.160> we'll
+
+00:03:35.150 --> 00:03:35.160 
+it up here and we'll hit OK and we'll
+
+00:03:35.160 --> 00:03:38.480 
+it up here and we'll hit OK and we'll
+move<00:03:35.400> it<00:03:35.580> closer<00:03:35.880> into<00:03:36.360> our<00:03:36.480> scene<00:03:36.810> and<00:03:37.490> you
+
+00:03:38.480 --> 00:03:38.490 
+move it closer into our scene and you
+
+00:03:38.490 --> 00:03:39.740 
+move it closer into our scene and you
+can<00:03:38.640> see<00:03:38.820> we're<00:03:39.060> getting<00:03:39.270> some<00:03:39.420> great
+
+00:03:39.740 --> 00:03:39.750 
+can see we're getting some great
+
+00:03:39.750 --> 00:03:42.140 
+can see we're getting some great
+responsiveness<00:03:40.560> from<00:03:41.250> this<00:03:41.520> additional
+
+00:03:42.140 --> 00:03:42.150 
+responsiveness from this additional
+
+00:03:42.150 --> 00:03:43.880 
+responsiveness from this additional
+lighting<00:03:42.570> so<00:03:42.930> it's<00:03:43.110> great<00:03:43.320> for<00:03:43.500> just<00:03:43.590> putting
+
+00:03:43.880 --> 00:03:43.890 
+lighting so it's great for just putting
+
+00:03:43.890 --> 00:03:46.550 
+lighting so it's great for just putting
+those<00:03:44.010> final<00:03:44.520> touches<00:03:44.700> on<00:03:45.120> your<00:03:45.810> shot<00:03:46.200> now
+
+00:03:46.550 --> 00:03:46.560 
+those final touches on your shot now
+
+00:03:46.560 --> 00:03:49.550 
+those final touches on your shot now
+while<00:03:47.430> we're<00:03:47.580> in<00:03:47.760> this<00:03:48.000> project<00:03:48.350> let<00:03:49.350> me<00:03:49.410> show
+
+00:03:49.550 --> 00:03:49.560 
+while we're in this project let me show
+
+00:03:49.560 --> 00:03:51.740 
+while we're in this project let me show
+you<00:03:49.650> a<00:03:49.709> couple<00:03:49.890> of<00:03:50.070> other<00:03:50.310> rendering<00:03:50.700> modes<00:03:51.420> so
+
+00:03:51.740 --> 00:03:51.750 
+you a couple of other rendering modes so
+
+00:03:51.750 --> 00:03:53.840 
+you a couple of other rendering modes so
+if<00:03:51.810> we<00:03:51.900> go<00:03:52.020> to<00:03:52.080> the<00:03:52.170> output<00:03:52.620> here<00:03:52.950> we<00:03:53.670> have<00:03:53.820> a
+
+00:03:53.840 --> 00:03:53.850 
+if we go to the output here we have a
+
+00:03:53.850 --> 00:03:55.340 
+if we go to the output here we have a
+couple<00:03:54.090> of<00:03:54.240> polygons<00:03:54.720> mode<00:03:54.900> so<00:03:55.080> right<00:03:55.230> now
+
+00:03:55.340 --> 00:03:55.350 
+couple of polygons mode so right now
+
+00:03:55.350 --> 00:03:57.590 
+couple of polygons mode so right now
+we're<00:03:55.560> looking<00:03:55.590> at<00:03:55.920> the<00:03:56.070> polygons<00:03:56.580> but<00:03:56.850> we<00:03:57.450> can
+
+00:03:57.590 --> 00:03:57.600 
+we're looking at the polygons but we can
+
+00:03:57.600 --> 00:04:00.050 
+we're looking at the polygons but we can
+switch<00:03:57.840> this<00:03:58.020> to<00:03:58.200> wireframe<00:03:58.860> and<00:03:59.070> this<00:03:59.880> is<00:04:00.000> a
+
+00:04:00.050 --> 00:04:00.060 
+switch this to wireframe and this is a
+
+00:04:00.060 --> 00:04:01.670 
+switch this to wireframe and this is a
+great<00:04:00.270> way<00:04:00.450> to<00:04:00.480> just<00:04:00.780> see<00:04:00.959> some<00:04:01.230> different<00:04:01.590> you
+
+00:04:01.670 --> 00:04:01.680 
+great way to just see some different you
+
+00:04:01.680 --> 00:04:03.350 
+great way to just see some different you
+know<00:04:01.800> abstract<00:04:02.430> looks<00:04:02.760> you<00:04:02.970> know<00:04:03.030> for<00:04:03.240> motion
+
+00:04:03.350 --> 00:04:03.360 
+know abstract looks you know for motion
+
+00:04:03.360 --> 00:04:06.020 
+know abstract looks you know for motion
+graphics<00:04:04.050> we<00:04:04.590> can<00:04:04.709> also<00:04:04.860> switch<00:04:05.250> it<00:04:05.280> to<00:04:05.459> point
+
+00:04:06.020 --> 00:04:06.030 
+graphics we can also switch it to point
+
+00:04:06.030 --> 00:04:09.470 
+graphics we can also switch it to point
+cloud<00:04:06.390> to<00:04:07.080> see<00:04:07.260> a<00:04:07.290> bunch<00:04:07.590> of<00:04:07.770> dots<00:04:08.480> alright
+
+00:04:09.470 --> 00:04:09.480 
+cloud to see a bunch of dots alright
+
+00:04:09.480 --> 00:04:10.490 
+cloud to see a bunch of dots alright
+let's<00:04:09.690> take<00:04:09.840> a<00:04:09.900> look<00:04:10.140> at<00:04:10.230> some<00:04:10.380> of<00:04:10.440> the
+
+00:04:10.490 --> 00:04:10.500 
+let's take a look at some of the
+
+00:04:10.500 --> 00:04:13.670 
+let's take a look at some of the
+multipass<00:04:11.130> output<00:04:11.880> modes<00:04:12.150> so<00:04:12.690> here<00:04:13.380> we<00:04:13.470> have
+
+00:04:13.670 --> 00:04:13.680 
+multipass output modes so here we have
+
+00:04:13.680 --> 00:04:16.039 
+multipass output modes so here we have
+this<00:04:13.890> missile<00:04:14.400> and<00:04:14.550> we<00:04:15.270> want<00:04:15.480> to<00:04:15.540> add<00:04:15.660> a<00:04:15.690> glow
+
+00:04:16.039 --> 00:04:16.049 
+this missile and we want to add a glow
+
+00:04:16.049 --> 00:04:18.860 
+this missile and we want to add a glow
+specifically<00:04:16.919> to<00:04:17.160> the<00:04:17.280> afterburn<00:04:17.880> area<00:04:18.299> but
+
+00:04:18.860 --> 00:04:18.870 
+specifically to the afterburn area but
+
+00:04:18.870 --> 00:04:21.680 
+specifically to the afterburn area but
+if<00:04:19.290> I<00:04:19.410> were<00:04:19.530> to<00:04:19.560> say<00:04:19.770> add<00:04:19.980> a<00:04:20.010> glow<00:04:20.430> on<00:04:20.669> top<00:04:21.359> of<00:04:21.570> my
+
+00:04:21.680 --> 00:04:21.690 
+if I were to say add a glow on top of my
+
+00:04:21.690 --> 00:04:23.690 
+if I were to say add a glow on top of my
+project<00:04:22.320> well<00:04:22.590> what<00:04:22.919> would<00:04:22.979> happen<00:04:23.160> is<00:04:23.520> the
+
+00:04:23.690 --> 00:04:23.700 
+project well what would happen is the
+
+00:04:23.700 --> 00:04:26.450 
+project well what would happen is the
+glow<00:04:24.210> would<00:04:24.419> come<00:04:24.630> out<00:04:24.660> of<00:04:24.990> everywhere<00:04:25.590> so<00:04:25.890> we
+
+00:04:26.450 --> 00:04:26.460 
+glow would come out of everywhere so we
+
+00:04:26.460 --> 00:04:26.720 
+glow would come out of everywhere so we
+want
+
+00:04:26.720 --> 00:04:26.730 
+want
+
+00:04:26.730 --> 00:04:29.150 
+want
+be<00:04:26.790> able<00:04:26.940> to<00:04:27.060> isolate<00:04:27.290> just<00:04:28.290> that<00:04:28.530> afterburn
+
+00:04:29.150 --> 00:04:29.160 
+be able to isolate just that afterburn
+
+00:04:29.160 --> 00:04:29.780 
+be able to isolate just that afterburn
+area
+
+00:04:29.780 --> 00:04:29.790 
+area
+
+00:04:29.790 --> 00:04:32.600 
+area
+well<00:04:30.090> element<00:04:31.080> has<00:04:31.350> some<00:04:31.590> great<00:04:31.860> features<00:04:32.190> for
+
+00:04:32.600 --> 00:04:32.610 
+well element has some great features for
+
+00:04:32.610 --> 00:04:34.940 
+well element has some great features for
+doing<00:04:33.180> just<00:04:33.330> that<00:04:33.690> so<00:04:34.050> here's<00:04:34.530> the<00:04:34.740> base
+
+00:04:34.940 --> 00:04:34.950 
+doing just that so here's the base
+
+00:04:34.950 --> 00:04:38.210 
+doing just that so here's the base
+project<00:04:35.310> here<00:04:35.850> with<00:04:36.330> our<00:04:36.600> missile<00:04:37.140> and<00:04:37.320> again
+
+00:04:38.210 --> 00:04:38.220 
+project here with our missile and again
+
+00:04:38.220 --> 00:04:41.240 
+project here with our missile and again
+you<00:04:38.370> can<00:04:38.520> see<00:04:38.760> it<00:04:39.330> renders<00:04:39.720> quite<00:04:40.110> fast<00:04:40.620> so
+
+00:04:41.240 --> 00:04:41.250 
+you can see it renders quite fast so
+
+00:04:41.250 --> 00:04:43.010 
+you can see it renders quite fast so
+here<00:04:41.550> we<00:04:41.640> have<00:04:41.790> our<00:04:41.910> base<00:04:42.210> scene<00:04:42.510> and<00:04:42.750> you<00:04:42.870> can
+
+00:04:43.010 --> 00:04:43.020 
+here we have our base scene and you can
+
+00:04:43.020 --> 00:04:45.110 
+here we have our base scene and you can
+see<00:04:43.260> that<00:04:43.680> everything<00:04:44.130> still<00:04:44.400> renders<00:04:44.790> quite
+
+00:04:45.110 --> 00:04:45.120 
+see that everything still renders quite
+
+00:04:45.120 --> 00:04:47.210 
+see that everything still renders quite
+fast<00:04:45.480> and<00:04:45.810> what<00:04:46.410> we<00:04:46.500> can<00:04:46.650> do<00:04:46.740> is<00:04:46.830> come<00:04:47.010> over<00:04:47.040> to
+
+00:04:47.210 --> 00:04:47.220 
+fast and what we can do is come over to
+
+00:04:47.220 --> 00:04:49.730 
+fast and what we can do is come over to
+element<00:04:47.730> and<00:04:47.850> in<00:04:48.570> the<00:04:48.660> output<00:04:48.840> tab<00:04:49.290> we<00:04:49.590> can
+
+00:04:49.730 --> 00:04:49.740 
+element and in the output tab we can
+
+00:04:49.740 --> 00:04:51.800 
+element and in the output tab we can
+change<00:04:50.040> it<00:04:50.220> from<00:04:50.340> the<00:04:50.430> composite<00:04:51.210> to
+
+00:04:51.800 --> 00:04:51.810 
+change it from the composite to
+
+00:04:51.810 --> 00:04:54.050 
+change it from the composite to
+illumination<00:04:52.710> and<00:04:52.860> what<00:04:53.460> that<00:04:53.640> does<00:04:53.850> is
+
+00:04:54.050 --> 00:04:54.060 
+illumination and what that does is
+
+00:04:54.060 --> 00:04:56.390 
+illumination and what that does is
+creates<00:04:54.450> an<00:04:54.600> output<00:04:55.040> specifically<00:04:56.040> for<00:04:56.280> that
+
+00:04:56.390 --> 00:04:56.400 
+creates an output specifically for that
+
+00:04:56.400 --> 00:04:59.360 
+creates an output specifically for that
+area<00:04:56.730> so<00:04:57.390> here's<00:04:57.960> what<00:04:58.140> we<00:04:58.230> can<00:04:58.380> do<00:04:58.530> we<00:04:59.340> can
+
+00:04:59.360 --> 00:04:59.370 
+area so here's what we can do we can
+
+00:04:59.370 --> 00:05:01.790 
+area so here's what we can do we can
+duplicate<00:05:00.150> the<00:05:00.450> element<00:05:00.870> layer<00:05:01.200> so<00:05:01.590> we'll
+
+00:05:01.790 --> 00:05:01.800 
+duplicate the element layer so we'll
+
+00:05:01.800 --> 00:05:04.010 
+duplicate the element layer so we'll
+choose<00:05:01.980> duplicate<00:05:02.520> and<00:05:02.760> then<00:05:03.630> we'll<00:05:03.780> set<00:05:03.990> the
+
+00:05:04.010 --> 00:05:04.020 
+choose duplicate and then we'll set the
+
+00:05:04.020 --> 00:05:06.800 
+choose duplicate and then we'll set the
+output<00:05:04.590> of<00:05:04.620> the<00:05:04.890> copy<00:05:05.160> to<00:05:06.030> illumination<00:05:06.510> and
+
+00:05:06.800 --> 00:05:06.810 
+output of the copy to illumination and
+
+00:05:06.810 --> 00:05:09.320 
+output of the copy to illumination and
+then<00:05:07.560> we<00:05:07.650> can<00:05:07.770> add<00:05:07.890> a<00:05:07.920> glow<00:05:08.250> to<00:05:08.310> that<00:05:08.670> specific
+
+00:05:09.320 --> 00:05:09.330 
+then we can add a glow to that specific
+
+00:05:09.330 --> 00:05:13.130 
+then we can add a glow to that specific
+area<00:05:09.510> so<00:05:09.960> if<00:05:10.020> we<00:05:10.080> choose<00:05:10.430> stylize<00:05:11.430> glow<00:05:12.210> you
+
+00:05:13.130 --> 00:05:13.140 
+area so if we choose stylize glow you
+
+00:05:13.140 --> 00:05:15.110 
+area so if we choose stylize glow you
+can<00:05:13.320> turn<00:05:13.620> this<00:05:13.890> up<00:05:14.160> a<00:05:14.340> little<00:05:14.550> bit<00:05:14.850> maybe
+
+00:05:15.110 --> 00:05:15.120 
+can turn this up a little bit maybe
+
+00:05:15.120 --> 00:05:23.240 
+can turn this up a little bit maybe
+change<00:05:15.600> the<00:05:15.960> color<00:05:18.020> see<00:05:19.020> here<00:05:20.840> and<00:05:22.250> what's
+
+00:05:23.240 --> 00:05:23.250 
+change the color see here and what's
+
+00:05:23.250 --> 00:05:24.560 
+change the color see here and what's
+great<00:05:23.400> is<00:05:23.640> we<00:05:23.760> can<00:05:23.910> add<00:05:24.090> the<00:05:24.300> glow
+
+00:05:24.560 --> 00:05:24.570 
+great is we can add the glow
+
+00:05:24.570 --> 00:05:26.960 
+great is we can add the glow
+specifically<00:05:25.500> to<00:05:25.740> this<00:05:25.920> part<00:05:26.310> of<00:05:26.460> the<00:05:26.550> image
+
+00:05:26.960 --> 00:05:26.970 
+specifically to this part of the image
+
+00:05:26.970 --> 00:05:29.510 
+specifically to this part of the image
+and<00:05:27.360> then<00:05:27.870> we<00:05:27.990> can<00:05:28.140> composite<00:05:28.710> it<00:05:28.800> back<00:05:28.980> on<00:05:29.220> top
+
+00:05:29.510 --> 00:05:29.520 
+and then we can composite it back on top
+
+00:05:29.520 --> 00:05:31.700 
+and then we can composite it back on top
+by<00:05:29.760> changing<00:05:30.240> the<00:05:30.330> transfer<00:05:30.750> mode<00:05:30.900> to<00:05:31.050> add<00:05:31.200> and
+
+00:05:31.700 --> 00:05:31.710 
+by changing the transfer mode to add and
+
+00:05:31.710 --> 00:05:35.150 
+by changing the transfer mode to add and
+we<00:05:32.610> can<00:05:32.730> unsolo<00:05:33.270> that<00:05:33.690> and<00:05:33.990> then<00:05:34.740> we<00:05:34.800> can<00:05:34.830> just
+
+00:05:35.150 --> 00:05:35.160 
+we can unsolo that and then we can just
+
+00:05:35.160 --> 00:05:36.830 
+we can unsolo that and then we can just
+increase<00:05:35.520> the<00:05:35.880> intensity<00:05:36.450> of<00:05:36.540> the<00:05:36.630> glow
+
+00:05:36.830 --> 00:05:36.840 
+increase the intensity of the glow
+
+00:05:36.840 --> 00:05:39.170 
+increase the intensity of the glow
+change<00:05:37.260> the<00:05:37.470> radius<00:05:37.800> and<00:05:38.100> it's<00:05:38.790> looking
+
+00:05:39.170 --> 00:05:39.180 
+change the radius and it's looking
+
+00:05:39.180 --> 00:05:41.060 
+change the radius and it's looking
+really<00:05:39.330> nice<00:05:39.960> let<00:05:40.590> me<00:05:40.680> show<00:05:40.830> you<00:05:40.890> another
+
+00:05:41.060 --> 00:05:41.070 
+really nice let me show you another
+
+00:05:41.070 --> 00:05:43.370 
+really nice let me show you another
+amazing<00:05:41.730> feature<00:05:42.180> so<00:05:42.600> we're<00:05:43.020> going<00:05:43.110> to<00:05:43.170> jump
+
+00:05:43.370 --> 00:05:43.380 
+amazing feature so we're going to jump
+
+00:05:43.380 --> 00:05:45.920 
+amazing feature so we're going to jump
+back<00:05:43.440> over<00:05:43.560> to<00:05:43.800> the<00:05:43.950> helicopter<00:05:44.180> project<00:05:45.180> now
+
+00:05:45.920 --> 00:05:45.930 
+back over to the helicopter project now
+
+00:05:45.930 --> 00:05:47.810 
+back over to the helicopter project now
+I<00:05:45.960> just<00:05:46.320> showed<00:05:46.560> you<00:05:46.590> we<00:05:47.160> can<00:05:47.310> change<00:05:47.610> the
+
+00:05:47.810 --> 00:05:47.820 
+I just showed you we can change the
+
+00:05:47.820 --> 00:05:49.760 
+I just showed you we can change the
+output<00:05:48.000> to<00:05:48.660> any<00:05:48.900> of<00:05:49.080> the<00:05:49.170> different<00:05:49.500> channels
+
+00:05:49.760 --> 00:05:49.770 
+output to any of the different channels
+
+00:05:49.770 --> 00:05:52.340 
+output to any of the different channels
+so<00:05:50.070> we<00:05:50.100> could<00:05:50.280> look<00:05:50.370> at<00:05:50.490> a<00:05:50.550> Z<00:05:50.790> Pass<00:05:51.090> we<00:05:52.050> can<00:05:52.230> look
+
+00:05:52.340 --> 00:05:52.350 
+so we could look at a Z Pass we can look
+
+00:05:52.350 --> 00:05:54.410 
+so we could look at a Z Pass we can look
+at<00:05:52.470> just<00:05:52.860> the<00:05:53.040> reflection<00:05:53.280> paths<00:05:54.060> and
+
+00:05:54.410 --> 00:05:54.420 
+at just the reflection paths and
+
+00:05:54.420 --> 00:05:56.720 
+at just the reflection paths and
+composite<00:05:54.990> that<00:05:55.170> with<00:05:55.440> you<00:05:55.890> know<00:05:56.010> a<00:05:56.040> blur<00:05:56.400> or
+
+00:05:56.720 --> 00:05:56.730 
+composite that with you know a blur or
+
+00:05:56.730 --> 00:05:58.850 
+composite that with you know a blur or
+some<00:05:57.000> other<00:05:57.120> effect<00:05:57.510> but<00:05:58.170> what<00:05:58.620> I'm<00:05:58.710> going<00:05:58.830> to
+
+00:05:58.850 --> 00:05:58.860 
+some other effect but what I'm going to
+
+00:05:58.860 --> 00:06:01.100 
+some other effect but what I'm going to
+do<00:05:58.980> is<00:05:59.190> just<00:05:59.370> leave<00:05:59.580> it<00:05:59.730> on<00:05:59.790> composite<00:06:00.180> because
+
+00:06:01.100 --> 00:06:01.110 
+do is just leave it on composite because
+
+00:06:01.110 --> 00:06:03.440 
+do is just leave it on composite because
+what<00:06:01.530> we<00:06:01.680> have<00:06:01.860> built<00:06:02.190> in<00:06:02.460> is<00:06:02.640> a<00:06:02.700> multi<00:06:03.180> pass
+
+00:06:03.440 --> 00:06:03.450 
+what we have built in is a multi pass
+
+00:06:03.450 --> 00:06:06.020 
+what we have built in is a multi pass
+mixer<00:06:04.290> and<00:06:04.530> what<00:06:04.980> this<00:06:05.100> allows<00:06:05.400> you<00:06:05.580> to<00:06:05.700> do<00:06:05.850> is
+
+00:06:06.020 --> 00:06:06.030 
+mixer and what this allows you to do is
+
+00:06:06.030 --> 00:06:08.180 
+mixer and what this allows you to do is
+dynamically<00:06:06.720> mix<00:06:07.080> the<00:06:07.470> different<00:06:07.890> channels
+
+00:06:08.180 --> 00:06:08.190 
+dynamically mix the different channels
+
+00:06:08.190 --> 00:06:10.430 
+dynamically mix the different channels
+together<00:06:08.790> so<00:06:09.240> we<00:06:09.540> can<00:06:09.720> increase<00:06:10.080> the
+
+00:06:10.430 --> 00:06:10.440 
+together so we can increase the
+
+00:06:10.440 --> 00:06:12.710 
+together so we can increase the
+reflectivity<00:06:11.040> of<00:06:11.430> the<00:06:11.880> windows<00:06:12.270> or<00:06:12.450> we<00:06:12.570> could
+
+00:06:12.710 --> 00:06:12.720 
+reflectivity of the windows or we could
+
+00:06:12.720 --> 00:06:15.380 
+reflectivity of the windows or we could
+turn<00:06:12.900> the<00:06:13.190> specular<00:06:14.190> amount<00:06:14.610> up<00:06:14.820> all<00:06:15.120> by
+
+00:06:15.380 --> 00:06:15.390 
+turn the specular amount up all by
+
+00:06:15.390 --> 00:06:18.110 
+turn the specular amount up all by
+itself<00:06:15.750> and<00:06:16.080> maybe<00:06:16.260> turn<00:06:16.650> the<00:06:16.920> diffuse<00:06:17.790> down
+
+00:06:18.110 --> 00:06:18.120 
+itself and maybe turn the diffuse down
+
+00:06:18.120 --> 00:06:20.270 
+itself and maybe turn the diffuse down
+so<00:06:18.480> it's<00:06:18.900> great<00:06:19.200> for<00:06:19.230> getting<00:06:19.500> that<00:06:19.740> final
+
+00:06:20.270 --> 00:06:20.280 
+so it's great for getting that final
+
+00:06:20.280 --> 00:06:22.250 
+so it's great for getting that final
+tweak<00:06:20.610> without<00:06:21.210> having<00:06:21.510> to<00:06:21.570> go<00:06:21.720> into<00:06:21.930> all<00:06:22.230> of
+
+00:06:22.250 --> 00:06:22.260 
+tweak without having to go into all of
+
+00:06:22.260 --> 00:06:25.250 
+tweak without having to go into all of
+your<00:06:22.440> shaders<00:06:23.010> and<00:06:23.250> adjust<00:06:23.820> the<00:06:23.970> materials<00:06:24.540> we
+
+00:06:25.250 --> 00:06:25.260 
+your shaders and adjust the materials we
+
+00:06:25.260 --> 00:06:26.960 
+your shaders and adjust the materials we
+give<00:06:25.410> you<00:06:25.500> access<00:06:25.680> to<00:06:25.950> all<00:06:26.100> that<00:06:26.490> stuff<00:06:26.760> in<00:06:26.940> one
+
+00:06:26.960 --> 00:06:26.970 
+give you access to all that stuff in one
+
+00:06:26.970 --> 00:06:28.910 
+give you access to all that stuff in one
+place<00:06:27.450> so<00:06:27.990> you<00:06:28.020> can<00:06:28.260> make<00:06:28.410> your<00:06:28.530> composite
+
+00:06:28.910 --> 00:06:28.920 
+place so you can make your composite
+
+00:06:28.920 --> 00:06:30.290 
+place so you can make your composite
+look<00:06:29.610> perfect
+
+00:06:30.290 --> 00:06:30.300 
+look perfect
+
+00:06:30.300 --> 00:06:32.840 
+look perfect
+alright<00:06:31.080> my<00:06:31.230> name<00:06:31.410> is<00:06:31.530> Andrew<00:06:31.950> Kramer<00:06:32.220> thank
+
+00:06:32.840 --> 00:06:32.850 
+alright my name is Andrew Kramer thank
+
+00:06:32.850 --> 00:06:34.160 
+alright my name is Andrew Kramer thank
+you<00:06:32.970> very<00:06:33.090> much<00:06:33.300> for<00:06:33.450> watching<00:06:33.570> be<00:06:33.960> sure<00:06:33.990> to
+
+00:06:34.160 --> 00:06:34.170 
+you very much for watching be sure to
+
+00:06:34.170 --> 00:06:36.450 
+you very much for watching be sure to
+check<00:06:34.470> out<00:06:34.650> the<00:06:34.830> other<00:06:34.860> feature<00:06:35.430> videos
+
+00:06:36.450 --> 00:06:36.460 
+check out the other feature videos
+
+00:06:36.460 --> 00:06:39.539 
+check out the other feature videos
+we<00:06:36.669> will<00:06:36.970> see<00:06:37.150> you<00:06:37.210> next<00:06:37.240> time
+

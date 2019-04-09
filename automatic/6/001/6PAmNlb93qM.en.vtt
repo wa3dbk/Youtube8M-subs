@@ -1,0 +1,938 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.740 --> 00:00:03.560 
+
+all<00:00:01.740> right<00:00:01.979> so<00:00:02.190> we're<00:00:02.610> gonna<00:00:02.700> take<00:00:02.970> a<00:00:03.030> look<00:00:03.300> at
+
+00:00:03.560 --> 00:00:03.570 
+all right so we're gonna take a look at
+
+00:00:03.570 --> 00:00:05.360 
+all right so we're gonna take a look at
+how<00:00:03.810> to<00:00:03.870> use<00:00:04.220> diskpart
+
+00:00:05.360 --> 00:00:05.370 
+how to use diskpart
+
+00:00:05.370 --> 00:00:09.009 
+how to use diskpart
+exe<00:00:06.359> to<00:00:06.629> create<00:00:07.049> a<00:00:07.230> bootable<00:00:07.799> volume<00:00:08.550> and
+
+00:00:09.009 --> 00:00:09.019 
+exe to create a bootable volume and
+
+00:00:09.019 --> 00:00:11.749 
+exe to create a bootable volume and
+basically<00:00:10.019> it<00:00:10.139> will<00:00:10.260> just<00:00:10.530> be<00:00:10.710> a<00:00:10.759> formatted
+
+00:00:11.749 --> 00:00:11.759 
+basically it will just be a formatted
+
+00:00:11.759 --> 00:00:15.049 
+basically it will just be a formatted
+partition<00:00:12.660> volume<00:00:13.110> ready<00:00:13.740> for<00:00:14.070> an<00:00:14.309> operating
+
+00:00:15.049 --> 00:00:15.059 
+partition volume ready for an operating
+
+00:00:15.059 --> 00:00:18.500 
+partition volume ready for an operating
+system<00:00:15.480> or<00:00:15.750> or<00:00:15.990> whatever<00:00:16.619> else<00:00:17.490> you<00:00:18.210> want<00:00:18.240> to
+
+00:00:18.500 --> 00:00:18.510 
+system or or whatever else you want to
+
+00:00:18.510 --> 00:00:21.230 
+system or or whatever else you want to
+copy<00:00:18.690> to<00:00:18.840> it<00:00:19.140> so<00:00:19.380> let's<00:00:20.070> look<00:00:20.520> at<00:00:20.699> disk<00:00:20.939> part
+
+00:00:21.230 --> 00:00:21.240 
+copy to it so let's look at disk part
+
+00:00:21.240 --> 00:00:23.029 
+copy to it so let's look at disk part
+it's<00:00:21.449> in<00:00:21.600> my<00:00:21.750> path<00:00:22.020> so<00:00:22.320> I<00:00:22.350> can<00:00:22.439> go<00:00:22.710> ahead<00:00:22.830> and
+
+00:00:23.029 --> 00:00:23.039 
+it's in my path so I can go ahead and
+
+00:00:23.039 --> 00:00:26.630 
+it's in my path so I can go ahead and
+just<00:00:23.070> call<00:00:23.430> the<00:00:24.029> exe<00:00:24.660> like<00:00:24.869> this<00:00:25.140> and<00:00:25.640> it
+
+00:00:26.630 --> 00:00:26.640 
+just call the exe like this and it
+
+00:00:26.640 --> 00:00:29.120 
+just call the exe like this and it
+brings<00:00:26.789> us<00:00:27.029> into<00:00:27.300> disk<00:00:27.990> parts<00:00:28.320> own<00:00:28.500> console
+
+00:00:29.120 --> 00:00:29.130 
+brings us into disk parts own console
+
+00:00:29.130 --> 00:00:31.550 
+brings us into disk parts own console
+and<00:00:29.400> what<00:00:30.359> you'll<00:00:30.539> notice<00:00:30.599> about<00:00:30.929> disk<00:00:31.260> part
+
+00:00:31.550 --> 00:00:31.560 
+and what you'll notice about disk part
+
+00:00:31.560 --> 00:00:33.380 
+and what you'll notice about disk part
+is<00:00:31.740> that<00:00:31.949> it<00:00:32.070> can<00:00:32.189> be<00:00:32.219> used<00:00:32.489> for<00:00:32.610> a<00:00:32.790> lot<00:00:33.360> of
+
+00:00:33.380 --> 00:00:33.390 
+is that it can be used for a lot of
+
+00:00:33.390 --> 00:00:35.900 
+is that it can be used for a lot of
+things<00:00:33.930> so<00:00:34.410> just<00:00:34.710> let<00:00:35.309> you<00:00:35.430> know<00:00:35.460> we're<00:00:35.730> using
+
+00:00:35.900 --> 00:00:35.910 
+things so just let you know we're using
+
+00:00:35.910 --> 00:00:38.780 
+things so just let you know we're using
+a<00:00:36.120> very<00:00:36.360> small<00:00:36.480> subset<00:00:37.410> of<00:00:37.440> disk<00:00:38.430> part
+
+00:00:38.780 --> 00:00:38.790 
+a very small subset of disk part
+
+00:00:38.790 --> 00:00:41.119 
+a very small subset of disk part
+commands<00:00:39.300> but<00:00:39.930> first<00:00:40.260> what<00:00:40.500> we<00:00:40.620> want<00:00:40.710> to<00:00:40.890> do<00:00:40.980> is
+
+00:00:41.119 --> 00:00:41.129 
+commands but first what we want to do is
+
+00:00:41.129 --> 00:00:45.110 
+commands but first what we want to do is
+find<00:00:41.489> out<00:00:42.110> what<00:00:43.110> disks<00:00:43.680> are<00:00:43.920> available<00:00:44.760> for<00:00:45.000> us
+
+00:00:45.110 --> 00:00:45.120 
+find out what disks are available for us
+
+00:00:45.120 --> 00:00:51.590 
+find out what disks are available for us
+to<00:00:46.579> to<00:00:47.579> format<00:00:48.300> so<00:00:48.629> I'm<00:00:48.960> going<00:00:49.410> to<00:00:49.469> list<00:00:50.600> the
+
+00:00:51.590 --> 00:00:51.600 
+to to format so I'm going to list the
+
+00:00:51.600 --> 00:00:54.740 
+to to format so I'm going to list the
+disks<00:00:52.110> and<00:00:52.289> you'll<00:00:53.039> see<00:00:53.250> we<00:00:53.399> have<00:00:53.579> two<00:00:53.789> 500<00:00:54.629> is
+
+00:00:54.740 --> 00:00:54.750 
+disks and you'll see we have two 500 is
+
+00:00:54.750 --> 00:00:59.119 
+disks and you'll see we have two 500 is
+my<00:00:55.340> local<00:00:56.340> hard<00:00:56.610> drive<00:00:56.760> and<00:00:57.210> this<00:00:58.079> one<00:00:58.440> is<00:00:58.680> the
+
+00:00:59.119 --> 00:00:59.129 
+my local hard drive and this one is the
+
+00:00:59.129 --> 00:01:01.939 
+my local hard drive and this one is the
+USB<00:01:00.030> stick<00:01:00.329> and<00:01:00.539> we're<00:01:00.780> gonna<00:01:00.870> work<00:01:01.590> with<00:01:01.800> that
+
+00:01:01.939 --> 00:01:01.949 
+USB stick and we're gonna work with that
+
+00:01:01.949 --> 00:01:05.119 
+USB stick and we're gonna work with that
+so<00:01:02.340> what<00:01:02.820> I<00:01:02.850> want<00:01:03.120> to<00:01:03.180> do<00:01:03.300> now<00:01:03.510> is<00:01:03.870> select<00:01:04.500> that
+
+00:01:05.119 --> 00:01:05.129 
+so what I want to do now is select that
+
+00:01:05.129 --> 00:01:07.880 
+so what I want to do now is select that
+disk<00:01:06.060> so<00:01:06.420> I'm<00:01:06.510> going<00:01:06.689> to<00:01:06.720> select<00:01:06.930> disk<00:01:07.350> 1<00:01:07.650> and
+
+00:01:07.880 --> 00:01:07.890 
+disk so I'm going to select disk 1 and
+
+00:01:07.890 --> 00:01:10.550 
+disk so I'm going to select disk 1 and
+we<00:01:08.490> are<00:01:08.520> now<00:01:08.760> working<00:01:09.060> within<00:01:09.780> the<00:01:10.110> realm<00:01:10.380> of
+
+00:01:10.550 --> 00:01:10.560 
+we are now working within the realm of
+
+00:01:10.560 --> 00:01:13.160 
+we are now working within the realm of
+disk<00:01:11.130> 1<00:01:11.460> so<00:01:11.760> anything<00:01:12.180> we<00:01:12.330> do<00:01:12.570> we<00:01:13.049> are
+
+00:01:13.160 --> 00:01:13.170 
+disk 1 so anything we do we are
+
+00:01:13.170 --> 00:01:16.270 
+disk 1 so anything we do we are
+protected<00:01:13.770> it<00:01:13.920> will<00:01:14.040> only<00:01:14.250> happen<00:01:14.610> to<00:01:15.000> disk<00:01:15.659> 1
+
+00:01:16.270 --> 00:01:16.280 
+protected it will only happen to disk 1
+
+00:01:16.280 --> 00:01:18.830 
+protected it will only happen to disk 1
+and<00:01:17.280> the<00:01:17.670> first<00:01:17.909> thing<00:01:18.119> we<00:01:18.210> want<00:01:18.390> to<00:01:18.450> do<00:01:18.630> to
+
+00:01:18.830 --> 00:01:18.840 
+and the first thing we want to do to
+
+00:01:18.840 --> 00:01:22.130 
+and the first thing we want to do to
+disc<00:01:19.080> 1<00:01:19.350> oh<00:01:19.530> let<00:01:19.950> me<00:01:20.070> just<00:01:20.100> show<00:01:20.369> you<00:01:20.400> this<00:01:21.140> real
+
+00:01:22.130 --> 00:01:22.140 
+disc 1 oh let me just show you this real
+
+00:01:22.140 --> 00:01:25.969 
+disc 1 oh let me just show you this real
+quick<00:01:23.570> you'll<00:01:24.570> see<00:01:24.840> that<00:01:24.990> disc<00:01:25.200> 1<00:01:25.439> currently
+
+00:01:25.969 --> 00:01:25.979 
+quick you'll see that disc 1 currently
+
+00:01:25.979 --> 00:01:28.910 
+quick you'll see that disc 1 currently
+it<00:01:26.189> is<00:01:26.250> formatted<00:01:26.840> it's<00:01:27.840> formatted<00:01:28.650> with<00:01:28.799> a
+
+00:01:28.910 --> 00:01:28.920 
+it is formatted it's formatted with a
+
+00:01:28.920 --> 00:01:31.219 
+it is formatted it's formatted with a
+fat<00:01:29.250> file<00:01:29.549> system<00:01:30.030> that<00:01:30.240> is<00:01:30.659> about<00:01:30.869> to<00:01:31.020> change
+
+00:01:31.219 --> 00:01:31.229 
+fat file system that is about to change
+
+00:01:31.229 --> 00:01:34.039 
+fat file system that is about to change
+and<00:01:31.560> we'll<00:01:32.100> use<00:01:32.430> that<00:01:32.640> as<00:01:32.820> the<00:01:33.030> benchmark<00:01:33.780> for
+
+00:01:34.039 --> 00:01:34.049 
+and we'll use that as the benchmark for
+
+00:01:34.049 --> 00:01:37.999 
+and we'll use that as the benchmark for
+seeing<00:01:34.530> the<00:01:35.070> changes<00:01:35.640> that<00:01:36.210> we<00:01:36.360> are<00:01:36.390> making<00:01:37.009> so
+
+00:01:37.999 --> 00:01:38.009 
+seeing the changes that we are making so
+
+00:01:38.009 --> 00:01:39.770 
+seeing the changes that we are making so
+what<00:01:38.280> we<00:01:38.369> want<00:01:38.520> to<00:01:38.610> do<00:01:38.729> first<00:01:38.939> is<00:01:39.180> clean<00:01:39.600> the
+
+00:01:39.770 --> 00:01:39.780 
+what we want to do first is clean the
+
+00:01:39.780 --> 00:01:42.969 
+what we want to do first is clean the
+drive<00:01:40.020> and<00:01:40.350> this<00:01:40.860> is<00:01:41.040> going<00:01:41.189> to<00:01:41.250> remove<00:01:42.210> any
+
+00:01:42.969 --> 00:01:42.979 
+drive and this is going to remove any
+
+00:01:42.979 --> 00:01:48.109 
+drive and this is going to remove any
+logical<00:01:45.110> associations<00:01:46.110> on<00:01:46.320> there<00:01:46.530> and<00:01:47.119> next
+
+00:01:48.109 --> 00:01:48.119 
+logical associations on there and next
+
+00:01:48.119 --> 00:01:50.740 
+logical associations on there and next
+what<00:01:48.570> we<00:01:48.689> want<00:01:48.840> to<00:01:48.990> do<00:01:49.140> is<00:01:49.380> create<00:01:50.070> a<00:01:50.399> new
+
+00:01:50.740 --> 00:01:50.750 
+what we want to do is create a new
+
+00:01:50.750 --> 00:01:55.569 
+what we want to do is create a new
+primary<00:01:51.750> partition<00:01:52.740> so<00:01:52.979> create<00:01:53.960> pry<00:01:54.960> or
+
+00:01:55.569 --> 00:01:55.579 
+primary partition so create pry or
+
+00:01:55.579 --> 00:01:58.670 
+primary partition so create pry or
+create<00:01:56.579> part<00:01:57.000> pry<00:01:57.630> so<00:01:58.110> you<00:01:58.200> don't<00:01:58.439> have<00:01:58.530> to
+
+00:01:58.670 --> 00:01:58.680 
+create part pry so you don't have to
+
+00:01:58.680 --> 00:02:00.590 
+create part pry so you don't have to
+type<00:01:58.890> out<00:01:59.040> the<00:01:59.159> full<00:01:59.399> word<00:01:59.430> you<00:02:00.030> can<00:02:00.210> type<00:02:00.420> out
+
+00:02:00.590 --> 00:02:00.600 
+type out the full word you can type out
+
+00:02:00.600 --> 00:02:03.679 
+type out the full word you can type out
+the<00:02:01.070> minimum<00:02:02.070> amount<00:02:02.520> of<00:02:02.700> letters<00:02:03.060> so<00:02:03.630> you
+
+00:02:03.679 --> 00:02:03.689 
+the minimum amount of letters so you
+
+00:02:03.689 --> 00:02:05.899 
+the minimum amount of letters so you
+make<00:02:03.930> it<00:02:04.079> a<00:02:04.140> unique<00:02:04.649> command<00:02:05.189> so<00:02:05.430> in<00:02:05.579> this<00:02:05.670> case
+
+00:02:05.899 --> 00:02:05.909 
+make it a unique command so in this case
+
+00:02:05.909 --> 00:02:08.869 
+make it a unique command so in this case
+create<00:02:06.329> part<00:02:06.649> pry<00:02:07.649> works<00:02:08.039> and<00:02:08.520> we<00:02:08.759> have
+
+00:02:08.869 --> 00:02:08.879 
+create part pry works and we have
+
+00:02:08.879 --> 00:02:13.070 
+create part pry works and we have
+created<00:02:09.479> a<00:02:10.370> primary<00:02:11.370> partition<00:02:11.790> and<00:02:12.180> now<00:02:13.020> we
+
+00:02:13.070 --> 00:02:13.080 
+created a primary partition and now we
+
+00:02:13.080 --> 00:02:13.760 
+created a primary partition and now we
+want<00:02:13.470> to
+
+00:02:13.760 --> 00:02:13.770 
+want to
+
+00:02:13.770 --> 00:02:17.180 
+want to
+select<00:02:14.220> that<00:02:15.260> partition<00:02:16.260> so<00:02:16.950> we're<00:02:17.100> gonna
+
+00:02:17.180 --> 00:02:17.190 
+select that partition so we're gonna
+
+00:02:17.190 --> 00:02:19.880 
+select that partition so we're gonna
+select<00:02:17.490> partition<00:02:18.120> 1<00:02:18.510> because<00:02:19.440> it's<00:02:19.590> the<00:02:19.740> only
+
+00:02:19.880 --> 00:02:19.890 
+select partition 1 because it's the only
+
+00:02:19.890 --> 00:02:21.560 
+select partition 1 because it's the only
+one<00:02:20.100> on<00:02:20.160> there<00:02:20.520> and<00:02:20.670> now<00:02:21.090> we<00:02:21.150> are<00:02:21.360> working
+
+00:02:21.560 --> 00:02:21.570 
+one on there and now we are working
+
+00:02:21.570 --> 00:02:24.110 
+one on there and now we are working
+within<00:02:21.960> the<00:02:22.230> realm<00:02:22.530> of<00:02:22.680> partition<00:02:23.580> 1<00:02:23.850> and
+
+00:02:24.110 --> 00:02:24.120 
+within the realm of partition 1 and
+
+00:02:24.120 --> 00:02:26.150 
+within the realm of partition 1 and
+whatever<00:02:24.360> we<00:02:24.690> do<00:02:24.900> will<00:02:25.380> only<00:02:25.410> happen<00:02:25.950> to
+
+00:02:26.150 --> 00:02:26.160 
+whatever we do will only happen to
+
+00:02:26.160 --> 00:02:28.520 
+whatever we do will only happen to
+partition<00:02:26.820> 1<00:02:27.030> so<00:02:27.600> it<00:02:27.780> gives<00:02:28.020> you<00:02:28.110> that<00:02:28.170> added
+
+00:02:28.520 --> 00:02:28.530 
+partition 1 so it gives you that added
+
+00:02:28.530 --> 00:02:31.880 
+partition 1 so it gives you that added
+extra<00:02:29.370> bit<00:02:30.240> of<00:02:30.270> safety<00:02:30.840> so<00:02:31.200> now<00:02:31.440> we<00:02:31.500> want<00:02:31.800> to
+
+00:02:31.880 --> 00:02:31.890 
+extra bit of safety so now we want to
+
+00:02:31.890 --> 00:02:35.390 
+extra bit of safety so now we want to
+make<00:02:32.010> this<00:02:32.130> a<00:02:32.190> bootable<00:02:32.720> volume<00:02:33.860> so<00:02:34.860> I'm<00:02:35.220> gonna
+
+00:02:35.390 --> 00:02:35.400 
+make this a bootable volume so I'm gonna
+
+00:02:35.400 --> 00:02:38.120 
+make this a bootable volume so I'm gonna
+just<00:02:35.760> say<00:02:36.000> active<00:02:36.600> and<00:02:36.990> it's<00:02:37.620> an<00:02:37.860> active
+
+00:02:38.120 --> 00:02:38.130 
+just say active and it's an active
+
+00:02:38.130 --> 00:02:41.470 
+just say active and it's an active
+volume<00:02:38.700> now<00:02:38.850> and<00:02:39.260> now<00:02:40.260> we<00:02:40.320> want<00:02:40.650> to<00:02:40.740> actually
+
+00:02:41.470 --> 00:02:41.480 
+volume now and now we want to actually
+
+00:02:41.480 --> 00:02:44.570 
+volume now and now we want to actually
+format<00:02:42.480> the<00:02:42.690> partition<00:02:42.860> so<00:02:43.860> we're<00:02:44.490> gonna
+
+00:02:44.570 --> 00:02:44.580 
+format the partition so we're gonna
+
+00:02:44.580 --> 00:02:47.870 
+format the partition so we're gonna
+format<00:02:45.090> it<00:02:45.240> and<00:02:45.390> then<00:02:46.290> we<00:02:46.410> say<00:02:46.650> filesystem<00:02:47.640> is
+
+00:02:47.870 --> 00:02:47.880 
+format it and then we say filesystem is
+
+00:02:47.880 --> 00:02:50.870 
+format it and then we say filesystem is
+equal<00:02:48.740> so<00:02:49.740> in<00:02:49.950> this<00:02:50.130> case<00:02:50.340> we're<00:02:50.550> gonna<00:02:50.640> make
+
+00:02:50.870 --> 00:02:50.880 
+equal so in this case we're gonna make
+
+00:02:50.880 --> 00:02:53.270 
+equal so in this case we're gonna make
+it<00:02:51.030> fat32<00:02:51.570> just<00:02:52.320> so<00:02:52.440> we<00:02:52.560> can<00:02:52.650> see<00:02:52.860> the<00:02:52.980> change
+
+00:02:53.270 --> 00:02:53.280 
+it fat32 just so we can see the change
+
+00:02:53.280 --> 00:02:54.650 
+it fat32 just so we can see the change
+and<00:02:53.490> you<00:02:53.550> can<00:02:53.730> also<00:02:53.910> give<00:02:54.180> it<00:02:54.210> the<00:02:54.420> quick
+
+00:02:54.650 --> 00:02:54.660 
+and you can also give it the quick
+
+00:02:54.660 --> 00:02:56.750 
+and you can also give it the quick
+parameter<00:02:55.290> so<00:02:56.010> you<00:02:56.100> don't<00:02:56.280> have<00:02:56.340> to<00:02:56.490> sit<00:02:56.730> there
+
+00:02:56.750 --> 00:02:56.760 
+parameter so you don't have to sit there
+
+00:02:56.760 --> 00:03:01.010 
+parameter so you don't have to sit there
+and<00:02:57.380> wait<00:02:59.150> so<00:03:00.150> now<00:03:00.180> it's<00:03:00.420> gonna<00:03:00.510> go<00:03:00.720> ahead<00:03:00.900> and
+
+00:03:01.010 --> 00:03:01.020 
+and wait so now it's gonna go ahead and
+
+00:03:01.020 --> 00:03:05.180 
+and wait so now it's gonna go ahead and
+format<00:03:01.350> and<00:03:01.620> we're<00:03:02.550> done<00:03:02.670> formatting<00:03:03.710> and<00:03:04.710> I
+
+00:03:05.180 --> 00:03:05.190 
+format and we're done formatting and I
+
+00:03:05.190 --> 00:03:06.860 
+format and we're done formatting and I
+guess<00:03:05.460> the<00:03:05.610> only<00:03:05.730> thing<00:03:05.850> we<00:03:06.000> need<00:03:06.180> to<00:03:06.330> do<00:03:06.450> left
+
+00:03:06.860 --> 00:03:06.870 
+guess the only thing we need to do left
+
+00:03:06.870 --> 00:03:09.710 
+guess the only thing we need to do left
+is<00:03:07.080> assign<00:03:07.590> it<00:03:07.770> a<00:03:07.860> drive<00:03:08.190> letter<00:03:08.490> so<00:03:08.910> I'm<00:03:09.540> gonna
+
+00:03:09.710 --> 00:03:09.720 
+is assign it a drive letter so I'm gonna
+
+00:03:09.720 --> 00:03:16.720 
+is assign it a drive letter so I'm gonna
+do<00:03:10.080> a<00:03:10.380> sign<00:03:11.270> letter<00:03:12.500> equal<00:03:13.500> to<00:03:14.390> let's<00:03:15.390> do<00:03:15.630> H
+
+00:03:16.720 --> 00:03:16.730 
+do a sign letter equal to let's do H
+
+00:03:16.730 --> 00:03:21.260 
+do a sign letter equal to let's do H
+this<00:03:17.730> is<00:03:17.990> successfully<00:03:19.040> assigned<00:03:20.040> and<00:03:20.459> we're
+
+00:03:21.260 --> 00:03:21.270 
+this is successfully assigned and we're
+
+00:03:21.270 --> 00:03:22.670 
+this is successfully assigned and we're
+done<00:03:21.420> with<00:03:21.570> disk<00:03:21.810> part<00:03:22.080> so<00:03:22.260> we<00:03:22.380> can<00:03:22.500> go<00:03:22.590> ahead
+
+00:03:22.670 --> 00:03:22.680 
+done with disk part so we can go ahead
+
+00:03:22.680 --> 00:03:24.920 
+done with disk part so we can go ahead
+and<00:03:22.860> exit<00:03:23.610> out<00:03:23.700> of<00:03:23.730> it<00:03:23.970> and<00:03:24.209> then<00:03:24.360> just<00:03:24.780> type
+
+00:03:24.920 --> 00:03:24.930 
+and exit out of it and then just type
+
+00:03:24.930 --> 00:03:29.360 
+and exit out of it and then just type
+exit<00:03:25.410> and<00:03:26.540> that's<00:03:27.540> it<00:03:27.720> we've<00:03:27.959> left<00:03:28.200> disk<00:03:29.070> part
+
+00:03:29.360 --> 00:03:29.370 
+exit and that's it we've left disk part
+
+00:03:29.370 --> 00:03:31.880 
+exit and that's it we've left disk part
+let's<00:03:30.180> come<00:03:30.330> back<00:03:30.360> over<00:03:30.510> here<00:03:30.780> and<00:03:31.200> take<00:03:31.860> a
+
+00:03:31.880 --> 00:03:31.890 
+let's come back over here and take a
+
+00:03:31.890 --> 00:03:38.020 
+let's come back over here and take a
+look<00:03:32.190> it<00:03:33.030> is<00:03:33.690> now<00:03:33.980> Drive<00:03:34.980> H<00:03:35.930> fat32<00:03:36.930> file<00:03:37.380> system
+
+00:03:38.020 --> 00:03:38.030 
+look it is now Drive H fat32 file system
+
+00:03:38.030 --> 00:03:40.430 
+look it is now Drive H fat32 file system
+so<00:03:39.030> that's<00:03:39.150> disk<00:03:39.540> part<00:03:39.810> and<00:03:40.020> that's<00:03:40.230> how<00:03:40.380> to
+
+00:03:40.430 --> 00:03:40.440 
+so that's disk part and that's how to
+
+00:03:40.440 --> 00:03:43.790 
+so that's disk part and that's how to
+prepare<00:03:41.280> a<00:03:41.490> bootable<00:03:42.020> volume<00:03:43.020> and<00:03:43.230> this<00:03:43.350> can
+
+00:03:43.790 --> 00:03:43.800 
+prepare a bootable volume and this can
+
+00:03:43.800 --> 00:03:47.360 
+prepare a bootable volume and this can
+be<00:03:43.950> used<00:03:44.750> mostly<00:03:45.750> I<00:03:45.840> made<00:03:46.050> this<00:03:46.170> video<00:03:46.830> to<00:03:47.040> show
+
+00:03:47.360 --> 00:03:47.370 
+be used mostly I made this video to show
+
+00:03:47.370 --> 00:03:52.720 
+be used mostly I made this video to show
+how<00:03:47.550> to<00:03:47.610> create<00:03:48.060> a<00:03:48.330> bootable<00:03:49.760> wind<00:03:51.440> pick<00:03:52.440> and
+
+00:03:52.720 --> 00:03:52.730 
+how to create a bootable wind pick and
+
+00:03:52.730 --> 00:03:58.400 
+how to create a bootable wind pick and
+also<00:03:53.730> how<00:03:54.000> to<00:03:55.160> format<00:03:56.160> a<00:03:56.400> or<00:03:56.910> prepare<00:03:57.420> a<00:03:57.690> hard
+
+00:03:58.400 --> 00:03:58.410 
+also how to format a or prepare a hard
+
+00:03:58.410 --> 00:04:01.010 
+also how to format a or prepare a hard
+drive<00:03:58.680> to<00:03:59.010> have<00:03:59.580> a<00:03:59.630> operating<00:04:00.630> system
+
+00:04:01.010 --> 00:04:01.020 
+drive to have a operating system
+
+00:04:01.020 --> 00:04:03.590 
+drive to have a operating system
+deployed<00:04:01.470> to<00:04:01.740> it<00:04:01.890> via<00:04:02.190> the<00:04:02.850> wim<00:04:03.060> imaging
+
+00:04:03.590 --> 00:04:03.600 
+deployed to it via the wim imaging
+
+00:04:03.600 --> 00:04:06.140 
+deployed to it via the wim imaging
+process<00:04:04.110> and<00:04:04.580> what<00:04:05.580> I<00:04:05.610> just<00:04:05.670> showed<00:04:06.090> you
+
+00:04:06.140 --> 00:04:06.150 
+process and what I just showed you
+
+00:04:06.150 --> 00:04:09.050 
+process and what I just showed you
+actually<00:04:07.140> works<00:04:07.410> for<00:04:07.680> both<00:04:07.890> instances<00:04:08.459> that<00:04:09.030> I
+
+00:04:09.050 --> 00:04:09.060 
+actually works for both instances that I
+
+00:04:09.060 --> 00:04:10.850 
+actually works for both instances that I
+described<00:04:09.630> whether<00:04:09.989> you<00:04:10.140> want<00:04:10.320> to<00:04:10.410> deploy<00:04:10.650> an
+
+00:04:10.850 --> 00:04:10.860 
+described whether you want to deploy an
+
+00:04:10.860 --> 00:04:12.800 
+described whether you want to deploy an
+operating<00:04:11.340> system<00:04:11.520> or<00:04:11.910> whether<00:04:12.300> you<00:04:12.540> want<00:04:12.720> to
+
+00:04:12.800 --> 00:04:12.810 
+operating system or whether you want to
+
+00:04:12.810 --> 00:04:16.580 
+operating system or whether you want to
+create<00:04:13.080> a<00:04:13.350> bootable<00:04:14.040> USB<00:04:14.400> Drive<00:04:15.239> so<00:04:16.140> in<00:04:16.440> this
+
+00:04:16.580 --> 00:04:16.590 
+create a bootable USB Drive so in this
+
+00:04:16.590 --> 00:04:19.640 
+create a bootable USB Drive so in this
+case<00:04:16.830> we<00:04:17.070> just<00:04:17.310> created<00:04:17.730> a<00:04:17.910> USB<00:04:18.419> Drive<00:04:18.660> if<00:04:18.930> I
+
+00:04:19.640 --> 00:04:19.650 
+case we just created a USB Drive if I
+
+00:04:19.650 --> 00:04:22.520 
+case we just created a USB Drive if I
+wanted<00:04:20.070> to<00:04:20.250> I<00:04:20.520> could<00:04:21.060> come<00:04:21.359> if<00:04:22.140> you<00:04:22.320> saw<00:04:22.470> the
+
+00:04:22.520 --> 00:04:22.530 
+wanted to I could come if you saw the
+
+00:04:22.530 --> 00:04:26.930 
+wanted to I could come if you saw the
+last<00:04:22.650> video<00:04:23.250> about<00:04:23.520> winpe<00:04:24.450> I<00:04:24.900> could<00:04:25.530> come<00:04:25.800> to
+
+00:04:26.930 --> 00:04:26.940 
+last video about winpe I could come to
+
+00:04:26.940 --> 00:04:29.870 
+last video about winpe I could come to
+my<00:04:27.210> ISO<00:04:27.750> folder<00:04:28.230> that<00:04:28.860> contains<00:04:29.040> my<00:04:29.490> winpe
+
+00:04:29.870 --> 00:04:29.880 
+my ISO folder that contains my winpe
+
+00:04:29.880 --> 00:04:33.890 
+my ISO folder that contains my winpe
+files<00:04:30.330> and<00:04:31.130> I<00:04:32.130> can<00:04:32.880> copy<00:04:33.120> all<00:04:33.330> the<00:04:33.420> files<00:04:33.450> in
+
+00:04:33.890 --> 00:04:33.900 
+files and I can copy all the files in
+
+00:04:33.900 --> 00:04:36.290 
+files and I can copy all the files in
+here<00:04:34.260> onto<00:04:35.040> the<00:04:35.160> USB<00:04:35.310> Drive<00:04:35.820> that<00:04:35.850> I<00:04:36.060> just
+
+00:04:36.290 --> 00:04:36.300 
+here onto the USB Drive that I just
+
+00:04:36.300 --> 00:04:39.410 
+here onto the USB Drive that I just
+formatted<00:04:36.900> and<00:04:37.080> created<00:04:37.890> a<00:04:38.100> bootable<00:04:38.760> USB
+
+00:04:39.410 --> 00:04:39.420 
+formatted and created a bootable USB
+
+00:04:39.420 --> 00:04:47.120 
+formatted and created a bootable USB
+stick<00:04:40.110> it<00:04:40.830> would<00:04:41.040> boot<00:04:41.220> into<00:04:45.830> Windows<00:04:46.830> that<00:04:46.980> we
+
+00:04:47.120 --> 00:04:47.130 
+stick it would boot into Windows that we
+
+00:04:47.130 --> 00:04:49.820 
+stick it would boot into Windows that we
+created<00:04:47.520> booted<00:04:48.330> in<00:04:48.510> the<00:04:48.750> virtual<00:04:49.140> machine<00:04:49.560> so
+
+00:04:49.820 --> 00:04:49.830 
+created booted in the virtual machine so
+
+00:04:49.830 --> 00:04:52.340 
+created booted in the virtual machine so
+USB<00:04:50.400> sticks<00:04:50.670> are<00:04:50.820> much<00:04:51.720> more<00:04:51.870> flexible
+
+00:04:52.340 --> 00:04:52.350 
+USB sticks are much more flexible
+
+00:04:52.350 --> 00:04:54.700 
+USB sticks are much more flexible
+because<00:04:52.530> you<00:04:52.770> can<00:04:52.920> copy<00:04:53.160> files<00:04:53.460> to<00:04:53.790> them<00:04:53.940> and
+
+00:04:54.700 --> 00:04:54.710 
+because you can copy files to them and
+
+00:04:54.710 --> 00:04:59.260 
+because you can copy files to them and
+there<00:04:55.710> they're<00:04:56.100> usually<00:04:57.060> much<00:04:57.510> larger<00:04:57.750> so
+
+00:04:59.260 --> 00:04:59.270 
+there they're usually much larger so
+
+00:04:59.270 --> 00:05:01.940 
+there they're usually much larger so
+let's<00:05:00.270> take<00:05:00.540> a<00:05:00.720> look<00:05:00.990> at<00:05:01.170> one<00:05:01.440> more<00:05:01.470> thing<00:05:01.680> that
+
+00:05:01.940 --> 00:05:01.950 
+let's take a look at one more thing that
+
+00:05:01.950 --> 00:05:04.130 
+let's take a look at one more thing that
+you<00:05:02.160> can<00:05:02.430> do<00:05:02.580> with<00:05:03.090> disk<00:05:03.420> part<00:05:03.720> though<00:05:03.930> and
+
+00:05:04.130 --> 00:05:04.140 
+you can do with disk part though and
+
+00:05:04.140 --> 00:05:06.080 
+you can do with disk part though and
+this<00:05:04.260> is<00:05:04.440> what<00:05:04.740> comes<00:05:04.980> in<00:05:05.130> handy<00:05:05.340> when<00:05:05.640> you
+
+00:05:06.080 --> 00:05:06.090 
+this is what comes in handy when you
+
+00:05:06.090 --> 00:05:08.180 
+this is what comes in handy when you
+want<00:05:06.120> to<00:05:06.360> automate<00:05:06.930> deployment<00:05:07.530> of<00:05:07.620> operating
+
+00:05:08.180 --> 00:05:08.190 
+want to automate deployment of operating
+
+00:05:08.190 --> 00:05:15.260 
+want to automate deployment of operating
+systems<00:05:08.610> so<00:05:10.040> disk<00:05:11.040> part<00:05:11.600> has<00:05:12.600> a<00:05:14.120> command<00:05:15.120> line
+
+00:05:15.260 --> 00:05:15.270 
+systems so disk part has a command line
+
+00:05:15.270 --> 00:05:21.620 
+systems so disk part has a command line
+parameter<00:05:15.870> Oh<00:05:20.120> what<00:05:21.120> I'm<00:05:21.240> doing
+
+00:05:21.620 --> 00:05:21.630 
+parameter Oh what I'm doing
+
+00:05:21.630 --> 00:05:24.020 
+parameter Oh what I'm doing
+it<00:05:22.200> has<00:05:22.320> a<00:05:22.350> command<00:05:22.770> line<00:05:22.920> parameter<00:05:23.340> called<00:05:23.520> -
+
+00:05:24.020 --> 00:05:24.030 
+it has a command line parameter called -
+
+00:05:24.030 --> 00:05:26.780 
+it has a command line parameter called -
+or<00:05:24.390> /s<00:05:25.140> and<00:05:25.440> that<00:05:25.860> allows<00:05:26.100> you<00:05:26.280> to<00:05:26.310> provide<00:05:26.730> a
+
+00:05:26.780 --> 00:05:26.790 
+or /s and that allows you to provide a
+
+00:05:26.790 --> 00:05:31.090 
+or /s and that allows you to provide a
+script<00:05:27.360> for<00:05:28.020> disk<00:05:28.410> part<00:05:28.740> to<00:05:28.890> use<00:05:29.190> to<00:05:30.150> perform
+
+00:05:31.090 --> 00:05:31.100 
+script for disk part to use to perform
+
+00:05:31.100 --> 00:05:36.170 
+script for disk part to use to perform
+whatever<00:05:32.100> it's<00:05:32.610> going<00:05:33.090> to<00:05:33.210> do<00:05:33.500> so<00:05:35.000> in<00:05:36.000> this
+
+00:05:36.170 --> 00:05:36.180 
+whatever it's going to do so in this
+
+00:05:36.180 --> 00:05:38.120 
+whatever it's going to do so in this
+case<00:05:36.240> here<00:05:36.870> you'll<00:05:37.260> see<00:05:37.530> that<00:05:37.650> I<00:05:37.710> have<00:05:37.800> this
+
+00:05:38.120 --> 00:05:38.130 
+case here you'll see that I have this
+
+00:05:38.130 --> 00:05:43.159 
+case here you'll see that I have this
+script<00:05:38.520> and<00:05:40.550> it<00:05:41.550> does<00:05:42.270> all<00:05:42.630> of<00:05:42.660> the<00:05:42.930> same
+
+00:05:43.159 --> 00:05:43.169 
+script and it does all of the same
+
+00:05:43.169 --> 00:05:45.740 
+script and it does all of the same
+things<00:05:43.470> that<00:05:43.770> we<00:05:44.460> did<00:05:44.669> before<00:05:44.820> it<00:05:45.330> selects
+
+00:05:45.740 --> 00:05:45.750 
+things that we did before it selects
+
+00:05:45.750 --> 00:05:48.230 
+things that we did before it selects
+disk<00:05:46.290> one<00:05:46.560> it<00:05:46.800> cleans<00:05:47.340> it<00:05:47.580> it<00:05:47.730> creates<00:05:48.090> the
+
+00:05:48.230 --> 00:05:48.240 
+disk one it cleans it it creates the
+
+00:05:48.240 --> 00:05:50.659 
+disk one it cleans it it creates the
+primary<00:05:48.690> partition<00:05:49.350> marks<00:05:49.980> that<00:05:50.130> is<00:05:50.250> active
+
+00:05:50.659 --> 00:05:50.669 
+primary partition marks that is active
+
+00:05:50.669 --> 00:05:53.450 
+primary partition marks that is active
+in<00:05:50.880> this<00:05:51.330> case<00:05:51.540> we're<00:05:51.750> formatting<00:05:52.350> it<00:05:52.470> to<00:05:52.650> NTFS
+
+00:05:53.450 --> 00:05:53.460 
+in this case we're formatting it to NTFS
+
+00:05:53.460 --> 00:05:57.290 
+in this case we're formatting it to NTFS
+and<00:05:53.640> the<00:05:54.620> letter<00:05:55.620> is<00:05:55.860> elf<00:05:56.520> so<00:05:56.850> let's<00:05:57.060> go<00:05:57.180> ahead
+
+00:05:57.290 --> 00:05:57.300 
+and the letter is elf so let's go ahead
+
+00:05:57.300 --> 00:05:59.870 
+and the letter is elf so let's go ahead
+and<00:05:57.570> provide<00:05:57.720> this<00:05:58.140> script<00:05:58.560> to<00:05:59.070> disk<00:05:59.370> part<00:05:59.669> and
+
+00:05:59.870 --> 00:05:59.880 
+and provide this script to disk part and
+
+00:05:59.880 --> 00:06:04.060 
+and provide this script to disk part and
+see<00:06:00.150> if<00:06:00.390> we<00:06:00.840> get<00:06:00.990> the<00:06:01.169> same<00:06:01.440> outcome<00:06:02.660> disk<00:06:03.660> part
+
+00:06:04.060 --> 00:06:04.070 
+see if we get the same outcome disk part
+
+00:06:04.070 --> 00:06:12.170 
+see if we get the same outcome disk part
+/s<00:06:06.080> max-d<00:06:08.000> discard<00:06:09.000> scripts<00:06:10.250> okay<00:06:11.280> selected
+
+00:06:12.170 --> 00:06:12.180 
+/s max-d discard scripts okay selected
+
+00:06:12.180 --> 00:06:20.070 
+/s max-d discard scripts okay selected
+the<00:06:12.300> disk<00:06:12.540> it's<00:06:13.230> formatting
+
+00:06:20.070 --> 00:06:20.080 
+
+00:06:20.080 --> 00:06:22.870 
+
+take<00:06:21.080> a<00:06:21.110> little<00:06:21.440> bit<00:06:21.560> longer<00:06:21.830> there<00:06:22.100> and<00:06:22.310> TFS
+
+00:06:22.870 --> 00:06:22.880 
+take a little bit longer there and TFS
+
+00:06:22.880 --> 00:06:26.950 
+take a little bit longer there and TFS
+got<00:06:23.300> a<00:06:23.330> little<00:06:23.720> bit<00:06:23.870> more<00:06:24.050> to<00:06:24.290> it<00:06:24.320> and<00:06:25.930> it<00:06:26.930> has
+
+00:06:26.950 --> 00:06:26.960 
+got a little bit more to it and it has
+
+00:06:26.960 --> 00:06:30.220 
+got a little bit more to it and it has
+mounted<00:06:27.830> so<00:06:28.130> let's<00:06:28.430> now<00:06:29.180> go<00:06:29.390> back<00:06:29.600> and<00:06:29.870> take<00:06:30.170> a
+
+00:06:30.220 --> 00:06:30.230 
+mounted so let's now go back and take a
+
+00:06:30.230 --> 00:06:36.370 
+mounted so let's now go back and take a
+look<00:06:30.560> at<00:06:30.950> our<00:06:32.110> USB<00:06:33.110> stick<00:06:34.870> so<00:06:35.870> you'll<00:06:36.080> see<00:06:36.260> it's
+
+00:06:36.370 --> 00:06:36.380 
+look at our USB stick so you'll see it's
+
+00:06:36.380 --> 00:06:38.830 
+look at our USB stick so you'll see it's
+formatted<00:06:36.890> it's<00:06:37.280> got<00:06:37.520> the<00:06:37.790> NTFS<00:06:38.390> filesystem
+
+00:06:38.830 --> 00:06:38.840 
+formatted it's got the NTFS filesystem
+
+00:06:38.840 --> 00:06:44.050 
+formatted it's got the NTFS filesystem
+and<00:06:40.480> disk<00:06:41.480> part<00:06:41.780> was<00:06:41.990> able<00:06:42.440> to<00:06:42.470> start<00:06:43.430> with<00:06:44.030> a
+
+00:06:44.050 --> 00:06:44.060 
+and disk part was able to start with a
+
+00:06:44.060 --> 00:06:46.930 
+and disk part was able to start with a
+script<00:06:44.810> that<00:06:45.050> we<00:06:45.410> wrote<00:06:45.440> and<00:06:46.070> then<00:06:46.370> it<00:06:46.520> exits
+
+00:06:46.930 --> 00:06:46.940 
+script that we wrote and then it exits
+
+00:06:46.940 --> 00:06:49.450 
+script that we wrote and then it exits
+back<00:06:47.150> out<00:06:47.420> and<00:06:47.660> gives<00:06:48.590> control<00:06:48.980> back<00:06:49.250> to<00:06:49.280> the
+
+00:06:49.450 --> 00:06:49.460 
+back out and gives control back to the
+
+00:06:49.460 --> 00:06:51.450 
+back out and gives control back to the
+command<00:06:49.880> line<00:06:49.940> so<00:06:50.240> you<00:06:50.330> can<00:06:50.540> continue
+
+00:06:51.450 --> 00:06:51.460 
+command line so you can continue
+
+00:06:51.460 --> 00:06:54.810 
+command line so you can continue
+automating<00:06:52.460> your<00:06:52.610> deployments<00:06:53.210> with<00:06:53.390> image<00:06:54.110> X
+
+00:06:54.810 --> 00:06:54.820 
+automating your deployments with image X
+
+00:06:54.820 --> 00:06:59.590 
+automating your deployments with image X
+and<00:06:56.830> yeah<00:06:57.830> that's<00:06:58.220> that's<00:06:58.700> it<00:06:58.970> that's<00:06:59.180> um
+
+00:06:59.590 --> 00:06:59.600 
+and yeah that's that's it that's um
+
+00:06:59.600 --> 00:07:01.750 
+and yeah that's that's it that's um
+that's<00:06:59.750> disc<00:07:00.590> part<00:07:00.860> so<00:07:01.040> it's<00:07:01.220> a<00:07:01.310> really<00:07:01.610> handy
+
+00:07:01.750 --> 00:07:01.760 
+that's disc part so it's a really handy
+
+00:07:01.760 --> 00:07:03.910 
+that's disc part so it's a really handy
+tool<00:07:01.910> and<00:07:02.330> there's<00:07:02.450> a<00:07:02.510> lot<00:07:02.840> a<00:07:03.110> lot<00:07:03.530> more<00:07:03.770> you
+
+00:07:03.910 --> 00:07:03.920 
+tool and there's a lot a lot more you
+
+00:07:03.920 --> 00:07:05.620 
+tool and there's a lot a lot more you
+can<00:07:04.070> do<00:07:04.220> with<00:07:04.250> it<00:07:04.490> and<00:07:04.610> it's<00:07:04.850> small<00:07:05.240> it's<00:07:05.480> a
+
+00:07:05.620 --> 00:07:05.630 
+can do with it and it's small it's a
+
+00:07:05.630 --> 00:07:09.130 
+can do with it and it's small it's a
+executable<00:07:06.050> so<00:07:06.710> it's<00:07:07.250> good<00:07:08.240> to<00:07:08.390> have<00:07:08.540> in<00:07:08.870> the
+
+00:07:09.130 --> 00:07:09.140 
+executable so it's good to have in the
+
+00:07:09.140 --> 00:07:12.640 
+executable so it's good to have in the
+toolbox<00:07:09.590> and<00:07:10.900> that's<00:07:11.900> it<00:07:12.140> thanks<00:07:12.590> for
+
+00:07:12.640 --> 00:07:12.650 
+toolbox and that's it thanks for
+
+00:07:12.650 --> 00:07:14.530 
+toolbox and that's it thanks for
+watching
+
+00:07:14.530 --> 00:07:14.540 
+watching
+
+00:07:14.540 --> 00:07:17.220 
+watching
+[Music]
+

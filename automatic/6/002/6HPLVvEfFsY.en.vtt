@@ -1,0 +1,559 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.600 
+
+hey<00:00:00.780> everyone<00:00:01.170> this<00:00:01.290> is<00:00:01.410> just<00:00:01.709> still<00:00:01.860> 45<00:00:02.159> and
+
+00:00:02.600 --> 00:00:02.610 
+hey everyone this is just still 45 and
+
+00:00:02.610 --> 00:00:04.100 
+hey everyone this is just still 45 and
+welcome<00:00:02.939> to<00:00:03.090> your<00:00:03.179> eighth<00:00:03.419> iphone<00:00:03.959> sdk
+
+00:00:04.100 --> 00:00:04.110 
+welcome to your eighth iphone sdk
+
+00:00:04.110 --> 00:00:08.900 
+welcome to your eighth iphone sdk
+tutorial<00:00:05.100> on<00:00:05.509> tab<00:00:06.509> bar<00:00:06.779> applications<00:00:07.589> so<00:00:08.429> the
+
+00:00:08.900 --> 00:00:08.910 
+tutorial on tab bar applications so the
+
+00:00:08.910 --> 00:00:12.200 
+tutorial on tab bar applications so the
+top<00:00:09.840> bar<00:00:10.080> basically<00:00:10.620> is<00:00:11.040> if<00:00:11.580> you<00:00:11.910> have<00:00:11.940> an
+
+00:00:12.200 --> 00:00:12.210 
+top bar basically is if you have an
+
+00:00:12.210 --> 00:00:15.910 
+top bar basically is if you have an
+iphone<00:00:12.570> and<00:00:12.780> you<00:00:12.870> go<00:00:13.049> to<00:00:13.530> your<00:00:14.460> phone
+
+00:00:15.910 --> 00:00:15.920 
+iphone and you go to your phone
+
+00:00:15.920 --> 00:00:18.500 
+iphone and you go to your phone
+application<00:00:16.920> at<00:00:17.160> the<00:00:17.490> bottom<00:00:17.820> there's<00:00:18.029> five
+
+00:00:18.500 --> 00:00:18.510 
+application at the bottom there's five
+
+00:00:18.510 --> 00:00:22.550 
+application at the bottom there's five
+different<00:00:18.539> tabs<00:00:19.080> thats<00:00:19.410> a<00:00:19.789> voicemail<00:00:21.560> keypad
+
+00:00:22.550 --> 00:00:22.560 
+different tabs thats a voicemail keypad
+
+00:00:22.560 --> 00:00:28.060 
+different tabs thats a voicemail keypad
+favorites<00:00:23.460> contacts<00:00:24.210> and<00:00:25.670> recent<00:00:26.670> calls<00:00:26.930> so
+
+00:00:28.060 --> 00:00:28.070 
+favorites contacts and recent calls so
+
+00:00:28.070 --> 00:00:29.779 
+favorites contacts and recent calls so
+that's<00:00:29.070> what<00:00:29.250> we're<00:00:29.400> going<00:00:29.490> to<00:00:29.580> be<00:00:29.609> making
+
+00:00:29.779 --> 00:00:29.789 
+that's what we're going to be making
+
+00:00:29.789 --> 00:00:33.799 
+that's what we're going to be making
+today<00:00:30.119> so<00:00:30.599> launch<00:00:31.590> Xcode<00:00:32.120> go<00:00:33.120> to<00:00:33.180> file<00:00:33.510> new
+
+00:00:33.799 --> 00:00:33.809 
+today so launch Xcode go to file new
+
+00:00:33.809 --> 00:00:38.000 
+today so launch Xcode go to file new
+project<00:00:34.399> view<00:00:35.399> based<00:00:35.579> application<00:00:36.329> and<00:00:37.010> I'm
+
+00:00:38.000 --> 00:00:38.010 
+project view based application and I'm
+
+00:00:38.010 --> 00:00:44.139 
+project view based application and I'm
+just<00:00:38.309> going<00:00:38.430> to<00:00:38.520> need<00:00:38.700> this<00:00:41.120> tab<00:00:42.170> bars
+
+00:00:44.139 --> 00:00:44.149 
+just going to need this tab bars
+
+00:00:44.149 --> 00:00:48.139 
+just going to need this tab bars
+tutorial<00:00:46.489> you<00:00:47.489> won't<00:00:47.640> have<00:00:47.730> to<00:00:47.820> do<00:00:48.030> this
+
+00:00:48.139 --> 00:00:48.149 
+tutorial you won't have to do this
+
+00:00:48.149 --> 00:00:52.279 
+tutorial you won't have to do this
+already<00:00:48.450> have<00:00:48.690> one<00:00:48.930> named<00:00:49.170> it<00:00:49.350> I<00:00:49.500> guess<00:00:51.289> okay
+
+00:00:52.279 --> 00:00:52.289 
+already have one named it I guess okay
+
+00:00:52.289 --> 00:00:55.880 
+already have one named it I guess okay
+so<00:00:52.350> go<00:00:53.250> into<00:00:53.460> your<00:00:53.550> classes<00:00:54.059> and<00:00:54.360> in<00:00:54.870> your<00:00:55.110> app
+
+00:00:55.880 --> 00:00:55.890 
+so go into your classes and in your app
+
+00:00:55.890 --> 00:01:01.729 
+so go into your classes and in your app
+delegate<00:00:56.460> dot<00:00:56.789> H<00:00:57.980> in<00:00:58.980> your<00:00:59.219> interface<00:00:59.670> go<00:01:00.739> you
+
+00:01:01.729 --> 00:01:01.739 
+delegate dot H in your interface go you
+
+00:01:01.739 --> 00:01:08.230 
+delegate dot H in your interface go you
+I<00:01:01.770> tab<00:01:02.399> bar<00:01:02.940> controller<00:01:05.659> root<00:01:06.659> controller
+
+00:01:08.230 --> 00:01:08.240 
+I tab bar controller root controller
+
+00:01:08.240 --> 00:01:18.320 
+I tab bar controller root controller
+like<00:01:09.240> so<00:01:11.689> and<00:01:12.950> then<00:01:14.150> in<00:01:15.150> your<00:01:16.460> properties<00:01:17.460> go
+
+00:01:18.320 --> 00:01:18.330 
+like so and then in your properties go
+
+00:01:18.330 --> 00:01:24.399 
+like so and then in your properties go
+at<00:01:18.780> property<00:01:20.689> non-atomic<00:01:21.830> comma<00:01:22.830> retain
+
+00:01:24.399 --> 00:01:24.409 
+at property non-atomic comma retain
+
+00:01:24.409 --> 00:01:28.850 
+at property non-atomic comma retain
+iboutlet<00:01:25.460> UI<00:01:26.460> view<00:01:27.060> controller<00:01:27.500> no<00:01:28.500> it's<00:01:28.740> not
+
+00:01:28.850 --> 00:01:28.860 
+iboutlet UI view controller no it's not
+
+00:01:28.860 --> 00:01:31.069 
+iboutlet UI view controller no it's not
+you<00:01:29.460> I<00:01:29.490> tab<00:01:29.820> bar<00:01:30.030> controller<00:01:30.060> its<00:01:30.600> UI<00:01:30.720> view
+
+00:01:31.069 --> 00:01:31.079 
+you I tab bar controller its UI view
+
+00:01:31.079 --> 00:01:36.969 
+you I tab bar controller its UI view
+controller<00:01:31.140> this<00:01:31.710> time<00:01:31.920> and<00:01:33.140> root<00:01:35.299> controller
+
+00:01:36.969 --> 00:01:36.979 
+controller this time and root controller
+
+00:01:36.979 --> 00:01:43.730 
+controller this time and root controller
+save<00:01:37.979> that<00:01:38.299> here's<00:01:39.299> the<00:01:39.450> code<00:01:42.380> now<00:01:43.380> go<00:01:43.619> into
+
+00:01:43.730 --> 00:01:43.740 
+save that here's the code now go into
+
+00:01:43.740 --> 00:01:47.120 
+save that here's the code now go into
+your<00:01:43.950> app<00:01:44.700> delegate<00:01:45.149> n<00:01:45.710> first<00:01:46.710> you<00:01:46.890> want<00:01:47.070> to
+
+00:01:47.120 --> 00:01:47.130 
+your app delegate n first you want to
+
+00:01:47.130 --> 00:01:50.480 
+your app delegate n first you want to
+synthesize<00:01:47.729> root<00:01:48.329> view<00:01:48.780> controller<00:01:48.840> so<00:01:49.680> act
+
+00:01:50.480 --> 00:01:50.490 
+synthesize root view controller so act
+
+00:01:50.490 --> 00:01:55.940 
+synthesize root view controller so act
+synthesize<00:01:51.680> root<00:01:52.680> controller
+
+00:01:55.940 --> 00:01:55.950 
+
+00:01:55.950 --> 00:02:00.050 
+
+and<00:01:56.640> I<00:01:56.969> go<00:01:57.180> down<00:01:57.420> to<00:01:57.750> your<00:01:58.159> void<00:01:59.159> application
+
+00:02:00.050 --> 00:02:00.060 
+and I go down to your void application
+
+00:02:00.060 --> 00:02:04.609 
+and I go down to your void application
+did<00:02:00.390> finish<00:02:00.450> launching<00:02:01.320> right<00:02:01.829> here<00:02:02.100> and<00:02:03.619> now
+
+00:02:04.609 --> 00:02:04.619 
+did finish launching right here and now
+
+00:02:04.619 --> 00:02:12.559 
+did finish launching right here and now
+go<00:02:07.009> window<00:02:08.009> add<00:02:08.899> sub<00:02:09.899> you<00:02:10.970> root<00:02:11.970> controller
+
+00:02:12.559 --> 00:02:12.569 
+go window add sub you root controller
+
+00:02:12.569 --> 00:02:20.720 
+go window add sub you root controller
+dot<00:02:13.200> view<00:02:14.840> like<00:02:16.190> so<00:02:19.310> now<00:02:20.310> that<00:02:20.489> we<00:02:20.550> have<00:02:20.580> all
+
+00:02:20.720 --> 00:02:20.730 
+dot view like so now that we have all
+
+00:02:20.730 --> 00:02:23.330 
+dot view like so now that we have all
+code<00:02:21.060> done<00:02:21.300> go<00:02:21.930> into<00:02:22.140> your<00:02:22.260> resources<00:02:22.769> and<00:02:23.099> in
+
+00:02:23.330 --> 00:02:23.340 
+code done go into your resources and in
+
+00:02:23.340 --> 00:02:31.130 
+code done go into your resources and in
+your<00:02:23.489> main<00:02:23.700> window<00:02:24.150> nib<00:02:27.590> now<00:02:28.730> drag<00:02:29.730> a<00:02:30.060> tab<00:02:30.900> bar
+
+00:02:31.130 --> 00:02:31.140 
+your main window nib now drag a tab bar
+
+00:02:31.140 --> 00:02:34.630 
+your main window nib now drag a tab bar
+controller<00:02:31.190> into<00:02:32.190> your<00:02:32.340> little<00:02:32.640> box<00:02:33.060> here<00:02:33.209> and
+
+00:02:34.630 --> 00:02:34.640 
+controller into your little box here and
+
+00:02:34.640 --> 00:02:38.750 
+controller into your little box here and
+a<00:02:35.640> one<00:02:36.630> more<00:02:36.780> thing<00:02:36.959> before<00:02:37.079> we<00:02:37.319> do<00:02:37.590> this<00:02:37.769> you
+
+00:02:38.750 --> 00:02:38.760 
+a one more thing before we do this you
+
+00:02:38.760 --> 00:02:40.520 
+a one more thing before we do this you
+don't<00:02:38.880> have<00:02:39.000> to<00:02:39.090> close<00:02:39.269> it<00:02:39.420> out<00:02:39.540> into<00:02:40.110> your
+
+00:02:40.520 --> 00:02:40.530 
+don't have to close it out into your
+
+00:02:40.530 --> 00:02:44.390 
+don't have to close it out into your
+resources<00:02:40.920> right<00:02:41.760> click<00:02:41.970> add<00:02:42.209> new<00:02:42.930> file<00:02:43.400> UI
+
+00:02:44.390 --> 00:02:44.400 
+resources right click add new file UI
+
+00:02:44.400 --> 00:02:47.780 
+resources right click add new file UI
+view<00:02:44.790> controller<00:02:44.819> subclass<00:02:45.390> with<00:02:46.349> a<00:02:47.010> nib<00:02:47.459> for
+
+00:02:47.780 --> 00:02:47.790 
+view controller subclass with a nib for
+
+00:02:47.790 --> 00:02:49.850 
+view controller subclass with a nib for
+a<00:02:47.819> user<00:02:48.030> interface<00:02:48.630> and<00:02:49.380> we're<00:02:49.590> just<00:02:49.709> going<00:02:49.829> to
+
+00:02:49.850 --> 00:02:49.860 
+a user interface and we're just going to
+
+00:02:49.860 --> 00:02:55.550 
+a user interface and we're just going to
+name<00:02:49.980> it<00:02:50.150> second<00:02:51.150> view<00:02:52.400> okay<00:02:53.690> now<00:02:54.690> that<00:02:54.720> that
+
+00:02:55.550 --> 00:02:55.560 
+name it second view okay now that that
+
+00:02:55.560 --> 00:03:00.849 
+name it second view okay now that that
+is<00:02:55.590> done<00:02:56.150> save<00:02:57.150> that<00:02:57.290> and<00:02:58.940> go<00:02:59.940> back<00:03:00.090> into<00:03:00.359> your
+
+00:03:00.849 --> 00:03:00.859 
+is done save that and go back into your
+
+00:03:00.859 --> 00:03:05.990 
+is done save that and go back into your
+tab<00:03:01.859> bar<00:03:02.100> controller<00:03:03.560> now<00:03:04.560> over<00:03:05.549> here<00:03:05.819> in<00:03:05.910> the
+
+00:03:05.990 --> 00:03:06.000 
+tab bar controller now over here in the
+
+00:03:06.000 --> 00:03:10.490 
+tab bar controller now over here in the
+main<00:03:06.180> window<00:03:06.209> box<00:03:06.690> hold<00:03:07.680> ctrl<00:03:07.980> and<00:03:08.989> drag<00:03:09.989> from
+
+00:03:10.490 --> 00:03:10.500 
+main window box hold ctrl and drag from
+
+00:03:10.500 --> 00:03:13.340 
+main window box hold ctrl and drag from
+tab<00:03:11.040> bar<00:03:11.250> controller<00:03:11.359> to<00:03:12.359> your<00:03:12.780> tab<00:03:13.109> bar
+
+00:03:13.340 --> 00:03:13.350 
+tab bar controller to your tab bar
+
+00:03:13.350 --> 00:03:20.990 
+tab bar controller to your tab bar
+tutorial<00:03:13.560> or<00:03:15.200> hold<00:03:16.200> on<00:03:19.760> something<00:03:20.760> is<00:03:20.970> not
+
+00:03:20.990 --> 00:03:21.000 
+tutorial or hold on something is not
+
+00:03:21.000 --> 00:03:24.410 
+tutorial or hold on something is not
+right<00:03:21.359> one<00:03:22.079> second<00:03:22.819> okay<00:03:23.819> first<00:03:24.120> what<00:03:24.299> we're
+
+00:03:24.410 --> 00:03:24.420 
+right one second okay first what we're
+
+00:03:24.420 --> 00:03:26.740 
+right one second okay first what we're
+going<00:03:24.510> to<00:03:24.600> do<00:03:24.720> I<00:03:24.750> guess<00:03:25.049> is<00:03:25.380> go<00:03:26.280> into<00:03:26.400> your
+
+00:03:26.740 --> 00:03:26.750 
+going to do I guess is go into your
+
+00:03:26.750 --> 00:03:31.670 
+going to do I guess is go into your
+items<00:03:27.750> now<00:03:28.700> given<00:03:29.700> your<00:03:29.880> attributes<00:03:30.560> if<00:03:31.560> you
+
+00:03:31.670 --> 00:03:31.680 
+items now given your attributes if you
+
+00:03:31.680 --> 00:03:34.009 
+items now given your attributes if you
+just<00:03:31.889> click<00:03:32.010> on<00:03:32.160> it<00:03:32.340> you<00:03:32.579> can<00:03:32.760> change<00:03:33.239> you<00:03:33.900> can
+
+00:03:34.009 --> 00:03:34.019 
+just click on it you can change you can
+
+00:03:34.019 --> 00:03:36.830 
+just click on it you can change you can
+add<00:03:34.200> items<00:03:34.590> you<00:03:35.519> can<00:03:35.700> also<00:03:35.850> remove<00:03:36.389> items
+
+00:03:36.830 --> 00:03:36.840 
+add items you can also remove items
+
+00:03:36.840 --> 00:03:40.129 
+add items you can also remove items
+which<00:03:37.350> is<00:03:37.530> tart<00:03:37.799> tabs<00:03:38.069> you<00:03:38.670> can<00:03:38.720> by<00:03:39.720> clicking
+
+00:03:40.129 --> 00:03:40.139 
+which is tart tabs you can by clicking
+
+00:03:40.139 --> 00:03:42.530 
+which is tart tabs you can by clicking
+on<00:03:40.290> it<00:03:40.470> you<00:03:40.620> can<00:03:40.799> change<00:03:41.430> what<00:03:41.730> view<00:03:42.000> inherits
+
+00:03:42.530 --> 00:03:42.540 
+on it you can change what view inherits
+
+00:03:42.540 --> 00:03:45.710 
+on it you can change what view inherits
+from<00:03:42.599> so<00:03:43.609> click<00:03:44.609> on<00:03:44.730> item<00:03:44.880> one<00:03:45.209> and<00:03:45.480> we're
+
+00:03:45.710 --> 00:03:45.720 
+from so click on item one and we're
+
+00:03:45.720 --> 00:03:47.300 
+from so click on item one and we're
+going<00:03:45.750> to<00:03:45.870> turn<00:03:46.230> this<00:03:46.470> to<00:03:46.680> tab<00:03:47.099> view
+
+00:03:47.300 --> 00:03:47.310 
+going to turn this to tab view
+
+00:03:47.310 --> 00:03:49.430 
+going to turn this to tab view
+controller<00:03:47.790> or<00:03:48.420> tab<00:03:48.660> arts<00:03:48.930> tutorial<00:03:49.290> view
+
+00:03:49.430 --> 00:03:49.440 
+controller or tab arts tutorial view
+
+00:03:49.440 --> 00:03:51.589 
+controller or tab arts tutorial view
+controller<00:03:49.799> an<00:03:49.980> item<00:03:50.519> to<00:03:50.639> change<00:03:51.420> the<00:03:51.569> name
+
+00:03:51.589 --> 00:03:51.599 
+controller an item to change the name
+
+00:03:51.599 --> 00:03:54.860 
+controller an item to change the name
+name<00:03:51.930> to<00:03:52.200> second<00:03:52.680> view<00:03:53.000> if<00:03:54.000> you<00:03:54.209> double<00:03:54.840> click
+
+00:03:54.860 --> 00:03:54.870 
+name to second view if you double click
+
+00:03:54.870 --> 00:03:58.690 
+name to second view if you double click
+on<00:03:55.109> it<00:03:55.370> I'm<00:03:56.370> sorry<00:03:56.669> like<00:03:57.150> that<00:03:57.359> you<00:03:57.989> can<00:03:58.230> change
+
+00:03:58.690 --> 00:03:58.700 
+on it I'm sorry like that you can change
+
+00:03:58.700 --> 00:04:01.580 
+on it I'm sorry like that you can change
+its<00:03:59.700> title<00:04:00.329> so<00:04:00.569> we're<00:04:00.660> getting<00:04:00.780> this<00:04:01.079> first
+
+00:04:01.580 --> 00:04:01.590 
+its title so we're getting this first
+
+00:04:01.590 --> 00:04:03.920 
+its title so we're getting this first
+view<00:04:01.889> you<00:04:02.489> can<00:04:02.609> also<00:04:02.760> change<00:04:03.180> the<00:04:03.329> image<00:04:03.630> if
+
+00:04:03.920 --> 00:04:03.930 
+view you can also change the image if
+
+00:04:03.930 --> 00:04:05.650 
+view you can also change the image if
+you<00:04:04.019> want
+
+00:04:05.650 --> 00:04:05.660 
+you want
+
+00:04:05.660 --> 00:04:09.240 
+you want
+we're<00:04:05.840> going<00:04:05.990> to<00:04:06.050> name<00:04:06.200> this<00:04:06.230> one<00:04:06.380> second<00:04:07.250> view
+
+00:04:09.240 --> 00:04:09.250 
+we're going to name this one second view
+
+00:04:09.250 --> 00:04:14.860 
+we're going to name this one second view
+okay<00:04:11.950> now<00:04:12.950> what<00:04:13.130> you<00:04:13.280> want<00:04:13.460> to<00:04:13.520> do<00:04:13.730> is<00:04:14.000> new
+
+00:04:14.860 --> 00:04:14.870 
+okay now what you want to do is new
+
+00:04:14.870 --> 00:04:18.370 
+okay now what you want to do is new
+referencing<00:04:15.470> outlet<00:04:15.920> tab<00:04:16.459> bar<00:04:16.730> and<00:04:17.380> click
+
+00:04:18.370 --> 00:04:18.380 
+referencing outlet tab bar and click
+
+00:04:18.380 --> 00:04:24.460 
+referencing outlet tab bar and click
+root<00:04:18.920> controller<00:04:21.130> control<00:04:22.130> save<00:04:22.480> quit<00:04:23.480> now
+
+00:04:24.460 --> 00:04:24.470 
+root controller control save quit now
+
+00:04:24.470 --> 00:04:26.890 
+root controller control save quit now
+we're<00:04:25.340> going<00:04:25.430> to<00:04:25.490> add<00:04:25.580> some<00:04:26.000> stuff<00:04:26.510> to<00:04:26.750> the
+
+00:04:26.890 --> 00:04:26.900 
+we're going to add some stuff to the
+
+00:04:26.900 --> 00:04:29.170 
+we're going to add some stuff to the
+view<00:04:27.140> so<00:04:27.320> you<00:04:27.380> can<00:04:27.470> see<00:04:27.740> that<00:04:27.770> it<00:04:28.070> worked<00:04:28.280> go
+
+00:04:29.170 --> 00:04:29.180 
+view so you can see that it worked go
+
+00:04:29.180 --> 00:04:34.060 
+view so you can see that it worked go
+into<00:04:29.390> your<00:04:29.510> first<00:04:29.810> of<00:04:30.530> you<00:04:32.650> we're<00:04:33.650> just<00:04:33.800> going
+
+00:04:34.060 --> 00:04:34.070 
+into your first of you we're just going
+
+00:04:34.070 --> 00:04:48.540 
+into your first of you we're just going
+to<00:04:34.190> drag<00:04:34.610> a<00:04:37.210> about<00:04:38.210> a<00:04:39.490> slider<00:04:40.750> and<00:04:42.490> a<00:04:45.070> toolbar
+
+00:04:48.540 --> 00:04:48.550 
+
+00:04:48.550 --> 00:04:54.190 
+
+what<00:04:49.550> I<00:04:49.700> times<00:04:49.910> if<00:04:50.210> that<00:04:50.450> says<00:04:50.830> first<00:04:51.830> and<00:04:53.200> then
+
+00:04:54.190 --> 00:04:54.200 
+what I times if that says first and then
+
+00:04:54.200 --> 00:05:01.110 
+what I times if that says first and then
+your<00:04:54.380> second<00:04:54.800> view<00:04:56.440> about<00:04:57.440> a<00:04:59.020> navigation<00:05:00.020> bar
+
+00:05:01.110 --> 00:05:01.120 
+your second view about a navigation bar
+
+00:05:01.120 --> 00:05:11.820 
+your second view about a navigation bar
+says<00:05:02.120> second<00:05:03.070> and<00:05:05.110> a<00:05:07.570> bar<00:05:08.570> button<00:05:09.580> it's<00:05:10.580> as<00:05:10.790> few
+
+00:05:11.820 --> 00:05:11.830 
+says second and a bar button it's as few
+
+00:05:11.830 --> 00:05:13.930 
+says second and a bar button it's as few
+you<00:05:12.830> can<00:05:12.980> be<00:05:13.070> whatever<00:05:13.160> you<00:05:13.400> want<00:05:13.640> to<00:05:13.730> just
+
+00:05:13.930 --> 00:05:13.940 
+you can be whatever you want to just
+
+00:05:13.940 --> 00:05:16.420 
+you can be whatever you want to just
+bring<00:05:14.330> something<00:05:14.840> down<00:05:14.990> there<00:05:15.200> so<00:05:15.770> now<00:05:16.100> builds
+
+00:05:16.420 --> 00:05:16.430 
+bring something down there so now builds
+
+00:05:16.430 --> 00:05:19.660 
+bring something down there so now builds
+ago<00:05:16.750> if<00:05:17.750> all<00:05:18.290> went<00:05:18.590> well<00:05:18.710> it<00:05:19.010> should<00:05:19.220> succeed
+
+00:05:19.660 --> 00:05:19.670 
+ago if all went well it should succeed
+
+00:05:19.670 --> 00:05:23.890 
+ago if all went well it should succeed
+and<00:05:21.220> smelled<00:05:22.220> on<00:05:22.520> this<00:05:23.000> should<00:05:23.150> pop<00:05:23.330> up<00:05:23.360> first
+
+00:05:23.890 --> 00:05:23.900 
+and smelled on this should pop up first
+
+00:05:23.900 --> 00:05:26.560 
+and smelled on this should pop up first
+view<00:05:24.169> we<00:05:24.320> have<00:05:24.440> our<00:05:24.590> slider<00:05:25.150> second<00:05:26.150> view<00:05:26.360> we
+
+00:05:26.560 --> 00:05:26.570 
+view we have our slider second view we
+
+00:05:26.570 --> 00:05:29.440 
+view we have our slider second view we
+have<00:05:26.750> our<00:05:27.020> second<00:05:27.650> with<00:05:27.770> a<00:05:27.800> view<00:05:28.070> and<00:05:28.340> that<00:05:29.270> is
+
+00:05:29.440 --> 00:05:29.450 
+have our second with a view and that is
+
+00:05:29.450 --> 00:05:32.290 
+have our second with a view and that is
+how<00:05:29.600> you<00:05:29.660> do<00:05:29.960> a<00:05:29.990> yacht<00:05:30.500> tab<00:05:30.770> bar<00:05:31.180> thanks<00:05:32.180> for
+
+00:05:32.290 --> 00:05:32.300 
+how you do a yacht tab bar thanks for
+
+00:05:32.300 --> 00:05:34.630 
+how you do a yacht tab bar thanks for
+watching<00:05:32.600> my<00:05:32.690> tutorial<00:05:32.750> subscribe<00:05:33.640> comment
+
+00:05:34.630 --> 00:05:34.640 
+watching my tutorial subscribe comment
+
+00:05:34.640 --> 00:05:37.990 
+watching my tutorial subscribe comment
+rate<00:05:34.990> see
+

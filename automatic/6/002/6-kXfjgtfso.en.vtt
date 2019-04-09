@@ -1,0 +1,307 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.890 --> 00:00:05.360 
+
+hi<00:00:01.890> everybody<00:00:02.190> this<00:00:02.370> is<00:00:02.639> Connor<00:00:02.939> and<00:00:04.370> right
+
+00:00:05.360 --> 00:00:05.370 
+hi everybody this is Connor and right
+
+00:00:05.370 --> 00:00:09.680 
+hi everybody this is Connor and right
+now<00:00:05.520> I'm<00:00:05.580> going<00:00:05.759> to<00:00:05.850> talk<00:00:06.029> about<00:00:07.880> PHP<00:00:08.880> your<00:00:09.599> own
+
+00:00:09.680 --> 00:00:09.690 
+now I'm going to talk about PHP your own
+
+00:00:09.690 --> 00:00:13.669 
+now I'm going to talk about PHP your own
+custom<00:00:10.260> PHP<00:00:10.469> module<00:00:12.259> creation<00:00:13.259> through
+
+00:00:13.669 --> 00:00:13.679 
+custom PHP module creation through
+
+00:00:13.679 --> 00:00:15.499 
+custom PHP module creation through
+jumera<00:00:14.099> without<00:00:14.400> actually<00:00:14.820> having<00:00:14.940> to<00:00:15.150> write
+
+00:00:15.499 --> 00:00:15.509 
+jumera without actually having to write
+
+00:00:15.509 --> 00:00:19.099 
+jumera without actually having to write
+all<00:00:15.719> the<00:00:15.870> XML<00:00:16.320> code<00:00:16.529> and<00:00:16.710> everything<00:00:17.300> so<00:00:18.300> what
+
+00:00:19.099 --> 00:00:19.109 
+all the XML code and everything so what
+
+00:00:19.109 --> 00:00:21.500 
+all the XML code and everything so what
+you're<00:00:19.230> gonna<00:00:19.289> do<00:00:19.650> is<00:00:19.980> in<00:00:20.520> this<00:00:20.789> module<00:00:20.970> you'll
+
+00:00:21.500 --> 00:00:21.510 
+you're gonna do is in this module you'll
+
+00:00:21.510 --> 00:00:23.300 
+you're gonna do is in this module you'll
+install<00:00:21.930> it's<00:00:22.109> called<00:00:22.320> Jimmy<00:00:22.740> which<00:00:22.980> allows
+
+00:00:23.300 --> 00:00:23.310 
+install it's called Jimmy which allows
+
+00:00:23.310 --> 00:00:27.370 
+install it's called Jimmy which allows
+you<00:00:23.460> to<00:00:23.550> include<00:00:23.880> a<00:00:24.240> new<00:00:24.869> PHP<00:00:25.170> file<00:00:25.710> you<00:00:25.949> have
+
+00:00:27.370 --> 00:00:27.380 
+you to include a new PHP file you have
+
+00:00:27.380 --> 00:00:30.500 
+you to include a new PHP file you have
+onto<00:00:28.380> your<00:00:28.710> website<00:00:29.070> like<00:00:29.519> I<00:00:29.550> said<00:00:29.849> it's<00:00:30.269> your
+
+00:00:30.500 --> 00:00:30.510 
+onto your website like I said it's your
+
+00:00:30.510 --> 00:00:32.780 
+onto your website like I said it's your
+own<00:00:30.630> custom<00:00:31.470> Lea<00:00:31.650> written<00:00:31.920> module<00:00:32.489> which<00:00:32.640> it
+
+00:00:32.780 --> 00:00:32.790 
+own custom Lea written module which it
+
+00:00:32.790 --> 00:00:34.520 
+own custom Lea written module which it
+is<00:00:32.940> just<00:00:33.660> you<00:00:33.719> don't<00:00:33.809> have<00:00:33.930> to<00:00:34.140> worry<00:00:34.290> about
+
+00:00:34.520 --> 00:00:34.530 
+is just you don't have to worry about
+
+00:00:34.530 --> 00:00:36.799 
+is just you don't have to worry about
+the<00:00:34.739> installation<00:00:35.130> X<00:00:35.610> XML<00:00:36.329> and<00:00:36.480> everything
+
+00:00:36.799 --> 00:00:36.809 
+the installation X XML and everything
+
+00:00:36.809 --> 00:00:39.080 
+the installation X XML and everything
+for<00:00:36.989> your<00:00:37.079> Joomla<00:00:37.440> so<00:00:38.160> first<00:00:38.370> off<00:00:38.579> let's<00:00:38.610> go<00:00:39.030> to
+
+00:00:39.080 --> 00:00:39.090 
+for your Joomla so first off let's go to
+
+00:00:39.090 --> 00:00:42.530 
+for your Joomla so first off let's go to
+the<00:00:39.469> Joomla<00:00:40.469> org<00:00:41.160> site<00:00:41.730> and<00:00:41.969> looking<00:00:42.390> at
+
+00:00:42.530 --> 00:00:42.540 
+the Joomla org site and looking at
+
+00:00:42.540 --> 00:00:45.139 
+the Joomla org site and looking at
+extensions<00:00:43.290> and<00:00:43.530> we'll<00:00:43.649> find<00:00:43.890> the<00:00:44.100> junii<00:00:44.550> or
+
+00:00:45.139 --> 00:00:45.149 
+extensions and we'll find the junii or
+
+00:00:45.149 --> 00:01:01.660 
+extensions and we'll find the junii or
+the<00:00:45.360> mod<00:00:45.770> underscore<00:00:46.770> dreamy<00:00:48.590> extension
+
+00:01:01.660 --> 00:01:01.670 
+
+00:01:01.670 --> 00:01:06.280 
+
+alright<00:01:02.270> so<00:01:02.480> there<00:01:02.660> there's<00:01:03.079> Jimmy<00:01:03.590> and<00:01:05.290> so
+
+00:01:06.280 --> 00:01:06.290 
+alright so there there's Jimmy and so
+
+00:01:06.290 --> 00:01:07.840 
+alright so there there's Jimmy and so
+you're<00:01:06.440> just<00:01:06.620> gonna<00:01:06.830> download<00:01:07.130> that<00:01:07.670> and
+
+00:01:07.840 --> 00:01:07.850 
+you're just gonna download that and
+
+00:01:07.850 --> 00:01:10.899 
+you're just gonna download that and
+basically<00:01:08.300> you<00:01:08.479> get<00:01:08.659> the<00:01:08.900> zip<00:01:09.140> file<00:01:09.440> menu<00:01:09.979> and
+
+00:01:10.899 --> 00:01:10.909 
+basically you get the zip file menu and
+
+00:01:10.909 --> 00:01:15.760 
+basically you get the zip file menu and
+you<00:01:11.780> go<00:01:12.940> to<00:01:13.940> on<00:01:14.720> your<00:01:14.990> Joomla<00:01:15.409> you<00:01:15.530> go<00:01:15.650> to
+
+00:01:15.760 --> 00:01:15.770 
+you go to on your Joomla you go to
+
+00:01:15.770 --> 00:01:17.950 
+you go to on your Joomla you go to
+installers<00:01:16.369> and<00:01:16.400> then<00:01:16.820> modules<00:01:17.630> and<00:01:17.869> then
+
+00:01:17.950 --> 00:01:17.960 
+installers and then modules and then
+
+00:01:17.960 --> 00:01:20.620 
+installers and then modules and then
+upload<00:01:18.350> it<00:01:18.500> so<00:01:19.369> yeah<00:01:19.550> that's<00:01:19.759> how<00:01:20.180> you<00:01:20.240> do<00:01:20.420> that
+
+00:01:20.620 --> 00:01:20.630 
+upload it so yeah that's how you do that
+
+00:01:20.630 --> 00:01:23.440 
+upload it so yeah that's how you do that
+now<00:01:21.050> we're<00:01:21.410> gonna<00:01:21.560> go<00:01:22.400> to<00:01:22.430> our<00:01:22.490> site<00:01:22.880> modules
+
+00:01:23.440 --> 00:01:23.450 
+now we're gonna go to our site modules
+
+00:01:23.450 --> 00:01:27.070 
+now we're gonna go to our site modules
+and<00:01:23.750> look<00:01:23.960> at<00:01:24.220> what<00:01:25.220> Jimmy<00:01:25.580> does<00:01:25.729> here<00:01:26.119> and
+
+00:01:27.070 --> 00:01:27.080 
+and look at what Jimmy does here and
+
+00:01:27.080 --> 00:01:28.840 
+and look at what Jimmy does here and
+then<00:01:27.380> I'm<00:01:27.560> gonna<00:01:27.680> open<00:01:27.800> code<00:01:28.190> editor<00:01:28.610> which<00:01:28.820> is
+
+00:01:28.840 --> 00:01:28.850 
+then I'm gonna open code editor which is
+
+00:01:28.850 --> 00:01:32.530 
+then I'm gonna open code editor which is
+notepads<00:01:29.420> plus<00:01:29.810> just<00:01:30.560> to<00:01:30.800> show<00:01:31.009> you<00:01:31.390> you<00:01:32.390> know
+
+00:01:32.530 --> 00:01:32.540 
+notepads plus just to show you you know
+
+00:01:32.540 --> 00:01:34.300 
+notepads plus just to show you you know
+for<00:01:32.840> example<00:01:32.930> you<00:01:33.290> can<00:01:33.530> just<00:01:33.740> kind<00:01:33.979> of<00:01:34.070> include
+
+00:01:34.300 --> 00:01:34.310 
+for example you can just kind of include
+
+00:01:34.310 --> 00:01:38.950 
+for example you can just kind of include
+all<00:01:34.460> your<00:01:34.670> file<00:01:34.970> in<00:01:35.240> there<00:01:35.450> and<00:01:37.630> so<00:01:38.630> it's<00:01:38.750> your
+
+00:01:38.950 --> 00:01:38.960 
+all your file in there and so it's your
+
+00:01:38.960 --> 00:01:44.100 
+all your file in there and so it's your
+custom<00:01:39.350> lis<00:01:39.590> written<00:01:39.890> HTML<00:01:41.080> javascript<00:01:42.430> PHP
+
+00:01:44.100 --> 00:01:44.110 
+custom lis written HTML javascript PHP
+
+00:01:44.110 --> 00:01:51.820 
+custom lis written HTML javascript PHP
+whatever<00:01:45.110> you<00:01:45.229> can<00:01:45.380> think<00:01:45.590> of<00:01:50.410> so<00:01:51.410> it's<00:01:51.679> as
+
+00:01:51.820 --> 00:01:51.830 
+whatever you can think of so it's as
+
+00:01:51.830 --> 00:01:53.620 
+whatever you can think of so it's as
+simple<00:01:52.039> as<00:01:52.280> just<00:01:52.429> going<00:01:52.520> into<00:01:52.970> your<00:01:53.119> module
+
+00:01:53.620 --> 00:01:53.630 
+simple as just going into your module
+
+00:01:53.630 --> 00:01:59.410 
+simple as just going into your module
+and<00:01:53.899> then<00:01:54.800> let's<00:01:55.070> go<00:01:55.450> and<00:01:58.000> you<00:01:59.000> know<00:01:59.119> just
+
+00:01:59.410 --> 00:01:59.420 
+and then let's go and you know just
+
+00:01:59.420 --> 00:02:02.560 
+and then let's go and you know just
+selecting<00:02:00.200> all<00:02:00.320> this<00:02:00.500> stuff<00:02:00.890> the<00:02:01.820> name<00:02:02.060> or<00:02:02.509> the
+
+00:02:02.560 --> 00:02:02.570 
+selecting all this stuff the name or the
+
+00:02:02.570 --> 00:02:07.960 
+selecting all this stuff the name or the
+title<00:02:03.110> I<00:02:03.140> mean<00:02:03.320> show<00:02:03.950> title<00:02:04.460> position<00:02:06.970> module
+
+00:02:07.960 --> 00:02:07.970 
+title I mean show title position module
+
+00:02:07.970 --> 00:02:11.770 
+title I mean show title position module
+order<00:02:08.350> access<00:02:09.350> level<00:02:09.679> publish<00:02:10.070> Baba<00:02:10.910> and<00:02:11.600> then
+
+00:02:11.770 --> 00:02:11.780 
+order access level publish Baba and then
+
+00:02:11.780 --> 00:02:14.020 
+order access level publish Baba and then
+this<00:02:11.959> is<00:02:12.079> where<00:02:12.260> you<00:02:12.290> down<00:02:13.130> here<00:02:13.459> is<00:02:13.610> where<00:02:13.820> you
+
+00:02:14.020 --> 00:02:14.030 
+this is where you down here is where you
+
+00:02:14.030 --> 00:02:19.780 
+this is where you down here is where you
+tell<00:02:14.630> it<00:02:14.890> what<00:02:15.890> you<00:02:15.920> want<00:02:16.220> to<00:02:16.400> include<00:02:18.790> so
+
+00:02:19.780 --> 00:02:19.790 
+tell it what you want to include so
+
+00:02:19.790 --> 00:02:25.319 
+tell it what you want to include so
+that's<00:02:20.060> just<00:02:20.239> all<00:02:20.930> I<00:02:21.350> have<00:02:21.500> to<00:02:21.680> say<00:02:21.709> it's<00:02:22.220> just
+
+00:02:25.319 --> 00:02:25.329 
+
+00:02:25.329 --> 00:02:27.400 
+
+something<00:02:26.329> to<00:02:26.480> think<00:02:26.510> about<00:02:26.750> because<00:02:27.079> I<00:02:27.230> think
+
+00:02:27.400 --> 00:02:27.410 
+something to think about because I think
+
+00:02:27.410 --> 00:02:29.110 
+something to think about because I think
+that<00:02:27.680> it's<00:02:28.070> important<00:02:28.579> to<00:02:28.670> be<00:02:28.760> able<00:02:28.820> to<00:02:28.940> write
+
+00:02:29.110 --> 00:02:29.120 
+that it's important to be able to write
+
+00:02:29.120 --> 00:02:35.560 
+that it's important to be able to write
+your<00:02:29.239> own<00:02:29.299> custom<00:02:32.650> joonie<00:02:33.650> modules<00:02:34.570> easily
+
+00:02:35.560 --> 00:02:35.570 
+your own custom joonie modules easily
+
+00:02:35.570 --> 00:02:38.979 
+your own custom joonie modules easily
+and<00:02:35.780> your<00:02:36.440> custom<00:02:36.799> PHP<00:02:37.190> code<00:02:37.790> for<00:02:38.090> the<00:02:38.600> Joomla
+
+00:02:38.979 --> 00:02:38.989 
+and your custom PHP code for the Joomla
+
+00:02:38.989 --> 00:02:41.620 
+and your custom PHP code for the Joomla
+content<00:02:39.200> management<00:02:39.769> system<00:02:40.280> so<00:02:40.970> thanks<00:02:41.540> for
+
+00:02:41.620 --> 00:02:41.630 
+content management system so thanks for
+
+00:02:41.630 --> 00:02:44.140 
+content management system so thanks for
+watching<00:02:41.690> bye
+

@@ -1,0 +1,869 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.480 --> 00:00:04.660 
+
+oh<00:00:02.540> I'm<00:00:03.500> day<00:00:03.650> weller<00:00:03.860> nvidia<00:00:04.279> developer
+
+00:00:04.660 --> 00:00:04.670 
+oh I'm day weller nvidia developer
+
+00:00:04.670 --> 00:00:06.190 
+oh I'm day weller nvidia developer
+relations<00:00:04.850> and<00:00:05.270> we're<00:00:05.840> going<00:00:05.960> to<00:00:05.990> give<00:00:06.109> you<00:00:06.170> a
+
+00:00:06.190 --> 00:00:06.200 
+relations and we're going to give you a
+
+00:00:06.200 --> 00:00:07.990 
+relations and we're going to give you a
+demonstration<00:00:06.350> of<00:00:06.830> nvidia<00:00:07.400> parallel<00:00:07.819> in
+
+00:00:07.990 --> 00:00:08.000 
+demonstration of nvidia parallel in
+
+00:00:08.000 --> 00:00:10.240 
+demonstration of nvidia parallel in
+sight<00:00:08.240> we<00:00:08.900> got<00:00:09.049> our<00:00:09.200> demonstration<00:00:09.830> dude<00:00:09.980> here
+
+00:00:10.240 --> 00:00:10.250 
+sight we got our demonstration dude here
+
+00:00:10.250 --> 00:00:12.609 
+sight we got our demonstration dude here
+and<00:00:10.460> his<00:00:10.580> name<00:00:10.789> is<00:00:10.840> Kumar<00:00:11.840> I<00:00:11.869> our<00:00:12.080> break<00:00:12.110> your
+
+00:00:12.609 --> 00:00:12.619 
+and his name is Kumar I our break your
+
+00:00:12.619 --> 00:00:14.109 
+and his name is Kumar I our break your
+honor<00:00:12.799> for<00:00:13.129> a<00:00:13.160> parallel<00:00:13.580> on<00:00:13.639> site<00:00:13.820> that's
+
+00:00:14.109 --> 00:00:14.119 
+honor for a parallel on site that's
+
+00:00:14.119 --> 00:00:16.330 
+honor for a parallel on site that's
+great<00:00:14.240> hey<00:00:14.510> thanks<00:00:14.900> okay<00:00:15.230> so<00:00:15.289> just<00:00:16.070> in<00:00:16.250> a
+
+00:00:16.330 --> 00:00:16.340 
+great hey thanks okay so just in a
+
+00:00:16.340 --> 00:00:18.279 
+great hey thanks okay so just in a
+nutshell<00:00:16.550> here<00:00:16.910> what<00:00:17.090> what<00:00:17.539> is<00:00:17.630> a<00:00:17.660> parallel
+
+00:00:18.279 --> 00:00:18.289 
+nutshell here what what is a parallel
+
+00:00:18.289 --> 00:00:19.660 
+nutshell here what what is a parallel
+insight<00:00:18.589> and<00:00:18.740> what<00:00:18.830> does<00:00:18.920> it<00:00:18.949> do<00:00:19.130> so<00:00:19.460> prevalent
+
+00:00:19.660 --> 00:00:19.670 
+insight and what does it do so prevalent
+
+00:00:19.670 --> 00:00:21.909 
+insight and what does it do so prevalent
+sites<00:00:20.000> are<00:00:20.150> new<00:00:20.470> development<00:00:21.470> environment
+
+00:00:21.909 --> 00:00:21.919 
+sites are new development environment
+
+00:00:21.919 --> 00:00:23.650 
+sites are new development environment
+for<00:00:22.369> visual<00:00:22.550> studio<00:00:22.580> for<00:00:23.060> doing<00:00:23.240> a<00:00:23.330> GPU
+
+00:00:23.650 --> 00:00:23.660 
+for visual studio for doing a GPU
+
+00:00:23.660 --> 00:00:25.929 
+for visual studio for doing a GPU
+development<00:00:24.109> so<00:00:24.199> then<00:00:24.320> look<00:00:24.740> cute<00:00:25.189> and<00:00:25.400> shader
+
+00:00:25.929 --> 00:00:25.939 
+development so then look cute and shader
+
+00:00:25.939 --> 00:00:27.790 
+development so then look cute and shader
+and<00:00:26.060> graphics<00:00:26.480> developmental<00:00:27.019> great<00:00:27.499> great
+
+00:00:27.790 --> 00:00:27.800 
+and graphics developmental great great
+
+00:00:27.800 --> 00:00:29.980 
+and graphics developmental great great
+so<00:00:28.070> so<00:00:28.640> what<00:00:28.789> are<00:00:28.880> the<00:00:28.999> key<00:00:29.419> things<00:00:29.449> here<00:00:29.779> again
+
+00:00:29.980 --> 00:00:29.990 
+so so what are the key things here again
+
+00:00:29.990 --> 00:00:31.540 
+so so what are the key things here again
+we<00:00:30.140> know<00:00:30.230> we<00:00:30.349> have<00:00:30.380> an<00:00:30.650> env<00:00:30.890> perfed<00:00:31.310> that's
+
+00:00:31.540 --> 00:00:31.550 
+we know we have an env perfed that's
+
+00:00:31.550 --> 00:00:33.280 
+we know we have an env perfed that's
+been<00:00:31.669> used<00:00:31.820> in<00:00:31.939> the<00:00:31.999> past<00:00:32.060> yes<00:00:32.570> so<00:00:32.870> how<00:00:33.230> would
+
+00:00:33.280 --> 00:00:33.290 
+been used in the past yes so how would
+
+00:00:33.290 --> 00:00:34.569 
+been used in the past yes so how would
+you<00:00:33.380> say<00:00:33.620> this<00:00:33.829> is<00:00:33.980> really<00:00:34.100> different<00:00:34.370> from
+
+00:00:34.569 --> 00:00:34.579 
+you say this is really different from
+
+00:00:34.579 --> 00:00:35.979 
+you say this is really different from
+the<00:00:34.730> previous<00:00:34.820> tool<00:00:35.180> so<00:00:35.329> that's<00:00:35.539> really<00:00:35.750> sort
+
+00:00:35.979 --> 00:00:35.989 
+the previous tool so that's really sort
+
+00:00:35.989 --> 00:00:38.500 
+the previous tool so that's really sort
+of<00:00:36.079> pun<00:00:36.469> next<00:00:36.920> okay<00:00:37.430> we've<00:00:37.760> taken<00:00:37.969> that<00:00:38.149> basic
+
+00:00:38.500 --> 00:00:38.510 
+of pun next okay we've taken that basic
+
+00:00:38.510 --> 00:00:40.299 
+of pun next okay we've taken that basic
+concept<00:00:38.899> we<00:00:39.110> expanded<00:00:39.530> out<00:00:39.680> the<00:00:39.890> number<00:00:40.190> of
+
+00:00:40.299 --> 00:00:40.309 
+concept we expanded out the number of
+
+00:00:40.309 --> 00:00:42.400 
+concept we expanded out the number of
+directions<00:00:40.430> which<00:00:41.000> was<00:00:41.239> about<00:00:41.570> should<00:00:41.989> offer
+
+00:00:42.400 --> 00:00:42.410 
+directions which was about should offer
+
+00:00:42.410 --> 00:00:43.990 
+directions which was about should offer
+really<00:00:42.890> a<00:00:42.920> lot<00:00:43.129> of<00:00:43.219> benefits<00:00:43.579> both<00:00:43.760> on<00:00:43.910> the
+
+00:00:43.990 --> 00:00:44.000 
+really a lot of benefits both on the
+
+00:00:44.000 --> 00:00:45.430 
+really a lot of benefits both on the
+debug<00:00:44.239> inside<00:00:44.539> and<00:00:44.719> the<00:00:44.840> performance<00:00:45.289> side
+
+00:00:45.430 --> 00:00:45.440 
+debug inside and the performance side
+
+00:00:45.440 --> 00:00:46.750 
+debug inside and the performance side
+now<00:00:45.800> I<00:00:45.829> hear<00:00:46.039> this<00:00:46.190> is<00:00:46.340> integrated<00:00:46.730> with
+
+00:00:46.750 --> 00:00:46.760 
+now I hear this is integrated with
+
+00:00:46.760 --> 00:00:48.869 
+now I hear this is integrated with
+visual<00:00:47.090> studio<00:00:47.149> is<00:00:47.600> it<00:00:47.780> just<00:00:47.989> visual<00:00:48.350> studio
+
+00:00:48.869 --> 00:00:48.879 
+visual studio is it just visual studio
+
+00:00:48.879 --> 00:00:51.400 
+visual studio is it just visual studio
+2008-2010<00:00:49.879> what<00:00:50.090> does<00:00:50.180> it<00:00:50.239> work<00:00:50.390> with<00:00:50.570> so<00:00:50.809> 2008
+
+00:00:51.400 --> 00:00:51.410 
+2008-2010 what does it work with so 2008
+
+00:00:51.410 --> 00:00:52.930 
+2008-2010 what does it work with so 2008
+right<00:00:51.590> now<00:00:51.769> in<00:00:51.949> our<00:00:52.010> current<00:00:52.399> beta<00:00:52.609> i'm
+
+00:00:52.930 --> 00:00:52.940 
+right now in our current beta i'm
+
+00:00:52.940 --> 00:00:55.299 
+right now in our current beta i'm
+working<00:00:53.180> on<00:00:53.359> 2010<00:00:53.840> support<00:00:54.260> so<00:00:54.530> you<00:00:55.070> know<00:00:55.160> in<00:00:55.250> a
+
+00:00:55.299 --> 00:00:55.309 
+working on 2010 support so you know in a
+
+00:00:55.309 --> 00:00:56.470 
+working on 2010 support so you know in a
+few<00:00:55.340> weeks<00:00:55.579> we<00:00:55.760> should<00:00:55.789> have<00:00:56.000> that<00:00:56.030> ready<00:00:56.359> to
+
+00:00:56.470 --> 00:00:56.480 
+few weeks we should have that ready to
+
+00:00:56.480 --> 00:00:58.750 
+few weeks we should have that ready to
+go<00:00:56.600> excellent<00:00:57.350> so<00:00:57.530> does<00:00:57.980> this<00:00:58.129> only<00:00:58.309> work<00:00:58.640> with
+
+00:00:58.750 --> 00:00:58.760 
+go excellent so does this only work with
+
+00:00:58.760 --> 00:01:01.990 
+go excellent so does this only work with
+NVIDIA<00:00:59.149> GPUs<00:00:59.890> so<00:01:00.890> the<00:01:01.100> the<00:01:01.429> shader<00:01:01.670> debugger
+
+00:01:01.990 --> 00:01:02.000 
+NVIDIA GPUs so the the shader debugger
+
+00:01:02.000 --> 00:01:03.849 
+NVIDIA GPUs so the the shader debugger
+is<00:01:02.120> is<00:01:02.690> something<00:01:03.109> that<00:01:03.230> we<00:01:03.350> hook<00:01:03.500> into<00:01:03.679> our
+
+00:01:03.849 --> 00:01:03.859 
+is is something that we hook into our
+
+00:01:03.859 --> 00:01:04.770 
+is is something that we hook into our
+own<00:01:03.980> Harvard
+
+00:01:04.770 --> 00:01:04.780 
+own Harvard
+
+00:01:04.780 --> 00:01:06.510 
+own Harvard
+because<00:01:04.989> that's<00:01:05.560> up<00:01:05.770> we<00:01:05.920> were<00:01:06.040> actually<00:01:06.159> live
+
+00:01:06.510 --> 00:01:06.520 
+because that's up we were actually live
+
+00:01:06.520 --> 00:01:08.990 
+because that's up we were actually live
+debugging<00:01:07.090> the<00:01:07.180> GPU<00:01:07.630> on<00:01:07.869> the<00:01:08.110> hardware<00:01:08.380> itself
+
+00:01:08.990 --> 00:01:09.000 
+debugging the GPU on the hardware itself
+
+00:01:09.000 --> 00:01:12.480 
+debugging the GPU on the hardware itself
+but<00:01:10.000> the<00:01:10.270> API<00:01:10.990> level<00:01:11.320> functionality<00:01:12.130> can<00:01:12.430> be
+
+00:01:12.480 --> 00:01:12.490 
+but the API level functionality can be
+
+00:01:12.490 --> 00:01:15.539 
+but the API level functionality can be
+used<00:01:13.020> that's<00:01:14.020> great<00:01:14.229> so<00:01:14.500> what<00:01:15.100> would<00:01:15.190> you<00:01:15.250> say
+
+00:01:15.539 --> 00:01:15.549 
+used that's great so what would you say
+
+00:01:15.549 --> 00:01:17.280 
+used that's great so what would you say
+are<00:01:15.580> like<00:01:15.880> the<00:01:16.030> top<00:01:16.240> three<00:01:16.570> things<00:01:16.810> you<00:01:17.049> really
+
+00:01:17.280 --> 00:01:17.290 
+are like the top three things you really
+
+00:01:17.290 --> 00:01:18.660 
+are like the top three things you really
+want<00:01:17.500> people<00:01:17.590> to<00:01:17.770> be<00:01:17.890> excited<00:01:18.310> about<00:01:18.369> when
+
+00:01:18.660 --> 00:01:18.670 
+want people to be excited about when
+
+00:01:18.670 --> 00:01:20.340 
+want people to be excited about when
+they're<00:01:18.820> looking<00:01:19.360> and<00:01:19.659> thinking<00:01:19.690> about<00:01:20.140> using
+
+00:01:20.340 --> 00:01:20.350 
+they're looking and thinking about using
+
+00:01:20.350 --> 00:01:22.920 
+they're looking and thinking about using
+nvidia<00:01:21.310> parallel<00:01:21.700> site<00:01:22.000> so<00:01:22.300> number<00:01:22.479> one<00:01:22.720> is<00:01:22.750> a
+
+00:01:22.920 --> 00:01:22.930 
+nvidia parallel site so number one is a
+
+00:01:22.930 --> 00:01:24.149 
+nvidia parallel site so number one is a
+hardware-based<00:01:23.259> you<00:01:23.500> to<00:01:23.619> demote<00:01:23.830> so
+
+00:01:24.149 --> 00:01:24.159 
+hardware-based you to demote so
+
+00:01:24.159 --> 00:01:26.520 
+hardware-based you to demote so
+basically<00:01:24.580> its<00:01:25.000> individual<00:01:25.899> studio<00:01:26.200> using
+
+00:01:26.520 --> 00:01:26.530 
+basically its individual studio using
+
+00:01:26.530 --> 00:01:28.469 
+basically its individual studio using
+this<00:01:26.640> familiar<00:01:27.640> you<00:01:27.820> the<00:01:28.000> visual<00:01:28.149> studio
+
+00:01:28.469 --> 00:01:28.479 
+this familiar you the visual studio
+
+00:01:28.479 --> 00:01:30.450 
+this familiar you the visual studio
+interface<00:01:28.869> even<00:01:29.530> have<00:01:29.649> pulled<00:01:29.920> debugger<00:01:30.310> that
+
+00:01:30.450 --> 00:01:30.460 
+interface even have pulled debugger that
+
+00:01:30.460 --> 00:01:31.950 
+interface even have pulled debugger that
+looks<00:01:30.580> just<00:01:30.759> like<00:01:31.060> you<00:01:31.240> give<00:01:31.630> I<00:01:31.720> can<00:01:31.869> see
+
+00:01:31.950 --> 00:01:31.960 
+looks just like you give I can see
+
+00:01:31.960 --> 00:01:34.940 
+looks just like you give I can see
+pupils<00:01:32.380> let's<00:01:32.590> move<00:01:32.740> one<00:01:33.030> number<00:01:34.030> two<00:01:34.240> is<00:01:34.509> our
+
+00:01:34.940 --> 00:01:34.950 
+pupils let's move one number two is our
+
+00:01:34.950 --> 00:01:38.550 
+pupils let's move one number two is our
+combined<00:01:35.950> CPU<00:01:36.460> GPU<00:01:36.670> and<00:01:37.030> else<00:01:37.149> so<00:01:37.840> this<00:01:38.380> gives
+
+00:01:38.550 --> 00:01:38.560 
+combined CPU GPU and else so this gives
+
+00:01:38.560 --> 00:01:41.340 
+combined CPU GPU and else so this gives
+you<00:01:38.830> a<00:01:38.860> correlated<00:01:39.550> timeline<00:01:40.030> across<00:01:40.479> all<00:01:41.320> of
+
+00:01:41.340 --> 00:01:41.350 
+you a correlated timeline across all of
+
+00:01:41.350 --> 00:01:42.779 
+you a correlated timeline across all of
+your<00:01:41.560> activities<00:01:41.679> whether<00:01:42.130> they<00:01:42.250> be<00:01:42.340> acute
+
+00:01:42.779 --> 00:01:42.789 
+your activities whether they be acute
+
+00:01:42.789 --> 00:01:44.040 
+your activities whether they be acute
+whether<00:01:43.000> the<00:01:43.179> graphics<00:01:43.630> and<00:01:43.810> what<00:01:43.899> will<00:01:43.990> they
+
+00:01:44.040 --> 00:01:44.050 
+whether the graphics and what will they
+
+00:01:44.050 --> 00:01:45.960 
+whether the graphics and what will they
+be<00:01:44.170> CPU<00:01:44.590> of<00:01:45.159> what's<00:01:45.429> happening<00:01:45.820> on<00:01:45.940> your
+
+00:01:45.960 --> 00:01:45.970 
+be CPU of what's happening on your
+
+00:01:45.970 --> 00:01:48.540 
+be CPU of what's happening on your
+system<00:01:46.710> finally<00:01:47.710> our<00:01:48.130> state-of-the-art
+
+00:01:48.540 --> 00:01:48.550 
+system finally our state-of-the-art
+
+00:01:48.550 --> 00:01:50.790 
+system finally our state-of-the-art
+frame<00:01:49.030> debugging<00:01:49.390> tools<00:01:49.600> I<00:01:49.960> think<00:01:50.710> you'll
+
+00:01:50.790 --> 00:01:50.800 
+frame debugging tools I think you'll
+
+00:01:50.800 --> 00:01:52.710 
+frame debugging tools I think you'll
+agree<00:01:50.920> are<00:01:51.159> just<00:01:51.640> are<00:01:51.880> just<00:01:51.940> fantastic<00:01:52.210> you
+
+00:01:52.710 --> 00:01:52.720 
+agree are just are just fantastic you
+
+00:01:52.720 --> 00:01:53.910 
+agree are just are just fantastic you
+know<00:01:52.810> something<00:01:53.110> really<00:01:53.319> cool<00:01:53.530> to<00:01:53.590> kind<00:01:53.890> of
+
+00:01:53.910 --> 00:01:53.920 
+know something really cool to kind of
+
+00:01:53.920 --> 00:01:55.320 
+know something really cool to kind of
+show<00:01:54.069> on<00:01:54.220> the<00:01:54.340> screen<00:01:54.490> that<00:01:54.610> we<00:01:54.819> can<00:01:54.970> see<00:01:55.119> real
+
+00:01:55.320 --> 00:01:55.330 
+show on the screen that we can see real
+
+00:01:55.330 --> 00:01:57.450 
+show on the screen that we can see real
+quick<00:01:55.360> that<00:01:55.720> just<00:01:56.560> really<00:01:56.770> makes<00:01:56.950> a<00:01:57.100> parallel
+
+00:01:57.450 --> 00:01:57.460 
+quick that just really makes a parallel
+
+00:01:57.460 --> 00:02:00.300 
+quick that just really makes a parallel
+fight<00:01:57.700> shine<00:01:57.970> absolutely<00:01:58.929> so<00:01:59.229> let<00:01:59.920> me<00:01:59.950> let<00:02:00.250> me
+
+00:02:00.300 --> 00:02:00.310 
+fight shine absolutely so let me let me
+
+00:02:00.310 --> 00:02:02.010 
+fight shine absolutely so let me let me
+show<00:02:00.490> you<00:02:00.550> how<00:02:00.700> you<00:02:00.940> can<00:02:01.060> buy<00:02:01.330> debug<00:02:01.840> this
+
+00:02:02.010 --> 00:02:02.020 
+show you how you can buy debug this
+
+00:02:02.020 --> 00:02:03.779 
+show you how you can buy debug this
+frame<00:02:02.350> I'm<00:02:02.770> you<00:02:02.979> can<00:02:03.100> see<00:02:03.250> I<00:02:03.280> have<00:02:03.369> visual
+
+00:02:03.779 --> 00:02:03.789 
+frame I'm you can see I have visual
+
+00:02:03.789 --> 00:02:05.550 
+frame I'm you can see I have visual
+studio<00:02:03.880> all<00:02:04.869> right<00:02:05.020> we're<00:02:05.140> going<00:02:05.229> to<00:02:05.289> switch
+
+00:02:05.550 --> 00:02:05.560 
+studio all right we're going to switch
+
+00:02:05.560 --> 00:02:06.660 
+studio all right we're going to switch
+back<00:02:05.740> and<00:02:05.770> forth<00:02:05.920> here<00:02:06.250> so<00:02:06.429> we<00:02:06.520> got<00:02:06.640> our
+
+00:02:06.660 --> 00:02:06.670 
+back and forth here so we got our
+
+00:02:06.670 --> 00:02:09.259 
+back and forth here so we got our
+rendered<00:02:07.119> image<00:02:07.390> over<00:02:07.600> here<00:02:07.739> okay<00:02:08.739> great<00:02:08.890> and
+
+00:02:09.259 --> 00:02:09.269 
+rendered image over here okay great and
+
+00:02:09.269 --> 00:02:11.610 
+rendered image over here okay great and
+one<00:02:10.269> thing<00:02:10.299> that's<00:02:10.479> cool<00:02:10.869> number<00:02:11.110> one<00:02:11.380> is<00:02:11.590> that
+
+00:02:11.610 --> 00:02:11.620 
+one thing that's cool number one is that
+
+00:02:11.620 --> 00:02:14.160 
+one thing that's cool number one is that
+you<00:02:11.799> can<00:02:12.310> you<00:02:12.940> can<00:02:13.060> actually<00:02:13.209> you<00:02:13.840> know<00:02:13.930> watch
+
+00:02:14.160 --> 00:02:14.170 
+you can you can actually you know watch
+
+00:02:14.170 --> 00:02:16.229 
+you can you can actually you know watch
+how<00:02:14.470> your<00:02:14.680> friend<00:02:14.980> gets<00:02:15.190> built<00:02:15.400> up<00:02:15.579> using<00:02:15.970> the
+
+00:02:16.229 --> 00:02:16.239 
+how your friend gets built up using the
+
+00:02:16.239 --> 00:02:18.720 
+how your friend gets built up using the
+parallel<00:02:16.660> inside<00:02:17.049> beautiful<00:02:17.560> so<00:02:18.160> you<00:02:18.310> can<00:02:18.549> see
+
+00:02:18.720 --> 00:02:18.730 
+parallel inside beautiful so you can see
+
+00:02:18.730 --> 00:02:20.970 
+parallel inside beautiful so you can see
+all<00:02:19.209> the<00:02:19.390> different<00:02:19.480> pieces<00:02:19.900> getting<00:02:20.560> built
+
+00:02:20.970 --> 00:02:20.980 
+all the different pieces getting built
+
+00:02:20.980 --> 00:02:22.170 
+all the different pieces getting built
+up<00:02:21.160> and<00:02:21.430> all<00:02:21.579> the<00:02:21.670> different<00:02:21.910> pieces<00:02:22.000> of
+
+00:02:22.170 --> 00:02:22.180 
+up and all the different pieces of
+
+00:02:22.180 --> 00:02:24.060 
+up and all the different pieces of
+geometry<00:02:22.390> now<00:02:23.230> if<00:02:23.320> we<00:02:23.440> come<00:02:23.620> back<00:02:23.739> over<00:02:24.040> here
+
+00:02:24.060 --> 00:02:24.070 
+geometry now if we come back over here
+
+00:02:24.070 --> 00:02:25.979 
+geometry now if we come back over here
+to<00:02:24.190> visual<00:02:24.489> studio<00:02:24.670> you'll<00:02:25.480> notice<00:02:25.810> that<00:02:25.840> we
+
+00:02:25.979 --> 00:02:25.989 
+to visual studio you'll notice that we
+
+00:02:25.989 --> 00:02:27.420 
+to visual studio you'll notice that we
+can<00:02:26.170> see<00:02:26.320> the<00:02:26.470> same<00:02:26.620> frame<00:02:26.890> over<00:02:27.160> here<00:02:27.310> now
+
+00:02:27.420 --> 00:02:27.430 
+can see the same frame over here now
+
+00:02:27.430 --> 00:02:30.630 
+can see the same frame over here now
+same<00:02:27.670> frame<00:02:28.090> and<00:02:28.420> also<00:02:28.750> which<00:02:29.620> event<00:02:30.370> in<00:02:30.519> which
+
+00:02:30.630 --> 00:02:30.640 
+same frame and also which event in which
+
+00:02:30.640 --> 00:02:33.599 
+same frame and also which event in which
+piece<00:02:30.850> of<00:02:30.880> geometry<00:02:31.180> Rama<00:02:31.690> is<00:02:31.959> also<00:02:32.350> sick<00:02:33.250> so
+
+00:02:33.599 --> 00:02:33.609 
+piece of geometry Rama is also sick so
+
+00:02:33.609 --> 00:02:35.250 
+piece of geometry Rama is also sick so
+between<00:02:33.910> the<00:02:34.090> HUD<00:02:34.269> and<00:02:34.299> then<00:02:34.780> hopefully<00:02:35.170> us
+
+00:02:35.250 --> 00:02:35.260 
+between the HUD and then hopefully us
+
+00:02:35.260 --> 00:02:36.990 
+between the HUD and then hopefully us
+all<00:02:35.440> about<00:02:35.530> focus<00:02:36.130> in<00:02:36.250> a<00:02:36.280> little<00:02:36.519> bit<00:02:36.670> so<00:02:36.850> go
+
+00:02:36.990 --> 00:02:37.000 
+all about focus in a little bit so go
+
+00:02:37.000 --> 00:02:39.390 
+all about focus in a little bit so go
+ahead<00:02:37.090> and<00:02:37.239> keep<00:02:37.390> going<00:02:37.600> so<00:02:38.410> now<00:02:38.890> you<00:02:38.950> can<00:02:39.280> also
+
+00:02:39.390 --> 00:02:39.400 
+ahead and keep going so now you can also
+
+00:02:39.400 --> 00:02:41.280 
+ahead and keep going so now you can also
+click<00:02:39.790> down<00:02:40.060> and<00:02:40.269> drill<00:02:40.510> down<00:02:40.540> and<00:02:41.019> to<00:02:41.079> see
+
+00:02:41.280 --> 00:02:41.290 
+click down and drill down and to see
+
+00:02:41.290 --> 00:02:44.460 
+click down and drill down and to see
+more<00:02:41.920> about<00:02:42.100> the<00:02:42.989> event<00:02:43.989> that<00:02:44.290> we<00:02:44.380> were
+
+00:02:44.460 --> 00:02:44.470 
+more about the event that we were
+
+00:02:44.470 --> 00:02:44.940 
+more about the event that we were
+looking<00:02:44.739> at
+
+00:02:44.940 --> 00:02:44.950 
+looking at
+
+00:02:44.950 --> 00:02:46.920 
+looking at
+very<00:02:45.190> cool<00:02:45.340> here's<00:02:45.790> the<00:02:45.849> geometry<00:02:46.510> for<00:02:46.780> that
+
+00:02:46.920 --> 00:02:46.930 
+very cool here's the geometry for that
+
+00:02:46.930 --> 00:02:49.320 
+very cool here's the geometry for that
+draw<00:02:47.170> hull<00:02:47.440> here<00:02:48.250> are<00:02:48.370> the<00:02:48.459> textures<00:02:48.910> so<00:02:49.120> I<00:02:49.150> can
+
+00:02:49.320 --> 00:02:49.330 
+draw hull here are the textures so I can
+
+00:02:49.330 --> 00:02:51.119 
+draw hull here are the textures so I can
+click<00:02:49.450> on<00:02:49.569> in<00:02:49.690> these<00:02:49.780> textures<00:02:50.290> I<00:02:50.470> see<00:02:51.010> the
+
+00:02:51.119 --> 00:02:51.129 
+click on in these textures I see the
+
+00:02:51.129 --> 00:02:52.410 
+click on in these textures I see the
+textures<00:02:51.519> and<00:02:51.550> of<00:02:51.849> course<00:02:52.030> all<00:02:52.120> the<00:02:52.269> nip
+
+00:02:52.410 --> 00:02:52.420 
+textures and of course all the nip
+
+00:02:52.420 --> 00:02:54.479 
+textures and of course all the nip
+levels<00:02:52.780> of<00:02:52.959> that<00:02:53.379> texture<00:02:53.709> laid<00:02:53.950> out<00:02:54.099> under<00:02:54.370> it
+
+00:02:54.479 --> 00:02:54.489 
+levels of that texture laid out under it
+
+00:02:54.489 --> 00:02:57.180 
+levels of that texture laid out under it
+and<00:02:55.019> and<00:02:56.019> I<00:02:56.140> can<00:02:56.290> click<00:02:56.379> on<00:02:56.470> any<00:02:56.560> state<00:02:56.980> in<00:02:57.129> the
+
+00:02:57.180 --> 00:02:57.190 
+and and I can click on any state in the
+
+00:02:57.190 --> 00:03:00.509 
+and and I can click on any state in the
+dx11<00:02:57.610> pipeline<00:02:58.239> and<00:02:58.569> I<00:02:58.930> can<00:02:59.140> get<00:02:59.319> state<00:03:00.010> for
+
+00:03:00.509 --> 00:03:00.519 
+dx11 pipeline and I can get state for
+
+00:03:00.519 --> 00:03:02.339 
+dx11 pipeline and I can get state for
+for<00:03:01.030> levitating<00:03:01.540> alright<00:03:01.930> so<00:03:02.080> you<00:03:02.170> can<00:03:02.260> see
+
+00:03:02.339 --> 00:03:02.349 
+for levitating alright so you can see
+
+00:03:02.349 --> 00:03:03.809 
+for levitating alright so you can see
+vertex<00:03:02.739> shader<00:03:02.920> through<00:03:03.190> the<00:03:03.340> tops<00:03:03.550> and<00:03:03.760> we
+
+00:03:03.809 --> 00:03:03.819 
+vertex shader through the tops and we
+
+00:03:03.819 --> 00:03:05.190 
+vertex shader through the tops and we
+click<00:03:04.030> on<00:03:04.150> that<00:03:04.269> we<00:03:04.420> just<00:03:04.569> up<00:03:04.690> to<00:03:04.720> do<00:03:04.840> that<00:03:05.019> real
+
+00:03:05.190 --> 00:03:05.200 
+click on that we just up to do that real
+
+00:03:05.200 --> 00:03:06.509 
+click on that we just up to do that real
+quick<00:03:05.230> exactly<00:03:06.010> can<00:03:06.099> see<00:03:06.220> the<00:03:06.340> full<00:03:06.489> list
+
+00:03:06.509 --> 00:03:06.519 
+quick exactly can see the full list
+
+00:03:06.519 --> 00:03:08.370 
+quick exactly can see the full list
+what's<00:03:06.910> happening<00:03:07.239> in<00:03:07.330> there<00:03:07.480> exactly
+
+00:03:08.370 --> 00:03:08.380 
+what's happening in there exactly
+
+00:03:08.380 --> 00:03:10.589 
+what's happening in there exactly
+alright<00:03:08.680> so<00:03:09.519> now<00:03:09.819> one<00:03:10.000> other<00:03:10.030> really<00:03:10.300> cool
+
+00:03:10.589 --> 00:03:10.599 
+alright so now one other really cool
+
+00:03:10.599 --> 00:03:14.610 
+alright so now one other really cool
+thing<00:03:10.840> is<00:03:11.010> is<00:03:12.010> the<00:03:12.400> ability<00:03:12.580> to<00:03:13.440> do<00:03:14.440> this
+
+00:03:14.610 --> 00:03:14.620 
+thing is is the ability to do this
+
+00:03:14.620 --> 00:03:18.229 
+thing is is the ability to do this
+combined<00:03:15.340> cpu<00:03:15.730> GPU<00:03:15.760> pipe<00:03:16.390> trace
+
+00:03:18.229 --> 00:03:18.239 
+combined cpu GPU pipe trace
+
+00:03:18.239 --> 00:03:21.449 
+combined cpu GPU pipe trace
+so<00:03:19.239> you<00:03:19.329> can<00:03:19.420> see<00:03:19.569> here<00:03:19.840> I<00:03:19.870> have<00:03:20.189> let<00:03:21.189> me<00:03:21.280> zoom
+
+00:03:21.449 --> 00:03:21.459 
+so you can see here I have let me zoom
+
+00:03:21.459 --> 00:03:24.869 
+so you can see here I have let me zoom
+out<00:03:21.609> a<00:03:21.670> little<00:03:21.760> bit<00:03:22.090> i<00:03:22.299> have<00:03:23.249> cpu<00:03:24.249> information
+
+00:03:24.869 --> 00:03:24.879 
+out a little bit i have cpu information
+
+00:03:24.879 --> 00:03:26.670 
+out a little bit i have cpu information
+here<00:03:25.120> like<00:03:25.389> for<00:03:25.569> instance<00:03:25.659> core<00:03:26.079> utilization
+
+00:03:26.670 --> 00:03:26.680 
+here like for instance core utilization
+
+00:03:26.680 --> 00:03:28.110 
+here like for instance core utilization
+for<00:03:26.859> for<00:03:27.099> this<00:03:27.189> is<00:03:27.340> on<00:03:27.430> a<00:03:27.459> dual-core<00:03:27.879> bomb
+
+00:03:28.110 --> 00:03:28.120 
+for for this is on a dual-core bomb
+
+00:03:28.120 --> 00:03:30.089 
+for for this is on a dual-core bomb
+right<00:03:28.569> as<00:03:28.780> we<00:03:28.900> see<00:03:29.019> two<00:03:29.170> cores<00:03:29.469> you<00:03:29.829> can<00:03:29.950> also
+
+00:03:30.089 --> 00:03:30.099 
+right as we see two cores you can also
+
+00:03:30.099 --> 00:03:32.699 
+right as we see two cores you can also
+see<00:03:30.340> which<00:03:30.549> processes<00:03:31.030> were<00:03:31.180> running<00:03:31.709> purple
+
+00:03:32.699 --> 00:03:32.709 
+see which processes were running purple
+
+00:03:32.709 --> 00:03:34.289 
+see which processes were running purple
+means<00:03:32.739> that<00:03:33.189> hey<00:03:33.340> that<00:03:33.609> wasn't<00:03:33.790> our<00:03:33.939> process
+
+00:03:34.289 --> 00:03:34.299 
+means that hey that wasn't our process
+
+00:03:34.299 --> 00:03:35.429 
+means that hey that wasn't our process
+running<00:03:34.510> that<00:03:34.719> was<00:03:34.810> something<00:03:34.989> else<00:03:35.139> running
+
+00:03:35.429 --> 00:03:35.439 
+running that was something else running
+
+00:03:35.439 --> 00:03:36.929 
+running that was something else running
+in<00:03:35.590> a<00:03:35.620> fetal<00:03:35.769> mouse<00:03:36.189> over<00:03:36.489> it<00:03:36.579> you<00:03:36.639> can<00:03:36.790> see
+
+00:03:36.929 --> 00:03:36.939 
+in a fetal mouse over it you can see
+
+00:03:36.939 --> 00:03:39.420 
+in a fetal mouse over it you can see
+what<00:03:37.090> process<00:03:37.450> that<00:03:37.629> was<00:03:37.780> now<00:03:38.739> as<00:03:38.980> we<00:03:39.159> drill
+
+00:03:39.420 --> 00:03:39.430 
+what process that was now as we drill
+
+00:03:39.430 --> 00:03:41.129 
+what process that was now as we drill
+down<00:03:39.459> more<00:03:39.849> you<00:03:40.359> can<00:03:40.480> actually<00:03:40.599> see<00:03:40.750> what<00:03:41.019> was
+
+00:03:41.129 --> 00:03:41.139 
+down more you can actually see what was
+
+00:03:41.139 --> 00:03:43.979 
+down more you can actually see what was
+running<00:03:41.439> on<00:03:41.500> the<00:03:41.650> GPU<00:03:42.010> so<00:03:42.370> i<00:03:42.639> can<00:03:43.180> see<00:03:43.420> memory
+
+00:03:43.979 --> 00:03:43.989 
+running on the GPU so i can see memory
+
+00:03:43.989 --> 00:03:45.959 
+running on the GPU so i can see memory
+transfers<00:03:44.439> that<00:03:44.560> happen<00:03:44.889> on<00:03:45.010> the<00:03:45.099> GPU<00:03:45.430> between
+
+00:03:45.959 --> 00:03:45.969 
+transfers that happen on the GPU between
+
+00:03:45.969 --> 00:03:48.569 
+transfers that happen on the GPU between
+the<00:03:46.030> GPU<00:03:46.389> area<00:03:46.840> and<00:03:47.230> the<00:03:47.379> cpu<00:03:47.769> so<00:03:47.980> so<00:03:48.340> you<00:03:48.430> can
+
+00:03:48.569 --> 00:03:48.579 
+the GPU area and the cpu so so you can
+
+00:03:48.579 --> 00:03:49.770 
+the GPU area and the cpu so so you can
+actually<00:03:48.700> see<00:03:48.879> those<00:03:49.090> transfers<00:03:49.569> that<00:03:49.659> are
+
+00:03:49.770 --> 00:03:49.780 
+actually see those transfers that are
+
+00:03:49.780 --> 00:03:52.140 
+actually see those transfers that are
+having<00:03:50.019> CPU<00:03:50.530> GPU<00:03:50.769> you<00:03:51.489> can<00:03:51.639> really<00:03:51.760> see<00:03:51.969> all
+
+00:03:52.140 --> 00:03:52.150 
+having CPU GPU you can really see all
+
+00:03:52.150 --> 00:03:53.640 
+having CPU GPU you can really see all
+the<00:03:52.269> full<00:03:52.480> details<00:03:52.870> that<00:03:53.049> are<00:03:53.139> happening<00:03:53.290> to
+
+00:03:53.640 --> 00:03:53.650 
+the full details that are happening to
+
+00:03:53.650 --> 00:03:55.709 
+the full details that are happening to
+throughout<00:03:53.950> the<00:03:54.159> system<00:03:54.340> not<00:03:54.939> just<00:03:55.000> on<00:03:55.510> the
+
+00:03:55.709 --> 00:03:55.719 
+throughout the system not just on the
+
+00:03:55.719 --> 00:03:58.080 
+throughout the system not just on the
+nvidia<00:03:56.049> GPU<00:03:56.530> but<00:03:57.069> across<00:03:57.280> the<00:03:57.549> entire<00:03:57.819> scheme
+
+00:03:58.080 --> 00:03:58.090 
+nvidia GPU but across the entire scheme
+
+00:03:58.090 --> 00:04:00.390 
+nvidia GPU but across the entire scheme
+exactly<00:03:58.810> and<00:03:58.959> i<00:03:59.290> can<00:03:59.409> always<00:03:59.500> do<00:03:59.709> min<00:03:59.889> and<00:04:00.099> then
+
+00:04:00.390 --> 00:04:00.400 
+exactly and i can always do min and then
+
+00:04:00.400 --> 00:04:02.009 
+exactly and i can always do min and then
+look<00:04:00.639> at<00:04:00.730> any<00:04:00.939> of<00:04:01.030> the<00:04:01.209> details<00:04:01.299> i<00:04:01.629> want<00:04:01.840> right
+
+00:04:02.009 --> 00:04:02.019 
+look at any of the details i want right
+
+00:04:02.019 --> 00:04:04.500 
+look at any of the details i want right
+great<00:04:02.560> that's<00:04:03.250> excellent<00:04:03.400> alright<00:04:04.120> tomorrow
+
+00:04:04.500 --> 00:04:04.510 
+great that's excellent alright tomorrow
+
+00:04:04.510 --> 00:04:05.819 
+great that's excellent alright tomorrow
+thank<00:04:04.840> you<00:04:04.900> very<00:04:05.079> much<00:04:05.230> man<00:04:05.469> this<00:04:05.650> has<00:04:05.739> been
+
+00:04:05.819 --> 00:04:05.829 
+thank you very much man this has been
+
+00:04:05.829 --> 00:04:08.640 
+thank you very much man this has been
+awesome<00:04:06.040> and<00:04:06.629> thanks<00:04:07.629> for<00:04:07.810> coming<00:04:07.840> out<00:04:08.290> in<00:04:08.409> GDC
+
+00:04:08.640 --> 00:04:08.650 
+awesome and thanks for coming out in GDC
+
+00:04:08.650 --> 00:04:11.670 
+awesome and thanks for coming out in GDC
+and<00:04:09.040> showing<00:04:09.250> all<00:04:09.340> the<00:04:09.370> stuff<00:04:09.669> and<00:04:10.109> we<00:04:11.109> hope<00:04:11.560> to
+
+00:04:11.670 --> 00:04:11.680 
+and showing all the stuff and we hope to
+
+00:04:11.680 --> 00:04:12.809 
+and showing all the stuff and we hope to
+have<00:04:11.709> a<00:04:11.829> lot<00:04:11.980> of<00:04:12.010> people<00:04:12.280> coming<00:04:12.489> out<00:04:12.549> and<00:04:12.669> take
+
+00:04:12.809 --> 00:04:12.819 
+have a lot of people coming out and take
+
+00:04:12.819 --> 00:04:14.129 
+have a lot of people coming out and take
+them<00:04:12.909> with<00:04:13.000> capela<00:04:13.239> insight<00:04:13.569> that's<00:04:13.840> awesome
+
+00:04:14.129 --> 00:04:14.139 
+them with capela insight that's awesome
+
+00:04:14.139 --> 00:04:16.889 
+them with capela insight that's awesome
+thanks<00:04:14.469> a<00:04:14.500> lot<00:04:14.590> like
+

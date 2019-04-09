@@ -1,0 +1,680 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.030 
+
+before<00:00:00.570> we<00:00:00.659> get<00:00:00.780> going<00:00:00.840> we<00:00:01.260> need<00:00:01.410> to<00:00:01.589> create<00:00:01.949> a
+
+00:00:02.030 --> 00:00:02.040 
+before we get going we need to create a
+
+00:00:02.040 --> 00:00:04.370 
+before we get going we need to create a
+fresh<00:00:02.370> layer<00:00:02.610> of<00:00:02.669> our<00:00:02.909> installation<00:00:03.570> and<00:00:03.810> give
+
+00:00:04.370 --> 00:00:04.380 
+fresh layer of our installation and give
+
+00:00:04.380 --> 00:00:07.010 
+fresh layer of our installation and give
+our<00:00:04.589> app<00:00:04.859> a<00:00:05.100> name<00:00:05.420> now<00:00:06.420> if<00:00:06.660> you're<00:00:06.810> familiar
+
+00:00:07.010 --> 00:00:07.020 
+our app a name now if you're familiar
+
+00:00:07.020 --> 00:00:09.020 
+our app a name now if you're familiar
+with<00:00:07.319> setting<00:00:07.830> up<00:00:07.919> laravel<00:00:08.429> you<00:00:08.849> can
+
+00:00:09.020 --> 00:00:09.030 
+with setting up laravel you can
+
+00:00:09.030 --> 00:00:10.970 
+with setting up laravel you can
+obviously<00:00:09.269> skip<00:00:10.019> this<00:00:10.230> step<00:00:10.500> it<00:00:10.769> doesn't
+
+00:00:10.970 --> 00:00:10.980 
+obviously skip this step it doesn't
+
+00:00:10.980 --> 00:00:12.470 
+obviously skip this step it doesn't
+really<00:00:11.070> apply<00:00:11.219> to<00:00:11.429> if<00:00:11.820> you<00:00:11.969> already<00:00:12.120> know<00:00:12.360> how
+
+00:00:12.470 --> 00:00:12.480 
+really apply to if you already know how
+
+00:00:12.480 --> 00:00:15.609 
+really apply to if you already know how
+to<00:00:12.509> create<00:00:12.809> a<00:00:13.139> laravel<00:00:13.830> fresh<00:00:14.820> installation
+
+00:00:15.609 --> 00:00:15.619 
+to create a laravel fresh installation
+
+00:00:15.619 --> 00:00:17.720 
+to create a laravel fresh installation
+it's<00:00:16.619> worth<00:00:16.770> noting<00:00:17.220> I'm<00:00:17.340> also<00:00:17.520> using
+
+00:00:17.720 --> 00:00:17.730 
+it's worth noting I'm also using
+
+00:00:17.730 --> 00:00:19.970 
+it's worth noting I'm also using
+homestead<00:00:18.630> which<00:00:18.840> I'd<00:00:19.020> highly<00:00:19.410> recommend<00:00:19.439> you
+
+00:00:19.970 --> 00:00:19.980 
+homestead which I'd highly recommend you
+
+00:00:19.980 --> 00:00:21.529 
+homestead which I'd highly recommend you
+use<00:00:20.250> for<00:00:20.520> local<00:00:20.820> development<00:00:21.150> when<00:00:21.420> you're
+
+00:00:21.529 --> 00:00:21.539 
+use for local development when you're
+
+00:00:21.539 --> 00:00:23.450 
+use for local development when you're
+working<00:00:21.840> with<00:00:21.869> laravel<00:00:22.410> if<00:00:23.130> you<00:00:23.279> don't
+
+00:00:23.450 --> 00:00:23.460 
+working with laravel if you don't
+
+00:00:23.460 --> 00:00:24.710 
+working with laravel if you don't
+already<00:00:23.609> have<00:00:23.730> it<00:00:23.850> installed<00:00:24.060> we<00:00:24.510> have<00:00:24.689> a
+
+00:00:24.710 --> 00:00:24.720 
+already have it installed we have a
+
+00:00:24.720 --> 00:00:26.240 
+already have it installed we have a
+guide<00:00:24.960> on<00:00:24.990> doing<00:00:25.470> that<00:00:25.619> so<00:00:25.859> you<00:00:25.890> can<00:00:26.039> go<00:00:26.160> ahead
+
+00:00:26.240 --> 00:00:26.250 
+guide on doing that so you can go ahead
+
+00:00:26.250 --> 00:00:28.009 
+guide on doing that so you can go ahead
+and<00:00:26.369> watch<00:00:26.550> that<00:00:26.789> before<00:00:27.269> returning<00:00:27.779> back<00:00:27.990> to
+
+00:00:28.009 --> 00:00:28.019 
+and watch that before returning back to
+
+00:00:28.019 --> 00:00:31.700 
+and watch that before returning back to
+this<00:00:28.260> video<00:00:29.090> so<00:00:30.090> let's<00:00:30.840> just<00:00:31.380> take<00:00:31.529> a<00:00:31.560> look
+
+00:00:31.700 --> 00:00:31.710 
+this video so let's just take a look
+
+00:00:31.710 --> 00:00:33.290 
+this video so let's just take a look
+around<00:00:31.830> my<00:00:32.009> directory<00:00:32.520> structure<00:00:32.940> just<00:00:32.969> so<00:00:33.210> we
+
+00:00:33.290 --> 00:00:33.300 
+around my directory structure just so we
+
+00:00:33.300 --> 00:00:34.970 
+around my directory structure just so we
+can<00:00:33.360> understand<00:00:33.809> how<00:00:34.020> I'm<00:00:34.170> setting<00:00:34.559> things<00:00:34.680> up
+
+00:00:34.970 --> 00:00:34.980 
+can understand how I'm setting things up
+
+00:00:34.980 --> 00:00:38.229 
+can understand how I'm setting things up
+I<00:00:35.280> have<00:00:36.120> this<00:00:36.270> folder<00:00:36.540> dub<00:00:36.960> dub<00:00:37.200> dub<00:00:37.230> or
+
+00:00:38.229 --> 00:00:38.239 
+I have this folder dub dub dub or
+
+00:00:38.239 --> 00:00:40.940 
+I have this folder dub dub dub or
+ww-with<00:00:39.239> in<00:00:39.390> my<00:00:39.600> home<00:00:39.960> directory<00:00:40.140> this
+
+00:00:40.940 --> 00:00:40.950 
+ww-with in my home directory this
+
+00:00:40.950 --> 00:00:44.209 
+ww-with in my home directory this
+contains<00:00:41.370> a<00:00:41.579> load<00:00:42.090> of<00:00:42.239> rubbish<00:00:42.500> but<00:00:43.500> I<00:00:43.710> have<00:00:44.040> my
+
+00:00:44.209 --> 00:00:44.219 
+contains a load of rubbish but I have my
+
+00:00:44.219 --> 00:00:47.180 
+contains a load of rubbish but I have my
+homestead<00:00:44.850> folder<00:00:45.570> just<00:00:46.020> in<00:00:46.170> here<00:00:46.469> and<00:00:47.070> I'm
+
+00:00:47.180 --> 00:00:47.190 
+homestead folder just in here and I'm
+
+00:00:47.190 --> 00:00:48.529 
+homestead folder just in here and I'm
+working<00:00:47.370> with<00:00:47.670> an<00:00:47.760> older<00:00:48.180> version<00:00:48.329> of
+
+00:00:48.529 --> 00:00:48.539 
+working with an older version of
+
+00:00:48.539 --> 00:00:50.630 
+working with an older version of
+homestead<00:00:49.079> but<00:00:49.410> it's<00:00:49.680> pretty<00:00:50.039> much<00:00:50.219> the<00:00:50.280> same
+
+00:00:50.630 --> 00:00:50.640 
+homestead but it's pretty much the same
+
+00:00:50.640 --> 00:00:52.869 
+homestead but it's pretty much the same
+if<00:00:50.969> you're<00:00:51.390> working<00:00:51.600> with<00:00:51.870> a<00:00:51.930> newer<00:00:52.110> version
+
+00:00:52.869 --> 00:00:52.879 
+if you're working with a newer version
+
+00:00:52.879 --> 00:00:55.939 
+if you're working with a newer version
+so<00:00:53.879> inside<00:00:54.239> of<00:00:54.360> my<00:00:54.510> terminal<00:00:55.230> I'm<00:00:55.379> currently
+
+00:00:55.939 --> 00:00:55.949 
+so inside of my terminal I'm currently
+
+00:00:55.949 --> 00:00:57.770 
+so inside of my terminal I'm currently
+within<00:00:56.100> my<00:00:56.370> homestead<00:00:56.969> directory<00:00:57.539> and<00:00:57.660> we're
+
+00:00:57.770 --> 00:00:57.780 
+within my homestead directory and we're
+
+00:00:57.780 --> 00:00:59.150 
+within my homestead directory and we're
+going<00:00:57.899> to<00:00:57.989> take<00:00:58.140> a<00:00:58.170> look<00:00:58.410> at<00:00:58.530> my<00:00:58.649> homestead
+
+00:00:59.150 --> 00:00:59.160 
+going to take a look at my homestead
+
+00:00:59.160 --> 00:01:01.369 
+going to take a look at my homestead
+Yamma<00:00:59.460> file<00:00:59.850> if<00:01:00.120> you've<00:01:00.629> set<00:01:00.809> homestead<00:01:01.260> up
+
+00:01:01.369 --> 00:01:01.379 
+Yamma file if you've set homestead up
+
+00:01:01.379 --> 00:01:02.930 
+Yamma file if you've set homestead up
+successfully<00:01:01.770> you'll<00:01:02.190> have<00:01:02.370> a<00:01:02.399> homestead
+
+00:01:02.930 --> 00:01:02.940 
+successfully you'll have a homestead
+
+00:01:02.940 --> 00:01:05.420 
+successfully you'll have a homestead
+Yamma<00:01:03.210> file<00:01:03.539> you<00:01:04.080> can<00:01:04.229> edit<00:01:04.500> to<00:01:05.100> be<00:01:05.189> able<00:01:05.280> to
+
+00:01:05.420 --> 00:01:05.430 
+Yamma file you can edit to be able to
+
+00:01:05.430 --> 00:01:08.300 
+Yamma file you can edit to be able to
+create<00:01:05.760> sites<00:01:06.090> like<00:01:06.390> chatty<00:01:06.780> dev<00:01:07.350> or<00:01:07.920> whatever
+
+00:01:08.300 --> 00:01:08.310 
+create sites like chatty dev or whatever
+
+00:01:08.310 --> 00:01:11.810 
+create sites like chatty dev or whatever
+you're<00:01:08.490> calling<00:01:08.880> it<00:01:09.000> dev<00:01:09.799> so<00:01:10.799> let's<00:01:11.280> have<00:01:11.760> a
+
+00:01:11.810 --> 00:01:11.820 
+you're calling it dev so let's have a
+
+00:01:11.820 --> 00:01:16.520 
+you're calling it dev so let's have a
+look<00:01:12.090> at<00:01:12.420> my<00:01:12.830> homestead<00:01:13.970> yamo<00:01:14.970> file<00:01:15.299> and<00:01:15.540> for
+
+00:01:16.520 --> 00:01:16.530 
+look at my homestead yamo file and for
+
+00:01:16.530 --> 00:01:18.530 
+look at my homestead yamo file and for
+my<00:01:16.650> sites<00:01:16.950> amongst<00:01:17.400> a<00:01:17.729> load<00:01:17.970> of<00:01:18.060> other<00:01:18.180> sites
+
+00:01:18.530 --> 00:01:18.540 
+my sites amongst a load of other sites
+
+00:01:18.540 --> 00:01:21.020 
+my sites amongst a load of other sites
+you<00:01:19.259> can<00:01:19.290> see<00:01:19.590> here<00:01:19.799> that<00:01:19.920> I'm<00:01:20.040> mapping<00:01:20.340> chatty
+
+00:01:21.020 --> 00:01:21.030 
+you can see here that I'm mapping chatty
+
+00:01:21.030 --> 00:01:25.190 
+you can see here that I'm mapping chatty
+dev<00:01:21.600> to<00:01:22.290> home<00:01:22.610> vagrant<00:01:23.610> dub<00:01:24.180> dub<00:01:24.420> dub<00:01:24.450> chatty
+
+00:01:25.190 --> 00:01:25.200 
+dev to home vagrant dub dub dub chatty
+
+00:01:25.200 --> 00:01:28.100 
+dev to home vagrant dub dub dub chatty
+public<00:01:25.890> so<00:01:26.490> dub<00:01:26.759> dub<00:01:26.939> dub<00:01:26.970> is<00:01:27.420> that<00:01:27.630> folder
+
+00:01:28.100 --> 00:01:28.110 
+public so dub dub dub is that folder
+
+00:01:28.110 --> 00:01:30.679 
+public so dub dub dub is that folder
+here<00:01:28.799> we<00:01:29.430> don't<00:01:29.640> have<00:01:29.820> a<00:01:29.850> chatty<00:01:30.119> directory
+
+00:01:30.679 --> 00:01:30.689 
+here we don't have a chatty directory
+
+00:01:30.689 --> 00:01:32.450 
+here we don't have a chatty directory
+here<00:01:30.840> at<00:01:30.930> the<00:01:31.020> moment<00:01:31.470> will<00:01:31.680> create<00:01:31.950> that<00:01:32.220> when
+
+00:01:32.450 --> 00:01:32.460 
+here at the moment will create that when
+
+00:01:32.460 --> 00:01:34.670 
+here at the moment will create that when
+we<00:01:32.549> create<00:01:32.820> a<00:01:32.880> new<00:01:33.000> laravel<00:01:33.390> project<00:01:33.530> but<00:01:34.530> it's
+
+00:01:34.670 --> 00:01:34.680 
+we create a new laravel project but it's
+
+00:01:34.680 --> 00:01:35.840 
+we create a new laravel project but it's
+important<00:01:35.220> to<00:01:35.280> note<00:01:35.460> that<00:01:35.490> we're<00:01:35.700> going
+
+00:01:35.840 --> 00:01:35.850 
+important to note that we're going
+
+00:01:35.850 --> 00:01:38.660 
+important to note that we're going
+straight<00:01:36.299> to<00:01:36.479> the<00:01:36.509> public<00:01:36.990> directory<00:01:37.670> once
+
+00:01:38.660 --> 00:01:38.670 
+straight to the public directory once
+
+00:01:38.670 --> 00:01:39.830 
+straight to the public directory once
+you've<00:01:38.820> done<00:01:38.970> this<00:01:39.119> you<00:01:39.299> can<00:01:39.420> go<00:01:39.509> ahead<00:01:39.630> and
+
+00:01:39.830 --> 00:01:39.840 
+you've done this you can go ahead and
+
+00:01:39.840 --> 00:01:44.440 
+you've done this you can go ahead and
+provision<00:01:40.530> vagrant<00:01:41.340> again<00:01:41.729> by<00:01:42.390> using<00:01:42.770> vagrant
+
+00:01:44.440 --> 00:01:44.450 
+provision vagrant again by using vagrant
+
+00:01:44.450 --> 00:01:46.670 
+provision vagrant again by using vagrant
+provision<00:01:45.450> and<00:01:46.020> that<00:01:46.079> will<00:01:46.259> go<00:01:46.350> ahead<00:01:46.470> and
+
+00:01:46.670 --> 00:01:46.680 
+provision and that will go ahead and
+
+00:01:46.680 --> 00:01:49.069 
+provision and that will go ahead and
+take<00:01:46.860> all<00:01:47.070> your<00:01:47.100> settings<00:01:47.399> into<00:01:47.850> account<00:01:48.210> and
+
+00:01:49.069 --> 00:01:49.079 
+take all your settings into account and
+
+00:01:49.079 --> 00:01:51.560 
+take all your settings into account and
+make<00:01:49.259> sure<00:01:49.439> you<00:01:49.560> have<00:01:49.829> chatty<00:01:50.579> dev<00:01:51.090> in<00:01:51.329> your
+
+00:01:51.560 --> 00:01:51.570 
+make sure you have chatty dev in your
+
+00:01:51.570 --> 00:01:54.170 
+make sure you have chatty dev in your
+hosts<00:01:52.079> file<00:01:52.350> as<00:01:52.560> well<00:01:52.740> you<00:01:53.430> can<00:01:53.579> see<00:01:53.759> that<00:01:53.939> will
+
+00:01:54.170 --> 00:01:54.180 
+hosts file as well you can see that will
+
+00:01:54.180 --> 00:01:57.050 
+hosts file as well you can see that will
+look<00:01:54.360> like<00:01:54.570> this<00:01:54.840> if<00:01:55.110> I<00:01:55.200> just<00:01:55.380> go<00:01:55.560> over<00:01:55.680> and<00:01:56.060> CD
+
+00:01:57.050 --> 00:01:57.060 
+look like this if I just go over and CD
+
+00:01:57.060 --> 00:02:03.520 
+look like this if I just go over and CD
+over<00:01:57.479> to<00:01:58.790> Etsy<00:01:59.790> and<00:02:00.030> then<00:02:00.930> I<00:02:01.020> do<00:02:01.079> a<00:02:01.549> fin<00:02:02.549> on
+
+00:02:03.520 --> 00:02:03.530 
+over to Etsy and then I do a fin on
+
+00:02:03.530 --> 00:02:07.520 
+over to Etsy and then I do a fin on
+hosts<00:02:04.549> just<00:02:05.549> like<00:02:05.729> my<00:02:05.969> password<00:02:06.479> you<00:02:07.200> can<00:02:07.320> see
+
+00:02:07.520 --> 00:02:07.530 
+hosts just like my password you can see
+
+00:02:07.530 --> 00:02:09.949 
+hosts just like my password you can see
+here<00:02:07.799> that<00:02:08.069> I've<00:02:08.160> got<00:02:08.220> one<00:02:08.640> two<00:02:08.819> seven<00:02:09.030> dot<00:02:09.420> dot
+
+00:02:09.949 --> 00:02:09.959 
+here that I've got one two seven dot dot
+
+00:02:09.959 --> 00:02:12.820 
+here that I've got one two seven dot dot
+dot<00:02:10.140> one<00:02:10.319> map<00:02:11.069> too<00:02:11.280> chatty<00:02:11.520> dev
+
+00:02:12.820 --> 00:02:12.830 
+dot one map too chatty dev
+
+00:02:12.830 --> 00:02:15.250 
+dot one map too chatty dev
+okay<00:02:13.760> so<00:02:13.820> now<00:02:14.300> that<00:02:14.360> we've<00:02:14.540> done<00:02:14.690> that<00:02:14.870> let's
+
+00:02:15.250 --> 00:02:15.260 
+okay so now that we've done that let's
+
+00:02:15.260 --> 00:02:17.470 
+okay so now that we've done that let's
+head<00:02:15.500> back<00:02:15.530> over<00:02:15.710> to<00:02:16.130> our<00:02:16.850> dub<00:02:17.240> dub<00:02:17.450> dub
+
+00:02:17.470 --> 00:02:17.480 
+head back over to our dub dub dub
+
+00:02:17.480 --> 00:02:21.100 
+head back over to our dub dub dub
+directory<00:02:18.260> and<00:02:18.640> we<00:02:19.640> are<00:02:19.940> going<00:02:20.240> to<00:02:20.390> go<00:02:20.900> back
+
+00:02:21.100 --> 00:02:21.110 
+directory and we are going to go back
+
+00:02:21.110 --> 00:02:23.230 
+directory and we are going to go back
+into<00:02:21.320> our<00:02:21.530> homestead<00:02:21.980> directory<00:02:22.490> and<00:02:22.970> we're
+
+00:02:23.230 --> 00:02:23.240 
+into our homestead directory and we're
+
+00:02:23.240 --> 00:02:27.190 
+into our homestead directory and we're
+actually<00:02:23.390> going<00:02:23.960> to<00:02:24.160> SSH<00:02:25.160> into<00:02:25.520> our<00:02:26.360> virtual
+
+00:02:27.190 --> 00:02:27.200 
+actually going to SSH into our virtual
+
+00:02:27.200 --> 00:02:30.430 
+actually going to SSH into our virtual
+machine<00:02:27.850> so<00:02:28.850> now<00:02:29.090> we<00:02:29.150> have<00:02:29.660> this<00:02:29.900> dub<00:02:30.230> dub<00:02:30.410> dub
+
+00:02:30.430 --> 00:02:30.440 
+machine so now we have this dub dub dub
+
+00:02:30.440 --> 00:02:33.040 
+machine so now we have this dub dub dub
+directory<00:02:31.130> we<00:02:31.250> can<00:02:31.280> go<00:02:31.490> into<00:02:31.700> this<00:02:32.480> remember
+
+00:02:33.040 --> 00:02:33.050 
+directory we can go into this remember
+
+00:02:33.050 --> 00:02:35.740 
+directory we can go into this remember
+corresponds<00:02:33.980> to<00:02:34.100> the<00:02:34.670> directory<00:02:35.390> that<00:02:35.600> we're
+
+00:02:35.740 --> 00:02:35.750 
+corresponds to the directory that we're
+
+00:02:35.750 --> 00:02:37.810 
+corresponds to the directory that we're
+in<00:02:35.900> here<00:02:35.930> so<00:02:36.410> whatever<00:02:36.590> we<00:02:36.800> do<00:02:36.950> in<00:02:37.070> here<00:02:37.370> will
+
+00:02:37.810 --> 00:02:37.820 
+in here so whatever we do in here will
+
+00:02:37.820 --> 00:02:39.790 
+in here so whatever we do in here will
+be<00:02:37.940> reflected<00:02:38.480> locally<00:02:38.930> from<00:02:39.230> our<00:02:39.410> virtual
+
+00:02:39.790 --> 00:02:39.800 
+be reflected locally from our virtual
+
+00:02:39.800 --> 00:02:44.200 
+be reflected locally from our virtual
+machine<00:02:40.720> so<00:02:41.720> inside<00:02:42.440> of<00:02:42.470> laravel<00:02:43.250> when<00:02:44.090> we
+
+00:02:44.200 --> 00:02:44.210 
+machine so inside of laravel when we
+
+00:02:44.210 --> 00:02:47.140 
+machine so inside of laravel when we
+install<00:02:44.570> it<00:02:44.740> we<00:02:45.740> can<00:02:45.890> actually<00:02:46.040> download<00:02:46.700> the
+
+00:02:47.140 --> 00:02:47.150 
+install it we can actually download the
+
+00:02:47.150 --> 00:02:49.780 
+install it we can actually download the
+laravel<00:02:47.720> installer<00:02:48.200> using<00:02:48.650> composer<00:02:49.040> this
+
+00:02:49.780 --> 00:02:49.790 
+laravel installer using composer this
+
+00:02:49.790 --> 00:02:51.699 
+laravel installer using composer this
+makes<00:02:50.030> it<00:02:50.180> really<00:02:50.300> easy<00:02:50.420> to<00:02:50.690> make<00:02:51.020> I'll<00:02:51.290> create
+
+00:02:51.699 --> 00:02:51.709 
+makes it really easy to make I'll create
+
+00:02:51.709 --> 00:02:53.110 
+makes it really easy to make I'll create
+a<00:02:51.800> new<00:02:51.830> layer<00:02:52.010> of<00:02:52.280> our<00:02:52.400> installation<00:02:52.970> by
+
+00:02:53.110 --> 00:02:53.120 
+a new layer of our installation by
+
+00:02:53.120 --> 00:02:55.480 
+a new layer of our installation by
+running<00:02:53.330> laravel<00:02:53.930> new<00:02:54.470> and<00:02:54.740> then<00:02:55.010> the<00:02:55.100> name<00:02:55.310> of
+
+00:02:55.480 --> 00:02:55.490 
+running laravel new and then the name of
+
+00:02:55.490 --> 00:02:58.150 
+running laravel new and then the name of
+your<00:02:55.700> project<00:02:56.120> so<00:02:56.630> let's<00:02:57.320> first<00:02:57.680> of<00:02:57.860> all<00:02:57.950> just
+
+00:02:58.150 --> 00:02:58.160 
+your project so let's first of all just
+
+00:02:58.160 --> 00:03:01.360 
+your project so let's first of all just
+run<00:02:58.370> this<00:02:59.560> this<00:03:00.560> may<00:03:00.800> take<00:03:00.980> a<00:03:01.040> little<00:03:01.220> while
+
+00:03:01.360 --> 00:03:01.370 
+run this this may take a little while
+
+00:03:01.370 --> 00:03:05.350 
+run this this may take a little while
+and<00:03:02.530> once<00:03:03.530> that's<00:03:03.740> done<00:03:03.890> go<00:03:04.400> ahead<00:03:04.940> and<00:03:05.060> clear
+
+00:03:05.350 --> 00:03:05.360 
+and once that's done go ahead and clear
+
+00:03:05.360 --> 00:03:07.210 
+and once that's done go ahead and clear
+the<00:03:05.480> screen<00:03:05.810> and<00:03:06.440> we<00:03:06.530> can<00:03:06.650> use<00:03:06.770> that<00:03:06.950> command
+
+00:03:07.210 --> 00:03:07.220 
+the screen and we can use that command
+
+00:03:07.220 --> 00:03:09.640 
+the screen and we can use that command
+that<00:03:07.370> we<00:03:07.490> saw<00:03:07.520> earlier<00:03:08.060> laravel<00:03:08.780> new<00:03:09.230> and<00:03:09.500> then
+
+00:03:09.640 --> 00:03:09.650 
+that we saw earlier laravel new and then
+
+00:03:09.650 --> 00:03:11.800 
+that we saw earlier laravel new and then
+whatever<00:03:09.830> we<00:03:10.070> want<00:03:10.280> to<00:03:10.400> call<00:03:10.580> it<00:03:10.630> so<00:03:11.630> all<00:03:11.720> we
+
+00:03:11.800 --> 00:03:11.810 
+whatever we want to call it so all we
+
+00:03:11.810 --> 00:03:14.020 
+whatever we want to call it so all we
+need<00:03:11.930> to<00:03:12.050> do<00:03:12.170> here<00:03:12.410> is<00:03:12.590> say<00:03:12.740> laravel<00:03:13.220> new<00:03:13.670> and
+
+00:03:14.020 --> 00:03:14.030 
+need to do here is say laravel new and
+
+00:03:14.030 --> 00:03:15.790 
+need to do here is say laravel new and
+I'm<00:03:14.209> going<00:03:14.330> to<00:03:14.360> call<00:03:14.540> this<00:03:14.690> chatty<00:03:15.050> and<00:03:15.650> that's
+
+00:03:15.790 --> 00:03:15.800 
+I'm going to call this chatty and that's
+
+00:03:15.800 --> 00:03:17.590 
+I'm going to call this chatty and that's
+going<00:03:15.980> to<00:03:16.040> craft<00:03:16.250> that<00:03:16.459> application<00:03:17.150> and<00:03:17.360> then
+
+00:03:17.590 --> 00:03:17.600 
+going to craft that application and then
+
+00:03:17.600 --> 00:03:21.070 
+going to craft that application and then
+we<00:03:17.690> should<00:03:17.930> be<00:03:18.080> ready<00:03:18.260> to<00:03:18.350> go<00:03:19.660> great<00:03:20.660> so<00:03:20.900> now
+
+00:03:21.070 --> 00:03:21.080 
+we should be ready to go great so now
+
+00:03:21.080 --> 00:03:23.110 
+we should be ready to go great so now
+that<00:03:21.320> that<00:03:21.470> is<00:03:21.530> done<00:03:21.680> if<00:03:22.280> we<00:03:22.489> just<00:03:22.640> return<00:03:22.970> over
+
+00:03:23.110 --> 00:03:23.120 
+that that is done if we just return over
+
+00:03:23.120 --> 00:03:25.060 
+that that is done if we just return over
+to<00:03:23.360> our<00:03:23.450> finder<00:03:23.989> you<00:03:24.170> can<00:03:24.560> see<00:03:24.800> that<00:03:24.950> that
+
+00:03:25.060 --> 00:03:25.070 
+to our finder you can see that that
+
+00:03:25.070 --> 00:03:27.430 
+to our finder you can see that that
+chatty<00:03:25.459> directory<00:03:26.390> has<00:03:26.630> been<00:03:26.660> created<00:03:27.410> just
+
+00:03:27.430 --> 00:03:27.440 
+chatty directory has been created just
+
+00:03:27.440 --> 00:03:29.620 
+chatty directory has been created just
+here<00:03:27.860> with<00:03:28.459> all<00:03:28.610> of<00:03:28.790> levels<00:03:29.239> fresh
+
+00:03:29.620 --> 00:03:29.630 
+here with all of levels fresh
+
+00:03:29.630 --> 00:03:31.960 
+here with all of levels fresh
+installation<00:03:30.340> so<00:03:31.340> what<00:03:31.459> I'm<00:03:31.550> going<00:03:31.640> to<00:03:31.700> do<00:03:31.820> is
+
+00:03:31.960 --> 00:03:31.970 
+installation so what I'm going to do is
+
+00:03:31.970 --> 00:03:33.759 
+installation so what I'm going to do is
+over<00:03:32.390> my<00:03:32.540> text<00:03:32.959> editor<00:03:33.019> I'm<00:03:33.470> just<00:03:33.620> going<00:03:33.739> to
+
+00:03:33.759 --> 00:03:33.769 
+over my text editor I'm just going to
+
+00:03:33.769 --> 00:03:35.380 
+over my text editor I'm just going to
+copy<00:03:34.070> this<00:03:34.280> over<00:03:34.730> because<00:03:34.880> this<00:03:35.120> is<00:03:35.239> what
+
+00:03:35.380 --> 00:03:35.390 
+copy this over because this is what
+
+00:03:35.390 --> 00:03:37.180 
+copy this over because this is what
+we're<00:03:35.480> going<00:03:35.570> to<00:03:35.660> be<00:03:35.750> editing<00:03:35.930> remember<00:03:36.650> we
+
+00:03:37.180 --> 00:03:37.190 
+we're going to be editing remember we
+
+00:03:37.190 --> 00:03:38.979 
+we're going to be editing remember we
+now<00:03:37.340> be<00:03:37.670> able<00:03:37.760> to<00:03:37.940> edit<00:03:38.239> all<00:03:38.420> of<00:03:38.450> these<00:03:38.750> and
+
+00:03:38.979 --> 00:03:38.989 
+now be able to edit all of these and
+
+00:03:38.989 --> 00:03:40.750 
+now be able to edit all of these and
+they'll<00:03:39.110> be<00:03:39.230> reflected<00:03:39.860> over<00:03:40.040> on<00:03:40.250> our<00:03:40.340> virtual
+
+00:03:40.750 --> 00:03:40.760 
+they'll be reflected over on our virtual
+
+00:03:40.760 --> 00:03:43.570 
+they'll be reflected over on our virtual
+machine<00:03:41.090> but<00:03:41.680> if<00:03:42.680> you<00:03:42.830> set<00:03:43.130> everything<00:03:43.250> up
+
+00:03:43.570 --> 00:03:43.580 
+machine but if you set everything up
+
+00:03:43.580 --> 00:03:46.120 
+machine but if you set everything up
+correctly<00:03:43.820> now<00:03:44.450> you<00:03:45.050> should<00:03:45.350> be<00:03:45.380> able<00:03:45.590> to<00:03:45.800> see
+
+00:03:46.120 --> 00:03:46.130 
+correctly now you should be able to see
+
+00:03:46.130 --> 00:03:48.910 
+correctly now you should be able to see
+when<00:03:46.370> you<00:03:46.489> refresh<00:03:46.880> your<00:03:46.910> hostname<00:03:47.920> you
+
+00:03:48.910 --> 00:03:48.920 
+when you refresh your hostname you
+
+00:03:48.920 --> 00:03:51.640 
+when you refresh your hostname you
+should<00:03:49.250> see<00:03:49.700> your<00:03:50.180> fresh<00:03:50.870> laravel
+
+00:03:51.640 --> 00:03:51.650 
+should see your fresh laravel
+
+00:03:51.650 --> 00:03:54.160 
+should see your fresh laravel
+installation<00:03:52.550> and<00:03:52.730> it's<00:03:53.030> worked<00:03:53.269> here<00:03:53.570> and
+
+00:03:54.160 --> 00:03:54.170 
+installation and it's worked here and
+
+00:03:54.170 --> 00:03:56.350 
+installation and it's worked here and
+hopefully<00:03:54.380> it<00:03:54.620> has<00:03:54.769> worked<00:03:54.980> for<00:03:55.250> you<00:03:55.340> too<00:03:55.610> and
+
+00:03:56.350 --> 00:03:56.360 
+hopefully it has worked for you too and
+
+00:03:56.360 --> 00:03:58.090 
+hopefully it has worked for you too and
+we<00:03:56.480> can<00:03:56.600> now<00:03:56.720> get<00:03:56.930> on<00:03:57.080> with<00:03:57.470> building<00:03:57.680> our
+
+00:03:58.090 --> 00:03:58.100 
+we can now get on with building our
+
+00:03:58.100 --> 00:04:00.970 
+we can now get on with building our
+social<00:03:58.670> network
+

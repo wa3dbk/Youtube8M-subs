@@ -1,0 +1,229 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.480 --> 00:00:12.610
+ hello youtube friends here I bring you 
+
+00:00:10.180 --> 00:00:15.129
+ this new tutorial where I will show how 
+
+00:00:12.610 --> 00:00:17.460
+ connect the motors step by step with 
+
+00:00:15.129 --> 00:00:20.250
+ arduino card 
+
+00:00:17.460 --> 00:00:22.410
+ We can recycle these engines from 
+
+00:00:20.250 --> 00:00:24.800
+ printers in poor condition that we have in 
+
+00:00:22.410 --> 00:00:24.800
+ home 
+
+00:00:26.240 --> 00:00:32.419
+ stepper motors are ideal for 
+
+00:00:29.420 --> 00:00:35.559
+ school projects or robotics due 
+
+00:00:32.419 --> 00:00:35.559
+ to its turning precision 
+
+00:00:39.290 --> 00:00:44.460
+ let's see how it is done 
+
+00:00:42.240 --> 00:00:47.400
+ this is the way we should 
+
+00:00:44.460 --> 00:00:51.240
+ connect the circuit for that we require 
+
+00:00:47.400 --> 00:00:53.760
+ of an integrated the 29 3 of two 
+
+00:00:51.240 --> 00:00:55.270
+ pushbuttons and two resistors of 10 
+
+00:00:53.760 --> 00:00:57.760
+ kilograms 
+
+00:00:55.270 --> 00:01:00.150
+ is integrated indispensable since 
+
+00:00:57.760 --> 00:01:02.620
+ with this we avoid overloading the arduino 
+
+00:01:00.150 --> 00:01:05.980
+ since these integrated support a 
+
+00:01:02.620 --> 00:01:09.880
+ current of up to 600,000 amps and a 
+
+00:01:05.980 --> 00:01:12.640
+ voltage that can vary from 4.5 to 36 
+
+00:01:09.880 --> 00:01:14.920
+ volts of s 
+
+00:01:12.640 --> 00:01:17.770
+ here they have a clearer picture of 
+
+00:01:14.920 --> 00:01:19.380
+ integrated which does not work as a 
+
+00:01:17.770 --> 00:01:21.900
+ H bridge 
+
+00:01:19.380 --> 00:01:27.210
+ for the purposes 2 
+
+00:01:21.900 --> 00:01:29.130
+ 7 10 and 15 where we connect the output 
+
+00:01:27.210 --> 00:01:35.549
+ of the arduino 
+
+00:01:29.130 --> 00:01:39.720
+ by pins 3 6 11 and 14 where 
+
+00:01:35.549 --> 00:01:45.120
+ we connect our stepper motor 
+
+00:01:39.720 --> 00:01:48.960
+ by pins 19 and 16 we connect the 5 
+
+00:01:45.120 --> 00:01:52.530
+ volts that the arduino gives us 
+
+00:01:48.960 --> 00:01:55.680
+ and for the pinocho and earth we connect 
+
+00:01:52.530 --> 00:01:57.600
+ our external 12 volt source I'm going 
+
+00:01:55.680 --> 00:02:00.060
+ to show them different codes with the 
+
+00:01:57.600 --> 00:02:03.000
+ which we can control the engine step to 
+
+00:02:00.060 --> 00:02:05.340
+ step in this case for example we have a 
+
+00:02:03.000 --> 00:02:08.160
+ automatic system forward and 
+
+00:02:05.340 --> 00:02:10.619
+ backwards in which we can vary the 
+
+00:02:08.160 --> 00:02:12.750
+ speed and the number of turns or 
+
+00:02:10.619 --> 00:02:15.050
+ fraction of turns that we want the 
+
+00:02:12.750 --> 00:02:15.050
+ engine 
+
+00:02:15.470 --> 00:02:20.020
+ with this variable we determine the 
+
+00:02:18.020 --> 00:02:23.380
+ speed 
+
+00:02:20.020 --> 00:02:27.100
+ and with this other we determine the amount 
+
+00:02:23.380 --> 00:02:31.330
+ of turns with 50 pulses gives us a turn 
+
+00:02:27.100 --> 00:02:34.590
+ complete with 25 pulses gives us half turn 
+
+00:02:31.330 --> 00:02:34.590
+ and so on 
+
+00:02:39.819 --> 00:02:42.900
+ I'm going to show you 
+
+00:02:45.470 --> 00:02:51.890
+ as you can see the engine is giving 
+
+00:02:48.620 --> 00:02:55.660
+ a 360 degree turn in both directions 
+
+00:02:51.890 --> 00:02:55.660
+ automatically 
+
+00:03:06.160 --> 00:03:11.020
+ in this other case we can activate the 
+
+00:03:08.890 --> 00:03:15.190
+ engine so that we go both ways 
+
+00:03:11.020 --> 00:03:18.550
+ but activating the pulsed the amount 
+
+00:03:15.190 --> 00:03:21.720
+ of turns achieved depends on how 
+
+00:03:18.550 --> 00:03:21.720
+ we have determined 
+
+00:03:26.380 --> 00:03:29.340
+ I'm going to show you 
+
+00:03:34.340 --> 00:03:40.310
+ As you can see, the motor turns to the side or 
+
+00:03:38.000 --> 00:03:42.700
+ towards the other every time we activate the 
+
+00:03:40.310 --> 00:03:42.700
+ push buttons 
+
+00:03:50.210 --> 00:03:54.560
+ in the latter case we can also 
+
+00:03:52.640 --> 00:03:57.650
+ spin the engine in both directions 
+
+00:03:54.560 --> 00:04:01.330
+ but this will last on for the time 
+
+00:03:57.650 --> 00:04:01.330
+ that we have activated the buttons 
+
+00:04:07.000 --> 00:04:09.930
+ I'm going to show 
+
+00:04:17.320 --> 00:04:22.030
+ can not see an engine turns on both 
+
+00:04:20.290 --> 00:04:25.920
+ senses 
+
+00:04:22.030 --> 00:04:25.920
+ every time we activate on Saturday 
+
+00:04:28.010 --> 00:04:32.600
+ in the comments of today's video to 
+
+00:04:30.710 --> 00:04:37.150
+ give the link to download the 
+
+00:04:32.600 --> 00:04:37.150
+ codes and they can try them at home 
+
+00:04:38.300 --> 00:04:44.780
+ good friends, I hope you liked it 
+
+00:04:41.409 --> 00:04:48.009
+ that will be very useful and we 
+
+00:04:44.780 --> 00:04:48.009
+ we see in a next video 
+

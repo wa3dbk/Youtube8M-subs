@@ -1,0 +1,1146 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.009 --> 00:00:07.610 
+
+Oh<00:00:05.069> welcome<00:00:05.850> to<00:00:06.029> tutorial<00:00:06.629> number<00:00:06.689> 41<00:00:07.410> in<00:00:07.589> the
+
+00:00:07.610 --> 00:00:07.620 
+Oh welcome to tutorial number 41 in the
+
+00:00:07.620 --> 00:00:09.619 
+Oh welcome to tutorial number 41 in the
+Microsoft<00:00:08.099> visual<00:00:08.370> basic.net<00:00:08.790> programming
+
+00:00:09.619 --> 00:00:09.629 
+Microsoft visual basic.net programming
+
+00:00:09.629 --> 00:00:11.810 
+Microsoft visual basic.net programming
+tutorials<00:00:10.139> and<00:00:10.379> this<00:00:10.980> tutorial<00:00:11.160> is<00:00:11.549> going<00:00:11.670> to
+
+00:00:11.810 --> 00:00:11.820 
+tutorials and this tutorial is going to
+
+00:00:11.820 --> 00:00:15.320 
+tutorials and this tutorial is going to
+cover<00:00:11.959> how<00:00:12.959> to<00:00:13.020> log<00:00:13.799> into<00:00:14.039> a<00:00:14.189> website<00:00:14.490> using
+
+00:00:15.320 --> 00:00:15.330 
+cover how to log into a website using
+
+00:00:15.330 --> 00:00:18.140 
+cover how to log into a website using
+document<00:00:16.049> dot<00:00:16.260> get<00:00:16.410> element<00:00:16.529> by<00:00:16.859> ID<00:00:17.160> now<00:00:18.000> we're
+
+00:00:18.140 --> 00:00:18.150 
+document dot get element by ID now we're
+
+00:00:18.150 --> 00:00:19.519 
+document dot get element by ID now we're
+not<00:00:18.269> actually<00:00:18.420> going<00:00:18.720> to<00:00:18.840> send<00:00:19.140> the<00:00:19.230> request
+
+00:00:19.519 --> 00:00:19.529 
+not actually going to send the request
+
+00:00:19.529 --> 00:00:21.830 
+not actually going to send the request
+to<00:00:19.859> the<00:00:19.949> website<00:00:20.369> what<00:00:21.000> we're<00:00:21.090> going<00:00:21.240> to<00:00:21.300> do<00:00:21.510> is
+
+00:00:21.830 --> 00:00:21.840 
+to the website what we're going to do is
+
+00:00:21.840 --> 00:00:24.950 
+to the website what we're going to do is
+use<00:00:22.590> document<00:00:23.220> dot<00:00:23.369> get<00:00:23.490> element<00:00:23.580> by<00:00:23.940> ID<00:00:24.180> to
+
+00:00:24.950 --> 00:00:24.960 
+use document dot get element by ID to
+
+00:00:24.960 --> 00:00:28.130 
+use document dot get element by ID to
+find<00:00:25.260> the<00:00:25.470> login<00:00:25.860> form<00:00:26.369> and<00:00:26.640> then<00:00:27.449> find<00:00:28.020> the
+
+00:00:28.130 --> 00:00:28.140 
+find the login form and then find the
+
+00:00:28.140 --> 00:00:30.109 
+find the login form and then find the
+button<00:00:28.470> and<00:00:28.650> fill<00:00:29.010> it<00:00:29.130> in<00:00:29.250> and<00:00:29.580> click<00:00:29.940> the
+
+00:00:30.109 --> 00:00:30.119 
+button and fill it in and click the
+
+00:00:30.119 --> 00:00:33.799 
+button and fill it in and click the
+button<00:00:31.099> so<00:00:32.099> in<00:00:32.340> for<00:00:33.090> this<00:00:33.149> tutorial<00:00:33.359> we're
+
+00:00:33.799 --> 00:00:33.809 
+button so in for this tutorial we're
+
+00:00:33.809 --> 00:00:36.229 
+button so in for this tutorial we're
+going<00:00:33.930> to<00:00:33.989> use<00:00:34.199> Yahoo<00:00:34.500> so<00:00:35.010> this<00:00:35.280> tutorial<00:00:36.090> you
+
+00:00:36.229 --> 00:00:36.239 
+going to use Yahoo so this tutorial you
+
+00:00:36.239 --> 00:00:38.809 
+going to use Yahoo so this tutorial you
+will<00:00:36.359> need<00:00:36.570> a<00:00:36.870> yahoo<00:00:37.140> account<00:00:37.260> and<00:00:37.859> a<00:00:38.429> basic
+
+00:00:38.809 --> 00:00:38.819 
+will need a yahoo account and a basic
+
+00:00:38.819 --> 00:00:40.880 
+will need a yahoo account and a basic
+HTML<00:00:39.239> understanding<00:00:40.140> now<00:00:40.289> if<00:00:40.469> you<00:00:40.559> don't<00:00:40.649> have
+
+00:00:40.880 --> 00:00:40.890 
+HTML understanding now if you don't have
+
+00:00:40.890 --> 00:00:43.399 
+HTML understanding now if you don't have
+the<00:00:41.640> basic<00:00:41.819> HTML<00:00:42.239> understanding<00:00:43.079> then<00:00:43.319> you
+
+00:00:43.399 --> 00:00:43.409 
+the basic HTML understanding then you
+
+00:00:43.409 --> 00:00:46.430 
+the basic HTML understanding then you
+can<00:00:43.920> still<00:00:44.129> probably<00:00:44.429> do<00:00:44.550> it<00:00:44.729> it<00:00:45.210> just<00:00:45.839> depends
+
+00:00:46.430 --> 00:00:46.440 
+can still probably do it it just depends
+
+00:00:46.440 --> 00:00:48.049 
+can still probably do it it just depends
+like<00:00:46.679> if<00:00:46.800> you<00:00:47.010> if<00:00:47.219> you<00:00:47.339> get<00:00:47.489> it<00:00:47.609> you<00:00:47.670> get<00:00:47.850> it<00:00:47.909> if
+
+00:00:48.049 --> 00:00:48.059 
+like if you if you get it you get it if
+
+00:00:48.059 --> 00:00:52.099 
+like if you if you get it you get it if
+you<00:00:48.120> don't<00:00:48.269> you<00:00:48.359> don't<00:00:49.010> ok<00:00:50.010> so<00:00:50.239> again<00:00:51.239> well
+
+00:00:52.099 --> 00:00:52.109 
+you don't you don't ok so again well
+
+00:00:52.109 --> 00:00:54.829 
+you don't you don't ok so again well
+also<00:00:52.710> sorry<00:00:53.249> and<00:00:53.579> I'm<00:00:54.329> probably<00:00:54.539> going<00:00:54.749> to
+
+00:00:54.829 --> 00:00:54.839 
+also sorry and I'm probably going to
+
+00:00:54.839 --> 00:00:56.569 
+also sorry and I'm probably going to
+like<00:00:55.260> rush<00:00:55.589> this<00:00:55.769> video<00:00:56.100> a<00:00:56.159> little<00:00:56.459> bit
+
+00:00:56.569 --> 00:00:56.579 
+like rush this video a little bit
+
+00:00:56.579 --> 00:01:00.110 
+like rush this video a little bit
+because<00:00:57.299> I've<00:00:58.019> recorded<00:00:58.889> this<00:00:59.159> twice<00:00:59.549> now<00:00:59.579> and
+
+00:01:00.110 --> 00:01:00.120 
+because I've recorded this twice now and
+
+00:01:00.120 --> 00:01:01.789 
+because I've recorded this twice now and
+it's<00:01:00.239> been<00:01:00.389> like<00:01:00.600> 12<00:01:00.899> minutes<00:01:01.109> long<00:01:01.440> and<00:01:01.469> it's
+
+00:01:01.789 --> 00:01:01.799 
+it's been like 12 minutes long and it's
+
+00:01:01.799 --> 00:01:04.160 
+it's been like 12 minutes long and it's
+really<00:01:01.979> pissing<00:01:02.159> me<00:01:02.339> off<00:01:02.569> so<00:01:03.569> this<00:01:03.929> is<00:01:04.049> like
+
+00:01:04.160 --> 00:01:04.170 
+really pissing me off so this is like
+
+00:01:04.170 --> 00:01:06.109 
+really pissing me off so this is like
+the<00:01:04.290> third<00:01:04.470> time<00:01:04.530> I've<00:01:04.769> recorded<00:01:05.369> this<00:01:05.670> now<00:01:05.850> so
+
+00:01:06.109 --> 00:01:06.119 
+the third time I've recorded this now so
+
+00:01:06.119 --> 00:01:07.730 
+the third time I've recorded this now so
+sorry<00:01:06.960> for<00:01:07.200> brochette
+
+00:01:07.730 --> 00:01:07.740 
+sorry for brochette
+
+00:01:07.740 --> 00:01:09.520 
+sorry for brochette
+well<00:01:07.950> let's<00:01:08.280> not<00:01:08.310> waste<00:01:08.490> any<00:01:08.729> more<00:01:08.760> time<00:01:09.030> and
+
+00:01:09.520 --> 00:01:09.530 
+well let's not waste any more time and
+
+00:01:09.530 --> 00:01:13.810 
+well let's not waste any more time and
+create<00:01:10.530> a<00:01:10.560> new<00:01:10.800> project<00:01:11.010> and<00:01:11.460> the<00:01:12.120> name
+
+00:01:13.810 --> 00:01:13.820 
+create a new project and the name
+
+00:01:13.820 --> 00:01:21.470 
+create a new project and the name
+website<00:01:14.820> login<00:01:15.890> application<00:01:16.910> ok<00:01:20.210> and<00:01:21.210> let's
+
+00:01:21.470 --> 00:01:21.480 
+website login application ok and let's
+
+00:01:21.480 --> 00:01:24.430 
+website login application ok and let's
+just<00:01:21.630> make<00:01:22.020> this<00:01:22.110> a<00:01:22.170> little<00:01:22.350> bigger
+
+00:01:24.430 --> 00:01:24.440 
+just make this a little bigger
+
+00:01:24.440 --> 00:01:26.480 
+just make this a little bigger
+ok<00:01:25.440> the<00:01:25.560> first<00:01:25.710> thing<00:01:25.860> we're<00:01:26.040> going<00:01:26.130> to<00:01:26.250> need
+
+00:01:26.480 --> 00:01:26.490 
+ok the first thing we're going to need
+
+00:01:26.490 --> 00:01:32.180 
+ok the first thing we're going to need
+is<00:01:26.840> two<00:01:27.840> labels<00:01:28.170> so<00:01:28.770> add<00:01:29.490> two<00:01:29.850> labels<00:01:31.190> first
+
+00:01:32.180 --> 00:01:32.190 
+is two labels so add two labels first
+
+00:01:32.190 --> 00:01:35.780 
+is two labels so add two labels first
+label<00:01:32.430> is<00:01:32.640> going<00:01:32.820> to<00:01:32.940> say<00:01:33.180> user<00:01:33.780> name<00:01:34.080> and<00:01:34.790> the
+
+00:01:35.780 --> 00:01:35.790 
+label is going to say user name and the
+
+00:01:35.790 --> 00:01:38.080 
+label is going to say user name and the
+second<00:01:36.150> label<00:01:36.420> is<00:01:36.480> going<00:01:36.660> to<00:01:36.750> say<00:01:36.900> password
+
+00:01:38.080 --> 00:01:38.090 
+second label is going to say password
+
+00:01:38.090 --> 00:01:44.060 
+second label is going to say password
+and<00:01:39.090> now<00:01:39.980> add<00:01:40.980> two<00:01:41.910> text<00:01:42.270> boxes<00:01:42.590> the<00:01:43.590> first<00:01:43.800> one
+
+00:01:44.060 --> 00:01:44.070 
+and now add two text boxes the first one
+
+00:01:44.070 --> 00:01:48.470 
+and now add two text boxes the first one
+is<00:01:44.280> going<00:01:44.610> to<00:01:44.700> be<00:01:44.910> for<00:01:45.510> our<00:01:45.540> username<00:01:46.110> and<00:01:47.480> the
+
+00:01:48.470 --> 00:01:48.480 
+is going to be for our username and the
+
+00:01:48.480 --> 00:01:54.950 
+is going to be for our username and the
+second<00:01:48.870> one<00:01:48.990> is<00:01:49.230> for<00:01:49.770> our<00:01:49.920> password
+
+00:01:54.950 --> 00:01:54.960 
+
+00:01:54.960 --> 00:01:57.200 
+
+okay<00:01:55.800> now<00:01:55.920> click<00:01:56.160> on<00:01:56.250> the<00:01:56.340> second<00:01:56.730> text<00:01:57.000> box
+
+00:01:57.200 --> 00:01:57.210 
+okay now click on the second text box
+
+00:01:57.210 --> 00:01:59.330 
+okay now click on the second text box
+and<00:01:57.420> go<00:01:57.600> to<00:01:57.660> the<00:01:58.080> bottom<00:01:58.230> of<00:01:58.440> the<00:01:58.590> tool<00:01:58.770> box
+
+00:01:59.330 --> 00:01:59.340 
+and go to the bottom of the tool box
+
+00:01:59.340 --> 00:02:01.820 
+and go to the bottom of the tool box
+I'll<00:01:59.760> sorry<00:02:00.060> the<00:02:00.180> properties<00:02:00.630> here<00:02:00.870> and<00:02:01.020> when
+
+00:02:01.820 --> 00:02:01.830 
+I'll sorry the properties here and when
+
+00:02:01.830 --> 00:02:04.160 
+I'll sorry the properties here and when
+it<00:02:01.950> says<00:02:02.190> use<00:02:02.610> system<00:02:03.030> password<00:02:03.240> car<00:02:03.720> and<00:02:04.020> it
+
+00:02:04.160 --> 00:02:04.170 
+it says use system password car and it
+
+00:02:04.170 --> 00:02:04.820 
+it says use system password car and it
+says<00:02:04.410> false
+
+00:02:04.820 --> 00:02:04.830 
+says false
+
+00:02:04.830 --> 00:02:08.180 
+says false
+houki<00:02:05.490> drop<00:02:05.670> down<00:02:05.850> and<00:02:06.000> hit<00:02:06.150> true<00:02:07.070> ok<00:02:08.070> now
+
+00:02:08.180 --> 00:02:08.190 
+houki drop down and hit true ok now
+
+00:02:08.190 --> 00:02:09.440 
+houki drop down and hit true ok now
+you've<00:02:08.310> done<00:02:08.429> that<00:02:08.640> we're<00:02:08.820> going<00:02:08.940> to<00:02:09.149> need<00:02:09.300> to
+
+00:02:09.440 --> 00:02:09.450 
+you've done that we're going to need to
+
+00:02:09.450 --> 00:02:13.640 
+you've done that we're going to need to
+add<00:02:09.570> our<00:02:09.990> face<00:02:10.649> button<00:02:11.900> I'm<00:02:12.900> going<00:02:13.140> to<00:02:13.290> change
+
+00:02:13.640 --> 00:02:13.650 
+add our face button I'm going to change
+
+00:02:13.650 --> 00:02:19.480 
+add our face button I'm going to change
+this<00:02:13.890> to<00:02:14.840> navigate<00:02:15.840> and<00:02:16.430> add<00:02:17.430> a<00:02:17.459> second<00:02:18.000> button
+
+00:02:19.480 --> 00:02:19.490 
+this to navigate and add a second button
+
+00:02:19.490 --> 00:02:22.580 
+this to navigate and add a second button
+whoops<00:02:20.490> what<00:02:20.790> is<00:02:21.090> wrong<00:02:21.330> there<00:02:21.570> right<00:02:22.350> face
+
+00:02:22.580 --> 00:02:22.590 
+whoops what is wrong there right face
+
+00:02:22.590 --> 00:02:27.590 
+whoops what is wrong there right face
+button<00:02:22.890> text<00:02:23.250> navigate<00:02:25.820> second<00:02:26.820> button<00:02:27.060> text
+
+00:02:27.590 --> 00:02:27.600 
+button text navigate second button text
+
+00:02:27.600 --> 00:02:37.040 
+button text navigate second button text
+as<00:02:27.920> login
+
+00:02:37.040 --> 00:02:37.050 
+
+00:02:37.050 --> 00:02:41.110 
+
+show<00:02:37.620> with<00:02:37.740> this<00:02:37.890> just<00:02:38.130> let<00:02:38.280> me<00:02:38.400> in<00:02:38.550> even<00:02:39.060> out
+
+00:02:41.110 --> 00:02:41.120 
+show with this just let me in even out
+
+00:02:41.120 --> 00:02:43.310 
+show with this just let me in even out
+okay<00:02:42.120> now<00:02:42.270> the<00:02:42.330> last<00:02:42.510> thing<00:02:42.750> we<00:02:42.930> need<00:02:42.960> to<00:02:43.110> add
+
+00:02:43.310 --> 00:02:43.320 
+okay now the last thing we need to add
+
+00:02:43.320 --> 00:02:46.310 
+okay now the last thing we need to add
+is<00:02:43.620> a<00:02:44.220> web<00:02:44.490> browser<00:02:44.700> because<00:02:45.510> this<00:02:45.840> is<00:02:45.990> how
+
+00:02:46.310 --> 00:02:46.320 
+is a web browser because this is how
+
+00:02:46.320 --> 00:02:50.090 
+is a web browser because this is how
+we're<00:02:46.500> going<00:02:46.620> to<00:02:46.740> be<00:02:46.950> logging<00:02:47.640> in<00:02:48.920> so<00:02:49.920> out<00:02:50.010> the
+
+00:02:50.090 --> 00:02:50.100 
+we're going to be logging in so out the
+
+00:02:50.100 --> 00:02:51.710 
+we're going to be logging in so out the
+web<00:02:50.250> browser<00:02:50.490> and<00:02:50.880> we're<00:02:51.210> going<00:02:51.360> to<00:02:51.420> start
+
+00:02:51.710 --> 00:02:51.720 
+web browser and we're going to start
+
+00:02:51.720 --> 00:02:54.560 
+web browser and we're going to start
+coding<00:02:51.930> so<00:02:52.500> should<00:02:53.190> have<00:02:53.340> your<00:02:53.520> username<00:02:54.180> text
+
+00:02:54.560 --> 00:02:54.570 
+coding so should have your username text
+
+00:02:54.570 --> 00:02:56.870 
+coding so should have your username text
+box<00:02:54.780> password<00:02:55.290> text<00:02:55.530> box<00:02:55.670> navigate<00:02:56.670> button
+
+00:02:56.870 --> 00:02:56.880 
+box password text box navigate button
+
+00:02:56.880 --> 00:02:59.810 
+box password text box navigate button
+login<00:02:57.600> button<00:02:57.810> on<00:02:58.110> your<00:02:58.290> web<00:02:58.410> browser<00:02:58.820> page
+
+00:02:59.810 --> 00:02:59.820 
+login button on your web browser page
+
+00:02:59.820 --> 00:03:01.160 
+login button on your web browser page
+with<00:02:59.970> the<00:03:00.090> starts<00:03:00.390> off<00:03:00.510> just<00:03:00.540> double<00:03:00.990> click
+
+00:03:01.160 --> 00:03:01.170 
+with the starts off just double click
+
+00:03:01.170 --> 00:03:04.250 
+with the starts off just double click
+the<00:03:01.290> navigate<00:03:01.680> button<00:03:02.150> so<00:03:03.150> we<00:03:03.270> can<00:03:03.420> type<00:03:04.080> our
+
+00:03:04.250 --> 00:03:04.260 
+the navigate button so we can type our
+
+00:03:04.260 --> 00:03:06.200 
+the navigate button so we can type our
+code<00:03:04.440> for<00:03:04.980> this<00:03:05.100> now<00:03:05.400> all<00:03:05.730> this<00:03:05.820> is<00:03:05.970> you<00:03:06.060> want
+
+00:03:06.200 --> 00:03:06.210 
+code for this now all this is you want
+
+00:03:06.210 --> 00:03:07.400 
+code for this now all this is you want
+to<00:03:06.270> do<00:03:06.390> is<00:03:06.510> navigate<00:03:06.630> to<00:03:06.930> the<00:03:07.140> yahoo<00:03:07.290> login
+
+00:03:07.400 --> 00:03:07.410 
+to do is navigate to the yahoo login
+
+00:03:07.410 --> 00:03:10.730 
+to do is navigate to the yahoo login
+page<00:03:07.920> so<00:03:08.670> just<00:03:08.700> type<00:03:09.030> web<00:03:09.750> browser<00:03:10.050> one<00:03:10.410> don't
+
+00:03:10.730 --> 00:03:10.740 
+page so just type web browser one don't
+
+00:03:10.740 --> 00:03:12.890 
+page so just type web browser one don't
+know<00:03:10.890> gate<00:03:11.190> and<00:03:11.550> then<00:03:12.240> in<00:03:12.390> brackets<00:03:12.540> and
+
+00:03:12.890 --> 00:03:12.900 
+know gate and then in brackets and
+
+00:03:12.900 --> 00:03:16.760 
+know gate and then in brackets and
+quotations<00:03:13.530> go<00:03:14.520> to<00:03:14.580> the<00:03:14.820> yahoo<00:03:15.030> login<00:03:15.480> page<00:03:16.320> a
+
+00:03:16.760 --> 00:03:16.770 
+quotations go to the yahoo login page a
+
+00:03:16.770 --> 00:03:19.940 
+quotations go to the yahoo login page a
+tcp<00:03:17.280> login<00:03:17.790> yahoo<00:03:18.180> comm<00:03:18.720> i'm<00:03:19.470> going<00:03:19.680> to<00:03:19.740> copy
+
+00:03:19.940 --> 00:03:19.950 
+tcp login yahoo comm i'm going to copy
+
+00:03:19.950 --> 00:03:24.680 
+tcp login yahoo comm i'm going to copy
+this<00:03:20.160> and<00:03:20.460> paste<00:03:21.150> that<00:03:21.390> in<00:03:21.540> there<00:03:21.780> okay<00:03:23.690> now
+
+00:03:24.680 --> 00:03:24.690 
+this and paste that in there okay now
+
+00:03:24.690 --> 00:03:26.840 
+this and paste that in there okay now
+once<00:03:25.110> that<00:03:25.200> is<00:03:25.650> navigated<00:03:26.280> we<00:03:26.370> want<00:03:26.550> to<00:03:26.640> use
+
+00:03:26.840 --> 00:03:26.850 
+once that is navigated we want to use
+
+00:03:26.850 --> 00:03:28.910 
+once that is navigated we want to use
+this<00:03:27.030> login<00:03:27.450> button<00:03:27.660> now<00:03:28.590> we're<00:03:28.710> going<00:03:28.830> to
+
+00:03:28.910 --> 00:03:28.920 
+this login button now we're going to
+
+00:03:28.920 --> 00:03:30.380 
+this login button now we're going to
+start<00:03:29.190> learning<00:03:29.340> the<00:03:29.640> document<00:03:30.120> dot<00:03:30.270> get
+
+00:03:30.380 --> 00:03:30.390 
+start learning the document dot get
+
+00:03:30.390 --> 00:03:33.650 
+start learning the document dot get
+element<00:03:30.510> by<00:03:30.810> ID<00:03:31.310> so<00:03:32.310> and<00:03:32.820> basically<00:03:33.450> what
+
+00:03:33.650 --> 00:03:33.660 
+element by ID so and basically what
+
+00:03:33.660 --> 00:03:35.090 
+element by ID so and basically what
+we're<00:03:33.750> going<00:03:33.900> to<00:03:33.960> do<00:03:34.170> is<00:03:34.410> we're<00:03:34.590> going<00:03:34.710> to<00:03:34.800> take
+
+00:03:35.090 --> 00:03:35.100 
+we're going to do is we're going to take
+
+00:03:35.100 --> 00:03:39.080 
+we're going to do is we're going to take
+a<00:03:35.430> text<00:03:36.240> or<00:03:36.450> a<00:03:36.510> text<00:03:37.080> field<00:03:37.230> on<00:03:37.530> this<00:03:37.890> on<00:03:38.280> this
+
+00:03:39.080 --> 00:03:39.090 
+a text or a text field on this on this
+
+00:03:39.090 --> 00:03:40.730 
+a text or a text field on this on this
+page<00:03:39.360> which<00:03:39.660> is<00:03:39.690> this<00:03:40.110> is<00:03:40.260> the<00:03:40.290> first<00:03:40.560> one
+
+00:03:40.730 --> 00:03:40.740 
+page which is this is the first one
+
+00:03:40.740 --> 00:03:43.580 
+page which is this is the first one
+yahoo<00:03:41.010> ID<00:03:41.220> i'm<00:03:41.970> going<00:03:42.300> to<00:03:42.390> get<00:03:42.570> it<00:03:42.720> by<00:03:42.870> document
+
+00:03:43.580 --> 00:03:43.590 
+yahoo ID i'm going to get it by document
+
+00:03:43.590 --> 00:03:47.120 
+yahoo ID i'm going to get it by document
+get<00:03:44.010> element<00:03:44.400> by<00:03:44.430> ID<00:03:44.810> so<00:03:45.810> we<00:03:46.650> need<00:03:46.800> to<00:03:46.920> type
+
+00:03:47.120 --> 00:03:47.130 
+get element by ID so we need to type
+
+00:03:47.130 --> 00:03:50.090 
+get element by ID so we need to type
+first<00:03:47.400> of<00:03:47.580> all<00:03:47.700> document<00:03:48.630> dot<00:03:48.840> get<00:03:49.080> element
+
+00:03:50.090 --> 00:03:50.100 
+first of all document dot get element
+
+00:03:50.100 --> 00:03:53.480 
+first of all document dot get element
+oh<00:03:50.190> sorry<00:03:50.970> whoops<00:03:51.470> scratch<00:03:52.470> that<00:03:52.680> the<00:03:53.250> site
+
+00:03:53.480 --> 00:03:53.490 
+oh sorry whoops scratch that the site
+
+00:03:53.490 --> 00:03:56.360 
+oh sorry whoops scratch that the site
+web<00:03:53.730> browser<00:03:54.060> one<00:03:54.690> dot<00:03:55.050> documents<00:03:55.800> doc<00:03:56.040> get
+
+00:03:56.360 --> 00:03:56.370 
+web browser one dot documents doc get
+
+00:03:56.370 --> 00:03:59.870 
+web browser one dot documents doc get
+element<00:03:57.330> by<00:03:57.540> ID<00:03:58.170> i<00:03:58.620> don't<00:03:59.220> in<00:03:59.280> brackets<00:03:59.700> on
+
+00:03:59.870 --> 00:03:59.880 
+element by ID i don't in brackets on
+
+00:03:59.880 --> 00:04:02.480 
+element by ID i don't in brackets on
+quotations<00:04:00.450> we<00:04:00.600> type<00:04:00.810> our<00:04:00.959> ID<00:04:01.170> now<00:04:02.070> to<00:04:02.130> find
+
+00:04:02.480 --> 00:04:02.490 
+quotations we type our ID now to find
+
+00:04:02.490 --> 00:04:03.890 
+quotations we type our ID now to find
+the<00:04:02.610> ID<00:04:02.760> we're<00:04:03.120> going<00:04:03.270> to<00:04:03.390> right<00:04:03.570> click<00:04:03.600> the
+
+00:04:03.890 --> 00:04:03.900 
+the ID we're going to right click the
+
+00:04:03.900 --> 00:04:08.540 
+the ID we're going to right click the
+page<00:04:04.110> and<00:04:04.440> click<00:04:04.650> view<00:04:04.950> source<00:04:05.870> and<00:04:07.430> if<00:04:08.430> you
+
+00:04:08.540 --> 00:04:08.550 
+page and click view source and if you
+
+00:04:08.550 --> 00:04:13.540 
+page and click view source and if you
+scroll<00:04:09.000> down<00:04:09.060> it'll<00:04:09.570> be<00:04:09.690> here<00:04:09.900> somewhere
+
+00:04:13.540 --> 00:04:13.550 
+
+00:04:13.550 --> 00:04:14.960 
+
+there<00:04:14.550> we<00:04:14.670> go
+
+00:04:14.960 --> 00:04:14.970 
+there we go
+
+00:04:14.970 --> 00:04:19.160 
+there we go
+it<00:04:15.030> says<00:04:15.950> input<00:04:16.950> name<00:04:17.340> login<00:04:18.120> ID<00:04:18.420> username<00:04:19.140> now
+
+00:04:19.160 --> 00:04:19.170 
+it says input name login ID username now
+
+00:04:19.170 --> 00:04:21.320 
+it says input name login ID username now
+you<00:04:19.380> want<00:04:19.560> to<00:04:19.620> take<00:04:19.830> the<00:04:20.220> name<00:04:20.489> and<00:04:20.820> not<00:04:21.030> the<00:04:21.180> ID
+
+00:04:21.320 --> 00:04:21.330 
+you want to take the name and not the ID
+
+00:04:21.330 --> 00:04:24.170 
+you want to take the name and not the ID
+we<00:04:21.959> won't<00:04:22.080> use<00:04:22.260> their<00:04:22.470> name<00:04:22.710> here<00:04:23.070> so<00:04:23.760> the<00:04:24.000> name
+
+00:04:24.170 --> 00:04:24.180 
+we won't use their name here so the name
+
+00:04:24.180 --> 00:04:26.540 
+we won't use their name here so the name
+is<00:04:24.390> login<00:04:24.630> for<00:04:24.990> the<00:04:25.050> username<00:04:25.410> text<00:04:26.130> field<00:04:26.310> so
+
+00:04:26.540 --> 00:04:26.550 
+is login for the username text field so
+
+00:04:26.550 --> 00:04:31.010 
+is login for the username text field so
+copy<00:04:26.820> that<00:04:27.120> go<00:04:28.110> back<00:04:28.350> to<00:04:28.560> your<00:04:29.450> and<00:04:30.450> with<00:04:30.900> your
+
+00:04:31.010 --> 00:04:31.020 
+copy that go back to your and with your
+
+00:04:31.020 --> 00:04:33.409 
+copy that go back to your and with your
+basic<00:04:31.200> window<00:04:32.100> and<00:04:32.370> paste<00:04:32.730> it<00:04:32.910> in<00:04:33.000> here<00:04:33.030> now
+
+00:04:33.409 --> 00:04:33.419 
+basic window and paste it in here now
+
+00:04:33.419 --> 00:04:35.510 
+basic window and paste it in here now
+after<00:04:34.320> we<00:04:34.500> have<00:04:34.620> that<00:04:34.800> we<00:04:34.919> are<00:04:34.980> going<00:04:35.160> to<00:04:35.280> type
+
+00:04:35.510 --> 00:04:35.520 
+after we have that we are going to type
+
+00:04:35.520 --> 00:04:38.330 
+after we have that we are going to type
+go<00:04:35.850> into<00:04:36.090> in<00:04:36.240> give<00:04:37.110> it<00:04:37.140> a<00:04:37.320> value<00:04:37.530> or<00:04:37.919> set<00:04:38.310> a
+
+00:04:38.330 --> 00:04:38.340 
+go into in give it a value or set a
+
+00:04:38.340 --> 00:04:39.950 
+go into in give it a value or set a
+value<00:04:38.520> inside<00:04:38.970> this<00:04:39.120> text<00:04:39.450> box<00:04:39.570> we'll<00:04:39.780> type
+
+00:04:39.950 --> 00:04:39.960 
+value inside this text box we'll type
+
+00:04:39.960 --> 00:04:43.070 
+value inside this text box we'll type
+dot<00:04:40.290> set<00:04:40.890> attribute<00:04:41.730> and<00:04:41.970> in<00:04:42.480> brackets<00:04:42.930> we
+
+00:04:43.070 --> 00:04:43.080 
+dot set attribute and in brackets we
+
+00:04:43.080 --> 00:04:45.320 
+dot set attribute and in brackets we
+type<00:04:43.290> in<00:04:43.530> quotations<00:04:44.490> value<00:04:44.970> and<00:04:45.180> then
+
+00:04:45.320 --> 00:04:45.330 
+type in quotations value and then
+
+00:04:45.330 --> 00:04:47.330 
+type in quotations value and then
+comment<00:04:45.810> and<00:04:45.960> then<00:04:46.169> now<00:04:46.410> we<00:04:46.470> want<00:04:46.830> to<00:04:46.979> say<00:04:47.190> the
+
+00:04:47.330 --> 00:04:47.340 
+comment and then now we want to say the
+
+00:04:47.340 --> 00:04:49.100 
+comment and then now we want to say the
+value<00:04:47.460> we<00:04:47.700> want<00:04:47.820> to<00:04:48.000> give<00:04:48.150> it<00:04:48.270> and<00:04:48.450> in<00:04:48.990> this
+
+00:04:49.100 --> 00:04:49.110 
+value we want to give it and in this
+
+00:04:49.110 --> 00:04:50.180 
+value we want to give it and in this
+case<00:04:49.380> since<00:04:49.590> is<00:04:49.770> the<00:04:49.890> you
+
+00:04:50.180 --> 00:04:50.190 
+case since is the you
+
+00:04:50.190 --> 00:04:52.400 
+case since is the you
+name<00:04:50.400> we're<00:04:50.910> going<00:04:51.060> to<00:04:51.210> say<00:04:51.360> textbox<00:04:51.960> 1<00:04:52.170> dot
+
+00:04:52.400 --> 00:04:52.410 
+name we're going to say textbox 1 dot
+
+00:04:52.410 --> 00:04:55.250 
+name we're going to say textbox 1 dot
+txt<00:04:52.860> and<00:04:52.950> the<00:04:53.610> bracket<00:04:53.970> so<00:04:54.300> what<00:04:55.020> this<00:04:55.110> is
+
+00:04:55.250 --> 00:04:55.260 
+txt and the bracket so what this is
+
+00:04:55.260 --> 00:04:56.930 
+txt and the bracket so what this is
+going<00:04:55.290> to<00:04:55.500> do<00:04:55.620> is<00:04:55.770> it's<00:04:56.040> going<00:04:56.100> to<00:04:56.310> get<00:04:56.760> the
+
+00:04:56.930 --> 00:04:56.940 
+going to do is it's going to get the
+
+00:04:56.940 --> 00:04:58.790 
+going to do is it's going to get the
+element<00:04:57.120> by<00:04:57.330> ID<00:04:57.510> login<00:04:58.050> which<00:04:58.590> is<00:04:58.710> the
+
+00:04:58.790 --> 00:04:58.800 
+element by ID login which is the
+
+00:04:58.800 --> 00:05:00.590 
+element by ID login which is the
+username<00:04:59.130> text<00:04:59.550> field<00:04:59.730> and<00:04:59.910> it's<00:05:00.390> going<00:05:00.510> to
+
+00:05:00.590 --> 00:05:00.600 
+username text field and it's going to
+
+00:05:00.600 --> 00:05:03.710 
+username text field and it's going to
+set<00:05:00.870> the<00:05:01.020> attribute<00:05:01.530> as<00:05:01.790> text<00:05:02.790> box<00:05:02.970> 1<00:05:03.120> dot<00:05:03.300> txt
+
+00:05:03.710 --> 00:05:03.720 
+set the attribute as text box 1 dot txt
+
+00:05:03.720 --> 00:05:07.460 
+set the attribute as text box 1 dot txt
+which<00:05:04.230> is<00:05:04.410> this<00:05:04.620> text<00:05:04.950> box<00:05:05.130> right<00:05:05.220> here<00:05:06.470> okay
+
+00:05:07.460 --> 00:05:07.470 
+which is this text box right here okay
+
+00:05:07.470 --> 00:05:09.590 
+which is this text box right here okay
+now<00:05:07.620> next<00:05:07.860> thing<00:05:08.010> we<00:05:08.130> want<00:05:08.280> to<00:05:08.310> do<00:05:08.490> is<00:05:08.730> do<00:05:09.450> the
+
+00:05:09.590 --> 00:05:09.600 
+now next thing we want to do is do the
+
+00:05:09.600 --> 00:05:11.390 
+now next thing we want to do is do the
+same<00:05:09.870> but<00:05:10.080> for<00:05:10.260> the<00:05:10.320> password<00:05:10.530> field<00:05:10.980> so<00:05:11.310> we're
+
+00:05:11.390 --> 00:05:11.400 
+same but for the password field so we're
+
+00:05:11.400 --> 00:05:15.020 
+same but for the password field so we're
+go<00:05:11.490> and<00:05:11.610> say<00:05:11.790> web<00:05:12.210> browser<00:05:12.810> 1<00:05:13.370> document<00:05:14.370> dot
+
+00:05:15.020 --> 00:05:15.030 
+go and say web browser 1 document dot
+
+00:05:15.030 --> 00:05:17.840 
+go and say web browser 1 document dot
+get<00:05:15.240> element<00:05:15.480> by<00:05:16.170> ID<00:05:16.710> and<00:05:17.040> in<00:05:17.250> brackets<00:05:17.670> on
+
+00:05:17.840 --> 00:05:17.850 
+get element by ID and in brackets on
+
+00:05:17.850 --> 00:05:20.380 
+get element by ID and in brackets on
+quotations<00:05:18.390> we<00:05:19.170> need<00:05:19.320> to<00:05:19.410> find<00:05:19.650> the<00:05:20.130> password
+
+00:05:20.380 --> 00:05:20.390 
+quotations we need to find the password
+
+00:05:20.390 --> 00:05:24.350 
+quotations we need to find the password
+field<00:05:21.390> now<00:05:22.070> this<00:05:23.070> is<00:05:23.220> just<00:05:23.730> underneath<00:05:24.030> the
+
+00:05:24.350 --> 00:05:24.360 
+field now this is just underneath the
+
+00:05:24.360 --> 00:05:26.480 
+field now this is just underneath the
+username<00:05:24.780> 1<00:05:24.990> here<00:05:25.230> it<00:05:25.380> says<00:05:25.620> input<00:05:26.160> name
+
+00:05:26.480 --> 00:05:26.490 
+username 1 here it says input name
+
+00:05:26.490 --> 00:05:30.380 
+username 1 here it says input name
+equals<00:05:26.970> passwd<00:05:27.540> your<00:05:28.530> password<00:05:29.100> so<00:05:29.460> copy<00:05:30.150> that
+
+00:05:30.380 --> 00:05:30.390 
+equals passwd your password so copy that
+
+00:05:30.390 --> 00:05:34.100 
+equals passwd your password so copy that
+and<00:05:31.130> paste<00:05:32.130> this<00:05:32.370> into<00:05:32.670> here<00:05:33.000> and<00:05:33.150> you<00:05:33.870> should
+
+00:05:34.100 --> 00:05:34.110 
+and paste this into here and you should
+
+00:05:34.110 --> 00:05:35.210 
+and paste this into here and you should
+know<00:05:34.230> how<00:05:34.320> to<00:05:34.380> do<00:05:34.530> this<00:05:34.650> now<00:05:34.800> because<00:05:34.950> you<00:05:35.100> went
+
+00:05:35.210 --> 00:05:35.220 
+know how to do this now because you went
+
+00:05:35.220 --> 00:05:38.660 
+know how to do this now because you went
+over<00:05:35.370> it<00:05:35.460> then<00:05:35.640> type<00:05:36.300> dot<00:05:36.540> set<00:05:36.780> attribute<00:05:37.670> in
+
+00:05:38.660 --> 00:05:38.670 
+over it then type dot set attribute in
+
+00:05:38.670 --> 00:05:43.250 
+over it then type dot set attribute in
+bracket<00:05:39.150> m<00:05:39.800> value<00:05:40.800> and<00:05:42.050> comment<00:05:43.050> and<00:05:43.140> then
+
+00:05:43.250 --> 00:05:43.260 
+bracket m value and comment and then
+
+00:05:43.260 --> 00:05:44.930 
+bracket m value and comment and then
+textbox<00:05:43.740> to<00:05:43.920> your<00:05:44.100> text<00:05:44.400> because<00:05:44.460> that's<00:05:44.850> our
+
+00:05:44.930 --> 00:05:44.940 
+textbox to your text because that's our
+
+00:05:44.940 --> 00:05:49.130 
+textbox to your text because that's our
+password<00:05:45.390> text<00:05:45.630> box<00:05:47.000> ok<00:05:48.000> now<00:05:48.180> we<00:05:48.240> have<00:05:48.330> we
+
+00:05:49.130 --> 00:05:49.140 
+password text box ok now we have we
+
+00:05:49.140 --> 00:05:51.590 
+password text box ok now we have we
+programmed<00:05:49.620> this<00:05:49.770> to<00:05:50.010> go<00:05:50.520> to<00:05:50.550> the<00:05:50.850> login<00:05:51.090> text
+
+00:05:51.590 --> 00:05:51.600 
+programmed this to go to the login text
+
+00:05:51.600 --> 00:05:54.110 
+programmed this to go to the login text
+area<00:05:51.870> and<00:05:52.020> set<00:05:52.590> the<00:05:52.710> value<00:05:53.040> is<00:05:53.160> textbox<00:05:53.670> 1<00:05:53.880> and
+
+00:05:54.110 --> 00:05:54.120 
+area and set the value is textbox 1 and
+
+00:05:54.120 --> 00:05:57.110 
+area and set the value is textbox 1 and
+a<00:05:54.450> password<00:05:54.690> and<00:05:55.050> set<00:05:55.260> it<00:05:55.410> to<00:05:55.440> text<00:05:55.800> box<00:05:55.950> 2<00:05:56.250> so
+
+00:05:57.110 --> 00:05:57.120 
+a password and set it to text box 2 so
+
+00:05:57.120 --> 00:05:59.360 
+a password and set it to text box 2 so
+let's<00:05:57.390> just<00:05:57.540> quickly<00:05:57.750> debug<00:05:58.440> this<00:05:58.590> and<00:05:58.919> have<00:05:59.340> a
+
+00:05:59.360 --> 00:05:59.370 
+let's just quickly debug this and have a
+
+00:05:59.370 --> 00:06:04.400 
+let's just quickly debug this and have a
+go<00:06:01.820> okay<00:06:02.820> we'll<00:06:03.000> just<00:06:03.240> put<00:06:03.600> user<00:06:03.870> name<00:06:04.050> is<00:06:04.169> test
+
+00:06:04.400 --> 00:06:04.410 
+go okay we'll just put user name is test
+
+00:06:04.410 --> 00:06:08.380 
+go okay we'll just put user name is test
+password<00:06:04.980> this<00:06:05.130> test<00:06:05.400> I'll<00:06:05.910> hit<00:06:06.600> navigate
+
+00:06:08.380 --> 00:06:08.390 
+password this test I'll hit navigate
+
+00:06:08.390 --> 00:06:11.420 
+password this test I'll hit navigate
+navigate<00:06:09.390> to<00:06:09.480> the<00:06:09.690> page<00:06:09.870> and<00:06:10.140> hit<00:06:10.290> login<00:06:10.470> and
+
+00:06:11.420 --> 00:06:11.430 
+navigate to the page and hit login and
+
+00:06:11.430 --> 00:06:13.940 
+navigate to the page and hit login and
+you'll<00:06:11.940> see<00:06:12.120> it<00:06:12.240> puts<00:06:12.510> the<00:06:12.690> text<00:06:13.080> box<00:06:13.380> Val<00:06:13.620> uses
+
+00:06:13.940 --> 00:06:13.950 
+you'll see it puts the text box Val uses
+
+00:06:13.950 --> 00:06:17.240 
+you'll see it puts the text box Val uses
+tests<00:06:14.250> and<00:06:14.580> tests<00:06:14.970> but<00:06:15.900> now<00:06:16.020> we<00:06:16.080> we<00:06:16.860> have<00:06:17.220> a
+
+00:06:17.240 --> 00:06:17.250 
+tests and tests but now we we have a
+
+00:06:17.250 --> 00:06:20.270 
+tests and tests but now we we have a
+problem<00:06:17.730> and<00:06:17.970> we<00:06:18.870> want<00:06:19.080> it<00:06:19.200> to<00:06:19.500> actually<00:06:19.680> press
+
+00:06:20.270 --> 00:06:20.280 
+problem and we want it to actually press
+
+00:06:20.280 --> 00:06:21.320 
+problem and we want it to actually press
+the<00:06:20.310> button<00:06:20.730> when<00:06:20.820> I<00:06:20.850> was<00:06:20.970> just<00:06:21.030> doing
+
+00:06:21.320 --> 00:06:21.330 
+the button when I was just doing
+
+00:06:21.330 --> 00:06:23.990 
+the button when I was just doing
+anything<00:06:21.620> so<00:06:22.620> all<00:06:23.010> we<00:06:23.160> need<00:06:23.280> to<00:06:23.310> do<00:06:23.550> it's<00:06:23.820> going
+
+00:06:23.990 --> 00:06:24.000 
+anything so all we need to do it's going
+
+00:06:24.000 --> 00:06:25.250 
+anything so all we need to do it's going
+to<00:06:24.090> be<00:06:24.180> the<00:06:24.270> same<00:06:24.450> as<00:06:24.600> document<00:06:24.990> dot<00:06:25.140> get
+
+00:06:25.250 --> 00:06:25.260 
+to be the same as document dot get
+
+00:06:25.260 --> 00:06:27.200 
+to be the same as document dot get
+element<00:06:25.380> by<00:06:25.680> ID<00:06:25.890> we're<00:06:26.490> going<00:06:26.700> to<00:06:26.790> get<00:06:26.910> the<00:06:27.060> ID
+
+00:06:27.200 --> 00:06:27.210 
+element by ID we're going to get the ID
+
+00:06:27.210 --> 00:06:28.730 
+element by ID we're going to get the ID
+of<00:06:27.360> the<00:06:27.630> button<00:06:28.050> and<00:06:28.169> then<00:06:28.350> we're<00:06:28.470> going<00:06:28.650> to
+
+00:06:28.730 --> 00:06:28.740 
+of the button and then we're going to
+
+00:06:28.740 --> 00:06:32.030 
+of the button and then we're going to
+use<00:06:29.390> invoke<00:06:30.390> member<00:06:30.810> to<00:06:30.930> click<00:06:31.169> it<00:06:31.350> so<00:06:31.620> again
+
+00:06:32.030 --> 00:06:32.040 
+use invoke member to click it so again
+
+00:06:32.040 --> 00:06:36.920 
+use invoke member to click it so again
+web<00:06:33.030> browser<00:06:33.300> 1<00:06:33.830> dot<00:06:34.830> doc<00:06:35.550> oh<00:06:35.730> sorry<00:06:36.000> aims<00:06:36.660> me
+
+00:06:36.920 --> 00:06:36.930 
+web browser 1 dot doc oh sorry aims me
+
+00:06:36.930 --> 00:06:40.700 
+web browser 1 dot doc oh sorry aims me
+spell<00:06:37.290> mistake<00:06:37.560> there<00:06:37.740> that<00:06:38.370> document<00:06:39.500> whoops
+
+00:06:40.700 --> 00:06:40.710 
+spell mistake there that document whoops
+
+00:06:40.710 --> 00:06:45.409 
+spell mistake there that document whoops
+web<00:06:41.700> browser<00:06:42.770> 1<00:06:43.770> dot<00:06:44.040> document<00:06:44.820> dot<00:06:45.120> get
+
+00:06:45.409 --> 00:06:45.419 
+web browser 1 dot document dot get
+
+00:06:45.419 --> 00:06:49.070 
+web browser 1 dot document dot get
+element<00:06:45.660> by<00:06:46.700> ID<00:06:47.700> and<00:06:48.000> in<00:06:48.300> brackets<00:06:48.690> we<00:06:48.780> need<00:06:48.960> to
+
+00:06:49.070 --> 00:06:49.080 
+element by ID and in brackets we need to
+
+00:06:49.080 --> 00:06:51.770 
+element by ID and in brackets we need to
+find<00:06:49.350> the<00:06:49.740> buttons<00:06:50.100> ID<00:06:50.430> so<00:06:51.300> if<00:06:51.360> we<00:06:51.419> go<00:06:51.510> back<00:06:51.660> to
+
+00:06:51.770 --> 00:06:51.780 
+find the buttons ID so if we go back to
+
+00:06:51.780 --> 00:06:59.659 
+find the buttons ID so if we go back to
+the<00:06:51.900> source<00:06:52.200> and<00:06:53.300> it's<00:06:54.300> down<00:06:54.540> here<00:06:54.990> bit<00:06:57.590> it
+
+00:06:59.659 --> 00:06:59.669 
+the source and it's down here bit it
+
+00:06:59.669 --> 00:07:06.379 
+the source and it's down here bit it
+let's<00:07:00.060> see<00:07:03.710> if<00:07:04.710> some<00:07:04.979> reason<00:07:05.310> the<00:07:05.430> value<00:07:05.729> is<00:07:05.910> it
+
+00:07:06.379 --> 00:07:06.389 
+let's see if some reason the value is it
+
+00:07:06.389 --> 00:07:08.900 
+let's see if some reason the value is it
+says<00:07:06.660> import<00:07:07.050> type<00:07:07.380> equals<00:07:07.800> submit<00:07:07.860> I<00:07:08.400> did
+
+00:07:08.900 --> 00:07:08.910 
+says import type equals submit I did
+
+00:07:08.910 --> 00:07:12.200 
+says import type equals submit I did
+save<00:07:09.660> name<00:07:10.050> not<00:07:10.259> save<00:07:10.580> some<00:07:11.580> reason<00:07:11.849> its<00:07:11.970> dot
+
+00:07:12.200 --> 00:07:12.210 
+save name not save some reason its dot
+
+00:07:12.210 --> 00:07:13.760 
+save name not save some reason its dot
+save<00:07:12.479> well<00:07:12.840> we're<00:07:12.990> going<00:07:13.110> to<00:07:13.289> just<00:07:13.470> use<00:07:13.740> that
+
+00:07:13.760 --> 00:07:13.770 
+save well we're going to just use that
+
+00:07:13.770 --> 00:07:19.120 
+save well we're going to just use that
+anyway<00:07:14.660> so<00:07:15.660> for<00:07:16.199> the<00:07:16.289> name<00:07:16.500> type<00:07:17.160> dot<00:07:17.520> save<00:07:17.849> and
+
+00:07:19.120 --> 00:07:19.130 
+anyway so for the name type dot save and
+
+00:07:19.130 --> 00:07:22.430 
+anyway so for the name type dot save and
+then<00:07:20.130> dot<00:07:20.490> set<00:07:20.819> no<00:07:21.270> not<00:07:21.720> that's<00:07:21.900> a<00:07:22.050> three<00:07:22.319> be
+
+00:07:22.430 --> 00:07:22.440 
+then dot set no not that's a three be
+
+00:07:22.440 --> 00:07:25.520 
+then dot set no not that's a three be
+ones<00:07:22.620> use<00:07:22.979> dot<00:07:23.280> invoke<00:07:23.780> member<00:07:24.780> and<00:07:24.990> in
+
+00:07:25.520 --> 00:07:25.530 
+ones use dot invoke member and in
+
+00:07:25.530 --> 00:07:30.559 
+ones use dot invoke member and in
+brackets<00:07:26.099> and<00:07:26.630> quotations<00:07:27.630> click<00:07:29.150> and<00:07:30.150> that's
+
+00:07:30.559 --> 00:07:30.569 
+brackets and quotations click and that's
+
+00:07:30.569 --> 00:07:32.450 
+brackets and quotations click and that's
+going<00:07:30.720> to<00:07:30.900> get<00:07:31.080> the<00:07:31.199> button<00:07:31.440> which<00:07:31.710> is<00:07:31.889> safe
+
+00:07:32.450 --> 00:07:32.460 
+going to get the button which is safe
+
+00:07:32.460 --> 00:07:35.089 
+going to get the button which is safe
+and<00:07:32.690> invoke<00:07:33.690> member<00:07:34.050> click<00:07:34.320> means<00:07:34.590> it's<00:07:34.919> going
+
+00:07:35.089 --> 00:07:35.099 
+and invoke member click means it's going
+
+00:07:35.099 --> 00:07:39.620 
+and invoke member click means it's going
+to<00:07:35.220> click<00:07:35.400> the<00:07:35.490> button<00:07:35.639> let's<00:07:36.419> debug<00:07:36.780> this<00:07:38.630> so
+
+00:07:39.620 --> 00:07:39.630 
+to click the button let's debug this so
+
+00:07:39.630 --> 00:07:42.110 
+to click the button let's debug this so
+I'm<00:07:39.720> going<00:07:39.870> to<00:07:39.900> type<00:07:40.110> I<00:07:40.380> made<00:07:41.070> in<00:07:41.280> accounts<00:07:41.820> let
+
+00:07:42.110 --> 00:07:42.120 
+I'm going to type I made in accounts let
+
+00:07:42.120 --> 00:07:45.110 
+I'm going to type I made in accounts let
+me<00:07:42.180> see<00:07:42.300> if<00:07:42.360> I<00:07:42.389> can<00:07:42.479> remember<00:07:42.660> it<00:07:42.930> was<00:07:44.120> computer
+
+00:07:45.110 --> 00:07:45.120 
+me see if I can remember it was computer
+
+00:07:45.120 --> 00:07:54.730 
+me see if I can remember it was computer
+teach<00:07:45.960> me<00:07:47.030> and<00:07:48.030> password<00:07:48.960> secret<00:07:51.110> login<00:07:53.360> and
+
+00:07:54.730 --> 00:07:54.740 
+teach me and password secret login and
+
+00:07:54.740 --> 00:07:57.200 
+teach me and password secret login and
+hopefully<00:07:55.740> they<00:07:55.919> should<00:07:56.130> login<00:07:56.580> yeah<00:07:56.940> there
+
+00:07:57.200 --> 00:07:57.210 
+hopefully they should login yeah there
+
+00:07:57.210 --> 00:07:58.550 
+hopefully they should login yeah there
+we<00:07:57.270> go<00:07:57.300> it's<00:07:57.630> click<00:07:57.840> the<00:07:57.990> button<00:07:58.319> and<00:07:58.470> it's
+
+00:07:58.550 --> 00:07:58.560 
+we go it's click the button and it's
+
+00:07:58.560 --> 00:08:00.980 
+we go it's click the button and it's
+logged<00:07:58.770> in<00:07:58.949> so<00:07:59.699> that<00:07:59.849> was<00:08:00.030> just<00:08:00.180> a<00:08:00.389> little
+
+00:08:00.980 --> 00:08:00.990 
+logged in so that was just a little
+
+00:08:00.990 --> 00:08:02.719 
+logged in so that was just a little
+tutorial<00:08:01.319> on<00:08:01.530> how<00:08:01.620> to<00:08:01.650> use<00:08:01.830> document<00:08:02.460> dr.
+
+00:08:02.719 --> 00:08:02.729 
+tutorial on how to use document dr.
+
+00:08:02.729 --> 00:08:05.149 
+tutorial on how to use document dr.
+Elman<00:08:03.060> by<00:08:03.210> a<00:08:03.240> day<00:08:03.539> to<00:08:03.599> log<00:08:03.930> in<00:08:04.080> to<00:08:04.169> a<00:08:04.199> website<00:08:04.289> if
+
+00:08:05.149 --> 00:08:05.159 
+Elman by a day to log in to a website if
+
+00:08:05.159 --> 00:08:06.620 
+Elman by a day to log in to a website if
+you<00:08:05.490> have<00:08:05.610> any<00:08:05.729> questions<00:08:06.090> about<00:08:06.180> this<00:08:06.419> then
+
+00:08:06.620 --> 00:08:06.630 
+you have any questions about this then
+
+00:08:06.630 --> 00:08:08.300 
+you have any questions about this then
+please<00:08:06.810> leave<00:08:06.960> a<00:08:07.020> comment<00:08:07.289> if<00:08:07.620> you<00:08:08.009> have<00:08:08.130> any
+
+00:08:08.300 --> 00:08:08.310 
+please leave a comment if you have any
+
+00:08:08.310 --> 00:08:11.779 
+please leave a comment if you have any
+in<00:08:10.039> suggestions<00:08:11.039> or<00:08:11.220> requests<00:08:11.550> leave<00:08:11.699> a
+
+00:08:11.779 --> 00:08:11.789 
+in suggestions or requests leave a
+
+00:08:11.789 --> 00:08:13.490 
+in suggestions or requests leave a
+comments<00:08:12.210> and<00:08:12.360> please<00:08:12.419> rate<00:08:12.780> this<00:08:12.960> video<00:08:13.110> and
+
+00:08:13.490 --> 00:08:13.500 
+comments and please rate this video and
+
+00:08:13.500 --> 00:08:16.610 
+comments and please rate this video and
+subscribe<00:08:13.949> thanks
+
