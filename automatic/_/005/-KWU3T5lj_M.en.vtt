@@ -1,0 +1,736 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.149 
+
+hey<00:00:00.480> guys<00:00:00.630> proper<00:00:01.110> English<00:00:01.350> here<00:00:01.589> I've<00:00:01.709> been
+
+00:00:02.149 --> 00:00:02.159 
+hey guys proper English here I've been
+
+00:00:02.159 --> 00:00:03.590 
+hey guys proper English here I've been
+getting<00:00:02.399> a<00:00:02.429> few<00:00:02.639> questions<00:00:02.820> about<00:00:03.179> how<00:00:03.540> you
+
+00:00:03.590 --> 00:00:03.600 
+getting a few questions about how you
+
+00:00:03.600 --> 00:00:05.329 
+getting a few questions about how you
+can<00:00:03.870> use<00:00:04.049> the<00:00:04.230> comparator<00:00:04.770> block<00:00:04.980> in<00:00:05.220> your
+
+00:00:05.329 --> 00:00:05.339 
+can use the comparator block in your
+
+00:00:05.339 --> 00:00:07.490 
+can use the comparator block in your
+builds<00:00:05.759> and<00:00:05.910> I<00:00:06.720> thought<00:00:07.109> that<00:00:07.350> would<00:00:07.440> be
+
+00:00:07.490 --> 00:00:07.500 
+builds and I thought that would be
+
+00:00:07.500 --> 00:00:10.160 
+builds and I thought that would be
+useful<00:00:07.740> if<00:00:08.250> I<00:00:08.460> did<00:00:08.639> a<00:00:08.670> tutorial<00:00:09.090> on<00:00:09.450> how<00:00:09.540> to
+
+00:00:10.160 --> 00:00:10.170 
+useful if I did a tutorial on how to
+
+00:00:10.170 --> 00:00:12.200 
+useful if I did a tutorial on how to
+think<00:00:10.620> with<00:00:10.980> the<00:00:11.130> comparator<00:00:11.639> and<00:00:11.759> the<00:00:12.120> way
+
+00:00:12.200 --> 00:00:12.210 
+think with the comparator and the way
+
+00:00:12.210 --> 00:00:13.430 
+think with the comparator and the way
+we're<00:00:12.360> going<00:00:12.450> to<00:00:12.509> do<00:00:12.690> this<00:00:12.840> is<00:00:13.049> we're<00:00:13.200> going<00:00:13.320> to
+
+00:00:13.430 --> 00:00:13.440 
+we're going to do this is we're going to
+
+00:00:13.440 --> 00:00:15.410 
+we're going to do this is we're going to
+go<00:00:13.590> through<00:00:13.799> how<00:00:14.009> to<00:00:14.040> build<00:00:14.160> a<00:00:14.549> very<00:00:15.000> simple
+
+00:00:15.410 --> 00:00:15.420 
+go through how to build a very simple
+
+00:00:15.420 --> 00:00:18.349 
+go through how to build a very simple
+little<00:00:16.350> comparator<00:00:17.039> mechanism<00:00:17.609> where<00:00:18.330> you
+
+00:00:18.349 --> 00:00:18.359 
+little comparator mechanism where you
+
+00:00:18.359 --> 00:00:21.830 
+little comparator mechanism where you
+use<00:00:18.960> the<00:00:19.470> comparators<00:00:20.010> to<00:00:20.189> detect<00:00:20.580> when<00:00:21.570> a
+
+00:00:21.830 --> 00:00:21.840 
+use the comparators to detect when a
+
+00:00:21.840 --> 00:00:24.109 
+use the comparators to detect when a
+specific<00:00:22.590> song<00:00:22.830> is<00:00:23.039> playing<00:00:23.369> in<00:00:23.670> the<00:00:23.939> jukebox
+
+00:00:24.109 --> 00:00:24.119 
+specific song is playing in the jukebox
+
+00:00:24.119 --> 00:00:26.810 
+specific song is playing in the jukebox
+well<00:00:24.630> it's<00:00:25.170> not<00:00:25.410> this<00:00:26.010> song<00:00:26.310> because<00:00:26.699> our
+
+00:00:26.810 --> 00:00:26.820 
+well it's not this song because our
+
+00:00:26.820 --> 00:00:30.550 
+well it's not this song because our
+output<00:00:27.210> isn't<00:00:27.420> on<00:00:27.980> let's<00:00:28.980> try<00:00:29.160> another<00:00:29.310> one<00:00:29.429> I
+
+00:00:30.550 --> 00:00:30.560 
+output isn't on let's try another one I
+
+00:00:30.560 --> 00:00:34.760 
+output isn't on let's try another one I
+like<00:00:31.560> this<00:00:31.800> one<00:00:31.980> it's<00:00:32.340> not<00:00:32.399> this<00:00:32.700> one<00:00:33.770> let's
+
+00:00:34.760 --> 00:00:34.770 
+like this one it's not this one let's
+
+00:00:34.770 --> 00:00:46.340 
+like this one it's not this one let's
+try<00:00:35.010> one<00:00:35.190> more<00:00:43.520> guess<00:00:44.520> it<00:00:44.640> was<00:00:44.730> that<00:00:44.760> one<00:00:45.350> the
+
+00:00:46.340 --> 00:00:46.350 
+try one more guess it was that one the
+
+00:00:46.350 --> 00:00:48.170 
+try one more guess it was that one the
+jukebox<00:00:46.860> circuit<00:00:47.250> is<00:00:47.370> a<00:00:47.399> good<00:00:47.640> example<00:00:47.760> of<00:00:48.120> how
+
+00:00:48.170 --> 00:00:48.180 
+jukebox circuit is a good example of how
+
+00:00:48.180 --> 00:00:49.790 
+jukebox circuit is a good example of how
+to<00:00:48.270> think<00:00:48.600> with<00:00:48.780> comparators<00:00:49.350> because<00:00:49.620> we're
+
+00:00:49.790 --> 00:00:49.800 
+to think with comparators because we're
+
+00:00:49.800 --> 00:00:51.500 
+to think with comparators because we're
+going<00:00:49.920> to<00:00:50.039> use<00:00:50.219> both<00:00:50.460> the<00:00:50.489> compare<00:00:51.120> and<00:00:51.390> the
+
+00:00:51.500 --> 00:00:51.510 
+going to use both the compare and the
+
+00:00:51.510 --> 00:00:53.090 
+going to use both the compare and the
+subtract<00:00:51.870> function<00:00:52.289> of<00:00:52.410> the<00:00:52.649> comparator
+
+00:00:53.090 --> 00:00:53.100 
+subtract function of the comparator
+
+00:00:53.100 --> 00:00:55.400 
+subtract function of the comparator
+block<00:00:53.280> to<00:00:53.460> figure<00:00:53.699> out<00:00:53.820> what<00:00:54.120> disc<00:00:54.390> is<00:00:54.629> in<00:00:54.989> this
+
+00:00:55.400 --> 00:00:55.410 
+block to figure out what disc is in this
+
+00:00:55.410 --> 00:00:58.040 
+block to figure out what disc is in this
+jukebox<00:00:55.920> so<00:00:56.879> the<00:00:57.000> first<00:00:57.210> thing<00:00:57.390> we<00:00:57.480> do<00:00:57.629> is<00:00:57.840> set
+
+00:00:58.040 --> 00:00:58.050 
+jukebox so the first thing we do is set
+
+00:00:58.050 --> 00:00:59.569 
+jukebox so the first thing we do is set
+up<00:00:58.109> a<00:00:58.350> comparator<00:00:58.859> coming<00:00:59.190> out<00:00:59.340> of<00:00:59.460> the
+
+00:00:59.569 --> 00:00:59.579 
+up a comparator coming out of the
+
+00:00:59.579 --> 00:01:02.029 
+up a comparator coming out of the
+jukebox<00:01:00.000> that<00:01:00.180> allows<00:01:00.539> us<00:01:00.750> to<00:01:00.930> detect<00:01:01.230> the
+
+00:01:02.029 --> 00:01:02.039 
+jukebox that allows us to detect the
+
+00:01:02.039 --> 00:01:04.280 
+jukebox that allows us to detect the
+signal<00:01:02.309> strength<00:01:02.730> coming<00:01:03.329> from<00:01:03.449> the<00:01:04.110> jukebox
+
+00:01:04.280 --> 00:01:04.290 
+signal strength coming from the jukebox
+
+00:01:04.290 --> 00:01:07.340 
+signal strength coming from the jukebox
+and<00:01:04.830> so<00:01:05.610> this<00:01:05.790> desk<00:01:06.060> has<00:01:06.360> a<00:01:06.390> signal<00:01:07.080> strength
+
+00:01:07.340 --> 00:01:07.350 
+and so this desk has a signal strength
+
+00:01:07.350 --> 00:01:09.710 
+and so this desk has a signal strength
+of<00:01:07.530> 8<00:01:07.920> each<00:01:08.159> desk<00:01:08.460> has<00:01:08.670> its<00:01:08.820> own<00:01:09.030> unique<00:01:09.330> signal
+
+00:01:09.710 --> 00:01:09.720 
+of 8 each desk has its own unique signal
+
+00:01:09.720 --> 00:01:11.270 
+of 8 each desk has its own unique signal
+strength<00:01:09.960> we're<00:01:10.560> going<00:01:10.740> to<00:01:10.860> use<00:01:11.070> that
+
+00:01:11.270 --> 00:01:11.280 
+strength we're going to use that
+
+00:01:11.280 --> 00:01:13.850 
+strength we're going to use that
+information<00:01:11.549> to<00:01:11.909> figure<00:01:12.299> out<00:01:12.540> what<00:01:13.260> desk<00:01:13.560> is
+
+00:01:13.850 --> 00:01:13.860 
+information to figure out what desk is
+
+00:01:13.860 --> 00:01:17.570 
+information to figure out what desk is
+in<00:01:14.130> the<00:01:14.220> jukebox<00:01:14.640> and<00:01:15.320> so<00:01:16.320> we<00:01:16.860> want<00:01:17.100> to<00:01:17.189> detect
+
+00:01:17.570 --> 00:01:17.580 
+in the jukebox and so we want to detect
+
+00:01:17.580 --> 00:01:19.640 
+in the jukebox and so we want to detect
+a<00:01:17.729> specific<00:01:17.880> desk<00:01:18.509> first<00:01:19.110> we're<00:01:19.409> going<00:01:19.530> to
+
+00:01:19.640 --> 00:01:19.650 
+a specific desk first we're going to
+
+00:01:19.650 --> 00:01:21.859 
+a specific desk first we're going to
+compare<00:01:20.189> the<00:01:20.220> signal<00:01:20.939> coming<00:01:21.450> from<00:01:21.600> the
+
+00:01:21.859 --> 00:01:21.869 
+compare the signal coming from the
+
+00:01:21.869 --> 00:01:25.160 
+compare the signal coming from the
+jukebox<00:01:22.400> to<00:01:23.400> the<00:01:23.610> signal<00:01:24.000> that<00:01:24.270> we<00:01:24.390> want<00:01:24.720> to<00:01:25.049> be
+
+00:01:25.160 --> 00:01:25.170 
+jukebox to the signal that we want to be
+
+00:01:25.170 --> 00:01:27.050 
+jukebox to the signal that we want to be
+coming<00:01:25.350> from<00:01:25.530> the<00:01:25.680> jukebox<00:01:25.830> so<00:01:26.280> in<00:01:26.520> this<00:01:26.820> case
+
+00:01:27.050 --> 00:01:27.060 
+coming from the jukebox so in this case
+
+00:01:27.060 --> 00:01:30.800 
+coming from the jukebox so in this case
+we're<00:01:27.299> going<00:01:27.450> to<00:01:27.570> compare<00:01:27.960> to<00:01:28.710> 8<00:01:28.950> okay<00:01:29.670> so<00:01:29.810> all
+
+00:01:30.800 --> 00:01:30.810 
+we're going to compare to 8 okay so all
+
+00:01:30.810 --> 00:01:32.780 
+we're going to compare to 8 okay so all
+we<00:01:30.869> need<00:01:31.110> to<00:01:31.140> do<00:01:31.350> is<00:01:31.560> hook<00:01:31.860> up<00:01:32.040> a<00:01:32.220> comparator
+
+00:01:32.780 --> 00:01:32.790 
+we need to do is hook up a comparator
+
+00:01:32.790 --> 00:01:35.300 
+we need to do is hook up a comparator
+over<00:01:33.000> here<00:01:33.350> leave<00:01:34.350> the<00:01:34.530> comparator<00:01:34.979> set<00:01:35.189> to
+
+00:01:35.300 --> 00:01:35.310 
+over here leave the comparator set to
+
+00:01:35.310 --> 00:01:36.740 
+over here leave the comparator set to
+compare<00:01:35.640> we<00:01:35.759> don't<00:01:35.939> want<00:01:36.150> it<00:01:36.210> subtracting
+
+00:01:36.740 --> 00:01:36.750 
+compare we don't want it subtracting
+
+00:01:36.750 --> 00:01:37.280 
+compare we don't want it subtracting
+right<00:01:36.930> now
+
+00:01:37.280 --> 00:01:37.290 
+right now
+
+00:01:37.290 --> 00:01:39.830 
+right now
+and<00:01:37.439> then<00:01:38.340> we're<00:01:38.729> going<00:01:38.880> to<00:01:38.970> set<00:01:39.210> up<00:01:39.329> a<00:01:39.479> hopper
+
+00:01:39.830 --> 00:01:39.840 
+and then we're going to set up a hopper
+
+00:01:39.840 --> 00:01:42.710 
+and then we're going to set up a hopper
+here<00:01:40.549> with<00:01:41.549> a<00:01:41.579> comparator<00:01:42.180> coming<00:01:42.450> out<00:01:42.540> and
+
+00:01:42.710 --> 00:01:42.720 
+here with a comparator coming out and
+
+00:01:42.720 --> 00:01:44.870 
+here with a comparator coming out and
+going<00:01:43.259> into<00:01:43.560> the<00:01:43.979> B<00:01:44.130> input<00:01:44.280> now<00:01:44.579> we're<00:01:44.729> going
+
+00:01:44.870 --> 00:01:44.880 
+going into the B input now we're going
+
+00:01:44.880 --> 00:01:47.120 
+going into the B input now we're going
+to<00:01:45.000> set<00:01:45.750> up<00:01:45.780> this<00:01:46.049> hopper<00:01:46.470> so<00:01:46.770> that<00:01:46.950> we're
+
+00:01:47.120 --> 00:01:47.130 
+to set up this hopper so that we're
+
+00:01:47.130 --> 00:01:51.260 
+to set up this hopper so that we're
+getting<00:01:47.460> a<00:01:47.640> signal<00:01:48.149> strength<00:01:48.479> of<00:01:49.280> 8<00:01:50.280> and<00:01:50.640> to<00:01:51.149> do
+
+00:01:51.260 --> 00:01:51.270 
+getting a signal strength of 8 and to do
+
+00:01:51.270 --> 00:01:55.520 
+getting a signal strength of 8 and to do
+that<00:01:51.979> this<00:01:52.979> should<00:01:53.490> be<00:01:53.610> enough<00:01:53.850> and<00:01:54.320> so<00:01:55.320> now
+
+00:01:55.520 --> 00:01:55.530 
+that this should be enough and so now
+
+00:01:55.530 --> 00:01:58.190 
+that this should be enough and so now
+let's<00:01:55.829> add<00:01:56.670> one<00:01:56.700> more<00:01:57.149> comparator<00:01:57.750> over<00:01:57.930> here
+
+00:01:58.190 --> 00:01:58.200 
+let's add one more comparator over here
+
+00:01:58.200 --> 00:02:00.109 
+let's add one more comparator over here
+and<00:01:58.409> throw<00:01:58.890> down<00:01:59.040> some<00:01:59.310> redstone<00:01:59.549> so<00:01:59.909> we<00:02:00.000> can
+
+00:02:00.109 --> 00:02:00.119 
+and throw down some redstone so we can
+
+00:02:00.119 --> 00:02:03.940 
+and throw down some redstone so we can
+get<00:02:00.240> an<00:02:00.360> output<00:02:01.640> and<00:02:02.640> now<00:02:02.850> when<00:02:03.000> I<00:02:03.030> put<00:02:03.420> my
+
+00:02:03.940 --> 00:02:03.950 
+get an output and now when I put my
+
+00:02:03.950 --> 00:02:06.209 
+get an output and now when I put my
+correct<00:02:04.950> desk<00:02:05.219> at
+
+00:02:06.209 --> 00:02:06.219 
+correct desk at
+
+00:02:06.219 --> 00:02:08.669 
+correct desk at
+the<00:02:07.090> output<00:02:07.420> lights<00:02:07.659> up<00:02:07.840> and<00:02:08.110> it<00:02:08.289> looks<00:02:08.470> good
+
+00:02:08.669 --> 00:02:08.679 
+the output lights up and it looks good
+
+00:02:08.679 --> 00:02:12.240 
+the output lights up and it looks good
+if<00:02:09.069> we<00:02:09.550> have<00:02:09.759> a<00:02:10.000> desk<00:02:10.390> that<00:02:10.750> is<00:02:11.379> not<00:02:11.830> strong
+
+00:02:12.240 --> 00:02:12.250 
+if we have a desk that is not strong
+
+00:02:12.250 --> 00:02:14.280 
+if we have a desk that is not strong
+enough<00:02:12.280> so<00:02:12.760> this<00:02:13.330> desk<00:02:13.629> has<00:02:13.810> a<00:02:13.870> signal
+
+00:02:14.280 --> 00:02:14.290 
+enough so this desk has a signal
+
+00:02:14.290 --> 00:02:16.979 
+enough so this desk has a signal
+strength<00:02:14.530> of<00:02:14.709> one<00:02:15.299> you<00:02:16.299> can<00:02:16.420> see<00:02:16.569> the<00:02:16.599> output
+
+00:02:16.979 --> 00:02:16.989 
+strength of one you can see the output
+
+00:02:16.989 --> 00:02:18.720 
+strength of one you can see the output
+over<00:02:17.080> here<00:02:17.349> is<00:02:17.410> pretty<00:02:17.650> weak<00:02:17.890> it's<00:02:18.160> not<00:02:18.370> strong
+
+00:02:18.720 --> 00:02:18.730 
+over here is pretty weak it's not strong
+
+00:02:18.730 --> 00:02:21.449 
+over here is pretty weak it's not strong
+enough<00:02:18.760> to<00:02:19.120> go<00:02:19.239> through<00:02:19.269> the<00:02:19.900> comparator<00:02:20.590> when
+
+00:02:21.449 --> 00:02:21.459 
+enough to go through the comparator when
+
+00:02:21.459 --> 00:02:23.250 
+enough to go through the comparator when
+we've<00:02:21.580> got<00:02:21.730> this<00:02:21.940> B<00:02:22.150> input<00:02:22.480> set<00:02:22.690> to<00:02:22.810> eight<00:02:22.989> and
+
+00:02:23.250 --> 00:02:23.260 
+we've got this B input set to eight and
+
+00:02:23.260 --> 00:02:27.150 
+we've got this B input set to eight and
+so<00:02:24.069> our<00:02:24.280> output<00:02:24.549> is<00:02:24.910> off<00:02:25.709> but<00:02:26.709> there's<00:02:26.980> one
+
+00:02:27.150 --> 00:02:27.160 
+so our output is off but there's one
+
+00:02:27.160 --> 00:02:30.360 
+so our output is off but there's one
+other<00:02:27.310> situation<00:02:27.970> what<00:02:28.810> if<00:02:29.049> the<00:02:29.590> signal
+
+00:02:30.360 --> 00:02:30.370 
+other situation what if the signal
+
+00:02:30.370 --> 00:02:32.430 
+other situation what if the signal
+coming<00:02:30.640> from<00:02:30.760> the<00:02:31.000> jukebox<00:02:31.510> is<00:02:31.750> stronger<00:02:32.290> than
+
+00:02:32.430 --> 00:02:32.440 
+coming from the jukebox is stronger than
+
+00:02:32.440 --> 00:02:35.550 
+coming from the jukebox is stronger than
+eight<00:02:32.590> well<00:02:33.430> if<00:02:34.330> that<00:02:34.599> happens<00:02:35.049> we<00:02:35.230> get<00:02:35.379> an
+
+00:02:35.550 --> 00:02:35.560 
+eight well if that happens we get an
+
+00:02:35.560 --> 00:02:37.320 
+eight well if that happens we get an
+output<00:02:35.769> over<00:02:36.099> here<00:02:36.310> so<00:02:36.459> we<00:02:36.580> need<00:02:36.700> to<00:02:36.849> set<00:02:37.030> up<00:02:37.150> a
+
+00:02:37.320 --> 00:02:37.330 
+output over here so we need to set up a
+
+00:02:37.330 --> 00:02:41.250 
+output over here so we need to set up a
+little<00:02:37.780> bit<00:02:37.989> more<00:02:38.459> circuitry<00:02:39.459> to<00:02:40.110> figure<00:02:41.110> out
+
+00:02:41.250 --> 00:02:41.260 
+little bit more circuitry to figure out
+
+00:02:41.260 --> 00:02:43.410 
+little bit more circuitry to figure out
+when<00:02:41.590> the<00:02:41.920> signal<00:02:42.250> strength<00:02:42.519> is<00:02:42.730> stronger
+
+00:02:43.410 --> 00:02:43.420 
+when the signal strength is stronger
+
+00:02:43.420 --> 00:02:47.190 
+when the signal strength is stronger
+than<00:02:44.019> we<00:02:44.200> want<00:02:44.470> to<00:02:44.560> be<00:02:44.709> so<00:02:44.950> let's<00:02:45.640> do<00:02:45.879> that<00:02:46.200> we
+
+00:02:47.190 --> 00:02:47.200 
+than we want to be so let's do that we
+
+00:02:47.200 --> 00:02:49.229 
+than we want to be so let's do that we
+can<00:02:47.379> detect<00:02:47.709> if<00:02:47.950> the<00:02:48.129> signal<00:02:48.579> coming<00:02:48.849> from<00:02:48.970> the
+
+00:02:49.229 --> 00:02:49.239 
+can detect if the signal coming from the
+
+00:02:49.239 --> 00:02:50.940 
+can detect if the signal coming from the
+jukebox<00:02:49.390> is<00:02:49.900> greater<00:02:50.349> than<00:02:50.590> eight<00:02:50.769> by
+
+00:02:50.940 --> 00:02:50.950 
+jukebox is greater than eight by
+
+00:02:50.950 --> 00:02:52.740 
+jukebox is greater than eight by
+subtracting<00:02:51.640> 8<00:02:51.790> from<00:02:51.819> it<00:02:52.180> that<00:02:52.360> way
+
+00:02:52.740 --> 00:02:52.750 
+subtracting 8 from it that way
+
+00:02:52.750 --> 00:02:54.869 
+subtracting 8 from it that way
+if<00:02:52.810> the<00:02:53.290> signal<00:02:53.709> is<00:02:53.829> too<00:02:54.099> strong<00:02:54.370> we<00:02:54.519> know<00:02:54.670> it's
+
+00:02:54.869 --> 00:02:54.879 
+if the signal is too strong we know it's
+
+00:02:54.879 --> 00:02:56.729 
+if the signal is too strong we know it's
+the<00:02:55.090> wrong<00:02:55.329> disk<00:02:55.599> there<00:02:55.870> will<00:02:55.959> be<00:02:55.989> some<00:02:56.319> signal
+
+00:02:56.729 --> 00:02:56.739 
+the wrong disk there will be some signal
+
+00:02:56.739 --> 00:02:58.680 
+the wrong disk there will be some signal
+leftover<00:02:57.400> coming<00:02:57.730> through<00:02:57.940> the<00:02:58.090> subtractor
+
+00:02:58.680 --> 00:02:58.690 
+leftover coming through the subtractor
+
+00:02:58.690 --> 00:03:00.960 
+leftover coming through the subtractor
+and<00:02:58.930> we<00:02:59.410> can<00:02:59.620> use<00:02:59.829> it<00:03:00.010> to<00:03:00.160> shut<00:03:00.400> the<00:03:00.579> circuit
+
+00:03:00.960 --> 00:03:00.970 
+and we can use it to shut the circuit
+
+00:03:00.970 --> 00:03:03.150 
+and we can use it to shut the circuit
+off<00:03:01.180> and<00:03:01.510> so<00:03:02.230> what<00:03:02.349> we're<00:03:02.500> going<00:03:02.680> to<00:03:02.739> do<00:03:02.920> is
+
+00:03:03.150 --> 00:03:03.160 
+off and so what we're going to do is
+
+00:03:03.160 --> 00:03:05.160 
+off and so what we're going to do is
+hook<00:03:03.400> up<00:03:03.609> some<00:03:03.849> redstone<00:03:04.180> over<00:03:04.599> here<00:03:04.810> with<00:03:05.140> a
+
+00:03:05.160 --> 00:03:05.170 
+hook up some redstone over here with a
+
+00:03:05.170 --> 00:03:07.920 
+hook up some redstone over here with a
+subtractor<00:03:05.950> coming<00:03:06.790> out<00:03:06.970> of<00:03:07.090> it<00:03:07.180> so<00:03:07.299> that<00:03:07.450> the
+
+00:03:07.920 --> 00:03:07.930 
+subtractor coming out of it so that the
+
+00:03:07.930 --> 00:03:10.710 
+subtractor coming out of it so that the
+jukebox<00:03:08.799> output<00:03:09.220> goes<00:03:09.400> into<00:03:09.730> this<00:03:09.879> subtractor
+
+00:03:10.710 --> 00:03:10.720 
+jukebox output goes into this subtractor
+
+00:03:10.720 --> 00:03:13.710 
+jukebox output goes into this subtractor
+through<00:03:11.049> the<00:03:11.380> a<00:03:11.410> input<00:03:12.090> then<00:03:13.090> we're<00:03:13.450> going<00:03:13.599> to
+
+00:03:13.710 --> 00:03:13.720 
+through the a input then we're going to
+
+00:03:13.720 --> 00:03:15.930 
+through the a input then we're going to
+hook<00:03:13.870> up<00:03:14.079> a<00:03:14.260> hopper<00:03:14.650> over<00:03:14.859> here<00:03:15.130> with<00:03:15.579> another
+
+00:03:15.930 --> 00:03:15.940 
+hook up a hopper over here with another
+
+00:03:15.940 --> 00:03:19.500 
+hook up a hopper over here with another
+comparator<00:03:16.630> and<00:03:17.430> send<00:03:18.430> that<00:03:18.609> into<00:03:19.030> the<00:03:19.359> B
+
+00:03:19.500 --> 00:03:19.510 
+comparator and send that into the B
+
+00:03:19.510 --> 00:03:22.229 
+comparator and send that into the B
+input<00:03:19.690> of<00:03:20.019> our<00:03:20.109> subtractor<00:03:20.769> set<00:03:21.430> this<00:03:21.609> so<00:03:22.030> that
+
+00:03:22.229 --> 00:03:22.239 
+input of our subtractor set this so that
+
+00:03:22.239 --> 00:03:24.420 
+input of our subtractor set this so that
+it<00:03:22.450> subtracts<00:03:22.690> eight<00:03:23.200> if<00:03:23.560> you<00:03:24.040> wanted
+
+00:03:24.420 --> 00:03:24.430 
+it subtracts eight if you wanted
+
+00:03:24.430 --> 00:03:28.170 
+it subtracts eight if you wanted
+attacked<00:03:24.790> this<00:03:25.540> desk<00:03:25.840> and<00:03:26.459> so<00:03:27.459> now<00:03:27.700> we're
+
+00:03:28.170 --> 00:03:28.180 
+attacked this desk and so now we're
+
+00:03:28.180 --> 00:03:30.690 
+attacked this desk and so now we're
+subtracting<00:03:28.419> 8<00:03:28.900> from<00:03:28.930> the<00:03:29.440> jukebox<00:03:29.799> output
+
+00:03:30.690 --> 00:03:30.700 
+subtracting 8 from the jukebox output
+
+00:03:30.700 --> 00:03:34.409 
+subtracting 8 from the jukebox output
+and<00:03:30.940> if<00:03:31.810> the<00:03:32.410> jukebox<00:03:33.190> is<00:03:33.430> sending<00:03:33.940> a<00:03:34.000> stronger
+
+00:03:34.409 --> 00:03:34.419 
+and if the jukebox is sending a stronger
+
+00:03:34.419 --> 00:03:36.300 
+and if the jukebox is sending a stronger
+signal<00:03:34.630> than<00:03:34.840> the<00:03:35.440> one<00:03:35.590> we're<00:03:35.769> getting<00:03:35.889> over
+
+00:03:36.300 --> 00:03:36.310 
+signal than the one we're getting over
+
+00:03:36.310 --> 00:03:38.520 
+signal than the one we're getting over
+here<00:03:36.639> we<00:03:37.180> want<00:03:37.389> to<00:03:37.480> shut<00:03:37.720> the<00:03:37.870> circuit<00:03:38.230> off<00:03:38.319> we
+
+00:03:38.520 --> 00:03:38.530 
+here we want to shut the circuit off we
+
+00:03:38.530 --> 00:03:41.039 
+here we want to shut the circuit off we
+can<00:03:38.680> do<00:03:38.859> that<00:03:39.040> by<00:03:39.700> setting<00:03:39.970> this<00:03:40.389> comparator
+
+00:03:41.039 --> 00:03:41.049 
+can do that by setting this comparator
+
+00:03:41.049 --> 00:03:44.009 
+can do that by setting this comparator
+to<00:03:41.230> subtract<00:03:42.220> and<00:03:42.609> using<00:03:43.389> a<00:03:43.540> repeater<00:03:43.930> to
+
+00:03:44.009 --> 00:03:44.019 
+to subtract and using a repeater to
+
+00:03:44.019 --> 00:03:47.129 
+to subtract and using a repeater to
+subtract<00:03:44.650> a<00:03:44.829> full<00:03:45.130> 15<00:03:45.700> signal<00:03:46.150> strength<00:03:46.419> from
+
+00:03:47.129 --> 00:03:47.139 
+subtract a full 15 signal strength from
+
+00:03:47.139 --> 00:03:49.020 
+subtract a full 15 signal strength from
+whatever<00:03:47.530> signal<00:03:48.220> is<00:03:48.400> coming<00:03:48.700> through<00:03:48.819> over
+
+00:03:49.020 --> 00:03:49.030 
+whatever signal is coming through over
+
+00:03:49.030 --> 00:03:51.240 
+whatever signal is coming through over
+here<00:03:49.239> that<00:03:49.419> ensures<00:03:49.840> that<00:03:50.169> if<00:03:50.739> there's<00:03:50.980> any
+
+00:03:51.240 --> 00:03:51.250 
+here that ensures that if there's any
+
+00:03:51.250 --> 00:03:54.360 
+here that ensures that if there's any
+signal<00:03:51.760> coming<00:03:52.329> out<00:03:52.599> of<00:03:52.840> this<00:03:52.989> subtractor<00:03:53.650> we
+
+00:03:54.360 --> 00:03:54.370 
+signal coming out of this subtractor we
+
+00:03:54.370 --> 00:03:56.190 
+signal coming out of this subtractor we
+shut<00:03:54.669> the<00:03:54.819> output<00:03:55.180> off<00:03:55.389> because<00:03:55.660> it's<00:03:56.019> the
+
+00:03:56.190 --> 00:03:56.200 
+shut the output off because it's the
+
+00:03:56.200 --> 00:03:58.740 
+shut the output off because it's the
+wrong<00:03:56.380> desk<00:03:56.709> and<00:03:57.099> so<00:03:57.760> let's<00:03:58.239> try<00:03:58.419> this<00:03:58.480> out
+
+00:03:58.740 --> 00:03:58.750 
+wrong desk and so let's try this out
+
+00:03:58.750 --> 00:04:00.360 
+wrong desk and so let's try this out
+we'll<00:03:58.930> start<00:03:59.230> by<00:03:59.380> throwing<00:03:59.650> the<00:03:59.829> correct<00:04:00.160> disc
+
+00:04:00.360 --> 00:04:00.370 
+we'll start by throwing the correct disc
+
+00:04:00.370 --> 00:04:01.350 
+we'll start by throwing the correct disc
+in
+
+00:04:01.350 --> 00:04:01.360 
+in
+
+00:04:01.360 --> 00:04:03.510 
+in
+you<00:04:01.750> can<00:04:01.900> see<00:04:02.080> that<00:04:02.260> the<00:04:02.470> outputs<00:04:02.860> on<00:04:03.040> looks
+
+00:04:03.510 --> 00:04:03.520 
+you can see that the outputs on looks
+
+00:04:03.520 --> 00:04:08.340 
+you can see that the outputs on looks
+good<00:04:03.820> if<00:04:04.560> the<00:04:05.560> signal<00:04:06.040> is<00:04:06.160> too<00:04:06.700> weak<00:04:07.350> the
+
+00:04:08.340 --> 00:04:08.350 
+good if the signal is too weak the
+
+00:04:08.350 --> 00:04:11.040 
+good if the signal is too weak the
+output<00:04:08.740> is<00:04:08.950> off<00:04:09.220> and<00:04:09.670> now<00:04:10.480> our<00:04:10.750> third
+
+00:04:11.040 --> 00:04:11.050 
+output is off and now our third
+
+00:04:11.050 --> 00:04:14.340 
+output is off and now our third
+situation<00:04:11.550> when<00:04:12.550> the<00:04:12.910> signal<00:04:13.330> is<00:04:13.510> too<00:04:13.990> strong
+
+00:04:14.340 --> 00:04:14.350 
+situation when the signal is too strong
+
+00:04:14.350 --> 00:04:18.150 
+situation when the signal is too strong
+the<00:04:15.250> output<00:04:15.610> is<00:04:15.760> off<00:04:16.000> this<00:04:16.690> works<00:04:17.140> perfectly
+
+00:04:18.150 --> 00:04:18.160 
+the output is off this works perfectly
+
+00:04:18.160 --> 00:04:20.910 
+the output is off this works perfectly
+so<00:04:18.790> hopefully<00:04:19.329> going<00:04:20.140> through<00:04:20.350> this<00:04:20.500> circuit
+
+00:04:20.910 --> 00:04:20.920 
+so hopefully going through this circuit
+
+00:04:20.920 --> 00:04:23.630 
+so hopefully going through this circuit
+has<00:04:21.160> given<00:04:21.730> you<00:04:21.880> an<00:04:22.060> idea<00:04:22.180> of<00:04:22.510> how<00:04:22.720> you<00:04:22.780> can<00:04:23.200> use
+
+00:04:23.630 --> 00:04:23.640 
+has given you an idea of how you can use
+
+00:04:23.640 --> 00:04:26.130 
+has given you an idea of how you can use
+comparators<00:04:24.640> both<00:04:24.880> be<00:04:25.330> compared<00:04:25.810> and<00:04:26.020> the
+
+00:04:26.130 --> 00:04:26.140 
+comparators both be compared and the
+
+00:04:26.140 --> 00:04:28.200 
+comparators both be compared and the
+subtract<00:04:26.590> function<00:04:27.040> of<00:04:27.160> comparators<00:04:27.670> in<00:04:27.850> your
+
+00:04:28.200 --> 00:04:28.210 
+subtract function of comparators in your
+
+00:04:28.210 --> 00:04:30.450 
+subtract function of comparators in your
+own<00:04:28.360> circuits<00:04:28.900> thanks<00:04:29.830> for<00:04:29.950> watching<00:04:30.310> and
+
+00:04:30.450 --> 00:04:30.460 
+own circuits thanks for watching and
+
+00:04:30.460 --> 00:04:33.660 
+own circuits thanks for watching and
+I'll<00:04:30.790> see<00:04:31.000> you<00:04:31.060> guys<00:04:31.090> next<00:04:31.270> time
+
