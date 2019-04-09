@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.000
+ There are many different ways to solve this problem. 
+
+00:00:03.000 --> 00:00:06.000
+ First we will look for a way to solve it using loop repetition 
+
+00:00:06.000 --> 00:00:08.000
+ We will determine the find_element procedure 
+
+00:00:08.000 --> 00:00:13.000
+ , P will use a name for the list and a name for the target 
+
+00:00:13.000 --> 00:00:15.000
+ The element we want to match 
+
+00:00:15.000 --> 00:00:18.000
+ , We will define loop repeatability to review p 
+
+00:00:18.000 --> 00:00:22.000
+ In a similar way to the previous loop repeats that we saw when reviewing the lists 
+
+00:00:22.000 --> 00:00:25.000
+ We have cyclic redundancy. We introduced variable i 
+
+00:00:25.000 --> 00:00:27.000
+ . We will use it as an indicator to review ring frequency 
+
+00:00:27.000 --> 00:00:32.000
+ , While the variable i is len (p 
+
+00:00:32.000 --> 00:00:36.000
+ (So ​​we want our test of loop repetition while i &amp; lt; len (p 
+
+00:00:36.000 --> 00:00:40.000
+ , In the loop repeat block while we want to check whether the current element is compatible with t 
+
+00:00:40.000 --> 00:00:47.000
+ . So we get the current element using p [i] and then use == to test if it is equal to t 
+
+00:00:47.000 --> 00:00:51.000
+ , If we find a match, this means that the two values ​​are equal 
+
+00:00:51.000 --> 00:00:53.000
+ . Then we want to return the cursor we found 
+
+00:00:53.000 --> 00:00:55.000
+ , So, the value of i should be 
+
+00:00:55.000 --> 00:00:58.000
+ Which is considered the pointer where we found the object to match 
+
+00:00:58.000 --> 00:01:01.000
+ The dangerous thing about using loop repetitions is instead of for-loops 
+
+00:01:01.000 --> 00:01:06.000
+ It is easy to forget about the need to increase the variable indicator 
+
+00:01:06.000 --> 00:01:08.000
+ If we just leave a loop like this, it will run infinitely 
+
+00:01:08.000 --> 00:01:13.000
+ , Because the value of i will never change unless the first element is matched 
+
+00:01:13.000 --> 00:01:15.000
+ Which we want to restore to 0 in this case 
+
+00:01:15.000 --> 00:01:19.000
+ The cyclic repetition will continue indefinitely, by re-checking the first element 
+
+00:01:19.000 --> 00:01:21.000
+ , So we want to increase the value of i 
+
+00:01:21.000 --> 00:01:23.000
+ This will be the end of the block 
+
+00:01:23.000 --> 00:01:27.000
+ , The way the image explained what the find_element action should do 
+
+00:01:27.000 --> 00:01:30.000
+ If the item does not exist, the result should be -1 
+
+00:01:30.000 --> 00:01:32.000
+ , If we go to the end of the loop while no return 
+
+00:01:32.000 --> 00:01:37.000
+ This means that we have moved through the while loop of all values ​​of i to len (p) -1 
+
+00:01:37.000 --> 00:01:41.000
+ We did not find any matching element, so we should get the result -1 
+
+00:01:41.000 --> 00:01:43.000
+ So this is a way to specify find_element 
+
+00:01:43.000 --> 00:01:46.000
+ . I will also show you a way to select it using the for-loop 
+
+00:01:46.000 --> 00:01:50.000
+ The reason why finding find_element while repeating loop is obvious 
+
+00:01:50.000 --> 00:01:54.000
+ Instead of for-loop is because the value we want to return is from find_element 
+
+00:01:54.000 --> 00:01:56.000
+ Is the same indicator 
+
+00:01:56.000 --> 00:01:59.000
+ When we use the for-loop with the standard formula to move across elements 
+
+00:01:59.000 --> 00:02:02.000
+ . Cyclic repetition, we do not continue to track the cursor 
+
+00:02:02.000 --> 00:02:04.000
+ . We only see each item in order 
+
+00:02:04.000 --> 00:02:07.000
+ So we need to add something else to keep track of the indicator 
+
+00:02:07.000 --> 00:02:09.000
+ This is the value we want to return 
+
+00:02:09.000 --> 00:02:12.000
+ Therefore, we still need to use a variable to continue the indicator 
+
+00:02:12.000 --> 00:02:16.000
+ We will use i as this variable exactly as we did in cyclic redundancy 
+
+00:02:16.000 --> 00:02:19.000
+ Now instead of cyclic redundancy, we will have a for-loop 
+
+00:02:19.000 --> 00:02:22.000
+ We do not need to think about the stop clause here 
+
+00:02:22.000 --> 00:02:24.000
+ . Because it will review all the items only 
+
+00:02:24.000 --> 00:02:29.000
+ Just like the loop repetition text, we check whether the current element is equal to t 
+
+00:02:29.000 --> 00:02:32.000
+ In cyclic redundancy, we can obtain the current element using the variable e 
+
+00:02:32.000 --> 00:02:36.000
+ This is what is assigned each time we review the loop repetition text 
+
+00:02:36.000 --> 00:02:38.000
+ To the value of the current item 
+
+00:02:38.000 --> 00:02:41.000
+ So our test uses == to compare e and t 
+
+00:02:41.000 --> 00:02:46.000
+ . If they match, as we did in the while version, we should return the result 
+
+00:02:46.000 --> 00:02:49.000
+ The result we want to return is the pointer where we found the match 
+
+00:02:49.000 --> 00:02:51.000
+ . In the while while it was clear 
+
+00:02:51.000 --> 00:02:56.000
+ . It seems logical because we were looking at element p and indicator i 
+
+00:02:56.000 --> 00:03:00.000
+ . In the content version for-loop we must be more careful to see the location of the index 
+
+00:03:00.000 --> 00:03:05.000
+ We use the variable i to continue following this indicator, so we will return i 
+
+00:03:05.000 --> 00:03:07.000
+ I starts at 0 
+
+00:03:07.000 --> 00:03:09.000
+ Each time during cyclic repetition we need to increase i 
+
+00:03:09.000 --> 00:03:12.000
+ We will continue to follow the current indicator as we review the elements 
+
+00:03:12.000 --> 00:03:16.000
+ , As with the previous definition, when cyclic repetition is obtained 
+
+00:03:16.000 --> 00:03:20.000
+ If we reach the end without finding it, this means that the element is not in p 
+
+00:03:20.000 --> 00:03:22.000
+ A result should be obtained 
+
+00:03:22.000 --> 00:03:25.000
+ We can do the same here too 
+
