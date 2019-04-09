@@ -1,0 +1,834 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.360 
+
+we're<00:00:00.659> going<00:00:00.810> to<00:00:00.870> go<00:00:00.989> over<00:00:01.370> conclusion
+
+00:00:02.360 --> 00:00:02.370 
+we're going to go over conclusion
+
+00:00:02.370 --> 00:00:04.910 
+we're going to go over conclusion
+calling<00:00:02.760> in<00:00:02.939> unity<00:00:03.300> iPhone<00:00:03.920> occlusion
+
+00:00:04.910 --> 00:00:04.920 
+calling in unity iPhone occlusion
+
+00:00:04.920 --> 00:00:06.769 
+calling in unity iPhone occlusion
+culling<00:00:04.950> is<00:00:05.279> a<00:00:05.339> rendering<00:00:05.759> optimization<00:00:06.600> that
+
+00:00:06.769 --> 00:00:06.779 
+culling is a rendering optimization that
+
+00:00:06.779 --> 00:00:09.709 
+culling is a rendering optimization that
+allows<00:00:07.049> us<00:00:07.080> to<00:00:07.560> ignore<00:00:08.309> meshes<00:00:09.120> which<00:00:09.420> are
+
+00:00:09.709 --> 00:00:09.719 
+allows us to ignore meshes which are
+
+00:00:09.719 --> 00:00:13.820 
+allows us to ignore meshes which are
+obscured<00:00:10.710> from<00:00:10.830> view<00:00:10.920> of<00:00:11.400> the<00:00:11.759> camera<00:00:12.139> so<00:00:13.139> if
+
+00:00:13.820 --> 00:00:13.830 
+obscured from view of the camera so if
+
+00:00:13.830 --> 00:00:15.589 
+obscured from view of the camera so if
+you<00:00:13.980> look<00:00:14.099> at<00:00:14.190> our<00:00:14.250> scene<00:00:14.549> right<00:00:14.759> now<00:00:14.790> we<00:00:15.269> have
+
+00:00:15.589 --> 00:00:15.599 
+you look at our scene right now we have
+
+00:00:15.599 --> 00:00:18.710 
+you look at our scene right now we have
+about<00:00:15.630> 900<00:00:16.619> draw<00:00:17.190> calls<00:00:17.460> on<00:00:17.789> a<00:00:17.850> little<00:00:18.420> under
+
+00:00:18.710 --> 00:00:18.720 
+about 900 draw calls on a little under
+
+00:00:18.720 --> 00:00:22.160 
+about 900 draw calls on a little under
+30,000<00:00:19.500> triangles<00:00:20.039> so<00:00:21.000> we're<00:00:21.270> going<00:00:21.510> to<00:00:21.660> turn
+
+00:00:22.160 --> 00:00:22.170 
+30,000 triangles so we're going to turn
+
+00:00:22.170 --> 00:00:24.859 
+30,000 triangles so we're going to turn
+on<00:00:22.350> occlusion<00:00:22.800> culling<00:00:22.830> and<00:00:23.279> reduce<00:00:23.609> that<00:00:23.869> so
+
+00:00:24.859 --> 00:00:24.869 
+on occlusion culling and reduce that so
+
+00:00:24.869 --> 00:00:26.330 
+on occlusion culling and reduce that so
+the<00:00:25.050> first<00:00:25.260> thing<00:00:25.350> you<00:00:25.529> want<00:00:25.740> to<00:00:25.800> do<00:00:25.980> is<00:00:26.160> go<00:00:26.279> to
+
+00:00:26.330 --> 00:00:26.340 
+the first thing you want to do is go to
+
+00:00:26.340 --> 00:00:30.650 
+the first thing you want to do is go to
+game<00:00:26.939> objects<00:00:27.420> create<00:00:28.109> other<00:00:28.380> view<00:00:29.369> area<00:00:29.660> now
+
+00:00:30.650 --> 00:00:30.660 
+game objects create other view area now
+
+00:00:30.660 --> 00:00:33.110 
+game objects create other view area now
+the<00:00:30.720> view<00:00:31.080> area<00:00:31.320> is<00:00:31.769> going<00:00:32.309> to<00:00:32.669> determine
+
+00:00:33.110 --> 00:00:33.120 
+the view area is going to determine
+
+00:00:33.120 --> 00:00:36.319 
+the view area is going to determine
+where<00:00:33.660> your<00:00:33.870> camera<00:00:34.380> can<00:00:34.649> be<00:00:34.920> and<00:00:35.329> have
+
+00:00:36.319 --> 00:00:36.329 
+where your camera can be and have
+
+00:00:36.329 --> 00:00:38.060 
+where your camera can be and have
+occlusion<00:00:36.809> culling<00:00:36.840> work<00:00:37.290> so<00:00:37.739> the<00:00:37.860> first
+
+00:00:38.060 --> 00:00:38.070 
+occlusion culling work so the first
+
+00:00:38.070 --> 00:00:40.880 
+occlusion culling work so the first
+thing<00:00:38.160> we<00:00:38.340> need<00:00:38.460> to<00:00:38.520> do<00:00:38.730> is<00:00:39.020> position<00:00:40.020> our<00:00:40.559> view
+
+00:00:40.880 --> 00:00:40.890 
+thing we need to do is position our view
+
+00:00:40.890 --> 00:00:44.299 
+thing we need to do is position our view
+area<00:00:41.100> around<00:00:42.030> the<00:00:42.360> camera<00:00:43.010> so<00:00:44.010> I'm<00:00:44.100> just<00:00:44.190> going
+
+00:00:44.299 --> 00:00:44.309 
+area around the camera so I'm just going
+
+00:00:44.309 --> 00:00:47.510 
+area around the camera so I'm just going
+to<00:00:44.399> do<00:00:44.460> a<00:00:44.489> quick<00:00:45.030> small<00:00:45.750> test<00:00:46.079> of<00:00:46.320> the<00:00:47.250> view
+
+00:00:47.510 --> 00:00:47.520 
+to do a quick small test of the view
+
+00:00:47.520 --> 00:00:50.779 
+to do a quick small test of the view
+area<00:00:48.289> placing<00:00:49.289> it<00:00:49.440> on<00:00:49.620> top<00:00:49.680> of<00:00:49.980> the<00:00:50.129> camera<00:00:50.430> and
+
+00:00:50.779 --> 00:00:50.789 
+area placing it on top of the camera and
+
+00:00:50.789 --> 00:00:52.939 
+area placing it on top of the camera and
+not<00:00:51.300> filling<00:00:51.719> the<00:00:51.809> entire<00:00:51.840> room<00:00:52.379> just<00:00:52.739> so<00:00:52.829> that
+
+00:00:52.939 --> 00:00:52.949 
+not filling the entire room just so that
+
+00:00:52.949 --> 00:00:54.340 
+not filling the entire room just so that
+I<00:00:52.980> can<00:00:53.070> show<00:00:53.370> you<00:00:53.430> the<00:00:53.670> differences<00:00:54.149> between
+
+00:00:54.340 --> 00:00:54.350 
+I can show you the differences between
+
+00:00:54.350 --> 00:00:57.290 
+I can show you the differences between
+when<00:00:55.350> occlusion<00:00:55.770> culling<00:00:55.800> is<00:00:56.129> on<00:00:56.430> and<00:00:56.760> when
+
+00:00:57.290 --> 00:00:57.300 
+when occlusion culling is on and when
+
+00:00:57.300 --> 00:00:59.779 
+when occlusion culling is on and when
+it's<00:00:57.449> not<00:00:57.660> so<00:00:58.559> I've<00:00:58.710> positioned<00:00:58.949> my<00:00:59.309> view<00:00:59.579> area
+
+00:00:59.779 --> 00:00:59.789 
+it's not so I've positioned my view area
+
+00:00:59.789 --> 00:01:01.849 
+it's not so I've positioned my view area
+the<00:01:00.329> next<00:01:00.570> thing<00:01:00.660> I'm<00:01:00.780> going<00:01:00.870> to<00:01:01.079> do<00:01:01.320> is<00:01:01.559> go<00:01:01.800> to
+
+00:01:01.849 --> 00:01:01.859 
+the next thing I'm going to do is go to
+
+00:01:01.859 --> 00:01:06.380 
+the next thing I'm going to do is go to
+edit<00:01:02.460> generate<00:01:03.390> occlusion<00:01:03.930> preview<00:01:05.390> after
+
+00:01:06.380 --> 00:01:06.390 
+edit generate occlusion preview after
+
+00:01:06.390 --> 00:01:08.179 
+edit generate occlusion preview after
+clicking<00:01:06.630> this<00:01:06.869> it<00:01:07.080> does<00:01:07.229> some<00:01:07.500> calculations
+
+00:01:08.179 --> 00:01:08.189 
+clicking this it does some calculations
+
+00:01:08.189 --> 00:01:10.280 
+clicking this it does some calculations
+which<00:01:08.400> take<00:01:08.700> a<00:01:08.729> while<00:01:09.000> and<00:01:09.240> when<00:01:09.720> we<00:01:09.840> come<00:01:10.080> back
+
+00:01:10.280 --> 00:01:10.290 
+which take a while and when we come back
+
+00:01:10.290 --> 00:01:12.410 
+which take a while and when we come back
+we<00:01:10.770> can<00:01:10.950> see<00:01:10.979> that<00:01:11.280> we<00:01:11.430> have<00:01:11.460> significantly
+
+00:01:12.410 --> 00:01:12.420 
+we can see that we have significantly
+
+00:01:12.420 --> 00:01:17.390 
+we can see that we have significantly
+fewer<00:01:12.810> draw<00:01:13.170> calls<00:01:13.439> and<00:01:13.909> polygons<00:01:15.140> so<00:01:16.140> if<00:01:16.500> we
+
+00:01:17.390 --> 00:01:17.400 
+fewer draw calls and polygons so if we
+
+00:01:17.400 --> 00:01:19.130 
+fewer draw calls and polygons so if we
+want<00:01:17.640> to<00:01:17.729> see<00:01:17.970> exactly<00:01:18.420> what<00:01:18.720> occlusion
+
+00:01:19.130 --> 00:01:19.140 
+want to see exactly what occlusion
+
+00:01:19.140 --> 00:01:21.080 
+want to see exactly what occlusion
+culling<00:01:19.170> is<00:01:19.530> doing<00:01:19.920> you<00:01:20.159> can<00:01:20.369> go<00:01:20.490> up<00:01:20.610> to<00:01:20.820> the
+
+00:01:21.080 --> 00:01:21.090 
+culling is doing you can go up to the
+
+00:01:21.090 --> 00:01:24.399 
+culling is doing you can go up to the
+top<00:01:21.990> of<00:01:22.049> your<00:01:22.470> scene<00:01:23.070> view<00:01:23.310> and<00:01:23.549> select
+
+00:01:24.399 --> 00:01:24.409 
+top of your scene view and select
+
+00:01:24.409 --> 00:01:27.679 
+top of your scene view and select
+occlusion<00:01:25.409> now<00:01:26.250> you'll<00:01:26.850> see<00:01:27.119> many<00:01:27.420> of<00:01:27.570> the
+
+00:01:27.679 --> 00:01:27.689 
+occlusion now you'll see many of the
+
+00:01:27.689 --> 00:01:30.260 
+occlusion now you'll see many of the
+meshes<00:01:28.080> turn<00:01:28.470> off<00:01:28.680> this<00:01:29.610> is<00:01:29.759> actually<00:01:30.090> showing
+
+00:01:30.260 --> 00:01:30.270 
+meshes turn off this is actually showing
+
+00:01:30.270 --> 00:01:32.749 
+meshes turn off this is actually showing
+us<00:01:30.540> that<00:01:30.960> the<00:01:31.320> these<00:01:31.890> are<00:01:31.920> the<00:01:32.130> meshes<00:01:32.460> which
+
+00:01:32.749 --> 00:01:32.759 
+us that the these are the meshes which
+
+00:01:32.759 --> 00:01:34.550 
+us that the these are the meshes which
+occlusion<00:01:33.360> culling<00:01:33.390> has<00:01:33.750> deemed<00:01:34.290> are
+
+00:01:34.550 --> 00:01:34.560 
+occlusion culling has deemed are
+
+00:01:34.560 --> 00:01:38.120 
+occlusion culling has deemed are
+invisible<00:01:35.310> to<00:01:35.549> us<00:01:35.790> right<00:01:35.970> now<00:01:36.030> if<00:01:36.689> I<00:01:37.650> move<00:01:37.920> my
+
+00:01:38.120 --> 00:01:38.130 
+invisible to us right now if I move my
+
+00:01:38.130 --> 00:01:41.030 
+invisible to us right now if I move my
+main<00:01:38.369> camera<00:01:38.640> out<00:01:38.909> of<00:01:38.970> the<00:01:39.240> view<00:01:39.600> area<00:01:40.040> the
+
+00:01:41.030 --> 00:01:41.040 
+main camera out of the view area the
+
+00:01:41.040 --> 00:01:43.010 
+main camera out of the view area the
+occlusion<00:01:41.490> culling<00:01:41.520> no<00:01:41.909> longer<00:01:42.240> works<00:01:42.479> so<00:01:42.810> all
+
+00:01:43.010 --> 00:01:43.020 
+occlusion culling no longer works so all
+
+00:01:43.020 --> 00:01:45.469 
+occlusion culling no longer works so all
+of<00:01:43.049> those<00:01:43.259> meshes<00:01:43.680> come<00:01:43.979> back<00:01:44.250> so<00:01:45.090> this<00:01:45.240> is<00:01:45.329> why
+
+00:01:45.469 --> 00:01:45.479 
+of those meshes come back so this is why
+
+00:01:45.479 --> 00:01:47.179 
+of those meshes come back so this is why
+we<00:01:45.630> need<00:01:45.659> to<00:01:45.810> make<00:01:45.960> sure<00:01:45.990> that<00:01:46.320> our<00:01:46.530> view<00:01:47.009> area
+
+00:01:47.179 --> 00:01:47.189 
+we need to make sure that our view area
+
+00:01:47.189 --> 00:01:49.490 
+we need to make sure that our view area
+covers<00:01:47.869> everywhere<00:01:48.869> that<00:01:49.049> the<00:01:49.140> camera<00:01:49.470> can
+
+00:01:49.490 --> 00:01:49.500 
+covers everywhere that the camera can
+
+00:01:49.500 --> 00:01:53.149 
+covers everywhere that the camera can
+possibly<00:01:50.009> go<00:01:50.299> otherwise<00:01:51.299> your<00:01:52.020> player<00:01:52.890> could
+
+00:01:53.149 --> 00:01:53.159 
+possibly go otherwise your player could
+
+00:01:53.159 --> 00:01:54.700 
+possibly go otherwise your player could
+move<00:01:53.310> the<00:01:53.460> camera<00:01:53.670> outside<00:01:53.909> of<00:01:54.329> it<00:01:54.420> and
+
+00:01:54.700 --> 00:01:54.710 
+move the camera outside of it and
+
+00:01:54.710 --> 00:01:58.249 
+move the camera outside of it and
+occlusion<00:01:55.710> culling<00:01:55.740> no<00:01:56.159> longer<00:01:56.430> helps<00:01:56.700> us<00:01:57.259> so
+
+00:01:58.249 --> 00:01:58.259 
+occlusion culling no longer helps us so
+
+00:01:58.259 --> 00:01:58.990 
+occlusion culling no longer helps us so
+now<00:01:58.350> I'm<00:01:58.409> going<00:01:58.469> to<00:01:58.590> show<00:01:58.649> you<00:01:58.740> how<00:01:58.829> to
+
+00:01:58.990 --> 00:01:59.000 
+now I'm going to show you how to
+
+00:01:59.000 --> 00:02:02.899 
+now I'm going to show you how to
+position<00:02:00.049> the<00:02:01.049> view<00:02:01.320> area<00:02:01.500> like<00:02:02.340> you<00:02:02.460> would<00:02:02.670> in
+
+00:02:02.899 --> 00:02:02.909 
+position the view area like you would in
+
+00:02:02.909 --> 00:02:05.539 
+position the view area like you would in
+a<00:02:03.000> real<00:02:03.149> game<00:02:03.420> so<00:02:04.170> the<00:02:04.590> easiest<00:02:04.740> way<00:02:05.070> I<00:02:05.100> find<00:02:05.460> to
+
+00:02:05.539 --> 00:02:05.549 
+a real game so the easiest way I find to
+
+00:02:05.549 --> 00:02:07.880 
+a real game so the easiest way I find to
+do<00:02:05.640> it<00:02:05.759> is<00:02:05.880> to<00:02:05.909> go<00:02:06.210> into<00:02:06.869> an<00:02:07.020> orthographic<00:02:07.530> view
+
+00:02:07.880 --> 00:02:07.890 
+do it is to go into an orthographic view
+
+00:02:07.890 --> 00:02:09.050 
+do it is to go into an orthographic view
+so<00:02:08.369> that<00:02:08.399> I<00:02:08.550> can<00:02:08.610> see
+
+00:02:09.050 --> 00:02:09.060 
+so that I can see
+
+00:02:09.060 --> 00:02:11.449 
+so that I can see
+exactly<00:02:09.630> how<00:02:09.840> large<00:02:10.229> my<00:02:10.380> room<00:02:10.739> is<00:02:10.920> and<00:02:11.220> I<00:02:11.280> don't
+
+00:02:11.449 --> 00:02:11.459 
+exactly how large my room is and I don't
+
+00:02:11.459 --> 00:02:13.390 
+exactly how large my room is and I don't
+have<00:02:11.580> any<00:02:11.760> of<00:02:11.849> that<00:02:11.910> perspective<00:02:12.270> distortion
+
+00:02:13.390 --> 00:02:13.400 
+have any of that perspective distortion
+
+00:02:13.400 --> 00:02:17.000 
+have any of that perspective distortion
+the<00:02:14.400> key<00:02:14.640> here<00:02:14.670> is<00:02:15.000> to<00:02:15.150> fill<00:02:15.720> the<00:02:16.140> entire<00:02:16.319> room
+
+00:02:17.000 --> 00:02:17.010 
+the key here is to fill the entire room
+
+00:02:17.010 --> 00:02:20.000 
+the key here is to fill the entire room
+wall<00:02:17.940> to<00:02:18.120> wall<00:02:18.330> but<00:02:19.170> you<00:02:19.290> don't<00:02:19.500> want<00:02:19.709> to<00:02:19.800> go
+
+00:02:20.000 --> 00:02:20.010 
+wall to wall but you don't want to go
+
+00:02:20.010 --> 00:02:22.339 
+wall to wall but you don't want to go
+outside<00:02:20.940> of<00:02:21.360> the<00:02:21.420> walls<00:02:21.599> you<00:02:21.750> want<00:02:21.930> to<00:02:21.989> keep<00:02:22.170> it
+
+00:02:22.339 --> 00:02:22.349 
+outside of the walls you want to keep it
+
+00:02:22.349 --> 00:02:25.729 
+outside of the walls you want to keep it
+as<00:02:22.530> close<00:02:22.920> to<00:02:23.160> that<00:02:23.280> wall<00:02:23.520> as<00:02:23.730> you<00:02:23.940> can<00:02:24.620> so<00:02:25.620> I'm
+
+00:02:25.729 --> 00:02:25.739 
+as close to that wall as you can so I'm
+
+00:02:25.739 --> 00:02:29.120 
+as close to that wall as you can so I'm
+going<00:02:25.890> to<00:02:25.950> expand<00:02:26.519> it<00:02:26.640> out<00:02:26.760> in<00:02:26.970> my<00:02:27.349> x<00:02:28.349> and<00:02:28.890> z
+
+00:02:29.120 --> 00:02:29.130 
+going to expand it out in my x and z
+
+00:02:29.130 --> 00:02:31.339 
+going to expand it out in my x and z
+axes<00:02:29.610> and<00:02:29.849> it's<00:02:30.840> already<00:02:31.080> positioned
+
+00:02:31.339 --> 00:02:31.349 
+axes and it's already positioned
+
+00:02:31.349 --> 00:02:35.150 
+axes and it's already positioned
+correctly<00:02:31.680> in<00:02:31.980> Y<00:02:32.190> and<00:02:32.989> then<00:02:33.989> I<00:02:34.260> can<00:02:34.709> generate
+
+00:02:35.150 --> 00:02:35.160 
+correctly in Y and then I can generate
+
+00:02:35.160 --> 00:02:38.150 
+correctly in Y and then I can generate
+my<00:02:35.400> occlusion<00:02:35.970> culling<00:02:36.000> for<00:02:36.750> the<00:02:37.319> entire<00:02:37.709> room
+
+00:02:38.150 --> 00:02:38.160 
+my occlusion culling for the entire room
+
+00:02:38.160 --> 00:02:40.640 
+my occlusion culling for the entire room
+so<00:02:39.030> again<00:02:39.510> I'm<00:02:39.599> going<00:02:39.690> to<00:02:39.780> go<00:02:39.870> back<00:02:39.900> to<00:02:40.080> edit
+
+00:02:40.640 --> 00:02:40.650 
+so again I'm going to go back to edit
+
+00:02:40.650 --> 00:02:44.210 
+so again I'm going to go back to edit
+generate<00:02:41.610> a<00:02:41.640> cosian<00:02:41.989> preview<00:02:42.989> now<00:02:43.950> when<00:02:44.130> I
+
+00:02:44.210 --> 00:02:44.220 
+generate a cosian preview now when I
+
+00:02:44.220 --> 00:02:46.059 
+generate a cosian preview now when I
+click<00:02:44.400> preview<00:02:44.850> it<00:02:45.120> didn't<00:02:45.690> actually
+
+00:02:46.059 --> 00:02:46.069 
+click preview it didn't actually
+
+00:02:46.069 --> 00:02:48.830 
+click preview it didn't actually
+generate<00:02:47.069> our<00:02:47.220> occlusion<00:02:47.670> culling<00:02:47.700> and<00:02:48.120> the
+
+00:02:48.830 --> 00:02:48.840 
+generate our occlusion culling and the
+
+00:02:48.840 --> 00:02:50.240 
+generate our occlusion culling and the
+reason<00:02:48.989> for<00:02:49.140> that<00:02:49.290> is<00:02:49.620> that<00:02:49.650> occlusion
+
+00:02:50.240 --> 00:02:50.250 
+reason for that is that occlusion
+
+00:02:50.250 --> 00:02:51.770 
+reason for that is that occlusion
+culling<00:02:50.280> requires<00:02:50.790> your<00:02:51.000> mesh<00:02:51.299> is<00:02:51.480> to<00:02:51.660> be
+
+00:02:51.770 --> 00:02:51.780 
+culling requires your mesh is to be
+
+00:02:51.780 --> 00:02:54.650 
+culling requires your mesh is to be
+static<00:02:52.260> so<00:02:53.069> I<00:02:53.100> go<00:02:53.430> back<00:02:53.459> select<00:02:54.120> the<00:02:54.299> meshes
+
+00:02:54.650 --> 00:02:54.660 
+static so I go back select the meshes
+
+00:02:54.660 --> 00:02:57.289 
+static so I go back select the meshes
+that<00:02:55.200> do<00:02:55.349> not<00:02:55.470> move<00:02:55.709> and<00:02:55.980> mark<00:02:56.670> them<00:02:56.819> as<00:02:56.880> static
+
+00:02:57.289 --> 00:02:57.299 
+that do not move and mark them as static
+
+00:02:57.299 --> 00:02:59.839 
+that do not move and mark them as static
+then<00:02:57.810> when<00:02:57.959> I<00:02:57.989> click<00:02:58.260> preview<00:02:59.099> it<00:02:59.310> will
+
+00:02:59.839 --> 00:02:59.849 
+then when I click preview it will
+
+00:02:59.849 --> 00:03:02.199 
+then when I click preview it will
+generate<00:03:00.120> the<00:03:00.450> correct<00:03:00.569> occlusion<00:03:01.230> culling
+
+00:03:02.199 --> 00:03:02.209 
+generate the correct occlusion culling
+
+00:03:02.209 --> 00:03:06.140 
+generate the correct occlusion culling
+so<00:03:03.209> one<00:03:03.750> of<00:03:03.780> the<00:03:04.080> key<00:03:04.680> controls<00:03:05.190> you<00:03:05.370> have<00:03:05.640> when
+
+00:03:06.140 --> 00:03:06.150 
+so one of the key controls you have when
+
+00:03:06.150 --> 00:03:08.930 
+so one of the key controls you have when
+working<00:03:06.420> with<00:03:06.630> occlusion<00:03:07.410> culling<00:03:07.440> is<00:03:07.940> cell
+
+00:03:08.930 --> 00:03:08.940 
+working with occlusion culling is cell
+
+00:03:08.940 --> 00:03:12.620 
+working with occlusion culling is cell
+size<00:03:09.269> if<00:03:09.989> I<00:03:10.530> select<00:03:10.830> the<00:03:11.190> cell<00:03:11.730> size<00:03:12.000> parameter
+
+00:03:12.620 --> 00:03:12.630 
+size if I select the cell size parameter
+
+00:03:12.630 --> 00:03:15.259 
+size if I select the cell size parameter
+in<00:03:12.810> my<00:03:13.260> inspector<00:03:13.769> and<00:03:14.010> change<00:03:14.280> it<00:03:14.459> you'll<00:03:15.000> see
+
+00:03:15.259 --> 00:03:15.269 
+in my inspector and change it you'll see
+
+00:03:15.269 --> 00:03:17.870 
+in my inspector and change it you'll see
+these<00:03:15.480> yellow<00:03:16.290> cubes<00:03:16.769> inside<00:03:17.310> of<00:03:17.459> my<00:03:17.609> view
+
+00:03:17.870 --> 00:03:17.880 
+these yellow cubes inside of my view
+
+00:03:17.880 --> 00:03:20.900 
+these yellow cubes inside of my view
+area<00:03:18.060> changing<00:03:18.840> size<00:03:19.310> those<00:03:20.310> are<00:03:20.489> the<00:03:20.519> cells
+
+00:03:20.900 --> 00:03:20.910 
+area changing size those are the cells
+
+00:03:20.910 --> 00:03:24.289 
+area changing size those are the cells
+which<00:03:21.380> visualize<00:03:22.380> the<00:03:22.980> sampling<00:03:23.670> rate<00:03:23.880> for
+
+00:03:24.289 --> 00:03:24.299 
+which visualize the sampling rate for
+
+00:03:24.299 --> 00:03:27.590 
+which visualize the sampling rate for
+our<00:03:24.450> occlusion<00:03:24.989> culling<00:03:25.019> system<00:03:25.739> so<00:03:26.609> if<00:03:26.970> I
+
+00:03:27.590 --> 00:03:27.600 
+our occlusion culling system so if I
+
+00:03:27.600 --> 00:03:30.710 
+our occlusion culling system so if I
+increase<00:03:27.989> the<00:03:28.829> density<00:03:28.910> of<00:03:29.910> those<00:03:30.390> cells
+
+00:03:30.710 --> 00:03:30.720 
+increase the density of those cells
+
+00:03:30.720 --> 00:03:34.009 
+increase the density of those cells
+we're<00:03:31.109> going<00:03:31.319> to<00:03:31.410> be<00:03:31.530> sampling<00:03:31.950> more<00:03:32.609> often<00:03:33.030> so
+
+00:03:34.009 --> 00:03:34.019 
+we're going to be sampling more often so
+
+00:03:34.019 --> 00:03:35.569 
+we're going to be sampling more often so
+you<00:03:34.079> generally<00:03:34.739> want<00:03:34.890> to<00:03:35.040> strike<00:03:35.250> a<00:03:35.280> balance
+
+00:03:35.569 --> 00:03:35.579 
+you generally want to strike a balance
+
+00:03:35.579 --> 00:03:37.879 
+you generally want to strike a balance
+where<00:03:36.180> you<00:03:36.480> want<00:03:36.720> these<00:03:36.900> cells<00:03:37.140> to<00:03:37.380> be<00:03:37.500> small
+
+00:03:37.879 --> 00:03:37.889 
+where you want these cells to be small
+
+00:03:37.889 --> 00:03:39.580 
+where you want these cells to be small
+enough<00:03:37.920> where<00:03:38.160> they<00:03:38.489> can<00:03:38.730> share<00:03:38.970> information
+
+00:03:39.580 --> 00:03:39.590 
+enough where they can share information
+
+00:03:39.590 --> 00:03:42.440 
+enough where they can share information
+but<00:03:40.590> you<00:03:41.190> don't<00:03:41.519> want<00:03:41.730> to<00:03:41.819> make<00:03:41.910> it<00:03:41.970> densely
+
+00:03:42.440 --> 00:03:42.450 
+but you don't want to make it densely
+
+00:03:42.450 --> 00:03:44.750 
+but you don't want to make it densely
+packed<00:03:42.600> like<00:03:42.870> this<00:03:43.109> this<00:03:43.769> is<00:03:43.980> a<00:03:44.010> little
+
+00:03:44.750 --> 00:03:44.760 
+packed like this this is a little
+
+00:03:44.760 --> 00:03:47.449 
+packed like this this is a little
+overkill<00:03:45.239> and<00:03:45.540> it's<00:03:45.989> going<00:03:46.290> to<00:03:46.440> take<00:03:46.650> a<00:03:46.829> much
+
+00:03:47.449 --> 00:03:47.459 
+overkill and it's going to take a much
+
+00:03:47.459 --> 00:03:51.050 
+overkill and it's going to take a much
+longer<00:03:47.760> time<00:03:47.940> to<00:03:48.450> calculate<00:03:49.160> so<00:03:50.160> you<00:03:50.579> want<00:03:50.850> to
+
+00:03:51.050 --> 00:03:51.060 
+longer time to calculate so you want to
+
+00:03:51.060 --> 00:03:54.400 
+longer time to calculate so you want to
+create<00:03:51.810> a<00:03:51.900> grid<00:03:52.139> that<00:03:52.200> looks<00:03:52.590> more<00:03:52.829> like<00:03:53.280> this
+
+00:03:54.400 --> 00:03:54.410 
+create a grid that looks more like this
+
+00:03:54.410 --> 00:03:57.280 
+create a grid that looks more like this
+less<00:03:55.410> densely<00:03:55.920> packed<00:03:56.220> but<00:03:56.609> you<00:03:56.760> want<00:03:57.030> a
+
+00:03:57.280 --> 00:03:57.290 
+less densely packed but you want a
+
+00:03:57.290 --> 00:03:59.720 
+less densely packed but you want a
+fairly<00:03:58.290> large<00:03:58.470> number<00:03:58.920> of<00:03:58.950> cubes<00:03:59.310> so<00:03:59.519> that<00:03:59.639> we
+
+00:03:59.720 --> 00:03:59.730 
+fairly large number of cubes so that we
+
+00:03:59.730 --> 00:04:02.900 
+fairly large number of cubes so that we
+have<00:03:59.760> a<00:03:59.910> high<00:04:00.359> sample<00:04:00.660> rate<00:04:01.340> now<00:04:02.340> the<00:04:02.400> number
+
+00:04:02.900 --> 00:04:02.910 
+have a high sample rate now the number
+
+00:04:02.910 --> 00:04:04.370 
+have a high sample rate now the number
+of<00:04:03.030> cells<00:04:03.239> that<00:04:03.450> you<00:04:03.540> have<00:04:03.750> is<00:04:03.930> going<00:04:04.230> to
+
+00:04:04.370 --> 00:04:04.380 
+of cells that you have is going to
+
+00:04:04.380 --> 00:04:07.270 
+of cells that you have is going to
+affect<00:04:04.769> your<00:04:04.950> occlusion<00:04:06.019> calculation<00:04:07.019> time
+
+00:04:07.270 --> 00:04:07.280 
+affect your occlusion calculation time
+
+00:04:07.280 --> 00:04:09.680 
+affect your occlusion calculation time
+but<00:04:08.280> it's<00:04:08.430> also<00:04:08.609> affected<00:04:09.209> by<00:04:09.329> what<00:04:09.540> you
+
+00:04:09.680 --> 00:04:09.690 
+but it's also affected by what you
+
+00:04:09.690 --> 00:04:12.860 
+but it's also affected by what you
+select<00:04:10.049> under<00:04:10.410> generate<00:04:11.010> occlusion<00:04:11.489> so<00:04:12.180> under
+
+00:04:12.860 --> 00:04:12.870 
+select under generate occlusion so under
+
+00:04:12.870 --> 00:04:14.780 
+select under generate occlusion so under
+edit<00:04:13.230> generate<00:04:13.769> occlusion<00:04:14.190> we<00:04:14.340> have<00:04:14.519> three
+
+00:04:14.780 --> 00:04:14.790 
+edit generate occlusion we have three
+
+00:04:14.790 --> 00:04:18.430 
+edit generate occlusion we have three
+options<00:04:15.350> the<00:04:16.350> first<00:04:16.380> option<00:04:16.769> is<00:04:17.340> preview
+
+00:04:18.430 --> 00:04:18.440 
+options the first option is preview
+
+00:04:18.440 --> 00:04:21.060 
+options the first option is preview
+preview<00:04:19.440> is<00:04:19.859> recommended<00:04:20.549> for<00:04:20.580> when<00:04:20.849> you're
+
+00:04:21.060 --> 00:04:21.070 
+preview is recommended for when you're
+
+00:04:21.070 --> 00:04:23.280 
+preview is recommended for when you're
+working<00:04:21.310> in<00:04:21.430> the<00:04:21.550> editor<00:04:21.940> it<00:04:22.090> is<00:04:22.600> the<00:04:22.750> fastest
+
+00:04:23.280 --> 00:04:23.290 
+working in the editor it is the fastest
+
+00:04:23.290 --> 00:04:25.620 
+working in the editor it is the fastest
+solution<00:04:23.410> you<00:04:23.800> have<00:04:24.000> but<00:04:25.000> it's<00:04:25.240> also<00:04:25.480> our
+
+00:04:25.620 --> 00:04:25.630 
+solution you have but it's also our
+
+00:04:25.630 --> 00:04:29.190 
+solution you have but it's also our
+least<00:04:25.930> accurate<00:04:26.140> calculation<00:04:27.600> bill<00:04:28.600> preview
+
+00:04:29.190 --> 00:04:29.200 
+least accurate calculation bill preview
+
+00:04:29.200 --> 00:04:30.750 
+least accurate calculation bill preview
+is<00:04:29.410> recommended<00:04:30.160> for<00:04:30.190> when<00:04:30.460> you're<00:04:30.580> building
+
+00:04:30.750 --> 00:04:30.760 
+is recommended for when you're building
+
+00:04:30.760 --> 00:04:33.420 
+is recommended for when you're building
+to<00:04:31.060> the<00:04:31.180> device<00:04:31.480> it's<00:04:32.200> slower<00:04:32.680> than<00:04:32.920> preview
+
+00:04:33.420 --> 00:04:33.430 
+to the device it's slower than preview
+
+00:04:33.430 --> 00:04:36.630 
+to the device it's slower than preview
+but<00:04:34.120> it's<00:04:34.420> a<00:04:34.690> better<00:04:35.050> calculation<00:04:35.770> build
+
+00:04:36.630 --> 00:04:36.640 
+but it's a better calculation build
+
+00:04:36.640 --> 00:04:39.390 
+but it's a better calculation build
+release<00:04:37.090> is<00:04:37.420> of<00:04:38.110> course<00:04:38.530> recommended<00:04:39.190> for
+
+00:04:39.390 --> 00:04:39.400 
+release is of course recommended for
+
+00:04:39.400 --> 00:04:41.190 
+release is of course recommended for
+when<00:04:39.580> you<00:04:39.700> are<00:04:39.850> building<00:04:40.030> your<00:04:40.240> final<00:04:40.780> release
+
+00:04:41.190 --> 00:04:41.200 
+when you are building your final release
+
+00:04:41.200 --> 00:04:43.860 
+when you are building your final release
+application<00:04:42.240> everything<00:04:43.240> I've<00:04:43.360> shown<00:04:43.570> you<00:04:43.600> so
+
+00:04:43.860 --> 00:04:43.870 
+application everything I've shown you so
+
+00:04:43.870 --> 00:04:46.350 
+application everything I've shown you so
+far<00:04:43.900> has<00:04:44.290> been<00:04:44.500> for<00:04:44.740> static<00:04:45.160> meshes<00:04:45.370> but
+
+00:04:46.350 --> 00:04:46.360 
+far has been for static meshes but
+
+00:04:46.360 --> 00:04:48.810 
+far has been for static meshes but
+occlusion<00:04:47.050> culling<00:04:47.080> can<00:04:47.500> also<00:04:47.740> call<00:04:48.160> non
+
+00:04:48.810 --> 00:04:48.820 
+occlusion culling can also call non
+
+00:04:48.820 --> 00:04:51.630 
+occlusion culling can also call non
+static<00:04:49.180> meshes<00:04:49.570> so<00:04:50.530> in<00:04:50.920> order<00:04:51.130> to<00:04:51.250> do<00:04:51.400> this<00:04:51.580> we
+
+00:04:51.630 --> 00:04:51.640 
+static meshes so in order to do this we
+
+00:04:51.640 --> 00:04:53.970 
+static meshes so in order to do this we
+need<00:04:51.970> to<00:04:52.060> create<00:04:52.240> a<00:04:52.480> bounding<00:04:53.050> volume<00:04:53.080> area
+
+00:04:53.970 --> 00:04:53.980 
+need to create a bounding volume area
+
+00:04:53.980 --> 00:04:56.700 
+need to create a bounding volume area
+and<00:04:54.330> this<00:04:55.330> bounding<00:04:55.780> volume<00:04:55.810> area<00:04:56.290> looks
+
+00:04:56.700 --> 00:04:56.710 
+and this bounding volume area looks
+
+00:04:56.710 --> 00:04:59.850 
+and this bounding volume area looks
+similar<00:04:57.250> to<00:04:57.490> a<00:04:57.520> view<00:04:57.880> area<00:04:58.230> except<00:04:59.230> instead<00:04:59.470> of
+
+00:04:59.850 --> 00:04:59.860 
+similar to a view area except instead of
+
+00:04:59.860 --> 00:05:03.210 
+similar to a view area except instead of
+defining<00:05:00.310> where<00:05:00.910> our<00:05:01.180> camera<00:05:01.570> can<00:05:02.020> go<00:05:02.220> this
+
+00:05:03.210 --> 00:05:03.220 
+defining where our camera can go this
+
+00:05:03.220 --> 00:05:06.270 
+defining where our camera can go this
+bounding<00:05:04.000> volume<00:05:04.030> area<00:05:04.690> tells<00:05:05.050> us<00:05:05.290> where<00:05:05.950> non
+
+00:05:06.270 --> 00:05:06.280 
+bounding volume area tells us where non
+
+00:05:06.280 --> 00:05:09.840 
+bounding volume area tells us where non
+static<00:05:06.640> meshes<00:05:07.030> can<00:05:07.420> move<00:05:07.690> and<00:05:08.220> be<00:05:09.220> cold<00:05:09.520> by
+
+00:05:09.840 --> 00:05:09.850 
+static meshes can move and be cold by
+
+00:05:09.850 --> 00:05:12.000 
+static meshes can move and be cold by
+occlusion<00:05:10.330> culling<00:05:10.380> so<00:05:11.380> we<00:05:11.470> position<00:05:11.920> our
+
+00:05:12.000 --> 00:05:12.010 
+occlusion culling so we position our
+
+00:05:12.010 --> 00:05:14.070 
+occlusion culling so we position our
+bounding<00:05:12.400> volume<00:05:12.430> areas<00:05:13.090> in<00:05:13.300> our<00:05:13.360> scene<00:05:13.750> and
+
+00:05:14.070 --> 00:05:14.080 
+bounding volume areas in our scene and
+
+00:05:14.080 --> 00:05:16.710 
+bounding volume areas in our scene and
+then<00:05:14.800> any<00:05:15.100> object<00:05:15.790> that<00:05:15.910> passes<00:05:16.300> through<00:05:16.540> them
+
+00:05:16.710 --> 00:05:16.720 
+then any object that passes through them
+
+00:05:16.720 --> 00:05:19.830 
+then any object that passes through them
+can<00:05:17.380> be<00:05:17.560> cold
+

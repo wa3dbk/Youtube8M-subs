@@ -1,0 +1,391 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.929 
+
+welcome<00:00:00.690> back<00:00:00.870> to<00:00:01.110> part<00:00:01.319> two<00:00:01.680> of<00:00:01.709> this<00:00:02.280> untamed
+
+00:00:02.929 --> 00:00:02.939 
+welcome back to part two of this untamed
+
+00:00:02.939 --> 00:00:06.050 
+welcome back to part two of this untamed
+screencast<00:00:03.750> tutorial<00:00:04.009> today<00:00:05.009> we're<00:00:05.730> going<00:00:05.910> to
+
+00:00:06.050 --> 00:00:06.060 
+screencast tutorial today we're going to
+
+00:00:06.060 --> 00:00:09.560 
+screencast tutorial today we're going to
+integrate<00:00:06.600> our<00:00:07.250> jQuery<00:00:08.250> carousel<00:00:09.120> that<00:00:09.480> is
+
+00:00:09.560 --> 00:00:09.570 
+integrate our jQuery carousel that is
+
+00:00:09.570 --> 00:00:13.390 
+integrate our jQuery carousel that is
+also<00:00:09.780> responsive<00:00:10.650> in<00:00:10.830> to<00:00:11.670> our<00:00:11.820> home<00:00:12.150> page<00:00:12.809> site
+
+00:00:13.390 --> 00:00:13.400 
+also responsive in to our home page site
+
+00:00:13.400 --> 00:00:16.250 
+also responsive in to our home page site
+so<00:00:14.400> to<00:00:14.700> begin<00:00:14.820> there's<00:00:15.269> really<00:00:15.540> no<00:00:15.809> better<00:00:16.080> way
+
+00:00:16.250 --> 00:00:16.260 
+so to begin there's really no better way
+
+00:00:16.260 --> 00:00:18.349 
+so to begin there's really no better way
+than<00:00:16.650> to<00:00:16.710> go<00:00:16.949> straight<00:00:17.279> to<00:00:17.430> the<00:00:17.460> documentation
+
+00:00:18.349 --> 00:00:18.359 
+than to go straight to the documentation
+
+00:00:18.359 --> 00:00:20.870 
+than to go straight to the documentation
+for<00:00:18.630> Twitter<00:00:19.289> bootstrap<00:00:19.500> so<00:00:20.100> right<00:00:20.520> here<00:00:20.789> you
+
+00:00:20.870 --> 00:00:20.880 
+for Twitter bootstrap so right here you
+
+00:00:20.880 --> 00:00:23.390 
+for Twitter bootstrap so right here you
+can<00:00:21.000> see<00:00:21.210> Twitter<00:00:21.570> github<00:00:22.199> com<00:00:22.230> forward<00:00:23.189> slash
+
+00:00:23.390 --> 00:00:23.400 
+can see Twitter github com forward slash
+
+00:00:23.400 --> 00:00:25.939 
+can see Twitter github com forward slash
+bootstrap<00:00:23.970> will<00:00:24.689> land<00:00:25.199> you<00:00:25.380> right<00:00:25.619> on<00:00:25.769> this
+
+00:00:25.939 --> 00:00:25.949 
+bootstrap will land you right on this
+
+00:00:25.949 --> 00:00:28.640 
+bootstrap will land you right on this
+page<00:00:26.130> and<00:00:26.720> we<00:00:27.720> just<00:00:27.900> need<00:00:28.019> to<00:00:28.140> get<00:00:28.230> head<00:00:28.410> over
+
+00:00:28.640 --> 00:00:28.650 
+page and we just need to get head over
+
+00:00:28.650 --> 00:00:30.349 
+page and we just need to get head over
+to<00:00:28.800> our<00:00:28.830> JavaScript<00:00:29.490> plugins<00:00:29.849> since<00:00:30.060> we<00:00:30.210> want
+
+00:00:30.349 --> 00:00:30.359 
+to our JavaScript plugins since we want
+
+00:00:30.359 --> 00:00:34.549 
+to our JavaScript plugins since we want
+to<00:00:30.570> play<00:00:31.170> around<00:00:31.320> with<00:00:31.800> the<00:00:31.949> carousel<00:00:33.410> here<00:00:34.410> is
+
+00:00:34.549 --> 00:00:34.559 
+to play around with the carousel here is
+
+00:00:34.559 --> 00:00:36.520 
+to play around with the carousel here is
+our<00:00:34.739> list<00:00:34.770> of<00:00:35.309> plugins<00:00:35.610> that<00:00:35.850> are<00:00:35.969> provided
+
+00:00:36.520 --> 00:00:36.530 
+our list of plugins that are provided
+
+00:00:36.530 --> 00:00:39.830 
+our list of plugins that are provided
+and<00:00:37.530> we<00:00:38.160> will<00:00:38.309> go<00:00:38.489> down<00:00:38.700> to<00:00:38.969> the<00:00:39.000> carousel<00:00:39.390> so
+
+00:00:39.830 --> 00:00:39.840 
+and we will go down to the carousel so
+
+00:00:39.840 --> 00:00:43.220 
+and we will go down to the carousel so
+here<00:00:40.140> is<00:00:40.260> the<00:00:40.410> goal<00:00:40.680> for<00:00:41.840> what<00:00:42.840> we<00:00:42.960> will<00:00:43.110> be
+
+00:00:43.220 --> 00:00:43.230 
+here is the goal for what we will be
+
+00:00:43.230 --> 00:00:46.520 
+here is the goal for what we will be
+integrated<00:00:44.239> and<00:00:45.239> there's<00:00:45.600> really<00:00:45.750> no<00:00:45.960> easier
+
+00:00:46.520 --> 00:00:46.530 
+integrated and there's really no easier
+
+00:00:46.530 --> 00:00:49.880 
+integrated and there's really no easier
+way<00:00:46.590> to<00:00:47.010> do<00:00:47.340> this<00:00:47.520> than<00:00:47.879> to<00:00:48.149> simply<00:00:48.480> copy<00:00:49.350> this
+
+00:00:49.880 --> 00:00:49.890 
+way to do this than to simply copy this
+
+00:00:49.890 --> 00:00:55.520 
+way to do this than to simply copy this
+code<00:00:50.160> and<00:00:50.460> paste<00:00:51.239> it<00:00:51.480> within<00:00:51.870> our<00:00:52.050> document<00:00:54.530> so
+
+00:00:55.520 --> 00:00:55.530 
+code and paste it within our document so
+
+00:00:55.530 --> 00:00:58.330 
+code and paste it within our document so
+we<00:00:55.860> need<00:00:56.010> to<00:00:56.129> give<00:00:56.250> our<00:00:56.280> body<00:00:56.760> a<00:00:57.000> class<00:00:57.360> of
+
+00:00:58.330 --> 00:00:58.340 
+we need to give our body a class of
+
+00:00:58.340 --> 00:01:03.780 
+we need to give our body a class of
+container
+
+00:01:03.780 --> 00:01:03.790 
+
+00:01:03.790 --> 00:01:05.430 
+
+since<00:01:04.480> we<00:01:04.600> want<00:01:04.629> to<00:01:04.870> make<00:01:05.050> sure<00:01:05.080> it<00:01:05.320> and
+
+00:01:05.430 --> 00:01:05.440 
+since we want to make sure it and
+
+00:01:05.440 --> 00:01:07.650 
+since we want to make sure it and
+contain<00:01:05.920> all<00:01:06.220> of<00:01:06.370> these<00:01:06.520> elements<00:01:06.700> within
+
+00:01:07.650 --> 00:01:07.660 
+contain all of these elements within
+
+00:01:07.660 --> 00:01:11.760 
+contain all of these elements within
+this<00:01:08.230> one<00:01:08.650> space<00:01:09.070> and<00:01:09.540> then<00:01:10.540> we<00:01:11.020> will<00:01:11.350> simply
+
+00:01:11.760 --> 00:01:11.770 
+this one space and then we will simply
+
+00:01:11.770 --> 00:01:20.010 
+this one space and then we will simply
+paste<00:01:12.160> in<00:01:12.550> our<00:01:12.850> carousel<00:01:13.390> code<00:01:18.690> next<00:01:19.690> you<00:01:19.870> can
+
+00:01:20.010 --> 00:01:20.020 
+paste in our carousel code next you can
+
+00:01:20.020 --> 00:01:22.950 
+paste in our carousel code next you can
+see<00:01:20.260> here<00:01:20.830> where<00:01:21.250> we<00:01:21.520> actually<00:01:21.670> have<00:01:22.120> room<00:01:22.510> for
+
+00:01:22.950 --> 00:01:22.960 
+see here where we actually have room for
+
+00:01:22.960 --> 00:01:27.180 
+see here where we actually have room for
+our<00:01:23.080> active<00:01:23.620> items<00:01:24.030> so<00:01:25.030> our<00:01:25.440> items<00:01:26.440> here<00:01:27.040> are
+
+00:01:27.180 --> 00:01:27.190 
+our active items so our items here are
+
+00:01:27.190 --> 00:01:29.640 
+our active items so our items here are
+highlighted<00:01:27.670> by<00:01:27.970> the<00:01:28.000> three<00:01:28.720> dots<00:01:28.900> and<00:01:29.170> here
+
+00:01:29.640 --> 00:01:29.650 
+highlighted by the three dots and here
+
+00:01:29.650 --> 00:01:31.560 
+highlighted by the three dots and here
+here<00:01:30.040> and<00:01:30.160> you<00:01:30.250> can<00:01:30.370> actually<00:01:30.670> place<00:01:30.970> images
+
+00:01:31.560 --> 00:01:31.570 
+here and you can actually place images
+
+00:01:31.570 --> 00:01:35.820 
+here and you can actually place images
+or<00:01:31.750> HTML<00:01:32.710> text<00:01:32.920> or<00:01:33.220> whatever<00:01:33.820> you<00:01:34.000> may<00:01:34.560> but<00:01:35.560> for
+
+00:01:35.820 --> 00:01:35.830 
+or HTML text or whatever you may but for
+
+00:01:35.830 --> 00:01:39.570 
+or HTML text or whatever you may but for
+now<00:01:36.009> we<00:01:36.550> can<00:01:36.790> paste<00:01:37.600> in<00:01:37.869> the<00:01:38.229> links<00:01:39.009> to<00:01:39.340> our
+
+00:01:39.570 --> 00:01:39.580 
+now we can paste in the links to our
+
+00:01:39.580 --> 00:01:49.770 
+now we can paste in the links to our
+images<00:01:40.000> so<00:01:40.420> you<00:01:40.479> can<00:01:40.720> see<00:01:40.900> that<00:01:41.140> we<00:01:42.070> have
+
+00:01:49.770 --> 00:01:49.780 
+
+00:01:49.780 --> 00:01:51.640 
+
+there<00:01:50.320> we<00:01:50.440> go
+
+00:01:51.640 --> 00:01:51.650 
+there we go
+
+00:01:51.650 --> 00:01:56.380 
+there we go
+an<00:01:52.220> item<00:01:53.440> so<00:01:54.440> are<00:01:54.680> three<00:01:55.100> images<00:01:55.430> the<00:01:56.090> first
+
+00:01:56.380 --> 00:01:56.390 
+an item so are three images the first
+
+00:01:56.390 --> 00:01:58.570 
+an item so are three images the first
+one<00:01:56.600> with<00:01:56.990> the<00:01:57.080> required<00:01:57.500> class<00:01:57.890> of<00:01:58.130> active
+
+00:01:58.570 --> 00:01:58.580 
+one with the required class of active
+
+00:01:58.580 --> 00:02:02.230 
+one with the required class of active
+our<00:01:59.440> first<00:02:00.440> slide<00:02:00.740> second<00:02:01.370> side<00:02:01.550> and<00:02:01.880> third
+
+00:02:02.230 --> 00:02:02.240 
+our first slide second side and third
+
+00:02:02.240 --> 00:02:04.330 
+our first slide second side and third
+side<00:02:02.510> so<00:02:03.050> let's<00:02:03.230> see<00:02:03.380> what<00:02:03.500> happens<00:02:03.920> if<00:02:04.070> we
+
+00:02:04.330 --> 00:02:04.340 
+side so let's see what happens if we
+
+00:02:04.340 --> 00:02:10.389 
+side so let's see what happens if we
+just<00:02:04.490> refresh<00:02:04.880> our<00:02:05.150> browser<00:02:05.450> right<00:02:06.140> now<00:02:09.399> bring
+
+00:02:10.389 --> 00:02:10.399 
+just refresh our browser right now bring
+
+00:02:10.399 --> 00:02:14.080 
+just refresh our browser right now bring
+it<00:02:10.520> over<00:02:10.610> and<00:02:11.060> put<00:02:11.990> fresh<00:02:12.410> so<00:02:13.280> great<00:02:13.520> now<00:02:14.030> we
+
+00:02:14.080 --> 00:02:14.090 
+it over and put fresh so great now we
+
+00:02:14.090 --> 00:02:17.230 
+it over and put fresh so great now we
+have<00:02:14.420> our<00:02:14.690> full<00:02:15.020> slider<00:02:15.680> and<00:02:16.460> we'll<00:02:16.970> make<00:02:17.120> sure
+
+00:02:17.230 --> 00:02:17.240 
+have our full slider and we'll make sure
+
+00:02:17.240 --> 00:02:19.000 
+have our full slider and we'll make sure
+that<00:02:17.360> it<00:02:17.450> is<00:02:17.570> responsive<00:02:18.140> so<00:02:18.320> it<00:02:18.350> good<00:02:18.680> and<00:02:18.890> is
+
+00:02:19.000 --> 00:02:19.010 
+that it is responsive so it good and is
+
+00:02:19.010 --> 00:02:23.050 
+that it is responsive so it good and is
+responding<00:02:20.710> it<00:02:21.710> works<00:02:21.980> with<00:02:22.190> our<00:02:22.340> navigation
+
+00:02:23.050 --> 00:02:23.060 
+responding it works with our navigation
+
+00:02:23.060 --> 00:02:27.250 
+responding it works with our navigation
+and<00:02:23.930> it<00:02:24.560> is<00:02:24.680> responsive<00:02:25.310> down<00:02:25.700> to<00:02:26.120> mobile<00:02:26.540> so
+
+00:02:27.250 --> 00:02:27.260 
+and it is responsive down to mobile so
+
+00:02:27.260 --> 00:02:29.230 
+and it is responsive down to mobile so
+let's<00:02:27.890> let<00:02:28.220> me<00:02:28.310> show<00:02:28.459> you<00:02:28.490> where<00:02:28.820> these
+
+00:02:29.230 --> 00:02:29.240 
+let's let me show you where these
+
+00:02:29.240 --> 00:02:34.390 
+let's let me show you where these
+controls<00:02:29.840> come<00:02:30.140> from<00:02:30.410> within<00:02:30.770> the<00:02:30.950> code<00:02:33.400> it's
+
+00:02:34.390 --> 00:02:34.400 
+controls come from within the code it's
+
+00:02:34.400 --> 00:02:36.640 
+controls come from within the code it's
+pretty<00:02:34.670> easy<00:02:34.910> and<00:02:35.330> it's<00:02:35.570> really<00:02:36.050> easy<00:02:36.260> to
+
+00:02:36.640 --> 00:02:36.650 
+pretty easy and it's really easy to
+
+00:02:36.650 --> 00:02:38.680 
+pretty easy and it's really easy to
+style<00:02:37.130> with<00:02:37.370> CSS<00:02:37.790> and<00:02:37.970> kind<00:02:38.150> of<00:02:38.180> manipulate
+
+00:02:38.680 --> 00:02:38.690 
+style with CSS and kind of manipulate
+
+00:02:38.690 --> 00:02:41.250 
+style with CSS and kind of manipulate
+since<00:02:38.959> they're<00:02:39.140> so<00:02:39.170> obvious<00:02:40.010> in<00:02:40.190> the<00:02:40.820> code
+
+00:02:41.250 --> 00:02:41.260 
+since they're so obvious in the code
+
+00:02:41.260 --> 00:02:46.660 
+since they're so obvious in the code
+they<00:02:42.260> are<00:02:42.410> simply<00:02:42.650> anchor<00:02:43.550> tags<00:02:45.070> with<00:02:46.070> a<00:02:46.310> class
+
+00:02:46.660 --> 00:02:46.670 
+they are simply anchor tags with a class
+
+00:02:46.670 --> 00:02:50.110 
+they are simply anchor tags with a class
+of<00:02:47.170> carousel<00:02:48.170> and<00:02:48.410> then<00:02:48.920> the<00:02:49.280> proper<00:02:49.730> control
+
+00:02:50.110 --> 00:02:50.120 
+of carousel and then the proper control
+
+00:02:50.120 --> 00:02:52.870 
+of carousel and then the proper control
+of<00:02:50.330> left<00:02:50.660> and<00:02:50.900> right<00:02:51.250> and<00:02:52.250> this<00:02:52.430> is<00:02:52.580> helpful
+
+00:02:52.870 --> 00:02:52.880 
+of left and right and this is helpful
+
+00:02:52.880 --> 00:02:54.850 
+of left and right and this is helpful
+whenever<00:02:53.600> the<00:02:53.840> JavaScript<00:02:54.350> needs<00:02:54.530> to<00:02:54.709> know
+
+00:02:54.850 --> 00:02:54.860 
+whenever the JavaScript needs to know
+
+00:02:54.860 --> 00:03:02.290 
+whenever the JavaScript needs to know
+where<00:02:55.570> where<00:02:56.570> to<00:02:56.690> move<00:02:56.900> the<00:02:57.380> slides<00:03:00.730> so<00:03:01.730> now
+
+00:03:02.290 --> 00:03:02.300 
+where where to move the slides so now
+
+00:03:02.300 --> 00:03:04.449 
+where where to move the slides so now
+that<00:03:02.510> we<00:03:02.630> have<00:03:02.660> successfully<00:03:03.310> integrated<00:03:04.310> our
+
+00:03:04.449 --> 00:03:04.459 
+that we have successfully integrated our
+
+00:03:04.459 --> 00:03:08.590 
+that we have successfully integrated our
+carousel<00:03:05.290> we<00:03:06.290> can<00:03:06.470> move<00:03:06.650> on<00:03:06.890> down<00:03:07.160> to<00:03:07.850> our<00:03:07.880> next
+
+00:03:08.590 --> 00:03:08.600 
+carousel we can move on down to our next
+
+00:03:08.600 --> 00:03:11.140 
+carousel we can move on down to our next
+section<00:03:09.260> in<00:03:09.470> our<00:03:09.590> call<00:03:09.920> to<00:03:10.100> action<00:03:10.130> in<00:03:10.700> three
+
+00:03:11.140 --> 00:03:11.150 
+section in our call to action in three
+
+00:03:11.150 --> 00:03:14.530 
+section in our call to action in three
+text<00:03:12.050> columns
+
