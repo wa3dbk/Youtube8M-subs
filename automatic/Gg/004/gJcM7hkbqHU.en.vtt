@@ -1,0 +1,628 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.850 --> 00:00:07.220 
+
+hello<00:00:05.850> and<00:00:05.880> welcome<00:00:06.210> the<00:00:06.540> tutorial<00:00:06.690> I'll<00:00:07.170> be
+
+00:00:07.220 --> 00:00:07.230 
+hello and welcome the tutorial I'll be
+
+00:00:07.230 --> 00:00:08.930 
+hello and welcome the tutorial I'll be
+showing<00:00:07.380> you<00:00:07.710> how<00:00:07.800> to<00:00:08.010> make<00:00:08.190> simple<00:00:08.430> 2d
+
+00:00:08.930 --> 00:00:08.940 
+showing you how to make simple 2d
+
+00:00:08.940 --> 00:00:11.240 
+showing you how to make simple 2d
+animation<00:00:09.389> inside<00:00:09.990> affinity<00:00:10.410> first<00:00:10.920> of<00:00:11.100> all
+
+00:00:11.240 --> 00:00:11.250 
+animation inside affinity first of all
+
+00:00:11.250 --> 00:00:13.580 
+animation inside affinity first of all
+we're<00:00:11.430> going<00:00:11.549> to<00:00:11.610> create<00:00:11.850> c-sharp<00:00:12.450> script<00:00:13.410> and
+
+00:00:13.580 --> 00:00:13.590 
+we're going to create c-sharp script and
+
+00:00:13.590 --> 00:00:15.940 
+we're going to create c-sharp script and
+i'm<00:00:13.680> just<00:00:13.860> going<00:00:14.070> to<00:00:14.100> name<00:00:14.250> it<00:00:14.280> OB<00:00:14.789> underscore
+
+00:00:15.940 --> 00:00:15.950 
+i'm just going to name it OB underscore
+
+00:00:15.950 --> 00:00:23.210 
+i'm just going to name it OB underscore
+animation<00:00:17.960> open<00:00:18.960> the<00:00:19.080> script<00:00:21.800> okay<00:00:22.800> we<00:00:23.070> can
+
+00:00:23.210 --> 00:00:23.220 
+animation open the script okay we can
+
+00:00:23.220 --> 00:00:27.130 
+animation open the script okay we can
+start<00:00:23.580> creating<00:00:24.500> writing<00:00:25.500> the<00:00:25.650> variables
+
+00:00:27.130 --> 00:00:27.140 
+start creating writing the variables
+
+00:00:27.140 --> 00:00:31.370 
+start creating writing the variables
+public<00:00:28.220> into<00:00:29.220> your<00:00:29.369> FPS<00:00:29.609> that<00:00:30.509> the<00:00:30.779> frames<00:00:31.080> per
+
+00:00:31.370 --> 00:00:31.380 
+public into your FPS that the frames per
+
+00:00:31.380 --> 00:00:33.770 
+public into your FPS that the frames per
+second<00:00:31.800> so<00:00:31.949> the<00:00:32.130> user<00:00:32.279> can<00:00:32.430> choose<00:00:33.270> how<00:00:33.720> many
+
+00:00:33.770 --> 00:00:33.780 
+second so the user can choose how many
+
+00:00:33.780 --> 00:00:37.630 
+second so the user can choose how many
+frames<00:00:34.320> per<00:00:35.010> second<00:00:35.430> he<00:00:35.640> wants<00:00:35.940> okay<00:00:36.210> then<00:00:36.810> pop
+
+00:00:37.630 --> 00:00:37.640 
+frames per second he wants okay then pop
+
+00:00:37.640 --> 00:00:42.230 
+frames per second he wants okay then pop
+private<00:00:38.640> sorry<00:00:38.970> private<00:00:39.800> float<00:00:41.240> underscore
+
+00:00:42.230 --> 00:00:42.240 
+private sorry private float underscore
+
+00:00:42.240 --> 00:00:44.930 
+private sorry private float underscore
+FPS<00:00:43.250> that<00:00:44.250> is<00:00:44.370> going<00:00:44.490> to<00:00:44.550> be<00:00:44.610> the<00:00:44.730> time<00:00:44.910> for
+
+00:00:44.930 --> 00:00:44.940 
+FPS that is going to be the time for
+
+00:00:44.940 --> 00:00:50.090 
+FPS that is going to be the time for
+each<00:00:45.240> frame<00:00:45.570> then<00:00:46.560> private<00:00:47.250> float<00:00:48.150> timer<00:00:49.100> that
+
+00:00:50.090 --> 00:00:50.100 
+each frame then private float timer that
+
+00:00:50.100 --> 00:00:56.680 
+each frame then private float timer that
+can<00:00:50.970> be<00:00:51.350> that<00:00:52.350> can<00:00:52.410> count<00:00:53.160> for<00:00:53.490> us<00:00:53.670> then<00:00:54.620> public
+
+00:00:56.680 --> 00:00:56.690 
+can be that can count for us then public
+
+00:00:56.690 --> 00:01:02.420 
+can be that can count for us then public
+texture2d<00:01:00.200> frames<00:01:01.200> here<00:01:01.590> we're<00:01:01.770> going<00:01:01.890> to<00:01:01.980> put
+
+00:01:02.420 --> 00:01:02.430 
+texture2d frames here we're going to put
+
+00:01:02.430 --> 00:01:04.399 
+texture2d frames here we're going to put
+our<00:01:02.580> frames<00:01:03.000> or<00:01:03.180> our<00:01:03.390> pictures<00:01:04.049> of<00:01:04.259> the
+
+00:01:04.399 --> 00:01:04.409 
+our frames or our pictures of the
+
+00:01:04.409 --> 00:01:08.140 
+our frames or our pictures of the
+animation<00:01:04.680> okay<00:01:05.070> and<00:01:05.280> then<00:01:06.119> finally<00:01:06.750> private
+
+00:01:08.140 --> 00:01:08.150 
+animation okay and then finally private
+
+00:01:08.150 --> 00:01:13.850 
+animation okay and then finally private
+integer<00:01:10.100> current<00:01:11.100> frame<00:01:11.700> to<00:01:12.450> know<00:01:12.630> where<00:01:13.020> we
+
+00:01:13.850 --> 00:01:13.860 
+integer current frame to know where we
+
+00:01:13.860 --> 00:01:16.790 
+integer current frame to know where we
+are<00:01:14.040> inside<00:01:14.490> of<00:01:14.550> the<00:01:14.700> animation<00:01:15.440> okay<00:01:16.440> mode
+
+00:01:16.790 --> 00:01:16.800 
+are inside of the animation okay mode
+
+00:01:16.800 --> 00:01:19.750 
+are inside of the animation okay mode
+start
+
+00:01:19.750 --> 00:01:19.760 
+
+00:01:19.760 --> 00:01:23.370 
+
+we<00:01:20.300> just<00:01:20.630> going<00:01:20.870> to<00:01:20.930> set<00:01:21.110> up<00:01:21.230> our<00:01:21.850> variables
+
+00:01:23.370 --> 00:01:23.380 
+we just going to set up our variables
+
+00:01:23.380 --> 00:01:30.400 
+we just going to set up our variables
+underscore<00:01:24.380> FPS<00:01:25.130> equals<00:01:25.630> 1<00:01:26.630> 10<00:01:27.340> /<00:01:29.050> the<00:01:30.050> frames
+
+00:01:30.400 --> 00:01:30.410 
+underscore FPS equals 1 10 / the frames
+
+00:01:30.410 --> 00:01:35.890 
+underscore FPS equals 1 10 / the frames
+per<00:01:30.710> second<00:01:31.810> okay<00:01:32.810> then<00:01:33.680> I<00:01:34.600> current<00:01:35.600> frame
+
+00:01:35.890 --> 00:01:35.900 
+per second okay then I current frame
+
+00:01:35.900 --> 00:01:37.780 
+per second okay then I current frame
+equals<00:01:36.500> 1<00:01:36.680> so<00:01:36.890> we're<00:01:37.040> going<00:01:37.190> to<00:01:37.280> start<00:01:37.310> from
+
+00:01:37.780 --> 00:01:37.790 
+equals 1 so we're going to start from
+
+00:01:37.790 --> 00:01:42.310 
+equals 1 so we're going to start from
+one<00:01:38.180> because<00:01:39.140> there's<00:01:39.440> no<00:01:39.650> frame<00:01:39.980> 0<00:01:40.400> K<00:01:40.760> and<00:01:41.320> we
+
+00:01:42.310 --> 00:01:42.320 
+one because there's no frame 0 K and we
+
+00:01:42.320 --> 00:01:48.900 
+one because there's no frame 0 K and we
+just<00:01:42.560> gonna<00:01:42.950> set<00:01:43.460> our<00:01:44.110> texture<00:01:46.720> to<00:01:47.720> the<00:01:47.900> first
+
+00:01:48.900 --> 00:01:48.910 
+just gonna set our texture to the first
+
+00:01:48.910 --> 00:01:56.280 
+just gonna set our texture to the first
+texture<00:01:49.910> inside<00:01:50.060> of<00:01:50.480> the<00:01:50.840> frame<00:01:51.110> array<00:01:52.060> okay
+
+00:01:56.280 --> 00:01:56.290 
+
+00:01:56.290 --> 00:02:03.100 
+
+then<00:01:57.390> void<00:01:58.390> update
+
+00:02:03.100 --> 00:02:03.110 
+
+00:02:03.110 --> 00:02:09.279 
+
+if<00:02:03.910> timer<00:02:04.910> is<00:02:05.330> greater<00:02:06.230> than<00:02:06.560> 0<00:02:07.400> 1<00:02:07.730> 0<00:02:07.760> then<00:02:08.539> time
+
+00:02:09.279 --> 00:02:09.289 
+if timer is greater than 0 1 0 then time
+
+00:02:09.289 --> 00:02:14.430 
+if timer is greater than 0 1 0 then time
+or<00:02:09.649> minus<00:02:10.310> equals<00:02:10.759> time<00:02:11.420> dot<00:02:11.870> delta<00:02:12.440> time<00:02:12.760> f
+
+00:02:14.430 --> 00:02:14.440 
+or minus equals time dot delta time f
+
+00:02:14.440 --> 00:02:19.090 
+or minus equals time dot delta time f
+timer<00:02:15.440> is<00:02:15.770> less<00:02:16.190> than<00:02:16.460> or<00:02:16.520> equals<00:02:17.180> 0<00:02:17.570> 1<00:02:17.750> 0<00:02:18.100> then
+
+00:02:19.090 --> 00:02:19.100 
+timer is less than or equals 0 1 0 then
+
+00:02:19.100 --> 00:02:27.130 
+timer is less than or equals 0 1 0 then
+x<00:02:19.730> equals<00:02:20.740> 0<00:02:21.740> 1<00:02:21.920> 0<00:02:21.950> f<00:02:23.860> timer<00:02:24.860> equals<00:02:25.840> zero<00:02:26.840> point
+
+00:02:27.130 --> 00:02:27.140 
+x equals 0 1 0 f timer equals zero point
+
+00:02:27.140 --> 00:02:37.000 
+x equals 0 1 0 f timer equals zero point
+zero<00:02:27.850> then<00:02:29.620> next<00:02:30.640> frame<00:02:34.000> ok<00:02:35.000> if<00:02:35.209> it's<00:02:36.170> stopped
+
+00:02:37.000 --> 00:02:37.010 
+zero then next frame ok if it's stopped
+
+00:02:37.010 --> 00:02:39.670 
+zero then next frame ok if it's stopped
+counting<00:02:37.310> and<00:02:37.850> it's<00:02:38.060> reached<00:02:38.810> zero<00:02:39.440> it's
+
+00:02:39.670 --> 00:02:39.680 
+counting and it's reached zero it's
+
+00:02:39.680 --> 00:02:42.460 
+counting and it's reached zero it's
+going<00:02:40.100> to<00:02:40.190> move<00:02:40.760> to<00:02:40.790> the<00:02:41.060> next<00:02:41.270> frame<00:02:41.600> and<00:02:42.380> now
+
+00:02:42.460 --> 00:02:42.470 
+going to move to the next frame and now
+
+00:02:42.470 --> 00:02:44.680 
+going to move to the next frame and now
+we're<00:02:42.650> going<00:02:42.739> to<00:02:42.800> create<00:02:43.070> the<00:02:43.330> next<00:02:44.330> frame
+
+00:02:44.680 --> 00:02:44.690 
+we're going to create the next frame
+
+00:02:44.690 --> 00:02:52.680 
+we're going to create the next frame
+function<00:02:45.170> public<00:02:45.680> void<00:02:45.880> next<00:02:47.320> frame
+
+00:02:52.680 --> 00:02:52.690 
+
+00:02:52.690 --> 00:02:55.310 
+
+okay<00:02:53.290> first<00:02:53.650> of<00:02:53.770> all<00:02:53.890> we're<00:02:54.070> going<00:02:54.160> to<00:02:54.220> check
+
+00:02:55.310 --> 00:02:55.320 
+okay first of all we're going to check
+
+00:02:55.320 --> 00:02:59.190 
+okay first of all we're going to check
+if<00:02:56.320> our<00:02:57.040> current<00:02:57.670> frame<00:02:57.970> is<00:02:58.180> less<00:02:58.510> than<00:02:58.810> the
+
+00:02:59.190 --> 00:02:59.200 
+if our current frame is less than the
+
+00:02:59.200 --> 00:03:03.000 
+if our current frame is less than the
+frames<00:02:59.730> dot<00:03:00.730> length<00:03:01.030> so<00:03:01.990> if<00:03:02.290> it's<00:03:02.500> less<00:03:02.980> than
+
+00:03:03.000 --> 00:03:03.010 
+frames dot length so if it's less than
+
+00:03:03.010 --> 00:03:10.460 
+frames dot length so if it's less than
+the<00:03:03.880> last<00:03:04.090> frame<00:03:05.700> okay<00:03:07.410> we<00:03:08.410> just<00:03:08.440> gonna<00:03:09.130> add
+
+00:03:10.460 --> 00:03:10.470 
+the last frame okay we just gonna add
+
+00:03:10.470 --> 00:03:13.850 
+the last frame okay we just gonna add
+one<00:03:11.470> more<00:03:11.710> frame<00:03:12.010> to<00:03:12.250> it<00:03:12.280> so<00:03:12.670> it's<00:03:12.970> going<00:03:13.180> to<00:03:13.240> be
+
+00:03:13.850 --> 00:03:13.860 
+one more frame to it so it's going to be
+
+00:03:13.860 --> 00:03:16.620 
+one more frame to it so it's going to be
+current<00:03:14.860> frame<00:03:15.160> plus<00:03:15.430> plus<00:03:15.700> if<00:03:15.940> it's<00:03:16.300> do<00:03:16.510> it
+
+00:03:16.620 --> 00:03:16.630 
+current frame plus plus if it's do it
+
+00:03:16.630 --> 00:03:20.630 
+current frame plus plus if it's do it
+going<00:03:16.780> to<00:03:16.840> be<00:03:16.930> three<00:03:17.170> okay<00:03:18.040> else<00:03:18.450> if<00:03:19.450> it's
+
+00:03:20.630 --> 00:03:20.640 
+going to be three okay else if it's
+
+00:03:20.640 --> 00:03:25.260 
+going to be three okay else if it's
+equals<00:03:21.640> last<00:03:21.940> frame<00:03:22.330> olds<00:03:22.870> beggar<00:03:23.170> or<00:03:24.270> greater
+
+00:03:25.260 --> 00:03:25.270 
+equals last frame olds beggar or greater
+
+00:03:25.270 --> 00:03:28.440 
+equals last frame olds beggar or greater
+than<00:03:25.600> the<00:03:25.810> last<00:03:25.960> frame<00:03:26.470> it's<00:03:27.220> going<00:03:27.490> to<00:03:27.580> return
+
+00:03:28.440 --> 00:03:28.450 
+than the last frame it's going to return
+
+00:03:28.450 --> 00:03:31.110 
+than the last frame it's going to return
+from<00:03:28.930> the<00:03:29.110> beginning<00:03:29.470> current<00:03:30.250> frame<00:03:30.520> equals
+
+00:03:31.110 --> 00:03:31.120 
+from the beginning current frame equals
+
+00:03:31.120 --> 00:03:33.680 
+from the beginning current frame equals
+one<00:03:31.510> so<00:03:31.930> it's<00:03:32.080> going<00:03:32.170> to<00:03:32.230> be<00:03:32.290> loop<00:03:32.650> okay<00:03:33.370> and
+
+00:03:33.680 --> 00:03:33.690 
+one so it's going to be loop okay and
+
+00:03:33.690 --> 00:03:36.830 
+one so it's going to be loop okay and
+here<00:03:34.690> we're<00:03:34.840> going<00:03:34.990> to<00:03:35.050> set<00:03:35.230> the<00:03:35.350> texture
+
+00:03:36.830 --> 00:03:36.840 
+here we're going to set the texture
+
+00:03:36.840 --> 00:03:40.680 
+here we're going to set the texture
+material<00:03:37.840> dot<00:03:38.590> main<00:03:39.010> tech<00:03:39.340> main<00:03:40.150> texture
+
+00:03:40.680 --> 00:03:40.690 
+material dot main tech main texture
+
+00:03:40.690 --> 00:03:46.620 
+material dot main tech main texture
+equals<00:03:41.970> frames<00:03:43.830> then<00:03:44.830> current<00:03:45.670> frame<00:03:46.150> modest
+
+00:03:46.620 --> 00:03:46.630 
+equals frames then current frame modest
+
+00:03:46.630 --> 00:03:48.510 
+equals frames then current frame modest
+one
+
+00:03:48.510 --> 00:03:48.520 
+one
+
+00:03:48.520 --> 00:03:52.050 
+one
+the<00:03:49.330> rate<00:03:49.570> if<00:03:50.050> you<00:03:50.500> want<00:03:50.800> the<00:03:50.980> first<00:03:51.430> texture
+
+00:03:52.050 --> 00:03:52.060 
+the rate if you want the first texture
+
+00:03:52.060 --> 00:03:54.690 
+the rate if you want the first texture
+inside<00:03:52.330> of<00:03:52.810> an<00:03:53.080> array<00:03:53.500> it's<00:03:54.040> going<00:03:54.250> to<00:03:54.280> be<00:03:54.400> zero
+
+00:03:54.690 --> 00:03:54.700 
+inside of an array it's going to be zero
+
+00:03:54.700 --> 00:03:56.490 
+inside of an array it's going to be zero
+if<00:03:54.970> you<00:03:55.150> want<00:03:55.360> the<00:03:55.510> second<00:03:55.900> texture<00:03:56.200> it's
+
+00:03:56.490 --> 00:03:56.500 
+if you want the second texture it's
+
+00:03:56.500 --> 00:04:00.390 
+if you want the second texture it's
+going<00:03:56.650> to<00:03:56.710> be<00:03:56.800> one<00:03:57.060> with<00:03:58.060> you<00:03:58.090> you<00:03:58.780> have<00:03:59.400> 2-1
+
+00:04:00.390 --> 00:04:00.400 
+going to be one with you you have 2-1
+
+00:04:00.400 --> 00:04:05.250 
+going to be one with you you have 2-1
+from<00:04:00.730> the<00:04:02.130> protector<00:04:03.130> of<00:04:03.280> the<00:04:04.140> object<00:04:05.140> that
+
+00:04:05.250 --> 00:04:05.260 
+from the protector of the object that
+
+00:04:05.260 --> 00:04:07.640 
+from the protector of the object that
+you<00:04:05.470> want<00:04:05.500> it<00:04:05.800> inside<00:04:05.950> of<00:04:06.280> the<00:04:06.430> array<00:04:06.670> okay
+
+00:04:07.640 --> 00:04:07.650 
+you want it inside of the array okay
+
+00:04:07.650 --> 00:04:09.810 
+you want it inside of the array okay
+then<00:04:08.650> we're<00:04:08.950> going<00:04:09.040> to<00:04:09.100> reset<00:04:09.430> the<00:04:09.550> timer
+
+00:04:09.810 --> 00:04:09.820 
+then we're going to reset the timer
+
+00:04:09.820 --> 00:04:14.400 
+then we're going to reset the timer
+timer<00:04:10.660> equals<00:04:11.200> underscore<00:04:12.130> FPSO<00:04:12.880> it's<00:04:13.410> going
+
+00:04:14.400 --> 00:04:14.410 
+timer equals underscore FPSO it's going
+
+00:04:14.410 --> 00:04:21.030 
+timer equals underscore FPSO it's going
+to<00:04:14.500> restart<00:04:14.680> counting<00:04:15.670> okay<00:04:16.600> and<00:04:19.590> now<00:04:20.590> we<00:04:20.650> just
+
+00:04:21.030 --> 00:04:21.040 
+to restart counting okay and now we just
+
+00:04:21.040 --> 00:04:26.160 
+to restart counting okay and now we just
+set<00:04:21.910> up<00:04:22.000> the<00:04:22.150> scene<00:04:24.390> game<00:04:25.390> object<00:04:25.840> create
+
+00:04:26.160 --> 00:04:26.170 
+set up the scene game object create
+
+00:04:26.170 --> 00:04:27.840 
+set up the scene game object create
+other<00:04:26.410> plane<00:04:27.070> we're<00:04:27.370> going<00:04:27.460> to<00:04:27.520> create<00:04:27.730> a
+
+00:04:27.840 --> 00:04:27.850 
+other plane we're going to create a
+
+00:04:27.850 --> 00:04:31.350 
+other plane we're going to create a
+plane<00:04:28.120> to<00:04:28.300> add<00:04:28.480> to<00:04:28.780> it<00:04:28.930> the<00:04:29.700> animation<00:04:30.700> okay
+
+00:04:31.350 --> 00:04:31.360 
+plane to add to it the animation okay
+
+00:04:31.360 --> 00:04:36.210 
+plane to add to it the animation okay
+just<00:04:31.690> make<00:04:31.930> it<00:04:31.960> 90<00:04:32.410> 90<00:04:32.980> minus<00:04:33.850> 90<00:04:34.450> and<00:04:35.220> just
+
+00:04:36.210 --> 00:04:36.220 
+just make it 90 90 minus 90 and just
+
+00:04:36.220 --> 00:04:40.200 
+just make it 90 90 minus 90 and just
+reset<00:04:36.700> the<00:04:36.820> position<00:04:38.130> so<00:04:39.130> you<00:04:39.250> can<00:04:39.400> see<00:04:40.060> it<00:04:40.180> now
+
+00:04:40.200 --> 00:04:40.210 
+reset the position so you can see it now
+
+00:04:40.210 --> 00:04:46.560 
+reset the position so you can see it now
+right<00:04:41.040> okay<00:04:42.040> and<00:04:45.090> materials<00:04:46.090> and<00:04:46.270> just<00:04:46.420> going
+
+00:04:46.560 --> 00:04:46.570 
+right okay and materials and just going
+
+00:04:46.570 --> 00:04:50.430 
+right okay and materials and just going
+to<00:04:46.660> create<00:04:48.000> material<00:04:49.000> for<00:04:49.240> it<00:04:49.390> I'm<00:04:49.690> just<00:04:50.260> going
+
+00:04:50.430 --> 00:04:50.440 
+to create material for it I'm just going
+
+00:04:50.440 --> 00:04:54.790 
+to create material for it I'm just going
+to<00:04:50.530> call<00:04:50.770> it<00:04:50.800> animation
+
+00:04:54.790 --> 00:04:54.800 
+
+00:04:54.800 --> 00:04:58.200 
+
+ok
+
+00:04:58.200 --> 00:04:58.210 
+
+00:04:58.210 --> 00:05:02.660 
+
+and<00:04:58.569> just<00:04:59.350> make<00:04:59.560> it<00:04:59.590> transparent
+
+00:05:02.660 --> 00:05:02.670 
+
+00:05:02.670 --> 00:05:05.240 
+
+okay<00:05:03.240> that's<00:05:03.450> cool<00:05:03.740> and<00:05:04.740> then<00:05:04.860> get<00:05:05.040> back<00:05:05.190> here
+
+00:05:05.240 --> 00:05:05.250 
+okay that's cool and then get back here
+
+00:05:05.250 --> 00:05:10.680 
+okay that's cool and then get back here
+and<00:05:05.910> drop<00:05:06.270> described<00:05:06.900> to<00:05:07.080> it
+
+00:05:10.680 --> 00:05:10.690 
+
+00:05:10.690 --> 00:05:13.960 
+
+how<00:05:11.690> many<00:05:11.930> frames<00:05:12.169> per<00:05:12.470> second<00:05:12.919> just<00:05:13.280> 12<00:05:13.610> okay
+
+00:05:13.960 --> 00:05:13.970 
+how many frames per second just 12 okay
+
+00:05:13.970 --> 00:05:19.360 
+how many frames per second just 12 okay
+and<00:05:14.979> the<00:05:15.979> frames<00:05:17.650> just<00:05:18.650> we<00:05:18.860> can<00:05:18.979> I<00:05:19.009> drove<00:05:19.190> it
+
+00:05:19.360 --> 00:05:19.370 
+and the frames just we can I drove it
+
+00:05:19.370 --> 00:05:34.810 
+and the frames just we can I drove it
+one<00:05:19.699> by<00:05:19.940> one<00:05:20.229> first<00:05:21.229> one<00:05:21.530> second<00:05:22.370> one<00:05:23.199> third
+
+00:05:34.810 --> 00:05:34.820 
+
+00:05:34.820 --> 00:05:39.700 
+
+oh<00:05:34.880> sorry<00:05:36.400> finally<00:05:37.400> the<00:05:37.640> last<00:05:37.670> one<00:05:38.500> okay<00:05:39.500> look
+
+00:05:39.700 --> 00:05:39.710 
+oh sorry finally the last one okay look
+
+00:05:39.710 --> 00:05:42.850 
+oh sorry finally the last one okay look
+now<00:05:39.980> and<00:05:40.730> you<00:05:40.790> start<00:05:41.120> running<00:05:41.270> it<00:05:41.710> you're<00:05:42.710> just
+
+00:05:42.850 --> 00:05:42.860 
+now and you start running it you're just
+
+00:05:42.860 --> 00:05:44.800 
+now and you start running it you're just
+running<00:05:43.250> running<00:05:43.700> running<00:05:43.820> running<00:05:44.180> the
+
+00:05:44.800 --> 00:05:44.810 
+running running running running the
+
+00:05:44.810 --> 00:05:47.620 
+running running running running the
+animations<00:05:45.230> playing<00:05:45.560> and<00:05:46.520> keep<00:05:46.970> changing<00:05:47.480> the
+
+00:05:47.620 --> 00:05:47.630 
+animations playing and keep changing the
+
+00:05:47.630 --> 00:05:54.730 
+animations playing and keep changing the
+texture<00:05:50.860> okay<00:05:52.660> in<00:05:53.660> the<00:05:53.840> next<00:05:54.020> tutorial<00:05:54.170> I<00:05:54.710> will
+
+00:05:54.730 --> 00:05:54.740 
+texture okay in the next tutorial I will
+
+00:05:54.740 --> 00:05:59.110 
+texture okay in the next tutorial I will
+be<00:05:55.040> show<00:05:55.400> you<00:05:55.460> how<00:05:56.450> to<00:05:57.250> how<00:05:58.250> can<00:05:58.520> you<00:05:58.670> use<00:05:58.880> that
+
+00:05:59.110 --> 00:05:59.120 
+be show you how to how can you use that
+
+00:05:59.120 --> 00:06:02.050 
+be show you how to how can you use that
+animation<00:05:59.690> in<00:06:00.050> another<00:06:00.500> and<00:06:01.280> another<00:06:01.490> script
+
+00:06:02.050 --> 00:06:02.060 
+animation in another and another script
+
+00:06:02.060 --> 00:06:04.480 
+animation in another and another script
+on<00:06:02.180> another<00:06:02.540> class<00:06:02.900> so<00:06:03.530> how<00:06:03.710> can<00:06:03.890> you<00:06:03.950> use<00:06:04.070> it
+
+00:06:04.480 --> 00:06:04.490 
+on another class so how can you use it
+
+00:06:04.490 --> 00:06:06.820 
+on another class so how can you use it
+in<00:06:04.610> a<00:06:04.850> real<00:06:05.060> player<00:06:05.450> or<00:06:05.780> how<00:06:06.050> can<00:06:06.320> you<00:06:06.410> control
+
+00:06:06.820 --> 00:06:06.830 
+in a real player or how can you control
+
+00:06:06.830 --> 00:06:09.220 
+in a real player or how can you control
+the<00:06:06.890> animation<00:06:07.430> form<00:06:07.640> another<00:06:07.790> script<00:06:08.300> okay
+
+00:06:09.220 --> 00:06:09.230 
+the animation form another script okay
+
+00:06:09.230 --> 00:06:12.910 
+the animation form another script okay
+so<00:06:10.480> that's<00:06:11.480> the<00:06:11.630> end<00:06:11.840> of<00:06:11.930> the<00:06:12.050> video<00:06:12.230> thanks
+
+00:06:12.910 --> 00:06:12.920 
+so that's the end of the video thanks
+
+00:06:12.920 --> 00:06:16.840 
+so that's the end of the video thanks
+for<00:06:13.070> watching<00:06:13.160> please<00:06:13.820> like<00:06:14.120> subscribe<00:06:15.850> and
+
+00:06:16.840 --> 00:06:16.850 
+for watching please like subscribe and
+
+00:06:16.850 --> 00:06:18.970 
+for watching please like subscribe and
+if<00:06:17.150> we<00:06:17.330> have<00:06:17.510> any<00:06:17.840> question<00:06:18.380> please<00:06:18.410> leave<00:06:18.950> a
+
+00:06:18.970 --> 00:06:18.980 
+if we have any question please leave a
+
+00:06:18.980 --> 00:06:28.399 
+if we have any question please leave a
+comment<00:06:19.220> below<00:06:19.510> thanks<00:06:20.510> for<00:06:20.540> watching
+
+00:06:28.399 --> 00:06:28.409 
+
+00:06:28.409 --> 00:06:30.469 
+
+you
+

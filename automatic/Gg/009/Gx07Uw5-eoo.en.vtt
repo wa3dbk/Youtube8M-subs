@@ -1,0 +1,661 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:10.730 
+
+peggy<00:00:00.570> 12<00:00:08.030> welcome<00:00:09.030> heroes<00:00:09.510> to<00:00:10.080> this<00:00:10.230> combat
+
+00:00:10.730 --> 00:00:10.740 
+peggy 12 welcome heroes to this combat
+
+00:00:10.740 --> 00:00:14.150 
+peggy 12 welcome heroes to this combat
+demo<00:00:11.160> of<00:00:11.190> might<00:00:11.670> and<00:00:11.849> magic<00:00:11.880> hero<00:00:12.450> 6<00:00:12.840> i'm<00:00:13.830> no
+
+00:00:14.150 --> 00:00:14.160 
+demo of might and magic hero 6 i'm no
+
+00:00:14.160 --> 00:00:17.029 
+demo of might and magic hero 6 i'm no
+ayako<00:00:14.820> your<00:00:15.330> community<00:00:15.960> developer<00:00:16.529> and<00:00:16.740> i'm
+
+00:00:17.029 --> 00:00:17.039 
+ayako your community developer and i'm
+
+00:00:17.039 --> 00:00:19.460 
+ayako your community developer and i'm
+going<00:00:17.340> to<00:00:17.490> explain<00:00:17.850> how<00:00:17.910> combat<00:00:18.600> is<00:00:18.869> handled
+
+00:00:19.460 --> 00:00:19.470 
+going to explain how combat is handled
+
+00:00:19.470 --> 00:00:22.599 
+going to explain how combat is handled
+in<00:00:19.650> heuristics<00:00:20.840> just<00:00:21.840> a<00:00:22.020> quick<00:00:22.230> disclaimer
+
+00:00:22.599 --> 00:00:22.609 
+in heuristics just a quick disclaimer
+
+00:00:22.609 --> 00:00:25.220 
+in heuristics just a quick disclaimer
+what<00:00:23.609> you<00:00:23.760> are<00:00:23.910> seeing<00:00:24.180> here<00:00:24.300> comes<00:00:24.779> from<00:00:25.050> an
+
+00:00:25.220 --> 00:00:25.230 
+what you are seeing here comes from an
+
+00:00:25.230 --> 00:00:27.170 
+what you are seeing here comes from an
+alpha<00:00:25.590> version<00:00:25.619> of<00:00:26.039> the<00:00:26.189> game<00:00:26.369> so<00:00:26.849> there<00:00:27.119> are
+
+00:00:27.170 --> 00:00:27.180 
+alpha version of the game so there are
+
+00:00:27.180 --> 00:00:29.570 
+alpha version of the game so there are
+still<00:00:27.720> a<00:00:27.869> couple<00:00:27.900> of<00:00:28.289> bugs<00:00:28.500> and<00:00:28.740> placeholders
+
+00:00:29.570 --> 00:00:29.580 
+still a couple of bugs and placeholders
+
+00:00:29.580 --> 00:00:32.479 
+still a couple of bugs and placeholders
+here<00:00:30.000> and<00:00:30.150> there<00:00:30.560> now<00:00:31.560> let's<00:00:31.859> see<00:00:32.160> what's<00:00:32.369> on
+
+00:00:32.479 --> 00:00:32.489 
+here and there now let's see what's on
+
+00:00:32.489 --> 00:00:35.420 
+here and there now let's see what's on
+the<00:00:32.550> screen<00:00:32.899> I'm<00:00:33.899> playing<00:00:34.200> Slava<00:00:34.680> Griffin<00:00:35.160> in
+
+00:00:35.420 --> 00:00:35.430 
+the screen I'm playing Slava Griffin in
+
+00:00:35.430 --> 00:00:38.150 
+the screen I'm playing Slava Griffin in
+my<00:00:35.610> army<00:00:35.969> is<00:00:36.149> on<00:00:36.450> the<00:00:36.660> left<00:00:36.809> side<00:00:37.110> you<00:00:37.530> can<00:00:38.129> see
+
+00:00:38.150 --> 00:00:38.160 
+my army is on the left side you can see
+
+00:00:38.160 --> 00:00:40.940 
+my army is on the left side you can see
+crossbowman<00:00:38.910> Griffin's<00:00:39.690> Praetorians<00:00:40.590> and
+
+00:00:40.940 --> 00:00:40.950 
+crossbowman Griffin's Praetorians and
+
+00:00:40.950 --> 00:00:44.479 
+crossbowman Griffin's Praetorians and
+sisters<00:00:41.780> I'm<00:00:42.780> fighting<00:00:43.200> against<00:00:43.890> the<00:00:44.070> neutral
+
+00:00:44.479 --> 00:00:44.489 
+sisters I'm fighting against the neutral
+
+00:00:44.489 --> 00:00:47.000 
+sisters I'm fighting against the neutral
+army<00:00:44.879> of<00:00:45.030> nipples<00:00:45.600> creatures<00:00:46.050> comprising<00:00:46.920> of
+
+00:00:47.000 --> 00:00:47.010 
+army of nipples creatures comprising of
+
+00:00:47.010 --> 00:00:51.410 
+army of nipples creatures comprising of
+vampires<00:00:47.629> skeletons<00:00:48.629> goals<00:00:49.230> and<00:00:49.649> missions<00:00:50.420> in
+
+00:00:51.410 --> 00:00:51.420 
+vampires skeletons goals and missions in
+
+00:00:51.420 --> 00:00:53.270 
+vampires skeletons goals and missions in
+the<00:00:51.480> bottom<00:00:51.989> left<00:00:52.199> hand<00:00:52.289> corner<00:00:52.469> you<00:00:53.070> can<00:00:53.219> see
+
+00:00:53.270 --> 00:00:53.280 
+the bottom left hand corner you can see
+
+00:00:53.280 --> 00:00:55.850 
+the bottom left hand corner you can see
+the<00:00:53.550> initiative<00:00:54.120> are<00:00:54.360> it<00:00:54.840> shows<00:00:55.199> the<00:00:55.410> order<00:00:55.680> in
+
+00:00:55.850 --> 00:00:55.860 
+the initiative are it shows the order in
+
+00:00:55.860 --> 00:00:57.560 
+the initiative are it shows the order in
+which<00:00:55.920> the<00:00:56.219> creatures<00:00:56.640> are<00:00:56.910> going<00:00:57.239> to<00:00:57.360> play
+
+00:00:57.560 --> 00:00:57.570 
+which the creatures are going to play
+
+00:00:57.570 --> 00:01:01.220 
+which the creatures are going to play
+third<00:00:58.550> in<00:00:59.550> the<00:00:59.760> bottom<00:01:00.090> right-hand<00:01:00.300> corner<00:01:00.660> I
+
+00:01:01.220 --> 00:01:01.230 
+third in the bottom right-hand corner I
+
+00:01:01.230 --> 00:01:03.360 
+third in the bottom right-hand corner I
+can<00:01:01.590> exist<00:01:01.890> my<00:01:02.070> heroes<00:01:02.520> event
+
+00:01:03.360 --> 00:01:03.370 
+can exist my heroes event
+
+00:01:03.370 --> 00:01:05.880 
+can exist my heroes event
+you<00:01:03.969> can<00:01:04.210> see<00:01:04.449> the<00:01:04.690> right<00:01:04.900> attacking<00:01:05.650> the
+
+00:01:05.880 --> 00:01:05.890 
+you can see the right attacking the
+
+00:01:05.890 --> 00:01:09.570 
+you can see the right attacking the
+faction<00:01:06.640> ability<00:01:07.119> and<00:01:07.510> of<00:01:07.840> spell<00:01:08.170> book<00:01:08.580> next
+
+00:01:09.570 --> 00:01:09.580 
+faction ability and of spell book next
+
+00:01:09.580 --> 00:01:11.520 
+faction ability and of spell book next
+to<00:01:09.970> the<00:01:10.090> spell<00:01:10.390> book<00:01:10.570> you<00:01:11.020> can<00:01:11.200> see<00:01:11.380> the
+
+00:01:11.520 --> 00:01:11.530 
+to the spell book you can see the
+
+00:01:11.530 --> 00:01:13.620 
+to the spell book you can see the
+quickest<00:01:12.100> bar<00:01:12.340> where<00:01:12.880> I<00:01:12.909> can<00:01:13.299> give<00:01:13.479> my
+
+00:01:13.620 --> 00:01:13.630 
+quickest bar where I can give my
+
+00:01:13.630 --> 00:01:17.039 
+quickest bar where I can give my
+favorite<00:01:14.080> abilities<00:01:14.680> can<00:01:14.890> spell<00:01:15.479> now<00:01:16.479> let's
+
+00:01:17.039 --> 00:01:17.049 
+favorite abilities can spell now let's
+
+00:01:17.049 --> 00:01:20.340 
+favorite abilities can spell now let's
+start<00:01:17.500> the<00:01:17.590> battle<00:01:18.630> vampires<00:01:19.630> are<00:01:19.960> fast
+
+00:01:20.340 --> 00:01:20.350 
+start the battle vampires are fast
+
+00:01:20.350 --> 00:01:25.530 
+start the battle vampires are fast
+creatures<00:01:20.800> so<00:01:21.250> they<00:01:21.280> go<00:01:21.640> first<00:01:23.850> I'm<00:01:24.850> using<00:01:25.180> an
+
+00:01:25.530 --> 00:01:25.540 
+creatures so they go first I'm using an
+
+00:01:25.540 --> 00:01:27.780 
+creatures so they go first I'm using an
+ability<00:01:25.810> called<00:01:26.100> heroism<00:01:27.100> to<00:01:27.399> raise<00:01:27.610> the
+
+00:01:27.780 --> 00:01:27.790 
+ability called heroism to raise the
+
+00:01:27.790 --> 00:01:30.330 
+ability called heroism to raise the
+morale<00:01:27.940> and<00:01:28.240> lack<00:01:28.420> of<00:01:28.450> my<00:01:28.720> Griffin's<00:01:29.110> we<00:01:30.070> went
+
+00:01:30.330 --> 00:01:30.340 
+morale and lack of my Griffin's we went
+
+00:01:30.340 --> 00:01:32.460 
+morale and lack of my Griffin's we went
+back<00:01:30.550> to<00:01:30.820> using<00:01:30.970> the<00:01:31.270> system<00:01:31.479> in<00:01:31.780> heroes<00:01:32.110> 3
+
+00:01:32.460 --> 00:01:32.470 
+back to using the system in heroes 3
+
+00:01:32.470 --> 00:01:35.160 
+back to using the system in heroes 3
+where<00:01:33.250> heroes<00:01:33.520> can<00:01:33.880> act<00:01:34.149> at<00:01:34.360> any<00:01:34.659> time<00:01:34.960> during
+
+00:01:35.160 --> 00:01:35.170 
+where heroes can act at any time during
+
+00:01:35.170 --> 00:01:42.330 
+where heroes can act at any time during
+the<00:01:35.440> turn<00:01:35.679> but<00:01:36.280> they<00:01:36.429> can<00:01:36.640> only<00:01:36.850> act<00:01:37.240> once<00:01:41.340> the
+
+00:01:42.330 --> 00:01:42.340 
+the turn but they can only act once the
+
+00:01:42.340 --> 00:01:44.400 
+the turn but they can only act once the
+first<00:01:42.610> time<00:01:42.880> it<00:01:43.090> is<00:01:43.330> attacked<00:01:43.690> during<00:01:44.020> a<00:01:44.200> turn
+
+00:01:44.400 --> 00:01:44.410 
+first time it is attacked during a turn
+
+00:01:44.410 --> 00:01:48.570 
+first time it is attacked during a turn
+a<00:01:44.649> unit<00:01:45.369> can<00:01:45.850> retaliate<00:01:46.590> which<00:01:47.590> is<00:01:47.800> to<00:01:48.369> choose
+
+00:01:48.570 --> 00:01:48.580 
+a unit can retaliate which is to choose
+
+00:01:48.580 --> 00:01:51.240 
+a unit can retaliate which is to choose
+the<00:01:48.640> Griffin<00:01:49.240> then<00:01:49.720> even<00:01:50.080> retaliate<00:01:50.830> more
+
+00:01:51.240 --> 00:01:51.250 
+the Griffin then even retaliate more
+
+00:01:51.250 --> 00:01:54.690 
+the Griffin then even retaliate more
+than<00:01:51.429> once<00:01:51.640> as<00:01:52.200> usual<00:01:53.200> in<00:01:53.350> Heroes<00:01:53.740> the<00:01:54.220> vampire
+
+00:01:54.690 --> 00:01:54.700 
+than once as usual in Heroes the vampire
+
+00:01:54.700 --> 00:01:56.820 
+than once as usual in Heroes the vampire
+drains<00:01:55.119> the<00:01:55.330> life<00:01:55.360> of<00:01:55.840> these<00:01:55.990> enemies<00:01:56.319> when
+
+00:01:56.820 --> 00:01:56.830 
+drains the life of these enemies when
+
+00:01:56.830 --> 00:02:00.899 
+drains the life of these enemies when
+attacking<00:01:57.280> are<00:01:57.729> retaliating<00:01:58.920> as<00:01:59.920> the<00:02:00.280> goal<00:02:00.520> is
+
+00:02:00.899 --> 00:02:00.909 
+attacking are retaliating as the goal is
+
+00:02:00.909 --> 00:02:04.370 
+attacking are retaliating as the goal is
+good<00:02:01.270> luck<00:02:01.450> it<00:02:02.020> can<00:02:02.259> make<00:02:02.500> as<00:02:02.800> critical<00:02:03.369> hits
+
+00:02:04.370 --> 00:02:04.380 
+good luck it can make as critical hits
+
+00:02:04.380 --> 00:02:07.499 
+good luck it can make as critical hits
+action<00:02:05.380> cameras<00:02:05.860> are<00:02:06.100> triggered<00:02:06.640> by<00:02:06.670> critical
+
+00:02:07.499 --> 00:02:07.509 
+action cameras are triggered by critical
+
+00:02:07.509 --> 00:02:22.809 
+action cameras are triggered by critical
+hits<00:02:07.750> you<00:02:08.349> can<00:02:08.590> deactivate<00:02:08.830> them<00:02:09.369> if<00:02:09.520> you<00:02:09.670> wish
+
+00:02:22.809 --> 00:02:22.819 
+
+00:02:22.819 --> 00:02:25.030 
+
+can<00:02:23.450> you<00:02:23.569> see<00:02:23.810> the<00:02:23.989> glittering<00:02:24.469> affecting<00:02:24.950> the
+
+00:02:25.030 --> 00:02:25.040 
+can you see the glittering affecting the
+
+00:02:25.040 --> 00:02:27.849 
+can you see the glittering affecting the
+Griffin<00:02:25.400> that's<00:02:26.359> because<00:02:26.840> I<00:02:27.109> have<00:02:27.409> no<00:02:27.590> ties
+
+00:02:27.849 --> 00:02:27.859 
+Griffin that's because I have no ties
+
+00:02:27.859 --> 00:02:31.420 
+Griffin that's because I have no ties
+between<00:02:28.069> the<00:02:29.409> Praetorian<00:02:30.409> is<00:02:30.590> able<00:02:30.980> to<00:02:31.099> shield
+
+00:02:31.420 --> 00:02:31.430 
+between the Praetorian is able to shield
+
+00:02:31.430 --> 00:02:34.239 
+between the Praetorian is able to shield
+other<00:02:31.819> creatures<00:02:32.420> the<00:02:32.930> stubs<00:02:33.290> orbing<00:02:33.739> part<00:02:34.040> of
+
+00:02:34.239 --> 00:02:34.249 
+other creatures the stubs orbing part of
+
+00:02:34.249 --> 00:02:36.759 
+other creatures the stubs orbing part of
+the<00:02:34.400> damage<00:02:34.790> they<00:02:35.030> receive<00:02:35.420> the<00:02:36.349> sisters
+
+00:02:36.759 --> 00:02:36.769 
+the damage they receive the sisters
+
+00:02:36.769 --> 00:02:40.119 
+the damage they receive the sisters
+apparel<00:02:37.400> our<00:02:37.790> support<00:02:38.389> units<00:02:38.780> so<00:02:39.590> their<00:02:39.859> main
+
+00:02:40.119 --> 00:02:40.129 
+apparel our support units so their main
+
+00:02:40.129 --> 00:02:42.039 
+apparel our support units so their main
+purpose<00:02:40.340> is<00:02:40.760> not<00:02:40.790> to<00:02:41.090> fight<00:02:41.510> the<00:02:41.719> enemy
+
+00:02:42.039 --> 00:02:42.049 
+purpose is not to fight the enemy
+
+00:02:42.049 --> 00:02:45.580 
+purpose is not to fight the enemy
+directly<00:02:42.819> here<00:02:43.819> my<00:02:44.060> sisters<00:02:44.510> are<00:02:44.780> killing<00:02:45.439> the
+
+00:02:45.580 --> 00:02:45.590 
+directly here my sisters are killing the
+
+00:02:45.590 --> 00:02:47.740 
+directly here my sisters are killing the
+Griffins<00:02:45.980> they<00:02:46.760> can<00:02:46.939> I<00:02:47.030> show<00:02:47.209> you<00:02:47.420> the<00:02:47.450> right
+
+00:02:47.740 --> 00:02:47.750 
+Griffins they can I show you the right
+
+00:02:47.750 --> 00:02:49.659 
+Griffins they can I show you the right
+to<00:02:47.900> follow<00:02:48.109> units<00:02:48.530> as<00:02:48.859> long<00:02:49.069> as<00:02:49.219> the<00:02:49.400> stack
+
+00:02:49.659 --> 00:02:49.669 
+to follow units as long as the stack
+
+00:02:49.669 --> 00:03:04.209 
+to follow units as long as the stack
+itself<00:02:50.150> hasn't<00:02:50.659> been<00:02:51.019> destroyed<00:02:51.439> a<00:03:02.980> new<00:03:03.980> turn
+
+00:03:04.209 --> 00:03:04.219 
+itself hasn't been destroyed a new turn
+
+00:03:04.219 --> 00:03:07.629 
+itself hasn't been destroyed a new turn
+has<00:03:04.489> begun<00:03:04.819> so<00:03:05.329> my<00:03:05.540> hero<00:03:05.870> can<00:03:06.109> act<00:03:06.379> again<00:03:06.799> if<00:03:07.400> I
+
+00:03:07.629 --> 00:03:07.639 
+has begun so my hero can act again if I
+
+00:03:07.639 --> 00:03:09.670 
+has begun so my hero can act again if I
+don't<00:03:07.849> want<00:03:08.030> to<00:03:08.180> use<00:03:08.359> an<00:03:08.629> ability<00:03:08.870> I<00:03:09.260> can<00:03:09.290> also
+
+00:03:09.670 --> 00:03:09.680 
+don't want to use an ability I can also
+
+00:03:09.680 --> 00:03:20.630 
+don't want to use an ability I can also
+use<00:03:10.010> a<00:03:10.219> hurry<00:03:10.699> strike<00:03:11.209> with<00:03:11.870> my<00:03:12.049> hero
+
+00:03:20.630 --> 00:03:20.640 
+
+00:03:20.640 --> 00:03:23.970 
+
+of<00:03:21.640> course<00:03:22.060> it<00:03:22.390> is<00:03:22.570> also<00:03:22.810> possible<00:03:23.080> to<00:03:23.440> defend
+
+00:03:23.970 --> 00:03:23.980 
+of course it is also possible to defend
+
+00:03:23.980 --> 00:03:26.520 
+of course it is also possible to defend
+in<00:03:24.220> ways<00:03:24.550> if<00:03:24.850> you<00:03:25.060> don't<00:03:25.300> want<00:03:25.540> your<00:03:25.660> unit<00:03:26.230> to
+
+00:03:26.520 --> 00:03:26.530 
+in ways if you don't want your unit to
+
+00:03:26.530 --> 00:03:28.770 
+in ways if you don't want your unit to
+attack<00:03:26.830> all<00:03:27.790> heroes<00:03:28.180> fans<00:03:28.420> will<00:03:28.750> have
+
+00:03:28.770 --> 00:03:28.780 
+attack all heroes fans will have
+
+00:03:28.780 --> 00:03:30.720 
+attack all heroes fans will have
+recognized<00:03:29.380> the<00:03:29.620> golden<00:03:30.010> bird<00:03:30.250> above<00:03:30.670> the
+
+00:03:30.720 --> 00:03:30.730 
+recognized the golden bird above the
+
+00:03:30.730 --> 00:03:33.450 
+recognized the golden bird above the
+Birkin<00:03:31.150> which<00:03:31.330> means<00:03:31.660> tomorrow's<00:03:32.170> time<00:03:32.530> to
+
+00:03:33.450 --> 00:03:33.460 
+Birkin which means tomorrow's time to
+
+00:03:33.460 --> 00:03:36.690 
+Birkin which means tomorrow's time to
+the<00:03:33.610> video<00:03:34.000> act<00:03:34.360> twice<00:03:34.870> disturb<00:03:35.470> this<00:03:36.430> can
+
+00:03:36.690 --> 00:03:36.700 
+the video act twice disturb this can
+
+00:03:36.700 --> 00:03:38.310 
+the video act twice disturb this can
+turn<00:03:36.940> the<00:03:37.090> tide<00:03:37.240> of<00:03:37.390> the<00:03:37.630> duxelles<00:03:37.990> for
+
+00:03:38.310 --> 00:03:38.320 
+turn the tide of the duxelles for
+
+00:03:38.320 --> 00:03:40.170 
+turn the tide of the duxelles for
+instance<00:03:38.680> and<00:03:38.950> when<00:03:39.160> the<00:03:39.190> difference<00:03:39.550> to<00:03:39.880> hit
+
+00:03:40.170 --> 00:03:40.180 
+instance and when the difference to hit
+
+00:03:40.180 --> 00:03:57.840 
+instance and when the difference to hit
+last<00:03:40.660> vampire<00:03:55.770> once<00:03:56.770> upgrading<00:03:57.520> the
+
+00:03:57.840 --> 00:03:57.850 
+last vampire once upgrading the
+
+00:03:57.850 --> 00:04:00.140 
+last vampire once upgrading the
+collective<00:03:58.390> attack<00:03:58.840> threats<00:03:59.470> a<00:03:59.680> web
+
+00:04:00.140 --> 00:04:00.150 
+collective attack threats a web
+
+00:04:00.150 --> 00:04:03.050 
+collective attack threats a web
+decreasing<00:04:01.150> the<00:04:01.270> initiative<00:04:01.840> of<00:04:01.990> enemy<00:04:02.560> units
+
+00:04:03.050 --> 00:04:03.060 
+decreasing the initiative of enemy units
+
+00:04:03.060 --> 00:04:06.120 
+decreasing the initiative of enemy units
+it's<00:04:04.060> now<00:04:04.360> time<00:04:04.420> for<00:04:04.690> the<00:04:05.020> sisters<00:04:05.500> to<00:04:05.709> enter
+
+00:04:06.120 --> 00:04:06.130 
+it's now time for the sisters to enter
+
+00:04:06.130 --> 00:04:09.150 
+it's now time for the sisters to enter
+the<00:04:06.250> fight<00:04:06.520> they<00:04:07.420> may<00:04:07.660> not<00:04:07.870> be<00:04:08.080> quite<00:04:08.260> but
+
+00:04:09.150 --> 00:04:09.160 
+the fight they may not be quite but
+
+00:04:09.160 --> 00:04:11.250 
+the fight they may not be quite but
+they're<00:04:09.370> more<00:04:09.670> than<00:04:09.700> capable<00:04:09.970> of<00:04:10.630> killing<00:04:10.930> the
+
+00:04:11.250 --> 00:04:11.260 
+they're more than capable of killing the
+
+00:04:11.260 --> 00:04:16.009 
+they're more than capable of killing the
+remaining<00:04:11.740> goals
+
+00:04:16.009 --> 00:04:16.019 
+
+00:04:16.019 --> 00:04:19.189 
+
+now<00:04:16.680> i'm<00:04:17.009> using<00:04:17.519> the<00:04:17.639> griffins<00:04:18.120> ability<00:04:18.599> the
+
+00:04:19.189 --> 00:04:19.199 
+now i'm using the griffins ability the
+
+00:04:19.199 --> 00:04:22.279 
+now i'm using the griffins ability the
+diving<00:04:19.650> attack<00:04:19.949> as<00:04:20.220> in<00:04:21.120> heroes<00:04:21.479> fight<00:04:21.690> the
+
+00:04:22.279 --> 00:04:22.289 
+diving attack as in heroes fight the
+
+00:04:22.289 --> 00:04:25.100 
+diving attack as in heroes fight the
+Griffin<00:04:22.740> flies<00:04:23.400> away<00:04:23.639> and<00:04:24.120> will<00:04:24.419> strike<00:04:24.840> the
+
+00:04:25.100 --> 00:04:25.110 
+Griffin flies away and will strike the
+
+00:04:25.110 --> 00:04:28.040 
+Griffin flies away and will strike the
+enemy<00:04:25.289> at<00:04:25.740> the<00:04:25.979> end<00:04:26.129> of<00:04:26.220> his<00:04:26.400> term<00:04:26.900> contrary<00:04:27.900> to
+
+00:04:28.040 --> 00:04:28.050 
+enemy at the end of his term contrary to
+
+00:04:28.050 --> 00:04:30.890 
+enemy at the end of his term contrary to
+heroes<00:04:28.470> 5<00:04:28.710> the<00:04:29.250> diving<00:04:29.669> attack<00:04:29.940> always<00:04:30.569> hits
+
+00:04:30.890 --> 00:04:30.900 
+heroes 5 the diving attack always hits
+
+00:04:30.900 --> 00:04:34.100 
+heroes 5 the diving attack always hits
+the<00:04:31.050> target<00:04:31.379> even<00:04:31.979> if<00:04:32.490> it<00:04:32.729> was<00:04:32.879> moved<00:04:33.150> this
+
+00:04:34.100 --> 00:04:34.110 
+the target even if it was moved this
+
+00:04:34.110 --> 00:04:37.240 
+the target even if it was moved this
+ability<00:04:34.560> can<00:04:35.069> it<00:04:35.190> be<00:04:35.340> used<00:04:35.370> twice<00:04:35.849> in<00:04:36.270> a<00:04:36.300> row
+
+00:04:37.240 --> 00:04:37.250 
+ability can it be used twice in a row
+
+00:04:37.250 --> 00:04:39.920 
+ability can it be used twice in a row
+because<00:04:38.250> i<00:04:38.400> still<00:04:38.699> have<00:04:38.879> good<00:04:39.060> moral<00:04:39.479> my
+
+00:04:39.920 --> 00:04:39.930 
+because i still have good moral my
+
+00:04:39.930 --> 00:04:42.350 
+because i still have good moral my
+Praetorian<00:04:40.560> connect<00:04:40.919> twice<00:04:41.190> so<00:04:41.819> he<00:04:42.150> will<00:04:42.300> be
+
+00:04:42.350 --> 00:04:42.360 
+Praetorian connect twice so he will be
+
+00:04:42.360 --> 00:04:45.040 
+Praetorian connect twice so he will be
+able<00:04:42.509> to<00:04:42.810> reach<00:04:43.110> the<00:04:43.409> skeleton<00:04:43.979> and<00:04:44.129> the<00:04:44.370> leash
+
+00:04:45.040 --> 00:04:45.050 
+able to reach the skeleton and the leash
+
+00:04:45.050 --> 00:04:47.869 
+able to reach the skeleton and the leash
+with<00:04:46.050> only<00:04:46.379> one<00:04:46.680> Praetorian<00:04:47.220> remaining<00:04:47.729> I
+
+00:04:47.869 --> 00:04:47.879 
+with only one Praetorian remaining I
+
+00:04:47.879 --> 00:04:50.570 
+with only one Praetorian remaining I
+have<00:04:48.180> no<00:04:48.479> hope<00:04:48.810> of<00:04:49.050> killing<00:04:49.409> the<00:04:49.530> leash<00:04:49.710> but<00:04:50.550> I
+
+00:04:50.570 --> 00:04:50.580 
+have no hope of killing the leash but I
+
+00:04:50.580 --> 00:04:52.550 
+have no hope of killing the leash but I
+can<00:04:50.909> address<00:04:51.120> block<00:04:51.569> him<00:04:51.780> to<00:04:51.990> prevent<00:04:52.380> him
+
+00:04:52.550 --> 00:04:52.560 
+can address block him to prevent him
+
+00:04:52.560 --> 00:05:01.210 
+can address block him to prevent him
+from<00:04:52.590> shooting<00:04:53.069> at<00:04:53.430> my<00:04:53.699> girlfriend
+
+00:05:01.210 --> 00:05:01.220 
+
+00:05:01.220 --> 00:05:04.520 
+
+time<00:05:02.220> for<00:05:02.550> my<00:05:02.699> hero<00:05:03.030> to<00:05:03.360> destroy<00:05:03.870> the<00:05:04.080> second
+
+00:05:04.520 --> 00:05:04.530 
+time for my hero to destroy the second
+
+00:05:04.530 --> 00:05:29.970 
+time for my hero to destroy the second
+bones
+
+00:05:29.970 --> 00:05:29.980 
+
+00:05:29.980 --> 00:05:33.160 
+
+one<00:05:30.980> of<00:05:31.280> the<00:05:31.460> advantages<00:05:31.550> of<00:05:32.330> the<00:05:32.540> crane<00:05:32.840> or
+
+00:05:33.160 --> 00:05:33.170 
+one of the advantages of the crane or
+
+00:05:33.170 --> 00:05:35.560 
+one of the advantages of the crane or
+santa<00:05:33.530> needs<00:05:33.680> to<00:05:34.040> Praetorian<00:05:34.580> is<00:05:34.790> that<00:05:35.180> in
+
+00:05:35.560 --> 00:05:35.570 
+santa needs to Praetorian is that in
+
+00:05:35.570 --> 00:05:38.290 
+santa needs to Praetorian is that in
+addition<00:05:35.750> to<00:05:36.110> their<00:05:36.350> shielding<00:05:36.860> ability<00:05:37.490> they
+
+00:05:38.290 --> 00:05:38.300 
+addition to their shielding ability they
+
+00:05:38.300 --> 00:05:40.570 
+addition to their shielding ability they
+can<00:05:38.480> also<00:05:38.690> retaliate<00:05:39.590> when<00:05:39.980> the<00:05:40.160> ally<00:05:40.520> the
+
+00:05:40.570 --> 00:05:40.580 
+can also retaliate when the ally the
+
+00:05:40.580 --> 00:05:46.180 
+can also retaliate when the ally the
+product<00:05:41.150> is<00:05:41.300> attacked<00:05:44.530> thanks<00:05:45.530> to<00:05:45.740> high<00:05:45.950> luck
+
+00:05:46.180 --> 00:05:46.190 
+product is attacked thanks to high luck
+
+00:05:46.190 --> 00:05:49.330 
+product is attacked thanks to high luck
+the<00:05:46.700> worker<00:05:46.940> makes<00:05:47.300> a<00:05:47.570> critical<00:05:47.900> hit<00:05:48.380> the
+
+00:05:49.330 --> 00:05:49.340 
+the worker makes a critical hit the
+
+00:05:49.340 --> 00:05:52.660 
+the worker makes a critical hit the
+leash<00:05:49.610> will<00:05:50.150> go<00:05:50.360> out<00:05:50.540> in<00:05:50.720> style<00:05:51.490> victory<00:05:52.490> is
+
+00:05:52.660 --> 00:05:52.670 
+leash will go out in style victory is
+
+00:05:52.670 --> 00:05:55.720 
+leash will go out in style victory is
+mine<00:05:52.820> I<00:05:53.600> hope<00:05:54.380> you<00:05:54.710> enjoyed<00:05:55.070> this<00:05:55.280> combat
+
+00:05:55.720 --> 00:05:55.730 
+mine I hope you enjoyed this combat
+
+00:05:55.730 --> 00:05:57.940 
+mine I hope you enjoyed this combat
+video
+

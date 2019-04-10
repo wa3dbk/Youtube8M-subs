@@ -1,0 +1,764 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:12.970 --> 00:00:15.850 
+
+hello<00:00:13.970> and<00:00:14.120> welcome<00:00:14.360> back<00:00:14.390> to<00:00:14.510> POSIX<00:00:14.990> labs<00:00:15.530> my
+
+00:00:15.850 --> 00:00:15.860 
+hello and welcome back to POSIX labs my
+
+00:00:15.860 --> 00:00:17.140 
+hello and welcome back to POSIX labs my
+name<00:00:16.040> is<00:00:16.160> Shane<00:00:16.340> and<00:00:16.400> today<00:00:16.730> we'll<00:00:16.850> be<00:00:16.880> going
+
+00:00:17.140 --> 00:00:17.150 
+name is Shane and today we'll be going
+
+00:00:17.150 --> 00:00:18.610 
+name is Shane and today we'll be going
+over<00:00:17.210> the<00:00:17.330> process<00:00:17.840> for<00:00:18.080> installing<00:00:18.380> a
+
+00:00:18.610 --> 00:00:18.620 
+over the process for installing a
+
+00:00:18.620 --> 00:00:22.960 
+over the process for installing a
+thermal<00:00:19.010> printer<00:00:19.220> to<00:00:20.060> a<00:00:20.420> POS<00:00:21.140> terminal<00:00:21.970> we'll
+
+00:00:22.960 --> 00:00:22.970 
+thermal printer to a POS terminal we'll
+
+00:00:22.970 --> 00:00:25.330 
+thermal printer to a POS terminal we'll
+be<00:00:23.090> using<00:00:23.240> a<00:00:23.570> parallel<00:00:23.900> port<00:00:24.350> the<00:00:24.950> parallel
+
+00:00:25.330 --> 00:00:25.340 
+be using a parallel port the parallel
+
+00:00:25.340 --> 00:00:28.450 
+be using a parallel port the parallel
+ports<00:00:25.670> and<00:00:25.880> a<00:00:26.330> parallel<00:00:27.020> cable<00:00:27.260> today<00:00:27.680> it's
+
+00:00:28.450 --> 00:00:28.460 
+ports and a parallel cable today it's
+
+00:00:28.460 --> 00:00:30.429 
+ports and a parallel cable today it's
+essentially<00:00:28.970> the<00:00:29.060> same<00:00:29.270> process<00:00:29.599> as<00:00:30.020> using<00:00:30.349> a
+
+00:00:30.429 --> 00:00:30.439 
+essentially the same process as using a
+
+00:00:30.439 --> 00:00:33.970 
+essentially the same process as using a
+USB<00:00:30.470> cable<00:00:31.009> in<00:00:31.460> the<00:00:31.610> USB<00:00:32.150> port<00:00:32.509> but<00:00:32.750> of<00:00:33.260> course
+
+00:00:33.970 --> 00:00:33.980 
+USB cable in the USB port but of course
+
+00:00:33.980 --> 00:00:35.950 
+USB cable in the USB port but of course
+you'll<00:00:34.160> be<00:00:34.190> using<00:00:34.550> different<00:00:34.700> ports<00:00:35.210> and<00:00:35.390> when
+
+00:00:35.950 --> 00:00:35.960 
+you'll be using different ports and when
+
+00:00:35.960 --> 00:00:37.840 
+you'll be using different ports and when
+you<00:00:36.050> install<00:00:36.410> the<00:00:36.560> drivers<00:00:36.980> you<00:00:37.460> will<00:00:37.610> choose
+
+00:00:37.840 --> 00:00:37.850 
+you install the drivers you will choose
+
+00:00:37.850 --> 00:00:41.830 
+you install the drivers you will choose
+lpt1<00:00:38.690> as<00:00:39.440> your<00:00:40.160> port<00:00:40.490> instead<00:00:41.150> of<00:00:41.360> the<00:00:41.480> USB
+
+00:00:41.830 --> 00:00:41.840 
+lpt1 as your port instead of the USB
+
+00:00:41.840 --> 00:00:44.560 
+lpt1 as your port instead of the USB
+port<00:00:42.410> but<00:00:43.190> we'll<00:00:43.460> go<00:00:43.610> over<00:00:43.640> that<00:00:43.820> process<00:00:44.180> a
+
+00:00:44.560 --> 00:00:44.570 
+port but we'll go over that process a
+
+00:00:44.570 --> 00:00:46.330 
+port but we'll go over that process a
+little<00:00:44.870> bit<00:00:45.020> later<00:00:45.230> what<00:00:46.010> you're<00:00:46.160> going<00:00:46.310> to
+
+00:00:46.330 --> 00:00:46.340 
+little bit later what you're going to
+
+00:00:46.340 --> 00:00:48.310 
+little bit later what you're going to
+need<00:00:46.520> for<00:00:46.730> this<00:00:46.820> is<00:00:47.150> of<00:00:47.390> course<00:00:47.780> your<00:00:47.960> thermal
+
+00:00:48.310 --> 00:00:48.320 
+need for this is of course your thermal
+
+00:00:48.320 --> 00:00:53.760 
+need for this is of course your thermal
+printer<00:00:48.740> a<00:00:49.210> POS<00:00:50.210> terminal<00:00:50.780> your<00:00:51.680> power<00:00:51.950> supply
+
+00:00:53.760 --> 00:00:53.770 
+printer a POS terminal your power supply
+
+00:00:53.770 --> 00:00:58.120 
+printer a POS terminal your power supply
+for<00:00:54.770> the<00:00:54.970> thermal<00:00:55.970> printer<00:00:56.390> and<00:00:56.570> a<00:00:57.500> parallel
+
+00:00:58.120 --> 00:00:58.130 
+for the thermal printer and a parallel
+
+00:00:58.130 --> 00:01:01.480 
+for the thermal printer and a parallel
+cable<00:00:59.200> the<00:01:00.200> first<00:01:00.440> thing<00:01:00.650> you<00:01:00.740> want<00:01:00.950> to<00:01:01.040> do<00:01:01.220> is
+
+00:01:01.480 --> 00:01:01.490 
+cable the first thing you want to do is
+
+00:01:01.490 --> 00:01:05.140 
+cable the first thing you want to do is
+go<00:01:01.970> ahead<00:01:02.090> and<00:01:03.100> connect<00:01:04.100> your<00:01:04.400> power<00:01:04.610> supply
+
+00:01:05.140 --> 00:01:05.150 
+go ahead and connect your power supply
+
+00:01:05.150 --> 00:01:11.050 
+go ahead and connect your power supply
+to<00:01:07.150> your<00:01:08.150> thermal<00:01:08.570> printer<00:01:09.250> so<00:01:10.250> we'll<00:01:10.880> take
+
+00:01:11.050 --> 00:01:11.060 
+to your thermal printer so we'll take
+
+00:01:11.060 --> 00:01:20.819 
+to your thermal printer so we'll take
+this<00:01:11.600> cable<00:01:11.950> and<00:01:12.950> we'll<00:01:13.610> plug<00:01:13.790> it<00:01:13.970> into<00:01:14.150> here
+
+00:01:20.819 --> 00:01:20.829 
+
+00:01:20.829 --> 00:01:26.669 
+
+we'll<00:01:21.829> then<00:01:21.979> plug<00:01:22.640> in<00:01:23.229> our<00:01:24.229> power<00:01:24.499> source
+
+00:01:26.669 --> 00:01:26.679 
+we'll then plug in our power source
+
+00:01:26.679 --> 00:01:29.919 
+we'll then plug in our power source
+we'll<00:01:27.679> take<00:01:27.890> our<00:01:28.100> adapter<00:01:28.579> which<00:01:29.119> has<00:01:29.329> a<00:01:29.600> flat
+
+00:01:29.919 --> 00:01:29.929 
+we'll take our adapter which has a flat
+
+00:01:29.929 --> 00:01:33.160 
+we'll take our adapter which has a flat
+side<00:01:30.670> and<00:01:31.670> we<00:01:31.729> want<00:01:31.909> that<00:01:32.060> flat<00:01:32.359> side<00:01:32.630> facing
+
+00:01:33.160 --> 00:01:33.170 
+side and we want that flat side facing
+
+00:01:33.170 --> 00:01:35.380 
+side and we want that flat side facing
+up<00:01:33.350> towards<00:01:33.890> the<00:01:34.039> bottom<00:01:34.520> of<00:01:34.729> the<00:01:34.909> printer
+
+00:01:35.380 --> 00:01:35.390 
+up towards the bottom of the printer
+
+00:01:35.390 --> 00:01:38.700 
+up towards the bottom of the printer
+we'll<00:01:36.259> plug<00:01:36.439> it<00:01:36.590> in<00:01:36.710> right<00:01:36.920> here
+
+00:01:38.700 --> 00:01:38.710 
+we'll plug it in right here
+
+00:01:38.710 --> 00:01:43.270 
+we'll plug it in right here
+on<00:01:39.710> the<00:01:40.069> flat<00:01:40.310> side<00:01:40.549> goes<00:01:41.149> facing<00:01:41.780> up<00:01:42.280> towards
+
+00:01:43.270 --> 00:01:43.280 
+on the flat side goes facing up towards
+
+00:01:43.280 --> 00:01:48.610 
+on the flat side goes facing up towards
+the<00:01:43.399> bottom<00:01:43.579> of<00:01:43.939> the<00:01:44.179> printer
+
+00:01:48.610 --> 00:01:48.620 
+
+00:01:48.620 --> 00:01:51.410 
+
+all<00:01:49.620> right<00:01:49.830> this<00:01:50.100> is<00:01:50.220> our<00:01:50.340> parallel<00:01:50.790> port<00:01:51.090> and
+
+00:01:51.410 --> 00:01:51.420 
+all right this is our parallel port and
+
+00:01:51.420 --> 00:01:53.620 
+all right this is our parallel port and
+that'll<00:01:51.750> be<00:01:51.870> where<00:01:52.020> we<00:01:52.200> connect<00:01:53.160> the<00:01:53.310> printer
+
+00:01:53.620 --> 00:01:53.630 
+that'll be where we connect the printer
+
+00:01:53.630 --> 00:02:00.800 
+that'll be where we connect the printer
+to<00:01:54.630> the<00:01:55.130> POS<00:01:56.130> terminal<00:01:59.300> you'll<00:02:00.300> also<00:02:00.480> want<00:02:00.720> to
+
+00:02:00.800 --> 00:02:00.810 
+to the POS terminal you'll also want to
+
+00:02:00.810 --> 00:02:02.510 
+to the POS terminal you'll also want to
+make<00:02:00.870> sure<00:02:00.990> that<00:02:01.320> your<00:02:01.470> POS<00:02:01.770> terminal<00:02:02.340> is
+
+00:02:02.510 --> 00:02:02.520 
+make sure that your POS terminal is
+
+00:02:02.520 --> 00:02:05.270 
+make sure that your POS terminal is
+connected<00:02:02.700> to<00:02:03.540> the<00:02:04.410> internet<00:02:04.830> so<00:02:05.040> you<00:02:05.130> can
+
+00:02:05.270 --> 00:02:05.280 
+connected to the internet so you can
+
+00:02:05.280 --> 00:02:08.840 
+connected to the internet so you can
+download<00:02:05.370> your<00:02:05.640> drivers<00:02:06.410> here<00:02:07.410> we<00:02:07.560> have<00:02:07.850> our
+
+00:02:08.840 --> 00:02:08.850 
+download your drivers here we have our
+
+00:02:08.850 --> 00:02:12.560 
+download your drivers here we have our
+parallel<00:02:09.240> cable<00:02:09.649> one<00:02:10.649> side<00:02:10.979> has<00:02:11.580> prongs<00:02:12.120> like
+
+00:02:12.560 --> 00:02:12.570 
+parallel cable one side has prongs like
+
+00:02:12.570 --> 00:02:15.050 
+parallel cable one side has prongs like
+a<00:02:12.900> more<00:02:13.200> traditional<00:02:13.350> plug<00:02:13.980> that<00:02:14.700> will<00:02:14.880> plug
+
+00:02:15.050 --> 00:02:15.060 
+a more traditional plug that will plug
+
+00:02:15.060 --> 00:02:17.090 
+a more traditional plug that will plug
+into<00:02:15.270> the<00:02:15.420> POS<00:02:15.780> terminal<00:02:16.230> and<00:02:16.680> the<00:02:16.770> other<00:02:16.890> hat
+
+00:02:17.090 --> 00:02:17.100 
+into the POS terminal and the other hat
+
+00:02:17.100 --> 00:02:19.820 
+into the POS terminal and the other hat
+side<00:02:17.640> has<00:02:17.880> a<00:02:17.910> long<00:02:18.300> rectangular<00:02:19.080> centerpiece
+
+00:02:19.820 --> 00:02:19.830 
+side has a long rectangular centerpiece
+
+00:02:19.830 --> 00:02:22.250 
+side has a long rectangular centerpiece
+and<00:02:20.160> that<00:02:20.640> plugs<00:02:21.000> into<00:02:21.270> the<00:02:21.630> receipt<00:02:21.930> printer
+
+00:02:22.250 --> 00:02:22.260 
+and that plugs into the receipt printer
+
+00:02:22.260 --> 00:02:24.110 
+and that plugs into the receipt printer
+you<00:02:22.770> can't<00:02:23.010> really<00:02:23.190> mix<00:02:23.400> them<00:02:23.580> up<00:02:23.700> they're
+
+00:02:24.110 --> 00:02:24.120 
+you can't really mix them up they're
+
+00:02:24.120 --> 00:02:26.810 
+you can't really mix them up they're
+very<00:02:24.360> different<00:02:25.280> we'll<00:02:26.280> go<00:02:26.400> ahead<00:02:26.489> and<00:02:26.580> plug
+
+00:02:26.810 --> 00:02:26.820 
+very different we'll go ahead and plug
+
+00:02:26.820 --> 00:02:31.850 
+very different we'll go ahead and plug
+it<00:02:26.970> into<00:02:27.090> the<00:02:27.209> receipt<00:02:27.570> printer<00:02:30.680> plugs<00:02:31.680> in
+
+00:02:31.850 --> 00:02:31.860 
+it into the receipt printer plugs in
+
+00:02:31.860 --> 00:02:33.750 
+it into the receipt printer plugs in
+right<00:02:31.890> here
+
+00:02:33.750 --> 00:02:33.760 
+right here
+
+00:02:33.760 --> 00:02:39.119 
+right here
+it's<00:02:34.540> a<00:02:34.690> shaped<00:02:34.989> plug<00:02:36.480> the<00:02:37.480> widest<00:02:37.930> part<00:02:38.200> faces
+
+00:02:39.119 --> 00:02:39.129 
+it's a shaped plug the widest part faces
+
+00:02:39.129 --> 00:02:45.899 
+it's a shaped plug the widest part faces
+up<00:02:39.310> and<00:02:39.700> you<00:02:40.239> have<00:02:40.420> two<00:02:40.629> clips<00:02:43.950> and<00:02:44.950> there<00:02:45.610> we
+
+00:02:45.899 --> 00:02:45.909 
+up and you have two clips and there we
+
+00:02:45.909 --> 00:02:50.160 
+up and you have two clips and there we
+go<00:02:46.620> we'll<00:02:47.620> then<00:02:47.799> run<00:02:48.099> the<00:02:48.220> cable<00:02:49.170> underneath
+
+00:02:50.160 --> 00:02:50.170 
+go we'll then run the cable underneath
+
+00:02:50.170 --> 00:02:55.770 
+go we'll then run the cable underneath
+the<00:02:50.470> back<00:02:50.769> of<00:02:52.230> our<00:02:53.230> POS<00:02:53.530> terminal<00:02:54.160> and<00:02:55.150> up<00:02:55.390> and
+
+00:02:55.770 --> 00:02:55.780 
+the back of our POS terminal and up and
+
+00:02:55.780 --> 00:03:02.520 
+the back of our POS terminal and up and
+out<00:02:56.019> through<00:02:56.680> the<00:02:57.030> front<00:02:58.030> opening<00:03:01.500> you<00:03:02.500> can
+
+00:03:02.520 --> 00:03:02.530 
+out through the front opening you can
+
+00:03:02.530 --> 00:03:05.039 
+out through the front opening you can
+see<00:03:02.799> the<00:03:02.890> prongs<00:03:03.129> there<00:03:03.599> it's<00:03:04.599> going<00:03:04.780> to<00:03:04.840> plug
+
+00:03:05.039 --> 00:03:05.049 
+see the prongs there it's going to plug
+
+00:03:05.049 --> 00:03:10.740 
+see the prongs there it's going to plug
+in<00:03:05.230> right<00:03:05.440> up<00:03:05.590> here<00:03:06.390> there's<00:03:07.390> a<00:03:07.510> long<00:03:07.810> port<00:03:09.750> you
+
+00:03:10.740 --> 00:03:10.750 
+in right up here there's a long port you
+
+00:03:10.750 --> 00:03:13.770 
+in right up here there's a long port you
+can<00:03:10.840> see<00:03:11.049> it<00:03:11.140> right<00:03:11.290> there<00:03:11.349> and<00:03:12.359> it's<00:03:13.359> a<00:03:13.480> shaped
+
+00:03:13.770 --> 00:03:13.780 
+can see it right there and it's a shaped
+
+00:03:13.780 --> 00:03:16.619 
+can see it right there and it's a shaped
+plug<00:03:14.109> again<00:03:14.410> the<00:03:15.160> wide<00:03:15.459> side<00:03:15.879> this<00:03:16.180> time<00:03:16.420> is
+
+00:03:16.619 --> 00:03:16.629 
+plug again the wide side this time is
+
+00:03:16.629 --> 00:03:22.650 
+plug again the wide side this time is
+going<00:03:16.780> to<00:03:16.870> face<00:03:17.079> down<00:03:19.140> and<00:03:20.140> go<00:03:21.390> we'll<00:03:22.390> tighten
+
+00:03:22.650 --> 00:03:22.660 
+going to face down and go we'll tighten
+
+00:03:22.660 --> 00:03:28.770 
+going to face down and go we'll tighten
+these<00:03:22.900> screws<00:03:22.959> up<00:03:23.500> here<00:03:27.030> and<00:03:28.030> tuck<00:03:28.269> that<00:03:28.420> cable
+
+00:03:28.770 --> 00:03:28.780 
+these screws up here and tuck that cable
+
+00:03:28.780 --> 00:03:33.059 
+these screws up here and tuck that cable
+back<00:03:28.959> into<00:03:29.260> the<00:03:29.349> base<00:03:29.670> we<00:03:30.670> tilt<00:03:31.560> our<00:03:32.560> screen
+
+00:03:33.059 --> 00:03:33.069 
+back into the base we tilt our screen
+
+00:03:33.069 --> 00:03:36.990 
+back into the base we tilt our screen
+back<00:03:33.280> down<00:03:34.859> now<00:03:35.859> we'll<00:03:36.069> go<00:03:36.220> ahead<00:03:36.250> and<00:03:36.730> power
+
+00:03:36.990 --> 00:03:37.000 
+back down now we'll go ahead and power
+
+00:03:37.000 --> 00:03:39.479 
+back down now we'll go ahead and power
+up<00:03:37.150> our<00:03:37.420> unit<00:03:37.780> and<00:03:38.319> then<00:03:38.769> we<00:03:38.889> can<00:03:39.040> power<00:03:39.190> up<00:03:39.370> our
+
+00:03:39.479 --> 00:03:39.489 
+up our unit and then we can power up our
+
+00:03:39.489 --> 00:03:47.110 
+up our unit and then we can power up our
+printer<00:03:39.849> as<00:03:39.940> well
+
+00:03:47.110 --> 00:03:47.120 
+
+00:03:47.120 --> 00:03:50.150 
+
+we<00:03:48.120> want<00:03:48.360> to<00:03:48.629> go<00:03:49.349> down<00:03:49.530> to<00:03:49.560> the<00:03:49.769> bottom
+
+00:03:50.150 --> 00:03:50.160 
+we want to go down to the bottom
+
+00:03:50.160 --> 00:03:51.710 
+we want to go down to the bottom
+left-hand<00:03:50.459> corner<00:03:50.879> of<00:03:50.910> our<00:03:51.060> screen<00:03:51.269> and<00:03:51.629> we'll
+
+00:03:51.710 --> 00:03:51.720 
+left-hand corner of our screen and we'll
+
+00:03:51.720 --> 00:03:53.990 
+left-hand corner of our screen and we'll
+want<00:03:51.930> to<00:03:52.110> launch<00:03:52.349> our<00:03:52.590> internet<00:03:52.980> browser<00:03:53.010> it
+
+00:03:53.990 --> 00:03:54.000 
+want to launch our internet browser it
+
+00:03:54.000 --> 00:03:57.410 
+want to launch our internet browser it
+should<00:03:54.629> open<00:03:55.110> up<00:03:55.379> by<00:03:55.590> default<00:03:55.800> to<00:03:56.340> pause<00:03:56.610> XCOM
+
+00:03:57.410 --> 00:03:57.420 
+should open up by default to pause XCOM
+
+00:03:57.420 --> 00:04:00.850 
+should open up by default to pause XCOM
+but<00:03:57.750> if<00:03:57.840> it<00:03:57.930> doesn't<00:03:58.200> you'll<00:03:59.099> need<00:03:59.310> to<00:03:59.430> go<00:03:59.580> to
+
+00:04:00.850 --> 00:04:00.860 
+but if it doesn't you'll need to go to
+
+00:04:00.860 --> 00:04:08.089 
+but if it doesn't you'll need to go to
+WWE<00:04:02.299> FX<00:04:03.299> comm<00:04:06.530> once<00:04:07.530> you're<00:04:07.709> there<00:04:07.739> you're
+
+00:04:08.089 --> 00:04:08.099 
+WWE FX comm once you're there you're
+
+00:04:08.099 --> 00:04:11.900 
+WWE FX comm once you're there you're
+going<00:04:08.310> to<00:04:08.400> select<00:04:08.670> the<00:04:08.910> support<00:04:09.330> tab<00:04:10.910> you'll
+
+00:04:11.900 --> 00:04:11.910 
+going to select the support tab you'll
+
+00:04:11.910 --> 00:04:14.150 
+going to select the support tab you'll
+get<00:04:12.030> a<00:04:12.060> drop<00:04:12.299> down<00:04:12.330> menu<00:04:12.569> and<00:04:13.140> then<00:04:13.980> you'll
+
+00:04:14.150 --> 00:04:14.160 
+get a drop down menu and then you'll
+
+00:04:14.160 --> 00:04:17.719 
+get a drop down menu and then you'll
+select<00:04:14.430> your<00:04:14.730> downloads<00:04:16.370> from<00:04:17.370> the<00:04:17.489> drop<00:04:17.699> down
+
+00:04:17.719 --> 00:04:17.729 
+select your downloads from the drop down
+
+00:04:17.729 --> 00:04:20.090 
+select your downloads from the drop down
+menu<00:04:18.320> well<00:04:19.320> then<00:04:19.440> go<00:04:19.560> to<00:04:19.620> our<00:04:19.739> product
+
+00:04:20.090 --> 00:04:20.100 
+menu well then go to our product
+
+00:04:20.100 --> 00:04:23.080 
+menu well then go to our product
+category<00:04:20.549> will<00:04:20.840> select<00:04:21.840> receipt<00:04:22.260> printers
+
+00:04:23.080 --> 00:04:23.090 
+category will select receipt printers
+
+00:04:23.090 --> 00:04:27.379 
+category will select receipt printers
+and<00:04:25.400> then<00:04:26.400> we'll<00:04:26.550> go<00:04:26.729> to<00:04:26.790> our<00:04:27.090> product
+
+00:04:27.379 --> 00:04:27.389 
+and then we'll go to our product
+
+00:04:27.389 --> 00:04:29.810 
+and then we'll go to our product
+designation<00:04:28.290> and<00:04:28.470> we'll<00:04:28.590> select<00:04:28.830> Evo
+
+00:04:29.810 --> 00:04:29.820 
+designation and we'll select Evo
+
+00:04:29.820 --> 00:04:34.040 
+designation and we'll select Evo
+high-speed<00:04:30.540> you<00:04:31.500> could<00:04:31.770> also<00:04:32.389> select<00:04:33.389> Evo
+
+00:04:34.040 --> 00:04:34.050 
+high-speed you could also select Evo
+
+00:04:34.050 --> 00:04:36.290 
+high-speed you could also select Evo
+green<00:04:34.350> or<00:04:34.710> the<00:04:34.950> ion<00:04:35.280> thermal<00:04:35.610> they're<00:04:36.090> all
+
+00:04:36.290 --> 00:04:36.300 
+green or the ion thermal they're all
+
+00:04:36.300 --> 00:04:38.060 
+green or the ion thermal they're all
+thermal<00:04:36.780> printers<00:04:37.169> and<00:04:37.380> they<00:04:37.440> all<00:04:37.620> use<00:04:37.889> the
+
+00:04:38.060 --> 00:04:38.070 
+thermal printers and they all use the
+
+00:04:38.070 --> 00:04:40.370 
+thermal printers and they all use the
+same<00:04:38.100> drivers<00:04:38.880> but<00:04:39.210> for<00:04:39.389> this<00:04:39.570> we're<00:04:40.169> going<00:04:40.320> to
+
+00:04:40.370 --> 00:04:40.380 
+same drivers but for this we're going to
+
+00:04:40.380 --> 00:04:43.250 
+same drivers but for this we're going to
+select<00:04:40.590> the<00:04:40.860> high-speed<00:04:41.630> will<00:04:42.630> then<00:04:42.750> choose
+
+00:04:43.250 --> 00:04:43.260 
+select the high-speed will then choose
+
+00:04:43.260 --> 00:04:47.000 
+select the high-speed will then choose
+our<00:04:43.650> windows<00:04:44.160> driver<00:04:45.139> and<00:04:46.139> we'll<00:04:46.320> download<00:04:46.500> if
+
+00:04:47.000 --> 00:04:47.010 
+our windows driver and we'll download if
+
+00:04:47.010 --> 00:04:49.010 
+our windows driver and we'll download if
+it<00:04:47.130> prompts<00:04:47.430> you<00:04:47.580> to<00:04:47.789> run<00:04:48.060> or<00:04:48.330> save<00:04:48.360> you<00:04:48.810> want
+
+00:04:49.010 --> 00:04:49.020 
+it prompts you to run or save you want
+
+00:04:49.020 --> 00:04:53.810 
+it prompts you to run or save you want
+to<00:04:49.169> save<00:04:51.530> well<00:04:52.530> then<00:04:52.680> close<00:04:53.220> out<00:04:53.490> of<00:04:53.520> there
+
+00:04:53.810 --> 00:04:53.820 
+to save well then close out of there
+
+00:04:53.820 --> 00:04:58.100 
+to save well then close out of there
+we'll<00:04:54.150> go<00:04:54.330> to<00:04:54.389> our<00:04:54.570> file<00:04:55.350> folders<00:04:55.919> and<00:04:56.870> in<00:04:57.870> this
+
+00:04:58.100 --> 00:04:58.110 
+we'll go to our file folders and in this
+
+00:04:58.110 --> 00:05:01.490 
+we'll go to our file folders and in this
+case<00:04:59.389> my<00:05:00.389> program<00:05:00.780> will<00:05:00.930> be<00:05:01.020> saved<00:05:01.289> in<00:05:01.410> my
+
+00:05:01.490 --> 00:05:01.500 
+case my program will be saved in my
+
+00:05:01.500 --> 00:05:03.110 
+case my program will be saved in my
+downloads<00:05:01.950> folder<00:05:02.190> so<00:05:02.580> I'll<00:05:02.700> click<00:05:02.910> on<00:05:02.970> that
+
+00:05:03.110 --> 00:05:03.120 
+downloads folder so I'll click on that
+
+00:05:03.120 --> 00:05:07.760 
+downloads folder so I'll click on that
+and<00:05:03.330> then<00:05:03.630> I'll<00:05:03.750> click<00:05:03.930> run<00:05:06.229> it'll<00:05:07.229> begin<00:05:07.440> the
+
+00:05:07.760 --> 00:05:07.770 
+and then I'll click run it'll begin the
+
+00:05:07.770 --> 00:05:16.590 
+and then I'll click run it'll begin the
+installation<00:05:08.099> process
+
+00:05:16.590 --> 00:05:16.600 
+
+00:05:16.600 --> 00:05:20.540 
+
+the<00:05:17.110> installation<00:05:17.470> menu<00:05:17.950> should<00:05:18.460> pop<00:05:18.820> up<00:05:18.850> I
+
+00:05:20.540 --> 00:05:20.550 
+the installation menu should pop up I
+
+00:05:20.550 --> 00:05:24.870 
+the installation menu should pop up I
+will<00:05:21.550> click<00:05:21.910> a<00:05:23.100> checkmark<00:05:24.100> in<00:05:24.310> the<00:05:24.340> box<00:05:24.430> by<00:05:24.820> the
+
+00:05:24.870 --> 00:05:24.880 
+will click a checkmark in the box by the
+
+00:05:24.880 --> 00:05:26.990 
+will click a checkmark in the box by the
+posix<00:05:25.390> thermal<00:05:25.720> printer<00:05:26.020> and<00:05:26.080> click<00:05:26.320> install
+
+00:05:26.990 --> 00:05:27.000 
+posix thermal printer and click install
+
+00:05:27.000 --> 00:05:29.460 
+posix thermal printer and click install
+then<00:05:28.000> I<00:05:28.060> want<00:05:28.270> to<00:05:28.330> make<00:05:28.450> sure<00:05:28.630> that<00:05:28.810> my<00:05:29.080> default
+
+00:05:29.460 --> 00:05:29.470 
+then I want to make sure that my default
+
+00:05:29.470 --> 00:05:31.320 
+then I want to make sure that my default
+operating<00:05:29.950> system<00:05:30.280> is<00:05:30.400> correct<00:05:30.700> so<00:05:31.000> for<00:05:31.210> me
+
+00:05:31.320 --> 00:05:31.330 
+operating system is correct so for me
+
+00:05:31.330 --> 00:05:33.930 
+operating system is correct so for me
+this<00:05:31.510> time<00:05:31.750> it's<00:05:31.990> Windows<00:05:32.320> 7<00:05:32.770> and<00:05:32.950> since<00:05:33.760> we're
+
+00:05:33.930 --> 00:05:33.940 
+this time it's Windows 7 and since we're
+
+00:05:33.940 --> 00:05:35.850 
+this time it's Windows 7 and since we're
+doing<00:05:33.970> a<00:05:34.300> parallel<00:05:34.780> port<00:05:35.020> installation<00:05:35.740> we're
+
+00:05:35.850 --> 00:05:35.860 
+doing a parallel port installation we're
+
+00:05:35.860 --> 00:05:37.650 
+doing a parallel port installation we're
+going<00:05:35.890> to<00:05:36.010> go<00:05:36.100> and<00:05:36.550> make<00:05:36.760> sure<00:05:36.910> that<00:05:37.120> that<00:05:37.300> port
+
+00:05:37.650 --> 00:05:37.660 
+going to go and make sure that that port
+
+00:05:37.660 --> 00:05:46.020 
+going to go and make sure that that port
+is<00:05:37.780> set<00:05:37.990> at<00:05:38.080> lpt1<00:05:38.650> and<00:05:39.900> we'll<00:05:40.900> click<00:05:41.170> OK<00:05:45.030> the
+
+00:05:46.020 --> 00:05:46.030 
+is set at lpt1 and we'll click OK the
+
+00:05:46.030 --> 00:05:52.800 
+is set at lpt1 and we'll click OK the
+installation<00:05:46.600> should<00:05:46.630> continue<00:05:47.380> I<00:05:51.630> we<00:05:52.630> can
+
+00:05:52.800 --> 00:05:52.810 
+installation should continue I we can
+
+00:05:52.810 --> 00:05:54.750 
+installation should continue I we can
+set<00:05:52.990> it<00:05:53.020> as<00:05:53.260> our<00:05:53.410> default<00:05:54.070> printer<00:05:54.370> if<00:05:54.460> we<00:05:54.580> want
+
+00:05:54.750 --> 00:05:54.760 
+set it as our default printer if we want
+
+00:05:54.760 --> 00:05:57.720 
+set it as our default printer if we want
+to<00:05:55.230> you<00:05:56.230> do<00:05:56.380> not<00:05:56.530> need<00:05:56.770> to<00:05:56.890> reboot<00:05:57.280> so<00:05:57.490> you<00:05:57.580> can
+
+00:05:57.720 --> 00:05:57.730 
+to you do not need to reboot so you can
+
+00:05:57.730 --> 00:06:02.850 
+to you do not need to reboot so you can
+uncheck<00:05:58.150> that<00:05:58.180> box<00:05:58.660> and<00:06:00.270> then<00:06:01.270> click<00:06:01.510> OK<00:06:01.900> and
+
+00:06:02.850 --> 00:06:02.860 
+uncheck that box and then click OK and
+
+00:06:02.860 --> 00:06:04.740 
+uncheck that box and then click OK and
+then<00:06:03.460> we'll<00:06:03.550> go<00:06:03.700> to<00:06:03.730> our<00:06:03.970> Start<00:06:04.300> menu<00:06:04.630> and
+
+00:06:04.740 --> 00:06:04.750 
+then we'll go to our Start menu and
+
+00:06:04.750 --> 00:06:07.170 
+then we'll go to our Start menu and
+we'll<00:06:04.810> click<00:06:05.140> Devices<00:06:05.740> and<00:06:05.770> Printers<00:06:06.120> go<00:06:07.120> to
+
+00:06:07.170 --> 00:06:07.180 
+we'll click Devices and Printers go to
+
+00:06:07.180 --> 00:06:10.140 
+we'll click Devices and Printers go to
+your<00:06:07.360> pause<00:06:07.600> X<00:06:07.930> thermal<00:06:08.350> printer<00:06:08.770> icon<00:06:09.150> double
+
+00:06:10.140 --> 00:06:10.150 
+your pause X thermal printer icon double
+
+00:06:10.150 --> 00:06:14.340 
+your pause X thermal printer icon double
+click<00:06:10.330> that<00:06:11.760> will<00:06:12.760> then<00:06:12.880> select<00:06:13.540> printer<00:06:14.140> and
+
+00:06:14.340 --> 00:06:14.350 
+click that will then select printer and
+
+00:06:14.350 --> 00:06:18.660 
+click that will then select printer and
+properties<00:06:15.100> and<00:06:15.930> it'll<00:06:16.930> allow<00:06:17.290> us<00:06:17.320> to<00:06:17.620> print<00:06:18.490> a
+
+00:06:18.660 --> 00:06:18.670 
+properties and it'll allow us to print a
+
+00:06:18.670 --> 00:06:27.420 
+properties and it'll allow us to print a
+test<00:06:18.700> page<00:06:19.110> so<00:06:20.110> we'll<00:06:20.260> click<00:06:20.410> on<00:06:20.530> that
+
+00:06:27.420 --> 00:06:27.430 
+
+00:06:27.430 --> 00:06:32.800 
+
+and<00:06:28.430> it<00:06:28.580> says<00:06:28.939> congratulations<00:06:31.539> and<00:06:32.539> there<00:06:32.719> we
+
+00:06:32.800 --> 00:06:32.810 
+and it says congratulations and there we
+
+00:06:32.810 --> 00:06:33.939 
+and it says congratulations and there we
+go<00:06:32.930> mission<00:06:33.259> accomplished
+
+00:06:33.939 --> 00:06:33.949 
+go mission accomplished
+
+00:06:33.949 --> 00:06:35.110 
+go mission accomplished
+if<00:06:34.159> you<00:06:34.250> have<00:06:34.340> any<00:06:34.550> other<00:06:34.699> questions<00:06:35.030> or
+
+00:06:35.110 --> 00:06:35.120 
+if you have any other questions or
+
+00:06:35.120 --> 00:06:36.909 
+if you have any other questions or
+concerns<00:06:35.210> feel<00:06:35.750> free<00:06:35.930> to<00:06:36.110> contact<00:06:36.199> us
+
+00:06:36.909 --> 00:06:36.919 
+concerns feel free to contact us
+
+00:06:36.919 --> 00:06:40.360 
+concerns feel free to contact us
+my<00:06:37.400> name<00:06:37.610> is<00:06:37.759> Shane<00:06:37.939> from<00:06:38.419> POSIX<00:06:38.930> labs<00:06:39.370> POSIX
+
+00:06:40.360 --> 00:06:40.370 
+my name is Shane from POSIX labs POSIX
+
+00:06:40.370 --> 00:06:49.110 
+my name is Shane from POSIX labs POSIX
+point-of-sale<00:06:41.180> simplified
+
+00:06:49.110 --> 00:06:49.120 
+
+00:06:49.120 --> 00:06:56.300 
+
+you
+
+00:06:56.300 --> 00:06:56.310 
+
+00:06:56.310 --> 00:06:58.370 
+
+you
+

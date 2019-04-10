@@ -1,0 +1,601 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.589 --> 00:00:02.600 
+
+thought<00:00:01.589> it<00:00:01.709> would<00:00:01.829> take<00:00:01.979> a<00:00:02.040> minute<00:00:02.399> and<00:00:02.490> show
+
+00:00:02.600 --> 00:00:02.610 
+thought it would take a minute and show
+
+00:00:02.610 --> 00:00:06.260 
+thought it would take a minute and show
+you<00:00:02.790> this<00:00:02.970> setup<00:00:03.270> here<00:00:04.670> I've<00:00:05.670> got<00:00:05.730> is<00:00:06.060> a
+
+00:00:06.260 --> 00:00:06.270 
+you this setup here I've got is a
+
+00:00:06.270 --> 00:00:09.890 
+you this setup here I've got is a
+Arduino<00:00:07.200> 18<00:00:07.890> mega<00:00:08.130> hooked<00:00:08.580> up<00:00:08.790> to<00:00:08.970> a<00:00:09.000> special
+
+00:00:09.890 --> 00:00:09.900 
+Arduino 18 mega hooked up to a special
+
+00:00:09.900 --> 00:00:12.410 
+Arduino 18 mega hooked up to a special
+little<00:00:10.519> criteria<00:00:11.519> jig<00:00:11.759> that<00:00:11.790> I've<00:00:12.030> made<00:00:12.210> here
+
+00:00:12.410 --> 00:00:12.420 
+little criteria jig that I've made here
+
+00:00:12.420 --> 00:00:16.939 
+little criteria jig that I've made here
+and<00:00:12.870> it's<00:00:13.650> actually<00:00:13.799> communicating<00:00:15.260> with<00:00:16.260> the
+
+00:00:16.939 --> 00:00:16.949 
+and it's actually communicating with the
+
+00:00:16.949 --> 00:00:24.500 
+and it's actually communicating with the
+computer<00:00:17.400> via<00:00:18.000> this<00:00:18.539> code<00:00:21.529> now<00:00:23.090> the<00:00:24.090> spawn<00:00:24.359> is
+
+00:00:24.500 --> 00:00:24.510 
+computer via this code now the spawn is
+
+00:00:24.510 --> 00:00:38.380 
+computer via this code now the spawn is
+operating<00:00:24.960> properly
+
+00:00:38.380 --> 00:00:38.390 
+
+00:00:38.390 --> 00:00:43.660 
+
+but<00:00:39.390> the<00:00:40.280> interesting<00:00:41.280> thing<00:00:41.579> is<00:00:42.120> that
+
+00:00:43.660 --> 00:00:43.670 
+but the interesting thing is that
+
+00:00:43.670 --> 00:00:46.389 
+but the interesting thing is that
+there's<00:00:44.670> communication<00:00:44.910> going<00:00:45.629> on<00:00:45.809> here
+
+00:00:46.389 --> 00:00:46.399 
+there's communication going on here
+
+00:00:46.399 --> 00:00:49.220 
+there's communication going on here
+right<00:00:47.399> before<00:00:47.760> the<00:00:48.239> primary<00:00:48.510> boot<00:00:48.930> loader
+
+00:00:49.220 --> 00:00:49.230 
+right before the primary boot loader
+
+00:00:49.230 --> 00:00:56.700 
+right before the primary boot loader
+loads<00:00:49.559> up
+
+00:00:56.700 --> 00:00:56.710 
+
+00:00:56.710 --> 00:01:02.819 
+
+and<00:00:59.730> if<00:01:00.730> you<00:01:00.940> look<00:01:00.969> here<00:01:01.660> you<00:01:02.050> got<00:01:02.230> the<00:01:02.350> primary
+
+00:01:02.819 --> 00:01:02.829 
+and if you look here you got the primary
+
+00:01:02.829 --> 00:01:04.380 
+and if you look here you got the primary
+boot<00:01:03.040> loader<00:01:03.340> the<00:01:03.610> primitive<00:01:04.000> boot<00:01:04.180> loader
+
+00:01:04.380 --> 00:01:04.390 
+boot loader the primitive boot loader
+
+00:01:04.390 --> 00:01:06.930 
+boot loader the primitive boot loader
+and<00:01:04.659> then<00:01:04.960> the<00:01:05.050> secondary<00:01:05.470> boot<00:01:05.710> loader<00:01:05.979> all
+
+00:01:06.930 --> 00:01:06.940 
+and then the secondary boot loader all
+
+00:01:06.940 --> 00:01:11.130 
+and then the secondary boot loader all
+right<00:01:07.210> now<00:01:08.460> we're<00:01:09.460> going<00:01:09.610> to<00:01:09.700> access<00:01:10.119> the<00:01:10.360> SPL
+
+00:01:11.130 --> 00:01:11.140 
+right now we're going to access the SPL
+
+00:01:11.140 --> 00:01:14.270 
+right now we're going to access the SPL
+prompt<00:01:11.590> and<00:01:11.770> the<00:01:11.830> way<00:01:11.920> you<00:01:11.979> get<00:01:12.190> to<00:01:12.310> that<00:01:12.430> is<00:01:12.729> by
+
+00:01:14.270 --> 00:01:14.280 
+prompt and the way you get to that is by
+
+00:01:14.280 --> 00:01:18.120 
+prompt and the way you get to that is by
+putting<00:01:15.280> in<00:01:15.490> the<00:01:15.580> battery<00:01:15.909> while<00:01:16.860> holding<00:01:17.860> the
+
+00:01:18.120 --> 00:01:18.130 
+putting in the battery while holding the
+
+00:01:18.130 --> 00:01:20.969 
+putting in the battery while holding the
+enter<00:01:18.610> button<00:01:18.820> on<00:01:19.119> the<00:01:19.690> terminal<00:01:19.960> now<00:01:20.770> this
+
+00:01:20.969 --> 00:01:20.979 
+enter button on the terminal now this
+
+00:01:20.979 --> 00:01:23.700 
+enter button on the terminal now this
+SPL<00:01:21.490> prompt<00:01:22.030> here<00:01:22.240> let<00:01:22.960> me<00:01:23.020> make<00:01:23.140> this<00:01:23.320> a
+
+00:01:23.700 --> 00:01:23.710 
+SPL prompt here let me make this a
+
+00:01:23.710 --> 00:01:30.469 
+SPL prompt here let me make this a
+little<00:01:23.830> bit<00:01:24.130> bigger<00:01:24.369> so<00:01:24.490> you<00:01:24.700> can<00:01:24.820> see<00:01:28.649> this
+
+00:01:30.469 --> 00:01:30.479 
+little bit bigger so you can see this
+
+00:01:30.479 --> 00:01:32.850 
+little bit bigger so you can see this
+comes<00:01:31.479> after<00:01:31.750> all<00:01:32.170> this<00:01:32.350> other<00:01:32.590> information
+
+00:01:32.850 --> 00:01:32.860 
+comes after all this other information
+
+00:01:32.860 --> 00:01:36.240 
+comes after all this other information
+in<00:01:33.520> the<00:01:33.610> booting<00:01:34.350> you<00:01:35.350> get<00:01:35.470> to<00:01:35.619> this<00:01:35.740> SPL
+
+00:01:36.240 --> 00:01:36.250 
+in the booting you get to this SPL
+
+00:01:36.250 --> 00:01:39.080 
+in the booting you get to this SPL
+prompt<00:01:36.789> and<00:01:36.940> SPL<00:01:37.750> gives<00:01:37.990> you<00:01:38.110> several<00:01:38.380> options
+
+00:01:39.080 --> 00:01:39.090 
+prompt and SPL gives you several options
+
+00:01:39.090 --> 00:01:41.340 
+prompt and SPL gives you several options
+you<00:01:40.090> can<00:01:40.179> type<00:01:40.390> help<00:01:40.720> to<00:01:40.899> get<00:01:40.990> all<00:01:41.110> the
+
+00:01:41.340 --> 00:01:41.350 
+you can type help to get all the
+
+00:01:41.350 --> 00:01:43.980 
+you can type help to get all the
+information<00:01:42.009> we<00:01:42.580> zoom<00:01:43.390> in<00:01:43.570> a<00:01:43.630> little<00:01:43.810> bit
+
+00:01:43.980 --> 00:01:43.990 
+information we zoom in a little bit
+
+00:01:43.990 --> 00:01:52.730 
+information we zoom in a little bit
+better<00:01:44.340> and<00:01:49.350> that<00:01:50.350> is<00:01:50.679> all
+
+00:01:52.730 --> 00:01:52.740 
+better and that is all
+
+00:01:52.740 --> 00:01:57.359 
+better and that is all
+your<00:01:53.740> options<00:01:54.369> in<00:01:54.549> the<00:01:54.670> SPL<00:01:54.850> prompt<00:01:55.750> now<00:01:56.590> that
+
+00:01:57.359 --> 00:01:57.369 
+your options in the SPL prompt now that
+
+00:01:57.369 --> 00:02:00.359 
+your options in the SPL prompt now that
+can<00:01:57.549> also<00:01:57.670> be<00:01:57.939> used<00:01:57.970> to<00:01:58.270> get<00:01:58.390> to<00:01:58.509> the<00:01:58.630> USB<00:01:59.369> the
+
+00:02:00.359 --> 00:02:00.369 
+can also be used to get to the USB the
+
+00:02:00.369 --> 00:02:04.590 
+can also be used to get to the USB the
+download<00:02:01.000> mode<00:02:01.409> just<00:02:02.409> type<00:02:02.590> USB<00:02:03.070> enter<00:02:03.729> puts
+
+00:02:04.590 --> 00:02:04.600 
+download mode just type USB enter puts
+
+00:02:04.600 --> 00:02:07.530 
+download mode just type USB enter puts
+the<00:02:04.720> phone<00:02:04.930> into<00:02:05.170> download<00:02:05.259> mode<00:02:06.270> now<00:02:07.270> you<00:02:07.330> see
+
+00:02:07.530 --> 00:02:07.540 
+the phone into download mode now you see
+
+00:02:07.540 --> 00:02:10.889 
+the phone into download mode now you see
+the<00:02:07.720> problem<00:02:07.930> is<00:02:08.470> that<00:02:09.369> this<00:02:10.060> is<00:02:10.270> not
+
+00:02:10.889 --> 00:02:10.899 
+the problem is that this is not
+
+00:02:10.899 --> 00:02:15.840 
+the problem is that this is not
+available<00:02:11.470> until<00:02:12.720> you<00:02:13.720> get<00:02:13.959> past<00:02:14.850> the
+
+00:02:15.840 --> 00:02:15.850 
+available until you get past the
+
+00:02:15.850 --> 00:02:20.520 
+available until you get past the
+secondary<00:02:16.720> bootloader<00:02:17.850> now<00:02:18.850> in<00:02:19.330> the<00:02:19.989> case<00:02:20.020> but
+
+00:02:20.520 --> 00:02:20.530 
+secondary bootloader now in the case but
+
+00:02:20.530 --> 00:02:24.090 
+secondary bootloader now in the case but
+black<00:02:20.770> screen<00:02:21.220> brick<00:02:22.020> the<00:02:23.020> secondary<00:02:23.709> and
+
+00:02:24.090 --> 00:02:24.100 
+black screen brick the secondary and
+
+00:02:24.100 --> 00:02:26.400 
+black screen brick the secondary and
+primitive<00:02:24.610> bootloader<00:02:25.330> are<00:02:25.540> not<00:02:25.870> going<00:02:26.170> to<00:02:26.290> be
+
+00:02:26.400 --> 00:02:26.410 
+primitive bootloader are not going to be
+
+00:02:26.410 --> 00:02:29.790 
+primitive bootloader are not going to be
+available<00:02:26.880> so<00:02:27.880> what<00:02:28.209> we're<00:02:28.870> trying<00:02:29.200> to<00:02:29.319> do<00:02:29.530> is
+
+00:02:29.790 --> 00:02:29.800 
+available so what we're trying to do is
+
+00:02:29.800 --> 00:02:33.650 
+available so what we're trying to do is
+figure<00:02:30.370> out<00:02:30.550> a<00:02:30.670> way<00:02:30.910> that<00:02:31.510> we<00:02:31.630> can<00:02:31.720> get
+
+00:02:33.650 --> 00:02:33.660 
+figure out a way that we can get
+
+00:02:33.660 --> 00:02:41.090 
+figure out a way that we can get
+something<00:02:34.660> out<00:02:34.989> of<00:02:35.019> this<00:02:35.230> device<00:02:37.080> with<00:02:38.080> the
+
+00:02:41.090 --> 00:02:41.100 
+
+00:02:41.100 --> 00:02:44.009 
+
+secondary<00:02:42.100> and<00:02:42.250> primary<00:02:42.430> boot<00:02:42.940> loaders<00:02:43.360> both
+
+00:02:44.009 --> 00:02:44.019 
+secondary and primary boot loaders both
+
+00:02:44.019 --> 00:02:46.320 
+secondary and primary boot loaders both
+inoperative<00:02:44.830> so<00:02:45.610> what<00:02:45.730> I'm<00:02:45.850> going<00:02:46.000> to<00:02:46.150> do<00:02:46.299> here
+
+00:02:46.320 --> 00:02:46.330 
+inoperative so what I'm going to do here
+
+00:02:46.330 --> 00:02:50.160 
+inoperative so what I'm going to do here
+is<00:02:46.720> I'm<00:02:46.900> going<00:02:47.049> to<00:02:47.170> brick<00:02:47.380> my<00:02:47.560> phone<00:02:48.750> well<00:02:49.750> soft
+
+00:02:50.160 --> 00:02:50.170 
+is I'm going to brick my phone well soft
+
+00:02:50.170 --> 00:02:53.370 
+is I'm going to brick my phone well soft
+brick<00:02:51.000> startup<00:02:52.000> handle<00:02:52.450> and<00:02:52.690> while<00:02:53.200> it's
+
+00:02:53.370 --> 00:02:53.380 
+brick startup handle and while it's
+
+00:02:53.380 --> 00:02:56.880 
+brick startup handle and while it's
+flashing<00:02:54.030> fold<00:02:55.030> the<00:02:55.269> motor<00:02:55.480> pull<00:02:56.319> the<00:02:56.470> cable
+
+00:02:56.880 --> 00:02:56.890 
+flashing fold the motor pull the cable
+
+00:02:56.890 --> 00:03:02.789 
+flashing fold the motor pull the cable
+out<00:02:58.980> and<00:03:00.510> now<00:03:01.510> we<00:03:01.570> should<00:03:02.019> have<00:03:02.230> a<00:03:02.260> pretty<00:03:02.739> good
+
+00:03:02.789 --> 00:03:02.799 
+out and now we should have a pretty good
+
+00:03:02.799 --> 00:03:08.750 
+out and now we should have a pretty good
+brick<00:03:04.079> soft<00:03:05.079> brick
+
+00:03:08.750 --> 00:03:08.760 
+
+00:03:08.760 --> 00:03:11.570 
+
+so<00:03:09.420> we'll<00:03:09.540> take<00:03:09.750> that<00:03:09.959> and<00:03:10.230> we<00:03:11.189> can<00:03:11.370> plug<00:03:11.549> that
+
+00:03:11.570 --> 00:03:11.580 
+so we'll take that and we can plug that
+
+00:03:11.580 --> 00:03:22.800 
+so we'll take that and we can plug that
+in<00:03:12.620> back<00:03:13.620> into<00:03:14.069> our<00:03:14.420> communication<00:03:15.420> device
+
+00:03:22.800 --> 00:03:22.810 
+
+00:03:22.810 --> 00:03:27.180 
+
+and<00:03:22.959> insert<00:03:23.590> the<00:03:23.709> battery
+
+00:03:27.180 --> 00:03:27.190 
+
+00:03:27.190 --> 00:03:30.300 
+
+and<00:03:27.640> you<00:03:28.450> can<00:03:28.600> see<00:03:28.840> what's<00:03:29.530> coming<00:03:29.770> up<00:03:29.980> right
+
+00:03:30.300 --> 00:03:30.310 
+and you can see what's coming up right
+
+00:03:30.310 --> 00:03:36.080 
+and you can see what's coming up right
+here
+
+00:03:36.080 --> 00:03:36.090 
+
+00:03:36.090 --> 00:03:38.449 
+
+basically<00:03:37.019> we<00:03:37.200> know<00:03:37.500> there's<00:03:37.950> a<00:03:38.010> way<00:03:38.190> the
+
+00:03:38.449 --> 00:03:38.459 
+basically we know there's a way the
+
+00:03:38.459 --> 00:03:40.309 
+basically we know there's a way the
+samsung<00:03:38.970> can<00:03:39.120> load<00:03:39.330> up<00:03:39.510> the<00:03:39.629> data<00:03:39.840> onto<00:03:40.200> this
+
+00:03:40.309 --> 00:03:40.319 
+samsung can load up the data onto this
+
+00:03:40.319 --> 00:03:44.059 
+samsung can load up the data onto this
+phone<00:03:40.590> without<00:03:42.349> actually<00:03:43.349> cracking<00:03:43.650> open<00:03:43.890> the
+
+00:03:44.059 --> 00:03:44.069 
+phone without actually cracking open the
+
+00:03:44.069 --> 00:03:51.339 
+phone without actually cracking open the
+case<00:03:44.310> of<00:03:44.519> jtag<00:03:46.819> so<00:03:47.819> it's<00:03:48.000> got<00:03:48.150> to<00:03:48.180> be<00:03:48.360> something
+
+00:03:51.339 --> 00:03:51.349 
+
+00:03:51.349 --> 00:03:53.900 
+
+just<00:03:52.349> one<00:03:52.830> more<00:03:52.980> quick<00:03:53.250> once<00:03:53.459> over<00:03:53.640> on
+
+00:03:53.900 --> 00:03:53.910 
+just one more quick once over on
+
+00:03:53.910 --> 00:03:58.160 
+just one more quick once over on
+hardware<00:03:54.330> I'm<00:03:54.450> using<00:03:55.040> the<00:03:56.540> data<00:03:57.540> plus<00:03:57.900> and
+
+00:03:58.160 --> 00:03:58.170 
+hardware I'm using the data plus and
+
+00:03:58.170 --> 00:04:00.380 
+hardware I'm using the data plus and
+data-<00:03:58.650> lines<00:03:58.950> on<00:03:59.190> the<00:03:59.340> USB<00:03:59.610> are<00:03:59.910> connected<00:04:00.299> to
+
+00:04:00.380 --> 00:04:00.390 
+data- lines on the USB are connected to
+
+00:04:00.390 --> 00:04:03.800 
+data- lines on the USB are connected to
+rxtx<00:04:00.930> one<00:04:01.379> on<00:04:01.650> an<00:04:01.830> Arduino<00:04:02.310> mega<00:04:02.459> the<00:04:03.450> power
+
+00:04:03.800 --> 00:04:03.810 
+rxtx one on an Arduino mega the power
+
+00:04:03.810 --> 00:04:05.990 
+rxtx one on an Arduino mega the power
+and<00:04:04.140> ground<00:04:04.319> are<00:04:04.590> connected<00:04:05.010> to<00:04:05.220> the<00:04:05.760> 5<00:04:05.970> volt
+
+00:04:05.990 --> 00:04:06.000 
+and ground are connected to the 5 volt
+
+00:04:06.000 --> 00:04:11.240 
+and ground are connected to the 5 volt
+power<00:04:06.480> on<00:04:06.750> ground<00:04:07.019> and<00:04:07.940> now<00:04:08.940> this<00:04:10.190> right<00:04:11.190> here
+
+00:04:11.240 --> 00:04:11.250 
+power on ground and now this right here
+
+00:04:11.250 --> 00:04:14.479 
+power on ground and now this right here
+is<00:04:11.819> just<00:04:12.540> a<00:04:12.630> little<00:04:12.840> jig<00:04:13.079> that<00:04:13.260> I<00:04:13.349> built<00:04:13.590> as<00:04:14.310> you
+
+00:04:14.479 --> 00:04:14.489 
+is just a little jig that I built as you
+
+00:04:14.489 --> 00:04:15.920 
+is just a little jig that I built as you
+can<00:04:14.610> see<00:04:14.760> it's<00:04:15.000> got<00:04:15.090> a<00:04:15.150> bunch<00:04:15.360> of<00:04:15.420> resistors
+
+00:04:15.920 --> 00:04:15.930 
+can see it's got a bunch of resistors
+
+00:04:15.930 --> 00:04:20.360 
+can see it's got a bunch of resistors
+and<00:04:17.239> in<00:04:18.239> parallel<00:04:18.660> I<00:04:19.049> can<00:04:19.470> select<00:04:20.070> which
+
+00:04:20.360 --> 00:04:20.370 
+and in parallel I can select which
+
+00:04:20.370 --> 00:04:23.180 
+and in parallel I can select which
+resistor<00:04:21.000> bank<00:04:21.209> i'm<00:04:21.389> using<00:04:21.720> by<00:04:22.500> changing<00:04:23.100> up
+
+00:04:23.180 --> 00:04:23.190 
+resistor bank i'm using by changing up
+
+00:04:23.190 --> 00:04:25.400 
+resistor bank i'm using by changing up
+the<00:04:23.310> value<00:04:23.520> changing<00:04:24.510> up<00:04:24.600> the<00:04:24.780> microswitches
+
+00:04:25.400 --> 00:04:25.410 
+the value changing up the microswitches
+
+00:04:25.410 --> 00:04:32.540 
+the value changing up the microswitches
+here<00:04:25.650> and<00:04:27.950> these<00:04:30.440> pins<00:04:31.440> right<00:04:31.710> there<00:04:31.950> just
+
+00:04:32.540 --> 00:04:32.550 
+here and these pins right there just
+
+00:04:32.550 --> 00:04:35.120 
+here and these pins right there just
+provide<00:04:32.850> a<00:04:32.880> quick<00:04:33.389> way<00:04:33.539> to<00:04:33.570> access<00:04:34.110> power<00:04:34.919> and
+
+00:04:35.120 --> 00:04:35.130 
+provide a quick way to access power and
+
+00:04:35.130 --> 00:04:37.879 
+provide a quick way to access power and
+ground<00:04:35.280> on<00:04:35.610> the<00:04:36.210> 18<00:04:36.960> mega<00:04:37.169> the<00:04:37.470> resistor
+
+00:04:37.879 --> 00:04:37.889 
+ground on the 18 mega the resistor
+
+00:04:37.889 --> 00:04:39.469 
+ground on the 18 mega the resistor
+values<00:04:38.250> on<00:04:38.430> this<00:04:38.610> which<00:04:38.820> i<00:04:38.970> found<00:04:39.270> actually
+
+00:04:39.469 --> 00:04:39.479 
+values on this which i found actually
+
+00:04:39.479 --> 00:04:47.390 
+values on this which i found actually
+produced<00:04:40.380> the<00:04:40.560> most<00:04:40.800> output<00:04:41.370> are<00:04:42.470> this<00:04:46.220> 150<00:04:47.220> Oh
+
+00:04:47.390 --> 00:04:47.400 
+produced the most output are this 150 Oh
+
+00:04:47.400 --> 00:04:51.230 
+produced the most output are this 150 Oh
+kilo<00:04:48.150> ohm<00:04:48.389> you<00:04:49.139> are<00:04:49.320> cable<00:04:49.740> that's<00:04:50.610> what<00:04:51.090> it's
+
+00:04:51.230 --> 00:04:51.240 
+kilo ohm you are cable that's what it's
+
+00:04:51.240 --> 00:04:54.050 
+kilo ohm you are cable that's what it's
+called<00:04:51.419> by<00:04:51.630> the<00:04:51.690> factory<00:04:52.139> it's<00:04:52.289> a<00:04:52.470> UART<00:04:53.060> 150
+
+00:04:54.050 --> 00:04:54.060 
+called by the factory it's a UART 150
+
+00:04:54.060 --> 00:04:59.420 
+called by the factory it's a UART 150
+kill<00:04:54.240> all<00:04:54.450> between<00:04:54.930> pins<00:04:56.780> 4<00:04:57.780> and<00:04:58.080> 5<00:04:58.349> on<00:04:58.800> the
+
+00:04:59.420 --> 00:04:59.430 
+kill all between pins 4 and 5 on the
+
+00:04:59.430 --> 00:05:03.860 
+kill all between pins 4 and 5 on the
+micro<00:04:59.789> USB<00:05:00.210> cable<00:05:01.130> the<00:05:02.150> 300<00:05:03.150> 1<00:05:03.300> kilo<00:05:03.630> ohm
+
+00:05:03.860 --> 00:05:03.870 
+micro USB cable the 300 1 kilo ohm
+
+00:05:03.870 --> 00:05:07.670 
+micro USB cable the 300 1 kilo ohm
+resistor<00:05:04.440> that<00:05:05.840> that<00:05:06.840> bank<00:05:07.110> will<00:05:07.380> put<00:05:07.590> the
+
+00:05:07.670 --> 00:05:07.680 
+resistor that that bank will put the
+
+00:05:07.680 --> 00:05:09.980 
+resistor that that bank will put the
+phone<00:05:07.860> into<00:05:08.010> download<00:05:08.130> mode<00:05:08.520> if<00:05:09.330> the
+
+00:05:09.980 --> 00:05:09.990 
+phone into download mode if the
+
+00:05:09.990 --> 00:05:14.990 
+phone into download mode if the
+secondary<00:05:10.470> bootloader<00:05:10.950> is<00:05:11.070> active<00:05:12.380> the<00:05:14.000> third
+
+00:05:14.990 --> 00:05:15.000 
+secondary bootloader is active the third
+
+00:05:15.000 --> 00:05:21.909 
+secondary bootloader is active the third
+one<00:05:15.800> would<00:05:16.800> be<00:05:17.539> 619<00:05:18.539> kilohms<00:05:19.139> and<00:05:20.870> this
+
+00:05:21.909 --> 00:05:21.919 
+one would be 619 kilohms and this
+
+00:05:21.919 --> 00:05:24.520 
+one would be 619 kilohms and this
+resistor<00:05:22.919> bank<00:05:23.130> will<00:05:23.669> produce<00:05:24.090> a
+
+00:05:24.520 --> 00:05:24.530 
+resistor bank will produce a
+
+00:05:24.530 --> 00:05:27.950 
+resistor bank will produce a
+significantly<00:05:25.530> different<00:05:26.000> output<00:05:27.000> when
+
+00:05:27.950 --> 00:05:27.960 
+significantly different output when
+
+00:05:27.960 --> 00:05:32.060 
+significantly different output when
+connected<00:05:28.470> up<00:05:28.620> to<00:05:29.430> this<00:05:30.330> phone<00:05:31.039> which<00:05:32.039> is
+
+00:05:32.060 --> 00:05:32.070 
+connected up to this phone which is
+
+00:05:32.070 --> 00:05:34.679 
+connected up to this phone which is
+bricked
+
+00:05:34.679 --> 00:05:34.689 
+
+00:05:34.689 --> 00:05:36.969 
+
+now<00:05:35.689> we're<00:05:36.080> still<00:05:36.259> in<00:05:36.349> the<00:05:36.469> development<00:05:36.889> stage
+
+00:05:36.969 --> 00:05:36.979 
+now we're still in the development stage
+
+00:05:36.979 --> 00:05:39.730 
+now we're still in the development stage
+is<00:05:37.340> here<00:05:37.610> but<00:05:37.870> eventually<00:05:38.870> one<00:05:39.289> day<00:05:39.319> we'll<00:05:39.710> be
+
+00:05:39.730 --> 00:05:39.740 
+is here but eventually one day we'll be
+
+00:05:39.740 --> 00:05:41.469 
+is here but eventually one day we'll be
+able<00:05:39.889> to<00:05:40.069> get<00:05:40.219> these<00:05:40.370> phones<00:05:40.699> back<00:05:40.999> up<00:05:41.270> in
+
+00:05:41.469 --> 00:05:41.479 
+able to get these phones back up in
+
+00:05:41.479 --> 00:05:44.769 
+able to get these phones back up in
+operations<00:05:42.139> without<00:05:42.349> download<00:05:42.979> mode<00:05:43.779> thanks
+
+00:05:44.769 --> 00:05:44.779 
+operations without download mode thanks
+
+00:05:44.779 --> 00:05:47.229 
+operations without download mode thanks
+for<00:05:44.900> watching
+

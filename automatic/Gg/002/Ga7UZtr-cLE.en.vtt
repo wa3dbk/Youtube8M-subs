@@ -1,0 +1,109 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:05.560 --> 00:00:10.330
+This video tutorial will show you how to apply
+texture to your 3D model
+
+00:00:10.330 --> 00:00:14.039
+Let's open a project where texture has not
+yet been applied.
+
+00:00:14.039 --> 00:00:19.060
+Our project consists of several scans and
+one fusion. The texture frames which were
+
+00:00:19.060 --> 00:00:24.199
+captured during the scanning will be used
+in the texturization process. That’s why
+
+00:00:24.199 --> 00:00:28.979
+it is vitally important for the model to be
+aligned with the scans.
+
+00:00:28.980 --> 00:00:32.320
+Simplify the geometry of the model before
+applying texture.
+
+00:00:32.720 --> 00:00:36.780
+Use the Mesh simplification algorithm in the
+Tools panel.
+
+00:00:38.060 --> 00:00:43.750
+Now our 3D model consists of the optimal number
+of polygons, simplification was done without
+
+00:00:43.750 --> 00:00:46.070
+loss of detailization.
+
+00:00:46.070 --> 00:00:50.970
+So now let's open the Texture panel.
+We'll choose the model from the list above.
+
+00:00:50.970 --> 00:00:55.800
+In the lower section we choose the scans that
+the model was created from. Please note that
+
+00:00:55.800 --> 00:01:02.010
+the model and the scans must be aligned.
+There are two main modes of texturing: atlas
+
+00:01:02.010 --> 00:01:08.560
+or triangles maps. They differ in how the
+texture data is stored. Let’s choose Atlas.
+
+00:01:08.560 --> 00:01:12.700
+Now we click on Apply and wait until the process
+has finished.
+
+00:01:12.700 --> 00:01:17.899
+Once that is done, we can adjust Brightness,
+Contrast and other parameters of the texture.
+
+00:01:17.899 --> 00:01:23.880
+Sometimes it is useful to switch off the Lightening
+in 3D Control to evaluate the quality and
+
+00:01:23.880 --> 00:01:29.549
+smoothness of the texture.
+Let’s see the result - the algorithm divided
+
+00:01:29.549 --> 00:01:34.299
+the surface into the minimal number of the
+correlating parts.
+
+00:01:34.320 --> 00:01:37.400
+Now let’s choose the other way of texture
+mapping.
+
+00:01:37.400 --> 00:01:41.080
+Choose texture size.
+Below is the number of textures which will
+
+00:01:41.090 --> 00:01:44.189
+be generated.
+Click on Apply.
+
+00:01:44.189 --> 00:01:49.801
+The Triangles map method creates multiple
+texture files that consist of many colored triangles.
+
+00:01:52.560 --> 00:01:55.680
+The other option in the Scan panel (Use existing
+
+00:01:55.689 --> 00:02:00.859
+atlas UV)
+is meant not for UV unwrapping but for changing
+
+00:02:00.859 --> 00:02:03.740
+texture resolution.
+There is only one step here.
+
+00:02:03.740 --> 00:02:09.000
+This is useful when you want to increase or
+decrease the resolution of existing texture.
+
+00:02:11.320 --> 00:02:13.980
+And that’s it! Happy texturizing!
+

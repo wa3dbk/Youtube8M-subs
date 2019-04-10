@@ -1,0 +1,166 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.400
+ Good all day 
+
+00:00:01.890 --> 00:00:08.790
+ connecting the stepper motor to the axis at 
+
+00:00:05.400 --> 00:00:10.880
+ help module on pc f80 574 
+
+00:00:08.790 --> 00:00:13.700
+ about which I told in the past video 
+
+00:00:10.880 --> 00:00:17.310
+ here I own the module itself and 
+
+00:00:13.700 --> 00:00:21.539
+ all arduins connected to this driver 
+
+00:00:17.310 --> 00:00:22.830
+ on l293d redone of bipolar this 
+
+00:00:21.539 --> 00:00:24.810
+ chinese stepper motor 
+
+00:00:22.830 --> 00:00:27.390
+ I do not remember how it is called correctly 
+
+00:00:24.810 --> 00:00:29.699
+ and accordingly the code will be for 
+
+00:00:27.390 --> 00:00:32.210
+ bipolar engines then bershka 
+
+00:00:29.699 --> 00:00:35.130
+ I mean, which works in four cycles 
+
+00:00:32.210 --> 00:00:36.180
+ by the way so this can be seen in 
+
+00:00:35.130 --> 00:00:44.250
+ the st-pier library 
+
+00:00:36.180 --> 00:00:46.230
+ and so here it is but it looks like it is 
+
+00:00:44.250 --> 00:00:49.530
+ the beginning of the winding is included in one 
+
+00:00:46.230 --> 00:00:53.210
+ direction with one polarity then on 
+
+00:00:49.530 --> 00:00:55.890
+ one coil polarity is changing 
+
+00:00:53.210 --> 00:00:58.309
+ changing to another well and so actually 
+
+00:00:55.890 --> 00:00:58.309
+ round 
+
+00:00:59.170 --> 00:01:02.859
+ need these bits 
+
+00:01:06.340 --> 00:01:10.390
+ I think you need to first force the engine 
+
+00:01:08.289 --> 00:01:13.149
+ work only act than what will be needed 
+
+00:01:10.390 --> 00:01:15.340
+ make will need to make an array of 
+
+00:01:13.149 --> 00:01:19.000
+ four bytes in which will lie 
+
+00:01:15.340 --> 00:01:23.759
+ such here it is bits and we will send by 
+
+00:01:19.000 --> 00:01:23.759
+ Queue at the port under your 85 74 
+
+00:01:30.380 --> 00:01:35.829
+ and now you need these measures and in turn 
+
+00:01:32.930 --> 00:01:35.829
+ toss into the port 
+
+00:01:41.979 --> 00:01:45.909
+ controllable sense bytes 
+
+00:01:43.900 --> 00:01:47.610
+ you 
+
+00:01:45.909 --> 00:01:49.830
+ and waiting 
+
+00:01:47.610 --> 00:01:54.170
+ and seconds we load see what 
+
+00:01:49.830 --> 00:01:54.170
+ it turned out to be a mistake 
+
+00:02:09.569 --> 00:02:13.079
+ but to turn the other side you need 
+
+00:02:11.340 --> 00:02:16.139
+ just run this counter in reverse 
+
+00:02:13.079 --> 00:02:19.010
+ direction and I think the department is better 
+
+00:02:16.139 --> 00:02:19.010
+ arrange function 
+
+00:02:20.040 --> 00:02:23.850
+ function will be passed 
+
+00:02:24.840 --> 00:02:31.110
+ fat rate 
+
+00:02:31.430 --> 00:02:35.319
+ and the direction of rotation 
+
+00:02:43.890 --> 00:02:47.520
+ hung programs to record from the screen 
+
+00:02:45.450 --> 00:02:50.150
+ general this function is working 
+
+00:02:47.520 --> 00:02:54.030
+ the function comes the number of steps 
+
+00:02:50.150 --> 00:02:57.410
+ rotation speed and direction known 
+
+00:02:54.030 --> 00:03:00.360
+ if danits came here artur twist cycle 
+
+00:02:57.410 --> 00:03:01.830
+ specified number of steps in the loop body 
+
+00:03:00.360 --> 00:03:03.540
+ send to enter the port 
+
+00:03:01.830 --> 00:03:09.870
+ we are waiting for a certain amount 
+
+00:03:03.540 --> 00:03:13.680
+ milliseconds if came 0 let 's do everything 
+
+00:03:09.870 --> 00:03:18.450
+ the same is only turning the motor and cycle in 
+
+00:03:13.680 --> 00:03:20.780
+ the reverse direction in the loop is calling 
+
+00:03:18.450 --> 00:03:20.780
+ this function 
+
+00:03:31.819 --> 00:03:36.249
+ Thank you all for your attention. 
+

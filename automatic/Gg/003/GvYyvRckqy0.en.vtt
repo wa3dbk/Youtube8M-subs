@@ -1,0 +1,792 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.730 
+
+hello<00:00:00.750> everyone<00:00:01.140> and<00:00:01.170> welcome<00:00:01.290> to<00:00:01.530> this
+
+00:00:01.730 --> 00:00:01.740 
+hello everyone and welcome to this
+
+00:00:01.740 --> 00:00:03.679 
+hello everyone and welcome to this
+week's<00:00:01.979> gains<00:00:02.280> of<00:00:02.490> element<00:00:02.790> long<00:00:02.939> video<00:00:03.300> diary
+
+00:00:03.679 --> 00:00:03.689 
+week's gains of element long video diary
+
+00:00:03.689 --> 00:00:05.570 
+week's gains of element long video diary
+and<00:00:04.110> this<00:00:04.500> week<00:00:04.680> I've<00:00:04.890> been<00:00:04.920> implementing
+
+00:00:05.570 --> 00:00:05.580 
+and this week I've been implementing
+
+00:00:05.580 --> 00:00:07.940 
+and this week I've been implementing
+support<00:00:05.970> for<00:00:06.180> enchanted<00:00:06.839> items<00:00:07.200> as<00:00:07.649> well<00:00:07.830> as
+
+00:00:07.940 --> 00:00:07.950 
+support for enchanted items as well as
+
+00:00:07.950 --> 00:00:09.890 
+support for enchanted items as well as
+adding<00:00:08.130> a<00:00:08.309> couple<00:00:08.639> of<00:00:08.730> new<00:00:08.910> mobs<00:00:09.300> into<00:00:09.809> the
+
+00:00:09.890 --> 00:00:09.900 
+adding a couple of new mobs into the
+
+00:00:09.900 --> 00:00:12.799 
+adding a couple of new mobs into the
+game<00:00:10.519> but<00:00:11.519> first<00:00:11.940> off<00:00:12.150> I<00:00:12.330> want<00:00:12.509> to<00:00:12.570> show<00:00:12.660> you
+
+00:00:12.799 --> 00:00:12.809 
+game but first off I want to show you
+
+00:00:12.809 --> 00:00:14.629 
+game but first off I want to show you
+the<00:00:12.990> icon<00:00:13.440> particle<00:00:13.980> effects<00:00:14.370> that<00:00:14.549> I
+
+00:00:14.629 --> 00:00:14.639 
+the icon particle effects that I
+
+00:00:14.639 --> 00:00:16.580 
+the icon particle effects that I
+mentioned<00:00:15.030> briefly<00:00:15.240> last<00:00:15.719> time<00:00:16.020> because<00:00:16.379> this
+
+00:00:16.580 --> 00:00:16.590 
+mentioned briefly last time because this
+
+00:00:16.590 --> 00:00:18.529 
+mentioned briefly last time because this
+week<00:00:16.800> I<00:00:16.980> improved<00:00:17.369> the<00:00:17.490> system<00:00:17.730> and<00:00:18.090> finished
+
+00:00:18.529 --> 00:00:18.539 
+week I improved the system and finished
+
+00:00:18.539 --> 00:00:21.439 
+week I improved the system and finished
+implementing<00:00:19.080> them<00:00:19.380> so<00:00:20.310> I<00:00:20.520> can<00:00:20.730> now<00:00:20.910> set<00:00:21.180> any
+
+00:00:21.439 --> 00:00:21.449 
+implementing them so I can now set any
+
+00:00:21.449 --> 00:00:23.990 
+implementing them so I can now set any
+icon<00:00:21.990> to<00:00:22.140> emit<00:00:22.410> particles<00:00:22.710> and<00:00:23.310> when<00:00:23.850> I<00:00:23.880> do
+
+00:00:23.990 --> 00:00:24.000 
+icon to emit particles and when I do
+
+00:00:24.000 --> 00:00:25.820 
+icon to emit particles and when I do
+that<00:00:24.269> the<00:00:24.480> icon<00:00:24.810> will<00:00:24.990> start<00:00:25.260> to<00:00:25.410> randomly
+
+00:00:25.820 --> 00:00:25.830 
+that the icon will start to randomly
+
+00:00:25.830 --> 00:00:29.750 
+that the icon will start to randomly
+generate<00:00:26.460> 2d<00:00:26.849> quads<00:00:27.480> like<00:00:28.050> this<00:00:28.519> the<00:00:29.519> quads
+
+00:00:29.750 --> 00:00:29.760 
+generate 2d quads like this the quads
+
+00:00:29.760 --> 00:00:31.970 
+generate 2d quads like this the quads
+are<00:00:29.970> then<00:00:30.090> textured<00:00:30.630> using<00:00:30.960> a<00:00:31.050> texture<00:00:31.500> Atlas
+
+00:00:31.970 --> 00:00:31.980 
+are then textured using a texture Atlas
+
+00:00:31.980 --> 00:00:34.040 
+are then textured using a texture Atlas
+and<00:00:32.189> the<00:00:32.820> particle<00:00:33.239> fades<00:00:33.450> linearly<00:00:33.930> through
+
+00:00:34.040 --> 00:00:34.050 
+and the particle fades linearly through
+
+00:00:34.050 --> 00:00:36.049 
+and the particle fades linearly through
+all<00:00:34.559> the<00:00:34.710> different<00:00:35.040> stages<00:00:35.219> of<00:00:35.550> the<00:00:35.730> Atlas
+
+00:00:36.049 --> 00:00:36.059 
+all the different stages of the Atlas
+
+00:00:36.059 --> 00:00:38.869 
+all the different stages of the Atlas
+throughout<00:00:36.600> the<00:00:36.750> particles<00:00:37.200> life<00:00:37.469> I<00:00:37.800> can<00:00:38.730> also
+
+00:00:38.869 --> 00:00:38.879 
+throughout the particles life I can also
+
+00:00:38.879 --> 00:00:40.400 
+throughout the particles life I can also
+choose<00:00:39.149> how<00:00:39.210> many<00:00:39.600> particles<00:00:39.989> are<00:00:40.320> emitted
+
+00:00:40.400 --> 00:00:40.410 
+choose how many particles are emitted
+
+00:00:40.410 --> 00:00:43.729 
+choose how many particles are emitted
+per<00:00:40.890> second<00:00:41.550> I<00:00:41.850> can<00:00:42.780> choose<00:00:42.930> how<00:00:43.140> large<00:00:43.379> or
+
+00:00:43.729 --> 00:00:43.739 
+per second I can choose how large or
+
+00:00:43.739 --> 00:00:46.639 
+per second I can choose how large or
+small<00:00:44.160> the<00:00:44.190> particles<00:00:44.789> are<00:00:44.969> and<00:00:45.320> how<00:00:46.320> long
+
+00:00:46.639 --> 00:00:46.649 
+small the particles are and how long
+
+00:00:46.649 --> 00:00:50.000 
+small the particles are and how long
+they<00:00:46.890> stay<00:00:47.190> alive<00:00:47.340> for<00:00:48.200> so<00:00:49.200> I<00:00:49.410> created<00:00:49.800> these
+
+00:00:50.000 --> 00:00:50.010 
+they stay alive for so I created these
+
+00:00:50.010 --> 00:00:51.889 
+they stay alive for so I created these
+icon<00:00:50.370> effects<00:00:50.730> for<00:00:50.850> the<00:00:50.969> enchanting<00:00:51.600> update
+
+00:00:51.889 --> 00:00:51.899 
+icon effects for the enchanting update
+
+00:00:51.899 --> 00:00:53.630 
+icon effects for the enchanting update
+that<00:00:52.079> I<00:00:52.170> worked<00:00:52.379> on<00:00:52.559> this<00:00:52.680> week<00:00:52.920> so<00:00:53.399> that<00:00:53.550> I
+
+00:00:53.630 --> 00:00:53.640 
+that I worked on this week so that I
+
+00:00:53.640 --> 00:00:55.130 
+that I worked on this week so that I
+could<00:00:53.850> use<00:00:53.879> the<00:00:54.239> particle<00:00:54.570> effects<00:00:55.050> to
+
+00:00:55.130 --> 00:00:55.140 
+could use the particle effects to
+
+00:00:55.140 --> 00:00:57.110 
+could use the particle effects to
+indicate<00:00:55.620> when<00:00:55.920> an<00:00:56.070> item<00:00:56.219> has<00:00:56.610> a<00:00:56.640> certain
+
+00:00:57.110 --> 00:00:57.120 
+indicate when an item has a certain
+
+00:00:57.120 --> 00:00:57.979 
+indicate when an item has a certain
+enchantment
+
+00:00:57.979 --> 00:00:57.989 
+enchantment
+
+00:00:57.989 --> 00:01:00.380 
+enchantment
+I<00:00:58.109> haven't<00:00:59.070> actually<00:00:59.250> added<00:00:59.550> the<00:00:59.789> mechanics
+
+00:01:00.380 --> 00:01:00.390 
+I haven't actually added the mechanics
+
+00:01:00.390 --> 00:01:02.540 
+I haven't actually added the mechanics
+for<00:01:00.539> enchanting<00:01:01.170> weapons<00:01:01.469> and<00:01:01.620> armor<00:01:01.859> yet<00:01:02.039> but
+
+00:01:02.540 --> 00:01:02.550 
+for enchanting weapons and armor yet but
+
+00:01:02.550 --> 00:01:04.700 
+for enchanting weapons and armor yet but
+I<00:01:02.579> have<00:01:02.850> implemented<00:01:03.300> support<00:01:03.870> for<00:01:04.170> enchanted
+
+00:01:04.700 --> 00:01:04.710 
+I have implemented support for enchanted
+
+00:01:04.710 --> 00:01:07.580 
+I have implemented support for enchanted
+items<00:01:05.159> you<00:01:06.090> can<00:01:06.330> now<00:01:06.479> mouse<00:01:06.720> over<00:01:07.020> an<00:01:07.110> item<00:01:07.260> to
+
+00:01:07.580 --> 00:01:07.590 
+items you can now mouse over an item to
+
+00:01:07.590 --> 00:01:10.010 
+items you can now mouse over an item to
+see<00:01:07.740> what<00:01:07.860> enchantments<00:01:08.610> it<00:01:08.700> has<00:01:08.880> so<00:01:09.540> here<00:01:09.900> you
+
+00:01:10.010 --> 00:01:10.020 
+see what enchantments it has so here you
+
+00:01:10.020 --> 00:01:12.050 
+see what enchantments it has so here you
+can<00:01:10.170> see<00:01:10.380> that<00:01:10.590> this<00:01:10.710> sword<00:01:11.010> has<00:01:11.130> sharpness
+
+00:01:12.050 --> 00:01:12.060 
+can see that this sword has sharpness
+
+00:01:12.060 --> 00:01:14.780 
+can see that this sword has sharpness
+and<00:01:12.240> life<00:01:12.960> SAP<00:01:13.260> there<00:01:14.130> are<00:01:14.250> also<00:01:14.369> five
+
+00:01:14.780 --> 00:01:14.790 
+and life SAP there are also five
+
+00:01:14.790 --> 00:01:16.910 
+and life SAP there are also five
+different<00:01:15.270> tiers<00:01:15.600> of<00:01:15.869> enchantments<00:01:16.530> so
+
+00:01:16.910 --> 00:01:16.920 
+different tiers of enchantments so
+
+00:01:16.920 --> 00:01:18.260 
+different tiers of enchantments so
+eventually<00:01:17.460> you'll<00:01:17.610> actually<00:01:17.759> be<00:01:17.939> able<00:01:18.030> to
+
+00:01:18.260 --> 00:01:18.270 
+eventually you'll actually be able to
+
+00:01:18.270 --> 00:01:20.300 
+eventually you'll actually be able to
+upgrade<00:01:18.810> the<00:01:19.020> enchants<00:01:19.409> on<00:01:19.619> your<00:01:19.770> items<00:01:20.100> and
+
+00:01:20.300 --> 00:01:20.310 
+upgrade the enchants on your items and
+
+00:01:20.310 --> 00:01:22.100 
+upgrade the enchants on your items and
+you<00:01:20.970> can<00:01:21.119> see<00:01:21.240> the<00:01:21.360> different<00:01:21.689> tiers<00:01:21.900> of
+
+00:01:22.100 --> 00:01:22.110 
+you can see the different tiers of
+
+00:01:22.110 --> 00:01:23.749 
+you can see the different tiers of
+enchantments<00:01:22.770> shown<00:01:23.009> in<00:01:23.220> slightly<00:01:23.580> different
+
+00:01:23.749 --> 00:01:23.759 
+enchantments shown in slightly different
+
+00:01:23.759 --> 00:01:26.179 
+enchantments shown in slightly different
+colors<00:01:24.509> here<00:01:24.689> with<00:01:25.290> the<00:01:25.560> higher<00:01:25.830> level
+
+00:01:26.179 --> 00:01:26.189 
+colors here with the higher level
+
+00:01:26.189 --> 00:01:28.219 
+colors here with the higher level
+enchantments<00:01:26.820> being<00:01:27.030> a<00:01:27.299> darker<00:01:27.780> shade<00:01:27.990> of
+
+00:01:28.219 --> 00:01:28.229 
+enchantments being a darker shade of
+
+00:01:28.229 --> 00:01:30.740 
+enchantments being a darker shade of
+purple<00:01:28.530> and<00:01:29.280> I<00:01:29.850> know<00:01:29.909> it's<00:01:30.119> a<00:01:30.180> bit<00:01:30.390> tricky<00:01:30.720> to
+
+00:01:30.740 --> 00:01:30.750 
+purple and I know it's a bit tricky to
+
+00:01:30.750 --> 00:01:32.330 
+purple and I know it's a bit tricky to
+read<00:01:31.049> right<00:01:31.229> now<00:01:31.259> but<00:01:31.619> I<00:01:31.650> will<00:01:31.860> get<00:01:32.009> round<00:01:32.250> to
+
+00:01:32.330 --> 00:01:32.340 
+read right now but I will get round to
+
+00:01:32.340 --> 00:01:34.609 
+read right now but I will get round to
+redoing<00:01:32.820> the<00:01:33.060> text<00:01:33.360> rendering<00:01:33.689> system<00:01:34.110> fairly
+
+00:01:34.609 --> 00:01:34.619 
+redoing the text rendering system fairly
+
+00:01:34.619 --> 00:01:37.660 
+redoing the text rendering system fairly
+soon<00:01:35.329> each<00:01:36.329> item<00:01:36.780> can<00:01:36.990> have<00:01:37.140> up<00:01:37.290> to<00:01:37.320> three
+
+00:01:37.660 --> 00:01:37.670 
+soon each item can have up to three
+
+00:01:37.670 --> 00:01:40.249 
+soon each item can have up to three
+enchantments<00:01:38.670> and<00:01:38.820> each<00:01:39.180> enchantments<00:01:40.110> can
+
+00:01:40.249 --> 00:01:40.259 
+enchantments and each enchantments can
+
+00:01:40.259 --> 00:01:42.950 
+enchantments and each enchantments can
+have<00:01:40.439> its<00:01:40.590> own<00:01:40.740> icon<00:01:41.250> particle<00:01:41.790> effect<00:01:42.060> so
+
+00:01:42.950 --> 00:01:42.960 
+have its own icon particle effect so
+
+00:01:42.960 --> 00:01:45.020 
+have its own icon particle effect so
+these<00:01:43.110> boots<00:01:43.350> here<00:01:43.649> have<00:01:43.979> super<00:01:44.520> speed<00:01:44.759> and
+
+00:01:45.020 --> 00:01:45.030 
+these boots here have super speed and
+
+00:01:45.030 --> 00:01:46.639 
+these boots here have super speed and
+you<00:01:45.420> can<00:01:45.540> see<00:01:45.689> that<00:01:45.840> for<00:01:45.990> now<00:01:46.110> it<00:01:46.290> has<00:01:46.470> this
+
+00:01:46.639 --> 00:01:46.649 
+you can see that for now it has this
+
+00:01:46.649 --> 00:01:49.219 
+you can see that for now it has this
+sparkly<00:01:47.250> particle<00:01:47.729> effect<00:01:48.030> these<00:01:48.869> boots<00:01:49.079> over
+
+00:01:49.219 --> 00:01:49.229 
+sparkly particle effect these boots over
+
+00:01:49.229 --> 00:01:51.830 
+sparkly particle effect these boots over
+here<00:01:49.530> have<00:01:49.860> jumped<00:01:50.340> boost<00:01:50.579> but<00:01:51.420> these<00:01:51.600> boots
+
+00:01:51.830 --> 00:01:51.840 
+here have jumped boost but these boots
+
+00:01:51.840 --> 00:01:53.960 
+here have jumped boost but these boots
+here<00:01:52.140> have<00:01:52.470> both<00:01:52.799> of<00:01:52.829> those<00:01:53.159> enchantments<00:01:53.880> and
+
+00:01:53.960 --> 00:01:53.970 
+here have both of those enchantments and
+
+00:01:53.970 --> 00:01:56.330 
+here have both of those enchantments and
+so<00:01:54.450> the<00:01:54.570> icon<00:01:54.960> shows<00:01:55.259> both<00:01:55.590> of<00:01:55.770> the<00:01:55.890> particle
+
+00:01:56.330 --> 00:01:56.340 
+so the icon shows both of the particle
+
+00:01:56.340 --> 00:01:57.200 
+so the icon shows both of the particle
+effects
+
+00:01:57.200 --> 00:01:57.210 
+effects
+
+00:01:57.210 --> 00:01:59.240 
+effects
+and<00:01:57.299> these<00:01:57.840> enchantments<00:01:58.500> do<00:01:58.650> actually<00:01:59.010> work
+
+00:01:59.240 --> 00:01:59.250 
+and these enchantments do actually work
+
+00:01:59.250 --> 00:02:01.580 
+and these enchantments do actually work
+as<00:01:59.490> well<00:01:59.729> so<00:02:00.240> if<00:02:00.360> I<00:02:00.479> wear<00:02:00.720> these<00:02:00.869> boots<00:02:01.110> you<00:02:01.290> can
+
+00:02:01.580 --> 00:02:01.590 
+as well so if I wear these boots you can
+
+00:02:01.590 --> 00:02:04.370 
+as well so if I wear these boots you can
+now<00:02:01.740> see<00:02:01.979> that<00:02:02.010> I<00:02:02.250> move<00:02:02.490> at<00:02:02.700> SuperSpeed<00:02:03.420> and<00:02:03.900> I
+
+00:02:04.370 --> 00:02:04.380 
+now see that I move at SuperSpeed and I
+
+00:02:04.380 --> 00:02:07.820 
+now see that I move at SuperSpeed and I
+can<00:02:04.530> jump<00:02:04.799> unreasonably<00:02:05.760> high<00:02:06.530> another<00:02:07.530> small
+
+00:02:07.820 --> 00:02:07.830 
+can jump unreasonably high another small
+
+00:02:07.830 --> 00:02:09.469 
+can jump unreasonably high another small
+little<00:02:08.160> feature<00:02:08.399> that<00:02:08.670> I<00:02:08.759> implemented<00:02:09.179> this
+
+00:02:09.469 --> 00:02:09.479 
+little feature that I implemented this
+
+00:02:09.479 --> 00:02:11.600 
+little feature that I implemented this
+week<00:02:09.750> was<00:02:10.020> personalizing<00:02:11.009> the<00:02:11.130> names<00:02:11.370> of
+
+00:02:11.600 --> 00:02:11.610 
+week was personalizing the names of
+
+00:02:11.610 --> 00:02:14.479 
+week was personalizing the names of
+items<00:02:12.150> again<00:02:13.110> I<00:02:13.440> haven't<00:02:13.650> added<00:02:14.069> the<00:02:14.190> actual
+
+00:02:14.479 --> 00:02:14.489 
+items again I haven't added the actual
+
+00:02:14.489 --> 00:02:15.979 
+items again I haven't added the actual
+mechanics<00:02:14.970> of<00:02:15.060> this<00:02:15.239> into<00:02:15.480> the<00:02:15.569> game<00:02:15.750> quite
+
+00:02:15.979 --> 00:02:15.989 
+mechanics of this into the game quite
+
+00:02:15.989 --> 00:02:17.960 
+mechanics of this into the game quite
+yet<00:02:16.260> but<00:02:16.890> items<00:02:17.250> can<00:02:17.489> now<00:02:17.670> be<00:02:17.819> given
+
+00:02:17.960 --> 00:02:17.970 
+yet but items can now be given
+
+00:02:17.970 --> 00:02:20.390 
+yet but items can now be given
+personalized<00:02:18.840> names<00:02:19.290> like<00:02:19.860> these<00:02:20.069> three
+
+00:02:20.390 --> 00:02:20.400 
+personalized names like these three
+
+00:02:20.400 --> 00:02:22.850 
+personalized names like these three
+shadow<00:02:20.700> swords<00:02:21.180> here<00:02:21.480> it<00:02:22.380> doesn't<00:02:22.739> really
+
+00:02:22.850 --> 00:02:22.860 
+shadow swords here it doesn't really
+
+00:02:22.860 --> 00:02:24.650 
+shadow swords here it doesn't really
+change<00:02:22.920> much<00:02:23.400> and<00:02:23.640> the<00:02:23.850> personalized<00:02:24.390> name
+
+00:02:24.650 --> 00:02:24.660 
+change much and the personalized name
+
+00:02:24.660 --> 00:02:26.479 
+change much and the personalized name
+will<00:02:24.900> only<00:02:25.050> show<00:02:25.380> up<00:02:25.530> for<00:02:25.739> the<00:02:25.860> owner<00:02:26.100> of<00:02:26.280> the
+
+00:02:26.479 --> 00:02:26.489 
+will only show up for the owner of the
+
+00:02:26.489 --> 00:02:28.580 
+will only show up for the owner of the
+item<00:02:26.819> so<00:02:27.270> when<00:02:27.420> you<00:02:27.540> sell<00:02:27.810> it<00:02:27.930> in<00:02:28.050> a<00:02:28.140> shop<00:02:28.380> or
+
+00:02:28.580 --> 00:02:28.590 
+item so when you sell it in a shop or
+
+00:02:28.590 --> 00:02:29.780 
+item so when you sell it in a shop or
+trade<00:02:28.920> it<00:02:29.040> with<00:02:29.160> someone<00:02:29.430> else
+
+00:02:29.780 --> 00:02:29.790 
+trade it with someone else
+
+00:02:29.790 --> 00:02:31.400 
+trade it with someone else
+it<00:02:29.970> will<00:02:30.150> just<00:02:30.300> have<00:02:30.480> the<00:02:30.510> original<00:02:31.050> items
+
+00:02:31.400 --> 00:02:31.410 
+it will just have the original items
+
+00:02:31.410 --> 00:02:34.040 
+it will just have the original items
+name<00:02:31.709> for<00:02:31.980> them<00:02:32.180> it's<00:02:33.180> a<00:02:33.239> probably<00:02:33.570> cost<00:02:33.870> a
+
+00:02:34.040 --> 00:02:34.050 
+name for them it's a probably cost a
+
+00:02:34.050 --> 00:02:36.050 
+name for them it's a probably cost a
+fair<00:02:34.230> amount<00:02:34.560> of<00:02:34.650> materials<00:02:35.340> or<00:02:35.519> coins<00:02:35.850> or
+
+00:02:36.050 --> 00:02:36.060 
+fair amount of materials or coins or
+
+00:02:36.060 --> 00:02:38.150 
+fair amount of materials or coins or
+something<00:02:36.360> to<00:02:36.480> rename<00:02:36.810> your<00:02:37.019> items<00:02:37.500> so<00:02:38.040> it
+
+00:02:38.150 --> 00:02:38.160 
+something to rename your items so it
+
+00:02:38.160 --> 00:02:39.259 
+something to rename your items so it
+wouldn't<00:02:38.430> be<00:02:38.489> something<00:02:38.850> that<00:02:38.970> you<00:02:39.090> can<00:02:39.239> just
+
+00:02:39.259 --> 00:02:39.269 
+wouldn't be something that you can just
+
+00:02:39.269 --> 00:02:41.210 
+wouldn't be something that you can just
+do<00:02:39.600> whenever<00:02:39.840> you<00:02:40.110> want<00:02:40.380> it<00:02:40.920> would<00:02:41.100> be
+
+00:02:41.210 --> 00:02:41.220 
+do whenever you want it would be
+
+00:02:41.220 --> 00:02:42.680 
+do whenever you want it would be
+something<00:02:41.459> that<00:02:41.580> you'd<00:02:41.820> save<00:02:42.090> for<00:02:42.330> only<00:02:42.480> your
+
+00:02:42.680 --> 00:02:42.690 
+something that you'd save for only your
+
+00:02:42.690 --> 00:02:46.340 
+something that you'd save for only your
+best<00:02:42.989> weapons<00:02:43.440> and<00:02:43.620> armor<00:02:44.010> and<00:02:44.900> finally<00:02:45.900> last
+
+00:02:46.340 --> 00:02:46.350 
+best weapons and armor and finally last
+
+00:02:46.350 --> 00:02:48.320 
+best weapons and armor and finally last
+weekend<00:02:46.769> I<00:02:46.920> released<00:02:47.280> the<00:02:47.489> list<00:02:47.670> of<00:02:47.850> mobs<00:02:48.120> and
+
+00:02:48.320 --> 00:02:48.330 
+weekend I released the list of mobs and
+
+00:02:48.330 --> 00:02:50.509 
+weekend I released the list of mobs and
+animations<00:02:49.050> and<00:02:49.290> a<00:02:49.650> load<00:02:49.830> of<00:02:49.980> you<00:02:50.100> guys<00:02:50.280> have
+
+00:02:50.509 --> 00:02:50.519 
+animations and a load of you guys have
+
+00:02:50.519 --> 00:02:52.340 
+animations and a load of you guys have
+already<00:02:50.640> started<00:02:51.330> creating<00:02:51.810> some<00:02:52.140> of<00:02:52.260> these
+
+00:02:52.340 --> 00:02:52.350 
+already started creating some of these
+
+00:02:52.350 --> 00:02:54.949 
+already started creating some of these
+mobs<00:02:52.650> for<00:02:52.860> the<00:02:52.950> game<00:02:53.220> which<00:02:53.519> is<00:02:53.700> fantastic<00:02:53.959> and
+
+00:02:54.949 --> 00:02:54.959 
+mobs for the game which is fantastic and
+
+00:02:54.959 --> 00:02:56.690 
+mobs for the game which is fantastic and
+I<00:02:55.290> can<00:02:55.410> already<00:02:55.590> show<00:02:55.860> you<00:02:55.920> guys<00:02:56.160> two<00:02:56.489> of<00:02:56.519> the
+
+00:02:56.690 --> 00:02:56.700 
+I can already show you guys two of the
+
+00:02:56.700 --> 00:02:58.490 
+I can already show you guys two of the
+new<00:02:56.880> mobs<00:02:57.090> that<00:02:57.300> I<00:02:57.420> added<00:02:57.750> into<00:02:58.019> the<00:02:58.110> game<00:02:58.319> this
+
+00:02:58.490 --> 00:02:58.500 
+new mobs that I added into the game this
+
+00:02:58.500 --> 00:03:00.559 
+new mobs that I added into the game this
+week<00:02:58.739> both<00:02:59.310> of<00:02:59.489> which<00:02:59.640> were<00:02:59.910> created<00:03:00.120> and
+
+00:03:00.559 --> 00:03:00.569 
+week both of which were created and
+
+00:03:00.569 --> 00:03:04.009 
+week both of which were created and
+animated<00:03:01.350> by<00:03:01.380> Christopher<00:03:02.070> Yubel<00:03:02.570> so<00:03:03.570> this<00:03:03.870> is
+
+00:03:04.009 --> 00:03:04.019 
+animated by Christopher Yubel so this is
+
+00:03:04.019 --> 00:03:06.020 
+animated by Christopher Yubel so this is
+the<00:03:04.140> first<00:03:04.380> of<00:03:04.530> the<00:03:04.590> two<00:03:04.860> mobs<00:03:05.130> the<00:03:05.430> skeleton
+
+00:03:06.020 --> 00:03:06.030 
+the first of the two mobs the skeleton
+
+00:03:06.030 --> 00:03:08.600 
+the first of the two mobs the skeleton
+looking<00:03:06.750> very<00:03:06.959> awesome<00:03:07.380> here<00:03:07.680> and<00:03:07.890> I've<00:03:08.430> got<00:03:08.579> a
+
+00:03:08.600 --> 00:03:08.610 
+looking very awesome here and I've got a
+
+00:03:08.610 --> 00:03:10.280 
+looking very awesome here and I've got a
+couple<00:03:08.850> of<00:03:09.000> them<00:03:09.180> roaming<00:03:09.510> around<00:03:09.750> in<00:03:10.230> the
+
+00:03:10.280 --> 00:03:10.290 
+couple of them roaming around in the
+
+00:03:10.290 --> 00:03:13.610 
+couple of them roaming around in the
+desert<00:03:10.680> and<00:03:11.250> then<00:03:12.180> over<00:03:12.450> here<00:03:12.660> is<00:03:12.870> the<00:03:13.110> second
+
+00:03:13.610 --> 00:03:13.620 
+desert and then over here is the second
+
+00:03:13.620 --> 00:03:15.830 
+desert and then over here is the second
+new<00:03:13.799> mob<00:03:14.040> which<00:03:14.519> is<00:03:14.700> this<00:03:14.850> brilliant<00:03:15.180> giant
+
+00:03:15.830 --> 00:03:15.840 
+new mob which is this brilliant giant
+
+00:03:15.840 --> 00:03:19.520 
+new mob which is this brilliant giant
+spider<00:03:16.290> looking<00:03:17.010> very<00:03:17.250> creepy<00:03:17.760> indeed<00:03:18.500> so<00:03:19.500> a
+
+00:03:19.520 --> 00:03:19.530 
+spider looking very creepy indeed so a
+
+00:03:19.530 --> 00:03:21.470 
+spider looking very creepy indeed so a
+big<00:03:19.739> thanks<00:03:20.040> to<00:03:20.070> Christopher<00:03:20.610> for<00:03:20.820> these<00:03:21.030> mobs
+
+00:03:21.470 --> 00:03:21.480 
+big thanks to Christopher for these mobs
+
+00:03:21.480 --> 00:03:23.270 
+big thanks to Christopher for these mobs
+and<00:03:21.600> hopefully<00:03:22.290> I'll<00:03:22.470> be<00:03:22.500> adding<00:03:22.739> some<00:03:23.070> of<00:03:23.100> the
+
+00:03:23.270 --> 00:03:23.280 
+and hopefully I'll be adding some of the
+
+00:03:23.280 --> 00:03:24.560 
+and hopefully I'll be adding some of the
+other<00:03:23.519> mobs<00:03:23.790> that<00:03:23.880> you<00:03:24.060> guys<00:03:24.269> have<00:03:24.420> been
+
+00:03:24.560 --> 00:03:24.570 
+other mobs that you guys have been
+
+00:03:24.570 --> 00:03:28.310 
+other mobs that you guys have been
+making<00:03:24.720> into<00:03:25.470> the<00:03:25.560> game<00:03:25.739> next<00:03:26.100> week<00:03:27.049> so<00:03:28.049> that
+
+00:03:28.310 --> 00:03:28.320 
+making into the game next week so that
+
+00:03:28.320 --> 00:03:30.110 
+making into the game next week so that
+is<00:03:28.500> it<00:03:28.769> for<00:03:28.829> this<00:03:29.100> week<00:03:29.340> next<00:03:29.730> week<00:03:29.910> is<00:03:30.090> the
+
+00:03:30.110 --> 00:03:30.120 
+is it for this week next week is the
+
+00:03:30.120 --> 00:03:31.460 
+is it for this week next week is the
+last<00:03:30.269> week<00:03:30.570> that<00:03:30.840> I'm<00:03:30.959> going<00:03:31.170> to<00:03:31.230> be<00:03:31.350> working
+
+00:03:31.460 --> 00:03:31.470 
+last week that I'm going to be working
+
+00:03:31.470 --> 00:03:33.410 
+last week that I'm going to be working
+on<00:03:31.769> the<00:03:31.860> weapon<00:03:32.160> and<00:03:32.310> armor<00:03:32.430> system<00:03:32.970> because
+
+00:03:33.410 --> 00:03:33.420 
+on the weapon and armor system because
+
+00:03:33.420 --> 00:03:35.000 
+on the weapon and armor system because
+after<00:03:33.690> that<00:03:33.810> I'm<00:03:34.079> going<00:03:34.260> to<00:03:34.320> get<00:03:34.470> to<00:03:34.620> work<00:03:34.769> on
+
+00:03:35.000 --> 00:03:35.010 
+after that I'm going to get to work on
+
+00:03:35.010 --> 00:03:37.910 
+after that I'm going to get to work on
+the<00:03:35.190> combat<00:03:35.549> system<00:03:35.820> itself<00:03:36.450> as<00:03:37.410> always<00:03:37.739> if
+
+00:03:37.910 --> 00:03:37.920 
+the combat system itself as always if
+
+00:03:37.920 --> 00:03:39.080 
+the combat system itself as always if
+you<00:03:38.010> want<00:03:38.160> to<00:03:38.250> get<00:03:38.370> involved<00:03:38.579> with<00:03:38.880> making
+
+00:03:39.080 --> 00:03:39.090 
+you want to get involved with making
+
+00:03:39.090 --> 00:03:41.210 
+you want to get involved with making
+content<00:03:39.780> for<00:03:39.930> this<00:03:40.019> project<00:03:40.440> then<00:03:40.680> do<00:03:40.829> send<00:03:41.010> me
+
+00:03:41.210 --> 00:03:41.220 
+content for this project then do send me
+
+00:03:41.220 --> 00:03:41.690 
+content for this project then do send me
+an<00:03:41.310> email
+
+00:03:41.690 --> 00:03:41.700 
+an email
+
+00:03:41.700 --> 00:03:43.490 
+an email
+especially<00:03:42.480> if<00:03:42.600> you'd<00:03:42.750> like<00:03:42.930> to<00:03:43.170> do<00:03:43.290> some
+
+00:03:43.490 --> 00:03:43.500 
+especially if you'd like to do some
+
+00:03:43.500 --> 00:03:45.289 
+especially if you'd like to do some
+animating<00:03:44.190> because<00:03:44.489> there<00:03:44.640> are<00:03:44.820> a<00:03:44.850> load<00:03:45.269> of
+
+00:03:45.289 --> 00:03:45.299 
+animating because there are a load of
+
+00:03:45.299 --> 00:03:47.080 
+animating because there are a load of
+mobs<00:03:45.630> that<00:03:45.750> need<00:03:45.989> animations<00:03:46.650> right<00:03:46.859> now
+
+00:03:47.080 --> 00:03:47.090 
+mobs that need animations right now
+
+00:03:47.090 --> 00:03:49.520 
+mobs that need animations right now
+don't<00:03:48.090> forget<00:03:48.329> to<00:03:48.420> follow<00:03:48.660> the<00:03:48.840> game<00:03:49.019> on<00:03:49.260> any
+
+00:03:49.520 --> 00:03:49.530 
+don't forget to follow the game on any
+
+00:03:49.530 --> 00:03:51.920 
+don't forget to follow the game on any
+of<00:03:49.739> my<00:03:49.890> social<00:03:50.190> media<00:03:50.340> pages<00:03:50.940> links<00:03:51.780> are<00:03:51.840> in
+
+00:03:51.920 --> 00:03:51.930 
+of my social media pages links are in
+
+00:03:51.930 --> 00:03:54.140 
+of my social media pages links are in
+the<00:03:51.959> description<00:03:52.590> below<00:03:52.709> but<00:03:53.459> yeah<00:03:53.790> thank<00:03:54.060> you
+
+00:03:54.140 --> 00:03:54.150 
+the description below but yeah thank you
+
+00:03:54.150 --> 00:03:56.180 
+the description below but yeah thank you
+guys<00:03:54.299> very<00:03:54.420> much<00:03:54.840> for<00:03:55.140> watching<00:03:55.230> this<00:03:55.590> video
+
+00:03:56.180 --> 00:03:56.190 
+guys very much for watching this video
+
+00:03:56.190 --> 00:03:58.610 
+guys very much for watching this video
+do<00:03:56.489> subscribe<00:03:56.670> if<00:03:57.209> you<00:03:57.329> haven't<00:03:57.750> already<00:03:57.870> have
+
+00:03:58.610 --> 00:03:58.620 
+do subscribe if you haven't already have
+
+00:03:58.620 --> 00:03:59.430 
+do subscribe if you haven't already have
+an<00:03:58.799> absolutely
+
+00:03:59.430 --> 00:03:59.440 
+an absolutely
+
+00:03:59.440 --> 00:04:01.410 
+an absolutely
+wonderful<00:04:00.010> week<00:04:00.220> and<00:04:00.520> I<00:04:00.790> will<00:04:00.940> see<00:04:01.210> you<00:04:01.270> all
+
+00:04:01.410 --> 00:04:01.420 
+wonderful week and I will see you all
+
+00:04:01.420 --> 00:04:04.290 
+wonderful week and I will see you all
+next<00:04:01.660> time
+

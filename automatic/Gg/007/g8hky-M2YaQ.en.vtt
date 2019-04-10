@@ -1,0 +1,953 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.560 --> 00:00:06.230 
+
+this<00:00:04.560> is<00:00:04.740> mosquito<00:00:05.220> render<00:00:05.609> and<00:00:05.819> unbiased
+
+00:00:06.230 --> 00:00:06.240 
+this is mosquito render and unbiased
+
+00:00:06.240 --> 00:00:08.419 
+this is mosquito render and unbiased
+path<00:00:06.600> tracing<00:00:06.990> in<00:00:07.649> this<00:00:07.859> video<00:00:08.160> we<00:00:08.340> will
+
+00:00:08.419 --> 00:00:08.429 
+path tracing in this video we will
+
+00:00:08.429 --> 00:00:10.310 
+path tracing in this video we will
+discuss<00:00:08.820> how<00:00:08.880> mosquito<00:00:09.510> in<00:00:09.690> their<00:00:09.870> handles
+
+00:00:10.310 --> 00:00:10.320 
+discuss how mosquito in their handles
+
+00:00:10.320 --> 00:00:13.940 
+discuss how mosquito in their handles
+path<00:00:10.980> tracing<00:00:11.870> mosquito<00:00:12.870> Anna<00:00:13.080> is<00:00:13.290> one<00:00:13.620> of<00:00:13.799> the
+
+00:00:13.940 --> 00:00:13.950 
+path tracing mosquito Anna is one of the
+
+00:00:13.950 --> 00:00:16.490 
+path tracing mosquito Anna is one of the
+few<00:00:14.160> GPU<00:00:14.880> runners<00:00:15.269> on<00:00:15.480> the<00:00:15.509> market<00:00:15.960> using
+
+00:00:16.490 --> 00:00:16.500 
+few GPU runners on the market using
+
+00:00:16.500 --> 00:00:18.890 
+few GPU runners on the market using
+physically-based<00:00:17.250> spectral<00:00:18.150> rendering<00:00:18.630> on<00:00:18.840> a
+
+00:00:18.890 --> 00:00:18.900 
+physically-based spectral rendering on a
+
+00:00:18.900 --> 00:00:22.340 
+physically-based spectral rendering on a
+GPU<00:00:19.529> this<00:00:20.250> means<00:00:20.550> colors<00:00:21.420> and<00:00:21.720> lights<00:00:21.990> are
+
+00:00:22.340 --> 00:00:22.350 
+GPU this means colors and lights are
+
+00:00:22.350 --> 00:00:24.890 
+GPU this means colors and lights are
+handled<00:00:23.010> based<00:00:23.519> on<00:00:23.820> their<00:00:24.000> electromagnetic
+
+00:00:24.890 --> 00:00:24.900 
+handled based on their electromagnetic
+
+00:00:24.900 --> 00:00:26.720 
+handled based on their electromagnetic
+wavelengths<00:00:25.500> this<00:00:25.859> is<00:00:26.039> the<00:00:26.160> most<00:00:26.400> accurate
+
+00:00:26.720 --> 00:00:26.730 
+wavelengths this is the most accurate
+
+00:00:26.730 --> 00:00:29.929 
+wavelengths this is the most accurate
+way<00:00:27.029> to<00:00:27.330> calculate<00:00:28.289> light<00:00:29.039> and<00:00:29.340> how<00:00:29.580> it<00:00:29.760> is
+
+00:00:29.929 --> 00:00:29.939 
+way to calculate light and how it is
+
+00:00:29.939 --> 00:00:32.780 
+way to calculate light and how it is
+distributed<00:00:30.210> within<00:00:31.080> the<00:00:31.380> scene<00:00:31.650> however<00:00:32.520> it
+
+00:00:32.780 --> 00:00:32.790 
+distributed within the scene however it
+
+00:00:32.790 --> 00:00:34.910 
+distributed within the scene however it
+still<00:00:33.059> gives<00:00:33.270> you<00:00:33.450> all<00:00:33.660> the<00:00:33.930> flexibility<00:00:34.649> you
+
+00:00:34.910 --> 00:00:34.920 
+still gives you all the flexibility you
+
+00:00:34.920 --> 00:00:37.610 
+still gives you all the flexibility you
+want<00:00:34.950> and<00:00:35.489> ask<00:00:35.640> for<00:00:35.969> as<00:00:36.149> an<00:00:36.300> artist<00:00:36.719> unbiased
+
+00:00:37.610 --> 00:00:37.620 
+want and ask for as an artist unbiased
+
+00:00:37.620 --> 00:00:39.740 
+want and ask for as an artist unbiased
+path<00:00:37.860> tracing<00:00:38.190> gives<00:00:38.760> us<00:00:38.969> several<00:00:39.420> advantages
+
+00:00:39.740 --> 00:00:39.750 
+path tracing gives us several advantages
+
+00:00:39.750 --> 00:00:42.950 
+path tracing gives us several advantages
+over<00:00:40.350> other<00:00:40.800> iners<00:00:41.280> out<00:00:41.520> there<00:00:41.760> one<00:00:42.750> big
+
+00:00:42.950 --> 00:00:42.960 
+over other iners out there one big
+
+00:00:42.960 --> 00:00:45.380 
+over other iners out there one big
+advantage<00:00:43.260> is<00:00:43.739> that<00:00:43.770> you<00:00:44.100> don't<00:00:44.399> have<00:00:44.940> to<00:00:45.120> care
+
+00:00:45.380 --> 00:00:45.390 
+advantage is that you don't have to care
+
+00:00:45.390 --> 00:00:47.930 
+advantage is that you don't have to care
+about<00:00:45.629> how<00:00:46.590> the<00:00:46.649> rendering<00:00:47.219> process<00:00:47.399> works
+
+00:00:47.930 --> 00:00:47.940 
+about how the rendering process works
+
+00:00:47.940 --> 00:00:50.720 
+about how the rendering process works
+there's<00:00:48.719> no<00:00:48.960> complex<00:00:49.410> setup<00:00:49.710> it's<00:00:50.039> easy<00:00:50.489> and
+
+00:00:50.720 --> 00:00:50.730 
+there's no complex setup it's easy and
+
+00:00:50.730 --> 00:00:53.450 
+there's no complex setup it's easy and
+simple<00:00:51.120> you<00:00:51.570> just<00:00:51.600> turn<00:00:52.110> on<00:00:52.410> the<00:00:53.129> global
+
+00:00:53.450 --> 00:00:53.460 
+simple you just turn on the global
+
+00:00:53.460 --> 00:00:55.220 
+simple you just turn on the global
+illumination<00:00:53.640> switch<00:00:54.360> for<00:00:54.570> example<00:00:55.020> and
+
+00:00:55.220 --> 00:00:55.230 
+illumination switch for example and
+
+00:00:55.230 --> 00:00:57.439 
+illumination switch for example and
+there<00:00:55.559> you<00:00:55.739> go<00:00:55.949> there's<00:00:56.550> no<00:00:56.789> complicated
+
+00:00:57.439 --> 00:00:57.449 
+there you go there's no complicated
+
+00:00:57.449 --> 00:01:01.279 
+there you go there's no complicated
+setups<00:00:57.960> just<00:00:58.770> a<00:00:58.890> few<00:00:59.129> settings<00:00:59.609> and<00:01:00.059> that's<00:01:00.960> it
+
+00:01:01.279 --> 00:01:01.289 
+setups just a few settings and that's it
+
+00:01:01.289 --> 00:01:04.759 
+setups just a few settings and that's it
+it<00:01:01.980> reduces<00:01:02.489> the<00:01:02.820> learning<00:01:03.180> curve<00:01:03.420> to<00:01:03.769> zero
+
+00:01:04.759 --> 00:01:04.769 
+it reduces the learning curve to zero
+
+00:01:04.769 --> 00:01:07.910 
+it reduces the learning curve to zero
+and<00:01:05.070> this<00:01:05.970> is<00:01:06.030> only<00:01:06.330> possible<00:01:06.510> because<00:01:07.200> we<00:01:07.680> use
+
+00:01:07.910 --> 00:01:07.920 
+and this is only possible because we use
+
+00:01:07.920 --> 00:01:10.750 
+and this is only possible because we use
+unbiased<00:01:08.610> path<00:01:08.790> tracing<00:01:09.240> without<00:01:09.840> compromise
+
+00:01:10.750 --> 00:01:10.760 
+unbiased path tracing without compromise
+
+00:01:10.760 --> 00:01:14.240 
+unbiased path tracing without compromise
+now<00:01:11.760> let's<00:01:12.119> have<00:01:12.240> a<00:01:12.299> look<00:01:12.479> at<00:01:12.689> the<00:01:12.840> scene<00:01:13.250> we're
+
+00:01:14.240 --> 00:01:14.250 
+now let's have a look at the scene we're
+
+00:01:14.250 --> 00:01:17.240 
+now let's have a look at the scene we're
+using<00:01:14.430> active<00:01:14.939> shade<00:01:15.439> to<00:01:16.439> render<00:01:16.830> the<00:01:16.979> scene
+
+00:01:17.240 --> 00:01:17.250 
+using active shade to render the scene
+
+00:01:17.250 --> 00:01:21.499 
+using active shade to render the scene
+in<00:01:17.700> an<00:01:17.850> interactive<00:01:18.390> mode<00:01:18.900> and<00:01:20.000> just<00:01:21.000> a<00:01:21.119> short
+
+00:01:21.499 --> 00:01:21.509 
+in an interactive mode and just a short
+
+00:01:21.509 --> 00:01:23.210 
+in an interactive mode and just a short
+information<00:01:22.020> about<00:01:22.229> the<00:01:22.380> scene<00:01:22.590> we<00:01:22.770> got<00:01:22.979> that
+
+00:01:23.210 --> 00:01:23.220 
+information about the scene we got that
+
+00:01:23.220 --> 00:01:26.960 
+information about the scene we got that
+scene<00:01:23.520> from<00:01:23.790> the<00:01:24.000> internet<00:01:25.009> so<00:01:26.009> we<00:01:26.640> just
+
+00:01:26.960 --> 00:01:26.970 
+scene from the internet so we just
+
+00:01:26.970 --> 00:01:30.080 
+scene from the internet so we just
+download<00:01:27.450> a<00:01:27.479> date<00:01:27.840> it<00:01:28.770> uses<00:01:29.250> materials<00:01:29.939> we
+
+00:01:30.080 --> 00:01:30.090 
+download a date it uses materials we
+
+00:01:30.090 --> 00:01:33.020 
+download a date it uses materials we
+didn't<00:01:30.360> set<00:01:30.540> up<00:01:30.659> the<00:01:30.780> materials<00:01:31.320> and<00:01:32.030> mesquite
+
+00:01:33.020 --> 00:01:33.030 
+didn't set up the materials and mesquite
+
+00:01:33.030 --> 00:01:35.060 
+didn't set up the materials and mesquite
+arena<00:01:33.360> is<00:01:33.450> very<00:01:33.720> good<00:01:33.960> at<00:01:34.110> it<00:01:34.259> so<00:01:34.710> we're<00:01:34.890> now
+
+00:01:35.060 --> 00:01:35.070 
+arena is very good at it so we're now
+
+00:01:35.070 --> 00:01:37.340 
+arena is very good at it so we're now
+adjusting<00:01:35.700> one<00:01:36.060> of<00:01:36.240> the<00:01:36.420> more<00:01:36.840> important
+
+00:01:37.340 --> 00:01:37.350 
+adjusting one of the more important
+
+00:01:37.350 --> 00:01:40.130 
+adjusting one of the more important
+parameters<00:01:37.890> it's<00:01:38.189> the<00:01:38.400> iterations<00:01:38.970> and<00:01:39.299> that
+
+00:01:40.130 --> 00:01:40.140 
+parameters it's the iterations and that
+
+00:01:40.140 --> 00:01:42.560 
+parameters it's the iterations and that
+means<00:01:40.409> right<00:01:41.250> now<00:01:41.460> we're<00:01:41.790> sending<00:01:42.000> one<00:01:42.360> ray
+
+00:01:42.560 --> 00:01:42.570 
+means right now we're sending one ray
+
+00:01:42.570 --> 00:01:45.859 
+means right now we're sending one ray
+per<00:01:42.899> pixel<00:01:43.170> we<00:01:44.100> adjust<00:01:44.850> it<00:01:44.970> to<00:01:45.119> two<00:01:45.360> rays<00:01:45.600> and
+
+00:01:45.859 --> 00:01:45.869 
+per pixel we adjust it to two rays and
+
+00:01:45.869 --> 00:01:47.719 
+per pixel we adjust it to two rays and
+you<00:01:45.990> can<00:01:46.200> see<00:01:46.409> the<00:01:46.680> image<00:01:46.950> becomes<00:01:47.250> clear<00:01:47.549> and
+
+00:01:47.719 --> 00:01:47.729 
+you can see the image becomes clear and
+
+00:01:47.729 --> 00:01:50.210 
+you can see the image becomes clear and
+now<00:01:47.850> less<00:01:48.210> noise<00:01:48.479> and<00:01:48.840> especially<00:01:49.829> when<00:01:50.100> you
+
+00:01:50.210 --> 00:01:50.220 
+now less noise and especially when you
+
+00:01:50.220 --> 00:01:52.399 
+now less noise and especially when you
+look<00:01:50.430> at<00:01:50.640> the<00:01:50.850> blurry<00:01:51.210> reflections<00:01:51.990> you<00:01:52.049> can
+
+00:01:52.399 --> 00:01:52.409 
+look at the blurry reflections you can
+
+00:01:52.409 --> 00:01:55.490 
+look at the blurry reflections you can
+see<00:01:52.970> what<00:01:53.970> influence<00:01:54.600> the<00:01:54.899> amount<00:01:55.229> of
+
+00:01:55.490 --> 00:01:55.500 
+see what influence the amount of
+
+00:01:55.500 --> 00:01:57.000 
+see what influence the amount of
+iterations<00:01:56.189> has
+
+00:01:57.000 --> 00:01:57.010 
+iterations has
+
+00:01:57.010 --> 00:02:01.290 
+iterations has
+on<00:01:57.130> the<00:01:57.430> quality<00:01:58.180> of<00:01:58.300> the<00:01:58.480> image<00:02:00.030> so<00:02:01.030> let's
+
+00:02:01.290 --> 00:02:01.300 
+on the quality of the image so let's
+
+00:02:01.300 --> 00:02:03.360 
+on the quality of the image so let's
+increase<00:02:01.480> that<00:02:01.930> a<00:02:02.260> little<00:02:02.320> bit<00:02:02.740> further<00:02:03.010> and
+
+00:02:03.360 --> 00:02:03.370 
+increase that a little bit further and
+
+00:02:03.370 --> 00:02:05.700 
+increase that a little bit further and
+you<00:02:03.430> can<00:02:03.730> see<00:02:03.940> now<00:02:04.300> the<00:02:04.360> blurry<00:02:04.840> reflections
+
+00:02:05.700 --> 00:02:05.710 
+you can see now the blurry reflections
+
+00:02:05.710 --> 00:02:08.520 
+you can see now the blurry reflections
+become<00:02:06.220> much<00:02:06.610> clearer<00:02:06.940> out<00:02:07.210> and<00:02:07.450> much<00:02:07.720> nicer
+
+00:02:08.520 --> 00:02:08.530 
+become much clearer out and much nicer
+
+00:02:08.530 --> 00:02:11.880 
+become much clearer out and much nicer
+that's<00:02:09.250> how<00:02:10.000> unbiased<00:02:10.840> path<00:02:11.080> tracing<00:02:11.500> works
+
+00:02:11.880 --> 00:02:11.890 
+that's how unbiased path tracing works
+
+00:02:11.890 --> 00:02:14.250 
+that's how unbiased path tracing works
+we<00:02:12.310> are<00:02:12.430> not<00:02:12.640> sending<00:02:13.030> rays<00:02:13.480> in<00:02:13.840> a<00:02:14.020> specific
+
+00:02:14.250 --> 00:02:14.260 
+we are not sending rays in a specific
+
+00:02:14.260 --> 00:02:17.730 
+we are not sending rays in a specific
+direction<00:02:15.190> rays<00:02:15.820> are<00:02:16.150> shot<00:02:16.750> in<00:02:17.050> a<00:02:17.200> purely
+
+00:02:17.730 --> 00:02:17.740 
+direction rays are shot in a purely
+
+00:02:17.740 --> 00:02:21.990 
+direction rays are shot in a purely
+random<00:02:18.190> method<00:02:19.060> in<00:02:19.720> the<00:02:20.020> scene<00:02:20.580> if<00:02:21.580> you<00:02:21.640> wanted
+
+00:02:21.990 --> 00:02:22.000 
+random method in the scene if you wanted
+
+00:02:22.000 --> 00:02:24.000 
+random method in the scene if you wanted
+to<00:02:22.120> have<00:02:22.240> gi<00:02:22.480> you<00:02:22.690> just<00:02:23.170> turn<00:02:23.350> it<00:02:23.500> on<00:02:23.650> there's
+
+00:02:24.000 --> 00:02:24.010 
+to have gi you just turn it on there's
+
+00:02:24.010 --> 00:02:26.130 
+to have gi you just turn it on there's
+no<00:02:24.250> complex<00:02:24.670> settings<00:02:25.120> you<00:02:25.540> don't<00:02:25.810> need<00:02:26.020> to
+
+00:02:26.130 --> 00:02:26.140 
+no complex settings you don't need to
+
+00:02:26.140 --> 00:02:29.250 
+no complex settings you don't need to
+learn<00:02:26.320> anything<00:02:26.730> complex<00:02:27.730> you<00:02:28.660> just<00:02:28.930> turn<00:02:29.110> it
+
+00:02:29.250 --> 00:02:29.260 
+learn anything complex you just turn it
+
+00:02:29.260 --> 00:02:31.250 
+learn anything complex you just turn it
+on<00:02:29.380> and<00:02:29.710> you<00:02:29.890> get<00:02:30.040> light<00:02:30.310> bouncing<00:02:30.880> around
+
+00:02:31.250 --> 00:02:31.260 
+on and you get light bouncing around
+
+00:02:31.260 --> 00:02:34.830 
+on and you get light bouncing around
+that's<00:02:32.260> a<00:02:32.500> beauty<00:02:33.070> of<00:02:33.280> path<00:02:33.610> tracing<00:02:34.030> unbiased
+
+00:02:34.830 --> 00:02:34.840 
+that's a beauty of path tracing unbiased
+
+00:02:34.840 --> 00:02:39.180 
+that's a beauty of path tracing unbiased
+path<00:02:35.050> tracing<00:02:35.410> as<00:02:35.830> well<00:02:37.140> no<00:02:38.140> complex<00:02:38.710> setups
+
+00:02:39.180 --> 00:02:39.190 
+path tracing as well no complex setups
+
+00:02:39.190 --> 00:02:41.550 
+path tracing as well no complex setups
+no<00:02:39.790> complicated<00:02:40.420> learning<00:02:40.930> of<00:02:41.050> weird
+
+00:02:41.550 --> 00:02:41.560 
+no complicated learning of weird
+
+00:02:41.560 --> 00:02:44.520 
+no complicated learning of weird
+parameters<00:02:42.280> just<00:02:42.550> turn<00:02:43.240> it<00:02:43.420> on<00:02:43.570> and<00:02:43.840> the<00:02:44.350> rest
+
+00:02:44.520 --> 00:02:44.530 
+parameters just turn it on and the rest
+
+00:02:44.530 --> 00:02:48.090 
+parameters just turn it on and the rest
+is<00:02:44.740> done<00:02:44.920> by<00:02:45.160> mosquito<00:02:45.610> render<00:02:47.100> there's
+
+00:02:48.090 --> 00:02:48.100 
+is done by mosquito render there's
+
+00:02:48.100 --> 00:02:50.310 
+is done by mosquito render there's
+another<00:02:48.340> setting<00:02:48.850> that's<00:02:49.540> important<00:02:50.200> in
+
+00:02:50.310 --> 00:02:50.320 
+another setting that's important in
+
+00:02:50.320 --> 00:02:52.230 
+another setting that's important in
+global<00:02:50.680> illumination<00:02:50.890> it's<00:02:51.430> the<00:02:51.640> amount<00:02:51.940> of
+
+00:02:52.230 --> 00:02:52.240 
+global illumination it's the amount of
+
+00:02:52.240 --> 00:02:56.460 
+global illumination it's the amount of
+bounces<00:02:52.990> inside<00:02:53.770> a<00:02:54.640> scene<00:02:55.030> so<00:02:55.990> right<00:02:56.230> now<00:02:56.410> we
+
+00:02:56.460 --> 00:02:56.470 
+bounces inside a scene so right now we
+
+00:02:56.470 --> 00:02:58.770 
+bounces inside a scene so right now we
+set<00:02:56.860> the<00:02:56.890> bounces<00:02:57.400> up<00:02:57.550> to<00:02:57.850> 1<00:02:58.120> so<00:02:58.420> that<00:02:58.570> means
+
+00:02:58.770 --> 00:02:58.780 
+set the bounces up to 1 so that means
+
+00:02:58.780 --> 00:03:00.390 
+set the bounces up to 1 so that means
+one<00:02:59.020> bounce<00:02:59.290> we<00:02:59.530> get<00:02:59.709> a<00:02:59.740> little<00:03:00.130> bit<00:03:00.220> of
+
+00:03:00.390 --> 00:03:00.400 
+one bounce we get a little bit of
+
+00:03:00.400 --> 00:03:02.820 
+one bounce we get a little bit of
+brightness<00:03:00.670> in<00:03:01.060> our<00:03:01.209> room<00:03:01.540> however<00:03:02.380> for
+
+00:03:02.820 --> 00:03:02.830 
+brightness in our room however for
+
+00:03:02.830 --> 00:03:05.220 
+brightness in our room however for
+interiors<00:03:03.430> you<00:03:03.670> would<00:03:03.850> set<00:03:04.120> that<00:03:04.390> to<00:03:04.840> 10
+
+00:03:05.220 --> 00:03:05.230 
+interiors you would set that to 10
+
+00:03:05.230 --> 00:03:09.210 
+interiors you would set that to 10
+bounces<00:03:06.360> and<00:03:07.360> the<00:03:08.290> light<00:03:08.500> will<00:03:08.739> bounce<00:03:08.950> off
+
+00:03:09.210 --> 00:03:09.220 
+bounces and the light will bounce off
+
+00:03:09.220 --> 00:03:12.360 
+bounces and the light will bounce off
+the<00:03:09.550> walls<00:03:09.790> of<00:03:10.239> the<00:03:10.750> floor<00:03:10.989> every<00:03:11.680> object<00:03:12.220> in
+
+00:03:12.360 --> 00:03:12.370 
+the walls of the floor every object in
+
+00:03:12.370 --> 00:03:15.000 
+the walls of the floor every object in
+the<00:03:12.519> scene<00:03:12.700> and<00:03:13.030> path<00:03:13.690> tracing<00:03:14.110> handles
+
+00:03:15.000 --> 00:03:15.010 
+the scene and path tracing handles
+
+00:03:15.010 --> 00:03:16.920 
+the scene and path tracing handles
+automatically<00:03:15.850> all<00:03:16.090> the<00:03:16.120> complex
+
+00:03:16.920 --> 00:03:16.930 
+automatically all the complex
+
+00:03:16.930 --> 00:03:18.810 
+automatically all the complex
+interactions<00:03:17.650> between<00:03:17.920> objects<00:03:18.730> and
+
+00:03:18.810 --> 00:03:18.820 
+interactions between objects and
+
+00:03:18.820 --> 00:03:21.840 
+interactions between objects and
+surfaces<00:03:19.030> and<00:03:19.630> still<00:03:20.590> you<00:03:21.130> have<00:03:21.400> full
+
+00:03:21.840 --> 00:03:21.850 
+surfaces and still you have full
+
+00:03:21.850 --> 00:03:24.660 
+surfaces and still you have full
+interactivity<00:03:22.780> with<00:03:23.560> mosquito<00:03:24.070> render<00:03:24.489> as
+
+00:03:24.660 --> 00:03:24.670 
+interactivity with mosquito render as
+
+00:03:24.670 --> 00:03:26.940 
+interactivity with mosquito render as
+you<00:03:24.910> can<00:03:25.150> see<00:03:25.390> you<00:03:25.870> can<00:03:26.080> move<00:03:26.260> around<00:03:26.500> you<00:03:26.920> can
+
+00:03:26.940 --> 00:03:26.950 
+you can see you can move around you can
+
+00:03:26.950 --> 00:03:30.180 
+you can see you can move around you can
+change<00:03:27.340> materials<00:03:28.030> you<00:03:28.420> can<00:03:28.660> do<00:03:28.900> all<00:03:29.170> kinds<00:03:29.200> of
+
+00:03:30.180 --> 00:03:30.190 
+change materials you can do all kinds of
+
+00:03:30.190 --> 00:03:33.270 
+change materials you can do all kinds of
+interactive<00:03:30.700> setups<00:03:31.300> in<00:03:31.540> your<00:03:31.720> scene<00:03:32.280> now
+
+00:03:33.270 --> 00:03:33.280 
+interactive setups in your scene now
+
+00:03:33.280 --> 00:03:37.350 
+interactive setups in your scene now
+let's<00:03:33.519> move<00:03:33.670> to<00:03:34.000> a<00:03:34.030> nice<00:03:34.709> viewpoint<00:03:35.709> and<00:03:36.360> let's
+
+00:03:37.350 --> 00:03:37.360 
+let's move to a nice viewpoint and let's
+
+00:03:37.360 --> 00:03:42.570 
+let's move to a nice viewpoint and let's
+continue<00:03:37.780> with<00:03:38.350> our<00:03:38.590> scene<00:03:41.160> even<00:03:42.160> though<00:03:42.370> we
+
+00:03:42.570 --> 00:03:42.580 
+continue with our scene even though we
+
+00:03:42.580 --> 00:03:46.140 
+continue with our scene even though we
+use<00:03:42.790> a<00:03:43.090> path<00:03:43.390> tracing<00:03:43.780> M<00:03:44.140> GPU<00:03:44.620> rendering<00:03:45.150> we
+
+00:03:46.140 --> 00:03:46.150 
+use a path tracing M GPU rendering we
+
+00:03:46.150 --> 00:03:48.000 
+use a path tracing M GPU rendering we
+worked<00:03:46.390> hard<00:03:46.750> to<00:03:47.080> remove<00:03:47.410> all<00:03:47.620> the
+
+00:03:48.000 --> 00:03:48.010 
+worked hard to remove all the
+
+00:03:48.010 --> 00:03:50.070 
+worked hard to remove all the
+restrictions<00:03:48.370> you<00:03:48.760> usually<00:03:49.060> see<00:03:49.570> out<00:03:49.810> there
+
+00:03:50.070 --> 00:03:50.080 
+restrictions you usually see out there
+
+00:03:50.080 --> 00:03:53.220 
+restrictions you usually see out there
+on<00:03:50.350> GP<00:03:50.800> or<00:03:50.830> a<00:03:50.920> nurse<00:03:51.220> with<00:03:51.489> materials<00:03:52.230> this
+
+00:03:53.220 --> 00:03:53.230 
+on GP or a nurse with materials this
+
+00:03:53.230 --> 00:03:55.880 
+on GP or a nurse with materials this
+scene<00:03:53.560> was<00:03:54.070> as<00:03:54.580> I<00:03:54.880> already<00:03:55.239> mentioned
+
+00:03:55.880 --> 00:03:55.890 
+scene was as I already mentioned
+
+00:03:55.890 --> 00:03:58.020 
+scene was as I already mentioned
+downloaded<00:03:56.890> from<00:03:57.040> the<00:03:57.190> internet<00:03:57.550> so<00:03:57.760> we<00:03:57.790> have
+
+00:03:58.020 --> 00:03:58.030 
+downloaded from the internet so we have
+
+00:03:58.030 --> 00:04:00.960 
+downloaded from the internet so we have
+no<00:03:58.239> control<00:03:58.510> who<00:03:59.470> did<00:03:59.800> the<00:03:59.980> scene<00:04:00.250> or<00:04:00.640> how<00:04:00.910> the
+
+00:04:00.960 --> 00:04:00.970 
+no control who did the scene or how the
+
+00:04:00.970 --> 00:04:03.810 
+no control who did the scene or how the
+setup<00:04:01.360> was<00:04:01.630> so<00:04:02.140> we<00:04:02.320> have<00:04:02.500> a<00:04:02.530> multi<00:04:03.400> sub
+
+00:04:03.810 --> 00:04:03.820 
+setup was so we have a multi sub
+
+00:04:03.820 --> 00:04:06.420 
+setup was so we have a multi sub
+material<00:04:04.390> here<00:04:04.660> with<00:04:05.049> 24<00:04:05.950> multi
+
+00:04:06.420 --> 00:04:06.430 
+material here with 24 multi
+
+00:04:06.430 --> 00:04:07.890 
+material here with 24 multi
+sub-materials
+
+00:04:07.890 --> 00:04:07.900 
+sub-materials
+
+00:04:07.900 --> 00:04:11.880 
+sub-materials
+and<00:04:08.230> yes<00:04:09.069> mosquito<00:04:09.940> ender<00:04:10.360> is<00:04:10.569> able<00:04:11.290> to<00:04:11.500> just
+
+00:04:11.880 --> 00:04:11.890 
+and yes mosquito ender is able to just
+
+00:04:11.890 --> 00:04:14.460 
+and yes mosquito ender is able to just
+hand<00:04:12.250> this<00:04:12.549> as<00:04:12.879> well<00:04:13.209> as<00:04:13.480> you<00:04:13.690> would<00:04:13.810> expect<00:04:13.989> it
+
+00:04:14.460 --> 00:04:14.470 
+hand this as well as you would expect it
+
+00:04:14.470 --> 00:04:18.590 
+hand this as well as you would expect it
+from<00:04:14.650> any<00:04:14.860> other<00:04:15.010> renderer<00:04:15.640> as<00:04:15.760> well<00:04:17.549> and
+
+00:04:18.590 --> 00:04:18.600 
+from any other renderer as well and
+
+00:04:18.600 --> 00:04:23.070 
+from any other renderer as well and
+let's<00:04:19.600> just<00:04:20.280> try<00:04:21.280> to<00:04:21.340> adjust<00:04:22.090> one<00:04:22.479> material
+
+00:04:23.070 --> 00:04:23.080 
+let's just try to adjust one material
+
+00:04:23.080 --> 00:04:27.570 
+let's just try to adjust one material
+the<00:04:23.350> wood<00:04:23.949> floor<00:04:24.250> and<00:04:25.410> for<00:04:26.410> that<00:04:26.560> we<00:04:26.830> change<00:04:27.430> a
+
+00:04:27.570 --> 00:04:27.580 
+the wood floor and for that we change a
+
+00:04:27.580 --> 00:04:30.719 
+the wood floor and for that we change a
+little<00:04:28.000> bit<00:04:28.120> our<00:04:28.650> viewing<00:04:29.650> angle<00:04:30.280> so<00:04:30.430> that<00:04:30.610> we
+
+00:04:30.719 --> 00:04:30.729 
+little bit our viewing angle so that we
+
+00:04:30.729 --> 00:04:32.490 
+little bit our viewing angle so that we
+can<00:04:30.970> see<00:04:31.180> the<00:04:31.389> reflections<00:04:32.020> a<00:04:32.139> little<00:04:32.380> bit
+
+00:04:32.490 --> 00:04:32.500 
+can see the reflections a little bit
+
+00:04:32.500 --> 00:04:34.920 
+can see the reflections a little bit
+better<00:04:32.710> so<00:04:33.160> you<00:04:33.220> see<00:04:33.699> now<00:04:33.940> the<00:04:34.000> reflections
+
+00:04:34.920 --> 00:04:34.930 
+better so you see now the reflections
+
+00:04:34.930 --> 00:04:39.900 
+better so you see now the reflections
+much<00:04:35.290> better<00:04:35.620> on<00:04:35.919> the<00:04:36.040> floor<00:04:36.810> and<00:04:38.580> then<00:04:39.580> we<00:04:39.790> are
+
+00:04:39.900 --> 00:04:39.910 
+much better on the floor and then we are
+
+00:04:39.910 --> 00:04:41.909 
+much better on the floor and then we are
+going<00:04:40.270> to<00:04:40.510> adjust<00:04:41.050> the<00:04:41.229> amount<00:04:41.530> of
+
+00:04:41.909 --> 00:04:41.919 
+going to adjust the amount of
+
+00:04:41.919 --> 00:04:44.879 
+going to adjust the amount of
+reflectivity<00:04:42.699> on<00:04:43.240> our<00:04:43.479> floor<00:04:43.870> so<00:04:44.320> we<00:04:44.470> increase
+
+00:04:44.879 --> 00:04:44.889 
+reflectivity on our floor so we increase
+
+00:04:44.889 --> 00:04:47.219 
+reflectivity on our floor so we increase
+that<00:04:45.130> we<00:04:45.430> get<00:04:45.639> much<00:04:46.060> more<00:04:46.090> reflections<00:04:46.960> on<00:04:47.110> the
+
+00:04:47.219 --> 00:04:47.229 
+that we get much more reflections on the
+
+00:04:47.229 --> 00:04:50.010 
+that we get much more reflections on the
+floor<00:04:47.500> so<00:04:48.100> it<00:04:48.190> looks<00:04:48.430> more<00:04:48.729> polished<00:04:49.270> and<00:04:49.870> we
+
+00:04:50.010 --> 00:04:50.020 
+floor so it looks more polished and we
+
+00:04:50.020 --> 00:04:51.960 
+floor so it looks more polished and we
+can<00:04:50.229> reduce<00:04:50.530> that<00:04:50.590> we<00:04:51.010> can<00:04:51.220> control<00:04:51.699> the
+
+00:04:51.960 --> 00:04:51.970 
+can reduce that we can control the
+
+00:04:51.970 --> 00:04:55.529 
+can reduce that we can control the
+glossiness<00:04:52.389> how<00:04:53.110> polished<00:04:53.680> how<00:04:54.060> blurry<00:04:55.060> it<00:04:55.360> is
+
+00:04:55.529 --> 00:04:55.539 
+glossiness how polished how blurry it is
+
+00:04:55.539 --> 00:04:58.219 
+glossiness how polished how blurry it is
+and<00:04:55.919> that's<00:04:56.919> the<00:04:57.100> great<00:04:57.310> beauty<00:04:57.669> about
+
+00:04:58.219 --> 00:04:58.229 
+and that's the great beauty about
+
+00:04:58.229 --> 00:05:01.350 
+and that's the great beauty about
+mosquito<00:04:59.229> render<00:04:59.680> being<00:04:59.949> a<00:05:00.190> GPU<00:05:00.669> render<00:05:01.120> with
+
+00:05:01.350 --> 00:05:01.360 
+mosquito render being a GPU render with
+
+00:05:01.360 --> 00:05:04.140 
+mosquito render being a GPU render with
+path<00:05:01.990> tracing<00:05:02.410> you<00:05:02.979> can<00:05:03.190> adjust<00:05:03.610> all<00:05:03.910> these
+
+00:05:04.140 --> 00:05:04.150 
+path tracing you can adjust all these
+
+00:05:04.150 --> 00:05:07.800 
+path tracing you can adjust all these
+aspects<00:05:04.660> in<00:05:04.990> real<00:05:05.830> time<00:05:06.220> and<00:05:07.000> you<00:05:07.180> get<00:05:07.389> instant
+
+00:05:07.800 --> 00:05:07.810 
+aspects in real time and you get instant
+
+00:05:07.810 --> 00:05:12.900 
+aspects in real time and you get instant
+feedback<00:05:10.620> this<00:05:11.620> is<00:05:11.680> the<00:05:11.830> power<00:05:12.190> of<00:05:12.310> mosquito
+
+00:05:12.900 --> 00:05:12.910 
+feedback this is the power of mosquito
+
+00:05:12.910 --> 00:05:16.350 
+feedback this is the power of mosquito
+render<00:05:13.270> and<00:05:13.560> you<00:05:14.560> can<00:05:14.830> really<00:05:15.580> adjust<00:05:15.849> and
+
+00:05:16.350 --> 00:05:16.360 
+render and you can really adjust and
+
+00:05:16.360 --> 00:05:20.129 
+render and you can really adjust and
+rely<00:05:16.690> on<00:05:16.720> the<00:05:17.289> physically<00:05:17.979> accurate<00:05:19.139> light
+
+00:05:20.129 --> 00:05:20.139 
+rely on the physically accurate light
+
+00:05:20.139 --> 00:05:23.010 
+rely on the physically accurate light
+transport<00:05:20.710> model<00:05:21.099> that<00:05:21.370> is<00:05:21.729> a<00:05:22.450> part<00:05:22.870> of
+
+00:05:23.010 --> 00:05:23.020 
+transport model that is a part of
+
+00:05:23.020 --> 00:05:24.870 
+transport model that is a part of
+mosquito<00:05:23.470> render<00:05:23.770> you<00:05:23.919> don't<00:05:24.220> have<00:05:24.460> to<00:05:24.610> think
+
+00:05:24.870 --> 00:05:24.880 
+mosquito render you don't have to think
+
+00:05:24.880 --> 00:05:25.440 
+mosquito render you don't have to think
+about<00:05:25.150> it
+
+00:05:25.440 --> 00:05:25.450 
+about it
+
+00:05:25.450 --> 00:05:28.110 
+about it
+light<00:05:25.870> is<00:05:26.169> bouncing<00:05:26.680> around<00:05:27.120> automatically
+
+00:05:28.110 --> 00:05:28.120 
+light is bouncing around automatically
+
+00:05:28.120 --> 00:05:31.050 
+light is bouncing around automatically
+and<00:05:28.360> it's<00:05:28.960> properly<00:05:29.530> calculated<00:05:30.160> you<00:05:30.460> so<00:05:31.000> you
+
+00:05:31.050 --> 00:05:31.060 
+and it's properly calculated you so you
+
+00:05:31.060 --> 00:05:33.690 
+and it's properly calculated you so you
+can<00:05:31.360> concentrate<00:05:31.720> on<00:05:32.260> your<00:05:32.500> point<00:05:33.099> of<00:05:33.220> view<00:05:33.280> on
+
+00:05:33.690 --> 00:05:33.700 
+can concentrate on your point of view on
+
+00:05:33.700 --> 00:05:37.170 
+can concentrate on your point of view on
+your<00:05:34.000> illumination<00:05:34.870> setup<00:05:35.349> and<00:05:35.560> if<00:05:36.550> you<00:05:36.910> want
+
+00:05:37.170 --> 00:05:37.180 
+your illumination setup and if you want
+
+00:05:37.180 --> 00:05:40.560 
+your illumination setup and if you want
+you<00:05:37.479> can<00:05:37.690> add<00:05:37.930> our<00:05:38.320> physical<00:05:38.919> camera<00:05:39.310> on<00:05:39.760> top
+
+00:05:40.560 --> 00:05:40.570 
+you can add our physical camera on top
+
+00:05:40.570 --> 00:05:43.980 
+you can add our physical camera on top
+of<00:05:40.870> it<00:05:41.229> and<00:05:41.440> this<00:05:42.130> will<00:05:42.340> allow<00:05:42.520> to<00:05:42.729> adjust<00:05:43.419> the
+
+00:05:43.980 --> 00:05:43.990 
+of it and this will allow to adjust the
+
+00:05:43.990 --> 00:05:46.110 
+of it and this will allow to adjust the
+exposure<00:05:44.169> for<00:05:44.800> example<00:05:44.860> now<00:05:45.610> we're<00:05:45.820> changing
+
+00:05:46.110 --> 00:05:46.120 
+exposure for example now we're changing
+
+00:05:46.120 --> 00:05:49.560 
+exposure for example now we're changing
+the<00:05:46.449> exposure<00:05:46.840> you<00:05:47.830> can<00:05:48.070> change<00:05:48.520> all<00:05:48.789> kinds<00:05:49.419> of
+
+00:05:49.560 --> 00:05:49.570 
+the exposure you can change all kinds of
+
+00:05:49.570 --> 00:05:52.680 
+the exposure you can change all kinds of
+aspects<00:05:50.169> so<00:05:50.289> mosquito<00:05:51.190> render<00:05:51.610> exactly<00:05:52.449> works
+
+00:05:52.680 --> 00:05:52.690 
+aspects so mosquito render exactly works
+
+00:05:52.690 --> 00:05:55.260 
+aspects so mosquito render exactly works
+like<00:05:53.050> a<00:05:53.080> real-world<00:05:53.500> camera<00:05:54.250> so<00:05:55.000> there's
+
+00:05:55.260 --> 00:05:55.270 
+like a real-world camera so there's
+
+00:05:55.270 --> 00:05:57.420 
+like a real-world camera so there's
+nothing<00:05:55.570> new<00:05:55.810> you<00:05:56.440> have<00:05:56.620> to<00:05:56.650> learn<00:05:56.979> if<00:05:57.280> you
+
+00:05:57.420 --> 00:05:57.430 
+nothing new you have to learn if you
+
+00:05:57.430 --> 00:05:59.100 
+nothing new you have to learn if you
+know<00:05:57.639> how<00:05:57.910> to<00:05:57.970> take<00:05:58.270> a<00:05:58.300> picture<00:05:58.599> with<00:05:58.960> your
+
+00:05:59.100 --> 00:05:59.110 
+know how to take a picture with your
+
+00:05:59.110 --> 00:06:02.010 
+know how to take a picture with your
+camera<00:05:59.349> you<00:06:00.099> know<00:06:00.340> how<00:06:00.669> to<00:06:00.729> create<00:06:01.449> a<00:06:01.690> picture
+
+00:06:02.010 --> 00:06:02.020 
+camera you know how to create a picture
+
+00:06:02.020 --> 00:06:05.879 
+camera you know how to create a picture
+with<00:06:02.710> mosquito<00:06:03.220> render<00:06:03.699> it<00:06:04.419> just<00:06:04.930> removes<00:06:05.470> all
+
+00:06:05.879 --> 00:06:05.889 
+with mosquito render it just removes all
+
+00:06:05.889 --> 00:06:08.370 
+with mosquito render it just removes all
+the<00:06:05.919> stress<00:06:06.490> all<00:06:06.699> the<00:06:07.060> hassle<00:06:07.539> all<00:06:07.720> the
+
+00:06:08.370 --> 00:06:08.380 
+the stress all the hassle all the
+
+00:06:08.380 --> 00:06:10.890 
+the stress all the hassle all the
+learning<00:06:08.889> of<00:06:09.039> a<00:06:09.280> renderer<00:06:09.669> all<00:06:09.970> the<00:06:10.510> special
+
+00:06:10.890 --> 00:06:10.900 
+learning of a renderer all the special
+
+00:06:10.900 --> 00:06:12.810 
+learning of a renderer all the special
+materials<00:06:11.380> you<00:06:11.530> usually<00:06:11.800> need<00:06:12.190> to<00:06:12.370> learn<00:06:12.580> with
+
+00:06:12.810 --> 00:06:12.820 
+materials you usually need to learn with
+
+00:06:12.820 --> 00:06:14.220 
+materials you usually need to learn with
+your<00:06:13.120> retina
+
+00:06:14.220 --> 00:06:14.230 
+your retina
+
+00:06:14.230 --> 00:06:16.740 
+your retina
+it's<00:06:14.320> all<00:06:14.530> gone<00:06:14.920> most<00:06:15.220> key<00:06:15.460> to<00:06:15.520> render<00:06:15.940> is<00:06:16.120> most
+
+00:06:16.740 --> 00:06:16.750 
+it's all gone most key to render is most
+
+00:06:16.750 --> 00:06:20.010 
+it's all gone most key to render is most
+and<00:06:17.080> best<00:06:17.260> integrated<00:06:18.070> GPU<00:06:18.820> runner<00:06:19.300> for<00:06:19.600> 3d
+
+00:06:20.010 --> 00:06:20.020 
+and best integrated GPU runner for 3d
+
+00:06:20.020 --> 00:06:22.680 
+and best integrated GPU runner for 3d
+studio<00:06:20.230> max<00:06:20.850> thank<00:06:21.850> you<00:06:21.910> for<00:06:22.210> watching<00:06:22.570> this
+
+00:06:22.680 --> 00:06:22.690 
+studio max thank you for watching this
+
+00:06:22.690 --> 00:06:25.170 
+studio max thank you for watching this
+video<00:06:22.900> and<00:06:23.230> check<00:06:23.320> out<00:06:23.950> our<00:06:24.250> other<00:06:24.490> videos<00:06:24.970> as
+
+00:06:25.170 --> 00:06:25.180 
+video and check out our other videos as
+
+00:06:25.180 --> 00:06:27.390 
+video and check out our other videos as
+well
+
