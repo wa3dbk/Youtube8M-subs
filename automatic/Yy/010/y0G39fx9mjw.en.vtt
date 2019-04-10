@@ -1,0 +1,1141 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.610 --> 00:00:10.580 
+
+welcome<00:00:08.610> my<00:00:09.210> name<00:00:09.269> is<00:00:09.540> guy<00:00:09.690> Geller<00:00:10.019> and<00:00:10.290> this
+
+00:00:10.580 --> 00:00:10.590 
+welcome my name is guy Geller and this
+
+00:00:10.590 --> 00:00:13.009 
+welcome my name is guy Geller and this
+is<00:00:10.769> the<00:00:10.889> third<00:00:11.160> in<00:00:11.460> the<00:00:11.519> series<00:00:11.730> on<00:00:12.269> debris<00:00:12.660> in
+
+00:00:13.009 --> 00:00:13.019 
+is the third in the series on debris in
+
+00:00:13.019 --> 00:00:15.589 
+is the third in the series on debris in
+this<00:00:13.620> tutorial<00:00:13.799> we<00:00:14.700> will<00:00:14.730> go<00:00:15.000> over<00:00:15.030> how<00:00:15.269> to<00:00:15.389> use
+
+00:00:15.589 --> 00:00:15.599 
+this tutorial we will go over how to use
+
+00:00:15.599 --> 00:00:17.660 
+this tutorial we will go over how to use
+particle<00:00:16.170> flow<00:00:16.440> to<00:00:16.500> create<00:00:17.100> bullet<00:00:17.460> holes
+
+00:00:17.660 --> 00:00:17.670 
+particle flow to create bullet holes
+
+00:00:17.670 --> 00:00:22.279 
+particle flow to create bullet holes
+crack<00:00:18.600> glass<00:00:18.840> and<00:00:19.820> explosions<00:00:20.820> however<00:00:21.630> this
+
+00:00:22.279 --> 00:00:22.289 
+crack glass and explosions however this
+
+00:00:22.289 --> 00:00:24.140 
+crack glass and explosions however this
+will<00:00:22.529> be<00:00:22.680> done<00:00:22.890> by<00:00:23.160> cheating<00:00:23.730> and<00:00:23.939> using
+
+00:00:24.140 --> 00:00:24.150 
+will be done by cheating and using
+
+00:00:24.150 --> 00:00:27.200 
+will be done by cheating and using
+animated<00:00:24.960> bitmaps<00:00:25.519> for<00:00:26.519> certain<00:00:26.789> types<00:00:26.970> of
+
+00:00:27.200 --> 00:00:27.210 
+animated bitmaps for certain types of
+
+00:00:27.210 --> 00:00:30.109 
+animated bitmaps for certain types of
+scenes<00:00:27.510> this<00:00:28.320> is<00:00:28.619> a<00:00:28.680> major<00:00:29.070> time<00:00:29.490> saver<00:00:29.519> and
+
+00:00:30.109 --> 00:00:30.119 
+scenes this is a major time saver and
+
+00:00:30.119 --> 00:00:32.749 
+scenes this is a major time saver and
+can<00:00:30.960> produce<00:00:31.109> results<00:00:31.560> that<00:00:32.160> would<00:00:32.340> be<00:00:32.460> too
+
+00:00:32.749 --> 00:00:32.759 
+can produce results that would be too
+
+00:00:32.759 --> 00:00:35.330 
+can produce results that would be too
+difficult<00:00:33.030> to<00:00:33.480> achieve<00:00:33.600> using<00:00:34.170> real<00:00:34.590> geometry
+
+00:00:35.330 --> 00:00:35.340 
+difficult to achieve using real geometry
+
+00:00:35.340 --> 00:00:37.580 
+difficult to achieve using real geometry
+in<00:00:36.270> this<00:00:36.390> tutorial<00:00:36.570> we'll<00:00:36.989> go<00:00:37.170> over<00:00:37.200> how<00:00:37.440> to
+
+00:00:37.580 --> 00:00:37.590 
+in this tutorial we'll go over how to
+
+00:00:37.590 --> 00:00:39.500 
+in this tutorial we'll go over how to
+create<00:00:38.040> a<00:00:38.070> simple<00:00:38.430> particle<00:00:38.790> flow<00:00:39.090> system
+
+00:00:39.500 --> 00:00:39.510 
+create a simple particle flow system
+
+00:00:39.510 --> 00:00:42.020 
+create a simple particle flow system
+that<00:00:39.629> shoots<00:00:39.840> many<00:00:40.079> particles<00:00:40.410> at<00:00:40.680> a<00:00:40.739> wall<00:00:41.030> use
+
+00:00:42.020 --> 00:00:42.030 
+that shoots many particles at a wall use
+
+00:00:42.030 --> 00:00:44.330 
+that shoots many particles at a wall use
+animated<00:00:42.600> bitmaps<00:00:42.989> to<00:00:43.230> create<00:00:43.500> cracks<00:00:44.040> and
+
+00:00:44.330 --> 00:00:44.340 
+animated bitmaps to create cracks and
+
+00:00:44.340 --> 00:00:47.600 
+animated bitmaps to create cracks and
+bullet<00:00:44.850> holes<00:00:45.110> use<00:00:46.110> a<00:00:46.410> camera<00:00:46.739> map<00:00:47.100> to<00:00:47.340> create
+
+00:00:47.600 --> 00:00:47.610 
+bullet holes use a camera map to create
+
+00:00:47.610 --> 00:00:50.000 
+bullet holes use a camera map to create
+animated<00:00:47.969> bitmaps<00:00:48.420> to<00:00:48.660> be<00:00:48.809> reused<00:00:49.559> in<00:00:49.890> the
+
+00:00:50.000 --> 00:00:50.010 
+animated bitmaps to be reused in the
+
+00:00:50.010 --> 00:00:51.920 
+animated bitmaps to be reused in the
+objects<00:00:50.430> material<00:00:51.000> and<00:00:51.270> then<00:00:51.629> I'll<00:00:51.750> do<00:00:51.899> a
+
+00:00:51.920 --> 00:00:51.930 
+objects material and then I'll do a
+
+00:00:51.930 --> 00:00:54.560 
+objects material and then I'll do a
+quick<00:00:52.230> walkthrough<00:00:52.469> of<00:00:53.129> lots<00:00:54.000> of<00:00:54.239> planes
+
+00:00:54.560 --> 00:00:54.570 
+quick walkthrough of lots of planes
+
+00:00:54.570 --> 00:00:56.689 
+quick walkthrough of lots of planes
+dropping<00:00:55.140> bombs<00:00:55.500> at<00:00:56.219> the<00:00:56.309> end<00:00:56.520> of<00:00:56.610> this
+
+00:00:56.689 --> 00:00:56.699 
+dropping bombs at the end of this
+
+00:00:56.699 --> 00:00:58.340 
+dropping bombs at the end of this
+tutorial<00:00:56.910> you<00:00:57.600> will<00:00:57.629> have<00:00:57.930> a<00:00:57.960> solid
+
+00:00:58.340 --> 00:00:58.350 
+tutorial you will have a solid
+
+00:00:58.350 --> 00:01:01.010 
+tutorial you will have a solid
+understanding<00:00:58.770> on<00:00:59.550> how<00:00:59.579> to<00:00:59.850> use<00:01:00.020> animated
+
+00:01:01.010 --> 00:01:01.020 
+understanding on how to use animated
+
+00:01:01.020 --> 00:01:04.460 
+understanding on how to use animated
+bitmaps<00:01:01.410> to<00:01:01.739> enhance<00:01:02.520> your<00:01:02.910> action<00:01:03.480> scenes<00:01:03.809> so
+
+00:01:04.460 --> 00:01:04.470 
+bitmaps to enhance your action scenes so
+
+00:01:04.470 --> 00:01:06.620 
+bitmaps to enhance your action scenes so
+I<00:01:04.500> open<00:01:05.159> up<00:01:05.250> the<00:01:05.309> sample<00:01:05.909> scene<00:01:06.150> and<00:01:06.450> the
+
+00:01:06.620 --> 00:01:06.630 
+I open up the sample scene and the
+
+00:01:06.630 --> 00:01:08.719 
+I open up the sample scene and the
+sample<00:01:06.840> scene<00:01:07.140> is<00:01:07.260> very<00:01:07.470> simple<00:01:07.950> it<00:01:08.280> has<00:01:08.490> just
+
+00:01:08.719 --> 00:01:08.729 
+sample scene is very simple it has just
+
+00:01:08.729 --> 00:01:15.590 
+sample scene is very simple it has just
+a<00:01:08.850> simple<00:01:09.240> plane<00:01:12.110> that<00:01:13.110> is<00:01:14.299> going<00:01:15.299> to<00:01:15.360> be<00:01:15.450> our
+
+00:01:15.590 --> 00:01:15.600 
+a simple plane that is going to be our
+
+00:01:15.600 --> 00:01:19.910 
+a simple plane that is going to be our
+wall<00:01:15.810> and<00:01:16.049> then<00:01:16.140> I<00:01:16.200> also<00:01:16.229> created<00:01:16.950> a<00:01:18.920> plane
+
+00:01:19.910 --> 00:01:19.920 
+wall and then I also created a plane
+
+00:01:19.920 --> 00:01:22.160 
+wall and then I also created a plane
+here<00:01:20.250> too<00:01:20.430> that's<00:01:20.580> going<00:01:20.759> to<00:01:20.850> be<00:01:20.939> used<00:01:21.210> for<00:01:21.360> for
+
+00:01:22.160 --> 00:01:22.170 
+here too that's going to be used for for
+
+00:01:22.170 --> 00:01:25.130 
+here too that's going to be used for for
+our<00:01:22.380> bullet<00:01:23.070> holes<00:01:23.250> and<00:01:23.490> glass<00:01:23.840> so<00:01:24.840> what<00:01:25.020> we
+
+00:01:25.130 --> 00:01:25.140 
+our bullet holes and glass so what we
+
+00:01:25.140 --> 00:01:27.289 
+our bullet holes and glass so what we
+want<00:01:25.350> to<00:01:25.380> do<00:01:25.560> is<00:01:25.830> we<00:01:26.280> want<00:01:26.310> to<00:01:26.610> create<00:01:27.150> a
+
+00:01:27.289 --> 00:01:27.299 
+want to do is we want to create a
+
+00:01:27.299 --> 00:01:29.090 
+want to do is we want to create a
+particle<00:01:27.810> flow<00:01:27.990> system<00:01:28.409> that's<00:01:28.619> going<00:01:28.890> to<00:01:29.009> be
+
+00:01:29.090 --> 00:01:29.100 
+particle flow system that's going to be
+
+00:01:29.100 --> 00:01:30.800 
+particle flow system that's going to be
+shooting<00:01:29.310> a<00:01:29.549> bunch<00:01:29.729> of<00:01:29.909> bullets<00:01:30.270> into<00:01:30.659> this
+
+00:01:30.800 --> 00:01:30.810 
+shooting a bunch of bullets into this
+
+00:01:30.810 --> 00:01:33.560 
+shooting a bunch of bullets into this
+wall<00:01:31.340> so<00:01:32.340> in<00:01:32.460> order<00:01:32.549> to<00:01:32.700> do<00:01:32.939> that<00:01:33.150> let's<00:01:33.420> go
+
+00:01:33.560 --> 00:01:33.570 
+wall so in order to do that let's go
+
+00:01:33.570 --> 00:01:34.700 
+wall so in order to do that let's go
+ahead<00:01:33.630> and<00:01:33.750> just<00:01:33.900> create<00:01:34.170> our<00:01:34.259> particle
+
+00:01:34.700 --> 00:01:34.710 
+ahead and just create our particle
+
+00:01:34.710 --> 00:01:36.289 
+ahead and just create our particle
+system<00:01:35.100> and<00:01:35.250> I'm<00:01:35.340> going<00:01:35.460> to<00:01:35.520> create<00:01:35.729> it<00:01:35.909> about
+
+00:01:36.289 --> 00:01:36.299 
+system and I'm going to create it about
+
+00:01:36.299 --> 00:01:40.580 
+system and I'm going to create it about
+the<00:01:36.509> size<00:01:36.750> of<00:01:37.110> the<00:01:37.439> wall<00:01:37.619> itself<00:01:38.040> and<00:01:39.590> I'll
+
+00:01:40.580 --> 00:01:40.590 
+the size of the wall itself and I'll
+
+00:01:40.590 --> 00:01:45.260 
+the size of the wall itself and I'll
+move<00:01:40.829> it<00:01:40.979> back<00:01:41.329> this<00:01:42.329> way<00:01:43.399> so<00:01:44.399> now<00:01:44.790> if<00:01:44.970> we<00:01:45.090> just
+
+00:01:45.260 --> 00:01:45.270 
+move it back this way so now if we just
+
+00:01:45.270 --> 00:01:46.850 
+move it back this way so now if we just
+scrub<00:01:45.689> through<00:01:45.899> this<00:01:46.079> we<00:01:46.290> have<00:01:46.470> a<00:01:46.500> bunch<00:01:46.740> of
+
+00:01:46.850 --> 00:01:46.860 
+scrub through this we have a bunch of
+
+00:01:46.860 --> 00:01:49.550 
+scrub through this we have a bunch of
+particles<00:01:47.100> flying<00:01:47.610> into<00:01:47.939> this<00:01:48.090> wall<00:01:48.390> so<00:01:49.380> what
+
+00:01:49.550 --> 00:01:49.560 
+particles flying into this wall so what
+
+00:01:49.560 --> 00:01:52.190 
+particles flying into this wall so what
+we<00:01:49.680> want<00:01:49.890> to<00:01:49.979> do<00:01:50.610> is<00:01:50.909> we<00:01:51.060> want<00:01:51.090> to<00:01:51.329> have<00:01:51.720> a
+
+00:01:52.190 --> 00:01:52.200 
+we want to do is we want to have a
+
+00:01:52.200 --> 00:01:54.230 
+we want to do is we want to have a
+collision<00:01:52.890> take<00:01:53.280> place<00:01:53.549> when<00:01:53.790> it<00:01:53.880> hits<00:01:54.060> this
+
+00:01:54.230 --> 00:01:54.240 
+collision take place when it hits this
+
+00:01:54.240 --> 00:01:57.410 
+collision take place when it hits this
+wall<00:01:54.570> and<00:01:54.930> replace<00:01:55.439> this<00:01:56.250> particle<00:01:56.880> with<00:01:57.180> a
+
+00:01:57.410 --> 00:01:57.420 
+wall and replace this particle with a
+
+00:01:57.420 --> 00:02:01.850 
+wall and replace this particle with a
+bullet<00:01:57.990> hole<00:01:58.170> object<00:01:58.890> or<00:01:59.159> in<00:01:59.549> broken<00:02:00.270> glass<00:02:00.860> so
+
+00:02:01.850 --> 00:02:01.860 
+bullet hole object or in broken glass so
+
+00:02:01.860 --> 00:02:04.580 
+bullet hole object or in broken glass so
+what<00:02:02.700> I'm<00:02:02.820> going<00:02:03.000> to<00:02:03.030> do<00:02:03.210> is<00:02:03.390> we'll<00:02:04.200> need<00:02:04.439> to
+
+00:02:04.580 --> 00:02:04.590 
+what I'm going to do is we'll need to
+
+00:02:04.590 --> 00:02:06.649 
+what I'm going to do is we'll need to
+create<00:02:04.890> a<00:02:04.979> collision<00:02:05.880> here<00:02:06.090> on<00:02:06.180> the<00:02:06.270> wall<00:02:06.450> so
+
+00:02:06.649 --> 00:02:06.659 
+create a collision here on the wall so
+
+00:02:06.659 --> 00:02:08.150 
+create a collision here on the wall so
+I'll<00:02:06.750> go<00:02:06.899> ahead<00:02:06.930> and<00:02:07.079> create<00:02:07.469> our<00:02:07.619> deflector
+
+00:02:08.150 --> 00:02:08.160 
+I'll go ahead and create our deflector
+
+00:02:08.160 --> 00:02:12.740 
+I'll go ahead and create our deflector
+now<00:02:08.369> and<00:02:09.110> pick<00:02:10.110> our<00:02:10.289> wall<00:02:10.530> and<00:02:11.569> let's<00:02:12.569> go<00:02:12.660> ahead
+
+00:02:12.740 --> 00:02:12.750 
+now and pick our wall and let's go ahead
+
+00:02:12.750 --> 00:02:13.890 
+now and pick our wall and let's go ahead
+and<00:02:12.959> open<00:02:13.170> up<00:02:13.500> part
+
+00:02:13.890 --> 00:02:13.900 
+and open up part
+
+00:02:13.900 --> 00:02:26.460 
+and open up part
+Circle<00:02:14.110> flow<00:02:14.409> and<00:02:18.329> adjust<00:02:19.329> this<00:02:24.900> so<00:02:25.900> for<00:02:26.349> this
+
+00:02:26.460 --> 00:02:26.470 
+Circle flow and adjust this so for this
+
+00:02:26.470 --> 00:02:29.699 
+Circle flow and adjust this so for this
+I<00:02:26.680> don't<00:02:26.739> need<00:02:27.159> the<00:02:27.689> rotation<00:02:28.689> speeds<00:02:29.349> fine
+
+00:02:29.699 --> 00:02:29.709 
+I don't need the rotation speeds fine
+
+00:02:29.709 --> 00:02:34.640 
+I don't need the rotation speeds fine
+and<00:02:31.680> for<00:02:32.680> now<00:02:32.799> I'm<00:02:32.980> going<00:02:33.010> to<00:02:33.159> get<00:02:33.250> rid<00:02:33.790> of<00:02:33.819> the
+
+00:02:34.640 --> 00:02:34.650 
+and for now I'm going to get rid of the
+
+00:02:34.650 --> 00:02:42.000 
+and for now I'm going to get rid of the
+shape<00:02:35.650> also<00:02:37.560> for<00:02:38.560> the<00:02:38.680> bullet<00:02:40.920> so<00:02:41.920> I'm<00:02:41.980> going
+
+00:02:42.000 --> 00:02:42.010 
+shape also for the bullet so I'm going
+
+00:02:42.010 --> 00:02:43.050 
+shape also for the bullet so I'm going
+to<00:02:42.129> go<00:02:42.220> ahead<00:02:42.250> and<00:02:42.430> add<00:02:42.579> in<00:02:42.760> a<00:02:42.849> collision
+
+00:02:43.050 --> 00:02:43.060 
+to go ahead and add in a collision
+
+00:02:43.060 --> 00:02:48.330 
+to go ahead and add in a collision
+object<00:02:43.650> like<00:02:45.629> select<00:02:46.629> that<00:02:46.810> you<00:02:46.959> deflector<00:02:47.530> so
+
+00:02:48.330 --> 00:02:48.340 
+object like select that you deflector so
+
+00:02:48.340 --> 00:02:50.610 
+object like select that you deflector so
+when<00:02:48.879> the<00:02:49.480> particles<00:02:49.959> now<00:02:50.109> hit<00:02:50.319> the<00:02:50.349> wall
+
+00:02:50.610 --> 00:02:50.620 
+when the particles now hit the wall
+
+00:02:50.620 --> 00:02:52.979 
+when the particles now hit the wall
+they're<00:02:50.859> going<00:02:50.980> to<00:02:51.040> be<00:02:51.159> bouncing<00:02:51.609> back<00:02:51.989> which
+
+00:02:52.979 --> 00:02:52.989 
+they're going to be bouncing back which
+
+00:02:52.989 --> 00:02:54.720 
+they're going to be bouncing back which
+is<00:02:53.170> not<00:02:53.379> what<00:02:53.560> we<00:02:53.590> want<00:02:53.859> it<00:02:53.950> to<00:02:53.980> do<00:02:54.190> but<00:02:54.430> we<00:02:54.579> do
+
+00:02:54.720 --> 00:02:54.730 
+is not what we want it to do but we do
+
+00:02:54.730 --> 00:02:57.479 
+is not what we want it to do but we do
+want<00:02:54.940> the<00:02:55.060> collision<00:02:55.420> to<00:02:55.480> be<00:02:55.599> taking<00:02:56.159> place<00:02:57.159> it
+
+00:02:57.479 --> 00:02:57.489 
+want the collision to be taking place it
+
+00:02:57.489 --> 00:02:59.190 
+want the collision to be taking place it
+that's<00:02:57.700> good<00:02:58.030> we're<00:02:58.689> going<00:02:58.780> to<00:02:58.840> go<00:02:58.989> ahead<00:02:59.109> and
+
+00:02:59.190 --> 00:02:59.200 
+that's good we're going to go ahead and
+
+00:02:59.200 --> 00:03:01.860 
+that's good we're going to go ahead and
+create<00:02:59.560> a<00:02:59.650> spawn<00:03:00.129> object<00:03:00.730> so<00:03:01.269> the<00:03:01.420> collision
+
+00:03:01.860 --> 00:03:01.870 
+create a spawn object so the collision
+
+00:03:01.870 --> 00:03:04.199 
+create a spawn object so the collision
+is<00:03:01.959> going<00:03:02.079> to<00:03:02.139> go<00:03:02.290> into<00:03:02.470> the<00:03:02.709> spawn<00:03:03.010> and<00:03:03.370> the
+
+00:03:04.199 --> 00:03:04.209 
+is going to go into the spawn and the
+
+00:03:04.209 --> 00:03:07.710 
+is going to go into the spawn and the
+spot<00:03:04.510> object<00:03:05.019> is<00:03:05.200> going<00:03:05.739> to<00:03:06.420> create<00:03:07.420> one
+
+00:03:07.710 --> 00:03:07.720 
+spot object is going to create one
+
+00:03:07.720 --> 00:03:09.839 
+spot object is going to create one
+particle<00:03:08.290> for<00:03:08.739> the<00:03:08.799> particle<00:03:09.280> that<00:03:09.400> hits<00:03:09.639> it
+
+00:03:09.839 --> 00:03:09.849 
+particle for the particle that hits it
+
+00:03:09.849 --> 00:03:12.300 
+particle for the particle that hits it
+and<00:03:10.000> it's<00:03:10.180> going<00:03:10.329> to<00:03:10.389> delete<00:03:10.750> the<00:03:10.930> parent<00:03:11.379> so
+
+00:03:12.300 --> 00:03:12.310 
+and it's going to delete the parent so
+
+00:03:12.310 --> 00:03:14.190 
+and it's going to delete the parent so
+we're<00:03:12.790> going<00:03:12.849> to<00:03:13.000> be<00:03:13.269> starting<00:03:13.540> a<00:03:13.750> brand<00:03:13.989> new
+
+00:03:14.190 --> 00:03:14.200 
+we're going to be starting a brand new
+
+00:03:14.200 --> 00:03:16.679 
+we're going to be starting a brand new
+particle<00:03:14.769> after<00:03:15.310> it<00:03:15.430> hits<00:03:15.609> that<00:03:15.849> wall<00:03:16.120> now
+
+00:03:16.679 --> 00:03:16.689 
+particle after it hits that wall now
+
+00:03:16.689 --> 00:03:17.970 
+particle after it hits that wall now
+right<00:03:16.930> now<00:03:17.109> we're<00:03:17.439> getting<00:03:17.620> the<00:03:17.769> same
+
+00:03:17.970 --> 00:03:17.980 
+right now we're getting the same
+
+00:03:17.980 --> 00:03:19.740 
+right now we're getting the same
+behavior<00:03:18.579> where<00:03:18.730> it's<00:03:18.879> just<00:03:18.940> hitting<00:03:19.359> off<00:03:19.569> the
+
+00:03:19.740 --> 00:03:19.750 
+behavior where it's just hitting off the
+
+00:03:19.750 --> 00:03:22.110 
+behavior where it's just hitting off the
+ball<00:03:19.930> and<00:03:20.049> bouncing<00:03:20.440> back<00:03:20.760> let's<00:03:21.760> go<00:03:21.940> ahead
+
+00:03:22.110 --> 00:03:22.120 
+ball and bouncing back let's go ahead
+
+00:03:22.120 --> 00:03:24.180 
+ball and bouncing back let's go ahead
+and<00:03:22.269> create<00:03:22.510> a<00:03:22.599> shape<00:03:22.989> instance<00:03:23.650> for<00:03:24.040> this
+
+00:03:24.180 --> 00:03:24.190 
+and create a shape instance for this
+
+00:03:24.190 --> 00:03:29.430 
+and create a shape instance for this
+spawn<00:03:25.060> particle<00:03:25.690> and<00:03:26.220> connect<00:03:27.220> that<00:03:27.519> and<00:03:28.440> the
+
+00:03:29.430 --> 00:03:29.440 
+spawn particle and connect that and the
+
+00:03:29.440 --> 00:03:31.619 
+spawn particle and connect that and the
+shape<00:03:29.709> instance<00:03:30.190> is<00:03:30.400> going<00:03:30.699> to<00:03:30.849> be<00:03:31.030> our<00:03:31.299> little
+
+00:03:31.619 --> 00:03:31.629 
+shape instance is going to be our little
+
+00:03:31.629 --> 00:03:33.599 
+shape instance is going to be our little
+plane<00:03:32.079> here<00:03:32.500> so<00:03:32.739> I'll<00:03:32.889> go<00:03:33.069> ahead<00:03:33.099> and<00:03:33.340> click
+
+00:03:33.599 --> 00:03:33.609 
+plane here so I'll go ahead and click
+
+00:03:33.609 --> 00:03:38.009 
+plane here so I'll go ahead and click
+that<00:03:34.530> and<00:03:35.699> let's<00:03:36.699> turn<00:03:37.000> on<00:03:37.150> the<00:03:37.180> geometry<00:03:37.540> so
+
+00:03:38.009 --> 00:03:38.019 
+that and let's turn on the geometry so
+
+00:03:38.019 --> 00:03:40.080 
+that and let's turn on the geometry so
+we<00:03:38.109> can<00:03:38.260> see<00:03:38.379> what<00:03:38.500> it<00:03:38.590> looks<00:03:38.620> like<00:03:38.980> and<00:03:39.310> right
+
+00:03:40.080 --> 00:03:40.090 
+we can see what it looks like and right
+
+00:03:40.090 --> 00:03:44.460 
+we can see what it looks like and right
+now<00:03:40.299> we<00:03:40.359> have<00:03:42.690> the<00:03:43.690> particles<00:03:44.169> are<00:03:44.229> hitting
+
+00:03:44.460 --> 00:03:44.470 
+now we have the particles are hitting
+
+00:03:44.470 --> 00:03:46.020 
+now we have the particles are hitting
+the<00:03:44.560> wall<00:03:44.709> and<00:03:44.859> then<00:03:44.979> it's<00:03:45.129> bouncing<00:03:45.609> back<00:03:45.819> as
+
+00:03:46.020 --> 00:03:46.030 
+the wall and then it's bouncing back as
+
+00:03:46.030 --> 00:03:49.080 
+the wall and then it's bouncing back as
+this<00:03:46.209> plane<00:03:46.650> so<00:03:47.650> in<00:03:47.979> order<00:03:48.099> to<00:03:48.250> stop<00:03:48.669> that<00:03:48.909> from
+
+00:03:49.080 --> 00:03:49.090 
+this plane so in order to stop that from
+
+00:03:49.090 --> 00:03:50.729 
+this plane so in order to stop that from
+occurring<00:03:49.419> we<00:03:49.750> can<00:03:49.900> go<00:03:50.049> ahead<00:03:50.139> and<00:03:50.260> just<00:03:50.500> add
+
+00:03:50.729 --> 00:03:50.739 
+occurring we can go ahead and just add
+
+00:03:50.739 --> 00:03:55.649 
+occurring we can go ahead and just add
+in<00:03:50.919> a<00:03:51.010> speed<00:03:51.400> and<00:03:52.590> set<00:03:53.590> the<00:03:53.709> speed<00:03:53.949> to<00:03:54.010> zero<00:03:54.659> so
+
+00:03:55.649 --> 00:03:55.659 
+in a speed and set the speed to zero so
+
+00:03:55.659 --> 00:03:56.969 
+in a speed and set the speed to zero so
+now<00:03:55.810> the<00:03:55.870> particles<00:03:56.530> are<00:03:56.650> going<00:03:56.799> to<00:03:56.859> be
+
+00:03:56.969 --> 00:03:56.979 
+now the particles are going to be
+
+00:03:56.979 --> 00:03:58.789 
+now the particles are going to be
+hitting<00:03:57.159> the<00:03:57.370> wall<00:03:57.519> and<00:03:57.729> just<00:03:57.879> stopping<00:03:58.449> and
+
+00:03:58.789 --> 00:03:58.799 
+hitting the wall and just stopping and
+
+00:03:58.799 --> 00:04:01.319 
+hitting the wall and just stopping and
+they're<00:03:59.799> facing<00:04:00.129> the<00:04:00.340> wrong<00:04:00.549> direction<00:04:00.609> and
+
+00:04:01.319 --> 00:04:01.329 
+they're facing the wrong direction and
+
+00:04:01.329 --> 00:04:02.939 
+they're facing the wrong direction and
+we<00:04:01.449> can<00:04:01.599> correct<00:04:01.780> that<00:04:01.989> by<00:04:02.319> adding<00:04:02.650> in<00:04:02.919> a
+
+00:04:02.939 --> 00:04:02.949 
+we can correct that by adding in a
+
+00:04:02.949 --> 00:04:06.599 
+we can correct that by adding in a
+rotate<00:04:03.549> and<00:04:04.799> right<00:04:05.799> now<00:04:05.919> with<00:04:06.099> the<00:04:06.220> random
+
+00:04:06.599 --> 00:04:06.609 
+rotate and right now with the random
+
+00:04:06.609 --> 00:04:08.039 
+rotate and right now with the random
+they're<00:04:06.760> all<00:04:06.879> over<00:04:07.090> the<00:04:07.299> place<00:04:07.329> let's<00:04:07.900> go
+
+00:04:08.039 --> 00:04:08.049 
+they're all over the place let's go
+
+00:04:08.049 --> 00:04:09.509 
+they're all over the place let's go
+ahead<00:04:08.139> and<00:04:08.229> put<00:04:08.530> it<00:04:08.620> into<00:04:08.769> the<00:04:08.979> world<00:04:09.129> space
+
+00:04:09.509 --> 00:04:09.519 
+ahead and put it into the world space
+
+00:04:09.519 --> 00:04:15.240 
+ahead and put it into the world space
+and<00:04:11.519> change<00:04:12.519> the<00:04:12.729> the<00:04:13.209> X<00:04:13.389> 2<00:04:13.659> 90<00:04:14.169> degrees<00:04:14.799> and
+
+00:04:15.240 --> 00:04:15.250 
+and change the the X 2 90 degrees and
+
+00:04:15.250 --> 00:04:18.930 
+and change the the X 2 90 degrees and
+now<00:04:15.549> we<00:04:15.609> have<00:04:16.620> it<00:04:17.620> being<00:04:17.979> flat<00:04:18.340> planes<00:04:18.699> right
+
+00:04:18.930 --> 00:04:18.940 
+now we have it being flat planes right
+
+00:04:18.940 --> 00:04:21.659 
+now we have it being flat planes right
+against<00:04:19.299> the<00:04:19.419> wall<00:04:19.829> so<00:04:20.829> the<00:04:21.099> next<00:04:21.130> thing<00:04:21.459> we
+
+00:04:21.659 --> 00:04:21.669 
+against the wall so the next thing we
+
+00:04:21.669 --> 00:04:23.129 
+against the wall so the next thing we
+need<00:04:21.820> to<00:04:21.849> do<00:04:22.090> is<00:04:22.270> we<00:04:22.419> need<00:04:22.450> to<00:04:22.630> go<00:04:22.750> ahead<00:04:22.779> and
+
+00:04:23.129 --> 00:04:23.139 
+need to do is we need to go ahead and
+
+00:04:23.139 --> 00:04:26.640 
+need to do is we need to go ahead and
+add<00:04:23.440> in<00:04:23.979> an<00:04:24.099> animated<00:04:25.260> material<00:04:26.260> so<00:04:26.469> I'm<00:04:26.529> going
+
+00:04:26.640 --> 00:04:26.650 
+add in an animated material so I'm going
+
+00:04:26.650 --> 00:04:27.480 
+add in an animated material so I'm going
+to<00:04:26.770> add<00:04:26.830> in<00:04:26.860> the
+
+00:04:27.480 --> 00:04:27.490 
+to add in the
+
+00:04:27.490 --> 00:04:29.909 
+to add in the
+the<00:04:27.759> dynamic<00:04:28.389> and<00:04:28.660> you<00:04:29.259> see<00:04:29.470> that<00:04:29.620> we<00:04:29.740> have<00:04:29.770> a
+
+00:04:29.909 --> 00:04:29.919 
+the dynamic and you see that we have a
+
+00:04:29.919 --> 00:04:32.610 
+the dynamic and you see that we have a
+dynamic<00:04:30.220> and<00:04:30.729> we<00:04:30.789> have<00:04:30.940> a<00:04:30.970> static<00:04:31.590> the<00:04:32.590> static
+
+00:04:32.610 --> 00:04:32.620 
+dynamic and we have a static the static
+
+00:04:32.620 --> 00:04:34.499 
+dynamic and we have a static the static
+would<00:04:33.069> be<00:04:33.220> any<00:04:33.370> time<00:04:33.639> you're<00:04:33.819> adding<00:04:34.090> in<00:04:34.180> a<00:04:34.270> map
+
+00:04:34.499 --> 00:04:34.509 
+would be any time you're adding in a map
+
+00:04:34.509 --> 00:04:38.010 
+would be any time you're adding in a map
+that<00:04:34.539> isn't<00:04:35.380> animated<00:04:35.949> the<00:04:36.669> dynamic<00:04:37.270> is<00:04:37.569> for
+
+00:04:38.010 --> 00:04:38.020 
+that isn't animated the dynamic is for
+
+00:04:38.020 --> 00:04:40.559 
+that isn't animated the dynamic is for
+the<00:04:38.169> animation<00:04:38.740> and<00:04:38.919> we<00:04:39.069> do<00:04:39.220> have<00:04:39.580> one<00:04:40.180> here
+
+00:04:40.559 --> 00:04:40.569 
+the animation and we do have one here
+
+00:04:40.569 --> 00:04:45.210 
+the animation and we do have one here
+that's<00:04:41.080> this<00:04:41.440> bullet<00:04:42.400> spark<00:04:43.020> and<00:04:44.020> let<00:04:44.979> me<00:04:45.069> show
+
+00:04:45.210 --> 00:04:45.220 
+that's this bullet spark and let me show
+
+00:04:45.220 --> 00:04:46.830 
+that's this bullet spark and let me show
+you<00:04:45.250> just<00:04:45.520> really<00:04:45.729> quickly<00:04:46.030> what<00:04:46.180> that<00:04:46.509> looks
+
+00:04:46.830 --> 00:04:46.840 
+you just really quickly what that looks
+
+00:04:46.840 --> 00:05:00.420 
+you just really quickly what that looks
+like<00:04:52.349> open<00:04:53.349> this<00:04:53.500> up<00:04:58.169> and<00:04:59.169> so<00:05:00.069> it's<00:05:00.220> a<00:05:00.280> very
+
+00:05:00.420 --> 00:05:00.430 
+like open this up and so it's a very
+
+00:05:00.430 --> 00:05:02.610 
+like open this up and so it's a very
+simple<00:05:00.610> animation<00:05:01.330> we<00:05:01.509> have<00:05:01.690> a<00:05:01.720> spark<00:05:02.169> we<00:05:02.470> have
+
+00:05:02.610 --> 00:05:02.620 
+simple animation we have a spark we have
+
+00:05:02.620 --> 00:05:03.839 
+simple animation we have a spark we have
+a<00:05:02.650> bullet<00:05:02.979> hole<00:05:03.130> and<00:05:03.340> we<00:05:03.430> have<00:05:03.520> just<00:05:03.759> a<00:05:03.819> little
+
+00:05:03.839 --> 00:05:03.849 
+a bullet hole and we have just a little
+
+00:05:03.849 --> 00:05:10.110 
+a bullet hole and we have just a little
+puff<00:05:04.330> of<00:05:04.479> smoke<00:05:07.889> so<00:05:08.889> if<00:05:09.220> we<00:05:09.340> go<00:05:09.669> ahead<00:05:09.880> and<00:05:10.000> just
+
+00:05:10.110 --> 00:05:10.120 
+puff of smoke so if we go ahead and just
+
+00:05:10.120 --> 00:05:14.309 
+puff of smoke so if we go ahead and just
+copy<00:05:10.419> that<00:05:10.810> as<00:05:11.020> an<00:05:11.530> instance<00:05:11.949> over<00:05:12.750> to<00:05:13.750> there
+
+00:05:14.309 --> 00:05:14.319 
+copy that as an instance over to there
+
+00:05:14.319 --> 00:05:19.589 
+copy that as an instance over to there
+we<00:05:14.800> now<00:05:15.099> have<00:05:16.680> zoom<00:05:17.680> in<00:05:18.090> so<00:05:19.090> as<00:05:19.210> we<00:05:19.330> scroll
+
+00:05:19.589 --> 00:05:19.599 
+we now have zoom in so as we scroll
+
+00:05:19.599 --> 00:05:21.629 
+we now have zoom in so as we scroll
+through<00:05:19.870> this<00:05:20.139> as<00:05:20.380> the<00:05:20.710> particles<00:05:21.130> hit<00:05:21.370> it's
+
+00:05:21.629 --> 00:05:21.639 
+through this as the particles hit it's
+
+00:05:21.639 --> 00:05:24.230 
+through this as the particles hit it's
+leaving<00:05:21.970> the<00:05:22.210> little<00:05:22.449> bullet<00:05:22.720> holes<00:05:23.220> and
+
+00:05:24.230 --> 00:05:24.240 
+leaving the little bullet holes and
+
+00:05:24.240 --> 00:05:33.089 
+leaving the little bullet holes and
+let's<00:05:25.240> go<00:05:25.360> ahead<00:05:25.509> and<00:05:25.630> just<00:05:25.720> render<00:05:31.949> and<00:05:32.949> we
+
+00:05:33.089 --> 00:05:33.099 
+let's go ahead and just render and we
+
+00:05:33.099 --> 00:05:34.379 
+let's go ahead and just render and we
+got<00:05:33.219> a<00:05:33.250> lot<00:05:33.400> of<00:05:33.430> bullet<00:05:33.759> holes<00:05:33.789> and<00:05:34.120> little
+
+00:05:34.379 --> 00:05:34.389 
+got a lot of bullet holes and little
+
+00:05:34.389 --> 00:05:37.080 
+got a lot of bullet holes and little
+sparks<00:05:34.719> and<00:05:34.870> things<00:05:35.050> like<00:05:35.199> that<00:05:35.430> so<00:05:36.430> one<00:05:37.060> of
+
+00:05:37.080 --> 00:05:37.090 
+sparks and things like that so one of
+
+00:05:37.090 --> 00:05:39.089 
+sparks and things like that so one of
+the<00:05:37.240> things<00:05:37.300> that<00:05:37.570> could<00:05:38.259> be<00:05:38.289> messed<00:05:38.680> up<00:05:38.889> if
+
+00:05:39.089 --> 00:05:39.099 
+the things that could be messed up if
+
+00:05:39.099 --> 00:05:40.890 
+the things that could be messed up if
+you<00:05:39.280> try<00:05:39.550> doing<00:05:39.610> this<00:05:40.120> is<00:05:40.360> one<00:05:40.539> of<00:05:40.659> the<00:05:40.719> things
+
+00:05:40.890 --> 00:05:40.900 
+you try doing this is one of the things
+
+00:05:40.900 --> 00:05:42.450 
+you try doing this is one of the things
+that<00:05:40.990> you<00:05:41.169> have<00:05:41.289> to<00:05:41.380> do<00:05:41.590> in<00:05:41.740> order<00:05:41.800> to<00:05:42.070> make<00:05:42.099> the
+
+00:05:42.450 --> 00:05:42.460 
+that you have to do in order to make the
+
+00:05:42.460 --> 00:05:44.730 
+that you have to do in order to make the
+particles<00:05:43.030> actually<00:05:43.300> synced<00:05:43.990> correctly<00:05:44.530> is
+
+00:05:44.730 --> 00:05:44.740 
+particles actually synced correctly is
+
+00:05:44.740 --> 00:05:47.370 
+particles actually synced correctly is
+when<00:05:45.039> you<00:05:45.159> put<00:05:46.090> your<00:05:46.120> map<00:05:46.479> in<00:05:46.810> you<00:05:47.080> have<00:05:47.349> to
+
+00:05:47.370 --> 00:05:47.380 
+when you put your map in you have to
+
+00:05:47.380 --> 00:05:50.129 
+when you put your map in you have to
+change<00:05:47.949> the<00:05:48.280> time<00:05:48.580> attribute<00:05:49.300> here<00:05:49.599> to<00:05:49.810> sync
+
+00:05:50.129 --> 00:05:50.139 
+change the time attribute here to sync
+
+00:05:50.139 --> 00:05:53.339 
+change the time attribute here to sync
+frames<00:05:50.469> to<00:05:50.800> particle<00:05:51.370> age<00:05:51.550> so<00:05:52.389> if<00:05:52.570> this<00:05:52.780> is<00:05:52.990> not
+
+00:05:53.339 --> 00:05:53.349 
+frames to particle age so if this is not
+
+00:05:53.349 --> 00:05:56.550 
+frames to particle age so if this is not
+checked<00:05:53.830> what<00:05:54.669> happens<00:05:55.419> is<00:05:55.659> if<00:05:55.840> we<00:05:56.020> go<00:05:56.469> ahead
+
+00:05:56.550 --> 00:05:56.560 
+checked what happens is if we go ahead
+
+00:05:56.560 --> 00:06:00.600 
+checked what happens is if we go ahead
+and<00:05:56.680> just<00:05:56.889> render<00:05:57.250> a<00:05:57.280> quick<00:05:57.610> view<00:05:59.099> all<00:06:00.099> the
+
+00:06:00.600 --> 00:06:00.610 
+and just render a quick view all the
+
+00:06:00.610 --> 00:06:02.510 
+and just render a quick view all the
+pull<00:06:00.819> the<00:06:01.539> bullet<00:06:01.870> holes<00:06:02.050> are<00:06:02.259> actually
+
+00:06:02.510 --> 00:06:02.520 
+pull the bullet holes are actually
+
+00:06:02.520 --> 00:06:06.020 
+pull the bullet holes are actually
+animated<00:06:03.520> to<00:06:04.030> the<00:06:04.180> same<00:06:04.710> animation
+
+00:06:06.020 --> 00:06:06.030 
+animated to the same animation
+
+00:06:06.030 --> 00:06:09.469 
+animated to the same animation
+consistently<00:06:07.030> across<00:06:07.330> so<00:06:08.020> there<00:06:08.740> is<00:06:08.979> no
+
+00:06:09.469 --> 00:06:09.479 
+consistently across so there is no
+
+00:06:09.479 --> 00:06:12.059 
+consistently across so there is no
+resetting<00:06:10.479> every<00:06:10.780> time<00:06:11.020> it<00:06:11.169> hits<00:06:11.349> the<00:06:11.530> wall<00:06:11.710> so
+
+00:06:12.059 --> 00:06:12.069 
+resetting every time it hits the wall so
+
+00:06:12.069 --> 00:06:14.909 
+resetting every time it hits the wall so
+you<00:06:12.370> basically<00:06:13.169> have<00:06:14.169> all<00:06:14.440> the<00:06:14.620> particles
+
+00:06:14.909 --> 00:06:14.919 
+you basically have all the particles
+
+00:06:14.919 --> 00:06:18.089 
+you basically have all the particles
+following<00:06:15.669> the<00:06:15.880> same<00:06:16.530> animation<00:06:17.530> motion
+
+00:06:18.089 --> 00:06:18.099 
+following the same animation motion
+
+00:06:18.099 --> 00:06:22.770 
+following the same animation motion
+which<00:06:18.219> is<00:06:18.250> not<00:06:18.520> what<00:06:18.550> you<00:06:18.789> want<00:06:21.419> but<00:06:22.419> that<00:06:22.449> can
+
+00:06:22.770 --> 00:06:22.780 
+which is not what you want but that can
+
+00:06:22.780 --> 00:06:24.360 
+which is not what you want but that can
+be<00:06:22.870> easily<00:06:23.050> handled<00:06:23.469> by<00:06:23.830> just<00:06:24.130> simply
+
+00:06:24.360 --> 00:06:24.370 
+be easily handled by just simply
+
+00:06:24.370 --> 00:06:26.999 
+be easily handled by just simply
+checking<00:06:25.060> in<00:06:25.360> this<00:06:25.659> sink<00:06:26.110> frames<00:06:26.380> to<00:06:26.590> particle
+
+00:06:26.999 --> 00:06:27.009 
+checking in this sink frames to particle
+
+00:06:27.009 --> 00:06:29.760 
+checking in this sink frames to particle
+age<00:06:27.190> and<00:06:27.520> now<00:06:28.210> it<00:06:28.449> tells<00:06:28.960> it<00:06:29.169> to<00:06:29.199> go<00:06:29.409> ahead<00:06:29.530> and
+
+00:06:29.760 --> 00:06:29.770 
+age and now it tells it to go ahead and
+
+00:06:29.770 --> 00:06:31.770 
+age and now it tells it to go ahead and
+start<00:06:30.039> the<00:06:30.159> animation<00:06:30.370> for<00:06:31.150> each<00:06:31.300> particle
+
+00:06:31.770 --> 00:06:31.780 
+start the animation for each particle
+
+00:06:31.780 --> 00:06:36.720 
+start the animation for each particle
+when<00:06:32.110> it<00:06:32.259> hits<00:06:32.440> the<00:06:32.650> surface
+
+00:06:36.720 --> 00:06:36.730 
+
+00:06:36.730 --> 00:06:39.790 
+
+so<00:06:37.730> the<00:06:37.850> other<00:06:37.970> thing<00:06:38.060> that's<00:06:38.360> kind<00:06:38.540> of<00:06:38.800> nice
+
+00:06:39.790 --> 00:06:39.800 
+so the other thing that's kind of nice
+
+00:06:39.800 --> 00:06:41.440 
+so the other thing that's kind of nice
+that<00:06:39.860> you<00:06:40.100> can<00:06:40.310> do<00:06:40.490> by<00:06:40.700> doing<00:06:40.940> it<00:06:41.060> this<00:06:41.090> way<00:06:41.240> is
+
+00:06:41.440 --> 00:06:41.450 
+that you can do by doing it this way is
+
+00:06:41.450 --> 00:06:45.670 
+that you can do by doing it this way is
+you<00:06:42.200> have<00:06:42.470> a<00:06:43.240> an<00:06:44.240> image<00:06:44.780> map<00:06:45.020> that's<00:06:45.260> doing
+
+00:06:45.670 --> 00:06:45.680 
+you have a an image map that's doing
+
+00:06:45.680 --> 00:06:47.650 
+you have a an image map that's doing
+your<00:06:45.830> bullet<00:06:46.190> hole<00:06:46.400> here<00:06:46.820> you<00:06:47.240> can<00:06:47.450> also
+
+00:06:47.650 --> 00:06:47.660 
+your bullet hole here you can also
+
+00:06:47.660 --> 00:06:49.840 
+your bullet hole here you can also
+create<00:06:48.050> another<00:06:48.440> spawn<00:06:48.919> object<00:06:49.550> that<00:06:49.669> would
+
+00:06:49.840 --> 00:06:49.850 
+create another spawn object that would
+
+00:06:49.850 --> 00:06:51.580 
+create another spawn object that would
+be<00:06:50.060> shooting<00:06:50.480> out<00:06:50.600> a<00:06:50.630> little<00:06:50.900> bit<00:06:51.110> of<00:06:51.260> debris
+
+00:06:51.580 --> 00:06:51.590 
+be shooting out a little bit of debris
+
+00:06:51.590 --> 00:06:54.190 
+be shooting out a little bit of debris
+from<00:06:52.070> the<00:06:52.190> wall<00:06:52.550> whenever<00:06:53.510> the<00:06:53.750> bullets<00:06:54.110> hit
+
+00:06:54.190 --> 00:06:54.200 
+from the wall whenever the bullets hit
+
+00:06:54.200 --> 00:06:57.370 
+from the wall whenever the bullets hit
+and<00:06:54.790> I'm<00:06:55.790> not<00:06:55.910> going<00:06:56.030> to<00:06:56.090> go<00:06:56.240> through<00:06:57.020> it<00:06:57.230> but
+
+00:06:57.370 --> 00:06:57.380 
+and I'm not going to go through it but
+
+00:06:57.380 --> 00:06:59.590 
+and I'm not going to go through it but
+what<00:06:58.280> you<00:06:58.400> could<00:06:58.550> just<00:06:58.820> do<00:06:59.030> is<00:06:59.210> you<00:06:59.330> could<00:06:59.480> just
+
+00:06:59.590 --> 00:06:59.600 
+what you could just do is you could just
+
+00:06:59.600 --> 00:07:03.490 
+what you could just do is you could just
+add<00:06:59.840> in<00:07:00.020> another<00:07:00.139> spawn<00:07:00.680> target<00:07:01.160> here<00:07:02.500> now
+
+00:07:03.490 --> 00:07:03.500 
+add in another spawn target here now
+
+00:07:03.500 --> 00:07:05.320 
+add in another spawn target here now
+this<00:07:03.710> one<00:07:03.919> needs<00:07:04.130> to<00:07:04.280> be<00:07:04.370> above<00:07:04.760> the<00:07:04.790> other<00:07:05.090> one
+
+00:07:05.320 --> 00:07:05.330 
+this one needs to be above the other one
+
+00:07:05.330 --> 00:07:07.240 
+this one needs to be above the other one
+because<00:07:05.570> the<00:07:05.900> other<00:07:05.990> one<00:07:06.230> deletes<00:07:06.650> the
+
+00:07:07.240 --> 00:07:07.250 
+because the other one deletes the
+
+00:07:07.250 --> 00:07:09.010 
+because the other one deletes the
+particle<00:07:07.729> and<00:07:07.880> if<00:07:07.940> it's<00:07:08.090> below<00:07:08.270> it<00:07:08.570> actually
+
+00:07:09.010 --> 00:07:09.020 
+particle and if it's below it actually
+
+00:07:09.020 --> 00:07:12.070 
+particle and if it's below it actually
+deletes<00:07:09.410> before<00:07:09.770> it<00:07:09.830> does<00:07:09.950> anything<00:07:10.010> and<00:07:11.080> if
+
+00:07:12.070 --> 00:07:12.080 
+deletes before it does anything and if
+
+00:07:12.080 --> 00:07:14.710 
+deletes before it does anything and if
+we<00:07:12.290> create<00:07:12.500> it<00:07:12.650> just<00:07:12.830> a<00:07:12.950> simple<00:07:13.100> shape<00:07:13.720> over
+
+00:07:14.710 --> 00:07:14.720 
+we create it just a simple shape over
+
+00:07:14.720 --> 00:07:17.590 
+we create it just a simple shape over
+here<00:07:15.169> and<00:07:15.350> connected<00:07:16.040> it<00:07:16.240> whenever<00:07:17.240> the
+
+00:07:17.590 --> 00:07:17.600 
+here and connected it whenever the
+
+00:07:17.600 --> 00:07:21.310 
+here and connected it whenever the
+particles<00:07:18.229> hit<00:07:19.389> let's<00:07:20.389> go<00:07:20.600> to<00:07:20.660> view<00:07:21.139> we<00:07:21.290> can
+
+00:07:21.310 --> 00:07:21.320 
+particles hit let's go to view we can
+
+00:07:21.320 --> 00:07:25.540 
+particles hit let's go to view we can
+actually<00:07:21.620> see<00:07:22.040> it<00:07:24.190> you're<00:07:25.190> going<00:07:25.310> to<00:07:25.370> get
+
+00:07:25.540 --> 00:07:25.550 
+actually see it you're going to get
+
+00:07:25.550 --> 00:07:29.050 
+actually see it you're going to get
+particles<00:07:26.770> coming<00:07:27.770> back<00:07:28.100> so<00:07:28.460> let's<00:07:28.820> go<00:07:29.030> ahead
+
+00:07:29.050 --> 00:07:29.060 
+particles coming back so let's go ahead
+
+00:07:29.060 --> 00:07:32.620 
+particles coming back so let's go ahead
+and<00:07:29.300> add<00:07:30.010> make<00:07:31.010> it<00:07:31.160> 10<00:07:31.400> particles<00:07:31.790> and<00:07:32.330> let's
+
+00:07:32.620 --> 00:07:32.630 
+and add make it 10 particles and let's
+
+00:07:32.630 --> 00:07:35.650 
+and add make it 10 particles and let's
+make<00:07:33.530> this<00:07:33.740> something<00:07:34.010> that<00:07:34.639> we<00:07:35.120> can<00:07:35.330> see<00:07:35.630> a
+
+00:07:35.650 --> 00:07:35.660 
+make this something that we can see a
+
+00:07:35.660 --> 00:07:38.110 
+make this something that we can see a
+little<00:07:35.930> better<00:07:36.110> so<00:07:36.800> you<00:07:36.830> can<00:07:36.919> see<00:07:37.340> on<00:07:37.669> this
+
+00:07:38.110 --> 00:07:38.120 
+little better so you can see on this
+
+00:07:38.120 --> 00:07:41.650 
+little better so you can see on this
+side<00:07:38.419> is<00:07:38.660> now<00:07:39.940> when<00:07:40.940> it's<00:07:41.090> hitting<00:07:41.450> it's
+
+00:07:41.650 --> 00:07:41.660 
+side is now when it's hitting it's
+
+00:07:41.660 --> 00:07:43.750 
+side is now when it's hitting it's
+blowing<00:07:42.110> back<00:07:42.289> these<00:07:42.500> particles<00:07:43.130> and<00:07:43.550> of
+
+00:07:43.750 --> 00:07:43.760 
+blowing back these particles and of
+
+00:07:43.760 --> 00:07:45.310 
+blowing back these particles and of
+course<00:07:44.000> you<00:07:44.270> don't<00:07:44.390> want<00:07:44.600> to<00:07:44.690> shoot<00:07:45.020> in<00:07:45.140> out
+
+00:07:45.310 --> 00:07:45.320 
+course you don't want to shoot in out
+
+00:07:45.320 --> 00:07:48.130 
+course you don't want to shoot in out
+this<00:07:45.620> far<00:07:45.919> but<00:07:46.310> if<00:07:46.640> you<00:07:47.060> follow<00:07:47.300> what<00:07:47.419> we<00:07:47.840> went
+
+00:07:48.130 --> 00:07:48.140 
+this far but if you follow what we went
+
+00:07:48.140 --> 00:07:49.540 
+this far but if you follow what we went
+over<00:07:48.229> on<00:07:48.440> the<00:07:48.560> other<00:07:48.590> tutorials<00:07:49.340> you<00:07:49.520> can
+
+00:07:49.540 --> 00:07:49.550 
+over on the other tutorials you can
+
+00:07:49.550 --> 00:07:52.300 
+over on the other tutorials you can
+quickly<00:07:49.970> go<00:07:50.390> ahead<00:07:50.720> and<00:07:50.990> put<00:07:51.350> in<00:07:51.470> some<00:07:51.710> gravity
+
+00:07:52.300 --> 00:07:52.310 
+quickly go ahead and put in some gravity
+
+00:07:52.310 --> 00:07:57.040 
+quickly go ahead and put in some gravity
+and<00:07:53.200> drag<00:07:54.200> and<00:07:54.700> a<00:07:55.700> collision<00:07:56.419> object<00:07:56.510> on<00:07:56.930> the
+
+00:07:57.040 --> 00:07:57.050 
+and drag and a collision object on the
+
+00:07:57.050 --> 00:07:59.080 
+and drag and a collision object on the
+ground<00:07:57.260> so<00:07:57.500> it<00:07:57.620> bounces<00:07:57.800> and<00:07:58.310> at<00:07:58.729> the<00:07:58.850> end<00:07:58.970> of
+
+00:07:59.080 --> 00:07:59.090 
+ground so it bounces and at the end of
+
+00:07:59.090 --> 00:08:00.820 
+ground so it bounces and at the end of
+this<00:07:59.180> I'll<00:07:59.360> show<00:07:59.539> you<00:07:59.600> an<00:07:59.840> example<00:07:59.960> of<00:08:00.590> just
+
+00:08:00.820 --> 00:08:00.830 
+this I'll show you an example of just
+
+00:08:00.830 --> 00:08:03.070 
+this I'll show you an example of just
+that
+

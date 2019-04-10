@@ -1,0 +1,709 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.680 --> 00:00:03.949 
+
+hello<00:00:01.680> dart<00:00:02.070> pivot<00:00:02.310> productions<00:00:02.700> here<00:00:02.909> and<00:00:03.120> in
+
+00:00:03.949 --> 00:00:03.959 
+hello dart pivot productions here and in
+
+00:00:03.959 --> 00:00:06.230 
+hello dart pivot productions here and in
+this<00:00:04.110> tutorial<00:00:04.290> I<00:00:04.890> will<00:00:05.160> be<00:00:05.460> showing<00:00:05.700> you<00:00:05.970> how
+
+00:00:06.230 --> 00:00:06.240 
+this tutorial I will be showing you how
+
+00:00:06.240 --> 00:00:09.250 
+this tutorial I will be showing you how
+to<00:00:06.379> make<00:00:07.379> artificial<00:00:07.890> camera<00:00:08.429> movement<00:00:08.880> or
+
+00:00:09.250 --> 00:00:09.260 
+to make artificial camera movement or
+
+00:00:09.260 --> 00:00:11.419 
+to make artificial camera movement or
+camera<00:00:10.260> shake<00:00:10.530> or<00:00:10.769> whatever<00:00:11.190> you<00:00:11.250> want<00:00:11.370> to
+
+00:00:11.419 --> 00:00:11.429 
+camera shake or whatever you want to
+
+00:00:11.429 --> 00:00:14.089 
+camera shake or whatever you want to
+call<00:00:11.519> it<00:00:11.580> so<00:00:12.540> let's<00:00:12.809> begin<00:00:12.929> in<00:00:13.320> my<00:00:13.799> previous
+
+00:00:14.089 --> 00:00:14.099 
+call it so let's begin in my previous
+
+00:00:14.099 --> 00:00:16.240 
+call it so let's begin in my previous
+tutorial<00:00:14.610> I<00:00:14.820> shows<00:00:15.150> you<00:00:15.360> how<00:00:15.540> to<00:00:15.599> make
+
+00:00:16.240 --> 00:00:16.250 
+tutorial I shows you how to make
+
+00:00:16.250 --> 00:00:18.640 
+tutorial I shows you how to make
+yourself<00:00:17.250> levitate<00:00:17.730> between<00:00:18.060> two<00:00:18.270> buildings
+
+00:00:18.640 --> 00:00:18.650 
+yourself levitate between two buildings
+
+00:00:18.650 --> 00:00:22.099 
+yourself levitate between two buildings
+so<00:00:19.650> I'm<00:00:20.039> going<00:00:20.400> to<00:00:20.430> use<00:00:20.609> that<00:00:21.300> as<00:00:21.750> an<00:00:22.020> example
+
+00:00:22.099 --> 00:00:22.109 
+so I'm going to use that as an example
+
+00:00:22.109 --> 00:00:25.519 
+so I'm going to use that as an example
+for<00:00:22.859> this<00:00:23.130> tutorial<00:00:23.539> so<00:00:24.539> what<00:00:25.019> you<00:00:25.109> want<00:00:25.260> to<00:00:25.410> do
+
+00:00:25.519 --> 00:00:25.529 
+for this tutorial so what you want to do
+
+00:00:25.529 --> 00:00:28.460 
+for this tutorial so what you want to do
+is<00:00:25.740> you<00:00:25.920> appt<00:00:26.250> if<00:00:26.490> if<00:00:27.000> you<00:00:27.359> are<00:00:27.570> just<00:00:28.080> coming<00:00:28.289> to
+
+00:00:28.460 --> 00:00:28.470 
+is you appt if if you are just coming to
+
+00:00:28.470 --> 00:00:33.610 
+is you appt if if you are just coming to
+this<00:00:28.560> tutorial<00:00:28.769> after<00:00:29.250> following<00:00:29.670> me
+
+00:00:33.610 --> 00:00:33.620 
+
+00:00:33.620 --> 00:00:36.799 
+
+levitating<00:00:34.730> tutorial<00:00:35.730> sorry<00:00:35.940> with<00:00:36.570> swim
+
+00:00:36.799 --> 00:00:36.809 
+levitating tutorial sorry with swim
+
+00:00:36.809 --> 00:00:38.750 
+levitating tutorial sorry with swim
+playing<00:00:37.050> for<00:00:37.170> a<00:00:37.200> minute<00:00:37.320> after<00:00:38.129> following<00:00:38.520> the
+
+00:00:38.750 --> 00:00:38.760 
+playing for a minute after following the
+
+00:00:38.760 --> 00:00:41.780 
+playing for a minute after following the
+levitation<00:00:39.149> tutorial<00:00:39.809> then<00:00:40.620> what<00:00:41.579> you<00:00:41.640> want
+
+00:00:41.780 --> 00:00:41.790 
+levitation tutorial then what you want
+
+00:00:41.790 --> 00:00:44.450 
+levitation tutorial then what you want
+to<00:00:41.910> do<00:00:42.030> is<00:00:42.210> you<00:00:42.239> want<00:00:42.390> to<00:00:42.660> render<00:00:43.100> that<00:00:44.100> video
+
+00:00:44.450 --> 00:00:44.460 
+to do is you want to render that video
+
+00:00:44.460 --> 00:00:47.180 
+to do is you want to render that video
+out<00:00:44.550> as<00:00:45.180> a<00:00:45.239> video<00:00:45.930> file<00:00:46.200> and<00:00:46.500> then<00:00:46.620> bring<00:00:47.070> it
+
+00:00:47.180 --> 00:00:47.190 
+out as a video file and then bring it
+
+00:00:47.190 --> 00:00:49.729 
+out as a video file and then bring it
+back<00:00:47.219> into<00:00:47.550> after<00:00:47.969> effects<00:00:48.270> if<00:00:48.719> you<00:00:49.559> haven't
+
+00:00:49.729 --> 00:00:49.739 
+back into after effects if you haven't
+
+00:00:49.739 --> 00:00:51.229 
+back into after effects if you haven't
+done<00:00:49.950> that<00:00:50.010> already<00:00:50.370> and<00:00:50.820> pause<00:00:51.030> the<00:00:51.180> video
+
+00:00:51.229 --> 00:00:51.239 
+done that already and pause the video
+
+00:00:51.239 --> 00:00:54.439 
+done that already and pause the video
+and<00:00:51.480> do<00:00:51.600> it<00:00:51.750> now<00:00:52.489> so<00:00:53.489> we're<00:00:53.760> going<00:00:53.850> to<00:00:54.030> import
+
+00:00:54.439 --> 00:00:54.449 
+and do it now so we're going to import
+
+00:00:54.449 --> 00:00:58.040 
+and do it now so we're going to import
+that<00:00:54.719> video<00:00:56.360> going<00:00:57.360> to<00:00:57.449> find<00:00:57.660> it<00:00:57.840> and<00:00:57.870> it's
+
+00:00:58.040 --> 00:00:58.050 
+that video going to find it and it's
+
+00:00:58.050 --> 00:01:03.319 
+that video going to find it and it's
+right<00:00:58.320> here<00:00:58.670> what<00:01:01.129> okay<00:01:02.129> that<00:01:02.280> was<00:01:02.399> odd<00:01:02.579> but<00:01:03.210> it
+
+00:01:03.319 --> 00:01:03.329 
+right here what okay that was odd but it
+
+00:01:03.329 --> 00:01:05.030 
+right here what okay that was odd but it
+works<00:01:03.510> okay<00:01:03.899> make<00:01:04.500> it<00:01:04.650> into<00:01:04.860> a<00:01:04.890> new
+
+00:01:05.030 --> 00:01:05.040 
+works okay make it into a new
+
+00:01:05.040 --> 00:01:09.320 
+works okay make it into a new
+composition<00:01:05.430> and<00:01:06.920> there<00:01:07.920> I<00:01:07.950> am<00:01:08.330> levitating
+
+00:01:09.320 --> 00:01:09.330 
+composition and there I am levitating
+
+00:01:09.330 --> 00:01:17.690 
+composition and there I am levitating
+across<00:01:12.740> across<00:01:13.820> so<00:01:15.860> what<00:01:16.860> you<00:01:16.979> want<00:01:17.220> to<00:01:17.340> do<00:01:17.460> is
+
+00:01:17.690 --> 00:01:17.700 
+across across so what you want to do is
+
+00:01:17.700 --> 00:01:26.630 
+across across so what you want to do is
+you<00:01:17.729> want<00:01:17.850> to<00:01:18.090> get<00:01:18.330> a<00:01:18.360> video<00:01:18.890> of<00:01:21.799> yourself<00:01:25.640> here
+
+00:01:26.630 --> 00:01:26.640 
+you want to get a video of yourself here
+
+00:01:26.640 --> 00:01:29.359 
+you want to get a video of yourself here
+here's<00:01:26.970> a<00:01:27.030> here's<00:01:27.360> the<00:01:27.479> example<00:01:28.369> filming
+
+00:01:29.359 --> 00:01:29.369 
+here's a here's the example filming
+
+00:01:29.369 --> 00:01:31.730 
+here's a here's the example filming
+something<00:01:29.729> with<00:01:30.090> to<00:01:30.420> contrast<00:01:31.140> points<00:01:31.590> at
+
+00:01:31.730 --> 00:01:31.740 
+something with to contrast points at
+
+00:01:31.740 --> 00:01:37.100 
+something with to contrast points at
+least<00:01:32.030> and<00:01:33.259> I<00:01:34.259> used<00:01:34.820> this<00:01:35.820> point<00:01:36.240> in<00:01:36.420> this
+
+00:01:37.100 --> 00:01:37.110 
+least and I used this point in this
+
+00:01:37.110 --> 00:01:39.710 
+least and I used this point in this
+point<00:01:37.470> and<00:01:37.680> I<00:01:38.369> just<00:01:38.549> filmed<00:01:38.850> it<00:01:39.119> with<00:01:39.390> all<00:01:39.600> the
+
+00:01:39.710 --> 00:01:39.720 
+point and I just filmed it with all the
+
+00:01:39.720 --> 00:01:42.260 
+point and I just filmed it with all the
+camera<00:01:40.079> shake<00:01:40.290> that<00:01:40.500> I<00:01:40.530> wanted<00:01:41.270> camera
+
+00:01:42.260 --> 00:01:42.270 
+camera shake that I wanted camera
+
+00:01:42.270 --> 00:01:44.960 
+camera shake that I wanted camera
+movement<00:01:42.630> so<00:01:42.869> I<00:01:43.170> just<00:01:44.100> held<00:01:44.250> the<00:01:44.280> camera<00:01:44.549> like
+
+00:01:44.960 --> 00:01:44.970 
+movement so I just held the camera like
+
+00:01:44.970 --> 00:01:47.569 
+movement so I just held the camera like
+that<00:01:45.470> maybe<00:01:46.470> give<00:01:46.710> it<00:01:46.829> a<00:01:46.890> little<00:01:47.040> extra<00:01:47.220> shape
+
+00:01:47.569 --> 00:01:47.579 
+that maybe give it a little extra shape
+
+00:01:47.579 --> 00:01:48.980 
+that maybe give it a little extra shape
+because<00:01:47.790> I<00:01:47.970> can<00:01:48.149> hold<00:01:48.329> it<00:01:48.450> kind<00:01:48.689> of<00:01:48.750> steady
+
+00:01:48.980 --> 00:01:48.990 
+because I can hold it kind of steady
+
+00:01:48.990 --> 00:01:52.300 
+because I can hold it kind of steady
+really<00:01:49.670> after<00:01:50.670> a<00:01:51.240> lot<00:01:51.509> of<00:01:51.630> experience<00:01:52.079> with
+
+00:01:52.300 --> 00:01:52.310 
+really after a lot of experience with
+
+00:01:52.310 --> 00:01:56.630 
+really after a lot of experience with
+camera<00:01:53.630> operating<00:01:54.630> and<00:01:54.869> stuff<00:01:55.369> it's<00:01:56.369> just<00:01:56.579> a
+
+00:01:56.630 --> 00:01:56.640 
+camera operating and stuff it's just a
+
+00:01:56.640 --> 00:02:00.380 
+camera operating and stuff it's just a
+little<00:01:56.729> handheld<00:01:57.060> camera<00:01:57.540> um<00:01:57.930> oh<00:01:59.090> yes<00:02:00.090> I<00:02:00.270> have
+
+00:02:00.380 --> 00:02:00.390 
+little handheld camera um oh yes I have
+
+00:02:00.390 --> 00:02:04.850 
+little handheld camera um oh yes I have
+an<00:02:00.479> ipod<00:02:00.719> touch<00:02:00.990> dog<00:02:01.549> it<00:02:02.549> doesn't<00:02:02.909> matter<00:02:03.860> so
+
+00:02:04.850 --> 00:02:04.860 
+an ipod touch dog it doesn't matter so
+
+00:02:04.860 --> 00:02:08.300 
+an ipod touch dog it doesn't matter so
+yeah<00:02:05.340> and<00:02:05.810> this<00:02:06.810> clip<00:02:07.170> is<00:02:07.200> exactly<00:02:07.890> the<00:02:08.069> same
+
+00:02:08.300 --> 00:02:08.310 
+yeah and this clip is exactly the same
+
+00:02:08.310 --> 00:02:13.250 
+yeah and this clip is exactly the same
+length<00:02:08.610> as<00:02:08.940> the<00:02:11.720> levitation<00:02:12.720> clip
+
+00:02:13.250 --> 00:02:13.260 
+length as the levitation clip
+
+00:02:13.260 --> 00:02:17.030 
+length as the levitation clip
+actually<00:02:14.069> it's<00:02:14.250> like<00:02:15.439> like<00:02:16.439> a<00:02:16.470> quarter<00:02:16.920> of<00:02:16.950> a
+
+00:02:17.030 --> 00:02:17.040 
+actually it's like like a quarter of a
+
+00:02:17.040 --> 00:02:19.699 
+actually it's like like a quarter of a
+second<00:02:17.310> longer<00:02:17.430> doesn't<00:02:17.819> matter<00:02:18.439> I'm<00:02:19.439> just
+
+00:02:19.699 --> 00:02:19.709 
+second longer doesn't matter I'm just
+
+00:02:19.709 --> 00:02:21.170 
+second longer doesn't matter I'm just
+going<00:02:19.829> to<00:02:19.860> do<00:02:19.980> the<00:02:20.069> first<00:02:20.189> five<00:02:20.489> seconds<00:02:20.939> for
+
+00:02:21.170 --> 00:02:21.180 
+going to do the first five seconds for
+
+00:02:21.180 --> 00:02:25.190 
+going to do the first five seconds for
+this<00:02:21.269> tutorial<00:02:21.920> make<00:02:22.920> a<00:02:22.950> short<00:02:23.250> one<00:02:23.370> so<00:02:24.239> what
+
+00:02:25.190 --> 00:02:25.200 
+this tutorial make a short one so what
+
+00:02:25.200 --> 00:02:26.780 
+this tutorial make a short one so what
+you<00:02:25.290> want<00:02:25.439> to<00:02:25.530> do<00:02:25.620> is<00:02:25.860> you<00:02:25.890> want<00:02:26.040> to<00:02:26.340> go<00:02:26.670> to<00:02:26.730> your
+
+00:02:26.780 --> 00:02:26.790 
+you want to do is you want to go to your
+
+00:02:26.790 --> 00:02:30.740 
+you want to do is you want to go to your
+workspace<00:02:27.269> and<00:02:27.720> go<00:02:28.349> to<00:02:28.409> motion<00:02:29.250> tracking<00:02:29.750> if
+
+00:02:30.740 --> 00:02:30.750 
+workspace and go to motion tracking if
+
+00:02:30.750 --> 00:02:32.839 
+workspace and go to motion tracking if
+you're<00:02:30.930> not<00:02:31.019> already<00:02:31.140> there<00:02:31.489> click<00:02:32.489> track
+
+00:02:32.839 --> 00:02:32.849 
+you're not already there click track
+
+00:02:32.849 --> 00:02:42.490 
+you're not already there click track
+motion<00:02:33.120> Oh<00:02:33.920> actually<00:02:37.970> move<00:02:38.970> this<00:02:39.120> to<00:02:39.299> the<00:02:39.329> top
+
+00:02:42.490 --> 00:02:42.500 
+
+00:02:42.500 --> 00:02:48.589 
+
+okay<00:02:43.500> I<00:02:43.680> messed<00:02:44.010> up<00:02:44.250> there<00:02:47.000> don't<00:02:48.000> worry<00:02:48.239> about
+
+00:02:48.589 --> 00:02:48.599 
+okay I messed up there don't worry about
+
+00:02:48.599 --> 00:02:52.009 
+okay I messed up there don't worry about
+the<00:02:49.489> don't<00:02:50.489> worry<00:02:50.640> hold<00:02:50.819> on<00:02:50.940> let<00:02:51.030> me<00:02:51.090> fix<00:02:51.690> it<00:02:51.870> up
+
+00:02:52.009 --> 00:02:52.019 
+the don't worry hold on let me fix it up
+
+00:02:52.019 --> 00:02:56.599 
+the don't worry hold on let me fix it up
+okay<00:02:52.889> you're<00:02:53.489> going<00:02:53.609> to<00:02:53.670> go<00:02:53.849> to<00:02:53.909> layer<00:02:54.389> new<00:02:55.609> not
+
+00:02:56.599 --> 00:02:56.609 
+okay you're going to go to layer new not
+
+00:02:56.609 --> 00:03:01.879 
+okay you're going to go to layer new not
+solid<00:02:57.090> crap<00:02:58.010> where<00:02:59.010> new<00:03:00.109> null<00:03:01.109> object<00:03:01.650> there
+
+00:03:01.879 --> 00:03:01.889 
+solid crap where new null object there
+
+00:03:01.889 --> 00:03:04.129 
+solid crap where new null object there
+we<00:03:01.980> go<00:03:02.129> sorry<00:03:02.730> about<00:03:02.819> that<00:03:02.940> and<00:03:03.299> i'm<00:03:03.989> going<00:03:04.079> to
+
+00:03:04.129 --> 00:03:04.139 
+we go sorry about that and i'm going to
+
+00:03:04.139 --> 00:03:12.520 
+we go sorry about that and i'm going to
+rename<00:03:04.290> it<00:03:05.000> motion<00:03:06.470> capture<00:03:07.849> data<00:03:09.200> ok<00:03:10.200> dad<00:03:10.470> and
+
+00:03:12.520 --> 00:03:12.530 
+rename it motion capture data ok dad and
+
+00:03:12.530 --> 00:03:17.409 
+rename it motion capture data ok dad and
+we're<00:03:13.530> going<00:03:13.560> to<00:03:13.799> click<00:03:14.220> track<00:03:14.459> motion<00:03:15.769> and
+
+00:03:17.409 --> 00:03:17.419 
+we're going to click track motion and
+
+00:03:17.419 --> 00:03:30.379 
+we're going to click track motion and
+we're<00:03:18.419> going<00:03:18.660> to<00:03:18.690> get<00:03:21.650> this<00:03:22.650> file<00:03:23.780> and<00:03:29.389> some
+
+00:03:30.379 --> 00:03:30.389 
+we're going to get this file and some
+
+00:03:30.389 --> 00:03:32.569 
+we're going to get this file and some
+reason<00:03:30.660> to<00:03:30.750> pop<00:03:30.930> up<00:03:30.959> and<00:03:31.230> a<00:03:31.260> clip<00:03:32.190> position
+
+00:03:32.569 --> 00:03:32.579 
+reason to pop up and a clip position
+
+00:03:32.579 --> 00:03:35.240 
+reason to pop up and a clip position
+rotation<00:03:32.849> and<00:03:33.510> if<00:03:33.989> you<00:03:34.169> have<00:03:34.349> any<00:03:34.379> zooming<00:03:35.069> in
+
+00:03:35.240 --> 00:03:35.250 
+rotation and if you have any zooming in
+
+00:03:35.250 --> 00:03:37.729 
+rotation and if you have any zooming in
+or<00:03:35.459> just<00:03:36.449> like<00:03:36.629> moving<00:03:36.900> your<00:03:37.049> camera<00:03:37.410> forward
+
+00:03:37.729 --> 00:03:37.739 
+or just like moving your camera forward
+
+00:03:37.739 --> 00:03:40.729 
+or just like moving your camera forward
+or<00:03:37.829> backwards<00:03:38.250> then<00:03:38.579> you<00:03:38.730> scale<00:03:39.150> and<00:03:39.739> we're
+
+00:03:40.729 --> 00:03:40.739 
+or backwards then you scale and we're
+
+00:03:40.739 --> 00:03:43.640 
+or backwards then you scale and we're
+going<00:03:40.919> to<00:03:40.980> pick<00:03:41.160> our<00:03:41.310> contrast<00:03:41.819> points<00:03:42.650> for
+
+00:03:43.640 --> 00:03:43.650 
+going to pick our contrast points for
+
+00:03:43.650 --> 00:03:46.699 
+going to pick our contrast points for
+this<00:03:43.739> clip<00:03:44.129> they<00:03:44.549> need<00:03:44.730> to<00:03:44.819> be<00:03:44.879> fairly<00:03:45.269> big<00:03:45.709> so
+
+00:03:46.699 --> 00:03:46.709 
+this clip they need to be fairly big so
+
+00:03:46.709 --> 00:03:49.670 
+this clip they need to be fairly big so
+that<00:03:46.889> they<00:03:47.220> have<00:03:47.489> a<00:03:47.519> better<00:03:47.790> track<00:03:48.209> it<00:03:48.870> doesn't
+
+00:03:49.670 --> 00:03:49.680 
+that they have a better track it doesn't
+
+00:03:49.680 --> 00:03:51.710 
+that they have a better track it doesn't
+with<00:03:50.370> this<00:03:50.579> kind<00:03:50.790> of<00:03:50.910> motion<00:03:51.090> tracking<00:03:51.480> it
+
+00:03:51.710 --> 00:03:51.720 
+with this kind of motion tracking it
+
+00:03:51.720 --> 00:03:53.569 
+with this kind of motion tracking it
+doesn't<00:03:52.169> really<00:03:52.440> have<00:03:52.769> to<00:03:52.799> be<00:03:52.980> perfect
+
+00:03:53.569 --> 00:03:53.579 
+doesn't really have to be perfect
+
+00:03:53.579 --> 00:03:57.170 
+doesn't really have to be perfect
+because<00:03:54.709> you're<00:03:55.709> not<00:03:56.159> going<00:03:56.400> to<00:03:56.459> actually<00:03:56.609> see
+
+00:03:57.170 --> 00:03:57.180 
+because you're not going to actually see
+
+00:03:57.180 --> 00:04:01.699 
+because you're not going to actually see
+motion<00:03:57.810> tracking<00:03:59.540> so<00:04:00.540> I<00:04:00.569> think<00:04:00.900> that<00:04:01.230> that
+
+00:04:01.699 --> 00:04:01.709 
+motion tracking so I think that that
+
+00:04:01.709 --> 00:04:04.670 
+motion tracking so I think that that
+would<00:04:02.099> be<00:04:02.159> good<00:04:02.400> so<00:04:03.379> I'm<00:04:04.379> going<00:04:04.530> to<00:04:04.590> just
+
+00:04:04.670 --> 00:04:04.680 
+would be good so I'm going to just
+
+00:04:04.680 --> 00:04:06.259 
+would be good so I'm going to just
+render<00:04:05.069> the<00:04:05.159> first<00:04:05.370> I'm<00:04:05.579> going<00:04:05.699> to<00:04:05.760> analyze
+
+00:04:06.259 --> 00:04:06.269 
+render the first I'm going to analyze
+
+00:04:06.269 --> 00:04:09.349 
+render the first I'm going to analyze
+the<00:04:06.510> first<00:04:06.690> five<00:04:06.900> seconds<00:04:07.319> this<00:04:07.500> so<00:04:08.269> here<00:04:09.269> we
+
+00:04:09.349 --> 00:04:09.359 
+the first five seconds this so here we
+
+00:04:09.359 --> 00:04:13.719 
+the first five seconds this so here we
+go<00:04:09.859> and<00:04:10.859> it<00:04:11.280> seems<00:04:11.489> to<00:04:11.639> stay<00:04:11.849> on<00:04:12.000> very<00:04:12.449> well
+
+00:04:13.719 --> 00:04:13.729 
+go and it seems to stay on very well
+
+00:04:13.729 --> 00:04:19.150 
+go and it seems to stay on very well
+it's<00:04:14.729> nice
+
+00:04:19.150 --> 00:04:19.160 
+
+00:04:19.160 --> 00:04:29.590 
+
+sorry<00:04:20.160> about<00:04:20.280> that<00:04:22.100> to<00:04:23.100> do<00:04:25.880> but<00:04:26.880> a<00:04:27.169> boom<00:04:28.169> and
+
+00:04:29.590 --> 00:04:29.600 
+sorry about that to do but a boom and
+
+00:04:29.600 --> 00:04:34.550 
+sorry about that to do but a boom and
+there<00:04:30.600> we<00:04:30.690> go<00:04:30.979> so<00:04:31.979> it<00:04:32.880> stays<00:04:33.600> on<00:04:33.810> pretty<00:04:34.380> well
+
+00:04:34.550 --> 00:04:34.560 
+there we go so it stays on pretty well
+
+00:04:34.560 --> 00:04:37.610 
+there we go so it stays on pretty well
+so<00:04:35.190> we're<00:04:35.280> going<00:04:35.370> to<00:04:35.639> go<00:04:35.669> to<00:04:35.900> edit<00:04:36.900> target<00:04:37.410> and
+
+00:04:37.610 --> 00:04:37.620 
+so we're going to go to edit target and
+
+00:04:37.620 --> 00:04:39.529 
+so we're going to go to edit target and
+make<00:04:37.919> sure<00:04:37.949> it's<00:04:38.310> on<00:04:38.400> motion<00:04:38.910> capture<00:04:39.360> data
+
+00:04:39.529 --> 00:04:39.539 
+make sure it's on motion capture data
+
+00:04:39.539 --> 00:04:42.680 
+make sure it's on motion capture data
+click<00:04:40.320> OK<00:04:40.650> and<00:04:40.889> then<00:04:40.949> click<00:04:41.699> apply<00:04:41.820> make<00:04:42.660> sure
+
+00:04:42.680 --> 00:04:42.690 
+click OK and then click apply make sure
+
+00:04:42.690 --> 00:04:47.510 
+click OK and then click apply make sure
+it's<00:04:42.960> x<00:04:43.169> and<00:04:43.410> y<00:04:43.639> click<00:04:44.639> OK<00:04:44.759> and<00:04:45.380> there<00:04:46.380> we<00:04:46.470> go<00:04:46.620> so
+
+00:04:47.510 --> 00:04:47.520 
+it's x and y click OK and there we go so
+
+00:04:47.520 --> 00:04:56.300 
+it's x and y click OK and there we go so
+now<00:04:47.550> as<00:04:48.030> you<00:04:48.270> can<00:04:48.419> see<00:04:52.580> here<00:04:53.580> here<00:04:53.940> it<00:04:54.000> is<00:04:55.310> it's
+
+00:04:56.300 --> 00:04:56.310 
+now as you can see here here it is it's
+
+00:04:56.310 --> 00:04:58.610 
+now as you can see here here it is it's
+moving<00:04:56.669> around<00:04:56.850> nice<00:04:57.260> so<00:04:58.260> what<00:04:58.410> we're<00:04:58.530> going
+
+00:04:58.610 --> 00:04:58.620 
+moving around nice so what we're going
+
+00:04:58.620 --> 00:05:03.219 
+moving around nice so what we're going
+to<00:04:58.830> do<00:04:58.979> is<00:04:59.280> we<00:04:59.910> can<00:05:00.030> delete<00:05:00.389> that<00:05:00.780> video<00:05:01.020> file
+
+00:05:03.219 --> 00:05:03.229 
+to do is we can delete that video file
+
+00:05:03.229 --> 00:05:06.740 
+to do is we can delete that video file
+of<00:05:04.229> the<00:05:05.039> motion<00:05:05.220> tracking<00:05:05.699> that<00:05:06.510> we<00:05:06.600> use<00:05:06.720> for
+
+00:05:06.740 --> 00:05:06.750 
+of the motion tracking that we use for
+
+00:05:06.750 --> 00:05:10.180 
+of the motion tracking that we use for
+motion<00:05:07.050> tracking<00:05:07.260> and<00:05:08.479> you<00:05:09.479> can<00:05:09.660> even<00:05:09.780> just
+
+00:05:10.180 --> 00:05:10.190 
+motion tracking and you can even just
+
+00:05:10.190 --> 00:05:13.100 
+motion tracking and you can even just
+make<00:05:11.190> that<00:05:11.340> invisible<00:05:11.880> so<00:05:12.539> now<00:05:12.690> you're<00:05:12.840> going
+
+00:05:13.100 --> 00:05:13.110 
+make that invisible so now you're going
+
+00:05:13.110 --> 00:05:15.830 
+make that invisible so now you're going
+to<00:05:13.229> take<00:05:13.500> the<00:05:13.740> video<00:05:14.010> file<00:05:14.460> go<00:05:15.120> to<00:05:15.150> this<00:05:15.360> parent
+
+00:05:15.830 --> 00:05:15.840 
+to take the video file go to this parent
+
+00:05:15.840 --> 00:05:19.010 
+to take the video file go to this parent
+tool<00:05:16.020> and<00:05:17.009> pick<00:05:17.280> whip<00:05:17.460> it<00:05:17.610> to<00:05:18.090> the<00:05:18.570> motion<00:05:18.750> to
+
+00:05:19.010 --> 00:05:19.020 
+tool and pick whip it to the motion to
+
+00:05:19.020 --> 00:05:21.770 
+tool and pick whip it to the motion to
+the<00:05:19.710> null<00:05:19.949> object<00:05:20.430> so<00:05:21.090> now<00:05:21.240> if<00:05:21.330> you<00:05:21.419> look<00:05:21.570> at<00:05:21.750> it
+
+00:05:21.770 --> 00:05:21.780 
+the null object so now if you look at it
+
+00:05:21.780 --> 00:05:23.659 
+the null object so now if you look at it
+it's<00:05:22.020> going<00:05:22.139> to<00:05:22.199> move<00:05:22.380> around<00:05:22.620> and<00:05:23.130> it<00:05:23.430> looks
+
+00:05:23.659 --> 00:05:23.669 
+it's going to move around and it looks
+
+00:05:23.669 --> 00:05:27.560 
+it's going to move around and it looks
+pretty<00:05:23.789> cool<00:05:23.970> but<00:05:24.270> still<00:05:25.400> what<00:05:26.400> the<00:05:26.490> crap<00:05:26.729> what
+
+00:05:27.560 --> 00:05:27.570 
+pretty cool but still what the crap what
+
+00:05:27.570 --> 00:05:29.150 
+pretty cool but still what the crap what
+you<00:05:27.599> want<00:05:27.780> to<00:05:27.840> do<00:05:27.960> is<00:05:28.139> you<00:05:28.380> want<00:05:28.470> to<00:05:28.710> scale<00:05:29.130> it
+
+00:05:29.150 --> 00:05:29.160 
+you want to do is you want to scale it
+
+00:05:29.160 --> 00:05:33.230 
+you want to do is you want to scale it
+up<00:05:29.610> a<00:05:30.599> little<00:05:30.870> bit<00:05:31.639> this<00:05:32.639> is<00:05:32.760> why<00:05:32.849> if<00:05:33.060> you're
+
+00:05:33.230 --> 00:05:33.240 
+up a little bit this is why if you're
+
+00:05:33.240 --> 00:05:34.760 
+up a little bit this is why if you're
+using<00:05:33.419> an<00:05:33.599> image<00:05:33.840> you<00:05:33.930> want<00:05:34.020> to<00:05:34.139> have<00:05:34.260> a<00:05:34.289> good
+
+00:05:34.760 --> 00:05:34.770 
+using an image you want to have a good
+
+00:05:34.770 --> 00:05:36.560 
+using an image you want to have a good
+high<00:05:34.919> resolution<00:05:35.460> image<00:05:35.669> and<00:05:35.820> move<00:05:36.300> it<00:05:36.389> to<00:05:36.419> the
+
+00:05:36.560 --> 00:05:36.570 
+high resolution image and move it to the
+
+00:05:36.570 --> 00:05:41.570 
+high resolution image and move it to the
+center<00:05:36.750> there<00:05:37.550> and<00:05:39.830> make<00:05:40.830> sure<00:05:40.860> it<00:05:41.250> doesn't
+
+00:05:41.570 --> 00:05:41.580 
+center there and make sure it doesn't
+
+00:05:41.580 --> 00:05:47.620 
+center there and make sure it doesn't
+move<00:05:41.970> off
+
+00:05:47.620 --> 00:05:47.630 
+
+00:05:47.630 --> 00:05:55.839 
+
+scale<00:05:48.630> that<00:05:48.840> up<00:05:48.900> more
+
+00:05:55.839 --> 00:05:55.849 
+
+00:05:55.849 --> 00:05:59.499 
+
+and<00:05:55.939> hey<00:05:56.599> what<00:05:56.779> do<00:05:56.839> you<00:05:56.869> know<00:05:56.929> it<00:05:57.229> works<00:05:58.509> so
+
+00:05:59.499 --> 00:05:59.509 
+and hey what do you know it works so
+
+00:05:59.509 --> 00:06:09.269 
+and hey what do you know it works so
+there<00:06:00.349> it<00:06:00.439> is<00:06:03.819> have<00:06:04.819> your<00:06:04.999> nice<00:06:05.529> video<00:06:06.529> here
+
+00:06:09.269 --> 00:06:09.279 
+
+00:06:09.279 --> 00:06:13.949 
+
+and<00:06:10.279> it<00:06:11.240> actually<00:06:11.389> looks<00:06:11.689> pretty<00:06:11.779> realistic
+
+00:06:13.949 --> 00:06:13.959 
+and it actually looks pretty realistic
+
+00:06:13.959 --> 00:06:18.219 
+and it actually looks pretty realistic
+well<00:06:14.959> I'm<00:06:15.259> levitating<00:06:16.219> whoa<00:06:17.119> and<00:06:17.839> then<00:06:18.110> it
+
+00:06:18.219 --> 00:06:18.229 
+well I'm levitating whoa and then it
+
+00:06:18.229 --> 00:06:21.399 
+well I'm levitating whoa and then it
+stops<00:06:18.499> because<00:06:18.740> that's<00:06:19.129> all<00:06:19.279> I<00:06:19.309> did<00:06:19.580> so<00:06:20.409> there
+
+00:06:21.399 --> 00:06:21.409 
+stops because that's all I did so there
+
+00:06:21.409 --> 00:06:24.429 
+stops because that's all I did so there
+you<00:06:21.499> have<00:06:21.559> it<00:06:21.709> as<00:06:22.069> simple<00:06:22.459> as<00:06:22.580> that<00:06:22.610> a<00:06:23.439> dart
+
+00:06:24.429 --> 00:06:24.439 
+you have it as simple as that a dart
+
+00:06:24.439 --> 00:06:26.889 
+you have it as simple as that a dart
+pivot<00:06:24.740> out
+

@@ -1,0 +1,1135 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:16.189 --> 00:00:18.290 
+
+so<00:00:17.189> in<00:00:17.490> this<00:00:17.640> segment<00:00:17.880> we'll<00:00:18.150> be<00:00:18.210> talking
+
+00:00:18.290 --> 00:00:18.300 
+so in this segment we'll be talking
+
+00:00:18.300 --> 00:00:21.140 
+so in this segment we'll be talking
+about<00:00:18.689> basic<00:00:18.930> XCore<00:00:19.560> programming<00:00:20.130> and<00:00:20.340> we'll
+
+00:00:21.140 --> 00:00:21.150 
+about basic XCore programming and we'll
+
+00:00:21.150 --> 00:00:22.970 
+about basic XCore programming and we'll
+go<00:00:21.329> through<00:00:21.599> all<00:00:21.779> the<00:00:21.960> dial<00:00:22.200> features<00:00:22.680> and
+
+00:00:22.970 --> 00:00:22.980 
+go through all the dial features and
+
+00:00:22.980 --> 00:00:24.260 
+go through all the dial features and
+we're<00:00:23.279> going<00:00:23.400> to<00:00:23.460> learn<00:00:23.610> how<00:00:23.789> to<00:00:23.820> set<00:00:24.060> up<00:00:24.090> the
+
+00:00:24.260 --> 00:00:24.270 
+we're going to learn how to set up the
+
+00:00:24.270 --> 00:00:25.550 
+we're going to learn how to set up the
+current<00:00:24.570> time<00:00:24.720> and<00:00:24.900> day<00:00:24.990> in<00:00:25.110> the<00:00:25.200> controller
+
+00:00:25.550 --> 00:00:25.560 
+current time and day in the controller
+
+00:00:25.560 --> 00:00:28.099 
+current time and day in the controller
+and<00:00:25.890> we'll<00:00:26.730> also<00:00:26.910> learn<00:00:27.300> how<00:00:27.330> to<00:00:27.599> set<00:00:27.900> up<00:00:27.990> the
+
+00:00:28.099 --> 00:00:28.109 
+and we'll also learn how to set up the
+
+00:00:28.109 --> 00:00:30.380 
+and we'll also learn how to set up the
+three<00:00:28.289> ingredients<00:00:28.949> for<00:00:29.130> a<00:00:29.519> complete<00:00:29.970> program
+
+00:00:30.380 --> 00:00:30.390 
+three ingredients for a complete program
+
+00:00:30.390 --> 00:00:32.600 
+three ingredients for a complete program
+which<00:00:30.779> is<00:00:30.929> the<00:00:31.050> start<00:00:31.320> times<00:00:31.560> the<00:00:32.129> run<00:00:32.339> times
+
+00:00:32.600 --> 00:00:32.610 
+which is the start times the run times
+
+00:00:32.610 --> 00:00:35.329 
+which is the start times the run times
+and<00:00:32.850> the<00:00:33.120> days<00:00:33.269> to<00:00:33.449> water<00:00:33.890> we'll<00:00:34.890> also<00:00:35.100> be
+
+00:00:35.329 --> 00:00:35.339 
+and the days to water we'll also be
+
+00:00:35.339 --> 00:00:37.729 
+and the days to water we'll also be
+covering<00:00:35.370> the<00:00:36.330> rest<00:00:36.570> of<00:00:36.720> the<00:00:36.780> dials<00:00:37.080> positions
+
+00:00:37.729 --> 00:00:37.739 
+covering the rest of the dials positions
+
+00:00:37.739 --> 00:00:40.060 
+covering the rest of the dials positions
+seasonal<00:00:38.250> adjustment<00:00:38.790> solar<00:00:39.180> sync<00:00:39.480> settings
+
+00:00:40.060 --> 00:00:40.070 
+seasonal adjustment solar sync settings
+
+00:00:40.070 --> 00:00:42.410 
+seasonal adjustment solar sync settings
+manual<00:00:41.070> operation<00:00:41.670> in<00:00:41.820> the<00:00:41.940> system<00:00:42.300> off
+
+00:00:42.410 --> 00:00:42.420 
+manual operation in the system off
+
+00:00:42.420 --> 00:00:44.930 
+manual operation in the system off
+position<00:00:42.960> as<00:00:43.110> well<00:00:43.920> we'll<00:00:44.129> cover<00:00:44.340> how<00:00:44.489> to<00:00:44.640> use
+
+00:00:44.930 --> 00:00:44.940 
+position as well we'll cover how to use
+
+00:00:44.940 --> 00:00:47.930 
+position as well we'll cover how to use
+the<00:00:45.780> green<00:00:46.170> square<00:00:47.070> buttons<00:00:47.520> and<00:00:47.760> green
+
+00:00:47.930 --> 00:00:47.940 
+the green square buttons and green
+
+00:00:47.940 --> 00:00:49.400 
+the green square buttons and green
+triangles<00:00:48.449> to<00:00:48.570> navigate<00:00:49.050> through<00:00:49.320> the
+
+00:00:49.400 --> 00:00:49.410 
+triangles to navigate through the
+
+00:00:49.410 --> 00:00:56.150 
+triangles to navigate through the
+display<00:00:53.840> so<00:00:54.840> we've<00:00:54.989> plugged<00:00:55.260> in<00:00:55.530> the<00:00:55.649> XCore
+
+00:00:56.150 --> 00:00:56.160 
+display so we've plugged in the XCore
+
+00:00:56.160 --> 00:00:57.889 
+display so we've plugged in the XCore
+controller<00:00:56.760> and<00:00:57.120> you'll<00:00:57.300> notice<00:00:57.510> that<00:00:57.750> the
+
+00:00:57.889 --> 00:00:57.899 
+controller and you'll notice that the
+
+00:00:57.899 --> 00:01:00.619 
+controller and you'll notice that the
+current<00:00:58.260> time<00:00:58.469> of<00:00:58.620> day<00:00:58.770> is<00:00:58.890> flashing<00:00:59.329> it<00:01:00.329> shows
+
+00:01:00.619 --> 00:01:00.629 
+current time of day is flashing it shows
+
+00:01:00.629 --> 00:01:03.049 
+current time of day is flashing it shows
+12<00:01:00.899> o'clock<00:01:01.289> so<00:01:01.559> we're<00:01:01.710> going<00:01:01.800> to<00:01:01.859> start<00:01:02.219> by
+
+00:01:03.049 --> 00:01:03.059 
+12 o'clock so we're going to start by
+
+00:01:03.059 --> 00:01:05.719 
+12 o'clock so we're going to start by
+setting<00:01:03.510> to<00:01:03.930> begin<00:01:04.080> with<00:01:04.379> current<00:01:05.309> time<00:01:05.519> and
+
+00:01:05.719 --> 00:01:05.729 
+setting to begin with current time and
+
+00:01:05.729 --> 00:01:07.570 
+setting to begin with current time and
+day<00:01:05.850> and<00:01:06.119> that's<00:01:06.360> the<00:01:06.570> information<00:01:06.690> of<00:01:07.200> today
+
+00:01:07.570 --> 00:01:07.580 
+day and that's the information of today
+
+00:01:07.580 --> 00:01:09.919 
+day and that's the information of today
+we're<00:01:08.580> going<00:01:08.700> to<00:01:08.759> use<00:01:08.910> the<00:01:09.090> buttons<00:01:09.539> up<00:01:09.720> here
+
+00:01:09.919 --> 00:01:09.929 
+we're going to use the buttons up here
+
+00:01:09.929 --> 00:01:11.870 
+we're going to use the buttons up here
+to<00:01:10.080> do<00:01:10.229> so<00:01:10.470> and<00:01:10.710> there's<00:01:11.280> the<00:01:11.399> plus<00:01:11.640> and<00:01:11.850> the
+
+00:01:11.870 --> 00:01:11.880 
+to do so and there's the plus and the
+
+00:01:11.880 --> 00:01:13.490 
+to do so and there's the plus and the
+minus<00:01:11.940> button<00:01:12.390> we're<00:01:12.690> going<00:01:12.720> to<00:01:12.899> use<00:01:13.020> those<00:01:13.229> to
+
+00:01:13.490 --> 00:01:13.500 
+minus button we're going to use those to
+
+00:01:13.500 --> 00:01:15.109 
+minus button we're going to use those to
+change<00:01:13.770> up<00:01:14.040> or<00:01:14.220> down<00:01:14.400> whatever<00:01:14.610> is<00:01:14.880> flashing
+
+00:01:15.109 --> 00:01:15.119 
+change up or down whatever is flashing
+
+00:01:15.119 --> 00:01:17.420 
+change up or down whatever is flashing
+we<00:01:15.869> can<00:01:16.020> use<00:01:16.170> the<00:01:16.320> right<00:01:16.500> arrow<00:01:16.799> or<00:01:17.159> the<00:01:17.250> left
+
+00:01:17.420 --> 00:01:17.430 
+we can use the right arrow or the left
+
+00:01:17.430 --> 00:01:19.310 
+we can use the right arrow or the left
+arrow<00:01:17.759> to<00:01:17.850> scroll<00:01:18.210> backwards<00:01:18.750> or<00:01:18.869> forward
+
+00:01:19.310 --> 00:01:19.320 
+arrow to scroll backwards or forward
+
+00:01:19.320 --> 00:01:21.350 
+arrow to scroll backwards or forward
+through<00:01:19.530> the<00:01:19.590> different<00:01:19.860> choices<00:01:20.030> the<00:01:21.030> PRG
+
+00:01:21.350 --> 00:01:21.360 
+through the different choices the PRG
+
+00:01:21.360 --> 00:01:23.690 
+through the different choices the PRG
+button<00:01:21.900> is<00:01:22.020> to<00:01:22.110> be<00:01:22.229> changed<00:01:22.710> from<00:01:23.159> programs<00:01:23.580> A
+
+00:01:23.690 --> 00:01:23.700 
+button is to be changed from programs A
+
+00:01:23.700 --> 00:01:25.460 
+button is to be changed from programs A
+to<00:01:23.850> B<00:01:23.970> to<00:01:24.090> C<00:01:24.210> but<00:01:24.990> we'll<00:01:25.170> make<00:01:25.290> those
+
+00:01:25.460 --> 00:01:25.470 
+to B to C but we'll make those
+
+00:01:25.470 --> 00:01:27.410 
+to B to C but we'll make those
+selections<00:01:25.680> at<00:01:26.130> a<00:01:26.400> later<00:01:26.640> moment<00:01:27.060> the<00:01:27.150> video
+
+00:01:27.410 --> 00:01:27.420 
+selections at a later moment the video
+
+00:01:27.420 --> 00:01:28.940 
+selections at a later moment the video
+for<00:01:27.689> right<00:01:27.810> now<00:01:27.930> its<00:01:28.110> current<00:01:28.470> time<00:01:28.650> and<00:01:28.680> day
+
+00:01:28.940 --> 00:01:28.950 
+for right now its current time and day
+
+00:01:28.950 --> 00:01:30.920 
+for right now its current time and day
+the<00:01:29.549> year<00:01:29.729> is<00:01:29.880> flashing<00:01:30.180> we<00:01:30.509> hit<00:01:30.630> the<00:01:30.720> plus
+
+00:01:30.920 --> 00:01:30.930 
+the year is flashing we hit the plus
+
+00:01:30.930 --> 00:01:33.620 
+the year is flashing we hit the plus
+button<00:01:31.140> to<00:01:31.350> 2011<00:01:32.250> then<00:01:32.880> we'll<00:01:33.030> use<00:01:33.210> the<00:01:33.390> right
+
+00:01:33.620 --> 00:01:33.630 
+button to 2011 then we'll use the right
+
+00:01:33.630 --> 00:01:36.230 
+button to 2011 then we'll use the right
+arrow<00:01:33.900> and<00:01:34.350> you<00:01:35.100> have<00:01:35.220> the<00:01:35.369> month<00:01:35.670> and<00:01:35.909> the<00:01:36.060> day
+
+00:01:36.230 --> 00:01:36.240 
+arrow and you have the month and the day
+
+00:01:36.240 --> 00:01:38.960 
+arrow and you have the month and the day
+so<00:01:36.720> the<00:01:36.900> month<00:01:37.140> is<00:01:37.320> flashing<00:01:37.590> once<00:01:38.280> again<00:01:38.610> plus
+
+00:01:38.960 --> 00:01:38.970 
+so the month is flashing once again plus
+
+00:01:38.970 --> 00:01:44.030 
+so the month is flashing once again plus
+or<00:01:39.000> minus<00:01:39.860> changes<00:01:40.860> the<00:01:41.579> selection<00:01:42.829> and<00:01:43.829> we'll
+
+00:01:44.030 --> 00:01:44.040 
+or minus changes the selection and we'll
+
+00:01:44.040 --> 00:01:46.190 
+or minus changes the selection and we'll
+go<00:01:44.159> to<00:01:44.220> August<00:01:44.700> and<00:01:44.970> we'll<00:01:45.750> hit<00:01:45.810> the<00:01:45.990> right
+
+00:01:46.190 --> 00:01:46.200 
+go to August and we'll hit the right
+
+00:01:46.200 --> 00:01:49.160 
+go to August and we'll hit the right
+arrow<00:01:46.500> and<00:01:46.890> this<00:01:47.430> is<00:01:47.579> the<00:01:47.700> day<00:01:47.930> so<00:01:48.930> we'll<00:01:49.049> just
+
+00:01:49.160 --> 00:01:49.170 
+arrow and this is the day so we'll just
+
+00:01:49.170 --> 00:01:51.740 
+arrow and this is the day so we'll just
+use<00:01:49.290> the<00:01:49.409> plus<00:01:49.649> button<00:01:49.920> and<00:01:50.250> go<00:01:51.090> up<00:01:51.240> to<00:01:51.360> August
+
+00:01:51.740 --> 00:01:51.750 
+use the plus button and go up to August
+
+00:01:51.750 --> 00:01:54.889 
+use the plus button and go up to August
+4th<00:01:52.340> use<00:01:53.340> the<00:01:53.520> right<00:01:53.729> arrow<00:01:53.969> to<00:01:54.180> advance<00:01:54.329> to
+
+00:01:54.889 --> 00:01:54.899 
+4th use the right arrow to advance to
+
+00:01:54.899 --> 00:01:56.870 
+4th use the right arrow to advance to
+the<00:01:54.990> next<00:01:55.200> option<00:01:55.469> remember<00:01:56.369> we're<00:01:56.549> still<00:01:56.729> in
+
+00:01:56.870 --> 00:01:56.880 
+the next option remember we're still in
+
+00:01:56.880 --> 00:01:58.639 
+the next option remember we're still in
+the<00:01:56.969> current<00:01:57.299> time<00:01:57.509> and<00:01:57.540> day<00:01:57.780> the<00:01:58.049> next<00:01:58.200> option
+
+00:01:58.639 --> 00:01:58.649 
+the current time and day the next option
+
+00:01:58.649 --> 00:02:01.280 
+the current time and day the next option
+is<00:01:58.740> a.m.<00:01:59.100> p.m.<00:01:59.430> you<00:02:00.329> can<00:02:00.479> go<00:02:00.630> plus<00:02:00.899> 2:00<00:02:01.079> p.m.
+
+00:02:01.280 --> 00:02:01.290 
+is a.m. p.m. you can go plus 2:00 p.m.
+
+00:02:01.290 --> 00:02:05.270 
+is a.m. p.m. you can go plus 2:00 p.m.
+plus<00:02:02.219> 2<00:02:02.430> 24-hour<00:02:03.119> mode<00:02:03.530> plus<00:02:04.530> 2<00:02:04.710> a.m.<00:02:05.100> where
+
+00:02:05.270 --> 00:02:05.280 
+plus 2 24-hour mode plus 2 a.m. where
+
+00:02:05.280 --> 00:02:06.770 
+plus 2 24-hour mode plus 2 a.m. where
+you<00:02:05.369> go<00:02:05.729> backwards<00:02:05.969> through<00:02:06.450> the<00:02:06.570> three
+
+00:02:06.770 --> 00:02:06.780 
+you go backwards through the three
+
+00:02:06.780 --> 00:02:09.410 
+you go backwards through the three
+choices<00:02:07.220> so<00:02:08.220> right<00:02:08.399> now<00:02:08.549> it's<00:02:08.700> p.m.<00:02:09.060> so<00:02:09.299> we'll
+
+00:02:09.410 --> 00:02:09.420 
+choices so right now it's p.m. so we'll
+
+00:02:09.420 --> 00:02:11.720 
+choices so right now it's p.m. so we'll
+leave<00:02:09.570> it<00:02:09.690> on<00:02:09.750> p.m.<00:02:10.170> use<00:02:10.950> the<00:02:11.130> right<00:02:11.310> arrow<00:02:11.519> and
+
+00:02:11.720 --> 00:02:11.730 
+leave it on p.m. use the right arrow and
+
+00:02:11.730 --> 00:02:14.780 
+leave it on p.m. use the right arrow and
+we'll<00:02:12.000> go<00:02:12.120> over<00:02:12.420> to<00:02:12.660> the<00:02:12.840> hour<00:02:13.019> of<00:02:13.260> the<00:02:13.590> day<00:02:13.790> and
+
+00:02:14.780 --> 00:02:14.790 
+we'll go over to the hour of the day and
+
+00:02:14.790 --> 00:02:16.150 
+we'll go over to the hour of the day and
+we're<00:02:14.970> going<00:02:15.090> to<00:02:15.150> say<00:02:15.329> that<00:02:15.480> it's<00:02:15.600> 1<00:02:15.870> o'clock
+
+00:02:16.150 --> 00:02:16.160 
+we're going to say that it's 1 o'clock
+
+00:02:16.160 --> 00:02:18.590 
+we're going to say that it's 1 o'clock
+right<00:02:17.160> out<00:02:17.340> of<00:02:17.489> the<00:02:17.609> minutes<00:02:17.880> and<00:02:18.180> you're
+
+00:02:18.590 --> 00:02:18.600 
+right out of the minutes and you're
+
+00:02:18.600 --> 00:02:19.879 
+right out of the minutes and you're
+going<00:02:18.720> to<00:02:18.750> use<00:02:18.870> the<00:02:18.989> plus<00:02:19.199> button<00:02:19.440> to<00:02:19.620> put<00:02:19.859> the
+
+00:02:19.879 --> 00:02:19.889 
+going to use the plus button to put the
+
+00:02:19.889 --> 00:02:20.520 
+going to use the plus button to put the
+appropriate
+
+00:02:20.520 --> 00:02:20.530 
+appropriate
+
+00:02:20.530 --> 00:02:23.400 
+appropriate
+minutes<00:02:20.740> on<00:02:21.420> that's<00:02:22.420> the<00:02:22.569> last<00:02:22.750> feature<00:02:23.080> so
+
+00:02:23.400 --> 00:02:23.410 
+minutes on that's the last feature so
+
+00:02:23.410 --> 00:02:25.020 
+minutes on that's the last feature so
+when<00:02:23.590> we<00:02:23.680> hit<00:02:23.800> the<00:02:23.950> right<00:02:24.100> arrow<00:02:24.160> it<00:02:24.640> goes<00:02:24.819> back
+
+00:02:25.020 --> 00:02:25.030 
+when we hit the right arrow it goes back
+
+00:02:25.030 --> 00:02:27.449 
+when we hit the right arrow it goes back
+to<00:02:25.240> the<00:02:25.360> year<00:02:25.660> again<00:02:25.980> 2011<00:02:26.980> so<00:02:27.100> now<00:02:27.220> it<00:02:27.280> tells
+
+00:02:27.449 --> 00:02:27.459 
+to the year again 2011 so now it tells
+
+00:02:27.459 --> 00:02:28.890 
+to the year again 2011 so now it tells
+us<00:02:27.670> we're<00:02:27.819> done<00:02:28.060> with<00:02:28.240> stating<00:02:28.510> the<00:02:28.600> current
+
+00:02:28.890 --> 00:02:28.900 
+us we're done with stating the current
+
+00:02:28.900 --> 00:02:31.080 
+us we're done with stating the current
+time<00:02:29.080> and<00:02:29.110> day<00:02:29.350> you<00:02:30.250> can<00:02:30.400> take<00:02:30.580> the<00:02:30.700> dial<00:02:30.910> put
+
+00:02:31.080 --> 00:02:31.090 
+time and day you can take the dial put
+
+00:02:31.090 --> 00:02:32.760 
+time and day you can take the dial put
+it<00:02:31.180> back<00:02:31.300> to<00:02:31.450> run<00:02:31.720> and<00:02:31.959> you<00:02:32.020> can<00:02:32.140> verify<00:02:32.380> what
+
+00:02:32.760 --> 00:02:32.770 
+it back to run and you can verify what
+
+00:02:32.770 --> 00:02:35.190 
+it back to run and you can verify what
+you've<00:02:32.980> put<00:02:33.220> in<00:02:33.400> it'll<00:02:34.180> show<00:02:34.390> that<00:02:34.420> minutes
+
+00:02:35.190 --> 00:02:35.200 
+you've put in it'll show that minutes
+
+00:02:35.200 --> 00:02:38.309 
+you've put in it'll show that minutes
+the<00:02:35.920> hour<00:02:36.100> and<00:02:36.550> p.m.<00:02:37.270> and<00:02:37.569> as<00:02:37.720> well<00:02:37.930> along<00:02:38.200> the
+
+00:02:38.309 --> 00:02:38.319 
+the hour and p.m. and as well along the
+
+00:02:38.319 --> 00:02:39.870 
+the hour and p.m. and as well along the
+bottom<00:02:38.530> of<00:02:38.709> the<00:02:38.800> screen<00:02:39.010> the<00:02:39.310> day<00:02:39.520> of<00:02:39.640> the<00:02:39.700> week
+
+00:02:39.870 --> 00:02:39.880 
+bottom of the screen the day of the week
+
+00:02:39.880 --> 00:02:46.470 
+bottom of the screen the day of the week
+should<00:02:40.120> coincide<00:02:40.480> with<00:02:40.750> what<00:02:41.080> today<00:02:41.350> is<00:02:45.390> so<00:02:46.390> to
+
+00:02:46.470 --> 00:02:46.480 
+should coincide with what today is so to
+
+00:02:46.480 --> 00:02:48.570 
+should coincide with what today is so to
+explain<00:02:46.930> further<00:02:47.410> the<00:02:47.800> use<00:02:47.980> of<00:02:48.220> the<00:02:48.310> different
+
+00:02:48.570 --> 00:02:48.580 
+explain further the use of the different
+
+00:02:48.580 --> 00:02:50.220 
+explain further the use of the different
+programs<00:02:49.000> a<00:02:49.209> B<00:02:49.360> and<00:02:49.510> C<00:02:49.690> we<00:02:49.810> made<00:02:49.959> a<00:02:49.989> little
+
+00:02:50.220 --> 00:02:50.230 
+programs a B and C we made a little
+
+00:02:50.230 --> 00:02:51.720 
+programs a B and C we made a little
+chart<00:02:50.470> here<00:02:50.530> it's<00:02:50.860> kind<00:02:50.980> of<00:02:51.040> a<00:02:51.160> tic-tac-toe
+
+00:02:51.720 --> 00:02:51.730 
+chart here it's kind of a tic-tac-toe
+
+00:02:51.730 --> 00:02:55.009 
+chart here it's kind of a tic-tac-toe
+board<00:02:51.970> and<00:02:52.270> we<00:02:52.870> have<00:02:53.050> columns<00:02:53.530> a<00:02:53.800> B<00:02:54.250> and<00:02:54.550> C<00:02:54.790> and
+
+00:02:55.009 --> 00:02:55.019 
+board and we have columns a B and C and
+
+00:02:55.019 --> 00:02:57.150 
+board and we have columns a B and C and
+in<00:02:56.019> this<00:02:56.170> example<00:02:56.530> we're<00:02:56.769> not<00:02:56.800> putting
+
+00:02:57.150 --> 00:02:57.160 
+in this example we're not putting
+
+00:02:57.160 --> 00:02:59.370 
+in this example we're not putting
+anything<00:02:57.489> in<00:02:57.760> program<00:02:58.239> C<00:02:58.510> but<00:02:59.080> you'll<00:02:59.200> notice
+
+00:02:59.370 --> 00:02:59.380 
+anything in program C but you'll notice
+
+00:02:59.380 --> 00:03:01.440 
+anything in program C but you'll notice
+that<00:02:59.590> each<00:02:59.830> of<00:02:59.860> the<00:03:00.070> programs<00:03:00.519> has<00:03:00.820> all<00:03:01.150> three
+
+00:03:01.440 --> 00:03:01.450 
+that each of the programs has all three
+
+00:03:01.450 --> 00:03:04.199 
+that each of the programs has all three
+ingredients<00:03:02.080> start<00:03:02.650> time<00:03:02.860> run<00:03:03.459> time<00:03:03.730> and<00:03:03.910> days
+
+00:03:04.199 --> 00:03:04.209 
+ingredients start time run time and days
+
+00:03:04.209 --> 00:03:06.720 
+ingredients start time run time and days
+to<00:03:04.390> water<00:03:04.600> and<00:03:04.870> we're<00:03:05.709> going<00:03:05.830> to<00:03:05.890> take<00:03:06.130> our<00:03:06.400> run
+
+00:03:06.720 --> 00:03:06.730 
+to water and we're going to take our run
+
+00:03:06.730 --> 00:03:09.000 
+to water and we're going to take our run
+times<00:03:07.060> which<00:03:07.660> is<00:03:07.690> here<00:03:08.140> for<00:03:08.380> our<00:03:08.470> individual
+
+00:03:09.000 --> 00:03:09.010 
+times which is here for our individual
+
+00:03:09.010 --> 00:03:10.920 
+times which is here for our individual
+stations<00:03:09.519> or<00:03:09.670> zones<00:03:09.910> and<00:03:10.180> we're<00:03:10.420> splitting
+
+00:03:10.920 --> 00:03:10.930 
+stations or zones and we're splitting
+
+00:03:10.930 --> 00:03:13.400 
+stations or zones and we're splitting
+them<00:03:11.080> up<00:03:11.110> over<00:03:11.410> two<00:03:11.680> programs<00:03:12.190> reason<00:03:13.090> being
+
+00:03:13.400 --> 00:03:13.410 
+them up over two programs reason being
+
+00:03:13.410 --> 00:03:15.930 
+them up over two programs reason being
+stations<00:03:14.410> 3<00:03:14.650> &amp;<00:03:14.769> 4<00:03:14.980> they<00:03:15.250> have<00:03:15.430> a<00:03:15.459> different
+
+00:03:15.930 --> 00:03:15.940 
+stations 3 &amp; 4 they have a different
+
+00:03:15.940 --> 00:03:17.880 
+stations 3 &amp; 4 they have a different
+watering<00:03:16.480> day<00:03:16.690> requirement<00:03:17.170> we've<00:03:17.530> got<00:03:17.709> to<00:03:17.800> be
+
+00:03:17.880 --> 00:03:17.890 
+watering day requirement we've got to be
+
+00:03:17.890 --> 00:03:20.009 
+watering day requirement we've got to be
+five<00:03:18.130> days<00:03:18.430> listed<00:03:19.060> for<00:03:19.269> the<00:03:19.360> fruit<00:03:19.569> trees<00:03:19.840> on
+
+00:03:20.009 --> 00:03:20.019 
+five days listed for the fruit trees on
+
+00:03:20.019 --> 00:03:23.160 
+five days listed for the fruit trees on
+stations<00:03:20.470> 3<00:03:20.709> &amp;<00:03:20.830> 4<00:03:21.269> stations<00:03:22.269> 1<00:03:22.510> &amp;<00:03:22.690> 2<00:03:22.840> is<00:03:23.019> the
+
+00:03:23.160 --> 00:03:23.170 
+stations 3 &amp; 4 stations 1 &amp; 2 is the
+
+00:03:23.170 --> 00:03:25.229 
+stations 3 &amp; 4 stations 1 &amp; 2 is the
+grass<00:03:23.380> zone<00:03:23.709> and<00:03:23.920> they<00:03:24.010> only<00:03:24.190> want<00:03:24.310> on<00:03:24.730> Tuesday
+
+00:03:25.229 --> 00:03:25.239 
+grass zone and they only want on Tuesday
+
+00:03:25.239 --> 00:03:26.940 
+grass zone and they only want on Tuesday
+&amp;<00:03:25.360> Thursday<00:03:25.500> so<00:03:26.500> because<00:03:26.769> they<00:03:26.920> have
+
+00:03:26.940 --> 00:03:26.950 
+&amp; Thursday so because they have
+
+00:03:26.950 --> 00:03:28.770 
+&amp; Thursday so because they have
+different<00:03:27.280> day<00:03:27.640> requirements<00:03:28.360> than<00:03:28.540> those
+
+00:03:28.770 --> 00:03:28.780 
+different day requirements than those
+
+00:03:28.780 --> 00:03:31.199 
+different day requirements than those
+stations<00:03:29.290> 3<00:03:29.530> &amp;<00:03:29.650> 4<00:03:29.890> every<00:03:30.370> 5<00:03:30.579> days<00:03:30.790> we're<00:03:31.120> going
+
+00:03:31.199 --> 00:03:31.209 
+stations 3 &amp; 4 every 5 days we're going
+
+00:03:31.209 --> 00:03:37.979 
+stations 3 &amp; 4 every 5 days we're going
+to<00:03:31.269> split<00:03:31.480> them<00:03:31.690> over<00:03:31.840> different<00:03:32.019> programs<00:03:36.989> so
+
+00:03:37.979 --> 00:03:37.989 
+to split them over different programs so
+
+00:03:37.989 --> 00:03:39.060 
+to split them over different programs so
+now<00:03:38.110> we'll<00:03:38.260> move<00:03:38.290> the<00:03:38.500> dial<00:03:38.709> down<00:03:38.799> to<00:03:38.980> the
+
+00:03:39.060 --> 00:03:39.070 
+now we'll move the dial down to the
+
+00:03:39.070 --> 00:03:41.880 
+now we'll move the dial down to the
+start<00:03:39.340> time<00:03:39.579> position<00:03:40.090> and<00:03:40.560> under<00:03:41.560> start
+
+00:03:41.880 --> 00:03:41.890 
+start time position and under start
+
+00:03:41.890 --> 00:03:43.380 
+start time position and under start
+times<00:03:42.160> position<00:03:42.310> you'll<00:03:42.940> notice<00:03:43.180> that<00:03:43.269> it
+
+00:03:43.380 --> 00:03:43.390 
+times position you'll notice that it
+
+00:03:43.390 --> 00:03:46.560 
+times position you'll notice that it
+shows<00:03:43.450> program<00:03:44.200> a<00:03:44.410> in<00:03:44.920> the<00:03:45.280> screen<00:03:45.610> and<00:03:45.850> start
+
+00:03:46.560 --> 00:03:46.570 
+shows program a in the screen and start
+
+00:03:46.570 --> 00:03:49.050 
+shows program a in the screen and start
+time<00:03:46.840> 1<00:03:47.079> now<00:03:47.829> this<00:03:48.010> start<00:03:48.340> time<00:03:48.549> 1<00:03:48.760> is<00:03:48.910> not
+
+00:03:49.050 --> 00:03:49.060 
+time 1 now this start time 1 is not
+
+00:03:49.060 --> 00:03:51.630 
+time 1 now this start time 1 is not
+station<00:03:49.600> 1<00:03:49.810> or<00:03:50.049> zone<00:03:50.350> 1<00:03:50.709> as<00:03:50.890> people<00:03:51.220> call<00:03:51.430> them
+
+00:03:51.630 --> 00:03:51.640 
+station 1 or zone 1 as people call them
+
+00:03:51.640 --> 00:03:54.090 
+station 1 or zone 1 as people call them
+this<00:03:51.760> is<00:03:51.910> the<00:03:52.000> controller<00:03:52.570> start<00:03:53.230> time<00:03:53.470> so
+
+00:03:54.090 --> 00:03:54.100 
+this is the controller start time so
+
+00:03:54.100 --> 00:03:55.770 
+this is the controller start time so
+it's<00:03:54.280> the<00:03:54.370> first<00:03:54.609> time<00:03:54.880> that<00:03:55.090> programming<00:03:55.690> is
+
+00:03:55.770 --> 00:03:55.780 
+it's the first time that programming is
+
+00:03:55.780 --> 00:03:57.780 
+it's the first time that programming is
+going<00:03:55.930> to<00:03:55.989> start<00:03:56.230> cycling<00:03:56.709> and<00:03:56.890> we're<00:03:57.670> going
+
+00:03:57.780 --> 00:03:57.790 
+going to start cycling and we're going
+
+00:03:57.790 --> 00:04:02.699 
+going to start cycling and we're going
+to<00:03:57.880> use<00:03:58.680> 10:30<00:03:59.680> for<00:04:00.989> program<00:04:01.989> a<00:04:02.200> to<00:04:02.290> start
+
+00:04:02.699 --> 00:04:02.709 
+to use 10:30 for program a to start
+
+00:04:02.709 --> 00:04:04.470 
+to use 10:30 for program a to start
+cycling<00:04:03.190> so<00:04:03.790> I'm<00:04:03.850> going<00:04:03.970> to<00:04:04.030> use<00:04:04.120> the<00:04:04.209> minus
+
+00:04:04.470 --> 00:04:04.480 
+cycling so I'm going to use the minus
+
+00:04:04.480 --> 00:04:06.900 
+cycling so I'm going to use the minus
+button<00:04:04.660> and<00:04:04.840> go<00:04:04.900> backwards<00:04:05.380> to<00:04:05.440> 10:30<00:04:05.950> p.m.<00:04:06.070> in
+
+00:04:06.900 --> 00:04:06.910 
+button and go backwards to 10:30 p.m. in
+
+00:04:06.910 --> 00:04:09.300 
+button and go backwards to 10:30 p.m. in
+the<00:04:06.940> top<00:04:07.180> left<00:04:07.450> top<00:04:07.870> right<00:04:07.930> corner<00:04:08.380> there<00:04:08.590> so
+
+00:04:09.300 --> 00:04:09.310 
+the top left top right corner there so
+
+00:04:09.310 --> 00:04:11.400 
+the top left top right corner there so
+now<00:04:09.430> we<00:04:09.489> know<00:04:09.700> that<00:04:09.730> program<00:04:10.269> ace<00:04:10.450> is<00:04:10.720> first
+
+00:04:11.400 --> 00:04:11.410 
+now we know that program ace is first
+
+00:04:11.410 --> 00:04:14.520 
+now we know that program ace is first
+cycle<00:04:11.769> start<00:04:12.280> is<00:04:12.519> 10:30<00:04:13.030> p.m.<00:04:13.230> you<00:04:14.230> can<00:04:14.260> use
+
+00:04:14.520 --> 00:04:14.530 
+cycle start is 10:30 p.m. you can use
+
+00:04:14.530 --> 00:04:16.380 
+cycle start is 10:30 p.m. you can use
+the<00:04:14.739> right<00:04:14.980> arrow<00:04:15.220> to<00:04:15.459> go<00:04:15.670> to<00:04:15.700> the<00:04:15.850> second
+
+00:04:16.380 --> 00:04:16.390 
+the right arrow to go to the second
+
+00:04:16.390 --> 00:04:19.349 
+the right arrow to go to the second
+cycle<00:04:16.989> start<00:04:17.500> on<00:04:17.829> the<00:04:18.700> right<00:04:18.910> here<00:04:19.120> or<00:04:19.209> the
+
+00:04:19.349 --> 00:04:19.359 
+cycle start on the right here or the
+
+00:04:19.359 --> 00:04:21.270 
+cycle start on the right here or the
+third<00:04:19.660> right<00:04:20.200> here<00:04:20.410> out<00:04:20.500> of<00:04:20.590> the<00:04:20.650> fourth<00:04:20.950> +
+
+00:04:21.270 --> 00:04:21.280 
+third right here out of the fourth +
+
+00:04:21.280 --> 00:04:23.700 
+third right here out of the fourth +
+right<00:04:21.489> arrow<00:04:21.519> back<00:04:21.910> to<00:04:22.120> 1<00:04:22.300> you<00:04:22.990> only<00:04:23.169> get<00:04:23.380> four
+
+00:04:23.700 --> 00:04:23.710 
+right arrow back to 1 you only get four
+
+00:04:23.710 --> 00:04:25.680 
+right arrow back to 1 you only get four
+cycle<00:04:24.310> starts<00:04:24.640> per<00:04:24.820> program<00:04:25.240> these<00:04:25.419> are<00:04:25.570> not
+
+00:04:25.680 --> 00:04:25.690 
+cycle starts per program these are not
+
+00:04:25.690 --> 00:04:27.870 
+cycle starts per program these are not
+stations<00:04:26.289> or<00:04:26.410> are<00:04:26.560> zones<00:04:26.860> these<00:04:27.310> is<00:04:27.520> when<00:04:27.760> the
+
+00:04:27.870 --> 00:04:27.880 
+stations or are zones these is when the
+
+00:04:27.880 --> 00:04:30.050 
+stations or are zones these is when the
+controller<00:04:28.409> program<00:04:29.409> starts
+
+00:04:30.050 --> 00:04:30.060 
+controller program starts
+
+00:04:30.060 --> 00:04:32.090 
+controller program starts
+you<00:04:30.810> may<00:04:30.930> have<00:04:31.080> six<00:04:31.320> seven<00:04:31.530> or<00:04:31.710> eight<00:04:31.800> zones
+
+00:04:32.090 --> 00:04:32.100 
+you may have six seven or eight zones
+
+00:04:32.100 --> 00:04:38.780 
+you may have six seven or eight zones
+you<00:04:32.310> only<00:04:32.430> get<00:04:32.580> four<00:04:32.880> starts<00:04:33.360> per<00:04:33.510> program<00:04:37.790> so
+
+00:04:38.780 --> 00:04:38.790 
+you only get four starts per program so
+
+00:04:38.790 --> 00:04:40.580 
+you only get four starts per program so
+now<00:04:38.910> that<00:04:38.970> we've<00:04:39.150> got<00:04:39.330> the<00:04:39.480> one<00:04:39.750> start<00:04:40.110> time<00:04:40.380> in
+
+00:04:40.580 --> 00:04:40.590 
+now that we've got the one start time in
+
+00:04:40.590 --> 00:04:43.520 
+now that we've got the one start time in
+program<00:04:41.430> a<00:04:41.820> we<00:04:42.720> can<00:04:42.870> move<00:04:42.990> the<00:04:43.140> dial<00:04:43.350> to<00:04:43.470> the
+
+00:04:43.520 --> 00:04:43.530 
+program a we can move the dial to the
+
+00:04:43.530 --> 00:04:45.890 
+program a we can move the dial to the
+run<00:04:43.860> time<00:04:44.160> position<00:04:44.700> and<00:04:44.910> these<00:04:45.540> are<00:04:45.810> the
+
+00:04:45.890 --> 00:04:45.900 
+run time position and these are the
+
+00:04:45.900 --> 00:04:49.430 
+run time position and these are the
+individual<00:04:46.590> zones<00:04:46.920> or<00:04:48.170> stations<00:04:49.170> in<00:04:49.320> your
+
+00:04:49.430 --> 00:04:49.440 
+individual zones or stations in your
+
+00:04:49.440 --> 00:04:52.160 
+individual zones or stations in your
+yard<00:04:49.710> we're<00:04:50.490> going<00:04:50.610> to<00:04:50.670> include<00:04:51.030> station<00:04:51.960> one
+
+00:04:52.160 --> 00:04:52.170 
+yard we're going to include station one
+
+00:04:52.170 --> 00:04:54.140 
+yard we're going to include station one
+program<00:04:52.740> a<00:04:52.950> will<00:04:53.190> give<00:04:53.340> him<00:04:53.520> ten<00:04:53.820> minutes
+
+00:04:54.140 --> 00:04:54.150 
+program a will give him ten minutes
+
+00:04:54.150 --> 00:04:55.720 
+program a will give him ten minutes
+because<00:04:54.210> he's<00:04:54.510> going<00:04:54.690> to<00:04:54.750> live<00:04:54.930> here<00:04:55.380> on
+
+00:04:55.720 --> 00:04:55.730 
+because he's going to live here on
+
+00:04:55.730 --> 00:05:00.590 
+because he's going to live here on
+programming<00:04:57.170> and<00:04:58.940> then<00:04:59.940> we'll<00:05:00.090> use<00:05:00.240> the<00:05:00.390> right
+
+00:05:00.590 --> 00:05:00.600 
+programming and then we'll use the right
+
+00:05:00.600 --> 00:05:02.390 
+programming and then we'll use the right
+arrow<00:05:00.810> to<00:05:00.990> advance<00:05:01.200> to<00:05:01.590> station<00:05:02.100> number<00:05:02.370> two
+
+00:05:02.390 --> 00:05:02.400 
+arrow to advance to station number two
+
+00:05:02.400 --> 00:05:04.820 
+arrow to advance to station number two
+which<00:05:02.820> might<00:05:03.090> be<00:05:03.330> the<00:05:03.660> other<00:05:04.170> half<00:05:04.410> the<00:05:04.590> front
+
+00:05:04.820 --> 00:05:04.830 
+which might be the other half the front
+
+00:05:04.830 --> 00:05:11.350 
+which might be the other half the front
+grass<00:05:05.010> and<00:05:05.520> we'll<00:05:06.450> give<00:05:06.600> him<00:05:06.810> ten<00:05:07.080> minutes<00:05:09.980> and
+
+00:05:11.350 --> 00:05:11.360 
+grass and we'll give him ten minutes and
+
+00:05:11.360 --> 00:05:13.790 
+grass and we'll give him ten minutes and
+these<00:05:12.360> are<00:05:12.510> the<00:05:12.570> only<00:05:12.780> two<00:05:13.110> stations<00:05:13.680> that
+
+00:05:13.790 --> 00:05:13.800 
+these are the only two stations that
+
+00:05:13.800 --> 00:05:15.980 
+these are the only two stations that
+we're<00:05:13.980> going<00:05:14.130> to<00:05:14.190> invite<00:05:14.490> in<00:05:14.730> program<00:05:15.210> a<00:05:15.510> under
+
+00:05:15.980 --> 00:05:15.990 
+we're going to invite in program a under
+
+00:05:15.990 --> 00:05:18.650 
+we're going to invite in program a under
+the<00:05:16.020> run<00:05:16.290> time<00:05:16.590> position<00:05:17.180> right<00:05:18.180> arrow<00:05:18.390> goes
+
+00:05:18.650 --> 00:05:18.660 
+the run time position right arrow goes
+
+00:05:18.660 --> 00:05:20.450 
+the run time position right arrow goes
+to<00:05:18.840> station<00:05:19.200> 3<00:05:19.230> we're<00:05:19.980> going<00:05:20.100> to<00:05:20.160> leave<00:05:20.280> him
+
+00:05:20.450 --> 00:05:20.460 
+to station 3 we're going to leave him
+
+00:05:20.460 --> 00:05:24.020 
+to station 3 we're going to leave him
+blank<00:05:20.780> station<00:05:21.780> 4<00:05:22.080> station<00:05:22.920> 5<00:05:23.190> this<00:05:23.670> may<00:05:23.850> be<00:05:23.910> a
+
+00:05:24.020 --> 00:05:24.030 
+blank station 4 station 5 this may be a
+
+00:05:24.030 --> 00:05:26.210 
+blank station 4 station 5 this may be a
+6<00:05:24.390> zone<00:05:24.660> our<00:05:24.930> seven<00:05:25.650> or<00:05:25.800> eight<00:05:25.920> is<00:05:26.040> on
+
+00:05:26.210 --> 00:05:26.220 
+6 zone our seven or eight is on
+
+00:05:26.220 --> 00:05:28.000 
+6 zone our seven or eight is on
+controller<00:05:26.730> but<00:05:26.970> we're<00:05:27.090> only<00:05:27.420> inviting
+
+00:05:28.000 --> 00:05:28.010 
+controller but we're only inviting
+
+00:05:28.010 --> 00:05:30.980 
+controller but we're only inviting
+station<00:05:29.010> one<00:05:29.280> and<00:05:29.580> two<00:05:29.880> to<00:05:30.120> this<00:05:30.240> program<00:05:30.750> at
+
+00:05:30.980 --> 00:05:30.990 
+station one and two to this program at
+
+00:05:30.990 --> 00:05:33.170 
+station one and two to this program at
+the<00:05:31.740> end<00:05:31.950> of<00:05:32.220> all<00:05:32.400> that<00:05:32.610> you're<00:05:32.850> going<00:05:32.970> to<00:05:33.000> have
+
+00:05:33.170 --> 00:05:33.180 
+the end of all that you're going to have
+
+00:05:33.180 --> 00:05:35.690 
+the end of all that you're going to have
+a<00:05:33.240> total<00:05:33.780> run<00:05:34.050> time<00:05:34.080> for<00:05:34.740> that<00:05:34.950> program<00:05:35.250> in
+
+00:05:35.690 --> 00:05:35.700 
+a total run time for that program in
+
+00:05:35.700 --> 00:05:42.860 
+a total run time for that program in
+this<00:05:36.300> sensitive<00:05:36.720> show<00:05:36.930> twenty<00:05:37.320> minutes<00:05:41.870> so
+
+00:05:42.860 --> 00:05:42.870 
+this sensitive show twenty minutes so
+
+00:05:42.870 --> 00:05:44.510 
+this sensitive show twenty minutes so
+now<00:05:42.900> go<00:05:43.200> to<00:05:43.260> the<00:05:43.350> water<00:05:43.560> days<00:05:43.800> position<00:05:44.370> and
+
+00:05:44.510 --> 00:05:44.520 
+now go to the water days position and
+
+00:05:44.520 --> 00:05:45.800 
+now go to the water days position and
+these<00:05:44.580> are<00:05:44.700> give<00:05:44.820> you<00:05:44.940> the<00:05:45.030> water<00:05:45.270> days<00:05:45.540> for
+
+00:05:45.800 --> 00:05:45.810 
+these are give you the water days for
+
+00:05:45.810 --> 00:05:48.350 
+these are give you the water days for
+programming<00:05:46.440> you'll<00:05:47.370> notice<00:05:47.670> that<00:05:47.790> it<00:05:48.030> starts
+
+00:05:48.350 --> 00:05:48.360 
+programming you'll notice that it starts
+
+00:05:48.360 --> 00:05:50.690 
+programming you'll notice that it starts
+out<00:05:48.510> with<00:05:48.570> a<00:05:48.720> blinking<00:05:49.590> water<00:05:50.040> drop<00:05:50.400> a<00:05:50.610> little
+
+00:05:50.690 --> 00:05:50.700 
+out with a blinking water drop a little
+
+00:05:50.700 --> 00:05:54.560 
+out with a blinking water drop a little
+Monday<00:05:51.620> right<00:05:52.620> now<00:05:52.800> all<00:05:53.160> days<00:05:53.850> have<00:05:54.210> a<00:05:54.240> water
+
+00:05:54.560 --> 00:05:54.570 
+Monday right now all days have a water
+
+00:05:54.570 --> 00:05:56.270 
+Monday right now all days have a water
+drop<00:05:54.870> so<00:05:55.050> it's<00:05:55.170> going<00:05:55.260> to<00:05:55.320> be<00:05:55.440> watering<00:05:55.830> seven
+
+00:05:56.270 --> 00:05:56.280 
+drop so it's going to be watering seven
+
+00:05:56.280 --> 00:05:58.940 
+drop so it's going to be watering seven
+days<00:05:56.460> a<00:05:56.490> week<00:05:56.750> for<00:05:57.750> water<00:05:57.990> day<00:05:58.170> selection<00:05:58.710> plus
+
+00:05:58.940 --> 00:05:58.950 
+days a week for water day selection plus
+
+00:05:58.950 --> 00:06:01.910 
+days a week for water day selection plus
+means<00:05:59.220> yes<00:05:59.550> and<00:05:59.760> minus<00:06:00.270> means<00:06:00.510> no<00:06:00.750> if<00:06:01.440> we<00:06:01.650> want
+
+00:06:01.910 --> 00:06:01.920 
+means yes and minus means no if we want
+
+00:06:01.920 --> 00:06:03.770 
+means yes and minus means no if we want
+to<00:06:02.010> water<00:06:02.220> on<00:06:02.460> Monday<00:06:02.880> we<00:06:03.000> hit<00:06:03.150> the<00:06:03.300> plus<00:06:03.540> but
+
+00:06:03.770 --> 00:06:03.780 
+to water on Monday we hit the plus but
+
+00:06:03.780 --> 00:06:05.960 
+to water on Monday we hit the plus but
+we're<00:06:03.960> going<00:06:04.080> to<00:06:04.140> go<00:06:04.230> Tuesday<00:06:04.680> Thursday<00:06:05.190> so
+
+00:06:05.960 --> 00:06:05.970 
+we're going to go Tuesday Thursday so
+
+00:06:05.970 --> 00:06:07.880 
+we're going to go Tuesday Thursday so
+it's<00:06:06.000> blinking<00:06:06.510> every<00:06:06.600> Monday<00:06:07.020> we<00:06:07.140> use<00:06:07.290> minus
+
+00:06:07.880 --> 00:06:07.890 
+it's blinking every Monday we use minus
+
+00:06:07.890 --> 00:06:10.880 
+it's blinking every Monday we use minus
+to<00:06:08.100> say<00:06:08.250> no<00:06:08.520> water<00:06:08.880> on<00:06:09.060> Monday<00:06:09.480> Tuesday<00:06:10.410> the
+
+00:06:10.880 --> 00:06:10.890 
+to say no water on Monday Tuesday the
+
+00:06:10.890 --> 00:06:12.440 
+to say no water on Monday Tuesday the
+cursor<00:06:11.340> moves<00:06:11.550> over<00:06:11.790> right<00:06:11.910> to<00:06:12.000> Tuesday<00:06:12.360> we
+
+00:06:12.440 --> 00:06:12.450 
+cursor moves over right to Tuesday we
+
+00:06:12.450 --> 00:06:14.750 
+cursor moves over right to Tuesday we
+hit<00:06:12.600> plus<00:06:12.900> the<00:06:13.740> cursor<00:06:14.100> jumps<00:06:14.310> till<00:06:14.580> Wednesday
+
+00:06:14.750 --> 00:06:14.760 
+hit plus the cursor jumps till Wednesday
+
+00:06:14.760 --> 00:06:16.660 
+hit plus the cursor jumps till Wednesday
+we'll<00:06:15.150> use<00:06:15.330> the<00:06:15.480> minus<00:06:15.780> to<00:06:15.930> say<00:06:16.110> no<00:06:16.320> on
+
+00:06:16.660 --> 00:06:16.670 
+we'll use the minus to say no on
+
+00:06:16.670 --> 00:06:19.940 
+we'll use the minus to say no on
+Thursday<00:06:17.670> we<00:06:17.790> say<00:06:18.000> plus<00:06:18.510> for<00:06:18.810> yes<00:06:19.020> and<00:06:19.290> then
+
+00:06:19.940 --> 00:06:19.950 
+Thursday we say plus for yes and then
+
+00:06:19.950 --> 00:06:22.100 
+Thursday we say plus for yes and then
+Friday<00:06:20.370> Saturday<00:06:20.940> Sunday<00:06:20.970> we'll<00:06:21.510> say<00:06:21.690> minus
+
+00:06:22.100 --> 00:06:22.110 
+Friday Saturday Sunday we'll say minus
+
+00:06:22.110 --> 00:06:25.130 
+Friday Saturday Sunday we'll say minus
+minus<00:06:22.560> and<00:06:22.680> minus<00:06:23.000> so<00:06:24.000> the<00:06:24.120> cursor<00:06:24.540> does<00:06:24.750> jump
+
+00:06:25.130 --> 00:06:25.140 
+minus and minus so the cursor does jump
+
+00:06:25.140 --> 00:06:27.170 
+minus and minus so the cursor does jump
+back<00:06:25.380> to<00:06:25.410> Monday<00:06:25.860> blinking<00:06:26.490> don't<00:06:26.730> be<00:06:26.880> alarmed
+
+00:06:27.170 --> 00:06:27.180 
+back to Monday blinking don't be alarmed
+
+00:06:27.180 --> 00:06:28.730 
+back to Monday blinking don't be alarmed
+that's<00:06:27.630> just<00:06:27.840> the<00:06:27.960> curse<00:06:28.170> we're<00:06:28.380> saying<00:06:28.560> hey
+
+00:06:28.730 --> 00:06:28.740 
+that's just the curse we're saying hey
+
+00:06:28.740 --> 00:06:29.730 
+that's just the curse we're saying hey
+Here<00:06:28.980> I<00:06:29.010> am<00:06:29.100> do<00:06:29.430> you<00:06:29.490> want
+
+00:06:29.730 --> 00:06:29.740 
+Here I am do you want
+
+00:06:29.740 --> 00:06:32.189 
+Here I am do you want
+change<00:06:29.949> me<00:06:30.130> so<00:06:30.370> once<00:06:31.180> you've<00:06:31.330> got<00:06:31.509> water<00:06:31.990> drop
+
+00:06:32.189 --> 00:06:32.199 
+change me so once you've got water drop
+
+00:06:32.199 --> 00:06:36.059 
+change me so once you've got water drop
+over<00:06:32.440> Tuesday<00:06:32.889> and<00:06:33.009> Thursday<00:06:34.620> those<00:06:35.620> the<00:06:35.860> two
+
+00:06:36.059 --> 00:06:36.069 
+over Tuesday and Thursday those the two
+
+00:06:36.069 --> 00:06:38.309 
+over Tuesday and Thursday those the two
+water<00:06:36.610> dates<00:06:37.000> Monday<00:06:37.599> Wednesday<00:06:38.020> Friday
+
+00:06:38.309 --> 00:06:38.319 
+water dates Monday Wednesday Friday
+
+00:06:38.319 --> 00:06:39.960 
+water dates Monday Wednesday Friday
+Saturday<00:06:38.800> Sunday<00:06:38.830> will<00:06:39.310> have<00:06:39.430> a<00:06:39.460> circle<00:06:39.880> with
+
+00:06:39.960 --> 00:06:39.970 
+Saturday Sunday will have a circle with
+
+00:06:39.970 --> 00:06:41.730 
+Saturday Sunday will have a circle with
+a<00:06:40.030> line<00:06:40.060> through<00:06:40.240> of<00:06:40.539> those<00:06:40.690> the<00:06:40.840> non<00:06:41.080> water
+
+00:06:41.730 --> 00:06:41.740 
+a line through of those the non water
+
+00:06:41.740 --> 00:06:45.089 
+a line through of those the non water
+days<00:06:42.009> so<00:06:42.970> now<00:06:43.090> program<00:06:43.630> a<00:06:43.810> is<00:06:43.840> complete<00:06:44.410> the
+
+00:06:45.089 --> 00:06:45.099 
+days so now program a is complete the
+
+00:06:45.099 --> 00:06:47.580 
+days so now program a is complete the
+letter<00:06:45.490> A<00:06:45.580> is<00:06:45.880> still<00:06:45.910> shown<00:06:46.389> on<00:06:46.509> the<00:06:46.569> screen<00:06:46.690> we
+
+00:06:47.580 --> 00:06:47.590 
+letter A is still shown on the screen we
+
+00:06:47.590 --> 00:06:49.559 
+letter A is still shown on the screen we
+have<00:06:47.620> start<00:06:48.039> times<00:06:48.310> we<00:06:48.639> have<00:06:48.759> run<00:06:49.000> times<00:06:49.270> and
+
+00:06:49.559 --> 00:06:49.569 
+have start times we have run times and
+
+00:06:49.569 --> 00:06:52.830 
+have start times we have run times and
+water<00:06:49.870> days<00:06:50.139> all<00:06:50.410> in<00:06:51.009> programming<00:06:51.720> you<00:06:52.720> can
+
+00:06:52.830 --> 00:06:52.840 
+water days all in programming you can
+
+00:06:52.840 --> 00:06:53.999 
+water days all in programming you can
+turn<00:06:52.960> the<00:06:53.080> dial<00:06:53.259> back<00:06:53.410> to<00:06:53.470> the<00:06:53.620> run<00:06:53.680> position
+
+00:06:53.999 --> 00:06:54.009 
+turn the dial back to the run position
+
+00:06:54.009 --> 00:06:57.599 
+turn the dial back to the run position
+and<00:06:54.550> programming<00:06:55.479> is<00:06:55.569> complete
+

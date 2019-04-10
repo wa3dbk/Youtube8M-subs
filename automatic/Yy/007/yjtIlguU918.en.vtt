@@ -1,0 +1,730 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.960 --> 00:00:08.900 
+
+hi<00:00:06.960> this<00:00:07.020> is<00:00:07.290> Johnny<00:00:07.830> kiram<00:00:08.130> and<00:00:08.370> this<00:00:08.790> is<00:00:08.849> a
+
+00:00:08.900 --> 00:00:08.910 
+hi this is Johnny kiram and this is a
+
+00:00:08.910 --> 00:00:11.720 
+hi this is Johnny kiram and this is a
+tutorial<00:00:09.179> of<00:00:09.679> the<00:00:10.679> steps<00:00:10.980> involved<00:00:11.490> in
+
+00:00:11.720 --> 00:00:11.730 
+tutorial of the steps involved in
+
+00:00:11.730 --> 00:00:13.610 
+tutorial of the steps involved in
+setting<00:00:11.940> up<00:00:12.179> configuring<00:00:13.049> and<00:00:13.230> using<00:00:13.530> the
+
+00:00:13.610 --> 00:00:13.620 
+setting up configuring and using the
+
+00:00:13.620 --> 00:00:15.169 
+setting up configuring and using the
+Windows<00:00:13.889> Azure<00:00:14.070> command<00:00:14.549> line<00:00:14.730> tools<00:00:14.969> on
+
+00:00:15.169 --> 00:00:15.179 
+Windows Azure command line tools on
+
+00:00:15.179 --> 00:00:18.109 
+Windows Azure command line tools on
+Ubuntu<00:00:16.070> Windows<00:00:17.070> Azure<00:00:17.250> command<00:00:17.670> line<00:00:17.850> tools
+
+00:00:18.109 --> 00:00:18.119 
+Ubuntu Windows Azure command line tools
+
+00:00:18.119 --> 00:00:21.050 
+Ubuntu Windows Azure command line tools
+for<00:00:18.300> Linux<00:00:18.630> are<00:00:18.810> built<00:00:19.140> using<00:00:19.380> node.js<00:00:20.060> so
+
+00:00:21.050 --> 00:00:21.060 
+for Linux are built using node.js so
+
+00:00:21.060 --> 00:00:22.370 
+for Linux are built using node.js so
+let's<00:00:21.240> start<00:00:21.570> with<00:00:21.779> the<00:00:21.869> installation<00:00:22.109> of
+
+00:00:22.370 --> 00:00:22.380 
+let's start with the installation of
+
+00:00:22.380 --> 00:00:24.620 
+let's start with the installation of
+node.js<00:00:22.789> so<00:00:23.789> the<00:00:23.850> very<00:00:24.000> first<00:00:24.240> command<00:00:24.570> that
+
+00:00:24.620 --> 00:00:24.630 
+node.js so the very first command that
+
+00:00:24.630 --> 00:00:26.689 
+node.js so the very first command that
+we<00:00:24.810> are<00:00:24.869> going<00:00:25.019> to<00:00:25.109> run<00:00:25.320> is<00:00:25.590> to<00:00:25.650> get<00:00:26.279> the<00:00:26.400> latest
+
+00:00:26.689 --> 00:00:26.699 
+we are going to run is to get the latest
+
+00:00:26.699 --> 00:00:30.830 
+we are going to run is to get the latest
+version<00:00:27.090> of<00:00:27.210> node.js<00:00:28.160> so<00:00:29.160> let's<00:00:30.150> type<00:00:30.630> this
+
+00:00:30.830 --> 00:00:30.840 
+version of node.js so let's type this
+
+00:00:30.840 --> 00:00:38.270 
+version of node.js so let's type this
+command<00:00:31.080> which<00:00:31.500> is<00:00:31.529> add<00:00:35.390> apt<00:00:37.280> repository
+
+00:00:38.270 --> 00:00:38.280 
+command which is add apt repository
+
+00:00:38.280 --> 00:00:42.170 
+command which is add apt repository
+followed<00:00:38.760> by<00:00:39.020> PPA<00:00:40.020> chrisley<00:00:40.680> so<00:00:41.520> this<00:00:41.850> is<00:00:42.030> the
+
+00:00:42.170 --> 00:00:42.180 
+followed by PPA chrisley so this is the
+
+00:00:42.180 --> 00:00:45.500 
+followed by PPA chrisley so this is the
+location<00:00:42.510> where<00:00:43.550> the<00:00:44.550> latest<00:00:44.850> version<00:00:45.390> of
+
+00:00:45.500 --> 00:00:45.510 
+location where the latest version of
+
+00:00:45.510 --> 00:00:58.000 
+location where the latest version of
+node.js<00:00:46.379> is<00:00:46.739> maintained<00:00:47.489> for<00:00:47.579> ubuntu
+
+00:00:58.000 --> 00:00:58.010 
+
+00:00:58.010 --> 00:01:02.979 
+
+once<00:00:59.010> this<00:00:59.160> is<00:00:59.340> done<00:00:59.520> we'll<00:01:00.180> update<00:01:00.449> the
+
+00:01:02.979 --> 00:01:02.989 
+
+00:01:02.989 --> 00:01:06.440 
+
+package<00:01:03.989> repository<00:01:04.650> by<00:01:04.920> typing<00:01:05.790> apt-get
+
+00:01:06.440 --> 00:01:06.450 
+package repository by typing apt-get
+
+00:01:06.450 --> 00:01:16.880 
+package repository by typing apt-get
+update<00:01:06.890> so<00:01:07.890> this<00:01:08.040> going<00:01:08.190> to<00:01:08.310> quickly<00:01:08.549> refresh
+
+00:01:16.880 --> 00:01:16.890 
+
+00:01:16.890 --> 00:01:21.240 
+
+okay<00:01:17.890> now<00:01:18.700> the<00:01:18.759> top<00:01:19.060> date<00:01:19.270> is<00:01:19.390> done<00:01:19.860> let<00:01:20.860> me<00:01:21.040> go
+
+00:01:21.240 --> 00:01:21.250 
+okay now the top date is done let me go
+
+00:01:21.250 --> 00:01:31.440 
+okay now the top date is done let me go
+ahead<00:01:21.460> and<00:01:21.780> type<00:01:23.759> apt-get<00:01:24.759> install<00:01:30.450> node.js
+
+00:01:31.440 --> 00:01:31.450 
+ahead and type apt-get install node.js
+
+00:01:31.450 --> 00:01:34.340 
+ahead and type apt-get install node.js
+followed<00:01:32.229> by<00:01:32.380> NPM<00:01:32.890> the<00:01:33.159> node<00:01:33.340> package<00:01:33.549> manager
+
+00:01:34.340 --> 00:01:34.350 
+followed by NPM the node package manager
+
+00:01:34.350 --> 00:01:36.960 
+followed by NPM the node package manager
+so<00:01:35.350> this<00:01:35.530> is<00:01:35.619> going<00:01:35.830> to<00:01:35.920> download<00:01:36.159> about<00:01:36.610> 22
+
+00:01:36.960 --> 00:01:36.970 
+so this is going to download about 22
+
+00:01:36.970 --> 00:01:40.080 
+so this is going to download about 22
+point<00:01:37.179> 5<00:01:37.479> MB<00:01:37.750> of<00:01:38.460> packages<00:01:39.460> and<00:01:39.700> it's<00:01:39.820> going<00:01:39.970> to
+
+00:01:40.080 --> 00:01:40.090 
+point 5 MB of packages and it's going to
+
+00:01:40.090 --> 00:01:44.350 
+point 5 MB of packages and it's going to
+quickly<00:01:40.390> set<00:01:40.720> it<00:01:40.840> up<00:01:40.990> on<00:01:41.470> our<00:01:41.679> machine
+
+00:01:44.350 --> 00:01:44.360 
+
+00:01:44.360 --> 00:01:48.070 
+
+alright<00:01:45.220> once<00:01:46.220> this<00:01:46.400> is<00:01:46.580> done<00:01:46.790> let's<00:01:47.630> check
+
+00:01:48.070 --> 00:01:48.080 
+alright once this is done let's check
+
+00:01:48.080 --> 00:01:52.440 
+alright once this is done let's check
+the<00:01:48.620> version<00:01:49.100> of<00:01:49.250> node<00:01:50.090> by<00:01:50.450> typing<00:01:50.870> nord
+
+00:01:52.440 --> 00:01:52.450 
+the version of node by typing nord
+
+00:01:52.450 --> 00:01:57.820 
+the version of node by typing nord
+followed<00:01:53.450> by<00:01:53.630> version<00:01:55.900> so<00:01:56.900> that's<00:01:57.170> the<00:01:57.440> latest
+
+00:01:57.820 --> 00:01:57.830 
+followed by version so that's the latest
+
+00:01:57.830 --> 00:01:59.680 
+followed by version so that's the latest
+version<00:01:58.310> of<00:01:58.430> node<00:01:58.730> and<00:01:58.970> it's<00:01:59.330> an<00:01:59.450> indication
+
+00:01:59.680 --> 00:01:59.690 
+version of node and it's an indication
+
+00:01:59.690 --> 00:02:04.420 
+version of node and it's an indication
+that<00:02:00.200> the<00:02:01.660> installation<00:02:02.660> went<00:02:03.140> through<00:02:03.430> okay
+
+00:02:04.420 --> 00:02:04.430 
+that the installation went through okay
+
+00:02:04.430 --> 00:02:08.260 
+that the installation went through okay
+so<00:02:04.610> with<00:02:05.000> not<00:02:05.750> being<00:02:05.990> installed<00:02:07.060> let's<00:02:08.060> go
+
+00:02:08.260 --> 00:02:08.270 
+so with not being installed let's go
+
+00:02:08.270 --> 00:02:11.860 
+so with not being installed let's go
+ahead<00:02:08.360> and<00:02:08.810> get<00:02:09.500> the<00:02:09.800> is<00:02:10.580> your<00:02:11.000> node<00:02:11.600> package
+
+00:02:11.860 --> 00:02:11.870 
+ahead and get the is your node package
+
+00:02:11.870 --> 00:02:17.280 
+ahead and get the is your node package
+on<00:02:12.680> a<00:02:12.710> machine<00:02:13.130> so<00:02:13.460> I'm<00:02:13.520> going<00:02:13.700> to<00:02:13.760> type<00:02:14.000> NPM
+
+00:02:17.280 --> 00:02:17.290 
+
+00:02:17.290 --> 00:02:21.460 
+
+install<00:02:18.290> a<00:02:19.040> jar<00:02:19.580> -<00:02:19.940> gee<00:02:20.420> this<00:02:20.810> command<00:02:21.200> will
+
+00:02:21.460 --> 00:02:21.470 
+install a jar - gee this command will
+
+00:02:21.470 --> 00:02:26.500 
+install a jar - gee this command will
+get<00:02:21.740> us<00:02:21.890> the<00:02:22.930> is<00:02:23.930> your<00:02:24.320> node<00:02:24.800> package<00:02:25.510> under
+
+00:02:26.500 --> 00:02:26.510 
+get us the is your node package under
+
+00:02:26.510 --> 00:02:34.059 
+get us the is your node package under
+machine
+
+00:02:34.059 --> 00:02:34.069 
+
+00:02:34.069 --> 00:02:38.530 
+
+the<00:02:34.849> azure<00:02:35.060> NPM<00:02:35.750> is<00:02:35.930> installed<00:02:37.120> the<00:02:38.120> next<00:02:38.239> step
+
+00:02:38.530 --> 00:02:38.540 
+the azure NPM is installed the next step
+
+00:02:38.540 --> 00:02:42.670 
+the azure NPM is installed the next step
+is<00:02:38.750> to<00:02:39.250> download<00:02:40.250> the<00:02:40.599> publish<00:02:41.599> settings<00:02:41.870> file
+
+00:02:42.670 --> 00:02:42.680 
+is to download the publish settings file
+
+00:02:42.680 --> 00:02:44.020 
+is to download the publish settings file
+which<00:02:43.069> is<00:02:43.189> going<00:02:43.310> to<00:02:43.400> contain<00:02:43.819> our
+
+00:02:44.020 --> 00:02:44.030 
+which is going to contain our
+
+00:02:44.030 --> 00:02:49.530 
+which is going to contain our
+credentials<00:02:44.799> so<00:02:46.269> we<00:02:47.269> can<00:02:47.450> type<00:02:47.659> a<00:02:47.930> short
+
+00:02:49.530 --> 00:02:49.540 
+credentials so we can type a short
+
+00:02:49.540 --> 00:02:53.319 
+credentials so we can type a short
+account<00:02:50.709> download<00:02:51.709> so<00:02:52.670> this<00:02:52.909> is<00:02:53.060> going<00:02:53.209> to
+
+00:02:53.319 --> 00:02:53.329 
+account download so this is going to
+
+00:02:53.329 --> 00:02:55.949 
+account download so this is going to
+open<00:02:53.780> the<00:02:53.900> browser<00:02:54.079> window<00:02:54.590> in<00:02:55.370> a<00:02:55.489> while<00:02:55.670> an
+
+00:02:55.949 --> 00:02:55.959 
+open the browser window in a while an
+
+00:02:55.959 --> 00:02:59.170 
+open the browser window in a while an
+access<00:02:56.959> to<00:02:57.140> the<00:02:57.319> window<00:02:57.860> says<00:02:58.040> your<00:02:58.280> download
+
+00:02:59.170 --> 00:02:59.180 
+access to the window says your download
+
+00:02:59.180 --> 00:03:02.319 
+access to the window says your download
+of<00:02:59.329> the<00:02:59.450> profile<00:02:59.859> so<00:03:00.859> here<00:03:01.069> we<00:03:01.220> are<00:03:01.250> at<00:03:01.670> the
+
+00:03:02.319 --> 00:03:02.329 
+of the profile so here we are at the
+
+00:03:02.329 --> 00:03:04.839 
+of the profile so here we are at the
+window<00:03:02.810> says<00:03:02.989> your<00:03:03.170> sign-in<00:03:03.590> page<00:03:03.859> on<00:03:04.370> this
+
+00:03:04.839 --> 00:03:04.849 
+window says your sign-in page on this
+
+00:03:04.849 --> 00:03:09.369 
+window says your sign-in page on this
+page<00:03:05.650> we<00:03:06.650> can<00:03:06.730> directly<00:03:07.730> download<00:03:08.379> the
+
+00:03:09.369 --> 00:03:09.379 
+page we can directly download the
+
+00:03:09.379 --> 00:03:12.930 
+page we can directly download the
+publish<00:03:09.739> settings<00:03:09.950> file<00:03:10.480> so<00:03:11.480> we're<00:03:11.629> going<00:03:11.750> to
+
+00:03:12.930 --> 00:03:12.940 
+publish settings file so we're going to
+
+00:03:12.940 --> 00:03:18.610 
+publish settings file so we're going to
+download<00:03:13.940> this<00:03:14.769> onto<00:03:15.769> the<00:03:17.349> downloads<00:03:18.349> folder
+
+00:03:18.610 --> 00:03:18.620 
+download this onto the downloads folder
+
+00:03:18.620 --> 00:03:21.930 
+download this onto the downloads folder
+of<00:03:19.099> our<00:03:19.930> home<00:03:20.930> directory
+
+00:03:21.930 --> 00:03:21.940 
+of our home directory
+
+00:03:21.940 --> 00:03:25.629 
+of our home directory
+so<00:03:22.940> once<00:03:23.120> this<00:03:23.269> is<00:03:23.450> done<00:03:23.980> let's<00:03:24.980> close<00:03:25.370> this
+
+00:03:25.629 --> 00:03:25.639 
+so once this is done let's close this
+
+00:03:25.639 --> 00:03:30.149 
+so once this is done let's close this
+and<00:03:26.000> we'll<00:03:26.079> be<00:03:27.079> back<00:03:27.319> let<00:03:27.889> me<00:03:27.920> make<00:03:28.250> sure<00:03:28.280> that
+
+00:03:30.149 --> 00:03:30.159 
+and we'll be back let me make sure that
+
+00:03:30.159 --> 00:03:36.759 
+and we'll be back let me make sure that
+the<00:03:31.510> Downloads<00:03:32.620> directory<00:03:34.780> has<00:03:35.780> the<00:03:36.139> publish
+
+00:03:36.759 --> 00:03:36.769 
+the Downloads directory has the publish
+
+00:03:36.769 --> 00:03:39.339 
+the Downloads directory has the publish
+settings<00:03:36.950> file<00:03:37.720> so<00:03:38.720> there<00:03:38.930> we<00:03:39.139> go
+
+00:03:39.339 --> 00:03:39.349 
+settings file so there we go
+
+00:03:39.349 --> 00:03:43.300 
+settings file so there we go
+janakirama<00:03:40.310> so<00:03:40.639> shi'ites<00:03:41.120> followed<00:03:41.720> by<00:03:42.310> the
+
+00:03:43.300 --> 00:03:43.310 
+janakirama so shi'ites followed by the
+
+00:03:43.310 --> 00:03:46.240 
+janakirama so shi'ites followed by the
+date<00:03:43.549> credentials<00:03:44.419> or<00:03:44.690> publish<00:03:45.019> settings<00:03:45.260> so
+
+00:03:46.240 --> 00:03:46.250 
+date credentials or publish settings so
+
+00:03:46.250 --> 00:03:50.619 
+date credentials or publish settings so
+once<00:03:46.430> we<00:03:46.609> have<00:03:46.819> this<00:03:47.530> we<00:03:48.530> need<00:03:48.709> to<00:03:49.329> point<00:03:50.329> the
+
+00:03:50.619 --> 00:03:50.629 
+once we have this we need to point the
+
+00:03:50.629 --> 00:03:52.360 
+once we have this we need to point the
+command<00:03:50.900> line<00:03:51.079> tools<00:03:51.379> to<00:03:51.980> the<00:03:52.099> publish
+
+00:03:52.360 --> 00:03:52.370 
+command line tools to the publish
+
+00:03:52.370 --> 00:03:55.180 
+command line tools to the publish
+settings<00:03:52.579> file<00:03:52.940> so<00:03:53.359> I'm<00:03:53.449> going<00:03:53.599> to<00:03:53.690> type<00:03:54.190> is
+
+00:03:55.180 --> 00:03:55.190 
+settings file so I'm going to type is
+
+00:03:55.190 --> 00:04:02.199 
+settings file so I'm going to type is
+your<00:03:55.750> account<00:03:57.400> import<00:03:58.989> followed<00:03:59.989> by<00:04:01.209> the
+
+00:04:02.199 --> 00:04:02.209 
+your account import followed by the
+
+00:04:02.209 --> 00:04:04.869 
+your account import followed by the
+downloads<00:04:02.720> and<00:04:03.139> the<00:04:04.069> publish<00:04:04.370> settings<00:04:04.519> file
+
+00:04:04.869 --> 00:04:04.879 
+downloads and the publish settings file
+
+00:04:04.879 --> 00:04:08.559 
+downloads and the publish settings file
+so<00:04:05.750> this<00:04:05.900> is<00:04:06.049> going<00:04:06.199> to<00:04:07.269> enumerate<00:04:08.269> all<00:04:08.540> the
+
+00:04:08.559 --> 00:04:08.569 
+so this is going to enumerate all the
+
+00:04:08.569 --> 00:04:11.589 
+so this is going to enumerate all the
+accounts<00:04:09.169> and<00:04:09.609> bring<00:04:10.609> them<00:04:10.819> onto<00:04:11.060> the<00:04:11.299> command
+
+00:04:11.589 --> 00:04:11.599 
+accounts and bring them onto the command
+
+00:04:11.599 --> 00:04:15.879 
+accounts and bring them onto the command
+line<00:04:11.750> tools<00:04:12.430> so<00:04:13.430> once<00:04:13.609> this<00:04:13.879> step<00:04:14.090> is<00:04:14.269> done<00:04:14.889> we
+
+00:04:15.879 --> 00:04:15.889 
+line tools so once this step is done we
+
+00:04:15.889 --> 00:04:19.740 
+line tools so once this step is done we
+can<00:04:15.919> check<00:04:16.760> the<00:04:16.970> installation<00:04:17.239> or<00:04:17.840> rather<00:04:18.079> the
+
+00:04:19.740 --> 00:04:19.750 
+can check the installation or rather the
+
+00:04:19.750 --> 00:04:24.189 
+can check the installation or rather the
+configuration<00:04:20.750> by<00:04:21.169> typing<00:04:21.650> as<00:04:22.190> your<00:04:23.199> config
+
+00:04:24.189 --> 00:04:24.199 
+configuration by typing as your config
+
+00:04:24.199 --> 00:04:27.790 
+configuration by typing as your config
+list<00:04:25.150> so<00:04:26.150> this<00:04:26.300> is<00:04:26.419> going<00:04:26.599> to<00:04:26.720> show<00:04:26.990> us<00:04:27.169> the
+
+00:04:27.790 --> 00:04:27.800 
+list so this is going to show us the
+
+00:04:27.800 --> 00:04:30.070 
+list so this is going to show us the
+available<00:04:28.370> endpoints<00:04:29.120> and<00:04:29.330> the<00:04:29.750> subscription
+
+00:04:30.070 --> 00:04:30.080 
+available endpoints and the subscription
+
+00:04:30.080 --> 00:04:33.520 
+available endpoints and the subscription
+settings<00:04:30.470> in<00:04:31.159> my<00:04:31.430> case<00:04:31.820> I<00:04:31.970> only<00:04:32.120> have<00:04:32.240> one<00:04:32.599> but
+
+00:04:33.520 --> 00:04:33.530 
+settings in my case I only have one but
+
+00:04:33.530 --> 00:04:36.640 
+settings in my case I only have one but
+in<00:04:33.889> in<00:04:34.610> in<00:04:34.909> some<00:04:34.990> instances<00:04:35.990> you<00:04:36.229> may<00:04:36.500> have
+
+00:04:36.640 --> 00:04:36.650 
+in in in some instances you may have
+
+00:04:36.650 --> 00:04:38.500 
+in in in some instances you may have
+more<00:04:36.919> than<00:04:36.979> one<00:04:37.190> account<00:04:37.789> associated<00:04:38.210> with
+
+00:04:38.500 --> 00:04:38.510 
+more than one account associated with
+
+00:04:38.510 --> 00:04:41.560 
+more than one account associated with
+your<00:04:38.840> subscription<00:04:39.199> in<00:04:39.680> that<00:04:40.490> case<00:04:40.789> the<00:04:41.330> very
+
+00:04:41.560 --> 00:04:41.570 
+your subscription in that case the very
+
+00:04:41.570 --> 00:04:44.680 
+your subscription in that case the very
+first<00:04:41.900> account<00:04:43.000> mentioned<00:04:44.000> in<00:04:44.120> this<00:04:44.240> is<00:04:44.479> going
+
+00:04:44.680 --> 00:04:44.690 
+first account mentioned in this is going
+
+00:04:44.690 --> 00:04:46.610 
+first account mentioned in this is going
+to<00:04:44.780> be<00:04:44.870> the<00:04:44.960> default
+
+00:04:46.610 --> 00:04:46.620 
+to be the default
+
+00:04:46.620 --> 00:04:50.750 
+to be the default
+so<00:04:46.680> in<00:04:46.830> this<00:04:46.979> step<00:04:47.250> we<00:04:48.590> pointed<00:04:49.590> the<00:04:49.889> is<00:04:50.220> your
+
+00:04:50.750 --> 00:04:50.760 
+so in this step we pointed the is your
+
+00:04:50.760 --> 00:04:53.870 
+so in this step we pointed the is your
+tools<00:04:51.060> installed<00:04:51.630> on<00:04:51.810> ubuntu<00:04:51.979> to<00:04:52.979> our<00:04:53.130> is<00:04:53.550> your
+
+00:04:53.870 --> 00:04:53.880 
+tools installed on ubuntu to our is your
+
+00:04:53.880 --> 00:04:57.189 
+tools installed on ubuntu to our is your
+subscription<00:04:54.620> so<00:04:55.620> now<00:04:55.770> that<00:04:55.830> this<00:04:56.220> is<00:04:56.280> done
+
+00:04:57.189 --> 00:04:57.199 
+subscription so now that this is done
+
+00:04:57.199 --> 00:05:00.110 
+subscription so now that this is done
+let's<00:04:58.199> go<00:04:58.380> ahead<00:04:58.470> and<00:04:58.860> execute<00:04:59.610> some<00:04:59.910> of<00:05:00.000> the
+
+00:05:00.110 --> 00:05:00.120 
+let's go ahead and execute some of the
+
+00:05:00.120 --> 00:05:02.510 
+let's go ahead and execute some of the
+commands<00:05:00.830> the<00:05:01.830> very<00:05:01.979> first<00:05:02.220> thing<00:05:02.370> that<00:05:02.460> I
+
+00:05:02.510 --> 00:05:02.520 
+commands the very first thing that I
+
+00:05:02.520 --> 00:05:06.100 
+commands the very first thing that I
+want<00:05:02.669> to<00:05:02.760> check<00:05:03.030> is<00:05:03.330> by<00:05:04.260> typing<00:05:04.590> is<00:05:05.130> your
+
+00:05:06.100 --> 00:05:06.110 
+want to check is by typing is your
+
+00:05:06.110 --> 00:05:10.909 
+want to check is by typing is your
+account<00:05:07.550> followed<00:05:08.550> by<00:05:08.760> a<00:05:08.870> storage<00:05:09.870> list<00:05:10.470> so
+
+00:05:10.909 --> 00:05:10.919 
+account followed by a storage list so
+
+00:05:10.919 --> 00:05:14.330 
+account followed by a storage list so
+this<00:05:11.100> is<00:05:11.220> going<00:05:11.460> to<00:05:11.580> list<00:05:11.820> all<00:05:12.150> the<00:05:13.340> storage
+
+00:05:14.330 --> 00:05:14.340 
+this is going to list all the storage
+
+00:05:14.340 --> 00:05:16.280 
+this is going to list all the storage
+accounts<00:05:14.880> that<00:05:15.030> are<00:05:15.150> associated<00:05:15.449> with<00:05:16.020> my
+
+00:05:16.280 --> 00:05:16.290 
+accounts that are associated with my
+
+00:05:16.290 --> 00:05:18.980 
+accounts that are associated with my
+account<00:05:16.650> okay<00:05:17.180> let<00:05:18.180> me<00:05:18.300> try<00:05:18.419> out<00:05:18.630> a<00:05:18.660> couple<00:05:18.930> of
+
+00:05:18.980 --> 00:05:18.990 
+account okay let me try out a couple of
+
+00:05:18.990 --> 00:05:21.560 
+account okay let me try out a couple of
+more<00:05:19.199> commands<00:05:19.650> so<00:05:20.639> this<00:05:20.850> time<00:05:21.090> I'm<00:05:21.300> going<00:05:21.479> to
+
+00:05:21.560 --> 00:05:21.570 
+more commands so this time I'm going to
+
+00:05:21.570 --> 00:05:27.770 
+more commands so this time I'm going to
+try<00:05:21.900> a<00:05:22.520> short<00:05:23.520> VM<00:05:24.949> followed<00:05:25.949> by<00:05:26.160> location<00:05:27.120> list
+
+00:05:27.770 --> 00:05:27.780 
+try a short VM followed by location list
+
+00:05:27.780 --> 00:05:29.810 
+try a short VM followed by location list
+so<00:05:28.620> this<00:05:28.740> is<00:05:28.830> going<00:05:28.979> to<00:05:29.100> fetch<00:05:29.400> all<00:05:29.669> the
+
+00:05:29.810 --> 00:05:29.820 
+so this is going to fetch all the
+
+00:05:29.820 --> 00:05:32.600 
+so this is going to fetch all the
+locations<00:05:30.120> where<00:05:30.600> the<00:05:30.660> Windows<00:05:31.110> Azure<00:05:31.610> VM
+
+00:05:32.600 --> 00:05:32.610 
+locations where the Windows Azure VM
+
+00:05:32.610 --> 00:05:36.860 
+locations where the Windows Azure VM
+feature<00:05:33.030> is<00:05:33.389> available<00:05:34.250> in<00:05:35.250> preview<00:05:35.729> so<00:05:36.660> once
+
+00:05:36.860 --> 00:05:36.870 
+feature is available in preview so once
+
+00:05:36.870 --> 00:05:39.080 
+feature is available in preview so once
+this<00:05:37.020> becomes<00:05:37.320> generally<00:05:37.830> available<00:05:38.280> all<00:05:38.820> the
+
+00:05:39.080 --> 00:05:39.090 
+this becomes generally available all the
+
+00:05:39.090 --> 00:05:40.670 
+this becomes generally available all the
+locations<00:05:39.360> will<00:05:39.720> start<00:05:39.960> supporting<00:05:40.410> it<00:05:40.530> but
+
+00:05:40.670 --> 00:05:40.680 
+locations will start supporting it but
+
+00:05:40.680 --> 00:05:42.469 
+locations will start supporting it but
+for<00:05:40.889> now<00:05:40.919> it's<00:05:41.400> selectively<00:05:41.850> available<00:05:42.389> in
+
+00:05:42.469 --> 00:05:42.479 
+for now it's selectively available in
+
+00:05:42.479 --> 00:05:43.879 
+for now it's selectively available in
+certain<00:05:42.630> locations<00:05:43.139> so<00:05:43.289> this<00:05:43.470> command<00:05:43.770> is
+
+00:05:43.879 --> 00:05:43.889 
+certain locations so this command is
+
+00:05:43.889 --> 00:05:46.189 
+certain locations so this command is
+going<00:05:44.039> to<00:05:44.130> show<00:05:44.310> us<00:05:44.460> all<00:05:44.669> the<00:05:45.000> locations<00:05:45.660> of
+
+00:05:46.189 --> 00:05:46.199 
+going to show us all the locations of
+
+00:05:46.199 --> 00:05:49.129 
+going to show us all the locations of
+Windows<00:05:46.770> Azure<00:05:47.000> data<00:05:48.000> centers<00:05:48.449> or<00:05:48.660> regions
+
+00:05:49.129 --> 00:05:49.139 
+Windows Azure data centers or regions
+
+00:05:49.139 --> 00:05:53.240 
+Windows Azure data centers or regions
+supporting<00:05:50.100> the<00:05:50.220> VM<00:05:50.870> capability<00:05:52.250> similarly
+
+00:05:53.240 --> 00:05:53.250 
+supporting the VM capability similarly
+
+00:05:53.250 --> 00:05:58.719 
+supporting the VM capability similarly
+we<00:05:53.400> can<00:05:53.580> type<00:05:53.940> as<00:05:54.810> your<00:05:55.289> site<00:05:56.270> followed<00:05:57.270> by
+
+00:05:58.719 --> 00:05:58.729 
+we can type as your site followed by
+
+00:05:58.729 --> 00:06:02.480 
+we can type as your site followed by
+location<00:05:59.990> list<00:06:00.990> so<00:06:01.650> this<00:06:01.800> is<00:06:01.919> going<00:06:02.130> to<00:06:02.250> bring
+
+00:06:02.480 --> 00:06:02.490 
+location list so this is going to bring
+
+00:06:02.490 --> 00:06:06.020 
+location list so this is going to bring
+us<00:06:03.320> the<00:06:04.320> locations<00:06:04.860> where<00:06:05.190> the<00:06:05.250> websites
+
+00:06:06.020 --> 00:06:06.030 
+us the locations where the websites
+
+00:06:06.030 --> 00:06:09.260 
+us the locations where the websites
+preview<00:06:06.510> feature<00:06:06.780> is<00:06:07.110> available<00:06:07.940> so<00:06:08.940> that's
+
+00:06:09.260 --> 00:06:09.270 
+preview feature is available so that's
+
+00:06:09.270 --> 00:06:12.170 
+preview feature is available so that's
+available<00:06:09.479> only<00:06:09.870> at<00:06:10.260> East<00:06:10.620> Asia<00:06:10.889> and<00:06:11.280> East<00:06:11.760> US
+
+00:06:12.170 --> 00:06:12.180 
+available only at East Asia and East US
+
+00:06:12.180 --> 00:06:16.670 
+available only at East Asia and East US
+locations<00:06:13.789> so<00:06:14.870> that's<00:06:15.870> the<00:06:16.050> end<00:06:16.169> of<00:06:16.260> the<00:06:16.410> demo
+
+00:06:16.670 --> 00:06:16.680 
+locations so that's the end of the demo
+
+00:06:16.680 --> 00:06:19.120 
+locations so that's the end of the demo
+where<00:06:17.430> we<00:06:17.610> have<00:06:17.789> installed<00:06:18.570> node.js
+
+00:06:19.120 --> 00:06:19.130 
+where we have installed node.js
+
+00:06:19.130 --> 00:06:22.610 
+where we have installed node.js
+configured<00:06:20.130> it<00:06:20.340> and<00:06:20.550> then<00:06:21.330> install<00:06:22.020> the<00:06:22.229> azure
+
+00:06:22.610 --> 00:06:22.620 
+configured it and then install the azure
+
+00:06:22.620 --> 00:06:25.670 
+configured it and then install the azure
+NPM<00:06:23.510> connected<00:06:24.510> that<00:06:24.720> to<00:06:24.780> our<00:06:25.080> subscription
+
+00:06:25.670 --> 00:06:25.680 
+NPM connected that to our subscription
+
+00:06:25.680 --> 00:06:28.550 
+NPM connected that to our subscription
+and<00:06:25.860> tried<00:06:26.729> out<00:06:26.880> a<00:06:26.910> few<00:06:27.060> commands<00:06:27.599> hope<00:06:28.410> you
+
+00:06:28.550 --> 00:06:28.560 
+and tried out a few commands hope you
+
+00:06:28.560 --> 00:06:30.890 
+and tried out a few commands hope you
+found<00:06:28.770> this<00:06:29.010> tutorial<00:06:29.250> useful<00:06:29.780> thanks<00:06:30.780> for
+
+00:06:30.890 --> 00:06:30.900 
+found this tutorial useful thanks for
+
+00:06:30.900 --> 00:06:34.639 
+found this tutorial useful thanks for
+watching<00:06:31.229> this<00:06:31.380> is<00:06:31.560> janakiramaiah<00:06:31.889> Knopf
+

@@ -1,0 +1,697 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.590 --> 00:00:05.950 
+
+in<00:00:03.649> this<00:00:04.430> lesson<00:00:04.670> we'll<00:00:05.090> learn<00:00:05.149> how<00:00:05.359> to<00:00:05.630> handle
+
+00:00:05.950 --> 00:00:05.960 
+in this lesson we'll learn how to handle
+
+00:00:05.960 --> 00:00:08.620 
+in this lesson we'll learn how to handle
+multi-touch<00:00:06.500> events<00:00:06.950> on<00:00:07.880> the<00:00:08.059> screen<00:00:08.360> I've
+
+00:00:08.620 --> 00:00:08.630 
+multi-touch events on the screen I've
+
+00:00:08.630 --> 00:00:10.660 
+multi-touch events on the screen I've
+got<00:00:08.840> code<00:00:09.110> from<00:00:09.320> an<00:00:09.469> earlier<00:00:09.800> lesson<00:00:10.040> in<00:00:10.400> which
+
+00:00:10.660 --> 00:00:10.670 
+got code from an earlier lesson in which
+
+00:00:10.670 --> 00:00:12.970 
+got code from an earlier lesson in which
+we<00:00:10.880> created<00:00:11.389> a<00:00:11.540> button<00:00:11.900> class<00:00:12.110> and<00:00:12.500> as<00:00:12.710> well<00:00:12.890> we
+
+00:00:12.970 --> 00:00:12.980 
+we created a button class and as well we
+
+00:00:12.980 --> 00:00:15.460 
+we created a button class and as well we
+made<00:00:13.160> that<00:00:13.309> button<00:00:13.730> class<00:00:14.000> draggable<00:00:14.570> so
+
+00:00:15.460 --> 00:00:15.470 
+made that button class draggable so
+
+00:00:15.470 --> 00:00:16.960 
+made that button class draggable so
+we'll<00:00:15.680> create<00:00:15.920> multiple<00:00:16.340> buttons<00:00:16.580> on<00:00:16.849> the
+
+00:00:16.960 --> 00:00:16.970 
+we'll create multiple buttons on the
+
+00:00:16.970 --> 00:00:19.390 
+we'll create multiple buttons on the
+screen<00:00:17.060> and<00:00:17.560> enable<00:00:18.560> multitouch<00:00:18.949> so<00:00:19.189> that<00:00:19.310> we
+
+00:00:19.390 --> 00:00:19.400 
+screen and enable multitouch so that we
+
+00:00:19.400 --> 00:00:21.730 
+screen and enable multitouch so that we
+can<00:00:19.580> drag<00:00:19.760> those<00:00:20.000> buttons<00:00:20.360> around<00:00:20.630> and<00:00:21.260> as
+
+00:00:21.730 --> 00:00:21.740 
+can drag those buttons around and as
+
+00:00:21.740 --> 00:00:24.160 
+can drag those buttons around and as
+well<00:00:21.949> we'll<00:00:22.250> learn<00:00:22.430> how<00:00:22.490> to<00:00:22.760> pop<00:00:23.060> an<00:00:23.300> object<00:00:24.080> to
+
+00:00:24.160 --> 00:00:24.170 
+well we'll learn how to pop an object to
+
+00:00:24.170 --> 00:00:25.960 
+well we'll learn how to pop an object to
+the<00:00:24.320> top<00:00:24.500> of<00:00:24.529> a<00:00:24.740> display<00:00:25.130> group<00:00:25.369> so<00:00:25.610> that<00:00:25.789> when
+
+00:00:25.960 --> 00:00:25.970 
+the top of a display group so that when
+
+00:00:25.970 --> 00:00:28.330 
+the top of a display group so that when
+it's<00:00:26.119> tapped<00:00:26.449> it'll<00:00:27.109> appear<00:00:27.440> atop<00:00:27.830> the<00:00:28.010> others
+
+00:00:28.330 --> 00:00:28.340 
+it's tapped it'll appear atop the others
+
+00:00:28.340 --> 00:00:31.020 
+it's tapped it'll appear atop the others
+in<00:00:28.609> case<00:00:28.880> they<00:00:29.119> overlap
+
+00:00:31.020 --> 00:00:31.030 
+in case they overlap
+
+00:00:31.030 --> 00:00:33.000 
+in case they overlap
+the<00:00:31.210> first<00:00:31.450> thing<00:00:31.660> that<00:00:31.690> will<00:00:31.960> do<00:00:32.140> is<00:00:32.410> activate
+
+00:00:33.000 --> 00:00:33.010 
+the first thing that will do is activate
+
+00:00:33.010 --> 00:00:37.840 
+the first thing that will do is activate
+multi-touch<00:00:33.640> on<00:00:33.850> the<00:00:33.970> system
+
+00:00:37.840 --> 00:00:37.850 
+
+00:00:37.850 --> 00:00:39.790 
+
+if<00:00:37.910> you<00:00:38.539> don't<00:00:38.719> do<00:00:38.840> this<00:00:38.989> you<00:00:39.050> won't<00:00:39.500> be<00:00:39.710> able
+
+00:00:39.790 --> 00:00:39.800 
+if you don't do this you won't be able
+
+00:00:39.800 --> 00:00:42.459 
+if you don't do this you won't be able
+to<00:00:40.039> use<00:00:40.070> multi-touch<00:00:40.870> now<00:00:41.870> realize<00:00:42.230> because
+
+00:00:42.459 --> 00:00:42.469 
+to use multi-touch now realize because
+
+00:00:42.469 --> 00:00:44.200 
+to use multi-touch now realize because
+we're<00:00:42.829> on<00:00:42.980> the<00:00:43.129> computer<00:00:43.550> testing<00:00:44.059> through
+
+00:00:44.200 --> 00:00:44.210 
+we're on the computer testing through
+
+00:00:44.210 --> 00:00:46.119 
+we're on the computer testing through
+the<00:00:44.329> simulator<00:00:44.750> and<00:00:44.989> the<00:00:45.350> computer<00:00:45.800> isn't
+
+00:00:46.119 --> 00:00:46.129 
+the simulator and the computer isn't
+
+00:00:46.129 --> 00:00:47.709 
+the simulator and the computer isn't
+multi-touch<00:00:46.579> we<00:00:46.789> won't<00:00:46.969> be<00:00:47.089> able<00:00:47.180> to<00:00:47.390> simulate
+
+00:00:47.709 --> 00:00:47.719 
+multi-touch we won't be able to simulate
+
+00:00:47.719 --> 00:00:50.410 
+multi-touch we won't be able to simulate
+multi-touch<00:00:48.530> within<00:00:49.129> the<00:00:49.250> computer<00:00:49.699> will
+
+00:00:50.410 --> 00:00:50.420 
+multi-touch within the computer will
+
+00:00:50.420 --> 00:00:51.670 
+multi-touch within the computer will
+actually<00:00:50.750> have<00:00:50.870> to<00:00:51.019> build<00:00:51.230> this<00:00:51.350> to<00:00:51.559> the
+
+00:00:51.670 --> 00:00:51.680 
+actually have to build this to the
+
+00:00:51.680 --> 00:00:54.009 
+actually have to build this to the
+device<00:00:51.920> I<00:00:52.250> go<00:00:52.969> over<00:00:53.210> building<00:00:53.539> to<00:00:53.659> the<00:00:53.780> device
+
+00:00:54.009 --> 00:00:54.019 
+device I go over building to the device
+
+00:00:54.019 --> 00:00:56.200 
+device I go over building to the device
+much<00:00:54.260> later<00:00:54.530> in<00:00:54.620> this<00:00:54.799> title<00:00:55.219> so<00:00:55.790> I'll<00:00:56.149> show
+
+00:00:56.200 --> 00:00:56.210 
+much later in this title so I'll show
+
+00:00:56.210 --> 00:00:58.630 
+much later in this title so I'll show
+you<00:00:56.659> what<00:00:57.049> it<00:00:57.170> looks<00:00:57.199> like<00:00:57.469> on<00:00:57.620> the<00:00:57.680> device<00:00:58.010> and
+
+00:00:58.630 --> 00:00:58.640 
+you what it looks like on the device and
+
+00:00:58.640 --> 00:01:00.130 
+you what it looks like on the device and
+then<00:00:58.729> if<00:00:58.850> you're<00:00:58.969> interested<00:00:59.420> to<00:00:59.570> know<00:00:59.719> how<00:00:59.930> to
+
+00:01:00.130 --> 00:01:00.140 
+then if you're interested to know how to
+
+00:01:00.140 --> 00:01:02.350 
+then if you're interested to know how to
+build<00:01:00.409> to<00:01:00.559> the<00:01:00.589> device<00:01:00.920> go<00:01:01.579> to<00:01:01.640> the<00:01:01.850> lesson<00:01:02.180> on
+
+00:01:02.350 --> 00:01:02.360 
+build to the device go to the lesson on
+
+00:01:02.360 --> 00:01:05.139 
+build to the device go to the lesson on
+that<00:01:02.600> okay<00:01:03.500> we'll<00:01:03.680> go<00:01:03.799> down<00:01:03.829> into<00:01:04.460> the<00:01:04.940> button
+
+00:01:05.139 --> 00:01:05.149 
+that okay we'll go down into the button
+
+00:01:05.149 --> 00:01:07.600 
+that okay we'll go down into the button
+class<00:01:05.649> the<00:01:06.649> first<00:01:06.860> code<00:01:07.130> that<00:01:07.280> will<00:01:07.369> write
+
+00:01:07.600 --> 00:01:07.610 
+class the first code that will write
+
+00:01:07.610 --> 00:01:12.360 
+class the first code that will write
+will<00:01:07.940> be<00:01:08.149> within<00:01:08.479> the<00:01:08.810> button<00:01:09.289> touch<00:01:09.530> function
+
+00:01:12.360 --> 00:01:12.370 
+
+00:01:12.370 --> 00:01:15.780 
+
+the<00:01:12.490> began<00:01:12.760> phase<00:01:13.200> when<00:01:14.200> the<00:01:14.320> user<00:01:14.530> taps<00:01:15.130> an
+
+00:01:15.780 --> 00:01:15.790 
+the began phase when the user taps an
+
+00:01:15.790 --> 00:01:17.700 
+the began phase when the user taps an
+object<00:01:16.300> we<00:01:16.480> want<00:01:16.690> to<00:01:16.810> pop<00:01:16.990> it<00:01:17.140> to<00:01:17.260> the<00:01:17.350> front<00:01:17.590> of
+
+00:01:17.700 --> 00:01:17.710 
+object we want to pop it to the front of
+
+00:01:17.710 --> 00:01:19.680 
+object we want to pop it to the front of
+the<00:01:17.770> display<00:01:18.010> group<00:01:18.460> so<00:01:19.090> we'll<00:01:19.300> do<00:01:19.390> that<00:01:19.540> by
+
+00:01:19.680 --> 00:01:19.690 
+the display group so we'll do that by
+
+00:01:19.690 --> 00:01:23.550 
+the display group so we'll do that by
+calling<00:01:20.050> self<00:01:20.580> to<00:01:21.580> front<00:01:21.910> and<00:01:22.320> this<00:01:23.320> can<00:01:23.470> be
+
+00:01:23.550 --> 00:01:23.560 
+calling self to front and this can be
+
+00:01:23.560 --> 00:01:26.130 
+calling self to front and this can be
+called<00:01:23.800> on<00:01:24.040> any<00:01:24.400> display<00:01:24.910> object<00:01:25.450> to
+
+00:01:26.130 --> 00:01:26.140 
+called on any display object to
+
+00:01:26.140 --> 00:01:27.600 
+called on any display object to
+basically<00:01:26.620> pop<00:01:27.010> it<00:01:27.160> from<00:01:27.310> its<00:01:27.460> current
+
+00:01:27.600 --> 00:01:27.610 
+basically pop it from its current
+
+00:01:27.610 --> 00:01:29.280 
+basically pop it from its current
+position<00:01:27.820> in<00:01:28.300> the<00:01:28.540> stack<00:01:28.780> and<00:01:28.810> the<00:01:29.110> visual
+
+00:01:29.280 --> 00:01:29.290 
+position in the stack and the visual
+
+00:01:29.290 --> 00:01:32.490 
+position in the stack and the visual
+stack<00:01:29.710> to<00:01:30.400> the<00:01:30.430> top<00:01:30.730> of<00:01:30.760> the<00:01:30.940> stack<00:01:31.350> next<00:01:32.350> thing
+
+00:01:32.490 --> 00:01:32.500 
+stack to the top of the stack next thing
+
+00:01:32.500 --> 00:01:33.900 
+stack to the top of the stack next thing
+that<00:01:32.620> we'll<00:01:32.740> do<00:01:32.890> is<00:01:33.250> we'll<00:01:33.460> head<00:01:33.700> to<00:01:33.850> the
+
+00:01:33.900 --> 00:01:33.910 
+that we'll do is we'll head to the
+
+00:01:33.910 --> 00:01:37.680 
+that we'll do is we'll head to the
+display<00:01:34.510> get<00:01:35.020> current<00:01:35.440> stage<00:01:35.830> method<00:01:36.690> we're
+
+00:01:37.680 --> 00:01:37.690 
+display get current stage method we're
+
+00:01:37.690 --> 00:01:40.230 
+display get current stage method we're
+going<00:01:37.810> to<00:01:37.900> add<00:01:38.050> an<00:01:38.200> additional<00:01:38.740> argument<00:01:39.240> here
+
+00:01:40.230 --> 00:01:40.240 
+going to add an additional argument here
+
+00:01:40.240 --> 00:01:42.270 
+going to add an additional argument here
+we're<00:01:40.510> specifically<00:01:41.140> setting<00:01:41.500> the<00:01:41.980> touch
+
+00:01:42.270 --> 00:01:42.280 
+we're specifically setting the touch
+
+00:01:42.280 --> 00:01:46.110 
+we're specifically setting the touch
+that<00:01:42.700> will<00:01:42.850> receive<00:01:43.150> focus<00:01:43.750> so<00:01:44.260> I<00:01:44.500> ID<00:01:45.120> this
+
+00:01:46.110 --> 00:01:46.120 
+that will receive focus so I ID this
+
+00:01:46.120 --> 00:01:48.600 
+that will receive focus so I ID this
+will<00:01:46.330> allow<00:01:46.510> us<00:01:46.690> to<00:01:46.900> attach<00:01:47.800> a<00:01:48.130> particular
+
+00:01:48.600 --> 00:01:48.610 
+will allow us to attach a particular
+
+00:01:48.610 --> 00:01:52.380 
+will allow us to attach a particular
+touch<00:01:49.090> to<00:01:49.720> a<00:01:49.750> particular<00:01:50.140> object<00:01:50.980> in<00:01:51.390> the
+
+00:01:52.380 --> 00:01:52.390 
+touch to a particular object in the
+
+00:01:52.390 --> 00:01:55.350 
+touch to a particular object in the
+ended<00:01:52.690> phase<00:01:52.930> at<00:01:53.290> line<00:01:53.680> 53<00:01:54.070> we<00:01:54.700> don't<00:01:55.030> have<00:01:55.240> to
+
+00:01:55.350 --> 00:01:55.360 
+ended phase at line 53 we don't have to
+
+00:01:55.360 --> 00:01:57.630 
+ended phase at line 53 we don't have to
+do<00:01:55.480> anything<00:01:55.690> to<00:01:56.080> nil<00:01:56.380> out<00:01:56.590> that<00:01:56.830> touch<00:01:57.100> just
+
+00:01:57.630 --> 00:01:57.640 
+do anything to nil out that touch just
+
+00:01:57.640 --> 00:01:59.670 
+do anything to nil out that touch just
+passing<00:01:58.000> nil<00:01:58.210> to<00:01:58.420> set<00:01:58.630> focus<00:01:58.840> will<00:01:59.230> take<00:01:59.410> care
+
+00:01:59.670 --> 00:01:59.680 
+passing nil to set focus will take care
+
+00:01:59.680 --> 00:02:02.490 
+passing nil to set focus will take care
+of<00:01:59.770> it<00:02:00.090> finally<00:02:01.090> we'll<00:02:01.450> need<00:02:01.630> to<00:02:01.840> return<00:02:02.110> true
+
+00:02:02.490 --> 00:02:02.500 
+of it finally we'll need to return true
+
+00:02:02.500 --> 00:02:05.310 
+of it finally we'll need to return true
+so<00:02:02.860> that<00:02:03.040> if<00:02:03.220> the<00:02:03.850> objects<00:02:04.270> overlap<00:02:04.690> the<00:02:05.080> touch
+
+00:02:05.310 --> 00:02:05.320 
+so that if the objects overlap the touch
+
+00:02:05.320 --> 00:02:08.010 
+so that if the objects overlap the touch
+doesn't<00:02:05.740> bubble<00:02:06.520> down<00:02:06.820> to<00:02:07.150> objects<00:02:07.600> beneath
+
+00:02:08.010 --> 00:02:08.020 
+doesn't bubble down to objects beneath
+
+00:02:08.020 --> 00:02:11.270 
+doesn't bubble down to objects beneath
+the<00:02:08.380> current<00:02:08.770> object
+
+00:02:11.270 --> 00:02:11.280 
+
+00:02:11.280 --> 00:02:12.620 
+
+everything<00:02:11.670> else<00:02:11.819> in<00:02:11.970> the<00:02:12.060> code<00:02:12.240> will<00:02:12.450> stay
+
+00:02:12.620 --> 00:02:12.630 
+everything else in the code will stay
+
+00:02:12.630 --> 00:02:15.410 
+everything else in the code will stay
+the<00:02:12.780> same<00:02:12.810> so<00:02:13.260> now<00:02:14.190> we'll<00:02:14.550> head<00:02:14.790> to<00:02:14.970> the<00:02:15.000> bottom
+
+00:02:15.410 --> 00:02:15.420 
+the same so now we'll head to the bottom
+
+00:02:15.420 --> 00:02:17.420 
+the same so now we'll head to the bottom
+of<00:02:15.630> the<00:02:15.690> code<00:02:15.900> and<00:02:16.110> will<00:02:16.620> instantiate<00:02:16.950> some
+
+00:02:17.420 --> 00:02:17.430 
+of the code and will instantiate some
+
+00:02:17.430 --> 00:02:19.220 
+of the code and will instantiate some
+objects<00:02:17.850> first<00:02:18.360> thing<00:02:18.540> we'll<00:02:18.660> do<00:02:18.780> is<00:02:18.810> create<00:02:19.140> a
+
+00:02:19.220 --> 00:02:19.230 
+objects first thing we'll do is create a
+
+00:02:19.230 --> 00:02:22.890 
+objects first thing we'll do is create a
+table<00:02:19.440> to<00:02:19.709> hold<00:02:19.980> our<00:02:20.190> objects
+
+00:02:22.890 --> 00:02:22.900 
+
+00:02:22.900 --> 00:02:25.289 
+
+then<00:02:23.470> we'll<00:02:23.709> create<00:02:23.920> a<00:02:24.010> table<00:02:24.340> of<00:02:24.700> positions
+
+00:02:25.289 --> 00:02:25.299 
+then we'll create a table of positions
+
+00:02:25.299 --> 00:02:28.199 
+then we'll create a table of positions
+these<00:02:25.810> will<00:02:26.049> be<00:02:26.170> XY<00:02:26.620> positions<00:02:27.250> that<00:02:27.849> will<00:02:28.120> be
+
+00:02:28.199 --> 00:02:28.209 
+these will be XY positions that will be
+
+00:02:28.209 --> 00:02:29.819 
+these will be XY positions that will be
+iterated<00:02:28.689> through<00:02:28.720> in<00:02:29.110> order<00:02:29.230> to<00:02:29.439> position
+
+00:02:29.819 --> 00:02:29.829 
+iterated through in order to position
+
+00:02:29.829 --> 00:02:33.360 
+iterated through in order to position
+the<00:02:29.980> objects
+
+00:02:33.360 --> 00:02:33.370 
+
+00:02:33.370 --> 00:02:41.070 
+
+each<00:02:34.000> index<00:02:34.390> will<00:02:34.629> be<00:02:34.780> a<00:02:34.810> table
+
+00:02:41.070 --> 00:02:41.080 
+
+00:02:41.080 --> 00:03:09.580 
+
+you
+
+00:03:09.580 --> 00:03:09.590 
+
+00:03:09.590 --> 00:03:16.910 
+
+now<00:03:10.190> will<00:03:10.459> generate<00:03:10.819> five<00:03:11.090> images
+
+00:03:16.910 --> 00:03:16.920 
+
+00:03:16.920 --> 00:03:19.740 
+
+we'll<00:03:17.920> start<00:03:18.190> at<00:03:18.310> one<00:03:18.490> we'll<00:03:18.940> go<00:03:19.120> the<00:03:19.480> length
+
+00:03:19.740 --> 00:03:19.750 
+we'll start at one we'll go the length
+
+00:03:19.750 --> 00:03:22.290 
+we'll start at one we'll go the length
+of<00:03:19.960> the<00:03:20.170> positions<00:03:20.620> table<00:03:21.010> and<00:03:21.190> we'll<00:03:22.120> create
+
+00:03:22.290 --> 00:03:22.300 
+of the positions table and we'll create
+
+00:03:22.300 --> 00:03:31.030 
+of the positions table and we'll create
+new<00:03:22.720> images<00:03:23.140> within<00:03:23.380> the<00:03:23.650> food<00:03:23.890> table
+
+00:03:31.030 --> 00:03:31.040 
+
+00:03:31.040 --> 00:03:37.190 
+
+you
+
+00:03:37.190 --> 00:03:37.200 
+
+00:03:37.200 --> 00:03:40.790 
+
+now<00:03:37.800> let's<00:03:38.040> take<00:03:38.220> a<00:03:38.280> look<00:03:38.340> what<00:03:38.610> we<00:03:38.760> have
+
+00:03:40.790 --> 00:03:40.800 
+now let's take a look what we have
+
+00:03:40.800 --> 00:03:43.760 
+now let's take a look what we have
+so<00:03:41.430> we've<00:03:41.610> got<00:03:41.790> five<00:03:42.000> images<00:03:42.390> and<00:03:42.840> so<00:03:43.590> from
+
+00:03:43.760 --> 00:03:43.770 
+so we've got five images and so from
+
+00:03:43.770 --> 00:03:45.620 
+so we've got five images and so from
+here<00:03:44.130> we're<00:03:44.490> stuck<00:03:44.790> we<00:03:44.970> can't<00:03:45.210> really<00:03:45.360> test
+
+00:03:45.620 --> 00:03:45.630 
+here we're stuck we can't really test
+
+00:03:45.630 --> 00:03:48.980 
+here we're stuck we can't really test
+multi-touch<00:03:46.320> on<00:03:46.590> the<00:03:47.070> simulator<00:03:47.430> and<00:03:47.880> in<00:03:48.810> case
+
+00:03:48.980 --> 00:03:48.990 
+multi-touch on the simulator and in case
+
+00:03:48.990 --> 00:03:50.690 
+multi-touch on the simulator and in case
+you're<00:03:49.140> wondering<00:03:49.200> in<00:03:49.680> the<00:03:49.830> terminal<00:03:50.040> it<00:03:50.370> even
+
+00:03:50.690 --> 00:03:50.700 
+you're wondering in the terminal it even
+
+00:03:50.700 --> 00:03:52.430 
+you're wondering in the terminal it even
+says<00:03:50.910> simulator<00:03:51.690> does<00:03:51.960> not<00:03:52.110> support
+
+00:03:52.430 --> 00:03:52.440 
+says simulator does not support
+
+00:03:52.440 --> 00:03:54.540 
+says simulator does not support
+multitouch<00:03:52.980> events
+
+00:03:54.540 --> 00:03:54.550 
+multitouch events
+
+00:03:54.550 --> 00:03:56.520 
+multitouch events
+while<00:03:55.120> I<00:03:55.150> can't<00:03:55.420> demonstrate<00:03:55.600> multi-touch<00:03:56.350> on
+
+00:03:56.520 --> 00:03:56.530 
+while I can't demonstrate multi-touch on
+
+00:03:56.530 --> 00:03:58.620 
+while I can't demonstrate multi-touch on
+the<00:03:56.590> coronas<00:03:56.950> simulator<00:03:57.370> there<00:03:57.910> is<00:03:58.150> a<00:03:58.180> way<00:03:58.600> to
+
+00:03:58.620 --> 00:03:58.630 
+the coronas simulator there is a way to
+
+00:03:58.630 --> 00:04:00.990 
+the coronas simulator there is a way to
+demonstrate<00:03:59.020> it<00:03:59.560> using<00:03:59.860> the<00:03:59.890> Xcode<00:04:00.460> simulator
+
+00:04:00.990 --> 00:04:01.000 
+demonstrate it using the Xcode simulator
+
+00:04:01.000 --> 00:04:03.690 
+demonstrate it using the Xcode simulator
+I<00:04:01.240> went<00:04:02.230> ahead<00:04:02.320> and<00:04:02.440> build<00:04:02.890> this<00:04:03.070> project<00:04:03.310> for
+
+00:04:03.690 --> 00:04:03.700 
+I went ahead and build this project for
+
+00:04:03.700 --> 00:04:05.580 
+I went ahead and build this project for
+the<00:04:03.730> Xcode<00:04:04.120> simulator<00:04:04.630> I<00:04:04.840> go<00:04:05.110> into<00:04:05.380> how<00:04:05.530> to
+
+00:04:05.580 --> 00:04:05.590 
+the Xcode simulator I go into how to
+
+00:04:05.590 --> 00:04:08.190 
+the Xcode simulator I go into how to
+build<00:04:05.950> for<00:04:06.490> the<00:04:06.580> Xcode<00:04:06.970> simulator<00:04:07.480> in<00:04:07.690> a<00:04:07.870> later
+
+00:04:08.190 --> 00:04:08.200 
+build for the Xcode simulator in a later
+
+00:04:08.200 --> 00:04:10.380 
+build for the Xcode simulator in a later
+lesson<00:04:08.470> but<00:04:09.340> let<00:04:09.490> me<00:04:09.520> cut<00:04:09.730> away<00:04:09.910> to<00:04:09.940> that<00:04:10.150> and
+
+00:04:10.380 --> 00:04:10.390 
+lesson but let me cut away to that and
+
+00:04:10.390 --> 00:04:13.140 
+lesson but let me cut away to that and
+show<00:04:10.600> you<00:04:10.710> so<00:04:11.710> within<00:04:12.040> the<00:04:12.250> Xcode<00:04:12.670> simulator
+
+00:04:13.140 --> 00:04:13.150 
+show you so within the Xcode simulator
+
+00:04:13.150 --> 00:04:14.580 
+show you so within the Xcode simulator
+or<00:04:13.240> actually<00:04:13.810> it's<00:04:13.930> called<00:04:14.050> the<00:04:14.170> iOS
+
+00:04:14.580 --> 00:04:14.590 
+or actually it's called the iOS
+
+00:04:14.590 --> 00:04:16.890 
+or actually it's called the iOS
+simulator<00:04:15.000> you<00:04:16.000> can<00:04:16.150> hold<00:04:16.299> the<00:04:16.450> option<00:04:16.630> key
+
+00:04:16.890 --> 00:04:16.900 
+simulator you can hold the option key
+
+00:04:16.900 --> 00:04:19.830 
+simulator you can hold the option key
+and<00:04:17.320> you<00:04:18.160> get<00:04:18.340> these<00:04:18.489> two<00:04:18.880> points<00:04:19.330> and<00:04:19.690> here
+
+00:04:19.830 --> 00:04:19.840 
+and you get these two points and here
+
+00:04:19.840 --> 00:04:21.509 
+and you get these two points and here
+I'm<00:04:19.930> just<00:04:19.959> hovering<00:04:20.470> I'm<00:04:20.680> not<00:04:20.860> clicking<00:04:21.370> and
+
+00:04:21.509 --> 00:04:21.519 
+I'm just hovering I'm not clicking and
+
+00:04:21.519 --> 00:04:24.870 
+I'm just hovering I'm not clicking and
+they<00:04:22.210> represent<00:04:22.690> touch<00:04:22.900> so<00:04:23.710> if<00:04:24.040> I<00:04:24.280> hold<00:04:24.730> down
+
+00:04:24.870 --> 00:04:24.880 
+they represent touch so if I hold down
+
+00:04:24.880 --> 00:04:27.510 
+they represent touch so if I hold down
+that<00:04:25.390> actually<00:04:25.930> I<00:04:25.960> do<00:04:26.200> have<00:04:26.520> multitouch
+
+00:04:27.510 --> 00:04:27.520 
+that actually I do have multitouch
+
+00:04:27.520 --> 00:04:29.910 
+that actually I do have multitouch
+happening<00:04:28.210> so<00:04:28.930> this<00:04:29.170> just<00:04:29.350> shows<00:04:29.470> you<00:04:29.890> that
+
+00:04:29.910 --> 00:04:29.920 
+happening so this just shows you that
+
+00:04:29.920 --> 00:04:32.490 
+happening so this just shows you that
+I'm<00:04:30.730> able<00:04:31.180> to<00:04:31.480> move<00:04:31.660> to<00:04:31.960> the<00:04:32.110> objects
+
+00:04:32.490 --> 00:04:32.500 
+I'm able to move to the objects
+
+00:04:32.500 --> 00:04:34.980 
+I'm able to move to the objects
+independently<00:04:33.130> and<00:04:33.760> I'll<00:04:33.880> go<00:04:34.030> ahead<00:04:34.120> and<00:04:34.300> cut
+
+00:04:34.980 --> 00:04:34.990 
+independently and I'll go ahead and cut
+
+00:04:34.990 --> 00:04:38.040 
+independently and I'll go ahead and cut
+away<00:04:35.200> to<00:04:35.230> a<00:04:35.770> video<00:04:36.130> that<00:04:36.490> does<00:04:36.850> have<00:04:37.180> the
+
+00:04:38.040 --> 00:04:38.050 
+away to a video that does have the
+
+00:04:38.050 --> 00:04:40.230 
+away to a video that does have the
+device<00:04:38.650> being<00:04:38.890> used<00:04:38.950> and<00:04:39.490> show<00:04:39.730> you<00:04:39.790> that<00:04:39.910> as
+
+00:04:40.230 --> 00:04:40.240 
+device being used and show you that as
+
+00:04:40.240 --> 00:04:43.290 
+device being used and show you that as
+each<00:04:40.750> of<00:04:41.170> the<00:04:41.500> objects<00:04:42.010> is<00:04:42.160> pressed<00:04:42.430> you<00:04:43.120> get
+
+00:04:43.290 --> 00:04:43.300 
+each of the objects is pressed you get
+
+00:04:43.300 --> 00:04:46.590 
+each of the objects is pressed you get
+the<00:04:43.450> overstate<00:04:44.080> and<00:04:44.580> you<00:04:45.580> can<00:04:45.760> see<00:04:46.360> that<00:04:46.390> the
+
+00:04:46.590 --> 00:04:46.600 
+the overstate and you can see that the
+
+00:04:46.600 --> 00:04:48.480 
+the overstate and you can see that the
+user<00:04:46.810> is<00:04:46.930> moving<00:04:47.350> the<00:04:47.470> objects<00:04:47.950> freely<00:04:48.280> on<00:04:48.400> the
+
+00:04:48.480 --> 00:04:48.490 
+user is moving the objects freely on the
+
+00:04:48.490 --> 00:04:51.630 
+user is moving the objects freely on the
+screen<00:04:49.000> and<00:04:49.180> each<00:04:49.930> object<00:04:50.230> pops<00:04:50.980> to<00:04:51.190> the<00:04:51.250> top
+
+00:04:51.630 --> 00:04:51.640 
+screen and each object pops to the top
+
+00:04:51.640 --> 00:04:53.190 
+screen and each object pops to the top
+of<00:04:51.670> the<00:04:51.820> stack<00:04:52.120> and<00:04:52.330> that's<00:04:52.600> because<00:04:52.780> we're
+
+00:04:53.190 --> 00:04:53.200 
+of the stack and that's because we're
+
+00:04:53.200 --> 00:04:56.170 
+of the stack and that's because we're
+using<00:04:53.290> two<00:04:53.710> front
+
+00:04:56.170 --> 00:04:56.180 
+
+00:04:56.180 --> 00:04:57.430 
+
+send<00:04:56.330> our<00:04:56.479> lesson<00:04:56.810> on<00:04:56.990> how<00:04:57.259> to<00:04:57.289> handle
+
+00:04:57.430 --> 00:04:57.440 
+send our lesson on how to handle
+
+00:04:57.440 --> 00:05:00.850 
+send our lesson on how to handle
+multi-touch<00:04:58.250> events
+

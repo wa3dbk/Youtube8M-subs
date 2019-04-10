@@ -1,0 +1,1128 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.160 --> 00:00:10.190 
+
+welcome<00:00:08.160> back<00:00:08.309> to<00:00:08.610> designing<00:00:09.269> a<00:00:09.450> mimic<00:00:09.719> LNA
+
+00:00:10.190 --> 00:00:10.200 
+welcome back to designing a mimic LNA
+
+00:00:10.200 --> 00:00:13.220 
+welcome back to designing a mimic LNA
+we're<00:00:10.680> now<00:00:10.799> at<00:00:11.040> part<00:00:11.400> four<00:00:11.730> and<00:00:12.030> where<00:00:12.959> we<00:00:13.049> left
+
+00:00:13.220 --> 00:00:13.230 
+we're now at part four and where we left
+
+00:00:13.230 --> 00:00:14.600 
+we're now at part four and where we left
+off<00:00:13.350> in<00:00:13.379> part<00:00:13.530> three<00:00:13.920> was<00:00:14.070> just<00:00:14.280> getting<00:00:14.519> a
+
+00:00:14.600 --> 00:00:14.610 
+off in part three was just getting a
+
+00:00:14.610 --> 00:00:16.880 
+off in part three was just getting a
+basic<00:00:14.910> understanding<00:00:15.030> of<00:00:15.540> noise<00:00:16.259> figure<00:00:16.529> in
+
+00:00:16.880 --> 00:00:16.890 
+basic understanding of noise figure in
+
+00:00:16.890 --> 00:00:18.800 
+basic understanding of noise figure in
+at<00:00:17.160> a<00:00:17.189> system<00:00:17.520> level<00:00:17.550> in<00:00:17.970> terms<00:00:18.090> of<00:00:18.300> cascaded
+
+00:00:18.800 --> 00:00:18.810 
+at a system level in terms of cascaded
+
+00:00:18.810 --> 00:00:20.510 
+at a system level in terms of cascaded
+noise<00:00:19.020> figure<00:00:19.230> and<00:00:19.500> the<00:00:19.980> relationship
+
+00:00:20.510 --> 00:00:20.520 
+noise figure and the relationship
+
+00:00:20.520 --> 00:00:22.820 
+noise figure and the relationship
+between<00:00:20.550> noise<00:00:20.939> figure<00:00:21.210> and<00:00:21.450> gain<00:00:21.660> in<00:00:21.930> this
+
+00:00:22.820 --> 00:00:22.830 
+between noise figure and gain in this
+
+00:00:22.830 --> 00:00:23.960 
+between noise figure and gain in this
+segment<00:00:23.039> what<00:00:23.310> we're<00:00:23.400> going<00:00:23.640> to<00:00:23.699> do<00:00:23.850> is
+
+00:00:23.960 --> 00:00:23.970 
+segment what we're going to do is
+
+00:00:23.970 --> 00:00:25.609 
+segment what we're going to do is
+actually<00:00:24.090> look<00:00:24.420> at<00:00:24.600> the<00:00:24.720> FET<00:00:24.930> in<00:00:25.199> this<00:00:25.410> case
+
+00:00:25.609 --> 00:00:25.619 
+actually look at the FET in this case
+
+00:00:25.619 --> 00:00:27.620 
+actually look at the FET in this case
+the<00:00:25.769> enhancement<00:00:26.279> mode<00:00:26.400> or<00:00:26.609> a<00:00:26.789> FET<00:00:27.029> in<00:00:27.210> the
+
+00:00:27.620 --> 00:00:27.630 
+the enhancement mode or a FET in the
+
+00:00:27.630 --> 00:00:29.660 
+the enhancement mode or a FET in the
+triQuint<00:00:28.050> process<00:00:28.470> and<00:00:28.650> begin<00:00:29.099> to<00:00:29.189> understand
+
+00:00:29.660 --> 00:00:29.670 
+triQuint process and begin to understand
+
+00:00:29.670 --> 00:00:31.429 
+triQuint process and begin to understand
+this<00:00:29.789> device<00:00:30.150> as<00:00:30.359> the<00:00:30.420> foundational<00:00:31.140> device
+
+00:00:31.429 --> 00:00:31.439 
+this device as the foundational device
+
+00:00:31.439 --> 00:00:34.160 
+this device as the foundational device
+of<00:00:31.650> our<00:00:32.220> low<00:00:32.400> noise<00:00:32.550> amplifier<00:00:32.960> so<00:00:33.960> to<00:00:34.019> begin
+
+00:00:34.160 --> 00:00:34.170 
+of our low noise amplifier so to begin
+
+00:00:34.170 --> 00:00:35.780 
+of our low noise amplifier so to begin
+with<00:00:34.440> what<00:00:34.620> we<00:00:34.739> normally<00:00:34.920> want<00:00:35.309> to<00:00:35.400> do<00:00:35.489> is<00:00:35.640> take
+
+00:00:35.780 --> 00:00:35.790 
+with what we normally want to do is take
+
+00:00:35.790 --> 00:00:37.700 
+with what we normally want to do is take
+a<00:00:35.850> look<00:00:36.090> at<00:00:36.180> the<00:00:36.300> IV<00:00:36.600> characteristics<00:00:37.379> to<00:00:37.530> see
+
+00:00:37.700 --> 00:00:37.710 
+a look at the IV characteristics to see
+
+00:00:37.710 --> 00:00:39.140 
+a look at the IV characteristics to see
+where<00:00:37.920> we're<00:00:38.040> going<00:00:38.070> to<00:00:38.339> get<00:00:38.489> linear
+
+00:00:39.140 --> 00:00:39.150 
+where we're going to get linear
+
+00:00:39.150 --> 00:00:41.360 
+where we're going to get linear
+amplifier<00:00:39.780> performance<00:00:40.409> and<00:00:40.620> that's<00:00:41.159> just<00:00:41.309> a
+
+00:00:41.360 --> 00:00:41.370 
+amplifier performance and that's just a
+
+00:00:41.370 --> 00:00:43.549 
+amplifier performance and that's just a
+simple<00:00:41.699> matter<00:00:41.850> of<00:00:41.970> taking<00:00:42.239> the<00:00:42.570> Baisakhi<00:00:43.290> FET
+
+00:00:43.549 --> 00:00:43.559 
+simple matter of taking the Baisakhi FET
+
+00:00:43.559 --> 00:00:46.399 
+simple matter of taking the Baisakhi FET
+out<00:00:44.280> of<00:00:44.460> the<00:00:44.549> triQuint<00:00:45.150> PD<00:00:45.629> design<00:00:45.930> kit<00:00:46.199> and
+
+00:00:46.399 --> 00:00:46.409 
+out of the triQuint PD design kit and
+
+00:00:46.409 --> 00:00:48.500 
+out of the triQuint PD design kit and
+hooking<00:00:46.799> up<00:00:47.040> an<00:00:47.159> IV<00:00:47.460> curve<00:00:47.699> element<00:00:48.150> here<00:00:48.390> and
+
+00:00:48.500 --> 00:00:48.510 
+hooking up an IV curve element here and
+
+00:00:48.510 --> 00:00:51.189 
+hooking up an IV curve element here and
+then<00:00:49.229> looking<00:00:49.530> at<00:00:49.710> some<00:00:49.920> IV<00:00:50.190> curves<00:00:50.489> so
+
+00:00:51.189 --> 00:00:51.199 
+then looking at some IV curves so
+
+00:00:51.199 --> 00:00:53.750 
+then looking at some IV curves so
+looking<00:00:52.199> at<00:00:52.320> these<00:00:52.530> IV<00:00:52.890> curves<00:00:53.190> we<00:00:53.309> can<00:00:53.339> see
+
+00:00:53.750 --> 00:00:53.760 
+looking at these IV curves we can see
+
+00:00:53.760 --> 00:00:55.399 
+looking at these IV curves we can see
+here<00:00:54.030> that<00:00:54.150> because<00:00:54.659> this<00:00:54.780> is<00:00:54.900> an<00:00:55.049> enhancement
+
+00:00:55.399 --> 00:00:55.409 
+here that because this is an enhancement
+
+00:00:55.409 --> 00:00:57.140 
+here that because this is an enhancement
+mode<00:00:55.650> device<00:00:56.010> we're<00:00:56.489> going<00:00:56.610> to<00:00:56.670> get<00:00:56.760> turned<00:00:56.970> on
+
+00:00:57.140 --> 00:00:57.150 
+mode device we're going to get turned on
+
+00:00:57.150 --> 00:00:59.930 
+mode device we're going to get turned on
+above<00:00:57.449> zero<00:00:57.780> volts<00:00:58.110> and<00:00:58.290> the<00:00:59.250> nature<00:00:59.580> of<00:00:59.610> this
+
+00:00:59.930 --> 00:00:59.940 
+above zero volts and the nature of this
+
+00:00:59.940 --> 00:01:01.789 
+above zero volts and the nature of this
+device<00:01:00.239> inside<00:01:00.600> of<00:01:00.900> a<00:01:00.930> gallium<00:01:01.470> arsenide
+
+00:01:01.789 --> 00:01:01.799 
+device inside of a gallium arsenide
+
+00:01:01.799 --> 00:01:05.299 
+device inside of a gallium arsenide
+process<00:01:02.309> with<00:01:03.119> a<00:01:03.150> metal<00:01:03.930> gate<00:01:04.110> implies<00:01:05.100> that
+
+00:01:05.299 --> 00:01:05.309 
+process with a metal gate implies that
+
+00:01:05.309 --> 00:01:06.050 
+process with a metal gate implies that
+we're<00:01:05.460> really<00:01:05.580> not<00:01:05.700> going<00:01:05.820> to<00:01:05.880> want<00:01:06.030> to
+
+00:01:06.050 --> 00:01:06.060 
+we're really not going to want to
+
+00:01:06.060 --> 00:01:08.690 
+we're really not going to want to
+operate<00:01:06.360> this<00:01:06.630> much<00:01:07.560> above<00:01:07.830> 0.7<00:01:08.460> volts
+
+00:01:08.690 --> 00:01:08.700 
+operate this much above 0.7 volts
+
+00:01:08.700 --> 00:01:09.740 
+operate this much above 0.7 volts
+because<00:01:08.850> that's<00:01:09.000> where<00:01:09.150> the<00:01:09.240> gate<00:01:09.420> is<00:01:09.540> going
+
+00:01:09.740 --> 00:01:09.750 
+because that's where the gate is going
+
+00:01:09.750 --> 00:01:11.540 
+because that's where the gate is going
+to<00:01:09.810> forward<00:01:10.140> bias<00:01:10.320> and<00:01:10.590> act<00:01:11.100> more<00:01:11.220> like<00:01:11.370> a
+
+00:01:11.540 --> 00:01:11.550 
+to forward bias and act more like a
+
+00:01:11.550 --> 00:01:13.730 
+to forward bias and act more like a
+diode<00:01:11.850> so<00:01:12.840> we're<00:01:12.990> sort<00:01:13.170> of<00:01:13.200> constrained
+
+00:01:13.730 --> 00:01:13.740 
+diode so we're sort of constrained
+
+00:01:13.740 --> 00:01:16.400 
+diode so we're sort of constrained
+between<00:01:14.190> the<00:01:14.700> turn-on<00:01:14.940> voltage<00:01:15.480> which<00:01:15.750> is<00:01:16.140> on
+
+00:01:16.400 --> 00:01:16.410 
+between the turn-on voltage which is on
+
+00:01:16.410 --> 00:01:19.460 
+between the turn-on voltage which is on
+the<00:01:16.500> order<00:01:16.590> of<00:01:16.740> about<00:01:17.420> 0.2<00:01:18.420> to<00:01:18.540> 0.3<00:01:18.930> volts<00:01:18.960> and
+
+00:01:19.460 --> 00:01:19.470 
+the order of about 0.2 to 0.3 volts and
+
+00:01:19.470 --> 00:01:22.280 
+the order of about 0.2 to 0.3 volts and
+on<00:01:20.310> the<00:01:20.820> gate<00:01:20.970> and<00:01:21.000> the<00:01:21.270> upper<00:01:21.480> end<00:01:21.630> at<00:01:21.720> 0.7
+
+00:01:22.280 --> 00:01:22.290 
+on the gate and the upper end at 0.7
+
+00:01:22.290 --> 00:01:23.360 
+on the gate and the upper end at 0.7
+volts<00:01:22.530> but<00:01:22.650> we're<00:01:22.800> also<00:01:22.920> somewhat
+
+00:01:23.360 --> 00:01:23.370 
+volts but we're also somewhat
+
+00:01:23.370 --> 00:01:26.090 
+volts but we're also somewhat
+constrained<00:01:23.700> on<00:01:24.060> our<00:01:24.570> VDS<00:01:25.050> our<00:01:25.620> drain<00:01:25.920> voltage
+
+00:01:26.090 --> 00:01:26.100 
+constrained on our VDS our drain voltage
+
+00:01:26.100 --> 00:01:30.080 
+constrained on our VDS our drain voltage
+by<00:01:26.850> where<00:01:27.120> the<00:01:27.270> knee<00:01:27.420> is<00:01:27.450> and<00:01:27.990> in<00:01:28.860> any<00:01:29.550> Class<00:01:29.880> A
+
+00:01:30.080 --> 00:01:30.090 
+by where the knee is and in any Class A
+
+00:01:30.090 --> 00:01:31.670 
+by where the knee is and in any Class A
+or<00:01:30.270> Class<00:01:30.300> A<00:01:30.630> B<00:01:30.780> amplifier<00:01:31.230> design<00:01:31.530> we're
+
+00:01:31.670 --> 00:01:31.680 
+or Class A B amplifier design we're
+
+00:01:31.680 --> 00:01:33.650 
+or Class A B amplifier design we're
+going<00:01:31.710> to<00:01:31.920> want<00:01:32.070> to<00:01:32.130> be<00:01:32.250> in<00:01:32.430> this<00:01:32.850> region<00:01:33.090> here
+
+00:01:33.650 --> 00:01:33.660 
+going to want to be in this region here
+
+00:01:33.660 --> 00:01:35.720 
+going to want to be in this region here
+so<00:01:34.530> just<00:01:34.890> looking<00:01:35.130> at<00:01:35.280> this<00:01:35.400> IV
+
+00:01:35.720 --> 00:01:35.730 
+so just looking at this IV
+
+00:01:35.730 --> 00:01:37.820 
+so just looking at this IV
+characteristic<00:01:36.450> we<00:01:36.600> can<00:01:36.840> say<00:01:37.380> that<00:01:37.560> we<00:01:37.650> should
+
+00:01:37.820 --> 00:01:37.830 
+characteristic we can say that we should
+
+00:01:37.830 --> 00:01:39.680 
+characteristic we can say that we should
+start<00:01:38.130> exploring<00:01:38.520> our<00:01:38.760> circuit<00:01:39.120> let's<00:01:39.300> say<00:01:39.510> at
+
+00:01:39.680 --> 00:01:39.690 
+start exploring our circuit let's say at
+
+00:01:39.690 --> 00:01:42.050 
+start exploring our circuit let's say at
+0.45<00:01:40.440> volts<00:01:40.710> that's<00:01:41.400> going<00:01:41.760> to<00:01:41.820> be<00:01:41.909> about
+
+00:01:42.050 --> 00:01:42.060 
+0.45 volts that's going to be about
+
+00:01:42.060 --> 00:01:44.899 
+0.45 volts that's going to be about
+halfway<00:01:42.659> in<00:01:42.960> this<00:01:43.110> range<00:01:43.409> here<00:01:43.800> and<00:01:43.950> let's<00:01:44.790> say
+
+00:01:44.899 --> 00:01:44.909 
+halfway in this range here and let's say
+
+00:01:44.909 --> 00:01:46.910 
+halfway in this range here and let's say
+we<00:01:45.030> want<00:01:45.180> to<00:01:45.270> go<00:01:45.930> two<00:01:45.990> and<00:01:46.230> a<00:01:46.290> half<00:01:46.440> volts<00:01:46.770> on
+
+00:01:46.910 --> 00:01:46.920 
+we want to go two and a half volts on
+
+00:01:46.920 --> 00:01:50.000 
+we want to go two and a half volts on
+the<00:01:46.980> on<00:01:47.790> the<00:01:48.120> drain<00:01:48.360> so<00:01:49.110> when<00:01:49.229> we<00:01:49.350> do<00:01:49.530> that<00:01:49.740> I'm
+
+00:01:50.000 --> 00:01:50.010 
+the on the drain so when we do that I'm
+
+00:01:50.010 --> 00:01:51.910 
+the on the drain so when we do that I'm
+going<00:01:50.490> to<00:01:50.640> set<00:01:50.790> up<00:01:50.880> a<00:01:50.970> very<00:01:51.150> simple<00:01:51.659> circuit
+
+00:01:51.910 --> 00:01:51.920 
+going to set up a very simple circuit
+
+00:01:51.920 --> 00:01:55.190 
+going to set up a very simple circuit
+start<00:01:52.920> to<00:01:53.070> begin<00:01:53.220> to<00:01:53.720> understand<00:01:54.720> this<00:01:54.840> device
+
+00:01:55.190 --> 00:01:55.200 
+start to begin to understand this device
+
+00:01:55.200 --> 00:01:56.990 
+start to begin to understand this device
+in<00:01:55.440> terms<00:01:55.950> of<00:01:56.100> its<00:01:56.220> gain<00:01:56.430> and<00:01:56.610> noise<00:01:56.700> figure
+
+00:01:56.990 --> 00:01:57.000 
+in terms of its gain and noise figure
+
+00:01:57.000 --> 00:01:58.190 
+in terms of its gain and noise figure
+and<00:01:57.210> the<00:01:57.300> trade-offs<00:01:57.690> that<00:01:57.780> we're<00:01:57.930> going<00:01:58.050> to
+
+00:01:58.190 --> 00:01:58.200 
+and the trade-offs that we're going to
+
+00:01:58.200 --> 00:02:00.260 
+and the trade-offs that we're going to
+have<00:01:58.290> to<00:01:58.440> make<00:01:58.620> and<00:01:58.950> as<00:01:59.550> we<00:01:59.729> mentioned<00:02:00.120> in<00:02:00.210> the
+
+00:02:00.260 --> 00:02:00.270 
+have to make and as we mentioned in the
+
+00:02:00.270 --> 00:02:02.210 
+have to make and as we mentioned in the
+first<00:02:00.330> video<00:02:00.810> in<00:02:00.990> this<00:02:01.080> installment<00:02:01.560> our<00:02:01.920> our
+
+00:02:02.210 --> 00:02:02.220 
+first video in this installment our our
+
+00:02:02.220 --> 00:02:05.030 
+first video in this installment our our
+methodology<00:02:03.030> here<00:02:03.360> is<00:02:03.560> very<00:02:04.560> much<00:02:04.710> like<00:02:04.890> an
+
+00:02:05.030 --> 00:02:05.040 
+methodology here is very much like an
+
+00:02:05.040 --> 00:02:06.680 
+methodology here is very much like an
+onion<00:02:05.340> we<00:02:05.460> want<00:02:05.610> to<00:02:05.700> peel<00:02:05.909> back<00:02:05.940> the<00:02:06.240> layers<00:02:06.450> of
+
+00:02:06.680 --> 00:02:06.690 
+onion we want to peel back the layers of
+
+00:02:06.690 --> 00:02:08.690 
+onion we want to peel back the layers of
+complexity<00:02:07.260> and<00:02:07.530> as<00:02:07.860> we<00:02:08.039> do<00:02:08.190> that<00:02:08.399> we<00:02:08.459> want<00:02:08.580> to
+
+00:02:08.690 --> 00:02:08.700 
+complexity and as we do that we want to
+
+00:02:08.700 --> 00:02:09.889 
+complexity and as we do that we want to
+gain<00:02:08.849> a<00:02:08.879> deeper<00:02:09.269> and<00:02:09.420> deeper<00:02:09.659> understanding
+
+00:02:09.889 --> 00:02:09.899 
+gain a deeper and deeper understanding
+
+00:02:09.899 --> 00:02:12.800 
+gain a deeper and deeper understanding
+of<00:02:10.379> our<00:02:10.530> design<00:02:10.890> taking<00:02:11.849> that<00:02:12.030> understanding
+
+00:02:12.800 --> 00:02:12.810 
+of our design taking that understanding
+
+00:02:12.810 --> 00:02:15.650 
+of our design taking that understanding
+with<00:02:12.989> us<00:02:13.230> as<00:02:13.409> we<00:02:13.950> go<00:02:14.129> from<00:02:14.430> not<00:02:15.300> knowing<00:02:15.480> a
+
+00:02:15.650 --> 00:02:15.660 
+with us as we go from not knowing a
+
+00:02:15.660 --> 00:02:17.510 
+with us as we go from not knowing a
+whole<00:02:15.870> lot<00:02:16.080> about<00:02:16.350> the<00:02:16.770> process<00:02:17.280> or<00:02:17.430> our
+
+00:02:17.510 --> 00:02:17.520 
+whole lot about the process or our
+
+00:02:17.520 --> 00:02:20.300 
+whole lot about the process or our
+circuit<00:02:18.420> to<00:02:19.200> getting<00:02:19.530> a<00:02:19.620> complete<00:02:20.010> sir
+
+00:02:20.300 --> 00:02:20.310 
+circuit to getting a complete sir
+
+00:02:20.310 --> 00:02:22.520 
+circuit to getting a complete sir
+and<00:02:20.610> building<00:02:21.150> up<00:02:21.300> our<00:02:21.450> understanding<00:02:22.110> of<00:02:22.140> the
+
+00:02:22.520 --> 00:02:22.530 
+and building up our understanding of the
+
+00:02:22.530 --> 00:02:24.230 
+and building up our understanding of the
+sensitivities<00:02:23.220> and<00:02:23.400> interactions<00:02:24.030> and
+
+00:02:24.230 --> 00:02:24.240 
+sensitivities and interactions and
+
+00:02:24.240 --> 00:02:26.540 
+sensitivities and interactions and
+really<00:02:25.020> what's<00:02:25.200> going<00:02:25.350> on<00:02:25.530> inside<00:02:25.920> and<00:02:26.250> the
+
+00:02:26.540 --> 00:02:26.550 
+really what's going on inside and the
+
+00:02:26.550 --> 00:02:28.130 
+really what's going on inside and the
+best<00:02:26.730> place<00:02:26.910> to<00:02:26.940> start<00:02:27.360> is<00:02:27.569> just<00:02:27.660> a<00:02:27.959> very
+
+00:02:28.130 --> 00:02:28.140 
+best place to start is just a very
+
+00:02:28.140 --> 00:02:29.480 
+best place to start is just a very
+simple<00:02:28.319> circuit<00:02:28.650> like<00:02:28.920> this<00:02:29.130> where<00:02:29.340> we<00:02:29.459> have
+
+00:02:29.480 --> 00:02:29.490 
+simple circuit like this where we have
+
+00:02:29.490 --> 00:02:32.000 
+simple circuit like this where we have
+no<00:02:29.910> reactive<00:02:30.720> elements<00:02:31.140> we<00:02:31.260> have<00:02:31.290> no<00:02:31.650> micro
+
+00:02:32.000 --> 00:02:32.010 
+no reactive elements we have no micro
+
+00:02:32.010 --> 00:02:33.710 
+no reactive elements we have no micro
+strip<00:02:32.250> or<00:02:32.370> RF<00:02:32.670> elements<00:02:33.060> we're<00:02:33.450> really<00:02:33.630> just
+
+00:02:33.710 --> 00:02:33.720 
+strip or RF elements we're really just
+
+00:02:33.720 --> 00:02:35.809 
+strip or RF elements we're really just
+looking<00:02:34.200> at<00:02:34.350> the<00:02:34.440> device<00:02:34.680> in<00:02:34.980> 50<00:02:35.370> ohms<00:02:35.550> and
+
+00:02:35.809 --> 00:02:35.819 
+looking at the device in 50 ohms and
+
+00:02:35.819 --> 00:02:38.090 
+looking at the device in 50 ohms and
+playing<00:02:36.720> around<00:02:36.810> with<00:02:36.930> the<00:02:37.080> bio<00:02:37.260> so<00:02:37.590> that<00:02:38.010> we
+
+00:02:38.090 --> 00:02:38.100 
+playing around with the bio so that we
+
+00:02:38.100 --> 00:02:40.430 
+playing around with the bio so that we
+can<00:02:38.220> select<00:02:38.819> an<00:02:39.090> appropriate<00:02:39.180> bias<00:02:39.840> condition
+
+00:02:40.430 --> 00:02:40.440 
+can select an appropriate bias condition
+
+00:02:40.440 --> 00:02:42.050 
+can select an appropriate bias condition
+that's<00:02:40.890> going<00:02:41.130> to<00:02:41.220> put<00:02:41.730> us<00:02:41.850> in<00:02:41.970> the
+
+00:02:42.050 --> 00:02:42.060 
+that's going to put us in the
+
+00:02:42.060 --> 00:02:44.180 
+that's going to put us in the
+neighborhood<00:02:42.239> of<00:02:42.660> the<00:02:43.380> performance<00:02:43.950> that<00:02:44.069> we
+
+00:02:44.180 --> 00:02:44.190 
+neighborhood of the performance that we
+
+00:02:44.190 --> 00:02:45.440 
+neighborhood of the performance that we
+want<00:02:44.400> this<00:02:44.670> doesn't<00:02:45.030> mean<00:02:45.150> that<00:02:45.270> we're<00:02:45.420> not
+
+00:02:45.440 --> 00:02:45.450 
+want this doesn't mean that we're not
+
+00:02:45.450 --> 00:02:47.120 
+want this doesn't mean that we're not
+going<00:02:45.690> to<00:02:45.750> adjust<00:02:46.080> the<00:02:46.319> bias<00:02:46.530> as<00:02:46.860> we<00:02:47.010> go
+
+00:02:47.120 --> 00:02:47.130 
+going to adjust the bias as we go
+
+00:02:47.130 --> 00:02:48.590 
+going to adjust the bias as we go
+through<00:02:47.340> the<00:02:47.459> process<00:02:47.640> but<00:02:48.300> we're<00:02:48.390> just<00:02:48.420> going
+
+00:02:48.590 --> 00:02:48.600 
+through the process but we're just going
+
+00:02:48.600 --> 00:02:50.270 
+through the process but we're just going
+to<00:02:48.660> gain<00:02:49.020> an<00:02:49.140> understanding<00:02:49.260> of<00:02:49.830> what<00:02:50.190> would
+
+00:02:50.270 --> 00:02:50.280 
+to gain an understanding of what would
+
+00:02:50.280 --> 00:02:52.270 
+to gain an understanding of what would
+be<00:02:50.430> a<00:02:50.459> good<00:02:50.730> or<00:02:50.970> reasonable<00:02:51.540> starting<00:02:51.870> place
+
+00:02:52.270 --> 00:02:52.280 
+be a good or reasonable starting place
+
+00:02:52.280 --> 00:02:54.710 
+be a good or reasonable starting place
+so<00:02:53.280> with<00:02:53.489> that<00:02:53.670> let's<00:02:53.940> go<00:02:54.120> ahead<00:02:54.239> and<00:02:54.480> look<00:02:54.600> at
+
+00:02:54.710 --> 00:02:54.720 
+so with that let's go ahead and look at
+
+00:02:54.720 --> 00:02:57.440 
+so with that let's go ahead and look at
+our<00:02:54.840> noise<00:02:55.470> circles<00:02:55.950> and<00:02:56.160> gain<00:02:56.790> circles<00:02:57.239> here
+
+00:02:57.440 --> 00:02:57.450 
+our noise circles and gain circles here
+
+00:02:57.450 --> 00:03:02.870 
+our noise circles and gain circles here
+and<00:02:58.640> you<00:02:59.640> can<00:02:59.820> see<00:03:00.090> that<00:03:01.640> let<00:03:02.640> me<00:03:02.700> minimize
+
+00:03:02.870 --> 00:03:02.880 
+and you can see that let me minimize
+
+00:03:02.880 --> 00:03:05.059 
+and you can see that let me minimize
+this<00:03:03.239> a<00:03:03.269> little<00:03:03.450> bit<00:03:03.630> so<00:03:03.810> we<00:03:03.900> can<00:03:04.019> really<00:03:04.769> can't
+
+00:03:05.059 --> 00:03:05.069 
+this a little bit so we can really can't
+
+00:03:05.069 --> 00:03:08.780 
+this a little bit so we can really can't
+see<00:03:05.250> it<00:03:06.440> and<00:03:07.440> I've<00:03:07.560> got<00:03:07.590> my<00:03:07.830> noise<00:03:08.160> figure<00:03:08.459> over
+
+00:03:08.780 --> 00:03:08.790 
+see it and I've got my noise figure over
+
+00:03:08.790 --> 00:03:11.750 
+see it and I've got my noise figure over
+here<00:03:09.030> with<00:03:09.900> my<00:03:10.050> minimum<00:03:10.319> noise<00:03:10.500> figure<00:03:10.610> in<00:03:11.610> the
+
+00:03:11.750 --> 00:03:11.760 
+here with my minimum noise figure in the
+
+00:03:11.760 --> 00:03:14.150 
+here with my minimum noise figure in the
+middle<00:03:11.850> at<00:03:12.180> one<00:03:12.750> point<00:03:12.989> 1/2<00:03:13.260> DB<00:03:13.800> noise<00:03:14.100> figure
+
+00:03:14.150 --> 00:03:14.160 
+middle at one point 1/2 DB noise figure
+
+00:03:14.160 --> 00:03:16.790 
+middle at one point 1/2 DB noise figure
+and<00:03:14.670> I've<00:03:15.120> got<00:03:15.300> my<00:03:15.420> gain<00:03:15.630> circles<00:03:16.140> over<00:03:16.500> here
+
+00:03:16.790 --> 00:03:16.800 
+and I've got my gain circles over here
+
+00:03:16.800 --> 00:03:23.600 
+and I've got my gain circles over here
+with<00:03:17.310> my<00:03:21.019> maximum<00:03:22.019> gain<00:03:22.319> that<00:03:22.980> I<00:03:23.010> would<00:03:23.250> be
+
+00:03:23.600 --> 00:03:23.610 
+with my maximum gain that I would be
+
+00:03:23.610 --> 00:03:25.910 
+with my maximum gain that I would be
+able<00:03:23.730> to<00:03:23.819> get<00:03:23.910> out<00:03:23.970> of<00:03:24.060> this<00:03:24.150> device<00:03:24.470> in<00:03:25.470> this
+
+00:03:25.910 --> 00:03:25.920 
+able to get out of this device in this
+
+00:03:25.920 --> 00:03:28.610 
+able to get out of this device in this
+region<00:03:26.670> over<00:03:27.180> here<00:03:27.329> and<00:03:27.720> let's<00:03:28.290> look<00:03:28.380> what
+
+00:03:28.610 --> 00:03:28.620 
+region over here and let's look what
+
+00:03:28.620 --> 00:03:31.160 
+region over here and let's look what
+happened<00:03:29.010> as<00:03:29.190> we<00:03:29.640> start<00:03:30.180> tuning<00:03:30.390> over<00:03:30.780> biased
+
+00:03:31.160 --> 00:03:31.170 
+happened as we start tuning over biased
+
+00:03:31.170 --> 00:03:33.830 
+happened as we start tuning over biased
+to<00:03:31.470> select<00:03:31.980> a<00:03:32.250> bias<00:03:32.880> condition<00:03:33.480> that's<00:03:33.630> going
+
+00:03:33.830 --> 00:03:33.840 
+to select a bias condition that's going
+
+00:03:33.840 --> 00:03:35.720 
+to select a bias condition that's going
+to<00:03:33.930> be<00:03:34.019> appropriate<00:03:34.380> for<00:03:34.829> this<00:03:34.920> so<00:03:35.459> what<00:03:35.610> we're
+
+00:03:35.720 --> 00:03:35.730 
+to be appropriate for this so what we're
+
+00:03:35.730 --> 00:03:37.340 
+to be appropriate for this so what we're
+looking<00:03:35.760> for<00:03:36.060> is<00:03:36.510> a<00:03:36.540> minimum<00:03:37.140> noise<00:03:37.290> figure
+
+00:03:37.340 --> 00:03:37.350 
+looking for is a minimum noise figure
+
+00:03:37.350 --> 00:03:40.220 
+looking for is a minimum noise figure
+and<00:03:37.950> a<00:03:38.610> reasonable<00:03:39.090> amount<00:03:39.239> of<00:03:39.420> gain<00:03:39.660> in<00:03:39.959> terms
+
+00:03:40.220 --> 00:03:40.230 
+and a reasonable amount of gain in terms
+
+00:03:40.230 --> 00:03:42.289 
+and a reasonable amount of gain in terms
+of<00:03:40.350> a<00:03:40.410> single-stage<00:03:40.950> device<00:03:41.310> so<00:03:41.880> let's<00:03:41.910> start
+
+00:03:42.289 --> 00:03:42.299 
+of a single-stage device so let's start
+
+00:03:42.299 --> 00:03:44.840 
+of a single-stage device so let's start
+by<00:03:42.420> adjusting<00:03:42.540> the<00:03:43.079> voltage<00:03:43.440> on<00:03:43.620> the<00:03:44.220> the<00:03:44.640> gate
+
+00:03:44.840 --> 00:03:44.850 
+by adjusting the voltage on the the gate
+
+00:03:44.850 --> 00:03:47.330 
+by adjusting the voltage on the the gate
+here<00:03:45.150> and<00:03:45.329> as<00:03:46.049> we<00:03:46.290> do<00:03:46.470> that<00:03:46.500> you<00:03:46.920> can<00:03:47.040> see<00:03:47.190> that
+
+00:03:47.330 --> 00:03:47.340 
+here and as we do that you can see that
+
+00:03:47.340 --> 00:03:49.400 
+here and as we do that you can see that
+as<00:03:47.430> I'm<00:03:47.610> raising<00:03:47.880> up<00:03:48.150> the<00:03:48.180> voltage<00:03:48.690> if<00:03:48.930> you
+
+00:03:49.400 --> 00:03:49.410 
+as I'm raising up the voltage if you
+
+00:03:49.410 --> 00:03:51.050 
+as I'm raising up the voltage if you
+start<00:03:49.650> looking<00:03:49.890> at<00:03:49.980> the<00:03:50.100> noise<00:03:50.220> figure<00:03:50.700> over
+
+00:03:51.050 --> 00:03:51.060 
+start looking at the noise figure over
+
+00:03:51.060 --> 00:03:55.849 
+start looking at the noise figure over
+here<00:03:51.420> you<00:03:52.410> can<00:03:52.590> see<00:03:52.859> that<00:03:53.459> raising<00:03:54.299> the<00:03:54.859> gate
+
+00:03:55.849 --> 00:03:55.859 
+here you can see that raising the gate
+
+00:03:55.859 --> 00:03:58.910 
+here you can see that raising the gate
+voltage<00:03:56.480> begins<00:03:57.480> to<00:03:57.810> drop<00:03:58.230> down<00:03:58.530> our<00:03:58.739> noise
+
+00:03:58.910 --> 00:03:58.920 
+voltage begins to drop down our noise
+
+00:03:58.920 --> 00:04:01.729 
+voltage begins to drop down our noise
+figure<00:03:59.430> until<00:03:59.730> it<00:04:00.510> starts<00:04:00.780> to<00:04:00.840> go<00:04:00.989> up<00:04:01.109> again<00:04:01.380> it
+
+00:04:01.729 --> 00:04:01.739 
+figure until it starts to go up again it
+
+00:04:01.739 --> 00:04:03.890 
+figure until it starts to go up again it
+looks<00:04:01.980> like<00:04:02.130> we<00:04:02.250> see<00:04:02.519> a<00:04:02.549> minimum<00:04:03.030> right<00:04:03.239> around
+
+00:04:03.890 --> 00:04:03.900 
+looks like we see a minimum right around
+
+00:04:03.900 --> 00:04:07.220 
+looks like we see a minimum right around
+here<00:04:04.410> at<00:04:04.560> about<00:04:05.190> half<00:04:05.549> a<00:04:05.700> volt<00:04:05.910> and<00:04:06.209> on<00:04:07.049> our
+
+00:04:07.220 --> 00:04:07.230 
+here at about half a volt and on our
+
+00:04:07.230 --> 00:04:10.099 
+here at about half a volt and on our
+drain<00:04:07.590> if<00:04:07.890> we<00:04:08.040> stand<00:04:08.310> start<00:04:08.840> varying<00:04:09.840> our
+
+00:04:10.099 --> 00:04:10.109 
+drain if we stand start varying our
+
+00:04:10.109 --> 00:04:13.520 
+drain if we stand start varying our
+drain<00:04:10.620> bias<00:04:10.859> you<00:04:11.850> can<00:04:12.060> see<00:04:12.359> that<00:04:12.870> as<00:04:13.019> we<00:04:13.290> begin
+
+00:04:13.520 --> 00:04:13.530 
+drain bias you can see that as we begin
+
+00:04:13.530 --> 00:04:16.340 
+drain bias you can see that as we begin
+to<00:04:13.920> drop<00:04:14.250> the<00:04:14.310> drain<00:04:14.760> bias<00:04:15.000> or<00:04:15.720> getting<00:04:16.049> lower
+
+00:04:16.340 --> 00:04:16.350 
+to drop the drain bias or getting lower
+
+00:04:16.350 --> 00:04:18.409 
+to drop the drain bias or getting lower
+and<00:04:16.500> lower<00:04:16.709> noise<00:04:17.459> figure<00:04:17.760> of<00:04:17.970> course<00:04:18.150> we<00:04:18.299> have
+
+00:04:18.409 --> 00:04:18.419 
+and lower noise figure of course we have
+
+00:04:18.419 --> 00:04:20.180 
+and lower noise figure of course we have
+to<00:04:18.510> be<00:04:18.600> careful<00:04:19.019> about<00:04:19.109> this<00:04:19.410> because<00:04:19.620> what
+
+00:04:20.180 --> 00:04:20.190 
+to be careful about this because what
+
+00:04:20.190 --> 00:04:22.310 
+to be careful about this because what
+we're<00:04:20.310> trading<00:04:20.579> off<00:04:20.820> now<00:04:21.030> is<00:04:21.180> a<00:04:21.209> dynamic<00:04:22.049> range
+
+00:04:22.310 --> 00:04:22.320 
+we're trading off now is a dynamic range
+
+00:04:22.320 --> 00:04:24.200 
+we're trading off now is a dynamic range
+we're<00:04:23.100> not<00:04:23.220> gonna<00:04:23.310> be<00:04:23.400> able<00:04:23.490> to<00:04:23.610> swing<00:04:23.880> as<00:04:24.030> much
+
+00:04:24.200 --> 00:04:24.210 
+we're not gonna be able to swing as much
+
+00:04:24.210 --> 00:04:25.820 
+we're not gonna be able to swing as much
+voltage<00:04:24.600> across<00:04:24.840> that<00:04:24.930> device<00:04:25.380> so<00:04:25.530> we<00:04:25.620> need<00:04:25.740> to
+
+00:04:25.820 --> 00:04:25.830 
+voltage across that device so we need to
+
+00:04:25.830 --> 00:04:28.339 
+voltage across that device so we need to
+be<00:04:25.919> careful<00:04:26.100> in<00:04:26.490> terms<00:04:27.060> of<00:04:27.270> that<00:04:27.690> nonlinear
+
+00:04:28.339 --> 00:04:28.349 
+be careful in terms of that nonlinear
+
+00:04:28.349 --> 00:04:30.050 
+be careful in terms of that nonlinear
+spec<00:04:28.740> with<00:04:28.919> regard<00:04:29.190> to<00:04:29.250> these<00:04:29.370> linear<00:04:29.729> specs
+
+00:04:30.050 --> 00:04:30.060 
+spec with regard to these linear specs
+
+00:04:30.060 --> 00:04:33.830 
+spec with regard to these linear specs
+but<00:04:30.539> you<00:04:30.690> can<00:04:30.810> see<00:04:30.930> that<00:04:31.080> as<00:04:31.169> we<00:04:31.320> drop<00:04:31.560> down<00:04:31.830> our
+
+00:04:33.830 --> 00:04:33.840 
+but you can see that as we drop down our
+
+00:04:33.840 --> 00:04:34.970 
+but you can see that as we drop down our
+drain<00:04:33.990> voltage<00:04:34.169> we're<00:04:34.500> going<00:04:34.740> to<00:04:34.830> get
+
+00:04:34.970 --> 00:04:34.980 
+drain voltage we're going to get
+
+00:04:34.980 --> 00:04:36.860 
+drain voltage we're going to get
+somewhat<00:04:35.730> improved<00:04:36.120> noise<00:04:36.300> figure<00:04:36.600> which
+
+00:04:36.860 --> 00:04:36.870 
+somewhat improved noise figure which
+
+00:04:36.870 --> 00:04:38.450 
+somewhat improved noise figure which
+sort<00:04:37.440> of<00:04:37.530> makes<00:04:37.710> sense<00:04:37.860> the<00:04:38.070> device<00:04:38.280> is
+
+00:04:38.450 --> 00:04:38.460 
+sort of makes sense the device is
+
+00:04:38.460 --> 00:04:42.320 
+sort of makes sense the device is
+operating<00:04:38.910> cooler<00:04:39.870> not<00:04:40.470> as<00:04:40.590> hot<00:04:40.830> and<00:04:41.330> we
+
+00:04:42.320 --> 00:04:42.330 
+operating cooler not as hot and we
+
+00:04:42.330 --> 00:04:44.330 
+operating cooler not as hot and we
+should<00:04:42.540> expect<00:04:42.870> to<00:04:43.110> see<00:04:43.199> the<00:04:43.919> noise<00:04:44.100> figure
+
+00:04:44.330 --> 00:04:44.340 
+should expect to see the noise figure
+
+00:04:44.340 --> 00:04:46.460 
+should expect to see the noise figure
+improve<00:04:44.850> so<00:04:45.419> if<00:04:45.510> we<00:04:45.600> play<00:04:46.020> around<00:04:46.260> a<00:04:46.380> little
+
+00:04:46.460 --> 00:04:46.470 
+improve so if we play around a little
+
+00:04:46.470 --> 00:04:49.159 
+improve so if we play around a little
+bit<00:04:46.710> with<00:04:46.860> this<00:04:47.040> and<00:04:47.639> I<00:04:48.630> think<00:04:48.810> it<00:04:48.900> looks<00:04:49.080> like
+
+00:04:49.159 --> 00:04:49.169 
+bit with this and I think it looks like
+
+00:04:49.169 --> 00:04:50.810 
+bit with this and I think it looks like
+we're<00:04:49.410> going<00:04:49.620> to<00:04:49.770> find<00:04:50.460> some<00:04:50.639> good
+
+00:04:50.810 --> 00:04:50.820 
+we're going to find some good
+
+00:04:50.820 --> 00:04:52.520 
+we're going to find some good
+performance<00:04:51.330> right<00:04:51.540> around<00:04:51.690> half<00:04:51.960> a<00:04:52.050> volt<00:04:52.290> so
+
+00:04:52.520 --> 00:04:52.530 
+performance right around half a volt so
+
+00:04:52.530 --> 00:04:54.320 
+performance right around half a volt so
+for<00:04:52.740> a<00:04:52.770> sake<00:04:52.979> of<00:04:53.100> simplicity<00:04:53.280> let's<00:04:53.880> just<00:04:53.940> dial
+
+00:04:54.320 --> 00:04:54.330 
+for a sake of simplicity let's just dial
+
+00:04:54.330 --> 00:04:59.180 
+for a sake of simplicity let's just dial
+it<00:04:54.510> in<00:04:54.630> at<00:04:54.750> half<00:04:54.930> a<00:04:55.050> volt<00:04:55.260> and<00:04:57.860> let's<00:04:58.860> get<00:04:59.160> a
+
+00:04:59.180 --> 00:04:59.190 
+it in at half a volt and let's get a
+
+00:04:59.190 --> 00:05:02.629 
+it in at half a volt and let's get a
+reasonable<00:04:59.790> amount<00:05:00.030> of<00:05:01.160> voltage<00:05:02.160> across<00:05:02.400> that
+
+00:05:02.629 --> 00:05:02.639 
+reasonable amount of voltage across that
+
+00:05:02.639 --> 00:05:05.480 
+reasonable amount of voltage across that
+device<00:05:02.940> let's<00:05:03.210> say<00:05:03.800> two<00:05:04.800> and<00:05:04.949> a<00:05:04.979> half<00:05:05.130> volts
+
+00:05:05.480 --> 00:05:05.490 
+device let's say two and a half volts
+
+00:05:05.490 --> 00:05:10.400 
+device let's say two and a half volts
+and<00:05:08.090> we<00:05:09.090> get<00:05:09.240> about<00:05:09.360> a<00:05:09.479> DB<00:05:09.900> of<00:05:09.930> noise<00:05:10.020> figure
+
+00:05:10.400 --> 00:05:10.410 
+and we get about a DB of noise figure
+
+00:05:10.410 --> 00:05:13.280 
+and we get about a DB of noise figure
+and<00:05:10.680> 15<00:05:11.639> DB<00:05:11.940> of<00:05:11.970> gain<00:05:12.060> which<00:05:12.419> is<00:05:12.450> quite
+
+00:05:13.280 --> 00:05:13.290 
+and 15 DB of gain which is quite
+
+00:05:13.290 --> 00:05:15.290 
+and 15 DB of gain which is quite
+substantial<00:05:13.550> it's<00:05:14.550> a<00:05:14.639> reasonable<00:05:15.120> amount
+
+00:05:15.290 --> 00:05:15.300 
+substantial it's a reasonable amount
+
+00:05:15.300 --> 00:05:19.400 
+substantial it's a reasonable amount
+given<00:05:15.570> our<00:05:16.460> analysis<00:05:17.460> in<00:05:17.669> the<00:05:17.760> previous<00:05:18.410> video
+
+00:05:19.400 --> 00:05:19.410 
+given our analysis in the previous video
+
+00:05:19.410 --> 00:05:21.080 
+given our analysis in the previous video
+where<00:05:19.620> we<00:05:19.740> looked<00:05:19.950> at<00:05:20.070> the<00:05:20.370> relationship
+
+00:05:21.080 --> 00:05:21.090 
+where we looked at the relationship
+
+00:05:21.090 --> 00:05:23.719 
+where we looked at the relationship
+between<00:05:21.450> gain<00:05:21.870> and<00:05:22.050> noise<00:05:22.169> figure<00:05:22.430> so<00:05:23.430> this
+
+00:05:23.719 --> 00:05:23.729 
+between gain and noise figure so this
+
+00:05:23.729 --> 00:05:25.520 
+between gain and noise figure so this
+would<00:05:24.030> be<00:05:24.180> a<00:05:24.210> good<00:05:24.570> starting<00:05:24.960> place<00:05:25.110> for<00:05:25.440> our
+
+00:05:25.520 --> 00:05:25.530 
+would be a good starting place for our
+
+00:05:25.530 --> 00:05:27.920 
+would be a good starting place for our
+design<00:05:25.889> we<00:05:26.490> can<00:05:26.639> take<00:05:26.850> these<00:05:27.030> bias<00:05:27.300> points<00:05:27.750> and
+
+00:05:27.920 --> 00:05:27.930 
+design we can take these bias points and
+
+00:05:27.930 --> 00:05:31.040 
+design we can take these bias points and
+use<00:05:28.530> this<00:05:28.770> in<00:05:29.520> a<00:05:29.850> more<00:05:30.360> developed<00:05:30.630> design
+
+00:05:31.040 --> 00:05:31.050 
+use this in a more developed design
+
+00:05:31.050 --> 00:05:32.830 
+use this in a more developed design
+where<00:05:31.260> we<00:05:31.289> can<00:05:31.500> actually<00:05:31.650> start<00:05:32.100> implementing
+
+00:05:32.830 --> 00:05:32.840 
+where we can actually start implementing
+
+00:05:32.840 --> 00:05:36.340 
+where we can actually start implementing
+matching<00:05:33.840> networks<00:05:34.199> and<00:05:34.470> bias<00:05:34.680> networks<00:05:35.250> to
+
+00:05:36.340 --> 00:05:36.350 
+matching networks and bias networks to
+
+00:05:36.350 --> 00:05:38.480 
+matching networks and bias networks to
+change<00:05:37.350> this<00:05:37.560> from<00:05:37.710> an<00:05:37.889> ideal<00:05:38.220> situation
+
+00:05:38.480 --> 00:05:38.490 
+change this from an ideal situation
+
+00:05:38.490 --> 00:05:41.529 
+change this from an ideal situation
+where<00:05:39.090> we're<00:05:39.210> looking<00:05:39.479> at<00:05:39.600> our<00:05:39.630> bare<00:05:40.020> 50<00:05:40.740> ohm
+
+00:05:41.529 --> 00:05:41.539 
+where we're looking at our bare 50 ohm
+
+00:05:41.539 --> 00:05:43.730 
+where we're looking at our bare 50 ohm
+situation<00:05:42.539> of<00:05:42.660> a<00:05:42.720> single<00:05:43.050> device<00:05:43.320> and<00:05:43.590> maybe
+
+00:05:43.730 --> 00:05:43.740 
+situation of a single device and maybe
+
+00:05:43.740 --> 00:05:46.460 
+situation of a single device and maybe
+putting<00:05:44.070> it<00:05:44.250> into<00:05:44.430> a<00:05:44.820> larger<00:05:45.419> context<00:05:46.050> and<00:05:46.200> now
+
+00:05:46.460 --> 00:05:46.470 
+putting it into a larger context and now
+
+00:05:46.470 --> 00:05:48.140 
+putting it into a larger context and now
+begin<00:05:46.800> to<00:05:46.830> look<00:05:46.919> at<00:05:47.160> stability<00:05:47.700> and<00:05:47.850> look<00:05:48.000> at
+
+00:05:48.140 --> 00:05:48.150 
+begin to look at stability and look at
+
+00:05:48.150 --> 00:05:50.089 
+begin to look at stability and look at
+the<00:05:48.720> power<00:05:48.930> out<00:05:49.260> and<00:05:49.560> where<00:05:49.800> we're<00:05:49.919> going<00:05:50.039> to
+
+00:05:50.089 --> 00:05:50.099 
+the power out and where we're going to
+
+00:05:50.099 --> 00:05:52.190 
+the power out and where we're going to
+get<00:05:50.190> compression<00:05:50.849> and<00:05:51.539> develop<00:05:52.020> our
+
+00:05:52.190 --> 00:05:52.200 
+get compression and develop our
+
+00:05:52.200 --> 00:05:54.050 
+get compression and develop our
+understanding<00:05:52.919> of<00:05:53.010> this<00:05:53.160> device<00:05:53.460> to<00:05:53.669> the<00:05:53.789> next
+
+00:05:54.050 --> 00:05:54.060 
+understanding of this device to the next
+
+00:05:54.060 --> 00:05:55.370 
+understanding of this device to the next
+level<00:05:54.360> well<00:05:54.840> that's<00:05:54.990> where<00:05:55.110> we're<00:05:55.200> going<00:05:55.320> to
+
+00:05:55.370 --> 00:05:55.380 
+level well that's where we're going to
+
+00:05:55.380 --> 00:05:57.110 
+level well that's where we're going to
+leave<00:05:55.560> this<00:05:55.740> one<00:05:55.950> off<00:05:56.130> and<00:05:56.400> we'll<00:05:56.789> take<00:05:56.970> up
+
+00:05:57.110 --> 00:05:57.120 
+leave this one off and we'll take up
+
+00:05:57.120 --> 00:05:58.640 
+leave this one off and we'll take up
+some<00:05:57.300> of<00:05:57.330> those<00:05:57.450> issues<00:05:57.599> in<00:05:57.780> our<00:05:57.960> next<00:05:58.200> video
+
+00:05:58.640 --> 00:05:58.650 
+some of those issues in our next video
+
+00:05:58.650 --> 00:06:01.100 
+some of those issues in our next video
+if<00:05:58.830> you'd<00:05:59.010> like<00:05:59.130> more<00:05:59.310> information<00:05:59.639> about<00:06:00.120> the
+
+00:06:01.100 --> 00:06:01.110 
+if you'd like more information about the
+
+00:06:01.110 --> 00:06:03.500 
+if you'd like more information about the
+noise<00:06:01.880> simulations<00:06:02.880> that<00:06:02.940> I've<00:06:03.090> done<00:06:03.240> here
+
+00:06:03.500 --> 00:06:03.510 
+noise simulations that I've done here
+
+00:06:03.510 --> 00:06:05.930 
+noise simulations that I've done here
+the<00:06:03.690> stability<00:06:04.200> the<00:06:04.590> gain<00:06:05.220> circle<00:06:05.639> the<00:06:05.789> noise
+
+00:06:05.930 --> 00:06:05.940 
+the stability the gain circle the noise
+
+00:06:05.940 --> 00:06:09.379 
+the stability the gain circle the noise
+circle<00:06:06.919> how<00:06:07.919> to<00:06:07.979> use<00:06:08.130> the<00:06:08.280> swept<00:06:08.639> DC
+
+00:06:09.379 --> 00:06:09.389 
+circle how to use the swept DC
+
+00:06:09.389 --> 00:06:10.940 
+circle how to use the swept DC
+measurement<00:06:09.570> capability<00:06:10.320> I<00:06:10.349> encourage<00:06:10.770> you
+
+00:06:10.940 --> 00:06:10.950 
+measurement capability I encourage you
+
+00:06:10.950 --> 00:06:13.520 
+measurement capability I encourage you
+to<00:06:11.490> go<00:06:11.940> to<00:06:12.000> the<00:06:12.120> awr<00:06:12.510> website<00:06:12.930> and<00:06:13.169> look<00:06:13.470> at
+
+00:06:13.520 --> 00:06:13.530 
+to go to the awr website and look at
+
+00:06:13.530 --> 00:06:16.040 
+to go to the awr website and look at
+some<00:06:13.710> other<00:06:13.770> aw<00:06:14.220> r<00:06:14.460> TV<00:06:14.700> videos<00:06:15.210> and<00:06:15.930> if<00:06:16.020> you
+
+00:06:16.040 --> 00:06:16.050 
+some other aw r TV videos and if you
+
+00:06:16.050 --> 00:06:17.870 
+some other aw r TV videos and if you
+still<00:06:16.320> have<00:06:16.349> some<00:06:16.560> questions<00:06:16.710> feel<00:06:17.610> free<00:06:17.639> to
+
+00:06:17.870 --> 00:06:17.880 
+still have some questions feel free to
+
+00:06:17.880 --> 00:06:19.850 
+still have some questions feel free to
+download<00:06:18.389> a<00:06:18.660> demo<00:06:18.840> copy<00:06:19.200> and<00:06:19.470> play<00:06:19.710> around
+
+00:06:19.850 --> 00:06:19.860 
+download a demo copy and play around
+
+00:06:19.860 --> 00:06:22.040 
+download a demo copy and play around
+with<00:06:19.979> this<00:06:20.130> yourself<00:06:20.580> or<00:06:20.789> contact<00:06:21.450> your<00:06:21.539> a<00:06:21.599> WR
+
+00:06:22.040 --> 00:06:22.050 
+with this yourself or contact your a WR
+
+00:06:22.050 --> 00:06:24.919 
+with this yourself or contact your a WR
+sales<00:06:22.320> professional
+

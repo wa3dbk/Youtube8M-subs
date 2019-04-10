@@ -1,0 +1,713 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.770 --> 00:00:10.310 
+
+hey<00:00:07.770> guys<00:00:08.010> see<00:00:08.490> 10<00:00:08.700> mafia<00:00:09.120> and<00:00:09.660> I'm<00:00:09.780> here<00:00:10.080> with
+
+00:00:10.310 --> 00:00:10.320 
+hey guys see 10 mafia and I'm here with
+
+00:00:10.320 --> 00:00:13.129 
+hey guys see 10 mafia and I'm here with
+another<00:00:10.530> Xcode<00:00:11.400> tutorial<00:00:12.030> so<00:00:12.840> in<00:00:12.990> this
+
+00:00:13.129 --> 00:00:13.139 
+another Xcode tutorial so in this
+
+00:00:13.139 --> 00:00:14.539 
+another Xcode tutorial so in this
+tutorial<00:00:13.410> I'm<00:00:13.860> going<00:00:14.009> to<00:00:14.070> be<00:00:14.130> showing<00:00:14.370> you<00:00:14.519> how
+
+00:00:14.539 --> 00:00:14.549 
+tutorial I'm going to be showing you how
+
+00:00:14.549 --> 00:00:18.010 
+tutorial I'm going to be showing you how
+you<00:00:14.759> can<00:00:15.030> change<00:00:15.389> the<00:00:15.690> text<00:00:16.410> in<00:00:16.710> a<00:00:16.890> UI<00:00:17.160> label
+
+00:00:18.010 --> 00:00:18.020 
+you can change the text in a UI label
+
+00:00:18.020 --> 00:00:20.480 
+you can change the text in a UI label
+programmatically<00:00:19.020> and<00:00:19.350> it<00:00:19.740> is<00:00:19.859> really<00:00:20.310> really
+
+00:00:20.480 --> 00:00:20.490 
+programmatically and it is really really
+
+00:00:20.490 --> 00:00:21.140 
+programmatically and it is really really
+easy
+
+00:00:21.140 --> 00:00:21.150 
+easy
+
+00:00:21.150 --> 00:00:23.120 
+easy
+so<00:00:22.050> we're<00:00:22.170> going<00:00:22.260> to<00:00:22.320> start<00:00:22.529> a<00:00:22.590> single<00:00:22.980> view
+
+00:00:23.120 --> 00:00:23.130 
+so we're going to start a single view
+
+00:00:23.130 --> 00:00:24.590 
+so we're going to start a single view
+application<00:00:23.189> and<00:00:23.850> I'm<00:00:23.939> going<00:00:24.150> to<00:00:24.210> call<00:00:24.390> this
+
+00:00:24.590 --> 00:00:24.600 
+application and I'm going to call this
+
+00:00:24.600 --> 00:00:40.340 
+application and I'm going to call this
+label<00:00:25.580> save<00:00:26.580> it<00:00:26.789> on<00:00:27.029> the<00:00:27.090> desktop<00:00:37.190> and<00:00:39.350> open
+
+00:00:40.340 --> 00:00:40.350 
+label save it on the desktop and open
+
+00:00:40.350 --> 00:00:43.340 
+label save it on the desktop and open
+this<00:00:40.469> up<00:00:40.680> alright<00:00:41.219> okay<00:00:42.059> so<00:00:42.809> first<00:00:43.050> thing<00:00:43.230> what
+
+00:00:43.340 --> 00:00:43.350 
+this up alright okay so first thing what
+
+00:00:43.350 --> 00:00:44.540 
+this up alright okay so first thing what
+we're<00:00:43.469> going<00:00:43.590> to<00:00:43.620> do<00:00:43.739> is<00:00:43.980> we're<00:00:44.250> going<00:00:44.340> to<00:00:44.399> go
+
+00:00:44.540 --> 00:00:44.550 
+we're going to do is we're going to go
+
+00:00:44.550 --> 00:00:46.430 
+we're going to do is we're going to go
+into<00:00:44.789> our<00:00:44.879> view<00:00:45.120> controller<00:00:45.510> dot<00:00:45.600> xib<00:00:46.079> file
+
+00:00:46.430 --> 00:00:46.440 
+into our view controller dot xib file
+
+00:00:46.440 --> 00:00:49.910 
+into our view controller dot xib file
+this<00:00:47.010> is<00:00:47.250> our<00:00:47.520> interface<00:00:48.059> file<00:00:48.450> so<00:00:49.440> open<00:00:49.770> that
+
+00:00:49.910 --> 00:00:49.920 
+this is our interface file so open that
+
+00:00:49.920 --> 00:00:53.600 
+this is our interface file so open that
+up<00:00:50.070> and<00:00:51.410> we're<00:00:52.410> going<00:00:52.530> to<00:00:52.559> drag<00:00:52.800> and<00:00:52.980> drop<00:00:53.160> a<00:00:53.340> UI
+
+00:00:53.600 --> 00:00:53.610 
+up and we're going to drag and drop a UI
+
+00:00:53.610 --> 00:00:56.990 
+up and we're going to drag and drop a UI
+label<00:00:53.840> into<00:00:54.840> our<00:00:54.989> view<00:00:55.199> and<00:00:55.789> then<00:00:56.789> you<00:00:56.850> can
+
+00:00:56.990 --> 00:00:57.000 
+label into our view and then you can
+
+00:00:57.000 --> 00:00:58.400 
+label into our view and then you can
+make<00:00:57.120> this<00:00:57.210> a<00:00:57.270> bit<00:00:57.390> bigger<00:00:57.449> you<00:00:57.899> can<00:00:58.079> edit<00:00:58.199> the
+
+00:00:58.400 --> 00:00:58.410 
+make this a bit bigger you can edit the
+
+00:00:58.410 --> 00:01:07.690 
+make this a bit bigger you can edit the
+font<00:00:58.590> and<00:00:58.859> so<00:00:59.070> on<00:01:00.199> so<00:01:01.199> we<00:01:01.320> can<00:01:01.440> just<00:01:01.620> do<00:01:01.770> that
+
+00:01:07.690 --> 00:01:07.700 
+
+00:01:07.700 --> 00:01:10.100 
+
+actually<00:01:08.700> a<00:01:08.850> nice<00:01:09.060> font<00:01:09.390> is<00:01:09.630> called<00:01:09.900> height
+
+00:01:10.100 --> 00:01:10.110 
+actually a nice font is called height
+
+00:01:10.110 --> 00:01:14.870 
+actually a nice font is called height
+ESC<00:01:10.830> I<00:01:11.040> like<00:01:11.820> I<00:01:11.970> like<00:01:12.119> that<00:01:12.180> font<00:01:13.430> so<00:01:14.430> but<00:01:14.640> just
+
+00:01:14.870 --> 00:01:14.880 
+ESC I like I like that font so but just
+
+00:01:14.880 --> 00:01:17.330 
+ESC I like I like that font so but just
+change<00:01:15.090> it<00:01:15.210> to<00:01:15.270> whatever<00:01:15.450> font<00:01:15.780> you<00:01:15.869> want<00:01:16.340> and
+
+00:01:17.330 --> 00:01:17.340 
+change it to whatever font you want and
+
+00:01:17.340 --> 00:01:19.490 
+change it to whatever font you want and
+place<00:01:17.700> it<00:01:17.880> in<00:01:17.939> the<00:01:17.970> middle<00:01:18.090> save<00:01:18.570> that<00:01:18.810> so<00:01:19.380> now
+
+00:01:19.490 --> 00:01:19.500 
+place it in the middle save that so now
+
+00:01:19.500 --> 00:01:20.510 
+place it in the middle save that so now
+we're<00:01:19.619> going<00:01:19.710> to<00:01:19.799> come<00:01:19.950> into<00:01:20.100> our<00:01:20.220> view
+
+00:01:20.510 --> 00:01:20.520 
+we're going to come into our view
+
+00:01:20.520 --> 00:01:23.020 
+we're going to come into our view
+controller<00:01:20.850> dot<00:01:21.119> H<00:01:21.360> file<00:01:21.689> and<00:01:21.960> start<00:01:22.530> coding
+
+00:01:23.020 --> 00:01:23.030 
+controller dot H file and start coding
+
+00:01:23.030 --> 00:01:26.420 
+controller dot H file and start coding
+so<00:01:24.030> where<00:01:24.900> it<00:01:24.990> says<00:01:25.020> UI<00:01:25.350> view<00:01:25.680> controller<00:01:25.710> ads
+
+00:01:26.420 --> 00:01:26.430 
+so where it says UI view controller ads
+
+00:01:26.430 --> 00:01:28.999 
+so where it says UI view controller ads
+and/or<00:01:27.270> open<00:01:27.659> and<00:01:27.780> close<00:01:27.960> to<00:01:28.290> curly<00:01:28.590> brackets
+
+00:01:28.999 --> 00:01:29.009 
+and/or open and close to curly brackets
+
+00:01:29.009 --> 00:01:31.130 
+and/or open and close to curly brackets
+and<00:01:29.280> in<00:01:29.850> between<00:01:29.970> the<00:01:30.270> curly<00:01:30.479> brackets<00:01:30.900> we're
+
+00:01:31.130 --> 00:01:31.140 
+and in between the curly brackets we're
+
+00:01:31.140 --> 00:01:32.660 
+and in between the curly brackets we're
+going<00:01:31.259> to<00:01:31.320> add<00:01:31.409> int<00:01:31.590> an<00:01:31.710> iboutlet
+
+00:01:32.660 --> 00:01:32.670 
+going to add int an iboutlet
+
+00:01:32.670 --> 00:01:36.760 
+going to add int an iboutlet
+so<00:01:33.390> type<00:01:33.689> in<00:01:33.840> IB<00:01:34.200> outlets<00:01:34.860> space<00:01:35.640> UI<00:01:36.150> label
+
+00:01:36.760 --> 00:01:36.770 
+so type in IB outlets space UI label
+
+00:01:36.770 --> 00:01:39.830 
+so type in IB outlets space UI label
+space<00:01:37.770> star<00:01:38.310> now<00:01:38.820> give<00:01:39.060> your<00:01:39.150> labeler<00:01:39.630> names
+
+00:01:39.830 --> 00:01:39.840 
+space star now give your labeler names
+
+00:01:39.840 --> 00:01:44.139 
+space star now give your labeler names
+I'm<00:01:40.170> gonna<00:01:40.320> call<00:01:40.560> mine<00:01:40.740> I<00:01:41.240> don't<00:01:42.240> know<00:01:42.560> label
+
+00:01:44.139 --> 00:01:44.149 
+I'm gonna call mine I don't know label
+
+00:01:44.149 --> 00:01:48.380 
+I'm gonna call mine I don't know label
+label<00:01:45.149> one<00:01:45.530> semicolon<00:01:46.530> save<00:01:46.829> alright<00:01:47.579> now<00:01:48.329> we
+
+00:01:48.380 --> 00:01:48.390 
+label one semicolon save alright now we
+
+00:01:48.390 --> 00:01:50.450 
+label one semicolon save alright now we
+can<00:01:48.479> add<00:01:48.750> in<00:01:48.780> a<00:01:49.079> simple<00:01:49.530> IB<00:01:49.890> action<00:01:50.009> for<00:01:50.430> a
+
+00:01:50.450 --> 00:01:50.460 
+can add in a simple IB action for a
+
+00:01:50.460 --> 00:01:52.609 
+can add in a simple IB action for a
+button<00:01:50.850> so<00:01:51.479> basically<00:01:51.869> when<00:01:52.110> the<00:01:52.229> buttons
+
+00:01:52.609 --> 00:01:52.619 
+button so basically when the buttons
+
+00:01:52.619 --> 00:01:54.679 
+button so basically when the buttons
+press<00:01:52.890> the<00:01:53.159> text<00:01:53.579> in<00:01:53.729> the<00:01:53.880> label<00:01:54.270> is<00:01:54.479> going<00:01:54.630> to
+
+00:01:54.679 --> 00:01:54.689 
+press the text in the label is going to
+
+00:01:54.689 --> 00:01:59.990 
+press the text in the label is going to
+change<00:01:54.960> so<00:01:55.829> type<00:01:56.070> an<00:01:56.219> IB<00:01:57.710> and<00:01:58.710> now<00:01:59.549> give<00:01:59.759> your
+
+00:01:59.990 --> 00:02:00.000 
+change so type an IB and now give your
+
+00:02:00.000 --> 00:02:01.429 
+change so type an IB and now give your
+button<00:02:00.509> a<00:02:00.570> name<00:02:00.750> so<00:02:00.930> I'm<00:02:00.990> gonna<00:02:01.140> call<00:02:01.350> this
+
+00:02:01.429 --> 00:02:01.439 
+button a name so I'm gonna call this
+
+00:02:01.439 --> 00:02:05.840 
+button a name so I'm gonna call this
+change<00:02:02.329> text<00:02:03.329> cencon<00:02:04.290> and<00:02:04.469> save<00:02:04.680> now<00:02:05.579> copy
+
+00:02:05.840 --> 00:02:05.850 
+change text cencon and save now copy
+
+00:02:05.850 --> 00:02:07.700 
+change text cencon and save now copy
+your<00:02:06.090> IB<00:02:06.390> action<00:02:06.560> into<00:02:07.560> your
+
+00:02:07.700 --> 00:02:07.710 
+your IB action into your
+
+00:02:07.710 --> 00:02:09.350 
+your IB action into your
+viewcontroller.m<00:02:08.640> phalluses<00:02:09.119> the
+
+00:02:09.350 --> 00:02:09.360 
+viewcontroller.m phalluses the
+
+00:02:09.360 --> 00:02:12.640 
+viewcontroller.m phalluses the
+implementation<00:02:10.349> file<00:02:10.560> copy<00:02:11.340> this<00:02:11.580> in
+
+00:02:12.640 --> 00:02:12.650 
+implementation file copy this in
+
+00:02:12.650 --> 00:02:14.800 
+implementation file copy this in
+delete<00:02:13.099> the<00:02:13.220> semicolon<00:02:13.430> open<00:02:14.060> and<00:02:14.360> close<00:02:14.540> to
+
+00:02:14.800 --> 00:02:14.810 
+delete the semicolon open and close to
+
+00:02:14.810 --> 00:02:17.110 
+delete the semicolon open and close to
+curly<00:02:15.049> brackets<00:02:15.530> and<00:02:15.860> in<00:02:16.400> between<00:02:16.549> the<00:02:16.909> curly
+
+00:02:17.110 --> 00:02:17.120 
+curly brackets and in between the curly
+
+00:02:17.120 --> 00:02:19.720 
+curly brackets and in between the curly
+brackets<00:02:17.569> type<00:02:17.840> in<00:02:18.049> the<00:02:18.230> following<00:02:18.439> code<00:02:18.860> so
+
+00:02:19.720 --> 00:02:19.730 
+brackets type in the following code so
+
+00:02:19.730 --> 00:02:21.550 
+brackets type in the following code so
+type<00:02:19.939> in<00:02:20.090> the<00:02:20.150> name<00:02:20.390> of<00:02:20.420> your<00:02:20.750> label<00:02:20.959> so<00:02:21.379> mine's
+
+00:02:21.550 --> 00:02:21.560 
+type in the name of your label so mine's
+
+00:02:21.560 --> 00:02:29.910 
+type in the name of your label so mine's
+called<00:02:21.739> a<00:02:21.890> label<00:02:22.720> label<00:02:23.720> 1<00:02:25.030> dot<00:02:26.319> txt<00:02:27.319> space
+
+00:02:29.910 --> 00:02:29.920 
+
+00:02:29.920 --> 00:02:33.759 
+
+equals<00:02:30.920> space<00:02:31.069> at<00:02:31.909> open<00:02:32.810> close<00:02:33.019> to<00:02:33.260> Cretaceous
+
+00:02:33.759 --> 00:02:33.769 
+equals space at open close to Cretaceous
+
+00:02:33.769 --> 00:02:37.000 
+equals space at open close to Cretaceous
+marks<00:02:34.010> and<00:02:34.189> put<00:02:34.310> a<00:02:34.340> semicolon<00:02:34.810> save<00:02:35.810> that<00:02:36.049> now
+
+00:02:37.000 --> 00:02:37.010 
+marks and put a semicolon save that now
+
+00:02:37.010 --> 00:02:39.490 
+marks and put a semicolon save that now
+in<00:02:37.250> between<00:02:37.370> your<00:02:37.879> two<00:02:38.390> quotation<00:02:39.049> marks<00:02:39.349> is
+
+00:02:39.490 --> 00:02:39.500 
+in between your two quotation marks is
+
+00:02:39.500 --> 00:02:41.080 
+in between your two quotation marks is
+the<00:02:39.560> text<00:02:40.189> that<00:02:40.220> you<00:02:40.459> want<00:02:40.489> the<00:02:40.760> labels
+
+00:02:41.080 --> 00:02:41.090 
+the text that you want the labels
+
+00:02:41.090 --> 00:02:43.330 
+the text that you want the labels
+changed<00:02:41.510> in<00:02:41.659> so<00:02:41.810> I'm<00:02:41.870> gonna<00:02:42.019> put<00:02:42.260> I'm<00:02:43.099> going<00:02:43.280> to
+
+00:02:43.330 --> 00:02:43.340 
+changed in so I'm gonna put I'm going to
+
+00:02:43.340 --> 00:02:48.490 
+changed in so I'm gonna put I'm going to
+put<00:02:43.549> unknown<00:02:44.379> hello<00:02:45.379> world<00:02:46.129> save<00:02:47.120> that<00:02:47.500> now
+
+00:02:48.490 --> 00:02:48.500 
+put unknown hello world save that now
+
+00:02:48.500 --> 00:02:49.869 
+put unknown hello world save that now
+let's<00:02:48.680> come<00:02:48.889> back<00:02:48.920> to<00:02:49.190> our<00:02:49.220> view<00:02:49.400> controller
+
+00:02:49.869 --> 00:02:49.879 
+let's come back to our view controller
+
+00:02:49.879 --> 00:02:52.930 
+let's come back to our view controller
+xib<00:02:50.480> file<00:02:50.859> so<00:02:51.859> we're<00:02:52.040> simply<00:02:52.370> gonna<00:02:52.459> add<00:02:52.670> in<00:02:52.790> a
+
+00:02:52.930 --> 00:02:52.940 
+xib file so we're simply gonna add in a
+
+00:02:52.940 --> 00:02:55.300 
+xib file so we're simply gonna add in a
+button<00:02:53.150> as<00:02:53.389> well<00:02:53.540> run<00:02:53.780> right<00:02:54.019> button<00:02:54.319> and<00:02:55.099> it's
+
+00:02:55.300 --> 00:02:55.310 
+button as well run right button and it's
+
+00:02:55.310 --> 00:03:01.030 
+button as well run right button and it's
+going<00:02:55.459> to<00:02:55.519> be<00:02:55.639> called<00:02:59.319> now<00:03:00.319> click<00:03:00.620> your<00:03:00.769> files
+
+00:03:01.030 --> 00:03:01.040 
+going to be called now click your files
+
+00:03:01.040 --> 00:03:03.910 
+going to be called now click your files
+owner<00:03:01.310> and<00:03:01.689> click<00:03:02.689> the<00:03:02.840> connections<00:03:03.170> tab<00:03:03.620> in
+
+00:03:03.910 --> 00:03:03.920 
+owner and click the connections tab in
+
+00:03:03.920 --> 00:03:07.000 
+owner and click the connections tab in
+the<00:03:04.099> menu<00:03:04.489> here<00:03:04.879> connect<00:03:05.780> your<00:03:06.049> label<00:03:06.769> 1
+
+00:03:07.000 --> 00:03:07.010 
+the menu here connect your label 1
+
+00:03:07.010 --> 00:03:10.119 
+the menu here connect your label 1
+outlets<00:03:07.579> to<00:03:07.790> your<00:03:07.939> label<00:03:08.150> and<00:03:08.680> connect<00:03:09.680> your
+
+00:03:10.119 --> 00:03:10.129 
+outlets to your label and connect your
+
+00:03:10.129 --> 00:03:12.940 
+outlets to your label and connect your
+change<00:03:10.790> text<00:03:11.329> received<00:03:11.810> action<00:03:12.290> to<00:03:12.829> your
+
+00:03:12.940 --> 00:03:12.950 
+change text received action to your
+
+00:03:12.950 --> 00:03:16.059 
+change text received action to your
+button<00:03:13.340> and<00:03:14.090> menu<00:03:14.269> will<00:03:14.569> now<00:03:14.750> pop<00:03:15.019> up<00:03:15.200> and<00:03:15.409> now
+
+00:03:16.059 --> 00:03:16.069 
+button and menu will now pop up and now
+
+00:03:16.069 --> 00:03:19.229 
+button and menu will now pop up and now
+simply<00:03:16.519> select<00:03:16.849> touch<00:03:17.239> up<00:03:17.449> inside<00:03:17.949> save<00:03:18.949> that
+
+00:03:19.229 --> 00:03:19.239 
+simply select touch up inside save that
+
+00:03:19.239 --> 00:03:22.180 
+simply select touch up inside save that
+so<00:03:20.239> it's<00:03:20.359> really<00:03:20.720> is<00:03:20.900> very<00:03:21.139> simple<00:03:21.859> so<00:03:22.010> let's
+
+00:03:22.180 --> 00:03:22.190 
+so it's really is very simple so let's
+
+00:03:22.190 --> 00:03:23.770 
+so it's really is very simple so let's
+just<00:03:22.340> start<00:03:22.579> from<00:03:22.879> our<00:03:23.060> view<00:03:23.299> control<00:03:23.629> that
+
+00:03:23.770 --> 00:03:23.780 
+just start from our view control that
+
+00:03:23.780 --> 00:03:27.490 
+just start from our view control that
+each<00:03:23.959> file<00:03:24.199> so<00:03:24.769> we've<00:03:25.000> added<00:03:26.000> an<00:03:26.449> a<00:03:26.870> label<00:03:27.379> or
+
+00:03:27.490 --> 00:03:27.500 
+each file so we've added an a label or
+
+00:03:27.500 --> 00:03:29.530 
+each file so we've added an a label or
+we've<00:03:27.829> defined<00:03:28.400> a<00:03:28.579> label<00:03:28.909> and<00:03:29.060> we've<00:03:29.299> called
+
+00:03:29.530 --> 00:03:29.540 
+we've defined a label and we've called
+
+00:03:29.540 --> 00:03:31.689 
+we've defined a label and we've called
+it<00:03:29.659> label<00:03:29.930> one<00:03:30.109> we've<00:03:30.769> added<00:03:30.919> a<00:03:31.099> button<00:03:31.310> called
+
+00:03:31.689 --> 00:03:31.699 
+it label one we've added a button called
+
+00:03:31.699 --> 00:03:34.659 
+it label one we've added a button called
+change<00:03:32.060> text<00:03:32.540> and<00:03:32.799> when<00:03:33.799> the<00:03:33.949> button<00:03:34.280> change
+
+00:03:34.659 --> 00:03:34.669 
+change text and when the button change
+
+00:03:34.669 --> 00:03:37.809 
+change text and when the button change
+text<00:03:35.180> is<00:03:35.359> pressed<00:03:35.750> it<00:03:36.440> changes<00:03:36.919> our<00:03:37.069> label<00:03:37.549> 1
+
+00:03:37.809 --> 00:03:37.819 
+text is pressed it changes our label 1
+
+00:03:37.819 --> 00:03:40.319 
+text is pressed it changes our label 1
+from<00:03:38.720> whatever<00:03:38.959> text<00:03:39.349> it's<00:03:39.590> currently<00:03:39.859> saying
+
+00:03:40.319 --> 00:03:40.329 
+from whatever text it's currently saying
+
+00:03:40.329 --> 00:03:43.569 
+from whatever text it's currently saying
+to<00:03:41.329> hello<00:03:41.840> world<00:03:41.870> right<00:03:42.470> it's<00:03:42.889> really<00:03:43.430> very
+
+00:03:43.569 --> 00:03:43.579 
+to hello world right it's really very
+
+00:03:43.579 --> 00:03:44.219 
+to hello world right it's really very
+simple
+
+00:03:44.219 --> 00:03:44.229 
+simple
+
+00:03:44.229 --> 00:03:47.469 
+simple
+so<00:03:45.229> we've<00:03:45.379> connected<00:03:45.590> our<00:03:45.829> code<00:03:46.129> we've<00:03:46.819> coded
+
+00:03:47.469 --> 00:03:47.479 
+so we've connected our code we've coded
+
+00:03:47.479 --> 00:03:50.229 
+so we've connected our code we've coded
+up<00:03:47.629> for<00:03:47.900> program<00:03:48.349> so<00:03:48.560> that's<00:03:48.680> run<00:03:49.669> this<00:03:50.000> app
+
+00:03:50.229 --> 00:03:50.239 
+up for program so that's run this app
+
+00:03:50.239 --> 00:03:52.439 
+up for program so that's run this app
+and<00:03:50.540> it<00:03:50.840> should<00:03:51.049> all<00:03:51.169> work<00:03:51.199> perfectly<00:03:51.889> fine
+
+00:03:52.439 --> 00:03:52.449 
+and it should all work perfectly fine
+
+00:03:52.449 --> 00:03:56.589 
+and it should all work perfectly fine
+which<00:03:53.449> it<00:03:53.810> does<00:03:54.139> no<00:03:54.470> errors<00:03:54.799> whatsoever<00:03:55.599> there
+
+00:03:56.589 --> 00:03:56.599 
+which it does no errors whatsoever there
+
+00:03:56.599 --> 00:03:59.469 
+which it does no errors whatsoever there
+we<00:03:56.690> go<00:03:56.840> build<00:03:57.079> succeeded<00:03:57.849> just<00:03:58.849> wait<00:03:59.090> for<00:03:59.269> the
+
+00:03:59.469 --> 00:03:59.479 
+we go build succeeded just wait for the
+
+00:03:59.479 --> 00:04:05.559 
+we go build succeeded just wait for the
+iOS<00:03:59.930> simulator<00:04:00.349> to<00:04:00.829> open<00:04:01.280> up<00:04:03.940> now<00:04:04.940> this<00:04:05.150> code
+
+00:04:05.559 --> 00:04:05.569 
+iOS simulator to open up now this code
+
+00:04:05.569 --> 00:04:08.080 
+iOS simulator to open up now this code
+can<00:04:05.780> also<00:04:05.930> be<00:04:06.139> used<00:04:06.379> for<00:04:06.530> a<00:04:06.769> UI<00:04:07.190> text<00:04:07.639> view<00:04:07.970> as
+
+00:04:08.080 --> 00:04:08.090 
+can also be used for a UI text view as
+
+00:04:08.090 --> 00:04:10.839 
+can also be used for a UI text view as
+well<00:04:08.269> it's<00:04:08.479> not<00:04:08.510> just<00:04:08.659> label<00:04:09.290> so<00:04:10.159> a<00:04:10.190> UI<00:04:10.489> text
+
+00:04:10.839 --> 00:04:10.849 
+well it's not just label so a UI text
+
+00:04:10.849 --> 00:04:13.390 
+well it's not just label so a UI text
+view<00:04:11.180> is<00:04:11.299> basically<00:04:11.659> a<00:04:11.810> small<00:04:12.650> chunk<00:04:12.979> a
+
+00:04:13.390 --> 00:04:13.400 
+view is basically a small chunk a
+
+00:04:13.400 --> 00:04:15.520 
+view is basically a small chunk a
+smaller<00:04:13.940> sort<00:04:14.329> of<00:04:14.389> box<00:04:14.629> and<00:04:14.930> it's<00:04:15.409> a
+
+00:04:15.520 --> 00:04:15.530 
+smaller sort of box and it's a
+
+00:04:15.530 --> 00:04:17.710 
+smaller sort of box and it's a
+scrollable<00:04:16.099> view<00:04:16.519> so<00:04:16.789> you<00:04:16.820> can<00:04:17.150> put<00:04:17.389> a<00:04:17.419> whole
+
+00:04:17.710 --> 00:04:17.720 
+scrollable view so you can put a whole
+
+00:04:17.720 --> 00:04:20.050 
+scrollable view so you can put a whole
+paragraph<00:04:17.959> a<00:04:18.380> text<00:04:18.799> in<00:04:18.919> in<00:04:19.070> a<00:04:19.190> small<00:04:19.459> space<00:04:19.760> and
+
+00:04:20.050 --> 00:04:20.060 
+paragraph a text in in a small space and
+
+00:04:20.060 --> 00:04:23.230 
+paragraph a text in in a small space and
+use<00:04:20.630> it<00:04:20.779> and<00:04:20.930> scroll<00:04:21.229> through<00:04:21.289> that<00:04:22.240> through
+
+00:04:23.230 --> 00:04:23.240 
+use it and scroll through that through
+
+00:04:23.240 --> 00:04:24.730 
+use it and scroll through that through
+that<00:04:23.389> little<00:04:23.539> space<00:04:23.870> and<00:04:24.169> view<00:04:24.440> all<00:04:24.560> in<00:04:24.680> the
+
+00:04:24.730 --> 00:04:24.740 
+that little space and view all in the
+
+00:04:24.740 --> 00:04:26.830 
+that little space and view all in the
+text<00:04:25.159> so<00:04:25.340> this<00:04:26.270> code<00:04:26.570> work
+
+00:04:26.830 --> 00:04:26.840 
+text so this code work
+
+00:04:26.840 --> 00:04:28.960 
+text so this code work
+perfectly<00:04:27.350> with<00:04:27.560> that<00:04:27.590> as<00:04:27.800> well<00:04:28.160> it<00:04:28.669> works
+
+00:04:28.960 --> 00:04:28.970 
+perfectly with that as well it works
+
+00:04:28.970 --> 00:04:30.850 
+perfectly with that as well it works
+perfectly<00:04:29.480> on<00:04:29.570> the<00:04:29.780> iPhone<00:04:30.199> the<00:04:30.230> iPod<00:04:30.620> touch
+
+00:04:30.850 --> 00:04:30.860 
+perfectly on the iPhone the iPod touch
+
+00:04:30.860 --> 00:04:33.460 
+perfectly on the iPhone the iPod touch
+and<00:04:31.100> iPad<00:04:31.220> and<00:04:31.760> it<00:04:32.150> works<00:04:32.360> on<00:04:32.570> all<00:04:32.750> versions<00:04:33.020> of
+
+00:04:33.460 --> 00:04:33.470 
+and iPad and it works on all versions of
+
+00:04:33.470 --> 00:04:43.390 
+and iPad and it works on all versions of
+iOS<00:04:37.270> there<00:04:38.270> we<00:04:38.360> go<00:04:41.470> sorry<00:04:42.470> about<00:04:42.590> my<00:04:42.860> Mac<00:04:43.070> being
+
+00:04:43.390 --> 00:04:43.400 
+iOS there we go sorry about my Mac being
+
+00:04:43.400 --> 00:04:45.909 
+iOS there we go sorry about my Mac being
+a<00:04:43.460> bit<00:04:43.610> slow<00:04:43.970> but<00:04:44.510> nonetheless<00:04:45.169> it<00:04:45.680> should
+
+00:04:45.909 --> 00:04:45.919 
+a bit slow but nonetheless it should
+
+00:04:45.919 --> 00:04:48.370 
+a bit slow but nonetheless it should
+work<00:04:46.479> alright<00:04:47.479> here<00:04:47.750> we<00:04:47.780> go<00:04:47.840> so<00:04:48.139> we've<00:04:48.260> got<00:04:48.350> a
+
+00:04:48.370 --> 00:04:48.380 
+work alright here we go so we've got a
+
+00:04:48.380 --> 00:04:50.290 
+work alright here we go so we've got a
+simple<00:04:48.740> label<00:04:48.889> and<00:04:49.310> it<00:04:49.430> simply<00:04:49.729> says<00:04:49.910> label
+
+00:04:50.290 --> 00:04:50.300 
+simple label and it simply says label
+
+00:04:50.300 --> 00:04:52.900 
+simple label and it simply says label
+and<00:04:50.840> we've<00:04:51.080> got<00:04:51.290> a<00:04:51.320> button<00:04:51.560> called<00:04:51.860> change<00:04:52.190> if
+
+00:04:52.900 --> 00:04:52.910 
+and we've got a button called change if
+
+00:04:52.910 --> 00:04:55.600 
+and we've got a button called change if
+we<00:04:53.060> now<00:04:53.180> press<00:04:53.479> the<00:04:53.660> button<00:04:53.800> boom<00:04:54.800> it<00:04:55.310> says
+
+00:04:55.600 --> 00:04:55.610 
+we now press the button boom it says
+
+00:04:55.610 --> 00:04:58.780 
+we now press the button boom it says
+hello<00:04:56.030> world<00:04:56.060> right<00:04:56.750> it's<00:04:57.229> so<00:04:57.500> easy<00:04:57.710> so<00:04:58.669> there
+
+00:04:58.780 --> 00:04:58.790 
+hello world right it's so easy so there
+
+00:04:58.790 --> 00:05:00.520 
+hello world right it's so easy so there
+we<00:04:58.880> have<00:04:59.030> it<00:04:59.150> guys<00:04:59.180> that<00:04:59.870> is<00:05:00.020> how<00:05:00.200> you<00:05:00.260> can
+
+00:05:00.520 --> 00:05:00.530 
+we have it guys that is how you can
+
+00:05:00.530 --> 00:05:02.800 
+we have it guys that is how you can
+change<00:05:00.860> the<00:05:01.040> text<00:05:01.610> which<00:05:01.940> appears<00:05:02.330> in<00:05:02.510> a<00:05:02.600> UI
+
+00:05:02.800 --> 00:05:02.810 
+change the text which appears in a UI
+
+00:05:02.810 --> 00:05:05.940 
+change the text which appears in a UI
+label<00:05:02.930> or<00:05:03.650> in<00:05:03.919> fact<00:05:04.220> a<00:05:04.430> UI<00:05:04.639> text<00:05:05.000> view<00:05:05.240> as<00:05:05.300> well
+
+00:05:05.940 --> 00:05:05.950 
+label or in fact a UI text view as well
+
+00:05:05.950 --> 00:05:08.920 
+label or in fact a UI text view as well
+programmatically<00:05:06.950> right<00:05:07.520> so<00:05:08.479> thank<00:05:08.690> you<00:05:08.780> very
+
+00:05:08.920 --> 00:05:08.930 
+programmatically right so thank you very
+
+00:05:08.930 --> 00:05:10.510 
+programmatically right so thank you very
+much<00:05:09.080> for<00:05:09.229> watching<00:05:09.530> this<00:05:09.650> tutorial<00:05:09.710> and<00:05:10.370> I
+
+00:05:10.510 --> 00:05:10.520 
+much for watching this tutorial and I
+
+00:05:10.520 --> 00:05:15.070 
+much for watching this tutorial and I
+will<00:05:10.550> see<00:05:10.760> you<00:05:11.090> next<00:05:11.270> in<00:05:11.600> my<00:05:12.110> next<00:05:12.290> video<00:05:12.620> bye
+
