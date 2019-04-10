@@ -1,0 +1,974 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.500 --> 00:00:04.370 
+
+the<00:00:02.250> problem<00:00:02.639> of<00:00:02.760> inverse<00:00:03.060> kinematics<00:00:03.660> posing
+
+00:00:04.370 --> 00:00:04.380 
+the problem of inverse kinematics posing
+
+00:00:04.380 --> 00:00:05.750 
+the problem of inverse kinematics posing
+a<00:00:04.440> character<00:00:04.830> based<00:00:04.980> on<00:00:05.190> a<00:00:05.250> few<00:00:05.490> handl
+
+00:00:05.750 --> 00:00:05.760 
+a character based on a few handl
+
+00:00:05.760 --> 00:00:07.610 
+a character based on a few handl
+constraints<00:00:06.330> is<00:00:06.479> inherently<00:00:07.349> under
+
+00:00:07.610 --> 00:00:07.620 
+constraints is inherently under
+
+00:00:07.620 --> 00:00:09.950 
+constraints is inherently under
+constrained<00:00:08.099> there<00:00:08.970> are<00:00:09.059> usually<00:00:09.180> many<00:00:09.480> poses
+
+00:00:09.950 --> 00:00:09.960 
+constrained there are usually many poses
+
+00:00:09.960 --> 00:00:11.770 
+constrained there are usually many poses
+that<00:00:10.080> satisfy<00:00:10.620> a<00:00:10.650> given<00:00:10.740> set<00:00:11.190> of<00:00:11.220> constraints
+
+00:00:11.770 --> 00:00:11.780 
+that satisfy a given set of constraints
+
+00:00:11.780 --> 00:00:14.150 
+that satisfy a given set of constraints
+however<00:00:12.780> only<00:00:13.020> a<00:00:13.140> few<00:00:13.410> of<00:00:13.500> those<00:00:13.590> poses<00:00:13.890> will
+
+00:00:14.150 --> 00:00:14.160 
+however only a few of those poses will
+
+00:00:14.160 --> 00:00:16.640 
+however only a few of those poses will
+appear<00:00:14.430> natural<00:00:14.930> we<00:00:15.930> present<00:00:16.320> an<00:00:16.410> inverse
+
+00:00:16.640 --> 00:00:16.650 
+appear natural we present an inverse
+
+00:00:16.650 --> 00:00:18.620 
+appear natural we present an inverse
+kinematic<00:00:17.130> system<00:00:17.490> based<00:00:17.789> on<00:00:17.970> learned<00:00:18.240> models
+
+00:00:18.620 --> 00:00:18.630 
+kinematic system based on learned models
+
+00:00:18.630 --> 00:00:21.169 
+kinematic system based on learned models
+of<00:00:18.779> human<00:00:18.900> poses<00:00:19.439> given<00:00:20.160> some<00:00:20.339> example<00:00:20.789> motion
+
+00:00:21.169 --> 00:00:21.179 
+of human poses given some example motion
+
+00:00:21.179 --> 00:00:22.730 
+of human poses given some example motion
+data<00:00:21.390> we<00:00:21.689> learn<00:00:21.839> the<00:00:21.990> objective<00:00:22.380> function
+
+00:00:22.730 --> 00:00:22.740 
+data we learn the objective function
+
+00:00:22.740 --> 00:00:24.950 
+data we learn the objective function
+over<00:00:22.890> the<00:00:22.980> space<00:00:23.189> of<00:00:23.249> all<00:00:23.550> poses<00:00:23.999> then<00:00:24.659> given
+
+00:00:24.950 --> 00:00:24.960 
+over the space of all poses then given
+
+00:00:24.960 --> 00:00:26.839 
+over the space of all poses then given
+new<00:00:25.079> constraints<00:00:25.589> from<00:00:25.650> an<00:00:25.800> animator<00:00:26.159> we<00:00:26.730> can
+
+00:00:26.839 --> 00:00:26.849 
+new constraints from an animator we can
+
+00:00:26.849 --> 00:00:28.669 
+new constraints from an animator we can
+generate<00:00:27.119> very<00:00:27.359> natural-looking<00:00:27.810> poses<00:00:28.439> in
+
+00:00:28.669 --> 00:00:28.679 
+generate very natural-looking poses in
+
+00:00:28.679 --> 00:00:30.979 
+generate very natural-looking poses in
+real<00:00:28.890> time<00:00:29.300> we<00:00:30.300> learn<00:00:30.449> the<00:00:30.569> likelihood
+
+00:00:30.979 --> 00:00:30.989 
+real time we learn the likelihood
+
+00:00:30.989 --> 00:00:33.590 
+real time we learn the likelihood
+proposes<00:00:31.529> using<00:00:31.829> a<00:00:32.009> model<00:00:32.279> called<00:00:32.520> an<00:00:32.669> sgp<00:00:33.149> LVM
+
+00:00:33.590 --> 00:00:33.600 
+proposes using a model called an sgp LVM
+
+00:00:33.600 --> 00:00:35.900 
+proposes using a model called an sgp LVM
+we<00:00:34.530> demonstrate<00:00:34.980> this<00:00:35.160> model<00:00:35.460> on<00:00:35.580> the<00:00:35.670> poses
+
+00:00:35.900 --> 00:00:35.910 
+we demonstrate this model on the poses
+
+00:00:35.910 --> 00:00:38.570 
+we demonstrate this model on the poses
+in<00:00:36.270> this<00:00:36.420> baseball<00:00:36.840> pitch<00:00:37.050> motion<00:00:37.310> the<00:00:38.310> model
+
+00:00:38.570 --> 00:00:38.580 
+in this baseball pitch motion the model
+
+00:00:38.580 --> 00:00:40.250 
+in this baseball pitch motion the model
+learns<00:00:38.730> a<00:00:38.850> low<00:00:39.030> dimensional<00:00:39.510> representation
+
+00:00:40.250 --> 00:00:40.260 
+learns a low dimensional representation
+
+00:00:40.260 --> 00:00:42.380 
+learns a low dimensional representation
+of<00:00:40.350> the<00:00:40.410> space<00:00:40.620> of<00:00:40.800> poses<00:00:41.190> shown<00:00:41.700> here<00:00:41.940> as<00:00:42.030> a<00:00:42.060> 2d
+
+00:00:42.380 --> 00:00:42.390 
+of the space of poses shown here as a 2d
+
+00:00:42.390 --> 00:00:45.050 
+of the space of poses shown here as a 2d
+plot<00:00:42.710> each<00:00:43.710> of<00:00:43.920> the<00:00:44.010> original<00:00:44.190> training<00:00:44.670> poses
+
+00:00:45.050 --> 00:00:45.060 
+plot each of the original training poses
+
+00:00:45.060 --> 00:00:46.430 
+plot each of the original training poses
+is<00:00:45.150> indicated<00:00:45.600> by<00:00:45.630> a<00:00:45.720> plus<00:00:45.960> sign
+
+00:00:46.430 --> 00:00:46.440 
+is indicated by a plus sign
+
+00:00:46.440 --> 00:00:48.410 
+is indicated by a plus sign
+the<00:00:46.950> current<00:00:47.280> synthesized<00:00:47.790> pose<00:00:48.090> in<00:00:48.330> the
+
+00:00:48.410 --> 00:00:48.420 
+the current synthesized pose in the
+
+00:00:48.420 --> 00:00:50.210 
+the current synthesized pose in the
+space<00:00:48.660> is<00:00:48.870> represented<00:00:49.440> by<00:00:49.500> the<00:00:49.590> large<00:00:49.890> green
+
+00:00:50.210 --> 00:00:50.220 
+space is represented by the large green
+
+00:00:50.220 --> 00:00:52.880 
+space is represented by the large green
+point<00:00:50.900> every<00:00:51.900> point<00:00:52.170> in<00:00:52.260> the<00:00:52.350> 2d<00:00:52.620> space
+
+00:00:52.880 --> 00:00:52.890 
+point every point in the 2d space
+
+00:00:52.890 --> 00:00:55.550 
+point every point in the 2d space
+corresponds<00:00:53.640> to<00:00:53.670> a<00:00:53.790> full-body<00:00:54.240> pose<00:00:54.560> the
+
+00:00:55.550 --> 00:00:55.560 
+corresponds to a full-body pose the
+
+00:00:55.560 --> 00:00:57.380 
+corresponds to a full-body pose the
+animator<00:00:55.890> can<00:00:56.070> specify<00:00:56.280> new<00:00:56.730> poses<00:00:57.030> by
+
+00:00:57.380 --> 00:00:57.390 
+animator can specify new poses by
+
+00:00:57.390 --> 00:00:58.930 
+animator can specify new poses by
+applying<00:00:57.750> constraints<00:00:58.320> to<00:00:58.410> the<00:00:58.530> character
+
+00:00:58.930 --> 00:00:58.940 
+applying constraints to the character
+
+00:00:58.940 --> 00:01:01.340 
+applying constraints to the character
+the<00:00:59.940> most<00:01:00.120> likely<00:01:00.480> pose<00:01:00.690> in<00:01:00.810> the<00:01:00.900> model<00:01:01.230> will
+
+00:01:01.340 --> 00:01:01.350 
+the most likely pose in the model will
+
+00:01:01.350 --> 00:01:04.960 
+the most likely pose in the model will
+be<00:01:01.380> selected<00:01:01.950> based<00:01:02.130> on<00:01:02.340> these<00:01:02.550> constraints
+
+00:01:04.960 --> 00:01:04.970 
+be selected based on these constraints
+
+00:01:04.970 --> 00:01:07.280 
+be selected based on these constraints
+alternatively<00:01:05.970> the<00:01:06.450> animator<00:01:06.780> may<00:01:06.960> select
+
+00:01:07.280 --> 00:01:07.290 
+alternatively the animator may select
+
+00:01:07.290 --> 00:01:09.320 
+alternatively the animator may select
+locations<00:01:07.860> in<00:01:07.980> the<00:01:08.070> 2d<00:01:08.310> style<00:01:08.520> window<00:01:08.909> to<00:01:08.970> pose
+
+00:01:09.320 --> 00:01:09.330 
+locations in the 2d style window to pose
+
+00:01:09.330 --> 00:01:11.870 
+locations in the 2d style window to pose
+the<00:01:09.480> character<00:01:09.630> directly<00:01:10.370> these<00:01:11.370> interaction
+
+00:01:11.870 --> 00:01:11.880 
+the character directly these interaction
+
+00:01:11.880 --> 00:01:13.940 
+the character directly these interaction
+methods<00:01:12.030> can<00:01:12.360> also<00:01:12.480> be<00:01:12.690> used<00:01:12.840> together<00:01:13.140> the
+
+00:01:13.940 --> 00:01:13.950 
+methods can also be used together the
+
+00:01:13.950 --> 00:01:15.800 
+methods can also be used together the
+animator<00:01:14.310> can<00:01:14.490> specify<00:01:14.700> handle<00:01:15.300> constraints
+
+00:01:15.800 --> 00:01:15.810 
+animator can specify handle constraints
+
+00:01:15.810 --> 00:01:17.510 
+animator can specify handle constraints
+on<00:01:15.930> the<00:01:16.020> character<00:01:16.409> and<00:01:16.650> then<00:01:16.770> drag<00:01:17.040> in<00:01:17.190> the<00:01:17.280> 2d
+
+00:01:17.510 --> 00:01:17.520 
+on the character and then drag in the 2d
+
+00:01:17.520 --> 00:01:20.870 
+on the character and then drag in the 2d
+space<00:01:18.800> to<00:01:19.800> generate<00:01:20.159> the<00:01:20.280> space<00:01:20.520> from<00:01:20.760> the
+
+00:01:20.870 --> 00:01:20.880 
+space to generate the space from the
+
+00:01:20.880 --> 00:01:23.540 
+space to generate the space from the
+training<00:01:21.120> poses<00:01:21.570> the<00:01:22.290> SGP<00:01:22.620> LVM<00:01:23.130> learns<00:01:23.430> a
+
+00:01:23.540 --> 00:01:23.550 
+training poses the SGP LVM learns a
+
+00:01:23.550 --> 00:01:25.880 
+training poses the SGP LVM learns a
+probability<00:01:24.090> distribution<00:01:24.690> function<00:01:25.140> or<00:01:25.409> PDF
+
+00:01:25.880 --> 00:01:25.890 
+probability distribution function or PDF
+
+00:01:25.890 --> 00:01:28.280 
+probability distribution function or PDF
+over<00:01:26.250> the<00:01:26.340> training<00:01:26.670> data<00:01:26.850> the<00:01:27.200> function<00:01:28.200> is
+
+00:01:28.280 --> 00:01:28.290 
+over the training data the function is
+
+00:01:28.290 --> 00:01:29.770 
+over the training data the function is
+illustrated<00:01:28.740> here<00:01:28.950> by<00:01:29.010> a<00:01:29.159> grayscale<00:01:29.640> image
+
+00:01:29.770 --> 00:01:29.780 
+illustrated here by a grayscale image
+
+00:01:29.780 --> 00:01:32.210 
+illustrated here by a grayscale image
+light<00:01:30.780> areas<00:01:31.140> have<00:01:31.320> high<00:01:31.500> likelihood<00:01:31.740> and
+
+00:01:32.210 --> 00:01:32.220 
+light areas have high likelihood and
+
+00:01:32.220 --> 00:01:34.789 
+light areas have high likelihood and
+dark<00:01:32.820> areas<00:01:33.150> have<00:01:33.299> low<00:01:33.450> likelihood<00:01:33.720> when<00:01:34.680> the
+
+00:01:34.789 --> 00:01:34.799 
+dark areas have low likelihood when the
+
+00:01:34.799 --> 00:01:36.410 
+dark areas have low likelihood when the
+animator<00:01:35.130> specifies<00:01:35.670> constraints<00:01:36.240> on<00:01:36.330> the
+
+00:01:36.410 --> 00:01:36.420 
+animator specifies constraints on the
+
+00:01:36.420 --> 00:01:38.600 
+animator specifies constraints on the
+pose<00:01:36.659> the<00:01:37.380> algorithm<00:01:37.770> searches<00:01:37.979> for<00:01:38.280> a<00:01:38.340> pose
+
+00:01:38.600 --> 00:01:38.610 
+pose the algorithm searches for a pose
+
+00:01:38.610 --> 00:01:40.250 
+pose the algorithm searches for a pose
+which<00:01:38.850> has<00:01:39.030> the<00:01:39.120> highest<00:01:39.330> likelihood<00:01:39.659> given
+
+00:01:40.250 --> 00:01:40.260 
+which has the highest likelihood given
+
+00:01:40.260 --> 00:01:42.800 
+which has the highest likelihood given
+the<00:01:40.320> constraints<00:01:40.920> the<00:01:41.070> red<00:01:41.909> points<00:01:42.299> represent
+
+00:01:42.800 --> 00:01:42.810 
+the constraints the red points represent
+
+00:01:42.810 --> 00:01:44.120 
+the constraints the red points represent
+the<00:01:42.900> active<00:01:43.049> set<00:01:43.320> of<00:01:43.409> data<00:01:43.590> points<00:01:43.950> in<00:01:44.040> the
+
+00:01:44.120 --> 00:01:44.130 
+the active set of data points in the
+
+00:01:44.130 --> 00:01:46.520 
+the active set of data points in the
+model<00:01:44.840> here<00:01:45.840> we<00:01:45.930> show<00:01:46.080> the<00:01:46.110> likelihood
+
+00:01:46.520 --> 00:01:46.530 
+model here we show the likelihood
+
+00:01:46.530 --> 00:01:48.830 
+model here we show the likelihood
+function<00:01:46.770> for<00:01:47.130> a<00:01:47.159> jump<00:01:47.430> shot<00:01:47.640> again<00:01:48.570> the<00:01:48.690> model
+
+00:01:48.830 --> 00:01:48.840 
+function for a jump shot again the model
+
+00:01:48.840 --> 00:01:50.450 
+function for a jump shot again the model
+learns<00:01:49.110> a<00:01:49.229> smooth<00:01:49.470> arrangement<00:01:49.950> of<00:01:50.010> the<00:01:50.070> poses
+
+00:01:50.450 --> 00:01:50.460 
+learns a smooth arrangement of the poses
+
+00:01:50.460 --> 00:01:52.969 
+learns a smooth arrangement of the poses
+and<00:01:50.670> a<00:01:50.729> smooth<00:01:51.000> likelihood<00:01:51.479> function<00:01:51.979> note
+
+00:01:52.969 --> 00:01:52.979 
+and a smooth likelihood function note
+
+00:01:52.979 --> 00:01:54.410 
+and a smooth likelihood function note
+that<00:01:53.130> the<00:01:53.220> algorithm<00:01:53.640> has<00:01:53.729> placed<00:01:54.000> similar
+
+00:01:54.410 --> 00:01:54.420 
+that the algorithm has placed similar
+
+00:01:54.420 --> 00:01:55.730 
+that the algorithm has placed similar
+poses<00:01:54.690> from<00:01:55.080> different<00:01:55.409> parts<00:01:55.650> of<00:01:55.680> the
+
+00:01:55.730 --> 00:01:55.740 
+poses from different parts of the
+
+00:01:55.740 --> 00:01:58.090 
+poses from different parts of the
+sequence<00:01:56.220> near<00:01:56.610> each<00:01:56.729> other<00:01:56.850> in<00:01:57.090> the<00:01:57.180> 2d<00:01:57.450> space
+
+00:01:58.090 --> 00:01:58.100 
+sequence near each other in the 2d space
+
+00:01:58.100 --> 00:02:00.380 
+sequence near each other in the 2d space
+this<00:01:59.100> lets<00:01:59.310> us<00:01:59.430> easily<00:01:59.700> interpolate<00:02:00.360> between
+
+00:02:00.380 --> 00:02:00.390 
+this lets us easily interpolate between
+
+00:02:00.390 --> 00:02:02.570 
+this lets us easily interpolate between
+these<00:02:00.840> similar<00:02:01.200> poses<00:02:01.439> and<00:02:01.770> indicates<00:02:02.430> that
+
+00:02:02.570 --> 00:02:02.580 
+these similar poses and indicates that
+
+00:02:02.580 --> 00:02:04.969 
+these similar poses and indicates that
+these<00:02:02.729> poses<00:02:03.000> are<00:02:03.180> more<00:02:03.360> plausible<00:02:03.869> when<00:02:04.830> we
+
+00:02:04.969 --> 00:02:04.979 
+these poses are more plausible when we
+
+00:02:04.979 --> 00:02:06.500 
+these poses are more plausible when we
+move<00:02:05.130> away<00:02:05.159> from<00:02:05.400> the<00:02:05.700> poses<00:02:06.030> in<00:02:06.060> the<00:02:06.210> model
+
+00:02:06.500 --> 00:02:06.510 
+move away from the poses in the model
+
+00:02:06.510 --> 00:02:09.889 
+move away from the poses in the model
+style<00:02:07.020> like<00:02:07.200> a<00:02:07.380> extrapolates<00:02:08.009> reasonably<00:02:08.899> we
+
+00:02:09.889 --> 00:02:09.899 
+style like a extrapolates reasonably we
+
+00:02:09.899 --> 00:02:11.330 
+style like a extrapolates reasonably we
+can<00:02:10.020> also<00:02:10.170> visualize<00:02:10.440> the<00:02:10.950> likelihood
+
+00:02:11.330 --> 00:02:11.340 
+can also visualize the likelihood
+
+00:02:11.340 --> 00:02:13.250 
+can also visualize the likelihood
+function<00:02:11.550> as<00:02:11.910> a<00:02:11.940> height<00:02:12.240> field<00:02:12.510> in<00:02:12.690> 3d
+
+00:02:13.250 --> 00:02:13.260 
+function as a height field in 3d
+
+00:02:13.260 --> 00:02:15.410 
+function as a height field in 3d
+note<00:02:14.160> that<00:02:14.190> the<00:02:14.459> highest<00:02:14.819> ridges<00:02:15.030> are<00:02:15.240> near
+
+00:02:15.410 --> 00:02:15.420 
+note that the highest ridges are near
+
+00:02:15.420 --> 00:02:17.000 
+note that the highest ridges are near
+the<00:02:15.540> original<00:02:15.959> training<00:02:16.230> data<00:02:16.470> points<00:02:16.890> and
+
+00:02:17.000 --> 00:02:17.010 
+the original training data points and
+
+00:02:17.010 --> 00:02:18.949 
+the original training data points and
+the<00:02:17.459> function<00:02:17.849> falls<00:02:18.060> away<00:02:18.300> smoothly<00:02:18.630> from
+
+00:02:18.949 --> 00:02:18.959 
+the function falls away smoothly from
+
+00:02:18.959 --> 00:02:21.979 
+the function falls away smoothly from
+these<00:02:19.140> ridges<00:02:20.180> multiple<00:02:21.180> trained<00:02:21.480> motions
+
+00:02:21.979 --> 00:02:21.989 
+these ridges multiple trained motions
+
+00:02:21.989 --> 00:02:24.380 
+these ridges multiple trained motions
+can<00:02:22.230> be<00:02:22.349> included<00:02:22.620> in<00:02:22.980> the<00:02:23.130> same<00:02:23.310> model<00:02:23.700> here
+
+00:02:24.380 --> 00:02:24.390 
+can be included in the same model here
+
+00:02:24.390 --> 00:02:25.910 
+can be included in the same model here
+we<00:02:24.510> show<00:02:24.660> a<00:02:24.690> model<00:02:25.050> trained<00:02:25.349> on<00:02:25.530> the<00:02:25.620> jump<00:02:25.890> shot
+
+00:02:25.910 --> 00:02:25.920 
+we show a model trained on the jump shot
+
+00:02:25.920 --> 00:02:28.280 
+we show a model trained on the jump shot
+and<00:02:26.340> pitching<00:02:26.700> motions<00:02:27.060> together<00:02:27.239> we<00:02:28.140> get<00:02:28.230> a
+
+00:02:28.280 --> 00:02:28.290 
+and pitching motions together we get a
+
+00:02:28.290 --> 00:02:30.559 
+and pitching motions together we get a
+smooth<00:02:28.650> space<00:02:29.069> that<00:02:29.489> includes<00:02:29.819> both<00:02:30.030> motions
+
+00:02:30.559 --> 00:02:30.569 
+smooth space that includes both motions
+
+00:02:30.569 --> 00:02:32.120 
+smooth space that includes both motions
+and<00:02:30.780> the<00:02:30.959> animator<00:02:31.319> can<00:02:31.500> constrain<00:02:31.950> the
+
+00:02:32.120 --> 00:02:32.130 
+and the animator can constrain the
+
+00:02:32.130 --> 00:02:33.890 
+and the animator can constrain the
+character<00:02:32.520> to<00:02:32.790> generate<00:02:33.120> poses<00:02:33.510> from<00:02:33.720> either
+
+00:02:33.890 --> 00:02:33.900 
+character to generate poses from either
+
+00:02:33.900 --> 00:02:37.820 
+character to generate poses from either
+one<00:02:35.330> we<00:02:36.330> now<00:02:36.480> show<00:02:36.720> several<00:02:37.050> applications
+
+00:02:37.820 --> 00:02:37.830 
+one we now show several applications
+
+00:02:37.830 --> 00:02:39.320 
+one we now show several applications
+that<00:02:38.100> take<00:02:38.280> advantage<00:02:38.400> of<00:02:38.790> style<00:02:39.090> based
+
+00:02:39.320 --> 00:02:39.330 
+that take advantage of style based
+
+00:02:39.330 --> 00:02:42.140 
+that take advantage of style based
+inverse<00:02:39.750> kinematics<00:02:40.550> here<00:02:41.550> we<00:02:41.700> simulate<00:02:42.120> a
+
+00:02:42.140 --> 00:02:42.150 
+inverse kinematics here we simulate a
+
+00:02:42.150 --> 00:02:43.790 
+inverse kinematics here we simulate a
+motion<00:02:42.540> capture<00:02:42.690> system<00:02:43.080> which<00:02:43.440> provides
+
+00:02:43.790 --> 00:02:43.800 
+motion capture system which provides
+
+00:02:43.800 --> 00:02:45.589 
+motion capture system which provides
+joint<00:02:44.190> angles<00:02:44.519> from<00:02:44.760> 3d<00:02:45.060> marker<00:02:45.390> data
+
+00:02:45.589 --> 00:02:45.599 
+joint angles from 3d marker data
+
+00:02:45.599 --> 00:02:48.710 
+joint angles from 3d marker data
+collected<00:02:46.230> in<00:02:46.290> real<00:02:46.500> time<00:02:47.180> markers<00:02:48.180> specified
+
+00:02:48.710 --> 00:02:48.720 
+collected in real time markers specified
+
+00:02:48.720 --> 00:02:51.110 
+collected in real time markers specified
+as<00:02:48.840> constraints<00:02:49.350> are<00:02:49.470> shown<00:02:49.680> in<00:02:49.709> white<00:02:50.120> we
+
+00:02:51.110 --> 00:02:51.120 
+as constraints are shown in white we
+
+00:02:51.120 --> 00:02:52.759 
+as constraints are shown in white we
+learned<00:02:51.330> the<00:02:51.450> PDF<00:02:51.870> from<00:02:52.019> the<00:02:52.110> initial<00:02:52.530> part<00:02:52.739> of
+
+00:02:52.759 --> 00:02:52.769 
+learned the PDF from the initial part of
+
+00:02:52.769 --> 00:02:55.100 
+learned the PDF from the initial part of
+the<00:02:52.860> motion<00:02:53.010> capture<00:02:53.340> sequence<00:02:53.880> and<00:02:54.180> then<00:02:55.019> we
+
+00:02:55.100 --> 00:02:55.110 
+the motion capture sequence and then we
+
+00:02:55.110 --> 00:02:56.960 
+the motion capture sequence and then we
+use<00:02:55.260> the<00:02:55.380> style<00:02:55.650> I<00:02:55.830> K<00:02:55.890> to<00:02:56.130> reconstruct<00:02:56.880> the
+
+00:02:56.960 --> 00:02:56.970 
+use the style I K to reconstruct the
+
+00:02:56.970 --> 00:02:58.729 
+use the style I K to reconstruct the
+rest<00:02:57.150> of<00:02:57.269> the<00:02:57.360> motion<00:02:57.720> while<00:02:58.049> simulating<00:02:58.410> the
+
+00:02:58.729 --> 00:02:58.739 
+rest of the motion while simulating the
+
+00:02:58.739 --> 00:03:01.280 
+rest of the motion while simulating the
+loss<00:02:58.890> of<00:02:59.130> several<00:02:59.340> of<00:02:59.519> the<00:02:59.580> markers<00:03:00.049> we<00:03:01.049> first
+
+00:03:01.280 --> 00:03:01.290 
+loss of several of the markers we first
+
+00:03:01.290 --> 00:03:03.650 
+loss of several of the markers we first
+remove<00:03:01.500> all<00:03:01.860> the<00:03:02.010> markers<00:03:02.340> from<00:03:02.519> the<00:03:02.640> arm<00:03:02.819> the
+
+00:03:03.650 --> 00:03:03.660 
+remove all the markers from the arm the
+
+00:03:03.660 --> 00:03:05.690 
+remove all the markers from the arm the
+arms<00:03:03.900> joint<00:03:04.200> angles<00:03:04.709> are<00:03:04.890> still<00:03:05.220> faithfully
+
+00:03:05.690 --> 00:03:05.700 
+arms joint angles are still faithfully
+
+00:03:05.700 --> 00:03:08.420 
+arms joint angles are still faithfully
+reconstructed<00:03:06.420> the<00:03:07.380> reconstruction<00:03:08.100> also
+
+00:03:08.420 --> 00:03:08.430 
+reconstructed the reconstruction also
+
+00:03:08.430 --> 00:03:10.100 
+reconstructed the reconstruction also
+does<00:03:08.580> not<00:03:08.730> degrade<00:03:08.880> significantly<00:03:09.660> when<00:03:09.989> we
+
+00:03:10.100 --> 00:03:10.110 
+does not degrade significantly when we
+
+00:03:10.110 --> 00:03:11.570 
+does not degrade significantly when we
+remove<00:03:10.380> markers<00:03:10.769> from<00:03:10.890> the<00:03:11.040> entire<00:03:11.280> upper
+
+00:03:11.570 --> 00:03:11.580 
+remove markers from the entire upper
+
+00:03:11.580 --> 00:03:14.720 
+remove markers from the entire upper
+body<00:03:12.560> even<00:03:13.560> in<00:03:13.650> this<00:03:13.799> extreme<00:03:14.190> case<00:03:14.430> in<00:03:14.610> which
+
+00:03:14.720 --> 00:03:14.730 
+body even in this extreme case in which
+
+00:03:14.730 --> 00:03:16.699 
+body even in this extreme case in which
+only<00:03:14.910> the<00:03:15.060> foot<00:03:15.390> markers<00:03:15.750> are<00:03:15.870> present<00:03:16.230> the
+
+00:03:16.699 --> 00:03:16.709 
+only the foot markers are present the
+
+00:03:16.709 --> 00:03:18.380 
+only the foot markers are present the
+system<00:03:17.040> continues<00:03:17.459> to<00:03:17.580> generate<00:03:17.700> reasonable
+
+00:03:18.380 --> 00:03:18.390 
+system continues to generate reasonable
+
+00:03:18.390 --> 00:03:22.039 
+system continues to generate reasonable
+poses<00:03:18.750> based<00:03:19.080> on<00:03:19.260> the<00:03:19.350> trained<00:03:19.620> model<00:03:20.720> the<00:03:21.720> PDF
+
+00:03:22.039 --> 00:03:22.049 
+poses based on the trained model the PDF
+
+00:03:22.049 --> 00:03:23.990 
+poses based on the trained model the PDF
+representation<00:03:22.920> of<00:03:23.010> style<00:03:23.280> allows<00:03:23.730> for
+
+00:03:23.990 --> 00:03:24.000 
+representation of style allows for
+
+00:03:24.000 --> 00:03:25.250 
+representation of style allows for
+straightforward<00:03:24.510> interpolation<00:03:25.170> between
+
+00:03:25.250 --> 00:03:25.260 
+straightforward interpolation between
+
+00:03:25.260 --> 00:03:27.770 
+straightforward interpolation between
+different<00:03:25.799> styles<00:03:26.010> in<00:03:26.850> this<00:03:27.000> example<00:03:27.329> we<00:03:27.600> show
+
+00:03:27.770 --> 00:03:27.780 
+different styles in this example we show
+
+00:03:27.780 --> 00:03:29.870 
+different styles in this example we show
+three<00:03:27.959> caching<00:03:28.380> styles<00:03:28.739> an<00:03:29.190> upright<00:03:29.609> style
+
+00:03:29.870 --> 00:03:29.880 
+three caching styles an upright style
+
+00:03:29.880 --> 00:03:31.550 
+three caching styles an upright style
+and<00:03:30.180> a<00:03:30.239> crouching<00:03:30.480> style<00:03:30.930> generated<00:03:31.470> from
+
+00:03:31.550 --> 00:03:31.560 
+and a crouching style generated from
+
+00:03:31.560 --> 00:03:33.319 
+and a crouching style generated from
+training<00:03:31.859> data<00:03:32.160> and<00:03:32.430> a<00:03:32.880> third<00:03:33.090> style
+
+00:03:33.319 --> 00:03:33.329 
+training data and a third style
+
+00:03:33.329 --> 00:03:36.340 
+training data and a third style
+generated<00:03:33.959> by<00:03:34.079> interpolating<00:03:34.650> the<00:03:34.769> first<00:03:35.040> two
+
+00:03:36.340 --> 00:03:36.350 
+generated by interpolating the first two
+
+00:03:36.350 --> 00:03:38.900 
+generated by interpolating the first two
+interpolation<00:03:37.350> also<00:03:38.070> allows<00:03:38.310> us<00:03:38.340> natural
+
+00:03:38.900 --> 00:03:38.910 
+interpolation also allows us natural
+
+00:03:38.910 --> 00:03:40.630 
+interpolation also allows us natural
+transitions<00:03:39.510> between<00:03:39.690> different<00:03:40.200> styles
+
+00:03:40.630 --> 00:03:40.640 
+transitions between different styles
+
+00:03:40.640 --> 00:03:43.220 
+transitions between different styles
+here<00:03:41.640> using<00:03:42.209> only<00:03:42.420> foot<00:03:42.630> constraints<00:03:43.140> to
+
+00:03:43.220 --> 00:03:43.230 
+here using only foot constraints to
+
+00:03:43.230 --> 00:03:45.140 
+here using only foot constraints to
+drive<00:03:43.440> the<00:03:43.590> animation<00:03:44.100> we<00:03:44.670> see<00:03:44.700> smooth
+
+00:03:45.140 --> 00:03:45.150 
+drive the animation we see smooth
+
+00:03:45.150 --> 00:03:46.520 
+drive the animation we see smooth
+transitions<00:03:45.810> between<00:03:46.049> three<00:03:46.500> different
+
+00:03:46.520 --> 00:03:46.530 
+transitions between three different
+
+00:03:46.530 --> 00:03:48.470 
+transitions between three different
+styles<00:03:47.100> of<00:03:47.160> walking<00:03:47.609> by<00:03:48.060> varying<00:03:48.359> the
+
+00:03:48.470 --> 00:03:48.480 
+styles of walking by varying the
+
+00:03:48.480 --> 00:03:51.890 
+styles of walking by varying the
+weighting<00:03:48.810> between<00:03:49.170> the<00:03:49.290> models<00:03:50.570> we<00:03:51.570> created
+
+00:03:51.890 --> 00:03:51.900 
+weighting between the models we created
+
+00:03:51.900 --> 00:03:53.479 
+weighting between the models we created
+the<00:03:51.959> test<00:03:52.140> animation<00:03:52.680> framework<00:03:52.980> for<00:03:53.400> the
+
+00:03:53.479 --> 00:03:53.489 
+the test animation framework for the
+
+00:03:53.489 --> 00:03:55.039 
+the test animation framework for the
+animator<00:03:53.790> keyframes<00:03:54.359> a<00:03:54.540> minimal<00:03:54.870> set<00:03:55.019> of
+
+00:03:55.039 --> 00:03:55.049 
+animator keyframes a minimal set of
+
+00:03:55.049 --> 00:03:57.380 
+animator keyframes a minimal set of
+paths<00:03:55.320> of<00:03:55.590> different<00:03:55.890> body<00:03:56.070> points<00:03:56.489> in<00:03:57.209> this
+
+00:03:57.380 --> 00:03:57.390 
+paths of different body points in this
+
+00:03:57.390 --> 00:03:59.210 
+paths of different body points in this
+example<00:03:57.780> the<00:03:58.260> feet<00:03:58.470> and<00:03:58.620> right<00:03:58.769> hand<00:03:59.040> were
+
+00:03:59.210 --> 00:03:59.220 
+example the feet and right hand were
+
+00:03:59.220 --> 00:04:01.130 
+example the feet and right hand were
+constrained<00:03:59.640> using<00:03:59.910> keyframes<00:04:00.090> and<00:04:00.600> the<00:04:00.959> rest
+
+00:04:01.130 --> 00:04:01.140 
+constrained using keyframes and the rest
+
+00:04:01.140 --> 00:04:02.930 
+constrained using keyframes and the rest
+of<00:04:01.200> the<00:04:01.319> pose<00:04:01.530> is<00:04:01.769> automatically<00:04:02.280> synthesized
+
+00:04:02.930 --> 00:04:02.940 
+of the pose is automatically synthesized
+
+00:04:02.940 --> 00:04:05.420 
+of the pose is automatically synthesized
+using<00:04:03.420> style<00:04:03.660> like<00:04:03.870> a<00:04:04.109> the<00:04:05.040> large<00:04:05.250> yellow
+
+00:04:05.420 --> 00:04:05.430 
+using style like a the large yellow
+
+00:04:05.430 --> 00:04:07.039 
+using style like a the large yellow
+points<00:04:05.880> demonstrate<00:04:06.420> the<00:04:06.569> trajectory
+
+00:04:07.039 --> 00:04:07.049 
+points demonstrate the trajectory
+
+00:04:07.049 --> 00:04:09.800 
+points demonstrate the trajectory
+control<00:04:07.319> points<00:04:07.769> for<00:04:07.950> the<00:04:08.010> hand<00:04:08.390> by<00:04:09.390> changing
+
+00:04:09.800 --> 00:04:09.810 
+control points for the hand by changing
+
+00:04:09.810 --> 00:04:11.509 
+control points for the hand by changing
+these<00:04:09.959> control<00:04:10.500> points<00:04:10.530> the<00:04:11.010> animator<00:04:11.340> can
+
+00:04:11.509 --> 00:04:11.519 
+these control points the animator can
+
+00:04:11.519 --> 00:04:13.699 
+these control points the animator can
+quickly<00:04:11.790> change<00:04:12.090> the<00:04:12.299> motion<00:04:12.660> here<00:04:13.350> we<00:04:13.440> change
+
+00:04:13.699 --> 00:04:13.709 
+quickly change the motion here we change
+
+00:04:13.709 --> 00:04:15.080 
+quickly change the motion here we change
+from<00:04:13.889> an<00:04:13.980> overhand<00:04:14.370> pitch<00:04:14.609> to<00:04:15.060> a
+
+00:04:15.080 --> 00:04:15.090 
+from an overhand pitch to a
+
+00:04:15.090 --> 00:04:16.699 
+from an overhand pitch to a
+natural-looking<00:04:15.450> sidearm<00:04:15.989> throwing<00:04:16.410> motion
+
+00:04:16.699 --> 00:04:16.709 
+natural-looking sidearm throwing motion
+
+00:04:16.709 --> 00:04:18.819 
+natural-looking sidearm throwing motion
+by<00:04:17.039> changing<00:04:17.459> only<00:04:17.549> the<00:04:17.789> hand<00:04:18.000> constraints
+
+00:04:18.819 --> 00:04:18.829 
+by changing only the hand constraints
+
+00:04:18.829 --> 00:04:23.180 
+by changing only the hand constraints
+here's<00:04:19.829> the<00:04:20.010> final<00:04:20.310> animation<00:04:22.190> alternatively
+
+00:04:23.180 --> 00:04:23.190 
+here's the final animation alternatively
+
+00:04:23.190 --> 00:04:24.920 
+here's the final animation alternatively
+the<00:04:23.490> animator<00:04:23.880> can<00:04:24.090> keep<00:04:24.300> the<00:04:24.419> constraints
+
+00:04:24.920 --> 00:04:24.930 
+the animator can keep the constraints
+
+00:04:24.930 --> 00:04:26.690 
+the animator can keep the constraints
+and<00:04:25.080> alter<00:04:25.680> the<00:04:25.770> motion<00:04:26.099> by<00:04:26.220> changing<00:04:26.610> the
+
+00:04:26.690 --> 00:04:26.700 
+and alter the motion by changing the
+
+00:04:26.700 --> 00:04:29.150 
+and alter the motion by changing the
+style<00:04:27.080> here<00:04:28.080> we're<00:04:28.229> changing<00:04:28.260> from<00:04:28.680> a<00:04:28.800> catch
+
+00:04:29.150 --> 00:04:29.160 
+style here we're changing from a catch
+
+00:04:29.160 --> 00:04:31.430 
+style here we're changing from a catch
+style<00:04:29.430> catch<00:04:29.730> to<00:04:30.300> a<00:04:30.360> fielding<00:04:30.780> catch<00:04:31.020> using
+
+00:04:31.430 --> 00:04:31.440 
+style catch to a fielding catch using
+
+00:04:31.440 --> 00:04:35.060 
+style catch to a fielding catch using
+the<00:04:31.530> same<00:04:31.740> set<00:04:32.010> of<00:04:32.100> constraints<00:04:33.800> in<00:04:34.800> this
+
+00:04:35.060 --> 00:04:35.070 
+the same set of constraints in this
+
+00:04:35.070 --> 00:04:37.250 
+the same set of constraints in this
+application<00:04:35.730> we<00:04:36.330> compute<00:04:36.720> a<00:04:36.780> 3d<00:04:37.080> character
+
+00:04:37.250 --> 00:04:37.260 
+application we compute a 3d character
+
+00:04:37.260 --> 00:04:39.680 
+application we compute a 3d character
+pose<00:04:37.710> from<00:04:38.220> 2d<00:04:38.490> body<00:04:38.670> points<00:04:38.970> and<00:04:39.270> a<00:04:39.420> style
+
+00:04:39.680 --> 00:04:39.690 
+pose from 2d body points and a style
+
+00:04:39.690 --> 00:04:42.230 
+pose from 2d body points and a style
+selected<00:04:40.170> by<00:04:40.290> the<00:04:40.350> user<00:04:40.560> in<00:04:41.000> this<00:04:42.000> first
+
+00:04:42.230 --> 00:04:42.240 
+selected by the user in this first
+
+00:04:42.240 --> 00:04:46.580 
+selected by the user in this first
+example<00:04:42.390> a<00:04:42.780> walking<00:04:43.170> style<00:04:43.350> was<00:04:43.590> chosen<00:04:45.590> here
+
+00:04:46.580 --> 00:04:46.590 
+example a walking style was chosen here
+
+00:04:46.590 --> 00:04:48.170 
+example a walking style was chosen here
+we<00:04:46.710> as<00:04:46.830> a<00:04:46.860> jump<00:04:47.160> shot<00:04:47.310> style<00:04:47.580> to<00:04:47.790> generate<00:04:48.150> a
+
+00:04:48.170 --> 00:04:48.180 
+we as a jump shot style to generate a
+
+00:04:48.180 --> 00:04:50.900 
+we as a jump shot style to generate a
+basketball<00:04:48.720> pose<00:04:49.040> each<00:04:50.040> line<00:04:50.400> constraint
+
+00:04:50.900 --> 00:04:50.910 
+basketball pose each line constraint
+
+00:04:50.910 --> 00:04:52.610 
+basketball pose each line constraint
+forces<00:04:51.240> the<00:04:51.420> body<00:04:51.540> point<00:04:51.930> to<00:04:52.080> protect<00:04:52.440> to<00:04:52.500> the
+
+00:04:52.610 --> 00:04:52.620 
+forces the body point to protect to the
+
+00:04:52.620 --> 00:04:55.940 
+forces the body point to protect to the
+corresponding<00:04:53.340> 2d<00:04:53.670> point<00:04:54.000> in<00:04:54.150> the<00:04:54.270> image<00:04:54.950> for
+
+00:04:55.940 --> 00:04:55.950 
+corresponding 2d point in the image for
+
+00:04:55.950 --> 00:04:57.290 
+corresponding 2d point in the image for
+each<00:04:56.010> of<00:04:56.160> these<00:04:56.250> images<00:04:56.700> we<00:04:56.970> were<00:04:57.060> able<00:04:57.150> to
+
+00:04:57.290 --> 00:04:57.300 
+each of these images we were able to
+
+00:04:57.300 --> 00:04:58.880 
+each of these images we were able to
+successfully<00:04:57.720> reconstruct<00:04:58.560> the<00:04:58.650> pose<00:04:58.860> by
+
+00:04:58.880 --> 00:04:58.890 
+successfully reconstruct the pose by
+
+00:04:58.890 --> 00:05:00.560 
+successfully reconstruct the pose by
+specifying<00:04:59.640> a<00:04:59.820> very<00:05:00.030> small<00:05:00.300> number<00:05:00.480> of
+
+00:05:00.560 --> 00:05:00.570 
+specifying a very small number of
+
+00:05:00.570 --> 00:05:02.540 
+specifying a very small number of
+constraints<00:05:01.020> and<00:05:01.260> using<00:05:01.830> style<00:05:02.100> I<00:05:02.250> K<00:05:02.310> to
+
+00:05:02.540 --> 00:05:02.550 
+constraints and using style I K to
+
+00:05:02.550 --> 00:05:05.330 
+constraints and using style I K to
+complete<00:05:03.000> the<00:05:03.120> pose
+

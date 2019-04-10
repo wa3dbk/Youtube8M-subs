@@ -1,0 +1,504 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.150 --> 00:00:04.110 
+
+we<00:00:01.839> saw<00:00:02.080> earlier<00:00:02.500> how<00:00:02.590> to<00:00:02.800> add<00:00:03.100> modify<00:00:03.520> and
+
+00:00:04.110 --> 00:00:04.120 
+we saw earlier how to add modify and
+
+00:00:04.120 --> 00:00:06.510 
+we saw earlier how to add modify and
+delete<00:00:04.270> database<00:00:04.990> records<00:00:05.620> using<00:00:05.799> PHP
+
+00:00:06.510 --> 00:00:06.520 
+delete database records using PHP
+
+00:00:06.520 --> 00:00:07.199 
+delete database records using PHP
+myadmin
+
+00:00:07.199 --> 00:00:07.209 
+myadmin
+
+00:00:07.209 --> 00:00:09.870 
+myadmin
+now<00:00:08.170> we'll<00:00:08.440> do<00:00:08.590> the<00:00:08.620> same<00:00:08.920> thing<00:00:08.980> using<00:00:09.610> a
+
+00:00:09.870 --> 00:00:09.880 
+now we'll do the same thing using a
+
+00:00:09.880 --> 00:00:13.829 
+now we'll do the same thing using a
+simple<00:00:10.269> interface<00:00:10.630> in<00:00:11.080> PHP<00:00:12.299> I've<00:00:13.299> prepared<00:00:13.690> a
+
+00:00:13.829 --> 00:00:13.839 
+simple interface in PHP I've prepared a
+
+00:00:13.839 --> 00:00:15.360 
+simple interface in PHP I've prepared a
+couple<00:00:14.110> of<00:00:14.200> files<00:00:14.440> to<00:00:14.589> get<00:00:14.799> us<00:00:14.950> going
+
+00:00:15.360 --> 00:00:15.370 
+couple of files to get us going
+
+00:00:15.370 --> 00:00:19.340 
+couple of files to get us going
+these<00:00:16.150> are<00:00:16.420> display<00:00:17.080> and<00:00:17.380> insert<00:00:17.890> PHP<00:00:18.850> and
+
+00:00:19.340 --> 00:00:19.350 
+these are display and insert PHP and
+
+00:00:19.350 --> 00:00:22.740 
+these are display and insert PHP and
+insert<00:00:20.350> PHP<00:00:21.190> in<00:00:21.400> the<00:00:21.580> working<00:00:21.970> files<00:00:22.240> folder
+
+00:00:22.740 --> 00:00:22.750 
+insert PHP in the working files folder
+
+00:00:22.750 --> 00:00:26.400 
+insert PHP in the working files folder
+for<00:00:22.840> this<00:00:22.990> lesson<00:00:23.970> copy<00:00:24.970> them<00:00:25.210> to<00:00:25.420> PHP<00:00:25.780> demos
+
+00:00:26.400 --> 00:00:26.410 
+for this lesson copy them to PHP demos
+
+00:00:26.410 --> 00:00:31.770 
+for this lesson copy them to PHP demos
+and<00:00:26.710> open<00:00:27.130> them<00:00:27.250> up<00:00:27.370> in<00:00:27.580> Komodo<00:00:27.910> edit<00:00:30.600> first<00:00:31.600> of
+
+00:00:31.770 --> 00:00:31.780 
+and open them up in Komodo edit first of
+
+00:00:31.780 --> 00:00:35.430 
+and open them up in Komodo edit first of
+all<00:00:31.930> in<00:00:32.230> display<00:00:32.980> in<00:00:33.010> insert<00:00:33.550> PHP<00:00:34.420> you'll<00:00:35.140> see
+
+00:00:35.430 --> 00:00:35.440 
+all in display in insert PHP you'll see
+
+00:00:35.440 --> 00:00:37.829 
+all in display in insert PHP you'll see
+that<00:00:35.589> this<00:00:35.800> contains<00:00:36.339> much<00:00:36.730> the<00:00:36.969> same<00:00:37.179> code<00:00:37.539> as
+
+00:00:37.829 --> 00:00:37.839 
+that this contains much the same code as
+
+00:00:37.839 --> 00:00:40.229 
+that this contains much the same code as
+the<00:00:38.140> script<00:00:38.440> display<00:00:38.980> dot<00:00:39.249> PHP<00:00:39.850> from<00:00:40.120> the
+
+00:00:40.229 --> 00:00:40.239 
+the script display dot PHP from the
+
+00:00:40.239 --> 00:00:42.930 
+the script display dot PHP from the
+lesson<00:00:40.570> before<00:00:40.719> last<00:00:41.429> we<00:00:42.429> connect<00:00:42.820> to<00:00:42.910> the
+
+00:00:42.930 --> 00:00:42.940 
+lesson before last we connect to the
+
+00:00:42.940 --> 00:00:45.209 
+lesson before last we connect to the
+database<00:00:43.179> and<00:00:43.870> then<00:00:44.019> we<00:00:44.140> use<00:00:44.260> the<00:00:44.469> same<00:00:44.769> method
+
+00:00:45.209 --> 00:00:45.219 
+database and then we use the same method
+
+00:00:45.219 --> 00:00:47.639 
+database and then we use the same method
+as<00:00:45.339> we<00:00:45.460> used<00:00:45.640> in<00:00:45.820> display<00:00:46.210> dot<00:00:46.420> PHP<00:00:47.019> to<00:00:47.230> display
+
+00:00:47.639 --> 00:00:47.649 
+as we used in display dot PHP to display
+
+00:00:47.649 --> 00:00:50.369 
+as we used in display dot PHP to display
+all<00:00:47.920> the<00:00:47.980> data<00:00:48.249> in<00:00:48.609> the<00:00:48.699> database<00:00:48.989> there's<00:00:49.989> no
+
+00:00:50.369 --> 00:00:50.379 
+all the data in the database there's no
+
+00:00:50.379 --> 00:00:52.290 
+all the data in the database there's no
+need<00:00:50.649> to<00:00:50.679> use<00:00:50.920> a<00:00:50.980> prepared<00:00:51.460> statement<00:00:51.609> here
+
+00:00:52.290 --> 00:00:52.300 
+need to use a prepared statement here
+
+00:00:52.300 --> 00:00:54.209 
+need to use a prepared statement here
+because<00:00:52.870> there's<00:00:53.050> no<00:00:53.199> user<00:00:53.469> input<00:00:54.069> to
+
+00:00:54.209 --> 00:00:54.219 
+because there's no user input to
+
+00:00:54.219 --> 00:00:59.309 
+because there's no user input to
+sanitize<00:00:56.699> then<00:00:57.699> as<00:00:57.969> before<00:00:58.629> we<00:00:58.780> have<00:00:58.899> a<00:00:58.929> table
+
+00:00:59.309 --> 00:00:59.319 
+sanitize then as before we have a table
+
+00:00:59.319 --> 00:01:01.619 
+sanitize then as before we have a table
+header<00:00:59.530> and<00:00:59.829> then<00:01:00.519> a<00:01:00.550> loop<00:01:00.909> using<00:01:01.269> fetch
+
+00:01:01.619 --> 00:01:01.629 
+header and then a loop using fetch
+
+00:01:01.629 --> 00:01:04.560 
+header and then a loop using fetch
+object<00:01:02.199> within<00:01:02.920> which<00:01:03.100> we<00:01:03.339> echo<00:01:03.699> out<00:01:03.879> each<00:01:04.180> row
+
+00:01:04.560 --> 00:01:04.570 
+object within which we echo out each row
+
+00:01:04.570 --> 00:01:10.380 
+object within which we echo out each row
+of<00:01:04.600> data<00:01:05.019> as<00:01:05.410> a<00:01:05.500> table<00:01:05.860> row<00:01:08.850> below<00:01:09.850> that<00:01:10.210> the
+
+00:01:10.380 --> 00:01:10.390 
+of data as a table row below that the
+
+00:01:10.390 --> 00:01:13.530 
+of data as a table row below that the
+codes<00:01:10.630> new<00:01:11.020> we<00:01:11.800> have<00:01:12.010> a<00:01:12.040> form<00:01:12.550> pointing<00:01:13.450> to
+
+00:01:13.530 --> 00:01:13.540 
+codes new we have a form pointing to
+
+00:01:13.540 --> 00:01:16.020 
+codes new we have a form pointing to
+insert<00:01:13.960> dot<00:01:14.200> PHP<00:01:14.860> using<00:01:15.280> the<00:01:15.370> method<00:01:15.700> post
+
+00:01:16.020 --> 00:01:16.030 
+insert dot PHP using the method post
+
+00:01:16.030 --> 00:01:18.330 
+insert dot PHP using the method post
+again<00:01:16.480> and<00:01:17.350> within<00:01:17.590> the<00:01:17.800> form<00:01:18.040> we<00:01:18.190> have<00:01:18.220> a
+
+00:01:18.330 --> 00:01:18.340 
+again and within the form we have a
+
+00:01:18.340 --> 00:01:21.120 
+again and within the form we have a
+table<00:01:18.850> and<00:01:19.030> then<00:01:19.420> inside<00:01:19.930> the<00:01:20.200> table<00:01:20.440> cells<00:01:20.860> we
+
+00:01:21.120 --> 00:01:21.130 
+table and then inside the table cells we
+
+00:01:21.130 --> 00:01:23.490 
+table and then inside the table cells we
+have<00:01:21.160> input<00:01:21.760> boxes<00:01:22.270> where<00:01:22.750> we<00:01:22.870> can<00:01:23.050> type<00:01:23.320> in
+
+00:01:23.490 --> 00:01:23.500 
+have input boxes where we can type in
+
+00:01:23.500 --> 00:01:25.680 
+have input boxes where we can type in
+the<00:01:23.650> data<00:01:23.860> that<00:01:24.010> we<00:01:24.160> want<00:01:24.370> to<00:01:24.400> add<00:01:24.670> and<00:01:25.060> below
+
+00:01:25.680 --> 00:01:25.690 
+the data that we want to add and below
+
+00:01:25.690 --> 00:01:28.410 
+the data that we want to add and below
+that<00:01:25.900> we<00:01:26.140> have<00:01:26.170> a<00:01:26.350> submit<00:01:26.770> button<00:01:26.800> now<00:01:27.790> all<00:01:28.240> we
+
+00:01:28.410 --> 00:01:28.420 
+that we have a submit button now all we
+
+00:01:28.420 --> 00:01:31.860 
+that we have a submit button now all we
+need<00:01:28.600> to<00:01:28.720> do<00:01:28.930> in<00:01:29.200> insert<00:01:29.770> dot<00:01:29.980> PHP<00:01:30.670> is<00:01:31.390> to<00:01:31.690> write
+
+00:01:31.860 --> 00:01:31.870 
+need to do in insert dot PHP is to write
+
+00:01:31.870 --> 00:01:34.440 
+need to do in insert dot PHP is to write
+the<00:01:32.050> code<00:01:32.290> to<00:01:32.500> insert<00:01:32.950> this<00:01:33.160> new<00:01:33.400> data<00:01:33.700> and<00:01:33.910> for
+
+00:01:34.440 --> 00:01:34.450 
+the code to insert this new data and for
+
+00:01:34.450 --> 00:01:37.950 
+the code to insert this new data and for
+this<00:01:34.600> we<00:01:34.900> will<00:01:35.080> use<00:01:35.140> a<00:01:35.380> prepared<00:01:35.950> statement<00:01:36.960> in
+
+00:01:37.950 --> 00:01:37.960 
+this we will use a prepared statement in
+
+00:01:37.960 --> 00:01:40.320 
+this we will use a prepared statement in
+it<00:01:38.230> I<00:01:38.350> already<00:01:38.560> connect<00:01:39.010> to<00:01:39.130> the<00:01:39.220> database<00:01:39.400> and
+
+00:01:40.320 --> 00:01:40.330 
+it I already connect to the database and
+
+00:01:40.330 --> 00:01:41.970 
+it I already connect to the database and
+I've<00:01:40.540> already<00:01:40.690> assigned<00:01:41.110> the<00:01:41.290> values<00:01:41.710> of<00:01:41.860> the
+
+00:01:41.970 --> 00:01:41.980 
+I've already assigned the values of the
+
+00:01:41.980 --> 00:01:45.960 
+I've already assigned the values of the
+post<00:01:42.250> superglobal<00:01:42.640> to<00:01:43.330> variables<00:01:43.930> as<00:01:44.970> before
+
+00:01:45.960 --> 00:01:45.970 
+post superglobal to variables as before
+
+00:01:45.970 --> 00:01:48.480 
+post superglobal to variables as before
+we'll<00:01:46.270> set<00:01:46.570> up<00:01:46.600> an<00:01:46.840> object<00:01:47.020> called<00:01:47.620> dollar<00:01:47.860> st
+
+00:01:48.480 --> 00:01:48.490 
+we'll set up an object called dollar st
+
+00:01:48.490 --> 00:01:53.850 
+we'll set up an object called dollar st
+MT<00:01:49.170> using<00:01:50.170> a<00:01:50.200> prepared<00:01:50.620> SQL<00:01:51.310> query<00:01:52.590> we<00:01:53.590> saw<00:01:53.800> the
+
+00:01:53.850 --> 00:01:53.860 
+MT using a prepared SQL query we saw the
+
+00:01:53.860 --> 00:01:57.420 
+MT using a prepared SQL query we saw the
+syntax<00:01:54.460> for<00:01:54.640> SQL<00:01:55.330> inserts<00:01:55.960> in<00:01:56.380> the<00:01:56.950> chapter<00:01:57.310> on
+
+00:01:57.420 --> 00:01:57.430 
+syntax for SQL inserts in the chapter on
+
+00:01:57.430 --> 00:02:00.750 
+syntax for SQL inserts in the chapter on
+SQL<00:01:57.790> and<00:01:58.270> it<00:01:58.720> starts<00:01:59.050> out<00:01:59.200> with<00:01:59.410> insert<00:02:00.220> into
+
+00:02:00.750 --> 00:02:00.760 
+SQL and it starts out with insert into
+
+00:02:00.760 --> 00:02:04.800 
+SQL and it starts out with insert into
+and<00:02:01.800> then<00:02:02.800> the<00:02:02.950> table<00:02:03.340> name<00:02:03.550> and<00:02:03.850> then<00:02:04.600> in
+
+00:02:04.800 --> 00:02:04.810 
+and then the table name and then in
+
+00:02:04.810 --> 00:02:07.050 
+and then the table name and then in
+parentheses<00:02:05.530> the<00:02:05.560> list<00:02:06.130> of<00:02:06.340> effective<00:02:06.790> field
+
+00:02:07.050 --> 00:02:07.060 
+parentheses the list of effective field
+
+00:02:07.060 --> 00:02:10.889 
+parentheses the list of effective field
+names<00:02:07.360> separated<00:02:08.349> by<00:02:08.860> commas<00:02:09.340> then<00:02:10.149> values
+
+00:02:10.889 --> 00:02:10.899 
+names separated by commas then values
+
+00:02:10.899 --> 00:02:13.830 
+names separated by commas then values
+and<00:02:11.290> then<00:02:12.010> in<00:02:12.280> parentheses<00:02:12.939> a<00:02:12.969> matching<00:02:13.629> list
+
+00:02:13.830 --> 00:02:13.840 
+and then in parentheses a matching list
+
+00:02:13.840 --> 00:02:14.370 
+and then in parentheses a matching list
+of
+
+00:02:14.370 --> 00:02:14.380 
+of
+
+00:02:14.380 --> 00:02:16.740 
+of
+is<00:02:14.560> in<00:02:14.710> the<00:02:14.800> same<00:02:15.010> order<00:02:15.400> but<00:02:16.360> in<00:02:16.630> the
+
+00:02:16.740 --> 00:02:16.750 
+is in the same order but in the
+
+00:02:16.750 --> 00:02:18.510 
+is in the same order but in the
+preparedstatement<00:02:17.170> the<00:02:17.800> values<00:02:18.190> are
+
+00:02:18.510 --> 00:02:18.520 
+preparedstatement the values are
+
+00:02:18.520 --> 00:02:21.640 
+preparedstatement the values are
+replaced<00:02:18.910> by<00:02:19.000> question<00:02:19.600> marks
+
+00:02:21.640 --> 00:02:21.650 
+replaced by question marks
+
+00:02:21.650 --> 00:02:25.030 
+replaced by question marks
+then<00:02:22.430> we<00:02:22.790> used<00:02:23.060> bind<00:02:23.420> paramus<00:02:24.019> before<00:02:24.439> with
+
+00:02:25.030 --> 00:02:25.040 
+then we used bind paramus before with
+
+00:02:25.040 --> 00:02:28.960 
+then we used bind paramus before with
+three<00:02:25.370> strings<00:02:25.760> indicated<00:02:26.480> by<00:02:26.739> SSS<00:02:27.739> and<00:02:28.069> then
+
+00:02:28.960 --> 00:02:28.970 
+three strings indicated by SSS and then
+
+00:02:28.970 --> 00:02:31.330 
+three strings indicated by SSS and then
+the<00:02:29.120> three<00:02:29.360> variables<00:02:29.780> to<00:02:30.110> insert<00:02:30.560> which<00:02:31.099> are
+
+00:02:31.330 --> 00:02:31.340 
+the three variables to insert which are
+
+00:02:31.340 --> 00:02:33.490 
+the three variables to insert which are
+dollar<00:02:31.730> username<00:02:32.329> dollar<00:02:32.720> password<00:02:33.319> and
+
+00:02:33.490 --> 00:02:33.500 
+dollar username dollar password and
+
+00:02:33.500 --> 00:02:39.849 
+dollar username dollar password and
+dollar<00:02:33.680> secrets<00:02:36.939> we<00:02:37.939> leave<00:02:38.180> out<00:02:38.390> ID<00:02:38.750> both<00:02:39.409> here
+
+00:02:39.849 --> 00:02:39.859 
+dollar secrets we leave out ID both here
+
+00:02:39.859 --> 00:02:42.910 
+dollar secrets we leave out ID both here
+and<00:02:40.040> in<00:02:40.459> the<00:02:40.579> table<00:02:41.049> because<00:02:42.049> the<00:02:42.439> field<00:02:42.709> is
+
+00:02:42.910 --> 00:02:42.920 
+and in the table because the field is
+
+00:02:42.920 --> 00:02:45.099 
+and in the table because the field is
+set<00:02:43.159> to<00:02:43.189> auto<00:02:43.489> increment<00:02:43.879> its<00:02:44.510> value<00:02:44.989> will<00:02:45.079> be
+
+00:02:45.099 --> 00:02:45.109 
+set to auto increment its value will be
+
+00:02:45.109 --> 00:02:48.580 
+set to auto increment its value will be
+automatically<00:02:45.829> set<00:02:46.720> then<00:02:47.720> we<00:02:47.870> execute<00:02:48.290> the
+
+00:02:48.580 --> 00:02:48.590 
+automatically set then we execute the
+
+00:02:48.590 --> 00:02:52.330 
+automatically set then we execute the
+statement<00:02:49.099> and<00:02:49.310> then<00:02:49.909> close<00:02:50.239> it<00:02:50.269> and<00:02:51.189> we<00:02:52.189> can
+
+00:02:52.330 --> 00:02:52.340 
+statement and then close it and we can
+
+00:02:52.340 --> 00:02:53.860 
+statement and then close it and we can
+redirect<00:02:52.640> the<00:02:52.909> browser<00:02:53.030> back<00:02:53.569> to<00:02:53.750> the
+
+00:02:53.860 --> 00:02:53.870 
+redirect the browser back to the
+
+00:02:53.870 --> 00:02:56.830 
+redirect the browser back to the
+originating<00:02:54.319> script<00:02:54.829> display<00:02:55.400> in<00:02:55.459> insert<00:02:55.909> PHP
+
+00:02:56.830 --> 00:02:56.840 
+originating script display in insert PHP
+
+00:02:56.840 --> 00:03:00.819 
+originating script display in insert PHP
+by<00:02:57.560> setting<00:02:58.069> its<00:02:58.220> header<00:02:58.519> location<00:02:59.829> using
+
+00:03:00.819 --> 00:03:00.829 
+by setting its header location using
+
+00:03:00.829 --> 00:03:04.229 
+by setting its header location using
+header<00:03:01.370> and<00:03:01.700> then<00:03:02.150> in<00:03:02.299> parentheses<00:03:03.099> location
+
+00:03:04.229 --> 00:03:04.239 
+header and then in parentheses location
+
+00:03:04.239 --> 00:03:06.399 
+header and then in parentheses location
+colon<00:03:05.239> and<00:03:05.420> then<00:03:05.659> the<00:03:05.720> name<00:03:05.810> of<00:03:06.079> the<00:03:06.139> file<00:03:06.379> that
+
+00:03:06.399 --> 00:03:06.409 
+colon and then the name of the file that
+
+00:03:06.409 --> 00:03:11.339 
+colon and then the name of the file that
+we<00:03:06.739> want<00:03:06.769> to<00:03:06.980> redirect<00:03:07.310> to
+
+00:03:11.339 --> 00:03:11.349 
+
+00:03:11.349 --> 00:03:15.490 
+
+now<00:03:12.349> load<00:03:12.920> up<00:03:13.159> display:none<00:03:13.640> sir<00:03:14.090> PHP<00:03:15.019> in<00:03:15.290> your
+
+00:03:15.490 --> 00:03:15.500 
+now load up display:none sir PHP in your
+
+00:03:15.500 --> 00:03:18.550 
+now load up display:none sir PHP in your
+browser<00:03:16.040> put<00:03:16.939> in<00:03:17.090> some<00:03:17.269> new<00:03:17.450> values<00:03:17.930> for<00:03:17.959> name
+
+00:03:18.550 --> 00:03:18.560 
+browser put in some new values for name
+
+00:03:18.560 --> 00:03:20.679 
+browser put in some new values for name
+password<00:03:19.010> and<00:03:19.280> secrets<00:03:19.970> and<00:03:20.120> press<00:03:20.390> submit
+
+00:03:20.679 --> 00:03:20.689 
+password and secrets and press submit
+
+00:03:20.689 --> 00:03:31.380 
+password and secrets and press submit
+and<00:03:21.110> check<00:03:21.920> lit<00:03:22.189> works<00:03:22.430> as<00:03:22.730> expected<00:03:29.829> and
+
+00:03:31.380 --> 00:03:31.390 
+and check lit works as expected and
+
+00:03:31.390 --> 00:03:37.000 
+and check lit works as expected and
+that's<00:03:32.390> fine<00:03:35.019> that's<00:03:36.019> the<00:03:36.349> basic<00:03:36.799> way<00:03:36.829> to
+
+00:03:37.000 --> 00:03:37.010 
+that's fine that's the basic way to
+
+00:03:37.010 --> 00:03:38.949 
+that's fine that's the basic way to
+insert<00:03:37.549> data<00:03:37.790> using<00:03:38.359> a<00:03:38.390> prepared<00:03:38.750> statement
+
+00:03:38.949 --> 00:03:38.959 
+insert data using a prepared statement
+
+00:03:38.959 --> 00:03:42.849 
+insert data using a prepared statement
+in<00:03:39.439> PHP<00:03:40.040> in<00:03:40.480> the<00:03:41.480> next<00:03:41.810> lesson<00:03:42.230> we'll<00:03:42.470> adapt
+
+00:03:42.849 --> 00:03:42.859 
+in PHP in the next lesson we'll adapt
+
+00:03:42.859 --> 00:03:45.039 
+in PHP in the next lesson we'll adapt
+these<00:03:43.099> two<00:03:43.370> scripts<00:03:43.760> to<00:03:44.239> delete<00:03:44.599> data<00:03:44.900> from
+
+00:03:45.039 --> 00:03:45.049 
+these two scripts to delete data from
+
+00:03:45.049 --> 00:03:47.769 
+these two scripts to delete data from
+the<00:03:45.290> database
+

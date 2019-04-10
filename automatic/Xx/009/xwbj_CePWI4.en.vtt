@@ -1,0 +1,918 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.200 
+
+hey<00:00:00.450> guys<00:00:00.719> this<00:00:01.410> is<00:00:01.469> matt<00:00:01.800> kizuna<00:00:02.370> one<00:00:02.550> with
+
+00:00:03.200 --> 00:00:03.210 
+hey guys this is matt kizuna one with
+
+00:00:03.210 --> 00:00:06.440 
+hey guys this is matt kizuna one with
+our<00:00:03.510> 6th<00:00:04.319> iphone<00:00:05.100> programming<00:00:05.370> tutorial<00:00:06.270> in
+
+00:00:06.440 --> 00:00:06.450 
+our 6th iphone programming tutorial in
+
+00:00:06.450 --> 00:00:08.570 
+our 6th iphone programming tutorial in
+this<00:00:07.290> tutorial<00:00:07.350> I'm<00:00:08.099> going<00:00:08.130> to<00:00:08.309> be<00:00:08.400> showing
+
+00:00:08.570 --> 00:00:08.580 
+this tutorial I'm going to be showing
+
+00:00:08.580 --> 00:00:10.580 
+this tutorial I'm going to be showing
+you<00:00:08.760> how<00:00:08.790> to<00:00:08.940> use<00:00:09.059> sliders<00:00:09.809> and<00:00:10.050> progress
+
+00:00:10.580 --> 00:00:10.590 
+you how to use sliders and progress
+
+00:00:10.590 --> 00:00:14.990 
+you how to use sliders and progress
+indicators<00:00:11.719> so<00:00:13.519> first<00:00:14.519> of<00:00:14.639> all<00:00:14.730> we're<00:00:14.910> going
+
+00:00:14.990 --> 00:00:15.000 
+indicators so first of all we're going
+
+00:00:15.000 --> 00:00:17.029 
+indicators so first of all we're going
+to<00:00:15.059> go<00:00:15.179> to<00:00:15.210> Xcode<00:00:15.839> your<00:00:16.049> file<00:00:16.260> new<00:00:16.470> project<00:00:16.500> and
+
+00:00:17.029 --> 00:00:17.039 
+to go to Xcode your file new project and
+
+00:00:17.039 --> 00:00:18.740 
+to go to Xcode your file new project and
+let's<00:00:17.220> create<00:00:17.430> a<00:00:17.520> view<00:00:17.670> based<00:00:17.910> application<00:00:18.539> I
+
+00:00:18.740 --> 00:00:18.750 
+let's create a view based application I
+
+00:00:18.750 --> 00:00:24.830 
+let's create a view based application I
+applied<00:00:19.529> its<00:00:19.740> sliders<00:00:20.310> and<00:00:21.740> progress<00:00:22.789> and<00:00:23.840> it
+
+00:00:24.830 --> 00:00:24.840 
+applied its sliders and progress and it
+
+00:00:24.840 --> 00:00:27.650 
+applied its sliders and progress and it
+doesn't<00:00:25.140> really<00:00:25.230> matter<00:00:25.880> all<00:00:26.880> right<00:00:27.060> so<00:00:27.359> I'm
+
+00:00:27.650 --> 00:00:27.660 
+doesn't really matter all right so I'm
+
+00:00:27.660 --> 00:00:30.080 
+doesn't really matter all right so I'm
+gonna<00:00:27.960> in<00:00:28.260> start<00:00:28.560> instead<00:00:29.099> of<00:00:29.279> a<00:00:29.429> setting<00:00:29.970> up
+
+00:00:30.080 --> 00:00:30.090 
+gonna in start instead of a setting up
+
+00:00:30.090 --> 00:00:31.669 
+gonna in start instead of a setting up
+our<00:00:30.240> interface<00:00:30.840> first<00:00:31.140> i'm<00:00:31.349> going<00:00:31.470> to<00:00:31.560> write
+
+00:00:31.669 --> 00:00:31.679 
+our interface first i'm going to write
+
+00:00:31.679 --> 00:00:33.080 
+our interface first i'm going to write
+all<00:00:31.830> the<00:00:31.980> code<00:00:32.160> this<00:00:32.340> time<00:00:32.550> then<00:00:32.759> set<00:00:32.940> up<00:00:32.969> the
+
+00:00:33.080 --> 00:00:33.090 
+all the code this time then set up the
+
+00:00:33.090 --> 00:00:35.630 
+all the code this time then set up the
+interface<00:00:33.510> once<00:00:33.770> so<00:00:34.770> i'm<00:00:34.920> going<00:00:35.040> to<00:00:35.160> say<00:00:35.370> in
+
+00:00:35.630 --> 00:00:35.640 
+interface once so i'm going to say in
+
+00:00:35.640 --> 00:00:38.590 
+interface once so i'm going to say in
+our<00:00:36.510> dot<00:00:36.750> each<00:00:36.960> slider<00:00:37.800> progress<00:00:38.309> view
+
+00:00:38.590 --> 00:00:38.600 
+our dot each slider progress view
+
+00:00:38.600 --> 00:00:42.560 
+our dot each slider progress view
+controller<00:00:39.600> dot<00:00:39.840> h<00:00:40.110> um<00:00:41.210> you're<00:00:42.210> going<00:00:42.360> to<00:00:42.450> say
+
+00:00:42.560 --> 00:00:42.570 
+controller dot h um you're going to say
+
+00:00:42.570 --> 00:00:45.290 
+controller dot h um you're going to say
+IV<00:00:42.989> out<00:00:43.110> like<00:00:43.290> you<00:00:43.440> I<00:00:43.469> slider<00:00:43.890> slider<00:00:44.879> one
+
+00:00:45.290 --> 00:00:45.300 
+IV out like you I slider slider one
+
+00:00:45.300 --> 00:00:47.299 
+IV out like you I slider slider one
+we're<00:00:46.079> going<00:00:46.200> to<00:00:46.289> say<00:00:46.440> iboutlet<00:00:46.800> you<00:00:47.280> I
+
+00:00:47.299 --> 00:00:47.309 
+we're going to say iboutlet you I
+
+00:00:47.309 --> 00:00:52.850 
+we're going to say iboutlet you I
+progress<00:00:48.030> vu<00:00:49.460> progress<00:00:50.460> one<00:00:51.320> alright<00:00:52.320> now
+
+00:00:52.850 --> 00:00:52.860 
+progress vu progress one alright now
+
+00:00:52.860 --> 00:00:54.590 
+progress vu progress one alright now
+we're<00:00:53.010> going<00:00:53.039> to<00:00:53.190> make<00:00:53.309> an<00:00:53.460> IV<00:00:53.760> action<00:00:54.210> called
+
+00:00:54.590 --> 00:00:54.600 
+we're going to make an IV action called
+
+00:00:54.600 --> 00:01:00.260 
+we're going to make an IV action called
+slider<00:00:55.140> slid<00:00:55.829> I<00:00:58.430> will<00:00:59.430> just<00:00:59.609> get<00:00:59.760> that<00:00:59.940> set<00:01:00.239> up
+
+00:01:00.260 --> 00:01:00.270 
+slider slid I will just get that set up
+
+00:01:00.270 --> 00:01:05.929 
+slider slid I will just get that set up
+and<00:01:00.800> let's<00:01:02.239> hook<00:01:03.239> up<00:01:03.420> this<00:01:03.629> code<00:01:03.960> in<00:01:04.260> here<00:01:05.220> and
+
+00:01:05.929 --> 00:01:05.939 
+and let's hook up this code in here and
+
+00:01:05.939 --> 00:01:08.260 
+and let's hook up this code in here and
+we're<00:01:06.150> going<00:01:06.270> to<00:01:06.390> see<00:01:06.510> progress<00:01:06.780> one<00:01:07.290> set
+
+00:01:08.260 --> 00:01:08.270 
+we're going to see progress one set
+
+00:01:08.270 --> 00:01:11.390 
+we're going to see progress one set
+progress<00:01:09.560> we're<00:01:10.560> going<00:01:10.680> to<00:01:10.770> send<00:01:10.950> it<00:01:11.040> to<00:01:11.220> the
+
+00:01:11.390 --> 00:01:11.400 
+progress we're going to send it to the
+
+00:01:11.400 --> 00:01:21.440 
+progress we're going to send it to the
+slider<00:01:12.500> one<00:01:13.500> and<00:01:15.439> here<00:01:16.439> we'll<00:01:16.619> say<00:01:17.810> value<00:01:20.450> all
+
+00:01:21.440 --> 00:01:21.450 
+slider one and here we'll say value all
+
+00:01:21.450 --> 00:01:24.469 
+slider one and here we'll say value all
+right<00:01:21.780> in<00:01:22.340> the<00:01:23.340> melter<00:01:23.700> of<00:01:23.820> its<00:01:23.909> value<00:01:24.060> there
+
+00:01:24.469 --> 00:01:24.479 
+right in the melter of its value there
+
+00:01:24.479 --> 00:01:26.630 
+right in the melter of its value there
+I'll<00:01:24.750> to<00:01:25.229> check<00:01:25.439> that<00:01:25.650> all<00:01:26.100> right<00:01:26.250> now<00:01:26.460> we'll
+
+00:01:26.630 --> 00:01:26.640 
+I'll to check that all right now we'll
+
+00:01:26.640 --> 00:01:31.460 
+I'll to check that all right now we'll
+go<00:01:26.820> into<00:01:26.939> the<00:01:27.170> interface<00:01:28.170> builder<00:01:28.409> file<00:01:30.470> and
+
+00:01:31.460 --> 00:01:31.470 
+go into the interface builder file and
+
+00:01:31.470 --> 00:01:35.780 
+go into the interface builder file and
+will<00:01:31.680> drag<00:01:31.920> on<00:01:32.130> a<00:01:32.430> slider<00:01:33.420> and<00:01:34.549> the<00:01:35.549> progress
+
+00:01:35.780 --> 00:01:35.790 
+will drag on a slider and the progress
+
+00:01:35.790 --> 00:01:37.370 
+will drag on a slider and the progress
+if<00:01:36.119> you<00:01:36.240> notice<00:01:36.570> the<00:01:36.720> difference<00:01:37.020> between<00:01:37.140> a
+
+00:01:37.370 --> 00:01:37.380 
+if you notice the difference between a
+
+00:01:37.380 --> 00:01:39.260 
+if you notice the difference between a
+progress<00:01:37.799> view<00:01:38.100> and<00:01:38.220> a<00:01:38.280> progress<00:01:38.670> indicator
+
+00:01:39.260 --> 00:01:39.270 
+progress view and a progress indicator
+
+00:01:39.270 --> 00:01:41.210 
+progress view and a progress indicator
+this<00:01:39.630> is<00:01:39.750> a<00:01:39.780> progress<00:01:40.140> indicator<00:01:40.619> to<00:01:40.890> spinny
+
+00:01:41.210 --> 00:01:41.220 
+this is a progress indicator to spinny
+
+00:01:41.220 --> 00:01:44.420 
+this is a progress indicator to spinny
+thing<00:01:42.049> progress<00:01:43.049> views<00:01:43.320> this<00:01:43.530> loading<00:01:43.920> bar<00:01:44.100> so
+
+00:01:44.420 --> 00:01:44.430 
+thing progress views this loading bar so
+
+00:01:44.430 --> 00:01:46.819 
+thing progress views this loading bar so
+we're<00:01:45.360> going<00:01:45.689> to<00:01:45.810> have<00:01:45.960> one<00:01:46.409> of<00:01:46.439> these<00:01:46.560> I'm
+
+00:01:46.819 --> 00:01:46.829 
+we're going to have one of these I'm
+
+00:01:46.829 --> 00:01:49.819 
+we're going to have one of these I'm
+going<00:01:47.009> to<00:01:47.070> make<00:01:47.189> it<00:01:47.310> slightly<00:01:47.520> wider<00:01:47.939> I<00:01:48.829> think
+
+00:01:49.819 --> 00:01:49.829 
+going to make it slightly wider I think
+
+00:01:49.829 --> 00:01:53.840 
+going to make it slightly wider I think
+and<00:01:50.040> you'll<00:01:50.759> see<00:01:50.970> why<00:01:51.119> in<00:01:51.180> a<00:01:51.329> minute<00:01:51.450> and<00:01:52.850> i'll
+
+00:01:53.840 --> 00:01:53.850 
+and you'll see why in a minute and i'll
+
+00:01:53.850 --> 00:01:56.709 
+and you'll see why in a minute and i'll
+hook<00:01:54.360> these<00:01:54.600> up<00:01:54.659> this<00:01:55.020> will<00:01:55.200> be<00:01:55.290> slider<00:01:55.590> one
+
+00:01:56.709 --> 00:01:56.719 
+hook these up this will be slider one
+
+00:01:56.719 --> 00:02:01.280 
+hook these up this will be slider one
+and<00:01:58.909> this<00:01:59.909> will<00:02:00.119> be<00:02:00.240> progress<00:02:00.479> within<00:02:00.869> it<00:02:01.079> at
+
+00:02:01.280 --> 00:02:01.290 
+and this will be progress within it at
+
+00:02:01.290 --> 00:02:02.749 
+and this will be progress within it at
+this<00:02:01.530> point<00:02:01.799> if<00:02:02.070> you<00:02:02.189> don't<00:02:02.219> know<00:02:02.460> how<00:02:02.549> to<00:02:02.579> hook
+
+00:02:02.749 --> 00:02:02.759 
+this point if you don't know how to hook
+
+00:02:02.759 --> 00:02:04.520 
+this point if you don't know how to hook
+these<00:02:02.969> up<00:02:03.030> you<00:02:03.390> should<00:02:03.479> watch<00:02:03.810> our<00:02:04.079> previous
+
+00:02:04.520 --> 00:02:04.530 
+these up you should watch our previous
+
+00:02:04.530 --> 00:02:08.150 
+these up you should watch our previous
+tutorials<00:02:05.369> and<00:02:05.520> now<00:02:05.670> I'll<00:02:05.850> Center<00:02:06.210> these<00:02:07.160> into
+
+00:02:08.150 --> 00:02:08.160 
+tutorials and now I'll Center these into
+
+00:02:08.160 --> 00:02:11.370 
+tutorials and now I'll Center these into
+the<00:02:08.310> center<00:02:09.239> of<00:02:09.270> the<00:02:09.539> screen
+
+00:02:11.370 --> 00:02:11.380 
+the center of the screen
+
+00:02:11.380 --> 00:02:13.830 
+the center of the screen
+so<00:02:11.650> now<00:02:11.830> oh<00:02:12.100> and<00:02:12.550> I<00:02:12.730> forgot<00:02:12.910> to<00:02:13.270> hook<00:02:13.450> up<00:02:13.660> our
+
+00:02:13.830 --> 00:02:13.840 
+so now oh and I forgot to hook up our
+
+00:02:13.840 --> 00:02:17.930 
+so now oh and I forgot to hook up our
+action<00:02:14.530> sorry<00:02:15.130> guys<00:02:15.450> let's<00:02:16.450> go<00:02:16.660> back<00:02:16.900> here<00:02:16.930> and
+
+00:02:17.930 --> 00:02:17.940 
+action sorry guys let's go back here and
+
+00:02:17.940 --> 00:02:19.830 
+action sorry guys let's go back here and
+by<00:02:18.940> the<00:02:19.000> way<00:02:19.150> you're<00:02:19.300> going<00:02:19.420> to<00:02:19.450> make<00:02:19.600> sure
+
+00:02:19.830 --> 00:02:19.840 
+by the way you're going to make sure
+
+00:02:19.840 --> 00:02:22.830 
+by the way you're going to make sure
+continuous<00:02:20.590> is<00:02:20.740> checked<00:02:21.040> we're<00:02:21.730> gonna<00:02:21.880> click
+
+00:02:22.830 --> 00:02:22.840 
+continuous is checked we're gonna click
+
+00:02:22.840 --> 00:02:28.260 
+continuous is checked we're gonna click
+from<00:02:23.020> here<00:02:23.290> hook<00:02:24.220> up<00:02:24.370> or<00:02:24.550> action<00:02:25.030> and<00:02:27.270> this
+
+00:02:28.260 --> 00:02:28.270 
+from here hook up or action and this
+
+00:02:28.270 --> 00:02:32.390 
+from here hook up or action and this
+doesn't<00:02:28.600> it<00:02:28.990> won't<00:02:29.620> do<00:02:29.830> much<00:02:30.060> but<00:02:31.060> we'll<00:02:31.300> see
+
+00:02:32.390 --> 00:02:32.400 
+doesn't it won't do much but we'll see
+
+00:02:32.400 --> 00:02:37.050 
+doesn't it won't do much but we'll see
+when<00:02:33.400> it<00:02:33.700> comes<00:02:34.630> up<00:02:35.490> then<00:02:36.490> we<00:02:36.640> can<00:02:36.790> go<00:02:36.940> ahead
+
+00:02:37.050 --> 00:02:37.060 
+when it comes up then we can go ahead
+
+00:02:37.060 --> 00:02:41.940 
+when it comes up then we can go ahead
+and<00:02:37.360> slide<00:02:38.160> now<00:02:39.160> this<00:02:40.120> is<00:02:40.180> great<00:02:40.740> because<00:02:41.740> you
+
+00:02:41.940 --> 00:02:41.950 
+and slide now this is great because you
+
+00:02:41.950 --> 00:02:43.530 
+and slide now this is great because you
+know<00:02:42.160> it<00:02:42.310> looks<00:02:42.340> pretty<00:02:42.610> fluid<00:02:43.150> it's<00:02:43.300> pretty
+
+00:02:43.530 --> 00:02:43.540 
+know it looks pretty fluid it's pretty
+
+00:02:43.540 --> 00:02:47.940 
+know it looks pretty fluid it's pretty
+awesome<00:02:43.750> I<00:02:46.170> think<00:02:47.170> I<00:02:47.260> did<00:02:47.410> this<00:02:47.530> in<00:02:47.710> a<00:02:47.770> Mac
+
+00:02:47.940 --> 00:02:47.950 
+awesome I think I did this in a Mac
+
+00:02:47.950 --> 00:02:50.880 
+awesome I think I did this in a Mac
+programming<00:02:48.490> tutorial<00:02:48.940> as<00:02:49.000> well<00:02:49.320> anyway<00:02:50.320> so
+
+00:02:50.880 --> 00:02:50.890 
+programming tutorial as well anyway so
+
+00:02:50.890 --> 00:02:52.500 
+programming tutorial as well anyway so
+that's<00:02:51.040> basically<00:02:51.400> the<00:02:51.820> basics<00:02:52.000> that
+
+00:02:52.500 --> 00:02:52.510 
+that's basically the basics that
+
+00:02:52.510 --> 00:02:54.660 
+that's basically the basics that
+demonstrates<00:02:53.200> like<00:02:53.770> killing<00:02:54.160> two<00:02:54.190> birds<00:02:54.340> with
+
+00:02:54.660 --> 00:02:54.670 
+demonstrates like killing two birds with
+
+00:02:54.670 --> 00:02:57.210 
+demonstrates like killing two birds with
+one<00:02:54.760> stone<00:02:54.940> it<00:02:55.450> demonstrate<00:02:55.930> this<00:02:56.110> a<00:02:56.350> slider
+
+00:02:57.210 --> 00:02:57.220 
+one stone it demonstrate this a slider
+
+00:02:57.220 --> 00:03:00.720 
+one stone it demonstrate this a slider
+and<00:02:57.930> demonstrates<00:02:58.930> this<00:02:59.050> progress<00:02:59.730> indicator
+
+00:03:00.720 --> 00:03:00.730 
+and demonstrates this progress indicator
+
+00:03:00.730 --> 00:03:02.310 
+and demonstrates this progress indicator
+so<00:03:00.970> if<00:03:01.060> we<00:03:01.180> look<00:03:01.210> in<00:03:01.450> the<00:03:01.570> code<00:03:01.750> once<00:03:02.020> more
+
+00:03:02.310 --> 00:03:02.320 
+so if we look in the code once more
+
+00:03:02.320 --> 00:03:05.040 
+so if we look in the code once more
+you're<00:03:02.980> seeing<00:03:03.160> progress<00:03:03.430> set<00:03:03.940> progress<00:03:04.450> here
+
+00:03:05.040 --> 00:03:05.050 
+you're seeing progress set progress here
+
+00:03:05.050 --> 00:03:06.330 
+you're seeing progress set progress here
+you're<00:03:05.200> going<00:03:05.320> to<00:03:05.410> want<00:03:05.530> to<00:03:05.620> give<00:03:05.770> it<00:03:05.890> a<00:03:05.980> float
+
+00:03:06.330 --> 00:03:06.340 
+you're going to want to give it a float
+
+00:03:06.340 --> 00:03:08.550 
+you're going to want to give it a float
+which<00:03:07.150> is<00:03:07.330> a<00:03:07.360> floating<00:03:07.780> point<00:03:07.960> number<00:03:08.110> that's
+
+00:03:08.550 --> 00:03:08.560 
+which is a floating point number that's
+
+00:03:08.560 --> 00:03:11.090 
+which is a floating point number that's
+like<00:03:08.710> an<00:03:08.830> int<00:03:09.070> except<00:03:09.520> it's<00:03:09.670> goat<00:03:10.000> instead<00:03:10.390> and
+
+00:03:11.090 --> 00:03:11.100 
+like an int except it's goat instead and
+
+00:03:11.100 --> 00:03:13.890 
+like an int except it's goat instead and
+to<00:03:12.100> do<00:03:12.250> that<00:03:12.430> we<00:03:12.640> get<00:03:12.820> the<00:03:12.970> value<00:03:13.000> of<00:03:13.600> slider
+
+00:03:13.890 --> 00:03:13.900 
+to do that we get the value of slider
+
+00:03:13.900 --> 00:03:16.050 
+to do that we get the value of slider
+one<00:03:14.200> which<00:03:14.620> returns<00:03:15.040> a<00:03:15.250> float<00:03:15.490> they'd<00:03:15.970> it
+
+00:03:16.050 --> 00:03:16.060 
+one which returns a float they'd it
+
+00:03:16.060 --> 00:03:18.810 
+one which returns a float they'd it
+makes<00:03:16.240> sense<00:03:16.390> we<00:03:16.600> can<00:03:16.750> make<00:03:16.900> this<00:03:17.550> zero<00:03:18.550> point
+
+00:03:18.810 --> 00:03:18.820 
+makes sense we can make this zero point
+
+00:03:18.820 --> 00:03:22.620 
+makes sense we can make this zero point
+two<00:03:18.880> or<00:03:19.450> one<00:03:19.900> whatever<00:03:20.560> and<00:03:21.270> it'll<00:03:22.270> just<00:03:22.300> set
+
+00:03:22.620 --> 00:03:22.630 
+two or one whatever and it'll just set
+
+00:03:22.630 --> 00:03:24.600 
+two or one whatever and it'll just set
+the<00:03:22.720> progress<00:03:23.110> to<00:03:23.260> 0.1<00:03:23.830> whatever<00:03:24.130> we<00:03:24.340> slide
+
+00:03:24.600 --> 00:03:24.610 
+the progress to 0.1 whatever we slide
+
+00:03:24.610 --> 00:03:30.900 
+the progress to 0.1 whatever we slide
+this<00:03:24.850> we<00:03:25.630> can<00:03:25.870> say<00:03:28.020> slider<00:03:29.020> one<00:03:29.380> set<00:03:30.040> and<00:03:30.280> this
+
+00:03:30.900 --> 00:03:30.910 
+this we can say slider one set and this
+
+00:03:30.910 --> 00:03:35.550 
+this we can say slider one set and this
+is<00:03:31.090> sort<00:03:31.240> of<00:03:31.360> useless<00:03:31.720> because<00:03:32.250> yes<00:03:33.330> 0.4<00:03:34.560> so
+
+00:03:35.550 --> 00:03:35.560 
+is sort of useless because yes 0.4 so
+
+00:03:35.560 --> 00:03:38.400 
+is sort of useless because yes 0.4 so
+this<00:03:35.770> will<00:03:35.950> be<00:03:36.100> kind<00:03:36.400> of<00:03:36.520> weird<00:03:36.730> as<00:03:37.140> you'll<00:03:38.140> see
+
+00:03:38.400 --> 00:03:38.410 
+this will be kind of weird as you'll see
+
+00:03:38.410 --> 00:03:45.660 
+this will be kind of weird as you'll see
+because<00:03:42.330> it's<00:03:43.330> going<00:03:43.570> to<00:03:43.630> not<00:03:43.840> slide<00:03:44.490> so<00:03:45.490> we're
+
+00:03:45.660 --> 00:03:45.670 
+because it's going to not slide so we're
+
+00:03:45.670 --> 00:03:47.580 
+because it's going to not slide so we're
+going<00:03:45.850> to<00:03:46.060> be<00:03:46.180> able<00:03:46.270> to<00:03:46.450> slide<00:03:46.720> this<00:03:47.170> slider
+
+00:03:47.580 --> 00:03:47.590 
+going to be able to slide this slider
+
+00:03:47.590 --> 00:03:49.650 
+going to be able to slide this slider
+and<00:03:48.370> it's<00:03:48.459> not<00:03:48.730> going<00:03:48.910> to<00:03:49.000> change<00:03:49.060> us<00:03:49.480> the
+
+00:03:49.650 --> 00:03:49.660 
+and it's not going to change us the
+
+00:03:49.660 --> 00:03:51.060 
+and it's not going to change us the
+thing<00:03:49.840> under<00:03:49.990> it's<00:03:50.260> going<00:03:50.440> to<00:03:50.500> change<00:03:50.530> it's
+
+00:03:51.060 --> 00:03:51.070 
+thing under it's going to change it's
+
+00:03:51.070 --> 00:03:56.310 
+thing under it's going to change it's
+quite<00:03:51.280> weird<00:03:51.490> it<00:03:52.270> is<00:03:53.670> so<00:03:54.670> yeah<00:03:54.959> so<00:03:55.959> that's<00:03:56.170> like
+
+00:03:56.310 --> 00:03:56.320 
+quite weird it is so yeah so that's like
+
+00:03:56.320 --> 00:03:58.560 
+quite weird it is so yeah so that's like
+a<00:03:56.380> demonstration<00:03:56.920> of<00:03:57.130> how<00:03:57.250> to<00:03:57.310> do<00:03:57.520> stuff<00:03:57.580> so
+
+00:03:58.560 --> 00:03:58.570 
+a demonstration of how to do stuff so
+
+00:03:58.570 --> 00:04:00.030 
+a demonstration of how to do stuff so
+now<00:03:58.690> you<00:03:58.750> might<00:03:58.990> be<00:03:59.140> wondering<00:03:59.170> well<00:03:59.709> how<00:03:59.860> do<00:03:59.920> I
+
+00:04:00.030 --> 00:04:00.040 
+now you might be wondering well how do I
+
+00:04:00.040 --> 00:04:02.520 
+now you might be wondering well how do I
+make<00:04:00.220> a<00:04:00.280> progress<00:04:00.640> progress<00:04:01.600> bar<00:04:02.020> you<00:04:02.470> know
+
+00:04:02.520 --> 00:04:02.530 
+make a progress progress bar you know
+
+00:04:02.530 --> 00:04:05.190 
+make a progress progress bar you know
+measure<00:04:02.830> the<00:04:03.130> the<00:04:04.030> loading<00:04:04.480> progress<00:04:04.959> of<00:04:05.140> a
+
+00:04:05.190 --> 00:04:05.200 
+measure the the loading progress of a
+
+00:04:05.200 --> 00:04:07.500 
+measure the the loading progress of a
+web<00:04:05.380> page<00:04:05.620> or<00:04:05.860> whatever<00:04:05.980> well<00:04:06.910> that's
+
+00:04:07.500 --> 00:04:07.510 
+web page or whatever well that's
+
+00:04:07.510 --> 00:04:09.510 
+web page or whatever well that's
+different<00:04:07.750> all<00:04:08.320> you<00:04:08.590> do<00:04:08.740> is<00:04:08.770> you<00:04:09.130> set<00:04:09.400> the
+
+00:04:09.510 --> 00:04:09.520 
+different all you do is you set the
+
+00:04:09.520 --> 00:04:12.390 
+different all you do is you set the
+progress<00:04:09.970> of<00:04:10.150> it<00:04:10.360> too<00:04:10.600> however<00:04:11.410> prestamo<00:04:12.070> more
+
+00:04:12.390 --> 00:04:12.400 
+progress of it too however prestamo more
+
+00:04:12.400 --> 00:04:14.490 
+progress of it too however prestamo more
+much<00:04:12.520> percent<00:04:12.970> that<00:04:13.150> process<00:04:13.780> is<00:04:13.810> complete
+
+00:04:14.490 --> 00:04:14.500 
+much percent that process is complete
+
+00:04:14.500 --> 00:04:16.440 
+much percent that process is complete
+and<00:04:14.709> you<00:04:15.190> have<00:04:15.310> to<00:04:15.459> do<00:04:15.610> that<00:04:15.760> figure<00:04:16.270> that<00:04:16.420> out
+
+00:04:16.440 --> 00:04:16.450 
+and you have to do that figure that out
+
+00:04:16.450 --> 00:04:19.560 
+and you have to do that figure that out
+yourself<00:04:17.850> so<00:04:18.850> maybe<00:04:19.000> I'll<00:04:19.209> go<00:04:19.330> into<00:04:19.479> that
+
+00:04:19.560 --> 00:04:19.570 
+yourself so maybe I'll go into that
+
+00:04:19.570 --> 00:04:21.420 
+yourself so maybe I'll go into that
+later<00:04:19.900> when<00:04:20.169> I<00:04:20.200> start<00:04:20.560> doing<00:04:20.830> network<00:04:21.130> stuff
+
+00:04:21.420 --> 00:04:21.430 
+later when I start doing network stuff
+
+00:04:21.430 --> 00:04:24.600 
+later when I start doing network stuff
+and<00:04:21.700> stuff<00:04:21.970> with<00:04:22.180> servers<00:04:22.600> um
+
+00:04:24.600 --> 00:04:24.610 
+and stuff with servers um
+
+00:04:24.610 --> 00:04:27.719 
+and stuff with servers um
+so<00:04:25.240> now<00:04:25.389> we're<00:04:25.990> going<00:04:26.139> to<00:04:26.199> make<00:04:26.349> it<00:04:26.560> i'll<00:04:27.340> make
+
+00:04:27.719 --> 00:04:27.729 
+so now we're going to make it i'll make
+
+00:04:27.729 --> 00:04:30.420 
+so now we're going to make it i'll make
+a<00:04:27.759> little<00:04:28.150> sort<00:04:28.960> of<00:04:29.080> i<00:04:29.319> don't<00:04:29.860> know<00:04:30.159> if<00:04:30.310> i<00:04:30.400> can
+
+00:04:30.420 --> 00:04:30.430 
+a little sort of i don't know if i can
+
+00:04:30.430 --> 00:04:33.600 
+a little sort of i don't know if i can
+call<00:04:30.729> a<00:04:30.759> game<00:04:31.060> but<00:04:31.180> i'll<00:04:31.330> say<00:04:31.740> value<00:04:32.740> and<00:04:33.370> i'll
+
+00:04:33.600 --> 00:04:33.610 
+call a game but i'll say value and i'll
+
+00:04:33.610 --> 00:04:40.260 
+call a game but i'll say value and i'll
+make<00:04:34.169> another<00:04:36.120> increase<00:04:37.120> value<00:04:39.120> and<00:04:40.120> i'll
+
+00:04:40.260 --> 00:04:40.270 
+make another increase value and i'll
+
+00:04:40.270 --> 00:04:42.330 
+make another increase value and i'll
+just<00:04:40.419> make<00:04:40.629> this<00:04:40.840> say<00:04:41.169> you<00:04:41.860> know<00:04:41.919> i<00:04:41.979> don't<00:04:42.129> even
+
+00:04:42.330 --> 00:04:42.340 
+just make this say you know i don't even
+
+00:04:42.340 --> 00:04:44.580 
+just make this say you know i don't even
+need<00:04:42.550> this<00:04:42.789> so<00:04:43.750> what<00:04:43.930> we're<00:04:44.050> gonna<00:04:44.139> do<00:04:44.409> now<00:04:44.560> is
+
+00:04:44.580 --> 00:04:44.590 
+need this so what we're gonna do now is
+
+00:04:44.590 --> 00:04:47.040 
+need this so what we're gonna do now is
+we're<00:04:44.949> going<00:04:45.069> to<00:04:45.159> make<00:04:45.280> a<00:04:45.340> button<00:04:45.789> that<00:04:46.050> moves
+
+00:04:47.040 --> 00:04:47.050 
+we're going to make a button that moves
+
+00:04:47.050 --> 00:04:49.770 
+we're going to make a button that moves
+up<00:04:47.289> both<00:04:47.500> of<00:04:47.680> these<00:04:47.830> values<00:04:48.389> so<00:04:49.389> it's<00:04:49.539> just
+
+00:04:49.770 --> 00:04:49.780 
+up both of these values so it's just
+
+00:04:49.780 --> 00:04:57.990 
+up both of these values so it's just
+making<00:04:50.169> button<00:04:50.530> that<00:04:50.650> says<00:04:51.719> increase<00:04:57.000> let's
+
+00:04:57.990 --> 00:04:58.000 
+making button that says increase let's
+
+00:04:58.000 --> 00:05:01.050 
+making button that says increase let's
+just<00:04:58.090> drag<00:04:58.389> it<00:04:58.449> here<00:04:58.779> and<00:04:59.460> now<00:05:00.460> in<00:05:00.729> the<00:05:00.759> code
+
+00:05:01.050 --> 00:05:01.060 
+just drag it here and now in the code
+
+00:05:01.060 --> 00:05:04.499 
+just drag it here and now in the code
+for<00:05:01.270> this<00:05:01.650> we're<00:05:02.650> gonna<00:05:02.740> be<00:05:03.389> increasing<00:05:04.389> the
+
+00:05:04.499 --> 00:05:04.509 
+for this we're gonna be increasing the
+
+00:05:04.509 --> 00:05:07.230 
+for this we're gonna be increasing the
+value<00:05:04.659> of<00:05:05.550> progress<00:05:06.550> one<00:05:06.789> so<00:05:06.939> we're<00:05:07.060> going<00:05:07.150> to
+
+00:05:07.230 --> 00:05:07.240 
+value of progress one so we're going to
+
+00:05:07.240 --> 00:05:12.179 
+value of progress one so we're going to
+say<00:05:07.389> progress<00:05:07.810> one<00:05:09.689> set<00:05:10.689> progress<00:05:11.259> progress
+
+00:05:12.179 --> 00:05:12.189 
+say progress one set progress progress
+
+00:05:12.189 --> 00:05:16.080 
+say progress one set progress progress
+one<00:05:12.610> progress<00:05:13.409> plus<00:05:14.409> one<00:05:14.680> and<00:05:14.889> i<00:05:15.789> know<00:05:15.849> there
+
+00:05:16.080 --> 00:05:16.090 
+one progress plus one and i know there
+
+00:05:16.090 --> 00:05:17.580 
+one progress plus one and i know there
+are<00:05:16.150> a<00:05:16.180> lot<00:05:16.270> of<00:05:16.300> ones<00:05:16.599> and<00:05:16.779> progress<00:05:17.199> is<00:05:17.409> in
+
+00:05:17.580 --> 00:05:17.590 
+are a lot of ones and progress is in
+
+00:05:17.590 --> 00:05:20.790 
+are a lot of ones and progress is in
+that<00:05:17.969> that's<00:05:18.969> pretty<00:05:19.150> funny<00:05:19.419> and<00:05:19.689> we're<00:05:20.650> going
+
+00:05:20.790 --> 00:05:20.800 
+that that's pretty funny and we're going
+
+00:05:20.800 --> 00:05:24.149 
+that that's pretty funny and we're going
+to<00:05:20.830> say<00:05:20.979> slider<00:05:21.250> one<00:05:21.490> set<00:05:21.939> value<00:05:22.689> slider<00:05:23.650> one
+
+00:05:24.149 --> 00:05:24.159 
+to say slider one set value slider one
+
+00:05:24.159 --> 00:05:30.629 
+to say slider one set value slider one
+value<00:05:25.259> plus<00:05:26.259> one<00:05:26.500> and<00:05:27.120> yeah<00:05:28.379> so<00:05:29.379> now<00:05:29.560> when<00:05:30.520> we
+
+00:05:30.629 --> 00:05:30.639 
+value plus one and yeah so now when we
+
+00:05:30.639 --> 00:05:33.450 
+value plus one and yeah so now when we
+click<00:05:30.669> this<00:05:31.000> button<00:05:31.319> both<00:05:32.319> the<00:05:32.770> slider<00:05:33.099> and
+
+00:05:33.450 --> 00:05:33.460 
+click this button both the slider and
+
+00:05:33.460 --> 00:05:35.670 
+click this button both the slider and
+the<00:05:33.610> progress<00:05:33.849> bar<00:05:34.240> i'm<00:05:34.960> going<00:05:35.259> to<00:05:35.409> increase
+
+00:05:35.670 --> 00:05:35.680 
+the progress bar i'm going to increase
+
+00:05:35.680 --> 00:05:37.760 
+the progress bar i'm going to increase
+so<00:05:35.830> let's<00:05:35.949> drag<00:05:36.129> them<00:05:36.310> to<00:05:36.339> the<00:05:36.460> beginning<00:05:37.210> and
+
+00:05:37.760 --> 00:05:37.770 
+so let's drag them to the beginning and
+
+00:05:37.770 --> 00:05:41.159 
+so let's drag them to the beginning and
+they<00:05:38.770> add<00:05:38.919> one<00:05:39.310> and<00:05:39.520> they<00:05:40.210> go<00:05:40.389> to<00:05:40.479> the<00:05:40.599> top<00:05:40.810> no
+
+00:05:41.159 --> 00:05:41.169 
+they add one and they go to the top no
+
+00:05:41.169 --> 00:05:43.890 
+they add one and they go to the top no
+matter<00:05:41.349> what<00:05:41.620> because<00:05:42.460> they're<00:05:42.909> being<00:05:43.419> added
+
+00:05:43.890 --> 00:05:43.900 
+matter what because they're being added
+
+00:05:43.900 --> 00:05:52.559 
+matter what because they're being added
+to<00:05:44.020> one<00:05:44.229> so<00:05:44.979> now<00:05:45.099> let's<00:05:45.339> make<00:05:45.490> it<00:05:45.550> add<00:05:46.620> 0.1<00:05:51.569> if
+
+00:05:52.559 --> 00:05:52.569 
+to one so now let's make it add 0.1 if
+
+00:05:52.569 --> 00:05:54.809 
+to one so now let's make it add 0.1 if
+we<00:05:52.900> do<00:05:53.050> this<00:05:53.259> now<00:05:53.500> it'll<00:05:53.800> take<00:05:54.039> us<00:05:54.189> 10<00:05:54.430> button
+
+00:05:54.809 --> 00:05:54.819 
+we do this now it'll take us 10 button
+
+00:05:54.819 --> 00:05:56.700 
+we do this now it'll take us 10 button
+presses<00:05:55.270> to<00:05:55.419> get<00:05:55.569> there<00:05:55.719> two<00:05:55.839> one<00:05:56.080> two<00:05:56.349> three
+
+00:05:56.700 --> 00:05:56.710 
+presses to get there two one two three
+
+00:05:56.710 --> 00:06:00.390 
+presses to get there two one two three
+four<00:05:56.979> five<00:05:57.009> six<00:05:57.310> seven<00:05:57.849> eight<00:05:58.150> nine<00:05:58.330> ten<00:05:59.400> got
+
+00:06:00.390 --> 00:06:00.400 
+four five six seven eight nine ten got
+
+00:06:00.400 --> 00:06:03.360 
+four five six seven eight nine ten got
+that<00:06:00.639> and<00:06:01.110> we<00:06:02.110> can<00:06:02.319> make<00:06:02.439> the<00:06:02.620> same<00:06:02.860> the<00:06:03.339> same
+
+00:06:03.360 --> 00:06:03.370 
+that and we can make the same the same
+
+00:06:03.370 --> 00:06:06.149 
+that and we can make the same the same
+method<00:06:04.029> where<00:06:04.210> we'd<00:06:04.419> subtract<00:06:04.900> one<00:06:05.199> to<00:06:05.860> make
+
+00:06:06.149 --> 00:06:06.159 
+method where we'd subtract one to make
+
+00:06:06.159 --> 00:06:09.480 
+method where we'd subtract one to make
+them<00:06:06.339> move<00:06:06.490> back<00:06:06.789> one<00:06:07.680> so<00:06:08.680> this<00:06:08.979> is<00:06:09.159> just<00:06:09.310> a
+
+00:06:09.480 --> 00:06:09.490 
+them move back one so this is just a
+
+00:06:09.490 --> 00:06:11.550 
+them move back one so this is just a
+simple<00:06:09.819> demo<00:06:10.180> to<00:06:10.360> demonstrate<00:06:10.960> how<00:06:11.199> progress
+
+00:06:11.550 --> 00:06:11.560 
+simple demo to demonstrate how progress
+
+00:06:11.560 --> 00:06:15.300 
+simple demo to demonstrate how progress
+bars<00:06:12.039> and<00:06:12.339> sliders<00:06:12.819> work<00:06:13.259> i<00:06:14.259> know<00:06:14.830> i<00:06:14.949> went<00:06:15.189> a
+
+00:06:15.300 --> 00:06:15.310 
+bars and sliders work i know i went a
+
+00:06:15.310 --> 00:06:17.369 
+bars and sliders work i know i went a
+little<00:06:15.490> fast<00:06:15.789> in<00:06:16.150> this<00:06:16.270> video<00:06:16.599> so<00:06:16.960> if<00:06:17.139> you're
+
+00:06:17.369 --> 00:06:17.379 
+little fast in this video so if you're
+
+00:06:17.379 --> 00:06:22.559 
+little fast in this video so if you're
+having<00:06:17.589> trouble<00:06:19.169> understanding<00:06:20.169> any<00:06:21.009> of<00:06:21.610> this
+
+00:06:22.559 --> 00:06:22.569 
+having trouble understanding any of this
+
+00:06:22.569 --> 00:06:24.089 
+having trouble understanding any of this
+leave<00:06:23.020> your<00:06:23.139> comments<00:06:23.589> below<00:06:23.620> and<00:06:23.800> i'll
+
+00:06:24.089 --> 00:06:24.099 
+leave your comments below and i'll
+
+00:06:24.099 --> 00:06:26.339 
+leave your comments below and i'll
+explain<00:06:24.250> it<00:06:24.669> better<00:06:24.789> but<00:06:25.599> in<00:06:25.810> my<00:06:25.839> first<00:06:26.199> video
+
+00:06:26.339 --> 00:06:26.349 
+explain it better but in my first video
+
+00:06:26.349 --> 00:06:28.679 
+explain it better but in my first video
+i<00:06:26.529> described<00:06:27.129> how<00:06:27.339> my<00:06:27.520> strategy<00:06:28.000> was<00:06:28.180> not<00:06:28.449> to
+
+00:06:28.679 --> 00:06:28.689 
+i described how my strategy was not to
+
+00:06:28.689 --> 00:06:30.570 
+i described how my strategy was not to
+explain<00:06:29.229> things<00:06:29.439> so<00:06:29.680> much<00:06:29.800> and<00:06:30.039> you'll<00:06:30.189> sort
+
+00:06:30.570 --> 00:06:30.580 
+explain things so much and you'll sort
+
+00:06:30.580 --> 00:06:34.649 
+explain things so much and you'll sort
+of<00:06:30.699> figure<00:06:31.089> them<00:06:31.240> out<00:06:31.360> as<00:06:31.569> you<00:06:32.169> go<00:06:32.199> along<00:06:33.659> so
+
+00:06:34.649 --> 00:06:34.659 
+of figure them out as you go along so
+
+00:06:34.659 --> 00:06:37.620 
+of figure them out as you go along so
+anyway<00:06:35.169> yeah<00:06:35.909> also<00:06:36.909> i'm<00:06:36.969> saying<00:06:37.209> away<00:06:37.360> from<00:06:37.539> my
+
+00:06:37.620 --> 00:06:37.630 
+anyway yeah also i'm saying away from my
+
+00:06:37.630 --> 00:06:38.430 
+anyway yeah also i'm saying away from my
+microphones
+
+00:06:38.430 --> 00:06:38.440 
+microphones
+
+00:06:38.440 --> 00:06:40.020 
+microphones
+if<00:06:38.710> it<00:06:38.920> was<00:06:39.040> kind<00:06:39.220> of<00:06:39.310> hard<00:06:39.490> to<00:06:39.580> hear<00:06:39.700> in<00:06:39.910> this
+
+00:06:40.020 --> 00:06:40.030 
+if it was kind of hard to hear in this
+
+00:06:40.030 --> 00:06:44.160 
+if it was kind of hard to hear in this
+video<00:06:40.330> I<00:06:40.690> apologize<00:06:41.350> for<00:06:41.380> that<00:06:42.390> and<00:06:43.390> anyway
+
+00:06:44.160 --> 00:06:44.170 
+video I apologize for that and anyway
+
+00:06:44.170 --> 00:06:45.720 
+video I apologize for that and anyway
+thanks<00:06:44.740> for<00:06:44.800> watching<00:06:45.130> back<00:06:45.280> his<00:06:45.490> own<00:06:45.640> on
+
+00:06:45.720 --> 00:06:45.730 
+thanks for watching back his own on
+
+00:06:45.730 --> 00:06:49.260 
+thanks for watching back his own on
+subscribe<00:06:46.450> and<00:06:46.720> you<00:06:46.810> back
+

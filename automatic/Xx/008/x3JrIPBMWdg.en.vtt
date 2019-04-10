@@ -1,0 +1,708 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.829 --> 00:00:04.490 
+
+okay<00:00:01.829> this<00:00:02.040> is<00:00:02.220> part<00:00:02.490> 9<00:00:02.700> of<00:00:02.939> my<00:00:03.149> blender<00:00:04.080> python
+
+00:00:04.490 --> 00:00:04.500 
+okay this is part 9 of my blender python
+
+00:00:04.500 --> 00:00:06.710 
+okay this is part 9 of my blender python
+tutorial<00:00:04.710> series<00:00:05.339> for<00:00:05.819> the<00:00:05.970> game<00:00:06.150> engine<00:00:06.540> and
+
+00:00:06.710 --> 00:00:06.720 
+tutorial series for the game engine and
+
+00:00:06.720 --> 00:00:08.570 
+tutorial series for the game engine and
+in<00:00:07.230> the<00:00:07.290> previous<00:00:07.560> ng<00:00:07.890> we<00:00:08.010> were<00:00:08.099> just<00:00:08.309> looking
+
+00:00:08.570 --> 00:00:08.580 
+in the previous ng we were just looking
+
+00:00:08.580 --> 00:00:12.580 
+in the previous ng we were just looking
+at<00:00:08.670> the<00:00:08.760> mouse<00:00:08.910> position<00:00:09.150> here<00:00:09.990> so<00:00:10.320> when<00:00:10.650> I
+
+00:00:12.580 --> 00:00:12.590 
+at the mouse position here so when I
+
+00:00:12.590 --> 00:00:15.110 
+at the mouse position here so when I
+started<00:00:13.590> it<00:00:13.740> and<00:00:13.920> move<00:00:14.130> the<00:00:14.309> mouse<00:00:14.519> half<00:00:14.969> way
+
+00:00:15.110 --> 00:00:15.120 
+started it and move the mouse half way
+
+00:00:15.120 --> 00:00:16.820 
+started it and move the mouse half way
+past<00:00:15.330> the<00:00:15.480> screen<00:00:15.750> it<00:00:15.960> moved<00:00:16.199> that<00:00:16.350> object
+
+00:00:16.820 --> 00:00:16.830 
+past the screen it moved that object
+
+00:00:16.830 --> 00:00:19.640 
+past the screen it moved that object
+like<00:00:17.460> that<00:00:17.699> and<00:00:17.940> then<00:00:18.480> I've<00:00:18.930> added<00:00:19.140> I've<00:00:19.470> made
+
+00:00:19.640 --> 00:00:19.650 
+like that and then I've added I've made
+
+00:00:19.650 --> 00:00:21.890 
+like that and then I've added I've made
+some<00:00:19.740> changes<00:00:20.010> now<00:00:20.369> to<00:00:20.430> the<00:00:20.580> code<00:00:20.789> so<00:00:21.150> that's
+
+00:00:21.890 --> 00:00:21.900 
+some changes now to the code so that's
+
+00:00:21.900 --> 00:00:23.689 
+some changes now to the code so that's
+pretty<00:00:22.170> straightforward<00:00:22.470> but<00:00:23.279> what<00:00:23.580> I've
+
+00:00:23.689 --> 00:00:23.699 
+pretty straightforward but what I've
+
+00:00:23.699 --> 00:00:27.830 
+pretty straightforward but what I've
+done<00:00:23.820> is<00:00:24.029> I've<00:00:24.210> moved<00:00:24.600> the<00:00:24.890> code<00:00:25.890> in<00:00:26.849> its<00:00:27.660> own
+
+00:00:27.830 --> 00:00:27.840 
+done is I've moved the code in its own
+
+00:00:27.840 --> 00:00:30.400 
+done is I've moved the code in its own
+into<00:00:28.289> a<00:00:28.320> separate<00:00:28.800> mouse<00:00:29.400> position<00:00:29.670> routine
+
+00:00:30.400 --> 00:00:30.410 
+into a separate mouse position routine
+
+00:00:30.410 --> 00:00:32.780 
+into a separate mouse position routine
+instead<00:00:31.410> of<00:00:31.439> within<00:00:31.980> the<00:00:32.070> keyboard<00:00:32.489> events
+
+00:00:32.780 --> 00:00:32.790 
+instead of within the keyboard events
+
+00:00:32.790 --> 00:00:34.490 
+instead of within the keyboard events
+routine<00:00:33.000> because<00:00:33.390> that<00:00:33.630> was<00:00:33.750> goofin<00:00:34.079> it<00:00:34.200> up<00:00:34.350> in
+
+00:00:34.490 --> 00:00:34.500 
+routine because that was goofin it up in
+
+00:00:34.500 --> 00:00:37.639 
+routine because that was goofin it up in
+the<00:00:34.620> sense<00:00:34.860> that<00:00:35.660> that<00:00:36.660> would<00:00:36.840> only<00:00:36.930> execute
+
+00:00:37.639 --> 00:00:37.649 
+the sense that that would only execute
+
+00:00:37.649 --> 00:00:39.860 
+the sense that that would only execute
+if<00:00:37.860> the<00:00:38.100> I<00:00:38.340> mean<00:00:38.610> I<00:00:38.879> had<00:00:39.180> it<00:00:39.300> down<00:00:39.450> here<00:00:39.660> in<00:00:39.750> the
+
+00:00:39.860 --> 00:00:39.870 
+if the I mean I had it down here in the
+
+00:00:39.870 --> 00:00:41.840 
+if the I mean I had it down here in the
+check<00:00:40.410> object<00:00:40.770> position<00:00:40.890> routine<00:00:41.460> it<00:00:41.700> was
+
+00:00:41.840 --> 00:00:41.850 
+check object position routine it was
+
+00:00:41.850 --> 00:00:43.670 
+check object position routine it was
+only<00:00:42.030> going<00:00:42.149> to<00:00:42.210> execute<00:00:42.450> if<00:00:42.660> this<00:00:42.899> object<00:00:43.200> had
+
+00:00:43.670 --> 00:00:43.680 
+only going to execute if this object had
+
+00:00:43.680 --> 00:00:46.910 
+only going to execute if this object had
+moved<00:00:43.920> so<00:00:44.809> now<00:00:45.809> it's<00:00:45.989> all<00:00:46.170> by<00:00:46.320> itself<00:00:46.559> check
+
+00:00:46.910 --> 00:00:46.920 
+moved so now it's all by itself check
+
+00:00:46.920 --> 00:00:48.290 
+moved so now it's all by itself check
+the<00:00:47.039> mouse<00:00:47.190> position<00:00:47.399> and<00:00:47.820> then<00:00:47.910> I<00:00:47.940> have<00:00:48.090> it<00:00:48.210> up
+
+00:00:48.290 --> 00:00:48.300 
+the mouse position and then I have it up
+
+00:00:48.300 --> 00:00:50.180 
+the mouse position and then I have it up
+here<00:00:48.329> with<00:00:48.600> in<00:00:48.719> Maine<00:00:48.930> and<00:00:49.170> then<00:00:49.649> also<00:00:49.950> what
+
+00:00:50.180 --> 00:00:50.190 
+here with in Maine and then also what
+
+00:00:50.190 --> 00:00:52.130 
+here with in Maine and then also what
+I've<00:00:50.280> done<00:00:50.399> in<00:00:50.550> here<00:00:50.700> now<00:00:50.910> I've<00:00:51.030> started<00:00:51.300> a<00:00:51.539> an
+
+00:00:52.130 --> 00:00:52.140 
+I've done in here now I've started a an
+
+00:00:52.140 --> 00:00:54.979 
+I've done in here now I've started a an
+entry<00:00:52.739> called<00:00:52.920> Spanish<00:00:53.460> dictionary<00:00:53.670> and<00:00:54.239> this
+
+00:00:54.979 --> 00:00:54.989 
+entry called Spanish dictionary and this
+
+00:00:54.989 --> 00:00:56.810 
+entry called Spanish dictionary and this
+will<00:00:55.110> be<00:00:55.199> like<00:00:55.350> our<00:00:55.559> variables<00:00:56.100> then<00:00:56.550> we<00:00:56.640> could
+
+00:00:56.810 --> 00:00:56.820 
+will be like our variables then we could
+
+00:00:56.820 --> 00:00:58.040 
+will be like our variables then we could
+make<00:00:56.969> a<00:00:57.000> variable<00:00:57.270> like<00:00:57.510> this<00:00:57.690> and<00:00:57.840> we<00:00:57.899> could
+
+00:00:58.040 --> 00:00:58.050 
+make a variable like this and we could
+
+00:00:58.050 --> 00:01:04.039 
+make a variable like this and we could
+say<00:00:59.510> x<00:01:00.510> is<00:01:00.780> equal<00:01:01.530> to<00:01:01.620> 5<00:01:01.829> point<00:01:02.160> 0<00:01:02.340> and<00:01:02.840> and<00:01:03.840> do
+
+00:01:04.039 --> 00:01:04.049 
+say x is equal to 5 point 0 and and do
+
+00:01:04.049 --> 00:01:05.840 
+say x is equal to 5 point 0 and and do
+something<00:01:04.470> with<00:01:04.650> it<00:01:04.680> you<00:01:04.949> know<00:01:04.979> we<00:01:05.519> could<00:01:05.640> say
+
+00:01:05.840 --> 00:01:05.850 
+something with it you know we could say
+
+00:01:05.850 --> 00:01:09.620 
+something with it you know we could say
+X<00:01:06.180> plus<00:01:06.659> equals<00:01:07.170> 1<00:01:07.530> point<00:01:07.799> 0<00:01:08.010> like<00:01:08.909> that<00:01:09.150> and<00:01:09.450> it
+
+00:01:09.620 --> 00:01:09.630 
+X plus equals 1 point 0 like that and it
+
+00:01:09.630 --> 00:01:11.899 
+X plus equals 1 point 0 like that and it
+would<00:01:09.750> increment<00:01:09.990> it<00:01:10.260> except<00:01:10.830> however<00:01:11.010> every
+
+00:01:11.899 --> 00:01:11.909 
+would increment it except however every
+
+00:01:11.909 --> 00:01:13.160 
+would increment it except however every
+time<00:01:12.060> it<00:01:12.210> came<00:01:12.330> back<00:01:12.510> through<00:01:12.720> the<00:01:12.750> routine<00:01:13.110> is
+
+00:01:13.160 --> 00:01:13.170 
+time it came back through the routine is
+
+00:01:13.170 --> 00:01:16.340 
+time it came back through the routine is
+going<00:01:13.470> to<00:01:13.530> reset<00:01:13.830> it<00:01:13.860> as<00:01:14.070> five<00:01:14.280> point<00:01:14.640> 0<00:01:14.820> and<00:01:15.350> so
+
+00:01:16.340 --> 00:01:16.350 
+going to reset it as five point 0 and so
+
+00:01:16.350 --> 00:01:17.539 
+going to reset it as five point 0 and so
+you're<00:01:16.590> really<00:01:16.860> not<00:01:16.950> going<00:01:17.159> to<00:01:17.220> get<00:01:17.369> anywhere
+
+00:01:17.539 --> 00:01:17.549 
+you're really not going to get anywhere
+
+00:01:17.549 --> 00:01:19.399 
+you're really not going to get anywhere
+so<00:01:18.240> the<00:01:18.360> way<00:01:18.479> to<00:01:18.509> do<00:01:18.689> it<00:01:18.810> is<00:01:18.930> you<00:01:18.990> set<00:01:19.200> these<00:01:19.350> up
+
+00:01:19.399 --> 00:01:19.409 
+so the way to do it is you set these up
+
+00:01:19.409 --> 00:01:23.480 
+so the way to do it is you set these up
+in<00:01:19.909> dictionary<00:01:20.909> entries<00:01:21.270> and<00:01:21.450> since<00:01:22.490> Python
+
+00:01:23.480 --> 00:01:23.490 
+in dictionary entries and since Python
+
+00:01:23.490 --> 00:01:25.580 
+in dictionary entries and since Python
+dictionaries<00:01:24.180> I<00:01:24.479> kind<00:01:25.080> of<00:01:25.200> like<00:01:25.259> the
+
+00:01:25.580 --> 00:01:25.590 
+dictionaries I kind of like the
+
+00:01:25.590 --> 00:01:27.560 
+dictionaries I kind of like the
+associated<00:01:26.549> with<00:01:26.850> the<00:01:26.939> dictionary<00:01:27.360> so<00:01:27.479> I'll
+
+00:01:27.560 --> 00:01:27.570 
+associated with the dictionary so I'll
+
+00:01:27.570 --> 00:01:29.840 
+associated with the dictionary so I'll
+call<00:01:27.750> my<00:01:28.020> first<00:01:28.829> dictionary<00:01:29.130> a<00:01:29.400> Spanish
+
+00:01:29.840 --> 00:01:29.850 
+call my first dictionary a Spanish
+
+00:01:29.850 --> 00:01:31.700 
+call my first dictionary a Spanish
+dictionary<00:01:29.900> and<00:01:30.900> a<00:01:31.020> two<00:01:31.200> of<00:01:31.259> the<00:01:31.320> terms<00:01:31.560> or
+
+00:01:31.700 --> 00:01:31.710 
+dictionary and a two of the terms or
+
+00:01:31.710 --> 00:01:34.069 
+dictionary and a two of the terms or
+Spanish<00:01:32.100> terms<00:01:32.280> i<00:01:32.460> have<00:01:32.670> i'm<00:01:33.390> defining<00:01:33.810> the
+
+00:01:34.069 --> 00:01:34.079 
+Spanish terms i have i'm defining the
+
+00:01:34.079 --> 00:01:36.080 
+Spanish terms i have i'm defining the
+word<00:01:34.229> what<00:01:34.530> in<00:01:34.799> english<00:01:35.009> and<00:01:35.460> it<00:01:35.670> has<00:01:35.790> to<00:01:35.820> be<00:01:36.060> a
+
+00:01:36.080 --> 00:01:36.090 
+word what in english and it has to be a
+
+00:01:36.090 --> 00:01:39.440 
+word what in english and it has to be a
+open<00:01:36.900> brace<00:01:37.170> and<00:01:37.530> then<00:01:38.130> in<00:01:38.340> single<00:01:38.670> quotes<00:01:38.939> the
+
+00:01:39.440 --> 00:01:39.450 
+open brace and then in single quotes the
+
+00:01:39.450 --> 00:01:41.899 
+open brace and then in single quotes the
+word<00:01:39.630> what<00:01:39.869> and<00:01:40.140> then<00:01:40.950> associated<00:01:41.579> with<00:01:41.700> what
+
+00:01:41.899 --> 00:01:41.909 
+word what and then associated with what
+
+00:01:41.909 --> 00:01:43.700 
+word what and then associated with what
+is<00:01:42.090> the<00:01:42.270> spanish<00:01:42.509> term<00:01:42.869> followed<00:01:43.290> by<00:01:43.470> this
+
+00:01:43.700 --> 00:01:43.710 
+is the spanish term followed by this
+
+00:01:43.710 --> 00:01:48.469 
+is the spanish term followed by this
+colon<00:01:44.189> and<00:01:44.750> it's<00:01:45.750> k<00:01:46.020> so<00:01:46.759> and<00:01:47.759> that<00:01:48.119> has<00:01:48.299> to<00:01:48.329> be
+
+00:01:48.469 --> 00:01:48.479 
+colon and it's k so and that has to be
+
+00:01:48.479 --> 00:01:49.940 
+colon and it's k so and that has to be
+in<00:01:48.659> double<00:01:48.930> quotes<00:01:49.049> because<00:01:49.259> that's<00:01:49.500> a<00:01:49.619> string
+
+00:01:49.940 --> 00:01:49.950 
+in double quotes because that's a string
+
+00:01:49.950 --> 00:01:53.569 
+in double quotes because that's a string
+so<00:01:50.700> then<00:01:51.000> i<00:01:51.030> have<00:01:51.360> a<00:01:51.390> comma<00:01:51.990> and<00:01:52.320> then<00:01:53.220> I<00:01:53.340> do<00:01:53.399> the
+
+00:01:53.569 --> 00:01:53.579 
+so then i have a comma and then I do the
+
+00:01:53.579 --> 00:01:55.760 
+so then i have a comma and then I do the
+same<00:01:53.610> thing<00:01:53.850> for<00:01:54.360> we<00:01:54.689> in<00:01:55.020> English<00:01:55.500> I've
+
+00:01:55.760 --> 00:01:55.770 
+same thing for we in English I've
+
+00:01:55.770 --> 00:01:58.760 
+same thing for we in English I've
+defined<00:01:56.340> we<00:01:56.640> in<00:01:56.850> single<00:01:57.240> quotes<00:01:57.509> and<00:01:57.840> followed
+
+00:01:58.760 --> 00:01:58.770 
+defined we in single quotes and followed
+
+00:01:58.770 --> 00:02:00.920 
+defined we in single quotes and followed
+by<00:01:58.890> its<00:01:59.100> colon<00:01:59.880> to<00:02:00.119> tell<00:02:00.299> you<00:02:00.420> what<00:02:00.630> it<00:02:00.719> means
+
+00:02:00.920 --> 00:02:00.930 
+by its colon to tell you what it means
+
+00:02:00.930 --> 00:02:04.249 
+by its colon to tell you what it means
+and<00:02:01.200> then<00:02:01.320> nosotros<00:02:01.740> for<00:02:02.670> what<00:02:03.509> we<00:02:03.719> is<00:02:03.930> and
+
+00:02:04.249 --> 00:02:04.259 
+and then nosotros for what we is and
+
+00:02:04.259 --> 00:02:07.249 
+and then nosotros for what we is and
+then<00:02:04.770> I'm<00:02:04.829> going<00:02:04.920> to<00:02:05.009> define<00:02:05.280> a<00:02:05.640> variable<00:02:06.450> X<00:02:06.930> in
+
+00:02:07.249 --> 00:02:07.259 
+then I'm going to define a variable X in
+
+00:02:07.259 --> 00:02:09.919 
+then I'm going to define a variable X in
+here<00:02:08.129> as<00:02:08.220> well<00:02:08.340> just<00:02:08.550> because<00:02:08.700> and<00:02:09.149> I<00:02:09.660> give<00:02:09.840> it
+
+00:02:09.919 --> 00:02:09.929 
+here as well just because and I give it
+
+00:02:09.929 --> 00:02:11.270 
+here as well just because and I give it
+a<00:02:09.989> value<00:02:10.020> of<00:02:10.259> 5<00:02:10.500> so<00:02:10.679> you<00:02:10.770> can<00:02:10.920> mix<00:02:11.069> and<00:02:11.220> match
+
+00:02:11.270 --> 00:02:11.280 
+a value of 5 so you can mix and match
+
+00:02:11.280 --> 00:02:12.620 
+a value of 5 so you can mix and match
+strings<00:02:11.879> and
+
+00:02:12.620 --> 00:02:12.630 
+strings and
+
+00:02:12.630 --> 00:02:14.810 
+strings and
+members<00:02:12.810> and<00:02:13.140> even<00:02:13.290> equations<00:02:13.950> within<00:02:14.610> a
+
+00:02:14.810 --> 00:02:14.820 
+members and even equations within a
+
+00:02:14.820 --> 00:02:18.950 
+members and even equations within a
+dictionary<00:02:15.210> and<00:02:16.400> then<00:02:17.400> to<00:02:17.670> actually<00:02:17.940> look<00:02:18.780> at
+
+00:02:18.950 --> 00:02:18.960 
+dictionary and then to actually look at
+
+00:02:18.960 --> 00:02:21.020 
+dictionary and then to actually look at
+the<00:02:18.990> dictionary<00:02:19.500> term<00:02:19.770> I<00:02:20.040> type<00:02:20.670> it<00:02:20.790> in<00:02:20.880> like
+
+00:02:21.020 --> 00:02:21.030 
+the dictionary term I type it in like
+
+00:02:21.030 --> 00:02:23.780 
+the dictionary term I type it in like
+this<00:02:21.060> Spanish<00:02:21.660> dictionary<00:02:21.870> and<00:02:22.610> then<00:02:23.610> in
+
+00:02:23.780 --> 00:02:23.790 
+this Spanish dictionary and then in
+
+00:02:23.790 --> 00:02:26.630 
+this Spanish dictionary and then in
+square<00:02:24.600> brackets<00:02:25.140> the<00:02:25.620> name<00:02:25.650> of<00:02:26.070> the<00:02:26.220> entry<00:02:26.520> in
+
+00:02:26.630 --> 00:02:26.640 
+square brackets the name of the entry in
+
+00:02:26.640 --> 00:02:29.150 
+square brackets the name of the entry in
+the<00:02:26.730> dictionary<00:02:26.880> what<00:02:27.390> or<00:02:27.660> we<00:02:28.110> or<00:02:28.470> X<00:02:28.800> and<00:02:29.070> they
+
+00:02:29.150 --> 00:02:29.160 
+the dictionary what or we or X and they
+
+00:02:29.160 --> 00:02:30.800 
+the dictionary what or we or X and they
+have<00:02:29.310> to<00:02:29.430> be<00:02:29.520> in<00:02:29.610> the<00:02:29.700> single<00:02:29.880> quotes<00:02:30.240> just<00:02:30.660> the
+
+00:02:30.800 --> 00:02:30.810 
+have to be in the single quotes just the
+
+00:02:30.810 --> 00:02:32.540 
+have to be in the single quotes just the
+way<00:02:30.930> that<00:02:31.080> we<00:02:31.170> defined<00:02:31.440> like<00:02:31.710> that<00:02:31.920> alright
+
+00:02:32.540 --> 00:02:32.550 
+way that we defined like that alright
+
+00:02:32.550 --> 00:02:34.280 
+way that we defined like that alright
+and<00:02:32.730> then<00:02:32.820> when<00:02:32.940> i<00:02:32.970> run<00:02:33.240> it<00:02:33.420> since<00:02:33.930> i<00:02:34.020> have<00:02:34.170> this
+
+00:02:34.280 --> 00:02:34.290 
+and then when i run it since i have this
+
+00:02:34.290 --> 00:02:37.400 
+and then when i run it since i have this
+within<00:02:34.650> the<00:02:34.740> mouse<00:02:34.920> position<00:02:35.510> routine<00:02:36.510> so
+
+00:02:37.400 --> 00:02:37.410 
+within the mouse position routine so
+
+00:02:37.410 --> 00:02:39.590 
+within the mouse position routine so
+that<00:02:37.620> means<00:02:37.830> when<00:02:38.130> the<00:02:38.310> mouse<00:02:38.520> other<00:02:39.360> doesn't
+
+00:02:39.590 --> 00:02:39.600 
+that means when the mouse other doesn't
+
+00:02:39.600 --> 00:02:40.880 
+that means when the mouse other doesn't
+really<00:02:39.720> matter<00:02:39.930> it's<00:02:40.110> going<00:02:40.260> to<00:02:40.320> run<00:02:40.470> anywhere
+
+00:02:40.880 --> 00:02:40.890 
+really matter it's going to run anywhere
+
+00:02:40.890 --> 00:02:44.510 
+really matter it's going to run anywhere
+at<00:02:41.010> once<00:02:41.270> it's<00:02:42.270> going<00:02:42.450> to<00:02:43.160> every<00:02:44.160> time<00:02:44.340> this
+
+00:02:44.510 --> 00:02:44.520 
+at once it's going to every time this
+
+00:02:44.520 --> 00:02:46.010 
+at once it's going to every time this
+routine<00:02:44.910> runs<00:02:45.120> is<00:02:45.300> going<00:02:45.480> to<00:02:45.540> constantly
+
+00:02:46.010 --> 00:02:46.020 
+routine runs is going to constantly
+
+00:02:46.020 --> 00:02:47.810 
+routine runs is going to constantly
+print<00:02:46.410> it<00:02:46.500> so<00:02:46.890> let's<00:02:47.070> just<00:02:47.220> go<00:02:47.280> see<00:02:47.520> if<00:02:47.610> it<00:02:47.640> does
+
+00:02:47.810 --> 00:02:47.820 
+print it so let's just go see if it does
+
+00:02:47.820 --> 00:02:50.960 
+print it so let's just go see if it does
+it<00:02:47.970> so<00:02:48.960> I'll<00:02:49.260> just<00:02:49.290> press<00:02:49.920> p<00:02:50.220> and<00:02:50.490> run<00:02:50.670> it<00:02:50.820> and
+
+00:02:50.960 --> 00:02:50.970 
+it so I'll just press p and run it and
+
+00:02:50.970 --> 00:02:54.140 
+it so I'll just press p and run it and
+then<00:02:51.750> i'll<00:02:52.650> stop<00:02:53.010> it<00:02:53.190> and<00:02:53.280> go<00:02:53.370> get<00:02:53.550> the<00:02:53.670> console
+
+00:02:54.140 --> 00:02:54.150 
+then i'll stop it and go get the console
+
+00:02:54.150 --> 00:02:56.540 
+then i'll stop it and go get the console
+and<00:02:54.360> go<00:02:54.720> see<00:02:54.930> what<00:02:55.200> it<00:02:55.320> does<00:02:55.470> and<00:02:55.740> there<00:02:56.250> does
+
+00:02:56.540 --> 00:02:56.550 
+and go see what it does and there does
+
+00:02:56.550 --> 00:02:59.270 
+and go see what it does and there does
+it<00:02:56.790> just<00:02:57.030> constantly<00:02:57.510> printed<00:02:58.050> the<00:02:58.950> three
+
+00:02:59.270 --> 00:02:59.280 
+it just constantly printed the three
+
+00:02:59.280 --> 00:03:02.630 
+it just constantly printed the three
+entries<00:02:59.900> within<00:03:00.900> that<00:03:01.800> we<00:03:02.010> had<00:03:02.130> set<00:03:02.370> up<00:03:02.490> like
+
+00:03:02.630 --> 00:03:02.640 
+entries within that we had set up like
+
+00:03:02.640 --> 00:03:04.970 
+entries within that we had set up like
+that<00:03:02.820> all<00:03:03.720> right<00:03:03.900> so<00:03:04.380> that's<00:03:04.560> all<00:03:04.770> we<00:03:04.800> really
+
+00:03:04.970 --> 00:03:04.980 
+that all right so that's all we really
+
+00:03:04.980 --> 00:03:06.260 
+that all right so that's all we really
+going<00:03:05.160> to<00:03:05.220> look<00:03:05.370> at<00:03:05.460> in<00:03:05.580> this<00:03:05.730> lesson<00:03:05.910> because
+
+00:03:06.260 --> 00:03:06.270 
+going to look at in this lesson because
+
+00:03:06.270 --> 00:03:10.910 
+going to look at in this lesson because
+this<00:03:07.520> you<00:03:08.520> might<00:03:08.700> check<00:03:08.940> out<00:03:09.150> lesson<00:03:09.630> I<00:03:10.290> might
+
+00:03:10.910 --> 00:03:10.920 
+this you might check out lesson I might
+
+00:03:10.920 --> 00:03:12.920 
+this you might check out lesson I might
+be<00:03:11.040> 17<00:03:11.460> or<00:03:11.490> 18<00:03:11.670> in<00:03:11.970> my<00:03:12.060> other<00:03:12.210> python<00:03:12.630> tutorial
+
+00:03:12.920 --> 00:03:12.930 
+be 17 or 18 in my other python tutorial
+
+00:03:12.930 --> 00:03:14.660 
+be 17 or 18 in my other python tutorial
+series<00:03:13.440> where<00:03:13.710> I<00:03:13.740> cover<00:03:13.980> dictionaries<00:03:14.520> more
+
+00:03:14.660 --> 00:03:14.670 
+series where I cover dictionaries more
+
+00:03:14.670 --> 00:03:18.320 
+series where I cover dictionaries more
+extensively<00:03:15.210> and<00:03:16.760> basically<00:03:17.760> this<00:03:17.970> allows<00:03:18.300> us
+
+00:03:18.320 --> 00:03:18.330 
+extensively and basically this allows us
+
+00:03:18.330 --> 00:03:22.430 
+extensively and basically this allows us
+to<00:03:18.620> take<00:03:19.620> these<00:03:19.950> values<00:03:20.490> that<00:03:21.450> are<00:03:21.510> defined
+
+00:03:22.430 --> 00:03:22.440 
+to take these values that are defined
+
+00:03:22.440 --> 00:03:24.290 
+to take these values that are defined
+within<00:03:22.650> a<00:03:22.830> dictionary<00:03:23.250> and<00:03:23.580> use<00:03:23.880> them<00:03:24.120> within
+
+00:03:24.290 --> 00:03:24.300 
+within a dictionary and use them within
+
+00:03:24.300 --> 00:03:25.940 
+within a dictionary and use them within
+another<00:03:24.570> file<00:03:24.870> here<00:03:25.380> we're<00:03:25.530> using<00:03:25.650> it<00:03:25.830> within
+
+00:03:25.940 --> 00:03:25.950 
+another file here we're using it within
+
+00:03:25.950 --> 00:03:28.190 
+another file here we're using it within
+cube<00:03:26.280> object<00:03:26.640> but<00:03:26.820> within<00:03:27.270> cylinder<00:03:27.810> object
+
+00:03:28.190 --> 00:03:28.200 
+cube object but within cylinder object
+
+00:03:28.200 --> 00:03:30.380 
+cube object but within cylinder object
+we<00:03:28.590> can<00:03:28.800> also<00:03:28.980> come<00:03:29.400> back<00:03:29.580> and<00:03:29.820> reference<00:03:30.000> it
+
+00:03:30.380 --> 00:03:30.390 
+we can also come back and reference it
+
+00:03:30.390 --> 00:03:32.930 
+we can also come back and reference it
+as<00:03:30.540> well<00:03:31.380> and<00:03:31.740> we'll<00:03:32.250> be<00:03:32.370> doing<00:03:32.610> that<00:03:32.730> in
+
+00:03:32.930 --> 00:03:32.940 
+as well and we'll be doing that in
+
+00:03:32.940 --> 00:03:35.720 
+as well and we'll be doing that in
+future<00:03:33.120> lessons<00:03:33.450> so<00:03:34.260> we<00:03:34.380> can<00:03:34.530> get<00:03:34.730> information
+
+00:03:35.720 --> 00:03:35.730 
+future lessons so we can get information
+
+00:03:35.730 --> 00:03:39.710 
+future lessons so we can get information
+between<00:03:36.540> files<00:03:37.200> and<00:03:37.760> the<00:03:38.760> information<00:03:39.480> just
+
+00:03:39.710 --> 00:03:39.720 
+between files and the information just
+
+00:03:39.720 --> 00:03:41.780 
+between files and the information just
+kind<00:03:39.990> of<00:03:40.080> static<00:03:40.650> it<00:03:40.800> holds<00:03:41.100> its<00:03:41.190> values
+
+00:03:41.780 --> 00:03:41.790 
+kind of static it holds its values
+
+00:03:41.790 --> 00:03:43.790 
+kind of static it holds its values
+between<00:03:42.090> files<00:03:42.510> as<00:03:42.810> you<00:03:42.930> go<00:03:43.080> and<00:03:43.590> we're<00:03:43.680> going
+
+00:03:43.790 --> 00:03:43.800 
+between files as you go and we're going
+
+00:03:43.800 --> 00:03:45.890 
+between files as you go and we're going
+to<00:03:43.860> need<00:03:43.950> that<00:03:44.130> because<00:03:44.660> when<00:03:45.660> we<00:03:45.750> do
+
+00:03:45.890 --> 00:03:45.900 
+to need that because when we do
+
+00:03:45.900 --> 00:03:47.980 
+to need that because when we do
+collision<00:03:46.380> detection<00:03:46.650> between<00:03:47.100> objects<00:03:47.520> i
+
+00:03:47.980 --> 00:03:47.990 
+collision detection between objects i
+
+00:03:47.990 --> 00:03:52.550 
+collision detection between objects i
+will<00:03:48.990> use<00:03:49.320> dictionary<00:03:50.220> values<00:03:50.670> to<00:03:51.360> store<00:03:52.350> the
+
+00:03:52.550 --> 00:03:52.560 
+will use dictionary values to store the
+
+00:03:52.560 --> 00:03:54.260 
+will use dictionary values to store the
+number<00:03:52.650> of<00:03:52.830> times<00:03:52.980> an<00:03:53.190> object<00:03:53.550> is<00:03:53.700> hid<00:03:53.970> or
+
+00:03:54.260 --> 00:03:54.270 
+number of times an object is hid or
+
+00:03:54.270 --> 00:03:58.010 
+number of times an object is hid or
+something<00:03:55.110> of<00:03:55.230> that<00:03:55.800> nature<00:03:55.980> and<00:03:56.870> so<00:03:57.870> these
+
+00:03:58.010 --> 00:03:58.020 
+something of that nature and so these
+
+00:03:58.020 --> 00:03:59.600 
+something of that nature and so these
+become<00:03:58.410> really<00:03:58.680> really<00:03:58.709> important<00:03:59.400> so<00:03:59.550> if
+
+00:03:59.600 --> 00:03:59.610 
+become really really important so if
+
+00:03:59.610 --> 00:04:00.949 
+become really really important so if
+you're<00:03:59.730> not<00:03:59.820> familiar<00:03:59.970> with<00:04:00.300> them<00:04:00.390> you<00:04:00.810> might
+
+00:04:00.949 --> 00:04:00.959 
+you're not familiar with them you might
+
+00:04:00.959 --> 00:04:02.330 
+you're not familiar with them you might
+look<00:04:01.080> them<00:04:01.200> up<00:04:01.290> online<00:04:01.440> or<00:04:01.620> go<00:04:01.920> check<00:04:02.100> my<00:04:02.220> other
+
+00:04:02.330 --> 00:04:02.340 
+look them up online or go check my other
+
+00:04:02.340 --> 00:04:05.360 
+look them up online or go check my other
+videos<00:04:02.430> and<00:04:03.110> because<00:04:04.110> we<00:04:04.320> will<00:04:04.800> be<00:04:04.920> needing<00:04:05.220> to
+
+00:04:05.360 --> 00:04:05.370 
+videos and because we will be needing to
+
+00:04:05.370 --> 00:04:07.340 
+videos and because we will be needing to
+use<00:04:05.550> this<00:04:06.330> kind<00:04:06.540> of<00:04:06.630> stuff<00:04:06.840> extensively
+
+00:04:07.340 --> 00:04:07.350 
+use this kind of stuff extensively
+
+00:04:07.350 --> 00:04:09.199 
+use this kind of stuff extensively
+alright<00:04:08.280> well<00:04:08.550> that's<00:04:08.700> it<00:04:08.820> for<00:04:08.910> this<00:04:09.030> lesson
+
+00:04:09.199 --> 00:04:09.209 
+alright well that's it for this lesson
+
+00:04:09.209 --> 00:04:12.530 
+alright well that's it for this lesson
+and<00:04:09.540> i'll<00:04:09.900> see<00:04:10.020> you<00:04:10.050> in<00:04:10.140> the<00:04:10.170> next<00:04:10.290> lesson
+

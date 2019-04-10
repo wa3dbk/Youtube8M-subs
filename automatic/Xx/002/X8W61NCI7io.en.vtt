@@ -1,0 +1,355 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.730
+ hello all my name jr gómez i am in 
+
+00:00:02.700 --> 00:00:07.470
+ eve of diplo yemen and in the video of 
+
+00:00:05.730 --> 00:00:11.220
+ today we are going to see how to create a zone of 
+
+00:00:07.470 --> 00:00:14.070
+ ns secondary in windows server 2012 
+
+00:00:11.220 --> 00:00:16.290
+ the purpose of creating an area of ​​ns 
+
+00:00:14.070 --> 00:00:18.330
+ secondary is to copy a zone of 
+
+00:00:16.290 --> 00:00:20.610
+ ns that we have in another contains our 
+
+00:00:18.330 --> 00:00:23.010
+ dns server in my case is a 
+
+00:00:20.610 --> 00:00:25.260
+ domain controller and I will copy 
+
+00:00:23.010 --> 00:00:28.290
+ this zone from ns to another controller 
+
+00:00:25.260 --> 00:00:30.440
+ domain that has also installed the 
+
+00:00:28.290 --> 00:00:32.780
+ role of dns 
+
+00:00:30.440 --> 00:00:36.110
+ is my secondary domain controller 
+
+00:00:32.780 --> 00:00:38.840
+ for which we are going to see with the 
+
+00:00:36.110 --> 00:00:41.150
+ configuration I have a driver for 
+
+00:00:38.840 --> 00:00:43.010
+ domain called c02 
+
+00:00:41.150 --> 00:00:46.480
+ the painting houses a 
+
+00:00:43.010 --> 00:00:51.140
+ an additional desire and also has 
+
+00:00:46.480 --> 00:00:54.200
+ our installed dns I have 
+
+00:00:51.140 --> 00:00:57.370
+ 1 0 1 in which we will create 
+
+00:00:54.200 --> 00:01:01.460
+ to link the area we will copy the area 
+
+00:00:57.370 --> 00:01:05.570
+ and for which we go to the complement 
+
+00:01:01.460 --> 00:01:08.750
+ dns administration tools here 
+
+00:01:05.570 --> 00:01:11.780
+ I have my id on that server since 01 but 
+
+00:01:08.750 --> 00:01:13.670
+ let's connect to our 602 by 
+
+00:01:11.780 --> 00:01:17.800
+ which we go here to the root of the dns 
+
+00:01:13.670 --> 00:01:20.850
+ connect to the next team 
+
+00:01:17.800 --> 00:01:20.850
+ from c02 
+
+00:01:21.040 --> 00:01:25.260
+ here I have my second dns 
+
+00:01:25.270 --> 00:01:33.400
+ as we see nothing else nothing else I have 
+
+00:01:29.340 --> 00:01:34.810
+ 23 in areas of a school that 
+
+00:01:33.400 --> 00:01:36.490
+ comprises the domain with the integration 
+
+00:01:34.810 --> 00:01:39.580
+ active directory and I have another one that 
+
+00:01:36.490 --> 00:01:44.530
+ also replicated with the director and in 
+
+00:01:39.580 --> 00:01:47.530
+ the one in that 0-1 I have four zones on the 
+
+00:01:44.530 --> 00:01:50.130
+ only one that is not there is not the j city 
+
+00:01:47.530 --> 00:01:53.650
+ local point the age that we are going to perform 
+
+00:01:50.130 --> 00:01:56.259
+ with zone d in secondary s but 
+
+00:01:53.650 --> 00:01:58.840
+ first we go to the properties of the 
+
+00:01:56.259 --> 00:02:02.500
+ dns zone of domain controller 1 
+
+00:01:58.840 --> 00:02:05.380
+ we go to the properties and in the 
+
+00:02:02.500 --> 00:02:08.830
+ name servers let's add the 
+
+00:02:05.380 --> 00:02:11.830
+ of c02 which is why we go to servers 
+
+00:02:08.830 --> 00:02:17.160
+ name we say add we are going to 
+
+00:02:11.830 --> 00:02:21.600
+ add the cc of c02 point 
+
+00:02:17.160 --> 00:02:24.030
+ j point more we add the name of pq of 
+
+00:02:21.600 --> 00:02:25.860
+ n we give them solve and at the moment we 
+
+00:02:24.030 --> 00:02:29.610
+ will give as if the server does not 
+
+00:02:25.860 --> 00:02:32.010
+ was because he had no contact 
+
+00:02:29.610 --> 00:02:33.960
+ has not had the ns zone or has not 
+
+00:02:32.010 --> 00:02:38.000
+ created the secondary n area but what 
+
+00:02:33.960 --> 00:02:41.130
+ let's give it accept apply as we see 
+
+00:02:38.000 --> 00:02:43.740
+ Here we have added the name the new 
+
+00:02:41.130 --> 00:02:45.840
+ server name dns then now yes 
+
+00:02:43.740 --> 00:02:47.250
+ we proceed to create the dns zone 
+
+00:02:45.840 --> 00:02:50.790
+ secondary for which we go then 
+
+00:02:47.250 --> 00:02:52.980
+ already to our of c02 
+
+00:02:50.790 --> 00:02:55.019
+ and in 13 02 we are going to go to the zones 
+
+00:02:52.980 --> 00:02:59.099
+ search in direct search and we will 
+
+00:02:55.019 --> 00:03:02.579
+ give a new zone new to us 
+
+00:02:59.099 --> 00:03:04.469
+ opens the wizard to create a zone in 
+
+00:03:02.579 --> 00:03:07.060
+ which we give next and we will 
+
+00:03:04.469 --> 00:03:09.640
+ give several creation options 
+
+00:03:07.060 --> 00:03:11.440
+ the main main area which is the 
+
+00:03:09.640 --> 00:03:13.239
+ that we are not going to create at this moment are 
+
+00:03:11.440 --> 00:03:15.370
+ the secondary ones which we are going to use 
+
+00:03:13.239 --> 00:03:18.130
+ and the area of ​​internal routes 
+
+00:03:15.370 --> 00:03:19.569
+ we selected the secondary area we 
+
+00:03:18.130 --> 00:03:22.480
+ disable by default 
+
+00:03:19.569 --> 00:03:25.840
+ the store in the area in the area in 
+
+00:03:22.480 --> 00:03:29.319
+ active directory we give you following 
+
+00:03:25.840 --> 00:03:31.989
+ and here we are going to look we are going here in the 
+
+00:03:29.319 --> 00:03:34.239
+ button examine the name of the area as 
+
+00:03:31.989 --> 00:03:36.550
+ can see here shows us the 01's 
+
+00:03:34.239 --> 00:03:39.670
+ where the area that we are going is stored 
+
+00:03:36.550 --> 00:03:41.110
+ to copy the one from that 0 2 we search here in 
+
+00:03:39.670 --> 00:03:44.860
+ the zones of 
+
+00:03:41.110 --> 00:03:47.470
+ direct search and we select the area 
+
+00:03:44.860 --> 00:03:50.380
+ that we are going to copy in this case is jota 
+
+00:03:47.470 --> 00:03:52.420
+ haiti local point we say accept now 
+
+00:03:50.380 --> 00:03:54.550
+ we have the name of the area 
+
+00:03:52.420 --> 00:03:57.730
+ we say next and here we go to 
+
+00:03:54.550 --> 00:04:01.800
+ specify the ip address of the server 
+
+00:03:57.730 --> 00:04:06.150
+ where are we going to copy our dns zone 
+
+00:04:01.800 --> 00:04:06.150
+ in this case it is 01 
+
+00:04:06.460 --> 00:04:12.700
+ let's go here how we got here is valid 
+
+00:04:08.950 --> 00:04:15.490
+ accept we give you next here he came back 
+
+00:04:12.700 --> 00:04:18.460
+ I repeat is the server where we will 
+
+00:04:15.490 --> 00:04:21.520
+ copy the cam nsn area in this 
+
+00:04:18.460 --> 00:04:23.950
+ this is the ip address of my 
+
+00:04:21.520 --> 00:04:26.800
+ c02 of that 0 1 as specified in that 
+
+00:04:23.950 --> 00:04:30.390
+ the pq of our server we give 
+
+00:04:26.800 --> 00:04:32.310
+ next and here it gives us 
+
+00:04:30.390 --> 00:04:34.560
+ a summary of the completion of the 
+
+00:04:32.310 --> 00:04:36.690
+ assistant for the new area gives us 
+
+00:04:34.560 --> 00:04:41.100
+ says that the area of sj city ​​local point 
+
+00:04:36.690 --> 00:04:42.600
+ in the high school type and tells us the 
+
+00:04:41.100 --> 00:04:44.700
+ type of search to resend and the 
+
+00:04:42.600 --> 00:04:49.400
+ name of the file that is j hate and point 
+
+00:04:44.700 --> 00:04:49.400
+ local point dns we give you final 
+
+00:04:49.610 --> 00:04:55.849
+ and as we see we have already created the new 
+
+00:04:53.240 --> 00:04:57.889
+ zone if we display here the one of 0 1 
+
+00:04:55.849 --> 00:05:00.800
+ we have the area too but it has 
+
+00:04:57.889 --> 00:05:03.020
+ created the new zone here in de c02 
+
+00:05:00.800 --> 00:05:06.590
+ we are going to enter the area and as we see 
+
+00:05:03.020 --> 00:05:11.090
+ we already have our area created then 
+
+00:05:06.590 --> 00:05:13.969
+ in the idea of ​​being able to create ns zones 
+
+00:05:11.090 --> 00:05:16.909
+ secondary is to copy these areas 
+
+00:05:13.969 --> 00:05:18.620
+ dns from another server another server 
+
+00:05:16.909 --> 00:05:21.740
+ dns that we have in our network or not 
+
+00:05:18.620 --> 00:05:24.949
+ domain or also that is in our 
+
+00:05:21.740 --> 00:05:29.930
+ forest then in this way we already have 
+
+00:05:24.949 --> 00:05:34.129
+ our secondary dns zone created and 
+
+00:05:29.930 --> 00:05:37.129
+ as we see with all the records that 
+
+00:05:34.129 --> 00:05:39.349
+ create when creating the denis zone I hope that 
+
+00:05:37.129 --> 00:05:42.879
+ this video is very helpful and we 
+
+00:05:39.349 --> 00:05:42.879
+ we see in a next occasion 
+
