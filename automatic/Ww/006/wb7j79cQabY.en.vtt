@@ -1,0 +1,1448 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.100 
+
+hello<00:00:00.359> and<00:00:00.480> welcome<00:00:00.750> to<00:00:00.840> this<00:00:00.900> training
+
+00:00:01.100 --> 00:00:01.110 
+hello and welcome to this training
+
+00:00:01.110 --> 00:00:02.960 
+hello and welcome to this training
+session<00:00:01.290> my<00:00:01.620> name<00:00:01.650> is<00:00:01.800> Asha<00:00:01.949> Fayed<00:00:02.310> and<00:00:02.790> I'll
+
+00:00:02.960 --> 00:00:02.970 
+session my name is Asha Fayed and I'll
+
+00:00:02.970 --> 00:00:04.460 
+session my name is Asha Fayed and I'll
+be<00:00:03.090> working<00:00:03.360> with<00:00:03.389> you<00:00:03.510> today<00:00:03.720> on<00:00:04.140> one<00:00:04.259> of<00:00:04.290> the
+
+00:00:04.460 --> 00:00:04.470 
+be working with you today on one of the
+
+00:00:04.470 --> 00:00:06.260 
+be working with you today on one of the
+manta<00:00:04.770> ray<00:00:04.799> production<00:00:05.370> shader<00:00:05.549> called<00:00:05.819> MIP
+
+00:00:06.260 --> 00:00:06.270 
+manta ray production shader called MIP
+
+00:00:06.270 --> 00:00:08.150 
+manta ray production shader called MIP
+render<00:00:06.810> subset<00:00:07.200> the<00:00:07.470> render<00:00:07.680> subset<00:00:08.010> is
+
+00:00:08.150 --> 00:00:08.160 
+render subset the render subset is
+
+00:00:08.160 --> 00:00:10.280 
+render subset the render subset is
+actually<00:00:08.550> a<00:00:08.790> legislature<00:00:09.360> that<00:00:09.450> we<00:00:09.929> applied
+
+00:00:10.280 --> 00:00:10.290 
+actually a legislature that we applied
+
+00:00:10.290 --> 00:00:11.749 
+actually a legislature that we applied
+to<00:00:10.320> the<00:00:10.530> camera<00:00:10.889> and<00:00:11.160> the<00:00:11.370> function<00:00:11.639> of<00:00:11.730> that
+
+00:00:11.749 --> 00:00:11.759 
+to the camera and the function of that
+
+00:00:11.759 --> 00:00:13.820 
+to the camera and the function of that
+shader<00:00:12.090> it<00:00:12.269> what<00:00:12.420> we'll<00:00:12.570> do<00:00:12.750> is<00:00:13.019> to<00:00:13.259> replace
+
+00:00:13.820 --> 00:00:13.830 
+shader it what we'll do is to replace
+
+00:00:13.830 --> 00:00:15.499 
+shader it what we'll do is to replace
+one<00:00:14.099> element<00:00:14.490> of<00:00:14.580> your<00:00:14.700> scene<00:00:14.940> for<00:00:15.120> example
+
+00:00:15.499 --> 00:00:15.509 
+one element of your scene for example
+
+00:00:15.509 --> 00:00:17.210 
+one element of your scene for example
+this<00:00:15.660> sphere<00:00:15.900> here<00:00:16.109> that<00:00:16.350> you<00:00:16.500> are<00:00:16.920> happy<00:00:17.190> with
+
+00:00:17.210 --> 00:00:17.220 
+this sphere here that you are happy with
+
+00:00:17.220 --> 00:00:18.950 
+this sphere here that you are happy with
+the<00:00:17.369> whole<00:00:17.520> entire<00:00:17.699> render<00:00:18.119> except<00:00:18.510> a<00:00:18.660> sphere
+
+00:00:18.950 --> 00:00:18.960 
+the whole entire render except a sphere
+
+00:00:18.960 --> 00:00:20.300 
+the whole entire render except a sphere
+that<00:00:19.199> you<00:00:19.289> own<00:00:19.380> a<00:00:19.439> for<00:00:19.619> example<00:00:19.980> change<00:00:20.160> the
+
+00:00:20.300 --> 00:00:20.310 
+that you own a for example change the
+
+00:00:20.310 --> 00:00:22.189 
+that you own a for example change the
+color<00:00:20.490> so<00:00:21.000> rather<00:00:21.210> than<00:00:21.510> really<00:00:21.810> rendering
+
+00:00:22.189 --> 00:00:22.199 
+color so rather than really rendering
+
+00:00:22.199 --> 00:00:24.410 
+color so rather than really rendering
+everything<00:00:22.500> you<00:00:22.830> can<00:00:23.039> just<00:00:23.070> render<00:00:23.460> a<00:00:23.699> subset
+
+00:00:24.410 --> 00:00:24.420 
+everything you can just render a subset
+
+00:00:24.420 --> 00:00:26.179 
+everything you can just render a subset
+exactly<00:00:24.990> how<00:00:25.109> the<00:00:25.170> shader<00:00:25.439> is<00:00:25.590> defined<00:00:25.949> of
+
+00:00:26.179 --> 00:00:26.189 
+exactly how the shader is defined of
+
+00:00:26.189 --> 00:00:27.920 
+exactly how the shader is defined of
+that<00:00:26.490> scene<00:00:26.730> wanna<00:00:27.180> point<00:00:27.390> out<00:00:27.510> that<00:00:27.660> the
+
+00:00:27.920 --> 00:00:27.930 
+that scene wanna point out that the
+
+00:00:27.930 --> 00:00:30.349 
+that scene wanna point out that the
+render<00:00:28.230> time<00:00:28.410> here<00:00:28.650> is<00:00:28.769> about<00:00:29.010> one<00:00:29.279> minute<00:00:29.429> 34
+
+00:00:30.349 --> 00:00:30.359 
+render time here is about one minute 34
+
+00:00:30.359 --> 00:00:32.389 
+render time here is about one minute 34
+seconds<00:00:30.779> and<00:00:31.019> mostly<00:00:31.470> because<00:00:31.590> of<00:00:31.800> this<00:00:32.040> class
+
+00:00:32.389 --> 00:00:32.399 
+seconds and mostly because of this class
+
+00:00:32.399 --> 00:00:34.790 
+seconds and mostly because of this class
+here<00:00:32.850> so<00:00:33.300> my<00:00:33.480> render<00:00:34.140> if<00:00:34.320> I'm<00:00:34.440> gonna<00:00:34.590> render
+
+00:00:34.790 --> 00:00:34.800 
+here so my render if I'm gonna render
+
+00:00:34.800 --> 00:00:36.380 
+here so my render if I'm gonna render
+the<00:00:34.980> sphere<00:00:35.250> by<00:00:35.430> itself<00:00:35.700> I'm<00:00:35.910> gonna<00:00:36.059> render<00:00:36.270> it
+
+00:00:36.380 --> 00:00:36.390 
+the sphere by itself I'm gonna render it
+
+00:00:36.390 --> 00:00:38.209 
+the sphere by itself I'm gonna render it
+with<00:00:36.510> their<00:00:36.840> flashes<00:00:37.320> with<00:00:37.500> refractions<00:00:38.100> with
+
+00:00:38.209 --> 00:00:38.219 
+with their flashes with refractions with
+
+00:00:38.219 --> 00:00:39.979 
+with their flashes with refractions with
+everything<00:00:38.730> except<00:00:39.180> changing<00:00:39.570> that<00:00:39.719> color
+
+00:00:39.979 --> 00:00:39.989 
+everything except changing that color
+
+00:00:39.989 --> 00:00:41.569 
+everything except changing that color
+and<00:00:40.260> this<00:00:40.440> can<00:00:40.620> be<00:00:40.739> done<00:00:40.920> like<00:00:41.100> I<00:00:41.160> said<00:00:41.399> in<00:00:41.520> the
+
+00:00:41.569 --> 00:00:41.579 
+and this can be done like I said in the
+
+00:00:41.579 --> 00:00:43.220 
+and this can be done like I said in the
+beginning<00:00:41.700> with<00:00:42.360> the<00:00:42.450> render<00:00:42.690> subset<00:00:43.079> so
+
+00:00:43.220 --> 00:00:43.230 
+beginning with the render subset so
+
+00:00:43.230 --> 00:00:44.569 
+beginning with the render subset so
+let's<00:00:43.379> see<00:00:43.469> this<00:00:43.680> how<00:00:43.829> will<00:00:44.010> work<00:00:44.219> I<00:00:44.370> want<00:00:44.520> to
+
+00:00:44.569 --> 00:00:44.579 
+let's see this how will work I want to
+
+00:00:44.579 --> 00:00:46.610 
+let's see this how will work I want to
+point<00:00:44.700> out<00:00:44.850> here<00:00:45.090> this<00:00:45.239> is<00:00:45.420> a<00:00:45.450> area<00:00:46.020> light<00:00:46.320> and
+
+00:00:46.610 --> 00:00:46.620 
+point out here this is a area light and
+
+00:00:46.620 --> 00:00:48.740 
+point out here this is a area light and
+these<00:00:46.739> are<00:00:46.860> opening<00:00:47.219> to<00:00:47.640> view<00:00:48.180> the<00:00:48.360> background
+
+00:00:48.740 --> 00:00:48.750 
+these are opening to view the background
+
+00:00:48.750 --> 00:00:50.180 
+these are opening to view the background
+background<00:00:48.960> this<00:00:49.200> is<00:00:49.350> great<00:00:49.559> don't<00:00:50.010> get
+
+00:00:50.180 --> 00:00:50.190 
+background this is great don't get
+
+00:00:50.190 --> 00:00:51.950 
+background this is great don't get
+confused<00:00:50.370> to<00:00:50.670> be<00:00:50.789> these<00:00:51.030> lights<00:00:51.390> this<00:00:51.629> is<00:00:51.780> just
+
+00:00:51.950 --> 00:00:51.960 
+confused to be these lights this is just
+
+00:00:51.960 --> 00:00:53.990 
+confused to be these lights this is just
+gray<00:00:52.140> colors<00:00:52.469> and<00:00:52.649> this<00:00:53.100> is<00:00:53.219> white<00:00:53.430> I'm<00:00:53.789> hoping
+
+00:00:53.990 --> 00:00:54.000 
+gray colors and this is white I'm hoping
+
+00:00:54.000 --> 00:00:55.520 
+gray colors and this is white I'm hoping
+that<00:00:54.300> the<00:00:54.480> recording<00:00:54.960> will<00:00:55.110> capture<00:00:55.320> the
+
+00:00:55.520 --> 00:00:55.530 
+that the recording will capture the
+
+00:00:55.530 --> 00:00:57.740 
+that the recording will capture the
+color<00:00:55.680> difference<00:00:56.100> don't<00:00:57.000> minimize<00:00:57.180> this<00:00:57.539> one
+
+00:00:57.740 --> 00:00:57.750 
+color difference don't minimize this one
+
+00:00:57.750 --> 00:00:59.420 
+color difference don't minimize this one
+select<00:00:57.989> the<00:00:58.199> camera<00:00:58.530> under<00:00:59.010> mental<00:00:59.340> ray
+
+00:00:59.420 --> 00:00:59.430 
+select the camera under mental ray
+
+00:00:59.430 --> 00:01:02.540 
+select the camera under mental ray
+section<00:00:59.570> we<00:01:00.570> can<00:01:00.719> apply<00:01:01.109> a<00:01:01.379> lens<00:01:01.710> shader<00:01:01.980> since
+
+00:01:02.540 --> 00:01:02.550 
+section we can apply a lens shader since
+
+00:01:02.550 --> 00:01:04.009 
+section we can apply a lens shader since
+it's<00:01:02.730> a<00:01:02.850> lens<00:01:03.030> it's<00:01:03.449> gonna<00:01:03.539> be<00:01:03.690> under<00:01:03.870> the
+
+00:01:04.009 --> 00:01:04.019 
+it's a lens it's gonna be under the
+
+00:01:04.019 --> 00:01:06.260 
+it's a lens it's gonna be under the
+lenses<00:01:04.379> here<00:01:04.710> it<00:01:04.830> is<00:01:04.949> and<00:01:05.220> by<00:01:05.700> default<00:01:06.000> you
+
+00:01:06.260 --> 00:01:06.270 
+lenses here it is and by default you
+
+00:01:06.270 --> 00:01:08.090 
+lenses here it is and by default you
+will<00:01:06.330> see<00:01:06.630> a<00:01:06.659> couple<00:01:06.960> of<00:01:06.990> things<00:01:07.200> on<00:01:07.439> enable
+
+00:01:08.090 --> 00:01:08.100 
+will see a couple of things on enable
+
+00:01:08.100 --> 00:01:09.740 
+will see a couple of things on enable
+the<00:01:08.250> system's<00:01:08.640> turn<00:01:08.820> the<00:01:08.970> function<00:01:09.420> on<00:01:09.570> and
+
+00:01:09.740 --> 00:01:09.750 
+the system's turn the function on and
+
+00:01:09.750 --> 00:01:12.679 
+the system's turn the function on and
+off<00:01:09.869> and<00:01:10.229> there<00:01:11.010> is<00:01:11.100> one<00:01:11.250> here<00:01:11.520> that<00:01:11.670> is<00:01:11.729> hidden
+
+00:01:12.679 --> 00:01:12.689 
+off and there is one here that is hidden
+
+00:01:12.689 --> 00:01:14.810 
+off and there is one here that is hidden
+its<00:01:12.990> objects<00:01:13.530> and<00:01:13.740> the<00:01:14.040> one<00:01:14.159> that<00:01:14.340> we<00:01:14.520> choose
+
+00:01:14.810 --> 00:01:14.820 
+its objects and the one that we choose
+
+00:01:14.820 --> 00:01:16.999 
+its objects and the one that we choose
+we<00:01:15.119> can<00:01:15.299> work<00:01:15.479> with<00:01:15.689> as<00:01:15.869> the<00:01:16.020> material<00:01:16.439> so<00:01:16.950> you
+
+00:01:16.999 --> 00:01:17.009 
+we can work with as the material so you
+
+00:01:17.009 --> 00:01:19.010 
+we can work with as the material so you
+can<00:01:17.250> choose<00:01:17.460> either<00:01:17.790> by<00:01:18.090> choosing<00:01:18.240> an<00:01:18.600> object
+
+00:01:19.010 --> 00:01:19.020 
+can choose either by choosing an object
+
+00:01:19.020 --> 00:01:20.690 
+can choose either by choosing an object
+or<00:01:19.200> a<00:01:19.500> material<00:01:19.770> that<00:01:20.040> you<00:01:20.100> want<00:01:20.220> actually<00:01:20.400> so
+
+00:01:20.690 --> 00:01:20.700 
+or a material that you want actually so
+
+00:01:20.700 --> 00:01:21.710 
+or a material that you want actually so
+for<00:01:20.820> example<00:01:21.150> we're<00:01:21.270> just<00:01:21.390> going<00:01:21.540> to<00:01:21.600> change
+
+00:01:21.710 --> 00:01:21.720 
+for example we're just going to change
+
+00:01:21.720 --> 00:01:24.050 
+for example we're just going to change
+this<00:01:22.080> ariel<00:01:22.439> is<00:01:22.500> only<00:01:22.680> applied<00:01:23.040> onto<00:01:23.490> one
+
+00:01:24.050 --> 00:01:24.060 
+this ariel is only applied onto one
+
+00:01:24.060 --> 00:01:25.760 
+this ariel is only applied onto one
+object<00:01:24.450> it's<00:01:24.750> gonna<00:01:24.869> be<00:01:25.020> easier<00:01:25.350> to<00:01:25.500> pick<00:01:25.619> so
+
+00:01:25.760 --> 00:01:25.770 
+object it's gonna be easier to pick so
+
+00:01:25.770 --> 00:01:27.109 
+object it's gonna be easier to pick so
+i'm<00:01:25.860> gonna<00:01:26.009> go<00:01:26.130> to<00:01:26.189> my<00:01:26.280> harbour<00:01:26.610> shade<00:01:26.820> and
+
+00:01:27.109 --> 00:01:27.119 
+i'm gonna go to my harbour shade and
+
+00:01:27.119 --> 00:01:30.260 
+i'm gonna go to my harbour shade and
+this<00:01:27.930> is<00:01:28.049> my<00:01:28.229> chrome<00:01:28.740> material<00:01:29.280> expanded<00:01:30.150> this
+
+00:01:30.260 --> 00:01:30.270 
+this is my chrome material expanded this
+
+00:01:30.270 --> 00:01:32.510 
+this is my chrome material expanded this
+in<00:01:30.450> and<00:01:30.600> out<00:01:30.689> go<00:01:31.439> back<00:01:31.470> to<00:01:31.799> my<00:01:31.890> render<00:01:32.159> subset
+
+00:01:32.510 --> 00:01:32.520 
+in and out go back to my render subset
+
+00:01:32.520 --> 00:01:33.920 
+in and out go back to my render subset
+and<00:01:32.820> when<00:01:33.060> you're<00:01:33.210> applying<00:01:33.540> the<00:01:33.720> material
+
+00:01:33.920 --> 00:01:33.930 
+and when you're applying the material
+
+00:01:33.930 --> 00:01:36.649 
+and when you're applying the material
+you<00:01:34.320> want<00:01:34.439> to<00:01:34.500> make<00:01:34.619> sure<00:01:34.650> you<00:01:34.979> apply<00:01:35.400> the<00:01:36.210> SG
+
+00:01:36.649 --> 00:01:36.659 
+you want to make sure you apply the SG
+
+00:01:36.659 --> 00:01:38.840 
+you want to make sure you apply the SG
+node<00:01:36.869> not<00:01:37.350> the<00:01:37.500> shader<00:01:37.740> itself<00:01:38.220> but<00:01:38.430> the<00:01:38.579> su
+
+00:01:38.840 --> 00:01:38.850 
+node not the shader itself but the su
+
+00:01:38.850 --> 00:01:40.100 
+node not the shader itself but the su
+note<00:01:38.970> in<00:01:39.119> the<00:01:39.240> art<00:01:39.390> so<00:01:39.540> enter<00:01:39.840> it<00:01:39.930> the
+
+00:01:40.100 --> 00:01:40.110 
+note in the art so enter it the
+
+00:01:40.110 --> 00:01:43.850 
+note in the art so enter it the
+materials<00:01:40.619> are<00:01:40.920> in<00:01:41.610> here<00:01:41.880> in<00:01:42.119> the<00:01:42.329> SG<00:01:42.720> node<00:01:42.930> not
+
+00:01:43.850 --> 00:01:43.860 
+materials are in here in the SG node not
+
+00:01:43.860 --> 00:01:46.819 
+materials are in here in the SG node not
+at<00:01:44.430> the<00:01:44.670> shader<00:01:44.880> level<00:01:45.270> going<00:01:46.259> back<00:01:46.439> to<00:01:46.649> my
+
+00:01:46.819 --> 00:01:46.829 
+at the shader level going back to my
+
+00:01:46.829 --> 00:01:49.249 
+at the shader level going back to my
+render<00:01:47.369> upset<00:01:47.759> middle<00:01:48.180> Mouse<00:01:48.329> drag<00:01:48.360> and<00:01:49.079> drop
+
+00:01:49.249 --> 00:01:49.259 
+render upset middle Mouse drag and drop
+
+00:01:49.259 --> 00:01:51.740 
+render upset middle Mouse drag and drop
+as<00:01:49.799> simple<00:01:50.189> as<00:01:50.310> that<00:01:50.340> and<00:01:50.850> go<00:01:51.210> back<00:01:51.420> to<00:01:51.600> my
+
+00:01:51.740 --> 00:01:51.750 
+as simple as that and go back to my
+
+00:01:51.750 --> 00:01:54.080 
+as simple as that and go back to my
+render<00:01:52.350> view<00:01:52.530> keep<00:01:53.040> this<00:01:53.189> and<00:01:53.700> actually<00:01:53.970> this
+
+00:01:54.080 --> 00:01:54.090 
+render view keep this and actually this
+
+00:01:54.090 --> 00:01:55.429 
+render view keep this and actually this
+is<00:01:54.240> change<00:01:54.390> the<00:01:54.540> shader<00:01:54.750> a<00:01:54.869> little<00:01:55.170> bit<00:01:55.290> before
+
+00:01:55.429 --> 00:01:55.439 
+is change the shader a little bit before
+
+00:01:55.439 --> 00:01:57.980 
+is change the shader a little bit before
+we<00:01:55.590> start<00:01:55.920> and<00:01:56.280> make<00:01:57.119> the<00:01:57.299> color<00:01:57.509> something
+
+00:01:57.980 --> 00:01:57.990 
+we start and make the color something
+
+00:01:57.990 --> 00:02:00.649 
+we start and make the color something
+very<00:01:58.200> visible<00:01:58.590> and<00:01:59.130> maybe<00:01:59.939> reduce<00:02:00.329> the
+
+00:02:00.649 --> 00:02:00.659 
+very visible and maybe reduce the
+
+00:02:00.659 --> 00:02:04.010 
+very visible and maybe reduce the
+reflectivity<00:02:00.860> and<00:02:01.860> render<00:02:02.520> again<00:02:02.750> as<00:02:03.750> you<00:02:03.869> can
+
+00:02:04.010 --> 00:02:04.020 
+reflectivity and render again as you can
+
+00:02:04.020 --> 00:02:05.870 
+reflectivity and render again as you can
+see<00:02:04.140> the<00:02:04.290> render<00:02:04.530> is<00:02:04.649> going<00:02:04.829> very<00:02:05.070> fast<00:02:05.310> and
+
+00:02:05.870 --> 00:02:05.880 
+see the render is going very fast and
+
+00:02:05.880 --> 00:02:08.240 
+see the render is going very fast and
+render<00:02:06.270> time<00:02:06.509> is<00:02:06.840> 16<00:02:07.229> seconds<00:02:07.710> rather<00:02:08.099> than
+
+00:02:08.240 --> 00:02:08.250 
+render time is 16 seconds rather than
+
+00:02:08.250 --> 00:02:11.089 
+render time is 16 seconds rather than
+one<00:02:08.610> minute<00:02:08.970> because<00:02:09.509> it<00:02:09.690> apply<00:02:10.289> the<00:02:10.349> what<00:02:10.979> the
+
+00:02:11.089 --> 00:02:11.099 
+one minute because it apply the what the
+
+00:02:11.099 --> 00:02:13.320 
+one minute because it apply the what the
+I<00:02:11.129> rays<00:02:11.670> or<00:02:11.970> there<00:02:12.270> is<00:02:12.420> it<00:02:12.599> gets<00:02:12.810> set
+
+00:02:13.320 --> 00:02:13.330 
+I rays or there is it gets set
+
+00:02:13.330 --> 00:02:14.940 
+I rays or there is it gets set
+from<00:02:13.420> the<00:02:13.540> camera<00:02:13.930> and<00:02:14.080> this<00:02:14.350> is<00:02:14.470> what<00:02:14.650> it<00:02:14.770> only
+
+00:02:14.940 --> 00:02:14.950 
+from the camera and this is what it only
+
+00:02:14.950 --> 00:02:17.070 
+from the camera and this is what it only
+sees<00:02:15.310> as<00:02:15.760> you<00:02:15.910> will<00:02:16.030> see<00:02:16.180> it<00:02:16.330> actually<00:02:16.720> called
+
+00:02:17.070 --> 00:02:17.080 
+sees as you will see it actually called
+
+00:02:17.080 --> 00:02:19.530 
+sees as you will see it actually called
+the<00:02:17.560> reflections<00:02:18.130> that<00:02:18.550> is<00:02:18.850> surrounding<00:02:19.450> it
+
+00:02:19.530 --> 00:02:19.540 
+the reflections that is surrounding it
+
+00:02:19.540 --> 00:02:21.600 
+the reflections that is surrounding it
+so<00:02:19.570> you<00:02:19.930> didn't<00:02:20.530> lose<00:02:20.680> that<00:02:20.950> so<00:02:21.160> it's<00:02:21.280> not<00:02:21.400> like
+
+00:02:21.600 --> 00:02:21.610 
+so you didn't lose that so it's not like
+
+00:02:21.610 --> 00:02:23.100 
+so you didn't lose that so it's not like
+you<00:02:21.760> go<00:02:21.970> to<00:02:22.030> the<00:02:22.210> attribute<00:02:22.570> editor<00:02:22.690> of
+
+00:02:23.100 --> 00:02:23.110 
+you go to the attribute editor of
+
+00:02:23.110 --> 00:02:25.290 
+you go to the attribute editor of
+surface<00:02:23.920> and<00:02:24.100> say<00:02:24.280> disable<00:02:24.910> reflection
+
+00:02:25.290 --> 00:02:25.300 
+surface and say disable reflection
+
+00:02:25.300 --> 00:02:27.390 
+surface and say disable reflection
+refraction<00:02:25.480> actually<00:02:26.020> it<00:02:26.140> calculated<00:02:26.980> and
+
+00:02:27.390 --> 00:02:27.400 
+refraction actually it calculated and
+
+00:02:27.400 --> 00:02:29.490 
+refraction actually it calculated and
+how<00:02:27.520> it<00:02:27.640> works<00:02:27.850> it<00:02:28.030> actually<00:02:28.390> uses<00:02:29.110> the<00:02:29.320> Rays
+
+00:02:29.490 --> 00:02:29.500 
+how it works it actually uses the Rays
+
+00:02:29.500 --> 00:02:32.100 
+how it works it actually uses the Rays
+that<00:02:30.040> happened<00:02:30.520> and<00:02:30.760> rate<00:02:31.150> trace<00:02:31.390> I<00:02:31.570> render<00:02:31.930> so
+
+00:02:32.100 --> 00:02:32.110 
+that happened and rate trace I render so
+
+00:02:32.110 --> 00:02:34.200 
+that happened and rate trace I render so
+therefore<00:02:32.650> if<00:02:32.830> you<00:02:32.980> go<00:02:33.580> to<00:02:33.640> your<00:02:33.910> render
+
+00:02:34.200 --> 00:02:34.210 
+therefore if you go to your render
+
+00:02:34.210 --> 00:02:38.550 
+therefore if you go to your render
+settings<00:02:34.570> and<00:02:35.130> change<00:02:36.130> to<00:02:36.690> rasterizer<00:02:37.690> it<00:02:38.320> you
+
+00:02:38.550 --> 00:02:38.560 
+settings and change to rasterizer it you
+
+00:02:38.560 --> 00:02:39.720 
+settings and change to rasterizer it you
+might<00:02:38.860> have<00:02:39.040> a<00:02:39.070> different<00:02:39.400> result<00:02:39.490> because
+
+00:02:39.720 --> 00:02:39.730 
+might have a different result because
+
+00:02:39.730 --> 00:02:41.220 
+might have a different result because
+the<00:02:40.000> rasterize<00:02:40.390> look<00:02:40.570> for<00:02:40.720> that<00:02:40.870> list<00:02:41.050> rate
+
+00:02:41.220 --> 00:02:41.230 
+the rasterize look for that list rate
+
+00:02:41.230 --> 00:02:42.990 
+the rasterize look for that list rate
+after<00:02:41.530> the<00:02:41.860> first<00:02:42.070> pass<00:02:42.220> array<00:02:42.550> so<00:02:42.760> we'll<00:02:42.850> see
+
+00:02:42.990 --> 00:02:43.000 
+after the first pass array so we'll see
+
+00:02:43.000 --> 00:02:45.120 
+after the first pass array so we'll see
+if<00:02:43.630> I<00:02:43.780> change<00:02:44.080> this<00:02:44.260> to<00:02:44.470> rasterize<00:02:44.890> and
+
+00:02:45.120 --> 00:02:45.130 
+if I change this to rasterize and
+
+00:02:45.130 --> 00:02:47.730 
+if I change this to rasterize and
+remember<00:02:45.520> goes<00:02:46.270> to<00:02:46.390> the<00:02:46.510> first<00:02:46.720> pass<00:02:46.930> but<00:02:47.230> then
+
+00:02:47.730 --> 00:02:47.740 
+remember goes to the first pass but then
+
+00:02:47.740 --> 00:02:51.840 
+remember goes to the first pass but then
+it's<00:02:48.070> not<00:02:48.220> gonna<00:02:48.430> see<00:02:48.640> the<00:02:48.790> legislature<00:02:50.850> you
+
+00:02:51.840 --> 00:02:51.850 
+it's not gonna see the legislature you
+
+00:02:51.850 --> 00:02:55.410 
+it's not gonna see the legislature you
+see<00:02:52.060> here<00:02:52.240> it<00:02:52.360> started<00:02:52.750> to<00:02:53.110> miss<00:02:53.290> it<00:02:54.300> so<00:02:55.300> I'm
+
+00:02:55.410 --> 00:02:55.420 
+see here it started to miss it so I'm
+
+00:02:55.420 --> 00:02:57.360 
+see here it started to miss it so I'm
+gonna<00:02:55.570> go<00:02:55.660> back<00:02:55.930> and<00:02:55.959> disable<00:02:56.560> the<00:02:56.920> rasterizer
+
+00:02:57.360 --> 00:02:57.370 
+gonna go back and disable the rasterizer
+
+00:02:57.370 --> 00:03:00.510 
+gonna go back and disable the rasterizer
+and<00:02:58.030> go<00:02:58.840> back<00:02:59.050> to<00:02:59.200> scanline<00:02:59.590> let's<00:03:00.130> go<00:03:00.280> back
+
+00:03:00.510 --> 00:03:00.520 
+and go back to scanline let's go back
+
+00:03:00.520 --> 00:03:03.030 
+and go back to scanline let's go back
+here<00:03:01.090> to<00:03:01.360> the<00:03:01.690> render<00:03:01.900> subset<00:03:02.290> as<00:03:02.470> I<00:03:02.680> said<00:03:02.860> in
+
+00:03:03.030 --> 00:03:03.040 
+here to the render subset as I said in
+
+00:03:03.040 --> 00:03:04.560 
+here to the render subset as I said in
+the<00:03:03.100> beginning<00:03:03.459> you<00:03:03.490> can<00:03:03.790> change<00:03:04.060> that<00:03:04.270> to<00:03:04.330> be
+
+00:03:04.560 --> 00:03:04.570 
+the beginning you can change that to be
+
+00:03:04.570 --> 00:03:06.630 
+the beginning you can change that to be
+an<00:03:04.810> object<00:03:05.140> to<00:03:05.470> the<00:03:05.590> say<00:03:05.740> for<00:03:05.770> example<00:03:06.340> break
+
+00:03:06.630 --> 00:03:06.640 
+an object to the say for example break
+
+00:03:06.640 --> 00:03:09.330 
+an object to the say for example break
+this<00:03:06.760> connection<00:03:07.270> and<00:03:07.800> let's<00:03:08.800> say<00:03:08.890> we<00:03:09.040> want<00:03:09.070> to
+
+00:03:09.330 --> 00:03:09.340 
+this connection and let's say we want to
+
+00:03:09.340 --> 00:03:11.220 
+this connection and let's say we want to
+have<00:03:09.580> another<00:03:10.030> object<00:03:10.240> so<00:03:10.510> only<00:03:10.720> the<00:03:10.959> render
+
+00:03:11.220 --> 00:03:11.230 
+have another object so only the render
+
+00:03:11.230 --> 00:03:13.380 
+have another object so only the render
+so<00:03:11.380> for<00:03:11.500> example<00:03:11.830> is<00:03:11.950> called<00:03:12.130> this<00:03:12.430> ball<00:03:12.850> and
+
+00:03:13.380 --> 00:03:13.390 
+so for example is called this ball and
+
+00:03:13.390 --> 00:03:14.130 
+so for example is called this ball and
+you<00:03:13.450> know<00:03:13.570> that<00:03:13.720> you<00:03:13.810> typed<00:03:14.020> it<00:03:14.110> correctly
+
+00:03:14.130 --> 00:03:14.140 
+you know that you typed it correctly
+
+00:03:14.140 --> 00:03:16.080 
+you know that you typed it correctly
+because<00:03:14.590> now<00:03:14.860> this<00:03:15.070> arrow<00:03:15.250> has<00:03:15.580> changed<00:03:15.940> if
+
+00:03:16.080 --> 00:03:16.090 
+because now this arrow has changed if
+
+00:03:16.090 --> 00:03:17.880 
+because now this arrow has changed if
+you<00:03:16.240> want<00:03:16.420> to<00:03:16.510> have<00:03:16.660> another<00:03:17.170> object<00:03:17.380> you<00:03:17.680> can
+
+00:03:17.880 --> 00:03:17.890 
+you want to have another object you can
+
+00:03:17.890 --> 00:03:20.190 
+you want to have another object you can
+add<00:03:18.070> in<00:03:18.310> lets<00:03:18.700> me<00:03:18.850> create<00:03:19.300> another<00:03:19.690> one<00:03:19.900> really
+
+00:03:20.190 --> 00:03:20.200 
+add in lets me create another one really
+
+00:03:20.200 --> 00:03:24.190 
+add in lets me create another one really
+quickly<00:03:20.440> here
+
+00:03:24.190 --> 00:03:24.200 
+
+00:03:24.200 --> 00:03:26.619 
+
+I'm<00:03:24.860> gonna<00:03:25.129> go<00:03:25.310> back<00:03:25.520> to<00:03:25.550> my<00:03:25.760> render<00:03:26.239> subset
+
+00:03:26.619 --> 00:03:26.629 
+I'm gonna go back to my render subset
+
+00:03:26.629 --> 00:03:29.350 
+I'm gonna go back to my render subset
+once<00:03:27.260> you<00:03:27.410> select<00:03:27.950> it<00:03:28.069> again<00:03:28.190> will<00:03:28.819> show<00:03:29.209> that
+
+00:03:29.350 --> 00:03:29.360 
+once you select it again will show that
+
+00:03:29.360 --> 00:03:31.330 
+once you select it again will show that
+there<00:03:29.510> you<00:03:29.599> can<00:03:29.750> add<00:03:29.959> other<00:03:30.200> objects<00:03:30.739> now
+
+00:03:31.330 --> 00:03:31.340 
+there you can add other objects now
+
+00:03:31.340 --> 00:03:36.880 
+there you can add other objects now
+let's<00:03:31.580> rerender<00:03:32.090> this<00:03:35.560> again<00:03:36.560> the<00:03:36.680> render
+
+00:03:36.880 --> 00:03:36.890 
+let's rerender this again the render
+
+00:03:36.890 --> 00:03:38.290 
+let's rerender this again the render
+happens<00:03:37.190> very<00:03:37.310> fast<00:03:37.580> and<00:03:37.819> you<00:03:37.879> can<00:03:38.060> see<00:03:38.180> it's
+
+00:03:38.290 --> 00:03:38.300 
+happens very fast and you can see it's
+
+00:03:38.300 --> 00:03:39.820 
+happens very fast and you can see it's
+all<00:03:38.450> rendered<00:03:38.629> only<00:03:39.140> the<00:03:39.260> two<00:03:39.379> objects<00:03:39.769> that
+
+00:03:39.820 --> 00:03:39.830 
+all rendered only the two objects that
+
+00:03:39.830 --> 00:03:42.370 
+all rendered only the two objects that
+we<00:03:40.010> choose<00:03:40.250> now<00:03:41.060> if<00:03:41.269> you<00:03:41.420> want<00:03:41.599> to<00:03:41.660> add<00:03:41.840> another
+
+00:03:42.370 --> 00:03:42.380 
+we choose now if you want to add another
+
+00:03:42.380 --> 00:03:44.589 
+we choose now if you want to add another
+constraint<00:03:43.190> which<00:03:43.489> is<00:03:43.670> here<00:03:43.940> for<00:03:44.150> example<00:03:44.360> the
+
+00:03:44.589 --> 00:03:44.599 
+constraint which is here for example the
+
+00:03:44.599 --> 00:03:45.940 
+constraint which is here for example the
+material<00:03:45.019> and<00:03:45.200> for<00:03:45.380> this<00:03:45.530> one<00:03:45.709> we're<00:03:45.860> gonna
+
+00:03:45.940 --> 00:03:45.950 
+material and for this one we're gonna
+
+00:03:45.950 --> 00:03:48.130 
+material and for this one we're gonna
+use<00:03:46.069> the<00:03:46.670> same<00:03:46.700> shader<00:03:47.269> that<00:03:47.360> we<00:03:47.630> use<00:03:47.780> for<00:03:47.989> the
+
+00:03:48.130 --> 00:03:48.140 
+use the same shader that we use for the
+
+00:03:48.140 --> 00:03:52.610 
+use the same shader that we use for the
+Chrome<00:03:48.349> and<00:03:48.590> again<00:03:48.800> we<00:03:48.920> want<00:03:49.040> ESG<00:03:49.489> node
+
+00:03:52.610 --> 00:03:52.620 
+
+00:03:52.620 --> 00:03:54.860 
+
+now<00:03:53.550> we<00:03:53.610> have<00:03:53.849> three<00:03:54.060> chemistry<00:03:54.450> the<00:03:54.660> first
+
+00:03:54.860 --> 00:03:54.870 
+now we have three chemistry the first
+
+00:03:54.870 --> 00:03:56.630 
+now we have three chemistry the first
+one<00:03:55.019> he<00:03:55.080> says<00:03:55.290> I<00:03:55.470> want<00:03:55.739> to<00:03:55.860> render<00:03:56.040> the<00:03:56.250> ball<00:03:56.400> C
+
+00:03:56.630 --> 00:03:56.640 
+one he says I want to render the ball C
+
+00:03:56.640 --> 00:03:58.190 
+one he says I want to render the ball C
+and<00:03:56.819> I<00:03:56.910> want<00:03:57.120> to<00:03:57.209> render<00:03:57.330> the<00:03:57.599> cordon<00:03:57.930> but<00:03:58.170> I
+
+00:03:58.190 --> 00:03:58.200 
+and I want to render the cordon but I
+
+00:03:58.200 --> 00:04:00.619 
+and I want to render the cordon but I
+also<00:03:58.440> want<00:03:58.800> to<00:03:59.010> constrain<00:03:59.519> it<00:03:59.580> with<00:04:00.510> the
+
+00:04:00.619 --> 00:04:00.629 
+also want to constrain it with the
+
+00:04:00.629 --> 00:04:02.839 
+also want to constrain it with the
+shader<00:04:00.870> that<00:04:01.140> is<00:04:01.290> assigned<00:04:02.129> to<00:04:02.519> the<00:04:02.610> chrome
+
+00:04:02.839 --> 00:04:02.849 
+shader that is assigned to the chrome
+
+00:04:02.849 --> 00:04:04.250 
+shader that is assigned to the chrome
+shader<00:04:03.090> which<00:04:03.300> is<00:04:03.420> only<00:04:03.660> assigned<00:04:03.930> here<00:04:04.110> so
+
+00:04:04.250 --> 00:04:04.260 
+shader which is only assigned here so
+
+00:04:04.260 --> 00:04:08.330 
+shader which is only assigned here so
+let's<00:04:04.410> render<00:04:04.590> seawater<00:04:06.890> and<00:04:07.890> you'll<00:04:08.069> see<00:04:08.220> it
+
+00:04:08.330 --> 00:04:08.340 
+let's render seawater and you'll see it
+
+00:04:08.340 --> 00:04:10.369 
+let's render seawater and you'll see it
+only<00:04:08.459> rendered<00:04:09.030> the<00:04:09.239> sphere<00:04:09.480> and<00:04:09.750> eliminated
+
+00:04:10.369 --> 00:04:10.379 
+only rendered the sphere and eliminated
+
+00:04:10.379 --> 00:04:11.960 
+only rendered the sphere and eliminated
+the<00:04:10.500> cone<00:04:10.709> even<00:04:11.310> though<00:04:11.430> that<00:04:11.549> the<00:04:11.670> cone<00:04:11.849> is
+
+00:04:11.960 --> 00:04:11.970 
+the cone even though that the cone is
+
+00:04:11.970 --> 00:04:13.509 
+the cone even though that the cone is
+here<00:04:12.180> because<00:04:12.330> all<00:04:12.690> these<00:04:12.930> constraints
+
+00:04:13.509 --> 00:04:13.519 
+here because all these constraints
+
+00:04:13.519 --> 00:04:16.129 
+here because all these constraints
+according<00:04:14.519> to<00:04:14.610> the<00:04:14.700> shader<00:04:14.910> has<00:04:15.000> to<00:04:15.450> be<00:04:15.569> met<00:04:15.840> so
+
+00:04:16.129 --> 00:04:16.139 
+according to the shader has to be met so
+
+00:04:16.139 --> 00:04:18.170 
+according to the shader has to be met so
+all<00:04:16.380> these<00:04:16.560> variables<00:04:16.919> is<00:04:17.340> there<00:04:17.639> on<00:04:17.880> the<00:04:18.000> ball
+
+00:04:18.170 --> 00:04:18.180 
+all these variables is there on the ball
+
+00:04:18.180 --> 00:04:20.090 
+all these variables is there on the ball
+and<00:04:18.329> on<00:04:18.449> the<00:04:18.540> cone<00:04:18.750> but<00:04:18.900> I<00:04:18.959> also<00:04:19.229> want<00:04:19.709> the
+
+00:04:20.090 --> 00:04:20.100 
+and on the cone but I also want the
+
+00:04:20.100 --> 00:04:22.069 
+and on the cone but I also want the
+shaders<00:04:20.430> that<00:04:20.459> would<00:04:20.820> only<00:04:21.030> have<00:04:21.449> to<00:04:21.630> fulfill
+
+00:04:22.069 --> 00:04:22.079 
+shaders that would only have to fulfill
+
+00:04:22.079 --> 00:04:24.290 
+shaders that would only have to fulfill
+all<00:04:22.260> of<00:04:22.380> them<00:04:22.740> so<00:04:22.949> since<00:04:23.160> the<00:04:23.340> cone<00:04:23.520> doesn't
+
+00:04:24.290 --> 00:04:24.300 
+all of them so since the cone doesn't
+
+00:04:24.300 --> 00:04:25.760 
+all of them so since the cone doesn't
+have<00:04:24.510> the<00:04:24.720> shader<00:04:24.960> that<00:04:25.080> is<00:04:25.380> the<00:04:25.530> chrome
+
+00:04:25.760 --> 00:04:25.770 
+have the shader that is the chrome
+
+00:04:25.770 --> 00:04:27.469 
+have the shader that is the chrome
+assigned<00:04:26.190> it's<00:04:26.400> going<00:04:26.580> to<00:04:26.639> eliminate<00:04:26.790> it<00:04:27.150> so
+
+00:04:27.469 --> 00:04:27.479 
+assigned it's going to eliminate it so
+
+00:04:27.479 --> 00:04:29.300 
+assigned it's going to eliminate it so
+this<00:04:27.900> one's<00:04:28.139> a<00:04:28.290> break<00:04:28.620> the<00:04:28.770> connection<00:04:28.979> break
+
+00:04:29.300 --> 00:04:29.310 
+this one's a break the connection break
+
+00:04:29.310 --> 00:04:31.640 
+this one's a break the connection break
+the<00:04:29.430> connection<00:04:29.780> and<00:04:30.780> break<00:04:31.110> the<00:04:31.290> connection
+
+00:04:31.640 --> 00:04:31.650 
+the connection and break the connection
+
+00:04:31.650 --> 00:04:33.110 
+the connection and break the connection
+again<00:04:32.010> to<00:04:32.370> make<00:04:32.490> sure<00:04:32.610> that<00:04:32.729> you<00:04:32.850> are<00:04:32.940> starting
+
+00:04:33.110 --> 00:04:33.120 
+again to make sure that you are starting
+
+00:04:33.120 --> 00:04:35.300 
+again to make sure that you are starting
+again<00:04:33.419> fresh<00:04:33.810> and<00:04:34.139> whatever<00:04:34.560> actually<00:04:35.040> let<00:04:35.190> me
+
+00:04:35.300 --> 00:04:35.310 
+again fresh and whatever actually let me
+
+00:04:35.310 --> 00:04:36.860 
+again fresh and whatever actually let me
+point<00:04:35.460> out<00:04:35.639> here<00:04:35.910> you'll<00:04:36.270> see<00:04:36.450> it<00:04:36.660> doesn't
+
+00:04:36.860 --> 00:04:36.870 
+point out here you'll see it doesn't
+
+00:04:36.870 --> 00:04:38.240 
+point out here you'll see it doesn't
+have<00:04:37.080> an<00:04:37.229> alpha<00:04:37.620> or<00:04:37.650> it<00:04:37.770> doesn't<00:04:37.889> have<00:04:38.070> any
+
+00:04:38.240 --> 00:04:38.250 
+have an alpha or it doesn't have any
+
+00:04:38.250 --> 00:04:41.150 
+have an alpha or it doesn't have any
+masking<00:04:38.610> out<00:04:38.790> so<00:04:39.630> let's<00:04:39.990> get<00:04:40.200> the<00:04:40.770> ball<00:04:40.919> C
+
+00:04:41.150 --> 00:04:41.160 
+masking out so let's get the ball C
+
+00:04:41.160 --> 00:04:42.740 
+masking out so let's get the ball C
+again<00:04:41.460> so<00:04:41.700> that<00:04:41.850> means<00:04:42.030> we<00:04:42.120> can<00:04:42.270> only<00:04:42.479> render
+
+00:04:42.740 --> 00:04:42.750 
+again so that means we can only render
+
+00:04:42.750 --> 00:04:45.440 
+again so that means we can only render
+remember<00:04:43.050> this<00:04:43.169> time<00:04:43.440> the<00:04:43.979> ball<00:04:44.190> is<00:04:44.400> behind<00:04:44.940> as
+
+00:04:45.440 --> 00:04:45.450 
+remember this time the ball is behind as
+
+00:04:45.450 --> 00:04:47.240 
+remember this time the ball is behind as
+a<00:04:45.630> cone<00:04:45.870> so<00:04:46.050> it's<00:04:46.200> only<00:04:46.350> render<00:04:46.710> this<00:04:46.889> area
+
+00:04:47.240 --> 00:04:47.250 
+a cone so it's only render this area
+
+00:04:47.250 --> 00:04:49.610 
+a cone so it's only render this area
+here<00:04:47.400> and<00:04:47.520> for<00:04:48.360> this<00:04:48.510> I<00:04:48.690> want<00:04:48.720> to<00:04:48.990> say<00:04:49.200> I<00:04:49.350> only
+
+00:04:49.610 --> 00:04:49.620 
+here and for this I want to say I only
+
+00:04:49.620 --> 00:04:53.750 
+here and for this I want to say I only
+want<00:04:49.800> output<00:04:50.789> the<00:04:50.910> mask<00:04:52.370> and<00:04:53.370> now<00:04:53.460> you<00:04:53.520> have
+
+00:04:53.750 --> 00:04:53.760 
+want output the mask and now you have
+
+00:04:53.760 --> 00:04:55.129 
+want output the mask and now you have
+the<00:04:53.910> mask<00:04:54.120> in<00:04:54.300> case<00:04:54.449> if<00:04:54.570> you<00:04:54.600> want<00:04:54.720> to<00:04:54.840> take<00:04:54.990> it
+
+00:04:55.129 --> 00:04:55.139 
+the mask in case if you want to take it
+
+00:04:55.139 --> 00:04:56.690 
+the mask in case if you want to take it
+to<00:04:55.320> your<00:04:55.620> compositing<00:04:56.130> and<00:04:56.220> you<00:04:56.340> wanna<00:04:56.460> mask
+
+00:04:56.690 --> 00:04:56.700 
+to your compositing and you wanna mask
+
+00:04:56.700 --> 00:04:58.670 
+to your compositing and you wanna mask
+it<00:04:56.850> out<00:04:56.910> only<00:04:57.300> by<00:04:57.450> itself<00:04:57.690> and<00:04:57.870> use<00:04:58.320> the<00:04:58.500> mask
+
+00:04:58.670 --> 00:04:58.680 
+it out only by itself and use the mask
+
+00:04:58.680 --> 00:05:01.520 
+it out only by itself and use the mask
+to<00:04:58.919> extract<00:04:59.669> the<00:04:59.760> colors<00:05:00.060> or<00:05:00.300> you<00:05:01.080> know<00:05:01.229> help
+
+00:05:01.520 --> 00:05:01.530 
+to extract the colors or you know help
+
+00:05:01.530 --> 00:05:03.140 
+to extract the colors or you know help
+you<00:05:01.680> with<00:05:01.830> your<00:05:01.979> comp<00:05:02.250> you<00:05:02.669> can<00:05:02.850> do<00:05:02.970> that
+
+00:05:03.140 --> 00:05:03.150 
+you with your comp you can do that
+
+00:05:03.150 --> 00:05:04.940 
+you with your comp you can do that
+function<00:05:03.510> after<00:05:04.020> you<00:05:04.289> enable<00:05:04.590> that<00:05:04.620> you<00:05:04.800> can
+
+00:05:04.940 --> 00:05:04.950 
+function after you enable that you can
+
+00:05:04.950 --> 00:05:06.500 
+function after you enable that you can
+obviously<00:05:05.250> have<00:05:05.400> very<00:05:05.610> simple<00:05:05.880> functions
+
+00:05:06.500 --> 00:05:06.510 
+obviously have very simple functions
+
+00:05:06.510 --> 00:05:07.730 
+obviously have very simple functions
+here<00:05:06.690> you<00:05:06.780> can<00:05:06.930> have<00:05:07.050> a<00:05:07.110> mask<00:05:07.380> over<00:05:07.560> to<00:05:07.710> a
+
+00:05:07.730 --> 00:05:07.740 
+here you can have a mask over to a
+
+00:05:07.740 --> 00:05:09.680 
+here you can have a mask over to a
+certain<00:05:08.130> color<00:05:08.310> background<00:05:08.789> to<00:05:08.910> be<00:05:09.030> maybe
+
+00:05:09.680 --> 00:05:09.690 
+certain color background to be maybe
+
+00:05:09.690 --> 00:05:12.800 
+certain color background to be maybe
+blue<00:05:10.020> and<00:05:10.740> the<00:05:10.919> other<00:05:11.070> objects<00:05:11.580> to<00:05:11.700> be<00:05:11.849> red<00:05:12.450> so
+
+00:05:12.800 --> 00:05:12.810 
+blue and the other objects to be red so
+
+00:05:12.810 --> 00:05:15.710 
+blue and the other objects to be red so
+if<00:05:13.080> we<00:05:13.229> render<00:05:13.410> this<00:05:13.849> see<00:05:14.849> now<00:05:15.030> the<00:05:15.300> mask<00:05:15.479> color
+
+00:05:15.710 --> 00:05:15.720 
+if we render this see now the mask color
+
+00:05:15.720 --> 00:05:17.779 
+if we render this see now the mask color
+is<00:05:15.930> what<00:05:16.110> I<00:05:16.139> chose<00:05:16.410> the<00:05:17.130> background<00:05:17.520> color
+
+00:05:17.779 --> 00:05:17.789 
+is what I chose the background color
+
+00:05:17.789 --> 00:05:19.490 
+is what I chose the background color
+which<00:05:18.090> is<00:05:18.240> the<00:05:18.389> opening<00:05:18.750> in<00:05:18.870> the<00:05:18.990> windows<00:05:19.289> here
+
+00:05:19.490 --> 00:05:19.500 
+which is the opening in the windows here
+
+00:05:19.500 --> 00:05:23.360 
+which is the opening in the windows here
+came<00:05:19.830> blue<00:05:20.610> and<00:05:21.080> whatever<00:05:22.080> elements<00:05:22.710> in<00:05:23.160> the
+
+00:05:23.360 --> 00:05:23.370 
+came blue and whatever elements in the
+
+00:05:23.370 --> 00:05:25.310 
+came blue and whatever elements in the
+scene<00:05:23.610> or<00:05:23.880> the<00:05:24.000> object<00:05:24.570> in<00:05:24.660> the<00:05:24.750> scene<00:05:24.900> will
+
+00:05:25.310 --> 00:05:25.320 
+scene or the object in the scene will
+
+00:05:25.320 --> 00:05:27.230 
+scene or the object in the scene will
+take<00:05:25.530> that<00:05:25.710> color<00:05:25.919> just<00:05:26.190> reset<00:05:26.880> everything
+
+00:05:27.230 --> 00:05:27.240 
+take that color just reset everything
+
+00:05:27.240 --> 00:05:29.060 
+take that color just reset everything
+back<00:05:27.450> here<00:05:27.660> the<00:05:27.960> last<00:05:28.139> thing<00:05:28.349> we<00:05:28.470> see<00:05:28.650> here<00:05:28.680> is
+
+00:05:29.060 --> 00:05:29.070 
+back here the last thing we see here is
+
+00:05:29.070 --> 00:05:32.510 
+back here the last thing we see here is
+the<00:05:29.280> fullscreen<00:05:29.880> final<00:05:30.570> gather<00:05:30.810> and<00:05:31.520> enabling
+
+00:05:32.510 --> 00:05:32.520 
+the fullscreen final gather and enabling
+
+00:05:32.520 --> 00:05:34.400 
+the fullscreen final gather and enabling
+this<00:05:32.639> or<00:05:32.849> actually<00:05:33.120> it<00:05:33.270> is<00:05:33.419> on<00:05:33.630> by<00:05:33.870> default<00:05:33.930> for
+
+00:05:34.400 --> 00:05:34.410 
+this or actually it is on by default for
+
+00:05:34.410 --> 00:05:36.170 
+this or actually it is on by default for
+a<00:05:34.470> reason<00:05:34.800> because<00:05:34.889> what<00:05:35.340> we<00:05:35.490> want<00:05:35.729> is<00:05:35.910> to<00:05:35.970> have
+
+00:05:36.170 --> 00:05:36.180 
+a reason because what we want is to have
+
+00:05:36.180 --> 00:05:37.790 
+a reason because what we want is to have
+the<00:05:36.630> final<00:05:36.960> gather<00:05:37.139> elements<00:05:37.620> being
+
+00:05:37.790 --> 00:05:37.800 
+the final gather elements being
+
+00:05:37.800 --> 00:05:40.820 
+the final gather elements being
+calculated<00:05:38.400> to<00:05:39.000> the<00:05:39.120> entire<00:05:39.479> scene<00:05:39.840> so<00:05:40.440> let<00:05:40.650> me
+
+00:05:40.820 --> 00:05:40.830 
+calculated to the entire scene so let me
+
+00:05:40.830 --> 00:05:44.270 
+calculated to the entire scene so let me
+put<00:05:41.070> this<00:05:41.250> back<00:05:41.310> here<00:05:41.880> to<00:05:42.800> render<00:05:43.800> this<00:05:43.950> here
+
+00:05:44.270 --> 00:05:44.280 
+put this back here to render this here
+
+00:05:44.280 --> 00:05:46.370 
+put this back here to render this here
+and<00:05:44.639> we're<00:05:44.849> leaving<00:05:45.360> defined<00:05:46.110> on<00:05:46.200> the<00:05:46.260> other
+
+00:05:46.370 --> 00:05:46.380 
+and we're leaving defined on the other
+
+00:05:46.380 --> 00:05:50.300 
+and we're leaving defined on the other
+arm<00:05:47.330> so<00:05:48.330> it<00:05:48.660> calculated<00:05:49.349> or<00:05:49.530> reduced<00:05:49.889> all<00:05:50.160> the
+
+00:05:50.300 --> 00:05:50.310 
+arm so it calculated or reduced all the
+
+00:05:50.310 --> 00:05:51.800 
+arm so it calculated or reduced all the
+final<00:05:50.610> gather<00:05:50.789> elements<00:05:51.210> from<00:05:51.300> the<00:05:51.479> entire
+
+00:05:51.800 --> 00:05:51.810 
+final gather elements from the entire
+
+00:05:51.810 --> 00:05:53.870 
+final gather elements from the entire
+scene<00:05:52.169> that's<00:05:52.860> why<00:05:53.010> we<00:05:53.160> have<00:05:53.310> very<00:05:53.610> -<00:05:53.729> here
+
+00:05:53.870 --> 00:05:53.880 
+scene that's why we have very - here
+
+00:05:53.880 --> 00:05:56.029 
+scene that's why we have very - here
+from<00:05:54.030> thread<00:05:54.270> wall<00:05:54.990> so<00:05:55.229> let's<00:05:55.410> just<00:05:55.560> keep<00:05:55.800> this
+
+00:05:56.029 --> 00:05:56.039 
+from thread wall so let's just keep this
+
+00:05:56.039 --> 00:05:59.560 
+from thread wall so let's just keep this
+and<00:05:56.720> say<00:05:57.720> well<00:05:57.870> this<00:05:58.020> one<00:05:58.229> is<00:05:58.380> seven<00:05:58.740> seconds
+
+00:05:59.560 --> 00:05:59.570 
+and say well this one is seven seconds
+
+00:05:59.570 --> 00:06:02.959 
+and say well this one is seven seconds
+when<00:06:00.570> we<00:06:00.719> do<00:06:00.960> that<00:06:01.229> it's<00:06:02.130> a<00:06:02.370> trend<00:06:02.669> are<00:06:02.789> much
+
+00:06:02.959 --> 00:06:02.969 
+when we do that it's a trend are much
+
+00:06:02.969 --> 00:06:05.180 
+when we do that it's a trend are much
+faster<00:06:03.240> from<00:06:03.630> seven<00:06:04.020> to<00:06:04.140> two<00:06:04.289> seconds
+
+00:06:05.180 --> 00:06:05.190 
+faster from seven to two seconds
+
+00:06:05.190 --> 00:06:08.150 
+faster from seven to two seconds
+and<00:06:05.390> sometimes<00:06:06.390> that<00:06:06.630> can<00:06:06.710> work<00:06:07.710> for<00:06:08.010> you<00:06:08.130> or
+
+00:06:08.150 --> 00:06:08.160 
+and sometimes that can work for you or
+
+00:06:08.160 --> 00:06:10.340 
+and sometimes that can work for you or
+you<00:06:08.370> can<00:06:08.520> get<00:06:08.640> away<00:06:08.790> with<00:06:09.060> it<00:06:09.180> but<00:06:09.840> remember
+
+00:06:10.340 --> 00:06:10.350 
+you can get away with it but remember
+
+00:06:10.350 --> 00:06:12.020 
+you can get away with it but remember
+it's<00:06:10.560> only<00:06:10.710> calculating<00:06:11.490> the<00:06:11.580> final<00:06:11.880> gather
+
+00:06:12.020 --> 00:06:12.030 
+it's only calculating the final gather
+
+00:06:12.030 --> 00:06:14.750 
+it's only calculating the final gather
+points<00:06:12.510> for<00:06:12.720> that<00:06:12.900> particular<00:06:13.530> subset<00:06:14.250> you
+
+00:06:14.750 --> 00:06:14.760 
+points for that particular subset you
+
+00:06:14.760 --> 00:06:16.940 
+points for that particular subset you
+might<00:06:14.970> have<00:06:15.180> risk<00:06:15.630> of<00:06:15.810> boundary<00:06:16.260> artifacts
+
+00:06:16.940 --> 00:06:16.950 
+might have risk of boundary artifacts
+
+00:06:16.950 --> 00:06:18.620 
+might have risk of boundary artifacts
+when<00:06:17.100> you<00:06:17.190> put<00:06:17.400> them<00:06:17.550> in<00:06:17.670> here<00:06:17.970> when<00:06:18.390> you<00:06:18.480> start
+
+00:06:18.620 --> 00:06:18.630 
+when you put them in here when you start
+
+00:06:18.630 --> 00:06:20.870 
+when you put them in here when you start
+counting<00:06:19.020> that<00:06:19.770> will<00:06:20.040> happen<00:06:20.340> more<00:06:20.490> I<00:06:20.700> mean
+
+00:06:20.870 --> 00:06:20.880 
+counting that will happen more I mean
+
+00:06:20.880 --> 00:06:22.250 
+counting that will happen more I mean
+this<00:06:21.060> is<00:06:21.240> see<00:06:21.420> that<00:06:21.630> you<00:06:21.780> probably<00:06:22.110> are<00:06:22.230> not
+
+00:06:22.250 --> 00:06:22.260 
+this is see that you probably are not
+
+00:06:22.260 --> 00:06:23.570 
+this is see that you probably are not
+gonna<00:06:22.500> see<00:06:22.710> it<00:06:22.740> in<00:06:22.920> because<00:06:23.130> this<00:06:23.220> is<00:06:23.400> still
+
+00:06:23.570 --> 00:06:23.580 
+gonna see it in because this is still
+
+00:06:23.580 --> 00:06:25.400 
+gonna see it in because this is still
+but<00:06:24.120> when<00:06:24.300> it's<00:06:24.480> animation<00:06:24.990> and<00:06:25.200> things
+
+00:06:25.400 --> 00:06:25.410 
+but when it's animation and things
+
+00:06:25.410 --> 00:06:27.230 
+but when it's animation and things
+change<00:06:25.710> over<00:06:26.040> time<00:06:26.220> you<00:06:26.490> might<00:06:26.700> see<00:06:27.060> that
+
+00:06:27.230 --> 00:06:27.240 
+change over time you might see that
+
+00:06:27.240 --> 00:06:29.300 
+change over time you might see that
+flicker<00:06:27.570> happens<00:06:28.080> so<00:06:28.260> that's<00:06:28.500> why<00:06:28.620> you<00:06:29.160> should
+
+00:06:29.300 --> 00:06:29.310 
+flicker happens so that's why you should
+
+00:06:29.310 --> 00:06:31.670 
+flicker happens so that's why you should
+have<00:06:29.340> this<00:06:29.490> on<00:06:29.820> by<00:06:30.390> default<00:06:30.450> back<00:06:31.380> to<00:06:31.560> this
+
+00:06:31.670 --> 00:06:31.680 
+have this on by default back to this
+
+00:06:31.680 --> 00:06:34.460 
+have this on by default back to this
+function<00:06:32.310> this<00:06:33.060> function<00:06:33.090> is<00:06:33.720> not<00:06:33.780> to<00:06:34.110> be<00:06:34.230> used
+
+00:06:34.460 --> 00:06:34.470 
+function this function is not to be used
+
+00:06:34.470 --> 00:06:37.070 
+function this function is not to be used
+as<00:06:34.740> a<00:06:35.190> render<00:06:36.090> passes<00:06:36.300> that<00:06:36.540> you<00:06:36.660> take<00:06:36.810> all<00:06:36.960> the
+
+00:06:37.070 --> 00:06:37.080 
+as a render passes that you take all the
+
+00:06:37.080 --> 00:06:38.300 
+as a render passes that you take all the
+elements<00:06:37.200> to<00:06:37.440> render<00:06:37.620> out<00:06:37.770> one<00:06:37.980> button<00:06:38.250> and
+
+00:06:38.300 --> 00:06:38.310 
+elements to render out one button and
+
+00:06:38.310 --> 00:06:40.340 
+elements to render out one button and
+just<00:06:38.520> comp<00:06:38.790> them<00:06:38.970> obviously<00:06:39.720> you<00:06:39.780> can<00:06:39.960> do<00:06:40.140> that
+
+00:06:40.340 --> 00:06:40.350 
+just comp them obviously you can do that
+
+00:06:40.350 --> 00:06:42.200 
+just comp them obviously you can do that
+but<00:06:40.530> or<00:06:41.040> actually<00:06:41.340> the<00:06:41.430> way<00:06:41.550> it<00:06:41.700> was<00:06:41.880> there<00:06:42.090> is
+
+00:06:42.200 --> 00:06:42.210 
+but or actually the way it was there is
+
+00:06:42.210 --> 00:06:44.270 
+but or actually the way it was there is
+that<00:06:42.360> you<00:06:42.510> have<00:06:42.690> render<00:06:43.140> an<00:06:43.260> image<00:06:43.560> we<00:06:44.130> have
+
+00:06:44.270 --> 00:06:44.280 
+that you have render an image we have
+
+00:06:44.280 --> 00:06:45.650 
+that you have render an image we have
+one<00:06:44.490> element<00:06:44.850> in<00:06:44.970> it<00:06:45.060> that<00:06:45.240> you<00:06:45.330> wanna<00:06:45.510> fix
+
+00:06:45.650 --> 00:06:45.660 
+one element in it that you wanna fix
+
+00:06:45.660 --> 00:06:47.270 
+one element in it that you wanna fix
+really<00:06:45.990> quickly<00:06:46.350> so<00:06:46.560> you<00:06:46.650> can<00:06:46.800> use<00:06:47.040> that
+
+00:06:47.270 --> 00:06:47.280 
+really quickly so you can use that
+
+00:06:47.280 --> 00:06:48.740 
+really quickly so you can use that
+rather<00:06:47.610> than<00:06:47.850> the<00:06:47.970> entire<00:06:48.210> the<00:06:48.390> whole<00:06:48.420> scene
+
+00:06:48.740 --> 00:06:48.750 
+rather than the entire the whole scene
+
+00:06:48.750 --> 00:06:50.150 
+rather than the entire the whole scene
+that<00:06:49.320> will<00:06:49.500> bring<00:06:49.680> you<00:06:49.770> to<00:06:49.890> the<00:06:50.010> other
+
+00:06:50.150 --> 00:06:50.160 
+that will bring you to the other
+
+00:06:50.160 --> 00:06:51.500 
+that will bring you to the other
+question<00:06:50.400> what<00:06:50.490> if<00:06:50.580> you<00:06:50.700> want<00:06:50.940> to<00:06:51.030> stack<00:06:51.270> them
+
+00:06:51.500 --> 00:06:51.510 
+question what if you want to stack them
+
+00:06:51.510 --> 00:06:53.830 
+question what if you want to stack them
+unfortunately<00:06:52.230> if<00:06:53.010> you<00:06:53.160> go<00:06:53.340> back<00:06:53.550> to
+
+00:06:53.830 --> 00:06:53.840 
+unfortunately if you go back to
+
+00:06:53.840 --> 00:06:57.380 
+unfortunately if you go back to
+obviously<00:06:54.840> you<00:06:55.320> can<00:06:55.560> add<00:06:56.030> shaders<00:06:57.030> in<00:06:57.060> here
+
+00:06:57.380 --> 00:06:57.390 
+obviously you can add shaders in here
+
+00:06:57.390 --> 00:07:00.130 
+obviously you can add shaders in here
+yet<00:06:57.630> you<00:06:57.750> can<00:06:57.900> stack<00:06:58.140> shaders<00:06:58.530> by<00:06:58.770> adding
+
+00:07:00.130 --> 00:07:00.140 
+yet you can stack shaders by adding
+
+00:07:00.140 --> 00:07:03.470 
+yet you can stack shaders by adding
+multiple<00:07:01.140> legislators<00:07:01.830> in<00:07:02.010> here<00:07:02.360> so<00:07:03.360> you<00:07:03.450> can
+
+00:07:03.470 --> 00:07:03.480 
+multiple legislators in here so you can
+
+00:07:03.480 --> 00:07:06.170 
+multiple legislators in here so you can
+use<00:07:03.840> the<00:07:04.080> gamma<00:07:04.710> correction<00:07:04.920> it's<00:07:05.430> not<00:07:05.550> a<00:07:05.580> it's
+
+00:07:06.170 --> 00:07:06.180 
+use the gamma correction it's not a it's
+
+00:07:06.180 --> 00:07:07.580 
+use the gamma correction it's not a it's
+not<00:07:06.240> a<00:07:06.390> big<00:07:06.450> deal<00:07:06.690> it's<00:07:06.870> can<00:07:07.080> still<00:07:07.260> work<00:07:07.470> and
+
+00:07:07.580 --> 00:07:07.590 
+not a big deal it's can still work and
+
+00:07:07.590 --> 00:07:09.200 
+not a big deal it's can still work and
+you<00:07:07.680> can<00:07:07.830> still<00:07:08.010> add<00:07:08.160> these<00:07:08.340> render<00:07:08.820> subsets
+
+00:07:09.200 --> 00:07:09.210 
+you can still add these render subsets
+
+00:07:09.210 --> 00:07:11.810 
+you can still add these render subsets
+here<00:07:09.390> but<00:07:09.930> if<00:07:10.080> you<00:07:10.170> add<00:07:10.320> to<00:07:10.770> render<00:07:11.160> subsets
+
+00:07:11.810 --> 00:07:11.820 
+here but if you add to render subsets
+
+00:07:11.820 --> 00:07:13.490 
+here but if you add to render subsets
+it'll<00:07:12.030> only<00:07:12.180> render<00:07:12.570> the<00:07:12.720> first<00:07:12.900> one<00:07:13.170> it's
+
+00:07:13.490 --> 00:07:13.500 
+it'll only render the first one it's
+
+00:07:13.500 --> 00:07:15.830 
+it'll only render the first one it's
+gonna<00:07:13.650> ignore<00:07:13.980> the<00:07:14.130> second<00:07:14.450> so<00:07:15.450> you<00:07:15.510> wanna
+
+00:07:15.830 --> 00:07:15.840 
+gonna ignore the second so you wanna
+
+00:07:15.840 --> 00:07:17.930 
+gonna ignore the second so you wanna
+make<00:07:15.960> sure<00:07:16.080> it<00:07:16.200> only<00:07:16.230> this<00:07:16.980> is<00:07:17.190> how<00:07:17.520> it<00:07:17.700> works
+
+00:07:17.930 --> 00:07:17.940 
+make sure it only this is how it works
+
+00:07:17.940 --> 00:07:19.850 
+make sure it only this is how it works
+or<00:07:18.120> actually<00:07:18.390> how<00:07:18.450> it<00:07:18.570> should<00:07:18.720> work<00:07:18.780> it<00:07:19.650> should
+
+00:07:19.850 --> 00:07:19.860 
+or actually how it should work it should
+
+00:07:19.860 --> 00:07:22.400 
+or actually how it should work it should
+work<00:07:19.980> good<00:07:20.220> one<00:07:20.430> render<00:07:21.090> subset<00:07:21.510> well<00:07:22.230> I<00:07:22.290> hope
+
+00:07:22.400 --> 00:07:22.410 
+work good one render subset well I hope
+
+00:07:22.410 --> 00:07:23.750 
+work good one render subset well I hope
+you<00:07:22.530> guys<00:07:22.680> enjoyed<00:07:23.010> this<00:07:23.130> session<00:07:23.310> and<00:07:23.610> I'm
+
+00:07:23.750 --> 00:07:23.760 
+you guys enjoyed this session and I'm
+
+00:07:23.760 --> 00:07:26.720 
+you guys enjoyed this session and I'm
+looking<00:07:24.000> forward<00:07:24.210> to<00:07:24.330> talk<00:07:24.510> to<00:07:24.630> you
+

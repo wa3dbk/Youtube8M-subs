@@ -1,0 +1,274 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.170 --> 00:00:04.210
+Hello and Welcome.
+
+00:00:04.210 --> 00:00:07.560
+One of the more important pieces of information
+you aren’t shown in the default Windows
+
+00:00:07.560 --> 00:00:12.389
+interface is what percentage of the CPU is
+in use at any given time.
+
+00:00:12.389 --> 00:00:16.939
+If you are using windows Vista or 7 you could
+use a CPU gadget for the windows sidebar,
+
+00:00:16.939 --> 00:00:21.710
+but I don’t like the sidebar as it gets
+in the way and is much larger than it needs
+
+00:00:21.710 --> 00:00:22.850
+to be.
+
+00:00:22.850 --> 00:00:27.651
+To see what the processor is up to, you can
+bring up the “Windows Task Manager” by
+
+00:00:27.651 --> 00:00:38.120
+right-clicking on the taskbar and selecting
+“Start Task Manager”.
+
+00:00:38.120 --> 00:00:44.469
+Once the Task Manager is open can click on
+the “Performance” tab.
+
+00:00:44.469 --> 00:00:48.829
+Under the heading “CPU Usage History”
+you will see each physical processing core
+
+00:00:48.829 --> 00:00:54.889
+represented, along with a graph showing the
+percentage of utilization for each.
+
+00:00:54.889 --> 00:00:59.429
+To the left under “CPU Usage” it will
+show a bar graph showing the total percentage
+
+00:00:59.429 --> 00:01:03.889
+of utilization for all of the cores combined.
+
+00:01:03.889 --> 00:01:08.710
+Now that the Task Manager is open if you look
+down by the clock in the system tray you will
+
+00:01:08.710 --> 00:01:12.570
+now see a small square representing the total
+CPU usage.
+
+00:01:12.570 --> 00:01:18.270
+Let’s click on the minimize button.
+
+00:01:18.270 --> 00:01:23.101
+Now that the task manager is minimized we
+still have the cpu usage icon in the system
+
+00:01:23.101 --> 00:01:28.720
+tray, but unfortunately we also have an icon
+showing that the Task Manager is running on
+
+00:01:28.720 --> 00:01:32.250
+the Taskbar.
+
+00:01:32.250 --> 00:01:37.259
+We need to set Task Manager to not show an
+icon in the taskbar.
+
+00:01:37.259 --> 00:01:45.979
+Click the icon representing Task Manager to
+maximize it.
+
+00:01:45.979 --> 00:01:52.270
+To keep the Task Manager icon from showing
+up in the taskbar, click on the “Options”
+
+00:01:52.270 --> 00:02:00.159
+menu and click to select “Hide When Minimized”.
+
+00:02:00.159 --> 00:02:05.090
+Now when we click to minimize Task Manager
+the icon showing the CPU usage is still in
+
+00:02:05.090 --> 00:02:09.060
+the system tray, but we don’t see the icon
+showing that Task Manager is running on the
+
+00:02:09.060 --> 00:02:19.390
+taskbar.
+
+00:02:19.390 --> 00:02:23.810
+Now we have the CPU usage monitor in the system
+tray, but who wants to go through this each
+
+00:02:23.810 --> 00:02:27.540
+time they reboot their computer?
+
+00:02:27.540 --> 00:02:41.080
+Click on the Windows “Start” button, “All
+Programs”, Accessories, and then “Windows
+
+00:02:41.080 --> 00:02:42.710
+Explorer”.
+
+00:02:42.710 --> 00:02:45.600
+The “Windows Explorer” window will open.
+
+00:02:45.600 --> 00:03:06.950
+Navigate to “Computer”, “Local Disk
+(C:), “Windows”, “System32”.
+
+00:03:06.950 --> 00:03:13.349
+Click on the folder to select “System32”.
+
+00:03:13.349 --> 00:03:24.049
+Scroll down and find “taskmgr.exe” in
+the list.
+
+00:03:24.049 --> 00:03:33.750
+Right-click on taskmgr.exe, and select “Create
+shortcut”.
+
+00:03:33.750 --> 00:03:40.810
+It will create a shortcut named “taskmgr.exe
+- Shortcut” directly underneath.
+
+00:03:40.810 --> 00:03:45.090
+Let’s rename it something a little better.
+
+00:03:45.090 --> 00:03:50.600
+Right-click on the shortcut and select “rename”.
+
+00:03:50.600 --> 00:03:59.049
+Enter “Windows Task Manager” for the name,
+and press enter.
+
+00:03:59.049 --> 00:04:07.829
+Now let’s close down the CPU Monitor.
+
+00:04:07.829 --> 00:04:13.181
+If we double click on the file, we will see
+that it opens Windows Task Manager, and if
+
+00:04:13.181 --> 00:04:18.730
+we minimize it, it will stay in the System
+Tray.
+
+00:04:18.730 --> 00:04:23.670
+We want to set this so that when this shortcut
+is run at startup it opens to the System Tray,
+
+00:04:23.670 --> 00:04:28.380
+and does not open up so we can see the application
+window.
+
+00:04:28.380 --> 00:04:33.580
+Right-click on the shortcut and select “Properties”.
+
+00:04:33.580 --> 00:04:36.490
+Change to the “Shortcut” tab, if not already
+there.
+
+00:04:36.490 --> 00:04:44.220
+Next to “Run”, change it from “Normal
+window” to “Minimized”.
+
+00:04:44.220 --> 00:04:49.290
+Click the “OK” button to save changes
+and close the window.
+
+00:04:49.290 --> 00:04:55.320
+Now if we close the “Task Manager” from
+the system tray, and double click on this
+
+00:04:55.320 --> 00:05:03.440
+icon again, it will open directly to the system
+tray.
+
+00:05:03.440 --> 00:05:07.520
+Now we need to take this shortcut and place
+it in the Windows Startup folder for “All
+
+00:05:07.520 --> 00:05:08.520
+Users”.
+
+00:05:08.520 --> 00:05:13.010
+By placing this shortcut in the Startup folder
+every time the computer reboots the cpu monitor
+
+00:05:13.010 --> 00:05:16.740
+will appear by the clock in the system tray.
+
+00:05:16.740 --> 00:05:23.490
+Right-click on the “Windows Task Manager”
+shortcut, and select “Cut”.
+
+00:05:23.490 --> 00:05:28.450
+Now click the Windows “Start” button,
+then “All Programs”.
+
+00:05:28.450 --> 00:05:34.880
+Scroll down to “Startup”.
+
+00:05:34.880 --> 00:05:38.270
+Notice the folder is empty.
+
+00:05:38.270 --> 00:05:43.310
+Right-click and select “Open All Users”.
+
+00:05:43.310 --> 00:05:47.680
+Right-click in the folder that opens and select
+“Paste”.
+
+00:05:47.680 --> 00:05:52.590
+Now if we click back on the Windows “Start”
+button again, “All Programs”, under “Startup”
+
+00:05:52.590 --> 00:05:55.120
+we now have “Windows Task Manager”.
+
+00:05:55.120 --> 00:06:00.800
+It’s possible that you might not see the
+Task Manager icon in the System Tray.
+
+00:06:00.800 --> 00:06:08.210
+If you don’t see it, then click on the “Show
+hidden icons” button, and then the “Customize...”
+
+00:06:08.210 --> 00:06:09.270
+link.
+
+00:06:09.270 --> 00:06:12.750
+The “Notification Area Icons” window will
+open.
+
+00:06:12.750 --> 00:06:16.720
+Here is where you select what shows up in
+the system tray and when.
+
+00:06:16.720 --> 00:06:21.460
+Find “Windows Task Manager” in the list,
+and ensure that “Show icon and notifications”
+
+00:06:21.460 --> 00:06:24.710
+is select in the drop down.
+
+00:06:24.710 --> 00:06:30.080
+Click the “OK” button to save the change.
+
+00:06:30.080 --> 00:06:36.100
+Now, just reboot your computer to test out
+and verify that the Task Manager is opening
+
+00:06:36.100 --> 00:06:38.880
+to the system tray.
+
+00:06:38.880 --> 00:06:42.650
+Now if you are wondering how hard your computer
+is working, you can just glance down by the
+
+00:06:42.650 --> 00:06:44.310
+clock and see your CPU usage.
+

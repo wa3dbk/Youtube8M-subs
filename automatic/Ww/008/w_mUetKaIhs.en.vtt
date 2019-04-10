@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.580
+ That's the whole system 
+
+00:00:13.682 --> 00:00:15.682
+ GSM repeater 
+
+00:00:20.860 --> 00:00:27.380
+ Test phone Samsung with Android. 
+
+00:00:29.033 --> 00:00:31.033
+ Ettus USRP N210 
+
+00:00:37.760 --> 00:00:39.900
+ egh .. egh ... 
+
+00:00:40.490 --> 00:00:42.490
+ GPS receiver for USRP 
+
+00:00:51.284 --> 00:00:55.200
+ A computer with the OpenBTS program installed 
+
+00:01:07.220 --> 00:01:13.200
+ The phone has a T-mobile SIM card 
+
+00:01:28.495 --> 00:01:34.400
+ The phone is still connected to the T-mobile transmitters for the time being. We make a test connection to any number. 
+
+00:01:44.804 --> 00:01:48.800
+ I did not complete the account:) 
+
+00:02:01.022 --> 00:02:07.000
+ Receive power from the T-mobile transmitter -57 dBm 
+
+00:02:12.736 --> 00:02:19.700
+ We are launching the GSM network including the OpenBTS program 
+
+00:02:36.806 --> 00:02:40.800
+ We are now launching the OpenBTS console 
+
+00:02:46.717 --> 00:02:50.637
+ The "tmsis" command allows you to display the IMSI number of connected phones to my GSM network 
+
+00:02:52.585 --> 00:02:57.985
+ As you can see the phone next to it automatically changed the network from T-mobile to mine, and this is its IMSI number. 
+
+00:03:01.866 --> 00:03:17.800
+ We check if you can call an external phone number. This should not be possible because my network is not connected to the commercial architecture of the GSM network 
+
+00:03:29.660 --> 00:03:35.520
+ As you can see "silence." The phone is connected to my transmitter, not the T-mobile network. 
+
+00:03:51.574 --> 00:03:56.234
+ The phone thinks it is still in T-mobile, but that's not true. 
+
+00:03:59.363 --> 00:04:09.663
+ The power of receiving the signal from the transmitter of my network is -65 dBm (I did not even switch on the amplifier). With the amplifier turned on it would be around -22 dBm (in fact, it translates into a range of about 30 meters through walls) 
+
+00:04:10.840 --> 00:04:15.360
+ Send an SMS from the OpenBTS console to the phone. 
+
+00:04:42.892 --> 00:04:48.292
+ As you can see, the IMSI number itself is enough. You do not need a phone number. 
+
+00:05:14.555 --> 00:05:18.215
+ And is :) 
+
+00:05:42.540 --> 00:05:46.251
+ Gites :) 
+
+00:05:46.251 --> 00:06:00.391
+ I would add that the phone would choose my network instead of commercial, also about 30 meters away from the whole system. I put it close to make it easier to record a movie. 
+

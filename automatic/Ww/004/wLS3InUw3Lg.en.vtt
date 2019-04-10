@@ -1,0 +1,637 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.780 --> 00:00:11.420 
+
+hello<00:00:09.780> in<00:00:10.470> this<00:00:10.650> video<00:00:10.860> we'll<00:00:11.280> demonstrate
+
+00:00:11.420 --> 00:00:11.430 
+hello in this video we'll demonstrate
+
+00:00:11.430 --> 00:00:14.270 
+hello in this video we'll demonstrate
+how<00:00:12.120> to<00:00:12.150> use<00:00:12.300> VSS<00:00:13.080> to<00:00:13.320> make<00:00:13.500> an<00:00:13.650> error<00:00:13.860> vector
+
+00:00:14.270 --> 00:00:14.280 
+how to use VSS to make an error vector
+
+00:00:14.280 --> 00:00:16.490 
+how to use VSS to make an error vector
+magnitude<00:00:14.420> measurement<00:00:15.420> and<00:00:16.139> we'll<00:00:16.290> also
+
+00:00:16.490 --> 00:00:16.500 
+magnitude measurement and we'll also
+
+00:00:16.500 --> 00:00:18.110 
+magnitude measurement and we'll also
+discuss<00:00:17.010> the<00:00:17.190> key<00:00:17.370> components<00:00:17.910> that<00:00:17.970> are
+
+00:00:18.110 --> 00:00:18.120 
+discuss the key components that are
+
+00:00:18.120 --> 00:00:20.990 
+discuss the key components that are
+needed<00:00:18.240> to<00:00:18.600> make<00:00:18.990> the<00:00:19.260> measurement<00:00:19.850> if<00:00:20.850> we
+
+00:00:20.990 --> 00:00:21.000 
+needed to make the measurement if we
+
+00:00:21.000 --> 00:00:23.570 
+needed to make the measurement if we
+take<00:00:21.180> a<00:00:21.240> look<00:00:21.539> at<00:00:21.690> the<00:00:21.780> system<00:00:22.140> diagram<00:00:22.590> we'll
+
+00:00:23.570 --> 00:00:23.580 
+take a look at the system diagram we'll
+
+00:00:23.580 --> 00:00:25.760 
+take a look at the system diagram we'll
+see<00:00:23.760> we<00:00:23.910> have<00:00:24.030> a<00:00:24.060> 16<00:00:24.870> gram<00:00:25.140> source<00:00:25.530> being
+
+00:00:25.760 --> 00:00:25.770 
+see we have a 16 gram source being
+
+00:00:25.770 --> 00:00:29.320 
+see we have a 16 gram source being
+generated<00:00:26.280> here<00:00:27.080> we<00:00:28.080> have<00:00:28.230> an<00:00:28.350> amplifier<00:00:28.680> a
+
+00:00:29.320 --> 00:00:29.330 
+generated here we have an amplifier a
+
+00:00:29.330 --> 00:00:32.269 
+generated here we have an amplifier a
+filter<00:00:30.330> and<00:00:31.260> if<00:00:31.410> I<00:00:31.500> double<00:00:31.800> click<00:00:31.830> on<00:00:32.130> the
+
+00:00:32.269 --> 00:00:32.279 
+filter and if I double click on the
+
+00:00:32.279 --> 00:00:33.979 
+filter and if I double click on the
+filter<00:00:32.610> we<00:00:33.329> can<00:00:33.360> look<00:00:33.629> at<00:00:33.719> the<00:00:33.809> key
+
+00:00:33.979 --> 00:00:33.989 
+filter we can look at the key
+
+00:00:33.989 --> 00:00:38.420 
+filter we can look at the key
+characteristics<00:00:34.950> of<00:00:35.100> it<00:00:35.250> and<00:00:36.649> then<00:00:37.649> we<00:00:37.829> come
+
+00:00:38.420 --> 00:00:38.430 
+characteristics of it and then we come
+
+00:00:38.430 --> 00:00:40.759 
+characteristics of it and then we come
+out<00:00:38.579> of<00:00:38.730> the<00:00:38.790> filter<00:00:39.149> into<00:00:39.390> a<00:00:39.929> signal<00:00:40.440> o-line
+
+00:00:40.759 --> 00:00:40.769 
+out of the filter into a signal o-line
+
+00:00:40.769 --> 00:00:43.610 
+out of the filter into a signal o-line
+block<00:00:41.359> the<00:00:42.359> single<00:00:42.719> aligned<00:00:43.050> block<00:00:43.350> can<00:00:43.589> be
+
+00:00:43.610 --> 00:00:43.620 
+block the single aligned block can be
+
+00:00:43.620 --> 00:00:45.590 
+block the single aligned block can be
+found<00:00:43.980> in<00:00:44.100> the<00:00:44.190> signal<00:00:44.550> processing<00:00:44.789> node<00:00:45.390> of
+
+00:00:45.590 --> 00:00:45.600 
+found in the signal processing node of
+
+00:00:45.600 --> 00:00:48.739 
+found in the signal processing node of
+the<00:00:45.659> VSS<00:00:46.109> elements<00:00:46.649> tree<00:00:47.089> it<00:00:48.089> is<00:00:48.179> news<00:00:48.539> to
+
+00:00:48.739 --> 00:00:48.749 
+the VSS elements tree it is news to
+
+00:00:48.749 --> 00:00:51.110 
+the VSS elements tree it is news to
+compensate<00:00:49.379> for<00:00:49.620> gain<00:00:49.859> and<00:00:50.129> phase<00:00:50.339> distortion
+
+00:00:51.110 --> 00:00:51.120 
+compensate for gain and phase distortion
+
+00:00:51.120 --> 00:00:54.790 
+compensate for gain and phase distortion
+prior<00:00:51.449> to<00:00:51.719> the<00:00:51.809> EVM<00:00:52.319> measurement<00:00:52.589> being<00:00:53.309> made
+
+00:00:54.790 --> 00:00:54.800 
+prior to the EVM measurement being made
+
+00:00:54.800 --> 00:00:57.169 
+prior to the EVM measurement being made
+the<00:00:55.800> outputs<00:00:56.219> of<00:00:56.370> the<00:00:56.489> signal<00:00:56.819> in<00:00:56.879> the<00:00:56.969> line
+
+00:00:57.169 --> 00:00:57.179 
+the outputs of the signal in the line
+
+00:00:57.179 --> 00:00:59.090 
+the outputs of the signal in the line
+block<00:00:57.449> are<00:00:57.659> then<00:00:57.780> fed<00:00:58.079> into<00:00:58.109> two<00:00:58.530> receivers
+
+00:00:59.090 --> 00:00:59.100 
+block are then fed into two receivers
+
+00:00:59.100 --> 00:01:01.489 
+block are then fed into two receivers
+these<00:01:00.089> receivers<00:01:00.629> are<00:01:00.809> used<00:01:01.019> to<00:01:01.170> detect
+
+00:01:01.489 --> 00:01:01.499 
+these receivers are used to detect
+
+00:01:01.499 --> 00:01:04.969 
+these receivers are used to detect
+incoming<00:01:01.800> symbols<00:01:02.579> and<00:01:03.050> plot<00:01:04.050> the<00:01:04.530> reference
+
+00:01:04.969 --> 00:01:04.979 
+incoming symbols and plot the reference
+
+00:01:04.979 --> 00:01:08.090 
+incoming symbols and plot the reference
+IQ<00:01:05.430> plot<00:01:05.760> along<00:01:06.030> with<00:01:06.570> the<00:01:06.659> measured<00:01:07.020> IQ<00:01:07.500> plot
+
+00:01:08.090 --> 00:01:08.100 
+IQ plot along with the measured IQ plot
+
+00:01:08.100 --> 00:01:12.170 
+IQ plot along with the measured IQ plot
+or<00:01:08.430> the<00:01:09.330> constellation<00:01:10.080> plot<00:01:10.350> and<00:01:11.180> the
+
+00:01:12.170 --> 00:01:12.180 
+or the constellation plot and the
+
+00:01:12.180 --> 00:01:14.749 
+or the constellation plot and the
+network<00:01:12.540> analyzer<00:01:13.100> found<00:01:14.100> in<00:01:14.250> the<00:01:14.340> elements
+
+00:01:14.749 --> 00:01:14.759 
+network analyzer found in the elements
+
+00:01:14.759 --> 00:01:17.810 
+network analyzer found in the elements
+tree<00:01:15.000> a<00:01:15.259> VSS<00:01:16.259> under<00:01:16.710> the<00:01:16.829> no<00:01:16.979> network<00:01:17.369> analyzer
+
+00:01:17.810 --> 00:01:17.820 
+tree a VSS under the no network analyzer
+
+00:01:17.820 --> 00:01:20.389 
+tree a VSS under the no network analyzer
+is<00:01:18.119> news<00:01:18.390> to<00:01:18.540> make<00:01:18.659> the<00:01:18.810> physical<00:01:19.399> EVM
+
+00:01:20.389 --> 00:01:20.399 
+is news to make the physical EVM
+
+00:01:20.399 --> 00:01:23.240 
+is news to make the physical EVM
+measurement<00:01:20.659> the<00:01:21.659> comparison<00:01:22.530> of<00:01:22.649> the
+
+00:01:23.240 --> 00:01:23.250 
+measurement the comparison of the
+
+00:01:23.250 --> 00:01:26.240 
+measurement the comparison of the
+reference<00:01:23.789> IQ<00:01:24.329> plot<00:01:24.659> along<00:01:25.110> with<00:01:25.860> the
+
+00:01:26.240 --> 00:01:26.250 
+reference IQ plot along with the
+
+00:01:26.250 --> 00:01:30.139 
+reference IQ plot along with the
+measured<00:01:26.670> IQ<00:01:27.030> plot<00:01:28.369> so<00:01:29.369> in<00:01:29.490> this<00:01:29.610> graph<00:01:29.880> we
+
+00:01:30.139 --> 00:01:30.149 
+measured IQ plot so in this graph we
+
+00:01:30.149 --> 00:01:32.389 
+measured IQ plot so in this graph we
+have<00:01:30.299> that<00:01:30.719> exactly<00:01:31.289> displayed<00:01:31.770> the
+
+00:01:32.389 --> 00:01:32.399 
+have that exactly displayed the
+
+00:01:32.399 --> 00:01:35.090 
+have that exactly displayed the
+reference<00:01:32.969> IQ<00:01:33.539> plot<00:01:33.780> are<00:01:34.229> the<00:01:34.409> red<00:01:34.619> circles
+
+00:01:35.090 --> 00:01:35.100 
+reference IQ plot are the red circles
+
+00:01:35.100 --> 00:01:37.880 
+reference IQ plot are the red circles
+and<00:01:35.310> the<00:01:35.369> measured<00:01:36.170> points<00:01:37.170> the<00:01:37.649> blue
+
+00:01:37.880 --> 00:01:37.890 
+and the measured points the blue
+
+00:01:37.890 --> 00:01:41.389 
+and the measured points the blue
+triangles<00:01:38.520> are<00:01:39.109> the<00:01:40.109> result<00:01:40.500> of<00:01:40.619> passing<00:01:41.130> the
+
+00:01:41.389 --> 00:01:41.399 
+triangles are the result of passing the
+
+00:01:41.399 --> 00:01:43.219 
+triangles are the result of passing the
+signal<00:01:41.789> through<00:01:42.180> the<00:01:42.390> amplifier<00:01:42.689> in<00:01:43.200> the
+
+00:01:43.219 --> 00:01:43.229 
+signal through the amplifier in the
+
+00:01:43.229 --> 00:01:46.310 
+signal through the amplifier in the
+filter<00:01:43.649> and<00:01:43.859> then<00:01:44.579> being<00:01:44.850> corrected<00:01:45.509> by<00:01:45.570> the
+
+00:01:46.310 --> 00:01:46.320 
+filter and then being corrected by the
+
+00:01:46.320 --> 00:01:48.620 
+filter and then being corrected by the
+signal<00:01:46.890> line<00:01:47.130> block<00:01:47.460> prior<00:01:48.030> to<00:01:48.270> making<00:01:48.420> the
+
+00:01:48.620 --> 00:01:48.630 
+signal line block prior to making the
+
+00:01:48.630 --> 00:01:53.810 
+signal line block prior to making the
+EVM<00:01:49.229> measurement<00:01:50.780> in<00:01:52.130> this<00:01:53.130> table<00:01:53.399> or<00:01:53.789> I
+
+00:01:53.810 --> 00:01:53.820 
+EVM measurement in this table or I
+
+00:01:53.820 --> 00:01:58.910 
+EVM measurement in this table or I
+should<00:01:54.600> say<00:01:54.780> IQ<00:01:55.259> plot<00:01:55.530> we<00:01:56.070> see<00:01:56.250> the<00:01:56.429> raw<00:01:57.920> IQ
+
+00:01:58.910 --> 00:01:58.920 
+should say IQ plot we see the raw IQ
+
+00:01:58.920 --> 00:02:01.789 
+should say IQ plot we see the raw IQ
+transmitted<00:01:59.640> signal<00:02:00.060> and<00:02:00.409> the<00:02:01.409> inter<00:02:01.619> symbol
+
+00:02:01.789 --> 00:02:01.799 
+transmitted signal and the inter symbol
+
+00:02:01.799 --> 00:02:03.620 
+transmitted signal and the inter symbol
+interference<00:02:02.009> here<00:02:02.729> is<00:02:02.850> due<00:02:03.060> to<00:02:03.179> the<00:02:03.270> raised
+
+00:02:03.620 --> 00:02:03.630 
+interference here is due to the raised
+
+00:02:03.630 --> 00:02:06.289 
+interference here is due to the raised
+cosine<00:02:03.869> filtering<00:02:04.619> use<00:02:05.070> them<00:02:05.249> in<00:02:05.490> phase<00:02:06.090> and
+
+00:02:06.289 --> 00:02:06.299 
+cosine filtering use them in phase and
+
+00:02:06.299 --> 00:02:11.240 
+cosine filtering use them in phase and
+quadrature<00:02:06.719> signal<00:02:09.590> the<00:02:10.590> table<00:02:10.950> that<00:02:11.100> we're
+
+00:02:11.240 --> 00:02:11.250 
+quadrature signal the table that we're
+
+00:02:11.250 --> 00:02:14.750 
+quadrature signal the table that we're
+most<00:02:11.460> interested<00:02:12.060> in<00:02:12.180> is<00:02:12.420> this<00:02:12.750> here<00:02:13.350> and<00:02:13.760> in
+
+00:02:14.750 --> 00:02:14.760 
+most interested in is this here and in
+
+00:02:14.760 --> 00:02:17.869 
+most interested in is this here and in
+this<00:02:14.880> case<00:02:15.180> the<00:02:16.129> VSS<00:02:17.129> simulation<00:02:17.700> is<00:02:17.849> running
+
+00:02:17.869 --> 00:02:17.879 
+this case the VSS simulation is running
+
+00:02:17.879 --> 00:02:20.869 
+this case the VSS simulation is running
+continuously<00:02:18.780> and<00:02:19.110> the<00:02:19.950> first<00:02:20.190> column<00:02:20.459> here
+
+00:02:20.869 --> 00:02:20.879 
+continuously and the first column here
+
+00:02:20.879 --> 00:02:23.360 
+continuously and the first column here
+happens<00:02:21.209> to<00:02:21.269> be<00:02:21.360> time<00:02:21.720> and<00:02:22.080> the<00:02:22.590> second<00:02:22.980> column
+
+00:02:23.360 --> 00:02:23.370 
+happens to be time and the second column
+
+00:02:23.370 --> 00:02:26.990 
+happens to be time and the second column
+is<00:02:23.580> the<00:02:24.360> EVM<00:02:25.170> in<00:02:25.379> terms<00:02:25.620> of<00:02:25.800> percentage<00:02:26.400> so
+
+00:02:26.990 --> 00:02:27.000 
+is the EVM in terms of percentage so
+
+00:02:27.000 --> 00:02:29.509 
+is the EVM in terms of percentage so
+presently<00:02:27.450> we<00:02:27.690> have<00:02:27.840> about<00:02:28.050> a<00:02:28.110> one<00:02:28.349> point<00:02:28.530> one
+
+00:02:29.509 --> 00:02:29.519 
+presently we have about a one point one
+
+00:02:29.519 --> 00:02:34.820 
+presently we have about a one point one
+percent<00:02:29.730> EVM<00:02:30.769> if<00:02:31.769> I<00:02:32.760> come<00:02:33.000> here<00:02:33.330> into<00:02:33.830> the
+
+00:02:34.820 --> 00:02:34.830 
+percent EVM if I come here into the
+
+00:02:34.830 --> 00:02:38.420 
+percent EVM if I come here into the
+tuning<00:02:35.370> capability<00:02:36.239> of<00:02:36.390> VSS<00:02:36.930> you'll<00:02:37.860> see<00:02:38.069> here
+
+00:02:38.420 --> 00:02:38.430 
+tuning capability of VSS you'll see here
+
+00:02:38.430 --> 00:02:45.070 
+tuning capability of VSS you'll see here
+that<00:02:40.129> I<00:02:41.900> can<00:02:42.900> tune<00:02:43.200> on<00:02:43.530> the<00:02:43.769> single<00:02:44.159> power
+
+00:02:45.070 --> 00:02:45.080 
+that I can tune on the single power
+
+00:02:45.080 --> 00:02:49.399 
+that I can tune on the single power
+that's<00:02:46.080> just<00:02:46.590> before<00:02:47.540> the<00:02:48.540> filter<00:02:48.959> which<00:02:49.260> is
+
+00:02:49.399 --> 00:02:49.409 
+that's just before the filter which is
+
+00:02:49.409 --> 00:02:53.860 
+that's just before the filter which is
+currently<00:02:49.739> minus<00:02:50.159> 30<00:02:50.640> DBM<00:02:51.060> and<00:02:51.709> as<00:02:52.709> I<00:02:52.890> tune<00:02:53.190> on
+
+00:02:53.860 --> 00:02:53.870 
+currently minus 30 DBM and as I tune on
+
+00:02:53.870 --> 00:02:59.899 
+currently minus 30 DBM and as I tune on
+the<00:02:54.950> signal<00:02:55.950> power<00:02:56.190> I<00:02:56.720> can<00:02:57.720> cause<00:02:58.099> the<00:02:59.099> EVM<00:02:59.610> T
+
+00:02:59.899 --> 00:02:59.909 
+the signal power I can cause the EVM T
+
+00:02:59.909 --> 00:03:03.440 
+the signal power I can cause the EVM T
+degrade<00:03:00.569> as<00:03:00.900> a<00:03:01.099> direct<00:03:02.099> result<00:03:02.340> of<00:03:02.760> running
+
+00:03:03.440 --> 00:03:03.450 
+degrade as a direct result of running
+
+00:03:03.450 --> 00:03:06.710 
+degrade as a direct result of running
+that<00:03:03.870> amplifier<00:03:04.560> into<00:03:05.069> compression<00:03:05.610> and<00:03:06.030> we
+
+00:03:06.710 --> 00:03:06.720 
+that amplifier into compression and we
+
+00:03:06.720 --> 00:03:08.929 
+that amplifier into compression and we
+can<00:03:06.900> clearly<00:03:07.230> see<00:03:07.590> here<00:03:07.860> that<00:03:08.099> I<00:03:08.159> have<00:03:08.400> have
+
+00:03:08.929 --> 00:03:08.939 
+can clearly see here that I have have
+
+00:03:08.939 --> 00:03:11.179 
+can clearly see here that I have have
+the<00:03:09.209> signal<00:03:09.569> income<00:03:09.900> compression<00:03:10.830> due<00:03:10.980> to<00:03:11.069> the
+
+00:03:11.179 --> 00:03:11.189 
+the signal income compression due to the
+
+00:03:11.189 --> 00:03:14.149 
+the signal income compression due to the
+IQ<00:03:11.640> plot<00:03:11.909> and<00:03:12.269> we<00:03:13.019> can<00:03:13.170> look<00:03:13.409> at<00:03:13.530> the<00:03:13.620> resulting
+
+00:03:14.149 --> 00:03:14.159 
+IQ plot and we can look at the resulting
+
+00:03:14.159 --> 00:03:18.770 
+IQ plot and we can look at the resulting
+EVM<00:03:14.640> in<00:03:14.819> this<00:03:14.970> case<00:03:15.409> 6%<00:03:16.730> with<00:03:17.730> the<00:03:18.000> corrections
+
+00:03:18.770 --> 00:03:18.780 
+EVM in this case 6% with the corrections
+
+00:03:18.780 --> 00:03:21.490 
+EVM in this case 6% with the corrections
+due<00:03:19.080> to<00:03:19.230> the<00:03:19.349> signal<00:03:19.680> aligned<00:03:20.010> block
+
+00:03:21.490 --> 00:03:21.500 
+due to the signal aligned block
+
+00:03:21.500 --> 00:03:24.920 
+due to the signal aligned block
+if<00:03:22.500> we<00:03:22.709> come<00:03:22.860> over<00:03:23.069> here<00:03:23.250> to<00:03:23.430> the<00:03:23.630> project<00:03:24.630> tree
+
+00:03:24.920 --> 00:03:24.930 
+if we come over here to the project tree
+
+00:03:24.930 --> 00:03:27.260 
+if we come over here to the project tree
+the<00:03:25.620> physical<00:03:26.099> EVM<00:03:26.610> measurement<00:03:26.640> is
+
+00:03:27.260 --> 00:03:27.270 
+the physical EVM measurement is
+
+00:03:27.270 --> 00:03:29.750 
+the physical EVM measurement is
+specified<00:03:27.780> in<00:03:27.989> this<00:03:28.170> window<00:03:28.620> when<00:03:29.489> we<00:03:29.580> come
+
+00:03:29.750 --> 00:03:29.760 
+specified in this window when we come
+
+00:03:29.760 --> 00:03:31.339 
+specified in this window when we come
+over<00:03:29.790> here<00:03:30.209> and<00:03:30.270> we'll<00:03:30.420> select<00:03:30.690> network
+
+00:03:31.339 --> 00:03:31.349 
+over here and we'll select network
+
+00:03:31.349 --> 00:03:35.210 
+over here and we'll select network
+analyzer<00:03:31.860> error<00:03:32.520> vector<00:03:33.180> magnitude<00:03:34.220> specify
+
+00:03:35.210 --> 00:03:35.220 
+analyzer error vector magnitude specify
+
+00:03:35.220 --> 00:03:37.520 
+analyzer error vector magnitude specify
+the<00:03:35.730> analyzer<00:03:36.150> that<00:03:36.270> we<00:03:36.510> want<00:03:36.720> to<00:03:36.750> news<00:03:37.080> let's
+
+00:03:37.520 --> 00:03:37.530 
+the analyzer that we want to news let's
+
+00:03:37.530 --> 00:03:41.000 
+the analyzer that we want to news let's
+say<00:03:37.890> you<00:03:37.950> can<00:03:38.190> have<00:03:38.370> many<00:03:39.680> points<00:03:40.680> of<00:03:40.800> where
+
+00:03:41.000 --> 00:03:41.010 
+say you can have many points of where
+
+00:03:41.010 --> 00:03:43.040 
+say you can have many points of where
+you<00:03:41.100> make<00:03:41.280> EVM<00:03:41.730> were<00:03:41.910> many<00:03:42.120> analyzers<00:03:42.750> and
+
+00:03:43.040 --> 00:03:43.050 
+you make EVM were many analyzers and
+
+00:03:43.050 --> 00:03:46.640 
+you make EVM were many analyzers and
+then<00:03:43.830> specify<00:03:44.370> the<00:03:44.430> metric<00:03:44.970> and<00:03:45.260> in<00:03:46.260> this<00:03:46.380> case
+
+00:03:46.640 --> 00:03:46.650 
+then specify the metric and in this case
+
+00:03:46.650 --> 00:03:48.830 
+then specify the metric and in this case
+I'm<00:03:46.890> taking<00:03:47.069> 100<00:03:47.700> samples<00:03:47.940> at<00:03:48.239> a<00:03:48.300> time<00:03:48.569> and
+
+00:03:48.830 --> 00:03:48.840 
+I'm taking 100 samples at a time and
+
+00:03:48.840 --> 00:03:51.500 
+I'm taking 100 samples at a time and
+measuring<00:03:49.769> the<00:03:49.950> EVM<00:03:50.519> on<00:03:50.700> each<00:03:50.849> sample<00:03:51.390> and
+
+00:03:51.500 --> 00:03:51.510 
+measuring the EVM on each sample and
+
+00:03:51.510 --> 00:03:55.009 
+measuring the EVM on each sample and
+doing<00:03:52.319> an<00:03:52.440> average<00:03:52.620> on<00:03:53.040> five<00:03:53.880> blocks<00:03:54.269> and<00:03:54.630> then
+
+00:03:55.009 --> 00:03:55.019 
+doing an average on five blocks and then
+
+00:03:55.019 --> 00:03:57.170 
+doing an average on five blocks and then
+displaying<00:03:55.560> the<00:03:55.739> EVM<00:03:56.069> that<00:03:56.310> we<00:03:56.430> see<00:03:56.760> in<00:03:57.000> the
+
+00:03:57.170 --> 00:03:57.180 
+displaying the EVM that we see in the
+
+00:03:57.180 --> 00:04:00.020 
+displaying the EVM that we see in the
+table
+
+00:04:00.020 --> 00:04:00.030 
+
+00:04:00.030 --> 00:04:03.000 
+
+for<00:04:01.030> further<00:04:01.180> information<00:04:01.450> about<00:04:01.960> making<00:04:02.560> EVM
+
+00:04:03.000 --> 00:04:03.010 
+for further information about making EVM
+
+00:04:03.010 --> 00:04:04.890 
+for further information about making EVM
+measurements<00:04:03.610> or<00:04:03.760> for<00:04:04.240> that<00:04:04.300> matter<00:04:04.360> working
+
+00:04:04.890 --> 00:04:04.900 
+measurements or for that matter working
+
+00:04:04.900 --> 00:04:08.130 
+measurements or for that matter working
+with<00:04:05.230> VSS<00:04:06.150> you<00:04:07.150> can<00:04:07.300> come<00:04:07.510> over<00:04:07.630> here<00:04:07.750> and<00:04:07.960> go
+
+00:04:08.130 --> 00:04:08.140 
+with VSS you can come over here and go
+
+00:04:08.140 --> 00:04:11.280 
+with VSS you can come over here and go
+file<00:04:08.470> open<00:04:08.820> example<00:04:09.820> and<00:04:10.030> type<00:04:11.020> in<00:04:11.230> a
+
+00:04:11.280 --> 00:04:11.290 
+file open example and type in a
+
+00:04:11.290 --> 00:04:13.260 
+file open example and type in a
+particular<00:04:11.590> subject<00:04:12.040> in<00:04:12.460> this<00:04:12.580> case<00:04:12.640> I<00:04:12.970> typed
+
+00:04:13.260 --> 00:04:13.270 
+particular subject in this case I typed
+
+00:04:13.270 --> 00:04:16.229 
+particular subject in this case I typed
+an<00:04:13.450> EVM<00:04:13.870> and<00:04:14.680> you'll<00:04:14.770> see<00:04:14.980> several<00:04:15.430> test
+
+00:04:16.229 --> 00:04:16.239 
+an EVM and you'll see several test
+
+00:04:16.239 --> 00:04:19.650 
+an EVM and you'll see several test
+benches<00:04:16.690> that<00:04:17.560> you<00:04:17.710> can<00:04:17.890> look<00:04:18.340> and<00:04:18.660> read
+
+00:04:19.650 --> 00:04:19.660 
+benches that you can look and read
+
+00:04:19.660 --> 00:04:23.100 
+benches that you can look and read
+further<00:04:19.960> on<00:04:20.470> how<00:04:21.370> to<00:04:21.430> make<00:04:21.820> EVM<00:04:22.270> measurements
+
+00:04:23.100 --> 00:04:23.110 
+further on how to make EVM measurements
+
+00:04:23.110 --> 00:04:25.200 
+further on how to make EVM measurements
+in<00:04:23.230> VSS<00:04:23.770> and<00:04:24.160> in<00:04:24.370> fact<00:04:24.640> the<00:04:24.910> very<00:04:25.060> first
+
+00:04:25.200 --> 00:04:25.210 
+in VSS and in fact the very first
+
+00:04:25.210 --> 00:04:28.200 
+in VSS and in fact the very first
+example<00:04:26.200> project<00:04:26.650> over<00:04:26.890> here<00:04:27.070> will<00:04:27.730> also<00:04:28.030> show
+
+00:04:28.200 --> 00:04:28.210 
+example project over here will also show
+
+00:04:28.210 --> 00:04:31.740 
+example project over here will also show
+you<00:04:28.240> how<00:04:28.390> to<00:04:29.200> make<00:04:29.380> VSS<00:04:29.980> Co<00:04:30.610> simulate<00:04:31.180> with
+
+00:04:31.740 --> 00:04:31.750 
+you how to make VSS Co simulate with
+
+00:04:31.750 --> 00:04:35.460 
+you how to make VSS Co simulate with
+microwave<00:04:32.380> office<00:04:32.800> and<00:04:33.180> make<00:04:34.180> the<00:04:34.470> following
+
+00:04:35.460 --> 00:04:35.470 
+microwave office and make the following
+
+00:04:35.470 --> 00:04:37.460 
+microwave office and make the following
+EVM<00:04:36.190> or<00:04:36.430> error<00:04:36.940> vector<00:04:37.390> magnitude
+
+00:04:37.460 --> 00:04:37.470 
+EVM or error vector magnitude
+
+00:04:37.470 --> 00:04:40.560 
+EVM or error vector magnitude
+measurement<00:04:38.760> thank<00:04:39.760> you<00:04:39.850> for<00:04:40.000> your<00:04:40.090> time<00:04:40.300> and
+
+00:04:40.560 --> 00:04:40.570 
+measurement thank you for your time and
+
+00:04:40.570 --> 00:04:42.690 
+measurement thank you for your time and
+I<00:04:40.660> hope<00:04:40.690> you<00:04:40.900> find<00:04:41.200> this<00:04:41.410> example<00:04:42.040> or<00:04:42.400> video
+
+00:04:42.690 --> 00:04:42.700 
+I hope you find this example or video
+
+00:04:42.700 --> 00:04:45.300 
+I hope you find this example or video
+useful
+

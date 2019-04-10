@@ -1,0 +1,391 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.300 --> 00:00:12.900
+ Welcome to another video of one of three 
+
+00:00:10.950 --> 00:00:15.299
+ today we will solve a small 
+
+00:00:12.900 --> 00:00:17.490
+ problem related to what is required or 
+
+00:00:15.299 --> 00:00:19.529
+ detection of walls that arose from 
+
+00:00:17.490 --> 00:00:21.660
+ of the past video when we import the 
+
+00:00:19.529 --> 00:00:24.680
+ Our character for the unite will 
+
+00:00:21.660 --> 00:00:24.680
+ demonstrate the problem 
+
+00:00:25.289 --> 00:00:30.090
+ when my character moves to a 
+
+00:00:26.970 --> 00:00:31.470
+ ramp detection of walls detects this 
+
+00:00:30.090 --> 00:00:33.570
+ ramp like a wall 
+
+00:00:31.470 --> 00:00:34.489
+ makes it impossible for the character to 
+
+00:00:33.570 --> 00:00:37.530
+ ramp 
+
+00:00:34.489 --> 00:00:39.570
+ this is because the detection radius 
+
+00:00:37.530 --> 00:00:41.309
+ of walls is being fired from 
+
+00:00:39.570 --> 00:00:43.469
+ player's feet 
+
+00:00:41.309 --> 00:00:45.719
+ the way our game is now 
+
+00:00:43.469 --> 00:00:48.450
+ enriches that detects walls is 
+
+00:00:45.719 --> 00:00:50.820
+ shot from the character's foot hillside 
+
+00:00:48.450 --> 00:00:52.730
+ ramp and thus the ramp detected with a 
+
+00:00:50.820 --> 00:00:55.829
+ wall what for our character 
+
+00:00:52.730 --> 00:00:57.870
+ prevents him from climbing the ramp when he 
+
+00:00:55.829 --> 00:01:00.210
+ slope on the ramp he thinks it 's a 
+
+00:00:57.870 --> 00:01:01.350
+ wall and for all 
+
+00:01:00.210 --> 00:01:03.899
+ character 
+
+00:01:01.350 --> 00:01:06.270
+ the rick is if by default it is triggered to 
+
+00:01:03.899 --> 00:01:07.770
+ from the pivot point of your object that 
+
+00:01:06.270 --> 00:01:10.500
+ is also known as the point of origin 
+
+00:01:07.770 --> 00:01:12.750
+ in the case of our character his point 
+
+00:01:10.500 --> 00:01:16.470
+ web pivot right next to the feet 
+
+00:01:12.750 --> 00:01:20.610
+ it's easy to see go in the select scene tab 
+
+00:01:16.470 --> 00:01:23.670
+ your character and click directly on the 
+
+00:01:20.610 --> 00:01:24.750
+ menu on this button next to Global is 
+
+00:01:23.670 --> 00:01:27.060
+ writing center 
+
+00:01:24.750 --> 00:01:29.640
+ it will change to pivot and you will be able to 
+
+00:01:27.060 --> 00:01:32.310
+ see through the guidismo that these are 
+
+00:01:29.640 --> 00:01:34.590
+ three arrows pointing xyez axes 
+
+00:01:32.310 --> 00:01:37.619
+ that the pivot point of the character is 
+
+00:01:34.590 --> 00:01:38.400
+ near his feet and that's where a 
+
+00:01:37.619 --> 00:01:40.380
+ lightning 
+
+00:01:38.400 --> 00:01:42.960
+ We are going to make a small 
+
+00:01:40.380 --> 00:01:45.270
+ modification in the code so that the radius 
+
+00:01:42.960 --> 00:01:47.790
+ exit the center of the character or 
+
+00:01:45.270 --> 00:01:50.130
+ less than a point near the center 
+
+00:01:47.790 --> 00:01:52.470
+ if you are still using a capsule 
+
+00:01:50.130 --> 00:01:54.750
+ Unite you will not find this 
+
+00:01:52.470 --> 00:01:56.610
+ problem because the pivot point of objects 
+
+00:01:54.750 --> 00:01:59.700
+ of the river where they are usually in the 
+
+00:01:56.610 --> 00:02:01.380
+ object but in our case the pivot point 
+
+00:01:59.700 --> 00:02:04.680
+ is near the feet 
+
+00:02:01.380 --> 00:02:06.240
+ then the ray comes out near the feet but 
+
+00:02:04.680 --> 00:02:08.129
+ before making the correction we go 
+
+00:02:06.240 --> 00:02:09.989
+ to draw a ray for a better 
+
+00:02:08.129 --> 00:02:13.260
+ illustration of what is happening 
+
+00:02:09.989 --> 00:02:13.890
+ let's go to the code and just below the line 
+
+00:02:13.260 --> 00:02:17.220
+ detection 
+
+00:02:13.890 --> 00:02:19.440
+ wall we will create the line that 
+
+00:02:17.220 --> 00:02:21.810
+ will draw a ray we will write then 
+
+00:02:19.440 --> 00:02:29.100
+ from point buggy 
+
+00:02:21.810 --> 00:02:32.580
+ I played turn point position which is the 
+
+00:02:29.100 --> 00:02:37.830
+ place of origin of my comma ray 
+
+00:02:32.580 --> 00:02:44.400
+ turn the ford point or to 
+
+00:02:37.830 --> 00:02:48.030
+ front and color collor punto green 
+
+00:02:44.400 --> 00:02:49.230
+ close parentheses semicolons save the 
+
+00:02:48.030 --> 00:02:54.630
+ archive 
+
+00:02:49.230 --> 00:02:57.500
+ Let's see on the night of the game and we'll give 
+
+00:02:54.630 --> 00:02:57.500
+ a look at the scene 
+
+00:02:57.959 --> 00:03:01.290
+ see only the ray leaves the pivot point of the 
+
+00:03:00.239 --> 00:03:04.320
+ character 
+
+00:03:01.290 --> 00:03:06.420
+ that is everyone ask now let's modify 
+
+00:03:04.320 --> 00:03:08.610
+ the wall detection line so that 
+
+00:03:06.420 --> 00:03:11.250
+ the radius leaves the center or at least 
+
+00:03:08.610 --> 00:03:13.920
+ a point near the center of the character 
+
+00:03:11.250 --> 00:03:17.459
+ the modification is basic we just need 
+
+00:03:13.920 --> 00:03:18.209
+ tell the king cast that his point of 
+
+00:03:17.459 --> 00:03:20.130
+ source 
+
+00:03:18.209 --> 00:03:22.560
+ will not be exactly the point transformer 
+
+00:03:20.130 --> 00:03:24.480
+ position as the point of origin is a 
+
+00:03:22.560 --> 00:03:26.970
+ vector 3 we will then create a new 
+
+00:03:24.480 --> 00:03:33.120
+ factor 3 at the point of origin session of the 
+
+00:03:26.970 --> 00:03:35.400
+ hearst new vector 3 and now we 
+
+00:03:33.120 --> 00:03:36.510
+ we need to enter the three x values 
+
+00:03:35.400 --> 00:03:38.940
+ yez 
+
+00:03:36.510 --> 00:03:40.350
+ in the case of the x-axis we do not want 
+
+00:03:38.940 --> 00:03:42.239
+ no modification 
+
+00:03:40.350 --> 00:03:46.620
+ so everything we need to do in this 
+
+00:03:42.239 --> 00:03:50.489
+ point is put turn point 
+
+00:03:46.620 --> 00:03:53.820
+ position point x transform with letter 
+
+00:03:50.489 --> 00:03:57.000
+ tiny and ready 
+
+00:03:53.820 --> 00:03:59.310
+ on the y-axis we are going to make the 
+
+00:03:57.000 --> 00:04:03.299
+ change to go up a little lightning 
+
+00:03:59.310 --> 00:04:07.500
+ so let's put transform point 
+
+00:04:03.299 --> 00:04:11.579
+ position point and let's add a 
+
+00:04:07.500 --> 00:04:14.220
+ value here in my case is one more point 
+
+00:04:11.579 --> 00:04:16.350
+ two to fifa because this is the point value 
+
+00:04:14.220 --> 00:04:20.459
+ floating and to 8 z 
+
+00:04:16.350 --> 00:04:24.780
+ Let's put transform point 
+
+00:04:20.459 --> 00:04:26.729
+ position point z and closes parentheses for 
+
+00:04:24.780 --> 00:04:27.930
+ illustration effect let's do the same 
+
+00:04:26.729 --> 00:04:31.530
+ thing in the 
+
+00:04:27.930 --> 00:04:33.539
+ org.br it will draw ohio exactly 
+
+00:04:31.530 --> 00:04:36.210
+ at the point we send it requires 
+
+00:04:33.539 --> 00:04:38.100
+ be drawn on this top line 
+
+00:04:36.210 --> 00:04:41.100
+ so all we have to do is 
+
+00:04:38.100 --> 00:04:42.990
+ replace the transformer position with the 
+
+00:04:41.100 --> 00:04:43.949
+ factor 3 we just created here 
+
+00:04:42.990 --> 00:04:47.280
+ on 
+
+00:04:43.949 --> 00:04:50.520
+ select it the right mouse button 
+
+00:04:47.280 --> 00:04:56.000
+ Copy selects transform into position 
+
+00:04:50.520 --> 00:04:58.940
+ the dry right-mouse necklace 
+
+00:04:56.000 --> 00:05:04.590
+ save a file 
+
+00:04:58.940 --> 00:05:08.580
+ we now see the unity runs the game comes 
+
+00:05:04.590 --> 00:05:11.759
+ in the scene tab and now you can see that the 
+
+00:05:08.580 --> 00:05:13.110
+ ray is being fired from a point 
+
+00:05:11.759 --> 00:05:14.160
+ much closer to the center of our 
+
+00:05:13.110 --> 00:05:18.449
+ character 
+
+00:05:14.160 --> 00:05:20.280
+ So when I move around the 
+
+00:05:18.449 --> 00:05:23.190
+ ramp 
+
+00:05:20.280 --> 00:05:25.650
+ the radius does not touch the ramp anymore 
+
+00:05:23.190 --> 00:05:28.560
+ so it does not detect the ramp as a 
+
+00:05:25.650 --> 00:05:32.280
+ wall and my character can over 
+
+00:05:28.560 --> 00:05:34.490
+ ramps normally and our fast 
+
+00:05:32.280 --> 00:05:38.550
+ correction is made 
+
+00:05:34.490 --> 00:05:42.349
+ now you can get rid of the line that 
+
+00:05:38.550 --> 00:05:42.349
+ draw ohio in our scene 
+
+00:05:43.610 --> 00:05:52.380
+ remember to save the file with this 
+
+00:05:49.770 --> 00:05:54.770
+ we finished part 5 of our 
+
+00:05:52.380 --> 00:05:58.820
+ basic 3d tutorial of unity 3d 
+
+00:05:54.770 --> 00:05:58.820
+ Thank you and see you next time 
+
+00:06:19.529 --> 00:06:22.529
+ ah 
+

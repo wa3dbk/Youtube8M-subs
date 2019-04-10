@@ -1,0 +1,546 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.819 
+
+in<00:00:00.179> this<00:00:00.359> tutorial<00:00:00.570> I'm<00:00:01.170> going<00:00:01.380> to<00:00:01.439> be<00:00:01.589> showing
+
+00:00:01.819 --> 00:00:01.829 
+in this tutorial I'm going to be showing
+
+00:00:01.829 --> 00:00:04.490 
+in this tutorial I'm going to be showing
+you<00:00:02.070> how<00:00:02.310> to<00:00:02.340> add<00:00:02.669> custom<00:00:03.090> motion<00:00:03.689> blur<00:00:03.959> to<00:00:04.200> an
+
+00:00:04.490 --> 00:00:04.500 
+you how to add custom motion blur to an
+
+00:00:04.500 --> 00:00:06.530 
+you how to add custom motion blur to an
+animated<00:00:04.859> object<00:00:05.430> and<00:00:05.700> I'm<00:00:06.210> going<00:00:06.359> to<00:00:06.390> be
+
+00:00:06.530 --> 00:00:06.540 
+animated object and I'm going to be
+
+00:00:06.540 --> 00:00:08.600 
+animated object and I'm going to be
+doing<00:00:06.810> a<00:00:06.899> mini-series<00:00:07.410> about<00:00:07.919> motion<00:00:08.189> blur
+
+00:00:08.600 --> 00:00:08.610 
+doing a mini-series about motion blur
+
+00:00:08.610 --> 00:00:10.759 
+doing a mini-series about motion blur
+and<00:00:08.910> this<00:00:09.389> is<00:00:09.450> going<00:00:09.570> to<00:00:09.630> be<00:00:09.780> part<00:00:10.050> one<00:00:10.139> so<00:00:10.650> I'm
+
+00:00:10.759 --> 00:00:10.769 
+and this is going to be part one so I'm
+
+00:00:10.769 --> 00:00:12.440 
+and this is going to be part one so I'm
+going<00:00:10.889> to<00:00:10.980> be<00:00:11.070> showing<00:00:11.280> you<00:00:11.519> quite<00:00:12.090> a<00:00:12.120> simple
+
+00:00:12.440 --> 00:00:12.450 
+going to be showing you quite a simple
+
+00:00:12.450 --> 00:00:15.890 
+going to be showing you quite a simple
+effect<00:00:12.929> but<00:00:13.259> it's<00:00:13.410> very<00:00:13.679> useful<00:00:14.360> okay<00:00:15.360> so<00:00:15.420> I've
+
+00:00:15.890 --> 00:00:15.900 
+effect but it's very useful okay so I've
+
+00:00:15.900 --> 00:00:17.779 
+effect but it's very useful okay so I've
+got<00:00:15.929> my<00:00:16.199> example<00:00:16.680> scene<00:00:16.949> here<00:00:17.279> I've<00:00:17.460> got<00:00:17.760> my
+
+00:00:17.779 --> 00:00:17.789 
+got my example scene here I've got my
+
+00:00:17.789 --> 00:00:20.590 
+got my example scene here I've got my
+red<00:00:18.270> object<00:00:18.810> just<00:00:19.170> doing<00:00:19.470> a<00:00:19.680> very<00:00:19.890> simple
+
+00:00:20.590 --> 00:00:20.600 
+red object just doing a very simple
+
+00:00:20.600 --> 00:00:24.410 
+red object just doing a very simple
+tween<00:00:21.600> across<00:00:22.080> the<00:00:22.380> stage<00:00:22.650> here<00:00:23.070> and<00:00:23.939> if<00:00:24.330> I
+
+00:00:24.410 --> 00:00:24.420 
+tween across the stage here and if I
+
+00:00:24.420 --> 00:00:26.509 
+tween across the stage here and if I
+just<00:00:24.630> do<00:00:24.869> publish<00:00:25.619> preview<00:00:26.010> so<00:00:26.160> you<00:00:26.189> can<00:00:26.369> see
+
+00:00:26.509 --> 00:00:26.519 
+just do publish preview so you can see
+
+00:00:26.519 --> 00:00:30.620 
+just do publish preview so you can see
+it<00:00:26.609> a<00:00:26.670> bit<00:00:26.699> better<00:00:27.890> I'm<00:00:28.890> running<00:00:29.460> this<00:00:29.609> at<00:00:29.849> 25
+
+00:00:30.620 --> 00:00:30.630 
+it a bit better I'm running this at 25
+
+00:00:30.630 --> 00:00:32.840 
+it a bit better I'm running this at 25
+frames<00:00:30.929> per<00:00:31.140> second<00:00:31.710> and<00:00:31.980> as<00:00:32.369> you<00:00:32.489> can<00:00:32.640> see
+
+00:00:32.840 --> 00:00:32.850 
+frames per second and as you can see
+
+00:00:32.850 --> 00:00:35.180 
+frames per second and as you can see
+it's<00:00:33.149> quite<00:00:33.390> choppy<00:00:33.870> even<00:00:34.380> though<00:00:34.559> it's<00:00:34.920> quite
+
+00:00:35.180 --> 00:00:35.190 
+it's quite choppy even though it's quite
+
+00:00:35.190 --> 00:00:37.100 
+it's quite choppy even though it's quite
+a<00:00:35.280> quick<00:00:35.520> bit<00:00:35.730> of<00:00:35.760> motion<00:00:36.210> and<00:00:36.450> you<00:00:36.690> can<00:00:36.870> see<00:00:37.079> a
+
+00:00:37.100 --> 00:00:37.110 
+a quick bit of motion and you can see a
+
+00:00:37.110 --> 00:00:39.709 
+a quick bit of motion and you can see a
+sort<00:00:37.380> of<00:00:37.469> weird<00:00:38.219> choppy<00:00:38.820> optical<00:00:39.360> illusion
+
+00:00:39.709 --> 00:00:39.719 
+sort of weird choppy optical illusion
+
+00:00:39.719 --> 00:00:41.810 
+sort of weird choppy optical illusion
+here<00:00:40.020> so<00:00:40.320> we're<00:00:40.530> going<00:00:40.620> to<00:00:40.680> go<00:00:40.800> ahead<00:00:40.920> and<00:00:41.309> fix
+
+00:00:41.810 --> 00:00:41.820 
+here so we're going to go ahead and fix
+
+00:00:41.820 --> 00:00:44.479 
+here so we're going to go ahead and fix
+this<00:00:42.320> so<00:00:43.320> first<00:00:43.649> things<00:00:43.920> first<00:00:43.980> I'm<00:00:44.309> going<00:00:44.430> to
+
+00:00:44.479 --> 00:00:44.489 
+this so first things first I'm going to
+
+00:00:44.489 --> 00:00:47.060 
+this so first things first I'm going to
+go<00:00:44.610> to<00:00:44.670> my<00:00:45.059> start<00:00:45.510> point<00:00:45.809> here<00:00:46.110> select<00:00:46.829> my
+
+00:00:47.060 --> 00:00:47.070 
+go to my start point here select my
+
+00:00:47.070 --> 00:00:49.850 
+go to my start point here select my
+object<00:00:47.100> and<00:00:48.050> make<00:00:49.050> sure<00:00:49.260> it's<00:00:49.410> a<00:00:49.469> movie<00:00:49.739> clip
+
+00:00:49.850 --> 00:00:49.860 
+object and make sure it's a movie clip
+
+00:00:49.860 --> 00:00:51.770 
+object and make sure it's a movie clip
+not<00:00:50.129> a<00:00:50.190> graphic<00:00:50.489> because<00:00:51.000> you<00:00:51.090> can't<00:00:51.329> apply
+
+00:00:51.770 --> 00:00:51.780 
+not a graphic because you can't apply
+
+00:00:51.780 --> 00:00:53.119 
+not a graphic because you can't apply
+filters<00:00:52.320> to<00:00:52.440> graphics
+
+00:00:53.119 --> 00:00:53.129 
+filters to graphics
+
+00:00:53.129 --> 00:00:55.639 
+filters to graphics
+okay<00:00:53.969> so<00:00:54.030> I'm<00:00:54.329> going<00:00:54.449> to<00:00:54.539> go<00:00:54.690> to<00:00:55.260> properties
+
+00:00:55.639 --> 00:00:55.649 
+okay so I'm going to go to properties
+
+00:00:55.649 --> 00:00:58.910 
+okay so I'm going to go to properties
+and<00:00:56.219> down<00:00:56.640> to<00:00:57.059> my<00:00:57.210> filters<00:00:57.690> and<00:00:58.020> there<00:00:58.680> is<00:00:58.770> no
+
+00:00:58.910 --> 00:00:58.920 
+and down to my filters and there is no
+
+00:00:58.920 --> 00:01:00.680 
+and down to my filters and there is no
+motion<00:00:59.280> blur<00:00:59.460> filter<00:00:59.879> and<00:01:00.000> flash<00:01:00.210> I'm<00:01:00.510> just
+
+00:01:00.680 --> 00:01:00.690 
+motion blur filter and flash I'm just
+
+00:01:00.690 --> 00:01:03.910 
+motion blur filter and flash I'm just
+going<00:01:00.809> to<00:01:00.899> use<00:01:01.079> the<00:01:01.379> default<00:01:01.710> blur<00:01:02.309> option<00:01:03.059> and
+
+00:01:03.910 --> 00:01:03.920 
+going to use the default blur option and
+
+00:01:03.920 --> 00:01:06.740 
+going to use the default blur option and
+so<00:01:04.920> what<00:01:05.159> you'll<00:01:05.280> find<00:01:05.549> my<00:01:05.700> default<00:01:06.119> is<00:01:06.390> with
+
+00:01:06.740 --> 00:01:06.750 
+so what you'll find my default is with
+
+00:01:06.750 --> 00:01:09.969 
+so what you'll find my default is with
+the<00:01:06.960> X<00:01:07.110> and<00:01:07.470> y<00:01:08.010> values<00:01:08.549> they<00:01:09.510> will<00:01:09.630> be
+
+00:01:09.969 --> 00:01:09.979 
+the X and y values they will be
+
+00:01:09.979 --> 00:01:12.770 
+the X and y values they will be
+connected<00:01:10.979> together<00:01:11.130> and<00:01:11.549> constrained<00:01:12.390> so<00:01:12.659> if
+
+00:01:12.770 --> 00:01:12.780 
+connected together and constrained so if
+
+00:01:12.780 --> 00:01:14.390 
+connected together and constrained so if
+you<00:01:12.900> change<00:01:13.170> one<00:01:13.470> the<00:01:13.650> other<00:01:13.799> one<00:01:14.010> will<00:01:14.159> follow
+
+00:01:14.390 --> 00:01:14.400 
+you change one the other one will follow
+
+00:01:14.400 --> 00:01:16.609 
+you change one the other one will follow
+suit<00:01:14.760> and<00:01:14.790> we<00:01:15.540> actually<00:01:15.840> want<00:01:15.960> to<00:01:15.990> stop<00:01:16.259> this
+
+00:01:16.609 --> 00:01:16.619 
+suit and we actually want to stop this
+
+00:01:16.619 --> 00:01:18.170 
+suit and we actually want to stop this
+happening<00:01:16.860> so<00:01:17.400> first<00:01:17.729> of<00:01:17.850> all<00:01:17.909> I'm<00:01:18.000> going<00:01:18.090> to
+
+00:01:18.170 --> 00:01:18.180 
+happening so first of all I'm going to
+
+00:01:18.180 --> 00:01:21.260 
+happening so first of all I'm going to
+put<00:01:18.330> this<00:01:18.450> back<00:01:18.630> to<00:01:18.869> default<00:01:19.409> values<00:01:20.040> so<00:01:20.790> to
+
+00:01:21.260 --> 00:01:21.270 
+put this back to default values so to
+
+00:01:21.270 --> 00:01:23.270 
+put this back to default values so to
+prevent<00:01:21.659> this<00:01:21.930> I'm<00:01:22.110> going<00:01:22.290> to<00:01:22.409> click<00:01:23.040> one<00:01:23.250> of
+
+00:01:23.270 --> 00:01:23.280 
+prevent this I'm going to click one of
+
+00:01:23.280 --> 00:01:25.130 
+prevent this I'm going to click one of
+these<00:01:23.549> and<00:01:23.880> this<00:01:24.000> stops<00:01:24.330> the<00:01:24.509> constraint
+
+00:01:25.130 --> 00:01:25.140 
+these and this stops the constraint
+
+00:01:25.140 --> 00:01:26.450 
+these and this stops the constraint
+between<00:01:25.470> the<00:01:25.530> two<00:01:25.710> values<00:01:25.950> so<00:01:26.159> you<00:01:26.340> can
+
+00:01:26.450 --> 00:01:26.460 
+between the two values so you can
+
+00:01:26.460 --> 00:01:28.039 
+between the two values so you can
+actually<00:01:26.610> just<00:01:26.909> change<00:01:27.210> them<00:01:27.689> and<00:01:27.900> have
+
+00:01:28.039 --> 00:01:28.049 
+actually just change them and have
+
+00:01:28.049 --> 00:01:30.350 
+actually just change them and have
+different<00:01:28.500> values<00:01:28.829> for<00:01:28.979> both<00:01:29.130> and<00:01:29.460> the<00:01:30.119> reason
+
+00:01:30.350 --> 00:01:30.360 
+different values for both and the reason
+
+00:01:30.360 --> 00:01:31.789 
+different values for both and the reason
+why<00:01:30.450> it's<00:01:30.630> important<00:01:31.200> is<00:01:31.439> for<00:01:31.680> this
+
+00:01:31.789 --> 00:01:31.799 
+why it's important is for this
+
+00:01:31.799 --> 00:01:33.980 
+why it's important is for this
+particular<00:01:32.009> example<00:01:32.400> I<00:01:33.090> only<00:01:33.540> want<00:01:33.869> to<00:01:33.930> change
+
+00:01:33.980 --> 00:01:33.990 
+particular example I only want to change
+
+00:01:33.990 --> 00:01:38.149 
+particular example I only want to change
+the<00:01:34.680> x-axis<00:01:35.250> value<00:01:36.030> aka<00:01:36.810> the<00:01:37.470> horizontal
+
+00:01:38.149 --> 00:01:38.159 
+the x-axis value aka the horizontal
+
+00:01:38.159 --> 00:01:40.719 
+the x-axis value aka the horizontal
+value<00:01:38.549> so<00:01:38.850> for<00:01:39.240> my<00:01:39.360> Y<00:01:39.600> axis<00:01:40.140> which<00:01:40.500> is<00:01:40.530> vertical
+
+00:01:40.719 --> 00:01:40.729 
+value so for my Y axis which is vertical
+
+00:01:40.729 --> 00:01:43.100 
+value so for my Y axis which is vertical
+I'm<00:01:41.729> actually<00:01:41.909> going<00:01:42.150> to<00:01:42.210> put<00:01:42.390> it<00:01:42.509> to<00:01:42.720> zero
+
+00:01:43.100 --> 00:01:43.110 
+I'm actually going to put it to zero
+
+00:01:43.110 --> 00:01:46.429 
+I'm actually going to put it to zero
+because<00:01:43.320> there's<00:01:43.619> no<00:01:43.680> motion<00:01:44.250> there<00:01:44.460> and<00:01:45.439> in
+
+00:01:46.429 --> 00:01:46.439 
+because there's no motion there and in
+
+00:01:46.439 --> 00:01:49.219 
+because there's no motion there and in
+terms<00:01:46.710> of<00:01:46.890> my<00:01:47.070> x-axis<00:01:47.700> value<00:01:48.420> I<00:01:48.630> actually<00:01:48.990> want
+
+00:01:49.219 --> 00:01:49.229 
+terms of my x-axis value I actually want
+
+00:01:49.229 --> 00:01:50.359 
+terms of my x-axis value I actually want
+to<00:01:49.259> crank<00:01:49.439> that<00:01:49.619> up<00:01:49.770> because<00:01:49.920> it's<00:01:50.189> going<00:01:50.280> to
+
+00:01:50.359 --> 00:01:50.369 
+to crank that up because it's going to
+
+00:01:50.369 --> 00:01:53.359 
+to crank that up because it's going to
+be<00:01:50.460> moving<00:01:50.670> that<00:01:51.060> direction<00:01:51.710> so<00:01:52.710> I'm<00:01:53.130> going<00:01:53.310> to
+
+00:01:53.359 --> 00:01:53.369 
+be moving that direction so I'm going to
+
+00:01:53.369 --> 00:01:57.590 
+be moving that direction so I'm going to
+put<00:01:53.520> it<00:01:53.670> to<00:01:54.090> about<00:01:54.360> I'm<00:01:54.960> going<00:01:55.140> to<00:01:55.259> do<00:01:55.409> 20<00:01:55.770> I<00:01:56.600> can
+
+00:01:57.590 --> 00:01:57.600 
+put it to about I'm going to do 20 I can
+
+00:01:57.600 --> 00:01:59.359 
+put it to about I'm going to do 20 I can
+see<00:01:57.780> the<00:01:57.930> effect<00:01:58.259> is<00:01:58.409> already<00:01:58.770> starting<00:01:59.130> here
+
+00:01:59.359 --> 00:01:59.369 
+see the effect is already starting here
+
+00:01:59.369 --> 00:02:02.420 
+see the effect is already starting here
+and<00:01:59.780> also<00:02:00.780> our<00:02:00.990> Deathwing<00:02:01.380> recommend<00:02:01.829> using
+
+00:02:02.420 --> 00:02:02.430 
+and also our Deathwing recommend using
+
+00:02:02.430 --> 00:02:04.520 
+and also our Deathwing recommend using
+high<00:02:02.850> quality<00:02:02.899> because<00:02:03.899> you<00:02:04.020> can<00:02:04.229> see<00:02:04.439> it
+
+00:02:04.520 --> 00:02:04.530 
+high quality because you can see it
+
+00:02:04.530 --> 00:02:07.639 
+high quality because you can see it
+gives<00:02:04.770> it<00:02:04.979> a<00:02:05.070> much<00:02:05.310> more<00:02:05.930> filtered<00:02:06.930> feathered
+
+00:02:07.639 --> 00:02:07.649 
+gives it a much more filtered feathered
+
+00:02:07.649 --> 00:02:08.800 
+gives it a much more filtered feathered
+out<00:02:07.770> effect<00:02:08.220> here
+
+00:02:08.800 --> 00:02:08.810 
+out effect here
+
+00:02:08.810 --> 00:02:12.080 
+out effect here
+all<00:02:09.810> right<00:02:10.020> great<00:02:10.259> so<00:02:10.590> next<00:02:10.830> men<00:02:11.099> go<00:02:11.280> to<00:02:11.310> my<00:02:11.790> end
+
+00:02:12.080 --> 00:02:12.090 
+all right great so next men go to my end
+
+00:02:12.090 --> 00:02:13.580 
+all right great so next men go to my end
+frame
+
+00:02:13.580 --> 00:02:13.590 
+frame
+
+00:02:13.590 --> 00:02:15.350 
+frame
+and<00:02:13.680> I'm<00:02:14.220> just<00:02:14.340> going<00:02:14.550> to<00:02:14.670> do<00:02:14.819> the<00:02:15.000> exact<00:02:15.330> same
+
+00:02:15.350 --> 00:02:15.360 
+and I'm just going to do the exact same
+
+00:02:15.360 --> 00:02:19.390 
+and I'm just going to do the exact same
+values<00:02:16.200> so<00:02:16.760> x-axis<00:02:17.760> 20<00:02:18.209> and<00:02:18.510> high-quality
+
+00:02:19.390 --> 00:02:19.400 
+values so x-axis 20 and high-quality
+
+00:02:19.400 --> 00:02:22.009 
+values so x-axis 20 and high-quality
+okay<00:02:20.400> so<00:02:20.459> the<00:02:20.940> effect<00:02:21.239> is<00:02:21.360> pretty<00:02:21.569> much<00:02:21.720> done
+
+00:02:22.009 --> 00:02:22.019 
+okay so the effect is pretty much done
+
+00:02:22.019 --> 00:02:25.009 
+okay so the effect is pretty much done
+but<00:02:22.050> I'm<00:02:22.379> just<00:02:22.530> going<00:02:22.680> to<00:02:22.709> do<00:02:23.150> one<00:02:24.150> more<00:02:24.180> effect
+
+00:02:25.009 --> 00:02:25.019 
+but I'm just going to do one more effect
+
+00:02:25.019 --> 00:02:27.350 
+but I'm just going to do one more effect
+I'm<00:02:25.680> just<00:02:26.099> going<00:02:26.220> to<00:02:26.250> go<00:02:26.400> to<00:02:26.459> roughly<00:02:27.269> the
+
+00:02:27.350 --> 00:02:27.360 
+I'm just going to go to roughly the
+
+00:02:27.360 --> 00:02:31.000 
+I'm just going to go to roughly the
+middle<00:02:27.599> frame<00:02:28.250> insert<00:02:29.250> a<00:02:29.280> new<00:02:29.730> keyframe<00:02:29.970> and
+
+00:02:31.000 --> 00:02:31.010 
+middle frame insert a new keyframe and
+
+00:02:31.010 --> 00:02:33.710 
+middle frame insert a new keyframe and
+for<00:02:32.010> this<00:02:32.250> I'm<00:02:32.489> just<00:02:32.640> going<00:02:32.849> to<00:02:32.940> ramp<00:02:33.269> up<00:02:33.510> the
+
+00:02:33.710 --> 00:02:33.720 
+for this I'm just going to ramp up the
+
+00:02:33.720 --> 00:02:37.880 
+for this I'm just going to ramp up the
+value<00:02:34.080> to<00:02:34.230> about<00:02:34.349> 30<00:02:36.349> okay<00:02:37.349> so<00:02:37.410> let's<00:02:37.680> check<00:02:37.739> it
+
+00:02:37.880 --> 00:02:37.890 
+value to about 30 okay so let's check it
+
+00:02:37.890 --> 00:02:41.830 
+value to about 30 okay so let's check it
+out<00:02:38.040> I'm<00:02:38.280> going<00:02:38.430> to<00:02:38.459> go<00:02:38.610> to<00:02:38.670> publish<00:02:39.330> preview
+
+00:02:41.830 --> 00:02:41.840 
+
+00:02:41.840 --> 00:02:44.300 
+
+all<00:02:42.840> right<00:02:43.019> and<00:02:43.170> there<00:02:43.290> we<00:02:43.410> go<00:02:43.590> as<00:02:43.739> you<00:02:43.769> can<00:02:43.950> see
+
+00:02:44.300 --> 00:02:44.310 
+all right and there we go as you can see
+
+00:02:44.310 --> 00:02:47.390 
+all right and there we go as you can see
+it's<00:02:44.489> a<00:02:44.640> much<00:02:44.970> smoother<00:02:45.510> motion<00:02:45.930> and<00:02:46.170> the<00:02:47.040> idea
+
+00:02:47.390 --> 00:02:47.400 
+it's a much smoother motion and the idea
+
+00:02:47.400 --> 00:02:49.819 
+it's a much smoother motion and the idea
+about<00:02:47.519> using<00:02:47.849> motion<00:02:48.269> blur<00:02:48.660> in<00:02:48.989> animation<00:02:49.620> in
+
+00:02:49.819 --> 00:02:49.829 
+about using motion blur in animation in
+
+00:02:49.829 --> 00:02:52.220 
+about using motion blur in animation in
+general<00:02:49.860> is<00:02:50.430> to<00:02:50.670> make<00:02:50.849> your<00:02:51.299> animation<00:02:51.870> appear
+
+00:02:52.220 --> 00:02:52.230 
+general is to make your animation appear
+
+00:02:52.230 --> 00:02:54.259 
+general is to make your animation appear
+as<00:02:52.470> if<00:02:52.799> it's<00:02:52.950> running<00:02:53.160> a<00:02:53.340> higher<00:02:53.790> frame<00:02:54.090> rate
+
+00:02:54.259 --> 00:02:54.269 
+as if it's running a higher frame rate
+
+00:02:54.269 --> 00:02:56.270 
+as if it's running a higher frame rate
+than<00:02:54.420> it<00:02:54.510> actually<00:02:54.630> is<00:02:54.840> and<00:02:55.200> as<00:02:55.950> you<00:02:55.980> can<00:02:56.220> see
+
+00:02:56.270 --> 00:02:56.280 
+than it actually is and as you can see
+
+00:02:56.280 --> 00:02:57.680 
+than it actually is and as you can see
+this<00:02:56.579> looks<00:02:56.849> like<00:02:57.000> it's<00:02:57.180> running<00:02:57.450> a<00:02:57.540> lot
+
+00:02:57.680 --> 00:02:57.690 
+this looks like it's running a lot
+
+00:02:57.690 --> 00:03:00.589 
+this looks like it's running a lot
+faster<00:02:58.260> than<00:02:58.530> the<00:02:58.709> previous<00:02:59.069> example<00:02:59.519> is<00:02:59.670> okay
+
+00:03:00.589 --> 00:03:00.599 
+faster than the previous example is okay
+
+00:03:00.599 --> 00:03:02.330 
+faster than the previous example is okay
+so<00:03:00.660> I<00:03:00.900> hope<00:03:01.049> you<00:03:01.200> found<00:03:01.319> this<00:03:01.530> effect<00:03:01.860> useful
+
+00:03:02.330 --> 00:03:02.340 
+so I hope you found this effect useful
+
+00:03:02.340 --> 00:03:04.160 
+so I hope you found this effect useful
+and<00:03:02.579> in<00:03:02.879> part<00:03:03.180> two<00:03:03.480> I'm<00:03:03.720> going<00:03:03.870> to<00:03:03.930> be<00:03:04.019> doing
+
+00:03:04.160 --> 00:03:04.170 
+and in part two I'm going to be doing
+
+00:03:04.170 --> 00:03:06.470 
+and in part two I'm going to be doing
+some<00:03:04.560> more<00:03:04.590> ambitious<00:03:05.340> and<00:03:05.549> complicated
+
+00:03:06.470 --> 00:03:06.480 
+some more ambitious and complicated
+
+00:03:06.480 --> 00:03:08.660 
+some more ambitious and complicated
+motion<00:03:07.019> blur<00:03:07.170> effects<00:03:07.530> so<00:03:08.190> make<00:03:08.370> sure<00:03:08.400> you
+
+00:03:08.660 --> 00:03:08.670 
+motion blur effects so make sure you
+
+00:03:08.670 --> 00:03:10.850 
+motion blur effects so make sure you
+subscribe<00:03:09.209> and<00:03:09.329> keep<00:03:09.540> up<00:03:09.690> to<00:03:09.840> date<00:03:09.870> and<00:03:10.319> I<00:03:10.680> will
+
+00:03:10.850 --> 00:03:10.860 
+subscribe and keep up to date and I will
+
+00:03:10.860 --> 00:03:14.090 
+subscribe and keep up to date and I will
+see<00:03:11.099> you<00:03:11.250> in<00:03:11.430> the<00:03:11.549> next<00:03:11.849> video
+

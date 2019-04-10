@@ -1,0 +1,691 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.340 
+
+in<00:00:00.060> this<00:00:00.570> lesson<00:00:00.810> we're<00:00:01.079> going<00:00:01.170> to<00:00:01.230> learn
+
+00:00:01.340 --> 00:00:01.350 
+in this lesson we're going to learn
+
+00:00:01.350 --> 00:00:03.590 
+in this lesson we're going to learn
+about<00:00:01.410> data<00:00:01.860> acquisition<00:00:02.460> commonly<00:00:03.360> called
+
+00:00:03.590 --> 00:00:03.600 
+about data acquisition commonly called
+
+00:00:03.600 --> 00:00:06.650 
+about data acquisition commonly called
+DAC<00:00:03.899> with<00:00:04.740> our<00:00:04.890> my<00:00:05.069> DAC<00:00:05.279> device<00:00:05.609> will<00:00:06.390> create<00:00:06.600> a
+
+00:00:06.650 --> 00:00:06.660 
+DAC with our my DAC device will create a
+
+00:00:06.660 --> 00:00:08.720 
+DAC with our my DAC device will create a
+VI<00:00:06.870> which<00:00:07.200> performs<00:00:07.589> an<00:00:07.710> audio<00:00:08.010> loopback<00:00:08.309> in
+
+00:00:08.720 --> 00:00:08.730 
+VI which performs an audio loopback in
+
+00:00:08.730 --> 00:00:10.669 
+VI which performs an audio loopback in
+other<00:00:09.240> words<00:00:09.510> the<00:00:09.780> source<00:00:10.019> plugged<00:00:10.320> into<00:00:10.500> the
+
+00:00:10.669 --> 00:00:10.679 
+other words the source plugged into the
+
+00:00:10.679 --> 00:00:13.100 
+other words the source plugged into the
+my<00:00:10.830> DAC<00:00:11.040> audio<00:00:11.429> in<00:00:11.670> channel<00:00:12.030> will<00:00:12.570> be<00:00:12.599> heard<00:00:12.900> on
+
+00:00:13.100 --> 00:00:13.110 
+my DAC audio in channel will be heard on
+
+00:00:13.110 --> 00:00:15.379 
+my DAC audio in channel will be heard on
+the<00:00:13.290> audio<00:00:13.590> out<00:00:13.799> channel<00:00:14.160> also<00:00:15.089> for<00:00:15.269> good
+
+00:00:15.379 --> 00:00:15.389 
+the audio out channel also for good
+
+00:00:15.389 --> 00:00:16.970 
+the audio out channel also for good
+measure<00:00:15.599> will<00:00:15.929> display<00:00:16.289> the<00:00:16.410> signal<00:00:16.619> on<00:00:16.920> a
+
+00:00:16.970 --> 00:00:16.980 
+measure will display the signal on a
+
+00:00:16.980 --> 00:00:19.099 
+measure will display the signal on a
+graph<00:00:17.340> indicator<00:00:17.820> on<00:00:17.970> the<00:00:18.060> front<00:00:18.240> panel<00:00:18.420> let's
+
+00:00:19.099 --> 00:00:19.109 
+graph indicator on the front panel let's
+
+00:00:19.109 --> 00:00:21.200 
+graph indicator on the front panel let's
+start<00:00:19.350> off<00:00:19.470> with<00:00:19.650> a<00:00:19.710> blank<00:00:19.830> VI<00:00:20.160> and<00:00:20.550> place<00:00:21.000> the
+
+00:00:21.200 --> 00:00:21.210 
+start off with a blank VI and place the
+
+00:00:21.210 --> 00:00:23.060 
+start off with a blank VI and place the
+DAC<00:00:21.390> assistant<00:00:21.600> Express<00:00:22.289> VI<00:00:22.500> on<00:00:22.769> our<00:00:22.890> block
+
+00:00:23.060 --> 00:00:23.070 
+DAC assistant Express VI on our block
+
+00:00:23.070 --> 00:00:25.580 
+DAC assistant Express VI on our block
+diagram<00:00:23.100> to<00:00:23.820> collect<00:00:24.090> the<00:00:24.240> audio<00:00:24.510> signal<00:00:24.960> the
+
+00:00:25.580 --> 00:00:25.590 
+diagram to collect the audio signal the
+
+00:00:25.590 --> 00:00:27.349 
+diagram to collect the audio signal the
+DAC<00:00:25.800> assistant<00:00:25.949> provides<00:00:26.430> a<00:00:26.670> user<00:00:26.880> interface
+
+00:00:27.349 --> 00:00:27.359 
+DAC assistant provides a user interface
+
+00:00:27.359 --> 00:00:28.790 
+DAC assistant provides a user interface
+to<00:00:27.599> assist<00:00:27.930> with<00:00:28.080> that<00:00:28.109> configuration
+
+00:00:28.790 --> 00:00:28.800 
+to assist with that configuration
+
+00:00:28.800 --> 00:00:31.009 
+to assist with that configuration
+through<00:00:29.580> this<00:00:29.670> interface<00:00:30.090> all<00:00:30.330> required<00:00:30.720> data
+
+00:00:31.009 --> 00:00:31.019 
+through this interface all required data
+
+00:00:31.019 --> 00:00:32.299 
+through this interface all required data
+acquisition<00:00:31.619> parameters<00:00:32.040> can<00:00:32.279> be
+
+00:00:32.299 --> 00:00:32.309 
+acquisition parameters can be
+
+00:00:32.309 --> 00:00:34.580 
+acquisition parameters can be
+conveniently<00:00:32.850> setup<00:00:33.239> using<00:00:33.600> a<00:00:33.660> wizard<00:00:33.960> the
+
+00:00:34.580 --> 00:00:34.590 
+conveniently setup using a wizard the
+
+00:00:34.590 --> 00:00:35.990 
+conveniently setup using a wizard the
+DAC<00:00:34.800> assistant<00:00:34.980> can<00:00:35.430> be<00:00:35.460> found<00:00:35.760> in<00:00:35.910> the
+
+00:00:35.990 --> 00:00:36.000 
+DAC assistant can be found in the
+
+00:00:36.000 --> 00:00:38.360 
+DAC assistant can be found in the
+measurement<00:00:36.390> io<00:00:36.570> sub<00:00:36.930> palette<00:00:37.260> under<00:00:37.410> NI<00:00:38.100> doc
+
+00:00:38.360 --> 00:00:38.370 
+measurement io sub palette under NI doc
+
+00:00:38.370 --> 00:00:41.510 
+measurement io sub palette under NI doc
+MX<00:00:38.790> or<00:00:39.030> in<00:00:39.660> the<00:00:39.750> quick<00:00:39.899> drop<00:00:40.079> menu
+
+00:00:41.510 --> 00:00:41.520 
+MX or in the quick drop menu
+
+00:00:41.520 --> 00:00:43.220 
+MX or in the quick drop menu
+once<00:00:42.240> we<00:00:42.390> place<00:00:42.600> it<00:00:42.780> on<00:00:42.840> our<00:00:42.990> block<00:00:43.200> diagram
+
+00:00:43.220 --> 00:00:43.230 
+once we place it on our block diagram
+
+00:00:43.230 --> 00:00:45.800 
+once we place it on our block diagram
+the<00:00:44.220> DAC<00:00:44.430> assistant<00:00:44.610> wizard<00:00:45.180> is<00:00:45.300> initialized
+
+00:00:45.800 --> 00:00:45.810 
+the DAC assistant wizard is initialized
+
+00:00:45.810 --> 00:00:47.690 
+the DAC assistant wizard is initialized
+once<00:00:46.680> the<00:00:46.830> initialization<00:00:47.190> is<00:00:47.640> complete
+
+00:00:47.690 --> 00:00:47.700 
+once the initialization is complete
+
+00:00:47.700 --> 00:00:49.610 
+once the initialization is complete
+we'll<00:00:48.210> see<00:00:48.390> a<00:00:48.420> wizard<00:00:48.660> based<00:00:49.020> set<00:00:49.230> of<00:00:49.350> screens
+
+00:00:49.610 --> 00:00:49.620 
+we'll see a wizard based set of screens
+
+00:00:49.620 --> 00:00:51.320 
+we'll see a wizard based set of screens
+which<00:00:49.860> will<00:00:50.040> allow<00:00:50.250> us<00:00:50.280> to<00:00:50.430> specify<00:00:50.820> all<00:00:51.300> the
+
+00:00:51.320 --> 00:00:51.330 
+which will allow us to specify all the
+
+00:00:51.330 --> 00:00:53.630 
+which will allow us to specify all the
+relevant<00:00:51.780> information<00:00:52.020> for<00:00:52.560> our<00:00:52.710> tasks<00:00:52.950> the
+
+00:00:53.630 --> 00:00:53.640 
+relevant information for our tasks the
+
+00:00:53.640 --> 00:00:55.070 
+relevant information for our tasks the
+first<00:00:53.670> screen<00:00:54.210> is<00:00:54.240> to<00:00:54.480> select<00:00:54.750> whether<00:00:54.930> we
+
+00:00:55.070 --> 00:00:55.080 
+first screen is to select whether we
+
+00:00:55.080 --> 00:00:56.690 
+first screen is to select whether we
+want<00:00:55.260> to<00:00:55.350> acquire<00:00:55.590> signals<00:00:56.100> or<00:00:56.280> generate
+
+00:00:56.690 --> 00:00:56.700 
+want to acquire signals or generate
+
+00:00:56.700 --> 00:00:58.880 
+want to acquire signals or generate
+signals<00:00:57.150> in<00:00:57.330> our<00:00:57.780> case<00:00:58.050> we<00:00:58.350> want<00:00:58.470> to<00:00:58.620> acquire
+
+00:00:58.880 --> 00:00:58.890 
+signals in our case we want to acquire
+
+00:00:58.890 --> 00:01:01.370 
+signals in our case we want to acquire
+an<00:00:59.190> analog<00:00:59.610> voltage<00:00:59.640> input<00:01:00.540> once<00:01:01.170> we<00:01:01.290> have
+
+00:01:01.370 --> 00:01:01.380 
+an analog voltage input once we have
+
+00:01:01.380 --> 00:01:03.110 
+an analog voltage input once we have
+chosen<00:01:01.620> our<00:01:01.830> input<00:01:02.190> we<00:01:02.610> have<00:01:02.640> a<00:01:02.790> choice<00:01:02.970> of
+
+00:01:03.110 --> 00:01:03.120 
+chosen our input we have a choice of
+
+00:01:03.120 --> 00:01:05.090 
+chosen our input we have a choice of
+which<00:01:03.300> device<00:01:03.600> we<00:01:03.780> want<00:01:03.960> to<00:01:04.050> use<00:01:04.230> we<00:01:05.010> will
+
+00:01:05.090 --> 00:01:05.100 
+which device we want to use we will
+
+00:01:05.100 --> 00:01:07.040 
+which device we want to use we will
+select<00:01:05.430> our<00:01:05.550> my<00:01:05.760> DAC<00:01:06.000> device<00:01:06.360> and<00:01:06.660> choose<00:01:06.690> the
+
+00:01:07.040 --> 00:01:07.050 
+select our my DAC device and choose the
+
+00:01:07.050 --> 00:01:09.080 
+select our my DAC device and choose the
+audio<00:01:07.350> input<00:01:07.530> left<00:01:07.920> and<00:01:08.220> audio<00:01:08.520> input<00:01:08.700> right
+
+00:01:09.080 --> 00:01:09.090 
+audio input left and audio input right
+
+00:01:09.090 --> 00:01:11.360 
+audio input left and audio input right
+as<00:01:09.330> our<00:01:09.480> channels<00:01:09.900> you<00:01:10.530> can<00:01:10.560> select<00:01:10.800> multiple
+
+00:01:11.360 --> 00:01:11.370 
+as our channels you can select multiple
+
+00:01:11.370 --> 00:01:12.890 
+as our channels you can select multiple
+items<00:01:11.460> from<00:01:11.760> the<00:01:11.880> list<00:01:12.120> by<00:01:12.270> holding<00:01:12.630> down<00:01:12.720> the
+
+00:01:12.890 --> 00:01:12.900 
+items from the list by holding down the
+
+00:01:12.900 --> 00:01:16.280 
+items from the list by holding down the
+control<00:01:13.260> or<00:01:13.440> shift<00:01:13.830> keys<00:01:15.020> now<00:01:16.020> we<00:01:16.080> have
+
+00:01:16.280 --> 00:01:16.290 
+control or shift keys now we have
+
+00:01:16.290 --> 00:01:18.260 
+control or shift keys now we have
+finished<00:01:16.590> creating<00:01:16.740> our<00:01:17.040> tasks<00:01:17.280> the<00:01:17.970> next
+
+00:01:18.260 --> 00:01:18.270 
+finished creating our tasks the next
+
+00:01:18.270 --> 00:01:21.109 
+finished creating our tasks the next
+screen<00:01:18.540> is<00:01:18.720> our<00:01:18.870> task<00:01:19.110> configuration<00:01:19.979> here<00:01:20.970> we
+
+00:01:21.109 --> 00:01:21.119 
+screen is our task configuration here we
+
+00:01:21.119 --> 00:01:22.730 
+screen is our task configuration here we
+have<00:01:21.240> the<00:01:21.360> ability<00:01:21.780> to<00:01:21.810> manipulate<00:01:22.020> various
+
+00:01:22.730 --> 00:01:22.740 
+have the ability to manipulate various
+
+00:01:22.740 --> 00:01:25.100 
+have the ability to manipulate various
+properties<00:01:23.220> we'll<00:01:23.970> adjust<00:01:24.270> our<00:01:24.450> signal<00:01:24.810> input
+
+00:01:25.100 --> 00:01:25.110 
+properties we'll adjust our signal input
+
+00:01:25.110 --> 00:01:27.500 
+properties we'll adjust our signal input
+range<00:01:25.350> for<00:01:25.650> both<00:01:25.770> channels<00:01:26.250> 2<00:01:26.700> plus<00:01:26.940> minus<00:01:27.119> 2
+
+00:01:27.500 --> 00:01:27.510 
+range for both channels 2 plus minus 2
+
+00:01:27.510 --> 00:01:29.030 
+range for both channels 2 plus minus 2
+volts
+
+00:01:29.030 --> 00:01:29.040 
+volts
+
+00:01:29.040 --> 00:01:31.010 
+volts
+we<00:01:29.640> will<00:01:29.730> also<00:01:29.880> increase<00:01:30.300> the<00:01:30.630> number<00:01:30.720> of
+
+00:01:31.010 --> 00:01:31.020 
+we will also increase the number of
+
+00:01:31.020 --> 00:01:34.070 
+we will also increase the number of
+samples<00:01:31.440> read<00:01:31.650> to<00:01:31.980> 10,000<00:01:32.640> and<00:01:32.790> the<00:01:33.510> rate<00:01:33.690> to
+
+00:01:34.070 --> 00:01:34.080 
+samples read to 10,000 and the rate to
+
+00:01:34.080 --> 00:01:38.300 
+samples read to 10,000 and the rate to
+100,000<00:01:34.980> press<00:01:35.730> ok<00:01:36.560> the<00:01:37.560> back<00:01:37.740> assistant<00:01:38.220> now
+
+00:01:38.300 --> 00:01:38.310 
+100,000 press ok the back assistant now
+
+00:01:38.310 --> 00:01:40.250 
+100,000 press ok the back assistant now
+verifies<00:01:38.790> the<00:01:39.000> task<00:01:39.210> and<00:01:39.540> begins<00:01:39.900> building
+
+00:01:40.250 --> 00:01:40.260 
+verifies the task and begins building
+
+00:01:40.260 --> 00:01:41.810 
+verifies the task and begins building
+the<00:01:40.350> code<00:01:40.530> necessary<00:01:41.070> to<00:01:41.250> run<00:01:41.400> this<00:01:41.580> data
+
+00:01:41.810 --> 00:01:41.820 
+the code necessary to run this data
+
+00:01:41.820 --> 00:01:44.360 
+the code necessary to run this data
+acquisition<00:01:42.360> task<00:01:42.680> now<00:01:43.680> that<00:01:43.860> we<00:01:43.950> have<00:01:44.100> a<00:01:44.130> data
+
+00:01:44.360 --> 00:01:44.370 
+acquisition task now that we have a data
+
+00:01:44.370 --> 00:01:46.880 
+acquisition task now that we have a data
+acquisition<00:01:44.580> task<00:01:45.210> to<00:01:45.450> collect<00:01:45.750> data<00:01:45.960> we<00:01:46.710> need
+
+00:01:46.880 --> 00:01:46.890 
+acquisition task to collect data we need
+
+00:01:46.890 --> 00:01:48.590 
+acquisition task to collect data we need
+a<00:01:46.920> task<00:01:47.190> to<00:01:47.490> write<00:01:47.670> the<00:01:47.820> data<00:01:48.000> to<00:01:48.180> our<00:01:48.210> audio
+
+00:01:48.590 --> 00:01:48.600 
+a task to write the data to our audio
+
+00:01:48.600 --> 00:01:50.870 
+a task to write the data to our audio
+out<00:01:48.840> this<00:01:49.620> again<00:01:49.950> can<00:01:50.160> be<00:01:50.190> done<00:01:50.430> using<00:01:50.640> our
+
+00:01:50.870 --> 00:01:50.880 
+out this again can be done using our
+
+00:01:50.880 --> 00:01:53.090 
+out this again can be done using our
+data<00:01:51.120> system
+
+00:01:53.090 --> 00:01:53.100 
+data system
+
+00:01:53.100 --> 00:01:55.429 
+data system
+instead<00:01:54.000> of<00:01:54.090> selecting<00:01:54.510> acquire<00:01:54.810> signals<00:01:55.290> we
+
+00:01:55.429 --> 00:01:55.439 
+instead of selecting acquire signals we
+
+00:01:55.439 --> 00:01:57.649 
+instead of selecting acquire signals we
+will<00:01:55.560> choose<00:01:55.740> generate<00:01:56.189> signals<00:01:56.659> again
+
+00:01:57.649 --> 00:01:57.659 
+will choose generate signals again
+
+00:01:57.659 --> 00:01:59.510 
+will choose generate signals again
+choosing<00:01:57.990> our<00:01:58.200> device<00:01:58.470> as<00:01:58.770> the<00:01:58.920> my<00:01:59.100> deck<00:01:59.340> and
+
+00:01:59.510 --> 00:01:59.520 
+choosing our device as the my deck and
+
+00:01:59.520 --> 00:02:01.820 
+choosing our device as the my deck and
+with<00:02:00.180> channels<00:02:00.570> audio<00:02:00.900> output<00:02:01.320> left<00:02:01.530> and
+
+00:02:01.820 --> 00:02:01.830 
+with channels audio output left and
+
+00:02:01.830 --> 00:02:04.190 
+with channels audio output left and
+audio<00:02:02.190> output<00:02:02.400> right<00:02:02.790> let's<00:02:03.630> configure<00:02:04.049> our
+
+00:02:04.190 --> 00:02:04.200 
+audio output right let's configure our
+
+00:02:04.200 --> 00:02:13.610 
+audio output right let's configure our
+tasks<00:02:04.470> to<00:02:04.950> match<00:02:05.100> the<00:02:05.340> other<00:02:05.490> dock<00:02:05.820> assistant
+
+00:02:13.610 --> 00:02:13.620 
+
+00:02:13.620 --> 00:02:16.170 
+
+connecting<00:02:14.620> the<00:02:14.650> signals<00:02:15.040> output<00:02:15.489> to<00:02:16.090> the
+
+00:02:16.170 --> 00:02:16.180 
+connecting the signals output to the
+
+00:02:16.180 --> 00:02:18.410 
+connecting the signals output to the
+signals<00:02:16.510> input<00:02:16.870> we<00:02:17.230> are<00:02:17.260> almost<00:02:17.470> done<00:02:17.860> just
+
+00:02:18.410 --> 00:02:18.420 
+signals input we are almost done just
+
+00:02:18.420 --> 00:02:20.460 
+signals input we are almost done just
+right-click<00:02:19.420> on<00:02:19.450> the<00:02:19.659> wire<00:02:19.840> and<00:02:20.079> create<00:02:20.409> a
+
+00:02:20.460 --> 00:02:20.470 
+right-click on the wire and create a
+
+00:02:20.470 --> 00:02:22.780 
+right-click on the wire and create a
+graph<00:02:20.709> indicator
+
+00:02:22.780 --> 00:02:22.790 
+graph indicator
+
+00:02:22.790 --> 00:02:24.970 
+graph indicator
+now<00:02:23.420> if<00:02:23.569> we<00:02:23.689> plug<00:02:23.840> in<00:02:23.900> an<00:02:24.110> audio<00:02:24.379> source<00:02:24.620> and
+
+00:02:24.970 --> 00:02:24.980 
+now if we plug in an audio source and
+
+00:02:24.980 --> 00:02:28.149 
+now if we plug in an audio source and
+speakers<00:02:25.580> we<00:02:25.819> can<00:02:25.970> run<00:02:26.150> the<00:02:26.269> program<00:02:27.159> notice
+
+00:02:28.149 --> 00:02:28.159 
+speakers we can run the program notice
+
+00:02:28.159 --> 00:02:30.130 
+speakers we can run the program notice
+we<00:02:28.280> get<00:02:28.400> a<00:02:28.459> small<00:02:28.760> blip<00:02:29.030> on<00:02:29.180> our<00:02:29.269> graph<00:02:29.510> but
+
+00:02:30.130 --> 00:02:30.140 
+we get a small blip on our graph but
+
+00:02:30.140 --> 00:02:31.179 
+we get a small blip on our graph but
+what<00:02:30.260> if<00:02:30.349> we<00:02:30.439> wanted<00:02:30.650> to<00:02:30.709> collect<00:02:31.010> data
+
+00:02:31.179 --> 00:02:31.189 
+what if we wanted to collect data
+
+00:02:31.189 --> 00:02:33.399 
+what if we wanted to collect data
+continuously<00:02:31.879> we<00:02:32.750> could<00:02:32.900> always<00:02:33.110> press<00:02:33.379> the
+
+00:02:33.399 --> 00:02:33.409 
+continuously we could always press the
+
+00:02:33.409 --> 00:02:35.770 
+continuously we could always press the
+run<00:02:33.709> continuously<00:02:34.340> button<00:02:34.700> but<00:02:35.480> that<00:02:35.599> really
+
+00:02:35.770 --> 00:02:35.780 
+run continuously button but that really
+
+00:02:35.780 --> 00:02:37.330 
+run continuously button but that really
+isn't<00:02:35.959> the<00:02:36.140> most<00:02:36.349> efficient<00:02:36.799> way<00:02:36.920> to<00:02:36.950> run<00:02:37.189> our
+
+00:02:37.330 --> 00:02:37.340 
+isn't the most efficient way to run our
+
+00:02:37.340 --> 00:02:39.610 
+isn't the most efficient way to run our
+code<00:02:37.549> another<00:02:38.540> option<00:02:39.019> is<00:02:39.110> to<00:02:39.140> use<00:02:39.260> a<00:02:39.379> while
+
+00:02:39.610 --> 00:02:39.620 
+code another option is to use a while
+
+00:02:39.620 --> 00:02:41.500 
+code another option is to use a while
+loop<00:02:39.650> while<00:02:40.579> loops<00:02:40.819> run<00:02:41.000> until<00:02:41.269> a<00:02:41.299> certain
+
+00:02:41.500 --> 00:02:41.510 
+loop while loops run until a certain
+
+00:02:41.510 --> 00:02:43.899 
+loop while loops run until a certain
+condition<00:02:41.959> is<00:02:42.079> met<00:02:42.260> while<00:02:43.220> loop<00:02:43.400> can<00:02:43.579> be<00:02:43.610> found
+
+00:02:43.899 --> 00:02:43.909 
+condition is met while loop can be found
+
+00:02:43.909 --> 00:02:45.759 
+condition is met while loop can be found
+in<00:02:44.150> our<00:02:44.269> structures<00:02:44.750> palette<00:02:45.110> or<00:02:45.319> by<00:02:45.560> using
+
+00:02:45.759 --> 00:02:45.769 
+in our structures palette or by using
+
+00:02:45.769 --> 00:02:47.730 
+in our structures palette or by using
+the<00:02:45.890> quick<00:02:46.129> drop<00:02:46.310> menu
+
+00:02:47.730 --> 00:02:47.740 
+the quick drop menu
+
+00:02:47.740 --> 00:02:49.230 
+the quick drop menu
+click<00:02:47.860> on<00:02:47.980> the<00:02:48.070> block<00:02:48.280> diagram<00:02:48.460> to<00:02:48.880> place<00:02:49.090> the
+
+00:02:49.230 --> 00:02:49.240 
+click on the block diagram to place the
+
+00:02:49.240 --> 00:02:51.390 
+click on the block diagram to place the
+loop<00:02:49.450> and<00:02:49.690> now<00:02:50.260> drag<00:02:50.560> the<00:02:50.710> mouse<00:02:50.860> around<00:02:51.070> our
+
+00:02:51.390 --> 00:02:51.400 
+loop and now drag the mouse around our
+
+00:02:51.400 --> 00:02:53.730 
+loop and now drag the mouse around our
+code<00:02:51.610> to<00:02:51.640> size<00:02:52.030> the<00:02:52.300> while<00:02:52.450> loop<00:02:52.660> because<00:02:53.620> we
+
+00:02:53.730 --> 00:02:53.740 
+code to size the while loop because we
+
+00:02:53.740 --> 00:02:54.720 
+code to size the while loop because we
+are<00:02:53.830> going<00:02:53.920> to<00:02:53.980> be<00:02:54.130> running<00:02:54.340> our<00:02:54.520> code
+
+00:02:54.720 --> 00:02:54.730 
+are going to be running our code
+
+00:02:54.730 --> 00:02:57.000 
+are going to be running our code
+continuously<00:02:55.360> we<00:02:56.080> need<00:02:56.230> to<00:02:56.320> change<00:02:56.530> our<00:02:56.770> task
+
+00:02:57.000 --> 00:02:57.010 
+continuously we need to change our task
+
+00:02:57.010 --> 00:02:59.280 
+continuously we need to change our task
+configurations<00:02:57.850> double<00:02:58.720> click<00:02:58.870> on<00:02:58.990> the<00:02:59.140> input
+
+00:02:59.280 --> 00:02:59.290 
+configurations double click on the input
+
+00:02:59.290 --> 00:03:00.960 
+configurations double click on the input
+data<00:02:59.590> system<00:03:00.160> to<00:03:00.310> open<00:03:00.700> the<00:03:00.790> task
+
+00:03:00.960 --> 00:03:00.970 
+data system to open the task
+
+00:03:00.970 --> 00:03:02.660 
+data system to open the task
+configuration
+
+00:03:02.660 --> 00:03:02.670 
+configuration
+
+00:03:02.670 --> 00:03:04.190 
+configuration
+change<00:03:03.060> the<00:03:03.210> acquisition<00:03:03.750> mode<00:03:03.960> from
+
+00:03:04.190 --> 00:03:04.200 
+change the acquisition mode from
+
+00:03:04.200 --> 00:03:07.130 
+change the acquisition mode from
+ensamples<00:03:05.010> to<00:03:05.340> continuous<00:03:05.850> sample<00:03:06.240> and<00:03:06.420> click
+
+00:03:07.130 --> 00:03:07.140 
+ensamples to continuous sample and click
+
+00:03:07.140 --> 00:03:09.830 
+ensamples to continuous sample and click
+OK<00:03:07.440> to<00:03:07.500> close<00:03:07.709> the<00:03:07.950> wizard<00:03:08.450> now<00:03:09.450> we'll<00:03:09.630> do<00:03:09.720> the
+
+00:03:09.830 --> 00:03:09.840 
+OK to close the wizard now we'll do the
+
+00:03:09.840 --> 00:03:16.370 
+OK to close the wizard now we'll do the
+same<00:03:10.020> thing<00:03:10.080> for<00:03:10.500> the<00:03:10.560> output<00:03:10.890> doc<00:03:11.069> assistant
+
+00:03:16.370 --> 00:03:16.380 
+
+00:03:16.380 --> 00:03:18.560 
+
+finally<00:03:17.190> we<00:03:17.670> need<00:03:17.790> to<00:03:17.850> have<00:03:18.030> a<00:03:18.060> condition<00:03:18.480> to
+
+00:03:18.560 --> 00:03:18.570 
+finally we need to have a condition to
+
+00:03:18.570 --> 00:03:20.630 
+finally we need to have a condition to
+tell<00:03:18.750> the<00:03:18.900> while<00:03:19.080> loop<00:03:19.320> when<00:03:19.500> to<00:03:19.650> stop<00:03:19.890> for
+
+00:03:20.630 --> 00:03:20.640 
+tell the while loop when to stop for
+
+00:03:20.640 --> 00:03:23.880 
+tell the while loop when to stop for
+this<00:03:20.730> we<00:03:20.910> will<00:03:21.000> create<00:03:21.210> a<00:03:21.330> stop<00:03:21.600> button
+
+00:03:23.880 --> 00:03:23.890 
+
+00:03:23.890 --> 00:03:25.410 
+
+we<00:03:23.920> run<00:03:24.069> our<00:03:24.190> code<00:03:24.370> we<00:03:24.790> will<00:03:24.880> have<00:03:25.030> an<00:03:25.150> audio
+
+00:03:25.410 --> 00:03:25.420 
+we run our code we will have an audio
+
+00:03:25.420 --> 00:03:28.920 
+we run our code we will have an audio
+loopback<00:03:26.280> when<00:03:27.280> we<00:03:27.370> press<00:03:27.610> stop<00:03:27.880> our<00:03:28.180> program
+
+00:03:28.920 --> 00:03:28.930 
+loopback when we press stop our program
+
+00:03:28.930 --> 00:03:32.040 
+loopback when we press stop our program
+stops<00:03:29.200> in<00:03:30.030> this<00:03:31.030> lesson<00:03:31.270> we<00:03:31.780> learned<00:03:31.959> about
+
+00:03:32.040 --> 00:03:32.050 
+stops in this lesson we learned about
+
+00:03:32.050 --> 00:03:34.290 
+stops in this lesson we learned about
+data<00:03:32.410> acquisition<00:03:33.040> with<00:03:33.160> our<00:03:33.280> mydaq<00:03:33.700> we
+
+00:03:34.290 --> 00:03:34.300 
+data acquisition with our mydaq we
+
+00:03:34.300 --> 00:03:36.390 
+data acquisition with our mydaq we
+created<00:03:34.660> a<00:03:34.720> basic<00:03:34.959> audio<00:03:35.290> loopback<00:03:35.709> program
+
+00:03:36.390 --> 00:03:36.400 
+created a basic audio loopback program
+
+00:03:36.400 --> 00:03:38.670 
+created a basic audio loopback program
+that<00:03:37.030> utilize<00:03:37.390> the<00:03:37.630> DAC<00:03:37.840> assistant<00:03:38.020> Express
+
+00:03:38.670 --> 00:03:38.680 
+that utilize the DAC assistant Express
+
+00:03:38.680 --> 00:03:39.270 
+that utilize the DAC assistant Express
+VI
+
+00:03:39.270 --> 00:03:39.280 
+VI
+
+00:03:39.280 --> 00:03:41.820 
+VI
+finally<00:03:40.150> we<00:03:40.480> encapsulated<00:03:41.200> our<00:03:41.320> code<00:03:41.530> within
+
+00:03:41.820 --> 00:03:41.830 
+finally we encapsulated our code within
+
+00:03:41.830 --> 00:03:44.430 
+finally we encapsulated our code within
+a<00:03:42.010> while<00:03:42.190> loop
+
