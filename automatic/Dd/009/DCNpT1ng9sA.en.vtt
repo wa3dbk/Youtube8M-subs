@@ -1,0 +1,1191 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.040 --> 00:00:05.070 
+
+hello<00:00:03.040> and<00:00:03.340> welcome<00:00:03.880> to<00:00:04.000> the<00:00:04.090> frc<00:00:04.570> gazebo
+
+00:00:05.070 --> 00:00:05.080 
+hello and welcome to the frc gazebo
+
+00:00:05.080 --> 00:00:07.800 
+hello and welcome to the frc gazebo
+robot<00:00:05.440> simulator<00:00:05.920> tutorial<00:00:06.520> video<00:00:06.790> today<00:00:07.780> I
+
+00:00:07.800 --> 00:00:07.810 
+robot simulator tutorial video today I
+
+00:00:07.810 --> 00:00:09.930 
+robot simulator tutorial video today I
+will<00:00:07.990> be<00:00:08.080> showing<00:00:08.260> you<00:00:08.469> how<00:00:08.500> to<00:00:08.650> properly<00:00:09.099> take
+
+00:00:09.930 --> 00:00:09.940 
+will be showing you how to properly take
+
+00:00:09.940 --> 00:00:11.909 
+will be showing you how to properly take
+your<00:00:10.150> exported<00:00:10.599> robot<00:00:10.959> and<00:00:11.169> simulate<00:00:11.889> it
+
+00:00:11.909 --> 00:00:11.919 
+your exported robot and simulate it
+
+00:00:11.919 --> 00:00:14.549 
+your exported robot and simulate it
+using<00:00:12.370> NetBeans<00:00:13.120> and<00:00:13.329> the<00:00:13.480> gazebo<00:00:13.839> plugins<00:00:14.200> if
+
+00:00:14.549 --> 00:00:14.559 
+using NetBeans and the gazebo plugins if
+
+00:00:14.559 --> 00:00:16.350 
+using NetBeans and the gazebo plugins if
+you're<00:00:15.190> watching<00:00:15.339> this<00:00:15.610> video<00:00:15.879> we<00:00:16.090> assume
+
+00:00:16.350 --> 00:00:16.360 
+you're watching this video we assume
+
+00:00:16.360 --> 00:00:17.849 
+you're watching this video we assume
+that<00:00:16.390> you<00:00:16.600> have<00:00:16.720> already<00:00:16.900> installed<00:00:17.020> brahs
+
+00:00:17.849 --> 00:00:17.859 
+that you have already installed brahs
+
+00:00:17.859 --> 00:00:19.830 
+that you have already installed brahs
+gazebo<00:00:18.490> and<00:00:18.730> the<00:00:18.789> NetBeans<00:00:19.090> plugins<00:00:19.449> required
+
+00:00:19.830 --> 00:00:19.840 
+gazebo and the NetBeans plugins required
+
+00:00:19.840 --> 00:00:21.660 
+gazebo and the NetBeans plugins required
+to<00:00:20.170> simulate<00:00:20.349> your<00:00:20.560> robot<00:00:20.980> you<00:00:21.340> can<00:00:21.490> find
+
+00:00:21.660 --> 00:00:21.670 
+to simulate your robot you can find
+
+00:00:21.670 --> 00:00:23.370 
+to simulate your robot you can find
+these<00:00:21.820> instructions<00:00:22.330> on<00:00:22.539> the<00:00:22.869> team<00:00:23.050> forage
+
+00:00:23.370 --> 00:00:23.380 
+these instructions on the team forage
+
+00:00:23.380 --> 00:00:25.620 
+these instructions on the team forage
+for<00:00:23.529> the<00:00:23.590> beta<00:00:23.769> in<00:00:24.179> addition<00:00:25.179> we<00:00:25.359> assume<00:00:25.599> that
+
+00:00:25.620 --> 00:00:25.630 
+for the beta in addition we assume that
+
+00:00:25.630 --> 00:00:27.779 
+for the beta in addition we assume that
+you<00:00:25.810> already<00:00:25.990> have<00:00:26.259> a<00:00:26.289> you<00:00:26.500> RDF<00:00:26.650> file<00:00:27.189> created
+
+00:00:27.779 --> 00:00:27.789 
+you already have a you RDF file created
+
+00:00:27.789 --> 00:00:29.519 
+you already have a you RDF file created
+through<00:00:27.910> the<00:00:28.000> SolidWorks<00:00:28.480> export<00:00:28.869> process<00:00:29.289> or
+
+00:00:29.519 --> 00:00:29.529 
+through the SolidWorks export process or
+
+00:00:29.529 --> 00:00:31.460 
+through the SolidWorks export process or
+that<00:00:30.130> you<00:00:30.279> got<00:00:30.460> from<00:00:30.580> a<00:00:30.730> third-party<00:00:31.060> provider
+
+00:00:31.460 --> 00:00:31.470 
+that you got from a third-party provider
+
+00:00:31.470 --> 00:00:34.740 
+that you got from a third-party provider
+let's<00:00:32.470> get<00:00:32.619> started<00:00:33.030> alright<00:00:34.030> let's<00:00:34.480> begin
+
+00:00:34.740 --> 00:00:34.750 
+let's get started alright let's begin
+
+00:00:34.750 --> 00:00:36.000 
+let's get started alright let's begin
+with<00:00:34.870> the<00:00:34.960> plate<00:00:35.140> proper<00:00:35.500> placement<00:00:35.710> of<00:00:35.950> the
+
+00:00:36.000 --> 00:00:36.010 
+with the plate proper placement of the
+
+00:00:36.010 --> 00:00:38.130 
+with the plate proper placement of the
+you<00:00:36.100> RDF<00:00:36.280> file<00:00:36.760> once<00:00:37.660> you<00:00:37.780> have<00:00:37.930> your<00:00:38.050> you
+
+00:00:38.130 --> 00:00:38.140 
+you RDF file once you have your you
+
+00:00:38.140 --> 00:00:39.840 
+you RDF file once you have your you
+already<00:00:38.289> F<00:00:38.500> file<00:00:38.770> you'll<00:00:39.219> need<00:00:39.370> to<00:00:39.489> place<00:00:39.670> it
+
+00:00:39.840 --> 00:00:39.850 
+already F file you'll need to place it
+
+00:00:39.850 --> 00:00:41.310 
+already F file you'll need to place it
+in<00:00:39.940> the<00:00:40.030> correct<00:00:40.180> location<00:00:40.300> order<00:00:41.020> or<00:00:41.140> for<00:00:41.260> it
+
+00:00:41.310 --> 00:00:41.320 
+in the correct location order or for it
+
+00:00:41.320 --> 00:00:43.290 
+in the correct location order or for it
+to<00:00:41.410> run<00:00:41.530> in<00:00:41.649> gazebo<00:00:42.039> this<00:00:42.640> is<00:00:42.789> normally<00:00:43.180> the
+
+00:00:43.290 --> 00:00:43.300 
+to run in gazebo this is normally the
+
+00:00:43.300 --> 00:00:45.689 
+to run in gazebo this is normally the
+FRC<00:00:43.719> sim<00:00:43.930> models<00:00:44.289> the<00:00:45.100> folder<00:00:45.430> which<00:00:45.610> is
+
+00:00:45.689 --> 00:00:45.699 
+FRC sim models the folder which is
+
+00:00:45.699 --> 00:00:47.160 
+FRC sim models the folder which is
+installed<00:00:46.000> when<00:00:46.480> you<00:00:46.629> run<00:00:46.809> the<00:00:46.899> installation
+
+00:00:47.160 --> 00:00:47.170 
+installed when you run the installation
+
+00:00:47.170 --> 00:00:49.020 
+installed when you run the installation
+scripts<00:00:47.649> you'll<00:00:48.309> notice<00:00:48.609> that<00:00:48.699> there<00:00:48.879> are<00:00:48.969> a
+
+00:00:49.020 --> 00:00:49.030 
+scripts you'll notice that there are a
+
+00:00:49.030 --> 00:00:50.760 
+scripts you'll notice that there are a
+couple<00:00:49.180> of<00:00:49.390> files<00:00:50.050> in<00:00:50.260> here<00:00:50.410> that<00:00:50.530> we<00:00:50.620> may<00:00:50.739> use
+
+00:00:50.760 --> 00:00:50.770 
+couple of files in here that we may use
+
+00:00:50.770 --> 00:00:53.490 
+couple of files in here that we may use
+during<00:00:51.250> the<00:00:51.280> during<00:00:52.149> this<00:00:52.359> video<00:00:52.570> including
+
+00:00:53.490 --> 00:00:53.500 
+during the during this video including
+
+00:00:53.500 --> 00:00:55.770 
+during the during this video including
+the<00:00:53.590> the<00:00:53.620> FRC<00:00:54.399> 2008<00:00:54.940> ball<00:00:55.149> which<00:00:55.329> is<00:00:55.449> actually
+
+00:00:55.770 --> 00:00:55.780 
+the the FRC 2008 ball which is actually
+
+00:00:55.780 --> 00:00:59.369 
+the the FRC 2008 ball which is actually
+the<00:00:55.870> 2014<00:00:56.500> ball<00:00:56.710> I<00:00:57.780> on<00:00:58.780> the<00:00:58.870> other<00:00:58.930> hand<00:00:59.050> I'm
+
+00:00:59.369 --> 00:00:59.379 
+the 2014 ball I on the other hand I'm
+
+00:00:59.379 --> 00:01:01.319 
+the 2014 ball I on the other hand I'm
+going<00:00:59.500> to<00:00:59.590> place<00:00:59.829> this<00:01:00.100> in<00:01:00.309> the<00:01:00.730> daka<00:01:00.940> SIBO
+
+00:01:01.319 --> 00:01:01.329 
+going to place this in the daka SIBO
+
+00:01:01.329 --> 00:01:03.869 
+going to place this in the daka SIBO
+folder<00:01:01.750> which<00:01:02.379> is<00:01:02.500> a<00:01:02.530> hidden<00:01:02.769> folder<00:01:03.160> in<00:01:03.730> order
+
+00:01:03.869 --> 00:01:03.879 
+folder which is a hidden folder in order
+
+00:01:03.879 --> 00:01:05.490 
+folder which is a hidden folder in order
+to<00:01:04.090> see<00:01:04.210> this<00:01:04.390> folder<00:01:04.540> you'll<00:01:04.840> need<00:01:04.989> to<00:01:05.080> press
+
+00:01:05.490 --> 00:01:05.500 
+to see this folder you'll need to press
+
+00:01:05.500 --> 00:01:07.980 
+to see this folder you'll need to press
+ctrl<00:01:05.920> H<00:01:06.189> which<00:01:06.820> will<00:01:06.939> update<00:01:07.119> so<00:01:07.509> that<00:01:07.540> your
+
+00:01:07.980 --> 00:01:07.990 
+ctrl H which will update so that your
+
+00:01:07.990 --> 00:01:11.039 
+ctrl H which will update so that your
+screen<00:01:08.290> so<00:01:08.439> that<00:01:08.470> you<00:01:08.590> can<00:01:08.799> select<00:01:09.130> it<00:01:10.049> inside
+
+00:01:11.039 --> 00:01:11.049 
+screen so that you can select it inside
+
+00:01:11.049 --> 00:01:12.870 
+screen so that you can select it inside
+of<00:01:11.080> the<00:01:11.229> models<00:01:11.530> folder<00:01:11.710> you'll<00:01:12.250> see<00:01:12.340> all<00:01:12.640> the
+
+00:01:12.870 --> 00:01:12.880 
+of the models folder you'll see all the
+
+00:01:12.880 --> 00:01:14.340 
+of the models folder you'll see all the
+files<00:01:13.030> that<00:01:13.360> come<00:01:13.540> pre-installed<00:01:13.810> with
+
+00:01:14.340 --> 00:01:14.350 
+files that come pre-installed with
+
+00:01:14.350 --> 00:01:16.679 
+files that come pre-installed with
+gazebo<00:01:14.979> today<00:01:15.909> we'll<00:01:16.090> be<00:01:16.150> using<00:01:16.210> the<00:01:16.509> pack
+
+00:01:16.679 --> 00:01:16.689 
+gazebo today we'll be using the pack
+
+00:01:16.689 --> 00:01:20.600 
+gazebo today we'll be using the pack
+code<00:01:16.900> 12<00:01:17.229> the<00:01:18.100> 2014<00:01:18.970> FRC<00:01:19.450> robot<00:01:19.780> for<00:01:19.990> team<00:01:20.110> 190
+
+00:01:20.600 --> 00:01:20.610 
+code 12 the 2014 FRC robot for team 190
+
+00:01:20.610 --> 00:01:22.649 
+code 12 the 2014 FRC robot for team 190
+you'll<00:01:21.610> notice<00:01:21.939> that<00:01:22.060> there<00:01:22.240> are<00:01:22.299> a<00:01:22.390> couple<00:01:22.509> of
+
+00:01:22.649 --> 00:01:22.659 
+you'll notice that there are a couple of
+
+00:01:22.659 --> 00:01:24.300 
+you'll notice that there are a couple of
+files<00:01:22.900> in<00:01:23.140> here<00:01:23.320> that<00:01:23.500> you<00:01:23.650> do<00:01:23.770> not<00:01:23.860> have<00:01:24.130> in
+
+00:01:24.300 --> 00:01:24.310 
+files in here that you do not have in
+
+00:01:24.310 --> 00:01:26.340 
+files in here that you do not have in
+your<00:01:24.430> package<00:01:24.820> this<00:01:25.450> includes<00:01:25.900> the<00:01:26.079> model
+
+00:01:26.340 --> 00:01:26.350 
+your package this includes the model
+
+00:01:26.350 --> 00:01:28.890 
+your package this includes the model
+config<00:01:26.890> file<00:01:27.159> the<00:01:27.700> pack<00:01:27.880> code<00:01:28.090> world<00:01:28.329> file<00:01:28.659> and
+
+00:01:28.890 --> 00:01:28.900 
+config file the pack code world file and
+
+00:01:28.900 --> 00:01:31.770 
+config file the pack code world file and
+the<00:01:29.229> robot<00:01:29.530> map<00:01:29.710> dot<00:01:29.890> XML<00:01:30.310> file<00:01:30.600> let's<00:01:31.600> begin
+
+00:01:31.770 --> 00:01:31.780 
+the robot map dot XML file let's begin
+
+00:01:31.780 --> 00:01:34.800 
+the robot map dot XML file let's begin
+with<00:01:32.020> the<00:01:32.140> model<00:01:32.259> config<00:01:32.920> file<00:01:33.570> this<00:01:34.570> is<00:01:34.720> the
+
+00:01:34.800 --> 00:01:34.810 
+with the model config file this is the
+
+00:01:34.810 --> 00:01:36.600 
+with the model config file this is the
+standard<00:01:35.140> configuration<00:01:35.350> file<00:01:35.950> for<00:01:35.979> gazebo
+
+00:01:36.600 --> 00:01:36.610 
+standard configuration file for gazebo
+
+00:01:36.610 --> 00:01:38.069 
+standard configuration file for gazebo
+you'll<00:01:37.149> need<00:01:37.299> to<00:01:37.390> make<00:01:37.509> one<00:01:37.659> of<00:01:37.780> these<00:01:37.869> in
+
+00:01:38.069 --> 00:01:38.079 
+you'll need to make one of these in
+
+00:01:38.079 --> 00:01:39.480 
+you'll need to make one of these in
+order<00:01:38.229> for<00:01:38.409> your<00:01:38.500> robot<00:01:38.649> to<00:01:38.890> be<00:01:38.979> capable<00:01:39.189> of
+
+00:01:39.480 --> 00:01:39.490 
+order for your robot to be capable of
+
+00:01:39.490 --> 00:01:41.639 
+order for your robot to be capable of
+being<00:01:39.640> seen<00:01:39.909> by<00:01:40.060> the<00:01:40.119> simulator<00:01:40.570> in<00:01:41.409> order<00:01:41.590> to
+
+00:01:41.639 --> 00:01:41.649 
+being seen by the simulator in order to
+
+00:01:41.649 --> 00:01:43.260 
+being seen by the simulator in order to
+do<00:01:41.740> this<00:01:41.829> you<00:01:42.009> place<00:01:42.220> the<00:01:42.369> name<00:01:42.579> of<00:01:42.850> your<00:01:43.149> you
+
+00:01:43.260 --> 00:01:43.270 
+do this you place the name of your you
+
+00:01:43.270 --> 00:01:45.510 
+do this you place the name of your you
+RTF<00:01:43.600> up<00:01:43.750> here<00:01:44.049> and<00:01:44.200> the<00:01:44.770> direct<00:01:45.040> path<00:01:45.250> to<00:01:45.280> the
+
+00:01:45.510 --> 00:01:45.520 
+RTF up here and the direct path to the
+
+00:01:45.520 --> 00:01:48.030 
+RTF up here and the direct path to the
+you<00:01:45.640> RDF<00:01:46.030> in<00:01:46.240> relation<00:01:46.899> to<00:01:46.930> this<00:01:47.409> package<00:01:47.680> you
+
+00:01:48.030 --> 00:01:48.040 
+you RDF in relation to this package you
+
+00:01:48.040 --> 00:01:49.590 
+you RDF in relation to this package you
+can<00:01:48.460> also<00:01:48.579> put<00:01:48.790> a<00:01:48.820> description<00:01:49.299> if<00:01:49.390> you'd<00:01:49.509> like
+
+00:01:49.590 --> 00:01:49.600 
+can also put a description if you'd like
+
+00:01:49.600 --> 00:01:52.319 
+can also put a description if you'd like
+to<00:01:50.460> the<00:01:51.460> next<00:01:51.670> file<00:01:51.850> you'll<00:01:52.000> need<00:01:52.060> to<00:01:52.210> create
+
+00:01:52.319 --> 00:01:52.329 
+to the next file you'll need to create
+
+00:01:52.329 --> 00:01:55.380 
+to the next file you'll need to create
+is<00:01:52.600> the<00:01:52.780> pet<00:01:52.930> goat<00:01:53.140> world<00:01:53.590> file<00:01:53.969> this<00:01:54.969> Annette
+
+00:01:55.380 --> 00:01:55.390 
+is the pet goat world file this Annette
+
+00:01:55.390 --> 00:01:57.270 
+is the pet goat world file this Annette
+is<00:01:55.509> an<00:01:55.659> XML<00:01:55.990> document<00:01:56.020> that<00:01:56.590> gazebo<00:01:56.799> will<00:01:57.070> use
+
+00:01:57.270 --> 00:01:57.280 
+is an XML document that gazebo will use
+
+00:01:57.280 --> 00:01:59.370 
+is an XML document that gazebo will use
+to<00:01:57.430> place<00:01:57.700> your<00:01:57.909> robot<00:01:58.240> in<00:01:58.479> the<00:01:58.930> world<00:01:59.110> when
+
+00:01:59.370 --> 00:01:59.380 
+to place your robot in the world when
+
+00:01:59.380 --> 00:02:01.590 
+to place your robot in the world when
+you<00:01:59.409> initialize<00:01:59.860> it<00:02:00.070> with<00:02:00.100> NetBeans<00:02:00.670> it
+
+00:02:01.590 --> 00:02:01.600 
+you initialize it with NetBeans it
+
+00:02:01.600 --> 00:02:03.149 
+you initialize it with NetBeans it
+includes<00:02:01.930> a<00:02:02.049> light<00:02:02.200> source<00:02:02.439> which<00:02:02.710> is<00:02:02.829> the<00:02:02.860> Sun
+
+00:02:03.149 --> 00:02:03.159 
+includes a light source which is the Sun
+
+00:02:03.159 --> 00:02:05.190 
+includes a light source which is the Sun
+the<00:02:03.670> ground<00:02:03.909> plane<00:02:04.180> and<00:02:04.450> the<00:02:04.750> robot<00:02:05.049> itself
+
+00:02:05.190 --> 00:02:05.200 
+the ground plane and the robot itself
+
+00:02:05.200 --> 00:02:07.740 
+the ground plane and the robot itself
+which<00:02:06.070> composes<00:02:06.430> them<00:02:06.700> which<00:02:07.240> is<00:02:07.360> composed<00:02:07.600> of
+
+00:02:07.740 --> 00:02:07.750 
+which composes them which is composed of
+
+00:02:07.750 --> 00:02:11.040 
+which composes them which is composed of
+the<00:02:07.810> model<00:02:08.200> and<00:02:08.320> the<00:02:08.950> X<00:02:09.130> Y<00:02:09.490> Z<00:02:09.790> roll<00:02:10.480> pitch<00:02:10.840> and
+
+00:02:11.040 --> 00:02:11.050 
+the model and the X Y Z roll pitch and
+
+00:02:11.050 --> 00:02:13.230 
+the model and the X Y Z roll pitch and
+yaw<00:02:11.290> pose<00:02:11.740> of<00:02:12.070> the<00:02:12.460> robot<00:02:12.730> for<00:02:12.880> its<00:02:13.060> initial
+
+00:02:13.230 --> 00:02:13.240 
+yaw pose of the robot for its initial
+
+00:02:13.240 --> 00:02:14.940 
+yaw pose of the robot for its initial
+starting<00:02:13.780> configuration
+
+00:02:14.940 --> 00:02:14.950 
+starting configuration
+
+00:02:14.950 --> 00:02:17.220 
+starting configuration
+this<00:02:15.340> is<00:02:15.489> what<00:02:15.670> the<00:02:15.849> pose<00:02:16.209> should<00:02:16.480> be<00:02:16.629> for<00:02:16.959> the
+
+00:02:17.220 --> 00:02:17.230 
+this is what the pose should be for the
+
+00:02:17.230 --> 00:02:19.110 
+this is what the pose should be for the
+pack<00:02:17.590> code<00:02:17.830> you<00:02:18.160> may<00:02:18.280> need<00:02:18.430> to<00:02:18.550> tune<00:02:18.730> this<00:02:18.940> for
+
+00:02:19.110 --> 00:02:19.120 
+pack code you may need to tune this for
+
+00:02:19.120 --> 00:02:20.460 
+pack code you may need to tune this for
+a<00:02:19.150> different<00:02:19.480> robot<00:02:19.720> if<00:02:19.870> you<00:02:19.959> try<00:02:20.140> a<00:02:20.170> different
+
+00:02:20.460 --> 00:02:20.470 
+a different robot if you try a different
+
+00:02:20.470 --> 00:02:23.699 
+a different robot if you try a different
+robot<00:02:21.090> the<00:02:22.090> last<00:02:22.300> piece<00:02:22.569> is<00:02:22.780> the<00:02:23.230> robot<00:02:23.530> map
+
+00:02:23.699 --> 00:02:23.709 
+robot the last piece is the robot map
+
+00:02:23.709 --> 00:02:26.940 
+robot the last piece is the robot map
+XML<00:02:24.370> in<00:02:24.849> order<00:02:25.629> to<00:02:25.750> use<00:02:25.930> this<00:02:26.170> you'll<00:02:26.739> need<00:02:26.890> to
+
+00:02:26.940 --> 00:02:26.950 
+XML in order to use this you'll need to
+
+00:02:26.950 --> 00:02:29.850 
+XML in order to use this you'll need to
+run<00:02:27.340> the<00:02:27.700> robot<00:02:28.060> map<00:02:28.300> jar<00:02:29.230> that<00:02:29.500> you
+
+00:02:29.850 --> 00:02:29.860 
+run the robot map jar that you
+
+00:02:29.860 --> 00:02:32.210 
+run the robot map jar that you
+downloaded<00:02:30.640> from<00:02:30.910> the<00:02:31.209> beta<00:02:31.360> test<00:02:31.630> site<00:02:31.840> for
+
+00:02:32.210 --> 00:02:32.220 
+downloaded from the beta test site for
+
+00:02:32.220 --> 00:02:35.610 
+downloaded from the beta test site for
+me<00:02:33.220> that's<00:02:33.519> in<00:02:33.670> the<00:02:33.760> FRC<00:02:34.180> Gazebo<00:02:34.569> site<00:02:35.080> or<00:02:35.319> in
+
+00:02:35.610 --> 00:02:35.620 
+me that's in the FRC Gazebo site or in
+
+00:02:35.620 --> 00:02:38.580 
+me that's in the FRC Gazebo site or in
+my<00:02:35.709> FRC<00:02:36.310> Gazebo<00:02:36.640> folder<00:02:37.290> you'll<00:02:38.290> see<00:02:38.380> your
+
+00:02:38.580 --> 00:02:38.590 
+my FRC Gazebo folder you'll see your
+
+00:02:38.590 --> 00:02:39.990 
+my FRC Gazebo folder you'll see your
+here<00:02:38.709> if<00:02:38.830> I<00:02:38.920> list<00:02:39.160> all<00:02:39.250> the<00:02:39.459> elements<00:02:39.670> that
+
+00:02:39.990 --> 00:02:40.000 
+here if I list all the elements that
+
+00:02:40.000 --> 00:02:42.210 
+here if I list all the elements that
+robot<00:02:40.269> map<00:02:40.420> jar<00:02:40.870> is<00:02:41.049> one<00:02:41.500> of<00:02:41.590> them<00:02:41.739> inside<00:02:42.099> this
+
+00:02:42.210 --> 00:02:42.220 
+robot map jar is one of them inside this
+
+00:02:42.220 --> 00:02:46.080 
+robot map jar is one of them inside this
+folder<00:02:42.549> to<00:02:42.700> run<00:02:43.540> it<00:02:43.690> run<00:02:44.260> Java<00:02:44.590> dash<00:02:45.040> jar<00:02:45.400> robot
+
+00:02:46.080 --> 00:02:46.090 
+folder to run it run Java dash jar robot
+
+00:02:46.090 --> 00:02:49.229 
+folder to run it run Java dash jar robot
+map<00:02:46.269> jar<00:02:46.920> this<00:02:47.920> will<00:02:48.099> bring<00:02:48.250> up<00:02:48.430> this<00:02:48.910> page
+
+00:02:49.229 --> 00:02:49.239 
+map jar this will bring up this page
+
+00:02:49.239 --> 00:02:51.300 
+map jar this will bring up this page
+which<00:02:49.840> allows<00:02:49.959> you<00:02:50.200> to<00:02:50.230> select<00:02:50.530> a<00:02:50.650> you<00:02:50.769> RDF<00:02:51.130> and
+
+00:02:51.300 --> 00:02:51.310 
+which allows you to select a you RDF and
+
+00:02:51.310 --> 00:02:53.400 
+which allows you to select a you RDF and
+includes<00:02:52.299> motors<00:02:52.840> encoders<00:02:53.290> and
+
+00:02:53.400 --> 00:02:53.410 
+includes motors encoders and
+
+00:02:53.410 --> 00:02:55.620 
+includes motors encoders and
+potentiometers<00:02:54.069> that<00:02:54.519> you<00:02:54.640> can<00:02:54.849> configure<00:02:55.299> so
+
+00:02:55.620 --> 00:02:55.630 
+potentiometers that you can configure so
+
+00:02:55.630 --> 00:02:56.970 
+potentiometers that you can configure so
+that<00:02:55.750> you<00:02:55.810> can<00:02:55.959> run<00:02:56.110> your<00:02:56.260> robot<00:02:56.530> using<00:02:56.860> your
+
+00:02:56.970 --> 00:02:56.980 
+that you can run your robot using your
+
+00:02:56.980 --> 00:02:58.979 
+that you can run your robot using your
+own<00:02:57.069> custom<00:02:57.430> code<00:02:57.610> I've<00:02:58.360> already<00:02:58.720> done<00:02:58.840> this
+
+00:02:58.979 --> 00:02:58.989 
+own custom code I've already done this
+
+00:02:58.989 --> 00:03:00.330 
+own custom code I've already done this
+for<00:02:59.230> the<00:02:59.290> pack<00:02:59.440> code<00:02:59.680> so<00:02:59.829> we<00:02:59.920> don't<00:03:00.069> need<00:03:00.160> to<00:03:00.220> do
+
+00:03:00.330 --> 00:03:00.340 
+for the pack code so we don't need to do
+
+00:03:00.340 --> 00:03:02.789 
+for the pack code so we don't need to do
+that<00:03:00.370> now<00:03:01.079> the<00:03:02.079> last<00:03:02.230> thing<00:03:02.380> you'll<00:03:02.590> need<00:03:02.709> to
+
+00:03:02.789 --> 00:03:02.799 
+that now the last thing you'll need to
+
+00:03:02.799 --> 00:03:05.610 
+that now the last thing you'll need to
+do<00:03:02.950> is<00:03:03.190> reference<00:03:03.519> the<00:03:03.910> robot<00:03:04.209> map<00:03:04.620> XML
+
+00:03:05.610 --> 00:03:05.620 
+do is reference the robot map XML
+
+00:03:05.620 --> 00:03:08.670 
+do is reference the robot map XML
+document<00:03:06.130> in<00:03:06.250> the<00:03:06.700> you<00:03:06.819> RDF<00:03:06.970> file<00:03:07.530> if<00:03:08.530> you
+
+00:03:08.670 --> 00:03:08.680 
+document in the you RDF file if you
+
+00:03:08.680 --> 00:03:10.170 
+document in the you RDF file if you
+haven't<00:03:08.920> looked<00:03:09.010> at<00:03:09.130> your<00:03:09.250> you<00:03:09.370> RDF<00:03:09.730> file<00:03:09.910> yet
+
+00:03:10.170 --> 00:03:10.180 
+haven't looked at your you RDF file yet
+
+00:03:10.180 --> 00:03:12.150 
+haven't looked at your you RDF file yet
+this<00:03:10.569> is<00:03:10.750> what<00:03:10.900> it<00:03:10.989> looks<00:03:11.170> like<00:03:11.230> it's<00:03:11.739> a<00:03:11.829> series
+
+00:03:12.150 --> 00:03:12.160 
+this is what it looks like it's a series
+
+00:03:12.160 --> 00:03:13.860 
+this is what it looks like it's a series
+of<00:03:12.190> links<00:03:12.459> connected<00:03:13.030> together<00:03:13.120> by<00:03:13.329> joints
+
+00:03:13.860 --> 00:03:13.870 
+of links connected together by joints
+
+00:03:13.870 --> 00:03:15.690 
+of links connected together by joints
+which<00:03:14.319> can<00:03:14.530> have<00:03:14.739> their<00:03:14.980> own<00:03:15.010> limits<00:03:15.519> on
+
+00:03:15.690 --> 00:03:15.700 
+which can have their own limits on
+
+00:03:15.700 --> 00:03:18.270 
+which can have their own limits on
+effort<00:03:16.120> velocity<00:03:16.750> and<00:03:16.930> position<00:03:17.680> as<00:03:17.860> well<00:03:18.130> as
+
+00:03:18.270 --> 00:03:18.280 
+effort velocity and position as well as
+
+00:03:18.280 --> 00:03:20.960 
+effort velocity and position as well as
+damping<00:03:19.150> and<00:03:19.359> full<00:03:19.540> end<00:03:19.720> friction<00:03:20.049> forces
+
+00:03:20.960 --> 00:03:20.970 
+damping and full end friction forces
+
+00:03:20.970 --> 00:03:23.069 
+damping and full end friction forces
+these<00:03:21.970> this<00:03:22.299> is<00:03:22.420> the<00:03:22.510> tag<00:03:22.690> that<00:03:22.840> you're<00:03:22.930> going
+
+00:03:23.069 --> 00:03:23.079 
+these this is the tag that you're going
+
+00:03:23.079 --> 00:03:24.270 
+these this is the tag that you're going
+to<00:03:23.109> have<00:03:23.200> to<00:03:23.319> add<00:03:23.440> to<00:03:23.680> the<00:03:23.769> bottom<00:03:23.920> of<00:03:24.250> your
+
+00:03:24.270 --> 00:03:24.280 
+to have to add to the bottom of your
+
+00:03:24.280 --> 00:03:27.509 
+to have to add to the bottom of your
+file<00:03:24.609> it<00:03:25.209> references<00:03:25.660> the<00:03:25.720> plug-in<00:03:26.170> and<00:03:26.519> the
+
+00:03:27.509 --> 00:03:27.519 
+file it references the plug-in and the
+
+00:03:27.519 --> 00:03:29.940 
+file it references the plug-in and the
+XML<00:03:28.329> robot<00:03:28.930> map<00:03:29.109> document<00:03:29.620> that<00:03:29.709> the<00:03:29.769> plugin
+
+00:03:29.940 --> 00:03:29.950 
+XML robot map document that the plugin
+
+00:03:29.950 --> 00:03:32.220 
+XML robot map document that the plugin
+will<00:03:30.190> need<00:03:30.370> to<00:03:30.819> connect<00:03:31.090> your<00:03:31.150> WPI<00:03:31.690> lab<00:03:31.959> code
+
+00:03:32.220 --> 00:03:32.230 
+will need to connect your WPI lab code
+
+00:03:32.230 --> 00:03:36.000 
+will need to connect your WPI lab code
+to<00:03:32.769> your<00:03:33.280> robot<00:03:33.519> model<00:03:34.260> the<00:03:35.260> next<00:03:35.500> step<00:03:35.680> is<00:03:35.829> to
+
+00:03:36.000 --> 00:03:36.010 
+to your robot model the next step is to
+
+00:03:36.010 --> 00:03:37.920 
+to your robot model the next step is to
+write<00:03:36.190> the<00:03:36.340> WPI<00:03:36.700> lab<00:03:36.970> code<00:03:37.239> that<00:03:37.450> you<00:03:37.540> will<00:03:37.690> use
+
+00:03:37.920 --> 00:03:37.930 
+write the WPI lab code that you will use
+
+00:03:37.930 --> 00:03:40.830 
+write the WPI lab code that you will use
+to<00:03:38.170> run<00:03:38.319> your<00:03:38.380> robot<00:03:38.769> in<00:03:38.889> simulation<00:03:39.569> in<00:03:40.569> order
+
+00:03:40.830 --> 00:03:40.840 
+to run your robot in simulation in order
+
+00:03:40.840 --> 00:03:42.180 
+to run your robot in simulation in order
+to<00:03:40.900> start<00:03:41.079> up<00:03:41.170> NetBeans<00:03:41.530> you'll<00:03:41.769> go<00:03:41.920> into<00:03:42.100> a
+
+00:03:42.180 --> 00:03:42.190 
+to start up NetBeans you'll go into a
+
+00:03:42.190 --> 00:03:44.309 
+to start up NetBeans you'll go into a
+fresh<00:03:42.489> terminal<00:03:42.940> and<00:03:43.120> you'll<00:03:43.690> type<00:03:43.870> NetBeans
+
+00:03:44.309 --> 00:03:44.319 
+fresh terminal and you'll type NetBeans
+
+00:03:44.319 --> 00:03:47.099 
+fresh terminal and you'll type NetBeans
+at<00:03:44.650> the<00:03:44.829> top<00:03:45.010> if<00:03:45.299> it<00:03:46.299> doesn't<00:03:46.600> immediately
+
+00:03:47.099 --> 00:03:47.109 
+at the top if it doesn't immediately
+
+00:03:47.109 --> 00:03:49.110 
+at the top if it doesn't immediately
+load<00:03:47.650> and<00:03:47.920> crashes<00:03:48.370> and<00:03:48.400> you<00:03:48.609> see<00:03:48.760> all<00:03:48.910> of<00:03:48.940> this
+
+00:03:49.110 --> 00:03:49.120 
+load and crashes and you see all of this
+
+00:03:49.120 --> 00:03:51.150 
+load and crashes and you see all of this
+text<00:03:49.389> and<00:03:49.630> you're<00:03:49.720> in<00:03:49.959> your<00:03:49.989> terminal<00:03:50.620> there's
+
+00:03:51.150 --> 00:03:51.160 
+text and you're in your terminal there's
+
+00:03:51.160 --> 00:03:53.069 
+text and you're in your terminal there's
+a<00:03:51.280> chance<00:03:51.519> that<00:03:51.609> the<00:03:52.030> term<00:03:52.209> the<00:03:52.480> program
+
+00:03:53.069 --> 00:03:53.079 
+a chance that the term the program
+
+00:03:53.079 --> 00:03:55.020 
+a chance that the term the program
+itself<00:03:53.350> crashed<00:03:53.680> you<00:03:54.400> can<00:03:54.519> fix<00:03:54.670> this<00:03:54.819> by<00:03:54.880> just
+
+00:03:55.020 --> 00:03:55.030 
+itself crashed you can fix this by just
+
+00:03:55.030 --> 00:03:57.559 
+itself crashed you can fix this by just
+running<00:03:55.359> it<00:03:55.569> again<00:03:55.780> it<00:03:56.049> happens<00:03:56.410> sometimes
+
+00:03:57.559 --> 00:03:57.569 
+running it again it happens sometimes
+
+00:03:57.569 --> 00:03:59.699 
+running it again it happens sometimes
+one<00:03:58.569> thing<00:03:58.750> I'd<00:03:58.870> like<00:03:58.989> to<00:03:59.170> point<00:03:59.319> out<00:03:59.500> is
+
+00:03:59.699 --> 00:03:59.709 
+one thing I'd like to point out is
+
+00:03:59.709 --> 00:04:01.319 
+one thing I'd like to point out is
+because<00:04:00.040> we'll<00:04:00.340> be<00:04:00.370> running<00:04:00.579> in<00:04:00.790> simulation
+
+00:04:01.319 --> 00:04:01.329 
+because we'll be running in simulation
+
+00:04:01.329 --> 00:04:03.180 
+because we'll be running in simulation
+as<00:04:01.450> opposed<00:04:01.690> to<00:04:01.810> on<00:04:01.989> an<00:04:02.170> FRC<00:04:02.440> controller
+
+00:04:03.180 --> 00:04:03.190 
+as opposed to on an FRC controller
+
+00:04:03.190 --> 00:04:04.949 
+as opposed to on an FRC controller
+you'll<00:04:03.849> need<00:04:04.030> to<00:04:04.120> change<00:04:04.389> the<00:04:04.569> way<00:04:04.660> that<00:04:04.840> it
+
+00:04:04.949 --> 00:04:04.959 
+you'll need to change the way that it
+
+00:04:04.959 --> 00:04:07.289 
+you'll need to change the way that it
+updates<00:04:05.109> the<00:04:05.700> autonomous<00:04:06.700> and<00:04:06.880> the<00:04:06.970> tele<00:04:07.150> app
+
+00:04:07.289 --> 00:04:07.299 
+updates the autonomous and the tele app
+
+00:04:07.299 --> 00:04:10.050 
+updates the autonomous and the tele app
+commands<00:04:07.889> inside<00:04:08.889> of<00:04:09.069> the<00:04:09.130> periodic<00:04:09.700> control
+
+00:04:10.050 --> 00:04:10.060 
+commands inside of the periodic control
+
+00:04:10.060 --> 00:04:12.479 
+commands inside of the periodic control
+you'll<00:04:10.540> need<00:04:10.720> to<00:04:10.810> add<00:04:10.959> a<00:04:11.260> sleeper<00:04:11.769> sleeper
+
+00:04:12.479 --> 00:04:12.489 
+you'll need to add a sleeper sleeper
+
+00:04:12.489 --> 00:04:15.000 
+you'll need to add a sleeper sleeper
+thread<00:04:12.970> that<00:04:13.450> will<00:04:13.630> cause<00:04:13.780> it<00:04:14.019> to<00:04:14.440> slow<00:04:14.829> down
+
+00:04:15.000 --> 00:04:15.010 
+thread that will cause it to slow down
+
+00:04:15.010 --> 00:04:18.020 
+thread that will cause it to slow down
+the<00:04:15.190> process<00:04:15.340> so<00:04:15.730> it<00:04:15.849> doesn't<00:04:16.150> overrun<00:04:16.599> Gazebo
+
+00:04:18.020 --> 00:04:18.030 
+the process so it doesn't overrun Gazebo
+
+00:04:18.030 --> 00:04:20.969 
+the process so it doesn't overrun Gazebo
+in<00:04:19.030> addition<00:04:19.930> you'll<00:04:20.109> need<00:04:20.229> to<00:04:20.320> set<00:04:20.530> up<00:04:20.650> your
+
+00:04:20.969 --> 00:04:20.979 
+in addition you'll need to set up your
+
+00:04:20.979 --> 00:04:25.529 
+in addition you'll need to set up your
+build<00:04:21.880> properties<00:04:22.450> filed<00:04:23.280> so<00:04:24.280> inside<00:04:24.729> of<00:04:25.000> your
+
+00:04:25.529 --> 00:04:25.539 
+build properties filed so inside of your
+
+00:04:25.539 --> 00:04:28.559 
+build properties filed so inside of your
+package<00:04:25.960> for<00:04:26.289> your<00:04:26.979> FRC<00:04:27.610> Kazee<00:04:27.940> or<00:04:28.090> your
+
+00:04:28.559 --> 00:04:28.569 
+package for your FRC Kazee or your
+
+00:04:28.569 --> 00:04:30.869 
+package for your FRC Kazee or your
+your<00:04:28.719> Java<00:04:28.960> program<00:04:29.469> you'll<00:04:30.099> see<00:04:30.279> a<00:04:30.309> bill<00:04:30.639> dot
+
+00:04:30.869 --> 00:04:30.879 
+your Java program you'll see a bill dot
+
+00:04:30.879 --> 00:04:34.649 
+your Java program you'll see a bill dot
+properties<00:04:31.389> folder<00:04:32.819> you'll<00:04:33.819> need<00:04:33.999> to<00:04:34.089> add<00:04:34.240> and
+
+00:04:34.649 --> 00:04:34.659 
+properties folder you'll need to add and
+
+00:04:34.659 --> 00:04:37.769 
+properties folder you'll need to add and
+a<00:04:34.839> robot<00:04:35.229> class<00:04:35.740> which<00:04:36.610> references<00:04:37.149> the<00:04:37.569> main
+
+00:04:37.769 --> 00:04:37.779 
+a robot class which references the main
+
+00:04:37.779 --> 00:04:39.659 
+a robot class which references the main
+robot<00:04:38.199> that's<00:04:38.469> how<00:04:38.649> the<00:04:38.709> program<00:04:39.249> knows<00:04:39.459> where
+
+00:04:39.659 --> 00:04:39.669 
+robot that's how the program knows where
+
+00:04:39.669 --> 00:04:41.969 
+robot that's how the program knows where
+to<00:04:39.699> start<00:04:39.999> and<00:04:40.240> a<00:04:40.659> simulation<00:04:41.080> dot<00:04:41.379> world<00:04:41.619> file
+
+00:04:41.969 --> 00:04:41.979 
+to start and a simulation dot world file
+
+00:04:41.979 --> 00:04:43.889 
+to start and a simulation dot world file
+where<00:04:42.309> you<00:04:42.339> reference<00:04:42.819> that<00:04:43.029> dot<00:04:43.300> world<00:04:43.569> file
+
+00:04:43.889 --> 00:04:43.899 
+where you reference that dot world file
+
+00:04:43.899 --> 00:04:46.320 
+where you reference that dot world file
+that<00:04:44.199> you<00:04:44.289> created<00:04:44.499> as<00:04:45.009> a<00:04:45.069> part<00:04:45.610> of<00:04:45.819> what<00:04:46.240> we
+
+00:04:46.320 --> 00:04:46.330 
+that you created as a part of what we
+
+00:04:46.330 --> 00:04:49.379 
+that you created as a part of what we
+were<00:04:46.419> just<00:04:46.449> talking<00:04:46.659> about<00:04:47.110> earlier<00:04:48.149> in<00:04:49.149> order
+
+00:04:49.379 --> 00:04:49.389 
+were just talking about earlier in order
+
+00:04:49.389 --> 00:04:51.869 
+were just talking about earlier in order
+to<00:04:49.479> run<00:04:49.719> your<00:04:49.779> code<00:04:50.199> in<00:04:50.439> the<00:04:50.559> simulator<00:04:50.979> when
+
+00:04:51.869 --> 00:04:51.879 
+to run your code in the simulator when
+
+00:04:51.879 --> 00:04:54.389 
+to run your code in the simulator when
+you<00:04:51.999> do<00:04:52.119> all<00:04:52.149> of<00:04:52.300> this<00:04:52.509> stuff<00:04:53.039> in<00:04:54.039> order<00:04:54.249> to<00:04:54.309> do
+
+00:04:54.389 --> 00:04:54.399 
+you do all of this stuff in order to do
+
+00:04:54.399 --> 00:04:56.369 
+you do all of this stuff in order to do
+this<00:04:54.520> you'll<00:04:54.759> need<00:04:54.819> to<00:04:54.969> do<00:04:55.539> go<00:04:56.199> into
+
+00:04:56.369 --> 00:04:56.379 
+this you'll need to do go into
+
+00:04:56.379 --> 00:04:59.339 
+this you'll need to do go into
+properties<00:04:56.559> and<00:04:57.479> go<00:04:58.479> to<00:04:58.539> build<00:04:58.779> and<00:04:58.959> run<00:04:59.080> and
+
+00:04:59.339 --> 00:04:59.349 
+properties and go to build and run and
+
+00:04:59.349 --> 00:05:01.920 
+properties and go to build and run and
+we<00:04:59.949> need<00:05:00.069> to<00:05:00.219> add<00:05:00.429> the<00:05:01.149> test<00:05:01.539> code<00:05:01.779> and
+
+00:05:01.920 --> 00:05:01.930 
+we need to add the test code and
+
+00:05:01.930 --> 00:05:03.839 
+we need to add the test code and
+simulation<00:05:02.439> label<00:05:02.830> and<00:05:02.979> the<00:05:03.339> target<00:05:03.699> is
+
+00:05:03.839 --> 00:05:03.849 
+simulation label and the target is
+
+00:05:03.849 --> 00:05:05.489 
+simulation label and the target is
+simulate<00:05:04.270> this<00:05:04.839> will<00:05:05.050> allow<00:05:05.259> you<00:05:05.319> to
+
+00:05:05.489 --> 00:05:05.499 
+simulate this will allow you to
+
+00:05:05.499 --> 00:05:10.079 
+simulate this will allow you to
+right-click<00:05:06.399> on<00:05:06.839> your<00:05:07.839> project<00:05:08.439> and<00:05:08.789> say<00:05:09.789> test
+
+00:05:10.079 --> 00:05:10.089 
+right-click on your project and say test
+
+00:05:10.089 --> 00:05:13.139 
+right-click on your project and say test
+code<00:05:10.300> and<00:05:10.419> simulation<00:05:11.729> when<00:05:12.729> you<00:05:12.819> click<00:05:13.029> on
+
+00:05:13.139 --> 00:05:13.149 
+code and simulation when you click on
+
+00:05:13.149 --> 00:05:14.459 
+code and simulation when you click on
+this<00:05:13.300> you'll<00:05:13.539> see<00:05:13.599> that<00:05:13.749> it<00:05:13.959> begins<00:05:14.110> running
+
+00:05:14.459 --> 00:05:14.469 
+this you'll see that it begins running
+
+00:05:14.469 --> 00:05:16.499 
+this you'll see that it begins running
+down<00:05:14.770> here<00:05:15.069> and<00:05:15.249> so<00:05:15.699> it<00:05:15.849> starts<00:05:16.089> running<00:05:16.240> raw
+
+00:05:16.499 --> 00:05:16.509 
+down here and so it starts running raw
+
+00:05:16.509 --> 00:05:18.480 
+down here and so it starts running raw
+score<00:05:16.869> and<00:05:17.110> soon<00:05:17.649> it<00:05:17.830> will<00:05:17.889> bring<00:05:18.099> up<00:05:18.279> your
+
+00:05:18.480 --> 00:05:18.490 
+score and soon it will bring up your
+
+00:05:18.490 --> 00:05:20.009 
+score and soon it will bring up your
+driver<00:05:18.819> state<00:05:19.119> your<00:05:19.209> fake<00:05:19.360> driver<00:05:19.599> station
+
+00:05:20.009 --> 00:05:20.019 
+driver state your fake driver station
+
+00:05:20.019 --> 00:05:23.429 
+driver state your fake driver station
+and<00:05:20.229> gazebo<00:05:20.800> itself<00:05:21.809> you'll<00:05:22.809> see<00:05:23.019> here<00:05:23.229> on<00:05:23.349> the
+
+00:05:23.429 --> 00:05:23.439 
+and gazebo itself you'll see here on the
+
+00:05:23.439 --> 00:05:24.749 
+and gazebo itself you'll see here on the
+driver<00:05:23.649> station<00:05:24.069> that<00:05:24.219> I<00:05:24.249> already<00:05:24.459> have<00:05:24.729> a
+
+00:05:24.749 --> 00:05:24.759 
+driver station that I already have a
+
+00:05:24.759 --> 00:05:27.269 
+driver station that I already have a
+Logitech<00:05:25.300> controller<00:05:25.689> plugged<00:05:26.050> in<00:05:26.199> and<00:05:26.439> it's
+
+00:05:27.269 --> 00:05:27.279 
+Logitech controller plugged in and it's
+
+00:05:27.279 --> 00:05:31.049 
+Logitech controller plugged in and it's
+ready<00:05:27.459> to<00:05:27.580> do<00:05:27.699> our<00:05:27.939> tally<00:05:28.899> up<00:05:29.080> code<00:05:29.580> so<00:05:30.580> here<00:05:30.909> is
+
+00:05:31.049 --> 00:05:31.059 
+ready to do our tally up code so here is
+
+00:05:31.059 --> 00:05:33.719 
+ready to do our tally up code so here is
+gazebo<00:05:31.569> you<00:05:32.050> can<00:05:32.199> see<00:05:32.379> this<00:05:32.740> is<00:05:32.949> the<00:05:33.099> packet
+
+00:05:33.719 --> 00:05:33.729 
+gazebo you can see this is the packet
+
+00:05:33.729 --> 00:05:35.519 
+gazebo you can see this is the packet
+that<00:05:33.939> we<00:05:34.119> were<00:05:34.269> looking<00:05:34.659> at<00:05:34.749> the<00:05:34.869> RTF<00:05:35.289> file
+
+00:05:35.519 --> 00:05:35.529 
+that we were looking at the RTF file
+
+00:05:35.529 --> 00:05:37.259 
+that we were looking at the RTF file
+earlier<00:05:35.979> you'll<00:05:36.490> see<00:05:36.639> it<00:05:36.759> starts<00:05:37.059> a<00:05:37.149> little
+
+00:05:37.259 --> 00:05:37.269 
+earlier you'll see it starts a little
+
+00:05:37.269 --> 00:05:38.850 
+earlier you'll see it starts a little
+bit<00:05:37.479> off<00:05:37.599> the<00:05:37.629> ground<00:05:37.930> so<00:05:38.139> that<00:05:38.169> parameter<00:05:38.740> may
+
+00:05:38.850 --> 00:05:38.860 
+bit off the ground so that parameter may
+
+00:05:38.860 --> 00:05:41.189 
+bit off the ground so that parameter may
+need<00:05:39.009> to<00:05:39.099> be<00:05:39.189> tuned<00:05:39.399> a<00:05:39.490> little<00:05:39.519> bit<00:05:39.759> more<00:05:40.199> but
+
+00:05:41.189 --> 00:05:41.199 
+need to be tuned a little bit more but
+
+00:05:41.199 --> 00:05:42.359 
+need to be tuned a little bit more but
+we're<00:05:41.319> ready<00:05:41.469> to<00:05:41.649> try<00:05:41.830> and<00:05:41.889> drive<00:05:42.069> this<00:05:42.219> guy
+
+00:05:42.359 --> 00:05:42.369 
+we're ready to try and drive this guy
+
+00:05:42.369 --> 00:05:44.339 
+we're ready to try and drive this guy
+around<00:05:42.519> so<00:05:43.269> if<00:05:43.360> you<00:05:43.449> go<00:05:43.629> in<00:05:43.779> here<00:05:43.809> and<00:05:44.110> you<00:05:44.199> hit
+
+00:05:44.339 --> 00:05:44.349 
+around so if you go in here and you hit
+
+00:05:44.349 --> 00:05:46.049 
+around so if you go in here and you hit
+play<00:05:44.589> that'll<00:05:45.459> start<00:05:45.639> the<00:05:45.759> physics
+
+00:05:46.049 --> 00:05:46.059 
+play that'll start the physics
+
+00:05:46.059 --> 00:05:47.790 
+play that'll start the physics
+simulation<00:05:46.569> so<00:05:46.930> you<00:05:47.019> can<00:05:47.139> see<00:05:47.349> that<00:05:47.529> all<00:05:47.649> the
+
+00:05:47.790 --> 00:05:47.800 
+simulation so you can see that all the
+
+00:05:47.800 --> 00:05:49.829 
+simulation so you can see that all the
+links<00:05:48.039> are<00:05:48.159> ready<00:05:48.309> to<00:05:48.399> move<00:05:48.550> around<00:05:48.839> you'll
+
+00:05:49.829 --> 00:05:49.839 
+links are ready to move around you'll
+
+00:05:49.839 --> 00:05:52.290 
+links are ready to move around you'll
+then<00:05:49.990> come<00:05:50.169> up<00:05:50.199> here<00:05:50.289> to<00:05:50.499> enable<00:05:50.860> and<00:05:51.300> then
+
+00:05:52.290 --> 00:05:52.300 
+then come up here to enable and then
+
+00:05:52.300 --> 00:05:54.059 
+then come up here to enable and then
+there<00:05:53.079> you<00:05:53.169> go<00:05:53.289> now<00:05:53.499> you<00:05:53.559> can<00:05:53.649> see<00:05:53.860> that<00:05:53.979> I'm
+
+00:05:54.059 --> 00:05:54.069 
+there you go now you can see that I'm
+
+00:05:54.069 --> 00:05:57.839 
+there you go now you can see that I'm
+driving<00:05:54.459> the<00:05:54.519> robot<00:05:54.669> around<00:05:56.699> using<00:05:57.699> the
+
+00:05:57.839 --> 00:05:57.849 
+driving the robot around using the
+
+00:05:57.849 --> 00:06:02.279 
+driving the robot around using the
+controller<00:05:58.300> joystick<00:05:58.779> that<00:05:58.959> I<00:05:58.990> have<00:05:59.229> here<00:06:01.289> now
+
+00:06:02.279 --> 00:06:02.289 
+controller joystick that I have here now
+
+00:06:02.289 --> 00:06:05.549 
+controller joystick that I have here now
+if<00:06:03.189> you<00:06:03.369> try<00:06:03.550> and<00:06:03.759> run<00:06:04.059> and<00:06:04.389> your<00:06:05.199> robot
+
+00:06:05.549 --> 00:06:05.559 
+if you try and run and your robot
+
+00:06:05.559 --> 00:06:07.109 
+if you try and run and your robot
+doesn't<00:06:05.740> seem<00:06:05.979> to<00:06:06.099> run<00:06:06.219> around<00:06:06.519> there's<00:06:06.999> a
+
+00:06:07.109 --> 00:06:07.119 
+doesn't seem to run around there's a
+
+00:06:07.119 --> 00:06:08.279 
+doesn't seem to run around there's a
+chance<00:06:07.360> that<00:06:07.539> you<00:06:07.629> aren't<00:06:07.809> giving<00:06:08.110> it<00:06:08.199> the
+
+00:06:08.279 --> 00:06:08.289 
+chance that you aren't giving it the
+
+00:06:08.289 --> 00:06:10.379 
+chance that you aren't giving it the
+right<00:06:08.439> values<00:06:08.860> to<00:06:09.039> your<00:06:09.159> motors<00:06:09.459> you<00:06:10.089> may<00:06:10.240> need
+
+00:06:10.379 --> 00:06:10.389 
+right values to your motors you may need
+
+00:06:10.389 --> 00:06:12.659 
+right values to your motors you may need
+to<00:06:10.479> go<00:06:10.629> and<00:06:10.930> edit<00:06:11.139> the<00:06:11.439> robot<00:06:11.769> map<00:06:11.979> so<00:06:12.490> that
+
+00:06:12.659 --> 00:06:12.669 
+to go and edit the robot map so that
+
+00:06:12.669 --> 00:06:14.069 
+to go and edit the robot map so that
+your<00:06:12.759> multiplier<00:06:13.269> is<00:06:13.419> something<00:06:13.749> other<00:06:13.930> than
+
+00:06:14.069 --> 00:06:14.079 
+your multiplier is something other than
+
+00:06:14.079 --> 00:06:17.219 
+your multiplier is something other than
+run<00:06:14.319> one<00:06:14.949> this<00:06:15.759> robot<00:06:16.149> is<00:06:16.329> using<00:06:16.689> ten<00:06:16.959> as<00:06:17.199> a
+
+00:06:17.219 --> 00:06:17.229 
+run one this robot is using ten as a
+
+00:06:17.229 --> 00:06:19.709 
+run one this robot is using ten as a
+multiplier<00:06:17.999> but<00:06:18.999> yours<00:06:19.240> may<00:06:19.419> need<00:06:19.569> to<00:06:19.659> be
+
+00:06:19.709 --> 00:06:19.719 
+multiplier but yours may need to be
+
+00:06:19.719 --> 00:06:22.339 
+multiplier but yours may need to be
+higher<00:06:19.930> or<00:06:20.169> lower<00:06:20.349> depending<00:06:20.589> on<00:06:20.889> your<00:06:21.039> system
+
+00:06:22.339 --> 00:06:22.349 
+higher or lower depending on your system
+
+00:06:22.349 --> 00:06:24.540 
+higher or lower depending on your system
+that's<00:06:23.349> a<00:06:23.469> basic<00:06:23.740> overview<00:06:24.009> of<00:06:24.159> how<00:06:24.279> to<00:06:24.369> get
+
+00:06:24.540 --> 00:06:24.550 
+that's a basic overview of how to get
+
+00:06:24.550 --> 00:06:25.949 
+that's a basic overview of how to get
+your<00:06:24.699> code<00:06:24.909> running<00:06:25.180> here<00:06:25.449> in<00:06:25.539> gazebo
+
+00:06:25.949 --> 00:06:25.959 
+your code running here in gazebo
+
+00:06:25.959 --> 00:06:28.049 
+your code running here in gazebo
+hopefully<00:06:26.889> you<00:06:26.979> can<00:06:27.099> use<00:06:27.279> this<00:06:27.490> to<00:06:27.699> test<00:06:27.879> your
+
+00:06:28.049 --> 00:06:28.059 
+hopefully you can use this to test your
+
+00:06:28.059 --> 00:06:29.699 
+hopefully you can use this to test your
+code<00:06:28.180> before<00:06:28.599> even<00:06:28.899> before<00:06:29.259> the<00:06:29.349> robot<00:06:29.499> is
+
+00:06:29.699 --> 00:06:29.709 
+code before even before the robot is
+
+00:06:29.709 --> 00:06:33.629 
+code before even before the robot is
+finished<00:06:29.979> being<00:06:30.189> built<00:06:30.449> happy<00:06:31.449> testing
+
