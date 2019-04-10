@@ -1,0 +1,937 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:03.560 
+
+hey<00:00:00.570> guys<00:00:00.750> what's<00:00:00.989> up<00:00:01.079> it's<00:00:01.380> BJ<00:00:01.740> here<00:00:02.570> today
+
+00:00:03.560 --> 00:00:03.570 
+hey guys what's up it's BJ here today
+
+00:00:03.570 --> 00:00:06.230 
+hey guys what's up it's BJ here today
+this<00:00:04.440> is<00:00:04.620> gonna<00:00:04.740> be<00:00:04.890> the<00:00:05.009> third<00:00:05.190> video<00:00:05.430> of<00:00:05.910> the
+
+00:00:06.230 --> 00:00:06.240 
+this is gonna be the third video of the
+
+00:00:06.240 --> 00:00:09.110 
+this is gonna be the third video of the
+platformer<00:00:07.230> series<00:00:07.700> and<00:00:08.700> just<00:00:08.730> to<00:00:08.940> clear
+
+00:00:09.110 --> 00:00:09.120 
+platformer series and just to clear
+
+00:00:09.120 --> 00:00:11.180 
+platformer series and just to clear
+things<00:00:09.150> up<00:00:09.480> I<00:00:09.599> am<00:00:09.719> really<00:00:10.139> busy<00:00:10.349> right<00:00:10.650> now<00:00:10.710> so
+
+00:00:11.180 --> 00:00:11.190 
+things up I am really busy right now so
+
+00:00:11.190 --> 00:00:13.879 
+things up I am really busy right now so
+I<00:00:11.219> will<00:00:11.490> only<00:00:11.580> be<00:00:11.700> uploading<00:00:12.480> on<00:00:12.840> the<00:00:13.380> weekends
+
+00:00:13.879 --> 00:00:13.889 
+I will only be uploading on the weekends
+
+00:00:13.889 --> 00:00:16.400 
+I will only be uploading on the weekends
+pretty<00:00:14.370> much<00:00:14.549> and<00:00:14.910> maybe<00:00:15.750> if<00:00:15.960> you<00:00:16.139> get<00:00:16.289> lucky
+
+00:00:16.400 --> 00:00:16.410 
+pretty much and maybe if you get lucky
+
+00:00:16.410 --> 00:00:20.330 
+pretty much and maybe if you get lucky
+on<00:00:16.650> the<00:00:16.710> weekdays<00:00:17.010> like<00:00:17.250> today<00:00:18.529> but<00:00:19.529> yeah<00:00:19.830> so
+
+00:00:20.330 --> 00:00:20.340 
+on the weekdays like today but yeah so
+
+00:00:20.340 --> 00:00:22.790 
+on the weekdays like today but yeah so
+in<00:00:20.789> the<00:00:21.480> last<00:00:21.869> two<00:00:21.990> videos<00:00:22.140> we<00:00:22.500> created
+
+00:00:22.790 --> 00:00:22.800 
+in the last two videos we created
+
+00:00:22.800 --> 00:00:25.040 
+in the last two videos we created
+ourselves<00:00:22.890> a<00:00:23.250> window<00:00:23.550> and<00:00:23.789> the<00:00:24.449> game<00:00:24.660> panel
+
+00:00:25.040 --> 00:00:25.050 
+ourselves a window and the game panel
+
+00:00:25.050 --> 00:00:29.960 
+ourselves a window and the game panel
+class<00:00:25.789> which<00:00:26.789> handles<00:00:27.210> all<00:00:27.390> of<00:00:27.570> our<00:00:28.699> game<00:00:29.699> loop
+
+00:00:29.960 --> 00:00:29.970 
+class which handles all of our game loop
+
+00:00:29.970 --> 00:00:34.850 
+class which handles all of our game loop
+and<00:00:30.890> drawing<00:00:31.890> and<00:00:32.099> stuff<00:00:32.219> so<00:00:33.469> in<00:00:34.469> this<00:00:34.710> video
+
+00:00:34.850 --> 00:00:34.860 
+and drawing and stuff so in this video
+
+00:00:34.860 --> 00:00:38.720 
+and drawing and stuff so in this video
+we're<00:00:35.280> actually<00:00:35.370> gonna<00:00:35.579> be<00:00:35.700> creating<00:00:37.730> the
+
+00:00:38.720 --> 00:00:38.730 
+we're actually gonna be creating the
+
+00:00:38.730 --> 00:00:42.560 
+we're actually gonna be creating the
+game<00:00:38.969> state<00:00:39.329> manager<00:00:40.020> and<00:00:40.730> what<00:00:41.730> this<00:00:41.910> does<00:00:42.180> is
+
+00:00:42.560 --> 00:00:42.570 
+game state manager and what this does is
+
+00:00:42.570 --> 00:00:44.389 
+game state manager and what this does is
+it<00:00:43.020> manages<00:00:43.469> all<00:00:43.590> the<00:00:43.710> states<00:00:43.920> so<00:00:44.219> if<00:00:44.309> you're
+
+00:00:44.389 --> 00:00:44.399 
+it manages all the states so if you're
+
+00:00:44.399 --> 00:00:46.069 
+it manages all the states so if you're
+in<00:00:44.489> the<00:00:44.550> PAS<00:00:44.730> state<00:00:45.090> it's<00:00:45.210> gonna<00:00:45.360> update<00:00:45.600> and
+
+00:00:46.069 --> 00:00:46.079 
+in the PAS state it's gonna update and
+
+00:00:46.079 --> 00:00:48.740 
+in the PAS state it's gonna update and
+draw<00:00:46.500> the<00:00:46.559> pause<00:00:46.890> state<00:00:47.190> and<00:00:47.430> check<00:00:48.420> for<00:00:48.450> key
+
+00:00:48.740 --> 00:00:48.750 
+draw the pause state and check for key
+
+00:00:48.750 --> 00:00:50.600 
+draw the pause state and check for key
+presses<00:00:49.050> in<00:00:49.170> the<00:00:49.260> pause<00:00:49.469> date<00:00:49.770> and<00:00:49.950> if<00:00:50.430> you're
+
+00:00:50.600 --> 00:00:50.610 
+presses in the pause date and if you're
+
+00:00:50.610 --> 00:00:54.290 
+presses in the pause date and if you're
+in<00:00:50.850> the<00:00:51.629> level<00:00:52.020> 1<00:00:52.050> state<00:00:52.500> per<00:00:52.800> se<00:00:53.059> we<00:00:54.059> would<00:00:54.180> be
+
+00:00:54.290 --> 00:00:54.300 
+in the level 1 state per se we would be
+
+00:00:54.300 --> 00:00:56.270 
+in the level 1 state per se we would be
+updating<00:00:54.719> all<00:00:54.840> the<00:00:54.870> enemies<00:00:55.379> and<00:00:55.620> the<00:00:56.039> player
+
+00:00:56.270 --> 00:00:56.280 
+updating all the enemies and the player
+
+00:00:56.280 --> 00:00:59.450 
+updating all the enemies and the player
+in<00:00:56.610> that<00:00:56.879> state<00:00:57.410> so<00:00:58.410> to<00:00:58.469> get<00:00:58.590> started<00:00:58.710> let's
+
+00:00:59.450 --> 00:00:59.460 
+in that state so to get started let's
+
+00:00:59.460 --> 00:01:02.779 
+in that state so to get started let's
+just<00:00:59.760> create<00:00:59.910> that<00:01:00.000> class<00:01:00.420> and<00:01:01.789> create
+
+00:01:02.779 --> 00:01:02.789 
+just create that class and create
+
+00:01:02.789 --> 00:01:04.880 
+just create that class and create
+ourselves<00:01:02.969> a<00:01:03.270> constructor<00:01:03.719> public<00:01:04.589> game
+
+00:01:04.880 --> 00:01:04.890 
+ourselves a constructor public game
+
+00:01:04.890 --> 00:01:08.480 
+ourselves a constructor public game
+state<00:01:05.159> manager<00:01:05.930> manager<00:01:06.930> and<00:01:07.369> we're<00:01:08.369> gonna
+
+00:01:08.480 --> 00:01:08.490 
+state manager manager and we're gonna
+
+00:01:08.490 --> 00:01:10.460 
+state manager manager and we're gonna
+need<00:01:08.670> 4<00:01:08.970> different<00:01:09.119> methods<00:01:09.540> public<00:01:10.290> void
+
+00:01:10.460 --> 00:01:10.470 
+need 4 different methods public void
+
+00:01:10.470 --> 00:01:19.219 
+need 4 different methods public void
+tick<00:01:12.560> and<00:01:14.390> public<00:01:15.390> void<00:01:17.240> draw<00:01:18.240> and<00:01:18.720> that's
+
+00:01:19.219 --> 00:01:19.229 
+tick and public void draw and that's
+
+00:01:19.229 --> 00:01:24.910 
+tick and public void draw and that's
+going<00:01:19.409> to<00:01:19.470> take<00:01:19.680> in<00:01:19.890> a<00:01:20.330> graphics<00:01:21.830> object
+
+00:01:24.910 --> 00:01:24.920 
+
+00:01:24.920 --> 00:01:31.069 
+
+public<00:01:25.939> void<00:01:28.220> key<00:01:29.220> pressed<00:01:29.640> and<00:01:29.960> these<00:01:30.960> are
+
+00:01:31.069 --> 00:01:31.079 
+public void key pressed and these are
+
+00:01:31.079 --> 00:01:33.170 
+public void key pressed and these are
+actually<00:01:31.290> two<00:01:31.320> taken<00:01:31.650> integers<00:01:32.130> you'll<00:01:32.970> see
+
+00:01:33.170 --> 00:01:33.180 
+actually two taken integers you'll see
+
+00:01:33.180 --> 00:01:36.580 
+actually two taken integers you'll see
+why<00:01:33.360> in<00:01:33.540> a<00:01:33.630> little<00:01:33.840> bit<00:01:33.990> and<00:01:34.200> key<00:01:35.159> released
+
+00:01:36.580 --> 00:01:36.590 
+why in a little bit and key released
+
+00:01:36.590 --> 00:01:42.889 
+why in a little bit and key released
+into<00:01:37.590> K<00:01:37.829> so<00:01:39.200> that's<00:01:40.200> that's<00:01:40.860> it<00:01:41.100> for<00:01:41.750> the<00:01:42.750> game
+
+00:01:42.889 --> 00:01:42.899 
+into K so that's that's it for the game
+
+00:01:42.899 --> 00:01:44.600 
+into K so that's that's it for the game
+state<00:01:43.140> manager<00:01:43.500> right<00:01:43.649> now<00:01:43.799> let's<00:01:44.369> go<00:01:44.490> back
+
+00:01:44.600 --> 00:01:44.610 
+state manager right now let's go back
+
+00:01:44.610 --> 00:01:45.950 
+state manager right now let's go back
+into<00:01:44.759> the<00:01:44.820> game<00:01:44.970> panel<00:01:45.299> and<00:01:45.420> create<00:01:45.659> an<00:01:45.810> object
+
+00:01:45.950 --> 00:01:45.960 
+into the game panel and create an object
+
+00:01:45.960 --> 00:01:51.530 
+into the game panel and create an object
+of<00:01:46.259> this<00:01:46.820> so<00:01:47.820> private<00:01:48.299> game<00:01:49.009> state<00:01:50.540> manager
+
+00:01:51.530 --> 00:01:51.540 
+of this so private game state manager
+
+00:01:51.540 --> 00:01:56.060 
+of this so private game state manager
+GSM<00:01:52.549> alright<00:01:53.549> so<00:01:54.649> then<00:01:55.649> your<00:01:55.829> let's
+
+00:01:56.060 --> 00:01:56.070 
+GSM alright so then your let's
+
+00:01:56.070 --> 00:02:00.490 
+GSM alright so then your let's
+initialize<00:01:56.340> that<00:01:57.560> GSM<00:01:58.850> equals<00:01:59.850> new<00:02:00.030> game
+
+00:02:00.490 --> 00:02:00.500 
+initialize that GSM equals new game
+
+00:02:00.500 --> 00:02:05.749 
+initialize that GSM equals new game
+state<00:02:02.329> manager<00:02:03.329> manager<00:02:04.290> alright<00:02:05.070> so
+
+00:02:05.749 --> 00:02:05.759 
+state manager manager alright so
+
+00:02:05.759 --> 00:02:08.570 
+state manager manager alright so
+basically<00:02:06.829> what<00:02:07.829> we're<00:02:07.950> going<00:02:08.039> to<00:02:08.099> do<00:02:08.280> is
+
+00:02:08.570 --> 00:02:08.580 
+basically what we're going to do is
+
+00:02:08.580 --> 00:02:10.760 
+basically what we're going to do is
+we're<00:02:09.450> going<00:02:09.479> to<00:02:09.599> call<00:02:09.869> these<00:02:10.140> methods<00:02:10.470> that
+
+00:02:10.760 --> 00:02:10.770 
+we're going to call these methods that
+
+00:02:10.770 --> 00:02:13.250 
+we're going to call these methods that
+are<00:02:10.950> in<00:02:10.979> the<00:02:11.310> game<00:02:11.459> state<00:02:11.700> manager<00:02:12.150> and<00:02:12.360> the
+
+00:02:13.250 --> 00:02:13.260 
+are in the game state manager and the
+
+00:02:13.260 --> 00:02:13.670 
+are in the game state manager and the
+game
+
+00:02:13.670 --> 00:02:13.680 
+game
+
+00:02:13.680 --> 00:02:17.929 
+game
+class<00:02:14.090> so<00:02:15.319> um<00:02:16.319> it'll<00:02:16.859> select<00:02:17.219> inside<00:02:17.849> the
+
+00:02:17.929 --> 00:02:17.939 
+class so um it'll select inside the
+
+00:02:17.939 --> 00:02:24.050 
+class so um it'll select inside the
+games<00:02:18.090> a<00:02:18.209> manager<00:02:18.540> it'll<00:02:18.989> select<00:02:19.879> which<00:02:23.060> which
+
+00:02:24.050 --> 00:02:24.060 
+games a manager it'll select which which
+
+00:02:24.060 --> 00:02:26.599 
+games a manager it'll select which which
+estate<00:02:24.420> is<00:02:24.659> going<00:02:25.049> right<00:02:25.590> now<00:02:25.769> and<00:02:25.799> then<00:02:26.250> it'll
+
+00:02:26.599 --> 00:02:26.609 
+estate is going right now and then it'll
+
+00:02:26.609 --> 00:02:28.490 
+estate is going right now and then it'll
+it'll<00:02:27.030> call<00:02:27.420> the<00:02:27.569> methods<00:02:27.900> inside<00:02:28.290> those
+
+00:02:28.490 --> 00:02:28.500 
+it'll call the methods inside those
+
+00:02:28.500 --> 00:02:32.869 
+it'll call the methods inside those
+states<00:02:28.739> for<00:02:28.920> that<00:02:30.079> so<00:02:31.079> yeah<00:02:31.290> now<00:02:32.159> in<00:02:32.549> the<00:02:32.730> key
+
+00:02:32.869 --> 00:02:32.879 
+states for that so yeah now in the key
+
+00:02:32.879 --> 00:02:34.640 
+states for that so yeah now in the key
+pressed<00:02:33.180> so<00:02:33.510> I<00:02:33.540> said<00:02:33.780> it<00:02:33.870> was<00:02:33.959> integer<00:02:34.349> we<00:02:34.469> just
+
+00:02:34.640 --> 00:02:34.650 
+pressed so I said it was integer we just
+
+00:02:34.650 --> 00:02:36.920 
+pressed so I said it was integer we just
+do<00:02:34.739> eat<00:02:34.980> get<00:02:35.340> key<00:02:35.609> code<00:02:35.909> so<00:02:36.659> that<00:02:36.689> we<00:02:36.870> don't
+
+00:02:36.920 --> 00:02:36.930 
+do eat get key code so that we don't
+
+00:02:36.930 --> 00:02:41.390 
+do eat get key code so that we don't
+have<00:02:37.170> to<00:02:37.260> pass<00:02:37.439> we<00:02:37.709> don't<00:02:37.859> have<00:02:37.980> to<00:02:40.129> use<00:02:41.129> key
+
+00:02:41.390 --> 00:02:41.400 
+have to pass we don't have to use key
+
+00:02:41.400 --> 00:02:44.080 
+have to pass we don't have to use key
+events<00:02:41.790> it's<00:02:42.120> just<00:02:42.389> a<00:02:42.450> little<00:02:42.569> bit<00:02:42.750> easier
+
+00:02:44.080 --> 00:02:44.090 
+events it's just a little bit easier
+
+00:02:44.090 --> 00:02:51.409 
+events it's just a little bit easier
+either<00:02:45.090> get<00:02:45.480> key<00:02:45.689> code<00:02:49.760> now<00:02:50.760> we<00:02:50.849> aren't<00:02:51.209> gonna
+
+00:02:51.409 --> 00:02:51.419 
+either get key code now we aren't gonna
+
+00:02:51.419 --> 00:02:53.179 
+either get key code now we aren't gonna
+use<00:02:51.689> the<00:02:51.900> key<00:02:52.079> type<00:02:52.290> 2<00:02:52.439> method<00:02:52.739> because<00:02:52.980> that's
+
+00:02:53.179 --> 00:02:53.189 
+use the key type 2 method because that's
+
+00:02:53.189 --> 00:02:55.159 
+use the key type 2 method because that's
+not<00:02:53.489> really<00:02:53.760> useful<00:02:54.090> to<00:02:54.209> us<00:02:54.329> right<00:02:54.480> now<00:02:54.540> oh<00:02:54.810> and
+
+00:02:55.159 --> 00:02:55.169 
+not really useful to us right now oh and
+
+00:02:55.169 --> 00:02:57.319 
+not really useful to us right now oh and
+also<00:02:55.409> in<00:02:55.709> the<00:02:55.799> paint<00:02:56.010> component<00:02:56.519> we're<00:02:57.209> just
+
+00:02:57.319 --> 00:02:57.329 
+also in the paint component we're just
+
+00:02:57.329 --> 00:03:02.659 
+also in the paint component we're just
+going<00:02:57.450> to<00:02:57.480> do<00:02:57.599> G<00:02:57.870> dot<00:02:58.049> clear<00:02:58.700> rect<00:03:01.340> zero<00:03:02.340> zero
+
+00:03:02.659 --> 00:03:02.669 
+going to do G dot clear rect zero zero
+
+00:03:02.669 --> 00:03:04.849 
+going to do G dot clear rect zero zero
+with<00:03:02.879> height<00:03:03.150> so<00:03:03.810> basically<00:03:04.200> it'll<00:03:04.439> clear<00:03:04.709> the
+
+00:03:04.849 --> 00:03:04.859 
+with height so basically it'll clear the
+
+00:03:04.859 --> 00:03:08.020 
+with height so basically it'll clear the
+whole<00:03:05.040> screen<00:03:05.340> before<00:03:05.790> drawing<00:03:06.150> in<00:03:06.359> the<00:03:06.450> next
+
+00:03:08.020 --> 00:03:08.030 
+whole screen before drawing in the next
+
+00:03:08.030 --> 00:03:12.860 
+whole screen before drawing in the next
+layer<00:03:11.150> so<00:03:12.150> yeah<00:03:12.239> that's<00:03:12.389> it<00:03:12.480> for<00:03:12.629> the<00:03:12.689> game
+
+00:03:12.860 --> 00:03:12.870 
+layer so yeah that's it for the game
+
+00:03:12.870 --> 00:03:15.500 
+layer so yeah that's it for the game
+panel<00:03:13.530> we<00:03:14.340> pretty<00:03:14.579> much<00:03:14.760> won't<00:03:14.969> have<00:03:15.209> to<00:03:15.359> even
+
+00:03:15.500 --> 00:03:15.510 
+panel we pretty much won't have to even
+
+00:03:15.510 --> 00:03:17.000 
+panel we pretty much won't have to even
+change<00:03:15.780> this<00:03:16.079> throughout<00:03:16.409> the<00:03:16.620> rest<00:03:16.799> of<00:03:16.950> the
+
+00:03:17.000 --> 00:03:17.010 
+change this throughout the rest of the
+
+00:03:17.010 --> 00:03:19.189 
+change this throughout the rest of the
+series<00:03:17.219> I<00:03:17.400> don't<00:03:17.549> think<00:03:17.699> so<00:03:18.449> let's<00:03:18.989> actually
+
+00:03:19.189 --> 00:03:19.199 
+series I don't think so let's actually
+
+00:03:19.199 --> 00:03:20.509 
+series I don't think so let's actually
+we're<00:03:19.590> actually<00:03:19.709> going<00:03:19.949> to<00:03:20.040> create<00:03:20.220> another
+
+00:03:20.509 --> 00:03:20.519 
+we're actually going to create another
+
+00:03:20.519 --> 00:03:22.849 
+we're actually going to create another
+class<00:03:20.819> and<00:03:21.299> we're<00:03:22.109> gonna<00:03:22.199> call<00:03:22.440> this<00:03:22.470> game
+
+00:03:22.849 --> 00:03:22.859 
+class and we're gonna call this game
+
+00:03:22.859 --> 00:03:23.390 
+class and we're gonna call this game
+state
+
+00:03:23.390 --> 00:03:23.400 
+state
+
+00:03:23.400 --> 00:03:26.059 
+state
+now<00:03:23.849> this<00:03:24.419> gamestate<00:03:24.930> class<00:03:24.959> is<00:03:25.500> going<00:03:25.829> to<00:03:25.949> be
+
+00:03:26.059 --> 00:03:26.069 
+now this gamestate class is going to be
+
+00:03:26.069 --> 00:03:28.789 
+now this gamestate class is going to be
+an<00:03:26.220> abstract<00:03:26.760> class<00:03:27.169> so<00:03:28.169> basically<00:03:28.590> what<00:03:28.769> that
+
+00:03:28.789 --> 00:03:28.799 
+an abstract class so basically what that
+
+00:03:28.799 --> 00:03:31.129 
+an abstract class so basically what that
+means<00:03:28.919> is<00:03:29.250> we<00:03:29.459> cannot<00:03:29.760> create<00:03:30.299> an<00:03:30.569> instance<00:03:31.019> of
+
+00:03:31.129 --> 00:03:31.139 
+means is we cannot create an instance of
+
+00:03:31.139 --> 00:03:33.140 
+means is we cannot create an instance of
+this<00:03:31.290> class<00:03:31.349> we<00:03:31.709> can<00:03:31.829> only<00:03:31.949> create<00:03:32.220> instances
+
+00:03:33.140 --> 00:03:33.150 
+this class we can only create instances
+
+00:03:33.150 --> 00:03:36.229 
+this class we can only create instances
+of<00:03:33.299> classes<00:03:33.780> that<00:03:33.810> inherit<00:03:35.060> from<00:03:36.060> this
+
+00:03:36.229 --> 00:03:36.239 
+of classes that inherit from this
+
+00:03:36.239 --> 00:03:39.080 
+of classes that inherit from this
+gamestate<00:03:36.720> class<00:03:36.949> so<00:03:37.949> to<00:03:38.340> get<00:03:38.519> started<00:03:38.639> we're
+
+00:03:39.080 --> 00:03:39.090 
+gamestate class so to get started we're
+
+00:03:39.090 --> 00:03:40.849 
+gamestate class so to get started we're
+going<00:03:39.209> to<00:03:39.269> create<00:03:39.540> a<00:03:39.629> protected<00:03:40.379> variable
+
+00:03:40.849 --> 00:03:40.859 
+going to create a protected variable
+
+00:03:40.859 --> 00:03:44.899 
+going to create a protected variable
+game<00:03:41.459> state<00:03:41.760> manager<00:03:42.769> GSM<00:03:43.769> and<00:03:43.979> we're<00:03:44.819> gonna
+
+00:03:44.899 --> 00:03:44.909 
+game state manager GSM and we're gonna
+
+00:03:44.909 --> 00:03:48.259 
+game state manager GSM and we're gonna
+have<00:03:45.209> ourselves<00:03:45.540> a<00:03:46.139> protected<00:03:47.269> constructor
+
+00:03:48.259 --> 00:03:48.269 
+have ourselves a protected constructor
+
+00:03:48.269 --> 00:03:52.640 
+have ourselves a protected constructor
+game<00:03:48.989> state<00:03:50.870> and<00:03:51.870> this<00:03:51.989> is<00:03:52.109> going<00:03:52.199> to<00:03:52.259> take<00:03:52.500> in
+
+00:03:52.640 --> 00:03:52.650 
+game state and this is going to take in
+
+00:03:52.650 --> 00:03:56.869 
+game state and this is going to take in
+a<00:03:52.739> game<00:03:52.769> state<00:03:53.840> manager<00:03:54.840> GSM<00:03:55.799> and<00:03:56.099> what<00:03:56.759> it's
+
+00:03:56.869 --> 00:03:56.879 
+a game state manager GSM and what it's
+
+00:03:56.879 --> 00:03:59.509 
+a game state manager GSM and what it's
+going<00:03:56.909> to<00:03:57.060> do<00:03:57.209> is<00:03:57.509> it's<00:03:57.659> going<00:03:57.720> to<00:03:57.870> say<00:03:58.519> this
+
+00:03:59.509 --> 00:03:59.519 
+going to do is it's going to say this
+
+00:03:59.519 --> 00:04:04.759 
+going to do is it's going to say this
+gsm<00:04:00.329> equal<00:04:00.599> gsm<00:04:01.049> and<00:04:02.479> then<00:04:03.479> in<00:04:04.409> here<00:04:04.620> i'm<00:04:04.680> going
+
+00:04:04.759 --> 00:04:04.769 
+gsm equal gsm and then in here i'm going
+
+00:04:04.769 --> 00:04:08.439 
+gsm equal gsm and then in here i'm going
+to<00:04:04.829> have<00:04:04.979> a<00:04:05.280> bunch<00:04:05.549> of<00:04:05.729> methods<00:04:06.199> public
+
+00:04:08.439 --> 00:04:08.449 
+to have a bunch of methods public
+
+00:04:08.449 --> 00:04:12.499 
+to have a bunch of methods public
+abstract<00:04:09.449> void<00:04:10.109> in<00:04:10.829> it<00:04:11.069> now<00:04:12.030> in<00:04:12.209> here<00:04:12.389> we're
+
+00:04:12.499 --> 00:04:12.509 
+abstract void in it now in here we're
+
+00:04:12.509 --> 00:04:17.839 
+abstract void in it now in here we're
+actually<00:04:12.750> to<00:04:12.840> call<00:04:13.099> in<00:04:14.099> it<00:04:14.750> a<00:04:15.889> public<00:04:16.889> abstract
+
+00:04:17.839 --> 00:04:17.849 
+actually to call in it a public abstract
+
+00:04:17.849 --> 00:04:20.759 
+actually to call in it a public abstract
+void<00:04:19.130> tick
+
+00:04:20.759 --> 00:04:20.769 
+void tick
+
+00:04:20.769 --> 00:04:25.320 
+void tick
+so<00:04:21.280> all<00:04:22.060> of<00:04:22.120> these<00:04:22.449> methods<00:04:23.050> right<00:04:23.440> here<00:04:24.330> are
+
+00:04:25.320 --> 00:04:25.330 
+so all of these methods right here are
+
+00:04:25.330 --> 00:04:28.469 
+so all of these methods right here are
+going<00:04:25.569> to<00:04:25.660> be<00:04:25.720> required<00:04:26.789> not<00:04:27.789> necessarily
+
+00:04:28.469 --> 00:04:28.479 
+going to be required not necessarily
+
+00:04:28.479 --> 00:04:31.409 
+going to be required not necessarily
+used<00:04:28.810> in<00:04:29.020> every<00:04:29.229> single<00:04:29.430> state<00:04:30.430> but<00:04:30.910> required
+
+00:04:31.409 --> 00:04:31.419 
+used in every single state but required
+
+00:04:31.419 --> 00:04:34.110 
+used in every single state but required
+in<00:04:32.289> every<00:04:32.590> single<00:04:32.740> state<00:04:33.009> so<00:04:33.250> we<00:04:33.490> can<00:04:33.729> use<00:04:33.970> them
+
+00:04:34.110 --> 00:04:34.120 
+in every single state so we can use them
+
+00:04:34.120 --> 00:04:39.960 
+in every single state so we can use them
+if<00:04:34.210> we<00:04:34.330> need<00:04:34.479> to<00:04:37.440> now<00:04:38.440> if<00:04:38.590> we<00:04:38.710> want<00:04:38.889> to<00:04:38.979> later<00:04:39.280> we
+
+00:04:39.960 --> 00:04:39.970 
+if we need to now if we want to later we
+
+00:04:39.970 --> 00:04:43.260 
+if we need to now if we want to later we
+can<00:04:40.120> always<00:04:40.330> add<00:04:40.569> in<00:04:41.039> mouse<00:04:42.060> listeners<00:04:43.060> as
+
+00:04:43.260 --> 00:04:43.270 
+can always add in mouse listeners as
+
+00:04:43.270 --> 00:04:44.879 
+can always add in mouse listeners as
+well<00:04:43.539> and<00:04:43.840> we'll<00:04:43.990> have<00:04:44.139> to<00:04:44.289> change<00:04:44.530> that<00:04:44.710> in
+
+00:04:44.879 --> 00:04:44.889 
+well and we'll have to change that in
+
+00:04:44.889 --> 00:04:47.670 
+well and we'll have to change that in
+every<00:04:45.190> single<00:04:45.490> one<00:04:45.580> but<00:04:46.229> we<00:04:47.229> won't<00:04:47.410> do<00:04:47.560> that
+
+00:04:47.670 --> 00:04:47.680 
+every single one but we won't do that
+
+00:04:47.680 --> 00:04:50.670 
+every single one but we won't do that
+right<00:04:47.740> now<00:04:48.130> I<00:04:49.050> don't<00:04:50.050> think<00:04:50.199> we're<00:04:50.319> gonna<00:04:50.440> need
+
+00:04:50.670 --> 00:04:50.680 
+right now I don't think we're gonna need
+
+00:04:50.680 --> 00:04:55.770 
+right now I don't think we're gonna need
+that<00:04:50.949> actually<00:04:54.090> so<00:04:55.090> yeah<00:04:55.210> that's<00:04:55.389> it<00:04:55.539> for<00:04:55.569> the
+
+00:04:55.770 --> 00:04:55.780 
+that actually so yeah that's it for the
+
+00:04:55.780 --> 00:04:58.890 
+that actually so yeah that's it for the
+game<00:04:55.960> state<00:04:56.259> manager<00:04:57.159> and<00:04:57.490> the<00:04:58.479> gamestate
+
+00:04:58.890 --> 00:04:58.900 
+game state manager and the gamestate
+
+00:04:58.900 --> 00:05:00.719 
+game state manager and the gamestate
+class<00:04:58.960> now<00:04:59.770> in<00:04:59.919> the<00:05:00.009> game<00:05:00.159> state<00:05:00.370> manager
+
+00:05:00.719 --> 00:05:00.729 
+class now in the game state manager
+
+00:05:00.729 --> 00:05:02.820 
+class now in the game state manager
+we're<00:05:01.060> just<00:05:01.240> going<00:05:01.360> to<00:05:01.419> create<00:05:01.599> ourselves<00:05:01.960> a
+
+00:05:02.820 --> 00:05:02.830 
+we're just going to create ourselves a
+
+00:05:02.830 --> 00:05:08.309 
+we're just going to create ourselves a
+private<00:05:03.370> stack<00:05:04.229> of<00:05:05.229> game<00:05:05.620> States<00:05:06.990> game<00:05:07.990> State
+
+00:05:08.309 --> 00:05:08.319 
+private stack of game States game State
+
+00:05:08.319 --> 00:05:12.689 
+private stack of game States game State
+and<00:05:08.880> we<00:05:09.880> will<00:05:10.030> just<00:05:10.240> call<00:05:10.419> this<00:05:10.479> states<00:05:11.310> now<00:05:12.310> in
+
+00:05:12.689 --> 00:05:12.699 
+and we will just call this states now in
+
+00:05:12.699 --> 00:05:15.059 
+and we will just call this states now in
+the<00:05:13.120> constructor<00:05:13.720> basically<00:05:14.409> we're<00:05:14.949> gonna
+
+00:05:15.059 --> 00:05:15.069 
+the constructor basically we're gonna
+
+00:05:15.069 --> 00:05:19.499 
+the constructor basically we're gonna
+initialize<00:05:15.819> this<00:05:17.639> so<00:05:18.639> a<00:05:18.669> stack<00:05:19.090> of<00:05:19.120> game
+
+00:05:19.499 --> 00:05:19.509 
+initialize this so a stack of game
+
+00:05:19.509 --> 00:05:25.550 
+initialize this so a stack of game
+states<00:05:20.940> okay
+
+00:05:25.550 --> 00:05:25.560 
+
+00:05:25.560 --> 00:05:29.520 
+
+equals<00:05:26.560> new<00:05:26.740> stack<00:05:27.039> my<00:05:27.550> bad<00:05:27.759> new<00:05:28.509> stack<00:05:28.840> all
+
+00:05:29.520 --> 00:05:29.530 
+equals new stack my bad new stack all
+
+00:05:29.530 --> 00:05:32.279 
+equals new stack my bad new stack all
+right<00:05:29.710> so<00:05:30.250> what<00:05:30.969> we're<00:05:31.030> gonna<00:05:31.120> do<00:05:31.360> is<00:05:31.690> we're
+
+00:05:32.279 --> 00:05:32.289 
+right so what we're gonna do is we're
+
+00:05:32.289 --> 00:05:37.170 
+right so what we're gonna do is we're
+gonna<00:05:32.349> do<00:05:32.530> States<00:05:32.830> dot<00:05:33.759> peek<00:05:35.070> dot<00:05:36.070> tick<00:05:36.610> so
+
+00:05:37.170 --> 00:05:37.180 
+gonna do States dot peek dot tick so
+
+00:05:37.180 --> 00:05:40.439 
+gonna do States dot peek dot tick so
+basically<00:05:38.340> it's<00:05:39.340> gonna<00:05:39.460> look<00:05:39.699> at<00:05:39.820> the<00:05:39.940> top<00:05:40.180> of
+
+00:05:40.439 --> 00:05:40.449 
+basically it's gonna look at the top of
+
+00:05:40.449 --> 00:05:42.779 
+basically it's gonna look at the top of
+the<00:05:40.599> stack<00:05:40.930> so<00:05:41.289> whatever<00:05:41.560> state<00:05:42.159> we<00:05:42.310> add<00:05:42.520> we
+
+00:05:42.779 --> 00:05:42.789 
+the stack so whatever state we add we
+
+00:05:42.789 --> 00:05:43.800 
+the stack so whatever state we add we
+pushed<00:05:43.120> onto<00:05:43.330> the<00:05:43.449> stack
+
+00:05:43.800 --> 00:05:43.810 
+pushed onto the stack
+
+00:05:43.810 --> 00:05:48.060 
+pushed onto the stack
+delayed<00:05:44.620> it<00:05:45.449> like<00:05:46.449> the<00:05:46.570> last<00:05:46.750> the<00:05:47.409> last<00:05:47.620> one<00:05:47.860> we
+
+00:05:48.060 --> 00:05:48.070 
+delayed it like the last the last one we
+
+00:05:48.070 --> 00:05:49.469 
+delayed it like the last the last one we
+pushed<00:05:48.340> onto<00:05:48.580> the<00:05:48.729> stack<00:05:48.789> and<00:05:49.180> it's<00:05:49.300> going<00:05:49.419> to
+
+00:05:49.469 --> 00:05:49.479 
+pushed onto the stack and it's going to
+
+00:05:49.479 --> 00:05:51.570 
+pushed onto the stack and it's going to
+update<00:05:49.599> that<00:05:49.750> so<00:05:49.990> if<00:05:50.110> we<00:05:50.139> push<00:05:50.440> on<00:05:50.590> a<00:05:50.770> pause
+
+00:05:51.570 --> 00:05:51.580 
+update that so if we push on a pause
+
+00:05:51.580 --> 00:05:53.640 
+update that so if we push on a pause
+state<00:05:52.270> it's<00:05:52.690> gonna<00:05:52.810> be<00:05:52.960> updating<00:05:53.289> that<00:05:53.319> and<00:05:53.590> we
+
+00:05:53.640 --> 00:05:53.650 
+state it's gonna be updating that and we
+
+00:05:53.650 --> 00:05:55.499 
+state it's gonna be updating that and we
+can<00:05:53.770> just<00:05:53.889> pop<00:05:54.159> it<00:05:54.340> off<00:05:54.460> and<00:05:54.520> go<00:05:54.940> back<00:05:55.180> to<00:05:55.419> the
+
+00:05:55.499 --> 00:05:55.509 
+can just pop it off and go back to the
+
+00:05:55.509 --> 00:05:59.010 
+can just pop it off and go back to the
+other<00:05:55.659> state<00:05:55.960> it's<00:05:56.139> really<00:05:56.469> him<00:05:57.750> you'll<00:05:58.750> see
+
+00:05:59.010 --> 00:05:59.020 
+other state it's really him you'll see
+
+00:05:59.020 --> 00:06:02.580 
+other state it's really him you'll see
+how<00:05:59.319> that<00:05:59.650> works<00:06:00.539> later<00:06:01.539> on<00:06:01.810> once<00:06:02.139> we<00:06:02.259> start
+
+00:06:02.580 --> 00:06:02.590 
+how that works later on once we start
+
+00:06:02.590 --> 00:06:06.469 
+how that works later on once we start
+actually<00:06:02.889> getting<00:06:03.250> into<00:06:03.669> the<00:06:03.789> game<00:06:04.060> itself
+
+00:06:06.469 --> 00:06:06.479 
+actually getting into the game itself
+
+00:06:06.479 --> 00:06:11.219 
+actually getting into the game itself
+he<00:06:07.479> pressed<00:06:07.780> Kay<00:06:08.259> and<00:06:09.659> one<00:06:10.659> more
+
+00:06:11.219 --> 00:06:11.229 
+he pressed Kay and one more
+
+00:06:11.229 --> 00:06:16.890 
+he pressed Kay and one more
+he<00:06:11.469> released<00:06:11.819> so<00:06:13.590> I'm<00:06:14.590> actually<00:06:14.800> not<00:06:15.009> gonna<00:06:15.900> go
+
+00:06:16.890 --> 00:06:16.900 
+he released so I'm actually not gonna go
+
+00:06:16.900 --> 00:06:20.219 
+he released so I'm actually not gonna go
+into<00:06:17.940> making<00:06:18.940> another<00:06:19.240> state<00:06:19.569> this<00:06:19.960> is<00:06:20.110> all
+
+00:06:20.219 --> 00:06:20.229 
+into making another state this is all
+
+00:06:20.229 --> 00:06:21.809 
+into making another state this is all
+we're<00:06:20.349> gonna<00:06:20.440> do<00:06:20.680> for<00:06:21.009> the<00:06:21.099> video<00:06:21.310> but<00:06:21.370> I'll<00:06:21.639> go
+
+00:06:21.809 --> 00:06:21.819 
+we're gonna do for the video but I'll go
+
+00:06:21.819 --> 00:06:23.730 
+we're gonna do for the video but I'll go
+over<00:06:22.030> a<00:06:22.060> recap<00:06:22.479> so<00:06:23.020> basically<00:06:23.319> be<00:06:23.380> paid<00:06:23.590> of<00:06:23.680> the
+
+00:06:23.730 --> 00:06:23.740 
+over a recap so basically be paid of the
+
+00:06:23.740 --> 00:06:25.890 
+over a recap so basically be paid of the
+game<00:06:23.949> state<00:06:24.190> manager<00:06:24.639> and<00:06:24.819> that<00:06:25.300> manages<00:06:25.810> all
+
+00:06:25.890 --> 00:06:25.900 
+game state manager and that manages all
+
+00:06:25.900 --> 00:06:27.749 
+game state manager and that manages all
+the<00:06:25.960> states<00:06:26.319> in<00:06:26.500> the<00:06:26.560> game<00:06:26.800> and<00:06:27.009> updates
+
+00:06:27.749 --> 00:06:27.759 
+the states in the game and updates
+
+00:06:27.759 --> 00:06:29.969 
+the states in the game and updates
+whichever<00:06:28.120> one<00:06:28.330> is<00:06:28.599> currently<00:06:29.349> on<00:06:29.500> the<00:06:29.620> top<00:06:29.830> of
+
+00:06:29.969 --> 00:06:29.979 
+whichever one is currently on the top of
+
+00:06:29.979 --> 00:06:33.209 
+whichever one is currently on the top of
+the<00:06:30.130> stack<00:06:30.400> and<00:06:31.110> we<00:06:32.110> implemented<00:06:32.440> that<00:06:32.770> into
+
+00:06:33.209 --> 00:06:33.219 
+the stack and we implemented that into
+
+00:06:33.219 --> 00:06:34.320 
+the stack and we implemented that into
+the<00:06:33.460> game<00:06:33.789> State
+
+00:06:34.320 --> 00:06:34.330 
+the game State
+
+00:06:34.330 --> 00:06:38.119 
+the game State
+or<00:06:34.509> the<00:06:34.930> game<00:06:35.080> panel<00:06:35.470> class<00:06:36.180> so<00:06:37.180> it's<00:06:37.360> calling
+
+00:06:38.119 --> 00:06:38.129 
+or the game panel class so it's calling
+
+00:06:38.129 --> 00:06:40.830 
+or the game panel class so it's calling
+inside<00:06:39.129> these<00:06:39.340> methods<00:06:39.789> and<00:06:39.940> then<00:06:40.479> we<00:06:40.599> created
+
+00:06:40.830 --> 00:06:40.840 
+inside these methods and then we created
+
+00:06:40.840 --> 00:06:44.909 
+inside these methods and then we created
+a<00:06:40.930> game<00:06:41.080> state<00:06:43.050> abstract<00:06:44.050> class<00:06:44.319> which<00:06:44.590> we<00:06:44.740> can
+
+00:06:44.909 --> 00:06:44.919 
+a game state abstract class which we can
+
+00:06:44.919 --> 00:06:47.760 
+a game state abstract class which we can
+create<00:06:45.490> subclasses<00:06:46.150> awful<00:06:46.659> so<00:06:47.289> we'll<00:06:47.470> create
+
+00:06:47.760 --> 00:06:47.770 
+create subclasses awful so we'll create
+
+00:06:47.770 --> 00:06:50.369 
+create subclasses awful so we'll create
+classes<00:06:48.370> like<00:06:48.550> a<00:06:48.759> class<00:06:49.479> called<00:06:49.720> menu<00:06:50.080> state
+
+00:06:50.369 --> 00:06:50.379 
+classes like a class called menu state
+
+00:06:50.379 --> 00:06:53.249 
+classes like a class called menu state
+and<00:06:50.590> we'll<00:06:50.740> have<00:06:50.919> it<00:06:51.159> extend<00:06:51.789> game<00:06:52.690> state<00:06:53.020> and
+
+00:06:53.249 --> 00:06:53.259 
+and we'll have it extend game state and
+
+00:06:53.259 --> 00:06:56.219 
+and we'll have it extend game state and
+it'll<00:06:53.740> have<00:06:53.889> all<00:06:53.919> of<00:06:54.190> these<00:06:54.430> methods<00:06:54.940> and<00:06:55.229> of
+
+00:06:56.219 --> 00:06:56.229 
+it'll have all of these methods and of
+
+00:06:56.229 --> 00:06:58.290 
+it'll have all of these methods and of
+this<00:06:56.800> variable<00:06:57.430> these<00:06:57.490> variables<00:06:58.000> and<00:06:58.120> stuff
+
+00:06:58.290 --> 00:06:58.300 
+this variable these variables and stuff
+
+00:06:58.300 --> 00:07:00.270 
+this variable these variables and stuff
+so<00:06:59.259> that's<00:06:59.440> that's<00:06:59.680> really<00:06:59.800> it<00:07:00.039> for<00:07:00.190> this
+
+00:07:00.270 --> 00:07:00.280 
+so that's that's really it for this
+
+00:07:00.280 --> 00:07:02.249 
+so that's that's really it for this
+tutorial<00:07:00.729> thank<00:07:01.240> you<00:07:01.270> guys<00:07:01.449> for<00:07:01.659> watching<00:07:01.780> be
+
+00:07:02.249 --> 00:07:02.259 
+tutorial thank you guys for watching be
+
+00:07:02.259 --> 00:07:04.350 
+tutorial thank you guys for watching be
+sure<00:07:02.319> to<00:07:02.470> subscribe<00:07:02.699> leave<00:07:03.699> a<00:07:03.759> like<00:07:03.849> and<00:07:04.330> I
+
+00:07:04.350 --> 00:07:04.360 
+sure to subscribe leave a like and I
+
+00:07:04.360 --> 00:07:06.930 
+sure to subscribe leave a like and I
+will<00:07:04.389> see<00:07:04.629> you<00:07:04.720> next<00:07:04.780> time
+

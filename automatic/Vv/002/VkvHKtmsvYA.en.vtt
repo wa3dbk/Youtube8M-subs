@@ -1,0 +1,271 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.469
+ Custom Clock Screensaver has become one of the most awaited features 
+
+00:00:03.469 --> 00:00:04.470
+ For Android Wear 
+
+00:00:04.810 --> 00:00:08.580
+ With the latest version, screen savers are officially supported 
+
+00:00:09.160 --> 00:00:13.740
+ I (Hoi Lam) from Google This is an introduction to the development of screen savers 
+
+00:00:13.740 --> 00:00:16.320
+ Background Your watch screen is a background service 
+
+00:00:16.320 --> 00:00:19.820
+ I'll explain the three main steps to making your own screensavers 
+
+00:00:20.050 --> 00:00:22.930
+ First, I'll explain how to make your background project for the clock 
+
+00:00:24.200 --> 00:00:28.830
+ Second, how to customize it for interaction and inactivity 
+
+00:00:29.600 --> 00:00:32.020
+ APIs and finally additional APIs 
+
+00:00:32.020 --> 00:00:35.570
+ To help you make a good screen wallpaper work in all circumstances 
+
+00:00:35.950 --> 00:00:37.550
+ So, how do we start? 
+
+00:00:38.100 --> 00:00:41.200
+ The easiest way is to open one of the clock screen models 
+
+00:00:41.200 --> 00:00:46.380
+ In this guide there is a digital screen background and another hand-held 
+
+00:00:46.380 --> 00:00:47.780
+ So you can start 
+
+00:00:47.780 --> 00:00:52.270
+ Inside the project you will see two key ways that affect the setting and repeat the presentation 
+
+00:00:52.670 --> 00:00:55.650
+ OnCreate we usually set up the instance variables 
+
+00:00:55.650 --> 00:01:00.320
+ This includes loading graphic elements or running coloring tools for drawing 
+
+00:01:00.320 --> 00:01:02.220
+ On the background of the screen or drawing area 
+
+00:01:03.560 --> 00:01:06.100
+ In onDraw we display each window 
+
+00:01:06.100 --> 00:01:10.650
+ It will appear on the background of the clock screen as we draw on the drawing area 
+
+00:01:10.650 --> 00:01:14.250
+ We can use standard functions for drawing or drawing shapes 
+
+00:01:14.690 --> 00:01:19.300
+ It is important that performance remains in our minds as this code will work in every framework 
+
+00:01:20.030 --> 00:01:23.330
+ After you create your project, you are now ready to customize the clock wallpaper 
+
+00:01:23.330 --> 00:01:26.730
+ The two main situations, interaction and inactivity 
+
+00:01:27.490 --> 00:01:29.952
+ In interactive mode, the background of the clock screen will often be 
+
+00:01:29.952 --> 00:01:32.090
+ In full color and smooth moving animation 
+
+00:01:32.715 --> 00:01:35.610
+ This is usually when the user pays attention to his watch 
+
+00:01:36.590 --> 00:01:38.590
+ Inactivity should be fees 
+
+00:01:38.590 --> 00:01:42.450
+ With limited range of colors and updated only once every minute 
+
+00:01:42.590 --> 00:01:47.248
+ So, what are some of the key customization options available in these two situations? 
+
+00:01:48.110 --> 00:01:51.936
+ In interactive mode, the template is updated by default once every second 
+
+00:01:52.880 --> 00:01:57.088
+ If you need to update faster you may want to play animations 
+
+00:01:57.580 --> 00:02:02.560
+ You will need to do three things first, you need to remove UpdateTimeHandler 
+
+00:02:02.880 --> 00:02:07.103
+ Otherwise, the onDraw method is called only once every second 
+
+00:02:07.104 --> 00:02:12.000
+ Second, you need to activate the onDraw method in the first time you show the background of the clock screen 
+
+00:02:12.420 --> 00:02:16.912
+ This is done by revoking the window under the onVisibilityChange method 
+
+00:02:17.520 --> 00:02:21.472
+ Finally, you need to disable the frame at the end of the onDraw method 
+
+00:02:21.730 --> 00:02:25.456
+ This will trigger onDraw replication allowing the drawings to move smoothly 
+
+00:02:26.780 --> 00:02:29.280
+ Now your clock background will update continuously 
+
+00:02:29.940 --> 00:02:35.632
+ It is important to make sure that the background of the clock screen is inactive before the frame is revoked 
+
+00:02:35.870 --> 00:02:39.380
+ Otherwise, the update will continue to run continuously in the background 
+
+00:02:39.380 --> 00:02:41.440
+ Even if they are in a state of inactivity 
+
+00:02:41.440 --> 00:02:43.980
+ This will greatly affect battery life 
+
+00:02:44.630 --> 00:02:46.280
+ After we dealt with the interactive situation 
+
+00:02:46.280 --> 00:02:48.528
+ It's time to talk about inactivity 
+
+00:02:48.990 --> 00:02:52.600
+ The two common actions taken by developers are inactivity 
+
+00:02:52.600 --> 00:02:56.880
+ Two, first, choose graphics grayscale or black and white 
+
+00:02:57.600 --> 00:02:59.472
+ Second, remove the screen elements 
+
+00:02:59.472 --> 00:03:03.200
+ Which are updated more than once every minute like a scorpion 
+
+00:03:03.200 --> 00:03:05.440
+ Or numbers that represent seconds 
+
+00:03:05.760 --> 00:03:08.704
+ To see if the clock has entered inactivity 
+
+00:03:09.104 --> 00:03:11.904
+ You can skip this in the onAmbientModeChange method 
+
+00:03:12.290 --> 00:03:15.200
+ Developers will typically send the instance variable 
+
+00:03:15.200 --> 00:03:17.664
+ Indicates whether the clock is idle 
+
+00:03:18.200 --> 00:03:21.520
+ And invalidate the current window, which will trigger the redraw 
+
+00:03:22.760 --> 00:03:27.056
+ Then, on the next onDraw, the developer can decide what to do 
+
+00:03:27.560 --> 00:03:31.664
+ As a result of the initial allocation, it is now time for some additional polishing 
+
+00:03:31.820 --> 00:03:33.088
+ In addition to inactivity mode 
+
+00:03:33.088 --> 00:03:36.720
+ Clock Background APIs give developers additional context 
+
+00:03:36.720 --> 00:03:40.048
+ To make sure that the screen background is valid for all conditions 
+
+00:03:40.620 --> 00:03:42.320
+ I would like to highlight two of them 
+
+00:03:42.320 --> 00:03:45.648
+ First, some Android Wear devices support low-bit inactivity 
+
+00:03:46.240 --> 00:03:49.690
+ Which means that the pixels on the screen are either on or off 
+
+00:03:49.690 --> 00:03:53.664
+ The use of a grayscale design will usually not work on these screens 
+
+00:03:54.430 --> 00:03:57.240
+ For example, if we did not change anything in grayscale design 
+
+00:03:57.240 --> 00:03:59.410
+ Which we have for Santa Tracker 
+
+00:04:00.240 --> 00:04:02.460
+ This is what it will look like on a few bit screens 
+
+00:04:03.240 --> 00:04:05.120
+ As you can see, it is not very beautiful 
+
+00:04:06.300 --> 00:04:09.536
+ This is why we implemented this alternative design in black and white 
+
+00:04:10.740 --> 00:04:13.168
+ Specifies whether the device supports few bits 
+
+00:04:13.550 --> 00:04:15.760
+ Skip the onPropertiesChange method 
+
+00:04:16.610 --> 00:04:20.176
+ Developers can read whether the clock supports low-bit inactivity 
+
+00:04:20.720 --> 00:04:25.072
+ Secondly, this is my favorite personally which is the ability to discover 
+
+00:04:25.072 --> 00:04:27.740
+ If there were peek cards on the screen 
+
+00:04:27.740 --> 00:04:30.380
+ This allows you to make sure that it does not react badly 
+
+00:04:30.380 --> 00:04:32.032
+ With your design for the clock background 
+
+00:04:32.340 --> 00:04:38.550
+ It is especially important to be inactive without it as you can see on the left 
+
+00:04:38.550 --> 00:04:42.064
+ The time markers will interfere with the flash card, making it difficult to read 
+
+00:04:42.460 --> 00:04:44.960
+ In our last design, we draw a black rectangle 
+
+00:04:45.050 --> 00:04:48.592
+ No border behind the flash card to make it more visible 
+
+00:04:48.940 --> 00:04:51.910
+ In addition to this, it uses a clock style background class 
+
+00:04:51.910 --> 00:04:54.700
+ Developers can determine whether the flashcard is 
+
+00:04:54.700 --> 00:04:56.384
+ Inactivity 
+
+00:04:57.210 --> 00:05:01.472
+ And whether they are transparent or non-transparent in interactive mode 
+
+00:05:02.260 --> 00:05:05.120
+ Please check the documentation for many other functions 
+
+00:05:05.120 --> 00:05:09.168
+ Including how to track time zone changes 
+
+00:05:09.820 --> 00:05:12.520
+ And show data directly on the clock screen 
+
+00:05:12.520 --> 00:05:15.820
+ And change the background settings of the clock screen from your phone 
+
+00:05:16.710 --> 00:05:20.647
+ I (Hui Lam) and I look forward to knowing the time of your background to the clock screen 
+

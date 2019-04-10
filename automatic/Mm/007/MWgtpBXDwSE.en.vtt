@@ -1,0 +1,822 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.170 --> 00:00:02.360 
+
+welcome<00:00:01.170> to<00:00:01.290> the<00:00:01.319> seventh<00:00:01.740> and<00:00:01.890> final<00:00:01.949> video
+
+00:00:02.360 --> 00:00:02.370 
+welcome to the seventh and final video
+
+00:00:02.370 --> 00:00:05.150 
+welcome to the seventh and final video
+of<00:00:02.760> the<00:00:03.090> seven<00:00:03.419> steps<00:00:03.689> to<00:00:03.870> frc<00:00:04.230> robot<00:00:04.770> success
+
+00:00:05.150 --> 00:00:05.160 
+of the seven steps to frc robot success
+
+00:00:05.160 --> 00:00:09.350 
+of the seven steps to frc robot success
+series<00:00:05.430> in<00:00:07.189> this<00:00:08.189> video<00:00:08.429> we're<00:00:09.000> going<00:00:09.150> to<00:00:09.210> add
+
+00:00:09.350 --> 00:00:09.360 
+series in this video we're going to add
+
+00:00:09.360 --> 00:00:11.120 
+series in this video we're going to add
+a<00:00:09.389> parallel<00:00:09.900> loop<00:00:10.139> in<00:00:10.320> the<00:00:10.380> autonomous<00:00:10.889> mode
+
+00:00:11.120 --> 00:00:11.130 
+a parallel loop in the autonomous mode
+
+00:00:11.130 --> 00:00:13.249 
+a parallel loop in the autonomous mode
+that<00:00:11.580> will<00:00:11.639> slowly<00:00:12.000> move<00:00:12.150> the<00:00:12.330> servo<00:00:12.780> forward
+
+00:00:13.249 --> 00:00:13.259 
+that will slowly move the servo forward
+
+00:00:13.259 --> 00:00:14.990 
+that will slowly move the servo forward
+and<00:00:13.440> return<00:00:14.040> the<00:00:14.190> servo<00:00:14.490> to<00:00:14.639> its<00:00:14.759> zero
+
+00:00:14.990 --> 00:00:15.000 
+and return the servo to its zero
+
+00:00:15.000 --> 00:00:16.939 
+and return the servo to its zero
+position<00:00:15.210> once<00:00:16.049> a<00:00:16.170> limit<00:00:16.440> switch<00:00:16.619> has<00:00:16.770> been
+
+00:00:16.939 --> 00:00:16.949 
+position once a limit switch has been
+
+00:00:16.949 --> 00:00:19.400 
+position once a limit switch has been
+closed<00:00:17.250> as<00:00:17.490> in<00:00:18.240> the<00:00:18.330> step<00:00:18.539> 5<00:00:18.779> video<00:00:19.140> of<00:00:19.289> this
+
+00:00:19.400 --> 00:00:19.410 
+closed as in the step 5 video of this
+
+00:00:19.410 --> 00:00:21.200 
+closed as in the step 5 video of this
+series<00:00:19.470> we're<00:00:20.340> going<00:00:20.490> to<00:00:20.580> use<00:00:20.699> the<00:00:20.850> robot
+
+00:00:21.200 --> 00:00:21.210 
+series we're going to use the robot
+
+00:00:21.210 --> 00:00:24.500 
+series we're going to use the robot
+framework<00:00:21.539> only<00:00:22.170> and<00:00:22.380> not<00:00:22.619> the<00:00:22.800> game<00:00:23.039> code<00:00:23.510> for
+
+00:00:24.500 --> 00:00:24.510 
+framework only and not the game code for
+
+00:00:24.510 --> 00:00:26.150 
+framework only and not the game code for
+this<00:00:24.600> video<00:00:24.960> both<00:00:25.380> the<00:00:25.590> servo<00:00:25.920> and<00:00:26.070> the
+
+00:00:26.150 --> 00:00:26.160 
+this video both the servo and the
+
+00:00:26.160 --> 00:00:28.099 
+this video both the servo and the
+digital<00:00:26.340> input<00:00:26.820> for<00:00:27.029> the<00:00:27.119> limits<00:00:27.420> which<00:00:27.599> have
+
+00:00:28.099 --> 00:00:28.109 
+digital input for the limits which have
+
+00:00:28.109 --> 00:00:32.460 
+digital input for the limits which have
+already<00:00:28.140> been<00:00:28.500> set<00:00:28.859> up<00:00:28.890> in<00:00:29.130> the<00:00:29.220> begin<00:00:29.609> sub<00:00:29.820> bi
+
+00:00:32.460 --> 00:00:32.470 
+
+00:00:32.470 --> 00:00:34.390 
+
+because<00:00:33.470> we're<00:00:33.650> only<00:00:33.830> dealing<00:00:34.010> with<00:00:34.190> the
+
+00:00:34.390 --> 00:00:34.400 
+because we're only dealing with the
+
+00:00:34.400 --> 00:00:36.250 
+because we're only dealing with the
+autonomous<00:00:34.940> mode<00:00:35.180> we'll<00:00:35.870> open<00:00:35.990> up<00:00:36.200> the
+
+00:00:36.250 --> 00:00:36.260 
+autonomous mode we'll open up the
+
+00:00:36.260 --> 00:00:39.990 
+autonomous mode we'll open up the
+autonomous<00:00:36.890> independent<00:00:37.220> VI
+
+00:00:39.990 --> 00:00:40.000 
+
+00:00:40.000 --> 00:00:42.720 
+
+once<00:00:40.960> the<00:00:41.140> front<00:00:41.380> panel<00:00:41.590> opens<00:00:42.040> we'll<00:00:42.490> press
+
+00:00:42.720 --> 00:00:42.730 
+once the front panel opens we'll press
+
+00:00:42.730 --> 00:00:46.590 
+once the front panel opens we'll press
+ctrl<00:00:43.150> e<00:00:43.360> to<00:00:43.660> open<00:00:43.930> the<00:00:44.020> code<00:00:44.230> block<00:00:44.500> diagram<00:00:45.600> as
+
+00:00:46.590 --> 00:00:46.600 
+ctrl e to open the code block diagram as
+
+00:00:46.600 --> 00:00:48.390 
+ctrl e to open the code block diagram as
+we<00:00:46.780> can<00:00:46.900> see<00:00:46.960> there<00:00:47.500> is<00:00:47.620> already<00:00:47.800> a<00:00:47.980> fair<00:00:48.250> bit
+
+00:00:48.390 --> 00:00:48.400 
+we can see there is already a fair bit
+
+00:00:48.400 --> 00:00:51.000 
+we can see there is already a fair bit
+of<00:00:48.460> code<00:00:48.700> here<00:00:48.730> that<00:00:49.090> is<00:00:49.210> set<00:00:49.390> up<00:00:49.710> the<00:00:50.710> current
+
+00:00:51.000 --> 00:00:51.010 
+of code here that is set up the current
+
+00:00:51.010 --> 00:00:52.710 
+of code here that is set up the current
+loop<00:00:51.160> structure<00:00:51.489> is<00:00:51.790> set<00:00:51.970> up<00:00:52.090> as<00:00:52.210> a<00:00:52.239> series<00:00:52.630> of
+
+00:00:52.710 --> 00:00:52.720 
+loop structure is set up as a series of
+
+00:00:52.720 --> 00:00:55.020 
+loop structure is set up as a series of
+loops<00:00:53.020> this<00:00:54.010> means<00:00:54.309> that<00:00:54.430> the<00:00:54.520> first<00:00:54.820> loop
+
+00:00:55.020 --> 00:00:55.030 
+loops this means that the first loop
+
+00:00:55.030 --> 00:00:56.840 
+loops this means that the first loop
+must<00:00:55.300> finish<00:00:55.630> before<00:00:55.870> the<00:00:56.140> next<00:00:56.260> loop<00:00:56.530> starts
+
+00:00:56.840 --> 00:00:56.850 
+must finish before the next loop starts
+
+00:00:56.850 --> 00:01:00.090 
+must finish before the next loop starts
+this<00:00:57.850> is<00:00:58.090> not<00:00:58.239> what<00:00:58.449> we<00:00:58.480> want<00:00:58.780> in<00:00:58.989> order<00:00:59.800> for
+
+00:01:00.090 --> 00:01:00.100 
+this is not what we want in order for
+
+00:01:00.100 --> 00:01:01.560 
+this is not what we want in order for
+our<00:01:00.129> new<00:01:00.340> loop<00:01:00.520> to<00:01:00.670> run<00:01:00.820> independently<00:01:01.420> from
+
+00:01:01.560 --> 00:01:01.570 
+our new loop to run independently from
+
+00:01:01.570 --> 00:01:03.810 
+our new loop to run independently from
+the<00:01:01.660> existing<00:01:02.170> code<00:01:02.379> it<00:01:02.980> must<00:01:03.190> not<00:01:03.340> be<00:01:03.519> waiting
+
+00:01:03.810 --> 00:01:03.820 
+the existing code it must not be waiting
+
+00:01:03.820 --> 00:01:08.910 
+the existing code it must not be waiting
+on<00:01:03.910> any<00:01:04.089> data<00:01:04.390> from<00:01:04.629> another<00:01:04.750> loop<00:01:07.650> to<00:01:08.650> start
+
+00:01:08.910 --> 00:01:08.920 
+on any data from another loop to start
+
+00:01:08.920 --> 00:01:10.890 
+on any data from another loop to start
+we'll<00:01:09.340> simply<00:01:09.700> scroll<00:01:10.000> down<00:01:10.240> and<00:01:10.450> place<00:01:10.630> a<00:01:10.660> new
+
+00:01:10.890 --> 00:01:10.900 
+we'll simply scroll down and place a new
+
+00:01:10.900 --> 00:01:19.160 
+we'll simply scroll down and place a new
+while<00:01:11.140> loop<00:01:11.410> on<00:01:11.560> the<00:01:11.650> block<00:01:11.830> diagram
+
+00:01:19.160 --> 00:01:19.170 
+
+00:01:19.170 --> 00:01:21.700 
+
+you
+
+00:01:21.700 --> 00:01:21.710 
+
+00:01:21.710 --> 00:01:24.200 
+
+next<00:01:22.710> we'll<00:01:23.159> get<00:01:23.310> the<00:01:23.429> references<00:01:23.909> for<00:01:24.119> our
+
+00:01:24.200 --> 00:01:24.210 
+next we'll get the references for our
+
+00:01:24.210 --> 00:01:26.690 
+next we'll get the references for our
+limits<00:01:24.509> which<00:01:24.689> in<00:01:24.899> our<00:01:25.020> servo<00:01:25.399> both<00:01:26.399> of<00:01:26.609> these
+
+00:01:26.690 --> 00:01:26.700 
+limits which in our servo both of these
+
+00:01:26.700 --> 00:01:28.489 
+limits which in our servo both of these
+functions<00:01:26.939> have<00:01:27.329> been<00:01:27.359> previously<00:01:27.659> set<00:01:28.229> up<00:01:28.350> in
+
+00:01:28.489 --> 00:01:28.499 
+functions have been previously set up in
+
+00:01:28.499 --> 00:01:31.279 
+functions have been previously set up in
+the<00:01:28.560> begin<00:01:28.950> sub<00:01:29.159> VI<00:01:29.340> on<00:01:29.899> the<00:01:30.899> functions
+
+00:01:31.279 --> 00:01:31.289 
+the begin sub VI on the functions
+
+00:01:31.289 --> 00:01:34.359 
+the begin sub VI on the functions
+palette<00:01:31.679> select<00:01:32.280> the<00:01:32.579> WPI<00:01:33.090> robotics<00:01:33.689> library
+
+00:01:34.359 --> 00:01:34.369 
+palette select the WPI robotics library
+
+00:01:34.369 --> 00:01:37.910 
+palette select the WPI robotics library
+then<00:01:35.369> actuators<00:01:36.060> and<00:01:36.179> then<00:01:36.600> servo<00:01:37.020> and<00:01:37.200> drag
+
+00:01:37.910 --> 00:01:37.920 
+then actuators and then servo and drag
+
+00:01:37.920 --> 00:01:44.390 
+then actuators and then servo and drag
+in<00:01:38.069> a<00:01:38.130> registry<00:01:38.549> get<00:01:38.759> function
+
+00:01:44.390 --> 00:01:44.400 
+
+00:01:44.400 --> 00:01:47.100 
+
+next<00:01:45.400> we'll<00:01:45.910> add<00:01:46.030> a<00:01:46.090> string<00:01:46.450> constant<00:01:46.990> to
+
+00:01:47.100 --> 00:01:47.110 
+next we'll add a string constant to
+
+00:01:47.110 --> 00:01:50.720 
+next we'll add a string constant to
+select<00:01:47.440> the<00:01:47.560> reference<00:01:47.920> we<00:01:48.040> want<00:01:48.220> to<00:01:48.310> get
+
+00:01:50.720 --> 00:01:50.730 
+
+00:01:50.730 --> 00:01:52.880 
+
+to<00:01:51.660> match<00:01:51.810> the<00:01:52.020> reference<00:01:52.380> previously
+
+00:01:52.880 --> 00:01:52.890 
+to match the reference previously
+
+00:01:52.890 --> 00:01:57.140 
+to match the reference previously
+created<00:01:53.100> will<00:01:53.880> type<00:01:54.090> servo<00:01:55.460> next<00:01:56.460> we'll<00:01:56.970> go<00:01:57.090> to
+
+00:01:57.140 --> 00:01:57.150 
+created will type servo next we'll go to
+
+00:01:57.150 --> 00:01:59.060 
+created will type servo next we'll go to
+the<00:01:57.210> functions<00:01:57.690> palette<00:01:58.080> and<00:01:58.230> under<00:01:58.560> WPI
+
+00:01:59.060 --> 00:01:59.070 
+the functions palette and under WPI
+
+00:01:59.070 --> 00:02:02.750 
+the functions palette and under WPI
+robotics<00:01:59.670> library<00:02:00.120> will<00:02:00.750> select<00:02:01.050> I<00:02:01.290> oh<00:02:01.760> then
+
+00:02:02.750 --> 00:02:02.760 
+robotics library will select I oh then
+
+00:02:02.760 --> 00:02:05.600 
+robotics library will select I oh then
+digital<00:02:03.210> input<00:02:03.540> and<00:02:03.830> drag<00:02:04.830> in<00:02:04.980> a<00:02:05.040> registry<00:02:05.400> get
+
+00:02:05.600 --> 00:02:05.610 
+digital input and drag in a registry get
+
+00:02:05.610 --> 00:02:08.310 
+digital input and drag in a registry get
+function
+
+00:02:08.310 --> 00:02:08.320 
+
+00:02:08.320 --> 00:02:10.480 
+
+now<00:02:09.320> we'll<00:02:09.500> right-click<00:02:09.710> on<00:02:10.010> the<00:02:10.070> ref<00:02:10.280> num
+
+00:02:10.480 --> 00:02:10.490 
+now we'll right-click on the ref num
+
+00:02:10.490 --> 00:02:13.240 
+now we'll right-click on the ref num
+terminal<00:02:10.910> select<00:02:11.630> create<00:02:11.930> constant<00:02:12.620> and<00:02:12.770> then
+
+00:02:13.240 --> 00:02:13.250 
+terminal select create constant and then
+
+00:02:13.250 --> 00:02:15.250 
+terminal select create constant and then
+type<00:02:13.520> limit<00:02:13.940> switch<00:02:14.180> to<00:02:14.540> match<00:02:14.690> the<00:02:14.930> reference
+
+00:02:15.250 --> 00:02:15.260 
+type limit switch to match the reference
+
+00:02:15.260 --> 00:02:19.060 
+type limit switch to match the reference
+we<00:02:15.380> created<00:02:15.800> in<00:02:15.860> the<00:02:15.920> begin<00:02:16.250> sub<00:02:16.460> bi<00:02:17.890> now<00:02:18.890> we'll
+
+00:02:19.060 --> 00:02:19.070 
+we created in the begin sub bi now we'll
+
+00:02:19.070 --> 00:02:21.430 
+we created in the begin sub bi now we'll
+put<00:02:19.280> some<00:02:19.430> code<00:02:19.610> in<00:02:19.760> the<00:02:19.820> loop<00:02:20.170> the<00:02:21.170> first
+
+00:02:21.430 --> 00:02:21.440 
+put some code in the loop the first
+
+00:02:21.440 --> 00:02:23.200 
+put some code in the loop the first
+thing<00:02:21.620> we'll<00:02:21.770> do<00:02:21.980> is<00:02:22.160> set<00:02:22.520> up<00:02:22.550> our<00:02:22.790> loops<00:02:23.000> and
+
+00:02:23.200 --> 00:02:23.210 
+thing we'll do is set up our loops and
+
+00:02:23.210 --> 00:02:25.510 
+thing we'll do is set up our loops and
+condition<00:02:23.800> because<00:02:24.800> we<00:02:24.950> want<00:02:25.130> our<00:02:25.220> loop<00:02:25.400> to
+
+00:02:25.510 --> 00:02:25.520 
+condition because we want our loop to
+
+00:02:25.520 --> 00:02:27.040 
+condition because we want our loop to
+end<00:02:25.700> once<00:02:25.940> the<00:02:26.090> limit<00:02:26.330> switch<00:02:26.540> is<00:02:26.570> closed
+
+00:02:27.040 --> 00:02:27.050 
+end once the limit switch is closed
+
+00:02:27.050 --> 00:02:28.990 
+end once the limit switch is closed
+we'll<00:02:27.920> need<00:02:28.010> to<00:02:28.070> obtain<00:02:28.310> a<00:02:28.490> boolean<00:02:28.910> value
+
+00:02:28.990 --> 00:02:29.000 
+we'll need to obtain a boolean value
+
+00:02:29.000 --> 00:02:32.230 
+we'll need to obtain a boolean value
+from<00:02:29.540> our<00:02:29.690> digital<00:02:29.870> input<00:02:30.400> to<00:02:31.400> do<00:02:31.550> this<00:02:31.730> we'll
+
+00:02:32.230 --> 00:02:32.240 
+from our digital input to do this we'll
+
+00:02:32.240 --> 00:02:34.270 
+from our digital input to do this we'll
+go<00:02:32.330> to<00:02:32.390> our<00:02:32.540> functions<00:02:32.990> palette<00:02:33.380> and<00:02:33.500> drag<00:02:34.100> in
+
+00:02:34.270 --> 00:02:34.280 
+go to our functions palette and drag in
+
+00:02:34.280 --> 00:02:37.740 
+go to our functions palette and drag in
+an<00:02:34.400> input<00:02:34.790> get<00:02:35.030> value<00:02:35.420> function
+
+00:02:37.740 --> 00:02:37.750 
+an input get value function
+
+00:02:37.750 --> 00:02:40.720 
+an input get value function
+next<00:02:38.750> well<00:02:39.380> wire<00:02:39.560> the<00:02:39.770> digital<00:02:40.130> input<00:02:40.460> device
+
+00:02:40.720 --> 00:02:40.730 
+next well wire the digital input device
+
+00:02:40.730 --> 00:02:43.390 
+next well wire the digital input device
+reference<00:02:41.240> terminal<00:02:41.690> from<00:02:42.140> the<00:02:42.200> DI<00:02:42.500> o<00:02:42.650> get<00:02:43.130> sub
+
+00:02:43.390 --> 00:02:43.400 
+reference terminal from the DI o get sub
+
+00:02:43.400 --> 00:02:45.370 
+reference terminal from the DI o get sub
+VI<00:02:43.580> to<00:02:44.360> the<00:02:44.450> reference<00:02:44.780> output<00:02:45.200> of<00:02:45.230> the
+
+00:02:45.370 --> 00:02:45.380 
+VI to the reference output of the
+
+00:02:45.380 --> 00:02:49.480 
+VI to the reference output of the
+registry<00:02:45.830> get<00:02:46.010> sub<00:02:46.280> VI<00:02:47.530> now<00:02:48.530> we'll<00:02:49.040> wire<00:02:49.250> the
+
+00:02:49.480 --> 00:02:49.490 
+registry get sub VI now we'll wire the
+
+00:02:49.490 --> 00:02:51.310 
+registry get sub VI now we'll wire the
+value<00:02:49.850> of<00:02:49.970> our<00:02:50.090> limit<00:02:50.390> switch<00:02:50.630> to<00:02:51.200> the
+
+00:02:51.310 --> 00:02:51.320 
+value of our limit switch to the
+
+00:02:51.320 --> 00:02:54.270 
+value of our limit switch to the
+conditional<00:02:51.800> terminal<00:02:52.190> of<00:02:52.310> our<00:02:52.430> while<00:02:52.640> loop
+
+00:02:54.270 --> 00:02:54.280 
+conditional terminal of our while loop
+
+00:02:54.280 --> 00:02:57.250 
+conditional terminal of our while loop
+however<00:02:55.280> as<00:02:55.520> it<00:02:55.940> stands<00:02:56.240> this<00:02:56.720> condition<00:02:56.930> is
+
+00:02:57.250 --> 00:02:57.260 
+however as it stands this condition is
+
+00:02:57.260 --> 00:03:00.040 
+however as it stands this condition is
+not<00:02:57.440> set<00:02:57.740> correctly<00:02:58.390> right<00:02:59.390> now<00:02:59.570> the<00:02:59.630> loop
+
+00:03:00.040 --> 00:03:00.050 
+not set correctly right now the loop
+
+00:03:00.050 --> 00:03:01.770 
+not set correctly right now the loop
+will<00:03:00.200> stop<00:03:00.230> when<00:03:00.680> the<00:03:00.770> limit<00:03:01.010> switch<00:03:01.220> is<00:03:01.250> open
+
+00:03:01.770 --> 00:03:01.780 
+will stop when the limit switch is open
+
+00:03:01.780 --> 00:03:04.810 
+will stop when the limit switch is open
+to<00:03:02.780> change<00:03:03.050> this<00:03:03.290> we<00:03:03.950> can<00:03:04.100> simply<00:03:04.400> right-click
+
+00:03:04.810 --> 00:03:04.820 
+to change this we can simply right-click
+
+00:03:04.820 --> 00:03:06.850 
+to change this we can simply right-click
+on<00:03:04.910> the<00:03:04.970> end<00:03:05.210> condition<00:03:05.630> terminal<00:03:05.840> and<00:03:06.200> change
+
+00:03:06.850 --> 00:03:06.860 
+on the end condition terminal and change
+
+00:03:06.860 --> 00:03:09.160 
+on the end condition terminal and change
+the<00:03:07.040> condition<00:03:07.460> from<00:03:07.790> stop<00:03:08.120> if<00:03:08.330> true<00:03:08.600> to
+
+00:03:09.160 --> 00:03:09.170 
+the condition from stop if true to
+
+00:03:09.170 --> 00:03:13.360 
+the condition from stop if true to
+continue<00:03:09.590> if<00:03:09.740> true<00:03:11.710> the<00:03:12.710> next<00:03:12.950> thing<00:03:13.070> we<00:03:13.190> want
+
+00:03:13.360 --> 00:03:13.370 
+continue if true the next thing we want
+
+00:03:13.370 --> 00:03:14.950 
+continue if true the next thing we want
+to<00:03:13.400> do<00:03:13.580> is<00:03:13.790> obtain<00:03:14.060> the<00:03:14.330> current<00:03:14.630> angle<00:03:14.870> from
+
+00:03:14.950 --> 00:03:14.960 
+to do is obtain the current angle from
+
+00:03:14.960 --> 00:03:17.920 
+to do is obtain the current angle from
+our<00:03:15.110> servo<00:03:15.530> to<00:03:16.400> do<00:03:16.550> this<00:03:16.760> go<00:03:17.300> to<00:03:17.330> the<00:03:17.510> functions
+
+00:03:17.920 --> 00:03:17.930 
+our servo to do this go to the functions
+
+00:03:17.930 --> 00:03:19.720 
+our servo to do this go to the functions
+palette<00:03:18.290> and<00:03:18.410> choose<00:03:18.770> actuators<00:03:19.430> under<00:03:19.640> the
+
+00:03:19.720 --> 00:03:19.730 
+palette and choose actuators under the
+
+00:03:19.730 --> 00:03:23.440 
+palette and choose actuators under the
+WPI<00:03:20.270> robotics<00:03:20.870> library<00:03:21.320> then<00:03:21.980> servo<00:03:22.490> and<00:03:22.730> drag
+
+00:03:23.440 --> 00:03:23.450 
+WPI robotics library then servo and drag
+
+00:03:23.450 --> 00:03:27.970 
+WPI robotics library then servo and drag
+in<00:03:23.600> a<00:03:23.690> get<00:03:23.900> angle<00:03:24.230> function<00:03:26.110> next<00:03:27.110> well<00:03:27.800> wire
+
+00:03:27.970 --> 00:03:27.980 
+in a get angle function next well wire
+
+00:03:27.980 --> 00:03:29.620 
+in a get angle function next well wire
+this<00:03:28.220> up<00:03:28.280> to<00:03:28.580> the<00:03:28.670> reference<00:03:29.000> output<00:03:29.420> of<00:03:29.450> our
+
+00:03:29.620 --> 00:03:29.630 
+this up to the reference output of our
+
+00:03:29.630 --> 00:03:32.470 
+this up to the reference output of our
+servo<00:03:29.990> registry<00:03:30.500> get<00:03:30.680> function<00:03:31.330> once<00:03:32.330> we
+
+00:03:32.470 --> 00:03:32.480 
+servo registry get function once we
+
+00:03:32.480 --> 00:03:34.450 
+servo registry get function once we
+receive<00:03:32.810> our<00:03:32.930> servo<00:03:33.320> angle<00:03:33.650> will<00:03:34.160> want<00:03:34.370> to
+
+00:03:34.450 --> 00:03:34.460 
+receive our servo angle will want to
+
+00:03:34.460 --> 00:03:36.790 
+receive our servo angle will want to
+tell<00:03:34.610> it<00:03:34.730> to<00:03:34.820> increase<00:03:35.150> so<00:03:36.140> we'll<00:03:36.320> need<00:03:36.440> a<00:03:36.500> set
+
+00:03:36.790 --> 00:03:36.800 
+tell it to increase so we'll need a set
+
+00:03:36.800 --> 00:03:39.640 
+tell it to increase so we'll need a set
+angle<00:03:37.010> function<00:03:37.520> as<00:03:37.670> well<00:03:38.170> drag<00:03:39.170> one<00:03:39.350> in<00:03:39.470> from
+
+00:03:39.640 --> 00:03:39.650 
+angle function as well drag one in from
+
+00:03:39.650 --> 00:03:44.710 
+angle function as well drag one in from
+the<00:03:39.740> functions<00:03:40.160> palette
+
+00:03:44.710 --> 00:03:44.720 
+
+00:03:44.720 --> 00:03:48.600 
+
+and<00:03:44.810> then<00:03:45.290> wire<00:03:45.530> up<00:03:45.740> the<00:03:45.860> device<00:03:46.100> reference
+
+00:03:48.600 --> 00:03:48.610 
+and then wire up the device reference
+
+00:03:48.610 --> 00:03:51.310 
+and then wire up the device reference
+now<00:03:49.610> will<00:03:50.060> tell<00:03:50.270> the<00:03:50.420> servo<00:03:50.720> to<00:03:50.810> increase<00:03:51.110> its
+
+00:03:51.310 --> 00:03:51.320 
+now will tell the servo to increase its
+
+00:03:51.320 --> 00:03:53.560 
+now will tell the servo to increase its
+angle<00:03:51.680> by<00:03:51.830> 1<00:03:52.100> degree<00:03:52.130> for<00:03:52.730> every<00:03:52.970> iteration<00:03:53.120> of
+
+00:03:53.560 --> 00:03:53.570 
+angle by 1 degree for every iteration of
+
+00:03:53.570 --> 00:03:56.320 
+angle by 1 degree for every iteration of
+the<00:03:53.690> while<00:03:53.720> loop<00:03:54.130> to<00:03:55.130> do<00:03:55.250> this<00:03:55.490> we<00:03:55.940> must<00:03:56.120> take
+
+00:03:56.320 --> 00:03:56.330 
+the while loop to do this we must take
+
+00:03:56.330 --> 00:03:58.540 
+the while loop to do this we must take
+our<00:03:56.540> previous<00:03:56.900> angle<00:03:57.290> and<00:03:57.470> add<00:03:57.770> 1<00:03:58.040> degree<00:03:58.340> to
+
+00:03:58.540 --> 00:03:58.550 
+our previous angle and add 1 degree to
+
+00:03:58.550 --> 00:04:00.430 
+our previous angle and add 1 degree to
+it<00:03:58.670> and<00:03:58.820> then<00:03:59.330> send<00:03:59.630> the<00:03:59.720> new<00:03:59.840> angle<00:04:00.200> back<00:04:00.380> to
+
+00:04:00.430 --> 00:04:00.440 
+it and then send the new angle back to
+
+00:04:00.440 --> 00:04:03.250 
+it and then send the new angle back to
+the<00:04:00.680> servo<00:04:01.210> so<00:04:02.210> the<00:04:02.300> next<00:04:02.480> thing<00:04:02.600> we'll<00:04:02.840> do<00:04:03.050> is
+
+00:04:03.250 --> 00:04:03.260 
+the servo so the next thing we'll do is
+
+00:04:03.260 --> 00:04:09.460 
+the servo so the next thing we'll do is
+bring<00:04:03.650> in<00:04:03.710> an<00:04:03.890> add<00:04:04.070> function
+
+00:04:09.460 --> 00:04:09.470 
+
+00:04:09.470 --> 00:04:11.590 
+
+then<00:04:10.070> we'll<00:04:10.220> wire<00:04:10.430> it<00:04:10.580> up<00:04:10.670> to<00:04:10.820> the<00:04:10.940> angle<00:04:11.270> value
+
+00:04:11.590 --> 00:04:11.600 
+then we'll wire it up to the angle value
+
+00:04:11.600 --> 00:04:14.530 
+then we'll wire it up to the angle value
+output<00:04:12.080> from<00:04:12.410> the<00:04:12.530> get<00:04:12.740> angle<00:04:13.100> function
+
+00:04:14.530 --> 00:04:14.540 
+output from the get angle function
+
+00:04:14.540 --> 00:04:17.199 
+output from the get angle function
+next<00:04:15.469> we'll<00:04:15.920> add<00:04:16.009> a<00:04:16.070> numeric<00:04:16.519> constant<00:04:17.090> and
+
+00:04:17.199 --> 00:04:17.209 
+next we'll add a numeric constant and
+
+00:04:17.209 --> 00:04:22.370 
+next we'll add a numeric constant and
+set<00:04:17.600> its<00:04:17.720> value<00:04:17.780> to<00:04:18.139> one
+
+00:04:22.370 --> 00:04:22.380 
+
+00:04:22.380 --> 00:04:24.950 
+
+now<00:04:23.040> we'll<00:04:23.430> wire<00:04:23.640> the<00:04:23.880> resultant<00:04:24.360> angle<00:04:24.750> to
+
+00:04:24.950 --> 00:04:24.960 
+now we'll wire the resultant angle to
+
+00:04:24.960 --> 00:04:28.550 
+now we'll wire the resultant angle to
+the<00:04:25.080> input<00:04:25.230> of<00:04:25.440> the<00:04:25.530> set<00:04:25.770> angle<00:04:26.010> function<00:04:27.560> to
+
+00:04:28.550 --> 00:04:28.560 
+the input of the set angle function to
+
+00:04:28.560 --> 00:04:29.960 
+the input of the set angle function to
+prevent<00:04:28.890> the<00:04:28.980> servo<00:04:29.310> from<00:04:29.520> moving<00:04:29.820> too
+
+00:04:29.960 --> 00:04:29.970 
+prevent the servo from moving too
+
+00:04:29.970 --> 00:04:32.690 
+prevent the servo from moving too
+quickly<00:04:30.240> we'll<00:04:30.720> add<00:04:30.840> a<00:04:30.870> slight<00:04:31.230> delay<00:04:31.700> under
+
+00:04:32.690 --> 00:04:32.700 
+quickly we'll add a slight delay under
+
+00:04:32.700 --> 00:04:36.640 
+quickly we'll add a slight delay under
+timing<00:04:33.860> will<00:04:34.860> bring<00:04:35.070> in<00:04:35.160> a<00:04:35.250> weight<00:04:35.430> function
+
+00:04:36.640 --> 00:04:36.650 
+timing will bring in a weight function
+
+00:04:36.650 --> 00:04:39.320 
+timing will bring in a weight function
+next<00:04:37.650> we'll<00:04:37.830> create<00:04:37.860> a<00:04:38.130> constant<00:04:38.730> and<00:04:38.790> set<00:04:39.180> its
+
+00:04:39.320 --> 00:04:39.330 
+next we'll create a constant and set its
+
+00:04:39.330 --> 00:04:41.450 
+next we'll create a constant and set its
+value<00:04:39.390> to<00:04:39.750> 50<00:04:40.170> causing<00:04:41.040> the<00:04:41.130> loop<00:04:41.310> to
+
+00:04:41.450 --> 00:04:41.460 
+value to 50 causing the loop to
+
+00:04:41.460 --> 00:04:45.560 
+value to 50 causing the loop to
+reiterate<00:04:41.700> every<00:04:42.360> 50<00:04:42.690> milliseconds<00:04:44.570> finally
+
+00:04:45.560 --> 00:04:45.570 
+reiterate every 50 milliseconds finally
+
+00:04:45.570 --> 00:04:47.420 
+reiterate every 50 milliseconds finally
+we<00:04:45.870> want<00:04:46.080> the<00:04:46.200> servo<00:04:46.500> to<00:04:46.590> be<00:04:46.680> set<00:04:46.890> back<00:04:47.070> to<00:04:47.310> its
+
+00:04:47.420 --> 00:04:47.430 
+we want the servo to be set back to its
+
+00:04:47.430 --> 00:04:50.240 
+we want the servo to be set back to its
+zero<00:04:47.670> position<00:04:47.880> once<00:04:48.540> the<00:04:48.720> loop<00:04:48.900> is<00:04:49.050> ended<00:04:49.380> to
+
+00:04:50.240 --> 00:04:50.250 
+zero position once the loop is ended to
+
+00:04:50.250 --> 00:04:52.550 
+zero position once the loop is ended to
+do<00:04:50.370> this<00:04:50.580> we'll<00:04:51.360> add<00:04:51.510> a<00:04:51.540> set<00:04:51.900> angle<00:04:52.140> servo
+
+00:04:52.550 --> 00:04:52.560 
+do this we'll add a set angle servo
+
+00:04:52.560 --> 00:04:54.530 
+do this we'll add a set angle servo
+function<00:04:53.070> to<00:04:53.250> the<00:04:53.340> right<00:04:53.550> and<00:04:53.820> outside<00:04:54.270> of<00:04:54.450> our
+
+00:04:54.530 --> 00:04:54.540 
+function to the right and outside of our
+
+00:04:54.540 --> 00:04:58.330 
+function to the right and outside of our
+loop
+
+00:04:58.330 --> 00:04:58.340 
+
+00:04:58.340 --> 00:05:00.430 
+
+now<00:04:58.970> we'll<00:04:59.180> wire<00:04:59.389> up<00:04:59.540> the<00:04:59.690> device<00:04:59.930> reference
+
+00:05:00.430 --> 00:05:00.440 
+now we'll wire up the device reference
+
+00:05:00.440 --> 00:05:07.770 
+now we'll wire up the device reference
+and<00:05:00.620> add<00:05:00.980> a<00:05:01.010> constant<00:05:01.340> with<00:05:01.760> a<00:05:01.790> value<00:05:02.150> of<00:05:02.180> zero
+
+00:05:07.770 --> 00:05:07.780 
+
+00:05:07.780 --> 00:05:10.740 
+
+now<00:05:08.410> when<00:05:09.040> the<00:05:09.160> loop<00:05:09.370> stops<00:05:09.700> the<00:05:10.180> servo<00:05:10.600> will
+
+00:05:10.740 --> 00:05:10.750 
+now when the loop stops the servo will
+
+00:05:10.750 --> 00:05:13.620 
+now when the loop stops the servo will
+move<00:05:10.930> to<00:05:11.110> the<00:05:11.139> zero<00:05:11.470> position<00:05:12.450> we've<00:05:13.450> now
+
+00:05:13.620 --> 00:05:13.630 
+move to the zero position we've now
+
+00:05:13.630 --> 00:05:15.600 
+move to the zero position we've now
+finished<00:05:13.840> our<00:05:14.139> code<00:05:14.410> and<00:05:14.680> our<00:05:14.950> robots<00:05:15.340> ready
+
+00:05:15.600 --> 00:05:15.610 
+finished our code and our robots ready
+
+00:05:15.610 --> 00:05:17.970 
+finished our code and our robots ready
+to<00:05:15.760> operate<00:05:16.169> when<00:05:17.169> autonomous<00:05:17.650> mode<00:05:17.830> is
+
+00:05:17.970 --> 00:05:17.980 
+to operate when autonomous mode is
+
+00:05:17.980 --> 00:05:19.710 
+to operate when autonomous mode is
+selected<00:05:18.100> and<00:05:18.520> enabled<00:05:18.940> the<00:05:19.330> robot<00:05:19.690> will
+
+00:05:19.710 --> 00:05:19.720 
+selected and enabled the robot will
+
+00:05:19.720 --> 00:05:21.720 
+selected and enabled the robot will
+begin<00:05:20.080> turning<00:05:20.320> right<00:05:20.620> and<00:05:20.860> moving<00:05:21.190> the<00:05:21.370> servo
+
+00:05:21.720 --> 00:05:21.730 
+begin turning right and moving the servo
+
+00:05:21.730 --> 00:05:24.060 
+begin turning right and moving the servo
+at<00:05:21.850> the<00:05:21.970> same<00:05:22.180> time<00:05:22.450> the<00:05:23.200> two<00:05:23.410> functions<00:05:23.650> will
+
+00:05:24.060 --> 00:05:24.070 
+at the same time the two functions will
+
+00:05:24.070 --> 00:05:27.570 
+at the same time the two functions will
+happen<00:05:24.370> in<00:05:24.460> parallel<00:05:24.669> in<00:05:26.010> step<00:05:27.010> seven<00:05:27.370> of<00:05:27.490> our
+
+00:05:27.570 --> 00:05:27.580 
+happen in parallel in step seven of our
+
+00:05:27.580 --> 00:05:30.180 
+happen in parallel in step seven of our
+seven<00:05:27.910> steps<00:05:28.180> to<00:05:28.389> frc<00:05:28.690> robot<00:05:29.230> success<00:05:29.650> we
+
+00:05:30.180 --> 00:05:30.190 
+seven steps to frc robot success we
+
+00:05:30.190 --> 00:05:31.680 
+seven steps to frc robot success we
+demonstrated<00:05:30.730> how<00:05:30.910> to<00:05:30.940> create<00:05:31.300> a<00:05:31.330> parallel
+
+00:05:31.680 --> 00:05:31.690 
+demonstrated how to create a parallel
+
+00:05:31.690 --> 00:05:35.639 
+demonstrated how to create a parallel
+loop<00:05:32.020> in<00:05:32.230> the<00:05:32.350> autonomous<00:05:32.860> code<00:05:33.070> of<00:05:33.220> our<00:05:33.310> robot
+

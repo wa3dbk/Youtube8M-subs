@@ -1,0 +1,1121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.270 --> 00:00:08.480 
+
+in<00:00:06.270> this<00:00:06.509> tutorial<00:00:06.750> I<00:00:07.230> will<00:00:07.890> show<00:00:08.130> how<00:00:08.460> to
+
+00:00:08.480 --> 00:00:08.490 
+in this tutorial I will show how to
+
+00:00:08.490 --> 00:00:12.770 
+in this tutorial I will show how to
+export<00:00:09.480> models<00:00:09.990> from<00:00:10.500> rhino<00:00:10.980> into<00:00:11.730> SI<00:00:12.059> for
+
+00:00:12.770 --> 00:00:12.780 
+export models from rhino into SI for
+
+00:00:12.780 --> 00:00:15.740 
+export models from rhino into SI for
+using<00:00:13.170> these<00:00:13.349> models<00:00:13.830> for<00:00:14.429> simulation<00:00:15.210> within
+
+00:00:15.740 --> 00:00:15.750 
+using these models for simulation within
+
+00:00:15.750 --> 00:00:18.500 
+using these models for simulation within
+the<00:00:16.139> sorry<00:00:16.410> further<00:00:16.949> there<00:00:17.460> is<00:00:17.520> some<00:00:17.820> stuff
+
+00:00:18.500 --> 00:00:18.510 
+the sorry further there is some stuff
+
+00:00:18.510 --> 00:00:20.630 
+the sorry further there is some stuff
+you<00:00:18.539> should<00:00:18.930> be<00:00:19.109> aware<00:00:19.380> of<00:00:19.439> regarding<00:00:20.070> the
+
+00:00:20.630 --> 00:00:20.640 
+you should be aware of regarding the
+
+00:00:20.640 --> 00:00:23.540 
+you should be aware of regarding the
+geometry<00:00:21.210> layers<00:00:21.630> and<00:00:21.990> the<00:00:22.550> export-import
+
+00:00:23.540 --> 00:00:23.550 
+geometry layers and the export-import
+
+00:00:23.550 --> 00:00:27.019 
+geometry layers and the export-import
+that<00:00:24.000> I<00:00:24.029> will<00:00:24.269> explain<00:00:24.859> first<00:00:25.859> try<00:00:26.519> to<00:00:26.580> avoid
+
+00:00:27.019 --> 00:00:27.029 
+that I will explain first try to avoid
+
+00:00:27.029 --> 00:00:30.169 
+that I will explain first try to avoid
+form<00:00:27.689> that<00:00:28.349> is<00:00:28.380> based<00:00:28.830> on<00:00:29.099> splines<00:00:29.789> and
+
+00:00:30.169 --> 00:00:30.179 
+form that is based on splines and
+
+00:00:30.179 --> 00:00:34.459 
+form that is based on splines and
+circles<00:00:30.869> this<00:00:31.800> can<00:00:32.189> give<00:00:32.489> very<00:00:33.090> mist<00:00:33.480> form
+
+00:00:34.459 --> 00:00:34.469 
+circles this can give very mist form
+
+00:00:34.469 --> 00:00:37.670 
+circles this can give very mist form
+like<00:00:35.070> this<00:00:35.450> they<00:00:36.450> have<00:00:36.660> a<00:00:36.870> lot<00:00:37.050> of<00:00:37.079> faces
+
+00:00:37.670 --> 00:00:37.680 
+like this they have a lot of faces
+
+00:00:37.680 --> 00:00:41.510 
+like this they have a lot of faces
+instead<00:00:38.399> of<00:00:38.840> try<00:00:39.840> to<00:00:39.899> have<00:00:40.680> more<00:00:40.980> simple
+
+00:00:41.510 --> 00:00:41.520 
+instead of try to have more simple
+
+00:00:41.520 --> 00:00:45.590 
+instead of try to have more simple
+shapes<00:00:42.090> like<00:00:42.590> cylinder<00:00:43.590> or<00:00:43.969> even<00:00:44.969> more<00:00:45.180> simple
+
+00:00:45.590 --> 00:00:45.600 
+shapes like cylinder or even more simple
+
+00:00:45.600 --> 00:00:48.260 
+shapes like cylinder or even more simple
+a<00:00:45.719> box<00:00:46.020> or<00:00:46.289> if<00:00:46.950> you<00:00:47.100> want<00:00:47.309> to<00:00:47.460> have<00:00:47.579> a<00:00:47.610> round
+
+00:00:48.260 --> 00:00:48.270 
+a box or if you want to have a round
+
+00:00:48.270 --> 00:00:52.150 
+a box or if you want to have a round
+building<00:00:48.559> use<00:00:49.940> extruded<00:00:50.940> polygons<00:00:51.449> instead
+
+00:00:52.150 --> 00:00:52.160 
+building use extruded polygons instead
+
+00:00:52.160 --> 00:00:54.770 
+building use extruded polygons instead
+second<00:00:53.160> try<00:00:53.550> to<00:00:53.610> work<00:00:54.030> with<00:00:54.270> the<00:00:54.570> layers
+
+00:00:54.770 --> 00:00:54.780 
+second try to work with the layers
+
+00:00:54.780 --> 00:00:56.959 
+second try to work with the layers
+that's<00:00:55.350> always<00:00:55.829> a<00:00:55.860> good<00:00:56.100> idea<00:00:56.160> so<00:00:56.699> you<00:00:56.730> have
+
+00:00:56.959 --> 00:00:56.969 
+that's always a good idea so you have
+
+00:00:56.969 --> 00:00:59.540 
+that's always a good idea so you have
+the<00:00:57.120> option<00:00:57.300> of<00:00:57.660> turn<00:00:58.350> on/off<00:00:58.590> the<00:00:59.039> different
+
+00:00:59.540 --> 00:00:59.550 
+the option of turn on/off the different
+
+00:00:59.550 --> 00:01:02.060 
+the option of turn on/off the different
+objects<00:01:00.090> even<00:01:00.690> though<00:01:00.840> that<00:01:01.140> with<00:01:01.890> this
+
+00:01:02.060 --> 00:01:02.070 
+objects even though that with this
+
+00:01:02.070 --> 00:01:05.660 
+objects even though that with this
+method<00:01:02.430> from<00:01:02.910> rhino<00:01:03.600> to<00:01:04.010> society<00:01:05.010> doesn't
+
+00:01:05.660 --> 00:01:05.670 
+method from rhino to society doesn't
+
+00:01:05.670 --> 00:01:08.179 
+method from rhino to society doesn't
+support<00:01:06.240> exporting<00:01:07.140> layers<00:01:07.350> then<00:01:07.860> it's<00:01:08.070> a
+
+00:01:08.179 --> 00:01:08.189 
+support exporting layers then it's a
+
+00:01:08.189 --> 00:01:10.820 
+support exporting layers then it's a
+good<00:01:08.340> idea<00:01:08.490> to<00:01:08.729> work<00:01:09.360> in<00:01:09.540> layers<00:01:09.750> within<00:01:10.200> rhino
+
+00:01:10.820 --> 00:01:10.830 
+good idea to work in layers within rhino
+
+00:01:10.830 --> 00:01:13.250 
+good idea to work in layers within rhino
+and<00:01:11.159> this<00:01:11.520> gives<00:01:11.700> also<00:01:12.150> the<00:01:12.390> possibility<00:01:12.750> of
+
+00:01:13.250 --> 00:01:13.260 
+and this gives also the possibility of
+
+00:01:13.260 --> 00:01:16.490 
+and this gives also the possibility of
+exporting<00:01:14.130> it<00:01:14.310> in<00:01:14.549> different<00:01:15.210> and<00:01:15.659> separate
+
+00:01:16.490 --> 00:01:16.500 
+exporting it in different and separate
+
+00:01:16.500 --> 00:01:19.520 
+exporting it in different and separate
+files<00:01:16.979> the<00:01:17.430> different<00:01:17.790> objects<00:01:18.180> so<00:01:18.750> as<00:01:18.960> basic
+
+00:01:19.520 --> 00:01:19.530 
+files the different objects so as basic
+
+00:01:19.530 --> 00:01:22.600 
+files the different objects so as basic
+you<00:01:19.950> should<00:01:20.189> have<00:01:20.430> the<00:01:20.970> ground<00:01:21.299> in<00:01:21.570> one<00:01:22.020> layer
+
+00:01:22.600 --> 00:01:22.610 
+you should have the ground in one layer
+
+00:01:22.610 --> 00:01:26.060 
+you should have the ground in one layer
+trees<00:01:23.610> in<00:01:24.000> another<00:01:24.689> layer<00:01:24.990> for<00:01:25.500> example<00:01:25.920> and
+
+00:01:26.060 --> 00:01:26.070 
+trees in another layer for example and
+
+00:01:26.070 --> 00:01:29.090 
+trees in another layer for example and
+the<00:01:27.000> context<00:01:27.659> because<00:01:28.439> that<00:01:28.650> will<00:01:28.799> have<00:01:29.070> a
+
+00:01:29.090 --> 00:01:29.100 
+the context because that will have a
+
+00:01:29.100 --> 00:01:32.600 
+the context because that will have a
+shading<00:01:29.820> effect<00:01:30.210> inside<00:01:30.930> /<00:01:31.350> sorry<00:01:31.619> for<00:01:32.040> the
+
+00:01:32.600 --> 00:01:32.610 
+shading effect inside / sorry for the
+
+00:01:32.610 --> 00:01:35.270 
+shading effect inside / sorry for the
+simulations<00:01:33.170> so<00:01:34.170> they<00:01:34.439> should<00:01:34.680> also<00:01:34.860> be<00:01:35.130> in
+
+00:01:35.270 --> 00:01:35.280 
+simulations so they should also be in
+
+00:01:35.280 --> 00:01:38.240 
+simulations so they should also be in
+separate<00:01:35.640> layer<00:01:35.909> and<00:01:36.150> in<00:01:36.960> this<00:01:37.140> case<00:01:37.409> where<00:01:38.220> I
+
+00:01:38.240 --> 00:01:38.250 
+separate layer and in this case where I
+
+00:01:38.250 --> 00:01:41.179 
+separate layer and in this case where I
+is<00:01:38.490> a<00:01:38.610> base<00:01:39.150> for<00:01:39.780> the<00:01:39.930> building<00:01:40.380> that's<00:01:40.799> also<00:01:41.040> a
+
+00:01:41.179 --> 00:01:41.189 
+is a base for the building that's also a
+
+00:01:41.189 --> 00:01:43.069 
+is a base for the building that's also a
+good<00:01:41.340> idea<00:01:41.520> to<00:01:41.820> have<00:01:41.970> placed<00:01:42.329> in<00:01:42.570> a<00:01:42.720> separate
+
+00:01:43.069 --> 00:01:43.079 
+good idea to have placed in a separate
+
+00:01:43.079 --> 00:01:45.260 
+good idea to have placed in a separate
+but<00:01:43.470> layer<00:01:43.710> so<00:01:44.100> it<00:01:44.220> can<00:01:44.369> be<00:01:44.520> turned<00:01:44.759> on<00:01:44.939> and<00:01:45.000> off
+
+00:01:45.260 --> 00:01:45.270 
+but layer so it can be turned on and off
+
+00:01:45.270 --> 00:01:48.649 
+but layer so it can be turned on and off
+and<00:01:45.600> of<00:01:46.079> course<00:01:46.110> the<00:01:46.649> form<00:01:46.979> concepts<00:01:47.490> in<00:01:47.970> its
+
+00:01:48.649 --> 00:01:48.659 
+and of course the form concepts in its
+
+00:01:48.659 --> 00:01:51.530 
+and of course the form concepts in its
+own<00:01:48.930> layer<00:01:49.470> and<00:01:49.799> this<00:01:50.340> is<00:01:50.520> very<00:01:50.729> important<00:01:51.360> if
+
+00:01:51.530 --> 00:01:51.540 
+own layer and this is very important if
+
+00:01:51.540 --> 00:01:54.020 
+own layer and this is very important if
+you<00:01:51.990> want<00:01:52.020> to<00:01:52.320> use<00:01:52.530> the<00:01:52.710> model<00:01:53.040> for<00:01:53.399> energy
+
+00:01:54.020 --> 00:01:54.030 
+you want to use the model for energy
+
+00:01:54.030 --> 00:01:57.649 
+you want to use the model for energy
+analysis<00:01:54.869> trav<00:01:55.470> it<00:01:55.649> in<00:01:55.799> a<00:01:55.950> separate<00:01:56.640> file<00:01:57.299> as
+
+00:01:57.649 --> 00:01:57.659 
+analysis trav it in a separate file as
+
+00:01:57.659 --> 00:02:00.800 
+analysis trav it in a separate file as
+mentioned<00:01:58.530> it<00:01:58.680> is<00:01:59.369> a<00:01:59.399> good<00:01:59.700> idea<00:01:59.790> to<00:02:00.240> export
+
+00:02:00.800 --> 00:02:00.810 
+mentioned it is a good idea to export
+
+00:02:00.810 --> 00:02:03.740 
+mentioned it is a good idea to export
+the<00:02:01.200> different<00:02:01.649> object<00:02:02.369> types<00:02:02.430> in<00:02:02.939> different
+
+00:02:03.740 --> 00:02:03.750 
+the different object types in different
+
+00:02:03.750 --> 00:02:06.620 
+the different object types in different
+files<00:02:03.990> at<00:02:04.409> least<00:02:05.100> you<00:02:05.460> should<00:02:05.670> have<00:02:06.119> it<00:02:06.299> group
+
+00:02:06.620 --> 00:02:06.630 
+files at least you should have it group
+
+00:02:06.630 --> 00:02:09.650 
+files at least you should have it group
+with<00:02:07.200> the<00:02:07.439> context<00:02:08.250> like<00:02:08.459> the<00:02:09.149> buildings
+
+00:02:09.650 --> 00:02:09.660 
+with the context like the buildings
+
+00:02:09.660 --> 00:02:13.010 
+with the context like the buildings
+trees<00:02:10.140> the<00:02:11.009> ground<00:02:11.340> surface<00:02:11.840> whatever<00:02:12.840> you
+
+00:02:13.010 --> 00:02:13.020 
+trees the ground surface whatever you
+
+00:02:13.020 --> 00:02:13.730 
+trees the ground surface whatever you
+have<00:02:13.200> in<00:02:13.379> the<00:02:13.470> car
+
+00:02:13.730 --> 00:02:13.740 
+have in the car
+
+00:02:13.740 --> 00:02:16.550 
+have in the car
+text<00:02:14.040> that<00:02:14.610> should<00:02:14.820> be<00:02:14.970> in<00:02:15.120> one<00:02:15.360> file<00:02:15.840> so<00:02:16.530> i
+
+00:02:16.550 --> 00:02:16.560 
+text that should be in one file so i
+
+00:02:16.560 --> 00:02:19.610 
+text that should be in one file so i
+select<00:02:16.950> those<00:02:17.430> i<00:02:17.700> want<00:02:17.880> to<00:02:18.030> export<00:02:18.660> on<00:02:18.930> the
+
+00:02:19.610 --> 00:02:19.620 
+select those i want to export on the
+
+00:02:19.620 --> 00:02:22.190 
+select those i want to export on the
+layers<00:02:19.830> and<00:02:20.100> right<00:02:20.610> click<00:02:20.790> and<00:02:21.120> say<00:02:21.510> select
+
+00:02:22.190 --> 00:02:22.200 
+layers and right click and say select
+
+00:02:22.200 --> 00:02:24.800 
+layers and right click and say select
+objects<00:02:23.010> so<00:02:23.400> now<00:02:23.700> all<00:02:23.730> these<00:02:24.240> objects
+
+00:02:24.800 --> 00:02:24.810 
+objects so now all these objects
+
+00:02:24.810 --> 00:02:28.160 
+objects so now all these objects
+selected<00:02:25.290> then<00:02:25.800> i<00:02:25.890> go<00:02:26.040> to<00:02:26.100> file<00:02:26.640> say<00:02:27.270> export
+
+00:02:28.160 --> 00:02:28.170 
+selected then i go to file say export
+
+00:02:28.170 --> 00:02:32.390 
+selected then i go to file say export
+selected<00:02:29.420> always<00:02:30.420> give<00:02:30.720> the<00:02:30.990> files<00:02:31.530> a<00:02:31.800> logical
+
+00:02:32.390 --> 00:02:32.400 
+selected always give the files a logical
+
+00:02:32.400 --> 00:02:35.000 
+selected always give the files a logical
+name<00:02:32.640> in<00:02:32.880> this<00:02:33.300> case<00:02:33.570> i'm<00:02:33.840> exporting<00:02:34.650> the
+
+00:02:35.000 --> 00:02:35.010 
+name in this case i'm exporting the
+
+00:02:35.010 --> 00:02:38.270 
+name in this case i'm exporting the
+context<00:02:35.610> so<00:02:35.910> i<00:02:35.940> call<00:02:36.330> this<00:02:36.510> for<00:02:36.860> context<00:02:37.860> model
+
+00:02:38.270 --> 00:02:38.280 
+context so i call this for context model
+
+00:02:38.280 --> 00:02:41.330 
+context so i call this for context model
+then<00:02:38.880> you<00:02:39.300> should<00:02:39.540> choose<00:02:40.170> the<00:02:40.230> file<00:02:40.710> type<00:02:41.040> of
+
+00:02:41.330 --> 00:02:41.340 
+then you should choose the file type of
+
+00:02:41.340 --> 00:02:45.500 
+then you should choose the file type of
+dot<00:02:41.880> set<00:02:42.420> you<00:02:43.110> could<00:02:43.320> also<00:02:43.500> export<00:02:44.070> it<00:02:44.190> as<00:02:44.510> DWG
+
+00:02:45.500 --> 00:02:45.510 
+dot set you could also export it as DWG
+
+00:02:45.510 --> 00:02:48.590 
+dot set you could also export it as DWG
+but<00:02:45.840> this<00:02:46.050> set<00:02:46.500> file<00:02:46.740> have<00:02:47.340> the<00:02:47.670> best<00:02:47.940> export
+
+00:02:48.590 --> 00:02:48.600 
+but this set file have the best export
+
+00:02:48.600 --> 00:02:51.620 
+but this set file have the best export
+possibilities<00:02:49.470> concerning<00:02:50.430> the<00:02:50.760> geometry
+
+00:02:51.620 --> 00:02:51.630 
+possibilities concerning the geometry
+
+00:02:51.630 --> 00:02:54.730 
+possibilities concerning the geometry
+and<00:02:51.810> then<00:02:52.350> save<00:02:52.950> here<00:02:53.790> you<00:02:53.910> should<00:02:54.150> choose<00:02:54.630> the
+
+00:02:54.730 --> 00:02:54.740 
+and then save here you should choose the
+
+00:02:54.740 --> 00:02:58.640 
+and then save here you should choose the
+inventor<00:02:55.740> export<00:02:56.580> option<00:02:57.270> and<00:02:57.450> click<00:02:57.480> OK<00:02:58.440> and
+
+00:02:58.640 --> 00:02:58.650 
+inventor export option and click OK and
+
+00:02:58.650 --> 00:03:02.420 
+inventor export option and click OK and
+then<00:02:59.070> the<00:02:59.460> context<00:03:00.300> is<00:03:00.450> exported<00:03:01.310> open<00:03:02.310> up
+
+00:03:02.420 --> 00:03:02.430 
+then the context is exported open up
+
+00:03:02.430 --> 00:03:05.840 
+then the context is exported open up
+sorry<00:03:03.030> and<00:03:03.300> create<00:03:04.200> a<00:03:04.260> new<00:03:04.500> file<00:03:04.830> the<00:03:05.580> first
+
+00:03:05.840 --> 00:03:05.850 
+sorry and create a new file the first
+
+00:03:05.850 --> 00:03:09.140 
+sorry and create a new file the first
+step<00:03:06.060> in<00:03:06.300> here<00:03:06.540> is<00:03:06.690> to<00:03:07.380> create<00:03:07.740> a<00:03:07.920> mass<00:03:08.310> because
+
+00:03:09.140 --> 00:03:09.150 
+step in here is to create a mass because
+
+00:03:09.150 --> 00:03:11.000 
+step in here is to create a mass because
+if<00:03:09.300> you<00:03:09.450> want<00:03:09.660> to<00:03:09.810> use<00:03:10.020> the<00:03:10.170> functionalities
+
+00:03:11.000 --> 00:03:11.010 
+if you want to use the functionalities
+
+00:03:11.010 --> 00:03:13.460 
+if you want to use the functionalities
+from<00:03:11.790> the<00:03:11.940> analysis<00:03:12.480> part<00:03:12.690> with<00:03:12.960> the<00:03:13.110> wind
+
+00:03:13.460 --> 00:03:13.470 
+from the analysis part with the wind
+
+00:03:13.470 --> 00:03:16.280 
+from the analysis part with the wind
+tunnel<00:03:13.830> and<00:03:13.920> solar<00:03:14.310> radiation<00:03:14.940> you<00:03:15.420> get<00:03:15.690> the
+
+00:03:16.280 --> 00:03:16.290 
+tunnel and solar radiation you get the
+
+00:03:16.290 --> 00:03:19.280 
+tunnel and solar radiation you get the
+most<00:03:16.710> out<00:03:17.100> of<00:03:17.160> the<00:03:17.580> model<00:03:18.060> if<00:03:18.210> you<00:03:18.270> import<00:03:19.110> it
+
+00:03:19.280 --> 00:03:19.290 
+most out of the model if you import it
+
+00:03:19.290 --> 00:03:21.670 
+most out of the model if you import it
+into<00:03:19.410> a<00:03:19.650> mass<00:03:19.950> in<00:03:20.310> this<00:03:20.910> way<00:03:21.090> it<00:03:21.300> actually
+
+00:03:21.670 --> 00:03:21.680 
+into a mass in this way it actually
+
+00:03:21.680 --> 00:03:24.530 
+into a mass in this way it actually
+become<00:03:22.680> in<00:03:22.830> some<00:03:22.860> way<00:03:23.220> native<00:03:24.000> vasari
+
+00:03:24.530 --> 00:03:24.540 
+become in some way native vasari
+
+00:03:24.540 --> 00:03:27.560 
+become in some way native vasari
+geometry<00:03:25.440> I<00:03:25.620> will<00:03:26.130> show<00:03:26.250> this<00:03:26.460> later<00:03:27.000> first
+
+00:03:27.560 --> 00:03:27.570 
+geometry I will show this later first
+
+00:03:27.570 --> 00:03:30.680 
+geometry I will show this later first
+create<00:03:28.350> a<00:03:28.440> mass<00:03:28.710> now<00:03:29.340> we<00:03:29.400> in<00:03:29.610> inside<00:03:30.270> of<00:03:30.480> the
+
+00:03:30.680 --> 00:03:30.690 
+create a mass now we in inside of the
+
+00:03:30.690 --> 00:03:33.230 
+create a mass now we in inside of the
+mass<00:03:30.990> editing<00:03:31.740> mode<00:03:31.920> and<00:03:32.250> I<00:03:32.850> can<00:03:33.000> see<00:03:33.180> it
+
+00:03:33.230 --> 00:03:33.240 
+mass editing mode and I can see it
+
+00:03:33.240 --> 00:03:35.990 
+mass editing mode and I can see it
+because<00:03:33.630> of<00:03:33.660> these<00:03:33.990> finish<00:03:34.500> and<00:03:34.800> cancel<00:03:35.430> mass
+
+00:03:35.990 --> 00:03:36.000 
+because of these finish and cancel mass
+
+00:03:36.000 --> 00:03:40.670 
+because of these finish and cancel mass
+in<00:03:36.390> here<00:03:36.900> I<00:03:37.050> go<00:03:37.740> to<00:03:37.800> vasari<00:03:38.370> icon<00:03:38.820> go<00:03:39.660> to<00:03:39.720> import
+
+00:03:40.670 --> 00:03:40.680 
+in here I go to vasari icon go to import
+
+00:03:40.680 --> 00:03:44.180 
+in here I go to vasari icon go to import
+import<00:03:41.520> cat<00:03:42.420> select<00:03:43.290> the<00:03:43.470> file<00:03:43.710> I<00:03:43.740> want<00:03:44.070> to
+
+00:03:44.180 --> 00:03:44.190 
+import cat select the file I want to
+
+00:03:44.190 --> 00:03:46.370 
+import cat select the file I want to
+import<00:03:44.610> the<00:03:45.120> first<00:03:45.360> step<00:03:45.540> is<00:03:45.660> the<00:03:45.810> context
+
+00:03:46.370 --> 00:03:46.380 
+import the first step is the context
+
+00:03:46.380 --> 00:03:49.820 
+import the first step is the context
+make<00:03:47.190> sure<00:03:47.400> that<00:03:47.850> you<00:03:48.030> choose<00:03:48.690> the<00:03:49.110> same
+
+00:03:49.820 --> 00:03:49.830 
+make sure that you choose the same
+
+00:03:49.830 --> 00:03:53.120 
+make sure that you choose the same
+import<00:03:50.520> units<00:03:50.880> in<00:03:51.120> this<00:03:51.330> case<00:03:51.600> I<00:03:51.870> have<00:03:52.130> modeled
+
+00:03:53.120 --> 00:03:53.130 
+import units in this case I have modeled
+
+00:03:53.130 --> 00:03:55.150 
+import units in this case I have modeled
+the<00:03:53.250> Rhino<00:03:53.490> model<00:03:53.850> in<00:03:54.000> millimeters
+
+00:03:55.150 --> 00:03:55.160 
+the Rhino model in millimeters
+
+00:03:55.160 --> 00:03:57.980 
+the Rhino model in millimeters
+positioning<00:03:56.160> here<00:03:56.670> is<00:03:56.760> a<00:03:56.790> very<00:03:57.180> good<00:03:57.270> idea<00:03:57.480> to
+
+00:03:57.980 --> 00:03:57.990 
+positioning here is a very good idea to
+
+00:03:57.990 --> 00:04:01.040 
+positioning here is a very good idea to
+select<00:03:58.680> the<00:03:58.920> outer<00:03:59.340> origin<00:04:00.300> to<00:04:00.450> origin<00:04:00.900> in
+
+00:04:01.040 --> 00:04:01.050 
+select the outer origin to origin in
+
+00:04:01.050 --> 00:04:04.430 
+select the outer origin to origin in
+this<00:04:01.500> way<00:04:02.220> you<00:04:02.280> can<00:04:02.640> import<00:04:03.540> form<00:04:03.930> concepts
+
+00:04:04.430 --> 00:04:04.440 
+this way you can import form concepts
+
+00:04:04.440 --> 00:04:07.370 
+this way you can import form concepts
+and<00:04:04.680> have<00:04:05.400> place<00:04:05.940> in<00:04:06.240> the<00:04:06.540> same<00:04:06.780> way<00:04:07.020> they<00:04:07.260> are
+
+00:04:07.370 --> 00:04:07.380 
+and have place in the same way they are
+
+00:04:07.380 --> 00:04:09.350 
+and have place in the same way they are
+placed<00:04:07.650> inside<00:04:07.980> the<00:04:08.190> Rhino<00:04:08.550> model<00:04:08.910> I'll<00:04:09.000> come
+
+00:04:09.350 --> 00:04:09.360 
+placed inside the Rhino model I'll come
+
+00:04:09.360 --> 00:04:12.350 
+placed inside the Rhino model I'll come
+back<00:04:09.510> to<00:04:09.690> this<00:04:09.840> so<00:04:10.470> juice<00:04:11.010> origin<00:04:11.820> Georgian
+
+00:04:12.350 --> 00:04:12.360 
+back to this so juice origin Georgian
+
+00:04:12.360 --> 00:04:16.250 
+back to this so juice origin Georgian
+and<00:04:12.480> open<00:04:14.000> sometimes<00:04:15.000> and<00:04:15.330> cut<00:04:15.510> take<00:04:15.780> little
+
+00:04:16.250 --> 00:04:16.260 
+and open sometimes and cut take little
+
+00:04:16.260 --> 00:04:18.860 
+and open sometimes and cut take little
+bit<00:04:16.380> time<00:04:16.980> to<00:04:17.250> import<00:04:17.670> the<00:04:17.790> model<00:04:18.180> depending
+
+00:04:18.860 --> 00:04:18.870 
+bit time to import the model depending
+
+00:04:18.870 --> 00:04:21.860 
+bit time to import the model depending
+on how<00:04:19.350> complex<00:04:20.040> or<00:04:20.609> how<00:04:20.760> much<00:04:20.970> geometry<00:04:21.660> that
+
+00:04:21.860 --> 00:04:21.870 
+on how complex or how much geometry that
+
+00:04:21.870 --> 00:04:24.080 
+on how complex or how much geometry that
+is<00:04:21.989> inside<00:04:22.650> the<00:04:22.800> model<00:04:23.010> here<00:04:23.820> we<00:04:23.910> see<00:04:24.060> the
+
+00:04:24.080 --> 00:04:24.090 
+is inside the model here we see the
+
+00:04:24.090 --> 00:04:26.840 
+is inside the model here we see the
+model<00:04:24.510> and<00:04:24.600> as<00:04:25.169> i<00:04:25.229> said<00:04:25.650> earlier<00:04:25.830> using
+
+00:04:26.840 --> 00:04:26.850 
+model and as i said earlier using
+
+00:04:26.850 --> 00:04:30.290 
+model and as i said earlier using
+the<00:04:27.000> set<00:04:27.420> file<00:04:28.050> it<00:04:28.560> put<00:04:29.220> everything<00:04:29.670> into<00:04:30.060> the
+
+00:04:30.290 --> 00:04:30.300 
+the set file it put everything into the
+
+00:04:30.300 --> 00:04:34.010 
+the set file it put everything into the
+same<00:04:30.600> file<00:04:31.410> and<00:04:31.740> to<00:04:32.010> illustrate<00:04:32.160> this<00:04:32.700> I<00:04:33.020> press
+
+00:04:34.010 --> 00:04:34.020 
+same file and to illustrate this I press
+
+00:04:34.020 --> 00:04:36.590 
+same file and to illustrate this I press
+VV<00:04:34.560> to<00:04:34.740> go<00:04:34.950> to<00:04:35.010> the<00:04:35.310> visibility<00:04:35.970> settings<00:04:36.180> and
+
+00:04:36.590 --> 00:04:36.600 
+VV to go to the visibility settings and
+
+00:04:36.600 --> 00:04:39.890 
+VV to go to the visibility settings and
+under<00:04:37.440> imported<00:04:38.340> categories<00:04:38.970> I<00:04:39.150> have<00:04:39.600> the
+
+00:04:39.890 --> 00:04:39.900 
+under imported categories I have the
+
+00:04:39.900 --> 00:04:42.890 
+under imported categories I have the
+imported<00:04:40.770> layers<00:04:41.310> and<00:04:41.670> they<00:04:42.420> put<00:04:42.660> everything
+
+00:04:42.890 --> 00:04:42.900 
+imported layers and they put everything
+
+00:04:42.900 --> 00:04:46.520 
+imported layers and they put everything
+in<00:04:43.440> layer<00:04:44.370> 0<00:04:44.640> when<00:04:45.570> I<00:04:45.600> use<00:04:45.870> the<00:04:45.900> set<00:04:46.290> fire
+
+00:04:46.520 --> 00:04:46.530 
+in layer 0 when I use the set fire
+
+00:04:46.530 --> 00:04:50.000 
+in layer 0 when I use the set fire
+unfortunately<00:04:47.490> if<00:04:47.730> I<00:04:48.210> had<00:04:48.390> to<00:04:48.540> use<00:04:48.660> the<00:04:48.840> DVD<00:04:49.530> it
+
+00:04:50.000 --> 00:04:50.010 
+unfortunately if I had to use the DVD it
+
+00:04:50.010 --> 00:04:52.580 
+unfortunately if I had to use the DVD it
+will<00:04:50.250> have<00:04:50.490> imported<00:04:51.390> in<00:04:51.570> the<00:04:51.990> layers<00:04:52.260> that
+
+00:04:52.580 --> 00:04:52.590 
+will have imported in the layers that
+
+00:04:52.590 --> 00:04:55.340 
+will have imported in the layers that
+have<00:04:52.800> been<00:04:53.130> used<00:04:53.370> inside<00:04:54.030> Rhino<00:04:54.660> but<00:04:55.230> they
+
+00:04:55.340 --> 00:04:55.350 
+have been used inside Rhino but they
+
+00:04:55.350 --> 00:04:57.710 
+have been used inside Rhino but they
+will<00:04:55.470> mesh<00:04:55.800> the<00:04:56.070> geometry<00:04:56.670> and<00:04:56.820> it<00:04:57.360> will<00:04:57.510> not
+
+00:04:57.710 --> 00:04:57.720 
+will mesh the geometry and it will not
+
+00:04:57.720 --> 00:05:00.740 
+will mesh the geometry and it will not
+be<00:04:57.960> that<00:04:58.530> nice<00:04:58.830> to<00:04:59.070> look<00:04:59.220> at<00:04:59.370> so<00:05:00.240> if<00:05:00.390> you<00:05:00.540> want
+
+00:05:00.740 --> 00:05:00.750 
+be that nice to look at so if you want
+
+00:05:00.750 --> 00:05:03.230 
+be that nice to look at so if you want
+to<00:05:00.810> have<00:05:01.380> the<00:05:01.530> option<00:05:01.920> of<00:05:02.070> turning<00:05:02.430> the<00:05:02.790> trees
+
+00:05:03.230 --> 00:05:03.240 
+to have the option of turning the trees
+
+00:05:03.240 --> 00:05:06.530 
+to have the option of turning the trees
+of<00:05:03.270> you<00:05:04.110> need<00:05:04.350> to<00:05:04.560> export<00:05:05.130> these<00:05:05.610> in<00:05:06.060> a
+
+00:05:06.530 --> 00:05:06.540 
+of you need to export these in a
+
+00:05:06.540 --> 00:05:09.050 
+of you need to export these in a
+separate<00:05:06.990> file<00:05:07.470> and<00:05:07.800> when<00:05:08.400> you<00:05:08.520> have<00:05:08.550> imported
+
+00:05:09.050 --> 00:05:09.060 
+separate file and when you have imported
+
+00:05:09.060 --> 00:05:12.140 
+separate file and when you have imported
+you<00:05:09.630> press<00:05:10.050> finish<00:05:10.620> and<00:05:11.010> then<00:05:11.730> they<00:05:11.850> will<00:05:11.970> come
+
+00:05:12.140 --> 00:05:12.150 
+you press finish and then they will come
+
+00:05:12.150 --> 00:05:14.210 
+you press finish and then they will come
+to<00:05:12.270> this<00:05:12.420> warning<00:05:12.930> and<00:05:13.110> this<00:05:13.650> warning<00:05:14.010> means
+
+00:05:14.210 --> 00:05:14.220 
+to this warning and this warning means
+
+00:05:14.220 --> 00:05:17.480 
+to this warning and this warning means
+that<00:05:14.520> inside<00:05:15.420> this<00:05:15.600> mass<00:05:15.930> there<00:05:16.380> is<00:05:16.500> only<00:05:16.710> miss
+
+00:05:17.480 --> 00:05:17.490 
+that inside this mass there is only miss
+
+00:05:17.490 --> 00:05:19.940 
+that inside this mass there is only miss
+geometry<00:05:18.150> and<00:05:18.300> that<00:05:18.810> means<00:05:19.140> that<00:05:19.380> it's<00:05:19.710> not
+
+00:05:19.940 --> 00:05:19.950 
+geometry and that means that it's not
+
+00:05:19.950 --> 00:05:23.120 
+geometry and that means that it's not
+solid<00:05:20.490> and<00:05:20.820> closed<00:05:21.630> geometry<00:05:22.290> but<00:05:22.890> that's
+
+00:05:23.120 --> 00:05:23.130 
+solid and closed geometry but that's
+
+00:05:23.130 --> 00:05:24.980 
+solid and closed geometry but that's
+okay<00:05:23.460> because<00:05:23.670> we<00:05:24.300> are<00:05:24.360> not<00:05:24.480> going<00:05:24.660> to<00:05:24.840> use
+
+00:05:24.980 --> 00:05:24.990 
+okay because we are not going to use
+
+00:05:24.990 --> 00:05:27.350 
+okay because we are not going to use
+this<00:05:25.170> model<00:05:25.410> for<00:05:25.770> anything<00:05:26.280> else<00:05:26.640> than<00:05:26.910> just
+
+00:05:27.350 --> 00:05:27.360 
+this model for anything else than just
+
+00:05:27.360 --> 00:05:30.680 
+this model for anything else than just
+like<00:05:27.750> shading<00:05:28.530> and<00:05:28.790> context<00:05:29.790> but<00:05:30.390> if<00:05:30.510> we
+
+00:05:30.680 --> 00:05:30.690 
+like shading and context but if we
+
+00:05:30.690 --> 00:05:33.140 
+like shading and context but if we
+should<00:05:30.900> use<00:05:31.380> a<00:05:31.410> model<00:05:31.890> for<00:05:32.160> energy<00:05:32.940> simulation
+
+00:05:33.140 --> 00:05:33.150 
+should use a model for energy simulation
+
+00:05:33.150 --> 00:05:35.570 
+should use a model for energy simulation
+then<00:05:33.930> we<00:05:34.110> should<00:05:34.290> be<00:05:34.320> aware<00:05:34.560> of<00:05:34.710> this<00:05:35.010> warning
+
+00:05:35.570 --> 00:05:35.580 
+then we should be aware of this warning
+
+00:05:35.580 --> 00:05:38.540 
+then we should be aware of this warning
+but<00:05:36.270> in<00:05:36.360> this<00:05:36.480> case<00:05:36.690> that's<00:05:37.260> okay<00:05:37.590> back<00:05:38.400> in
+
+00:05:38.540 --> 00:05:38.550 
+but in this case that's okay back in
+
+00:05:38.550 --> 00:05:41.000 
+but in this case that's okay back in
+Rhino<00:05:38.760> if<00:05:39.060> we<00:05:39.630> then<00:05:39.810> have<00:05:40.050> created<00:05:40.680> some
+
+00:05:41.000 --> 00:05:41.010 
+Rhino if we then have created some
+
+00:05:41.010 --> 00:05:43.520 
+Rhino if we then have created some
+different<00:05:41.490> phone<00:05:42.030> concepts<00:05:42.660> that<00:05:42.990> we<00:05:43.200> want<00:05:43.410> to
+
+00:05:43.520 --> 00:05:43.530 
+different phone concepts that we want to
+
+00:05:43.530 --> 00:05:46.700 
+different phone concepts that we want to
+test<00:05:44.160> and<00:05:44.460> analyzed<00:05:44.940> within<00:05:45.420> Massari<00:05:46.260> we
+
+00:05:46.700 --> 00:05:46.710 
+test and analyzed within Massari we
+
+00:05:46.710 --> 00:05:49.280 
+test and analyzed within Massari we
+could<00:05:47.040> export<00:05:47.520> them<00:05:47.760> as<00:05:47.940> well<00:05:48.240> in<00:05:48.720> a<00:05:48.900> separate
+
+00:05:49.280 --> 00:05:49.290 
+could export them as well in a separate
+
+00:05:49.290 --> 00:05:52.250 
+could export them as well in a separate
+file<00:05:49.560> in<00:05:49.800> this<00:05:50.100> case<00:05:50.180> where<00:05:51.180> the<00:05:51.330> design<00:05:51.780> it
+
+00:05:52.250 --> 00:05:52.260 
+file in this case where the design it
+
+00:05:52.260 --> 00:05:54.820 
+file in this case where the design it
+looks<00:05:52.530> like<00:05:52.830> this<00:05:53.430> with<00:05:53.850> some<00:05:54.120> kind<00:05:54.300> of<00:05:54.390> base
+
+00:05:54.820 --> 00:05:54.830 
+looks like this with some kind of base
+
+00:05:54.830 --> 00:05:58.420 
+looks like this with some kind of base
+then<00:05:55.830> this<00:05:56.100> part<00:05:56.760> should<00:05:57.150> be<00:05:57.230> exported<00:05:58.230> as<00:05:58.320> a
+
+00:05:58.420 --> 00:05:58.430 
+then this part should be exported as a
+
+00:05:58.430 --> 00:06:01.700 
+then this part should be exported as a
+separate<00:05:59.430> file<00:05:59.790> so<00:06:00.540> first<00:06:00.780> I<00:06:00.930> will<00:06:01.110> save<00:06:01.500> the
+
+00:06:01.700 --> 00:06:01.710 
+separate file so first I will save the
+
+00:06:01.710 --> 00:06:04.250 
+separate file so first I will save the
+base<00:06:01.980> the<00:06:02.790> reason<00:06:03.180> why<00:06:03.360> I'm<00:06:03.420> suggesting<00:06:04.080> to
+
+00:06:04.250 --> 00:06:04.260 
+base the reason why I'm suggesting to
+
+00:06:04.260 --> 00:06:06.620 
+base the reason why I'm suggesting to
+save<00:06:04.500> this<00:06:04.680> as<00:06:04.890> separate<00:06:05.400> I<00:06:05.580> is<00:06:05.850> that<00:06:06.210> this<00:06:06.480> is
+
+00:06:06.620 --> 00:06:06.630 
+save this as separate I is that this is
+
+00:06:06.630 --> 00:06:09.530 
+save this as separate I is that this is
+a<00:06:06.660> part<00:06:07.020> of<00:06:07.170> the<00:06:07.350> design<00:06:07.470> and<00:06:07.950> maybe<00:06:08.520> this<00:06:09.180> base
+
+00:06:09.530 --> 00:06:09.540 
+a part of the design and maybe this base
+
+00:06:09.540 --> 00:06:12.020 
+a part of the design and maybe this base
+had<00:06:09.900> another<00:06:10.260> design<00:06:10.680> so<00:06:11.190> it<00:06:11.460> would<00:06:11.820> be
+
+00:06:12.020 --> 00:06:12.030 
+had another design so it would be
+
+00:06:12.030 --> 00:06:15.020 
+had another design so it would be
+necessary<00:06:12.240> to<00:06:12.690> export<00:06:13.170> it<00:06:13.430> individually<00:06:14.430> so<00:06:15.000> I
+
+00:06:15.020 --> 00:06:15.030 
+necessary to export it individually so I
+
+00:06:15.030 --> 00:06:17.180 
+necessary to export it individually so I
+select<00:06:15.600> the<00:06:15.990> base<00:06:16.200> let's<00:06:16.560> put<00:06:16.950> in<00:06:17.070> this
+
+00:06:17.180 --> 00:06:17.190 
+select the base let's put in this
+
+00:06:17.190 --> 00:06:20.600 
+select the base let's put in this
+building's<00:06:17.760> none<00:06:18.120> thermal<00:06:18.660> layer<00:06:19.230> and<00:06:19.610> select
+
+00:06:20.600 --> 00:06:20.610 
+building's none thermal layer and select
+
+00:06:20.610 --> 00:06:23.960 
+building's none thermal layer and select
+objects<00:06:21.390> and<00:06:21.510> go<00:06:21.930> again<00:06:22.200> to<00:06:22.380> a<00:06:22.410> file<00:06:22.970> export
+
+00:06:23.960 --> 00:06:23.970 
+objects and go again to a file export
+
+00:06:23.970 --> 00:06:27.110 
+objects and go again to a file export
+selected<00:06:24.540> on<00:06:25.290> this<00:06:25.740> one<00:06:25.920> I'm<00:06:26.070> called<00:06:26.490> the<00:06:26.820> base
+
+00:06:27.110 --> 00:06:27.120 
+selected on this one I'm called the base
+
+00:06:27.120 --> 00:06:31.550 
+selected on this one I'm called the base
+and<00:06:27.450> save<00:06:28.380> and<00:06:28.710> in<00:06:29.550> the<00:06:29.670> same<00:06:29.990> sequence<00:06:30.990> I<00:06:31.230> will
+
+00:06:31.550 --> 00:06:31.560 
+and save and in the same sequence I will
+
+00:06:31.560 --> 00:06:34.880 
+and save and in the same sequence I will
+export<00:06:32.160> the<00:06:32.510> building<00:06:33.510> as<00:06:33.780> well<00:06:34.020> right<00:06:34.650> click
+
+00:06:34.880 --> 00:06:34.890 
+export the building as well right click
+
+00:06:34.890 --> 00:06:38.630 
+export the building as well right click
+select<00:06:35.310> objects<00:06:36.000> file<00:06:36.900> export<00:06:37.860> selected<00:06:38.370> and
+
+00:06:38.630 --> 00:06:38.640 
+select objects file export selected and
+
+00:06:38.640 --> 00:06:40.650 
+select objects file export selected and
+again<00:06:39.360> calling<00:06:40.080> this
+
+00:06:40.650 --> 00:06:40.660 
+again calling this
+
+00:06:40.660 --> 00:06:43.410 
+again calling this
+a<00:06:40.720> logical<00:06:41.350> name<00:06:41.560> it<00:06:42.130> could<00:06:42.430> be<00:06:42.610> form<00:06:42.940> concept
+
+00:06:43.410 --> 00:06:43.420 
+a logical name it could be form concept
+
+00:06:43.420 --> 00:06:46.050 
+a logical name it could be form concept
+one<00:06:43.840> and<00:06:44.050> as<00:06:44.410> you<00:06:44.560> can<00:06:44.740> see<00:06:44.770> it<00:06:45.250> remember<00:06:45.880> that
+
+00:06:46.050 --> 00:06:46.060 
+one and as you can see it remember that
+
+00:06:46.060 --> 00:06:48.750 
+one and as you can see it remember that
+you<00:06:46.240> have<00:06:46.390> chosen<00:06:46.780> the<00:06:47.200> set<00:06:47.590> file<00:06:47.950> early<00:06:48.730> on
+
+00:06:48.750 --> 00:06:48.760 
+you have chosen the set file early on
+
+00:06:48.760 --> 00:06:51.540 
+you have chosen the set file early on
+and<00:06:49.090> it<00:06:49.840> should<00:06:49.990> always<00:06:50.170> be<00:06:50.350> this<00:06:50.650> safe<00:06:51.310> in
+
+00:06:51.540 --> 00:06:51.550 
+and it should always be this safe in
+
+00:06:51.550 --> 00:06:54.300 
+and it should always be this safe in
+winter<00:06:52.270> back<00:06:53.110> in<00:06:53.230> my<00:06:53.350> sorry<00:06:53.590> you<00:06:53.950> do<00:06:54.130> the<00:06:54.280> same
+
+00:06:54.300 --> 00:06:54.310 
+winter back in my sorry you do the same
+
+00:06:54.310 --> 00:06:58.320 
+winter back in my sorry you do the same
+create<00:06:55.240> a<00:06:55.270> new<00:06:55.390> mass<00:06:55.840> for<00:06:56.620> first<00:06:56.860> base<00:06:57.330> import
+
+00:06:58.320 --> 00:06:58.330 
+create a new mass for first base import
+
+00:06:58.330 --> 00:07:01.860 
+create a new mass for first base import
+cat<00:06:59.070> select<00:07:00.070> the<00:07:00.280> the<00:07:00.640> base<00:07:00.880> and<00:07:01.270> it's
+
+00:07:01.860 --> 00:07:01.870 
+cat select the the base and it's
+
+00:07:01.870 --> 00:07:03.450 
+cat select the the base and it's
+important<00:07:02.440> that<00:07:02.590> you<00:07:02.620> choose<00:07:02.920> the<00:07:03.100> origin
+
+00:07:03.450 --> 00:07:03.460 
+important that you choose the origin
+
+00:07:03.460 --> 00:07:06.150 
+important that you choose the origin
+Georgians<00:07:04.000> have<00:07:04.300> it<00:07:04.450> placed<00:07:04.900> same<00:07:05.320> way<00:07:05.680> in<00:07:05.920> the
+
+00:07:06.150 --> 00:07:06.160 
+Georgians have it placed same way in the
+
+00:07:06.160 --> 00:07:08.490 
+Georgians have it placed same way in the
+Rhino<00:07:06.610> model<00:07:06.970> and<00:07:07.120> medium<00:07:07.570> in<00:07:07.660> US<00:07:07.780> Open<00:07:08.380> and
+
+00:07:08.490 --> 00:07:08.500 
+Rhino model and medium in US Open and
+
+00:07:08.500 --> 00:07:11.850 
+Rhino model and medium in US Open and
+when<00:07:09.250> it's<00:07:09.430> imported<00:07:10.060> you<00:07:10.390> say<00:07:10.600> finish<00:07:11.140> this
+
+00:07:11.850 --> 00:07:11.860 
+when it's imported you say finish this
+
+00:07:11.860 --> 00:07:14.550 
+when it's imported you say finish this
+is<00:07:12.160> the<00:07:12.280> same<00:07:12.490> it's<00:07:12.820> consist<00:07:13.600> of<00:07:13.780> single
+
+00:07:14.550 --> 00:07:14.560 
+is the same it's consist of single
+
+00:07:14.560 --> 00:07:16.950 
+is the same it's consist of single
+surfaces<00:07:15.220> that's<00:07:15.460> okay<00:07:15.820> create<00:07:16.420> a<00:07:16.480> new<00:07:16.570> mass
+
+00:07:16.950 --> 00:07:16.960 
+surfaces that's okay create a new mass
+
+00:07:16.960 --> 00:07:20.370 
+surfaces that's okay create a new mass
+for<00:07:17.800> the<00:07:17.940> building<00:07:18.940> go<00:07:19.570> to<00:07:19.630> import<00:07:20.170> again
+
+00:07:20.370 --> 00:07:20.380 
+for the building go to import again
+
+00:07:20.380 --> 00:07:23.760 
+for the building go to import again
+import<00:07:21.010> CAD<00:07:21.630> select<00:07:22.630> phone<00:07:23.110> concept<00:07:23.470> one
+
+00:07:23.760 --> 00:07:23.770 
+import CAD select phone concept one
+
+00:07:23.770 --> 00:07:27.780 
+import CAD select phone concept one
+origin<00:07:24.490> origin<00:07:24.940> really<00:07:25.930> made<00:07:26.200> us<00:07:26.380> open<00:07:27.310> and
+
+00:07:27.780 --> 00:07:27.790 
+origin origin really made us open and
+
+00:07:27.790 --> 00:07:30.960 
+origin origin really made us open and
+finish<00:07:28.480> as<00:07:28.750> you<00:07:29.320> can<00:07:29.470> see<00:07:29.680> I<00:07:29.710> didn't<00:07:30.610> came<00:07:30.760> up
+
+00:07:30.960 --> 00:07:30.970 
+finish as you can see I didn't came up
+
+00:07:30.970 --> 00:07:33.090 
+finish as you can see I didn't came up
+with<00:07:31.210> any<00:07:31.510> a<00:07:31.630> warning<00:07:32.230> and<00:07:32.380> that<00:07:32.560> does<00:07:32.740> because
+
+00:07:33.090 --> 00:07:33.100 
+with any a warning and that does because
+
+00:07:33.100 --> 00:07:36.090 
+with any a warning and that does because
+it's<00:07:33.340> a<00:07:33.520> closed<00:07:33.880> object<00:07:34.570> so<00:07:35.290> this<00:07:35.650> one<00:07:35.830> I<00:07:35.860> can
+
+00:07:36.090 --> 00:07:36.100 
+it's a closed object so this one I can
+
+00:07:36.100 --> 00:07:39.060 
+it's a closed object so this one I can
+use<00:07:36.280> for<00:07:36.520> energy<00:07:37.330> simulation<00:07:37.570> and<00:07:38.110> to<00:07:38.770> just
+
+00:07:39.060 --> 00:07:39.070 
+use for energy simulation and to just
+
+00:07:39.070 --> 00:07:41.700 
+use for energy simulation and to just
+illustrate<00:07:39.310> this<00:07:39.760> Creek<00:07:40.750> I<00:07:40.900> can<00:07:41.140> select<00:07:41.500> the
+
+00:07:41.700 --> 00:07:41.710 
+illustrate this Creek I can select the
+
+00:07:41.710 --> 00:07:45.630 
+illustrate this Creek I can select the
+object<00:07:42.370> say<00:07:42.970> mass<00:07:43.810> flaws<00:07:44.170> and<00:07:44.560> divide<00:07:45.400> it<00:07:45.430> up
+
+00:07:45.630 --> 00:07:45.640 
+object say mass flaws and divide it up
+
+00:07:45.640 --> 00:07:48.420 
+object say mass flaws and divide it up
+in<00:07:45.940> floors<00:07:46.720> with<00:07:47.410> this<00:07:47.620> mask<00:07:47.890> royal<00:07:48.220> function
+
+00:07:48.420 --> 00:07:48.430 
+in floors with this mask royal function
+
+00:07:48.430 --> 00:07:51.030 
+in floors with this mask royal function
+and<00:07:48.820> now<00:07:49.240> we<00:07:49.300> will<00:07:49.480> see<00:07:49.750> it<00:07:49.900> create<00:07:50.410> it<00:07:50.530> into<00:07:51.010> a
+
+00:07:51.030 --> 00:07:51.040 
+and now we will see it create it into a
+
+00:07:51.040 --> 00:07:54.240 
+and now we will see it create it into a
+mass<00:07:52.000> flow<00:07:52.330> model<00:07:52.750> further<00:07:53.350> to<00:07:53.740> illustrate<00:07:54.100> it
+
+00:07:54.240 --> 00:07:54.250 
+mass flow model further to illustrate it
+
+00:07:54.250 --> 00:07:58.170 
+mass flow model further to illustrate it
+go<00:07:54.700> to<00:07:54.760> analyze<00:07:55.330> and<00:07:55.660> say<00:07:55.870> show<00:07:56.590> my<00:07:57.400> surfaces
+
+00:07:58.170 --> 00:07:58.180 
+go to analyze and say show my surfaces
+
+00:07:58.180 --> 00:08:02.880 
+go to analyze and say show my surfaces
+here<00:07:58.630> we<00:07:58.780> have<00:07:58.930> a<00:07:59.010> conceptual<00:08:00.010> energy<00:08:00.520> model
+

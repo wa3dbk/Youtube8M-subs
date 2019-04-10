@@ -1,0 +1,1335 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.680 --> 00:00:08.660 
+
+okay<00:00:07.680> we're<00:00:07.770> gonna<00:00:07.890> move<00:00:08.040> on<00:00:08.160> to<00:00:08.190> buff<00:00:08.460> right
+
+00:00:08.660 --> 00:00:08.670 
+okay we're gonna move on to buff right
+
+00:00:08.670 --> 00:00:11.240 
+okay we're gonna move on to buff right
+now<00:00:08.820> but<00:00:09.150> before<00:00:09.450> that<00:00:09.600> I'm<00:00:10.290> gonna<00:00:10.469> explain<00:00:10.950> on
+
+00:00:11.240 --> 00:00:11.250 
+now but before that I'm gonna explain on
+
+00:00:11.250 --> 00:00:15.370 
+now but before that I'm gonna explain on
+just<00:00:11.820> how<00:00:12.000> the<00:00:12.059> engine<00:00:12.570> stores<00:00:13.230> inputs<00:00:13.920> and
+
+00:00:15.370 --> 00:00:15.380 
+just how the engine stores inputs and
+
+00:00:15.380 --> 00:00:18.140 
+just how the engine stores inputs and
+this<00:00:16.380> is<00:00:16.560> what<00:00:16.710> makes<00:00:16.860> buffering<00:00:17.310> so<00:00:17.580> useful
+
+00:00:18.140 --> 00:00:18.150 
+this is what makes buffering so useful
+
+00:00:18.150 --> 00:00:21.679 
+this is what makes buffering so useful
+in<00:00:18.450> the<00:00:18.570> game<00:00:19.369> so<00:00:20.369> what<00:00:20.970> the<00:00:21.090> game<00:00:21.240> does<00:00:21.270> is
+
+00:00:21.679 --> 00:00:21.689 
+in the game so what the game does is
+
+00:00:21.689 --> 00:00:24.250 
+in the game so what the game does is
+when<00:00:22.259> you<00:00:22.290> input<00:00:22.560> a<00:00:22.770> motion<00:00:23.190> into<00:00:23.340> the<00:00:23.430> game
+
+00:00:24.250 --> 00:00:24.260 
+when you input a motion into the game
+
+00:00:24.260 --> 00:00:27.320 
+when you input a motion into the game
+after<00:00:25.260> you<00:00:25.529> execute<00:00:25.920> a<00:00:25.949> move<00:00:26.250> the<00:00:26.850> motion<00:00:27.210> is
+
+00:00:27.320 --> 00:00:27.330 
+after you execute a move the motion is
+
+00:00:27.330 --> 00:00:29.689 
+after you execute a move the motion is
+still<00:00:28.020> in<00:00:28.350> the<00:00:28.500> memory<00:00:28.710> of<00:00:28.890> the<00:00:29.220> game<00:00:29.430> so<00:00:29.670> to
+
+00:00:29.689 --> 00:00:29.699 
+still in the memory of the game so to
+
+00:00:29.699 --> 00:00:32.299 
+still in the memory of the game so to
+speak<00:00:29.850> it's<00:00:30.480> still<00:00:30.750> stored<00:00:31.199> and<00:00:31.470> what<00:00:32.040> you<00:00:32.160> can
+
+00:00:32.299 --> 00:00:32.309 
+speak it's still stored and what you can
+
+00:00:32.309 --> 00:00:34.520 
+speak it's still stored and what you can
+do<00:00:32.460> is<00:00:32.669> you<00:00:32.820> can<00:00:32.970> use<00:00:33.629> that<00:00:33.809> motion<00:00:34.080> for
+
+00:00:34.520 --> 00:00:34.530 
+do is you can use that motion for
+
+00:00:34.530 --> 00:00:38.030 
+do is you can use that motion for
+something<00:00:35.129> else<00:00:35.280> as<00:00:35.519> well<00:00:35.550> and<00:00:36.500> thus<00:00:37.500> lowering
+
+00:00:38.030 --> 00:00:38.040 
+something else as well and thus lowering
+
+00:00:38.040 --> 00:00:41.570 
+something else as well and thus lowering
+your<00:00:38.220> steps<00:00:38.519> and<00:00:38.790> making<00:00:39.150> inputs<00:00:39.600> easier<00:00:40.580> so
+
+00:00:41.570 --> 00:00:41.580 
+your steps and making inputs easier so
+
+00:00:41.580 --> 00:00:42.560 
+your steps and making inputs easier so
+let<00:00:41.699> me<00:00:41.760> show<00:00:41.879> you<00:00:41.909> example
+
+00:00:42.560 --> 00:00:42.570 
+let me show you example
+
+00:00:42.570 --> 00:00:44.990 
+let me show you example
+so<00:00:43.110> with<00:00:43.260> Ryu<00:00:43.530> here<00:00:43.800> I'm<00:00:43.890> just<00:00:44.190> gonna<00:00:44.339> walk<00:00:44.670> for
+
+00:00:44.990 --> 00:00:45.000 
+so with Ryu here I'm just gonna walk for
+
+00:00:45.000 --> 00:00:46.280 
+so with Ryu here I'm just gonna walk for
+it<00:00:45.120> a<00:00:45.180> bit<00:00:45.210> I'm<00:00:45.510> gonna<00:00:45.690> try<00:00:45.900> throwing<00:00:46.080> a
+
+00:00:46.280 --> 00:00:46.290 
+it a bit I'm gonna try throwing a
+
+00:00:46.290 --> 00:00:49.310 
+it a bit I'm gonna try throwing a
+fireball<00:00:47.420> so<00:00:48.420> you<00:00:48.510> know<00:00:48.570> what<00:00:48.690> so<00:00:48.809> an<00:00:48.930> uppercut
+
+00:00:49.310 --> 00:00:49.320 
+fireball so you know what so an uppercut
+
+00:00:49.320 --> 00:00:51.920 
+fireball so you know what so an uppercut
+came<00:00:49.530> out<00:00:49.729> it's<00:00:50.729> because<00:00:50.970> the<00:00:51.120> game<00:00:51.330> remembers
+
+00:00:51.920 --> 00:00:51.930 
+came out it's because the game remembers
+
+00:00:51.930 --> 00:00:54.950 
+came out it's because the game remembers
+that<00:00:52.140> I<00:00:52.440> hit<00:00:53.220> forward<00:00:53.519> right<00:00:53.870> when<00:00:54.870> I'm
+
+00:00:54.950 --> 00:00:54.960 
+that I hit forward right when I'm
+
+00:00:54.960 --> 00:00:57.320 
+that I hit forward right when I'm
+walking<00:00:55.650> but<00:00:55.830> the<00:00:56.010> forward<00:00:56.400> input<00:00:56.879> is<00:00:56.970> still
+
+00:00:57.320 --> 00:00:57.330 
+walking but the forward input is still
+
+00:00:57.330 --> 00:00:59.000 
+walking but the forward input is still
+in<00:00:57.540> the<00:00:57.629> memory<00:00:57.900> of<00:00:57.960> the<00:00:58.080> game<00:00:58.290> and<00:00:58.530> then<00:00:58.890> when
+
+00:00:59.000 --> 00:00:59.010 
+in the memory of the game and then when
+
+00:00:59.010 --> 00:01:00.649 
+in the memory of the game and then when
+I<00:00:59.040> inputted<00:00:59.670> the<00:00:59.699> fireball<00:01:00.210> motion<00:01:00.540> the
+
+00:01:00.649 --> 00:01:00.659 
+I inputted the fireball motion the
+
+00:01:00.659 --> 00:01:02.090 
+I inputted the fireball motion the
+game's<00:01:00.809> like<00:01:01.019> oh<00:01:01.170> he's<00:01:01.650> trying<00:01:01.799> to<00:01:01.920> do<00:01:02.010> an
+
+00:01:02.090 --> 00:01:02.100 
+game's like oh he's trying to do an
+
+00:01:02.100 --> 00:01:05.119 
+game's like oh he's trying to do an
+uppercut<00:01:02.549> now<00:01:03.269> this<00:01:03.930> might<00:01:04.110> sound<00:01:04.350> like<00:01:04.799> bad
+
+00:01:05.119 --> 00:01:05.129 
+uppercut now this might sound like bad
+
+00:01:05.129 --> 00:01:06.649 
+uppercut now this might sound like bad
+for<00:01:05.519> the<00:01:05.610> game<00:01:05.790> right<00:01:05.820> because<00:01:06.450> you<00:01:06.630> don't
+
+00:01:06.649 --> 00:01:06.659 
+for the game right because you don't
+
+00:01:06.659 --> 00:01:09.350 
+for the game right because you don't
+input<00:01:07.350> 1<00:01:07.710> input<00:01:07.920> motions<00:01:08.520> and<00:01:08.760> screw<00:01:09.000> yourself
+
+00:01:09.350 --> 00:01:09.360 
+input 1 input motions and screw yourself
+
+00:01:09.360 --> 00:01:11.749 
+input 1 input motions and screw yourself
+over<00:01:09.570> as<00:01:09.659> you<00:01:09.810> want<00:01:10.140> to<00:01:10.290> but<00:01:11.100> you<00:01:11.460> can<00:01:11.579> take
+
+00:01:11.749 --> 00:01:11.759 
+over as you want to but you can take
+
+00:01:11.759 --> 00:01:13.609 
+over as you want to but you can take
+advantage<00:01:11.850> of<00:01:12.299> this<00:01:12.420> so<00:01:13.079> one<00:01:13.289> thing<00:01:13.439> to<00:01:13.469> keep
+
+00:01:13.609 --> 00:01:13.619 
+advantage of this so one thing to keep
+
+00:01:13.619 --> 00:01:15.620 
+advantage of this so one thing to keep
+in<00:01:13.770> mind<00:01:13.979> here<00:01:14.189> is<00:01:14.219> that<00:01:14.310> motions<00:01:15.090> are<00:01:15.240> stored
+
+00:01:15.620 --> 00:01:15.630 
+in mind here is that motions are stored
+
+00:01:15.630 --> 00:01:17.480 
+in mind here is that motions are stored
+longer<00:01:16.020> when<00:01:16.469> you're<00:01:16.590> trying<00:01:16.770> to<00:01:16.859> do<00:01:17.009> ultras
+
+00:01:17.480 --> 00:01:17.490 
+longer when you're trying to do ultras
+
+00:01:17.490 --> 00:01:20.990 
+longer when you're trying to do ultras
+than<00:01:17.700> special<00:01:17.969> moves<00:01:18.439> sure<00:01:19.439> example<00:01:19.920> here<00:01:20.189> so
+
+00:01:20.990 --> 00:01:21.000 
+than special moves sure example here so
+
+00:01:21.000 --> 00:01:24.499 
+than special moves sure example here so
+for<00:01:21.270> example<00:01:21.689> chun-li<00:01:22.700> she<00:01:23.700> wants<00:01:23.939> to<00:01:24.060> if<00:01:24.329> I
+
+00:01:24.499 --> 00:01:24.509 
+for example chun-li she wants to if I
+
+00:01:24.509 --> 00:01:26.090 
+for example chun-li she wants to if I
+want<00:01:24.719> to<00:01:24.780> do<00:01:24.840> a<00:01:24.869> fireball<00:01:25.350> I<00:01:25.380> have<00:01:25.710> to<00:01:25.799> charge
+
+00:01:26.090 --> 00:01:26.100 
+want to do a fireball I have to charge
+
+00:01:26.100 --> 00:01:28.910 
+want to do a fireball I have to charge
+back<00:01:26.340> and<00:01:26.670> then<00:01:26.789> go<00:01:26.880> for<00:01:27.179> punch<00:01:27.649> now<00:01:28.649> I'm<00:01:28.829> gonna
+
+00:01:28.910 --> 00:01:28.920 
+back and then go for punch now I'm gonna
+
+00:01:28.920 --> 00:01:31.130 
+back and then go for punch now I'm gonna
+try<00:01:29.130> to<00:01:29.219> do<00:01:29.399> cuz<00:01:29.759> I'm<00:01:29.850> gonna<00:01:29.969> charge<00:01:30.570> it<00:01:30.810> and
+
+00:01:31.130 --> 00:01:31.140 
+try to do cuz I'm gonna charge it and
+
+00:01:31.140 --> 00:01:33.590 
+try to do cuz I'm gonna charge it and
+then<00:01:31.530> I'm<00:01:31.619> gonna<00:01:31.710> go<00:01:31.890> to<00:01:32.460> my<00:01:32.490> dash<00:01:32.909> and<00:01:33.270> then
+
+00:01:33.590 --> 00:01:33.600 
+then I'm gonna go to my dash and then
+
+00:01:33.600 --> 00:01:35.270 
+then I'm gonna go to my dash and then
+I'm<00:01:33.719> gonna<00:01:33.810> try<00:01:34.049> to<00:01:34.170> a<00:01:34.320> fireball<00:01:34.859> rate
+
+00:01:35.270 --> 00:01:35.280 
+I'm gonna try to a fireball rate
+
+00:01:35.280 --> 00:01:36.560 
+I'm gonna try to a fireball rate
+actually<00:01:35.579> -<00:01:35.909> it's<00:01:36.149> done
+
+00:01:36.560 --> 00:01:36.570 
+actually - it's done
+
+00:01:36.570 --> 00:01:40.789 
+actually - it's done
+so<00:01:37.439> show<00:01:38.399> example<00:01:39.229> notice<00:01:40.229> it's<00:01:40.469> not<00:01:40.499> coming
+
+00:01:40.789 --> 00:01:40.799 
+so show example notice it's not coming
+
+00:01:40.799 --> 00:01:46.039 
+so show example notice it's not coming
+out<00:01:42.770> but<00:01:43.770> when<00:01:43.950> I<00:01:43.979> try<00:01:44.219> to<00:01:44.249> do<00:01:44.399> an<00:01:44.520> ultra<00:01:45.060> which
+
+00:01:46.039 --> 00:01:46.049 
+out but when I try to do an ultra which
+
+00:01:46.049 --> 00:01:48.380 
+out but when I try to do an ultra which
+also<00:01:46.259> requires<00:01:46.740> a<00:01:46.829> charge<00:01:47.189> and<00:01:47.520> even<00:01:48.149> though
+
+00:01:48.380 --> 00:01:48.390 
+also requires a charge and even though
+
+00:01:48.390 --> 00:01:51.230 
+also requires a charge and even though
+it<00:01:48.539> requires<00:01:48.659> more<00:01:49.200> directions<00:01:49.880> I'm<00:01:50.880> able<00:01:51.210> to
+
+00:01:51.230 --> 00:01:51.240 
+it requires more directions I'm able to
+
+00:01:51.240 --> 00:01:55.359 
+it requires more directions I'm able to
+do<00:01:51.450> it<00:01:51.569> after<00:01:51.749> a<00:01:51.960> dash
+
+00:01:55.359 --> 00:01:55.369 
+
+00:01:55.369 --> 00:01:57.459 
+
+so<00:01:56.210> the<00:01:56.299> ultra<00:01:56.539> comes<00:01:56.719> up<00:01:56.869> with<00:01:57.020> a<00:01:57.049> fireball
+
+00:01:57.459 --> 00:01:57.469 
+so the ultra comes up with a fireball
+
+00:01:57.469 --> 00:02:01.440 
+so the ultra comes up with a fireball
+one<00:01:59.020> sir<00:02:00.020> just<00:02:00.289> something<00:02:00.829> to<00:02:00.890> keep<00:02:01.009> in<00:02:01.130> mind
+
+00:02:01.440 --> 00:02:01.450 
+one sir just something to keep in mind
+
+00:02:01.450 --> 00:02:03.459 
+one sir just something to keep in mind
+all<00:02:02.450> right<00:02:02.509> now<00:02:02.750> it's<00:02:02.899> time<00:02:03.049> to<00:02:03.079> explain
+
+00:02:03.459 --> 00:02:03.469 
+all right now it's time to explain
+
+00:02:03.469 --> 00:02:06.669 
+all right now it's time to explain
+buffering<00:02:04.090> now<00:02:05.090> buffering<00:02:05.810> is<00:02:06.170> basically
+
+00:02:06.669 --> 00:02:06.679 
+buffering now buffering is basically
+
+00:02:06.679 --> 00:02:10.029 
+buffering now buffering is basically
+input<00:02:07.549> in<00:02:07.640> emotion<00:02:08.209> during<00:02:09.200> the<00:02:09.289> animation<00:02:09.860> of
+
+00:02:10.029 --> 00:02:10.039 
+input in emotion during the animation of
+
+00:02:10.039 --> 00:02:11.890 
+input in emotion during the animation of
+something<00:02:10.489> else<00:02:10.670> it's<00:02:11.269> basically<00:02:11.629> like
+
+00:02:11.890 --> 00:02:11.900 
+something else it's basically like
+
+00:02:11.900 --> 00:02:13.570 
+something else it's basically like
+getting<00:02:12.260> a<00:02:12.470> head<00:02:12.620> start<00:02:12.950> on<00:02:13.099> the<00:02:13.220> next<00:02:13.459> thing
+
+00:02:13.570 --> 00:02:13.580 
+getting a head start on the next thing
+
+00:02:13.580 --> 00:02:15.369 
+getting a head start on the next thing
+you<00:02:13.700> want<00:02:13.849> to<00:02:13.940> do<00:02:14.120> while<00:02:14.750> something<00:02:15.019> else<00:02:15.230> is
+
+00:02:15.369 --> 00:02:15.379 
+you want to do while something else is
+
+00:02:15.379 --> 00:02:17.710 
+you want to do while something else is
+happening<00:02:15.410> and<00:02:16.069> the<00:02:16.730> reason<00:02:16.970> that's<00:02:17.060> possible
+
+00:02:17.710 --> 00:02:17.720 
+happening and the reason that's possible
+
+00:02:17.720 --> 00:02:20.380 
+happening and the reason that's possible
+like<00:02:18.319> I<00:02:18.410> said<00:02:18.650> before<00:02:18.769> is<00:02:19.250> because<00:02:19.280> the<00:02:20.000> engine
+
+00:02:20.380 --> 00:02:20.390 
+like I said before is because the engine
+
+00:02:20.390 --> 00:02:24.250 
+like I said before is because the engine
+stores<00:02:20.810> it<00:02:21.049> it<00:02:21.500> remembers<00:02:22.069> the<00:02:23.170> motion<00:02:24.170> you
+
+00:02:24.250 --> 00:02:24.260 
+stores it it remembers the motion you
+
+00:02:24.260 --> 00:02:26.559 
+stores it it remembers the motion you
+did<00:02:24.470> beforehand<00:02:25.069> even<00:02:25.610> if<00:02:25.700> you<00:02:25.760> don't<00:02:25.940> know
+
+00:02:26.559 --> 00:02:26.569 
+did beforehand even if you don't know
+
+00:02:26.569 --> 00:02:28.690 
+did beforehand even if you don't know
+what<00:02:26.750> buffering<00:02:27.170> is<00:02:27.349> everybody<00:02:28.340> uses
+
+00:02:28.690 --> 00:02:28.700 
+what buffering is everybody uses
+
+00:02:28.700 --> 00:02:30.520 
+what buffering is everybody uses
+buffering<00:02:29.150> whether<00:02:29.660> offensively<00:02:30.410> or
+
+00:02:30.520 --> 00:02:30.530 
+buffering whether offensively or
+
+00:02:30.530 --> 00:02:32.740 
+buffering whether offensively or
+defensively<00:02:31.299> okay<00:02:32.299> I'm<00:02:32.390> gonna<00:02:32.480> show<00:02:32.630> you<00:02:32.690> the
+
+00:02:32.740 --> 00:02:32.750 
+defensively okay I'm gonna show you the
+
+00:02:32.750 --> 00:02:35.140 
+defensively okay I'm gonna show you the
+most<00:02:32.780> basic<00:02:33.140> example<00:02:33.560> of<00:02:34.220> buffering<00:02:34.970> and
+
+00:02:35.140 --> 00:02:35.150 
+most basic example of buffering and
+
+00:02:35.150 --> 00:02:37.600 
+most basic example of buffering and
+that's<00:02:35.690> using<00:02:35.900> reuse<00:02:36.290> crouching<00:02:36.769> medium<00:02:36.980> kick
+
+00:02:37.600 --> 00:02:37.610 
+that's using reuse crouching medium kick
+
+00:02:37.610 --> 00:02:40.930 
+that's using reuse crouching medium kick
+in<00:02:37.819> the<00:02:38.000> fireball<00:02:38.450> okay<00:02:38.900> so<00:02:38.959> the<00:02:39.739> inputs<00:02:40.670> to<00:02:40.819> do
+
+00:02:40.930 --> 00:02:40.940 
+in the fireball okay so the inputs to do
+
+00:02:40.940 --> 00:02:43.690 
+in the fireball okay so the inputs to do
+this<00:02:41.090> would<00:02:41.299> be<00:02:41.450> crouching<00:02:42.379> medium<00:02:42.829> kick
+
+00:02:43.690 --> 00:02:43.700 
+this would be crouching medium kick
+
+00:02:43.700 --> 00:02:45.850 
+this would be crouching medium kick
+which<00:02:43.910> is<00:02:44.090> down<00:02:44.480> media<00:02:44.810> of<00:02:44.870> it<00:02:45.049> and<00:02:45.260> then
+
+00:02:45.850 --> 00:02:45.860 
+which is down media of it and then
+
+00:02:45.860 --> 00:02:47.110 
+which is down media of it and then
+fireball<00:02:46.340> which<00:02:46.489> is<00:02:46.670> quarter-circle<00:02:47.090> forward
+
+00:02:47.110 --> 00:02:47.120 
+fireball which is quarter-circle forward
+
+00:02:47.120 --> 00:02:50.650 
+fireball which is quarter-circle forward
+punch<00:02:48.019> now<00:02:49.239> hopefully<00:02:50.239> most<00:02:50.450> of<00:02:50.510> you<00:02:50.569> guys
+
+00:02:50.650 --> 00:02:50.660 
+punch now hopefully most of you guys
+
+00:02:50.660 --> 00:02:52.479 
+punch now hopefully most of you guys
+know<00:02:50.900> this<00:02:50.930> but<00:02:51.140> you<00:02:51.680> don't<00:02:51.829> have<00:02:51.950> to<00:02:52.099> just<00:02:52.340> go
+
+00:02:52.479 --> 00:02:52.489 
+know this but you don't have to just go
+
+00:02:52.489 --> 00:02:55.000 
+know this but you don't have to just go
+down<00:02:53.239> me<00:02:53.569> and<00:02:53.720> kick<00:02:53.870> and<00:02:54.019> then<00:02:54.110> start<00:02:54.739> down
+
+00:02:55.000 --> 00:02:55.010 
+down me and kick and then start down
+
+00:02:55.010 --> 00:02:57.009 
+down me and kick and then start down
+again<00:02:55.370> and<00:02:55.519> slide<00:02:55.910> it<00:02:56.030> the<00:02:56.120> punch<00:02:56.390> all<00:02:56.810> you
+
+00:02:57.009 --> 00:02:57.019 
+again and slide it the punch all you
+
+00:02:57.019 --> 00:03:00.220 
+again and slide it the punch all you
+have<00:02:57.140> to<00:02:57.230> do<00:02:57.379> is<00:02:57.590> just<00:02:57.829> hold<00:02:58.459> down<00:02:59.049> press<00:03:00.049> the
+
+00:03:00.220 --> 00:03:00.230 
+have to do is just hold down press the
+
+00:03:00.230 --> 00:03:01.750 
+have to do is just hold down press the
+medium<00:03:00.500> kick<00:03:00.680> and<00:03:00.859> then<00:03:01.010> just<00:03:01.250> slide<00:03:01.549> the
+
+00:03:01.750 --> 00:03:01.760 
+medium kick and then just slide the
+
+00:03:01.760 --> 00:03:04.170 
+medium kick and then just slide the
+stick<00:03:01.970> forward<00:03:02.299> and<00:03:02.569> then<00:03:02.930> press<00:03:03.380> punch<00:03:03.620> so
+
+00:03:04.170 --> 00:03:04.180 
+stick forward and then press punch so
+
+00:03:04.180 --> 00:03:08.910 
+stick forward and then press punch so
+like<00:03:05.180> so<00:03:05.650> so<00:03:06.650> what's<00:03:07.100> happening<00:03:07.549> is<00:03:07.760> is<00:03:08.000> that
+
+00:03:08.910 --> 00:03:08.920 
+like so so what's happening is is that
+
+00:03:08.920 --> 00:03:11.620 
+like so so what's happening is is that
+since<00:03:09.920> you<00:03:10.040> press<00:03:10.220> down<00:03:10.519> a<00:03:10.549> medium<00:03:11.000> kick<00:03:11.209> the
+
+00:03:11.620 --> 00:03:11.630 
+since you press down a medium kick the
+
+00:03:11.630 --> 00:03:13.180 
+since you press down a medium kick the
+down<00:03:11.840> is<00:03:12.049> saved<00:03:12.349> it's<00:03:12.590> already<00:03:12.920> the<00:03:13.040> game
+
+00:03:13.180 --> 00:03:13.190 
+down is saved it's already the game
+
+00:03:13.190 --> 00:03:15.580 
+down is saved it's already the game
+already<00:03:13.400> knows<00:03:13.609> to<00:03:13.730> hit<00:03:13.849> down<00:03:14.060> so<00:03:14.989> when<00:03:15.380> you<00:03:15.470> go
+
+00:03:15.580 --> 00:03:15.590 
+already knows to hit down so when you go
+
+00:03:15.590 --> 00:03:18.789 
+already knows to hit down so when you go
+down<00:03:15.620> forward<00:03:16.459> and<00:03:16.549> then<00:03:17.180> forward<00:03:17.630> punch<00:03:17.959> to
+
+00:03:18.789 --> 00:03:18.799 
+down forward and then forward punch to
+
+00:03:18.799 --> 00:03:21.370 
+down forward and then forward punch to
+say<00:03:18.920> you're<00:03:19.069> sliding<00:03:19.340> it<00:03:19.489> afterwards<00:03:20.380> the
+
+00:03:21.370 --> 00:03:21.380 
+say you're sliding it afterwards the
+
+00:03:21.380 --> 00:03:23.680 
+say you're sliding it afterwards the
+game<00:03:21.530> is<00:03:21.650> like<00:03:21.739> okay<00:03:22.099> so<00:03:22.700> he's<00:03:23.060> already<00:03:23.540> hit
+
+00:03:23.680 --> 00:03:23.690 
+game is like okay so he's already hit
+
+00:03:23.690 --> 00:03:25.210 
+game is like okay so he's already hit
+down<00:03:23.930> and<00:03:24.260> then<00:03:24.410> down<00:03:24.650> forward<00:03:24.950> down<00:03:25.069> for
+
+00:03:25.210 --> 00:03:25.220 
+down and then down forward down for
+
+00:03:25.220 --> 00:03:27.009 
+down and then down forward down for
+punch<00:03:25.489> now<00:03:25.669> he<00:03:25.730> wants<00:03:25.910> to<00:03:25.970> do<00:03:26.060> a<00:03:26.090> fireball<00:03:26.540> so
+
+00:03:27.009 --> 00:03:27.019 
+punch now he wants to do a fireball so
+
+00:03:27.019 --> 00:03:29.890 
+punch now he wants to do a fireball so
+I'm<00:03:27.169> basically<00:03:27.650> like<00:03:28.220> a<00:03:28.280> 2/1<00:03:28.880> and<00:03:29.060> the
+
+00:03:29.890 --> 00:03:29.900 
+I'm basically like a 2/1 and the
+
+00:03:29.900 --> 00:03:32.170 
+I'm basically like a 2/1 and the
+buffering<00:03:30.319> part<00:03:30.620> of<00:03:30.680> that<00:03:30.799> combo<00:03:31.220> was<00:03:31.430> was
+
+00:03:32.170 --> 00:03:32.180 
+buffering part of that combo was was
+
+00:03:32.180 --> 00:03:34.420 
+buffering part of that combo was was
+during<00:03:32.660> the<00:03:32.840> animation<00:03:33.500> of<00:03:33.680> Ryu<00:03:34.010> sticking<00:03:34.340> out
+
+00:03:34.420 --> 00:03:34.430 
+during the animation of Ryu sticking out
+
+00:03:34.430 --> 00:03:36.009 
+during the animation of Ryu sticking out
+his<00:03:34.519> foot<00:03:34.880> and<00:03:35.120> then<00:03:35.269> crushing<00:03:35.540> the<00:03:35.599> kick<00:03:35.870> I'm
+
+00:03:36.009 --> 00:03:36.019 
+his foot and then crushing the kick I'm
+
+00:03:36.019 --> 00:03:37.990 
+his foot and then crushing the kick I'm
+already<00:03:36.410> slidin<00:03:37.190> the<00:03:37.280> joystick
+
+00:03:37.990 --> 00:03:38.000 
+already slidin the joystick
+
+00:03:38.000 --> 00:03:40.240 
+already slidin the joystick
+that's<00:03:38.329> the<00:03:38.630> buffering<00:03:39.049> so<00:03:39.530> I'm<00:03:39.650> buffering
+
+00:03:40.240 --> 00:03:40.250 
+that's the buffering so I'm buffering
+
+00:03:40.250 --> 00:03:43.720 
+that's the buffering so I'm buffering
+the<00:03:40.970> fireball<00:03:41.510> basically<00:03:42.500> um<00:03:42.829> buffering<00:03:43.459> and
+
+00:03:43.720 --> 00:03:43.730 
+the fireball basically um buffering and
+
+00:03:43.730 --> 00:03:46.409 
+the fireball basically um buffering and
+understanding<00:03:44.389> how<00:03:44.510> it<00:03:44.660> works<00:03:44.900> is<00:03:45.169> essential
+
+00:03:46.409 --> 00:03:46.419 
+understanding how it works is essential
+
+00:03:46.419 --> 00:03:48.849 
+understanding how it works is essential
+it<00:03:47.419> basically<00:03:47.900> makes<00:03:48.200> you<00:03:48.380> input<00:03:48.590> your
+
+00:03:48.849 --> 00:03:48.859 
+it basically makes you input your
+
+00:03:48.859 --> 00:03:52.780 
+it basically makes you input your
+motions<00:03:49.400> much<00:03:50.000> quicker<00:03:50.329> skip<00:03:51.200> steps<00:03:51.560> and<00:03:51.859> make
+
+00:03:52.780 --> 00:03:52.790 
+motions much quicker skip steps and make
+
+00:03:52.790 --> 00:03:54.610 
+motions much quicker skip steps and make
+your<00:03:52.970> window<00:03:53.299> bigger<00:03:53.569> for<00:03:54.079> executing<00:03:54.530> your
+
+00:03:54.610 --> 00:03:54.620 
+your window bigger for executing your
+
+00:03:54.620 --> 00:03:55.270 
+your window bigger for executing your
+combos
+
+00:03:55.270 --> 00:03:55.280 
+combos
+
+00:03:55.280 --> 00:03:56.770 
+combos
+okay<00:03:56.000> so<00:03:56.090> let<00:03:56.239> me<00:03:56.269> give<00:03:56.419> another<00:03:56.450> quick
+
+00:03:56.770 --> 00:03:56.780 
+okay so let me give another quick
+
+00:03:56.780 --> 00:03:59.470 
+okay so let me give another quick
+example<00:03:56.810> um<00:03:57.470> say<00:03:58.340> when<00:03:58.459> I<00:03:58.519> go<00:03:58.700> crunch<00:03:59.090> a<00:03:59.239> medium
+
+00:03:59.470 --> 00:03:59.480 
+example um say when I go crunch a medium
+
+00:03:59.480 --> 00:04:01.599 
+example um say when I go crunch a medium
+kick<00:03:59.660> it<00:03:59.750> the<00:03:59.810> uppercut<00:04:00.319> with<00:04:00.470> Ryu<00:04:00.680> instead<00:04:01.010> so
+
+00:04:01.599 --> 00:04:01.609 
+kick it the uppercut with Ryu instead so
+
+00:04:01.609 --> 00:04:03.610 
+kick it the uppercut with Ryu instead so
+since<00:04:02.000> we<00:04:02.150> know<00:04:02.209> the<00:04:02.419> shortcut<00:04:02.930> is<00:04:03.169> down<00:04:03.379> for
+
+00:04:03.610 --> 00:04:03.620 
+since we know the shortcut is down for
+
+00:04:03.620 --> 00:04:06.100 
+since we know the shortcut is down for
+it<00:04:03.680> down<00:04:03.860> for<00:04:04.159> it<00:04:04.250> all<00:04:04.969> I<00:04:05.060> gotta<00:04:05.209> do<00:04:05.420> is<00:04:05.450> go<00:04:05.750> down
+
+00:04:06.100 --> 00:04:06.110 
+it down for it all I gotta do is go down
+
+00:04:06.110 --> 00:04:07.539 
+it down for it all I gotta do is go down
+forward<00:04:06.530> and<00:04:06.560> kick
+
+00:04:07.539 --> 00:04:07.549 
+forward and kick
+
+00:04:07.549 --> 00:04:09.949 
+forward and kick
+move<00:04:08.549> the<00:04:08.610> joystick<00:04:08.640> back<00:04:09.150> and<00:04:09.420> then<00:04:09.599> back<00:04:09.810> to
+
+00:04:09.949 --> 00:04:09.959 
+move the joystick back and then back to
+
+00:04:09.959 --> 00:04:11.390 
+move the joystick back and then back to
+down<00:04:10.110> four<00:04:10.470> and<00:04:10.680> then<00:04:10.769> press<00:04:10.920> punch<00:04:11.220> and<00:04:11.370> that
+
+00:04:11.390 --> 00:04:11.400 
+down four and then press punch and that
+
+00:04:11.400 --> 00:04:15.500 
+down four and then press punch and that
+uppercut<00:04:11.700> will<00:04:11.909> come<00:04:12.030> out<00:04:12.150> as<00:04:12.269> a<00:04:12.360> watch<00:04:14.510> so
+
+00:04:15.500 --> 00:04:15.510 
+uppercut will come out as a watch so
+
+00:04:15.510 --> 00:04:16.969 
+uppercut will come out as a watch so
+what<00:04:15.599> I'm<00:04:15.689> doing<00:04:15.720> is<00:04:15.930> I'm<00:04:16.079> buffering<00:04:16.650> once
+
+00:04:16.969 --> 00:04:16.979 
+what I'm doing is I'm buffering once
+
+00:04:16.979 --> 00:04:19.189 
+what I'm doing is I'm buffering once
+again<00:04:17.310> the<00:04:17.820> joystick<00:04:18.180> down<00:04:18.209> back<00:04:18.630> then<00:04:18.989> down
+
+00:04:19.189 --> 00:04:19.199 
+again the joystick down back then down
+
+00:04:19.199 --> 00:04:21.259 
+again the joystick down back then down
+forward<00:04:19.590> and<00:04:19.680> punch<00:04:19.889> as<00:04:20.160> you<00:04:20.370> can<00:04:20.519> see<00:04:20.790> that's
+
+00:04:21.259 --> 00:04:21.269 
+forward and punch as you can see that's
+
+00:04:21.269 --> 00:04:22.850 
+forward and punch as you can see that's
+a<00:04:21.479> lot<00:04:21.600> easier<00:04:21.810> than<00:04:22.109> in<00:04:22.320> putting<00:04:22.590> it<00:04:22.680> down<00:04:22.800> a
+
+00:04:22.850 --> 00:04:22.860 
+a lot easier than in putting it down a
+
+00:04:22.860 --> 00:04:24.320 
+a lot easier than in putting it down a
+medium<00:04:23.190> picking<00:04:23.460> and<00:04:23.580> starting<00:04:23.880> from<00:04:24.000> forward
+
+00:04:24.320 --> 00:04:24.330 
+medium picking and starting from forward
+
+00:04:24.330 --> 00:04:25.550 
+medium picking and starting from forward
+and<00:04:24.419> doing<00:04:24.510> the<00:04:24.660> entire<00:04:24.960> motion<00:04:25.260> of<00:04:25.470> the
+
+00:04:25.550 --> 00:04:25.560 
+and doing the entire motion of the
+
+00:04:25.560 --> 00:04:28.969 
+and doing the entire motion of the
+uppercut<00:04:26.660> so<00:04:27.660> another<00:04:27.810> common<00:04:28.080> example<00:04:28.350> is
+
+00:04:28.969 --> 00:04:28.979 
+uppercut so another common example is
+
+00:04:28.979 --> 00:04:32.240 
+uppercut so another common example is
+using<00:04:29.430> a<00:04:29.610> throw<00:04:29.850> Ultra<00:04:30.150> which<00:04:30.300> is<00:04:30.449> 720<00:04:31.020> or<00:04:31.250> 540
+
+00:04:32.240 --> 00:04:32.250 
+using a throw Ultra which is 720 or 540
+
+00:04:32.250 --> 00:04:34.219 
+using a throw Ultra which is 720 or 540
+fuse<00:04:32.460> in<00:04:32.580> the<00:04:32.639> shortcut<00:04:32.910> and<00:04:33.240> you<00:04:33.570> just<00:04:33.840> jump
+
+00:04:34.219 --> 00:04:34.229 
+fuse in the shortcut and you just jump
+
+00:04:34.229 --> 00:04:37.070 
+fuse in the shortcut and you just jump
+and<00:04:34.410> do<00:04:34.590> it<00:04:35.000> what<00:04:36.000> I'm<00:04:36.060> doing<00:04:36.300> is<00:04:36.360> I'm<00:04:36.510> offering
+
+00:04:37.070 --> 00:04:37.080 
+and do it what I'm doing is I'm offering
+
+00:04:37.080 --> 00:04:39.590 
+and do it what I'm doing is I'm offering
+motion<00:04:37.860> while<00:04:38.130> in<00:04:38.430> the<00:04:38.580> air<00:04:38.820> and<00:04:39.120> as<00:04:39.240> soon<00:04:39.449> as<00:04:39.510> I
+
+00:04:39.590 --> 00:04:39.600 
+motion while in the air and as soon as I
+
+00:04:39.600 --> 00:04:41.870 
+motion while in the air and as soon as I
+land<00:04:39.870> I<00:04:40.199> think<00:04:40.470> the<00:04:41.070> three<00:04:41.280> punches<00:04:41.639> and<00:04:41.789> the
+
+00:04:41.870 --> 00:04:41.880 
+land I think the three punches and the
+
+00:04:41.880 --> 00:04:43.939 
+land I think the three punches and the
+ultra<00:04:42.150> comes<00:04:42.330> out<00:04:42.570> people<00:04:43.289> use<00:04:43.530> this<00:04:43.650> all<00:04:43.830> the
+
+00:04:43.939 --> 00:04:43.949 
+ultra comes out people use this all the
+
+00:04:43.949 --> 00:04:45.350 
+ultra comes out people use this all the
+time<00:04:44.160> and<00:04:44.370> that's<00:04:44.520> just<00:04:44.699> another<00:04:44.880> example<00:04:45.030> of
+
+00:04:45.350 --> 00:04:45.360 
+time and that's just another example of
+
+00:04:45.360 --> 00:04:47.210 
+time and that's just another example of
+buffering<00:04:45.750> it's<00:04:46.199> because<00:04:46.590> of<00:04:46.740> buffering<00:04:47.160> that
+
+00:04:47.210 --> 00:04:47.220 
+buffering it's because of buffering that
+
+00:04:47.220 --> 00:04:49.310 
+buffering it's because of buffering that
+makes<00:04:47.610> it<00:04:48.030> possible<00:04:48.360> for<00:04:48.660> barb<00:04:49.020> to<00:04:49.169> do<00:04:49.289> a
+
+00:04:49.310 --> 00:04:49.320 
+makes it possible for barb to do a
+
+00:04:49.320 --> 00:04:51.710 
+makes it possible for barb to do a
+headbutt<00:04:49.710> into<00:04:49.919> ultra<00:04:50.340> head<00:04:50.970> but<00:04:51.180> requires<00:04:51.570> a
+
+00:04:51.710 --> 00:04:51.720 
+headbutt into ultra head but requires a
+
+00:04:51.720 --> 00:04:54.800 
+headbutt into ultra head but requires a
+download<00:04:52.139> charge<00:04:52.410> to<00:04:53.250> pop<00:04:53.460> a<00:04:53.490> punch<00:04:53.880> but<00:04:54.660> the
+
+00:04:54.800 --> 00:04:54.810 
+download charge to pop a punch but the
+
+00:04:54.810 --> 00:04:57.200 
+download charge to pop a punch but the
+ultra<00:04:55.139> requires<00:04:55.500> you<00:04:55.710> to<00:04:55.740> do<00:04:56.010> a<00:04:56.039> downs<00:04:56.370> back
+
+00:04:57.200 --> 00:04:57.210 
+ultra requires you to do a downs back
+
+00:04:57.210 --> 00:04:59.870 
+ultra requires you to do a downs back
+charge<00:04:57.630> and<00:04:57.960> go<00:04:58.620> forward<00:04:59.039> back<00:04:59.520> forward
+
+00:04:59.870 --> 00:04:59.880 
+charge and go forward back forward
+
+00:04:59.880 --> 00:05:03.409 
+charge and go forward back forward
+punches<00:05:00.539> or<00:05:01.110> kicks<00:05:01.139> and<00:05:02.180> what<00:05:03.180> you're<00:05:03.330> doing
+
+00:05:03.409 --> 00:05:03.419 
+punches or kicks and what you're doing
+
+00:05:03.419 --> 00:05:04.879 
+punches or kicks and what you're doing
+is<00:05:03.630> just<00:05:03.840> by<00:05:03.960> holding<00:05:04.110> down<00:05:04.289> back<00:05:04.680> you're
+
+00:05:04.879 --> 00:05:04.889 
+is just by holding down back you're
+
+00:05:04.889 --> 00:05:07.219 
+is just by holding down back you're
+buffering<00:05:05.370> both<00:05:05.820> the<00:05:06.000> motions<00:05:06.360> soil<00:05:07.020> for
+
+00:05:07.219 --> 00:05:07.229 
+buffering both the motions soil for
+
+00:05:07.229 --> 00:05:12.589 
+buffering both the motions soil for
+example<00:05:07.620> to<00:05:08.810> is<00:05:09.810> I'm<00:05:09.960> holding<00:05:10.139> down<00:05:10.320> back<00:05:11.599> I'm
+
+00:05:12.589 --> 00:05:12.599 
+example to is I'm holding down back I'm
+
+00:05:12.599 --> 00:05:14.689 
+example to is I'm holding down back I'm
+just<00:05:12.660> sliding<00:05:13.199> the<00:05:13.440> stick<00:05:13.800> up<00:05:14.070> and<00:05:14.460> pressing
+
+00:05:14.689 --> 00:05:14.699 
+just sliding the stick up and pressing
+
+00:05:14.699 --> 00:05:16.760 
+just sliding the stick up and pressing
+punch<00:05:15.090> but<00:05:15.660> whilst<00:05:15.870> lying<00:05:16.080> to<00:05:16.199> stick<00:05:16.440> up<00:05:16.590> I'm
+
+00:05:16.760 --> 00:05:16.770 
+punch but whilst lying to stick up I'm
+
+00:05:16.770 --> 00:05:19.700 
+punch but whilst lying to stick up I'm
+holding<00:05:17.070> back<00:05:17.849> still<00:05:18.270> so<00:05:18.539> I'm<00:05:18.630> like<00:05:18.810> grinding
+
+00:05:19.700 --> 00:05:19.710 
+holding back still so I'm like grinding
+
+00:05:19.710 --> 00:05:20.930 
+holding back still so I'm like grinding
+against<00:05:19.860> the<00:05:19.979> edge<00:05:20.130> of<00:05:20.400> the<00:05:20.490> gate<00:05:20.729> of<00:05:20.849> the
+
+00:05:20.930 --> 00:05:20.940 
+against the edge of the gate of the
+
+00:05:20.940 --> 00:05:23.300 
+against the edge of the gate of the
+stick<00:05:21.210> and<00:05:21.680> because<00:05:22.680> of<00:05:22.710> that<00:05:22.860> I'm<00:05:23.070> still
+
+00:05:23.300 --> 00:05:23.310 
+stick and because of that I'm still
+
+00:05:23.310 --> 00:05:25.279 
+stick and because of that I'm still
+holding<00:05:23.610> the<00:05:23.699> back<00:05:23.849> charge<00:05:24.210> and<00:05:24.510> the<00:05:25.169> game
+
+00:05:25.279 --> 00:05:25.289 
+holding the back charge and the game
+
+00:05:25.289 --> 00:05:27.980 
+holding the back charge and the game
+remembers<00:05:25.710> that<00:05:25.889> and<00:05:26.130> then<00:05:26.820> I<00:05:27.060> just<00:05:27.360> go<00:05:27.720> for
+
+00:05:27.980 --> 00:05:27.990 
+remembers that and then I just go for
+
+00:05:27.990 --> 00:05:29.570 
+remembers that and then I just go for
+back<00:05:28.169> four<00:05:28.410> then<00:05:28.680> three<00:05:28.860> punches<00:05:29.280> of<00:05:29.430> three
+
+00:05:29.570 --> 00:05:29.580 
+back four then three punches of three
+
+00:05:29.580 --> 00:05:31.670 
+back four then three punches of three
+kicks<00:05:29.870> okay<00:05:30.870> so<00:05:30.930> I'm<00:05:31.080> not<00:05:31.139> gonna<00:05:31.289> go<00:05:31.440> through<00:05:31.590> a
+
+00:05:31.670 --> 00:05:31.680 
+kicks okay so I'm not gonna go through a
+
+00:05:31.680 --> 00:05:33.800 
+kicks okay so I'm not gonna go through a
+bunch<00:05:31.830> of<00:05:32.010> bullet<00:05:32.310> point<00:05:32.490> examples<00:05:32.970> using<00:05:33.539> all
+
+00:05:33.800 --> 00:05:33.810 
+bunch of bullet point examples using all
+
+00:05:33.810 --> 00:05:35.210 
+bunch of bullet point examples using all
+the<00:05:33.900> different<00:05:34.020> motions<00:05:34.590> in<00:05:34.710> the<00:05:34.740> game<00:05:34.979> and
+
+00:05:35.210 --> 00:05:35.220 
+the different motions in the game and
+
+00:05:35.220 --> 00:05:37.040 
+the different motions in the game and
+how<00:05:35.639> you<00:05:35.820> can<00:05:35.940> use<00:05:36.120> probably<00:05:36.510> when<00:05:36.930> you're
+
+00:05:37.040 --> 00:05:37.050 
+how you can use probably when you're
+
+00:05:37.050 --> 00:05:39.320 
+how you can use probably when you're
+buffering<00:05:37.560> how<00:05:38.220> you<00:05:38.280> use<00:05:38.789> the<00:05:38.910> storing
+
+00:05:39.320 --> 00:05:39.330 
+buffering how you use the storing
+
+00:05:39.330 --> 00:05:42.170 
+buffering how you use the storing
+mechanic<00:05:39.750> of<00:05:39.870> the<00:05:39.960> engine<00:05:40.349> to<00:05:40.889> not<00:05:41.220> do<00:05:41.849> as<00:05:41.970> many
+
+00:05:42.170 --> 00:05:42.180 
+mechanic of the engine to not do as many
+
+00:05:42.180 --> 00:05:43.670 
+mechanic of the engine to not do as many
+motions<00:05:42.570> as<00:05:42.690> you're<00:05:42.840> actually<00:05:43.020> supposed<00:05:43.470> to
+
+00:05:43.670 --> 00:05:43.680 
+motions as you're actually supposed to
+
+00:05:43.680 --> 00:05:46.939 
+motions as you're actually supposed to
+do<00:05:43.860> so<00:05:44.820> let's<00:05:45.090> start<00:05:45.300> off<00:05:45.389> with<00:05:45.479> Ryu<00:05:45.780> and<00:05:45.960> this
+
+00:05:46.939 --> 00:05:46.949 
+do so let's start off with Ryu and this
+
+00:05:46.949 --> 00:05:50.960 
+do so let's start off with Ryu and this
+fireball<00:05:47.430> super<00:05:48.620> okay<00:05:49.620> so<00:05:49.919> his<00:05:50.430> fireball
+
+00:05:50.960 --> 00:05:50.970 
+fireball super okay so his fireball
+
+00:05:50.970 --> 00:05:53.839 
+fireball super okay so his fireball
+corsica<00:05:51.539> for<00:05:51.780> final<00:05:52.199> kick<00:05:52.409> super<00:05:53.310> double
+
+00:05:53.839 --> 00:05:53.849 
+corsica for final kick super double
+
+00:05:53.849 --> 00:05:55.969 
+corsica for final kick super double
+quarter<00:05:54.120> circle<00:05:54.389> for<00:05:54.539> a<00:05:54.570> punch<00:05:54.900> now<00:05:55.590> if<00:05:55.889> you
+
+00:05:55.969 --> 00:05:55.979 
+quarter circle for a punch now if you
+
+00:05:55.979 --> 00:05:58.010 
+quarter circle for a punch now if you
+want<00:05:56.130> to<00:05:56.190> do<00:05:56.280> fireball<00:05:56.760> canceled<00:05:57.270> into<00:05:57.630> super
+
+00:05:58.010 --> 00:05:58.020 
+want to do fireball canceled into super
+
+00:05:58.020 --> 00:06:00.469 
+want to do fireball canceled into super
+fireball<00:05:58.530> it's<00:05:59.159> not<00:05:59.430> just<00:05:59.729> core<00:06:00.150> circle
+
+00:06:00.469 --> 00:06:00.479 
+fireball it's not just core circle
+
+00:06:00.479 --> 00:06:02.240 
+fireball it's not just core circle
+forward<00:06:00.750> punch<00:06:01.289> then<00:06:01.650> quarter<00:06:01.979> circle
+
+00:06:02.240 --> 00:06:02.250 
+forward punch then quarter circle
+
+00:06:02.250 --> 00:06:03.740 
+forward punch then quarter circle
+courser<00:06:02.610> before<00:06:02.880> you've<00:06:03.060> already<00:06:03.300> included
+
+00:06:03.740 --> 00:06:03.750 
+courser before you've already included
+
+00:06:03.750 --> 00:06:05.990 
+courser before you've already included
+it<00:06:03.810> once<00:06:04.080> already<00:06:04.320> so<00:06:04.680> the<00:06:05.400> game<00:06:05.550> remembers
+
+00:06:05.990 --> 00:06:06.000 
+it once already so the game remembers
+
+00:06:06.000 --> 00:06:07.430 
+it once already so the game remembers
+that<00:06:06.120> and<00:06:06.360> theis<00:06:06.630> the<00:06:06.659> only<00:06:06.900> have<00:06:06.990> to<00:06:07.050> input<00:06:07.349> it
+
+00:06:07.430 --> 00:06:07.440 
+that and theis the only have to input it
+
+00:06:07.440 --> 00:06:09.980 
+that and theis the only have to input it
+one<00:06:07.620> more<00:06:07.830> time<00:06:08.099> so<00:06:08.760> it's<00:06:09.479> a<00:06:09.599> quarter<00:06:09.840> circle
+
+00:06:09.980 --> 00:06:09.990 
+one more time so it's a quarter circle
+
+00:06:09.990 --> 00:06:11.779 
+one more time so it's a quarter circle
+for<00:06:10.289> punch<00:06:10.590> and<00:06:10.830> then<00:06:11.070> another<00:06:11.340> quarter
+
+00:06:11.779 --> 00:06:11.789 
+for punch and then another quarter
+
+00:06:11.789 --> 00:06:15.400 
+for punch and then another quarter
+circle<00:06:12.060> for<00:06:12.240> console<00:06:12.780> watch
+
+00:06:15.400 --> 00:06:15.410 
+
+00:06:15.410 --> 00:06:17.170 
+
+it's<00:06:15.920> the<00:06:15.980> only<00:06:16.160> input<00:06:16.520> one<00:06:16.760> more<00:06:16.910> chorus
+
+00:06:17.170 --> 00:06:17.180 
+it's the only input one more chorus
+
+00:06:17.180 --> 00:06:21.480 
+it's the only input one more chorus
+circle<00:06:17.480> for<00:06:17.660> because<00:06:17.900> the<00:06:17.990> game<00:06:18.170> remembers<00:06:18.650> it
+
+00:06:21.480 --> 00:06:21.490 
+
+00:06:21.490 --> 00:06:23.830 
+
+say<00:06:22.490> I<00:06:22.520> want<00:06:22.700> to<00:06:22.730> do<00:06:22.850> upper<00:06:23.150> kind<00:06:23.360> of<00:06:23.510> fireball
+
+00:06:23.830 --> 00:06:23.840 
+say I want to do upper kind of fireball
+
+00:06:23.840 --> 00:06:26.050 
+say I want to do upper kind of fireball
+super<00:06:24.230> simple<00:06:25.160> just<00:06:25.670> when<00:06:25.790> you<00:06:25.850> do<00:06:25.970> the
+
+00:06:26.050 --> 00:06:26.060 
+super simple just when you do the
+
+00:06:26.060 --> 00:06:28.480 
+super simple just when you do the
+uppercut<00:06:26.330> motion<00:06:26.690> just<00:06:27.140> press<00:06:27.350> for<00:06:27.740> cursor
+
+00:06:28.480 --> 00:06:28.490 
+uppercut motion just press for cursor
+
+00:06:28.490 --> 00:06:30.460 
+uppercut motion just press for cursor
+quarter<00:06:28.910> circle<00:06:29.180> forward<00:06:29.480> punch<00:06:29.660> which<00:06:30.350> will
+
+00:06:30.460 --> 00:06:30.470 
+quarter circle forward punch which will
+
+00:06:30.470 --> 00:06:31.840 
+quarter circle forward punch which will
+do<00:06:30.560> the<00:06:30.590> uppercut<00:06:30.980> then<00:06:31.250> just<00:06:31.400> one<00:06:31.670> more
+
+00:06:31.840 --> 00:06:31.850 
+do the uppercut then just one more
+
+00:06:31.850 --> 00:06:33.040 
+do the uppercut then just one more
+quarter<00:06:32.180> circle<00:06:32.480> for<00:06:32.690> it<00:06:32.780> because<00:06:32.900> you've
+
+00:06:33.040 --> 00:06:33.050 
+quarter circle for it because you've
+
+00:06:33.050 --> 00:06:34.480 
+quarter circle for it because you've
+already<00:06:33.290> inputted<00:06:33.500> the<00:06:33.830> first<00:06:34.130> part<00:06:34.370> of<00:06:34.400> the
+
+00:06:34.480 --> 00:06:34.490 
+already inputted the first part of the
+
+00:06:34.490 --> 00:06:36.550 
+already inputted the first part of the
+super<00:06:34.820> when<00:06:35.510> you<00:06:35.600> do<00:06:35.720> your<00:06:35.840> uppercut<00:06:36.260> it's<00:06:36.500> a
+
+00:06:36.550 --> 00:06:36.560 
+super when you do your uppercut it's a
+
+00:06:36.560 --> 00:06:46.240 
+super when you do your uppercut it's a
+watch<00:06:43.750> so<00:06:44.750> for<00:06:44.930> half<00:06:45.110> circle<00:06:45.590> motion<00:06:46.010> moves
+
+00:06:46.240 --> 00:06:46.250 
+watch so for half circle motion moves
+
+00:06:46.250 --> 00:06:48.880 
+watch so for half circle motion moves
+into<00:06:46.670> super<00:06:47.090> like<00:06:47.450> roles<00:06:47.720> for<00:06:47.870> example<00:06:47.930> just
+
+00:06:48.880 --> 00:06:48.890 
+into super like roles for example just
+
+00:06:48.890 --> 00:06:50.590 
+into super like roles for example just
+one<00:06:49.010> half<00:06:49.340> circle<00:06:49.700> for<00:06:49.910> punch<00:06:50.240> for<00:06:50.570> the
+
+00:06:50.590 --> 00:06:50.600 
+one half circle for punch for the
+
+00:06:50.600 --> 00:06:52.690 
+one half circle for punch for the
+fireball<00:06:51.080> and<00:06:51.320> then<00:06:51.530> one<00:06:51.890> more<00:06:52.100> chorus<00:06:52.370> circle
+
+00:06:52.690 --> 00:06:52.700 
+fireball and then one more chorus circle
+
+00:06:52.700 --> 00:06:57.640 
+fireball and then one more chorus circle
+forward<00:06:52.970> for<00:06:53.210> the<00:06:53.330> super<00:06:56.140> this<00:06:57.140> also<00:06:57.350> works
+
+00:06:57.640 --> 00:06:57.650 
+forward for the super this also works
+
+00:06:57.650 --> 00:06:59.410 
+forward for the super this also works
+for<00:06:57.740> charged<00:06:58.040> characters<00:06:58.490> if<00:06:59.060> I<00:06:59.180> want<00:06:59.300> I<00:06:59.330> do
+
+00:06:59.410 --> 00:06:59.420 
+for charged characters if I want I do
+
+00:06:59.420 --> 00:07:02.590 
+for charged characters if I want I do
+say<00:07:00.230> a<00:07:00.260> ball<00:07:00.890> rush<00:07:01.070> rush<00:07:01.280> punch<00:07:01.580> just<00:07:02.270> charge
+
+00:07:02.590 --> 00:07:02.600 
+say a ball rush rush punch just charge
+
+00:07:02.600 --> 00:07:06.370 
+say a ball rush rush punch just charge
+and<00:07:03.230> then<00:07:03.380> rush<00:07:03.590> punch<00:07:03.860> into<00:07:04.070> a<00:07:04.220> super<00:07:05.380> instead
+
+00:07:06.370 --> 00:07:06.380 
+and then rush punch into a super instead
+
+00:07:06.380 --> 00:07:08.020 
+and then rush punch into a super instead
+of<00:07:06.470> going<00:07:06.740> hold<00:07:07.040> down<00:07:07.250> back<00:07:07.520> and<00:07:07.760> then<00:07:07.850> going
+
+00:07:08.020 --> 00:07:08.030 
+of going hold down back and then going
+
+00:07:08.030 --> 00:07:10.270 
+of going hold down back and then going
+forward<00:07:08.360> and<00:07:08.630> then<00:07:08.930> back<00:07:09.500> forward<00:07:09.890> back<00:07:09.920> for
+
+00:07:10.270 --> 00:07:10.280 
+forward and then back forward back for
+
+00:07:10.280 --> 00:07:11.890 
+forward and then back forward back for
+punch<00:07:10.580> you<00:07:10.760> just<00:07:10.970> have<00:07:11.060> to<00:07:11.150> do<00:07:11.270> one<00:07:11.480> more<00:07:11.510> back
+
+00:07:11.890 --> 00:07:11.900 
+punch you just have to do one more back
+
+00:07:11.900 --> 00:07:13.360 
+punch you just have to do one more back
+forward<00:07:12.260> punch<00:07:12.470> because<00:07:12.950> you've<00:07:13.160> already
+
+00:07:13.360 --> 00:07:13.370 
+forward punch because you've already
+
+00:07:13.370 --> 00:07:18.970 
+forward punch because you've already
+inputted<00:07:13.640> it<00:07:13.940> once<00:07:14.180> so<00:07:14.660> watch<00:07:17.290> this<00:07:18.290> a<00:07:18.470> lot
+
+00:07:18.970 --> 00:07:18.980 
+inputted it once so watch this a lot
+
+00:07:18.980 --> 00:07:22.030 
+inputted it once so watch this a lot
+easier<00:07:19.600> to<00:07:20.600> do<00:07:20.780> flash<00:07:21.110> kick<00:07:21.380> into<00:07:21.530> flash<00:07:21.800> kick
+
+00:07:22.030 --> 00:07:22.040 
+easier to do flash kick into flash kick
+
+00:07:22.040 --> 00:07:25.210 
+easier to do flash kick into flash kick
+super<00:07:22.430> you<00:07:23.060> just<00:07:23.300> hold<00:07:23.480> down<00:07:23.600> back<00:07:24.050> and<00:07:24.350> then
+
+00:07:25.210 --> 00:07:25.220 
+super you just hold down back and then
+
+00:07:25.220 --> 00:07:27.010 
+super you just hold down back and then
+press<00:07:25.460> up<00:07:25.610> forward<00:07:26.060> kick<00:07:26.300> and<00:07:26.570> then<00:07:26.810> just
+
+00:07:27.010 --> 00:07:27.020 
+press up forward kick and then just
+
+00:07:27.020 --> 00:07:28.990 
+press up forward kick and then just
+another<00:07:27.260> down<00:07:27.740> back<00:07:28.010> up<00:07:28.250> forward<00:07:28.490> kick<00:07:28.760> so
+
+00:07:28.990 --> 00:07:29.000 
+another down back up forward kick so
+
+00:07:29.000 --> 00:07:34.870 
+another down back up forward kick so
+it's<00:07:29.120> like<00:07:29.240> this<00:07:32.170> so<00:07:33.170> down<00:07:33.860> the<00:07:34.010> back<00:07:34.160> up
+
+00:07:34.870 --> 00:07:34.880 
+it's like this so down the back up
+
+00:07:34.880 --> 00:07:37.090 
+it's like this so down the back up
+forward<00:07:35.210> kick<00:07:35.540> then<00:07:36.230> down<00:07:36.470> it<00:07:36.590> back<00:07:36.710> upward
+
+00:07:37.090 --> 00:07:37.100 
+forward kick then down it back upward
+
+00:07:37.100 --> 00:07:39.520 
+forward kick then down it back upward
+kick<00:07:37.280> again<00:07:37.610> really<00:07:37.970> fast<00:07:38.270> if<00:07:39.080> you<00:07:39.260> want<00:07:39.290> to<00:07:39.440> do
+
+00:07:39.520 --> 00:07:39.530 
+kick again really fast if you want to do
+
+00:07:39.530 --> 00:07:41.890 
+kick again really fast if you want to do
+something<00:07:39.860> like<00:07:39.950> sonic<00:07:40.340> boom<00:07:40.660> into<00:07:41.660> flash
+
+00:07:41.890 --> 00:07:41.900 
+something like sonic boom into flash
+
+00:07:41.900 --> 00:07:43.530 
+something like sonic boom into flash
+kick<00:07:42.110> super<00:07:42.500> it's<00:07:42.770> a<00:07:42.800> little<00:07:42.980> bit<00:07:43.070> trickier
+
+00:07:43.530 --> 00:07:43.540 
+kick super it's a little bit trickier
+
+00:07:43.540 --> 00:07:46.000 
+kick super it's a little bit trickier
+yeah<00:07:44.540> I<00:07:44.570> do<00:07:44.810> this<00:07:44.990> do<00:07:45.170> it<00:07:45.290> down<00:07:45.470> back<00:07:45.650> charge
+
+00:07:46.000 --> 00:07:46.010 
+yeah I do this do it down back charge
+
+00:07:46.010 --> 00:07:48.820 
+yeah I do this do it down back charge
+and<00:07:46.340> then<00:07:47.180> press<00:07:47.360> for<00:07:47.750> punch<00:07:48.080> put<00:07:48.560> your<00:07:48.680> did<00:07:48.800> a
+
+00:07:48.820 --> 00:07:48.830 
+and then press for punch put your did a
+
+00:07:48.830 --> 00:07:51.130 
+and then press for punch put your did a
+sonic<00:07:49.130> boom<00:07:49.250> and<00:07:49.490> then<00:07:50.030> slide<00:07:50.510> the<00:07:50.660> joystick
+
+00:07:51.130 --> 00:07:51.140 
+sonic boom and then slide the joystick
+
+00:07:51.140 --> 00:07:54.370 
+sonic boom and then slide the joystick
+from<00:07:51.500> down<00:07:51.740> forward<00:07:52.960> all<00:07:53.960> the<00:07:54.110> way<00:07:54.170> back
+
+00:07:54.370 --> 00:07:54.380 
+from down forward all the way back
+
+00:07:54.380 --> 00:07:56.290 
+from down forward all the way back
+Crescent<00:07:54.830> and<00:07:54.890> backwards<00:07:55.280> oppress<00:07:55.490> kick<00:07:55.700> kind
+
+00:07:56.290 --> 00:07:56.300 
+Crescent and backwards oppress kick kind
+
+00:07:56.300 --> 00:07:57.310 
+Crescent and backwards oppress kick kind
+of<00:07:56.360> late<00:07:56.480> that<00:07:56.510> trick<00:07:56.810> I<00:07:56.900> showed<00:07:57.050> you<00:07:57.200> at<00:07:57.260> the
+
+00:07:57.310 --> 00:07:57.320 
+of late that trick I showed you at the
+
+00:07:57.320 --> 00:08:00.610 
+of late that trick I showed you at the
+ultra<00:07:57.680> so<00:07:57.890> let<00:07:57.980> me<00:07:58.040> show<00:07:58.160> an<00:07:58.220> example
+

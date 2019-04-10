@@ -1,0 +1,171 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.199 --> 00:00:04.170
+At the heart of all AMD's graphics core
+next base GPU's
+
+00:00:04.170 --> 00:00:07.290
+are large highly parallel computation
+engines
+
+00:00:07.290 --> 00:00:11.269
+capable of processing many thousands of individual pieces have data
+
+00:00:11.269 --> 00:00:15.500
+at the same time. These engines are fed
+by one command processor
+
+00:00:15.600 --> 00:00:18.990
+and multiple asynchronous compute
+engines or ACE.
+
+00:00:18.990 --> 00:00:24.250
+The command processor handles the main graphics cue and ACE's handle compute cues.
+
+00:00:24.250 --> 00:00:29.340
+ACE's enable the GPU to process
+multiple compute tasks simultaneously
+
+00:00:29.340 --> 00:00:32.380
+increasing GPUs efficiency in boosting
+performance
+
+00:00:32.380 --> 00:00:36.149
+crucial to reducing latency and
+delivering consistent frame rates.
+
+00:00:36.149 --> 00:00:39.600
+Gaps between rendering tasks leave part of the GPU idling
+
+00:00:39.600 --> 00:00:44.149
+which in turn reduce GPUs efficiency. Asynchronous Shaders address this by
+
+00:00:44.149 --> 00:00:45.719
+scheduling compute tasks asynchronously
+
+00:00:45.719 --> 00:00:49.690
+or concurrently with graphics rendering tasks without waiting
+
+00:00:49.690 --> 00:00:51.660
+for current rendering work to finish.
+
+00:00:51.660 --> 00:00:55.550
+Submitting tasks is easy if they're coming
+in order from a single source,
+
+00:00:55.550 --> 00:00:58.809
+it gets trickier when they're being
+submitted multiple sources.
+
+00:00:58.809 --> 00:01:02.020
+New API's like DirectX12, Vulkan
+
+00:01:02.020 --> 00:01:05.049
+and Mantle enable multithreaded task submission.
+
+00:01:05.049 --> 00:01:08.150
+The traditional way of handling this is
+like a traffic light,
+
+00:01:08.150 --> 00:01:12.280
+first one stream on commands gets a
+green light to submit to the GPU,
+
+00:01:12.280 --> 00:01:15.420
+while the other cues up at a red
+light. Then at some point the lights change
+
+00:01:16.030 --> 00:01:19.900
+and the first train stops while the other
+stream submits.
+
+00:01:19.900 --> 00:01:21.119
+This approach has a couple of issues.
+
+00:01:21.119 --> 00:01:25.290
+A stream of tasks may leave gaps where parts to the GPU are unused
+
+00:01:25.290 --> 00:01:29.939
+and there's no sense of prioritization
+for more urgent or time sensitive tasks.
+
+00:01:29.939 --> 00:01:33.860
+Lack of prioritisation and the ability
+to interrupt work in flight could lead
+
+00:01:33.860 --> 00:01:35.720
+to large processing latency.
+
+00:01:35.720 --> 00:01:40.479
+A partial remedy involves preemption,
+prioritizing some tasks over others.
+
+00:01:40.479 --> 00:01:44.750
+High priority tasks are executed while
+low priority tasks are suspended.
+
+00:01:44.750 --> 00:01:48.860
+Preemption deals with data traffic
+timing issues but tasks switching overhead
+
+00:01:48.860 --> 00:01:51.009
+can actually lower overall efficiency.
+
+00:01:51.009 --> 00:01:54.009
+However not all preemption techniques
+are created equal.
+
+00:01:54.009 --> 00:01:57.869
+If performing course level preemption
+such as on drawing compute task boundaries
+
+00:01:58.600 --> 00:02:02.670
+there are no real time guarantees of a
+large draw of computer tasks that have to be waited on.
+
+00:02:03.460 --> 00:02:06.540
+Asynchronous Shaders provide a full
+solution as they operate like a highway
+
+00:02:07.460 --> 00:02:10.470
+eliminating traffic lights and
+scheduling issues
+
+00:02:10.470 --> 00:02:14.650
+and enabling task from multiple sources to be submitted to the GPU
+
+00:02:14.650 --> 00:02:15.810
+and process simultaneously.
+
+00:02:15.810 --> 00:02:20.660
+Using multiple command processors the
+Asynchronous compute engines in AMD's
+
+00:02:20.660 --> 00:02:23.150
+graphics core next GPU architecture
+
+00:02:23.150 --> 00:02:27.239
+each queue consume it commands without waiting for the other tasks to complete.
+
+00:02:27.239 --> 00:02:31.400
+The result vastly improved GPU
+efficiency that boost graphics processing performance
+
+00:02:32.650 --> 00:02:36.700
+reduces latency and delivers the
+consistent frame rates that are vital to
+
+00:02:36.700 --> 00:02:37.420
+an immersive and
+
+00:02:37.420 --> 00:02:43.410
+life like gaming experience.
+
+00:02:43.410 --> 00:02:48.320
+Virtual reality or VR is a computer-generated digital environment that enables an immersive
+
+00:02:49.040 --> 00:02:50.520
+life like user experience.
+

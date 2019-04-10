@@ -1,0 +1,925 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.050 --> 00:00:03.770 
+
+hi<00:00:01.050> this<00:00:02.010> is<00:00:02.040> a<00:00:02.220> simple<00:00:02.520> tutorial<00:00:02.850> to<00:00:03.510> show<00:00:03.540> you
+
+00:00:03.770 --> 00:00:03.780 
+hi this is a simple tutorial to show you
+
+00:00:03.780 --> 00:00:06.410 
+hi this is a simple tutorial to show you
+how<00:00:04.170> to<00:00:04.259> use<00:00:04.529> one<00:00:05.009> lego<00:00:05.279> mindstorm<00:00:05.879> mother<00:00:06.180> or
+
+00:00:06.410 --> 00:00:06.420 
+how to use one lego mindstorm mother or
+
+00:00:06.420 --> 00:00:10.040 
+how to use one lego mindstorm mother or
+using<00:00:07.049> erbe<00:00:07.760> first<00:00:08.760> run<00:00:09.240> the<00:00:09.389> ER<00:00:09.420> be<00:00:09.630> console
+
+00:00:10.040 --> 00:00:10.050 
+using erbe first run the ER be console
+
+00:00:10.050 --> 00:00:13.610 
+using erbe first run the ER be console
+as<00:00:10.290> usual<00:00:10.830> and<00:00:11.599> we<00:00:12.599> will<00:00:12.780> be<00:00:12.900> using<00:00:13.080> one<00:00:13.440> single
+
+00:00:13.610 --> 00:00:13.620 
+as usual and we will be using one single
+
+00:00:13.620 --> 00:00:15.740 
+as usual and we will be using one single
+motor<00:00:14.009> plugged<00:00:14.519> in<00:00:14.700> the<00:00:15.299> mind<00:00:15.509> stone
+
+00:00:15.740 --> 00:00:15.750 
+motor plugged in the mind stone
+
+00:00:15.750 --> 00:00:19.609 
+motor plugged in the mind stone
+controller<00:00:16.560> and<00:00:17.359> actually<00:00:18.359> connected<00:00:19.320> in<00:00:19.470> the
+
+00:00:19.609 --> 00:00:19.619 
+controller and actually connected in the
+
+00:00:19.619 --> 00:00:22.790 
+controller and actually connected in the
+a<00:00:19.830> plug<00:00:20.430> here<00:00:21.080> so<00:00:22.080> the<00:00:22.170> first<00:00:22.410> thing<00:00:22.500> we<00:00:22.769> have
+
+00:00:22.790 --> 00:00:22.800 
+a plug here so the first thing we have
+
+00:00:22.800 --> 00:00:25.720 
+a plug here so the first thing we have
+to<00:00:22.920> do<00:00:23.220> is<00:00:23.550> to<00:00:23.760> create<00:00:24.180> a<00:00:24.420> motor<00:00:24.930> control
+
+00:00:25.720 --> 00:00:25.730 
+to do is to create a motor control
+
+00:00:25.730 --> 00:00:29.689 
+to do is to create a motor control
+object<00:00:26.730> that<00:00:27.330> is<00:00:27.660> an<00:00:28.039> instance<00:00:29.039> of<00:00:29.250> the
+
+00:00:29.689 --> 00:00:29.699 
+object that is an instance of the
+
+00:00:29.699 --> 00:00:33.560 
+object that is an instance of the
+generic<00:00:30.090> servo<00:00:30.570> controller<00:00:31.940> so<00:00:32.940> that's<00:00:33.239> what
+
+00:00:33.560 --> 00:00:33.570 
+generic servo controller so that's what
+
+00:00:33.570 --> 00:00:36.200 
+generic servo controller so that's what
+we<00:00:33.719> do<00:00:33.899> here<00:00:34.140> with<00:00:34.320> the<00:00:34.500> C++<00:00:35.160> like<00:00:35.370> syntax<00:00:35.850> and
+
+00:00:36.200 --> 00:00:36.210 
+we do here with the C++ like syntax and
+
+00:00:36.210 --> 00:00:39.799 
+we do here with the C++ like syntax and
+we<00:00:36.690> also<00:00:36.870> tell<00:00:37.399> server<00:00:38.399> that<00:00:38.910> motor<00:00:39.420> is
+
+00:00:39.799 --> 00:00:39.809 
+we also tell server that motor is
+
+00:00:39.809 --> 00:00:43.040 
+we also tell server that motor is
+plugged<00:00:40.200> in<00:00:40.379> the<00:00:40.559> a<00:00:40.770> connector<00:00:41.600> as<00:00:42.600> soon<00:00:42.899> as
+
+00:00:43.040 --> 00:00:43.050 
+plugged in the a connector as soon as
+
+00:00:43.050 --> 00:00:44.869 
+plugged in the a connector as soon as
+this<00:00:43.200> is<00:00:43.260> done<00:00:43.410> we<00:00:43.890> can<00:00:43.920> start<00:00:44.100> to<00:00:44.460> use<00:00:44.520> this
+
+00:00:44.869 --> 00:00:44.879 
+this is done we can start to use this
+
+00:00:44.879 --> 00:00:47.840 
+this is done we can start to use this
+model<00:00:45.140> by<00:00:46.140> using<00:00:46.170> the<00:00:46.860> Val<00:00:47.070> attribute<00:00:47.670> to
+
+00:00:47.840 --> 00:00:47.850 
+model by using the Val attribute to
+
+00:00:47.850 --> 00:00:50.360 
+model by using the Val attribute to
+control<00:00:48.210> this<00:00:48.300> position<00:00:48.870> for<00:00:49.340> example<00:00:50.340> let's
+
+00:00:50.360 --> 00:00:50.370 
+control this position for example let's
+
+00:00:50.370 --> 00:00:53.180 
+control this position for example let's
+move<00:00:51.180> the<00:00:51.390> model<00:00:51.690> to<00:00:51.840> the<00:00:51.960> position<00:00:52.140> of<00:00:52.530> 100
+
+00:00:53.180 --> 00:00:53.190 
+move the model to the position of 100
+
+00:00:53.190 --> 00:00:56.299 
+move the model to the position of 100
+degrees<00:00:54.140> as<00:00:55.140> you<00:00:55.320> can<00:00:55.440> see<00:00:55.649> on<00:00:55.680> the<00:00:55.800> video<00:00:55.890> it's
+
+00:00:56.299 --> 00:00:56.309 
+degrees as you can see on the video it's
+
+00:00:56.309 --> 00:00:59.990 
+degrees as you can see on the video it's
+moving<00:00:56.789> I<00:00:57.050> can<00:00:58.050> also<00:00:58.199> go<00:00:58.620> back<00:00:58.859> two<00:00:59.070> minutes<00:00:59.399> 30
+
+00:00:59.990 --> 00:01:00.000 
+moving I can also go back two minutes 30
+
+00:01:00.000 --> 00:01:04.429 
+moving I can also go back two minutes 30
+and<00:01:00.809> it's<00:01:01.649> executed<00:01:02.809> of<00:01:03.809> course<00:01:04.080> you<00:01:04.229> can
+
+00:01:04.429 --> 00:01:04.439 
+and it's executed of course you can
+
+00:01:04.439 --> 00:01:06.679 
+and it's executed of course you can
+check<00:01:04.799> the<00:01:04.979> value<00:01:05.189> of<00:01:05.610> the<00:01:05.790> current<00:01:06.090> titian<00:01:06.479> by
+
+00:01:06.679 --> 00:01:06.689 
+check the value of the current titian by
+
+00:01:06.689 --> 00:01:09.469 
+check the value of the current titian by
+evaluating<00:01:07.200> motor<00:01:07.860> dot<00:01:08.100> Val<00:01:08.340> which<00:01:09.090> is<00:01:09.299> not
+
+00:01:09.469 --> 00:01:09.479 
+evaluating motor dot Val which is not
+
+00:01:09.479 --> 00:01:11.840 
+evaluating motor dot Val which is not
+like<00:01:09.630> that<00:01:09.659> and<00:01:10.229> you<00:01:10.890> get<00:01:11.070> the<00:01:11.280> current<00:01:11.700> video
+
+00:01:11.840 --> 00:01:11.850 
+like that and you get the current video
+
+00:01:11.850 --> 00:01:13.609 
+like that and you get the current video
+you<00:01:12.510> see<00:01:12.689> that<00:01:12.869> there<00:01:13.049> is<00:01:13.080> a<00:01:13.170> small<00:01:13.560> difference
+
+00:01:13.609 --> 00:01:13.619 
+you see that there is a small difference
+
+00:01:13.619 --> 00:01:16.550 
+you see that there is a small difference
+between<00:01:14.430> the<00:01:15.240> command<00:01:15.600> which<00:01:15.810> is<00:01:15.990> means<00:01:16.200> 30
+
+00:01:16.550 --> 00:01:16.560 
+between the command which is means 30
+
+00:01:16.560 --> 00:01:18.620 
+between the command which is means 30
+and<00:01:16.950> what<00:01:17.130> you<00:01:17.340> see<00:01:17.549> on<00:01:17.670> the<00:01:17.700> sensor<00:01:18.180> because
+
+00:01:18.620 --> 00:01:18.630 
+and what you see on the sensor because
+
+00:01:18.630 --> 00:01:21.649 
+and what you see on the sensor because
+the<00:01:18.750> model<00:01:19.080> are<00:01:19.259> not<00:01:19.439> perfect<00:01:20.390> most<00:01:21.390> of<00:01:21.540> the
+
+00:01:21.649 --> 00:01:21.659 
+the model are not perfect most of the
+
+00:01:21.659 --> 00:01:24.350 
+the model are not perfect most of the
+time<00:01:21.900> people<00:01:21.930> will<00:01:22.590> assign<00:01:23.040> an<00:01:23.400> alias<00:01:24.030> to
+
+00:01:24.350 --> 00:01:24.360 
+time people will assign an alias to
+
+00:01:24.360 --> 00:01:26.330 
+time people will assign an alias to
+motor<00:01:24.780> that<00:01:25.080> Val<00:01:25.320> because<00:01:25.799> it's<00:01:25.950> the<00:01:26.130> most
+
+00:01:26.330 --> 00:01:26.340 
+motor that Val because it's the most
+
+00:01:26.340 --> 00:01:28.280 
+motor that Val because it's the most
+used<00:01:26.670> variable<00:01:27.240> and<00:01:27.479> you<00:01:27.869> want<00:01:28.049> a<00:01:28.110> quick
+
+00:01:28.280 --> 00:01:28.290 
+used variable and you want a quick
+
+00:01:28.290 --> 00:01:32.899 
+used variable and you want a quick
+access<00:01:28.820> something<00:01:29.820> like<00:01:30.030> arias<00:01:31.610> m-model<00:01:32.610> that
+
+00:01:32.899 --> 00:01:32.909 
+access something like arias m-model that
+
+00:01:32.909 --> 00:01:36.140 
+access something like arias m-model that
+val<00:01:33.150> and<00:01:34.100> then<00:01:35.100> you<00:01:35.250> will<00:01:35.430> be<00:01:35.549> able<00:01:35.610> to<00:01:35.759> control
+
+00:01:36.140 --> 00:01:36.150 
+val and then you will be able to control
+
+00:01:36.150 --> 00:01:40.910 
+val and then you will be able to control
+your<00:01:36.329> model<00:01:36.689> with<00:01:37.409> em<00:01:37.710> so<00:01:38.689> like<00:01:39.689> this<00:01:39.900> or<00:01:40.200> like
+
+00:01:40.910 --> 00:01:40.920 
+your model with em so like this or like
+
+00:01:40.920 --> 00:01:45.469 
+your model with em so like this or like
+this<00:01:42.380> you<00:01:43.380> can<00:01:43.530> also<00:01:43.710> use<00:01:44.100> motto<00:01:44.579> as<00:01:45.030> the<00:01:45.329> name
+
+00:01:45.469 --> 00:01:45.479 
+this you can also use motto as the name
+
+00:01:45.479 --> 00:01:47.960 
+this you can also use motto as the name
+of<00:01:45.509> the<00:01:45.689> ideas<00:01:46.140> instead<00:01:46.590> of<00:01:46.829> em<00:01:47.100> which<00:01:47.729> is<00:01:47.939> a
+
+00:01:47.960 --> 00:01:47.970 
+of the ideas instead of em which is a
+
+00:01:47.970 --> 00:01:51.260 
+of the ideas instead of em which is a
+bit<00:01:48.180> confusing<00:01:48.360> but<00:01:48.990> it's<00:01:49.290> allowed<00:01:50.210> there<00:01:51.210> are
+
+00:01:51.260 --> 00:01:51.270 
+bit confusing but it's allowed there are
+
+00:01:51.270 --> 00:01:52.969 
+bit confusing but it's allowed there are
+more<00:01:51.390> interesting<00:01:51.960> ways<00:01:52.200> to<00:01:52.530> assign<00:01:52.860> the
+
+00:01:52.969 --> 00:01:52.979 
+more interesting ways to assign the
+
+00:01:52.979 --> 00:01:55.850 
+more interesting ways to assign the
+value<00:01:53.100> to<00:01:53.430> a<00:01:53.460> variable<00:01:53.549> so<00:01:54.420> to<00:01:54.720> model<00:01:55.110> in<00:01:55.350> ER<00:01:55.680> be
+
+00:01:55.850 --> 00:01:55.860 
+value to a variable so to model in ER be
+
+00:01:55.860 --> 00:01:59.200 
+value to a variable so to model in ER be
+using<00:01:56.759> speed<00:01:57.149> time<00:01:57.689> or<00:01:57.960> oxidation<00:01:58.530> control
+
+00:01:59.200 --> 00:01:59.210 
+using speed time or oxidation control
+
+00:01:59.210 --> 00:02:02.300 
+using speed time or oxidation control
+let's<00:02:00.210> start<00:02:00.570> with<00:02:00.869> time<00:02:01.140> and<00:02:01.350> say<00:02:01.649> I<00:02:01.920> want<00:02:02.250> to
+
+00:02:02.300 --> 00:02:02.310 
+let's start with time and say I want to
+
+00:02:02.310 --> 00:02:05.060 
+let's start with time and say I want to
+get<00:02:02.520> two<00:02:02.850> minutes<00:02:03.390> 20<00:02:03.719> degrees<00:02:04.079> in<00:02:04.110> 10<00:02:04.649> seconds
+
+00:02:05.060 --> 00:02:05.070 
+get two minutes 20 degrees in 10 seconds
+
+00:02:05.070 --> 00:02:08.449 
+get two minutes 20 degrees in 10 seconds
+so<00:02:05.549> we'll<00:02:05.790> do<00:02:05.969> something<00:02:06.210> like<00:02:07.459> assign
+
+00:02:08.449 --> 00:02:08.459 
+so we'll do something like assign
+
+00:02:08.459 --> 00:02:12.470 
+so we'll do something like assign
+minutes<00:02:08.970> 20<00:02:09.679> but<00:02:10.679> take<00:02:10.979> 10<00:02:11.400> seconds<00:02:11.849> to<00:02:12.300> get
+
+00:02:12.470 --> 00:02:12.480 
+minutes 20 but take 10 seconds to get
+
+00:02:12.480 --> 00:02:13.990 
+minutes 20 but take 10 seconds to get
+there
+
+00:02:13.990 --> 00:02:14.000 
+there
+
+00:02:14.000 --> 00:02:17.229 
+there
+as<00:02:15.000> you<00:02:15.180> can<00:02:15.329> see<00:02:15.510> on<00:02:15.540> the<00:02:15.689> video<00:02:15.780> it's<00:02:16.620> moving
+
+00:02:17.229 --> 00:02:17.239 
+as you can see on the video it's moving
+
+00:02:17.239 --> 00:02:20.479 
+as you can see on the video it's moving
+towards<00:02:18.239> target<00:02:18.689> and<00:02:19.200> takes<00:02:19.650> 10<00:02:19.859> seconds<00:02:20.280> I
+
+00:02:20.479 --> 00:02:20.489 
+towards target and takes 10 seconds I
+
+00:02:20.489 --> 00:02:23.509 
+towards target and takes 10 seconds I
+could<00:02:20.939> put<00:02:21.180> like<00:02:22.049> one<00:02:22.349> hour<00:02:22.500> or<00:02:22.799> two<00:02:22.980> hours<00:02:23.010> if
+
+00:02:23.509 --> 00:02:23.519 
+could put like one hour or two hours if
+
+00:02:23.519 --> 00:02:26.420 
+could put like one hour or two hours if
+I<00:02:23.700> want<00:02:23.969> to<00:02:24.030> do<00:02:24.590> something<00:02:25.590> like<00:02:25.709> a<00:02:25.890> clock<00:02:26.219> for
+
+00:02:26.420 --> 00:02:26.430 
+I want to do something like a clock for
+
+00:02:26.430 --> 00:02:30.890 
+I want to do something like a clock for
+example<00:02:26.879> it<00:02:27.120> doesn't<00:02:27.920> it<00:02:28.920> is<00:02:29.370> not<00:02:29.519> limited<00:02:29.900> now
+
+00:02:30.890 --> 00:02:30.900 
+example it doesn't it is not limited now
+
+00:02:30.900 --> 00:02:33.710 
+example it doesn't it is not limited now
+if<00:02:31.230> I<00:02:31.379> want<00:02:31.590> to<00:02:31.650> move<00:02:31.829> back<00:02:32.040> to<00:02:32.250> 150<00:02:33.209> with<00:02:33.540> the
+
+00:02:33.710 --> 00:02:33.720 
+if I want to move back to 150 with the
+
+00:02:33.720 --> 00:02:35.780 
+if I want to move back to 150 with the
+speed<00:02:33.989> of<00:02:34.019> let's<00:02:34.530> say<00:02:34.709> 30<00:02:35.099> degrees<00:02:35.549> per
+
+00:02:35.780 --> 00:02:35.790 
+speed of let's say 30 degrees per
+
+00:02:35.790 --> 00:02:39.110 
+speed of let's say 30 degrees per
+seconds<00:02:36.209> as<00:02:37.109> you<00:02:37.319> can<00:02:37.470> guess<00:02:37.530> it's<00:02:38.129> like<00:02:38.849> that
+
+00:02:39.110 --> 00:02:39.120 
+seconds as you can guess it's like that
+
+00:02:39.120 --> 00:02:43.129 
+seconds as you can guess it's like that
+by<00:02:39.840> specifying<00:02:40.170> the<00:02:40.709> speed<00:02:41.280> and<00:02:41.989> once<00:02:42.989> again
+
+00:02:43.129 --> 00:02:43.139 
+by specifying the speed and once again
+
+00:02:43.139 --> 00:02:46.990 
+by specifying the speed and once again
+the<00:02:43.379> model<00:02:43.650> is<00:02:43.739> moving<00:02:44.129> with<00:02:44.549> the<00:02:44.730> given<00:02:44.909> speed
+
+00:02:46.990 --> 00:02:47.000 
+the model is moving with the given speed
+
+00:02:47.000 --> 00:02:50.360 
+the model is moving with the given speed
+note<00:02:48.000> that<00:02:48.239> these<00:02:49.139> commands<00:02:49.590> take<00:02:49.859> a<00:02:49.889> certain
+
+00:02:50.360 --> 00:02:50.370 
+note that these commands take a certain
+
+00:02:50.370 --> 00:02:52.429 
+note that these commands take a certain
+time<00:02:50.549> to<00:02:50.760> execute<00:02:51.000> and<00:02:51.540> they<00:02:51.840> must<00:02:52.079> terminate
+
+00:02:52.429 --> 00:02:52.439 
+time to execute and they must terminate
+
+00:02:52.439 --> 00:02:54.710 
+time to execute and they must terminate
+before<00:02:53.280> anything<00:02:53.730> else<00:02:53.849> after<00:02:54.209> the<00:02:54.510> semicolon
+
+00:02:54.710 --> 00:02:54.720 
+before anything else after the semicolon
+
+00:02:54.720 --> 00:02:58.009 
+before anything else after the semicolon
+is<00:02:55.169> executed<00:02:55.859> there<00:02:56.760> are<00:02:56.849> ways<00:02:57.060> in<00:02:57.090> urbe<00:02:57.689> to
+
+00:02:58.009 --> 00:02:58.019 
+is executed there are ways in urbe to
+
+00:02:58.019 --> 00:02:59.929 
+is executed there are ways in urbe to
+put<00:02:58.260> a<00:02:58.290> comment<00:02:58.680> in<00:02:58.769> the<00:02:58.889> background<00:02:59.489> so<00:02:59.909> that
+
+00:02:59.929 --> 00:02:59.939 
+put a comment in the background so that
+
+00:02:59.939 --> 00:03:02.449 
+put a comment in the background so that
+you<00:03:00.269> can<00:03:00.480> execute<00:03:01.019> other<00:03:01.470> things<00:03:01.799> while<00:03:02.189> it's
+
+00:03:02.449 --> 00:03:02.459 
+you can execute other things while it's
+
+00:03:02.459 --> 00:03:05.899 
+you can execute other things while it's
+in<00:03:03.000> progress<00:03:03.560> simply<00:03:04.560> use<00:03:04.739> a<00:03:04.950> comma<00:03:05.280> instead
+
+00:03:05.899 --> 00:03:05.909 
+in progress simply use a comma instead
+
+00:03:05.909 --> 00:03:07.699 
+in progress simply use a comma instead
+of<00:03:06.120> a<00:03:06.180> semicolon<00:03:06.599> at<00:03:06.900> the<00:03:06.959> end<00:03:07.079> of<00:03:07.260> the<00:03:07.379> command
+
+00:03:07.699 --> 00:03:07.709 
+of a semicolon at the end of the command
+
+00:03:07.709 --> 00:03:11.319 
+of a semicolon at the end of the command
+like<00:03:08.370> for<00:03:08.579> example<00:03:08.669> i<00:03:09.260> go<00:03:10.260> back<00:03:10.409> to<00:03:10.470> zero<00:03:11.040> i
+
+00:03:11.319 --> 00:03:11.329 
+like for example i go back to zero i
+
+00:03:11.329 --> 00:03:15.349 
+like for example i go back to zero i
+take<00:03:12.329> two<00:03:12.569> seconds<00:03:13.079> i<00:03:13.439> put<00:03:14.310> a<00:03:14.340> comma<00:03:14.700> here<00:03:14.819> and
+
+00:03:15.349 --> 00:03:15.359 
+take two seconds i put a comma here and
+
+00:03:15.359 --> 00:03:19.580 
+take two seconds i put a comma here and
+i<00:03:16.079> do<00:03:16.139> a<00:03:16.290> simple<00:03:16.769> thing<00:03:16.950> like<00:03:17.189> a<00:03:17.430> pink<00:03:18.470> so<00:03:19.470> as
+
+00:03:19.580 --> 00:03:19.590 
+i do a simple thing like a pink so as
+
+00:03:19.590 --> 00:03:21.159 
+i do a simple thing like a pink so as
+you<00:03:19.709> can<00:03:19.859> see<00:03:20.099> i<00:03:20.129> get<00:03:20.400> the<00:03:20.549> phone<00:03:20.760> immediately
+
+00:03:21.159 --> 00:03:21.169 
+you can see i get the phone immediately
+
+00:03:21.169 --> 00:03:24.710 
+you can see i get the phone immediately
+even<00:03:22.169> if<00:03:22.290> the<00:03:22.440> command<00:03:22.739> is<00:03:22.859> that<00:03:23.069> finished<00:03:23.879> if
+
+00:03:24.710 --> 00:03:24.720 
+even if the command is that finished if
+
+00:03:24.720 --> 00:03:27.229 
+even if the command is that finished if
+i<00:03:24.930> had<00:03:25.199> used<00:03:25.560> a<00:03:25.799> semicolon<00:03:26.430> instead<00:03:27.030> of<00:03:27.150> a
+
+00:03:27.229 --> 00:03:27.239 
+i had used a semicolon instead of a
+
+00:03:27.239 --> 00:03:29.780 
+i had used a semicolon instead of a
+color<00:03:27.510> comma<00:03:28.109> here<00:03:28.530> then<00:03:29.040> the<00:03:29.190> pink<00:03:29.519> would<00:03:29.760> be
+
+00:03:29.780 --> 00:03:29.790 
+color comma here then the pink would be
+
+00:03:29.790 --> 00:03:34.909 
+color comma here then the pink would be
+executed<00:03:30.540> after<00:03:30.750> the<00:03:31.349> two<00:03:31.650> seconds<00:03:32.959> now<00:03:33.959> let's
+
+00:03:34.909 --> 00:03:34.919 
+executed after the two seconds now let's
+
+00:03:34.919 --> 00:03:36.770 
+executed after the two seconds now let's
+play<00:03:35.159> with<00:03:35.340> an<00:03:35.489> oscillation<00:03:35.970> of<00:03:36.329> the<00:03:36.479> model
+
+00:03:36.770 --> 00:03:36.780 
+play with an oscillation of the model
+
+00:03:36.780 --> 00:03:40.189 
+play with an oscillation of the model
+something<00:03:37.500> like<00:03:38.269> oscillate<00:03:39.269> around<00:03:39.599> the
+
+00:03:40.189 --> 00:03:40.199 
+something like oscillate around the
+
+00:03:40.199 --> 00:03:43.640 
+something like oscillate around the
+value<00:03:40.500> zero<00:03:41.299> with<00:03:42.299> a<00:03:42.329> period<00:03:42.659> of<00:03:42.870> three
+
+00:03:43.640 --> 00:03:43.650 
+value zero with a period of three
+
+00:03:43.650 --> 00:03:47.170 
+value zero with a period of three
+seconds<00:03:44.190> and<00:03:44.370> an<00:03:44.459> amplitude<00:03:45.030> of<00:03:45.329> 80<00:03:46.290> degrees
+
+00:03:47.170 --> 00:03:47.180 
+seconds and an amplitude of 80 degrees
+
+00:03:47.180 --> 00:03:50.449 
+seconds and an amplitude of 80 degrees
+here<00:03:48.180> i<00:03:48.209> will<00:03:48.419> use<00:03:48.750> at<00:03:49.019> the<00:03:49.079> end<00:03:49.709> not<00:03:50.190> a
+
+00:03:50.449 --> 00:03:50.459 
+here i will use at the end not a
+
+00:03:50.459 --> 00:03:53.059 
+here i will use at the end not a
+semicolon<00:03:51.209> by<00:03:51.479> the<00:03:51.540> coma<00:03:51.870> because<00:03:52.709> this
+
+00:03:53.059 --> 00:03:53.069 
+semicolon by the coma because this
+
+00:03:53.069 --> 00:03:55.399 
+semicolon by the coma because this
+command<00:03:53.459> as<00:03:53.579> you<00:03:53.849> can<00:03:54.060> see<00:03:54.299> on<00:03:54.479> the<00:03:54.599> screen<00:03:54.690> is
+
+00:03:55.399 --> 00:03:55.409 
+command as you can see on the screen is
+
+00:03:55.409 --> 00:03:57.080 
+command as you can see on the screen is
+never<00:03:55.739> terminating<00:03:56.489> it's<00:03:56.699> going<00:03:56.939> to
+
+00:03:57.080 --> 00:03:57.090 
+never terminating it's going to
+
+00:03:57.090 --> 00:03:59.059 
+never terminating it's going to
+oscillate<00:03:57.120> forever<00:03:57.930> so<00:03:58.560> if<00:03:58.680> i<00:03:58.829> put<00:03:59.040> a
+
+00:03:59.059 --> 00:03:59.069 
+oscillate forever so if i put a
+
+00:03:59.069 --> 00:04:01.250 
+oscillate forever so if i put a
+semicolon<00:03:59.340> i<00:03:59.879> will<00:04:00.239> never<00:04:00.419> be<00:04:00.659> able<00:04:00.780> to<00:04:01.079> put
+
+00:04:01.250 --> 00:04:01.260 
+semicolon i will never be able to put
+
+00:04:01.260 --> 00:04:05.509 
+semicolon i will never be able to put
+any<00:04:01.290> other<00:04:01.650> comments<00:04:01.919> afterwards<00:04:03.919> as<00:04:04.919> i<00:04:05.310> said
+
+00:04:05.509 --> 00:04:05.519 
+any other comments afterwards as i said
+
+00:04:05.519 --> 00:04:07.580 
+any other comments afterwards as i said
+this<00:04:05.669> comment<00:04:06.000> is<00:04:06.060> never<00:04:06.299> terminating<00:04:06.989> but
+
+00:04:07.580 --> 00:04:07.590 
+this comment is never terminating but
+
+00:04:07.590 --> 00:04:09.920 
+this comment is never terminating but
+there<00:04:07.739> is<00:04:07.859> a<00:04:07.889> way<00:04:07.979> to<00:04:08.159> stop<00:04:08.579> it<00:04:08.729> anyway<00:04:09.180> by
+
+00:04:09.920 --> 00:04:09.930 
+there is a way to stop it anyway by
+
+00:04:09.930 --> 00:04:13.909 
+there is a way to stop it anyway by
+using<00:04:10.439> the<00:04:10.979> stop<00:04:11.250> command<00:04:11.669> and<00:04:12.349> specifying<00:04:13.349> no
+
+00:04:13.909 --> 00:04:13.919 
+using the stop command and specifying no
+
+00:04:13.919 --> 00:04:17.569 
+using the stop command and specifying no
+tag<00:04:14.359> so<00:04:15.359> what<00:04:15.569> is<00:04:15.599> a<00:04:15.720> tag<00:04:16.019> a<00:04:16.349> tag<00:04:17.130> is<00:04:17.280> the<00:04:17.400> name
+
+00:04:17.569 --> 00:04:17.579 
+tag so what is a tag a tag is the name
+
+00:04:17.579 --> 00:04:19.490 
+tag so what is a tag a tag is the name
+that<00:04:17.609> you<00:04:17.940> can<00:04:18.120> assign<00:04:18.449> to<00:04:18.690> a<00:04:18.720> command<00:04:19.139> in<00:04:19.320> the
+
+00:04:19.490 --> 00:04:19.500 
+that you can assign to a command in the
+
+00:04:19.500 --> 00:04:21.860 
+that you can assign to a command in the
+previous<00:04:19.769> case<00:04:20.070> there<00:04:20.549> was<00:04:20.729> no<00:04:20.970> specific<00:04:21.630> tag
+
+00:04:21.860 --> 00:04:21.870 
+previous case there was no specific tag
+
+00:04:21.870 --> 00:04:24.620 
+previous case there was no specific tag
+assigned<00:04:22.349> so<00:04:22.590> no<00:04:22.830> tag<00:04:23.099> is<00:04:23.340> the<00:04:23.550> generic<00:04:23.909> term
+
+00:04:24.620 --> 00:04:24.630 
+assigned so no tag is the generic term
+
+00:04:24.630 --> 00:04:26.350 
+assigned so no tag is the generic term
+to<00:04:24.960> designate<00:04:25.529> a
+
+00:04:26.350 --> 00:04:26.360 
+to designate a
+
+00:04:26.360 --> 00:04:28.990 
+to designate a
+non<00:04:26.509> tagged<00:04:26.930> command<00:04:27.620> if<00:04:28.280> I<00:04:28.430> want<00:04:28.669> to<00:04:28.729> give<00:04:28.969> a
+
+00:04:28.990 --> 00:04:29.000 
+non tagged command if I want to give a
+
+00:04:29.000 --> 00:04:32.260 
+non tagged command if I want to give a
+specific<00:04:29.300> type<00:04:29.810> like<00:04:30.169> my<00:04:30.530> tag<00:04:30.830> it's<00:04:31.729> very<00:04:32.000> easy
+
+00:04:32.260 --> 00:04:32.270 
+specific type like my tag it's very easy
+
+00:04:32.270 --> 00:04:35.499 
+specific type like my tag it's very easy
+I<00:04:32.629> just<00:04:32.870> prefix<00:04:33.349> the<00:04:33.590> command<00:04:33.969> with<00:04:34.969> my<00:04:35.210> tag
+
+00:04:35.499 --> 00:04:35.509 
+I just prefix the command with my tag
+
+00:04:35.509 --> 00:04:41.619 
+I just prefix the command with my tag
+and<00:04:36.409> I<00:04:36.439> will<00:04:36.800> execute<00:04:37.219> it<00:04:37.580> again<00:04:40.150> again<00:04:41.150> with<00:04:41.389> a
+
+00:04:41.619 --> 00:04:41.629 
+and I will execute it again again with a
+
+00:04:41.629 --> 00:04:46.420 
+and I will execute it again again with a
+comma<00:04:42.020> at<00:04:42.259> the<00:04:42.319> end<00:04:42.789> and<00:04:44.169> then<00:04:45.169> to<00:04:46.009> stop<00:04:46.250> it
+
+00:04:46.420 --> 00:04:46.430 
+comma at the end and then to stop it
+
+00:04:46.430 --> 00:04:51.159 
+comma at the end and then to stop it
+adjust<00:04:46.819> you<00:04:47.000> stop<00:04:47.389> my<00:04:47.569> tag<00:04:49.719> this<00:04:50.719> is<00:04:50.900> a<00:04:50.930> very
+
+00:04:51.159 --> 00:04:51.169 
+adjust you stop my tag this is a very
+
+00:04:51.169 --> 00:04:53.409 
+adjust you stop my tag this is a very
+powerful<00:04:51.409> feature<00:04:51.800> you<00:04:52.189> can<00:04:52.370> tag<00:04:52.699> any<00:04:52.969> command
+
+00:04:53.409 --> 00:04:53.419 
+powerful feature you can tag any command
+
+00:04:53.419 --> 00:04:55.240 
+powerful feature you can tag any command
+or<00:04:53.659> group<00:04:54.080> of<00:04:54.229> comments<00:04:54.710> between<00:04:54.860> brackets
+
+00:04:55.240 --> 00:04:55.250 
+or group of comments between brackets
+
+00:04:55.250 --> 00:04:58.749 
+or group of comments between brackets
+with<00:04:56.210> any<00:04:56.449> tag<00:04:56.810> and<00:04:57.110> then<00:04:57.469> selectively<00:04:58.219> stop
+
+00:04:58.749 --> 00:04:58.759 
+with any tag and then selectively stop
+
+00:04:58.759 --> 00:05:01.779 
+with any tag and then selectively stop
+them<00:04:59.000> later<00:04:59.270> with<00:04:59.900> a<00:04:59.930> stop<00:05:00.259> command<00:05:00.610> you<00:05:01.610> also
+
+00:05:01.779 --> 00:05:01.789 
+them later with a stop command you also
+
+00:05:01.789 --> 00:05:04.059 
+them later with a stop command you also
+have<00:05:02.000> fries<00:05:02.300> and<00:05:02.569> fries<00:05:02.840> and<00:05:03.199> block<00:05:03.650> and<00:05:03.889> block
+
+00:05:04.059 --> 00:05:04.069 
+have fries and fries and block and block
+
+00:05:04.069 --> 00:05:06.969 
+have fries and fries and block and block
+inner<00:05:04.520> be<00:05:04.729> but<00:05:05.270> you<00:05:05.360> can<00:05:05.539> see<00:05:05.719> that<00:05:05.889> more<00:05:06.889> in
+
+00:05:06.969 --> 00:05:06.979 
+inner be but you can see that more in
+
+00:05:06.979 --> 00:05:09.909 
+inner be but you can see that more in
+more<00:05:07.159> details<00:05:07.520> in<00:05:07.729> the<00:05:07.789> tutorial<00:05:08.919> that's
+
+00:05:09.909 --> 00:05:09.919 
+more details in the tutorial that's
+
+00:05:09.919 --> 00:05:11.890 
+more details in the tutorial that's
+pretty<00:05:10.310> all<00:05:10.610> about<00:05:10.969> the<00:05:11.210> simple<00:05:11.719> motor
+
+00:05:11.890 --> 00:05:11.900 
+pretty all about the simple motor
+
+00:05:11.900 --> 00:05:15.040 
+pretty all about the simple motor
+control<00:05:12.469> one<00:05:13.400> last<00:05:13.639> interesting<00:05:14.240> thing<00:05:14.539> in
+
+00:05:15.040 --> 00:05:15.050 
+control one last interesting thing in
+
+00:05:15.050 --> 00:05:16.990 
+control one last interesting thing in
+urbe<00:05:15.590> can<00:05:15.740> also<00:05:15.889> control<00:05:16.370> the<00:05:16.430> model<00:05:16.789> by
+
+00:05:16.990 --> 00:05:17.000 
+urbe can also control the model by
+
+00:05:17.000 --> 00:05:20.110 
+urbe can also control the model by
+assigning<00:05:17.509> a<00:05:17.870> given<00:05:18.259> speed<00:05:18.620> if<00:05:19.520> you<00:05:19.699> remember
+
+00:05:20.110 --> 00:05:20.120 
+assigning a given speed if you remember
+
+00:05:20.120 --> 00:05:22.149 
+assigning a given speed if you remember
+the<00:05:20.270> value<00:05:20.479> attribute<00:05:20.960> of<00:05:21.199> the<00:05:21.319> model<00:05:21.740> object
+
+00:05:22.149 --> 00:05:22.159 
+the value attribute of the model object
+
+00:05:22.159 --> 00:05:24.399 
+the value attribute of the model object
+that<00:05:22.310> we<00:05:22.550> have<00:05:22.669> created<00:05:23.050> there's<00:05:24.050> also<00:05:24.259> a
+
+00:05:24.399 --> 00:05:24.409 
+that we have created there's also a
+
+00:05:24.409 --> 00:05:26.409 
+that we have created there's also a
+speed<00:05:24.770> attribute<00:05:25.279> that<00:05:25.310> you<00:05:25.580> can<00:05:25.729> use<00:05:25.939> like
+
+00:05:26.409 --> 00:05:26.419 
+speed attribute that you can use like
+
+00:05:26.419 --> 00:05:30.129 
+speed attribute that you can use like
+this<00:05:27.259> and<00:05:27.729> say<00:05:28.729> for<00:05:29.000> example<00:05:29.090> that<00:05:29.449> I<00:05:29.719> want<00:05:29.990> to
+
+00:05:30.129 --> 00:05:30.139 
+this and say for example that I want to
+
+00:05:30.139 --> 00:05:32.619 
+this and say for example that I want to
+rotate<00:05:30.500> at<00:05:30.979> speed<00:05:31.729> of<00:05:31.819> 10<00:05:32.029> degrees<00:05:32.419> per
+
+00:05:32.619 --> 00:05:32.629 
+rotate at speed of 10 degrees per
+
+00:05:32.629 --> 00:05:35.170 
+rotate at speed of 10 degrees per
+seconds<00:05:33.139> as<00:05:33.319> you<00:05:34.219> can<00:05:34.339> see<00:05:34.550> on<00:05:34.580> video<00:05:34.819> it's
+
+00:05:35.170 --> 00:05:35.180 
+seconds as you can see on video it's
+
+00:05:35.180 --> 00:05:38.860 
+seconds as you can see on video it's
+turning<00:05:35.629> I<00:05:35.839> can<00:05:36.259> turn<00:05:36.500> in<00:05:37.569> the<00:05:38.569> opposite
+
+00:05:38.860 --> 00:05:38.870 
+turning I can turn in the opposite
+
+00:05:38.870 --> 00:05:42.309 
+turning I can turn in the opposite
+direction<00:05:39.440> with<00:05:40.190> a<00:05:40.400> bit<00:05:40.580> more<00:05:40.819> speed<00:05:41.120> and<00:05:41.360> it's
+
+00:05:42.309 --> 00:05:42.319 
+direction with a bit more speed and it's
+
+00:05:42.319 --> 00:05:44.170 
+direction with a bit more speed and it's
+going<00:05:42.500> to<00:05:42.710> execute<00:05:42.949> if<00:05:43.250> I<00:05:43.400> want<00:05:43.610> to<00:05:43.699> stop<00:05:43.969> of
+
+00:05:44.170 --> 00:05:44.180 
+going to execute if I want to stop of
+
+00:05:44.180 --> 00:05:48.459 
+going to execute if I want to stop of
+course<00:05:44.210> I<00:05:44.599> just<00:05:45.409> set<00:05:45.620> the<00:05:45.860> speed<00:05:46.099> to<00:05:46.159> zero<00:05:47.469> be
+
+00:05:48.459 --> 00:05:48.469 
+course I just set the speed to zero be
+
+00:05:48.469 --> 00:05:50.800 
+course I just set the speed to zero be
+careful<00:05:48.830> that<00:05:49.009> one<00:05:49.849> once<00:05:50.240> you<00:05:50.389> do<00:05:50.539> several
+
+00:05:50.800 --> 00:05:50.810 
+careful that one once you do several
+
+00:05:50.810 --> 00:05:53.170 
+careful that one once you do several
+turns<00:05:51.229> around<00:05:51.650> the<00:05:51.830> central<00:05:52.190> value<00:05:52.520> the
+
+00:05:53.170 --> 00:05:53.180 
+turns around the central value the
+
+00:05:53.180 --> 00:05:54.939 
+turns around the central value the
+absolute<00:05:53.599> position<00:05:54.169> of<00:05:54.289> the<00:05:54.440> model<00:05:54.770> is
+
+00:05:54.939 --> 00:05:54.949 
+absolute position of the model is
+
+00:05:54.949 --> 00:05:57.790 
+absolute position of the model is
+probably<00:05:55.699> going<00:05:55.939> to<00:05:56.060> increase<00:05:56.509> like<00:05:56.810> this<00:05:56.990> to
+
+00:05:57.790 --> 00:05:57.800 
+probably going to increase like this to
+
+00:05:57.800 --> 00:06:01.240 
+probably going to increase like this to
+quite<00:05:58.189> high<00:05:58.370> values<00:05:58.939> and<00:05:59.650> this<00:06:00.650> is<00:06:00.800> perfectly
+
+00:06:01.240 --> 00:06:01.250 
+quite high values and this is perfectly
+
+00:06:01.250 --> 00:06:03.579 
+quite high values and this is perfectly
+normal<00:06:01.370> since<00:06:02.000> the<00:06:02.270> position<00:06:03.020> of<00:06:03.110> the<00:06:03.169> model
+
+00:06:03.579 --> 00:06:03.589 
+normal since the position of the model
+
+00:06:03.589 --> 00:06:07.240 
+normal since the position of the model
+is<00:06:03.800> absolute<00:06:05.199> well<00:06:06.199> that's<00:06:06.439> all<00:06:06.650> you've
+
+00:06:07.240 --> 00:06:07.250 
+is absolute well that's all you've
+
+00:06:07.250 --> 00:06:09.490 
+is absolute well that's all you've
+learned<00:06:07.279> how<00:06:07.639> to<00:06:07.699> create<00:06:08.180> a<00:06:08.210> model<00:06:08.689> object<00:06:09.229> and
+
+00:06:09.490 --> 00:06:09.500 
+learned how to create a model object and
+
+00:06:09.500 --> 00:06:11.890 
+learned how to create a model object and
+how<00:06:09.589> to<00:06:09.650> use<00:06:09.979> it<00:06:10.159> to<00:06:10.400> move<00:06:11.089> the<00:06:11.300> model<00:06:11.629> in
+
+00:06:11.890 --> 00:06:11.900 
+how to use it to move the model in
+
+00:06:11.900 --> 00:06:16.059 
+how to use it to move the model in
+position<00:06:12.680> or<00:06:12.979> speed<00:06:13.689> with<00:06:14.689> a<00:06:14.719> sedation<00:06:15.199> or<00:06:15.830> in
+
+00:06:16.059 --> 00:06:16.069 
+position or speed with a sedation or in
+
+00:06:16.069 --> 00:06:18.790 
+position or speed with a sedation or in
+a<00:06:16.159> given<00:06:16.430> time<00:06:16.599> now<00:06:17.599> you<00:06:17.629> can<00:06:18.319> learn<00:06:18.500> more
+
+00:06:18.790 --> 00:06:18.800 
+a given time now you can learn more
+
+00:06:18.800 --> 00:06:21.700 
+a given time now you can learn more
+about<00:06:19.150> even<00:06:20.150> catching<00:06:20.419> and<00:06:21.020> other<00:06:21.379> you
+
+00:06:21.700 --> 00:06:21.710 
+about even catching and other you
+
+00:06:21.710 --> 00:06:23.829 
+about even catching and other you
+objects<00:06:22.279> that<00:06:22.400> are<00:06:22.550> available<00:06:22.639> to<00:06:23.150> control
+
+00:06:23.829 --> 00:06:23.839 
+objects that are available to control
+
+00:06:23.839 --> 00:06:27.640 
+objects that are available to control
+sound<00:06:24.319> or<00:06:24.800> sensors<00:06:25.750> in<00:06:26.750> the<00:06:26.930> more<00:06:27.110> advanced
+
+00:06:27.640 --> 00:06:27.650 
+sound or sensors in the more advanced
+
+00:06:27.650 --> 00:06:31.809 
+sound or sensors in the more advanced
+tripod<00:06:28.310> tutorial<00:06:29.319> that's<00:06:30.319> it<00:06:30.529> see<00:06:31.370> you<00:06:31.490> on<00:06:31.639> or
+
+00:06:31.809 --> 00:06:31.819 
+tripod tutorial that's it see you on or
+
+00:06:31.819 --> 00:06:36.039 
+tripod tutorial that's it see you on or
+before<00:06:31.969> calm<00:06:32.629> and<00:06:32.870> enjoy<00:06:33.349> using<00:06:33.589> Irby
+

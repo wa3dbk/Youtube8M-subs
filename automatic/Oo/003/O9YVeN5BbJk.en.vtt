@@ -1,0 +1,382 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.800 --> 00:00:05.600
+ good as a complement to the video 
+
+00:00:03.350 --> 00:00:08.300
+ above let's make an example of 
+
+00:00:05.600 --> 00:00:11.090
+ animated texture on a billboard the 
+
+00:00:08.300 --> 00:00:13.460
+ Animated textures are a technique used 
+
+00:00:11.090 --> 00:00:16.550
+ in games to create explosions 
+
+00:00:13.460 --> 00:00:18.980
+ fire and other effects a 
+
+00:00:16.550 --> 00:00:21.800
+ texture divided into its images and 
+
+00:00:18.980 --> 00:00:23.980
+ object is each of the 
+
+00:00:21.800 --> 00:00:26.749
+ sub images over time 
+
+00:00:23.980 --> 00:00:29.810
+ blender game engine supports this 
+
+00:00:26.749 --> 00:00:31.909
+ mechanism we start from our file 
+
+00:00:29.810 --> 00:00:35.750
+ base point blend that together with the 
+
+00:00:31.909 --> 00:00:38.530
+ fire png texture and the result I put 
+
+00:00:35.750 --> 00:00:42.250
+ linked in the comments 
+
+00:00:38.530 --> 00:00:44.500
+ as we can see the texture consists of 
+
+00:00:42.250 --> 00:00:47.199
+ 8 flames located on a grid 
+
+00:00:44.500 --> 00:00:51.699
+ imaginary in the image four wide 
+
+00:00:47.199 --> 00:00:53.350
+ by two high the format is png with the 
+
+00:00:51.699 --> 00:00:56.360
+ transparent background 
+
+00:00:53.350 --> 00:00:59.030
+ I return to blender 
+
+00:00:56.360 --> 00:01:02.090
+ with the selected cube we place the 
+
+00:00:59.030 --> 00:01:06.620
+ 3d cursor in its center capitals more 
+
+00:01:02.090 --> 00:01:10.300
+ that cursor to selected and then we erase 
+
+00:01:06.620 --> 00:01:12.800
+ the cube x and confirm 
+
+00:01:10.300 --> 00:01:15.440
+ we followed the procedure to create a 
+
+00:01:12.800 --> 00:01:17.820
+ video board to guide a plane in 
+
+00:01:15.440 --> 00:01:22.810
+ negative direction 
+
+00:01:17.820 --> 00:01:25.030
+ uppercase Mayan month to plane for 
+
+00:01:22.810 --> 00:01:27.369
+ create the plane 
+
+00:01:25.030 --> 00:01:29.440
+ this time I will guide you in 
+
+00:01:27.369 --> 00:01:33.450
+ edit mode 
+
+00:01:29.440 --> 00:01:33.450
+ I enter key edit mode 
+
+00:01:33.790 --> 00:01:42.180
+ how everything is selected I do 
+
+00:01:37.350 --> 00:01:45.010
+ and minus 90 intro to be oriented to 
+
+00:01:42.180 --> 00:01:47.290
+ this negative x 
+
+00:01:45.010 --> 00:01:49.540
+ how do I need it to be twice as high 
+
+00:01:47.290 --> 00:01:51.880
+ that wide according to the proportions of 
+
+00:01:49.540 --> 00:01:53.710
+ every his texture image I'm going to 
+
+00:01:51.880 --> 00:01:55.990
+ scale it vertically around the 
+
+00:01:53.710 --> 00:01:58.720
+ origin I put the center of 
+
+00:01:55.990 --> 00:02:03.060
+ transformations the cursor 3d key 
+
+00:01:58.720 --> 00:02:07.810
+ point I place the cursor on the origin 
+
+00:02:03.060 --> 00:02:15.680
+ capitals plus that course to center and 
+
+00:02:07.810 --> 00:02:17.390
+ I write sct2 intro I go out edition mode 
+
+00:02:15.680 --> 00:02:21.000
+ I leave the center again 
+
+00:02:17.390 --> 00:02:23.910
+ transformation through point 
+
+00:02:21.000 --> 00:02:30.800
+ I save the file in my directory 
+
+00:02:23.910 --> 00:02:30.800
+ work as text anim dot blend 
+
+00:02:32.310 --> 00:02:38.150
+ I go to the material tab and I add a 
+
+00:02:35.550 --> 00:02:38.150
+ material 
+
+00:02:38.450 --> 00:02:44.360
+ select up game engine 
+
+00:02:41.390 --> 00:02:47.150
+ blender game I go to the tab 
+
+00:02:44.360 --> 00:02:50.060
+ textures and I add a texture by pressing 
+
+00:02:47.150 --> 00:02:54.700
+ the new button 
+
+00:02:50.060 --> 00:02:54.700
+ I call it fire 
+
+00:02:55.860 --> 00:03:02.650
+ type image or film 
+
+00:02:59.660 --> 00:03:06.530
+ under the image panel and I open the file 
+
+00:03:02.650 --> 00:03:09.890
+ fire point png 
+
+00:03:06.530 --> 00:03:12.260
+ now I strike the icon next to the name of 
+
+00:03:09.890 --> 00:03:15.130
+ file so that it is included within 
+
+00:03:12.260 --> 00:03:18.370
+ our blender file 
+
+00:03:15.130 --> 00:03:22.140
+ I go to the Data tab 
+
+00:03:18.370 --> 00:03:25.590
+ created a map v 
+
+00:03:22.140 --> 00:03:30.330
+ I go back to the texture tab and the 
+
+00:03:25.590 --> 00:03:32.370
+ panel mapping I choose coordinates v and that 
+
+00:03:30.330 --> 00:03:36.560
+ Map 
+
+00:03:32.370 --> 00:03:41.150
+ went down to the influence section and active 
+
+00:03:36.560 --> 00:03:41.150
+ alpha plus color 
+
+00:03:41.500 --> 00:03:45.850
+ I return to the material and change what is necessary 
+
+00:03:44.320 --> 00:03:47.990
+ to make it a billboard with 
+
+00:03:45.850 --> 00:03:51.650
+ transparency 
+
+00:03:47.990 --> 00:03:57.870
+ in hayling zeitler 
+
+00:03:51.650 --> 00:04:00.690
+ in game settings 6 orientation billboard 
+
+00:03:57.870 --> 00:04:04.019
+ and in alpha blend I put up for now 
+
+00:04:00.690 --> 00:04:08.100
+ clip as before under the panel 
+
+00:04:04.019 --> 00:04:11.700
+ transparency active transparency 
+
+00:04:08.100 --> 00:04:14.870
+ and with type z transparency I put your 
+
+00:04:11.700 --> 00:04:14.870
+ alpha to 0 
+
+00:04:15.430 --> 00:04:22.810
+ I go to the desktop v editing 
+
+00:04:19.780 --> 00:04:25.470
+ in window 3 of active representation 
+
+00:04:22.810 --> 00:04:25.470
+ textured 
+
+00:04:25.730 --> 00:04:34.360
+ I enter edit mode and in the window 
+
+00:04:29.330 --> 00:04:34.360
+ of image I choose fire png 
+
+00:04:35.490 --> 00:04:40.230
+ in this image window I select 
+
+00:04:37.650 --> 00:04:44.370
+ all key 
+
+00:04:40.230 --> 00:04:49.270
+ and to straighten the texture click r - 
+
+00:04:44.370 --> 00:04:52.210
+ 90 intro now comes the important 
+
+00:04:49.270 --> 00:04:54.310
+ in the properties side panel only 
+
+00:04:52.210 --> 00:04:57.220
+ if we have selected the blend engine 
+
+00:04:54.310 --> 00:05:00.630
+ the game appears in the game section 
+
+00:04:57.220 --> 00:05:04.990
+ properties in the game 
+
+00:05:00.630 --> 00:05:08.540
+ we activate animated animated is to say that 
+
+00:05:04.990 --> 00:05:12.290
+ it's animated texture 
+
+00:05:08.540 --> 00:05:15.620
+ in such that we put them how many sub 
+
+00:05:12.290 --> 00:05:18.969
+ images wide in x and high in y 
+
+00:05:15.620 --> 00:05:24.779
+ It has our texture 
+
+00:05:18.969 --> 00:05:24.779
+ in our case I put 4 and 2 
+
+00:05:26.070 --> 00:05:31.320
+ in speed speed you put the number of 
+
+00:05:28.890 --> 00:05:33.110
+ your images or frames per second of 
+
+00:05:31.320 --> 00:05:35.540
+ the animation 
+
+00:05:33.110 --> 00:05:38.140
+ I'm going to put 20 to go pretty 
+
+00:05:35.540 --> 00:05:38.140
+ Quick 
+
+00:05:38.440 --> 00:05:45.310
+ Finally, in start and in, the 
+
+00:05:42.340 --> 00:05:49.900
+ number of your image to start and 
+
+00:05:45.310 --> 00:05:54.080
+ why end up I put 0 and 7 
+
+00:05:49.900 --> 00:05:57.449
+ respectively the first and the last 
+
+00:05:54.080 --> 00:06:00.569
+ I go out in edit mode 
+
+00:05:57.449 --> 00:06:05.629
+ except the file 
+
+00:06:00.569 --> 00:06:05.629
+ and in window 3 of pulse p 
+
+00:06:08.610 --> 00:06:15.920
+ escape if it does not work 
+
+00:06:12.120 --> 00:06:20.300
+ I reload the file file 
+
+00:06:15.920 --> 00:06:22.600
+ open and return to choose text sanín punto 
+
+00:06:20.300 --> 00:06:26.200
+ blend 
+
+00:06:22.600 --> 00:06:26.830
+ this must be a blender error I come back 
+
+00:06:26.200 --> 00:06:31.170
+ Approve 
+
+00:06:26.830 --> 00:06:31.170
+ by clicking on window 3 of p 
+
+00:06:32.230 --> 00:06:38.020
+ now it works 
+
+00:06:34.940 --> 00:06:42.080
+ escape I return to the desktop by default 
+
+00:06:38.020 --> 00:06:48.430
+ and change in the material in the game 
+
+00:06:42.080 --> 00:06:48.430
+ settings of alpha click to alpha blend 
+
+00:06:50.090 --> 00:06:57.320
+ active camera view 0 keyboard 
+
+00:06:53.370 --> 00:06:57.320
+ numeric and pulse again p 
+
+00:06:59.030 --> 00:07:03.260
+ the result is better because we can 
+
+00:07:01.070 --> 00:07:07.390
+ see through the flames 
+
+00:07:03.260 --> 00:07:07.390
+ escape and save the file 
+
+00:07:08.940 --> 00:07:12.590
+ that has been all thanks 
+

@@ -1,0 +1,1158 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.819 
+
+we're<00:00:00.420> in<00:00:00.599> the<00:00:00.780> middle<00:00:01.050> of<00:00:01.260> creating<00:00:01.800> the
+
+00:00:01.819 --> 00:00:01.829 
+we're in the middle of creating the
+
+00:00:01.829 --> 00:00:04.610 
+we're in the middle of creating the
+update<00:00:02.399> method<00:00:02.610> for<00:00:02.909> our<00:00:03.030> enemy<00:00:03.449> ships<00:00:03.750> well
+
+00:00:04.610 --> 00:00:04.620 
+update method for our enemy ships well
+
+00:00:04.620 --> 00:00:06.200 
+update method for our enemy ships well
+we've<00:00:04.740> dealt<00:00:05.069> with<00:00:05.160> moving<00:00:05.640> ships<00:00:05.970> and
+
+00:00:06.200 --> 00:00:06.210 
+we've dealt with moving ships and
+
+00:00:06.210 --> 00:00:08.059 
+we've dealt with moving ships and
+dealing<00:00:06.569> with<00:00:06.600> ships<00:00:06.990> that<00:00:07.140> go<00:00:07.200> out<00:00:07.350> of<00:00:07.620> bounds
+
+00:00:08.059 --> 00:00:08.069 
+dealing with ships that go out of bounds
+
+00:00:08.069 --> 00:00:10.070 
+dealing with ships that go out of bounds
+we<00:00:08.220> still<00:00:08.610> need<00:00:08.910> to<00:00:09.059> deal<00:00:09.300> with<00:00:09.330> making<00:00:09.929> them
+
+00:00:10.070 --> 00:00:10.080 
+we still need to deal with making them
+
+00:00:10.080 --> 00:00:11.839 
+we still need to deal with making them
+move<00:00:10.320> in<00:00:10.500> the<00:00:10.590> right<00:00:10.769> direction<00:00:10.830> to<00:00:11.490> begin
+
+00:00:11.839 --> 00:00:11.849 
+move in the right direction to begin
+
+00:00:11.849 --> 00:00:14.690 
+move in the right direction to begin
+with<00:00:12.030> we<00:00:12.960> can<00:00:13.170> take<00:00:13.380> care<00:00:13.620> of<00:00:13.679> two<00:00:14.040> problems<00:00:14.610> at
+
+00:00:14.690 --> 00:00:14.700 
+with we can take care of two problems at
+
+00:00:14.700 --> 00:00:17.150 
+with we can take care of two problems at
+once<00:00:14.759> here<00:00:15.330> one<00:00:16.199> of<00:00:16.320> the<00:00:16.410> other<00:00:16.560> issues<00:00:17.010> to
+
+00:00:17.150 --> 00:00:17.160 
+once here one of the other issues to
+
+00:00:17.160 --> 00:00:18.890 
+once here one of the other issues to
+deal<00:00:17.310> with<00:00:17.490> is<00:00:17.640> what<00:00:17.940> happens<00:00:18.390> when<00:00:18.449> a<00:00:18.570> ship
+
+00:00:18.890 --> 00:00:18.900 
+deal with is what happens when a ship
+
+00:00:18.900 --> 00:00:21.679 
+deal with is what happens when a ship
+dies<00:00:19.199> either<00:00:19.859> by<00:00:20.189> going<00:00:20.609> off<00:00:20.760> the<00:00:20.939> screen<00:00:21.359> or
+
+00:00:21.679 --> 00:00:21.689 
+dies either by going off the screen or
+
+00:00:21.689 --> 00:00:24.140 
+dies either by going off the screen or
+in<00:00:21.900> the<00:00:22.380> next<00:00:22.710> chapter<00:00:22.949> getting<00:00:23.730> hit<00:00:23.970> with<00:00:24.090> a
+
+00:00:24.140 --> 00:00:24.150 
+in the next chapter getting hit with a
+
+00:00:24.150 --> 00:00:27.109 
+in the next chapter getting hit with a
+missile<00:00:24.529> so<00:00:25.529> instead<00:00:25.949> of<00:00:26.099> being<00:00:26.369> alive<00:00:26.699> we
+
+00:00:27.109 --> 00:00:27.119 
+missile so instead of being alive we
+
+00:00:27.119 --> 00:00:29.060 
+missile so instead of being alive we
+want<00:00:27.390> some<00:00:27.599> code<00:00:27.840> to<00:00:27.869> execute<00:00:28.050> if<00:00:28.650> the<00:00:28.800> ship<00:00:29.039> is
+
+00:00:29.060 --> 00:00:29.070 
+want some code to execute if the ship is
+
+00:00:29.070 --> 00:00:31.640 
+want some code to execute if the ship is
+not<00:00:29.640> alive<00:00:30.029> specifically<00:00:31.019> we're<00:00:31.320> going<00:00:31.349> to
+
+00:00:31.640 --> 00:00:31.650 
+not alive specifically we're going to
+
+00:00:31.650 --> 00:00:34.400 
+not alive specifically we're going to
+take<00:00:31.859> any<00:00:32.040> ship<00:00:32.489> that's<00:00:32.700> dead<00:00:33.200> resurrect<00:00:34.200> it
+
+00:00:34.400 --> 00:00:34.410 
+take any ship that's dead resurrect it
+
+00:00:34.410 --> 00:00:36.440 
+take any ship that's dead resurrect it
+and<00:00:34.559> set<00:00:35.070> a<00:00:35.100> random<00:00:35.610> position<00:00:36.149> and<00:00:36.329> velocity
+
+00:00:36.440 --> 00:00:36.450 
+and set a random position and velocity
+
+00:00:36.450 --> 00:00:39.080 
+and set a random position and velocity
+for<00:00:37.170> it<00:00:37.290> this<00:00:38.100> will<00:00:38.309> deal<00:00:38.520> with<00:00:38.700> ships<00:00:38.969> that
+
+00:00:39.080 --> 00:00:39.090 
+for it this will deal with ships that
+
+00:00:39.090 --> 00:00:41.360 
+for it this will deal with ships that
+have<00:00:39.239> died<00:00:39.480> in<00:00:39.690> the<00:00:39.719> line<00:00:39.960> of<00:00:40.170> duty<00:00:40.200> and<00:00:40.710> also
+
+00:00:41.360 --> 00:00:41.370 
+have died in the line of duty and also
+
+00:00:41.370 --> 00:00:43.670 
+have died in the line of duty and also
+because<00:00:42.180> all<00:00:42.329> of<00:00:42.360> the<00:00:42.570> ships<00:00:42.809> start<00:00:43.230> is<00:00:43.410> dead
+
+00:00:43.670 --> 00:00:43.680 
+because all of the ships start is dead
+
+00:00:43.680 --> 00:00:45.619 
+because all of the ships start is dead
+thanks<00:00:44.219> to<00:00:44.370> the<00:00:44.550> code<00:00:44.789> we<00:00:44.969> wrote<00:00:45.239> in-game
+
+00:00:45.619 --> 00:00:45.629 
+thanks to the code we wrote in-game
+
+00:00:45.629 --> 00:00:48.799 
+thanks to the code we wrote in-game
+objects<00:00:46.200> es<00:00:46.950> that<00:00:47.219> sets<00:00:47.460> alive<00:00:47.969> to<00:00:48.210> false<00:00:48.510> by
+
+00:00:48.799 --> 00:00:48.809 
+objects es that sets alive to false by
+
+00:00:48.809 --> 00:00:51.260 
+objects es that sets alive to false by
+default<00:00:49.260> it<00:00:49.890> will<00:00:49.920> also<00:00:50.460> handle<00:00:50.670> setting<00:00:51.149> the
+
+00:00:51.260 --> 00:00:51.270 
+default it will also handle setting the
+
+00:00:51.270 --> 00:00:53.119 
+default it will also handle setting the
+initial<00:00:51.750> values<00:00:52.110> for<00:00:52.320> the<00:00:52.410> ships<00:00:52.680> at<00:00:52.860> the
+
+00:00:53.119 --> 00:00:53.129 
+initial values for the ships at the
+
+00:00:53.129 --> 00:00:55.610 
+initial values for the ships at the
+start<00:00:53.489> of<00:00:53.610> the<00:00:53.670> game<00:00:53.989> so<00:00:54.989> where<00:00:55.199> do<00:00:55.320> we<00:00:55.379> add
+
+00:00:55.610 --> 00:00:55.620 
+start of the game so where do we add
+
+00:00:55.620 --> 00:00:59.119 
+start of the game so where do we add
+this<00:00:55.949> code<00:00:56.629> inside<00:00:57.629> update<00:00:58.230> enemy<00:00:58.620> ships<00:00:58.920> we
+
+00:00:59.119 --> 00:00:59.129 
+this code inside update enemy ships we
+
+00:00:59.129 --> 00:01:01.189 
+this code inside update enemy ships we
+have<00:00:59.399> an<00:00:59.520> if<00:00:59.760> conditional<00:01:00.539> that<00:01:00.750> checks<00:01:01.020> if
+
+00:01:01.189 --> 00:01:01.199 
+have an if conditional that checks if
+
+00:01:01.199 --> 00:01:04.579 
+have an if conditional that checks if
+particular<00:01:01.829> ship<00:01:02.190> is<00:01:02.399> alive<00:01:02.730> if<00:01:03.390> below<00:01:04.350> this
+
+00:01:04.579 --> 00:01:04.589 
+particular ship is alive if below this
+
+00:01:04.589 --> 00:01:07.550 
+particular ship is alive if below this
+if<00:01:04.830> statement<00:01:05.040> we<00:01:05.790> add<00:01:05.970> an<00:01:06.180> else<00:01:06.479> we<00:01:07.200> can<00:01:07.350> add
+
+00:01:07.550 --> 00:01:07.560 
+if statement we add an else we can add
+
+00:01:07.560 --> 00:01:09.230 
+if statement we add an else we can add
+some<00:01:07.830> code<00:01:08.100> that<00:01:08.130> will<00:01:08.369> only<00:01:08.610> run<00:01:09.000> if<00:01:09.210> the
+
+00:01:09.230 --> 00:01:09.240 
+some code that will only run if the
+
+00:01:09.240 --> 00:01:11.780 
+some code that will only run if the
+initial<00:01:09.630> if<00:01:09.960> statement<00:01:10.500> is<00:01:10.619> false<00:01:10.650> which<00:01:11.549> will
+
+00:01:11.780 --> 00:01:11.790 
+initial if statement is false which will
+
+00:01:11.790 --> 00:01:14.990 
+initial if statement is false which will
+happen<00:01:12.150> if<00:01:12.330> the<00:01:12.479> ship<00:01:12.720> is<00:01:12.869> dead<00:01:13.369> so<00:01:14.369> below<00:01:14.760> our
+
+00:01:14.990 --> 00:01:15.000 
+happen if the ship is dead so below our
+
+00:01:15.000 --> 00:01:17.719 
+happen if the ship is dead so below our
+if<00:01:15.270> ship<00:01:15.840> alive<00:01:16.229> conditional<00:01:16.979> after<00:01:17.580> its
+
+00:01:17.719 --> 00:01:17.729 
+if ship alive conditional after its
+
+00:01:17.729 --> 00:01:19.910 
+if ship alive conditional after its
+closing<00:01:18.000> right<00:01:18.299> curly<00:01:18.750> brace<00:01:18.990> add<00:01:19.229> the
+
+00:01:19.910 --> 00:01:19.920 
+closing right curly brace add the
+
+00:01:19.920 --> 00:01:23.660 
+closing right curly brace add the
+following<00:01:20.180> else<00:01:21.680> now<00:01:22.680> inside<00:01:23.189> this<00:01:23.430> else
+
+00:01:23.660 --> 00:01:23.670 
+following else now inside this else
+
+00:01:23.670 --> 00:01:25.490 
+following else now inside this else
+conditional<00:01:24.420> we're<00:01:24.750> going<00:01:24.990> to<00:01:25.170> handle
+
+00:01:25.490 --> 00:01:25.500 
+conditional we're going to handle
+
+00:01:25.500 --> 00:01:28.370 
+conditional we're going to handle
+setting<00:01:25.860> up<00:01:25.979> position<00:01:26.490> velocity<00:01:26.970> and<00:01:27.479> setting
+
+00:01:28.370 --> 00:01:28.380 
+setting up position velocity and setting
+
+00:01:28.380 --> 00:01:30.499 
+setting up position velocity and setting
+the<00:01:28.530> alive<00:01:28.950> flag<00:01:29.369> to<00:01:29.579> true<00:01:29.610> so<00:01:30.119> we<00:01:30.210> can<00:01:30.360> get
+
+00:01:30.499 --> 00:01:30.509 
+the alive flag to true so we can get
+
+00:01:30.509 --> 00:01:32.990 
+the alive flag to true so we can get
+moving<00:01:30.720> in<00:01:30.990> the<00:01:31.110> world<00:01:31.579> let's<00:01:32.579> start<00:01:32.850> by
+
+00:01:32.990 --> 00:01:33.000 
+moving in the world let's start by
+
+00:01:33.000 --> 00:01:37.219 
+moving in the world let's start by
+setting<00:01:33.240> the<00:01:33.479> alive<00:01:33.960> flag<00:01:34.490> ship<00:01:35.490> alive<00:01:36.299> equals
+
+00:01:37.219 --> 00:01:37.229 
+setting the alive flag ship alive equals
+
+00:01:37.229 --> 00:01:40.330 
+setting the alive flag ship alive equals
+true<00:01:37.970> now<00:01:38.970> we<00:01:39.030> need<00:01:39.390> to<00:01:39.540> set<00:01:39.750> position
+
+00:01:40.330 --> 00:01:40.340 
+true now we need to set position
+
+00:01:40.340 --> 00:01:42.649 
+true now we need to set position
+remember<00:01:41.340> that<00:01:41.460> we<00:01:41.579> created<00:01:42.000> a<00:01:42.150> random
+
+00:01:42.649 --> 00:01:42.659 
+remember that we created a random
+
+00:01:42.659 --> 00:01:44.539 
+remember that we created a random
+variable<00:01:43.290> so<00:01:43.500> we<00:01:43.619> could<00:01:43.799> set<00:01:44.009> a<00:01:44.040> random
+
+00:01:44.539 --> 00:01:44.549 
+variable so we could set a random
+
+00:01:44.549 --> 00:01:47.359 
+variable so we could set a random
+position<00:01:45.030> we<00:01:45.869> need<00:01:46.049> a<00:01:46.079> bit<00:01:46.470> more<00:01:46.710> data<00:01:47.070> to<00:01:47.250> be
+
+00:01:47.359 --> 00:01:47.369 
+position we need a bit more data to be
+
+00:01:47.369 --> 00:01:50.240 
+position we need a bit more data to be
+able<00:01:47.399> to<00:01:47.790> do<00:01:48.090> that<00:01:48.360> let's<00:01:49.229> leave<00:01:49.560> this<00:01:49.829> method
+
+00:01:50.240 --> 00:01:50.250 
+able to do that let's leave this method
+
+00:01:50.250 --> 00:01:52.340 
+able to do that let's leave this method
+as<00:01:50.369> it<00:01:50.520> is<00:01:50.640> at<00:01:50.820> the<00:01:50.909> moment<00:01:51.119> and<00:01:51.420> go<00:01:51.720> back<00:01:51.960> up<00:01:52.170> to
+
+00:01:52.340 --> 00:01:52.350 
+as it is at the moment and go back up to
+
+00:01:52.350 --> 00:01:55.399 
+as it is at the moment and go back up to
+the<00:01:52.380> top<00:01:52.500> of<00:01:52.979> Game<00:01:53.369> one<00:01:53.670> CS<00:01:54.450> to<00:01:54.750> add<00:01:54.869> some<00:01:55.170> extra
+
+00:01:55.399 --> 00:01:55.409 
+the top of Game one CS to add some extra
+
+00:01:55.409 --> 00:01:58.130 
+the top of Game one CS to add some extra
+variables<00:01:56.210> find<00:01:57.210> where<00:01:57.390> you<00:01:57.540> declared<00:01:57.990> the
+
+00:01:58.130 --> 00:01:58.140 
+variables find where you declared the
+
+00:01:58.140 --> 00:02:00.469 
+variables find where you declared the
+enemy<00:01:58.469> ships<00:01:58.770> array<00:01:59.100> add<00:01:59.310> a<00:01:59.369> line<00:02:00.000> below<00:02:00.240> it
+
+00:02:00.469 --> 00:02:00.479 
+enemy ships array add a line below it
+
+00:02:00.479 --> 00:02:03.800 
+enemy ships array add a line below it
+and<00:02:00.630> add<00:02:00.990> the<00:02:01.229> following<00:02:01.469> lines<00:02:02.360> vector<00:02:03.360> three
+
+00:02:03.800 --> 00:02:03.810 
+and add the following lines vector three
+
+00:02:03.810 --> 00:02:07.070 
+and add the following lines vector three
+ship<00:02:04.799> min<00:02:05.280> position
+
+00:02:07.070 --> 00:02:07.080 
+ship min position
+
+00:02:07.080 --> 00:02:12.940 
+ship min position
+equals<00:02:08.070> new<00:02:08.520> vector3<00:02:09.710> negative<00:02:10.710> two<00:02:11.009> thousand
+
+00:02:12.940 --> 00:02:12.950 
+equals new vector3 negative two thousand
+
+00:02:12.950 --> 00:02:19.360 
+equals new vector3 negative two thousand
+f300<00:02:14.450> f-<00:02:15.450> six<00:02:16.200> thousand<00:02:16.770> f
+
+00:02:19.360 --> 00:02:19.370 
+
+00:02:19.370 --> 00:02:23.210 
+
+vector3<00:02:19.700> ship<00:02:20.599> max<00:02:21.049> position
+
+00:02:23.210 --> 00:02:23.220 
+vector3 ship max position
+
+00:02:23.220 --> 00:02:29.260 
+vector3 ship max position
+equals<00:02:23.820> new<00:02:24.060> vector3<00:02:25.340> 2000<00:02:26.340> f
+
+00:02:29.260 --> 00:02:29.270 
+
+00:02:29.270 --> 00:02:35.680 
+
+800<00:02:30.100> f-<00:02:31.420> 4000<00:02:32.420> f<00:02:33.070> what<00:02:34.070> are<00:02:34.190> these<00:02:34.480> these<00:02:35.480> are
+
+00:02:35.680 --> 00:02:35.690 
+800 f- 4000 f what are these these are
+
+00:02:35.690 --> 00:02:37.450 
+800 f- 4000 f what are these these are
+two<00:02:35.960> vector<00:02:36.410> threes<00:02:36.740> that<00:02:36.890> represent<00:02:37.400> the
+
+00:02:37.450 --> 00:02:37.460 
+two vector threes that represent the
+
+00:02:37.460 --> 00:02:39.760 
+two vector threes that represent the
+extreme<00:02:38.060> ends<00:02:38.630> of<00:02:38.660> where<00:02:39.020> the<00:02:39.140> enemy<00:02:39.470> ship
+
+00:02:39.760 --> 00:02:39.770 
+extreme ends of where the enemy ship
+
+00:02:39.770 --> 00:02:42.670 
+extreme ends of where the enemy ship
+should<00:02:39.980> be<00:02:40.040> in<00:02:40.460> general<00:02:41.150> they'll<00:02:42.020> be<00:02:42.050> above
+
+00:02:42.670 --> 00:02:42.680 
+should be in general they'll be above
+
+00:02:42.680 --> 00:02:45.700 
+should be in general they'll be above
+the<00:02:42.710> player<00:02:43.130> anywhere<00:02:43.940> from<00:02:44.150> 300<00:02:44.990> to<00:02:45.020> 800
+
+00:02:45.700 --> 00:02:45.710 
+the player anywhere from 300 to 800
+
+00:02:45.710 --> 00:02:47.890 
+the player anywhere from 300 to 800
+units<00:02:46.000> anywhere<00:02:47.000> from<00:02:47.030> negative<00:02:47.630> two
+
+00:02:47.890 --> 00:02:47.900 
+units anywhere from negative two
+
+00:02:47.900 --> 00:02:50.020 
+units anywhere from negative two
+thousand<00:02:48.500> to<00:02:48.680> two<00:02:48.920> thousand<00:02:49.370> units<00:02:49.610> from<00:02:49.730> side
+
+00:02:50.020 --> 00:02:50.030 
+thousand to two thousand units from side
+
+00:02:50.030 --> 00:02:52.630 
+thousand to two thousand units from side
+to<00:02:50.210> side<00:02:50.240> and<00:02:50.720> about<00:02:51.350> negative<00:02:51.800> four<00:02:52.070> thousand
+
+00:02:52.630 --> 00:02:52.640 
+to side and about negative four thousand
+
+00:02:52.640 --> 00:02:54.670 
+to side and about negative four thousand
+to<00:02:52.760> negative<00:02:53.150> six<00:02:53.450> thousand<00:02:53.900> units<00:02:54.110> back<00:02:54.380> on
+
+00:02:54.670 --> 00:02:54.680 
+to negative six thousand units back on
+
+00:02:54.680 --> 00:02:57.610 
+to negative six thousand units back on
+the<00:02:54.830> z<00:02:55.040> axis<00:02:55.070> away<00:02:55.910> from<00:02:56.120> the<00:02:56.210> screen<00:02:56.470> you<00:02:57.470> can
+
+00:02:57.610 --> 00:02:57.620 
+the z axis away from the screen you can
+
+00:02:57.620 --> 00:02:59.650 
+the z axis away from the screen you can
+think<00:02:57.860> of<00:02:58.010> these<00:02:58.130> vectors<00:02:58.370> as<00:02:58.700> defining<00:02:59.090> a<00:02:59.300> box
+
+00:02:59.650 --> 00:02:59.660 
+think of these vectors as defining a box
+
+00:02:59.660 --> 00:03:02.460 
+think of these vectors as defining a box
+in<00:02:59.990> which<00:03:00.020> the<00:03:00.320> enemy<00:03:00.470> ships<00:03:00.890> can<00:03:01.100> appear
+
+00:03:02.460 --> 00:03:02.470 
+in which the enemy ships can appear
+
+00:03:02.470 --> 00:03:04.860 
+in which the enemy ships can appear
+we'll<00:03:03.160> need<00:03:03.460> to<00:03:03.670> do<00:03:03.820> the<00:03:03.970> same<00:03:04.240> for<00:03:04.540> velocity
+
+00:03:04.860 --> 00:03:04.870 
+we'll need to do the same for velocity
+
+00:03:04.870 --> 00:03:07.470 
+we'll need to do the same for velocity
+but<00:03:05.770> since<00:03:06.040> velocity<00:03:06.610> will<00:03:06.790> only<00:03:07.000> be<00:03:07.270> in<00:03:07.450> one
+
+00:03:07.470 --> 00:03:07.480 
+but since velocity will only be in one
+
+00:03:07.480 --> 00:03:09.630 
+but since velocity will only be in one
+direction<00:03:07.960> toward<00:03:08.950> the<00:03:09.010> screen<00:03:09.400> on<00:03:09.550> the
+
+00:03:09.630 --> 00:03:09.640 
+direction toward the screen on the
+
+00:03:09.640 --> 00:03:13.140 
+direction toward the screen on the
+positive<00:03:10.120> z<00:03:10.330> axis<00:03:10.360> it's<00:03:11.050> much<00:03:11.380> easier<00:03:12.150> const
+
+00:03:13.140 --> 00:03:13.150 
+positive z axis it's much easier const
+
+00:03:13.150 --> 00:03:19.280 
+positive z axis it's much easier const
+float<00:03:14.220> ship<00:03:15.220> min<00:03:15.640> velocity<00:03:16.470> equals<00:03:17.610> 5.0<00:03:18.610> f
+
+00:03:19.280 --> 00:03:19.290 
+float ship min velocity equals 5.0 f
+
+00:03:19.290 --> 00:03:24.060 
+float ship min velocity equals 5.0 f
+const<00:03:20.290> float<00:03:20.850> ship<00:03:21.850> max<00:03:22.270> velocity<00:03:23.070> equals
+
+00:03:24.060 --> 00:03:24.070 
+const float ship max velocity equals
+
+00:03:24.070 --> 00:03:27.540 
+const float ship max velocity equals
+10.0<00:03:25.060> f<00:03:25.330> if<00:03:25.860> you're<00:03:26.860> wondering<00:03:27.070> why<00:03:27.490> the
+
+00:03:27.540 --> 00:03:27.550 
+10.0 f if you're wondering why the
+
+00:03:27.550 --> 00:03:30.630 
+10.0 f if you're wondering why the
+vector<00:03:28.150> threes<00:03:28.540> aren't<00:03:29.020> set<00:03:29.290> to<00:03:29.470> const<00:03:30.010> their
+
+00:03:30.630 --> 00:03:30.640 
+vector threes aren't set to const their
+
+00:03:30.640 --> 00:03:33.330 
+vector threes aren't set to const their
+classes<00:03:31.270> not<00:03:31.570> basic<00:03:32.110> types<00:03:32.440> like<00:03:32.740> float<00:03:33.130> or
+
+00:03:33.330 --> 00:03:33.340 
+classes not basic types like float or
+
+00:03:33.340 --> 00:03:36.180 
+classes not basic types like float or
+int<00:03:33.370> and<00:03:33.790> cannot<00:03:34.180> be<00:03:34.240> set<00:03:34.720> to<00:03:34.750> const<00:03:35.320> it<00:03:35.470> isn't
+
+00:03:36.180 --> 00:03:36.190 
+int and cannot be set to const it isn't
+
+00:03:36.190 --> 00:03:37.440 
+int and cannot be set to const it isn't
+a<00:03:36.250> perfect<00:03:36.670> arrangement<00:03:36.790> since
+
+00:03:37.440 --> 00:03:37.450 
+a perfect arrangement since
+
+00:03:37.450 --> 00:03:39.270 
+a perfect arrangement since
+theoretically<00:03:38.320> we<00:03:38.560> could<00:03:38.650> accidentally
+
+00:03:39.270 --> 00:03:39.280 
+theoretically we could accidentally
+
+00:03:39.280 --> 00:03:41.790 
+theoretically we could accidentally
+modify<00:03:39.820> these<00:03:39.880> values<00:03:40.480> in<00:03:40.630> our<00:03:40.720> code<00:03:41.080> but
+
+00:03:41.790 --> 00:03:41.800 
+modify these values in our code but
+
+00:03:41.800 --> 00:03:44.160 
+modify these values in our code but
+using<00:03:42.130> a<00:03:42.220> vector3<00:03:42.550> keeps<00:03:43.090> the<00:03:43.270> values<00:03:43.660> nicely
+
+00:03:44.160 --> 00:03:44.170 
+using a vector3 keeps the values nicely
+
+00:03:44.170 --> 00:03:47.040 
+using a vector3 keeps the values nicely
+arranged<00:03:44.680> let's<00:03:45.670> get<00:03:45.850> back<00:03:46.060> to<00:03:46.240> update<00:03:46.660> enemy
+
+00:03:47.040 --> 00:03:47.050 
+arranged let's get back to update enemy
+
+00:03:47.050 --> 00:03:51.010 
+arranged let's get back to update enemy
+ships
+
+00:03:51.010 --> 00:03:51.020 
+
+00:03:51.020 --> 00:03:52.790 
+
+now<00:03:51.530> at<00:03:51.710> the<00:03:51.860> bottom<00:03:52.220> of<00:03:52.340> our
+
+00:03:52.790 --> 00:03:52.800 
+now at the bottom of our
+
+00:03:52.800 --> 00:03:55.640 
+now at the bottom of our
+code<00:03:53.310> below<00:03:53.790> the<00:03:54.150> else<00:03:54.360> where<00:03:54.900> we<00:03:55.050> set<00:03:55.320> ship
+
+00:03:55.640 --> 00:03:55.650 
+code below the else where we set ship
+
+00:03:55.650 --> 00:03:58.580 
+code below the else where we set ship
+dot<00:03:55.920> alive<00:03:56.310> too<00:03:56.760> true<00:03:57.030> we<00:03:57.840> have<00:03:58.080> some<00:03:58.350> work<00:03:58.560> to
+
+00:03:58.580 --> 00:03:58.590 
+dot alive too true we have some work to
+
+00:03:58.590 --> 00:04:01.030 
+dot alive too true we have some work to
+do<00:03:58.920> let's<00:03:59.760> start<00:04:00.030> with<00:04:00.180> setting<00:04:00.510> position
+
+00:04:01.030 --> 00:04:01.040 
+do let's start with setting position
+
+00:04:01.040 --> 00:04:04.220 
+do let's start with setting position
+position<00:04:02.040> is<00:04:02.520> a<00:04:02.550> vector3<00:04:03.000> and<00:04:03.480> we<00:04:03.750> need<00:04:03.960> to<00:04:04.110> get
+
+00:04:04.220 --> 00:04:04.230 
+position is a vector3 and we need to get
+
+00:04:04.230 --> 00:04:07.310 
+position is a vector3 and we need to get
+random<00:04:04.830> values<00:04:05.310> for<00:04:05.550> each<00:04:05.580> axis<00:04:06.240> the<00:04:06.600> X<00:04:06.810> the<00:04:07.290> Y
+
+00:04:07.310 --> 00:04:07.320 
+random values for each axis the X the Y
+
+00:04:07.320 --> 00:04:10.250 
+random values for each axis the X the Y
+and<00:04:07.770> the<00:04:08.130> Z<00:04:08.240> this<00:04:09.240> is<00:04:09.300> going<00:04:09.660> to<00:04:09.750> be<00:04:09.870> a<00:04:09.900> lot<00:04:10.230> of
+
+00:04:10.250 --> 00:04:10.260 
+and the Z this is going to be a lot of
+
+00:04:10.260 --> 00:04:12.680 
+and the Z this is going to be a lot of
+code<00:04:10.620> but<00:04:10.890> will<00:04:11.010> step<00:04:11.280> through<00:04:11.310> it<00:04:11.670> first<00:04:12.360> add
+
+00:04:12.680 --> 00:04:12.690 
+code but will step through it first add
+
+00:04:12.690 --> 00:04:17.750 
+code but will step through it first add
+this<00:04:13.320> line<00:04:13.560> ship<00:04:14.550> position<00:04:16.070> equals<00:04:17.070> new
+
+00:04:17.750 --> 00:04:17.760 
+this line ship position equals new
+
+00:04:17.760 --> 00:04:20.960 
+this line ship position equals new
+vector3<00:04:18.470> we're<00:04:19.470> setting<00:04:19.830> it<00:04:19.890> up<00:04:20.040> notice<00:04:20.880> how
+
+00:04:20.960 --> 00:04:20.970 
+vector3 we're setting it up notice how
+
+00:04:20.970 --> 00:04:22.160 
+vector3 we're setting it up notice how
+we<00:04:21.030> want<00:04:21.299> to<00:04:21.390> leave<00:04:21.510> the<00:04:21.630> parentheses
+
+00:04:22.160 --> 00:04:22.170 
+we want to leave the parentheses
+
+00:04:22.170 --> 00:04:24.110 
+we want to leave the parentheses
+unclosed<00:04:22.680> we're<00:04:23.250> going<00:04:23.490> to<00:04:23.640> be<00:04:23.760> adding<00:04:23.910> some
+
+00:04:24.110 --> 00:04:24.120 
+unclosed we're going to be adding some
+
+00:04:24.120 --> 00:04:26.120 
+unclosed we're going to be adding some
+arguments<00:04:24.810> you'll<00:04:25.170> want<00:04:25.440> to<00:04:25.500> use<00:04:25.560> the<00:04:25.830> next
+
+00:04:26.120 --> 00:04:26.130 
+arguments you'll want to use the next
+
+00:04:26.130 --> 00:04:27.800 
+arguments you'll want to use the next
+line<00:04:26.310> for<00:04:26.520> the<00:04:26.580> first<00:04:26.790> argument<00:04:27.060> so<00:04:27.420> go<00:04:27.600> down<00:04:27.750> a
+
+00:04:27.800 --> 00:04:27.810 
+line for the first argument so go down a
+
+00:04:27.810 --> 00:04:31.010 
+line for the first argument so go down a
+line<00:04:28.110> and<00:04:28.290> add<00:04:28.440> the<00:04:28.710> following<00:04:28.980> lines<00:04:30.020> math
+
+00:04:31.010 --> 00:04:31.020 
+line and add the following lines math
+
+00:04:31.020 --> 00:04:39.050 
+line and add the following lines math
+helper<00:04:31.820> dot<00:04:32.820> lerp<00:04:33.750> ship<00:04:34.680> men<00:04:35.160> position<00:04:35.820> x
+
+00:04:39.050 --> 00:04:39.060 
+
+00:04:39.060 --> 00:04:42.150 
+
+max<00:04:39.510> position<00:04:40.080> X
+
+00:04:42.150 --> 00:04:42.160 
+max position X
+
+00:04:42.160 --> 00:04:48.410 
+max position X
+float<00:04:42.970> our<00:04:44.760> next<00:04:45.760> double
+
+00:04:48.410 --> 00:04:48.420 
+
+00:04:48.420 --> 00:04:51.530 
+
+comma<00:04:48.830> this<00:04:49.830> is<00:04:50.040> the<00:04:50.130> lerp<00:04:50.340> method<00:04:50.790> again<00:04:51.060> just
+
+00:04:51.530 --> 00:04:51.540 
+comma this is the lerp method again just
+
+00:04:51.540 --> 00:04:54.110 
+comma this is the lerp method again just
+like<00:04:51.750> in<00:04:51.810> the<00:04:52.080> 2d<00:04:52.500> game<00:04:52.770> tutorial<00:04:53.040> it<00:04:53.610> returns
+
+00:04:54.110 --> 00:04:54.120 
+like in the 2d game tutorial it returns
+
+00:04:54.120 --> 00:04:56.240 
+like in the 2d game tutorial it returns
+a<00:04:54.330> floating<00:04:54.750> point<00:04:55.020> value<00:04:55.500> which<00:04:55.770> will<00:04:55.980> be<00:04:56.100> the
+
+00:04:56.240 --> 00:04:56.250 
+a floating point value which will be the
+
+00:04:56.250 --> 00:04:58.370 
+a floating point value which will be the
+first<00:04:56.520> argument<00:04:56.820> to<00:04:57.180> the<00:04:57.300> new<00:04:57.540> ship<00:04:57.840> position
+
+00:04:58.370 --> 00:04:58.380 
+first argument to the new ship position
+
+00:04:58.380 --> 00:05:02.000 
+first argument to the new ship position
+the<00:04:58.860> x-axis<00:04:59.730> lerp<00:05:00.690> takes<00:05:01.080> three<00:05:01.380> arguments<00:05:01.710> of
+
+00:05:02.000 --> 00:05:02.010 
+the x-axis lerp takes three arguments of
+
+00:05:02.010 --> 00:05:04.370 
+the x-axis lerp takes three arguments of
+its<00:05:02.220> own<00:05:02.460> the<00:05:03.090> first<00:05:03.390> two<00:05:03.630> are<00:05:03.660> the<00:05:03.930> minimum
+
+00:05:04.370 --> 00:05:04.380 
+its own the first two are the minimum
+
+00:05:04.380 --> 00:05:06.740 
+its own the first two are the minimum
+and<00:05:04.500> the<00:05:04.680> maximum<00:05:04.710> values<00:05:05.640> and<00:05:05.880> the<00:05:06.120> third<00:05:06.480> is
+
+00:05:06.740 --> 00:05:06.750 
+and the maximum values and the third is
+
+00:05:06.750 --> 00:05:09.830 
+and the maximum values and the third is
+a<00:05:06.780> value<00:05:07.200> between<00:05:07.320> 0<00:05:07.950> and<00:05:08.220> 1<00:05:08.490> use<00:05:09.210> to<00:05:09.420> pick<00:05:09.660> the
+
+00:05:09.830 --> 00:05:09.840 
+a value between 0 and 1 use to pick the
+
+00:05:09.840 --> 00:05:11.680 
+a value between 0 and 1 use to pick the
+value<00:05:10.170> in<00:05:10.320> between<00:05:10.740> the<00:05:10.920> first<00:05:11.130> two<00:05:11.250> arguments
+
+00:05:11.680 --> 00:05:11.690 
+value in between the first two arguments
+
+00:05:11.690 --> 00:05:14.450 
+value in between the first two arguments
+for<00:05:12.690> the<00:05:12.780> first<00:05:13.050> two<00:05:13.260> arguments<00:05:13.560> use<00:05:14.070> the<00:05:14.250> x
+
+00:05:14.450 --> 00:05:14.460 
+for the first two arguments use the x
+
+00:05:14.460 --> 00:05:16.880 
+for the first two arguments use the x
+axis<00:05:15.030> of<00:05:15.150> the<00:05:15.300> ship<00:05:15.540> min<00:05:15.870> position<00:05:16.410> and<00:05:16.590> ship
+
+00:05:16.880 --> 00:05:16.890 
+axis of the ship min position and ship
+
+00:05:16.890 --> 00:05:19.100 
+axis of the ship min position and ship
+max<00:05:17.190> position<00:05:17.700> vectors<00:05:18.090> for<00:05:18.780> the<00:05:18.870> third
+
+00:05:19.100 --> 00:05:19.110 
+max position vectors for the third
+
+00:05:19.110 --> 00:05:20.990 
+max position vectors for the third
+argument<00:05:19.350> we<00:05:19.740> get<00:05:19.980> a<00:05:20.160> floating<00:05:20.670> point<00:05:20.850> number
+
+00:05:20.990 --> 00:05:21.000 
+argument we get a floating point number
+
+00:05:21.000 --> 00:05:23.620 
+argument we get a floating point number
+from<00:05:21.570> our<00:05:21.840> which<00:05:22.260> is<00:05:22.440> our<00:05:22.560> random<00:05:23.070> object
+
+00:05:23.620 --> 00:05:23.630 
+from our which is our random object
+
+00:05:23.630 --> 00:05:26.270 
+from our which is our random object
+random<00:05:24.630> always<00:05:24.990> returns<00:05:25.380> a<00:05:25.560> double<00:05:25.590> precision
+
+00:05:26.270 --> 00:05:26.280 
+random always returns a double precision
+
+00:05:26.280 --> 00:05:29.180 
+random always returns a double precision
+number<00:05:26.820> so<00:05:27.390> we<00:05:27.540> need<00:05:27.750> to<00:05:27.900> use<00:05:28.110> float<00:05:28.560> to<00:05:28.890> change
+
+00:05:29.180 --> 00:05:29.190 
+number so we need to use float to change
+
+00:05:29.190 --> 00:05:30.800 
+number so we need to use float to change
+that<00:05:29.490> into<00:05:29.700> a<00:05:29.850> single<00:05:30.330> precision<00:05:30.630> floating
+
+00:05:30.800 --> 00:05:30.810 
+that into a single precision floating
+
+00:05:30.810 --> 00:05:34.550 
+that into a single precision floating
+point<00:05:31.170> number<00:05:31.680> which<00:05:31.980> is<00:05:32.100> what<00:05:32.280> we<00:05:32.430> use<00:05:33.560> after
+
+00:05:34.550 --> 00:05:34.560 
+point number which is what we use after
+
+00:05:34.560 --> 00:05:36.710 
+point number which is what we use after
+that<00:05:34.770> call<00:05:35.070> we<00:05:35.340> add<00:05:35.520> a<00:05:35.550> comma<00:05:36.000> since<00:05:36.540> that
+
+00:05:36.710 --> 00:05:36.720 
+that call we add a comma since that
+
+00:05:36.720 --> 00:05:38.390 
+that call we add a comma since that
+whole<00:05:36.900> llort<00:05:37.230> method<00:05:37.680> is<00:05:37.770> just<00:05:38.100> the<00:05:38.190> first
+
+00:05:38.390 --> 00:05:38.400 
+whole llort method is just the first
+
+00:05:38.400 --> 00:05:40.580 
+whole llort method is just the first
+argument<00:05:38.760> to<00:05:39.120> the<00:05:39.240> vector<00:05:39.420> 3<00:05:39.780> constructor<00:05:40.380> for
+
+00:05:40.580 --> 00:05:40.590 
+argument to the vector 3 constructor for
+
+00:05:40.590 --> 00:05:42.940 
+argument to the vector 3 constructor for
+position<00:05:41.100> and<00:05:41.250> we<00:05:41.550> have<00:05:41.760> two<00:05:42.120> more<00:05:42.360> to<00:05:42.540> go
+
+00:05:42.940 --> 00:05:42.950 
+position and we have two more to go
+
+00:05:42.950 --> 00:05:45.910 
+position and we have two more to go
+after<00:05:43.950> the<00:05:44.070> comma<00:05:44.370> add<00:05:44.670> the<00:05:44.940> following<00:05:45.150> code
+
+00:05:45.910 --> 00:05:45.920 
+after the comma add the following code
+
+00:05:45.920 --> 00:05:48.310 
+after the comma add the following code
+math<00:05:46.920> helper
+
+00:05:48.310 --> 00:05:48.320 
+math helper
+
+00:05:48.320 --> 00:05:51.800 
+math helper
+dot<00:05:49.160> lerp
+
+00:05:51.800 --> 00:05:51.810 
+
+00:05:51.810 --> 00:05:56.439 
+
+ship<00:05:52.500> min<00:05:52.919> position<00:05:53.490> why
+
+00:05:56.439 --> 00:05:56.449 
+
+00:05:56.449 --> 00:06:00.950 
+
+max<00:05:56.870> position<00:05:57.439> why
+
+00:06:00.950 --> 00:06:00.960 
+
+00:06:00.960 --> 00:06:04.629 
+
+float<00:06:01.590> our<00:06:02.270> next<00:06:03.270> double
+
+00:06:04.629 --> 00:06:04.639 
+float our next double
+
+00:06:04.639 --> 00:06:09.159 
+float our next double
+cama<00:06:05.830> same<00:06:06.830> thing<00:06:07.159> but<00:06:07.370> on<00:06:07.430> the<00:06:07.639> y<00:06:07.819> axis<00:06:08.169> this
+
+00:06:09.159 --> 00:06:09.169 
+cama same thing but on the y axis this
+
+00:06:09.169 --> 00:06:11.110 
+cama same thing but on the y axis this
+is<00:06:09.409> the<00:06:09.560> second<00:06:09.979> argument<00:06:10.159> to<00:06:10.490> our<00:06:10.610> position
+
+00:06:11.110 --> 00:06:11.120 
+is the second argument to our position
+
+00:06:11.120 --> 00:06:13.179 
+is the second argument to our position
+vector<00:06:11.479> constructor<00:06:12.050> and<00:06:12.199> it<00:06:12.560> sets<00:06:12.830> the<00:06:12.919> y
+
+00:06:13.179 --> 00:06:13.189 
+vector constructor and it sets the y
+
+00:06:13.189 --> 00:06:16.209 
+vector constructor and it sets the y
+axis<00:06:13.669> value<00:06:14.060> of<00:06:14.210> the<00:06:14.330> vector<00:06:14.689> one<00:06:15.680> more<00:06:15.919> comma
+
+00:06:16.209 --> 00:06:16.219 
+axis value of the vector one more comma
+
+00:06:16.219 --> 00:06:17.800 
+axis value of the vector one more comma
+for<00:06:16.550> our<00:06:16.669> final<00:06:16.909> argument<00:06:17.509> to<00:06:17.569> the<00:06:17.659> position
+
+00:06:17.800 --> 00:06:17.810 
+for our final argument to the position
+
+00:06:17.810 --> 00:06:20.559 
+for our final argument to the position
+constructor<00:06:18.620> the<00:06:18.919> Z<00:06:19.129> value<00:06:19.159> add<00:06:19.729> the
+
+00:06:20.559 --> 00:06:20.569 
+constructor the Z value add the
+
+00:06:20.569 --> 00:06:25.540 
+constructor the Z value add the
+following<00:06:20.870> after<00:06:21.499> the<00:06:21.590> comma
+
+00:06:25.540 --> 00:06:25.550 
+
+00:06:25.550 --> 00:06:29.300 
+
+math<00:06:26.360> helper<00:06:26.780> LARP
+
+00:06:29.300 --> 00:06:29.310 
+math helper LARP
+
+00:06:29.310 --> 00:06:34.280 
+math helper LARP
+z<00:06:30.060> ship<00:06:30.960> max<00:06:31.260> position<00:06:31.710> Z<00:06:32.160> float<00:06:32.910> our<00:06:33.290> next
+
+00:06:34.280 --> 00:06:34.290 
+z ship max position Z float our next
+
+00:06:34.290 --> 00:06:37.490 
+z ship max position Z float our next
+double<00:06:34.910> with<00:06:35.910> this<00:06:36.150> last<00:06:36.420> argument<00:06:36.720> we<00:06:37.110> filled
+
+00:06:37.490 --> 00:06:37.500 
+double with this last argument we filled
+
+00:06:37.500 --> 00:06:39.680 
+double with this last argument we filled
+a<00:06:37.650> vector3<00:06:38.040> with<00:06:38.490> three<00:06:38.850> random<00:06:39.300> values
+
+00:06:39.680 --> 00:06:39.690 
+a vector3 with three random values
+
+00:06:39.690 --> 00:06:41.750 
+a vector3 with three random values
+inside<00:06:40.110> a<00:06:40.170> range<00:06:40.530> of<00:06:40.740> acceptable<00:06:41.370> values
+
+00:06:41.750 --> 00:06:41.760 
+inside a range of acceptable values
+
+00:06:41.760 --> 00:06:43.790 
+inside a range of acceptable values
+placing<00:06:42.450> our<00:06:42.570> enemy's<00:06:42.930> ship<00:06:43.170> within<00:06:43.410> an
+
+00:06:43.790 --> 00:06:43.800 
+placing our enemy's ship within an
+
+00:06:43.800 --> 00:06:46.100 
+placing our enemy's ship within an
+acceptable<00:06:44.130> position<00:06:44.880> that<00:06:45.360> can<00:06:45.510> be<00:06:45.600> aimed<00:06:45.840> at
+
+00:06:46.100 --> 00:06:46.110 
+acceptable position that can be aimed at
+
+00:06:46.110 --> 00:06:48.560 
+acceptable position that can be aimed at
+by<00:06:46.290> the<00:06:46.350> player<00:06:46.820> since<00:06:47.820> that<00:06:48.030> was<00:06:48.210> the<00:06:48.360> last
+
+00:06:48.560 --> 00:06:48.570 
+by the player since that was the last
+
+00:06:48.570 --> 00:06:50.600 
+by the player since that was the last
+argument<00:06:48.930> we<00:06:49.320> closed<00:06:49.650> off<00:06:49.860> our<00:06:50.040> parenthesis
+
+00:06:50.600 --> 00:06:50.610 
+argument we closed off our parenthesis
+
+00:06:50.610 --> 00:06:52.370 
+argument we closed off our parenthesis
+and<00:06:50.820> add<00:06:51.000> the<00:06:51.180> semicolon<00:06:51.870> to<00:06:51.990> finish<00:06:52.260> the
+
+00:06:52.370 --> 00:06:52.380 
+and add the semicolon to finish the
+
+00:06:52.380 --> 00:06:54.320 
+and add the semicolon to finish the
+command<00:06:52.740> now<00:06:53.520> it's<00:06:53.730> time<00:06:53.940> to<00:06:54.090> set<00:06:54.300> the
+
+00:06:54.320 --> 00:06:54.330 
+command now it's time to set the
+
+00:06:54.330 --> 00:06:55.999 
+command now it's time to set the
+velocity
+
+00:06:55.999 --> 00:06:56.009 
+velocity
+
+00:06:56.009 --> 00:06:58.670 
+velocity
+below<00:06:56.879> all<00:06:57.119> the<00:06:57.300> position<00:06:57.719> setting<00:06:58.139> add<00:06:58.289> the
+
+00:06:58.670 --> 00:06:58.680 
+below all the position setting add the
+
+00:06:58.680 --> 00:07:01.399 
+below all the position setting add the
+following<00:06:58.949> easier<00:06:59.879> code
+
+00:07:01.399 --> 00:07:01.409 
+following easier code
+
+00:07:01.409 --> 00:07:08.809 
+following easier code
+ship<00:07:01.860> velocity<00:07:03.139> equals<00:07:04.139> new<00:07:04.529> vector3<00:07:06.019> 0.0<00:07:07.819> 0.0
+
+00:07:08.809 --> 00:07:08.819 
+ship velocity equals new vector3 0.0 0.0
+
+00:07:08.819 --> 00:07:14.629 
+ship velocity equals new vector3 0.0 0.0
+F<00:07:09.949> math<00:07:10.949> Halpert<00:07:11.489> lip
+
+00:07:14.629 --> 00:07:14.639 
+
+00:07:14.639 --> 00:07:18.430 
+
+shipman<00:07:15.569> velocity
+
+00:07:18.430 --> 00:07:18.440 
+
+00:07:18.440 --> 00:07:21.350 
+
+max<00:07:18.560> velocity
+
+00:07:21.350 --> 00:07:21.360 
+
+00:07:21.360 --> 00:07:26.340 
+
+float<00:07:21.960> our<00:07:23.659> next<00:07:24.659> double
+
+00:07:26.340 --> 00:07:26.350 
+float our next double
+
+00:07:26.350 --> 00:07:28.560 
+float our next double
+velocity<00:07:27.190> is<00:07:27.220> another<00:07:27.670> vector<00:07:27.940> 3<00:07:28.390> and
+
+00:07:28.560 --> 00:07:28.570 
+velocity is another vector 3 and
+
+00:07:28.570 --> 00:07:30.900 
+velocity is another vector 3 and
+creating<00:07:29.290> it<00:07:29.410> is<00:07:29.530> fairly<00:07:29.800> simple<00:07:30.130> the<00:07:30.700> new
+
+00:07:30.900 --> 00:07:30.910 
+creating it is fairly simple the new
+
+00:07:30.910 --> 00:07:33.120 
+creating it is fairly simple the new
+vector3<00:07:31.300> will<00:07:31.690> create<00:07:32.020> has<00:07:32.260> no<00:07:32.530> motion<00:07:33.010> in
+
+00:07:33.120 --> 00:07:33.130 
+vector3 will create has no motion in
+
+00:07:33.130 --> 00:07:37.020 
+vector3 will create has no motion in
+either<00:07:33.310> the<00:07:33.460> X<00:07:33.760> or<00:07:34.090> Y<00:07:34.170> axes<00:07:35.170> the<00:07:35.980> z<00:07:36.250> axis<00:07:36.280> is<00:07:36.880> the
+
+00:07:37.020 --> 00:07:37.030 
+either the X or Y axes the z axis is the
+
+00:07:37.030 --> 00:07:39.840 
+either the X or Y axes the z axis is the
+interesting<00:07:37.330> one<00:07:37.720> using<00:07:38.650> lerp<00:07:38.890> we<00:07:39.340> set<00:07:39.640> it<00:07:39.670> to
+
+00:07:39.840 --> 00:07:39.850 
+interesting one using lerp we set it to
+
+00:07:39.850 --> 00:07:41.970 
+interesting one using lerp we set it to
+a<00:07:39.880> value<00:07:40.240> between<00:07:40.360> ship<00:07:40.930> min<00:07:41.200> velocity<00:07:41.800> and
+
+00:07:41.970 --> 00:07:41.980 
+a value between ship min velocity and
+
+00:07:41.980 --> 00:07:44.270 
+a value between ship min velocity and
+ship<00:07:42.430> max<00:07:42.700> velocity<00:07:43.030> and<00:07:43.480> that<00:07:43.750> will<00:07:43.960> do<00:07:44.110> it
+
+00:07:44.270 --> 00:07:44.280 
+ship max velocity and that will do it
+
+00:07:44.280 --> 00:07:47.520 
+ship max velocity and that will do it
+we're<00:07:45.280> short<00:07:45.610> three<00:07:45.970> right<00:07:46.210> curly<00:07:46.600> braces<00:07:46.870> one
+
+00:07:47.520 --> 00:07:47.530 
+we're short three right curly braces one
+
+00:07:47.530 --> 00:07:49.890 
+we're short three right curly braces one
+to<00:07:47.650> close<00:07:47.890> the<00:07:48.100> else<00:07:48.250> one<00:07:49.060> to<00:07:49.210> close<00:07:49.420> the<00:07:49.630> for
+
+00:07:49.890 --> 00:07:49.900 
+to close the else one to close the for
+
+00:07:49.900 --> 00:07:52.350 
+to close the else one to close the for
+each<00:07:50.110> and<00:07:50.410> one<00:07:51.010> to<00:07:51.160> close<00:07:51.370> the<00:07:51.610> method<00:07:51.940> so
+
+00:07:52.350 --> 00:07:52.360 
+each and one to close the method so
+
+00:07:52.360 --> 00:07:54.330 
+each and one to close the method so
+let's<00:07:52.540> add<00:07:52.720> those<00:07:52.960> now<00:07:53.200> and<00:07:53.470> we're<00:07:53.830> done<00:07:54.100> with
+
+00:07:54.330 --> 00:07:54.340 
+let's add those now and we're done with
+
+00:07:54.340 --> 00:07:57.210 
+let's add those now and we're done with
+this<00:07:54.490> method<00:07:55.080> last<00:07:56.080> step<00:07:56.380> will<00:07:56.920> draw<00:07:57.190> the
+
+00:07:57.210 --> 00:07:57.220 
+this method last step will draw the
+
+00:07:57.220 --> 00:07:59.610 
+this method last step will draw the
+ship's
+

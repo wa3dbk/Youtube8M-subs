@@ -1,0 +1,939 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.270 
+
+hey<00:00:00.840> guys<00:00:01.170> my<00:00:01.469> name<00:00:01.589> is<00:00:01.650> Ben<00:00:01.860> and<00:00:01.890> welcome<00:00:02.070> back
+
+00:00:02.270 --> 00:00:02.280 
+hey guys my name is Ben and welcome back
+
+00:00:02.280 --> 00:00:04.849 
+hey guys my name is Ben and welcome back
+to<00:00:02.580> episode<00:00:02.850> five<00:00:03.570> of<00:00:03.600> your<00:00:04.049> bucket<00:00:04.350> plug-in
+
+00:00:04.849 --> 00:00:04.859 
+to episode five of your bucket plug-in
+
+00:00:04.859 --> 00:00:06.619 
+to episode five of your bucket plug-in
+tutorials<00:00:05.400> today<00:00:06.120> we're<00:00:06.359> going<00:00:06.450> to<00:00:06.540> be
+
+00:00:06.619 --> 00:00:06.629 
+tutorials today we're going to be
+
+00:00:06.629 --> 00:00:08.360 
+tutorials today we're going to be
+looking<00:00:06.870> at<00:00:07.020> player<00:00:07.410> events<00:00:07.799> so<00:00:08.069> it's<00:00:08.220> gonna
+
+00:00:08.360 --> 00:00:08.370 
+looking at player events so it's gonna
+
+00:00:08.370 --> 00:00:09.709 
+looking at player events so it's gonna
+be<00:00:08.519> kind<00:00:08.970> of<00:00:09.090> a<00:00:09.179> very<00:00:09.360> straightforward
+
+00:00:09.709 --> 00:00:09.719 
+be kind of a very straightforward
+
+00:00:09.719 --> 00:00:11.780 
+be kind of a very straightforward
+tutorial<00:00:10.469> just<00:00:10.679> to<00:00:10.800> solidify<00:00:11.190> our<00:00:11.429> knowledge
+
+00:00:11.780 --> 00:00:11.790 
+tutorial just to solidify our knowledge
+
+00:00:11.790 --> 00:00:14.030 
+tutorial just to solidify our knowledge
+within<00:00:12.030> events<00:00:12.420> as<00:00:13.230> last<00:00:13.469> episode<00:00:13.860> we<00:00:13.920> went
+
+00:00:14.030 --> 00:00:14.040 
+within events as last episode we went
+
+00:00:14.040 --> 00:00:16.820 
+within events as last episode we went
+over<00:00:14.370> in<00:00:14.490> a<00:00:14.580> little<00:00:14.820> bit<00:00:14.910> more<00:00:15.059> detail<00:00:15.389> so<00:00:15.830> in
+
+00:00:16.820 --> 00:00:16.830 
+over in a little bit more detail so in
+
+00:00:16.830 --> 00:00:18.500 
+over in a little bit more detail so in
+our<00:00:17.039> play<00:00:17.310> a<00:00:17.340> package<00:00:17.760> we<00:00:17.880> made<00:00:18.060> last<00:00:18.300> tutorial
+
+00:00:18.500 --> 00:00:18.510 
+our play a package we made last tutorial
+
+00:00:18.510 --> 00:00:20.450 
+our play a package we made last tutorial
+we're<00:00:19.350> gonna<00:00:19.439> make<00:00:19.619> a<00:00:19.650> new<00:00:19.859> class<00:00:20.039> and<00:00:20.369> the
+
+00:00:20.450 --> 00:00:20.460 
+we're gonna make a new class and the
+
+00:00:20.460 --> 00:00:22.130 
+we're gonna make a new class and the
+airtight<00:00:20.760> player
+
+00:00:22.130 --> 00:00:22.140 
+airtight player
+
+00:00:22.140 --> 00:00:24.769 
+airtight player
+chat<00:00:22.680> so<00:00:23.400> this<00:00:24.060> is<00:00:24.180> gonna<00:00:24.300> be<00:00:24.359> whenever<00:00:24.750> a
+
+00:00:24.769 --> 00:00:24.779 
+chat so this is gonna be whenever a
+
+00:00:24.779 --> 00:00:28.130 
+chat so this is gonna be whenever a
+player<00:00:25.019> chats<00:00:25.590> in<00:00:25.949> chat<00:00:26.519> and<00:00:27.240> the<00:00:27.660> interface
+
+00:00:28.130 --> 00:00:28.140 
+player chats in chat and the interface
+
+00:00:28.140 --> 00:00:29.929 
+player chats in chat and the interface
+we're<00:00:28.289> going<00:00:28.439> to<00:00:28.500> add<00:00:28.619> is<00:00:28.769> listener<00:00:29.220> so<00:00:29.820> this
+
+00:00:29.929 --> 00:00:29.939 
+we're going to add is listener so this
+
+00:00:29.939 --> 00:00:32.780 
+we're going to add is listener so this
+is<00:00:30.060> a<00:00:30.090> an<00:00:30.830> easier<00:00:31.830> way<00:00:32.070> of<00:00:32.099> just<00:00:32.430> typing
+
+00:00:32.780 --> 00:00:32.790 
+is a an easier way of just typing
+
+00:00:32.790 --> 00:00:34.880 
+is a an easier way of just typing
+implements<00:00:33.690> listener<00:00:34.079> every<00:00:34.320> time<00:00:34.559> at<00:00:34.800> the
+
+00:00:34.880 --> 00:00:34.890 
+implements listener every time at the
+
+00:00:34.890 --> 00:00:36.260 
+implements listener every time at the
+top<00:00:35.040> of<00:00:35.160> every<00:00:35.370> class<00:00:35.579> we<00:00:35.760> can<00:00:35.910> just<00:00:36.059> go<00:00:36.149> into
+
+00:00:36.260 --> 00:00:36.270 
+top of every class we can just go into
+
+00:00:36.270 --> 00:00:37.970 
+top of every class we can just go into
+interface<00:00:36.630> it's<00:00:36.780> click<00:00:36.960> Add<00:00:37.140> search<00:00:37.739> for
+
+00:00:37.970 --> 00:00:37.980 
+interface it's click Add search for
+
+00:00:37.980 --> 00:00:40.220 
+interface it's click Add search for
+listener<00:00:38.250> hit<00:00:38.610> finish<00:00:38.820> it<00:00:39.149> nicely<00:00:39.360> imports<00:00:40.110> it
+
+00:00:40.220 --> 00:00:40.230 
+listener hit finish it nicely imports it
+
+00:00:40.230 --> 00:00:43.130 
+listener hit finish it nicely imports it
+for<00:00:40.440> us<00:00:40.620> it's<00:00:40.800> all<00:00:40.950> good<00:00:41.190> so<00:00:42.090> like<00:00:42.629> before<00:00:42.840> we
+
+00:00:43.130 --> 00:00:43.140 
+for us it's all good so like before we
+
+00:00:43.140 --> 00:00:45.770 
+for us it's all good so like before we
+need<00:00:43.170> to<00:00:43.260> type<00:00:43.440> at<00:00:43.620> event<00:00:44.010> handler<00:00:44.460> a<00:00:44.780> control
+
+00:00:45.770 --> 00:00:45.780 
+need to type at event handler a control
+
+00:00:45.780 --> 00:00:48.590 
+need to type at event handler a control
+space<00:00:45.960> to<00:00:46.110> make<00:00:46.200> it<00:00:46.260> easier<00:00:46.500> for<00:00:46.680> us<00:00:46.850> and<00:00:47.850> then
+
+00:00:48.590 --> 00:00:48.600 
+space to make it easier for us and then
+
+00:00:48.600 --> 00:00:51.650 
+space to make it easier for us and then
+public<00:00:49.050> void<00:00:49.320> on<00:00:49.649> player<00:00:50.219> chat<00:00:50.640> the<00:00:51.270> name<00:00:51.480> of
+
+00:00:51.650 --> 00:00:51.660 
+public void on player chat the name of
+
+00:00:51.660 --> 00:00:54.439 
+public void on player chat the name of
+the<00:00:51.809> method<00:00:52.140> does<00:00:52.379> not<00:00:52.410> it's<00:00:52.980> not<00:00:53.449> doesn't
+
+00:00:54.439 --> 00:00:54.449 
+the method does not it's not doesn't
+
+00:00:54.449 --> 00:00:57.200 
+the method does not it's not doesn't
+have<00:00:54.600> to<00:00:54.719> be<00:00:54.780> anything<00:00:54.960> in<00:00:55.110> specific<00:00:55.289> but<00:00:56.210> it's
+
+00:00:57.200 --> 00:00:57.210 
+have to be anything in specific but it's
+
+00:00:57.210 --> 00:01:00.020 
+have to be anything in specific but it's
+good<00:00:57.420> to<00:00:57.469> make<00:00:58.469> it<00:00:58.620> organized<00:00:58.980> so<00:00:59.489> in<00:00:59.640> brackets
+
+00:01:00.020 --> 00:01:00.030 
+good to make it organized so in brackets
+
+00:01:00.030 --> 00:01:00.950 
+good to make it organized so in brackets
+the<00:01:00.180> one<00:01:00.270> for<00:01:00.420> this<00:01:00.510> is<00:01:00.600> a<00:01:00.629> little<00:01:00.870> bit
+
+00:01:00.950 --> 00:01:00.960 
+the one for this is a little bit
+
+00:01:00.960 --> 00:01:07.600 
+the one for this is a little bit
+different<00:01:01.399> it's<00:01:02.399> a<00:01:02.960> sync<00:01:04.220> player<00:01:05.220> chat<00:01:05.909> event
+
+00:01:07.600 --> 00:01:07.610 
+different it's a sync player chat event
+
+00:01:07.610 --> 00:01:11.510 
+different it's a sync player chat event
+and<00:01:08.610> we're<00:01:08.760> gonna<00:01:08.880> nickname<00:01:09.119> this<00:01:09.510> event<00:01:10.520> now
+
+00:01:11.510 --> 00:01:11.520 
+and we're gonna nickname this event now
+
+00:01:11.520 --> 00:01:13.130 
+and we're gonna nickname this event now
+if<00:01:11.610> you<00:01:11.670> hover<00:01:11.790> over<00:01:12.090> that<00:01:12.210> we<00:01:12.720> can<00:01:12.869> import
+
+00:01:13.130 --> 00:01:13.140 
+if you hover over that we can import
+
+00:01:13.140 --> 00:01:16.520 
+if you hover over that we can import
+that<00:01:13.760> so<00:01:14.760> what<00:01:14.970> this<00:01:15.090> does<00:01:15.299> is<00:01:15.570> it<00:01:15.689> fires<00:01:16.020> the
+
+00:01:16.520 --> 00:01:16.530 
+that so what this does is it fires the
+
+00:01:16.530 --> 00:01:21.230 
+that so what this does is it fires the
+event<00:01:18.140> differently<00:01:19.140> to<00:01:19.470> other<00:01:19.740> events<00:01:20.610> it's
+
+00:01:21.230 --> 00:01:21.240 
+event differently to other events it's
+
+00:01:21.240 --> 00:01:22.749 
+event differently to other events it's
+asynchronous
+
+00:01:22.749 --> 00:01:22.759 
+asynchronous
+
+00:01:22.759 --> 00:01:24.620 
+asynchronous
+so<00:01:23.759> that's<00:01:23.939> why<00:01:24.090> it's<00:01:24.270> a<00:01:24.330> little<00:01:24.509> bit
+
+00:01:24.620 --> 00:01:24.630 
+so that's why it's a little bit
+
+00:01:24.630 --> 00:01:26.060 
+so that's why it's a little bit
+different<00:01:24.780> it's<00:01:24.990> got<00:01:25.049> a<00:01:25.320> sink<00:01:25.619> at<00:01:25.770> the<00:01:25.799> start
+
+00:01:26.060 --> 00:01:26.070 
+different it's got a sink at the start
+
+00:01:26.070 --> 00:01:27.469 
+different it's got a sink at the start
+of<00:01:26.100> instead<00:01:26.549> of<00:01:26.610> just<00:01:26.759> being<00:01:26.939> play<00:01:27.180> a<00:01:27.210> chat
+
+00:01:27.469 --> 00:01:27.479 
+of instead of just being play a chat
+
+00:01:27.479 --> 00:01:30.020 
+of instead of just being play a chat
+event<00:01:27.890> you<00:01:28.890> can<00:01:29.040> look<00:01:29.159> at<00:01:29.310> that<00:01:29.460> more<00:01:29.670> on<00:01:29.850> the
+
+00:01:30.020 --> 00:01:30.030 
+event you can look at that more on the
+
+00:01:30.030 --> 00:01:33.469 
+event you can look at that more on the
+the<00:01:30.170> documents<00:01:31.170> online<00:01:31.770> if<00:01:31.950> you<00:01:32.040> wish<00:01:32.189> to<00:01:32.479> but
+
+00:01:33.469 --> 00:01:33.479 
+the documents online if you wish to but
+
+00:01:33.479 --> 00:01:34.340 
+the documents online if you wish to but
+I'm<00:01:33.540> not<00:01:33.630> gonna<00:01:33.750> go<00:01:33.869> into<00:01:33.990> too<00:01:34.049> much<00:01:34.110> detail
+
+00:01:34.340 --> 00:01:34.350 
+I'm not gonna go into too much detail
+
+00:01:34.350 --> 00:01:38.660 
+I'm not gonna go into too much detail
+now<00:01:35.420> so<00:01:36.439> what<00:01:37.439> we<00:01:37.740> can<00:01:37.890> do<00:01:38.070> with<00:01:38.189> this<00:01:38.340> method
+
+00:01:38.660 --> 00:01:38.670 
+now so what we can do with this method
+
+00:01:38.670 --> 00:01:40.819 
+now so what we can do with this method
+is<00:01:38.850> we<00:01:38.970> can<00:01:39.150> check<00:01:39.329> who's<00:01:40.020> chatted<00:01:40.680> what
+
+00:01:40.819 --> 00:01:40.829 
+is we can check who's chatted what
+
+00:01:40.829 --> 00:01:42.080 
+is we can check who's chatted what
+they've<00:01:40.979> chatted<00:01:41.369> we<00:01:41.520> can<00:01:41.640> set<00:01:41.850> what<00:01:41.970> they've
+
+00:01:42.080 --> 00:01:42.090 
+they've chatted we can set what they've
+
+00:01:42.090 --> 00:01:44.539 
+they've chatted we can set what they've
+chatted<00:01:42.450> we<00:01:42.630> can<00:01:42.780> set<00:01:42.990> certain<00:01:43.560> things<00:01:44.009> but
+
+00:01:44.539 --> 00:01:44.549 
+chatted we can set certain things but
+
+00:01:44.549 --> 00:01:45.590 
+chatted we can set certain things but
+all<00:01:44.640> we're<00:01:44.759> gonna<00:01:44.880> do<00:01:45.030> is<00:01:45.149> we're<00:01:45.270> gonna<00:01:45.360> make
+
+00:01:45.590 --> 00:01:45.600 
+all we're gonna do is we're gonna make
+
+00:01:45.600 --> 00:01:48.710 
+all we're gonna do is we're gonna make
+like<00:01:45.930> before<00:01:46.259> with<00:01:46.470> the<00:01:47.210> whitelist<00:01:48.210> thing
+
+00:01:48.710 --> 00:01:48.720 
+like before with the whitelist thing
+
+00:01:48.720 --> 00:01:52.249 
+like before with the whitelist thing
+here<00:01:49.880> we're<00:01:50.880> gonna<00:01:51.090> make<00:01:51.299> it<00:01:51.420> so<00:01:51.659> that<00:01:52.079> the
+
+00:01:52.249 --> 00:01:52.259 
+here we're gonna make it so that the
+
+00:01:52.259 --> 00:01:55.910 
+here we're gonna make it so that the
+player<00:01:52.470> can<00:01:53.270> not<00:01:54.270> say<00:01:54.630> a<00:01:54.930> certain<00:01:55.320> word<00:01:55.470> so
+
+00:01:55.910 --> 00:01:55.920 
+player can not say a certain word so
+
+00:01:55.920 --> 00:01:56.899 
+player can not say a certain word so
+then<00:01:56.100> a<00:01:56.130> player<00:01:56.310> is<00:01:56.399> not<00:01:56.490> gonna<00:01:56.670> be<00:01:56.729> able<00:01:56.850> to
+
+00:01:56.899 --> 00:01:56.909 
+then a player is not gonna be able to
+
+00:01:56.909 --> 00:02:00.469 
+then a player is not gonna be able to
+say<00:01:57.000> been<00:01:57.180> honest<00:01:57.450> in<00:01:58.229> this<00:01:58.890> point<00:01:59.130> so<00:01:59.579> first
+
+00:02:00.469 --> 00:02:00.479 
+say been honest in this point so first
+
+00:02:00.479 --> 00:02:01.399 
+say been honest in this point so first
+of<00:02:00.600> all<00:02:00.659> we're<00:02:00.869> gonna<00:02:00.960> have<00:02:01.170> to<00:02:01.259> get<00:02:01.350> the
+
+00:02:01.399 --> 00:02:01.409 
+of all we're gonna have to get the
+
+00:02:01.409 --> 00:02:02.810 
+of all we're gonna have to get the
+player<00:02:01.590> select<00:02:01.920> for<00:02:02.100> player<00:02:02.340> play<00:02:02.549> it<00:02:02.700> was
+
+00:02:02.810 --> 00:02:02.820 
+player select for player play it was
+
+00:02:02.820 --> 00:02:06.020 
+player select for player play it was
+event<00:02:03.060> dot<00:02:03.270> to<00:02:03.420> get<00:02:03.540> player<00:02:04.790> make<00:02:05.790> sure<00:02:05.909> the
+
+00:02:06.020 --> 00:02:06.030 
+event dot to get player make sure the
+
+00:02:06.030 --> 00:02:09.710 
+event dot to get player make sure the
+player<00:02:06.240> is<00:02:06.360> imported<00:02:06.899> of<00:02:07.680> course<00:02:08.420> and<00:02:09.420> now<00:02:09.660> we
+
+00:02:09.710 --> 00:02:09.720 
+player is imported of course and now we
+
+00:02:09.720 --> 00:02:11.270 
+player is imported of course and now we
+can<00:02:09.959> see<00:02:10.110> what<00:02:10.259> the<00:02:10.349> event<00:02:10.619> does<00:02:10.890> so<00:02:11.039> if<00:02:11.129> type
+
+00:02:11.270 --> 00:02:11.280 
+can see what the event does so if type
+
+00:02:11.280 --> 00:02:12.530 
+can see what the event does so if type
+of<00:02:11.340> event<00:02:11.520> dots<00:02:11.760> we'll<00:02:12.000> see<00:02:12.150> we<00:02:12.239> have<00:02:12.360> all<00:02:12.450> of
+
+00:02:12.530 --> 00:02:12.540 
+of event dots we'll see we have all of
+
+00:02:12.540 --> 00:02:13.970 
+of event dots we'll see we have all of
+these<00:02:12.690> things
+
+00:02:13.970 --> 00:02:13.980 
+these things
+
+00:02:13.980 --> 00:02:16.070 
+these things
+so<00:02:14.790> we<00:02:14.910> can<00:02:15.030> set<00:02:15.240> the<00:02:15.360> message<00:02:15.510> we<00:02:15.780> can<00:02:15.840> set<00:02:16.020> the
+
+00:02:16.070 --> 00:02:16.080 
+so we can set the message we can set the
+
+00:02:16.080 --> 00:02:18.020 
+so we can set the message we can set the
+format<00:02:16.410> set<00:02:16.650> cancelled<00:02:17.160> so<00:02:17.670> we<00:02:17.730> can<00:02:17.820> cancel
+
+00:02:18.020 --> 00:02:18.030 
+format set cancelled so we can cancel
+
+00:02:18.030 --> 00:02:20.780 
+format set cancelled so we can cancel
+set<00:02:18.420> player<00:02:18.690> sending<00:02:19.050> message<00:02:19.320> we<00:02:19.590> can<00:02:19.790> get
+
+00:02:20.780 --> 00:02:20.790 
+set player sending message we can get
+
+00:02:20.790 --> 00:02:22.580 
+set player sending message we can get
+the<00:02:20.880> message<00:02:21.180> all<00:02:21.390> this<00:02:21.570> kind<00:02:21.780> of<00:02:21.840> thing<00:02:22.020> so
+
+00:02:22.580 --> 00:02:22.590 
+the message all this kind of thing so
+
+00:02:22.590 --> 00:02:23.870 
+the message all this kind of thing so
+we're<00:02:22.710> going<00:02:22.800> to<00:02:22.860> get<00:02:23.190> the<00:02:23.310> message<00:02:23.460> and<00:02:23.790> the
+
+00:02:23.870 --> 00:02:23.880 
+we're going to get the message and the
+
+00:02:23.880 --> 00:02:26.930 
+we're going to get the message and the
+message<00:02:24.180> is<00:02:24.480> of<00:02:24.720> the<00:02:24.930> type<00:02:25.110> string<00:02:25.940> surfer
+
+00:02:26.930 --> 00:02:26.940 
+message is of the type string surfer
+
+00:02:26.940 --> 00:02:30.740 
+message is of the type string surfer
+type<00:02:27.060> string<00:02:27.500> message<00:02:28.850> equals<00:02:29.850> event<00:02:30.210> doctor
+
+00:02:30.740 --> 00:02:30.750 
+type string message equals event doctor
+
+00:02:30.750 --> 00:02:33.830 
+type string message equals event doctor
+gets<00:02:30.990> message<00:02:31.560> and<00:02:32.250> that's<00:02:33.240> going<00:02:33.390> to<00:02:33.480> get<00:02:33.750> the
+
+00:02:33.830 --> 00:02:33.840 
+gets message and that's going to get the
+
+00:02:33.840 --> 00:02:34.940 
+gets message and that's going to get the
+message<00:02:33.930> for<00:02:34.260> us<00:02:34.350> we'd<00:02:34.500> have<00:02:34.620> to<00:02:34.710> import
+
+00:02:34.940 --> 00:02:34.950 
+message for us we'd have to import
+
+00:02:34.950 --> 00:02:39.160 
+message for us we'd have to import
+string<00:02:35.250> because<00:02:35.550> it's<00:02:35.670> built<00:02:36.000> into<00:02:36.360> all<00:02:36.650> job
+
+00:02:39.160 --> 00:02:39.170 
+string because it's built into all job
+
+00:02:39.170 --> 00:02:41.930 
+string because it's built into all job
+so<00:02:40.170> now<00:02:40.290> we<00:02:40.350> want<00:02:40.620> to<00:02:40.740> check<00:02:40.950> if<00:02:41.190> the<00:02:41.580> message
+
+00:02:41.930 --> 00:02:41.940 
+so now we want to check if the message
+
+00:02:41.940 --> 00:02:43.250 
+so now we want to check if the message
+contains<00:02:42.450> the<00:02:42.630> word<00:02:42.750> banana
+
+00:02:43.250 --> 00:02:43.260 
+contains the word banana
+
+00:02:43.260 --> 00:02:47.870 
+contains the word banana
+so<00:02:44.100> if<00:02:44.760> voice<00:02:45.720> crack<00:02:46.110> if<00:02:46.680> message<00:02:47.310> doctor
+
+00:02:47.870 --> 00:02:47.880 
+so if voice crack if message doctor
+
+00:02:47.880 --> 00:02:50.540 
+so if voice crack if message doctor
+contains<00:02:48.540> or<00:02:49.350> actually<00:02:49.709> first<00:02:49.890> of<00:02:50.010> all<00:02:50.100> we
+
+00:02:50.540 --> 00:02:50.550 
+contains or actually first of all we
+
+00:02:50.550 --> 00:02:51.770 
+contains or actually first of all we
+want<00:02:50.700> to<00:02:50.760> make<00:02:50.850> sure<00:02:51.180> that<00:02:51.360> we're<00:02:51.510> checking
+
+00:02:51.770 --> 00:02:51.780 
+want to make sure that we're checking
+
+00:02:51.780 --> 00:02:53.390 
+want to make sure that we're checking
+the<00:02:52.110> right<00:02:52.230> cases<00:02:52.620> so<00:02:52.770> we<00:02:52.800> want<00:02:53.010> to<00:02:53.100> convert
+
+00:02:53.390 --> 00:02:53.400 
+the right cases so we want to convert
+
+00:02:53.400 --> 00:02:55.699 
+the right cases so we want to convert
+this<00:02:53.459> message<00:02:54.000> to<00:02:54.570> lower<00:02:54.750> case<00:02:55.020> so<00:02:55.350> at<00:02:55.440> the<00:02:55.560> end
+
+00:02:55.699 --> 00:02:55.709 
+this message to lower case so at the end
+
+00:02:55.709 --> 00:02:57.260 
+this message to lower case so at the end
+of<00:02:55.980> event<00:02:56.280> dog<00:02:56.400> get<00:02:56.550> message<00:02:56.850> we're<00:02:57.060> going<00:02:57.209> to
+
+00:02:57.260 --> 00:02:57.270 
+of event dog get message we're going to
+
+00:02:57.270 --> 00:02:59.870 
+of event dog get message we're going to
+type<00:02:57.420> dot<00:02:57.870> two<00:02:58.470> lower<00:02:58.800> case<00:02:59.070> so<00:02:59.400> this<00:02:59.520> converts
+
+00:02:59.870 --> 00:02:59.880 
+type dot two lower case so this converts
+
+00:02:59.880 --> 00:03:01.640 
+type dot two lower case so this converts
+the<00:03:00.000> whole<00:03:00.120> message<00:03:00.330> to<00:03:00.720> a<00:03:00.750> lower<00:03:01.050> case<00:03:01.230> format
+
+00:03:01.640 --> 00:03:01.650 
+the whole message to a lower case format
+
+00:03:01.650 --> 00:03:03.890 
+the whole message to a lower case format
+so<00:03:02.340> now<00:03:02.490> we<00:03:02.550> want<00:03:02.760> to<00:03:02.880> check<00:03:03.300> if<00:03:03.510> the<00:03:03.630> message
+
+00:03:03.890 --> 00:03:03.900 
+so now we want to check if the message
+
+00:03:03.900 --> 00:03:07.820 
+so now we want to check if the message
+contains<00:03:04.320> the<00:03:04.950> the<00:03:05.250> bad<00:03:05.430> word<00:03:06.170> so<00:03:07.170> if<00:03:07.410> message
+
+00:03:07.820 --> 00:03:07.830 
+contains the the bad word so if message
+
+00:03:07.830 --> 00:03:10.820 
+contains the the bad word so if message
+contains<00:03:08.400> and<00:03:08.670> then<00:03:08.700> in<00:03:09.240> our<00:03:09.360> brackets<00:03:09.720> uh<00:03:09.900> uh
+
+00:03:10.820 --> 00:03:10.830 
+contains and then in our brackets uh uh
+
+00:03:10.830 --> 00:03:12.230 
+contains and then in our brackets uh uh
+excuse<00:03:11.610> me
+
+00:03:12.230 --> 00:03:12.240 
+excuse me
+
+00:03:12.240 --> 00:03:15.230 
+excuse me
+and<00:03:12.600> then<00:03:12.690> in<00:03:12.810> our<00:03:13.190> parentheses<00:03:14.240> quotation
+
+00:03:15.230 --> 00:03:15.240 
+and then in our parentheses quotation
+
+00:03:15.240 --> 00:03:18.259 
+and then in our parentheses quotation
+marks<00:03:15.510> that's<00:03:15.690> the<00:03:15.750> one<00:03:15.900> contains<00:03:16.560> banana<00:03:17.269> but
+
+00:03:18.259 --> 00:03:18.269 
+marks that's the one contains banana but
+
+00:03:18.269 --> 00:03:21.830 
+marks that's the one contains banana but
+I<00:03:18.720> don't<00:03:18.930> even<00:03:19.019> know<00:03:19.140> that<00:03:19.200> she<00:03:19.410> spoke<00:03:19.590> now<00:03:20.840> I'm
+
+00:03:21.830 --> 00:03:21.840 
+I don't even know that she spoke now I'm
+
+00:03:21.840 --> 00:03:23.150 
+I don't even know that she spoke now I'm
+gonna<00:03:21.989> go<00:03:22.110> with<00:03:22.230> yes<00:03:22.350> so<00:03:22.620> if<00:03:22.769> the<00:03:22.890> message
+
+00:03:23.150 --> 00:03:23.160 
+gonna go with yes so if the message
+
+00:03:23.160 --> 00:03:24.979 
+gonna go with yes so if the message
+contains<00:03:23.489> banana<00:03:23.790> and<00:03:24.330> then<00:03:24.420> open<00:03:24.750> this<00:03:24.810> up
+
+00:03:24.979 --> 00:03:24.989 
+contains banana and then open this up
+
+00:03:24.989 --> 00:03:29.210 
+contains banana and then open this up
+we're<00:03:25.769> going<00:03:25.890> to<00:03:26.010> say<00:03:26.280> event<00:03:26.610> dot<00:03:27.800> set<00:03:28.800> cancel
+
+00:03:29.210 --> 00:03:29.220 
+we're going to say event dot set cancel
+
+00:03:29.220 --> 00:03:30.590 
+we're going to say event dot set cancel
+true<00:03:29.489> I'm<00:03:29.820> going<00:03:30.000> to<00:03:30.090> send<00:03:30.269> the<00:03:30.390> player<00:03:30.570> a
+
+00:03:30.590 --> 00:03:30.600 
+true I'm going to send the player a
+
+00:03:30.600 --> 00:03:32.180 
+true I'm going to send the player a
+message<00:03:30.959> we're<00:03:31.140> safe<00:03:31.320> player<00:03:31.560> dot<00:03:31.890> send
+
+00:03:32.180 --> 00:03:32.190 
+message we're safe player dot send
+
+00:03:32.190 --> 00:03:35.840 
+message we're safe player dot send
+message<00:03:33.110> in<00:03:34.110> red<00:03:34.470> again<00:03:34.560> because<00:03:35.040> red<00:03:35.820> is
+
+00:03:35.840 --> 00:03:35.850 
+message in red again because red is
+
+00:03:35.850 --> 00:03:39.530 
+message in red again because red is
+danger<00:03:36.709> we're<00:03:37.709> going<00:03:37.860> to<00:03:37.980> say<00:03:38.160> that<00:03:39.150> is<00:03:39.510> a
+
+00:03:39.530 --> 00:03:39.540 
+danger we're going to say that is a
+
+00:03:39.540 --> 00:03:44.170 
+danger we're going to say that is a
+naughty<00:03:40.320> word<00:03:40.970> you<00:03:41.970> may<00:03:42.239> not<00:03:42.720> use<00:03:43.560> it
+
+00:03:44.170 --> 00:03:44.180 
+naughty word you may not use it
+
+00:03:44.180 --> 00:03:48.500 
+naughty word you may not use it
+exclamation<00:03:45.180> mark<00:03:46.820> the<00:03:47.820> dash<00:03:48.090> in<00:03:48.239> the<00:03:48.299> middle
+
+00:03:48.500 --> 00:03:48.510 
+exclamation mark the dash in the middle
+
+00:03:48.510 --> 00:03:51.410 
+exclamation mark the dash in the middle
+so<00:03:49.380> that's<00:03:49.590> essentially<00:03:50.130> it<00:03:50.400> and<00:03:50.580> like<00:03:51.209> before
+
+00:03:51.410 --> 00:03:51.420 
+so that's essentially it and like before
+
+00:03:51.420 --> 00:03:52.880 
+so that's essentially it and like before
+we're<00:03:51.870> going<00:03:51.989> to<00:03:52.080> have<00:03:52.230> to<00:03:52.410> register<00:03:52.739> our
+
+00:03:52.880 --> 00:03:52.890 
+we're going to have to register our
+
+00:03:52.890 --> 00:03:55.310 
+we're going to have to register our
+event<00:03:53.250> in<00:03:53.489> our<00:03:53.730> register<00:03:54.660> events<00:03:54.750> think<00:03:55.110> so<00:03:55.260> if
+
+00:03:55.310 --> 00:03:55.320 
+event in our register events think so if
+
+00:03:55.320 --> 00:03:57.259 
+event in our register events think so if
+we<00:03:55.410> copy<00:03:55.590> this<00:03:55.830> here<00:03:56.070> an<00:03:56.370> instead<00:03:56.970> of<00:03:57.060> block
+
+00:03:57.259 --> 00:03:57.269 
+we copy this here an instead of block
+
+00:03:57.269 --> 00:04:01.009 
+we copy this here an instead of block
+break<00:03:57.570> we<00:03:57.959> want<00:03:58.170> play<00:03:58.860> a<00:03:58.890> chat<00:03:59.820> and<00:04:00.030> import<00:04:00.870> it
+
+00:04:01.009 --> 00:04:01.019 
+break we want play a chat and import it
+
+00:04:01.019 --> 00:04:03.410 
+break we want play a chat and import it
+using<00:04:01.230> ctrl<00:04:01.980> shift<00:04:02.010> o<00:04:02.459> or<00:04:02.760> you<00:04:03.120> could<00:04:03.299> hover
+
+00:04:03.410 --> 00:04:03.420 
+using ctrl shift o or you could hover
+
+00:04:03.420 --> 00:04:05.240 
+using ctrl shift o or you could hover
+over<00:04:03.690> it<00:04:03.750> so<00:04:04.620> let's<00:04:04.769> go<00:04:04.860> through<00:04:04.980> us<00:04:05.070> again
+
+00:04:05.240 --> 00:04:05.250 
+over it so let's go through us again
+
+00:04:05.250 --> 00:04:06.740 
+over it so let's go through us again
+we're<00:04:05.430> getting<00:04:05.549> the<00:04:05.730> player<00:04:05.940> who's<00:04:06.299> chatted
+
+00:04:06.740 --> 00:04:06.750 
+we're getting the player who's chatted
+
+00:04:06.750 --> 00:04:08.420 
+we're getting the player who's chatted
+we're<00:04:07.380> getting<00:04:07.590> the<00:04:07.650> message<00:04:07.830> that<00:04:08.280> they've
+
+00:04:08.420 --> 00:04:08.430 
+we're getting the message that they've
+
+00:04:08.430 --> 00:04:10.370 
+we're getting the message that they've
+sent<00:04:08.730> and<00:04:09.000> then<00:04:09.720> we're<00:04:09.840> going<00:04:09.989> to<00:04:10.019> convert<00:04:10.320> it
+
+00:04:10.370 --> 00:04:10.380 
+sent and then we're going to convert it
+
+00:04:10.380 --> 00:04:12.530 
+sent and then we're going to convert it
+to<00:04:10.440> the<00:04:10.530> lower<00:04:10.680> case<00:04:10.950> and<00:04:11.220> if<00:04:11.880> this<00:04:12.180> message
+
+00:04:12.530 --> 00:04:12.540 
+to the lower case and if this message
+
+00:04:12.540 --> 00:04:14.300 
+to the lower case and if this message
+contains<00:04:12.989> banana<00:04:13.350> make<00:04:13.709> sure<00:04:13.830> because<00:04:14.040> it's
+
+00:04:14.300 --> 00:04:14.310 
+contains banana make sure because it's
+
+00:04:14.310 --> 00:04:16.070 
+contains banana make sure because it's
+all<00:04:14.400> lowercase<00:04:14.670> me<00:04:15.060> to<00:04:15.209> put<00:04:15.510> everything<00:04:15.810> in
+
+00:04:16.070 --> 00:04:16.080 
+all lowercase me to put everything in
+
+00:04:16.080 --> 00:04:18.830 
+all lowercase me to put everything in
+here<00:04:16.229> lower<00:04:16.590> case<00:04:17.450> then<00:04:18.450> we're<00:04:18.570> going<00:04:18.720> to
+
+00:04:18.830 --> 00:04:18.840 
+here lower case then we're going to
+
+00:04:18.840 --> 00:04:20.330 
+here lower case then we're going to
+cancel<00:04:19.320> the<00:04:19.530> event<00:04:19.739> so<00:04:19.859> they<00:04:19.950> haven't<00:04:20.190> chatted
+
+00:04:20.330 --> 00:04:20.340 
+cancel the event so they haven't chatted
+
+00:04:20.340 --> 00:04:23.240 
+cancel the event so they haven't chatted
+and<00:04:20.640> the<00:04:21.570> player<00:04:21.780> will<00:04:22.320> be<00:04:22.500> sent<00:04:22.770> a<00:04:22.860> message
+
+00:04:23.240 --> 00:04:23.250 
+and the player will be sent a message
+
+00:04:23.250 --> 00:04:25.850 
+and the player will be sent a message
+saying<00:04:23.460> that<00:04:23.880> they<00:04:24.060> cannot<00:04:24.330> use<00:04:24.390> that<00:04:24.780> word<00:04:24.990> so
+
+00:04:25.850 --> 00:04:25.860 
+saying that they cannot use that word so
+
+00:04:25.860 --> 00:04:26.790 
+saying that they cannot use that word so
+if<00:04:26.010> we<00:04:26.160> hit
+
+00:04:26.790 --> 00:04:26.800 
+if we hit
+
+00:04:26.800 --> 00:04:30.270 
+if we hit
+export<00:04:27.250> next<00:04:28.210> finish<00:04:29.139> I'll<00:04:29.919> load<00:04:30.129> up<00:04:30.159> the
+
+00:04:30.270 --> 00:04:30.280 
+export next finish I'll load up the
+
+00:04:30.280 --> 00:04:32.790 
+export next finish I'll load up the
+server<00:04:30.490> and<00:04:30.639> I'll<00:04:30.729> see<00:04:30.879> you<00:04:31.229> okay<00:04:32.229> so<00:04:32.409> in<00:04:32.740> the
+
+00:04:32.790 --> 00:04:32.800 
+server and I'll see you okay so in the
+
+00:04:32.800 --> 00:04:34.559 
+server and I'll see you okay so in the
+game<00:04:32.949> and<00:04:33.759> I'm<00:04:34.060> going<00:04:34.210> to<00:04:34.330> type<00:04:34.449> a<00:04:34.479> few
+
+00:04:34.559 --> 00:04:34.569 
+game and I'm going to type a few
+
+00:04:34.569 --> 00:04:38.159 
+game and I'm going to type a few
+messages<00:04:34.930> so<00:04:36.539> see<00:04:37.539> so<00:04:37.750> sending<00:04:38.020> all<00:04:38.080> these
+
+00:04:38.159 --> 00:04:38.169 
+messages so see so sending all these
+
+00:04:38.169 --> 00:04:40.559 
+messages so see so sending all these
+messages<00:04:38.440> I<00:04:38.789> mean<00:04:39.789> now<00:04:39.879> if<00:04:40.000> I<00:04:40.090> type<00:04:40.270> banana
+
+00:04:40.559 --> 00:04:40.569 
+messages I mean now if I type banana
+
+00:04:40.569 --> 00:04:45.600 
+messages I mean now if I type banana
+then<00:04:41.470> I<00:04:42.150> didn't<00:04:43.150> copy<00:04:43.300> this<00:04:43.449> but<00:04:44.050> then<00:04:44.319> I<00:04:44.770> spoke
+
+00:04:45.600 --> 00:04:45.610 
+then I didn't copy this but then I spoke
+
+00:04:45.610 --> 00:04:46.439 
+then I didn't copy this but then I spoke
+it<00:04:45.729> horribly<00:04:46.030> wrong
+
+00:04:46.439 --> 00:04:46.449 
+it horribly wrong
+
+00:04:46.449 --> 00:04:48.390 
+it horribly wrong
+banana<00:04:46.840> it's<00:04:47.440> gonna<00:04:47.560> say<00:04:47.680> that's<00:04:47.830> annoyed<00:04:48.250> you
+
+00:04:48.390 --> 00:04:48.400 
+banana it's gonna say that's annoyed you
+
+00:04:48.400 --> 00:04:49.619 
+banana it's gonna say that's annoyed you
+won't<00:04:48.550> use<00:04:48.699> it<00:04:48.729> and<00:04:49.000> you'll<00:04:49.330> see<00:04:49.449> it<00:04:49.539> has
+
+00:04:49.619 --> 00:04:49.629 
+won't use it and you'll see it has
+
+00:04:49.629 --> 00:04:51.689 
+won't use it and you'll see it has
+actually<00:04:49.990> sent<00:04:50.169> the<00:04:50.289> message<00:04:50.560> now<00:04:51.340> if<00:04:51.460> I<00:04:51.550> type
+
+00:04:51.689 --> 00:04:51.699 
+actually sent the message now if I type
+
+00:04:51.699 --> 00:04:54.300 
+actually sent the message now if I type
+a<00:04:51.909> message<00:04:52.060> with<00:04:52.360> banana<00:04:52.599> in<00:04:52.810> it<00:04:52.930> so<00:04:53.169> banana<00:04:53.530> is
+
+00:04:54.300 --> 00:04:54.310 
+a message with banana in it so banana is
+
+00:04:54.310 --> 00:04:56.040 
+a message with banana in it so banana is
+good<00:04:54.729> it's<00:04:55.419> still<00:04:55.569> gonna<00:04:55.659> say<00:04:55.810> that's<00:04:55.930> not
+
+00:04:56.040 --> 00:04:56.050 
+good it's still gonna say that's not
+
+00:04:56.050 --> 00:04:57.719 
+good it's still gonna say that's not
+your<00:04:56.169> words<00:04:56.289> you<00:04:56.379> may<00:04:56.500> not<00:04:56.620> use<00:04:56.740> it<00:04:56.770> and<00:04:57.129> if<00:04:57.639> I
+
+00:04:57.719 --> 00:04:57.729 
+your words you may not use it and if I
+
+00:04:57.729 --> 00:05:01.159 
+your words you may not use it and if I
+type<00:04:57.940> a<00:04:58.180> word<00:04:58.509> saying<00:04:59.080> like<00:04:59.440> banana<00:04:59.889> and<00:05:00.580> then
+
+00:05:01.159 --> 00:05:01.169 
+type a word saying like banana and then
+
+00:05:01.169 --> 00:05:05.279 
+type a word saying like banana and then
+pancakes<00:05:02.169> thank<00:05:02.860> and<00:05:03.479> okay<00:05:04.479> gonna<00:05:05.020> put<00:05:05.169> like
+
+00:05:05.279 --> 00:05:05.289 
+pancakes thank and okay gonna put like
+
+00:05:05.289 --> 00:05:07.080 
+pancakes thank and okay gonna put like
+that<00:05:05.409> it's<00:05:06.009> still<00:05:06.340> not<00:05:06.520> your<00:05:06.580> word<00:05:06.789> so<00:05:07.000> it
+
+00:05:07.080 --> 00:05:07.090 
+that it's still not your word so it
+
+00:05:07.090 --> 00:05:09.450 
+that it's still not your word so it
+doesn't<00:05:07.360> matter<00:05:07.569> how<00:05:08.199> banana<00:05:08.949> is<00:05:09.099> used<00:05:09.340> it
+
+00:05:09.450 --> 00:05:09.460 
+doesn't matter how banana is used it
+
+00:05:09.460 --> 00:05:10.649 
+doesn't matter how banana is used it
+could<00:05:09.520> be<00:05:09.610> used<00:05:09.819> anywhere<00:05:10.180> so<00:05:10.449> it<00:05:10.509> could<00:05:10.629> be
+
+00:05:10.649 --> 00:05:10.659 
+could be used anywhere so it could be
+
+00:05:10.659 --> 00:05:14.219 
+could be used anywhere so it could be
+used<00:05:11.009> randomly<00:05:12.180> like<00:05:13.180> here<00:05:13.539> and<00:05:13.900> then<00:05:14.080> have
+
+00:05:14.219 --> 00:05:14.229 
+used randomly like here and then have
+
+00:05:14.229 --> 00:05:15.839 
+used randomly like here and then have
+lots<00:05:14.409> of<00:05:14.469> afters<00:05:14.800> that's<00:05:14.949> hidden<00:05:15.099> and<00:05:15.370> it<00:05:15.759> will
+
+00:05:15.839 --> 00:05:15.849 
+lots of afters that's hidden and it will
+
+00:05:15.849 --> 00:05:17.459 
+lots of afters that's hidden and it will
+still<00:05:16.030> be<00:05:16.060> you<00:05:16.419> know<00:05:16.539> found<00:05:16.930> because<00:05:17.319> this
+
+00:05:17.459 --> 00:05:17.469 
+still be you know found because this
+
+00:05:17.469 --> 00:05:20.040 
+still be you know found because this
+message<00:05:17.800> contains<00:05:18.219> the<00:05:18.370> word<00:05:18.520> banana<00:05:19.050> so
+
+00:05:20.040 --> 00:05:20.050 
+message contains the word banana so
+
+00:05:20.050 --> 00:05:21.719 
+message contains the word banana so
+thanks<00:05:20.440> for<00:05:20.530> watching<00:05:20.590> guys<00:05:20.860> and<00:05:21.219> I<00:05:21.580> will<00:05:21.639> see
+
+00:05:21.719 --> 00:05:21.729 
+thanks for watching guys and I will see
+
+00:05:21.729 --> 00:05:25.050 
+thanks for watching guys and I will see
+you<00:05:22.030> in<00:05:22.210> a<00:05:22.300> next<00:05:22.509> tutorial
+

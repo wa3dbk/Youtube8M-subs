@@ -1,0 +1,375 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.009 --> 00:00:02.000
+Here we have the version of our clock
+that doesn't have an alarm built in,
+
+00:00:02.009 --> 00:00:03.000
+it runs from a 32768 Hz crystal.
+
+00:00:03.009 --> 00:00:05.000
+You may notice from this circuit
+something that is conspicuously missing,
+
+00:00:05.009 --> 00:00:06.000
+there's no transformer.
+
+00:00:06.009 --> 00:00:08.000
+I might mention that, this
+particular instance of the clock
+
+00:00:08.009 --> 00:00:10.000
+is powered directly from 120
+volts alternating current.
+
+00:00:10.009 --> 00:00:12.000
+The way it works is that the AC varies
+from -170 volts to +170 volts,
+
+00:00:12.009 --> 00:00:14.000
+and it charges this capacitor only
+when it's between +7 and +10 or so.
+
+00:00:14.009 --> 00:00:16.000
+Particularly the "+7" lower limit is
+really that it is cut off when when
+
+00:00:16.009 --> 00:00:18.000
+it's not enough voltage to forward
+bias a diode and actually charge
+
+00:00:18.009 --> 00:00:20.000
+the capacitor in the forward
+direction, but it is also cut off
+
+00:00:20.009 --> 00:00:22.000
+and made into an open circuit again
+when the voltage passes 10 volts.
+
+00:00:22.009 --> 00:00:24.000
+The lower limit is just done with a
+diode, the upper part is harder,
+
+00:00:24.009 --> 00:00:26.000
+and requires at least one transistor
+capable of withstanding 200 volts.
+
+00:00:26.009 --> 00:00:28.000
+That way it doesn't waste a lot of power
+regulating the 170 volts down to 5
+
+00:00:28.009 --> 00:00:30.000
+But that part actually isn't part of
+the kit, you're expected to provide it
+
+00:00:30.009 --> 00:00:32.000
+the output of a step-down transformer
+so that it gets maybe 10 volts AC.
+
+00:00:32.009 --> 00:00:38.000
+I just wanted to shock you with my
+incredible evil genius, bua ha ha.
+
+00:00:38.009 --> 00:00:42.000
+But anyway, the first thing you
+see is this "fudge factor".
+
+00:00:42.009 --> 00:00:44.000
+It's in there because
+
+00:00:44.009 --> 00:00:46.000
+I found the 32768 Hz crystals
+
+00:00:46.009 --> 00:00:48.000
+weren't particularly accurate.
+
+00:00:48.009 --> 00:00:52.000
+It's a parameter that starts
+at "1:59" (no adjustment)
+
+00:00:52.009 --> 00:00:56.000
+and has 240 possible values and is
+shown by the times 12:00 through 3:59.
+
+00:00:56.009 --> 00:01:00.000
+Each one forward adds 1/8192 of a
+second to the time every 15 seconds.
+
+00:01:00.009 --> 00:01:02.000
+What it amounts to is that
+
+00:01:02.009 --> 00:01:04.000
+each one makes it get faster
+
+00:01:04.009 --> 00:01:06.000
+by 4.921875 seconds every week.
+
+00:01:06.009 --> 00:01:10.000
+In other words, if you ran it for
+a week and it got 2 minutes slow
+
+00:01:10.009 --> 00:01:14.000
+with this starting parameter
+set to "1:59",
+
+00:01:14.009 --> 00:01:18.000
+you could turn it off and back on
+and set it to "2:23" at the beginning,
+
+00:01:18.009 --> 00:01:22.000
+and then it will get only
+1.875 seconds slow every week.
+
+00:01:22.009 --> 00:01:25.000
+But you're not going to notice
+whether it gets a fraction of a
+
+00:01:25.009 --> 00:01:28.000
+second fast or slow over the
+course of this demonstration
+
+00:01:28.009 --> 00:01:32.000
+so I'm just going to set
+it to something and go on.
+
+00:01:32.009 --> 00:01:34.000
+It's currently asking
+
+00:01:34.009 --> 00:01:37.000
+"do you want to store the date",
+
+00:01:37.009 --> 00:01:40.000
+I'm going to say "yes".
+
+00:01:40.009 --> 00:01:42.000
+Then "enter the year modulo 4".
+
+00:01:42.009 --> 00:01:44.000
+I'm going to say "2",
+
+00:01:44.009 --> 00:01:46.000
+it doesn't really matter,
+
+00:01:46.009 --> 00:01:50.000
+it's just whether there's
+a leap year or not.
+
+00:01:50.009 --> 00:01:51.400
+Now "enter the date"
+
+00:01:51.409 --> 00:01:53.400
+I press the button,
+I hold it down,
+
+00:01:53.409 --> 00:01:56.000
+it goes through the year.
+The hours are showing the month.
+
+00:01:56.009 --> 00:01:58.000
+1 is January, 2 is February,
+3 is March, etcetera.
+
+00:01:58.009 --> 00:02:00.000
+So it cycles through the year,
+and it knows how many days
+
+00:02:00.009 --> 00:02:02.000
+are in each month -
+but you probably guessed that
+
+00:02:02.009 --> 00:02:04.000
+if you bothered to think about
+WHY it would be concerned with
+
+00:02:04.009 --> 00:02:05.000
+whether it was a
+leap year or not.
+
+00:02:05.009 --> 00:02:07.000
+So now it says it's July 15.
+
+00:02:07.009 --> 00:02:10.000
+Now, setting the
+day of the week.
+
+00:02:10.009 --> 00:02:12.000
+Monday through Sunday.
+
+00:02:12.009 --> 00:02:14.000
+I never liked partitioning
+
+00:02:14.009 --> 00:02:16.000
+one week from the next
+
+00:02:16.009 --> 00:02:18.000
+between Saturday and Sunday.
+
+00:02:18.009 --> 00:02:21.000
+Now "enter AM or PM",
+that's the red or green.
+
+00:02:21.009 --> 00:02:22.400
+I usually have green be AM
+and red be PM.
+
+00:02:22.409 --> 00:02:24.400
+It's a color code that
+makes sense to a twisted
+
+00:02:24.409 --> 00:02:26.000
+being such as myself,
+what with green being
+
+00:02:26.009 --> 00:02:27.000
+like living plants and red
+being all bloody like death,
+
+00:02:27.009 --> 00:02:28.000
+and morning being the start
+and night being the end.
+
+00:02:28.009 --> 00:02:29.400
+Now hours,
+
+00:02:29.409 --> 00:02:33.000
+you can see it's
+going through the hours.
+
+00:02:33.009 --> 00:02:35.000
+Minutes....
+
+00:02:36.009 --> 00:02:38.000
+And seconds.
+
+00:02:38.009 --> 00:02:40.000
+And now, this is the way
+it looks when it runs.
+
+00:02:40.009 --> 00:02:42.000
+The funny thing is,
+32768 Hz crystal makes
+
+00:02:42.009 --> 00:02:44.000
+for 8192 instructions
+per second,
+
+00:02:44.009 --> 00:02:46.000
+so it's not fast
+enough to calculate
+
+00:02:46.009 --> 00:02:48.000
+the next LED to display
+and switch between them
+
+00:02:48.009 --> 00:02:50.000
+fast enough so that each LED
+looks like it's on solid.
+
+00:02:50.009 --> 00:02:52.000
+It shows the days of the
+week and AM/PM together,
+
+00:02:52.009 --> 00:02:54.000
+then it shows the second, the
+minute and the hour separate.
+
+00:02:54.009 --> 00:02:56.000
+It's only fast enough to
+calculate the next LEDs
+
+00:02:56.009 --> 00:02:58.000
+to display about 44
+times per second,
+
+00:02:58.009 --> 00:03:00.000
+and since it runs through
+4 phases, that means each LED
+
+00:03:00.009 --> 00:03:02.000
+will be on a quarter of the
+time and flash on and off 11
+
+00:03:02.009 --> 00:03:04.000
+times per second. But it's
+kind of psychedelic and neat
+
+00:03:04.009 --> 00:03:06.000
+to watch even if you call it
+a side-effect and not a plus.
+
+00:03:06.009 --> 00:03:08.000
+By the way, it can't just
+turn on any LEDs, it can only
+
+00:03:08.009 --> 00:03:10.000
+display any arbitrary
+combination of on and off for
+
+00:03:10.009 --> 00:03:12.000
+LEDs that all share a cathode
+or all share an anode. This
+
+00:03:12.009 --> 00:03:14.000
+is because you have basically
+90 LEDs controlled by 10 pins.
+
+00:03:14.009 --> 00:03:16.000
+They go BETWEEN the pins.
+
+00:03:16.009 --> 00:03:18.000
+89 LEDs in arbitrary on-off
+states is 89 bits of information,
+
+00:03:18.009 --> 00:03:20.000
+so it is logically impossible
+for 10 pins to control that much
+
+00:03:20.009 --> 00:03:22.000
+information. I actually invented
+this method of controlling this
+
+00:03:22.009 --> 00:03:24.000
+many LEDs with so few pins
+this way myself.
+
+00:03:24.009 --> 00:03:26.000
+Some will contest that,
+but I reinvented it independently
+
+00:03:26.009 --> 00:03:28.000
+without knowledge of ol' Charlie
+who stole all the glory, and only I
+
+00:03:28.009 --> 00:03:30.000
+realized that the LEDs don't have
+to go on merely one at a time,
+
+00:03:30.009 --> 00:03:32.000
+but rather all sharing a common
+cathode can be done together.
+
+00:03:32.009 --> 00:03:34.000
+And yet here I am, poor
+and unappreciated. So sad.
+
+00:03:34.009 --> 00:03:36.000
+So now, you press
+this button, and
+
+00:03:36.009 --> 00:03:38.000
+it shows the date,
+July 15 as I set it to.
+
+00:03:38.009 --> 00:03:38.500
+And that's the clock,
+that's how it looks,
+
+00:03:38.509 --> 00:03:40.300
+that's how it operates basically,
+
+00:03:40.309 --> 00:03:42.000
+that's my story,
+and I'm sticking to it.
+

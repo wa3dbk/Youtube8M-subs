@@ -1,0 +1,484 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.180 --> 00:00:05.919
+ in this lesson we are going to work on a 
+
+00:00:03.190 --> 00:00:07.559
+ simple example that will illustrate how 
+
+00:00:05.919 --> 00:00:10.270
+ insert images and other figures 
+
+00:00:07.559 --> 00:00:14.340
+ gradients of colorful animations and 
+
+00:00:10.270 --> 00:00:18.750
+ user input we will work on a 
+
+00:00:14.340 --> 00:00:18.750
+ example similar to this one 
+
+00:00:19.210 --> 00:00:24.849
+ The first thing we have to see is how 
+
+00:00:22.509 --> 00:00:26.720
+ works the coordinate system of 
+
+00:00:24.849 --> 00:00:28.310
+ the miles 
+
+00:00:26.720 --> 00:00:31.220
+ you surely in the classes of 
+
+00:00:28.310 --> 00:00:33.829
+ mathematics told them that the 0 0 was 
+
+00:00:31.220 --> 00:00:36.739
+ down and to the left good when 
+
+00:00:33.829 --> 00:00:39.739
+ we work in line james and on the canvas 
+
+00:00:36.739 --> 00:00:41.840
+ of html5 as well as other frameworks 
+
+00:00:39.739 --> 00:00:45.140
+ games also not necessarily html5 
+
+00:00:41.840 --> 00:00:46.790
+ the initial coordinate the origin tends 
+
+00:00:45.140 --> 00:00:51.170
+ be located in the upper corner 
+
+00:00:46.790 --> 00:00:53.510
+ left then 0 0 is here to 
+
+00:00:51.170 --> 00:00:55.050
+ there the x-axis advances and forwards it advances 
+
+00:00:53.510 --> 00:00:59.150
+ the y axis 
+
+00:00:55.050 --> 00:01:01.670
+ another concept that will be the angels 
+
+00:00:59.150 --> 00:01:05.260
+ is that the figures that we insert 
+
+00:01:01.670 --> 00:01:07.370
+ the polygons whether they are circles or also 
+
+00:01:05.260 --> 00:01:09.770
+ images any element that 
+
+00:01:07.370 --> 00:01:11.540
+ let's insert it has its own coordinates 
+
+00:01:09.770 --> 00:01:15.080
+ also starting in the upper corner 
+
+00:01:11.540 --> 00:01:17.360
+ left of the element this if I can not 
+
+00:01:15.080 --> 00:01:19.250
+ have a scene scene has its 
+
+00:01:17.360 --> 00:01:21.050
+ coordinate system and he exposes the 
+
+00:01:19.250 --> 00:01:24.440
+ polygon also has its system of 
+
+00:01:21.050 --> 00:01:26.680
+ coordinates and that origin of the polygon is 
+
+00:01:24.440 --> 00:01:29.570
+ what is called the anchor point 
+
+00:01:26.680 --> 00:01:31.220
+ then we can define the 
+
+00:01:29.570 --> 00:01:34.280
+ point that the anchor point is this 
+
+00:01:31.220 --> 00:01:35.660
+ elsewhere for example us 
+
+00:01:34.280 --> 00:01:37.820
+ we can decide to define that point 
+
+00:01:35.660 --> 00:01:40.850
+ before being in the center and we 
+
+00:01:37.820 --> 00:01:43.460
+ we passed that point to the scene and the 
+
+00:01:40.850 --> 00:01:44.540
+ polygon will go where the center of the 
+
+00:01:43.460 --> 00:01:46.580
+ polygon will go at the point that 
+
+00:01:44.540 --> 00:01:48.880
+ we tell you then that point 
+
+00:01:46.580 --> 00:01:52.899
+ of anchoring we will see it also 
+
+00:01:48.880 --> 00:01:56.100
+ let's start let's develop let's go 
+
+00:01:52.899 --> 00:01:56.100
+ create a new project 
+
+00:01:56.480 --> 00:01:59.740
+ it's going to be called takeoff 
+
+00:02:00.150 --> 00:02:07.820
+ failed to write create create spain 
+
+00:02:04.820 --> 00:02:12.100
+ we go to the archives just like 
+
+00:02:07.820 --> 00:02:14.620
+ before we have the html and javascript 
+
+00:02:12.100 --> 00:02:16.160
+ here we are going to eliminate some things not 
+
+00:02:14.620 --> 00:02:18.530
+ everyone 
+
+00:02:16.160 --> 00:02:20.570
+ because we are already familiar with what 
+
+00:02:18.530 --> 00:02:22.960
+ which is the director and the scenes so 
+
+00:02:20.570 --> 00:02:25.860
+ so much we are going to leave that 
+
+00:02:22.960 --> 00:02:25.860
+ we will leave 
+
+00:02:25.900 --> 00:02:31.439
+ the definition of the director and the 
+
+00:02:28.269 --> 00:02:31.439
+ definition of the scene 
+
+00:02:32.580 --> 00:02:38.130
+ then I'm going to leave 
+
+00:02:35.460 --> 00:02:41.460
+ creating a gradient for the sky 
+
+00:02:38.130 --> 00:02:44.240
+ you saw that this is an image 
+
+00:02:41.460 --> 00:02:46.650
+ It has a gradient of color grade 
+
+00:02:44.240 --> 00:02:49.980
+ so that's what I'm going to call 
+
+00:02:46.650 --> 00:02:51.720
+ put comments here 
+
+00:02:49.980 --> 00:02:55.210
+ sky the comments here are going to be 
+
+00:02:51.720 --> 00:02:58.200
+ completely in spanglish 
+
+00:02:55.210 --> 00:02:58.200
+ gradients 
+
+00:02:58.610 --> 00:03:04.250
+ then we will use a filling of 
+
+00:03:02.000 --> 00:03:05.480
+ gradient and that we have to include it 
+
+00:03:04.250 --> 00:03:08.090
+ here 
+
+00:03:05.480 --> 00:03:10.099
+ this is called line dot field which is 
+
+00:03:08.090 --> 00:03:13.970
+ filling and it's going to be a linear gradient 
+
+00:03:10.099 --> 00:03:17.980
+ line of believers 
+
+00:03:13.970 --> 00:03:20.160
+ let's create a new line field 
+
+00:03:17.980 --> 00:03:23.060
+ line 
+
+00:03:20.160 --> 00:03:23.060
+ bryant 
+
+00:03:24.180 --> 00:03:28.189
+ we will give a direction 
+
+00:03:25.920 --> 00:03:28.189
+ gradient 
+
+00:03:28.790 --> 00:03:36.350
+ in the address the origin 0,0 is entered 
+
+00:03:32.569 --> 00:03:38.570
+ and we're going to make the gradient go 
+
+00:03:36.350 --> 00:03:42.080
+ from there downwards therefore it goes to 
+
+00:03:38.570 --> 00:03:44.570
+ advance in the brand 1 1 
+
+00:03:42.080 --> 00:03:46.600
+ so you enter the vector that goes in that 
+
+00:03:44.570 --> 00:03:46.600
+ address 
+
+00:03:49.200 --> 00:03:55.129
+ let's add a color adcolor stop 
+
+00:03:55.880 --> 00:03:59.620
+ and that will be at the beginning 
+
+00:04:00.240 --> 00:04:05.500
+ and we enter the value ex aces and wrong 
+
+00:04:02.790 --> 00:04:08.190
+ hexadecimal color 
+
+00:04:05.500 --> 00:04:12.300
+ we repeat the same for the second color 
+
+00:04:08.190 --> 00:04:12.300
+ they are going to be two colors only 
+
+00:04:17.799 --> 00:04:22.540
+ sorry here is there we put one in 
+
+00:04:21.009 --> 00:04:25.960
+ this case 
+
+00:04:22.540 --> 00:04:28.440
+ and the color is going to be this one that I'm going to 
+
+00:04:25.960 --> 00:04:30.009
+ enter next 
+
+00:04:28.440 --> 00:04:33.490
+ this here 
+
+00:04:30.009 --> 00:04:36.189
+ perfect with that we have the gradient 
+
+00:04:33.490 --> 00:04:38.110
+ of the sky now is the gradient we 
+
+00:04:36.189 --> 00:04:40.300
+ we're going to apply it to a sprite to a 
+
+00:04:38.110 --> 00:04:42.669
+ rectangle as we saw before then 
+
+00:04:40.300 --> 00:04:45.750
+ I believe now the sky itself and 
+
+00:04:42.669 --> 00:04:51.590
+ this is going to be a sprite 
+
+00:04:45.750 --> 00:04:51.590
+ therefore you should add sprite here 
+
+00:04:55.030 --> 00:05:00.390
+ and I already have some characteristics of 
+
+00:04:57.850 --> 00:05:00.390
+ that sprite 
+
+00:05:01.440 --> 00:05:07.060
+ we will give direction D 
+
+00:05:04.630 --> 00:05:08.289
+ our example to the size of our 
+
+00:05:07.060 --> 00:05:11.649
+ example 
+
+00:05:08.289 --> 00:05:14.439
+ and a position now I'm going to define the 
+
+00:05:11.649 --> 00:05:17.800
+ anchor point that I do not want it to be 
+
+00:05:14.439 --> 00:05:19.360
+ the center that is the default is 
+
+00:05:17.800 --> 00:05:22.460
+ that is the center to me I like 
+
+00:05:19.360 --> 00:05:26.360
+ assign them with anchor point 0 0 
+
+00:05:22.460 --> 00:05:28.610
+ I find it easier to locate them from 
+
+00:05:26.360 --> 00:05:30.800
+ that way 
+
+00:05:28.610 --> 00:05:34.230
+ then the anchor point remember 
+
+00:05:30.800 --> 00:05:37.440
+ which is the point where 
+
+00:05:34.230 --> 00:05:40.350
+ where if I say sir of a 
+
+00:05:37.440 --> 00:05:44.240
+ position to an object the anchor point is 
+
+00:05:40.350 --> 00:05:44.240
+ the position that you are going to have 
+
+00:05:45.020 --> 00:05:51.069
+ is that point within the center of 
+
+00:05:47.509 --> 00:05:53.449
+ rectangle for example if I tell you 
+
+00:05:51.069 --> 00:05:56.090
+ let's imagine that this point in the scene 
+
+00:05:53.449 --> 00:05:59.000
+ is he is the 10 days if I tell him this 
+
+00:05:56.090 --> 00:06:00.949
+ polygon that go in the 10 10 the center 
+
+00:05:59.000 --> 00:06:02.539
+ of the 10.10 whale polygon because the 
+
+00:06:00.949 --> 00:06:05.060
+ center of the polygon is the anchor 
+
+00:06:02.539 --> 00:06:08.150
+ default if I tell the polygon 
+
+00:06:05.060 --> 00:06:09.680
+ that your anchor is your 0.0 and then you 
+
+00:06:08.150 --> 00:06:11.870
+ I say that the position of that polygon is 
+
+00:06:09.680 --> 00:06:14.330
+ 10 10 then it's going to be 10,10 here 
+
+00:06:11.870 --> 00:06:16.340
+ as it is now 
+
+00:06:14.330 --> 00:06:18.590
+ this sounds a bit complicated but one 
+
+00:06:16.340 --> 00:06:20.360
+ Once once they see it, it turns out 
+
+00:06:18.590 --> 00:06:24.160
+ rather easier then this what 
+
+00:06:20.360 --> 00:06:30.240
+ let's assign it at 0 0 and 
+
+00:06:24.160 --> 00:06:30.240
+ fill field set will be the gradient 
+
+00:06:31.540 --> 00:06:40.300
+ finally we have to tell the 
+
+00:06:34.810 --> 00:06:42.560
+ scene that inserts the sky in it 
+
+00:06:40.300 --> 00:06:46.240
+ and with that 
+
+00:06:42.560 --> 00:06:46.240
+ we have to open this file 
+
+00:06:48.420 --> 00:06:51.290
+ the browser 
+
+00:06:51.400 --> 00:06:56.640
+ we are going to open them and in chromium 
+
+00:06:54.420 --> 00:06:58.800
+ we have an error every time there is a 
+
+00:06:56.640 --> 00:07:01.650
+ mistake what you have to do is go see 
+
+00:06:58.800 --> 00:07:04.730
+ the console we press control shift and 
+
+00:07:01.650 --> 00:07:04.730
+ let's go to console 
+
+00:07:05.060 --> 00:07:11.800
+ then something there is something that I wrote 
+
+00:07:08.560 --> 00:07:14.370
+ I wrote badly clear it was not direction but 
+
+00:07:11.800 --> 00:07:17.810
+ that was reaction set 
+
+00:07:14.370 --> 00:07:19.490
+ and with that it should show 
+
+00:07:17.810 --> 00:07:21.260
+ then what I told them before the 
+
+00:07:19.490 --> 00:07:24.800
+ anchor point 
+
+00:07:21.260 --> 00:07:28.280
+ let's close with that is that if I 
+
+00:07:24.800 --> 00:07:32.000
+ eliminated the anchor point here now the 
+
+00:07:28.280 --> 00:07:33.650
+ anchor point is half of this I 
+
+00:07:32.000 --> 00:07:35.840
+ I 'm telling you half of that 
+
+00:07:33.650 --> 00:07:38.040
+ go in 00 then if I recharge 
+
+00:07:35.840 --> 00:07:40.410
+ this page look what is going to happen 
+
+00:07:38.040 --> 00:07:43.910
+ the rest was here, the rest is all 
+
+00:07:40.410 --> 00:07:43.910
+ hidden is all out of the game 
+
+00:07:45.009 --> 00:07:50.520
+ and now I have this back, see that 
+
+00:07:47.139 --> 00:07:50.520
+ all this is going to move towards here 
+

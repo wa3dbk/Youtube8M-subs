@@ -1,0 +1,1210 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.230 --> 00:00:02.510 
+
+okay<00:00:01.230> so<00:00:01.290> in<00:00:01.560> this<00:00:01.620> tutorial<00:00:01.860> we're<00:00:02.370> going<00:00:02.460> to
+
+00:00:02.510 --> 00:00:02.520 
+okay so in this tutorial we're going to
+
+00:00:02.520 --> 00:00:04.550 
+okay so in this tutorial we're going to
+be<00:00:02.610> creating<00:00:03.149> a<00:00:03.300> form<00:00:03.629> that<00:00:03.929> allows<00:00:04.200> us<00:00:04.230> to
+
+00:00:04.550 --> 00:00:04.560 
+be creating a form that allows us to
+
+00:00:04.560 --> 00:00:09.680 
+be creating a form that allows us to
+send<00:00:04.799> an<00:00:05.040> SMS<00:00:05.879> message<00:00:06.319> via<00:00:07.319> PHP<00:00:08.630> through<00:00:09.630> a
+
+00:00:09.680 --> 00:00:09.690 
+send an SMS message via PHP through a
+
+00:00:09.690 --> 00:00:11.870 
+send an SMS message via PHP through a
+gateway<00:00:09.960> to<00:00:10.110> a<00:00:10.440> mobile<00:00:10.920> phone<00:00:11.160> or<00:00:11.400> a<00:00:11.490> cell
+
+00:00:11.870 --> 00:00:11.880 
+gateway to a mobile phone or a cell
+
+00:00:11.880 --> 00:00:15.470 
+gateway to a mobile phone or a cell
+phone<00:00:13.519> to<00:00:14.519> do<00:00:14.670> this<00:00:14.820> we're<00:00:15.030> going<00:00:15.120> to<00:00:15.179> first
+
+00:00:15.470 --> 00:00:15.480 
+phone to do this we're going to first
+
+00:00:15.480 --> 00:00:18.950 
+phone to do this we're going to first
+need<00:00:15.690> to<00:00:15.719> register<00:00:16.609> with<00:00:17.609> a<00:00:17.820> gateway<00:00:18.810> that
+
+00:00:18.950 --> 00:00:18.960 
+need to register with a gateway that
+
+00:00:18.960 --> 00:00:23.390 
+need to register with a gateway that
+allows<00:00:19.020> us<00:00:19.289> to<00:00:19.710> send<00:00:20.000> text<00:00:21.000> messages<00:00:21.560> now<00:00:22.560> what
+
+00:00:23.390 --> 00:00:23.400 
+allows us to send text messages now what
+
+00:00:23.400 --> 00:00:25.400 
+allows us to send text messages now what
+I<00:00:23.430> mean<00:00:23.640> by<00:00:23.789> this<00:00:23.850> is<00:00:24.240> something<00:00:24.750> like<00:00:25.140> this
+
+00:00:25.400 --> 00:00:25.410 
+I mean by this is something like this
+
+00:00:25.410 --> 00:00:28.460 
+I mean by this is something like this
+website<00:00:25.890> here<00:00:26.420> it's<00:00:27.420> called<00:00:27.660> text<00:00:28.109> local
+
+00:00:28.460 --> 00:00:28.470 
+website here it's called text local
+
+00:00:28.470 --> 00:00:32.299 
+website here it's called text local
+credit<00:00:28.949> you<00:00:29.010> K<00:00:29.250> with<00:00:29.910> text<00:00:30.359> spell<00:00:30.539> txt<00:00:31.260> now<00:00:31.470> if
+
+00:00:32.299 --> 00:00:32.309 
+credit you K with text spell txt now if
+
+00:00:32.309 --> 00:00:40.000 
+credit you K with text spell txt now if
+you<00:00:32.430> go<00:00:32.579> ahead<00:00:32.700> to<00:00:33.200> text<00:00:34.200> local<00:00:34.559> credit<00:00:34.890> UK<00:00:37.850> and
+
+00:00:40.000 --> 00:00:40.010 
+you go ahead to text local credit UK and
+
+00:00:40.010 --> 00:00:42.619 
+you go ahead to text local credit UK and
+what<00:00:41.010> you<00:00:41.100> want<00:00:41.250> to<00:00:41.340> do<00:00:41.489> is<00:00:41.760> you<00:00:41.969> want<00:00:42.180> to<00:00:42.239> click
+
+00:00:42.619 --> 00:00:42.629 
+what you want to do is you want to click
+
+00:00:42.629 --> 00:00:46.060 
+what you want to do is you want to click
+sign<00:00:42.989> up<00:00:43.170> for<00:00:43.379> free<00:00:43.879> follow<00:00:44.879> the<00:00:45.030> registration
+
+00:00:46.060 --> 00:00:46.070 
+sign up for free follow the registration
+
+00:00:46.070 --> 00:00:47.770 
+sign up for free follow the registration
+process
+
+00:00:47.770 --> 00:00:47.780 
+process
+
+00:00:47.780 --> 00:00:50.330 
+process
+sign<00:00:48.780> up<00:00:48.989> and<00:00:49.170> once<00:00:49.890> you<00:00:50.010> are<00:00:50.160> registered
+
+00:00:50.330 --> 00:00:50.340 
+sign up and once you are registered
+
+00:00:50.340 --> 00:00:52.610 
+sign up and once you are registered
+you'll<00:00:51.030> be<00:00:51.180> presented<00:00:51.719> with<00:00:51.750> a<00:00:51.930> control<00:00:52.379> panel
+
+00:00:52.610 --> 00:00:52.620 
+you'll be presented with a control panel
+
+00:00:52.620 --> 00:00:55.279 
+you'll be presented with a control panel
+such<00:00:53.219> as<00:00:53.399> this<00:00:53.640> now<00:00:54.480> you<00:00:54.539> get<00:00:54.989> ten<00:00:55.260> free
+
+00:00:55.279 --> 00:00:55.289 
+such as this now you get ten free
+
+00:00:55.289 --> 00:00:56.959 
+such as this now you get ten free
+credits<00:00:56.039> which<00:00:56.309> means<00:00:56.550> you're<00:00:56.699> going<00:00:56.789> to<00:00:56.850> be
+
+00:00:56.959 --> 00:00:56.969 
+credits which means you're going to be
+
+00:00:56.969 --> 00:00:59.770 
+credits which means you're going to be
+able<00:00:57.090> to<00:00:57.270> send<00:00:57.510> ten<00:00:57.809> free<00:00:58.230> text<00:00:58.620> messages
+
+00:00:59.770 --> 00:00:59.780 
+able to send ten free text messages
+
+00:00:59.780 --> 00:01:02.150 
+able to send ten free text messages
+after<00:01:00.780> that<00:01:00.930> you<00:01:01.050> will<00:01:01.230> have<00:01:01.379> to<00:01:01.500> buy<00:01:01.680> credits
+
+00:01:02.150 --> 00:01:02.160 
+after that you will have to buy credits
+
+00:01:02.160 --> 00:01:04.520 
+after that you will have to buy credits
+but<00:01:02.789> they<00:01:02.879> are<00:01:03.000> relatively<00:01:03.449> cheap<00:01:03.570> and<00:01:04.049> you
+
+00:01:04.520 --> 00:01:04.530 
+but they are relatively cheap and you
+
+00:01:04.530 --> 00:01:07.660 
+but they are relatively cheap and you
+don't<00:01:04.680> necessarily<00:01:04.830> have<00:01:05.309> to<00:01:05.610> use<00:01:05.820> this
+
+00:01:07.660 --> 00:01:07.670 
+don't necessarily have to use this
+
+00:01:07.670 --> 00:01:10.370 
+don't necessarily have to use this
+gateway<00:01:08.670> you<00:01:08.850> can<00:01:09.030> choose<00:01:09.510> to<00:01:09.659> register<00:01:10.140> with
+
+00:01:10.370 --> 00:01:10.380 
+gateway you can choose to register with
+
+00:01:10.380 --> 00:01:12.950 
+gateway you can choose to register with
+another<00:01:10.650> gateway<00:01:11.360> that<00:01:12.360> could<00:01:12.600> allow<00:01:12.810> you<00:01:12.869> to
+
+00:01:12.950 --> 00:01:12.960 
+another gateway that could allow you to
+
+00:01:12.960 --> 00:01:15.050 
+another gateway that could allow you to
+send<00:01:13.290> more<00:01:13.409> free<00:01:13.710> text<00:01:14.010> messages<00:01:14.400> or<00:01:14.549> might<00:01:14.909> be
+
+00:01:15.050 --> 00:01:15.060 
+send more free text messages or might be
+
+00:01:15.060 --> 00:01:16.999 
+send more free text messages or might be
+a<00:01:15.090> bit<00:01:15.270> cheaper<00:01:15.780> but<00:01:16.290> I've<00:01:16.409> choose<00:01:16.710> to<00:01:16.860> use
+
+00:01:16.999 --> 00:01:17.009 
+a bit cheaper but I've choose to use
+
+00:01:17.009 --> 00:01:19.910 
+a bit cheaper but I've choose to use
+text<00:01:17.340> local<00:01:17.790> because<00:01:18.060> it's<00:01:18.360> a<00:01:18.869> really<00:01:19.799> good
+
+00:01:19.910 --> 00:01:19.920 
+text local because it's a really good
+
+00:01:19.920 --> 00:01:23.179 
+text local because it's a really good
+value<00:01:20.220> for<00:01:20.280> money<00:01:21.170> and<00:01:22.170> I<00:01:22.710> just<00:01:22.890> found<00:01:23.009> it
+
+00:01:23.179 --> 00:01:23.189 
+value for money and I just found it
+
+00:01:23.189 --> 00:01:25.310 
+value for money and I just found it
+easier<00:01:23.460> to<00:01:23.610> register<00:01:24.049> I'm<00:01:25.049> in<00:01:25.170> no<00:01:25.290> way
+
+00:01:25.310 --> 00:01:25.320 
+easier to register I'm in no way
+
+00:01:25.320 --> 00:01:26.929 
+easier to register I'm in no way
+affiliated<00:01:25.439> with<00:01:26.100> them<00:01:26.250> I<00:01:26.430> just<00:01:26.460> found<00:01:26.729> this
+
+00:01:26.929 --> 00:01:26.939 
+affiliated with them I just found this
+
+00:01:26.939 --> 00:01:31.399 
+affiliated with them I just found this
+one<00:01:27.180> and<00:01:27.680> it<00:01:28.680> was<00:01:28.890> easy<00:01:29.070> to<00:01:29.340> use<00:01:29.930> okay<00:01:30.930> so<00:01:30.990> I've
+
+00:01:31.399 --> 00:01:31.409 
+one and it was easy to use okay so I've
+
+00:01:31.409 --> 00:01:34.010 
+one and it was easy to use okay so I've
+got<00:01:31.439> six<00:01:31.860> credits<00:01:32.280> left<00:01:32.659> I've<00:01:33.659> already<00:01:33.990> used
+
+00:01:34.010 --> 00:01:34.020 
+got six credits left I've already used
+
+00:01:34.020 --> 00:01:35.300 
+got six credits left I've already used
+four<00:01:34.409> of<00:01:34.530> them<00:01:34.710> in<00:01:34.799> the<00:01:34.890> testing<00:01:35.280> process
+
+00:01:35.300 --> 00:01:35.310 
+four of them in the testing process
+
+00:01:35.310 --> 00:01:38.960 
+four of them in the testing process
+before<00:01:35.850> this<00:01:36.180> tutorial<00:01:37.310> you<00:01:38.310> can<00:01:38.340> see<00:01:38.790> that
+
+00:01:38.960 --> 00:01:38.970 
+before this tutorial you can see that
+
+00:01:38.970 --> 00:01:40.550 
+before this tutorial you can see that
+you<00:01:39.030> can<00:01:39.180> just<00:01:39.329> automatically<00:01:40.079> click<00:01:40.259> send
+
+00:01:40.550 --> 00:01:40.560 
+you can just automatically click send
+
+00:01:40.560 --> 00:01:41.600 
+you can just automatically click send
+messages<00:01:40.860> you're<00:01:41.040> allowed<00:01:41.220> to<00:01:41.369> send<00:01:41.520> a
+
+00:01:41.600 --> 00:01:41.610 
+messages you're allowed to send a
+
+00:01:41.610 --> 00:01:43.490 
+messages you're allowed to send a
+message<00:01:41.880> directly<00:01:42.030> from<00:01:42.450> the<00:01:42.630> website<00:01:42.990> but
+
+00:01:43.490 --> 00:01:43.500 
+message directly from the website but
+
+00:01:43.500 --> 00:01:44.690 
+message directly from the website but
+we're<00:01:43.619> going<00:01:43.740> to<00:01:43.799> be<00:01:43.890> using<00:01:44.009> the<00:01:44.159> API<00:01:44.490> that
+
+00:01:44.690 --> 00:01:44.700 
+we're going to be using the API that
+
+00:01:44.700 --> 00:01:48.139 
+we're going to be using the API that
+allows<00:01:44.820> us<00:01:44.970> to<00:01:45.149> send<00:01:45.450> it<00:01:45.600> via<00:01:45.630> PHP<00:01:46.369> now<00:01:47.369> to<00:01:47.909> find
+
+00:01:48.139 --> 00:01:48.149 
+allows us to send it via PHP now to find
+
+00:01:48.149 --> 00:01:50.810 
+allows us to send it via PHP now to find
+out<00:01:48.270> these<00:01:48.390> settings<00:01:48.869> you<00:01:49.280> need<00:01:50.280> to<00:01:50.399> simply<00:01:50.700> go
+
+00:01:50.810 --> 00:01:50.820 
+out these settings you need to simply go
+
+00:01:50.820 --> 00:01:54.460 
+out these settings you need to simply go
+to<00:01:50.880> documentation<00:01:51.829> and<00:01:52.829> what<00:01:53.070> you'll<00:01:53.220> be
+
+00:01:54.460 --> 00:01:54.470 
+to documentation and what you'll be
+
+00:01:54.470 --> 00:01:57.050 
+to documentation and what you'll be
+provided<00:01:55.470> with<00:01:55.500> is<00:01:56.159> a<00:01:56.219> list<00:01:56.549> of<00:01:56.670> variables
+
+00:01:57.050 --> 00:01:57.060 
+provided with is a list of variables
+
+00:01:57.060 --> 00:02:01.069 
+provided with is a list of variables
+that<00:01:57.299> you<00:01:57.450> need<00:01:57.479> to<00:01:57.899> send<00:01:59.509> from<00:02:00.509> this<00:02:00.840> page
+
+00:02:01.069 --> 00:02:01.079 
+that you need to send from this page
+
+00:02:01.079 --> 00:02:04.819 
+that you need to send from this page
+here<00:02:01.469> so<00:02:03.079> after<00:02:04.079> this<00:02:04.200> you'll<00:02:04.350> need<00:02:04.500> to<00:02:04.619> send
+
+00:02:04.819 --> 00:02:04.829 
+here so after this you'll need to send
+
+00:02:04.829 --> 00:02:07.730 
+here so after this you'll need to send
+all<00:02:05.100> these<00:02:05.219> post<00:02:05.579> variables<00:02:06.299> you<00:02:07.290> can<00:02:07.439> use<00:02:07.590> get
+
+00:02:07.730 --> 00:02:07.740 
+all these post variables you can use get
+
+00:02:07.740 --> 00:02:09.109 
+all these post variables you can use get
+variables<00:02:08.250> but<00:02:08.340> I'm<00:02:08.429> going<00:02:08.550> to<00:02:08.610> be<00:02:08.670> using<00:02:08.759> post
+
+00:02:09.109 --> 00:02:09.119 
+variables but I'm going to be using post
+
+00:02:09.119 --> 00:02:11.330 
+variables but I'm going to be using post
+you<00:02:09.660> need<00:02:09.899> to<00:02:10.050> add<00:02:10.170> them<00:02:10.349> afterwards<00:02:10.950> now
+
+00:02:11.330 --> 00:02:11.340 
+you need to add them afterwards now
+
+00:02:11.340 --> 00:02:13.100 
+you need to add them afterwards now
+we're<00:02:11.459> going<00:02:11.580> to<00:02:11.640> be<00:02:12.030> doing<00:02:12.180> this<00:02:12.330> inside<00:02:12.690> PHP
+
+00:02:13.100 --> 00:02:13.110 
+we're going to be doing this inside PHP
+
+00:02:13.110 --> 00:02:13.410 
+we're going to be doing this inside PHP
+you
+
+00:02:13.410 --> 00:02:13.420 
+you
+
+00:02:13.420 --> 00:02:16.800 
+you
+in<00:02:13.510> curl<00:02:13.840> and<00:02:15.030> the<00:02:16.030> reason<00:02:16.240> we're<00:02:16.360> using<00:02:16.390> cuz
+
+00:02:16.800 --> 00:02:16.810 
+in curl and the reason we're using cuz
+
+00:02:16.810 --> 00:02:18.390 
+in curl and the reason we're using cuz
+it's<00:02:17.140> a<00:02:17.230> lot<00:02:17.380> more<00:02:17.530> secure<00:02:17.950> than<00:02:18.130> just
+
+00:02:18.390 --> 00:02:18.400 
+it's a lot more secure than just
+
+00:02:18.400 --> 00:02:20.550 
+it's a lot more secure than just
+submitting<00:02:19.209> a<00:02:19.300> form<00:02:19.540> with<00:02:19.840> these<00:02:19.930> variables
+
+00:02:20.550 --> 00:02:20.560 
+submitting a form with these variables
+
+00:02:20.560 --> 00:02:22.770 
+submitting a form with these variables
+in<00:02:20.800> which<00:02:21.310> we<00:02:21.459> could<00:02:21.610> well<00:02:21.910> do<00:02:22.120> but<00:02:22.420> obviously
+
+00:02:22.770 --> 00:02:22.780 
+in which we could well do but obviously
+
+00:02:22.780 --> 00:02:24.000 
+in which we could well do but obviously
+then<00:02:22.989> people<00:02:23.260> are<00:02:23.410> going<00:02:23.500> to<00:02:23.560> find<00:02:23.739> out<00:02:23.920> our
+
+00:02:24.000 --> 00:02:24.010 
+then people are going to find out our
+
+00:02:24.010 --> 00:02:26.400 
+then people are going to find out our
+password<00:02:24.520> and<00:02:24.760> use<00:02:25.720> the<00:02:25.840> name<00:02:25.989> things<00:02:26.230> like
+
+00:02:26.400 --> 00:02:26.410 
+password and use the name things like
+
+00:02:26.410 --> 00:02:30.150 
+password and use the name things like
+that<00:02:26.590> so<00:02:28.440> this<00:02:29.440> is<00:02:29.590> what<00:02:29.709> the<00:02:29.800> form<00:02:29.980> is<00:02:30.069> going
+
+00:02:30.150 --> 00:02:30.160 
+that so this is what the form is going
+
+00:02:30.160 --> 00:02:31.290 
+that so this is what the form is going
+to<00:02:30.280> look<00:02:30.430> like<00:02:30.459> in<00:02:30.790> the<00:02:30.850> first<00:02:31.000> part<00:02:31.270> the
+
+00:02:31.290 --> 00:02:31.300 
+to look like in the first part the
+
+00:02:31.300 --> 00:02:32.850 
+to look like in the first part the
+tutorial<00:02:31.840> we're<00:02:31.959> going<00:02:32.110> to<00:02:32.170> be<00:02:32.350> simply
+
+00:02:32.850 --> 00:02:32.860 
+tutorial we're going to be simply
+
+00:02:32.860 --> 00:02:34.229 
+tutorial we're going to be simply
+creating<00:02:33.340> the<00:02:33.459> form<00:02:33.730> we're<00:02:33.880> not<00:02:33.970> going<00:02:34.090> to<00:02:34.150> be
+
+00:02:34.229 --> 00:02:34.239 
+creating the form we're not going to be
+
+00:02:34.239 --> 00:02:36.990 
+creating the form we're not going to be
+doing<00:02:34.420> any<00:02:34.600> of<00:02:34.660> the<00:02:34.870> programming<00:02:35.620> behind<00:02:36.100> in
+
+00:02:36.990 --> 00:02:37.000 
+doing any of the programming behind in
+
+00:02:37.000 --> 00:02:38.970 
+doing any of the programming behind in
+PHP<00:02:37.569> so<00:02:38.080> we're<00:02:38.200> just<00:02:38.350> going<00:02:38.470> to<00:02:38.530> create<00:02:38.800> in
+
+00:02:38.970 --> 00:02:38.980 
+PHP so we're just going to create in
+
+00:02:38.980 --> 00:02:40.470 
+PHP so we're just going to create in
+this<00:02:39.069> form<00:02:39.340> so<00:02:39.430> we<00:02:39.640> know<00:02:39.760> what<00:02:39.910> we're<00:02:40.060> doing<00:02:40.330> so
+
+00:02:40.470 --> 00:02:40.480 
+this form so we know what we're doing so
+
+00:02:40.480 --> 00:02:42.930 
+this form so we know what we're doing so
+hopefully<00:02:41.080> so<00:02:41.440> far<00:02:41.650> you<00:02:41.769> understand<00:02:42.220> how<00:02:42.790> this
+
+00:02:42.930 --> 00:02:42.940 
+hopefully so far you understand how this
+
+00:02:42.940 --> 00:02:45.210 
+hopefully so far you understand how this
+is<00:02:43.000> going<00:02:43.239> to<00:02:43.300> work<00:02:43.950> obviously<00:02:44.950> if<00:02:45.010> you<00:02:45.099> don't
+
+00:02:45.210 --> 00:02:45.220 
+is going to work obviously if you don't
+
+00:02:45.220 --> 00:02:46.830 
+is going to work obviously if you don't
+just<00:02:45.489> keep<00:02:45.580> following<00:02:45.970> the<00:02:46.060> tutorial<00:02:46.239> and<00:02:46.720> you
+
+00:02:46.830 --> 00:02:46.840 
+just keep following the tutorial and you
+
+00:02:46.840 --> 00:02:48.809 
+just keep following the tutorial and you
+should<00:02:47.019> get<00:02:47.170> the<00:02:47.260> hang<00:02:47.380> of<00:02:47.440> it<00:02:47.560> so<00:02:48.310> if<00:02:48.550> I<00:02:48.670> go
+
+00:02:48.809 --> 00:02:48.819 
+should get the hang of it so if I go
+
+00:02:48.819 --> 00:02:51.120 
+should get the hang of it so if I go
+over<00:02:49.060> to<00:02:49.090> my<00:02:49.510> page<00:02:49.780> here<00:02:50.110> I've<00:02:50.319> just<00:02:50.590> created<00:02:51.069> a
+
+00:02:51.120 --> 00:02:51.130 
+over to my page here I've just created a
+
+00:02:51.130 --> 00:02:54.539 
+over to my page here I've just created a
+page<00:02:51.340> called<00:02:51.670> SMS<00:02:52.150> PHP<00:02:52.870> now<00:02:53.440> you<00:02:53.860> might<00:02:54.220> notice
+
+00:02:54.539 --> 00:02:54.549 
+page called SMS PHP now you might notice
+
+00:02:54.549 --> 00:02:57.150 
+page called SMS PHP now you might notice
+that<00:02:54.580> I'm<00:02:54.790> running<00:02:55.000> this<00:02:55.269> on<00:02:55.540> my<00:02:56.500> paid<00:02:56.830> web
+
+00:02:57.150 --> 00:02:57.160 
+that I'm running this on my paid web
+
+00:02:57.160 --> 00:02:59.009 
+that I'm running this on my paid web
+hosting<00:02:57.670> the<00:02:58.360> reason<00:02:58.600> I'm<00:02:58.690> doing<00:02:58.780> this<00:02:58.900> is
+
+00:02:59.009 --> 00:02:59.019 
+hosting the reason I'm doing this is
+
+00:02:59.019 --> 00:03:00.900 
+hosting the reason I'm doing this is
+because<00:02:59.230> curl<00:02:59.620> is<00:02:59.860> currently<00:03:00.340> installed
+
+00:03:00.900 --> 00:03:00.910 
+because curl is currently installed
+
+00:03:00.910 --> 00:03:03.059 
+because curl is currently installed
+I<00:03:01.000> don't<00:03:01.360> currently<00:03:01.569> have<00:03:01.750> curl<00:03:02.380> installed<00:03:02.920> on
+
+00:03:03.059 --> 00:03:03.069 
+I don't currently have curl installed on
+
+00:03:03.069 --> 00:03:05.250 
+I don't currently have curl installed on
+my<00:03:03.160> local<00:03:03.400> host<00:03:03.730> on<00:03:04.569> the<00:03:04.690> software<00:03:04.989> that<00:03:05.170> I'm
+
+00:03:05.250 --> 00:03:05.260 
+my local host on the software that I'm
+
+00:03:05.260 --> 00:03:09.420 
+my local host on the software that I'm
+running<00:03:05.470> on<00:03:05.739> my<00:03:06.640> computer<00:03:07.530> so<00:03:08.530> either
+
+00:03:09.420 --> 00:03:09.430 
+running on my computer so either
+
+00:03:09.430 --> 00:03:11.610 
+running on my computer so either
+download<00:03:09.880> a<00:03:09.910> package<00:03:10.330> such<00:03:10.690> as<00:03:10.870> xampp<00:03:11.440> there
+
+00:03:11.610 --> 00:03:11.620 
+download a package such as xampp there
+
+00:03:11.620 --> 00:03:14.729 
+download a package such as xampp there
+that<00:03:12.130> has<00:03:12.519> curl<00:03:12.819> with<00:03:13.030> it<00:03:13.209> or<00:03:13.569> run<00:03:14.530> it<00:03:14.650> from
+
+00:03:14.729 --> 00:03:14.739 
+that has curl with it or run it from
+
+00:03:14.739 --> 00:03:17.400 
+that has curl with it or run it from
+your<00:03:14.799> paid<00:03:15.130> hosting<00:03:15.810> but<00:03:16.810> that's<00:03:17.019> the<00:03:17.170> reason
+
+00:03:17.400 --> 00:03:17.410 
+your paid hosting but that's the reason
+
+00:03:17.410 --> 00:03:19.560 
+your paid hosting but that's the reason
+I'm<00:03:17.470> running<00:03:17.620> it<00:03:17.829> from<00:03:18.070> paid<00:03:18.280> hosting<00:03:18.730> now
+
+00:03:19.560 --> 00:03:19.570 
+I'm running it from paid hosting now
+
+00:03:19.570 --> 00:03:20.610 
+I'm running it from paid hosting now
+we're<00:03:19.810> obviously<00:03:19.900> going<00:03:20.170> to<00:03:20.230> need<00:03:20.290> to<00:03:20.500> create
+
+00:03:20.610 --> 00:03:20.620 
+we're obviously going to need to create
+
+00:03:20.620 --> 00:03:22.440 
+we're obviously going to need to create
+a<00:03:20.769> form<00:03:21.070> so<00:03:21.609> I'm<00:03:21.670> just<00:03:21.820> going<00:03:21.940> to<00:03:22.030> start<00:03:22.269> out
+
+00:03:22.440 --> 00:03:22.450 
+a form so I'm just going to start out
+
+00:03:22.450 --> 00:03:24.060 
+a form so I'm just going to start out
+I'm<00:03:22.900> not<00:03:23.140> going<00:03:23.230> to<00:03:23.320> worry<00:03:23.470> about<00:03:23.620> any<00:03:23.920> other
+
+00:03:24.060 --> 00:03:24.070 
+I'm not going to worry about any other
+
+00:03:24.070 --> 00:03:25.860 
+I'm not going to worry about any other
+types<00:03:24.370> or<00:03:24.549> anything<00:03:24.730> like<00:03:24.940> that<00:03:25.000> the<00:03:25.630> form
+
+00:03:25.860 --> 00:03:25.870 
+types or anything like that the form
+
+00:03:25.870 --> 00:03:27.420 
+types or anything like that the form
+action<00:03:26.049> is<00:03:26.350> going<00:03:26.590> to<00:03:26.650> be<00:03:26.739> itself<00:03:27.190> because
+
+00:03:27.420 --> 00:03:27.430 
+action is going to be itself because
+
+00:03:27.430 --> 00:03:29.160 
+action is going to be itself because
+we're<00:03:27.790> going<00:03:27.910> to<00:03:27.970> submit<00:03:28.329> back<00:03:28.510> to<00:03:28.570> this<00:03:28.840> form
+
+00:03:29.160 --> 00:03:29.170 
+we're going to submit back to this form
+
+00:03:29.170 --> 00:03:33.509 
+we're going to submit back to this form
+and<00:03:29.410> deal<00:03:30.100> with<00:03:30.130> the<00:03:30.370> results<00:03:31.180> in<00:03:31.420> PHP<00:03:31.989> so<00:03:32.519> we
+
+00:03:33.509 --> 00:03:33.519 
+and deal with the results in PHP so we
+
+00:03:33.519 --> 00:03:35.699 
+and deal with the results in PHP so we
+inside<00:03:33.760> our<00:03:33.880> PHP<00:03:34.060> tags<00:03:34.359> so<00:03:35.140> the<00:03:35.260> method<00:03:35.560> here
+
+00:03:35.699 --> 00:03:35.709 
+inside our PHP tags so the method here
+
+00:03:35.709 --> 00:03:39.390 
+inside our PHP tags so the method here
+is<00:03:35.890> going<00:03:36.010> to<00:03:36.070> be<00:03:36.190> post<00:03:36.459> and<00:03:37.980> the<00:03:38.980> first<00:03:39.190> thing
+
+00:03:39.390 --> 00:03:39.400 
+is going to be post and the first thing
+
+00:03:39.400 --> 00:03:40.890 
+is going to be post and the first thing
+we<00:03:39.489> want<00:03:39.670> it<00:03:39.760> to<00:03:39.850> say<00:03:40.060> let's<00:03:40.329> just<00:03:40.540> save<00:03:40.690> this
+
+00:03:40.890 --> 00:03:40.900 
+we want it to say let's just save this
+
+00:03:40.900 --> 00:03:44.400 
+we want it to say let's just save this
+quickly<00:03:41.200> and<00:03:42.030> back<00:03:43.030> to<00:03:43.180> there<00:03:43.359> and<00:03:43.900> let's
+
+00:03:44.400 --> 00:03:44.410 
+quickly and back to there and let's
+
+00:03:44.410 --> 00:03:47.030 
+quickly and back to there and let's
+refresh<00:03:44.769> this
+
+00:03:47.030 --> 00:03:47.040 
+
+00:03:47.040 --> 00:03:49.580 
+
+okay<00:03:47.849> so<00:03:47.939> we've<00:03:48.060> got<00:03:48.090> a<00:03:48.180> blank<00:03:48.480> page<00:03:49.349> at<00:03:49.530> the
+
+00:03:49.580 --> 00:03:49.590 
+okay so we've got a blank page at the
+
+00:03:49.590 --> 00:03:53.089 
+okay so we've got a blank page at the
+moment<00:03:51.230> okay<00:03:52.230> so<00:03:52.290> inside<00:03:52.650> here<00:03:52.680> we're<00:03:53.010> going
+
+00:03:53.089 --> 00:03:53.099 
+moment okay so inside here we're going
+
+00:03:53.099 --> 00:03:58.699 
+moment okay so inside here we're going
+to<00:03:53.159> need<00:03:53.250> the<00:03:53.819> number<00:03:56.689> so<00:03:57.689> we'll<00:03:58.019> say<00:03:58.290> number
+
+00:03:58.699 --> 00:03:58.709 
+to need the number so we'll say number
+
+00:03:58.709 --> 00:04:01.160 
+to need the number so we'll say number
+we'll<00:03:58.920> break<00:03:59.129> down<00:03:59.599> the<00:04:00.599> first<00:04:00.750> thing<00:04:00.870> we<00:04:01.019> need
+
+00:04:01.160 --> 00:04:01.170 
+we'll break down the first thing we need
+
+00:04:01.170 --> 00:04:04.130 
+we'll break down the first thing we need
+is<00:04:01.290> the<00:04:01.439> area<00:04:02.099> code<00:04:02.370> of<00:04:02.640> the<00:04:02.790> mobile<00:04:03.120> phone<00:04:03.390> in
+
+00:04:04.130 --> 00:04:04.140 
+is the area code of the mobile phone in
+
+00:04:04.140 --> 00:04:06.860 
+is the area code of the mobile phone in
+the<00:04:04.260> UK<00:04:04.530> that's<00:04:04.709> four<00:04:05.040> four<00:04:05.310> so<00:04:06.030> I'm<00:04:06.659> going<00:04:06.840> to
+
+00:04:06.860 --> 00:04:06.870 
+the UK that's four four so I'm going to
+
+00:04:06.870 --> 00:04:09.680 
+the UK that's four four so I'm going to
+put<00:04:07.049> an<00:04:07.110> input<00:04:07.409> type<00:04:07.620> in<00:04:07.829> here<00:04:08.269> and<00:04:09.269> the<00:04:09.450> type
+
+00:04:09.680 --> 00:04:09.690 
+put an input type in here and the type
+
+00:04:09.690 --> 00:04:12.800 
+put an input type in here and the type
+is<00:04:09.810> text<00:04:10.079> the<00:04:10.620> size<00:04:10.890> is<00:04:11.129> 2<00:04:11.459> I'm<00:04:12.420> going<00:04:12.599> to<00:04:12.659> put<00:04:12.780> a
+
+00:04:12.800 --> 00:04:12.810 
+is text the size is 2 I'm going to put a
+
+00:04:12.810 --> 00:04:15.530 
+is text the size is 2 I'm going to put a
+dash<00:04:13.109> between<00:04:13.379> that<00:04:13.799> for<00:04:14.760> the<00:04:14.970> rest<00:04:15.299> of<00:04:15.420> the
+
+00:04:15.530 --> 00:04:15.540 
+dash between that for the rest of the
+
+00:04:15.540 --> 00:04:17.330 
+dash between that for the rest of the
+phone<00:04:15.750> number<00:04:16.079> the<00:04:16.500> name<00:04:16.680> of<00:04:16.829> this<00:04:16.979> is<00:04:17.039> going
+
+00:04:17.330 --> 00:04:17.340 
+phone number the name of this is going
+
+00:04:17.340 --> 00:04:19.909 
+phone number the name of this is going
+to<00:04:17.430> be<00:04:17.519> called<00:04:17.820> number<00:04:18.570> ext<00:04:19.320> for<00:04:19.859> the
+
+00:04:19.909 --> 00:04:19.919 
+to be called number ext for the
+
+00:04:19.919 --> 00:04:22.610 
+to be called number ext for the
+extension<00:04:21.169> I'm<00:04:22.169> going<00:04:22.350> to<00:04:22.410> create<00:04:22.560> another
+
+00:04:22.610 --> 00:04:22.620 
+extension I'm going to create another
+
+00:04:22.620 --> 00:04:27.770 
+extension I'm going to create another
+input<00:04:23.010> field<00:04:23.520> and<00:04:24.680> that's<00:04:25.680> going<00:04:25.919> to<00:04:26.160> be<00:04:26.780> text
+
+00:04:27.770 --> 00:04:27.780 
+input field and that's going to be text
+
+00:04:27.780 --> 00:04:31.760 
+input field and that's going to be text
+again<00:04:28.080> and<00:04:28.580> the<00:04:29.580> name<00:04:29.880> of<00:04:30.120> this<00:04:30.419> is<00:04:30.690> number<00:04:31.350> and
+
+00:04:31.760 --> 00:04:31.770 
+again and the name of this is number and
+
+00:04:31.770 --> 00:04:33.469 
+again and the name of this is number and
+that's<00:04:32.220> just<00:04:32.460> going<00:04:32.550> to<00:04:32.610> be<00:04:32.699> regular<00:04:33.090> sized<00:04:33.330> so
+
+00:04:33.469 --> 00:04:33.479 
+that's just going to be regular sized so
+
+00:04:33.479 --> 00:04:34.760 
+that's just going to be regular sized so
+I'm<00:04:33.539> not<00:04:33.690> going<00:04:33.840> to<00:04:33.900> alter<00:04:34.020> the<00:04:34.229> size<00:04:34.440> of<00:04:34.620> that
+
+00:04:34.760 --> 00:04:34.770 
+I'm not going to alter the size of that
+
+00:04:34.770 --> 00:04:36.500 
+I'm not going to alter the size of that
+I'm<00:04:35.280> going<00:04:35.430> to<00:04:35.460> come<00:04:35.639> down<00:04:35.760> here<00:04:35.970> and<00:04:36.090> do<00:04:36.240> two
+
+00:04:36.500 --> 00:04:36.510 
+I'm going to come down here and do two
+
+00:04:36.510 --> 00:04:39.230 
+I'm going to come down here and do two
+breaks<00:04:37.160> let's<00:04:38.160> just<00:04:38.370> save<00:04:38.520> the<00:04:38.669> changes<00:04:39.030> see
+
+00:04:39.230 --> 00:04:39.240 
+breaks let's just save the changes see
+
+00:04:39.240 --> 00:04:43.760 
+breaks let's just save the changes see
+what<00:04:39.360> we've<00:04:39.510> come<00:04:39.690> up<00:04:39.720> with<00:04:40.190> and<00:04:42.500> then<00:04:43.500> we<00:04:43.620> can
+
+00:04:43.760 --> 00:04:43.770 
+what we've come up with and then we can
+
+00:04:43.770 --> 00:04:45.650 
+what we've come up with and then we can
+get<00:04:43.860> on<00:04:44.010> with<00:04:44.100> the<00:04:44.190> rest<00:04:44.370> of<00:04:44.490> this<00:04:44.610> form<00:04:44.910> let's
+
+00:04:45.650 --> 00:04:45.660 
+get on with the rest of this form let's
+
+00:04:45.660 --> 00:04:48.500 
+get on with the rest of this form let's
+cancel<00:04:45.960> that<00:04:46.910> okay<00:04:47.910> so<00:04:47.970> yeah<00:04:48.240> we've<00:04:48.389> got
+
+00:04:48.500 --> 00:04:48.510 
+cancel that okay so yeah we've got
+
+00:04:48.510 --> 00:04:50.000 
+cancel that okay so yeah we've got
+number<00:04:48.810> and<00:04:48.930> we've<00:04:49.020> got<00:04:49.139> the<00:04:49.229> extension<00:04:49.590> and
+
+00:04:50.000 --> 00:04:50.010 
+number and we've got the extension and
+
+00:04:50.010 --> 00:04:55.100 
+number and we've got the extension and
+the<00:04:50.130> main<00:04:50.340> part<00:04:50.940> of<00:04:50.970> the<00:04:51.060> number<00:04:51.330> there<00:04:51.510> and<00:04:54.110> we
+
+00:04:55.100 --> 00:04:55.110 
+the main part of the number there and we
+
+00:04:55.110 --> 00:04:59.600 
+the main part of the number there and we
+broke<00:04:55.289> down<00:04:55.320> and<00:04:55.889> I'm<00:04:56.430> going<00:04:56.610> to<00:04:56.820> say<00:04:58.430> send<00:04:59.430> up
+
+00:04:59.600 --> 00:04:59.610 
+broke down and I'm going to say send up
+
+00:04:59.610 --> 00:05:01.430 
+broke down and I'm going to say send up
+and<00:04:59.820> this<00:05:00.419> is<00:05:00.570> going<00:05:00.690> to<00:05:00.780> be<00:05:00.840> the<00:05:00.930> text<00:05:01.199> that's
+
+00:05:01.430 --> 00:05:01.440 
+and this is going to be the text that's
+
+00:05:01.440 --> 00:05:03.589 
+and this is going to be the text that's
+displayed<00:05:02.010> when<00:05:02.280> the<00:05:02.310> user<00:05:03.000> receives<00:05:03.210> the
+
+00:05:03.589 --> 00:05:03.599 
+displayed when the user receives the
+
+00:05:03.599 --> 00:05:08.180 
+displayed when the user receives the
+message<00:05:03.720> so<00:05:04.500> input<00:05:04.710> type<00:05:05.160> equals<00:05:06.620> again<00:05:07.620> text
+
+00:05:08.180 --> 00:05:08.190 
+message so input type equals again text
+
+00:05:08.190 --> 00:05:12.650 
+message so input type equals again text
+and<00:05:08.340> the<00:05:08.820> name<00:05:09.000> of<00:05:09.030> this<00:05:09.300> is<00:05:09.570> just<00:05:09.780> from<00:05:11.660> let's
+
+00:05:12.650 --> 00:05:12.660 
+and the name of this is just from let's
+
+00:05:12.660 --> 00:05:14.689 
+and the name of this is just from let's
+break<00:05:12.900> down<00:05:13.080> a<00:05:13.110> bit<00:05:13.289> more<00:05:13.500> now<00:05:14.340> we<00:05:14.400> need<00:05:14.610> the
+
+00:05:14.689 --> 00:05:14.699 
+break down a bit more now we need the
+
+00:05:14.699 --> 00:05:18.560 
+break down a bit more now we need the
+message<00:05:15.139> about<00:05:16.139> correctly<00:05:16.620> and<00:05:17.389> this<00:05:18.389> is
+
+00:05:18.560 --> 00:05:18.570 
+message about correctly and this is
+
+00:05:18.570 --> 00:05:22.279 
+message about correctly and this is
+going<00:05:18.840> a<00:05:18.870> text<00:05:19.260> area<00:05:20.599> so<00:05:21.599> it's<00:05:21.750> just<00:05:21.870> basic
+
+00:05:22.279 --> 00:05:22.289 
+going a text area so it's just basic
+
+00:05:22.289 --> 00:05:26.110 
+going a text area so it's just basic
+HTML<00:05:23.250> and<00:05:23.639> the<00:05:24.389> name<00:05:24.570> of<00:05:24.599> this<00:05:24.870> is<00:05:25.139> message
+
+00:05:26.110 --> 00:05:26.120 
+HTML and the name of this is message
+
+00:05:26.120 --> 00:05:28.279 
+HTML and the name of this is message
+okay<00:05:27.120> now<00:05:27.330> we<00:05:27.389> need<00:05:27.510> to<00:05:27.630> come<00:05:27.780> down<00:05:27.810> here<00:05:28.199> and
+
+00:05:28.279 --> 00:05:28.289 
+okay now we need to come down here and
+
+00:05:28.289 --> 00:05:31.510 
+okay now we need to come down here and
+we<00:05:28.380> need<00:05:28.470> to<00:05:28.620> put<00:05:28.800> in<00:05:29.070> a<00:05:29.510> submit<00:05:30.510> button<00:05:30.539> and
+
+00:05:31.510 --> 00:05:31.520 
+we need to put in a submit button and
+
+00:05:31.520 --> 00:05:35.570 
+we need to put in a submit button and
+the<00:05:32.520> name<00:05:32.699> of<00:05:32.729> that<00:05:33.030> is<00:05:33.419> just<00:05:33.780> submit<00:05:34.260> and<00:05:34.580> the
+
+00:05:35.570 --> 00:05:35.580 
+the name of that is just submit and the
+
+00:05:35.580 --> 00:05:37.980 
+the name of that is just submit and the
+value<00:05:35.909> is<00:05:36.270> going<00:05:36.630> to<00:05:36.810> be
+
+00:05:37.980 --> 00:05:37.990 
+value is going to be
+
+00:05:37.990 --> 00:05:41.189 
+value is going to be
+now<00:05:38.979> we<00:05:39.039> need<00:05:39.220> a<00:05:39.250> hidden<00:05:39.669> field<00:05:40.419> that<00:05:40.960> we<00:05:41.050> can
+
+00:05:41.189 --> 00:05:41.199 
+now we need a hidden field that we can
+
+00:05:41.199 --> 00:05:42.600 
+now we need a hidden field that we can
+use<00:05:41.410> to<00:05:41.440> check<00:05:41.860> if<00:05:42.069> the<00:05:42.220> form<00:05:42.430> has<00:05:42.520> been
+
+00:05:42.600 --> 00:05:42.610 
+use to check if the form has been
+
+00:05:42.610 --> 00:05:45.450 
+use to check if the form has been
+submitted<00:05:43.259> so<00:05:44.259> input<00:05:44.440> type<00:05:44.770> equals<00:05:44.919> hidden
+
+00:05:45.450 --> 00:05:45.460 
+submitted so input type equals hidden
+
+00:05:45.460 --> 00:05:50.930 
+submitted so input type equals hidden
+name<00:05:46.240> equals<00:05:47.280> submitted<00:05:48.280> and<00:05:48.849> value<00:05:49.860> equals
+
+00:05:50.930 --> 00:05:50.940 
+name equals submitted and value equals
+
+00:05:50.940 --> 00:05:55.680 
+name equals submitted and value equals
+true<00:05:51.940> so<00:05:52.660> if<00:05:52.720> we<00:05:52.810> save<00:05:53.080> that<00:05:53.110> and<00:05:54.449> refresh<00:05:55.449> that
+
+00:05:55.680 --> 00:05:55.690 
+true so if we save that and refresh that
+
+00:05:55.690 --> 00:05:57.990 
+true so if we save that and refresh that
+yeah<00:05:56.650> again<00:05:57.069> we're<00:05:57.280> coming<00:05:57.520> up<00:05:57.610> with<00:05:57.759> this
+
+00:05:57.990 --> 00:05:58.000 
+yeah again we're coming up with this
+
+00:05:58.000 --> 00:06:00.510 
+yeah again we're coming up with this
+message<00:05:58.300> refresh<00:05:59.289> start<00:05:59.530> we<00:05:59.979> see<00:06:00.160> we've<00:06:00.370> got
+
+00:06:00.510 --> 00:06:00.520 
+message refresh start we see we've got
+
+00:06:00.520 --> 00:06:04.610 
+message refresh start we see we've got
+oops<00:06:01.210> you<00:06:01.599> need<00:06:01.720> to<00:06:01.810> break<00:06:01.990> down<00:06:02.050> there<00:06:02.470> a<00:06:02.500> bit
+
+00:06:04.610 --> 00:06:04.620 
+
+00:06:04.620 --> 00:06:14.400 
+
+so<00:06:05.620> after<00:06:05.919> this<00:06:09.060> break<00:06:10.060> down<00:06:13.050> okay<00:06:14.050> so<00:06:14.110> you<00:06:14.259> can
+
+00:06:14.400 --> 00:06:14.410 
+so after this break down okay so you can
+
+00:06:14.410 --> 00:06:15.510 
+so after this break down okay so you can
+see<00:06:14.440> that<00:06:14.650> we've<00:06:14.740> got<00:06:14.860> the<00:06:14.949> number<00:06:15.280> we<00:06:15.400> can
+
+00:06:15.510 --> 00:06:15.520 
+see that we've got the number we can
+
+00:06:15.520 --> 00:06:17.850 
+see that we've got the number we can
+type<00:06:15.729> four<00:06:16.030> four<00:06:16.300> here<00:06:16.539> that's<00:06:16.780> for<00:06:16.930> the<00:06:17.020> UK<00:06:17.380> we
+
+00:06:17.850 --> 00:06:17.860 
+type four four here that's for the UK we
+
+00:06:17.860 --> 00:06:19.260 
+type four four here that's for the UK we
+can<00:06:18.039> type<00:06:18.220> the<00:06:18.340> number<00:06:18.610> that<00:06:18.699> we<00:06:18.820> want<00:06:19.000> to<00:06:19.060> send
+
+00:06:19.260 --> 00:06:19.270 
+can type the number that we want to send
+
+00:06:19.270 --> 00:06:21.330 
+can type the number that we want to send
+the<00:06:19.360> message<00:06:19.389> to<00:06:19.870> here<00:06:20.199> the<00:06:20.680> sender<00:06:20.979> can<00:06:21.250> be
+
+00:06:21.330 --> 00:06:21.340 
+the message to here the sender can be
+
+00:06:21.340 --> 00:06:23.279 
+the message to here the sender can be
+something<00:06:21.550> like<00:06:21.669> PHP<00:06:22.240> academy'<00:06:22.690> and<00:06:22.720> the
+
+00:06:23.279 --> 00:06:23.289 
+something like PHP academy' and the
+
+00:06:23.289 --> 00:06:26.400 
+something like PHP academy' and the
+message<00:06:23.620> can<00:06:24.070> be<00:06:24.310> whatever<00:06:24.880> you<00:06:25.240> want<00:06:25.539> as<00:06:26.320> long
+
+00:06:26.400 --> 00:06:26.410 
+message can be whatever you want as long
+
+00:06:26.410 --> 00:06:28.740 
+message can be whatever you want as long
+as<00:06:26.530> it<00:06:26.710> falls<00:06:26.949> in<00:06:27.310> the<00:06:27.580> guidelines<00:06:28.330> of<00:06:28.479> text
+
+00:06:28.740 --> 00:06:28.750 
+as it falls in the guidelines of text
+
+00:06:28.750 --> 00:06:30.719 
+as it falls in the guidelines of text
+messages<00:06:29.169> I<00:06:29.380> think<00:06:30.190> there's<00:06:30.310> probably<00:06:30.430> a
+
+00:06:30.719 --> 00:06:30.729 
+messages I think there's probably a
+
+00:06:30.729 --> 00:06:32.550 
+messages I think there's probably a
+maximum<00:06:31.180> length<00:06:31.330> that<00:06:31.449> you<00:06:31.599> can<00:06:31.750> send<00:06:31.960> but
+
+00:06:32.550 --> 00:06:32.560 
+maximum length that you can send but
+
+00:06:32.560 --> 00:06:33.810 
+maximum length that you can send but
+obviously<00:06:33.009> you<00:06:33.220> can<00:06:33.370> put<00:06:33.490> the<00:06:33.580> form
+
+00:06:33.810 --> 00:06:33.820 
+obviously you can put the form
+
+00:06:33.820 --> 00:06:36.330 
+obviously you can put the form
+validation<00:06:34.090> in<00:06:34.690> afterwards<00:06:35.220> obviously<00:06:36.220> this
+
+00:06:36.330 --> 00:06:36.340 
+validation in afterwards obviously this
+
+00:06:36.340 --> 00:06:37.649 
+validation in afterwards obviously this
+is<00:06:36.520> a<00:06:36.610> text<00:06:36.940> field<00:06:37.060> but<00:06:37.240> you're<00:06:37.360> going<00:06:37.479> to<00:06:37.539> need
+
+00:06:37.649 --> 00:06:37.659 
+is a text field but you're going to need
+
+00:06:37.659 --> 00:06:39.809 
+is a text field but you're going to need
+to<00:06:37.780> check<00:06:37.990> this<00:06:38.199> numeric<00:06:38.770> I'm<00:06:39.460> not<00:06:39.639> going<00:06:39.759> to
+
+00:06:39.809 --> 00:06:39.819 
+to check this numeric I'm not going to
+
+00:06:39.819 --> 00:06:41.490 
+to check this numeric I'm not going to
+cover<00:06:39.940> this<00:06:40.120> in<00:06:40.270> this<00:06:40.389> tutorial<00:06:40.569> but<00:06:41.259> I'm
+
+00:06:41.490 --> 00:06:41.500 
+cover this in this tutorial but I'm
+
+00:06:41.500 --> 00:06:43.110 
+cover this in this tutorial but I'm
+using<00:06:41.889> my<00:06:42.070> other<00:06:42.190> tutorials<00:06:42.759> you<00:06:42.909> should
+
+00:06:43.110 --> 00:06:43.120 
+using my other tutorials you should
+
+00:06:43.120 --> 00:06:44.850 
+using my other tutorials you should
+learn<00:06:43.270> how<00:06:43.419> to<00:06:43.449> do<00:06:43.659> that<00:06:43.810> or<00:06:44.229> you<00:06:44.440> can<00:06:44.590> use<00:06:44.740> the
+
+00:06:44.850 --> 00:06:44.860 
+learn how to do that or you can use the
+
+00:06:44.860 --> 00:06:46.770 
+learn how to do that or you can use the
+PHP<00:06:45.310> manual<00:06:45.460> Google<00:06:46.180> for<00:06:46.389> it<00:06:46.479> something<00:06:46.750> like
+
+00:06:46.770 --> 00:06:46.780 
+PHP manual Google for it something like
+
+00:06:46.780 --> 00:06:50.310 
+PHP manual Google for it something like
+that<00:06:47.080> okay<00:06:47.949> so<00:06:48.009> we've<00:06:48.430> got<00:06:48.460> our<00:06:48.580> basic<00:06:48.909> form<00:06:49.360> on
+
+00:06:50.310 --> 00:06:50.320 
+that okay so we've got our basic form on
+
+00:06:50.320 --> 00:06:53.040 
+that okay so we've got our basic form on
+clicking<00:06:50.800> send<00:06:51.240> this<00:06:52.240> obviously<00:06:52.630> we'll<00:06:52.810> send
+
+00:06:53.040 --> 00:06:53.050 
+clicking send this obviously we'll send
+
+00:06:53.050 --> 00:06:54.719 
+clicking send this obviously we'll send
+the<00:06:53.139> text<00:06:53.320> message<00:06:53.680> at<00:06:54.099> the<00:06:54.190> moment<00:06:54.460> all<00:06:54.550> it's
+
+00:06:54.719 --> 00:06:54.729 
+the text message at the moment all it's
+
+00:06:54.729 --> 00:06:56.430 
+the text message at the moment all it's
+done<00:06:54.849> is<00:06:54.909> resubmit<00:06:55.599> to<00:06:55.630> the<00:06:55.780> information<00:06:56.259> back
+
+00:06:56.430 --> 00:06:56.440 
+done is resubmit to the information back
+
+00:06:56.440 --> 00:07:00.060 
+done is resubmit to the information back
+to<00:06:56.500> this<00:06:57.060> SMS<00:06:58.060> PHP<00:06:58.719> page<00:06:58.960> what<00:06:59.620> we<00:06:59.710> need<00:06:59.860> to<00:06:59.949> do
+
+00:07:00.060 --> 00:07:00.070 
+to this SMS PHP page what we need to do
+
+00:07:00.070 --> 00:07:02.430 
+to this SMS PHP page what we need to do
+in<00:07:00.190> the<00:07:00.310> next<00:07:00.610> part<00:07:00.820> of<00:07:00.849> this<00:07:00.940> tutorial<00:07:01.150> is<00:07:01.719> we
+
+00:07:02.430 --> 00:07:02.440 
+in the next part of this tutorial is we
+
+00:07:02.440 --> 00:07:04.980 
+in the next part of this tutorial is we
+need<00:07:02.590> to<00:07:02.710> create<00:07:03.090> some<00:07:04.090> code<00:07:04.360> in<00:07:04.539> this<00:07:04.659> PHP
+
+00:07:04.980 --> 00:07:04.990 
+need to create some code in this PHP
+
+00:07:04.990 --> 00:07:06.839 
+need to create some code in this PHP
+area<00:07:05.469> that's<00:07:05.860> going<00:07:06.009> to<00:07:06.070> take<00:07:06.310> use<00:07:06.550> of<00:07:06.580> the
+
+00:07:06.839 --> 00:07:06.849 
+area that's going to take use of the
+
+00:07:06.849 --> 00:07:12.779 
+area that's going to take use of the
+api's<00:07:07.530> of<00:07:08.729> txt<00:07:09.729> local<00:07:10.860> using<00:07:11.860> txt<00:07:12.280> local<00:07:12.639> we're
+
+00:07:12.779 --> 00:07:12.789 
+api's of txt local using txt local we're
+
+00:07:12.789 --> 00:07:19.050 
+api's of txt local using txt local we're
+going<00:07:12.940> to<00:07:13.680> sort<00:07:14.680> of<00:07:17.009> submit<00:07:18.009> the<00:07:18.130> varial<00:07:18.550> the
+
+00:07:19.050 --> 00:07:19.060 
+going to sort of submit the varial the
+
+00:07:19.060 --> 00:07:20.790 
+going to sort of submit the varial the
+variables<00:07:19.570> that<00:07:19.659> we<00:07:19.810> need<00:07:19.900> that<00:07:20.440> I<00:07:20.469> showed<00:07:20.770> you
+
+00:07:20.790 --> 00:07:20.800 
+variables that we need that I showed you
+
+00:07:20.800 --> 00:07:25.290 
+variables that we need that I showed you
+just<00:07:21.490> here<00:07:21.909> and<00:07:22.719> these<00:07:23.500> ones<00:07:23.800> just<00:07:23.979> here<00:07:24.300> type
+
+00:07:25.290 --> 00:07:25.300 
+just here and these ones just here type
+
+00:07:25.300 --> 00:07:26.939 
+just here and these ones just here type
+the<00:07:25.449> message<00:07:25.630> things<00:07:26.050> like<00:07:26.229> that<00:07:26.380> we're<00:07:26.800> going
+
+00:07:26.939 --> 00:07:26.949 
+the message things like that we're going
+
+00:07:26.949 --> 00:07:29.490 
+the message things like that we're going
+to<00:07:27.009> submit<00:07:27.310> them<00:07:27.460> to<00:07:27.610> this<00:07:27.729> page<00:07:27.969> here<00:07:28.030> and<00:07:28.500> we
+
+00:07:29.490 --> 00:07:29.500 
+to submit them to this page here and we
+
+00:07:29.500 --> 00:07:31.170 
+to submit them to this page here and we
+need<00:07:29.680> to<00:07:29.770> use<00:07:29.889> our<00:07:30.039> account<00:07:30.430> information<00:07:30.699> to
+
+00:07:31.170 --> 00:07:31.180 
+need to use our account information to
+
+00:07:31.180 --> 00:07:33.839 
+need to use our account information to
+do<00:07:31.300> that<00:07:31.539> obviously<00:07:32.469> the<00:07:32.680> username<00:07:33.159> and<00:07:33.729> the
+
+00:07:33.839 --> 00:07:33.849 
+do that obviously the username and the
+
+00:07:33.849 --> 00:07:37.260 
+do that obviously the username and the
+password<00:07:34.530> and<00:07:35.610> then<00:07:36.610> that<00:07:36.729> will<00:07:36.820> allow<00:07:37.060> us<00:07:37.210> to
+
+00:07:37.260 --> 00:07:37.270 
+password and then that will allow us to
+
+00:07:37.270 --> 00:07:41.129 
+password and then that will allow us to
+send<00:07:37.570> a<00:07:37.659> message<00:07:37.990> through<00:07:38.380> txt<00:07:39.070> local<00:07:39.520> via<00:07:40.509> PHP
+
+00:07:41.129 --> 00:07:41.139 
+send a message through txt local via PHP
+
+00:07:41.139 --> 00:07:42.930 
+send a message through txt local via PHP
+so<00:07:41.740> that<00:07:42.039> will<00:07:42.159> come<00:07:42.280> in<00:07:42.400> the<00:07:42.490> next<00:07:42.729> part<00:07:42.909> of
+
+00:07:42.930 --> 00:07:42.940 
+so that will come in the next part of
+
+00:07:42.940 --> 00:07:45.839 
+so that will come in the next part of
+this<00:07:43.060> tutorial<00:07:44.370> when<00:07:45.370> we<00:07:45.520> learn<00:07:45.669> how<00:07:45.699> to
+
+00:07:45.839 --> 00:07:45.849 
+this tutorial when we learn how to
+
+00:07:45.849 --> 00:07:48.510 
+this tutorial when we learn how to
+complete<00:07:46.150> this
+

@@ -1,0 +1,316 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:11.920 --> 00:00:14.300
+ Hey~~ We are going to be a MIDI electronic drum! 
+
+00:00:16.600 --> 00:00:22.440
+ If you want to make an electronic drum from scratch, you will use piezoelectric sensors and drum pads. 
+
+00:00:22.500 --> 00:00:25.740
+ Attach the piezo sensor to the back of the pad 
+
+00:00:26.380 --> 00:00:30.740
+ Or you can find a drum guitar peripheral for Guitar Hero. 
+
+00:00:31.580 --> 00:00:35.180
+ Piezoelectric sensors have been attached to the drum 
+
+00:00:35.500 --> 00:00:39.060
+ This will save you a lot of time 
+
+00:00:39.060 --> 00:00:40.940
+ I will demonstrate how to open my drum 
+
+00:00:40.940 --> 00:00:43.660
+ This is the second-hand drum I spent for $20. 
+
+00:00:43.660 --> 00:00:48.800
+ If you want to start from scratch, the cost will be much higher than 20 dollars. 
+
+00:00:49.800 --> 00:00:51.780
+ Let's start! 
+
+00:00:51.780 --> 00:00:53.780
+ Arudino MIDI Electronic Drum Tutorial! 
+
+00:00:55.720 --> 00:00:57.120
+ We need to use Arduino 
+
+00:00:57.120 --> 00:01:00.700
+ I am using Arduino UNO because I only need 6 analog inputs. 
+
+00:01:01.100 --> 00:01:03.380
+ But if you need more than 6 analog inputs 
+
+00:01:03.600 --> 00:01:07.439
+ You can choose Arduino Mega with 16 analog inputs 
+
+00:01:08.060 --> 00:01:12.920
+ Also requires a hole plate. Each piezoelectric sensor requires a 1Ω resistor. 
+
+00:01:13.280 --> 00:01:16.040
+ 220Ω resistor for a MIDI female port 
+
+00:01:16.540 --> 00:01:17.500
+ MIDI female port 
+
+00:01:17.960 --> 00:01:18.820
+ Pin 
+
+00:01:19.560 --> 00:01:22.520
+ If you start from scratch you still need a piezoelectric sensor 
+
+00:01:22.660 --> 00:01:23.840
+ Many piezoelectric sensors 
+
+00:01:23.840 --> 00:01:24.640
+ Drum pad 
+
+00:01:25.000 --> 00:01:25.860
+ Also need a lot 
+
+00:01:26.080 --> 00:01:29.380
+ Also design a structure with a drum pad 
+
+00:01:29.860 --> 00:01:31.660
+ But really don’t bother yourself. 
+
+00:01:31.800 --> 00:01:35.500
+ Go find friends and see who has the "Guitar Hero" or "Rock Orchestra" controller 
+
+00:01:35.740 --> 00:01:37.340
+ No one is playing these games now. 
+
+00:01:37.740 --> 00:01:40.900
+ In the video, I used the controller of Guitar Hero World Tour. 
+
+00:01:41.140 --> 00:01:44.399
+ It has 3 drum pads, 2 mattresses and 1 pedal. 
+
+00:01:44.400 --> 00:01:48.640
+ There are also 2 3.5mm stereo connectors on the back 
+
+00:01:48.760 --> 00:01:53.680
+ One of the connecting pedals, another one we can keep for further renovation 
+
+00:01:53.900 --> 00:01:56.700
+ Of course it also has a MIDI interface for input 
+
+00:01:56.720 --> 00:01:59.240
+ This is perfect, we just have to make some changes. 
+
+00:01:59.240 --> 00:02:01.940
+ MIDI interface can change from input to output 
+
+00:02:02.580 --> 00:02:04.880
+ Let us talk about the circuit part now. 
+
+00:02:05.140 --> 00:02:09.440
+ In order to connect the piezoelectric sensor we connect it with a 1MΩ resistor in parallel. 
+
+00:02:09.620 --> 00:02:15.200
+ Then connect the two ends to the 'ground' and Arduion analog inputs so that we can read its voltage through the Arduino. 
+
+00:02:15.500 --> 00:02:18.480
+ We connect each piezoelectric sensor to a different analog input. 
+
+00:02:18.500 --> 00:02:22.000
+ Then we put the MIDI female port and connected like me 
+
+00:02:22.160 --> 00:02:28.440
+ We also need to use a cable to connect the MIDI female port and the Arduino serial port output. For the Arduino UNO, its serial output is on the 1st pin. 
+
+00:02:29.220 --> 00:02:30.500
+ The description of the circuit section ends here. 
+
+00:02:30.860 --> 00:02:32.760
+ Now let's look at the program part. 
+
+00:02:32.880 --> 00:02:35.820
+ When the piezoelectric sensor feels an impact, it will output a signal like this 
+
+00:02:35.880 --> 00:02:40.920
+ Since the analog input we are using does not detect a negative voltage, when the Arduino reads a negative voltage it will treat it as 0 volts. 
+
+00:02:40.980 --> 00:02:43.080
+ In the end, I will only get the signal of the positive voltage part. 
+
+00:02:43.420 --> 00:02:47.540
+ We set a smaller threshold and ignore the signal below the threshold 
+
+00:02:47.840 --> 00:02:52.840
+ This can effectively prevent the output of MIDI notes due to invalid impact. 
+
+00:02:53.340 --> 00:02:55.620
+ We create a data buffer for each peak. 
+
+00:02:55.620 --> 00:02:58.180
+ Then look at the shape of all the peaks 
+
+00:02:58.260 --> 00:03:00.320
+ We need to detect signal enhancement 
+
+00:03:00.560 --> 00:03:04.240
+ When the signal reaches its maximum value, we send MIDI notes through the Arduino's serial port. 
+
+00:03:04.260 --> 00:03:07.420
+ The strength of the note will depend on the amplitude of the maximum peak 
+
+00:03:07.760 --> 00:03:09.400
+ The effect sounds like this... 
+
+00:03:18.000 --> 00:03:22.420
+ At this point we have understood what the code needs to do and then download the code from the introduction below. 
+
+00:03:22.860 --> 00:03:25.420
+ Here are a few 'definitions' that require you to modify them according to your situation. 
+
+00:03:25.800 --> 00:03:28.660
+ Set NUM_PIEZOS to the number of sensors you use at the top 
+
+00:03:29.240 --> 00:03:32.640
+ Below it is the threshold I set for each of my sensors. 
+
+00:03:33.760 --> 00:03:36.500
+ You can adjust these values ​​to see what value is best for your drum pad. 
+
+00:03:38.160 --> 00:03:41.640
+ You can also remap these 'definitions' to different analog ports. 
+
+00:03:42.060 --> 00:03:44.360
+ This is completely dependent on the connection line of your piezoelectric sensor. 
+
+00:03:45.020 --> 00:03:48.320
+ START_SLOT defines the analog port number of the first piezo sensor connection 
+
+00:03:48.640 --> 00:03:52.400
+ START_NOTE defines the MIDI note to be emitted by the first piezo sensor 
+
+00:03:52.980 --> 00:03:55.280
+ The following are definitions of MIDI and programs. 
+
+00:03:56.400 --> 00:03:59.720
+ You don't need to change the rest of the code. You can also leave it alone. 
+
+00:04:00.960 --> 00:04:03.880
+ Ok, now we are starting to dismantle the controller of Guitar Hero! 
+
+00:04:04.100 --> 00:04:07.520
+ Remove the screw to disconnect the control panel 
+
+00:04:07.920 --> 00:04:10.320
+ Take the back cover and you can see the piezoelectric sensor inside. 
+
+00:04:12.900 --> 00:04:15.600
+ You can see that the piezoelectric sensor is directly connected to the main board. 
+
+00:04:15.920 --> 00:04:18.060
+ The other board above is only used as the back panel 
+
+00:04:18.320 --> 00:04:21.740
+ It can be seen that all the inputs on the back panel are also connected to the main board. 
+
+00:04:24.040 --> 00:04:26.660
+ Remove the main board and we will put the Arduino there. 
+
+00:04:29.840 --> 00:04:32.260
+嘿~ Their screw hole positions are perfectly matched! 
+
+00:04:33.140 --> 00:04:37.040
+ Next, we will install the socket for the Arduino to facilitate the placement of the piezoelectric controller. 
+
+00:04:37.580 --> 00:04:40.760
+ Go back to the circuit section and we have to install all of these components on the hole plate. 
+
+00:04:41.300 --> 00:04:44.640
+ First we install the pin header at the position where the hole plate matches the Arduino pin. 
+
+00:04:44.960 --> 00:04:47.440
+ At this point, we made a socket for the Arduino on the hole plate. 
+
+00:04:47.680 --> 00:04:50.520
+ Then we connect the resistive end of the piezoelectric sensor to 'ground' 
+
+00:04:50.920 --> 00:04:53.520
+ We take another row of pins and break them into two needles. 
+
+00:04:53.640 --> 00:04:57.100
+ Then install these 2-pin headers on the other end of the resistor. 
+
+00:04:57.240 --> 00:04:59.860
+ The end of the 2-pin header that is not connected to the resistor must also be connected to 'grounding'. 
+
+00:05:00.480 --> 00:05:03.800
+ Now we can plug the piezo sensor directly on the pin header 
+
+00:05:03.800 --> 00:05:06.600
+ Next we have to install the pin header for the MIDI interface like me. 
+
+00:05:08.700 --> 00:05:12.599
+ When you are making these pins, it is best to insert the pins into the Arduino. 
+
+00:05:12.600 --> 00:05:16.500
+ Then fixing the pin with hot melt adhesive will not tamper 
+
+00:05:16.760 --> 00:05:19.640
+ Welding will not be misplaced 
+
+00:05:23.900 --> 00:05:26.860
+ Ok, after a little welding work 
+
+00:05:27.080 --> 00:05:28.580
+ Our seat is like this 
+
+00:05:29.240 --> 00:05:33.260
+ And we also need to use the MIDI port on the back panel of the controller. 
+
+00:05:33.460 --> 00:05:36.000
+ Just make a small change to the control board 
+
+00:05:36.640 --> 00:05:38.620
+ Connect the two solder joints by wires 
+
+00:05:38.620 --> 00:05:43.260
+ We can ground the pin in the middle of the MIDI interface or the MIDI information we output will be lost. 
+
+00:05:43.680 --> 00:05:47.520
+ Then we plug the last 4 ports of the cable plug into the hole plate 
+
+00:05:49.300 --> 00:05:50.680
+ Now let's put things back 
+
+00:05:52.000 --> 00:05:55.860
+ We will connect the MIDI interface and a piezoelectric sensor for testing. 
+
+00:06:01.560 --> 00:06:05.180
+ Install other piezoelectric sensors when the test passes 
+
+00:06:20.040 --> 00:06:23.620
+ When these are all done, the controller is restored. 
+
+00:06:23.940 --> 00:06:24.620
+ that's it! 
+
+00:06:25.640 --> 00:06:28.080
+ The most important result now is 
+
+00:06:28.080 --> 00:06:29.960
+ We can play DrumMania! 
+
+00:06:31.200 --> 00:06:35.240
+ Yes, I know very well that I removed the drums of Guitar Hero to play DrumMania. 
+
+00:06:35.420 --> 00:06:36.420
+ But it is worth it! 
+
+00:06:37.700 --> 00:06:40.780
+ If the film helps you, please give me a thumbs up or leave a message below. 
+
+00:06:41.400 --> 00:06:43.020
+ Let me know what you expect to see! 
+
+00:06:43.780 --> 00:06:44.420
+ See you! 
+

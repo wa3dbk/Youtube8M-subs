@@ -1,0 +1,298 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.340 --> 00:00:09.400
+ this as you can see the model 
+
+00:00:07.990 --> 00:00:13.810
+ of a road with a crossing 
+
+00:00:09.400 --> 00:00:16.660
+ pedestrian in this 
+
+00:00:13.810 --> 00:00:19.810
+ traffic lights of which 2 manage 
+
+00:00:16.660 --> 00:00:21.060
+ the pedestrian crossing and two the 
+
+00:00:19.810 --> 00:00:24.190
+ road conditions on the road 
+
+00:00:21.060 --> 00:00:25.750
+ here you can see the buttons for 
+
+00:00:24.190 --> 00:00:28.650
+ make the pedestrian call 
+
+00:00:25.750 --> 00:00:30.849
+ the operation is therefore very simple 
+
+00:00:28.650 --> 00:00:33.370
+ traffic is normally allowed 
+
+00:00:30.849 --> 00:00:36.280
+ on the road so these traffic lights are 
+
+00:00:33.370 --> 00:00:37.300
+ green at the time of the pedestrian call 
+
+00:00:36.280 --> 00:00:40.450
+ by pressing the appropriate buttons 
+
+00:00:37.300 --> 00:00:42.160
+ normally open a timer which 
+
+00:00:40.450 --> 00:00:43.870
+ will turn red traffic lights into 
+
+00:00:42.160 --> 00:00:46.110
+ street and green ones for 
+
+00:00:43.870 --> 00:00:48.100
+ pedestrian crossing 
+
+00:00:46.110 --> 00:00:50.620
+ this is how i was made 
+
+00:00:48.100 --> 00:00:52.810
+ connections and two traffic lights for the 
+
+00:00:50.620 --> 00:00:54.690
+ road in parallel as well as those for 
+
+00:00:52.810 --> 00:00:56.620
+ pedestrians 
+
+00:00:54.690 --> 00:00:58.720
+ these are the clamps for 
+
+00:00:56.620 --> 00:00:59.460
+ 5 volt power supply to the 
+
+00:00:58.720 --> 00:01:02.380
+ traffic lights 
+
+00:00:59.460 --> 00:01:05.379
+ these are successful plc to which they are 
+
+00:01:02.380 --> 00:01:07.180
+ connected green red yellow led for the 
+
+00:01:05.379 --> 00:01:09.820
+ road lost giallorosso for 
+
+00:01:07.180 --> 00:01:11.460
+ pedestrian crossing the buttons 
+
+00:01:09.820 --> 00:01:13.869
+ for the pedestrian call instead 
+
+00:01:11.460 --> 00:01:17.350
+ determine contact between the power supply 
+
+00:01:13.869 --> 00:01:19.590
+ plc to 24 volts and the input number 
+
+00:01:17.350 --> 00:01:19.590
+ one 
+
+00:01:20.340 --> 00:01:25.360
+ this is the outline of the program in 
+
+00:01:23.020 --> 00:01:27.460
+ the hearing that I will enter in the plc for 
+
+00:01:25.360 --> 00:01:29.470
+ drive the traffic light 
+
+00:01:27.460 --> 00:01:32.320
+ as you can see here is the contact 
+
+00:01:29.470 --> 00:01:34.450
+ t1 which normally remains closed that 
+
+00:01:32.320 --> 00:01:37.360
+ keeps the cum exit active where it has us 
+
+00:01:34.450 --> 00:01:39.520
+ connected the bed loses in the street and 
+
+00:01:37.360 --> 00:01:41.710
+ at the same time there is this other 
+
+00:01:39.520 --> 00:01:43.480
+ normally closed contact that keeps 
+
+00:01:41.710 --> 00:01:46.930
+ activates the output where c is connected to 
+
+00:01:43.480 --> 00:01:49.810
+ red pedestrian crossing LED 
+
+00:01:46.930 --> 00:01:52.600
+ ok when one of the buttons is pressed 
+
+00:01:49.810 --> 00:01:54.610
+ for pedestrian crossing connected 
+
+00:01:52.600 --> 00:01:56.590
+ at the entrance and one will close 
+
+00:01:54.610 --> 00:01:59.229
+ temporarily this contact that 
+
+00:01:56.590 --> 00:02:01.450
+ will feed this fictitious cow that 
+
+00:01:59.229 --> 00:02:04.270
+ making by authors held with this 
+
+00:02:01.450 --> 00:02:05.590
+ contact will remain active even when the 
+
+00:02:04.270 --> 00:02:08.530
+ pedestrian crossing button 
+
+00:02:05.590 --> 00:02:11.260
+ this coil will be released closes 
+
+00:02:08.530 --> 00:02:13.540
+ this contact number 1 to be activated 
+
+00:02:11.260 --> 00:02:15.730
+ the timer for the duration of the green of the 
+
+00:02:13.540 --> 00:02:19.060
+ road that I set to five 
+
+00:02:15.730 --> 00:02:21.040
+ seconds when he stops counting ap 
+
+00:02:19.060 --> 00:02:22.440
+ this contact that feeds the output 
+
+00:02:21.040 --> 00:02:26.620
+ where it is connected to the green led 
+
+00:02:22.440 --> 00:02:28.090
+ turning it off and I close this contact 
+
+00:02:26.620 --> 00:02:30.190
+ goes to activate the output where c is 
+
+00:02:28.090 --> 00:02:33.489
+ connected to yellow and goes to feed 
+
+00:02:30.190 --> 00:02:36.160
+ the timer to determine its duration 
+
+00:02:33.489 --> 00:02:38.320
+ I put in two seconds when too 
+
+00:02:36.160 --> 00:02:40.300
+ this will have finished counting opened the 
+
+00:02:38.320 --> 00:02:42.910
+ contact that deactivates the output of the 
+
+00:02:40.300 --> 00:02:45.100
+ yellow and closes this which goes to 
+
+00:02:42.910 --> 00:02:47.200
+ activate the red output in addition to 
+
+00:02:45.100 --> 00:02:49.510
+ activate this other timer in number 3 
+
+00:02:47.200 --> 00:02:50.680
+ which determines the time that 
+
+00:02:49.510 --> 00:02:52.390
+ will employ traffic light for 
+
+00:02:50.680 --> 00:02:54.790
+ pedestrian crossing to become 
+
+00:02:52.390 --> 00:02:57.250
+ green after those on the road will be 
+
+00:02:54.790 --> 00:02:58.750
+ turned red whose time set 
+
+00:02:57.250 --> 00:03:00.459
+ a second 
+
+00:02:58.750 --> 00:03:02.260
+ then this contact closes e 
+
+00:03:00.459 --> 00:03:05.200
+ activates the pedestrian green LED output 
+
+00:03:02.260 --> 00:03:07.420
+ here are the timers as before 
+
+00:03:05.200 --> 00:03:09.670
+ this determines the duration of the green 
+
+00:03:07.420 --> 00:03:12.459
+ which as offices count active to yellow 
+
+00:03:09.670 --> 00:03:15.310
+ then the timer 5 which determines the duration of the 
+
+00:03:12.459 --> 00:03:15.840
+ yellow and the timer 6 that determines 
+
+00:03:15.310 --> 00:03:18.239
+ the interval 
+
+00:03:15.840 --> 00:03:20.580
+ of time between pedestrian red and green 
+
+00:03:18.239 --> 00:03:22.950
+ of the road when the bill ends 
+
+00:03:20.580 --> 00:03:25.800
+ I go to open this contact in series the 
+
+00:03:22.950 --> 00:03:27.540
+ dummy coil turning it off of 
+
+00:03:25.800 --> 00:03:29.310
+ consequence will go to interrupt 
+
+00:03:27.540 --> 00:03:32.440
+ the power supply of the first timer 
+
+00:03:29.310 --> 00:03:34.909
+ rejecting everything 
+
+00:03:32.440 --> 00:03:37.450
+ now in charge of the milk program in the 
+
+00:03:34.909 --> 00:03:37.450
+ plc 
+
+00:03:43.480 --> 00:03:45.989
+ ok 
+
+00:03:55.060 --> 00:03:58.140
+ at the start of the program 
+
+00:04:02.400 --> 00:04:05.689
+ I try to make the pedestrian call 
+
+00:04:46.960 --> 00:04:49.979
+ I make the pedestrian call 
+
+00:04:55.240 --> 00:05:07.360
+ turned yellow and the road now red and 
+
+00:04:58.990 --> 00:05:10.199
+ green for pedestrians yellow red green 
+
+00:05:07.360 --> 00:05:10.199
+ on the road 
+

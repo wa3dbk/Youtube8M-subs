@@ -1,0 +1,1247 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:03.409 
+
+so<00:00:00.780> last<00:00:01.290> time<00:00:01.650> we<00:00:02.100> saw<00:00:02.399> that<00:00:02.730> the<00:00:03.090> P<00:00:03.389> I
+
+00:00:03.409 --> 00:00:03.419 
+so last time we saw that the P I
+
+00:00:03.419 --> 00:00:06.650 
+so last time we saw that the P I
+regulator<00:00:04.259> or<00:00:04.529> it's<00:00:05.210> slightly<00:00:06.210> more
+
+00:00:06.650 --> 00:00:06.660 
+regulator or it's slightly more
+
+00:00:06.660 --> 00:00:10.730 
+regulator or it's slightly more
+elaborate<00:00:07.500> brother<00:00:07.980> the<00:00:08.309> PID<00:00:08.639> regulator<00:00:09.740> was
+
+00:00:10.730 --> 00:00:10.740 
+elaborate brother the PID regulator was
+
+00:00:10.740 --> 00:00:12.919 
+elaborate brother the PID regulator was
+enough<00:00:11.309> to<00:00:11.639> make<00:00:11.670> the<00:00:11.969> cruise<00:00:12.150> controller<00:00:12.540> do
+
+00:00:12.919 --> 00:00:12.929 
+enough to make the cruise controller do
+
+00:00:12.929 --> 00:00:14.870 
+enough to make the cruise controller do
+what<00:00:13.110> it<00:00:13.200> should<00:00:13.230> do<00:00:13.590> which<00:00:13.830> is<00:00:14.040> achieve
+
+00:00:14.870 --> 00:00:14.880 
+what it should do which is achieve
+
+00:00:14.880 --> 00:00:17.510 
+what it should do which is achieve
+stability<00:00:15.540> tracking<00:00:16.529> and<00:00:16.740> parameter
+
+00:00:17.510 --> 00:00:17.520 
+stability tracking and parameter
+
+00:00:17.520 --> 00:00:19.640 
+stability tracking and parameter
+robustness<00:00:17.880> today<00:00:18.840> I<00:00:18.869> want<00:00:19.170> to<00:00:19.230> talk<00:00:19.350> a<00:00:19.410> little
+
+00:00:19.640 --> 00:00:19.650 
+robustness today I want to talk a little
+
+00:00:19.650 --> 00:00:22.550 
+robustness today I want to talk a little
+bit<00:00:19.770> more<00:00:20.100> about<00:00:20.930> PID<00:00:21.930> control<00:00:22.320> and<00:00:22.500> the
+
+00:00:22.550 --> 00:00:22.560 
+bit more about PID control and the
+
+00:00:22.560 --> 00:00:24.920 
+bit more about PID control and the
+reason<00:00:22.859> for<00:00:22.980> that<00:00:23.039> is<00:00:23.430> this<00:00:23.939> regulator<00:00:24.660> is
+
+00:00:24.920 --> 00:00:24.930 
+reason for that is this regulator is
+
+00:00:24.930 --> 00:00:27.470 
+reason for that is this regulator is
+such<00:00:25.529> an<00:00:25.859> important<00:00:26.580> regulator<00:00:26.880> or
+
+00:00:27.470 --> 00:00:27.480 
+such an important regulator or
+
+00:00:27.480 --> 00:00:30.560 
+such an important regulator or
+controller<00:00:28.019> that's<00:00:28.439> out<00:00:28.710> there<00:00:28.949> in<00:00:29.570> virtually
+
+00:00:30.560 --> 00:00:30.570 
+controller that's out there in virtually
+
+00:00:30.570 --> 00:00:32.240 
+controller that's out there in virtually
+every<00:00:30.990> industry<00:00:31.170> you<00:00:31.560> can<00:00:31.710> think<00:00:31.920> of<00:00:32.070> the
+
+00:00:32.240 --> 00:00:32.250 
+every industry you can think of the
+
+00:00:32.250 --> 00:00:34.250 
+every industry you can think of the
+recipe<00:00:32.669> ID<00:00:32.910> regulator<00:00:33.329> going<00:00:33.750> on<00:00:33.870> underneath
+
+00:00:34.250 --> 00:00:34.260 
+recipe ID regulator going on underneath
+
+00:00:34.260 --> 00:00:36.740 
+recipe ID regulator going on underneath
+the<00:00:34.500> hood<00:00:34.649> in<00:00:34.920> almost<00:00:35.820> all<00:00:36.000> controllers<00:00:36.420> and
+
+00:00:36.740 --> 00:00:36.750 
+the hood in almost all controllers and
+
+00:00:36.750 --> 00:00:39.380 
+the hood in almost all controllers and
+there<00:00:37.710> are<00:00:37.800> really<00:00:37.950> three<00:00:38.309> knobs<00:00:38.910> you<00:00:39.300> can
+
+00:00:39.380 --> 00:00:39.390 
+there are really three knobs you can
+
+00:00:39.390 --> 00:00:42.440 
+there are really three knobs you can
+tweak<00:00:39.809> here<00:00:40.079> one<00:00:40.649> is<00:00:40.829> KP<00:00:41.550> which<00:00:42.149> is<00:00:42.300> the
+
+00:00:42.440 --> 00:00:42.450 
+tweak here one is KP which is the
+
+00:00:42.450 --> 00:00:45.889 
+tweak here one is KP which is the
+proportional<00:00:43.140> gain<00:00:43.430> the<00:00:44.430> other<00:00:44.550> is<00:00:44.670> ki<00:00:45.030> which
+
+00:00:45.889 --> 00:00:45.899 
+proportional gain the other is ki which
+
+00:00:45.899 --> 00:00:48.830 
+proportional gain the other is ki which
+is<00:00:46.020> the<00:00:46.140> integral<00:00:46.440> gain<00:00:46.890> and<00:00:47.219> then<00:00:47.610> KD<00:00:48.030> which
+
+00:00:48.830 --> 00:00:48.840 
+is the integral gain and then KD which
+
+00:00:48.840 --> 00:00:50.990 
+is the integral gain and then KD which
+is<00:00:48.989> the<00:00:49.140> derivative<00:00:49.680> gain<00:00:49.860> and<00:00:50.160> I<00:00:50.579> want<00:00:50.940> to
+
+00:00:50.990 --> 00:00:51.000 
+is the derivative gain and I want to
+
+00:00:51.000 --> 00:00:52.610 
+is the derivative gain and I want to
+talk<00:00:51.120> a<00:00:51.149> little<00:00:51.420> bit<00:00:51.600> about<00:00:51.629> what<00:00:52.320> are<00:00:52.469> the
+
+00:00:52.610 --> 00:00:52.620 
+talk a little bit about what are the
+
+00:00:52.620 --> 00:00:55.639 
+talk a little bit about what are the
+effects<00:00:53.280> of<00:00:53.719> these<00:00:54.719> games
+
+00:00:55.639 --> 00:00:55.649 
+effects of these games
+
+00:00:55.649 --> 00:00:59.299 
+effects of these games
+well<00:00:56.010> first<00:00:56.699> of<00:00:56.850> all<00:00:56.940> P<00:00:57.270> as<00:00:57.930> we<00:00:58.170> saw<00:00:58.379> it's<00:00:58.980> a
+
+00:00:59.299 --> 00:00:59.309 
+well first of all P as we saw it's a
+
+00:00:59.309 --> 00:01:01.369 
+well first of all P as we saw it's a
+contributor<00:01:00.059> to<00:01:00.090> stability<00:01:00.480> in<00:01:00.960> the<00:01:01.140> sense
+
+00:01:01.369 --> 00:01:01.379 
+contributor to stability in the sense
+
+00:01:01.379 --> 00:01:04.100 
+contributor to stability in the sense
+that<00:01:01.500> it<00:01:02.070> makes<00:01:02.579> the<00:01:02.789> system<00:01:03.000> not<00:01:03.629> guaranteed
+
+00:01:04.100 --> 00:01:04.110 
+that it makes the system not guaranteed
+
+00:01:04.110 --> 00:01:05.990 
+that it makes the system not guaranteed
+but<00:01:04.470> it's<00:01:04.650> helping<00:01:04.979> out<00:01:05.159> make<00:01:05.460> the<00:01:05.610> system
+
+00:01:05.990 --> 00:01:06.000 
+but it's helping out make the system
+
+00:01:06.000 --> 00:01:07.700 
+but it's helping out make the system
+stable<00:01:06.299> and<00:01:06.630> it's<00:01:06.810> it's<00:01:07.290> making<00:01:07.470> it
+
+00:01:07.700 --> 00:01:07.710 
+stable and it's it's making it
+
+00:01:07.710 --> 00:01:09.500 
+stable and it's it's making it
+responsive<00:01:08.400> in<00:01:08.520> the<00:01:08.610> sense<00:01:08.790> that<00:01:08.850> you<00:01:09.060> respond
+
+00:01:09.500 --> 00:01:09.510 
+responsive in the sense that you respond
+
+00:01:09.510 --> 00:01:12.500 
+responsive in the sense that you respond
+if<00:01:09.720> someone<00:01:09.750> if<00:01:10.350> you<00:01:10.500> click<00:01:10.790> or<00:01:11.790> press<00:01:11.820> 70
+
+00:01:12.500 --> 00:01:12.510 
+if someone if you click or press 70
+
+00:01:12.510 --> 00:01:14.660 
+if someone if you click or press 70
+miles<00:01:13.020> per<00:01:13.110> hour<00:01:13.260> on<00:01:13.619> your<00:01:13.650> cruise<00:01:14.280> controller
+
+00:01:14.660 --> 00:01:14.670 
+miles per hour on your cruise controller
+
+00:01:14.670 --> 00:01:17.749 
+miles per hour on your cruise controller
+it<00:01:15.240> drives<00:01:15.659> the<00:01:16.020> system<00:01:16.229> towards<00:01:17.220> that<00:01:17.400> value
+
+00:01:17.749 --> 00:01:17.759 
+it drives the system towards that value
+
+00:01:17.759 --> 00:01:19.640 
+it drives the system towards that value
+I'm<00:01:18.479> calling<00:01:18.810> it<00:01:18.900> medium<00:01:19.409> rate
+
+00:01:19.640 --> 00:01:19.650 
+I'm calling it medium rate
+
+00:01:19.650 --> 00:01:22.190 
+I'm calling it medium rate
+responsiveness<00:01:20.400> because<00:01:20.850> it's<00:01:21.330> not<00:01:21.570> super
+
+00:01:22.190 --> 00:01:22.200 
+responsiveness because it's not super
+
+00:01:22.200 --> 00:01:25.580 
+responsiveness because it's not super
+fast<00:01:22.439> and<00:01:23.270> the<00:01:24.270> speed<00:01:24.570> in<00:01:24.840> fact<00:01:25.110> the<00:01:25.200> rate<00:01:25.380> of
+
+00:01:25.580 --> 00:01:25.590 
+fast and the speed in fact the rate of
+
+00:01:25.590 --> 00:01:27.620 
+fast and the speed in fact the rate of
+responsiveness<00:01:26.220> is<00:01:26.549> a<00:01:26.790> function<00:01:27.240> of<00:01:27.299> how<00:01:27.420> big
+
+00:01:27.620 --> 00:01:27.630 
+responsiveness is a function of how big
+
+00:01:27.630 --> 00:01:30.590 
+responsiveness is a function of how big
+KP<00:01:28.080> is<00:01:28.259> but<00:01:28.829> as<00:01:28.950> you<00:01:29.159> saw<00:01:29.490> it<00:01:29.820> wasn't<00:01:30.270> typically
+
+00:01:30.590 --> 00:01:30.600 
+KP is but as you saw it wasn't typically
+
+00:01:30.600 --> 00:01:33.620 
+KP is but as you saw it wasn't typically
+enough<00:01:30.840> to<00:01:31.200> achieve<00:01:31.759> tracking<00:01:32.759> well<00:01:33.509> the<00:01:33.600> I
+
+00:01:33.620 --> 00:01:33.630 
+enough to achieve tracking well the I
+
+00:01:33.630 --> 00:01:37.520 
+enough to achieve tracking well the I
+component<00:01:33.990> is<00:01:35.030> really<00:01:36.049> good<00:01:37.049> for<00:01:37.259> tracking
+
+00:01:37.520 --> 00:01:37.530 
+component is really good for tracking
+
+00:01:37.530 --> 00:01:40.149 
+component is really good for tracking
+and<00:01:37.829> in<00:01:37.920> fact<00:01:38.159> if<00:01:38.490> your<00:01:38.970> system<00:01:39.390> is<00:01:39.479> stable
+
+00:01:40.149 --> 00:01:40.159 
+and in fact if your system is stable
+
+00:01:40.159 --> 00:01:43.639 
+and in fact if your system is stable
+then<00:01:41.159> having<00:01:42.090> an<00:01:42.180> AI<00:01:42.329> component<00:01:42.990> is<00:01:43.170> enough<00:01:43.470> to
+
+00:01:43.639 --> 00:01:43.649 
+then having an AI component is enough to
+
+00:01:43.649 --> 00:01:46.130 
+then having an AI component is enough to
+ensure<00:01:43.950> tracking<00:01:44.579> in<00:01:44.729> almost<00:01:45.000> all<00:01:45.180> cases<00:01:45.420> it's
+
+00:01:46.130 --> 00:01:46.140 
+ensure tracking in almost all cases it's
+
+00:01:46.140 --> 00:01:49.010 
+ensure tracking in almost all cases it's
+also<00:01:46.380> extremely<00:01:46.970> effective<00:01:47.970> at<00:01:48.090> rejecting
+
+00:01:49.010 --> 00:01:49.020 
+also extremely effective at rejecting
+
+00:01:49.020 --> 00:01:51.440 
+also extremely effective at rejecting
+disturbances<00:01:49.770> so<00:01:49.920> their<00:01:50.100> internal<00:01:50.880> part<00:01:51.119> is<00:01:51.390> a
+
+00:01:51.440 --> 00:01:51.450 
+disturbances so their internal part is a
+
+00:01:51.450 --> 00:01:55.399 
+disturbances so their internal part is a
+very<00:01:51.630> effective<00:01:52.670> part<00:01:53.670> to<00:01:54.030> have<00:01:54.240> in<00:01:54.780> your
+
+00:01:55.399 --> 00:01:55.409 
+very effective part to have in your
+
+00:01:55.409 --> 00:01:57.950 
+very effective part to have in your
+controller<00:01:56.040> now<00:01:56.280> it's<00:01:56.520> much<00:01:56.729> slower<00:01:56.909> in<00:01:57.570> the
+
+00:01:57.950 --> 00:01:57.960 
+controller now it's much slower in the
+
+00:01:57.960 --> 00:01:59.840 
+controller now it's much slower in the
+sense<00:01:58.170> that<00:01:58.229> you<00:01:58.409> have<00:01:58.530> to<00:01:58.619> accumulate<00:01:59.219> over
+
+00:01:59.840 --> 00:01:59.850 
+sense that you have to accumulate over
+
+00:01:59.850 --> 00:02:02.359 
+sense that you have to accumulate over
+time<00:02:00.360> errors<00:02:01.229> to<00:02:01.409> respond<00:02:01.770> to<00:02:01.920> them<00:02:02.070> because
+
+00:02:02.359 --> 00:02:02.369 
+time errors to respond to them because
+
+00:02:02.369 --> 00:02:04.700 
+time errors to respond to them because
+it's<00:02:02.549> an<00:02:02.640> integral<00:02:02.880> so<00:02:03.509> it's<00:02:03.750> it's<00:02:03.960> response
+
+00:02:04.700 --> 00:02:04.710 
+it's an integral so it's it's response
+
+00:02:04.710 --> 00:02:08.419 
+it's an integral so it's it's response
+slower<00:02:05.070> and<00:02:05.430> there<00:02:06.360> is<00:02:06.450> a<00:02:06.479> very<00:02:07.310> there<00:02:08.310> is<00:02:08.399> a
+
+00:02:08.419 --> 00:02:08.429 
+slower and there is a very there is a
+
+00:02:08.429 --> 00:02:09.680 
+slower and there is a very there is a
+little<00:02:08.640> bit<00:02:08.729> of<00:02:08.819> a<00:02:08.879> warning<00:02:09.209> I<00:02:09.330> need<00:02:09.450> to<00:02:09.539> make
+
+00:02:09.680 --> 00:02:09.690 
+little bit of a warning I need to make
+
+00:02:09.690 --> 00:02:13.040 
+little bit of a warning I need to make
+there<00:02:09.989> by<00:02:10.760> making<00:02:11.760> ki<00:02:11.970> large<00:02:12.330> you<00:02:12.660> may<00:02:12.840> very
+
+00:02:13.040 --> 00:02:13.050 
+there by making ki large you may very
+
+00:02:13.050 --> 00:02:13.910 
+there by making ki large you may very
+well<00:02:13.170> induce
+
+00:02:13.910 --> 00:02:13.920 
+well induce
+
+00:02:13.920 --> 00:02:16.070 
+well induce
+oscillations<00:02:14.459> so<00:02:14.670> this<00:02:15.090> is<00:02:15.209> not<00:02:15.390> oh<00:02:15.420> I'm<00:02:15.870> gonna
+
+00:02:16.070 --> 00:02:16.080 
+oscillations so this is not oh I'm gonna
+
+00:02:16.080 --> 00:02:17.780 
+oscillations so this is not oh I'm gonna
+pick<00:02:16.260> all<00:02:16.410> of<00:02:16.440> them<00:02:16.650> a<00:02:16.890> million<00:02:17.459> and<00:02:17.580> go<00:02:17.640> home
+
+00:02:17.780 --> 00:02:17.790 
+pick all of them a million and go home
+
+00:02:17.790 --> 00:02:19.490 
+pick all of them a million and go home
+no<00:02:18.239> you<00:02:18.300> have<00:02:18.540> to<00:02:18.690> be<00:02:18.780> a<00:02:18.810> little<00:02:18.959> careful<00:02:19.440> in
+
+00:02:19.490 --> 00:02:19.500 
+no you have to be a little careful in
+
+00:02:19.500 --> 00:02:21.920 
+no you have to be a little careful in
+how<00:02:19.680> you<00:02:19.739> actually<00:02:20.250> select<00:02:20.599> select<00:02:21.599> these
+
+00:02:21.920 --> 00:02:21.930 
+how you actually select select these
+
+00:02:21.930 --> 00:02:24.680 
+how you actually select select these
+gains<00:02:22.380> now<00:02:22.980> the<00:02:23.430> D<00:02:23.640> part<00:02:23.940> well
+
+00:02:24.680 --> 00:02:24.690 
+gains now the D part well
+
+00:02:24.690 --> 00:02:27.410 
+gains now the D part well
+since<00:02:25.470> it's<00:02:25.680> not<00:02:25.980> responding<00:02:26.760> to<00:02:26.940> actual
+
+00:02:27.410 --> 00:02:27.420 
+since it's not responding to actual
+
+00:02:27.420 --> 00:02:29.870 
+since it's not responding to actual
+values<00:02:27.870> the<00:02:28.620> error<00:02:28.770> values<00:02:29.130> but<00:02:29.280> the<00:02:29.370> changes
+
+00:02:29.870 --> 00:02:29.880 
+values the error values but the changes
+
+00:02:29.880 --> 00:02:32.150 
+values the error values but the changes
+in<00:02:30.000> their<00:02:30.150> values<00:02:30.540> it's<00:02:30.989> typically<00:02:31.440> faster
+
+00:02:32.150 --> 00:02:32.160 
+in their values it's typically faster
+
+00:02:32.160 --> 00:02:34.340 
+in their values it's typically faster
+responsiveness<00:02:33.030> so<00:02:33.120> something<00:02:33.810> is<00:02:33.900> about<00:02:34.170> to
+
+00:02:34.340 --> 00:02:34.350 
+responsiveness so something is about to
+
+00:02:34.350 --> 00:02:35.930 
+responsiveness so something is about to
+happen<00:02:34.440> while<00:02:34.800> the<00:02:34.920> rate<00:02:35.100> is<00:02:35.340> changing<00:02:35.370> so
+
+00:02:35.930 --> 00:02:35.940 
+happen while the rate is changing so
+
+00:02:35.940 --> 00:02:37.970 
+happen while the rate is changing so
+that<00:02:36.120> the<00:02:36.270> derivative<00:02:36.540> part<00:02:37.140> kicks<00:02:37.770> in
+
+00:02:37.970 --> 00:02:37.980 
+that the derivative part kicks in
+
+00:02:37.980 --> 00:02:40.759 
+that the derivative part kicks in
+typically<00:02:38.550> faster<00:02:39.110> now<00:02:40.110> there<00:02:40.410> is<00:02:40.530> a<00:02:40.560> little
+
+00:02:40.759 --> 00:02:40.769 
+typically faster now there is a little
+
+00:02:40.769 --> 00:02:42.830 
+typically faster now there is a little
+caveat<00:02:41.310> to<00:02:41.340> this<00:02:41.580> and<00:02:41.850> that's<00:02:42.030> the<00:02:42.540> derivative
+
+00:02:42.830 --> 00:02:42.840 
+caveat to this and that's the derivative
+
+00:02:42.840 --> 00:02:44.630 
+caveat to this and that's the derivative
+is<00:02:43.319> sensitive<00:02:43.890> to<00:02:43.950> noise
+
+00:02:44.630 --> 00:02:44.640 
+is sensitive to noise
+
+00:02:44.640 --> 00:02:46.699 
+is sensitive to noise
+because<00:02:45.209> if<00:02:45.720> you<00:02:45.870> have<00:02:46.019> a<00:02:46.050> signal<00:02:46.500> that's
+
+00:02:46.699 --> 00:02:46.709 
+because if you have a signal that's
+
+00:02:46.709 --> 00:02:48.740 
+because if you have a signal that's
+noisy<00:02:46.920> then<00:02:47.459> if<00:02:47.670> you<00:02:47.760> compute<00:02:48.060> the<00:02:48.209> derivative
+
+00:02:48.740 --> 00:02:48.750 
+noisy then if you compute the derivative
+
+00:02:48.750 --> 00:02:50.660 
+noisy then if you compute the derivative
+of<00:02:48.930> that<00:02:49.050> signal<00:02:49.530> you're<00:02:49.890> gonna<00:02:50.069> get<00:02:50.250> rather
+
+00:02:50.660 --> 00:02:50.670 
+of that signal you're gonna get rather
+
+00:02:50.670 --> 00:02:52.400 
+of that signal you're gonna get rather
+aggressive<00:02:51.420> derivatives<00:02:51.989> that<00:02:52.110> don't
+
+00:02:52.400 --> 00:02:52.410 
+aggressive derivatives that don't
+
+00:02:52.410 --> 00:02:55.460 
+aggressive derivatives that don't
+necessarily<00:02:53.660> correspond<00:02:54.660> to<00:02:54.780> what<00:02:55.080> the<00:02:55.230> non
+
+00:02:55.460 --> 00:02:55.470 
+necessarily correspond to what the non
+
+00:02:55.470 --> 00:02:57.680 
+necessarily correspond to what the non
+noisy<00:02:55.799> signal<00:02:56.340> would<00:02:56.459> be<00:02:56.610> so<00:02:56.880> you<00:02:57.269> have<00:02:57.420> to<00:02:57.569> be
+
+00:02:57.680 --> 00:02:57.690 
+noisy signal would be so you have to be
+
+00:02:57.690 --> 00:02:59.780 
+noisy signal would be so you have to be
+a<00:02:57.720> little<00:02:58.290> careful<00:02:58.530> with<00:02:58.980> the<00:02:59.069> D<00:02:59.220> parts<00:02:59.610> and
+
+00:02:59.780 --> 00:02:59.790 
+a little careful with the D parts and
+
+00:02:59.790 --> 00:03:02.630 
+a little careful with the D parts and
+making<00:03:00.510> KD<00:03:00.930> too<00:03:01.350> large<00:03:01.560> is<00:03:01.860> typically<00:03:02.280> an
+
+00:03:02.630 --> 00:03:02.640 
+making KD too large is typically an
+
+00:03:02.640 --> 00:03:05.120 
+making KD too large is typically an
+invitation<00:03:03.630> to<00:03:03.870> disaster<00:03:04.200> because<00:03:04.920> you're
+
+00:03:05.120 --> 00:03:05.130 
+invitation to disaster because you're
+
+00:03:05.130 --> 00:03:09.710 
+invitation to disaster because you're
+you're<00:03:05.610> overreacting<00:03:06.030> to<00:03:06.660> to<00:03:07.200> noise<00:03:07.440> so<00:03:08.720> the
+
+00:03:09.710 --> 00:03:09.720 
+you're overreacting to to noise so the
+
+00:03:09.720 --> 00:03:11.930 
+you're overreacting to to noise so the
+last<00:03:09.989> thing<00:03:10.380> I<00:03:10.620> want<00:03:11.100> to<00:03:11.190> point<00:03:11.519> out<00:03:11.700> though<00:03:11.910> is
+
+00:03:11.930 --> 00:03:11.940 
+last thing I want to point out though is
+
+00:03:11.940 --> 00:03:13.610 
+last thing I want to point out though is
+that<00:03:12.180> when<00:03:12.569> you<00:03:12.660> put<00:03:12.840> this<00:03:12.930> together<00:03:13.140> you<00:03:13.380> get
+
+00:03:13.610 --> 00:03:13.620 
+that when you put this together you get
+
+00:03:13.620 --> 00:03:16.580 
+that when you put this together you get
+PID<00:03:14.010> which<00:03:14.610> is<00:03:14.790> as<00:03:14.940> I<00:03:15.060> already<00:03:15.209> said<00:03:15.510> by<00:03:16.080> far
+
+00:03:16.580 --> 00:03:16.590 
+PID which is as I already said by far
+
+00:03:16.590 --> 00:03:19.670 
+PID which is as I already said by far
+the<00:03:16.950> most<00:03:17.100> used<00:03:17.489> low<00:03:18.150> lever<00:03:18.540> controller<00:03:19.109> low
+
+00:03:19.670 --> 00:03:19.680 
+the most used low lever controller low
+
+00:03:19.680 --> 00:03:21.560 
+the most used low lever controller low
+level<00:03:20.040> means<00:03:20.250> that<00:03:20.459> whenever<00:03:20.910> you<00:03:21.060> have<00:03:21.180> a<00:03:21.209> DC
+
+00:03:21.560 --> 00:03:21.570 
+level means that whenever you have a DC
+
+00:03:21.570 --> 00:03:23.390 
+level means that whenever you have a DC
+motor<00:03:21.720> somewhere<00:03:22.230> and<00:03:22.440> you<00:03:22.829> want<00:03:22.980> to<00:03:23.070> make<00:03:23.250> it
+
+00:03:23.390 --> 00:03:23.400 
+motor somewhere and you want to make it
+
+00:03:23.400 --> 00:03:25.670 
+motor somewhere and you want to make it
+do<00:03:23.519> something<00:03:23.870> somewhere<00:03:24.870> there<00:03:25.170> is<00:03:25.290> a<00:03:25.320> PID
+
+00:03:25.670 --> 00:03:25.680 
+do something somewhere there is a PID
+
+00:03:25.680 --> 00:03:27.410 
+do something somewhere there is a PID
+loop<00:03:25.829> whenever<00:03:26.670> you<00:03:26.790> have<00:03:26.910> a<00:03:26.940> chemical
+
+00:03:27.410 --> 00:03:27.420 
+loop whenever you have a chemical
+
+00:03:27.420 --> 00:03:29.349 
+loop whenever you have a chemical
+processing<00:03:27.870> plant<00:03:28.109> for<00:03:28.410> getting<00:03:28.680> the<00:03:28.769> right
+
+00:03:29.349 --> 00:03:29.359 
+processing plant for getting the right
+
+00:03:29.359 --> 00:03:31.130 
+processing plant for getting the right
+concentrations<00:03:30.359> in<00:03:30.510> your<00:03:30.660> chemicals
+
+00:03:31.130 --> 00:03:31.140 
+concentrations in your chemicals
+
+00:03:31.140 --> 00:03:33.259 
+concentrations in your chemicals
+somewhere<00:03:31.799> there<00:03:32.010> is<00:03:32.100> a<00:03:32.130> PID<00:03:32.459> regulator
+
+00:03:33.259 --> 00:03:33.269 
+somewhere there is a PID regulator
+
+00:03:33.269 --> 00:03:36.349 
+somewhere there is a PID regulator
+it's<00:03:33.720> almost<00:03:34.500> everywhere<00:03:35.070> there<00:03:36.060> are<00:03:36.090> in
+
+00:03:36.349 --> 00:03:36.359 
+it's almost everywhere there are in
+
+00:03:36.359 --> 00:03:38.539 
+it's almost everywhere there are in
+almost<00:03:36.690> all<00:03:36.900> control<00:03:37.290> applications<00:03:37.829> PID
+
+00:03:38.539 --> 00:03:38.549 
+almost all control applications PID
+
+00:03:38.549 --> 00:03:40.310 
+almost all control applications PID
+shows<00:03:38.850> up<00:03:39.060> under<00:03:39.239> the<00:03:39.329> hood<00:03:39.480> in<00:03:39.750> some<00:03:39.959> form<00:03:40.230> or
+
+00:03:40.310 --> 00:03:40.320 
+shows up under the hood in some form or
+
+00:03:40.320 --> 00:03:42.140 
+shows up under the hood in some form or
+another<00:03:40.380> but<00:03:41.100> I<00:03:41.130> do<00:03:41.250> want<00:03:41.519> to<00:03:41.579> point<00:03:41.730> out<00:03:41.910> that
+
+00:03:42.140 --> 00:03:42.150 
+another but I do want to point out that
+
+00:03:42.150 --> 00:03:44.930 
+another but I do want to point out that
+this<00:03:42.810> is<00:03:43.019> not<00:03:43.049> the<00:03:43.410> one<00:03:43.590> size<00:03:43.829> fits<00:03:44.250> all<00:03:44.430> we
+
+00:03:44.930 --> 00:03:44.940 
+this is not the one size fits all we
+
+00:03:44.940 --> 00:03:46.610 
+this is not the one size fits all we
+can't<00:03:45.150> guarantee<00:03:45.329> stability<00:03:46.140> with<00:03:46.350> a<00:03:46.380> PID
+
+00:03:46.610 --> 00:03:46.620 
+can't guarantee stability with a PID
+
+00:03:46.620 --> 00:03:48.349 
+can't guarantee stability with a PID
+regulator<00:03:46.980> sometimes<00:03:47.640> it's<00:03:47.820> not<00:03:47.970> enough<00:03:48.180> in
+
+00:03:48.349 --> 00:03:48.359 
+regulator sometimes it's not enough in
+
+00:03:48.359 --> 00:03:50.990 
+regulator sometimes it's not enough in
+fact<00:03:48.510> when<00:03:48.989> we<00:03:49.079> go<00:03:49.200> to<00:03:49.260> complicated<00:03:50.130> robotic
+
+00:03:50.990 --> 00:03:51.000 
+fact when we go to complicated robotic
+
+00:03:51.000 --> 00:03:53.720 
+fact when we go to complicated robotic
+systems<00:03:51.450> the<00:03:51.630> PID<00:03:51.989> regulator<00:03:52.310> will<00:03:53.310> typically
+
+00:03:53.720 --> 00:03:53.730 
+systems the PID regulator will typically
+
+00:03:53.730 --> 00:03:55.640 
+systems the PID regulator will typically
+not<00:03:53.910> be<00:03:54.090> enough<00:03:54.329> by<00:03:54.600> itself<00:03:54.630> so<00:03:55.140> we<00:03:55.170> need<00:03:55.410> to<00:03:55.500> do
+
+00:03:55.640 --> 00:03:55.650 
+not be enough by itself so we need to do
+
+00:03:55.650 --> 00:03:58.280 
+not be enough by itself so we need to do
+a<00:03:55.890> lot<00:03:56.130> of<00:03:56.160> more<00:03:56.459> thinking<00:03:57.420> and<00:03:57.569> modeling<00:03:58.079> to
+
+00:03:58.280 --> 00:03:58.290 
+a lot of more thinking and modeling to
+
+00:03:58.290 --> 00:04:00.440 
+a lot of more thinking and modeling to
+to<00:03:58.530> use<00:03:58.739> it<00:03:58.950> and<00:03:59.160> at<00:03:59.790> this<00:03:59.970> point<00:04:00.150> we<00:04:00.359> actually
+
+00:04:00.440 --> 00:04:00.450 
+to use it and at this point we actually
+
+00:04:00.450 --> 00:04:02.240 
+to use it and at this point we actually
+don't<00:04:00.780> really<00:04:01.500> know<00:04:01.620> how<00:04:01.769> to<00:04:01.829> pick<00:04:02.069> these
+
+00:04:02.240 --> 00:04:02.250 
+don't really know how to pick these
+
+00:04:02.250 --> 00:04:04.819 
+don't really know how to pick these
+gains<00:04:02.519> however<00:04:03.209> I<00:04:03.750> want<00:04:04.260> to<00:04:04.350> point<00:04:04.470> out<00:04:04.620> that
+
+00:04:04.819 --> 00:04:04.829 
+gains however I want to point out that
+
+00:04:04.829 --> 00:04:07.520 
+gains however I want to point out that
+this<00:04:04.920> is<00:04:05.190> a<00:04:05.489> very<00:04:06.180> very<00:04:06.450> useful<00:04:06.780> type<00:04:07.350> of
+
+00:04:07.520 --> 00:04:07.530 
+this is a very very useful type of
+
+00:04:07.530 --> 00:04:11.780 
+this is a very very useful type of
+controller<00:04:08.060> and<00:04:09.440> since<00:04:10.440> it<00:04:10.560> is<00:04:10.650> a<00:04:10.859> feedback
+
+00:04:11.780 --> 00:04:11.790 
+controller and since it is a feedback
+
+00:04:11.790 --> 00:04:14.479 
+controller and since it is a feedback
+law<00:04:12.090> because<00:04:12.540> it<00:04:12.690> depends<00:04:13.109> on<00:04:13.200> the<00:04:13.260> error<00:04:13.530> it
+
+00:04:14.479 --> 00:04:14.489 
+law because it depends on the error it
+
+00:04:14.489 --> 00:04:16.550 
+law because it depends on the error it
+actually<00:04:14.970> fights<00:04:15.299> uncertainty<00:04:16.229> in<00:04:16.289> model
+
+00:04:16.550 --> 00:04:16.560 
+actually fights uncertainty in model
+
+00:04:16.560 --> 00:04:18.440 
+actually fights uncertainty in model
+parameters<00:04:17.039> in<00:04:17.190> a<00:04:17.250> remarkable<00:04:17.940> way<00:04:18.000> and
+
+00:04:18.440 --> 00:04:18.450 
+parameters in a remarkable way and
+
+00:04:18.450 --> 00:04:21.469 
+parameters in a remarkable way and
+feedback<00:04:19.109> has<00:04:19.500> this<00:04:19.829> remarkable<00:04:20.609> ability<00:04:21.090> to
+
+00:04:21.469 --> 00:04:21.479 
+feedback has this remarkable ability to
+
+00:04:21.479 --> 00:04:23.450 
+feedback has this remarkable ability to
+overcome<00:04:21.840> the<00:04:22.289> fact<00:04:22.500> that<00:04:22.590> we<00:04:23.130> don't<00:04:23.340> know
+
+00:04:23.450 --> 00:04:23.460 
+overcome the fact that we don't know
+
+00:04:23.460 --> 00:04:25.250 
+overcome the fact that we don't know
+gamma<00:04:23.729> we<00:04:24.030> don't<00:04:24.210> know<00:04:24.300> C<00:04:24.570> we<00:04:24.599> don't<00:04:24.960> know<00:04:25.050> M
+
+00:04:25.250 --> 00:04:25.260 
+gamma we don't know C we don't know M
+
+00:04:25.260 --> 00:04:27.260 
+gamma we don't know C we don't know M
+but<00:04:26.039> still<00:04:26.340> we<00:04:26.669> seem<00:04:26.909> to<00:04:26.940> do
+
+00:04:27.260 --> 00:04:27.270 
+but still we seem to do
+
+00:04:27.270 --> 00:04:29.510 
+but still we seem to do
+well<00:04:27.690> when<00:04:28.080> we<00:04:28.169> design<00:04:28.500> controllers<00:04:29.190> for<00:04:29.460> a
+
+00:04:29.510 --> 00:04:29.520 
+well when we design controllers for a
+
+00:04:29.520 --> 00:04:33.170 
+well when we design controllers for a
+wide<00:04:30.270> range<00:04:30.300> of<00:04:30.900> these<00:04:31.440> parameters<00:04:31.979> so<00:04:32.639> having
+
+00:04:33.170 --> 00:04:33.180 
+wide range of these parameters so having
+
+00:04:33.180 --> 00:04:35.210 
+wide range of these parameters so having
+said<00:04:33.449> that<00:04:33.479> let's<00:04:34.289> hook<00:04:34.560> it<00:04:34.650> up<00:04:34.770> to<00:04:34.949> our<00:04:34.979> car
+
+00:04:35.210 --> 00:04:35.220 
+said that let's hook it up to our car
+
+00:04:35.220 --> 00:04:37.939 
+said that let's hook it up to our car
+and<00:04:35.460> in<00:04:35.699> fact<00:04:35.909> we<00:04:36.360> had<00:04:36.569> a<00:04:36.599> PID<00:04:37.050> regulator<00:04:37.440> for
+
+00:04:37.939 --> 00:04:37.949 
+and in fact we had a PID regulator for
+
+00:04:37.949 --> 00:04:40.879 
+and in fact we had a PID regulator for
+velocity<00:04:38.849> control<00:04:39.180> on<00:04:39.629> the<00:04:40.080> urban<00:04:40.470> challenge
+
+00:04:40.879 --> 00:04:40.889 
+velocity control on the urban challenge
+
+00:04:40.889 --> 00:04:43.850 
+velocity control on the urban challenge
+vehicle<00:04:41.280> sting<00:04:41.970> one<00:04:42.240> as<00:04:42.509> it's<00:04:42.690> called<00:04:42.840> we<00:04:43.710> had
+
+00:04:43.850 --> 00:04:43.860 
+vehicle sting one as it's called we had
+
+00:04:43.860 --> 00:04:46.640 
+vehicle sting one as it's called we had
+this<00:04:44.580> model<00:04:45.060> that<00:04:45.090> we've<00:04:45.389> already<00:04:45.539> seen<00:04:45.930> and<00:04:46.199> I
+
+00:04:46.640 --> 00:04:46.650 
+this model that we've already seen and I
+
+00:04:46.650 --> 00:04:49.279 
+this model that we've already seen and I
+picked<00:04:47.659> completely<00:04:48.659> random<00:04:49.110> and<00:04:49.169> arbitrary
+
+00:04:49.279 --> 00:04:49.289 
+picked completely random and arbitrary
+
+00:04:49.289 --> 00:04:51.050 
+picked completely random and arbitrary
+numbers<00:04:50.039> here<00:04:50.190> for<00:04:50.340> the<00:04:50.400> parameters<00:04:50.849> and<00:04:50.970> I
+
+00:04:51.050 --> 00:04:51.060 
+numbers here for the parameters and I
+
+00:04:51.060 --> 00:04:52.760 
+numbers here for the parameters and I
+even<00:04:51.150> put<00:04:51.419> R<00:04:51.599> equals<00:04:51.870> to<00:04:51.990> 1<00:04:52.020> so<00:04:52.409> we're<00:04:52.530> gonna<00:04:52.620> go
+
+00:04:52.760 --> 00:04:52.770 
+even put R equals to 1 so we're gonna go
+
+00:04:52.770 --> 00:04:55.909 
+even put R equals to 1 so we're gonna go
+one<00:04:53.159> mile<00:04:53.370> per<00:04:53.699> hour<00:04:54.440> let's<00:04:55.440> say<00:04:55.500> 1<00:04:55.650> meter<00:04:55.800> per
+
+00:04:55.909 --> 00:04:55.919 
+one mile per hour let's say 1 meter per
+
+00:04:55.919 --> 00:04:57.260 
+one mile per hour let's say 1 meter per
+second<00:04:56.400> it<00:04:56.460> really<00:04:56.490> doesn't<00:04:56.940> matter<00:04:57.090> but
+
+00:04:57.260 --> 00:04:57.270 
+second it really doesn't matter but
+
+00:04:57.270 --> 00:04:59.119 
+second it really doesn't matter but
+these<00:04:57.690> are<00:04:57.810> arbitrary<00:04:57.960> values<00:04:58.620> just<00:04:58.889> so
+
+00:04:59.119 --> 00:04:59.129 
+these are arbitrary values just so
+
+00:04:59.129 --> 00:05:00.890 
+these are arbitrary values just so
+you'll<00:04:59.280> see<00:04:59.490> what's<00:04:59.699> going<00:04:59.909> on<00:05:00.060> so<00:05:00.270> if<00:05:00.630> we
+
+00:05:00.890 --> 00:05:00.900 
+you'll see what's going on so if we
+
+00:05:00.900 --> 00:05:04.129 
+you'll see what's going on so if we
+start<00:05:01.199> with<00:05:01.830> our<00:05:01.860> friend<00:05:02.250> the<00:05:02.880> P<00:05:03.180> regulator<00:05:03.720> so
+
+00:05:04.129 --> 00:05:04.139 
+start with our friend the P regulator so
+
+00:05:04.139 --> 00:05:06.499 
+start with our friend the P regulator so
+we<00:05:04.259> have<00:05:04.380> KP<00:05:04.830> equals<00:05:05.099> to<00:05:05.250> 1<00:05:05.490> here<00:05:05.909> and<00:05:06.060> all<00:05:06.360> the
+
+00:05:06.499 --> 00:05:06.509 
+we have KP equals to 1 here and all the
+
+00:05:06.509 --> 00:05:09.439 
+we have KP equals to 1 here and all the
+other<00:05:06.539> gains<00:05:06.900> are<00:05:07.199> zero<00:05:07.530> than<00:05:07.919> well<00:05:08.550> we<00:05:09.240> don't
+
+00:05:09.439 --> 00:05:09.449 
+other gains are zero than well we don't
+
+00:05:09.449 --> 00:05:11.300 
+other gains are zero than well we don't
+actually<00:05:09.659> make<00:05:10.020> it<00:05:10.199> up<00:05:10.319> to<00:05:10.500> one<00:05:10.710> we<00:05:10.949> only<00:05:11.069> make
+
+00:05:11.300 --> 00:05:11.310 
+actually make it up to one we only make
+
+00:05:11.310 --> 00:05:13.430 
+actually make it up to one we only make
+it<00:05:11.340> to<00:05:11.639> two<00:05:11.909> zero<00:05:12.150> point<00:05:12.360> one<00:05:12.569> this<00:05:13.110> we<00:05:13.289> had
+
+00:05:13.430 --> 00:05:13.440 
+it to two zero point one this we had
+
+00:05:13.440 --> 00:05:16.820 
+it to two zero point one this we had
+already<00:05:13.710> seen<00:05:14.310> so<00:05:14.909> the<00:05:15.150> P<00:05:15.389> part<00:05:15.659> by<00:05:15.990> itself<00:05:16.409> was
+
+00:05:16.820 --> 00:05:16.830 
+already seen so the P part by itself was
+
+00:05:16.830 --> 00:05:20.620 
+already seen so the P part by itself was
+not<00:05:17.069> enough<00:05:17.340> to<00:05:17.759> to<00:05:18.090> both<00:05:19.050> be<00:05:19.409> stable<00:05:19.889> and
+
+00:05:20.620 --> 00:05:20.630 
+not enough to to both be stable and
+
+00:05:20.630 --> 00:05:24.050 
+not enough to to both be stable and
+achieve<00:05:21.630> tracking<00:05:22.050> well<00:05:22.680> let's<00:05:23.610> hook<00:05:23.789> in<00:05:23.940> the
+
+00:05:24.050 --> 00:05:24.060 
+achieve tracking well let's hook in the
+
+00:05:24.060 --> 00:05:27.529 
+achieve tracking well let's hook in the
+eye<00:05:24.090> part<00:05:24.770> cruise<00:05:25.770> controller<00:05:26.099> again<00:05:26.280> KP<00:05:27.150> is<00:05:27.210> 1
+
+00:05:27.529 --> 00:05:27.539 
+eye part cruise controller again KP is 1
+
+00:05:27.539 --> 00:05:31.159 
+eye part cruise controller again KP is 1
+ki<00:05:28.349> is<00:05:28.620> 1<00:05:28.979> and<00:05:29.310> now<00:05:29.490> we're<00:05:30.419> having<00:05:30.690> a<00:05:30.780> very<00:05:30.990> nice
+
+00:05:31.159 --> 00:05:31.169 
+ki is 1 and now we're having a very nice
+
+00:05:31.169 --> 00:05:32.870 
+ki is 1 and now we're having a very nice
+so-called<00:05:31.830> step<00:05:32.190> response<00:05:32.430> which<00:05:32.849> means
+
+00:05:32.870 --> 00:05:32.880 
+so-called step response which means
+
+00:05:32.880 --> 00:05:34.670 
+so-called step response which means
+we're<00:05:33.330> responding<00:05:33.690> we're<00:05:33.990> waking<00:05:34.139> up<00:05:34.469> and
+
+00:05:34.670 --> 00:05:34.680 
+we're responding we're waking up and
+
+00:05:34.680 --> 00:05:35.959 
+we're responding we're waking up and
+then<00:05:34.800> we're<00:05:34.919> hitting<00:05:35.159> it<00:05:35.219> with<00:05:35.400> a<00:05:35.430> step<00:05:35.729> in
+
+00:05:35.959 --> 00:05:35.969 
+then we're hitting it with a step in
+
+00:05:35.969 --> 00:05:39.770 
+then we're hitting it with a step in
+this<00:05:36.060> case<00:05:36.840> a<00:05:36.870> step<00:05:37.229> of<00:05:37.409> height<00:05:38.099> 1<00:05:38.400> or<00:05:38.699> 70<00:05:39.690> if
+
+00:05:39.770 --> 00:05:39.780 
+this case a step of height 1 or 70 if
+
+00:05:39.780 --> 00:05:42.920 
+this case a step of height 1 or 70 if
+it's<00:05:39.930> 70<00:05:40.229> miles<00:05:40.409> per<00:05:40.500> hour<00:05:41.449> so<00:05:42.449> then<00:05:42.630> this
+
+00:05:42.920 --> 00:05:42.930 
+it's 70 miles per hour so then this
+
+00:05:42.930 --> 00:05:45.019 
+it's 70 miles per hour so then this
+thing<00:05:43.199> makes<00:05:43.560> its<00:05:43.770> way<00:05:43.800> up<00:05:43.919> and<00:05:44.370> it<00:05:44.520> stays<00:05:44.759> up
+
+00:05:45.019 --> 00:05:45.029 
+thing makes its way up and it stays up
+
+00:05:45.029 --> 00:05:47.689 
+thing makes its way up and it stays up
+there<00:05:45.409> perfect<00:05:46.409> so<00:05:46.919> this<00:05:47.009> is<00:05:47.159> actually<00:05:47.430> a<00:05:47.460> good
+
+00:05:47.689 --> 00:05:47.699 
+there perfect so this is actually a good
+
+00:05:47.699 --> 00:05:51.260 
+there perfect so this is actually a good
+and<00:05:47.969> successful<00:05:48.090> design<00:05:48.810> right<00:05:49.229> there<00:05:49.400> now<00:05:50.400> if
+
+00:05:51.260 --> 00:05:51.270 
+and successful design right there now if
+
+00:05:51.270 --> 00:05:53.089 
+and successful design right there now if
+this<00:05:51.449> is<00:05:51.599> so<00:05:51.630> good<00:05:51.990> why<00:05:52.229> don't<00:05:52.409> we<00:05:52.500> make<00:05:52.680> ki
+
+00:05:53.089 --> 00:05:53.099 
+this is so good why don't we make ki
+
+00:05:53.099 --> 00:05:54.800 
+this is so good why don't we make ki
+higher<00:05:53.699> to<00:05:54.000> make<00:05:54.029> it<00:05:54.270> even<00:05:54.449> better
+
+00:05:54.800 --> 00:05:54.810 
+higher to make it even better
+
+00:05:54.810 --> 00:05:58.879 
+higher to make it even better
+well<00:05:54.960> if<00:05:55.289> I<00:05:55.580> crank<00:05:56.580> up<00:05:56.849> ki<00:05:57.210> to<00:05:57.419> 10<00:05:57.990> then<00:05:58.680> all<00:05:58.860> of
+
+00:05:58.879 --> 00:05:58.889 
+well if I crank up ki to 10 then all of
+
+00:05:58.889 --> 00:06:01.219 
+well if I crank up ki to 10 then all of
+a<00:05:59.039> sudden<00:05:59.069> my<00:05:59.520> system<00:05:59.909> starts<00:06:00.180> oscillating<00:06:00.449> so
+
+00:06:01.219 --> 00:06:01.229 
+a sudden my system starts oscillating so
+
+00:06:01.229 --> 00:06:03.980 
+a sudden my system starts oscillating so
+this<00:06:01.380> is<00:06:01.500> an<00:06:01.590> example<00:06:01.949> of<00:06:02.279> where<00:06:02.819> the<00:06:03.419> integral
+
+00:06:03.980 --> 00:06:03.990 
+this is an example of where the integral
+
+00:06:03.990 --> 00:06:06.170 
+this is an example of where the integral
+part<00:06:04.469> may<00:06:04.919> actually<00:06:05.159> cause<00:06:05.490> oscillations
+
+00:06:06.170 --> 00:06:06.180 
+part may actually cause oscillations
+
+00:06:06.180 --> 00:06:09.649 
+part may actually cause oscillations
+which<00:06:06.539> is<00:06:07.759> we<00:06:08.759> should<00:06:08.940> at<00:06:09.060> least<00:06:09.180> be<00:06:09.389> aware<00:06:09.479> of
+
+00:06:09.649 --> 00:06:09.659 
+which is we should at least be aware of
+
+00:06:09.659 --> 00:06:11.420 
+which is we should at least be aware of
+this<00:06:09.900> fact<00:06:10.139> and<00:06:10.380> be<00:06:10.500> a<00:06:10.529> little<00:06:10.800> careful<00:06:10.979> when
+
+00:06:11.420 --> 00:06:11.430 
+this fact and be a little careful when
+
+00:06:11.430 --> 00:06:13.790 
+this fact and be a little careful when
+we<00:06:11.520> tweak<00:06:11.880> our<00:06:12.060> parameters<00:06:12.569> and<00:06:12.779> if<00:06:12.990> we<00:06:13.590> see
+
+00:06:13.790 --> 00:06:13.800 
+we tweak our parameters and if we see
+
+00:06:13.800 --> 00:06:17.120 
+we tweak our parameters and if we see
+oscillations<00:06:14.690> that<00:06:15.690> is<00:06:15.870> a<00:06:15.900> clear<00:06:16.680> indication
+
+00:06:17.120 --> 00:06:17.130 
+oscillations that is a clear indication
+
+00:06:17.130 --> 00:06:19.070 
+oscillations that is a clear indication
+that<00:06:17.310> the<00:06:17.520> integral<00:06:17.909> part<00:06:18.180> is<00:06:18.360> typically<00:06:18.900> a
+
+00:06:19.070 --> 00:06:19.080 
+that the integral part is typically a
+
+00:06:19.080 --> 00:06:22.610 
+that the integral part is typically a
+little<00:06:19.560> bit<00:06:19.830> too<00:06:20.400> large<00:06:21.199> what<00:06:22.199> about<00:06:22.380> the<00:06:22.469> D
+
+00:06:22.610 --> 00:06:22.620 
+little bit too large what about the D
+
+00:06:22.620 --> 00:06:25.279 
+little bit too large what about the D
+part<00:06:22.889> well<00:06:23.240> let's<00:06:24.240> add<00:06:24.479> the<00:06:24.509> D<00:06:24.810> part<00:06:25.080> in<00:06:25.199> this
+
+00:06:25.279 --> 00:06:25.289 
+part well let's add the D part in this
+
+00:06:25.289 --> 00:06:26.959 
+part well let's add the D part in this
+case<00:06:25.560> it<00:06:25.800> actually<00:06:26.069> doesn't<00:06:26.279> matter<00:06:26.639> too<00:06:26.940> much
+
+00:06:26.959 --> 00:06:26.969 
+case it actually doesn't matter too much
+
+00:06:26.969 --> 00:06:28.909 
+case it actually doesn't matter too much
+what<00:06:27.419> you<00:06:27.569> see<00:06:27.599> here<00:06:27.990> is<00:06:28.080> that<00:06:28.110> I<00:06:28.289> had<00:06:28.440> a<00:06:28.469> small
+
+00:06:28.909 --> 00:06:28.919 
+what you see here is that I had a small
+
+00:06:28.919 --> 00:06:31.850 
+what you see here is that I had a small
+D<00:06:29.130> part<00:06:29.400> I'm<00:06:29.639> a<00:06:29.699> little<00:06:30.000> bit<00:06:30.289> paranoid<00:06:31.289> when<00:06:31.770> it
+
+00:06:31.850 --> 00:06:31.860 
+D part I'm a little bit paranoid when it
+
+00:06:31.860 --> 00:06:33.890 
+D part I'm a little bit paranoid when it
+comes<00:06:32.009> to<00:06:32.130> large<00:06:32.340> KD<00:06:32.909> terms<00:06:33.270> because<00:06:33.599> they<00:06:33.719> are
+
+00:06:33.890 --> 00:06:33.900 
+comes to large KD terms because they are
+
+00:06:33.900 --> 00:06:38.120 
+comes to large KD terms because they are
+a<00:06:34.830> little<00:06:35.610> bit<00:06:35.870> noise<00:06:36.870> sensitive<00:06:37.440> but<00:06:37.979> what
+
+00:06:38.120 --> 00:06:38.130 
+a little bit noise sensitive but what
+
+00:06:38.130 --> 00:06:39.469 
+a little bit noise sensitive but what
+you're<00:06:38.279> seeing<00:06:38.490> here<00:06:38.759> is<00:06:38.820> that<00:06:38.940> you're
+
+00:06:39.469 --> 00:06:39.479 
+you're seeing here is that you're
+
+00:06:39.479 --> 00:06:41.490 
+you're seeing here is that you're
+getting<00:06:39.630> a<00:06:39.839> faster<00:06:40.380> initial<00:06:40.860> risk
+
+00:06:41.490 --> 00:06:41.500 
+getting a faster initial risk
+
+00:06:41.500 --> 00:06:43.680 
+getting a faster initial risk
+because<00:06:41.800> of<00:06:42.160> the<00:06:42.520> introduction<00:06:43.030> of<00:06:43.390> a<00:06:43.510> deep
+
+00:06:43.680 --> 00:06:43.690 
+because of the introduction of a deep
+
+00:06:43.690 --> 00:06:46.140 
+because of the introduction of a deep
+art<00:06:43.960> but<00:06:44.200> then<00:06:44.410> we<00:06:45.310> actually<00:06:45.400> get<00:06:45.700> almost<00:06:46.000> a
+
+00:06:46.140 --> 00:06:46.150 
+art but then we actually get almost a
+
+00:06:46.150 --> 00:06:48.480 
+art but then we actually get almost a
+slower<00:06:46.480> response<00:06:46.780> towards<00:06:47.380> the<00:06:47.500> end<00:06:47.650> so<00:06:48.070> the
+
+00:06:48.480 --> 00:06:48.490 
+slower response towards the end so the
+
+00:06:48.490 --> 00:06:50.790 
+slower response towards the end so the
+deep<00:06:48.700> art<00:06:48.940> is<00:06:49.090> there<00:06:49.270> to<00:06:49.450> drive<00:06:49.720> it<00:06:50.020> well<00:06:50.410> up<00:06:50.620> in
+
+00:06:50.790 --> 00:06:50.800 
+deep art is there to drive it well up in
+
+00:06:50.800 --> 00:06:53.130 
+deep art is there to drive it well up in
+the<00:06:50.860> beginning<00:06:51.280> but<00:06:51.550> then<00:06:51.880> towards<00:06:52.750> the<00:06:52.990> end
+
+00:06:53.130 --> 00:06:53.140 
+the beginning but then towards the end
+
+00:06:53.140 --> 00:06:56.610 
+the beginning but then towards the end
+in<00:06:53.560> this<00:06:53.830> particular<00:06:54.520> application<00:06:55.170> having<00:06:56.170> ad
+
+00:06:56.610 --> 00:06:56.620 
+in this particular application having ad
+
+00:06:56.620 --> 00:06:58.380 
+in this particular application having ad
+gain<00:06:56.890> that's<00:06:57.100> nonzero<00:06:57.340> it<00:06:57.760> wasn't<00:06:58.030> even<00:06:58.210> clear
+
+00:06:58.380 --> 00:06:58.390 
+gain that's nonzero it wasn't even clear
+
+00:06:58.390 --> 00:07:02.970 
+gain that's nonzero it wasn't even clear
+if<00:06:58.540> that<00:06:58.690> was<00:06:59.050> was<00:06:59.920> useful<00:07:00.370> but<00:07:01.080> this<00:07:02.080> is<00:07:02.290> some
+
+00:07:02.970 --> 00:07:02.980 
+if that was was useful but this is some
+
+00:07:02.980 --> 00:07:05.490 
+if that was was useful but this is some
+of<00:07:03.100> the<00:07:03.130> thinking<00:07:03.610> that<00:07:03.760> goes<00:07:03.820> into<00:07:04.500> to
+
+00:07:05.490 --> 00:07:05.500 
+of the thinking that goes into to
+
+00:07:05.500 --> 00:07:09.420 
+of the thinking that goes into to
+tweaking<00:07:06.450> PID<00:07:07.450> regulators<00:07:08.290> so<00:07:08.890> what<00:07:09.070> we<00:07:09.250> are
+
+00:07:09.420 --> 00:07:09.430 
+tweaking PID regulators so what we are
+
+00:07:09.430 --> 00:07:11.550 
+tweaking PID regulators so what we are
+going<00:07:09.610> to<00:07:09.850> do<00:07:10.030> next<00:07:10.510> time<00:07:10.780> is<00:07:11.050> we're<00:07:11.320> going<00:07:11.440> to
+
+00:07:11.550 --> 00:07:11.560 
+going to do next time is we're going to
+
+00:07:11.560 --> 00:07:13.230 
+going to do next time is we're going to
+go<00:07:11.830> now<00:07:12.220> from<00:07:12.520> this<00:07:12.640> rather<00:07:12.820> abstract
+
+00:07:13.230 --> 00:07:13.240 
+go now from this rather abstract
+
+00:07:13.240 --> 00:07:15.780 
+go now from this rather abstract
+integrals<00:07:14.140> and<00:07:14.260> derivatives<00:07:14.350> to<00:07:15.280> something
+
+00:07:15.780 --> 00:07:15.790 
+integrals and derivatives to something
+
+00:07:15.790 --> 00:07:18.060 
+integrals and derivatives to something
+that<00:07:16.270> we<00:07:16.330> can<00:07:16.480> actually<00:07:16.600> implement<00:07:16.990> and<00:07:17.530> we're
+
+00:07:18.060 --> 00:07:18.070 
+that we can actually implement and we're
+
+00:07:18.070 --> 00:07:20.820 
+that we can actually implement and we're
+going<00:07:18.280> to<00:07:18.310> see<00:07:18.580> how<00:07:18.910> these<00:07:19.450> PID<00:07:19.870> gains<00:07:20.230> show<00:07:20.680> up
+
+00:07:20.820 --> 00:07:20.830 
+going to see how these PID gains show up
+
+00:07:20.830 --> 00:07:24.270 
+going to see how these PID gains show up
+when<00:07:21.070> we<00:07:21.160> control<00:07:21.550> a<00:07:21.790> the<00:07:22.890> altitude<00:07:23.890> of<00:07:24.130> a
+
+00:07:24.270 --> 00:07:24.280 
+when we control a the altitude of a
+
+00:07:24.280 --> 00:07:27.930 
+when we control a the altitude of a
+hovering<00:07:24.930> quadrotor
+

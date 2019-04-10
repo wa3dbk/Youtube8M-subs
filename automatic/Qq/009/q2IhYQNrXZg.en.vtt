@@ -1,0 +1,804 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.319 --> 00:00:03.379 
+
+hey<00:00:01.319> guys<00:00:01.530> this<00:00:01.860> is<00:00:01.920> metal<00:00:02.310> stash<00:00:02.639> here<00:00:03.030> again
+
+00:00:03.379 --> 00:00:03.389 
+hey guys this is metal stash here again
+
+00:00:03.389 --> 00:00:07.400 
+hey guys this is metal stash here again
+this<00:00:04.350> time<00:00:04.710> I'm<00:00:05.069> going<00:00:05.460> over<00:00:05.730> how<00:00:06.390> I<00:00:06.779> was<00:00:07.080> able
+
+00:00:07.400 --> 00:00:07.410 
+this time I'm going over how I was able
+
+00:00:07.410 --> 00:00:11.120 
+this time I'm going over how I was able
+to<00:00:07.440> achieve<00:00:08.269> movement<00:00:09.290> with<00:00:10.290> the<00:00:10.530> units<00:00:10.920> in
+
+00:00:11.120 --> 00:00:11.130 
+to achieve movement with the units in
+
+00:00:11.130 --> 00:00:16.400 
+to achieve movement with the units in
+the<00:00:11.429> map<00:00:11.639> itself<00:00:12.889> so<00:00:13.889> to<00:00:13.950> start<00:00:14.280> off<00:00:15.379> the<00:00:16.379> first
+
+00:00:16.400 --> 00:00:16.410 
+the map itself so to start off the first
+
+00:00:16.410 --> 00:00:20.029 
+the map itself so to start off the first
+thing<00:00:16.770> you<00:00:17.039> have<00:00:17.190> to<00:00:17.250> be<00:00:17.490> able<00:00:17.550> to<00:00:17.670> do<00:00:18.570> is<00:00:19.039> using
+
+00:00:20.029 --> 00:00:20.039 
+thing you have to be able to do is using
+
+00:00:20.039 --> 00:00:23.120 
+thing you have to be able to do is using
+the<00:00:20.160> a-star<00:00:20.689> pathfinding<00:00:21.689> project<00:00:22.260> you<00:00:22.949> have
+
+00:00:23.120 --> 00:00:23.130 
+the a-star pathfinding project you have
+
+00:00:23.130 --> 00:00:26.380 
+the a-star pathfinding project you have
+to<00:00:23.160> be<00:00:23.430> able<00:00:23.550> to<00:00:23.730> produce<00:00:24.630> the<00:00:25.199> navmesh
+
+00:00:26.380 --> 00:00:26.390 
+to be able to produce the navmesh
+
+00:00:26.390 --> 00:00:31.690 
+to be able to produce the navmesh
+that<00:00:27.390> the<00:00:27.570> project<00:00:28.140> creates<00:00:29.150> to<00:00:30.150> do<00:00:30.330> that
+
+00:00:31.690 --> 00:00:31.700 
+that the project creates to do that
+
+00:00:31.700 --> 00:00:35.959 
+that the project creates to do that
+sorry<00:00:32.700> I<00:00:32.759> got<00:00:32.910> a<00:00:32.940> throw<00:00:33.690> cold<00:00:33.930> right<00:00:34.200> now<00:00:34.969> you
+
+00:00:35.959 --> 00:00:35.969 
+sorry I got a throw cold right now you
+
+00:00:35.969 --> 00:00:39.190 
+sorry I got a throw cold right now you
+create<00:00:36.920> two<00:00:37.920> different<00:00:38.250> layers<00:00:38.430> called
+
+00:00:39.190 --> 00:00:39.200 
+create two different layers called
+
+00:00:39.200 --> 00:00:43.369 
+create two different layers called
+obstacles<00:00:40.200> and<00:00:40.440> ground<00:00:40.800> and<00:00:41.239> you<00:00:42.239> set<00:00:42.629> the
+
+00:00:43.369 --> 00:00:43.379 
+obstacles and ground and you set the
+
+00:00:43.379 --> 00:00:47.720 
+obstacles and ground and you set the
+equip<00:00:43.739> the<00:00:44.000> certain<00:00:45.000> objects<00:00:45.510> to<00:00:46.469> the<00:00:47.430> certain
+
+00:00:47.720 --> 00:00:47.730 
+equip the certain objects to the certain
+
+00:00:47.730 --> 00:00:50.959 
+equip the certain objects to the certain
+layers<00:00:47.969> the<00:00:48.780> elevated<00:00:49.680> platform<00:00:50.340> here<00:00:50.789> is
+
+00:00:50.959 --> 00:00:50.969 
+layers the elevated platform here is
+
+00:00:50.969 --> 00:00:54.260 
+layers the elevated platform here is
+actually<00:00:51.420> set<00:00:51.899> in<00:00:52.140> the<00:00:52.890> ground<00:00:53.250> layer<00:00:53.640> so<00:00:54.090> that
+
+00:00:54.260 --> 00:00:54.270 
+actually set in the ground layer so that
+
+00:00:54.270 --> 00:00:57.319 
+actually set in the ground layer so that
+it<00:00:54.600> allows<00:00:55.170> objects<00:00:55.860> to<00:00:55.949> walk<00:00:56.340> on<00:00:56.579> top<00:00:56.940> of<00:00:57.149> it
+
+00:00:57.319 --> 00:00:57.329 
+it allows objects to walk on top of it
+
+00:00:57.329 --> 00:00:59.630 
+it allows objects to walk on top of it
+this<00:00:58.260> block<00:00:58.530> over<00:00:58.739> here<00:00:59.100> is<00:00:59.219> setting<00:00:59.520> the
+
+00:00:59.630 --> 00:00:59.640 
+this block over here is setting the
+
+00:00:59.640 --> 00:01:03.470 
+this block over here is setting the
+obstacles<00:01:00.239> there<00:01:00.480> so<00:01:00.899> that<00:01:01.969> units<00:01:02.969> don't<00:01:03.210> try
+
+00:01:03.470 --> 00:01:03.480 
+obstacles there so that units don't try
+
+00:01:03.480 --> 00:01:06.760 
+obstacles there so that units don't try
+to<00:01:03.539> run<00:01:04.140> through<00:01:04.470> it<00:01:04.710> so<00:01:05.189> it<00:01:05.369> creates<00:01:05.700> this
+
+00:01:06.760 --> 00:01:06.770 
+to run through it so it creates this
+
+00:01:06.770 --> 00:01:10.010 
+to run through it so it creates this
+margin<00:01:07.770> around<00:01:07.950> it<00:01:08.400> you<00:01:09.240> can<00:01:09.390> actually<00:01:09.540> set
+
+00:01:10.010 --> 00:01:10.020 
+margin around it you can actually set
+
+00:01:10.020 --> 00:01:13.280 
+margin around it you can actually set
+that<00:01:10.260> margin<00:01:10.650> to<00:01:10.710> be<00:01:10.830> higher<00:01:11.100> by<00:01:12.090> setting<00:01:12.869> the
+
+00:01:13.280 --> 00:01:13.290 
+that margin to be higher by setting the
+
+00:01:13.290 --> 00:01:17.870 
+that margin to be higher by setting the
+collision<00:01:14.189> test<00:01:14.670> that<00:01:15.119> has<00:01:15.450> to<00:01:16.409> be<00:01:16.590> wider<00:01:16.950> so
+
+00:01:17.870 --> 00:01:17.880 
+collision test that has to be wider so
+
+00:01:17.880 --> 00:01:21.620 
+collision test that has to be wider so
+like<00:01:18.090> you<00:01:18.659> set<00:01:18.930> it<00:01:19.049> to<00:01:19.170> two<00:01:19.409> and<00:01:20.390> then<00:01:21.390> did<00:01:21.540> a
+
+00:01:21.620 --> 00:01:21.630 
+like you set it to two and then did a
+
+00:01:21.630 --> 00:01:23.960 
+like you set it to two and then did a
+rescan<00:01:22.110> it<00:01:22.650> would<00:01:22.799> make<00:01:22.920> that<00:01:23.130> margin<00:01:23.610> a<00:01:23.640> lot
+
+00:01:23.960 --> 00:01:23.970 
+rescan it would make that margin a lot
+
+00:01:23.970 --> 00:01:26.300 
+rescan it would make that margin a lot
+smaller<00:01:24.330> I<00:01:24.689> want<00:01:25.560> to<00:01:25.860> make<00:01:25.950> it<00:01:26.070> a<00:01:26.130> little
+
+00:01:26.300 --> 00:01:26.310 
+smaller I want to make it a little
+
+00:01:26.310 --> 00:01:28.940 
+smaller I want to make it a little
+larger<00:01:26.490> just<00:01:26.970> so<00:01:27.390> I<00:01:27.720> don't<00:01:28.170> run<00:01:28.350> into<00:01:28.530> any
+
+00:01:28.940 --> 00:01:28.950 
+larger just so I don't run into any
+
+00:01:28.950 --> 00:01:31.249 
+larger just so I don't run into any
+issues<00:01:29.280> with<00:01:29.790> that<00:01:30.030> now<00:01:30.780> I'm<00:01:30.900> probably<00:01:31.049> going
+
+00:01:31.249 --> 00:01:31.259 
+issues with that now I'm probably going
+
+00:01:31.259 --> 00:01:33.740 
+issues with that now I'm probably going
+to<00:01:31.320> test<00:01:31.619> that<00:01:31.829> later<00:01:32.159> of<00:01:32.280> what<00:01:32.850> size<00:01:33.360> is
+
+00:01:33.740 --> 00:01:33.750 
+to test that later of what size is
+
+00:01:33.750 --> 00:01:40.370 
+to test that later of what size is
+appropriate<00:01:34.470> for<00:01:34.650> my<00:01:35.280> game<00:01:36.020> um<00:01:38.900> to<00:01:39.900> get<00:01:40.079> the
+
+00:01:40.370 --> 00:01:40.380 
+appropriate for my game um to get the
+
+00:01:40.380 --> 00:01:44.800 
+appropriate for my game um to get the
+unit<00:01:40.890> to<00:01:41.040> interact<00:01:41.520> with<00:01:41.670> the<00:01:41.909> a-star<00:01:43.280> project
+
+00:01:44.800 --> 00:01:44.810 
+unit to interact with the a-star project
+
+00:01:44.810 --> 00:01:50.420 
+unit to interact with the a-star project
+you<00:01:45.810> have<00:01:45.990> to<00:01:46.200> go<00:01:46.409> into<00:01:46.909> the<00:01:47.909> script<00:01:49.430> actually
+
+00:01:50.420 --> 00:01:50.430 
+you have to go into the script actually
+
+00:01:50.430 --> 00:01:55.310 
+you have to go into the script actually
+first<00:01:51.799> the<00:01:52.799> unit<00:01:53.549> prefab<00:01:54.149> has<00:01:54.899> to<00:01:55.140> have<00:01:55.290> a
+
+00:01:55.310 --> 00:01:55.320 
+first the unit prefab has to have a
+
+00:01:55.320 --> 00:01:57.859 
+first the unit prefab has to have a
+seeker<00:01:55.860> script<00:01:56.490> attached<00:01:56.880> to<00:01:57.149> it<00:01:57.299> I've<00:01:57.570> gone
+
+00:01:57.859 --> 00:01:57.869 
+seeker script attached to it I've gone
+
+00:01:57.869 --> 00:01:58.760 
+seeker script attached to it I've gone
+over<00:01:58.170> this<00:01:58.290> before
+
+00:01:58.760 --> 00:01:58.770 
+over this before
+
+00:01:58.770 --> 00:02:01.850 
+over this before
+um<00:01:59.210> all<00:02:00.210> I<00:02:00.270> did<00:02:00.780> was<00:02:00.990> attach<00:02:01.320> the<00:02:01.530> seeker
+
+00:02:01.850 --> 00:02:01.860 
+um all I did was attach the seeker
+
+00:02:01.860 --> 00:02:04.510 
+um all I did was attach the seeker
+script<00:02:02.159> didn't<00:02:02.880> change<00:02:03.180> anything<00:02:03.479> to<00:02:03.960> it<00:02:04.140> I
+
+00:02:04.510 --> 00:02:04.520 
+script didn't change anything to it I
+
+00:02:04.520 --> 00:02:09.050 
+script didn't change anything to it I
+and<00:02:06.290> that's<00:02:07.290> about<00:02:07.409> it<00:02:07.560> to<00:02:07.979> get<00:02:08.280> it<00:02:08.429> to<00:02:08.700> UM
+
+00:02:09.050 --> 00:02:09.060 
+and that's about it to get it to UM
+
+00:02:09.060 --> 00:02:13.020 
+and that's about it to get it to UM
+connect<00:02:09.989> to<00:02:10.170> it<00:02:10.349> now<00:02:11.069> to<00:02:11.129> communicate<00:02:11.730> with<00:02:12.270> it
+
+00:02:13.020 --> 00:02:13.030 
+connect to it now to communicate with it
+
+00:02:13.030 --> 00:02:18.150 
+connect to it now to communicate with it
+you<00:02:13.450> have<00:02:13.660> to<00:02:14.850> here<00:02:15.850> I<00:02:16.090> just<00:02:16.120> set<00:02:16.600> the<00:02:17.160> seeker
+
+00:02:18.150 --> 00:02:18.160 
+you have to here I just set the seeker
+
+00:02:18.160 --> 00:02:24.770 
+you have to here I just set the seeker
+variable<00:02:18.959> that<00:02:21.630> was<00:02:22.630> in<00:02:23.020> the<00:02:23.350> a<00:02:23.620> star<00:02:24.069> eye
+
+00:02:24.770 --> 00:02:24.780 
+variable that was in the a star eye
+
+00:02:24.780 --> 00:02:28.170 
+variable that was in the a star eye
+tutorial<00:02:25.780> that<00:02:26.230> they<00:02:26.410> had<00:02:26.620> so<00:02:27.459> I<00:02:27.520> used<00:02:27.819> a<00:02:27.970> lot
+
+00:02:28.170 --> 00:02:28.180 
+tutorial that they had so I used a lot
+
+00:02:28.180 --> 00:02:30.330 
+tutorial that they had so I used a lot
+of<00:02:28.240> the<00:02:28.450> code<00:02:28.690> that<00:02:28.959> they<00:02:29.140> had<00:02:29.380> and<00:02:29.739> just<00:02:29.770> kind
+
+00:02:30.330 --> 00:02:30.340 
+of the code that they had and just kind
+
+00:02:30.340 --> 00:02:36.540 
+of the code that they had and just kind
+of<00:02:30.370> modified<00:02:30.940> it<00:02:31.090> for<00:02:31.270> my<00:02:31.390> use<00:02:34.709> now<00:02:35.709> to<00:02:35.739> command
+
+00:02:36.540 --> 00:02:36.550 
+of modified it for my use now to command
+
+00:02:36.550 --> 00:02:40.290 
+of modified it for my use now to command
+the<00:02:36.730> unit<00:02:36.760> I<00:02:38.670> have<00:02:39.670> my<00:02:39.850> playercontroller
+
+00:02:40.290 --> 00:02:40.300 
+the unit I have my playercontroller
+
+00:02:40.300 --> 00:02:45.890 
+the unit I have my playercontroller
+script<00:02:40.980> which<00:02:41.980> is<00:02:43.110> attached<00:02:44.110> to<00:02:44.350> my<00:02:45.280> player
+
+00:02:45.890 --> 00:02:45.900 
+script which is attached to my player
+
+00:02:45.900 --> 00:02:51.300 
+script which is attached to my player
+here<00:02:46.980> so<00:02:47.980> that<00:02:49.170> if<00:02:50.170> a<00:02:50.410> unit<00:02:50.709> selected<00:02:51.160> we've
+
+00:02:51.300 --> 00:02:51.310 
+here so that if a unit selected we've
+
+00:02:51.310 --> 00:02:53.250 
+here so that if a unit selected we've
+already<00:02:51.519> assumed<00:02:52.180> that<00:02:52.269> the<00:02:52.780> unit<00:02:53.110> is
+
+00:02:53.250 --> 00:02:53.260 
+already assumed that the unit is
+
+00:02:53.260 --> 00:02:58.199 
+already assumed that the unit is
+selected<00:02:54.010> and<00:02:55.560> then<00:02:56.560> it<00:02:56.739> checks<00:02:57.070> if<00:02:57.400> the<00:02:57.459> mouse
+
+00:02:58.199 --> 00:02:58.209 
+selected and then it checks if the mouse
+
+00:02:58.209 --> 00:03:00.330 
+selected and then it checks if the mouse
+button<00:02:58.900> that<00:02:59.500> is<00:02:59.680> the<00:02:59.860> right<00:03:00.069> mouse<00:03:00.310> button
+
+00:03:00.330 --> 00:03:00.340 
+button that is the right mouse button
+
+00:03:00.340 --> 00:03:03.930 
+button that is the right mouse button
+which<00:03:01.000> is<00:03:01.030> under<00:03:01.569> the<00:03:01.690> under<00:03:02.170> one<00:03:02.470> a<00:03:02.940> cast
+
+00:03:03.930 --> 00:03:03.940 
+which is under the under one a cast
+
+00:03:03.940 --> 00:03:07.729 
+which is under the under one a cast
+array<00:03:04.330> does<00:03:04.870> a<00:03:05.080> physics<00:03:05.590> ray<00:03:05.890> cast<00:03:06.250> and<00:03:06.730> then
+
+00:03:07.729 --> 00:03:07.739 
+array does a physics ray cast and then
+
+00:03:07.739 --> 00:03:12.059 
+array does a physics ray cast and then
+sends<00:03:08.739> a<00:03:08.920> message<00:03:09.730> command<00:03:10.560> to<00:03:11.560> every
+
+00:03:12.059 --> 00:03:12.069 
+sends a message command to every
+
+00:03:12.069 --> 00:03:15.720 
+sends a message command to every
+selected<00:03:12.819> unit<00:03:13.269> it<00:03:13.900> gives<00:03:14.260> the<00:03:14.500> hit<00:03:15.130> location
+
+00:03:15.720 --> 00:03:15.730 
+selected unit it gives the hit location
+
+00:03:15.730 --> 00:03:18.720 
+selected unit it gives the hit location
+that<00:03:15.880> occurred<00:03:16.360> at<00:03:16.569> and<00:03:16.920> then<00:03:17.920> the<00:03:18.040> unit<00:03:18.430> does
+
+00:03:18.720 --> 00:03:18.730 
+that occurred at and then the unit does
+
+00:03:18.730 --> 00:03:23.280 
+that occurred at and then the unit does
+I<00:03:19.739> testing<00:03:20.739> for<00:03:21.100> what<00:03:21.820> type<00:03:22.120> of<00:03:22.150> unit<00:03:22.750> that<00:03:22.959> is
+
+00:03:23.280 --> 00:03:23.290 
+I testing for what type of unit that is
+
+00:03:23.290 --> 00:03:26.699 
+I testing for what type of unit that is
+or<00:03:23.950> what<00:03:24.250> it<00:03:24.730> hit<00:03:25.000> like<00:03:25.030> if<00:03:25.480> it<00:03:25.630> ground<00:03:26.140> if<00:03:26.530> it
+
+00:03:26.699 --> 00:03:26.709 
+or what it hit like if it ground if it
+
+00:03:26.709 --> 00:03:30.210 
+or what it hit like if it ground if it
+hit<00:03:27.420> another<00:03:28.420> unit<00:03:29.140> it<00:03:29.320> needs<00:03:29.500> to<00:03:29.620> test<00:03:29.920> if
+
+00:03:30.210 --> 00:03:30.220 
+hit another unit it needs to test if
+
+00:03:30.220 --> 00:03:32.520 
+hit another unit it needs to test if
+it's<00:03:30.370> on<00:03:30.519> the<00:03:30.640> same<00:03:30.850> team<00:03:31.209> if<00:03:31.690> it's<00:03:32.260> on<00:03:32.410> the
+
+00:03:32.520 --> 00:03:32.530 
+it's on the same team if it's on the
+
+00:03:32.530 --> 00:03:35.850 
+it's on the same team if it's on the
+enemy<00:03:32.829> team<00:03:33.360> but<00:03:34.360> for<00:03:34.390> right<00:03:34.660> now<00:03:34.720> if<00:03:35.500> it<00:03:35.709> hits
+
+00:03:35.850 --> 00:03:35.860 
+enemy team but for right now if it hits
+
+00:03:35.860 --> 00:03:39.330 
+enemy team but for right now if it hits
+ground<00:03:36.220> I<00:03:36.640> just<00:03:36.940> move<00:03:37.540> it<00:03:37.750> to<00:03:38.079> that<00:03:38.350> point<00:03:38.650> and
+
+00:03:39.330 --> 00:03:39.340 
+ground I just move it to that point and
+
+00:03:39.340 --> 00:03:41.160 
+ground I just move it to that point and
+to<00:03:39.459> do<00:03:39.579> that<00:03:39.850> I<00:03:40.150> have<00:03:40.600> another<00:03:40.870> function
+
+00:03:41.160 --> 00:03:41.170 
+to do that I have another function
+
+00:03:41.170 --> 00:03:43.800 
+to do that I have another function
+called<00:03:41.560> move<00:03:41.769> that<00:03:42.100> takes<00:03:42.340> a<00:03:42.579> point<00:03:43.239> vector
+
+00:03:43.800 --> 00:03:43.810 
+called move that takes a point vector
+
+00:03:43.810 --> 00:03:46.440 
+called move that takes a point vector
+and<00:03:44.109> then<00:03:44.709> this<00:03:45.160> is<00:03:45.370> where<00:03:45.579> seeker<00:03:46.000> comes<00:03:46.239> into
+
+00:03:46.440 --> 00:03:46.450 
+and then this is where seeker comes into
+
+00:03:46.450 --> 00:03:50.099 
+and then this is where seeker comes into
+play<00:03:46.630> where<00:03:47.280> you<00:03:48.280> call<00:03:48.549> the<00:03:48.730> function<00:03:49.540> start
+
+00:03:50.099 --> 00:03:50.109 
+play where you call the function start
+
+00:03:50.109 --> 00:03:54.690 
+play where you call the function start
+path<00:03:50.350> and<00:03:51.070> you<00:03:51.160> give<00:03:51.340> it<00:03:51.370> the<00:03:51.910> on<00:03:53.700> current
+
+00:03:54.690 --> 00:03:54.700 
+path and you give it the on current
+
+00:03:54.700 --> 00:03:58.170 
+path and you give it the on current
+position<00:03:55.239> and<00:03:55.590> the<00:03:56.590> position<00:03:57.340> that<00:03:57.700> you<00:03:57.910> want
+
+00:03:58.170 --> 00:03:58.180 
+position and the position that you want
+
+00:03:58.180 --> 00:04:00.690 
+position and the position that you want
+to<00:03:58.329> move<00:03:58.510> to<00:03:58.840> and<00:03:59.140> then<00:03:59.739> a<00:03:59.769> callback<00:04:00.280> function
+
+00:04:00.690 --> 00:04:00.700 
+to move to and then a callback function
+
+00:04:00.700 --> 00:04:08.069 
+to move to and then a callback function
+to<00:04:03.720> for<00:04:04.720> when<00:04:04.989> the<00:04:05.200> eye<00:04:05.530> path<00:04:06.430> is<00:04:06.760> ended<00:04:07.750> and
+
+00:04:08.069 --> 00:04:08.079 
+to for when the eye path is ended and
+
+00:04:08.079 --> 00:04:09.840 
+to for when the eye path is ended and
+you've<00:04:08.440> reached<00:04:08.650> the<00:04:08.890> end<00:04:09.070> and<00:04:09.430> the<00:04:09.489> unit<00:04:09.760> is
+
+00:04:09.840 --> 00:04:09.850 
+you've reached the end and the unit is
+
+00:04:09.850 --> 00:04:14.190 
+you've reached the end and the unit is
+stopped<00:04:10.239> you<00:04:12.180> don't<00:04:13.180> actually<00:04:13.390> have<00:04:13.600> to<00:04:14.019> have
+
+00:04:14.190 --> 00:04:14.200 
+stopped you don't actually have to have
+
+00:04:14.200 --> 00:04:17.759 
+stopped you don't actually have to have
+that<00:04:14.470> but<00:04:14.859> it<00:04:15.190> kind<00:04:15.459> of<00:04:15.519> lets<00:04:15.760> you<00:04:15.940> know<00:04:16.120> if<00:04:16.930> I
+
+00:04:17.759 --> 00:04:17.769 
+that but it kind of lets you know if I
+
+00:04:17.769 --> 00:04:21.180 
+that but it kind of lets you know if I
+when<00:04:18.370> the<00:04:18.489> unit<00:04:18.850> gets<00:04:19.359> done<00:04:19.600> with<00:04:19.780> its<00:04:20.190> path
+
+00:04:21.180 --> 00:04:21.190 
+when the unit gets done with its path
+
+00:04:21.190 --> 00:04:23.149 
+when the unit gets done with its path
+traveling<00:04:21.849> you<00:04:22.030> can<00:04:22.180> do<00:04:22.330> stuff<00:04:22.390> at<00:04:22.720> the<00:04:22.840> end
+
+00:04:23.149 --> 00:04:23.159 
+traveling you can do stuff at the end
+
+00:04:23.159 --> 00:04:25.649 
+traveling you can do stuff at the end
+not<00:04:24.159> to<00:04:24.220> get<00:04:24.520> it<00:04:24.610> to<00:04:24.729> actually<00:04:25.090> move<00:04:25.300> because
+
+00:04:25.649 --> 00:04:25.659 
+not to get it to actually move because
+
+00:04:25.659 --> 00:04:27.090 
+not to get it to actually move because
+right<00:04:25.870> now<00:04:26.020> the<00:04:26.080> unit
+
+00:04:27.090 --> 00:04:27.100 
+right now the unit
+
+00:04:27.100 --> 00:04:29.190 
+right now the unit
+doesn't<00:04:27.520> actually<00:04:27.730> move<00:04:28.240> it<00:04:28.750> doesn't<00:04:28.900> have
+
+00:04:29.190 --> 00:04:29.200 
+doesn't actually move it doesn't have
+
+00:04:29.200 --> 00:04:33.630 
+doesn't actually move it doesn't have
+anything<00:04:29.500> to<00:04:29.800> tell<00:04:29.950> it<00:04:30.130> to<00:04:30.160> move<00:04:30.520> from<00:04:32.400> point<00:04:33.400> A
+
+00:04:33.630 --> 00:04:33.640 
+anything to tell it to move from point A
+
+00:04:33.640 --> 00:04:36.270 
+anything to tell it to move from point A
+to<00:04:33.670> point<00:04:33.820> B<00:04:34.150> you've<00:04:34.480> just<00:04:34.780> now<00:04:35.260> calculated<00:04:35.860> a
+
+00:04:36.270 --> 00:04:36.280 
+to point B you've just now calculated a
+
+00:04:36.280 --> 00:04:43.040 
+to point B you've just now calculated a
+path<00:04:36.700> between<00:04:37.540> the<00:04:37.900> two<00:04:38.190> so<00:04:39.190> to<00:04:40.060> do<00:04:40.270> this<00:04:40.540> I
+
+00:04:43.040 --> 00:04:43.050 
+
+00:04:43.050 --> 00:04:49.380 
+
+have<00:04:45.720> made<00:04:46.720> it<00:04:46.900> so<00:04:47.140> it<00:04:47.410> rotates<00:04:47.950> towards<00:04:48.880> the
+
+00:04:49.380 --> 00:04:49.390 
+have made it so it rotates towards the
+
+00:04:49.390 --> 00:04:54.900 
+have made it so it rotates towards the
+current<00:04:50.230> Waypoint<00:04:50.770> and<00:04:53.190> also<00:04:54.190> it<00:04:54.400> gets<00:04:54.700> the
+
+00:04:54.900 --> 00:04:54.910 
+current Waypoint and also it gets the
+
+00:04:54.910 --> 00:04:57.840 
+current Waypoint and also it gets the
+direction<00:04:55.540> to<00:04:55.690> that<00:04:55.720> Waypoint<00:04:56.350> and<00:04:56.590> then<00:04:57.460> the
+
+00:04:57.840 --> 00:04:57.850 
+direction to that Waypoint and then the
+
+00:04:57.850 --> 00:05:00.660 
+direction to that Waypoint and then the
+reason<00:04:58.090> I<00:04:58.480> attached<00:04:58.870> a<00:04:59.320> character<00:05:00.160> controller
+
+00:05:00.660 --> 00:05:00.670 
+reason I attached a character controller
+
+00:05:00.670 --> 00:05:06.150 
+reason I attached a character controller
+to<00:05:01.500> the<00:05:02.500> unit<00:05:03.120> instead<00:05:04.120> of<00:05:04.180> using<00:05:04.890> like<00:05:05.890> say
+
+00:05:06.150 --> 00:05:06.160 
+to the unit instead of using like say
+
+00:05:06.160 --> 00:05:09.060 
+to the unit instead of using like say
+are<00:05:06.310> just<00:05:06.670> the<00:05:07.360> normal<00:05:07.600> collider<00:05:08.200> by<00:05:09.010> the
+
+00:05:09.060 --> 00:05:09.070 
+are just the normal collider by the
+
+00:05:09.070 --> 00:05:11.760 
+are just the normal collider by the
+character<00:05:09.670> controller<00:05:10.120> on<00:05:10.420> that<00:05:10.720> you<00:05:11.260> can<00:05:11.410> use
+
+00:05:11.760 --> 00:05:11.770 
+character controller on that you can use
+
+00:05:11.770 --> 00:05:14.280 
+character controller on that you can use
+the<00:05:12.070> simple<00:05:12.400> function
+
+00:05:14.280 --> 00:05:14.290 
+the simple function
+
+00:05:14.290 --> 00:05:19.290 
+the simple function
+simple<00:05:15.100> function<00:05:15.610> I<00:05:15.940> dot<00:05:16.630> move<00:05:17.280> this<00:05:18.280> is<00:05:18.580> very
+
+00:05:19.290 --> 00:05:19.300 
+simple function I dot move this is very
+
+00:05:19.300 --> 00:05:23.580 
+simple function I dot move this is very
+easy<00:05:19.540> to<00:05:19.630> use<00:05:19.900> to<00:05:20.290> move<00:05:21.280> units<00:05:21.790> around<00:05:22.200> so<00:05:23.200> then
+
+00:05:23.580 --> 00:05:23.590 
+easy to use to move units around so then
+
+00:05:23.590 --> 00:05:26.760 
+easy to use to move units around so then
+it<00:05:24.460> moves<00:05:24.850> towards<00:05:25.330> the<00:05:25.450> Waypoint<00:05:25.840> and<00:05:26.110> if
+
+00:05:26.760 --> 00:05:26.770 
+it moves towards the Waypoint and if
+
+00:05:26.770 --> 00:05:31.980 
+it moves towards the Waypoint and if
+it's<00:05:27.100> distance<00:05:27.700> between<00:05:29.850> the<00:05:30.850> two<00:05:31.090> vectors<00:05:31.630> is
+
+00:05:31.980 --> 00:05:31.990 
+it's distance between the two vectors is
+
+00:05:31.990 --> 00:05:39.030 
+it's distance between the two vectors is
+ever<00:05:34.260> less<00:05:35.260> than<00:05:36.870> the<00:05:37.870> next<00:05:38.590> Waypoint
+
+00:05:39.030 --> 00:05:39.040 
+ever less than the next Waypoint
+
+00:05:39.040 --> 00:05:43.200 
+ever less than the next Waypoint
+distance<00:05:39.750> then<00:05:41.010> it<00:05:42.010> adds<00:05:42.280> one<00:05:42.610> to<00:05:42.850> the<00:05:42.940> current
+
+00:05:43.200 --> 00:05:43.210 
+distance then it adds one to the current
+
+00:05:43.210 --> 00:05:46.110 
+distance then it adds one to the current
+Waypoint<00:05:43.600> and<00:05:43.750> returns<00:05:44.470> so<00:05:44.860> that<00:05:45.040> you<00:05:45.970> have
+
+00:05:46.110 --> 00:05:46.120 
+Waypoint and returns so that you have
+
+00:05:46.120 --> 00:05:48.570 
+Waypoint and returns so that you have
+now<00:05:46.330> reached<00:05:46.900> that<00:05:47.860> Waypoint<00:05:48.310> and<00:05:48.430> you're
+
+00:05:48.570 --> 00:05:48.580 
+now reached that Waypoint and you're
+
+00:05:48.580 --> 00:05:51.600 
+now reached that Waypoint and you're
+going<00:05:48.850> on<00:05:49.000> to<00:05:49.120> the<00:05:49.150> next<00:05:49.420> one<00:05:49.660> so<00:05:50.280> see<00:05:51.280> this<00:05:51.400> in
+
+00:05:51.600 --> 00:05:51.610 
+going on to the next one so see this in
+
+00:05:51.610 --> 00:05:54.030 
+going on to the next one so see this in
+action<00:05:51.820> I'm<00:05:52.810> going<00:05:52.870> to<00:05:53.050> play<00:05:53.290> this<00:05:53.500> here<00:05:53.770> for
+
+00:05:54.030 --> 00:05:54.040 
+action I'm going to play this here for
+
+00:05:54.040 --> 00:06:01.060 
+action I'm going to play this here for
+you<00:05:54.100> guys
+
+00:06:01.060 --> 00:06:01.070 
+
+00:06:01.070 --> 00:06:05.660 
+
+now<00:06:02.070> I<00:06:02.100> don't<00:06:02.250> have<00:06:02.550> actual<00:06:03.950> i-unit<00:06:04.950> collision
+
+00:06:05.660 --> 00:06:05.670 
+now I don't have actual i-unit collision
+
+00:06:05.670 --> 00:06:14.320 
+now I don't have actual i-unit collision
+yet<00:06:06.180> so<00:06:07.190> you<00:06:08.190> see<00:06:08.430> how<00:06:12.020> the<00:06:13.020> unit<00:06:13.530> moves<00:06:13.770> around
+
+00:06:14.320 --> 00:06:14.330 
+yet so you see how the unit moves around
+
+00:06:14.330 --> 00:06:22.310 
+yet so you see how the unit moves around
+and<00:06:19.340> you<00:06:20.340> can<00:06:20.490> see<00:06:20.700> it'll<00:06:21.150> well<00:06:21.660> it<00:06:21.960> collides
+
+00:06:22.310 --> 00:06:22.320 
+and you can see it'll well it collides
+
+00:06:22.320 --> 00:06:25.010 
+and you can see it'll well it collides
+with<00:06:22.470> the<00:06:22.580> object<00:06:23.580> there<00:06:23.790> but<00:06:24.090> that's<00:06:24.840> because
+
+00:06:25.010 --> 00:06:25.020 
+with the object there but that's because
+
+00:06:25.020 --> 00:06:28.150 
+with the object there but that's because
+I<00:06:25.260> haven't<00:06:25.440> had<00:06:25.680> unit<00:06:26.160> collision<00:06:26.700> testing<00:06:27.450> yet
+
+00:06:28.150 --> 00:06:28.160 
+I haven't had unit collision testing yet
+
+00:06:28.160 --> 00:06:31.220 
+I haven't had unit collision testing yet
+but<00:06:29.160> it<00:06:29.310> moves<00:06:29.520> around<00:06:29.670> the<00:06:30.420> obstacle<00:06:30.870> just<00:06:31.020> as
+
+00:06:31.220 --> 00:06:31.230 
+but it moves around the obstacle just as
+
+00:06:31.230 --> 00:06:33.080 
+but it moves around the obstacle just as
+it<00:06:31.350> should<00:06:31.380> around<00:06:32.010> that<00:06:32.190> navmesh<00:06:32.760> that<00:06:33.060> I
+
+00:06:33.080 --> 00:06:33.090 
+it should around that navmesh that I
+
+00:06:33.090 --> 00:06:37.490 
+it should around that navmesh that I
+created<00:06:33.570> um<00:06:34.550> it'll<00:06:35.550> go<00:06:35.880> up<00:06:36.120> there<00:06:36.390> but<00:06:37.020> there's
+
+00:06:37.490 --> 00:06:37.500 
+created um it'll go up there but there's
+
+00:06:37.500 --> 00:06:39.440 
+created um it'll go up there but there's
+a<00:06:37.620> reason<00:06:38.100> that<00:06:38.370> it<00:06:38.700> doesn't<00:06:39.120> go<00:06:39.210> there
+
+00:06:39.440 --> 00:06:39.450 
+a reason that it doesn't go there
+
+00:06:39.450 --> 00:06:41.720 
+a reason that it doesn't go there
+because<00:06:39.870> the<00:06:40.230> slope<00:06:40.650> height<00:06:40.920> is<00:06:41.190> a<00:06:41.250> little
+
+00:06:41.720 --> 00:06:41.730 
+because the slope height is a little
+
+00:06:41.730 --> 00:06:44.840 
+because the slope height is a little
+higher<00:06:41.910> than<00:06:42.240> the<00:06:43.100> allowed<00:06:44.100> character
+
+00:06:44.840 --> 00:06:44.850 
+higher than the allowed character
+
+00:06:44.850 --> 00:06:48.680 
+higher than the allowed character
+controller<00:06:45.710> lets<00:06:46.710> it<00:06:46.860> go<00:06:47.010> up<00:06:47.330> so<00:06:48.330> I'll<00:06:48.450> have<00:06:48.570> to
+
+00:06:48.680 --> 00:06:48.690 
+controller lets it go up so I'll have to
+
+00:06:48.690 --> 00:06:51.590 
+controller lets it go up so I'll have to
+fix<00:06:48.900> that<00:06:48.960> later<00:06:49.430> but<00:06:50.430> that's<00:06:51.150> about<00:06:51.360> it<00:06:51.420> guys
+
+00:06:51.590 --> 00:06:51.600 
+fix that later but that's about it guys
+
+00:06:51.600 --> 00:06:54.830 
+fix that later but that's about it guys
+for<00:06:51.810> the<00:06:52.170> basic<00:06:52.530> movement<00:06:53.040> of<00:06:53.270> my<00:06:54.270> units<00:06:54.660> in<00:06:54.810> my
+
+00:06:54.830 --> 00:06:54.840 
+for the basic movement of my units in my
+
+00:06:54.840 --> 00:06:57.830 
+for the basic movement of my units in my
+game<00:06:55.220> I'm<00:06:56.220> going<00:06:56.460> to<00:06:56.550> try<00:06:56.730> to<00:06:56.790> go<00:06:56.940> over<00:06:57.210> next<00:06:57.450> is
+
+00:06:57.830 --> 00:06:57.840 
+game I'm going to try to go over next is
+
+00:06:57.840 --> 00:07:01.190 
+game I'm going to try to go over next is
+how<00:06:58.440> I<00:06:58.470> went<00:06:59.430> about<00:06:59.540> selecting<00:07:00.540> multiple
+
+00:07:01.190 --> 00:07:01.200 
+how I went about selecting multiple
+
+00:07:01.200 --> 00:07:05.240 
+how I went about selecting multiple
+units<00:07:01.880> so<00:07:02.880> thanks<00:07:03.660> for<00:07:04.260> watching<00:07:04.320> guys<00:07:04.860> and
+
+00:07:05.240 --> 00:07:05.250 
+units so thanks for watching guys and
+
+00:07:05.250 --> 00:07:08.540 
+units so thanks for watching guys and
+I'll<00:07:05.850> see<00:07:05.880> you<00:07:06.150> next<00:07:06.180> time
+

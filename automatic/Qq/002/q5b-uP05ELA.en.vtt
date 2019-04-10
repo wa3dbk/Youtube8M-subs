@@ -1,0 +1,806 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.750 
+
+hello<00:00:00.750> this<00:00:00.960> is<00:00:01.020> builder<00:00:01.500> 2:35<00:00:02.190> and<00:00:02.520> in
+
+00:00:02.750 --> 00:00:02.760 
+hello this is builder 2:35 and in
+
+00:00:02.760 --> 00:00:04.370 
+hello this is builder 2:35 and in
+today's<00:00:03.060> tutorial<00:00:03.330> I'll<00:00:03.810> be<00:00:03.929> teaching<00:00:04.140> you
+
+00:00:04.370 --> 00:00:04.380 
+today's tutorial I'll be teaching you
+
+00:00:04.380 --> 00:00:11.959 
+today's tutorial I'll be teaching you
+about<00:00:04.500> linear<00:00:05.130> actuators<00:00:10.429> so<00:00:11.429> first<00:00:11.700> things
+
+00:00:11.959 --> 00:00:11.969 
+about linear actuators so first things
+
+00:00:11.969 --> 00:00:14.749 
+about linear actuators so first things
+first<00:00:12.059> what<00:00:12.570> is<00:00:12.719> a<00:00:12.750> linear<00:00:13.230> actuator<00:00:13.440> a<00:00:14.099> linear
+
+00:00:14.749 --> 00:00:14.759 
+first what is a linear actuator a linear
+
+00:00:14.759 --> 00:00:17.240 
+first what is a linear actuator a linear
+actuator<00:00:14.940> is<00:00:15.570> any<00:00:15.870> mechanism<00:00:16.650> that<00:00:17.010> can
+
+00:00:17.240 --> 00:00:17.250 
+actuator is any mechanism that can
+
+00:00:17.250 --> 00:00:20.450 
+actuator is any mechanism that can
+convert<00:00:17.699> rotary<00:00:18.180> or<00:00:18.600> spinning<00:00:19.289> motion<00:00:19.830> into
+
+00:00:20.450 --> 00:00:20.460 
+convert rotary or spinning motion into
+
+00:00:20.460 --> 00:00:23.210 
+convert rotary or spinning motion into
+linear<00:00:20.640> or<00:00:21.060> pushing<00:00:21.840> forward<00:00:22.590> and<00:00:22.800> backward
+
+00:00:23.210 --> 00:00:23.220 
+linear or pushing forward and backward
+
+00:00:23.220 --> 00:00:26.450 
+linear or pushing forward and backward
+motion<00:00:23.490> and<00:00:24.199> linear<00:00:25.199> actuators<00:00:25.859> are<00:00:26.039> useful
+
+00:00:26.450 --> 00:00:26.460 
+motion and linear actuators are useful
+
+00:00:26.460 --> 00:00:28.640 
+motion and linear actuators are useful
+for<00:00:26.670> a<00:00:26.699> lot<00:00:26.760> of<00:00:26.970> things<00:00:27.300> like<00:00:28.140> you<00:00:28.320> can<00:00:28.500> use
+
+00:00:28.640 --> 00:00:28.650 
+for a lot of things like you can use
+
+00:00:28.650 --> 00:00:31.400 
+for a lot of things like you can use
+them<00:00:28.859> in<00:00:28.980> FLL<00:00:29.550> for<00:00:29.880> various<00:00:30.210> missions<00:00:30.660> but<00:00:31.260> the
+
+00:00:31.400 --> 00:00:31.410 
+them in FLL for various missions but the
+
+00:00:31.410 --> 00:00:32.780 
+them in FLL for various missions but the
+reason<00:00:31.740> why<00:00:31.859> I'm<00:00:32.009> making<00:00:32.040> this<00:00:32.430> video<00:00:32.700> today
+
+00:00:32.780 --> 00:00:32.790 
+reason why I'm making this video today
+
+00:00:32.790 --> 00:00:35.720 
+reason why I'm making this video today
+is<00:00:33.239> because<00:00:33.329> I<00:00:34.170> got<00:00:34.320> a<00:00:34.380> suggestion<00:00:34.950> for<00:00:35.670> a
+
+00:00:35.720 --> 00:00:35.730 
+is because I got a suggestion for a
+
+00:00:35.730 --> 00:00:37.880 
+is because I got a suggestion for a
+tutorial<00:00:36.270> on<00:00:36.540> how<00:00:36.600> to<00:00:36.780> build<00:00:37.020> a<00:00:37.170> forklift<00:00:37.620> and
+
+00:00:37.880 --> 00:00:37.890 
+tutorial on how to build a forklift and
+
+00:00:37.890 --> 00:00:40.580 
+tutorial on how to build a forklift and
+a<00:00:38.520> linear<00:00:38.790> actuator<00:00:39.090> is<00:00:39.690> the<00:00:40.140> core<00:00:40.379> mechanism
+
+00:00:40.580 --> 00:00:40.590 
+a linear actuator is the core mechanism
+
+00:00:40.590 --> 00:00:43.459 
+a linear actuator is the core mechanism
+in<00:00:41.160> a<00:00:41.250> forklift<00:00:41.700> it's<00:00:42.000> what<00:00:42.420> makes<00:00:42.690> your<00:00:42.960> Forks
+
+00:00:43.459 --> 00:00:43.469 
+in a forklift it's what makes your Forks
+
+00:00:43.469 --> 00:00:46.850 
+in a forklift it's what makes your Forks
+go<00:00:44.070> up<00:00:44.340> and<00:00:44.579> down<00:00:44.730> to<00:00:45.180> lift<00:00:45.360> things<00:00:45.680> there<00:00:46.680> are
+
+00:00:46.850 --> 00:00:46.860 
+go up and down to lift things there are
+
+00:00:46.860 --> 00:00:48.529 
+go up and down to lift things there are
+hundreds<00:00:47.370> of<00:00:47.489> different<00:00:47.910> ways<00:00:48.059> to<00:00:48.390> build
+
+00:00:48.529 --> 00:00:48.539 
+hundreds of different ways to build
+
+00:00:48.539 --> 00:00:51.139 
+hundreds of different ways to build
+linear<00:00:48.989> actuators<00:00:49.649> and<00:00:49.829> today<00:00:50.460> I'm<00:00:50.700> going<00:00:51.030> to
+
+00:00:51.139 --> 00:00:51.149 
+linear actuators and today I'm going to
+
+00:00:51.149 --> 00:00:52.700 
+linear actuators and today I'm going to
+be<00:00:51.239> showing<00:00:51.510> you<00:00:51.780> four<00:00:52.199> of<00:00:52.230> them
+
+00:00:52.700 --> 00:00:52.710 
+be showing you four of them
+
+00:00:52.710 --> 00:00:55.549 
+be showing you four of them
+the<00:00:53.010> first<00:00:53.309> is<00:00:53.579> rack<00:00:53.910> and<00:00:54.149> pinion<00:00:54.539> the<00:00:55.050> second
+
+00:00:55.549 --> 00:00:55.559 
+the first is rack and pinion the second
+
+00:00:55.559 --> 00:00:58.459 
+the first is rack and pinion the second
+is<00:00:55.680> a<00:00:56.039> Lego<00:00:56.340> linear<00:00:56.699> actuator<00:00:57.239> the<00:00:57.870> third<00:00:58.170> is
+
+00:00:58.459 --> 00:00:58.469 
+is a Lego linear actuator the third is
+
+00:00:58.469 --> 00:01:00.889 
+is a Lego linear actuator the third is
+pneumatic<00:00:59.100> and<00:00:59.280> if<00:00:59.969> you<00:01:00.180> don't<00:01:00.359> have<00:01:00.570> any<00:01:00.750> of
+
+00:01:00.889 --> 00:01:00.899 
+pneumatic and if you don't have any of
+
+00:01:00.899 --> 00:01:02.990 
+pneumatic and if you don't have any of
+those<00:01:01.020> specialty<00:01:01.620> pieces<00:01:01.920> in<00:01:02.280> the<00:01:02.730> fourth
+
+00:01:02.990 --> 00:01:03.000 
+those specialty pieces in the fourth
+
+00:01:03.000 --> 00:01:05.090 
+those specialty pieces in the fourth
+section<00:01:03.359> I'm<00:01:03.750> going<00:01:04.199> to<00:01:04.320> be<00:01:04.409> teaching<00:01:04.619> you<00:01:04.890> how
+
+00:01:05.090 --> 00:01:05.100 
+section I'm going to be teaching you how
+
+00:01:05.100 --> 00:01:07.219 
+section I'm going to be teaching you how
+to<00:01:05.129> build<00:01:05.430> a<00:01:05.519> linear<00:01:05.820> actuator<00:01:06.360> with<00:01:06.900> just
+
+00:01:07.219 --> 00:01:07.229 
+to build a linear actuator with just
+
+00:01:07.229 --> 00:01:09.500 
+to build a linear actuator with just
+common<00:01:07.740> Technic<00:01:08.250> parts<00:01:08.610> the<00:01:08.850> first<00:01:09.090> type<00:01:09.330> of
+
+00:01:09.500 --> 00:01:09.510 
+common Technic parts the first type of
+
+00:01:09.510 --> 00:01:12.170 
+common Technic parts the first type of
+linear<00:01:09.780> actuator<00:01:10.140> is<00:01:10.770> rack-and-pinion<00:01:11.180> this
+
+00:01:12.170 --> 00:01:12.180 
+linear actuator is rack-and-pinion this
+
+00:01:12.180 --> 00:01:14.420 
+linear actuator is rack-and-pinion this
+is<00:01:12.390> definitely<00:01:12.990> the<00:01:13.200> easiest<00:01:13.229> way<00:01:13.950> to<00:01:13.979> do<00:01:14.280> it
+
+00:01:14.420 --> 00:01:14.430 
+is definitely the easiest way to do it
+
+00:01:14.430 --> 00:01:16.550 
+is definitely the easiest way to do it
+and<00:01:14.610> this<00:01:14.970> is<00:01:15.180> the<00:01:15.299> way<00:01:15.390> I<00:01:15.420> recommend<00:01:15.869> it<00:01:16.409> if
+
+00:01:16.550 --> 00:01:16.560 
+and this is the way I recommend it if
+
+00:01:16.560 --> 00:01:20.060 
+and this is the way I recommend it if
+you<00:01:17.220> have<00:01:17.490> the<00:01:17.790> 13<00:01:18.360> module<00:01:18.810> rack<00:01:19.170> here<00:01:19.619> which
+
+00:01:20.060 --> 00:01:20.070 
+you have the 13 module rack here which
+
+00:01:20.070 --> 00:01:23.179 
+you have the 13 module rack here which
+comes<00:01:20.340> with<00:01:20.580> the<00:01:20.729> ev3<00:01:21.030> expansion<00:01:21.900> set<00:01:22.170> now<00:01:22.799> how
+
+00:01:23.179 --> 00:01:23.189 
+comes with the ev3 expansion set now how
+
+00:01:23.189 --> 00:01:25.969 
+comes with the ev3 expansion set now how
+it<00:01:23.340> works<00:01:23.549> is<00:01:23.850> you<00:01:24.390> have<00:01:24.540> a<00:01:24.990> motor<00:01:25.350> that<00:01:25.950> spins
+
+00:01:25.969 --> 00:01:25.979 
+it works is you have a motor that spins
+
+00:01:25.979 --> 00:01:28.760 
+it works is you have a motor that spins
+a<00:01:26.759> smaller<00:01:27.210> pinion<00:01:27.750> gear<00:01:27.990> which<00:01:28.439> is<00:01:28.590> your
+
+00:01:28.760 --> 00:01:28.770 
+a smaller pinion gear which is your
+
+00:01:28.770 --> 00:01:30.920 
+a smaller pinion gear which is your
+traditional<00:01:29.280> type<00:01:29.490> of<00:01:29.520> circle<00:01:30.030> gear<00:01:30.270> and<00:01:30.450> then
+
+00:01:30.920 --> 00:01:30.930 
+traditional type of circle gear and then
+
+00:01:30.930 --> 00:01:33.200 
+traditional type of circle gear and then
+the<00:01:31.079> rack<00:01:31.259> gear<00:01:31.590> is<00:01:31.740> basically<00:01:32.460> a<00:01:32.579> toothed<00:01:32.850> bar
+
+00:01:33.200 --> 00:01:33.210 
+the rack gear is basically a toothed bar
+
+00:01:33.210 --> 00:01:35.840 
+the rack gear is basically a toothed bar
+which<00:01:33.720> slides<00:01:34.170> forward<00:01:34.799> and<00:01:35.009> backward<00:01:35.460> when
+
+00:01:35.840 --> 00:01:35.850 
+which slides forward and backward when
+
+00:01:35.850 --> 00:01:38.270 
+which slides forward and backward when
+the<00:01:36.000> pinion<00:01:36.390> gear<00:01:36.420> rotates<00:01:37.130> when<00:01:38.130> you're
+
+00:01:38.270 --> 00:01:38.280 
+the pinion gear rotates when you're
+
+00:01:38.280 --> 00:01:40.399 
+the pinion gear rotates when you're
+building<00:01:38.520> make<00:01:39.119> sure<00:01:39.329> that<00:01:39.540> your<00:01:39.750> pinion<00:01:40.140> gear
+
+00:01:40.399 --> 00:01:40.409 
+building make sure that your pinion gear
+
+00:01:40.409 --> 00:01:43.100 
+building make sure that your pinion gear
+securely<00:01:41.189> meshes<00:01:41.820> the<00:01:42.090> rack<00:01:42.299> here<00:01:42.600> without
+
+00:01:43.100 --> 00:01:43.110 
+securely meshes the rack here without
+
+00:01:43.110 --> 00:01:46.580 
+securely meshes the rack here without
+any<00:01:43.590> sort<00:01:44.009> of<00:01:44.100> skipping<00:01:44.460> and<00:01:45.170> for<00:01:46.170> extra
+
+00:01:46.580 --> 00:01:46.590 
+any sort of skipping and for extra
+
+00:01:46.590 --> 00:01:49.429 
+any sort of skipping and for extra
+strength<00:01:46.799> you<00:01:47.399> can<00:01:47.610> add<00:01:47.880> a<00:01:47.939> worm<00:01:48.479> gear<00:01:48.509> which
+
+00:01:49.429 --> 00:01:49.439 
+strength you can add a worm gear which
+
+00:01:49.439 --> 00:01:51.980 
+strength you can add a worm gear which
+increases<00:01:50.100> the<00:01:50.250> gear<00:01:50.460> reduction<00:01:51.000> and<00:01:51.180> reduces
+
+00:01:51.980 --> 00:01:51.990 
+increases the gear reduction and reduces
+
+00:01:51.990 --> 00:01:54.499 
+increases the gear reduction and reduces
+any<00:01:52.229> kind<00:01:52.560> of<00:01:52.680> backlash<00:01:52.920> now<00:01:53.850> as<00:01:54.060> you<00:01:54.210> see<00:01:54.420> in
+
+00:01:54.499 --> 00:01:54.509 
+any kind of backlash now as you see in
+
+00:01:54.509 --> 00:01:56.539 
+any kind of backlash now as you see in
+this<00:01:54.600> little<00:01:54.840> video<00:01:55.200> clip<00:01:55.530> the<00:01:56.009> worm<00:01:56.250> gear
+
+00:01:56.539 --> 00:01:56.549 
+this little video clip the worm gear
+
+00:01:56.549 --> 00:01:59.120 
+this little video clip the worm gear
+drastically<00:01:57.390> slows<00:01:57.810> down<00:01:58.200> the<00:01:58.439> mechanism
+
+00:01:59.120 --> 00:01:59.130 
+drastically slows down the mechanism
+
+00:01:59.130 --> 00:02:01.850 
+drastically slows down the mechanism
+what<00:01:59.729> gives<00:02:00.000> it<00:02:00.180> a<00:02:00.329> lot<00:02:00.570> more<00:02:00.630> driving<00:02:01.500> torque
+
+00:02:01.850 --> 00:02:01.860 
+what gives it a lot more driving torque
+
+00:02:01.860 --> 00:02:04.370 
+what gives it a lot more driving torque
+or<00:02:02.100> power<00:02:02.640> which<00:02:03.270> for<00:02:03.540> some<00:02:03.719> applications
+
+00:02:04.370 --> 00:02:04.380 
+or power which for some applications
+
+00:02:04.380 --> 00:02:07.100 
+or power which for some applications
+would<00:02:04.740> be<00:02:04.920> very<00:02:05.520> beneficial<00:02:05.759> and<00:02:06.509> it<00:02:06.930> also
+
+00:02:07.100 --> 00:02:07.110 
+would be very beneficial and it also
+
+00:02:07.110 --> 00:02:09.499 
+would be very beneficial and it also
+gets<00:02:07.500> rid<00:02:07.680> of<00:02:07.770> any<00:02:08.009> backlash<00:02:08.369> and<00:02:09.000> what<00:02:09.360> this
+
+00:02:09.499 --> 00:02:09.509 
+gets rid of any backlash and what this
+
+00:02:09.509 --> 00:02:11.990 
+gets rid of any backlash and what this
+means<00:02:09.810> is<00:02:10.080> that<00:02:10.140> if<00:02:10.950> you<00:02:11.220> have<00:02:11.430> a<00:02:11.459> heavy<00:02:11.760> weight
+
+00:02:11.990 --> 00:02:12.000 
+means is that if you have a heavy weight
+
+00:02:12.000 --> 00:02:15.050 
+means is that if you have a heavy weight
+it<00:02:12.390> can't<00:02:12.810> push<00:02:13.110> down<00:02:13.410> on<00:02:13.620> the<00:02:13.739> motor<00:02:13.950> the<00:02:14.520> only
+
+00:02:15.050 --> 00:02:15.060 
+it can't push down on the motor the only
+
+00:02:15.060 --> 00:02:17.210 
+it can't push down on the motor the only
+way<00:02:15.209> the<00:02:15.599> mechanism<00:02:16.140> will<00:02:16.290> move<00:02:16.590> is<00:02:16.830> if<00:02:17.099> the
+
+00:02:17.210 --> 00:02:17.220 
+way the mechanism will move is if the
+
+00:02:17.220 --> 00:02:20.240 
+way the mechanism will move is if the
+motor<00:02:17.489> drives<00:02:17.940> the<00:02:18.150> mechanism<00:02:18.860> the<00:02:19.860> second
+
+00:02:20.240 --> 00:02:20.250 
+motor drives the mechanism the second
+
+00:02:20.250 --> 00:02:22.460 
+motor drives the mechanism the second
+type<00:02:20.400> of<00:02:20.550> linear<00:02:20.730> actuator<00:02:21.330> is<00:02:21.540> to<00:02:21.989> use<00:02:22.080> a<00:02:22.230> Lego
+
+00:02:22.460 --> 00:02:22.470 
+type of linear actuator is to use a Lego
+
+00:02:22.470 --> 00:02:24.740 
+type of linear actuator is to use a Lego
+linear<00:02:22.890> actuator<00:02:23.129> these<00:02:24.120> are<00:02:24.330> actually
+
+00:02:24.740 --> 00:02:24.750 
+linear actuator these are actually
+
+00:02:24.750 --> 00:02:27.470 
+linear actuator these are actually
+pre-made<00:02:25.319> elements<00:02:26.190> that<00:02:26.640> are<00:02:26.760> made<00:02:26.940> by<00:02:26.970> Lego
+
+00:02:27.470 --> 00:02:27.480 
+pre-made elements that are made by Lego
+
+00:02:27.480 --> 00:02:29.300 
+pre-made elements that are made by Lego
+and<00:02:27.810> they're<00:02:28.230> available<00:02:28.500> in<00:02:28.920> many<00:02:29.220> different
+
+00:02:29.300 --> 00:02:29.310 
+and they're available in many different
+
+00:02:29.310 --> 00:02:31.430 
+and they're available in many different
+technic<00:02:30.090> sets<00:02:30.360> out<00:02:30.599> there<00:02:30.870> today<00:02:31.140> and
+
+00:02:31.430 --> 00:02:31.440 
+technic sets out there today and
+
+00:02:31.440 --> 00:02:34.250 
+technic sets out there today and
+basically<00:02:32.400> how<00:02:32.670> these<00:02:32.849> work<00:02:33.120> is<00:02:33.330> the<00:02:34.019> motor
+
+00:02:34.250 --> 00:02:34.260 
+basically how these work is the motor
+
+00:02:34.260 --> 00:02:36.470 
+basically how these work is the motor
+the<00:02:34.650> rotating<00:02:35.160> of<00:02:35.340> the<00:02:35.819> motor<00:02:36.030> will<00:02:36.209> hook<00:02:36.360> up
+
+00:02:36.470 --> 00:02:36.480 
+the rotating of the motor will hook up
+
+00:02:36.480 --> 00:02:38.570 
+the rotating of the motor will hook up
+to<00:02:36.660> a<00:02:36.690> shaft<00:02:37.050> in<00:02:37.290> the<00:02:37.410> back<00:02:37.590> and<00:02:37.860> rotate<00:02:38.250> it<00:02:38.400> and
+
+00:02:38.570 --> 00:02:38.580 
+to a shaft in the back and rotate it and
+
+00:02:38.580 --> 00:02:41.770 
+to a shaft in the back and rotate it and
+the<00:02:39.269> element<00:02:39.840> will<00:02:39.989> actually<00:02:40.319> convert<00:02:40.739> the
+
+00:02:41.770 --> 00:02:41.780 
+the element will actually convert the
+
+00:02:41.780 --> 00:02:45.050 
+the element will actually convert the
+rotary<00:02:42.780> motion<00:02:42.900> into<00:02:43.410> linear<00:02:43.739> motion<00:02:43.920> for<00:02:44.879> you
+
+00:02:45.050 --> 00:02:45.060 
+rotary motion into linear motion for you
+
+00:02:45.060 --> 00:02:46.040 
+rotary motion into linear motion for you
+so<00:02:45.269> you<00:02:45.360> don't<00:02:45.450> have<00:02:45.690> to<00:02:45.810> worry<00:02:45.959> about
+
+00:02:46.040 --> 00:02:46.050 
+so you don't have to worry about
+
+00:02:46.050 --> 00:02:48.410 
+so you don't have to worry about
+building<00:02:46.560> a<00:02:46.650> fancy<00:02:46.890> mechanism<00:02:47.640> and<00:02:47.790> these
+
+00:02:48.410 --> 00:02:48.420 
+building a fancy mechanism and these
+
+00:02:48.420 --> 00:02:51.259 
+building a fancy mechanism and these
+come<00:02:48.690> in<00:02:48.810> two<00:02:48.870> sizes<00:02:49.230> large<00:02:50.129> and<00:02:50.489> small<00:02:50.819> you'll
+
+00:02:51.259 --> 00:02:51.269 
+come in two sizes large and small you'll
+
+00:02:51.269 --> 00:02:52.970 
+come in two sizes large and small you'll
+see<00:02:51.510> here<00:02:51.810> that<00:02:51.840> I'm<00:02:52.140> using<00:02:52.379> the<00:02:52.650> small<00:02:52.950> one
+
+00:02:52.970 --> 00:02:52.980 
+see here that I'm using the small one
+
+00:02:52.980 --> 00:02:56.630 
+see here that I'm using the small one
+the<00:02:53.510> third<00:02:54.510> type<00:02:54.810> of<00:02:54.840> linear<00:02:55.260> actuator<00:02:55.950> is<00:02:56.160> to
+
+00:02:56.630 --> 00:02:56.640 
+the third type of linear actuator is to
+
+00:02:56.640 --> 00:02:57.770 
+the third type of linear actuator is to
+use<00:02:56.790> pneumatics
+
+00:02:57.770 --> 00:02:57.780 
+use pneumatics
+
+00:02:57.780 --> 00:02:59.869 
+use pneumatics
+now<00:02:58.349> there's<00:02:58.860> a<00:02:58.950> whole<00:02:59.190> pneumatic<00:02:59.730> it
+
+00:02:59.869 --> 00:02:59.879 
+now there's a whole pneumatic it
+
+00:02:59.879 --> 00:03:01.790 
+now there's a whole pneumatic it
+available<00:03:00.239> through<00:03:00.450> Lego<00:03:00.870> education<00:03:01.620> I'll
+
+00:03:01.790 --> 00:03:01.800 
+available through Lego education I'll
+
+00:03:01.800 --> 00:03:03.410 
+available through Lego education I'll
+put<00:03:02.010> the<00:03:02.129> part<00:03:02.370> number<00:03:02.640> up<00:03:02.760> right<00:03:02.970> now<00:03:03.150> and
+
+00:03:03.410 --> 00:03:03.420 
+put the part number up right now and
+
+00:03:03.420 --> 00:03:05.660 
+put the part number up right now and
+this<00:03:04.349> is<00:03:04.560> definitely<00:03:04.920> the<00:03:05.250> most<00:03:05.370> difficult
+
+00:03:05.660 --> 00:03:05.670 
+this is definitely the most difficult
+
+00:03:05.670 --> 00:03:08.960 
+this is definitely the most difficult
+most<00:03:06.540> expensive<00:03:07.230> least<00:03:07.830> reliable<00:03:08.220> least
+
+00:03:08.960 --> 00:03:08.970 
+most expensive least reliable least
+
+00:03:08.970 --> 00:03:11.210 
+most expensive least reliable least
+common<00:03:09.540> way<00:03:09.720> to<00:03:10.019> build<00:03:10.620> a<00:03:10.769> linear<00:03:11.069> actuator
+
+00:03:11.210 --> 00:03:11.220 
+common way to build a linear actuator
+
+00:03:11.220 --> 00:03:13.339 
+common way to build a linear actuator
+system<00:03:11.730> and<00:03:12.090> I<00:03:12.420> personally<00:03:12.930> don't<00:03:13.170> recommend
+
+00:03:13.339 --> 00:03:13.349 
+system and I personally don't recommend
+
+00:03:13.349 --> 00:03:15.470 
+system and I personally don't recommend
+it<00:03:13.769> unless<00:03:14.370> you're<00:03:14.610> really<00:03:14.760> keen<00:03:15.209> to<00:03:15.239> use
+
+00:03:15.470 --> 00:03:15.480 
+it unless you're really keen to use
+
+00:03:15.480 --> 00:03:18.170 
+it unless you're really keen to use
+pneumatics<00:03:16.230> how<00:03:16.890> it<00:03:17.069> works<00:03:17.310> is<00:03:17.580> that<00:03:17.879> the
+
+00:03:18.170 --> 00:03:18.180 
+pneumatics how it works is that the
+
+00:03:18.180 --> 00:03:20.210 
+pneumatics how it works is that the
+rotary<00:03:18.510> motion<00:03:18.599> goes<00:03:19.230> into<00:03:19.680> the<00:03:19.800> compressor
+
+00:03:20.210 --> 00:03:20.220 
+rotary motion goes into the compressor
+
+00:03:20.220 --> 00:03:23.750 
+rotary motion goes into the compressor
+to<00:03:20.909> pump<00:03:21.239> air<00:03:21.840> and<00:03:22.200> then<00:03:22.860> there's<00:03:23.069> a<00:03:23.159> piston
+
+00:03:23.750 --> 00:03:23.760 
+to pump air and then there's a piston
+
+00:03:23.760 --> 00:03:25.759 
+to pump air and then there's a piston
+that<00:03:24.239> yellow<00:03:24.569> part<00:03:24.870> in<00:03:24.959> the<00:03:25.049> video<00:03:25.290> there<00:03:25.590> that
+
+00:03:25.759 --> 00:03:25.769 
+that yellow part in the video there that
+
+00:03:25.769 --> 00:03:28.160 
+that yellow part in the video there that
+will<00:03:26.340> actually<00:03:26.370> take<00:03:26.940> this<00:03:27.150> air<00:03:27.420> pressure<00:03:27.780> and
+
+00:03:28.160 --> 00:03:28.170 
+will actually take this air pressure and
+
+00:03:28.170 --> 00:03:30.410 
+will actually take this air pressure and
+when<00:03:28.620> the<00:03:28.739> air<00:03:28.890> moves<00:03:29.220> into<00:03:29.549> it<00:03:29.700> it<00:03:29.970> makes<00:03:30.269> a
+
+00:03:30.410 --> 00:03:30.420 
+when the air moves into it it makes a
+
+00:03:30.420 --> 00:03:32.839 
+when the air moves into it it makes a
+piston<00:03:30.870> extend<00:03:31.379> and<00:03:31.709> contract<00:03:32.159> and<00:03:32.370> that's
+
+00:03:32.839 --> 00:03:32.849 
+piston extend and contract and that's
+
+00:03:32.849 --> 00:03:35.539 
+piston extend and contract and that's
+where<00:03:33.030> your<00:03:33.150> linear<00:03:33.480> motion<00:03:33.959> comes<00:03:34.290> in<00:03:34.500> so<00:03:35.370> now
+
+00:03:35.539 --> 00:03:35.549 
+where your linear motion comes in so now
+
+00:03:35.549 --> 00:03:38.149 
+where your linear motion comes in so now
+for<00:03:35.610> the<00:03:35.940> fourth<00:03:36.239> method<00:03:36.540> if<00:03:37.110> you<00:03:37.560> don't<00:03:37.950> have
+
+00:03:38.149 --> 00:03:38.159 
+for the fourth method if you don't have
+
+00:03:38.159 --> 00:03:40.070 
+for the fourth method if you don't have
+any<00:03:38.400> of<00:03:38.549> the<00:03:38.700> specialty<00:03:39.180> elements<00:03:39.840> to<00:03:39.959> make
+
+00:03:40.070 --> 00:03:40.080 
+any of the specialty elements to make
+
+00:03:40.080 --> 00:03:42.080 
+any of the specialty elements to make
+any<00:03:40.349> of<00:03:40.500> the<00:03:40.650> mechanisms<00:03:41.250> that<00:03:41.370> I<00:03:41.489> mentioned
+
+00:03:42.080 --> 00:03:42.090 
+any of the mechanisms that I mentioned
+
+00:03:42.090 --> 00:03:44.240 
+any of the mechanisms that I mentioned
+and<00:03:42.239> the<00:03:42.599> first<00:03:42.840> three<00:03:43.110> ones<00:03:43.290> don't<00:03:43.890> fret
+
+00:03:44.240 --> 00:03:44.250 
+and the first three ones don't fret
+
+00:03:44.250 --> 00:03:46.869 
+and the first three ones don't fret
+because<00:03:44.459> you<00:03:45.150> can<00:03:45.360> make<00:03:45.540> a<00:03:45.780> linear<00:03:46.319> actuator
+
+00:03:46.869 --> 00:03:46.879 
+because you can make a linear actuator
+
+00:03:46.879 --> 00:03:50.750 
+because you can make a linear actuator
+using<00:03:47.879> just<00:03:48.239> ordinary<00:03:48.959> common<00:03:49.470> parts<00:03:49.890> many<00:03:50.610> of
+
+00:03:50.750 --> 00:03:50.760 
+using just ordinary common parts many of
+
+00:03:50.760 --> 00:03:53.240 
+using just ordinary common parts many of
+which<00:03:50.909> are<00:03:51.090> found<00:03:51.360> in<00:03:51.510> the<00:03:51.629> ev3<00:03:51.959> set<00:03:52.470> all<00:03:52.980> you
+
+00:03:53.240 --> 00:03:53.250 
+which are found in the ev3 set all you
+
+00:03:53.250 --> 00:03:56.390 
+which are found in the ev3 set all you
+really<00:03:53.430> need<00:03:53.760> is<00:03:53.970> Technic<00:03:54.569> beams<00:03:54.810> and<00:03:55.400> this
+
+00:03:56.390 --> 00:03:56.400 
+really need is Technic beams and this
+
+00:03:56.400 --> 00:03:58.789 
+really need is Technic beams and this
+may<00:03:56.640> be<00:03:56.700> a<00:03:56.849> little<00:03:57.299> bit<00:03:57.480> tricky<00:03:57.780> but<00:03:58.470> it<00:03:58.590> uses
+
+00:03:58.789 --> 00:03:58.799 
+may be a little bit tricky but it uses
+
+00:03:58.799 --> 00:04:01.160 
+may be a little bit tricky but it uses
+some<00:03:59.189> very<00:03:59.220> common<00:03:59.730> pieces<00:04:00.090> and<00:04:00.780> once<00:04:00.959> you<00:04:01.049> get
+
+00:04:01.160 --> 00:04:01.170 
+some very common pieces and once you get
+
+00:04:01.170 --> 00:04:02.949 
+some very common pieces and once you get
+the<00:04:01.260> hang<00:04:01.290> of<00:04:01.620> it<00:04:01.739> it's<00:04:01.950> not<00:04:02.129> that<00:04:02.189> bad<00:04:02.549> it
+
+00:04:02.949 --> 00:04:02.959 
+the hang of it it's not that bad it
+
+00:04:02.959 --> 00:04:05.869 
+the hang of it it's not that bad it
+consists<00:04:03.959> of<00:04:04.049> two<00:04:04.319> Technic<00:04:04.799> beams<00:04:04.980> that<00:04:05.730> are
+
+00:04:05.869 --> 00:04:05.879 
+consists of two Technic beams that are
+
+00:04:05.879 --> 00:04:08.179 
+consists of two Technic beams that are
+joined<00:04:06.180> by<00:04:06.360> a<00:04:06.510> peg<00:04:06.900> in<00:04:06.930> the<00:04:07.260> middle<00:04:07.530> and<00:04:07.709> the
+
+00:04:08.179 --> 00:04:08.189 
+joined by a peg in the middle and the
+
+00:04:08.189 --> 00:04:10.460 
+joined by a peg in the middle and the
+motor<00:04:08.400> rotates<00:04:08.670> and<00:04:09.299> it's<00:04:09.659> kind<00:04:09.930> of<00:04:10.019> like<00:04:10.319> if
+
+00:04:10.460 --> 00:04:10.470 
+motor rotates and it's kind of like if
+
+00:04:10.470 --> 00:04:12.050 
+motor rotates and it's kind of like if
+you<00:04:10.560> can<00:04:10.709> imagine<00:04:10.739> it's<00:04:11.250> kind<00:04:11.400> of<00:04:11.489> like<00:04:11.670> a<00:04:11.700> pair
+
+00:04:12.050 --> 00:04:12.060 
+you can imagine it's kind of like a pair
+
+00:04:12.060 --> 00:04:15.020 
+you can imagine it's kind of like a pair
+of<00:04:12.090> scissors<00:04:12.510> the<00:04:13.110> way<00:04:13.230> it<00:04:13.349> in<00:04:13.439> a<00:04:13.670> way<00:04:14.670> it<00:04:14.819> moves
+
+00:04:15.020 --> 00:04:15.030 
+of scissors the way it in a way it moves
+
+00:04:15.030 --> 00:04:17.539 
+of scissors the way it in a way it moves
+so<00:04:15.659> the<00:04:15.689> motor<00:04:15.989> rotates<00:04:16.229> one<00:04:16.739> end<00:04:16.949> and<00:04:17.130> the
+
+00:04:17.539 --> 00:04:17.549 
+so the motor rotates one end and the
+
+00:04:17.549 --> 00:04:18.410 
+so the motor rotates one end and the
+other<00:04:17.579> end<00:04:17.790> pushing
+
+00:04:18.410 --> 00:04:18.420 
+other end pushing
+
+00:04:18.420 --> 00:04:21.080 
+other end pushing
+up<00:04:18.630> and<00:04:19.170> the<00:04:19.890> one<00:04:20.190> thing<00:04:20.460> is<00:04:20.610> you<00:04:20.760> need<00:04:20.940> to<00:04:20.970> make
+
+00:04:21.080 --> 00:04:21.090 
+up and the one thing is you need to make
+
+00:04:21.090 --> 00:04:23.300 
+up and the one thing is you need to make
+sure<00:04:21.390> there's<00:04:21.630> some<00:04:21.690> kind<00:04:22.080> of<00:04:22.140> rail<00:04:22.380> or<00:04:22.980> this
+
+00:04:23.300 --> 00:04:23.310 
+sure there's some kind of rail or this
+
+00:04:23.310 --> 00:04:25.400 
+sure there's some kind of rail or this
+mechanism<00:04:23.670> won't<00:04:24.150> really<00:04:24.390> be<00:04:24.690> linear<00:04:25.080> motion
+
+00:04:25.400 --> 00:04:25.410 
+mechanism won't really be linear motion
+
+00:04:25.410 --> 00:04:27.440 
+mechanism won't really be linear motion
+no<00:04:25.560> cottages<00:04:26.130> flop<00:04:26.430> around<00:04:26.820> and<00:04:27.060> make<00:04:27.150> a<00:04:27.180> mess
+
+00:04:27.440 --> 00:04:27.450 
+no cottages flop around and make a mess
+
+00:04:27.450 --> 00:04:29.960 
+no cottages flop around and make a mess
+and<00:04:27.750> you<00:04:27.900> can<00:04:28.050> also<00:04:28.290> add<00:04:28.680> a<00:04:28.710> worm<00:04:28.980> gear<00:04:29.010> to<00:04:29.820> this
+
+00:04:29.960 --> 00:04:29.970 
+and you can also add a worm gear to this
+
+00:04:29.970 --> 00:04:32.720 
+and you can also add a worm gear to this
+mechanism<00:04:30.630> for<00:04:31.230> the<00:04:31.350> same<00:04:31.560> reasons<00:04:32.130> as<00:04:32.250> before
+
+00:04:32.720 --> 00:04:32.730 
+mechanism for the same reasons as before
+
+00:04:32.730 --> 00:04:35.180 
+mechanism for the same reasons as before
+to<00:04:33.240> add<00:04:33.420> more<00:04:33.750> torque<00:04:34.200> and<00:04:34.440> to<00:04:34.950> reduce
+
+00:04:35.180 --> 00:04:35.190 
+to add more torque and to reduce
+
+00:04:35.190 --> 00:04:37.970 
+to add more torque and to reduce
+Backlund<00:04:36.080> thank<00:04:37.080> you<00:04:37.260> for<00:04:37.470> watching<00:04:37.860> this
+
+00:04:37.970 --> 00:04:37.980 
+Backlund thank you for watching this
+
+00:04:37.980 --> 00:04:40.850 
+Backlund thank you for watching this
+video<00:04:38.340> my<00:04:39.090> next<00:04:39.390> tutorial<00:04:40.080> is<00:04:40.230> probably<00:04:40.650> going
+
+00:04:40.850 --> 00:04:40.860 
+video my next tutorial is probably going
+
+00:04:40.860 --> 00:04:42.740 
+video my next tutorial is probably going
+to<00:04:41.010> be<00:04:41.130> about<00:04:41.250> worm<00:04:41.760> gears<00:04:42.090> why<00:04:42.360> you<00:04:42.420> should
+
+00:04:42.740 --> 00:04:42.750 
+to be about worm gears why you should
+
+00:04:42.750 --> 00:04:45.560 
+to be about worm gears why you should
+use<00:04:42.990> them<00:04:43.200> and<00:04:43.380> how<00:04:44.040> to<00:04:44.070> make<00:04:44.340> them<00:04:44.790> so<00:04:45.300> I'll
+
+00:04:45.560 --> 00:04:45.570 
+use them and how to make them so I'll
+
+00:04:45.570 --> 00:04:48.710 
+use them and how to make them so I'll
+see<00:04:45.780> you<00:04:45.840> next<00:04:45.930> time<00:04:46.320> bye
+

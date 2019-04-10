@@ -1,0 +1,971 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.030 
+
+today<00:00:00.840> I'm<00:00:00.989> going<00:00:01.199> to<00:00:01.290> teach<00:00:01.469> you<00:00:01.709> how<00:00:02.010> to
+
+00:00:02.030 --> 00:00:02.040 
+today I'm going to teach you how to
+
+00:00:02.040 --> 00:00:04.910 
+today I'm going to teach you how to
+write<00:00:02.340> a<00:00:02.580> short<00:00:02.850> program<00:00:03.179> in<00:00:03.540> robotc<00:00:04.230> but
+
+00:00:04.910 --> 00:00:04.920 
+write a short program in robotc but
+
+00:00:04.920 --> 00:00:07.400 
+write a short program in robotc but
+first<00:00:05.220> let's<00:00:05.700> take<00:00:05.819> a<00:00:05.879> look<00:00:05.970> at<00:00:06.210> our<00:00:06.299> robot<00:00:06.660> so
+
+00:00:07.400 --> 00:00:07.410 
+first let's take a look at our robot so
+
+00:00:07.410 --> 00:00:09.200 
+first let's take a look at our robot so
+this<00:00:07.589> right<00:00:07.740> here<00:00:07.799> is<00:00:08.040> a<00:00:08.130> very<00:00:08.429> simple<00:00:08.790> robot<00:00:09.179> I
+
+00:00:09.200 --> 00:00:09.210 
+this right here is a very simple robot I
+
+00:00:09.210 --> 00:00:11.120 
+this right here is a very simple robot I
+threw<00:00:09.480> together<00:00:09.620> this<00:00:10.620> right<00:00:10.860> here<00:00:11.010> is<00:00:11.070> a
+
+00:00:11.120 --> 00:00:11.130 
+threw together this right here is a
+
+00:00:11.130 --> 00:00:14.240 
+threw together this right here is a
+battery<00:00:11.460> pack<00:00:11.700> this<00:00:12.360> is<00:00:12.570> the<00:00:12.690> NXT<00:00:13.040> this<00:00:14.040> is<00:00:14.219> a
+
+00:00:14.240 --> 00:00:14.250 
+battery pack this is the NXT this is a
+
+00:00:14.250 --> 00:00:16.820 
+battery pack this is the NXT this is a
+high<00:00:14.460> Technic<00:00:14.910> DC<00:00:15.330> motor<00:00:15.570> controller<00:00:15.990> these
+
+00:00:16.820 --> 00:00:16.830 
+high Technic DC motor controller these
+
+00:00:16.830 --> 00:00:19.550 
+high Technic DC motor controller these
+two<00:00:17.490> things<00:00:17.789> are<00:00:17.940> motors<00:00:18.330> and<00:00:18.600> the<00:00:19.350> four
+
+00:00:19.550 --> 00:00:19.560 
+two things are motors and the four
+
+00:00:19.560 --> 00:00:22.340 
+two things are motors and the four
+things<00:00:19.800> on<00:00:19.949> the<00:00:20.070> edge<00:00:20.189> are<00:00:20.520> wheels<00:00:21.029> as<00:00:21.330> you<00:00:22.050> can
+
+00:00:22.340 --> 00:00:22.350 
+things on the edge are wheels as you can
+
+00:00:22.350 --> 00:00:24.349 
+things on the edge are wheels as you can
+see<00:00:22.529> from<00:00:22.680> the<00:00:22.800> picture<00:00:23.160> the<00:00:23.490> battery<00:00:23.820> pack<00:00:24.090> is
+
+00:00:24.349 --> 00:00:24.359 
+see from the picture the battery pack is
+
+00:00:24.359 --> 00:00:26.269 
+see from the picture the battery pack is
+connected<00:00:24.869> to<00:00:24.900> the<00:00:25.109> high<00:00:25.260> Technic<00:00:25.680> DC<00:00:26.039> motor
+
+00:00:26.269 --> 00:00:26.279 
+connected to the high Technic DC motor
+
+00:00:26.279 --> 00:00:27.589 
+connected to the high Technic DC motor
+controller<00:00:26.670> right<00:00:27.029> here<00:00:27.300> where<00:00:27.480> it<00:00:27.570> says
+
+00:00:27.589 --> 00:00:27.599 
+controller right here where it says
+
+00:00:27.599 --> 00:00:30.769 
+controller right here where it says
+battery<00:00:28.279> the<00:00:29.279> motors<00:00:29.699> are<00:00:29.910> also<00:00:30.119> connected<00:00:30.689> to
+
+00:00:30.769 --> 00:00:30.779 
+battery the motors are also connected to
+
+00:00:30.779 --> 00:00:32.359 
+battery the motors are also connected to
+the<00:00:30.840> DC<00:00:31.170> motor<00:00:31.380> controller<00:00:31.800> where<00:00:32.130> it<00:00:32.189> says
+
+00:00:32.359 --> 00:00:32.369 
+the DC motor controller where it says
+
+00:00:32.369 --> 00:00:34.880 
+the DC motor controller where it says
+motor<00:00:32.610> 1<00:00:32.880> and<00:00:33.149> motor<00:00:33.450> 2<00:00:33.719> and<00:00:33.989> then<00:00:34.590> the<00:00:34.710> motor
+
+00:00:34.880 --> 00:00:34.890 
+motor 1 and motor 2 and then the motor
+
+00:00:34.890 --> 00:00:37.100 
+motor 1 and motor 2 and then the motor
+controller<00:00:35.309> is<00:00:35.520> then<00:00:35.730> connected<00:00:36.059> to<00:00:36.329> the<00:00:36.660> NXT
+
+00:00:37.100 --> 00:00:37.110 
+controller is then connected to the NXT
+
+00:00:37.110 --> 00:00:39.950 
+controller is then connected to the NXT
+through<00:00:37.530> this<00:00:37.649> cable<00:00:37.920> right<00:00:38.100> here<00:00:38.809> so<00:00:39.809> what
+
+00:00:39.950 --> 00:00:39.960 
+through this cable right here so what
+
+00:00:39.960 --> 00:00:42.560 
+through this cable right here so what
+you're<00:00:40.110> going<00:00:40.230> to<00:00:40.290> want<00:00:40.469> to<00:00:40.530> do<00:00:40.620> first<00:00:40.890> is<00:00:41.570> open
+
+00:00:42.560 --> 00:00:42.570 
+you're going to want to do first is open
+
+00:00:42.570 --> 00:00:45.529 
+you're going to want to do first is open
+up<00:00:42.690> a<00:00:42.870> program<00:00:43.290> in<00:00:43.530> robot<00:00:43.920> C<00:00:44.190> and<00:00:44.460> then<00:00:45.210> click
+
+00:00:45.529 --> 00:00:45.539 
+up a program in robot C and then click
+
+00:00:45.539 --> 00:00:48.200 
+up a program in robot C and then click
+on<00:00:45.800> the<00:00:46.800> robot<00:00:47.190> tab<00:00:47.460> at<00:00:47.700> the<00:00:47.730> top<00:00:47.969> of<00:00:48.120> the
+
+00:00:48.200 --> 00:00:48.210 
+on the robot tab at the top of the
+
+00:00:48.210 --> 00:00:50.569 
+on the robot tab at the top of the
+screen<00:00:48.480> and<00:00:48.719> scroll<00:00:49.440> down<00:00:49.500> to<00:00:49.860> motors<00:00:50.370> and
+
+00:00:50.569 --> 00:00:50.579 
+screen and scroll down to motors and
+
+00:00:50.579 --> 00:00:53.510 
+screen and scroll down to motors and
+sensors<00:00:50.940> setup<00:00:51.829> then<00:00:52.829> you're<00:00:53.070> going<00:00:53.190> to<00:00:53.280> click
+
+00:00:53.510 --> 00:00:53.520 
+sensors setup then you're going to click
+
+00:00:53.520 --> 00:00:53.959 
+sensors setup then you're going to click
+on
+
+00:00:53.959 --> 00:00:53.969 
+on
+
+00:00:53.969 --> 00:00:57.889 
+on
+tetrax<00:00:54.449> controllers<00:00:55.170> and<00:00:55.410> go<00:00:56.280> to<00:00:56.340> custom<00:00:56.899> so
+
+00:00:57.889 --> 00:00:57.899 
+tetrax controllers and go to custom so
+
+00:00:57.899 --> 00:00:59.630 
+tetrax controllers and go to custom so
+basically<00:00:58.260> what<00:00:58.559> the<00:00:58.739> screen<00:00:58.949> is<00:00:59.070> asking<00:00:59.460> you
+
+00:00:59.630 --> 00:00:59.640 
+basically what the screen is asking you
+
+00:00:59.640 --> 00:01:02.000 
+basically what the screen is asking you
+is<00:00:59.850> what<00:01:00.539> the<00:01:00.690> daisy-chain<00:01:01.230> of<00:01:01.350> power<00:01:01.559> on<00:01:01.829> your
+
+00:01:02.000 --> 00:01:02.010 
+is what the daisy-chain of power on your
+
+00:01:02.010 --> 00:01:03.709 
+is what the daisy-chain of power on your
+robot<00:01:02.309> is<00:01:02.370> so<00:01:03.000> let's<00:01:03.180> take<00:01:03.329> a<00:01:03.359> look<00:01:03.539> at<00:01:03.629> our
+
+00:01:03.709 --> 00:01:03.719 
+robot is so let's take a look at our
+
+00:01:03.719 --> 00:01:07.219 
+robot is so let's take a look at our
+robot<00:01:04.250> the<00:01:05.250> power<00:01:05.460> starts<00:01:05.970> at<00:01:06.330> the<00:01:06.930> battery
+
+00:01:07.219 --> 00:01:07.229 
+robot the power starts at the battery
+
+00:01:07.229 --> 00:01:09.950 
+robot the power starts at the battery
+pack<00:01:07.439> and<00:01:07.770> then<00:01:08.340> it<00:01:08.460> goes<00:01:08.670> to<00:01:09.060> the<00:01:09.270> DC<00:01:09.720> motor
+
+00:01:09.950 --> 00:01:09.960 
+pack and then it goes to the DC motor
+
+00:01:09.960 --> 00:01:12.410 
+pack and then it goes to the DC motor
+controller<00:01:10.439> where<00:01:11.130> it's<00:01:11.310> then<00:01:11.549> given<00:01:12.090> to<00:01:12.119> the
+
+00:01:12.410 --> 00:01:12.420 
+controller where it's then given to the
+
+00:01:12.420 --> 00:01:16.370 
+controller where it's then given to the
+NXT<00:01:12.810> and<00:01:13.110> the<00:01:13.229> two<00:01:13.409> motors<00:01:14.090> so<00:01:15.090> after<00:01:15.990> the
+
+00:01:16.370 --> 00:01:16.380 
+NXT and the two motors so after the
+
+00:01:16.380 --> 00:01:18.170 
+NXT and the two motors so after the
+battery<00:01:16.560> pack<00:01:16.920> the<00:01:17.250> first<00:01:17.490> device<00:01:17.850> to<00:01:18.060> get
+
+00:01:18.170 --> 00:01:18.180 
+battery pack the first device to get
+
+00:01:18.180 --> 00:01:20.210 
+battery pack the first device to get
+power<00:01:18.390> is<00:01:18.689> the<00:01:19.080> high<00:01:19.619> technique<00:01:20.040> motor
+
+00:01:20.210 --> 00:01:20.220 
+power is the high technique motor
+
+00:01:20.220 --> 00:01:22.039 
+power is the high technique motor
+controller<00:01:20.610> and<00:01:21.000> we<00:01:21.270> don't<00:01:21.509> have<00:01:21.659> a<00:01:21.689> second
+
+00:01:22.039 --> 00:01:22.049 
+controller and we don't have a second
+
+00:01:22.049 --> 00:01:26.630 
+controller and we don't have a second
+device<00:01:23.000> next<00:01:24.000> let's<00:01:24.509> click<00:01:24.630> on<00:01:24.869> motors<00:01:25.259> and<00:01:25.640> as
+
+00:01:26.630 --> 00:01:26.640 
+device next let's click on motors and as
+
+00:01:26.640 --> 00:01:28.490 
+device next let's click on motors and as
+you<00:01:26.790> can<00:01:26.909> see<00:01:26.970> here<00:01:27.420> our<00:01:27.570> two<00:01:27.990> motors<00:01:28.320> have
+
+00:01:28.490 --> 00:01:28.500 
+you can see here our two motors have
+
+00:01:28.500 --> 00:01:31.069 
+you can see here our two motors have
+already<00:01:28.829> been<00:01:29.009> named<00:01:29.250> motor<00:01:30.000> D<00:01:30.240> and<00:01:30.509> motor<00:01:30.840> e
+
+00:01:31.069 --> 00:01:31.079 
+already been named motor D and motor e
+
+00:01:31.079 --> 00:01:32.870 
+already been named motor D and motor e
+and<00:01:31.350> those<00:01:32.040> names<00:01:32.280> were<00:01:32.460> just<00:01:32.670> picked
+
+00:01:32.870 --> 00:01:32.880 
+and those names were just picked
+
+00:01:32.880 --> 00:01:34.609 
+and those names were just picked
+arbitrarily<00:01:33.540> you<00:01:33.900> can<00:01:34.079> really<00:01:34.290> name<00:01:34.439> them
+
+00:01:34.609 --> 00:01:34.619 
+arbitrarily you can really name them
+
+00:01:34.619 --> 00:01:36.679 
+arbitrarily you can really name them
+anything<00:01:34.890> you<00:01:35.100> like<00:01:35.340> but<00:01:35.579> we<00:01:36.030> chose<00:01:36.210> motor<00:01:36.509> D
+
+00:01:36.679 --> 00:01:36.689 
+anything you like but we chose motor D
+
+00:01:36.689 --> 00:01:38.660 
+anything you like but we chose motor D
+and<00:01:36.840> motor<00:01:36.990> e<00:01:37.200> so<00:01:37.950> let's<00:01:38.100> take<00:01:38.250> a<00:01:38.280> look<00:01:38.490> at<00:01:38.579> our
+
+00:01:38.660 --> 00:01:38.670 
+and motor e so let's take a look at our
+
+00:01:38.670 --> 00:01:41.240 
+and motor e so let's take a look at our
+picture<00:01:38.790> one<00:01:39.150> more<00:01:39.210> time<00:01:39.650> this<00:01:40.650> top<00:01:40.979> motor
+
+00:01:41.240 --> 00:01:41.250 
+picture one more time this top motor
+
+00:01:41.250 --> 00:01:42.980 
+picture one more time this top motor
+right<00:01:41.520> here<00:01:41.549> we're<00:01:41.970> gonna<00:01:42.060> call<00:01:42.329> it<00:01:42.479> motor<00:01:42.720> D
+
+00:01:42.980 --> 00:01:42.990 
+right here we're gonna call it motor D
+
+00:01:42.990 --> 00:01:44.840 
+right here we're gonna call it motor D
+and<00:01:43.229> we're<00:01:43.770> gonna<00:01:43.860> call<00:01:44.130> this<00:01:44.280> bottom<00:01:44.640> motor
+
+00:01:44.840 --> 00:01:44.850 
+and we're gonna call this bottom motor
+
+00:01:44.850 --> 00:01:49.249 
+and we're gonna call this bottom motor
+motor<00:01:45.329> e<00:01:46.310> now<00:01:47.310> because<00:01:47.880> on<00:01:48.149> our<00:01:48.210> robot<00:01:48.810> the
+
+00:01:49.249 --> 00:01:49.259 
+motor e now because on our robot the
+
+00:01:49.259 --> 00:01:50.810 
+motor e now because on our robot the
+motors<00:01:49.590> are<00:01:49.740> running<00:01:49.979> opposite<00:01:50.490> each<00:01:50.579> other
+
+00:01:50.810 --> 00:01:50.820 
+motors are running opposite each other
+
+00:01:50.820 --> 00:01:52.609 
+motors are running opposite each other
+we're<00:01:51.119> gonna<00:01:51.240> need<00:01:51.450> to<00:01:51.600> reverse<00:01:51.960> one<00:01:52.320> of<00:01:52.470> them
+
+00:01:52.609 --> 00:01:52.619 
+we're gonna need to reverse one of them
+
+00:01:52.619 --> 00:01:55.609 
+we're gonna need to reverse one of them
+now<00:01:53.340> on<00:01:53.579> your<00:01:53.759> actual<00:01:54.149> robot<00:01:54.630> you<00:01:55.320> can<00:01:55.470> use
+
+00:01:55.609 --> 00:01:55.619 
+now on your actual robot you can use
+
+00:01:55.619 --> 00:01:57.139 
+now on your actual robot you can use
+trial<00:01:55.979> and<00:01:56.100> error<00:01:56.219> to<00:01:56.520> figure<00:01:56.640> out<00:01:56.909> which
+
+00:01:57.139 --> 00:01:57.149 
+trial and error to figure out which
+
+00:01:57.149 --> 00:01:59.179 
+trial and error to figure out which
+motor<00:01:57.630> needs<00:01:57.840> to<00:01:58.020> be<00:01:58.110> reversed<00:01:58.409> but<00:01:58.890> for<00:01:59.100> the
+
+00:01:59.179 --> 00:01:59.189 
+motor needs to be reversed but for the
+
+00:01:59.189 --> 00:02:00.620 
+motor needs to be reversed but for the
+purpose<00:01:59.520> of<00:01:59.640> this<00:01:59.759> video<00:01:59.969> we're<00:02:00.390> just<00:02:00.420> going
+
+00:02:00.620 --> 00:02:00.630 
+purpose of this video we're just going
+
+00:02:00.630 --> 00:02:02.870 
+purpose of this video we're just going
+to<00:02:00.780> choose<00:02:00.960> to<00:02:01.170> move<00:02:01.320> reverse<00:02:01.890> motor<00:02:02.310> D<00:02:02.640> and
+
+00:02:02.870 --> 00:02:02.880 
+to choose to move reverse motor D and
+
+00:02:02.880 --> 00:02:06.080 
+to choose to move reverse motor D and
+we're<00:02:03.869> not<00:02:04.020> using<00:02:04.229> any<00:02:04.409> encoders<00:02:05.040> or<00:02:05.340> servers
+
+00:02:06.080 --> 00:02:06.090 
+we're not using any encoders or servers
+
+00:02:06.090 --> 00:02:07.940 
+we're not using any encoders or servers
+with<00:02:06.240> sensors<00:02:06.630> so<00:02:07.229> we<00:02:07.259> can<00:02:07.439> just<00:02:07.740> hit<00:02:07.829> apply
+
+00:02:07.940 --> 00:02:07.950 
+with sensors so we can just hit apply
+
+00:02:07.950 --> 00:02:11.300 
+with sensors so we can just hit apply
+and<00:02:08.459> then<00:02:08.910> okay<00:02:09.239> and<00:02:09.770> as<00:02:10.770> you<00:02:10.860> can<00:02:11.099> see
+
+00:02:11.300 --> 00:02:11.310 
+and then okay and as you can see
+
+00:02:11.310 --> 00:02:13.180 
+and then okay and as you can see
+everything<00:02:12.180> we<00:02:12.270> just<00:02:12.300> did<00:02:12.599> is<00:02:12.810> now
+
+00:02:13.180 --> 00:02:13.190 
+everything we just did is now
+
+00:02:13.190 --> 00:02:15.850 
+everything we just did is now
+top<00:02:13.370> of<00:02:13.520> our<00:02:13.640> screen<00:02:14.380> next<00:02:15.380> you're<00:02:15.590> going<00:02:15.800> to
+
+00:02:15.850 --> 00:02:15.860 
+top of our screen next you're going to
+
+00:02:15.860 --> 00:02:19.990 
+top of our screen next you're going to
+type<00:02:16.100> task<00:02:16.750> main<00:02:18.730> open<00:02:19.730> and<00:02:19.850> close
+
+00:02:19.990 --> 00:02:20.000 
+type task main open and close
+
+00:02:20.000 --> 00:02:22.390 
+type task main open and close
+parentheses<00:02:20.660> hit<00:02:21.140> enter<00:02:21.200> and<00:02:21.800> then<00:02:22.040> open
+
+00:02:22.390 --> 00:02:22.400 
+parentheses hit enter and then open
+
+00:02:22.400 --> 00:02:24.490 
+parentheses hit enter and then open
+curly<00:02:22.430> braces<00:02:22.910> and<00:02:23.270> basically<00:02:23.960> what<00:02:24.200> you<00:02:24.320> just
+
+00:02:24.490 --> 00:02:24.500 
+curly braces and basically what you just
+
+00:02:24.500 --> 00:02:26.380 
+curly braces and basically what you just
+did<00:02:24.710> is<00:02:24.950> you<00:02:25.070> started<00:02:25.370> your<00:02:25.550> program<00:02:25.940> and<00:02:26.180> then
+
+00:02:26.380 --> 00:02:26.390 
+did is you started your program and then
+
+00:02:26.390 --> 00:02:29.110 
+did is you started your program and then
+with<00:02:26.690> the<00:02:26.810> curly<00:02:27.080> braces<00:02:27.290> you<00:02:27.560> opened<00:02:27.950> it<00:02:28.120> now
+
+00:02:29.110 --> 00:02:29.120 
+with the curly braces you opened it now
+
+00:02:29.120 --> 00:02:32.530 
+with the curly braces you opened it now
+one<00:02:29.510> thing<00:02:29.690> to<00:02:29.750> note<00:02:29.900> is<00:02:30.290> that<00:02:30.370> in<00:02:31.370> robot<00:02:32.270> c
+
+00:02:32.530 --> 00:02:32.540 
+one thing to note is that in robot c
+
+00:02:32.540 --> 00:02:35.080 
+one thing to note is that in robot c
+after<00:02:33.080> you've<00:02:33.980> opened<00:02:34.130> your<00:02:34.430> program<00:02:34.880> every
+
+00:02:35.080 --> 00:02:35.090 
+after you've opened your program every
+
+00:02:35.090 --> 00:02:37.930 
+after you've opened your program every
+line<00:02:35.630> of<00:02:35.660> code<00:02:35.840> ends<00:02:36.530> with<00:02:36.650> a<00:02:36.680> semicolon<00:02:37.040> so
+
+00:02:37.930 --> 00:02:37.940 
+line of code ends with a semicolon so
+
+00:02:37.940 --> 00:02:39.760 
+line of code ends with a semicolon so
+throughout<00:02:38.690> the<00:02:38.870> program<00:02:39.230> I'm<00:02:39.410> going<00:02:39.560> to<00:02:39.620> end
+
+00:02:39.760 --> 00:02:39.770 
+throughout the program I'm going to end
+
+00:02:39.770 --> 00:02:41.500 
+throughout the program I'm going to end
+each<00:02:40.010> of<00:02:40.190> my<00:02:40.310> lines<00:02:40.520> with<00:02:40.700> a<00:02:40.760> semicolon
+
+00:02:41.500 --> 00:02:41.510 
+each of my lines with a semicolon
+
+00:02:41.510 --> 00:02:43.690 
+each of my lines with a semicolon
+now<00:02:42.110> we're<00:02:42.830> gonna<00:02:42.950> write<00:02:43.220> a<00:02:43.250> very<00:02:43.640> simple
+
+00:02:43.690 --> 00:02:43.700 
+now we're gonna write a very simple
+
+00:02:43.700 --> 00:02:46.360 
+now we're gonna write a very simple
+program<00:02:44.270> to<00:02:44.900> make<00:02:45.080> our<00:02:45.230> robot<00:02:45.590> go<00:02:45.740> forward<00:02:46.220> and
+
+00:02:46.360 --> 00:02:46.370 
+program to make our robot go forward and
+
+00:02:46.370 --> 00:02:48.130 
+program to make our robot go forward and
+the<00:02:46.850> first<00:02:47.090> thing<00:02:47.300> we<00:02:47.420> need<00:02:47.600> to<00:02:47.630> do<00:02:47.810> to<00:02:47.990> do<00:02:48.110> that
+
+00:02:48.130 --> 00:02:48.140 
+the first thing we need to do to do that
+
+00:02:48.140 --> 00:02:50.620 
+the first thing we need to do to do that
+is<00:02:48.530> turn<00:02:49.100> on<00:02:49.250> our<00:02:49.400> motors<00:02:49.730> and<00:02:49.970> the<00:02:50.240> way<00:02:50.330> you<00:02:50.390> do
+
+00:02:50.620 --> 00:02:50.630 
+is turn on our motors and the way you do
+
+00:02:50.630 --> 00:02:53.530 
+is turn on our motors and the way you do
+that<00:02:50.810> is<00:02:50.990> you<00:02:51.110> type<00:02:51.350> motor<00:02:52.210> do<00:02:53.210> a<00:02:53.240> square
+
+00:02:53.530 --> 00:02:53.540 
+that is you type motor do a square
+
+00:02:53.540 --> 00:02:56.290 
+that is you type motor do a square
+bracket<00:02:53.780> and<00:02:54.170> then<00:02:54.560> specify<00:02:55.070> which<00:02:55.280> motor<00:02:55.550> so
+
+00:02:56.290 --> 00:02:56.300 
+bracket and then specify which motor so
+
+00:02:56.300 --> 00:02:57.670 
+bracket and then specify which motor so
+we're<00:02:56.450> gonna<00:02:56.570> say<00:02:56.870> motor<00:02:57.170> D
+
+00:02:57.670 --> 00:02:57.680 
+we're gonna say motor D
+
+00:02:57.680 --> 00:03:01.420 
+we're gonna say motor D
+close<00:02:58.310> the<00:02:58.520> bracket<00:02:59.290> equals<00:03:00.290> and<00:03:00.620> now<00:03:00.650> you're
+
+00:03:01.420 --> 00:03:01.430 
+close the bracket equals and now you're
+
+00:03:01.430 --> 00:03:03.250 
+close the bracket equals and now you're
+gonna<00:03:01.580> set<00:03:01.910> the<00:03:02.120> power<00:03:02.360> of<00:03:02.630> the<00:03:02.720> motor<00:03:02.900> so
+
+00:03:03.250 --> 00:03:03.260 
+gonna set the power of the motor so
+
+00:03:03.260 --> 00:03:05.350 
+gonna set the power of the motor so
+we're<00:03:03.410> going<00:03:03.500> to<00:03:03.590> set<00:03:03.770> it<00:03:03.800> to<00:03:03.920> 100%<00:03:04.460> power<00:03:04.970> and
+
+00:03:05.350 --> 00:03:05.360 
+we're going to set it to 100% power and
+
+00:03:05.360 --> 00:03:07.870 
+we're going to set it to 100% power and
+we're<00:03:06.050> going<00:03:06.170> to<00:03:06.230> end<00:03:06.380> with<00:03:06.500> a<00:03:06.650> semicolon<00:03:06.980> and
+
+00:03:07.870 --> 00:03:07.880 
+we're going to end with a semicolon and
+
+00:03:07.880 --> 00:03:09.340 
+we're going to end with a semicolon and
+we're<00:03:08.390> going<00:03:08.510> to<00:03:08.570> do<00:03:08.630> the<00:03:08.750> same<00:03:08.900> thing<00:03:09.170> for
+
+00:03:09.340 --> 00:03:09.350 
+we're going to do the same thing for
+
+00:03:09.350 --> 00:03:17.950 
+we're going to do the same thing for
+motor<00:03:09.560> eat
+
+00:03:17.950 --> 00:03:17.960 
+
+00:03:17.960 --> 00:03:21.890 
+
+okay<00:03:18.960> so<00:03:19.590> now<00:03:19.830> to<00:03:20.490> tell<00:03:20.700> the<00:03:20.880> robot<00:03:21.000> how<00:03:21.510> long
+
+00:03:21.890 --> 00:03:21.900 
+okay so now to tell the robot how long
+
+00:03:21.900 --> 00:03:24.110 
+okay so now to tell the robot how long
+you<00:03:22.140> want<00:03:22.350> the<00:03:22.410> motors<00:03:22.740> to<00:03:22.770> be<00:03:22.980> on<00:03:23.160> for<00:03:23.490> or<00:03:23.730> how
+
+00:03:24.110 --> 00:03:24.120 
+you want the motors to be on for or how
+
+00:03:24.120 --> 00:03:26.030 
+you want the motors to be on for or how
+long<00:03:24.300> you<00:03:24.480> want<00:03:24.630> it<00:03:24.660> to<00:03:24.810> go<00:03:24.930> forward<00:03:25.230> for<00:03:25.530> you
+
+00:03:26.030 --> 00:03:26.040 
+long you want it to go forward for you
+
+00:03:26.040 --> 00:03:28.190 
+long you want it to go forward for you
+put<00:03:26.250> in<00:03:26.340> a<00:03:26.520> weight<00:03:26.760> statement<00:03:27.330> so<00:03:27.810> you<00:03:27.870> type
+
+00:03:28.190 --> 00:03:28.200 
+put in a weight statement so you type
+
+00:03:28.200 --> 00:03:30.890 
+put in a weight statement so you type
+weight<00:03:28.740> and<00:03:29.240> we're<00:03:30.240> gonna<00:03:30.330> do<00:03:30.600> it<00:03:30.630> in
+
+00:03:30.890 --> 00:03:30.900 
+weight and we're gonna do it in
+
+00:03:30.900 --> 00:03:33.980 
+weight and we're gonna do it in
+milliseconds<00:03:31.800> and<00:03:32.370> then<00:03:33.060> in<00:03:33.210> parentheses<00:03:33.780> you
+
+00:03:33.980 --> 00:03:33.990 
+milliseconds and then in parentheses you
+
+00:03:33.990 --> 00:03:35.810 
+milliseconds and then in parentheses you
+put<00:03:34.230> how<00:03:34.500> many<00:03:34.560> milliseconds<00:03:35.370> you<00:03:35.430> wanted<00:03:35.730> to
+
+00:03:35.810 --> 00:03:35.820 
+put how many milliseconds you wanted to
+
+00:03:35.820 --> 00:03:37.700 
+put how many milliseconds you wanted to
+wait<00:03:35.940> for<00:03:36.000> so<00:03:36.720> let's<00:03:36.900> say<00:03:37.050> we<00:03:37.170> wanted<00:03:37.410> to<00:03:37.470> wait
+
+00:03:37.700 --> 00:03:37.710 
+wait for so let's say we wanted to wait
+
+00:03:37.710 --> 00:03:41.920 
+wait for so let's say we wanted to wait
+for<00:03:37.820> 1,000<00:03:38.820> milliseconds<00:03:40.700> oops
+
+00:03:41.920 --> 00:03:41.930 
+for 1,000 milliseconds oops
+
+00:03:41.930 --> 00:03:44.870 
+for 1,000 milliseconds oops
+10,000<00:03:42.930> all<00:03:43.680> right<00:03:43.860> so<00:03:44.280> let's<00:03:44.430> say<00:03:44.550> we<00:03:44.670> wanted
+
+00:03:44.870 --> 00:03:44.880 
+10,000 all right so let's say we wanted
+
+00:03:44.880 --> 00:03:46.580 
+10,000 all right so let's say we wanted
+to<00:03:44.970> make<00:03:45.060> it<00:03:45.090> go<00:03:45.270> for<00:03:45.480> 10,000<00:03:46.020> milliseconds
+
+00:03:46.580 --> 00:03:46.590 
+to make it go for 10,000 milliseconds
+
+00:03:46.590 --> 00:03:50.449 
+to make it go for 10,000 milliseconds
+and<00:03:47.690> then<00:03:48.690> after<00:03:49.620> we<00:03:49.740> were<00:03:49.800> done<00:03:49.890> waiting<00:03:50.280> for
+
+00:03:50.449 --> 00:03:50.459 
+and then after we were done waiting for
+
+00:03:50.459 --> 00:03:51.740 
+and then after we were done waiting for
+ten<00:03:50.610> thousand<00:03:50.970> milliseconds<00:03:51.420> we're<00:03:51.570> going<00:03:51.690> to
+
+00:03:51.740 --> 00:03:51.750 
+ten thousand milliseconds we're going to
+
+00:03:51.750 --> 00:03:59.420 
+ten thousand milliseconds we're going to
+turn<00:03:51.930> off<00:03:52.110> our<00:03:52.140> motors<00:03:56.750> and<00:03:58.070> the<00:03:59.070> way<00:03:59.160> you<00:03:59.220> do
+
+00:03:59.420 --> 00:03:59.430 
+turn off our motors and the way you do
+
+00:03:59.430 --> 00:04:00.860 
+turn off our motors and the way you do
+that<00:03:59.550> is<00:03:59.760> you<00:03:59.880> set<00:04:00.090> the<00:04:00.120> power<00:04:00.360> of<00:04:00.510> the<00:04:00.630> motors
+
+00:04:00.860 --> 00:04:00.870 
+that is you set the power of the motors
+
+00:04:00.870 --> 00:04:07.310 
+that is you set the power of the motors
+to<00:04:00.900> zero<00:04:01.440> instead<00:04:01.830> of<00:04:01.890> 100<00:04:06.110> now<00:04:07.110> we're<00:04:07.230> gonna
+
+00:04:07.310 --> 00:04:07.320 
+to zero instead of 100 now we're gonna
+
+00:04:07.320 --> 00:04:10.490 
+to zero instead of 100 now we're gonna
+do<00:04:07.440> the<00:04:07.530> same<00:04:07.709> thing<00:04:07.950> for<00:04:08.100> motor<00:04:08.310> II<00:04:09.380> set<00:04:10.380> the
+
+00:04:10.490 --> 00:04:10.500 
+do the same thing for motor II set the
+
+00:04:10.500 --> 00:04:15.920 
+do the same thing for motor II set the
+power<00:04:10.739> to<00:04:10.920> zero<00:04:11.870> and<00:04:14.000> we<00:04:15.000> have<00:04:15.120> to<00:04:15.239> close<00:04:15.690> our
+
+00:04:15.920 --> 00:04:15.930 
+power to zero and we have to close our
+
+00:04:15.930 --> 00:04:17.720 
+power to zero and we have to close our
+program<00:04:16.109> with<00:04:16.560> a<00:04:16.590> closing<00:04:16.980> curly<00:04:17.100> brace<00:04:17.430> and
+
+00:04:17.720 --> 00:04:17.730 
+program with a closing curly brace and
+
+00:04:17.730 --> 00:04:20.330 
+program with a closing curly brace and
+now<00:04:18.239> this<00:04:18.450> program<00:04:18.930> makes<00:04:19.650> our<00:04:19.859> robot<00:04:20.190> go
+
+00:04:20.330 --> 00:04:20.340 
+now this program makes our robot go
+
+00:04:20.340 --> 00:04:22.640 
+now this program makes our robot go
+forward<00:04:20.729> because<00:04:21.299> what<00:04:21.450> we<00:04:21.570> did<00:04:21.750> is<00:04:21.989> we<00:04:22.019> turned
+
+00:04:22.640 --> 00:04:22.650 
+forward because what we did is we turned
+
+00:04:22.650 --> 00:04:24.770 
+forward because what we did is we turned
+on<00:04:22.800> both<00:04:23.010> of<00:04:23.220> our<00:04:23.310> motors<00:04:23.669> and<00:04:23.970> while<00:04:24.630> they
+
+00:04:24.770 --> 00:04:24.780 
+on both of our motors and while they
+
+00:04:24.780 --> 00:04:26.750 
+on both of our motors and while they
+were<00:04:24.840> on<00:04:25.050> we<00:04:25.440> waited<00:04:25.800> for<00:04:25.830> 10,000
+
+00:04:26.750 --> 00:04:26.760 
+were on we waited for 10,000
+
+00:04:26.760 --> 00:04:28.790 
+were on we waited for 10,000
+milliseconds<00:04:27.479> and<00:04:27.600> then<00:04:28.050> we<00:04:28.140> turned<00:04:28.440> off<00:04:28.620> our
+
+00:04:28.790 --> 00:04:28.800 
+milliseconds and then we turned off our
+
+00:04:28.800 --> 00:04:31.550 
+milliseconds and then we turned off our
+motors<00:04:29.210> so<00:04:30.210> let's<00:04:30.419> save<00:04:30.720> and<00:04:30.960> compile<00:04:31.350> this
+
+00:04:31.550 --> 00:04:31.560 
+motors so let's save and compile this
+
+00:04:31.560 --> 00:04:35.420 
+motors so let's save and compile this
+program<00:04:31.740> just<00:04:32.490> to<00:04:32.610> prove<00:04:32.880> that<00:04:32.940> it<00:04:33.600> does<00:04:34.500> it<00:04:34.919> is
+
+00:04:35.420 --> 00:04:35.430 
+program just to prove that it does it is
+
+00:04:35.430 --> 00:04:43.550 
+program just to prove that it does it is
+written<00:04:35.669> correctly<00:04:35.970> and<00:04:36.450> it<00:04:36.690> is<00:04:41.870> okay<00:04:42.870> so<00:04:43.410> now
+
+00:04:43.550 --> 00:04:43.560 
+written correctly and it is okay so now
+
+00:04:43.560 --> 00:04:45.920 
+written correctly and it is okay so now
+let's<00:04:44.220> write<00:04:44.460> a<00:04:44.520> program<00:04:44.669> to<00:04:45.270> go<00:04:45.390> backwards
+
+00:04:45.920 --> 00:04:45.930 
+let's write a program to go backwards
+
+00:04:45.930 --> 00:04:48.230 
+let's write a program to go backwards
+the<00:04:46.620> program<00:04:47.070> is<00:04:47.280> going<00:04:47.430> to<00:04:47.520> be<00:04:47.610> exactly<00:04:48.060> the
+
+00:04:48.230 --> 00:04:48.240 
+the program is going to be exactly the
+
+00:04:48.240 --> 00:04:50.210 
+the program is going to be exactly the
+same<00:04:48.419> as<00:04:48.570> this<00:04:48.690> forward<00:04:48.930> program<00:04:49.410> except
+
+00:04:50.210 --> 00:04:50.220 
+same as this forward program except
+
+00:04:50.220 --> 00:04:52.400 
+same as this forward program except
+instead<00:04:50.640> of<00:04:50.760> setting<00:04:51.090> the<00:04:51.180> motors<00:04:51.450> to<00:04:51.660> 100%
+
+00:04:52.400 --> 00:04:52.410 
+instead of setting the motors to 100%
+
+00:04:52.410 --> 00:04:54.800 
+instead of setting the motors to 100%
+you're<00:04:53.190> going<00:04:53.340> to<00:04:53.400> set<00:04:53.610> the<00:04:53.640> motors<00:04:54.030> to<00:04:54.270> minus
+
+00:04:54.800 --> 00:04:54.810 
+you're going to set the motors to minus
+
+00:04:54.810 --> 00:04:57.980 
+you're going to set the motors to minus
+100%<00:04:55.290> power<00:04:55.740> and<00:04:56.150> that'll<00:04:57.150> put<00:04:57.360> your<00:04:57.510> robot<00:04:57.810> in
+
+00:04:57.980 --> 00:04:57.990 
+100% power and that'll put your robot in
+
+00:04:57.990 --> 00:05:00.500 
+100% power and that'll put your robot in
+Reverse<00:04:58.460> in<00:04:59.460> other<00:04:59.760> words<00:05:00.000> make<00:05:00.240> it<00:05:00.390> go
+
+00:05:00.500 --> 00:05:00.510 
+Reverse in other words make it go
+
+00:05:00.510 --> 00:05:06.050 
+Reverse in other words make it go
+backwards
+
+00:05:06.050 --> 00:05:06.060 
+
+00:05:06.060 --> 00:05:09.119 
+
+so<00:05:07.060> now<00:05:07.240> this<00:05:07.720> is<00:05:07.780> going<00:05:08.080> to<00:05:08.169> get<00:05:08.319> a<00:05:08.500> little<00:05:08.830> bit
+
+00:05:09.119 --> 00:05:09.129 
+so now this is going to get a little bit
+
+00:05:09.129 --> 00:05:11.430 
+so now this is going to get a little bit
+trickier<00:05:09.520> we're<00:05:10.270> gonna<00:05:10.419> write<00:05:10.690> programs<00:05:11.199> to
+
+00:05:11.430 --> 00:05:11.440 
+trickier we're gonna write programs to
+
+00:05:11.440 --> 00:05:12.659 
+trickier we're gonna write programs to
+go<00:05:11.560> left<00:05:11.889> and<00:05:12.099> right
+
+00:05:12.659 --> 00:05:12.669 
+go left and right
+
+00:05:12.669 --> 00:05:14.730 
+go left and right
+so<00:05:13.030> first<00:05:13.330> let's<00:05:13.840> write<00:05:13.960> a<00:05:14.020> program<00:05:14.289> to<00:05:14.500> go
+
+00:05:14.730 --> 00:05:14.740 
+so first let's write a program to go
+
+00:05:14.740 --> 00:05:17.520 
+so first let's write a program to go
+left<00:05:15.210> now<00:05:16.210> let's<00:05:16.629> look<00:05:16.780> at<00:05:16.900> our<00:05:16.990> robot<00:05:17.349> really
+
+00:05:17.520 --> 00:05:17.530 
+left now let's look at our robot really
+
+00:05:17.530 --> 00:05:19.409 
+left now let's look at our robot really
+quickly<00:05:17.919> if<00:05:18.220> this<00:05:18.669> is<00:05:18.849> the<00:05:18.970> front<00:05:19.210> of<00:05:19.300> our
+
+00:05:19.409 --> 00:05:19.419 
+quickly if this is the front of our
+
+00:05:19.419 --> 00:05:22.499 
+quickly if this is the front of our
+robot<00:05:19.810> to<00:05:20.050> make<00:05:20.620> the<00:05:20.830> robot<00:05:21.190> turn<00:05:21.490> left<00:05:21.879> we<00:05:22.330> can
+
+00:05:22.499 --> 00:05:22.509 
+robot to make the robot turn left we can
+
+00:05:22.509 --> 00:05:26.249 
+robot to make the robot turn left we can
+do<00:05:22.659> one<00:05:23.050> of<00:05:23.259> two<00:05:23.650> things<00:05:23.849> we<00:05:24.849> can<00:05:25.030> either<00:05:25.330> turn
+
+00:05:26.249 --> 00:05:26.259 
+do one of two things we can either turn
+
+00:05:26.259 --> 00:05:29.730 
+do one of two things we can either turn
+on<00:05:26.560> this<00:05:27.250> motor<00:05:27.580> and<00:05:28.000> turn<00:05:28.750> this<00:05:29.020> motor<00:05:29.349> on<00:05:29.560> in
+
+00:05:29.730 --> 00:05:29.740 
+on this motor and turn this motor on in
+
+00:05:29.740 --> 00:05:32.399 
+on this motor and turn this motor on in
+Reverse<00:05:30.159> so<00:05:31.120> make<00:05:31.300> this<00:05:31.479> wheel<00:05:31.690> go<00:05:31.930> backwards
+
+00:05:32.399 --> 00:05:32.409 
+Reverse so make this wheel go backwards
+
+00:05:32.409 --> 00:05:35.490 
+Reverse so make this wheel go backwards
+and<00:05:32.620> this<00:05:32.800> will<00:05:32.979> go<00:05:33.159> forwards<00:05:33.699> or<00:05:34.110> we<00:05:35.110> can<00:05:35.289> turn
+
+00:05:35.490 --> 00:05:35.500 
+and this will go forwards or we can turn
+
+00:05:35.500 --> 00:05:38.010 
+and this will go forwards or we can turn
+this<00:05:35.710> wheel<00:05:35.979> on<00:05:36.129> forwards<00:05:36.729> and<00:05:36.969> keep<00:05:37.750> this
+
+00:05:38.010 --> 00:05:38.020 
+this wheel on forwards and keep this
+
+00:05:38.020 --> 00:05:41.730 
+this wheel on forwards and keep this
+motor<00:05:38.800> off<00:05:39.659> so<00:05:40.659> let's<00:05:40.960> write<00:05:41.229> both<00:05:41.469> of<00:05:41.650> those
+
+00:05:41.730 --> 00:05:41.740 
+motor off so let's write both of those
+
+00:05:41.740 --> 00:05:44.969 
+motor off so let's write both of those
+programs<00:05:42.719> so<00:05:43.719> to<00:05:43.780> make<00:05:44.020> the<00:05:44.169> robot<00:05:44.440> turn<00:05:44.650> left
+
+00:05:44.969 --> 00:05:44.979 
+programs so to make the robot turn left
+
+00:05:44.979 --> 00:05:48.480 
+programs so to make the robot turn left
+we<00:05:45.610> can<00:05:45.789> turn<00:05:46.030> motor<00:05:46.360> D<00:05:46.629> on<00:05:46.810> forwards<00:05:47.440> and<00:05:47.680> turn
+
+00:05:48.480 --> 00:05:48.490 
+we can turn motor D on forwards and turn
+
+00:05:48.490 --> 00:05:51.809 
+we can turn motor D on forwards and turn
+motor<00:05:48.729> E<00:05:49.060> on<00:05:49.539> in<00:05:49.810> Reverse<00:05:50.259> like<00:05:50.770> that<00:05:51.009> and<00:05:51.250> this
+
+00:05:51.809 --> 00:05:51.819 
+motor E on in Reverse like that and this
+
+00:05:51.819 --> 00:05:53.670 
+motor E on in Reverse like that and this
+program<00:05:52.090> would<00:05:52.449> make<00:05:52.659> our<00:05:52.840> robot<00:05:53.199> turn<00:05:53.409> left
+
+00:05:53.670 --> 00:05:53.680 
+program would make our robot turn left
+
+00:05:53.680 --> 00:05:57.450 
+program would make our robot turn left
+or<00:05:54.039> if<00:05:54.969> we<00:05:55.780> just<00:05:56.020> take<00:05:56.319> out<00:05:56.530> motor<00:05:56.949> a<00:05:57.219> all
+
+00:05:57.450 --> 00:05:57.460 
+or if we just take out motor a all
+
+00:05:57.460 --> 00:06:01.499 
+or if we just take out motor a all
+together<00:05:57.849> and<00:05:58.500> just<00:05:59.500> turn<00:05:59.710> on<00:05:59.860> motor<00:06:00.159> D<00:06:00.509> that
+
+00:06:01.499 --> 00:06:01.509 
+together and just turn on motor D that
+
+00:06:01.509 --> 00:06:08.600 
+together and just turn on motor D that
+could<00:06:01.690> also<00:06:01.870> make<00:06:02.169> our<00:06:02.490> robot<00:06:03.490> turn<00:06:03.729> left<00:06:03.940> and
+
+00:06:08.600 --> 00:06:08.610 
+
+00:06:08.610 --> 00:06:11.040 
+
+the<00:06:09.610> same<00:06:09.819> thing<00:06:10.029> would<00:06:10.150> obviously<00:06:10.569> apply<00:06:10.840> for
+
+00:06:11.040 --> 00:06:11.050 
+the same thing would obviously apply for
+
+00:06:11.050 --> 00:06:13.080 
+the same thing would obviously apply for
+a<00:06:11.080> right<00:06:11.319> turn<00:06:11.590> except<00:06:12.250> instead<00:06:12.460> of<00:06:12.550> motor<00:06:12.819> D
+
+00:06:13.080 --> 00:06:13.090 
+a right turn except instead of motor D
+
+00:06:13.090 --> 00:06:16.260 
+a right turn except instead of motor D
+it<00:06:13.360> would<00:06:13.449> be<00:06:13.599> motor<00:06:13.810> e<00:06:14.699> thanks<00:06:15.699> so<00:06:15.819> much<00:06:15.849> for
+
+00:06:16.260 --> 00:06:16.270 
+it would be motor e thanks so much for
+
+00:06:16.270 --> 00:06:18.389 
+it would be motor e thanks so much for
+listening
+

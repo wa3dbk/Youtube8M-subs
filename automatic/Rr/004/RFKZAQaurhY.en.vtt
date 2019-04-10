@@ -1,0 +1,1103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.000 
+
+how's<00:00:00.420> it<00:00:00.599> going<00:00:00.659> guys<00:00:01.020> my<00:00:01.290> name<00:00:01.439> is<00:00:01.500> Micah<00:00:01.800> and
+
+00:00:02.000 --> 00:00:02.010 
+how's it going guys my name is Micah and
+
+00:00:02.010 --> 00:00:04.700 
+how's it going guys my name is Micah and
+this<00:00:02.129> is<00:00:02.250> going<00:00:02.490> to<00:00:02.669> be<00:00:02.850> the<00:00:03.120> 18th<00:00:03.959> video<00:00:04.380> in
+
+00:00:04.700 --> 00:00:04.710 
+this is going to be the 18th video in
+
+00:00:04.710 --> 00:00:06.559 
+this is going to be the 18th video in
+this<00:00:04.830> 2d<00:00:05.250> iphone<00:00:05.580> game<00:00:05.759> programming<00:00:06.150> series
+
+00:00:06.559 --> 00:00:06.569 
+this 2d iphone game programming series
+
+00:00:06.569 --> 00:00:08.960 
+this 2d iphone game programming series
+in<00:00:06.839> this<00:00:07.560> video<00:00:07.740> we<00:00:08.069> are<00:00:08.099> going<00:00:08.189> to<00:00:08.519> cover<00:00:08.760> the
+
+00:00:08.960 --> 00:00:08.970 
+in this video we are going to cover the
+
+00:00:08.970 --> 00:00:10.490 
+in this video we are going to cover the
+high<00:00:09.120> score<00:00:09.420> label<00:00:09.750> so<00:00:09.960> it<00:00:10.080> is<00:00:10.170> going<00:00:10.290> to<00:00:10.469> be
+
+00:00:10.490 --> 00:00:10.500 
+high score label so it is going to be
+
+00:00:10.500 --> 00:00:13.490 
+high score label so it is going to be
+going<00:00:10.800> up<00:00:10.980> right<00:00:11.280> here<00:00:12.090> and<00:00:12.240> it's<00:00:13.200> going<00:00:13.410> to
+
+00:00:13.490 --> 00:00:13.500 
+going up right here and it's going to
+
+00:00:13.500 --> 00:00:16.060 
+going up right here and it's going to
+update<00:00:13.650> itself<00:00:14.130> every<00:00:14.790> time<00:00:14.969> we<00:00:15.240> score<00:00:15.630> a
+
+00:00:16.060 --> 00:00:16.070 
+update itself every time we score a
+
+00:00:16.070 --> 00:00:19.519 
+update itself every time we score a
+score<00:00:17.070> higher<00:00:17.310> than<00:00:17.340> our<00:00:17.609> high<00:00:17.760> score<00:00:18.000> so<00:00:18.529> to
+
+00:00:19.519 --> 00:00:19.529 
+score higher than our high score so to
+
+00:00:19.529 --> 00:00:20.929 
+score higher than our high score so to
+start<00:00:19.590> we're<00:00:20.070> going<00:00:20.279> to<00:00:20.369> go<00:00:20.490> into<00:00:20.640> our<00:00:20.730> my
+
+00:00:20.929 --> 00:00:20.939 
+start we're going to go into our my
+
+00:00:20.939 --> 00:00:23.689 
+start we're going to go into our my
+scene<00:00:21.210> implementation<00:00:21.869> file<00:00:22.080> and<00:00:22.699> we're
+
+00:00:23.689 --> 00:00:23.699 
+scene implementation file and we're
+
+00:00:23.699 --> 00:00:26.300 
+scene implementation file and we're
+going<00:00:23.939> to<00:00:24.180> kind<00:00:25.080> of<00:00:25.199> organize<00:00:25.380> this<00:00:25.830> again<00:00:26.130> I'm
+
+00:00:26.300 --> 00:00:26.310 
+going to kind of organize this again I'm
+
+00:00:26.310 --> 00:00:29.150 
+going to kind of organize this again I'm
+going<00:00:26.430> to<00:00:26.490> create<00:00:26.789> a<00:00:26.849> new<00:00:26.970> method<00:00:27.480> called<00:00:28.160> load
+
+00:00:29.150 --> 00:00:29.160 
+going to create a new method called load
+
+00:00:29.160 --> 00:00:32.299 
+going to create a new method called load
+score<00:00:29.609> labels<00:00:30.199> and<00:00:31.199> this<00:00:31.800> is<00:00:31.920> just<00:00:32.040> what<00:00:32.219> we're
+
+00:00:32.299 --> 00:00:32.309 
+score labels and this is just what we're
+
+00:00:32.309 --> 00:00:36.459 
+score labels and this is just what we're
+going<00:00:32.430> to<00:00:32.489> load<00:00:32.669> up<00:00:32.910> our<00:00:33.120> points<00:00:33.899> label<00:00:34.290> and
+
+00:00:36.459 --> 00:00:36.469 
+going to load up our points label and
+
+00:00:36.469 --> 00:00:38.780 
+going to load up our points label and
+create<00:00:37.469> our<00:00:37.710> high<00:00:37.980> scorer<00:00:38.280> label<00:00:38.550> and<00:00:38.700> I'm
+
+00:00:38.780 --> 00:00:38.790 
+create our high scorer label and I'm
+
+00:00:38.790 --> 00:00:41.540 
+create our high scorer label and I'm
+going<00:00:38.940> to<00:00:39.000> just<00:00:39.120> put<00:00:39.270> in<00:00:39.450> the<00:00:39.840> self<00:00:40.800> load<00:00:41.160> score
+
+00:00:41.540 --> 00:00:41.550 
+going to just put in the self load score
+
+00:00:41.550 --> 00:00:43.760 
+going to just put in the self load score
+labels<00:00:41.910> right<00:00:42.120> here<00:00:42.540> just<00:00:43.170> so<00:00:43.260> I<00:00:43.290> don't<00:00:43.410> forget
+
+00:00:43.760 --> 00:00:43.770 
+labels right here just so I don't forget
+
+00:00:43.770 --> 00:00:45.979 
+labels right here just so I don't forget
+it<00:00:43.920> like<00:00:44.190> I<00:00:44.430> did<00:00:45.180> last<00:00:45.239> time<00:00:45.600> with<00:00:45.780> a<00:00:45.809> load
+
+00:00:45.979 --> 00:00:45.989 
+it like I did last time with a load
+
+00:00:45.989 --> 00:00:49.910 
+it like I did last time with a load
+clouds<00:00:46.230> method<00:00:46.590> so<00:00:48.170> we're<00:00:49.170> going<00:00:49.320> to<00:00:49.440> create<00:00:49.649> a
+
+00:00:49.910 --> 00:00:49.920 
+clouds method so we're going to create a
+
+00:00:49.920 --> 00:00:52.490 
+clouds method so we're going to create a
+new<00:00:49.950> label<00:00:50.340> the<00:00:50.910> high<00:00:51.629> score<00:00:51.899> label<00:00:52.230> is<00:00:52.289> going
+
+00:00:52.490 --> 00:00:52.500 
+new label the high score label is going
+
+00:00:52.500 --> 00:00:54.650 
+new label the high score label is going
+to<00:00:52.590> be<00:00:52.710> an<00:00:52.980> instance<00:00:53.430> of<00:00:53.610> the<00:00:53.760> ml<00:00:54.059> points<00:00:54.390> label
+
+00:00:54.650 --> 00:00:54.660 
+to be an instance of the ml points label
+
+00:00:54.660 --> 00:00:57.619 
+to be an instance of the ml points label
+as<00:00:54.780> well<00:00:55.489> so<00:00:56.489> we're<00:00:56.610> going<00:00:56.670> to<00:00:56.789> do<00:00:56.879> high<00:00:57.300> score
+
+00:00:57.619 --> 00:00:57.629 
+as well so we're going to do high score
+
+00:00:57.629 --> 00:01:03.830 
+as well so we're going to do high score
+label<00:00:58.020> equals<00:00:59.660> ml<00:01:01.879> points<00:01:02.879> label<00:01:03.300> points
+
+00:01:03.830 --> 00:01:03.840 
+label equals ml points label points
+
+00:01:03.840 --> 00:01:08.230 
+label equals ml points label points
+label<00:01:04.140> with<00:01:04.229> font<00:01:04.470> named<00:01:04.739> game<00:01:05.159> fonts<00:01:06.350> and
+
+00:01:08.230 --> 00:01:08.240 
+label with font named game fonts and
+
+00:01:08.240 --> 00:01:10.520 
+label with font named game fonts and
+we're<00:01:09.240> going<00:01:09.360> to<00:01:09.390> name<00:01:09.689> this<00:01:09.720> so<00:01:10.350> it's<00:01:10.439> going
+
+00:01:10.520 --> 00:01:10.530 
+we're going to name this so it's going
+
+00:01:10.530 --> 00:01:12.260 
+we're going to name this so it's going
+to<00:01:10.590> be<00:01:10.650> high<00:01:10.799> score<00:01:11.040> label<00:01:11.340> done<00:01:11.490> name<00:01:11.790> equals
+
+00:01:12.260 --> 00:01:12.270 
+to be high score label done name equals
+
+00:01:12.270 --> 00:01:16.480 
+to be high score label done name equals
+high<00:01:12.810> school<00:01:13.200> or<00:01:13.320> label<00:01:14.479> so<00:01:15.479> I<00:01:15.509> think<00:01:15.630> in<00:01:16.110> our
+
+00:01:16.480 --> 00:01:16.490 
+high school or label so I think in our
+
+00:01:16.490 --> 00:01:19.280 
+high school or label so I think in our
+ml<00:01:17.490> points<00:01:17.850> label<00:01:18.180> it<00:01:18.420> looks<00:01:18.659> like<00:01:18.840> i<00:01:18.930> said<00:01:19.170> the
+
+00:01:19.280 --> 00:01:19.290 
+ml points label it looks like i said the
+
+00:01:19.290 --> 00:01:21.050 
+ml points label it looks like i said the
+name<00:01:19.500> property<00:01:19.920> and<00:01:20.100> here<00:01:20.280> two<00:01:20.400> points<00:01:20.729> label
+
+00:01:21.050 --> 00:01:21.060 
+name property and here two points label
+
+00:01:21.060 --> 00:01:23.300 
+name property and here two points label
+I<00:01:21.240> probably<00:01:22.229> shouldn't<00:01:22.680> have<00:01:22.710> done<00:01:22.830> that<00:01:22.979> just
+
+00:01:23.300 --> 00:01:23.310 
+I probably shouldn't have done that just
+
+00:01:23.310 --> 00:01:27.289 
+I probably shouldn't have done that just
+because<00:01:24.799> we<00:01:25.799> are<00:01:25.979> using<00:01:26.159> the<00:01:26.340> ml<00:01:26.580> points<00:01:26.939> label
+
+00:01:27.289 --> 00:01:27.299 
+because we are using the ml points label
+
+00:01:27.299 --> 00:01:29.359 
+because we are using the ml points label
+as<00:01:27.540> a<00:01:27.570> points<00:01:28.259> label<00:01:28.560> and<00:01:28.799> the<00:01:28.860> high<00:01:29.100> score
+
+00:01:29.359 --> 00:01:29.369 
+as a points label and the high score
+
+00:01:29.369 --> 00:01:31.460 
+as a points label and the high score
+label<00:01:29.729> so<00:01:30.299> I'm<00:01:30.390> going<00:01:30.540> to<00:01:30.600> take<00:01:30.720> that<00:01:30.780> out<00:01:30.990> go
+
+00:01:31.460 --> 00:01:31.470 
+label so I'm going to take that out go
+
+00:01:31.470 --> 00:01:33.050 
+label so I'm going to take that out go
+back<00:01:31.619> into<00:01:31.740> the<00:01:31.829> my<00:01:32.009> scene<00:01:32.310> implementation
+
+00:01:33.050 --> 00:01:33.060 
+back into the my scene implementation
+
+00:01:33.060 --> 00:01:35.480 
+back into the my scene implementation
+file<00:01:33.240> and<00:01:33.770> we're<00:01:34.770> going<00:01:34.890> to<00:01:34.950> just<00:01:35.100> set<00:01:35.369> the
+
+00:01:35.480 --> 00:01:35.490 
+file and we're going to just set the
+
+00:01:35.490 --> 00:01:37.609 
+file and we're going to just set the
+name<00:01:35.700> of<00:01:35.880> it<00:01:36.000> right<00:01:36.180> here<00:01:36.210> just<00:01:37.079> to<00:01:37.200> be<00:01:37.320> clear
+
+00:01:37.609 --> 00:01:37.619 
+name of it right here just to be clear
+
+00:01:37.619 --> 00:01:39.950 
+name of it right here just to be clear
+that<00:01:37.680> you<00:01:38.310> can<00:01:38.340> use<00:01:38.700> the<00:01:38.939> ml<00:01:39.180> points<00:01:39.479> label<00:01:39.780> for
+
+00:01:39.950 --> 00:01:39.960 
+that you can use the ml points label for
+
+00:01:39.960 --> 00:01:42.200 
+that you can use the ml points label for
+more<00:01:40.170> than<00:01:40.320> one<00:01:40.759> more<00:01:41.759> than<00:01:41.880> one<00:01:42.000> of<00:01:42.090> these
+
+00:01:42.200 --> 00:01:42.210 
+more than one more than one of these
+
+00:01:42.210 --> 00:01:45.679 
+more than one more than one of these
+labels<00:01:42.860> so<00:01:43.860> now<00:01:44.009> we're<00:01:44.159> going<00:01:44.280> to<00:01:44.460> do<00:01:44.640> the<00:01:45.030> high
+
+00:01:45.679 --> 00:01:45.689 
+labels so now we're going to do the high
+
+00:01:45.689 --> 00:01:49.100 
+labels so now we're going to do the high
+score<00:01:46.020> label<00:01:46.409> dot<00:01:46.799> position<00:01:47.610> equals<00:01:48.110> cgpoint
+
+00:01:49.100 --> 00:01:49.110 
+score label dot position equals cgpoint
+
+00:01:49.110 --> 00:01:51.410 
+score label dot position equals cgpoint
+make<00:01:49.500> we're<00:01:50.280> going<00:01:50.399> to<00:01:50.460> put<00:01:50.579> this<00:01:50.729> at<00:01:50.909> 200
+
+00:01:51.410 --> 00:01:51.420 
+make we're going to put this at 200
+
+00:01:51.420 --> 00:01:53.359 
+make we're going to put this at 200
+instead<00:01:51.689> of<00:01:51.780> minus<00:01:52.049> 200<00:01:52.590> with<00:01:52.979> a<00:01:53.009> height<00:01:53.340> of
+
+00:01:53.359 --> 00:01:53.369 
+instead of minus 200 with a height of
+
+00:01:53.369 --> 00:01:57.800 
+instead of minus 200 with a height of
+100<00:01:54.560> add<00:01:55.560> this<00:01:55.979> to<00:01:56.159> our<00:01:56.250> scene<00:01:56.549> and<00:01:56.880> we<00:01:57.390> get<00:01:57.630> our
+
+00:01:57.800 --> 00:01:57.810 
+100 add this to our scene and we get our
+
+00:01:57.810 --> 00:02:01.459 
+100 add this to our scene and we get our
+high<00:01:57.930> scorer<00:01:58.200> label<00:01:59.750> so<00:02:00.750> cool<00:02:01.110> now<00:02:01.140> we're<00:02:01.350> just
+
+00:02:01.459 --> 00:02:01.469 
+high scorer label so cool now we're just
+
+00:02:01.469 --> 00:02:02.660 
+high scorer label so cool now we're just
+going<00:02:01.590> to<00:02:01.619> have<00:02:01.860> if<00:02:02.189> we<00:02:02.280> run<00:02:02.430> this<00:02:02.520> we're<00:02:02.640> just
+
+00:02:02.660 --> 00:02:02.670 
+going to have if we run this we're just
+
+00:02:02.670 --> 00:02:05.630 
+going to have if we run this we're just
+going<00:02:02.880> to<00:02:02.939> have<00:02:03.060> to<00:02:04.009> two<00:02:05.009> points<00:02:05.310> labels
+
+00:02:05.630 --> 00:02:05.640 
+going to have to two points labels
+
+00:02:05.640 --> 00:02:09.190 
+going to have to two points labels
+they're<00:02:06.060> just<00:02:06.090> going<00:02:06.270> to<00:02:06.390> both<00:02:06.719> be<00:02:06.990> zero<00:02:07.320> um
+
+00:02:09.190 --> 00:02:09.200 
+they're just going to both be zero um
+
+00:02:09.200 --> 00:02:12.170 
+they're just going to both be zero um
+awesome<00:02:10.200> so<00:02:10.770> to<00:02:11.310> distinguish<00:02:11.700> between<00:02:11.849> the
+
+00:02:12.170 --> 00:02:12.180 
+awesome so to distinguish between the
+
+00:02:12.180 --> 00:02:13.610 
+awesome so to distinguish between the
+points<00:02:12.480> label<00:02:12.810> and<00:02:13.020> the<00:02:13.050> high<00:02:13.230> score
+
+00:02:13.610 --> 00:02:13.620 
+points label and the high score
+
+00:02:13.620 --> 00:02:15.680 
+points label and the high score
+we<00:02:13.920> want<00:02:14.099> to<00:02:14.190> kind<00:02:14.340> of<00:02:14.519> let<00:02:15.269> the<00:02:15.420> user<00:02:15.569> know
+
+00:02:15.680 --> 00:02:15.690 
+we want to kind of let the user know
+
+00:02:15.690 --> 00:02:17.539 
+we want to kind of let the user know
+that<00:02:16.019> this<00:02:16.110> is<00:02:16.260> the<00:02:16.379> high<00:02:16.500> score<00:02:16.739> label<00:02:17.099> so
+
+00:02:17.539 --> 00:02:17.549 
+that this is the high score label so
+
+00:02:17.549 --> 00:02:19.430 
+that this is the high score label so
+we're<00:02:17.640> going<00:02:17.730> to<00:02:17.819> put<00:02:18.000> a<00:02:18.030> little<00:02:18.090> label<00:02:18.959> next
+
+00:02:19.430 --> 00:02:19.440 
+we're going to put a little label next
+
+00:02:19.440 --> 00:02:23.630 
+we're going to put a little label next
+to<00:02:19.620> this<00:02:19.769> call<00:02:20.220> the<00:02:20.250> best<00:02:20.959> so<00:02:22.459> this<00:02:23.459> is<00:02:23.489> going
+
+00:02:23.630 --> 00:02:23.640 
+to this call the best so this is going
+
+00:02:23.640 --> 00:02:26.110 
+to this call the best so this is going
+to<00:02:23.730> be<00:02:23.790> pretty<00:02:23.909> standard<00:02:24.450> we're<00:02:25.409> going<00:02:25.500> to<00:02:25.620> do
+
+00:02:26.110 --> 00:02:26.120 
+to be pretty standard we're going to do
+
+00:02:26.120 --> 00:02:29.960 
+to be pretty standard we're going to do
+hi<00:02:27.120> label<00:02:27.750> an<00:02:28.019> actual<00:02:28.470> best<00:02:29.159> label<00:02:29.459> i<00:02:29.580> like<00:02:29.879> the
+
+00:02:29.960 --> 00:02:29.970 
+hi label an actual best label i like the
+
+00:02:29.970 --> 00:02:34.130 
+hi label an actual best label i like the
+word<00:02:30.090> best<00:02:30.540> more<00:02:30.959> than<00:02:31.079> hi<00:02:31.640> i<00:02:32.870> don't<00:02:33.870> know<00:02:33.959> why
+
+00:02:34.130 --> 00:02:34.140 
+word best more than hi i don't know why
+
+00:02:34.140 --> 00:02:37.550 
+word best more than hi i don't know why
+but<00:02:34.220> sk<00:02:35.220> label<00:02:35.519> node<00:02:36.200> same<00:02:37.200> kind<00:02:37.379> of<00:02:37.409> deal
+
+00:02:37.550 --> 00:02:37.560 
+but sk label node same kind of deal
+
+00:02:37.560 --> 00:02:42.740 
+but sk label node same kind of deal
+label<00:02:38.340> node<00:02:38.579> with<00:02:38.819> font<00:02:39.090> named<00:02:39.329> game<00:02:39.870> fonts<00:02:41.750> we
+
+00:02:42.740 --> 00:02:42.750 
+label node with font named game fonts we
+
+00:02:42.750 --> 00:02:47.170 
+label node with font named game fonts we
+are<00:02:42.840> going<00:02:43.110> to<00:02:43.379> set<00:02:44.190> this<00:02:44.340> guy's<00:02:44.640> font<00:02:45.450> size<00:02:45.750> to
+
+00:02:47.170 --> 00:02:47.180 
+are going to set this guy's font size to
+
+00:02:47.180 --> 00:02:50.990 
+are going to set this guy's font size to
+be<00:02:48.180> about<00:02:48.510> 16<00:02:49.379> and<00:02:49.739> that's<00:02:49.859> just<00:02:50.010> a<00:02:50.099> guess<00:02:50.280> we
+
+00:02:50.990 --> 00:02:51.000 
+be about 16 and that's just a guess we
+
+00:02:51.000 --> 00:02:53.300 
+be about 16 and that's just a guess we
+can<00:02:51.150> always<00:02:51.299> change<00:02:51.629> afterwards<00:02:52.099> and<00:02:53.099> we're
+
+00:02:53.300 --> 00:02:53.310 
+can always change afterwards and we're
+
+00:02:53.310 --> 00:02:54.619 
+can always change afterwards and we're
+going<00:02:53.430> to<00:02:53.519> set<00:02:53.670> this<00:02:53.849> best<00:02:54.209> labeled
+
+00:02:54.619 --> 00:02:54.629 
+going to set this best labeled
+
+00:02:54.629 --> 00:02:59.149 
+going to set this best labeled
+opposition<00:02:55.470> equal<00:02:55.980> to<00:02:56.599> cgpoint<00:02:57.599> make<00:02:58.159> let's
+
+00:02:59.149 --> 00:02:59.159 
+opposition equal to cgpoint make let's
+
+00:02:59.159 --> 00:03:01.940 
+opposition equal to cgpoint make let's
+say<00:02:59.340> i<00:02:59.370> minus<00:02:59.790> 30<00:03:00.269> 0<00:03:00.989> because<00:03:01.650> we're<00:03:01.769> going<00:03:01.859> to
+
+00:03:01.940 --> 00:03:01.950 
+say i minus 30 0 because we're going to
+
+00:03:01.950 --> 00:03:03.349 
+say i minus 30 0 because we're going to
+be<00:03:02.010> adding<00:03:02.190> the<00:03:02.430> best<00:03:02.609> label<00:03:02.849> to<00:03:03.090> our<00:03:03.209> high
+
+00:03:03.349 --> 00:03:03.359 
+be adding the best label to our high
+
+00:03:03.359 --> 00:03:04.899 
+be adding the best label to our high
+scorer<00:03:03.629> label<00:03:03.930> we<00:03:04.230> are<00:03:04.379> going<00:03:04.470> to<00:03:04.560> be
+
+00:03:04.899 --> 00:03:04.909 
+scorer label we are going to be
+
+00:03:04.909 --> 00:03:07.039 
+scorer label we are going to be
+positioning<00:03:05.909> it<00:03:06.030> within<00:03:06.239> the<00:03:06.420> high<00:03:06.569> score
+
+00:03:07.039 --> 00:03:07.049 
+positioning it within the high score
+
+00:03:07.049 --> 00:03:08.809 
+positioning it within the high score
+labels<00:03:07.470> coordinate<00:03:08.010> system<00:03:08.400> so<00:03:08.549> it's<00:03:08.700> going
+
+00:03:08.809 --> 00:03:08.819 
+labels coordinate system so it's going
+
+00:03:08.819 --> 00:03:10.039 
+labels coordinate system so it's going
+to<00:03:08.909> start<00:03:09.120> from<00:03:09.269> the<00:03:09.390> center<00:03:09.569> of<00:03:09.720> that<00:03:09.810> high
+
+00:03:10.039 --> 00:03:10.049 
+to start from the center of that high
+
+00:03:10.049 --> 00:03:13.430 
+to start from the center of that high
+score<00:03:10.319> label<00:03:10.590> so<00:03:11.310> we'll<00:03:11.459> do<00:03:11.780> high<00:03:12.780> score<00:03:13.079> label
+
+00:03:13.430 --> 00:03:13.440 
+score label so we'll do high score label
+
+00:03:13.440 --> 00:03:20.770 
+score label so we'll do high score label
+a<00:03:13.879> child<00:03:14.879> s<00:03:15.690> label<00:03:16.099> and<00:03:17.099> we<00:03:17.849> will<00:03:18.000> rerun<00:03:18.480> this
+
+00:03:20.770 --> 00:03:20.780 
+
+00:03:20.780 --> 00:03:24.259 
+
+and<00:03:21.950> it<00:03:22.950> looks<00:03:23.130> like<00:03:23.250> we<00:03:23.340> actually<00:03:23.609> didn't<00:03:23.880> set
+
+00:03:24.259 --> 00:03:24.269 
+and it looks like we actually didn't set
+
+00:03:24.269 --> 00:03:27.500 
+and it looks like we actually didn't set
+our<00:03:24.510> text<00:03:25.169> for<00:03:25.230> best<00:03:25.680> label<00:03:25.950> so<00:03:26.510> nothing's
+
+00:03:27.500 --> 00:03:27.510 
+our text for best label so nothing's
+
+00:03:27.510 --> 00:03:29.569 
+our text for best label so nothing's
+going<00:03:27.690> to<00:03:27.720> show<00:03:27.900> up<00:03:28.019> if<00:03:28.109> you<00:03:28.200> don't<00:03:28.349> do<00:03:28.470> that<00:03:28.650> so
+
+00:03:29.569 --> 00:03:29.579 
+going to show up if you don't do that so
+
+00:03:29.579 --> 00:03:32.589 
+going to show up if you don't do that so
+best<00:03:29.790> label<00:03:30.000> about<00:03:30.180> text<00:03:30.540> equals<00:03:30.810> best<00:03:31.169> and
+
+00:03:32.589 --> 00:03:32.599 
+best label about text equals best and
+
+00:03:32.599 --> 00:03:35.509 
+best label about text equals best and
+now<00:03:33.599> we<00:03:34.200> should<00:03:34.230> have<00:03:34.590> this<00:03:34.739> running<00:03:35.190> and<00:03:35.370> good
+
+00:03:35.509 --> 00:03:35.519 
+now we should have this running and good
+
+00:03:35.519 --> 00:03:37.699 
+now we should have this running and good
+to<00:03:35.609> go<00:03:35.700> so<00:03:36.389> you<00:03:36.419> can<00:03:36.510> see<00:03:36.750> now<00:03:36.900> that<00:03:36.930> the<00:03:37.260> little
+
+00:03:37.699 --> 00:03:37.709 
+to go so you can see now that the little
+
+00:03:37.709 --> 00:03:39.140 
+to go so you can see now that the little
+best<00:03:37.889> category<00:03:38.099> is<00:03:38.430> right<00:03:38.579> there<00:03:38.790> I'm<00:03:38.970> going
+
+00:03:39.140 --> 00:03:39.150 
+best category is right there I'm going
+
+00:03:39.150 --> 00:03:42.020 
+best category is right there I'm going
+to<00:03:39.419> move<00:03:39.569> it<00:03:39.690> over<00:03:39.780> a<00:03:39.959> little<00:03:40.079> bit<00:03:40.290> more<00:03:41.030> let's
+
+00:03:42.020 --> 00:03:42.030 
+to move it over a little bit more let's
+
+00:03:42.030 --> 00:03:44.990 
+to move it over a little bit more let's
+I'm<00:03:42.150> just<00:03:42.299> gonna<00:03:42.389> put<00:03:42.540> that<00:03:42.569> 38<00:03:43.199> and<00:03:44.000> then
+
+00:03:44.990 --> 00:03:45.000 
+I'm just gonna put that 38 and then
+
+00:03:45.000 --> 00:03:47.390 
+I'm just gonna put that 38 and then
+we're<00:03:45.150> just<00:03:45.180> going<00:03:45.569> to<00:03:46.040> just<00:03:47.040> going<00:03:47.129> to<00:03:47.220> call
+
+00:03:47.390 --> 00:03:47.400 
+we're just going to just going to call
+
+00:03:47.400 --> 00:03:50.300 
+we're just going to just going to call
+that<00:03:47.430> good<00:03:48.090> for<00:03:48.510> our<00:03:48.599> label<00:03:48.959> you<00:03:49.799> can<00:03:49.949> raise<00:03:50.160> it
+
+00:03:50.300 --> 00:03:50.310 
+that good for our label you can raise it
+
+00:03:50.310 --> 00:03:51.170 
+that good for our label you can raise it
+up<00:03:50.370> a<00:03:50.459> little<00:03:50.579> bit<00:03:50.699> so<00:03:50.910> it's<00:03:51.060> completely
+
+00:03:51.170 --> 00:03:51.180 
+up a little bit so it's completely
+
+00:03:51.180 --> 00:03:53.900 
+up a little bit so it's completely
+centered<00:03:51.629> but<00:03:51.930> I'm<00:03:52.280> having<00:03:53.280> it<00:03:53.400> kind<00:03:53.669> of<00:03:53.790> a
+
+00:03:53.900 --> 00:03:53.910 
+centered but I'm having it kind of a
+
+00:03:53.910 --> 00:03:55.400 
+centered but I'm having it kind of a
+lined<00:03:54.209> at<00:03:54.480> the<00:03:54.510> bottom<00:03:54.810> of<00:03:54.900> that<00:03:54.959> number<00:03:55.260> there
+
+00:03:55.400 --> 00:03:55.410 
+lined at the bottom of that number there
+
+00:03:55.410 --> 00:04:00.020 
+lined at the bottom of that number there
+is<00:03:55.620> good<00:03:56.040> enough<00:03:56.220> for<00:03:56.280> me<00:03:58.310> so<00:03:59.310> cool<00:03:59.549> now<00:03:59.579> when
+
+00:04:00.020 --> 00:04:00.030 
+is good enough for me so cool now when
+
+00:04:00.030 --> 00:04:03.080 
+is good enough for me so cool now when
+we<00:04:00.680> actually<00:04:01.680> hit<00:04:02.280> one<00:04:02.430> of<00:04:02.519> those<00:04:02.609> blocks<00:04:02.879> and
+
+00:04:03.080 --> 00:04:03.090 
+we actually hit one of those blocks and
+
+00:04:03.090 --> 00:04:05.119 
+we actually hit one of those blocks and
+hit<00:04:03.180> the<00:04:03.299> game<00:04:03.480> over<00:04:03.720> method<00:04:04.049> we<00:04:04.680> want<00:04:04.949> to
+
+00:04:05.119 --> 00:04:05.129 
+hit the game over method we want to
+
+00:04:05.129 --> 00:04:07.039 
+hit the game over method we want to
+update<00:04:05.400> that<00:04:05.579> high<00:04:05.849> score<00:04:06.150> label<00:04:06.449> if<00:04:06.660> our
+
+00:04:07.039 --> 00:04:07.049 
+update that high score label if our
+
+00:04:07.049 --> 00:04:08.750 
+update that high score label if our
+points<00:04:07.560> label<00:04:07.889> is<00:04:08.010> higher<00:04:08.250> than<00:04:08.489> the<00:04:08.549> high
+
+00:04:08.750 --> 00:04:08.760 
+points label is higher than the high
+
+00:04:08.760 --> 00:04:09.920 
+points label is higher than the high
+score<00:04:09.000> label<00:04:09.299> so<00:04:09.419> we're<00:04:09.510> going<00:04:09.599> to<00:04:09.690> create<00:04:09.840> a
+
+00:04:09.920 --> 00:04:09.930 
+score label so we're going to create a
+
+00:04:09.930 --> 00:04:12.619 
+score label so we're going to create a
+new<00:04:09.989> method<00:04:10.379> and<00:04:10.970> it's<00:04:11.970> going<00:04:12.090> to<00:04:12.180> be<00:04:12.359> the
+
+00:04:12.619 --> 00:04:12.629 
+new method and it's going to be the
+
+00:04:12.629 --> 00:04:15.379 
+new method and it's going to be the
+update<00:04:13.109> high<00:04:13.440> score<00:04:13.859> method<00:04:14.280> so<00:04:15.000> we<00:04:15.180> will<00:04:15.329> just
+
+00:04:15.379 --> 00:04:15.389 
+update high score method so we will just
+
+00:04:15.389 --> 00:04:18.879 
+update high score method so we will just
+type<00:04:16.019> that<00:04:16.079> out<00:04:16.549> then<00:04:17.549> we<00:04:17.760> will<00:04:17.910> create<00:04:18.239> the
+
+00:04:18.879 --> 00:04:18.889 
+type that out then we will create the
+
+00:04:18.889 --> 00:04:23.120 
+type that out then we will create the
+update<00:04:19.889> high<00:04:20.039> score<00:04:20.340> method
+
+00:04:23.120 --> 00:04:23.130 
+
+00:04:23.130 --> 00:04:26.480 
+
+and<00:04:24.290> so<00:04:25.290> what<00:04:25.440> this<00:04:25.530> is<00:04:25.590> going<00:04:25.740> to<00:04:25.800> do<00:04:25.950> first<00:04:26.370> we
+
+00:04:26.480 --> 00:04:26.490 
+and so what this is going to do first we
+
+00:04:26.490 --> 00:04:28.640 
+and so what this is going to do first we
+want<00:04:26.640> to<00:04:26.700> do<00:04:26.880> we<00:04:27.300> want<00:04:27.480> to<00:04:27.690> grab<00:04:27.930> our<00:04:28.230> points
+
+00:04:28.640 --> 00:04:28.650 
+want to do we want to grab our points
+
+00:04:28.650 --> 00:04:30.530 
+want to do we want to grab our points
+labels<00:04:29.010> so<00:04:29.400> this<00:04:29.730> is<00:04:29.820> going<00:04:29.910> to<00:04:29.970> be<00:04:30.060> the<00:04:30.180> points
+
+00:04:30.530 --> 00:04:30.540 
+labels so this is going to be the points
+
+00:04:30.540 --> 00:04:35.990 
+labels so this is going to be the points
+label<00:04:30.870> equals<00:04:31.670> ml<00:04:32.670> points<00:04:33.030> label<00:04:34.580> self<00:04:35.580> child
+
+00:04:35.990 --> 00:04:36.000 
+label equals ml points label self child
+
+00:04:36.000 --> 00:04:39.860 
+label equals ml points label self child
+node<00:04:36.210> with<00:04:36.360> name<00:04:36.630> points<00:04:37.200> label<00:04:38.630> so<00:04:39.630> this<00:04:39.750> is
+
+00:04:39.860 --> 00:04:39.870 
+node with name points label so this is
+
+00:04:39.870 --> 00:04:41.780 
+node with name points label so this is
+just<00:04:40.020> going<00:04:40.110> to<00:04:40.200> grab<00:04:40.350> the<00:04:40.980> labels<00:04:41.520> that<00:04:41.760> we
+
+00:04:41.780 --> 00:04:41.790 
+just going to grab the labels that we
+
+00:04:41.790 --> 00:04:45.190 
+just going to grab the labels that we
+created<00:04:42.210> before<00:04:42.590> then<00:04:43.590> the<00:04:43.710> high<00:04:43.890> score<00:04:44.220> label
+
+00:04:45.190 --> 00:04:45.200 
+created before then the high score label
+
+00:04:45.200 --> 00:04:47.900 
+created before then the high score label
+is<00:04:46.200> going<00:04:46.470> to<00:04:46.590> be<00:04:46.680> the<00:04:46.860> same<00:04:47.310> kind<00:04:47.580> of<00:04:47.700> deal
+
+00:04:47.900 --> 00:04:47.910 
+is going to be the same kind of deal
+
+00:04:47.910 --> 00:04:54.490 
+is going to be the same kind of deal
+self<00:04:48.720> child<00:04:49.170> node<00:04:49.410> of<00:04:49.560> name<00:04:50.750> high<00:04:51.750> score<00:04:52.050> label
+
+00:04:54.490 --> 00:04:54.500 
+
+00:04:54.500 --> 00:04:57.740 
+
+so<00:04:55.500> now<00:04:55.920> we're<00:04:56.010> going<00:04:56.100> to<00:04:56.190> check<00:04:56.430> if<00:04:56.750> the
+
+00:04:57.740 --> 00:04:57.750 
+so now we're going to check if the
+
+00:04:57.750 --> 00:05:00.320 
+so now we're going to check if the
+points<00:04:58.290> labels<00:04:58.710> number<00:04:59.430> is<00:04:59.670> higher<00:04:59.940> than<00:05:00.180> the
+
+00:05:00.320 --> 00:05:00.330 
+points labels number is higher than the
+
+00:05:00.330 --> 00:05:04.730 
+points labels number is higher than the
+high<00:05:00.570> score<00:05:01.250> labels<00:05:02.250> number<00:05:02.670> so<00:05:03.000> if<00:05:03.740> points
+
+00:05:04.730 --> 00:05:04.740 
+high score labels number so if points
+
+00:05:04.740 --> 00:05:07.160 
+high score labels number so if points
+label<00:05:05.130> thought<00:05:05.700> number<00:05:06.120> is<00:05:06.360> greater<00:05:06.780> than
+
+00:05:07.160 --> 00:05:07.170 
+label thought number is greater than
+
+00:05:07.170 --> 00:05:10.310 
+label thought number is greater than
+high<00:05:07.470> score<00:05:07.980> labeled<00:05:08.460> number<00:05:08.990> we<00:05:09.990> are<00:05:10.140> going
+
+00:05:10.310 --> 00:05:10.320 
+high score labeled number we are going
+
+00:05:10.320 --> 00:05:13.100 
+high score labeled number we are going
+to<00:05:10.710> want<00:05:10.980> to<00:05:11.280> set<00:05:12.120> the<00:05:12.300> points<00:05:12.750> of<00:05:12.900> the<00:05:12.990> high
+
+00:05:13.100 --> 00:05:13.110 
+to want to set the points of the high
+
+00:05:13.110 --> 00:05:14.900 
+to want to set the points of the high
+score<00:05:13.380> label<00:05:13.710> if<00:05:13.800> you<00:05:13.920> remember<00:05:14.310> in<00:05:14.430> our<00:05:14.520> ml
+
+00:05:14.900 --> 00:05:14.910 
+score label if you remember in our ml
+
+00:05:14.910 --> 00:05:18.140 
+score label if you remember in our ml
+points<00:05:15.270> method<00:05:15.630> ml<00:05:16.320> points<00:05:16.740> label<00:05:17.130> class<00:05:17.850> we
+
+00:05:18.140 --> 00:05:18.150 
+points method ml points label class we
+
+00:05:18.150 --> 00:05:20.450 
+points method ml points label class we
+created<00:05:18.540> this<00:05:18.630> set<00:05:18.930> points<00:05:19.290> method<00:05:19.650> this<00:05:20.280> is
+
+00:05:20.450 --> 00:05:20.460 
+created this set points method this is
+
+00:05:20.460 --> 00:05:21.800 
+created this set points method this is
+where<00:05:20.610> we're<00:05:20.700> going<00:05:20.790> to<00:05:20.880> actually<00:05:21.060> use<00:05:21.540> this
+
+00:05:21.800 --> 00:05:21.810 
+where we're going to actually use this
+
+00:05:21.810 --> 00:05:26.950 
+where we're going to actually use this
+so<00:05:22.620> we're<00:05:22.980> going<00:05:23.100> to<00:05:23.370> do<00:05:23.610> um<00:05:24.470> if<00:05:25.470> this<00:05:25.860> is<00:05:26.070> true
+
+00:05:26.950 --> 00:05:26.960 
+so we're going to do um if this is true
+
+00:05:26.960 --> 00:05:30.800 
+so we're going to do um if this is true
+we're<00:05:27.960> going<00:05:28.200> to<00:05:28.440> do<00:05:29.070> high<00:05:29.400> score<00:05:29.760> label<00:05:30.180> set
+
+00:05:30.800 --> 00:05:30.810 
+we're going to do high score label set
+
+00:05:30.810 --> 00:05:36.320 
+we're going to do high score label set
+points<00:05:34.550> let's<00:05:35.550> make<00:05:35.730> sure<00:05:35.760> we<00:05:35.970> put<00:05:36.120> this<00:05:36.180> in
+
+00:05:36.320 --> 00:05:36.330 
+points let's make sure we put this in
+
+00:05:36.330 --> 00:05:38.000 
+points let's make sure we put this in
+our<00:05:36.390> header<00:05:36.570> file<00:05:36.840> it<00:05:37.140> looks<00:05:37.320> like<00:05:37.470> we<00:05:37.620> did<00:05:37.770> not
+
+00:05:38.000 --> 00:05:38.010 
+our header file it looks like we did not
+
+00:05:38.010 --> 00:05:40.430 
+our header file it looks like we did not
+so<00:05:38.250> we<00:05:38.310> can't<00:05:38.520> actually<00:05:38.640> access<00:05:39.000> that<00:05:39.510> so<00:05:40.230> now
+
+00:05:40.430 --> 00:05:40.440 
+so we can't actually access that so now
+
+00:05:40.440 --> 00:05:42.530 
+so we can't actually access that so now
+we're<00:05:40.620> going<00:05:40.770> so<00:05:41.190> we<00:05:41.280> want<00:05:41.490> to<00:05:41.640> put<00:05:41.970> the<00:05:42.150> set
+
+00:05:42.530 --> 00:05:42.540 
+we're going so we want to put the set
+
+00:05:42.540 --> 00:05:48.440 
+we're going so we want to put the set
+points<00:05:42.930> as<00:05:43.110> well<00:05:44.100> as<00:05:44.280> the<00:05:46.310> reset<00:05:47.310> method<00:05:47.760> into
+
+00:05:48.440 --> 00:05:48.450 
+points as well as the reset method into
+
+00:05:48.450 --> 00:05:51.170 
+points as well as the reset method into
+our<00:05:48.810> header<00:05:49.470> file<00:05:49.740> now<00:05:50.280> this<00:05:50.430> reset<00:05:50.850> method
+
+00:05:51.170 --> 00:05:51.180 
+our header file now this reset method
+
+00:05:51.180 --> 00:05:54.350 
+our header file now this reset method
+because<00:05:51.950> because<00:05:52.950> we<00:05:53.070> just<00:05:53.250> presented<00:05:53.880> a<00:05:54.210> new
+
+00:05:54.350 --> 00:05:54.360 
+because because we just presented a new
+
+00:05:54.360 --> 00:06:00.080 
+because because we just presented a new
+scene<00:05:54.720> in<00:05:55.050> our<00:05:55.200> clear<00:05:55.440> method<00:05:56.930> to<00:05:57.930> our<00:05:58.850> skb<00:05:59.850> you
+
+00:06:00.080 --> 00:06:00.090 
+scene in our clear method to our skb you
+
+00:06:00.090 --> 00:06:01.580 
+scene in our clear method to our skb you
+we're<00:06:00.690> not<00:06:00.810> actually<00:06:00.900> going<00:06:01.050> to<00:06:01.200> have<00:06:01.320> to<00:06:01.380> use
+
+00:06:01.580 --> 00:06:01.590 
+we're not actually going to have to use
+
+00:06:01.590 --> 00:06:04.010 
+we're not actually going to have to use
+this<00:06:01.800> because<00:06:02.540> it<00:06:03.540> basically<00:06:03.660> just
+
+00:06:04.010 --> 00:06:04.020 
+this because it basically just
+
+00:06:04.020 --> 00:06:05.810 
+this because it basically just
+reinitialized<00:06:04.650> as<00:06:04.800> an<00:06:04.890> ml<00:06:05.160> points<00:06:05.430> label<00:06:05.670> it's
+
+00:06:05.810 --> 00:06:05.820 
+reinitialized as an ml points label it's
+
+00:06:05.820 --> 00:06:07.640 
+reinitialized as an ml points label it's
+always<00:06:06.000> good<00:06:06.150> to<00:06:06.180> have<00:06:06.360> a<00:06:06.420> reset<00:06:06.900> method
+
+00:06:07.640 --> 00:06:07.650 
+always good to have a reset method
+
+00:06:07.650 --> 00:06:09.830 
+always good to have a reset method
+though<00:06:07.800> in<00:06:08.040> most<00:06:08.370> of<00:06:08.550> your<00:06:08.730> classes<00:06:08.910> just<00:06:09.600> um
+
+00:06:09.830 --> 00:06:09.840 
+though in most of your classes just um
+
+00:06:09.840 --> 00:06:13.180 
+though in most of your classes just um
+just<00:06:10.730> to<00:06:11.730> have<00:06:12.150> a<00:06:12.180> complete<00:06:12.690> implementation
+
+00:06:13.180 --> 00:06:13.190 
+just to have a complete implementation
+
+00:06:13.190 --> 00:06:15.290 
+just to have a complete implementation
+it's<00:06:14.190> kind<00:06:14.310> of<00:06:14.400> just<00:06:14.550> good<00:06:14.790> to<00:06:14.910> have<00:06:15.060> the
+
+00:06:15.290 --> 00:06:15.300 
+it's kind of just good to have the
+
+00:06:15.300 --> 00:06:18.980 
+it's kind of just good to have the
+method<00:06:15.990> that<00:06:16.110> resets<00:06:16.500> everything<00:06:17.450> so<00:06:18.450> now<00:06:18.930> we
+
+00:06:18.980 --> 00:06:18.990 
+method that resets everything so now we
+
+00:06:18.990 --> 00:06:20.690 
+method that resets everything so now we
+have<00:06:19.080> those<00:06:19.560> in<00:06:19.800> there<00:06:19.980> can<00:06:20.220> go<00:06:20.310> back<00:06:20.430> into<00:06:20.550> our
+
+00:06:20.690 --> 00:06:20.700 
+have those in there can go back into our
+
+00:06:20.700 --> 00:06:23.300 
+have those in there can go back into our
+my<00:06:20.880> scene<00:06:21.210> our<00:06:21.510> set<00:06:22.440> points<00:06:22.800> method<00:06:23.100> should
+
+00:06:23.300 --> 00:06:23.310 
+my scene our set points method should
+
+00:06:23.310 --> 00:06:25.370 
+my scene our set points method should
+work<00:06:23.580> now<00:06:23.790> and<00:06:24.120> we're<00:06:24.780> going<00:06:24.900> to<00:06:24.930> set<00:06:25.140> it<00:06:25.170> to
+
+00:06:25.370 --> 00:06:25.380 
+work now and we're going to set it to
+
+00:06:25.380 --> 00:06:29.420 
+work now and we're going to set it to
+points<00:06:25.860> labeled<00:06:26.250> number<00:06:27.620> if<00:06:28.620> the<00:06:29.100> points
+
+00:06:29.420 --> 00:06:29.430 
+points labeled number if the points
+
+00:06:29.430 --> 00:06:31.730 
+points labeled number if the points
+label<00:06:29.790> has<00:06:30.060> a<00:06:30.090> higher<00:06:30.360> number<00:06:30.660> than<00:06:30.840> our<00:06:31.380> high
+
+00:06:31.730 --> 00:06:31.740 
+label has a higher number than our high
+
+00:06:31.740 --> 00:06:37.749 
+label has a higher number than our high
+scorer<00:06:32.070> labels<00:06:32.430> so<00:06:32.580> we're<00:06:32.729> going<00:06:32.820> to<00:06:32.910> run<00:06:33.060> this
+
+00:06:37.749 --> 00:06:37.759 
+
+00:06:37.759 --> 00:06:39.619 
+
+you're<00:06:38.759> going<00:06:38.879> to<00:06:38.939> see<00:06:39.090> that<00:06:39.300> we're<00:06:39.449> going<00:06:39.539> to
+
+00:06:39.619 --> 00:06:39.629 
+you're going to see that we're going to
+
+00:06:39.629 --> 00:06:42.379 
+you're going to see that we're going to
+jump<00:06:39.810> over<00:06:40.020> one<00:06:40.469> points<00:06:40.830> two<00:06:41.009> points<00:06:41.039> cool<00:06:41.969> and
+
+00:06:42.379 --> 00:06:42.389 
+jump over one points two points cool and
+
+00:06:42.389 --> 00:06:44.510 
+jump over one points two points cool and
+now<00:06:42.539> we<00:06:42.599> are<00:06:42.750> my<00:06:43.139> hit<00:06:43.319> game<00:06:43.500> over<00:06:43.830> the<00:06:44.310> best
+
+00:06:44.510 --> 00:06:44.520 
+now we are my hit game over the best
+
+00:06:44.520 --> 00:06:47.360 
+now we are my hit game over the best
+label<00:06:44.729> gets<00:06:44.969> updated<00:06:45.389> and<00:06:46.069> awesome<00:06:47.069> so<00:06:47.250> that
+
+00:06:47.360 --> 00:06:47.370 
+label gets updated and awesome so that
+
+00:06:47.370 --> 00:06:50.450 
+label gets updated and awesome so that
+all<00:06:47.460> looks<00:06:47.669> great<00:06:47.939> until<00:06:48.629> you<00:06:48.930> hit<00:06:49.259> the<00:06:49.319> tap<00:06:50.189> to
+
+00:06:50.450 --> 00:06:50.460 
+all looks great until you hit the tap to
+
+00:06:50.460 --> 00:06:52.909 
+all looks great until you hit the tap to
+reset<00:06:51.060> deal<00:06:51.900> going<00:06:52.259> on<00:06:52.319> here<00:06:52.560> because<00:06:52.620> you<00:06:52.740> see
+
+00:06:52.909 --> 00:06:52.919 
+reset deal going on here because you see
+
+00:06:52.919 --> 00:06:54.909 
+reset deal going on here because you see
+that<00:06:53.069> it<00:06:53.189> totally<00:06:53.370> resets<00:06:53.939> everything<00:06:54.240> and
+
+00:06:54.909 --> 00:06:54.919 
+that it totally resets everything and
+
+00:06:54.919 --> 00:06:58.070 
+that it totally resets everything and
+it's<00:06:55.919> like<00:06:56.069> our<00:06:56.189> best<00:06:56.340> high<00:06:57.240> score<00:06:57.569> was<00:06:57.840> never
+
+00:06:58.070 --> 00:06:58.080 
+it's like our best high score was never
+
+00:06:58.080 --> 00:07:01.640 
+it's like our best high score was never
+saved<00:06:58.580> so<00:06:59.580> to<00:07:00.240> save<00:07:00.689> this<00:07:00.930> high<00:07:01.139> score<00:07:01.500> we're
+
+00:07:01.640 --> 00:07:01.650 
+saved so to save this high score we're
+
+00:07:01.650 --> 00:07:03.670 
+saved so to save this high score we're
+actually<00:07:01.830> going<00:07:02.069> to<00:07:02.219> need<00:07:02.400> to<00:07:02.430> work<00:07:02.729> with<00:07:02.759> some
+
+00:07:03.670 --> 00:07:03.680 
+actually going to need to work with some
+
+00:07:03.680 --> 00:07:07.580 
+actually going to need to work with some
+some<00:07:04.680> game<00:07:04.919> data<00:07:05.219> so<00:07:05.520> in<00:07:05.639> our<00:07:05.669> next<00:07:06.030> video<00:07:06.590> I'm
+
+00:07:07.580 --> 00:07:07.590 
+some game data so in our next video I'm
+
+00:07:07.590 --> 00:07:10.459 
+some game data so in our next video I'm
+going<00:07:08.039> to<00:07:08.159> go<00:07:08.340> over<00:07:08.449> saving<00:07:09.449> and<00:07:09.689> loading<00:07:10.050> data
+
+00:07:10.459 --> 00:07:10.469 
+going to go over saving and loading data
+
+00:07:10.469 --> 00:07:13.999 
+going to go over saving and loading data
+so<00:07:10.860> even<00:07:11.189> if<00:07:11.279> you<00:07:11.400> close<00:07:11.699> out<00:07:11.879> of<00:07:11.939> this<00:07:12.060> and<00:07:13.009> I'm
+
+00:07:13.999 --> 00:07:14.009 
+so even if you close out of this and I'm
+
+00:07:14.009 --> 00:07:17.619 
+so even if you close out of this and I'm
+gonna<00:07:15.000> have<00:07:15.120> to<00:07:15.210> block<00:07:15.629> some<00:07:15.840> of<00:07:15.870> that<00:07:16.080> out
+
+00:07:17.619 --> 00:07:17.629 
+gonna have to block some of that out
+
+00:07:17.629 --> 00:07:20.629 
+gonna have to block some of that out
+after<00:07:18.629> you<00:07:18.719> close<00:07:18.960> this<00:07:19.199> and<00:07:19.469> you<00:07:20.400> go<00:07:20.610> back
+
+00:07:20.629 --> 00:07:20.639 
+after you close this and you go back
+
+00:07:20.639 --> 00:07:25.909 
+after you close this and you go back
+into<00:07:21.000> this<00:07:21.270> hop<00:07:21.870> hero<00:07:22.259> deal<00:07:22.740> on<00:07:24.860> you'll<00:07:25.860> see
+
+00:07:25.909 --> 00:07:25.919 
+into this hop hero deal on you'll see
+
+00:07:25.919 --> 00:07:29.510 
+into this hop hero deal on you'll see
+that<00:07:26.219> the<00:07:26.370> best<00:07:26.580> high<00:07:27.120> score<00:07:27.449> is<00:07:27.719> saved<00:07:28.520> so
+
+00:07:29.510 --> 00:07:29.520 
+that the best high score is saved so
+
+00:07:29.520 --> 00:07:31.189 
+that the best high score is saved so
+with<00:07:30.120> that<00:07:30.300> thank<00:07:30.569> you<00:07:30.779> guys<00:07:30.930> for<00:07:30.990> watching
+
+00:07:31.189 --> 00:07:31.199 
+with that thank you guys for watching
+
+00:07:31.199 --> 00:07:33.529 
+with that thank you guys for watching
+and<00:07:31.770> I<00:07:32.189> will<00:07:32.219> see<00:07:32.370> you<00:07:32.639> guys<00:07:32.759> in<00:07:33.330> the<00:07:33.360> next
+
+00:07:33.529 --> 00:07:33.539 
+and I will see you guys in the next
+
+00:07:33.539 --> 00:07:35.930 
+and I will see you guys in the next
+video
+

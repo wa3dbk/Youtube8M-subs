@@ -1,0 +1,860 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.149 --> 00:00:02.270 
+
+hey<00:00:00.630> guys<00:00:00.810> and<00:00:00.960> welcome<00:00:01.020> to<00:00:01.380> another<00:00:01.560> video<00:00:01.709> so
+
+00:00:02.270 --> 00:00:02.280 
+hey guys and welcome to another video so
+
+00:00:02.280 --> 00:00:03.949 
+hey guys and welcome to another video so
+today<00:00:02.340> I<00:00:02.610> want<00:00:02.820> to<00:00:02.939> talk<00:00:03.120> about<00:00:03.300> baking
+
+00:00:03.949 --> 00:00:03.959 
+today I want to talk about baking
+
+00:00:03.959 --> 00:00:06.800 
+today I want to talk about baking
+textures<00:00:04.380> and<00:00:04.529> cycles<00:00:05.210> which<00:00:06.210> is<00:00:06.450> something
+
+00:00:06.800 --> 00:00:06.810 
+textures and cycles which is something
+
+00:00:06.810 --> 00:00:09.169 
+textures and cycles which is something
+that<00:00:07.259> is<00:00:07.470> really<00:00:07.770> new<00:00:07.950> and<00:00:08.220> I<00:00:08.519> just<00:00:08.760> found<00:00:08.910> out
+
+00:00:09.169 --> 00:00:09.179 
+that is really new and I just found out
+
+00:00:09.179 --> 00:00:11.299 
+that is really new and I just found out
+about<00:00:09.210> this<00:00:09.900> new<00:00:10.139> experimental<00:00:10.590> branch<00:00:11.040> that
+
+00:00:11.299 --> 00:00:11.309 
+about this new experimental branch that
+
+00:00:11.309 --> 00:00:16.790 
+about this new experimental branch that
+allows<00:00:11.670> you<00:00:12.090> to<00:00:12.240> do<00:00:12.389> that<00:00:12.540> a<00:00:12.990> few<00:00:15.440> minutes<00:00:16.440> ago
+
+00:00:16.790 --> 00:00:16.800 
+allows you to do that a few minutes ago
+
+00:00:16.800 --> 00:00:19.790 
+allows you to do that a few minutes ago
+here<00:00:17.220> on<00:00:17.279> blender<00:00:17.880> Nations<00:00:18.240> so<00:00:19.020> I'll<00:00:19.410> link<00:00:19.710> you
+
+00:00:19.790 --> 00:00:19.800 
+here on blender Nations so I'll link you
+
+00:00:19.800 --> 00:00:21.740 
+here on blender Nations so I'll link you
+in<00:00:20.220> the<00:00:20.369> description<00:00:20.609> to<00:00:21.029> this<00:00:21.150> post<00:00:21.449> where
+
+00:00:21.740 --> 00:00:21.750 
+in the description to this post where
+
+00:00:21.750 --> 00:00:23.990 
+in the description to this post where
+you<00:00:21.779> can<00:00:22.020> find<00:00:22.320> the<00:00:22.590> links<00:00:22.859> to<00:00:23.070> the<00:00:23.609> download
+
+00:00:23.990 --> 00:00:24.000 
+you can find the links to the download
+
+00:00:24.000 --> 00:00:26.089 
+you can find the links to the download
+of<00:00:24.029> the<00:00:24.300> of<00:00:24.539> the<00:00:24.720> branch<00:00:25.080> itself<00:00:25.470> and<00:00:25.800> the
+
+00:00:26.089 --> 00:00:26.099 
+of the of the branch itself and the
+
+00:00:26.099 --> 00:00:29.689 
+of the of the branch itself and the
+documentation<00:00:26.609> and<00:00:27.710> now<00:00:28.710> I'll<00:00:28.980> go<00:00:29.340> ahead<00:00:29.400> and
+
+00:00:29.689 --> 00:00:29.699 
+documentation and now I'll go ahead and
+
+00:00:29.699 --> 00:00:32.450 
+documentation and now I'll go ahead and
+explain<00:00:30.029> a<00:00:30.060> little<00:00:30.269> bit<00:00:30.949> about<00:00:31.949> what<00:00:32.160> it<00:00:32.309> does
+
+00:00:32.450 --> 00:00:32.460 
+explain a little bit about what it does
+
+00:00:32.460 --> 00:00:35.209 
+explain a little bit about what it does
+and<00:00:32.700> and<00:00:32.910> why<00:00:33.210> it<00:00:33.270> is<00:00:33.420> so<00:00:33.600> cool<00:00:33.809> so<00:00:34.410> basically
+
+00:00:35.209 --> 00:00:35.219 
+and and why it is so cool so basically
+
+00:00:35.219 --> 00:00:37.880 
+and and why it is so cool so basically
+what<00:00:35.550> you<00:00:35.969> can<00:00:36.120> do<00:00:36.300> is<00:00:36.630> use<00:00:37.290> the<00:00:37.469> cyclists
+
+00:00:37.880 --> 00:00:37.890 
+what you can do is use the cyclists
+
+00:00:37.890 --> 00:00:41.299 
+what you can do is use the cyclists
+engine<00:00:38.250> to<00:00:38.460> bake<00:00:38.700> textures<00:00:39.680> that<00:00:40.680> way<00:00:41.250> you
+
+00:00:41.299 --> 00:00:41.309 
+engine to bake textures that way you
+
+00:00:41.309 --> 00:00:44.360 
+engine to bake textures that way you
+will<00:00:41.550> be<00:00:41.670> able<00:00:41.700> to<00:00:42.260> use<00:00:43.260> those<00:00:43.500> models<00:00:43.739> the
+
+00:00:44.360 --> 00:00:44.370 
+will be able to use those models the
+
+00:00:44.370 --> 00:00:46.970 
+will be able to use those models the
+same<00:00:44.579> way<00:00:44.789> they<00:00:44.969> look<00:00:45.120> and<00:00:45.390> cycles<00:00:45.960> for<00:00:46.230> things
+
+00:00:46.970 --> 00:00:46.980 
+same way they look and cycles for things
+
+00:00:46.980 --> 00:00:49.760 
+same way they look and cycles for things
+like<00:00:47.070> game<00:00:47.430> engines<00:00:47.879> and<00:00:48.210> stuff<00:00:49.200> like<00:00:49.350> that<00:00:49.559> as
+
+00:00:49.760 --> 00:00:49.770 
+like game engines and stuff like that as
+
+00:00:49.770 --> 00:00:51.590 
+like game engines and stuff like that as
+you<00:00:49.890> can<00:00:50.010> see<00:00:50.070> here<00:00:50.460> it<00:00:50.670> runs<00:00:50.879> in<00:00:51.059> real<00:00:51.300> time<00:00:51.570> I
+
+00:00:51.590 --> 00:00:51.600 
+you can see here it runs in real time I
+
+00:00:51.600 --> 00:00:54.410 
+you can see here it runs in real time I
+can<00:00:51.899> look<00:00:52.050> around<00:00:52.170> it<00:00:52.590> and<00:00:52.800> it<00:00:53.550> looks<00:00:53.730> awesome
+
+00:00:54.410 --> 00:00:54.420 
+can look around it and it looks awesome
+
+00:00:54.420 --> 00:00:59.209 
+can look around it and it looks awesome
+and<00:00:54.449> the<00:00:55.260> same<00:00:55.500> way<00:00:55.680> it<00:00:55.920> doesn't<00:00:56.129> cycles<00:00:58.219> now
+
+00:00:59.209 --> 00:00:59.219 
+and the same way it doesn't cycles now
+
+00:00:59.219 --> 00:01:01.520 
+and the same way it doesn't cycles now
+this<00:00:59.910> is<00:01:00.030> how<00:01:00.420> you<00:01:00.480> do<00:01:00.780> it<00:01:00.809> let's<00:01:01.050> add
+
+00:01:01.520 --> 00:01:01.530 
+this is how you do it let's add
+
+00:01:01.530 --> 00:01:06.500 
+this is how you do it let's add
+something<00:01:02.489> here<00:01:03.000> in<00:01:03.570> this<00:01:03.719> scene<00:01:04.549> to<00:01:05.549> show<00:01:06.450> you
+
+00:01:06.500 --> 00:01:06.510 
+something here in this scene to show you
+
+00:01:06.510 --> 00:01:08.390 
+something here in this scene to show you
+how<00:01:06.979> it<00:01:07.979> works
+
+00:01:08.390 --> 00:01:08.400 
+how it works
+
+00:01:08.400 --> 00:01:10.580 
+how it works
+I'll<00:01:08.520> now<00:01:08.790> add<00:01:09.030> on<00:01:09.299> another<00:01:09.780> object<00:01:09.990> of<00:01:10.320> course
+
+00:01:10.580 --> 00:01:10.590 
+I'll now add on another object of course
+
+00:01:10.590 --> 00:01:12.920 
+I'll now add on another object of course
+I'll<00:01:10.740> go<00:01:10.860> back<00:01:11.010> to<00:01:11.189> the<00:01:11.310> cycles<00:01:11.700> engine<00:01:12.090> let's
+
+00:01:12.920 --> 00:01:12.930 
+I'll go back to the cycles engine let's
+
+00:01:12.930 --> 00:01:24.460 
+I'll go back to the cycles engine let's
+get<00:01:13.110> rid<00:01:13.260> of<00:01:13.380> this<00:01:13.530> for<00:01:13.770> now
+
+00:01:24.460 --> 00:01:24.470 
+
+00:01:24.470 --> 00:01:26.899 
+
+and<00:01:25.470> what<00:01:25.619> I<00:01:25.650> will<00:01:25.770> do<00:01:26.040> is<00:01:26.220> I<00:01:26.369> will<00:01:26.400> give<00:01:26.640> this
+
+00:01:26.899 --> 00:01:26.909 
+and what I will do is I will give this
+
+00:01:26.909 --> 00:01:31.940 
+and what I will do is I will give this
+object<00:01:27.119> here<00:01:27.540> an<00:01:27.750> emission<00:01:28.650> material<00:01:30.950> let's
+
+00:01:31.940 --> 00:01:31.950 
+object here an emission material let's
+
+00:01:31.950 --> 00:01:34.460 
+object here an emission material let's
+say<00:01:32.130> something<00:01:32.430> like<00:01:32.700> 20<00:01:33.240> and<00:01:33.659> let's<00:01:34.140> make<00:01:34.320> it
+
+00:01:34.460 --> 00:01:34.470 
+say something like 20 and let's make it
+
+00:01:34.470 --> 00:01:39.469 
+say something like 20 and let's make it
+red<00:01:37.009> yeah<00:01:38.009> there<00:01:38.490> were<00:01:38.549> a<00:01:38.580> few<00:01:38.850> changes<00:01:38.880> in<00:01:39.299> the
+
+00:01:39.469 --> 00:01:39.479 
+red yeah there were a few changes in the
+
+00:01:39.479 --> 00:01:42.350 
+red yeah there were a few changes in the
+scene<00:01:39.720> so<00:01:39.899> let<00:01:40.020> me<00:01:40.170> quickly<00:01:41.149> recover<00:01:42.149> that
+
+00:01:42.350 --> 00:01:42.360 
+scene so let me quickly recover that
+
+00:01:42.360 --> 00:01:45.260 
+scene so let me quickly recover that
+I'll<00:01:42.869> just<00:01:43.259> add<00:01:43.680> in<00:01:43.920> an<00:01:44.100> environment<00:01:44.909> texture
+
+00:01:45.260 --> 00:01:45.270 
+I'll just add in an environment texture
+
+00:01:45.270 --> 00:01:48.950 
+I'll just add in an environment texture
+as<00:01:45.330> well<00:01:46.640> so<00:01:47.640> that<00:01:47.789> we<00:01:47.909> have<00:01:48.000> something
+
+00:01:48.950 --> 00:01:48.960 
+as well so that we have something
+
+00:01:48.960 --> 00:01:53.469 
+as well so that we have something
+similar<00:01:49.200> to<00:01:49.470> before<00:01:49.619> and<00:01:51.110> there<00:01:52.110> we<00:01:52.259> go<00:01:52.470> now
+
+00:01:53.469 --> 00:01:53.479 
+similar to before and there we go now
+
+00:01:53.479 --> 00:02:00.430 
+similar to before and there we go now
+see<00:01:54.479> how<00:01:54.630> long<00:01:54.780> this<00:01:54.990> takes<00:01:55.049> to<00:01:55.439> baking<00:01:56.369> cycles
+
+00:02:00.430 --> 00:02:00.440 
+
+00:02:00.440 --> 00:02:03.859 
+
+now<00:02:01.440> let's<00:02:02.310> say<00:02:02.460> you<00:02:02.520> want<00:02:02.759> the<00:02:02.940> same<00:02:03.179> effects
+
+00:02:03.859 --> 00:02:03.869 
+now let's say you want the same effects
+
+00:02:03.869 --> 00:02:06.469 
+now let's say you want the same effects
+in<00:02:04.080> your<00:02:04.950> game<00:02:05.399> the<00:02:05.819> same<00:02:06.030> look<00:02:06.299> the<00:02:06.330> same
+
+00:02:06.469 --> 00:02:06.479 
+in your game the same look the same
+
+00:02:06.479 --> 00:02:09.590 
+in your game the same look the same
+shading<00:02:07.080> in<00:02:07.649> real<00:02:07.830> time<00:02:08.130> now<00:02:08.910> this<00:02:09.299> is<00:02:09.450> what
+
+00:02:09.590 --> 00:02:09.600 
+shading in real time now this is what
+
+00:02:09.600 --> 00:02:16.340 
+shading in real time now this is what
+you<00:02:09.720> can<00:02:09.929> do<00:02:12.950> you<00:02:13.950> select<00:02:14.100> an<00:02:14.340> object<00:02:14.430> and<00:02:15.350> then
+
+00:02:16.340 --> 00:02:16.350 
+you can do you select an object and then
+
+00:02:16.350 --> 00:02:20.660 
+you can do you select an object and then
+here<00:02:16.680> from<00:02:17.010> the<00:02:17.280> documentation<00:02:17.940> side<00:02:19.670> this
+
+00:02:20.660 --> 00:02:20.670 
+here from the documentation side this
+
+00:02:20.670 --> 00:02:22.550 
+here from the documentation side this
+guy<00:02:20.910> tells<00:02:21.180> you<00:02:21.330> how<00:02:21.480> to<00:02:21.510> do<00:02:21.810> it<00:02:21.989> so<00:02:22.200> there<00:02:22.440> is
+
+00:02:22.550 --> 00:02:22.560 
+guy tells you how to do it so there is
+
+00:02:22.560 --> 00:02:25.280 
+guy tells you how to do it so there is
+this<00:02:22.739> code<00:02:23.250> you<00:02:24.060> just<00:02:24.090> copy<00:02:24.540> it<00:02:24.660> to<00:02:25.019> put<00:02:25.170> it
+
+00:02:25.280 --> 00:02:25.290 
+this code you just copy it to put it
+
+00:02:25.290 --> 00:02:28.190 
+this code you just copy it to put it
+into<00:02:25.530> an<00:02:25.650> into<00:02:26.430> a<00:02:26.459> new<00:02:26.880> text<00:02:27.450> file<00:02:27.780> here<00:02:27.989> in<00:02:28.140> a
+
+00:02:28.190 --> 00:02:28.200 
+into an into a new text file here in a
+
+00:02:28.200 --> 00:02:31.340 
+into an into a new text file here in a
+text<00:02:28.500> editor<00:02:28.560> and<00:02:29.720> all<00:02:30.720> you<00:02:30.840> need<00:02:30.989> to<00:02:31.019> change
+
+00:02:31.340 --> 00:02:31.350 
+text editor and all you need to change
+
+00:02:31.350 --> 00:02:33.380 
+text editor and all you need to change
+is<00:02:31.620> the<00:02:31.739> file<00:02:31.980> path<00:02:32.280> here<00:02:32.609> which<00:02:33.000> I've<00:02:33.180> already
+
+00:02:33.380 --> 00:02:33.390 
+is the file path here which I've already
+
+00:02:33.390 --> 00:02:36.410 
+is the file path here which I've already
+done<00:02:33.600> and<00:02:34.280> the<00:02:35.280> resolution<00:02:35.760> here<00:02:36.030> which<00:02:36.269> is
+
+00:02:36.410 --> 00:02:36.420 
+done and the resolution here which is
+
+00:02:36.420 --> 00:02:37.789 
+done and the resolution here which is
+also<00:02:36.630> alright<00:02:37.049> and<00:02:37.260> of<00:02:37.320> course<00:02:37.560> you<00:02:37.650> need<00:02:37.739> to
+
+00:02:37.789 --> 00:02:37.799 
+also alright and of course you need to
+
+00:02:37.799 --> 00:02:39.890 
+also alright and of course you need to
+make<00:02:37.920> sure<00:02:38.220> that<00:02:38.430> the<00:02:38.880> UV<00:02:39.269> mapping<00:02:39.480> is<00:02:39.660> done
+
+00:02:39.890 --> 00:02:39.900 
+make sure that the UV mapping is done
+
+00:02:39.900 --> 00:02:43.130 
+make sure that the UV mapping is done
+and<00:02:40.079> then<00:02:40.799> all<00:02:40.980> you<00:02:41.100> do<00:02:41.250> is<00:02:41.400> click<00:02:42.239> alt<00:02:42.570> P<00:02:42.810> to
+
+00:02:43.130 --> 00:02:43.140 
+and then all you do is click alt P to
+
+00:02:43.140 --> 00:02:45.560 
+and then all you do is click alt P to
+run<00:02:43.290> the<00:02:43.410> script<00:02:43.590> and<00:02:44.060> there's<00:02:45.060> not<00:02:45.239> really<00:02:45.299> a
+
+00:02:45.560 --> 00:02:45.570 
+run the script and there's not really a
+
+00:02:45.570 --> 00:02:50.810 
+run the script and there's not really a
+way<00:02:45.750> to<00:02:45.810> see<00:02:46.380> that<00:02:46.829> it's<00:02:47.489> currently<00:02:49.820> yeah
+
+00:02:50.810 --> 00:02:50.820 
+way to see that it's currently yeah
+
+00:02:50.820 --> 00:02:55.160 
+way to see that it's currently yeah
+calculating<00:02:51.750> it<00:02:52.609> the<00:02:53.609> only<00:02:53.760> way<00:02:54.209> to<00:02:54.269> actually
+
+00:02:55.160 --> 00:02:55.170 
+calculating it the only way to actually
+
+00:02:55.170 --> 00:02:57.830 
+calculating it the only way to actually
+not<00:02:55.380> to<00:02:55.590> see<00:02:55.769> this<00:02:55.920> I<00:02:56.160> think<00:02:56.549> I<00:02:56.850> guess<00:02:57.660> the
+
+00:02:57.830 --> 00:02:57.840 
+not to see this I think I guess the
+
+00:02:57.840 --> 00:03:00.770 
+not to see this I think I guess the
+sound<00:02:58.049> of<00:02:58.290> the<00:02:58.680> computer<00:02:59.340> fan<00:02:59.519> running<00:02:59.970> up<00:03:00.150> so
+
+00:03:00.770 --> 00:03:00.780 
+sound of the computer fan running up so
+
+00:03:00.780 --> 00:03:06.770 
+sound of the computer fan running up so
+yeah<00:03:01.769> and<00:03:02.030> here<00:03:03.030> is<00:03:03.150> now<00:03:03.329> the<00:03:03.359> texture<00:03:05.720> this<00:03:06.720> is
+
+00:03:06.770 --> 00:03:06.780 
+yeah and here is now the texture this is
+
+00:03:06.780 --> 00:03:10.640 
+yeah and here is now the texture this is
+where<00:03:07.019> safety<00:03:07.410> -<00:03:07.590> and<00:03:08.930> now<00:03:09.930> the<00:03:09.989> thing<00:03:10.319> is<00:03:10.380> it's
+
+00:03:10.640 --> 00:03:10.650 
+where safety - and now the thing is it's
+
+00:03:10.650 --> 00:03:15.800 
+where safety - and now the thing is it's
+still<00:03:10.829> very<00:03:10.980> noisy<00:03:11.310> so<00:03:11.670> we<00:03:12.030> can<00:03:12.209> simply<00:03:14.810> change
+
+00:03:15.800 --> 00:03:15.810 
+still very noisy so we can simply change
+
+00:03:15.810 --> 00:03:17.630 
+still very noisy so we can simply change
+the<00:03:16.140> amount<00:03:16.380> of<00:03:16.530> samples<00:03:16.980> here<00:03:17.190> to<00:03:17.430> something
+
+00:03:17.630 --> 00:03:17.640 
+the amount of samples here to something
+
+00:03:17.640 --> 00:03:20.720 
+the amount of samples here to something
+like<00:03:17.910> hundred<00:03:18.329> and<00:03:18.650> do<00:03:19.650> the<00:03:19.859> same<00:03:20.069> thing<00:03:20.310> again
+
+00:03:20.720 --> 00:03:20.730 
+like hundred and do the same thing again
+
+00:03:20.730 --> 00:03:24.199 
+like hundred and do the same thing again
+and<00:03:21.000> you'll<00:03:21.480> hear<00:03:22.380> that<00:03:22.620> my<00:03:23.370> fan<00:03:23.609> is<00:03:23.639> going<00:03:23.940> -
+
+00:03:24.199 --> 00:03:24.209 
+and you'll hear that my fan is going -
+
+00:03:24.209 --> 00:03:27.319 
+and you'll hear that my fan is going -
+it's<00:03:25.109> been<00:03:25.290> a<00:03:25.319> lot<00:03:25.530> faster<00:03:25.950> again<00:03:26.040> and<00:03:26.430> that's
+
+00:03:27.319 --> 00:03:27.329 
+it's been a lot faster again and that's
+
+00:03:27.329 --> 00:03:30.650 
+it's been a lot faster again and that's
+high<00:03:27.500> it's<00:03:28.500> a<00:03:28.650> pretty<00:03:28.889> good<00:03:29.579> way<00:03:29.730> to<00:03:29.790> say<00:03:30.180> when
+
+00:03:30.650 --> 00:03:30.660 
+high it's a pretty good way to say when
+
+00:03:30.660 --> 00:03:35.790 
+high it's a pretty good way to say when
+cyclist<00:03:31.319> is<00:03:31.440> doing<00:03:31.769> some<00:03:32.299> stuff<00:03:33.299> yeah
+
+00:03:35.790 --> 00:03:35.800 
+cyclist is doing some stuff yeah
+
+00:03:35.800 --> 00:03:41.290 
+cyclist is doing some stuff yeah
+now<00:03:36.800> it's<00:03:37.069> already<00:03:37.489> done<00:03:37.670> that's<00:03:38.270> great<00:03:40.300> let's
+
+00:03:41.290 --> 00:03:41.300 
+now it's already done that's great let's
+
+00:03:41.300 --> 00:03:43.540 
+now it's already done that's great let's
+do<00:03:41.450> the<00:03:41.540> same<00:03:41.780> thing<00:03:42.050> with<00:03:42.290> the<00:03:42.560> floor<00:03:43.340> object
+
+00:03:43.540 --> 00:03:43.550 
+do the same thing with the floor object
+
+00:03:43.550 --> 00:03:47.470 
+do the same thing with the floor object
+as<00:03:44.060> well<00:03:44.510> so<00:03:44.930> just<00:03:45.590> selected<00:03:46.069> I<00:03:46.730> will<00:03:47.270> change
+
+00:03:47.470 --> 00:03:47.480 
+as well so just selected I will change
+
+00:03:47.480 --> 00:03:49.720 
+as well so just selected I will change
+the<00:03:47.720> path<00:03:47.900> so<00:03:48.230> that<00:03:48.260> I<00:03:48.530> do<00:03:48.590> not<00:03:48.800> override<00:03:49.489> it
+
+00:03:49.720 --> 00:03:49.730 
+the path so that I do not override it
+
+00:03:49.730 --> 00:03:52.479 
+the path so that I do not override it
+and<00:03:49.910> this<00:03:50.300> time<00:03:50.360> I'll<00:03:50.780> use<00:03:51.370> double<00:03:52.370> the
+
+00:03:52.479 --> 00:03:52.489 
+and this time I'll use double the
+
+00:03:52.489 --> 00:03:58.509 
+and this time I'll use double the
+resolution<00:03:56.410> so<00:03:57.410> blender<00:03:57.739> is<00:03:57.830> done<00:03:58.040> now<00:03:58.220> with
+
+00:03:58.509 --> 00:03:58.519 
+resolution so blender is done now with
+
+00:03:58.519 --> 00:04:01.330 
+resolution so blender is done now with
+its<00:03:58.760> walk<00:03:59.330> and<00:03:59.569> the<00:04:00.230> easiest<00:04:00.470> way<00:04:00.709> to<00:04:00.739> preview
+
+00:04:01.330 --> 00:04:01.340 
+its walk and the easiest way to preview
+
+00:04:01.340 --> 00:04:03.339 
+its walk and the easiest way to preview
+it<00:04:01.489> is<00:04:01.730> to<00:04:02.150> go<00:04:02.300> back<00:04:02.480> to<00:04:02.540> the<00:04:02.840> blood<00:04:03.050> render
+
+00:04:03.339 --> 00:04:03.349 
+it is to go back to the blood render
+
+00:04:03.349 --> 00:04:07.449 
+it is to go back to the blood render
+engine<00:04:03.769> select<00:04:04.430> an<00:04:04.670> object<00:04:05.830> go<00:04:06.830> here<00:04:07.010> to<00:04:07.130> image
+
+00:04:07.449 --> 00:04:07.459 
+engine select an object go here to image
+
+00:04:07.459 --> 00:04:10.539 
+engine select an object go here to image
+open<00:04:08.209> and<00:04:08.420> select<00:04:08.989> the<00:04:09.110> texture<00:04:09.410> do<00:04:10.220> the<00:04:10.340> same
+
+00:04:10.539 --> 00:04:10.549 
+open and select the texture do the same
+
+00:04:10.549 --> 00:04:14.190 
+open and select the texture do the same
+thing<00:04:10.760> with<00:04:10.940> the<00:04:11.120> floor<00:04:11.360> and<00:04:12.310> then<00:04:13.310> switch<00:04:13.730> to
+
+00:04:14.190 --> 00:04:14.200 
+thing with the floor and then switch to
+
+00:04:14.200 --> 00:04:20.349 
+thing with the floor and then switch to
+textured<00:04:16.120> here<00:04:17.120> textured<00:04:17.979> and<00:04:19.060> there<00:04:20.060> you<00:04:20.180> go
+
+00:04:20.349 --> 00:04:20.359 
+textured here textured and there you go
+
+00:04:20.359 --> 00:04:23.350 
+textured here textured and there you go
+you<00:04:21.290> can<00:04:21.530> make<00:04:21.859> it<00:04:22.040> on<00:04:22.220> to<00:04:22.639> display<00:04:23.090> only
+
+00:04:23.350 --> 00:04:23.360 
+you can make it on to display only
+
+00:04:23.360 --> 00:04:26.920 
+you can make it on to display only
+rendered<00:04:23.660> stuff<00:04:23.960> but<00:04:24.380> you<00:04:24.680> can<00:04:24.860> see<00:04:25.100> it's<00:04:26.060> this
+
+00:04:26.920 --> 00:04:26.930 
+rendered stuff but you can see it's this
+
+00:04:26.930 --> 00:04:31.870 
+rendered stuff but you can see it's this
+very<00:04:27.229> same<00:04:27.530> as<00:04:27.830> in<00:04:28.750> as<00:04:29.750> in<00:04:30.740> psychology<00:04:31.700> now
+
+00:04:31.870 --> 00:04:31.880 
+very same as in as in psychology now
+
+00:04:31.880 --> 00:04:34.300 
+very same as in as in psychology now
+there<00:04:32.090> is<00:04:32.210> one<00:04:32.419> single<00:04:33.020> problem<00:04:33.470> that<00:04:33.740> I<00:04:33.919> found
+
+00:04:34.300 --> 00:04:34.310 
+there is one single problem that I found
+
+00:04:34.310 --> 00:04:35.770 
+there is one single problem that I found
+that<00:04:34.520> it's<00:04:34.700> still<00:04:34.970> there<00:04:35.210> but<00:04:35.419> I'm<00:04:35.540> pretty
+
+00:04:35.770 --> 00:04:35.780 
+that it's still there but I'm pretty
+
+00:04:35.780 --> 00:04:39.010 
+that it's still there but I'm pretty
+sure<00:04:35.990> they<00:04:36.200> will<00:04:36.320> fix<00:04:36.650> it<00:04:36.889> in<00:04:37.040> the<00:04:38.020> official
+
+00:04:39.010 --> 00:04:39.020 
+sure they will fix it in the official
+
+00:04:39.020 --> 00:04:43.930 
+sure they will fix it in the official
+versions<00:04:39.710> of<00:04:39.860> this<00:04:42.220> yeah<00:04:43.220> and<00:04:43.340> that<00:04:43.490> is<00:04:43.520> that
+
+00:04:43.930 --> 00:04:43.940 
+versions of this yeah and that is that
+
+00:04:43.940 --> 00:04:46.950 
+versions of this yeah and that is that
+there<00:04:44.180> is<00:04:44.300> no<00:04:44.680> they<00:04:45.680> called<00:04:45.919> it<00:04:46.100> I<00:04:46.280> think
+
+00:04:46.950 --> 00:04:46.960 
+there is no they called it I think
+
+00:04:46.960 --> 00:04:51.040 
+there is no they called it I think
+bleeding<00:04:47.960> of<00:04:48.169> the<00:04:48.830> bake<00:04:49.250> so<00:04:49.640> you<00:04:50.570> see<00:04:50.810> when<00:04:50.990> you
+
+00:04:51.040 --> 00:04:51.050 
+bleeding of the bake so you see when you
+
+00:04:51.050 --> 00:04:53.110 
+bleeding of the bake so you see when you
+have<00:04:51.200> the<00:04:51.320> UVs<00:04:51.770> it<00:04:52.220> just<00:04:52.610> calculates
+
+00:04:53.110 --> 00:04:53.120 
+have the UVs it just calculates
+
+00:04:53.120 --> 00:04:56.469 
+have the UVs it just calculates
+everything<00:04:53.419> that's<00:04:53.750> within<00:04:53.900> it<00:04:54.200> and<00:04:55.479> that
+
+00:04:56.469 --> 00:04:56.479 
+everything that's within it and that
+
+00:04:56.479 --> 00:04:59.170 
+everything that's within it and that
+means<00:04:56.720> there<00:04:57.140> are<00:04:57.229> these<00:04:57.490> borders<00:04:58.490> to<00:04:58.880> get<00:04:59.000> rid
+
+00:04:59.170 --> 00:04:59.180 
+means there are these borders to get rid
+
+00:04:59.180 --> 00:05:01.480 
+means there are these borders to get rid
+of<00:04:59.210> those<00:04:59.510> you<00:04:59.780> have<00:04:59.810> to<00:05:00.080> go<00:05:00.260> in<00:05:00.410> and<00:05:00.590> scale
+
+00:05:01.480 --> 00:05:01.490 
+of those you have to go in and scale
+
+00:05:01.490 --> 00:05:03.430 
+of those you have to go in and scale
+every<00:05:01.910> single<00:05:02.240> part<00:05:02.479> down<00:05:02.750> a<00:05:02.780> little<00:05:03.020> bit<00:05:03.229> or
+
+00:05:03.430 --> 00:05:03.440 
+every single part down a little bit or
+
+00:05:03.440 --> 00:05:07.680 
+every single part down a little bit or
+go<00:05:03.800> into<00:05:04.130> an<00:05:04.690> image<00:05:05.690> editing<00:05:06.050> software<00:05:06.110> and<00:05:06.770> I
+
+00:05:07.680 --> 00:05:07.690 
+go into an image editing software and I
+
+00:05:07.690 --> 00:05:12.850 
+go into an image editing software and I
+think<00:05:08.690> there<00:05:08.840> are<00:05:08.870> ways<00:05:09.080> to<00:05:09.110> do<00:05:09.950> that<00:05:11.620> in<00:05:12.620> there
+
+00:05:12.850 --> 00:05:12.860 
+think there are ways to do that in there
+
+00:05:12.860 --> 00:05:15.490 
+think there are ways to do that in there
+as<00:05:12.979> well<00:05:13.160> so<00:05:13.430> you<00:05:13.639> see<00:05:14.030> now<00:05:14.479> I<00:05:14.510> fixed<00:05:15.020> it<00:05:15.139> and<00:05:15.350> it
+
+00:05:15.490 --> 00:05:15.500 
+as well so you see now I fixed it and it
+
+00:05:15.500 --> 00:05:18.850 
+as well so you see now I fixed it and it
+looks<00:05:15.680> alright<00:05:16.840> as<00:05:17.840> long<00:05:18.050> as<00:05:18.169> you<00:05:18.289> do<00:05:18.440> not<00:05:18.560> zoom
+
+00:05:18.850 --> 00:05:18.860 
+looks alright as long as you do not zoom
+
+00:05:18.860 --> 00:05:20.730 
+looks alright as long as you do not zoom
+out<00:05:19.010> two<00:05:19.460> months<00:05:19.760> at<00:05:19.910> least
+
+00:05:20.730 --> 00:05:20.740 
+out two months at least
+
+00:05:20.740 --> 00:05:23.950 
+out two months at least
+well<00:05:21.740> it's<00:05:22.460> all<00:05:22.700> about<00:05:22.970> the<00:05:23.180> using<00:05:23.630> this<00:05:23.750> kind
+
+00:05:23.950 --> 00:05:23.960 
+well it's all about the using this kind
+
+00:05:23.960 --> 00:05:24.490 
+well it's all about the using this kind
+of<00:05:24.080> stuff
+
+00:05:24.490 --> 00:05:24.500 
+of stuff
+
+00:05:24.500 --> 00:05:27.760 
+of stuff
+so<00:05:25.450> now<00:05:26.450> by<00:05:26.960> the<00:05:27.020> way<00:05:27.229> since<00:05:27.470> I<00:05:27.590> haven't
+
+00:05:27.760 --> 00:05:27.770 
+so now by the way since I haven't
+
+00:05:27.770 --> 00:05:30.460 
+so now by the way since I haven't
+mentioned<00:05:28.280> it<00:05:28.340> all<00:05:28.940> of<00:05:29.360> the<00:05:29.870> stuff<00:05:30.110> I<00:05:30.229> said
+
+00:05:30.460 --> 00:05:30.470 
+mentioned it all of the stuff I said
+
+00:05:30.470 --> 00:05:32.620 
+mentioned it all of the stuff I said
+right<00:05:30.650> now<00:05:30.860> will<00:05:31.130> probably<00:05:31.400> be<00:05:31.820> outdated<00:05:32.419> very
+
+00:05:32.620 --> 00:05:32.630 
+right now will probably be outdated very
+
+00:05:32.630 --> 00:05:35.590 
+right now will probably be outdated very
+soon<00:05:32.930> so<00:05:33.320> I<00:05:33.820> probably<00:05:34.820> should<00:05:35.090> have<00:05:35.120> said<00:05:35.419> that
+
+00:05:35.590 --> 00:05:35.600 
+soon so I probably should have said that
+
+00:05:35.600 --> 00:05:37.900 
+soon so I probably should have said that
+at<00:05:35.720> the<00:05:35.750> beginning<00:05:36.229> of<00:05:36.289> this<00:05:36.440> video<00:05:36.910> well
+
+00:05:37.900 --> 00:05:37.910 
+at the beginning of this video well
+
+00:05:37.910 --> 00:05:42.159 
+at the beginning of this video well
+anyways<00:05:38.860> this<00:05:39.860> is<00:05:40.070> just<00:05:40.400> the<00:05:41.210> news<00:05:41.479> from<00:05:41.720> right
+
+00:05:42.159 --> 00:05:42.169 
+anyways this is just the news from right
+
+00:05:42.169 --> 00:05:44.110 
+anyways this is just the news from right
+now<00:05:42.440> and<00:05:42.770> I<00:05:43.130> thought<00:05:43.310> I<00:05:43.370> would<00:05:43.520> share<00:05:43.760> it<00:05:43.909> and
+
+00:05:44.110 --> 00:05:44.120 
+now and I thought I would share it and
+
+00:05:44.120 --> 00:05:45.930 
+now and I thought I would share it and
+spread<00:05:44.630> the<00:05:44.750> word<00:05:44.900> a<00:05:44.930> bit<00:05:45.169> about
+
+00:05:45.930 --> 00:05:45.940 
+spread the word a bit about
+
+00:05:45.940 --> 00:05:49.280 
+spread the word a bit about
+since<00:05:46.090> it's<00:05:46.300> a<00:05:46.390> really<00:05:46.660> cool<00:05:46.840> feature<00:05:47.050> and
+
+00:05:49.280 --> 00:05:49.290 
+since it's a really cool feature and
+
+00:05:49.290 --> 00:05:51.630 
+since it's a really cool feature and
+yeah<00:05:50.290> I'm<00:05:50.380> really<00:05:50.590> looking<00:05:50.680> forward<00:05:51.130> to<00:05:51.280> the
+
+00:05:51.630 --> 00:05:51.640 
+yeah I'm really looking forward to the
+
+00:05:51.640 --> 00:05:54.090 
+yeah I'm really looking forward to the
+official<00:05:51.970> versions<00:05:52.390> I<00:05:52.480> guess<00:05:52.690> later<00:05:52.930> on<00:05:53.200> once
+
+00:05:54.090 --> 00:05:54.100 
+official versions I guess later on once
+
+00:05:54.100 --> 00:05:55.980 
+official versions I guess later on once
+that's<00:05:54.430> implement<00:05:55.180> enough<00:05:55.480> you<00:05:55.600> should<00:05:55.660> build
+
+00:05:55.980 --> 00:05:55.990 
+that's implement enough you should build
+
+00:05:55.990 --> 00:05:58.800 
+that's implement enough you should build
+all<00:05:56.980> you<00:05:57.190> will<00:05:57.340> have<00:05:57.520> to<00:05:57.670> do<00:05:57.820> is<00:05:57.970> go<00:05:58.270> to<00:05:58.330> cycles
+
+00:05:58.800 --> 00:05:58.810 
+all you will have to do is go to cycles
+
+00:05:58.810 --> 00:06:00.870 
+all you will have to do is go to cycles
+render<00:05:59.020> and<00:05:59.470> then<00:05:59.500> down<00:05:59.980> there<00:06:00.310> there<00:06:00.700> will<00:06:00.850> be
+
+00:06:00.870 --> 00:06:00.880 
+render and then down there there will be
+
+00:06:00.880 --> 00:06:03.480 
+render and then down there there will be
+somewhere<00:06:01.300> baking<00:06:01.780> time<00:06:02.650> similar<00:06:03.070> to<00:06:03.220> how<00:06:03.370> it
+
+00:06:03.480 --> 00:06:03.490 
+somewhere baking time similar to how it
+
+00:06:03.490 --> 00:06:06.420 
+somewhere baking time similar to how it
+is<00:06:03.550> here<00:06:03.850> and<00:06:04.080> that<00:06:05.080> should<00:06:05.830> do<00:06:06.040> the<00:06:06.070> same
+
+00:06:06.420 --> 00:06:06.430 
+is here and that should do the same
+
+00:06:06.430 --> 00:06:10.170 
+is here and that should do the same
+thing<00:06:06.490> I<00:06:07.440> guess<00:06:08.440> I<00:06:08.710> don't<00:06:08.830> know<00:06:09.100> about<00:06:09.400> it<00:06:09.670> so
+
+00:06:10.170 --> 00:06:10.180 
+thing I guess I don't know about it so
+
+00:06:10.180 --> 00:06:13.860 
+thing I guess I don't know about it so
+so<00:06:10.660> yeah<00:06:11.290> that's<00:06:11.650> the<00:06:11.800> thing<00:06:12.570> yeah<00:06:13.570> but<00:06:13.720> that's
+
+00:06:13.860 --> 00:06:13.870 
+so yeah that's the thing yeah but that's
+
+00:06:13.870 --> 00:06:15.120 
+so yeah that's the thing yeah but that's
+all<00:06:14.170> there<00:06:14.710> is
+
+00:06:15.120 --> 00:06:15.130 
+all there is
+
+00:06:15.130 --> 00:06:17.640 
+all there is
+so<00:06:15.310> you<00:06:15.400> now<00:06:15.610> have<00:06:15.690> there<00:06:16.690> those<00:06:17.110> two<00:06:17.320> textures
+
+00:06:17.640 --> 00:06:17.650 
+so you now have there those two textures
+
+00:06:17.650 --> 00:06:20.220 
+so you now have there those two textures
+and<00:06:18.130> you<00:06:18.520> can<00:06:18.730> easily<00:06:19.000> display<00:06:19.570> those<00:06:19.810> at<00:06:20.050> real
+
+00:06:20.220 --> 00:06:20.230 
+and you can easily display those at real
+
+00:06:20.230 --> 00:06:21.930 
+and you can easily display those at real
+time<00:06:20.470> and<00:06:20.710> it's<00:06:20.830> a<00:06:20.920> really<00:06:21.220> cool<00:06:21.400> thing<00:06:21.460> and<00:06:21.730> it
+
+00:06:21.930 --> 00:06:21.940 
+time and it's a really cool thing and it
+
+00:06:21.940 --> 00:06:24.320 
+time and it's a really cool thing and it
+works<00:06:22.120> really<00:06:22.390> fast<00:06:22.690> I<00:06:23.110> hope<00:06:23.800> you<00:06:23.950> enjoyed
+
+00:06:24.320 --> 00:06:24.330 
+works really fast I hope you enjoyed
+
+00:06:24.330 --> 00:06:28.850 
+works really fast I hope you enjoyed
+this<00:06:25.330> video<00:06:25.660> about<00:06:26.110> some<00:06:26.620> blender<00:06:27.070> news<00:06:27.310> and
+
+00:06:28.850 --> 00:06:28.860 
+this video about some blender news and
+
+00:06:28.860 --> 00:06:32.880 
+this video about some blender news and
+yeah<00:06:30.510> hope<00:06:31.510> to<00:06:31.690> see<00:06:31.870> again<00:06:31.900> my<00:06:32.290> next<00:06:32.620> video
+
+00:06:32.880 --> 00:06:32.890 
+yeah hope to see again my next video
+
+00:06:32.890 --> 00:06:36.120 
+yeah hope to see again my next video
+thanks<00:06:33.700> for<00:06:33.820> watching
+

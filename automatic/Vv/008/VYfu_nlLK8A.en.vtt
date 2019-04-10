@@ -1,0 +1,490 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:24.650 --> 00:00:27.920
+ or the one that gives you all how are you thanks 
+
+00:00:26.210 --> 00:00:29.330
+ for being here as you already know my name 
+
+00:00:27.920 --> 00:00:32.930
+ it is already and today we come with a 
+
+00:00:29.330 --> 00:00:34.400
+ new java programming tutorial 
+
+00:00:32.930 --> 00:00:36.020
+ basically today what we are going to 
+
+00:00:34.400 --> 00:00:39.739
+ to do is to focus on an exercise 
+
+00:00:36.020 --> 00:00:42.620
+ practical that a few weeks ago 
+
+00:00:39.739 --> 00:00:47.989
+ some of our users in 
+
+00:00:42.620 --> 00:00:50.870
+ applied they had left me that task 
+
+00:00:47.989 --> 00:00:52.910
+ pending and I wanted to explain it with a 
+
+00:00:50.870 --> 00:00:57.470
+ practical exercise in java well 
+
+00:00:52.910 --> 00:00:59.780
+ basically the exercise focuses on what 
+
+00:00:57.470 --> 00:01:02.690
+ next on that given a number that 
+
+00:00:59.780 --> 00:01:03.979
+ we have in this case either 
+
+00:01:02.690 --> 00:01:06.710
+ that we are going to work with a number of 
+
+00:01:03.979 --> 00:01:11.920
+ three four or five figures in this case 
+
+00:01:06.710 --> 00:01:14.630
+ a constant number in this case we're going to 
+
+00:01:11.920 --> 00:01:17.200
+ decompose that number into units 
+
+00:01:14.630 --> 00:01:19.820
+ tens and hundreds of thousand units 
+
+00:01:17.200 --> 00:01:21.500
+ depending on the number of numbers 
+
+00:01:19.820 --> 00:01:24.439
+ than us or the number of figures 
+
+00:01:21.500 --> 00:01:25.640
+ sorry that we are going to work in 
+
+00:01:24.439 --> 00:01:28.250
+ this case I'm doing that 
+
+00:01:25.640 --> 00:01:29.000
+ algorithm exclusively for a number 
+
+00:01:28.250 --> 00:01:31.940
+ of 3 
+
+00:01:29.000 --> 00:01:37.220
+ so in this case it is to enter a 
+
+00:01:31.940 --> 00:01:39.229
+ number like the 754 we're going to run the 
+
+00:01:37.220 --> 00:01:41.270
+ program and basically what we see is 
+
+00:01:39.229 --> 00:01:43.340
+ today is to show me how 
+
+00:01:41.270 --> 00:01:46.729
+ result the units in this case 
+
+00:01:43.340 --> 00:01:48.890
+ would be four units five tens and 
+
+00:01:46.729 --> 00:01:52.430
+ seven hundred then well what 
+
+00:01:48.890 --> 00:01:54.470
+ let's do is let's go to 
+
+00:01:52.430 --> 00:01:56.090
+ start let's erase everything and we're going to 
+
+00:01:54.470 --> 00:01:59.119
+ explain in detail what 
+
+00:01:56.090 --> 00:02:01.399
+ basically it's not very difficult but 
+
+00:01:59.119 --> 00:02:04.190
+ sometimes this kind of exercises 
+
+00:02:01.399 --> 00:02:06.350
+ they help us understand many things 
+
+00:02:04.190 --> 00:02:11.630
+ keys at the moment that we are working 
+
+00:02:06.350 --> 00:02:13.220
+ with projects or applications well 
+
+00:02:11.630 --> 00:02:14.450
+ basically here in this case what 
+
+00:02:13.220 --> 00:02:18.459
+ let's do is let's change a 
+
+00:02:14.450 --> 00:02:21.709
+ whole number and that is in this case 
+
+00:02:18.459 --> 00:02:24.280
+ 74 figures to be a little more 
+
+00:02:21.709 --> 00:02:24.280
+ interesting 
+
+00:02:25.030 --> 00:02:30.069
+ and what are we going to do the following 
+
+00:02:26.590 --> 00:02:32.110
+ then we will declare four 
+
+00:02:30.069 --> 00:02:35.440
+ variables that are tens units 
+
+00:02:32.110 --> 00:02:37.060
+ hundreds and we're going to put a whatsoever 
+
+00:02:35.440 --> 00:02:39.250
+ one thousand unit 
+
+00:02:37.060 --> 00:02:43.110
+ So the first thing we're going to do is 
+
+00:02:39.250 --> 00:02:47.440
+ the following in this case remember that 
+
+00:02:43.110 --> 00:02:50.530
+ let's start from the first unit 
+
+00:02:47.440 --> 00:02:52.930
+ what is the corresponding then in this 
+
+00:02:50.530 --> 00:02:54.519
+ case to decompose it would be the 
+
+00:02:52.930 --> 00:02:56.890
+ algorithm the next then we would say 
+
+00:02:54.519 --> 00:02:58.810
+ what units 
+
+00:02:56.890 --> 00:03:02.530
+ it would be the same as the first thing we are going to do 
+
+00:02:58.810 --> 00:03:04.330
+ is the following we're going to this number that 
+
+00:03:02.530 --> 00:03:07.540
+ we have here what we are going to do we are going 
+
+00:03:04.330 --> 00:03:10.630
+ to get the residue of dividing this 
+
+00:03:07.540 --> 00:03:13.030
+ number between 10 if we get the 
+
+00:03:10.630 --> 00:03:16.480
+ remainder of dividing this number 
+
+00:03:13.030 --> 00:03:18.550
+ between 10 that residue will give us 6 like this 
+
+00:03:16.480 --> 00:03:20.740
+ that therefore we would already have the unit 
+
+00:03:18.550 --> 00:03:23.770
+ corresponding then what are we going to 
+
+00:03:20.740 --> 00:03:27.640
+ to do is let's say that number the 
+
+00:03:23.770 --> 00:03:29.530
+ residue do not forget the operator the receipt 
+
+00:03:27.640 --> 00:03:34.450
+ of dividing the number by 10 then 
+
+00:03:29.530 --> 00:03:35.500
+ if we this residue is going to be 6 and 
+
+00:03:34.450 --> 00:03:38.890
+ we would have the corresponding unit 
+
+00:03:35.500 --> 00:03:41.980
+ now we would have to modify that 
+
+00:03:38.890 --> 00:03:45.070
+ number since in this case we have already 
+
+00:03:41.980 --> 00:03:46.750
+ taken the first digit or the last 
+
+00:03:45.070 --> 00:03:48.910
+ number the number then what are we going to 
+
+00:03:46.750 --> 00:03:52.120
+ to do is to modify and we are going to say that 
+
+00:03:48.910 --> 00:03:53.510
+ the number is equal to the divided number 
+
+00:03:52.120 --> 00:03:56.299
+ between 10 
+
+00:03:53.510 --> 00:03:59.840
+ so if I divide it between 10 I go to 
+
+00:03:56.299 --> 00:04:03.290
+ have as number 145 then it's going to be 
+
+00:03:59.840 --> 00:04:05.450
+ the same logic for tens we're going to 
+
+00:04:03.290 --> 00:04:07.579
+ get the residue of dividing this 
+
+00:04:05.450 --> 00:04:10.370
+ number between 10 then we do what 
+
+00:04:07.579 --> 00:04:13.519
+ same we say tens 
+
+00:04:10.370 --> 00:04:18.380
+ will be equal to the number that with this 
+
+00:04:13.519 --> 00:04:20.930
+ line happens to be 145 the residue of 
+
+00:04:18.380 --> 00:04:23.660
+ divide it by 10 then that residue 
+
+00:04:20.930 --> 00:04:26.150
+ will give us 5 so we would have 
+
+00:04:23.660 --> 00:04:30.169
+ the tens and we make the same change 
+
+00:04:26.150 --> 00:04:33.229
+ what number is equal to the divided number 
+
+00:04:30.169 --> 00:04:35.630
+ between 10 then automatically already 
+
+00:04:33.229 --> 00:04:38.389
+ would happen this with this new line of 
+
+00:04:35.630 --> 00:04:42.800
+ code already happens to be number 14 
+
+00:04:38.389 --> 00:04:45.750
+ then we do the same methodology in 
+
+00:04:42.800 --> 00:04:50.550
+ this case we would miss the hundreds 
+
+00:04:45.750 --> 00:04:54.630
+ hundreds will be equal to the number the 
+
+00:04:50.550 --> 00:04:57.210
+ remainder of dividing it by 10 that in 
+
+00:04:54.630 --> 00:04:59.460
+ this case residue is going to be 4 and by 
+
+00:04:57.210 --> 00:05:02.010
+ last we would miss the 1 that would be the 
+
+00:04:59.460 --> 00:05:05.070
+ unit of 1000 that in this case the 
+
+00:05:02.010 --> 00:05:08.820
+ unit of 1000 would be simply divide 
+
+00:05:05.070 --> 00:05:12.720
+ the number between 10 remember that with this 
+
+00:05:08.820 --> 00:05:14.490
+ line the number we have reduced it to 14 
+
+00:05:12.720 --> 00:05:17.760
+ then here we get the residue 
+
+00:05:14.490 --> 00:05:19.410
+ we have the hundred that would be 4 and the 
+
+00:05:17.760 --> 00:05:22.470
+ divide the number by 10 then 
+
+00:05:19.410 --> 00:05:26.520
+ it's simply going to give us the number 
+
+00:05:22.470 --> 00:05:29.460
+ corresponding that would be 1 then 
+
+00:05:26.520 --> 00:05:30.900
+ now well once we remember 
+
+00:05:29.460 --> 00:05:32.670
+ that these are entire divisions 
+
+00:05:30.900 --> 00:05:35.460
+ then it is something that facilitates us 
+
+00:05:32.670 --> 00:05:37.890
+ enough for this kind of something and not for 
+
+00:05:35.460 --> 00:05:40.830
+ last we would use a point system 
+
+00:05:37.890 --> 00:05:42.569
+ out point print line to be able to print 
+
+00:05:40.830 --> 00:05:45.770
+ per console 
+
+00:05:42.569 --> 00:05:48.620
+ one of the corresponding results 
+
+00:05:45.770 --> 00:05:50.240
+ there is a point to point bring line to 
+
+00:05:48.620 --> 00:05:53.110
+ tell 
+
+00:05:50.240 --> 00:05:53.110
+ units 
+
+00:05:53.280 --> 00:05:58.139
+ and we had to print the 
+
+00:05:55.680 --> 00:06:00.120
+ variable units or concatenate the value 
+
+00:05:58.139 --> 00:06:02.550
+ units remember that like more here 
+
+00:06:00.120 --> 00:06:04.050
+ we have and the same procedure I'm going 
+
+00:06:02.550 --> 00:06:08.030
+ to do for the four lines of 
+
+00:06:04.050 --> 00:06:11.130
+ remaining codes would be last of 
+
+00:06:08.030 --> 00:06:13.550
+ modify each of the names that 
+
+00:06:11.130 --> 00:06:13.550
+ would 
+
+00:06:13.750 --> 00:06:16.680
+ tens 
+
+00:06:18.320 --> 00:06:21.130
+ hundreds 
+
+00:06:22.569 --> 00:06:29.270
+ and I'm going to 
+
+00:06:25.129 --> 00:06:32.300
+ give m to refer to unit 
+
+00:06:29.270 --> 00:06:34.849
+ 1000 or 1000 units for once 
+
+00:06:32.300 --> 00:06:38.719
+ that we save and we go to execute the 
+
+00:06:34.849 --> 00:06:41.769
+ program as we can see here we are going to 
+
+00:06:38.719 --> 00:06:44.959
+ make a change is printing us 
+
+00:06:41.769 --> 00:06:47.899
+ we have the unit let's see what we 
+
+00:06:44.959 --> 00:06:50.989
+ we have been wrong in this case if many 
+
+00:06:47.899 --> 00:06:53.569
+ They may have realized I'm not with 
+
+00:06:50.989 --> 00:06:55.399
+ the algorithm is in a correct way 
+
+00:06:53.569 --> 00:06:57.289
+ what happens is that I'm printing 
+
+00:06:55.399 --> 00:06:59.569
+ I'm concatenating the same value that is 
+
+00:06:57.289 --> 00:07:02.899
+ units then and I thought that 
+
+00:06:59.569 --> 00:07:06.679
+ we had made some change or some 
+
+00:07:02.899 --> 00:07:08.719
+ calculation that was out of the right thing 
+
+00:07:06.679 --> 00:07:12.069
+ but checking the algorithm is fine 
+
+00:07:08.719 --> 00:07:17.529
+ that we are missing print scene unit 
+
+00:07:12.069 --> 00:07:20.689
+ hundred and finally m then now yes 
+
+00:07:17.529 --> 00:07:22.689
+ if we go to execute the program we are going 
+
+00:07:20.689 --> 00:07:25.939
+ to be able to see that we have six units 
+
+00:07:22.689 --> 00:07:27.619
+ five tens four hundred and one 
+
+00:07:25.939 --> 00:07:29.210
+ unit of 1000 then it's basically 
+
+00:07:27.619 --> 00:07:32.090
+ how does it work 
+
+00:07:29.210 --> 00:07:35.330
+ the algorithm to decompose numbers in 
+
+00:07:32.090 --> 00:07:37.490
+ each of the units scenes 
+
+00:07:35.330 --> 00:07:38.870
+ corresponding well it is true 3 
+
+00:07:37.490 --> 00:07:40.699
+ today more than a tutorial is a 
+
+00:07:38.870 --> 00:07:42.560
+ kind of practical exercise that you can 
+
+00:07:40.699 --> 00:07:44.419
+ help a lot I hope you liked it 
+
+00:07:42.560 --> 00:07:45.949
+ Do not forget any doubt leave it at 
+
+00:07:44.419 --> 00:07:47.630
+ comments like if you liked this 
+
+00:07:45.949 --> 00:07:51.190
+ video and reminding you will always be more 
+
+00:07:47.630 --> 00:07:51.190
+ applied until next time thanks 
+

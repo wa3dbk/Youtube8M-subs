@@ -1,0 +1,936 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.110 --> 00:00:02.810 
+
+this<00:00:01.110> tutorial<00:00:01.290> will<00:00:01.860> cover<00:00:01.920> the<00:00:02.220> conversion
+
+00:00:02.810 --> 00:00:02.820 
+this tutorial will cover the conversion
+
+00:00:02.820 --> 00:00:05.720 
+this tutorial will cover the conversion
+of<00:00:02.970> raw<00:00:03.629> fMRI<00:00:04.259> images<00:00:04.740> from<00:00:05.250> your<00:00:05.339> scanner
+
+00:00:05.720 --> 00:00:05.730 
+of raw fMRI images from your scanner
+
+00:00:05.730 --> 00:00:08.179 
+of raw fMRI images from your scanner
+into<00:00:06.120> a<00:00:06.600> format<00:00:07.020> that<00:00:07.080> can<00:00:07.230> be<00:00:07.350> read<00:00:07.589> by<00:00:08.160> your
+
+00:00:08.179 --> 00:00:08.189 
+into a format that can be read by your
+
+00:00:08.189 --> 00:00:11.839 
+into a format that can be read by your
+software<00:00:08.550> analysis<00:00:09.269> package<00:00:10.639> images<00:00:11.639> come
+
+00:00:11.839 --> 00:00:11.849 
+software analysis package images come
+
+00:00:11.849 --> 00:00:13.759 
+software analysis package images come
+directly<00:00:12.210> off<00:00:12.330> the<00:00:12.450> scanner<00:00:12.750> in<00:00:13.019> a<00:00:13.349> variety<00:00:13.559> of
+
+00:00:13.759 --> 00:00:13.769 
+directly off the scanner in a variety of
+
+00:00:13.769 --> 00:00:15.620 
+directly off the scanner in a variety of
+formats<00:00:14.190> depending<00:00:14.490> on<00:00:14.910> the<00:00:15.000> type<00:00:15.179> of<00:00:15.210> scanner
+
+00:00:15.620 --> 00:00:15.630 
+formats depending on the type of scanner
+
+00:00:15.630 --> 00:00:18.680 
+formats depending on the type of scanner
+and<00:00:15.870> the<00:00:15.990> manufacturer<00:00:16.760> for<00:00:17.760> example<00:00:18.150> Seaman
+
+00:00:18.680 --> 00:00:18.690 
+and the manufacturer for example Seaman
+
+00:00:18.690 --> 00:00:21.620 
+and the manufacturer for example Seaman
+scanners<00:00:19.140> output<00:00:19.920> a<00:00:20.070> format<00:00:20.520> called<00:00:20.600> DICOM
+
+00:00:21.620 --> 00:00:21.630 
+scanners output a format called DICOM
+
+00:00:21.630 --> 00:00:23.599 
+scanners output a format called DICOM
+whereas<00:00:22.320> a<00:00:22.380> fillip<00:00:22.710> scanner<00:00:22.980> outputs<00:00:23.550> a
+
+00:00:23.599 --> 00:00:23.609 
+whereas a fillip scanner outputs a
+
+00:00:23.609 --> 00:00:27.710 
+whereas a fillip scanner outputs a
+format<00:00:23.970> called<00:00:24.000> par<00:00:24.779> rec<00:00:26.210> the<00:00:27.210> goal<00:00:27.420> of
+
+00:00:27.710 --> 00:00:27.720 
+format called par rec the goal of
+
+00:00:27.720 --> 00:00:30.410 
+format called par rec the goal of
+conversion<00:00:28.230> is<00:00:28.380> to<00:00:28.800> convert<00:00:29.099> these<00:00:29.250> raw<00:00:29.580> fMRI
+
+00:00:30.410 --> 00:00:30.420 
+conversion is to convert these raw fMRI
+
+00:00:30.420 --> 00:00:32.690 
+conversion is to convert these raw fMRI
+images<00:00:30.929> into<00:00:31.590> a<00:00:31.619> format<00:00:32.070> that<00:00:32.099> can<00:00:32.340> be<00:00:32.399> read
+
+00:00:32.690 --> 00:00:32.700 
+images into a format that can be read
+
+00:00:32.700 --> 00:00:34.580 
+images into a format that can be read
+and<00:00:32.940> understood<00:00:33.120> by<00:00:33.719> different<00:00:34.140> fMRI
+
+00:00:34.580 --> 00:00:34.590 
+and understood by different fMRI
+
+00:00:34.590 --> 00:00:37.790 
+and understood by different fMRI
+analysis<00:00:35.280> software<00:00:35.460> packages<00:00:36.649> one<00:00:37.649> of<00:00:37.739> the
+
+00:00:37.790 --> 00:00:37.800 
+analysis software packages one of the
+
+00:00:37.800 --> 00:00:40.160 
+analysis software packages one of the
+most<00:00:37.980> common<00:00:38.340> standards<00:00:38.790> for<00:00:39.570> fMRI<00:00:40.050> data
+
+00:00:40.160 --> 00:00:40.170 
+most common standards for fMRI data
+
+00:00:40.170 --> 00:00:44.060 
+most common standards for fMRI data
+analysis<00:00:41.040> is<00:00:41.280> a<00:00:42.030> format<00:00:42.450> called<00:00:42.649> nifty<00:00:43.649> which
+
+00:00:44.060 --> 00:00:44.070 
+analysis is a format called nifty which
+
+00:00:44.070 --> 00:00:47.060 
+analysis is a format called nifty which
+stands<00:00:44.340> for<00:00:44.430> neural<00:00:45.120> imaging<00:00:45.649> sorry<00:00:46.649> neuro
+
+00:00:47.060 --> 00:00:47.070 
+stands for neural imaging sorry neuro
+
+00:00:47.070 --> 00:00:50.270 
+stands for neural imaging sorry neuro
+informatics<00:00:47.730> technology<00:00:48.300> initiative<00:00:49.280> images
+
+00:00:50.270 --> 00:00:50.280 
+informatics technology initiative images
+
+00:00:50.280 --> 00:00:52.459 
+informatics technology initiative images
+with<00:00:50.430> this<00:00:50.579> format<00:00:51.000> have<00:00:51.480> a<00:00:51.510> dot<00:00:51.840> and<00:00:52.079> i-ight
+
+00:00:52.459 --> 00:00:52.469 
+with this format have a dot and i-ight
+
+00:00:52.469 --> 00:00:55.069 
+with this format have a dot and i-ight
+extension<00:00:53.399> to<00:00:53.520> them<00:00:53.670> and<00:00:53.910> they<00:00:54.840> have<00:00:54.989> the
+
+00:00:55.069 --> 00:00:55.079 
+extension to them and they have the
+
+00:00:55.079 --> 00:00:56.450 
+extension to them and they have the
+advantage<00:00:55.199> of<00:00:55.649> being<00:00:55.710> able<00:00:55.980> to<00:00:56.100> be<00:00:56.250> read
+
+00:00:56.450 --> 00:00:56.460 
+advantage of being able to be read
+
+00:00:56.460 --> 00:01:00.319 
+advantage of being able to be read
+across<00:00:57.180> several<00:00:57.539> platforms<00:00:57.899> such<00:00:58.800> as<00:00:58.829> SPM<00:00:59.430> FSL
+
+00:01:00.319 --> 00:01:00.329 
+across several platforms such as SPM FSL
+
+00:01:00.329 --> 00:01:05.030 
+across several platforms such as SPM FSL
+and<00:01:00.570> after<00:01:02.899> the<00:01:03.899> first<00:01:04.110> thing<00:01:04.229> to<00:01:04.350> do<00:01:04.530> is<00:01:04.769> to
+
+00:01:05.030 --> 00:01:05.040 
+and after the first thing to do is to
+
+00:01:05.040 --> 00:01:10.789 
+and after the first thing to do is to
+find<00:01:05.250> a<00:01:05.400> suitable<00:01:05.930> conversion<00:01:06.930> program<00:01:09.799> the
+
+00:01:10.789 --> 00:01:10.799 
+find a suitable conversion program the
+
+00:01:10.799 --> 00:01:12.890 
+find a suitable conversion program the
+one<00:01:10.979> recommended<00:01:11.490> by<00:01:11.549> FSL<00:01:12.150> is<00:01:12.390> a<00:01:12.450> program
+
+00:01:12.890 --> 00:01:12.900 
+one recommended by FSL is a program
+
+00:01:12.900 --> 00:01:16.670 
+one recommended by FSL is a program
+called<00:01:13.200> MRI<00:01:13.740> cron<00:01:14.570> just<00:01:15.570> type<00:01:15.720> MRI<00:01:16.140> cron<00:01:16.409> into
+
+00:01:16.670 --> 00:01:16.680 
+called MRI cron just type MRI cron into
+
+00:01:16.680 --> 00:01:18.710 
+called MRI cron just type MRI cron into
+google<00:01:17.009> and<00:01:17.159> type<00:01:17.670> on<00:01:17.850> the<00:01:17.939> first<00:01:18.180> result<00:01:18.540> that
+
+00:01:18.710 --> 00:01:18.720 
+google and type on the first result that
+
+00:01:18.720 --> 00:01:24.080 
+google and type on the first result that
+comes<00:01:18.900> up<00:01:21.470> MRI<00:01:22.470> cron<00:01:22.860> is<00:01:23.100> a<00:01:23.130> suite<00:01:23.460> of<00:01:23.490> packages
+
+00:01:24.080 --> 00:01:24.090 
+comes up MRI cron is a suite of packages
+
+00:01:24.090 --> 00:01:27.830 
+comes up MRI cron is a suite of packages
+which<00:01:24.840> includes<00:01:25.290> a<00:01:25.590> converter<00:01:26.189> called<00:01:26.640> DCM<00:01:27.270> to
+
+00:01:27.830 --> 00:01:27.840 
+which includes a converter called DCM to
+
+00:01:27.840 --> 00:01:32.800 
+which includes a converter called DCM to
+NII<00:01:28.579> which<00:01:29.579> stands<00:01:29.850> for<00:01:29.970> DICOM<00:01:30.810> -<00:01:31.140> nifty<00:01:31.759> in
+
+00:01:32.800 --> 00:01:32.810 
+NII which stands for DICOM - nifty in
+
+00:01:32.810 --> 00:01:36.350 
+NII which stands for DICOM - nifty in
+order<00:01:33.810> to<00:01:33.960> install<00:01:34.229> DICOM<00:01:35.100> -<00:01:35.250> nifty<00:01:35.610> and<00:01:35.759> the
+
+00:01:36.350 --> 00:01:36.360 
+order to install DICOM - nifty and the
+
+00:01:36.360 --> 00:01:38.690 
+order to install DICOM - nifty and the
+rest<00:01:36.540> of<00:01:36.659> the<00:01:36.750> tools<00:01:37.020> and<00:01:37.320> MRI<00:01:37.680> cron<00:01:37.979> just
+
+00:01:38.690 --> 00:01:38.700 
+rest of the tools and MRI cron just
+
+00:01:38.700 --> 00:01:40.190 
+rest of the tools and MRI cron just
+click<00:01:38.909> on<00:01:39.030> the<00:01:39.119> installation<00:01:39.750> link<00:01:39.960> and
+
+00:01:40.190 --> 00:01:40.200 
+click on the installation link and
+
+00:01:40.200 --> 00:01:42.109 
+click on the installation link and
+follow<00:01:40.650> the<00:01:40.710> instructions<00:01:41.130> according<00:01:41.970> to
+
+00:01:42.109 --> 00:01:42.119 
+follow the instructions according to
+
+00:01:42.119 --> 00:01:49.249 
+follow the instructions according to
+your<00:01:42.409> computer<00:01:43.409> platform<00:01:47.990> once<00:01:48.990> you're<00:01:49.140> done
+
+00:01:49.249 --> 00:01:49.259 
+your computer platform once you're done
+
+00:01:49.259 --> 00:01:52.280 
+your computer platform once you're done
+downloading<00:01:49.500> and<00:01:50.040> selling<00:01:50.399> MRI<00:01:50.700> cron<00:01:51.290> go
+
+00:01:52.280 --> 00:01:52.290 
+downloading and selling MRI cron go
+
+00:01:52.290 --> 00:01:55.690 
+downloading and selling MRI cron go
+ahead<00:01:52.560> and<00:01:52.770> look<00:01:52.950> for<00:01:53.220> the<00:01:53.490> DCM<00:01:54.149> -<00:01:54.780> NII<00:01:55.140> GUI
+
+00:01:55.690 --> 00:01:55.700 
+ahead and look for the DCM - NII GUI
+
+00:01:55.700 --> 00:02:02.389 
+ahead and look for the DCM - NII GUI
+program<00:01:59.750> DICOM<00:02:00.750> -<00:02:00.899> nifty<00:02:01.200> is<00:02:01.439> a<00:02:01.530> very<00:02:01.920> simple
+
+00:02:02.389 --> 00:02:02.399 
+program DICOM - nifty is a very simple
+
+00:02:02.399 --> 00:02:06.289 
+program DICOM - nifty is a very simple
+interface<00:02:02.640> and<00:02:03.210> it's<00:02:03.570> very<00:02:03.750> easy<00:02:03.810> to<00:02:04.170> use<00:02:05.299> the
+
+00:02:06.289 --> 00:02:06.299 
+interface and it's very easy to use the
+
+00:02:06.299 --> 00:02:07.969 
+interface and it's very easy to use the
+first<00:02:06.509> thing<00:02:06.659> to<00:02:06.750> notice<00:02:06.930> here<00:02:07.049> is<00:02:07.439> this
+
+00:02:07.969 --> 00:02:07.979 
+first thing to notice here is this
+
+00:02:07.979 --> 00:02:09.830 
+first thing to notice here is this
+drop-down<00:02:08.280> menu<00:02:08.459> which<00:02:09.330> allows<00:02:09.479> you<00:02:09.780> to
+
+00:02:09.830 --> 00:02:09.840 
+drop-down menu which allows you to
+
+00:02:09.840 --> 00:02:11.990 
+drop-down menu which allows you to
+specify<00:02:09.989> the<00:02:10.440> output<00:02:10.979> format<00:02:11.250> that<00:02:11.610> you<00:02:11.730> want
+
+00:02:11.990 --> 00:02:12.000 
+specify the output format that you want
+
+00:02:12.000 --> 00:02:15.500 
+specify the output format that you want
+your<00:02:12.180> files<00:02:12.510> in<00:02:13.700> the<00:02:14.700> science<00:02:14.970> nifty<00:02:15.270> there's
+
+00:02:15.500 --> 00:02:15.510 
+your files in the science nifty there's
+
+00:02:15.510 --> 00:02:17.839 
+your files in the science nifty there's
+another<00:02:15.750> format<00:02:16.200> called<00:02:16.410> header<00:02:16.980> slash<00:02:17.400> image
+
+00:02:17.839 --> 00:02:17.849 
+another format called header slash image
+
+00:02:17.849 --> 00:02:19.670 
+another format called header slash image
+but<00:02:18.270> we're<00:02:18.420> going<00:02:18.569> to<00:02:18.629> focus<00:02:18.810> on<00:02:19.140> nifty<00:02:19.500> for
+
+00:02:19.670 --> 00:02:19.680 
+but we're going to focus on nifty for
+
+00:02:19.680 --> 00:02:23.949 
+but we're going to focus on nifty for
+now<00:02:20.060> this<00:02:21.060> option<00:02:21.569> compressed<00:02:22.290> FSL<00:02:22.830> 40<00:02:23.489> nifty
+
+00:02:23.949 --> 00:02:23.959 
+now this option compressed FSL 40 nifty
+
+00:02:23.959 --> 00:02:26.510 
+now this option compressed FSL 40 nifty
+will<00:02:24.959> output<00:02:25.410> nifty<00:02:25.739> files<00:02:25.980> and<00:02:26.370> also
+
+00:02:26.510 --> 00:02:26.520 
+will output nifty files and also
+
+00:02:26.520 --> 00:02:28.220 
+will output nifty files and also
+compress<00:02:26.970> them<00:02:27.209> in<00:02:27.390> order<00:02:27.660> to<00:02:27.780> save<00:02:27.959> disk
+
+00:02:28.220 --> 00:02:28.230 
+compress them in order to save disk
+
+00:02:28.230 --> 00:02:30.440 
+compress them in order to save disk
+space<00:02:28.349> so<00:02:29.280> let's<00:02:29.489> go<00:02:29.610> ahead<00:02:29.819> and<00:02:29.970> select<00:02:30.150> that
+
+00:02:30.440 --> 00:02:30.450 
+space so let's go ahead and select that
+
+00:02:30.450 --> 00:02:34.699 
+space so let's go ahead and select that
+for<00:02:30.660> now<00:02:32.870> one<00:02:33.870> more<00:02:34.019> thing<00:02:34.230> you<00:02:34.349> might<00:02:34.470> want<00:02:34.680> to
+
+00:02:34.699 --> 00:02:34.709 
+for now one more thing you might want to
+
+00:02:34.709 --> 00:02:38.570 
+for now one more thing you might want to
+check<00:02:34.950> is<00:02:35.629> under<00:02:36.629> the<00:02:36.720> help<00:02:36.959> and<00:02:37.580> preferences
+
+00:02:38.570 --> 00:02:38.580 
+check is under the help and preferences
+
+00:02:38.580 --> 00:02:42.770 
+check is under the help and preferences
+options<00:02:39.800> you're<00:02:40.800> able<00:02:41.129> to<00:02:41.160> specify<00:02:41.790> what
+
+00:02:42.770 --> 00:02:42.780 
+options you're able to specify what
+
+00:02:42.780 --> 00:02:45.710 
+options you're able to specify what
+information<00:02:43.650> you<00:02:43.830> want<00:02:43.860> prepended<00:02:44.670> to<00:02:44.720> your
+
+00:02:45.710 --> 00:02:45.720 
+information you want prepended to your
+
+00:02:45.720 --> 00:02:49.430 
+information you want prepended to your
+nifty<00:02:45.900> files<00:02:46.760> most<00:02:47.760> of<00:02:47.970> these<00:02:48.060> you<00:02:48.959> don't<00:02:49.110> need
+
+00:02:49.430 --> 00:02:49.440 
+nifty files most of these you don't need
+
+00:02:49.440 --> 00:02:51.470 
+nifty files most of these you don't need
+and<00:02:49.709> you<00:02:49.739> see<00:02:50.670> an<00:02:50.730> example<00:02:51.000> of<00:02:51.300> the<00:02:51.450> output
+
+00:02:51.470 --> 00:02:51.480 
+and you see an example of the output
+
+00:02:51.480 --> 00:02:54.770 
+and you see an example of the output
+file<00:02:52.050> right<00:02:52.500> here<00:02:52.970> this<00:02:53.970> looks<00:02:54.209> rather<00:02:54.480> long
+
+00:02:54.770 --> 00:02:54.780 
+file right here this looks rather long
+
+00:02:54.780 --> 00:02:57.949 
+file right here this looks rather long
+and<00:02:55.050> unwieldy<00:02:56.390> go<00:02:57.390> ahead<00:02:57.629> and<00:02:57.840> uncheck
+
+00:02:57.949 --> 00:02:57.959 
+and unwieldy go ahead and uncheck
+
+00:02:57.959 --> 00:03:00.490 
+and unwieldy go ahead and uncheck
+everything<00:02:58.409> except<00:02:59.010> for<00:02:59.159> acquisition<00:02:59.730> series
+
+00:03:00.490 --> 00:03:00.500 
+everything except for acquisition series
+
+00:03:00.500 --> 00:03:02.780 
+everything except for acquisition series
+this<00:03:01.500> makes<00:03:01.709> the<00:03:01.800> resulting<00:03:02.250> output<00:03:02.580> files
+
+00:03:02.780 --> 00:03:02.790 
+this makes the resulting output files
+
+00:03:02.790 --> 00:03:09.589 
+this makes the resulting output files
+much<00:03:03.360> easier<00:03:03.720> to<00:03:03.900> read<00:03:08.150> now<00:03:09.150> that<00:03:09.269> we<00:03:09.420> have
+
+00:03:09.589 --> 00:03:09.599 
+much easier to read now that we have
+
+00:03:09.599 --> 00:03:12.649 
+much easier to read now that we have
+DICOM<00:03:09.989> -<00:03:10.110> nifty<00:03:10.379> setup<00:03:10.790> all<00:03:11.790> we<00:03:12.000> need<00:03:12.180> is<00:03:12.360> some
+
+00:03:12.649 --> 00:03:12.659 
+DICOM - nifty setup all we need is some
+
+00:03:12.659 --> 00:03:16.790 
+DICOM - nifty setup all we need is some
+raw<00:03:13.110> fMRI<00:03:13.800> data<00:03:13.830> to<00:03:14.400> convert<00:03:15.470> I've<00:03:16.470> provided
+
+00:03:16.790 --> 00:03:16.800 
+raw fMRI data to convert I've provided
+
+00:03:16.800 --> 00:03:19.759 
+raw fMRI data to convert I've provided
+some<00:03:16.980> on<00:03:17.370> my<00:03:17.580> web<00:03:17.760> page<00:03:18.000> which<00:03:18.840> is<00:03:19.080> my<00:03:19.500> page<00:03:19.739> I
+
+00:03:19.759 --> 00:03:19.769 
+some on my web page which is my page I
+
+00:03:19.769 --> 00:03:28.070 
+some on my web page which is my page I
+you<00:03:20.400> dot<00:03:21.150> edu<00:03:21.620> slash<00:03:22.819> tilde<00:03:24.049> AJ<00:03:25.049> Ahn<00:03:26.840> go<00:03:27.840> to<00:03:27.900> the
+
+00:03:28.070 --> 00:03:28.080 
+you dot edu slash tilde AJ Ahn go to the
+
+00:03:28.080 --> 00:03:30.740 
+you dot edu slash tilde AJ Ahn go to the
+links<00:03:28.349> and<00:03:28.470> click<00:03:28.709> on<00:03:28.830> FSL<00:03:29.370> example<00:03:29.909> data<00:03:30.090> to
+
+00:03:30.740 --> 00:03:30.750 
+links and click on FSL example data to
+
+00:03:30.750 --> 00:03:36.140 
+links and click on FSL example data to
+download<00:03:31.200> a<00:03:31.500> sample<00:03:32.069> data<00:03:32.430> suite<00:03:35.150> I've
+
+00:03:36.140 --> 00:03:36.150 
+download a sample data suite I've
+
+00:03:36.150 --> 00:03:38.180 
+download a sample data suite I've
+already<00:03:36.659> downloaded<00:03:36.780> it<00:03:37.140> to<00:03:37.409> my<00:03:37.680> desktop
+
+00:03:38.180 --> 00:03:38.190 
+already downloaded it to my desktop
+
+00:03:38.190 --> 00:03:40.250 
+already downloaded it to my desktop
+right<00:03:38.220> here<00:03:38.640> so<00:03:39.390> let's<00:03:39.569> go<00:03:39.720> ahead<00:03:39.810> and<00:03:39.959> see
+
+00:03:40.250 --> 00:03:40.260 
+right here so let's go ahead and see
+
+00:03:40.260 --> 00:03:45.470 
+right here so let's go ahead and see
+what's<00:03:40.440> inside
+
+00:03:45.470 --> 00:03:45.480 
+
+00:03:45.480 --> 00:03:47.089 
+
+you<00:03:46.019> can<00:03:46.140> see<00:03:46.319> we<00:03:46.440> have<00:03:46.560> a<00:03:46.590> few<00:03:46.769> different
+
+00:03:47.089 --> 00:03:47.099 
+you can see we have a few different
+
+00:03:47.099 --> 00:03:49.009 
+you can see we have a few different
+directories<00:03:47.580> in<00:03:47.819> a<00:03:48.360> couple<00:03:48.599> of<00:03:48.690> different
+
+00:03:49.009 --> 00:03:49.019 
+directories in a couple of different
+
+00:03:49.019 --> 00:03:51.979 
+directories in a couple of different
+scripts<00:03:49.530> which<00:03:49.980> we'll<00:03:50.159> focus<00:03:50.489> on<00:03:50.640> later<00:03:50.989> for
+
+00:03:51.979 --> 00:03:51.989 
+scripts which we'll focus on later for
+
+00:03:51.989 --> 00:03:54.770 
+scripts which we'll focus on later for
+now<00:03:52.110> look<00:03:52.950> within<00:03:53.159> the<00:03:53.370> fmri<00:03:53.970> underscore<00:03:54.569> raw
+
+00:03:54.770 --> 00:03:54.780 
+now look within the fmri underscore raw
+
+00:03:54.780 --> 00:03:57.949 
+now look within the fmri underscore raw
+data<00:03:55.019> directory<00:03:56.239> you<00:03:57.239> can<00:03:57.299> see<00:03:57.569> that<00:03:57.720> we<00:03:57.810> have
+
+00:03:57.949 --> 00:03:57.959 
+data directory you can see that we have
+
+00:03:57.959 --> 00:04:03.890 
+data directory you can see that we have
+hundreds<00:03:58.470> of<00:03:58.590> daikon<00:03:59.400> images<00:03:59.879> here<00:04:02.900> another
+
+00:04:03.890 --> 00:04:03.900 
+hundreds of daikon images here another
+
+00:04:03.900 --> 00:04:05.390 
+hundreds of daikon images here another
+important<00:04:04.379> thing<00:04:04.470> to<00:04:04.530> note<00:04:04.620> within<00:04:05.310> this
+
+00:04:05.390 --> 00:04:05.400 
+important thing to note within this
+
+00:04:05.400 --> 00:04:07.670 
+important thing to note within this
+folder<00:04:05.610> is<00:04:05.910> this<00:04:06.569> text<00:04:06.870> file<00:04:07.049> called<00:04:07.349> scanning
+
+00:04:07.670 --> 00:04:07.680 
+folder is this text file called scanning
+
+00:04:07.680 --> 00:04:11.000 
+folder is this text file called scanning
+parameters<00:04:08.540> this<00:04:09.540> gives<00:04:09.780> information<00:04:10.010> about
+
+00:04:11.000 --> 00:04:11.010 
+parameters this gives information about
+
+00:04:11.010 --> 00:04:14.270 
+parameters this gives information about
+each<00:04:11.340> run<00:04:11.790> in<00:04:12.599> this<00:04:13.140> experiment<00:04:13.709> what
+
+00:04:14.270 --> 00:04:14.280 
+each run in this experiment what
+
+00:04:14.280 --> 00:04:16.430 
+each run in this experiment what
+happened<00:04:14.640> was<00:04:14.849> we<00:04:15.090> had<00:04:15.120> a<00:04:15.269> device<00:04:15.629> next<00:04:15.959> to<00:04:16.199> a
+
+00:04:16.430 --> 00:04:16.440 
+happened was we had a device next to a
+
+00:04:16.440 --> 00:04:18.830 
+happened was we had a device next to a
+subjects<00:04:16.919> head<00:04:17.100> which<00:04:17.639> is<00:04:17.729> my<00:04:17.910> head<00:04:18.120> and<00:04:18.389> we
+
+00:04:18.830 --> 00:04:18.840 
+subjects head which is my head and we
+
+00:04:18.840 --> 00:04:20.330 
+subjects head which is my head and we
+wanted<00:04:19.139> to<00:04:19.229> see<00:04:19.440> whether<00:04:19.709> it<00:04:20.070> would<00:04:20.190> produce
+
+00:04:20.330 --> 00:04:20.340 
+wanted to see whether it would produce
+
+00:04:20.340 --> 00:04:25.460 
+wanted to see whether it would produce
+any<00:04:20.639> artifacts<00:04:23.479> so<00:04:24.479> the<00:04:24.750> parameters<00:04:25.169> here<00:04:25.410> are
+
+00:04:25.460 --> 00:04:25.470 
+any artifacts so the parameters here are
+
+00:04:25.470 --> 00:04:28.189 
+any artifacts so the parameters here are
+they're<00:04:25.940> 165<00:04:26.940> volumes<00:04:27.419> for<00:04:27.600> each<00:04:27.750> functional
+
+00:04:28.189 --> 00:04:28.199 
+they're 165 volumes for each functional
+
+00:04:28.199 --> 00:04:30.980 
+they're 165 volumes for each functional
+runs<00:04:28.610> with<00:04:29.610> 35<00:04:29.970> slices<00:04:30.510> in<00:04:30.720> the<00:04:30.810> z<00:04:30.960> direction
+
+00:04:30.980 --> 00:04:30.990 
+runs with 35 slices in the z direction
+
+00:04:30.990 --> 00:04:34.939 
+runs with 35 slices in the z direction
+and<00:04:31.860> a<00:04:32.070> TR<00:04:32.430> of<00:04:32.639> 2<00:04:32.850> seconds<00:04:33.360> the<00:04:34.350> anatomical
+
+00:04:34.939 --> 00:04:34.949 
+and a TR of 2 seconds the anatomical
+
+00:04:34.949 --> 00:04:39.320 
+and a TR of 2 seconds the anatomical
+scans<00:04:35.250> have<00:04:35.490> 160<00:04:36.270> slices<00:04:37.610> for<00:04:38.610> now<00:04:38.760> the<00:04:39.210> only
+
+00:04:39.320 --> 00:04:39.330 
+scans have 160 slices for now the only
+
+00:04:39.330 --> 00:04:41.330 
+scans have 160 slices for now the only
+ones<00:04:39.539> I've<00:04:39.690> provided<00:04:39.960> for<00:04:40.320> you<00:04:40.470> are<00:04:40.680> runs<00:04:41.039> 5
+
+00:04:41.330 --> 00:04:41.340 
+ones I've provided for you are runs 5
+
+00:04:41.340 --> 00:04:44.779 
+ones I've provided for you are runs 5
+through<00:04:41.639> 7<00:04:42.860> this<00:04:43.860> is<00:04:43.919> a<00:04:44.070> very<00:04:44.280> simple<00:04:44.610> task
+
+00:04:44.779 --> 00:04:44.789 
+through 7 this is a very simple task
+
+00:04:44.789 --> 00:04:47.330 
+through 7 this is a very simple task
+where<00:04:45.210> I<00:04:45.240> just<00:04:45.360> did<00:04:45.750> tapping<00:04:46.740> my<00:04:46.860> right<00:04:47.039> hand
+
+00:04:47.330 --> 00:04:47.340 
+where I just did tapping my right hand
+
+00:04:47.340 --> 00:04:50.120 
+where I just did tapping my right hand
+tapping<00:04:48.120> my<00:04:48.240> left<00:04:48.510> hand<00:04:48.780> and<00:04:48.990> then<00:04:49.650> holding<00:04:49.979> my
+
+00:04:50.120 --> 00:04:50.130 
+tapping my left hand and then holding my
+
+00:04:50.130 --> 00:05:00.830 
+tapping my left hand and then holding my
+breath<00:04:50.370> and<00:04:50.700> also<00:04:51.770> exhaling
+
+00:05:00.830 --> 00:05:00.840 
+
+00:05:00.840 --> 00:05:04.400 
+
+so<00:05:01.380> if<00:05:02.220> we<00:05:02.340> go<00:05:02.460> back<00:05:02.490> to<00:05:02.700> here<00:05:03.169> we<00:05:04.169> know<00:05:04.290> from
+
+00:05:04.400 --> 00:05:04.410 
+so if we go back to here we know from
+
+00:05:04.410 --> 00:05:06.350 
+so if we go back to here we know from
+the<00:05:04.560> text<00:05:04.740> file<00:05:04.980> that<00:05:05.550> the<00:05:05.700> functional<00:05:06.030> scans
+
+00:05:06.350 --> 00:05:06.360 
+the text file that the functional scans
+
+00:05:06.360 --> 00:05:11.090 
+the text file that the functional scans
+begin<00:05:06.810> at<00:05:07.080> run<00:05:07.350> five<00:05:09.169> the<00:05:10.169> second<00:05:10.530> column<00:05:10.710> here
+
+00:05:11.090 --> 00:05:11.100 
+begin at run five the second column here
+
+00:05:11.100 --> 00:05:14.420 
+begin at run five the second column here
+tells<00:05:12.060> you<00:05:12.300> what<00:05:12.600> run<00:05:12.840> you're<00:05:13.050> at<00:05:13.230> and<00:05:13.560> the
+
+00:05:14.420 --> 00:05:14.430 
+tells you what run you're at and the
+
+00:05:14.430 --> 00:05:17.000 
+tells you what run you're at and the
+third<00:05:14.610> column<00:05:14.820> tells<00:05:15.330> you<00:05:15.540> what<00:05:16.320> image<00:05:16.770> is
+
+00:05:17.000 --> 00:05:17.010 
+third column tells you what image is
+
+00:05:17.010 --> 00:05:20.810 
+third column tells you what image is
+being<00:05:17.730> acquired<00:05:18.860> so<00:05:19.860> here<00:05:20.130> we<00:05:20.280> see<00:05:20.460> the<00:05:20.550> start
+
+00:05:20.810 --> 00:05:20.820 
+being acquired so here we see the start
+
+00:05:20.820 --> 00:05:22.760 
+being acquired so here we see the start
+of<00:05:21.000> run<00:05:21.210> five<00:05:21.480> and<00:05:22.110> if<00:05:22.200> we<00:05:22.320> keep<00:05:22.470> scrolling
+
+00:05:22.760 --> 00:05:22.770 
+of run five and if we keep scrolling
+
+00:05:22.770 --> 00:05:25.430 
+of run five and if we keep scrolling
+down<00:05:23.070> it<00:05:23.400> should<00:05:23.970> end<00:05:24.240> at<00:05:24.720> a<00:05:24.930> hundred<00:05:25.320> and
+
+00:05:25.430 --> 00:05:25.440 
+down it should end at a hundred and
+
+00:05:25.440 --> 00:05:32.990 
+down it should end at a hundred and
+sixty-five<00:05:26.000> volumes<00:05:27.000> and<00:05:27.830> it<00:05:28.830> does<00:05:31.669> run<00:05:32.669> six
+
+00:05:32.990 --> 00:05:33.000 
+sixty-five volumes and it does run six
+
+00:05:33.000 --> 00:05:36.200 
+sixty-five volumes and it does run six
+is<00:05:33.150> the<00:05:33.180> same<00:05:33.300> and<00:05:34.340> when<00:05:35.340> we<00:05:35.430> get<00:05:35.550> to<00:05:35.669> run<00:05:35.820> seven
+
+00:05:36.200 --> 00:05:36.210 
+is the same and when we get to run seven
+
+00:05:36.210 --> 00:05:38.090 
+is the same and when we get to run seven
+it<00:05:36.389> should<00:05:36.540> end<00:05:36.780> and<00:05:37.139> one<00:05:37.380> hundred<00:05:37.650> and<00:05:37.770> sixty
+
+00:05:38.090 --> 00:05:38.100 
+it should end and one hundred and sixty
+
+00:05:38.100 --> 00:05:40.190 
+it should end and one hundred and sixty
+volumes<00:05:38.490> because<00:05:38.729> it<00:05:39.120> is<00:05:39.210> an<00:05:39.330> anatomical<00:05:39.750> run
+
+00:05:40.190 --> 00:05:40.200 
+volumes because it is an anatomical run
+
+00:05:40.200 --> 00:05:44.000 
+volumes because it is an anatomical run
+and<00:05:41.720> we<00:05:42.720> see<00:05:42.900> that<00:05:43.050> that<00:05:43.110> is<00:05:43.380> also<00:05:43.860> what
+
+00:05:44.000 --> 00:05:44.010 
+and we see that that is also what
+
+00:05:44.010 --> 00:05:47.450 
+and we see that that is also what
+happens<00:05:45.530> it's<00:05:46.530> good<00:05:46.710> to<00:05:46.800> check<00:05:46.950> for<00:05:47.130> this<00:05:47.220> just
+
+00:05:47.450 --> 00:05:47.460 
+happens it's good to check for this just
+
+00:05:47.460 --> 00:05:49.100 
+happens it's good to check for this just
+to<00:05:47.550> make<00:05:47.700> sure<00:05:47.729> that<00:05:48.060> there<00:05:48.180> are<00:05:48.270> no<00:05:48.389> runs<00:05:48.720> or
+
+00:05:49.100 --> 00:05:49.110 
+to make sure that there are no runs or
+
+00:05:49.110 --> 00:05:55.159 
+to make sure that there are no runs or
+volumes<00:05:49.620> that<00:05:49.770> are<00:05:49.830> missing<00:05:53.900> once<00:05:54.900> we're<00:05:55.050> done
+
+00:05:55.159 --> 00:05:55.169 
+volumes that are missing once we're done
+
+00:05:55.169 --> 00:05:57.830 
+volumes that are missing once we're done
+with<00:05:55.350> that<00:05:55.820> we<00:05:56.820> can<00:05:56.970> select<00:05:57.150> any<00:05:57.510> of<00:05:57.690> these
+
+00:05:57.830 --> 00:05:57.840 
+with that we can select any of these
+
+00:05:57.840 --> 00:06:00.370 
+with that we can select any of these
+images<00:05:58.490> literally<00:05:59.490> any<00:05:59.639> one<00:05:59.880> of<00:05:59.910> them<00:06:00.120> and
+
+00:06:00.370 --> 00:06:00.380 
+images literally any one of them and
+
+00:06:00.380 --> 00:06:03.740 
+images literally any one of them and
+click<00:06:01.380> and<00:06:01.530> drag<00:06:01.590> it<00:06:01.950> over<00:06:02.100> to<00:06:02.370> this<00:06:02.700> icon<00:06:03.210> the
+
+00:06:03.740 --> 00:06:03.750 
+click and drag it over to this icon the
+
+00:06:03.750 --> 00:06:07.240 
+click and drag it over to this icon the
+DICOM<00:06:04.169> -<00:06:04.350> nifty<00:06:04.710> GUI<00:06:04.890> icon<00:06:05.430> in<00:06:05.669> the<00:06:06.270> dock<00:06:06.450> and
+
+00:06:07.240 --> 00:06:07.250 
+DICOM - nifty GUI icon in the dock and
+
+00:06:07.250 --> 00:06:12.320 
+DICOM - nifty GUI icon in the dock and
+release<00:06:08.250> it<00:06:09.020> it'll<00:06:10.020> start<00:06:10.289> converting<00:06:11.330> the
+
+00:06:12.320 --> 00:06:12.330 
+release it it'll start converting the
+
+00:06:12.330 --> 00:06:14.750 
+release it it'll start converting the
+conversion<00:06:12.840> for<00:06:13.169> very<00:06:13.650> large<00:06:13.919> datasets<00:06:14.250> can
+
+00:06:14.750 --> 00:06:14.760 
+conversion for very large datasets can
+
+00:06:14.760 --> 00:06:16.070 
+conversion for very large datasets can
+take<00:06:15.000> up<00:06:15.120> to<00:06:15.150> several<00:06:15.450> minutes
+
+00:06:16.070 --> 00:06:16.080 
+take up to several minutes
+
+00:06:16.080 --> 00:06:19.490 
+take up to several minutes
+so<00:06:16.470> be<00:06:16.620> patient<00:06:17.630> after<00:06:18.630> DICOM<00:06:18.990> -<00:06:19.080> nifty<00:06:19.380> has
+
+00:06:19.490 --> 00:06:19.500 
+so be patient after DICOM - nifty has
+
+00:06:19.500 --> 00:06:21.050 
+so be patient after DICOM - nifty has
+finished<00:06:19.740> converting<00:06:20.310> you'll<00:06:20.789> see<00:06:20.970> the
+
+00:06:21.050 --> 00:06:21.060 
+finished converting you'll see the
+
+00:06:21.060 --> 00:06:22.969 
+finished converting you'll see the
+conversion<00:06:21.419> completed<00:06:22.050> at<00:06:22.229> the<00:06:22.650> end<00:06:22.680> of<00:06:22.919> the
+
+00:06:22.969 --> 00:06:22.979 
+conversion completed at the end of the
+
+00:06:22.979 --> 00:06:27.200 
+conversion completed at the end of the
+text<00:06:23.190> box<00:06:25.160> let's<00:06:26.160> go<00:06:26.310> back<00:06:26.490> to<00:06:26.640> the<00:06:26.729> fMRI
+
+00:06:27.200 --> 00:06:27.210 
+text box let's go back to the fMRI
+
+00:06:27.210 --> 00:06:30.230 
+text box let's go back to the fMRI
+underscore<00:06:27.720> raw<00:06:27.900> data<00:06:28.140> directory<00:06:28.740> and<00:06:29.240> look
+
+00:06:30.230 --> 00:06:30.240 
+underscore raw data directory and look
+
+00:06:30.240 --> 00:06:34.640 
+underscore raw data directory and look
+at<00:06:30.330> what's<00:06:30.479> been<00:06:30.630> produced<00:06:33.020> now<00:06:34.020> we<00:06:34.440> have
+
+00:06:34.640 --> 00:06:34.650 
+at what's been produced now we have
+
+00:06:34.650 --> 00:06:36.529 
+at what's been produced now we have
+nifty<00:06:35.160> files<00:06:35.580> which<00:06:35.970> have<00:06:36.000> been<00:06:36.210> converted
+
+00:06:36.529 --> 00:06:36.539 
+nifty files which have been converted
+
+00:06:36.539 --> 00:06:40.070 
+nifty files which have been converted
+from<00:06:36.960> the<00:06:37.110> DICOM<00:06:37.470> files<00:06:38.750> the<00:06:39.750> ones<00:06:39.780> we're
+
+00:06:40.070 --> 00:06:40.080 
+from the DICOM files the ones we're
+
+00:06:40.080 --> 00:06:41.180 
+from the DICOM files the ones we're
+going<00:06:40.169> to<00:06:40.260> focus<00:06:40.320> on<00:06:40.770> in<00:06:40.979> the<00:06:41.039> future
+
+00:06:41.180 --> 00:06:41.190 
+going to focus on in the future
+
+00:06:41.190 --> 00:06:45.680 
+going to focus on in the future
+tutorials<00:06:41.850> are<00:06:42.150> 5<00:06:42.960> 6<00:06:43.410> &amp;<00:06:43.620> 7<00:06:44.240> the<00:06:45.240> rest<00:06:45.419> of<00:06:45.570> these
+
+00:06:45.680 --> 00:06:45.690 
+tutorials are 5 6 &amp; 7 the rest of these
+
+00:06:45.690 --> 00:06:49.090 
+tutorials are 5 6 &amp; 7 the rest of these
+represents<00:06:46.590> either<00:06:47.070> redundant<00:06:47.880> scans<00:06:48.180> or
+
+00:06:49.090 --> 00:06:49.100 
+represents either redundant scans or
+
+00:06:49.100 --> 00:06:53.150 
+represents either redundant scans or
+images<00:06:50.100> of<00:06:50.370> the<00:06:50.580> anatomical<00:06:51.150> scan<00:06:51.419> or<00:06:52.160> things
+
+00:06:53.150 --> 00:06:53.160 
+images of the anatomical scan or things
+
+00:06:53.160 --> 00:06:55.820 
+images of the anatomical scan or things
+like<00:06:53.250> the<00:06:53.460> Scout<00:06:53.729> scans<00:06:54.150> turbo<00:06:55.139> flash<00:06:55.380> and
+
+00:06:55.820 --> 00:06:55.830 
+like the Scout scans turbo flash and
+
+00:06:55.830 --> 00:06:58.490 
+like the Scout scans turbo flash and
+field<00:06:56.160> mapping<00:06:56.550> scans<00:06:56.990> for<00:06:57.990> now<00:06:58.139> we're<00:06:58.410> not
+
+00:06:58.490 --> 00:06:58.500 
+field mapping scans for now we're not
+
+00:06:58.500 --> 00:07:00.230 
+field mapping scans for now we're not
+going<00:06:58.680> to<00:06:58.740> focus<00:06:58.919> on<00:06:59.190> those<00:06:59.400> so<00:06:59.880> we<00:06:59.970> can<00:07:00.120> go
+
+00:07:00.230 --> 00:07:00.240 
+going to focus on those so we can go
+
+00:07:00.240 --> 00:07:05.260 
+going to focus on those so we can go
+ahead<00:07:00.270> and<00:07:00.539> delete<00:07:00.960> them
+
+00:07:05.260 --> 00:07:05.270 
+
+00:07:05.270 --> 00:07:07.749 
+
+if<00:07:05.569> you're<00:07:05.870> done<00:07:06.050> you<00:07:06.919> can<00:07:07.069> use<00:07:07.099> this<00:07:07.430> to<00:07:07.580> then
+
+00:07:07.749 --> 00:07:07.759 
+if you're done you can use this to then
+
+00:07:07.759 --> 00:07:10.029 
+if you're done you can use this to then
+convert<00:07:08.330> all<00:07:08.690> your<00:07:08.840> other<00:07:08.960> DICOM<00:07:09.410> files<00:07:09.680> for
+
+00:07:10.029 --> 00:07:10.039 
+convert all your other DICOM files for
+
+00:07:10.039 --> 00:07:12.699 
+convert all your other DICOM files for
+your<00:07:10.130> other<00:07:10.220> datasets
+

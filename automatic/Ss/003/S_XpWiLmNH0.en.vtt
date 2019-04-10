@@ -1,0 +1,319 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.020 --> 00:00:04.490
+ let's see how you can try the 
+
+00:00:01.699 --> 00:00:08.000
+ RGB LEDs to change color 
+
+00:00:04.490 --> 00:00:11.870
+ automatically using the CD 40 17 
+
+00:00:08.000 --> 00:00:13.220
+ thousand 555 we can also make a 
+
+00:00:11.870 --> 00:00:16.060
+ sequence of LEDs that changes the 
+
+00:00:13.220 --> 00:00:16.060
+ color of the nails 
+
+00:00:17.850 --> 00:00:21.289
+ making sequences with different 
+
+00:00:19.650 --> 00:00:26.470
+ colors 
+
+00:00:21.289 --> 00:00:26.470
+ blue red and green 
+
+00:00:28.660 --> 00:00:30.780
+ yes 
+
+00:00:32.840 --> 00:00:36.950
+ to be able to make the control circuit 
+
+00:00:34.700 --> 00:00:39.440
+ of the rgb LEDs it is necessary that first 
+
+00:00:36.950 --> 00:00:41.930
+ see the previous video where he teaches how 
+
+00:00:39.440 --> 00:00:44.090
+ connect the led rgb local I leave the 
+
+00:00:41.930 --> 00:00:45.590
+ link to the information of this video in 
+
+00:00:44.090 --> 00:00:48.100
+ the next video that you should see that is 
+
+00:00:45.590 --> 00:00:51.770
+ compulsory is the one of led sequence with 
+
+00:00:48.100 --> 00:00:54.080
+ 555 and 4017 in this video you will learn to 
+
+00:00:51.770 --> 00:00:57.739
+ wire the 555 which is the generator of 
+
+00:00:54.080 --> 00:00:59.480
+ pulses and the c of 40-17 that is a 
+
+00:00:57.739 --> 00:01:01.460
+ decimal counter which is going 
+
+00:00:59.480 --> 00:01:04.129
+ generating a sequence we must mount 
+
+00:01:01.460 --> 00:01:06.080
+ all the same except the connection to the 
+
+00:01:04.129 --> 00:01:08.240
+ LEDs then we will connect the LEDs 
+
+00:01:06.080 --> 00:01:10.040
+ rgb in the following way for this case 
+
+00:01:08.240 --> 00:01:11.899
+ let's connect three then remember 
+
+00:01:10.040 --> 00:01:13.670
+ that the second leg is the common then 
+
+00:01:11.899 --> 00:01:16.460
+ with these three cables we bring it is the 
+
+00:01:13.670 --> 00:01:19.250
+ common and the other three legs that are 
+
+00:01:16.460 --> 00:01:21.440
+ the first the third and the fourth we're going 
+
+00:01:19.250 --> 00:01:23.720
+ to draw three resistors of one k to 
+
+00:01:21.440 --> 00:01:25.910
+ each of them three for the first 3 
+
+00:01:23.720 --> 00:01:27.350
+ for the second and 3 for the third so 
+
+00:01:25.910 --> 00:01:29.090
+ that if I connect to the first leg 
+
+00:01:27.350 --> 00:01:31.130
+ I turn on red if I 
+
+00:01:29.090 --> 00:01:33.740
+ I connect to the third lights color 
+
+00:01:31.130 --> 00:01:35.570
+ green and if you connect the positive to the 
+
+00:01:33.740 --> 00:01:36.920
+ fourth mention of blue color what 
+
+00:01:35.570 --> 00:01:38.420
+ let's do now it's programming by 
+
+00:01:36.920 --> 00:01:39.610
+ wiring something similar to what we did 
+
+00:01:38.420 --> 00:01:41.890
+ in the circuit 
+
+00:01:39.610 --> 00:01:43.960
+ as we have 10 outputs we take the 
+
+00:01:41.890 --> 00:01:45.550
+ first and it comes out by part 3 that 
+
+00:01:43.960 --> 00:01:47.740
+ we connect the first led to the output 
+
+00:01:45.550 --> 00:01:49.690
+ red layer is reaching the pulse in the 
+
+00:01:47.740 --> 00:01:51.820
+ next led we are going also to the exit 
+
+00:01:49.690 --> 00:01:53.800
+ red and we connect it to the second exit 
+
+00:01:51.820 --> 00:01:56.050
+ which coincides with number 2 then in the 
+
+00:01:53.800 --> 00:01:58.690
+ third led ends the red exit the 
+
+00:01:56.050 --> 00:02:00.400
+ we connect to leg 4 we have 
+
+00:01:58.690 --> 00:02:02.050
+ our red color sequence now 
+
+00:02:00.400 --> 00:02:04.060
+ we are going to generate that the second sequence 
+
+00:02:02.050 --> 00:02:06.580
+ is done with the green color of the first one 
+
+00:02:04.060 --> 00:02:09.280
+ we connect leg 3 and connect it to 
+
+00:02:06.580 --> 00:02:10.959
+ the output of 7 of 40 and 17 here we see 
+
+00:02:09.280 --> 00:02:12.670
+ that begins to light the green of 
+
+00:02:10.959 --> 00:02:14.890
+ second led green exit the 
+
+00:02:12.670 --> 00:02:17.470
+ we connect to leg 10 of the third led 
+
+00:02:14.890 --> 00:02:19.180
+ the green exit we go to leg 1 here 
+
+00:02:17.470 --> 00:02:20.980
+ we see that the red sequence passes 
+
+00:02:19.180 --> 00:02:22.540
+ then pass the green sequence with the 
+
+00:02:20.980 --> 00:02:24.280
+ potentiometer we can follow 
+
+00:02:22.540 --> 00:02:26.380
+ increasing or decreasing the speed does not 
+
+00:02:24.280 --> 00:02:29.080
+ the blue color sequence is missing 
+
+00:02:26.380 --> 00:02:31.480
+ then the first led to leg 4 we go 
+
+00:02:29.080 --> 00:02:33.220
+ connect it to junction 5 and begins 
+
+00:02:31.480 --> 00:02:35.410
+ blue sequence we go for the second led 
+
+00:02:33.220 --> 00:02:37.690
+ the last leg to the 6th floor of the 
+
+00:02:35.410 --> 00:02:40.480
+ integrated and finally leg 4 of the 
+
+00:02:37.690 --> 00:02:41.920
+ last led rgb goes to 9 the circuit 
+
+00:02:40.480 --> 00:02:44.500
+ integrated in this way we have already done 
+
+00:02:41.920 --> 00:02:47.300
+ in its first control circuit 
+
+00:02:44.500 --> 00:02:50.890
+ green and blue 
+
+00:02:47.300 --> 00:02:50.890
+ and we can vary the speed 
+
+00:02:52.040 --> 00:02:55.640
+ let's do a second way of 
+
+00:02:53.629 --> 00:02:57.500
+ control and that is that a single led changes the 
+
+00:02:55.640 --> 00:02:59.239
+ three colors and then the next one happens 
+
+00:02:57.500 --> 00:03:02.060
+ like all the wiring logic then 
+
+00:02:59.239 --> 00:03:04.310
+ We remove all the cables and start 
+
+00:03:02.060 --> 00:03:05.930
+ speak then red to the first in the 
+
+00:03:04.310 --> 00:03:07.849
+ first part of the first law the 
+
+00:03:05.930 --> 00:03:09.379
+ we connect to 3 we do not go to 
+
+00:03:07.849 --> 00:03:11.569
+ next led but we keep on 
+
+00:03:09.379 --> 00:03:13.609
+ that and we're going to wire the blair leg 
+
+00:03:11.569 --> 00:03:15.500
+ would go to leg 2 of the integral she see 
+
+00:03:13.609 --> 00:03:17.180
+ which is green red transition let's go 
+
+00:03:15.500 --> 00:03:19.879
+ for the blue that would go to silver 4 
+
+00:03:17.180 --> 00:03:21.560
+ let's see that it already does red green blue and 
+
+00:03:19.879 --> 00:03:23.269
+ we do the same for the next led 
+
+00:03:21.560 --> 00:03:25.819
+ the red one would go the next part of the 
+
+00:03:23.269 --> 00:03:28.459
+ sequence that would be the output of the leg 
+
+00:03:25.819 --> 00:03:30.590
+ 7 then the green would go to 10 the blue 
+
+00:03:28.459 --> 00:03:32.900
+ the second would go to 1 we go to the 
+
+00:03:30.590 --> 00:03:35.180
+ last red the leg 5 that next the 
+
+00:03:32.900 --> 00:03:36.379
+ leg 6 the limit the imagination we can 
+
+00:03:35.180 --> 00:03:38.090
+ do all the combinations that 
+
+00:03:36.379 --> 00:03:39.829
+ We want to go changing colors if 
+
+00:03:38.090 --> 00:03:41.599
+ we want we can try more colors 
+
+00:03:39.829 --> 00:03:43.189
+ lighting two colors in one 
+
+00:03:41.599 --> 00:03:44.689
+ it gives you the same time remember to support 
+
+00:03:43.189 --> 00:03:48.340
+ the videos to protect yourself with a click 
+
+00:03:44.689 --> 00:03:48.340
+ in I like to subscribe to my channel 
+
+00:03:48.980 --> 00:03:51.519
+ and you 
+
+00:03:51.950 --> 00:03:54.950
+ Y 
+
+00:04:01.800 --> 00:04:03.860
+ and 
+

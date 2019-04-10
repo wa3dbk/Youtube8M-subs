@@ -1,0 +1,802 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.110 
+
+hi<00:00:00.630> it's<00:00:00.930> James<00:00:01.199> here<00:00:01.469> founder<00:00:01.949> of<00:00:02.040> CDN<00:00:02.370> fi<00:00:02.639> in
+
+00:00:03.110 --> 00:00:03.120 
+hi it's James here founder of CDN fi in
+
+00:00:03.120 --> 00:00:04.430 
+hi it's James here founder of CDN fi in
+this<00:00:03.240> video<00:00:03.540> I'm<00:00:03.720> going<00:00:03.810> to<00:00:03.899> show<00:00:04.049> you<00:00:04.080> how<00:00:04.380> you
+
+00:00:04.430 --> 00:00:04.440 
+this video I'm going to show you how you
+
+00:00:04.440 --> 00:00:06.590 
+this video I'm going to show you how you
+can<00:00:04.589> implement<00:00:04.920> a<00:00:05.160> CDN<00:00:05.520> onto<00:00:05.819> your<00:00:05.940> website<00:00:06.150> in
+
+00:00:06.590 --> 00:00:06.600 
+can implement a CDN onto your website in
+
+00:00:06.600 --> 00:00:11.350 
+can implement a CDN onto your website in
+under<00:00:07.109> five<00:00:07.319> minutes
+
+00:00:11.350 --> 00:00:11.360 
+
+00:00:11.360 --> 00:00:14.120 
+
+now<00:00:12.360> we<00:00:12.420> have<00:00:12.630> a<00:00:12.660> basic<00:00:12.900> site<00:00:13.290> here<00:00:13.620> birdsong
+
+00:00:14.120 --> 00:00:14.130 
+now we have a basic site here birdsong
+
+00:00:14.130 --> 00:00:16.340 
+now we have a basic site here birdsong
+FM<00:00:14.759> and<00:00:14.969> if<00:00:15.360> we<00:00:15.480> look<00:00:15.630> in<00:00:15.750> the<00:00:15.870> source<00:00:16.049> code
+
+00:00:16.340 --> 00:00:16.350 
+FM and if we look in the source code
+
+00:00:16.350 --> 00:00:18.349 
+FM and if we look in the source code
+you'll<00:00:16.590> see<00:00:16.830> there<00:00:17.070> are<00:00:17.100> numerous<00:00:17.400> JavaScript
+
+00:00:18.349 --> 00:00:18.359 
+you'll see there are numerous JavaScript
+
+00:00:18.359 --> 00:00:20.120 
+you'll see there are numerous JavaScript
+CSS<00:00:18.900> and<00:00:19.500> images
+
+00:00:20.120 --> 00:00:20.130 
+CSS and images
+
+00:00:20.130 --> 00:00:22.849 
+CSS and images
+we'll<00:00:20.430> call<00:00:20.640> these<00:00:20.850> assets<00:00:21.359> so<00:00:22.350> our<00:00:22.470> assets
+
+00:00:22.849 --> 00:00:22.859 
+we'll call these assets so our assets
+
+00:00:22.859 --> 00:00:24.529 
+we'll call these assets so our assets
+are<00:00:23.010> currently<00:00:23.310> loaded<00:00:23.670> from<00:00:23.789> a<00:00:23.910> website<00:00:24.119> host
+
+00:00:24.529 --> 00:00:24.539 
+are currently loaded from a website host
+
+00:00:24.539 --> 00:00:26.029 
+are currently loaded from a website host
+which<00:00:24.810> means<00:00:25.140> that<00:00:25.560> they're<00:00:25.680> going<00:00:25.800> to<00:00:25.890> load
+
+00:00:26.029 --> 00:00:26.039 
+which means that they're going to load
+
+00:00:26.039 --> 00:00:28.099 
+which means that they're going to load
+slower<00:00:26.400> that<00:00:26.880> we<00:00:27.060> hosted<00:00:27.420> them<00:00:27.570> on<00:00:27.689> a<00:00:27.720> CDN
+
+00:00:28.099 --> 00:00:28.109 
+slower that we hosted them on a CDN
+
+00:00:28.109 --> 00:00:30.589 
+slower that we hosted them on a CDN
+we'll<00:00:29.070> cover<00:00:29.279> how<00:00:29.429> to<00:00:29.550> easily<00:00:29.849> implement<00:00:30.539> a
+
+00:00:30.589 --> 00:00:30.599 
+we'll cover how to easily implement a
+
+00:00:30.599 --> 00:00:33.200 
+we'll cover how to easily implement a
+CDN<00:00:31.019> to<00:00:31.260> speed<00:00:31.529> everything<00:00:31.830> up<00:00:32.130> firstly<00:00:33.000> we
+
+00:00:33.200 --> 00:00:33.210 
+CDN to speed everything up firstly we
+
+00:00:33.210 --> 00:00:35.330 
+CDN to speed everything up firstly we
+need<00:00:33.239> to<00:00:33.450> log<00:00:33.630> in<00:00:33.750> to<00:00:33.780> CDFI<00:00:34.530> creating<00:00:35.250> an
+
+00:00:35.330 --> 00:00:35.340 
+need to log in to CDFI creating an
+
+00:00:35.340 --> 00:00:36.880 
+need to log in to CDFI creating an
+account<00:00:35.579> if<00:00:35.790> we<00:00:35.820> haven't<00:00:36.090> got<00:00:36.360> one<00:00:36.510> already
+
+00:00:36.880 --> 00:00:36.890 
+account if we haven't got one already
+
+00:00:36.890 --> 00:00:39.290 
+account if we haven't got one already
+then<00:00:37.890> we'll<00:00:38.040> click<00:00:38.280> on<00:00:38.460> add<00:00:38.700> a<00:00:38.940> new<00:00:39.120> resource
+
+00:00:39.290 --> 00:00:39.300 
+then we'll click on add a new resource
+
+00:00:39.300 --> 00:00:41.810 
+then we'll click on add a new resource
+the<00:00:39.989> dashboard<00:00:40.469> shows<00:00:40.559> because<00:00:41.250> our<00:00:41.489> account
+
+00:00:41.810 --> 00:00:41.820 
+the dashboard shows because our account
+
+00:00:41.820 --> 00:00:43.940 
+the dashboard shows because our account
+is<00:00:42.000> currently<00:00:42.239> new<00:00:42.690> and<00:00:42.989> it<00:00:43.290> hasn't<00:00:43.500> got<00:00:43.739> any
+
+00:00:43.940 --> 00:00:43.950 
+is currently new and it hasn't got any
+
+00:00:43.950 --> 00:00:47.060 
+is currently new and it hasn't got any
+existing<00:00:44.430> resources<00:00:45.260> the<00:00:46.260> CD<00:00:46.500> and<00:00:46.649> host<00:00:46.860> name
+
+00:00:47.060 --> 00:00:47.070 
+existing resources the CD and host name
+
+00:00:47.070 --> 00:00:49.100 
+existing resources the CD and host name
+will<00:00:47.219> be<00:00:47.340> the<00:00:47.460> name<00:00:47.730> of<00:00:47.760> our<00:00:48.059> resource<00:00:48.480> this<00:00:48.930> is
+
+00:00:49.100 --> 00:00:49.110 
+will be the name of our resource this is
+
+00:00:49.110 --> 00:00:51.139 
+will be the name of our resource this is
+a<00:00:49.140> user<00:00:49.410> friendly<00:00:49.649> URL<00:00:50.219> where<00:00:50.640> the<00:00:50.670> assets
+
+00:00:51.139 --> 00:00:51.149 
+a user friendly URL where the assets
+
+00:00:51.149 --> 00:00:53.000 
+a user friendly URL where the assets
+will<00:00:51.300> be<00:00:51.329> loaded<00:00:51.750> from<00:00:51.899> in<00:00:52.140> this<00:00:52.500> case<00:00:52.739> I'm
+
+00:00:53.000 --> 00:00:53.010 
+will be loaded from in this case I'm
+
+00:00:53.010 --> 00:00:56.900 
+will be loaded from in this case I'm
+going<00:00:53.160> to<00:00:53.219> use<00:00:53.309> CDN<00:00:53.969> birdsongs<00:00:54.899> FM<00:00:55.559> the<00:00:56.520> origin
+
+00:00:56.900 --> 00:00:56.910 
+going to use CDN birdsongs FM the origin
+
+00:00:56.910 --> 00:00:59.299 
+going to use CDN birdsongs FM the origin
+URL<00:00:57.300> is<00:00:57.510> normally<00:00:57.960> your<00:00:58.050> existing<00:00:58.590> site<00:00:58.890> the
+
+00:00:59.299 --> 00:00:59.309 
+URL is normally your existing site the
+
+00:00:59.309 --> 00:01:00.619 
+URL is normally your existing site the
+server<00:00:59.640> where<00:00:59.969> your<00:01:00.090> files<00:01:00.359> have<00:01:00.570> been
+
+00:01:00.619 --> 00:01:00.629 
+server where your files have been
+
+00:01:00.629 --> 00:01:02.869 
+server where your files have been
+uploaded<00:01:00.809> to<00:01:01.199> which<00:01:01.829> in<00:01:02.010> this<00:01:02.100> case<00:01:02.370> is<00:01:02.640> bird
+
+00:01:02.869 --> 00:01:02.879 
+uploaded to which in this case is bird
+
+00:01:02.879 --> 00:01:05.570 
+uploaded to which in this case is bird
+song<00:01:03.180> got<00:01:03.359> FM<00:01:03.719> the<00:01:04.500> CDN<00:01:04.890> will<00:01:05.040> then<00:01:05.189> mirror<00:01:05.460> the
+
+00:01:05.570 --> 00:01:05.580 
+song got FM the CDN will then mirror the
+
+00:01:05.580 --> 00:01:08.630 
+song got FM the CDN will then mirror the
+content<00:01:06.060> from<00:01:06.390> this<00:01:06.570> existing<00:01:07.080> site<00:01:07.640> finally
+
+00:01:08.630 --> 00:01:08.640 
+content from this existing site finally
+
+00:01:08.640 --> 00:01:10.609 
+content from this existing site finally
+we<00:01:08.729> can<00:01:08.880> choose<00:01:09.119> whether<00:01:09.360> or<00:01:09.570> not<00:01:09.659> we<00:01:09.840> want<00:01:10.020> SSL
+
+00:01:10.609 --> 00:01:10.619 
+we can choose whether or not we want SSL
+
+00:01:10.619 --> 00:01:12.620 
+we can choose whether or not we want SSL
+support<00:01:10.830> in<00:01:11.220> this<00:01:11.520> case<00:01:11.790> we<00:01:12.240> don't<00:01:12.420> require
+
+00:01:12.620 --> 00:01:12.630 
+support in this case we don't require
+
+00:01:12.630 --> 00:01:15.020 
+support in this case we don't require
+SSL<00:01:13.260> so<00:01:13.650> we'll<00:01:13.799> leave<00:01:13.950> that<00:01:14.130> option<00:01:14.310> disabled
+
+00:01:15.020 --> 00:01:15.030 
+SSL so we'll leave that option disabled
+
+00:01:15.030 --> 00:01:17.149 
+SSL so we'll leave that option disabled
+we<00:01:15.330> then<00:01:15.509> can<00:01:15.659> click<00:01:15.930> and<00:01:16.140> create<00:01:16.470> the<00:01:16.590> new<00:01:16.710> CDN
+
+00:01:17.149 --> 00:01:17.159 
+we then can click and create the new CDN
+
+00:01:17.159 --> 00:01:19.039 
+we then can click and create the new CDN
+resource<00:01:17.670> on<00:01:17.909> our<00:01:18.060> account<00:01:18.570> and<00:01:18.840> it<00:01:18.930> will
+
+00:01:19.039 --> 00:01:19.049 
+resource on our account and it will
+
+00:01:19.049 --> 00:01:21.200 
+resource on our account and it will
+create<00:01:19.259> it<00:01:19.439> in<00:01:19.530> a<00:01:19.590> few<00:01:19.799> seconds<00:01:20.250> it's
+
+00:01:21.200 --> 00:01:21.210 
+create it in a few seconds it's
+
+00:01:21.210 --> 00:01:22.580 
+create it in a few seconds it's
+important<00:01:21.689> to<00:01:21.780> note<00:01:21.930> that<00:01:21.960> it<00:01:22.110> can<00:01:22.229> take<00:01:22.350> up<00:01:22.470> to
+
+00:01:22.580 --> 00:01:22.590 
+important to note that it can take up to
+
+00:01:22.590 --> 00:01:24.380 
+important to note that it can take up to
+15<00:01:22.979> minutes<00:01:23.009> for<00:01:23.549> this<00:01:23.670> new<00:01:23.880> resource<00:01:24.180> to
+
+00:01:24.380 --> 00:01:24.390 
+15 minutes for this new resource to
+
+00:01:24.390 --> 00:01:25.550 
+15 minutes for this new resource to
+start<00:01:24.630> functioning<00:01:25.110> correctly
+
+00:01:25.550 --> 00:01:25.560 
+start functioning correctly
+
+00:01:25.560 --> 00:01:27.620 
+start functioning correctly
+whilst<00:01:26.100> it's<00:01:26.310> provisioned<00:01:26.880> across<00:01:27.240> all<00:01:27.420> of
+
+00:01:27.620 --> 00:01:27.630 
+whilst it's provisioned across all of
+
+00:01:27.630 --> 00:01:29.600 
+whilst it's provisioned across all of
+our<00:01:27.750> network<00:01:28.170> well<00:01:28.740> now<00:01:28.920> click<00:01:29.159> on<00:01:29.280> manage
+
+00:01:29.600 --> 00:01:29.610 
+our network well now click on manage
+
+00:01:29.610 --> 00:01:31.219 
+our network well now click on manage
+you'll<00:01:29.939> notice<00:01:30.270> that<00:01:30.420> this<00:01:30.570> currently<00:01:31.079> is
+
+00:01:31.219 --> 00:01:31.229 
+you'll notice that this currently is
+
+00:01:31.229 --> 00:01:33.289 
+you'll notice that this currently is
+empty<00:01:31.650> but<00:01:32.130> it<00:01:32.189> will<00:01:32.250> begin<00:01:32.369> populating<00:01:32.759> with
+
+00:01:33.289 --> 00:01:33.299 
+empty but it will begin populating with
+
+00:01:33.299 --> 00:01:35.359 
+empty but it will begin populating with
+statistics<00:01:33.930> once<00:01:34.229> we<00:01:34.380> start<00:01:34.619> using<00:01:34.829> the<00:01:35.070> CD
+
+00:01:35.359 --> 00:01:35.369 
+statistics once we start using the CD
+
+00:01:35.369 --> 00:01:39.710 
+statistics once we start using the CD
+out<00:01:35.400> on<00:01:35.670> our<00:01:35.700> website<00:01:38.119> I'd<00:01:39.119> like<00:01:39.299> to<00:01:39.420> draw<00:01:39.600> your
+
+00:01:39.710 --> 00:01:39.720 
+out on our website I'd like to draw your
+
+00:01:39.720 --> 00:01:41.960 
+out on our website I'd like to draw your
+attention<00:01:39.780> to<00:01:40.320> the<00:01:40.409> resource<00:01:40.740> detail<00:01:41.220> here<00:01:41.759> we
+
+00:01:41.960 --> 00:01:41.970 
+attention to the resource detail here we
+
+00:01:41.970 --> 00:01:43.819 
+attention to the resource detail here we
+can<00:01:42.119> see<00:01:42.299> the<00:01:42.420> host<00:01:42.630> name<00:01:42.840> we<00:01:42.960> just<00:01:43.140> chose<00:01:43.409> and
+
+00:01:43.819 --> 00:01:43.829 
+can see the host name we just chose and
+
+00:01:43.829 --> 00:01:46.340 
+can see the host name we just chose and
+also<00:01:44.310> the<00:01:44.430> cname<00:01:44.880> this<00:01:45.630> is<00:01:45.780> the<00:01:45.930> actual
+
+00:01:46.340 --> 00:01:46.350 
+also the cname this is the actual
+
+00:01:46.350 --> 00:01:48.260 
+also the cname this is the actual
+resource<00:01:46.710> host<00:01:46.979> name<00:01:47.220> on<00:01:47.430> our<00:01:47.610> platform<00:01:48.090> you
+
+00:01:48.260 --> 00:01:48.270 
+resource host name on our platform you
+
+00:01:48.270 --> 00:01:50.270 
+resource host name on our platform you
+can<00:01:48.869> use<00:01:49.020> the<00:01:49.170> raw<00:01:49.320> host<00:01:49.560> name<00:01:49.740> if<00:01:49.950> you<00:01:50.040> like
+
+00:01:50.270 --> 00:01:50.280 
+can use the raw host name if you like
+
+00:01:50.280 --> 00:01:52.520 
+can use the raw host name if you like
+but<00:01:50.970> we're<00:01:51.119> going<00:01:51.240> to<00:01:51.299> create<00:01:51.540> a<00:01:51.630> pointer<00:01:52.140> for
+
+00:01:52.520 --> 00:01:52.530 
+but we're going to create a pointer for
+
+00:01:52.530 --> 00:01:55.280 
+but we're going to create a pointer for
+our<00:01:52.649> CDN<00:01:53.280> bird<00:01:53.820> songul<00:01:54.240> FM<00:01:54.600> domain<00:01:54.960> in<00:01:55.200> this
+
+00:01:55.280 --> 00:01:55.290 
+our CDN bird songul FM domain in this
+
+00:01:55.290 --> 00:01:57.620 
+our CDN bird songul FM domain in this
+tutorial<00:01:55.850> but<00:01:56.850> finally<00:01:57.240> what<00:01:57.360> we're<00:01:57.479> going<00:01:57.600> to
+
+00:01:57.620 --> 00:01:57.630 
+tutorial but finally what we're going to
+
+00:01:57.630 --> 00:01:59.270 
+tutorial but finally what we're going to
+do<00:01:57.780> is<00:01:57.990> we're<00:01:58.110> going<00:01:58.200> to<00:01:58.259> copy<00:01:58.469> the<00:01:58.829> cname
+
+00:01:59.270 --> 00:01:59.280 
+do is we're going to copy the cname
+
+00:01:59.280 --> 00:02:01.160 
+do is we're going to copy the cname
+record<00:02:00.000> to<00:02:00.210> our<00:02:00.299> clipboard<00:02:00.630> because<00:02:01.049> we'll
+
+00:02:01.160 --> 00:02:01.170 
+record to our clipboard because we'll
+
+00:02:01.170 --> 00:02:02.709 
+record to our clipboard because we'll
+need<00:02:01.290> that<00:02:01.409> in<00:02:01.560> a<00:02:01.619> minute
+
+00:02:02.709 --> 00:02:02.719 
+need that in a minute
+
+00:02:02.719 --> 00:02:04.850 
+need that in a minute
+now<00:02:03.719> we're<00:02:03.899> head<00:02:04.049> on<00:02:04.140> to<00:02:04.259> our<00:02:04.350> web<00:02:04.530> hosting
+
+00:02:04.850 --> 00:02:04.860 
+now we're head on to our web hosting
+
+00:02:04.860 --> 00:02:06.530 
+now we're head on to our web hosting
+account<00:02:04.950> so<00:02:05.310> we<00:02:05.399> can<00:02:05.520> edit<00:02:05.729> the<00:02:05.939> DNS<00:02:06.299> file
+
+00:02:06.530 --> 00:02:06.540 
+account so we can edit the DNS file
+
+00:02:06.540 --> 00:02:08.240 
+account so we can edit the DNS file
+domain<00:02:06.869> this<00:02:07.530> is<00:02:07.590> a<00:02:07.740> similar<00:02:08.099> procedure
+
+00:02:08.240 --> 00:02:08.250 
+domain this is a similar procedure
+
+00:02:08.250 --> 00:02:10.249 
+domain this is a similar procedure
+across<00:02:08.970> most<00:02:09.270> web<00:02:09.509> hosts<00:02:09.840> and<00:02:09.959> domain
+
+00:02:10.249 --> 00:02:10.259 
+across most web hosts and domain
+
+00:02:10.259 --> 00:02:12.710 
+across most web hosts and domain
+registrar's<00:02:10.940> and<00:02:11.940> we<00:02:12.030> have<00:02:12.150> a<00:02:12.180> selection<00:02:12.480> of
+
+00:02:12.710 --> 00:02:12.720 
+registrar's and we have a selection of
+
+00:02:12.720 --> 00:02:13.920 
+registrar's and we have a selection of
+specific<00:02:12.989> DNS
+
+00:02:13.920 --> 00:02:13.930 
+specific DNS
+
+00:02:13.930 --> 00:02:15.809 
+specific DNS
+putting<00:02:14.170> tutorials<00:02:14.709> available<00:02:15.250> covering
+
+00:02:15.809 --> 00:02:15.819 
+putting tutorials available covering
+
+00:02:15.819 --> 00:02:18.270 
+putting tutorials available covering
+most<00:02:16.120> common<00:02:16.480> providers<00:02:16.989> so<00:02:17.859> let's<00:02:18.040> go<00:02:18.159> ahead
+
+00:02:18.270 --> 00:02:18.280 
+most common providers so let's go ahead
+
+00:02:18.280 --> 00:02:21.240 
+most common providers so let's go ahead
+and<00:02:18.579> edit<00:02:18.730> our<00:02:19.000> DNS<00:02:19.390> zone
+
+00:02:21.240 --> 00:02:21.250 
+and edit our DNS zone
+
+00:02:21.250 --> 00:02:23.790 
+and edit our DNS zone
+and<00:02:21.520> we'll<00:02:22.120> scroll<00:02:22.420> down<00:02:22.660> and<00:02:22.870> click<00:02:23.080> add<00:02:23.350> a
+
+00:02:23.790 --> 00:02:23.800 
+and we'll scroll down and click add a
+
+00:02:23.800 --> 00:02:26.540 
+and we'll scroll down and click add a
+record
+
+00:02:26.540 --> 00:02:26.550 
+
+00:02:26.550 --> 00:02:28.580 
+
+the<00:02:27.390> type<00:02:27.600> of<00:02:27.630> record<00:02:27.930> should<00:02:28.230> be<00:02:28.350> set<00:02:28.560> to
+
+00:02:28.580 --> 00:02:28.590 
+the type of record should be set to
+
+00:02:28.590 --> 00:02:32.330 
+the type of record should be set to
+cname
+
+00:02:32.330 --> 00:02:32.340 
+
+00:02:32.340 --> 00:02:35.059 
+
+the<00:02:32.910> record<00:02:33.270> name<00:02:33.569> in<00:02:33.840> this<00:02:34.110> case<00:02:34.349> is<00:02:34.590> CD<00:02:34.980> n
+
+00:02:35.059 --> 00:02:35.069 
+the record name in this case is CD n
+
+00:02:35.069 --> 00:02:39.050 
+the record name in this case is CD n
+birdsong<00:02:35.910> FM<00:02:36.480> so<00:02:36.870> we'll<00:02:37.020> set<00:02:37.260> this<00:02:37.380> here<00:02:38.060> and
+
+00:02:39.050 --> 00:02:39.060 
+birdsong FM so we'll set this here and
+
+00:02:39.060 --> 00:02:40.640 
+birdsong FM so we'll set this here and
+finally<00:02:39.360> the<00:02:39.510> value<00:02:39.630> of<00:02:39.840> our<00:02:39.930> record<00:02:40.290> is<00:02:40.410> the
+
+00:02:40.640 --> 00:02:40.650 
+finally the value of our record is the
+
+00:02:40.650 --> 00:02:42.140 
+finally the value of our record is the
+cname<00:02:41.069> which<00:02:41.280> we<00:02:41.400> just<00:02:41.580> copied<00:02:41.940> to<00:02:42.030> our
+
+00:02:42.140 --> 00:02:42.150 
+cname which we just copied to our
+
+00:02:42.150 --> 00:02:43.910 
+cname which we just copied to our
+clipboard<00:02:42.390> so<00:02:43.020> we'll<00:02:43.140> paste<00:02:43.380> this<00:02:43.530> in<00:02:43.680> here
+
+00:02:43.910 --> 00:02:43.920 
+clipboard so we'll paste this in here
+
+00:02:43.920 --> 00:02:45.650 
+clipboard so we'll paste this in here
+and<00:02:44.040> then<00:02:44.730> we<00:02:44.790> can<00:02:44.910> go<00:02:45.030> ahead<00:02:45.150> and<00:02:45.420> click<00:02:45.540> on
+
+00:02:45.650 --> 00:02:45.660 
+and then we can go ahead and click on
+
+00:02:45.660 --> 00:02:48.920 
+and then we can go ahead and click on
+save<00:02:46.520> now<00:02:47.520> the<00:02:47.580> DNS<00:02:48.030> has<00:02:48.150> been<00:02:48.330> updated<00:02:48.810> for
+
+00:02:48.920 --> 00:02:48.930 
+save now the DNS has been updated for
+
+00:02:48.930 --> 00:02:49.460 
+save now the DNS has been updated for
+our<00:02:48.959> domain
+
+00:02:49.460 --> 00:02:49.470 
+our domain
+
+00:02:49.470 --> 00:02:51.920 
+our domain
+so<00:02:49.709> now<00:02:49.830> CD<00:02:50.250> n<00:02:50.340> birdsong<00:02:51.060> what<00:02:51.209> FM<00:02:51.540> will<00:02:51.720> point
+
+00:02:51.920 --> 00:02:51.930 
+so now CD n birdsong what FM will point
+
+00:02:51.930 --> 00:02:54.500 
+so now CD n birdsong what FM will point
+to<00:02:52.110> our<00:02:52.200> unique<00:02:52.590> CDN<00:02:53.190> hostname<00:02:53.760> it's
+
+00:02:54.500 --> 00:02:54.510 
+to our unique CDN hostname it's
+
+00:02:54.510 --> 00:02:56.330 
+to our unique CDN hostname it's
+important<00:02:55.019> to<00:02:55.110> note<00:02:55.290> that<00:02:55.319> sometimes<00:02:55.950> DNS
+
+00:02:56.330 --> 00:02:56.340 
+important to note that sometimes DNS
+
+00:02:56.340 --> 00:02:58.580 
+important to note that sometimes DNS
+changes<00:02:56.790> may<00:02:57.269> take<00:02:57.480> a<00:02:57.510> while<00:02:57.840> to<00:02:58.140> start
+
+00:02:58.580 --> 00:02:58.590 
+changes may take a while to start
+
+00:02:58.590 --> 00:03:00.650 
+changes may take a while to start
+working<00:02:58.950> on<00:02:59.040> all<00:02:59.130> computers<00:02:59.640> so<00:03:00.239> please<00:03:00.510> be
+
+00:03:00.650 --> 00:03:00.660 
+working on all computers so please be
+
+00:03:00.660 --> 00:03:03.170 
+working on all computers so please be
+patient<00:03:00.870> if<00:03:01.200> it<00:03:01.319> doesn't<00:03:01.650> work<00:03:01.769> instantly<00:03:02.190> the
+
+00:03:03.170 --> 00:03:03.180 
+patient if it doesn't work instantly the
+
+00:03:03.180 --> 00:03:05.000 
+patient if it doesn't work instantly the
+last<00:03:03.420> step<00:03:03.660> of<00:03:03.750> the<00:03:03.870> process<00:03:03.900> is<00:03:04.290> to<00:03:04.590> edit<00:03:04.860> our
+
+00:03:05.000 --> 00:03:05.010 
+last step of the process is to edit our
+
+00:03:05.010 --> 00:03:07.220 
+last step of the process is to edit our
+website<00:03:05.430> code<00:03:05.730> I've<00:03:06.030> got<00:03:06.510> the<00:03:06.630> home<00:03:06.780> page<00:03:06.989> here
+
+00:03:07.220 --> 00:03:07.230 
+website code I've got the home page here
+
+00:03:07.230 --> 00:03:09.320 
+website code I've got the home page here
+in<00:03:07.410> my<00:03:07.530> HTML<00:03:08.069> editor<00:03:08.489> and<00:03:08.610> we're<00:03:09.150> going<00:03:09.269> to
+
+00:03:09.320 --> 00:03:09.330 
+in my HTML editor and we're going to
+
+00:03:09.330 --> 00:03:11.059 
+in my HTML editor and we're going to
+update<00:03:09.480> all<00:03:09.810> of<00:03:09.959> the<00:03:10.019> assets<00:03:10.380> to<00:03:10.560> point<00:03:10.799> to<00:03:10.950> the
+
+00:03:11.059 --> 00:03:11.069 
+update all of the assets to point to the
+
+00:03:11.069 --> 00:03:14.030 
+update all of the assets to point to the
+CDN<00:03:11.400> with<00:03:11.880> a<00:03:11.910> single<00:03:12.360> click<00:03:12.510> the<00:03:13.500> file<00:03:13.769> names
+
+00:03:14.030 --> 00:03:14.040 
+CDN with a single click the file names
+
+00:03:14.040 --> 00:03:15.680 
+CDN with a single click the file names
+and<00:03:14.280> structure<00:03:14.790> of<00:03:14.819> our<00:03:15.060> files<00:03:15.269> will<00:03:15.450> remain
+
+00:03:15.680 --> 00:03:15.690 
+and structure of our files will remain
+
+00:03:15.690 --> 00:03:18.320 
+and structure of our files will remain
+exactly<00:03:15.810> the<00:03:16.200> same<00:03:16.530> all<00:03:17.069> the<00:03:17.130> CDM<00:03:17.730> will<00:03:17.880> do<00:03:18.090> is
+
+00:03:18.320 --> 00:03:18.330 
+exactly the same all the CDM will do is
+
+00:03:18.330 --> 00:03:20.210 
+exactly the same all the CDM will do is
+mirror<00:03:18.870> what<00:03:19.110> is<00:03:19.230> on<00:03:19.380> our<00:03:19.500> web<00:03:19.650> server<00:03:19.980> and
+
+00:03:20.210 --> 00:03:20.220 
+mirror what is on our web server and
+
+00:03:20.220 --> 00:03:22.309 
+mirror what is on our web server and
+cache<00:03:20.760> it<00:03:20.970> in<00:03:21.120> multiple<00:03:21.360> locations<00:03:21.750> around
+
+00:03:22.309 --> 00:03:22.319 
+cache it in multiple locations around
+
+00:03:22.319 --> 00:03:24.740 
+cache it in multiple locations around
+the<00:03:22.590> world<00:03:22.650> the<00:03:23.489> content<00:03:23.940> is<00:03:24.090> then<00:03:24.269> served<00:03:24.599> to
+
+00:03:24.740 --> 00:03:24.750 
+the world the content is then served to
+
+00:03:24.750 --> 00:03:26.870 
+the world the content is then served to
+users<00:03:25.110> from<00:03:25.650> the<00:03:25.709> nearest<00:03:26.040> geographic
+
+00:03:26.870 --> 00:03:26.880 
+users from the nearest geographic
+
+00:03:26.880 --> 00:03:29.240 
+users from the nearest geographic
+location<00:03:27.420> thus<00:03:27.989> making<00:03:28.260> your<00:03:28.470> website<00:03:28.920> load
+
+00:03:29.240 --> 00:03:29.250 
+location thus making your website load
+
+00:03:29.250 --> 00:03:33.020 
+location thus making your website load
+lightning-fast<00:03:31.400> to<00:03:32.400> do<00:03:32.519> this<00:03:32.700> we're<00:03:32.880> going<00:03:32.970> to
+
+00:03:33.020 --> 00:03:33.030 
+lightning-fast to do this we're going to
+
+00:03:33.030 --> 00:03:35.690 
+lightning-fast to do this we're going to
+use<00:03:33.180> Find<00:03:33.569> and<00:03:33.780> Replace<00:03:34.160> well<00:03:35.160> then<00:03:35.340> find
+
+00:03:35.690 --> 00:03:35.700 
+use Find and Replace well then find
+
+00:03:35.700 --> 00:03:38.240 
+use Find and Replace well then find
+assets<00:03:36.239> and<00:03:36.480> simply<00:03:36.810> prepend<00:03:37.410> our<00:03:37.620> CDN
+
+00:03:38.240 --> 00:03:38.250 
+assets and simply prepend our CDN
+
+00:03:38.250 --> 00:03:40.430 
+assets and simply prepend our CDN
+hostname<00:03:38.790> that<00:03:38.970> we<00:03:39.060> just<00:03:39.239> created<00:03:39.600> so<00:03:39.900> we'll
+
+00:03:40.430 --> 00:03:40.440 
+hostname that we just created so we'll
+
+00:03:40.440 --> 00:03:43.750 
+hostname that we just created so we'll
+replace<00:03:40.739> it<00:03:40.859> with<00:03:41.510> HTTP<00:03:42.510> colon<00:03:42.959> slash<00:03:43.350> slash
+
+00:03:43.750 --> 00:03:43.760 
+replace it with HTTP colon slash slash
+
+00:03:43.760 --> 00:03:48.500 
+replace it with HTTP colon slash slash
+CDN<00:03:44.760> birdsong<00:03:45.750> FM<00:03:46.650> slash<00:03:47.310> assets<00:03:47.910> and<00:03:48.150> then
+
+00:03:48.500 --> 00:03:48.510 
+CDN birdsong FM slash assets and then
+
+00:03:48.510 --> 00:03:50.990 
+CDN birdsong FM slash assets and then
+click<00:03:48.780> replace<00:03:49.140> and<00:03:49.500> hey<00:03:49.709> presto<00:03:49.739> all<00:03:50.430> of<00:03:50.910> the
+
+00:03:50.990 --> 00:03:51.000 
+click replace and hey presto all of the
+
+00:03:51.000 --> 00:03:54.479 
+click replace and hey presto all of the
+links<00:03:51.329> have<00:03:51.420> been<00:03:51.480> updated
+
+00:03:54.479 --> 00:03:54.489 
+
+00:03:54.489 --> 00:03:57.280 
+
+finally<00:03:55.489> we<00:03:55.640> can<00:03:55.790> upload<00:03:55.999> our<00:03:56.120> updated<00:03:56.629> HTML
+
+00:03:57.280 --> 00:03:57.290 
+finally we can upload our updated HTML
+
+00:03:57.290 --> 00:04:02.830 
+finally we can upload our updated HTML
+back<00:03:57.620> onto<00:03:57.859> the<00:03:58.010> web<00:03:58.189> server<00:04:01.359> now<00:04:02.359> if<00:04:02.629> we<00:04:02.749> go
+
+00:04:02.830 --> 00:04:02.840 
+back onto the web server now if we go
+
+00:04:02.840 --> 00:04:04.449 
+back onto the web server now if we go
+back<00:04:03.019> into<00:04:03.200> our<00:04:03.409> source<00:04:03.650> in<00:04:03.920> Chrome<00:04:04.219> and
+
+00:04:04.449 --> 00:04:04.459 
+back into our source in Chrome and
+
+00:04:04.459 --> 00:04:07.089 
+back into our source in Chrome and
+refresh<00:04:04.879> this<00:04:05.180> we<00:04:05.749> can<00:04:05.930> see<00:04:06.170> the<00:04:06.349> URLs<00:04:06.859> for
+
+00:04:07.089 --> 00:04:07.099 
+refresh this we can see the URLs for
+
+00:04:07.099 --> 00:04:11.679 
+refresh this we can see the URLs for
+assets<00:04:07.579> now<00:04:08.150> point<00:04:08.480> to<00:04:08.540> the<00:04:08.719> CDN<00:04:09.079> and<00:04:10.540> if<00:04:11.540> we
+
+00:04:11.679 --> 00:04:11.689 
+assets now point to the CDN and if we
+
+00:04:11.689 --> 00:04:13.750 
+assets now point to the CDN and if we
+click<00:04:11.870> on<00:04:11.959> a<00:04:12.019> file<00:04:12.260> such<00:04:12.500> as<00:04:12.650> jQuery<00:04:13.099> we<00:04:13.609> can
+
+00:04:13.750 --> 00:04:13.760 
+click on a file such as jQuery we can
+
+00:04:13.760 --> 00:04:16.800 
+click on a file such as jQuery we can
+see<00:04:14.000> that<00:04:14.150> it<00:04:14.299> loads<00:04:14.540> the<00:04:14.780> JavaScript
+
+00:04:16.800 --> 00:04:16.810 
+see that it loads the JavaScript
+
+00:04:16.810 --> 00:04:18.930 
+see that it loads the JavaScript
+all<00:04:17.410> this<00:04:17.620> is<00:04:17.799> doing<00:04:18.010> is<00:04:18.250> mirroring<00:04:18.639> or
+
+00:04:18.930 --> 00:04:18.940 
+all this is doing is mirroring or
+
+00:04:18.940 --> 00:04:21.539 
+all this is doing is mirroring or
+pulling<00:04:19.239> the<00:04:19.720> jQuery<00:04:20.230> file<00:04:20.530> that<00:04:21.160> is<00:04:21.280> already
+
+00:04:21.539 --> 00:04:21.549 
+pulling the jQuery file that is already
+
+00:04:21.549 --> 00:04:23.879 
+pulling the jQuery file that is already
+on<00:04:21.639> our<00:04:21.850> server<00:04:22.180> and<00:04:22.540> storing<00:04:23.169> it<00:04:23.260> on<00:04:23.410> the<00:04:23.530> CDN
+
+00:04:23.879 --> 00:04:23.889 
+on our server and storing it on the CDN
+
+00:04:23.889 --> 00:04:25.860 
+on our server and storing it on the CDN
+this<00:04:24.580> will<00:04:24.790> reduce<00:04:25.180> the<00:04:25.330> number<00:04:25.450> of<00:04:25.600> hits<00:04:25.810> to
+
+00:04:25.860 --> 00:04:25.870 
+this will reduce the number of hits to
+
+00:04:25.870 --> 00:04:28.020 
+this will reduce the number of hits to
+your<00:04:25.930> web<00:04:26.169> server<00:04:26.380> significantly<00:04:27.190> and<00:04:27.460> speed
+
+00:04:28.020 --> 00:04:28.030 
+your web server significantly and speed
+
+00:04:28.030 --> 00:04:32.040 
+your web server significantly and speed
+up<00:04:28.180> load<00:04:28.360> times<00:04:28.630> for<00:04:29.080> your<00:04:29.169> website<00:04:29.590> visitors
+

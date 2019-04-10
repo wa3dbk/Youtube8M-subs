@@ -1,0 +1,650 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.030 
+
+there<00:00:00.299> are<00:00:00.420> many<00:00:00.690> times<00:00:01.050> when<00:00:01.439> you'll<00:00:01.650> need<00:00:01.709> to
+
+00:00:02.030 --> 00:00:02.040 
+there are many times when you'll need to
+
+00:00:02.040 --> 00:00:05.120 
+there are many times when you'll need to
+move<00:00:02.190> your<00:00:02.429> objects<00:00:03.030> around<00:00:03.179> in<00:00:03.659> 3d<00:00:04.380> space<00:00:04.650> and
+
+00:00:05.120 --> 00:00:05.130 
+move your objects around in 3d space and
+
+00:00:05.130 --> 00:00:07.970 
+move your objects around in 3d space and
+we<00:00:05.910> do<00:00:06.089> that<00:00:06.240> by<00:00:06.420> using<00:00:06.660> the<00:00:07.049> transform<00:00:07.410> tools
+
+00:00:07.970 --> 00:00:07.980 
+we do that by using the transform tools
+
+00:00:07.980 --> 00:00:10.700 
+we do that by using the transform tools
+before<00:00:08.849> we<00:00:09.330> actually<00:00:09.540> start<00:00:09.870> transforming
+
+00:00:10.700 --> 00:00:10.710 
+before we actually start transforming
+
+00:00:10.710 --> 00:00:13.160 
+before we actually start transforming
+objects<00:00:11.370> around<00:00:11.550> we<00:00:12.389> need<00:00:12.660> to<00:00:12.780> know<00:00:12.929> where
+
+00:00:13.160 --> 00:00:13.170 
+objects around we need to know where
+
+00:00:13.170 --> 00:00:15.499 
+objects around we need to know where
+we're<00:00:13.380> going<00:00:13.590> to<00:00:13.740> be<00:00:13.860> transforming<00:00:14.549> them<00:00:14.730> we
+
+00:00:15.499 --> 00:00:15.509 
+we're going to be transforming them we
+
+00:00:15.509 --> 00:00:17.900 
+we're going to be transforming them we
+need<00:00:15.780> to<00:00:15.960> do<00:00:16.109> a<00:00:16.139> little<00:00:16.410> bit<00:00:16.740> about<00:00:16.980> how<00:00:17.250> 3d
+
+00:00:17.900 --> 00:00:17.910 
+need to do a little bit about how 3d
+
+00:00:17.910 --> 00:00:20.660 
+need to do a little bit about how 3d
+space<00:00:18.240> works<00:00:18.690> in<00:00:18.960> blender<00:00:19.500> so<00:00:20.250> if<00:00:20.430> I<00:00:20.609> start
+
+00:00:20.660 --> 00:00:20.670 
+space works in blender so if I start
+
+00:00:20.670 --> 00:00:23.509 
+space works in blender so if I start
+orbiting<00:00:21.390> my<00:00:21.720> scene<00:00:21.990> you<00:00:22.590> will<00:00:22.769> notice<00:00:23.010> I<00:00:23.310> have
+
+00:00:23.509 --> 00:00:23.519 
+orbiting my scene you will notice I have
+
+00:00:23.519 --> 00:00:25.730 
+orbiting my scene you will notice I have
+a<00:00:23.550> little<00:00:23.910> icon<00:00:24.449> in<00:00:24.689> the<00:00:24.779> bottom<00:00:24.960> corner<00:00:25.199> of
+
+00:00:25.730 --> 00:00:25.740 
+a little icon in the bottom corner of
+
+00:00:25.740 --> 00:00:27.920 
+a little icon in the bottom corner of
+this<00:00:25.920> screen<00:00:26.130> and<00:00:26.550> I<00:00:26.670> also<00:00:26.970> have<00:00:27.390> some<00:00:27.660> green
+
+00:00:27.920 --> 00:00:27.930 
+this screen and I also have some green
+
+00:00:27.930 --> 00:00:30.410 
+this screen and I also have some green
+and<00:00:28.109> red<00:00:28.410> axis<00:00:28.890> and<00:00:29.130> these<00:00:29.670> just<00:00:30.000> tell<00:00:30.240> me
+
+00:00:30.410 --> 00:00:30.420 
+and red axis and these just tell me
+
+00:00:30.420 --> 00:00:34.940 
+and red axis and these just tell me
+where<00:00:30.630> my<00:00:30.840> x<00:00:31.109> y<00:00:31.769> and<00:00:32.009> z<00:00:32.189> axes<00:00:32.850> are<00:00:33.030> my<00:00:33.960> z<00:00:34.020> axis<00:00:34.290> is
+
+00:00:34.940 --> 00:00:34.950 
+where my x y and z axes are my z axis is
+
+00:00:34.950 --> 00:00:37.430 
+where my x y and z axes are my z axis is
+my<00:00:35.130> vertical<00:00:35.399> axis<00:00:36.149> which<00:00:36.420> isn't<00:00:36.840> showing<00:00:37.140> up
+
+00:00:37.430 --> 00:00:37.440 
+my vertical axis which isn't showing up
+
+00:00:37.440 --> 00:00:40.010 
+my vertical axis which isn't showing up
+on<00:00:37.649> my<00:00:37.800> grid<00:00:38.100> but<00:00:38.640> just<00:00:38.910> know<00:00:39.180> that<00:00:39.210> Z<00:00:39.510> is<00:00:39.719> up
+
+00:00:40.010 --> 00:00:40.020 
+on my grid but just know that Z is up
+
+00:00:40.020 --> 00:00:43.069 
+on my grid but just know that Z is up
+and<00:00:40.230> down<00:00:40.440> and<00:00:40.590> x<00:00:41.040> and<00:00:41.309> y<00:00:41.520> movie<00:00:42.000> left<00:00:42.239> right
+
+00:00:43.069 --> 00:00:43.079 
+and down and x and y movie left right
+
+00:00:43.079 --> 00:00:46.069 
+and down and x and y movie left right
+and<00:00:43.290> forward<00:00:43.710> back<00:00:43.980> so<00:00:44.879> if<00:00:45.030> I<00:00:45.210> want<00:00:45.539> to<00:00:45.629> move<00:00:45.930> an
+
+00:00:46.069 --> 00:00:46.079 
+and forward back so if I want to move an
+
+00:00:46.079 --> 00:00:48.619 
+and forward back so if I want to move an
+object<00:00:46.289> probably<00:00:47.250> the<00:00:47.640> easiest<00:00:48.059> way<00:00:48.329> to<00:00:48.390> do
+
+00:00:48.619 --> 00:00:48.629 
+object probably the easiest way to do
+
+00:00:48.629 --> 00:00:50.690 
+object probably the easiest way to do
+that<00:00:48.660> is<00:00:48.840> to<00:00:48.989> hit<00:00:49.320> the<00:00:49.469> translate<00:00:49.980> key<00:00:50.250> here<00:00:50.550> in
+
+00:00:50.690 --> 00:00:50.700 
+that is to hit the translate key here in
+
+00:00:50.700 --> 00:00:53.990 
+that is to hit the translate key here in
+the<00:00:50.850> object<00:00:51.329> tools<00:00:51.690> panel<00:00:51.870> I<00:00:52.379> can<00:00:53.129> also<00:00:53.399> get<00:00:53.850> to
+
+00:00:53.990 --> 00:00:54.000 
+the object tools panel I can also get to
+
+00:00:54.000 --> 00:00:57.170 
+the object tools panel I can also get to
+that<00:00:54.090> by<00:00:54.270> using<00:00:54.600> the<00:00:54.930> jihad<00:00:55.469> key<00:00:55.739> G<00:00:56.579> stands<00:00:56.940> for
+
+00:00:57.170 --> 00:00:57.180 
+that by using the jihad key G stands for
+
+00:00:57.180 --> 00:01:00.170 
+that by using the jihad key G stands for
+grab<00:00:57.600> so<00:00:58.469> if<00:00:58.620> I<00:00:58.859> were<00:00:59.039> to<00:00:59.070> right<00:00:59.460> click<00:00:59.670> on<00:00:59.969> an
+
+00:01:00.170 --> 00:01:00.180 
+grab so if I were to right click on an
+
+00:01:00.180 --> 00:01:03.049 
+grab so if I were to right click on an
+object<00:01:00.420> say<00:01:00.870> the<00:01:01.079> table<00:01:01.469> and<00:01:01.649> hit<00:01:01.920> G<00:01:02.309> notice
+
+00:01:03.049 --> 00:01:03.059 
+object say the table and hit G notice
+
+00:01:03.059 --> 00:01:04.820 
+object say the table and hit G notice
+how<00:01:03.300> it<00:01:03.480> turns<00:01:03.750> white<00:01:03.899> and<00:01:04.320> now<00:01:04.500> I<00:01:04.530> can
+
+00:01:04.820 --> 00:01:04.830 
+how it turns white and now I can
+
+00:01:04.830 --> 00:01:07.310 
+how it turns white and now I can
+translate<00:01:05.220> that<00:01:05.460> object<00:01:06.000> I<00:01:06.240> really<00:01:07.110> don't
+
+00:01:07.310 --> 00:01:07.320 
+translate that object I really don't
+
+00:01:07.320 --> 00:01:10.190 
+translate that object I really don't
+know<00:01:07.439> exactly<00:01:08.040> where<00:01:08.340> I'm<00:01:08.549> translating<00:01:09.200> you
+
+00:01:10.190 --> 00:01:10.200 
+know exactly where I'm translating you
+
+00:01:10.200 --> 00:01:12.770 
+know exactly where I'm translating you
+see<00:01:10.470> in<00:01:10.680> the<00:01:10.890> bottom<00:01:11.070> of<00:01:11.430> the<00:01:11.549> screen<00:01:11.790> it<00:01:12.360> kind
+
+00:01:12.770 --> 00:01:12.780 
+see in the bottom of the screen it kind
+
+00:01:12.780 --> 00:01:16.219 
+see in the bottom of the screen it kind
+of<00:01:12.900> has<00:01:13.110> these<00:01:13.380> numbers<00:01:13.770> here<00:01:13.799> of<00:01:14.280> DX<00:01:14.760> D<00:01:15.509> and<00:01:15.720> D
+
+00:01:16.219 --> 00:01:16.229 
+of has these numbers here of DX D and D
+
+00:01:16.229 --> 00:01:18.320 
+of has these numbers here of DX D and D
+Z<00:01:16.500> which<00:01:17.130> kind<00:01:17.460> of<00:01:17.580> tell<00:01:17.820> me<00:01:17.850> where<00:01:18.210> it's
+
+00:01:18.320 --> 00:01:18.330 
+Z which kind of tell me where it's
+
+00:01:18.330 --> 00:01:21.440 
+Z which kind of tell me where it's
+moving<00:01:18.930> but<00:01:19.080> because<00:01:19.979> I've<00:01:20.159> got<00:01:20.460> a<00:01:20.490> 2d<00:01:21.000> screen
+
+00:01:21.440 --> 00:01:21.450 
+moving but because I've got a 2d screen
+
+00:01:21.450 --> 00:01:24.140 
+moving but because I've got a 2d screen
+and<00:01:21.659> a<00:01:21.840> 3d<00:01:22.380> space<00:01:22.770> I<00:01:23.100> can't<00:01:23.729> tell<00:01:24.000> exactly
+
+00:01:24.140 --> 00:01:24.150 
+and a 3d space I can't tell exactly
+
+00:01:24.150 --> 00:01:26.600 
+and a 3d space I can't tell exactly
+whether<00:01:24.780> I<00:01:24.900> am<00:01:25.110> removing<00:01:25.560> it<00:01:25.860> left<00:01:26.130> or<00:01:26.340> right
+
+00:01:26.600 --> 00:01:26.610 
+whether I am removing it left or right
+
+00:01:26.610 --> 00:01:28.870 
+whether I am removing it left or right
+or<00:01:26.790> up<00:01:26.909> and<00:01:27.090> down<00:01:27.299> are<00:01:27.720> back<00:01:27.930> and<00:01:28.229> forth
+
+00:01:28.870 --> 00:01:28.880 
+or up and down are back and forth
+
+00:01:28.880 --> 00:01:31.760 
+or up and down are back and forth
+probably<00:01:29.880> the<00:01:30.090> easier<00:01:30.540> way<00:01:30.810> to<00:01:30.840> do<00:01:31.200> this<00:01:31.380> is<00:01:31.439> to
+
+00:01:31.760 --> 00:01:31.770 
+probably the easier way to do this is to
+
+00:01:31.770 --> 00:01:34.520 
+probably the easier way to do this is to
+constrain<00:01:32.280> the<00:01:32.460> motion<00:01:32.850> of<00:01:33.000> the<00:01:33.150> objects<00:01:33.689> so
+
+00:01:34.520 --> 00:01:34.530 
+constrain the motion of the objects so
+
+00:01:34.530 --> 00:01:36.620 
+constrain the motion of the objects so
+if<00:01:34.680> I<00:01:34.890> were<00:01:35.070> to<00:01:35.130> hit<00:01:35.400> the<00:01:35.549> translate<00:01:36.030> key<00:01:36.299> again
+
+00:01:36.620 --> 00:01:36.630 
+if I were to hit the translate key again
+
+00:01:36.630 --> 00:01:39.649 
+if I were to hit the translate key again
+and<00:01:36.930> this<00:01:37.409> time<00:01:37.470> hit<00:01:38.009> the<00:01:38.159> X<00:01:38.369> key<00:01:38.759> you<00:01:39.299> notice
+
+00:01:39.649 --> 00:01:39.659 
+and this time hit the X key you notice
+
+00:01:39.659 --> 00:01:41.990 
+and this time hit the X key you notice
+how<00:01:39.869> i<00:01:39.900> can<00:01:40.259> actually<00:01:40.710> move<00:01:40.950> it<00:01:41.189> along<00:01:41.369> the<00:01:41.610> x
+
+00:01:41.990 --> 00:01:42.000 
+how i can actually move it along the x
+
+00:01:42.000 --> 00:01:45.469 
+how i can actually move it along the x
+axis<00:01:42.299> if<00:01:42.810> I<00:01:43.560> were<00:01:43.740> to<00:01:43.920> hit<00:01:44.070> the<00:01:44.250> Y<00:01:44.460> key<00:01:44.729> notice
+
+00:01:45.469 --> 00:01:45.479 
+axis if I were to hit the Y key notice
+
+00:01:45.479 --> 00:01:47.870 
+axis if I were to hit the Y key notice
+how<00:01:45.689> i<00:01:45.720> can<00:01:46.079> move<00:01:46.290> it<00:01:46.439> along<00:01:46.619> Y<00:01:47.130> and<00:01:47.460> the<00:01:47.610> same
+
+00:01:47.870 --> 00:01:47.880 
+how i can move it along Y and the same
+
+00:01:47.880 --> 00:01:50.740 
+how i can move it along Y and the same
+for<00:01:48.180> see<00:01:48.450> you<00:01:49.049> can<00:01:49.290> move<00:01:49.470> it<00:01:49.649> along<00:01:49.829> the<00:01:50.070> z<00:01:50.340> axis
+
+00:01:50.740 --> 00:01:50.750 
+for see you can move it along the z axis
+
+00:01:50.750 --> 00:01:53.749 
+for see you can move it along the z axis
+this<00:01:51.750> is<00:01:52.020> great<00:01:52.290> because<00:01:52.500> it<00:01:52.860> allows<00:01:53.009> you<00:01:53.549> to
+
+00:01:53.749 --> 00:01:53.759 
+this is great because it allows you to
+
+00:01:53.759 --> 00:01:55.749 
+this is great because it allows you to
+constrain<00:01:54.240> the<00:01:54.420> way<00:01:54.570> that<00:01:54.750> the<00:01:54.869> object<00:01:55.350> moves
+
+00:01:55.749 --> 00:01:55.759 
+constrain the way that the object moves
+
+00:01:55.759 --> 00:01:58.550 
+constrain the way that the object moves
+another<00:01:56.759> way<00:01:56.969> to<00:01:57.030> get<00:01:57.299> more<00:01:57.570> constraint<00:01:58.170> over
+
+00:01:58.550 --> 00:01:58.560 
+another way to get more constraint over
+
+00:01:58.560 --> 00:02:00.620 
+another way to get more constraint over
+the<00:01:58.680> way<00:01:58.829> an<00:01:59.040> object<00:01:59.549> moves<00:01:59.850> is<00:02:00.000> to<00:02:00.210> use<00:02:00.450> an
+
+00:02:00.620 --> 00:02:00.630 
+the way an object moves is to use an
+
+00:02:00.630 --> 00:02:13.660 
+the way an object moves is to use an
+orthographic<00:02:01.200> view<00:02:01.649> port
+
+00:02:13.660 --> 00:02:13.670 
+
+00:02:13.670 --> 00:02:16.390 
+
+so<00:02:14.390> if<00:02:14.569> I<00:02:14.780> were<00:02:14.959> to<00:02:15.020> hit<00:02:15.290> the<00:02:15.440> number<00:02:15.620> 7<00:02:16.160> key
+
+00:02:16.390 --> 00:02:16.400 
+so if I were to hit the number 7 key
+
+00:02:16.400 --> 00:02:19.089 
+so if I were to hit the number 7 key
+online<00:02:16.610> on<00:02:17.030> pad<00:02:17.240> go<00:02:17.690> to<00:02:17.750> my<00:02:18.050> top<00:02:18.349> viewport<00:02:18.739> and
+
+00:02:19.089 --> 00:02:19.099 
+online on pad go to my top viewport and
+
+00:02:19.099 --> 00:02:22.000 
+online on pad go to my top viewport and
+then<00:02:19.400> hit<00:02:19.730> five<00:02:19.970> to<00:02:20.270> go<00:02:20.420> to<00:02:20.480> orthographic<00:02:21.080> then
+
+00:02:22.000 --> 00:02:22.010 
+then hit five to go to orthographic then
+
+00:02:22.010 --> 00:02:24.610 
+then hit five to go to orthographic then
+when<00:02:22.220> I<00:02:22.250> grab<00:02:22.580> this<00:02:22.760> object<00:02:23.300> and<00:02:23.480> move<00:02:23.750> it<00:02:23.989> I<00:02:24.200> am
+
+00:02:24.610 --> 00:02:24.620 
+when I grab this object and move it I am
+
+00:02:24.620 --> 00:02:26.920 
+when I grab this object and move it I am
+basically<00:02:25.069> only<00:02:25.489> moving<00:02:25.910> it<00:02:26.150> in<00:02:26.270> the<00:02:26.390> X<00:02:26.599> Y
+
+00:02:26.920 --> 00:02:26.930 
+basically only moving it in the X Y
+
+00:02:26.930 --> 00:02:29.380 
+basically only moving it in the X Y
+plane<00:02:27.400> because<00:02:28.400> I'm<00:02:28.610> looking<00:02:28.819> straight<00:02:29.360> down
+
+00:02:29.380 --> 00:02:29.390 
+plane because I'm looking straight down
+
+00:02:29.390 --> 00:02:32.650 
+plane because I'm looking straight down
+at<00:02:29.870> it<00:02:30.020> I'm<00:02:30.230> just<00:02:31.100> rearranging<00:02:31.910> it<00:02:32.060> along<00:02:32.420> the
+
+00:02:32.650 --> 00:02:32.660 
+at it I'm just rearranging it along the
+
+00:02:32.660 --> 00:02:35.170 
+at it I'm just rearranging it along the
+floor<00:02:32.959> so<00:02:33.800> I<00:02:33.830> am<00:02:34.130> going<00:02:34.400> to<00:02:34.640> go<00:02:34.819> ahead<00:02:34.850> and
+
+00:02:35.170 --> 00:02:35.180 
+floor so I am going to go ahead and
+
+00:02:35.180 --> 00:02:37.900 
+floor so I am going to go ahead and
+bring<00:02:35.569> this<00:02:35.840> back<00:02:36.110> into<00:02:36.470> perspective<00:02:36.830> mode<00:02:37.370> by
+
+00:02:37.900 --> 00:02:37.910 
+bring this back into perspective mode by
+
+00:02:37.910 --> 00:02:39.850 
+bring this back into perspective mode by
+just<00:02:38.209> orbiting<00:02:38.600> my<00:02:38.900> camera<00:02:39.319> and<00:02:39.440> hitting<00:02:39.830> the
+
+00:02:39.850 --> 00:02:39.860 
+just orbiting my camera and hitting the
+
+00:02:39.860 --> 00:02:42.910 
+just orbiting my camera and hitting the
+number<00:02:40.310> 5<00:02:40.600> another<00:02:41.600> way<00:02:41.840> to<00:02:41.870> move<00:02:42.260> the<00:02:42.470> object
+
+00:02:42.910 --> 00:02:42.920 
+number 5 another way to move the object
+
+00:02:42.920 --> 00:02:44.890 
+number 5 another way to move the object
+is<00:02:43.069> to<00:02:43.310> actually<00:02:43.519> move<00:02:44.030> it<00:02:44.269> by<00:02:44.420> discrete
+
+00:02:44.890 --> 00:02:44.900 
+is to actually move it by discrete
+
+00:02:44.900 --> 00:02:47.470 
+is to actually move it by discrete
+numbers<00:02:45.440> we<00:02:46.280> can<00:02:46.519> do<00:02:46.670> this<00:02:46.850> in<00:02:46.910> a<00:02:47.150> number<00:02:47.330> of
+
+00:02:47.470 --> 00:02:47.480 
+numbers we can do this in a number of
+
+00:02:47.480 --> 00:02:50.410 
+numbers we can do this in a number of
+places<00:02:47.810> if<00:02:48.290> I<00:02:48.980> go<00:02:49.160> over<00:02:49.190> to<00:02:49.580> my<00:02:49.850> properties
+
+00:02:50.410 --> 00:02:50.420 
+places if I go over to my properties
+
+00:02:50.420 --> 00:02:53.350 
+places if I go over to my properties
+panel<00:02:50.750> here<00:02:51.170> and<00:02:51.410> I<00:02:51.590> hit<00:02:51.890> object<00:02:52.400> you<00:02:52.910> will<00:02:53.120> see
+
+00:02:53.350 --> 00:02:53.360 
+panel here and I hit object you will see
+
+00:02:53.360 --> 00:02:55.479 
+panel here and I hit object you will see
+that<00:02:53.510> i<00:02:53.569> have<00:02:53.720> numbers<00:02:54.290> here<00:02:54.590> for<00:02:54.830> translation
+
+00:02:55.479 --> 00:02:55.489 
+that i have numbers here for translation
+
+00:02:55.489 --> 00:02:59.080 
+that i have numbers here for translation
+so<00:02:56.269> I<00:02:56.299> can<00:02:56.630> move<00:02:56.810> my<00:02:56.870> x<00:02:57.350> position<00:02:57.620> here<00:02:58.340> my<00:02:58.880> Y
+
+00:02:59.080 --> 00:02:59.090 
+so I can move my x position here my Y
+
+00:02:59.090 --> 00:03:02.350 
+so I can move my x position here my Y
+position<00:02:59.390> here<00:02:59.959> or<00:03:00.140> my<00:03:00.410> Z<00:03:00.709> position<00:03:01.010> here<00:03:01.670> so
+
+00:03:02.350 --> 00:03:02.360 
+position here or my Z position here so
+
+00:03:02.360 --> 00:03:05.410 
+position here or my Z position here so
+for<00:03:02.630> example<00:03:02.660> if<00:03:03.230> I<00:03:03.709> wanted<00:03:04.130> exactly<00:03:04.430> at<00:03:04.970> 0<00:03:05.269> and
+
+00:03:05.410 --> 00:03:05.420 
+for example if I wanted exactly at 0 and
+
+00:03:05.420 --> 00:03:08.530 
+for example if I wanted exactly at 0 and
+see<00:03:05.930> I<00:03:06.170> could<00:03:06.680> just<00:03:06.920> type<00:03:07.190> 0<00:03:07.640> and<00:03:07.940> it<00:03:08.180> would<00:03:08.360> go
+
+00:03:08.530 --> 00:03:08.540 
+see I could just type 0 and it would go
+
+00:03:08.540 --> 00:03:20.650 
+see I could just type 0 and it would go
+to<00:03:08.600> 0<00:03:09.140> I<00:03:17.829> can<00:03:18.829> also<00:03:19.100> get<00:03:19.549> to<00:03:19.700> these<00:03:19.820> tools<00:03:20.329> by
+
+00:03:20.650 --> 00:03:20.660 
+to 0 I can also get to these tools by
+
+00:03:20.660 --> 00:03:22.810 
+to 0 I can also get to these tools by
+bringing<00:03:21.109> out<00:03:21.290> the<00:03:21.500> properties<00:03:22.040> panel<00:03:22.340> here
+
+00:03:22.810 --> 00:03:22.820 
+bringing out the properties panel here
+
+00:03:22.820 --> 00:03:25.810 
+bringing out the properties panel here
+so<00:03:23.600> if<00:03:23.720> i<00:03:23.900> want<00:03:24.230> to<00:03:24.320> i<00:03:24.470> have<00:03:24.920> my<00:03:25.130> object<00:03:25.579> that's
+
+00:03:25.810 --> 00:03:25.820 
+so if i want to i have my object that's
+
+00:03:25.820 --> 00:03:30.759 
+so if i want to i have my object that's
+selected<00:03:26.329> again<00:03:27.200> i<00:03:27.230> can<00:03:27.590> go<00:03:27.829> x<00:03:28.130> y<00:03:28.850> and<00:03:29.180> c<00:03:29.930> so
+
+00:03:30.759 --> 00:03:30.769 
+selected again i can go x y and c so
+
+00:03:30.769 --> 00:03:32.470 
+selected again i can go x y and c so
+those<00:03:31.010> are<00:03:31.250> two<00:03:31.280> additional<00:03:31.579> ways<00:03:32.209> to
+
+00:03:32.470 --> 00:03:32.480 
+those are two additional ways to
+
+00:03:32.480 --> 00:03:35.140 
+those are two additional ways to
+transform<00:03:32.930> objects<00:03:33.560> and<00:03:33.769> that<00:03:34.549> way<00:03:34.760> you<00:03:34.820> can
+
+00:03:35.140 --> 00:03:35.150 
+transform objects and that way you can
+
+00:03:35.150 --> 00:03:38.380 
+transform objects and that way you can
+also<00:03:35.390> type<00:03:35.810> in<00:03:36.049> very<00:03:36.350> precise<00:03:36.859> numbers<00:03:37.400> I<00:03:37.640> am
+
+00:03:38.380 --> 00:03:38.390 
+also type in very precise numbers I am
+
+00:03:38.390 --> 00:03:40.300 
+also type in very precise numbers I am
+going<00:03:38.630> to<00:03:38.870> go<00:03:39.079> ahead<00:03:39.109> and<00:03:39.410> get<00:03:39.799> rid<00:03:40.010> of<00:03:40.070> those
+
+00:03:40.300 --> 00:03:40.310 
+going to go ahead and get rid of those
+
+00:03:40.310 --> 00:03:42.849 
+going to go ahead and get rid of those
+here<00:03:40.700> one<00:03:41.480> additional<00:03:42.019> way<00:03:42.230> to<00:03:42.260> translate
+
+00:03:42.849 --> 00:03:42.859 
+here one additional way to translate
+
+00:03:42.859 --> 00:03:45.310 
+here one additional way to translate
+objects<00:03:43.400> is<00:03:43.609> to<00:03:43.790> use<00:03:44.000> the<00:03:44.209> transform<00:03:44.600> key<00:03:45.079> and
+
+00:03:45.310 --> 00:03:45.320 
+objects is to use the transform key and
+
+00:03:45.320 --> 00:03:47.650 
+objects is to use the transform key and
+you<00:03:45.980> can<00:03:46.190> do<00:03:46.370> this<00:03:46.549> by<00:03:46.760> going<00:03:46.970> down<00:03:47.299> to<00:03:47.540> the
+
+00:03:47.650 --> 00:03:47.660 
+you can do this by going down to the
+
+00:03:47.660 --> 00:03:50.110 
+you can do this by going down to the
+bottom<00:03:47.870> of<00:03:48.140> your<00:03:48.200> 3d<00:03:48.920> viewport<00:03:49.459> and<00:03:49.640> clicking
+
+00:03:50.110 --> 00:03:50.120 
+bottom of your 3d viewport and clicking
+
+00:03:50.120 --> 00:03:52.539 
+bottom of your 3d viewport and clicking
+here<00:03:50.420> but<00:03:51.079> what<00:03:51.350> you<00:03:51.560> would<00:03:51.769> be<00:03:51.890> able<00:03:52.010> see<00:03:52.310> here
+
+00:03:52.539 --> 00:03:52.549 
+here but what you would be able see here
+
+00:03:52.549 --> 00:03:55.090 
+here but what you would be able see here
+is<00:03:52.670> this<00:03:52.850> arrow<00:03:53.120> the<00:03:53.660> curve<00:03:54.049> and<00:03:54.260> this<00:03:54.829> little
+
+00:03:55.090 --> 00:03:55.100 
+is this arrow the curve and this little
+
+00:03:55.100 --> 00:03:57.819 
+is this arrow the curve and this little
+scale<00:03:55.489> tool<00:03:55.820> here<00:03:56.299> but<00:03:56.959> I<00:03:56.989> want<00:03:57.470> to<00:03:57.560> make<00:03:57.799> sure
+
+00:03:57.819 --> 00:03:57.829 
+scale tool here but I want to make sure
+
+00:03:57.829 --> 00:04:00.640 
+scale tool here but I want to make sure
+it's<00:03:58.310> on<00:03:58.519> the<00:03:58.730> arrow<00:03:58.910> and<00:03:59.299> when<00:04:00.049> it's<00:04:00.230> on<00:04:00.470> the
+
+00:04:00.640 --> 00:04:00.650 
+it's on the arrow and when it's on the
+
+00:04:00.650 --> 00:04:03.250 
+it's on the arrow and when it's on the
+arrow<00:04:00.829> this<00:04:01.549> little<00:04:01.850> gizmo<00:04:02.120> comes<00:04:02.660> up<00:04:02.930> and<00:04:03.079> it
+
+00:04:03.250 --> 00:04:03.260 
+arrow this little gizmo comes up and it
+
+00:04:03.260 --> 00:04:05.830 
+arrow this little gizmo comes up and it
+allows<00:04:03.620> me<00:04:03.650> to<00:04:04.100> just<00:04:04.430> grab<00:04:04.730> either<00:04:04.970> the<00:04:05.239> X<00:04:05.420> the
+
+00:04:05.830 --> 00:04:05.840 
+allows me to just grab either the X the
+
+00:04:05.840 --> 00:04:09.879 
+allows me to just grab either the X the
+Y<00:04:06.170> or<00:04:06.680> the<00:04:07.100> z<00:04:07.280> axis<00:04:07.310> and<00:04:08.030> move<00:04:08.329> it<00:04:08.540> so<00:04:09.380> if<00:04:09.590> I<00:04:09.709> hit
+
+00:04:09.879 --> 00:04:09.889 
+Y or the z axis and move it so if I hit
+
+00:04:09.889 --> 00:04:13.150 
+Y or the z axis and move it so if I hit
+the<00:04:10.040> red<00:04:10.250> cliff<00:04:10.519> I'm<00:04:10.730> moving<00:04:11.150> in<00:04:11.329> X<00:04:11.569> green<00:04:12.440> I<00:04:12.680> am
+
+00:04:13.150 --> 00:04:13.160 
+the red cliff I'm moving in X green I am
+
+00:04:13.160 --> 00:04:15.879 
+the red cliff I'm moving in X green I am
+moving<00:04:13.489> in<00:04:13.670> Y<00:04:13.940> and<00:04:14.269> blue<00:04:14.840> i<00:04:14.870> am<00:04:15.049> moving<00:04:15.230> and<00:04:15.590> see
+
+00:04:15.879 --> 00:04:15.889 
+moving in Y and blue i am moving and see
+
+00:04:15.889 --> 00:04:19.270 
+moving in Y and blue i am moving and see
+i<00:04:16.160> also<00:04:16.820> can<00:04:17.209> move<00:04:17.419> multiple<00:04:17.840> objects<00:04:18.530> all<00:04:18.799> i
+
+00:04:19.270 --> 00:04:19.280 
+i also can move multiple objects all i
+
+00:04:19.280 --> 00:04:21.849 
+i also can move multiple objects all i
+have<00:04:19.760> to<00:04:19.789> do<00:04:20.120> is<00:04:20.150> just<00:04:20.299> shift<00:04:20.930> +<00:04:21.260> select<00:04:21.440> them
+
+00:04:21.849 --> 00:04:21.859 
+have to do is just shift + select them
+
+00:04:21.859 --> 00:04:25.089 
+have to do is just shift + select them
+and<00:04:21.890> I<00:04:22.280> can<00:04:22.490> move<00:04:22.729> many<00:04:23.090> objects<00:04:23.690> at<00:04:23.930> once<00:04:24.110> so
+
+00:04:25.089 --> 00:04:25.099 
+and I can move many objects at once so
+
+00:04:25.099 --> 00:04:27.129 
+and I can move many objects at once so
+those<00:04:25.310> are<00:04:25.580> some<00:04:25.610> of<00:04:25.970> the<00:04:26.060> basics<00:04:26.570> of<00:04:26.720> how<00:04:26.810> to
+
+00:04:27.129 --> 00:04:27.139 
+those are some of the basics of how to
+
+00:04:27.139 --> 00:04:47.559 
+those are some of the basics of how to
+translate<00:04:27.620> objects<00:04:28.099> within<00:04:28.729> blender
+
+00:04:47.559 --> 00:04:47.569 
+
+00:04:47.569 --> 00:04:49.629 
+
+you
+

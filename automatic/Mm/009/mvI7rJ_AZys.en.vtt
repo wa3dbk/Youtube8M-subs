@@ -1,0 +1,256 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.810 --> 00:00:05.590
+ Hello! I am one of the developers behind it 
+
+00:00:05.590 --> 00:00:09.250
+ Apertus open-source film project in these videos, I want to give you 
+
+00:00:09.250 --> 00:00:12.969
+ A brief introduction of the most important aspects of the project. 
+
+00:00:12.969 --> 00:00:17.960
+ First, that really means open source cinema on software / hardware. 
+
+00:00:17.960 --> 00:00:23.310
+ Before the revolution of digital cinema in recent years, with the RED, or Arri cameras, or 
+
+00:00:23.310 --> 00:00:28.339
+ From other companies, the directors of photography had a clear idea of ​​what was happening to them 
+
+00:00:28.339 --> 00:00:33.739
+ inside his cinematic camera. They had the movie and the mechanical parts, 
+
+00:00:33.739 --> 00:00:40.739
+ and they understood how to manipulate it to achieve their style they wished to have 
+
+00:00:40.790 --> 00:00:44.570
+ to the movie. Now, however, with the introduction of digital cameras 
+
+00:00:44.570 --> 00:00:50.400
+ This has changed dramatically since the camera has become a black box that 
+
+00:00:50.400 --> 00:00:53.320
+ It has a few buttons to influence the image. 
+
+00:00:53.320 --> 00:00:57.440
+ but in fact a photographer does not know what's happening inside the camera. 
+
+00:00:57.440 --> 00:01:00.220
+ With Apertus, we want to make things totally different 
+
+00:01:00.220 --> 00:01:04.080
+ We encourage the development of open hardware as well as the use of free software. 
+
+00:01:04.080 --> 00:01:07.820
+ We want to create a tool - a camera - that we, as filmmakers, like us to use. 
+
+00:01:07.820 --> 00:01:10.649
+ With free software, all source code is published on the Internet. 
+
+00:01:10.649 --> 00:01:14.950
+ Therefore, everyone can get it freely. Although not everyone is in the project 
+
+00:01:14.950 --> 00:01:19.409
+ Developer, everyone benefits from the work done by all contributors 
+
+00:01:19.409 --> 00:01:23.200
+ thus forming a community. Well, let's take a look at the camera. 
+
+00:01:23.200 --> 00:01:29.189
+ The main component is made by Elphel inc. This is the main hardware they produce. 
+
+00:01:29.189 --> 00:01:35.380
+ The key components here are the lens mounting lens 
+
+00:01:35.380 --> 00:01:42.380
+ It is a C mount with a CS adapter ring behind the camera, we have a SATA port 
+
+00:01:42.789 --> 00:01:45.920
+ This particular model is included 
+
+00:01:45.920 --> 00:01:50.649
+ a hard drive inside the wrapper, this is optional. Ethernet 
+
+00:01:50.649 --> 00:01:55.020
+ USB 1.0 and next to this model, we have one 
+
+00:01:55.020 --> 00:01:59.700
+ Additional synchronization port and an interface for the serial console. 
+
+00:01:59.700 --> 00:02:03.299
+ Well, the three main components in the camera are ... 
+
+00:02:03.299 --> 00:02:09.550
+ The front end of the sensor, where the lens is connected, includes the image sensor 
+
+00:02:09.550 --> 00:02:13.780
+ then the image sensor connects to the second PCB inside the camera ... 
+
+00:02:13.780 --> 00:02:18.439
+ which contains the other two main components. The first is the so-called FPGA 
+
+00:02:18.439 --> 00:02:24.689
+ which processes the images at high speed, and the third component, which is an integrated CPU 
+
+00:02:24.689 --> 00:02:30.680
+ running with a Linux operating system. Which is in charge of external interfaces and communication. 
+
+00:02:30.680 --> 00:02:34.860
+ Apertus now operates around this camera to make it a camera of 
+
+00:02:34.860 --> 00:02:37.970
+ digital cinema with all functions. For example, we connect the hard drive, which 
+
+00:02:37.970 --> 00:02:41.980
+ It can also be SSD, direct to the SATA port of the camera. 
+
+00:02:41.980 --> 00:02:45.909
+ We have a battery group that feeds the camera and the hard drive. 
+
+00:02:45.909 --> 00:02:50.700
+ And through Ethernet, we have a viewfinder on the computer, which can be any Desktop, Portable, or in this case 
+
+00:02:50.700 --> 00:02:56.150
+ a Netbook with touch screen that runs our viewer program and 
+
+00:02:56.150 --> 00:03:01.250
+ It can be used to control any camera parameter in real time, as well as see the flow of 
+
+00:03:01.250 --> 00:03:04.900
+ video coming from the camera. To the future we will look to support one 
+
+00:03:04.900 --> 00:03:11.319
+ Android version, which can work your favorite tablet. 
+
+00:03:11.319 --> 00:03:13.560
+ This is the Apertus visualizer program we have developed. 
+
+00:03:13.560 --> 00:03:17.370
+ I quickly want to review the main features as well as show you some windows. 
+
+00:03:17.370 --> 00:03:23.420
+ In the middle of the main window, we show a video stream of the camera. 
+
+00:03:23.420 --> 00:03:27.239
+ it's in real time. Above, we have an information area 
+
+00:03:27.239 --> 00:03:33.209
+ which shows the resolution we are recording, the frame rate, the white balance, the compression ratio, 
+
+00:03:33.209 --> 00:03:38.280
+ how much free space is left on the hard disk and the state of the camera. 
+
+00:03:38.280 --> 00:03:41.269
+ Now, it's in stand-by, that is, it does not record. 
+
+00:03:41.269 --> 00:03:47.670
+ To the left, we can alter the properties collected, here, in the lower part, 
+
+00:03:47.670 --> 00:03:51.310
+ For example, I can alter the electronic shutter. 
+
+00:03:51.310 --> 00:03:56.670
+ I'm changing the sealing time. The image becomes dark. 
+
+00:03:56.670 --> 00:04:01.340
+ but at the same time I can increase the gain to 6 dB i 
+
+00:04:01.340 --> 00:04:06.140
+ then it will be clarified again. introducing for that, more noise, of course. 0: 04: 06.140,0: 04: 12,499 below, we have a histogram in real time. The Playback button is used to view files from 
+
+00:04:12.499 --> 00:04:18.049
+ video that is on the hard drive. Here I can record a still image or start filming. 
+
+00:04:18.049 --> 00:04:21.079
+ On our right we have the so-called 'fast menu' 
+
+00:04:21.079 --> 00:04:24.180
+ for features that are hidden in another window. 
+
+00:04:24.180 --> 00:04:31.030
+ For example, I can scale the video in the middle, here, for more focus control. I can return 
+
+00:04:31.030 --> 00:04:35.250
+ zoom in proportion 1: 1 ... or scale the image to screen size, here. 
+
+00:04:35.250 --> 00:04:42.250
+ I have a data speed indicator and you can change the color mode to RAW mode, which I will explain later. 
+
+00:04:42.460 --> 00:04:45.360
+ And for 3D cameras, we can change 
+
+00:04:45.360 --> 00:04:50.020
+ between left and right eye, here. Now, take a look at the main menu, here. 
+
+00:04:50.020 --> 00:04:54.270
+ we can select the appropriate resolution, frame rate ... 
+
+00:04:54.270 --> 00:04:56.289
+ Both cases have a 'Custom' vote. 
+
+00:04:56.289 --> 00:05:03.289
+ with which we can enter advanced features such as inverting the image or rotating the image, in portrait mode. 
+
+00:05:04.449 --> 00:05:08.900
+ We can write any resolution we want with the keyboard here. 
+
+00:05:08.900 --> 00:05:14.740
+ In the second window, here, we can adjust the Gamma and the black level - we also have 
+
+00:05:14.740 --> 00:05:19.300
+ Real-time video here. But there are elements that are not yet 0: 05: 19.300,0: 05: 22,690 implemented yet, this is currently unfinished. 
+
+00:05:22.690 --> 00:05:27.479
+ Now, coloring is very interesting as you can see the real-time image we have here. 
+
+00:05:27.479 --> 00:05:32.599
+ And it's basically what you will get to post-production. But there is the possibility of recording at a better quality with RAW 
+
+00:05:32.599 --> 00:05:37.630
+ The RAW mode is called 'JP46' or 'JP4' only. 
+
+00:05:37.630 --> 00:05:42.720
+ This is in fact two different ways. But what you see when I change the modes here 
+
+00:05:42.720 --> 00:05:47.880
+ is that I lost some of the previous one in real time, since a monochrome image is returned and 
+
+00:05:47.880 --> 00:05:51.610
+ somehow distorted. This is how it is recorded. 
+
+00:05:51.610 --> 00:05:56.419
+ This way you get more information but you lose the ability to watch the video. 
+
+00:05:56.419 --> 00:06:00.840
+ For now, we need software that can undo the RAW mosaic in real time, 
+
+00:06:00.840 --> 00:06:04.349
+ so you can see it with color. This is planned for the future. 
+
+00:06:04.349 --> 00:06:10.180
+ And the second one, the JP4 RAW mode, which has an additional advantage, because it spins certain steps 
+
+00:06:10.180 --> 00:06:14.830
+ of image processing in the camera. Therefore, it allows better quality at lower data speeds. 
+
+00:06:14.830 --> 00:06:18.650
+ But - in this case - if we do not get it 
+
+00:06:18.650 --> 00:06:23.000
+ No previous data in real time, not even the monochrome image. 
+
+00:06:23.000 --> 00:06:28.259
+ Software that can show this mode in real time is not yet scheduled. 
+
+00:06:28.259 --> 00:06:32.650
+ With my Apertus prototype here, you can see how some features are already implemented 
+
+00:06:32.650 --> 00:06:36.509
+ Some are still missing and I'm sure there are errors somewhere, but I hope you have been able to 
+
+00:06:36.509 --> 00:06:38.660
+ Give yourself a preview of what can happen in the future. 
+

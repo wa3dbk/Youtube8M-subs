@@ -1,0 +1,609 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.360 
+
+hello<00:00:00.450> there<00:00:00.780> today's<00:00:01.050> video<00:00:01.319> is<00:00:01.410> about<00:00:01.500> DHCP
+
+00:00:02.360 --> 00:00:02.370 
+hello there today's video is about DHCP
+
+00:00:02.370 --> 00:00:05.900 
+hello there today's video is about DHCP
+specifically<00:00:03.500> how<00:00:04.500> to<00:00:04.529> create<00:00:04.950> DHCP<00:00:05.549> scope
+
+00:00:05.900 --> 00:00:05.910 
+specifically how to create DHCP scope
+
+00:00:05.910 --> 00:00:08.299 
+specifically how to create DHCP scope
+options<00:00:06.120> so<00:00:06.779> I'm<00:00:07.049> on<00:00:07.140> my<00:00:07.170> Windows<00:00:07.620> 7<00:00:07.830> machine
+
+00:00:08.299 --> 00:00:08.309 
+options so I'm on my Windows 7 machine
+
+00:00:08.309 --> 00:00:12.140 
+options so I'm on my Windows 7 machine
+here<00:00:08.610> so<00:00:08.790> let<00:00:08.940> me<00:00:08.970> do<00:00:09.150> a<00:00:09.500> CMD<00:00:10.500> and<00:00:11.030> since<00:00:12.030> this
+
+00:00:12.140 --> 00:00:12.150 
+here so let me do a CMD and since this
+
+00:00:12.150 --> 00:00:14.419 
+here so let me do a CMD and since this
+is<00:00:12.389> 7<00:00:12.870> if<00:00:13.019> it<00:00:13.500> were<00:00:13.620> Vista<00:00:13.889> I'd<00:00:13.980> have<00:00:14.130> to<00:00:14.190> do<00:00:14.309> the
+
+00:00:14.419 --> 00:00:14.429 
+is 7 if it were Vista I'd have to do the
+
+00:00:14.429 --> 00:00:16.250 
+is 7 if it were Vista I'd have to do the
+same<00:00:14.639> I<00:00:14.940> want<00:00:15.599> to<00:00:15.660> right<00:00:15.809> click<00:00:15.839> on<00:00:16.170> the
+
+00:00:16.250 --> 00:00:16.260 
+same I want to right click on the
+
+00:00:16.260 --> 00:00:17.510 
+same I want to right click on the
+command<00:00:16.529> prompt<00:00:16.890> and<00:00:17.010> run<00:00:17.340> as<00:00:17.490> administrator
+
+00:00:17.510 --> 00:00:17.520 
+command prompt and run as administrator
+
+00:00:17.520 --> 00:00:22.189 
+command prompt and run as administrator
+that<00:00:19.340> way<00:00:20.340> I<00:00:20.369> elevate<00:00:21.029> the<00:00:21.150> command<00:00:21.449> prompt<00:00:21.720> so
+
+00:00:22.189 --> 00:00:22.199 
+that way I elevate the command prompt so
+
+00:00:22.199 --> 00:00:27.650 
+that way I elevate the command prompt so
+let's<00:00:23.100> do<00:00:23.310> a<00:00:23.340> IP<00:00:24.500> config<00:00:25.500> slash<00:00:26.160> all<00:00:26.670> to<00:00:27.480> see
+
+00:00:27.650 --> 00:00:27.660 
+let's do a IP config slash all to see
+
+00:00:27.660 --> 00:00:31.550 
+let's do a IP config slash all to see
+all<00:00:27.869> the<00:00:28.050> data<00:00:28.230> and<00:00:29.840> as<00:00:30.840> you<00:00:31.050> can<00:00:31.170> see<00:00:31.289> I<00:00:31.320> have
+
+00:00:31.550 --> 00:00:31.560 
+all the data and as you can see I have
+
+00:00:31.560 --> 00:00:35.080 
+all the data and as you can see I have
+an<00:00:31.679> IP<00:00:31.830> address<00:00:32.360> 1000<00:00:33.360> 98<00:00:33.899> with<00:00:34.140> a<00:00:34.170> subnet<00:00:34.649> mask
+
+00:00:35.080 --> 00:00:35.090 
+an IP address 1000 98 with a subnet mask
+
+00:00:35.090 --> 00:00:38.299 
+an IP address 1000 98 with a subnet mask
+but<00:00:36.090> I<00:00:36.120> do<00:00:36.210> not<00:00:36.450> have<00:00:36.750> a<00:00:37.190> default<00:00:38.190> gateway
+
+00:00:38.299 --> 00:00:38.309 
+but I do not have a default gateway
+
+00:00:38.309 --> 00:00:42.680 
+but I do not have a default gateway
+which<00:00:39.300> should<00:00:39.570> be<00:00:39.690> listed<00:00:40.190> right<00:00:41.190> here<00:00:41.250> and<00:00:41.700> I
+
+00:00:42.680 --> 00:00:42.690 
+which should be listed right here and I
+
+00:00:42.690 --> 00:00:46.430 
+which should be listed right here and I
+do<00:00:42.750> not<00:00:42.989> have<00:00:43.520> ipv4<00:00:44.520> DNS<00:00:45.030> servers<00:00:45.420> this<00:00:46.170> is<00:00:46.410> a
+
+00:00:46.430 --> 00:00:46.440 
+do not have ipv4 DNS servers this is a
+
+00:00:46.440 --> 00:00:48.619 
+do not have ipv4 DNS servers this is a
+scope<00:00:47.010> options<00:00:47.250> all<00:00:47.640> this<00:00:47.820> information<00:00:48.360> comes
+
+00:00:48.619 --> 00:00:48.629 
+scope options all this information comes
+
+00:00:48.629 --> 00:00:50.569 
+scope options all this information comes
+with<00:00:48.930> your<00:00:49.079> IP<00:00:49.350> address<00:00:49.649> when<00:00:49.920> you<00:00:50.070> get<00:00:50.280> a<00:00:50.309> new
+
+00:00:50.569 --> 00:00:50.579 
+with your IP address when you get a new
+
+00:00:50.579 --> 00:00:53.420 
+with your IP address when you get a new
+IP<00:00:50.760> address<00:00:50.879> and<00:00:51.329> it<00:00:52.260> must<00:00:52.469> be<00:00:52.590> set<00:00:52.860> up<00:00:52.890> on<00:00:53.100> the
+
+00:00:53.420 --> 00:00:53.430 
+IP address and it must be set up on the
+
+00:00:53.430 --> 00:00:56.840 
+IP address and it must be set up on the
+server<00:00:53.670> so<00:00:54.379> here's<00:00:55.379> my<00:00:55.500> DHCP<00:00:56.039> server<00:00:56.280> Server
+
+00:00:56.840 --> 00:00:56.850 
+server so here's my DHCP server Server
+
+00:00:56.850 --> 00:01:00.910 
+server so here's my DHCP server Server
+2008<00:00:57.420> I<00:00:58.100> want<00:00:59.100> to<00:00:59.160> open<00:00:59.280> up<00:00:59.430> the<00:00:59.550> DHCP<00:01:00.059> console
+
+00:01:00.910 --> 00:01:00.920 
+2008 I want to open up the DHCP console
+
+00:01:00.920 --> 00:01:10.070 
+2008 I want to open up the DHCP console
+and<00:01:04.880> click<00:01:05.880> I<00:01:06.420> have<00:01:06.510> an<00:01:06.810> ipv4<00:01:07.340> range<00:01:09.080> my
+
+00:01:10.070 --> 00:01:10.080 
+and click I have an ipv4 range my
+
+00:01:10.080 --> 00:01:14.660 
+and click I have an ipv4 range my
+address<00:01:10.799> pool<00:01:10.979> is<00:01:11.250> 0<00:01:11.760> or<00:01:12.409> 1000<00:01:13.409> 10<00:01:13.830> through
+
+00:01:14.660 --> 00:01:14.670 
+address pool is 0 or 1000 10 through
+
+00:01:14.670 --> 00:01:18.170 
+address pool is 0 or 1000 10 through
+1000<00:01:15.170> 200<00:01:16.220> address<00:01:17.220> leases<00:01:17.430> here's<00:01:18.060> the
+
+00:01:18.170 --> 00:01:18.180 
+1000 200 address leases here's the
+
+00:01:18.180 --> 00:01:20.140 
+1000 200 address leases here's the
+Windows<00:01:18.509> 7<00:01:18.840> machine
+
+00:01:20.140 --> 00:01:20.150 
+Windows 7 machine
+
+00:01:20.150 --> 00:01:23.330 
+Windows 7 machine
+1000<00:01:21.150> 98<00:01:22.020> I<00:01:22.320> believe<00:01:22.890> I<00:01:22.950> made<00:01:23.100> a<00:01:23.130> reservation
+
+00:01:23.330 --> 00:01:23.340 
+1000 98 I believe I made a reservation
+
+00:01:23.340 --> 00:01:27.469 
+1000 98 I believe I made a reservation
+for<00:01:23.729> this<00:01:25.700> yeah<00:01:26.700> I'm<00:01:26.970> going<00:01:27.090> to<00:01:27.150> delete<00:01:27.330> this
+
+00:01:27.469 --> 00:01:27.479 
+for this yeah I'm going to delete this
+
+00:01:27.479 --> 00:01:30.499 
+for this yeah I'm going to delete this
+reservation<00:01:28.909> it'll<00:01:29.909> still<00:01:30.090> continue<00:01:30.390> to<00:01:30.420> work
+
+00:01:30.499 --> 00:01:30.509 
+reservation it'll still continue to work
+
+00:01:30.509 --> 00:01:33.380 
+reservation it'll still continue to work
+but<00:01:30.900> I'm<00:01:31.049> still<00:01:31.110> deleting<00:01:31.590> it<00:01:32.180> so<00:01:33.180> I<00:01:33.240> want<00:01:33.360> to
+
+00:01:33.380 --> 00:01:33.390 
+but I'm still deleting it so I want to
+
+00:01:33.390 --> 00:01:34.850 
+but I'm still deleting it so I want to
+configure<00:01:33.689> my<00:01:33.720> scope<00:01:34.079> options<00:01:34.439> which<00:01:34.560> I<00:01:34.680> have
+
+00:01:34.850 --> 00:01:34.860 
+configure my scope options which I have
+
+00:01:34.860 --> 00:01:37.670 
+configure my scope options which I have
+none<00:01:35.159> configured<00:01:35.759> so<00:01:36.630> this<00:01:36.780> is<00:01:36.900> how<00:01:37.049> clients
+
+00:01:37.670 --> 00:01:37.680 
+none configured so this is how clients
+
+00:01:37.680 --> 00:01:39.260 
+none configured so this is how clients
+figure<00:01:38.070> out<00:01:38.189> where<00:01:38.369> the<00:01:38.490> default<00:01:38.759> gateway<00:01:38.820> is
+
+00:01:39.260 --> 00:01:39.270 
+figure out where the default gateway is
+
+00:01:39.270 --> 00:01:42.620 
+figure out where the default gateway is
+and<00:01:39.450> where<00:01:39.570> the<00:01:39.630> DNS<00:01:39.960> server<00:01:40.770> is<00:01:40.799> so<00:01:41.630> configure
+
+00:01:42.620 --> 00:01:42.630 
+and where the DNS server is so configure
+
+00:01:42.630 --> 00:01:46.219 
+and where the DNS server is so configure
+options<00:01:44.030> router<00:01:45.030> 3<00:01:45.420> is<00:01:45.570> default<00:01:45.869> gateway
+
+00:01:46.219 --> 00:01:46.229 
+options router 3 is default gateway
+
+00:01:46.229 --> 00:01:52.280 
+options router 3 is default gateway
+which<00:01:46.409> will<00:01:46.560> be<00:01:46.710> 1000<00:01:47.750> to<00:01:48.799> 254<00:01:51.079> make<00:01:52.079> sure<00:01:52.200> you
+
+00:01:52.280 --> 00:01:52.290 
+which will be 1000 to 254 make sure you
+
+00:01:52.290 --> 00:01:55.490 
+which will be 1000 to 254 make sure you
+click<00:01:52.500> Add<00:01:53.540> DNS<00:01:54.540> server<00:01:54.780> should<00:01:55.079> be<00:01:55.229> scope
+
+00:01:55.490 --> 00:01:55.500 
+click Add DNS server should be scope
+
+00:01:55.500 --> 00:02:01.010 
+click Add DNS server should be scope
+option<00:01:55.920> 6<00:01:57.890> so<00:01:58.890> that'll<00:01:59.159> be<00:01:59.219> 10<00:01:59.610> 0<00:02:00.060> dot<00:02:00.240> 0<00:02:00.270> dot<00:02:00.600> 1
+
+00:02:01.010 --> 00:02:01.020 
+option 6 so that'll be 10 0 dot 0 dot 1
+
+00:02:01.020 --> 00:02:06.050 
+option 6 so that'll be 10 0 dot 0 dot 1
+this<00:02:01.950> machine<00:02:02.310> I<00:02:02.549> can<00:02:03.090> also<00:02:03.360> I<00:02:04.969> wants<00:02:05.969> to
+
+00:02:06.050 --> 00:02:06.060 
+this machine I can also I wants to
+
+00:02:06.060 --> 00:02:14.010 
+this machine I can also I wants to
+validate<00:02:06.450> I<00:02:06.659> am<00:02:07.399> never<00:02:08.399> seen<00:02:08.610> that<00:02:08.729> before
+
+00:02:14.010 --> 00:02:14.020 
+
+00:02:14.020 --> 00:02:22.330 
+
+and<00:02:16.990> 10.0.0.0<00:02:18.280> for<00:02:19.280> that'll<00:02:19.940> fail<00:02:20.980> but<00:02:21.980> that's
+
+00:02:22.330 --> 00:02:22.340 
+and 10.0.0.0 for that'll fail but that's
+
+00:02:22.340 --> 00:02:25.120 
+and 10.0.0.0 for that'll fail but that's
+fine<00:02:22.700> I<00:02:23.200> don't<00:02:24.200> know<00:02:24.260> why<00:02:24.410> it<00:02:24.470> wants<00:02:24.680> to<00:02:24.770> verify
+
+00:02:25.120 --> 00:02:25.130 
+fine I don't know why it wants to verify
+
+00:02:25.130 --> 00:02:27.340 
+fine I don't know why it wants to verify
+that<00:02:25.310> but<00:02:26.230> whatever
+
+00:02:27.340 --> 00:02:27.350 
+that but whatever
+
+00:02:27.350 --> 00:02:30.430 
+that but whatever
+it'll<00:02:27.980> probably<00:02:28.100> freak<00:02:28.580> out<00:02:28.730> on<00:02:28.790> me<00:02:29.260> this<00:02:30.260> is<00:02:30.410> a
+
+00:02:30.430 --> 00:02:30.440 
+it'll probably freak out on me this is a
+
+00:02:30.440 --> 00:02:34.750 
+it'll probably freak out on me this is a
+new<00:02:30.650> feature<00:02:30.890> in<00:02:31.040> Server<00:02:31.670> 2008<00:02:33.370> yes<00:02:34.370> I<00:02:34.550> want<00:02:34.700> to
+
+00:02:34.750 --> 00:02:34.760 
+new feature in Server 2008 yes I want to
+
+00:02:34.760 --> 00:02:37.930 
+new feature in Server 2008 yes I want to
+add<00:02:34.880> it<00:02:35.030> thank<00:02:35.240> you<00:02:35.500> so<00:02:36.500> it'll<00:02:37.010> have<00:02:37.160> two<00:02:37.400> DNS
+
+00:02:37.930 --> 00:02:37.940 
+add it thank you so it'll have two DNS
+
+00:02:37.940 --> 00:02:39.760 
+add it thank you so it'll have two DNS
+servers<00:02:38.330> you<00:02:38.840> can<00:02:38.870> also<00:02:39.050> configure<00:02:39.290> lots<00:02:39.650> of
+
+00:02:39.760 --> 00:02:39.770 
+servers you can also configure lots of
+
+00:02:39.770 --> 00:02:44.860 
+servers you can also configure lots of
+other<00:02:39.980> options<00:02:40.220> such<00:02:40.790> as<00:02:43.270> 66<00:02:44.270> that's<00:02:44.570> a<00:02:44.720> good
+
+00:02:44.860 --> 00:02:44.870 
+other options such as 66 that's a good
+
+00:02:44.870 --> 00:02:49.660 
+other options such as 66 that's a good
+one<00:02:45.580> boot<00:02:46.580> file<00:02:46.820> server<00:02:47.710> which<00:02:48.710> will<00:02:48.920> be<00:02:49.040> the
+
+00:02:49.660 --> 00:02:49.670 
+one boot file server which will be the
+
+00:02:49.670 --> 00:02:51.610 
+one boot file server which will be the
+name<00:02:49.940> of<00:02:49.970> the<00:02:50.270> server<00:02:50.510> actually<00:02:51.410> I'm<00:02:51.470> just
+
+00:02:51.610 --> 00:02:51.620 
+name of the server actually I'm just
+
+00:02:51.620 --> 00:02:59.650 
+name of the server actually I'm just
+going<00:02:51.740> to<00:02:51.770> put<00:02:51.920> in<00:02:52.070> an<00:02:52.760> IP<00:02:52.940> address<00:02:55.690> done<00:02:58.660> 13
+
+00:02:59.650 --> 00:02:59.660 
+going to put in an IP address done 13
+
+00:02:59.660 --> 00:03:04.060 
+going to put in an IP address done 13
+and<00:02:59.960> then<00:03:00.590> boot<00:03:00.860> file<00:03:01.070> name<00:03:01.340> which<00:03:02.210> will<00:03:02.390> be<00:03:03.070> my
+
+00:03:04.060 --> 00:03:04.070 
+and then boot file name which will be my
+
+00:03:04.070 --> 00:03:06.430 
+and then boot file name which will be my
+operating<00:03:04.820> system<00:03:05.180> this<00:03:05.660> these<00:03:06.080> two<00:03:06.230> options
+
+00:03:06.430 --> 00:03:06.440 
+operating system this these two options
+
+00:03:06.440 --> 00:03:08.260 
+operating system this these two options
+are<00:03:06.740> for<00:03:07.010> computers<00:03:07.700> that<00:03:07.730> boot<00:03:08.060> to<00:03:08.240> the
+
+00:03:08.260 --> 00:03:08.270 
+are for computers that boot to the
+
+00:03:08.270 --> 00:03:11.380 
+are for computers that boot to the
+network<00:03:08.630> card<00:03:08.870> and<00:03:09.100> download<00:03:10.100> and<00:03:10.580> operating
+
+00:03:11.380 --> 00:03:11.390 
+network card and download and operating
+
+00:03:11.390 --> 00:03:13.600 
+network card and download and operating
+system<00:03:11.690> off<00:03:11.870> the<00:03:12.080> network<00:03:12.280> frequently<00:03:13.280> used
+
+00:03:13.600 --> 00:03:13.610 
+system off the network frequently used
+
+00:03:13.610 --> 00:03:19.060 
+system off the network frequently used
+in<00:03:14.710> ghost<00:03:15.710> or<00:03:16.580> other<00:03:17.540> pixie<00:03:18.260> boot<00:03:18.440> compliant
+
+00:03:19.060 --> 00:03:19.070 
+in ghost or other pixie boot compliant
+
+00:03:19.070 --> 00:03:21.670 
+in ghost or other pixie boot compliant
+options<00:03:19.610> so<00:03:20.300> the<00:03:20.810> one<00:03:20.930> I'm<00:03:20.990> going<00:03:21.110> to<00:03:21.170> do<00:03:21.230> is<00:03:21.320> px
+
+00:03:21.670 --> 00:03:21.680 
+options so the one I'm going to do is px
+
+00:03:21.680 --> 00:03:28.840 
+options so the one I'm going to do is px
+e<00:03:22.420> Linux<00:03:23.420> dot<00:03:23.990> zero<00:03:24.790> and<00:03:27.520> there's<00:03:28.520> lots<00:03:28.730> of
+
+00:03:28.840 --> 00:03:28.850 
+e Linux dot zero and there's lots of
+
+00:03:28.850 --> 00:03:32.770 
+e Linux dot zero and there's lots of
+other<00:03:29.030> options<00:03:29.300> in<00:03:29.690> here<00:03:31.120> I'm<00:03:32.120> not<00:03:32.210> sure<00:03:32.360> what
+
+00:03:32.770 --> 00:03:32.780 
+other options in here I'm not sure what
+
+00:03:32.780 --> 00:03:38.950 
+other options in here I'm not sure what
+else<00:03:32.960> you<00:03:33.830> might<00:03:33.980> need<00:03:36.760> such<00:03:37.760> as<00:03:38.060> DNS<00:03:38.780> domain
+
+00:03:38.950 --> 00:03:38.960 
+else you might need such as DNS domain
+
+00:03:38.960 --> 00:03:43.120 
+else you might need such as DNS domain
+name<00:03:40.180> that's<00:03:41.180> a<00:03:41.270> good<00:03:41.450> one<00:03:41.630> but<00:03:42.470> I<00:03:42.650> spent<00:03:43.040> all
+
+00:03:43.120 --> 00:03:43.130 
+name that's a good one but I spent all
+
+00:03:43.130 --> 00:03:44.590 
+name that's a good one but I spent all
+day<00:03:43.160> talking<00:03:43.459> about<00:03:43.550> this<00:03:43.790> you<00:03:43.940> can<00:03:44.060> research
+
+00:03:44.590 --> 00:03:44.600 
+day talking about this you can research
+
+00:03:44.600 --> 00:03:46.840 
+day talking about this you can research
+this<00:03:44.840> stuff<00:03:45.080> on<00:03:45.290> your<00:03:45.410> own<00:03:45.470> now<00:03:46.459> let<00:03:46.670> me<00:03:46.730> go
+
+00:03:46.840 --> 00:03:46.850 
+this stuff on your own now let me go
+
+00:03:46.850 --> 00:03:50.680 
+this stuff on your own now let me go
+back<00:03:46.970> to<00:03:47.030> my<00:03:47.240> Windows<00:03:47.300> 7<00:03:47.959> machine<00:03:48.500> and<00:03:49.060> do<00:03:50.060> a<00:03:50.090> IP
+
+00:03:50.680 --> 00:03:50.690 
+back to my Windows 7 machine and do a IP
+
+00:03:50.690 --> 00:03:57.270 
+back to my Windows 7 machine and do a IP
+config<00:03:51.230> slash<00:03:52.209> release<00:03:54.160> IP<00:03:55.160> config<00:03:55.700> slash
+
+00:03:57.270 --> 00:03:57.280 
+config slash release IP config slash
+
+00:03:57.280 --> 00:04:04.780 
+config slash release IP config slash
+renew<00:04:01.420> and<00:04:02.650> it<00:04:03.650> should<00:04:03.890> this<00:04:04.070> time<00:04:04.370> come<00:04:04.640> with
+
+00:04:04.780 --> 00:04:04.790 
+renew and it should this time come with
+
+00:04:04.790 --> 00:04:07.860 
+renew and it should this time come with
+a<00:04:04.820> gateway<00:04:05.690> list<00:04:06.380> it<00:04:06.560> oh<00:04:06.709> there<00:04:07.160> it<00:04:07.250> is<00:04:07.310> 1000
+
+00:04:07.860 --> 00:04:07.870 
+a gateway list it oh there it is 1000
+
+00:04:07.870 --> 00:04:16.090 
+a gateway list it oh there it is 1000
+254<00:04:08.920> let's<00:04:09.920> do<00:04:10.130> the<00:04:10.280> slash<00:04:10.580> all<00:04:11.920> and<00:04:14.530> 1000<00:04:15.530> 1<00:04:15.800> is
+
+00:04:16.090 --> 00:04:16.100 
+254 let's do the slash all and 1000 1 is
+
+00:04:16.100 --> 00:04:20.590 
+254 let's do the slash all and 1000 1 is
+my<00:04:16.340> DNS<00:04:16.640> server<00:04:17.000> 1000<00:04:17.870> 254<00:04:18.470> is<00:04:18.799> my<00:04:19.220> other<00:04:20.120> DNS
+
+00:04:20.590 --> 00:04:20.600 
+my DNS server 1000 254 is my other DNS
+
+00:04:20.600 --> 00:04:23.910 
+my DNS server 1000 254 is my other DNS
+server<00:04:21.070> there's<00:04:22.070> a<00:04:22.190> option<00:04:22.850> also
+
+00:04:23.910 --> 00:04:23.920 
+server there's a option also
+
+00:04:23.920 --> 00:04:28.980 
+server there's a option also
+to<00:04:25.830> put<00:04:26.830> server<00:04:27.160> options<00:04:27.670> on<00:04:27.820> here<00:04:28.060> and<00:04:28.180> the
+
+00:04:28.980 --> 00:04:28.990 
+to put server options on here and the
+
+00:04:28.990 --> 00:04:30.870 
+to put server options on here and the
+difference<00:04:29.320> between<00:04:29.380> the<00:04:29.830> server<00:04:30.250> options
+
+00:04:30.870 --> 00:04:30.880 
+difference between the server options
+
+00:04:30.880 --> 00:04:33.120 
+difference between the server options
+and<00:04:31.120> the<00:04:31.330> scope<00:04:31.510> options<00:04:31.780> is<00:04:32.170> these<00:04:32.500> options
+
+00:04:33.120 --> 00:04:33.130 
+and the scope options is these options
+
+00:04:33.130 --> 00:04:36.260 
+and the scope options is these options
+only<00:04:33.310> apply<00:04:33.760> to<00:04:34.150> this<00:04:34.390> range<00:04:35.050> of<00:04:35.410> IP<00:04:35.620> addresses
+
+00:04:36.260 --> 00:04:36.270 
+only apply to this range of IP addresses
+
+00:04:36.270 --> 00:04:41.100 
+only apply to this range of IP addresses
+server<00:04:37.270> options<00:04:37.750> will<00:04:37.930> affect<00:04:38.290> every<00:04:40.110> DHCP
+
+00:04:41.100 --> 00:04:41.110 
+server options will affect every DHCP
+
+00:04:41.110 --> 00:04:43.590 
+server options will affect every DHCP
+scope<00:04:41.440> that<00:04:41.740> I'm<00:04:41.860> running<00:04:42.220> on<00:04:42.340> this<00:04:43.270> server
+
+00:04:43.590 --> 00:04:43.600 
+scope that I'm running on this server
+
+00:04:43.600 --> 00:04:46.620 
+scope that I'm running on this server
+and<00:04:43.810> it's<00:04:44.200> the<00:04:44.290> same<00:04:44.470> options<00:04:45.150> except<00:04:46.150> down
+
+00:04:46.620 --> 00:04:46.630 
+and it's the same options except down
+
+00:04:46.630 --> 00:04:51.690 
+and it's the same options except down
+here<00:04:46.900> it<00:04:47.080> affects<00:04:47.520> all<00:04:48.520> of<00:04:49.300> the<00:04:50.370> all<00:04:51.370> of<00:04:51.430> the
+
+00:04:51.690 --> 00:04:51.700 
+here it affects all of the all of the
+
+00:04:51.700 --> 00:04:54.120 
+here it affects all of the all of the
+scopes<00:04:52.000> and<00:04:52.270> then<00:04:52.870> this<00:04:53.110> one<00:04:53.380> just<00:04:53.770> affects
+
+00:04:54.120 --> 00:04:54.130 
+scopes and then this one just affects
+
+00:04:54.130 --> 00:04:57.720 
+scopes and then this one just affects
+this<00:04:54.520> scope<00:04:55.590> so<00:04:56.590> that's<00:04:56.740> how<00:04:56.860> you<00:04:56.920> create<00:04:57.070> DHCP
+
+00:04:57.720 --> 00:04:57.730 
+this scope so that's how you create DHCP
+
+00:04:57.730 --> 00:04:59.310 
+this scope so that's how you create DHCP
+scope<00:04:58.030> options<00:04:58.270> they're<00:04:58.690> very<00:04:58.930> important
+
+00:04:59.310 --> 00:04:59.320 
+scope options they're very important
+
+00:04:59.320 --> 00:05:00.990 
+scope options they're very important
+when<00:04:59.500> you<00:04:59.590> build<00:04:59.770> a<00:04:59.830> DHCP<00:05:00.370> server<00:05:00.400> because
+
+00:05:00.990 --> 00:05:01.000 
+when you build a DHCP server because
+
+00:05:01.000 --> 00:05:02.580 
+when you build a DHCP server because
+people<00:05:01.270> need<00:05:01.420> to<00:05:01.480> know<00:05:01.570> where<00:05:01.870> things<00:05:02.260> like<00:05:02.470> to
+
+00:05:02.580 --> 00:05:02.590 
+people need to know where things like to
+
+00:05:02.590 --> 00:05:04.470 
+people need to know where things like to
+default<00:05:02.890> gateway<00:05:03.250> and<00:05:03.280> the<00:05:03.610> DNS<00:05:03.940> servers<00:05:04.300> are
+
+00:05:04.470 --> 00:05:04.480 
+default gateway and the DNS servers are
+
+00:05:04.480 --> 00:05:06.930 
+default gateway and the DNS servers are
+so<00:05:05.460> hopefully<00:05:06.460> you've<00:05:06.640> learned<00:05:06.670> something
+
+00:05:06.930 --> 00:05:06.940 
+so hopefully you've learned something
+
+00:05:06.940 --> 00:05:08.790 
+so hopefully you've learned something
+for<00:05:07.360> this<00:05:07.480> and<00:05:07.810> you'll<00:05:08.170> get<00:05:08.290> to<00:05:08.380> play<00:05:08.560> more
+
+00:05:08.790 --> 00:05:08.800 
+for this and you'll get to play more
+
+00:05:08.800 --> 00:05:11.160 
+for this and you'll get to play more
+with<00:05:09.070> a<00:05:09.100> hope<00:05:09.490> cancel<00:05:10.420> that<00:05:10.540> you'll<00:05:11.020> wait<00:05:11.080> to
+
+00:05:11.160 --> 00:05:11.170 
+with a hope cancel that you'll wait to
+
+00:05:11.170 --> 00:05:13.050 
+with a hope cancel that you'll wait to
+play<00:05:11.320> with<00:05:11.440> the<00:05:11.590> server<00:05:11.920> more<00:05:12.220> for<00:05:12.430> it<00:05:12.520> thank
+
+00:05:13.050 --> 00:05:13.060 
+play with the server more for it thank
+
+00:05:13.060 --> 00:05:15.570 
+play with the server more for it thank
+you<00:05:13.120> for<00:05:13.270> watching
+

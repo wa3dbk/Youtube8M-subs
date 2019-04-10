@@ -1,0 +1,538 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.460 --> 00:00:06.190 
+
+Microsoft<00:00:04.460> Access<00:00:04.700> is<00:00:05.150> a<00:00:05.540> relational
+
+00:00:06.190 --> 00:00:06.200 
+Microsoft Access is a relational
+
+00:00:06.200 --> 00:00:09.040 
+Microsoft Access is a relational
+database<00:00:06.710> which<00:00:07.430> is<00:00:07.640> very<00:00:07.850> powerful<00:00:08.240> and<00:00:08.900> in
+
+00:00:09.040 --> 00:00:09.050 
+database which is very powerful and in
+
+00:00:09.050 --> 00:00:11.770 
+database which is very powerful and in
+order<00:00:09.320> to<00:00:09.380> demonstrate<00:00:10.100> that<00:00:10.450> I'll<00:00:11.450> be<00:00:11.630> doing
+
+00:00:11.770 --> 00:00:11.780 
+order to demonstrate that I'll be doing
+
+00:00:11.780 --> 00:00:14.950 
+order to demonstrate that I'll be doing
+an<00:00:11.960> example<00:00:12.500> where<00:00:12.710> we<00:00:12.799> have<00:00:13.009> a<00:00:13.960> client's
+
+00:00:14.950 --> 00:00:14.960 
+an example where we have a client's
+
+00:00:14.960 --> 00:00:20.050 
+an example where we have a client's
+table<00:00:15.410> and<00:00:15.889> also<00:00:16.730> an<00:00:17.859> orders<00:00:18.859> table<00:00:19.160> so<00:00:19.730> first
+
+00:00:20.050 --> 00:00:20.060 
+table and also an orders table so first
+
+00:00:20.060 --> 00:00:23.470 
+table and also an orders table so first
+of<00:00:20.210> all<00:00:20.300> I'm<00:00:20.779> going<00:00:20.990> to<00:00:21.080> create<00:00:22.180> the<00:00:23.180> orders
+
+00:00:23.470 --> 00:00:23.480 
+of all I'm going to create the orders
+
+00:00:23.480 --> 00:00:24.939 
+of all I'm going to create the orders
+table<00:00:23.689> I'm<00:00:23.990> going<00:00:24.140> to<00:00:24.230> go<00:00:24.320> straight<00:00:24.470> to<00:00:24.590> table
+
+00:00:24.939 --> 00:00:24.949 
+table I'm going to go straight to table
+
+00:00:24.949 --> 00:00:33.010 
+table I'm going to go straight to table
+design<00:00:26.529> and<00:00:30.369> for<00:00:31.369> each<00:00:31.490> order<00:00:31.849> we<00:00:32.750> need<00:00:32.900> two
+
+00:00:33.010 --> 00:00:33.020 
+design and for each order we need two
+
+00:00:33.020 --> 00:00:37.330 
+design and for each order we need two
+unique<00:00:33.350> uniquely<00:00:34.280> identify<00:00:35.140> that<00:00:36.140> record<00:00:36.620> so
+
+00:00:37.330 --> 00:00:37.340 
+unique uniquely identify that record so
+
+00:00:37.340 --> 00:00:38.650 
+unique uniquely identify that record so
+we're<00:00:37.430> going<00:00:37.520> to<00:00:37.579> create<00:00:37.700> a<00:00:37.850> field<00:00:38.149> called
+
+00:00:38.650 --> 00:00:38.660 
+we're going to create a field called
+
+00:00:38.660 --> 00:00:43.990 
+we're going to create a field called
+order<00:00:39.530> ID<00:00:40.300> and<00:00:41.300> we're<00:00:41.420> going<00:00:41.570> to<00:00:41.629> make<00:00:41.750> sure<00:00:43.000> it
+
+00:00:43.990 --> 00:00:44.000 
+order ID and we're going to make sure it
+
+00:00:44.000 --> 00:00:46.420 
+order ID and we're going to make sure it
+has<00:00:44.239> a<00:00:44.270> data<00:00:44.629> type<00:00:44.870> of<00:00:44.930> auto<00:00:45.200> number<00:00:45.739> which
+
+00:00:46.420 --> 00:00:46.430 
+has a data type of auto number which
+
+00:00:46.430 --> 00:00:48.880 
+has a data type of auto number which
+means<00:00:46.789> it<00:00:47.090> will<00:00:47.239> always<00:00:47.570> have<00:00:48.500> a<00:00:48.530> unique
+
+00:00:48.880 --> 00:00:48.890 
+means it will always have a unique
+
+00:00:48.890 --> 00:00:52.540 
+means it will always have a unique
+number<00:00:50.530> and<00:00:51.530> we're<00:00:51.620> also<00:00:51.739> going<00:00:52.010> to<00:00:52.100> add<00:00:52.309> a
+
+00:00:52.540 --> 00:00:52.550 
+number and we're also going to add a
+
+00:00:52.550 --> 00:00:58.540 
+number and we're also going to add a
+primary<00:00:53.030> key<00:00:53.329> a<00:00:56.530> primary<00:00:57.530> key<00:00:58.129> is<00:00:58.250> something
+
+00:00:58.540 --> 00:00:58.550 
+primary key a primary key is something
+
+00:00:58.550 --> 00:01:00.580 
+primary key a primary key is something
+that<00:00:58.699> uniquely<00:00:59.059> identifies<00:00:59.750> each<00:00:59.989> record<00:01:00.260> in
+
+00:01:00.580 --> 00:01:00.590 
+that uniquely identifies each record in
+
+00:01:00.590 --> 00:01:02.889 
+that uniquely identifies each record in
+the<00:01:00.680> table<00:01:00.859> it<00:01:01.430> makes<00:01:01.640> sure<00:01:01.730> it<00:01:02.600> makes<00:01:02.809> sure
+
+00:01:02.889 --> 00:01:02.899 
+the table it makes sure it makes sure
+
+00:01:02.899 --> 00:01:09.160 
+the table it makes sure it makes sure
+there<00:01:03.260> can't<00:01:03.890> be<00:01:03.949> any<00:01:04.100> duplicates<00:01:04.699> so<00:01:08.170> the
+
+00:01:09.160 --> 00:01:09.170 
+there can't be any duplicates so the
+
+00:01:09.170 --> 00:01:12.780 
+there can't be any duplicates so the
+next<00:01:09.440> field<00:01:09.680> we're<00:01:09.980> going<00:01:10.010> to<00:01:10.130> have<00:01:10.310> is<00:01:10.490> item
+
+00:01:12.780 --> 00:01:12.790 
+next field we're going to have is item
+
+00:01:12.790 --> 00:01:16.050 
+next field we're going to have is item
+which<00:01:13.790> is<00:01:13.940> the<00:01:14.030> item<00:01:14.300> the<00:01:14.420> person<00:01:14.750> ordered
+
+00:01:16.050 --> 00:01:16.060 
+which is the item the person ordered
+
+00:01:16.060 --> 00:01:22.660 
+which is the item the person ordered
+we're<00:01:17.060> gonna<00:01:17.180> have<00:01:17.300> the<00:01:17.450> dates<00:01:20.770> actually<00:01:21.770> we
+
+00:01:22.660 --> 00:01:22.670 
+we're gonna have the dates actually we
+
+00:01:22.670 --> 00:01:24.880 
+we're gonna have the dates actually we
+can't<00:01:22.880> use<00:01:23.060> the<00:01:23.210> term<00:01:23.420> date<00:01:23.810> because<00:01:24.470> it's<00:01:24.680> a
+
+00:01:24.880 --> 00:01:24.890 
+can't use the term date because it's a
+
+00:01:24.890 --> 00:01:29.250 
+can't use the term date because it's a
+restricted<00:01:25.790> word<00:01:26.380> instead<00:01:27.380> we'll<00:01:27.680> call<00:01:28.010> this
+
+00:01:29.250 --> 00:01:29.260 
+restricted word instead we'll call this
+
+00:01:29.260 --> 00:01:34.860 
+restricted word instead we'll call this
+date<00:01:30.260> of<00:01:31.480> order
+
+00:01:34.860 --> 00:01:34.870 
+
+00:01:34.870 --> 00:01:41.890 
+
+and<00:01:37.000> I'm<00:01:38.000> gonna<00:01:38.330> choose<00:01:38.600> date<00:01:38.900> time<00:01:39.170> and<00:01:40.900> then
+
+00:01:41.890 --> 00:01:41.900 
+and I'm gonna choose date time and then
+
+00:01:41.900 --> 00:01:49.350 
+and I'm gonna choose date time and then
+we'll<00:01:41.960> have<00:01:42.140> amount<00:01:42.560> and<00:01:43.990> choose<00:01:44.990> currency<00:01:47.470> so
+
+00:01:49.350 --> 00:01:49.360 
+we'll have amount and choose currency so
+
+00:01:49.360 --> 00:01:54.010 
+we'll have amount and choose currency so
+this<00:01:50.800> order's<00:01:51.800> table<00:01:52.480> we're<00:01:53.480> going<00:01:53.660> to<00:01:53.780> save
+
+00:01:54.010 --> 00:01:54.020 
+this order's table we're going to save
+
+00:01:54.020 --> 00:01:57.760 
+this order's table we're going to save
+now<00:01:54.460> so<00:01:55.460> I'm<00:01:55.550> going<00:01:55.760> to<00:01:55.820> close<00:01:56.300> it<00:01:56.480> down<00:01:56.770> save
+
+00:01:57.760 --> 00:01:57.770 
+now so I'm going to close it down save
+
+00:01:57.770 --> 00:02:06.870 
+now so I'm going to close it down save
+the<00:01:57.950> changes<00:01:58.930> and<00:01:59.930> I'll<00:02:00.020> call<00:02:00.140> it<00:02:00.290> TBL<00:02:00.740> orders
+
+00:02:06.870 --> 00:02:06.880 
+
+00:02:06.880 --> 00:02:10.090 
+
+now<00:02:07.880> I'm<00:02:08.030> going<00:02:08.270> to<00:02:08.420> reopen<00:02:08.899> that<00:02:09.110> go<00:02:10.040> to
+
+00:02:10.090 --> 00:02:10.100 
+now I'm going to reopen that go to
+
+00:02:10.100 --> 00:02:13.630 
+now I'm going to reopen that go to
+design<00:02:10.520> view<00:02:10.760> and<00:02:11.980> I'm<00:02:12.980> also<00:02:13.100> going<00:02:13.430> to<00:02:13.520> open
+
+00:02:13.630 --> 00:02:13.640 
+design view and I'm also going to open
+
+00:02:13.640 --> 00:02:17.920 
+design view and I'm also going to open
+up<00:02:14.000> the<00:02:14.440> clients<00:02:15.440> table<00:02:15.890> in<00:02:16.070> design<00:02:16.280> view<00:02:16.930> now
+
+00:02:17.920 --> 00:02:17.930 
+up the clients table in design view now
+
+00:02:17.930 --> 00:02:22.180 
+up the clients table in design view now
+somehow<00:02:18.430> we<00:02:19.430> need<00:02:19.580> to<00:02:19.730> identify<00:02:20.440> if<00:02:21.440> we<00:02:22.010> have<00:02:22.160> a
+
+00:02:22.180 --> 00:02:22.190 
+somehow we need to identify if we have a
+
+00:02:22.190 --> 00:02:28.360 
+somehow we need to identify if we have a
+record<00:02:22.580> in<00:02:22.760> here<00:02:24.459> which<00:02:26.050> order<00:02:27.050> is<00:02:27.340> related<00:02:28.340> to
+
+00:02:28.360 --> 00:02:28.370 
+record in here which order is related to
+
+00:02:28.370 --> 00:02:29.530 
+record in here which order is related to
+which<00:02:28.790> client
+
+00:02:29.530 --> 00:02:29.540 
+which client
+
+00:02:29.540 --> 00:02:34.810 
+which client
+now<00:02:30.260> since<00:02:30.700> the<00:02:31.700> clients<00:02:32.450> are<00:02:33.610> identified<00:02:34.610> by
+
+00:02:34.810 --> 00:02:34.820 
+now since the clients are identified by
+
+00:02:34.820 --> 00:02:38.650 
+now since the clients are identified by
+the<00:02:34.880> client<00:02:35.300> ID<00:02:36.340> we<00:02:37.340> also<00:02:37.640> need<00:02:38.300> to<00:02:38.450> have<00:02:38.600> a
+
+00:02:38.650 --> 00:02:38.660 
+the client ID we also need to have a
+
+00:02:38.660 --> 00:02:43.509 
+the client ID we also need to have a
+client<00:02:39.170> ID<00:02:39.350> field<00:02:40.340> over<00:02:40.700> here<00:02:41.769> so<00:02:42.769> let<00:02:43.220> me<00:02:43.250> type
+
+00:02:43.509 --> 00:02:43.519 
+client ID field over here so let me type
+
+00:02:43.519 --> 00:02:48.699 
+client ID field over here so let me type
+in<00:02:43.750> client<00:02:44.750> ID<00:02:45.430> tab<00:02:46.430> across<00:02:47.200> now<00:02:48.200> the<00:02:48.500> data
+
+00:02:48.699 --> 00:02:48.709 
+in client ID tab across now the data
+
+00:02:48.709 --> 00:02:52.900 
+in client ID tab across now the data
+type<00:02:49.070> needs<00:02:49.489> to<00:02:49.730> be<00:02:49.880> a<00:02:50.290> number<00:02:51.290> field<00:02:51.910> the
+
+00:02:52.900 --> 00:02:52.910 
+type needs to be a number field the
+
+00:02:52.910 --> 00:02:55.050 
+type needs to be a number field the
+reason<00:02:53.209> it<00:02:53.300> has<00:02:53.480> to<00:02:53.510> be<00:02:53.750> a<00:02:53.780> number<00:02:53.959> field<00:02:54.380> is
+
+00:02:55.050 --> 00:02:55.060 
+reason it has to be a number field is
+
+00:02:55.060 --> 00:02:58.870 
+reason it has to be a number field is
+that<00:02:56.060> if<00:02:56.840> we<00:02:57.410> look<00:02:57.560> at<00:02:57.650> the<00:02:57.739> client<00:02:58.100> ID<00:02:58.280> let's
+
+00:02:58.870 --> 00:02:58.880 
+that if we look at the client ID let's
+
+00:02:58.880 --> 00:03:04.289 
+that if we look at the client ID let's
+go<00:02:59.090> to<00:02:59.150> table<00:03:00.110> view<00:03:02.440> you<00:03:03.440> can<00:03:03.620> see<00:03:03.830> that<00:03:04.040> each
+
+00:03:04.289 --> 00:03:04.299 
+go to table view you can see that each
+
+00:03:04.299 --> 00:03:09.090 
+go to table view you can see that each
+record<00:03:05.739> is<00:03:06.739> identified<00:03:07.430> by<00:03:07.700> a<00:03:08.180> unique<00:03:08.600> number
+
+00:03:09.090 --> 00:03:09.100 
+record is identified by a unique number
+
+00:03:09.100 --> 00:03:12.900 
+record is identified by a unique number
+now<00:03:10.100> we<00:03:10.160> can<00:03:10.580> see<00:03:10.850> if<00:03:11.780> we<00:03:11.900> go<00:03:11.930> to<00:03:12.080> design<00:03:12.440> view
+
+00:03:12.900 --> 00:03:12.910 
+now we can see if we go to design view
+
+00:03:12.910 --> 00:03:16.690 
+now we can see if we go to design view
+it's<00:03:13.910> an<00:03:14.090> auto<00:03:14.269> number<00:03:14.780> so<00:03:15.680> automatically<00:03:16.489> get
+
+00:03:16.690 --> 00:03:16.700 
+it's an auto number so automatically get
+
+00:03:16.700 --> 00:03:18.009 
+it's an auto number so automatically get
+assigned<00:03:16.820> a<00:03:17.209> number<00:03:17.330> but<00:03:17.600> it's<00:03:17.750> still<00:03:17.959> a
+
+00:03:18.009 --> 00:03:18.019 
+assigned a number but it's still a
+
+00:03:18.019 --> 00:03:22.479 
+assigned a number but it's still a
+number<00:03:18.290> so<00:03:19.190> when<00:03:19.400> we<00:03:19.519> go<00:03:19.640> to<00:03:19.670> the<00:03:20.140> orders<00:03:21.489> table
+
+00:03:22.479 --> 00:03:22.489 
+number so when we go to the orders table
+
+00:03:22.489 --> 00:03:26.089 
+number so when we go to the orders table
+we<00:03:23.239> need<00:03:23.390> to<00:03:23.450> put<00:03:23.630> number<00:03:23.959> there
+
+00:03:26.089 --> 00:03:26.099 
+we need to put number there
+
+00:03:26.099 --> 00:03:31.869 
+we need to put number there
+let's<00:03:26.939> close<00:03:27.180> these<00:03:27.420> down<00:03:28.549> save<00:03:29.549> the<00:03:29.700> changes
+
+00:03:31.869 --> 00:03:31.879 
+let's close these down save the changes
+
+00:03:31.879 --> 00:03:35.899 
+let's close these down save the changes
+and<00:03:32.879> now<00:03:34.040> we<00:03:35.040> need<00:03:35.219> to<00:03:35.249> create<00:03:35.579> the
+
+00:03:35.899 --> 00:03:35.909 
+and now we need to create the
+
+00:03:35.909 --> 00:03:39.220 
+and now we need to create the
+relationship<00:03:36.689> between<00:03:37.469> these<00:03:37.829> two<00:03:37.889> tables
+
+00:03:39.220 --> 00:03:39.230 
+relationship between these two tables
+
+00:03:39.230 --> 00:03:42.369 
+relationship between these two tables
+the<00:03:40.230> way<00:03:40.349> you<00:03:40.409> do<00:03:40.650> that<00:03:40.859> is<00:03:41.099> by<00:03:41.340> going<00:03:41.609> to
+
+00:03:42.369 --> 00:03:42.379 
+the way you do that is by going to
+
+00:03:42.379 --> 00:03:46.209 
+the way you do that is by going to
+database<00:03:43.379> tools<00:03:43.680> up<00:03:43.920> here<00:03:44.060> and<00:03:45.139> click
+
+00:03:46.209 --> 00:03:46.219 
+database tools up here and click
+
+00:03:46.219 --> 00:03:51.440 
+database tools up here and click
+relationships<00:03:49.219> we<00:03:50.219> have<00:03:50.340> two<00:03:50.519> tables<00:03:51.000> and<00:03:51.359> we
+
+00:03:51.440 --> 00:03:51.450 
+relationships we have two tables and we
+
+00:03:51.450 --> 00:03:55.699 
+relationships we have two tables and we
+also<00:03:51.599> have<00:03:51.810> both<00:03:52.019> of<00:03:52.049> them<00:03:52.349> so<00:03:52.980> click<00:03:53.219> add<00:03:54.709> an
+
+00:03:55.699 --> 00:03:55.709 
+also have both of them so click add an
+
+00:03:55.709 --> 00:04:00.500 
+also have both of them so click add an
+add<00:03:56.299> click<00:03:57.299> close<00:03:58.790> now<00:03:59.790> we<00:03:59.849> can<00:04:00.060> see<00:04:00.209> all<00:04:00.359> the
+
+00:04:00.500 --> 00:04:00.510 
+add click close now we can see all the
+
+00:04:00.510 --> 00:04:06.259 
+add click close now we can see all the
+fields<00:04:00.930> both<00:04:01.680> tables<00:04:03.500> now<00:04:04.500> because<00:04:05.269> one
+
+00:04:06.259 --> 00:04:06.269 
+fields both tables now because one
+
+00:04:06.269 --> 00:04:10.789 
+fields both tables now because one
+client<00:04:06.750> can<00:04:07.739> have<00:04:08.010> many<00:04:08.430> orders<00:04:09.620> we're<00:04:10.620> going
+
+00:04:10.789 --> 00:04:10.799 
+client can have many orders we're going
+
+00:04:10.799 --> 00:04:12.970 
+client can have many orders we're going
+to<00:04:10.949> create<00:04:11.189> what<00:04:11.370> they<00:04:11.400> call<00:04:11.519> a<00:04:11.819> one-to-many
+
+00:04:12.970 --> 00:04:12.980 
+to create what they call a one-to-many
+
+00:04:12.980 --> 00:04:16.460 
+to create what they call a one-to-many
+relationship<00:04:14.419> between<00:04:15.419> these<00:04:15.780> two<00:04:15.989> tables
+
+00:04:16.460 --> 00:04:16.470 
+relationship between these two tables
+
+00:04:16.470 --> 00:04:19.039 
+relationship between these two tables
+and<00:04:17.039> this<00:04:17.160> is<00:04:17.340> how<00:04:17.489> you<00:04:17.549> do<00:04:17.789> it<00:04:17.820> you<00:04:18.660> go<00:04:18.810> to<00:04:18.870> the
+
+00:04:19.039 --> 00:04:19.049 
+and this is how you do it you go to the
+
+00:04:19.049 --> 00:04:22.490 
+and this is how you do it you go to the
+primary<00:04:19.500> key<00:04:19.709> of<00:04:19.919> the<00:04:20.459> first<00:04:20.699> table<00:04:21.410> hold<00:04:22.410> the
+
+00:04:22.490 --> 00:04:22.500 
+primary key of the first table hold the
+
+00:04:22.500 --> 00:04:24.640 
+primary key of the first table hold the
+left<00:04:22.650> mouse<00:04:22.830> button<00:04:22.860> down<00:04:23.280> and<00:04:23.490> drag<00:04:23.550> and<00:04:23.880> drop
+
+00:04:24.640 --> 00:04:24.650 
+left mouse button down and drag and drop
+
+00:04:24.650 --> 00:04:30.230 
+left mouse button down and drag and drop
+onto<00:04:27.289> the<00:04:28.289> same<00:04:28.860> field<00:04:29.340> on<00:04:29.639> the<00:04:29.759> orders<00:04:30.090> table
+
+00:04:30.230 --> 00:04:30.240 
+onto the same field on the orders table
+
+00:04:30.240 --> 00:04:34.249 
+onto the same field on the orders table
+and<00:04:30.630> let<00:04:30.870> go<00:04:32.030> and<00:04:33.030> it's<00:04:33.270> saying<00:04:33.930> we're<00:04:34.139> going
+
+00:04:34.249 --> 00:04:34.259 
+and let go and it's saying we're going
+
+00:04:34.259 --> 00:04:38.570 
+and let go and it's saying we're going
+to<00:04:34.349> create<00:04:34.620> a<00:04:34.680> relationship<00:04:35.370> here<00:04:37.580> without
+
+00:04:38.570 --> 00:04:38.580 
+to create a relationship here without
+
+00:04:38.580 --> 00:04:41.180 
+to create a relationship here without
+going<00:04:38.940> into<00:04:39.060> detail<00:04:39.539> here<00:04:39.930> I<00:04:40.050> recommend<00:04:40.830> you
+
+00:04:41.180 --> 00:04:41.190 
+going into detail here I recommend you
+
+00:04:41.190 --> 00:04:44.330 
+going into detail here I recommend you
+enforce<00:04:41.550> referential<00:04:41.789> integrity<00:04:42.240> just<00:04:43.310> put<00:04:44.310> a
+
+00:04:44.330 --> 00:04:44.340 
+enforce referential integrity just put a
+
+00:04:44.340 --> 00:04:48.279 
+enforce referential integrity just put a
+tick<00:04:44.610> in<00:04:44.639> the<00:04:44.759> box<00:04:45.030> and<00:04:45.680> tick<00:04:46.680> these<00:04:46.889> two<00:04:47.220> items
+
+00:04:48.279 --> 00:04:48.289 
+tick in the box and tick these two items
+
+00:04:48.289 --> 00:04:51.920 
+tick in the box and tick these two items
+we<00:04:49.289> can<00:04:49.320> cover<00:04:49.590> these<00:04:49.800> later<00:04:50.250> day<00:04:50.930> click
+
+00:04:51.920 --> 00:04:51.930 
+we can cover these later day click
+
+00:04:51.930 --> 00:04:55.730 
+we can cover these later day click
+create<00:04:52.729> and<00:04:53.729> now<00:04:53.849> you<00:04:53.909> can<00:04:54.090> see<00:04:54.470> we<00:04:55.470> even<00:04:55.590> have
+
+00:04:55.730 --> 00:04:55.740 
+create and now you can see we even have
+
+00:04:55.740 --> 00:05:00.860 
+create and now you can see we even have
+a<00:04:55.770> marker<00:04:56.190> here<00:04:56.370> saying<00:04:58.190> one<00:04:59.190> client<00:04:59.840> can<00:05:00.840> have
+
+00:05:00.860 --> 00:05:00.870 
+a marker here saying one client can have
+
+00:05:00.870 --> 00:05:05.529 
+a marker here saying one client can have
+many<00:05:01.560> waters<00:05:02.280> with<00:05:03.060> infinity<00:05:03.659> symbol<00:05:03.990> there
+
+00:05:05.529 --> 00:05:05.539 
+many waters with infinity symbol there
+
+00:05:05.539 --> 00:05:08.480 
+many waters with infinity symbol there
+so
+
+00:05:08.480 --> 00:05:08.490 
+so
+
+00:05:08.490 --> 00:05:15.890 
+so
+let's<00:05:09.490> close<00:05:09.730> this<00:05:09.910> down<00:05:13.260> save<00:05:14.260> the<00:05:14.440> changes
+
+00:05:15.890 --> 00:05:15.900 
+let's close this down save the changes
+
+00:05:15.900 --> 00:05:21.510 
+let's close this down save the changes
+and<00:05:17.010> these<00:05:18.010> two<00:05:18.250> tables<00:05:18.490> are<00:05:18.850> now<00:05:19.000> related
+

@@ -1,0 +1,1387 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.030 --> 00:00:03.210 
+
+in<00:00:01.690> this<00:00:01.930> lesson<00:00:02.170> we're<00:00:02.500> going<00:00:02.650> to<00:00:02.860> cover<00:00:03.070> some
+
+00:00:03.210 --> 00:00:03.220 
+in this lesson we're going to cover some
+
+00:00:03.220 --> 00:00:04.800 
+in this lesson we're going to cover some
+of<00:00:03.399> the<00:00:03.520> basic<00:00:04.000> post<00:00:04.359> installation
+
+00:00:04.800 --> 00:00:04.810 
+of the basic post installation
+
+00:00:04.810 --> 00:00:07.230 
+of the basic post installation
+configuration<00:00:05.319> steps<00:00:06.220> we<00:00:06.609> would<00:00:06.700> perform<00:00:07.120> on
+
+00:00:07.230 --> 00:00:07.240 
+configuration steps we would perform on
+
+00:00:07.240 --> 00:00:09.570 
+configuration steps we would perform on
+the<00:00:07.359> new<00:00:07.509> Windows<00:00:07.930> Server<00:00:08.290> 2012<00:00:08.650> installation
+
+00:00:09.570 --> 00:00:09.580 
+the new Windows Server 2012 installation
+
+00:00:09.580 --> 00:00:12.270 
+the new Windows Server 2012 installation
+in<00:00:09.760> this<00:00:10.630> example<00:00:11.050> I'm<00:00:11.530> going<00:00:11.769> to<00:00:11.830> use<00:00:12.070> the
+
+00:00:12.270 --> 00:00:12.280 
+in this example I'm going to use the
+
+00:00:12.280 --> 00:00:14.520 
+in this example I'm going to use the
+local<00:00:12.730> graphical<00:00:13.150> interface<00:00:13.690> to<00:00:14.139> configure
+
+00:00:14.520 --> 00:00:14.530 
+local graphical interface to configure
+
+00:00:14.530 --> 00:00:16.170 
+local graphical interface to configure
+this<00:00:14.650> server<00:00:14.950> and<00:00:15.490> of<00:00:15.610> course<00:00:15.790> we<00:00:16.000> could
+
+00:00:16.170 --> 00:00:16.180 
+this server and of course we could
+
+00:00:16.180 --> 00:00:17.849 
+this server and of course we could
+remove<00:00:16.509> that<00:00:16.570> graphical<00:00:17.230> interface<00:00:17.590> at<00:00:17.830> a
+
+00:00:17.849 --> 00:00:17.859 
+remove that graphical interface at a
+
+00:00:17.859 --> 00:00:18.689 
+remove that graphical interface at a
+later<00:00:18.100> time
+
+00:00:18.689 --> 00:00:18.699 
+later time
+
+00:00:18.699 --> 00:00:20.310 
+later time
+I'd<00:00:19.210> also<00:00:19.390> show<00:00:19.779> you<00:00:19.840> some<00:00:19.960> of<00:00:20.260> the
+
+00:00:20.310 --> 00:00:20.320 
+I'd also show you some of the
+
+00:00:20.320 --> 00:00:22.019 
+I'd also show you some of the
+command-line<00:00:20.830> options<00:00:21.369> for<00:00:21.640> some<00:00:21.820> of<00:00:21.939> the
+
+00:00:22.019 --> 00:00:22.029 
+command-line options for some of the
+
+00:00:22.029 --> 00:00:24.660 
+command-line options for some of the
+items<00:00:22.560> remembering<00:00:23.560> that<00:00:23.890> we<00:00:24.010> do<00:00:24.160> have<00:00:24.369> the<00:00:24.490> s
+
+00:00:24.660 --> 00:00:24.670 
+items remembering that we do have the s
+
+00:00:24.670 --> 00:00:27.420 
+items remembering that we do have the s
+config<00:00:25.330> command<00:00:25.359> if<00:00:25.930> we<00:00:26.350> have<00:00:26.590> a<00:00:26.830> server<00:00:27.099> core
+
+00:00:27.420 --> 00:00:27.430 
+config command if we have a server core
+
+00:00:27.430 --> 00:00:30.000 
+config command if we have a server core
+installation<00:00:28.119> so<00:00:29.050> my<00:00:29.140> first<00:00:29.380> action<00:00:29.800> is<00:00:29.980> to
+
+00:00:30.000 --> 00:00:30.010 
+installation so my first action is to
+
+00:00:30.010 --> 00:00:32.700 
+installation so my first action is to
+log<00:00:30.220> on<00:00:30.429> using<00:00:31.330> the<00:00:31.420> password<00:00:31.630> I<00:00:32.080> configured
+
+00:00:32.700 --> 00:00:32.710 
+log on using the password I configured
+
+00:00:32.710 --> 00:00:34.200 
+log on using the password I configured
+during<00:00:33.160> that<00:00:33.309> final<00:00:33.579> phase<00:00:33.940> of<00:00:34.090> the
+
+00:00:34.200 --> 00:00:34.210 
+during that final phase of the
+
+00:00:34.210 --> 00:00:36.420 
+during that final phase of the
+installation<00:00:34.920> server<00:00:35.920> manager<00:00:36.309> will<00:00:36.340> then
+
+00:00:36.420 --> 00:00:36.430 
+installation server manager will then
+
+00:00:36.430 --> 00:00:38.639 
+installation server manager will then
+automatically<00:00:37.120> launch<00:00:37.420> and<00:00:38.079> you<00:00:38.140> will<00:00:38.260> notice
+
+00:00:38.639 --> 00:00:38.649 
+automatically launch and you will notice
+
+00:00:38.649 --> 00:00:40.380 
+automatically launch and you will notice
+that<00:00:38.920> I<00:00:39.100> actually<00:00:39.219> go<00:00:39.610> straight<00:00:39.670> into<00:00:40.180> the
+
+00:00:40.380 --> 00:00:40.390 
+that I actually go straight into the
+
+00:00:40.390 --> 00:00:43.020 
+that I actually go straight into the
+desktop<00:00:40.809> where<00:00:41.469> as<00:00:41.620> a<00:00:41.649> Windows<00:00:42.190> 8<00:00:42.399> machine<00:00:42.460> for
+
+00:00:43.020 --> 00:00:43.030 
+desktop where as a Windows 8 machine for
+
+00:00:43.030 --> 00:00:45.000 
+desktop where as a Windows 8 machine for
+example<00:00:43.570> goes<00:00:43.899> directly<00:00:44.350> into<00:00:44.530> the<00:00:44.710> Start
+
+00:00:45.000 --> 00:00:45.010 
+example goes directly into the Start
+
+00:00:45.010 --> 00:00:47.279 
+example goes directly into the Start
+menu<00:00:45.460> on<00:00:45.969> a<00:00:46.030> Windows<00:00:46.420> server<00:00:46.690> we<00:00:46.899> go<00:00:47.050> straight
+
+00:00:47.279 --> 00:00:47.289 
+menu on a Windows server we go straight
+
+00:00:47.289 --> 00:00:49.590 
+menu on a Windows server we go straight
+to<00:00:47.379> the<00:00:47.500> desktop<00:00:48.010> and<00:00:48.520> I<00:00:48.640> can<00:00:48.670> always<00:00:49.090> pin
+
+00:00:49.590 --> 00:00:49.600 
+to the desktop and I can always pin
+
+00:00:49.600 --> 00:00:52.380 
+to the desktop and I can always pin
+commonly<00:00:50.350> used<00:00:50.590> applications<00:00:51.340> to<00:00:51.789> my<00:00:51.940> taskbar
+
+00:00:52.380 --> 00:00:52.390 
+commonly used applications to my taskbar
+
+00:00:52.390 --> 00:00:55.229 
+commonly used applications to my taskbar
+for<00:00:53.199> example<00:00:53.620> if<00:00:53.949> I<00:00:54.039> find<00:00:54.309> I<00:00:54.430> often<00:00:54.699> run
+
+00:00:55.229 --> 00:00:55.239 
+for example if I find I often run
+
+00:00:55.239 --> 00:00:57.630 
+for example if I find I often run
+notepad<00:00:55.780> so<00:00:55.989> I<00:00:56.289> do<00:00:56.379> the<00:00:56.530> wind<00:00:56.710> key<00:00:56.920> +<00:00:57.160> R<00:00:57.460> to
+
+00:00:57.630 --> 00:00:57.640 
+notepad so I do the wind key + R to
+
+00:00:57.640 --> 00:00:59.580 
+notepad so I do the wind key + R to
+bring<00:00:57.820> up<00:00:57.910> the<00:00:58.030> run<00:00:58.180> dialog<00:00:58.570> and<00:00:58.780> type<00:00:59.410> in
+
+00:00:59.580 --> 00:00:59.590 
+bring up the run dialog and type in
+
+00:00:59.590 --> 00:01:02.400 
+bring up the run dialog and type in
+notepad<00:01:00.070> I<00:01:00.390> can<00:01:01.390> then<00:01:01.539> right-click<00:01:02.199> on<00:01:02.350> the
+
+00:01:02.400 --> 00:01:02.410 
+notepad I can then right-click on the
+
+00:01:02.410 --> 00:01:05.420 
+notepad I can then right-click on the
+icon<00:01:02.649> in<00:01:03.010> the<00:01:03.039> taskbar<00:01:03.489> and<00:01:03.820> pin<00:01:04.690> this<00:01:04.899> program
+
+00:01:05.420 --> 00:01:05.430 
+icon in the taskbar and pin this program
+
+00:01:05.430 --> 00:01:08.250 
+icon in the taskbar and pin this program
+now<00:01:06.430> it<00:01:06.909> will<00:01:07.000> just<00:01:07.180> always<00:01:07.420> be<00:01:07.689> easily
+
+00:01:08.250 --> 00:01:08.260 
+now it will just always be easily
+
+00:01:08.260 --> 00:01:11.190 
+now it will just always be easily
+available<00:01:08.530> to<00:01:08.799> me<00:01:09.210> initially<00:01:10.210> server<00:01:10.780> manager
+
+00:01:11.190 --> 00:01:11.200 
+available to me initially server manager
+
+00:01:11.200 --> 00:01:13.080 
+available to me initially server manager
+is<00:01:11.320> showing<00:01:11.590> me<00:01:11.770> the<00:01:11.799> overall<00:01:12.460> dashboard
+
+00:01:13.080 --> 00:01:13.090 
+is showing me the overall dashboard
+
+00:01:13.090 --> 00:01:15.390 
+is showing me the overall dashboard
+which<00:01:13.780> gives<00:01:13.960> me<00:01:14.080> basic<00:01:14.439> information<00:01:15.070> of<00:01:15.250> the
+
+00:01:15.390 --> 00:01:15.400 
+which gives me basic information of the
+
+00:01:15.400 --> 00:01:17.429 
+which gives me basic information of the
+services<00:01:15.970> and<00:01:16.240> the<00:01:16.450> health<00:01:16.689> of<00:01:16.869> this<00:01:17.110> server
+
+00:01:17.429 --> 00:01:17.439 
+services and the health of this server
+
+00:01:17.439 --> 00:01:19.560 
+services and the health of this server
+which<00:01:18.189> currently<00:01:18.520> does<00:01:18.670> not<00:01:18.700> have<00:01:19.090> any<00:01:19.299> roles
+
+00:01:19.560 --> 00:01:19.570 
+which currently does not have any roles
+
+00:01:19.570 --> 00:01:21.420 
+which currently does not have any roles
+or<00:01:19.750> features<00:01:19.900> installed<00:01:20.439> other<00:01:20.740> than<00:01:20.979> basic
+
+00:01:21.420 --> 00:01:21.430 
+or features installed other than basic
+
+00:01:21.430 --> 00:01:24.179 
+or features installed other than basic
+file<00:01:21.640> services<00:01:22.290> for<00:01:23.290> my<00:01:23.350> first<00:01:23.590> configuration
+
+00:01:24.179 --> 00:01:24.189 
+file services for my first configuration
+
+00:01:24.189 --> 00:01:26.789 
+file services for my first configuration
+I'm<00:01:24.670> going<00:01:24.880> to<00:01:24.939> use<00:01:25.060> local<00:01:25.570> server<00:01:25.930> now
+
+00:01:26.789 --> 00:01:26.799 
+I'm going to use local server now
+
+00:01:26.799 --> 00:01:29.039 
+I'm going to use local server now
+remember<00:01:27.280> by<00:01:27.549> default<00:01:28.119> and<00:01:28.330> you<00:01:28.360> can<00:01:28.689> see<00:01:28.900> this
+
+00:01:29.039 --> 00:01:29.049 
+remember by default and you can see this
+
+00:01:29.049 --> 00:01:31.950 
+remember by default and you can see this
+here<00:01:29.290> remote<00:01:29.770> management<00:01:30.159> was<00:01:30.579> enabled<00:01:31.180> so<00:01:31.869> if
+
+00:01:31.950 --> 00:01:31.960 
+here remote management was enabled so if
+
+00:01:31.960 --> 00:01:33.929 
+here remote management was enabled so if
+I<00:01:32.079> know<00:01:32.140> the<00:01:32.439> machine<00:01:32.829> name<00:01:33.340> or<00:01:33.640> the<00:01:33.909> IP
+
+00:01:33.929 --> 00:01:33.939 
+I know the machine name or the IP
+
+00:01:33.939 --> 00:01:36.270 
+I know the machine name or the IP
+address<00:01:34.540> of<00:01:34.570> this<00:01:34.810> machine<00:01:35.259> I<00:01:35.470> could<00:01:36.009> at<00:01:36.159> this
+
+00:01:36.270 --> 00:01:36.280 
+address of this machine I could at this
+
+00:01:36.280 --> 00:01:38.219 
+address of this machine I could at this
+point<00:01:36.430> remotely<00:01:37.240> manage<00:01:37.540> it<00:01:37.659> from<00:01:37.750> a<00:01:37.869> Windows
+
+00:01:38.219 --> 00:01:38.229 
+point remotely manage it from a Windows
+
+00:01:38.229 --> 00:01:40.350 
+point remotely manage it from a Windows
+8<00:01:38.470> machine<00:01:38.650> with<00:01:39.369> windows<00:01:39.759> server<00:01:40.000> 2012
+
+00:01:40.350 --> 00:01:40.360 
+8 machine with windows server 2012
+
+00:01:40.360 --> 00:01:41.819 
+8 machine with windows server 2012
+remote<00:01:40.780> server<00:01:41.020> administration<00:01:41.110> tools
+
+00:01:41.819 --> 00:01:41.829 
+remote server administration tools
+
+00:01:41.829 --> 00:01:44.100 
+remote server administration tools
+installed<00:01:42.220> or<00:01:42.700> another<00:01:43.150> Windows<00:01:43.479> Server<00:01:43.720> 2012
+
+00:01:44.100 --> 00:01:44.110 
+installed or another Windows Server 2012
+
+00:01:44.110 --> 00:01:47.700 
+installed or another Windows Server 2012
+box<00:01:44.640> this<00:01:45.640> local<00:01:46.180> service<00:01:46.720> screen<00:01:47.110> I<00:01:47.229> see<00:01:47.259> here
+
+00:01:47.700 --> 00:01:47.710 
+box this local service screen I see here
+
+00:01:47.710 --> 00:01:49.830 
+box this local service screen I see here
+is<00:01:47.860> not<00:01:48.130> available<00:01:48.729> remotely<00:01:49.000> though<00:01:49.329> I<00:01:49.540> don't
+
+00:01:49.830 --> 00:01:49.840 
+is not available remotely though I don't
+
+00:01:49.840 --> 00:01:51.749 
+is not available remotely though I don't
+get<00:01:50.140> an<00:01:50.259> equivalent<00:01:50.860> of<00:01:50.979> this<00:01:51.130> for<00:01:51.490> remote
+
+00:01:51.749 --> 00:01:51.759 
+get an equivalent of this for remote
+
+00:01:51.759 --> 00:01:54.240 
+get an equivalent of this for remote
+boxes<00:01:52.329> so<00:01:52.990> in<00:01:53.110> many<00:01:53.259> ways<00:01:53.380> for<00:01:53.799> an<00:01:53.890> initial
+
+00:01:54.240 --> 00:01:54.250 
+boxes so in many ways for an initial
+
+00:01:54.250 --> 00:01:55.800 
+boxes so in many ways for an initial
+configuration<00:01:54.460> if<00:01:55.090> you<00:01:55.180> are<00:01:55.390> doing<00:01:55.689> it
+
+00:01:55.800 --> 00:01:55.810 
+configuration if you are doing it
+
+00:01:55.810 --> 00:01:56.280 
+configuration if you are doing it
+manually
+
+00:01:56.280 --> 00:01:56.290 
+manually
+
+00:01:56.290 --> 00:01:58.679 
+manually
+it<00:01:56.439> is<00:01:56.890> nice<00:01:57.159> to<00:01:57.399> use<00:01:57.640> the<00:01:57.969> server<00:01:58.210> manager
+
+00:01:58.679 --> 00:01:58.689 
+it is nice to use the server manager
+
+00:01:58.689 --> 00:02:01.050 
+it is nice to use the server manager
+tool<00:01:58.979> from<00:01:59.979> here<00:02:00.219> I<00:02:00.250> can<00:02:00.520> do<00:02:00.640> all<00:02:00.850> of<00:02:00.880> my
+
+00:02:01.050 --> 00:02:01.060 
+tool from here I can do all of my
+
+00:02:01.060 --> 00:02:02.940 
+tool from here I can do all of my
+initial<00:02:01.540> configurations<00:02:02.290> for<00:02:02.409> example<00:02:02.799> I
+
+00:02:02.940 --> 00:02:02.950 
+initial configurations for example I
+
+00:02:02.950 --> 00:02:05.130 
+initial configurations for example I
+could<00:02:03.040> change<00:02:03.520> the<00:02:03.729> name<00:02:03.930> so<00:02:04.930> this<00:02:05.020> is
+
+00:02:05.130 --> 00:02:05.140 
+could change the name so this is
+
+00:02:05.140 --> 00:02:06.810 
+could change the name so this is
+actually<00:02:05.409> opening<00:02:05.770> the<00:02:05.920> system<00:02:06.430> control
+
+00:02:06.810 --> 00:02:06.820 
+actually opening the system control
+
+00:02:06.820 --> 00:02:08.370 
+actually opening the system control
+panel<00:02:07.149> applet
+
+00:02:08.370 --> 00:02:08.380 
+panel applet
+
+00:02:08.380 --> 00:02:11.370 
+panel applet
+if<00:02:08.470> I<00:02:08.620> press<00:02:08.860> the<00:02:09.070> Windows<00:02:09.460> key<00:02:09.490> plus<00:02:10.000> C<00:02:10.390> there
+
+00:02:11.370 --> 00:02:11.380 
+if I press the Windows key plus C there
+
+00:02:11.380 --> 00:02:14.100 
+if I press the Windows key plus C there
+opens<00:02:11.800> up<00:02:11.950> the<00:02:12.100> charms<00:02:12.580> bar<00:02:12.670> and<00:02:13.150> I<00:02:13.810> can<00:02:13.990> do
+
+00:02:14.100 --> 00:02:14.110 
+opens up the charms bar and I can do
+
+00:02:14.110 --> 00:02:17.760 
+opens up the charms bar and I can do
+settings<00:02:15.000> control<00:02:16.000> panel<00:02:16.390> this<00:02:17.350> will<00:02:17.560> open
+
+00:02:17.760 --> 00:02:17.770 
+settings control panel this will open
+
+00:02:17.770 --> 00:02:19.980 
+settings control panel this will open
+the<00:02:18.070> old-style<00:02:18.700> control<00:02:19.270> panel<00:02:19.600> we've<00:02:19.780> used
+
+00:02:19.980 --> 00:02:19.990 
+the old-style control panel we've used
+
+00:02:19.990 --> 00:02:22.350 
+the old-style control panel we've used
+in<00:02:20.140> previous<00:02:20.290> versions<00:02:20.830> of<00:02:20.890> Windows<00:02:20.950> I<00:02:21.490> can
+
+00:02:22.350 --> 00:02:22.360 
+in previous versions of Windows I can
+
+00:02:22.360 --> 00:02:23.730 
+in previous versions of Windows I can
+for<00:02:22.510> example<00:02:22.570> say<00:02:22.930> I<00:02:22.960> want<00:02:23.110> to<00:02:23.200> see<00:02:23.290> all<00:02:23.470> of<00:02:23.500> the
+
+00:02:23.730 --> 00:02:23.740 
+for example say I want to see all of the
+
+00:02:23.740 --> 00:02:26.460 
+for example say I want to see all of the
+icons<00:02:23.860> and<00:02:24.400> then<00:02:25.240> launch<00:02:25.480> the<00:02:25.780> individual
+
+00:02:26.460 --> 00:02:26.470 
+icons and then launch the individual
+
+00:02:26.470 --> 00:02:29.210 
+icons and then launch the individual
+control<00:02:26.830> panel<00:02:27.130> applet<00:02:27.370> for<00:02:27.820> example<00:02:28.180> system
+
+00:02:29.210 --> 00:02:29.220 
+control panel applet for example system
+
+00:02:29.220 --> 00:02:31.560 
+control panel applet for example system
+but<00:02:30.220> I've<00:02:30.340> waited<00:02:30.520> launch<00:02:30.910> this<00:02:31.180> would<00:02:31.420> just
+
+00:02:31.560 --> 00:02:31.570 
+but I've waited launch this would just
+
+00:02:31.570 --> 00:02:33.840 
+but I've waited launch this would just
+be<00:02:31.690> Windows<00:02:32.470> key<00:02:32.650> +<00:02:32.890> R<00:02:33.100> for<00:02:33.280> the<00:02:33.340> run<00:02:33.520> dialog
+
+00:02:33.840 --> 00:02:33.850 
+be Windows key + R for the run dialog
+
+00:02:33.850 --> 00:02:38.390 
+be Windows key + R for the run dialog
+and<00:02:34.480> just<00:02:34.600> type<00:02:34.810> sisty<00:02:36.120> MCpl
+
+00:02:38.390 --> 00:02:38.400 
+and just type sisty MCpl
+
+00:02:38.400 --> 00:02:39.890 
+and just type sisty MCpl
+but<00:02:38.610> the<00:02:38.700> Serb<00:02:38.909> major<00:02:39.120> interface<00:02:39.599> is<00:02:39.720> giving
+
+00:02:39.890 --> 00:02:39.900 
+but the Serb major interface is giving
+
+00:02:39.900 --> 00:02:42.580 
+but the Serb major interface is giving
+you<00:02:39.959> a<00:02:40.019> nice<00:02:40.319> way<00:02:40.769> to<00:02:40.799> access<00:02:41.579> these<00:02:41.939> functions
+
+00:02:42.580 --> 00:02:42.590 
+you a nice way to access these functions
+
+00:02:42.590 --> 00:02:44.809 
+you a nice way to access these functions
+so<00:02:43.590> example<00:02:44.010> one<00:02:44.099> of<00:02:44.250> the<00:02:44.340> things<00:02:44.519> you<00:02:44.730> will
+
+00:02:44.809 --> 00:02:44.819 
+so example one of the things you will
+
+00:02:44.819 --> 00:02:46.490 
+so example one of the things you will
+likely<00:02:45.060> want<00:02:45.299> to<00:02:45.390> do<00:02:45.569> initially<00:02:45.840> is<00:02:46.079> change
+
+00:02:46.490 --> 00:02:46.500 
+likely want to do initially is change
+
+00:02:46.500 --> 00:02:48.740 
+likely want to do initially is change
+the<00:02:46.680> name<00:02:46.860> so<00:02:47.579> on<00:02:47.700> the<00:02:47.790> computer<00:02:48.209> name<00:02:48.360> tab<00:02:48.599> I
+
+00:02:48.740 --> 00:02:48.750 
+the name so on the computer name tab I
+
+00:02:48.750 --> 00:02:51.500 
+the name so on the computer name tab I
+click<00:02:48.870> change<00:02:49.379> I<00:02:49.650> can<00:02:50.579> type<00:02:50.760> in<00:02:50.939> my<00:02:51.030> new<00:02:51.269> name
+
+00:02:51.500 --> 00:02:51.510 
+click change I can type in my new name
+
+00:02:51.510 --> 00:02:54.880 
+click change I can type in my new name
+and<00:02:51.860> I<00:02:52.860> can<00:02:53.010> also<00:02:53.129> if<00:02:53.370> I<00:02:53.489> wish<00:02:53.730> join<00:02:54.329> a<00:02:54.360> domain
+
+00:02:54.880 --> 00:02:54.890 
+and I can also if I wish join a domain
+
+00:02:54.890 --> 00:02:57.470 
+and I can also if I wish join a domain
+typing<00:02:55.890> the<00:02:55.950> name<00:02:56.040> of<00:02:56.069> my<00:02:56.220> domain<00:02:56.489> and<00:02:56.909> I<00:02:57.329> would
+
+00:02:57.470 --> 00:02:57.480 
+typing the name of my domain and I would
+
+00:02:57.480 --> 00:02:59.390 
+typing the name of my domain and I would
+then<00:02:57.599> be<00:02:57.780> prompted<00:02:57.989> for<00:02:58.230> a<00:02:58.409> credential<00:02:59.010> to<00:02:59.189> use
+
+00:02:59.390 --> 00:02:59.400 
+then be prompted for a credential to use
+
+00:02:59.400 --> 00:03:01.729 
+then be prompted for a credential to use
+in<00:02:59.579> joining<00:02:59.939> that<00:03:00.060> domain<00:03:00.359> now<00:03:01.319> to<00:03:01.379> join<00:03:01.680> a
+
+00:03:01.729 --> 00:03:01.739 
+in joining that domain now to join a
+
+00:03:01.739 --> 00:03:03.440 
+in joining that domain now to join a
+machine<00:03:02.129> to<00:03:02.250> the<00:03:02.340> domain<00:03:02.609> you<00:03:02.790> do<00:03:02.909> not<00:03:03.060> have<00:03:03.329> to
+
+00:03:03.440 --> 00:03:03.450 
+machine to the domain you do not have to
+
+00:03:03.450 --> 00:03:05.509 
+machine to the domain you do not have to
+be<00:03:03.569> a<00:03:03.599> domain<00:03:03.870> administrator<00:03:04.439> you<00:03:05.069> just<00:03:05.310> need
+
+00:03:05.509 --> 00:03:05.519 
+be a domain administrator you just need
+
+00:03:05.519 --> 00:03:08.149 
+be a domain administrator you just need
+to<00:03:05.670> have<00:03:05.909> a<00:03:06.150> domain<00:03:06.299> account<00:03:06.659> unless<00:03:07.620> your
+
+00:03:08.149 --> 00:03:08.159 
+to have a domain account unless your
+
+00:03:08.159 --> 00:03:10.069 
+to have a domain account unless your
+domain<00:03:08.489> administrator<00:03:09.120> has<00:03:09.450> specifically
+
+00:03:10.069 --> 00:03:10.079 
+domain administrator has specifically
+
+00:03:10.079 --> 00:03:12.500 
+domain administrator has specifically
+blocked<00:03:10.470> normal<00:03:11.010> users<00:03:11.459> from<00:03:11.879> being<00:03:12.090> able<00:03:12.269> to
+
+00:03:12.500 --> 00:03:12.510 
+blocked normal users from being able to
+
+00:03:12.510 --> 00:03:15.320 
+blocked normal users from being able to
+join<00:03:12.780> machines<00:03:13.170> to<00:03:13.409> the<00:03:13.500> demand
+
+00:03:15.320 --> 00:03:15.330 
+join machines to the demand
+
+00:03:15.330 --> 00:03:16.940 
+join machines to the demand
+additionally<00:03:15.780> I<00:03:15.960> can<00:03:16.020> configure<00:03:16.500> things<00:03:16.800> like
+
+00:03:16.940 --> 00:03:16.950 
+additionally I can configure things like
+
+00:03:16.950 --> 00:03:18.770 
+additionally I can configure things like
+remote<00:03:17.250> desktops<00:03:17.760> work<00:03:17.970> I've<00:03:18.090> enabled<00:03:18.330> the
+
+00:03:18.770 --> 00:03:18.780 
+remote desktops work I've enabled the
+
+00:03:18.780 --> 00:03:20.870 
+remote desktops work I've enabled the
+remote<00:03:19.020> desktop<00:03:19.440> protocol<00:03:19.920> to<00:03:20.400> actually<00:03:20.700> get
+
+00:03:20.870 --> 00:03:20.880 
+remote desktop protocol to actually get
+
+00:03:20.880 --> 00:03:22.880 
+remote desktop protocol to actually get
+a<00:03:20.910> full<00:03:21.420> desktop<00:03:21.810> directly<00:03:22.590> onto<00:03:22.710> this
+
+00:03:22.880 --> 00:03:22.890 
+a full desktop directly onto this
+
+00:03:22.890 --> 00:03:24.710 
+a full desktop directly onto this
+machine<00:03:23.280> notice<00:03:23.850> it<00:03:23.940> is<00:03:24.030> disabled<00:03:24.570> by<00:03:24.660> default
+
+00:03:24.710 --> 00:03:24.720 
+machine notice it is disabled by default
+
+00:03:24.720 --> 00:03:27.350 
+machine notice it is disabled by default
+and<00:03:25.680> noticed<00:03:26.010> we<00:03:26.100> are<00:03:26.130> also<00:03:26.370> still<00:03:26.820> using<00:03:27.330> that
+
+00:03:27.350 --> 00:03:27.360 
+and noticed we are also still using that
+
+00:03:27.360 --> 00:03:30.240 
+and noticed we are also still using that
+system<00:03:27.930> control<00:03:28.320> panel<00:03:28.680> applet
+
+00:03:30.240 --> 00:03:30.250 
+system control panel applet
+
+00:03:30.250 --> 00:03:32.880 
+system control panel applet
+I<00:03:30.340> can<00:03:31.090> configure<00:03:31.360> Windows<00:03:31.630> updates<00:03:32.260> for<00:03:32.800> when
+
+00:03:32.880 --> 00:03:32.890 
+I can configure Windows updates for when
+
+00:03:32.890 --> 00:03:34.950 
+I can configure Windows updates for when
+I<00:03:32.920> want<00:03:33.160> this<00:03:33.310> machine<00:03:33.700> to<00:03:34.090> automatically
+
+00:03:34.950 --> 00:03:34.960 
+I want this machine to automatically
+
+00:03:34.960 --> 00:03:36.930 
+I want this machine to automatically
+download<00:03:35.170> updates<00:03:35.590> how<00:03:36.370> they<00:03:36.550> should<00:03:36.790> be
+
+00:03:36.930 --> 00:03:36.940 
+download updates how they should be
+
+00:03:36.940 --> 00:03:38.730 
+download updates how they should be
+applied<00:03:37.270> and<00:03:37.960> this<00:03:38.110> is<00:03:38.200> definitely<00:03:38.590> something
+
+00:03:38.730 --> 00:03:38.740 
+applied and this is definitely something
+
+00:03:38.740 --> 00:03:40.170 
+applied and this is definitely something
+you<00:03:38.830> should<00:03:39.070> do<00:03:39.190> on<00:03:39.220> a<00:03:39.370> new<00:03:39.520> installation
+
+00:03:40.170 --> 00:03:40.180 
+you should do on a new installation
+
+00:03:40.180 --> 00:03:42.960 
+you should do on a new installation
+download<00:03:40.480> the<00:03:40.900> latest<00:03:41.230> updates<00:03:41.760> now<00:03:42.760> in<00:03:42.880> your
+
+00:03:42.960 --> 00:03:42.970 
+download the latest updates now in your
+
+00:03:42.970 --> 00:03:44.760 
+download the latest updates now in your
+organization<00:03:43.840> you<00:03:43.960> may<00:03:44.110> be<00:03:44.140> using<00:03:44.470> Windows
+
+00:03:44.760 --> 00:03:44.770 
+organization you may be using Windows
+
+00:03:44.770 --> 00:03:46.590 
+organization you may be using Windows
+software<00:03:45.250> update<00:03:45.520> services<00:03:46.060> you<00:03:46.420> may<00:03:46.540> be
+
+00:03:46.590 --> 00:03:46.600 
+software update services you may be
+
+00:03:46.600 --> 00:03:47.490 
+software update services you may be
+using<00:03:46.840> System<00:03:47.260> Center<00:03:47.470> Configuration
+
+00:03:47.490 --> 00:03:47.500 
+using System Center Configuration
+
+00:03:47.500 --> 00:03:50.760 
+using System Center Configuration
+Manager<00:03:48.220> you<00:03:49.090> may<00:03:49.240> have<00:03:49.420> another<00:03:49.690> tool<00:03:50.050> but
+
+00:03:50.760 --> 00:03:50.770 
+Manager you may have another tool but
+
+00:03:50.770 --> 00:03:52.290 
+Manager you may have another tool but
+it's<00:03:50.950> very<00:03:51.100> important<00:03:51.550> to<00:03:51.610> keep<00:03:51.730> your<00:03:51.790> servers
+
+00:03:52.290 --> 00:03:52.300 
+it's very important to keep your servers
+
+00:03:52.300 --> 00:03:55.140 
+it's very important to keep your servers
+patched<00:03:52.630> for<00:03:53.230> protection<00:03:53.920> and<00:03:54.070> for<00:03:54.520> taking
+
+00:03:55.140 --> 00:03:55.150 
+patched for protection and for taking
+
+00:03:55.150 --> 00:03:56.550 
+patched for protection and for taking
+advantage<00:03:55.660> of<00:03:55.750> things<00:03:55.870> like<00:03:55.990> performance
+
+00:03:56.550 --> 00:03:56.560 
+advantage of things like performance
+
+00:03:56.560 --> 00:03:58.920 
+advantage of things like performance
+improvements<00:03:57.250> I<00:03:57.340> can<00:03:58.240> change<00:03:58.420> my<00:03:58.660> time<00:03:58.900> zone
+
+00:03:58.920 --> 00:03:58.930 
+improvements I can change my time zone
+
+00:03:58.930 --> 00:04:01.440 
+improvements I can change my time zone
+again<00:03:59.800> this<00:03:59.920> is<00:04:00.070> now<00:04:00.220> opening<00:04:00.730> the<00:04:00.940> time<00:04:01.270> and
+
+00:04:01.440 --> 00:04:01.450 
+again this is now opening the time and
+
+00:04:01.450 --> 00:04:03.360 
+again this is now opening the time and
+date<00:04:01.600> control<00:04:02.050> panel<00:04:02.380> so<00:04:02.920> I<00:04:02.950> can<00:04:03.130> say<00:04:03.190> I<00:04:03.250> want
+
+00:04:03.360 --> 00:04:03.370 
+date control panel so I can say I want
+
+00:04:03.370 --> 00:04:05.850 
+date control panel so I can say I want
+to<00:04:03.430> change<00:04:03.489> my<00:04:03.820> time<00:04:04.030> zone<00:04:04.060> and<00:04:04.650> select<00:04:05.650> what<00:04:05.830> I
+
+00:04:05.850 --> 00:04:05.860 
+to change my time zone and select what I
+
+00:04:05.860 --> 00:04:07.809 
+to change my time zone and select what I
+need
+
+00:04:07.809 --> 00:04:07.819 
+need
+
+00:04:07.819 --> 00:04:10.720 
+need
+I<00:04:07.879> can<00:04:08.629> change<00:04:08.780> my<00:04:08.989> IP<00:04:09.170> address<00:04:09.799> so<00:04:10.609> for
+
+00:04:10.720 --> 00:04:10.730 
+I can change my IP address so for
+
+00:04:10.730 --> 00:04:12.759 
+I can change my IP address so for
+example<00:04:11.090> here<00:04:11.390> if<00:04:11.749> I<00:04:11.840> click<00:04:11.900> on<00:04:12.139> the<00:04:12.260> Ethernet
+
+00:04:12.759 --> 00:04:12.769 
+example here if I click on the Ethernet
+
+00:04:12.769 --> 00:04:15.599 
+example here if I click on the Ethernet
+I<00:04:13.120> can<00:04:14.120> right<00:04:14.329> click<00:04:14.359> and<00:04:14.719> do<00:04:14.870> properties
+
+00:04:15.599 --> 00:04:15.609 
+I can right click and do properties
+
+00:04:15.609 --> 00:04:17.920 
+I can right click and do properties
+scroll<00:04:16.609> down<00:04:16.789> to<00:04:16.970> Internet<00:04:17.449> Protocol<00:04:17.870> version
+
+00:04:17.920 --> 00:04:17.930 
+scroll down to Internet Protocol version
+
+00:04:17.930 --> 00:04:20.770 
+scroll down to Internet Protocol version
+4<00:04:18.289> and<00:04:18.769> then<00:04:19.699> if<00:04:19.820> I<00:04:19.940> need<00:04:20.120> to<00:04:20.269> configure<00:04:20.630> a
+
+00:04:20.770 --> 00:04:20.780 
+4 and then if I need to configure a
+
+00:04:20.780 --> 00:04:23.590 
+4 and then if I need to configure a
+static<00:04:20.900> IP<00:04:21.380> address<00:04:21.620> if<00:04:22.009> I'm<00:04:22.160> not<00:04:22.310> using<00:04:22.600> DHCP
+
+00:04:23.590 --> 00:04:23.600 
+static IP address if I'm not using DHCP
+
+00:04:23.600 --> 00:04:26.629 
+static IP address if I'm not using DHCP
+or<00:04:23.810> dynamic<00:04:24.259> host<00:04:24.440> configuration<00:04:24.669> protocol
+
+00:04:26.629 --> 00:04:26.639 
+or dynamic host configuration protocol
+
+00:04:26.639 --> 00:04:29.240 
+or dynamic host configuration protocol
+if<00:04:27.060> you<00:04:27.389> are<00:04:27.539> using<00:04:27.780> server<00:04:28.199> core<00:04:28.560> remember
+
+00:04:29.240 --> 00:04:29.250 
+if you are using server core remember
+
+00:04:29.250 --> 00:04:31.520 
+if you are using server core remember
+that<00:04:29.430> I<00:04:29.460> can<00:04:29.580> launch<00:04:30.419> my<00:04:30.539> S<00:04:30.960> config<00:04:31.500> command
+
+00:04:31.520 --> 00:04:31.530 
+that I can launch my S config command
+
+00:04:31.530 --> 00:04:34.369 
+that I can launch my S config command
+and<00:04:32.099> I<00:04:32.909> really<00:04:33.240> have<00:04:33.419> the<00:04:33.659> same<00:04:33.900> set<00:04:34.349> of
+
+00:04:34.369 --> 00:04:34.379 
+and I really have the same set of
+
+00:04:34.379 --> 00:04:35.749 
+and I really have the same set of
+actions<00:04:34.770> available<00:04:34.979> to<00:04:35.490> me
+
+00:04:35.749 --> 00:04:35.759 
+actions available to me
+
+00:04:35.759 --> 00:04:37.730 
+actions available to me
+I<00:04:35.789> configure<00:04:36.780> the<00:04:36.870> Windows<00:04:37.139> Update<00:04:37.169> settings
+
+00:04:37.730 --> 00:04:37.740 
+I configure the Windows Update settings
+
+00:04:37.740 --> 00:04:39.830 
+I configure the Windows Update settings
+I<00:04:38.159> can<00:04:38.400> configure<00:04:38.639> network<00:04:39.150> settings<00:04:39.180> the
+
+00:04:39.830 --> 00:04:39.840 
+I can configure network settings the
+
+00:04:39.840 --> 00:04:42.649 
+I can configure network settings the
+date<00:04:40.050> and<00:04:40.319> time<00:04:40.490> computer<00:04:41.490> name<00:04:41.669> domain<00:04:41.939> all
+
+00:04:42.649 --> 00:04:42.659 
+date and time computer name domain all
+
+00:04:42.659 --> 00:04:44.420 
+date and time computer name domain all
+of<00:04:42.840> those<00:04:42.930> things<00:04:43.229> are<00:04:43.530> still<00:04:43.740> available<00:04:43.979> to
+
+00:04:44.420 --> 00:04:44.430 
+of those things are still available to
+
+00:04:44.430 --> 00:04:47.689 
+of those things are still available to
+me<00:04:45.229> additionally<00:04:46.229> I<00:04:46.409> can<00:04:46.620> use<00:04:47.159> the<00:04:47.400> command
+
+00:04:47.689 --> 00:04:47.699 
+me additionally I can use the command
+
+00:04:47.699 --> 00:04:50.300 
+me additionally I can use the command
+prompt<00:04:48.090> so<00:04:48.930> for<00:04:49.110> example<00:04:49.560> configuring
+
+00:04:50.300 --> 00:04:50.310 
+prompt so for example configuring
+
+00:04:50.310 --> 00:04:52.249 
+prompt so for example configuring
+something<00:04:50.610> like<00:04:50.759> the<00:04:50.909> IP<00:04:51.060> address<00:04:51.629> if<00:04:51.870> I<00:04:51.990> open
+
+00:04:52.249 --> 00:04:52.259 
+something like the IP address if I open
+
+00:04:52.259 --> 00:04:54.499 
+something like the IP address if I open
+up<00:04:52.349> the<00:04:52.530> command<00:04:52.800> line<00:04:53.129> I<00:04:53.400> can<00:04:53.939> use<00:04:54.090> the<00:04:54.240> next
+
+00:04:54.499 --> 00:04:54.509 
+up the command line I can use the next
+
+00:04:54.509 --> 00:04:56.570 
+up the command line I can use the next
+shell<00:04:54.870> command<00:04:55.289> or<00:04:55.439> net<00:04:55.710> Sh
+
+00:04:56.570 --> 00:04:56.580 
+shell command or net Sh
+
+00:04:56.580 --> 00:04:59.510 
+shell command or net Sh
+so<00:04:57.270> net<00:04:57.479> Sh<00:04:57.960> allows<00:04:58.530> me<00:04:58.800> to<00:04:58.979> configure<00:04:59.400> the
+
+00:04:59.510 --> 00:04:59.520 
+so net Sh allows me to configure the
+
+00:04:59.520 --> 00:05:02.360 
+so net Sh allows me to configure the
+interface<00:04:59.729> I<00:05:00.330> wish<00:05:00.599> to<00:05:00.779> configure<00:05:01.110> I<00:05:01.409> want<00:05:02.279> to
+
+00:05:02.360 --> 00:05:02.370 
+interface I wish to configure I want to
+
+00:05:02.370 --> 00:05:05.059 
+interface I wish to configure I want to
+configure<00:05:02.729> the<00:05:02.849> ipv4<00:05:03.779> and<00:05:04.080> I<00:05:04.710> want<00:05:04.919> to
+
+00:05:05.059 --> 00:05:05.069 
+configure the ipv4 and I want to
+
+00:05:05.069 --> 00:05:07.939 
+configure the ipv4 and I want to
+configure<00:05:05.520> an<00:05:05.789> address<00:05:06.180> I<00:05:06.479> pass<00:05:07.409> it<00:05:07.650> the<00:05:07.919> name
+
+00:05:07.939 --> 00:05:07.949 
+configure an address I pass it the name
+
+00:05:07.949 --> 00:05:11.779 
+configure an address I pass it the name
+of<00:05:08.490> the<00:05:08.759> connection<00:05:09.590> so<00:05:10.590> this<00:05:10.830> is<00:05:11.129> the<00:05:11.520> same
+
+00:05:11.779 --> 00:05:11.789 
+of the connection so this is the same
+
+00:05:11.789 --> 00:05:15.589 
+of the connection so this is the same
+name<00:05:12.090> as<00:05:12.419> I<00:05:12.930> see<00:05:13.080> over<00:05:13.529> here<00:05:13.770> in<00:05:14.009> my<00:05:14.219> list<00:05:14.550> so<00:05:15.539> in
+
+00:05:15.589 --> 00:05:15.599 
+name as I see over here in my list so in
+
+00:05:15.599 --> 00:05:17.540 
+name as I see over here in my list so in
+my<00:05:15.719> example<00:05:15.840> is<00:05:16.439> an<00:05:16.590> actually<00:05:17.069> Local<00:05:17.430> Area
+
+00:05:17.540 --> 00:05:17.550 
+my example is an actually Local Area
+
+00:05:17.550 --> 00:05:18.200 
+my example is an actually Local Area
+Connection
+
+00:05:18.200 --> 00:05:18.210 
+Connection
+
+00:05:18.210 --> 00:05:20.749 
+Connection
+it's<00:05:18.810> just<00:05:19.139> Ethernet<00:05:19.710> so<00:05:20.219> I<00:05:20.250> need<00:05:20.460> to<00:05:20.610> make
+
+00:05:20.749 --> 00:05:20.759 
+it's just Ethernet so I need to make
+
+00:05:20.759 --> 00:05:23.300 
+it's just Ethernet so I need to make
+sure<00:05:20.789> that<00:05:21.090> name<00:05:21.300> matches<00:05:21.810> I<00:05:22.069> can<00:05:23.069> instead<00:05:23.250> I
+
+00:05:23.300 --> 00:05:23.310 
+sure that name matches I can instead I
+
+00:05:23.310 --> 00:05:25.610 
+sure that name matches I can instead I
+want<00:05:23.430> to<00:05:23.460> use<00:05:23.580> a<00:05:23.610> static<00:05:23.879> IP<00:05:24.180> address<00:05:24.389> I<00:05:24.900> can
+
+00:05:25.610 --> 00:05:25.620 
+want to use a static IP address I can
+
+00:05:25.620 --> 00:05:27.580 
+want to use a static IP address I can
+then<00:05:25.889> give<00:05:26.099> it<00:05:26.129> what<00:05:26.340> that<00:05:26.490> IP<00:05:26.669> address<00:05:26.879> is
+
+00:05:27.580 --> 00:05:27.590 
+then give it what that IP address is
+
+00:05:27.590 --> 00:05:30.499 
+then give it what that IP address is
+just<00:05:28.590> making<00:05:28.860> the<00:05:28.979> dress<00:05:29.189> up<00:05:29.340> here<00:05:29.639> I<00:05:29.789> give<00:05:30.419> it
+
+00:05:30.499 --> 00:05:30.509 
+just making the dress up here I give it
+
+00:05:30.509 --> 00:05:32.610 
+just making the dress up here I give it
+a<00:05:30.569> subnet<00:05:30.960> mask
+
+00:05:32.610 --> 00:05:32.620 
+a subnet mask
+
+00:05:32.620 --> 00:05:34.410 
+a subnet mask
+and<00:05:32.710> I'm<00:05:32.830> done<00:05:33.190> I've<00:05:33.250> now<00:05:33.790> configured<00:05:34.300> that
+
+00:05:34.410 --> 00:05:34.420 
+and I'm done I've now configured that
+
+00:05:34.420 --> 00:05:37.110 
+and I'm done I've now configured that
+address<00:05:34.810> and<00:05:35.340> that<00:05:36.340> would<00:05:36.490> also<00:05:36.670> be<00:05:37.030> available
+
+00:05:37.110 --> 00:05:37.120 
+address and that would also be available
+
+00:05:37.120 --> 00:05:39.620 
+address and that would also be available
+if<00:05:37.930> I<00:05:38.020> now<00:05:38.200> look<00:05:38.410> in<00:05:38.620> the<00:05:38.740> graphical<00:05:39.160> interface
+
+00:05:39.620 --> 00:05:39.630 
+if I now look in the graphical interface
+
+00:05:39.630 --> 00:05:42.810 
+if I now look in the graphical interface
+so<00:05:40.630> it's<00:05:40.780> always<00:05:40.990> a<00:05:41.290> command-line<00:05:42.190> option<00:05:42.730> of
+
+00:05:42.810 --> 00:05:42.820 
+so it's always a command-line option of
+
+00:05:42.820 --> 00:05:44.390 
+so it's always a command-line option of
+course<00:05:42.910> I<00:05:43.030> could<00:05:43.180> use<00:05:43.300> PowerShell<00:05:43.660> as<00:05:43.990> well
+
+00:05:44.390 --> 00:05:44.400 
+course I could use PowerShell as well
+
+00:05:44.400 --> 00:05:46.470 
+course I could use PowerShell as well
+now<00:05:45.400> they're<00:05:45.550> obviously<00:05:45.880> typically
+
+00:05:46.470 --> 00:05:46.480 
+now they're obviously typically
+
+00:05:46.480 --> 00:05:48.420 
+now they're obviously typically
+additional<00:05:47.200> configurations<00:05:47.950> we<00:05:48.070> have<00:05:48.280> to
+
+00:05:48.420 --> 00:05:48.430 
+additional configurations we have to
+
+00:05:48.430 --> 00:05:50.970 
+additional configurations we have to
+perform<00:05:48.760> for<00:05:48.940> IP<00:05:49.270> for<00:05:49.870> example<00:05:50.260> setting<00:05:50.500> DNS
+
+00:05:50.970 --> 00:05:50.980 
+perform for IP for example setting DNS
+
+00:05:50.980 --> 00:05:53.220 
+perform for IP for example setting DNS
+servers<00:05:51.430> and<00:05:51.580> again<00:05:51.910> I<00:05:52.090> can<00:05:52.390> use<00:05:52.540> the<00:05:52.660> net<00:05:52.840> Sh
+
+00:05:53.220 --> 00:05:53.230 
+servers and again I can use the net Sh
+
+00:05:53.230 --> 00:05:55.800 
+servers and again I can use the net Sh
+interface<00:05:53.800> command<00:05:54.280> and<00:05:54.730> this<00:05:55.000> time<00:05:55.240> set<00:05:55.600> the
+
+00:05:55.800 --> 00:05:55.810 
+interface command and this time set the
+
+00:05:55.810 --> 00:05:58.590 
+interface command and this time set the
+DNS<00:05:56.320> servers<00:05:56.800> parameters<00:05:57.340> so<00:05:58.300> instead<00:05:58.510> of
+
+00:05:58.590 --> 00:05:58.600 
+DNS servers parameters so instead of
+
+00:05:58.600 --> 00:06:02.430 
+DNS servers parameters so instead of
+being<00:05:58.810> address<00:05:59.400> this<00:06:00.400> time<00:06:00.700> I<00:06:00.910> could<00:06:01.150> say<00:06:01.440> DNS
+
+00:06:02.430 --> 00:06:02.440 
+being address this time I could say DNS
+
+00:06:02.440 --> 00:06:04.530 
+being address this time I could say DNS
+servers<00:06:02.950> and<00:06:03.160> then<00:06:03.880> I<00:06:03.970> would<00:06:04.090> put<00:06:04.270> in<00:06:04.330> the<00:06:04.390> name
+
+00:06:04.530 --> 00:06:04.540 
+servers and then I would put in the name
+
+00:06:04.540 --> 00:06:08.100 
+servers and then I would put in the name
+of<00:06:04.750> my<00:06:05.080> DNS<00:06:05.410> server<00:06:05.680> maybe<00:06:06.070> it's<00:06:06.280> 10<00:06:06.840> and<00:06:07.840> I<00:06:07.990> can
+
+00:06:08.100 --> 00:06:08.110 
+of my DNS server maybe it's 10 and I can
+
+00:06:08.110 --> 00:06:11.100 
+of my DNS server maybe it's 10 and I can
+say<00:06:08.260> it's<00:06:08.410> primary<00:06:09.510> now<00:06:10.510> in<00:06:10.630> this<00:06:10.750> example
+
+00:06:11.100 --> 00:06:11.110 
+say it's primary now in this example
+
+00:06:11.110 --> 00:06:12.360 
+say it's primary now in this example
+it's<00:06:11.320> give<00:06:11.470> me<00:06:11.560> an<00:06:11.680> Eric's<00:06:11.980> that<00:06:12.130> doesn't
+
+00:06:12.360 --> 00:06:12.370 
+it's give me an Eric's that doesn't
+
+00:06:12.370 --> 00:06:13.680 
+it's give me an Eric's that doesn't
+actually<00:06:12.490> exist<00:06:12.760> I'm<00:06:13.150> just<00:06:13.300> making<00:06:13.600> these
+
+00:06:13.680 --> 00:06:13.690 
+actually exist I'm just making these
+
+00:06:13.690 --> 00:06:15.480 
+actually exist I'm just making these
+values<00:06:14.080> up<00:06:14.290> that<00:06:14.860> would<00:06:14.980> be<00:06:15.130> how<00:06:15.340> you<00:06:15.370> would
+
+00:06:15.480 --> 00:06:15.490 
+values up that would be how you would
+
+00:06:15.490 --> 00:06:16.970 
+values up that would be how you would
+configure<00:06:15.850> it<00:06:16.030> from<00:06:16.180> the<00:06:16.270> command<00:06:16.570> line
+
+00:06:16.970 --> 00:06:16.980 
+configure it from the command line
+
+00:06:16.980 --> 00:06:19.740 
+configure it from the command line
+likewise<00:06:17.980> I<00:06:18.280> could<00:06:18.460> also<00:06:18.640> use<00:06:19.150> commands<00:06:19.570> to
+
+00:06:19.740 --> 00:06:19.750 
+likewise I could also use commands to
+
+00:06:19.750 --> 00:06:22.140 
+likewise I could also use commands to
+join<00:06:19.960> the<00:06:20.110> domain<00:06:20.410> I<00:06:20.680> can<00:06:21.370> also<00:06:21.490> rename<00:06:21.970> my
+
+00:06:22.140 --> 00:06:22.150 
+join the domain I can also rename my
+
+00:06:22.150 --> 00:06:24.000 
+join the domain I can also rename my
+computer<00:06:22.540> to<00:06:22.630> account<00:06:22.930> and<00:06:23.320> for<00:06:23.680> both<00:06:23.830> of
+
+00:06:24.000 --> 00:06:24.010 
+computer to account and for both of
+
+00:06:24.010 --> 00:06:26.700 
+computer to account and for both of
+these<00:06:24.100> I<00:06:24.160> would<00:06:24.400> use<00:06:24.610> the<00:06:24.760> net<00:06:25.150> Don<00:06:25.420> come<00:06:25.690> on<00:06:25.840> so
+
+00:06:26.700 --> 00:06:26.710 
+these I would use the net Don come on so
+
+00:06:26.710 --> 00:06:29.160 
+these I would use the net Don come on so
+net<00:06:26.890> Dom<00:06:27.100> allows<00:06:27.400> me<00:06:27.700> to<00:06:28.000> change<00:06:28.570> the<00:06:28.720> computer
+
+00:06:29.160 --> 00:06:29.170 
+net Dom allows me to change the computer
+
+00:06:29.170 --> 00:06:32.520 
+net Dom allows me to change the computer
+name<00:06:29.530> and<00:06:29.560> also<00:06:30.430> join<00:06:30.850> the<00:06:31.000> domain<00:06:31.530> another
+
+00:06:32.520 --> 00:06:32.530 
+name and also join the domain another
+
+00:06:32.530 --> 00:06:34.020 
+name and also join the domain another
+configuration<00:06:32.920> you<00:06:33.400> will<00:06:33.460> likely<00:06:33.640> want<00:06:33.760> to<00:06:33.910> do
+
+00:06:34.020 --> 00:06:34.030 
+configuration you will likely want to do
+
+00:06:34.030 --> 00:06:35.820 
+configuration you will likely want to do
+in<00:06:34.150> your<00:06:34.300> machines<00:06:34.690> is<00:06:34.900> obviously<00:06:35.170> activate
+
+00:06:35.820 --> 00:06:35.830 
+in your machines is obviously activate
+
+00:06:35.830 --> 00:06:38.190 
+in your machines is obviously activate
+the<00:06:35.980> installation<00:06:36.640> so<00:06:37.630> right<00:06:37.810> now<00:06:37.990> I'm
+
+00:06:38.190 --> 00:06:38.200 
+the installation so right now I'm
+
+00:06:38.200 --> 00:06:40.710 
+the installation so right now I'm
+showing<00:06:38.470> not<00:06:38.800> activated<00:06:39.580> if<00:06:39.970> I<00:06:40.150> click<00:06:40.480> this
+
+00:06:40.710 --> 00:06:40.720 
+showing not activated if I click this
+
+00:06:40.720 --> 00:06:42.930 
+showing not activated if I click this
+I'll<00:06:41.530> actually<00:06:41.680> be<00:06:41.980> able<00:06:42.040> to<00:06:42.280> type<00:06:42.580> in<00:06:42.790> a
+
+00:06:42.930 --> 00:06:42.940 
+I'll actually be able to type in a
+
+00:06:42.940 --> 00:06:45.090 
+I'll actually be able to type in a
+product<00:06:43.390> key<00:06:43.630> which<00:06:44.260> will<00:06:44.380> then<00:06:44.560> allow<00:06:44.830> me<00:06:44.860> to
+
+00:06:45.090 --> 00:06:45.100 
+product key which will then allow me to
+
+00:06:45.100 --> 00:06:47.610 
+product key which will then allow me to
+activate<00:06:45.550> this<00:06:45.670> installation<00:06:46.360> if<00:06:46.840> you<00:06:47.410> have<00:06:47.590> a
+
+00:06:47.610 --> 00:06:47.620 
+activate this installation if you have a
+
+00:06:47.620 --> 00:06:49.410 
+activate this installation if you have a
+key<00:06:47.950> management<00:06:48.340> server<00:06:48.880> in<00:06:49.360> your
+
+00:06:49.410 --> 00:06:49.420 
+key management server in your
+
+00:06:49.420 --> 00:06:51.300 
+key management server in your
+environment<00:06:49.600> or<00:06:50.500> you're<00:06:50.650> using<00:06:50.800> active
+
+00:06:51.300 --> 00:06:51.310 
+environment or you're using active
+
+00:06:51.310 --> 00:06:53.310 
+environment or you're using active
+directory<00:06:51.340> based<00:06:51.940> activation<00:06:52.630> you<00:06:52.810> would
+
+00:06:53.310 --> 00:06:53.320 
+directory based activation you would
+
+00:06:53.320 --> 00:06:56.400 
+directory based activation you would
+enter<00:06:53.530> the<00:06:53.830> kms<00:06:54.580> key<00:06:55.030> that<00:06:55.570> is<00:06:55.720> standard
+
+00:06:56.400 --> 00:06:56.410 
+enter the kms key that is standard
+
+00:06:56.410 --> 00:06:58.590 
+enter the kms key that is standard
+throughout<00:06:56.710> any<00:06:57.130> machine<00:06:57.610> that<00:06:57.640> is<00:06:57.850> using<00:06:58.210> kms
+
+00:06:58.590 --> 00:06:58.600 
+throughout any machine that is using kms
+
+00:06:58.600 --> 00:07:00.210 
+throughout any machine that is using kms
+so<00:06:58.750> these<00:06:58.900> are<00:06:59.080> not<00:06:59.290> specific<00:06:59.980> to<00:07:00.010> your
+
+00:07:00.210 --> 00:07:00.220 
+so these are not specific to your
+
+00:07:00.220 --> 00:07:02.670 
+so these are not specific to your
+organization<00:07:00.940> there<00:07:01.480> is<00:07:01.510> a<00:07:01.690> generic<00:07:02.110> key<00:07:02.500> you
+
+00:07:02.670 --> 00:07:02.680 
+organization there is a generic key you
+
+00:07:02.680 --> 00:07:04.920 
+organization there is a generic key you
+use<00:07:02.980> which<00:07:03.610> tells<00:07:03.970> the<00:07:04.120> operating<00:07:04.420> system<00:07:04.810> to
+
+00:07:04.920 --> 00:07:04.930 
+use which tells the operating system to
+
+00:07:04.930 --> 00:07:08.640 
+use which tells the operating system to
+use<00:07:05.080> kms<00:07:05.620> or<00:07:05.800> a<00:07:06.130> DBA<00:07:06.930> here<00:07:07.930> you<00:07:08.020> can<00:07:08.200> see<00:07:08.440> the
+
+00:07:08.640 --> 00:07:08.650 
+use kms or a DBA here you can see the
+
+00:07:08.650 --> 00:07:10.500 
+use kms or a DBA here you can see the
+article<00:07:09.130> that<00:07:09.340> talks<00:07:09.580> through<00:07:09.850> these<00:07:10.030> kms
+
+00:07:10.500 --> 00:07:10.510 
+article that talks through these kms
+
+00:07:10.510 --> 00:07:13.380 
+article that talks through these kms
+keys<00:07:11.400> so<00:07:12.400> as<00:07:12.460> a<00:07:12.520> different<00:07:12.910> key<00:07:13.150> of<00:07:13.210> the
+
+00:07:13.380 --> 00:07:13.390 
+keys so as a different key of the
+
+00:07:13.390 --> 00:07:15.660 
+keys so as a different key of the
+different<00:07:13.690> versions<00:07:14.110> of<00:07:14.200> Windows<00:07:14.350> and<00:07:14.860> all
+
+00:07:15.660 --> 00:07:15.670 
+different versions of Windows and all
+
+00:07:15.670 --> 00:07:17.100 
+different versions of Windows and all
+this<00:07:15.790> is<00:07:15.940> telling<00:07:16.210> the<00:07:16.270> operating<00:07:16.750> system<00:07:17.080> to
+
+00:07:17.100 --> 00:07:17.110 
+this is telling the operating system to
+
+00:07:17.110 --> 00:07:21.740 
+this is telling the operating system to
+do<00:07:17.290> is<00:07:17.530> talk<00:07:18.190> to<00:07:18.400> your<00:07:18.550> kms<00:07:19.240> server<00:07:19.570> or<00:07:19.900> a<00:07:20.260> DBA
+
+00:07:21.740 --> 00:07:21.750 
+do is talk to your kms server or a DBA
+
+00:07:21.750 --> 00:07:23.540 
+do is talk to your kms server or a DBA
+you<00:07:22.170> may<00:07:22.290> also<00:07:22.500> once<00:07:22.860> installation<00:07:23.160> is
+
+00:07:23.540 --> 00:07:23.550 
+you may also once installation is
+
+00:07:23.550 --> 00:07:25.400 
+you may also once installation is
+complete<00:07:23.970> configure<00:07:24.780> items<00:07:25.170> such<00:07:25.380> as
+
+00:07:25.400 --> 00:07:25.410 
+complete configure items such as
+
+00:07:25.410 --> 00:07:27.740 
+complete configure items such as
+BitLocker<00:07:26.130> make<00:07:26.880> sure<00:07:27.090> the<00:07:27.180> machine<00:07:27.330> is<00:07:27.510> being
+
+00:07:27.740 --> 00:07:27.750 
+BitLocker make sure the machine is being
+
+00:07:27.750 --> 00:07:29.990 
+BitLocker make sure the machine is being
+backed<00:07:28.110> up<00:07:28.350> and<00:07:29.070> these<00:07:29.280> really<00:07:29.520> help<00:07:29.880> you
+
+00:07:29.990 --> 00:07:30.000 
+backed up and these really help you
+
+00:07:30.000 --> 00:07:32.630 
+backed up and these really help you
+complete<00:07:30.450> the<00:07:30.690> overall<00:07:31.410> configuration<00:07:31.860> of
+
+00:07:32.630 --> 00:07:32.640 
+complete the overall configuration of
+
+00:07:32.640 --> 00:07:35.150 
+complete the overall configuration of
+the<00:07:32.730> machine<00:07:33.090> this<00:07:34.080> concludes<00:07:34.620> the<00:07:34.830> initial
+
+00:07:35.150 --> 00:07:35.160 
+the machine this concludes the initial
+
+00:07:35.160 --> 00:07:37.820 
+the machine this concludes the initial
+lesson<00:07:35.550> on<00:07:35.760> performing<00:07:36.630> post<00:07:36.930> configuration
+
+00:07:37.820 --> 00:07:37.830 
+lesson on performing post configuration
+
+00:07:37.830 --> 00:07:40.100 
+lesson on performing post configuration
+steps
+

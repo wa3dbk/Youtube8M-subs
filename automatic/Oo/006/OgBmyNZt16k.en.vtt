@@ -1,0 +1,436 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.280 --> 00:00:05.770
+ hello everyone my name is earl and gómez 
+
+00:00:02.560 --> 00:00:07.450
+ I am seer later display men and in the 
+
+00:00:05.770 --> 00:00:10.030
+ today's video we're going to see how to migrate a 
+
+00:00:07.450 --> 00:00:13.719
+ of hcp server from windows server 2003 
+
+00:00:10.030 --> 00:00:16.510
+ towards windows server 2012 
+
+00:00:13.719 --> 00:00:18.190
+ I have this process set up, I have 
+
+00:00:16.510 --> 00:00:21.660
+ my environment configured with a machine 
+
+00:00:18.190 --> 00:00:24.750
+ virtual in windows server 2003 
+
+00:00:21.660 --> 00:00:28.670
+ r2 and a standard windows server 2012 
+
+00:00:24.750 --> 00:00:28.670
+ so let's see what the process is like 
+
+00:00:30.410 --> 00:00:37.260
+ and I have my virtual machine with windows 
+
+00:00:34.850 --> 00:00:40.219
+ server 2003 
+
+00:00:37.260 --> 00:00:40.219
+ as we can see 
+
+00:00:41.100 --> 00:00:48.089
+ with service pack 3 and it's an ere 2 
+
+00:00:45.019 --> 00:00:50.610
+ so what we 're going to see is that I have 
+
+00:00:48.089 --> 00:00:52.680
+ an hcp will be here 
+
+00:00:50.610 --> 00:00:56.489
+ already configured with a scope already 
+
+00:00:52.680 --> 00:00:58.649
+ done as we can see here I have 
+
+00:00:56.489 --> 00:01:01.500
+ an area already ready and is delivering 
+
+00:00:58.649 --> 00:01:03.049
+ ip addresses to our network what 
+
+00:01:01.500 --> 00:01:07.500
+ let's do is set our 
+
+00:01:03.049 --> 00:01:09.899
+ sorry to migrate our domain to windows 
+
+00:01:07.500 --> 00:01:13.580
+ server 2012 by means of a few simple 
+
+00:01:09.899 --> 00:01:16.810
+ commands in a system console 
+
+00:01:13.580 --> 00:01:21.630
+ then for it 
+
+00:01:16.810 --> 00:01:24.900
+ let's open a command prompt 
+
+00:01:21.630 --> 00:01:27.480
+ in this command prompt 
+
+00:01:24.900 --> 00:01:31.200
+ we are going to 
+
+00:01:27.480 --> 00:01:33.210
+ type first I will change language 
+
+00:01:31.200 --> 00:01:36.350
+ so that it takes the keyboard to us we are going to 
+
+00:01:33.210 --> 00:01:40.570
+ type net sh 
+
+00:01:36.350 --> 00:01:42.760
+ we take the command we tell you about hcp 
+
+00:01:40.570 --> 00:01:44.620
+ in hcp let's specify the 
+
+00:01:42.760 --> 00:01:47.740
+ server from which we are going to export 
+
+00:01:44.620 --> 00:01:49.540
+ our hcp server configuration will 
+
+00:01:47.740 --> 00:01:52.060
+ we say server 
+
+00:01:49.540 --> 00:01:53.800
+ so it's the cows and the address 
+
+00:01:52.060 --> 00:01:55.570
+ ip or the name of our server in 
+
+00:01:53.800 --> 00:01:59.820
+ this case the ip address of our 
+
+00:01:55.570 --> 00:02:04.090
+ windows server 2012 is 100 192 168 
+
+00:01:59.820 --> 00:02:06.670
+ points 0.1 and we give you enter here we are going to 
+
+00:02:04.090 --> 00:02:09.950
+ specify the next parameter of 
+
+00:02:06.670 --> 00:02:12.879
+ the following commands we are going to export 
+
+00:02:09.950 --> 00:02:12.879
+ sports 
+
+00:02:13.100 --> 00:02:16.970
+ the unit of a unit that I already have 
+
+00:02:15.290 --> 00:02:19.220
+ mounted on my server to pass the 
+
+00:02:16.970 --> 00:02:21.410
+ file that we will generate from my 
+
+00:02:19.220 --> 00:02:24.860
+ server windows server 2003 to 2012 
+
+00:02:21.410 --> 00:02:28.130
+ let's in the unit of 2 points is the 
+
+00:02:24.860 --> 00:02:30.280
+ dge and let's name it windows 
+
+00:02:28.130 --> 00:02:32.819
+ server 2003 
+
+00:02:30.280 --> 00:02:36.120
+ from hcp 
+
+00:02:32.819 --> 00:02:38.489
+ and we passed the parameter to him 
+
+00:02:36.120 --> 00:02:41.219
+ Export all the configuration we give 
+
+00:02:38.489 --> 00:02:44.200
+ enter and we will wait for the command 
+
+00:02:41.219 --> 00:02:47.440
+ finish correctly 
+
+00:02:44.200 --> 00:02:49.959
+ as we see are four commands very 
+
+00:02:47.440 --> 00:02:54.340
+ basic here we see that it was completed with 
+
+00:02:49.959 --> 00:02:57.879
+ success the first is net sh 
+
+00:02:54.340 --> 00:02:59.830
+ the second is from hcp and the third 
+
+00:02:57.879 --> 00:03:02.860
+ we specify server with the ip address 
+
+00:02:59.830 --> 00:03:06.370
+ from our server that has the hp 
+
+00:03:02.860 --> 00:03:08.319
+ assembled at this time and with export and 
+
+00:03:06.370 --> 00:03:11.110
+ we specify a route to save the 
+
+00:03:08.319 --> 00:03:14.549
+ file with the parameter all if we go to 
+
+00:03:11.110 --> 00:03:17.970
+ look in our unit with the end and 
+
+00:03:14.549 --> 00:03:21.129
+ let's see that we already have the file 
+
+00:03:17.970 --> 00:03:22.510
+ ready to be taken to the other server 
+
+00:03:21.129 --> 00:03:24.870
+ we can pass it by network 
+
+00:03:22.510 --> 00:03:28.740
+ I'm going to do it by means of a unit 
+
+00:03:24.870 --> 00:03:32.040
+ for which I am going to disassemble my unit 
+
+00:03:28.740 --> 00:03:34.290
+ here in my virtual machine that I already have 
+
+00:03:32.040 --> 00:03:36.770
+ connected out there is coaching we're going to 
+
+00:03:34.290 --> 00:03:36.770
+ remove it 
+
+00:03:37.200 --> 00:03:45.020
+ and I'm going to now to my server I'm going to ride 
+
+00:03:41.819 --> 00:03:48.460
+ my unit and I'm looking for you I'm commenting 
+
+00:03:45.020 --> 00:03:48.460
+ what do I have configured 
+
+00:03:48.590 --> 00:03:53.260
+ I'm going to assemble my unit where I already have the 
+
+00:03:50.989 --> 00:03:55.330
+ response file to the created file 
+
+00:03:53.260 --> 00:03:57.940
+ with 
+
+00:03:55.330 --> 00:04:01.060
+ the configuration here in my windows 
+
+00:03:57.940 --> 00:04:03.940
+ server 2002 in 2012 I already have installed 
+
+00:04:01.060 --> 00:04:06.040
+ the role of hcp as you can see I have it 
+
+00:04:03.940 --> 00:04:07.450
+ ready the last thing we're going to do is 
+
+00:04:06.040 --> 00:04:09.730
+ complete the configuration we are going to 
+
+00:04:07.450 --> 00:04:11.950
+ authorize our server and let's 
+
+00:04:09.730 --> 00:04:13.990
+ give it next and we will confirm 
+
+00:04:11.950 --> 00:04:16.690
+ authorize our dhcp server in 
+
+00:04:13.990 --> 00:04:19.209
+ windows server 2012 in the normal process 
+
+00:04:16.690 --> 00:04:22.530
+ to add the role of hcp 
+
+00:04:19.209 --> 00:04:25.590
+ we give it close and we give it close here 
+
+00:04:22.530 --> 00:04:28.110
+ then to continue 
+
+00:04:25.590 --> 00:04:31.970
+ we leave we also open a symbol of 
+
+00:04:28.110 --> 00:04:31.970
+ system in our windows server 2012 
+
+00:04:33.230 --> 00:04:37.360
+ as an administrator if you can 
+
+00:04:37.520 --> 00:04:42.740
+ and what we are going to do now we are going to 
+
+00:04:40.270 --> 00:04:44.930
+ confirm that our unit is 
+
+00:04:42.740 --> 00:04:48.050
+ mounted as we see it here we have it 
+
+00:04:44.930 --> 00:04:50.629
+ list also now with the letter ey 
+
+00:04:48.050 --> 00:04:52.879
+ we have the file that we bring from 
+
+00:04:50.629 --> 00:04:54.530
+ windows server 2003 then what 
+
+00:04:52.879 --> 00:04:57.289
+ let's do it again with the 
+
+00:04:54.530 --> 00:05:01.960
+ net command sh 
+
+00:04:57.289 --> 00:05:01.960
+ we started the hcp cousins 
+
+00:05:04.009 --> 00:05:08.839
+ we are in hp tells us a question that 
+
+00:05:06.860 --> 00:05:11.389
+ Microsoft recommends that you move to windows 
+
+00:05:08.839 --> 00:05:14.020
+ by chelsea and currently use ssh to 
+
+00:05:11.389 --> 00:05:16.610
+ configure and manage hp service 
+
+00:05:14.020 --> 00:05:19.009
+ we can see normally perform the 
+
+00:05:16.610 --> 00:05:21.540
+ configuration and we're going to explain the 
+
+00:05:19.009 --> 00:05:24.210
+ server parameter 
+
+00:05:21.540 --> 00:05:27.920
+ so that the cows and now the 
+
+00:05:24.210 --> 00:05:32.560
+ ip address of my server 
+
+00:05:27.920 --> 00:05:35.080
+ windows server 2012 which is 05 
+
+00:05:32.560 --> 00:05:40.139
+ let's enter and here what we're going to do 
+
+00:05:35.080 --> 00:05:42.539
+ is to pass the import command 
+
+00:05:40.139 --> 00:05:45.479
+ with the path where the file is from and 
+
+00:05:42.539 --> 00:05:52.610
+ how is the file called two points for 
+
+00:05:45.479 --> 00:05:52.610
+ what is lars and windows server 2003 from hcp 
+
+00:05:53.569 --> 00:06:01.449
+ and we passed the command or the parameter 
+
+00:05:58.249 --> 00:06:01.449
+ we 're going to enter 
+
+00:06:02.540 --> 00:06:07.000
+ and let us hope that we 
+
+00:06:08.120 --> 00:06:12.560
+ end the command as we see here we 
+
+00:06:10.520 --> 00:06:15.010
+ says that the command was completed 
+
+00:06:12.560 --> 00:06:18.320
+ correctly we already have our 
+
+00:06:15.010 --> 00:06:20.030
+ dhcp server imported to our 
+
+00:06:18.320 --> 00:06:24.050
+ windows server 2012 we came out with the 
+
+00:06:20.030 --> 00:06:27.320
+ command exit and exit again we are going to 
+
+00:06:24.050 --> 00:06:29.419
+ corroborate and let's see if as we have 
+
+00:06:27.320 --> 00:06:32.670
+ our hcp we can tools 
+
+00:06:29.419 --> 00:06:34.980
+ we open our hcp console 
+
+00:06:32.670 --> 00:06:37.340
+ let's see what configuration we have 
+
+00:06:34.980 --> 00:06:37.340
+ now 
+
+00:06:38.270 --> 00:06:47.410
+ and as you can see we have our same 
+
+00:06:41.090 --> 00:06:47.410
+ scope of hcp with the same 
+
+00:06:48.340 --> 00:06:51.190
+ address set that 
+
+00:06:49.660 --> 00:06:53.919
+ we specify on our server 
+
+00:06:51.190 --> 00:06:56.500
+ windows server 2012 then as we see 
+
+00:06:53.919 --> 00:07:00.520
+ It is very easy to import and 
+
+00:06:56.500 --> 00:07:02.350
+ Exporting our dhcp server from 
+
+00:07:00.520 --> 00:07:06.400
+ windows server 2003 to windows server 
+
+00:07:02.350 --> 00:07:09.370
+ 2012 I hope it will be very helpful 
+
+00:07:06.400 --> 00:07:13.410
+ this video and see you in a 
+
+00:07:09.370 --> 00:07:13.410
+ next time until soon 
+

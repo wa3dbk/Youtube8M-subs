@@ -1,0 +1,255 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.640 --> 00:00:06.330
+Often you will need to
+define multiple states
+
+00:00:06.330 --> 00:00:09.890
+for your robot, which you could
+think of as behavior states.
+
+00:00:09.890 --> 00:00:13.850
+For example, if we had our
+ultrasonic sensor looking out
+
+00:00:13.850 --> 00:00:17.970
+in this direction, a
+simple object detector
+
+00:00:17.970 --> 00:00:19.500
+could be based on two states.
+
+00:00:19.500 --> 00:00:21.600
+So let's say this is
+20 centimeters away.
+
+00:00:21.600 --> 00:00:25.610
+State A is if it
+detects anything here,
+
+00:00:25.610 --> 00:00:28.260
+and state B is if it
+detects an object out
+
+00:00:28.260 --> 00:00:30.380
+here or no object at all.
+
+00:00:30.380 --> 00:00:33.060
+And in these states,
+you could do anything.
+
+00:00:33.060 --> 00:00:36.290
+State A could be playing tone
+A or turning on the motors
+
+00:00:36.290 --> 00:00:39.270
+or turning on a light or
+running a whole other program.
+
+00:00:39.270 --> 00:00:42.440
+And equivalently, state
+B could be anything.
+
+00:00:42.440 --> 00:00:47.170
+However, what happens if we
+need to introduce another state?
+
+00:00:47.170 --> 00:00:50.320
+Now, before I do this, remember
+to solve this object detector
+
+00:00:50.320 --> 00:00:53.740
+program we could just use a
+single switch statement, right?
+
+00:00:53.740 --> 00:00:55.230
+The switch statement
+is controlled
+
+00:00:55.230 --> 00:00:57.830
+by the ultrasonic sensor
+and it would say, oh,
+
+00:00:57.830 --> 00:00:59.470
+is it less than 20?
+
+00:00:59.470 --> 00:01:02.860
+Then go to do A. And if
+it's greater than 20,
+
+00:01:02.860 --> 00:01:04.230
+then go to do B.
+
+00:01:04.230 --> 00:01:07.490
+So what happens if there's
+state C, which is, let's say,
+
+00:01:07.490 --> 00:01:10.080
+anything which is greater
+than 40 centimeters away?
+
+00:01:10.080 --> 00:01:12.600
+So we have this
+intermediary region B here.
+
+00:01:12.600 --> 00:01:15.850
+We can't solve this with
+a single switch statement.
+
+00:01:15.850 --> 00:01:18.450
+So what we can do, and
+what's important to realize,
+
+00:01:18.450 --> 00:01:21.730
+is you can nest switch
+statements multiple times
+
+00:01:21.730 --> 00:01:24.220
+and it would look like this.
+
+00:01:24.220 --> 00:01:26.770
+And it's simply a
+cascading decision.
+
+00:01:26.770 --> 00:01:28.300
+So B and C are here.
+
+00:01:28.300 --> 00:01:30.280
+And let's think about
+how this might work.
+
+00:01:30.280 --> 00:01:35.500
+Our program begins here and
+first it will ask the question,
+
+00:01:35.500 --> 00:01:38.380
+is the object less than
+20 centimeters away?
+
+00:01:38.380 --> 00:01:44.260
+And if it is, it's going to
+do A. So A is this region.
+
+00:01:44.260 --> 00:01:47.990
+And if not, we go
+ask another question.
+
+00:01:47.990 --> 00:01:51.040
+And think of it as a divide
+and conquer approach.
+
+00:01:51.040 --> 00:01:53.670
+The second switch statement
+is just looking at this region
+
+00:01:53.670 --> 00:01:56.320
+now, because we've already
+taken care of state A.
+
+00:01:56.320 --> 00:01:58.500
+And now this switch
+statement, the solution
+
+00:01:58.500 --> 00:02:02.730
+would be to ask is the object
+greater than 40 centimeters
+
+00:02:02.730 --> 00:02:06.270
+away, which would take care
+of C. And if it's true,
+
+00:02:06.270 --> 00:02:09.620
+we'll go jump to state
+C. And if it's not true,
+
+00:02:09.620 --> 00:02:14.320
+we'll be left over at state B.
+Now, if we had another state D
+
+00:02:14.320 --> 00:02:17.450
+and we can best multiple
+switch statements,
+
+00:02:17.450 --> 00:02:19.040
+as many as you need.
+
+00:02:19.040 --> 00:02:22.800
+Now, to nest switch statements
+in the Mindstorms environment,
+
+00:02:22.800 --> 00:02:23.680
+it's very easy.
+
+00:02:23.680 --> 00:02:25.070
+It's just dragging and dropping.
+
+00:02:25.070 --> 00:02:27.660
+So for example, let's
+say I had this set up
+
+00:02:27.660 --> 00:02:29.690
+for the ultrasonic sensor here.
+
+00:02:29.690 --> 00:02:31.750
+Right now we have two states.
+
+00:02:31.750 --> 00:02:35.070
+I can drag another
+switch statement here.
+
+00:02:35.070 --> 00:02:40.850
+And now we have the three
+states, as you can see here.
+
+00:02:40.850 --> 00:02:43.450
+I'll put a sound block here
+just so it expands a little bit.
+
+00:02:43.450 --> 00:02:46.760
+See, here's A, B,
+and C. And if we
+
+00:02:46.760 --> 00:02:51.640
+needed to define four
+states, we could similarly
+
+00:02:51.640 --> 00:02:54.100
+drag another switch
+statement here.
+
+00:02:54.100 --> 00:02:56.710
+So now there is four
+different states
+
+00:02:56.710 --> 00:03:00.430
+our program could execute in.
+
+00:03:00.430 --> 00:03:02.590
+So it's as simple as that.
+
+00:03:02.590 --> 00:03:05.470
+The first step, though,
+is to really draw out
+
+00:03:05.470 --> 00:03:07.900
+how your switch statements
+will work and make
+
+00:03:07.900 --> 00:03:09.620
+sure you can just
+walk through it.
+
+00:03:09.620 --> 00:03:13.050
+And then you can just arrange
+your switch statements here
+
+00:03:13.050 --> 00:03:15.770
+and make sure your comparison
+settings are correct.
+
+00:03:15.770 --> 00:03:20.020
+And that is how you
+nest switch statements.
+

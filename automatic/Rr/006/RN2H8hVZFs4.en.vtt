@@ -1,0 +1,392 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.909 --> 00:00:04.820 
+
+welcome<00:00:02.909> to<00:00:03.179> my<00:00:03.330> implementation<00:00:03.720> of<00:00:04.380> Conway's
+
+00:00:04.820 --> 00:00:04.830 
+welcome to my implementation of Conway's
+
+00:00:04.830 --> 00:00:07.610 
+welcome to my implementation of Conway's
+Game<00:00:04.980> of<00:00:05.100> Life<00:00:05.250> in<00:00:05.520> Minecraft<00:00:06.000> as<00:00:06.270> you<00:00:07.200> can<00:00:07.410> see
+
+00:00:07.610 --> 00:00:07.620 
+Game of Life in Minecraft as you can see
+
+00:00:07.620 --> 00:00:11.720 
+Game of Life in Minecraft as you can see
+I<00:00:07.649> have<00:00:07.890> a<00:00:08.099> 6<00:00:08.639> by<00:00:08.849> 6<00:00:08.880> matrix<00:00:09.240> here<00:00:10.340> for<00:00:11.340> those<00:00:11.550> of
+
+00:00:11.720 --> 00:00:11.730 
+I have a 6 by 6 matrix here for those of
+
+00:00:11.730 --> 00:00:13.160 
+I have a 6 by 6 matrix here for those of
+you<00:00:11.880> who<00:00:12.030> are<00:00:12.059> not<00:00:12.210> familiar<00:00:12.269> with<00:00:12.780> Conway's
+
+00:00:13.160 --> 00:00:13.170 
+you who are not familiar with Conway's
+
+00:00:13.170 --> 00:00:15.560 
+you who are not familiar with Conway's
+Game<00:00:13.349> of<00:00:13.500> Life<00:00:13.559> all<00:00:14.099> of<00:00:14.940> these<00:00:15.089> torches
+
+00:00:15.560 --> 00:00:15.570 
+Game of Life all of these torches
+
+00:00:15.570 --> 00:00:18.590 
+Game of Life all of these torches
+represent<00:00:16.320> cells<00:00:16.619> a<00:00:16.949> dead<00:00:17.670> cell<00:00:17.910> can<00:00:18.210> come<00:00:18.420> to
+
+00:00:18.590 --> 00:00:18.600 
+represent cells a dead cell can come to
+
+00:00:18.600 --> 00:00:20.840 
+represent cells a dead cell can come to
+life<00:00:18.750> if<00:00:18.960> it<00:00:19.080> has<00:00:19.320> exactly<00:00:19.619> three<00:00:20.039> live
+
+00:00:20.840 --> 00:00:20.850 
+life if it has exactly three live
+
+00:00:20.850 --> 00:00:23.269 
+life if it has exactly three live
+neighbors<00:00:21.300> and<00:00:21.510> a<00:00:22.289> live<00:00:22.500> neighbor<00:00:22.800> will<00:00:23.100> live
+
+00:00:23.269 --> 00:00:23.279 
+neighbors and a live neighbor will live
+
+00:00:23.279 --> 00:00:25.519 
+neighbors and a live neighbor will live
+on<00:00:23.519> if<00:00:23.760> it<00:00:23.970> has<00:00:24.119> two<00:00:24.390> or<00:00:24.630> three<00:00:24.900> live<00:00:25.109> neighbors
+
+00:00:25.519 --> 00:00:25.529 
+on if it has two or three live neighbors
+
+00:00:25.529 --> 00:00:28.939 
+on if it has two or three live neighbors
+otherwise<00:00:26.039> it<00:00:26.250> dies<00:00:27.320> okay<00:00:28.320> so<00:00:28.380> let's<00:00:28.710> start
+
+00:00:28.939 --> 00:00:28.949 
+otherwise it dies okay so let's start
+
+00:00:28.949 --> 00:00:32.840 
+otherwise it dies okay so let's start
+this<00:00:29.130> machine<00:00:30.500> now<00:00:31.500> because<00:00:31.890> red<00:00:32.520> zone<00:00:32.730> is
+
+00:00:32.840 --> 00:00:32.850 
+this machine now because red zone is
+
+00:00:32.850 --> 00:00:34.729 
+this machine now because red zone is
+really<00:00:33.120> so<00:00:33.360> slow<00:00:33.750> this<00:00:34.050> will<00:00:34.260> take<00:00:34.440> some<00:00:34.500> time
+
+00:00:34.729 --> 00:00:34.739 
+really so slow this will take some time
+
+00:00:34.739 --> 00:00:37.729 
+really so slow this will take some time
+to<00:00:35.280> compute<00:00:35.700> and<00:00:36.000> in<00:00:36.840> the<00:00:36.930> meantime<00:00:37.140> I'll<00:00:37.559> give
+
+00:00:37.729 --> 00:00:37.739 
+to compute and in the meantime I'll give
+
+00:00:37.739 --> 00:00:42.950 
+to compute and in the meantime I'll give
+you<00:00:37.829> a<00:00:37.890> quick<00:00:38.100> tour<00:00:38.340> of<00:00:38.579> the<00:00:39.000> machine<00:00:41.960> these
+
+00:00:42.950 --> 00:00:42.960 
+you a quick tour of the machine these
+
+00:00:42.960 --> 00:00:47.440 
+you a quick tour of the machine these
+here<00:00:43.350> are<00:00:43.700> clocks<00:00:44.700> they<00:00:45.480> power<00:00:46.140> their
+
+00:00:47.440 --> 00:00:47.450 
+here are clocks they power their
+
+00:00:47.450 --> 00:00:51.190 
+here are clocks they power their
+respective<00:00:48.450> line<00:00:48.690> for<00:00:49.289> the<00:00:49.440> cells
+
+00:00:51.190 --> 00:00:51.200 
+respective line for the cells
+
+00:00:51.200 --> 00:00:54.910 
+respective line for the cells
+and<00:00:51.370> these<00:00:52.370> here<00:00:52.790> are<00:00:52.970> the<00:00:53.330> cells<00:00:53.600> every<00:00:54.530> cell
+
+00:00:54.910 --> 00:00:54.920 
+and these here are the cells every cell
+
+00:00:54.920 --> 00:00:59.320 
+and these here are the cells every cell
+has<00:00:54.950> four<00:00:55.490> inputs<00:00:56.680> this<00:00:57.680> up<00:00:57.980> here<00:00:58.400> is<00:00:58.550> the<00:00:59.120> call
+
+00:00:59.320 --> 00:00:59.330 
+has four inputs this up here is the call
+
+00:00:59.330 --> 00:01:02.740 
+has four inputs this up here is the call
+line<00:00:59.660> it<00:01:00.170> calls<00:01:00.560> the<00:01:00.860> status<00:01:01.430> of<00:01:01.610> the<00:01:02.300> cell<00:01:02.570> if
+
+00:01:02.740 --> 00:01:02.750 
+line it calls the status of the cell if
+
+00:01:02.750 --> 00:01:05.200 
+line it calls the status of the cell if
+a<00:01:02.980> neighboring<00:01:03.980> cell<00:01:04.220> is<00:01:04.430> currently<00:01:04.760> active
+
+00:01:05.200 --> 00:01:05.210 
+a neighboring cell is currently active
+
+00:01:05.210 --> 00:01:09.160 
+a neighboring cell is currently active
+and<00:01:05.890> that<00:01:06.890> thatís<00:01:07.400> is<00:01:07.640> reported<00:01:08.330> back<00:01:08.840> there
+
+00:01:09.160 --> 00:01:09.170 
+and that thatís is reported back there
+
+00:01:09.170 --> 00:01:13.150 
+and that thatís is reported back there
+to<00:01:09.620> the<00:01:09.770> adding<00:01:10.190> machine<00:01:11.470> this<00:01:12.470> here<00:01:12.740> is<00:01:12.770> the
+
+00:01:13.150 --> 00:01:13.160 
+to the adding machine this here is the
+
+00:01:13.160 --> 00:01:15.580 
+to the adding machine this here is the
+activate<00:01:13.729> line<00:01:13.970> it<00:01:14.210> activates<00:01:14.930> the<00:01:15.050> cell<00:01:15.320> and
+
+00:01:15.580 --> 00:01:15.590 
+activate line it activates the cell and
+
+00:01:15.590 --> 00:01:19.810 
+activate line it activates the cell and
+tells<00:01:16.370> it<00:01:16.610> to<00:01:17.080> read<00:01:18.080> from<00:01:18.560> this<00:01:18.979> input<00:01:19.220> which
+
+00:01:19.810 --> 00:01:19.820 
+tells it to read from this input which
+
+00:01:19.820 --> 00:01:23.620 
+tells it to read from this input which
+is<00:01:20.060> the<00:01:20.420> new<00:01:20.600> status<00:01:21.080> line<00:01:22.060> the<00:01:23.060> new<00:01:23.240> status
+
+00:01:23.620 --> 00:01:23.630 
+is the new status line the new status
+
+00:01:23.630 --> 00:01:25.990 
+is the new status line the new status
+for<00:01:23.840> the<00:01:24.020> cell<00:01:24.259> is<00:01:24.530> then<00:01:25.070> stored<00:01:25.310> in<00:01:25.610> this<00:01:25.759> D
+
+00:01:25.990 --> 00:01:26.000 
+for the cell is then stored in this D
+
+00:01:26.000 --> 00:01:30.430 
+for the cell is then stored in this D
+latch<00:01:26.210> here<00:01:26.570> and<00:01:27.940> if<00:01:28.940> all<00:01:29.270> the<00:01:29.630> cells<00:01:29.930> are<00:01:30.200> done
+
+00:01:30.430 --> 00:01:30.440 
+latch here and if all the cells are done
+
+00:01:30.440 --> 00:01:33.850 
+latch here and if all the cells are done
+then<00:01:31.430> this<00:01:32.090> line<00:01:32.420> will<00:01:32.690> turn<00:01:32.900> on<00:01:33.170> and<00:01:33.440> the
+
+00:01:33.850 --> 00:01:33.860 
+then this line will turn on and the
+
+00:01:33.860 --> 00:01:37.120 
+then this line will turn on and the
+newly<00:01:34.280> computed<00:01:34.910> status<00:01:35.330> will<00:01:36.140> be<00:01:36.350> stored<00:01:36.890> in
+
+00:01:37.120 --> 00:01:37.130 
+newly computed status will be stored in
+
+00:01:37.130 --> 00:01:39.790 
+newly computed status will be stored in
+this<00:01:37.310> D<00:01:37.580> latch<00:01:37.759> here<00:01:38.150> I<00:01:38.330> made<00:01:39.229> it<00:01:39.259> this<00:01:39.500> way<00:01:39.560> so
+
+00:01:39.790 --> 00:01:39.800 
+this D latch here I made it this way so
+
+00:01:39.800 --> 00:01:43.060 
+this D latch here I made it this way so
+that<00:01:40.070> when<00:01:40.729> a<00:01:41.000> cell<00:01:41.360> gets<00:01:41.570> a<00:01:41.690> new<00:01:41.840> status<00:01:42.290> it
+
+00:01:43.060 --> 00:01:43.070 
+that when a cell gets a new status it
+
+00:01:43.070 --> 00:01:44.950 
+that when a cell gets a new status it
+doesn't<00:01:43.550> confuse<00:01:43.970> the<00:01:44.390> cells<00:01:44.750> that<00:01:44.899> are
+
+00:01:44.950 --> 00:01:44.960 
+doesn't confuse the cells that are
+
+00:01:44.960 --> 00:01:49.030 
+doesn't confuse the cells that are
+activated<00:01:45.649> off<00:01:45.770> to<00:01:46.009> it<00:01:47.290> now<00:01:48.290> this<00:01:48.530> back<00:01:48.800> here
+
+00:01:49.030 --> 00:01:49.040 
+activated off to it now this back here
+
+00:01:49.040 --> 00:01:50.859 
+activated off to it now this back here
+as<00:01:49.190> I<00:01:49.310> mentioned<00:01:49.640> before<00:01:49.759> is<00:01:50.210> my<00:01:50.420> adding
+
+00:01:50.859 --> 00:01:50.869 
+as I mentioned before is my adding
+
+00:01:50.869 --> 00:01:54.840 
+as I mentioned before is my adding
+machine<00:01:51.970> it<00:01:52.970> takes<00:01:53.270> three<00:01:53.600> inputs<00:01:54.259> and
+
+00:01:54.840 --> 00:01:54.850 
+machine it takes three inputs and
+
+00:01:54.850 --> 00:01:59.110 
+machine it takes three inputs and
+outputs<00:01:55.850> a<00:01:56.030> two-digit<00:01:56.929> binary<00:01:57.380> number
+
+00:01:59.110 --> 00:01:59.120 
+outputs a two-digit binary number
+
+00:01:59.120 --> 00:02:03.610 
+outputs a two-digit binary number
+which<00:01:59.750> is<00:01:59.990> then<00:02:01.090> processed<00:02:02.090> here<00:02:02.690> in<00:02:02.840> this<00:02:03.320> big
+
+00:02:03.610 --> 00:02:03.620 
+which is then processed here in this big
+
+00:02:03.620 --> 00:02:05.710 
+which is then processed here in this big
+adding<00:02:04.010> machine<00:02:04.310> which<00:02:04.580> takes<00:02:04.910> three<00:02:05.420> two
+
+00:02:05.710 --> 00:02:05.720 
+adding machine which takes three two
+
+00:02:05.720 --> 00:02:09.370 
+adding machine which takes three two
+digit<00:02:06.140> binary<00:02:06.500> numbers<00:02:06.890> ask<00:02:07.990> them<00:02:08.990> together
+
+00:02:09.370 --> 00:02:09.380 
+digit binary numbers ask them together
+
+00:02:09.380 --> 00:02:12.780 
+digit binary numbers ask them together
+passes<00:02:10.220> it<00:02:10.369> on<00:02:10.520> to<00:02:10.580> the<00:02:11.030> logic<00:02:11.360> unit<00:02:11.480> here<00:02:11.870> and
+
+00:02:12.780 --> 00:02:12.790 
+passes it on to the logic unit here and
+
+00:02:12.790 --> 00:02:15.670 
+passes it on to the logic unit here and
+the<00:02:13.790> logic<00:02:14.120> unit<00:02:14.240> will<00:02:14.570> tell<00:02:14.810> me<00:02:14.960> if<00:02:14.990> the
+
+00:02:15.670 --> 00:02:15.680 
+the logic unit will tell me if the
+
+00:02:15.680 --> 00:02:17.710 
+the logic unit will tell me if the
+currently<00:02:15.980> active<00:02:16.070> cell<00:02:16.700> should<00:02:16.970> be<00:02:17.120> alive<00:02:17.450> or
+
+00:02:17.710 --> 00:02:17.720 
+currently active cell should be alive or
+
+00:02:17.720 --> 00:02:20.770 
+currently active cell should be alive or
+dead<00:02:18.070> right<00:02:19.070> here<00:02:19.370> which<00:02:19.670> is<00:02:19.850> the<00:02:20.150> new<00:02:20.420> status
+
+00:02:20.770 --> 00:02:20.780 
+dead right here which is the new status
+
+00:02:20.780 --> 00:02:25.110 
+dead right here which is the new status
+line<00:02:21.310> I've<00:02:22.310> made<00:02:22.700> two<00:02:23.000> of<00:02:23.210> these<00:02:23.390> to<00:02:23.840> save<00:02:24.110> some
+
+00:02:25.110 --> 00:02:25.120 
+line I've made two of these to save some
+
+00:02:25.120 --> 00:02:28.420 
+line I've made two of these to save some
+wiring<00:02:26.120> which<00:02:26.750> also<00:02:26.990> saves<00:02:27.350> time<00:02:27.710> but<00:02:28.160> still
+
+00:02:28.420 --> 00:02:28.430 
+wiring which also saves time but still
+
+00:02:28.430 --> 00:02:32.680 
+wiring which also saves time but still
+every<00:02:28.730> cell<00:02:28.970> needs<00:02:29.330> 32<00:02:30.080> tix<00:02:30.380> which<00:02:31.270> makes<00:02:32.270> it<00:02:32.480> a
+
+00:02:32.680 --> 00:02:32.690 
+every cell needs 32 tix which makes it a
+
+00:02:32.690 --> 00:02:35.260 
+every cell needs 32 tix which makes it a
+total<00:02:33.260> of<00:02:33.560> two<00:02:33.890> minutes<00:02:34.250> computing<00:02:34.790> time<00:02:35.000> for
+
+00:02:35.260 --> 00:02:35.270 
+total of two minutes computing time for
+
+00:02:35.270 --> 00:02:38.440 
+total of two minutes computing time for
+each<00:02:35.420> step<00:02:35.810> give<00:02:36.350> or<00:02:36.470> take<00:02:36.970> which<00:02:37.970> is<00:02:38.150> still<00:02:38.420> a
+
+00:02:38.440 --> 00:02:38.450 
+each step give or take which is still a
+
+00:02:38.450 --> 00:02:42.850 
+each step give or take which is still a
+lot<00:02:39.910> now<00:02:40.910> I<00:02:40.940> cheated<00:02:41.810> while<00:02:42.200> making<00:02:42.620> this
+
+00:02:42.850 --> 00:02:42.860 
+lot now I cheated while making this
+
+00:02:42.860 --> 00:02:45.670 
+lot now I cheated while making this
+machine<00:02:43.310> I<00:02:43.520> hacked<00:02:43.970> the<00:02:44.330> stuff<00:02:45.290> into<00:02:45.560> my
+
+00:02:45.670 --> 00:02:45.680 
+machine I hacked the stuff into my
+
+00:02:45.680 --> 00:02:48.040 
+machine I hacked the stuff into my
+invaded<00:02:46.250> I<00:02:46.460> I<00:02:46.790> don't<00:02:47.120> know<00:02:47.210> how<00:02:47.330> much<00:02:47.480> redstone
+
+00:02:48.040 --> 00:02:48.050 
+invaded I I don't know how much redstone
+
+00:02:48.050 --> 00:02:54.280 
+invaded I I don't know how much redstone
+i<00:02:48.200> put<00:02:48.410> but<00:02:48.620> it<00:02:48.740> should<00:02:48.950> be<00:02:49.150> above<00:02:50.150> 1000<00:02:53.290> now
+
+00:02:54.280 --> 00:02:54.290 
+i put but it should be above 1000 now
+
+00:02:54.290 --> 00:02:57.310 
+i put but it should be above 1000 now
+this<00:02:54.620> should<00:02:54.680> be<00:02:55.040> done<00:02:55.070> and<00:02:55.630> let's<00:02:56.630> see<00:02:56.960> the
+
+00:02:57.310 --> 00:02:57.320 
+this should be done and let's see the
+
+00:02:57.320 --> 00:03:00.950 
+this should be done and let's see the
+result
+
+00:03:00.950 --> 00:03:00.960 
+
+00:03:00.960 --> 00:03:03.240 
+
+and<00:03:01.050> here<00:03:01.680> it<00:03:01.800> is
+
+00:03:03.240 --> 00:03:03.250 
+and here it is
+
+00:03:03.250 --> 00:03:07.740 
+and here it is
+I<00:03:03.370> hope<00:03:03.940> you<00:03:04.060> enjoyed<00:03:04.360> it<00:03:04.390> and<00:03:04.740> goodbye
+

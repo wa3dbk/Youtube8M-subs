@@ -1,0 +1,1358 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.519 --> 00:00:09.680 
+
+hello<00:00:08.519> everybody<00:00:08.849> in<00:00:09.000> today's<00:00:09.120> video<00:00:09.420> I'm
+
+00:00:09.680 --> 00:00:09.690 
+hello everybody in today's video I'm
+
+00:00:09.690 --> 00:00:11.060 
+hello everybody in today's video I'm
+going<00:00:09.780> to<00:00:09.840> show<00:00:09.960> you<00:00:10.019> how<00:00:10.200> I<00:00:10.230> solve<00:00:10.679> the<00:00:10.860> last
+
+00:00:11.060 --> 00:00:11.070 
+going to show you how I solve the last
+
+00:00:11.070 --> 00:00:13.280 
+going to show you how I solve the last
+four<00:00:11.490> edges<00:00:11.730> on<00:00:12.240> the<00:00:12.389> nine<00:00:12.570> by<00:00:12.780> nine<00:00:12.990> as<00:00:13.170> you
+
+00:00:13.280 --> 00:00:13.290 
+four edges on the nine by nine as you
+
+00:00:13.290 --> 00:00:14.930 
+four edges on the nine by nine as you
+can<00:00:13.410> see<00:00:13.559> these<00:00:13.710> four<00:00:14.070> on<00:00:14.219> top<00:00:14.429> or<00:00:14.639> done<00:00:14.759> the
+
+00:00:14.930 --> 00:00:14.940 
+can see these four on top or done the
+
+00:00:14.940 --> 00:00:17.390 
+can see these four on top or done the
+four<00:00:15.179> on<00:00:15.450> the<00:00:15.690> bottom<00:00:15.839> are<00:00:16.170> done<00:00:16.320> and<00:00:16.560> the<00:00:17.190> last
+
+00:00:17.390 --> 00:00:17.400 
+four on the bottom are done and the last
+
+00:00:17.400 --> 00:00:18.890 
+four on the bottom are done and the last
+four<00:00:17.730> is<00:00:17.880> usually<00:00:18.180> where<00:00:18.300> people<00:00:18.570> get<00:00:18.720> a
+
+00:00:18.890 --> 00:00:18.900 
+four is usually where people get a
+
+00:00:18.900 --> 00:00:21.200 
+four is usually where people get a
+little<00:00:19.109> bit<00:00:19.260> stuck<00:00:19.680> so<00:00:20.460> what<00:00:20.760> I'm<00:00:20.850> going<00:00:21.000> to<00:00:21.029> do
+
+00:00:21.200 --> 00:00:21.210 
+little bit stuck so what I'm going to do
+
+00:00:21.210 --> 00:00:22.820 
+little bit stuck so what I'm going to do
+is<00:00:21.510> show<00:00:22.080> you<00:00:22.140> how<00:00:22.170> to<00:00:22.289> do<00:00:22.410> that<00:00:22.560> now<00:00:22.769> the
+
+00:00:22.820 --> 00:00:22.830 
+is show you how to do that now the
+
+00:00:22.830 --> 00:00:24.800 
+is show you how to do that now the
+algorithm<00:00:23.279> that<00:00:23.580> I'm<00:00:23.699> going<00:00:23.820> to<00:00:23.850> use<00:00:23.910> actually
+
+00:00:24.800 --> 00:00:24.810 
+algorithm that I'm going to use actually
+
+00:00:24.810 --> 00:00:27.320 
+algorithm that I'm going to use actually
+flips<00:00:25.140> a<00:00:25.289> hole<00:00:25.470> edge<00:00:25.769> and<00:00:26.099> I'm<00:00:27.060> going<00:00:27.180> to<00:00:27.210> show
+
+00:00:27.320 --> 00:00:27.330 
+flips a hole edge and I'm going to show
+
+00:00:27.330 --> 00:00:28.700 
+flips a hole edge and I'm going to show
+you<00:00:27.390> that<00:00:27.539> algorithm<00:00:27.960> now<00:00:28.080> it'll<00:00:28.320> also<00:00:28.410> be<00:00:28.619> in
+
+00:00:28.700 --> 00:00:28.710 
+you that algorithm now it'll also be in
+
+00:00:28.710 --> 00:00:30.080 
+you that algorithm now it'll also be in
+the<00:00:28.769> description<00:00:28.859> but<00:00:29.369> I'm<00:00:29.460> going<00:00:29.609> to<00:00:29.670> explain
+
+00:00:30.080 --> 00:00:30.090 
+the description but I'm going to explain
+
+00:00:30.090 --> 00:00:32.720 
+the description but I'm going to explain
+it<00:00:30.269> right<00:00:30.420> now<00:00:30.660> and<00:00:30.960> then<00:00:31.619> I'm<00:00:32.250> just<00:00:32.550> going<00:00:32.700> to
+
+00:00:32.720 --> 00:00:32.730 
+it right now and then I'm just going to
+
+00:00:32.730 --> 00:00:34.220 
+it right now and then I'm just going to
+do<00:00:32.910> it<00:00:33.059> after<00:00:33.239> that<00:00:33.660> so<00:00:33.840> I'm<00:00:33.930> not<00:00:34.020> going<00:00:34.140> to
+
+00:00:34.220 --> 00:00:34.230 
+do it after that so I'm not going to
+
+00:00:34.230 --> 00:00:35.450 
+do it after that so I'm not going to
+explain<00:00:34.440> it<00:00:34.620> every<00:00:34.829> single<00:00:35.010> time<00:00:35.280> I'm<00:00:35.370> just
+
+00:00:35.450 --> 00:00:35.460 
+explain it every single time I'm just
+
+00:00:35.460 --> 00:00:36.830 
+explain it every single time I'm just
+going<00:00:35.610> to<00:00:35.700> call<00:00:35.850> it<00:00:35.910> the<00:00:36.030> flipping<00:00:36.390> algorithm
+
+00:00:36.830 --> 00:00:36.840 
+going to call it the flipping algorithm
+
+00:00:36.840 --> 00:00:39.470 
+going to call it the flipping algorithm
+as<00:00:36.930> most<00:00:37.140> people<00:00:37.410> know<00:00:37.440> it<00:00:37.710> and<00:00:38.239> the<00:00:39.239> algorithm
+
+00:00:39.470 --> 00:00:39.480 
+as most people know it and the algorithm
+
+00:00:39.480 --> 00:00:42.020 
+as most people know it and the algorithm
+flips<00:00:40.230> over<00:00:40.530> the<00:00:41.100> edge<00:00:41.219> on<00:00:41.520> the<00:00:41.550> right<00:00:41.700> you
+
+00:00:42.020 --> 00:00:42.030 
+flips over the edge on the right you
+
+00:00:42.030 --> 00:00:43.160 
+flips over the edge on the right you
+could<00:00:42.180> probably<00:00:42.329> learn<00:00:42.600> it<00:00:42.780> on<00:00:42.870> your<00:00:42.989> left
+
+00:00:43.160 --> 00:00:43.170 
+could probably learn it on your left
+
+00:00:43.170 --> 00:00:44.569 
+could probably learn it on your left
+hand<00:00:43.379> but<00:00:43.530> I<00:00:43.559> find<00:00:43.829> it<00:00:43.890> easier<00:00:43.920> to<00:00:44.129> just<00:00:44.370> cube
+
+00:00:44.569 --> 00:00:44.579 
+hand but I find it easier to just cube
+
+00:00:44.579 --> 00:00:45.979 
+hand but I find it easier to just cube
+rotate<00:00:44.940> and<00:00:45.120> do<00:00:45.180> it<00:00:45.300> especially<00:00:45.390> on<00:00:45.690> a<00:00:45.809> big
+
+00:00:45.979 --> 00:00:45.989 
+rotate and do it especially on a big
+
+00:00:45.989 --> 00:00:48.200 
+rotate and do it especially on a big
+cube<00:00:46.289> like<00:00:46.469> this<00:00:46.680> but<00:00:47.579> the<00:00:47.670> algorithm
+
+00:00:48.200 --> 00:00:48.210 
+cube like this but the algorithm
+
+00:00:48.210 --> 00:00:55.549 
+cube like this but the algorithm
+actually<00:00:48.390> goes<00:00:48.840> R<00:00:49.370> u<00:00:50.370> R<00:00:50.640> prime<00:00:51.539> F<00:00:52.789> R<00:00:53.789> prime<00:00:54.559> F
+
+00:00:55.549 --> 00:00:55.559 
+actually goes R u R prime F R prime F
+
+00:00:55.559 --> 00:00:59.360 
+actually goes R u R prime F R prime F
+prime<00:00:56.160> R<00:00:56.960> what<00:00:57.960> that<00:00:58.109> did<00:00:58.320> is<00:00:58.500> it<00:00:58.770> flipped<00:00:59.070> this
+
+00:00:59.360 --> 00:00:59.370 
+prime R what that did is it flipped this
+
+00:00:59.370 --> 00:01:03.110 
+prime R what that did is it flipped this
+whole<00:00:59.609> side<00:00:59.969> over<00:01:00.420> and<00:01:01.370> so<00:01:02.370> I<00:01:02.399> can<00:01:02.699> see<00:01:02.879> here
+
+00:01:03.110 --> 00:01:03.120 
+whole side over and so I can see here
+
+00:01:03.120 --> 00:01:04.880 
+whole side over and so I can see here
+we've<00:01:03.270> got<00:01:03.420> all<00:01:03.480> these<00:01:03.660> oranges<00:01:04.080> done<00:01:04.320> we've
+
+00:01:04.880 --> 00:01:04.890 
+we've got all these oranges done we've
+
+00:01:04.890 --> 00:01:06.890 
+we've got all these oranges done we've
+got<00:01:05.070> these<00:01:05.220> three<00:01:05.460> Reds<00:01:05.820> but<00:01:06.119> of<00:01:06.420> course<00:01:06.750> this
+
+00:01:06.890 --> 00:01:06.900 
+got these three Reds but of course this
+
+00:01:06.900 --> 00:01:08.929 
+got these three Reds but of course this
+is<00:01:07.080> not<00:01:07.290> where<00:01:07.530> they're<00:01:07.710> supposed<00:01:07.950> to<00:01:08.070> be<00:01:08.130> see
+
+00:01:08.929 --> 00:01:08.939 
+is not where they're supposed to be see
+
+00:01:08.939 --> 00:01:10.850 
+is not where they're supposed to be see
+this<00:01:09.180> is<00:01:09.330> the<00:01:09.420> orange<00:01:09.780> center<00:01:10.320> here<00:01:10.560> because
+
+00:01:10.850 --> 00:01:10.860 
+this is the orange center here because
+
+00:01:10.860 --> 00:01:13.670 
+this is the orange center here because
+this<00:01:11.010> the<00:01:11.430> middle<00:01:12.030> one<00:01:12.180> never<00:01:12.390> you<00:01:12.900> know<00:01:13.020> the
+
+00:01:13.670 --> 00:01:13.680 
+this the middle one never you know the
+
+00:01:13.680 --> 00:01:15.410 
+this the middle one never you know the
+middle<00:01:13.830> one<00:01:14.070> is<00:01:14.189> right<00:01:14.460> so<00:01:14.760> I<00:01:14.790> have<00:01:15.150> to<00:01:15.270> build
+
+00:01:15.410 --> 00:01:15.420 
+middle one is right so I have to build
+
+00:01:15.420 --> 00:01:17.270 
+middle one is right so I have to build
+all<00:01:15.540> of<00:01:15.780> them<00:01:15.900> on<00:01:16.080> based<00:01:16.650> on<00:01:16.830> the<00:01:16.950> middle<00:01:17.159> and
+
+00:01:17.270 --> 00:01:17.280 
+all of them on based on the middle and
+
+00:01:17.280 --> 00:01:18.920 
+all of them on based on the middle and
+just<00:01:17.310> like<00:01:17.549> this<00:01:17.670> is<00:01:17.880> actually<00:01:18.030> this<00:01:18.720> should
+
+00:01:18.920 --> 00:01:18.930 
+just like this is actually this should
+
+00:01:18.930 --> 00:01:21.830 
+just like this is actually this should
+be<00:01:19.110> the<00:01:19.350> blue<00:01:19.890> and<00:01:20.189> red<00:01:20.340> and<00:01:20.640> you<00:01:21.150> can<00:01:21.299> see<00:01:21.479> this
+
+00:01:21.830 --> 00:01:21.840 
+be the blue and red and you can see this
+
+00:01:21.840 --> 00:01:25.010 
+be the blue and red and you can see this
+group<00:01:22.170> of<00:01:22.380> stuff<00:01:23.210> this<00:01:24.210> is<00:01:24.270> actually<00:01:24.600> pretty
+
+00:01:25.010 --> 00:01:25.020 
+group of stuff this is actually pretty
+
+00:01:25.020 --> 00:01:26.600 
+group of stuff this is actually pretty
+nice<00:01:25.170> too<00:01:25.439> that's<00:01:25.619> similar<00:01:25.860> to<00:01:26.009> the<00:01:26.280> orange
+
+00:01:26.600 --> 00:01:26.610 
+nice too that's similar to the orange
+
+00:01:26.610 --> 00:01:28.429 
+nice too that's similar to the orange
+that's<00:01:26.759> exactly<00:01:27.180> the<00:01:27.299> same<00:01:27.479> actually<00:01:27.689> but<00:01:28.020> so
+
+00:01:28.429 --> 00:01:28.439 
+that's exactly the same actually but so
+
+00:01:28.439 --> 00:01:29.780 
+that's exactly the same actually but so
+I'm<00:01:28.530> going<00:01:28.650> to<00:01:28.710> concentrate<00:01:28.979> on<00:01:29.220> the<00:01:29.460> orange
+
+00:01:29.780 --> 00:01:29.790 
+I'm going to concentrate on the orange
+
+00:01:29.790 --> 00:01:33.140 
+I'm going to concentrate on the orange
+for<00:01:30.000> now<00:01:30.680> so<00:01:31.680> what<00:01:31.829> I<00:01:31.860> would<00:01:32.009> do<00:01:32.220> is<00:01:32.430> I<00:01:32.909> need
+
+00:01:33.140 --> 00:01:33.150 
+for now so what I would do is I need
+
+00:01:33.150 --> 00:01:36.649 
+for now so what I would do is I need
+this<00:01:33.390> piece<00:01:33.720> to<00:01:34.380> go<00:01:34.530> over<00:01:34.950> here<00:01:35.280> so<00:01:36.180> I<00:01:36.270> need<00:01:36.540> to
+
+00:01:36.649 --> 00:01:36.659 
+this piece to go over here so I need to
+
+00:01:36.659 --> 00:01:38.240 
+this piece to go over here so I need to
+bring<00:01:36.869> the<00:01:37.049> location<00:01:37.650> where<00:01:37.770> it<00:01:37.799> needs<00:01:38.009> to<00:01:38.130> be
+
+00:01:38.240 --> 00:01:38.250 
+bring the location where it needs to be
+
+00:01:38.250 --> 00:01:42.440 
+bring the location where it needs to be
+above<00:01:38.820> this<00:01:39.540> so<00:01:40.320> as<00:01:40.619> you<00:01:40.799> can<00:01:40.920> see<00:01:41.189> I<00:01:41.400> bring<00:01:42.299> the
+
+00:01:42.440 --> 00:01:42.450 
+above this so as you can see I bring the
+
+00:01:42.450 --> 00:01:45.170 
+above this so as you can see I bring the
+location<00:01:42.960> above<00:01:43.500> it<00:01:43.680> but<00:01:44.340> even<00:01:44.759> easier<00:01:45.119> than
+
+00:01:45.170 --> 00:01:45.180 
+location above it but even easier than
+
+00:01:45.180 --> 00:01:47.960 
+location above it but even easier than
+that<00:01:45.479> I<00:01:45.750> don't<00:01:46.020> have<00:01:46.409> to<00:01:46.649> go<00:01:47.579> like<00:01:47.729> this<00:01:47.759> and
+
+00:01:47.960 --> 00:01:47.970 
+that I don't have to go like this and
+
+00:01:47.970 --> 00:01:50.810 
+that I don't have to go like this and
+then<00:01:48.240> move<00:01:48.390> this<00:01:48.600> back<00:01:48.869> what<00:01:49.680> I<00:01:49.710> can<00:01:50.009> do<00:01:50.220> is<00:01:50.460> I
+
+00:01:50.810 --> 00:01:50.820 
+then move this back what I can do is I
+
+00:01:50.820 --> 00:01:53.660 
+then move this back what I can do is I
+can<00:01:50.880> just<00:01:51.030> move<00:01:51.450> this<00:01:51.659> over<00:01:51.930> and<00:01:52.320> bring<00:01:52.670> both
+
+00:01:53.660 --> 00:01:53.670 
+can just move this over and bring both
+
+00:01:53.670 --> 00:01:55.340 
+can just move this over and bring both
+of<00:01:53.850> these<00:01:54.000> so<00:01:54.450> I<00:01:54.479> apply<00:01:54.869> the<00:01:54.930> flipping
+
+00:01:55.340 --> 00:01:55.350 
+of these so I apply the flipping
+
+00:01:55.350 --> 00:02:00.380 
+of these so I apply the flipping
+algorithm<00:01:58.189> and<00:01:59.189> now<00:01:59.610> that<00:01:59.790> they<00:01:59.880> are<00:01:59.909> up<00:02:00.119> here
+
+00:02:00.380 --> 00:02:00.390 
+algorithm and now that they are up here
+
+00:02:00.390 --> 00:02:02.510 
+algorithm and now that they are up here
+I<00:02:00.540> can<00:02:00.810> move<00:02:00.960> them<00:02:01.170> back<00:02:01.409> and<00:02:01.770> you<00:02:02.130> can<00:02:02.280> see
+
+00:02:02.510 --> 00:02:02.520 
+I can move them back and you can see
+
+00:02:02.520 --> 00:02:05.420 
+I can move them back and you can see
+that<00:02:02.880> they<00:02:03.060> are<00:02:03.090> in<00:02:03.770> ok<00:02:04.770> so<00:02:04.829> let's<00:02:05.040> look<00:02:05.130> for
+
+00:02:05.420 --> 00:02:05.430 
+that they are in ok so let's look for
+
+00:02:05.430 --> 00:02:07.630 
+that they are in ok so let's look for
+another<00:02:05.790> one
+
+00:02:07.630 --> 00:02:07.640 
+another one
+
+00:02:07.640 --> 00:02:11.660 
+another one
+here's<00:02:08.640> these<00:02:09.030> two<00:02:09.090> here<00:02:09.690> and<00:02:09.869> I<00:02:10.500> can<00:02:10.680> see<00:02:11.070> that
+
+00:02:11.660 --> 00:02:11.670 
+here's these two here and I can see that
+
+00:02:11.670 --> 00:02:13.640 
+here's these two here and I can see that
+they're<00:02:11.850> already<00:02:12.210> in<00:02:12.480> line<00:02:12.690> so<00:02:13.080> if<00:02:13.200> these<00:02:13.350> two
+
+00:02:13.640 --> 00:02:13.650 
+they're already in line so if these two
+
+00:02:13.650 --> 00:02:15.830 
+they're already in line so if these two
+came<00:02:13.950> all<00:02:14.220> the<00:02:14.610> way<00:02:14.640> over<00:02:14.730> here<00:02:15.420> you<00:02:15.570> would<00:02:15.690> see
+
+00:02:15.830 --> 00:02:15.840 
+came all the way over here you would see
+
+00:02:15.840 --> 00:02:17.630 
+came all the way over here you would see
+that<00:02:15.930> they<00:02:16.080> would<00:02:16.200> go<00:02:16.380> in<00:02:16.530> in<00:02:16.740> a<00:02:17.190> case<00:02:17.400> like
+
+00:02:17.630 --> 00:02:17.640 
+that they would go in in a case like
+
+00:02:17.640 --> 00:02:21.110 
+that they would go in in a case like
+this<00:02:17.960> I<00:02:18.960> don't<00:02:19.200> use<00:02:20.190> the<00:02:20.340> flipping<00:02:20.670> algorithm
+
+00:02:21.110 --> 00:02:21.120 
+this I don't use the flipping algorithm
+
+00:02:21.120 --> 00:02:23.930 
+this I don't use the flipping algorithm
+I<00:02:21.270> mean<00:02:21.630> you<00:02:21.720> can<00:02:22.050> but<00:02:22.740> I'm<00:02:23.040> not<00:02:23.100> going<00:02:23.550> to<00:02:23.580> what
+
+00:02:23.930 --> 00:02:23.940 
+I mean you can but I'm not going to what
+
+00:02:23.940 --> 00:02:25.940 
+I mean you can but I'm not going to what
+I<00:02:23.970> would<00:02:24.150> do<00:02:24.300> is<00:02:24.450> put<00:02:24.600> an<00:02:24.720> empty<00:02:25.050> slot<00:02:25.320> on<00:02:25.560> top
+
+00:02:25.940 --> 00:02:25.950 
+I would do is put an empty slot on top
+
+00:02:25.950 --> 00:02:28.960 
+I would do is put an empty slot on top
+and<00:02:26.160> bring<00:02:26.310> a<00:02:26.430> solved<00:02:26.820> one<00:02:27.030> in<00:02:27.560> just<00:02:28.560> like<00:02:28.710> this
+
+00:02:28.960 --> 00:02:28.970 
+and bring a solved one in just like this
+
+00:02:28.970 --> 00:02:32.120 
+and bring a solved one in just like this
+now<00:02:29.970> I<00:02:30.000> can<00:02:30.330> move<00:02:30.480> these<00:02:30.690> two<00:02:31.050> in<00:02:31.260> this<00:02:31.770> into
+
+00:02:32.120 --> 00:02:32.130 
+now I can move these two in this into
+
+00:02:32.130 --> 00:02:35.690 
+now I can move these two in this into
+place<00:02:32.370> so<00:02:33.090> there's<00:02:33.270> one<00:02:34.340> there's<00:02:35.340> the<00:02:35.580> other
+
+00:02:35.690 --> 00:02:35.700 
+place so there's one there's the other
+
+00:02:35.700 --> 00:02:38.140 
+place so there's one there's the other
+and<00:02:36.030> now<00:02:36.240> I'm<00:02:36.360> going<00:02:36.450> to<00:02:36.540> replace<00:02:36.840> this<00:02:37.230> with
+
+00:02:38.140 --> 00:02:38.150 
+and now I'm going to replace this with
+
+00:02:38.150 --> 00:02:43.130 
+and now I'm going to replace this with
+the<00:02:39.230> broken<00:02:40.230> one<00:02:40.500> up<00:02:40.620> here<00:02:40.830> and<00:02:41.670> now<00:02:42.630> when<00:02:43.110> I
+
+00:02:43.130 --> 00:02:43.140 
+the broken one up here and now when I
+
+00:02:43.140 --> 00:02:46.130 
+the broken one up here and now when I
+realign<00:02:43.620> these<00:02:43.920> I'm<00:02:44.400> going<00:02:44.610> to<00:02:44.670> fix<00:02:45.510> what<00:02:46.020> I've
+
+00:02:46.130 --> 00:02:46.140 
+realign these I'm going to fix what I've
+
+00:02:46.140 --> 00:02:48.880 
+realign these I'm going to fix what I've
+smashed<00:02:47.100> up<00:02:47.370> there<00:02:47.580> so<00:02:47.730> there's<00:02:47.910> one<00:02:48.150> and
+
+00:02:48.880 --> 00:02:48.890 
+smashed up there so there's one and
+
+00:02:48.890 --> 00:02:52.750 
+smashed up there so there's one and
+there's<00:02:49.890> another<00:02:50.600> so<00:02:51.600> now<00:02:51.720> we've<00:02:51.900> created
+
+00:02:52.750 --> 00:02:52.760 
+there's another so now we've created
+
+00:02:52.760 --> 00:02:55.520 
+there's another so now we've created
+this<00:02:53.760> block<00:02:54.060> we've<00:02:54.420> exchanged<00:02:55.140> it<00:02:55.260> with<00:02:55.290> this
+
+00:02:55.520 --> 00:02:55.530 
+this block we've exchanged it with this
+
+00:02:55.530 --> 00:02:56.960 
+this block we've exchanged it with this
+but<00:02:55.740> that's<00:02:55.830> okay<00:02:56.190> because<00:02:56.220> now<00:02:56.640> we<00:02:56.700> only<00:02:56.880> have
+
+00:02:56.960 --> 00:02:56.970 
+but that's okay because now we only have
+
+00:02:56.970 --> 00:02:59.330 
+but that's okay because now we only have
+three<00:02:57.090> left<00:02:57.540> so<00:02:57.840> let's<00:02:58.800> go<00:02:58.920> ahead<00:02:59.010> and<00:02:59.190> see
+
+00:02:59.330 --> 00:02:59.340 
+three left so let's go ahead and see
+
+00:02:59.340 --> 00:03:01.610 
+three left so let's go ahead and see
+what<00:02:59.580> would<00:03:00.090> be<00:03:00.150> next<00:03:00.480> well<00:03:01.320> I'm<00:03:01.470> going<00:03:01.590> to
+
+00:03:01.610 --> 00:03:01.620 
+what would be next well I'm going to
+
+00:03:01.620 --> 00:03:03.110 
+what would be next well I'm going to
+take<00:03:01.770> advantage<00:03:02.160> of<00:03:02.250> this<00:03:02.370> situation<00:03:02.550> here
+
+00:03:03.110 --> 00:03:03.120 
+take advantage of this situation here
+
+00:03:03.120 --> 00:03:04.610 
+take advantage of this situation here
+because<00:03:03.240> you<00:03:03.480> can<00:03:03.630> see<00:03:03.780> all<00:03:03.810> of<00:03:04.020> these<00:03:04.350> ones
+
+00:03:04.610 --> 00:03:04.620 
+because you can see all of these ones
+
+00:03:04.620 --> 00:03:06.860 
+because you can see all of these ones
+need<00:03:04.860> to<00:03:04.890> go<00:03:05.100> in<00:03:05.280> so<00:03:06.030> I'm<00:03:06.300> going<00:03:06.450> to<00:03:06.480> find<00:03:06.750> the
+
+00:03:06.860 --> 00:03:06.870 
+need to go in so I'm going to find the
+
+00:03:06.870 --> 00:03:08.030 
+need to go in so I'm going to find the
+one<00:03:06.990> that<00:03:07.020> belongs<00:03:07.350> here<00:03:07.500> because<00:03:07.740> this<00:03:07.890> one
+
+00:03:08.030 --> 00:03:08.040 
+one that belongs here because this one
+
+00:03:08.040 --> 00:03:09.350 
+one that belongs here because this one
+obviously<00:03:08.340> doesn't<00:03:08.730> this<00:03:08.820> one<00:03:09.000> is<00:03:09.120> flipped
+
+00:03:09.350 --> 00:03:09.360 
+obviously doesn't this one is flipped
+
+00:03:09.360 --> 00:03:11.270 
+obviously doesn't this one is flipped
+over<00:03:09.510> this<00:03:09.810> one<00:03:09.930> belongs<00:03:10.170> up<00:03:10.440> here<00:03:10.800> so<00:03:11.220> I'm
+
+00:03:11.270 --> 00:03:11.280 
+over this one belongs up here so I'm
+
+00:03:11.280 --> 00:03:13.030 
+over this one belongs up here so I'm
+going<00:03:11.400> to<00:03:11.489> find<00:03:11.670> the<00:03:11.760> one<00:03:11.850> that<00:03:11.970> belongs<00:03:12.090> here
+
+00:03:13.030 --> 00:03:13.040 
+going to find the one that belongs here
+
+00:03:13.040 --> 00:03:16.460 
+going to find the one that belongs here
+which<00:03:14.040> is<00:03:14.190> right<00:03:14.430> here<00:03:14.459> and<00:03:14.850> I<00:03:15.750> need<00:03:15.959> this<00:03:16.170> to
+
+00:03:16.460 --> 00:03:16.470 
+which is right here and I need this to
+
+00:03:16.470 --> 00:03:19.699 
+which is right here and I need this to
+go<00:03:17.070> down<00:03:17.340> here<00:03:18.090> and<00:03:18.239> I'm<00:03:18.840> not<00:03:18.989> going<00:03:19.260> to<00:03:19.380> take
+
+00:03:19.699 --> 00:03:19.709 
+go down here and I'm not going to take
+
+00:03:19.709 --> 00:03:21.530 
+go down here and I'm not going to take
+this<00:03:20.040> out<00:03:20.280> you<00:03:20.730> know<00:03:20.880> I'm<00:03:21.060> not<00:03:21.180> going<00:03:21.360> to<00:03:21.420> bring
+
+00:03:21.530 --> 00:03:21.540 
+this out you know I'm not going to bring
+
+00:03:21.540 --> 00:03:25.150 
+this out you know I'm not going to bring
+this<00:03:21.870> position<00:03:22.640> all<00:03:23.640> the<00:03:23.700> way<00:03:24.030> over<00:03:24.330> here<00:03:24.720> and
+
+00:03:25.150 --> 00:03:25.160 
+this position all the way over here and
+
+00:03:25.160 --> 00:03:28.340 
+this position all the way over here and
+then<00:03:26.160> flip<00:03:26.790> this<00:03:27.209> because<00:03:27.930> this<00:03:28.019> is<00:03:28.170> going<00:03:28.290> to
+
+00:03:28.340 --> 00:03:28.350 
+then flip this because this is going to
+
+00:03:28.350 --> 00:03:29.870 
+then flip this because this is going to
+leave<00:03:28.500> this<00:03:28.620> one<00:03:28.800> up<00:03:28.860> here<00:03:29.160> and<00:03:29.400> this<00:03:29.519> one<00:03:29.730> will
+
+00:03:29.870 --> 00:03:29.880 
+leave this one up here and this one will
+
+00:03:29.880 --> 00:03:32.330 
+leave this one up here and this one will
+come<00:03:30.030> back<00:03:30.269> and<00:03:30.630> be<00:03:31.230> correct<00:03:31.830> but<00:03:32.070> I<00:03:32.130> don't
+
+00:03:32.330 --> 00:03:32.340 
+come back and be correct but I don't
+
+00:03:32.340 --> 00:03:34.160 
+come back and be correct but I don't
+want<00:03:32.489> to<00:03:32.580> do<00:03:32.730> that<00:03:32.910> I'll<00:03:33.690> show<00:03:33.930> you<00:03:33.959> a<00:03:34.050> little
+
+00:03:34.160 --> 00:03:34.170 
+want to do that I'll show you a little
+
+00:03:34.170 --> 00:03:37.280 
+want to do that I'll show you a little
+trick<00:03:34.440> I<00:03:34.769> need<00:03:35.459> this<00:03:35.880> one<00:03:36.180> to<00:03:36.390> be<00:03:36.750> in<00:03:36.870> this
+
+00:03:37.280 --> 00:03:37.290 
+trick I need this one to be in this
+
+00:03:37.290 --> 00:03:39.199 
+trick I need this one to be in this
+layer<00:03:37.590> here<00:03:38.100> I'm<00:03:38.160> not<00:03:38.430> going<00:03:38.610> to<00:03:38.670> flip<00:03:38.850> it<00:03:38.910> I'm
+
+00:03:39.199 --> 00:03:39.209 
+layer here I'm not going to flip it I'm
+
+00:03:39.209 --> 00:03:40.400 
+layer here I'm not going to flip it I'm
+just<00:03:39.570> going<00:03:39.720> to<00:03:39.750> turn<00:03:39.989> this<00:03:40.140> whole<00:03:40.200> thing
+
+00:03:40.400 --> 00:03:40.410 
+just going to turn this whole thing
+
+00:03:40.410 --> 00:03:43.490 
+just going to turn this whole thing
+upside<00:03:40.980> down<00:03:41.220> so<00:03:41.910> now<00:03:42.060> it's<00:03:42.269> it's<00:03:42.989> in<00:03:43.290> this
+
+00:03:43.490 --> 00:03:43.500 
+upside down so now it's it's in this
+
+00:03:43.500 --> 00:03:44.810 
+upside down so now it's it's in this
+layer<00:03:43.739> and<00:03:43.890> it's<00:03:43.980> even<00:03:44.190> closer<00:03:44.400> so<00:03:44.670> that's
+
+00:03:44.810 --> 00:03:44.820 
+layer and it's even closer so that's
+
+00:03:44.820 --> 00:03:46.820 
+layer and it's even closer so that's
+even<00:03:45.000> convenient<00:03:45.630> what<00:03:46.350> I'm<00:03:46.440> going<00:03:46.560> to<00:03:46.650> do<00:03:46.709> is
+
+00:03:46.820 --> 00:03:46.830 
+even convenient what I'm going to do is
+
+00:03:46.830 --> 00:03:49.280 
+even convenient what I'm going to do is
+kick<00:03:47.130> this<00:03:47.370> one<00:03:47.550> out<00:03:47.640> using<00:03:48.000> this<00:03:48.360> so<00:03:49.200> I'm
+
+00:03:49.280 --> 00:03:49.290 
+kick this one out using this so I'm
+
+00:03:49.290 --> 00:03:51.229 
+kick this one out using this so I'm
+going<00:03:49.440> to<00:03:49.500> kick<00:03:49.739> that<00:03:49.950> out<00:03:50.010> which<00:03:50.730> puts<00:03:51.000> it<00:03:51.120> in
+
+00:03:51.229 --> 00:03:51.239 
+going to kick that out which puts it in
+
+00:03:51.239 --> 00:03:53.479 
+going to kick that out which puts it in
+here<00:03:51.390> I'm<00:03:51.510> going<00:03:51.600> to<00:03:51.660> flip<00:03:51.959> this<00:03:52.200> over<00:03:52.459> so<00:03:53.459> I
+
+00:03:53.479 --> 00:03:53.489 
+here I'm going to flip this over so I
+
+00:03:53.489 --> 00:03:59.390 
+here I'm going to flip this over so I
+flip<00:03:53.790> it<00:03:54.110> and<00:03:56.209> when<00:03:57.209> I<00:03:57.239> put<00:03:57.510> this<00:03:57.630> back<00:03:58.400> you'll
+
+00:03:59.390 --> 00:03:59.400 
+flip it and when I put this back you'll
+
+00:03:59.400 --> 00:04:01.130 
+flip it and when I put this back you'll
+now<00:03:59.610> see<00:03:59.640> that<00:03:59.910> it<00:04:00.360> actually<00:04:00.690> put<00:04:00.810> that<00:04:00.959> back
+
+00:04:01.130 --> 00:04:01.140 
+now see that it actually put that back
+
+00:04:01.140 --> 00:04:03.190 
+now see that it actually put that back
+so<00:04:01.620> when<00:04:01.769> you<00:04:01.860> see<00:04:02.100> one<00:04:02.310> that's<00:04:02.430> opposite<00:04:03.060> of
+
+00:04:03.190 --> 00:04:03.200 
+so when you see one that's opposite of
+
+00:04:03.200 --> 00:04:07.430 
+so when you see one that's opposite of
+itself<00:04:04.200> like<00:04:05.269> this<00:04:06.269> you<00:04:06.630> can<00:04:06.780> see<00:04:07.019> here<00:04:07.260> we've
+
+00:04:07.430 --> 00:04:07.440 
+itself like this you can see here we've
+
+00:04:07.440 --> 00:04:09.440 
+itself like this you can see here we've
+got<00:04:07.650> two<00:04:07.830> that<00:04:07.980> are<00:04:08.070> opposite<00:04:08.489> well<00:04:09.120> you<00:04:09.299> can
+
+00:04:09.440 --> 00:04:09.450 
+got two that are opposite well you can
+
+00:04:09.450 --> 00:04:11.539 
+got two that are opposite well you can
+kick<00:04:09.750> one<00:04:09.989> of<00:04:10.110> these<00:04:10.230> out<00:04:10.440> flip<00:04:11.010> it<00:04:11.160> and<00:04:11.280> put<00:04:11.459> it
+
+00:04:11.539 --> 00:04:11.549 
+kick one of these out flip it and put it
+
+00:04:11.549 --> 00:04:13.670 
+kick one of these out flip it and put it
+back<00:04:11.730> and<00:04:11.970> then<00:04:12.420> you'll<00:04:12.570> have<00:04:12.690> three<00:04:13.080> you<00:04:13.590> know
+
+00:04:13.670 --> 00:04:13.680 
+back and then you'll have three you know
+
+00:04:13.680 --> 00:04:15.830 
+back and then you'll have three you know
+I<00:04:13.709> hope<00:04:14.040> that<00:04:14.220> makes<00:04:14.370> sense<00:04:14.510> but<00:04:15.510> we're<00:04:15.720> not
+
+00:04:15.830 --> 00:04:15.840 
+I hope that makes sense but we're not
+
+00:04:15.840 --> 00:04:17.180 
+I hope that makes sense but we're not
+working<00:04:15.989> on<00:04:16.200> that<00:04:16.260> one<00:04:16.500> yet<00:04:16.650> we<00:04:16.829> need<00:04:16.950> the
+
+00:04:17.180 --> 00:04:17.190 
+working on that one yet we need the
+
+00:04:17.190 --> 00:04:19.729 
+working on that one yet we need the
+other<00:04:17.370> yellow<00:04:17.940> and<00:04:18.269> red<00:04:18.450> which<00:04:18.959> is<00:04:18.989> right<00:04:19.380> here
+
+00:04:19.729 --> 00:04:19.739 
+other yellow and red which is right here
+
+00:04:19.739 --> 00:04:20.330 
+other yellow and red which is right here
+now
+
+00:04:20.330 --> 00:04:20.340 
+now
+
+00:04:20.340 --> 00:04:22.189 
+now
+in<00:04:20.400> this<00:04:20.609> case<00:04:20.910> I<00:04:21.209> think<00:04:21.780> it<00:04:21.870> would<00:04:21.989> just<00:04:22.019> be
+
+00:04:22.189 --> 00:04:22.199 
+in this case I think it would just be
+
+00:04:22.199 --> 00:04:24.920 
+in this case I think it would just be
+faster<00:04:22.530> to<00:04:22.949> to<00:04:23.880> put<00:04:24.030> this<00:04:24.180> up<00:04:24.419> in<00:04:24.600> the<00:04:24.690> top
+
+00:04:24.920 --> 00:04:24.930 
+faster to to put this up in the top
+
+00:04:24.930 --> 00:04:27.290 
+faster to to put this up in the top
+layer<00:04:25.250> bring<00:04:26.250> this<00:04:26.400> under<00:04:26.669> it<00:04:26.699> flip<00:04:27.060> it<00:04:27.210> and
+
+00:04:27.290 --> 00:04:27.300 
+layer bring this under it flip it and
+
+00:04:27.300 --> 00:04:29.719 
+layer bring this under it flip it and
+put<00:04:27.449> it<00:04:27.540> back<00:04:27.570> then<00:04:28.139> to<00:04:28.440> actually<00:04:28.770> put<00:04:29.160> in<00:04:29.370> a
+
+00:04:29.719 --> 00:04:29.729 
+put it back then to actually put in a
+
+00:04:29.729 --> 00:04:33.439 
+put it back then to actually put in a
+whole<00:04:30.240> piece<00:04:30.930> like<00:04:31.169> this<00:04:31.550> when<00:04:32.550> I<00:04:32.910> have
+
+00:04:33.439 --> 00:04:33.449 
+whole piece like this when I have
+
+00:04:33.449 --> 00:04:35.240 
+whole piece like this when I have
+multiple<00:04:34.050> pieces<00:04:34.380> to<00:04:34.500> put<00:04:34.620> in<00:04:34.740> like<00:04:34.919> I<00:04:35.010> did<00:04:35.070> the
+
+00:04:35.240 --> 00:04:35.250 
+multiple pieces to put in like I did the
+
+00:04:35.250 --> 00:04:37.460 
+multiple pieces to put in like I did the
+orange<00:04:35.550> and<00:04:35.729> white<00:04:35.790> then<00:04:36.720> I<00:04:36.750> would<00:04:37.080> bring<00:04:37.260> out
+
+00:04:37.460 --> 00:04:37.470 
+orange and white then I would bring out
+
+00:04:37.470 --> 00:04:39.620 
+orange and white then I would bring out
+a<00:04:37.500> whole<00:04:37.620> thing<00:04:38.100> but<00:04:38.669> for<00:04:38.940> this<00:04:39.060> one<00:04:39.300> it's<00:04:39.570> just
+
+00:04:39.620 --> 00:04:39.630 
+a whole thing but for this one it's just
+
+00:04:39.630 --> 00:04:41.030 
+a whole thing but for this one it's just
+one<00:04:39.930> piece<00:04:40.199> so<00:04:40.350> I'm<00:04:40.440> not<00:04:40.530> going<00:04:40.740> to<00:04:40.800> bother
+
+00:04:41.030 --> 00:04:41.040 
+one piece so I'm not going to bother
+
+00:04:41.040 --> 00:04:43.820 
+one piece so I'm not going to bother
+with<00:04:41.190> that<00:04:41.340> but<00:04:42.120> I<00:04:42.360> don't<00:04:42.960> want<00:04:43.080> to<00:04:43.169> spend<00:04:43.740> the
+
+00:04:43.820 --> 00:04:43.830 
+with that but I don't want to spend the
+
+00:04:43.830 --> 00:04:45.409 
+with that but I don't want to spend the
+time<00:04:44.010> doing<00:04:44.250> a<00:04:44.490> flipping<00:04:44.790> algorithm<00:04:45.180> to<00:04:45.270> put
+
+00:04:45.409 --> 00:04:45.419 
+time doing a flipping algorithm to put
+
+00:04:45.419 --> 00:04:46.790 
+time doing a flipping algorithm to put
+it<00:04:45.510> there<00:04:45.660> so<00:04:45.930> again<00:04:46.169> I'm<00:04:46.320> just<00:04:46.470> going<00:04:46.590> to<00:04:46.620> turn
+
+00:04:46.790 --> 00:04:46.800 
+it there so again I'm just going to turn
+
+00:04:46.800 --> 00:04:48.140 
+it there so again I'm just going to turn
+it<00:04:46.919> over<00:04:47.010> and<00:04:47.370> put<00:04:47.729> it<00:04:47.760> here
+
+00:04:48.140 --> 00:04:48.150 
+it over and put it here
+
+00:04:48.150 --> 00:04:50.590 
+it over and put it here
+and<00:04:48.270> then<00:04:48.870> I'll<00:04:48.990> bring<00:04:49.169> the<00:04:49.350> location
+
+00:04:50.590 --> 00:04:50.600 
+and then I'll bring the location
+
+00:04:50.600 --> 00:04:52.420 
+and then I'll bring the location
+underneath<00:04:51.600> it
+
+00:04:52.420 --> 00:04:52.430 
+underneath it
+
+00:04:52.430 --> 00:04:59.270 
+underneath it
+flipping<00:04:53.430> algorithm<00:04:56.120> put<00:04:57.120> it<00:04:57.210> back<00:04:57.360> and<00:04:58.280> you
+
+00:04:59.270 --> 00:04:59.280 
+flipping algorithm put it back and you
+
+00:04:59.280 --> 00:05:02.540 
+flipping algorithm put it back and you
+can<00:04:59.430> see<00:04:59.460> that<00:04:59.760> a<00:04:59.820> continue<00:05:00.979> okay<00:05:01.979> now<00:05:02.400> we're
+
+00:05:02.540 --> 00:05:02.550 
+can see that a continue okay now we're
+
+00:05:02.550 --> 00:05:04.790 
+can see that a continue okay now we're
+getting<00:05:02.639> to<00:05:02.790> the<00:05:02.910> fun<00:05:03.240> one<00:05:03.450> the<00:05:03.600> last<00:05:03.840> two<00:05:04.260> we
+
+00:05:04.790 --> 00:05:04.800 
+getting to the fun one the last two we
+
+00:05:04.800 --> 00:05:07.310 
+getting to the fun one the last two we
+got<00:05:04.979> the<00:05:05.160> green<00:05:05.460> orange<00:05:05.820> and<00:05:05.970> the<00:05:06.690> red<00:05:07.139> and
+
+00:05:07.310 --> 00:05:07.320 
+got the green orange and the red and
+
+00:05:07.320 --> 00:05:11.480 
+got the green orange and the red and
+blue<00:05:08.300> so<00:05:09.300> what<00:05:09.389> I'm<00:05:09.450> looking<00:05:09.720> for<00:05:09.930> here<00:05:10.290> is<00:05:10.490> the
+
+00:05:11.480 --> 00:05:11.490 
+blue so what I'm looking for here is the
+
+00:05:11.490 --> 00:05:14.000 
+blue so what I'm looking for here is the
+fastest<00:05:11.880> way<00:05:12.060> to<00:05:12.090> do<00:05:12.360> things<00:05:12.630> so<00:05:13.560> what<00:05:13.710> I<00:05:13.740> think
+
+00:05:14.000 --> 00:05:14.010 
+fastest way to do things so what I think
+
+00:05:14.010 --> 00:05:16.190 
+fastest way to do things so what I think
+I<00:05:14.130> would<00:05:14.280> do<00:05:14.490> is<00:05:15.330> I<00:05:15.510> can<00:05:15.660> see<00:05:15.810> that<00:05:15.900> these<00:05:16.139> two
+
+00:05:16.190 --> 00:05:16.200 
+I would do is I can see that these two
+
+00:05:16.200 --> 00:05:19.040 
+I would do is I can see that these two
+here<00:05:16.830> can<00:05:17.250> be<00:05:17.400> moved<00:05:17.669> under<00:05:18.090> here<00:05:18.449> and<00:05:18.570> they
+
+00:05:19.040 --> 00:05:19.050 
+here can be moved under here and they
+
+00:05:19.050 --> 00:05:21.140 
+here can be moved under here and they
+would<00:05:19.199> be<00:05:19.320> correct<00:05:19.889> with<00:05:20.460> the<00:05:20.490> center<00:05:20.970> piece
+
+00:05:21.140 --> 00:05:21.150 
+would be correct with the center piece
+
+00:05:21.150 --> 00:05:22.909 
+would be correct with the center piece
+so<00:05:21.300> I<00:05:21.360> would<00:05:21.510> put<00:05:21.660> them<00:05:21.750> there<00:05:21.930> I<00:05:22.110> would<00:05:22.620> flip
+
+00:05:22.909 --> 00:05:22.919 
+so I would put them there I would flip
+
+00:05:22.919 --> 00:05:24.620 
+so I would put them there I would flip
+them<00:05:23.190> which<00:05:23.370> would<00:05:23.490> keep<00:05:23.669> them<00:05:23.880> safe<00:05:24.150> up<00:05:24.360> here
+
+00:05:24.620 --> 00:05:24.630 
+them which would keep them safe up here
+
+00:05:24.630 --> 00:05:31.879 
+them which would keep them safe up here
+for<00:05:24.870> when<00:05:25.050> I<00:05:25.080> move<00:05:25.410> back<00:05:25.460> so<00:05:26.460> I<00:05:26.490> flip<00:05:26.850> them<00:05:30.889> and
+
+00:05:31.879 --> 00:05:31.889 
+for when I move back so I flip them and
+
+00:05:31.889 --> 00:05:33.230 
+for when I move back so I flip them and
+now<00:05:32.039> I<00:05:32.070> move<00:05:32.250> this<00:05:32.400> back<00:05:32.669> and<00:05:32.940> you<00:05:33.060> can<00:05:33.210> see
+
+00:05:33.230 --> 00:05:33.240 
+now I move this back and you can see
+
+00:05:33.240 --> 00:05:36.020 
+now I move this back and you can see
+that<00:05:33.539> we've<00:05:33.660> created<00:05:33.930> this<00:05:34.729> now<00:05:35.729> here's
+
+00:05:36.020 --> 00:05:36.030 
+that we've created this now here's
+
+00:05:36.030 --> 00:05:38.000 
+that we've created this now here's
+another<00:05:36.270> case<00:05:36.539> I<00:05:36.780> would<00:05:36.900> like<00:05:37.020> to<00:05:37.139> discuss<00:05:37.530> we
+
+00:05:38.000 --> 00:05:38.010 
+another case I would like to discuss we
+
+00:05:38.010 --> 00:05:39.650 
+another case I would like to discuss we
+see<00:05:38.310> we've<00:05:38.490> got<00:05:38.700> these<00:05:38.910> two<00:05:39.150> I<00:05:39.180> was<00:05:39.389> I<00:05:39.539> was
+
+00:05:39.650 --> 00:05:39.660 
+see we've got these two I was I was
+
+00:05:39.660 --> 00:05:41.120 
+see we've got these two I was I was
+actually<00:05:39.780> just<00:05:40.050> looking<00:05:40.410> at<00:05:40.530> this<00:05:40.680> saying<00:05:41.010> oh
+
+00:05:41.120 --> 00:05:41.130 
+actually just looking at this saying oh
+
+00:05:41.130 --> 00:05:42.860 
+actually just looking at this saying oh
+I<00:05:41.160> hope<00:05:41.430> that<00:05:41.610> the<00:05:41.729> other<00:05:41.970> one<00:05:42.419> that<00:05:42.539> belongs
+
+00:05:42.860 --> 00:05:42.870 
+I hope that the other one that belongs
+
+00:05:42.870 --> 00:05:44.029 
+I hope that the other one that belongs
+here<00:05:43.080> is<00:05:43.200> over<00:05:43.380> here<00:05:43.530> because<00:05:43.680> we<00:05:43.800> can<00:05:43.919> use
+
+00:05:44.029 --> 00:05:44.039 
+here is over here because we can use
+
+00:05:44.039 --> 00:05:45.589 
+here is over here because we can use
+that<00:05:44.160> same<00:05:44.370> maneuver<00:05:44.639> kick<00:05:44.970> it<00:05:45.090> out<00:05:45.210> flip<00:05:45.450> it
+
+00:05:45.589 --> 00:05:45.599 
+that same maneuver kick it out flip it
+
+00:05:45.599 --> 00:05:47.330 
+that same maneuver kick it out flip it
+put<00:05:45.630> it<00:05:45.810> back<00:05:45.840> but<00:05:46.500> you<00:05:46.590> can<00:05:46.650> see<00:05:46.979> it's<00:05:47.099> down
+
+00:05:47.330 --> 00:05:47.340 
+put it back but you can see it's down
+
+00:05:47.340 --> 00:05:50.390 
+put it back but you can see it's down
+here<00:05:47.700> so<00:05:48.479> there's<00:05:48.990> a<00:05:49.080> problem<00:05:49.470> so<00:05:50.130> what<00:05:50.280> we're
+
+00:05:50.390 --> 00:05:50.400 
+here so there's a problem so what we're
+
+00:05:50.400 --> 00:05:51.529 
+here so there's a problem so what we're
+going<00:05:50.490> to<00:05:50.550> do<00:05:50.700> is<00:05:50.820> we're<00:05:50.940> going<00:05:50.970> to<00:05:51.090> move<00:05:51.210> both
+
+00:05:51.529 --> 00:05:51.539 
+going to do is we're going to move both
+
+00:05:51.539 --> 00:05:53.810 
+going to do is we're going to move both
+of<00:05:51.750> these<00:05:51.840> out<00:05:52.080> into<00:05:52.349> the<00:05:53.070> layer<00:05:53.280> that's<00:05:53.580> not
+
+00:05:53.810 --> 00:05:53.820 
+of these out into the layer that's not
+
+00:05:53.820 --> 00:05:55.850 
+of these out into the layer that's not
+built<00:05:54.090> this<00:05:54.270> is<00:05:54.419> our<00:05:54.539> building<00:05:54.900> layer<00:05:55.050> now<00:05:55.260> so
+
+00:05:55.850 --> 00:05:55.860 
+built this is our building layer now so
+
+00:05:55.860 --> 00:05:56.990 
+built this is our building layer now so
+we're<00:05:55.979> going<00:05:56.099> to<00:05:56.160> move<00:05:56.280> both<00:05:56.490> of<00:05:56.550> these<00:05:56.789> out
+
+00:05:56.990 --> 00:05:57.000 
+we're going to move both of these out
+
+00:05:57.000 --> 00:06:01.070 
+we're going to move both of these out
+now<00:05:59.419> we're<00:06:00.419> going<00:06:00.510> to<00:06:00.570> flip<00:06:00.840> these<00:06:01.020> over
+
+00:06:01.070 --> 00:06:01.080 
+now we're going to flip these over
+
+00:06:01.080 --> 00:06:03.050 
+now we're going to flip these over
+because<00:06:01.710> they<00:06:01.860> were<00:06:01.889> flipped<00:06:02.430> incorrect<00:06:02.880> so
+
+00:06:03.050 --> 00:06:03.060 
+because they were flipped incorrect so
+
+00:06:03.060 --> 00:06:04.490 
+because they were flipped incorrect so
+if<00:06:03.120> we<00:06:03.240> flip<00:06:03.479> them<00:06:03.570> over<00:06:03.720> and<00:06:03.930> put<00:06:04.080> them<00:06:04.200> back
+
+00:06:04.490 --> 00:06:04.500 
+if we flip them over and put them back
+
+00:06:04.500 --> 00:06:10.159 
+if we flip them over and put them back
+they'll<00:06:05.160> be<00:06:05.340> correct<00:06:05.669> so<00:06:05.849> let's<00:06:06.000> flip<00:06:06.150> it<00:06:09.169> and
+
+00:06:10.159 --> 00:06:10.169 
+they'll be correct so let's flip it and
+
+00:06:10.169 --> 00:06:16.730 
+they'll be correct so let's flip it and
+now<00:06:10.940> put<00:06:11.940> them<00:06:12.030> back<00:06:13.760> now<00:06:14.760> we've<00:06:15.000> got<00:06:15.240> just<00:06:15.740> the
+
+00:06:16.730 --> 00:06:16.740 
+now put them back now we've got just the
+
+00:06:16.740 --> 00:06:21.050 
+now put them back now we've got just the
+one<00:06:16.770> left<00:06:17.130> and<00:06:17.990> here<00:06:18.990> we<00:06:19.229> can<00:06:19.349> see<00:06:19.650> that<00:06:20.060> this
+
+00:06:21.050 --> 00:06:21.060 
+one left and here we can see that this
+
+00:06:21.060 --> 00:06:23.029 
+one left and here we can see that this
+needs<00:06:21.330> to<00:06:21.419> go<00:06:21.660> in<00:06:21.690> but<00:06:22.289> I<00:06:22.320> can't<00:06:22.590> just<00:06:22.740> put<00:06:22.950> it
+
+00:06:23.029 --> 00:06:23.039 
+needs to go in but I can't just put it
+
+00:06:23.039 --> 00:06:24.830 
+needs to go in but I can't just put it
+in<00:06:23.190> because<00:06:23.789> I<00:06:23.849> have<00:06:23.880> nothing<00:06:24.120> on<00:06:24.360> the<00:06:24.450> top<00:06:24.660> to
+
+00:06:24.830 --> 00:06:24.840 
+in because I have nothing on the top to
+
+00:06:24.840 --> 00:06:26.029 
+in because I have nothing on the top to
+replace<00:06:25.169> it<00:06:25.349> with<00:06:25.470> so<00:06:25.650> we're<00:06:25.740> going<00:06:25.830> to<00:06:25.919> have
+
+00:06:26.029 --> 00:06:26.039 
+replace it with so we're going to have
+
+00:06:26.039 --> 00:06:28.370 
+replace it with so we're going to have
+to<00:06:26.160> use<00:06:26.250> the<00:06:26.370> flipping<00:06:26.669> algorithm<00:06:27.090> again<00:06:27.419> but
+
+00:06:28.370 --> 00:06:28.380 
+to use the flipping algorithm again but
+
+00:06:28.380 --> 00:06:32.570 
+to use the flipping algorithm again but
+I<00:06:29.990> I've<00:06:30.990> got<00:06:31.289> two<00:06:31.469> choices<00:06:31.710> here<00:06:32.039> okay<00:06:32.310> I<00:06:32.340> can
+
+00:06:32.570 --> 00:06:32.580 
+I I've got two choices here okay I can
+
+00:06:32.580 --> 00:06:34.279 
+I I've got two choices here okay I can
+either<00:06:32.700> use<00:06:33.599> the<00:06:33.719> flipping<00:06:34.050> out
+
+00:06:34.279 --> 00:06:34.289 
+either use the flipping out
+
+00:06:34.289 --> 00:06:37.189 
+either use the flipping out
+rhythm<00:06:34.559> to<00:06:35.009> flip<00:06:35.279> this<00:06:35.430> over<00:06:35.969> put<00:06:36.869> this<00:06:36.990> under
+
+00:06:37.189 --> 00:06:37.199 
+rhythm to flip this over put this under
+
+00:06:37.199 --> 00:06:41.689 
+rhythm to flip this over put this under
+flip<00:06:37.949> it<00:06:38.099> again<00:06:38.189> put<00:06:38.849> it<00:06:38.939> back<00:06:39.149> or<00:06:39.449> I<00:06:40.550> can<00:06:41.550> put
+
+00:06:41.689 --> 00:06:41.699 
+flip it again put it back or I can put
+
+00:06:41.699 --> 00:06:43.070 
+flip it again put it back or I can put
+this<00:06:41.789> over<00:06:41.969> here<00:06:42.089> by<00:06:42.389> turning<00:06:42.449> it<00:06:42.749> upside<00:06:42.869> down
+
+00:06:43.070 --> 00:06:43.080 
+this over here by turning it upside down
+
+00:06:43.080 --> 00:06:45.739 
+this over here by turning it upside down
+and<00:06:43.439> that's<00:06:43.680> a<00:06:43.800> lot<00:06:44.099> faster<00:06:44.759> so<00:06:45.389> I<00:06:45.419> think<00:06:45.539> I'm
+
+00:06:45.739 --> 00:06:45.749 
+and that's a lot faster so I think I'm
+
+00:06:45.749 --> 00:06:47.179 
+and that's a lot faster so I think I'm
+going<00:06:45.899> to<00:06:45.930> do<00:06:46.050> that<00:06:46.229> now<00:06:46.860> I'm<00:06:46.919> going<00:06:46.949> to<00:06:47.099> bring
+
+00:06:47.179 --> 00:06:47.189 
+going to do that now I'm going to bring
+
+00:06:47.189 --> 00:06:48.290 
+going to do that now I'm going to bring
+the<00:06:47.309> location<00:06:47.759> where<00:06:47.879> it<00:06:47.909> needs<00:06:48.089> to<00:06:48.210> be
+
+00:06:48.290 --> 00:06:48.300 
+the location where it needs to be
+
+00:06:48.300 --> 00:06:52.909 
+the location where it needs to be
+underneath<00:06:48.719> it<00:06:51.439> I'm<00:06:52.439> going<00:06:52.589> to<00:06:52.649> turn<00:06:52.800> this
+
+00:06:52.909 --> 00:06:52.919 
+underneath it I'm going to turn this
+
+00:06:52.919 --> 00:07:00.129 
+underneath it I'm going to turn this
+over<00:06:53.129> and<00:06:56.059> I'm<00:06:57.059> going<00:06:57.180> to<00:06:57.210> put<00:06:57.330> it<00:06:57.419> back<00:06:57.979> and
+
+00:07:00.129 --> 00:07:00.139 
+over and I'm going to put it back and
+
+00:07:00.139 --> 00:07:04.129 
+over and I'm going to put it back and
+you<00:07:01.139> can<00:07:01.289> see<00:07:01.559> that<00:07:01.860> that<00:07:02.119> has<00:07:03.119> fixed<00:07:03.539> all<00:07:03.809> of
+
+00:07:04.129 --> 00:07:04.139 
+you can see that that has fixed all of
+
+00:07:04.139 --> 00:07:06.320 
+you can see that that has fixed all of
+our<00:07:04.259> edges<00:07:04.589> without<00:07:04.710> parity<00:07:05.460> but<00:07:05.969> this<00:07:06.149> wasn't
+
+00:07:06.320 --> 00:07:06.330 
+our edges without parity but this wasn't
+
+00:07:06.330 --> 00:07:08.389 
+our edges without parity but this wasn't
+a<00:07:06.479> parody<00:07:06.779> tutorial<00:07:07.289> anyways<00:07:07.649> it's<00:07:08.309> not
+
+00:07:08.389 --> 00:07:08.399 
+a parody tutorial anyways it's not
+
+00:07:08.399 --> 00:07:10.219 
+a parody tutorial anyways it's not
+really<00:07:08.639> tutorials<00:07:09.059> just<00:07:09.089> a<00:07:09.270> walkthrough<00:07:09.749> but
+
+00:07:10.219 --> 00:07:10.229 
+really tutorials just a walkthrough but
+
+00:07:10.229 --> 00:07:11.839 
+really tutorials just a walkthrough but
+that's<00:07:10.439> how<00:07:10.589> I<00:07:10.619> do<00:07:10.740> the<00:07:10.949> last<00:07:11.129> four<00:07:11.459> it's<00:07:11.669> the
+
+00:07:11.839 --> 00:07:11.849 
+that's how I do the last four it's the
+
+00:07:11.849 --> 00:07:13.399 
+that's how I do the last four it's the
+flipping<00:07:12.240> algorithm<00:07:12.749> and<00:07:12.899> I<00:07:13.169> pretty<00:07:13.319> much
+
+00:07:13.399 --> 00:07:13.409 
+flipping algorithm and I pretty much
+
+00:07:13.409 --> 00:07:15.290 
+flipping algorithm and I pretty much
+demonstrated<00:07:14.189> pretty<00:07:14.369> much<00:07:14.490> every<00:07:14.789> case<00:07:15.059> that
+
+00:07:15.290 --> 00:07:15.300 
+demonstrated pretty much every case that
+
+00:07:15.300 --> 00:07:17.749 
+demonstrated pretty much every case that
+you<00:07:15.389> can<00:07:15.569> get<00:07:16.219> to<00:07:17.219> use<00:07:17.369> the<00:07:17.490> flipping
+
+00:07:17.749 --> 00:07:17.759 
+you can get to use the flipping
+
+00:07:17.759 --> 00:07:18.679 
+you can get to use the flipping
+algorithm<00:07:18.119> there's<00:07:18.300> just<00:07:18.449> certain<00:07:18.539> things
+
+00:07:18.679 --> 00:07:18.689 
+algorithm there's just certain things
+
+00:07:18.689 --> 00:07:19.670 
+algorithm there's just certain things
+you<00:07:18.869> got<00:07:19.020> to<00:07:19.110> look<00:07:19.169> for<00:07:19.409> like<00:07:19.529> those
+
+00:07:19.670 --> 00:07:19.680 
+you got to look for like those
+
+00:07:19.680 --> 00:07:21.709 
+you got to look for like those
+upside-down<00:07:20.069> pieces<00:07:20.759> you<00:07:21.240> know<00:07:21.360> and<00:07:21.449> then<00:07:21.539> put
+
+00:07:21.709 --> 00:07:21.719 
+upside-down pieces you know and then put
+
+00:07:21.719 --> 00:07:22.639 
+upside-down pieces you know and then put
+the<00:07:21.839> one<00:07:21.959> that's<00:07:22.110> supposed<00:07:22.199> to<00:07:22.409> be<00:07:22.469> there
+
+00:07:22.639 --> 00:07:22.649 
+the one that's supposed to be there
+
+00:07:22.649 --> 00:07:24.529 
+the one that's supposed to be there
+there<00:07:23.099> flip<00:07:23.490> it<00:07:23.610> and<00:07:23.699> put<00:07:23.789> it<00:07:23.879> back<00:07:23.909> it's
+
+00:07:24.529 --> 00:07:24.539 
+there flip it and put it back it's
+
+00:07:24.539 --> 00:07:26.119 
+there flip it and put it back it's
+really<00:07:24.899> fast<00:07:25.199> that<00:07:25.439> way<00:07:25.499> you've<00:07:25.709> just<00:07:25.979> created
+
+00:07:26.119 --> 00:07:26.129 
+really fast that way you've just created
+
+00:07:26.129 --> 00:07:28.429 
+really fast that way you've just created
+three<00:07:26.580> pieces<00:07:26.849> with<00:07:27.479> one<00:07:27.719> move<00:07:28.080> you<00:07:28.259> know<00:07:28.349> what
+
+00:07:28.429 --> 00:07:28.439 
+three pieces with one move you know what
+
+00:07:28.439 --> 00:07:29.719 
+three pieces with one move you know what
+I<00:07:28.499> mean<00:07:28.619> like<00:07:28.740> it<00:07:28.889> just<00:07:29.099> it<00:07:29.279> works<00:07:29.490> really
+
+00:07:29.719 --> 00:07:29.729 
+I mean like it just it works really
+
+00:07:29.729 --> 00:07:31.369 
+I mean like it just it works really
+really<00:07:29.819> well<00:07:30.029> and<00:07:30.719> there's<00:07:30.899> little<00:07:31.080> tricks<00:07:31.289> to
+
+00:07:31.369 --> 00:07:31.379 
+really well and there's little tricks to
+
+00:07:31.379 --> 00:07:32.779 
+really well and there's little tricks to
+look<00:07:31.559> out<00:07:31.709> for<00:07:31.860> like<00:07:32.009> that<00:07:32.129> same<00:07:32.399> with<00:07:32.520> the<00:07:32.610> two
+
+00:07:32.779 --> 00:07:32.789 
+look out for like that same with the two
+
+00:07:32.789 --> 00:07:36.739 
+look out for like that same with the two
+flipped<00:07:33.119> you<00:07:33.869> know<00:07:33.990> like<00:07:34.110> that<00:07:34.319> so<00:07:35.219> anyways<00:07:35.749> if
+
+00:07:36.739 --> 00:07:36.749 
+flipped you know like that so anyways if
+
+00:07:36.749 --> 00:07:38.389 
+flipped you know like that so anyways if
+you<00:07:36.809> guys<00:07:36.930> want<00:07:37.319> some<00:07:37.559> more<00:07:37.709> like<00:07:37.979> maybe<00:07:38.189> for
+
+00:07:38.389 --> 00:07:38.399 
+you guys want some more like maybe for
+
+00:07:38.399 --> 00:07:41.059 
+you guys want some more like maybe for
+the<00:07:38.459> 7<00:07:38.729> by<00:07:38.849> 7<00:07:38.909> the<00:07:39.599> 8<00:07:39.749> by<00:07:39.930> 8<00:07:39.959> you<00:07:40.740> know<00:07:40.860> want<00:07:41.009> me
+
+00:07:41.059 --> 00:07:41.069 
+the 7 by 7 the 8 by 8 you know want me
+
+00:07:41.069 --> 00:07:42.379 
+the 7 by 7 the 8 by 8 you know want me
+to<00:07:41.159> go<00:07:41.249> through<00:07:41.519> it<00:07:41.610> for<00:07:41.639> that<00:07:41.879> especially<00:07:42.330> the
+
+00:07:42.379 --> 00:07:42.389 
+to go through it for that especially the
+
+00:07:42.389 --> 00:07:43.699 
+to go through it for that especially the
+8<00:07:42.479> by<00:07:42.659> 8<00:07:42.689> it's<00:07:42.959> a<00:07:43.050> little<00:07:43.229> bit<00:07:43.319> different<00:07:43.499> you
+
+00:07:43.699 --> 00:07:43.709 
+8 by 8 it's a little bit different you
+
+00:07:43.709 --> 00:07:45.949 
+8 by 8 it's a little bit different you
+know<00:07:43.860> it's<00:07:43.979> it's<00:07:44.219> tricky<00:07:44.639> for<00:07:45.539> the<00:07:45.569> last<00:07:45.779> 2
+
+00:07:45.949 --> 00:07:45.959 
+know it's it's tricky for the last 2
+
+00:07:45.959 --> 00:07:47.749 
+know it's it's tricky for the last 2
+centers<00:07:46.289> on<00:07:46.439> the<00:07:46.559> edges<00:07:46.860> so<00:07:47.009> let<00:07:47.550> me<00:07:47.639> know
+
+00:07:47.749 --> 00:07:47.759 
+centers on the edges so let me know
+
+00:07:47.759 --> 00:07:49.369 
+centers on the edges so let me know
+thanks<00:07:48.689> for<00:07:48.779> watching<00:07:48.990> I'll<00:07:49.080> see<00:07:49.110> you<00:07:49.229> on<00:07:49.319> my
+
+00:07:49.369 --> 00:07:49.379 
+thanks for watching I'll see you on my
+
+00:07:49.379 --> 00:08:10.320 
+thanks for watching I'll see you on my
+next<00:07:49.409> video
+
+00:08:10.320 --> 00:08:10.330 
+
+00:08:10.330 --> 00:08:13.110 
+
+I<00:08:10.360> say
+

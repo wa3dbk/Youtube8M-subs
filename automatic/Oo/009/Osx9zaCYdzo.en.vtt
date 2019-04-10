@@ -1,0 +1,470 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.210 --> 00:00:02.149 
+
+we're<00:00:00.480> now<00:00:00.599> going<00:00:00.750> to<00:00:00.840> look<00:00:00.930> at<00:00:01.110> connecting<00:00:01.860> to
+
+00:00:02.149 --> 00:00:02.159 
+we're now going to look at connecting to
+
+00:00:02.159 --> 00:00:05.599 
+we're now going to look at connecting to
+an<00:00:02.330> SMTP<00:00:03.330> server<00:00:03.720> to<00:00:04.380> be<00:00:04.529> able<00:00:04.650> to<00:00:04.770> send<00:00:05.130> email
+
+00:00:05.599 --> 00:00:05.609 
+an SMTP server to be able to send email
+
+00:00:05.609 --> 00:00:08.360 
+an SMTP server to be able to send email
+with<00:00:05.910> PHP<00:00:06.359> mailer<00:00:06.980> now<00:00:07.980> I'm<00:00:08.069> going<00:00:08.250> to<00:00:08.309> be
+
+00:00:08.360 --> 00:00:08.370 
+with PHP mailer now I'm going to be
+
+00:00:08.370 --> 00:00:11.299 
+with PHP mailer now I'm going to be
+using<00:00:08.760> Gmail<00:00:09.269> but<00:00:09.630> you<00:00:09.780> can<00:00:09.929> use<00:00:10.110> any<00:00:10.349> SMTP
+
+00:00:11.299 --> 00:00:11.309 
+using Gmail but you can use any SMTP
+
+00:00:11.309 --> 00:00:13.490 
+using Gmail but you can use any SMTP
+service<00:00:11.670> go<00:00:12.480> ahead<00:00:12.719> and<00:00:12.840> look<00:00:12.929> one<00:00:13.139> up<00:00:13.320> and
+
+00:00:13.490 --> 00:00:13.500 
+service go ahead and look one up and
+
+00:00:13.500 --> 00:00:15.919 
+service go ahead and look one up and
+once<00:00:14.250> you<00:00:14.370> have<00:00:14.460> the<00:00:14.580> details<00:00:15.000> you<00:00:15.599> can<00:00:15.750> use
+
+00:00:15.919 --> 00:00:15.929 
+once you have the details you can use
+
+00:00:15.929 --> 00:00:18.410 
+once you have the details you can use
+them<00:00:16.080> here<00:00:16.640> so<00:00:17.640> the<00:00:17.760> first<00:00:17.940> thing<00:00:18.210> that<00:00:18.240> we
+
+00:00:18.410 --> 00:00:18.420 
+them here so the first thing that we
+
+00:00:18.420 --> 00:00:21.230 
+them here so the first thing that we
+want<00:00:18.600> to<00:00:18.660> do<00:00:18.930> is<00:00:19.230> create<00:00:19.619> a<00:00:19.650> new<00:00:19.800> PHP<00:00:20.670> mailer
+
+00:00:21.230 --> 00:00:21.240 
+want to do is create a new PHP mailer
+
+00:00:21.240 --> 00:00:24.380 
+want to do is create a new PHP mailer
+object<00:00:22.199> so<00:00:23.039> let's<00:00:23.250> store<00:00:23.550> this<00:00:23.730> in<00:00:23.970> a<00:00:24.060> variable
+
+00:00:24.380 --> 00:00:24.390 
+object so let's store this in a variable
+
+00:00:24.390 --> 00:00:27.410 
+object so let's store this in a variable
+called<00:00:24.869> M<00:00:25.080> just<00:00:25.740> for<00:00:25.890> simplicity<00:00:26.490> this<00:00:27.090> in<00:00:27.330> my
+
+00:00:27.410 --> 00:00:27.420 
+called M just for simplicity this in my
+
+00:00:27.420 --> 00:00:29.960 
+called M just for simplicity this in my
+case<00:00:27.660> just<00:00:27.840> stands<00:00:28.109> for<00:00:28.410> mail<00:00:28.859> or<00:00:29.189> email<00:00:29.340> or
+
+00:00:29.960 --> 00:00:29.970 
+case just stands for mail or email or
+
+00:00:29.970 --> 00:00:32.720 
+case just stands for mail or email or
+whatever<00:00:30.170> this<00:00:31.170> is<00:00:31.230> going<00:00:31.470> to<00:00:31.529> be<00:00:31.650> a<00:00:31.679> new<00:00:32.130> PHP
+
+00:00:32.720 --> 00:00:32.730 
+whatever this is going to be a new PHP
+
+00:00:32.730 --> 00:00:33.860 
+whatever this is going to be a new PHP
+mailer
+
+00:00:33.860 --> 00:00:33.870 
+mailer
+
+00:00:33.870 --> 00:00:35.840 
+mailer
+we<00:00:34.440> don't<00:00:34.620> need<00:00:34.680> back<00:00:34.890> it<00:00:35.040> we're<00:00:35.399> not<00:00:35.489> passing
+
+00:00:35.840 --> 00:00:35.850 
+we don't need back it we're not passing
+
+00:00:35.850 --> 00:00:38.030 
+we don't need back it we're not passing
+any<00:00:35.969> options<00:00:36.420> through<00:00:36.750> to<00:00:36.899> this<00:00:37.079> but<00:00:37.890> what<00:00:38.010> we
+
+00:00:38.030 --> 00:00:38.040 
+any options through to this but what we
+
+00:00:38.040 --> 00:00:40.069 
+any options through to this but what we
+now<00:00:38.340> need<00:00:38.640> to<00:00:38.670> do<00:00:38.969> is<00:00:39.149> go<00:00:39.420> ahead<00:00:39.540> and<00:00:39.780> set
+
+00:00:40.069 --> 00:00:40.079 
+now need to do is go ahead and set
+
+00:00:40.079 --> 00:00:42.799 
+now need to do is go ahead and set
+different<00:00:40.410> properties<00:00:41.360> the<00:00:42.360> first<00:00:42.540> thing
+
+00:00:42.799 --> 00:00:42.809 
+different properties the first thing
+
+00:00:42.809 --> 00:00:43.729 
+different properties the first thing
+we're<00:00:42.930> going<00:00:43.020> to<00:00:43.079> do<00:00:43.200> though<00:00:43.350> is<00:00:43.379> call<00:00:43.710> a
+
+00:00:43.729 --> 00:00:43.739 
+we're going to do though is call a
+
+00:00:43.739 --> 00:00:47.360 
+we're going to do though is call a
+method<00:00:44.070> called<00:00:44.760> is<00:00:45.289> SMTP<00:00:46.289> that<00:00:47.039> will<00:00:47.160> just
+
+00:00:47.360 --> 00:00:47.370 
+method called is SMTP that will just
+
+00:00:47.370 --> 00:00:50.150 
+method called is SMTP that will just
+tell<00:00:47.670> PHP<00:00:48.420> mailer<00:00:48.600> that<00:00:48.930> we<00:00:49.050> want<00:00:49.320> to<00:00:49.500> use<00:00:49.680> SMTP
+
+00:00:50.150 --> 00:00:50.160 
+tell PHP mailer that we want to use SMTP
+
+00:00:50.160 --> 00:00:59.240 
+tell PHP mailer that we want to use SMTP
+to<00:00:51.120> send<00:00:51.329> our<00:00:51.480> email<00:00:52.489> so<00:00:53.489> we<00:00:53.610> say<00:00:53.850> is<00:00:56.780> SMTP<00:00:58.250> so
+
+00:00:59.240 --> 00:00:59.250 
+to send our email so we say is SMTP so
+
+00:00:59.250 --> 00:01:02.090 
+to send our email so we say is SMTP so
+that's<00:00:59.430> what<00:00:59.550> we<00:00:59.609> need<00:00:59.789> to<00:00:59.910> do<00:01:00.090> to<00:01:00.420> tell<00:01:01.230> PHP
+
+00:01:02.090 --> 00:01:02.100 
+that's what we need to do to tell PHP
+
+00:01:02.100 --> 00:01:04.700 
+that's what we need to do to tell PHP
+mailer<00:01:02.250> we<00:01:02.489> want<00:01:02.730> to<00:01:02.850> use<00:01:02.969> SMTP<00:01:03.379> now<00:01:04.379> we<00:01:04.439> need
+
+00:01:04.700 --> 00:01:04.710 
+mailer we want to use SMTP now we need
+
+00:01:04.710 --> 00:01:06.230 
+mailer we want to use SMTP now we need
+to<00:01:04.799> do<00:01:04.920> things<00:01:05.129> like<00:01:05.220> set<00:01:05.549> the<00:01:05.670> host<00:01:05.939> the
+
+00:01:06.230 --> 00:01:06.240 
+to do things like set the host the
+
+00:01:06.240 --> 00:01:08.210 
+to do things like set the host the
+username<00:01:06.750> the<00:01:06.930> password<00:01:06.960> and<00:01:07.920> all<00:01:07.979> that<00:01:08.130> other
+
+00:01:08.210 --> 00:01:08.220 
+username the password and all that other
+
+00:01:08.220 --> 00:01:10.580 
+username the password and all that other
+information<00:01:08.460> but<00:01:09.150> what<00:01:09.900> I'm<00:01:09.990> going<00:01:10.140> to<00:01:10.170> do<00:01:10.350> now
+
+00:01:10.580 --> 00:01:10.590 
+information but what I'm going to do now
+
+00:01:10.590 --> 00:01:16.039 
+information but what I'm going to do now
+is<00:01:10.890> say<00:01:13.070> SMTP<00:01:14.070> auth<00:01:14.310> is<00:01:15.090> true<00:01:15.479> so<00:01:15.750> now<00:01:15.869> what
+
+00:01:16.039 --> 00:01:16.049 
+is say SMTP auth is true so now what
+
+00:01:16.049 --> 00:01:18.170 
+is say SMTP auth is true so now what
+we're<00:01:16.170> doing<00:01:16.409> is<00:01:16.530> setting<00:01:16.710> properties<00:01:17.250> so<00:01:18.119> we
+
+00:01:18.170 --> 00:01:18.180 
+we're doing is setting properties so we
+
+00:01:18.180 --> 00:01:20.780 
+we're doing is setting properties so we
+set<00:01:18.360> this<00:01:18.479> to<00:01:18.540> true<00:01:18.990> a<00:01:19.020> boolean<00:01:19.470> value<00:01:19.790> also
+
+00:01:20.780 --> 00:01:20.790 
+set this to true a boolean value also
+
+00:01:20.790 --> 00:01:22.850 
+set this to true a boolean value also
+going<00:01:20.939> to<00:01:21.030> turn<00:01:21.270> to<00:01:21.479> bugging<00:01:21.780> on<00:01:22.170> and<00:01:22.470> this<00:01:22.710> is
+
+00:01:22.850 --> 00:01:22.860 
+going to turn to bugging on and this is
+
+00:01:22.860 --> 00:01:24.679 
+going to turn to bugging on and this is
+really<00:01:23.100> useful<00:01:23.280> if<00:01:23.729> you<00:01:24.030> are<00:01:24.210> connecting<00:01:24.659> to
+
+00:01:24.679 --> 00:01:24.689 
+really useful if you are connecting to
+
+00:01:24.689 --> 00:01:26.719 
+really useful if you are connecting to
+an<00:01:24.810> SMTP<00:01:25.409> server<00:01:25.680> for<00:01:25.920> the<00:01:26.009> first<00:01:26.250> time<00:01:26.549> but
+
+00:01:26.719 --> 00:01:26.729 
+an SMTP server for the first time but
+
+00:01:26.729 --> 00:01:28.789 
+an SMTP server for the first time but
+you<00:01:26.820> might<00:01:26.970> be<00:01:27.090> having<00:01:27.299> a<00:01:27.390> few<00:01:27.600> problems<00:01:27.799> so
+
+00:01:28.789 --> 00:01:28.799 
+you might be having a few problems so
+
+00:01:28.799 --> 00:01:32.870 
+you might be having a few problems so
+this<00:01:28.979> will<00:01:29.250> set<00:01:29.520> debugging<00:01:30.060> on<00:01:31.700> and<00:01:32.700> I'm
+
+00:01:32.870 --> 00:01:32.880 
+this will set debugging on and I'm
+
+00:01:32.880 --> 00:01:34.640 
+this will set debugging on and I'm
+setting<00:01:33.150> this<00:01:33.360> to<00:01:33.540> 2<00:01:33.869> which<00:01:34.140> is<00:01:34.290> going<00:01:34.409> to<00:01:34.470> give
+
+00:01:34.640 --> 00:01:34.650 
+setting this to 2 which is going to give
+
+00:01:34.650 --> 00:01:36.830 
+setting this to 2 which is going to give
+me<00:01:34.770> just<00:01:35.070> messages<00:01:35.579> you<00:01:36.000> can<00:01:36.150> set<00:01:36.329> this<00:01:36.420> to<00:01:36.479> 1
+
+00:01:36.830 --> 00:01:36.840 
+me just messages you can set this to 1
+
+00:01:36.840 --> 00:01:38.359 
+me just messages you can set this to 1
+that's<00:01:37.079> going<00:01:37.229> to<00:01:37.290> give<00:01:37.409> you<00:01:37.500> error<00:01:37.710> codes<00:01:38.100> and
+
+00:01:38.359 --> 00:01:38.369 
+that's going to give you error codes and
+
+00:01:38.369 --> 00:01:42.620 
+that's going to give you error codes and
+messages<00:01:39.680> so<00:01:40.680> now<00:01:40.829> I'm<00:01:41.100> going<00:01:41.369> to<00:01:41.460> choose<00:01:42.150> the
+
+00:01:42.620 --> 00:01:42.630 
+messages so now I'm going to choose the
+
+00:01:42.630 --> 00:01:45.499 
+messages so now I'm going to choose the
+host<00:01:43.350> I<00:01:43.770> want<00:01:44.100> to<00:01:44.220> connect<00:01:44.549> to<00:01:44.759> it's<00:01:45.240> obviously
+
+00:01:45.499 --> 00:01:45.509 
+host I want to connect to it's obviously
+
+00:01:45.509 --> 00:01:47.690 
+host I want to connect to it's obviously
+really<00:01:45.659> important<00:01:46.259> this<00:01:46.950> is<00:01:47.159> host<00:01:47.399> with<00:01:47.640> a
+
+00:01:47.690 --> 00:01:47.700 
+really important this is host with a
+
+00:01:47.700 --> 00:01:51.850 
+really important this is host with a
+capital<00:01:47.939> H<00:01:48.299> and<00:01:48.920> I<00:01:49.920> am<00:01:50.220> choosing
+
+00:01:51.850 --> 00:01:51.860 
+capital H and I am choosing
+
+00:01:51.860 --> 00:01:55.160 
+capital H and I am choosing
+smtp.gmail.com<00:01:53.479> let<00:01:54.479> me<00:01:54.630> just<00:01:54.810> separate
+
+00:01:55.160 --> 00:01:55.170 
+smtp.gmail.com let me just separate
+
+00:01:55.170 --> 00:01:56.840 
+smtp.gmail.com let me just separate
+these<00:01:55.320> so<00:01:55.590> little<00:01:56.189> easier<00:01:56.460> to<00:01:56.579> see
+
+00:01:56.840 --> 00:01:56.850 
+these so little easier to see
+
+00:01:56.850 --> 00:02:00.109 
+these so little easier to see
+so<00:01:57.780> we<00:01:58.590> now<00:01:58.740> want<00:01:58.920> to<00:01:59.009> supply<00:01:59.250> the<00:01:59.399> username
+
+00:02:00.109 --> 00:02:00.119 
+so we now want to supply the username
+
+00:02:00.119 --> 00:02:06.560 
+so we now want to supply the username
+and<00:02:00.649> the<00:02:01.649> password<00:02:04.880> so<00:02:05.880> let's<00:02:06.060> just<00:02:06.240> fill<00:02:06.420> them
+
+00:02:06.560 --> 00:02:06.570 
+and the password so let's just fill them
+
+00:02:06.570 --> 00:02:09.260 
+and the password so let's just fill them
+in<00:02:06.600> if<00:02:07.229> you're<00:02:07.530> using<00:02:07.860> SMTP<00:02:08.399> like<00:02:09.000> nee<00:02:09.209> to
+
+00:02:09.260 --> 00:02:09.270 
+in if you're using SMTP like nee to
+
+00:02:09.270 --> 00:02:11.690 
+in if you're using SMTP like nee to
+authenticate<00:02:09.959> you<00:02:10.679> can<00:02:10.830> use<00:02:10.979> all<00:02:11.129> the<00:02:11.250> details
+
+00:02:11.690 --> 00:02:11.700 
+authenticate you can use all the details
+
+00:02:11.700 --> 00:02:13.380 
+authenticate you can use all the details
+like<00:02:11.970> the<00:02:12.090> host<00:02:12.390> and<00:02:12.750> the<00:02:12.810> pour
+
+00:02:13.380 --> 00:02:13.390 
+like the host and the pour
+
+00:02:13.390 --> 00:02:14.910 
+like the host and the pour
+we're<00:02:13.480> going<00:02:13.600> to<00:02:13.660> look<00:02:13.780> at<00:02:13.900> in<00:02:14.020> a<00:02:14.080> moment<00:02:14.530> and
+
+00:02:14.910 --> 00:02:14.920 
+we're going to look at in a moment and
+
+00:02:14.920 --> 00:02:17.640 
+we're going to look at in a moment and
+also<00:02:15.160> that<00:02:15.430> the<00:02:15.490> secure<00:02:15.940> type<00:02:16.210> as<00:02:16.450> well<00:02:16.630> so<00:02:17.350> all
+
+00:02:17.640 --> 00:02:17.650 
+also that the secure type as well so all
+
+00:02:17.650 --> 00:02:19.470 
+also that the secure type as well so all
+you'll<00:02:17.920> need<00:02:18.100> to<00:02:18.220> do<00:02:18.370> here<00:02:18.700> is<00:02:18.850> replace<00:02:19.209> your
+
+00:02:19.470 --> 00:02:19.480 
+you'll need to do here is replace your
+
+00:02:19.480 --> 00:02:22.230 
+you'll need to do here is replace your
+Gmail<00:02:19.900> username<00:02:20.260> and<00:02:20.530> password<00:02:21.069> so<00:02:21.370> in<00:02:22.120> this
+
+00:02:22.230 --> 00:02:22.240 
+Gmail username and password so in this
+
+00:02:22.240 --> 00:02:25.290 
+Gmail username and password so in this
+case<00:02:22.390> I<00:02:22.510> into<00:02:22.870> my<00:02:23.020> email<00:02:23.770> and<00:02:24.190> I<00:02:24.970> enter<00:02:25.209> my
+
+00:02:25.290 --> 00:02:25.300 
+case I into my email and I enter my
+
+00:02:25.300 --> 00:02:30.990 
+case I into my email and I enter my
+password<00:02:28.980> okay<00:02:29.980> so<00:02:30.040> the<00:02:30.310> next<00:02:30.520> thing<00:02:30.730> I<00:02:30.820> want
+
+00:02:30.990 --> 00:02:31.000 
+password okay so the next thing I want
+
+00:02:31.000 --> 00:02:34.590 
+password okay so the next thing I want
+to<00:02:31.120> do<00:02:31.300> is<00:02:32.310> set<00:02:33.310> the<00:02:33.340> secure<00:02:33.970> type<00:02:34.240> in<00:02:34.510> this
+
+00:02:34.590 --> 00:02:34.600 
+to do is set the secure type in this
+
+00:02:34.600 --> 00:02:38.300 
+to do is set the secure type in this
+case<00:02:34.840> it's<00:02:34.990> going<00:02:35.080> to<00:02:35.140> be<00:02:35.230> SSL<00:02:35.920> so<00:02:36.580> we<00:02:36.700> say<00:02:37.080> SMTP
+
+00:02:38.300 --> 00:02:38.310 
+case it's going to be SSL so we say SMTP
+
+00:02:38.310 --> 00:02:42.630 
+case it's going to be SSL so we say SMTP
+secure<00:02:39.450> and<00:02:40.450> this<00:02:40.570> is<00:02:40.750> using<00:02:41.050> SSL<00:02:41.680> and<00:02:41.920> what<00:02:42.520> we
+
+00:02:42.630 --> 00:02:42.640 
+secure and this is using SSL and what we
+
+00:02:42.640 --> 00:02:45.030 
+secure and this is using SSL and what we
+also<00:02:42.880> need<00:02:43.300> to<00:02:43.450> define<00:02:43.600> is<00:02:44.110> which<00:02:44.290> port<00:02:44.709> we're
+
+00:02:45.030 --> 00:02:45.040 
+also need to define is which port we're
+
+00:02:45.040 --> 00:02:48.120 
+also need to define is which port we're
+using<00:02:45.250> this<00:02:46.060> isn't<00:02:46.480> necessary<00:02:46.989> for<00:02:47.230> all<00:02:47.410> SMTP
+
+00:02:48.120 --> 00:02:48.130 
+using this isn't necessary for all SMTP
+
+00:02:48.130 --> 00:02:50.340 
+using this isn't necessary for all SMTP
+servers<00:02:48.610> but<00:02:48.910> in<00:02:49.030> this<00:02:49.150> case<00:02:49.420> we're<00:02:50.080> going<00:02:50.230> to
+
+00:02:50.340 --> 00:02:50.350 
+servers but in this case we're going to
+
+00:02:50.350 --> 00:02:52.850 
+servers but in this case we're going to
+specify<00:02:51.010> which<00:02:51.489> port<00:02:51.850> you<00:02:51.970> want<00:02:52.090> to<00:02:52.269> use<00:02:52.480> here
+
+00:02:52.850 --> 00:02:52.860 
+specify which port you want to use here
+
+00:02:52.860 --> 00:02:55.979 
+specify which port you want to use here
+now<00:02:53.860> this<00:02:54.130> is<00:02:54.280> actually<00:02:54.430> all<00:02:54.880> that<00:02:55.450> we<00:02:55.600> need<00:02:55.810> to
+
+00:02:55.979 --> 00:02:55.989 
+now this is actually all that we need to
+
+00:02:55.989 --> 00:02:58.949 
+now this is actually all that we need to
+do<00:02:56.230> to<00:02:56.680> connect<00:02:57.160> to<00:02:57.340> our<00:02:57.370> SMTP<00:02:58.180> server<00:02:58.540> and
+
+00:02:58.949 --> 00:02:58.959 
+do to connect to our SMTP server and
+
+00:02:58.959 --> 00:03:02.580 
+do to connect to our SMTP server and
+start<00:02:59.709> sending<00:02:59.980> email<00:03:00.610> down<00:03:01.000> here<00:03:01.450> so<00:03:02.440> go
+
+00:03:02.580 --> 00:03:02.590 
+start sending email down here so go
+
+00:03:02.590 --> 00:03:04.580 
+start sending email down here so go
+ahead<00:03:02.680> find<00:03:03.010> your<00:03:03.160> details<00:03:03.580> apply<00:03:03.820> them<00:03:04.390> here
+
+00:03:04.580 --> 00:03:04.590 
+ahead find your details apply them here
+
+00:03:04.590 --> 00:03:06.660 
+ahead find your details apply them here
+and<00:03:05.590> we'll<00:03:05.739> go<00:03:05.860> ahead<00:03:05.950> and<00:03:06.070> look<00:03:06.250> at<00:03:06.310> sending
+
+00:03:06.660 --> 00:03:06.670 
+and we'll go ahead and look at sending
+
+00:03:06.670 --> 00:03:10.200 
+and we'll go ahead and look at sending
+emails<00:03:07.060> in<00:03:07.390> the<00:03:07.750> next<00:03:07.959> part
+

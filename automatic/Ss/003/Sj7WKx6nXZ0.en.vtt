@@ -1,0 +1,1197 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:03.679 
+
+okay<00:00:00.780> so<00:00:00.840> I've<00:00:01.050> opened<00:00:01.199> up<00:00:01.700> PHP<00:00:02.700> my<00:00:02.879> admin'<00:00:03.360> so
+
+00:00:03.679 --> 00:00:03.689 
+okay so I've opened up PHP my admin' so
+
+00:00:03.689 --> 00:00:05.300 
+okay so I've opened up PHP my admin' so
+we're<00:00:03.780> going<00:00:03.870> to<00:00:03.929> be<00:00:04.080> years<00:00:04.319> of<00:00:04.560> administering
+
+00:00:05.300 --> 00:00:05.310 
+we're going to be years of administering
+
+00:00:05.310 --> 00:00:07.400 
+we're going to be years of administering
+our<00:00:05.520> database<00:00:06.029> let's<00:00:06.750> have<00:00:06.930> a<00:00:06.960> look<00:00:07.140> at<00:00:07.259> what
+
+00:00:07.400 --> 00:00:07.410 
+our database let's have a look at what
+
+00:00:07.410 --> 00:00:09.589 
+our database let's have a look at what
+we've<00:00:07.589> already<00:00:07.859> got<00:00:08.130> stored<00:00:08.639> now<00:00:09.240> your
+
+00:00:09.589 --> 00:00:09.599 
+we've already got stored now your
+
+00:00:09.599 --> 00:00:10.759 
+we've already got stored now your
+database<00:00:09.990> could<00:00:10.139> obviously<00:00:10.380> be<00:00:10.590> different
+
+00:00:10.759 --> 00:00:10.769 
+database could obviously be different
+
+00:00:10.769 --> 00:00:11.930 
+database could obviously be different
+you<00:00:11.130> could<00:00:11.309> be<00:00:11.400> using<00:00:11.580> it<00:00:11.730> for<00:00:11.880> different
+
+00:00:11.930 --> 00:00:11.940 
+you could be using it for different
+
+00:00:11.940 --> 00:00:16.010 
+you could be using it for different
+purposes<00:00:12.630> mine<00:00:13.290> is<00:00:13.530> a<00:00:13.679> basic<00:00:14.519> login<00:00:15.020> database
+
+00:00:16.010 --> 00:00:16.020 
+purposes mine is a basic login database
+
+00:00:16.020 --> 00:00:17.960 
+purposes mine is a basic login database
+so<00:00:16.320> this<00:00:16.770> information<00:00:17.430> that's<00:00:17.580> stored<00:00:17.670> about
+
+00:00:17.960 --> 00:00:17.970 
+so this information that's stored about
+
+00:00:17.970 --> 00:00:20.000 
+so this information that's stored about
+users<00:00:18.420> is<00:00:18.570> going<00:00:18.750> to<00:00:18.810> help<00:00:18.930> us<00:00:19.050> log<00:00:19.230> in<00:00:19.410> now
+
+00:00:20.000 --> 00:00:20.010 
+users is going to help us log in now
+
+00:00:20.010 --> 00:00:21.500 
+users is going to help us log in now
+that's<00:00:20.130> irrelevant<00:00:20.430> for<00:00:20.820> now<00:00:21.000> we've<00:00:21.240> got<00:00:21.420> an
+
+00:00:21.500 --> 00:00:21.510 
+that's irrelevant for now we've got an
+
+00:00:21.510 --> 00:00:24.679 
+that's irrelevant for now we've got an
+ID<00:00:21.720> of<00:00:22.109> six<00:00:22.500> for<00:00:22.769> Alex<00:00:23.130> and<00:00:23.400> an<00:00:23.730> ID<00:00:24.000> of<00:00:24.240> seven
+
+00:00:24.679 --> 00:00:24.689 
+ID of six for Alex and an ID of seven
+
+00:00:24.689 --> 00:00:26.529 
+ID of six for Alex and an ID of seven
+for<00:00:24.840> Dale<00:00:25.080> now<00:00:25.619> this<00:00:25.769> is<00:00:25.949> a<00:00:25.980> unique
+
+00:00:26.529 --> 00:00:26.539 
+for Dale now this is a unique
+
+00:00:26.539 --> 00:00:29.089 
+for Dale now this is a unique
+incrementing<00:00:27.539> value<00:00:27.930> so<00:00:28.470> what<00:00:28.680> we<00:00:28.769> could<00:00:28.920> now
+
+00:00:29.089 --> 00:00:29.099 
+incrementing value so what we could now
+
+00:00:29.099 --> 00:00:31.970 
+incrementing value so what we could now
+do<00:00:29.160> is<00:00:29.460> modify<00:00:29.789> our<00:00:30.060> generate<00:00:30.480> PHP<00:00:31.230> file<00:00:31.500> to
+
+00:00:31.970 --> 00:00:31.980 
+do is modify our generate PHP file to
+
+00:00:31.980 --> 00:00:34.940 
+do is modify our generate PHP file to
+take<00:00:32.219> in<00:00:32.460> a<00:00:32.610> user's<00:00:33.210> ID<00:00:33.480> and<00:00:34.260> what<00:00:34.770> that's
+
+00:00:34.940 --> 00:00:34.950 
+take in a user's ID and what that's
+
+00:00:34.950 --> 00:00:36.139 
+take in a user's ID and what that's
+going<00:00:35.130> to<00:00:35.190> do<00:00:35.280> is<00:00:35.399> it's<00:00:35.579> going<00:00:35.610> to<00:00:35.730> return
+
+00:00:36.139 --> 00:00:36.149 
+going to do is it's going to return
+
+00:00:36.149 --> 00:00:39.619 
+going to do is it's going to return
+their<00:00:36.450> email<00:00:36.870> address<00:00:37.230> as<00:00:37.920> we<00:00:38.370> have<00:00:38.640> just<00:00:39.450> by
+
+00:00:39.619 --> 00:00:39.629 
+their email address as we have just by
+
+00:00:39.629 --> 00:00:42.080 
+their email address as we have just by
+typing<00:00:39.870> it<00:00:40.230> in<00:00:40.350> here<00:00:40.680> so<00:00:41.340> let's<00:00:41.670> just<00:00:41.850> close
+
+00:00:42.080 --> 00:00:42.090 
+typing it in here so let's just close
+
+00:00:42.090 --> 00:00:46.340 
+typing it in here so let's just close
+the<00:00:42.360> source<00:00:42.750> on<00:00:43.050> here<00:00:44.149> so<00:00:45.149> the<00:00:45.899> first<00:00:46.050> thing<00:00:46.260> we
+
+00:00:46.340 --> 00:00:46.350 
+the source on here so the first thing we
+
+00:00:46.350 --> 00:00:47.990 
+the source on here so the first thing we
+need<00:00:46.500> to<00:00:46.530> do<00:00:46.680> is<00:00:46.770> connect<00:00:47.129> to<00:00:47.219> our<00:00:47.340> database<00:00:47.489> so
+
+00:00:47.990 --> 00:00:48.000 
+need to do is connect to our database so
+
+00:00:48.000 --> 00:00:49.850 
+need to do is connect to our database so
+let's<00:00:48.180> go<00:00:48.360> ahead<00:00:48.690> and<00:00:48.899> just<00:00:49.079> quickly<00:00:49.530> connect
+
+00:00:49.850 --> 00:00:49.860 
+let's go ahead and just quickly connect
+
+00:00:49.860 --> 00:00:53.930 
+let's go ahead and just quickly connect
+to<00:00:49.980> our<00:00:50.100> database<00:00:51.829> we're<00:00:52.829> going<00:00:52.949> to<00:00:53.010> say<00:00:53.160> MySQL
+
+00:00:53.930 --> 00:00:53.940 
+to our database we're going to say MySQL
+
+00:00:53.940 --> 00:00:56.600 
+to our database we're going to say MySQL
+connect<00:00:54.600> now<00:00:55.260> this<00:00:55.410> is<00:00:55.559> very<00:00:55.710> rough<00:00:56.070> so<00:00:56.370> don't
+
+00:00:56.600 --> 00:00:56.610 
+connect now this is very rough so don't
+
+00:00:56.610 --> 00:00:59.750 
+connect now this is very rough so don't
+follow<00:00:56.850> my<00:00:57.270> example<00:00:57.920> in<00:00:58.920> this<00:00:59.160> sense<00:00:59.489> and
+
+00:00:59.750 --> 00:00:59.760 
+follow my example in this sense and
+
+00:00:59.760 --> 00:01:01.220 
+follow my example in this sense and
+there<00:01:00.090> is<00:01:00.210> another<00:01:00.420> tutorial<00:01:01.079> about
+
+00:01:01.220 --> 00:01:01.230 
+there is another tutorial about
+
+00:01:01.230 --> 00:01:05.030 
+there is another tutorial about
+connecting<00:01:02.039> to<00:01:02.190> a<00:01:02.250> database<00:01:02.690> so<00:01:03.690> root<00:01:04.040> MySQL
+
+00:01:05.030 --> 00:01:05.040 
+connecting to a database so root MySQL
+
+00:01:05.040 --> 00:01:08.000 
+connecting to a database so root MySQL
+select<00:01:06.830> dB
+
+00:01:08.000 --> 00:01:08.010 
+select dB
+
+00:01:08.010 --> 00:01:09.200 
+select dB
+so<00:01:08.369> what<00:01:08.520> we're<00:01:08.670> doing<00:01:08.700> now<00:01:08.939> is<00:01:09.060> we're
+
+00:01:09.200 --> 00:01:09.210 
+so what we're doing now is we're
+
+00:01:09.210 --> 00:01:10.940 
+so what we're doing now is we're
+selecting<00:01:09.720> the<00:01:09.840> database<00:01:10.320> which<00:01:10.560> I<00:01:10.710> believe
+
+00:01:10.940 --> 00:01:10.950 
+selecting the database which I believe
+
+00:01:10.950 --> 00:01:15.530 
+selecting the database which I believe
+is<00:01:11.100> called<00:01:11.400> a<00:01:13.040> underscore<00:01:14.040> database<00:01:14.670> so<00:01:15.360> a
+
+00:01:15.530 --> 00:01:15.540 
+is called a underscore database so a
+
+00:01:15.540 --> 00:01:19.310 
+is called a underscore database so a
+underscore<00:01:16.790> database<00:01:17.790> now<00:01:18.630> let's<00:01:18.810> perform<00:01:18.960> a
+
+00:01:19.310 --> 00:01:19.320 
+underscore database now let's perform a
+
+00:01:19.320 --> 00:01:22.789 
+underscore database now let's perform a
+query<00:01:19.680> and<00:01:20.330> this<00:01:21.330> is<00:01:21.509> going<00:01:21.720> to<00:01:21.840> be<00:01:21.960> MySQL
+
+00:01:22.789 --> 00:01:22.799 
+query and this is going to be MySQL
+
+00:01:22.799 --> 00:01:27.710 
+query and this is going to be MySQL
+query<00:01:23.600> and<00:01:24.600> we<00:01:24.869> can<00:01:25.020> say<00:01:25.229> select<00:01:26.479> email<00:01:27.479> so
+
+00:01:27.710 --> 00:01:27.720 
+query and we can say select email so
+
+00:01:27.720 --> 00:01:29.660 
+query and we can say select email so
+we're<00:01:27.840> selecting<00:01:27.990> the<00:01:28.320> email<00:01:28.350> field<00:01:29.159> which<00:01:29.430> is
+
+00:01:29.660 --> 00:01:29.670 
+we're selecting the email field which is
+
+00:01:29.670 --> 00:01:38.230 
+we're selecting the email field which is
+here<00:01:31.400> so<00:01:32.400> select<00:01:32.790> email<00:01:33.530> from<00:01:35.420> so<00:01:36.420> what<00:01:36.630> our
+
+00:01:38.230 --> 00:01:38.240 
+here so select email from so what our
+
+00:01:38.240 --> 00:01:40.969 
+here so select email from so what our
+our<00:01:39.240> tables<00:01:39.659> called<00:01:39.869> oops<00:01:40.170> sorry<00:01:40.380> our<00:01:40.619> tables
+
+00:01:40.969 --> 00:01:40.979 
+our tables called oops sorry our tables
+
+00:01:40.979 --> 00:01:43.670 
+our tables called oops sorry our tables
+called<00:01:41.130> users<00:01:41.610> so<00:01:42.360> let's<00:01:42.570> select<00:01:42.840> email<00:01:43.380> from
+
+00:01:43.670 --> 00:01:43.680 
+called users so let's select email from
+
+00:01:43.680 --> 00:01:46.560 
+called users so let's select email from
+users
+
+00:01:46.560 --> 00:01:46.570 
+
+00:01:46.570 --> 00:01:53.469 
+
+we're<00:01:48.070> ID<00:01:50.590> equals<00:01:51.590> and<00:01:51.979> we<00:01:52.729> want<00:01:52.940> to<00:01:53.090> specify
+
+00:01:53.469 --> 00:01:53.479 
+we're ID equals and we want to specify
+
+00:01:53.479 --> 00:01:58.060 
+we're ID equals and we want to specify
+the<00:01:53.810> ID<00:01:54.530> of<00:01:55.810> the<00:01:56.810> user<00:01:56.840> and<00:01:57.409> that's<00:01:57.860> going<00:01:58.010> to
+
+00:01:58.060 --> 00:01:58.070 
+the ID of the user and that's going to
+
+00:01:58.070 --> 00:02:02.410 
+the ID of the user and that's going to
+be<00:01:58.190> taken<00:01:58.610> in<00:01:58.760> let's<00:01:59.180> copy<00:02:00.080> and<00:02:00.409> paste<00:02:00.530> this<00:02:01.420> up
+
+00:02:02.410 --> 00:02:02.420 
+be taken in let's copy and paste this up
+
+00:02:02.420 --> 00:02:08.499 
+be taken in let's copy and paste this up
+here<00:02:04.960> so<00:02:05.960> query<00:02:06.409> equals<00:02:07.070> MySQL<00:02:07.820> query<00:02:08.060> select
+
+00:02:08.499 --> 00:02:08.509 
+here so query equals MySQL query select
+
+00:02:08.509 --> 00:02:11.110 
+here so query equals MySQL query select
+now<00:02:08.660> so<00:02:09.140> that<00:02:09.500> ID<00:02:09.770> here<00:02:10.190> is<00:02:10.310> going<00:02:10.429> to<00:02:10.489> be<00:02:10.700> we'll
+
+00:02:11.110 --> 00:02:11.120 
+now so that ID here is going to be we'll
+
+00:02:11.120 --> 00:02:13.270 
+now so that ID here is going to be we'll
+just<00:02:11.300> call<00:02:11.420> this<00:02:11.510> ID<00:02:11.780> for<00:02:12.230> now<00:02:12.350> and<00:02:12.590> what<00:02:13.160> I'm
+
+00:02:13.270 --> 00:02:13.280 
+just call this ID for now and what I'm
+
+00:02:13.280 --> 00:02:14.590 
+just call this ID for now and what I'm
+going<00:02:13.430> to<00:02:13.459> do<00:02:13.610> is<00:02:13.700> add<00:02:13.880> some<00:02:14.090> just<00:02:14.510> some
+
+00:02:14.590 --> 00:02:14.600 
+going to do is add some just some
+
+00:02:14.600 --> 00:02:16.750 
+going to do is add some just some
+security<00:02:15.260> on<00:02:15.380> to<00:02:15.530> this<00:02:15.680> so<00:02:15.890> I'm<00:02:15.980> going<00:02:16.700> to
+
+00:02:16.750 --> 00:02:16.760 
+security on to this so I'm going to
+
+00:02:16.760 --> 00:02:19.780 
+security on to this so I'm going to
+enclose<00:02:17.720> this<00:02:18.020> in<00:02:18.230> my<00:02:18.500> MySQL<00:02:19.040> real<00:02:19.730> escape
+
+00:02:19.780 --> 00:02:19.790 
+enclose this in my MySQL real escape
+
+00:02:19.790 --> 00:02:25.620 
+enclose this in my MySQL real escape
+string<00:02:21.340> to<00:02:22.340> help<00:02:23.300> prevent<00:02:23.739> SQL<00:02:24.739> injection
+
+00:02:25.620 --> 00:02:25.630 
+string to help prevent SQL injection
+
+00:02:25.630 --> 00:02:29.530 
+string to help prevent SQL injection
+okay<00:02:26.630> so<00:02:26.690> if<00:02:27.260> is<00:02:27.739> set<00:02:28.070> get<00:02:28.940> and<00:02:29.209> this<00:02:29.330> time
+
+00:02:29.530 --> 00:02:29.540 
+okay so if is set get and this time
+
+00:02:29.540 --> 00:02:32.009 
+okay so if is set get and this time
+we're<00:02:29.660> going<00:02:29.750> to<00:02:29.810> get<00:02:29.959> the<00:02:30.290> value<00:02:30.709> ID<00:02:31.100> and
+
+00:02:32.009 --> 00:02:32.019 
+we're going to get the value ID and
+
+00:02:32.019 --> 00:02:35.979 
+we're going to get the value ID and
+we're<00:02:33.019> now<00:02:33.260> going<00:02:33.470> to<00:02:33.560> say<00:02:33.800> ID<00:02:34.510> equals<00:02:35.510> dollar
+
+00:02:35.979 --> 00:02:35.989 
+we're now going to say ID equals dollar
+
+00:02:35.989 --> 00:02:40.300 
+we're now going to say ID equals dollar
+underscore<00:02:36.440> get<00:02:37.360> ID<00:02:38.360> so<00:02:39.200> now<00:02:39.470> let's<00:02:39.709> let<00:02:40.220> me
+
+00:02:40.300 --> 00:02:40.310 
+underscore get ID so now let's let me
+
+00:02:40.310 --> 00:02:41.590 
+underscore get ID so now let's let me
+briefly<00:02:40.640> take<00:02:40.910> you<00:02:40.940> through<00:02:41.209> what<00:02:41.330> I've<00:02:41.420> done
+
+00:02:41.590 --> 00:02:41.600 
+briefly take you through what I've done
+
+00:02:41.600 --> 00:02:43.570 
+briefly take you through what I've done
+I've<00:02:42.140> connected<00:02:42.380> to<00:02:42.650> the<00:02:42.739> database<00:02:43.130> using<00:02:43.340> my
+
+00:02:43.570 --> 00:02:43.580 
+I've connected to the database using my
+
+00:02:43.580 --> 00:02:46.180 
+I've connected to the database using my
+over<00:02:44.360> connected<00:02:44.810> to<00:02:44.870> the<00:02:44.959> server<00:02:45.260> the<00:02:45.440> MySQL
+
+00:02:46.180 --> 00:02:46.190 
+over connected to the server the MySQL
+
+00:02:46.190 --> 00:02:48.550 
+over connected to the server the MySQL
+server<00:02:46.430> using<00:02:47.090> my<00:02:47.239> credentials<00:02:47.989> then<00:02:48.440> I've
+
+00:02:48.550 --> 00:02:48.560 
+server using my credentials then I've
+
+00:02:48.560 --> 00:02:50.890 
+server using my credentials then I've
+selected<00:02:48.739> my<00:02:49.130> database<00:02:49.640> now<00:02:50.420> I'm<00:02:50.600> checking
+
+00:02:50.890 --> 00:02:50.900 
+selected my database now I'm checking
+
+00:02:50.900 --> 00:02:54.009 
+selected my database now I'm checking
+for<00:02:51.049> an<00:02:51.470> ID<00:02:51.799> input<00:02:52.700> the<00:02:53.269> idea<00:02:53.720> is<00:02:53.840> going<00:02:53.930> to
+
+00:02:54.009 --> 00:02:54.019 
+for an ID input the idea is going to
+
+00:02:54.019 --> 00:02:55.539 
+for an ID input the idea is going to
+equal<00:02:54.290> the<00:02:54.709> input<00:02:55.070> that<00:02:55.190> we've<00:02:55.310> specified
+
+00:02:55.539 --> 00:02:55.549 
+equal the input that we've specified
+
+00:02:55.549 --> 00:02:58.360 
+equal the input that we've specified
+using<00:02:56.239> our<00:02:56.360> get<00:02:56.630> otherwise<00:02:57.410> email<00:02:58.070> is<00:02:58.220> going
+
+00:02:58.360 --> 00:02:58.370 
+using our get otherwise email is going
+
+00:02:58.370 --> 00:03:01.300 
+using our get otherwise email is going
+to<00:02:58.430> say<00:02:58.579> no<00:02:58.820> email<00:02:59.120> specified<00:02:59.690> once<00:03:00.049> again<00:03:00.500> so
+
+00:03:01.300 --> 00:03:01.310 
+to say no email specified once again so
+
+00:03:01.310 --> 00:03:03.039 
+to say no email specified once again so
+down<00:03:01.519> here<00:03:01.820> what<00:03:02.030> we<00:03:02.120> can<00:03:02.239> do<00:03:02.390> is<00:03:02.480> perform<00:03:02.900> our
+
+00:03:03.039 --> 00:03:03.049 
+down here what we can do is perform our
+
+00:03:03.049 --> 00:03:05.020 
+down here what we can do is perform our
+query<00:03:03.380> which<00:03:03.620> we've<00:03:03.829> performed<00:03:04.430> now<00:03:04.970> we
+
+00:03:05.020 --> 00:03:05.030 
+query which we've performed now we
+
+00:03:05.030 --> 00:03:07.449 
+query which we've performed now we
+should<00:03:05.360> retrieve<00:03:05.810> some<00:03:06.049> information<00:03:06.170> back<00:03:06.890> so
+
+00:03:07.449 --> 00:03:07.459 
+should retrieve some information back so
+
+00:03:07.459 --> 00:03:10.120 
+should retrieve some information back so
+I'm<00:03:07.579> going<00:03:07.730> to<00:03:07.790> say<00:03:08.000> query<00:03:08.450> result<00:03:09.140> is<00:03:09.440> equal
+
+00:03:10.120 --> 00:03:10.130 
+I'm going to say query result is equal
+
+00:03:10.130 --> 00:03:16.330 
+I'm going to say query result is equal
+to<00:03:11.530> MySQL<00:03:13.780> result<00:03:14.780> now<00:03:15.440> we<00:03:15.470> can<00:03:15.709> specify<00:03:15.980> the
+
+00:03:16.330 --> 00:03:16.340 
+to MySQL result now we can specify the
+
+00:03:16.340 --> 00:03:19.870 
+to MySQL result now we can specify the
+query<00:03:16.910> that<00:03:17.060> we<00:03:17.299> executed<00:03:18.489> and<00:03:19.489> we<00:03:19.610> can<00:03:19.730> also
+
+00:03:19.870 --> 00:03:19.880 
+query that we executed and we can also
+
+00:03:19.880 --> 00:03:22.390 
+query that we executed and we can also
+specify<00:03:20.060> the<00:03:20.989> row<00:03:21.350> which<00:03:21.590> is<00:03:21.620> going<00:03:21.890> to<00:03:21.950> be<00:03:22.040> 0
+
+00:03:22.390 --> 00:03:22.400 
+specify the row which is going to be 0
+
+00:03:22.400 --> 00:03:24.490 
+specify the row which is going to be 0
+because<00:03:22.640> we're<00:03:23.329> only<00:03:23.480> going<00:03:23.660> to<00:03:23.750> retrieve<00:03:24.140> one
+
+00:03:24.490 --> 00:03:24.500 
+because we're only going to retrieve one
+
+00:03:24.500 --> 00:03:26.770 
+because we're only going to retrieve one
+row<00:03:24.769> and<00:03:25.010> then<00:03:25.489> the<00:03:25.640> field<00:03:25.910> here<00:03:26.329> so<00:03:26.600> that's
+
+00:03:26.770 --> 00:03:26.780 
+row and then the field here so that's
+
+00:03:26.780 --> 00:03:29.410 
+row and then the field here so that's
+going<00:03:27.079> to<00:03:27.230> be<00:03:27.380> email<00:03:28.010> so<00:03:28.730> the<00:03:28.940> query<00:03:29.150> that<00:03:29.299> we
+
+00:03:29.410 --> 00:03:29.420 
+going to be email so the query that we
+
+00:03:29.420 --> 00:03:32.319 
+going to be email so the query that we
+performed<00:03:30.049> here<00:03:30.350> the<00:03:30.950> row<00:03:31.730> which<00:03:32.030> is<00:03:32.150> going<00:03:32.269> to
+
+00:03:32.319 --> 00:03:32.329 
+performed here the row which is going to
+
+00:03:32.329 --> 00:03:34.390 
+performed here the row which is going to
+be<00:03:32.420> the<00:03:32.570> 0<00:03:33.049> row<00:03:33.350> which<00:03:33.560> is<00:03:33.590> the<00:03:33.739> only<00:03:34.040> row
+
+00:03:34.390 --> 00:03:34.400 
+be the 0 row which is the only row
+
+00:03:34.400 --> 00:03:37.150 
+be the 0 row which is the only row
+that's<00:03:34.609> been<00:03:34.730> returned<00:03:35.150> and<00:03:35.390> email<00:03:36.140> there<00:03:36.410> so
+
+00:03:37.150 --> 00:03:37.160 
+that's been returned and email there so
+
+00:03:37.160 --> 00:03:39.069 
+that's been returned and email there so
+what<00:03:37.670> we<00:03:37.760> could<00:03:37.910> do<00:03:38.090> is<00:03:38.209> have<00:03:38.420> checks<00:03:38.720> in<00:03:38.900> here
+
+00:03:39.069 --> 00:03:39.079 
+what we could do is have checks in here
+
+00:03:39.079 --> 00:03:40.990 
+what we could do is have checks in here
+to<00:03:39.230> check<00:03:39.470> if<00:03:39.680> this<00:03:39.859> exists<00:03:40.459> so<00:03:40.579> if<00:03:40.670> the<00:03:40.790> ID
+
+00:03:40.990 --> 00:03:41.000 
+to check if this exists so if the ID
+
+00:03:41.000 --> 00:03:43.960 
+to check if this exists so if the ID
+exists<00:03:41.690> I<00:03:42.220> suppose<00:03:43.220> we<00:03:43.340> could<00:03:43.459> quickly<00:03:43.730> do
+
+00:03:43.960 --> 00:03:43.970 
+exists I suppose we could quickly do
+
+00:03:43.970 --> 00:03:51.660 
+exists I suppose we could quickly do
+that<00:03:44.180> now<00:03:44.739> if<00:03:46.030> MySQL<00:03:47.030> num<00:03:47.269> rows<00:03:49.209> query<00:03:50.209> is
+
+00:03:51.660 --> 00:03:51.670 
+that now if MySQL num rows query is
+
+00:03:51.670 --> 00:03:54.460 
+that now if MySQL num rows query is
+greater<00:03:52.670> than<00:03:53.000> or<00:03:53.150> equal<00:03:53.299> to<00:03:53.660> 1<00:03:53.900> which<00:03:54.200> it<00:03:54.320> will
+
+00:03:54.460 --> 00:03:54.470 
+greater than or equal to 1 which it will
+
+00:03:54.470 --> 00:03:55.870 
+greater than or equal to 1 which it will
+never<00:03:54.650> be<00:03:54.829> great<00:03:55.040> at<00:03:55.190> the<00:03:55.250> moment<00:03:55.609> we<00:03:55.730> can
+
+00:03:55.870 --> 00:03:55.880 
+never be great at the moment we can
+
+00:03:55.880 --> 00:03:57.310 
+never be great at the moment we can
+include<00:03:56.180> this<00:03:56.299> check<00:03:56.600> anyway<00:03:57.049> this
+
+00:03:57.310 --> 00:03:57.320 
+include this check anyway this
+
+00:03:57.320 --> 00:03:57.890 
+include this check anyway this
+comparator
+
+00:03:57.890 --> 00:03:57.900 
+comparator
+
+00:03:57.900 --> 00:04:01.240 
+comparator
+anyway<00:03:58.140> and<00:03:58.709> do<00:03:59.010> then<00:03:59.760> get<00:04:00.659> the<00:04:00.750> result
+
+00:04:01.240 --> 00:04:01.250 
+anyway and do then get the result
+
+00:04:01.250 --> 00:04:10.550 
+anyway and do then get the result
+otherwise<00:04:03.530> email<00:04:04.530> equals<00:04:06.530> ID<00:04:07.530> not<00:04:08.250> found<00:04:09.560> now
+
+00:04:10.550 --> 00:04:10.560 
+otherwise email equals ID not found now
+
+00:04:10.560 --> 00:04:11.300 
+otherwise email equals ID not found now
+what<00:04:10.680> I'm<00:04:10.739> going<00:04:10.829> to<00:04:10.890> do<00:04:11.010> is<00:04:11.069> I'm<00:04:11.129> going<00:04:11.159> to
+
+00:04:11.300 --> 00:04:11.310 
+what I'm going to do is I'm going to
+
+00:04:11.310 --> 00:04:14.059 
+what I'm going to do is I'm going to
+change<00:04:11.610> the<00:04:11.909> change<00:04:12.870> the<00:04:13.049> name<00:04:13.260> of<00:04:13.290> this<00:04:13.650> query
+
+00:04:14.059 --> 00:04:14.069 
+change the change the name of this query
+
+00:04:14.069 --> 00:04:17.840 
+change the change the name of this query
+here<00:04:14.370> this<00:04:15.180> variable<00:04:15.840> here<00:04:16.169> I<00:04:16.229> mean<00:04:16.500> to<00:04:17.220> email
+
+00:04:17.840 --> 00:04:17.850 
+here this variable here I mean to email
+
+00:04:17.850 --> 00:04:19.490 
+here this variable here I mean to email
+because<00:04:18.299> the<00:04:18.570> value<00:04:18.930> that<00:04:19.049> we're<00:04:19.229> returning
+
+00:04:19.490 --> 00:04:19.500 
+because the value that we're returning
+
+00:04:19.500 --> 00:04:22.159 
+because the value that we're returning
+from<00:04:19.859> this<00:04:20.009> MySQL<00:04:20.729> a<00:04:20.910> result<00:04:21.419> function<00:04:21.989> is
+
+00:04:22.159 --> 00:04:22.169 
+from this MySQL a result function is
+
+00:04:22.169 --> 00:04:24.050 
+from this MySQL a result function is
+going<00:04:22.800> to<00:04:22.889> be<00:04:22.979> the<00:04:23.160> email<00:04:23.550> address<00:04:23.820> of<00:04:23.940> the
+
+00:04:24.050 --> 00:04:24.060 
+going to be the email address of the
+
+00:04:24.060 --> 00:04:24.560 
+going to be the email address of the
+user
+
+00:04:24.560 --> 00:04:24.570 
+user
+
+00:04:24.570 --> 00:04:26.330 
+user
+therefore<00:04:25.289> now<00:04:25.500> what's<00:04:25.740> going<00:04:25.919> to<00:04:25.949> happen<00:04:26.009> is
+
+00:04:26.330 --> 00:04:26.340 
+therefore now what's going to happen is
+
+00:04:26.340 --> 00:04:28.400 
+therefore now what's going to happen is
+our<00:04:26.460> script<00:04:26.940> is<00:04:27.060> going<00:04:27.180> to<00:04:27.300> run<00:04:27.509> as<00:04:27.750> normal<00:04:28.259> so
+
+00:04:28.400 --> 00:04:28.410 
+our script is going to run as normal so
+
+00:04:28.410 --> 00:04:30.050 
+our script is going to run as normal so
+let's<00:04:28.979> go<00:04:29.100> through<00:04:29.280> this<00:04:29.400> again<00:04:29.669> just<00:04:29.729> so<00:04:30.000> you
+
+00:04:30.050 --> 00:04:30.060 
+let's go through this again just so you
+
+00:04:30.060 --> 00:04:32.300 
+let's go through this again just so you
+make<00:04:30.300> sure<00:04:30.330> you<00:04:30.570> entirely<00:04:31.229> understand<00:04:31.770> we're
+
+00:04:32.300 --> 00:04:32.310 
+make sure you entirely understand we're
+
+00:04:32.310 --> 00:04:33.920 
+make sure you entirely understand we're
+connecting<00:04:32.699> to<00:04:32.820> our<00:04:32.850> database<00:04:33.330> or<00:04:33.600> connecting
+
+00:04:33.920 --> 00:04:33.930 
+connecting to our database or connecting
+
+00:04:33.930 --> 00:04:35.870 
+connecting to our database or connecting
+to<00:04:34.020> our<00:04:34.110> server<00:04:34.380> selecting<00:04:35.310> our<00:04:35.430> database
+
+00:04:35.870 --> 00:04:35.880 
+to our server selecting our database
+
+00:04:35.880 --> 00:04:38.450 
+to our server selecting our database
+checking<00:04:36.750> if<00:04:36.870> this<00:04:37.020> ID<00:04:37.260> value<00:04:38.039> which<00:04:38.280> we
+
+00:04:38.450 --> 00:04:38.460 
+checking if this ID value which we
+
+00:04:38.460 --> 00:04:40.760 
+checking if this ID value which we
+previously<00:04:38.789> had<00:04:39.479> let's<00:04:40.380> go<00:04:40.500> back<00:04:40.650> to<00:04:40.740> our
+
+00:04:40.760 --> 00:04:40.770 
+previously had let's go back to our
+
+00:04:40.770 --> 00:04:44.029 
+previously had let's go back to our
+source<00:04:41.190> we<00:04:41.789> previously<00:04:42.180> had<00:04:42.600> as<00:04:42.810> email<00:04:43.530> equals
+
+00:04:44.029 --> 00:04:44.039 
+source we previously had as email equals
+
+00:04:44.039 --> 00:04:47.330 
+source we previously had as email equals
+this<00:04:44.220> will<00:04:44.430> now<00:04:44.580> read<00:04:44.850> ID<00:04:45.510> equals<00:04:46.410> and<00:04:46.740> then
+
+00:04:47.330 --> 00:04:47.340 
+this will now read ID equals and then
+
+00:04:47.340 --> 00:04:49.450 
+this will now read ID equals and then
+we're<00:04:47.460> going<00:04:47.550> to<00:04:47.610> specify<00:04:48.030> a<00:04:48.060> specific<00:04:48.630> ID
+
+00:04:49.450 --> 00:04:49.460 
+we're going to specify a specific ID
+
+00:04:49.460 --> 00:04:52.520 
+we're going to specify a specific ID
+then<00:04:50.460> the<00:04:50.610> ID<00:04:50.820> variable<00:04:51.570> here<00:04:52.080> is<00:04:52.110> equal<00:04:52.470> to
+
+00:04:52.520 --> 00:04:52.530 
+then the ID variable here is equal to
+
+00:04:52.530 --> 00:04:54.920 
+then the ID variable here is equal to
+what<00:04:52.800> we've<00:04:52.949> specified<00:04:53.449> otherwise<00:04:54.449> email
+
+00:04:54.920 --> 00:04:54.930 
+what we've specified otherwise email
+
+00:04:54.930 --> 00:04:56.629 
+what we've specified otherwise email
+equals<00:04:55.229> no<00:04:55.410> more<00:04:55.710> specified<00:04:56.130> as<00:04:56.280> we<00:04:56.490> did
+
+00:04:56.629 --> 00:04:56.639 
+equals no more specified as we did
+
+00:04:56.639 --> 00:04:58.430 
+equals no more specified as we did
+before<00:04:56.759> now<00:04:57.750> what<00:04:58.020> we're<00:04:58.199> doing<00:04:58.229> is
+
+00:04:58.430 --> 00:04:58.440 
+before now what we're doing is
+
+00:04:58.440 --> 00:05:03.860 
+before now what we're doing is
+performing<00:04:59.370> a<00:04:59.759> query<00:05:01.940> in<00:05:02.940> fact<00:05:03.630> we're<00:05:03.780> going
+
+00:05:03.860 --> 00:05:03.870 
+performing a query in fact we're going
+
+00:05:03.870 --> 00:05:08.110 
+performing a query in fact we're going
+to<00:05:03.930> perform<00:05:04.110> this<00:05:04.500> query<00:05:04.889> here<00:05:05.599> inside<00:05:06.860> here
+
+00:05:08.110 --> 00:05:08.120 
+to perform this query here inside here
+
+00:05:08.120 --> 00:05:11.180 
+to perform this query here inside here
+because<00:05:09.120> otherwise<00:05:09.449> there's<00:05:10.289> no<00:05:10.530> need<00:05:10.770> to
+
+00:05:11.180 --> 00:05:11.190 
+because otherwise there's no need to
+
+00:05:11.190 --> 00:05:16.100 
+because otherwise there's no need to
+continue<00:05:12.949> and<00:05:13.949> we'll<00:05:14.430> change<00:05:14.669> this<00:05:14.849> to<00:05:14.909> no<00:05:15.120> IDs
+
+00:05:16.100 --> 00:05:16.110 
+continue and we'll change this to no IDs
+
+00:05:16.110 --> 00:05:17.990 
+continue and we'll change this to no IDs
+specified<00:05:16.500> so<00:05:16.889> sorry<00:05:17.099> if<00:05:17.220> that's<00:05:17.340> confused<00:05:17.849> to
+
+00:05:17.990 --> 00:05:18.000 
+specified so sorry if that's confused to
+
+00:05:18.000 --> 00:05:19.879 
+specified so sorry if that's confused to
+let's<00:05:18.210> bring<00:05:18.389> this<00:05:18.539> down<00:05:18.599> to<00:05:18.750> make<00:05:18.960> make<00:05:19.710> it<00:05:19.830> a
+
+00:05:19.879 --> 00:05:19.889 
+let's bring this down to make make it a
+
+00:05:19.889 --> 00:05:22.430 
+let's bring this down to make make it a
+bit<00:05:20.010> easier<00:05:20.310> to<00:05:20.340> read<00:05:20.580> so<00:05:21.210> if<00:05:21.479> if<00:05:21.690> we<00:05:21.960> have<00:05:22.139> set
+
+00:05:22.430 --> 00:05:22.440 
+bit easier to read so if if we have set
+
+00:05:22.440 --> 00:05:24.469 
+bit easier to read so if if we have set
+this<00:05:22.560> ID<00:05:22.800> thing<00:05:23.159> then<00:05:23.340> we<00:05:23.460> complete<00:05:24.060> a<00:05:24.090> query
+
+00:05:24.469 --> 00:05:24.479 
+this ID thing then we complete a query
+
+00:05:24.479 --> 00:05:27.680 
+this ID thing then we complete a query
+so<00:05:25.110> query<00:05:25.409> is<00:05:25.710> selecting<00:05:26.370> email<00:05:26.940> selecting
+
+00:05:27.680 --> 00:05:27.690 
+so query is selecting email selecting
+
+00:05:27.690 --> 00:05:30.950 
+so query is selecting email selecting
+one<00:05:27.870> field<00:05:28.229> from<00:05:28.889> the<00:05:29.070> users<00:05:29.550> table<00:05:29.849> where<00:05:30.810> our
+
+00:05:30.950 --> 00:05:30.960 
+one field from the users table where our
+
+00:05:30.960 --> 00:05:33.439 
+one field from the users table where our
+ID<00:05:31.199> equals<00:05:31.919> the<00:05:32.039> ID<00:05:32.340> that<00:05:32.460> we've<00:05:32.580> specified<00:05:32.820> so
+
+00:05:33.439 --> 00:05:33.449 
+ID equals the ID that we've specified so
+
+00:05:33.449 --> 00:05:36.080 
+ID equals the ID that we've specified so
+i<00:05:33.479> ID<00:05:33.870> up<00:05:33.990> here<00:05:34.229> ID<00:05:34.560> up<00:05:34.770> there<00:05:34.979> MySQL<00:05:35.909> real
+
+00:05:36.080 --> 00:05:36.090 
+i ID up here ID up there MySQL real
+
+00:05:36.090 --> 00:05:37.879 
+i ID up here ID up there MySQL real
+escape<00:05:36.150> string<00:05:36.449> for<00:05:36.870> a<00:05:36.900> bit<00:05:37.050> of<00:05:37.169> security
+
+00:05:37.879 --> 00:05:37.889 
+escape string for a bit of security
+
+00:05:37.889 --> 00:05:40.640 
+escape string for a bit of security
+against<00:05:38.460> SQL<00:05:39.000> injection<00:05:39.630> now<00:05:40.289> we're<00:05:40.440> checking
+
+00:05:40.640 --> 00:05:40.650 
+against SQL injection now we're checking
+
+00:05:40.650 --> 00:05:44.000 
+against SQL injection now we're checking
+if<00:05:40.889> the<00:05:41.070> rows<00:05:41.580> returned<00:05:42.539> are<00:05:42.900> bigger<00:05:43.349> greater
+
+00:05:44.000 --> 00:05:44.010 
+if the rows returned are bigger greater
+
+00:05:44.010 --> 00:05:47.089 
+if the rows returned are bigger greater
+than<00:05:44.220> or<00:05:44.340> equal<00:05:44.789> to<00:05:45.150> 1<00:05:45.389> so<00:05:46.349> if<00:05:46.650> they<00:05:46.949> are
+
+00:05:47.089 --> 00:05:47.099 
+than or equal to 1 so if they are
+
+00:05:47.099 --> 00:05:48.529 
+than or equal to 1 so if they are
+greater<00:05:47.340> than<00:05:47.430> equal<00:05:47.760> to<00:05:47.789> 1<00:05:48.000> which<00:05:48.150> means<00:05:48.180> that
+
+00:05:48.529 --> 00:05:48.539 
+greater than equal to 1 which means that
+
+00:05:48.539 --> 00:05:50.689 
+greater than equal to 1 which means that
+we<00:05:48.750> have<00:05:48.930> successfully<00:05:49.470> retrieved<00:05:50.159> an<00:05:50.340> email
+
+00:05:50.689 --> 00:05:50.699 
+we have successfully retrieved an email
+
+00:05:50.699 --> 00:05:52.879 
+we have successfully retrieved an email
+value<00:05:51.120> we<00:05:51.690> retrieve<00:05:52.110> this<00:05:52.260> value<00:05:52.650> by<00:05:52.860> using
+
+00:05:52.879 --> 00:05:52.889 
+value we retrieve this value by using
+
+00:05:52.889 --> 00:05:55.939 
+value we retrieve this value by using
+the<00:05:53.280> MySQL<00:05:53.940> result<00:05:54.300> function<00:05:54.750> now<00:05:55.440> query<00:05:55.800> that
+
+00:05:55.939 --> 00:05:55.949 
+the MySQL result function now query that
+
+00:05:55.949 --> 00:05:58.700 
+the MySQL result function now query that
+we've<00:05:56.099> run<00:05:56.310> up<00:05:56.340> here<00:05:57.050> 0<00:05:58.050> row<00:05:58.320> which<00:05:58.530> is<00:05:58.560> the
+
+00:05:58.700 --> 00:05:58.710 
+we've run up here 0 row which is the
+
+00:05:58.710 --> 00:06:01.159 
+we've run up here 0 row which is the
+only<00:05:58.889> road<00:05:59.190> that's<00:05:59.340> been<00:05:59.400> returned<00:05:59.909> and<00:06:00.169> we're
+
+00:06:01.159 --> 00:06:01.169 
+only road that's been returned and we're
+
+00:06:01.169 --> 00:06:04.070 
+only road that's been returned and we're
+retrieving<00:06:01.500> the<00:06:02.070> email<00:06:02.699> field<00:06:03.080> otherwise
+
+00:06:04.070 --> 00:06:04.080 
+retrieving the email field otherwise
+
+00:06:04.080 --> 00:06:07.250 
+retrieving the email field otherwise
+email<00:06:04.830> equals<00:06:05.310> ID<00:06:05.610> not<00:06:06.000> found<00:06:06.330> then<00:06:06.900> we<00:06:07.050> come
+
+00:06:07.250 --> 00:06:07.260 
+email equals ID not found then we come
+
+00:06:07.260 --> 00:06:08.340 
+email equals ID not found then we come
+down<00:06:07.289> here
+
+00:06:08.340 --> 00:06:08.350 
+down here
+
+00:06:08.350 --> 00:06:10.830 
+down here
+and<00:06:08.950> we<00:06:09.160> do<00:06:09.430> our<00:06:09.640> checks<00:06:10.030> as<00:06:10.270> I've<00:06:10.480> already
+
+00:06:10.830 --> 00:06:10.840 
+and we do our checks as I've already
+
+00:06:10.840 --> 00:06:13.200 
+and we do our checks as I've already
+explained<00:06:11.140> in<00:06:11.290> the<00:06:11.320> tutorial<00:06:11.640> so<00:06:12.640> let's<00:06:12.940> test
+
+00:06:13.200 --> 00:06:13.210 
+explained in the tutorial so let's test
+
+00:06:13.210 --> 00:06:16.160 
+explained in the tutorial so let's test
+this<00:06:13.360> out<00:06:13.540> after<00:06:13.810> that<00:06:14.110> long<00:06:14.790> mouthful<00:06:15.790> of
+
+00:06:16.160 --> 00:06:16.170 
+this out after that long mouthful of
+
+00:06:16.170 --> 00:06:18.600 
+this out after that long mouthful of
+explaining<00:06:17.170> let's<00:06:17.620> go<00:06:17.770> back<00:06:17.920> to<00:06:18.040> index<00:06:18.430> dot
+
+00:06:18.600 --> 00:06:18.610 
+explaining let's go back to index dot
+
+00:06:18.610 --> 00:06:22.890 
+explaining let's go back to index dot
+PHP<00:06:19.410> let's<00:06:20.410> first<00:06:20.650> of<00:06:20.740> all<00:06:20.800> not<00:06:20.980> specify<00:06:21.900> and
+
+00:06:22.890 --> 00:06:22.900 
+PHP let's first of all not specify and
+
+00:06:22.900 --> 00:06:24.600 
+PHP let's first of all not specify and
+see<00:06:23.200> if<00:06:23.410> we<00:06:23.560> returned<00:06:24.130> with<00:06:24.280> the<00:06:24.340> correct
+
+00:06:24.600 --> 00:06:24.610 
+see if we returned with the correct
+
+00:06:24.610 --> 00:06:28.140 
+see if we returned with the correct
+error<00:06:24.910> you'll<00:06:25.840> see<00:06:26.020> no<00:06:26.260> ID<00:06:26.560> specified<00:06:27.310> so<00:06:27.970> now
+
+00:06:28.140 --> 00:06:28.150 
+error you'll see no ID specified so now
+
+00:06:28.150 --> 00:06:31.410 
+error you'll see no ID specified so now
+let's<00:06:28.390> go<00:06:28.570> in<00:06:28.690> and<00:06:28.870> say<00:06:29.080> ID<00:06:29.440> equals<00:06:30.370> now<00:06:30.970> the<00:06:31.030> ID
+
+00:06:31.410 --> 00:06:31.420 
+let's go in and say ID equals now the ID
+
+00:06:31.420 --> 00:06:33.600 
+let's go in and say ID equals now the ID
+that<00:06:31.780> we<00:06:31.870> have<00:06:32.080> in<00:06:32.200> the<00:06:32.290> database<00:06:32.770> the<00:06:33.100> two<00:06:33.310> IDs
+
+00:06:33.600 --> 00:06:33.610 
+that we have in the database the two IDs
+
+00:06:33.610 --> 00:06:35.670 
+that we have in the database the two IDs
+we<00:06:33.790> have<00:06:33.910> six<00:06:34.210> and<00:06:34.330> seven<00:06:34.780> so<00:06:35.290> let's<00:06:35.320> specify
+
+00:06:35.670 --> 00:06:35.680 
+we have six and seven so let's specify
+
+00:06:35.680 --> 00:06:37.980 
+we have six and seven so let's specify
+this<00:06:36.070> to<00:06:36.220> 10<00:06:36.550> because<00:06:36.850> that<00:06:37.090> doesn't<00:06:37.390> exist<00:06:37.720> so
+
+00:06:37.980 --> 00:06:37.990 
+this to 10 because that doesn't exist so
+
+00:06:37.990 --> 00:06:40.080 
+this to 10 because that doesn't exist so
+he<00:06:38.470> should<00:06:38.770> when<00:06:39.160> we<00:06:39.310> refresh<00:06:39.790> our<00:06:40.060> page
+
+00:06:40.080 --> 00:06:40.090 
+he should when we refresh our page
+
+00:06:40.090 --> 00:06:44.370 
+he should when we refresh our page
+retrieve<00:06:41.080> the<00:06:41.230> result<00:06:41.850> saying<00:06:42.850> that<00:06:43.060> we<00:06:43.380> the
+
+00:06:44.370 --> 00:06:44.380 
+retrieve the result saying that we the
+
+00:06:44.380 --> 00:06:45.500 
+retrieve the result saying that we the
+idea<00:06:44.680> is<00:06:44.740> not<00:06:44.830> being<00:06:45.040> found
+
+00:06:45.500 --> 00:06:45.510 
+idea is not being found
+
+00:06:45.510 --> 00:06:48.630 
+idea is not being found
+so<00:06:46.510> ID<00:06:46.720> not<00:06:47.020> found<00:06:47.260> so<00:06:47.560> that's<00:06:48.070> fine<00:06:48.340> it<00:06:48.490> works
+
+00:06:48.630 --> 00:06:48.640 
+so ID not found so that's fine it works
+
+00:06:48.640 --> 00:06:51.060 
+so ID not found so that's fine it works
+now<00:06:49.600> let's<00:06:49.780> go<00:06:49.900> back<00:06:50.050> and<00:06:50.230> do<00:06:50.290> it<00:06:50.410> sensibly<00:06:50.590> so
+
+00:06:51.060 --> 00:06:51.070 
+now let's go back and do it sensibly so
+
+00:06:51.070 --> 00:06:53.190 
+now let's go back and do it sensibly so
+we<00:06:51.190> can<00:06:51.310> say<00:06:51.430> six<00:06:51.820> now<00:06:52.420> what<00:06:52.630> this<00:06:52.780> should<00:06:52.990> now
+
+00:06:53.190 --> 00:06:53.200 
+we can say six now what this should now
+
+00:06:53.200 --> 00:06:55.470 
+we can say six now what this should now
+do<00:06:53.260> is<00:06:53.620> retrieve<00:06:54.040> the<00:06:54.400> email<00:06:54.790> address<00:06:55.060> of<00:06:55.090> user
+
+00:06:55.470 --> 00:06:55.480 
+do is retrieve the email address of user
+
+00:06:55.480 --> 00:06:59.010 
+do is retrieve the email address of user
+6<00:06:55.930> and<00:06:56.320> that<00:06:56.800> is<00:06:57.010> Alex<00:06:57.430> at<00:06:57.670> some<00:06:58.030> domain<00:06:58.450> comm
+
+00:06:59.010 --> 00:06:59.020 
+6 and that is Alex at some domain comm
+
+00:06:59.020 --> 00:07:02.840 
+6 and that is Alex at some domain comm
+so<00:06:59.890> let's<00:07:00.190> go<00:07:00.460> over<00:07:00.670> to<00:07:01.090> our<00:07:01.120> page<00:07:01.660> and<00:07:01.990> refresh
+
+00:07:02.840 --> 00:07:02.850 
+so let's go over to our page and refresh
+
+00:07:02.850 --> 00:07:06.720 
+so let's go over to our page and refresh
+and<00:07:03.850> we<00:07:04.180> retrieve<00:07:04.600> Alex<00:07:05.080> at<00:07:05.230> some<00:07:05.470> domain.com
+
+00:07:06.720 --> 00:07:06.730 
+and we retrieve Alex at some domain.com
+
+00:07:06.730 --> 00:07:08.430 
+and we retrieve Alex at some domain.com
+so<00:07:07.090> not<00:07:07.240> only<00:07:07.270> we're<00:07:07.630> converting<00:07:07.960> this<00:07:08.260> to
+
+00:07:08.430 --> 00:07:08.440 
+so not only we're converting this to
+
+00:07:08.440 --> 00:07:10.920 
+so not only we're converting this to
+text<00:07:08.710> we're<00:07:08.950> securely<00:07:09.490> doing<00:07:09.940> it<00:07:10.090> because<00:07:10.690> now
+
+00:07:10.920 --> 00:07:10.930 
+text we're securely doing it because now
+
+00:07:10.930 --> 00:07:13.110 
+text we're securely doing it because now
+if<00:07:11.050> we<00:07:11.200> look<00:07:11.350> at<00:07:11.440> our<00:07:11.530> page<00:07:11.710> source<00:07:12.070> the<00:07:12.610> email
+
+00:07:13.110 --> 00:07:13.120 
+if we look at our page source the email
+
+00:07:13.120 --> 00:07:15.570 
+if we look at our page source the email
+address<00:07:13.450> doesn't<00:07:13.810> exist<00:07:13.960> anywhere<00:07:14.920> in<00:07:15.190> this
+
+00:07:15.570 --> 00:07:15.580 
+address doesn't exist anywhere in this
+
+00:07:15.580 --> 00:07:19.230 
+address doesn't exist anywhere in this
+code<00:07:16.000> okay<00:07:16.780> so<00:07:17.410> our<00:07:18.250> bots<00:07:18.580> are<00:07:18.760> going<00:07:18.910> to<00:07:18.970> find
+
+00:07:19.230 --> 00:07:19.240 
+code okay so our bots are going to find
+
+00:07:19.240 --> 00:07:22.230 
+code okay so our bots are going to find
+it<00:07:19.360> harder<00:07:19.780> to<00:07:19.810> pick<00:07:20.140> up<00:07:20.320> a<00:07:20.520> plain<00:07:21.520> text<00:07:21.790> email
+
+00:07:22.230 --> 00:07:22.240 
+it harder to pick up a plain text email
+
+00:07:22.240 --> 00:07:24.840 
+it harder to pick up a plain text email
+value<00:07:22.630> so<00:07:23.110> let's<00:07:23.290> just<00:07:23.440> try<00:07:23.590> it<00:07:23.680> with<00:07:24.160> seven
+
+00:07:24.840 --> 00:07:24.850 
+value so let's just try it with seven
+
+00:07:24.850 --> 00:07:26.910 
+value so let's just try it with seven
+which<00:07:25.030> is<00:07:25.060> Dale's<00:07:25.480> email<00:07:25.990> address<00:07:26.260> and<00:07:26.500> then
+
+00:07:26.910 --> 00:07:26.920 
+which is Dale's email address and then
+
+00:07:26.920 --> 00:07:29.130 
+which is Dale's email address and then
+the<00:07:26.950> tutorial<00:07:27.610> will<00:07:27.940> be<00:07:27.970> over<00:07:28.420> so<00:07:28.990> let's
+
+00:07:29.130 --> 00:07:29.140 
+the tutorial will be over so let's
+
+00:07:29.140 --> 00:07:30.780 
+the tutorial will be over so let's
+refresh<00:07:29.320> and<00:07:29.830> you<00:07:29.890> can<00:07:29.920> see<00:07:30.070> that's<00:07:30.310> changed
+
+00:07:30.780 --> 00:07:30.790 
+refresh and you can see that's changed
+
+00:07:30.790 --> 00:07:32.790 
+refresh and you can see that's changed
+to<00:07:30.880> Dale<00:07:31.150> at<00:07:31.690> some<00:07:32.050> domain.com
+
+00:07:32.790 --> 00:07:32.800 
+to Dale at some domain.com
+
+00:07:32.800 --> 00:07:34.680 
+to Dale at some domain.com
+so<00:07:33.490> that's<00:07:33.670> a<00:07:33.760> little<00:07:33.910> bit<00:07:34.090> about<00:07:34.300> why<00:07:34.630> you
+
+00:07:34.680 --> 00:07:34.690 
+so that's a little bit about why you
+
+00:07:34.690 --> 00:07:36.990 
+so that's a little bit about why you
+should<00:07:35.110> use<00:07:35.830> this<00:07:36.010> method<00:07:36.400> as<00:07:36.520> much<00:07:36.820> as
+
+00:07:36.990 --> 00:07:37.000 
+should use this method as much as
+
+00:07:37.000 --> 00:07:39.090 
+should use this method as much as
+possible<00:07:37.180> and<00:07:37.630> a<00:07:38.170> really<00:07:38.440> quick<00:07:38.710> and<00:07:38.830> easy<00:07:38.890> way
+
+00:07:39.090 --> 00:07:39.100 
+possible and a really quick and easy way
+
+00:07:39.100 --> 00:07:42.780 
+possible and a really quick and easy way
+to<00:07:39.280> do<00:07:39.580> it<00:07:40.590> play<00:07:41.590> around<00:07:41.620> with<00:07:41.950> a<00:07:42.010> code<00:07:42.280> make<00:07:42.640> it
+
+00:07:42.780 --> 00:07:42.790 
+to do it play around with a code make it
+
+00:07:42.790 --> 00:07:45.470 
+to do it play around with a code make it
+your<00:07:42.940> own<00:07:43.090> change<00:07:43.870> colors<00:07:44.290> change<00:07:44.590> font<00:07:44.890> sizes
+
+00:07:45.470 --> 00:07:45.480 
+your own change colors change font sizes
+
+00:07:45.480 --> 00:07:48.210 
+your own change colors change font sizes
+and<00:07:46.480> I<00:07:46.990> wish<00:07:47.290> you<00:07:47.440> the<00:07:47.590> best<00:07:47.620> of<00:07:47.920> luck<00:07:48.160> with
+
+00:07:48.210 --> 00:07:48.220 
+and I wish you the best of luck with
+
+00:07:48.220 --> 00:07:51.090 
+and I wish you the best of luck with
+creating<00:07:49.210> this<00:07:49.390> and<00:07:49.690> because<00:07:50.380> our<00:07:50.530> functions
+
+00:07:51.090 --> 00:07:51.100 
+creating this and because our functions
+
+00:07:51.100 --> 00:07:54.780 
+creating this and because our functions
+do<00:07:52.000> get<00:07:52.270> a<00:07:52.300> bit<00:07:52.510> tricky
+

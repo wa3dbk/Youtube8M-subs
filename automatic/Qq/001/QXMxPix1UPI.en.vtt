@@ -1,0 +1,150 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.630 --> 00:00:14.320
+Create a new folder for your skin
+
+00:00:29.910 --> 00:00:48.330
+Open JPOG's Data folder
+
+00:00:49.780 --> 00:00:51.550
+Open matlibs folder
+
+00:00:55.270 --> 00:01:04.280
+Select the TML file of the dino's digsite
+e.g. dinos_flamingcliffs.tml
+
+00:01:06.600 --> 00:01:10.530
+And copy it into the new folder
+
+00:01:13.290 --> 00:01:24.640
+Make a backup file
+e.g. dinos_flamingcliffs_original.tml
+
+00:01:36.210 --> 00:01:47.260
+Copy ConvertCCT's files in the new folder
+
+00:01:50.560 --> 00:01:54.420
+Drag the TML and drop it on ConvertCCT
+
+00:02:05.320 --> 00:02:16.740
+Delete useless bitmaps
+
+00:02:20.070 --> 00:02:25.640
+Open the dino skin with GIMP
+e.g. Raptor.bmp, not raptor_opa
+
+00:02:32.960 --> 00:02:44.100
+In GIMP modify your skin
+
+00:02:51.640 --> 00:02:54.670
+Then click on File&gt;Open
+
+00:02:56.080 --> 00:02:58.030
+Open the opacity skin
+(sometimes there isn't one)
+
+00:03:07.470 --> 00:03:10.480
+Click on Select&gt;All
+
+00:03:11.580 --> 00:03:13.760
+Click on Modify&gt;Copy
+
+00:03:19.480 --> 00:03:24.760
+In the normal skin
+make a new channel
+
+00:03:39.890 --> 00:03:42.450
+Paste the opacity skin
+
+00:03:45.190 --> 00:03:48.490
+Anchor the new level
+
+00:03:58.250 --> 00:04:15.170
+Save as Raptor.psd
+
+00:04:17.940 --> 00:04:20.180
+Close GIMP
+
+00:04:24.970 --> 00:04:28.410
+Open DDS converter 2
+
+00:04:30.340 --> 00:04:35.160
+Select Raptor.psd
+
+00:04:38.820 --> 00:04:40.140
+Change Output Format to DDS
+
+00:04:42.260 --> 00:04:43.080
+Click on Options...
+
+00:04:46.000 --> 00:04:47.590
+Choose DXT5 in DXTc format
+
+00:04:46.470 --> 00:04:47.940
+Disable Build Minimaps
+Check Save alpha
+
+00:04:48.570 --> 00:04:52.040
+Click OK
+
+00:04:55.910 --> 00:04:56.830
+Click Convert
+
+00:04:58.610 --> 00:05:00.690
+And then Close
+
+00:05:05.910 --> 00:05:10.520
+Open the TML with Hex Editor Neo
+
+00:05:32.740 --> 00:05:35.910
+Click Edit&gt;Find
+
+00:05:37.130 --> 00:05:38.940
+In Type choose Hex Bytes(BYTE)
+
+00:05:39.980 --> 00:05:42.610
+In Find what write 44445320
+
+00:05:44.100 --> 00:05:47.060
+Click Find next
+
+00:05:48.210 --> 00:05:50.450
+Click on File&gt;Open
+
+00:05:50.360 --> 00:05:52.310
+(visit the link in the description
+for a text guide)
+
+00:05:51.750 --> 00:05:56.440
+Open the DDS skin
+
+00:05:58.400 --> 00:06:00.960
+Click Select&gt;Select All
+
+00:06:02.220 --> 00:06:03.450
+Copy
+
+00:06:05.250 --> 00:06:07.600
+Click on the TML tab
+
+00:06:08.260 --> 00:06:10.540
+And paste
+
+00:06:11.930 --> 00:06:14.040
+Save the TML
+
+00:06:20.940 --> 00:06:25.470
+Delete the bitmaps
+
+00:06:43.290 --> 00:06:53.920
+Copy the TML into matlibs folder
+
+00:06:58.970 --> 00:07:22.030
+Make a copy of the TML and add 16
+e.g. dinos_flamingcliffs16.tml
+
+00:07:25.400 --> 00:07:30.620
+now run JPOG
+
