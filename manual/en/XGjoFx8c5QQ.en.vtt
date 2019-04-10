@@ -1,0 +1,189 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.200 --> 00:00:05.090
+In part 1 of this movie, we take a look at basic transforms.
+
+00:00:05.680 --> 00:00:10.610
+Transforms are the three tools you need 
+to move, rotate, or scale objects in a scene.
+
+00:00:11.080 --> 00:00:17.020
+You can access them from the main tool bar, but also
+from the quad menu when you right-click in a viewport.
+
+00:00:17.740 --> 00:00:24.800
+The keyboard shortcuts for Move, Rotate, 
+and Scale are W, E, and R respectively.
+
+00:00:25.560 --> 00:00:33.800
+Transforms are also selection tools in their own rights,
+so you don't have to switch back and forth between 
+Select Object and the three transform tools.
+
+00:00:34.080 --> 00:00:39.940
+When a transform like Move is enabled and 
+you select an object, a transform gizmo appears.
+
+00:00:40.430 --> 00:00:48.820
+In the case of Move, the gizmo shows three axis handles representing
+X, Y, and Z directions, with the colors red, green, and blue.
+
+00:00:49.290 --> 00:00:56.220
+To move the object in any one direction, place the cursor
+on the arrow until the line of its axis handle turns yellow.
+
+00:00:56.750 --> 00:00:59.560
+The arrowhead itself doesn't change color.
+
+00:01:00.310 --> 00:01:05.340
+And then when you click and drag, the object's motion
+is constrained to that direction.
+
+00:01:06.410 --> 00:01:16.340
+To move an object in two directions simultaneously, 
+place the cursor on the square where two direction axes meet.
+
+00:01:16.930 --> 00:01:22.160
+Rotation is similar, but the gizmo is different,
+with a set of concentric circles.
+
+00:01:22.540 --> 00:01:28.800
+Again, the red, green, and blue colors 
+reflect the X, Y, and Z directions.
+
+00:01:29.460 --> 00:01:34.860
+There is also a gray circle, which lets you rotate
+the object on a plane parallel to the viewport.
+
+00:01:35.310 --> 00:01:41.185
+When you drag any one of these circles, it turns yellow
+and the rotation is constrained to that axis.
+
+00:01:42.050 --> 00:01:49.560
+When the cursor is inside the sphere of rings, you can
+rotate the object freely on all three axes simultaneously.
+
+00:01:50.515 --> 00:02:00.019
+If you wish, you can turn on Angle Snap from the main tool bar
+to restrict the rotation to 5 degree increments.
+
+00:02:01.260 --> 00:02:12.340
+You can right-click Angle Snap to access the Options tab 
+and change the angle to the degree you want, such as 45 degrees.
+
+00:02:14.070 --> 00:02:27.440
+You can also use the options in the Snap tab for precision control
+to specify which elements you want to snap to, such as grid lines,
+points, object pivots, edges, faces, and so on.
+
+00:02:28.330 --> 00:02:31.530
+The keyboard shortcut for Angle Snap is A.
+
+00:02:32.130 --> 00:02:34.390
+Scale has a few more options.
+
+00:02:34.610 --> 00:02:42.870
+In its simplest form, placing the cursor in the center of the gizmo
+lets you make the object bigger or smaller without deforming it.
+
+00:02:43.680 --> 00:02:51.640
+However, dragging a single axis handle deforms the object
+in one direction and the aspect ratio is altered.
+
+00:02:52.898 --> 00:02:56.985
+You can also scale an object on 2 axes but not on the third.
+
+00:02:57.480 --> 00:03:02.370
+For example you can alter the fuel drum's radius
+without altering its height.
+
+00:03:03.270 --> 00:03:12.670
+Finally, you can also use this last Scale option
+in the flyout to squash and stretch the object,
+which is very popular for creating a cartoon effect.
+
+00:03:13.110 --> 00:03:24.680
+Basically, this option lets you scale the object
+along a given axis, in this case the Z axis, and deforms
+the object along the other axes to retain the object's volume.
+
+00:03:25.830 --> 00:03:30.620
+Sometimes you need to enter specific values
+when you transform objects.
+
+00:03:31.400 --> 00:03:39.540
+You can type in values at the bottom of the screen,
+or by right-clicking the appropriate transform button,
+such as the Move tool in this case.
+
+00:03:40.510 --> 00:03:47.360
+The selected object at this time is at World coordinates -2, 0, 0.
+
+00:03:48.210 --> 00:03:57.410
+This scene displays meters as the unit of measurement, and you might see other types of units, such as inches or generic units, if you are using a different scene.
+
+00:03:57.900 --> 00:04:03.620
+To relocate this object to the origin of the world, you can set its X value to 0.
+
+00:04:04.500 --> 00:04:09.150
+Notice how the X value at the bottom of the screen also changed to 0.
+
+00:04:09.870 --> 00:04:13.100
+Sometimes though, you may need a relative offset.
+
+00:04:13.750 --> 00:04:18.270
+This other fuel drum, for example, 
+has an imperfect decimal-driven X value.
+
+00:04:18.840 --> 00:04:24.010
+Suppose you want to push this object an extra 2 meters
+to the right from where it is right now.
+
+00:04:24.580 --> 00:04:29.110
+Then you would use the Offset: World X value,
+in the right column here.
+
+00:04:29.550 --> 00:04:36.080
+Once you type in 2 and press enter, the value
+goes back to 0, readying itself for another entry,
+
+00:04:36.520 --> 00:04:43.470
+and the Absolute: World X value changes to the sum
+of the original value plus the offset you just added.
+
+00:04:44.000 --> 00:04:54.200
+If you wish to add a relative offset at the bottom of the screen,
+this option toggles between Absolute and Offset coordinates,
+much like you have in the Transform Type-In dialog.
+
+00:04:54.800 --> 00:04:56.950
+Let's dismiss the dialog for now.
+
+00:04:57.480 --> 00:05:02.130
+Ultimately, you may need to align objects
+together in some form or another.
+
+00:05:02.450 --> 00:05:06.770
+First, select the object you wish to relocate, such as this fuel drum,
+
+00:05:07.070 --> 00:05:08.630
+click the Align tool,
+
+00:05:08.930 --> 00:05:14.430
+and then select the target object to which you want
+to align the fuel drum, such as this crate here.
+
+00:05:14.730 --> 00:05:19.220
+You can then preview and adjust the alignment
+using a series of options.
+
+00:05:19.660 --> 00:05:27.930
+Let's make sure in this case that we align the pivot points first,
+and then align the two objects in X, in Y, and in Z.
+
+00:05:28.322 --> 00:05:37.806
+Once you're done, click Apply to continue the alignment work,
+or press OK to confirm the changes and exit the dialog.
+

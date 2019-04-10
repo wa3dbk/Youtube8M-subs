@@ -1,0 +1,170 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.060 --> 00:00:09.719
+Welcome to Final Cut Pro X in under 5 minutes.
+I’m Steve from rippletraining.com. In the
+
+00:00:09.719 --> 00:00:14.510
+past several years, aerial videography has
+become increasingly popular do to the low
+
+00:00:14.510 --> 00:00:20.420
+cost barrier of entry for a complete system
+like this DJI Phantom 2 shown here.
+
+00:00:20.420 --> 00:00:24.029
+We took one out for a test drive recently
+and shot some go pro footage our house in
+
+00:00:24.029 --> 00:00:28.779
+northern arizona. After viewing the footage
+later on my Mac, I began to notice things
+
+00:00:28.779 --> 00:00:32.640
+in the shot that weren’t so obvious while
+flying the camera around and looking at the
+
+00:00:32.640 --> 00:00:36.290
+tiny image the drone was streaming to the iPod touch.
+
+00:00:36.290 --> 00:00:41.230
+Here is one example; in the foreground you
+can see the hard shadow the drone as it flies
+
+00:00:41.230 --> 00:00:45.660
+over the scene. I learned the hard way that
+on bright days like this one, I need to be
+
+00:00:45.660 --> 00:00:50.350
+aware of my shooting angle and direction if
+I want to avoid seeing the camera in the shot.
+
+00:00:50.350 --> 00:00:54.170
+But since this was my first shooting experience
+and I was more enamored with the fact that
+
+00:00:54.170 --> 00:00:57.080
+I had a new toy to play with, I cut myself
+some slack.
+
+00:00:57.080 --> 00:01:00.860
+Be that as it may, I very much like this shot,
+and wanted to see if I could remove the shadow
+
+00:01:00.860 --> 00:01:06.150
+in post using Final Cut Pro X. I’m going
+to be using an effect called the RT Cloner
+
+00:01:06.150 --> 00:01:10.340
+that is part of our Ripple Tools 2 collection
+of plugins to see if I can’t salvage the
+
+00:01:10.340 --> 00:01:11.130
+shot.
+
+00:01:11.130 --> 00:01:16.020
+If you want to know more about our Final Cut
+Pro plugins, click the link in the info section.
+
+00:01:16.020 --> 00:01:21.689
+I’ll start by selecting the clip, then pressing
+X to set a range for the entire clip. In the
+
+00:01:21.689 --> 00:01:27.759
+Titles Browser, I’ll locate the Ripple Tools
+2 collection, then select the RT Cloner. Press
+
+00:01:27.759 --> 00:01:31.069
+Q to connect it above the clip in the timeline.
+
+00:01:31.069 --> 00:01:35.429
+In the center of the screen is an onscreen
+control called a target. Drag it over the
+
+00:01:35.429 --> 00:01:40.439
+pixels you want to clone out. The RT Cloner
+works by defining how large a section of neighboring
+
+00:01:40.439 --> 00:01:46.429
+pixels you want to use for cloning. Press
+Command 4 to open the inspector. In the published
+
+00:01:46.429 --> 00:01:51.130
+parameters section, reduce the size of the
+target until the gray circle is just covering
+
+00:01:51.130 --> 00:01:53.920
+the object you want to remove.
+
+00:01:53.920 --> 00:01:59.079
+In order to see the pixels you are cloning
+from, turn off the Show Target button. Now
+
+00:01:59.079 --> 00:02:04.630
+using the Clone Offset hot-scrubbers drag
+up or down for the X value. Dragging upward
+
+00:02:04.630 --> 00:02:08.979
+clones pixels to the left of the target, and
+dragging downward clones pixels to the right
+
+00:02:08.979 --> 00:02:13.599
+of the target. I’ll drag up because the
+tonal range of the pixels to the left are
+
+00:02:13.599 --> 00:02:18.420
+a much better match. In order to reduce the
+hard line of the clone patch I’ll crank
+
+00:02:18.420 --> 00:02:21.629
+up the feather amount.
+
+00:02:21.629 --> 00:02:27.790
+In order to track the target to drone shadow,
+set keyframes at the playhead location. Move
+
+00:02:27.790 --> 00:02:32.530
+the playhead to the beginning of the clip
+by pressing Home. Now I’ll drag downward
+
+00:02:32.530 --> 00:02:38.260
+on the X Target Position to clone from different
+source pixels. Notice a new keyframe has been
+
+00:02:38.260 --> 00:02:43.209
+set for the Target position at the current
+playhead location.
+
+00:02:43.209 --> 00:02:47.670
+Using the right arrow key I’ll step through
+the clip looking for any frame where the target
+
+00:02:47.670 --> 00:02:52.629
+is not covering the drone shadow. At any point
+I can refine the target position to get the
+
+00:02:52.629 --> 00:02:54.659
+clone back on track.
+
+00:02:54.659 --> 00:03:01.659
+Let’s see how it looks playing back in real
+time… not bad…. If I press the V key I
+
+00:03:01.769 --> 00:03:08.769
+can see a before and after. I can even make
+adjustment to the clone parameters while the
+
+00:03:09.640 --> 00:03:15.939
+clip plays back. Depending how much movement
+is in the shot and where you are cloning from,
+
+00:03:15.939 --> 00:03:20.319
+you may have a perfect clone or you may have
+one that’s passable. But for me, the real
+
+00:03:20.319 --> 00:03:27.319
+benefit was how fast I was able to fix it
+in post.
+

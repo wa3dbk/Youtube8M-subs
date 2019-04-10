@@ -1,0 +1,539 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.500 --> 00:00:03.300
+-In this video, we're going to
+be looking at deploying code
+
+00:00:03.300 --> 00:00:07.450
+from a host of repository
+like GitHub or Bitbucket
+
+00:00:07.450 --> 00:00:11.400
+and pushing that to a
+server like an Amazon EC2
+
+00:00:11.400 --> 00:00:15.280
+instance or a Digital
+Ocean droplet.
+
+00:00:15.280 --> 00:00:17.970
+Now I'm going to be
+using GitHub in this case
+
+00:00:17.970 --> 00:00:21.000
+and I'm going to be using
+Digital Ocean to create
+
+00:00:21.000 --> 00:00:22.180
+a droplet.
+
+00:00:22.180 --> 00:00:24.870
+And we're going to
+be using dploy.io
+
+00:00:24.870 --> 00:00:27.800
+to actually deploy this.
+
+00:00:27.800 --> 00:00:30.780
+And this makes it really
+easy to actually deploy
+
+00:00:30.780 --> 00:00:33.910
+your application and
+keeps it all in one place
+
+00:00:33.910 --> 00:00:35.430
+and keeps it really nice.
+
+00:00:35.430 --> 00:00:40.290
+I've used a couple of different
+websites that work like dploy.
+
+00:00:40.290 --> 00:00:43.170
+But I found that dploy
+has the most options.
+
+00:00:43.170 --> 00:00:46.910
+And it's also really
+easy to set up, as well.
+
+00:00:46.910 --> 00:00:51.010
+So as you can see, I
+have a GitHub repo here.
+
+00:00:51.010 --> 00:00:52.430
+It's called Hello World.
+
+00:00:52.430 --> 00:00:56.140
+And I basically just have one
+file in here-- one commit--
+
+00:00:56.140 --> 00:00:58.510
+and this just says Hello World.
+
+00:00:58.510 --> 00:01:02.450
+In real life your application
+will obviously be a lot larger.
+
+00:01:02.450 --> 00:01:05.459
+But in this case, I'm just
+going to use this as an example.
+
+00:01:05.459 --> 00:01:07.550
+And you can see the
+result of this here.
+
+00:01:07.550 --> 00:01:09.020
+So by the end of
+the video, we'll
+
+00:01:09.020 --> 00:01:12.590
+have deployed this-- all of
+the code in this repository--
+
+00:01:12.590 --> 00:01:15.870
+to a Digital Ocean server.
+
+00:01:15.870 --> 00:01:18.110
+So regardless of what
+service you're using,
+
+00:01:18.110 --> 00:01:20.160
+I'm going to go ahead
+and set this up now.
+
+00:01:20.160 --> 00:01:23.822
+So I'm going to create a new
+droplet in Digital Ocean.
+
+00:01:23.822 --> 00:01:26.030
+If you have not already
+signed up with Digital Ocean,
+
+00:01:26.030 --> 00:01:28.300
+go ahead and feel
+free if you want to.
+
+00:01:28.300 --> 00:01:30.860
+So I'm going to
+not really choose
+
+00:01:30.860 --> 00:01:32.219
+too many different options here.
+
+00:01:32.219 --> 00:01:33.760
+I'm just going to
+hit Create Droplet.
+
+00:01:33.760 --> 00:01:37.000
+And that's going to
+create my droplet for me.
+
+00:01:37.000 --> 00:01:40.510
+And I'll get a user name and
+a password just emailed to me.
+
+00:01:40.510 --> 00:01:42.500
+You can add an SSH key here.
+
+00:01:42.500 --> 00:01:47.520
+It really depends on how
+you want to work with this.
+
+00:01:47.520 --> 00:01:49.390
+OK, so once your
+droplet is created,
+
+00:01:49.390 --> 00:01:53.260
+we're going open up a terminal
+and SSH over to our server.
+
+00:01:53.260 --> 00:01:55.050
+If you're using
+something like Windows,
+
+00:01:55.050 --> 00:01:57.370
+you can use
+[? party ?] to do this.
+
+00:01:57.370 --> 00:01:59.860
+Someone's been connected,
+the first thing we want to do
+
+00:01:59.860 --> 00:02:02.100
+is install Apache
+just so we can test
+
+00:02:02.100 --> 00:02:05.590
+that this works
+via an HTTP server.
+
+00:02:05.590 --> 00:02:08.669
+You cannot obviously set up
+your droplet however you want
+
+00:02:08.669 --> 00:02:12.180
+to with the services you
+need, et cetera, et cetera.
+
+00:02:12.180 --> 00:02:15.310
+So I'm going to, first
+of all, update APT.
+
+00:02:18.440 --> 00:02:21.760
+And now that that's done,
+I'm going to install Apache.
+
+00:02:24.540 --> 00:02:26.660
+So what we're now
+interested in is
+
+00:02:26.660 --> 00:02:30.000
+where our public
+files are located.
+
+00:02:30.000 --> 00:02:34.460
+In this case, it happens to
+be in [INAUDIBLE] www/html.
+
+00:02:34.460 --> 00:02:37.650
+This will differ depending on
+the server that you're using.
+
+00:02:37.650 --> 00:02:41.320
+And you can see that we've got
+index.html in here by default.
+
+00:02:41.320 --> 00:02:45.210
+So if we actually go
+over to a browser window
+
+00:02:45.210 --> 00:02:48.560
+over I'll IP address, we should
+see the default Ubuntu Apache
+
+00:02:48.560 --> 00:02:49.570
+page.
+
+00:02:49.570 --> 00:02:52.299
+And here's the default
+page that we would see.
+
+00:02:52.299 --> 00:02:53.840
+So as long as you've
+got this working
+
+00:02:53.840 --> 00:02:57.720
+and you know the directory where
+your public files are stored,
+
+00:02:57.720 --> 00:03:02.710
+we can use dploy.io to copy
+the files from our GitHub
+
+00:03:02.710 --> 00:03:06.090
+repository over to
+our public directory
+
+00:03:06.090 --> 00:03:09.180
+so we leave this I think
+will need this later on.
+
+00:03:09.180 --> 00:03:12.480
+Now what we're going to
+do is, inside of dploy.io,
+
+00:03:12.480 --> 00:03:14.990
+we're going to
+connect a repository.
+
+00:03:14.990 --> 00:03:17.420
+So you're going to need to
+provide your GitHub, Bitbucket,
+
+00:03:17.420 --> 00:03:19.780
+or self-hosted details here.
+
+00:03:19.780 --> 00:03:21.970
+In this case, I'm going
+to choose the Hello World
+
+00:03:21.970 --> 00:03:23.110
+repository.
+
+00:03:23.110 --> 00:03:25.940
+So I'm going to give it a
+title here and a color label,
+
+00:03:25.940 --> 00:03:27.960
+if you want, and I'm
+going hit connect.
+
+00:03:27.960 --> 00:03:30.950
+So once that's done, you'll
+see that your repositories
+
+00:03:30.950 --> 00:03:33.040
+been added to the list here.
+
+00:03:33.040 --> 00:03:35.500
+And mind that before you
+actually do any of this
+
+00:03:35.500 --> 00:03:39.190
+you will need to connect to
+your GitHub or other account.
+
+00:03:39.190 --> 00:03:40.910
+So I'm going to hit
+Hello World here.
+
+00:03:40.910 --> 00:03:44.820
+And we have the option to create
+an environment and server.
+
+00:03:44.820 --> 00:03:47.510
+So what we need to do is
+create an environment here.
+
+00:03:47.510 --> 00:03:50.270
+And I'm just going to call
+this Hello World Production.
+
+00:03:50.270 --> 00:03:52.640
+And you can give it a
+color label if you want.
+
+00:03:52.640 --> 00:03:55.140
+And we also need to
+choose the branch as well.
+
+00:03:55.140 --> 00:03:58.620
+So this could be a development
+branch, a specific branch
+
+00:03:58.620 --> 00:04:01.180
+or, in this case, it's just
+going to be the master branch.
+
+00:04:01.180 --> 00:04:03.388
+And there's not really much
+else you need to do here.
+
+00:04:03.388 --> 00:04:06.980
+But you can do things like
+HipChat or Campfire deployment
+
+00:04:06.980 --> 00:04:08.410
+notifications.
+
+00:04:08.410 --> 00:04:10.100
+So I'm going to hit
+add environment.
+
+00:04:10.100 --> 00:04:13.650
+And once that's done,
+we can choose a server.
+
+00:04:13.650 --> 00:04:15.070
+So you can see the options here.
+
+00:04:15.070 --> 00:04:17.070
+And depending on when
+you're watching this idea,
+
+00:04:17.070 --> 00:04:20.269
+there maybe additional options
+when you come to use this.
+
+00:04:20.269 --> 00:04:22.690
+But in this case, I'm
+going to hit Digital Ocean
+
+00:04:22.690 --> 00:04:25.240
+and click Next Step.
+
+00:04:25.240 --> 00:04:28.050
+So I'm going to call
+this hello world server.
+
+00:04:28.050 --> 00:04:32.090
+The repository path we can
+just leave as a forward slash.
+
+00:04:32.090 --> 00:04:34.620
+For the drop pit though,
+what we need to do here
+
+00:04:34.620 --> 00:04:37.050
+is we need to
+actually change this
+
+00:04:37.050 --> 00:04:39.970
+to the Hello World droplet.
+
+00:04:39.970 --> 00:04:43.370
+So now what we can do is we
+can provide the remote path.
+
+00:04:43.370 --> 00:04:47.610
+Remember this remote path
+is [INAUDIBLE] www/html.
+
+00:04:47.610 --> 00:04:50.010
+So we can enter that in here.
+
+00:04:50.010 --> 00:04:51.905
+So now we can go and
+click check connection.
+
+00:04:51.905 --> 00:04:53.605
+But this is going to fail.
+
+00:04:53.605 --> 00:04:55.710
+So you'll see what
+we need to do here
+
+00:04:55.710 --> 00:04:57.360
+to actually make this work.
+
+00:04:57.360 --> 00:05:02.050
+And this is because we don't
+have the SSH key for dploy.io
+
+00:05:02.050 --> 00:05:05.442
+added to our authorized
+keys on our server.
+
+00:05:05.442 --> 00:05:07.150
+And there's [INAUDIBLE]
+instructions here
+
+00:05:07.150 --> 00:05:09.204
+that will actually tell
+you how to do this.
+
+00:05:09.204 --> 00:05:11.370
+So if you hit learn about
+public key authentication,
+
+00:05:11.370 --> 00:05:12.709
+you do get a guide here.
+
+00:05:12.709 --> 00:05:14.750
+What we're going to do is
+we're going to hit this
+
+00:05:14.750 --> 00:05:17.760
+and we're going to take this
+key we're going to copy this
+
+00:05:17.760 --> 00:05:20.730
+and we're going to paste
+this into our authorized keys
+
+00:05:20.730 --> 00:05:22.150
+on our server.
+
+00:05:22.150 --> 00:05:28.320
+So we're going to use vim to
+hit our home directory in SSH
+
+00:05:28.320 --> 00:05:33.310
+in it's authorized keys.
+
+00:05:33.310 --> 00:05:35.140
+So we'll hit Insert mode.
+
+00:05:35.140 --> 00:05:36.350
+We'll paste this in.
+
+00:05:36.350 --> 00:05:37.290
+We'll come out.
+
+00:05:37.290 --> 00:05:39.910
+And we'll save that and quit.
+
+00:05:39.910 --> 00:05:48.550
+So now when we go and hit
+Check Connection-- there we go.
+
+00:05:48.550 --> 00:05:49.557
+It works.
+
+00:05:49.557 --> 00:05:51.140
+So there's a couple
+of optional things
+
+00:05:51.140 --> 00:05:53.700
+you can do here like
+post deployment commands
+
+00:05:53.700 --> 00:05:54.780
+and webhooks.
+
+00:05:54.780 --> 00:05:56.550
+I'm going to skip this for now.
+
+00:05:56.550 --> 00:05:58.170
+So we're now ready to deploy.
+
+00:05:58.170 --> 00:05:59.890
+So on our server
+here, what's now
+
+00:05:59.890 --> 00:06:03.630
+going to happen is when we
+deploy from our GitHub repo,
+
+00:06:03.630 --> 00:06:05.160
+this is then going
+to be copied over
+
+00:06:05.160 --> 00:06:08.790
+to our public HTTP directory.
+
+00:06:08.790 --> 00:06:10.970
+So let's click Deploy.
+
+00:06:10.970 --> 00:06:13.490
+We have the option
+to choose a revision.
+
+00:06:13.490 --> 00:06:16.419
+And we can enter some
+deployment notes here.
+
+00:06:16.419 --> 00:06:17.460
+I'm not going to do this.
+
+00:06:17.460 --> 00:06:18.785
+I'm going to hit Review.
+
+00:06:21.570 --> 00:06:23.410
+And then I'm going to
+hit Start Deployment.
+
+00:06:25.950 --> 00:06:27.430
+So that's now deploying.
+
+00:06:27.430 --> 00:06:29.020
+If we just refresh
+the page, there's
+
+00:06:29.020 --> 00:06:30.020
+not a lot of files here.
+
+00:06:30.020 --> 00:06:31.520
+So that should be done now.
+
+00:06:31.520 --> 00:06:33.400
+And when we go
+over to our server,
+
+00:06:33.400 --> 00:06:36.230
+you can see that
+that's been deployed.
+

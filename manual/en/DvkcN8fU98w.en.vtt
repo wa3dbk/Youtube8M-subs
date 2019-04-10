@@ -1,0 +1,550 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.780 --> 00:00:03.450
+I also wanted to run through
+some of these other cache
+
+00:00:03.450 --> 00:00:07.010
+basics to make sure that
+the people understand
+
+00:00:07.010 --> 00:00:11.370
+all of these terms that we will
+use in most cache discussions.
+
+00:00:11.370 --> 00:00:13.510
+We've already talked
+about L1 cache being
+
+00:00:13.510 --> 00:00:15.220
+split as instruction and data.
+
+00:00:15.220 --> 00:00:20.580
+So I said that if this is your
+core, it usually accesses L1.
+
+00:00:20.580 --> 00:00:22.830
+There's an L1 data cache.
+
+00:00:22.830 --> 00:00:25.600
+And there's also an
+L1 instruction cache.
+
+00:00:25.600 --> 00:00:28.770
+But then these go on to share
+the same L2 and the same L3
+
+00:00:28.770 --> 00:00:30.350
+and so on.
+
+00:00:30.350 --> 00:00:35.400
+So once you move past the L1,
+the caches are usually unified.
+
+00:00:35.400 --> 00:00:38.370
+I also talked about the
+fact that these hierarchies
+
+00:00:38.370 --> 00:00:41.930
+can be inclusive,
+exclusive, or non-inclusive.
+
+00:00:41.930 --> 00:00:44.350
+Now let's talk about what
+does write allocate, was does
+
+00:00:44.350 --> 00:00:46.230
+write not allocate.
+
+00:00:46.230 --> 00:00:49.270
+So if my core issues
+are write-- and writes
+
+00:00:49.270 --> 00:00:51.980
+are done by doing a
+store instruction.
+
+00:00:51.980 --> 00:00:58.280
+So when I do a write and I
+ended up having a miss in my L1.
+
+00:00:58.280 --> 00:01:01.110
+But I find data in my L2.
+
+00:01:01.110 --> 00:01:02.570
+Now the question
+before me is do I
+
+00:01:02.570 --> 00:01:05.519
+bring this block into L1 or not?
+
+00:01:05.519 --> 00:01:07.160
+If I bring the block
+into L1, that's
+
+00:01:07.160 --> 00:01:09.440
+called a write-allocate policy.
+
+00:01:09.440 --> 00:01:11.010
+If I don't bring
+the block into L1,
+
+00:01:11.010 --> 00:01:14.010
+that's called a
+write-no-allocate policy.
+
+00:01:14.010 --> 00:01:16.870
+So depending on the data access
+pattern, one of these two
+
+00:01:16.870 --> 00:01:19.090
+is going to perform better.
+
+00:01:19.090 --> 00:01:21.830
+So usually when I
+do a store, it means
+
+00:01:21.830 --> 00:01:23.330
+that I'm kind of
+done with the data.
+
+00:01:23.330 --> 00:01:26.160
+So the way programs behave
+is you bring in some data
+
+00:01:26.160 --> 00:01:28.900
+into registers, which are
+your scratch pad memory.
+
+00:01:28.900 --> 00:01:31.070
+You do various
+computations over there.
+
+00:01:31.070 --> 00:01:33.240
+When you are done with
+all of your computations,
+
+00:01:33.240 --> 00:01:35.460
+you then store the
+data back into memory.
+
+00:01:35.460 --> 00:01:37.650
+So store usually
+means that this is
+
+00:01:37.650 --> 00:01:39.560
+the end of my temporal locality.
+
+00:01:39.560 --> 00:01:42.200
+I'm unlikely to use
+this data again.
+
+00:01:42.200 --> 00:01:45.310
+So that argues for using
+a write-no-allocate policy
+
+00:01:45.310 --> 00:01:47.250
+because if I'm done
+with this data,
+
+00:01:47.250 --> 00:01:50.320
+why should I bring
+it into the L1?
+
+00:01:50.320 --> 00:01:54.300
+But there are also many other
+cases where you do a store.
+
+00:01:54.300 --> 00:01:56.856
+So for example, if I'm
+calling a function,
+
+00:01:56.856 --> 00:01:58.230
+then before I call
+that function,
+
+00:01:58.230 --> 00:02:00.230
+I have to put all my
+registers back into memory.
+
+00:02:00.230 --> 00:02:02.290
+So that's an example of a store.
+
+00:02:02.290 --> 00:02:03.890
+And that's an example
+where I am going
+
+00:02:03.890 --> 00:02:05.710
+to touch the data
+in the near future.
+
+00:02:05.710 --> 00:02:07.530
+As soon as that
+function finishes,
+
+00:02:07.530 --> 00:02:09.380
+I'm going to get back
+to accessing this data
+
+00:02:09.380 --> 00:02:11.140
+and working with it.
+
+00:02:11.140 --> 00:02:13.550
+So that's an example where a
+write-allocate policy would
+
+00:02:13.550 --> 00:02:15.760
+do well because
+the store does not
+
+00:02:15.760 --> 00:02:19.920
+imply that your temporal
+locality has ended.
+
+00:02:19.920 --> 00:02:23.410
+So depending on the kinds
+of programs that you run,
+
+00:02:23.410 --> 00:02:24.920
+you'll either use
+a write-allocate
+
+00:02:24.920 --> 00:02:27.070
+or a write-no-allocate policy.
+
+00:02:27.070 --> 00:02:31.390
+And the write-allocate policy
+ends of being the most popular.
+
+00:02:31.390 --> 00:02:35.280
+Then, also on a write, you can
+do writeback or write-through.
+
+00:02:35.280 --> 00:02:37.290
+So in a write-through
+policy-- let's assume
+
+00:02:37.290 --> 00:02:40.020
+that you're using an inclusive
+hierarchy where there's
+
+00:02:40.020 --> 00:02:44.750
+a copy of Block A over here
+and let's say over here.
+
+00:02:44.750 --> 00:02:47.270
+In a write-through policy,
+when I do a write into A,
+
+00:02:47.270 --> 00:02:49.540
+I don't just update
+this copy over here.
+
+00:02:49.540 --> 00:02:51.800
+I also update the copy in L2.
+
+00:02:51.800 --> 00:02:55.010
+And I also go ahead and
+update the copy in L3.
+
+00:02:55.010 --> 00:02:57.640
+So this is known as
+a write-through where
+
+00:02:57.640 --> 00:03:00.800
+every write basically propagates
+through the different levels
+
+00:03:00.800 --> 00:03:02.240
+of the hierarchy.
+
+00:03:02.240 --> 00:03:06.080
+And this ensures that
+all of these copies of A
+
+00:03:06.080 --> 00:03:07.640
+are kept consistent.
+
+00:03:07.640 --> 00:03:09.849
+So later we'll talk
+about cache coherence.
+
+00:03:09.849 --> 00:03:11.390
+And so write-through
+policy certainly
+
+00:03:11.390 --> 00:03:16.260
+simplifies your coherence policy
+or your coherence mechanism.
+
+00:03:16.260 --> 00:03:19.230
+But when you do a
+write-through policy like this,
+
+00:03:19.230 --> 00:03:20.610
+it increases the
+level of traffic
+
+00:03:20.610 --> 00:03:23.042
+between all of these
+many different levels.
+
+00:03:23.042 --> 00:03:24.500
+So to reduce the
+traffic, you could
+
+00:03:24.500 --> 00:03:27.310
+use what is called a
+writeback policy, which
+
+00:03:27.310 --> 00:03:30.610
+says that when I do a
+write into this L1 copy,
+
+00:03:30.610 --> 00:03:32.430
+I don't update my L2 copy.
+
+00:03:32.430 --> 00:03:36.520
+So those two copies are going
+to differ in the value of A.
+
+00:03:36.520 --> 00:03:39.580
+And much later, when A
+gets evicted out of cache,
+
+00:03:39.580 --> 00:03:42.260
+that's when you go in and
+update the copy in L2.
+
+00:03:42.260 --> 00:03:44.250
+So this is known as
+a writeback policy.
+
+00:03:44.250 --> 00:03:47.430
+And it reduces traffic
+because it aggregates
+
+00:03:47.430 --> 00:03:49.710
+multiple writes
+into the same block
+
+00:03:49.710 --> 00:03:54.200
+before finally making one
+final write into the L2 cache.
+
+00:03:54.200 --> 00:03:58.170
+But this also complicates your
+cache coherence policy or cache
+
+00:03:58.170 --> 00:03:59.650
+coherence protocol
+because now you
+
+00:03:59.650 --> 00:04:04.140
+have to keep track of these
+multiple different copies of A.
+
+00:04:04.140 --> 00:04:07.740
+And the last couple of
+points is that these caches
+
+00:04:07.740 --> 00:04:09.830
+are dealing with both
+reads and writes.
+
+00:04:09.830 --> 00:04:11.630
+And usually reads
+get higher priority
+
+00:04:11.630 --> 00:04:17.620
+because the read is something
+that the processor needs
+
+00:04:17.620 --> 00:04:20.260
+to move on with
+subsequent computations,
+
+00:04:20.260 --> 00:04:23.830
+whereas a write-- there's
+really no instruction waiting
+
+00:04:23.830 --> 00:04:25.690
+for the result of a write.
+
+00:04:25.690 --> 00:04:27.790
+So reads always get
+higher priority,
+
+00:04:27.790 --> 00:04:31.420
+and the writes usually get
+placed in the write buffer
+
+00:04:31.420 --> 00:04:33.820
+so that reads can
+move ahead of them.
+
+00:04:33.820 --> 00:04:35.540
+But once this write
+buffer gets full,
+
+00:04:35.540 --> 00:04:37.730
+those have to be
+drained at some point.
+
+00:04:37.730 --> 00:04:40.130
+And so at that point, the
+writes will get higher priority
+
+00:04:40.130 --> 00:04:42.720
+than the reads.
+
+00:04:42.720 --> 00:04:47.230
+I should also mention that
+if you look at our pipeline,
+
+00:04:47.230 --> 00:04:52.410
+we said that given an address
+I'm going to look up my cache
+
+00:04:52.410 --> 00:04:53.660
+and my cache has two elements.
+
+00:04:53.660 --> 00:04:57.170
+It has the data array
+and it has the tag array.
+
+00:04:57.170 --> 00:05:01.010
+And so in parallel, I'm going
+to look up my tags and my data.
+
+00:05:01.010 --> 00:05:04.070
+Hopefully one of the tags is
+going to yield a cache hit.
+
+00:05:04.070 --> 00:05:05.800
+And accordingly,
+that data element
+
+00:05:05.800 --> 00:05:07.450
+gets sent back to the CPU.
+
+00:05:07.450 --> 00:05:11.160
+So the way I described it, the
+tag access and the data access
+
+00:05:11.160 --> 00:05:13.240
+happens in parallel.
+
+00:05:13.240 --> 00:05:15.620
+And this will improve
+your access time.
+
+00:05:15.620 --> 00:05:18.680
+And this is what is usually done
+for that L1 because for the L1
+
+00:05:18.680 --> 00:05:21.140
+you want to make sure that
+the data lookup happens, say,
+
+00:05:21.140 --> 00:05:22.610
+within a cycle.
+
+00:05:22.610 --> 00:05:26.560
+When you move to the L2 and
+L3, these caches are larger.
+
+00:05:26.560 --> 00:05:29.640
+They're also much
+more set associative.
+
+00:05:29.640 --> 00:05:32.780
+And so if you want to do
+parallel tag and data access,
+
+00:05:32.780 --> 00:05:35.230
+you would end up reading
+a whole bunch of waves
+
+00:05:35.230 --> 00:05:36.730
+from the data array.
+
+00:05:36.730 --> 00:05:39.240
+And then ultimately only one
+of them is going to be useful.
+
+00:05:39.240 --> 00:05:42.880
+So that leads to a huge
+loss in energy consumption.
+
+00:05:42.880 --> 00:05:45.810
+So instead what is done is
+you first look at the tags
+
+00:05:45.810 --> 00:05:49.480
+and you determine that,
+say, wave 3 has my data.
+
+00:05:49.480 --> 00:05:52.450
+So at that point, you then
+look up your data array.
+
+00:05:52.450 --> 00:05:55.470
+And you only read out wave 3 and
+then send it back to the CPU.
+
+00:05:55.470 --> 00:05:58.130
+So this reduces your
+energy consumption,
+
+00:05:58.130 --> 00:05:59.587
+but it increases
+your access time
+
+00:05:59.587 --> 00:06:01.920
+because you're sequentially
+looking up the tags and then
+
+00:06:01.920 --> 00:06:03.620
+the data elements.
+
+00:06:03.620 --> 00:06:06.080
+But once you get
+to the L2 or L3,
+
+00:06:06.080 --> 00:06:08.130
+you're not as concerned
+about access time.
+
+00:06:08.130 --> 00:06:09.900
+You're more concerned
+about making sure
+
+00:06:09.900 --> 00:06:12.060
+that the hit rate is high.
+
+00:06:12.060 --> 00:06:14.590
+And you're also concerned about
+reducing energy consumption
+
+00:06:14.590 --> 00:06:16.530
+because these
+structures are so large.
+
+00:06:16.530 --> 00:06:19.660
+And so that's why
+zero tag data policy
+
+00:06:19.660 --> 00:06:23.000
+is employed for
+L2, L3, and beyond.
+
+00:06:23.000 --> 00:06:26.160
+So in the next video, I'll
+start discussing various cache
+
+00:06:26.160 --> 00:06:27.710
+innovations.
+

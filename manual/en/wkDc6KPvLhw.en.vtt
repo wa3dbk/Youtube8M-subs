@@ -1,0 +1,231 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.838 --> 00:00:10.128
+Jekyll is a static site generator.
+
+00:00:10.128 --> 00:00:17.168
+This basically means that it extends the functionality
+and efficiency of making static websites.
+
+00:00:17.168 --> 00:00:21.618
+Static meaning that the site doesn’t interact
+with databases and isn’t as user friendly
+
+00:00:21.618 --> 00:00:24.918
+to update, but it’s much faster because
+of this.
+
+00:00:24.918 --> 00:00:30.468
+You write the content in different languages
+including markdown, HTML, CSS and it can be
+
+00:00:30.468 --> 00:00:33.378
+extended to use preprocessors like SASS.
+
+00:00:33.378 --> 00:00:39.318
+Once written, the static site is created and,
+because these sites are simple files, you
+
+00:00:39.318 --> 00:00:43.818
+can host them on different web hosts, some
+for free, such as GitHub Pages.
+
+00:00:43.818 --> 00:00:48.568
+There’s a link below this video on how to
+host your Jekyll site on GitHub Pages.
+
+00:00:48.568 --> 00:00:53.368
+This free program is definitely worth learning
+to simplify development, even if it’s just
+
+00:00:53.368 --> 00:00:55.348
+for making prototypes.
+
+00:00:55.348 --> 00:00:59.808
+If you use a Mac or linux based operating
+system, you can install it easily if you have
+
+00:00:59.808 --> 00:01:03.118
+Ruby and RubyGems on your system.
+
+00:01:03.118 --> 00:01:08.007
+Simply type in gem install jekyll to install
+it.
+
+00:01:08.007 --> 00:01:11.958
+If you’re like me and have Windows, the
+process is a bit different.
+
+00:01:11.958 --> 00:01:16.247
+First, download and install RubyInstaller
+with the link below.
+
+00:01:16.247 --> 00:01:22.088
+Now, download and install the corresponding
+Development Kit found on the same page.
+
+00:01:22.088 --> 00:01:31.597
+Open the command prompt by typing cmd.exe
+in the start menu and type in ruby dk.rb init
+
+00:01:31.597 --> 00:01:33.588
+and press enter.
+
+00:01:33.588 --> 00:01:38.888
+Now run ruby dk.rb install and press enter.
+
+00:01:38.888 --> 00:01:44.027
+Finally, install Jekyll with gem install jekyll.
+
+00:01:44.027 --> 00:01:49.757
+If you ran into a problem, read the description
+and check the FAQ I linked to.
+
+00:01:49.757 --> 00:01:53.857
+Once installed, you can start a new site using
+your terminal or command prompt.
+
+00:01:53.857 --> 00:01:59.208
+First, navigate to where you want the site
+folder to be by typing cd and dragging the
+
+00:01:59.208 --> 00:02:01.317
+folder onto it and pressing enter.
+
+00:02:01.317 --> 00:02:05.167
+Now, create the site by typing ‘jekyll new
+sitename’.
+
+00:02:05.167 --> 00:02:10.408
+To view it in the browser, type ‘jekyll
+serve -w,’ which tells the jekyll to create
+
+00:02:10.408 --> 00:02:16.358
+a local server so you can view it in the browser
+and the flagged w tells it to watch for updates.
+
+00:02:16.358 --> 00:02:21.328
+Now, go to http://localhost:4000 in your browser.
+
+00:02:21.328 --> 00:02:26.458
+Jekyll’s folder structure is a bit weird,
+so let me try to explain it.
+
+00:02:26.458 --> 00:02:30.798
+Folders that begin with an underscore are
+either part of Jekyll’s site-building process
+
+00:02:30.798 --> 00:02:33.658
+or ignored by Jekyll when it builds your site.
+
+00:02:33.658 --> 00:02:39.098
+The configuration file has data that tell
+Jekyll how you want your site to be built.
+
+00:02:39.098 --> 00:02:46.138
+The includes folder has partial html or other
+type that you can include in your actual pages,
+
+00:02:46.138 --> 00:02:50.038
+which lets you only have to change one file
+instead of each.
+
+00:02:50.038 --> 00:02:54.938
+The layouts folder has template layouts that
+will hold the content.
+
+00:02:54.938 --> 00:02:59.738
+Instead of repeating your code, you instead
+only have one file that you write.
+
+00:02:59.738 --> 00:03:04.448
+Posts is where the blog posts are held and
+include only the content of your site that
+
+00:03:04.448 --> 00:03:07.978
+will be used in conjunction with the layout
+files.
+
+00:03:07.978 --> 00:03:12.808
+The plugins folder holds extensions that make
+Jekyll more powerful.
+
+00:03:12.808 --> 00:03:16.528
+The site folder is what Jekyll makes when
+it creates your site.
+
+00:03:16.528 --> 00:03:20.798
+The contents in this folder is what will be
+your finished product.
+
+00:03:20.798 --> 00:03:25.588
+The full description of the file structure
+can be seen on Jekyll’s site linked below.
+
+00:03:25.588 --> 00:03:28.618
+There are plugins that you can include to
+make Jekyll more powerful.
+
+00:03:28.618 --> 00:03:35.278
+One plugin that I use converts SASS files
+into css and includes it automatically in
+
+00:03:35.278 --> 00:03:38.198
+the head file that’s included.
+
+00:03:38.198 --> 00:03:40.698
+Begin by making a file in the layouts folder.
+
+00:03:40.698 --> 00:03:43.188
+This should be like any normal HTML page.
+
+00:03:43.188 --> 00:03:48.918
+There are many tags written in YAML that Jekyll
+reads and interprets when making your site.
+
+00:03:48.918 --> 00:03:52.258
+You can use this tag to indicate the page
+title.
+
+00:03:52.258 --> 00:03:54.468
+This tag will render the content.
+
+00:03:54.468 --> 00:04:00.748
+To make the actual content, make an HTML file
+in the root directory and use this format.
+
+00:04:00.748 --> 00:04:06.948
+To add a layout to a page, simply write layout,
+colon(:), then what you called the HTML file
+
+00:04:06.948 --> 00:04:08.608
+in the layout folder.
+
+00:04:08.608 --> 00:04:12.488
+You can also add more information such as
+the title of the page.
+
+00:04:12.488 --> 00:04:17.538
+Everything under this top part will be considered
+content in the page.
+
+00:04:17.538 --> 00:04:22.088
+Jekyll is a powerful tool for making simple
+sites that don’t get updated often, sites
+
+00:04:22.088 --> 00:04:26.737
+that you update since you know how Jekyll
+works, or prototype sites.
+
+00:04:26.737 --> 00:04:31.178
+If you want to learn more about Jekyll, the
+full documentation is linked to underneath
+
+00:04:31.178 --> 00:04:32.357
+this video.
+
+00:04:32.357 --> 00:04:33.077
+Thanks for watching.
+

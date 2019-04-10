@@ -1,0 +1,104 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.100 --> 00:00:14.100
+Hi Friends,
+Are you getting the error code 0x8024402C
+
+00:00:15.040 --> 00:00:21.119
+on installing updates via Windows update in
+your Windows 8 PC? Let's go ahead and see
+
+00:00:21.119 --> 00:00:23.790
+how you can resolve the issue.
+
+00:00:23.790 --> 00:00:28.660
+On the Start screen, click on the "Internet
+Explorer" tile to open it.
+
+00:00:28.660 --> 00:00:35.559
+Click on the Gear icon, and then click on
+Internet Options
+
+00:00:35.559 --> 00:00:41.890
+On the Connections tab, click on LAN Settings,
+and then click on the Advanced option.
+
+00:00:41.890 --> 00:00:48.229
+If there is any entry in the Exceptions section
+delete it, and then click OK.
+
+00:00:48.229 --> 00:00:54.229
+Click "Yes" to turn off the proxy connection
+Click "OK" twice, and then minimize the
+
+00:00:54.229 --> 00:00:58.699
+Internet Explorer
+Go to the start screen
+
+00:00:58.699 --> 00:01:03.309
+Right click on any blank area, and then click
+on All Apps
+
+00:01:03.309 --> 00:01:10.309
+Under Windows System, right click on the Command
+prompt, and then click on Run as Administrator.
+
+00:01:11.200 --> 00:01:22.000
+On the command Prompt window
+Type "netsh [space] winhttp [space] reset
+
+00:01:22.119 --> 00:01:32.900
+[space] proxy", and press ENTER key
+Type "net [space] stop [space] wuauserv",
+
+00:01:32.900 --> 00:01:42.300
+and press ENTER key
+Type "net [space] start [space] wuauserv"
+
+00:01:42.369 --> 00:01:47.759
+, and press ENTER key
+Type "exit", and press ENTER key
+
+00:01:47.759 --> 00:01:53.880
+Now you can try to install the updates,
+To do so move the mouse pointer to the top
+
+00:01:53.880 --> 00:02:00.210
+right corner of the screen to access the Charms
+menu, and then click on the Settings charm
+
+00:02:00.210 --> 00:02:07.210
+Click on Change PC settings
+Under PC Settings, select Windows Update
+
+00:02:07.490 --> 00:02:11.850
+Click on Check for updates now to check for
+updates
+
+00:02:11.850 --> 00:02:17.140
+If it works then it's fine
+If not close the Windows Update window
+
+00:02:17.140 --> 00:02:22.030
+Go to Desktop and launch Internet Explorer
+again
+
+00:02:22.030 --> 00:02:29.030
+On the Tools menu, click on Internet Options
+Click on the Connections tab, and then click
+
+00:02:29.140 --> 00:02:34.110
+on LAN Settings,
+Select the checkbox next to Automatically
+
+00:02:34.110 --> 00:02:38.500
+Detect Settings, and then click OK twice.
+
+00:02:38.500 --> 00:02:46.640
+Close Internet explorer, and then try to install the Windows update again.
+
+00:02:46.640 --> 00:02:51.610
+Wasn't that quick and easy? Thanks for watching!
+

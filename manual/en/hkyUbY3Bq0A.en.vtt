@@ -1,0 +1,134 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.130
+Getting Started: PlayMaker Basics
+
+00:00:04.130 --> 00:00:08.829
+This video provides a quick
+introduction to some PlayMaker basics.
+
+00:00:08.829 --> 00:00:10.599
+Here we have a simple test scene.
+
+00:00:10.599 --> 00:00:14.189
+Let's say we want to control this cube
+using PlayMaker.
+
+00:00:14.189 --> 00:00:15.879
+We can select the cube
+
+00:00:15.879 --> 00:00:20.599
+and add a State Machine or FSM for short.
+
+00:00:20.599 --> 00:00:23.320
+Every state machine has a Start state.
+
+00:00:23.320 --> 00:00:25.339
+Let's call this state
+
+00:00:25.339 --> 00:00:28.449
+Off
+
+00:00:28.449 --> 00:00:31.229
+Now let's add an action to the state.
+
+00:00:31.229 --> 00:00:35.810
+The Action Browser shows all the actions
+available.
+
+00:00:35.810 --> 00:00:38.750
+Let's select a Material action.
+
+00:00:38.750 --> 00:00:40.580
+Set Material Color
+
+00:00:40.580 --> 00:00:44.540
+and add it to the state.
+
+00:00:44.540 --> 00:00:49.500
+Now we can set the color
+to red.
+
+00:00:49.500 --> 00:00:53.860
+Now if we press play
+
+00:00:53.860 --> 00:00:56.480
+we'll see that the off state is active
+
+00:00:56.480 --> 00:01:00.690
+and the cube is red.
+
+00:01:00.690 --> 00:01:02.790
+The graph view here
+
+00:01:02.790 --> 00:01:05.479
+is where you add states and transitions.
+
+00:01:05.479 --> 00:01:07.520
+So let's right click on the canvas
+
+00:01:07.520 --> 00:01:09.760
+and add a new state.
+
+00:01:09.760 --> 00:01:15.370
+Let's call this state: On
+
+00:01:15.370 --> 00:01:20.370
+Now we want to add a transition from the
+Off state the On state.
+
+00:01:20.370 --> 00:01:22.470
+So we can right click the Off state
+
+00:01:22.470 --> 00:01:25.010
+and add a transition.
+
+00:01:25.010 --> 00:01:26.930
+Transitions are triggered by events.
+
+00:01:26.930 --> 00:01:28.970
+If we right click on the transition
+
+00:01:28.970 --> 00:01:32.190
+we can see all the built-in events.
+
+00:01:32.190 --> 00:01:34.870
+Let's use MOUSE DOWN
+
+00:01:34.870 --> 00:01:38.030
+which is sent when you click on an object.
+
+00:01:38.030 --> 00:01:41.480
+and drag a link to the On state.
+
+00:01:41.480 --> 00:01:44.770
+In the On state
+
+00:01:44.770 --> 00:01:51.770
+set the material color to green.
+
+00:01:53.300 --> 00:01:58.650
+Now if we press play...
+
+00:01:58.650 --> 00:02:01.250
+and you click on the box
+
+00:02:01.250 --> 00:02:06.000
+the On state becomes active and the
+cube is green.
+
+00:02:06.000 --> 00:02:08.280
+To finish this simple example
+
+00:02:08.280 --> 00:02:15.280
+lets add a transition back to the
+Off state on MOUSE UP.
+
+00:02:18.789 --> 00:02:19.399
+Now let's test it...
+
+00:02:28.000 --> 00:02:31.000
+Great!
+

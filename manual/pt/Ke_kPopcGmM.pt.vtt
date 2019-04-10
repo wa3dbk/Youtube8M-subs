@@ -1,0 +1,218 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:04.260 --> 00:00:06.140
+E ai pessoal, tudo bem com vocês?
+
+00:00:06.150 --> 00:00:09.309
+sejam bem-vindos a mais um vídeo do canal PeperaioHardware.
+
+00:00:09.309 --> 00:00:10.669
+Sou o Lucas Peperaio,
+
+00:00:10.669 --> 00:00:13.119
+e no vídeo de hoje nós vamos fazer alguns testes
+
+00:00:13.119 --> 00:00:19.599
+com os novos recursos que acompanharam o lançamento das placas GTX 980 e 970,
+
+00:00:19.600 --> 00:00:21.080
+a série GTX 900 Maxwell.
+
+00:00:21.080 --> 00:00:25.880
+Então nós vamos testar o DSR, o VXGI e o MFAA,
+
+00:00:25.880 --> 00:00:31.519
+através de exemplos práticos que eu rodei aqui na minha GTX 970.
+
+00:00:31.519 --> 00:00:33.770
+Então vamos lá com os testes.
+
+00:00:33.770 --> 00:00:37.390
+Em primeiro lugar, aqui no canal eu já tenho um estudo mais aprofundado sobre
+
+00:00:37.390 --> 00:00:41.400
+a arquitetura Maxwell e suas novas tecnologias, vou deixar um link na descrição
+
+00:00:41.400 --> 00:00:43.570
+caso queiram acompanhar.
+
+00:00:43.570 --> 00:00:51.850
+O primeiro teste será do novo modo de Anti Aliasing, o Multi-Frame Sampled Anti Aliasing (MFAA).
+
+00:00:51.850 --> 00:00:53.760
+A idéia dele é bem simples: 
+
+00:00:53.760 --> 00:01:00.120
+Oferecer a qualidade visual do MSAA, porém com um menor impacto na performance.
+
+00:01:00.120 --> 00:01:07.160
+Você pode ter por exemplo a qualidade visual do MSAA4X com o custo de performance do MSAA2X.
+
+00:01:07.160 --> 00:01:09.820
+E assim por diante, veja a tabela a seguir:
+
+00:01:10.800 --> 00:01:14.260
+MSAA2x com MFAA = "MFAA4x"
+
+00:01:15.180 --> 00:01:20.930
+Basta ativar o MFAA no driver da Nvidia, iniciar um jogo compatível com o MFAA 
+
+00:01:20.930 --> 00:01:24.750
+e ativar o MSAA2x ou superior.
+
+00:01:24.750 --> 00:01:28.990
+A lista de jogos compatíveis está no artigo completo no site Peperaio Hardware,
+
+00:01:28.990 --> 00:01:31.610
+e o link também esta descrição.
+
+00:01:31.610 --> 00:01:38.610
+Temos então os dois testes lado a lado, MSAA4x e MSAA2x com MFAA ativo.
+
+00:01:38.710 --> 00:01:41.620
+Podemos notar dois pontos interessantes
+aqui,
+
+00:01:41.620 --> 00:01:43.359
+visualmente falando
+
+00:01:43.359 --> 00:01:46.630
+nós temos a mesma qualidade de imagem em ambos os testes,
+
+00:01:46.630 --> 00:01:52.160
+e no teste do MSAA2x com MFAA, temos mais performance. 
+
+00:01:52.160 --> 00:01:53.790
+Portanto nesse exemplo,
+
+00:01:53.790 --> 00:02:00.370
+temos a qualidade visual do MSAA4x com o custo de performance do MSAA2x.
+
+00:02:00.370 --> 00:02:02.810
+No teste do MFAA.
+
+00:02:14.379 --> 00:02:20.739
+A segunda tecnologia que eu vou testar é a Dynamic Super Resolution, ou simplesmente DSR.
+
+00:02:20.739 --> 00:02:25.099
+Com esta tecnologia, podemos ter a qualidade da resolução 4k
+
+00:02:25.099 --> 00:02:28.579
+mesmo em monitores FULL HD. 
+
+00:02:28.579 --> 00:02:33.659
+Basta ativá-la no driver da Nvidia, escolhendo as resoluções que você quer disponível. 
+
+00:02:33.659 --> 00:02:37.739
+Para a resolução 4k, marque 4.00x.
+
+00:02:37.740 --> 00:02:41.480
+Logo abaixo você pode escolher o nível de suavidade. 
+
+00:02:41.480 --> 00:02:45.319
+Números altos significam uma sensação
+de desfoque nos pixels, 
+
+00:02:45.319 --> 00:02:48.259
+e números baixos significam mais
+serrilhados.
+
+00:02:48.259 --> 00:02:51.069
+o padrão é 33%.
+
+00:02:51.069 --> 00:02:56.329
+Após isso, ao entrar no jogo, você terá disponível as resoluções que escolheu no driver.
+
+00:02:56.329 --> 00:02:59.890
+vale lembrar que ao ativar por exemplo a
+resolução 4k,
+
+00:02:59.890 --> 00:03:02.990
+a GPU irá renderizar o jogo nesta resolução, 
+
+00:03:02.990 --> 00:03:07.440
+e será feito o downsampling automático para a resolução nativa do monitor. 
+
+00:03:07.449 --> 00:03:08.370
+Portanto
+
+00:03:08.370 --> 00:03:10.789
+teremos uma maior qualidade,
+
+00:03:10.789 --> 00:03:14.389
+porém, com o mesmo custo de performance da resolução renderizada,
+
+00:03:14.389 --> 00:03:15.880
+nesse exemplo, 4k.
+
+00:03:15.889 --> 00:03:17.169
+Temos duas imagens, 
+
+00:03:17.169 --> 00:03:24.249
+a primeira em Full HD e MSAA2x, e a segunda em Ultra HD (4k) com SMAA.
+
+00:03:24.249 --> 00:03:28.600
+Observe que certos detalhes da imagem ficam mais nítidos em 4k,
+
+00:03:28.609 --> 00:03:31.119
+ como a arma e a mão do personagem.
+
+00:03:31.119 --> 00:03:32.000
+E claro,
+
+00:03:32.000 --> 00:03:36.400
+a performance em 4k é menor, além do uso de memória de vídeo maior, 
+
+00:03:36.400 --> 00:03:40.169
+já que estamos renderizando as imagens em uma resolução bem mais alta.
+
+00:03:40.169 --> 00:03:44.669
+O DSR também está disponível para as gerações anteriores Kepler e Fermi.
+
+00:03:44.670 --> 00:03:51.150
+A última tecnologia que eu vou testar neste vídeo é a Voxel Global Illumination, ou simplesmente VXGI.
+
+00:03:51.359 --> 00:03:55.579
+Basicamente, é um novo motor de iluminação global em tempo real, 
+
+00:03:55.579 --> 00:04:01.199
+que já é frequentemente utilizada na indústria do cinema para produção de cenas em computação gráfica. 
+
+00:04:01.200 --> 00:04:05.640
+Com este novo motor, os desenvolvedores poderão criar cenas mais realistas, 
+
+00:04:05.640 --> 00:04:12.000
+onde a luz, contraste e as sombras interagem realisticamente no ambiente do jogo.
+
+00:04:12.309 --> 00:04:13.300
+Para o teste, 
+
+00:04:13.300 --> 00:04:16.060
+eu usei o programa de demonstração Apollo 11,
+
+00:04:16.060 --> 00:04:21.200
+fornecido gratuitamente pela Nvidia para testes com a iluminação global de voxel. 
+
+00:04:21.209 --> 00:04:26.609
+Veja alguns trechos da demonstração e a aplicação do VXGI em tempo real.
+
+00:05:17.789 --> 00:05:20.580
+Então é isso gente, espero que vocês tenham gostado deste vídeo,
+
+00:05:20.580 --> 00:05:24.590
+caso queira, curta o vídeo e compartilhe com seus amigos.
+
+00:05:24.590 --> 00:05:28.170
+E não se esqueça de inscrever-se no canal para não perder as novidades.
+
+00:05:28.260 --> 00:05:30.880
+Nós temos também duas fanpages no facebook; 
+
+00:05:43.860 --> 00:05:47.080
+Então é isso gente, grande abraço, e até mais!
+
+00:05:49.840 --> 00:05:56.680
+Estes são os 4 últimos vídeos do canal. Clique para assistir. Abraço galera xD
+

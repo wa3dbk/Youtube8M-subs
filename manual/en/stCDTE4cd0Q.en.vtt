@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.413 --> 00:00:06.018
+It is now time to fill the wall openings with doors and windows.
+
+00:00:06.403 --> 00:00:11.426
+Actually, there are no windows in this particular layout, only pivot and sliding doors.
+
+00:00:11.878 --> 00:00:15.623
+The process of building doors and windows is pretty much the same though.
+
+00:00:16.111 --> 00:00:21.161
+It is also covered in another tutorial named "Working with AEC Objects".
+
+00:00:21.648 --> 00:00:24.888
+To create a door, first zoom in on an opening.
+
+00:00:25.658 --> 00:00:32.081
+Next enable the Snap tool, either on the main toolbar or by pressing the S hotkey.
+
+00:00:33.030 --> 00:00:38.050
+Right-click the snap tool and make sure it is only set to Endpoint mode.
+
+00:00:39.086 --> 00:00:43.176
+From the Create panel, choose Geometry &gt; Doors.
+
+00:00:43.921 --> 00:00:45.563
+Click the Pivot button.
+
+00:00:46.106 --> 00:00:53.251
+A door (or a window) is created by first defining a width, then a depth, then a height.
+
+00:00:53.790 --> 00:01:00.140
+The width is defined by using a click and drag and using the snap tool on the walls around the opening.
+
+00:01:01.409 --> 00:01:06.104
+You can then use the snap tool again to define the depth with a simple click,
+
+00:01:06.540 --> 00:01:08.930
+and the height with yet another click.
+
+00:01:11.877 --> 00:01:16.451
+In the Modify panel, you can make the necessary adjustments to the door.
+
+00:01:17.044 --> 00:01:20.489
+Start by opening it a bit, to see its direction,
+
+00:01:21.237 --> 00:01:26.494
+then adjust parameters such as Flip Swing or Flip Hinge as you see fit.
+
+00:01:27.197 --> 00:01:31.362
+For the entrance, you can even opt for a double door.
+
+00:01:34.044 --> 00:01:38.132
+Right-click the gray area next to the main toolbar and choose Layers.
+
+00:01:38.662 --> 00:01:44.262
+Notice the Layers list: you have four layers with the 3D prefix incoming from AutoCAD.
+
+00:01:44.580 --> 00:01:49.360
+You also have Layer 0 which is the default layer and is set current at this time.
+
+00:01:49.870 --> 00:01:56.310
+Therefore any new objects you create such as the entrance door lies now on Layer 0.
+
+00:01:57.012 --> 00:02:02.452
+In the spirit of proper layer management, you ought to have a separate layer for doors and windows.
+
+00:02:03.020 --> 00:02:08.450
+With the door still selected, click the Create New Layer button on the Layers toolbar.
+
+00:02:09.132 --> 00:02:12.467
+Give the new layer a name, such as 3D-Doors.
+
+00:02:13.138 --> 00:02:20.205
+Notice the Move Selection to New Layer option. This ensures the current door is moved to the 3D-Doors layer.
+
+00:02:21.017 --> 00:02:25.372
+Click OK. A new layer is created and the door is now on that layer.
+
+00:02:26.042 --> 00:02:27.615
+Deselect the door.
+
+00:02:28.270 --> 00:02:35.123
+Make sure the new 3D-Doors layer is current and take a moment and create other interior doors where you need them.
+
+00:02:35.710 --> 00:02:38.240
+Adjust them to your liking.
+
+00:03:03.870 --> 00:03:09.030
+For the closets, use Bifold instead of Pivot doors.
+
+00:03:25.681 --> 00:03:30.241
+When you're done, take a pause before creating the balcony doors.
+
+00:03:30.906 --> 00:03:34.994
+Interior doors are usually of a uniform color, or texture.
+
+00:03:35.496 --> 00:03:40.016
+Most are painted white whereas others are made of maple or oak.
+
+00:03:40.510 --> 00:03:47.070
+This means you can easily create a simple Standard material based either on a Diffuse color or map,
+
+00:03:50.450 --> 00:03:55.350
+select all doors using the Select all Objects in Current Layer button,
+
+00:03:56.169 --> 00:03:59.209
+and apply the newly created material to the selection.
+
+00:03:59.906 --> 00:04:04.852
+All doors turn white according to the diffuse color chosen in this instance.
+
+00:04:05.386 --> 00:04:08.222
+The exterior sliding doors are different however.
+
+00:04:08.490 --> 00:04:16.730
+Their creation process is exactly the same but these patio doors are typically based on a metal structure with glazing.
+
+00:04:20.710 --> 00:04:26.800
+This means you can't apply a simple Standard material to them; otherwise, they will be totally opaque.
+
+00:04:27.429 --> 00:04:30.919
+Instead, you use a Multi/Sub-Object material.
+
+00:04:31.607 --> 00:04:37.444
+All doors and windows have default material IDs. There are five sub-materials in total.
+
+00:04:37.909 --> 00:04:44.257
+Most importantly, polygons representing glazing are always on Material ID #3.
+
+00:04:44.670 --> 00:04:54.560
+Other polygons, representing Front, Back, Door Frames and Bevel faces are on IDs #1, 2, 4 and 5 respectively.
+
+00:04:55.692 --> 00:05:02.900
+Most often with patio doors, the metal part is made of the same material or color, usually painted aluminum.
+
+00:05:03.300 --> 00:05:08.910
+In that case, IDs #1, 2, 4 &amp; 5 are based on the same material.
+
+00:05:09.600 --> 00:05:15.720
+To see this better, create a Multi/Sub-Object material based on five sub-materials.
+
+00:05:24.320 --> 00:05:28.750
+Apply the newly created material to the three patio doors.
+
+00:05:41.210 --> 00:05:44.900
+Create a semi-transparent Standard material, 
+
+00:05:52.355 --> 00:05:55.148
+and link it to the third channel.
+
+00:05:57.560 --> 00:06:00.220
+The glazing is now transparent.
+
+00:06:07.165 --> 00:06:12.838
+Create another Standard material based on a shiny bronze or brown diffuse color, 
+
+00:06:19.270 --> 00:06:22.328
+and instance it to the remaining four channels.
+
+00:06:22.873 --> 00:06:26.195
+The patio doors now look more convincing.
+
+00:06:30.036 --> 00:06:33.543
+If some faces still appear dark, you may need a refresh.
+
+00:06:34.020 --> 00:06:39.600
+Simply select a door and pan the view a bit to let the viewport's "Realistic" mode refresh itself.
+
+00:06:40.668 --> 00:06:46.239
+In the next and final movie, you'll use Polygon Modeling techniques to build the curtain wall.
+

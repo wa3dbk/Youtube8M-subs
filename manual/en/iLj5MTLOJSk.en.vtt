@@ -1,0 +1,236 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.620 --> 00:00:05.560
+So we have seen how a Bo field gradient can
+be used to spatially encode the frequency
+
+00:00:05.560 --> 00:00:11.349
+of the spins along the direction of the applied
+gradient, and together with a frequency selective
+
+00:00:11.349 --> 00:00:20.500
+RF pulse we can select a particular slice
+of spins. We can use this same idea to spatially
+
+00:00:20.570 --> 00:00:26.730
+encode the signal from within this slice of
+spins in each direction. If we were to detect
+
+00:00:26.730 --> 00:00:31.660
+the signal while at the same time apply a
+field gradient along one of the directions
+
+00:00:31.660 --> 00:00:37.199
+within the plane of the slice, then we would
+expect that the signal will be encoded as
+
+00:00:37.199 --> 00:00:43.749
+a function of position along that gradient.
+This is known as frequency encoding and the
+
+00:00:43.749 --> 00:00:50.199
+frequency encoding gradient is also known
+as the read gradient. This spatially encoded
+
+00:00:50.199 --> 00:00:55.569
+signal will therefore consist of a projection
+of the signal from all the spins that are
+
+00:00:55.569 --> 00:01:02.210
+in the same position along the read gradient
+direction, so if a Fourier Transform is applied,
+
+00:01:02.210 --> 00:01:06.440
+the result will be a projection of the shape
+of the object against the direction of that
+
+00:01:06.440 --> 00:01:15.100
+gradient. This is best illustrated with an
+example. We have three samples of water arranged
+
+00:01:15.160 --> 00:01:20.710
+in the magnet. A field gradient is applied
+along the horizontal direction. The frequency
+
+00:01:20.710 --> 00:01:25.470
+of the spins within the samples are therefore
+different and are encoded with increasing
+
+00:01:25.470 --> 00:01:31.320
+frequency from left to right. So the signal
+from each of the samples will occur at different
+
+00:01:31.320 --> 00:01:35.870
+frequencies, and within each sample, the shape
+of the signal will be a projection of the
+
+00:01:35.870 --> 00:01:41.940
+spin density against the horizontal axis as
+shown here. You can see that the projection
+
+00:01:41.940 --> 00:01:47.250
+reflects the shape of the object. If we now
+change the direction of the gradient to the
+
+00:01:47.250 --> 00:01:52.780
+vertical axis, then again, the signal would
+be a projection against this axis which looks
+
+00:01:52.780 --> 00:01:59.180
+like this. The projection is the sum of all
+the signals at each point along the gradient
+
+00:01:59.180 --> 00:02:05.370
+direction, so here, the large sphere and the
+cube are superimposed and their signal intensity
+
+00:02:05.370 --> 00:02:11.890
+adds together. We can apply this gradient
+along any direction in the plane of the slice
+
+00:02:11.890 --> 00:02:18.459
+and the projection will change as a function
+of the direction. For simplicity in this animation,
+
+00:02:18.459 --> 00:02:24.019
+rather than rotate the direction of the gradient,
+we rotate the sample and show the projection
+
+00:02:24.019 --> 00:02:31.019
+along the horizontal axis as the sample rotates.
+The projections obtained in this way can be
+
+00:02:32.359 --> 00:02:37.379
+used to back calculate the original shapes
+of the three objects in a manner very similar
+
+00:02:37.379 --> 00:02:43.620
+to that used in CT imaging. This technique
+in known as back-projection reconstruction
+
+00:02:43.620 --> 00:02:48.150
+and was one of the first proposed MR imaging
+methods for which Paul Lauterbur received
+
+00:02:48.150 --> 00:02:54.680
+the Nobel prize in 2003 together with Sir
+Peter Mansfield who invented the slice selection
+
+00:02:54.680 --> 00:03:00.680
+method we described earlier. Back projection
+reconstruction is not used routinely in MRI
+
+00:03:00.680 --> 00:03:07.549
+systems today. Instead, the second, orthogonal
+direction in the slice of spins is also spatially
+
+00:03:07.549 --> 00:03:12.969
+encoded with another gradient and a Fourier
+Transform is applied along each direction
+
+00:03:12.969 --> 00:03:19.969
+to produce a two dimensional image. We have
+encoded the spins along one direction with
+
+00:03:21.200 --> 00:03:27.260
+the read gradient. The orthogonal direction
+can be spatially encoded by applying a gradient
+
+00:03:27.260 --> 00:03:32.310
+in that direction before the read gradient.
+This second gradient will also encode the
+
+00:03:32.310 --> 00:03:37.389
+frequency of the spins along its direction,
+but this time, the encoding is performed before
+
+00:03:37.389 --> 00:03:43.049
+the signal is detected and alters the so-called
+"phase" of the spin vectors as a function
+
+00:03:43.049 --> 00:03:48.900
+of their position along that gradient direction.
+This gradient is therefore known as the phase
+
+00:03:48.900 --> 00:03:56.459
+encoding gradient. How does this work? Here
+we have two spheres of water and we show the
+
+00:03:56.459 --> 00:04:01.900
+projection of the samples along the horizontal
+or read direction. If we measure a series
+
+00:04:01.900 --> 00:04:07.969
+of projections, each time applying a phase
+field gradient for a short time before acquiring
+
+00:04:07.969 --> 00:04:13.299
+the signal, then each point of the projection
+that we observe will have an intensity and
+
+00:04:13.299 --> 00:04:19.449
+phase change according to the position of
+the spins along the orthogonal gradient direction
+
+00:04:19.449 --> 00:04:24.800
+and according to the strength of the field
+at each position. Here, the phase-encoding
+
+00:04:24.800 --> 00:04:33.700
+gradient is zero and then increases for each
+successive projection. You can see the intensity
+
+00:04:33.740 --> 00:04:38.800
+change along the projection as a function
+of the phase gradient strength. If we were
+
+00:04:38.800 --> 00:04:44.710
+to plot the intensity of the same point in
+each projection then we would observe a signal
+
+00:04:44.710 --> 00:04:50.560
+which contains all the frequencies that contribute
+to that point from the direction orthogonal
+
+00:04:50.560 --> 00:04:57.560
+to the read gradient as shown here. So if
+we then Fourier transform this signal then
+
+00:04:57.770 --> 00:05:03.069
+the result will be a spatial profile of the
+sample along the orthogonal direction at that
+
+00:05:03.069 --> 00:05:13.200
+point. So if we Transform along each point
+of the projection, then we build a two-dimensional
+
+00:05:13.270 --> 00:05:20.270
+map of the spins showing the intensity of
+the signal from each position in the slice.
+
+00:05:20.520 --> 00:05:27.419
+This represents an image of the slice of water
+molecules in two dimensions. So we now have
+
+00:05:27.419 --> 00:05:33.479
+spatial encoding of the spins in three directions:
+A slice gradient together with a frequency
+
+00:05:33.479 --> 00:05:40.139
+selective RF excitation pulse creates a slice
+of spins with a certain thickness and position.
+
+00:05:40.139 --> 00:05:46.759
+A gradient in the read direction encodes the
+signal as a function of position in one direction
+
+00:05:46.759 --> 00:05:53.759
+of the slice plane to produce a projection
+along that direction. The phase gradient encodes
+
+00:05:54.180 --> 00:05:59.429
+the projection intensity and phase along the
+orthogonal direction in the image plane.
+

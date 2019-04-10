@@ -1,0 +1,125 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.966
+MethodJ TV
+
+00:00:01.966 --> 00:00:09.732
+Image Planes are used often in Maya to make the modeling process easier. And what I've done 
+here is, I've a capture model with photography, 
+
+00:00:09.733 --> 00:00:16.599
+under 2 different lighting schemes, so that we can see multiple types of reference that we can 
+model on top of.
+
+00:00:16.600 --> 00:00:22.000
+So, I have my front view and my side view, but these aren't the only photos that I've taken. 
+
+00:00:22.000 --> 00:00:28.900
+I've also taken photos with more extreme side lighting, and this makes the model's figure pop,
+
+00:00:28.900 --> 00:00:35.366
+I can see a lot more muscle detail showing up. And that will be very useful when it comes to 
+texturing and sculpting.
+
+00:00:35.366 --> 00:00:39.999
+For my image planes, I'm going to use the more evenly lit version so that there's less distractions, 
+
+00:00:40.000 --> 00:00:46.733
+and what I'll do is go to my Image &gt; Canvas Size, and I'll double the width of my front view.
+
+00:00:46.733 --> 00:00:55.499
+I'm doing this so I can compare the front view and  side view directly side by side. I'll just drag the 
+side view image into the front view's canvas,
+
+00:00:55.500 --> 00:01:02.366
+and I'll trim the side view, just using my marquee and hitting delete to get rid of that. I'll crop the 
+image, just to the width of the two 
+
+00:01:02.366 --> 00:01:07.599
+reference photos. And I'm going to make sure that my rulers are on - so, View menu &gt; Rulers
+
+00:01:07.600 --> 00:01:14.066
+Once I have the rulers turned on, I can drag down from the rulers, to create a bunch of 
+guidelines,
+
+00:01:14.066 --> 00:01:20.599
+to match up my front and my side views. What I'm looking for, are distinctive points points on the 
+front view, 
+
+00:01:20.600 --> 00:01:28.100
+like the edge of the clavicle, or the nipple, that ALSO show up in the corresponding side view 
+(the underwear here is a good point)
+
+00:01:28.100 --> 00:01:35.600
+that I can compare the two references, to make sure that they're lined up. Now the lower leg will 
+not line up, 
+
+00:01:35.600 --> 00:01:43.000
+we won't be able to do anything below the knee, don't worry about it. Generally we'll see that 
+there are mismatches between the two views, 
+
+00:01:43.000 --> 00:01:49.733
+so I'll use my Edit &gt; Transform tools, Ike Scale and Rotate, to make changes to the side view.
+
+00:01:49.733 --> 00:01:56.566
+Our front view is our dominant reference, we want our side view to match our front view, but not vice versa.
+
+00:01:56.566 --> 00:02:01.199
+Once I'm done adjusting, I'll save it, and then I'll Crop my image,
+
+00:02:01.200 --> 00:02:05.333
+to highlight either the front or the side view. Right here I'll crop the front view,
+
+00:02:05.333 --> 00:02:07.833
+and I'll Save As that as its own image.
+
+00:02:07.833 --> 00:02:15.733
+Then I can use my History menu (on the right here) to step back to the uncropped version, and I can Save As the side view.
+
+00:02:15.733 --> 00:02:22.866
+I want to save at as high a resolution as possible and I'll use JPG to reduce file size. Then I'll jump into Maya
+
+00:02:22.866 --> 00:02:28.932
+Importing our Image Planes into Maya is pretty easy, we just have to click this Import Image Plane button
+
+00:02:28.933 --> 00:02:36.999
+and assign the correct photo reference to the corresponding view, so the front view gets the front reference. I'll click the button again for the 
+
+00:02:37.000 --> 00:02:45.066
+side view, to bring in the side view reference. I'll just double check placement - I create a plane, and I'll use it the same way I use 
+
+00:02:45.066 --> 00:02:50.466
+those guide rulers in Photoshop. I just want to make sure that my image points match up.
+
+00:02:50.466 --> 00:02:56.932
+I'm not to making changes to my image planes in Maya. But if I see a mismatch, I know to double check my files
+
+00:02:56.933 --> 00:03:05.966
+if I mis-saved or if Maya scaled it. And when I do this, I see that my front view is rotated a little bit. This is not uncommon, our model will move 
+
+00:03:05.966 --> 00:03:13.966
+or the photo is a little bit off center. We just want to double check, to make changes if we need to. When I do make a change to the front view,
+
+00:03:13.966 --> 00:03:20.266
+I'll double check to make sure the side view still lines up. And then I can just delete the Image Plane in Maya,
+
+00:03:20.266 --> 00:03:26.632
+re-import the new Image Plane, and now my Image Planes are set, and I'm almost ready to begin modeling.
+
+00:03:26.633 --> 00:03:34.999
+I need to push the Image Planes away from the center line, otherwise they will overlap my models when I'm trying to model on top of them.
+
+00:03:35.000 --> 00:03:41.533
+Ok - one last step. Click the Image Plane to select it, and hit CTRL+A to open the Attribute Editor.
+
+00:03:41.533 --> 00:03:50.899
+At the very top, I'll select 'Looking through Camera', so I'm only seeing the Image Plane in my orthographic cameras, and not in my perspective.
+
+00:03:50.900 --> 00:03:56.200
+Now my Image Planes are ready to go. I can begin the character modeling process, and you can watch the video 
+
+00:03:56.200 --> 00:04:01.100
+where I use these Image Planes to create this character here.
+

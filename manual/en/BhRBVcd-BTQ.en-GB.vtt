@@ -1,0 +1,297 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:04.000 --> 00:00:09.870
+Hi this is Peter from JoomlArt. And today,
+we are going to talk about the T3 version
+
+00:00:09.870 --> 00:00:11.030
+3 Framework.
+
+00:00:11.030 --> 00:00:17.939
+This is one video in a multi serie part of
+videos showing you how to use the T3 Framework
+
+00:00:17.939 --> 00:00:22.300
+effectively and easily. So there are 5 main
+parts included in this tutorial:
+
+00:00:22.300 --> 00:00:25.180
+1. Global Settings
+2. Theme Settings
+
+00:00:25.180 --> 00:00:29.119
+3. Customize Layout
+4. Navigation Settings
+
+00:00:29.119 --> 00:00:33.230
+5. And Menu Assignment
+
+00:00:33.230 --> 00:00:38.140
+Once you install successfully, it's time to
+explore the framework. First, go to: Extensions
+
+00:00:38.140 --> 00:00:45.140
+then Template Manager. In this tutorial, we
+are going to use JA Argo as our template.
+
+00:00:45.650 --> 00:00:51.720
+JA Argo - the responsive Joomla template for
+both 2.5 and Joomla 3.0.
+
+00:00:51.720 --> 00:00:53.879
+So this is the information page.
+
+00:00:53.879 --> 00:01:00.879
+We can check to see if our version of the
+template is up to date, and also for the version
+
+00:01:01.320 --> 00:01:02.850
+of the framework is up to date.
+
+00:01:02.850 --> 00:01:11.200
+OK, let's go to Global Settings. So we go
+in the General and go to enable the Development Mode.
+
+00:01:12.000 --> 00:01:17.030
+This should be enabled when you are developing
+your site. When enabled, your site can load
+
+00:01:17.030 --> 00:01:22.399
+LESS files. Now let's save.
+
+00:01:22.399 --> 00:01:28.320
+In the front-end, we can check by right-clicking
+and going to Inspect element and we can see
+
+00:01:28.320 --> 00:01:35.020
+the matched CSS Rules here and all the LESS
+path.
+
+00:01:35.020 --> 00:01:41.259
+The LESS files of the template is located
+in "template/template_name/less".
+
+00:01:41.259 --> 00:01:46.210
+When you finish your Development, you should
+turn off the Development mode. In this case,
+
+00:01:46.210 --> 00:01:52.539
+your site runs on CSS files. The CSS files
+are compiled from LESS files and they are
+
+00:01:52.539 --> 00:01:59.270
+located in Template/JA_Argo/CSS in this example.
+
+00:01:59.270 --> 00:02:06.270
+OK, now go Compile LESS to CSS with a simple
+click of the button.
+
+00:02:07.909 --> 00:02:11.039
+We will get a blue bar saying, "Successfully compile LESS to CSS".
+
+00:02:11.039 --> 00:02:18.039
+Next, we go work on ThemeMagic. First, we
+enable ThemeMagic by clicking Yes under General.
+
+00:02:18.860 --> 00:02:22.120
+Now, open the Theme Magic working panel.
+
+00:02:22.120 --> 00:02:28.010
+There is a sidebar menu to the left. You can
+play with the theme here: you can change the
+
+00:02:28.010 --> 00:02:34.209
+colors, work on the grids, the layout. There
+are so many things you can do with ThemeMagic.
+
+00:02:34.209 --> 00:02:39.560
+We can add unlimited groups and parameters.
+We can work on Navigation such as background
+
+00:02:39.560 --> 00:02:46.560
+color, text color, link color. So let's change
+the background color here to gray. And let's
+
+00:02:46.989 --> 00:02:52.459
+change the link color hover. How about green?
+Now let's preview it.
+
+00:02:52.459 --> 00:02:57.860
+Go up to the top and click Preview. As you
+can see, the colors have now changed without
+
+00:02:57.860 --> 00:03:02.250
+having to go back into the back-end of the
+site.
+
+00:03:02.250 --> 00:03:08.959
+Now we can either Save or we can Save As to
+make a new theme with this. So let's call
+
+00:03:08.959 --> 00:03:17.640
+this Dark-Cloned. Okay. Now it's saving. As
+you can see "Dark-Cloned Theme changes successfully saved".
+
+00:03:19.000 --> 00:03:25.319
+As T3 is a responsive framework, all templates
+developed within the framework will be fully
+
+00:03:25.319 --> 00:03:33.900
+responsive. Now, to enable this feature, click
+Enable responsive. Also the T3 Assets folder
+
+00:03:34.000 --> 00:03:39.390
+is to store the cache to help improve site
+performance. Feel free to name whatever you
+
+00:03:39.390 --> 00:03:44.959
+would like as you can see here, it's named
+T3-assets.
+
+00:03:44.959 --> 00:03:52.800
+Here is the T3 logo in the front-page. Feel
+free to enable or disable easily.
+
+00:03:53.000 --> 00:03:57.560
+Click Show T3 Logo yes or no.
+
+00:03:57.560 --> 00:04:04.239
+JA Argo has a special feature where it's
+using Ajax to load articles in the Article
+
+00:04:04.239 --> 00:04:08.939
+detail page and it is an extended setting
+in JA Argo only.
+
+00:04:08.939 --> 00:04:12.640
+Okay. Next, we move on to the Theme Settings.
+
+00:04:12.640 --> 00:04:19.190
+So, select the style first before we make
+any changes. So in this, we will select JA
+
+00:04:19.190 --> 00:04:25.160
+Argo green color. Go back to theme. Now, let's
+select the one we made in ThemeMagic - the
+
+00:04:25.160 --> 00:04:32.400
+"Dark-cloned". Now T3 supports 2 logotypes:
+image or text. We can change the site name
+
+00:04:32.560 --> 00:04:38.530
+to whatever we want or just leave "Argo" here,
+and then the slogan as well. You can change
+
+00:04:38.530 --> 00:04:45.530
+the logo image, just browse to the logo you
+want and replace it with the current one.
+
+00:04:46.590 --> 00:04:55.000
+Okay? Don't forget to save. Okay. Now let's
+go to the front-page.
+
+00:04:57.600 --> 00:05:03.460
+Great. We can see our settings have taken effect. Now, the style
+uses the dark-cloned theme with the logo changed
+
+00:05:03.460 --> 00:05:05.000
+as we made in back-end.
+
+00:05:05.000 --> 00:05:12.000
+Okay. Next, go to Layout. The Layout settings
+allow you to change the structure of the layout
+
+00:05:12.790 --> 00:05:19.540
+and configure responsive layout. First, select
+your layout. All your layouts will be listed;
+
+00:05:19.540 --> 00:05:24.060
+please select the one you wish to modify.
+Also, note that the layout you are configuring
+
+00:05:24.060 --> 00:05:31.060
+is only applied for the current style. There
+are 2 parts in Layout Customization: Module
+
+00:05:32.190 --> 00:05:36.400
+Positions and Responsive Layout.
+
+00:05:36.400 --> 00:05:41.060
+For Module Positions, you are allowed to change
+the number of positions in each spotlight
+
+00:05:41.060 --> 00:05:47.310
+block. You can change to any position that
+you want. If you don't want to publish any
+
+00:05:47.310 --> 00:05:52.620
+position in the front page, just assign it
+to none.
+
+00:05:52.620 --> 00:05:56.770
+As you can see, there are 5 responsive layouts
+that you can configure. Select the one you
+
+00:05:56.770 --> 00:06:02.470
+wish to configure. In each layout, you can
+enable or disable any module position. In
+
+00:06:02.470 --> 00:06:09.130
+this example, we're gonna select mobile layout,
+and we're gonna disable positions in the spotlight
+
+00:06:09.130 --> 00:06:16.130
+block. Ok. Scroll down.
+
+00:06:18.900 --> 00:06:24.800
+Click on the position
+name to enable it. We can also drag to resize
+
+00:06:24.800 --> 00:06:33.000
+the module position. So go do that with 5
+and 6. Pull 6 up to the 5.
+
+00:06:33.700 --> 00:06:41.900
+Next, we will configure the Mega Menu. So,
+T3 supports Mega Menu feature. It is very
+
+00:06:42.000 --> 00:06:48.000
+easy for you to configure. We can see that,
+we have a great Mega Menu in the front-page.
+
+00:06:48.000 --> 00:06:53.270
+We also have a separate video tutorial for
+configuring Mega Menu.
+
+00:06:53.270 --> 00:06:59.860
+The last part of this tutorial is the Menu
+Assignment. First, select style. Let's select
+
+00:06:59.860 --> 00:07:09.900
+JA Argo - Dark Color. Go back to the Assignment
+tab. Scroll down. Select the menu that uses
+
+00:07:10.000 --> 00:07:16.950
+to select the style. In this case - JA Argo
+dark color. And don't forget to save your
+
+00:07:17.030 --> 00:07:24.030
+settings. In the front page, we go to K2 menu.
+We'll see the menu uses JA Argo Dark color
+
+00:07:24.500 --> 00:07:27.430
+style that gives it a different look.
+
+00:07:27.430 --> 00:07:33.750
+So, this's is the end of our tutorial today.
+We hope you enjoyed watching, and hope to
+
+00:07:33.750 --> 00:07:40.050
+see you soon. There are more videos available
+at http://www.youtube.com/joomlart. Feel free
+
+00:07:40.050 --> 00:07:47.050
+to choose new videos any time.
+

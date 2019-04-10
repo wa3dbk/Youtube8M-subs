@@ -1,0 +1,224 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.230 --> 00:00:00.760
+MATT:OK.
+
+00:00:00.760 --> 00:00:05.260
+Today's question comes from One
+Jus, or One J U S, who didn't
+
+00:00:05.260 --> 00:00:07.700
+get the memo about using your
+real name whenever
+
+00:00:07.700 --> 00:00:08.750
+asking questions.
+
+00:00:08.750 --> 00:00:10.280
+But the question was
+quite interesting.
+
+00:00:10.280 --> 00:00:12.300
+It comes from
+Newbury, Berkshire.
+
+00:00:12.300 --> 00:00:12.930
+"Hi Matt.
+
+00:00:12.930 --> 00:00:16.080
+With the recent news about
+website speed being included in
+
+00:00:16.080 --> 00:00:19.610
+the Google metrics, how will
+Google allow for slow third
+
+00:00:19.610 --> 00:00:22.405
+party ad servers, including
+AdWords, dragging a
+
+00:00:22.405 --> 00:00:23.870
+site's load speed down?
+
+00:00:23.870 --> 00:00:26.830
+For example, Ad Server on
+load: five seconds versus Ad
+
+00:00:26.830 --> 00:00:28.970
+Server off: sub one second."
+
+00:00:28.970 --> 00:00:30.410
+It's a great question.
+
+00:00:30.410 --> 00:00:32.670
+The rough way to think
+about it is this.
+
+00:00:32.670 --> 00:00:34.310
+Well there's a couple
+things you need to know.
+
+00:00:34.310 --> 00:00:37.725
+First think about it in terms
+of what happens up until
+
+00:00:37.725 --> 00:00:39.440
+the on load event.
+
+00:00:39.440 --> 00:00:42.160
+So there are a lot of ways
+where you can do asynchronous
+
+00:00:42.160 --> 00:00:44.650
+JavaScript to make sure that
+things happen after
+
+00:00:44.650 --> 00:00:45.810
+the on load event.
+
+00:00:45.810 --> 00:00:48.320
+For example, Google Analytics
+recently just introduced
+
+00:00:48.320 --> 00:00:50.990
+code which will handle
+things asynchronously.
+
+00:00:50.990 --> 00:00:53.990
+So you don't have to worry any
+more about, OK this request
+
+00:00:53.990 --> 00:00:57.040
+goes off, and it happens
+after the on load event.
+
+00:00:57.040 --> 00:01:00.120
+So the on load event is a good
+way to think about what needs
+
+00:01:00.120 --> 00:01:03.540
+to happen before users are able
+to interact with the page.
+
+00:01:03.540 --> 00:01:06.740
+What is the totality of
+everything happening before
+
+00:01:06.740 --> 00:01:09.040
+they're able to start clicking
+on things, or see what the page
+
+00:01:09.040 --> 00:01:11.940
+layout really looks like and
+start interacting with it?
+
+00:01:11.940 --> 00:01:15.770
+So you can do these sort of
+asynchronous JavaScript tricks.
+
+00:01:15.770 --> 00:01:18.570
+The other thing to keep in mind
+is that the vast majority of
+
+00:01:18.570 --> 00:01:20.150
+people really won't
+have a problem.
+
+00:01:20.150 --> 00:01:22.540
+A lot of people were really
+worried about page speed.
+
+00:01:22.540 --> 00:01:24.660
+And they were saying, oh I'm
+worried this will be much
+
+00:01:24.660 --> 00:01:26.460
+more important than
+the actual content.
+
+00:01:26.460 --> 00:01:27.770
+And that's not the case.
+
+00:01:27.770 --> 00:01:30.260
+It's one of over 200
+different signals.
+
+00:01:30.260 --> 00:01:33.510
+The content and the reputation
+definitely matters a lot more
+
+00:01:33.510 --> 00:01:35.390
+than just the pure page speed.
+
+00:01:35.390 --> 00:01:37.720
+So whenever you're thinking
+about it, unless you're really
+
+00:01:37.720 --> 00:01:39.900
+an outlier and you're one of
+the slowest sites, it's
+
+00:01:39.900 --> 00:01:41.860
+not going to be the
+deciding factor.
+
+00:01:41.860 --> 00:01:43.460
+That's not the sort of
+thing that you necessarily
+
+00:01:43.460 --> 00:01:44.950
+have to worry about.
+
+00:01:44.950 --> 00:01:47.580
+But if you do want to pay
+attention to it, you can do
+
+00:01:47.580 --> 00:01:49.440
+these sort of asynchronous
+calls like Google
+
+00:01:49.440 --> 00:01:50.600
+Analytics does.
+
+00:01:50.600 --> 00:01:53.350
+And I think a lot of ad servers
+will probably support this more
+
+00:01:53.350 --> 00:01:56.440
+in the future, such that the on
+load event can happen, and
+
+00:01:56.440 --> 00:01:58.890
+then things can show up
+afterward if they need to.
+
+00:01:58.890 --> 00:02:02.650
+And users don't have to wait
+around seeing a slow loading
+
+00:02:02.650 --> 00:02:04.430
+page sort of situation.
+
+00:02:04.430 --> 00:02:07.810
+So, again, a lot of people
+always think about how is page
+
+00:02:07.810 --> 00:02:09.280
+speed going to affect things.
+
+00:02:09.280 --> 00:02:11.790
+Do what's right for your users,
+and think about how it's
+
+00:02:11.790 --> 00:02:13.110
+going to work in general.
+
+00:02:13.110 --> 00:02:15.130
+But for most situations,
+you really don't need
+
+00:02:15.130 --> 00:02:17.110
+to worry that much.
+

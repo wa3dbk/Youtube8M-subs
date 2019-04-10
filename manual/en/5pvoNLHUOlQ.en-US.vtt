@@ -1,0 +1,326 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.130 --> 00:00:06.230
+In this video from ITFreeTraining I will look
+at the new features in DNS for Windows Server
+
+00:00:06.230 --> 00:00:10.720
+2012. There are only 2 new features so let's
+have a look.
+
+00:00:10.720 --> 00:00:17.409
+The first feature is improved PowerShell support.
+With Windows Server 2012 in general, PowerShell
+
+00:00:17.409 --> 00:00:23.730
+support has increased across the board. In
+DNS, all user interface commands are now support
+
+00:00:23.730 --> 00:00:30.279
+in PowerShell. Whatever you can achieve in
+the user interface, you can achieve in PowerShell.
+
+00:00:30.279 --> 00:00:36.130
+You can also add and remove the DNS role from
+PowerShell if you need to.
+
+00:00:36.130 --> 00:00:43.130
+The next feature is improved support for DNSSEC.
+DNSSEC essentially provides additional security
+
+00:00:43.340 --> 00:00:52.480
+for DNS preventing DNS records and DNS transfers
+from being tampered with by an attacker. DNSSEC
+
+00:00:52.480 --> 00:00:58.420
+was available in Windows Server 2008, but
+has been improved in Windows Server 2012.
+
+00:00:58.420 --> 00:01:04.909
+I will now have a closer look at the improvements
+for DNSSEC, but first a brief introduction
+
+00:01:04.909 --> 00:01:06.829
+to DNSSEC.
+
+00:01:06.829 --> 00:01:15.079
+DNSSEC stands for Domain Name System Security
+Extensions. It is essentially an extension
+
+00:01:15.079 --> 00:01:22.079
+to DNS that prevents data from be tampered
+with or faked. Traffic between DNS servers
+
+00:01:22.229 --> 00:01:27.859
+and the clients is not encrypted so can be
+modified. For example. Consider a Primary
+
+00:01:27.859 --> 00:01:34.020
+DNS server and secondary Server. As changes
+happen to the primary zone, these changes
+
+00:01:34.020 --> 00:01:39.700
+need to be sent to the secondary server.
+If you have additional security on your network,
+
+00:01:39.700 --> 00:01:47.310
+for example VPN or using IPSec to secure communication,
+this will not be too much of a concern. This
+
+00:01:47.310 --> 00:01:54.310
+is because even though the DNS traffic is
+not in itself encrypted, it is cased in encryption.
+
+00:01:55.039 --> 00:02:00.679
+If however this is not the case, a hacker
+can position themselves between the two DNS
+
+00:02:00.679 --> 00:02:06.439
+servers and change the updated information.
+For example, they could have the user directed
+
+00:02:06.439 --> 00:02:12.140
+to their fake web site rather than the original
+web site. The user would not even be aware
+
+00:02:12.140 --> 00:02:17.100
+that this is occurring. This is what hackers
+want to happen in order to get usernames and
+
+00:02:17.100 --> 00:02:23.280
+password or credit card details.
+The next point to consider is when a user
+
+00:02:23.280 --> 00:02:30.280
+performs a DNS query. This query is returned
+to the user but the data in not encrypted.
+
+00:02:30.450 --> 00:02:35.610
+Once again a hacker can send their own data
+back to the client. The hacker could change
+
+00:02:35.610 --> 00:02:40.390
+the data, they could send their own data,
+or they could send a message to the client
+
+00:02:40.390 --> 00:02:46.760
+saying the query could not be resolved and
+effectively cause a denial of service attack.
+
+00:02:46.760 --> 00:02:53.460
+So what does DNSSEC do in a nut shell? It
+provides a method to check that data has not
+
+00:02:53.460 --> 00:03:00.460
+been changed. Once the client or a server
+receives DNS data, the data comes with a signature
+
+00:03:00.760 --> 00:03:06.120
+to allow the client to check that the data
+is authentic and has not been changed. This
+
+00:03:06.120 --> 00:03:13.010
+should give you a basic idea of what DNSSEC
+is. Now let's look at the new DNSSEC features
+
+00:03:13.010 --> 00:03:16.340
+in Windows Server 2012.
+
+00:03:16.340 --> 00:03:22.160
+The first new feature in Windows Server 2012
+allows trust anchors to be seen in the DNS
+
+00:03:22.160 --> 00:03:27.580
+manager that have been stored in Active Directory.
+Trust anchors are not at new feature, but
+
+00:03:27.580 --> 00:03:34.570
+previously you were not able to see a trust
+anchor in DNS manager. So what is a trust
+
+00:03:34.570 --> 00:03:38.870
+anchor?
+Let's consider how DNS works. At the top of
+
+00:03:38.870 --> 00:03:44.370
+the hierarchy you have the root hint server.
+This is where DNS servers start the resolving
+
+00:03:44.370 --> 00:03:49.850
+process. When DNS names are resolved they
+are broken down starting from the right of
+
+00:03:49.850 --> 00:03:56.720
+the address and moving left. Each server in
+sequence knows the address of another DNS
+
+00:03:56.720 --> 00:04:02.980
+server that knows the next DNS server to pass
+the request onto until finally a DNS server
+
+00:04:02.980 --> 00:04:08.500
+is found that can answer the query.
+For this reason it makes sense that the root
+
+00:04:08.500 --> 00:04:14.030
+hint server needs to be trusted. So the root
+hint server is what you would call a trust
+
+00:04:14.030 --> 00:04:19.720
+anchor. The root hint server contains a key
+that is used to create signatures for DNS
+
+00:04:19.720 --> 00:04:23.780
+data that is passed between servers or to
+the client.
+
+00:04:23.780 --> 00:04:30.780
+In the next step of the resolving process,
+in this example, is an AU DNS server is contacted.
+
+00:04:31.070 --> 00:04:36.900
+This DNS server supports DNSSEC so it can
+use the signature of the root hint server.
+
+00:04:36.900 --> 00:04:43.790
+Basically what is happening is the root hint
+server is saying that it trusts the AU server.
+
+00:04:43.790 --> 00:04:49.430
+The problem occurs when something like the
+following happens. The next server, a DNS com
+
+00:04:49.430 --> 00:04:55.990
+server does not support DNSSEC.
+This becomes a problem because the last DNS
+
+00:04:55.990 --> 00:05:02.850
+server, the DNS server that knows how to resolve
+our DNS name, example.com.au, does support
+
+00:05:02.850 --> 00:05:09.230
+DNSSEC. The problem is that the chain of trust,
+as it is called, has been broken. There is
+
+00:05:09.230 --> 00:05:15.600
+no way that the DNS server can validated the
+data coming from the com DNS server and confirm
+
+00:05:15.600 --> 00:05:21.350
+that it has not been tampered with.
+In the real world, there are a lot of DNS
+
+00:05:21.350 --> 00:05:27.680
+servers that do not support DNSSEC. As you
+can imagine, DNS servers are located all over
+
+00:05:27.680 --> 00:05:32.790
+the world and it is up to the administrator
+in that country to configure the DNS server
+
+00:05:32.790 --> 00:05:39.310
+to support DNSSEC. Some countries may be quicker
+to adopt this technology while others are
+
+00:05:39.310 --> 00:05:45.150
+more wary.
+When a client performs a DNS query, the client
+
+00:05:45.150 --> 00:05:50.120
+will want to confirm that data is accurate
+by checking the signature on the DNS data
+
+00:05:50.120 --> 00:05:56.889
+with root hint server. Since the chain of
+trust is broken this is not possible.
+
+00:05:56.889 --> 00:06:04.770
+To get around this a new trust Anchor is created.
+If the client trusts the new trust anchor,
+
+00:06:04.770 --> 00:06:12.449
+DNSSEC can be used from that point onwards.
+On your network, you may use a domain name
+
+00:06:12.449 --> 00:06:19.169
+that cannot be registered like a .local address.
+When this is the case, you will need to create
+
+00:06:19.169 --> 00:06:25.949
+a trust anchor for clients. The point to remember
+is, with Windows Server 2012 any trust anchor
+
+00:06:25.949 --> 00:06:30.870
+that you create, you will be able to view
+it in DNS manager.
+
+00:06:30.870 --> 00:06:37.870
+In Windows Server 2012 trust anchors are easier
+to use because of the last two features.
+
+00:06:38.340 --> 00:06:45.340
+In Windows Server 2012 the keys used in DNSSEC
+and their management has improved significantly.
+
+00:06:46.449 --> 00:06:51.440
+We already know that the keys can be stored
+in Active Directory. This allows them to be
+
+00:06:51.440 --> 00:06:54.800
+replicated with the other Active Directory
+data.
+
+00:06:54.800 --> 00:07:00.410
+With Windows Server 2012, there is support
+for automated key rollover. When a key is
+
+00:07:00.410 --> 00:07:06.600
+being used in DNSSEC, it will eventually need
+to be changed. Windows Server 2012 can now
+
+00:07:06.600 --> 00:07:11.449
+control this process meaning the administrator
+does not need to worry about generating a
+
+00:07:11.449 --> 00:07:18.449
+new key before the old key expired.
+The last new feature in Windows Server 2012
+
+00:07:18.740 --> 00:07:25.240
+is what is called The Key Master. What this
+essentially is, is a primary zone that can
+
+00:07:25.240 --> 00:07:31.320
+be configured to manage all the keys associated
+with that zone. This takes a lot of the work
+
+00:07:31.320 --> 00:07:35.760
+away from the administrator. The administrator
+needs to select a server that is holding a
+
+00:07:35.760 --> 00:07:42.760
+primary zone and configure it to be The Key
+Master. Only one Key Master can exist at once,
+
+00:07:42.930 --> 00:07:49.350
+but the administrator is free to move The
+Key Master to another server if they require.
+
+00:07:49.350 --> 00:07:56.350
+With The Key Master features, managing DNSSEC
+is a lot easier than ever before.
+
+00:07:56.820 --> 00:08:02.080
+Thanks for watching this video from ITFreeTraining.
+This is just one of the free videos from the
+
+00:08:02.080 --> 00:08:08.540
+DNS courses and the other courses available
+free of charge on YouTube or our web page.
+
+00:08:08.540 --> 00:08:11.659
+Hope you have found this video useful and
+hope to see you in the next one.
+

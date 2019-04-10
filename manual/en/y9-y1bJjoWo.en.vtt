@@ -1,0 +1,101 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.528 --> 00:00:07.018
+When you want to deform geometry based on the animation of a skeleton, 
+you typically use the Skin Modifier.
+
+00:00:07.945 --> 00:00:11.635
+Here, we have a model of a human arm, but we still need a skeleton.
+
+00:00:12.418 --> 00:00:18.530
+To make the skeleton creation easier, select the arm and press Alt+X 
+to enable See-Through mode.
+
+00:00:19.313 --> 00:00:26.985
+Next, use the Bones feature in the Systems panel to create bones 
+for the shoulder, the upper arm and the forearm.
+
+00:00:27.890 --> 00:00:36.223
+With the last bone still selected, add an HI Solver from the Animation 
+menu to create a dependency between the shoulder and the wrist.
+
+00:00:36.833 --> 00:00:40.776
+As you move the IK Goal, the skeleton now reacts properly.
+
+00:00:41.276 --> 00:00:44.388
+Select the arm and add a skin modifier.
+
+00:00:45.658 --> 00:00:50.203
+Next, you need to specify which bones will affect the deformation 
+of the mesh.
+
+00:00:51.075 --> 00:00:59.595
+In this case, only the first three bones need to be taken into account. 
+Bone04 representing the wrist is not needed for the forearm.
+
+00:01:01.388 --> 00:01:07.590
+Without user interaction, the Skin modifier attempts to deform 
+the geometry the best way it can.
+
+00:01:08.450 --> 00:01:14.330
+Before you test the results, disable See-Through mode by selecting 
+the arm and pressing Alt+X.
+
+00:01:15.160 --> 00:01:19.498
+As you move the IK goal around, the geometry deforms with the skeleton.
+
+00:01:20.198 --> 00:01:27.216
+It deforms reasonably well in places, but not so well in others. 
+Notice the problems around the shoulder.
+
+00:01:27.771 --> 00:01:35.818
+Before you fix the skinning, it is usually helpful to animate the skeleton 
+so that you can analyze the skinning at various deformation angles.
+
+00:01:36.078 --> 00:01:45.001
+Right-click the animation slider bar and force a position key at frame 0.
+Make sure only the position option is checked and then click OK.
+
+00:01:46.391 --> 00:01:56.201
+Copy this newly created key to frame 5 to ensure no movement is happening
+for 5 frames. This is done by pressing Shift before moving the key 
+to a new position.
+
+00:01:58.041 --> 00:02:08.401
+Once this is done, enable Auto Key and animate the IK goal 
+at frames 30 &amp; 60 to pose the arm in a couple of extreme positions.
+
+00:02:15.299 --> 00:02:21.619
+Finally, copy the first keyframe to frame 90 to bring back the arm 
+to its original position.
+
+00:02:23.236 --> 00:02:25.831
+At this time, you can exit Auto Key mode.
+
+00:02:26.466 --> 00:02:31.739
+Take a look at the skinning envelopes. 
+These dictate how the geometry is deformed.
+
+00:02:33.471 --> 00:02:42.522
+Vertices affected by an envelope move with the corresponding bone. 
+Where envelopes overlap, vertex motion is a blend between envelopes.
+
+00:02:43.537 --> 00:02:53.972
+The envelopes are color-coded to show areas affected by only one bone (red)
+or areas that are blended between two or more bones (yellow~blue)
+
+00:02:55.642 --> 00:03:00.617
+Envelopes can be edited so that they affect more or less 
+the nearby geometry.
+
+00:03:01.487 --> 00:03:08.667
+The color-coded areas give you instant feedback as to which vertices 
+follow a specific bone and which follow more than one bone.
+
+00:03:09.310 --> 00:03:18.965
+Test the animation and notice the change in the deformation. 
+Some changes however are not conclusive. The shoulder area is now worse 
+than before.
+

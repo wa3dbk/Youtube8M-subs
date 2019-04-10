@@ -1,0 +1,215 @@
+WEBVTT
+Kind: captions
+Language:  en
+
+00:00:00.140 --> 00:00:03.840
+The Neo-Geo MVS isan absolutely
+
+00:00:03.840 --> 00:00:07.649
+awesome arcade machine. It plays awesome games like Metal Slug
+
+00:00:07.649 --> 00:00:11.969
+To contain such awesome games it takes
+or awesomely big cartridges
+
+00:00:11.969 --> 00:00:15.809
+It was so good they manufactured them for
+almost 15 years
+
+00:00:15.809 --> 00:00:19.100
+But times move on. Although it's
+still awesome
+
+00:00:19.100 --> 00:00:24.850
+it could now be even more awesome! Take
+the video and audio output, having been
+
+00:00:24.850 --> 00:00:25.470
+designed
+
+00:00:25.470 --> 00:00:29.240
+all the way back in the very late
+eighties its video output is basically
+
+00:00:29.240 --> 00:00:31.019
+the same as the old TV format
+
+00:00:31.019 --> 00:00:35.620
+with some differences. The audio and
+video comes out of the JAMMA connector
+
+00:00:35.620 --> 00:00:39.690
+It's only mono audio even though the MVS
+itself was stereo
+
+00:00:39.690 --> 00:00:43.579
+and even worse the video and audio are
+both analogue
+
+00:00:43.579 --> 00:00:46.719
+We live in the future! Everything should be
+digital, damn it
+
+00:00:46.719 --> 00:00:50.379
+If we could get the signal before it's
+converted to analogue
+
+00:00:50.379 --> 00:00:53.930
+We could get a completely clean pixel
+perfect picture
+
+00:00:53.930 --> 00:00:59.170
+and perfect audio or at least as perfect
+as a 25-year-old arcade machine can
+
+00:00:59.170 --> 00:01:00.170
+produce anyway
+
+00:01:00.170 --> 00:01:04.220
+To tap of the signals before they get
+converted to analogue
+
+00:01:04.220 --> 00:01:08.200
+we need to make some modifications. This
+is where I wimp out a bit
+
+00:01:08.200 --> 00:01:12.619
+Not wanting to risk damaging my
+expensive cartridge based Neo Geo
+
+00:01:12.619 --> 00:01:16.740
+I experimented with one of the cheaper
+later boards which have hardware
+
+00:01:16.740 --> 00:01:22.580
+and a game combined into one. These chips form part of the digital to analogue video
+
+00:01:22.580 --> 00:01:23.509
+conversion
+
+00:01:23.509 --> 00:01:28.310
+So, we tapped the video signals of here.
+The audio is converted by this chip
+
+00:01:28.310 --> 00:01:32.049
+so we take the inputs to that too. The
+Neo Geo
+
+00:01:32.049 --> 00:01:36.060
+being old runs 5 volts so the next stop
+for the signal
+
+00:01:36.060 --> 00:01:39.250
+is voltage dividers to bring the five
+volts
+
+00:01:39.250 --> 00:01:42.369
+input down to something modern electronics can work with
+
+00:01:42.369 --> 00:01:47.659
+Then into a low-end FPGA which runs my
+code and does the conversion magic
+
+00:01:47.659 --> 00:01:51.570
+finally out of the FPGA comes HDMI
+
+00:01:51.570 --> 00:01:54.780
+video and audio. HDMI being the
+
+00:01:54.780 --> 00:01:58.399
+digital audio visual standard of the
+future no longer
+
+00:01:58.399 --> 00:02:03.369
+constrained to just playing HD Blu-Rays now we get to play or some nineties arcade
+
+00:02:03.369 --> 00:02:05.040
+games through it too.
+
+00:02:05.040 --> 00:02:09.800
+HDMI being digital means we have a
+direct digital to digital connection
+
+00:02:09.800 --> 00:02:13.930
+from than the Neo Geo to fancy new TVs
+
+00:02:13.930 --> 00:02:17.840
+The FPGA does the heavy lifting bringing the Neo Geo's video output
+
+00:02:17.840 --> 00:02:20.880
+up to date. Firstly the Neo Geo outputs
+
+00:02:20.880 --> 00:02:25.770
+at the wrong frame rate. Just. It outputs
+at 59.1
+
+00:02:25.770 --> 00:02:30.200
+frames per second which might not
+seem like a big deal
+
+00:02:30.200 --> 00:02:34.270
+but if you're a modern TV then you're
+probably a right picky bugger
+
+00:02:34.270 --> 00:02:37.910
+and will refuse to show anything unless it's bang on sixty
+
+00:02:37.910 --> 00:02:43.170
+To deal with this the FPGA increases the
+clock speed of the Neo Geo by about 1%
+
+00:02:43.860 --> 00:02:47.430
+It runs ever so slightly faster than
+it originally did
+
+00:02:47.430 --> 00:02:52.440
+to get that magic number. Also the video
+output was interlaced
+
+00:02:52.440 --> 00:02:56.140
+but the FPGA takes care of that too by
+displaying each line twice
+
+00:02:56.140 --> 00:02:59.650
+However, some people like the warm nostalgic glow of
+
+00:02:59.650 --> 00:03:02.660
+the scan lines of the past, so a few different
+
+00:03:02.660 --> 00:03:06.700
+fake scan line effects can be added if
+you're so inclined. All selectable
+
+00:03:06.700 --> 00:03:11.530
+at the press the button. Arcade games
+were all about quick reflexes
+
+00:03:11.530 --> 00:03:15.060
+so the FPGA code adds as little delay
+as possible
+
+00:03:15.060 --> 00:03:20.470
+in fact it's just a hundred microseconds.
+Modern TV's like to add their own delays
+
+00:03:20.470 --> 00:03:25.740
+but as we can see here it's not bad. And that's all I have to say about it
+
+00:03:25.740 --> 00:03:29.390
+As always the code is available on GitHub so go grab it
+
+00:03:29.390 --> 00:03:32.910
+if you're interested. I'm sure be proved
+wrong within minutes
+
+00:03:32.910 --> 00:03:36.320
+but I don't believe there's any publicly
+available working code
+
+00:03:36.320 --> 00:03:40.200
+for encoding audio over HDMI so if
+you're interested in doing that then
+
+00:03:40.200 --> 00:03:41.010
+check it out as well
+

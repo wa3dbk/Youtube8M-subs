@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.000 --> 00:00:09.000
+Maya assets are an organizational tool for streamlining the way you interact with objects in your scene,
+
+00:00:09.000 --> 00:00:15.000
+as well as protecting the integrity of those objects from accidental or unwarranted tampering.
+
+00:00:16.000 --> 00:00:24.000
+For example, the rig we have here for DAWG the rocket is fairly typical.  It is composed of a variety of geometry nodes, 
+
+00:00:24.000 --> 00:00:26.000
+joints, IK, and FK control curves. 
+
+00:00:26.000 --> 00:00:32.000
+The problem is that the useful controls are spread out amongst a variety of nodes, 
+
+00:00:32.000 --> 00:00:37.000
+which are easily lost among all the other nodes which we would never need to touch as an animator.
+
+00:00:37.000 --> 00:00:43.000
+Maya assets allow you to reduce entire trees of related nodes to a single node, 
+
+00:00:43.000 --> 00:00:47.000
+while organizing all the useful attributes in one place.
+
+00:00:48.000 --> 00:00:52.000
+To create an asset, first select all the nodes you want to include in the asset.  
+
+00:00:52.000 --> 00:00:56.000
+In this case, we want the top level node of our DAWG character.
+
+00:00:57.000 --> 00:01:01.000
+Next, we need to decide what kind of asset to create. 
+
+00:01:01.000 --> 00:01:07.000
+An Asset with Transform is useful if we wanted to create an associated transform node to orient our character in the scene.  
+
+00:01:07.000 --> 00:01:15.000
+However, DAWG already has a control curve specifically for that purpose.  So instead, we're going to create an Advanced Asset.
+
+00:01:17.000 --> 00:01:25.000
+Name the asset appropriately and make sure to include all nodes below so that it encapsulates the entire character's hierarchy.
+
+00:01:26.000 --> 00:01:34.000
+To simplify the asset in the Outliner, go to the Display menu and change the Advanced Asset Contents to Under Asset mode.  
+
+00:01:35.000 --> 00:01:39.000
+Now all the encapsulated nodes appear under the asset in the hierarchy.
+
+00:01:40.000 --> 00:01:46.000
+In the Outliner, select the rocket_anim curve and open the Extra Attributes section of the Attribute Editor. 
+
+00:01:46.000 --> 00:01:52.000
+There are a number of animation controls here for things like the wings, engine flaps, and the cockpit shield.  
+
+00:01:52.000 --> 00:01:58.000
+We can quickly publish each of these by right-clicking each one and selecting Publish to DAWG_AST.
+
+00:01:58.000 --> 00:02:05.000
+We can publish the rotation of the turbine the same way, but in this case, we want to publish it with a different name. 
+
+00:02:05.000 --> 00:02:14.000
+To do this, select the turbine and switch to the Channel box.  Select Rotate Zťand then select Edit &gt; Publish to Asset.
+
+00:02:14.000 --> 00:02:22.000
+In the Publish to Asset menu, we can give the published attribute a more meaningful name, such as "Turbine Rotation."ť
+
+00:02:23.000 --> 00:02:29.000
+If we select the DAWG_AST node, you'll see that all our published attributes thus far appear in one place, 
+
+00:02:29.000 --> 00:02:31.000
+despite coming from different nodes inside the asset.
+
+00:02:32.000 --> 00:02:38.000
+Now we can use the Channel Box publishing method to publish the IK and FK controls for all the legs.  
+
+00:02:38.000 --> 00:02:47.000
+First select the front left IK handle and highlight the Translate, Rotate, and Roll attributes in the Channel Box.  
+
+00:02:47.000 --> 00:02:50.000
+Select Edit &gt; Publish to Asset.  
+
+00:02:50.000 --> 00:02:59.000
+This time, instead of giving the attributes a custom name, we'll give them a custom prefix, in this case F_L_IK_.
+
+00:02:59.000 --> 00:03:07.000
+While we're at it, we also want to publish the node itself.  This will allow us to select it in the viewport later.  
+
+00:03:08.000 --> 00:03:13.000
+Now repeat this for each IK handle, adjusting the prefix appropriately.  
+
+00:03:13.000 --> 00:03:17.000
+Remember to publish each handle's node as well as its attributes.
+
+00:03:21.000 --> 00:03:27.000
+Although we won't show it here, you can publish the FK handles in the exact same way, 
+
+00:03:27.000 --> 00:03:30.000
+although in addition to a prefix indicating which leg it belongs to, 
+
+00:03:30.000 --> 00:03:33.000
+you will also need to identify the joint it represents as well.
+
+00:03:34.000 --> 00:03:40.000
+To utilize IK and FK together, we also need to include the switches to toggle between them.  
+
+00:03:40.000 --> 00:03:44.000
+Select the CTRL_anim node and publish the Leg State controls.  
+
+00:03:44.000 --> 00:03:50.000
+No special prefixes or names are required this time, so just publish them with the default options.
+
+00:03:52.000 --> 00:03:59.000
+Finally, since we created an asset without a transform, we need to assign a primary transform node we can use 
+
+00:03:59.000 --> 00:04:03.000
+to orient our asset in a scene.  This will be the All_anim curve.  
+
+00:04:03.000 --> 00:04:07.000
+Select it in the Outliner, and publish its attributes just like any of the others.  
+
+00:04:11.000 --> 00:04:22.000
+We also need to publish this node, but because it is the central transform, we will publish it as a special Selection Transform node.  You can find this option in the Advanced Assets menu.
+
+00:04:23.000 --> 00:04:28.000
+Now if you select the DAWG_AST node and open the Attribute Editor, 
+
+00:04:28.000 --> 00:04:32.000
+you will see every useful control conveniently displayed in a single place.  
+
+00:04:33.000 --> 00:04:39.000
+You can clean up the Outliner further by selecting the Asset Attributes section in the Attribute Editor 
+
+00:04:39.000 --> 00:04:41.000
+and turning on Black Box.  
+
+00:04:41.000 --> 00:04:46.000
+Now if you look at the Outliner, all the unpublished nodes are hidden, greatly reducing clutter.
+
+00:04:47.000 --> 00:04:53.000
+Also notice that if you select the asset in the viewport, it automatically selects your Selection Transform node.  
+
+00:04:53.000 --> 00:05:00.000
+You can also select any of your published IK or FK handles, but not any of the unpublished geometry.  
+
+00:05:02.000 --> 00:05:07.000
+With a completed asset, you can now modify and key all the attributes useful for animation 
+
+00:05:07.000 --> 00:05:10.000
+from a single interface on the DAWG_AST node itself.  
+
+00:05:10.000 --> 00:05:16.000
+You can also interact with your rig in realtime, without accidentally selecting parts you don't have any need for.  
+
+00:05:16.000 --> 00:05:23.000
+Any attributes that could compromise the integrity of your asset are safely hidden away in all your editors.
+

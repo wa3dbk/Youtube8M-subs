@@ -1,0 +1,228 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.750 --> 00:00:07.720
+Hey everybody, Mike Linville
+here with Black Dog Education with this week's
+
+00:00:07.720 --> 00:00:12.440
+installment of Office Hours where we answer
+your questions about web design web development
+
+00:00:12.440 --> 00:00:17.650
+and online marketing. This week's question
+comes Dean, and Dean writes, Mike I've been
+
+00:00:17.650 --> 00:00:22.199
+working with WordPress for quite some time
+and the more I play with the site the slower
+
+00:00:22.199 --> 00:00:27.650
+my site seems to get what can I do to speed
+my site back up? Great question actually because
+
+00:00:27.650 --> 00:00:32.070
+page load times are important and we should
+be paying attention the them. Slow sites not
+
+00:00:32.070 --> 00:00:37.820
+only aggravate your visitors but are also
+bad for search engine because search engines
+
+00:00:37.820 --> 00:00:44.000
+page load times as part of their search engine
+rank algorithms so you know when we talk about
+
+00:00:44.000 --> 00:00:49.850
+slow page load time really what we' re talking
+about - inefficiencies in an inefficiency
+
+00:00:49.850 --> 00:00:56.850
+at the server level or an efficiency at your
+website level so with the server level especially
+
+00:00:57.030 --> 00:01:01.990
+if you're on a shared hosting environment
+which most people are, BlueHost, Go Daddy
+
+00:01:01.990 --> 00:01:07.170
+or HostGator, one of those are more difficult
+to troubleshoot you really need somebody who's
+
+00:01:07.170 --> 00:01:13.090
+got a decent level of experience as a programmer.
+Those types of issues are usually more expensive
+
+00:01:13.090 --> 00:01:16.350
+so we're not going to talk about those right
+now what we're really going to talk about
+
+00:01:16.350 --> 00:01:20.950
+or talk about page efficiency and the reason
+we're going to talk about page efficiencies
+
+00:01:20.950 --> 00:01:27.590
+or page inefficiencies, is because they're
+easy to find. Relatively easiest to fix and
+
+00:01:27.590 --> 00:01:34.200
+simple to take care without any extra tools
+or experiences okay. So there are a lot of
+
+00:01:34.200 --> 00:01:41.200
+different places your website can become start
+leaking performance is your Plugins. Now whenever
+
+00:01:44.170 --> 00:01:48.030
+you load a plugin, you know and these are
+these fantastic little program that help to
+
+00:01:48.030 --> 00:01:52.670
+extend WordPress right. We love them. But
+when you load a plug-in what is happening
+
+00:01:52.670 --> 00:01:59.090
+is not just the script itself is loaded there's
+also template files, images there could be
+
+00:01:59.090 --> 00:02:04.909
+JavaScript calls and sorts of other resources
+so the more that you have of those the more
+
+00:02:04.909 --> 00:02:11.569
+it takes away from your server's page load
+time. So if you've got plugins on your website
+
+00:02:11.569 --> 00:02:16.180
+which are not actually using not only do you
+want to deactivate, you want to deactivate
+
+00:02:16.180 --> 00:02:21.019
+them and delete. The second thing we want
+to talk about is the images. When we talk
+
+00:02:21.019 --> 00:02:27.480
+about images we want to do is make sure they're
+properly sized, saved, and scaled. So when
+
+00:02:27.480 --> 00:02:32.970
+we say properly sized what that means we want
+to use images for the web that are 72 dpi
+
+00:02:32.970 --> 00:02:39.040
+dot per inch. Let's say for example you have
+a logo that you got from your printer. Printers
+
+00:02:39.040 --> 00:02:44.420
+use files that are at high resolution 300
+dpi or above if you're using something like
+
+00:02:44.420 --> 00:02:48.200
+that make sure you get a saved down version
+of it okay? Now properly saved, we want to
+
+00:02:48.200 --> 00:02:52.629
+make sure we're using the proper format. Whether
+it's a Gif, whether it's a JPEG, whether it's
+
+00:02:52.629 --> 00:02:56.090
+a PNG those are typically going to be your
+top 3. But you want to make sure that you're
+
+00:02:56.090 --> 00:03:00.870
+saving it out properly because that can really
+help with your file size. And the last thing
+
+00:03:00.870 --> 00:03:04.849
+is that you want to make sure to scale properly
+right. If you have a picture that's really
+
+00:03:04.849 --> 00:03:09.290
+large if you load it to your website you've
+got to wait for that entire picture to load
+
+00:03:09.290 --> 00:03:14.409
+and then crunch it down into the space that
+you had given it just load up a small image.
+
+00:03:14.409 --> 00:03:18.409
+It's going to make for a faster load time.
+Now the third thing we're going to talk about
+
+00:03:18.409 --> 00:03:25.409
+is excess content. Any time your website or
+webpage displays information that's not necessarily
+
+00:03:26.360 --> 00:03:32.159
+associated with the post or the pages you
+save in WordPress it's got to make a request
+
+00:03:32.159 --> 00:03:36.920
+to get the information. It could be requesting
+your own database so for example if you want
+
+00:03:36.920 --> 00:03:42.010
+to pull latest blog posts or show the users
+out of your database or something like that,
+
+00:03:42.010 --> 00:03:45.810
+or it could be a third-party requester like
+if you have a Twitter feed or LinkedIn, or
+
+00:03:45.810 --> 00:03:49.590
+Facebook or something like that. No matter
+where it's coming from every time you make
+
+00:03:49.590 --> 00:03:54.109
+one of those requests your server slow down
+a little, your page load time goes up a little
+
+00:03:54.109 --> 00:03:59.930
+bit with each request that but if you start
+getting like 10 or 15 different feeds loading
+
+00:03:59.930 --> 00:04:04.249
+into a page, let's be honest. First of all
+the site's going to look bad, it's just way
+
+00:04:04.249 --> 00:04:10.489
+to much going on. Your conversion ratios are
+going to be really really low because a confused
+
+00:04:10.489 --> 00:04:14.579
+mind always says no in marketing. And the
+last thing is your page load times are going
+
+00:04:14.579 --> 00:04:18.810
+to way up, that's bad for search engine optimization.
+So this is what I would suggest, and Dean
+
+00:04:18.810 --> 00:04:21.970
+I didn't take at look at your website so I
+don't know if that's your situation. Make
+
+00:04:21.970 --> 00:04:27.410
+sure you sit down with a professional developer
+and talk to them about your site and what
+
+00:04:27.410 --> 00:04:31.840
+you want it to do and they can help you map
+out the flow or how your content should laid
+
+00:04:31.840 --> 00:04:36.880
+out in a proper format. So Dean that's all
+we've got for you. I hope this has served
+
+00:04:36.880 --> 00:04:40.319
+you, again this is Mike Linville from Black
+Dog Education I want to say thank you for
+
+00:04:40.319 --> 00:04:46.590
+hanging out with us today, now it's your turn.
+What I want to know is, what's the number
+
+00:04:46.590 --> 00:04:50.180
+1 thing on your site you feel is slowing you
+down?
+

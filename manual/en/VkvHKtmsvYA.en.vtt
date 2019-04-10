@@ -1,0 +1,484 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.637
+HOI LAM: Custom
+watch faces have been
+
+00:00:01.637 --> 00:00:03.470
+one of the most eagerly
+anticipated features
+
+00:00:03.470 --> 00:00:04.810
+for Android Wear.
+
+00:00:04.810 --> 00:00:06.980
+With the latest release,
+watch face development
+
+00:00:06.980 --> 00:00:09.160
+is now officially supported.
+
+00:00:09.160 --> 00:00:11.040
+I'm Hoi Lam from
+Google, and this
+
+00:00:11.040 --> 00:00:13.740
+is an introduction to
+developing watch faces.
+
+00:00:13.740 --> 00:00:16.320
+Your watch face is a service
+that runs in the background.
+
+00:00:16.320 --> 00:00:18.820
+I'm going to run you through
+the three straightforward steps
+
+00:00:18.820 --> 00:00:20.050
+to craft your own.
+
+00:00:20.050 --> 00:00:22.490
+First, I'll go through how
+to create your watch face
+
+00:00:22.490 --> 00:00:26.030
+project, second,
+how to customize it
+
+00:00:26.030 --> 00:00:29.600
+for both interactive
+and ambient mode.
+
+00:00:29.600 --> 00:00:32.020
+Last but not least--
+additional APIs
+
+00:00:32.020 --> 00:00:33.770
+to help you create
+a watch face that
+
+00:00:33.770 --> 00:00:35.950
+will be legible
+in all conditions.
+
+00:00:35.950 --> 00:00:38.100
+So how do you get started?
+
+00:00:38.100 --> 00:00:40.750
+The easiest way is by opening
+up one of the watch face
+
+00:00:40.750 --> 00:00:43.680
+samples located
+under this directory.
+
+00:00:43.680 --> 00:00:46.030
+There's a digital watch
+face and an analog watch
+
+00:00:46.030 --> 00:00:47.780
+face to get you started.
+
+00:00:47.780 --> 00:00:50.840
+Within the project, you will
+see two key methods which impact
+
+00:00:50.840 --> 00:00:52.670
+the set up and rendering loop.
+
+00:00:52.670 --> 00:00:55.810
+In onCreate, we typically
+set up instance variables,
+
+00:00:55.810 --> 00:00:57.700
+which include loading
+bitmap objects
+
+00:00:57.700 --> 00:01:00.320
+or initiating paint
+objects for drawing
+
+00:01:00.320 --> 00:01:03.560
+on the watch face or canvas.
+
+00:01:03.560 --> 00:01:06.100
+In onDraw, we render
+each one of the frames
+
+00:01:06.100 --> 00:01:08.950
+that we display
+on the watch face.
+
+00:01:08.950 --> 00:01:12.550
+Since we're drawing on a canvas,
+we can use the standard bitmap
+
+00:01:12.550 --> 00:01:14.690
+or shape drawing
+functionalities.
+
+00:01:14.690 --> 00:01:16.900
+It's important to keep
+performance in mind,
+
+00:01:16.900 --> 00:01:20.030
+since this code
+runs on every frame.
+
+00:01:20.030 --> 00:01:21.620
+After creating the
+project, you're
+
+00:01:21.620 --> 00:01:23.330
+now ready to customize
+the watch face
+
+00:01:23.330 --> 00:01:27.490
+for the two main modes--
+interactive and ambient.
+
+00:01:27.490 --> 00:01:29.240
+In the interactive
+mode, the watch face
+
+00:01:29.240 --> 00:01:32.715
+will often be in full
+color with fluid animation.
+
+00:01:32.715 --> 00:01:34.840
+This is typically when the
+user is paying attention
+
+00:01:34.840 --> 00:01:36.590
+to their watch.
+
+00:01:36.590 --> 00:01:39.550
+In ambient mode, the graphics
+should use a limited color
+
+00:01:39.550 --> 00:01:40.220
+palette.
+
+00:01:40.220 --> 00:01:42.590
+And it's only updated
+once a minute.
+
+00:01:42.590 --> 00:01:45.465
+So what are some of the main
+customization options that
+
+00:01:45.465 --> 00:01:48.110
+are available in
+these two modes?
+
+00:01:48.110 --> 00:01:50.040
+In interactive
+mode, the template
+
+00:01:50.040 --> 00:01:52.880
+defaults to updating
+once a second.
+
+00:01:52.880 --> 00:01:55.340
+If you need it to update
+more frequently-- say,
+
+00:01:55.340 --> 00:01:57.580
+because you want to
+play an animation--
+
+00:01:57.580 --> 00:01:59.920
+you'll need to do three things.
+
+00:01:59.920 --> 00:02:02.880
+First, you need to remove
+mUpdateTimeHandler.
+
+00:02:02.880 --> 00:02:05.120
+Otherwise, the onDraw
+method will only
+
+00:02:05.120 --> 00:02:07.440
+be called once a second.
+
+00:02:07.440 --> 00:02:10.600
+Second, you need to trigger the
+onDraw method the first time
+
+00:02:10.600 --> 00:02:12.420
+the watch face is visible.
+
+00:02:12.420 --> 00:02:15.620
+This is done by invalidating
+the frame under the method
+
+00:02:15.620 --> 00:02:17.520
+onVisibilityChange.
+
+00:02:17.520 --> 00:02:19.660
+Lastly, you'll need
+to invalidate a frame
+
+00:02:19.660 --> 00:02:21.730
+at the end of the onDraw method.
+
+00:02:21.730 --> 00:02:23.670
+This will kick off
+the onDraw loop,
+
+00:02:23.670 --> 00:02:26.780
+which enables fluid animation.
+
+00:02:26.780 --> 00:02:29.940
+Now your watch face will
+update continuously.
+
+00:02:29.940 --> 00:02:32.870
+It's important that you
+check if the watch face is
+
+00:02:32.870 --> 00:02:35.870
+in ambient mode before
+invalidating the frame.
+
+00:02:35.870 --> 00:02:38.410
+Otherwise, the update
+loop will run continuously
+
+00:02:38.410 --> 00:02:41.440
+in the background, even
+when it is in ambient mode.
+
+00:02:41.440 --> 00:02:44.650
+And this will significantly
+impact battery life.
+
+00:02:44.650 --> 00:02:46.280
+With the interactive
+mode dealt with,
+
+00:02:46.280 --> 00:02:48.990
+it's now time to talk
+about ambient mode.
+
+00:02:48.990 --> 00:02:52.600
+The two common actions that
+developers take in ambient mode
+
+00:02:52.600 --> 00:02:56.490
+are one, we choose graphics
+in the grayscale or black and
+
+00:02:56.490 --> 00:02:59.565
+white, two, remove
+screen elements that
+
+00:02:59.565 --> 00:03:03.200
+are updated more than once a
+minute, such as the watch hand
+
+00:03:03.200 --> 00:03:05.760
+or digits displaying
+the seconds.
+
+00:03:05.760 --> 00:03:07.470
+To listen in to
+whether the watch has
+
+00:03:07.470 --> 00:03:10.260
+gone into ambient
+mode, you can override
+
+00:03:10.260 --> 00:03:12.290
+the onAmbientModeChange method.
+
+00:03:12.290 --> 00:03:15.200
+Developers will typically
+send the instance variable
+
+00:03:15.200 --> 00:03:18.200
+indicating whether the
+watch is in ambient mode
+
+00:03:18.200 --> 00:03:19.970
+and invalidate
+the current frame.
+
+00:03:19.970 --> 00:03:22.760
+This will trigger redraw.
+
+00:03:22.760 --> 00:03:25.350
+Then, in the next
+onDraw, developer
+
+00:03:25.350 --> 00:03:27.560
+can decide what they want to do.
+
+00:03:27.560 --> 00:03:29.720
+With the basic customization
+out of the way,
+
+00:03:29.720 --> 00:03:31.820
+it's now time for
+some extra polish.
+
+00:03:31.820 --> 00:03:33.690
+In addition to ambient
+mode, the watch
+
+00:03:33.690 --> 00:03:36.720
+face APIs give developers
+additional context
+
+00:03:36.720 --> 00:03:40.620
+to make sure that the watch face
+is legible in all conditions.
+
+00:03:40.620 --> 00:03:42.320
+I would like to
+highlight two of these.
+
+00:03:42.320 --> 00:03:46.240
+First, some Android Wear devices
+support low-bit ambient mode,
+
+00:03:46.240 --> 00:03:49.690
+which means that screen
+pixels can only be on or off.
+
+00:03:49.690 --> 00:03:51.720
+Merely reusing a
+grayscale design
+
+00:03:51.720 --> 00:03:54.430
+typically does not
+work on these screens.
+
+00:03:54.430 --> 00:03:57.240
+For example, if we do nothing
+to the grayscale design
+
+00:03:57.240 --> 00:04:00.500
+that we have for
+Santa Tracker, this
+
+00:04:00.500 --> 00:04:03.240
+is what it would
+look like in low-bit.
+
+00:04:03.240 --> 00:04:06.300
+As you can see, it's
+not very pretty.
+
+00:04:06.300 --> 00:04:08.990
+That's why we implemented this
+alternative black and white
+
+00:04:08.990 --> 00:04:10.740
+design.
+
+00:04:10.740 --> 00:04:13.550
+To determine whether the
+device supports low-bit,
+
+00:04:13.550 --> 00:04:16.610
+override the
+onPropertiesChange method.
+
+00:04:16.610 --> 00:04:18.540
+And developers can
+read whether the watch
+
+00:04:18.540 --> 00:04:20.720
+supports low-bit ambient mode.
+
+00:04:20.720 --> 00:04:22.750
+Second-- it is my
+personal favorite,
+
+00:04:22.750 --> 00:04:25.170
+this one-- the
+ability to find out
+
+00:04:25.170 --> 00:04:27.740
+whether there is a peek
+card on the screen.
+
+00:04:27.740 --> 00:04:30.380
+This allows you to make sure
+that it does not interact badly
+
+00:04:30.380 --> 00:04:32.340
+with your watch face design.
+
+00:04:32.340 --> 00:04:36.010
+And it is especially
+important in ambient mode.
+
+00:04:36.010 --> 00:04:38.550
+Without this, as you
+can see on the left,
+
+00:04:38.550 --> 00:04:40.860
+the tick marks interfere
+with the peek card,
+
+00:04:40.860 --> 00:04:42.460
+making it hard to read.
+
+00:04:42.460 --> 00:04:45.050
+In our final design, we
+draw a black rectangle
+
+00:04:45.050 --> 00:04:48.940
+with no border behind the peek
+card to make it more legible.
+
+00:04:48.940 --> 00:04:51.910
+In addition to this, using
+the watch face style class,
+
+00:04:51.910 --> 00:04:54.050
+developers can
+specify whether or not
+
+00:04:54.050 --> 00:04:57.210
+a peek card is shown
+in ambient mode,
+
+00:04:57.210 --> 00:05:00.220
+and whether it is
+opaque or translucent
+
+00:05:00.220 --> 00:05:02.260
+in interactive mode.
+
+00:05:02.260 --> 00:05:03.830
+Please check out
+the documentation
+
+00:05:03.830 --> 00:05:06.200
+for many more
+features, including
+
+00:05:06.200 --> 00:05:09.820
+how to keep tab of
+time zone changes,
+
+00:05:09.820 --> 00:05:12.520
+displaying live
+data on watch faces,
+
+00:05:12.520 --> 00:05:16.710
+and altering watch face
+settings from the mobile device.
+
+00:05:16.710 --> 00:05:19.570
+I'm Hoi Lam, and I look
+forward to reading the time
+
+00:05:19.570 --> 00:05:21.780
+with your watch face.
+

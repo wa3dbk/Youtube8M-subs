@@ -1,0 +1,222 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.000 --> 00:00:04.600
+Industrial controller ATR121
+Main features and functionalities
+
+00:00:06.003 --> 00:00:14.000
+In this video we show the Pixsys 32x74 mm PID control. ATR121.
+
+00:00:14.779 --> 00:00:16.409
+The packaging
+
+00:00:16.409 --> 00:00:17.446
+includes
+
+00:00:17.779 --> 00:00:19.400
+in addition to the device
+
+00:00:24.269 --> 00:00:28.800
+The nylon latching for the counter-panel assembly
+
+00:00:29.199 --> 00:00:30.500
+with the relative screws
+
+00:00:34.085 --> 00:00:40.000
+and the English/Italian instruction manual.
+
+00:00:45.015 --> 00:00:48.000
+Regarding the device features
+
+00:00:48.000 --> 00:00:52.000
+by the rear 12 pin terminal
+
+00:00:52.048 --> 00:00:55.500
+you see the power supply section
+
+00:00:56.022 --> 00:01:05.000
+(in this case the ATR121-B requires 220 V tension, as reported in the user manual)
+
+00:01:05.023 --> 00:01:14.000
+then the outputs section with two relays for external SSR
+
+00:01:15.076 --> 00:01:21.500
+and eventually the section for connecting the process sensor.
+
+00:01:22.005 --> 00:01:27.054
+In particular the ATR121 allows different types of thermocouples,
+
+00:01:27.054 --> 00:01:33.109
+different types of thermoresistances such as the PT100 and MI100 probes, PTC and NTC
+
+00:01:34.009 --> 00:01:35.600
+as well as PT1000
+
+00:01:35.600 --> 00:01:41.000
+and linear signals both 4..20 mA and 0..10 V.
+
+00:01:42.019 --> 00:01:46.092
+For example, we connect and setup
+
+00:01:46.092 --> 00:01:48.400
+a PT100 resistor.
+
+00:01:49.900 --> 00:01:52.900
+First we connect the PT100 sensor
+
+00:01:53.075 --> 00:01:58.001
+by following the instructions reported on the label
+
+00:01:58.001 --> 00:02:03.000
+of the 10, 11, 12 pins.
+
+00:02:09.149 --> 00:02:14.220
+With the wire compensation technique
+
+00:02:14.859 --> 00:02:19.800
+we connect the power supply to the 1 and 2 pins
+
+00:02:22.269 --> 00:02:24.800
+220 volts.
+
+00:02:28.689 --> 00:02:30.717
+Once the wiring is complete
+
+00:02:30.969 --> 00:02:33.700
+we turn on the device
+
+00:02:35.289 --> 00:02:38.000
+the display shows the software version
+
+00:02:38.000 --> 00:02:40.000
+and performs a short auto tuning
+
+00:02:41.219 --> 00:02:48.000
+then the regulator measures the temperature detected by the PT100 sensor.
+
+00:02:48.000 --> 00:02:51.000
+Naturally if the sensor is not configured yet
+
+00:02:51.500 --> 00:02:53.700
+the temperature value is wrong,
+
+00:02:53.700 --> 00:02:56.800
+so it is necessary to enter the configuration menu
+
+00:02:56.800 --> 00:02:59.000
+with the "function" key
+
+00:02:59.539 --> 00:03:01.557
+after a few seconds
+
+00:03:01.719 --> 00:03:07.719
+the password is required, which can be defined with the arrow keys and "set" key
+
+00:03:07.719 --> 00:03:10.800
+(the password is "123",
+
+00:03:12.049 --> 00:03:16.000
+to confirm press the "set" key)
+
+00:03:16.219 --> 00:03:21.258
+hence we enter the parameters configuration list
+
+00:03:21.609 --> 00:03:25.600
+(the arrow keys permit to scroll the parameters),
+
+00:03:26.100 --> 00:03:29.059
+we select the SEn (sensor) parameter
+
+00:03:29.059 --> 00:03:34.124
+so to see what sensor is configured we press again the "set" key.
+
+00:03:34.709 --> 00:03:36.781
+The default value
+
+00:03:37.429 --> 00:03:40.471
+corresponds to the thermocouple K,
+
+00:03:40.849 --> 00:03:43.858
+by holding the "set" key we select
+
+00:03:44.749 --> 00:03:47.778
+"PT" (PT100)
+
+00:03:48.039 --> 00:03:52.045
+we release both keys and we press the "fnc" key
+
+00:03:52.099 --> 00:03:54.500
+to exit the configuration mode.
+
+00:03:54.500 --> 00:03:59.100
+Now the display shows the correct ambient temperature
+
+00:03:59.100 --> 00:04:02.500
+detected by the industrial probe connected.
+
+00:04:06.269 --> 00:04:09.500
+For what concerns the output sources
+
+00:04:09.500 --> 00:04:16.084
+the ATR121 is composed of two relays and one logic output
+
+00:04:16.084 --> 00:04:18.700
+for the static relays control
+
+00:04:18.759 --> 00:04:22.783
+which normally are connected with power actuators
+
+00:04:22.800 --> 00:04:28.000
+such as the classic contactor
+
+00:04:28.043 --> 00:04:31.892
+the static relay
+
+00:04:32.000 --> 00:04:34.700
+(zero crossing, in this case)
+
+00:04:34.700 --> 00:04:38.776
+or the servo motors with open/close logic.
+
+00:04:39.289 --> 00:04:44.308
+With the servo motor the two relays operate combined
+
+00:04:44.479 --> 00:04:46.069
+the first relay
+
+00:04:46.069 --> 00:04:47.800
+for the "open" action
+
+00:04:47.800 --> 00:04:50.500
+the second relay for the "close" action.
+
+00:04:53.000 --> 00:04:56.800
+Once the contactor is connected
+
+00:04:56.800 --> 00:05:07.000
+to make the system work simply set the temperature setpoint
+
+00:05:07.000 --> 00:05:09.900
+just press the arrow keys
+
+00:05:10.000 --> 00:05:18.000
+and set the main temperature, for example 35 C°
+
+00:05:18.000 --> 00:05:21.000
+related to the output with the flashing led.
+
+00:05:21.500 --> 00:05:25.400
+If you want to use both available outputs
+
+00:05:26.000 --> 00:05:30.000
+just press another time the "set" key
+
+00:05:30.000 --> 00:05:35.000
+to  setup the temperature alarm as well.
+
+00:05:39.900 --> 00:05:43.300
+htttp://www.pixsys.net/en/home
+gen 2011
+

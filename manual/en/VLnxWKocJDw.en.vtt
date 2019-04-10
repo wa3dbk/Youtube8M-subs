@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.100 --> 00:00:04.466
+In this video, we'll be looking at how to quickly generate a crowd in Houdini.
+
+00:00:04.733 --> 00:00:07.966
+We're just going to make a new Shelf tab here, Crowds Shelf...
+
+00:00:07.966 --> 00:00:11.366
+and let's click on the Simulate Tool.
+
+00:00:11.366 --> 00:00:14.766
+Hit the Enter key twice - since we have an empty scene,
+
+00:00:14.800 --> 00:00:17.300
+Houdini will generate a default setup for us!
+
+00:00:17.300 --> 00:00:23.333
+So, our default crowd setup has 1000 agents, each agent has an 8000-poly count,
+
+00:00:23.333 --> 00:00:27.799
+and keep in mind that all the animation deformations are happening in real-time,
+
+00:00:27.933 --> 00:00:31.199
+none of it is pre-baked! Let's turn on Real Time Toggle, 
+
+00:00:31.200 --> 00:00:35.966
+and we're going to extend the timeline to 1000 frames. Click on Apply.
+
+00:00:38.166 --> 00:00:48.466
+Hit the UP arrow key to play.
+
+00:00:51.866 --> 00:00:55.432
+And we'll stop the playback and take a look at the network that was generated.
+
+00:00:58.533 --> 00:01:01.299
+The nodes have been colour-coded for our convenience.
+
+00:01:02.200 --> 00:01:05.533
+Pink ones are States and Behaviours.
+
+00:01:05.533 --> 00:01:09.333
+Orange are Trigger nodes. Blue are Transition nodes.
+
+00:01:09.333 --> 00:01:13.866
+The crowdsource node references the agent primitives, which are the guys we see in the scene,
+
+00:01:14.666 --> 00:01:17.732
+and the crowdsolver node, which implements the crowd system.
+
+00:01:17.733 --> 00:01:21.733
+You'll find control parameters for agents, avoidance, terrain and others!
+
+00:01:22.600 --> 00:01:24.433
+Let's go back to frame one.
+
+00:01:25.966 --> 00:01:28.866
+And we'll go back up to object level. So, hit the U key...
+
+00:01:30.100 --> 00:01:34.800
+and now hit the L key to layout the nodes, and we'll take a look at the nodes here.
+
+00:01:36.566 --> 00:01:41.766
+So here we have the mocap cycles for stand, rest and walk which our agent will use.
+
+00:01:42.733 --> 00:01:48.899
+And here is our bake cycle node, which bakes out the animation files to disk for performance purposes.
+
+00:01:48.900 --> 00:01:52.400
+crowd_sim is where we were looking at our nodal network earlier.
+
+00:01:52.533 --> 00:01:59.899
+And crowdsource, let's double click to go inside, is where we can specify controls for our agents.
+
+00:02:01.666 --> 00:02:04.932
+And we can, for example, set the number of agents.
+
+00:02:04.933 --> 00:02:07.799
+Let's make it 100.
+
+00:02:09.033 --> 00:02:11.166
+And we'll turn off the ortho grid...
+
+00:02:11.166 --> 00:02:14.966
+and we're going to change Layout to Formation.
+
+00:02:17.500 --> 00:02:23.366
+You can set the number of rows and columns you want.
+
+00:02:24.200 --> 00:02:28.033
+And you can adjust the amount of spacing as well.
+
+00:02:28.700 --> 00:02:31.200
+And let's play to see them move!
+
+00:02:36.233 --> 00:02:39.966
+Hit the up arrow key to toggle stop and we'll go back to frame one.
+
+00:02:40.366 --> 00:02:43.266
+We're going to click on the input of the crowdsource node,
+
+00:02:43.266 --> 00:02:49.166
+so hit the TAB key and type grid, and then hit the Enter key to select it.
+
+00:02:49.166 --> 00:02:51.899
+We're going to change the grid parameters.
+
+00:02:52.933 --> 00:02:57.233
+And we'll set the rows and columns to 20.
+
+00:02:57.233 --> 00:03:00.066
+And we're going to change Layout back to Random.
+
+00:03:00.166 --> 00:03:07.999
+And we're going to use a tool called Paint Density which will allow us to interactively place our agents by painting directly on our grid terrain
+
+00:03:08.000 --> 00:03:12.900
+Make sure that our crowdsource object is selected... and then hit Enter!
+
+00:03:13.066 --> 00:03:17.532
+Hold down SHIFT and LMB click and drag to change the brush size...
+
+00:03:17.600 --> 00:03:20.133
+And we can start painting...
+
+00:03:23.466 --> 00:03:33.232
+Changing the foreground colour values will affect the density of agents distributed on our grid...
+
+00:03:35.266 --> 00:03:39.966
+And we're done painting. So let's go back up to object level. Hit the U key.
+
+00:03:40.000 --> 00:03:43.100
+And we'll play it back to see our crowd take a stroll!
+
+00:03:49.933 --> 00:03:53.833
+And this is just an example of some of the Crowd Shelf tools inside Houdini
+
+00:03:54.066 --> 00:03:57.532
+Stay tuned for more in future videos!
+

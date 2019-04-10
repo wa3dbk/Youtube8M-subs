@@ -1,0 +1,126 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.066 --> 00:00:08.066
+This video will show the workflow between Maya 
+and Guerilla.
+
+00:00:08.066 --> 00:00:19.066
+First, let's load the Guerilla plug-in..
+
+00:00:19.066 --> 00:00:25.033
+A 'Guerilla' menu must show up
+
+00:00:27.000 --> 00:00:33.066
+This scene include a light, shaders, animated 
+objects and deformed objects
+
+00:00:34.000 --> 00:00:37.066
+Let's export all that to Guerilla
+
+00:00:41.066 --> 00:00:45.066
+During the first export, the plug-in ask you 
+to choose your Guerilla project
+
+00:00:46.000 --> 00:00:50.000
+After the exportation, Guerilla pops up with 
+the project
+
+00:00:50.066 --> 00:00:58.000
+The light, the shaders, the camera, the 
+objects, the animations the deformation have 
+been exported
+
+00:00:59.033 --> 00:01:03.033
+Now, let's start the rendering work in 
+Guerilla..
+
+00:01:09.000 --> 00:01:13.000
+We save the project and quit
+
+00:01:13.000 --> 00:01:38.033
+Back in Maya, we want now to modify the 
+modeling and the animation of this scene.
+
+00:01:42.033 --> 00:01:50.000
+The default export mode is "Merge", it means 
+that the work already done in Guerilla will be 
+merged with the updaped data from Maya.
+
+00:01:52.000 --> 00:01:57.066
+Let's re-export the scene to Guerilla.
+
+00:01:59.066 --> 00:02:11.033
+The geometry and the animation have been 
+merged with the Guerilla modifications.
+
+00:02:13.066 --> 00:02:36.066
+Another export mode is "Replace". It will re-
+create a clean Guerilla project at each 
+export.
+
+00:02:38.033 --> 00:02:42.033
+Back in Maya, let's see some details
+
+00:02:42.033 --> 00:02:47.000
+After the first export, the plug-in creates a 
+GuerillaNode.
+
+00:02:47.000 --> 00:02:53.000
+This node contains the path to the Guerilla 
+project.
+
+00:02:54.000 --> 00:02:59.066
+Don't forget to delete this node when you 
+duplicate your Maya file.
+
+00:03:05.066 --> 00:03:17.066
+Let's load our project as a reference in Maya.
+
+00:03:19.033 --> 00:03:38.066
+We modify a little bit the scene and we export 
+it.
+
+00:03:39.033 --> 00:03:46.000
+This is a new Maya file, so we need a new 
+Guerilla file
+
+00:03:48.033 --> 00:03:57.000
+In Guerilla, the file also references the base 
+Guerilla project
+
+00:03:57.000 --> 00:04:08.033
+So, you can continue to use the references 
+with Guerilla. Just make sure that every Maya 
+file has its own Guerilla file
+
+00:04:14.033 --> 00:04:22.033
+You can add tags to your object in Maya to 
+control the export process
+
+00:04:25.000 --> 00:04:29.066
+The 'Export' tag controls if an object and all its 
+children must be exported
+
+00:04:29.066 --> 00:04:33.000
+The 'Bake geometry' tag control how precise the 
+baking of an object must be
+
+00:04:33.000 --> 00:04:35.033
+'Rigid' to bake the geometry only once
+
+00:04:35.000 --> 00:04:37.066
+'Deform' to bake the vertices at each frame
+
+00:04:37.066 --> 00:04:39.000
+'Full deform' to bake everything at each frame
+
+00:04:39.000 --> 00:04:43.000
+'Motion Blur Steps' controls how many samples 
+per frame are needed for the motion blur
+
+00:04:43.000 --> 00:04:48.033
+Default is 1. Guerilla is able to generate 3D 
+motion blur with only one sample
+

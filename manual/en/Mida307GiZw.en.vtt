@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.689 --> 00:00:06.150
+Hello people now we are going to see how to
+create space invaders with our game maker 
+
+00:00:06.150 --> 00:00:08.099
+first lets put some
+
+00:00:08.099 --> 00:00:15.099
+devils out there
+
+00:00:16.980 --> 00:00:23.980
+I'm changing the background to red color
+
+00:00:32.490 --> 00:00:36.410
+now i'm going to add one more sprite
+
+00:00:36.410 --> 00:00:43.410
+to be the boundary
+
+00:00:47.340 --> 00:00:49.460
+I added wall sprites
+
+00:00:49.460 --> 00:00:52.560
+these walls are going to be boundaries
+
+00:00:52.560 --> 00:00:54.850
+Let me add the remaining tank
+
+00:00:54.850 --> 00:01:01.020
+and bullet sprites
+
+00:01:01.020 --> 00:01:05.580
+we need uh... events and actions for
+devils to move and tank to
+
+00:01:05.580 --> 00:01:06.880
+shoot
+
+00:01:06.880 --> 00:01:08.720
+so i'm going to add
+
+00:01:08.720 --> 00:01:15.720
+timer event move action to the devil
+
+00:01:16.010 --> 00:01:23.010
+upon clicking the add rule we need to
+fill out the form inorder to add the action
+
+00:01:23.490 --> 00:01:27.480
+we can also use this slider to fill
+out the angle
+
+00:01:27.480 --> 00:01:29.790
+now we are going to add
+
+00:01:29.790 --> 00:01:33.590
+collision even between devil and wall
+
+00:01:33.590 --> 00:01:35.490
+you might have seen that
+
+00:01:35.490 --> 00:01:39.960
+even list has been dynamically updated
+
+00:01:39.960 --> 00:01:41.900
+we can also add
+
+00:01:41.900 --> 00:01:45.960
+more than one action at the same time
+
+00:01:45.960 --> 00:01:52.960
+appropriate action forms will pop up
+
+00:02:05.610 --> 00:02:10.029
+so i'm selecting devil here
+
+00:02:10.029 --> 00:02:17.029
+now we have added enough actions for the
+devils to move
+
+00:02:18.399 --> 00:02:20.189
+we can hit re-build to
+
+00:02:20.189 --> 00:02:22.299
+go back to same position
+
+00:02:22.299 --> 00:02:29.299
+now I'm adding shoot action to the tank
+
+00:02:32.569 --> 00:02:35.609
+i'm adding move event
+
+00:02:35.609 --> 00:02:42.609
+key event to the tank
+
+00:02:45.659 --> 00:02:49.400
+now that I have added move action
+to the devil
+
+00:02:49.400 --> 00:02:52.649
+and shoot action to the tank
+
+00:02:52.649 --> 00:02:54.099
+and disappear event
+
+00:02:54.099 --> 00:02:55.599
+for the devils
+
+00:02:55.599 --> 00:02:56.459
+so now I can 
+
+00:02:56.459 --> 00:02:58.699
+move the tank
+
+00:03:01.519 --> 00:03:03.329
+as well as
+
+00:03:03.329 --> 00:03:10.329
+shoot the devils
+
+00:03:13.949 --> 00:03:16.479
+I need sheild
+
+00:03:16.479 --> 00:03:23.439
+to protect the tank so we are going to
+add sheilds now
+
+00:03:23.439 --> 00:03:27.159
+now the sheilds are in place
+
+00:03:27.159 --> 00:03:30.829
+now i'm going to add contract event
+to the sheilds
+
+00:03:30.829 --> 00:03:37.829
+upon collision with the bullets
+
+00:03:41.199 --> 00:03:44.029
+now I have added game overcondition 
+for the...
+
+00:03:44.029 --> 00:03:47.049
+collision event, between tank - devil
+
+00:03:47.049 --> 00:03:49.499
+so, when the devil hits
+
+00:03:49.499 --> 00:03:50.499
+the tank
+
+00:03:50.499 --> 00:03:57.499
+we will loose the game
+
+00:04:17.719 --> 00:04:24.719
+the devil is approaching the tank
+
+00:04:27.120 --> 00:04:30.210
+we successfully lost the game!
+

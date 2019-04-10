@@ -1,0 +1,365 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.549 --> 00:00:11.240
+I have a simple FSM setup here on game
+object 1 and i would like to reuse it
+
+00:00:11.240 --> 00:00:13.600
+exactly as it is on game object 2
+
+00:00:13.600 --> 00:00:17.190
+Now lets say I created something really
+important and i didn't want redo all
+
+00:00:17.190 --> 00:00:18.099
+that work
+
+00:00:18.099 --> 00:00:19.400
+there's a simple way
+
+00:00:19.400 --> 00:00:21.729
+to save and reuse FSM's
+
+00:00:21.729 --> 00:00:28.200
+If I right click here in the
+PlayMaker window and choose save template
+
+00:00:28.200 --> 00:00:30.060
+i get a dialog box
+
+00:00:30.060 --> 00:00:32.670
+right here i can call this
+
+00:00:32.670 --> 00:00:35.000
+we call it random selector
+
+00:00:35.000 --> 00:00:38.370
+because that's what this little thing
+does and it'll save it into a templates
+
+00:00:38.370 --> 00:00:39.440
+folder
+
+00:00:39.440 --> 00:00:40.369
+and if you
+
+00:00:40.369 --> 00:00:42.770
+are interested you can look under PlayMaker
+
+00:00:42.770 --> 00:00:46.880
+the folder here in your project under
+templates and you will see that it's
+
+00:00:46.880 --> 00:00:49.300
+saved right there
+
+00:00:49.300 --> 00:00:52.510
+now i can go to the second game object
+
+00:00:52.510 --> 00:00:57.550
+right-click and instead of just adding
+an FSM... i can add a template
+
+00:00:57.550 --> 00:00:59.350
+and you see here random selector
+
+00:00:59.350 --> 00:01:00.920
+is available for me
+
+00:01:00.920 --> 00:01:03.150
+i click and add, and there is
+
+00:01:03.150 --> 00:01:07.490
+so pretty cool i can just move
+entire
+
+00:01:07.490 --> 00:01:11.310
+as you can see it's it's the whole thing
+it's got the same.. like, theres a wait
+
+00:01:11.310 --> 00:01:12.810
+and random pick
+
+00:01:12.810 --> 00:01:15.560
+come in here it's got the same stuff for
+the same values
+
+00:01:15.560 --> 00:01:19.780
+and it's not just for entire FSM's
+either, which is pretty neat
+
+00:01:19.780 --> 00:01:23.560
+say i wanted to add a powerful new state
+to do something in here
+
+00:01:23.560 --> 00:01:26.360
+uh... and i will call this whatever,
+
+00:01:26.360 --> 00:01:28.500
+the state
+
+00:01:28.500 --> 00:01:31.530
+and give it in a color
+
+00:01:31.530 --> 00:01:33.270
+just make it Cyan
+
+00:01:33.270 --> 00:01:35.419
+and let's say i have a new event
+
+00:01:35.419 --> 00:01:37.270
+let's make an entirely new event
+
+00:01:37.270 --> 00:01:40.090
+and call its um...
+
+00:01:40.090 --> 00:01:41.079
+rotate
+
+00:01:41.079 --> 00:01:43.280
+thing
+
+00:01:43.280 --> 00:01:47.890
+and add that to the state
+
+00:01:47.890 --> 00:01:52.630
+i can now save just this one state, i could
+also put actions and do anything i
+
+00:01:52.630 --> 00:01:56.110
+wanted to it they can save just this one
+state
+
+00:01:56.110 --> 00:01:59.430
+If I come down there to save
+template which has fallen just off the
+
+00:01:59.430 --> 00:02:01.930
+bottom your screen so let me move that
+up and show you
+
+00:02:01.930 --> 00:02:04.580
+so i can save template
+
+00:02:04.580 --> 00:02:07.510
+and once again i get to the same
+
+00:02:07.510 --> 00:02:09.419
+save box
+
+00:02:09.419 --> 00:02:11.979
+and now i can choose uh...
+
+00:02:11.979 --> 00:02:15.980
+new rotator
+
+00:02:15.980 --> 00:02:18.519
+and there's my thing
+
+00:02:18.519 --> 00:02:20.129
+so let's look
+
+00:02:20.129 --> 00:02:21.370
+back over here
+
+00:02:21.370 --> 00:02:23.239
+if I right click
+
+00:02:23.239 --> 00:02:26.669
+uh... i can look in and add just that
+one node
+
+00:02:26.669 --> 00:02:30.249
+so you can add individual nodes, you can
+add groups of nodes like i could
+
+00:02:30.249 --> 00:02:31.590
+save this collection
+
+00:02:31.590 --> 00:02:35.650
+or if you just select out here you can
+save the entire FSM
+
+00:02:35.650 --> 00:02:40.769
+so it's very modular and very cool way
+for you to put things together
+
+00:02:40.769 --> 00:02:44.430
+let's take a look at the template
+browser
+
+00:02:44.430 --> 00:02:48.370
+temple browser gives us a little
+more control over our templates that
+
+00:02:48.370 --> 00:02:49.539
+we've made
+
+00:02:49.539 --> 00:02:52.639
+you can see have got the new rotator it
+shows it to me right there that's just
+
+00:02:52.639 --> 00:02:54.020
+that one simple state
+
+00:02:54.020 --> 00:02:57.809
+here's our random selector which is the
+four nodes that i put together
+
+00:02:57.809 --> 00:03:00.799
+and they're both under category of
+general
+
+00:03:00.799 --> 00:03:05.180
+let's say if i wanted to make this
+
+00:03:05.180 --> 00:03:07.949
+some new category
+
+00:03:07.949 --> 00:03:09.689
+"movers", why not
+
+00:03:09.689 --> 00:03:12.090
+and uh... by now have
+
+00:03:12.090 --> 00:03:13.470
+a new set of categories here
+
+00:03:13.470 --> 00:03:15.000
+"movers", and "general"
+
+00:03:15.000 --> 00:03:18.639
+just like here in the actions
+browser
+
+00:03:18.639 --> 00:03:21.570
+if i select on these i get different
+things inside of them
+
+00:03:21.570 --> 00:03:25.600
+the different actions listed, so works
+in the same way if you look at the
+
+00:03:25.600 --> 00:03:26.889
+template browser
+
+00:03:26.889 --> 00:03:29.710
+and you can add it any number in here
+that you'd like
+
+00:03:29.710 --> 00:03:33.389
+and you'll see multiple ones all
+underneath these categories
+
+00:03:33.389 --> 00:03:36.790
+it's also very cool because you can't
+dock it like you would any other
+
+00:03:36.790 --> 00:03:37.989
+window
+
+00:03:37.989 --> 00:03:41.609
+if you're going to use these a lot and
+you can edit these
+
+00:03:41.609 --> 00:03:45.249
+so for instance i wanted to change
+something about this new rotator
+
+00:03:45.249 --> 00:03:49.299
+i've got it open right here and i'm
+actually editing the template i'm not
+
+00:03:49.299 --> 00:03:51.369
+editing anything on one of these
+
+00:03:51.369 --> 00:03:55.089
+so instead of new state i could call it
+
+00:03:55.089 --> 00:03:56.709
+rotate
+
+00:03:56.709 --> 00:03:59.279
+and we could put in a description "this
+
+00:03:59.279 --> 00:04:00.500
+does
+
+00:04:00.500 --> 00:04:02.509
+amazing things"
+
+00:04:02.509 --> 00:04:05.040
+and i could add an action
+
+00:04:05.040 --> 00:04:06.350
+even, lets
+
+00:04:06.350 --> 00:04:08.249
+add
+
+00:04:08.249 --> 00:04:11.849
+a rotate action right there into this
+
+00:04:11.849 --> 00:04:17.609
+and if i switch back my window which
+would have probably should have docked
+
+00:04:17.609 --> 00:04:21.949
+i can switch away, see the other one, come back, and you see that it has indeed
+
+00:04:21.949 --> 00:04:23.720
+held on to those updates
+
+00:04:23.720 --> 00:04:25.530
+so you can edit the
+
+00:04:25.530 --> 00:04:29.190
+template directly, you don't have
+to bring it out and put it on an object to do that
+
+00:04:29.190 --> 00:04:30.879
+an important distinction though
+
+00:04:30.879 --> 00:04:32.600
+if i look back at this
+
+00:04:32.600 --> 00:04:35.930
+this was not updated dynamically okay
+once you've applied a template you've
+
+00:04:35.930 --> 00:04:38.580
+added it in and it's no longer connected
+
+00:04:38.580 --> 00:04:41.199
+but i could really simply delete that
+
+00:04:41.199 --> 00:04:44.740
+come back and and uh... paste a template
+and now i've got
+
+00:04:44.740 --> 00:04:48.900
+"movers" and "general" which are the
+two categories i set up
+
+00:04:48.900 --> 00:04:51.669
+and choose that and i get that
+
+00:04:51.669 --> 00:04:53.300
+with the
+
+00:04:53.300 --> 00:04:56.110
+action that was that with the
+
+00:04:56.110 --> 00:04:59.729
+the note i've put on it with the new
+name... it even comes in with the event
+
+00:04:59.729 --> 00:05:03.449
+the rotate thing which wasnt on this
+FSM until we brough that in
+
+00:05:03.449 --> 00:05:04.939
+.. so that is templates!
+

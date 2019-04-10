@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.508 --> 00:00:13.051
+In this tutorial, you learn how the movie trailer that precedes every movie on this channel was created.
+
+00:00:13.716 --> 00:00:17.834
+You will not be using the same assets though but rather starting from scratch.
+
+00:00:18.302 --> 00:00:23.044
+This will allow you to work on a simpler scene which always makes learning easier.
+
+00:00:23.637 --> 00:00:30.220
+In this first movie, you start with the basic scene setup and then move on to work on the details subsequently.
+
+00:00:30.861 --> 00:00:33.216
+Start or reset 3ds Max.
+
+00:00:33.871 --> 00:00:40.443
+In the Units Setup, make sure the System Units are set to Inches, which is the default.
+
+00:00:41.033 --> 00:00:46.558
+Set the Display Units to Meters, as it's easier to get a sense of scale that way.
+
+00:00:47.288 --> 00:00:54.884
+Ultimately, you will be using Mental Ray to render this project, so you may as well set Mental Ray as a rendering engine from the start.
+
+00:00:55.356 --> 00:01:01.645
+This can be done in the Render dialog, which can be accessed from the main toolbar or by pressing F10.
+
+00:01:02.110 --> 00:01:06.990
+In the Assign Renderer section, set Mental Ray as the Production Renderer.
+
+00:01:07.661 --> 00:01:14.104
+If you are a regular on this channel, then you would know that I favor rendering in the 16x9 HDTV format.
+
+00:01:14.635 --> 00:01:18.675
+Set the rendering resolution to HDTV (video). 
+
+00:01:24.848 --> 00:01:27.093
+Close the dialog when done.
+
+00:01:27.783 --> 00:01:32.771
+In order to frame the view better, enable Show Safe Frames in the Perspective view.
+
+00:01:33.179 --> 00:01:36.441
+This way, you get a better sense of what's being rendered.
+
+00:01:37.002 --> 00:01:41.855
+You are now ready to create the needed components. You'll start with the water surface.
+
+00:01:42.257 --> 00:01:47.218
+It's easy enough to place in the scene, use a simple Plane object in the top view.
+
+00:01:48.558 --> 00:01:51.881
+Make it 2m x 2m in size, 
+
+00:01:54.045 --> 00:01:59.788
+and use the Move tool to relocate it to the center of the world, at [0,0,0]
+
+00:02:02.720 --> 00:02:05.751
+Name it "Water Surface". 
+
+00:02:07.376 --> 00:02:10.466
+If you need to, change its wirecolor.
+
+00:02:11.106 --> 00:02:17.112
+That's fine for now although you will need to adjust its density later, when you create the animated ripples.
+
+00:02:17.505 --> 00:02:21.511
+Next, you'll create the path for the animated arrow.
+
+00:02:21.998 --> 00:02:30.872
+Note that there are multiple animated arrows in the trailer, and that each apparent arrow is actually made of two arrows traveling together.
+
+00:02:32.434 --> 00:02:38.328
+Since you're only learning the concepts here, you'll focus on creating one arrow and one path.
+
+00:02:38.888 --> 00:02:47.532
+Using the Line tool, create a line in Corner/Corner mode, centered on the water surface, only a tad wider.
+
+00:02:48.264 --> 00:02:55.128
+You only require two clicks. To ensure the line is straight, hold Shift down after the first click.
+
+00:02:55.908 --> 00:02:59.719
+Center the line to the world at [0,0,0] 
+
+00:03:03.998 --> 00:03:08.019
+and then rename it "Arrow Path".
+
+00:03:12.746 --> 00:03:16.320
+Again, change its wirecolor if you need to.
+
+00:03:18.557 --> 00:03:22.672
+In the Modify panel, go to Segment mode.
+
+00:03:23.320 --> 00:03:29.340
+Select the single segment that makes the line. You need to subdivide it in order to create the bounces.
+
+00:03:29.906 --> 00:03:38.007
+Lower in the panel, set the Divide value to 11 and then click the Divide button.
+
+00:03:38.362 --> 00:03:42.886
+This adds 11 new vertices to the line that are equidistant.
+
+00:03:44.273 --> 00:03:54.963
+Go into vertex mode and select all vertices except verts #4, 6, 8 and 10.
+
+00:03:57.770 --> 00:04:05.400
+Move the selected vertices about 0,1m vertically. Keep an eye on the transform type-ins for reference.
+
+00:04:06.056 --> 00:04:11.761
+With the upper vertices still selected, right-click and set them to Bezier mode.
+
+00:04:12.635 --> 00:04:17.425
+Reset their tangents to ensure a nice, flowing upper trajectory.
+
+00:04:18.330 --> 00:04:23.696
+The lower vertices are set to corner to provide a harder bounce as the arrow hits the water.
+
+00:04:24.320 --> 00:04:26.500
+Exit sub-object mode when done.
+
+00:04:27.178 --> 00:04:32.872
+Adjust the Perspective view to get a better look at the contact points between the path and the water.
+
+00:04:33.337 --> 00:04:36.393
+This is where the ripples will eventually take place.
+
+00:04:37.130 --> 00:04:42.228
+Here, you will be dealing with just one path but keep in mind that the trailer has many.
+
+00:04:42.630 --> 00:04:47.110
+Also, the paths in the trailer are more irregular and zig-zag a little bit.
+
+00:04:47.797 --> 00:04:52.557
+That can be achieved by moving vertices horizontally, not just vertically.
+
+00:04:53.304 --> 00:04:57.505
+Again, we'll keep it simple for now and leave the path pointing in one direction.
+
+00:04:58.050 --> 00:05:02.103
+With the path in place, you next work on the arrow object.
+
+00:05:02.540 --> 00:05:04.397
+This is what you do in the next movie.
+

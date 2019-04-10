@@ -1,0 +1,610 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.440 --> 00:00:07.480
+during the last two episodes, we've stressed
+
+00:00:07.480 --> 00:00:10.440
+how important it is to make your first game something small
+
+00:00:10.440 --> 00:00:12.460
+but this is so important that this time
+
+00:00:12.460 --> 00:00:14.900
+we're going to dedicate the entire episode to it
+
+00:00:14.900 --> 00:00:16.180
+this will serve you in good stead
+
+00:00:16.180 --> 00:00:17.940
+not only when you're creating your first game
+
+00:00:17.940 --> 00:00:20.882
+but also in prototyping for anything else you do
+
+00:00:20.882 --> 00:00:23.720
+in development there is a term called a minimum viable product
+
+00:00:23.720 --> 00:00:26.340
+which refers to the smallest thing you can possibly make
+
+00:00:26.340 --> 00:00:29.100
+that will still give you useful data once released
+
+00:00:29.100 --> 00:00:30.720
+that should be your goal
+
+00:00:30.720 --> 00:00:34.120
+even when James is called in to work on a multi-million dollar project
+
+00:00:34.120 --> 00:00:36.120
+that has a development time of three years
+
+00:00:36.120 --> 00:00:37.900
+one of the first things he'll tell them is that
+
+00:00:37.900 --> 00:00:40.820
+if they don't have a prototype up in the first three weeks
+
+00:00:40.820 --> 00:00:41.680
+they're doing it wrong
+
+00:00:41.680 --> 00:00:43.760
+when you can actually play your game
+
+00:00:43.760 --> 00:00:46.400
+you'll discover all sorts of things that you didn't account for
+
+00:00:46.400 --> 00:00:48.180
+when you were just designing the game in your head
+
+00:00:48.180 --> 00:00:50.660
+you'll find edge cases where your mechanics are broken
+
+00:00:50.660 --> 00:00:53.060
+or places where your game just falls apart
+
+00:00:53.060 --> 00:00:55.240
+you'll find what's really engaging rather than just
+
+00:00:55.240 --> 00:00:57.360
+trying to build something that you hope is engaging
+
+00:00:57.360 --> 00:01:00.860
+and you'll discover what will have the most to the experience you're creating
+
+00:01:00.960 --> 00:01:03.760
+ok so you've heard me say cut and cut and cut
+
+00:01:03.760 --> 00:01:05.460
+and that when you think you're done cutting
+
+00:01:05.460 --> 00:01:06.720
+you're probably not done cutting
+
+00:01:06.720 --> 00:01:09.100
+but you do have to stop cutting sometime
+
+00:01:09.100 --> 00:01:10.840
+so how do we determine when we're done
+
+00:01:10.840 --> 00:01:12.840
+to that minimum viable product
+
+00:01:12.840 --> 00:01:13.920
+well this one is a bit tough
+
+00:01:13.920 --> 00:01:15.940
+and you're gonna get better at it with experience
+
+00:01:15.940 --> 00:01:19.620
+but the basic idea is to find the absolute minimum set of features
+
+00:01:19.620 --> 00:01:21.960
+that won't affect core development
+
+00:01:21.960 --> 00:01:25.040
+if you could cut a feature and still technically ship your game
+
+00:01:25.040 --> 00:01:27.280
+it's probably not part of your minimum viable product
+
+00:01:27.280 --> 00:01:30.180
+but because this is as much as an art as it is a science
+
+00:01:30.180 --> 00:01:31.020
+let's run through some examples
+
+00:01:31.040 --> 00:01:33.000
+so we're on the same footing
+
+00:01:33.000 --> 00:01:35.240
+let's start with super mario brothers
+
+00:01:35.240 --> 00:01:36.560
+what do we need in order to test
+
+00:01:36.560 --> 00:01:40.100
+if the fundamental gameplay of Super Mario Brothers is engaging
+
+00:01:40.100 --> 00:01:43.140
+what is the minimum that we can build and test before deciding
+
+00:01:43.140 --> 00:01:46.620
+if what we have is something worth expanding upon with additional features
+
+00:01:46.620 --> 00:01:48.120
+well do we need Koopas?
+
+00:01:48.180 --> 00:01:48.920
+no
+
+00:01:48.960 --> 00:01:50.360
+fire flowers?
+
+00:01:50.360 --> 00:01:51.220
+nope
+
+00:01:51.220 --> 00:01:52.240
+Bowser?
+
+00:01:52.240 --> 00:01:52.960
+nope
+
+00:01:52.960 --> 00:01:54.520
+pipes that you can climb down?
+
+00:01:54.520 --> 00:01:55.300
+No
+
+00:01:55.380 --> 00:01:56.720
+pipes at all?
+
+00:01:56.740 --> 00:01:57.340
+hmm...no
+
+00:01:57.380 --> 00:01:58.520
+water levels?
+
+00:01:58.520 --> 00:01:59.400
+water levels? mushrooms?
+
+00:01:59.400 --> 00:02:00.040
+water levels? mushrooms? hidden blocks?
+
+00:02:00.040 --> 00:02:01.120
+water levels? mushrooms? hidden blocks? extra lives?
+
+00:02:01.120 --> 00:02:02.400
+no no no no
+
+00:02:02.400 --> 00:02:02.900
+no
+
+00:02:02.940 --> 00:02:04.460
+so what do we need
+
+00:02:04.460 --> 00:02:06.940
+well, for Mario the minimum viable product
+
+00:02:07.000 --> 00:02:09.520
+is probably one level where you can
+
+00:02:09.520 --> 00:02:11.860
+move, jump, and fall into pits
+
+00:02:11.900 --> 00:02:12.640
+that's it
+
+00:02:12.680 --> 00:02:14.620
+if just that much is engaging
+
+00:02:14.620 --> 00:02:16.800
+you'll be able to add all those other features later
+
+00:02:16.800 --> 00:02:18.080
+and make it even better
+
+00:02:18.080 --> 00:02:21.320
+but if running along and jumping over pits doesn't feel good
+
+00:02:21.320 --> 00:02:23.320
+Super Mario Brothers simply doesn't work
+
+00:02:23.320 --> 00:02:25.840
+no matter how many extra features you throw in
+
+00:02:25.840 --> 00:02:29.000
+so you've got to make sure of that core is working first
+
+00:02:29.240 --> 00:02:30.820
+although in this particular case
+
+00:02:30.820 --> 00:02:34.000
+I'd probably throw into other features that aren't strictly necessary
+
+00:02:34.000 --> 00:02:35.520
+but they will make a big difference
+
+00:02:35.520 --> 00:02:36.020
+first
+
+00:02:36.020 --> 00:02:38.920
+a trigger which resets the level of the player falls into the pit
+
+00:02:38.920 --> 00:02:40.360
+just so testing is easier
+
+00:02:40.360 --> 00:02:43.320
+and to make sure that this aspect isn't just unpalatable players
+
+00:02:43.320 --> 00:02:44.220
+and second
+
+00:02:44.220 --> 00:02:45.980
+the ability to change from walking to running
+
+00:02:45.980 --> 00:02:49.080
+since the Mario jump mechanic is so dependent on the run button
+
+00:02:49.120 --> 00:02:50.420
+but that's it
+
+00:02:50.520 --> 00:02:52.040
+one level 3 features
+
+00:02:52.040 --> 00:02:53.340
+and you've got a game
+
+00:02:53.340 --> 00:02:55.380
+don't believe something this simple could be engaging?
+
+00:02:55.380 --> 00:02:58.520
+well set the character to auto run and you've basically built Canabalt
+
+00:02:58.520 --> 00:03:02.160
+when building your first game or prototyping a larger one
+
+00:03:02.160 --> 00:03:04.820
+you'll find that you can strip out all of the content
+
+00:03:04.820 --> 00:03:07.780
+all of the things that aren't rules that control the play itself
+
+00:03:07.780 --> 00:03:10.420
+but rather elements that are created out of those rules
+
+00:03:10.480 --> 00:03:11.720
+so enemy types
+
+00:03:11.740 --> 00:03:12.540
+levels
+
+00:03:12.540 --> 00:03:13.440
+different weapons
+
+00:03:13.440 --> 00:03:15.200
+all of that can usually get cut
+
+00:03:15.200 --> 00:03:17.260
+you might want to include one thing from each category
+
+00:03:17.300 --> 00:03:18.980
+just to test larger rules
+
+00:03:18.980 --> 00:03:19.960
+but no more than that
+
+00:03:19.960 --> 00:03:22.180
+because it's really easy to get mired down
+
+00:03:22.180 --> 00:03:23.500
+and making all of that content
+
+00:03:23.500 --> 00:03:24.600
+and the truth is
+
+00:03:24.600 --> 00:03:29.140
+games with lots of content but without a solid foundation are rarely good
+
+00:03:29.160 --> 00:03:31.080
+perhaps worse as a creator
+
+00:03:31.080 --> 00:03:32.700
+when your games packed with content
+
+00:03:32.700 --> 00:03:36.080
+it's generally harder to figure out why the foundation is not working
+
+00:03:36.080 --> 00:03:38.900
+if you test your prototype with a lot of content thrown in it
+
+00:03:38.900 --> 00:03:40.780
+it'll be harder for players to put their fingers
+
+00:03:40.780 --> 00:03:43.080
+on exactly what it is that needs improvement
+
+00:03:43.080 --> 00:03:45.700
+as all of that content just clutters what's wrong
+
+00:03:45.700 --> 00:03:48.520
+and they'll be more likely to tell you about bad pieces of content
+
+00:03:48.520 --> 00:03:53.040
+than the underlying reasons why that content didn't create a positive experience
+
+00:03:53.040 --> 00:03:54.300
+it just adds complexity
+
+00:03:54.300 --> 00:03:58.600
+in a situation where you really need to be honing your game's core foundation
+
+00:03:58.600 --> 00:04:00.280
+ok so let's try another one
+
+00:04:00.360 --> 00:04:01.900
+old-school JRPGs
+
+00:04:01.900 --> 00:04:04.200
+now this one can fool people because most designers
+
+00:04:04.200 --> 00:04:07.900
+tend to think of these games in terms of content rather than game play
+
+00:04:07.900 --> 00:04:10.160
+it's easy to get caught up in the story you want to tell
+
+00:04:10.160 --> 00:04:12.460
+or the massive list of items and enemies
+
+00:04:12.460 --> 00:04:16.120
+but if the player has to slog through 80 hours of week gameplay
+
+00:04:16.120 --> 00:04:18.400
+in order to access that story you've got in mind
+
+00:04:18.400 --> 00:04:19.560
+you've done your player a disservice
+
+00:04:19.560 --> 00:04:22.340
+in fact that's some of what contributed to the decline
+
+00:04:22.340 --> 00:04:25.600
+in the popularity of traditional JRPGs this decade
+
+00:04:25.600 --> 00:04:27.560
+so take a game like final fantasy 4
+
+00:04:27.560 --> 00:04:31.540
+here I would cut everything but the menu based combat system
+
+00:04:31.540 --> 00:04:33.040
+I would even cut out all the graphics
+
+00:04:33.040 --> 00:04:35.600
+monsters can just be words on the screen
+
+00:04:35.600 --> 00:04:37.440
+that's really all you need to test the system
+
+00:04:37.440 --> 00:04:38.780
+now many of you might object
+
+00:04:38.780 --> 00:04:43.560
+saying "But that doesn't work. I can't make that engaging without the content."
+
+00:04:43.560 --> 00:04:44.640
+this is actually great though
+
+00:04:44.640 --> 00:04:48.400
+it immediately tells us that we should probably find a more robust system
+
+00:04:48.400 --> 00:04:48.900
+all right
+
+00:04:48.900 --> 00:04:49.760
+let's try one more
+
+00:04:49.780 --> 00:04:51.860
+this time let's look at Ikaruga
+
+00:04:51.860 --> 00:04:55.420
+here we could probably cut down to the color switching mechanic
+
+00:04:55.420 --> 00:04:57.620
+and enemy which switches color randomly
+
+00:04:57.620 --> 00:04:59.180
+and shoots random bullet patterns
+
+00:04:59.180 --> 00:05:00.820
+or maybe you randomly chooses from
+
+00:05:00.820 --> 00:05:02.700
+a small list of pre-built bullet patterns
+
+00:05:02.700 --> 00:05:04.480
+as that wouldn't be too hard to construct
+
+00:05:04.480 --> 00:05:07.220
+also you'll need the ability for the player to move and to shoot
+
+00:05:07.220 --> 00:05:09.700
+a counter which takes upward as you shoot the enemy
+
+00:05:09.700 --> 00:05:13.300
+and a death mechanic that simply resets the game when the player gets hit
+
+00:05:13.300 --> 00:05:15.900
+this will get you all the player behavior you need
+
+00:05:15.900 --> 00:05:17.320
+to find out if your game is engaging
+
+00:05:17.320 --> 00:05:19.760
+your players will try to dodge and shoot the enemy
+
+00:05:19.760 --> 00:05:23.320
+while attempting to take advantage of the color swapping system as much as possible
+
+00:05:23.320 --> 00:05:24.480
+that's all you need
+
+00:05:24.480 --> 00:05:26.280
+hopefully that helps you frame your thinking
+
+00:05:26.280 --> 00:05:29.260
+about just how small your first project should be
+
+00:05:29.260 --> 00:05:31.780
+now I'm going to give you a quick and dirty list of games genres
+
+00:05:31.780 --> 00:05:35.600
+ordered by how difficult they are to create a minimum viable product for
+
+00:05:35.600 --> 00:05:37.980
+and this is only going to apply to digital games
+
+00:05:37.980 --> 00:05:41.640
+some of these genres are actually much easier to build a pen and paper or board games for
+
+00:05:41.640 --> 00:05:44.440
+also this list isn't by any means absolute
+
+00:05:44.440 --> 00:05:45.780
+as game engines change
+
+00:05:45.780 --> 00:05:46.780
+this list is going to become outdated
+
+00:05:46.780 --> 00:05:49.160
+but it should give you a place to start at least
+
+00:05:49.160 --> 00:05:53.180
+so game genres in order of difficulty to produce a minimum viable product
+
+00:05:53.180 --> 00:05:54.980
+from simplest to most difficult
+
+00:05:55.020 --> 00:05:56.080
+Racing Game
+
+00:05:56.080 --> 00:05:57.260
+Top Down Shooter
+
+00:05:57.260 --> 00:05:58.780
+2D Platformer
+
+00:05:58.940 --> 00:06:01.200
+Color Matching Puzzle Game
+
+00:06:01.200 --> 00:06:02.500
+2D Puzzle Platformer
+
+00:06:02.520 --> 00:06:04.020
+3D Platformer
+
+00:06:04.060 --> 00:06:05.140
+FPS
+
+00:06:05.140 --> 00:06:06.380
+JRPG
+
+00:06:06.420 --> 00:06:07.640
+Fighting Game
+
+00:06:07.640 --> 00:06:08.740
+Action Adventure
+
+00:06:08.800 --> 00:06:10.260
+Western RPG
+
+00:06:10.300 --> 00:06:11.400
+RTS
+
+00:06:11.400 --> 00:06:13.980
+I'm leaving put Point And Click Adventure Games here
+
+00:06:13.980 --> 00:06:16.460
+as those games are entirely built out of content
+
+00:06:16.460 --> 00:06:19.520
+so while getting a Point And Click Game up and running is relatively easy
+
+00:06:19.520 --> 00:06:22.660
+getting anything together that'll actually tell you if you're on to something engaging
+
+00:06:22.660 --> 00:06:23.880
+is a lot harder
+
+00:06:23.880 --> 00:06:27.400
+you'll notice I'm also leaving out anything network or multiplayer
+
+00:06:27.400 --> 00:06:30.280
+as that generally multiplies the complexity
+
+00:06:30.280 --> 00:06:33.820
+honestly I would just recommend avoiding multiplayer stuff entirely for your first game
+
+00:06:33.880 --> 00:06:34.920
+and again
+
+00:06:34.920 --> 00:06:37.660
+don't think of these genres in terms of the games you know
+
+00:06:37.700 --> 00:06:39.400
+when I say Racing Game
+
+00:06:39.400 --> 00:06:40.780
+don't think "gran turismo"
+
+00:06:40.780 --> 00:06:42.860
+think 2 grey blocks on a black background
+
+00:06:42.860 --> 00:06:45.180
+with acceleration and collision mechanics
+
+00:06:45.220 --> 00:06:48.740
+that is all you need to hit that minimum viable product or prototype stage
+
+00:06:48.740 --> 00:06:51.480
+where you can really start to get it out there and play it
+
+00:06:51.480 --> 00:06:53.360
+and learn what's needed to improve it
+
+00:06:53.360 --> 00:06:55.260
+you can always build from there later
+
+00:06:55.260 --> 00:06:56.660
+and add more cool features
+
+00:06:56.660 --> 00:06:58.360
+but your game w ill be better off
+
+00:06:58.360 --> 00:07:02.440
+for having spent the time testing and refining the foundation of your game idea
+
+00:07:02.440 --> 00:07:05.000
+this is way more productive than dreaming up a project
+
+00:07:05.000 --> 00:07:07.060
+which is far too big to ever tackle
+
+00:07:07.060 --> 00:07:10.800
+hopefully that helps you decide where to start and how far to scope down
+
+00:07:10.800 --> 00:07:12.660
+join us on the next episode for what to do
+
+00:07:12.660 --> 00:07:14.420
+once you're done with your game
+
+00:07:14.420 --> 00:07:15.320
+see you then
+
+00:07:16.020 --> 00:07:19.840
+subtitle author: Spencer Wang
+

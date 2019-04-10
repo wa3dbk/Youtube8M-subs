@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.906 --> 00:00:10.799
+Now that the scene is globally adjusted, you work on the last component, the solid layer acting as a placeholder for a security screen.
+
+00:00:11.454 --> 00:00:17.464
+The rationale here is that the design for that screen may not have been ready when you were rendering your 3D scene.
+
+00:00:18.116 --> 00:00:22.234
+Now that you're working in post, the design is ready to be integrated.
+
+00:00:22.827 --> 00:00:28.022
+Enable both the camera and solid layers, and then select the solid layer.
+
+00:00:28.604 --> 00:00:32.389
+It is not visible at this time because of its place in the hierarchy.
+
+00:00:32.951 --> 00:00:36.226
+Move it on top of the Door Matte layer.
+
+00:00:36.976 --> 00:00:41.721
+Right-click the solid layer and notice how it is set as a 3D layer.
+
+00:00:42.279 --> 00:00:50.921
+This is significant because the 3ds Max camera is recognized as an After Effects counter-part, and the camera and solid therefore work in tandem.
+
+00:00:51.349 --> 00:00:58.004
+Scrub the animation and notice how the solid is animated to track the camera movements.
+
+00:01:01.472 --> 00:01:12.483
+Contrary to 2D layers, this solid layer has 3D Transform keys (in XYZ) that guarantees its position and location related to the animated camera.
+
+00:01:12.903 --> 00:01:18.660
+By comparison, a 2D layer has only XY screen coordinates.
+
+00:01:28.770 --> 00:01:36.932
+The camera also has transform keyframes to ensure camera animation in 3ds Max is translated properly into After Effects.
+
+00:01:37.615 --> 00:01:47.020
+So all that remains to be done is to import the new security screen design and somehow lock it to travel with the solid placeholder.
+
+00:01:47.621 --> 00:01:53.658
+Among the files you downloaded for this tutorial is a Photoshop file named hand.psd
+
+00:01:54.000 --> 00:01:59.400
+It has many layers many of which are currently set to 0% opacity.
+
+00:02:00.973 --> 00:02:06.651
+You will use this design and animate those layers to match the animation of the scene.
+
+00:02:14.128 --> 00:02:18.649
+Make sure the Project bin is visible and drag the psd file inside it.
+
+00:02:19.318 --> 00:02:25.808
+Make sure you import the file as a Composition, with Editable Layer Styles active.
+
+00:02:28.851 --> 00:02:32.376
+Also make sure that you are at the beginning of the animation.
+
+00:02:36.513 --> 00:02:40.991
+Drag this new composition on top of the solid placement in the hierarchy.
+
+00:02:41.440 --> 00:02:45.710
+It's probably too big for now but you will make the adjustments in a second.
+
+00:02:46.261 --> 00:02:53.108
+First and foremost, in order to have this layer travel with the Bio-Scan solid, you need to ensure a few things:
+
+00:02:53.498 --> 00:02:59.243
+First, the new composition "layer" must be set to 3D like the solid layer is.
+
+00:02:59.832 --> 00:03:07.714
+Second, at the beginning of the animation, both layers must be exactly in the same position (XYZ coordinates).
+
+00:03:08.209 --> 00:03:19.472
+Third and last: If the solid layer incoming from 3ds Max is animated, then you would also need to parent the new layer to the 3ds Max animated solid.
+
+00:03:20.034 --> 00:03:25.620
+This last part is not the case here. The camera is animated but the solid is not.
+
+00:03:26.181 --> 00:03:32.687
+To make the new layer a 3D layer, the task is very easy, and requires but a simple right-click.
+
+00:03:33.184 --> 00:03:40.237
+This actually relocates the layer. That's ok, as you still need to match the position in the space of the parent.
+
+00:03:40.670 --> 00:03:45.200
+Expand the Transform tracks of both layers...
+
+00:03:47.892 --> 00:03:53.868
+and copy the XYZ position of the Bio-Scan solid to the hand composition.
+
+00:04:01.745 --> 00:04:06.613
+If anything, the hand composition now fills the screen a few times over.
+
+00:04:07.176 --> 00:04:18.458
+Adjust the scale value to match the security box on the door. For this tutorial and using this particular file, you need a scale factor of 1.1%
+
+00:04:19.128 --> 00:04:29.551
+One final note, you need to set the Y-orientation value to 180 to mirror the file (this security screen is set for a left hand).
+
+00:04:30.326 --> 00:04:36.879
+Scrub the animation and notice how the new composition and the existing 3ds Max solid are travelling together.
+
+00:04:37.486 --> 00:04:46.768
+As mentioned earlier, if the 3ds Max solid was animated in its own right, you would need to parent the new composition to the animated solid.
+
+00:04:47.126 --> 00:04:53.246
+This is not the case here but it doesn't hurt to apply the parent/child relationship.
+
+00:04:56.862 --> 00:05:02.432
+At this point and before animating the psd file, you can make some extra adjustments.
+
+00:05:02.807 --> 00:05:10.219
+You can hide the solid altogether or maybe use it for a glow effect by applying a glow filter to it.
+
+00:05:13.069 --> 00:05:17.911
+You can also change its color under Layer &gt; Solid settings.
+
+00:05:26.534 --> 00:05:33.836
+If you don't want the glow to affect the security box frame too much, you can always reorder the layers accordingly.
+
+00:05:35.662 --> 00:05:42.091
+Similarly, you can make adjustments to the new design such as setting the blending mode to Add mode.
+
+00:05:42.660 --> 00:05:45.320
+Try other blending modes to see which ones you like.
+
+00:05:45.952 --> 00:05:51.436
+In the next and final movie, you finalize the scene by animating the hand composition.
+
+00:05:51.850 --> 00:05:58.870
+You will animate the opacity of certain layers and add text to simulate randomized binary code.
+

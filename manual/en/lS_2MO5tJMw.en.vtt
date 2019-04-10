@@ -1,0 +1,325 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.000
+ 
+
+00:00:02.000 --> 00:00:04.810
+Dr. Robert van de Geijn: Now, we
+can make things even more complex.
+
+00:00:04.810 --> 00:00:07.065
+We can ask the question,
+what the probabilities are
+
+00:00:07.065 --> 00:00:11.592
+a week from today, given
+that today it is sunny.
+
+00:00:11.592 --> 00:00:13.550
+Well, we're not going to
+answer this right now,
+
+00:00:13.550 --> 00:00:16.799
+because what we're going to do is, we're
+going to program this up in a minute.
+
+00:00:16.799 --> 00:00:18.930
+ 
+
+00:00:18.930 --> 00:00:23.210
+To do so, though, we need
+to introduce some notation.
+
+00:00:23.210 --> 00:00:28.180
+We're going to say that chi sub s
+super k is the probability that it's
+
+00:00:28.180 --> 00:00:31.380
+sunny k days from now.
+
+00:00:31.380 --> 00:00:36.460
+Similarly, chi sub c k, chi sub r k.
+
+00:00:36.460 --> 00:00:44.570
+Now, I could, of course, have said, chi
+sub 0 k, I sub 1 k, and chi sub 2 k,
+
+00:00:44.570 --> 00:00:48.102
+but it's kind of convenient
+to use s, c, and r, so
+
+00:00:48.102 --> 00:00:50.730
+that we know it's
+sunny, cloudy, or rainy.
+
+00:00:50.730 --> 00:00:53.781
+ 
+
+00:00:53.781 --> 00:00:54.280
+OK.
+
+00:00:54.280 --> 00:00:56.980
+So here's our table again.
+
+00:00:56.980 --> 00:01:00.290
+And notice that we can
+ask the question, what
+
+00:01:00.290 --> 00:01:04.370
+is the probability of it
+being sunny on day k plus 1,
+
+00:01:04.370 --> 00:01:11.660
+given that the probability of it being
+sunny on day k is chi sub s super k.
+
+00:01:11.660 --> 00:01:15.800
+And the same thing for cloudy
+on day k and rainy on day k.
+
+00:01:15.800 --> 00:01:19.600
+Well, that's a matter of looking
+at what the probabilities are
+
+00:01:19.600 --> 00:01:26.400
+going from sunny to sunny, cloudy
+to sunny and rainy to sunny,
+
+00:01:26.400 --> 00:01:28.750
+and you get this right here.
+
+00:01:28.750 --> 00:01:31.210
+And you could do the
+same thing to figure out
+
+00:01:31.210 --> 00:01:35.300
+what the probability is of it
+being cloudy on day k plus 1
+
+00:01:35.300 --> 00:01:37.240
+or rainy on day k plus 1.
+
+00:01:37.240 --> 00:01:40.490
+ 
+
+00:01:40.490 --> 00:01:44.910
+And what you notice here is that
+this is a system of linear equations.
+
+00:01:44.910 --> 00:01:46.890
+That's a term that you
+may have heard before.
+
+00:01:46.890 --> 00:01:50.160
+And if not, I now introduce it.
+
+00:01:50.160 --> 00:01:53.600
+You'll also notice that this can be
+written as a matrix vector multiply,
+
+00:01:53.600 --> 00:01:56.130
+because this matrix vector
+multiplied with this matrix
+
+00:01:56.130 --> 00:02:00.100
+is just this times that
+plus this times that
+
+00:02:00.100 --> 00:02:04.700
+plus this times that for the first one.
+
+00:02:04.700 --> 00:02:08.860
+And that must be equal
+to that, et cetera.
+
+00:02:08.860 --> 00:02:11.450
+So, now we recognize matrix
+vector multiplication
+
+00:02:11.450 --> 00:02:17.310
+as a compact way of writing
+a system of linear equations.
+
+00:02:17.310 --> 00:02:20.250
+And then we can say, OK, well
+we could call this matrix
+
+00:02:20.250 --> 00:02:23.030
+P. That's known as
+the transition matrix.
+
+00:02:23.030 --> 00:02:26.550
+And we can call the
+vector that tells us what
+
+00:02:26.550 --> 00:02:32.870
+the state is on day k, the
+state vector, x super k.
+
+00:02:32.870 --> 00:02:39.370
+So, we have a notion of a state
+vector, x super k, the state on day k,
+
+00:02:39.370 --> 00:02:44.920
+and a transition matrix
+P. So, what we notice
+
+00:02:44.920 --> 00:02:46.880
+is that matrix vector
+multiplication is now
+
+00:02:46.880 --> 00:02:52.920
+used to compactly write a set of
+simultaneous linear equations.
+
+00:02:52.920 --> 00:02:57.320
+So, here we have a vector that tells
+us the probabilities that today it
+
+00:02:57.320 --> 00:03:00.550
+is sunny, cloudy, or rainy.
+
+00:03:00.550 --> 00:03:02.780
+Well, we can look out the
+window and see what it is.
+
+00:03:02.780 --> 00:03:04.780
+And let's say that it is cloudy.
+
+00:03:04.780 --> 00:03:07.880
+As a matter of fact, I think
+today it is cloudy here.
+
+00:03:07.880 --> 00:03:11.220
+What vector represents that?
+
+00:03:11.220 --> 00:03:14.050
+Well, our good old friend
+the unit basis vector.
+
+00:03:14.050 --> 00:03:17.160
+In this case, the second
+unit basis vector.
+
+00:03:17.160 --> 00:03:17.780
+OK.
+
+00:03:17.780 --> 00:03:20.140
+What happens if you
+ask the question, what
+
+00:03:20.140 --> 00:03:25.910
+are the probabilities of it being sunny,
+cloudy, or rainy, on day one, tomorrow,
+
+00:03:25.910 --> 00:03:28.580
+given that today it is cloudy?
+
+00:03:28.580 --> 00:03:33.310
+Well, that's a matter of doing
+this matrix times vector multiply.
+
+00:03:33.310 --> 00:03:38.320
+And if we plug in that today
+it is cloudy, then what we get
+
+00:03:38.320 --> 00:03:40.380
+is just this multiplication.
+
+00:03:40.380 --> 00:03:42.840
+But we could have
+simply said, oh, we know
+
+00:03:42.840 --> 00:03:46.070
+that when we do a matrix vector
+multiplication with a unit basis
+
+00:03:46.070 --> 00:03:50.780
+vector, we'd simply pick
+out the appropriate column.
+
+00:03:50.780 --> 00:03:51.700
+And there you have it.
+
+00:03:51.700 --> 00:03:54.410
+ 
+
+00:03:54.410 --> 00:03:57.140
+So, we shouldn't be surprised.
+
+00:03:57.140 --> 00:04:00.210
+P, the transition matrix
+times a unit basis vector
+
+00:04:00.210 --> 00:04:03.920
+picks out the appropriate column.
+
+00:04:03.920 --> 00:04:07.610
+If we now want to know what the
+probabilities will be for the day
+
+00:04:07.610 --> 00:04:12.070
+after tomorrow, all we need to
+do is take our transition matrix
+
+00:04:12.070 --> 00:04:15.700
+and multiply it times
+the vector that indicates
+
+00:04:15.700 --> 00:04:18.230
+the probabilities for tomorrow.
+
+00:04:18.230 --> 00:04:23.120
+We just calculated what that was,
+and when we multiplied it out,
+
+00:04:23.120 --> 00:04:26.400
+we got the vector of probabilities
+for the day after tomorrow.
+
+00:04:26.400 --> 00:04:30.690
+And notice that this is a lot
+easier than writing out the tree
+
+00:04:30.690 --> 00:04:33.590
+that we would have had
+to write out otherwise.
+
+00:04:33.590 --> 00:04:36.650
+What now if we want to know what
+the probabilities are for a week
+
+00:04:36.650 --> 00:04:40.810
+from now, given that today
+it's sunny, cloudy, or rainy?
+
+00:04:40.810 --> 00:04:42.599
+Well, we know how to do that now.
+
+00:04:42.599 --> 00:04:45.140
+That's a matter of doing a bunch
+of matrix vector multiplies.
+
+00:04:45.140 --> 00:04:48.280
+ 
+
+00:04:48.280 --> 00:04:50.690
+But it's a lot easier if
+we use the computer to do
+
+00:04:50.690 --> 00:04:55.070
+the heavy lifting for us, so I want
+you to now go and open up the Python
+
+00:04:55.070 --> 00:04:58.590
+notebook, predicting the
+weather for the next week.
+
+00:04:58.590 --> 00:05:00.824
+And I'll see you in the next video.
+
+00:05:00.824 --> 00:05:01.324
+ 
+

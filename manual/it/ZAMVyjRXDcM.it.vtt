@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:03.360 position:89%
+In questa lezione scopriremo lo strumento Array, il quale
+
+00:00:03.360 --> 00:00:06.130 position:80%
+viene utilizzato in 3ds Max per disporre in righe e
+
+00:00:06.130 --> 00:00:11.320 position:97%
+colonne prefissate tutti gli oggetti che desideriamo all'interno di una scena.
+
+00:00:11.320 --> 00:00:14.880 position:97%
+Andiamo a creare un box tramite pannello Create, sottopannello
+
+00:00:14.880 --> 00:00:19.520 position:75%
+Geometry, voce Standard Primitives, comando Box.
+
+00:00:19.520 --> 00:00:23.030 position:98%
+Ora massimizziamo la scena e ipotizziamo di volerlo disporre in
+
+00:00:23.030 --> 00:00:26.490 position:88%
+3 file di 3 oggetti ciascuna sia nella direzione planare
+
+00:00:26.490 --> 00:00:30.350 position:95%
+che in quella tridimensionale: ciò è possibile grazie proprio
+
+00:00:30.350 --> 00:00:32.480
+allo strumento Array.
+
+00:00:32.480 --> 00:00:37.230 position:98%
+Per iniziare questo allineamento dobbiamo posizionarci nel menù Tools e
+
+00:00:37.230 --> 00:00:39.650
+clicchiamo su Array.
+
+00:00:39.650 --> 00:00:44.220 position:98%
+Questa enorme finestra di editazione che ci compare è suddivisa in 4 parti.
+
+00:00:44.220 --> 00:00:46.680 position:70%
+La prima la vediamo subito in basso a destra,
+
+00:00:46.680 --> 00:00:49.400 position:84%
+quella della Preview, l'anteprima del risultato finale
+
+00:00:49.400 --> 00:00:52.730 position:78%
+della nostra trasformazione: basterà semplicemente
+
+00:00:52.730 --> 00:00:56.070 position:67%
+andare in Preview affinchè rimanga premuto.
+
+00:00:56.070 --> 00:00:59.680 position:89%
+Come possiamo notare di default 3ds Max impone dei valori
+
+00:00:59.680 --> 00:01:03.740 position:97%
+per quanto riguarda la trasformazione e disposizione nello spazio di
+
+00:01:03.740 --> 00:01:06.210
+questo tipo di oggetti.
+
+00:01:06.210 --> 00:01:10.130 position:95%
+3ds Max ci mette a disposizione 3 tipologie di trasformazione
+
+00:01:10.130 --> 00:01:15.090 position:88%
+che è possibile applicare a tutti gli oggetti esistenti.
+
+00:01:15.090 --> 00:01:21.100 position:98%
+In questa parte della finestra troviamo scritto Array Transformation World Coordinates,
+
+00:01:21.100 --> 00:01:25.260 position:97%
+successivamente sotto Incremental: in questa area possiamo andare ad
+
+00:01:25.260 --> 00:01:28.380 position:77%
+aumentare la distanza in X o Y dei nostri oggetti
+
+00:01:28.380 --> 00:01:31.820 position:89%
+esistenti all'interno della scena, aumentando la distanza
+
+00:01:31.820 --> 00:01:35.570 position:88%
+in X delle file orizzontali in questa direzione, proprio
+
+00:01:35.570 --> 00:01:39.100 position:59%
+com'è possibile vedere dall'anteprima.
+
+00:01:39.100 --> 00:01:41.690 position:75%
+Se invece aumentiamo la direzione in Y, ecco che
+
+00:01:41.690 --> 00:01:45.830 position:95%
+quindi otteniamo delle file regolari ma sfalsate tra di loro,
+
+00:01:45.830 --> 00:01:49.490 position:94%
+di una quantità estremamente precisa che viene poi assegnata
+
+00:01:49.490 --> 00:01:54.530 position:64%
+via via a tutte le altre file successive.
+
+00:01:54.530 --> 00:01:57.130 position:89%
+La stessa cosa la possiamo fare anche per quanto riguarda
+
+00:01:57.130 --> 00:02:00.720 position:77%
+la rotazione e per quanto riguarda la scala, vale
+
+00:02:00.720 --> 00:02:03.660 position:98%
+a dire la trasformazione delle dimensioni di ciascuno di questi
+
+00:02:03.660 --> 00:02:07.660 position:94%
+oggetti nella scena per poterli poi scalare in una direzione
+
+00:02:07.660 --> 00:02:09.650 position:69%
+piuttosto che in un'altra in modo regolare e
+
+00:02:09.650 --> 00:02:14.890 position:83%
+preciso lungo tutte le file o le colonne che vediamo.
+
+00:02:14.890 --> 00:02:18.250 position:97%
+Il tipo di oggetto può essere settato ampiamente poichè possiamo
+
+00:02:18.250 --> 00:02:21.990 position:64%
+impostare sia una copia, sia un'istanza e
+
+00:02:21.990 --> 00:02:25.200 position:77%
+quindi dipendente da un'oggetto madre in modo che
+
+00:02:25.200 --> 00:02:28.960 position:98%
+tutti gli oggetti figli subiscano le stesse e identiche modifiche
+
+00:02:28.960 --> 00:02:32.300 position:70%
+a cui è assoggettato l'elemento madre, oppure
+
+00:02:32.300 --> 00:02:35.630 position:92%
+ancora una referenza, oggetti figli generati da un elemento
+
+00:02:35.630 --> 00:02:39.210 position:98%
+madre che però potranno essere modificati a piacimento nelle loro
+
+00:02:39.210 --> 00:02:43.220 position:77%
+sottocaratteristiche ma non in quelle principali.
+
+00:02:43.220 --> 00:02:46.120 position:83%
+Un esempio pratico è quello di decidere la lunghezza,
+
+00:02:46.120 --> 00:02:48.960 position:81%
+la larghezza e l'altezza di questo box trasferendola
+
+00:02:48.960 --> 00:02:51.130 position:56%
+a tutti gli altri ma, ad un altro di
+
+00:02:51.130 --> 00:02:56.810 position:98%
+questi oggetti figli, posso assegnargli un modificatore separato soltanto
+
+00:02:56.810 --> 00:02:59.840
+dedicato a questo oggetto figlio.
+
+00:02:59.840 --> 00:03:03.200 position:97%
+Nella terza parte dedicata alle Array Dimensions possiamo andare a
+
+00:03:03.200 --> 00:03:06.080 position:67%
+decidere se avere un conteggio di 5 solo in
+
+00:03:06.080 --> 00:03:09.550 position:75%
+un'unica direzione e quindi un'unica dimensione,
+
+00:03:09.550 --> 00:03:13.790 position:97%
+oppure aumentare ed avere questo conteggio e quindi aumentare le
+
+00:03:13.790 --> 00:03:18.060 position:94%
+file e le colonne degli oggetti nelle due dimensioni planari
+
+00:03:18.060 --> 00:03:21.100 position:86%
+o ancora averne, aumentandone il conteggio, anche nella
+
+00:03:21.100 --> 00:03:24.160 position:92%
+terza dimensione, quindi nello sviluppo in altezza, proprio
+
+00:03:24.160 --> 00:03:27.340 position:61%
+da come possiamo vedere in questo caso.
+
+00:03:27.340 --> 00:03:30.800 position:84%
+Possiamo utilizzare anche i valori di Incremental Row.
+
+00:03:30.800 --> 00:03:33.880 position:95%
+Sia chiaro che in 2D dovremo assegnare un incremento soltanto
+
+00:03:33.880 --> 00:03:39.350 position:91%
+alla Y per cercare di distanziarli lungo questa direzione.
+
+00:03:39.350 --> 00:03:43.160 position:97%
+Per quanto riguarda il 3D dovremo distanziarli nella direzione Z
+
+00:03:43.160 --> 00:03:46.370 position:97%
+ottenendo uno sviluppo verticale, proprio come notiamo da questo
+
+00:03:46.370 --> 00:03:49.320
+valore in questi parametri.
+
+00:03:49.320 --> 00:03:51.960 position:91%
+E' possibile resettare tutti i parametri e ricominciare da
+
+00:03:51.960 --> 00:03:55.390 position:91%
+capo il setting del nostro Array, magari semplificandolo e
+
+00:03:55.390 --> 00:03:58.000
+quindi lavorando più velocemente.
+
+00:03:58.000 --> 00:04:01.030 position:88%
+Una volta definita la trasformazione e nel caso fosse di
+
+00:04:01.030 --> 00:04:05.920 position:98%
+nostro gradimento possiamo confermare premendo semplicemente il tasto OK,
+
+00:04:05.920 --> 00:04:09.540 position:97%
+ottenendo quindi il risultato sperato: tanti oggetti disposti su
+
+00:04:09.540 --> 00:04:12.960 position:95%
+file o colonne regolari sia nelle due dimensioni spaziali che
+
+00:04:12.960 --> 00:04:16.890 position:83%
+nelle 3 dimensioni, proprio come abbiamo visto prima.
+
+00:04:16.890 --> 00:04:20.430 position:97%
+Questo tipo di editazione può essere solo ed esclusivamente visualizzata
+
+00:04:20.430 --> 00:04:23.680 position:72%
+con il pannello Array in vista sopra la scena.
+
+00:04:23.680 --> 00:04:26.780 position:94%
+In sostanza durante la trasformazione, con il pannello Array
+
+00:04:26.780 --> 00:04:30.030 position:77%
+aperto, non posso intervenire nella scena, né per
+
+00:04:30.030 --> 00:04:33.090 position:92%
+zoomarla ne tanto meno per andare a selezionare gli oggetti
+
+00:04:33.090 --> 00:04:36.500
+che sono stati sottoposti ad Array.
+
+00:04:36.500 --> 00:04:42.850 position:97%
+Ciò mi sarà possibile solo quando avrò creato il mio Array finale.
+

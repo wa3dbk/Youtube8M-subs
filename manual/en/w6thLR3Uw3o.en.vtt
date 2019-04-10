@@ -1,0 +1,528 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:11.150 --> 00:00:15.750
+So far we have seen the geometric
+construction that allows us to find the 
+
+00:00:15.750 --> 00:00:17.899
+square roots of natural numbers
+
+00:00:17.899 --> 00:00:20.069
+but it was a recursive process
+
+00:00:20.069 --> 00:00:24.289
+that is to know the square root of a given natural number it was necessary to
+
+00:00:24.289 --> 00:00:27.319
+know the square root of the previous one.
+
+00:00:27.319 --> 00:00:29.110
+Now we're going to look at
+
+00:00:29.110 --> 00:00:31.970
+another construction which is more powerful and
+
+00:00:31.970 --> 00:00:33.650
+direct as well
+
+00:00:33.650 --> 00:00:35.320
+So it will allow us to find
+
+00:00:35.320 --> 00:00:36.650
+in one step
+
+00:00:36.650 --> 00:00:37.970
+the square root of
+
+00:00:37.970 --> 00:00:39.810
+an arbitrary number
+
+00:00:39.810 --> 00:00:41.860
+say 3.14
+
+00:00:41.860 --> 00:00:46.480
+this is based on the geometric property
+of similarity
+
+00:00:46.480 --> 00:00:48.100
+Similarity in is nothing but
+
+00:00:48.100 --> 00:00:48.900
+scaling
+
+00:00:48.900 --> 00:00:53.110
+either scaling down or scaling up of a geometric figure. For example
+
+00:00:53.110 --> 00:00:55.350
+here we have a triangle
+
+00:00:55.350 --> 00:00:57.170
+and we have scaled it up
+
+00:00:57.170 --> 00:01:00.470
+by the factor say 1.5
+
+00:01:00.470 --> 00:01:01.949
+and then once again
+
+00:01:01.949 --> 00:01:03.170
+we are going to scale up
+
+00:01:03.170 --> 00:01:06.980
+by the same factors to get this third triangle
+
+00:01:06.980 --> 00:01:11.760
+Now if we take the corresponding lengths
+of these three triangles - say these green
+
+00:01:11.760 --> 00:01:15.510
+lengths: 16, 24 and 36
+
+00:01:15.510 --> 00:01:19.170
+then they bear the same ratio
+
+00:01:19.170 --> 00:01:20.630
+and therefore they are in
+
+00:01:20.630 --> 00:01:24.079
+proportion. So to say 16:24
+
+00:01:24.079 --> 00:01:26.080
+is 24:36
+
+00:01:26.080 --> 00:01:27.560
+16:24 = 24:36
+
+00:01:27.560 --> 00:01:31.770
+such triplet of numbers is said to be in geometric progression
+
+00:01:31.770 --> 00:01:33.810
+and the middle number
+
+00:01:33.810 --> 00:01:35.400
+can be had
+
+00:01:35.400 --> 00:01:38.070
+as the square root (as shown here)
+
+00:01:38.070 --> 00:01:42.679
+of the product of the first and last
+number. So 16 (the first number)
+
+00:01:42.679 --> 00:01:45.160
+multiplied by 36 (the last number)
+
+00:01:45.160 --> 00:01:45.700
+will give us
+
+00:01:45.700 --> 00:01:48.290
+the squared of 24 (the middle number)
+
+00:01:48.290 --> 00:01:49.880
+and that's the route
+
+00:01:49.880 --> 00:01:52.640
+we can take to find square roots!
+
+00:01:52.640 --> 00:01:56.289
+Now such triplets in geometric progression can be had
+
+00:01:56.289 --> 00:01:58.590
+using right angle triangles
+
+00:01:58.590 --> 00:02:00.060
+so we will start with
+
+00:02:00.060 --> 00:02:01.640
+this one over here
+
+00:02:01.640 --> 00:02:04.760
+and we are going to rotate it
+
+00:02:04.760 --> 00:02:05.930
+so that this
+
+00:02:05.930 --> 00:02:07.500
+base of the triangle
+
+00:02:07.500 --> 00:02:09.839
+comes and aligns with the 
+
+00:02:09.839 --> 00:02:11.069
+height of it
+
+00:02:11.069 --> 00:02:12.560
+Then we are going to scale
+
+00:02:12.560 --> 00:02:13.389
+this copy
+
+00:02:13.389 --> 00:02:15.339
+that we just made
+
+00:02:15.339 --> 00:02:19.319
+about this point so that height of the copy
+
+00:02:19.319 --> 00:02:21.919
+becomes the same as the original
+
+00:02:21.919 --> 00:02:22.900
+So now we have
+
+00:02:22.900 --> 00:02:26.200
+two right angle triangles which are necessarily similar because they are just
+
+00:02:26.200 --> 00:02:28.709
+rotated and scaled 
+
+00:02:28.709 --> 00:02:31.709
+and they have the same height
+
+00:02:31.709 --> 00:02:33.449
+Now the base of 
+
+00:02:33.449 --> 00:02:37.569
+this triangle, then this height
+
+00:02:37.569 --> 00:02:39.749
+and the base of the original triangle
+
+00:02:39.749 --> 00:02:40.749
+will be
+
+00:02:40.749 --> 00:02:43.829
+in geometric progression
+
+00:02:43.829 --> 00:02:47.009
+Because this base upon height
+
+00:02:47.009 --> 00:02:52.149
+will bear the same ratio as this height upon this base
+
+00:02:52.149 --> 00:02:55.309
+and therefore the product of these two
+bases
+
+00:02:55.309 --> 00:02:58.919
+will give us the square of this height
+
+00:02:58.919 --> 00:03:02.359
+Now how does that help us in finding the square root?
+
+00:03:02.359 --> 00:03:04.319
+imagine a situation where
+
+00:03:04.319 --> 00:03:08.409
+one of of these bases - say this one - is equal to unity
+
+00:03:08.409 --> 00:03:10.969
+and in that case, the height
+
+00:03:10.969 --> 00:03:15.680
+will be the square root of this base! 
+Let's see how -
+
+00:03:15.680 --> 00:03:20.180
+Suppose we want to find the square root of say 3.14 So i will draw a 
+
+00:03:20.180 --> 00:03:21.489
+segment of 
+
+00:03:21.489 --> 00:03:23.309
+length 3.14 units
+
+00:03:23.309 --> 00:03:26.299
+then extended it with a co-linear segment of 
+
+00:03:26.299 --> 00:03:27.540
+one unit
+
+00:03:27.540 --> 00:03:28.320
+these are
+
+00:03:28.320 --> 00:03:29.919
+the two bases
+
+00:03:29.919 --> 00:03:30.940
+one is unity
+
+00:03:30.940 --> 00:03:33.749
+and one if a number whose square root we want to find
+
+00:03:33.749 --> 00:03:35.729
+Now we want to construct this 
+
+00:03:35.729 --> 00:03:36.459
+larger
+
+00:03:36.459 --> 00:03:41.879
+right angled triangle whose hypotenuse is this compound segment.
+
+00:03:41.879 --> 00:03:45.540
+A quick way of constructing right angle triangles with given hypotenuse
+
+00:03:45.540 --> 00:03:48.349
+is to use that hypotenuse as
+
+00:03:48.349 --> 00:03:50.870
+the diameter of a semi circle
+
+00:03:50.870 --> 00:03:55.199
+because the included angle in a semi circle is ninety degrees
+
+00:03:55.199 --> 00:03:56.780
+then from their junction
+
+00:03:56.780 --> 00:04:01.529
+we'll be drawing this line which is going
+to contain this height here
+
+00:04:01.529 --> 00:04:02.889
+and then trim it
+
+00:04:02.889 --> 00:04:05.019
+up to the circle
+
+00:04:05.019 --> 00:04:06.650
+and we are actually done!
+
+00:04:06.650 --> 00:04:10.729
+but just to make it look like our previous figure I'm going to construct
+
+00:04:10.729 --> 00:04:12.329
+these
+
+00:04:12.329 --> 00:04:13.670
+two lines
+
+00:04:13.670 --> 00:04:16.249
+and under the circumstances
+
+00:04:16.249 --> 00:04:19.459
+we can get the square root of this red length
+
+00:04:19.459 --> 00:04:21.919
+as this yellow length. Let's actually measure it
+
+00:04:21.919 --> 00:04:22.590
+this is
+
+00:04:22.590 --> 00:04:25.319
+3.14 because we plotted it so
+
+00:04:25.319 --> 00:04:26.199
+while this
+
+00:04:26.199 --> 00:04:28.840
+is 1.772
+
+00:04:28.840 --> 00:04:32.800
+this should be the square root. Let's check if it is indeed so
+
+00:04:32.800 --> 00:04:36.280
+Punch in 1.7720
+
+00:04:36.280 --> 00:04:37.410
+square of that
+
+00:04:37.410 --> 00:04:40.039
+is giving us 3.1399
+
+00:04:40.039 --> 00:04:43.740
+almost 3.14
+
+00:04:43.740 --> 00:04:48.569
+So this is the way we can obtain square roots.
+Now these three triangles that we constructed,
+
+00:04:48.569 --> 00:04:52.029
+have a strange connection with an
+interesting
+
+00:04:52.029 --> 00:04:53.300
+ancient tool called the Arbelos
+
+00:04:53.300 --> 00:04:55.640
+An Arbelos is
+
+00:04:55.640 --> 00:04:57.629
+a cobbler's knife
+
+00:04:57.629 --> 00:05:00.500
+and if you look at its blade
+
+00:05:00.500 --> 00:05:03.639
+you'd realize it is made up of three semi circles really. 
+
+00:05:03.639 --> 00:05:05.939
+So there is this large one
+
+00:05:05.939 --> 00:05:06.870
+and from which
+
+00:05:06.870 --> 00:05:12.319
+these two smaller semi-circles of half the size are subtracted
+
+00:05:12.319 --> 00:05:16.310
+When Archimedes saw this he was
+absolutely fascinated
+
+00:05:16.310 --> 00:05:17.940
+and he quickly did
+
+00:05:17.940 --> 00:05:21.679
+two things that mathematicians like to
+do
+
+00:05:21.679 --> 00:05:24.440
+1. He generalized this shape
+
+00:05:24.440 --> 00:05:28.800
+by making these two smaller semicircles of unequal size
+
+00:05:28.800 --> 00:05:29.810
+and
+
+00:05:29.810 --> 00:05:34.340
+2. He started thinking about propertys of the shape
+
+00:05:34.340 --> 00:05:36.199
+like its area
+
+00:05:36.199 --> 00:05:42.539
+Here the area is shown in blue and this
+is how the Arbelos is related to the triangles
+
+00:05:42.539 --> 00:05:44.519
+that we have constructed
+
+00:05:44.519 --> 00:05:46.560
+Archimedes came up with
+
+00:05:46.560 --> 00:05:51.829
+a very impressive statement. He said that if
+you drawl a circle
+
+00:05:51.829 --> 00:05:55.800
+whose diameter is given by this height
+
+00:05:55.800 --> 00:06:00.939
+then the area of this circle is equal to the area of this Arbelos.
+
+00:06:00.939 --> 00:06:02.559
+Let's see how her proved that
+
+00:06:02.559 --> 00:06:06.020
+We've already seen that area of a geometric figure
+
+00:06:06.020 --> 00:06:09.759
+is proportional to any of its linear dimensions
+
+00:06:09.759 --> 00:06:14.050
+so we can express the area of this larger semi-circle
+
+00:06:14.050 --> 00:06:18.569
+in terms of its diameter (a + c) squared
+
+00:06:18.569 --> 00:06:22.190
+of course multiplied by some constant factor which will filter out because
+
+00:06:22.190 --> 00:06:25.479
+it's going to be there for all our expressions
+
+00:06:25.479 --> 00:06:29.289
+So this is the area of the larger semi-circle
+
+00:06:29.289 --> 00:06:31.199
+from it let us subtract this
+
+00:06:31.199 --> 00:06:33.279
+semi-circle of diameter (a)
+
+00:06:33.279 --> 00:06:36.379
+soI'll subtract (a) squared
+
+00:06:36.379 --> 00:06:37.770
+Then the second semi-circle
+
+00:06:37.770 --> 00:06:40.550
+i'm going to subtract so a minus (c) squared
+
+00:06:40.550 --> 00:06:45.029
+Now algebraically speaking this is the
+expansion of
+
+00:06:45.029 --> 00:06:47.649
+binomial (a + c) squared
+
+00:06:47.649 --> 00:06:50.580
+So if you subtract a squared and c squared from that
+
+00:06:50.580 --> 00:06:52.039
+you'd be left with only
+
+00:06:52.039 --> 00:06:54.839
+2 x a.c
+
+00:06:54.839 --> 00:06:56.439
+this a x c
+
+00:06:56.439 --> 00:06:58.639
+is the product of these two
+
+00:06:58.639 --> 00:06:59.339
+bases
+
+00:06:59.339 --> 00:07:02.060
+which we are already shown to be the square of 
+
+00:07:02.060 --> 00:07:03.199
+this height
+
+00:07:03.199 --> 00:07:05.280
+so this expression 2.a.c
+
+00:07:05.280 --> 00:07:08.709
+will be equal to
+
+00:07:08.709 --> 00:07:11.129
+two b squared. And this b squared
+
+00:07:11.129 --> 00:07:12.659
+will be the area of 
+
+00:07:12.659 --> 00:07:16.099
+this green semi-circle because (b) is its diameter
+
+00:07:16.099 --> 00:07:17.449
+and there are two of them
+
+00:07:17.449 --> 00:07:18.490
+so that makes
+
+00:07:18.490 --> 00:07:19.520
+the whole of
+
+00:07:19.520 --> 00:07:20.960
+this green circle
+
+00:07:20.960 --> 00:07:22.869
+and thus Archimedes showed
+
+00:07:22.869 --> 00:07:25.809
+that the area of this Arbelos
+
+00:07:25.809 --> 00:07:27.310
+is equal to the area 
+
+00:07:27.310 --> 00:07:29.240
+of this circle
+
+00:07:29.240 --> 00:07:30.550
+This is called
+
+00:07:30.550 --> 00:07:30.800
+Archimedes's Lemma
+

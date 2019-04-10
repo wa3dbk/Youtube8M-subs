@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.120 --> 00:00:04.670
+Auch wenn man mit den grundlegenden Bauteilen
+der Redstone-Technik schon viel machen kann,
+
+00:00:04.670 --> 00:00:08.910
+erhält man bei Kombination der Elemente noch
+einige weitere nützliche Schaltungen, die
+
+00:00:08.910 --> 00:00:10.469
+man unbedingt kennen sollte.
+
+00:00:10.469 --> 00:00:12.790
+Nummer 1 ist der T-Flip-Flop.
+
+00:00:12.790 --> 00:00:16.840
+Drückt man normalerweise einen Knopf, wird
+beispielsweise diese Lampe nur für ein paar
+
+00:00:16.840 --> 00:00:19.540
+Sekunden bepowert und geht danach wieder aus.
+
+00:00:19.540 --> 00:00:23.380
+Drücke ich jedoch diesen Knopf zum ersten
+Mal, geht die Lampe an und bleibt es auch
+
+00:00:23.380 --> 00:00:25.910
+solange, bis ich den Knopf ein weiteres Mal
+betätige.
+
+00:00:25.910 --> 00:00:30.151
+Wichtig ist, dass der Repeater hinter dem
+Knopf genau zwei Ticks ausgefahren wird, da
+
+00:00:30.151 --> 00:00:31.970
+ansonsten das Timing nicht mehr stimmt.
+
+00:00:31.970 --> 00:00:36.770
+Man braucht man einen T-Flip-Flop u.a., falls
+Minecarts Dinge über eine Detectorrail dauerhaft
+
+00:00:36.770 --> 00:00:37.929
+aktivieren sollen.
+
+00:00:37.929 --> 00:00:42.050
+Ebenfalls praktisch ist die Schaltung wenn
+ich die Beleuchtung meines Hauses von verschiedenen
+
+00:00:42.050 --> 00:00:43.900
+Stellen aus an- und ausschalten möchte.
+
+00:00:43.900 --> 00:00:47.089
+Dafür muss ich einfach nur weitere Redstonekabel
+zum Block leiten.
+
+00:00:47.089 --> 00:00:52.130
+Möchte man das Signal eines Knopfes verlängern,
+etwa, um eine Tür länger offen zu lassen,
+
+00:00:52.130 --> 00:00:56.109
+kann man entweder solche immer länger werdende
+Repeaterketten verwenden oder einfach zu Beginn
+
+00:00:56.109 --> 00:01:00.120
+einen T-Flip-Flop bepowern und diesen mit
+beliebig viele Repeatern Verzögerung ein
+
+00:01:00.120 --> 00:01:01.379
+zweites Mal ansteuern.
+
+00:01:01.379 --> 00:01:06.520
+Nach oben transportieren kann man Redstonesignale
+zum einen durch solche Wendeltreppen, platzsparender
+
+00:01:06.520 --> 00:01:09.120
+geht es aber auch mit invertierten Redstone-Fackeln.
+
+00:01:09.120 --> 00:01:12.230
+Daneben gibt es außerdem die grundlegenden
+Logikgatter in Minecraft.
+
+00:01:12.230 --> 00:01:17.000
+Die Lampe dieses OR-Gatters leuchtet, sobald
+mindestens ein Schalter aktiviert wurde.
+
+00:01:17.000 --> 00:01:21.470
+Beim NOR-Gatter wird das Signal invertiert,
+sodass die Lampe nicht mehr leuchtet, sobald
+
+00:01:21.470 --> 00:01:23.250
+mindestens ein Schalter aktiviert wurde.
+
+00:01:23.250 --> 00:01:29.150
+Das AND-Gatter bringt die Lampe erst zum leuchten,
+wenn beide Inputs aktiviert sind und das XOR-Gatter
+
+00:01:29.150 --> 00:01:32.080
+nur wenn genau einer der beiden Schalter betätigt
+wurde.
+
+00:01:32.080 --> 00:01:36.140
+Wenn man ein Ereignis starten will, genau
+dann wenn ein Redstone-Signal eine exakte
+
+00:01:36.140 --> 00:01:41.000
+Länge hat, etwa bei einem bestimmten Kistenfüllstand
+oder einer Uhrzeit vom Tageslichtsensor, benutzt
+
+00:01:41.000 --> 00:01:42.320
+man diese Schaltung.
+
+00:01:42.320 --> 00:01:47.350
+Erreicht das Redstone-Signal die gewünschte
+Länge, wird der Repeater aktiviert und deaktiviert
+
+00:01:47.350 --> 00:01:51.780
+damit die untere Redstone-Fackel, die wiederum
+grünes Licht für die Redstone-Fackel am
+
+00:01:51.780 --> 00:01:52.780
+Output gibt.
+
+00:01:52.780 --> 00:01:56.160
+Ist das Redstone-Signal allerdings stärker
+als gewünscht, wird auch die Redstone-Leitung
+
+00:01:56.160 --> 00:02:00.780
+einen Block weiter oben bepowert, sodass der
+angeschlossene Repeater die Fackel wieder
+
+00:02:00.780 --> 00:02:00.920
+deaktiviert.
+

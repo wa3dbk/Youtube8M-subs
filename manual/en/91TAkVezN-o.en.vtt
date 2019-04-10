@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.660 --> 00:00:10.000
+As we have seen in our previous video, 
+
+00:00:10.000 --> 00:00:15.533
+Triggers are a method for executing WinAutomation Jobs automatically based on different conditions.
+
+00:00:15.533 --> 00:00:16.266
+ 
+
+00:00:16.266 --> 00:00:20.666
+We have already examined the Schedule, Recurring and Idle Monitor  triggers, 
+
+00:00:20.666 --> 00:00:23.933
+and we can now proceed to the remaining available trigger types.
+
+00:00:24.533 --> 00:00:27.800
+In order for us to execute a job by pressing a hotkey, 
+
+00:00:27.800 --> 00:00:31.766
+we can use the Keyboard Monitor Trigger and attach it to the job. 
+
+00:00:32.333 --> 00:00:34.933
+For example we create a dummy Job… 
+
+00:00:37.400 --> 00:00:39.633
+click on the “Edit Triggers” button, 
+
+00:00:39.633 --> 00:00:41.660
+“Add New Trigger”
+
+00:00:41.660 --> 00:00:42.933
+and select the keyboard trigger. 
+
+00:00:43.666 --> 00:00:46.433
+Let’s assign the Control-G hotkey to this Job. 
+
+00:00:47.000 --> 00:00:47.500
+OK. 
+
+00:00:47.733 --> 00:00:50.600
+Now whenever we press Control-G the Job will launch. 
+
+00:00:50.600 --> 00:00:55.330
+This way you can assign different hotkeys to your everyday jobs for handy access.
+
+00:00:56.533 --> 00:01:01.433
+Should you want to execute a Job automatically when a specific file is created, modified or deleted, 
+
+00:01:01.433 --> 00:01:04.200
+you can use the File Monitor Trigger. 
+
+00:01:04.200 --> 00:01:08.900
+Let’s say we want to automatically extract any zip file added into a specific folder. 
+
+00:01:09.400 --> 00:01:11.766
+First thing, we create an empty Job... 
+
+00:01:12.733 --> 00:01:15.433
+and attach a “File Monitor Trigger” to it. 
+
+00:01:20.100 --> 00:01:23.700
+We set the folder we want to monitor, for any zip file 
+
+00:01:23.700 --> 00:01:28.266
+and we choose this trigger to initiate only when a new file is being created. 
+
+00:01:28.266 --> 00:01:29.166
+OK.
+
+00:01:30.133 --> 00:01:32.660
+We can now go back to building our Job. 
+
+00:01:32.660 --> 00:01:35.366
+But how do we know the name of the file that was added to our folder? 
+
+00:01:35.366 --> 00:01:37.766
+This is where Trigger Variables come in to play. 
+
+00:01:37.766 --> 00:01:41.366
+There is a set of predefined variables in WinAutomation, 
+
+00:01:41.366 --> 00:01:45.133
+used by some triggers that need to convey information to the Job they launch. 
+
+00:01:45.133 --> 00:01:53.233
+The “File Monitor Trigger” is an example of such, and in the Variables Manager window we can see a list of the variables that occupy it. 
+
+00:01:53.233 --> 00:02:00.700
+As we can see in the description the ones needed to build our Job are the “FileTriggerFileName” and “FileTriggerFilePath”.
+
+00:02:01.133 --> 00:02:06.666
+In our designer we add the first action that creates a folder to extract the zip file contents into.
+
+00:02:07.133 --> 00:02:11.866
+We want the name of the folder to be the name of the zip file followed by the word "Unzipped",
+
+00:02:11.866 --> 00:02:12.733
+ 
+
+00:02:12.733 --> 00:02:16.200
+so here we enter the “FileTriggerFileName” variable.
+
+00:02:18.233 --> 00:02:20.633
+We add an “Unzip Files” action 
+
+00:02:22.200 --> 00:02:28.330
+and for the path of the zip file, we again use the trigger variable:  “FileTriggerFilePath”. 
+
+00:02:28.330 --> 00:02:30.933
+This is the full path of the file that triggered our Job. 
+
+00:02:30.933 --> 00:02:36.200
+We want to unzip the contents into the “NewFolder” created by the previous action, 
+
+00:02:37.266 --> 00:02:38.100
+OK,
+
+00:02:38.100 --> 00:02:41.500
+and finally we need to delete the original zip file. 
+
+00:02:41.500 --> 00:02:49.733
+We add a “Delete Files” action and again use the “FileTriggerFilePath” variable as the path of the file that we need to delete.
+
+00:02:50.633 --> 00:02:55.466
+To see our Job in action we can simply add a zip file to the folder that we are monitoring. 
+
+00:02:55.466 --> 00:03:00.833
+We see that as soon as the file is copied, without any action on our part the Job is launched, 
+
+00:03:00.833 --> 00:03:02.600
+a subfolder is created 
+
+00:03:02.600 --> 00:03:04.633
+and the file is extracted and deleted, 
+
+00:03:04.633 --> 00:03:07.833
+all this with the help of the “File Monitor” Trigger.
+
+00:03:10.833 --> 00:03:12.500
+Similar to this trigger is the “Event Log Monitor” trigger, 
+
+00:03:12.500 --> 00:03:18.433
+only that in this case, we do not monitor files, but rather the events are being recorded in the Windows Event Log. 
+
+00:03:19.400 --> 00:03:24.566
+And based on our settings we can initiate a job when one or more specific events occur.
+
+00:03:25.700 --> 00:03:29.333
+We can choose the Event log name or the specific type of the event,
+
+00:03:29.333 --> 00:03:31.600
+specify its id and source 
+
+00:03:31.600 --> 00:03:34.330
+or monitor the message the event contains.
+
+00:03:34.800 --> 00:03:39.900
+The Windows event log is a rich source of information related to what is happening on the computer. 
+
+00:03:39.900 --> 00:03:41.533
+By monitoring the event 
+
+00:03:41.533 --> 00:03:45.330
+we can have jobs running automatically when for instance, 
+
+00:03:45.330 --> 00:03:47.866
+our antivirus application identifies a threat 
+
+00:03:47.866 --> 00:03:50.000
+or an error occurs on a hard disc 
+
+00:03:50.000 --> 00:03:52.966
+or a user attempts to login unsuccessfully 
+
+00:03:52.966 --> 00:03:54.466
+or other similar cases.
+
+00:03:55.633 --> 00:03:59.133
+Another trigger worth mentioning is the Process Monitor Trigger,
+
+00:03:59.133 --> 00:04:03.433
+where one can fire a job as soon as a specific application starts, 
+
+00:04:03.433 --> 00:04:04.766
+or terminates.
+
+00:04:06.133 --> 00:04:09.000
+Same applies for the Service monitor trigger only that in this Trigger, 
+
+00:04:09.000 --> 00:04:13.833
+Windows Services are being monitored for changes, such as start, stop or pause. 
+
+00:04:13.833 --> 00:04:19.233
+This way we can have WinAutomation monitor the status and responsiveness of our Windows Services 
+
+00:04:19.233 --> 00:04:23.133
+and get notified or have some actions performed when an important service goes down.
+
+00:04:24.500 --> 00:04:27.666
+The Ping Trigger is mainly used for monitoring server uptime. 
+
+00:04:27.666 --> 00:04:31.666
+This trigger sends a ping message to a server at predefined intervals 
+
+00:04:31.666 --> 00:04:35.733
+and the first time the remote server fails to respond within a certain timeout,
+
+00:04:35.733 --> 00:04:37.700
+the trigger runs the associated Job. 
+
+00:04:37.700 --> 00:04:40.433
+It only initiates at the first failed response, 
+
+00:04:40.433 --> 00:04:43.333
+but keeps pinging until the server becomes responsive again. 
+
+00:04:43.866 --> 00:04:47.533
+The Job will be launched again the next time this server fails to respond,
+
+00:04:47.533 --> 00:04:49.866
+for example one per downtime incident. 
+
+00:04:49.866 --> 00:04:54.833
+All you have to do is type in the remote server address and how often the check should be performed.
+
+00:04:56.233 --> 00:04:58.566
+This concludes our presentation of triggers, 
+
+00:04:58.566 --> 00:05:00.200
+you can check out our next video, 
+
+00:05:00.200 --> 00:05:06.433
+where we’ll talk about loops and their significance when creating a job that requires repeating the same actions multiple times.
+
+00:05:06.633 --> 00:05:07.533
+Thank you for watching!
+

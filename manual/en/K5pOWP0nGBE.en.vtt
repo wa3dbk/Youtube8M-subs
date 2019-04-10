@@ -1,0 +1,296 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.450 --> 00:00:10.179
+Hello, everybody. We just ran a Dragon Tattoo
+themed puzzle, which started out as the 24-character
+
+00:00:10.179 --> 00:00:12.019
+string which you see here.
+
+00:00:12.019 --> 00:00:17.190
+Now, lots of you asked us to show you how
+to solve it. So, here you are.
+
+00:00:17.190 --> 00:00:23.400
+The text looks a bit like base64, except that
+the equals sign should be at the end.
+
+00:00:23.400 --> 00:00:27.940
+So the first thing we'll do: we're going to
+push the puzzle text through the reverse command.
+
+00:00:27.940 --> 00:00:29.540
+Now that looks a bit better.
+
+00:00:29.540 --> 00:00:32.160
+Now we'll base64-decode it.
+
+00:00:32.160 --> 00:00:36.090
+And now we've got something that looks a bit
+like scrambled text.
+
+00:00:36.090 --> 00:00:42.110
+And the de facto standard for casual text
+scrambling online is a thing called "rot13",
+
+00:00:42.110 --> 00:00:46.310
+where you shift each letter forward or back
+by thirteen characters - half the alphabet.
+
+00:00:46.310 --> 00:00:50.810
+So we'll use the tr, the "translate", command,
+and we'll do that very shift-by-13-characters.
+
+00:00:50.810 --> 00:00:54.960
+And bingo! We've got almost a URL.
+
+00:00:54.960 --> 00:00:59.670
+One last little tweak and we'll make that
+dash into a slash, and now we're there.
+
+00:00:59.670 --> 00:01:01.829
+Sophos dot com forward-slash tattoo.
+
+00:01:01.829 --> 00:01:04.220
+So, if we visit that URL, well...
+
+00:01:04.220 --> 00:01:09.329
+Now, of course, you get a "sorry, the contest
+is over" page, but you'll see that the link
+
+00:01:09.329 --> 00:01:12.469
+to the second stage of the puzzle is still
+there.
+
+00:01:12.469 --> 00:01:15.180
+It's a text URL. Let's open it...
+
+00:01:15.180 --> 00:01:20.799
+The first 20 lines are some important advice
+from The G with the D T. That's "The Girl
+
+00:01:20.799 --> 00:01:22.389
+with the Dragon Tattoo".
+
+00:01:22.389 --> 00:01:27.319
+And the bottom 20 lines are her ASCII-art
+signature. So it looks as though that's where
+
+00:01:27.319 --> 00:01:30.920
+the data's going to be hidden, and that's
+the bit I'm going to save.
+
+00:01:30.920 --> 00:01:32.479
+So here we go for Stage Two.
+
+00:01:32.479 --> 00:01:40.700
+There's our text. And those five-oh four-Bs
+should stick out at you. 504B in hex is PK
+
+00:01:40.700 --> 00:01:48.139
+in ASCII; PK stands for Phil Katz; Phil Katz
+invented PKZip; so PK is the magic marker
+
+00:01:48.139 --> 00:01:50.529
+for the headers and footers of ZIP files.
+
+00:01:50.529 --> 00:01:56.020
+So it's a good guess that this is supposed
+to be hexadecimal only. So, we'll use sed,
+
+00:01:56.020 --> 00:01:59.200
+and we'll just strip out any non-hex characters.
+
+00:01:59.200 --> 00:02:01.950
+There you go: that looks a lot like a ZIP
+file.
+
+00:02:01.950 --> 00:02:08.440
+So now let's just string everything onto one
+line and use xxd to do the decoding into binary.
+
+00:02:08.440 --> 00:02:12.209
+And bingo! There's a filename you can see
+inside the ZIP. It's actually there twice
+
+00:02:12.209 --> 00:02:18.010
+- once just before the data, and once at the
+end in what's called the PKZip Central Directory.
+
+00:02:18.010 --> 00:02:22.890
+Now, it looks an image: it ends "dot GIF".
+And remember that filename, because it's a
+
+00:02:22.890 --> 00:02:24.459
+a hint for later.
+
+00:02:24.459 --> 00:02:27.209
+So let's unzip the data and see what we get.
+
+00:02:27.209 --> 00:02:32.159
+Right. Ah! It's encrypted. And, if you remember,
+the instructions from The Girl With the Dragon
+
+00:02:32.159 --> 00:02:37.069
+Tattoo said, "Use the cipher name from Stage
+One as the password."
+
+00:02:37.069 --> 00:02:39.420
+So that's going to be "rot13"
+
+00:02:39.420 --> 00:02:45.340
+Then we extract it and, look! That's the raw
+GIF data, and it includes an interesting image
+
+00:02:45.340 --> 00:02:48.879
+comment, namely, "Since when was pink a shade
+of gray?"
+
+00:02:48.879 --> 00:02:53.250
+Now, quite a lot of you thought that was the
+final answer. It's not. It's just a hint;
+
+00:02:53.250 --> 00:02:56.450
+that's why it had the question mark. And we'll
+see what it means in a moment.
+
+00:02:56.450 --> 00:03:00.620
+In fact, let's re-decode the image, and this
+time, we're going to display it.
+
+00:03:00.620 --> 00:03:04.189
+It looked pretty small, didn't it, so I'm
+going to scale it up six-fold...
+
+00:03:04.189 --> 00:03:07.480
+And there you have it. A pink rectangle.
+
+00:03:07.480 --> 00:03:12.341
+Well, we need to know more about the file.
+So now I'll open it in binary-mode "Vi", so
+
+00:03:12.341 --> 00:03:15.150
+we can actually have a peek inside.
+
+00:03:15.150 --> 00:03:20.970
+And there at the start you see a great big
+blob of Ctrl-Ats, that's NUL, or zero. That's
+
+00:03:20.970 --> 00:03:26.890
+the colour palette of the GIF file, and zero-zero-zero
+is the RGB code for black.
+
+00:03:26.890 --> 00:03:31.909
+So, almost all of the colours in the image
+are set to black, except that two of them
+
+00:03:31.909 --> 00:03:35.370
+are set the same, at F1 BB ED. "Fibbed."
+
+00:03:35.370 --> 00:03:41.840
+Very droll, isn't it. It's a digital pun,
+and also F1BBED just happens to be pink.
+
+00:03:41.840 --> 00:03:46.549
+So, a good guess might be that this image
+has a foreground and a background that just
+
+00:03:46.549 --> 00:03:48.760
+happen to have been set to the same colour.
+
+00:03:48.760 --> 00:03:53.530
+So now I'm going to use sed again. And I'll
+change the first occurrence of that F1BBED
+
+00:03:53.530 --> 00:04:01.590
+to three spaces. And spaces are 202020 in
+hex, which in RGB colour-space is just a dark
+
+00:04:01.590 --> 00:04:02.590
+gray.
+
+00:04:02.590 --> 00:04:06.999
+Here we go. That's a lot better, isn't it?
+We've now got what is the final clue to the
+
+00:04:06.999 --> 00:04:07.999
+puzzle.
+
+00:04:07.999 --> 00:04:12.290
+Now, a very large number of you figured, "That's
+the answer! I've got it! I've got the hidden
+
+00:04:12.290 --> 00:04:13.780
+text inside the image!"
+
+00:04:13.780 --> 00:04:18.389
+Well, it's not. It's just the final cryptic
+clue; the question mark says, "Hey, it's a
+
+00:04:18.389 --> 00:04:24.370
+puzzle to solve." And that filename from earlier
+is a hint: "security advice for train commuters."
+
+00:04:24.370 --> 00:04:30.560
+In fact, it's also a shameless plug for the
+Naked Security study we did earlier into lost
+
+00:04:30.560 --> 00:04:34.160
+USB keys that had been found and handed in
+on Sydney trains.
+
+00:04:34.160 --> 00:04:39.660
+And, in fact, it's an anagram which decodes
+to the very advice that was given to you in
+
+00:04:39.660 --> 00:04:40.660
+that article
+
+00:04:40.660 --> 00:04:47.920
+"ENCRYPT YOUR USBS." Good advice, isn't it?
+And that, folks, is the final answer.
+
+00:04:47.920 --> 00:04:53.740
+By the way, about 7000 of you read up about
+the puzzle. About 700 of you managed to get
+
+00:04:53.740 --> 00:05:00.090
+through Stage One. And 72 people exactly finished
+Stage Two before the deadline.
+
+00:05:00.090 --> 00:05:06.190
+So, well done to those 72, but special congratulations
+to our Top Ten.
+
+00:05:06.190 --> 00:05:12.890
+Number 1 was John J, and he solved it while
+he was stuck on the I-25 heading into Denver,
+
+00:05:12.890 --> 00:05:13.890
+Colorado.
+
+00:05:13.890 --> 00:05:19.340
+Colin Martin finished just 27 seconds behind
+him in second place. So it was a tight struggle
+
+00:05:19.340 --> 00:05:20.540
+for the first place.
+
+00:05:20.540 --> 00:05:24.980
+So, thanks to everybody who took part, or
+tried it, or read about it.
+
+00:05:24.980 --> 00:05:29.360
+If you enjoyed this one, please watch out
+between Christmas and New Year, because on
+
+00:05:29.360 --> 00:05:35.210
+Naked Security, that's when we publish our
+annual IT geeks' crossword puzzle.
+
+00:05:35.210 --> 00:05:39.300
+Enjoy the holiday season; thanks for listening;
+and until next time, as always, stay secure!
+

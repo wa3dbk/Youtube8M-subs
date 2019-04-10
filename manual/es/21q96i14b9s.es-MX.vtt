@@ -1,0 +1,237 @@
+WEBVTT
+Kind: captions
+Language: es-MX
+
+00:00:04.700 --> 00:00:11.700
+Luz nocturna automática
+
+00:00:13.749 --> 00:00:18.300
+usualmente tenemos un bombillo que ilumina la entrada de nuestro hogar,
+
+00:00:18.300 --> 00:00:24.259
+el patio de ropas o el antejardín
+
+00:00:24.259 --> 00:00:28.919
+como es una iluminación que está al exterior de la casa,
+
+00:00:28.919 --> 00:00:34.580
+a quien no se le ha olvidado a pagarla?
+
+00:00:34.580 --> 00:00:39.760
+la dejamos prendía en el día por horas y horas y a veces por semanas
+
+00:00:39.760 --> 00:00:45.620
+haciendo un consumo de energía innecesario y a veces exagerado.
+
+00:00:45.620 --> 00:00:49.350
+pensando en una solución a este problema, hemos diseñado un dispositivo electrónico
+
+00:00:49.350 --> 00:00:54.550
+que se encarga de encender un bombillo, en el momento en que el sol se oculta
+
+00:00:54.550 --> 00:00:59.160
+y se apaga automáticamente cuando el sol vuelve a asomar
+
+00:00:59.160 --> 00:01:06.160
+a la madrugada, similar a las lámparas de iluminación del alumbrado público.
+
+00:01:06.950 --> 00:01:12.940
+este circuito funciona con voltajes desde 115 hasta 220 voltios
+
+00:01:12.940 --> 00:01:15.350
+sin necesidad de hacerle ningún cambio
+
+00:01:15.350 --> 00:01:18.830
+Puede encender un bombillo de hasta 100 vatios
+
+00:01:18.830 --> 00:01:21.670
+Si desean sender aparatos de más potencia,
+
+00:01:21.670 --> 00:01:27.490
+sólo deberá cambiar el pri acepte 136, por uno que soporte más amperios como
+
+00:01:27.490 --> 00:01:34.050
+del pp a pero 8 600 que soporta hasta 8 amperios
+
+00:01:34.050 --> 00:01:36.230
+Funcionamiento
+
+00:01:36.230 --> 00:01:40.600
+el condensador de 2.2 uF que está en seria la entrada de voltaje
+
+00:01:40.600 --> 00:01:45.270
+de la república, restringe el paso de corriente. Sólo permite el paso
+
+00:01:45.270 --> 00:01:47.760
+de unos 60 miliamperios
+
+00:01:47.760 --> 00:01:49.560
+Aproximadamente
+
+00:01:49.560 --> 00:01:54.439
+la resistencia de 330 K que está en paralelo con este condensador,
+
+00:01:54.439 --> 00:01:58.920
+se encarga de descargar el condensador a la hora de desconectar el circuito,
+
+00:01:58.920 --> 00:02:02.929
+evitando que el condensador quede  cargado y pueda enviarnos
+
+00:02:02.929 --> 00:02:08.059
+una descarga eléctrica, al momento de manipular el circuito
+
+00:02:08.059 --> 00:02:12.279
+en la otra entrada de la república hay una resistencia de 10 ohmios
+
+00:02:12.279 --> 00:02:18.180
+que funciona como fusible y también ayuda a limitar la corriente.
+
+00:02:18.180 --> 00:02:22.650
+luego de que la corriente pasa por el condensador y la resistencia, llega a un
+
+00:02:22.650 --> 00:02:26.829
+puente de dios que se encarga de separar
+los semiciclos positivos,
+
+00:02:26.829 --> 00:02:30.580
+de los negativos, para luego ser rectificados por un condensador
+
+00:02:30.580 --> 00:02:35.679
+convirtiendo la corriente alterna en corriente directa
+
+00:02:35.679 --> 00:02:40.309
+ahora que tenemos el voltaje rectificado y con una corriente mínima,
+
+00:02:40.309 --> 00:02:47.229
+debemos bajar el voltaje a unos 10 voltios DC, para esto utilizamos un diodo zener.
+
+00:02:47.229 --> 00:02:52.330
+la resistencia de 47K, es la resistencia de polarización del diodo zener
+
+00:02:52.330 --> 00:02:54.909
+es necesario que sea de 5 vatios
+
+00:02:54.909 --> 00:02:59.620
+ya que el esfuerzo que hace al bajar la corriente, genera un calor
+
+00:02:59.620 --> 00:03:01.489
+relativamente alto.
+
+00:03:01.489 --> 00:03:06.499
+la resistencia de 10K que va en paralelo a tierra con el diodo zener
+
+00:03:06.499 --> 00:03:09.429
+le ayuda a éste a soportar la carga.
+
+00:03:09.429 --> 00:03:14.829
+el condensador de 47uF y el condensador cerámico
+
+00:03:14.829 --> 00:03:16.070
+de 0.1 uF
+
+00:03:16.070 --> 00:03:21.939
+rectifican nuevamente la corriente, impidiendo el rizado.
+
+00:03:21.939 --> 00:03:26.349
+ahora biene el circuito que se encarga de la automatización de encendido
+
+00:03:26.349 --> 00:03:31.439
+al detectar oscuridad y que se apaga, al detectar la luz.
+
+00:03:31.439 --> 00:03:36.849
+el re[ostato RV1, forma parte de un divisor de voltaje junto con
+
+00:03:36.849 --> 00:03:37.929
+la fotoresistencia.
+
+00:03:37.929 --> 00:03:42.999
+éste da la posibilidad de graduar la sensibilidad del circuito
+
+00:03:42.999 --> 00:03:47.429
+cuando la corriente pasa por el reóstato y llega al punto centro, entre
+
+00:03:47.429 --> 00:03:51.849
+el reóstatp la foto resistencia, al momento que la foto resistencia recibe luz
+
+00:03:51.849 --> 00:03:56.539
+baja su impedancia a 0 ohmios, polarizando negativamente la base
+
+00:03:56.539 --> 00:03:57.300
+del transistor
+
+00:03:57.300 --> 00:04:01.960
+pero al momento que se oscurece el ambiente la foto resistencia sube
+
+00:04:01.960 --> 00:04:06.890
+a una impedancia muy alta, restringiendo el
+paso de la corriente. En ese momento
+
+00:04:06.890 --> 00:04:13.529
+se polariza positivamente la base del transistor 2N3904
+
+00:04:13.529 --> 00:04:18.310
+en ese instante el transistor conduce entre colector y emisor,
+
+00:04:18.310 --> 00:04:22.409
+polarizando negativamente la base del transistor 2N2907
+
+00:04:22.409 --> 00:04:24.500
+que es de polaridad PNP
+
+00:04:24.500 --> 00:04:30.479
+esto quiere decir que conduce cuando a su base llega un voltaje negativo.
+
+00:04:30.479 --> 00:04:36.550
+al conducir el transistor 2N2907, pasa un voltaje positivo de colector
+
+00:04:36.550 --> 00:04:41.379
+a emisor y llega hasta el opto acoplador, encendiendo el LED que se encuentra
+
+00:04:41.379 --> 00:04:46.650
+en su interior, activando el foto triac, que está entre las patas 4 y 6
+
+00:04:46.650 --> 00:04:47.840
+del opto acoplador.
+
+00:04:47.840 --> 00:04:53.250
+el foto triac que conduce entre sus patas 4 y 6, enviando una corriente
+
+00:04:53.250 --> 00:04:57.090
+a la compuerta el triac BT136
+
+00:04:57.090 --> 00:05:01.850
+el tri a conduce la corriente de la república entre sus terminales T1 y T2
+
+00:05:01.850 --> 00:05:06.490
+y como el bombillo está en serie, éste se enciende
+
+00:05:06.490 --> 00:05:10.630
+cuando la resistencia vuelve a recibir luz, está baja su impedancia
+
+00:05:10.630 --> 00:05:15.650
+y se  polariza negativamente la base del transistor  2N3904
+
+00:05:15.650 --> 00:05:20.590
+como éste transistor es NPN, no conduce, y por lo tanto tampoco
+
+00:05:20.590 --> 00:05:25.780
+el otro transistor, ni el opto acoplador y por lógica no conducirá el triac
+
+00:05:25.780 --> 00:05:28.240
+y se apagará el bombillo.
+
+00:05:28.240 --> 00:05:32.919
+En el archivo pdf que podrá descargar al final del artículo de este proyecto
+
+00:05:32.919 --> 00:05:37.440
+hemos proporcionado el diagrama de montaje en protoboard,
+
+00:05:37.440 --> 00:05:41.410
+pensando en los estudiantes electrónica que desean practicar y hacer sus propias
+
+00:05:41.410 --> 00:05:43.729
+variaciones del circuito.
+
+00:05:43.729 --> 00:05:46.060
+Esperamos sea de gran utilidad para todos
+

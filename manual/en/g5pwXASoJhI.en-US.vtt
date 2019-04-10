@@ -1,0 +1,359 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.240 --> 00:00:04.040
+welcome to Lets hack! I'm Kolonelkadat and you'd be too if you weren't somebody else.
+
+00:00:04.040 --> 00:00:04.870
+ 
+
+00:00:04.870 --> 00:00:09.070
+Today I'm gonna be making a cheat for
+typing of the Dead overkill
+
+00:00:09.070 --> 00:00:14.549
+the first step in this process locate where the health value is
+
+00:00:14.549 --> 00:00:15.230
+in memory
+
+00:00:15.230 --> 00:00:20.460
+so im gonna use cheat engine to scan for
+
+00:00:20.460 --> 00:00:26.560
+the initial health which is 10. I'm gonna go ahead and
+and get one time scan for nine
+
+00:00:26.560 --> 00:00:30.500
+and it looks like I'm gonna get lucky
+this time and
+
+00:00:30.500 --> 00:00:33.690
+I only get 3 results
+
+00:00:33.690 --> 00:00:37.640
+obviously it's the middle one
+
+00:00:37.640 --> 00:00:42.100
+but if you're wandering the last '8",
+the third value, that
+
+00:00:42.100 --> 00:00:45.910
+the scan returned is just
+
+00:00:45.910 --> 00:00:49.510
+I think its graphical or something
+
+00:00:49.510 --> 00:00:52.850
+but anyways so we're going to open up HOTD_NG
+
+00:00:52.850 --> 00:00:57.520
+in IDA. Make sure we load the resources
+
+00:00:57.520 --> 00:01:01.020
+and we're gonna go ahead and import the debug information
+
+00:01:01.020 --> 00:01:08.020
+like most of the Steam games
+
+00:01:08.369 --> 00:01:13.439
+this has debugger protection built in so we're going to need to use
+
+00:01:13.439 --> 00:01:17.110
+IDA Stealth and I wanna
+
+00:01:17.110 --> 00:01:21.500
+use as few of the options as possible just to
+make rebasing quicker and easier
+
+00:01:21.500 --> 00:01:26.220
+So as you can see here only got a
+few options checked
+
+00:01:26.220 --> 00:01:29.280
+so we're going click OK
+
+00:01:29.280 --> 00:01:33.180
+make sure that that is all sorta done up
+properly
+
+00:01:33.180 --> 00:01:37.490
+Then we're going to select our debugger which is going
+to be the win32 debugger
+
+00:01:37.490 --> 00:01:40.810
+go ahead and start it and
+
+00:01:40.810 --> 00:01:45.850
+wait for it to rebase and we're actually
+only looking to rebase
+
+00:01:45.850 --> 00:01:49.250
+right now that's all that matters its
+gonna throw an error
+
+00:01:49.250 --> 00:01:52.490
+but it'll be okay so here goes the error
+
+00:01:52.490 --> 00:01:55.920
+so we'll go ahead and we'll stop the debugger
+
+00:01:55.920 --> 00:02:00.229
+and then what  we can do is actually attach
+to the game
+
+00:02:00.229 --> 00:02:06.090
+so we go and we attach to HOTD_NG.exe
+
+00:02:06.090 --> 00:02:13.090
+I was just making sure that it was
+
+00:02:17.040 --> 00:02:20.400
+in game and not the pause menu so anyway
+
+00:02:20.400 --> 00:02:25.489
+go ahead and open up the debugger and then we're gonna jump
+
+00:02:25.489 --> 00:02:29.360
+to the address we found for health
+
+00:02:29.360 --> 00:02:32.640
+gonna  just copy and paste that out of cheat engine
+
+00:02:32.640 --> 00:02:36.000
+so go here grab it copy it. cancel
+
+00:02:36.000 --> 00:02:39.440
+go back into Ida and click on jump
+
+00:02:39.440 --> 00:02:44.420
+and then jump to address. Paste it in and click OK
+
+00:02:44.420 --> 00:02:50.140
+right click add write trace and this will
+tell us anything that writes to that
+
+00:02:50.140 --> 00:02:51.129
+area in memory.
+
+00:02:51.129 --> 00:02:54.269
+so go ahead and and get hit
+
+00:02:54.269 --> 00:02:57.650
+and now we can double click on the
+
+00:02:57.650 --> 00:03:02.090
+trace value if you don't have the trace
+window open you can open it with
+
+00:03:02.090 --> 00:03:07.120
+under the debugger menu in tracing
+anyway I double click on that
+
+00:03:07.120 --> 00:03:10.780
+and it takes us to an instruction that's
+called
+
+00:03:10.780 --> 00:03:14.950
+call and this is just "call sub_whatever" but
+
+00:03:14.950 --> 00:03:19.909
+that is actually the instruction after
+the write has happened
+
+00:03:19.909 --> 00:03:23.720
+we're gonna be looking for the write to
+happen at
+
+00:03:23.720 --> 00:03:28.200
+the ESI... the  MOV [esi...
+
+00:03:28.200 --> 00:03:32.730
+function call so we'll add a break point
+there just to make sure
+
+00:03:32.730 --> 00:03:38.120
+and what's gonna happen is we'll go ahead and get hit
+
+00:03:38.120 --> 00:03:42.260
+it'll come here and we can see that health
+is nine currently
+
+00:03:42.260 --> 00:03:45.370
+and in the EDI
+
+00:03:45.370 --> 00:03:48.940
+it is 8 and so that's what's going to be
+moved in and that's gonna
+
+00:03:48.940 --> 00:03:53.510
+change health from 9 to 8 in other
+words decreased by one
+
+00:03:53.510 --> 00:03:57.099
+so this is the instruction that we want
+to change
+
+00:03:57.099 --> 00:04:01.170
+go ahead and copy that address
+
+00:04:01.170 --> 00:04:04.930
+we'll go into cheat engine
+
+00:04:04.930 --> 00:04:09.459
+and we're going to add address manually
+
+00:04:09.459 --> 00:04:13.620
+change it to an AOB
+
+00:04:13.620 --> 00:04:18.560
+the default length is okay.
+
+00:04:18.560 --> 00:04:22.960
+go and change that to hexadecimal so
+that we can compare it to the
+
+00:04:22.960 --> 00:04:28.800
+original array of bytes in Ida I'm going
+right click down in hex view
+
+00:04:28.800 --> 00:04:34.449
+and synchronize with Ida view and then
+that brings us up and highlights the
+
+00:04:34.449 --> 00:04:36.280
+instruction as you can see
+
+00:04:36.280 --> 00:04:40.770
+now the original instruction
+
+00:04:40.770 --> 00:04:45.810
+is 89 BE but in Cheat engine we've got
+
+00:04:45.810 --> 00:04:51.550
+CC BE ... uuummm... I'm not sure
+
+00:04:51.550 --> 00:04:54.680
+OH! that's our interrupt 3
+
+00:04:54.680 --> 00:05:00.600
+(INT 3) from the breakpoint so I just need to turn off the breakpoint
+
+00:05:00.600 --> 00:05:04.169
+The reason I'm doing this is so that
+I can copy
+
+00:05:04.169 --> 00:05:08.960
+the array of bytes and rescan for it
+
+00:05:08.960 --> 00:05:12.850
+which seems kind of pointless but what I want
+
+00:05:12.850 --> 00:05:16.020
+is the relative virtual address
+
+00:05:16.020 --> 00:05:21.139
+instead of the... just the static
+
+00:05:21.139 --> 00:05:26.270
+address that we get from adding it
+manually so this will give us an
+
+00:05:26.270 --> 00:05:27.190
+ 
+
+00:05:27.190 --> 00:05:32.750
+an offset from the EXE and we're gonna use that to make our trainer
+
+00:05:32.750 --> 00:05:36.320
+instead of starting from scratch I'm just going to open up the one I've already
+
+00:05:36.320 --> 00:05:37.940
+written
+
+00:05:37.940 --> 00:05:42.350
+just give you an idea of what it'll look like
+
+00:05:42.350 --> 00:05:46.960
+its pretty cookie-cutter you'll just...
+when you do your own you can do the same
+
+00:05:46.960 --> 00:05:50.419
+exact same thing you're just change
+
+00:05:50.419 --> 00:05:55.550
+the address and whatever
+goes in the new memory label
+
+00:05:55.550 --> 00:05:59.389
+what you do is you just copy that
+address and your paste it here
+
+00:05:59.389 --> 00:06:04.229
+where you see it and then what you gonna
+do is your
+
+00:06:04.229 --> 00:06:08.979
+and then youre going to jump down here to this new memory area
+
+00:06:08.979 --> 00:06:12.520
+and I'm showing I guess the disable now
+
+00:06:12.520 --> 00:06:16.350
+but anyway the disable code is just the
+original  AOB
+
+00:06:16.350 --> 00:06:19.440
+so that's really easy to get and
+
+00:06:19.440 --> 00:06:23.090
+you can see it there
+
+00:06:23.090 --> 00:06:28.229
+for the new memory though we're going to
+change the MOV [esi+20ch]
+
+00:06:28.229 --> 00:06:32.319
+to MOV [esi+20ch]
+
+00:06:32.319 --> 00:06:35.740
+#10 instead of edi
+
+00:06:35.740 --> 00:06:39.440
+and so that means instead of
+
+00:06:39.440 --> 00:06:43.669
+moving whatevers in edi into the health
+
+00:06:43.669 --> 00:06:49.789
+area of memory we're just gonna move in 10
+so it's always gonna be 10
+
+00:06:49.789 --> 00:06:55.080
+you could probably go a little bit
+further with this
+
+00:06:55.080 --> 00:07:00.039
+and actually find like what function is
+calling
+
+00:07:00.039 --> 00:07:03.380
+what when you get hit and then actually
+
+00:07:03.380 --> 00:07:07.830
+disable the whole thing so that you don't ever
+
+00:07:07.830 --> 00:07:11.199
+lose combos and stuff like that
+
+00:07:11.199 --> 00:07:14.539
+but you know I'm not going to really
+worry about that
+
+00:07:14.539 --> 00:07:19.789
+sorta defeats the purpose of the game I guess.
+
+00:07:19.789 --> 00:07:22.970
+Anyway, I'm done hacking this. hope ya had fun.
+

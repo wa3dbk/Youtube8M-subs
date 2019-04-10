@@ -1,0 +1,313 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:11.960 --> 00:00:15.330
+how to update WordPress manually
+
+00:00:15.330 --> 00:00:19.570
+the first rule, in updating any content management system like Word Press
+
+00:00:19.570 --> 00:00:22.619
+is to have a backup of your website and
+database
+
+00:00:22.619 --> 00:00:27.509
+to do this you have two choices the
+first is to make a backup with the third
+
+00:00:27.509 --> 00:00:28.730
+part utility
+
+00:00:28.730 --> 00:00:33.170
+like a plugin or you can go to the cpanel of your website
+
+00:00:33.170 --> 00:00:36.840
+and there you have the ability to backup
+your site in fact
+
+00:00:36.840 --> 00:00:40.890
+this second choice is the best way to
+interact with your website
+
+00:00:40.890 --> 00:00:44.199
+because is where you find everything
+related to your website
+
+00:00:44.199 --> 00:00:47.239
+is the web hosting Control Panel but
+
+00:00:47.239 --> 00:00:50.739
+if you prefer go with the plugin follow
+this procedure
+
+00:00:50.739 --> 00:00:54.199
+from the dashboard of the WordPress go
+to plugins
+
+00:00:54.199 --> 00:00:57.320
+add new
+
+00:00:57.320 --> 00:00:58.960
+now to search for
+
+00:00:58.960 --> 00:01:02.010
+plugins based with this criteria type
+the word
+
+00:01:02.010 --> 00:01:03.650
+backup
+
+00:01:03.650 --> 00:01:09.270
+choose one from the available plugins
+like the online backup for WordPress
+
+00:01:09.270 --> 00:01:13.110
+click to install now
+
+00:01:13.110 --> 00:01:17.240
+then activate plugin
+
+00:01:17.240 --> 00:01:19.090
+next in the plugins page 
+
+00:01:19.090 --> 00:01:22.700
+go to the online backup for
+WordPress plugin
+
+00:01:22.700 --> 00:01:24.780
+and click on View dashboard
+
+00:01:24.780 --> 00:01:30.840
+and go to backup to create a new fresh
+backup
+
+00:01:30.840 --> 00:01:31.930
+set the backup type 
+
+00:01:31.930 --> 00:01:36.060
+to local database and file system
+
+00:01:36.060 --> 00:01:39.920
+and start the manual backup
+
+00:01:39.920 --> 00:01:44.060
+now just wait until the backup completes and then you can download the backup files to your
+
+00:01:44.060 --> 00:01:46.440
+machine
+
+00:01:46.440 --> 00:01:51.440
+also much easier if you go to your 
+cpanel of your website hosting service
+
+00:01:51.440 --> 00:01:58.440
+search for the files section and click
+on backups
+
+00:02:00.210 --> 00:02:02.409
+and then you can generate a new fresh
+
+00:02:02.409 --> 00:02:07.999
+backup
+
+00:02:07.999 --> 00:02:09.940
+and provide them available to download
+
+00:02:09.940 --> 00:02:16.940
+dowload
+
+00:02:17.840 --> 00:02:20.630
+next we need to download the last version of
+
+00:02:20.630 --> 00:02:27.630
+WordPress go to WordPress .org and get a
+last version
+
+00:02:34.540 --> 00:02:36.990
+next prepare to upload
+
+00:02:36.990 --> 00:02:39.890
+delete wp-content folder
+
+00:02:39.890 --> 00:02:46.599
+unzip and open the wordpress.zip file
+
+00:02:46.599 --> 00:02:48.600
+and delete the wp-content
+
+00:02:48.600 --> 00:02:52.840
+and delete the wp-content
+
+00:02:52.840 --> 00:02:56.680
+next uploading and updating WordPress
+
+00:02:56.680 --> 00:03:03.680
+first from cPanel (hosting Control Panel) go to
+File Manager
+
+00:03:04.350 --> 00:03:08.319
+type your credentials username and password
+
+00:03:08.319 --> 00:03:11.160
+now go to public html folder
+
+00:03:11.160 --> 00:03:14.330
+go to where you install your WordPress
+in my case
+
+00:03:14.330 --> 00:03:17.810
+a subdirectory called home next
+
+00:03:17.810 --> 00:03:22.550
+delete all files and folders except wp-content folder
+
+00:03:22.550 --> 00:03:28.440
+and wp-config.php file
+
+00:03:28.440 --> 00:03:30.120
+click to delete and confirm
+
+00:03:30.120 --> 00:03:31.990
+click to delete and confirm
+
+00:03:31.990 --> 00:03:37.370
+remember that we can do this from a local file
+manager
+
+00:03:37.370 --> 00:03:40.920
+now if you go to your website and
+refresh (F5, Command-R) the page
+
+00:03:40.920 --> 00:03:44.490
+you realize that all files have been
+deleted
+
+00:03:44.490 --> 00:03:48.970
+now what we need to do is uploading the
+new files
+
+00:03:48.970 --> 00:03:53.720
+but first we can see on how we can make
+all of this from a local file manager
+
+00:03:53.720 --> 00:03:56.810
+I'm using coda but you can choose others
+
+00:03:56.810 --> 00:04:00.170
+like Cyberduck for Mac FileZilla
+
+00:04:00.170 --> 00:04:05.739
+or smart FTP for Windows for FTP logins
+and upload details
+
+00:04:05.739 --> 00:04:09.970
+go to your host control panel and there
+you find all details needed
+
+00:04:09.970 --> 00:04:12.860
+to add into your local file manager
+
+00:04:12.860 --> 00:04:18.060
+after that you just have to connect into
+the server where your site is hosted
+
+00:04:18.060 --> 00:04:21.100
+and navigate to the public folder to
+delete
+
+00:04:21.100 --> 00:04:28.100
+and uploading files
+
+00:04:30.739 --> 00:04:33.569
+now with all files deleted we need to
+
+00:04:33.569 --> 00:04:35.330
+make the upload go to
+
+00:04:35.330 --> 00:04:38.550
+where you previously unzip the Wordpress folder
+
+00:04:38.550 --> 00:04:43.270
+and upload all files to the server
+except the wp-content folder
+
+00:04:43.270 --> 00:04:47.470
+into public_html and the
+subdirectory
+
+00:04:47.470 --> 00:04:52.770
+in this case to public_html/home
+
+00:04:52.770 --> 00:04:58.850
+with all files in place you may have
+to delete some default.php file
+
+00:04:58.850 --> 00:05:03.610
+if in any case you go to your website
+address and find a page like this one
+
+00:05:03.610 --> 00:05:07.460
+all you have to do is to return to your
+file manager
+
+00:05:07.460 --> 00:05:14.460
+and under public_html folder delete this
+default.php file
+
+00:05:18.449 --> 00:05:20.930
+next return to your side and refresh
+
+00:05:20.930 --> 00:05:24.030
+next return to your side and refresh
+
+00:05:24.030 --> 00:05:24.720
+enter to where you installed Word Press
+
+00:05:24.720 --> 00:05:27.440
+enter to where you installed Word Press
+
+00:05:27.440 --> 00:05:28.160
+refresh again
+
+00:05:28.160 --> 00:05:32.740
+or click where says to update
+
+00:05:32.740 --> 00:05:34.249
+now update wordpress database
+
+00:05:34.249 --> 00:05:35.490
+now update wordpress database
+
+00:05:35.490 --> 00:05:39.980
+your WordPress database was successfully
+updated
+
+00:05:39.980 --> 00:05:44.040
+and this is how you update your site
+with the new content management system
+
+00:05:44.040 --> 00:05:47.120
+like Wordpress
+
+00:05:47.120 --> 00:05:50.580
+I hope this video was helpful
+and if so give us a like
+
+00:05:50.580 --> 00:05:56.350
+comment and subscribe to get more of
+this thanks
+
+00:05:56.350 --> 00:05:57.449
+please
+
+00:05:57.449 --> 00:05:59.430
+support this channel
+
+00:05:59.430 --> 00:06:02.910
+support by giving a comment or give a
+like to the video
+
+00:06:02.910 --> 00:06:03.400
+thanks
+

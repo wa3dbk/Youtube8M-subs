@@ -1,0 +1,363 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.619 --> 00:00:02.950
+Hi there!
+
+00:00:02.950 --> 00:00:07.150
+I'm going to demonstrate scan fizz for Salesforce App developed by ApexCloud 
+
+00:00:07.680 --> 00:00:13.329
+and I am the project lead for Mobile Applications at  ApexCloud
+
+00:00:13.329 --> 00:00:18.859
+This App scans all Linear Barcodes and 2 Dimensional Barcodes
+
+00:00:18.859 --> 00:00:22.509
+such as QR Codes and Data Metrix
+
+00:00:22.509 --> 00:00:25.839
+for 2 Dimensional Barcodes it scans and decodes
+
+00:00:25.839 --> 00:00:31.629
+the encryption information and creates 
+the Leads Record in Salesforce Instance
+
+00:00:31.629 --> 00:00:33.730
+let's go to the App on my phone
+
+00:00:33.730 --> 00:00:36.130
+here is the icon Scan Fizz
+
+00:00:36.130 --> 00:00:40.990
+let's go there
+
+00:00:40.990 --> 00:00:44.560
+and this is the authorization page and
+now here comes the
+
+00:00:44.560 --> 00:00:47.430
+Salesforce login page
+
+00:00:47.430 --> 00:00:54.430
+we have to type in the user name and password of our Salesforce instance here
+
+00:00:54.640 --> 00:01:01.640
+let me quickly login
+
+00:01:05.390 --> 00:01:09.460
+and here is the activation required
+message that you get
+
+00:01:09.460 --> 00:01:13.820
+this is important if you login
+
+00:01:13.820 --> 00:01:16.250
+for the first time.. ok
+
+00:01:16.250 --> 00:01:18.410
+so let's go ahead and
+
+00:01:18.410 --> 00:01:23.800
+select " Email me a Verification Code "
+
+00:01:23.800 --> 00:01:28.250
+and this Verification Code you will get on
+the email address that you have specified
+
+00:01:29.610 --> 00:01:33.440
+let me quickly go to my Email address
+
+00:01:33.440 --> 00:01:36.400
+uh... i'm sorry to my email
+
+00:01:36.400 --> 00:01:41.500
+so here is my Email that i just got
+and this is the Verification Code
+
+00:01:41.500 --> 00:01:48.030
+that i got from Salesforce and i'm going
+to type this code on my phone
+
+00:01:48.030 --> 00:01:51.680
+so let me punch in
+
+00:01:54.800 --> 00:01:57.670
+60315
+
+00:01:57.670 --> 00:01:59.819
+its 60315 yes
+
+00:01:59.819 --> 00:02:06.819
+so let me select "Verify my code and log me in" 
+
+00:02:07.090 --> 00:02:09.929
+here comes another permission
+message
+
+00:02:09.929 --> 00:02:12.769
+so you have to select "Allow"
+
+00:02:12.769 --> 00:02:16.269
+and here is the authorization message
+again
+
+00:02:16.269 --> 00:02:19.399
+and this is the main screen of our App
+
+00:02:19.399 --> 00:02:23.489
+and we have two buttons "Scan" and
+"Recent"
+
+00:02:23.489 --> 00:02:28.969
+in "Recent" button we have the recently
+scanned items stored
+
+00:02:28.969 --> 00:02:32.969
+and this is the scan button where we can scan the Barcodes
+
+00:02:32.969 --> 00:02:36.979
+for the demonstration i have
+
+00:02:36.979 --> 00:02:38.009
+the business card
+
+00:02:38.009 --> 00:02:39.439
+on which we have
+
+00:02:39.439 --> 00:02:43.499
+on which there is a QR Code on it
+
+00:02:43.499 --> 00:02:45.939
+so I'm going to scan this and show
+
+00:02:45.939 --> 00:02:48.289
+show you how it works
+
+00:02:48.289 --> 00:02:50.779
+so I will select "Scan"
+
+00:02:50.779 --> 00:02:53.639
+and I will place this 
+
+00:02:53.639 --> 00:02:55.669
+um...
+
+00:02:55.669 --> 00:02:58.529
+business card
+
+00:02:58.529 --> 00:03:00.209
+with in the frame
+
+00:03:00.209 --> 00:03:01.979
+and it scans
+
+00:03:01.979 --> 00:03:06.549
+and here is the scanned information on
+my screen
+
+00:03:06.549 --> 00:03:12.799
+and again i have another two options "Yes" and "No"
+
+00:03:12.799 --> 00:03:14.679
+"Yes" is for creating Lead Record in your Salesforce instance
+
+00:03:14.679 --> 00:03:17.930
+"No" if the information is irrelevant to
+you. 
+
+00:03:17.930 --> 00:03:20.189
+You can just go ahead and select "NO"
+
+00:03:20.189 --> 00:03:21.989
+if the information is
+
+00:03:21.989 --> 00:03:24.489
+not required. so for
+
+00:03:24.489 --> 00:03:28.509
+the demonstration purpose I will create the Lead
+
+00:03:28.509 --> 00:03:30.069
+I will select "Yes"
+
+00:03:30.069 --> 00:03:32.099
+and here are certain Criteria
+
+00:03:32.099 --> 00:03:33.199
+uh... for which 
+
+00:03:33.199 --> 00:03:35.299
+uh... it is required
+
+00:03:35.299 --> 00:03:39.089
+it is required to create the Lead record
+in our Salesforce instance
+
+00:03:39.089 --> 00:03:43.119
+name email address mobile number city
+and company is required
+
+00:03:43.119 --> 00:03:46.659
+to create the
+
+00:03:46.659 --> 00:03:47.400
+Lead
+
+00:03:47.400 --> 00:03:53.999
+So now let me login to Salesforce instance
+on my computer
+
+00:03:53.999 --> 00:03:55.769
+go to your browser and type
+
+00:03:55.769 --> 00:04:01.629
+login.salesforce.com
+
+00:04:01.629 --> 00:04:02.709
+and then
+
+00:04:02.709 --> 00:04:04.979
+quickly login
+
+00:04:04.979 --> 00:04:08.789
+here comes the home page and there are several tabs here
+
+00:04:08.789 --> 00:04:10.039
+and
+
+00:04:10.039 --> 00:04:12.179
+there is the "Leads" tab
+
+00:04:12.179 --> 00:04:14.179
+I will click on it
+
+00:04:14.179 --> 00:04:17.239
+and I will go to "Today's Leads"
+
+00:04:17.239 --> 00:04:19.680
+where I can find
+
+00:04:19.680 --> 00:04:22.780
+ the newly created Leads
+
+00:04:22.780 --> 00:04:27.460
+so he really didn't think it needs
+
+00:04:27.460 --> 00:04:29.330
+ok so,
+
+00:04:29.330 --> 00:04:36.330
+here I can see the same information that I  just scanned
+
+00:04:38.129 --> 00:04:45.129
+mobile number, email name and company
+
+00:04:47.290 --> 00:04:51.339
+Now I will show 
+
+00:04:51.339 --> 00:04:54.599
+how to log out of this App
+
+00:04:54.599 --> 00:04:59.550
+for that we have to go the settings 
+
+00:04:59.550 --> 00:05:02.639
+and flip the log now option
+
+00:05:02.639 --> 00:05:04.590
+first
+
+00:05:04.590 --> 00:05:08.530
+go to the settings again select Scan Fizz
+
+00:05:08.530 --> 00:05:10.360
+and then flip the log now option
+
+00:05:10.360 --> 00:05:11.659
+you have
+
+00:05:14.370 --> 00:05:19.610
+login host option here,  where in you can login  to production org or the 
+
+00:05:19.610 --> 00:05:25.559
+sandbox respectively depending on your
+Salesforce Instance
+
+00:05:25.559 --> 00:05:29.410
+so i would also like to show how it
+works
+
+00:05:29.410 --> 00:05:31.809
+how can you scan 
+
+00:05:31.809 --> 00:05:33.649
+the barcode
+
+00:05:33.649 --> 00:05:35.479
+ Linear Barcodes
+
+00:05:35.479 --> 00:05:42.479
+so I will have to login again since i had logged
+out
+
+00:05:50.070 --> 00:05:53.659
+you don't require the
+
+00:05:53.659 --> 00:05:57.049
+ verification code again, we 
+just have to login, since we had already
+
+00:05:57.049 --> 00:06:00.509
+logged in with the same instance. In case if you are logging in with
+
+00:06:00.509 --> 00:06:02.580
+different instance you would 
+
+00:06:02.580 --> 00:06:04.579
+require the verification code 
+
+00:06:04.579 --> 00:06:05.630
+and to scan the linear barcode,
+
+00:06:05.630 --> 00:06:10.580
+ you should always have 
+
+00:06:10.580 --> 00:06:12.949
+the
+
+00:06:12.949 --> 00:06:14.759
+mobile held in 
+
+00:06:14.759 --> 00:06:16.979
+landscape position
+
+00:06:16.979 --> 00:06:19.240
+for the Linear Barcode
+
+00:06:19.240 --> 00:06:23.830
+here it scans the information
+
+00:06:23.830 --> 00:06:27.830
+and most importantly when you're scanning
+
+00:06:27.830 --> 00:06:30.519
+the
+
+00:06:30.519 --> 00:06:34.169
+QR Code you can 
+
+00:06:34.169 --> 00:06:35.539
+scan
+
+00:06:35.539 --> 00:06:42.220
+either in  portrait position or  landscape
+position
+
+00:06:42.220 --> 00:06:44.669
+up to you
+
+00:06:44.669 --> 00:06:45.139
+thanks for watching
+

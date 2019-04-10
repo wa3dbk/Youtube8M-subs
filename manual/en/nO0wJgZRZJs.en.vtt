@@ -1,0 +1,113 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.460 --> 00:00:08.130
+This is a simplified guide to the meaning
+and use of Expect values as provided by BLAST,
+
+00:00:08.130 --> 00:00:11.960
+the Basic Local Alignment Search Tool at NCBI.
+
+00:00:11.960 --> 00:00:14.980
+I’ll start with about the simplest possible
+description 
+
+00:00:14.980 --> 00:00:18.919
+of what an Expect, or E-value, is.
+
+00:00:18.919 --> 00:00:22.919
+The number of BLAST hits you expect to see
+by chance.
+
+00:00:22.919 --> 00:00:28.809
+To be more correct I’ll add, with the observed
+score or higher. And a hit, here, is simply
+
+00:00:28.809 --> 00:00:30.099
+an alignment.
+
+00:00:30.099 --> 00:00:35.109
+Let’s say you have BLAST alignments with
+E-values around 1.
+
+00:00:35.109 --> 00:00:40.210
+Our definition tells is that some of these
+alignments could easily be due to chance.
+
+00:00:40.210 --> 00:00:46.710
+This BLAST search also produced an alignment
+with an E-value of 2e-61. You expect to see
+
+00:00:46.710 --> 00:00:53.710
+that alignment 2x10-61 times by chance; in
+other words, it’s not random. A common interpretation
+
+00:00:55.559 --> 00:01:00.289
+is that if the alignment is not due to chance,
+then it may be due to a biologically meaningful
+
+00:01:00.289 --> 00:01:03.319
+relationship between the two sequences.
+
+00:01:03.319 --> 00:01:08.750
+Does a low E-value like this prove that the
+two sequences are homologous? No. BLAST does
+
+00:01:08.750 --> 00:01:14.860
+not measure homology, but you might infer
+homology from good alignments like this.
+
+00:01:14.860 --> 00:01:21.340
+Another common question is, how low an E-value
+do I need to say that two sequences are related
+
+00:01:21.340 --> 00:01:28.340
+biologically? There is no single answer, because
+E-values depend on query and database lengths.
+
+00:01:28.390 --> 00:01:35.390
+At NCBI we use a cutoff of 1x10-6 for some
+internal processes using blastp against the
+
+00:01:36.219 --> 00:01:41.079
+BLAST nr database, but that may be too restrictive
+for your purposes.
+
+00:01:41.079 --> 00:01:46.909
+So, the primary use for E-values is to help
+answer the question, “Is this alignment
+
+00:01:46.909 --> 00:01:53.439
+meaningful?” Another use is to limit your
+BLAST output by setting an E-value threshold.
+
+00:01:53.439 --> 00:02:00.439
+If you only want to see results with E-values
+better than, say, 1x10-6, then enter 1e-6
+
+00:02:01.659 --> 00:02:04.020
+in the threshold text box.
+
+00:02:04.020 --> 00:02:11.020
+Finally, since my example is in blastp, I
+have to mention compositional adjustments.
+
+00:02:11.280 --> 00:02:16.630
+These statistical calculations are applied
+by default to provide more accurate E-values
+
+00:02:16.630 --> 00:02:21.910
+based on the amino-acid composition of the
+two sequences being compared. Use the help
+
+00:02:21.910 --> 00:02:25.830
+icon to get further information and references.
+
+00:02:25.830 --> 00:02:30.810
+In the separate video - Expect values, part
+2 - I’ll answer some common questions about
+
+00:02:30.810 --> 00:02:33.050
+E-values that we get at NCBI.
+

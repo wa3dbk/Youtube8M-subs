@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.570 --> 00:00:02.330
+Hi I'm Michael from Advent Controls.
+
+00:00:02.330 --> 00:00:06.400
+Today we're going to take a quick look at
+our twin output GSM board.
+
+00:00:06.400 --> 00:00:15.169
+This is mainly for roller shutters and garage
+doors that need a 
+
+00:00:15.169 --> 00:00:35.920
+separate up and down control.
+
+00:00:35.920 --> 00:00:41.629
+To have the board alternate between open and
+close we set the call channel to alt... and
+
+00:00:41.629 --> 00:01:10.430
+to keep the relay active whilst ringing we
+set the rely mode to 'RING'.
+
+00:01:10.430 --> 00:01:22.689
+We have connected the blue LED to the CLOSE
+or STAR relay and the green LED to the OPEN
+
+00:01:22.689 --> 00:01:24.750
+or HASH relay.
+
+00:01:24.750 --> 00:01:29.590
+As you can see whilst the phone rings out
+the relay stays lit and when we call the number
+
+00:01:29.590 --> 00:01:38.620
+for the second time the other relay stays
+lit again whilst the line is ringing.
+
+00:01:38.620 --> 00:01:43.969
+We can also operate the relays using the DTMF
+keys on your phone's keypad.
+
+00:01:43.969 --> 00:01:49.270
+Unfortunately most mobile phone do not send
+long tone bursts so cannot be used for this
+
+00:01:49.270 --> 00:01:50.270
+function.
+
+00:01:50.270 --> 00:01:56.320
+Here we've enabled this mode by sending the
+connect enable command.
+
+00:01:56.320 --> 00:02:01.770
+We then add our office telephone number to
+the system using the Add command.
+
+00:02:01.770 --> 00:02:07.070
+Then when we call the board the call is connected
+and we can control the star and hash relays
+
+00:02:07.070 --> 00:02:11.110
+using the DTMF keypad on the phone.
+
+00:02:11.110 --> 00:02:19.080
+This is why we call the relays STAR and HASH.
+
+00:02:19.080 --> 00:02:23.440
+If we only need a single channel activated
+by a call we select the channel using the
+
+00:02:23.440 --> 00:02:25.220
+channel command.
+
+00:02:25.220 --> 00:02:28.940
+In this case we've selected the star or close
+channel.
+
+00:02:28.940 --> 00:02:35.320
+Now when we ring the board this relay is activated
+by our call.
+
+00:02:35.320 --> 00:02:39.580
+By default the on command will now operate
+the other channel to the one selected by the
+
+00:02:39.580 --> 00:02:41.440
+call channel command.
+
+00:02:41.440 --> 00:02:45.560
+In this case the on command switches on the
+hash relay.
+
+00:02:45.560 --> 00:02:54.770
+We can then switch off this relay using the
+OFF command.
+
+00:02:54.770 --> 00:03:00.400
+We can still operate the star relay by SMS
+text, but to do this we must specify which
+
+00:03:00.400 --> 00:03:05.620
+relay by sending the star or hash character
+with the on or off command.
+
+00:03:05.620 --> 00:03:23.260
+Here we're specifying the star relay to be
+active 
+
+00:03:23.260 --> 00:03:25.140
+for 10s seconds.
+

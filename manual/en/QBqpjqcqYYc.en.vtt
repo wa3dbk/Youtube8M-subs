@@ -1,0 +1,282 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:06.740
+In today's tutorial I'm going to show you
+how to install Magic Thumb in Magento.
+
+00:00:06.740 --> 00:00:09.530
+You can see the product image currently looks
+flat on my page.
+
+00:00:09.530 --> 00:00:12.510
+So I want to change that from this to this.
+
+00:00:12.510 --> 00:00:19.260
+The image comes to life by having an enlarged
+effect and being able to move between product
+
+00:00:19.260 --> 00:00:21.990
+images without going back to my thumbnails.
+
+00:00:21.990 --> 00:00:28.070
+To get this effect we need to go to the Magic
+Toolbox website.
+
+00:00:28.070 --> 00:00:32.810
+If you go to the Magic Thumb product page,
+you'll see the Magento icon on the right hand
+
+00:00:32.810 --> 00:00:37.620
+side which will take you to the Magic Thumb
+for Magento page.
+
+00:00:37.620 --> 00:00:42.800
+Click the download button and save the zip
+file to your computer.
+
+00:00:42.800 --> 00:00:45.340
+Extract all the files.
+
+00:00:45.340 --> 00:00:51.039
+And the magic thumb folder is what we'll upload
+to our server.
+
+00:00:51.039 --> 00:00:53.680
+I'm going to use FileZilla for this.
+
+00:00:53.680 --> 00:00:59.040
+Find the magic thumb folder on your computer
+and upload it to the Magento directory on
+
+00:00:59.040 --> 00:01:00.679
+your server.
+
+00:01:00.679 --> 00:01:05.530
+This will take a few minutes so pause the
+video here and start again once your folder
+
+00:01:05.530 --> 00:01:07.960
+has uploaded.
+
+00:01:07.960 --> 00:01:15.729
+My files have now finished uploading and you
+can see my magic thumb folder is showing here.
+
+00:01:15.729 --> 00:01:18.600
+Next we need to disable the compilation process.
+
+00:01:18.600 --> 00:01:23.260
+We can do this by going to System, Tools,
+Compilation.
+
+00:01:23.260 --> 00:01:30.790
+You can see my compiler status is Enabled
+so I need to disable it.
+
+00:01:30.790 --> 00:01:32.880
+Next we're going to install Magic Thumb.
+
+00:01:32.880 --> 00:01:39.390
+To do this enter your Magento website url
+and after it enter magic thumb.
+
+00:01:39.390 --> 00:01:44.579
+You'll be taken to this page and all you have
+to do is click Install.
+
+00:01:44.579 --> 00:01:49.740
+Now go back to the Compilation page we were
+just on and this time click Run Compilation
+
+00:01:49.740 --> 00:01:50.740
+Process.
+
+00:01:50.740 --> 00:01:57.590
+Of course, if you don't use the Magento compiler
+then you don't need to do this step.
+
+00:01:57.590 --> 00:01:59.570
+Next we need to clear the cache.
+
+00:01:59.570 --> 00:02:01.780
+Go to Cache Management.
+
+00:02:01.780 --> 00:02:03.700
+Select all.
+
+00:02:03.700 --> 00:02:09.149
+Make sure the Action says Refresh and click
+Submit.
+
+00:02:09.149 --> 00:02:11.239
+Magic Thumb is now installed.
+
+00:02:11.239 --> 00:02:14.849
+If you refresh your product page you'll see
+it in action.
+
+00:02:14.849 --> 00:02:20.000
+Remember to only upload large images as they'll
+be used for the enlarged effect.
+
+00:02:20.000 --> 00:02:27.000
+Magento will automatically resize the large
+images to fit other areas of your website.
+
+00:02:27.000 --> 00:02:30.560
+Now that Magic Thumb is installed let's make
+a few changes.
+
+00:02:30.560 --> 00:02:32.980
+First we'll change the enlarge effect.
+
+00:02:32.980 --> 00:02:36.390
+We'll also change the caption at the bottom
+of the image.
+
+00:02:36.390 --> 00:02:43.500
+And finally we'll add a background color around
+the enlarged image.
+
+00:02:43.500 --> 00:02:46.890
+To do this, go to the Magic Thumb settings
+page.
+
+00:02:46.890 --> 00:02:48.900
+Scroll down to the Effects section.
+
+00:02:48.900 --> 00:02:55.769
+Change the expanding effect from Linear to
+Bounce and also change the restoring effect
+
+00:02:55.769 --> 00:02:58.000
+from Linear to Bounce.
+
+00:02:58.000 --> 00:03:05.840
+Under Title and Caption you can see Show Caption
+is marked Yes.
+
+00:03:05.840 --> 00:03:13.810
+The Caption source is currently set to Title,
+I'm going to change this to Short Description.
+
+00:03:13.810 --> 00:03:18.489
+I'll change the Background Opacity from nought
+to thirty.
+
+00:03:18.489 --> 00:03:20.760
+And the background color is defaulted to black.
+
+00:03:20.760 --> 00:03:23.060
+I'm going to change this to red.
+
+00:03:23.060 --> 00:03:31.050
+So if we fresh our product page you can see
+the expand effect now has a bounce.
+
+00:03:31.050 --> 00:03:35.989
+The caption has changed so it's now pulling
+in my short description and the enlarged background
+
+00:03:35.989 --> 00:03:38.220
+color is red.
+
+00:03:38.220 --> 00:03:43.959
+There's so many simple customizations you
+can make which look really effective.
+
+00:03:43.959 --> 00:03:52.040
+Try all the options on the Settings page and
+see what works best for your Magento website.
+
+00:03:52.040 --> 00:03:57.970
+As well as adding Magic Thumb to your product
+pages, you can also add it to your CMS pages.
+
+00:03:57.970 --> 00:04:01.560
+You can see on the Settings page Magic Thumb
+is automatically activated.
+
+00:04:01.560 --> 00:04:07.270
+If you want Magic Thumb to work on the Category
+select Yes here.
+
+00:04:07.270 --> 00:04:13.890
+But for Magic Thumb to work on your CMS pages
+select the Include Headers on all Pages option.
+
+00:04:13.890 --> 00:04:18.930
+This will bring in the CSS and JS files to
+your CMS pages.
+
+00:04:18.930 --> 00:04:22.570
+You can see at the moment my home page is
+blank.
+
+00:04:22.570 --> 00:04:27.720
+To change this go to CMS, Pages.
+
+00:04:27.720 --> 00:04:29.660
+Select the page you want.
+
+00:04:29.660 --> 00:04:34.840
+Choose Content and select the HTML icon.
+
+00:04:34.840 --> 00:04:38.020
+This will open a HTML window.
+
+00:04:38.020 --> 00:04:42.420
+Next, go to the Magic Thumb Integration page.
+
+00:04:42.420 --> 00:04:48.790
+Under point four of the Install section, copy
+the code shown and paste it into your HTML
+
+00:04:48.790 --> 00:04:49.790
+window.
+
+00:04:49.790 --> 00:04:54.830
+The href reference is the large image which
+will be your enlarge effect.
+
+00:04:54.830 --> 00:05:00.850
+We have the Magic Thumb class and the image
+source is the small image which will appear
+
+00:05:00.850 --> 00:05:02.950
+on your web page.
+
+00:05:02.950 --> 00:05:06.230
+So I'm just going to enter my large and small
+image references.
+
+00:05:06.230 --> 00:05:12.070
+The click Update and save your page.
+
+00:05:12.070 --> 00:05:18.610
+Now if we refresh our home page you can see
+Magic Thumb is now working.
+
+00:05:18.610 --> 00:05:23.020
+At the top of each page on our website is
+a Contact Us link.
+
+00:05:23.020 --> 00:05:26.910
+So if you have any questions about any of
+our tools, just get in touch.
+
+00:05:26.910 --> 00:05:30.800
+If we're not online when you send your message
+through, we'll get back to you the very next
+
+00:05:30.800 --> 00:05:31.800
+day.
+
+00:05:31.800 --> 00:05:34.800
+And that brings us to the end of this tutorial.
+
+00:05:34.800 --> 00:05:35.880
+Thanks for watching.
+

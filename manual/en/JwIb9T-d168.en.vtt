@@ -1,0 +1,238 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.029 --> 00:00:02.009
+Hi! Welcome to Living Tech.
+
+00:00:02.009 --> 00:00:03.015
+In this video tutorial,
+
+00:00:03.015 --> 00:00:05.015
+we’re going to show you how to setup a virtual machine
+
+00:00:05.015 --> 00:00:08.009
+using Virtualbox from Sun Micro Systems.
+
+00:00:08.009 --> 00:00:10.021
+Setting up this virtual machine will provide
+
+00:00:10.021 --> 00:00:12.025
+hands on training without the risk of damaging
+
+00:00:12.025 --> 00:00:15.007
+the computer system if something wrong happens.
+
+00:00:15.007 --> 00:00:17.003
+Since the working environment is virtualized,
+
+00:00:17.003 --> 00:00:19.009
+everything we do will reside in its own virtual space
+
+00:00:19.009 --> 00:00:21.021
+that is separate from the rest of the main operating system.
+
+00:00:21.021 --> 00:00:22.029
+To start this tutorial,
+
+00:00:22.029 --> 00:00:25.001
+first run the Virtualbox application.
+
+00:00:25.001 --> 00:00:26.017
+This is what Virtualbox will
+
+00:00:26.017 --> 00:00:28.009
+look like after we open up the program.
+
+00:00:28.009 --> 00:00:31.000
+As we can see, there are no virtual machines
+
+00:00:31.000 --> 00:00:32.019
+that exist inside our Virtualbox, yet.
+
+00:00:32.019 --> 00:00:34.010
+To create a virtual machine,
+
+00:00:34.010 --> 00:00:36.012
+let’s begin by clicking on the New Button.
+
+00:00:36.012 --> 00:00:40.010
+Then click Next to continue with the installation.
+
+00:00:40.010 --> 00:00:43.016
+This is where we can name our virtual machine
+
+00:00:43.016 --> 00:00:46.018
+and select which operating system to run inside our virtual machine.
+
+00:00:46.018 --> 00:00:51.018
+This dropdown box allows us to install any operating system we want.
+
+00:00:51.018 --> 00:00:55.010
+This box allows us to pick which version of the operating system,
+
+00:00:55.010 --> 00:00:57.010
+like Windows XP or Windows 7.
+
+00:00:57.010 --> 00:01:00.022
+Since we’re going to install Windows Server 2008,
+
+00:01:00.022 --> 00:01:04.026
+we will name this virtual machine Windows Server 2008.
+
+00:01:08.011 --> 00:01:14.007
+Then click on the Operating System Drop Down box and select Microsoft Windows.
+
+00:01:14.007 --> 00:01:17.017
+On the version dropdown box, select Windows 2008.
+
+00:01:17.017 --> 00:01:20.019
+Click next to go to the next step.
+
+00:01:20.019 --> 00:01:24.019
+This screen allows you to set the maximum amount of memory
+
+00:01:24.019 --> 00:01:26.011
+that the virtual machine could use.
+
+00:01:26.011 --> 00:01:28.003
+You can stick with the recommended settings,
+
+00:01:28.003 --> 00:01:30.017
+or increase the memory size depending on your needs.
+
+00:01:30.017 --> 00:01:34.027
+In this case, we’re going to dedicate 512MB of RAM to our virtual machine.
+
+00:01:34.027 --> 00:01:37.017
+Keep in mind that the more memory we give to our virtual machine,
+
+00:01:37.017 --> 00:01:39.019
+the smoother our virtual machine will run.
+
+00:01:39.019 --> 00:01:43.020
+If your computer has very little memory, you can stick with the recommended settings.
+
+00:01:43.020 --> 00:01:46.004
+Then click on Next to go to the next step.
+
+00:01:48.024 --> 00:01:53.020
+This screen allows us to create space inside our hard drive to install virtual machine.
+
+00:01:53.020 --> 00:01:56.012
+Make sure the Boot Hard disk option is checked.
+
+00:01:56.012 --> 00:02:00.020
+And then click on the Create New Hard Disk option.
+
+00:02:00.020 --> 00:02:03.002
+Then click on Next.
+
+00:02:03.002 --> 00:02:05.014
+Click Next to continue.
+
+00:02:05.014 --> 00:02:08.004
+On this screen, we can choose either
+
+00:02:08.004 --> 00:02:10.026
+Dynamically Expanding Storage or Fixed-Size Storage.
+
+00:02:10.026 --> 00:02:14.009
+The Dynamically Expanding Storage option allow us to automatically expand
+
+00:02:14.009 --> 00:02:17.027
+our virtual space as we are adding more files, documents and programs.
+
+00:02:17.027 --> 00:02:21.023
+Fixed-Sized Storage allows us to specify a fixed amount of virtual space
+
+00:02:21.023 --> 00:02:23.023
+that our virtual machine can use.
+
+00:02:23.023 --> 00:02:28.009
+It’s best to select the Dynamically Expanding Storage option because
+
+00:02:28.009 --> 00:02:30.001
+there is no virtual space limitation.
+
+00:02:30.001 --> 00:02:33.023
+Our virtual machine can use more virtual space in the future if needed.
+
+00:02:33.023 --> 00:02:35.027
+Go ahead and click on Next.
+
+00:02:35.027 --> 00:02:40.001
+Under location box, we can change the folder location of our virtual space
+
+00:02:40.001 --> 00:02:43.001
+by clicking on the yellow folder icon to the right.
+
+00:02:43.001 --> 00:02:47.008
+In our case, we’re going to keep it at the default location.
+
+00:02:47.008 --> 00:02:50.023
+Next, we’re going to specify the amount of virtual space
+
+00:02:50.023 --> 00:02:52.002
+that our virtual machine will use.
+
+00:02:52.002 --> 00:02:55.024
+In our tutorial, we’re going to use 20GB for our virtual space because
+
+00:02:55.024 --> 00:02:58.014
+we want to allow more room for installation purposes.
+
+00:02:58.014 --> 00:03:02.008
+This does not mean that our virtual machine will use a certain amount of
+
+00:03:02.008 --> 00:03:05.028
+fixed virtual space, but rather it tells our operating system that
+
+00:03:05.028 --> 00:03:08.016
+our virtual machine requires 20GB to run.
+
+00:03:08.016 --> 00:03:12.008
+Since we chose the Dynamically Expanding Storage option,
+
+00:03:12.008 --> 00:03:15.014
+our virtual space will expand if more space is required.
+
+00:03:15.014 --> 00:03:19.008
+Click on Next and you will see the summary of the virtual space
+
+00:03:19.008 --> 00:03:20.019
+that we’re going to create.
+
+00:03:20.019 --> 00:03:23.021
+Go ahead and click on Finish.
+
+00:03:23.021 --> 00:03:27.025
+And then click on Finish again to finish creating our
+
+00:03:20.019 --> 00:03:30.007
+Windows Server 2008 virtual machine.
+
+00:03:31.028 --> 00:03:34.025
+When the setup is finished, the section on the right hand side
+
+00:03:34.025 --> 00:03:37.015
+gives us details about our computer; such as RAM,
+
+00:03:37.015 --> 00:03:41.003
+hard drive space, operating system, video memory and so on.
+
+00:03:41.003 --> 00:03:45.015
+Looking to the left, we can see our Windows Server 2008 Virtual Machine
+
+00:03:45.015 --> 00:03:46.021
+that was just created.
+
+00:03:46.021 --> 00:03:48.029
+Currently, it is in a powered off mode.
+
+00:03:48.029 --> 00:03:53.015
+Now, we can click on Start button to install Windows Server 2008 to our virtual machine.
+
+00:03:53.015 --> 00:03:56.016
+We hope you enjoyed this video tutorial by LivingTech.
+

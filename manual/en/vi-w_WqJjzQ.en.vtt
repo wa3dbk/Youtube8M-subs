@@ -1,0 +1,396 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:12.160 --> 00:00:16.699
+Hey!
+We're making MIDI drums!
+
+00:00:16.699 --> 00:00:21.000
+If you're making a drumset from scratch,
+you're gonna have to get these piezo sensors
+
+00:00:21.000 --> 00:00:24.410
+and also drum pads
+and you're gonna attach the piezo sensors
+
+00:00:24.410 --> 00:00:31.699
+on the bottom of the drumpads
+or if you can find one these guitar hero drumsets
+
+00:00:31.699 --> 00:00:35.579
+which are basically drumpads with piezo sensors
+on the bottom of it,
+
+00:00:35.579 --> 00:00:39.059
+it'll save you a lot of time
+and they're really easy to open up.
+
+00:00:39.059 --> 00:00:43.730
+I'm going to show you how I opened mine.
+I got mine second hand for $20.
+
+00:00:43.730 --> 00:00:47.149
+If you were to build yourself one,
+the cost of drumpads would set you back a
+
+00:00:47.149 --> 00:00:52.180
+lot more than that already.
+So let's get to it!
+
+00:00:52.180 --> 00:00:55.879
+Arduino MIDI drum tutorial!
+
+00:00:55.879 --> 00:00:59.270
+We're going to need an Arduino,
+I chose to use the Arduino UNO because I only
+
+00:00:59.270 --> 00:01:03.719
+needed 6 analog inputs
+but if you have more than 6 piezo sensors,
+
+00:01:03.719 --> 00:01:07.439
+then you can go with the Arduino Mega which
+has 16 analog inputs.
+
+00:01:07.439 --> 00:01:13.399
+We'll also need a proto board.
+For every piezo sensor, we'll need a 1MO resistor.
+
+00:01:13.399 --> 00:01:18.109
+And also 1 220O resistor for the MIDI port.
+A loose MIDI port
+
+00:01:18.109 --> 00:01:19.209
+and male pin headers.
+
+00:01:19.209 --> 00:01:23.219
+If you're constructing the drumset, you'll
+also need piezo sensors.
+
+00:01:23.219 --> 00:01:25.429
+Lots of those.
+And drum pads!
+
+00:01:25.429 --> 00:01:27.959
+Lots of those too.
+And you're going to have to design some kind
+
+00:01:27.959 --> 00:01:29.859
+of structure
+to hold your drumpads.
+
+00:01:29.859 --> 00:01:33.310
+But seriously, save yourself the trouble.
+Just go to your friends place,
+
+00:01:33.310 --> 00:01:37.740
+and jack their guitar hero or rock band controller.
+No one plays that game anymore.
+
+00:01:37.740 --> 00:01:41.289
+I'll be using the guitar hero world tour controller
+in this video.
+
+00:01:41.289 --> 00:01:44.399
+It's got 3 drum pads, 2 cymbal pads, and a
+pedal.
+
+00:01:44.399 --> 00:01:48.759
+On the back panel, there's even 2 stereo 3.5mm
+audio jacks -
+
+00:01:48.759 --> 00:01:52.310
+one of which connects the bass pedal.
+and the other we can save for any further
+
+00:01:52.310 --> 00:01:56.719
+modifications to the drumset.
+Also, this set comes with a MIDI input port.
+
+00:01:56.719 --> 00:02:00.039
+Which is perfect, because we'll just save
+a MIDI jack and rewire this
+
+00:02:00.039 --> 00:02:02.749
+port internally and turn it into a MIDI output
+port.
+
+00:02:02.749 --> 00:02:07.059
+So now let's talk about the Arduino circuit.
+To wire up a piezo sensor, we're going to
+
+00:02:07.059 --> 00:02:12.040
+put it in parallel with a 1MO resistor.
+Then we'll take the voltage readings across
+
+00:02:12.040 --> 00:02:14.459
+the resistor by
+hooking it to one of the analog pins on the
+
+00:02:14.459 --> 00:02:15.150
+arduino and ground.
+
+00:02:15.150 --> 00:02:18.709
+We'll do that for each sensor, on each of
+the analog pins.
+
+00:02:18.709 --> 00:02:22.180
+Then we'll take our MIDI port, and hook it
+up as MIDI output, like so.
+
+00:02:22.180 --> 00:02:25.319
+We're also going to bring a line from the
+serial output of the Arduino,
+
+00:02:25.319 --> 00:02:29.319
+which is pin 1 on the Arduino UNO, and hook
+it up to this pin on the MIDI jack.
+
+00:02:29.319 --> 00:02:30.959
+And that's it!
+
+00:02:30.959 --> 00:02:35.099
+Now let's go through the Arduino program.
+When the piezo is hit once, it creates a signal
+
+00:02:35.099 --> 00:02:37.680
+like this.
+And since we're using the Arduino analog pin
+
+00:02:37.680 --> 00:02:41.239
+to read this signal,
+all negative voltages are read as zeros, so
+
+00:02:41.239 --> 00:02:43.489
+we only get the top half of the signal.
+
+00:02:43.489 --> 00:02:47.019
+We're going to apply a small threshold to
+this signal and ignore anything below the
+
+00:02:47.019 --> 00:02:50.269
+threshold.
+We do this to prevent any unwanted vibrations
+
+00:02:50.269 --> 00:02:53.349
+that the piezo might pick up to trigger and
+MIDI notes.
+
+00:02:53.349 --> 00:02:55.629
+We then keep a buffer of each of the local
+humps.
+
+00:02:55.629 --> 00:03:00.719
+Then looking at the overall shape of the local
+humps, we detect when the signal is increasing.
+
+00:03:00.719 --> 00:03:04.269
+At the peak of the signal, we'll send a MIDI
+note through the serial port of the Arduino
+
+00:03:04.269 --> 00:03:08.180
+with the velocity of the note based on the
+amplitude of the peak.
+
+00:03:08.180 --> 00:03:18.150
+And here's what all this sounds like...
+
+00:03:18.150 --> 00:03:21.790
+So now that we know what the code is doing,
+go ahead and download it from the description
+
+00:03:21.790 --> 00:03:22.310
+box below.
+Before you upload it to the Arduino,
+
+00:03:22.310 --> 00:03:25.560
+there's a few definitions which you might
+want to tweak to suit your needs.
+
+00:03:25.560 --> 00:03:29.379
+At the top, set NUM_PIEZOS to the number of
+sensors you have.
+
+00:03:29.379 --> 00:03:33.879
+Just below that are the threshold values I
+set for each of my sensors.
+
+00:03:33.879 --> 00:03:38.269
+You can tweak these values to see what works
+best for your drumpads.
+
+00:03:38.269 --> 00:03:42.120
+And also you can remap these definitions to
+different analog slots here,
+
+00:03:42.120 --> 00:03:44.609
+depending on how you decided to wire up the
+piezos.
+
+00:03:44.609 --> 00:03:48.420
+The START_SLOT definition analog pin of the
+first piezo.
+
+00:03:48.420 --> 00:03:52.920
+And the START_NOTE definition is the MIDI
+note of the first piezo.
+
+00:03:52.920 --> 00:03:56.469
+The following are MIDI defines and program
+defines,
+
+00:03:56.469 --> 00:04:00.959
+you won't have to touch anything there, and
+you can just leave the rest alone.
+
+00:04:00.959 --> 00:04:04.379
+Okay now we're going to crack open our Guitar
+Hero controller!
+
+00:04:04.379 --> 00:04:08.010
+After you take out the screws on the back
+and unhook the controller dock,
+
+00:04:08.010 --> 00:04:12.909
+we can lift the back plate, and access the
+piezos.
+
+00:04:12.909 --> 00:04:15.930
+You can see that the piezos are plugged in
+directly to the mainboard.
+
+00:04:15.930 --> 00:04:19.470
+The other board on the top just holds the
+back panel, and all the inputs of the back
+
+00:04:19.470 --> 00:04:24.130
+panel are
+plugged into the main board directly as well.
+
+00:04:24.130 --> 00:04:30.300
+We'll just unscrew the main board, and replace
+it with our Arduino.
+
+00:04:30.300 --> 00:04:33.440
+It even fits perfectly in the same screw holes!
+
+00:04:33.440 --> 00:04:37.360
+So we'll have make a shield for the Arduino
+where we can plug in the piezos into.
+
+00:04:37.360 --> 00:04:41.490
+We'll go back to our circuit, and condense
+all this onto a protoboard.
+
+00:04:41.490 --> 00:04:45.080
+First we add some pin headers on the board
+to match the pins of the arduino,
+
+00:04:45.080 --> 00:04:47.930
+so that we can snap the proto board on top
+like a shield.
+
+00:04:47.930 --> 00:04:50.539
+Then we'll take our resistors and connect
+it to a common ground.
+
+00:04:50.539 --> 00:04:53.740
+Then we take our pin headers, break them into
+twos, and
+
+00:04:53.740 --> 00:04:57.340
+solder one end of each of the these to the
+other end of the resistors.
+
+00:04:57.340 --> 00:05:00.580
+Then we connect the other pins of the headers
+to ground as well.
+
+00:05:00.580 --> 00:05:03.800
+Now we can just plug our piezos directly to
+these pin headers.
+
+00:05:03.800 --> 00:05:08.840
+We'll also add one more pin header for the
+MIDI port, like so.
+
+00:05:08.840 --> 00:05:12.599
+When you work with the pin headers, it's a
+good idea to plug them in to the Arduino first
+
+00:05:12.599 --> 00:05:17.020
+before you hot glue them onto the protoboard,
+this way the pins won't be slanted,
+
+00:05:17.020 --> 00:05:21.919
+preventing you from snapping the shield in
+the right position afterwards.
+
+00:05:21.919 --> 00:05:26.870
+Okay! So after a bit of soldering and lots
+of luck,
+
+00:05:26.870 --> 00:05:29.440
+This is what our shield should turn out to
+be.
+
+00:05:29.440 --> 00:05:33.539
+And also - since we're reusing the MIDI port
+on the back panel of this controller,
+
+00:05:33.539 --> 00:05:36.310
+we'll need to make a slight modification to
+the back panel board.
+
+00:05:36.310 --> 00:05:40.150
+By adding a jumper between these two pins,
+we can ground the middle pin of the
+
+00:05:40.150 --> 00:05:43.759
+MIDI port which would otherwise be missing
+for a MIDI output port.
+
+00:05:43.759 --> 00:05:49.310
+We can then plug the last four pins of the
+cable ribbon directly into our proto board.
+
+00:05:49.310 --> 00:05:53.750
+Now let's put everything back together.
+We'll plug in our MIDI port, and one of the
+
+00:05:53.750 --> 00:06:03.520
+piezos, and give that a test.
+When that works the way it should, we'll proceed
+
+00:06:03.520 --> 00:06:20.039
+and plug in the rest of the piezos
+
+00:06:20.039 --> 00:06:24.099
+And when everything's clear, all that's left
+is to close up the unit.
+
+00:06:24.099 --> 00:06:25.780
+And that is it!
+
+00:06:25.780 --> 00:06:29.629
+And now the most important outcome of all
+this - we can play Drummania!
+
+00:06:29.629 --> 00:06:35.430
+Yes, I know, I took apart a Guitar Hero Drumset
+to play Drummania.
+
+00:06:35.430 --> 00:06:37.169
+Worth it!
+
+00:06:37.169 --> 00:06:40.690
+If this project helped you, give me a thumbs
+up or leave a comment below
+
+00:06:40.690 --> 00:06:43.789
+and let me know what you want to see!
+
+00:06:43.789 --> 00:06:44.030
+Later!
+

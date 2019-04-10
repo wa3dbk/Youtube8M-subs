@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.979 --> 00:00:06.320
+I like installing AVRs on things that probably
+shouldn't have AVRs and making AVRs do things
+
+00:00:06.320 --> 00:00:08.080
+they probably shouldn't do.
+
+00:00:08.080 --> 00:00:09.080
+They're tiny little microcontrollers.
+
+00:00:09.080 --> 00:00:12.360
+This one's really small, about the size of
+a pencil eraser.
+
+00:00:12.360 --> 00:00:17.230
+One of the things I've done historically is
+make these little guys do is making NTSC video,
+
+00:00:17.230 --> 00:00:21.560
+that means outputting video to these old analog
+sets, or even newer sets.
+
+00:00:21.560 --> 00:00:23.710
+So, it's working just fine.
+
+00:00:23.710 --> 00:00:26.890
+This one actually doesn't need any external
+components.
+
+00:00:26.890 --> 00:00:28.999
+All it has are these two little bypass caps.
+
+00:00:28.999 --> 00:00:34.030
+It has a little ADC running so you can see
+the voltage of this little slider here and
+
+00:00:34.030 --> 00:00:39.360
+a little graph, almost like an oscilloscope,
+just really slow, of what the voltages were.
+
+00:00:39.360 --> 00:00:43.500
+It's overclocked a little, like 30 MHz.
+
+00:00:43.500 --> 00:00:45.989
+And it's just generating this NTSC video.
+
+00:00:45.989 --> 00:00:49.180
+You might be wondering so what's different
+about this video compared to the previous
+
+00:00:49.180 --> 00:00:50.630
+one?
+
+00:00:50.630 --> 00:00:55.539
+It's not plugged into the television.
+
+00:00:55.539 --> 00:01:03.190
+So, what we're actually doing here is this
+little ATTiny85 is using the internal PLL
+
+00:01:03.190 --> 00:01:05.520
+with the 60 MHz clock as the primary frequency.
+
+00:01:05.520 --> 00:01:12.260
+And, it's taking that and it's taking the
+timer 1 output, and the timer 1 inverting
+
+00:01:12.260 --> 00:01:20.450
+output and the dead time generator in order
+to create a roughly 60 MHz signal that's going
+
+00:01:20.450 --> 00:01:21.450
+to be on channel 3.
+
+00:01:21.450 --> 00:01:23.640
+That's all I can tuent the TV to because I
+lost my remote.
+
+00:01:23.640 --> 00:01:28.070
+So, in order to encoder or AM modulate the
+different things.
+
+00:01:28.070 --> 00:01:32.460
+We can either use one pin, the other pin,
+both pins or neither pin.
+
+00:01:32.460 --> 00:01:37.110
+So what I'm actually doing here is the two
+antennas are slightly different lengths, and
+
+00:01:37.110 --> 00:01:42.190
+that's because the amountof brightness that
+would come from them would be different.
+
+00:01:42.190 --> 00:01:48.090
+So, the difference between sync tip, when
+in an inverted space for AM you have to have
+
+00:01:48.090 --> 00:01:54.570
+the full signal, both pins on, and black level,
+when one of the pins would be on.
+
+00:01:54.570 --> 00:01:58.820
+You need to have even less, porportionally
+to display full white.
+
+00:01:58.820 --> 00:02:03.540
+Which means black level is at -40 and white
+level is at 100.
+
+00:02:03.540 --> 00:02:12.239
+So, with this we can now encode the AVR, encode
+the NTSC on the AVR and modulate it to VHF
+
+00:02:12.239 --> 00:02:16.990
+to the TV without a whole lot of hubbub.
+
+00:02:16.990 --> 00:02:23.709
+You know, I don't see any technical reason
+why you couldn't take this project and the
+
+00:02:23.709 --> 00:02:29.349
+half duplex ethernet AVR project which was
+using the exact same AVR processor and make
+
+00:02:29.349 --> 00:02:31.549
+a closed caption twitter bot.
+
+00:02:31.549 --> 00:02:39.560
+I can't because I don't have the remote control
+to that TV to turn on closed captioning.
+
+00:02:39.560 --> 00:02:43.700
+If you'd like to learn more about NTSC, I
+have a let's learn let's code on it, so you
+
+00:02:43.700 --> 00:02:46.390
+can click on this video right here.
+
+00:02:46.390 --> 00:02:48.969
+Don't forget to subscribe.
+
+00:02:48.969 --> 00:02:54.090
+When you look at your television what you're
+actually seeing is a number of scanlines.
+
+00:02:54.090 --> 00:02:58.790
+The idea behind this is televisions up until
+recently were cathode ray tubes, so they could
+
+00:02:58.790 --> 00:02:59.010
+only
+

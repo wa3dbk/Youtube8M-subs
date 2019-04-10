@@ -1,0 +1,340 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:03.069 --> 00:00:10.069
+Build an LED Strober
+
+00:00:13.169 --> 00:00:16.759
+The strobe light or stroboscopic lamp, commonly known as Strober,
+
+00:00:16.759 --> 00:00:21.269
+is a device used to produce regular flashes of light.
+
+00:00:21.269 --> 00:00:28.769
+The light source commonly used in the strobers is a xenon flash lamp,
+
+00:00:28.769 --> 00:00:33.030
+which manages a temperature of approximately
+
+00:00:33.030 --> 00:00:34.680
+5,600 degrees Kelvin
+
+00:00:34.680 --> 00:00:38.000
+This makes some durable and high risk of burning the device.
+
+00:00:38.000 --> 00:00:43.020
+Having in mind economy and durability,
+
+00:00:43.020 --> 00:00:45.870
+we have used LEDs instead of the obsolete xenon bulbs.
+
+00:00:45.870 --> 00:00:50.940
+LEDs or Light Emitting Diodes, allow today to make a new lighting system,
+
+00:00:50.940 --> 00:00:55.120
+working at very low temperatures,
+
+00:00:55.120 --> 00:01:00.870
+giving a greater efficiency, lower environmental pollution and work intermittently
+
+00:01:00.870 --> 00:01:03.420
+for extended periods
+
+00:01:03.420 --> 00:01:09.060
+of time.
+
+00:01:09.060 --> 00:01:13.210
+As our primary purpose is to transmit basic concepts of electronics
+
+00:01:13.210 --> 00:01:17.680
+through practical projects, a way of achieving a better understanding of this circuit
+
+00:01:17.680 --> 00:01:21.280
+circuit is to mount breadboard (protoboard) from the schematic.
+
+00:01:21.280 --> 00:01:28.280
+We recommend domig this setup before building the circuit board.
+
+00:01:30.620 --> 00:01:32.800
+operation
+
+00:01:32.800 --> 00:01:38.020
+This strobe light system is powered by a single source designed without  transformer.
+
+00:01:38.020 --> 00:01:43.110
+It incorporates a tank circuit formed by a capacitor of 2.2 uF
+
+00:01:43.110 --> 00:01:44.109
+polyester
+
+00:01:44.109 --> 00:01:48.810
+and a resistance of 330K.
+
+00:01:48.810 --> 00:01:53.100
+After these two components limit the current to about 60 milliamps,
+
+00:01:53.100 --> 00:01:56.810
+is rectified by a diode bridge and a capacitor.
+
+00:01:56.810 --> 00:01:58.460
+Like this voltage is high,
+
+00:01:58.460 --> 00:02:01.620
+is reduced to 6 volts by a zener diode
+
+00:02:01.620 --> 00:02:05.240
+with its respective polarization resistor.
+
+00:02:05.240 --> 00:02:06.390
+The 555
+
+00:02:06.390 --> 00:02:08.479
+is an integrated circuit used to generate oscillations
+
+00:02:08.479 --> 00:02:12.999
+and time delays of accuracy.
+
+00:02:12.999 --> 00:02:16.690
+In this case we will use it to make an astable oscillator.
+
+00:02:16.690 --> 00:02:23.469
+The working frequency is set by a potentiometer, a pair of resistors and a capacitor.
+
+00:02:23.469 --> 00:02:27.489
+The 555 is responsible for controlling the transistors
+
+00:02:27.489 --> 00:02:28.719
+that act as switches,
+
+00:02:28.719 --> 00:02:30.359
+LEDs light up.
+
+00:02:30.359 --> 00:02:33.959
+The signal delivered the 555 square foot in 3,
+
+00:02:33.959 --> 00:02:38.279
+goes through a 10K resistor to the base of the
+
+00:02:38.279 --> 00:02:41.039
+2N3904 transistor.
+
+00:02:41.039 --> 00:02:44.239
+The sender of this goes to ground and the collector receives
+
+00:02:44.239 --> 00:02:48.179
+the voltage via a 10K resistor and in turn is connected to the base
+
+00:02:48.179 --> 00:02:51.679
+of another transistor.
+
+00:02:51.679 --> 00:02:56.619
+The collector of the other 2N3904  is in series with the LEDs
+
+00:02:56.619 --> 00:03:00.999
+that are powered from the positive of the diode bridge,
+
+00:03:00.999 --> 00:03:04.069
+before the zener diode limiting resistor.
+
+00:03:04.069 --> 00:03:06.919
+When the 555 sends a positive voltage,
+
+00:03:06.919 --> 00:03:10.319
+the transistor Q1 between emitter and collector leads,
+
+00:03:10.319 --> 00:03:15.279
+negatively biasing the base of transistor Q2.
+
+00:03:15.279 --> 00:03:21.619
+. At this time Q2 does not conduct and therefore does not turn on the LEDs.
+
+00:03:21.619 --> 00:03:25.959
+By the time the 555 sends a negative pulse, the first transistor (Q1)
+
+00:03:25.959 --> 00:03:32.489
+does not lead and positively polarized base of transistor Q2, making driving.
+
+00:03:32.489 --> 00:03:37.299
+At that moment you turn on the LEDs.
+
+00:03:37.299 --> 00:03:44.299
+This cycle is repeated at high speed, producing the effect of flashing light.
+
+00:03:44.329 --> 00:03:47.219
+construction
+
+00:03:47.219 --> 00:03:51.469
+After downloading from our website the PDF file with a list of materials,
+
+00:03:51.469 --> 00:03:53.969
+wiring diagram and the PCB,
+
+00:03:53.969 --> 00:03:57.959
+we must begin to build the oscillator card.
+
+00:03:57.959 --> 00:04:02.090
+They should put all the components using the mask as a guide and review components
+
+00:04:02.090 --> 00:04:09.090
+thoroughly before soldering.
+
+00:04:10.679 --> 00:04:15.549
+If you have no experience in assembling electronic project,
+
+00:04:15.549 --> 00:04:20.799
+be sure to read our section on Recommendations.
+
+00:04:20.799 --> 00:04:26.099
+Having built the oscillator circuit, we must make the panel of 80 LEDs.
+
+00:04:26.099 --> 00:04:30.530
+We will use the lid of a jar of cold recycling.
+
+00:04:30.530 --> 00:04:34.180
+Mask is printed components found in the PDF file
+
+00:04:34.180 --> 00:04:37.000
+and then cut scissors.
+
+00:04:37.000 --> 00:04:41.549
+Paste the mask pattern on the cap and components with the help of a drill,
+
+00:04:41.549 --> 00:04:47.649
+drilled all the holes where the LEDs will go later.
+
+00:04:47.649 --> 00:04:52.039
+LEDs placed at the top, considering that all the LEDs stay with its negative pole
+
+00:04:52.039 --> 00:04:58.789
+facing the left side, in other words the opposite of clockwise
+
+00:04:58.789 --> 00:05:03.669
+To identify the polarity of the LED, we note that the short leg is negative.
+
+00:05:03.669 --> 00:05:10.669
+If by mistake, an LED is placed upside down, the circuit will not start.
+
+00:05:11.699 --> 00:05:15.429
+We bend the legs of the LEDs and cut to sufficient size so that the leg
+
+00:05:15.429 --> 00:05:21.639
+is positive for each LED with LED negative leg immediately following.
+
+00:05:21.639 --> 00:05:27.369
+At this point we must realize the voltage to feed our circuit.
+
+00:05:27.369 --> 00:05:31.179
+If in our country we have a voltage of 220V
+
+00:05:31.179 --> 00:05:32.030
+on the public network
+
+00:05:32.030 --> 00:05:36.130
+we must make a single series from start to finish with 80 LEDs.
+
+00:05:36.130 --> 00:05:39.800
+But if we have a voltage of 120 volts,
+
+00:05:39.800 --> 00:05:46.249
+should do 2 sets of 40 LEDs.
+
+00:05:46.249 --> 00:05:50.639
+Having made the connection of LEDs, proceed to weld their feet,
+
+00:05:50.639 --> 00:05:52.479
+joining all the LEDs together
+
+00:05:52.479 --> 00:05:59.479
+. Be careful not to melt the plastic lid. Make good welds and quickly.
+
+00:05:59.659 --> 00:06:06.659
+Now comes the installation of the oscillator circuit in the bowl of ice cream.
+
+00:06:06.899 --> 00:06:10.889
+Must be made three holes in the back: one for the knuckle of the potentiometer shaft
+
+00:06:10.889 --> 00:06:14.539
+or another to fit the pin it up,
+
+00:06:14.539 --> 00:06:20.400
+and at the bottom there is another hole where the power cord exit the circuit.
+
+00:06:20.400 --> 00:06:25.959
+Card is installed to ensure the pot with nut and washer.
+
+00:06:25.959 --> 00:06:30.219
+It is important before removing the power cord, tie a knot so that
+
+00:06:30.219 --> 00:06:34.600
+when pulling the cable, do not go to abuse the circuit.
+
+00:06:34.600 --> 00:06:37.100
+The sheet will serve as the strobe support
+
+00:06:37.100 --> 00:06:39.399
+the bend by a (U).
+
+00:06:39.399 --> 00:06:43.779
+At each end to make a hole using a drill bit the same diameter
+
+00:06:43.779 --> 00:06:47.449
+as the screws that adjust the blade to the jar.
+
+00:06:47.449 --> 00:06:51.710
+We do a couple of holes on the sides of the bowl and put the screws holding it with foil,
+
+00:06:51.710 --> 00:06:55.069
+leaving the butterflies on the outside,
+
+00:06:55.069 --> 00:07:02.069
+so you can adjust to taste and to change the angle of the strobe.
+
+00:07:03.039 --> 00:07:07.500
+Connecting the LED panel, with the oscillator circuit.
+
+00:07:07.500 --> 00:07:11.449
+The connection I see is for supply of 120 volts.
+
+00:07:11.449 --> 00:07:15.300
+If your country the utility voltage is 220 volts,
+
+00:07:15.300 --> 00:07:20.050
+should be placed in series all 80 LEDs and additional wires will unite
+
+00:07:20.050 --> 00:07:22.379
+the two parallel series,
+
+00:07:22.379 --> 00:07:26.580
+only two wires will oscillator circuit, to panel LEDs.
+
+00:07:26.580 --> 00:07:30.300
+In the end we put the power cord plug.
+
+00:07:30.300 --> 00:07:32.370
+We placed a step switch on and off
+
+00:07:32.370 --> 00:07:36.149
+our strobe.
+
+00:07:36.149 --> 00:07:38.969
+We have our strobe light Strobe or terminated.
+
+00:07:38.969 --> 00:07:42.699
+We can use it at our parties in the establishment or place next
+
+00:07:42.699 --> 00:07:43.639
+to our videojukebox,
+
+00:07:43.639 --> 00:07:47.919
+encouraging the rumba, giving it a disco atmosphere to our business.
+
+00:07:47.919 --> 00:07:51.099
+We hope that this project is also very useful and contribute their knowledge
+
+00:07:51.099 --> 00:07:54.009
+in electronics.
+
+00:07:54.009 --> 00:07:54.699
+Success!
+

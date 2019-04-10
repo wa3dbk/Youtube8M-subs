@@ -1,0 +1,310 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.250 --> 00:00:01.250
+Wow.
+
+00:00:01.250 --> 00:00:04.880
+I almost forgot to do a video on optimising
+this map until I loaded up an early version
+
+00:00:04.880 --> 00:00:07.319
+of it filled with barrels everywhere.
+
+00:00:07.319 --> 00:00:10.800
+Since optimisation is totally like, the most
+fun thing you can spend your time watching
+
+00:00:10.800 --> 00:00:14.360
+on YouTube, I've decided to do two parts on
+the topic.
+
+00:00:14.360 --> 00:00:18.760
+This one focuses on optimising the map the
+proper way, and the second will be more interesting
+
+00:00:18.760 --> 00:00:22.910
+and will show me battling against all sorts
+of problems that arose because of THIS view
+
+00:00:22.910 --> 00:00:24.359
+and from me being stubborn.
+
+00:00:24.359 --> 00:00:26.890
+Oh and I've just watched the Hobbit.
+
+00:00:26.890 --> 00:00:30.960
+Before adding detail, I spent a fair bit of
+time optimising the map.
+
+00:00:30.960 --> 00:00:35.290
+In the past I've preferred a more open map
+design because A) computers are capable of
+
+00:00:35.290 --> 00:00:39.570
+handling the Source engine pretty well in
+this day and age, B)
+
+00:00:39.570 --> 00:00:42.920
+optimisation throws up all sorts of problems,
+as well as limiting how you can detail your
+
+00:00:42.920 --> 00:00:47.350
+level and C) Grenades can no longer be chucked
+across the whole level because they SHALL
+
+00:00:47.350 --> 00:00:52.480
+NOT PASS the skybox and you can't take screenshots
+of the map from interesting, high-up or far-off
+
+00:00:52.480 --> 00:00:54.020
+angles.
+
+00:00:54.020 --> 00:00:57.149
+Optimisation is one of those things that I've
+heard so many horror stories about, and have
+
+00:00:57.149 --> 00:01:01.219
+had so many difficulties with in the past
+(with both my maps and maps that I've tried
+
+00:01:01.219 --> 00:01:05.650
+to fix) that I have built up a sixth sense
+knowing when problems will arise and advise
+
+00:01:05.650 --> 00:01:11.020
+people to use an open skybox unless I feel
+they're skilled and patient enough to benefit
+
+00:01:11.020 --> 00:01:12.880
+from the enclosed method.
+
+00:01:12.880 --> 00:01:16.009
+If that sounds mean, see how you feel after
+these two videos.
+
+00:01:16.009 --> 00:01:20.590
+Despite all this, I settled on an enclosed,
+super-optimised method for this map, both
+
+00:01:20.590 --> 00:01:24.369
+for the challenge and for the fps benefits
+it would give me.
+
+00:01:24.369 --> 00:01:27.830
+It would also help me to walk away from the
+project, knowing that I had learned a thing
+
+00:01:27.830 --> 00:01:29.619
+or two from having tried something different.
+
+00:01:29.619 --> 00:01:32.799
+To check my optimisation I did the BARREL
+CHALLENGE.
+
+00:01:32.799 --> 00:01:37.240
+By placing barrels all over my level, then
+by turning on wireframe, I can see which barrels
+
+00:01:37.240 --> 00:01:38.509
+are being rendered.
+
+00:01:38.509 --> 00:01:43.130
+This simulate items within the level and is
+a good indicator of where further optimisation
+
+00:01:43.130 --> 00:01:44.130
+is needed.
+
+00:01:44.130 --> 00:01:49.210
+I compiled my map at this stage twice, once
+with VIS set to FAST and once with NORMAL.
+
+00:01:49.210 --> 00:01:53.720
+VIS calculates what can be seen and where
+from within a split second, but does a terrible
+
+00:01:53.720 --> 00:01:54.870
+job.
+
+00:01:54.870 --> 00:01:58.079
+NORMAL takes much, much longer but delivers
+a better result.
+
+00:01:58.079 --> 00:02:03.410
+I wasn't happy with either, so added hints
+and areaportals all over my map, which suggest
+
+00:02:03.410 --> 00:02:06.049
+to the computer good places to optimise from.
+
+00:02:06.049 --> 00:02:09.179
+I also normalised the heights of the walls
+for the next stage.
+
+00:02:09.179 --> 00:02:12.510
+It is very hard to get around optimisation
+without trying it yourself.
+
+00:02:12.510 --> 00:02:13.510
+And I mean that.
+
+00:02:13.510 --> 00:02:17.620
+All I can do is to give you examples and demonstrations
+of the differences, but without you trying
+
+00:02:17.620 --> 00:02:20.599
+yourself, you won't know what is causing them.
+
+00:02:20.599 --> 00:02:25.069
+Anyway, these hint blocks are a nightmare
+to work with- they get in the way of you selecting
+
+00:02:25.069 --> 00:02:29.380
+things and also slow down Hammer greatly,
+which is somewhat ironic, so I ended up grouping
+
+00:02:29.380 --> 00:02:31.680
+them together and saving them to another file.
+
+00:02:31.680 --> 00:02:36.010
+At the end when I'm to compile my map for
+the last time I'll paste it back into my map
+
+00:02:36.010 --> 00:02:37.570
+and line them up again.
+
+00:02:37.570 --> 00:02:41.660
+In short, at this stage I'm optimising my
+map, then forgetting about it until the end
+
+00:02:41.660 --> 00:02:46.690
+when I'm to compile a version that people
+will ultimately end up seeing.
+
+00:02:46.690 --> 00:02:49.470
+So why not wait until the end to do this optimisation?
+
+00:02:49.470 --> 00:02:53.239
+Well, before there's detail to your map you
+can more easily change things.
+
+00:02:53.239 --> 00:02:57.810
+In some areas I lowered the ceilings and adjusted
+doorways to improve the optimisation.
+
+00:02:57.810 --> 00:03:02.290
+Also, by adding hints all over the map, it
+helps familiarise you with the optimisation
+
+00:03:02.290 --> 00:03:06.070
+for your own map, so you don't do something
+stupid later on when detailing it.
+
+00:03:06.070 --> 00:03:10.470
+For instance, this wall is important for hiding
+all of the detail in the bombsite behind.
+
+00:03:10.470 --> 00:03:14.360
+If I was to replace it with an open window,
+it would render the entire bombsite right
+
+00:03:14.360 --> 00:03:18.690
+up to CT spawn, something I don't want to
+have happening, since there is already a fair
+
+00:03:18.690 --> 00:03:23.160
+bit visible from CT spawn, giving counter
+terrorists a low framerate when they really
+
+00:03:23.160 --> 00:03:24.349
+don't want or need it.
+
+00:03:24.349 --> 00:03:28.200
+The next stage was to make the map a series
+of rooms with sky textures on the ceiling,
+
+00:03:28.200 --> 00:03:29.819
+instead of a large open area.
+
+00:03:29.819 --> 00:03:32.500
+I didn't close the skybox up until later on.
+
+00:03:32.500 --> 00:03:36.080
+While things are still changing and moving
+about, I don't see the point in wasting time
+
+00:03:36.080 --> 00:03:40.430
+adding skyboxes around each part of your map,
+only to have to remake them every time it
+
+00:03:40.430 --> 00:03:41.430
+changes.
+
+00:03:41.430 --> 00:03:44.400
+This is one of the reasons that I recommend
+just making a hollow box around your level.
+
+00:03:44.400 --> 00:03:48.440
+It's not too hard to close it up provided
+you make the map tidily and place solid blocks
+
+00:03:48.440 --> 00:03:49.959
+under your displacements.
+
+00:03:49.959 --> 00:03:54.340
+I used a large open skybox in this level then
+waited until I had added the tower, large
+
+00:03:54.340 --> 00:03:58.799
+brushes and buildings around my map, before
+closing the map up and focusing on the smaller
+
+00:03:58.799 --> 00:03:59.799
+things.
+
+00:03:59.799 --> 00:04:02.610
+You could say that I should have waited for
+this stage before adding the hints and stuff
+
+00:04:02.610 --> 00:04:06.530
+in, but the layout of my map didn't change
+after I added those- only the vertical height
+
+00:04:06.530 --> 00:04:10.040
+of some of the things, and the items that
+were above wall-height within the level any
+
+00:04:10.040 --> 00:04:11.040
+way.
+
+00:04:11.040 --> 00:04:14.269
+Closing the skybox up reduces the time VIS
+takes to compile on normal.
+
+00:04:14.269 --> 00:04:17.940
+Despite all this, when testing my map for
+graphical purposes I would still just set
+
+00:04:17.940 --> 00:04:18.940
+it to FAST.
+
+00:04:18.940 --> 00:04:23.090
+It would save about 3 minutes every time I
+compiled- doesn't sound like much, but over
+
+00:04:23.090 --> 00:04:25.660
+the course of days and weeks it would save
+hours.
+
+00:04:25.660 --> 00:04:28.120
+Imagine what you could do with an extra couple
+of hours before a deadline.
+
+00:04:28.120 --> 00:04:30.490
+And that concludes part 1.
+
+00:04:30.490 --> 00:04:31.410
+Sounds simple, doesn't it?
+

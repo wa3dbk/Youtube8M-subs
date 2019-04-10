@@ -1,0 +1,195 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:00.610 --> 00:00:05.020
+Hello everyone and welcome to this week's
+game development log video diary! And this
+
+00:00:05.020 --> 00:00:08.200
+week I've been finishing off the entity editor
+and programming a
+
+00:00:08.200 --> 00:00:12.059
+parser to allow my game to read the entity
+files that the editor creates.
+
+00:00:12.059 --> 00:00:16.800
+So let's get straight into the updates that
+I've made to the entity editor, and first
+
+00:00:16.800 --> 00:00:20.900
+off I'm going to show you the finished particle
+settings. I've now got these error
+
+00:00:20.900 --> 00:00:25.340
+margins to work, allowing you to make the
+particle settings slightly more random. Gravity
+
+00:00:25.340 --> 00:00:29.660
+can now also be set to negative which makes
+everything float up, and
+
+00:00:29.660 --> 00:00:34.700
+the direction setting is now more useful because
+I've added this diverge slider, which lets
+
+00:00:34.700 --> 00:00:37.520
+you choose the error margin for the direction,
+giving you
+
+00:00:37.520 --> 00:00:43.050
+some pretty nice cone effects. As well as
+that you can now choose which particle atlas
+
+00:00:43.050 --> 00:00:47.390
+you want to texture the particles. And finally
+I added some settings
+
+00:00:47.390 --> 00:00:52.100
+for particle targets which suck the particles
+towards them like magnets.
+
+00:00:52.100 --> 00:00:58.829
+So, I'll now open the tree entity and you
+can see here that I've added a few more component
+
+00:00:58.829 --> 00:01:02.070
+choices. The tree already has the particle
+component here
+
+00:01:02.070 --> 00:01:07.780
+which is creating the falling leaves effect,
+so let's now add a collision box component.
+
+00:01:07.780 --> 00:01:10.310
+When you add a component now it removes it
+from the list
+
+00:01:10.310 --> 00:01:16.780
+of components, and you can also remove a component
+if you want, which will put it back into the
+
+00:01:16.780 --> 00:01:18.880
+list. But let's now choose some collision
+objects for the
+
+00:01:18.880 --> 00:01:24.880
+tree so that our player can collide with it
+in game...and these are just obj files containing
+
+00:01:24.880 --> 00:01:27.610
+the collision meshes that I made surrounding
+the tree model
+
+00:01:27.610 --> 00:01:33.070
+in Blender. You can see the preview of the
+collision boxes over here on the left, but
+
+00:01:33.070 --> 00:01:36.659
+this only shows up when you're in the collision
+box tab, so it doesn't
+
+00:01:36.659 --> 00:01:41.950
+get in your way when you're adding different
+components. Finally there are these two sound
+
+00:01:41.950 --> 00:01:45.030
+components; the sound emitter gives an entity
+the ability to
+
+00:01:45.030 --> 00:01:50.570
+emit sounds, while the sound looper uses the
+sound emitter to play some random sounds on
+
+00:01:50.570 --> 00:01:54.540
+loop. This means that the sound looper requires
+the sound emitter,
+
+00:01:54.540 --> 00:02:00.570
+so if I try to add the sound looper it will
+automatically add the sound emitter as well.
+
+00:02:00.570 --> 00:02:03.560
+So in the sound looper there are first a couple
+of options to decide
+
+00:02:03.560 --> 00:02:08.590
+how long it waits between playing each sound,
+and I'll just set these to 0 so that our sound
+
+00:02:08.590 --> 00:02:12.110
+simply plays on loop. Then you can choose
+any number of
+
+00:02:12.110 --> 00:02:16.360
+possible sound effects for the sound looper
+to choose from and it will just randomly choose
+
+00:02:16.360 --> 00:02:21.640
+one sound effect from the list to play each
+time. Finally, there's also an option
+
+00:02:21.640 --> 00:02:26.520
+here to choose the range of the sound effect,
+which determines how far away from the entity
+
+00:02:26.520 --> 00:02:32.450
+the sound can be heard. So now we've got our
+tree emitting
+
+00:02:32.450 --> 00:02:36.230
+this lovely wind chimes sound effect.
+So once you've finished creating an entity
+
+00:02:36.230 --> 00:02:40.760
+you can save it, which will export it to a
+folder like this, which contains all the information
+
+00:02:40.760 --> 00:02:44.709
+and necessary
+resources that the entity uses. Then I can
+
+00:02:44.709 --> 00:02:50.030
+simply move that folder into my game's resource
+folder, and then I can use it in the game.
+
+00:02:50.030 --> 00:02:53.319
+All I have to do is
+to load the entity file, and then place it
+
+00:02:53.319 --> 00:02:58.209
+wherever I want in the world. So I've put
+a couple of trees at these positions in the
+
+00:02:58.209 --> 00:03:02.720
+3D world, and now if we have
+a look in the game, we can see these trees
+
+00:03:02.720 --> 00:03:08.310
+that I just created in the entity editor rendering
+nicely in game.
+
+00:03:08.310 --> 00:03:12.200
+So that is it for another week! Next week
+I'm going to be working on something a little
+
+00:03:12.200 --> 00:03:17.630
+less exciting which is an improved OBJ model
+converter. Don't forget to follow me on twitter,
+
+00:03:17.630 --> 00:03:22.590
+indie db and my new Facebook page to keep
+in touch and to see what I'm working on during
+
+00:03:22.590 --> 00:03:25.620
+the week.
+But yeah, thank you guys very much for watching
+
+00:03:25.620 --> 00:03:31.370
+this video, do subscribe if you haven't already,
+have a fantastic week, and I will see you
+
+00:03:31.370 --> 00:03:32.200
+all, next time!
+

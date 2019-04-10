@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.987 --> 00:00:10.012
+Designing a game from inception involves a team coming together around the same vision.
+
+00:00:10.660 --> 00:00:19.190
+Whether it’s a large studio with hundreds of staff or a small indie operation with just a handful of individuals, iteration time is key.
+
+00:00:19.706 --> 00:00:26.011
+A game’s vision will usually morph and evolve as the team starts testing ideas to see what works and what doesn’t.
+
+00:00:27.020 --> 00:00:31.961
+The fate of these ideas are often at the mercy of the time it takes to implement each iteration,
+
+00:00:32.169 --> 00:00:38.294
+whether it's a new gameplay feature, a change in level design, tweaks to the animation system, and so on.
+
+00:00:39.145 --> 00:00:47.208
+In this series, we’ll guide you through the entire production process of creating a working prototype for a side-scrolling platformer game.
+
+00:00:47.520 --> 00:00:56.569
+We’ll also cover all integration workflows for importing and testing 3D assets from Autodesk Maya LT into the game environment.
+
+00:00:57.552 --> 00:01:02.948
+The storyline for this game centers around our hero Sven, an intergalactic satellite repairman,
+
+00:01:02.948 --> 00:01:07.722
+who is endlessly trying to escape the evil Killamari and reach his spaceship.
+
+00:01:09.070 --> 00:01:15.660
+This game is built with the Unity game engine and is designed for mobile platforms, such as tablets and smart phones.
+
+00:01:16.407 --> 00:01:20.744
+What you see here represents the end goal of the first phase of this series.
+
+00:01:20.744 --> 00:01:27.703
+As we move further in this project, we'll iterate on these foundations and add new features and enhancements to the game,
+
+00:01:27.749 --> 00:01:35.135
+such as refined shaders, additional characters, particle effects, polished art, user interface elements, and much more.
+
+00:01:35.985 --> 00:01:40.618
+Let’s start by discussing the early concept design and artistic vision for this game,
+
+00:01:40.618 --> 00:01:44.779
+as well as the gameplay features to be implemented in the next set of movies.
+
+00:01:45.770 --> 00:01:52.100
+The original vision was to create a spin-off adventure for Sven set in the same Hyperspace Madness universe
+
+00:01:52.100 --> 00:01:54.240
+as the 3rd person action adventure game.
+
+00:01:54.785 --> 00:02:01.071
+Using a side-scrolling perspective give us new ways to frame Sven and the world he inhabits.
+
+00:02:02.136 --> 00:02:10.291
+One key objective is to optimize the game for mobile platforms, which means being mindful of polygon count, texture resolution, and so on.
+
+00:02:11.152 --> 00:02:18.543
+Although most of the assets will be in 3D, the gameplay will be restricted to a 2D plane and viewed from a constant camera angle.
+
+00:02:19.438 --> 00:02:24.586
+This helps performance at runtime by allowing us greater control over what the player sees,
+
+00:02:24.586 --> 00:02:29.199
+as opposed to having to plan ahead for every possible type of camera rotation.
+
+00:02:30.050 --> 00:02:34.410
+Another concern we have is in regards to recreating an entire 3D world in the background.
+
+00:02:34.818 --> 00:02:40.122
+This level of detail probably would not pay off for the additional computation it would require.
+
+00:02:40.992 --> 00:02:48.126
+Instead, we'll use multiple 2D plates as foreground and background layers to convey the illusion of depth in the world.
+
+00:02:48.887 --> 00:02:54.284
+We'll still use 3D buildings and accessories in the midground layer to fill the gaps in between.
+
+00:02:55.301 --> 00:03:00.355
+The platform sections in the gameplay layer are designed to easily mix &amp; match.
+
+00:03:00.761 --> 00:03:08.638
+This modular design allows us to create various combinations and scale our level at will, whether we do it by hand or by script.
+
+00:03:09.322 --> 00:03:16.015
+This modular design will also be applied to the platform section extensions, which are part of the mid-ground layer.
+
+00:03:16.611 --> 00:03:22.337
+The purpose of these extensions is not to affect the gameplay layer, but to bring life and depth to the scene.
+
+00:03:23.290 --> 00:03:31.759
+Think of them as mini-stages where non-playable characters can  walk by or interact in the background while Sven is busy making his escape.
+
+00:03:32.838 --> 00:03:37.611
+As for Sven, his movements consist of traveling forward in the level automatically,
+
+00:03:37.611 --> 00:03:44.413
+and flying up and down based on the user's touch input in order to avoid obstacles and enemies in his way.
+
+00:03:45.097 --> 00:03:50.515
+If Sven touches a barrier or an angry Killamari, the level automatically starts over.
+
+00:03:51.791 --> 00:03:55.177
+On the other hand, if he reaches the end, the level is won.
+
+00:03:57.057 --> 00:04:02.566
+Now you have a sense of the story and the initial design considerations that went into this game prototype.
+
+00:04:02.973 --> 00:04:08.007
+So stay with us and follow along as we progressively build and tweak gameplay features.
+
+00:04:08.826 --> 00:04:15.351
+In the next movie of this series, we'll set up our Unity project and start assembling the platform sections.
+

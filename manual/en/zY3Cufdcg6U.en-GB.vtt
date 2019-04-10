@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:06.480 --> 00:00:13.099
+Continue working on your scene or open the file named CP-03_rails.max provided to you.
+
+00:00:13.672 --> 00:00:21.317
+With the road marks in place, you now use a railing tool to create guard rails separating traffic lanes from sidewalks.
+
+00:00:21.940 --> 00:00:29.678
+Make sure Civil View is running and then choose Civil View &gt; Civil View &gt; Rail Object Style Editor.
+
+00:00:30.395 --> 00:00:37.123
+The Rail Object Style Editor bears some resemblance to the Road Markings Style Editor, in both UI and workflow.
+
+00:00:37.791 --> 00:00:41.945
+You first add a new element, and you choose a shape for it.
+
+00:00:42.395 --> 00:00:46.463
+Again, choose the centerline alignment as you did before.
+
+00:00:51.783 --> 00:00:57.523
+Click Apply to see the end results. A default guardrail is created in the middle of the road.
+
+00:00:58.100 --> 00:01:03.108
+There are some general parameters you can adjust such as global widths and offsetting.
+
+00:01:03.906 --> 00:01:13.546
+However, you also need to know that a rail object is made of three components: Posts, Braces and the Rails themselves.
+
+00:01:14.340 --> 00:01:18.665
+These components have their own tabs and can be adjusted individually.
+
+00:01:19.208 --> 00:01:28.115
+For example, you can change the dimensions or the gaps of the posts or even disable them altogether.
+
+00:01:32.983 --> 00:01:36.683
+Similarly, you can edit braces,
+
+00:01:41.016 --> 00:01:47.178
+Or the rails themselves, by setting them to one side or the other,
+
+00:01:56.288 --> 00:02:00.487
+or by choosing a different look or even material.
+
+00:02:07.033 --> 00:02:15.020
+Ultimately, you can change the look of a rail system to achieve interesting results that range from guardrails to train tracks.
+
+00:02:15.738 --> 00:02:21.010
+For example, click the open button and answer No to the save prompt.
+
+00:02:21.698 --> 00:02:28.628
+From the Private Resource Kit, choose railway-wood.ros and open it.
+
+00:02:29.611 --> 00:02:35.051
+Choose the centerline alignment as a reference shape once again and click Apply.
+
+00:02:35.946 --> 00:02:44.473
+As you can see, this style is based on posts and rails only and parameter adjustments give it the look of a railway track.
+
+00:02:45.128 --> 00:02:48.998
+Click the Start New Style icon again without saving any changes.
+
+00:02:49.889 --> 00:02:54.646
+Create a New Element one more time based on the centerline alignment.
+
+00:02:56.923 --> 00:03:01.040
+Click the Apply button to go back to the original default guardrail.
+
+00:03:01.343 --> 00:03:06.659
+This one actually works rather well for our needs here, except that it's in the wrong place.
+
+00:03:07.442 --> 00:03:14.385
+Set its Horizontal Offset to about 10m to bring it closer to the sidewalk. Click Apply to see the results.
+
+00:03:14.904 --> 00:03:17.757
+You can probably make it a bit narrower.
+
+00:03:18.189 --> 00:03:23.932
+The left and right Width values are locked by default, but you can unlock them if you need to.
+
+00:03:24.367 --> 00:03:34.010
+Set them to 0.3m and 0.2m respectively and then hit Apply to see the changes in the viewport.
+
+00:03:39.062 --> 00:03:41.902
+You still need another guardrail on the other side.
+
+00:03:42.245 --> 00:03:48.010
+Much like you did with road marks, you can make a copy of an element and adjust its offset.
+
+00:03:48.833 --> 00:03:56.988
+Also as before, if you need to have two or more elements based on the same reference shape, you need to activate Multiple mode.
+
+00:03:58.457 --> 00:04:02.697
+Once that's done, you can easily copy and paste an existing element.
+
+00:04:04.995 --> 00:04:09.113
+To place it on the other side, you can invert its offset value.
+
+00:04:09.565 --> 00:04:16.690
+You would also need to invert its Left and Right Widths values otherwise the wider section will extend towards the sidewalk.
+
+00:04:17.143 --> 00:04:25.348
+Instead, simply click the Mirror button. This swaps the left and right width values and also inverts the offset.
+
+00:04:26.003 --> 00:04:29.063
+Click Apply to view the results.
+
+00:04:35.448 --> 00:04:38.921
+Save your new style to the Private Resource Kit. 
+
+00:04:43.108 --> 00:04:47.092
+Name it: mySimpleRail.ros
+
+00:04:48.100 --> 00:04:49.853
+Exit the dialog. 
+
+00:04:54.946 --> 00:04:58.895
+Note that the rail objects are part of the alignment hierarchy, 
+
+00:04:59.745 --> 00:05:02.413
+as was the case with the road markings.
+
+00:05:06.143 --> 00:05:12.446
+This means that transforming the parent spline would affect all children objects contained in the hierarchy.
+
+00:05:13.580 --> 00:05:18.730
+Save your file. In the next movie, you learn about Swept Objects.
+

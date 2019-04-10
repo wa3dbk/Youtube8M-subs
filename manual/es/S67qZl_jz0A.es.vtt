@@ -1,0 +1,246 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.240 --> 00:00:01.780
+Hola androides ¿cómo estáis?
+
+00:00:01.780 --> 00:00:03.600
+Bienvenidos a un nuevo vídeo.
+
+00:00:03.600 --> 00:00:07.709
+Xpose Framework vuelve al canal hermanos,
+y hoy vamos a conocer el estado de Xposed
+
+00:00:07.709 --> 00:00:09.410
+para las nuevas versiones de Android.
+
+00:00:09.410 --> 00:00:11.370
+Android Lollipop, así sobre como instalarlo.
+
+00:00:11.370 --> 00:00:16.270
+Si no sabéis de que estoy hablando con esto
+de Xposed, os dejaré por aquí el vídeo
+
+00:00:16.270 --> 00:00:20.840
+que hice en plan introducción a Xposed y
+también enseño como instalarlo en KitKat
+
+00:00:20.840 --> 00:00:22.570
+o en versiones inferiores.
+
+00:00:22.570 --> 00:00:27.330
+Y es que este vídeo que estás viendo ahora
+mismo es exclusivo para Android 5.0 y Android
+
+00:00:27.330 --> 00:00:28.330
+5.1 Lollipop.
+
+00:00:28.330 --> 00:00:33.750
+Pues bien, lo cierto es que están teniendo
+bastantes problemas a la hora adaptar Xposed
+
+00:00:33.750 --> 00:00:36.320
+a Lollipop sobre todo por los cambios en ART.
+
+00:00:36.320 --> 00:00:41.360
+Que no es el mismo ART el que hay en KitKat
+que el que hay en Lollipop como máquina virtual
+
+00:00:41.360 --> 00:00:46.760
+y esto les está costando bastante, pero ya
+hace un mes y algo de que el famoso desarrollador
+
+00:00:46.760 --> 00:00:52.650
+de XDA Robo89 sacó la primera versión oficial,
+eso sí, está en estado de Alpha, está en
+
+00:00:52.650 --> 00:00:56.700
+la versión Alpha 2 para los dispositivos
+que tengan Android Lollipop.
+
+00:00:56.700 --> 00:01:00.600
+En este poco tiempo que Xposed lleva para
+Lollipop, ya se han ido actualizando muchos
+
+00:01:00.600 --> 00:01:04.540
+de los módulos que ahora ya son compatibles
+con Android Lollipop.
+
+00:01:04.540 --> 00:01:06.740
+Muy bien androides, pasemos a la acción.
+
+00:01:06.740 --> 00:01:11.799
+Como sabés, antes instalar Xposed era tan
+fácil como instalar la apk del instalador
+
+00:01:11.799 --> 00:01:15.880
+de Xposed, pero ahora antes de hacer eso,
+tendremos que flashear desde el recovery de
+
+00:01:15.880 --> 00:01:20.460
+vuestro dispositivo el zip correspondiente
+que podéis encontrar en la descripción,
+
+00:01:20.460 --> 00:01:25.460
+aquí debajo de este mismo vídeo, que veréis
+que, el archivo a flashear depende de si tenéis
+
+00:01:25.460 --> 00:01:30.539
+Android 5.0 o Android 5.1, la nueva versión
+de Lollipop.
+
+00:01:30.539 --> 00:01:34.759
+Así es que, si el procesador de tu móvil
+es de 32 y no estás corriendo una ROM basada
+
+00:01:34.759 --> 00:01:38.960
+en Touchwiz, deberás ir al link que te he
+dejado aquí en la descripción, y en el post
+
+00:01:38.960 --> 00:01:42.530
+de XDA, aquí debajo, encontraréis las dos
+cosas a instalar.
+
+00:01:42.530 --> 00:01:45.149
+Que es tanto el zip, como el apk.
+
+00:01:45.149 --> 00:01:49.500
+Una vez descargados ambos archivos, abrís
+vuestro móvil en el modo recovery, deberá
+
+00:01:49.500 --> 00:01:55.810
+ser un custom recovery como por ejemplo es
+este el caso el Team Win Recovery Project.
+
+00:01:55.810 --> 00:02:00.200
+Siempre es muy recomendado, y esta vez más,
+ya que se trata de una Alpha, realizar un
+
+00:02:00.200 --> 00:02:03.979
+buckup, una copia de seguridad de vuestros
+datos, porque así al mínimo fallo que pueda
+
+00:02:03.979 --> 00:02:08.330
+ocurrir, antes de nada restablece la copia
+de seguridad.
+
+00:02:08.330 --> 00:02:12.661
+Una vez se ha completado, ahora sí, le daremos
+a install, y probablemente esté dentro de
+
+00:02:12.661 --> 00:02:18.370
+la carpeta Download, encontraréis el archivo
+que hemos descargado, el zip de Xposed sdk
+
+00:02:18.370 --> 00:02:23.900
+en arm, aquí dice la fecha, este en concreto
+es del 2015 como veis el 30 de abril.
+
+00:02:23.900 --> 00:02:26.970
+Le daremos y confirmamos para flashear.
+
+00:02:26.970 --> 00:02:29.140
+Que será un proceso bastante rápido, como
+veis.
+
+00:02:29.140 --> 00:02:32.830
+Y simplemente le damos a reebot sistem cuando
+haya finalizado.
+
+00:02:32.830 --> 00:02:37.610
+Una vez se haya abierto, proceso que tardará
+2 o 3 minutos, tendremos que ir ahora sí,
+
+00:02:37.610 --> 00:02:39.610
+a por el apk que hemos descargado.
+
+00:02:39.610 --> 00:02:42.530
+El Xposed installer, y le damos a instalar.
+
+00:02:42.530 --> 00:02:47.980
+Una vez dentro del instalador de Xposed daremos
+click en Framework, aceptaremos las ventanitas
+
+00:02:47.980 --> 00:02:52.760
+que nos vaya a mostrar el amigo y como veis,
+dice que solo se puede hacer la instalación
+
+00:02:52.760 --> 00:02:54.690
+manual, como si aún no se hubiese hecho.
+
+00:02:54.690 --> 00:03:00.370
+Y una vez estemos aquí, ahora sí, le daremos
+a reiniciar y se volverá hacer otro reinicio,
+
+00:03:00.370 --> 00:03:02.450
+le damos el permiso de superusuario.
+
+00:03:02.450 --> 00:03:06.780
+Muy bien, pues ahora que se ha vuelto a abrir,
+si vais al Xposed Installer, dentro de FRamework
+
+00:03:06.780 --> 00:03:11.000
+veréis que tiene la misma apariencia, antes
+todo esto estaba en verde, pero esto no significa
+
+00:03:11.000 --> 00:03:12.830
+que no se haya instalado ni mucho menos.
+
+00:03:12.830 --> 00:03:14.810
+De hecho se ha activado correctamente.
+
+00:03:14.810 --> 00:03:19.650
+Por ejemplo podéis ir a descargar módulos,
+yo por ejemplo me he descargado este módulo,
+
+00:03:19.650 --> 00:03:20.650
+el Amplify.
+
+00:03:20.650 --> 00:03:26.360
+Que lo podemos ya, activar y lo podemos hacer
+un softrebot, un reinicio suave.
+
+00:03:26.360 --> 00:03:31.440
+Y una vez reiniciado, cuando vamos a abrir
+la aplicación nos pedirá de nuevo los permisos
+
+00:03:31.440 --> 00:03:36.930
+root, le damos a guardar la selección y veremos
+que aquí está comprobando el Xposed, comprobando
+
+00:03:36.930 --> 00:03:40.750
+el root, que evidentemente lo hemos rooteado
+y como veis todo está listo y se ha hecho
+
+00:03:40.750 --> 00:03:41.750
+correctamente.
+
+00:03:41.750 --> 00:03:45.070
+Así que esto es todo por hoy androides, ya
+sabéis como instalar de una forma bastante
+
+00:03:45.070 --> 00:03:50.350
+sencilla Xposed en vuestros dispositivos Android
+con las últimas versiones de Android.
+
+00:03:50.350 --> 00:03:55.250
+Android Lollipop, tanto 5.0 como 5.1, y dentro
+de poco voy a recuperar un top de módulos
+
+00:03:55.250 --> 00:03:59.400
+de Xposed en el canal, así que aseguraros
+de estáis suscritos para estar a la última
+
+00:03:59.400 --> 00:04:02.010
+y mantener vuestro móvil con Android al mejor
+nivel.
+
+00:04:02.010 --> 00:04:05.600
+Así que hasta aquí el vídeo de hoy, espero
+que os haya gustado, y si es así no olviden
+
+00:04:05.600 --> 00:04:11.290
+darle un buen like para ayudar a la comunidad
+Pro Android a seguir creciendo día tras día.
+

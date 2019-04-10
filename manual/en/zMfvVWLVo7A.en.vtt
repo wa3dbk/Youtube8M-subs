@@ -1,0 +1,131 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.429 --> 00:00:05.289
+In this video we must another method to
+find prime numbers
+
+00:00:05.800 --> 00:00:10.909
+The method is called "The Screen of Eratosthenes"
+
+00:00:10.909 --> 00:00:14.269
+This method is easier than the previous one that I showed you
+
+00:00:14.440 --> 00:00:18.000
+Since in this we will not have to find the divisors of each number
+
+00:00:20.130 --> 00:00:26.510
+It is called a screen of Eratosthenes in honor of Eratosthenes, who was a Greek mathematician of the third century BC.
+
+00:00:31.859 --> 00:00:36.010
+let's find all the numbers
+cousins ​​less than 50
+
+00:00:36.010 --> 00:00:44.250
+for this the first thing we do is
+write the numbers from 1 to 50, in a table
+
+00:00:45.760 --> 00:00:49.060
+First we cross the 1
+
+00:00:49.060 --> 00:00:53.330
+and to the next number that this one without
+cross out so we'll leave it
+
+00:00:53.330 --> 00:00:55.880
+we square it
+
+00:00:55.880 --> 00:01:00.300
+we cross the square and, from
+there, all the multiples that follow
+
+00:01:00.800 --> 00:01:10.300
+let's do this with each number, until we get to the number that comes closest to the square root of the last number in the table
+
+00:01:10.300 --> 00:01:15.520
+50, in this case, since we're looking for cousins ​​less than 50
+
+00:01:15.900 --> 00:01:19.660
+then we cross out to 1, we leave to 2
+
+00:01:20.170 --> 00:01:22.609
+then we raise the 2 to
+square (gives us 4)
+
+00:01:22.609 --> 00:01:23.990
+cross out the 4
+
+00:01:23.990 --> 00:01:30.450
+and then all multiples of 2 that
+are all numbers that end in 2, 4, 6, 8, 0
+
+00:01:30.690 --> 00:01:34.040
+(for what we already saw in another video)
+
+00:01:34.040 --> 00:01:37.640
+next, we look at the
+next number without crossing
+
+00:01:37.640 --> 00:01:39.440
+we leave it like this
+
+00:01:39.440 --> 00:01:41.120
+we raise it to the square (it gives us 9)
+
+00:01:41.120 --> 00:01:44.440
+and cross out the 9
+
+00:01:44.600 --> 00:01:47.520
+and from there, all multiples of 3
+
+00:01:47.730 --> 00:01:55.610
+which are 9, 15, 21, some were already crossed out as 12, 24
+
+00:01:56.760 --> 00:01:59.770
+the next unchecked number is 5
+
+00:01:59.770 --> 00:02:03.610
+we leave the 5, we raise it to the square it gives us 25, we cross it out
+
+00:02:03.610 --> 00:02:10.030
+and we cross out all the multiples of 5 from there, which are those that end in 5 or 0
+
+00:02:10.179 --> 00:02:13.349
+all that end in zero are already
+crossed out
+
+00:02:13.349 --> 00:02:20.340
+Now there is nothing else to cross out
+that end in 5, which are 25 and 35
+
+00:02:20.760 --> 00:02:24.700
+finally, the next unchecked number is 7
+
+00:02:24.979 --> 00:02:35.639
+It's the last one we're going to
+fix, since root of 50 is approximately 7 (7x7 = 49)
+
+00:02:35.639 --> 00:02:44.739
+we leave the 7 without crossing, we square, 7x7 = 49, crossed out 49
+
+00:02:45.729 --> 00:02:51.209
+all the numbers that were left unchecked are cousins ​​less than 50
+
+00:02:51.209 --> 00:02:55.729
+therefore, prime numbers less than 50 are:
+
+00:02:55.869 --> 00:03:07.149
+2, 3, 4, 5, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 and 47
+
+00:03:07.149 --> 00:03:12.769
+with this method can you
+find the prime numbers smaller than any number they want
+
+00:03:13.029 --> 00:03:18.469
+try to find the cousins
+less than 100, and cousins ​​less than 200
+
+00:03:18.509 --> 00:03:24.069
+already in a later video, I will put the results
+

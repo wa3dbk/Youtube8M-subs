@@ -1,0 +1,298 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.850 --> 00:00:11.299
+BMW DME Injector Cutoff Circuit Strategy
+
+00:00:11.299 --> 00:00:17.760
+BMW has used the injector cutoff strategy
+in various forms for many years now.
+
+00:00:17.760 --> 00:00:22.740
+The importance of this is that a technician
+may approach an engine with non pulsing injectors
+
+00:00:22.740 --> 00:00:28.400
+and make it seems as if the DME itself is
+defective, then the issue is not the DME,
+
+00:00:28.400 --> 00:00:33.440
+but an ulterior motive that it sees, causing
+injector cutoff.
+
+00:00:33.440 --> 00:00:38.480
+Injector cutoff comes in two flavors, selective
+and complete.
+
+00:00:38.480 --> 00:00:42.079
+Injector cutoff is a DME programming strategy.
+
+00:00:42.079 --> 00:00:48.010
+It is programmed into the DME unit and may
+also render the injector completely inoperative.
+
+00:00:48.010 --> 00:00:53.440
+Here are the conditions where the DME may
+use injector cutoff.
+
+00:00:53.440 --> 00:00:55.159
+Condition number 1.
+
+00:00:55.159 --> 00:00:57.839
+Engine or vehicle speed limiter.
+
+00:00:57.839 --> 00:01:04.350
+For engine or vehicle speed limitation, the
+DME will deactivate injection for individual
+
+00:01:04.350 --> 00:01:08.229
+cylinders, allowing a smoother limitation
+transition.
+
+00:01:08.229 --> 00:01:14.490
+This prevents overreving, when the engine
+reaches maximum RPM, under acceleration, and
+
+00:01:14.490 --> 00:01:22.110
+limits top vehicle speed to approximately
+128 mph.
+
+00:01:22.110 --> 00:01:24.060
+Condition number 2.
+
+00:01:24.060 --> 00:01:26.200
+Idle speed actuation.
+
+00:01:26.200 --> 00:01:31.409
+If a fault is detected with the idle speed
+actuator, the DME will initiate fail-safe
+
+00:01:31.409 --> 00:01:36.460
+measures and selectively cut pulsation to
+the injectors, depending on the effect of
+
+00:01:36.460 --> 00:01:41.190
+the fault, as in increased air flow or decreased
+air flow.
+
+00:01:41.190 --> 00:01:47.100
+If there is a fault in the idle speed actuator
+circuit, the MDK will compensate to maintain
+
+00:01:47.100 --> 00:01:48.650
+idle speed.
+
+00:01:48.650 --> 00:01:53.469
+The check enigine lamp will be illuminated
+to inform the driver of a fault.
+
+00:01:53.469 --> 00:02:00.299
+If the fault causes increased air flow, as
+in actuator failed to open, VANOS, and Knock
+
+00:02:00.299 --> 00:02:06.549
+Control are deactivated which noticeably reduces
+engine performance.
+
+00:02:06.549 --> 00:02:08.560
+Condition number 3.
+
+00:02:08.560 --> 00:02:10.880
+Fault to the throttle controller.
+
+00:02:10.880 --> 00:02:16.660
+In the event of an MDK or throttle drive by
+wire unit malfunction, the following actions
+
+00:02:16.660 --> 00:02:17.920
+occur.
+
+00:02:17.920 --> 00:02:20.360
+Activation of the check engine warning lamp.
+
+00:02:20.360 --> 00:02:26.700
+MDK is deactivated, the throttle valve is
+opened mechanically by the springs.
+
+00:02:26.700 --> 00:02:33.030
+To maintain vehicle control, the MDK opening
+is compensated for by closing the idle speed
+
+00:02:33.030 --> 00:02:37.970
+actuator and retarding the ignition for engine
+power reduction.
+
+00:02:37.970 --> 00:02:44.240
+Engine power is further limited by the DME
+using fuel injector cut off.
+
+00:02:44.240 --> 00:02:45.560
+Condition number 4.
+
+00:02:45.560 --> 00:02:47.720
+Clear flood mode.
+
+00:02:47.720 --> 00:02:54.170
+Clear-flood mode is activated strictly by
+a wide-open throttle or high TPS input.
+
+00:02:54.170 --> 00:03:00.170
+For this mode to be active, the DME must read
+a low engine speed value of under 600 RPM
+
+00:03:00.170 --> 00:03:07.060
+and a throttle opening of 85% or higher, usually
+wide open throttle.
+
+00:03:07.060 --> 00:03:15.710
+At this point, the DME reduces injector pulse
+to an A/F ratio of 20.0:1 or higher.
+
+00:03:15.710 --> 00:03:20.970
+In most cases, the DME cuts injector pulsation
+completely.
+
+00:03:20.970 --> 00:03:27.040
+All this is done in order to purge the cylinders
+of excess fuel and correct a flooding condition.
+
+00:03:27.040 --> 00:03:32.510
+This mode is not used on all fuel control
+system, which is why some systems will flood
+
+00:03:32.510 --> 00:03:34.400
+under heavy cranking.
+
+00:03:34.400 --> 00:03:40.180
+A condition relating to this mode is an engine
+that will not start due to a high TPS voltage
+
+00:03:40.180 --> 00:03:42.730
+and no injector pulse.
+
+00:03:42.730 --> 00:03:50.730
+In such case, the DME will perceive the high
+TPS voltage as a W.O.T. condition and activate
+
+00:03:50.730 --> 00:03:55.810
+the clear flood mode, thereby, reducing or
+cutting injector pulse altogether.
+
+00:03:55.810 --> 00:04:02.320
+The same can also happen if the TPS ground
+wire develops an open circuit, which would
+
+00:04:02.320 --> 00:04:07.910
+cause a high TPS voltage input signal as well.
+
+00:04:07.910 --> 00:04:10.080
+Condition number 5.
+
+00:04:10.080 --> 00:04:12.290
+Selective injector cut off.
+
+00:04:12.290 --> 00:04:17.090
+Selective injector cut-off mode is activated
+whenever there is a dangerous condition affecting
+
+00:04:17.090 --> 00:04:18.630
+the engine.
+
+00:04:18.630 --> 00:04:24.260
+This is a fairly new feature in fuel control
+systems, designed not only to protect the
+
+00:04:24.260 --> 00:04:27.680
+engine, but the catalytic converter as well.
+
+00:04:27.680 --> 00:04:33.900
+New regulations require manufacturers to guarantee
+the converter for up to 8 years or 80 thousand
+
+00:04:33.900 --> 00:04:35.310
+miles.
+
+00:04:35.310 --> 00:04:40.440
+This makes selective injector cut-off a prime
+feature for catalytic converter protection
+
+00:04:40.440 --> 00:04:42.530
+in case of a misfire.
+
+00:04:42.530 --> 00:04:47.650
+The selective injector cutoff mode is also
+used in torque management situations where
+
+00:04:47.650 --> 00:04:49.890
+torque reduction is needed.
+
+00:04:49.890 --> 00:04:54.720
+An example is the point when the transmission
+is shifting gears or the traction control
+
+00:04:54.720 --> 00:04:56.940
+system is activated.
+
+00:04:56.940 --> 00:05:01.810
+In these two examples, torque reduction is
+needed in order to protect the power train
+
+00:05:01.810 --> 00:05:05.270
+components from sudden high torque conditions.
+
+00:05:05.270 --> 00:05:10.260
+Another need for this operational mode is
+during high engine temperature conditions,
+
+00:05:10.260 --> 00:05:16.070
+whereby, the fuel injection pulse is cut-off
+intermittently to four cylinders at a time
+
+00:05:16.070 --> 00:05:19.620
+to prevent the engine from overheating damage.
+
+00:05:19.620 --> 00:05:25.570
+By reducing the cylinder combustion intermittently,
+the engine generates less heat, saving it
+
+00:05:25.570 --> 00:05:28.310
+from damage.
+
+00:05:28.310 --> 00:05:30.820
+Condition number 6.
+
+00:05:30.820 --> 00:05:32.410
+Deceleration fuel cut off.
+
+00:05:32.410 --> 00:05:38.010
+When your vehicle is moving forward, with
+zero throttle and is in gear or engine braking,
+
+00:05:38.010 --> 00:05:42.060
+the DME cuts off the fuel flow to the injectors.
+
+00:05:42.060 --> 00:05:46.560
+This means you are experiencing forward movement
+with no fuel cost.
+
+00:05:46.560 --> 00:05:51.920
+How long does it take the engine to enter
+and leave the deceleration cut off mode?
+
+00:05:51.920 --> 00:06:00.370
+The transition takes between 500 and 750 milliseconds,
+depending on several other DME measurements.
+
+00:06:00.370 --> 00:06:03.770
+What will make the DME leave deceleration
+mode?
+
+00:06:03.770 --> 00:06:10.490
+Touching the accelerator, Dropping below 1,000
+RPM and Putting the transmission in neutral
+
+00:06:10.490 --> 00:06:24.270
+and disengaging the clutch will render deceleration
+cut off useless.
+

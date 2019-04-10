@@ -1,0 +1,202 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.100 --> 00:00:05.950
+Hello - and welcome to an introduction to
+RadioDNS.
+
+00:00:05.950 --> 00:00:11.830
+Radio as we know it is becoming more multi-platform.
+More than ever before, radio is reaching people
+
+00:00:11.830 --> 00:00:14.080
+in new and different ways.
+
+00:00:14.080 --> 00:00:19.840
+If the experience of the UK is anything to
+go by, people are now expecting radio everywhere
+
+00:00:19.840 --> 00:00:22.910
+ - where where they want it, how they want
+it.
+
+00:00:22.910 --> 00:00:29.460
+So we already know that the future of radio
+is multiplatform. But broadcast radio is scalable,
+
+00:00:29.460 --> 00:00:34.610
+cheap, and portable - it's the primary part
+of our multi-platform broadcast future.
+
+00:00:34.610 --> 00:00:38.089
+And with this comes a problem.
+
+00:00:38.089 --> 00:00:44.449
+Radio faces being left behind, as people experience
+visuals and more information on the same device
+
+00:00:44.449 --> 00:00:50.339
+that also picks up radio. To the left, this
+Samsung phone is playing an MP3. To the right,
+
+00:00:50.339 --> 00:00:56.710
+we're hearing the same song... on the radio.
+It's all a bit 87.5.
+
+00:00:56.710 --> 00:01:02.639
+So we need more functionality. Bookmarking,
+visuals, ways to contact broadcasters and
+
+00:01:02.639 --> 00:01:05.369
+advertisers, and more.
+
+00:01:05.369 --> 00:01:10.229
+Looking at radio receivers these days, many
+of them now have the internet built-in. From
+
+00:01:10.229 --> 00:01:15.960
+mobile phones with FM chips inside them, to
+internet radio sets, FM-equipped laptops and
+
+00:01:15.960 --> 00:01:21.280
+music players - they all have access to radio,
+and the internet, in one box.
+
+00:01:21.280 --> 00:01:28.859
+So if we want rich radio, we can use web services
+over the internet: use broadcast radio for
+
+00:01:28.859 --> 00:01:34.560
+portability and scalability, and the internet
+for visuals, data and feedback.
+
+00:01:34.560 --> 00:01:40.759
+But there's a problem. When your radio tunes
+into a station, it has no idea where to find
+
+00:01:40.759 --> 00:01:43.829
+the online web services. So it can't connect.
+
+00:01:43.829 --> 00:01:51.719
+Broadcast radio works really well. The internet
+is great for additional information, personalisation,
+
+00:01:51.719 --> 00:01:56.039
+and the back channel that could change the
+way advertising is sold on the radio. But
+
+00:01:56.039 --> 00:01:59.649
+how can we link them?
+
+00:01:59.649 --> 00:02:06.079
+How can we tell a connected radio where to
+find a radio station's web services? The obvious
+
+00:02:06.079 --> 00:02:11.970
+answer is to add this information into a radio
+station's broadcasts, in additional metadata.
+
+00:02:11.970 --> 00:02:17.350
+But changing the broadcast chain is expensive,
+requires additional standards setting, and
+
+00:02:17.350 --> 00:02:19.420
+is a lot of hard work.
+
+00:02:19.420 --> 00:02:26.350
+The good news is: we're already broadcasting
+metadata that can be used. In FM RDS, or DAB,
+
+00:02:26.350 --> 00:02:32.690
+or HD, or more - we are already broadcasting
+unique identifiers that can be used to help
+
+00:02:32.690 --> 00:02:36.510
+link broadcasting with the internet.
+
+00:02:36.510 --> 00:02:42.570
+So, in London, an FM radio might see these
+identifiers for Capital FM.
+
+00:02:42.570 --> 00:02:48.560
+Or, in Switzerland, a DAB+ radio might see
+these identifiers for Radio Swiss Pop.
+
+00:02:48.560 --> 00:02:53.440
+And this works just fine for DAB, for HD,
+or for DRM.
+
+00:02:53.440 --> 00:03:01.280
+What RadioDNS does is create a CNAME - an
+alias - that points the radio to the broadcaster.
+
+00:03:01.280 --> 00:03:07.260
+The radio then knows how to find which services
+the broadcaster supports, using service records
+
+00:03:07.260 --> 00:03:10.690
+that the broadcaster controls on their own
+domain.
+
+00:03:10.690 --> 00:03:16.780
+So, for the first time, your radio can use
+IP to enhance broadcast radio.
+
+00:03:16.780 --> 00:03:24.000
+Those services might be...
+- RadioVIS is visualising radio - adding personalised
+
+00:03:24.000 --> 00:03:30.650
+slideshow to more platforms than just DAB.
+- RadioEPG - is a way of supplying the radio
+
+00:03:30.650 --> 00:03:35.370
+with an electronic programme guide and more
+information about the radio station being
+
+00:03:35.370 --> 00:03:40.070
+listened to.
+- RadioTAG - is a method of providing "deferred
+
+00:03:40.070 --> 00:03:45.560
+interaction" - a way to respond to advertising
+or programming elements, or a way of buying
+
+00:03:45.560 --> 00:03:50.210
+music from any music store, in any format,
+for any device.
+
+00:03:50.210 --> 00:03:56.060
+It's our intention to work together with others
+on these specifications, to ensure that broadcast
+
+00:03:56.060 --> 00:04:03.570
+radio isn't left behind in a world of IP-delivered
+audio. And Radio DNS is extensible, to allow
+
+00:04:03.570 --> 00:04:05.760
+almost unlimited new ideas.
+
+00:04:05.760 --> 00:04:15.050
+RadioDNS itself is, along with RadioVIS, already
+in use in products like the PURE Sensia connected
+
+00:04:15.050 --> 00:04:21.880
+radio; and there are more products being built
+as we speak that use RadioDNS technology.
+
+00:04:21.880 --> 00:04:28.120
+And, the documentation is open, so you can
+work on it right now. Please download it - you'll
+
+00:04:28.120 --> 00:04:30.410
+find it at radiodns.org.
+
+00:04:30.410 --> 00:04:37.510
+And you can now become a member of RadioDNS,
+to help the project move forward. There's
+
+00:04:37.510 --> 00:04:40.320
+more details on the RadioDNS website.
+

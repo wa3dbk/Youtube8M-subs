@@ -1,0 +1,229 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.707 --> 00:00:09.641
+Welcome back to our tour of the MotionBuilder interface!
+
+00:00:10.320 --> 00:00:13.230
+In the previous video, we opened an FBX scene, 
+
+00:00:13.410 --> 00:00:14.610
+set some preferences, 
+
+00:00:14.720 --> 00:00:15.750
+checked out the viewer, 
+
+00:00:15.900 --> 00:00:19.230
+merged in a character from our project folder in the asset browser, 
+
+00:00:19.437 --> 00:00:22.481
+and played back its animation with the transport controls.
+
+00:00:23.240 --> 00:00:26.400
+In this video, we'll manipulate our character's control rig, 
+
+00:00:26.600 --> 00:00:27.550
+set some keys, 
+
+00:00:27.790 --> 00:00:29.000
+create an animation layer, 
+
+00:00:29.190 --> 00:00:30.610
+check out what's in the Navigator, 
+
+00:00:30.874 --> 00:00:32.297
+and create a custom layout.
+
+00:00:35.038 --> 00:00:38.193
+The Character Controls window plays an important role when it comes to 
+
+00:00:38.193 --> 00:00:40.875
+setting up and animating characters in MotionBuilder.
+
+00:00:41.550 --> 00:00:45.890
+The Controls tab displays a figure representation of your character's control rig, 
+
+00:00:46.007 --> 00:00:48.409
+letting your easily select the effectors.
+
+00:00:49.420 --> 00:00:58.090
+Effectors are control objects that let you pose and animate your character when you translate them,
+
+00:00:59.828 --> 00:01:01.978
+or rotate them.
+
+00:01:04.708 --> 00:01:14.631
+The Keying modes on top let you decide whether an effector moves only that body part and its branch,
+
+00:01:16.549 --> 00:01:22.868
+or the entire body.
+
+00:01:25.320 --> 00:01:29.170
+If your character doesn't have a control rig yet, this body will be blank …
+
+00:01:30.060 --> 00:01:36.206
+Which means that you need to use the figure on the Definition tab to define, or characterize, your character.
+
+00:01:37.030 --> 00:01:41.030
+Characterization is a tagging process that all characters need to go through 
+
+00:01:41.030 --> 00:01:43.890
+for MotionBuilder to understand their skeletal structure.
+
+00:01:44.678 --> 00:01:48.904
+Once that's been done, as with Natasha here, you can create a control rig.
+
+00:01:50.370 --> 00:01:53.080
+We'll go into this process in more detail in other videos, 
+
+00:01:53.414 --> 00:01:57.593
+since this is a core concept to understand for using MotionBuilder.
+
+00:01:58.450 --> 00:02:02.630
+To create keyframe animation on your character, or any object in the scene, 
+
+00:02:02.790 --> 00:02:05.660
+you can use the options in the Key Controls window.
+
+00:02:06.813 --> 00:02:10.151
+These controls let you create keys that record an object's property, 
+
+00:02:10.430 --> 00:02:15.050
+such as its translation or rotation, at the current frame set in the timeline.
+
+00:02:16.828 --> 00:02:19.340
+You can also remove keys at that frame.
+
+00:02:20.460 --> 00:02:23.520
+The Animation Layers editor lets you use adjust an animation 
+
+00:02:23.681 --> 00:02:28.732
+without changing or duplicating the original animation that's in the BaseAnimation layer.
+
+00:02:31.492 --> 00:02:35.736
+For example, you can create a layer on top of the original animation,
+
+00:02:38.980 --> 00:02:46.790
+and adjust the animation there without touching the original animation.
+
+00:02:50.493 --> 00:02:53.006
+To the left of these windows is the Navigator.
+
+00:02:53.644 --> 00:02:58.902
+This is a commonly used tool that lists all the assets in your scene and organizes them by type, 
+
+00:02:59.220 --> 00:03:03.050
+such as Cameras, Characters, Lights, Materials, and so on.
+
+00:03:03.770 --> 00:03:08.230
+To edit an asset's properties, double-click it to show them in the area on the right, 
+
+00:03:08.513 --> 00:03:10.603
+then change them as you like.
+
+00:03:14.627 --> 00:03:19.166
+The four other tabs in the Navigator window help you edit and control your animation.
+
+00:03:19.750 --> 00:03:24.080
+The Dopesheet displays the keyframes on tracks for animated objects in your scene, 
+
+00:03:24.330 --> 00:03:27.680
+making it easy to edit multiple keys at once.
+
+00:03:33.120 --> 00:03:39.080
+The FCurves, or function curves, editor also shows the keyframes for the animated objects in your scene,
+
+00:03:39.520 --> 00:03:43.010
+but instead of being on tracks, it represents animation as a graph, 
+
+00:03:43.361 --> 00:03:45.935
+showing how values change over time.
+
+00:03:46.770 --> 00:03:51.060
+This makes it easier to adjust individual key values 
+
+00:03:52.300 --> 00:03:56.500
+and the interpolating curve between them.
+
+00:03:58.420 --> 00:04:03.485
+The Story tool is a great help for visualizing your animated scene using multiple cameras.
+
+00:04:05.377 --> 00:04:08.821
+Or use it to create and edit the animation for your characters.
+
+00:04:09.330 --> 00:04:12.340
+For example, you could create animation clips and cycle them,
+
+00:04:12.400 --> 00:04:14.000
+or blend them.
+
+00:04:16.110 --> 00:04:19.040
+The Animation Trigger tool, as its name implies,
+
+00:04:19.110 --> 00:04:23.520
+ lets you set up triggering mechanisms to execute one or more animation clips.
+
+00:04:24.130 --> 00:04:27.400
+For example, you could set up a trigger to drive a character's motion 
+
+00:04:27.460 --> 00:04:31.380
+using keyboard keys, other clips, or even a game controller.
+
+00:04:33.099 --> 00:04:37.340
+Now that you've seen all the different windows in the interface, we'll change their arrangement, 
+
+00:04:37.420 --> 00:04:39.190
+which is known as the layout.
+
+00:04:39.710 --> 00:04:45.860
+The default Editing layout is a general purpose layout that is well-suited for creating and playing back animation.
+
+00:04:46.837 --> 00:04:50.286
+You could also use the Preview layout to have a large viewer,
+
+00:04:50.780 --> 00:04:54.210
+or the Scripting layout to display the Python Editor on the side.
+
+00:04:54.790 --> 00:04:57.920
+These preset layouts support multiple screen resolutions 
+
+00:04:58.087 --> 00:05:01.455
+and will optimize the interface to fit within your current one.
+
+00:05:02.266 --> 00:05:07.664
+To create your own layout, choose Create Custom from the Layout menu, and give it a name.
+
+00:05:11.346 --> 00:05:15.310
+It's added to the list in the Layout menu and set as your current layout.
+
+00:05:16.180 --> 00:05:24.120
+Now you can undock the windows and move them around, resize them, or close them, in order to arrange the interface as you like.
+
+00:05:30.670 --> 00:05:37.130
+You could also move all other windows to a second monitor so that the viewer has the maximum amount of real estate.
+
+00:05:40.097 --> 00:05:44.465
+Any window that you removed can be brought back into the layout from the Window menu.
+
+00:05:45.640 --> 00:05:47.490
+When you make changes to the interface, 
+
+00:05:47.590 --> 00:05:52.330
+MotionBuilder automatically updates the current layout if you have Auto-update Layout on.
+
+00:05:53.233 --> 00:05:56.462
+If you want to update it yourself, you can turn this option off 
+
+00:05:56.728 --> 00:05:59.723
+and use the Update Current Layout command instead.
+
+00:06:00.329 --> 00:06:04.979
+The next time you launch MotionBuilder, it will reload the last layout that you selected.
+
+00:06:06.516 --> 00:06:09.270
+So that was a tour of the MotionBuilder interface.
+
+00:06:10.642 --> 00:06:15.852
+In the following videos, we'll stop and take a closer look at each of the parts of the interface.
+

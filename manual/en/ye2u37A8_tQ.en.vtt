@@ -1,0 +1,179 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.000
+Hi, there! This time I want to introduce you to my newest work
+
+00:00:06.000 --> 00:00:12.000
+the 25-piece human, cat, goat and zombie eyeball set!
+
+00:00:13.645 --> 00:00:15.645
+ok... let's...
+
+00:00:16.441 --> 00:00:20.441
+let's start by explaining the first eye object...
+
+00:00:20.441 --> 00:00:26.441
+The low poly human eye is the base for the rest of the eyeballs
+
+00:00:26.441 --> 00:00:32.441
+it has around 300 triangles and procedural shaders, and I included it in the set
+
+00:00:32.441 --> 00:00:38.441
+Because, you know, with a subdivision modifier, it's almost like the rest
+
+00:00:38.441 --> 00:00:44.441
+and maybe you can use it as a base to make your own custom eye.
+
+00:00:44.441 --> 00:00:51.441
+Now, let's see the human eye... but the normal version, not the low poly one.
+
+00:00:52.000 --> 00:00:58.000
+Human, cat and goat eyeballs have a shapekey to open the iris
+
+00:01:01.500 --> 00:01:05.539
+I'm gonna show you the cat eye, now
+
+00:01:05.593 --> 00:01:11.593
+You can see, the cat iris works the same way...
+
+00:01:11.593 --> 00:01:15.593
+and now in Cycles Preview
+
+00:01:16.072 --> 00:01:19.072
+Let's go to the next layer...
+
+00:01:19.684 --> 00:01:22.684
+and check the goat eyeball...
+
+00:01:22.684 --> 00:01:26.684
+This one works the other way around
+
+00:01:26.700 --> 00:01:31.700
+ the shape key closes the iris instead
+
+00:01:37.746 --> 00:01:40.746
+And finally, the zombie eye!
+
+00:01:40.746 --> 00:01:45.746
+We have six variations like the other eye types
+
+00:01:45.746 --> 00:01:51.746
+Blue eye, yellow eye, blue decayed, yellow decayed...
+
+00:01:51.746 --> 00:01:58.246
+Also there's undead orange with bloody sclera and black sclera
+
+00:02:03.112 --> 00:02:09.112
+Now, let's see how the textures and materials work
+
+00:02:12.496 --> 00:02:18.496
+I'm gonna open a new window here, and go into the node editor
+
+00:02:18.885 --> 00:02:25.885
+so, there's 4 materials per eye, and the 
+materials are linked to the objects, not the data
+
+00:02:25.885 --> 00:02:31.885
+this way, you can have instanced copies of the same eyeball with different shaders
+
+00:02:31.885 --> 00:02:37.885
+I'm using the same texture for all irises, but using masks to modify their color
+
+00:02:37.885 --> 00:02:43.885
+Like this dark brown iris here. If I mute the color nodes, you can see the original texture
+
+00:02:43.885 --> 00:02:47.885
+Let's play a little and make a new color
+
+00:02:50.358 --> 00:02:53.358
+some Liz Taylor purple eye
+
+00:02:54.799 --> 00:02:57.799
+There you go
+
+00:02:59.291 --> 00:03:03.291
+Now I'm going to show you the RGB masks
+
+00:03:03.291 --> 00:03:09.291
+And the special node group to extract the different channels as masks
+
+00:03:09.291 --> 00:03:15.291
+As you can see, each color channel produces a different radial gradient
+
+00:03:15.291 --> 00:03:21.291
+You can use one, two or all of them to make color effects on the iris
+
+00:03:26.575 --> 00:03:30.575
+Ok, let's talk about the sclera materials
+
+00:03:30.575 --> 00:03:34.575
+This works in the same way the iris mask does
+
+00:03:34.575 --> 00:03:40.575
+I use my RGB mask node to separate and edit the 3 masks in the texture:
+
+00:03:40.575 --> 00:03:46.575
+one of the channels have the gradient, and the other 2 are vein layers
+
+00:03:46.575 --> 00:03:54.375
+One of the outer eye materials also uses this technique to add decay and blood for the zombie eye
+
+00:03:55.000 --> 00:04:02.500
+I use the direct mix as an alpha mask, and the separated channels to add different color layers
+
+00:04:03.302 --> 00:04:09.302
+this kinda give a cloudy effect... like a blind person's eye
+
+00:04:09.302 --> 00:04:15.302
+So, you can play with the 3 channels, and give different levels of decay
+
+00:04:27.026 --> 00:04:30.026
+Ok, let's see the textures.
+
+00:04:30.625 --> 00:04:35.625
+ I need to open the UV editor...
+
+00:04:32.310 --> 00:04:37.310
+This is the diffuse map for the iris
+
+00:04:39.113 --> 00:04:45.113
+I'm working with a diffuse map and a normal map for all irises
+
+00:04:49.000 --> 00:04:54.500
+I'm changing both diffuse and normal by just adjusting the map coordinates
+
+00:04:54.500 --> 00:05:00.500
+I just need to move the texture in the X or Y direction, and we will have another iris image
+
+00:05:00.500 --> 00:05:08.000
+see? The cat texture won't work very good with the goat mesh, but the human and zombie will
+
+00:05:08.000 --> 00:05:12.500
+You can play and have multiple variations
+
+00:05:22.995 --> 00:05:26.995
+This is the node group included in the package
+
+00:05:26.995 --> 00:05:31.995
+No big mistery, just a RGB channel separator
+
+00:05:40.680 --> 00:05:44.680
+There's a normal map for the iris, too
+
+00:05:44.680 --> 00:05:49.680
+ and this is the RGB mask texture
+
+00:05:53.086 --> 00:05:56.086
+Ok, well, that's all...
+
+00:05:56.086 --> 00:06:01.086
+This eyeball set will be soon available through Blender Market
+
+00:06:01.086 --> 00:06:04.086
+I will add the link later...
+
+00:06:04.086 --> 00:06:08.086
+Thakns for watching and don't forget to subscribe!
+

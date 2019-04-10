@@ -1,0 +1,258 @@
+WEBVTT
+Kind: captions
+Language: es-ES
+
+00:00:01.810 --> 00:00:03.130
+Vamos a ver
+
+00:00:03.130 --> 00:00:07.100
+como construimos las matrices de
+comparación pareada y calculamos
+
+00:00:07.100 --> 00:00:08.549
+los vectores propios
+
+00:00:08.549 --> 00:00:09.929
+de los jugadores
+
+00:00:09.929 --> 00:00:10.990
+con respecto
+
+00:00:10.990 --> 00:00:13.099
+a las variables
+
+00:00:13.099 --> 00:00:14.889
+y vamos a ver los dos casos
+
+00:00:14.889 --> 00:00:18.899
+cuando nos encontramos en el caso
+cuantitativo y cuando nos encontramos en el caso un
+
+00:00:18.899 --> 00:00:21.509
+caso cualitativo
+
+00:00:21.509 --> 00:00:26.409
+esta sería una estructura clásica de
+valoración de un jugador
+
+00:00:26.409 --> 00:00:28.800
+pretendemos valorar el jugador "x"
+
+00:00:28.800 --> 00:00:30.819
+teniendo estos comparables
+
+00:00:30.819 --> 00:00:34.429
+y teniendo esta estructura de
+características deportivas, personales
+
+00:00:34.429 --> 00:00:35.310
+con éstas
+
+00:00:35.310 --> 00:00:37.270
+variables secundarias
+
+00:00:37.270 --> 00:00:40.110
+Bien, lo primero que queremos hacer como
+
+00:00:40.110 --> 00:00:43.850
+ya sabemos y se ha visto en otros
+vídeos
+
+00:00:43.850 --> 00:00:45.410
+es calcular
+
+00:00:45.410 --> 00:00:48.130
+la ponderación de todas las variables
+
+00:00:48.130 --> 00:00:50.050
+esto se puede hacer
+
+00:00:50.050 --> 00:00:54.130
+a través de las matrices de comparación
+pareada, calculamos
+
+00:00:54.130 --> 00:00:55.320
+la primera matriz,
+
+00:00:55.320 --> 00:00:56.950
+de las variables primarias
+
+00:00:56.950 --> 00:01:01.280
+y los dos matrices de las variables
+secundarias y el producto de ambas
+
+00:01:01.280 --> 00:01:05.920
+nos dara la ponderación final de las
+variables secundarias que son
+
+00:01:05.920 --> 00:01:07.530
+con respecto a las cuales
+
+00:01:07.530 --> 00:01:10.230
+vamos a comparar los jugadores
+
+00:01:10.230 --> 00:01:13.410
+esta sería la estructura ya con las
+ponderaciones de las variables
+
+00:01:13.410 --> 00:01:20.410
+tenemos que los goles son a  66,41%, los partidos jugados un 10,61% , la edad 5,99%
+
+00:01:22.420 --> 00:01:26.120
+el siguiente paso es comparar los
+jugadores
+
+00:01:26.120 --> 00:01:28.520
+con respecto a cada una de las variables
+
+00:01:28.520 --> 00:01:31.970
+pero si observamos las variables veremos que hay variables cuantitativas y variables cualitativas
+
+00:01:31.970 --> 00:01:35.970
+variables cuantitativas son los goles, partidos jugados
+
+00:01:35.970 --> 00:01:37.230
+las asistencias 
+
+00:01:37.230 --> 00:01:38.100
+la edad
+
+00:01:38.100 --> 00:01:41.370
+son variables que podemos encontrar
+información
+
+00:01:41.370 --> 00:01:45.860
+de ellas en publicaciones, en periódicos
+revistas, en internet, etcétera podemos
+
+00:01:45.860 --> 00:01:48.670
+saber los goles que cada uno de estos
+jugadores ha marcado
+
+00:01:48.670 --> 00:01:52.130
+tras estas variables cuantitativas el tratamiento suyo para obtener el vector propio
+
+00:01:52.130 --> 00:01:52.899
+propio
+
+00:01:52.899 --> 00:01:55.450
+es sencillamente
+
+00:01:55.450 --> 00:01:56.480
+buscar
+
+00:01:56.480 --> 00:02:00.730
+los goles en este caso de cada
+jugador y normalizar por la suma
+
+00:02:00.730 --> 00:02:05.010
+sumar todos los goles y dividir los goles de cada jugador por la suma,
+
+00:02:05.010 --> 00:02:09.219
+lo mismo con los partidos jugados,
+las asistencias, etcétera, de manera
+
+00:02:09.219 --> 00:02:10.449
+que esto de  aquí
+
+00:02:10.449 --> 00:02:11.579
+que es suma 1
+
+00:02:11.579 --> 00:02:15.959
+sería el vector propio de los
+jugadores con respecto a la variable
+
+00:02:15.959 --> 00:02:20.559
+goles y este sería el vector propio de los
+jugadores con respecto a los partidos jugados
+
+00:02:20.559 --> 00:02:22.719
+osea, cuando son variables cuantitativas
+
+00:02:22.719 --> 00:02:26.459
+el vector propio se obtiene normalizando por la suma los datos
+
+00:02:26.459 --> 00:02:28.789
+cuantitativos de esa variable
+
+00:02:28.789 --> 00:02:29.720
+pero cuando
+
+00:02:29.720 --> 00:02:31.969
+la variable es cualitativa, como es el caso
+de
+
+00:02:31.969 --> 00:02:33.410
+el liderazgo y la relevancia
+
+00:02:33.410 --> 00:02:37.170
+el rector vector se obtiene a través de
+las encuestas y de las matrices de
+
+00:02:37.170 --> 00:02:41.450
+comparación pareada que hacemos a partir de esas encuestas ,de manera
+
+00:02:41.450 --> 00:02:42.259
+que
+
+00:02:42.259 --> 00:02:45.989
+utilizando expertos o bien
+personalmente se realiza cada una de
+
+00:02:45.989 --> 00:02:48.329
+estas matrices ,la de liderazgo  y relevancia
+
+00:02:48.329 --> 00:02:52.869
+se verifica que es consistente y este sería el vector propio
+
+00:02:52.869 --> 00:02:55.789
+de manera que al final de ambos procesos
+
+00:02:55.789 --> 00:02:57.620
+lo que tenemos es por un lado
+
+00:02:57.620 --> 00:03:00.439
+la ponderación de las variables que
+hemos obtenido al principio
+
+00:03:00.439 --> 00:03:05.019
+y por otro lado la ponderación de los
+jugadores con respecto a cada una de las
+
+00:03:05.019 --> 00:03:05.769
+variables
+
+00:03:05.769 --> 00:03:07.760
+las variables cuantitativas por aquí
+
+00:03:07.760 --> 00:03:10.729
+y las variables cualitativas aquí al final
+
+00:03:11.639 --> 00:03:16.219
+el proyecto de ambas, veremos más
+adelante que nos da el resultado de la
+
+00:03:16.219 --> 00:03:18.219
+ponderación de los jugadores
+
+00:03:18.219 --> 00:03:21.779
+con respecto a todas las variables que es lo
+que estamos buscando para obtener su
+
+00:03:21.779 --> 00:03:22.969
+valor.
+
+00:03:22.969 --> 00:03:28.499
+Con esto hemos visto cómo construir las matrices de comparación pareada de
+
+00:03:28.499 --> 00:03:30.489
+los jugadores con respecto a las variables
+
+00:03:30.489 --> 00:03:34.609
+y calcular su vector propio tanto en los
+casos en que la variable es cuantitativas
+
+00:03:34.609 --> 00:03:37.560
+como cuando la variable que es
+cualitativa
+

@@ -1,0 +1,255 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.449 --> 00:00:08.100
+Hello everybody
+In this video I'd like to show you my latest
+
+00:00:08.100 --> 00:00:15.000
+geeky project,
+which is a module to control my Linux desktop
+
+00:00:15.000 --> 00:00:21.340
+using my hands
+and this is actually the source code
+
+00:00:21.340 --> 00:00:28.340
+It's written in Python and it makes use of
+this... this device here
+
+00:00:28.890 --> 00:00:35.890
+this little thing called the Leap Motion
+which is actually a very, very nice gadget
+
+00:00:37.480 --> 00:00:42.950
+and what it does is it recognizes the movement
+of your hand in three dimensions
+
+00:00:42.950 --> 00:00:49.950
+and it translates them into events that you
+can then read with the API that it ships with
+
+00:00:50.360 --> 00:00:57.360
+I'm going to turn on this flashy mouse so
+that you can see the movement of the mouse
+
+00:00:58.239 --> 00:00:59.570
+pointer
+on the screen
+
+00:00:59.570 --> 00:01:06.570
+I'm sorry if it's a little distracting but
+I think we need that
+
+00:01:07.749 --> 00:01:12.659
+So, what I found when I got the Leap Motion
+is that it doesn't come with any software
+
+00:01:12.659 --> 00:01:15.659
+for Linux
+which I thought was very disappointing
+
+00:01:15.659 --> 00:01:20.939
+and even for Windows it doesn't have a proper
+desktop navigation system
+
+00:01:20.939 --> 00:01:23.749
+which is, I think, the first thing that you
+would do with a device like this
+
+00:01:23.749 --> 00:01:26.249
+you would like to control your desktop with
+it
+
+00:01:26.249 --> 00:01:33.249
+And so I've been working on using the API
+to come up with something like that
+
+00:01:35.279 --> 00:01:40.670
+So, as you can see some of the basic things
+that I can do here is
+
+00:01:40.670 --> 00:01:46.459
+I can move the mouse pointer
+I can grab windows and move those windows
+
+00:01:46.459 --> 00:01:52.799
+around
+I can have this window here, I can move my
+
+00:01:52.799 --> 00:01:58.990
+pointer
+I could even make clicks by moving my finger
+
+00:01:58.990 --> 00:02:05.990
+towards the screen
+but that's not really very convenient
+
+00:02:06.669 --> 00:02:10.789
+So I can grab a window
+oops, I have to have my hand horizontal like
+
+00:02:10.789 --> 00:02:14.379
+this
+I can grab a window and throw it away
+
+00:02:14.379 --> 00:02:19.730
+And that would mean it gets minimized
+but it's in debug mode right now
+
+00:02:19.730 --> 00:02:24.739
+so it is minimized and then it's thrown back
+in the screen
+
+00:02:24.739 --> 00:02:29.870
+it's something that I implemented that way
+in debug mode
+
+00:02:29.870 --> 00:02:36.870
+So we can go to another window
+And so it is very sensitive
+
+00:02:42.430 --> 00:02:49.079
+it's pretty accurate
+And we can do, there's a lot of things you
+
+00:02:49.079 --> 00:02:55.519
+can do with it
+it recognizes lots of gestures and things
+
+00:02:55.519 --> 00:03:00.920
+like that
+The Python API is very good, you get all the
+
+00:03:00.920 --> 00:03:05.040
+information there
+So it's relatively easy to write applications
+
+00:03:05.040 --> 00:03:09.239
+for it
+Oops, sometimes it takes a bit of practice
+
+00:03:09.239 --> 00:03:16.079
+to get used to this new way of doing things
+Another thing that you can do with your module
+
+00:03:16.079 --> 00:03:16.620
+is
+you can bring up the desktop by putting your
+
+00:03:16.620 --> 00:03:23.620
+hand like this
+go to any window that you'd like to open
+
+00:03:26.030 --> 00:03:33.030
+and then as you have already seen
+I can do rotations of my hand
+
+00:03:35.349 --> 00:03:42.349
+to switch desktops and things like that
+You have to be a little careful because I've
+
+00:03:43.680 --> 00:03:50.680
+seen that
+it uses infrared light from your hand and it
+
+00:03:51.299 --> 00:03:54.909
+can get confused
+if there's a lot of infrared background in
+
+00:03:54.909 --> 00:03:58.530
+the environment
+Right now this is not a very good location
+
+00:03:58.530 --> 00:04:01.280
+because I have it set right next to my laptop
+fan
+
+00:04:01.280 --> 00:04:08.280
+so it's getting a lot of hot air blown right
+into the device
+
+00:04:10.049 --> 00:04:17.049
+But still, as you can see, it's pretty accurate
+It recognizes well the movement of my hand
+
+00:04:18.459 --> 00:04:22.820
+and things like that
+So well, that's basically it
+
+00:04:22.820 --> 00:04:26.950
+This is a very experimental module still
+There's a lot of very nice things that you
+
+00:04:26.950 --> 00:04:30.030
+can do
+You can conceive with this device
+
+00:04:30.030 --> 00:04:33.900
+You can conceive an interface kind of like
+the ones we see
+
+00:04:33.900 --> 00:04:37.670
+in science fiction movies like Minority Report
+and things like that
+
+00:04:37.670 --> 00:04:44.670
+where you can grab a window and then toss
+it away
+
+00:04:47.370 --> 00:04:53.050
+That sort of things
+So I think that's it
+
+00:04:53.050 --> 00:04:58.800
+I've been working on this for a couple of
+days
+
+00:04:58.800 --> 00:05:04.470
+And I think it has a lot of potential
+This is basically, what I've done here is
+
+00:05:04.470 --> 00:05:09.140
+a quick and dirty hack
+It's not the smartest way of doing things
+
+00:05:09.140 --> 00:05:16.050
+I've been using the xdotool to translate these
+hand events
+
+00:05:16.050 --> 00:05:22.630
+into simulated keypresses that are sent to
+the X server
+
+00:05:22.630 --> 00:05:28.130
+But I'm sure there's much more efficient ways
+to do it
+
+00:05:28.130 --> 00:05:31.900
+So I'm really looking forward to other applications
+that people will do
+
+00:05:31.900 --> 00:05:36.550
+I think it would be very nice to have a _real_
+three dimensional desktop
+
+00:05:36.550 --> 00:05:43.550
+where you can have windows with depth
+and you can basically grab a window that is
+
+00:05:45.570 --> 00:05:48.120
+further down
+and pull it up and bring it up
+
+00:05:48.120 --> 00:05:52.640
+That sort of things
+I think that's the future of this kind of
+
+00:05:52.640 --> 00:05:54.720
+interfaces
+Well, that's basically it
+
+00:05:54.720 --> 00:05:57.520
+I hope you liked it and thanks for watching
+

@@ -1,0 +1,207 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:08.000
+[music]
+
+00:00:08.000 --> 00:00:11.019
+How are files stored on disk?
+
+00:00:11.019 --> 00:00:13.740
+The simplest way to think of it would be to have
+every file
+
+00:00:13.740 --> 00:00:17.270
+stored sequentially in the order in which
+it was created.
+
+00:00:17.270 --> 00:00:21.539
+This, however, has an obvious problem. When
+a file changes size you can't just write over
+
+00:00:21.539 --> 00:00:23.070
+the file in front of it.
+
+00:00:23.070 --> 00:00:28.090
+Instead, you have to add some onto the end
+of the disk. We use inodes to keep track of
+
+00:00:28.090 --> 00:00:30.019
+these broken up pieces of files.
+
+00:00:30.019 --> 00:00:34.629
+The disk is divided into equally sized blocks,
+each of which can be assigned to any file.
+
+00:00:34.629 --> 00:00:39.540
+If a file is larger than a single block it
+is put into multiple blocks.
+
+00:00:39.540 --> 00:00:46.230
+Each file has an inode associated with it
+that stores which blocks make up the file.
+
+00:00:46.230 --> 00:00:50.449
+All inodes are the same size and are stored
+in an array in the super block.
+
+00:00:50.449 --> 00:00:53.489
+Their consistent size makes it easy to look them
+up.
+
+00:00:53.489 --> 00:01:00.230
+An inode stores more than just data, for example
+you might want to know when a file is created,
+
+00:01:00.230 --> 00:01:05.720
+what its size is, how many links there are
+to it, or who created the file.
+
+00:01:05.720 --> 00:01:09.160
+Each inode therefore has blocks, and metadata.
+
+00:01:09.160 --> 00:01:11.069
+When you want to see the data of the file
+the inode can tell you
+
+00:01:11.069 --> 00:01:14.300
+the blocks that contain that data, or when
+you want to know more
+
+00:01:14.300 --> 00:01:17.289
+about the file itself, it can get the metadata.
+
+00:01:17.289 --> 00:01:23.380
+So you have a file, inode 2 for example, and
+in the operating system
+
+00:01:23.380 --> 00:01:27.390
+you can have a bunch of links that point to
+this file.
+
+00:01:27.390 --> 00:01:32.580
+You can have README, you can have help, et
+cetera.
+
+00:01:32.580 --> 00:01:35.450
+All of these are links to the same inode,
+um,
+
+00:01:35.450 --> 00:01:39.310
+so when you open one of these, it'll... it
+displays the data
+
+00:01:39.310 --> 00:01:42.360
+that's... that's in the blocks referenced
+by that inode.
+
+00:01:42.360 --> 00:01:46.810
+Remember, all inodes are stored in the inode
+table in the super block;
+
+00:01:46.810 --> 00:01:50.509
+each of them is the same size. Let's look
+at inode two.
+
+00:01:50.509 --> 00:01:53.390
+If it were to represent a file forty blocks
+long,
+
+00:01:53.390 --> 00:01:56.830
+you'd think it would contain forty block pointers,
+but no.
+
+00:01:56.830 --> 00:01:59.890
+Since inodes are a tiny preallocated size,
+they simply don't have
+
+00:01:59.890 --> 00:02:05.700
+enough room for forty block pointers. This
+is where indirect blocks come into play.
+
+00:02:05.700 --> 00:02:11.060
+Each inode has an array of twelve block pointers.
+The standard block size is four kilobytes,
+
+00:02:11.060 --> 00:02:16.130
+which means you have four times twelve, or
+forty-eight kilobytes of storage.
+
+00:02:16.130 --> 00:02:22.700
+So what do you do when you have a file larger
+than that. Well, that's not the whole story.
+
+00:02:22.700 --> 00:02:28.920
+In addition to the twelve block pointers, an
+inode contains three indirect block pointers,
+
+00:02:28.920 --> 00:02:30.060
+which will help.
+
+00:02:30.060 --> 00:02:31.670
+[snap] Bee-bee-ba-dee-ba-dee!
+
+00:02:31.670 --> 00:02:34.880
+Each indirect block points to a block of block
+pointers,
+
+00:02:34.880 --> 00:02:38.580
+greatly expanding an inodes capacity.
+
+00:02:38.580 --> 00:02:41.230
+Indirect block can also point to other indirect
+blocks creating
+
+00:02:41.230 --> 00:02:46.170
+double or treble indirect blocks this even
+further expands the capacity of an inode.
+
+00:02:46.170 --> 00:02:50.540
+Think about it. You have limited space to
+store references to direct blocks
+
+00:02:50.540 --> 00:02:53.680
+so why use all that space to store references
+to direct blocks.
+
+00:02:53.680 --> 00:02:58.250
+Even indirect shouldn't all point to direct
+blocks when you can just point to more indirect
+
+00:02:58.250 --> 00:02:59.160
+blocks.
+
+00:02:59.160 --> 00:03:02.740
+This gives you file sizes of up to four terabytes.
+
+00:03:02.740 --> 00:03:06.840
+Representing files as a table of inodes has
+some interesting side effects.
+
+00:03:06.840 --> 00:03:13.090
+For example, you can run out of file space,
+without actually running out of disk space.
+
+00:03:13.090 --> 00:03:18.450
+Your inode table is a limited size, and if
+you have a whole ton of really tiny files,
+
+00:03:18.450 --> 00:03:23.670
+you might run out of spaces in your inode
+table before you run out of disk space.
+
+00:03:23.670 --> 00:03:27.000
+It's worth noting that inodes are a UNIX thing.
+
+00:03:27.000 --> 00:03:31.400
+Apple and Microsoft both have their own filesystems.
+
+00:03:31.400 --> 00:03:36.990
+Apple's HFS+ uses a catalog file which is
+analogous to inodes.
+
+00:03:36.990 --> 00:03:43.990
+Microsofts NTFS uses file record attributes,
+which also serve the same purpose.
+

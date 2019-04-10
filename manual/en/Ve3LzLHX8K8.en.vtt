@@ -1,0 +1,135 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.810 --> 00:00:07.810
+Hi, I'm Patrick and this is a PICAXE Computer
+I made, it runs the operating system I programmed
+
+00:00:09.330 --> 00:00:15.750
+PLOS (which stands for Patrick Leiser Operating
+System). As you can see the battery's low,
+
+00:00:15.750 --> 00:00:22.750
+anyway it has a text editor, where you can
+type and the save it, in this case as youtube.txt
+
+00:00:25.060 --> 00:00:32.060
+save it to an SD card and it also has a calculator where it can do math like 567 divided by 5
+
+00:00:43.220 --> 00:00:50.220
+which is 113 it also has a timer where, say,
+you can set it to count for 5 seconds, and
+
+00:00:50.970 --> 00:00:55.130
+then it will count down it can do that in
+the background even when other applications
+
+00:00:55.130 --> 00:00:59.050
+are running [alarm sounds] and I'm not sure
+if you can hear it, but it's sounding an alarm
+
+00:00:59.050 --> 00:01:06.050
+sound now
+so now the battery's dead so I'm going to
+
+00:01:07.869 --> 00:01:14.869
+give you and inside look.
+and 
+now you can see the inside, this is the CPU
+
+00:01:23.130 --> 00:01:30.130
+which is a PICAXE 28X2 microcontroller this
+is the keyboard monitor, which is also a 28X2
+
+00:01:32.179 --> 00:01:37.759
+microcontroller both of which I programmed
+and this is the SD card reader. it originally
+
+00:01:37.759 --> 00:01:44.759
+had a cable going outside the case so you
+could access the SD card from outside the
+
+00:01:46.590 --> 00:01:53.590
+case, but then that broke and here's the power
+supply: 3 AA batteries one of which is dead
+
+00:01:55.209 --> 00:02:02.209
+so I'm swapping that out and here we have
+an Ethernet cable, not used for ethernet,
+
+00:02:06.079 --> 00:02:13.079
+but to get 8 wires to the top half of the
+case where it has speakers, and the display:
+
+00:02:13.950 --> 00:02:20.950
+a serial 20 by 4 character OLED display, the
+battery is now good anyway these are the programming
+
+00:02:22.080 --> 00:02:29.080
+cables and this is the cable that goes to
+the keyboard, a PS/2 cable and now I have
+
+00:02:33.930 --> 00:02:40.930
+to put it back together.
+now that I replaced the batteries I'll show
+
+00:02:49.079 --> 00:02:56.079
+you the SD card, here is a file I wrote earlier.
+Also here is what I typed earlier in the video.
+
+00:03:29.950 --> 00:03:36.950
+The main program for this was 1367 lines,
+the keyboard program 155 lines, the display
+
+00:03:40.930 --> 00:03:47.930
+program was 166 lines, and the work in progress
+program that allows you to write a program
+
+00:03:51.700 --> 00:03:55.010
+and run that program on here (not needing
+a computer), anyway that program is 435 lines.
+
+00:03:55.010 --> 00:04:02.010
+the total program length for all the programs
+combined is 2123 lines of PICAXE BASIC.
+
+00:04:04.790 --> 00:04:11.790
+You might be wondering how it all works, well
+basicaly this is the CPU microcontroller,
+
+00:04:12.420 --> 00:04:18.840
+a PICAXE 28X2, it's prorammed through here,
+it is normally programmed with a USB-headphones
+
+00:04:18.840 --> 00:04:25.840
+cable but you can see here that it has a headphone
+extension cable that allows you to program
+
+00:04:27.479 --> 00:04:34.479
+it from outside the case the keyboard monitor
+works the same way and communicates with the
+
+00:04:37.340 --> 00:04:44.340
+CPU through i2c which is a communication protocol
+that allows multiple devices on the same two
+
+00:04:47.030 --> 00:04:53.780
+wires to communicate with each other and notice
+multiple devices, so I also used this SD card
+
+00:04:53.780 --> 00:05:00.780
+reader which als uses i2c to communicate with
+the CPU and it uses a single wire with the
+
+00:05:01.889 --> 00:05:08.889
+serial (UART) protocol to communicate through
+this way and then to the display here.
+
+00:05:12.650 --> 00:05:19.650
+With this computer I won 1st in the Sacramento
+Regional Science Fair and 4th place in the
+
+00:05:19.650 --> 00:05:24.000
+California State Science Fair!
+

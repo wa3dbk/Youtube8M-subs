@@ -1,0 +1,178 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:06.586 --> 00:00:14.806
+Continue working on your project. You can also use the file named CrownPoint-03.DWG that you downloaded for this tutorial.
+
+00:00:15.523 --> 00:00:20.483
+With the Alignment and Profile in place, all that's left is to build an Assembly.
+
+00:00:20.990 --> 00:00:29.370
+An assembly is a cross-section of the road you are designing, where you specify shoulders, lanes and sidewalks among other components.
+
+00:00:29.939 --> 00:00:35.506
+The creation of an assembly is pretty straightforward, a bit like lego work.
+
+00:00:36.021 --> 00:00:42.385
+In fact, you're going to need two assemblies, one for the bridge ends where you're still on land,
+
+00:00:42.733 --> 00:00:47.678
+and another for the part that is actually over the water. More on that in a moment.
+
+00:00:48.110 --> 00:00:54.840
+From the Home tab, choose Assembly &gt; Create Assembly.
+
+00:00:56.240 --> 00:01:01.640
+Name the assembly: "Assembly - Bridge Ends" and click OK.
+
+00:01:03.571 --> 00:01:10.404
+Click a point under the profile view. Civil 3D automatically zooms in on the assembly node.
+
+00:01:15.396 --> 00:01:20.559
+Now open the Tools Palette, it's that little icon to the left of the Home tab.
+
+00:01:21.214 --> 00:01:26.304
+From there, you can choose various components to build the cross-section of your choice.
+
+00:01:26.861 --> 00:01:31.589
+Start with the Basic palette. Most of the components you need are there.
+
+00:01:32.268 --> 00:01:39.370
+The assembly node that you see represents the middle of the cross-section. That's like a centerline in a two-way street.
+
+00:01:39.950 --> 00:01:45.105
+You'll start with a small shoulder to ensure a small separation between opposing traffic.
+
+00:01:45.890 --> 00:01:51.510
+You'll also work on one side and ultimately mirror the components to the other side.
+
+00:01:52.145 --> 00:02:03.825
+Choose the Basic Shoulder component. In the Properties dialog, verify the default is set to the right side and that the width is 0.9m.
+
+00:02:05.015 --> 00:02:08.043
+Set the Slope to -1%, 
+
+00:02:10.616 --> 00:02:16.543
+and then click the assembly node. A new shoulder component is created to the right of the node.
+
+00:02:17.308 --> 00:02:23.313
+Nest, you'll create a lane. Select the BasicLane component from the Basic palette.
+
+00:02:23.876 --> 00:02:31.976
+Make sure the defaults are set to Right, with a width of 3.6m and a slope of -2%
+
+00:02:32.846 --> 00:02:39.163
+Click the top right corner of the shoulder you created earlier. A new lane component is created.
+
+00:02:40.506 --> 00:02:45.096
+Add another as you need two lanes for each traffic direction.
+
+00:02:47.160 --> 00:02:51.470
+Next add another shoulder but make it a bit wider.
+
+00:02:51.818 --> 00:02:57.417
+Set it to 1.8m wide with a -2% slope.
+
+00:03:02.656 --> 00:03:06.806
+Next, choose the BasicCurbAndGutter component.
+
+00:03:07.571 --> 00:03:11.766
+Keep the default values and connect it to the shoulder.
+
+00:03:13.093 --> 00:03:20.971
+Scroll down the Basic palette and add a BasicSidewalk to the mix. Again, use the default values.
+
+00:03:21.799 --> 00:03:26.321
+You're almost done but you still need a component named Daylight.
+
+00:03:26.966 --> 00:03:33.592
+A Daylight in this context is a projected slope from the bridge design to the target surface underneath.
+
+00:03:34.030 --> 00:03:37.043
+It works in either cut and fill situations.
+
+00:03:37.575 --> 00:03:47.806
+In this case, since the design is higher than the surface, the Daylight component creates "fills" to join the road edges to the ground.
+
+00:03:50.179 --> 00:03:52.564
+Go to the Daylight palette, 
+
+00:03:53.788 --> 00:03:59.403
+and add a DaylightGeneral component connected to the top right corner of the sidewalk.
+
+00:04:01.338 --> 00:04:03.943
+Right-click to exit the command when done.
+
+00:04:05.315 --> 00:04:14.118
+To create the left side components, you can insert them one at a time as you just did, or better yet, you can mirror the ones you already placed.
+
+00:04:14.613 --> 00:04:21.633
+Using a crossing selection window, right to left, select all the components except the original node.
+
+00:04:24.208 --> 00:04:26.843
+Right-click and choose Mirror.
+
+00:04:27.296 --> 00:04:35.659
+There's an important distinction to be made here in that the Mirror tool seen in this pop-up menu is specific for sub-assemblies.
+
+00:04:36.163 --> 00:04:42.256
+This is the one you want to use here. Do not try using the regular Autocad-based mirror function.
+
+00:04:43.036 --> 00:04:47.248
+You now have an assembly which means you can actually create your corridor.
+
+00:04:47.796 --> 00:04:52.416
+However, the assembly you created has daylight components defined.
+
+00:04:52.871 --> 00:04:59.261
+As mentioned, these are used to create cut/fill situations with the underlying surface.
+
+00:04:59.552 --> 00:05:04.281
+This works well for the bridge-end parts, where the road is still over land.
+
+00:05:04.858 --> 00:05:12.548
+For the middle region of the bridge, where the bridge is in fact over the water, you need a different assembly, one without daylights.
+
+00:05:13.047 --> 00:05:20.083
+And so you will duplicate the existing assembly, by copying all the components except the Daylight sub-components.
+
+00:05:20.753 --> 00:05:24.420
+The new assembly will be used for the middle part of the bridge.
+
+00:05:25.076 --> 00:05:29.506
+First start by creating a new assembly node as you did earlier. 
+
+00:05:30.918 --> 00:05:34.944
+Name it: "Assembly - Bridge Over Water"
+
+00:05:35.848 --> 00:05:38.750
+Place its node underneath the previous one.
+
+00:05:39.598 --> 00:05:44.789
+Now select all the components to the right of the first assembly, except for the Daylight part.
+
+00:05:45.633 --> 00:05:49.826
+Also make sure the original node is not part of the selection.
+
+00:05:50.848 --> 00:05:56.596
+Right-click and choose Copy To and then click the new assembly node.
+
+00:05:57.333 --> 00:06:00.403
+You now have duplicates of the sub-assemblies you need.
+
+00:06:01.088 --> 00:06:05.956
+Select the duplicates and mirror them to the other side as you did before.
+
+00:06:11.736 --> 00:06:17.821
+Zoom back a bit and notice how much smaller these assemblies are in the greater project scale.
+
+00:06:18.405 --> 00:06:26.021
+Many Civil 3D users create a sphere or a rectangle around assemblies to be able to pinpoint them when zoomed out of the project.
+
+00:06:26.428 --> 00:06:34.818
+If you want to do that, simply use the Circle command (C on the keyboard) to draw a circle around your assemblies.
+
+00:06:39.452 --> 00:06:45.238
+Dismiss the Tools palette and save your file. In the next movie, you create a corridor.
+

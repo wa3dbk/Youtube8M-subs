@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.149 --> 00:00:04.980
+In this tutorial I'm going to walk you through
+the process of creating a blur effect in Flash.
+
+00:00:04.980 --> 00:00:10.959
+I have a simple scene with a bouncing basketball
+character, and I want to improve it by blurring
+
+00:00:10.959 --> 00:00:17.970
+his shadow and by adding a motion blur effect
+behind the character when he is moving quickly.
+
+00:00:17.970 --> 00:00:21.480
+First, select the object you want to blur.
+I'll start with his shadow.
+
+00:00:21.480 --> 00:00:38.180
+Now, convert the object into a symbol and
+give it a name.
+
+00:00:38.180 --> 00:00:42.640
+This next part is important. Make sure the
+"type" option for your symbol is set to Movie
+
+00:00:42.640 --> 00:00:46.390
+Clip. The filter options won't be available
+if you make it a graphic!
+
+00:00:46.390 --> 00:01:05.040
+Now that your object is a movie clip, make
+sure it's selected and find your Filters panel.
+
+00:01:05.040 --> 00:01:08.080
+This might be a bit difficult to find!
+
+00:01:08.080 --> 00:01:13.720
+I'm using Flash CS5, so the filters panel
+shows up in the properties tab. In earlier
+
+00:01:13.720 --> 00:01:18.630
+versions of Flash, you need to manually enable
+it, by going to the Window menu and enabling
+
+00:01:18.630 --> 00:01:19.720
+the Filters panel.
+
+00:01:19.720 --> 00:01:25.230
+Now that you have your filters panel enabled
+and your object selected, click the "new filter"
+
+00:01:25.230 --> 00:01:30.520
+button in the lower left of the Filters panel.
+It has the same icon as the "new layer" button
+
+00:01:30.520 --> 00:01:32.120
+in the Timeline panel.
+
+00:01:32.120 --> 00:01:37.130
+You can't see it in this video, but a menu
+will pop up. From this menu, select the Blur
+
+00:01:37.130 --> 00:01:41.229
+option. This will add a blur filter to the
+movie clip.
+
+00:01:41.229 --> 00:01:46.010
+Now it's time to adjust the blur settings.
+You can blur objects either horizontally or
+
+00:01:46.010 --> 00:01:51.360
+vertically, or a combination of both. Since
+the shadow is in perspective, I'm going to
+
+00:01:51.360 --> 00:01:55.080
+blur it more horizontally than vertically.
+
+00:01:55.080 --> 00:02:00.780
+The quality setting lets you make the blur
+softer, but Flash runs more slowly when you
+
+00:02:00.780 --> 00:02:06.729
+use high quality blur. I recommend low or
+medium quality for most things.
+
+00:02:06.729 --> 00:02:10.039
+Next I'm going to add the motion blur for
+the character.
+
+00:02:10.039 --> 00:02:15.029
+You can apply blur to drawings, symbols, or
+images. The only thing that matters is that
+
+00:02:15.029 --> 00:02:17.370
+they are symbolized as a movie clip.
+
+00:02:17.370 --> 00:02:20.120
+Again, convert the object into a symbol.
+
+00:02:20.120 --> 00:02:23.420
+Give it a name and make sure its type is set
+to Movie Clip.
+
+00:02:23.420 --> 00:02:29.819
+Find your filters panel, either in the properties
+tab in CS5, or from the Window menu in earlier
+
+00:02:29.819 --> 00:02:34.109
+versions. Add a blur effect, and blur it in
+the direction of the motion.
+
+00:02:34.109 --> 00:02:39.180
+I'm going to speed this next part up as I
+fumble with the keyframes.
+
+00:02:39.180 --> 00:02:44.599
+Next, I'm going to animate the blur's alpha.
+This will let you make your symbol more transparent.
+
+00:02:44.599 --> 00:02:50.040
+It's the same as the Opacity setting in Photoshop.
+I'm going to use this to fade the motion blur
+
+00:02:50.040 --> 00:02:53.019
+in and out.
+
+00:02:53.019 --> 00:02:58.260
+In your properties panel, there should be
+a section labeled color effect. Select Alpha
+
+00:02:58.260 --> 00:03:00.889
+as the style.
+
+00:03:00.889 --> 00:03:06.499
+You can key frame the alpha effect, the same
+way you do with an object's motion. Create
+
+00:03:06.499 --> 00:03:11.389
+your motion tween, then set the alpha value
+at each keyframe.
+
+00:03:11.389 --> 00:03:24.659
+The alpha effect is useful for effects such
+as cross-dissolves.
+
+00:03:24.659 --> 00:03:29.120
+You can also keyframe the amount of blur in
+the same way. I'm going to use this to make
+
+00:03:29.120 --> 00:03:33.790
+the shadow sharper when the ball is near the
+ground, and softer when he is in the air.
+
+00:03:33.790 --> 00:03:41.040
+I also key framed the alpha value, so that
+the shadow becomes more translucent.
+
+00:03:41.040 --> 00:03:42.099
+Here's the finished result!
+

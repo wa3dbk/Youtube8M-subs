@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.520 --> 00:00:04.710
+hey guys Joe Kistel here wanted to make this
+quick video because doing this was a life
+
+00:00:04.710 --> 00:00:11.510
+saver for me. I recently got laptop with a
+high definition 4 k resolution screen so i
+
+00:00:11.510 --> 00:00:18.020
+was real excited about it This laptop was
+primarily to use Adobe Production cs6 the
+
+00:00:18.020 --> 00:00:22.530
+computer is an awesome computer thought it
+works well its a Toshiba W 50 Tecra model
+
+00:00:22.530 --> 00:00:30.619
+fantastic machine awesome display and so i
+went ahead installed my Adobe Suite and went
+
+00:00:30.619 --> 00:00:36.739
+ahead to play around in Photoshop and opened
+it up and this is what i got and as you can
+
+00:00:36.739 --> 00:00:46.480
+see it is super douper tiny and um i cant
+work with this and so I was like ok whats
+
+00:00:46.480 --> 00:00:52.260
+the big deal whats going on here did i install
+something wrong bla bla bla so of course i
+
+00:00:52.260 --> 00:00:58.000
+went to the internets and found out that for
+whatever reason Adobe with high definition
+
+00:00:58.000 --> 00:01:04.399
+laptop displays seems to be somewhat problematic
+fortunately i came across a website by Dan
+
+00:01:04.399 --> 00:01:10.639
+Antenelli and he went through step by step
+on a way to fix it and i'm just going to show
+
+00:01:10.639 --> 00:01:14.689
+you that process how i did it and again a
+big thanks to Dan I'm going to leave a link
+
+00:01:14.689 --> 00:01:22.569
+to his webpage that shows by step in text
+form. we have to do two things here we have
+
+00:01:22.569 --> 00:01:29.289
+to go down and make a windows registry file
+i guess is what you would call it and then
+
+00:01:29.289 --> 00:01:35.959
+we have to go head and manifest file and stick
+in the folder where our application is. now
+
+00:01:35.959 --> 00:01:39.499
+i am going to show this demonstration for
+Photoshop but this actually works for all
+
+00:01:39.499 --> 00:01:46.219
+the applications you see here or all the Adobe
+applications. so here we go first step we
+
+00:01:46.219 --> 00:01:53.380
+want to go windows button and R and that's
+going to bring up our run and you want to
+
+00:01:53.380 --> 00:02:05.509
+type in r e g e d i t hit OK and you are going
+to say yes right click machine were going
+
+00:02:05.509 --> 00:02:14.710
+to go to software and then we are going to
+go to Microsoft and then once we are in Microsoft
+
+00:02:14.710 --> 00:02:24.470
+we want to go to Windows looking for windows
+that is a w windows and then we want to go
+
+00:02:24.470 --> 00:02:32.610
+to current version right here and then we
+want to go to side by side which is right
+
+00:02:32.610 --> 00:02:40.390
+here now we want to right click OK we want
+to go new and we want to go d word 32 bit
+
+00:02:40.390 --> 00:02:56.270
+and OK now here we have to type in prefer
+external manifest OK then we want to hit enter
+
+00:02:56.270 --> 00:03:03.720
+that's there OK now we have to go ahead and
+right click on that click modify want to change
+
+00:03:03.720 --> 00:03:12.670
+this value from zero to one click on decimal
+so we want to close this out . OK so now we
+
+00:03:12.670 --> 00:03:17.770
+need to do is make a manifest file and place
+it in the program folder where the application
+
+00:03:17.770 --> 00:03:27.310
+is so basically how this works is this here
+is some text that you want to make a manifest
+
+00:03:27.310 --> 00:03:35.750
+file out of so you go to file save as ok and
+here is the trick we want to name this the
+
+00:03:35.750 --> 00:03:40.010
+same exact thing as the executable file for
+our adobe applications so we are working with
+
+00:03:40.010 --> 00:03:47.710
+Photoshop so we are going to go Photoshop
+you can see i have it in there already dot
+
+00:03:47.710 --> 00:03:58.720
+e x e dot manifest OK and we are going to
+go save OK then we can close this out now
+
+00:03:58.720 --> 00:04:04.430
+we have made our manifest file OK and here
+it is right here so now what we need to do
+
+00:04:04.430 --> 00:04:10.420
+we need to go into basically our program files
+and click on Adobe to find the application
+
+00:04:10.420 --> 00:04:15.319
+so we want to find out where that executable
+file is so we are going to click on here and
+
+00:04:15.319 --> 00:04:27.580
+then scroll down to see if that executable
+file is in there and sure enough there it
+
+00:04:27.580 --> 00:04:37.460
+is OK so you can see we have our Photoshop
+file here we want to go ahead and copy copy
+
+00:04:37.460 --> 00:04:50.270
+our manifest file into here so were going
+to right click paste it and then hit continue
+
+00:04:50.270 --> 00:04:56.710
+OK so now you can see our manifest file is
+right underneath the Photoshop file and if
+
+00:04:56.710 --> 00:05:04.039
+we did everything right if we now open up
+Photoshop look at that it is normal people
+
+00:05:04.039 --> 00:05:10.259
+human being size so i am pretty stoked about
+it and a big thanks to Dan again for this
+
+00:05:10.259 --> 00:05:14.189
+now that is just i just showed how to do Photoshop
+now what you do with the other programs as
+
+00:05:14.189 --> 00:05:19.919
+well you would need to do this for all of
+these for example Premiere Pro you want to
+
+00:05:19.919 --> 00:05:28.330
+go into here and as you can see down here
+i have got a copy of a manifest file as well
+
+00:05:28.330 --> 00:05:34.020
+so it works for those so you need to that
+for every Adobe application and again all
+
+00:05:34.020 --> 00:05:40.340
+you have to do to make that file is just go
+to the text file and then rename it to the
+
+00:05:40.340 --> 00:05:48.770
+exact same name as the executable Adobe program
+and then copy and paste that file into the
+
+00:05:48.770 --> 00:05:55.169
+same folder that the executable program file
+is in thanks for watching guys if you thought
+
+00:05:55.169 --> 00:05:57.770
+this was helpful please consider subscribing
+I,m Joe Kistel
+

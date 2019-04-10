@@ -1,0 +1,240 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.210 --> 00:00:05.330
+My name is Ryan Hartigan from econtechnolgies,
+the creators of ChronoSync and ChronoAgent.
+
+00:00:05.330 --> 00:00:08.820
+In this screencast we’re going to demonstrate
+how to create a bootable backup of your ChronoSync
+
+00:00:08.820 --> 00:00:13.330
+Mac to an external drive attached to a remote
+Mac with ChronoAgent installed.
+
+00:00:13.330 --> 00:00:17.439
+The process is nearly identical to a local
+bootable backup except your destination hard
+
+00:00:17.439 --> 00:00:20.249
+drive is on a remote Mac with ChronoAgent
+installed.
+
+00:00:20.249 --> 00:00:23.919
+To familiarize yourself with bootable backups,
+take a look at the link to the screencast
+
+00:00:23.919 --> 00:00:27.619
+explaining bootable backups below.
+
+00:00:27.619 --> 00:00:31.470
+This screencast assumes you’re familiar
+with configuring a ChronoAgent connection.
+
+00:00:31.470 --> 00:00:34.949
+This screencast also assumes you’ve already
+formatted your bootable backup drive using
+
+00:00:34.949 --> 00:00:36.780
+Disk Utility on your Mac.
+
+00:00:36.780 --> 00:00:40.629
+If you have not done this already, click the
+link below to watch a quick screencast detailing
+
+00:00:40.629 --> 00:00:43.420
+this.
+
+00:00:43.420 --> 00:00:46.700
+Because this sync is going over a network
+connection it will likely be slower than a
+
+00:00:46.700 --> 00:00:48.140
+local bootable backup.
+
+00:00:48.140 --> 00:00:52.161
+A good trick is to connect the hard drive
+locally for your first bootable backup, then
+
+00:00:52.161 --> 00:00:54.930
+move it to the remote Mac for all subsequent
+backups.
+
+00:00:54.930 --> 00:00:58.499
+The steps to follow would be the same except
+you are not connecting a newly formatted,
+
+00:00:58.499 --> 00:01:00.980
+empty hard drive to your remote Mac.
+
+00:01:00.980 --> 00:01:05.059
+Begin by launching ChronoSync and opening
+a blank sync document.
+
+00:01:05.059 --> 00:01:10.630
+We’ll start by creating the connection profile
+to connect to the ChronoAgent Mac.
+
+00:01:10.630 --> 00:01:14.110
+If you’ve already created a concoction profile
+to connect to your ChronoAgent Mac you’ll
+
+00:01:14.110 --> 00:01:17.009
+need to create an additional one for this
+bootable backup.
+
+00:01:17.009 --> 00:01:21.880
+Begin by naming the connection profile, selecting
+the appropriate ChronoAgent Mac, and entering
+
+00:01:21.880 --> 00:01:27.369
+the username and password.
+
+00:01:27.369 --> 00:01:30.979
+Click ‘next’ and configure the security
+panel if you wish.
+
+00:01:30.979 --> 00:01:35.159
+Finally, click ‘next’ to continue to the
+mappings panel.
+
+00:01:35.159 --> 00:01:39.649
+Normally you would map the users of your ChronoSync
+Mac to the users of your ChronoAgent Mac,
+
+00:01:39.649 --> 00:01:42.659
+but here we want to have the file ownership
+on the backup volume to match that of our
+
+00:01:42.659 --> 00:01:43.820
+startup disk.
+
+00:01:43.820 --> 00:01:47.280
+To do this, set the mapping mode to ‘none’
+so none of the file ownership settings will
+
+00:01:47.280 --> 00:01:49.420
+be modified during the sync.
+
+00:01:49.420 --> 00:01:55.570
+Click ‘save’ to save the connection profile
+and close the connection profile window.
+
+00:01:55.570 --> 00:01:58.270
+Now it’s time to set the sync operation
+to ‘bootable’.
+
+00:01:58.270 --> 00:02:02.350
+In choosing the bootable operation, ChronoSync
+pre-configures the sync document, so it’s
+
+00:02:02.350 --> 00:02:05.920
+best to set the sync operation first before
+choose any targets.
+
+00:02:05.920 --> 00:02:09.800
+This is done by clicking the operation pop-up
+and selecting ‘Bootable Left-to-right’.
+
+00:02:09.800 --> 00:02:13.470
+When you choose a bootable operation ChronoSync
+will prompt you for admin access because it
+
+00:02:13.470 --> 00:02:16.840
+needs full access to all files on your hard
+drive.
+
+00:02:16.840 --> 00:02:20.830
+By default, deletions are synched and moved
+to the archived items folder at the root of
+
+00:02:20.830 --> 00:02:23.030
+your destination target.
+
+00:02:23.030 --> 00:02:26.640
+If you need to restore any items, you can
+do so via the archived panel of your saved
+
+00:02:26.640 --> 00:02:28.150
+sync document.
+
+00:02:28.150 --> 00:02:30.530
+Now it’s time to select the targets.
+
+00:02:30.530 --> 00:02:34.030
+Because this is a left-to-right sync operation,
+I’m going to select the startup disk of
+
+00:02:34.030 --> 00:02:36.050
+my ChronoSync Mac as the left target.
+
+00:02:36.050 --> 00:02:39.980
+Then I’m going to select the connection
+profile I just created in the ‘Connect to’
+
+00:02:39.980 --> 00:02:44.590
+pop-up in the right target pane, and select
+my external drive connected to the ChronoAgent
+
+00:02:44.590 --> 00:02:47.350
+Mac as the right target.
+
+00:02:47.350 --> 00:02:51.620
+Just as in performing a local bootable backup
+an ‘ignore permissions’ warning may appear.
+
+00:02:51.620 --> 00:02:53.120
+Just click ‘ok’.
+
+00:02:53.120 --> 00:02:57.160
+With the sync configured it’s time to save
+the sync document.
+
+00:02:57.160 --> 00:03:02.850
+It’s now time to run the actual sync by
+click the ‘synchronize’ button.
+
+00:03:02.850 --> 00:03:07.311
+Note: It is not unusual for the sync to take
+over an hour the first time it is run, but
+
+00:03:07.311 --> 00:03:11.150
+it will be quicker when run in the future
+as only changed files will be synced.
+
+00:03:11.150 --> 00:03:14.720
+To save time, the synch in this screencast
+has already been run once before.
+
+00:03:14.720 --> 00:03:18.400
+However, while it will not take as long as
+an initial sync, it will still take some time
+
+00:03:18.400 --> 00:03:22.080
+to finish, so we’re going to skip ahead
+in this screencast.
+
+00:03:22.080 --> 00:03:26.220
+Finally, when the sync finishes a ‘synchronization
+complete’ sheet will appear with details
+
+00:03:26.220 --> 00:03:27.560
+of the sync.
+
+00:03:27.560 --> 00:03:30.840
+If you’ve encountered any errors during
+the sync you can check the sync document log
+
+00:03:30.840 --> 00:03:35.050
+file by clicking the black log button in the
+toolbar of your saved sync document.
+
+00:03:35.050 --> 00:03:39.170
+If you have any questions regarding ChronoSync
+or ChronoAgent please visit our website at
+
+00:03:39.170 --> 00:03:40.540
+econtechnologies.com.
+

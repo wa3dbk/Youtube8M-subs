@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.799 --> 00:00:08.450
+Hello there!
+Looking for steps to troubleshoot the error
+
+00:00:08.450 --> 00:00:13.760
+"The User Profile Service failed the logon.
+User profile cannot be loaded" on your Windows
+
+00:00:13.760 --> 00:00:17.340
+7 based PC?
+Let me give you the steps for it, just follow
+
+00:00:17.340 --> 00:00:19.060
+me:
+
+00:00:19.060 --> 00:00:25.279
+Start the computer and press F8 key immediately.
+In the "Advanced Boot Options" window, select
+
+00:00:25.279 --> 00:00:30.329
+"Safe Mode" and then press "Enter"
+Login to your account.
+
+00:00:30.329 --> 00:00:35.600
+Click Start
+In Start Search box, type "regedit", and press
+
+00:00:35.600 --> 00:00:48.600
+"Enter". In Registry Editor window, navigate to: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows
+
+00:00:48.609 --> 00:00:55.250
+NT\CurrentVersion\ProfileList
+In the left pane, look for the folder name
+
+00:00:55.250 --> 00:01:02.250
+starting with S-1-5 (SID key) followed by
+a long number, then click the folder and locate
+
+00:01:02.420 --> 00:01:07.310
+ProfileImagePath from the right pane to verify
+that this is the user account profile that
+
+00:01:07.310 --> 00:01:12.790
+has the error.
+If you have two folders starting with S-1-5
+
+00:01:12.790 --> 00:01:17.710
+followed by same long numbers and one of them
+ends in .bak
+
+00:01:17.710 --> 00:01:21.800
+Change the .bak folder to normal one. To do
+this:
+
+00:01:21.800 --> 00:01:28.800
+Right click the folder without .bak and choose
+"Rename". Then add .ba at the end of the folder
+
+00:01:29.350 --> 00:01:33.210
+name.
+Right click the folder with .bak and choose
+
+00:01:33.210 --> 00:01:38.390
+"Rename". Then remove ".bak" at the end of
+the folder name.
+
+00:01:38.390 --> 00:01:45.390
+Right click the folder with .ba and choose
+"Rename". Then change the .ba to .bak at the
+
+00:01:46.060 --> 00:01:50.310
+end of the folder name.
+Choose the folder without .bak
+
+00:01:50.310 --> 00:01:55.460
+In the right pane, right click on RefCount
+and then select "Modify"
+
+00:01:55.460 --> 00:01:59.850
+Under "Value Data", type 0 and then click
+OK.
+
+00:01:59.850 --> 00:02:06.010
+Right click on State and then select "Modify"
+Under "Value Data", type 0 and then click
+
+00:02:06.010 --> 00:02:09.879
+OK.
+Close Registry Editor window.
+
+00:02:09.879 --> 00:02:14.020
+Restart the computer in normal mode.
+Log on to your account again.
+
+00:02:14.020 --> 00:02:19.920
+See how simple it was! Go ahead, have fun
+with your PC. At any point in time, if you
+
+00:02:19.920 --> 00:02:23.250
+face issues with your PC, just call iYogi.
+Good Karma!
+

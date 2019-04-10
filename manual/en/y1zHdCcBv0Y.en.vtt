@@ -1,0 +1,242 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.390 --> 00:00:03.560
+Welcome to the DevExpress Learn Now series.
+
+00:00:03.560 --> 00:00:08.290
+Quick tutorials to help you get started using
+DevExpress controls.
+
+00:00:08.290 --> 00:00:14.090
+In this video we'll see how the DocumentManager's
+MetroUI View helps you to create great-looking
+
+00:00:14.090 --> 00:00:18.150
+streamlined Windows 8 inspired applications
+from scratch.
+
+00:00:18.150 --> 00:00:19.730
+So let's get started.
+
+00:00:19.730 --> 00:00:24.240
+Let's start Visual Studio and create new Windows
+Forms application.
+
+00:00:24.240 --> 00:00:28.910
+The MetroUI View for the DocumentManager is
+generally designed to run in the full-screen
+
+00:00:28.910 --> 00:00:34.370
+mode, so set the form's 'FormBorderStyle'
+property to 'None' and the 'WindowState' property
+
+00:00:34.370 --> 00:00:37.120
+to 'Maximized'.
+
+00:00:37.120 --> 00:00:45.250
+Next, Add the DocumentManager to the form.
+
+00:00:45.250 --> 00:00:46.510
+Open its smart tag.
+
+00:00:46.510 --> 00:00:54.379
+Click Convert to Metro-UIview, and run the
+document manager designer.
+
+00:00:54.379 --> 00:00:57.940
+Switch to the 'Documents' section and add
+three new Documents.
+
+00:00:57.940 --> 00:01:02.970
+These are main non-visual objects capable
+of displaying application content.
+
+00:01:02.970 --> 00:01:04.970
+Now we'll go to the 'Tiles' section.
+
+00:01:04.970 --> 00:01:10.460
+As you can see, three Tiles are automatically
+generated - one per each created Document.
+
+00:01:10.460 --> 00:01:13.180
+Let's switch to the 'Content Containers' section.
+
+00:01:13.180 --> 00:01:17.720
+The TileContainer that hosts Tiles is also
+created automatically.
+
+00:01:17.720 --> 00:01:23.090
+If we run the application now, we'll see three
+Tiles inside of the TileContainer.
+
+00:01:23.090 --> 00:01:26.000
+Clicking each Tile will display a related
+Document.
+
+00:01:26.000 --> 00:01:27.000
+OK.
+
+00:01:27.000 --> 00:01:32.520
+So lets get familiar with Content Containers
+available in the MetroUIView.
+
+00:01:32.520 --> 00:01:37.969
+Delete the automatically created TileContainer
+and click the 'Add New Container' button.
+
+00:01:37.969 --> 00:01:40.280
+Select the 'PageGroup' container.
+
+00:01:40.280 --> 00:01:45.640
+A PageGroup contains multiple Documents and
+displays only one at a time.
+
+00:01:45.640 --> 00:01:50.079
+Let's populate the PageGroup with Documents
+in the 'Navigation Tree' section.
+
+00:01:50.079 --> 00:01:53.590
+Drag-n-drop Documents from corresponding panel
+to the PageGroup.
+
+00:01:53.590 --> 00:01:57.020
+Now, our PageGroup contains all three Documents.
+
+00:01:57.020 --> 00:02:02.170
+However, all the Documents created are empty
+which means the application won't start because
+
+00:02:02.170 --> 00:02:05.049
+content for the documents is required.
+
+00:02:05.049 --> 00:02:09.950
+Let's Go to the 'Views' section and open the
+MetroUIView's events list in the properties
+
+00:02:09.950 --> 00:02:10.950
+grid.
+
+00:02:10.950 --> 00:02:14.599
+We will handle the 'QueryControl' event to
+pass a content to a Document when it needs
+
+00:02:14.599 --> 00:02:16.020
+to be displayed.
+
+00:02:16.020 --> 00:02:21.120
+In this example let's fill the documents with
+a new RichEditControl for their content.
+
+00:02:21.120 --> 00:02:23.560
+Now, Let's run the application.
+
+00:02:23.560 --> 00:02:28.489
+We now see a PageGroup container and three
+document shortcuts at the top-right corner
+
+00:02:28.489 --> 00:02:32.730
+allowing you to navigate through the Documents.
+
+00:02:32.730 --> 00:02:36.150
+This same pattern can be used to create other
+Content Containers.
+
+00:02:36.150 --> 00:02:38.210
+For instance, a slideGroup.
+
+00:02:38.210 --> 00:02:42.819
+A container that displays all Documents at
+the same time and arranges them in a single
+
+00:02:42.819 --> 00:02:43.879
+column or row.
+
+00:02:43.879 --> 00:02:47.239
+A scroll bar is available for scrolling through
+the Documents and
+
+00:02:47.239 --> 00:02:53.599
+on the Navigation Bars you can see three actions,each
+for a corresponding Document, plus the 'Overview'
+
+00:02:53.599 --> 00:02:59.489
+action which displays the Overview Screen
+where all the Documents are presented as Tabs.
+
+00:02:59.489 --> 00:03:01.010
+Next,SplitGroups.
+
+00:03:01.010 --> 00:03:05.430
+Much like SlideGroups, thes arrange Documents
+in a single column or row but display all
+
+00:03:05.430 --> 00:03:08.010
+Documents inside one screen.
+
+00:03:08.010 --> 00:03:13.239
+Users can resise Documents by dragging split
+bars that detach neighboring Documents.
+
+00:03:13.239 --> 00:03:17.220
+Note that the navigation Bar actions function
+the same way as SlideGroups.
+
+00:03:17.220 --> 00:03:18.220
+And finally, a Page.
+
+00:03:18.220 --> 00:03:23.090
+A content container capable of displaying
+only one Document.
+
+00:03:23.090 --> 00:03:27.599
+Now let's see how to mix multiple Content
+Containers and build multi-level application
+
+00:03:27.599 --> 00:03:28.599
+hierarchy.
+
+00:03:28.599 --> 00:03:31.799
+We'll create three new Documents.Note.
+
+00:03:31.799 --> 00:03:35.709
+Do not delete the automatically created TileContainer.
+
+00:03:35.709 --> 00:03:40.569
+Let's Add one more container, for example
+a PageGroup and go to the 'Navigation Tree'
+
+00:03:40.569 --> 00:03:47.090
+section and populate the PageGroup with documents.
+
+00:03:47.090 --> 00:03:55.930
+Now, drag-and-drop the PageGroup to the TileContainer's
+'ActivationTarget' item.
+
+00:03:55.930 --> 00:04:00.200
+The activation target points to a container
+or a document that will be displayed when
+
+00:04:00.200 --> 00:04:02.549
+the current object gets activated.
+
+00:04:02.549 --> 00:04:07.049
+In our case, clicking any tile within the
+TileContainer will display the corresponding
+
+00:04:07.049 --> 00:04:10.810
+Document within a PageGroup that contains
+all Documents.
+
+00:04:10.810 --> 00:04:14.400
+Finally, let's run the application and see
+the results.
+
+00:04:14.400 --> 00:04:18.660
+For more information, see our getting started
+topics in the documentation.
+
+00:04:18.660 --> 00:04:21.420
+Thanks for watching, let's see what develops.
+

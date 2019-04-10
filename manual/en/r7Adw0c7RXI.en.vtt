@@ -1,0 +1,77 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.210 --> 00:00:07.866
+At the Blender's Simple Tasks Complications Office, they're hiding a secret for making a bake with multiple textures.
+
+00:00:10.000 --> 00:00:18.000
+Now, I'm searching for a way in Blender 2.61.
+First of all, I create (not mandatory) a group of 4 vertices.
+
+00:00:34.200 --> 00:00:46.600
+Now, with the 4 vertices enlightened (enabled), I can open a (UV) image to import.
+
+00:00:54.133 --> 00:01:03.933
+From my investigations, I discovered that I must use one and only one UV Map (to map) for all of the textures.
+
+00:01:17.800 --> 00:01:35.533
+When I select 4 vertices in the model view (where we are watching the box with the logos) the UV/Image frame is being changed automatically,
+
+00:01:35.633 --> 00:01:42.000
+ by showing 4 "similiar" vertices, but instead they are coordinates.
+
+00:01:42.100 --> 00:01:50.100
+You can notice that I'm selecting all the "coordinates" but the vertices were not affected.
+
+00:02:16.000 --> 00:02:24.000
+Here comes the secret: if I try to bake, the baking itself overrides my brand new UV Map.
+
+00:02:24.100 --> 00:02:34.100
+So I've done a new UV Map, but the active one is always the first ("UVMap images"). I kept its camera icon enlighted.
+
+00:02:36.200 --> 00:02:46.200
+Here, I'm setting my logos (2 textures under one common material) and pointing the map to the "UVMAP images".
+
+00:02:53.600 --> 00:03:03.600
+Here, I'm overwhelmed by my thoughts, I did not think to make something for youtube but only for me!
+
+00:03:45.000 --> 00:03:55.000
+I'd already noticed some differences in results, between the game engine and the renderer.
+
+00:03:56.000 --> 00:04:06.000
+The textures must be "unchecked", because they're already UV mapped.
+
+00:04:07.100 --> 00:04:17.100
+In Blender it's like a strong box safe: if you wrong the combination, it locks up and the robbery is failed.
+
+00:04:28.000 --> 00:04:38.000
+Here I forgot, for the Nth time, to enable the "Face Textures" feature, into the material tab.
+
+00:05:05.000 --> 00:05:15.000
+After a moment of admiration, for how a Leonardian mind could perform a so fascinating mechanism,
+
+00:05:15.100 --> 00:05:25.100
+I just remembered that I want to take a more control for my final result: I want a correctly "open" texture for my cube.
+
+00:05:26.000 --> 00:05:36.000
+So I'm going to select an edges structure that must be cutted and not separated from each of them.
+
+00:06:10.000 --> 00:06:20.000
+Now I selected a brand new UV image (named "imgbaked") created a while ago.
+
+00:06:20.100 --> 00:06:30.100
+ I have "UVMap BAKED" selected but with the transparent camera (disabled). It's enabled the "UVMap images" instead.
+
+00:06:30.500 --> 00:06:40.500
+With any slightly different steps, I always lose the old UVMap and the UV job itself.
+
+00:06:43.000 --> 00:06:55.000
+I tried to make a bake for obtaining a clean result (only the "Textures") and also for have the shadows into the textures ("Full Rendering").
+
+00:06:57.100 --> 00:07:05.100
+Although it's only a movie targetted for my memories, thanks for have been watched it and my apologies for the slanglish! See ya
+
+00:07:05.600 --> 00:07:11.100
+You can watching it again without subtitles! Try it out... it's FREE!
+

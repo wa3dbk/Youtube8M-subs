@@ -1,0 +1,295 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.519 --> 00:00:14.660
+So, Chris, let's start with you.
+You are Mr. Robotics; correct?
+
+00:00:14.660 --> 00:00:17.480
+&gt;&gt;Chris Urmson: Yes.
+&gt;&gt;Jonathan Zittrain: And when you were ten
+
+00:00:17.480 --> 00:00:23.170
+years old, how predictable was it that you
+might be going into robotics?
+
+00:00:23.170 --> 00:00:26.379
+&gt;&gt;Chris Urmson: I don't know about robotics,
+but I think engineering was pretty clear,
+
+00:00:26.379 --> 00:00:32.070
+I think. I literally -- on my parents' fridge
+right now, there's literally still a picture
+
+00:00:32.070 --> 00:00:37.829
+there with the sweater vest and the glasses
+with tape in the middle. So I think it was
+
+00:00:37.829 --> 00:00:39.079
+pretty preordained.
+&gt;&gt;Jonathan Zittrain: It was not Halloween.
+
+00:00:39.079 --> 00:00:43.489
+&gt;&gt;Chris Urmson: It was not Halloween, sadly.
+&gt;&gt;Jonathan Zittrain: And you knew you wanted
+
+00:00:43.489 --> 00:00:47.820
+to go into engineering and technology. What
+first caught your eye then about robotics
+
+00:00:47.820 --> 00:00:50.390
+in particular.
+&gt;&gt;Chris Urmson: I actually didn't really think
+
+00:00:50.390 --> 00:00:55.630
+about robotics until I was finishing up my
+undergraduate degree. And I had an opportunity
+
+00:00:55.630 --> 00:01:00.239
+to go work in telecom. And I was walking around
+the engineering building, and I saw this poster
+
+00:01:00.239 --> 00:01:05.990
+with this robot crawling into a volcano. And
+I thought, "Shit, that's awesome." You know,
+
+00:01:05.990 --> 00:01:09.690
+I could go deal with telecom stuff or go do
+something cool and real. And I thought, that's
+
+00:01:09.690 --> 00:01:13.030
+the thing to do.
+&gt;&gt;Jonathan Zittrain: And what have you done
+
+00:01:13.030 --> 00:01:16.030
+since?
+&gt;&gt;Chris Urmson: I've been working in robotics
+
+00:01:16.030 --> 00:01:20.749
+for, I don't know, 12, 13 years, something
+like that. I've been involved with a lot of
+
+00:01:20.749 --> 00:01:24.961
+vehicles that drive themselves. And recently
+came to Google to lead the self-driving car
+
+00:01:24.961 --> 00:01:26.999
+project here.
+&gt;&gt;Jonathan Zittrain: Got it. And I understand
+
+00:01:26.999 --> 00:01:30.881
+you have a video that you can narrate for
+us a little bit about the project.
+
+00:01:30.881 --> 00:01:35.170
+&gt;&gt;Chris Urmson: So this is a video showing
+our car driving itself in and around the Bay
+
+00:01:35.170 --> 00:01:42.999
+Area in San Francisco.
+We built a fleet of seven self-driving Priuses.
+
+00:01:42.999 --> 00:01:48.920
+Take a Prius, put crap on it.
+We take it out on the road and have it drive
+
+00:01:48.920 --> 00:01:54.659
+around. Here is on the freeway. So we can
+do surface roads. We, of course, do that in
+
+00:01:54.659 --> 00:01:59.929
+traffic. The sensors we have on the vehicle
+allow us to operate day and night.
+
+00:01:59.929 --> 00:02:03.969
+&gt;&gt;Jonathan Zittrain: Was that planned?
+&gt;&gt;Chris Urmson: No. I tell you, that was an
+
+00:02:03.969 --> 00:02:07.929
+exciting moment.
+The vehicles can do basically anything that
+
+00:02:07.929 --> 00:02:11.160
+a person can do. So they can see all the way
+around them, they can make lane changes, we
+
+00:02:11.160 --> 00:02:15.030
+can see pedestrians and track them, we can
+see traffic lights. And we have 360-degree
+
+00:02:15.030 --> 00:02:20.382
+perception around the vehicle, so we can understand
+what traffic is doing in the neighborhood.
+
+00:02:20.382 --> 00:02:24.170
+The vehicles can drive at freeway speeds.
+They can do it precisely. So here we go through
+
+00:02:24.170 --> 00:02:27.920
+a toll booth.
+They can do it in urban areas. So this is
+
+00:02:27.920 --> 00:02:33.340
+a resort town near San Francisco. All of this
+is the car driving. So it's seeing the pedestrians
+
+00:02:33.340 --> 00:02:38.140
+reasoning about them, moving around.
+This is Lombard Street. It's a very scenic
+
+00:02:38.140 --> 00:02:42.460
+place in San Francisco. It is also home to
+the dumbest pedestrians on Earth. They walk
+
+00:02:42.460 --> 00:02:47.730
+in with the traffic. It's amazing.
+The cars are able to do, you know, pretty
+
+00:02:47.730 --> 00:02:51.440
+much anything a person can. So here we are
+in a construction zone, merging with other
+
+00:02:51.440 --> 00:02:56.000
+traffic. Then we're going to get back on the
+freeway here and have to deal with the fact
+
+00:02:56.000 --> 00:02:58.990
+that it's a short merge and there's traffic
+whizzing by at 70 miles an hour.
+
+00:02:58.990 --> 00:03:00.790
+&gt;&gt;Jonathan Zittrain: Does the car have an
+aggressiveness setting?
+
+00:03:00.790 --> 00:03:05.520
+&gt;&gt;Chris Urmson: Doesn't yet, no. It's set
+to 11.
+
+00:03:05.520 --> 00:03:10.930
+And then, of course, we do a lot of testing
+on the track as well. So we joked we're the
+
+00:03:10.930 --> 00:03:14.810
+Prius drifting team sometimes.
+So part of how it works is that we use some
+
+00:03:14.810 --> 00:03:19.170
+of the best maps in the world. So we've taken
+Google Maps and taken it to the next level.
+
+00:03:19.170 --> 00:03:24.590
+We have 15-centimeter resolution models of
+the world, and we have lane-level models of
+
+00:03:24.590 --> 00:03:27.440
+the world as well that kind of feed into the
+car how it drives.
+
+00:03:27.440 --> 00:03:31.580
+And then in real time, we take laser data
+from the vehicle and we process about a million
+
+00:03:31.580 --> 00:03:35.462
+and a half thousand measurements per second,
+and from that we cluster out where other people
+
+00:03:35.462 --> 00:03:40.060
+are, where other vehicles are, and are able
+to track them, bicycles, and whatnot.
+
+00:03:40.060 --> 00:03:44.310
+We've also done some work with radar. So here,
+this is a radar like you might have in your
+
+00:03:44.310 --> 00:03:48.480
+expensive luxury car for adaptive cruise control.
+We've taken that, refined the algorithms,
+
+00:03:48.480 --> 00:03:53.760
+and then used that to make the thing work.
+&gt;&gt;Jonathan Zittrain: Incredible.
+
+00:03:53.760 --> 00:03:58.510
+[ Applause ]
+&gt;&gt;Jonathan Zittrain: So from your point of
+
+00:03:58.510 --> 00:04:05.120
+view, is the aim here just to deliver a really
+cool car that drives well? Or is there a larger
+
+00:04:05.120 --> 00:04:07.630
+strategy afoot?
+&gt;&gt;Chris Urmson: So, you know, our goal at
+
+00:04:07.630 --> 00:04:12.200
+Google is to advance this technology. We think
+in the long term this has got a tremendous
+
+00:04:12.200 --> 00:04:17.400
+societal benefit. Worldwide, there's something
+like 1.2 million people killed in traffic
+
+00:04:17.400 --> 00:04:21.310
+accidents each year. If you look at the utilization
+of automobiles through the day, it's about
+
+00:04:21.310 --> 00:04:26.189
+3% in the developed world. So you buy a car,
+it sits there 97% of the time. By developing
+
+00:04:26.189 --> 00:04:29.759
+this technology, in the long term, we think
+we can reduce traffic accidents, we can give
+
+00:04:29.759 --> 00:04:32.580
+people back their time when they're driving,
+and we can make better uses of the resources
+
+00:04:32.580 --> 00:04:33.650
+we have.
+&gt;&gt;Jonathan Zittrain: Amazing.
+
+00:04:33.650 --> 00:04:36.870
+&gt;&gt;Chris Urmson: Thank you.
+&gt;&gt;Jonathan Zittrain: And you started on the
+
+00:04:36.870 --> 00:04:41.639
+robotics team at Carnegie-Mellon University.
+Can you tell us a little bit about the innovative
+
+00:04:41.639 --> 00:04:46.330
+environment and any differences between academia
+and corporate zone.
+
+00:04:46.330 --> 00:04:51.189
+&gt;&gt;Chris Urmson: Sure. I've worked at Google
+and at Carnegie-Mellon. Carnegie-Mellon was
+
+00:04:51.189 --> 00:04:55.879
+fantastic. There's lots of brilliant people
+there. But it's a university. And so it's,
+
+00:04:55.879 --> 00:05:00.110
+you know, somewhat resource constrained. When
+you come to Google, again, we have the same
+
+00:05:00.110 --> 00:05:05.520
+caliber or higher caliber of people, and we
+effectively have, you know, unlimited resources.
+
+00:05:05.520 --> 00:05:09.909
+So for an academic, it's magical.
+&gt;&gt;Jonathan Zittrain: So you're trying to recruit
+
+00:05:09.909 --> 00:05:12.819
+all your former fellow academics, at least
+the good ones?
+
+00:05:12.819 --> 00:05:17.789
+&gt;&gt;Chris Urmson: Yes.
+[ Laughter ]
+
+00:05:17.789 --> 00:05:21.520
+&gt;&gt;Jonathan Zittrain: Amazing.
+

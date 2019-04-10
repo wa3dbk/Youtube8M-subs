@@ -1,0 +1,277 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.822 --> 00:00:09.438
+In this set of videos, we’ll create and animate a facial control rig using Softimage Face Robot.
+
+00:00:10.170 --> 00:00:15.582
+This first video introduces you to Face Robot and how to get set up to use it.
+
+00:00:16.769 --> 00:00:20.028
+Face Robot is a special mode within Softimage designed to
+
+00:00:20.028 --> 00:00:25.324
+quickly create versatile facial animation rigs for humanoid heads.
+
+00:00:26.487 --> 00:00:32.199
+It also provides tools to animate the rig using either keying or motion capture data.
+
+00:00:37.032 --> 00:00:39.968
+In a nutshell, here’s how it works:
+
+00:00:40.339 --> 00:00:46.486
+Through an initial four-stage process, Face Robot binds the head mesh to a soft tissue model.
+
+00:00:47.066 --> 00:00:51.431
+This soft tissue model is a solver that controls how the face deforms
+
+00:00:51.431 --> 00:00:54.894
+when you create facial expressions for your character.
+
+00:00:55.722 --> 00:01:02.633
+Although you can’t technically see this solver, you can think of it as an invisible mask covering the face.
+
+00:01:03.273 --> 00:01:09.465
+This mask is divided into regions that roughly match where the facial muscles are on a real face.
+
+00:01:10.463 --> 00:01:17.862
+You control these regions with a set of animation controls in a rig that Face Robot creates during the process.
+
+00:01:18.450 --> 00:01:24.739
+Moving these controls drives the regions which simulate soft tissue compression on the face.
+
+00:01:25.958 --> 00:01:29.839
+Each one of these controls affects a specific region of the face.
+
+00:01:30.775 --> 00:01:35.425
+This makes it much easier to create variations of a given facial expression
+
+00:01:35.425 --> 00:01:39.746
+since you can layer these deformations together in a modular fashion.
+
+00:01:40.399 --> 00:01:43.224
+This is referred to as a “bottom-up” approach.
+
+00:01:43.786 --> 00:01:47.139
+We’ll expand on this further in the following videos.
+
+00:01:47.722 --> 00:01:50.620
+So let’s get started with our zombie character.
+
+00:01:51.413 --> 00:01:58.933
+He used to be a somewhat lazy, slightly overweight country club employee…and now, he’s just a zombie.
+
+00:01:59.515 --> 00:02:04.455
+We’ve set up this poor fellow as a simple, unrigged mesh in T-stance pose,
+
+00:02:04.455 --> 00:02:07.965
+similar to what you would see in a production pipeline.
+
+00:02:08.871 --> 00:02:13.737
+Once you’ve gone through this set of videos and are more accustomed to the Face Robot workflows,
+
+00:02:13.737 --> 00:02:16.718
+you can apply them in your own custom pipeline.
+
+00:02:17.404 --> 00:02:23.332
+To access the Face Robot controls, you must first enable its mode from the main menu bar.
+
+00:02:25.094 --> 00:02:30.477
+This automatically switches the default Softimage layout to the Face Robot layout,
+
+00:02:30.477 --> 00:02:35.562
+which opens up a new side panel with all of Face Robot’s tools and controls.
+
+00:02:36.142 --> 00:02:40.959
+You’ll also notice that new Face Robot elements are loaded into your scene
+
+00:02:40.959 --> 00:02:43.206
+in a special Face model hierarchy.
+
+00:02:43.895 --> 00:02:47.873
+These elements are used by Face Robot throughout the setup process,
+
+00:02:47.873 --> 00:02:50.975
+so it’s important not to change or delete them.
+
+00:02:51.816 --> 00:02:55.514
+The first stage of the solving process consists of loading our model,
+
+00:02:55.514 --> 00:02:57.654
+setting its DNA type,
+
+00:02:57.979 --> 00:03:02.053
+and making sure it meets the Face Robot modeling requirements.
+
+00:03:02.786 --> 00:03:07.261
+We’re actually off to a good start since we’ve already loaded our zombie model.
+
+00:03:07.901 --> 00:03:13.236
+You can also load other types of heads and spare parts from the Library tabs.
+
+00:03:15.516 --> 00:03:17.495
+Next, go to the Type tab.
+
+00:03:18.244 --> 00:03:23.391
+Here you set whether your character’s face DNA is symmetrical or not.
+
+00:03:23.939 --> 00:03:29.976
+If we don’t count the exposed left brain lobe, the zombie’s face itself is symmetrical,
+
+00:03:29.976 --> 00:03:33.830
+so click on the Apply button next to Human Face Symmetric.
+
+00:03:34.561 --> 00:03:40.788
+This choice will affect the next stages of the solving process, which we’ll cover in the next video.
+
+00:03:42.162 --> 00:03:46.811
+Now the last thing we need to do before moving on to the next stage is to go through
+
+00:03:46.811 --> 00:03:49.850
+The ten Face Robot Modeling Requirements.
+
+00:03:50.556 --> 00:03:57.265
+Basically, this is a list of “what to do” and “what not to do” to ensure a successful solving process.
+
+00:03:58.232 --> 00:04:02.548
+First off, Face Robot is designed to work with humanoid heads,
+
+00:04:02.548 --> 00:04:07.259
+as opposed to animal heads or extreme cartoonish facial proportions.
+
+00:04:08.247 --> 00:04:12.711
+That said, it’s flexible enough to adapt to different human head proportions,
+
+00:04:12.711 --> 00:04:16.277
+as is the case with our zombie’s exaggerated features.
+
+00:04:17.415 --> 00:04:25.433
+As a general rule of thumb, Face Robot supports mesh resolutions ranging from 1,500 to 20,000 polygons.
+
+00:04:26.655 --> 00:04:30.254
+A denser head will result in more detailed deformations,
+
+00:04:30.254 --> 00:04:33.859
+but could be more difficult to manage once you start animating it.
+
+00:04:34.796 --> 00:04:40.441
+On the other hand, a head with too few polygons could affect the Face Robot solving process,
+
+00:04:40.441 --> 00:04:42.643
+which wouldn’t give you good results.
+
+00:04:43.687 --> 00:04:49.708
+The zombie head we’re using is at the lower end of this range to reflect the polygon count limitations
+
+00:04:49.708 --> 00:04:52.296
+you may have when working in a game pipeline.
+
+00:04:53.591 --> 00:04:58.117
+Since Face Robot relies on facial anatomy, you’ll get much better results
+
+00:04:58.117 --> 00:05:01.423
+if you model your head with proper topology in mind,
+
+00:05:02.173 --> 00:05:07.540
+with edge loops expanding from the eyes and mouth, and matching the main facial muscles.
+
+00:05:08.583 --> 00:05:14.342
+Make sure your model is pointing in positive Z, and uses positive Y as its up axis.
+
+00:05:15.606 --> 00:05:20.923
+If your model is too small, either by design or by scale, Face Robot may have problems
+
+00:05:20.923 --> 00:05:25.371
+distinguishing one vertex from the next, which will cause solving problems.
+
+00:05:26.603 --> 00:05:30.267
+To avoid this, consider modeling your character following a unit system,
+
+00:05:30.267 --> 00:05:34.573
+as well as using the sample heads from the Library for reference.
+
+00:05:35.947 --> 00:05:39.129
+The eyes, teeth, and tongue all need to be separate objects
+
+00:05:39.129 --> 00:05:43.199
+since they will be controlled individually by the Face Robot rig.
+
+00:05:44.045 --> 00:05:49.705
+The tongue is not absolutely necessary, but since we’ll be doing some lip sync later on,
+
+00:05:49.705 --> 00:05:52.902
+our zombie will look a little bit weird without one.
+
+00:05:54.154 --> 00:05:59.348
+It’s important that the eyes be centered on their pivot, or else they will not rotate properly
+
+00:05:59.348 --> 00:06:02.388
+and you’ll end up with a googly eyed zombie!
+
+00:06:03.464 --> 00:06:07.629
+Face Robot is designed to work best with separated head models.
+
+00:06:08.410 --> 00:06:13.373
+This means we don’t want our zombie’s body to be used during the solving of the head.
+
+00:06:14.167 --> 00:06:20.095
+So an easy way to get around this is to extract the head as a separate object first,
+
+00:06:20.095 --> 00:06:24.059
+and then recombine it with the body once we’re done animating the head.
+
+00:06:27.166 --> 00:06:31.708
+Select the zombie mesh, then select the ‘zombie_head’ cluster.
+
+00:06:32.889 --> 00:06:36.774
+This selects the polygons associated with the head and neck.
+
+00:06:37.853 --> 00:06:40.896
+It’s important to include the neck in our selection
+
+00:06:40.896 --> 00:06:45.234
+since Face Robot accounts for the neck muscles in the solving process.
+
+00:06:46.216 --> 00:06:49.150
+Depending on the type of character you are working with,
+
+00:06:49.150 --> 00:06:53.315
+you could also extend your selection to the collarbone and shoulders.
+
+00:06:54.295 --> 00:06:59.756
+With the cluster selected, choose Extract Polygons (delete) from the Model toolbar.
+
+00:07:01.159 --> 00:07:06.062
+Now that we’ve literally cut off our zombie’s head, we can hide the body mesh
+
+00:07:06.062 --> 00:07:09.412
+and rename the new object to “zombie_head_geo”.
+
+00:07:11.494 --> 00:07:19.001
+All openings in the head must be closed, which includes the inside of the mouth, the eye sockets, and the nostrils.
+
+00:07:19.886 --> 00:07:23.412
+But what about the hole left at the base of the neck?
+
+00:07:23.412 --> 00:07:26.054
+Shouldn’t we close it like all other openings?
+
+00:07:26.691 --> 00:07:33.382
+Actually, we don’t need to because Face Robot supports it as long as it’s the only hole in the head.
+
+00:07:35.026 --> 00:07:41.062
+Finally, the last requirement refers to the global position of the head's center.
+
+00:07:41.062 --> 00:07:49.708
+You can place it anywhere on the positive Y axis, as long as it's set to 0 on both the X and Z axes,
+
+00:07:49.708 --> 00:07:52.591
+corresponding to where the neck joins the head.
+
+00:07:54.240 --> 00:07:59.104
+With these modeling requirements met, we can go ahead with the solving.
+
+00:07:59.948 --> 00:08:07.793
+In the next video, we’ll start the solving process which will allow us to bring some life back into our zombie's head.
+

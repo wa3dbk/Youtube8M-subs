@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:03.959
+To start with rigging, I'm going to go ahead and delete this skeleton
+
+00:00:03.959 --> 00:00:06.970
+You might want to go into the Display Panel
+
+00:00:06.970 --> 00:00:11.420
+and make sure that under Hide by Category, the bone objects
+
+00:00:11.420 --> 00:00:14.950
+and all the other stuff are not hidden. I do have Cameras hidden right now
+
+00:00:14.950 --> 00:00:16.109
+just because I'm not working with them.
+
+00:00:16.109 --> 00:00:19.510
+So, select objects.
+
+00:00:19.510 --> 00:00:22.880
+I'm selecting everything except for the mesh.
+
+00:00:22.880 --> 00:00:28.269
+I'm gonna hit [Delete]. You can see that that messed up that mesh.
+
+00:00:28.269 --> 00:00:34.930
+Why is that? It's because I still have Physique on, so I'm gonna delete that modifier.
+
+00:00:34.930 --> 00:00:38.219
+[Delete] Okay. So now, what I have here
+
+00:00:38.219 --> 00:00:41.910
+is what you should be starting with: a basic Editable Mesh.
+
+00:00:41.910 --> 00:00:45.370
+This is in your Modifier Panel. The first thing that you need to do in order
+
+00:00:45.370 --> 00:00:47.600
+to rig is create a skeleton.
+
+00:00:47.600 --> 00:00:50.840
+3ds Max makes this really easy to do, if you use Biped.
+
+00:00:50.840 --> 00:00:54.670
+You go into the Create Panel. At the very end, here
+
+00:00:54.670 --> 00:00:58.930
+you have Systems, and you get these options. You can make Bones
+
+00:00:58.930 --> 00:01:03.090
+You can make a Biped. Now, for a character, especially
+
+00:01:03.090 --> 00:01:07.060
+an upright humanoid character, Biped is the easiest thing to do.
+
+00:01:07.060 --> 00:01:10.240
+What you have here is different options.
+
+00:01:10.240 --> 00:01:14.640
+I'm using 3ds Max 9, and older versions
+
+00:01:14.640 --> 00:01:17.950
+have a few less options, and I think newer versions might have more options
+
+00:01:17.950 --> 00:01:22.380
+Right here, I'll just make a few, and
+
+00:01:22.380 --> 00:01:25.610
+you can check it out. I'm in Biped Mode
+
+00:01:25.610 --> 00:01:29.200
+I'm gonna click and drag. [click + drag] That's a biped.
+
+00:01:29.200 --> 00:01:33.430
+It's a classic body type. [select] That's a female.
+
+00:01:33.430 --> 00:01:36.900
+[select] Male. [select] And a skeleton.
+
+00:01:36.900 --> 00:01:41.799
+Now, I think just because I'm old-school, I like the classic body type.
+
+00:01:41.799 --> 00:01:47.630
+But you can choose whichever one you want. Now, strangely enough it helps
+
+00:01:47.630 --> 00:01:51.909
+to rename the root node right here in the Create Panel.
+
+00:01:51.909 --> 00:01:56.020
+If you rename it later, it tends to only rename the root, and not the entire skeleton.
+
+00:01:56.020 --> 00:01:59.189
+So I'm gonna go ahead and Delete this thing [Delete]
+
+00:01:59.189 --> 00:02:02.360
+Before I make my new biped ...
+
+00:02:02.360 --> 00:02:05.700
+First of all, I'm gonna go into Front
+
+00:02:05.700 --> 00:02:08.560
+perspective by pressing [F], so that when I click and drag
+
+00:02:08.560 --> 00:02:11.200
+it will be pretty close to the 
+
+00:02:11.200 --> 00:02:14.739
+goblin's height. I'm going to decide
+
+00:02:14.739 --> 00:02:18.280
+what I want. Do I want arms? Yes. [check-box] One neck link
+
+00:02:18.280 --> 00:02:21.459
+I think two or three spine links is good
+
+00:02:21.459 --> 00:02:25.569
+These all seem good. It doesn't have a tail. Ponytail links?
+
+00:02:25.569 --> 00:02:28.840
+These can be for anything on the head.
+
+00:02:28.840 --> 00:02:32.300
+So, I can use a ponytail link to make the hat move, or the ears move
+
+00:02:32.300 --> 00:02:35.910
+or the jaw move. So I'm gonna go ahead
+
+00:02:35.910 --> 00:02:41.430
+and give it one ponytail link. You can have two different ponytails, by the way
+
+00:02:41.430 --> 00:02:43.170
+so that would be if you had two different ears
+
+00:02:43.170 --> 00:02:48.040
+or pigtails. Anyway, I gave it one link, and I'm going to use that for the jaw.
+
+00:02:48.040 --> 00:02:51.340
+Fingers. You will see that
+
+00:02:51.340 --> 00:02:54.410
+although I've rendered some fingers on this goblin
+
+00:02:54.410 --> 00:02:57.420
+it does not have mesh fingers.
+
+00:02:57.420 --> 00:02:59.849
+If I hit F4 to see the whole mesh
+
+00:02:59.849 --> 00:03:02.569
+you can see that the fingers are not individual
+
+00:03:02.569 --> 00:03:07.120
+because this is a pretty low poly mesh, so
+
+00:03:07.120 --> 00:03:11.629
+I'm just gonna stick with one finger, to give it a glove look.
+
+00:03:11.629 --> 00:03:15.870
+That's it. I'm ready to create my skeleton. [F] Front view mode
+
+00:03:15.870 --> 00:03:19.930
+and I'm going to click in the middle and drag it up.
+
+00:03:19.930 --> 00:03:23.080
+Don't worry about getting this too exact, we'll get into that later.
+
+00:03:23.080 --> 00:03:26.920
+Now I'm going to rename it: Gob
+
+00:03:26.920 --> 00:03:30.730
+as the name of the skeleton. You can name yours whatever you'd like.
+
+00:03:30.730 --> 00:03:35.620
+Hit Return [Enter] to make sure it sticks. And now, when you go into
+
+00:03:35.620 --> 00:03:39.739
+any other mode and hit H, you will see your entire biped skeleton right there.
+

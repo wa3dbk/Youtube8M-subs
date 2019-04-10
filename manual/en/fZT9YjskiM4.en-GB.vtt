@@ -1,0 +1,204 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:04.319 --> 00:00:10.429
+Hi, this is Peter from JoomlArt. Today we
+will be talking about the T3 version 3 Framework
+
+00:00:10.429 --> 00:00:12.019
+for Joomla.
+
+00:00:12.019 --> 00:00:18.090
+This is a 2 part video series about layouts.
+The first video will be about Layout Configuration,
+
+00:00:18.090 --> 00:00:22.320
+and the second one is about Layout Customization.
+
+00:00:22.320 --> 00:00:23.539
+So let's start with the Layout.
+
+00:00:23.539 --> 00:00:27.109
+There are 3 main parts in this tutorial.
+
+00:00:27.109 --> 00:00:29.939
+Layout Overview
+Layout Configuration
+
+00:00:29.939 --> 00:00:36.329
+Exporing layout files
+Ok, now let's check out the layout overview.
+
+00:00:36.329 --> 00:00:43.329
+Each layout is built up from multiple blocks.
+One block can contain one or many module positions.
+
+00:00:43.699 --> 00:00:49.000
+The customization can be operated from any
+level: layout or block.
+
+00:00:49.000 --> 00:00:55.719
+The layouts they are very flexible, you can
+change from 3 columns to 2 or full width.
+
+00:00:55.719 --> 00:01:02.640
+The base with elements are from 1 to 12 and
+this can be configured depending on each layout.
+
+00:01:02.640 --> 00:01:09.640
+We can go with combination of 3-6-3, 8-4 or
+simply 12, it's up to you.
+
+00:01:09.740 --> 00:01:14.979
+Ok, now we're going to move on to Layout Configuration.
+
+00:01:14.979 --> 00:01:21.979
+First we're gonna go to Template Manager,
+this is under Extensions at the top of your
+
+00:01:22.200 --> 00:01:28.040
+screen. We're gonna choose a template. In
+this tutorial, we're gonna use JA Mitius
+
+00:01:28.040 --> 00:01:38.000
+template. Ok. Now let's go to the Layout tab.
+Let's scroll down. Here's the list of all
+
+00:01:38.159 --> 00:01:42.970
+the layouts on the site, select the layout
+for the Home menu.
+
+00:01:42.970 --> 00:01:49.970
+There are 2 parts to this Layout Customization:
+the Module Positions and the Responsive Layout.
+
+00:01:51.189 --> 00:01:54.899
+We're gonna start with the Module Positions.
+
+00:01:54.899 --> 00:02:01.310
+The Module Positions allows you to change
+the structure of the layout. You can change
+
+00:02:01.310 --> 00:02:12.900
+any module position that you want. For the
+spotlight block, you can set the number of
+
+00:02:13.019 --> 00:02:20.019
+positions to assign to any module position.
+If you don't want to publish any position
+
+00:02:20.600 --> 00:02:29.600
+in the front-page, just assign to "None".
+Always remember to save your settings. When
+
+00:02:29.660 --> 00:02:36.660
+saved, go to the top of the screen and see
+in the green bar, "Style successfully saved".
+
+00:02:38.970 --> 00:02:45.910
+The Reset Position button allows you to reset
+module position tab to default settings while
+
+00:02:45.910 --> 00:02:52.910
+Reset All resets all settings in the layout
+including the responsive layout settings.
+
+00:02:53.889 --> 00:03:00.889
+So let's check in the front, ok the front-end
+looks pretty good.
+
+00:03:06.570 --> 00:03:11.440
+Just in case, we can save the layout in case
+you make any change that we want to come back
+
+00:03:11.440 --> 00:03:18.440
+to, so we're gonna name this example default-cloned,
+then save.
+
+00:03:21.570 --> 00:03:25.320
+So we're gonna move to Responsive Layout,
+the top of the screen to the right of the
+
+00:03:25.320 --> 00:03:32.310
+Module Positions. Here's the supported layouts.
+There are 5 layouts and you can configure
+
+00:03:32.310 --> 00:03:38.100
+the theme one by one: Wide, Normal, Xtablet,
+Tablet and Mobile.
+
+00:03:38.100 --> 00:03:46.900
+Ok, let's try Xtablet layout, the layout for
+iPads. We can disable any position in the
+
+00:03:46.900 --> 00:03:54.079
+layout simply with one click of the mouse.
+We can resize the positions inside any spotlight
+
+00:03:55.320 --> 00:04:03.300
+block, just drag and drop within the base
+of 12. Can disable the positions that may
+
+00:04:03.440 --> 00:04:10.440
+not be displayed well in the layout. Ok let's
+check the front-end in XTablet or iPad. You
+
+00:04:10.669 --> 00:04:16.880
+can see here, the front page is displayed
+absolutely with what we've just configured.
+
+00:04:16.880 --> 00:04:21.480
+The last part in this tutorial is Exploring
+Layout Files.
+
+00:04:21.480 --> 00:04:33.400
+Each layout has a separate PHP file, the files
+are located in template/template_name/tpls.
+
+00:04:34.000 --> 00:04:39.000
+We have 6 layouts by default and one cloned
+layout so we have 7 total layouts and here
+
+00:04:39.150 --> 00:04:47.900
+are 7 PHP files. Please note that our settings
+in the back-end for layout are not saved to
+
+00:04:48.000 --> 00:05:00.900
+PHP files, they are saved to ini files. The
+ini files are located in template/template_name/etc/layout.
+
+00:05:01.570 --> 00:05:11.000
+As you can note, only layouts that have been
+changed here will have an ini file. The files
+
+00:05:11.250 --> 00:05:20.200
+also include the change settings. We can actually
+change the settings of layouts from the files
+
+00:05:20.480 --> 00:05:25.510
+but we generally don't recommend that for
+users, let's give it an example.
+
+00:05:25.510 --> 00:05:31.340
+In the first position: block 1, spotlight
+1, you can change that, can set the default
+
+00:05:31.340 --> 00:05:45.300
+with span 6 to span12. Now we go back to the
+Layout settings panel and refresh and we see
+
+00:05:45.480 --> 00:05:51.490
+that it's changed in the back-end successfully.
+You see that the position-2 has been changed
+
+00:05:51.490 --> 00:05:56.170
+to -1 and the span has gone from 6 to 12.
+
+00:05:56.170 --> 00:06:00.780
+Remember to stay tuned for the second part
+of this video. This is one of many videos
+
+00:06:00.780 --> 00:06:07.780
+for T3 version 3 Framework.
+

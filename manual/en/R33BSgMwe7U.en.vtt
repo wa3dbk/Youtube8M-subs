@@ -1,0 +1,220 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.200 --> 00:00:07.800
+In this video, we're going to be looking at how to simulate the look of a vibrating speaker diaphragm by using Motion FX inside Houdini!
+
+00:00:07.800 --> 00:00:10.266
+Let's double-click to go inside.
+
+00:00:10.266 --> 00:00:13.532
+And let's select the inner faces here.
+
+00:00:13.633 --> 00:00:18.466
+Just click on the Lasso tool and SHIFT-click and drag to select the faces inside.
+
+00:00:18.766 --> 00:00:22.266
+We'll go to the Deform tab and click on Lattice.
+
+00:00:22.266 --> 00:00:26.766
+You can see that our face selection has changed to points. Just hit the ENTER key.
+
+00:00:27.466 --> 00:00:32.232
+And there's our lattice! Zoom in and hit the W key.
+
+00:00:32.366 --> 00:00:36.832
+We'll just optimize the lattice division to what we need for this shape.
+
+00:00:36.933 --> 00:00:38.566
+and go back to shaded view.
+
+00:00:39.866 --> 00:00:42.066
+In the lattice_bbox_xform node,
+
+00:00:42.066 --> 00:00:47.966
+if we change the values in the Translate X field, we can mimic the look of the speaker diaphragm vibrating.
+
+00:00:49.066 --> 00:00:52.532
+Just pull this out so we can see the menu.
+
+00:00:52.633 --> 00:00:54.699
+and we'll put down a Motion FX Wave.
+
+00:00:55.433 --> 00:00:59.633
+Here we get this pop-up window, which gives us visual feedback of the Motion FX Wave,
+
+00:00:59.633 --> 00:01:02.433
+as well as parameters to tweak the look of it.
+
+00:01:02.433 --> 00:01:06.766
+Just turn on Realtime Playback, and we'll play it back!
+
+00:01:06.766 --> 00:01:11.532
+So you can see the speaker is moving according to the sine waveform.
+
+00:01:11.533 --> 00:01:15.299
+We can also change the waveform type,
+
+00:01:15.666 --> 00:01:17.132
+and tweak the period,
+
+00:01:17.633 --> 00:01:19.299
+lower the amplitude,
+
+00:01:19.666 --> 00:01:22.999
+and make the waveform taper off.
+
+00:01:23.166 --> 00:01:28.399
+OK, let's stop the playback and put there another Motion FX waveform that will give it a more random look.
+
+00:01:29.233 --> 00:01:32.366
+This time, let's put there a Motion FX Noise.
+
+00:01:33.000 --> 00:01:35.066
+We can close this window,
+
+00:01:35.066 --> 00:01:37.432
+and double-click on the motionfx node.
+
+00:01:37.766 --> 00:01:40.332
+Here are the nodes that Motion FX made for us!
+
+00:01:40.333 --> 00:01:45.999
+Just pin this down first, and split the screen so we can see the Motion FX tab too.
+
+00:01:47.066 --> 00:01:50.299
+So here is the Motion FX wave that we made first.
+
+00:01:50.300 --> 00:01:52.500
+And this one is the Motion FX noise.
+
+00:01:52.700 --> 00:01:55.866
+The noise_add1 node just combines them together.
+
+00:01:56.133 --> 00:01:59.733
+So even though we have both the wave1 and noise1 nodes selected,
+
+00:01:59.733 --> 00:02:06.433
+we are only seeing the combined waveform of both because our display flag is on the noise_add1 node.
+
+00:02:06.766 --> 00:02:09.966
+That said, we can set the display flag to multiple nodes here.
+
+00:02:09.966 --> 00:02:12.932
+Hold down SHIFT and left-mouse button click.
+
+00:02:12.933 --> 00:02:15.633
+And now we can see them too.
+
+00:02:15.866 --> 00:02:21.432
+The colours are kind of similar, so let's pick some other ones to differentiate between the 3.
+
+00:02:25.100 --> 00:02:30.566
+So in the noise_add1 node, we can specify how we want the waveforms in CHOPS to be combined.
+
+00:02:31.233 --> 00:02:36.233
+CHOPS by the way, are the lines we see here. Let's play it back under the Add operation.
+
+00:02:36.500 --> 00:02:40.233
+And if we change it to Average, the waveform shape updates accordingly.
+
+00:02:44.333 --> 00:02:49.566
+OK - it's a little tricky with 3 waveforms there so let's just put visibility back to the noise_add1 node.
+
+00:02:49.700 --> 00:02:55.133
+And let's say that we want to have an actual audio file to drive the motion of the lattice. We can do that too!
+
+00:02:55.233 --> 00:02:59.933
+Let's delete these guys and put down a file node...
+
+00:03:00.266 --> 00:03:08.432
+And if you're wondering, this node that we kept here is the one that will connect to the Translate X parameter, so we'll leave it be.
+
+00:03:08.600 --> 00:03:10.166
+Put there an audio file.
+
+00:03:10.633 --> 00:03:13.899
+I found this one off the internet, but feel free to use your own track!
+
+00:03:14.466 --> 00:03:19.299
+Now we'll add back a math node, which was what that noise_add1 node was earlier.
+
+00:03:20.133 --> 00:03:21.999
+Let's wire them up!
+
+00:03:22.566 --> 00:03:25.632
+Put the visibility flag on it.
+
+00:03:25.866 --> 00:03:28.299
+And click on the Audio Panel button.
+
+00:03:28.300 --> 00:03:31.800
+Go to the Scrub tab, and you'll notice that our CHOP field is empty.
+
+00:03:31.800 --> 00:03:35.833
+We will need to put down an audio flag, so that Houdini will know to pull our audio file in.
+
+00:03:37.266 --> 00:03:38.966
+There it is!
+
+00:03:38.966 --> 00:03:42.166
+So now we need to adjust the timeline to fit the length of the audio.
+
+00:03:42.166 --> 00:03:45.666
+Just zoom in and click towards the end of the waveform.
+
+00:03:45.666 --> 00:03:47.199
+And there's our magic number!
+
+00:03:47.200 --> 00:03:50.466
+Let's just put down 512 so we don't get a pause when it loops.
+
+00:03:50.466 --> 00:03:55.132
+And we need to use "Maintain realtime playback, possibly skipping frames" option.
+
+00:03:55.133 --> 00:03:57.633
+Otherwise, our audio will play back choppy.
+
+00:03:58.166 --> 00:03:59.532
+And play it back!
+
+00:04:00.933 --> 00:04:03.166
+So we only got the left channel of the audio.
+
+00:04:03.166 --> 00:04:08.466
+We need to use the Add operation in Combine CHOPS to get both channels.
+
+00:04:09.166 --> 00:04:15.032
+Let's go out of Motion FX and just put there as subdivision node on the speaker geo.
+
+00:04:17.566 --> 00:04:19.266
+Just put it up one more level,
+
+00:04:20.000 --> 00:04:22.033
+and move the display flag down to it...
+
+00:04:22.666 --> 00:04:25.932
+Hit SPACEBAR+B to maximize the scene view...
+
+00:04:27.500 --> 00:04:28.533
+And play it back!
+
+00:04:29.800 --> 00:04:31.266
+But nothing is happening!
+
+00:04:31.266 --> 00:04:33.999
+Hit SPACEBAR+B to get back our panels and let's have a look.
+
+00:04:34.000 --> 00:04:38.133
+Double-click on the motionfx node, and there's our problem!
+
+00:04:38.133 --> 00:04:42.233
+We don't have the export flag assigned. So no data is going out to drive our lattice!
+
+00:04:42.233 --> 00:04:44.499
+Let's give it a try now...
+
+00:05:04.800 --> 00:05:07.733
+And that's Motion FX inside Houdini!
+

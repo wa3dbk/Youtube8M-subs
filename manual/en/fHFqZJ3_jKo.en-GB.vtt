@@ -1,0 +1,191 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:02.800 --> 00:00:06.680
+In this video weíre going to look at using
+burnt-in timecode (BITC).
+
+00:00:06.680 --> 00:00:12.250
+Now just to be clear, Iím talking about the
+8-digit time reference for hours, minutes,
+
+00:00:12.250 --> 00:00:17.880
+seconds and frames, which is superimposed
+or 'burnt' into the video. Now, why would
+
+00:00:17.880 --> 00:00:23.489
+you want the timecode burnt into the screen?
+Well, there are two reasons why I use BITC.
+
+00:00:23.489 --> 00:00:28.119
+Firstly, you might want to use it where your
+video isn't ready for release yet. So, if
+
+00:00:28.119 --> 00:00:33.160
+you're sending rough cuts with BITC it just
+makes it very clear that the video isn't
+
+00:00:33.160 --> 00:00:37.609
+ready for publishing.
+My second reason for using BITC is for reference
+
+00:00:37.609 --> 00:00:42.129
+on rough cuts where your client isn't sat
+next to you during editing. You might be thinking
+
+00:00:42.129 --> 00:00:46.390
+that most media players have a run-time display,
+why not use that? Well, you could but I will
+
+00:00:46.390 --> 00:00:50.850
+give you two quick reasons why you shouldn't.
+Firstly, it's highly unlikely that the person
+
+00:00:50.850 --> 00:00:55.839
+watching your video has a media player that
+displays proper timecode that includes frames,
+
+00:00:55.839 --> 00:01:00.120
+and seeing as video is made of frames, we
+need to see them, especially if it's a fast
+
+00:01:00.120 --> 00:01:04.960
+paced edit. Secondly, the media player might
+not have run-time displayed by default, or
+
+00:01:04.960 --> 00:01:09.610
+it might start in full-screen mode, especially
+if it's a native Windows 8 app.
+
+00:01:09.610 --> 00:01:13.390
+Now let's look at how it's done. Itís very
+simple, but it is something I've been asked
+
+00:01:13.390 --> 00:01:16.900
+many times.
+Iíve got this project ready in Premiere Pro
+
+00:01:16.900 --> 00:01:23.750
+CC and I've got some nice stock footage from
+Pond5.com. You can use the Timecode on a per
+
+00:01:23.750 --> 00:01:28.390
+clip basis, but here I'm just looking at
+getting the timecode from the sequence across
+
+00:01:28.390 --> 00:01:32.420
+the whole video. So I'm going to start off
+by dragging a box around these three clips,
+
+00:01:32.420 --> 00:01:37.220
+and I'm going to hit the 'full stop' key
+or the period key if youíre American. As
+
+00:01:37.220 --> 00:01:43.100
+you can see we've got his clip here of a
+business man looking for his hotel, some wheat
+
+00:01:43.100 --> 00:01:49.320
+and a clock. So the first thing I'm going
+to do is right-click in the bin and choose
+
+00:01:49.320 --> 00:01:54.720
+&gt; New Item, then &gt; Transparent Video.
+The default settings are going to do, so we
+
+00:01:54.720 --> 00:02:00.950
+click OK. Then we drag the transparent video
+to the top layer in our sequence so that the
+
+00:02:00.950 --> 00:02:05.880
+timecode sits on top of everything else. Drag
+it out to the duration of the sequence and
+
+00:02:05.880 --> 00:02:10.140
+as you would expect there is no change there
+because it's transparent video.
+
+00:02:10.140 --> 00:02:16.610
+We want to get the timecode onto this transparent
+video. So head over to &gt; Effects &gt; Video effects
+
+00:02:16.610 --> 00:02:22.790
+&gt; Video, and thereís the Timecode. So we
+drag that over to the transparent video; and
+
+00:02:22.790 --> 00:02:28.690
+you can see it appears over here. So now we
+want to go over to the Effect Controls. Now,
+
+00:02:28.690 --> 00:02:33.300
+hereís the Timecode Settings. You can see
+we've got this little indicator here and
+
+00:02:33.300 --> 00:02:36.980
+that's for fields and seeing as our timeline
+is progressive, we donít need that so I'm
+
+00:02:36.980 --> 00:02:43.980
+going to turn off the Field Symbol. And the
+next thing, you see that there's a semi-transparent
+
+00:02:44.480 --> 00:02:50.180
+box around the timecode, now that looks OK
+on that clip, but if you go over to something
+
+00:02:50.180 --> 00:02:55.760
+that's got a white background, it's not
+quite as visible, so I'm going to change
+
+00:02:55.760 --> 00:03:02.760
+the opacity on that from 40% to 60%, just
+to make it a little bit clearer.
+
+00:03:03.350 --> 00:03:06.690
+Now the next thing I want to change, I want
+to make it a bit smaller because it's a bit
+
+00:03:06.690 --> 00:03:11.860
+obtrusive stuck right in the middle there.
+So the default is 15%, I'm going to change
+
+00:03:11.860 --> 00:03:17.270
+that to 8. So there we go, that's much more
+like it. Now I want to move it over into the
+
+00:03:17.270 --> 00:03:23.260
+corner so it's even less obtrusive, so I'm
+going to use the slider to get that over to
+
+00:03:23.260 --> 00:03:28.440
+there, and move it down a little bit; and
+that is fine.
+
+00:03:28.440 --> 00:03:33.580
+If we go to the beginning of the timeline,
+you'll see that our timecode is all zeroes
+
+00:03:33.580 --> 00:03:39.450
+there as it should be, but up here it says
+one hour; let's see what's going on there.
+
+00:03:39.450 --> 00:03:44.300
+If you come to the effect controls, you'll
+see that there's a setting called Timecode
+
+00:03:44.300 --> 00:03:49.700
+Source, at the moment that's set to Media,
+we need to put that on Regenerate, and you'll
+
+00:03:49.700 --> 00:03:56.700
+see that, that now matches the timecode over
+here. That is what we want. That represents
+
+00:03:57.500 --> 00:04:04.500
+the timecode in our sequence, we're now ready
+to export and send our draft edit off to the
+
+00:04:04.700 --> 00:04:11.700
+client.
+

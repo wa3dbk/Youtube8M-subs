@@ -1,0 +1,282 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.520 --> 00:00:04.090
+Have you ever seen pictures like these? They're
+made using a technique called "high speed
+
+00:00:04.090 --> 00:00:08.380
+photography," which is all about catching
+fast action at just the right moment. With
+
+00:00:08.380 --> 00:00:12.190
+a DSLR, an Arduino, a flash and a few other
+components, we're going to build our own basic
+
+00:00:12.190 --> 00:00:16.250
+high speed photography rig. And what do the
+wine glass and hammer have to do with anything?
+
+00:00:16.250 --> 00:00:23.980
+Well stick around and find out!
+
+00:00:23.980 --> 00:00:29.420
+Here's what we'll need: first, an SLR or camera
+that has a full manual mode. An external flash.
+
+00:00:29.420 --> 00:00:34.040
+An Arduino. Any kind will do, but I'm going
+to use the Nano for this project. An opto
+
+00:00:34.040 --> 00:00:38.100
+isolator chip. As a sensor, we're going to
+use this piezo element from Radio Shack. And
+
+00:00:38.100 --> 00:00:41.440
+you may want to get some flash interconnects
+and cables, but you may be able to get by
+
+00:00:41.440 --> 00:00:45.550
+without them depending on what type of flash
+you have. And of course you'll need a breadboard,
+
+00:00:45.550 --> 00:00:47.370
+hookup wire and resistors.
+
+00:00:47.370 --> 00:00:50.930
+First let's talk about opto isolators. We
+can learn a lot about them by looking at the
+
+00:00:50.930 --> 00:00:56.469
+schematic diagram. On one side, we have an
+LED, on the other a phototransistor. Without
+
+00:00:56.469 --> 00:01:01.649
+voltage on this side, the switch is open on
+this side. When we apply voltage, the LED
+
+00:01:01.649 --> 00:01:05.239
+illuminates, which causes the phototransistor
+to close the circuit on this side. There are
+
+00:01:05.239 --> 00:01:09.039
+no electrical contacts shared between each
+side of this component, which makes it great
+
+00:01:09.039 --> 00:01:13.270
+for isolating parts of our projects. In this
+case, we want to isolate the flash's voltage
+
+00:01:13.270 --> 00:01:14.520
+from the Arduino.
+
+00:01:14.520 --> 00:01:19.060
+So now let's use the opto isolator to trigger
+the flash. There are many different flash
+
+00:01:19.060 --> 00:01:23.130
+connectors, but most flashes have these hotshoe
+connectors on the bottom and will fire when
+
+00:01:23.130 --> 00:01:26.950
+you close the connection between the contact
+on the bottom and inside the flange. Now you
+
+00:01:26.950 --> 00:01:31.459
+can either jury rig your own wires to these
+terminals, or you can use a PC sync cable.
+
+00:01:31.459 --> 00:01:36.359
+Some flashes, like this one, have a built-in
+PC sync port, which looks like this. But you
+
+00:01:36.359 --> 00:01:41.570
+can make any hotshoe flash PC sync capable
+if you use a hot shoe adapter. Hot shoe adapters
+
+00:01:41.570 --> 00:01:45.479
+and PC sync cables are very cheap and are
+available at many pro photo shops or you can
+
+00:01:45.479 --> 00:01:47.799
+check out FlashZebra.com for a nice selection.
+
+00:01:47.799 --> 00:01:51.740
+I'm going to plug my PC sync cable directly
+into this flash, and as you can see, when
+
+00:01:51.740 --> 00:01:56.490
+I connect the leads, the flash fires. To connect
+these leads to your opto isolator, put it
+
+00:01:56.490 --> 00:02:01.149
+into the breadboard like this, with the dot
+on the upper left. Just like the schematic
+
+00:02:01.149 --> 00:02:05.119
+diagram, the switch we're closing is between
+the two pins on the right. Now use a current
+
+00:02:05.119 --> 00:02:08.550
+limiting resistor to connect a digital out
+pin of your Arduino to the first pin on your
+
+00:02:08.550 --> 00:02:13.350
+opto isololator on the left. The pin below
+that to ground. Now when you bring this pin
+
+00:02:13.350 --> 00:02:18.400
+HIGH for a moment, it will close the connection
+between the two pins and the flash fires.
+
+00:02:18.400 --> 00:02:21.840
+Now let's talk about our sensor. I want to
+get a photo of a balloon mid-pop, so I'm going
+
+00:02:21.840 --> 00:02:25.950
+to use the piezo sensor with the red lead
+connected to an analog in pin and the black
+
+00:02:25.950 --> 00:02:30.680
+to ground. Connect a one megaohm resistor
+parallel to that so it'll be the same pin
+
+00:02:30.680 --> 00:02:34.910
+and ground. This will keep the readings steady
+to ensure that only a loud pop will trigger
+
+00:02:34.910 --> 00:02:38.780
+the Arduino. I'm also going to hook up a button
+so that we're ignoring any input from the
+
+00:02:38.780 --> 00:02:40.440
+sensor until we're ready.
+
+00:02:40.440 --> 00:02:44.270
+Let's take a quick look at our code. When
+we first start the arduino, it'll be in standby
+
+00:02:44.270 --> 00:02:49.210
+mode. In this mode, it'll ignore input from
+the sensor and won’t trigger the flash.
+
+00:02:49.210 --> 00:02:52.710
+After we push the button, it starts to listen
+for the pop. As soon as it hears the pop,
+
+00:02:52.710 --> 00:02:55.720
+it triggers the flash and then goes back into
+standby mode.
+
+00:02:55.720 --> 00:02:58.890
+The camera’s shutter is going to have to
+be open before the flash fires because the
+
+00:02:58.890 --> 00:03:02.930
+shutter is just not fast enough to open to
+catch the action. Therefore, we have to work
+
+00:03:02.930 --> 00:03:06.680
+in a dark room and have the shutter already
+open when the balloon pops either by setting
+
+00:03:06.680 --> 00:03:09.620
+a long exposure time, or using our camera’s
+bulb mode.
+
+00:03:09.620 --> 00:03:13.680
+Let’s put the whole rig together now. I
+have my camera set up on a tripod and I’ve
+
+00:03:13.680 --> 00:03:17.121
+set the aperture on the camera to make the
+appropriate exposure based on our flash output.
+
+00:03:17.121 --> 00:03:20.681
+You’ll want to set the flash output as low
+as possible. This is because with a flash
+
+00:03:20.681 --> 00:03:24.630
+such as this one, the flash output is mainly
+controlled by the duration of the flash. The
+
+00:03:24.630 --> 00:03:28.870
+lower the flash output, the less time the
+bulb is illuminated. Since the pop of a balloon
+
+00:03:28.870 --> 00:03:32.990
+is very fast, we need a quick burst of light
+in order to reduce motion blur.
+
+00:03:32.990 --> 00:03:36.100
+So you don’t need to use an arduino for
+such a simple circuit but but I wanted to
+
+00:03:36.100 --> 00:03:39.740
+extended the project by using a power tail
+relay to shut off the lights when I put the
+
+00:03:39.740 --> 00:03:44.470
+device into active mode. And I wired up my
+camera’s remote shutter jack to another
+
+00:03:44.470 --> 00:03:49.540
+opto isolator so that after the lights go
+out the camera automatically opens its shutter.
+
+00:03:49.540 --> 00:03:52.600
+OK, I've got everything rigged up and I'm
+ready to go. Let's see if this works. I'm
+
+00:03:52.600 --> 00:03:56.560
+going to push the button, it'll turn the lights
+off, then open the camera shutter, after the
+
+00:03:56.560 --> 00:03:59.880
+camera shutter's open, it will listen for
+the pop, when it hears the pop, it'll fire
+
+00:03:59.880 --> 00:04:04.400
+the flash and then close the camera shutter.
+And then turn the lights back on. Let's see
+
+00:04:04.400 --> 00:04:08.540
+if it works. Here we go.
+
+00:04:08.540 --> 00:04:11.020
+[BALLOON POPPING]
+
+00:04:11.020 --> 00:04:16.500
+Let's see how that looks. Not bad!
+
+00:04:16.500 --> 00:04:20.630
+So now, as promised, I have the wine glass
+and the hammer. Let's see how this looks.
+
+00:04:20.630 --> 00:04:26.770
+[GLASS SHATTERING]
+
+00:04:26.770 --> 00:04:27.770
+Worked pretty well!
+
+00:04:27.770 --> 00:04:31.699
+There's so much you can do with high speed
+photography and all the different types of
+
+00:04:31.699 --> 00:04:35.650
+sensors. If you're looking to build a more
+advanced version, check out CameraAxe.com
+
+00:04:35.650 --> 00:04:39.009
+for lots of great resources. And while you're
+here, I want to hear your feedback! Leave
+
+00:04:39.009 --> 00:04:42.800
+a comment, give a thumbs up, and thank you
+for subscribing. I have a great new video
+
+00:04:42.800 --> 00:04:45.690
+coming out in a couple weeks and you're not
+going to want to miss it! So long!
+

@@ -1,0 +1,214 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.954 --> 00:00:07.412
+With the Skin modifier applied, it's time to fine-tune the solution.
+
+00:00:07.670 --> 00:00:14.680
+Since you'll be concentrating on the left leg, you may want to readjust the animation timing to focus on its motion.
+
+00:00:15.370 --> 00:00:19.160
+Leg motion is taking place between frames 0 and 640.
+
+00:00:19.600 --> 00:00:23.390
+You can use the Time Configuration dialog to re-focus on that time.
+
+00:00:23.700 --> 00:00:30.800
+You can also use shortcuts, by pressing Ctrl+Alt and then left-click and drag or right-click and drag the timeline,
+
+00:00:31.110 --> 00:00:35.700
+depending on whether you want to reset the first frame or the last frame of the animation.
+
+00:00:36.148 --> 00:00:42.542
+With the foot selected, make sure you are in Edit Envelopes mode and that Vertices mode is enabled.
+
+00:00:42.850 --> 00:00:45.070
+Scrub the animation to view the problems.
+
+00:00:45.572 --> 00:00:51.840
+The worst is happening at the heel and ankle levels, but even the toe joint needs some adjustment.
+
+00:00:52.433 --> 00:00:56.010
+Usually, at this point you want to "block out" the skinning.
+
+00:00:56.337 --> 00:01:00.982
+This means you want to manually select and assign vertices to their closest bone.
+
+00:01:01.345 --> 00:01:05.462
+Once this is done, you can go back and adjust the blending.
+
+00:01:05.950 --> 00:01:10.380
+To select a set of vertices, you can rely on region selection.
+
+00:01:10.810 --> 00:01:16.600
+However, the rectangular marquee may not necessarily be the best option for vertex selection.
+
+00:01:17.080 --> 00:01:24.148
+One universal favorite for this kind of selection is the Lasso tool, although others can be equally practical.
+
+00:01:28.458 --> 00:01:33.305
+Another selection method you'll be using extensively is the Ring/Loop combination.
+
+00:01:33.928 --> 00:01:41.358
+If you select two adjoining vertices, you can use Ring or Loop to select other vertices on that loop edge.
+
+00:01:41.860 --> 00:01:48.110
+This is an incredibly powerful selection tool but it only works if the character was modeled properly.
+
+00:01:48.710 --> 00:01:55.940
+Even if it was, the Ring/Loop selection method is not perfect as it fails when the triangulation inevitably is not perfect.
+
+00:01:56.510 --> 00:02:01.090
+A good example is around the ankle, where you can see the five-edged vertex.
+
+00:02:01.821 --> 00:02:09.091
+Trying a loop selection there will fail, which means you still need to rely on conventional selection methods sometimes.
+
+00:02:09.800 --> 00:02:15.100
+In some situations, you may even need to revert to a vertex-by-vertex selection,
+
+00:02:15.450 --> 00:02:19.840
+using Ctrl or Alt to add or remove from the selection.
+
+00:02:20.440 --> 00:02:25.790
+For now, and using the lasso tool, select the front part of the foot.
+
+00:02:26.391 --> 00:02:29.496
+The selected vertices appear as white boxes.
+
+00:02:29.930 --> 00:02:31.500
+Here's a bit of a quick tip:
+
+00:02:31.961 --> 00:02:38.529
+Notice that if you orbit around, the selected vertices are not necessarily acting as a rotation center.
+
+00:02:38.966 --> 00:02:47.174
+Even with the Orbit tool set to orbit around a sub-selection, this doesn't seem to work with skin vertices the way it does with mesh vertices.
+
+00:02:47.660 --> 00:02:55.740
+The trick here is to set the Transform Center to work around a Selection Center to get the Orbit to work as expected.
+
+00:02:56.641 --> 00:03:03.051
+With the toe vertices selected, what you need to do now is to fully assign them to follow the toe bone.
+
+00:03:03.480 --> 00:03:10.560
+Select the toe bone, since it's named properly you can select it from the list or simply by clicking it in the viewport.
+
+00:03:11.130 --> 00:03:19.170
+Notice the Absolute Effect value. It may already be set to 1 which means this bone is affecting the selected vertices 100%.
+
+00:03:19.750 --> 00:03:24.390
+Just the same, set this value to 1 and press enter to confirm it.
+
+00:03:25.060 --> 00:03:33.370
+Next select the rest of the vertices on the foot and heel but leave out the top vertex loop near the ankle.
+
+00:03:37.217 --> 00:03:42.957
+Now select the foot bone. Notice this time that the Absolute Value doesn't actually show any numbers.
+
+00:03:43.290 --> 00:03:49.665
+This is the indication that the selected bone (foot bone) affects the selected vertices by various amounts.
+
+00:03:50.220 --> 00:03:56.500
+Again set the value to 1 to ensure all selected vertices follow the selected bone.
+
+00:03:57.320 --> 00:04:03.120
+Finally, select the vertex ring at the top and assign that to the knee bone.
+
+00:04:07.252 --> 00:04:12.457
+Test the animation. There are fewer problems now but you still need adjustments.
+
+00:04:12.740 --> 00:04:15.610
+This is where you start fine-tuning the joints.
+
+00:04:16.560 --> 00:04:21.030
+Go to frame 20 and take a look at this loop, 
+
+00:04:24.053 --> 00:04:28.653
+and how it's sort of crashing into the foot as the toe springs up.
+
+00:04:32.838 --> 00:04:39.403
+Similarly at frame 60, the same loop is rotating a bit too much with the toe.
+
+00:04:40.240 --> 00:04:47.350
+This loop should be slightly affected by the foot bone, the same way the adjoining loop, which is currently following the foot,
+
+00:04:47.748 --> 00:04:50.435
+should be made to bend slightly with the toe.
+
+00:04:50.900 --> 00:04:53.120
+You can do this in a couple of different ways:
+
+00:04:53.551 --> 00:05:02.848
+One way is to continue using the Abs. Effect value, by selecting a loop of vertices, then a bone that should affect the selection,
+
+00:05:03.310 --> 00:05:08.520
+and finding the right value by clicking and dragging the spinner in the Command panel.
+
+00:05:10.865 --> 00:05:14.678
+Another way is to use the Weights Tool dialog.
+
+00:05:16.795 --> 00:05:19.105
+Make a vertex selection, 
+
+00:05:23.046 --> 00:05:26.243
+and also select the bone you want to affect the vertices.
+
+00:05:26.730 --> 00:05:37.086
+Here, instead of a click and drag, you can click a preset percentage button, such as .5 for 50% or .25 for 25%.
+
+00:05:37.708 --> 00:05:42.810
+This dialog shows you how many bones are affecting the selected vertices and by what percentages.
+
+00:05:43.180 --> 00:05:48.760
+You are not restricted to presets, you can force a custom value,
+
+00:05:52.033 --> 00:05:57.303
+or you can scale the weight up or down to increase or decrease percentages.
+
+00:05:57.818 --> 00:06:05.306
+Ultimately, whether you use the Weight Tool or the Abs. Effect value, you're still relying on a visual medium.
+
+00:06:05.961 --> 00:06:10.733
+It basically has to look right in the viewport as you run through the bone's range of motion.
+
+00:06:11.483 --> 00:06:15.883
+The rest of the foot is pretty rigid except for this area around the ankle.
+
+00:06:16.583 --> 00:06:25.226
+Here you probably need to make a selection using a conventional approach, as the loop option will fail as discussed earlier.
+
+00:06:33.186 --> 00:06:42.511
+At this point these vertices are affected 100% by the foot bone, but they should be made to react to the knee bone by a small amount.
+
+00:06:43.080 --> 00:06:46.530
+Select the knee bone and adjust the weight value. 
+
+00:06:48.220 --> 00:06:50.870
+About 30% should do fine.
+
+00:06:51.810 --> 00:06:57.220
+If you feel some vertices need a little more or less weight, adjust them as well.
+
+00:06:57.613 --> 00:07:03.153
+Always test the weights in relation to the animation of the joints by scrubbing the animation slider bar.
+
+00:07:03.550 --> 00:07:07.620
+When you're done, exit Edit Envelopes mode.
+
+00:07:08.838 --> 00:07:12.488
+Go down the stack to Editable Poly &gt; 
+
+00:07:14.240 --> 00:07:17.130
+Polygon sub-object mode, 
+
+00:07:20.110 --> 00:07:24.410
+and click Unhide All to bring back the mesh into view.
+
+00:07:24.938 --> 00:07:28.368
+Exit Polygon mode when done and save your file.
+
+00:07:32.210 --> 00:07:36.280
+In the next movie, you adjust the bottom of the leg and the knee joint.
+

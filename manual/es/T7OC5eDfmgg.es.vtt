@@ -1,0 +1,239 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:15.500 --> 00:00:22.000
+¿Estamos listos Joaquín?
+Sí, estaba pensando cuanto me llevaría hacer
+
+00:00:22.020 --> 00:00:26.330
+mis 32000 piezas de ajedrez, si tuviese que
+usar el torno manual ¿no?
+
+00:00:26.330 --> 00:00:31.890
+Y sí, la verdad es que te llevaría bastante
+Bueno por eso vamos a utilizar el CNC, pero
+
+00:00:31.890 --> 00:00:36.519
+tenemos que aprender a diseñar el código
+O sea, programarlo.
+
+00:00:36.519 --> 00:00:40.000
+Exacto
+¿Manos a la obra? Manos a la obra
+
+00:00:43.000 --> 00:00:45.600
+Joaquín, en base a lo que vimos, 
+
+00:00:45.600 --> 00:00:49.129
+¿cuáles serían los pasos a seguir para generar el
+proyecto?
+
+00:00:49.129 --> 00:00:53.149
+¿Me estás poniendo a prueba no? ¿Querés
+ver si voy entendiendo algo de todo lo que
+
+00:00:53.149 --> 00:00:57.829
+me estás enseñando? Te voy a sorprender
+Todo comienza con el diseño de la pieza y
+
+00:00:57.829 --> 00:01:02.510
+su representación en el plano. Con esta información
+elegimos los procesos productivos que vamos
+
+00:01:02.510 --> 00:01:07.410
+a utilizar: fresado, torneado, etc.
+Luego elegimos la máquina que vamos a utilizar
+
+00:01:07.410 --> 00:01:11.480
+y ahí la selección de la herramienta y los
+parámetros tecnológicos.
+
+00:01:11.480 --> 00:01:16.060
+Pará, pará, no me digas eh, no me digas,
+no me digas, que yo lo sé. Ya sé
+
+00:01:16.060 --> 00:01:22.500
+Ahí elegimos y tenemos que diseñar el programa
+para el CNC. Pero eso, todavía no lo vimos.
+
+00:01:22.500 --> 00:01:27.390
+Excelente Joaquín. Tenés razón
+Tenemos que hablar ahora sobre la programación del CNC.
+
+00:01:27.390 --> 00:01:32.020
+ Para hacer el programa del CNC nos
+tenemos que alinear con lo que nos dice la norma ISO.
+
+00:01:32.020 --> 00:01:36.030
+O también llamada código G. Esta norma lo
+
+00:01:36.030 --> 00:01:41.420
+que nos está definiendo es el lenguaje de
+comunicación entre el operador y el CNC.
+
+00:01:41.420 --> 00:01:48.220
+En definitiva es cómo el operador le va a
+comunicar tanto: la trayectoria, las coordenadas
+
+00:01:48.220 --> 00:01:52.840
+y los parámetros tecnológicos al CNC para
+que este pueda controlar la máquina.
+
+00:01:52.840 --> 00:01:58.090
+Así que Joaquín, en base a las herramientas
+seleccionadas vamos a definir las trayectorias.
+
+00:01:58.090 --> 00:02:04.220
+Las trayectorias van a quedar delimitadas
+por medio de puntos y sus coordenadas asociadas
+
+00:02:04.220 --> 00:02:08.780
+Luego debemos definir los parámetros tecnológicos
+que las herramientas utilizarán entre ambos
+
+00:02:08.780 --> 00:02:13.049
+puntos.
+Y finalmente, debemos seleccionar un código
+
+00:02:13.049 --> 00:02:17.189
+ISO que nos permita comunicar al CNC toda
+esta información.
+
+00:02:17.189 --> 00:02:23.930
+Vení Joaquín, hablemos un poco de la estructura.
+Un programa de CNC está formado por instrucciones
+
+00:02:23.930 --> 00:02:27.980
+en forma secuencial que describen el movimiento
+de la máquina.
+
+00:02:27.980 --> 00:02:32.450
+Estas instrucciones deben contener toda la
+información para que la maquina pueda realizar
+
+00:02:32.450 --> 00:02:35.029
+el mecanizado
+¿Y esto que incluye?
+
+00:02:35.029 --> 00:02:41.670
+Bueno, y eso incluye funciones de movimientos,
+funciones auxiliares como son prender o apagar
+
+00:02:41.670 --> 00:02:45.810
+el líquido refrigerante
+Estas funciones se dan en forma de bloques,
+
+00:02:45.810 --> 00:02:50.079
+numeradas en forma secuencial.
+¿Y cómo está formado un bloque?
+
+00:02:50.079 --> 00:02:53.489
+Buena pregunta.
+Los bloques están formados, aquí te puedo
+
+00:02:53.489 --> 00:02:58.359
+mostrar en la pantalla.
+Están formados por un número inicial que
+
+00:02:58.359 --> 00:03:03.079
+nos describe el número de bloque.
+Y comienzan las funciones. Como por ejemplo
+
+00:03:03.079 --> 00:03:07.659
+G90 que nos define las coordenadas…si son
+absolutas o incrementales.
+
+00:03:07.659 --> 00:03:13.980
+El M03 que es una función auxiliar o una
+función miscelánea, que enciende o apaga
+
+00:03:13.980 --> 00:03:18.310
+la rotación del husillo.
+Después tenemos el G00 que es una función
+
+00:03:18.310 --> 00:03:22.499
+de movimiento rápido
+M05 apaga el husillo
+
+00:03:22.499 --> 00:03:26.829
+Y tenemos M30 que es una función auxiliar
+para terminar de programar.
+
+00:03:26.829 --> 00:03:30.790
+Jorge ¿tengo alguna regla que seguir a la
+hora de armar los bloques?
+
+00:03:30.790 --> 00:03:34.180
+Sí, deberías tener en cuenta las siguientes
+restricciones:
+
+00:03:34.180 --> 00:03:39.909
+Deben contener únicamente un solo movimiento
+de herramienta
+
+00:03:39.909 --> 00:03:46.909
+Deben contener una única velocidad de corte
+Además deben contener únicamente una herramienta
+
+00:03:48.069 --> 00:03:53.169
+o velocidad de husillo
+Y finalmente, el número de bloques debe ser
+
+00:03:53.169 --> 00:03:55.849
+secuencial
+¿Se entendió?
+
+00:03:55.849 --> 00:04:02.849
+Sí, perfecto.
+
+00:04:03.100 --> 00:04:06.000
+Hey Joaquín, ¿meditando?
+
+00:04:06.000 --> 00:04:11.480
+No, estaba pasando un poco en limpio todo
+lo que hicimos hoy.
+
+00:04:11.480 --> 00:04:13.549
+Hablamos de las etapas del desarrollo del
+programa.
+
+00:04:13.549 --> 00:04:17.540
+Hablamos de la trayectoria, que es como la
+ruta que tiene que seguir la herramienta de
+
+00:04:17.540 --> 00:04:22.690
+corte durante todo el trabajo. Esto partiendo
+de sus puntos y sus coordenadas.
+
+00:04:22.690 --> 00:04:27.670
+También hablamos de los parámetros tecnológicos
+que son, por ejemplo, la velocidad de corte,
+
+00:04:27.670 --> 00:04:30.400
+la profundidad de corte y el…
+Avance.
+
+00:04:30.400 --> 00:04:34.420
+Y el avance.
+Bien Jorge gracias, para que eso lo voy a
+
+00:04:34.420 --> 00:04:39.230
+poner porque…avance
+Después hablamos de los códigos que es la
+
+00:04:39.230 --> 00:04:43.400
+información que le vamos a dar nosotros al
+CNC para que la máquina realice el trabajo
+
+00:04:43.400 --> 00:04:47.050
+de forma secuencial, bloque por bloque.
+¿Vimos esto no?
+
+00:04:47.050 --> 00:04:50.260
+Perfecto, excelente resumen.
+¿Vamos y seguimos mañana?
+
+00:04:50.260 --> 00:04:55.660
+Dale ¡cómo no!
+

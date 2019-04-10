@@ -1,0 +1,177 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:04.450
+Hey guys welcome back to you
+another amazing tutorial my name is
+
+00:00:04.450 --> 00:00:04.779
+ABDERRAHMANE
+
+00:00:04.779 --> 00:00:08.840
+from someone pro channel and in
+today's video I'm going to be showing
+
+00:00:08.840 --> 00:00:09.330
+you
+
+00:00:09.330 --> 00:00:13.990
+how to create a bootable USB pen drive
+for Windows 8
+
+00:00:13.990 --> 00:00:17.400
+without using in additional softwares so
+for this
+
+00:00:17.400 --> 00:00:20.520
+you are going to need windows 8 iso
+
+00:00:20.520 --> 00:00:24.920
+and a 8GB or higher USB pendrive
+
+00:00:24.920 --> 00:00:31.599
+so let's begin 
+
+00:00:31.599 --> 00:00:35.030
+so the first thing
+
+00:00:35.030 --> 00:00:42.030
+that you wanna do is to plugg in the USB pen drive
+
+00:00:45.140 --> 00:00:48.040
+and then click the start button
+
+00:00:48.040 --> 00:00:51.940
+and search for CMD that means
+
+00:00:51.940 --> 00:00:56.170
+command prompt now type in the following
+
+00:00:56.170 --> 00:01:00.660
+commands diskpart enter
+
+00:01:00.660 --> 00:01:07.660
+list disk enter
+
+00:01:10.680 --> 00:01:13.759
+select disk 1 now clean
+
+00:01:13.759 --> 00:01:17.119
+create partition primary
+
+00:01:17.119 --> 00:01:21.210
+select partition 1
+
+00:01:21.210 --> 00:01:24.439
+active format
+
+00:01:24.439 --> 00:01:30.049
+fs=ntfs quick
+
+00:01:30.049 --> 00:01:37.049
+assign
+
+00:01:37.510 --> 00:01:44.510
+finally exit
+
+00:01:44.550 --> 00:01:47.240
+now what I'm basically going to do
+
+00:01:47.240 --> 00:01:50.490
+is to extract the files from the iso
+here
+
+00:01:50.490 --> 00:01:53.640
+so here is my Windows 8
+
+00:01:53.640 --> 00:01:57.619
+so right click on that and
+
+00:01:57.619 --> 00:02:01.540
+here we have extract files so click on
+that
+
+00:02:01.540 --> 00:02:06.630
+and then choose your USB pen drive from
+this list
+
+00:02:06.630 --> 00:02:10.590
+and click OK now after you have done that
+
+00:02:10.590 --> 00:02:15.870
+go ahead and shutdown your computer
+
+00:02:15.870 --> 00:02:22.870
+and once again plugg in the USB pen drive
+
+00:02:29.470 --> 00:02:31.370
+now go ahead
+
+00:02:31.370 --> 00:02:34.970
+power on your computer and I'm going to
+click on
+
+00:02:34.970 --> 00:02:38.550
+F2 to enter the setup
+
+00:02:38.550 --> 00:02:43.610
+so here
+
+00:02:43.610 --> 00:02:46.730
+we have a the BIOS  settings
+
+00:02:46.730 --> 00:02:49.760
+so what I am going to do is to
+
+00:02:49.760 --> 00:02:53.320
+click on the right arrow and choose
+
+00:02:53.320 --> 00:02:58.240
+boot now
+
+00:02:58.240 --> 00:03:01.600
+here we have boot device priority
+
+00:03:01.600 --> 00:03:05.740
+so make sure to click on that and 
+once again
+
+00:03:05.740 --> 00:03:10.000
+make sure to
+
+00:03:10.000 --> 00:03:13.420
+make your USB pen drive at the top
+
+00:03:13.420 --> 00:03:16.580
+of this list that's very important
+
+00:03:16.580 --> 00:03:20.130
+and click on F10 in my case to
+
+00:03:20.130 --> 00:03:23.730
+exit and save the a changes
+
+00:03:23.730 --> 00:03:26.830
+and this is
+
+00:03:26.830 --> 00:03:31.280
+pretty much it so I'm going to let you
+
+00:03:31.280 --> 00:03:38.280
+see the Windows installation
+
+00:03:48.440 --> 00:03:51.760
+if yu have liked this video and thought it
+was useful
+
+00:03:51.760 --> 00:03:55.570
+please make sure that you click the Like
+button and the subscribe button
+
+00:03:55.570 --> 00:03:58.820
+so until next time
+
+00:03:58.820 --> 00:03:59.570
+have a great day
+

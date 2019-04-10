@@ -1,0 +1,249 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.680 --> 00:00:05.140
+Bevor wir uns die Commandblöcke genauer ansehen,
+sollten wir zuerst die Grundlagen der Commands
+
+00:00:05.140 --> 00:00:06.140
+kennen.
+
+00:00:06.140 --> 00:00:10.970
+Sie beginnen mit einem Slash und können entweder
+mit OP-Rechten in der Chatzeile, über einen
+
+00:00:10.970 --> 00:00:14.130
+Commandblock oder auf einem Server in der
+Konsole ausgeführt werden.
+
+00:00:14.130 --> 00:00:18.680
+Außerdem kann man sie in den Text von Büchern,
+Schildern oder Chatnachrichten verpacken.
+
+00:00:18.680 --> 00:00:22.970
+Direkt in Minecraft werden uns alle Commands
+mit /help aufgelistet.
+
+00:00:22.970 --> 00:00:27.150
+In der Chatzeile können wir außerdem die
+Tab-Taste benutzen, um einen Command automatisch
+
+00:00:27.150 --> 00:00:28.860
+vervollständigen zu lassen.
+
+00:00:28.860 --> 00:00:33.480
+Wollen wir uns die genaue Syntax eines Commands
+angucken, können wir den Command ohne Parameter
+
+00:00:33.480 --> 00:00:37.690
+ausführen oder auf der Befehlsseite im Minecraft-Wiki
+nachschauen, die in der Beschreibung verlinkt
+
+00:00:37.690 --> 00:00:38.690
+ist.
+
+00:00:38.690 --> 00:00:40.850
+Elementar ist z.B. der /gamemode-Command.
+
+00:00:40.850 --> 00:00:47.270
+Mit ihm können wir für einen Selector zwischen
+dem Creative, Survival, Adventure oder Spectator-Mode
+
+00:00:47.270 --> 00:00:48.270
+wählen.
+
+00:00:48.270 --> 00:00:52.350
+Genaue Informationen zu den Angaben für Selectoren
+findet ihr im Extra-Video.
+
+00:00:52.350 --> 00:00:57.570
+Möchte man einen Selector an eine bestimmte
+Position telepotieren, nutzt man den /tp-Command
+
+00:00:57.570 --> 00:00:59.680
+und gibt die gewünschten Koordinaten an.
+
+00:00:59.680 --> 00:01:04.020
+Die Koordinaten seiner aktuellen Position
+findet man heraus, indem man die F3-Taste
+
+00:01:04.020 --> 00:01:05.020
+drückt.
+
+00:01:05.020 --> 00:01:09.100
+Dort gibt es einmal die Koordinaten für den
+normalen Gebrauch und darüber die exakten
+
+00:01:09.100 --> 00:01:10.650
+Koordinaten für Experten.
+
+00:01:10.650 --> 00:01:15.690
+Werden in einem Command Koordinaten benötigt,
+übernimmt Minecraft in der Regel beim Drücken
+
+00:01:15.690 --> 00:01:20.170
+der Tab-Taste automatisch die Werte des Blockes,
+den man mit dem Fadenkreuz ausgewählt hat.
+
+00:01:20.170 --> 00:01:24.830
+Im F3-Menü findet man außerdem eine rote,
+grüne und blaue Linie.
+
+00:01:24.830 --> 00:01:29.549
+Diese zeigen einem an, in welcher Richtung
+die X- Y- und Z-Werte größer werden.
+
+00:01:29.549 --> 00:01:33.130
+Möchte ich einen Spieler also um 5 Blöcke
+in Richtung der roten Linie teleportieren,
+
+00:01:33.130 --> 00:01:36.390
+muss ich den Wert seiner X-Koordinate um 5
+erhöhen.
+
+00:01:36.390 --> 00:01:41.009
+Um uns große Rechenaufgaben zu sparen, gibt
+es in Minecraft relative Koordinaten.
+
+00:01:41.009 --> 00:01:47.070
+Setzt man statt einem Zahlenwert mit AltGr
+und + eine Welle ein, nimmt Minecraft automatisch
+
+00:01:47.070 --> 00:01:50.310
+die Koordinate, an der sich der Spieler gerade
+befindet.
+
+00:01:50.310 --> 00:01:54.850
+Möchte ich den Spieler nun um 5 Blöcke nach
+X teleportieren, hänge ich hinter diese Welle
+
+00:01:54.850 --> 00:01:55.850
+eine 5.
+
+00:01:55.850 --> 00:02:00.090
+Für -6 Blöcke entgegengesetzt der blauen
+Linie setze ich für die Z-Koordinate eine
+
+00:02:00.090 --> 00:02:02.000
+Welle mit einer -6 ein.
+
+00:02:02.000 --> 00:02:06.899
+Beim Tp-Command gibt es außerdem hinter den
+Koordinaten für die Postion auch zwei weitere
+
+00:02:06.899 --> 00:02:10.179
+Slots für die horizontale und vertikale Blickrichtung
+des Spielers.
+
+00:02:10.179 --> 00:02:13.989
+Im F3-Menü findet man den exakten Wert im
+Punkt “Facing”.
+
+00:02:13.989 --> 00:02:18.220
+Alternativ kann man beim TP-Command außerdem
+statt Koordinaten den Namen eines Spielers
+
+00:02:18.220 --> 00:02:19.220
+schreiben.
+
+00:02:19.220 --> 00:02:23.019
+Mit diesem Command wird der Selector zu einer
+Zielperson teleportiert.
+
+00:02:23.019 --> 00:02:27.900
+Möchte man Spieler zufällig in einem quadratischen
+Bereich verteilen, nutzt man den Spreadplayers-Command.
+
+00:02:27.900 --> 00:02:33.849
+Zuerst gibt man dort die X- und Z-Koordinaten
+des Mittelpunkts ein, dann den Abstand, den
+
+00:02:33.849 --> 00:02:38.680
+jede Entität ungefähr von einander entfernt
+sein soll und dann die Länge, mit der das
+
+00:02:38.680 --> 00:02:43.849
+Quadrat vom Punkt aus in X- und Z-Richtung,
+sowohl in positive als auch in negative Richtung
+
+00:02:43.849 --> 00:02:44.849
+aufgespannt wird.
+
+00:02:44.849 --> 00:02:49.790
+Sollen Teams zusammenbleiben, geben wir true
+an, wenn nicht false und zum Schluss bestimmen
+
+00:02:49.790 --> 00:02:52.699
+wir, für welche Selectoren der Command ausgeführt
+wird.
+
+00:02:52.699 --> 00:02:57.069
+Die Spieler werden nicht in Höhlen teleportiert,
+sondern immer an den höchstgelegenden Nicht-Luft-Block.
+
+00:02:57.069 --> 00:03:00.469
+Möchten wir Selectoren töten, nutzen wir
+den Kill-Command.
+
+00:03:00.469 --> 00:03:06.089
+Den Punkt, an dem der gestorbene Spieler wiederbelebt
+werden soll, bestimmen wir mit /spawnpoint.
+
+00:03:06.089 --> 00:03:12.849
+/setworldspawn gibt zudem den Mittelpunkt
+eines 32*32 Blöcke großen Bereiches an,
+
+00:03:12.849 --> 00:03:17.420
+in dem Spieler, die neu in die Welt kommen,
+wie beim Spreadplayerscommand spawnen sollen.
+
+00:03:17.420 --> 00:03:20.849
+Die Schwierigkeit einer Welt können wir mit
+/difficulty festlegen.
+
+00:03:20.849 --> 00:03:26.810
+Die Tageszeit stellt man mit /time set oder
+add ein und das Wetter kann man mit /weather
+
+00:03:26.810 --> 00:03:29.919
+und /toggledownfall beeinflussen.
+
+00:03:29.919 --> 00:03:34.510
+/say ist ein simpler Befehl, mit dem wir testen
+können, ob ein Commandblock bepowert wird.
+
+00:03:34.510 --> 00:03:38.559
+Für optisch ansprechende Schriften nutzt
+man den Tellraw- und Title-Command, die in
+
+00:03:38.559 --> 00:03:41.199
+einem separaten Video genau vorgestellt werden.
+
+00:03:41.199 --> 00:03:44.579
+Erfahrungspunkte kann man außerdem mit dem
+/xp-Command verteilen.
+
+00:03:44.579 --> 00:03:49.189
+Man gibt dort zuerst den Wert der Exp und
+anschließend den Selector an.
+
+00:03:49.189 --> 00:03:54.620
+Mit xp 3 Coli, erhält Coli 3 Erfahrungspunkte,
+die je nach Level einen gewissen Prozentsatz
+
+00:03:54.620 --> 00:03:56.040
+der Exp-Leiste füllen.
+
+00:03:56.040 --> 00:03:59.309
+Ganze Level erhöht man, indem man hinter
+den Wert ein “l” setzt.
+
+00:03:59.309 --> 00:04:05.449
+Mit xp 3l Coli wird sich das Level also unabhängig
+vom Stand der Exp-Leiste immer um 3 erhöhen.
+
+00:04:05.449 --> 00:04:08.129
+Mit negativen Werten kann man das Level außerdem
+reduzieren.
+

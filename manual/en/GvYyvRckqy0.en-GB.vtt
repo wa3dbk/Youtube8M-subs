@@ -1,0 +1,236 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:00.280 --> 00:00:04.670
+Hello everyone and welcome to this week's
+game development log video diary, and this
+
+00:00:04.670 --> 00:00:07.500
+week I've been implementing support for enchanted
+items
+
+00:00:07.500 --> 00:00:10.820
+as well as adding a couple of new mobs into
+the game.
+
+00:00:10.820 --> 00:00:15.400
+But first off I want to show you the icon
+particle effects that I mentioned briefly
+
+00:00:15.400 --> 00:00:18.010
+last time, because this week I improved the
+system
+
+00:00:18.010 --> 00:00:23.850
+and finished implementing them. So I can now
+set any icon to emit articles, and when I
+
+00:00:23.850 --> 00:00:30.590
+do that the icon will start to randomly generate
+2D quads like this. The quads are then textured
+
+00:00:30.590 --> 00:00:35.429
+using a texture atlas, and the particle fades
+linearly through all the different stages
+
+00:00:35.429 --> 00:00:40.690
+of the atlas throughout the particle's life.
+I can also choose how many particles are emitted
+
+00:00:40.690 --> 00:00:47.140
+per second, I can choose how large or small
+the particles are, and how long they stay
+
+00:00:47.140 --> 00:00:49.149
+alive for.
+
+00:00:49.149 --> 00:00:53.579
+So I created these icon effects for the enchanting
+update that I worked on this week, so that
+
+00:00:53.579 --> 00:00:55.910
+I could use the particle effects to indicate
+when
+
+00:00:55.910 --> 00:01:01.120
+an item has a certain enchantment. I haven't
+actually added the mechanics for enchanting
+
+00:01:01.120 --> 00:01:04.080
+weapons and armour yet, but I have implemented
+support for
+
+00:01:04.080 --> 00:01:09.990
+enchanted items. You can now mouse-over an
+item to see what enchantments it has, so here
+
+00:01:09.990 --> 00:01:12.670
+you can see that this sword has sharpness
+and
+
+00:01:12.670 --> 00:01:17.869
+life sap. There are also 5 different tiers
+of enchantments, so eventually you'll actually
+
+00:01:17.869 --> 00:01:20.820
+be able to upgrade the enchants on your items,
+and
+
+00:01:20.820 --> 00:01:25.230
+you can see the different tiers of enchantments
+shown in slightly different colours here,
+
+00:01:25.230 --> 00:01:28.680
+with the higher level enchantments being a
+darker shade of
+
+00:01:28.680 --> 00:01:33.009
+purple. And I know it's a bit tricky to read
+right now but I'll get round to redoing the
+
+00:01:33.009 --> 00:01:36.360
+text rendering system fairly soon.
+
+00:01:36.360 --> 00:01:41.289
+Each item can have up to three enchantments,
+and each enchantment can have it's own icon
+
+00:01:41.289 --> 00:01:45.090
+particle effect. So these boots here have
+super speed
+
+00:01:45.090 --> 00:01:50.280
+and you can see that for now it has this sparkly
+particle effect, these boots here have jump
+
+00:01:50.280 --> 00:01:54.929
+boost, and these boots here have both of those
+enchantments, and so the icon
+
+00:01:54.929 --> 00:02:00.259
+shows both of the particle effects. And these
+enchantments do actually work as well, so
+
+00:02:00.259 --> 00:02:04.090
+if I wear these boots you can now see that
+I can move at super speed
+
+00:02:04.090 --> 00:02:07.340
+and jump unreasonably high.
+
+00:02:07.340 --> 00:02:12.540
+Another small little feature that I implemented
+this week was personalising the names of items.
+
+00:02:12.540 --> 00:02:15.040
+Again, I haven't added the actual mechanics
+of
+
+00:02:15.040 --> 00:02:20.069
+this into the game quite yet, but items can
+now be given personalised names like these
+
+00:02:20.069 --> 00:02:24.379
+three shadow swords here. It doesn't really
+change much and
+
+00:02:24.379 --> 00:02:28.010
+the personalised name will only show up for
+the owner of the item. When you sell it in
+
+00:02:28.010 --> 00:02:30.450
+a shop or trade it with someone else it will
+just have
+
+00:02:30.450 --> 00:02:36.030
+the original item's name for them. It'll probably
+cost a fair amount of materials or coins or
+
+00:02:36.030 --> 00:02:39.450
+something to rename your items so it wouldn't
+be something you can just
+
+00:02:39.450 --> 00:02:43.599
+do whenever want, it would be something that
+you'd save for only your best weapons and
+
+00:02:43.599 --> 00:02:44.599
+armour.
+
+00:02:44.599 --> 00:02:50.340
+And finally, last weekend I released the list
+of mobs and animations and a load of you guys
+
+00:02:50.340 --> 00:02:52.900
+have already started creating some of these
+mobs for
+
+00:02:52.900 --> 00:02:57.709
+the game which is fantastic. And I can already
+show you guys 2 of these new mobs that I added
+
+00:02:57.709 --> 00:03:00.560
+into the game this week, both of which were
+created
+
+00:03:00.560 --> 00:03:06.459
+and animated by Christopher Jubell. So this
+is the first of the two mobs, the skeleton,
+
+00:03:06.459 --> 00:03:09.280
+looking very awesome here and I've got a couple
+of them
+
+00:03:09.280 --> 00:03:15.500
+roaming around the desert, and then over here
+is the second new mob which is this brilliant
+
+00:03:15.500 --> 00:03:19.989
+giant spider looking very creepy indeed. So
+a big thanks
+
+00:03:19.989 --> 00:03:24.069
+to Christopher for these mobs, and hopefully
+I'll be adding some of the other mobs that
+
+00:03:24.069 --> 00:03:27.170
+you guys have been making into the game next
+week.
+
+00:03:27.170 --> 00:03:31.620
+So that is it for this week! Next week is
+the last week that I'm going to be working
+
+00:03:31.620 --> 00:03:34.189
+on the weapon and armour system because after
+that I'm going
+
+00:03:34.189 --> 00:03:38.860
+to get to work on the combat system itself.
+As always if you want to get involved with
+
+00:03:38.860 --> 00:03:41.930
+making content for this project then do send
+me an email,
+
+00:03:41.930 --> 00:03:46.020
+especially if you'd like to do some animating
+because there are a load of mobs that need
+
+00:03:46.020 --> 00:03:49.590
+animations right now. Don't forget to follow
+the game on any
+
+00:03:49.590 --> 00:03:54.530
+of my social media pages, links are in the
+description below, but yeah thank you guys
+
+00:03:54.530 --> 00:03:57.341
+very much for watching this video, do subscribe
+if you
+
+00:03:57.341 --> 00:04:02.500
+haven't already, have an absolutely wonderful
+week, and I will see you all, next time!
+

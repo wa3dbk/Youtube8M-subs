@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:06.529 --> 00:00:14.952
+Continue working on your scene from the last movie or use the scene named CP-09_bridge-end-caps.max
+
+00:00:15.514 --> 00:00:21.879
+Consider the sloped surfaces around the bridge ends. Select one and Isolate it.
+
+00:00:23.489 --> 00:00:29.087
+It is only displayed from top. The surface doesn't wrap into an enclosed poly object.
+
+00:00:29.524 --> 00:00:34.924
+It's missing "caps" at the bottom, on the left, and most importantly on the right side.
+
+00:00:35.374 --> 00:00:43.239
+The bottom and left areas matter less in the context of the scene, but the right side, leaves a big hole that needs to be addressed.
+
+00:00:43.749 --> 00:00:51.024
+There are various ways you could tackle this: Potentially, you could start with a simple box and poly-model it into the shape you need.
+
+00:00:51.832 --> 00:00:55.939
+Personally, I always try to use existing geometry as a base.
+
+00:00:55.939 --> 00:01:04.112
+With the surface selected, apply an Edit Poly modifier. This is just temporary so you can extract the data that you need.
+
+00:01:04.893 --> 00:01:13.645
+At this point, you may want to activate Edged Faces mode (F4) to see the geometry better. You can always toggle it off when you're done.
+
+00:01:14.665 --> 00:01:16.821
+Enter Edge mode, 
+
+00:01:18.083 --> 00:01:23.340
+and select these two "ground" edges at the right end of the model.
+
+00:01:25.258 --> 00:01:29.408
+Bridge the two edges to create a horizontal surface between them.
+
+00:01:31.373 --> 00:01:37.431
+This is so you can use the Border tool to select the right perimeter, the area you're really interested in.
+
+00:01:37.960 --> 00:01:44.138
+Once it is selected, then you can simply use the Cap method to create a surface to fill the hole.
+
+00:01:46.443 --> 00:01:54.320
+In Poly mode, select the new surface and then click the small button next to Detach. A dialog appears.
+
+00:01:54.750 --> 00:02:02.350
+Name the new object: "Bridge End W - Wall" and make sure all options are disabled.
+
+00:02:03.000 --> 00:02:07.030
+Click OK to extract the geometry from the current object to a new one.
+
+00:02:07.260 --> 00:02:09.870
+The new object will be your base to build a wall.
+
+00:02:10.160 --> 00:02:17.220
+In fact, you can delete the Edit Poly modifier from the original surface; this takes it back to its original state.
+
+00:02:17.890 --> 00:02:22.130
+Now you have a new independent surface that you can adjust to your liking.
+
+00:02:22.464 --> 00:02:30.904
+Make sure the new surface is selected and note that its pivot point is a bit off, because it is based on the original surface.
+
+00:02:31.901 --> 00:02:38.814
+In the Hierarchy panel, you can re-center it using Affect Pivot Only, then Center to Object.
+
+00:02:39.534 --> 00:02:44.636
+If you look at it from top, the pivot point is not oriented with the normal of the surface.
+
+00:02:45.292 --> 00:02:52.821
+Instead of fiddling with rotation angle values, here's a quick way to align the pivot point to the normal of the surface:
+
+00:02:53.726 --> 00:02:59.999
+Create a temporary box using AutoGrid mode and align it to the surface.
+
+00:03:04.647 --> 00:03:14.209
+Go back to the hierarchy panel and in Affect Pivot Only mode, verify that the new box has the orientation you need.
+
+00:03:18.560 --> 00:03:24.900
+Select your surface again and still in Affect Pivot Only mode, use the Align tool, 
+
+00:03:26.269 --> 00:03:30.780
+to align the XYZ rotations of the surface to the box.
+
+00:03:31.761 --> 00:03:37.968
+You don't need to align the positions, just the XYZ rotations, pivot-to-pivot.
+
+00:03:42.710 --> 00:03:48.311
+Once that is done, you can exit Affect Pivot Only mode and delete the temporary box.
+
+00:03:49.013 --> 00:03:54.925
+To give the surface a bit of depth, go to the Modify panel and enter Polygon mode.
+
+00:03:56.721 --> 00:04:02.788
+Make sure the polygon that makes the surface is selected and extrude it a bit.
+
+00:04:05.360 --> 00:04:10.730
+Have a little fun with it, perhaps move that bottom edge further out to make a thicker base.
+
+00:04:11.133 --> 00:04:18.581
+For that, you will need to set the coordinate system to Parent, so that the edge conforms to the orientation of the new wall.
+
+00:04:25.096 --> 00:04:35.101
+Similarly, you may consider a slight relative X-Displacement of the sloped polygons so that they are not flush with the grassy part.
+
+00:04:40.214 --> 00:04:48.404
+In fact, take a look from the other side; the left side. Because of how it was built, the new wall is not capped from the left.
+
+00:04:48.893 --> 00:04:52.277
+This means you would have to select that border again, 
+
+00:04:53.401 --> 00:04:55.912
+and cap it as you have done before.
+
+00:05:02.078 --> 00:05:08.143
+The geometry is pretty much in place but you need to adjust the mapping. There are currently pixel streaks everywhere.
+
+00:05:08.590 --> 00:05:12.200
+Apply a UVW Map modifier in box mode, 
+
+00:05:14.260 --> 00:05:17.087
+and disable Real-World Map Size.
+
+00:05:17.801 --> 00:05:21.485
+Adjust the gizmo size to values that work better. 
+
+00:05:22.416 --> 00:05:25.130
+Try 40x40x40.
+
+00:05:25.805 --> 00:05:33.305
+Ultimately, you may also consider a different material for the wall; perhaps use the same material you created for the pillars.
+
+00:05:33.706 --> 00:05:39.946
+For that, you'll need to temporarily exit Isolate mode so that you can see the pillars,
+
+00:05:40.658 --> 00:05:47.815
+and go to the Material Editor and sample their material, so that you can use it on other objects.
+
+00:05:49.618 --> 00:05:55.673
+Once that is done, you can concentrate on the wall again and apply the new material to it.
+
+00:05:57.015 --> 00:06:02.863
+When you're satisfied with the results, you can collapse the object down to an Editable Poly again.
+
+00:06:04.131 --> 00:06:11.503
+Exit Isolate mode and take a look at the scene. You can also exit Edged Faces mode if you want to (F4).
+
+00:06:15.143 --> 00:06:19.615
+You may notice some flicker where the top of the wall meets the bridge surface.
+
+00:06:20.550 --> 00:06:25.820
+In that case, you may consider bringing some of these top polygons down a notch.
+
+00:06:26.355 --> 00:06:28.806
+Simply isolate the wall again, 
+
+00:06:33.378 --> 00:06:36.436
+and make the necessary adjustments. 
+
+00:06:50.783 --> 00:06:54.698
+You only need to bring the selected polygons down about 5cm.
+
+00:06:57.335 --> 00:07:03.778
+Once you have exited Isolate mode, verify no more flicker is taking place.
+
+00:07:12.199 --> 00:07:18.887
+Test render the scene and verify there are no more gaps under the bridge, not on this shore anyway.
+
+00:07:19.250 --> 00:07:22.720
+You still need to repeat the procedure on the other side of the bridge.
+
+00:07:22.860 --> 00:07:26.810
+It is exactly the same procedure, so consider it your homework.
+
+00:07:27.347 --> 00:07:33.413
+In the next movie, you go back to experimenting in Civil View by adding buildings in the background.
+

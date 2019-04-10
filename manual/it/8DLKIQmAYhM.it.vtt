@@ -1,0 +1,220 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:09.000
+Buonasera, questa è la decima puntata di un corso di base di Blender 3D, realizzata con la versione 2.54 del programma. 
+
+00:00:09.000 --> 00:00:14.000
+In questa puntata passeremo finalmente alla modalità Editing, per modificare la struttura delle mesh.
+
+00:00:14.000 --> 00:00:20.000
+Finora infatti abbiamo traslato, ruotato e ridimensionato le mesh, ma non le abbiamo trasformate modificandone la forma. 
+
+00:00:20.000 --> 00:00:27.000
+Abbiamo lavorato in una modalità nota come Object Mode, Modo Oggetto. Per modificare la struttura delle mesh, 
+
+00:00:27.000 --> 00:00:33.000
+dobbiamo entrare in una modalità di elaborazione detta Edit Mode, letteralmente Modalità Modifica; per far ciò, 
+
+00:00:33.000 --> 00:00:40.000
+dobbiamo selezionare la mesh che ci interessa e premere il tasto TAB o scegliere Edit Mode dal selettore Mode, 
+
+00:00:40.000 --> 00:00:44.000
+presente nell'header di ogni finestra di navigazione 3D View.
+
+00:00:44.000 --> 00:00:50.000
+Per tornare alla modalità oggetto possiamo premere nuovamente TAB o scegliere Object Mode dal selettore Mode.
+
+00:00:50.000 --> 00:01:01.000
+Certi comandi visti per la modalità oggetto, come A, B, C, G, R e S, restano uguali in modalità editing, anche se in questo caso 
+
+00:01:01.000 --> 00:01:08.000
+serviranno a trasformare i vertici della mesh, mentre altri comandi, propri di questa modalità, sono del tutto nuovi... procediamo con ordine.
+
+00:01:08.000 --> 00:01:16.000
+Le mesh sono formate da vertici, spigoli e facce. Un vertice è un singolo punto nello spazio 3D, dotato di una propria coordinata,
+
+00:01:16.000 --> 00:01:23.000
+e che può essere collegato ad un altro vertice mediante un segmento, detto spigolo. Collegando tre o più spigoli 
+
+00:01:23.000 --> 00:01:31.000
+per formare una figura chiusa non abbiamo necessariamente una faccia: una faccia è una superficie racchiusa tra tre o quattro vertici,
+
+00:01:31.000 --> 00:01:37.000
+e può esserci come non esserci... per capire meglio questo concetto, riprendiamo la creazione della mesh CERCHIO 
+
+00:01:37.000 --> 00:01:44.000
+vista nelle puntate precedenti: il cerchio di default è, in realtà, la sola circonferenza, senza riempimento, 
+
+00:01:44.000 --> 00:01:50.000
+mentre selezionando FILL indicheremo a Blender di creare anche la superficie racchiusa all'interno della circonferenza, 
+
+00:01:50.000 --> 00:01:57.000
+ossia le facce composte da punti sulla circonferenza e un vertice posto al centro del cerchio,
+
+00:01:57.000 --> 00:02:02.000
+ottenendo il cerchio vero e proprio, con la superficie delle facce renderizzabili.
+
+00:02:02.000 --> 00:02:07.000
+Con il cerchio selezionato possiamo passare in Edit Mode per osservarne la struttura.
+
+00:02:07.000 --> 00:02:11.000
+Selezioniamo ora il cubo di base o un'altra mesh e premiamo TAB.
+
+00:02:11.000 --> 00:02:19.000
+Inizialmente, appena entrati in modalità editing, avremo tutti i vertici, gli spigoli e le facce delle mesh selezionate; 
+
+00:02:19.000 --> 00:02:22.000
+appariranno, infatti, evidenziati, colorati.
+
+00:02:22.000 --> 00:02:28.000
+La selezione delle sotto-parti di una mesh avviene, in Edit Mode, con gli stessi shortcut visti in Object Mode 
+
+00:02:28.000 --> 00:02:34.000
+per selezionare gli oggetti: con un click del tasto destro del mouse possiamo selezionare un vertice; con A 
+
+00:02:34.000 --> 00:02:40.000
+possiamo selezionare o deselezionare tutti i vertici, gli spigoli e le facce, mentre con B e C possiamo attivare la selezione
+
+00:02:40.000 --> 00:02:47.000
+ad area rettangolare o a cerchio. La selezione multipla può essere effettuata anche mediante SHIFT 
+
+00:02:47.000 --> 00:02:52.000
+e click del tasto destro del mouse, come per selezionare più mesh contemporaneamente in Object Mode.
+
+00:02:52.000 --> 00:02:59.000
+Tenete presente, inoltre, che la selezione in Edit Mode è, di default, multipla: ad esempio, selezioniamo due vertici e,
+
+00:02:59.000 --> 00:03:04.000
+successivamente, altri due, magari mediante la selezione rettangolare con B: 
+
+00:03:04.000 --> 00:03:09.000
+la nuova selezione comprenderà anche i vertici scelti precedentemente.
+
+00:03:09.000 --> 00:03:14.000
+Una volta selezionati alcuni vertici, come sto facendo in questo momento a video, possiamo traslare, 
+
+00:03:14.000 --> 00:03:21.000
+ruotare o scalare la selezione con le voci presenti nella Tool Shelf o con gli shortcut G, R e S. 
+
+00:03:21.000 --> 00:03:29.000
+Premendo G, R o S possiamo anche specificare un asse per vincolare la trasformazione e un valore numerico per indicarne l'entità; 
+
+00:03:29.000 --> 00:03:37.000
+ad esempio, con S X 0.5 dimezzeremo le dimensioni della selezione lungo l'asse X, con l'effetto di avvicinare i vertici, 
+
+00:03:37.000 --> 00:03:46.000
+mentre con G Y -2 sposteremo i vertici selezionati di due unità lungo l'asse Y nel verso negativo.
+
+00:03:46.000 --> 00:03:52.000
+Aprendo la Transform Window, con N, potremo specificare in maniera parametrica la posizione del baricentro della selezione, 
+
+00:03:52.000 --> 00:03:59.000
+inserendo i valori nei campi Median X, Y e Z; i valori possono riferirsi al centro dell'universo virtuale di Blender
+
+00:03:59.000 --> 00:04:08.000
+o al baricentro della mesh, a seconda che sia selezionata la casella Global o la casella Local, sotto i pulsanti numerici X, Y e Z.
+
+00:04:08.000 --> 00:04:16.000
+Possiamo anche cancellare uno o più vertici selezionadoli e premendo X o CANC o cliccando su Delete nella Tool Shelf.
+
+00:04:16.000 --> 00:04:22.000
+Di default la selezione degli elementi riguarda i vertici di una mesh, sia presi singolarmente che a gruppi, 
+
+00:04:22.000 --> 00:04:30.000
+ma questa operazione può diventare noiosa e richiedere molto tempo -inutilmente, tra l'altro- se dobbiamo selezionare un bel po' di spigoli e facce; 
+
+00:04:30.000 --> 00:04:38.000
+in questo caso, conviene passare, appunto, alla modalità selezione spigoli e selezione facce, cliccando sui relativi pulsanti
+
+00:04:38.000 --> 00:04:44.000
+nell'header della finestra di navigazione 3D View, come sto facendo in questo momento a video.
+
+00:04:44.000 --> 00:04:49.000
+Valgono gli stessi comandi elencati precedentemente per la selezione degli elementi, cioè click del tasto destro del mouse,
+
+00:04:49.000 --> 00:04:57.000
+magari con SHIFT per effettuare selezioni multiple, oppure A, B o C, solo che questa volta riguarderanno interi spigoli o facce, 
+
+00:04:57.000 --> 00:05:01.000
+ed anche X avrà l'effetto di cancellare questi elementi.
+
+00:05:01.000 --> 00:05:07.000
+Questi pulsanti sono propri della modalità Editing, non sono presenti in Object Mode; anche le voci presenti nella finestra Info, 
+
+00:05:07.000 --> 00:05:17.000
+a destra, sono diverse: adesso, Ve, Ed e Fa indicano rispettivamente il numero di vertici, spigoli e facce che compongono una mesh,
+
+00:05:17.000 --> 00:05:26.000
+ciascuna con due valori separati da un trattino, dove il primo valore indica quanti sono gli elementi selezionati e il secondo indica il totale della mesh.
+
+00:05:26.000 --> 00:05:35.000
+Per tornare alla modalità oggetto e traslare, ruotare o scalare la mesh così modificata è sufficiente premere TAB ed effettuare le modifiche desiderate.
+
+00:05:35.000 --> 00:05:42.000
+Tenete conto che quasi sicuramente l'origine locale della mesh modificata non coinciderà più con il baricentro della stessa,
+
+00:05:42.000 --> 00:05:50.000
+per cui conviene selezionare Origin To Geometry, via shortcut o con la voce Origin nella Tool Shelf, per aggiornare il tutto.
+
+00:05:50.000 --> 00:05:56.000
+In questa puntata vorrei parlarvi anche di un concetto di computer grafica 3D: quello delle Normali alle superfici. 
+
+00:05:56.000 --> 00:06:02.000
+Una NORMALE a una superficie (piana) è un vettore uscente perpendicolarmente da tale superficie. 
+
+00:06:02.000 --> 00:06:10.000
+Con qualche accorgimento, tale definizione può essere estesa anche a superfici non piane, ed è possibile definire anche le normali ad un vertice.
+
+00:06:10.000 --> 00:06:16.000
+Una Normale è quindi un VETTORE, dotato di un verso, e la visualizzazione di una geometria dipende proprio dalle Normali:
+
+00:06:16.000 --> 00:06:23.000
+se stiamo osservando il lato con la Normale uscente, tale superficie verrà renderizzata; tuttavia, in qualunque superficie
+
+00:06:23.000 --> 00:06:30.000
+è possibile individuare due normali uscenti, una per ciascun lato... in computer grafica si fa uso di superfici orientate, 
+
+00:06:30.000 --> 00:06:37.000
+cioè superfici dove, con una convenzione (definita da precise regole matematiche), è possibile chiamare 'positive' 
+
+00:06:37.000 --> 00:06:45.000
+alcune configurazioni di vettori e 'negative' altre. In particolare, una Normale sarà positiva, mentre l'altra sarà negativa.
+
+00:06:45.000 --> 00:06:50.000
+Le Normali ci aiuteranno a definire cos'è il “dentro” e cos'è il “fuori” nelle mesh chiuse 
+
+00:06:50.000 --> 00:06:55.000
+e a specificare quali facce di un oggetto devono partecipare al processo di rendering e quali no.
+
+00:06:55.000 --> 00:07:02.000
+Per visualizzare le Normali positive delle varie facce che compongono una mesh è sufficiente selezionare la stessa, 
+
+00:07:02.000 --> 00:07:09.000
+passare in Edit Mode, aprire il pannello Transform Window in una finestra di navigazione 3D e selezionare, 
+
+00:07:09.000 --> 00:07:16.000
+in basso nella sezione Mesh Display, le voci Face Normals o Vertex Normals, a seconda di quelle che desiderate vedere, 
+
+00:07:16.000 --> 00:07:20.000
+cioè Normali delle facce o dei vertici, e scegliere la dimensione del segmento 
+
+00:07:20.000 --> 00:07:25.000
+che le rappresenterà nelle finestre 3D variando il valore di Normal Size.
+
+00:07:25.000 --> 00:07:34.000
+Per invertire la direzione di una Normale, selezionate la faccia che vi interessa e cliccate su Flip Direction, nella sezione Normals, nella Tool Shelf.
+
+00:07:34.000 --> 00:07:39.000
+Per il momento non c'è molto altro da dire sulle Normali, ma questi concetti ci torneranno utili in seguito, 
+
+00:07:39.000 --> 00:07:45.000
+quando parleremo di alcuni modificatori delle mesh, delle textures e del rendering.
+
+00:07:45.000 --> 00:07:52.000
+Bene, per questa puntata è tutto; nella prossima, vedremo come creare nuovi vertici, spigoli, facce e volumi mediante l'estrusione,
+
+00:07:52.000 --> 00:08:03.000
+come collegare due o più vertici creando uno spigolo, come riempire l'area compresa tra tre o più spigoli creando una faccia e altro ancora. A presto !
+

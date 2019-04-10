@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.403 --> 00:00:05.678
+The scene shows a WWII fighter plane that you will texture using 
+the Viewport Canvas tool.
+
+00:00:06.208 --> 00:00:10.495
+At this time the plane is an Editable Poly with no mapping coordinates.
+
+00:00:11.138 --> 00:00:15.525
+To use Viewport Canvas on an object, the object first needs 
+to be unwrapped.
+
+00:00:16.080 --> 00:00:20.938
+However, the unwrapping process complexity can be kept at a bare minimum.
+
+00:00:21.328 --> 00:00:24.010
+Apply an Unwrap UVW modifier.
+
+00:00:24.585 --> 00:00:30.390
+In the Edit UVWs window, switch to Face mode and select all faces 
+representing the airplane.
+
+00:00:30.940 --> 00:00:34.100
+From the Mapping menu, select Flatten Mapping.
+
+00:00:35.178 --> 00:00:42.961
+Uncheck Rotate Clusters. This isn't absolutely necessary but it ensures 
+clusters are laid out in a horizontal/vertical configuration.
+
+00:00:43.491 --> 00:00:48.486
+Uncheck Fill Holes to ensure you don't get 
+any "clusters within clusters" areas.
+
+00:00:48.841 --> 00:00:53.088
+By clicking on OK, 3ds Max unwraps the UVs the best way it can,
+
+00:00:53.303 --> 00:00:58.171
+based on the Angle Threshold specified, in this case the default 
+45 degrees.
+
+00:00:58.516 --> 00:01:03.851
+Notice also how unwrapping packs all the clusters within the boundaries 
+of the working area.
+
+00:01:04.181 --> 00:01:08.146
+This is significant as you don't want any clusters outside 
+of these boundaries.
+
+00:01:08.378 --> 00:01:15.191
+Adding to that note that Real-World Textures/Real-World Mapping 
+are not recommended when using Viewport Canvas.
+
+00:01:15.536 --> 00:01:19.934
+Looking at the current results, unwrapping work doesn't usually stop here.
+
+00:01:20.386 --> 00:01:27.516
+In a typical production workflow, you'd need to clean up the UVs quite 
+a bit more if you are paving the way for work in a paint application.
+
+00:01:28.029 --> 00:01:34.506
+All the smaller bits and pieces would typically need to be stitched 
+to other clusters and the cleanup time can be substantial.
+
+00:01:35.001 --> 00:01:41.804
+With Viewport Canvas, you can already stop working on your UVs even 
+at this early stage and start painting away in the viewport.
+
+00:01:42.147 --> 00:01:45.079
+Notice the UV coordinates display in the viewport.
+
+00:01:45.377 --> 00:01:49.097
+You can get rid of that by collapsing the model to an Editable Poly.
+
+00:01:49.324 --> 00:01:51.214
+The UV coordinates will be preserved.
+
+00:01:51.669 --> 00:01:55.382
+You also need to ensure that the model has a material applied to it.
+
+00:01:55.382 --> 00:02:00.152
+In this case, a Standard material with default settings has already 
+been applied to the model.
+
+00:02:00.369 --> 00:02:05.019
+From the Tools menu, choose Viewport Canvas. A floating dialog appears.
+
+00:02:05.297 --> 00:02:11.322
+Always ensure the model is selected, otherwise, you get a warning 
+if you try using a Viewport Canvas tool.
+
+00:02:11.760 --> 00:02:17.377
+Click the Paint tool and choose the Diffuse Color as the channel 
+to paint on. A dialog appears.
+
+00:02:17.622 --> 00:02:23.957
+Since you have not specified a bitmap in the applied material, 
+you will use this dialog to create a base bitmap.
+
+00:02:24.255 --> 00:02:28.467
+You will then use Viewport Canvas tools to edit the bitmap 
+in the viewport.
+
+00:02:28.797 --> 00:02:31.522
+Specify a Preset Size of 1024. 
+
+00:02:31.832 --> 00:02:37.012
+This represents a medium to high quality settings, a 1024x1024 pixel image.
+
+00:02:37.695 --> 00:02:43.538
+Change the color to a pale olive green. This represents the base color 
+for the newly created bitmap.
+
+00:02:43.530 --> 00:02:48.840
+Save the file to a local folder and give it a name, for example P47.TIF, 
+
+00:02:49.123 --> 00:02:52.213
+which was the number given to the Thunderbolt WWII fighter plane.
+
+00:02:52.680 --> 00:02:57.048
+Click OK to exit the dialog, now the plane has a green color applied to it. 
+
+00:02:57.543 --> 00:02:59.603
+Next, you add a camouflage pattern.
+
+00:03:00.000 --> 00:03:03.690
+With Viewport Canvas, it is important to make good use of layers.
+
+00:03:04.033 --> 00:03:09.430
+Avoid painting on the Base (Background) layer as you cannot delete it 
+or make edits to it.
+
+00:03:09.953 --> 00:03:17.543
+Create a new layer. Double-click its label and rename it: "Camo". 
+You will use it for the camouflage pattern.
+
+00:03:21.008 --> 00:03:28.326
+Choose a darker green color and bring your cursor onto the model's 
+surface. You can see the effect of the brush before applying it.
+
+00:03:28.588 --> 00:03:34.191
+Set the Hardness value to 90%. Camouflage patterns are usually 
+well-defined, not blurred.
+
+00:03:34.608 --> 00:03:38.961
+The brush size can also be changed but remember that it is screen-dependent.
+
+00:03:39.360 --> 00:03:43.980
+This means that the brush can get bigger or smaller as you zoom in or out
+of the scene.
+
+00:03:44.296 --> 00:03:49.931
+Start laying down a few brush strokes on the wings and the horizontal 
+stabilizers.
+
+00:04:01.099 --> 00:04:05.189
+Notice as you paint that the strokes affect the top and the bottom 
+of the wings.
+
+00:04:05.600 --> 00:04:08.920
+This is because the brush is spherical, not circular.
+
+00:04:08.921 --> 00:04:15.374
+In this case, the diameter value of the brush is larger 
+than the distance that separates the top and bottom faces of the wings.
+
+00:04:15.723 --> 00:04:18.905
+When you're done with the wings, try painting on the fuselage. 
+
+00:04:19.155 --> 00:04:23.120
+Notice how easy it is to match the seams between the left and right sides.
+
+00:04:23.400 --> 00:04:31.950
+Notice also that since the brush size is smaller than the width 
+of the fuselage, you're only painting one side at a time.
+
+00:04:50.906 --> 00:04:54.286
+Finish off the work by painting the tail of the plane.
+
+00:04:58.596 --> 00:05:02.181
+Create a new layer and name it "Nose".
+
+00:05:07.381 --> 00:05:11.883
+Switch to a Yellow color and paint the nose of the airplane.
+
+00:05:14.920 --> 00:05:19.690
+If you make a mistake, hold the shift key and paint over the areas 
+you want to erase. 
+
+00:05:19.888 --> 00:05:23.103
+This is faster than switching to the Eraser tool.
+
+00:05:34.305 --> 00:05:37.393
+Switch to a brown color to paint the air intake.
+
+00:05:38.010 --> 00:05:41.680
+Instead of a Paint brush, try the effect of a Burn brush.
+

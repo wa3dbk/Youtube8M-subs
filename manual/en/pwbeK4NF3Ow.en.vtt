@@ -1,0 +1,168 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:06.130
+The .DWG file format is native to AutoCAD and its derivatives, 
+but it can also be exported from many (mostly CAD) applications.
+
+00:00:06.320 --> 00:00:12.140
+You can link DWG files created in AutoCAD to 3ds Max so that any 
+changes to the DWG can be updated in your 3ds Max scene.
+
+00:00:12.200 --> 00:00:15.560
+There are typically two ways to work with a DWG file in 3ds Max:
+
+00:00:15.855 --> 00:00:23.610
+One method is to use a 2D DWG file as a reference, so you can build 
+3D geometry such as walls, doors, and windows, in 3ds Max.
+
+00:00:24.575 --> 00:00:31.772
+The other is to use a 3D DWG file that already has 3D geometry, 
+which you can embellish and render using the superior 3ds Max tools.
+
+00:00:32.850 --> 00:00:37.730
+Either way, the process of linking a DWG file remains the same.
+
+00:00:42.500 --> 00:00:50.365
+It helps to know in advance if the DWG file you wish to link has 
+its units set to Decimal (metric) or Architectural (imperial).
+
+00:00:57.102 --> 00:01:03.560
+This determines how you should set your System Units in 3ds Max; 
+to inches if the DWG file is set to Architectural, 
+
+00:01:03.798 --> 00:01:06.258
+or millimeters if it is set to Decimal.
+
+00:01:10.315 --> 00:01:14.683
+When scaling between the two applications, the Display Unit settings 
+are less important.
+
+00:01:15.210 --> 00:01:21.060
+In this case, the Display Unit scale is set to meters whereas 
+the default unit in the DWG drawing is in millimeters.
+
+00:01:21.435 --> 00:01:27.988
+The next step is to open the File Link Manager dialog. You can then 
+browse for a DWG file to attach.
+
+00:01:34.243 --> 00:01:39.548
+The Rescale option displays the incoming file units. This DWG file 
+was set to the metric system.
+
+00:01:39.920 --> 00:01:43.780
+There are other options you can set to help make the transition between 
+the two programs.
+
+00:01:43.998 --> 00:01:50.188
+3ds Max already ships with a Revit preset that uses predefined options, 
+but you can also create your own AutoCAD preset.
+
+00:01:50.391 --> 00:01:54.523
+This can be done through the Presets tab, by creating and naming 
+a new preset.
+
+00:01:57.021 --> 00:02:00.561
+After the preset is created, you can modify its options.
+
+00:02:01.933 --> 00:02:06.131
+Most presets work well for AutoCAD files, but there are a couple 
+of options worth noting.
+
+00:02:06.646 --> 00:02:11.656
+In the Advanced tab, enable the options that favor the use of 3ds Max 
+materials over those coming from AutoCAD.
+
+00:02:12.090 --> 00:02:17.690
+This is especially useful if you update your CAD drawing after you have 
+defined and applied materials in 3ds Max.
+
+00:02:17.860 --> 00:02:23.490
+This way, any work on materials you do in 3ds Max does not get lost 
+after you reload the updated DWG file.
+
+00:02:23.620 --> 00:02:26.040
+Save the preset to update the changes.
+
+00:02:27.883 --> 00:02:32.095
+Going back to the Attach tab, you can now select the AutoCAD preset 
+you just created.
+
+00:02:32.375 --> 00:02:35.463
+Once a preset is created, it will not be removed unless you delete it.
+
+00:02:35.930 --> 00:02:39.910
+Before moving on, filter out the layers you do not need when you work in 3D.
+
+00:02:40.200 --> 00:02:44.520
+These are usually layers in 2D, which include annotations and dimensions,
+and various construction lines.
+
+00:02:44.735 --> 00:02:51.090
+If you have formulated your layers properly in your CAD drawing, it should
+be easy to select only those layers that have 3D entities on them.
+
+00:02:52.830 --> 00:02:56.283
+When you attach the file, the models appear in the viewports.
+
+00:03:04.313 --> 00:03:08.993
+Materials may have been applied in AutoCAD, but you usually want 
+to adjust them in 3ds Max.
+
+00:03:09.805 --> 00:03:16.076
+Once in 3ds Max, materials defined in AutoCAD translate as either 
+Architectural Materials or Standard Materials.
+
+00:03:18.400 --> 00:03:23.540
+In Design renderings, you usually use the mental ray rendering engine 
+with physically accurate materials.
+
+00:03:23.703 --> 00:03:26.850
+This means you can edit any of the materials coming from the DWG file.
+
+00:03:27.045 --> 00:03:30.263
+You can turn them into Arch &amp; Design materials, 
+
+00:03:31.585 --> 00:03:33.633
+and choose a base template for them.
+
+00:03:38.063 --> 00:03:42.043
+You can also apply texture maps to the various channels in the material.
+
+00:03:43.368 --> 00:03:49.028
+Some templates may already contain texture information, but you still 
+might need to fine-tune their values.
+
+00:03:51.928 --> 00:03:58.480
+To keep the integrity of mapping coordinates in 3ds Max, you may elect 
+to add a UVW Map modifier to the linked geometry.
+
+00:04:05.190 --> 00:04:12.831
+In DesignViz mode, use the Real-World Map options to define map sizes 
+as they appear in the real world.
+
+00:04:54.987 --> 00:05:02.990
+Significantly, if you make a change to the DWG file, it can be updated 
+in 3ds Max while preserving some of the changes made.
+
+00:05:06.937 --> 00:05:11.272
+An example is changing the size of the balcony in AutoCAD 
+to make it deeper.
+
+00:05:22.573 --> 00:05:28.970
+Once the file is resaved in AutoCAD, notice the red flag next to the 
+file name in the Files tab of the File Link Manager.
+
+00:05:33.543 --> 00:05:42.043
+Using the Reload tool, the file is reloaded, updating the balcony size 
+in 3ds Max, yet preserving the material changes you introduced.
+
+00:05:44.278 --> 00:05:51.526
+If no additional changes are expected to the DWG file, you can bind it 
+to the 3ds Max scene to remove any dependencies.
+
+00:05:52.683 --> 00:05:58.598
+The link is now broken and any subsequent changes to the DWG file 
+are not updated in 3ds Max.
+

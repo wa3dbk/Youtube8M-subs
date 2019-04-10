@@ -1,0 +1,183 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.810 --> 00:00:08.139
+I am Oskar from The Coding Universe.
+
+00:00:08.139 --> 00:00:13.119
+This is the first episode of a series called
+"Java Game Development".
+
+00:00:13.119 --> 00:00:16.689
+In this video I will set up the environment
+needed for creating and running our
+
+00:00:16.689 --> 00:00:23.480
+project in Eclipse.
+
+00:00:23.480 --> 00:00:26.109
+You're going to use Eclipse,
+
+00:00:26.109 --> 00:00:28.710
+the lightweight java game library,
+
+00:00:28.710 --> 00:00:33.570
+and Slick Util.
+
+00:00:33.570 --> 00:00:36.110
+So let's go to http://www.eclipse.org,
+
+00:00:36.110 --> 00:00:40.680
+downloads, and select either the Eclipse IDE for Java developers or the classic
+
+00:00:40.680 --> 00:00:42.610
+IDE.
+
+00:00:42.610 --> 00:00:49.380
+You can download and install that and create a shortcut to your start bar.
+
+00:00:49.380 --> 00:00:53.790
+Next we're going to download the lightweight Java game library by going to htttp://www.lwjgl.org, 
+
+00:00:55.469 --> 00:00:58.250
+download,
+
+00:00:58.250 --> 00:01:03.070
+stable version,
+
+00:01:03.070 --> 00:01:06.580
+and the zip file
+
+00:01:06.580 --> 00:01:11.720
+So I have already downloaded that I am not going to download it right now.
+
+00:01:11.720 --> 00:01:15.670
+For the Slick Util you need to go to wiki,
+
+00:01:15.670 --> 00:01:20.030
+slick_util library introduction,
+
+00:01:20.030 --> 00:01:23.360
+and click on this link here.
+
+00:01:23.360 --> 00:01:26.480
+Click on the jar file.
+
+00:01:26.480 --> 00:01:33.480
+And we'll just save it to our desktop.
+
+00:01:40.340 --> 00:01:42.750
+So now let's open up Eclipse. 
+
+00:01:42.750 --> 00:01:47.810
+I have already set up my workspace to that folder there.
+
+00:01:47.810 --> 00:01:50.560
+Create a new project,
+
+00:01:50.560 --> 00:01:56.070
+we're going to call it "JGame".
+
+00:01:56.070 --> 00:01:59.460
+Just hit ENTER.
+
+00:01:59.460 --> 00:02:03.100
+Now we can minimize Eclipse. 
+
+00:02:03.100 --> 00:02:08.699
+Open up the project folder within the workspace.
+
+00:02:08.699 --> 00:02:11.859
+And also open up the lightweight java game library zip file.
+
+00:02:15.780 --> 00:02:18.719
+We are going to create a new folder called "lib".
+
+00:02:18.719 --> 00:02:21.599
+In that folder we're going to create two new folders.
+
+00:02:21.599 --> 00:02:24.619
+The first is called "jars",
+
+00:02:24.619 --> 00:02:30.549
+and the second is called "natives-win".
+
+00:02:30.549 --> 00:02:32.499
+Going over to WinRAR,
+
+00:02:32.499 --> 00:02:34.189
+we can copy 
+
+00:02:34.189 --> 00:02:39.909
+the following jar files.
+
+00:02:39.909 --> 00:02:44.709
+We're also going to go to 
+
+00:02:44.709 --> 00:02:50.549
+the Windows native folder.
+
+00:02:50.549 --> 00:02:54.579
+Now copy all the dll files into the "natives-win" folder.
+
+00:02:54.579 --> 00:03:01.579
+Oh, and we also need to add the slick_util jar file into the jars folder.
+
+00:03:03.239 --> 00:03:05.209
+Let's go back into Eclipse
+
+00:03:05.209 --> 00:03:08.039
+and open up our project properties.
+
+00:03:08.039 --> 00:03:10.389
+Go to "Java Build Path" and 
+
+00:03:10.389 --> 00:03:14.309
+add some external jars.
+
+00:03:14.309 --> 00:03:16.919
+So go to our jars folder and
+
+00:03:16.919 --> 00:03:18.709
+select all the jar files.
+
+00:03:18.709 --> 00:03:22.969
+Click on the lightweight Java game library jar file and
+
+00:03:22.969 --> 00:03:29.969
+specify the natives folder.
+
+00:03:34.019 --> 00:03:36.789
+There we go! It should all be up and running.
+
+00:03:36.789 --> 00:03:40.879
+But just to test we're going to create a class
+
+00:03:40.879 --> 00:03:45.659
+and call it "Main".
+
+00:03:45.659 --> 00:03:50.989
+In this class we're going to type: 
+
+00:03:50.989 --> 00:03:55.209
+"Display.create();".
+
+00:03:55.209 --> 00:04:00.169
+Do this try-clause.
+
+00:04:00.169 --> 00:04:02.699
+Once I run it should show 
+
+00:04:02.699 --> 00:04:04.749
+a window
+
+00:04:04.749 --> 00:04:11.749
+and the window should immediately disappear (do not copy that pronounciation) again.
+
+00:04:12.839 --> 00:04:15.019
+It worked!
+
+00:04:15.019 --> 00:04:15.619
+Thanks for watching!
+

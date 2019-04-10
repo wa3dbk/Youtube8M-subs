@@ -1,0 +1,703 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.020 --> 00:00:09.550
+  
+
+00:00:12.906 --> 00:00:14.546
+Hi I am Massimo Banzi 
+
+00:00:14.552 --> 00:00:15.616
+and I like to make stuff.
+
+00:00:16.423 --> 00:00:17.984
+Welcome to another tutorial
+
+00:00:17.996 --> 00:00:20.003
+taken from our Arduino StarterKit.
+
+00:00:21.153 --> 00:00:21.533
+ 
+
+00:00:22.083 --> 00:00:23.743
+Today we are going to build
+
+00:00:24.013 --> 00:00:25.723
+a small musical instrument.
+
+00:00:26.123 --> 00:00:28.123
+You can see, it’s again 
+
+00:00:28.173 --> 00:00:29.183
+a simple circuit.
+
+00:00:29.543 --> 00:00:30.893
+We have four buttons 
+
+00:00:31.233 --> 00:00:32.403
+connected to the Arduino 
+
+00:00:32.813 --> 00:00:34.643
+and a small piezo speaker
+
+00:00:34.843 --> 00:00:36.013
+or “paizo” speaker 
+
+00:00:36.383 --> 00:00:37.873
+depending on where you come from.
+
+00:00:38.633 --> 00:00:39.833
+So let’s press the buttons 
+
+00:00:39.837 --> 00:00:40.953
+and see what happens.
+
+00:00:42.073 --> 00:00:43.543
+Each button 
+
+00:00:43.553 --> 00:00:44.923
+is associated with a note.
+
+00:00:45.573 --> 00:00:47.033
+Every time I press a button,
+
+00:00:47.373 --> 00:00:48.893
+Arduino produces a sound 
+
+00:00:49.193 --> 00:00:50.960
+through the piezo speaker.
+
+00:00:52.073 --> 00:00:52.973
+So, how does this work? 
+
+00:00:53.573 --> 00:00:54.963
+Let’s start from the circuit.
+
+00:00:55.443 --> 00:00:57.443
+You can see here there are four buttons.
+
+00:00:57.773 --> 00:00:59.773
+But the four buttons are connected to the
+
+00:00:59.773 --> 00:01:01.543
+Arduino board with just one wire.
+
+00:01:02.173 --> 00:01:03.803
+In the previous examples,
+
+00:01:03.803 --> 00:01:04.543
+we’ve seen that 
+
+00:01:05.173 --> 00:01:07.273
+for every button we had a wire 
+
+00:01:07.333 --> 00:01:08.533
+going to the Arduino board
+
+00:01:08.563 --> 00:01:10.703
+We were using one digital pin
+
+00:01:11.133 --> 00:01:13.033
+to read each individual button
+
+00:01:13.483 --> 00:01:15.483
+and here we have four buttons
+
+00:01:15.703 --> 00:01:17.063
+connected to just one wire,
+
+00:01:17.053 --> 00:01:17.993
+because we have built 
+
+00:01:18.063 --> 00:01:20.063
+what is called “resistor ladder”
+
+00:01:20.413 --> 00:01:21.503
+That's a combination 
+
+00:01:21.763 --> 00:01:23.403
+of resistors and buttons.
+
+00:01:23.483 --> 00:01:25.033
+When I press one of the buttons,
+
+00:01:26.583 --> 00:01:27.933
+I create a combination
+
+00:01:28.183 --> 00:01:29.183
+of resistors 
+
+00:01:29.513 --> 00:01:31.513
+that let current flow through them.
+
+00:01:31.763 --> 00:01:32.823
+But then the voltage
+
+00:01:33.023 --> 00:01:35.213
+that the Arduino board measures
+
+00:01:35.333 --> 00:01:36.783
+out of this resistor ladder
+
+00:01:37.183 --> 00:01:38.523
+changes depending on which 
+
+00:01:38.583 --> 00:01:39.763
+button I press.
+
+00:01:40.093 --> 00:01:41.743
+So, each combination of buttons
+
+00:01:41.753 --> 00:01:43.183
+produces a different voltage.
+
+00:01:43.623 --> 00:01:44.273
+You know that 
+
+00:01:44.693 --> 00:01:46.693
+voltages applied to an analog input
+
+00:01:46.873 --> 00:01:48.873
+can be read from the Arduino
+
+00:01:48.873 --> 00:01:50.143
+using analogRead().
+
+00:01:50.393 --> 00:01:51.233
+Then using a 
+
+00:01:51.233 --> 00:01:52.683
+series of “if” statements,
+
+00:01:52.953 --> 00:01:53.933
+we can actually say
+
+00:01:54.233 --> 00:01:55.493
+ok, if the value is
+
+00:01:55.503 --> 00:01:57.293
+between this number and this number, 
+
+00:01:57.653 --> 00:01:59.153
+it's because I pressed the first  button.
+
+00:01:59.523 --> 00:02:00.503
+If it’s between
+
+00:02:00.803 --> 00:02:01.913
+another set of numbers,
+
+00:02:01.903 --> 00:02:02.903
+I pressed the second button.
+
+00:02:03.413 --> 00:02:05.533
+And I could experimentally figure out
+
+00:02:05.813 --> 00:02:07.103
+which one of the buttons
+
+00:02:07.353 --> 00:02:08.283
+I pressed 
+
+00:02:08.543 --> 00:02:09.113
+by looking at
+
+00:02:09.113 --> 00:02:10.293
+all the numbers that come out
+
+00:02:10.303 --> 00:02:11.813
+when I press different buttons
+
+00:02:12.173 --> 00:02:14.173
+that correspond to the combinations
+
+00:02:14.143 --> 00:02:14.753
+of resistors.
+
+00:02:15.073 --> 00:02:15.583
+Now
+
+00:02:16.373 --> 00:02:18.033
+the output of this circuit,
+
+00:02:18.273 --> 00:02:20.543
+the actuator, is this piezo speaker. 
+
+00:02:20.673 --> 00:02:21.833
+The piezo speaker
+
+00:02:22.333 --> 00:02:24.483
+is a very simple device made of
+
+00:02:24.833 --> 00:02:26.493
+piezo electric material 
+
+00:02:26.523 --> 00:02:27.763
+that has this feature
+
+00:02:28.263 --> 00:02:29.783
+that whenever you power it
+
+00:02:29.783 --> 00:02:31.153
+with electricity, it will make 
+
+00:02:31.183 --> 00:02:32.283
+a small click.
+
+00:02:33.043 --> 00:02:35.043
+If you turn on and off
+
+00:02:35.273 --> 00:02:37.623
+the power to the piezo speaker 
+
+00:02:37.923 --> 00:02:39.193
+at a certain speed,
+
+00:02:39.603 --> 00:02:41.603
+these sequences of clicks 
+
+00:02:41.883 --> 00:02:42.613
+make a sound.
+
+00:02:42.953 --> 00:02:43.973
+So, for example, 
+
+00:02:44.143 --> 00:02:45.423
+if I turn on and off
+
+00:02:45.893 --> 00:02:49.845
+the power 440 times per second,
+
+00:02:50.273 --> 00:02:52.273
+I produce a sound, which is a very
+
+00:02:52.273 --> 00:02:54.033
+well defined note.
+
+00:02:54.763 --> 00:02:56.763
+In our code,
+
+00:02:56.783 --> 00:02:59.033
+as we will see in a few minutes,
+
+00:02:59.873 --> 00:03:01.873
+we have defined all the different
+
+00:03:01.923 --> 00:03:03.923
+frequencies of each note.
+
+00:03:04.423 --> 00:03:05.863
+And when you press the button,
+
+00:03:05.983 --> 00:03:07.103
+the Arduino detects
+
+00:03:07.113 --> 00:03:08.413
+which button has been pressed, 
+
+00:03:08.423 --> 00:03:10.423
+and then plays that particular note
+
+00:03:10.473 --> 00:03:11.833
+on the speaker.
+
+00:03:12.333 --> 00:03:14.023
+Now let’s have a look at the code
+
+00:03:14.193 --> 00:03:15.853
+and let’s read it line by line
+
+00:03:15.873 --> 00:03:17.233
+to understand exactly
+
+00:03:17.223 --> 00:03:19.223
+how to implement this behavior. 
+
+00:03:19.993 --> 00:03:21.403
+Let’s start from the beginning.
+
+00:03:21.903 --> 00:03:23.553
+You can see on this line 
+
+00:03:23.803 --> 00:03:25.003
+that we are defining
+
+00:03:25.203 --> 00:03:26.913
+a new type of variable,
+
+00:03:27.293 --> 00:03:28.443
+called an array. 
+
+00:03:28.623 --> 00:03:30.803
+This is a variable
+
+00:03:30.803 --> 00:03:31.703
+called "notes" 
+
+00:03:31.943 --> 00:03:33.453
+that contains four 
+
+00:03:33.683 --> 00:03:35.373
+different integer values. 
+
+00:03:35.713 --> 00:03:36.773
+Each one of these 
+
+00:03:37.273 --> 00:03:39.103
+integer values represents 
+
+00:03:39.103 --> 00:03:41.103
+the frequency associated
+
+00:03:41.303 --> 00:03:42.123
+to a certain note. 
+
+00:03:42.513 --> 00:03:43.403
+In particular 
+
+00:03:43.583 --> 00:03:45.583
+these are the middle C, D, E,
+
+00:03:45.643 --> 00:03:47.083
+and F notes.
+
+00:03:48.863 --> 00:03:50.273
+This will be useful later
+
+00:03:50.293 --> 00:03:51.253
+when we detect which 
+
+00:03:51.253 --> 00:03:52.663
+button has been pressed,
+
+00:03:52.913 --> 00:03:53.613
+we can then 
+
+00:03:53.643 --> 00:03:55.103
+choose the right frequency
+
+00:03:55.153 --> 00:03:57.013
+to play on the speaker. 
+
+00:03:58.423 --> 00:03:59.903
+Then we have the usual setup()
+
+00:04:00.003 --> 00:04:01.453
+where we have a Serial.begin()
+
+00:04:01.489 --> 00:04:02.719
+to begin a communication 
+
+00:04:02.719 --> 00:04:03.549
+with the computer. 
+
+00:04:04.749 --> 00:04:05.989
+Let’s look at the loop now.
+
+00:04:07.049 --> 00:04:08.099
+The first thing we do,
+
+00:04:08.419 --> 00:04:10.519
+we create a variable called "sounder"
+
+00:04:10.579 --> 00:04:12.059
+that contains the value read 
+
+00:04:12.059 --> 00:04:13.369
+from the analogPin(0)
+
+00:04:13.369 --> 00:04:15.369
+that represents the combination of
+
+00:04:15.389 --> 00:04:17.389
+keys that have been pressed
+
+00:04:17.439 --> 00:04:18.459
+on the keyboard. 
+
+00:04:19.383 --> 00:04:20.170
+Then we print that 
+
+00:04:20.187 --> 00:04:21.619
+value on the serial monitor, 
+
+00:04:21.629 --> 00:04:22.429
+so we can 
+
+00:04:22.719 --> 00:04:24.079
+look at it on the computer
+
+00:04:24.489 --> 00:04:25.839
+and then we start to understand
+
+00:04:26.049 --> 00:04:27.099
+which button
+
+00:04:27.109 --> 00:04:28.349
+ has been pressed.
+
+00:04:28.589 --> 00:04:29.949
+So we do this by looking at 
+
+00:04:29.959 --> 00:04:31.159
+the "sounder" variable 
+
+00:04:31.489 --> 00:04:33.459
+using a set of “if” 
+
+00:04:33.469 --> 00:04:35.379
+and “else if” statements to
+
+00:04:35.379 --> 00:04:37.379
+segment values in different bands,
+
+00:04:37.549 --> 00:04:39.579
+and figure out in which band
+
+00:04:39.609 --> 00:04:40.679
+ the value falls.
+
+00:04:41.049 --> 00:04:42.729
+Each one of them corresponds
+
+00:04:42.729 --> 00:04:43.269
+to a sound. 
+
+00:04:44.109 --> 00:04:45.749
+So, at the beginning,
+
+00:04:46.119 --> 00:04:48.119
+when the value is 1023,
+
+00:04:48.619 --> 00:04:49.559
+then we know 
+
+00:04:49.729 --> 00:04:51.729
+that we have to play the middle C. 
+
+00:04:52.179 --> 00:04:53.539
+We are using a new function 
+
+00:04:53.539 --> 00:04:54.249
+called tone()
+
+00:04:54.759 --> 00:04:57.029
+Tone() is able to produce a sound 
+
+00:04:57.029 --> 00:04:59.209
+on a small speaker or a piezo speaker
+
+00:04:59.399 --> 00:05:00.609
+connected to a certain 
+
+00:05:00.609 --> 00:05:01.599
+pin on the Arduino. 
+
+00:05:01.829 --> 00:05:03.059
+The only thing we need to do is,
+
+00:05:03.069 --> 00:05:04.249
+we need to say
+
+00:05:04.529 --> 00:05:06.249
+ this is the pin where 
+
+00:05:06.239 --> 00:05:07.519
+the speaker is connected to, 
+
+00:05:07.529 --> 00:05:09.149
+in our case, 8.
+
+00:05:09.509 --> 00:05:10.209
+And then we have to 
+
+00:05:10.209 --> 00:05:11.669
+specify the note 
+
+00:05:11.915 --> 00:05:13.509
+and that note will be played 
+
+00:05:13.979 --> 00:05:15.979
+on that pin.
+
+00:05:16.399 --> 00:05:16.859
+Then
+
+00:05:17.279 --> 00:05:19.299
+if we continue down
+
+00:05:19.489 --> 00:05:20.759
+the source code, you can see
+
+00:05:20.759 --> 00:05:22.729
+there’s a number of “else if”
+
+00:05:22.729 --> 00:05:24.729
+statements that divide 
+
+00:05:24.729 --> 00:05:26.059
+the value of "sounder" in 
+
+00:05:26.069 --> 00:05:26.869
+different bands. 
+
+00:05:27.369 --> 00:05:27.759
+So
+
+00:05:28.097 --> 00:05:29.247
+we have a band that goes 
+
+00:05:29.247 --> 00:05:32.247
+between 920 and 1010
+
+00:05:32.527 --> 00:05:34.527
+that corresponds to the middle D,
+
+00:05:34.657 --> 00:05:37.787
+a band that goes between 505 and 515 
+
+00:05:37.797 --> 00:05:39.797
+that corresponds to the middle E,
+
+00:05:39.837 --> 00:05:41.067
+and finally 
+
+00:05:41.247 --> 00:05:43.247
+a band that goes between 
+
+00:05:43.407 --> 00:05:45.177
+5 and 10 that represents  
+
+00:05:45.257 --> 00:05:46.057
+the middle F.
+
+00:05:46.997 --> 00:05:48.557
+If none of these combinations 
+
+00:05:48.727 --> 00:05:51.237
+is actually detected, 
+
+00:05:51.667 --> 00:05:53.607
+then there’s a final “else”
+
+00:05:53.597 --> 00:05:55.197
+statement that you can see here.
+
+00:05:55.417 --> 00:05:57.477
+This “else” statement calls this
+
+00:05:57.477 --> 00:05:59.547
+function called nonetone() that
+
+00:05:59.977 --> 00:06:01.977
+stops any sound being 
+
+00:06:02.017 --> 00:06:03.507
+produced on the specific pin. 
+
+00:06:03.507 --> 00:06:05.507
+So we say notone(8)
+
+00:06:05.887 --> 00:06:07.007
+and this stops
+
+00:06:07.869 --> 00:06:08.849
+the sound.
+
+00:06:10.395 --> 00:06:11.097
+Let’s try 
+
+00:06:11.337 --> 00:06:13.337
+again the instrument and see 
+
+00:06:13.657 --> 00:06:15.867
+how our software is actually
+
+00:06:16.477 --> 00:06:17.677
+working here. 
+
+00:06:18.177 --> 00:06:19.617
+At the same time, I will open
+
+00:06:19.647 --> 00:06:21.647
+my serial monitor so that
+
+00:06:21.647 --> 00:06:22.767
+we can see the numbers
+
+00:06:23.247 --> 00:06:24.487
+while I press the button.
+
+00:06:24.997 --> 00:06:26.607
+At the moment we see a value,
+
+00:06:26.607 --> 00:06:27.767
+which is very
+
+00:06:28.217 --> 00:06:29.147
+close to 0,
+
+00:06:29.607 --> 00:06:31.427
+which represents the fact
+
+00:06:31.417 --> 00:06:32.927
+that no button has been pressed.
+
+00:06:32.917 --> 00:06:33.977
+So, we press the button
+
+00:06:34.717 --> 00:06:36.717
+and we got 1023.
+
+00:06:37.107 --> 00:06:39.107
+The second button is 1002.
+
+00:06:39.937 --> 00:06:40.837
+The third button is 
+
+00:06:40.837 --> 00:06:42.837
+about 512 
+
+00:06:42.887 --> 00:06:43.717
+or something.
+
+00:06:44.117 --> 00:06:46.117
+And the last one is
+
+00:06:46.537 --> 00:06:49.907
+sort of between 15 and 20.
+
+00:06:50.717 --> 00:06:52.717
+This
+
+00:06:52.947 --> 00:06:54.647
+is in a very simple
+
+00:06:54.947 --> 00:06:56.737
+way, a small 
+
+00:06:57.397 --> 00:06:59.207
+music instrument that you can build 
+
+00:06:59.217 --> 00:07:01.217
+very quickly with your Arduino,
+
+00:07:01.317 --> 00:07:02.487
+a piezo speaker, 
+
+00:07:02.487 --> 00:07:04.267
+a few resistors and a few buttons.
+
+00:07:05.117 --> 00:07:07.117
+This is all for now
+
+00:07:07.417 --> 00:07:09.147
+but remember: Build it, 
+
+00:07:09.647 --> 00:07:11.097
+hack it, share it,
+
+00:07:11.497 --> 00:07:12.567
+because Arduino is you.
+

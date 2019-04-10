@@ -1,0 +1,324 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.101 --> 00:00:02.468
+(male narrator)
+So we wanna schedule
+this diagraph
+
+00:00:02.501 --> 00:00:05.671
+on three processors using
+the critical path algorithm.
+
+00:00:05.704 --> 00:00:08.641
+So we'll go ahead
+and introduce an end vertex.
+
+00:00:08.674 --> 00:00:11.677
+And...this is gonna be
+a little tricky to draw here,
+
+00:00:11.710 --> 00:00:14.147
+'cause each of these
+leads to the end.
+
+00:00:14.180 --> 00:00:17.216
+Notice we have a lot
+of sort of independent tasks
+
+00:00:17.249 --> 00:00:19.519
+that can be completed
+at any time.
+
+00:00:19.552 --> 00:00:23.022
+Uh...and so using...
+applying the backflow algorithm,
+
+00:00:23.055 --> 00:00:27.260
+uh...Task 9 here is
+a distance of 6 from the end.
+
+00:00:27.293 --> 00:00:30.897
+Task 2...sort of flowing
+backwards here,
+
+00:00:30.930 --> 00:00:36.269
+this has a distance of 8 then,
+as does this, as does this.
+
+00:00:36.302 --> 00:00:40.239
+Uh...and flowing backwards then,
+this has a time of 9.
+
+00:00:40.272 --> 00:00:42.842
+Uh...flowing backwards
+from here,
+
+00:00:42.875 --> 00:00:44.844
+this is gonna have
+a time...
+
+00:00:44.877 --> 00:00:51.851
+critical time of 1,
+of 1, of 6, and of 6.
+
+00:00:51.884 --> 00:00:55.388
+And so putting that together,
+we get a priority list
+
+00:00:55.421 --> 00:01:05.765
+of Task 1, Task...Task 1,
+Task 6, Task 7, Task 8, right?
+
+00:01:05.798 --> 00:01:08.401
+And now we hit the 6s,
+
+00:01:08.434 --> 00:01:12.805
+and we typically give those
+in order of task number.
+
+00:01:12.838 --> 00:01:18.211
+And so there's
+all my 6, uh...unit time tasks.
+
+00:01:18.244 --> 00:01:22.748
+And then finally,
+we have Task 2 and Task 3,
+
+00:01:22.781 --> 00:01:25.051
+which are
+my 1-unit time tasks.
+
+00:01:25.084 --> 00:01:27.053
+As so if we go ahead
+
+00:01:27.086 --> 00:01:30.556
+and schedule this
+on three processors,
+
+00:01:30.589 --> 00:01:32.458
+uh...let's see what happens.
+
+00:01:32.491 --> 00:01:34.560
+And so at the
+very beginning,
+
+00:01:34.593 --> 00:01:42.935
+notice Task 1, 2, 3, 4,
+and 5 are ready.
+
+00:01:42.968 --> 00:01:46.939
+And so we'll go ahead
+and assign Task 1, 4, and 5.
+
+00:01:46.972 --> 00:01:51.077
+Remember, we've got
+three processors this time,
+
+00:01:51.110 --> 00:01:54.413
+and so we'll go ahead
+and assign those three tasks.
+
+00:01:54.446 --> 00:01:56.883 line:0%
+So there's
+Task 1, 4, and 5 assigned,
+
+00:01:56.916 --> 00:02:01.120 line:0%
+and notice after 1 unit of time,
+Task 1 gets complete.
+
+00:02:01.153 --> 00:02:03.222 line:0%
+And when Task 1
+gets complete,
+
+00:02:03.255 --> 00:02:07.527 line:0%
+Tasks 6, 7, and 8
+all become ready.
+
+00:02:07.560 --> 00:02:12.098 line:0%
+And so now we can just go ahead
+and assign, uh...Task 6.
+
+00:02:12.131 --> 00:02:16.035 line:0%
+So Task 6 gets assigned,
+and it takes 2 units of time--
+
+00:02:16.068 --> 00:02:18.671 line:0%
+taking us out to 3 now.
+
+00:02:18.704 --> 00:02:22.675 line:0%
+Uh...when Task 6
+gets complete,
+
+00:02:22.708 --> 00:02:26.312
+uh...then we'll go ahead
+and assign Task 7.
+
+00:02:26.345 --> 00:02:28.948
+And Task 7
+takes 2 units of time.
+
+00:02:28.981 --> 00:02:32.185 line:0%
+Uh...and that takes us out
+to 5 units of time.
+
+00:02:32.218 --> 00:02:34.787 line:0%
+And when Task 7
+gets complete,
+
+00:02:34.820 --> 00:02:38.124 line:0%
+uh...then we'll go ahead
+and assign, I guess, Task 8.
+
+00:02:38.157 --> 00:02:41.761 line:0%
+And so Task 8 gets assigned,
+again with 2 units of time--
+
+00:02:41.794 --> 00:02:44.063 line:0%
+taking us out to 7.
+
+00:02:44.096 --> 00:02:48.434 line:0%
+So now...when Tasks 4 and 5
+get done...
+
+00:02:48.467 --> 00:02:51.237
+let's see here,
+Tasks 4 and 5 get done.
+
+00:02:51.270 --> 00:02:53.906
+Is anything new ready...no.
+
+00:02:53.939 --> 00:02:57.009
+Okay, so I guess we'll go ahead
+and assign the next thing
+
+00:02:57.042 --> 00:02:58.878
+that is ready
+on the priority list,
+
+00:02:58.911 --> 00:03:01.647
+and that would be
+Tasks 2 and 3,
+
+00:03:01.680 --> 00:03:05.851
+uh...which you might remember
+both have a time of 1.
+
+00:03:05.884 --> 00:03:08.187 line:0%
+So Task 3 gets assigned...
+
+00:03:08.220 --> 00:03:10.389 line:0%
+and...let's see here,
+Task, uh...
+
+00:03:10.422 --> 00:03:13.392 line:0%
+sorry-sorry, that one
+should have been Task 2.
+
+00:03:13.425 --> 00:03:14.393 line:0%
+Sorry.
+
+00:03:14.426 --> 00:03:16.829 line:0%
+And, uh...Task 3
+gets assigned here,
+
+00:03:16.862 --> 00:03:19.432 line:0%
+and both those
+can take till Time 7.
+
+00:03:19.465 --> 00:03:21.667 line:0%
+Uh...and then when Task,
+
+00:03:21.700 --> 00:03:25.404 line:0%
+uh...at Time 7, when all
+of those tasks get done,
+
+00:03:25.437 --> 00:03:29.542
+finally, Task 9 is ready,
+and we can assign it.
+
+00:03:29.575 --> 00:03:33.646
+Uh...and...so we can go ahead
+and assign Task 9 here,
+
+00:03:33.679 --> 00:03:39.185
+and that has 6 units of time,
+which takes us out to, uh...13.
+
+00:03:39.218 --> 00:03:40.786 line:0%
+And there is our schedule.
+
+00:03:40.819 --> 00:03:44.056 line:0%
+And of course, all of this time
+here is idle time.
+
+00:03:44.089 --> 00:03:45.758 line:0%
+And there's 
+our schedule created
+
+00:03:45.791 --> 00:03:48.861 line:0%
+by the, uh...critical path
+algorithm.
+
+00:03:48.894 --> 00:03:52.932 line:0%
+Now, uh...this has
+a total finishing time of 13,
+
+00:03:52.965 --> 00:03:57.536 line:0%
+and you kind of have to wonder,
+could we have done better?
+
+00:03:57.569 --> 00:03:59.205 line:0%
+And the answer
+is absolutely,
+
+00:03:59.238 --> 00:04:01.741 line:0%
+we could've done better
+in this particular case.
+
+00:04:01.774 --> 00:04:04.176 line:0%
+Uh...and here is the schedule
+that would do it.
+
+00:04:04.209 --> 00:04:05.511 line:0%
+Uh...it makes sense here
+
+00:04:05.544 --> 00:04:08.781 line:0%
+to do...go ahead
+and do all those Time 1 tasks.
+
+00:04:08.814 --> 00:04:11.117 line:0%
+And then we can do
+these Time 2 tasks,
+
+00:04:11.150 --> 00:04:14.220 line:0%
+and then we...all the processors
+can work on the Time 3 tasks.
+
+00:04:14.253 --> 00:04:16.489 line:0%
+And that gives us
+a completion time of 9.
+
+00:04:16.522 --> 00:04:17.823 line:0%
+The point being here
+
+00:04:17.856 --> 00:04:20.026 line:0%
+is that while
+the critical path algorithm
+
+00:04:20.059 --> 00:04:22.728 line:0%
+will often lead to a good...
+very good schedule,
+
+00:04:22.761 --> 00:04:24.697 line:0%
+it is not
+an optimal algorithm.
+
+00:04:24.730 --> 00:04:25.731 line:0%
+In other words,
+
+00:04:25.764 --> 00:04:28.768 line:0%
+it doesn't always produce
+the ideal results.
+

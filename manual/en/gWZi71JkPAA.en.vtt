@@ -1,0 +1,111 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:03.840
+Hey Phil, you're looking so serious, why don't
+you lighten up?
+
+00:00:03.840 --> 00:00:06.990
+It's easy to mod your sneakers to light up
+when you walk.
+
+00:00:06.990 --> 00:00:11.560
+Today we'll show you how to add NeoPixel strip
+and a simple sensor to detect your steps,
+
+00:00:11.560 --> 00:00:22.130
+with FLORA, Adafruit's wearable electronics
+platform.
+
+00:00:22.130 --> 00:00:32.820
+For this project we'll be using Velostat.
+
+00:00:32.820 --> 00:00:34.350
+What is that?
+
+00:00:34.350 --> 00:00:39.660
+Velostat is a material that becomes less resistive
+when it's pinched, so we made a basic sensor
+
+00:00:39.660 --> 00:00:43.394
+from it to detect each time your weight comes
+down on the heel of the shoe.
+
+00:00:43.394 --> 00:00:47.960
+Just tape one piece of conductive thread to
+each side of a small piece of velostat, forming
+
+00:00:47.960 --> 00:00:49.949
+a loop under the tape.
+
+00:00:49.949 --> 00:00:53.879
+Then pick up the tails with a needle and stitch
+them up the side of the shoe, connecting one
+
+00:00:53.879 --> 00:00:58.780
+to ground and the other to an analog input
+on the FLORA board.
+
+00:00:58.780 --> 00:01:02.960
+Each time FLORA sees the resistance of the
+velostat drop, it knows you've stepped on
+
+00:01:02.960 --> 00:01:07.140
+the heel sensor, and it triggers the LEDs
+around the sole to animate, lighting up your
+
+00:01:07.140 --> 00:01:08.140
+stride.
+
+00:01:08.140 --> 00:01:13.030
+We prototyped the circuit with alligator clips
+before attaching everything to the shoes.
+
+00:01:13.030 --> 00:01:17.060
+Put your shoes on and bend your foot as though
+you're standing on your tip toes.
+
+00:01:17.060 --> 00:01:21.110
+Mark off the parts of the shoe that bend the
+most, and skip these spots when it's time
+
+00:01:21.110 --> 00:01:22.140
+to glue.
+
+00:01:22.140 --> 00:01:25.439
+This will reduce the likelihood of cracking
+the flexible circuit board when the shoes
+
+00:01:25.439 --> 00:01:27.570
+bend.
+
+00:01:27.570 --> 00:01:29.460
+Now we need to glue the strips to the shoes.
+
+00:01:29.460 --> 00:01:34.820
+We recommend Permatex 66B silicone adhesive
+because it sticks to the sheathing of the
+
+00:01:34.820 --> 00:01:40.229
+NeoPixel strip, but test any adhesive first
+to make sure it also sticks to the rubber
+
+00:01:40.229 --> 00:01:41.820
+of your shoes.
+
+00:01:41.820 --> 00:01:46.300
+This triple A battery holder lives in the
+shoe's laces, and you can follow along with
+
+00:01:46.300 --> 00:01:51.470
+our complete tutorial on the Adafruit Learning
+System to build your own firewalker LED sneakers.
+
+00:01:51.470 --> 00:01:55.740
+Subscribe to the Adafruit channel on YouTube
+and don't miss our weekly live show about
+
+00:01:55.740 --> 00:01:57.960
+Wearable Electronics with me, Becky Stern.
+

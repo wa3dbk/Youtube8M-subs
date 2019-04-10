@@ -1,0 +1,211 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.780 --> 00:00:05.059
+In today's video we will see how the follower robot circuit and light works
+
+00:00:05.059 --> 00:00:06.779
+we will learn to ride.
+
+00:00:08.080 --> 00:00:11.480
+The sensors that are on the front are monitoring the black line and
+
+00:00:11.480 --> 00:00:14.160
+They are accelerating or decelerating motors.
+
+00:00:14.779 --> 00:00:18.719
+This circuit is used for robots that make functions in industry.
+
+00:00:18.899 --> 00:00:23.219
+It is also used in universities for speed and dexterity skills.
+
+00:00:23.699 --> 00:00:25.699
+Let's see how it's done.
+
+00:00:31.620 --> 00:00:33.620
+This is the light follower circuit robot.
+
+00:00:33.899 --> 00:00:37.280
+Let's learn to ride. The first stage is the sensor,
+
+00:00:37.579 --> 00:00:39.579
+we will serve to detect the black line.
+
+00:00:39.659 --> 00:00:44.759
+In a video we saw how the sensor works. Here is the link so they can see.
+
+00:00:44.780 --> 00:00:47.140
+In this video we set up the first part of the sensor.
+
+00:00:47.200 --> 00:00:50.220
+Here is the sensor, all I did was get cable
+
+00:00:50.380 --> 00:00:52.259
+so that it is pointing toward the floor.
+
+00:00:52.259 --> 00:00:55.640
+When the black line passes over the LED turns off.
+
+00:00:55.899 --> 00:00:57.539
+When he returns white lights.
+
+00:00:59.320 --> 00:01:03.320
+That pulse is sending, in this case, this cable orange, which is the point.
+
+00:01:03.439 --> 00:01:07.120
+I will remove the LED to continue making assembly.
+
+00:01:07.200 --> 00:01:12.379
+From that point, which is the transmitter receiver CNY70
+
+00:01:12.459 --> 00:01:14.459
+I connect a 1k resistor
+
+00:01:14.500 --> 00:01:17.140
+to the base of 2N2222A transistor.
+
+00:01:17.159 --> 00:01:21.640
+In this case, the transistor has the emitter legs left, center-based
+
+00:01:22.120 --> 00:01:23.420
+and right-collector.
+
+00:01:23.420 --> 00:01:24.900
+Then I connect it to the center.
+
+00:01:24.980 --> 00:01:27.579
+The issuer that is the left leg goes negative cable.
+
+00:01:28.900 --> 00:01:32.920
+And the collector, which is the right leg, it is a resistance of 1 kilohm to positive.
+
+00:01:33.040 --> 00:01:37.680
+The color code of resistance of 1 KILOOHMNIO is brown, black, red and gold tolerance.
+
+00:01:37.680 --> 00:01:39.380
+I connect the collector to the positive.
+
+00:01:39.439 --> 00:01:44.239
+Here we see that in the center, which is the base, is the 1K resistor. The left leg is the emitter to the negative.
+
+00:01:45.299 --> 00:01:48.500
+And the right, another 1k resistor to the positive.
+
+00:01:48.859 --> 00:01:49.819
+Which is the top bus.
+
+00:01:50.019 --> 00:01:52.819
+This same point out a signal to the next stage
+
+00:01:52.819 --> 00:01:54.099
+which will control the motor.
+
+00:01:54.239 --> 00:01:57.119
+That connector comes a red LED.
+
+00:01:57.260 --> 00:02:01.439
+Positive top of the LED, which is the longest, will be connected there.
+
+00:02:04.019 --> 00:02:06.939
+Says here comes a variable resistor 50 K.
+
+00:02:07.040 --> 00:02:10.520
+Why I put variable? Because often the car will go
+
+00:02:10.560 --> 00:02:12.960
+moving too fast or too slowly.
+
+00:02:13.020 --> 00:02:15.719
+By varying this resistance I can make the engine turn
+
+00:02:15.719 --> 00:02:19.060
+faster or slower, to achieve calibrate if you go too fast.
+
+00:02:19.060 --> 00:02:21.800
+In this case I will place a 1k
+
+00:02:21.840 --> 00:02:24.240
+because I want the car go fast enough.
+
+00:02:24.240 --> 00:02:28.620
+If you start out on curves because they do not achieve control, I begin to change this.
+
+00:02:28.860 --> 00:02:32.340
+Or I can adjust the sensors. I have to start playing with it.
+
+00:02:32.520 --> 00:02:34.520
+You connect the 1k resistor
+
+00:02:34.680 --> 00:02:37.719
+and is the base of another transistor 2N2222A.
+
+00:02:37.840 --> 00:02:40.780
+The issuer of the left cover should connect to ground.
+
+00:02:40.840 --> 00:02:45.039
+And the collector and get my gear motor. Remember to use a gearmotor
+
+00:02:45.039 --> 00:02:47.019
+at least 1 kg force.
+
+00:02:47.020 --> 00:02:49.860
+If not, you can move them to the car on the floor.
+
+00:02:49.939 --> 00:02:52.479
+It is connected between the collector and positive.
+
+00:02:52.479 --> 00:02:55.560
+And I connect the positive to the collector of transistor.
+
+00:02:55.560 --> 00:02:58.479
+Let's see what happens when it passes over the black line.
+
+00:03:01.900 --> 00:03:05.120
+As we can see, when it detects the black line the engine is started.
+
+00:03:07.680 --> 00:03:11.000
+When the sensor detects that the car veered off the black line,
+
+00:03:11.000 --> 00:03:13.520
+the engine turns off the rim. And when he goes
+
+00:03:13.520 --> 00:03:15.000
+on the black line,
+
+00:03:15.060 --> 00:03:18.140
+It means on track and continues to operate.
+
+00:03:18.539 --> 00:03:21.280
+The engine must be located on the opposite side
+
+00:03:22.039 --> 00:03:24.599
+from where the sensor. So while the sensor
+
+00:03:25.400 --> 00:03:29.520
+is above the black line, they'll be walking the two wheels. If this gets out,
+
+00:03:30.099 --> 00:03:31.539
+It will shut down the engine
+
+00:03:31.740 --> 00:03:33.740
+and the motor on the opposite side will continue to function
+
+00:03:33.759 --> 00:03:36.759
+and bring the car back into the black line.
+
+00:03:36.759 --> 00:03:40.120
+That way it will work. Remember to give click on "Like" to videos and if
+
+00:03:40.139 --> 00:03:42.139
+They have not subscribed to my channel advantage to do so.
+
+00:03:42.139 --> 00:03:43.659
+Upload new videos every Wednesday.
+
+00:03:43.659 --> 00:03:47.840
+I leave here the link of the video where I explain how the circuit works,
+
+00:03:47.840 --> 00:03:51.860
+and how to finish assembling the mechanical part of the follower robot. Do not stop them.
+

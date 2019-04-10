@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.380 --> 00:00:09.740 position:97%
+Let’s step through the Test Lab Guide for setting up the base configuration.
+
+00:00:09.740 --> 00:00:14.710 position:98%
+The Base Configuration test lab guide, or TLG, creates a standard infrastructure upon which other
+
+00:00:14.710 --> 00:00:18.640
+TLGs build.
+
+00:00:18.640 --> 00:00:22.930 position:97%
+The Base Configuration uses computers running Windows Server 2008 R2 and
+
+00:00:22.930 --> 00:00:24.540
+Windows 7.
+
+00:00:24.540 --> 00:00:28.090 position:97%
+Note that there is a separate base configuration TLG for computers running
+
+00:00:28.090 --> 00:00:31.650
+Windows Server 2012 and Windows 8.
+
+00:00:31.650 --> 00:00:36.350 position:98%
+The Remote Access virtual private network (VPN) TLG stack is an example of a set of
+
+00:00:36.350 --> 00:00:39.640 position:97%
+TLGs and test lab extensions that build upon the base configuration.
+
+00:00:40.700 --> 00:00:44.730 position:98%
+This stack configures and then demonstrates remote access VPN connectivity features
+
+00:00:44.730 --> 00:00:50.980 position:98%
+in Windows Server 2008 R2 and Windows 7 in the base configuration test lab.
+
+00:00:50.980 --> 00:00:53.700 position:64%
+The Internet Protocol version 6, or IPv6,
+
+00:00:53.700 --> 00:00:58.620 position:97%
+stack is another example. This stack uses the IPv4-only base configuration
+
+00:00:58.620 --> 00:01:03.580 position:97%
+test lab environment and steps you through IPv6 functionality on an intranet and
+
+00:01:03.580 --> 00:01:08.930 position:98%
+a simulated Internet. Now let’s build out the Base Configuration.
+
+00:01:08.930 --> 00:01:11.910 position:88%
+The base configuration test lab consists of two subnets:
+
+00:01:11.910 --> 00:01:18.610 position:98%
+one named Corpnet and one named Internet. You start with the Corpnet subnet and add the computer named DC1.
+
+00:01:18.610 --> 00:01:21.100 position:95%
+You then configure it as an Active Directory Domain Services,
+
+00:01:21.100 --> 00:01:25.500 position:81%
+or AD DS, domain controller for the corp.contoso.com
+
+00:01:25.500 --> 00:01:28.720
+domain, a DNS server,
+
+00:01:28.720 --> 00:01:33.950 position:98%
+a DHCP server, an enterprise root certification authority, or CA,
+
+00:01:33.950 --> 00:01:38.020 position:98%
+with additional certificate infrastructure settings, and then add
+
+00:01:38.020 --> 00:01:41.800
+an account named User1.
+
+00:01:41.800 --> 00:01:46.040 position:84%
+In Step 2, you add the computer named APP1 and join it
+
+00:01:46.040 --> 00:01:50.820 position:97%
+to the corp.contoso.com domain. You then install the Web Server (IIS) server role,
+
+00:01:50.820 --> 00:01:53.670 position:83%
+configure APP1 to host a certificate revocation list,
+
+00:01:53.670 --> 00:01:59.250 position:98%
+or CRL, distribution point, and then configure it as a file server.
+
+00:01:59.250 --> 00:02:02.310 position:97%
+In Step 3, you add the computer named CLIENT1 and join it to the
+
+00:02:02.310 --> 00:02:06.190 position:88%
+corp.contoso.com domain. You then verify that a computer
+
+00:02:06.190 --> 00:02:13.060 position:97%
+certificate was installed and test access to the Web and file share resources on APP1.
+
+00:02:13.060 --> 00:02:17.870 position:98%
+In the next section, you configure the Internet subnet. This is optional as some TLG stacks
+
+00:02:17.870 --> 00:02:21.100 position:97%
+do not require it, but it is recommended because a different TLG stack might
+
+00:02:21.100 --> 00:02:27.220 position:98%
+require it or you might need it to experiment with your own Internet-based scenarios.
+
+00:02:27.220 --> 00:02:30.370 position:94%
+In step 1, you add a computer named EDGE1 and join it to the
+
+00:02:30.370 --> 00:02:33.910 position:67%
+corp.contoso.com domain. Note that EDGE1 is
+
+00:02:33.910 --> 00:02:38.090 position:97%
+not configured to perform any routing between the two subnets or any remote access VPN
+
+00:02:38.090 --> 00:02:44.320 position:97%
+or proxying services. These capabilities are left to other TLGs.
+
+00:02:44.320 --> 00:02:46.940 position:70%
+In step 2, you add a computer named INET1 and
+
+00:02:46.940 --> 00:02:51.470 position:67%
+configure it as a Web Server, a DNS server,
+
+00:02:51.470 --> 00:02:54.320 position:80%
+a DHCP server, and with additional settings so that
+
+00:02:54.320 --> 00:02:59.350 position:89%
+CLIENT1 detects the Internet subnet as the real Internet.
+
+00:02:59.350 --> 00:03:03.810 position:97%
+Now you have both subnets and the CLIENT1 computer can move between them, simulating
+
+00:03:03.810 --> 00:03:08.600 position:97%
+a roaming laptop or notebook computer. Snapshot these computers so that you can always
+
+00:03:08.600 --> 00:03:13.600 position:97%
+return to this initial configuration. Now you are ready to build additional TLGs that rely
+
+00:03:13.600 --> 00:03:17.720 position:94%
+on this base configuration or experiment on your own. Enjoy.
+
+00:03:17.720 --> 00:03:19.290
+For additional information about
+
+00:03:19.290 --> 00:03:24.380 position:95%
+TLGs for Microsoft products, see microsoft.com/testlabguides.
+

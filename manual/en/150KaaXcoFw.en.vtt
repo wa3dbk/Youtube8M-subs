@@ -1,0 +1,176 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.169 --> 00:00:07.579
+I want to show you one of Mac OS X "Lion"'s
+new features and why I don't think it's such a
+
+00:00:07.579 --> 00:00:09.199
+good idea.
+
+00:00:09.199 --> 00:00:11.329
+I have
+
+00:00:11.329 --> 00:00:14.429
+an SD card inserted into my iMac.
+
+00:00:14.429 --> 00:00:18.930
+This card is from my video camera.
+
+00:00:18.930 --> 00:00:22.890
+Here is a video from the camera which
+if I double-click on will open in
+
+00:00:22.890 --> 00:00:24.990
+QuickTime.
+
+00:00:24.990 --> 00:00:28.869
+So, let's pretend we've watched the video.
+
+00:00:28.869 --> 00:00:34.120
+Close the window there. And now I'm done with this
+card so I want to eject it.
+
+00:00:34.120 --> 00:00:35.480
+So...
+
+00:00:35.480 --> 00:00:40.580
+I eject the card.
+
+00:00:40.580 --> 00:00:42.710
+But it doesn't work. It says:
+
+00:00:42.710 --> 00:00:46.110
+"One or more programs may be using it."
+
+00:00:46.110 --> 00:00:49.170
+Well, I don't have anything running except
+LaunchBar
+
+00:00:49.170 --> 00:00:53.930
+and I don't think it could be LaunchBar
+but we'll quit that - maybe?
+
+00:00:53.930 --> 00:00:56.060
+No, that doesn't seem to have helped.
+
+00:00:56.060 --> 00:00:57.400
+Now at this point
+
+00:00:57.400 --> 00:01:01.640
+You might reboot because you think, "Well
+there's no applications running, something must have
+
+00:01:01.640 --> 00:01:03.260
+gone wrong."
+
+00:01:03.260 --> 00:01:05.680
+But I wanted to find out what was going
+on.
+
+00:01:05.680 --> 00:01:09.600
+We can use a command-line tool called
+
+00:01:09.600 --> 00:01:14.390
+"lsof", which stands for "LiSt Open Files".
+
+00:01:14.390 --> 00:01:20.060
+And I know that the card is called "CAM" so we can
+say "show me only open files that have
+
+00:01:20.060 --> 00:01:22.799
+CAM in the name".
+
+00:01:22.799 --> 00:01:24.630
+And here we can see
+
+00:01:24.630 --> 00:01:29.350
+at the end of the list is my video
+open by QuickTime.
+
+00:01:29.350 --> 00:01:31.810
+Well that's a little bit confusing isn't it
+because
+
+00:01:31.810 --> 00:01:35.110
+QuickTime's not running - don't see it on the
+dock.
+
+00:01:35.110 --> 00:01:40.680
+But we can check using the Activity Monitor.
+This is a built-in utility that let's us check
+
+00:01:40.680 --> 00:01:45.200
+to see exactly what's running on this machine.
+
+00:01:45.200 --> 00:01:46.650
+And...
+
+00:01:46.650 --> 00:01:49.870
+There it is: Quicktime Player.
+
+00:01:49.870 --> 00:01:54.390
+So what you are seeing here is a new feature
+of Lion where the icons on the dock don't
+
+00:01:54.390 --> 00:01:58.680
+necessarily represent what's actually
+running.
+
+00:01:58.680 --> 00:02:01.610
+Icons can be hidden
+
+00:02:01.610 --> 00:02:04.980
+or in fact icons can show that
+application is running even when it
+
+00:02:04.980 --> 00:02:08.329
+isn't. It works both ways round.
+
+00:02:08.329 --> 00:02:12.369
+I guess the reason that Apple have done this is because
+they're trying to make it more like iOS.
+
+00:02:12.369 --> 00:02:16.579
+It's not important what applications are
+running because the operating system
+
+00:02:16.579 --> 00:02:20.609
+will manage things for you.
+
+00:02:20.609 --> 00:02:24.879
+But in some circumstances it is important
+because I can't
+
+00:02:24.879 --> 00:02:26.759
+eject this disk now.
+
+00:02:26.759 --> 00:02:31.040
+And I can't quit QuickTime, because QuickTime
+isn't on the dock.
+
+00:02:31.040 --> 00:02:38.040
+If I actually force QuickTime to quit
+like this,
+
+00:02:41.370 --> 00:02:44.919
+and then tell it to try ejecting the disk
+again,
+
+00:02:44.919 --> 00:02:46.650
+it works perfectly.
+
+00:02:46.650 --> 00:02:49.799
+So, clearly there's a problem here.
+
+00:02:49.799 --> 00:02:53.659
+Obfuscating the status of the running
+applications on your system
+
+00:02:53.659 --> 00:02:55.129
+from the user
+
+00:02:55.129 --> 00:02:56.089
+is not always a good thing.
+

@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.419 --> 00:00:04.411
+In this video, I want to share with you how to significantly reduce
+
+00:00:04.411 --> 00:00:09.067
+the time it takes to create morph targets inside of 3ds max.
+
+00:00:11.048 --> 00:00:13.741
+We have a head set up with a morpher modifier here
+
+00:00:13.741 --> 00:00:16.615
+and several morph targets have already been created,
+
+00:00:16.615 --> 00:00:18.751
+like the blink for the left eye,
+
+00:00:18.949 --> 00:00:25.185
+the left hand side of a smile and we also have an emotion, a fully asymmetric emotion.
+
+00:00:26.340 --> 00:00:30.557
+I will turn on the Automatically Reload targets feature in 3ds max
+
+00:00:30.557 --> 00:00:35.407
+by simply clicking in the check box and I will use Copy-O-Matic,
+
+00:00:35.407 --> 00:00:41.506
+a plugin available as part of Morph Toolkit, which is a series of plugins for 3DS Max,
+
+00:00:41.506 --> 00:00:44.082
+to help you with your creation of morph targets.
+
+00:00:45.873 --> 00:00:48.581
+So, I'll just go on and apply Copy-O-Matic.
+
+00:00:50.025 --> 00:00:53.875
+We’ll use the centre of the object to do the mirroring in X,
+
+00:00:53.875 --> 00:00:57.315
+so that the left side is going to be on the right side and
+
+00:00:57.315 --> 00:00:59.764
+the right side is going to go on the left side.
+
+00:01:00.384 --> 00:01:06.738
+We will then set the threshold to 0.01, and save a mirror file.
+
+00:01:09.350 --> 00:01:15.233
+As you can see, it tells us there is a total of 1446 points in that object 
+
+00:01:15.233 --> 00:01:20.265
+and Copy-O-Matic has found the mirror pair for 1407 of them.
+
+00:01:20.428 --> 00:01:27.030
+The reason for this is that this model is slightly asymmetrical…by 39 points to be exact.
+
+00:01:28.230 --> 00:01:31.860
+Now that we've created the reference point, what we can do is
+
+00:01:31.860 --> 00:01:37.494
+select this target here and on this target, select the vertices of the closed eye.
+
+00:01:38.535 --> 00:01:42.779
+I can then apply the Copy-O-Matic modifier, choose Position
+
+00:01:42.779 --> 00:01:46.997
+and click copy to copy the position of the various vertices.
+
+00:01:48.894 --> 00:01:54.256
+ We can then see in the points’ clipboard that we have copied a total of 138 points,
+
+00:01:54.256 --> 00:01:57.063
+and I can then click on the Mirror button.
+
+00:01:57.976 --> 00:02:01.734
+And that's it, we don't need to redo it for the other eye, 
+
+00:02:01.734 --> 00:02:06.452
+we can just collapse the stack, and we have just created a new morph target.
+
+00:02:08.009 --> 00:02:10.633
+Let’s do the same with our asymmetric emotion, 
+
+00:02:10.633 --> 00:02:13.808
+we are going to create another asymmetric emotion,
+
+00:02:13.808 --> 00:02:17.071
+actually, we're just going to flip it entirely.
+
+00:02:17.705 --> 00:02:23.997
+So we’ll select the vertices of the face, basically only the vertices that are part of this facial expression, 
+
+00:02:23.997 --> 00:02:29.059
+apply Copy-O-Matic again, copy the points,  click Mirror
+
+00:02:29.059 --> 00:02:32.768
+and we have just created the exact mirror of our original target.
+
+00:02:34.506 --> 00:02:37.041
+Moving on to our half smile target,
+
+00:02:37.041 --> 00:02:43.198
+I’ll just select the side of the face that is actually smiling, apply Copy-O-Matic again,
+
+00:02:43.198 --> 00:02:47.702
+click on the Copy button, then click Mirror, And that's it!
+
+00:02:47.808 --> 00:02:50.826
+ We’ve created the full smile, with just one half,
+
+00:02:50.826 --> 00:02:54.495
+instead of manually moving the points to create the smile;
+
+00:02:54.495 --> 00:03:00.658
+we created half of it and with the help of Copy-O-Matic we finished the target, in seconds.
+
+00:03:01.912 --> 00:03:06.172
+So, if we go back to our head model here, and we go back to Morpher, 
+
+00:03:06.172 --> 00:03:09.209
+we can see that the smile was fully updated,
+
+00:03:09.209 --> 00:03:12.776
+ thanks to the Automatically Reload targets option. 
+
+00:03:13.787 --> 00:03:18.927
+The blink now affects both eyes and if we want to, we can add a new target,
+
+00:03:18.927 --> 00:03:26.063
+to have the asymmetric emotion on one side with one target and on the other with the new one.
+
+00:03:27.178 --> 00:03:29.686
+So as you can see with these various morph targets,
+
+00:03:29.686 --> 00:03:36.444
+didn't have to actually manipulate any vertices, I just used the Copy-O-Matic modifier 
+
+00:03:36.444 --> 00:03:43.253
+to help me copy the position of vertices from one model and paste a mirrored version of them to another.
+
+00:03:44.158 --> 00:03:47.811
+So, using Morph Toolkit, and especially Copy-O-Matic,
+
+00:03:47.811 --> 00:03:52.057
+you can really speed up the creation process of your morph targets
+
+00:03:52.057 --> 00:03:55.654
+and reduce the time you spend on them drastically, 
+
+00:03:55.654 --> 00:03:59.188
+without ever compromising on the quality of your targets.
+
+00:04:01.286 --> 00:04:05.381
+Get the trial version, and see for yourself how you can speed up your workflow 
+
+00:04:05.381 --> 00:04:10.283
+at www.di-o-matic.com.
+
+00:04:10.283 --> 00:04:11.283
+.
+

@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.048 --> 00:00:08.411
+With the skeleton animated, your next task is to choose the bones that will be used for skinning.
+
+00:00:09.004 --> 00:00:17.521
+Remember that some bones, such as end bones or nubs, as well as bones used to blend FK and IK are not required for the skinning process.
+
+00:00:18.185 --> 00:00:20.818
+Start by selecting all the bones in the viewport.
+
+00:00:21.445 --> 00:00:26.468
+Holding the Alt key down, click all the nub bones to deselect them.
+
+00:00:27.010 --> 00:00:36.900
+This include the two nubs for the feet, the 10 finger nubs, the two hand nubs, as well as the head nub and the pelvis nub.
+
+00:00:37.713 --> 00:00:41.691
+Next press H to open the Select from Scene dialog.
+
+00:00:42.178 --> 00:00:47.025
+In the Select menu, make sure the Select Children option is disabled.
+
+00:00:47.730 --> 00:00:55.880
+Locate the FK and IK chains. The ones for the right side of the skeleton are easy to find, at the very bottom of the dialog.
+
+00:00:56.433 --> 00:01:00.993
+Hold Ctrl down and deselect the FK and IK chains.
+
+00:01:01.506 --> 00:01:06.636
+Locate the left-side FK/IK chains. They should be halfway down the list.
+
+00:01:07.080 --> 00:01:11.030
+Deselect them as well and click OK to exit the dialog.
+
+00:01:12.040 --> 00:01:14.760
+Now you have the bones you need to affect the skinning modifier.
+
+00:01:15.170 --> 00:01:19.600
+To make that selection easier, create a Selection Set of the selected bones.
+
+00:01:19.990 --> 00:01:23.730
+Name it SKIN_BONES and press Enter.
+
+00:01:24.578 --> 00:01:32.844
+Click anywhere in the viewport to deselect the bones. Selecting them again is easier now that you have a selection set for that purpose.
+
+00:01:33.264 --> 00:01:37.149
+Using the Layer toolbar, unfreeze the Mesh layer.
+
+00:01:37.464 --> 00:01:42.269
+Select the Zombie mesh and press Alt+X to disable XRay mode.
+
+00:01:42.915 --> 00:01:44.745
+You're ready to start skinning.
+
+00:01:45.193 --> 00:01:48.953
+With the mesh selected, apply a Skin modifier.
+
+00:01:51.920 --> 00:02:01.308
+Click the Add (Bones) button and in the Select Bones dialog that appears, select the SKIN_BONES selection set you created a moment ago.
+
+00:02:01.963 --> 00:02:06.143
+This is much easier that picking individual bones from a hierarchical list.
+
+00:02:06.768 --> 00:02:08.733
+Click Select to exit the dialog.
+
+00:02:09.070 --> 00:02:10.570
+You can test the animation.
+
+00:02:10.933 --> 00:02:16.721
+It is fine for a first pass but it obviously still requires a lot of work before it becomes even acceptable.
+
+00:02:17.240 --> 00:02:22.570
+Skinning is an important part of rigging, and skinning in particular is an art form.
+
+00:02:23.028 --> 00:02:26.626
+Different riggers work in different ways when it comes to skinning a model.
+
+00:02:26.930 --> 00:02:33.990
+Some use envelopes, where they adjust capsule-like gizmos to control how a bone affects its surroundings.
+
+00:02:36.553 --> 00:02:44.378
+Others use Paint Weights to control how the mesh deforms, although Paint Weights is more commonly used with meshes of high counts.
+
+00:02:44.960 --> 00:02:52.810
+With low-poly models, riggers often work at a vertex level. It's a technique that gives you the most flexibility and the best control.
+
+00:02:53.150 --> 00:02:55.250
+It is the method you will be using here.
+
+00:02:55.674 --> 00:03:03.696
+To that effect, enable the Vertices option. This would make it possible to select vertices and weight them individually.
+
+00:03:04.629 --> 00:03:12.194
+Also, and because you won't be using envelopes, expand the Display rollout and enable Show no Envelopes.
+
+00:03:12.896 --> 00:03:18.064
+In the Advanced Parameters rollout, notice the Bone Affect Limit option.
+
+00:03:18.574 --> 00:03:22.901
+This is where you define how many bones ultimately affect a given vertex.
+
+00:03:23.416 --> 00:03:28.199
+The default is set to 20 but you seldom need a value higher than 3 or 4.
+
+00:03:28.544 --> 00:03:33.944
+In fact, some game engines would not allow for more than four bones to affect a given vertex.
+
+00:03:34.611 --> 00:03:37.127
+Set the Bone Affect Limit value to 4.
+
+00:03:37.904 --> 00:03:43.394
+As for the rest of the options in the Skin modifier, you'll explore the ones you need as you go along.
+
+00:03:43.710 --> 00:03:50.875
+You will start from the bottom up, starting with the left toe and moving up the left foot, and ultimately the rest of the leg.
+
+00:03:51.540 --> 00:03:56.880
+Zoom in on the left foot. If you are in Edit Envelopes mode, you can disable it now.
+
+00:03:57.508 --> 00:04:03.373
+To keep things simple as you are just starting, you will isolate the left foot to make it easier to work on.
+
+00:04:04.185 --> 00:04:09.220
+Go down the stack to Editable Poly &gt; Element level, and select the left foot.
+
+00:04:10.800 --> 00:04:14.880
+If Soft-Selection mode is enabled, disable it now.
+
+00:04:16.650 --> 00:04:21.710
+In the Edit Geometry rollout, click Hide Unselected.
+
+00:04:25.956 --> 00:04:30.183
+Exit Element mode and go back up the stack to the Skin modifier.
+
+00:04:30.953 --> 00:04:33.838
+Zoom in and adjust the view to get a better look at the foot.
+
+00:04:34.303 --> 00:04:37.673
+In the next movie, you adjust the skinning of the foot.
+

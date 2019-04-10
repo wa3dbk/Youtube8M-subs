@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.410 --> 00:00:12.959
+Hello. In today's video I'll resume the discourse about the temperature control
+
+00:00:12.959 --> 00:00:17.830
+of the mash that I started about a year ago. For those who missed it or did not know
+
+00:00:17.830 --> 00:00:23.630
+the existence of something called Arduino, the project was based on this,
+
+00:00:23.630 --> 00:00:28.260
+which is nothing else that a prototyping platform on which is present a
+
+00:00:28.260 --> 00:00:34.620
+micro-controller which is flanked by an IDE or integrated development environment,
+
+00:00:34.620 --> 00:00:39.760
+programmable to perform all of our most perverse desires ... about home-brewing
+
+00:00:39.760 --> 00:00:44.320
+obviously. Even more beautiful is that it is open-source,
+
+00:00:44.320 --> 00:00:49.860
+you can find in the web anything about it. Just do a search
+
+00:00:49.860 --> 00:00:55.570
+to find code samples, diagrams and much more, so
+
+00:00:55.570 --> 00:01:00.079
+that even those unfamiliar with electronics might be able to do something.
+
+00:01:00.079 --> 00:01:05.720
+The code I had written was not working yet as thermostat
+
+00:01:05.720 --> 00:01:10.830
+because the program was limited to carrying out the reading of the sensor and to compare it with
+
+00:01:10.830 --> 00:01:15.550
+a reference range. But it lacked the entire portion of the relay and the setting
+
+00:01:15.550 --> 00:01:22.550
+of a temperature's target. I've done this in the new code. To do this,
+
+00:01:23.220 --> 00:01:30.020
+in addition to the usual Arduino Uno with its sensor DS18B20, I used a relay board, a
+
+00:01:30.020 --> 00:01:37.020
+buzzer and a 16x2 LCD shield with keys. The latter, in addition to the 4-pin digital
+
+00:01:37.450 --> 00:01:41.890
+dedicated to communication with the screen, use only one analog pin to handle
+
+00:01:41.890 --> 00:01:47.970
+the buttons. In practice, depending on the button pressed,
+
+00:01:47.970 --> 00:01:53.380
+different resistances are read and, knowing these values, it was possible
+
+00:01:53.380 --> 00:01:59.050
+assign a different action for each button. All you will see in this video will be
+
+00:01:59.050 --> 00:02:04.009
+of course available to download on my website. Just click on the Arduino's icon
+
+00:02:04.009 --> 00:02:10.479
+and download the latest version of the code. The new code, except some
+
+00:02:10.479 --> 00:02:15.739
+instruction and some variable, does not differ much from the previous version. During
+
+00:02:15.739 --> 00:02:22.120
+the setup, sensors, lcd and digital pins are initialized.
+
+00:02:22.120 --> 00:02:26.900
+Then, once inside the loop, you are prompted to select
+
+00:02:26.900 --> 00:02:32.200
+a target temperature and this is possible thanks to a state variable that depending on
+
+00:02:32.200 --> 00:02:36.670
+of its value allows you to access different parts of the code through a switch/case instruction
+
+00:02:36.670 --> 00:02:43.630
+Once you have selected the desired value for the mash, just press
+
+00:02:43.630 --> 00:02:48.660
+the "select" button to store and access the second part of the code, in which will be executed
+
+00:02:48.660 --> 00:02:53.000
+the temperature reading of the probe and as a result of the comparison between this and the target will be
+
+00:02:53.000 --> 00:02:59.600
+lit or not the relay. All for now. In the next video we will see several examples.
+
+00:02:59.600 --> 00:03:04.860
+I want to clarify that I will use this system to control only
+
+00:03:04.860 --> 00:03:10.750
+hot plates and heating elements. Check pilot flame with a relative
+
+00:03:10.750 --> 00:03:14.390
+solenoid valve, in my opinion, requires a whole series of security mechanisms that here
+
+00:03:14.390 --> 00:03:19.450
+are not covered. Although I have known many homebrewer using Arduino
+
+00:03:19.450 --> 00:03:25.470
+to control the LPG I did not do that.
+
+00:03:25.470 --> 00:03:32.470
+So, don't blame me if you blow up!
+

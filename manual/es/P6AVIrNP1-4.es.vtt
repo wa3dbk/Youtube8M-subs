@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:04.730
+Hola soy KipKay para Make Magazine con otro proyecto de fin de semana de la feria de Make.
+
+00:00:04.730 --> 00:00:11.350
+¿Qué pasa cuándo combinas un robot Rumble con un Arduino? Bueno veámoslo a continuación.
+
+00:00:25.190 --> 00:00:30.980
+Estoy aquí con Dino Segovis, Dino ¿de qué se tratan estos robots Rumble?
+
+00:00:30.980 --> 00:00:37.470
+Estos robots comenzaron como juguetes que se usaban con este control remoto,
+
+00:00:37.470 --> 00:00:40.670
+aquí tenemos uno de los juguetes. -¡Oh el viejo clásico Rumble!
+
+00:00:40.670 --> 00:00:45.060
+-Tenías que estar apuntándole y perseguirlo, a la gente no le gustó mucho eso.
+
+00:00:45.060 --> 00:00:50.830
+Así que terminaron arrumbados en el garage, regalándolo a gente que lo necesitara,
+
+00:00:50.830 --> 00:00:56.690
+o en eBay muy baratos, los puedes encontrar entre 5 y 10 dólares cada uno. - ¿Ahí fue donde compraste tus existencias?
+
+00:00:56.690 --> 00:01:02.640
+-Compré el primero en Savers en 3 dólares y la compra más reciente fue de 3 en 15 dólares en eBay.
+
+00:01:02.640 --> 00:01:04.000
+- ¡Buena compra!
+
+00:01:04.000 --> 00:01:07.960
+Es la alternativa si quieres adentrarte en la robótica, comprar una base puede salir en 100 dólares,
+
+00:01:07.960 --> 00:01:12.120
+los que venden ya listos para hacer tu robot.
+
+00:01:12.120 --> 00:01:15.510
+Es una forma barata de ponerte a jugar con robots.
+
+00:01:15.880 --> 00:01:23.220
+Este lo desarmé, aquí tiene el microcontrolador con 4 pistas,
+
+00:01:23.220 --> 00:01:30.180
+haciendo contacto con ellas opero los motores. En mi página están los esquemáticos de cómo conectar todo.
+
+00:01:30.520 --> 00:01:40.310
+Esta es la cabeza que vino en el original, le quité todo el mecanizmo que tenía por dentro para controlar los brazos.
+
+00:01:40.310 --> 00:01:45.460
+Sin todo eso queda suficiente espacio para instalar el Seeduino.
+
+00:01:45.460 --> 00:01:50.720
+Es un clon del Arduino, un poco más barato pero hará exactamente lo mismo.
+
+00:01:50.720 --> 00:01:57.680
+Ensamblado quedará así, todo oculto. Y puedo conectar el cable USB en la parte de atrás.
+
+00:01:57.680 --> 00:02:03.760
+Y la forma en la que ve, es a través de un sensores ultrasónicos PING.
+
+00:02:03.760 --> 00:02:09.600
+Estos vienen de Parallax, cuestan alrededor de 22 dólares en RadioShack.
+
+00:02:09.600 --> 00:02:14.520
+Van montados de la siguiente manera ¡Oh vean! Tiene personalidad ¿No esta mono?
+
+00:02:14.520 --> 00:02:23.210
+Los sensores ultrasónicos mandarán una señal que rebota, la leerán de regreso y le indicarán al robot que tiene que girar.
+
+00:02:23.210 --> 00:02:28.490
+El código es simplemente: conduce como loco hasta que veas un obstáculo enfrente,
+
+00:02:28.490 --> 00:02:32.690
+y corre una rutina en donde se hecha en reversa, gira y continúa su camino.
+
+00:02:32.690 --> 00:02:38.760
+El detalle con los sensores ultrasónicos es que si el objeto tiene cierto ángulo, no siempre lo detectará.
+
+00:02:38.760 --> 00:02:45.390
+Lo que hice fue agregar unos interruptores para choques, de tal forma que si choca contra la pared sabe como alejarse.
+
+00:02:45.447 --> 00:02:50.829
+Una vez que tienes todo listo, una pila de 9 voltios alimenta al Arduino.
+
+00:02:50.829 --> 00:02:56.036
+En la parte de abajo van 4 pilas AA que alimentan a los 4 motores. 
+
+00:02:56.036 --> 00:03:01.023
+Y dura en operación más o menos una hora, antes de que la carga de las pilas se agote.
+
+00:03:01.023 --> 00:03:04.244
+¡Y así es como se contruyen los robots Rumble!
+
+00:03:04.244 --> 00:03:12.914
+Subtitulado por MAKE:en Español (es.makezine.com)
+

@@ -1,0 +1,365 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.590 --> 00:00:05.220
+In this video from ITFreeTraining, I will
+look at the different components in Active
+
+00:00:05.220 --> 00:00:11.420
+Directory Federation Services. In particular,
+this video looks at what each component does
+
+00:00:11.420 --> 00:00:16.570
+rather than the features each version of Active
+Directory Federation Services has. That, I
+
+00:00:16.570 --> 00:00:18.740
+will leave to a different video.
+
+00:00:18.740 --> 00:00:24.699
+As shown, the components change depending
+on which version of Active Directory Federation
+
+00:00:24.699 --> 00:00:30.119
+Services you are using. However, most of the
+changes are to the name or the location of
+
+00:00:30.119 --> 00:00:31.949
+the component.
+
+00:00:31.949 --> 00:00:37.430
+The first component is Active Directory Federation
+Services. Windows Server 2012 R2 comes with
+
+00:00:37.430 --> 00:00:43.070
+version 3 of Federation Services. The most
+noticeable difference is that Federation Service
+
+00:00:43.070 --> 00:00:48.890
+is a role only with no separate components.
+When you install the role, you are not given
+
+00:00:48.890 --> 00:00:53.649
+the choice to install additional components
+like in previous versions.
+
+00:00:53.649 --> 00:00:59.719
+Version 2.1 of Active Directory Federation
+was included with Windows Server 2012. The
+
+00:00:59.719 --> 00:01:06.200
+name of the role is "Active Directory Federation
+Services" and the main component is "Federation
+
+00:01:06.200 --> 00:01:11.329
+Services". So the main difference between
+this and version 3 is that the Federation
+
+00:01:11.329 --> 00:01:16.959
+Service component is now a role rather than
+a component of a role.
+
+00:01:16.959 --> 00:01:23.459
+Version 2.0 was an optional download for Windows
+Server 2008. Version 1.1 was included with
+
+00:01:23.459 --> 00:01:28.709
+the operating system. Regardless of which
+version you use, Federation Services is a
+
+00:01:28.709 --> 00:01:34.179
+component of the Active Directory Federation
+Services role. So essentially, if you want
+
+00:01:34.179 --> 00:01:38.899
+to install the main part of Active Directory
+Federation Services, you would install the
+
+00:01:38.899 --> 00:01:45.899
+Active Directory Federation Services Role
+and then select the Federation Service component.
+
+00:01:46.249 --> 00:01:50.729
+The next component that I will look at is
+the proxy component. I will have a closer
+
+00:01:50.729 --> 00:01:56.229
+look at this in a moment, but essentially
+it is installed on the DMZ and provides communication
+
+00:01:56.229 --> 00:02:00.539
+between the internet and the Active Directory
+Federation Server.
+
+00:02:00.539 --> 00:02:05.559
+In Windows Server 2012 R2, the big change
+is this component has been moved out of the
+
+00:02:05.559 --> 00:02:11.349
+Active Directory Federation Services role
+and into the remote access role. The component
+
+00:02:11.349 --> 00:02:17.000
+is now called "Web Application Proxy".
+It still provides the same basic functionality
+
+00:02:17.000 --> 00:02:21.780
+as it did in the previous versions. In all
+the previous versions of Active Directory
+
+00:02:21.780 --> 00:02:26.930
+Federation Services, the component is called
+"Federation Services Proxy" and is part
+
+00:02:26.930 --> 00:02:31.040
+of the Active Directory Federation Services
+role.
+
+00:02:31.040 --> 00:02:37.599
+The last component that I will look at is
+the Web Agents. In version 3.0 of AD FS these
+
+00:02:37.599 --> 00:02:43.480
+web agents have been removed and are no longer
+available. In version 2.1 and previous versions,
+
+00:02:43.480 --> 00:02:48.840
+they are available as components of the Active
+Directory Federation Services role.
+
+00:02:48.840 --> 00:02:52.909
+In a moment I will have a closer look at the
+Web Agents, but essentially there is no real
+
+00:02:52.909 --> 00:02:58.439
+difference between the different versions
+of AD FS other than a small name change. In
+
+00:02:58.439 --> 00:03:05.269
+the later version of AD FS the web agents
+have the version number of 1.1 in the name. So
+
+00:03:05.269 --> 00:03:11.140
+in effect regardless what the name of the
+Web Agent is, they perform the same role and
+
+00:03:11.140 --> 00:03:17.400
+have the same features regardless which version
+of AD FS you are using. I will now have a
+
+00:03:17.400 --> 00:03:21.549
+look at some of the functionality of these
+components.
+
+00:03:21.549 --> 00:03:26.920
+The first component I will have a closer look
+at is the Web Application Proxy. This component
+
+00:03:26.920 --> 00:03:32.749
+is new in Windows Server 2012 R2 and is a
+component of Remote Access rather than of
+
+00:03:32.749 --> 00:03:37.639
+the Active Directory Federation Services role.
+It has the same functionality as Federation
+
+00:03:37.639 --> 00:03:44.120
+Service Proxy and thus replaces it. The point
+to remember is that it has the same functionality
+
+00:03:44.120 --> 00:03:49.420
+but also has additional functionality. For
+example, it also allows applications to be
+
+00:03:49.420 --> 00:03:54.170
+published for remote access. This is not a
+feature that is required with Active Directory
+
+00:03:54.170 --> 00:03:59.409
+Federation Services but shows that this component
+can be used for things other than just for
+
+00:03:59.409 --> 00:04:03.930
+Active Directory Federation Services.
+
+00:04:03.930 --> 00:04:07.739
+Regardless of what the component is called
+or where it is found in server manager, it
+
+00:04:07.739 --> 00:04:12.999
+performs the same basic task. If you consider
+that Active Directory Federation Services
+
+00:04:12.999 --> 00:04:17.930
+needs to be on a server that is a member of
+the domain, an administrator will generally
+
+00:04:17.930 --> 00:04:23.819
+want to install an Active Directory Federation
+Server on their internal network.
+
+00:04:23.819 --> 00:04:29.220
+If you have a user on the internet that needs
+to access this server in order to obtain claims.
+
+00:04:29.220 --> 00:04:35.289
+You generally do not want a user directly
+accessing an internal network from the internet.
+
+00:04:35.289 --> 00:04:39.930
+In the case of Active Directory Federation
+Services, this user may not be an employee
+
+00:04:39.930 --> 00:04:41.900
+from your company.
+
+00:04:41.900 --> 00:04:47.080
+For this reason, an AD FS Proxy server will
+normally be deployed between the user (on
+
+00:04:47.080 --> 00:04:52.810
+the DMZ or the perimeter network) and the
+internal network. To keep the networks safe,
+
+00:04:52.810 --> 00:04:55.699
+firewalls are placed between them.
+
+00:04:55.699 --> 00:05:00.460
+What will happen now is, when the user attempts
+to contact the Active Directory Federation
+
+00:05:00.460 --> 00:05:06.830
+Server, they will instead contact the AD FS
+Proxy Server. The Proxy server will pass the
+
+00:05:06.830 --> 00:05:11.710
+request onto the Active Directory Federation
+Server. The federation Server will respond
+
+00:05:11.710 --> 00:05:16.710
+back to the proxy server. For example if the
+user was requesting a claim, it would pass
+
+00:05:16.710 --> 00:05:21.680
+this claim to the proxy server. The proxy
+server will then send the result back to the
+
+00:05:21.680 --> 00:05:24.250
+user.
+
+00:05:24.250 --> 00:05:29.099
+Now that the user has the claim, they can
+use it to contact a claims aware application
+
+00:05:29.099 --> 00:05:34.740
+which will most likely be on the DMZ. You
+can see that the user at no time needs to
+
+00:05:34.740 --> 00:05:40.610
+contact the Active Directory Federation Server
+directly. Also, the Active Directory Federation
+
+00:05:40.610 --> 00:05:45.520
+Server needs to be a member of the domain
+whereas the AD FS proxy does not need to be
+
+00:05:45.520 --> 00:05:48.460
+a domain member, which improves security.
+
+00:05:48.460 --> 00:05:54.690
+It should be pointed out that the user will
+use the same address to access the AD FS proxy
+
+00:05:54.690 --> 00:05:59.720
+server as they would have if they were to
+contact the Active Directory Federation Server
+
+00:05:59.720 --> 00:06:06.680
+directly. The AD FS proxy server essentially
+is transparent in the process.
+
+00:06:06.680 --> 00:06:11.159
+The next component that I will look at is
+the Active Directory Federation Services Web
+
+00:06:11.159 --> 00:06:18.069
+agents. These are not available in AD FS 3.0
+shipped with Windows Server 20012 R2. If you
+
+00:06:18.069 --> 00:06:23.330
+are running an earlier version of AD FS you
+have two web agents to choose from. These
+
+00:06:23.330 --> 00:06:29.229
+are the Claims Aware Agent and the Windows
+Token-Based Agent. The name of the component
+
+00:06:29.229 --> 00:06:34.090
+may be slightly different depending on which
+version of AD FS you are running. A 3rd party
+
+00:06:34.090 --> 00:06:38.729
+may also provide their own agent. What they
+do is as follows.
+
+00:06:38.729 --> 00:06:44.400
+Let's say you have an application running
+on a server and this server only accepts NT
+
+00:06:44.400 --> 00:06:51.069
+security tokens. You also have Active Directory
+Federation Services running. The problem is
+
+00:06:51.069 --> 00:06:56.599
+that it creates a security token that has
+a claim in it. However, it is not an NT
+
+00:06:56.599 --> 00:07:03.039
+security token. To get around this, you have
+an agent running in between. This agent will
+
+00:07:03.039 --> 00:07:08.270
+take a security token issued by Active Directory
+Federation Services with the claim inside
+
+00:07:08.270 --> 00:07:14.009
+and change it to an NT security token. This
+provides a way for claim aware applications
+
+00:07:14.009 --> 00:07:20.020
+to work with Active Directory Federation Services
+that only accept NT Tokens.
+
+00:07:20.020 --> 00:07:24.949
+Windows NT based authentication is quite old
+now and this is probably why Microsoft removed
+
+00:07:24.949 --> 00:07:31.439
+this feature. The claims aware agents were
+usually used with Internet Information Services.
+
+00:07:31.439 --> 00:07:35.539
+There are different ways to achieve this using
+different software that was previously not
+
+00:07:35.539 --> 00:07:41.050
+available, so may also be one of the reasons
+why Microsoft removed it. The point to remember
+
+00:07:41.050 --> 00:07:48.050
+is that if you are planning to use AD FS 3.0
+these features are no longer available.
+
+00:07:49.189 --> 00:07:54.110
+Thanks for watching this video from ITFreeTraining;
+I hope that you found it informative. I hope
+
+00:07:54.110 --> 00:07:59.300
+to see you in other free videos from us for
+Active Directory Federation Services and others.
+
+00:07:59.300 --> 00:08:02.169
+Until then, thanks for watching and see you
+next time.
+

@@ -1,0 +1,221 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.510 --> 00:00:06.620
+ 
+
+00:00:08.600 --> 00:00:11.650
+Hi everyone. So today we're going
+to be quickly discussing
+
+00:00:11.650 --> 00:00:15.110
+how to improve your frame rate in the
+Witcher 3 on PC.
+
+00:00:15.110 --> 00:00:18.839
+Now much has been made of this game over the last 24 hours,
+
+00:00:18.839 --> 00:00:22.539
+with a large number of people saying
+that the frame rate is absolutely atrocious
+
+00:00:22.539 --> 00:00:25.929
+even on recommended hardware 770 series and
+
+00:00:25.929 --> 00:00:31.810
+above. Now honestly this is not a particularly great game for optimisation at this
+
+00:00:31.810 --> 00:00:32.470
+stage.
+
+00:00:32.470 --> 00:00:36.630
+The recommended spec, that's 770 GPU
+simply does not achieve
+
+00:00:36.630 --> 00:00:41.290
+60 frames a second in this game. Likewise, Nvidia's GeForce experience is
+
+00:00:41.290 --> 00:00:41.890
+providing
+
+00:00:41.890 --> 00:00:46.570
+rubbish suggested settings which do not
+provide the stable frame rate
+
+00:00:46.570 --> 00:00:49.960
+either. The main issue we have really
+with the Witcher 3 at the moment is the frame rate is
+
+00:00:49.960 --> 00:00:51.950
+just all over the place on most hardware
+
+00:00:51.950 --> 00:00:55.550
+ranging from 35 frames a second up to 60 frames a second
+
+00:00:55.550 --> 00:00:59.430
+and it can float around anywhere in
+between that point almost continuously.
+
+00:00:59.430 --> 00:01:02.640
+Now what the best solution we currently
+
+00:01:02.640 --> 00:01:05.740
+have for this really is to provide an
+artificial frame cap
+
+00:01:05.740 --> 00:01:08.890
+so the way this kind of works is we take the
+
+00:01:08.890 --> 00:01:12.810
+lowest average frame rate that we've achieved with a card and then we cap
+
+00:01:12.810 --> 00:01:14.720
+the Vsync down to that level.
+
+00:01:14.720 --> 00:01:18.550
+By doing this we can stabilise the frame
+rate and stop it
+
+00:01:18.550 --> 00:01:21.760
+wandering around quite so much. Well,  at
+all in fact.
+
+00:01:21.760 --> 00:01:25.190
+But to do this really requires us to kind of identify what our lowest
+
+00:01:25.190 --> 00:01:29.870
+frame rate is. Now on PC anything above 40 frames a second is generally considered
+
+00:01:29.870 --> 00:01:30.860
+smooth motion,
+
+00:01:30.860 --> 00:01:34.400
+unperceivable to the human brain that things aren't quite as smooth
+
+00:01:34.400 --> 00:01:38.320
+as they could be. Certainly it's much better than having
+
+00:01:38.320 --> 00:01:41.390
+the frame rate wandering around
+continuously giving you slow frames
+
+00:01:41.390 --> 00:01:44.430
+and so on. Obviously those all important texture tears as well
+
+00:01:44.430 --> 00:01:47.890
+being eliminated. So how do we do this?  Well,  it's actually a very, very simple
+
+00:01:47.890 --> 00:01:48.960
+process in the Witcher 3.
+
+00:01:48.960 --> 00:01:52.810
+All you need to do, come into the Witcher 3's user settings file
+
+00:01:52.810 --> 00:01:56.500
+which you'll find in your My Documents area. We open that with notepad
+
+00:01:56.500 --> 00:02:00.290
+and then what we do, come to edit and find and
+
+00:02:00.290 --> 00:02:03.840
+just do FPS here,  just quick and easy and
+we'll go through and
+
+00:02:03.840 --> 00:02:07.010
+what we're looking for is limit FPS equals.
+
+00:02:07.010 --> 00:02:08.860
+Now at the moment that will be set to
+60
+
+00:02:08.860 --> 00:02:12.300
+or whatever your Vsync cap set is.
+
+00:02:12.300 --> 00:02:15.760
+Could be 60, could be 120 for all I know. But the key thing here
+
+00:02:15.760 --> 00:02:18.960
+is to set it to whatever you feel your
+minimum rate
+
+00:02:18.960 --> 00:02:22.030
+there is. So if you've been observing
+a frame rate as
+
+00:02:22.030 --> 00:02:26.700
+average bottoming out at 40 frames a second, set it to 40 frames a second and  it won't drift above
+
+00:02:26.700 --> 00:02:30.240
+that point. Likewise, if you've got a beefy enough PC it's not going to drift
+
+00:02:30.240 --> 00:02:33.940
+under that point either. This will get rid of
+all of that slow frames stuttering,
+
+00:02:33.940 --> 00:02:38.410
+all sorts of other little graphical issues
+that we tend to get when we have an uneven
+
+00:02:38.410 --> 00:02:39.140
+frame rate.
+
+00:02:39.140 --> 00:02:42.980
+This is a really really quick and simple
+fix and it works
+
+00:02:42.980 --> 00:02:46.520
+brilliantly well. This also means that
+you can then retune
+
+00:02:46.520 --> 00:02:50.370
+your graphic settings in the Witcher 3
+to make the best of that 40 frames a
+
+00:02:50.370 --> 00:02:50.970
+second.
+
+00:02:50.970 --> 00:02:54.760
+In my case that means we've actually been able to crank up some of the visual detail in say the
+
+00:02:54.760 --> 00:02:55.600
+shadow mapping
+
+00:02:55.600 --> 00:02:59.980
+without a massive cost in frame rates
+essentially sending the
+
+00:02:59.980 --> 00:03:04.989
+FPS wandering so much more. This provides a much more stable gameplay experience
+
+00:03:04.989 --> 00:03:05.590
+and actually
+
+00:03:05.590 --> 00:03:08.790
+a much smoother and enjoyable gameplay experience as well.
+
+00:03:08.790 --> 00:03:12.580
+If you've not given this a try yet it is well worth doing on PC.
+
+00:03:12.580 --> 00:03:17.190
+Like I say, if you've got a fairly beefy  graphics card you might want to set your cap at 50 frames a second or 55
+
+00:03:17.190 --> 00:03:21.110
+but making sure that you have nice stable
+frame rate that isn't wandering around
+
+00:03:21.110 --> 00:03:25.019
+is really what the sweet spot here is all about. So do give this a try and let me know in
+
+00:03:25.019 --> 00:03:26.150
+the comments how you get on.
+
+00:03:26.150 --> 00:03:27.830
+ 
+
+00:03:27.830 --> 00:03:32.680
+ 
+
+00:03:32.680 --> 00:03:34.170
+ 
+

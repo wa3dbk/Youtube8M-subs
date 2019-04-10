@@ -1,0 +1,205 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:09.000
+Salve a tutti, questo è un tutorial sulla mappatura di due tipi di immagini, dette AngMap (mappe angolari) 
+
+00:00:09.000 --> 00:00:14.000
+e Equirectangular, come sfondi dell'universo virtuale (World) in Blender 3D, 
+
+00:00:14.000 --> 00:00:18.000
+sia col motore interno (Blender Render) che con Cycles.
+
+00:00:18.000 --> 00:00:24.000
+Questa mappatura consente di realizzare uno sfondo a 360° mediante fotografie di ambienti reali, 
+
+00:00:24.000 --> 00:00:29.000
+operazione molto utile in certi casi ma che non è propriamente intuitiva.
+
+00:00:29.000 --> 00:00:35.000
+Vedremo quattro combinazioni, ossia Equirectangular o AngMap con Blender Internal e Cycles,
+
+00:00:35.000 --> 00:00:39.000
+iniziando con il motore di rendering interno, Blender Render.
+
+00:00:39.000 --> 00:00:45.000
+Per le prove, sto utilizzando immagini prese online; cercate, ad esempio, “Mirror ball texture”, 
+
+00:00:45.000 --> 00:00:52.000
+o “equirectangular background”, “Equirectangular panorama”, “AngMap texture” e così via.
+
+00:00:52.000 --> 00:00:55.000
+Ok, iniziamo con Blender Render!
+
+00:00:55.000 --> 00:00:59.000
+La prima cosa da fare è selezionare la scheda World nella Properties Window, 
+
+00:00:59.000 --> 00:01:04.000
+quindi passare alla scheda Texture, in modo da creare una Texture che verrà associata, 
+
+00:01:04.000 --> 00:01:07.000
+appunto, allo sfondo dell'universo virtuale.
+
+00:01:07.000 --> 00:01:12.000
+Aggiungiamo quindi una Texture Image or Movie e carichiamo un'immagine da disco o, 
+
+00:01:12.000 --> 00:01:18.000
+se già presente nel file del progetto, mediante il pulsante Browse Image to be Linked.
+
+00:01:18.000 --> 00:01:24.000
+Le immagini Equirectangular sono immagini rettangolari che rappresentano panoramiche a 360° 
+
+00:01:24.000 --> 00:01:29.000
+di un ambiente; nella metà superiore troviamo quindi dall'orizzonte al cielo, mentre
+
+00:01:29.000 --> 00:01:35.000
+nella metà inferiore abbiamo il terreno (o nero, se il pavimento, per così dire, non è importante, 
+
+00:01:35.000 --> 00:01:40.000
+perché ad esempio inseriremo un terreno digitale nella scena).
+
+00:01:40.000 --> 00:01:45.000
+Le immagini AngMap, che in Cycles chiameremo MirrorBall, sono immagini di formato quadrato 
+
+00:01:45.000 --> 00:01:50.000
+e dall'aspetto peculiare: l'immagine in sé è circolare ed appare schiacciata ai bordi, 
+
+00:01:50.000 --> 00:01:56.000
+come le foto prese con un fish-eye... in realtà, si tratta della foto di una MirrorBall, 
+
+00:01:56.000 --> 00:02:03.000
+una sfera riflettente che riflette, appunto, l'ambiente circostante, e quando la si produce
+
+00:02:03.000 --> 00:02:07.000
+bisogna evitare di fotografare... il fotografo! 
+
+00:02:07.000 --> 00:02:09.000
+Torniamo comunque alla pratica!
+
+00:02:09.000 --> 00:02:12.000
+Nella scheda Mapping, dobbiamo cambiare la modalità di proiezione mediante il menù Coordinates: 
+
+00:02:12.000 --> 00:02:18.000
+Equirectangular per le panoramiche rettangolari, AngMap per le immagini di tipo MirrorBall.
+
+00:02:18.000 --> 00:02:25.000
+Non abbiamo ancora finito: nella sezione Influence della Texture dobbiamo selezionare Horizon Color; 
+
+00:02:25.000 --> 00:02:32.000
+torniamo quindi nella scheda World e selezioniamo, lì, la voce Real Sky, letteralmente “cielo reale”.
+
+00:02:32.000 --> 00:02:37.000
+Non ci resta che fare dei rendering, con F12, cambiando di volta in volta l'orientamento della telecamera
+
+00:02:37.000 --> 00:02:45.000
+per vedere il risultato guardando in direzioni diverse.
+
+00:02:45.000 --> 00:02:50.000
+Passiamo ora ad una nuova scena con il motore di rendering Cycles, dove le impostazioni di mappatura
+
+00:02:50.000 --> 00:02:56.000
+per una Texture World sono decisamente più semplici, visto che tutto si svolge nella scheda World... 
+
+00:02:56.000 --> 00:03:01.000
+non solo: abbiamo la possibilità di vedere l'anteprima in tempo reale nella 3D View, 
+
+00:03:01.000 --> 00:03:05.000
+anziché dover avviare ogni volta un rendering come con Blender Render, per cui per prima cosa 
+
+00:03:05.000 --> 00:03:10.000
+cambiamo la modalità Viewport Shading della 3D View in Rendered.
+
+00:03:10.000 --> 00:03:16.000
+In questo caso, la Texture va associata a World nell'omonima scheda, ma si tratta, 
+
+00:03:16.000 --> 00:03:23.000
+anziché di una Texture Image, di una Environment Texture, ossia una Texture Ambientale.
+
+00:03:23.000 --> 00:03:27.000
+Per associare una Texture a World, in questa scheda attiviamo per prima cosa i Nodi, 
+
+00:03:27.000 --> 00:03:34.000
+poi facciamo click sulla casella col cerchietto accanto a Color e scegliamo “Environment Texture”.
+
+00:03:34.000 --> 00:03:39.000
+La prima cosa da fare è, ovviamente, caricare l'immagine, o con Open e scegliendo poi da disco 
+
+00:03:39.000 --> 00:03:44.000
+oppure con Browse Image to be Linked, se l'immagine è già presente nel file del progetto, 
+
+00:03:44.000 --> 00:03:47.000
+perché caricata precedentemente.
+
+00:03:47.000 --> 00:03:53.000
+A questo punto la seconda – e ultima – cosa da fare è scegliere la modalità di proiezione nel selettore 
+
+00:03:53.000 --> 00:03:57.000
+Projection: Equirectangular (voce di default) 
+
+00:03:57.000 --> 00:04:02.000
+per le mappe rettangolari panoramiche o Mirror Ball per le AngMap.
+
+00:04:02.000 --> 00:04:07.000
+Va detto che una MirrorBall realizzerà uno sfondo buono per una certa apertura
+
+00:04:07.000 --> 00:04:10.000
+(dietro e ai lati dell'osservatore), ma non esattamente di fronte, 
+
+00:04:10.000 --> 00:04:13.000
+dove verrà introdotta una distorsione evidente. 
+
+00:04:13.000 --> 00:04:18.000
+In realtà, queste distorsioni ci sono anche nelle altre combinazioni di modalità e motori di rendering, 
+
+00:04:18.000 --> 00:04:20.000
+ma sono meno evidenti.
+
+00:04:20.000 --> 00:04:26.000
+Per risolvere questo problema si può ricorrere a più tecniche, ad esempio uno schema di Nodi di mappatura 
+
+00:04:26.000 --> 00:04:30.000
+dell'immagine originale... ma magari di questo parleremo un'altra volta!
+
+00:04:30.000 --> 00:04:35.000
+Come avrete notato, e come potete provare in prima persona cercando online immagini Equirectangular 
+
+00:04:35.000 --> 00:04:41.000
+o AngMap o MirrorBall da applicare a World nelle vostre scene, la risoluzione di queste immagini 
+
+00:04:41.000 --> 00:04:46.000
+è di fondamentale importanza: dal momento che le foto vengono stirate su tutto lo sfondo, 
+
+00:04:46.000 --> 00:04:52.000
+un'immagine in bassa risoluzione mostrerà effetti di compressione evidenti nel rendering finale. 
+
+00:04:52.000 --> 00:04:57.000
+Buone immagini di sfondo possono avere anche più di 6.000 pixel nel lato minore
+
+00:04:57.000 --> 00:05:02.000
+(o per lato, nel caso delle AngMap) e occupare diversi MB su disco,
+
+00:05:02.000 --> 00:05:08.000
+quindi se cercate le foto online mettete un filtro di ricerca per cercare solo foto grandi.
+
+00:05:08.000 --> 00:05:14.000
+Prima di chiudere, una considerazione finale: per rendere le Texture di sfondo degli illuminanti,
+
+00:05:14.000 --> 00:05:20.000
+operazione particolarmente interessante quando l'immagine utilizzata è una foto HDR, in formato EXR o,
+
+00:05:20.000 --> 00:05:27.000
+appunto, HDR, in Cycles non dobbiamo fare niente, perché questa modalità, 
+
+00:05:27.000 --> 00:05:33.000
+per come è strutturato il motore di rendering, è implicita; per quanto riguarda il motore interno Blender Render,
+
+00:05:33.000 --> 00:05:38.000
+invece, l'unica cosa da fare è selezionare la casella Environment Lighting 
+
+00:05:38.000 --> 00:05:43.000
+e impostare il colore da White (default) a Sky Texture.
+
+00:05:43.000 --> 00:05:47.000
+Bene, per questo tutorial è tutto! A presto!
+

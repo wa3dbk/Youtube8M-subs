@@ -1,0 +1,264 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.320 --> 00:00:05.500
+Für Anfänger mögen NBT-Daten extrem kompliziert
+sein, wenn man das Grundkonzept jedoch einmal
+
+00:00:05.500 --> 00:00:08.990
+verstanden hat und die richtigen Quellen kennt,
+ändert sich das.
+
+00:00:08.990 --> 00:00:13.410
+NBT-Daten werden genutzt, um viele Details
+zu beschreiben und werden immer am Ende eines
+
+00:00:13.410 --> 00:00:14.500
+Commands eingefügt.
+
+00:00:14.500 --> 00:00:18.929
+Sie beginnen mit einer geöffneten und enden
+mit einer geschlossenen geschwungenen Klammer.
+
+00:00:18.929 --> 00:00:23.430
+Extrem einfach sind z.B. die NBT-Daten für
+das Spawnen eines bestimmten Pferdetyps.
+
+00:00:23.430 --> 00:00:27.990
+Der Command beginnt normal mit /summon EntityHorse
+und den Koordinaten.
+
+00:00:27.990 --> 00:00:32.480
+Ohne weitere Details würde mit diesem Command
+irgendein zufälliges Pferd gespawnt werden,
+
+00:00:32.480 --> 00:00:37.690
+mit der Angabe “Type:1” können wir aber
+zum Glück angeben, dass unser Pferd vom Typ
+
+00:00:37.690 --> 00:00:38.800
+Esel sein soll.
+
+00:00:38.800 --> 00:00:44.289
+Daneben gäbe es noch das normale Pferd mit
+der 0, Maultiere mit der 2, Zombiepferde mit
+
+00:00:44.289 --> 00:00:46.899
+der 3 und Skelettpferde werden mit der 4 erzeugt.
+
+00:00:46.899 --> 00:00:52.270
+Zu beachten ist die genaue Groß- und Kleinschreibung
+des Worts Type, ansonsten wird der Tag ignoriert.
+
+00:00:52.270 --> 00:00:56.670
+Prinzipiell werden einzelne NBT-Daten durch
+Kommas getrennt aneinandergereiht.
+
+00:00:56.670 --> 00:01:02.329
+Wollen wir unserem Esel also noch einen benutzerdefinierten
+Namen geben, hängen wir hinter Type:1 ein
+
+00:01:02.329 --> 00:01:05.850
+Komma und fügen anschließend den Tag “CustomName:4fup”
+hinzu.
+
+00:01:05.850 --> 00:01:10.580
+Möchte man Name und Beschreibung eines Items
+ändern könnte man theoretisch beim /give-Command
+
+00:01:10.580 --> 00:01:14.670
+in den NBT-Daten einfach einen Tag für den
+Namen und einen Tag für die Beschreibung
+
+00:01:14.670 --> 00:01:15.670
+hinzufügen.
+
+00:01:15.670 --> 00:01:19.400
+Da dies jedoch bei einer großen Menge von
+Daten unübersichtlich wird, werden Gruppen
+
+00:01:19.400 --> 00:01:24.570
+von NBT-Daten mit Oberbegriffen zusammengefasst,
+in unserem Fall lautet dieser Oberbegriff
+
+00:01:24.570 --> 00:01:25.570
+“display:”.
+
+00:01:25.570 --> 00:01:29.540
+Dort fügen wir statt einem Namen oder einer
+Zahl als Wert einen neuen NBT-Datensatz hinzu,
+
+00:01:29.540 --> 00:01:33.250
+der mit einer weiteren geschwungenen Klammer
+geöffnet und am Ende wieder geschlossen wird.
+
+00:01:33.250 --> 00:01:38.680
+Beim Tag display befindet sich dort dann einmal
+beim Punkt “Name:” der Titel vom Item
+
+00:01:38.680 --> 00:01:42.470
+und falls es sich um eine Lederrüstung handelt,
+kann man mit dem Tag “color:” auch noch
+
+00:01:42.470 --> 00:01:46.869
+einen Farbcode einfügen, für den man einfach
+diesen Editor aus der Videobeschreibung benutzt.
+
+00:01:46.869 --> 00:01:50.500
+Neben geschwungenen Klammern gibt es für
+eine Liste außerdem eckige Klammern.
+
+00:01:50.500 --> 00:01:55.299
+In geschwungenen Klammern können die NBT-Daten
+alle unterschiedliche Strukturen besitzen.
+
+00:01:55.299 --> 00:02:00.939
+Beim Tag “Name:” wird ein Text eingetragen,
+beim Punkt color: ein Zahlencode und unter
+
+00:02:00.939 --> 00:02:03.170
+Lore: steht ein Array in eckigen Klammern.
+
+00:02:03.170 --> 00:02:08.980
+Die NBT-Daten im Tag display sind unterschiedlich,
+weil ein Text weder eine Zahl noch ein Array
+
+00:02:08.980 --> 00:02:09.980
+ist.
+
+00:02:09.980 --> 00:02:14.610
+Im Array von Lore wird durch ein Komma getrennt
+jede Zeile des Untertitels aufgelistet.
+
+00:02:14.610 --> 00:02:19.180
+Jede Zeile besteht einfach nur aus normalem
+Text und hat damit immer die selbe Struktur.
+
+00:02:19.180 --> 00:02:22.380
+Ebenfalls die selbe Struktur haben die Enchantments
+eines Items.
+
+00:02:22.380 --> 00:02:25.750
+Der Tag beginnt mit ench: und eckigen Klammern.
+
+00:02:25.750 --> 00:02:30.320
+In diesen eckigen Klammern wird jedes Enchantment
+einzeln in geschwungenen Klammern beschrieben,
+
+00:02:30.320 --> 00:02:32.710
+da sie immer nur die ID und das Level benötigen.
+
+00:02:32.710 --> 00:02:37.580
+Die ID des Enchantments finden wir im Minecraft-Wiki
+und das Level kann durchaus höher als normal
+
+00:02:37.580 --> 00:02:41.630
+sein, um beispielsweise einen Power-100-Bogen
+zu erzeugen, dessen Pfeile bei One In The
+
+00:02:41.630 --> 00:02:43.450
+Chamber jeden Gegner sofort töten.
+
+00:02:43.450 --> 00:02:48.130
+Möchte man mit dem Tag HideFlags für ein
+Item bestimmte Details ausblenden, könnte
+
+00:02:48.130 --> 00:02:52.340
+man ja eigentlich in einer Liste jedes Detail
+aufzählen, das ausgeblendet werden soll,
+
+00:02:52.340 --> 00:02:54.100
+da es sich immer nur um einen Text handelt.
+
+00:02:54.100 --> 00:02:58.070
+Manchmal ist das ganze, wie auch in diesem
+Fall jedoch über einen Zahlenwert gelöst.
+
+00:02:58.070 --> 00:03:02.130
+Möchte man Enchantments verheimlichen, gibt
+man dort eine 1 an und für das Ausblenden
+
+00:03:02.130 --> 00:03:03.540
+der Attribute eine 2.
+
+00:03:03.540 --> 00:03:09.070
+Möchte man Enchantments UND Attribute ausblenden,
+muss man die Werte addieren, also eine 3 einsetzen.
+
+00:03:09.070 --> 00:03:13.260
+Möchte man nur die Unzerstörbarkeit eines
+Items ausblenden, gibt man dort eine 4 an,
+
+00:03:13.260 --> 00:03:15.040
+da die 3 schon besetzt ist.
+
+00:03:15.040 --> 00:03:19.220
+Möchte man alle 3 Details ausblenden, addiert
+man die Werte und kommt auf 7.
+
+00:03:19.220 --> 00:03:23.930
+Die genauen Wortlaute der NBT-Tags und ihre
+Bedeutung findet man übersichtlich im Minecraft-Wiki
+
+00:03:23.930 --> 00:03:26.180
+auf 2 Seiten, sie sind in der Videobeschreibung
+verlinkt.
+
+00:03:26.180 --> 00:03:30.540
+Sehr zu empfehlen ist die Suchfunktion, welche
+wir mit Steuerung und F aktivieren können.
+
+00:03:30.540 --> 00:03:34.420
+Vor dem Namen eines Tags wird uns außerdem
+immer der genaue Datentyp und seine Abkürzung
+
+00:03:34.420 --> 00:03:35.420
+genannt.
+
+00:03:35.420 --> 00:03:40.850
+In einem Byte kann man ganze Zahlen im Intervall
+von -128 bis 127 speichern.
+
+00:03:40.850 --> 00:03:45.950
+Reicht das nicht aus, nimmt man den Typ Short,
+noch größer wird der Integer und zum Schluss
+
+00:03:45.950 --> 00:03:47.370
+kommt noch Long.
+
+00:03:47.370 --> 00:03:52.350
+Fließkommazahlen werden in Minecraft englischsprachig
+entweder im Float oder im Double gespeichert.
+
+00:03:52.350 --> 00:03:56.380
+Dies ist wichtig, da man als Profi manchmal
+hinter den eingetragenen Wert die Datensorte
+
+00:03:56.380 --> 00:03:57.380
+angeben muss.
+
+00:03:57.380 --> 00:04:01.620
+Wenn ich einen sehr kleinen Wert speichern
+will, nutze ich die Datensorte Byte und schreibe
+
+00:04:01.620 --> 00:04:08.090
+dann bei der Angabe, ob z.B. ein Zombie still
+sein soll für Ja eine 1b und für Nein 0b.
+
+00:04:08.090 --> 00:04:13.050
+Metadaten von Items, die sich in einer Kiste
+befinden werden mit Short gespeichert, somit
+
+00:04:13.050 --> 00:04:17.930
+geben wir dort z.B. bei einem Trank der Regeneration
+8193s an.
+
+00:04:17.930 --> 00:04:21.750
+Hinter Integer hängt man keinen Buchstaben
+und hinter Float-Werte ein “f”.
+
+00:04:21.750 --> 00:04:24.150
+Texte speichert man in einem String, den man
+nicht weiter kennzeichnen muss.
+

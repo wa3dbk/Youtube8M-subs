@@ -1,0 +1,87 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.410 --> 00:00:08.660
+Hi. My name is Dave Andrews and, today, I'm
+going to show you how to connect your Linux
+
+00:00:08.660 --> 00:00:16.690
+home server to your Windows-based network.
+Let's go to our Linux installation. What we're
+
+00:00:16.690 --> 00:00:22.240
+going to do is file share. The easiest way
+to set up file sharing on your Linux server
+
+00:00:22.240 --> 00:00:36.370
+is just to type "sudo apt-get install samba."
+Samba is a file server for Linux. Our sudo
+
+00:00:36.370 --> 00:00:42.039
+command tells us to run the sys administrator.
+And apt-get install tells us to connect over
+
+00:00:42.039 --> 00:00:51.950
+the Internet to install samba. I already had
+samba installed on the server but that is
+
+00:00:51.950 --> 00:00:58.600
+the command you would run to get it installed.
+Now let's create a file share. Just type sudo
+
+00:00:58.600 --> 00:01:09.770
+to get administrative permissions, space,
+slash, etc, slash, samba, slash snb dot conf.
+
+00:01:09.770 --> 00:01:24.130
+This is your samba config file.
+Sudo, space, vim to get a text editor on.
+
+00:01:24.130 --> 00:01:28.880
+Now, here's our samba config file. If we scroll
+all the way down to the bottom, we're going
+
+00:01:28.880 --> 00:01:35.640
+to see the shares that are set up. I've created
+one here called davida, the comment on it
+
+00:01:35.640 --> 00:01:38.910
+is David, that's just going to be sort of
+a browseable comment that would show up on
+
+00:01:38.910 --> 00:01:44.030
+your network. Browseable means yes, which
+means you can browse to it simply by going
+
+00:01:44.030 --> 00:01:51.160
+to your explorer. The path is the location
+of the files I'm going to share. Guest ok
+
+00:01:51.160 --> 00:01:58.000
+means allow anybody to access it and read
+only no means allow people to write to it.
+
+00:01:58.000 --> 00:02:03.880
+To connect your Windows PCs to your new share,
+simply click on the Start button and in the
+
+00:02:03.880 --> 00:02:09.000
+Search area type slash/slash, which tells
+you you're connecting over the Internet, type
+
+00:02:09.000 --> 00:02:15.750
+the address of the server you're connecting
+to and then slash, the name of the share that
+
+00:02:15.750 --> 00:02:20.410
+you've given it. It's that easy to connect
+your Windows-based PC to your Linux server
+
+00:02:20.410 --> 00:02:28.420
+to your Windows network. My name is Dave Andrews
+and I've just showed you how to connect your
+
+00:02:28.420 --> 00:02:30.620
+Linux home server to your Windows-based network.
+

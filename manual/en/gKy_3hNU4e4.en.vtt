@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.269 --> 00:00:05.120
+In this tutorial I'll show you a new feature
+in version 5: the Animation Creator.
+
+00:00:05.120 --> 00:00:12.150
+We're going to create an animation of an airplane
+with a spinning propeller on it.
+
+00:00:12.150 --> 00:00:15.830
+The first thing you do in creating an animation
+is add subcomponents,
+
+00:00:15.830 --> 00:00:19.770
+so I click the "Add" button at the top.
+
+00:00:19.770 --> 00:00:22.100
+This will add a subcomponent.
+
+00:00:22.100 --> 00:00:28.700
+Then I name the subcomponent "Plane", and
+I give that subcomponent a 3D shape.
+
+00:00:28.700 --> 00:00:32.230
+I've downloaded a 3D shape of a World War
+Two airplane from
+
+00:00:32.230 --> 00:00:34.930
+Google 3D Warehouse.
+
+00:00:34.930 --> 00:00:40.220
+Next, I add a second subcomponent, which will
+be the propeller.
+
+00:00:40.220 --> 00:00:44.400
+I then give it the name "Propeller", then
+I use the right arrow at the top
+
+00:00:44.400 --> 00:00:46.920
+to move it into the plane.
+
+00:00:46.920 --> 00:00:50.600
+These buttons at the top let you move the
+component up or down,
+
+00:00:50.600 --> 00:00:53.829
+move it into other objects, and so forth.
+
+00:00:53.829 --> 00:00:57.960
+I want to move it inside the airplane, so
+I use the right arrow.
+
+00:00:57.960 --> 00:01:03.329
+Next, I give it a 3D shape of a propeller.
+
+00:01:03.329 --> 00:01:07.299
+I then move the propeller's shape to the end
+of the airplane's nose.
+
+00:01:07.299 --> 00:01:11.579
+Make sure that you position it properly in
+all three axes.
+
+00:01:11.579 --> 00:01:16.850
+Next, we give the propeller the correct rotation
+point.
+
+00:01:16.850 --> 00:01:17.850
+Right now, the propeller
+
+00:01:17.850 --> 00:01:19.729
+rotates around the wrong axis point.
+
+00:01:19.729 --> 00:01:22.380
+To fix that, we configure the rotation point
+
+00:01:22.380 --> 00:01:27.590
+using the "Midpoint Z" control in the panel
+on the left.
+
+00:01:27.590 --> 00:01:31.840
+You'll notice that the red rotator arrow will
+move as I make the change,
+
+00:01:31.840 --> 00:01:34.509
+indicating the new rotation point.
+
+00:01:34.509 --> 00:01:39.609
+I want to move it right into the center of
+where that propeller should be rotating.
+
+00:01:39.609 --> 00:01:44.159
+The last thing we need to do is create a spinning
+propeller animation.
+
+00:01:44.159 --> 00:01:51.499
+This panel in the center is where you add,
+remove and configure animations.
+
+00:01:51.499 --> 00:01:56.159
+The top panel is where you define keyframes
+for your current animation.
+
+00:01:56.159 --> 00:02:01.329
+So I add an animation and give it the name
+"SpinPropeller", then I right-click on
+
+00:02:01.329 --> 00:02:07.709
+the propeller subcomponent in the top pane
+and select "Add Component Keyframe."
+
+00:02:07.709 --> 00:02:13.110
+I then move the timeline ahead a certain amount
+of time and spin the propeller,
+
+00:02:13.110 --> 00:02:18.750
+then I right-click in the animation panel
+and choose "Add Component Keyframe" again.
+
+00:02:18.750 --> 00:02:24.170
+At this point I can reset and run the animation
+and I should see the propeller spinning.
+
+00:02:24.170 --> 00:02:28.020
+So that's how you create a basic animation
+using the Animation Creator.
+

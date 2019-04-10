@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.520
+Perform level or prompt member selection
+
+00:00:03.520 --> 00:00:07.840
+When working with hierarchical data, we can select the specific members we are interested in,
+
+00:00:08.480 --> 00:00:14.480
+specify the number of hierarchical levels we want to display, or prompt for member selection when the query is run.
+
+00:00:14.960 --> 00:00:20.400
+This document is based on a BEx query and reflects the hierarchical structure of the country data.
+
+00:00:20.720 --> 00:00:27.040
+Note that the document displays the regions America and Europe, and also includes the member countries in each region.
+
+00:00:27.120 --> 00:00:30.640
+We will modify the query so that the region names are displayed but the countries are not.
+
+00:00:35.840 --> 00:00:39.520
+Notice that the members to include in the document are specified in the member selector.
+
+00:00:39.520 --> 00:00:43.120
+We need to expand the hierarchy tree to view its structure
+
+00:00:46.560 --> 00:00:54.800
+The members from three hierarchical levels are selected, but Not Assigned Country(s) and its children are not selected and were therefore not included in the document.
+
+00:00:54.800 --> 00:01:00.720
+Rather than explicitly selecting the members to use in the query, we will select the hierarchical levels we want to include. 
+
+00:01:03.840 --> 00:01:07.600
+In this example, we will include two hierarchical levels in the report.
+
+00:01:09.920 --> 00:01:13.920
+Notice that when we select level 02, level 01 is automatically included.
+
+00:01:14.560 --> 00:01:17.760
+We cannot skip levels when using level-based member selection.
+
+00:01:23.840 --> 00:01:27.520
+Notice that the countries within the America and Europe regions no longer display,
+
+00:01:27.520 --> 00:01:31.520
+and that Not Assigned Country(s) and its children are now included in the document.
+
+00:01:31.920 --> 00:01:36.720
+One of the benefits of level-based selection is that, if additional members are added to the data source,
+
+00:01:36.720 --> 00:01:41.200
+such as a new region, these changes are reflected in the document when the data is refreshed.
+
+00:01:41.360 --> 00:01:49.760
+When we specify the individual members to include in a document, any new members in the data source would not automatically be reflected in the document.
+
+00:01:49.840 --> 00:01:53.760
+Now we will modify the query to prompt for member selection when the report is run.
+
+00:02:03.920 --> 00:02:06.880
+We are prompted to select the members to include in the document.
+
+00:02:07.200 --> 00:02:09.200
+We will include only the Europe region.
+
+00:02:15.520 --> 00:02:18.800
+The document now includes only values for the Europe region.
+
+00:02:20.800 --> 00:02:30.800
+Visit www.SAP.com/LearnBI for more tutorials on Web Intelligence and other SAP business intelligence products.
+

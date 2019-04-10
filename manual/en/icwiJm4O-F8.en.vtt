@@ -1,0 +1,217 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.610 --> 00:00:03.610
+In this video, I’ll show you how to make
+some simple modifications 
+
+00:00:03.750 --> 00:00:06.260
+to an Access 2010 database. 
+
+00:00:06.360 --> 00:00:10.160
+I created this database by using the
+Contacts Web Database template, 
+
+00:00:10.320 --> 00:00:15.230
+but the techniques I'll show you apply to
+all Access databases.
+
+00:00:15.370 --> 00:00:18.080
+One of the most common modifications
+people make to a database 
+
+00:00:18.180 --> 00:00:21.750
+is to add a new field, so that they can
+store a new piece of information 
+
+00:00:21.880 --> 00:00:25.170
+about the people or things they’re
+tracking in the database.
+
+00:00:25.290 --> 00:00:28.560
+For example, this database stores
+information about contacts, 
+
+00:00:28.720 --> 00:00:33.360
+but it doesn't have a field for the person's
+birthday.  
+
+00:00:33.480 --> 00:00:37.320
+I'll close the form that's currently open,
+and I'll open the Navigation Pane, 
+
+00:00:37.440 --> 00:00:40.640
+where I can see all the objects in the
+database.
+
+00:00:40.760 --> 00:00:43.400
+Contact information is stored in the
+Contacts table, 
+
+00:00:43.510 --> 00:00:46.220
+so I'll double-click it to open it.
+
+00:00:46.320 --> 00:00:48.750
+I could insert the new field anywhere in
+the datasheet, 
+
+00:00:48.890 --> 00:00:50.920
+but I'll just scroll over to the right, 
+
+00:00:51.050 --> 00:00:55.600
+and click the down-arrow next the "Click
+to Add" label.
+
+00:00:55.710 --> 00:00:58.380
+This shows me a list of data types that I
+can use. 
+
+00:00:58.480 --> 00:01:01.910
+For the birthday field, I'll choose Date &amp;
+Time.
+
+00:01:02.010 --> 00:01:05.150
+Access creates the new column and
+selects the field name.
+
+00:01:05.290 --> 00:01:09.830
+I'll just type "Birthday" for the field name.
+
+00:01:09.930 --> 00:01:12.540
+When I press Enter, Access moves to the
+next column 
+
+00:01:12.610 --> 00:01:14.870
+and opens the data type dropdown list,
+
+00:01:15.030 --> 00:01:17.800
+but Birthday is the only field I wanted to
+add, 
+
+00:01:17.890 --> 00:01:22.610
+so I'll just click Save and then close the
+table.
+
+00:01:22.720 --> 00:01:26.180
+Now I want to add the new Birthday field
+to the Address Book form. 
+
+00:01:26.300 --> 00:01:30.480
+In this case, the title on the form does not
+match the actual object name. 
+
+00:01:30.650 --> 00:01:34.220
+I know that Contact Card is the form I
+want to change, 
+
+00:01:34.340 --> 00:01:39.150
+so I'll right-click it in the Navigation Pane,
+and then click Layout View.
+
+00:01:39.280 --> 00:01:43.820
+I'll close the Navigation Pane to make a
+little more room.
+
+00:01:43.910 --> 00:01:49.060
+If you don't see the field list, click Add
+Existing Fields on the Design tab. 
+
+00:01:49.170 --> 00:01:52.330
+Here, I can see my new Birthday field.
+
+00:01:52.430 --> 00:01:56.380
+I want to put the Birthday field just under
+the Mobile Phone field. 
+
+00:01:56.490 --> 00:01:59.810
+All the controls are contained in a layout
+grid, 
+
+00:01:59.880 --> 00:02:03.720
+so I need to insert a new row into this
+grid.
+
+00:02:03.820 --> 00:02:06.600
+I want the new row to match the structure
+of the one above it,
+
+00:02:06.700 --> 00:02:09.700
+so I'll select one of the cells in that row, 
+
+00:02:09.850 --> 00:02:14.480
+and now on the Arrange tab, I'll click
+Insert Below.
+
+00:02:14.590 --> 00:02:19.330
+Access adds the new row, with the same
+cell layout as the one above it.
+
+00:02:19.470 --> 00:02:25.010
+Now, I can just drag the new Birthday field
+from the Field list to the form.
+
+00:02:25.110 --> 00:02:28.380
+And, I’ll resize the row a bit.
+
+00:02:28.480 --> 00:02:33.180
+That's all I need to do, so I'll save and
+close the form.
+
+00:02:33.300 --> 00:02:37.320
+I'll also add the new field to the Contacts
+Datasheet form. 
+
+00:02:37.400 --> 00:02:39.240
+Datasheets don't have a Layout view, 
+
+00:02:39.370 --> 00:02:42.600
+but you can just open them and modify
+them directly. 
+
+00:02:42.700 --> 00:02:46.430
+I’ll double-click the ContactsDS form,
+
+00:02:46.520 --> 00:02:52.850
+and drag the field to the datasheet.
+
+00:02:52.960 --> 00:02:56.460
+Now I’ll save and close the datasheet.
+
+00:02:56.560 --> 00:03:01.570
+Now, I'll open the Main form, and close
+the Navigation Pane.
+
+00:03:01.700 --> 00:03:05.660
+Incidentally, the Main form is a Navigation
+form that enables you to switch 
+
+00:03:05.740 --> 00:03:09.290
+between different forms and reports in
+the database. 
+
+00:03:09.360 --> 00:03:11.070
+All the Access Web Database templates 
+
+00:03:11.210 --> 00:03:15.220
+make use of this kind of form for basic
+navigation.
+
+00:03:15.350 --> 00:03:19.010
+Here's the new field on the Address Book
+form,
+
+00:03:19.130 --> 00:03:22.190
+And on the datasheet.
+
+00:03:22.310 --> 00:03:24.760
+And remember, you can add fields to any
+Access database 
+
+00:03:24.900 --> 00:03:26.900
+by using the steps in this video, 
+
+00:03:27.010 --> 00:03:32.870
+whether you created the database by
+using a template, or from scratch.
+

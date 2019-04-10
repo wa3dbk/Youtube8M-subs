@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.828 --> 00:00:07.998
+We come to what is arguably the hardest joint to skin properly, the shoulder joint.
+
+00:00:08.463 --> 00:00:12.096
+The reason is that this joint is articulated in many different ways.
+
+00:00:12.441 --> 00:00:17.246
+The vertices in that area often respond to three or even four bones simultaneously.
+
+00:00:18.020 --> 00:00:22.170
+The key is identifying those bones and applying the proper weights.
+
+00:00:22.686 --> 00:00:30.851
+There are no strict rules or strict values to be used. Skinning, as you have learned so far is mostly visual, and a bit instinctive.
+
+00:00:31.706 --> 00:00:35.544
+First adjust the animation length to focus on the area of interest.
+
+00:00:36.080 --> 00:00:41.870
+Most of the shoulder animation is taking place between frames 880 and 1160.
+
+00:00:43.996 --> 00:00:49.316
+Obviously the skinning at this point isn't working too well but you're about to change that.
+
+00:00:50.064 --> 00:00:52.516
+First make sure you are in the Front view.
+
+00:00:53.221 --> 00:00:58.447
+Press F3 to switch to wireframe mode, and take a look at the animation.
+
+00:00:59.190 --> 00:01:03.870
+The shoulder rotates down between frames 880 and 900.
+
+00:01:06.166 --> 00:01:11.936
+However, consider how it rotates up between frames 920 and 940.
+
+00:01:12.448 --> 00:01:18.428
+Much of the work is done by the clavicle, although the shoulder bone does rotate a bit also.
+
+00:01:19.021 --> 00:01:24.601
+In fact, there is even a slight twist of the shoulder bone, the higher it rotates.
+
+00:01:24.900 --> 00:01:30.630
+Try it out: lift your hand above your head and feel the slight twist of the shoulder bone.
+
+00:01:31.300 --> 00:01:34.730
+This is important to get the shoulder vertices to work properly.
+
+00:01:35.010 --> 00:01:44.360
+If you just rotate the shoulder and leave the clavicle untouched, this would result in bad joint animation.
+
+00:01:48.224 --> 00:01:53.169
+Before starting the skinning adjustments, notice the FK and IK bone chains.
+
+00:01:53.590 --> 00:02:00.810
+These won't be used for skinning as discussed earlier, so you might as well hide them from view at this time if you haven't done so already.
+
+00:02:01.567 --> 00:02:07.112
+The FK/IK branches for the left arm are easy to select around frame 900.
+
+00:02:07.989 --> 00:02:12.152
+The ones for the character's right arm are a bit harder to select in the viewport.
+
+00:02:12.494 --> 00:02:19.732
+Press H and select them from a list, or zoom in and double-click the respective shoulder bones to select them in the viewport.
+
+00:02:20.130 --> 00:02:21.790
+Hide the selection.
+
+00:02:23.809 --> 00:02:30.312
+Go back to a shaded viewport (F3), select the mesh and enter Edit Envelopes mode.
+
+00:02:31.217 --> 00:02:33.320
+Let's analyze the situation a little bit:
+
+00:02:33.790 --> 00:02:40.485
+At this time, most of the torso vertices are not affected by any of the clavicle or shoulder bones.
+
+00:02:40.995 --> 00:02:47.502
+This is expected as you set up the upper torso vertices to follow the upper spine bones earlier.
+
+00:02:48.192 --> 00:02:55.752
+As far as blocking out vertices, you may want to make a few last minute adjustments before proceeding.
+
+00:03:01.830 --> 00:03:07.280
+In some situations as is the case here, loop selection may not work to your advantage.
+
+00:03:07.578 --> 00:03:12.521
+So make sure you go around the scene so that the right vertices are selected.
+
+00:03:13.200 --> 00:03:17.570
+Assign these vertices to follow the shoulder Roll bone 100%.
+
+00:03:18.080 --> 00:03:22.680
+Block out any other "rebel" vertices in that area.
+
+00:03:26.736 --> 00:03:28.951
+Let's explore the clavicle area.
+
+00:03:29.511 --> 00:03:35.691
+All these vertices need to be somewhat affected by the clavicle bone, although by different amounts.
+
+00:03:36.591 --> 00:03:42.896
+The vertices further out need higher percentages than the ones closer to the middle line.
+
+00:03:43.700 --> 00:03:47.790
+Start by selecting the vertices near the bottom end of the collar.
+
+00:03:49.462 --> 00:03:55.514
+Open the Weight Tool dialog. At this point, these vertices are affected only by the Spine bone.
+
+00:03:56.142 --> 00:04:04.672
+Select the clavicle bone and weight the vertices by a small value, such as .1 or 10%.
+
+00:04:08.500 --> 00:04:14.350
+Select the next few vertices in line. You will almost certainly need to adjust the back vertices in a moment.
+
+00:04:15.080 --> 00:04:18.070
+For now, work on the front of the character.
+
+00:04:18.637 --> 00:04:26.517
+Use the Weight Tool dialog or the Weighting script to assign an amount of clavicle influence on the selected vertices.
+
+00:04:29.870 --> 00:04:33.820
+Move on to the next few vertices in line and adjust their weighting.
+
+00:04:38.634 --> 00:04:46.382
+Soon enough, you will find yourself going back and forth, adjusting vertices as a group, or almost certainly individually.
+
+00:04:46.880 --> 00:04:50.080
+This is where the weight script tool comes in handy.
+
+00:04:51.910 --> 00:04:59.090
+As you test the vertices around the shoulder area, you will discover which vertex needs to react to which bone.
+
+00:05:35.248 --> 00:05:42.336
+You will also find that some vertices, although far from the center line, need a bit of weighting from the spine bone.
+
+00:05:42.751 --> 00:05:45.981
+This helps in "grounding" them a little bit.
+
+00:05:50.399 --> 00:05:55.121
+Keep on fine-tuning the solution, occasionally glancing at the back of the character.
+
+00:05:55.669 --> 00:06:00.804
+Remember this process is fairly intuitive and requires a great deal of patience.
+
+00:06:04.514 --> 00:06:09.759
+The more experienced you become at this and the easier it gets.
+
+00:06:56.189 --> 00:07:02.012
+As you go below the arm pit, there are a few vertices that need to blend with the arm bones.
+
+00:07:05.444 --> 00:07:10.077
+It's best to blend these with the shoulder bone, and not the shoulder roll.
+
+00:07:10.747 --> 00:07:17.317
+You only need for these vertices to react to the up/down motion, not so much to the shoulder twist.
+
+00:07:21.777 --> 00:07:28.390
+Keep on fine-tuning the solution. Again, a lot of back and forth is required to get to a result that you like.
+
+00:07:29.045 --> 00:07:32.120
+Notice that you're only working on one side of the character.
+
+00:07:32.850 --> 00:07:38.438
+When you're done, you can use Mirror Skin tools to transfer vertex weights to the other side.
+
+00:07:38.935 --> 00:07:43.728
+However, since you still need to adjust the rest of the arm, hand and fingers,
+
+00:07:44.285 --> 00:07:48.763
+you may as well completely finish with one side before mirroring the data.
+
+00:07:49.385 --> 00:07:52.320
+Exit Edit Envelopes mode and save your file.
+

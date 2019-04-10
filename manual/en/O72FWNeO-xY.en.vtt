@@ -1,0 +1,132 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.859 --> 00:00:06.640
+In this video, we're going to copy a GitHub
+repository to your local computer. The process
+
+00:00:06.640 --> 00:00:12.289
+I'll show you will work for a repo you created
+yourself or a repo you forked from someone
+
+00:00:12.289 --> 00:00:19.970
+else. For this demo, I'm going to use the
+"test-repo" that we created in the last video.
+
+00:00:19.970 --> 00:00:29.760
+Let's open up Git Bash. This shows my working
+directory. I'm going to change my working
+
+00:00:29.760 --> 00:00:36.800
+directory to the Desktop.
+
+00:00:36.800 --> 00:00:43.590
+Now we're ready to go. Note that all git commands
+start with the word "git", and then the name
+
+00:00:43.590 --> 00:00:49.170
+of the command, and then usually one or more
+arguments. In this case, we're going to use
+
+00:00:49.170 --> 00:00:54.730
+the "git clone" command to clone a GitHub
+repo.
+
+00:00:54.730 --> 00:01:03.460
+You simply type "git clone" and then the URL
+of the repo. How do you get that URL? I recommend
+
+00:01:03.460 --> 00:01:13.890
+that you go to the repo, scroll down here,
+and click the "Copy" button. Now go back to
+
+00:01:13.890 --> 00:01:20.110
+Git Bash, and at least in Windows, you can
+hit the "Insert" button on your keyboard to
+
+00:01:20.110 --> 00:01:27.619
+paste it. (The usual paste keyboard shortcut
+doesn't seem to work in Git Bash.) If all
+
+00:01:27.619 --> 00:01:32.869
+else fails, just paste the URL somewhere else
+and retype it.
+
+00:01:32.869 --> 00:01:37.220
+If you're following along at home, you should
+hit "Enter" at this point. I'm actually going
+
+00:01:37.220 --> 00:01:49.409
+to change my URL because I use SSH instead
+of HTTPS to communicate with GitHub.
+
+00:01:49.409 --> 00:02:02.600
+I now hit Enter, and it asks me for my password.
+When typing, it won't show you anything. Hit
+
+00:02:02.600 --> 00:02:16.069
+Enter when you're done, and if you typed the
+wrong password, just try again.
+
+00:02:16.069 --> 00:02:21.400
+The cloning operation is now complete. It
+has copied the repo into a subdirectory of
+
+00:02:21.400 --> 00:02:29.250
+my working directory, and that subdirectory
+has the same name as the repo. So, I can just
+
+00:02:29.250 --> 00:02:39.330
+"cd" into "test-repo" and "ls" to see the
+list of files.
+
+00:02:39.330 --> 00:02:46.390
+Notice that it now says "master". That indicates
+that I'm now in a folder that is being tracked
+
+00:02:46.390 --> 00:02:53.530
+by Git, and I'm currently working on the "master"
+branch. I don't need to run the "git init"
+
+00:02:53.530 --> 00:02:59.400
+command, because git has already been initialized
+in the folder. On Windows, if you're set up
+
+00:02:59.400 --> 00:03:09.450
+to show hidden files, you can also see this
+".git" folder where all of the Git information
+
+00:03:09.450 --> 00:03:12.290
+is stored.
+
+00:03:12.290 --> 00:03:20.840
+Next, let's check on your "remotes". Remotes
+are simply references to repos that are not
+
+00:03:20.840 --> 00:03:29.970
+on your computer. To see your remotes, type
+"git remote -v". You'll see a remote called
+
+00:03:29.970 --> 00:03:35.989
+"origin", which links to your repo. This reference
+was automatically created during the cloning
+
+00:03:35.989 --> 00:03:37.920
+process.
+
+00:03:37.920 --> 00:03:47.790
+If you don't have an origin remote, you can
+add one by typing "git remote add origin"
+
+00:03:47.790 --> 00:03:57.769
+and then the URL of your repo. The same one from here.
+
+00:03:57.769 --> 00:04:02.849
+We've now cloned the repo and set up a remote.
+In the next video, we'll actually make some
+
+00:04:02.849 --> 00:04:06.790
+changes locally, commit them, and then push
+them up to GitHub.
+

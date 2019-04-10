@@ -1,0 +1,239 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.758 --> 00:00:10.985
+Welcome to the Smoke Learning Channel.
+
+00:00:11.734 --> 00:00:13.968
+In the previous ConnectFX paint videos,
+
+00:00:14.244 --> 00:00:17.736
+the focus has always been 
+painting your main colour image.
+
+00:00:18.528 --> 00:00:22.643
+This included basics as well as 
+cloning on static images.
+
+00:00:23.300 --> 00:00:26.667
+This video will focus on 
+painting on an alpha channel.
+
+00:00:27.401 --> 00:00:31.041
+You can follow along with this 
+video by downloading the media.
+
+00:00:31.558 --> 00:00:37.733
+You will find the link in the YouTube description or
+ type the link displayed in your internet browser.
+
+00:00:38.607 --> 00:00:44.257
+We are going to use ConnectFX paint to fix an issue
+ and then composite it all together.
+
+00:00:45.195 --> 00:00:46.447
+Let’s begin.
+
+00:00:46.774 --> 00:00:49.941
+I have an open sequence containing the background.
+
+00:00:50.551 --> 00:00:54.992
+Select the background and 
+press CONTROL+TAB to bring up the FX ribbon.
+
+00:00:55.825 --> 00:00:59.864
+Click Create ConnectFX to 
+enter into the node compositor.
+
+00:01:01.049 --> 00:01:03.215
+In the media panel on the left,
+
+00:01:03.417 --> 00:01:07.890
+I will click and drag in the clip 
+containing the fill and alpha of the talent.
+
+00:01:09.348 --> 00:01:11.352
+When working with ConnectFX paint,
+
+00:01:11.893 --> 00:01:16.075
+you can either work with the fill and alpha in a 
+combined matte container,
+
+00:01:16.670 --> 00:01:18.511
+that is what you see here.
+
+00:01:18.715 --> 00:01:22.921
+Or you can work with separate clips for 
+the fill and alpha channels.
+
+00:01:23.466 --> 00:01:27.156
+It is not an issue which method you use to 
+import the media.
+
+00:01:27.985 --> 00:01:34.186
+Now select the source clip in the ConnectFX schematic
+ and hover the cursor over the result view.
+
+00:01:34.702 --> 00:01:38.910
+Press F4 to toggle between displaying the 
+fill and alpha channel.
+
+00:01:39.738 --> 00:01:45.383
+Now this alpha channel has an intentional hole cut
+ into it for the purpose of this lesson.
+
+00:01:45.956 --> 00:01:50.574
+However you will encounter this type of scenario 
+when you are keying a subject
+
+00:01:50.574 --> 00:01:53.564
+who has a colour the matches the keyed background.
+
+00:01:54.242 --> 00:01:58.740
+Or perhaps you need to paint an alpha for 
+a logo that has been provided to you.
+
+00:01:59.303 --> 00:02:03.464
+There are other scenarios and 
+multiple ways to tackle the challenges
+
+00:02:03.729 --> 00:02:06.366
+but we will focus on alpha painting.
+
+00:02:06.958 --> 00:02:11.262
+Hover over the matte view and 
+press F4 to see the result view.
+
+00:02:12.055 --> 00:02:16.421
+Placing the cursor over the 
+ConnectFX node bin and pressing P
+
+00:02:16.421 --> 00:02:21.134
+will highlight all nodes beginning with
+ P including the paint node.
+
+00:02:22.058 --> 00:02:26.480
+Click and drag the paint node and 
+drop it into the ConnectFX schematic.
+
+00:02:27.331 --> 00:02:31.805
+Now connect the source clip fill into 
+the front input of the paint node.
+
+00:02:32.740 --> 00:02:38.528
+Also connect the alpha output from the source clip
+ into the matte input of the paint node.
+
+00:02:39.552 --> 00:02:44.932
+The source clip updates its thumbnail to 
+show you that both channels are being accessed.
+
+00:02:45.658 --> 00:02:50.233
+Double-click on the paint node to bring 
+up the paint tools in the main interface.
+
+00:02:51.179 --> 00:02:56.526
+If you start painting in the result view, 
+you are painting on the fill of the talent.
+
+00:02:56.846 --> 00:03:03.056
+But if you hover over the result view and 
+press F4, you will see the alpha output.
+
+00:03:03.555 --> 00:03:09.812
+With the alpha being displayed in the viewer, you 
+can now start painting directly on the alpha channel.
+
+00:03:10.585 --> 00:03:12.942
+Depending on the movement of your subject,
+
+00:03:12.942 --> 00:03:20.224
+you can paint on just the current frame, from a
+ particular frame or paint a stroke on every frame.
+
+00:03:21.070 --> 00:03:25.163
+Scrubbing the time-bar, 
+we can see that the talent is clearly moving.
+
+00:03:25.750 --> 00:03:28.795
+So it is best to paint on one frame at a time.
+
+00:03:29.617 --> 00:03:35.030
+You can now start painting on the frame and 
+than use the left and right arrows on the keyboard
+
+00:03:35.333 --> 00:03:39.291
+to advance forward or go backward as 
+you paint through each frame.
+
+00:03:40.134 --> 00:03:45.180
+With this technique, 
+no tracking is available in ConnectFX paint.
+
+00:03:45.813 --> 00:03:51.461
+But it is not such a big deal since you are only 
+painting on the alpha channel with pure white.
+
+00:03:52.279 --> 00:03:56.454
+With that now complete, 
+the alpha channel is repaired.
+
+00:03:57.298 --> 00:04:00.914
+We’ll quickly use one more node to 
+bring everything together.
+
+00:04:01.665 --> 00:04:06.782
+Hover over the ConnectFX node bin and 
+press B for the Blend and Comp node.
+
+00:04:07.633 --> 00:04:11.382
+Drag the node out of the bin and 
+drop it into the schematic.
+
+00:04:12.031 --> 00:04:15.869
+You can choose either to use 
+the talent’s original fill clip
+
+00:04:16.244 --> 00:04:22.955
+or the fill result from ConnectFX paint node as 
+first connection into the  RED front input.
+
+00:04:23.692 --> 00:04:28.869
+If you have not painted on the fill than 
+it really doesn’t matter which one you choose.
+
+00:04:29.658 --> 00:04:33.589
+For the alpha, take the Blue Matte output from 
+the paint node
+
+00:04:33.589 --> 00:04:37.594
+and connect it into the first BLUE matte input.
+
+00:04:37.900 --> 00:04:42.623
+To finish off, connect the background clip into 
+the GREEN background input.
+
+00:04:43.595 --> 00:04:49.567
+And take the output from the Blend and Comp node and
+ connect it to the CFX output node
+
+00:04:49.567 --> 00:04:52.404
+that leads back to the sequence.
+
+00:04:52.811 --> 00:04:55.597
+If you would like to 
+see the same challenge again
+
+00:04:55.597 --> 00:05:01.882
+but using the Desktop paint instead of 
+ConnectFX paint, please click the link now.
+
+00:05:02.186 --> 00:05:08.042
+More ConnectFX paint videos will be 
+posted soon showing workflows with paint.
+
+00:05:08.849 --> 00:05:14.540
+Thank you for watching and please subscribe to 
+the Smoke Learning Channel for future videos.
+

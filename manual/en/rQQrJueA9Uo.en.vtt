@@ -1,0 +1,311 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.240
+ 
+
+00:00:01.240 --> 00:00:05.160
+Dr. Robert van de Geijn: So, I've
+opened up the IPython Notebook's 4.1.1,
+
+00:00:05.160 --> 00:00:07.970
+Predicting the Weather.
+
+00:00:07.970 --> 00:00:11.400
+And as always, what we're
+going to do is make a copy.
+
+00:00:11.400 --> 00:00:14.480
+ 
+
+00:00:14.480 --> 00:00:15.660
+And what do we have here?
+
+00:00:15.660 --> 00:00:21.020
+Well, I conveniently put the table
+that indicates how the weather changes
+
+00:00:21.020 --> 00:00:25.720
+in our idealized world from
+today to tomorrow for any day,
+
+00:00:25.720 --> 00:00:30.120
+and I went ahead and created
+a transition matrix P.
+
+00:00:30.120 --> 00:00:35.060
+And we better make sure that
+we execute that so we have it.
+
+00:00:35.060 --> 00:00:39.490
+And then, to indicate
+that today is cloudy,
+
+00:00:39.490 --> 00:00:43.190
+we discussed the fact that we just used
+the second unit basis vector for that.
+
+00:00:43.190 --> 00:00:48.990
+So, x0 now is the vector that
+tells us what the weather is today,
+
+00:00:48.990 --> 00:00:51.970
+and today, it is cloudy.
+
+00:00:51.970 --> 00:00:55.960
+Now, if we want to predict the
+weather for tomorrow, all we do
+
+00:00:55.960 --> 00:01:02.020
+is, we multiply the transition matrix
+times the vector and we get that.
+
+00:01:02.020 --> 00:01:05.260
+If we now want to know what
+it is the day after tomorrow,
+
+00:01:05.260 --> 00:01:08.670
+we take the transition
+matrix and we multiply it
+
+00:01:08.670 --> 00:01:15.060
+times the vector that tells us what the
+weather is on day one, and we get that.
+
+00:01:15.060 --> 00:01:18.510
+x3 is equal to P times x2.
+
+00:01:18.510 --> 00:01:24.650
+And we can print that
+out and we get that.
+
+00:01:24.650 --> 00:01:36.492
+Now, we could have done P3 is
+equal to P times P times p1,
+
+00:01:36.492 --> 00:01:38.200
+and we would have
+gotten the same answer.
+
+00:01:38.200 --> 00:01:45.680
+Or we could have done P
+times P times P times x0,
+
+00:01:45.680 --> 00:01:48.610
+and we would also got the same answer.
+
+00:01:48.610 --> 00:01:50.840
+But let's make it simple.
+
+00:01:50.840 --> 00:01:55.470
+And we'll do P times
+x2, and we get that.
+
+00:01:55.470 --> 00:02:05.770
+Then going from day three to day four,
+we get x4 is equal to P times x3.
+
+00:02:05.770 --> 00:02:08.720
+ 
+
+00:02:08.720 --> 00:02:09.979
+And we want to print that.
+
+00:02:09.979 --> 00:02:14.030
+ 
+
+00:02:14.030 --> 00:02:17.530
+And then we may want to just
+start copying and pasting.
+
+00:02:17.530 --> 00:02:21.720
+You know how I love to copy and paste.
+
+00:02:21.720 --> 00:02:25.070
+And we get that.
+
+00:02:25.070 --> 00:02:31.010
+And we do it again, and
+now we go from five to six.
+
+00:02:31.010 --> 00:02:32.296
+Oops.
+
+00:02:32.296 --> 00:02:32.795
+Yep.
+
+00:02:32.795 --> 00:02:37.220
+ 
+
+00:02:37.220 --> 00:02:39.515
+And finally, we go from six to seven.
+
+00:02:39.515 --> 00:02:47.300
+ 
+
+00:02:47.300 --> 00:02:50.910
+And now we have the vector that
+predicts the weather next week,
+
+00:02:50.910 --> 00:02:54.560
+given that today it is cloudy.
+
+00:02:54.560 --> 00:02:57.820
+Now, we could predict the
+next 20 days, and for that, we
+
+00:02:57.820 --> 00:02:58.980
+would write a little loop.
+
+00:02:58.980 --> 00:03:01.790
+So, here's the little loop,
+and we can execute that.
+
+00:03:01.790 --> 00:03:07.660
+And we can see what happens
+from one day to the next.
+
+00:03:07.660 --> 00:03:09.580
+Now, the important
+thing here is that you
+
+00:03:09.580 --> 00:03:14.630
+start noticing that this vector
+going from day 19 to day 20
+
+00:03:14.630 --> 00:03:16.280
+doesn't change much.
+
+00:03:16.280 --> 00:03:22.700
+We say that the vector has converged or
+is converging to a stable vector, which
+
+00:03:22.700 --> 00:03:27.540
+then predicts the
+weather on a typical day.
+
+00:03:27.540 --> 00:03:33.350
+Now, we could obviously change this
+loop to do the next entire year.
+
+00:03:33.350 --> 00:03:38.504
+Let's just assume that a
+year has 365 days in it.
+
+00:03:38.504 --> 00:03:40.170
+And that would take a little bit longer.
+
+00:03:40.170 --> 00:03:42.580
+And if we go all the way to
+the end, we would definitely
+
+00:03:42.580 --> 00:03:45.350
+notice that this vector
+is not changing anymore.
+
+00:03:45.350 --> 00:03:48.020
+ 
+
+00:03:48.020 --> 00:03:52.030
+So, you can go back, and you can do
+exactly the same calculation, where
+
+00:03:52.030 --> 00:03:56.235
+all you do is you change the
+vector that says that today
+
+00:03:56.235 --> 00:04:01.070
+is cloudy to a vector
+that says today is sunny.
+
+00:04:01.070 --> 00:04:06.210
+And we can just go and execute
+all the same things over again.
+
+00:04:06.210 --> 00:04:09.740
+What you'll notice is that
+again, things start to stabilize.
+
+00:04:09.740 --> 00:04:15.890
+And at the end of a year, we get roughly
+the same vector as we got before.
+
+00:04:15.890 --> 00:04:17.760
+And you can go back
+and do the same thing,
+
+00:04:17.760 --> 00:04:19.930
+and put in the third unit
+basis vector, and see
+
+00:04:19.930 --> 00:04:22.460
+what happens if you start
+with a day that's rainy.
+
+00:04:22.460 --> 00:04:25.500
+ 
+
+00:04:25.500 --> 00:04:32.980
+So what we saw when we did our IPython
+notebook was that given a vector that
+
+00:04:32.980 --> 00:04:36.760
+indicates that today it
+is cloudy, we can come up
+
+00:04:36.760 --> 00:04:39.970
+with a vector of what the probabilities
+are for tomorrow and the day
+
+00:04:39.970 --> 00:04:46.360
+after, and the day after, and the day
+after, and the day after, and so forth.
+
+00:04:46.360 --> 00:04:49.670
+Then finally, a week from now.
+
+00:04:49.670 --> 00:04:53.160
+One thing you notice is that these
+numbers are starting to stabilize.
+
+00:04:53.160 --> 00:04:55.420
+There's not much change anymore.
+
+00:04:55.420 --> 00:04:59.999
+What that means is that we are
+converging to a stable vector.
+
+00:04:59.999 --> 00:05:01.040
+Now, what does that mean?
+
+00:05:01.040 --> 00:05:03.320
+This vector here simply
+becomes the vector
+
+00:05:03.320 --> 00:05:08.020
+that tells us what is the probability
+of it being sunny, cloudy,
+
+00:05:08.020 --> 00:05:12.600
+or ray on a typical day without
+really specifying what that day is.
+
+00:05:12.600 --> 00:05:15.820
+And you can imagine if you do this
+in an infinite number of times,
+
+00:05:15.820 --> 00:05:19.200
+that then truly, the
+vector would become stable.
+
+00:05:19.200 --> 00:05:21.990
+Later in this course we're
+going to try to relate that
+
+00:05:21.990 --> 00:05:24.800
+to eigenvectors and eigenvalues.
+
+00:05:24.800 --> 00:05:25.449
+ 
+

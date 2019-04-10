@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:04.110
+This is SolidWorks Flow simulation where
+ we simulate engine intake manifold
+
+00:00:04.110 --> 00:00:08.249
+valves opening and closing at each
+ cylinder port
+
+00:00:08.249 --> 00:00:12.269
+We can use this information to visualize
+ the flow traversing the manifold and
+
+00:00:12.269 --> 00:00:18.109
+color it by local speed or pressure to 
+evaluate the manifold design
+.0:00:18.109,0:00:21.529
+We can simulate the openings at the
+ ports by dropping the lid
+
+00:00:21.529 --> 00:00:25.470
+pressures below ambient over a period of
+time.
+
+00:00:25.470 --> 00:00:30.329
+We assume a firing order, calculate a 
+total period for one cycle over the rpm
+
+00:00:30.329 --> 00:00:35.460
+we want, and develop a timing sequence
+ for pulsing the pressure drop
+.0:00:35.460,0:00:39.140
+We can develop the data sets in Excel 
+for example. The different colored
+
+00:00:39.140 --> 00:00:43.720
+columns on the spreadsheet represent 
+time and pressure values for each port.
+
+00:00:43.720 --> 00:00:47.510
+Here's a graph showing the drop in 
+pressure at one of the ports.
+
+00:00:47.510 --> 00:00:51.190
+This next graph shows all four pressure 
+drop curves.
+
+00:00:51.190 --> 00:00:54.520
+We will copy the data from the
+spreadsheet into Flow Simulation in a
+
+00:00:54.520 --> 00:00:55.640
+moment
+.0:00:55.640,0:00:58.809
+To set up a transient analysis in Flow 
+Simulation,
+
+00:00:58.809 --> 00:01:03.789
+right click on the input data icon and choose general settings. Just check the
+
+00:01:03.789 --> 00:01:08.340
+time-dependent option as shown here.
+
+00:01:08.340 --> 00:01:12.260
+Next, right click on the input data icon once again and choose calculation
+
+00:01:12.260 --> 00:01:14.090
+control options.
+
+00:01:14.090 --> 00:01:18.210
+In the dialog select the maximum 
+physical time entry and enter a value
+
+00:01:18.210 --> 00:01:22.070
+for the end of the cycle, and click ok. 
+Now let's look at the boundary
+
+00:01:22.070 --> 00:01:26.080
+conditions. We have the inlet environment
+pressure of "101325"0:01:26.080,0:01:27.440
+Pascals.
+
+00:01:27.440 --> 00:01:31.820
+Notice the tag pointer with the value 
+on the lid showing on screen. Next
+
+00:01:31.820 --> 00:01:35.450
+we have the pressure boundary condition
+sshowing on each of the cylinder ports at
+
+00:01:35.450 --> 00:01:37.270
+the lid for each port.
+
+00:01:37.270 --> 00:01:40.500
+Note the tags on screen have the word
+dependent on them
+.0:01:40.500,0:01:44.229
+This is because the pressure on each
+lid is dependent on time and uses the
+
+00:01:44.229 --> 00:01:47.130
+Excel spreadsheet contents for each one.
+
+00:01:47.130 --> 00:01:50.939
+We set the lid pressure of port number
+three back to ambient to show how to do
+
+00:01:50.939 --> 00:01:51.920
+this.
+
+00:01:51.920 --> 00:01:55.030
+If you right click on the boundary
+condition and edit definition,
+
+00:01:55.030 --> 00:01:59.390
+you can see the face selected, and the
+environment pressure item selected.
+
+00:01:59.390 --> 00:02:03.880
+Simply click on the f of x button to
+open a dependency dialogue.
+
+00:02:03.880 --> 00:02:08.349
+Here in the pull down menu we choose the
+function of time option "table"
+
+00:02:08.349 --> 00:02:12.109
+to use the contents of the Excel
+spreadsheet.
+
+00:02:12.109 --> 00:02:19.109
+Go ahead and switch over to Excel and
+simply copy the spreadsheet data
+.0:02:22.019,0:02:26.480
+Now switch back to the Flow Simulation
+and place your cursor in the first cell.
+
+00:02:26.480 --> 00:02:29.040
+You must use the control-v on your
+keyboard
+
+00:02:29.040 --> 00:02:31.529
+to paste the data into the table.
+
+00:02:31.529 --> 00:02:34.540
+Click on the preview chart option to
+show a graph of the data for
+
+00:02:34.540 --> 00:02:38.059
+verification and you can okay the
+dialogues
+
+00:02:38.059 --> 00:02:40.279
+do this for each lid and you can run the
+analysis
+.
+

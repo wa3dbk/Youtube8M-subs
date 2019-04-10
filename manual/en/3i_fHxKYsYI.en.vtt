@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.586 --> 00:00:06.980
+With ArchiCAD 18 there are some major changes to consider when lighting your project:
+
+00:00:08.894 --> 00:00:11.253
+'Light Cone Down'
+
+00:00:11.253 --> 00:00:12.821
+'Light Cone Up'
+
+00:00:12.821 --> 00:00:15.259
+'Wall Light Indirect'
+
+00:00:15.259 --> 00:00:21.689
+and 'Wall Light Upwards' have been removed and from now on can be fully replaced by the redesigned Spot Light
+
+00:00:23.123 --> 00:00:28.483
+and the new IES Light that have all the necessary properties to be used with the new CineRender engine.
+
+00:00:30.098 --> 00:00:37.262
+When opening a project made with a previous version of ArchiCAD, ArchiCAD 18, in some cases, will display a Warning dialog.
+
+00:00:41.405 --> 00:00:46.326
+By clicking on 'Skip Migration' old light sources as Library elements will be kept.
+
+00:00:50.031 --> 00:00:53.220
+Here's how our light sources will be rendered in this case.
+
+00:00:54.473 --> 00:00:57.580
+If you click on 'Migrate ArchiCAD Libraries'
+
+00:00:57.580 --> 00:01:02.761
+old library elements will be converted to matching light sources from the ArchiCAD 18 Library.
+
+00:01:04.241 --> 00:01:09.832
+In this case all lamps became 'Spot lights' after conversion and will render like this.
+
+00:01:09.832 --> 00:01:13.067
+It may look worse at a first glance,
+
+00:01:13.067 --> 00:01:17.402
+but we can achieve a far better result converting them manually to IES Lights.
+
+00:01:18.175 --> 00:01:23.943
+Photometric definitions of IES Lights can be downloaded from websites of major light manufacturers.
+
+00:01:27.494 --> 00:01:32.778
+Simply put, these IES files contain the emission behavior of the light source.
+
+00:01:32.778 --> 00:01:38.115
+The downloaded IES files have to be added to the project using the Library Manager.
+
+00:01:40.152 --> 00:01:47.952
+Once the IES files are added to the project they can be chosen by clicking on this arrow.
+
+00:01:51.142 --> 00:01:54.708
+As you can see, the Light Settings tab is completely redesigned,
+
+00:01:54.708 --> 00:02:02.522
+and offers a wide variety of adjustments, often illustrated with sample pictures of what a particular setting will result in.
+
+00:02:15.107 --> 00:02:17.197
+Feel free to experiment with these.
+
+00:02:17.197 --> 00:02:23.653
+In the case of IES Light however the following settings will be sufficient in the majority of cases:
+
+00:02:26.508 --> 00:02:28.355
+'Main Intensity'
+
+00:02:29.641 --> 00:02:31.306
+'Color'
+
+00:02:32.819 --> 00:02:36.730
+and 'Use Intensity given in Photometric File'
+
+00:02:38.670 --> 00:02:42.328
+Here are a few examples of the great results IES Light can offer
+
+00:02:43.703 --> 00:02:50.073
+And here's another set of lights where we used IES files that include data regarding the Area Shape.
+
+00:02:50.073 --> 00:02:54.413
+As you can see, the shape of the Light source is visible in the render image.
+
+00:02:55.750 --> 00:03:01.671
+Please note, this additional data that enables showing the 'Area Shape' is rarely embedded in the IES file.
+
+00:03:01.671 --> 00:03:05.745
+Let's try one of the IES Lights from the previous example.
+
+00:03:05.745 --> 00:03:09.694
+We will use the one on the right wall in a real-life project.
+
+00:03:11.188 --> 00:03:15.659
+We already have a few IES Lights prepared with default settings,
+
+00:03:15.659 --> 00:03:21.169
+but first let's take a look at what the rendered image of the house looks like without IES Lights.
+
+00:03:26.753 --> 00:03:30.185
+Now, let's see how they contribute to the scene when turned ON.
+
+00:03:34.248 --> 00:03:37.561
+The IES Lights are a bit high so we will have to lower them,
+
+00:03:37.561 --> 00:03:43.361
+but in general we can say the use of IES Lights have a great impact on realism when rendering a project.
+

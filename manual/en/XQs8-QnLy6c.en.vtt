@@ -1,0 +1,141 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.970 --> 00:00:08.250
+RoboDK is a powerful offline simulator
+for industrial robots.
+
+00:00:08.380 --> 00:00:14.680
+With RoboDK you've an access to our online library of
+more than 200 robots.
+
+00:00:14.720 --> 00:00:20.500
+It's very easy to find your robot or select a new robot,
+according to your project needs.
+
+00:00:20.600 --> 00:00:28.800
+You can select a robot by brand, payload, reach
+and repeatability.
+
+00:00:28.900 --> 00:00:36.420
+You can also use a predefined set of tools or model your
+own tools.
+
+00:00:36.500 --> 00:00:42.800
+You can double-click the robot and jog axis by axis in the robot panel.
+
+00:00:42.870 --> 00:00:48.170
+You can manually set the position of the tool with respect to the robot frame.
+
+00:00:48.220 --> 00:00:53.270
+Here you see how to change the robot configuration.
+
+00:00:53.280 --> 00:00:56.860
+You can visualize the
+robot workspace for the wrist,
+
+00:00:57.000 --> 00:01:01.350
+the tool flange for your current tool.
+
+00:01:01.450 --> 00:01:07.550
+You can also drag and move any reference frame using the "Alt" key, such as the robot flange,
+
+00:01:07.570 --> 00:01:12.600
+robot tool, or any other object reference.
+
+00:01:12.650 --> 00:01:20.350
+RoboDK provides a powerful and user-friendly way to create programs offline.
+
+00:01:20.400 --> 00:01:24.020
+You can move the robot to a target and create a new joint movement.
+
+00:01:24.220 --> 00:01:29.280
+RoboDK will automatically generate a new target that can be modified later.
+
+00:01:29.320 --> 00:01:34.420
+In this case the "Target 1" represents the
+home target.
+
+00:01:34.550 --> 00:01:42.500
+You can repeat the same operations add other linear or circular movements, grab tools and other basic instructions.
+
+00:01:42.700 --> 00:01:47.800
+You can double-click your
+program anytime and the robot will execute the sequence.
+
+00:01:47.970 --> 00:01:52.650
+RoboDK will warn
+you if the movement can't be completed successfully.
+
+00:01:52.720 --> 00:01:59.100
+In this case joint five is
+too close to zero degrees which is a robot singularity.
+
+00:01:59.350 --> 00:02:06.530
+You can easily select drag and move any target with the alt key and retry running the updated sequence.
+
+00:02:07.670 --> 00:02:13.400
+This allows improving the robot paths to
+keep them away from singularities.
+
+00:02:13.420 --> 00:02:16.440
+Another way to move the targets while
+keeping our path
+
+00:02:16.440 --> 00:02:21.150
+intact would be using a reference frame. We can easily add a reference frame and
+
+00:02:21.150 --> 00:02:24.750
+make the three targets over path depend
+on the reference frame.
+
+00:02:24.950 --> 00:02:31.020
+if we drag and drop the targets, using the SHIFT-key, the
+original path will be kept intact.
+
+00:02:31.100 --> 00:02:35.370
+We can update the program to use the new
+reference frame and retry executing the
+
+00:02:35.400 --> 00:02:43.720
+same program. Now we can easily move the
+reference frame and our targets are automatically updated.
+
+00:02:52.700 --> 00:02:58.550
+The icon of the targets will warn us if
+that target is reachable as we move our reference.
+
+00:03:02.350 --> 00:03:07.100
+Finally, we can right-click the program
+and output the appropriate program for
+
+00:03:07.200 --> 00:03:13.290
+our robot. RoboDK will take care of handling the syntax appropriate to your
+
+00:03:13.290 --> 00:03:16.290
+robot brand.
+
+00:03:19.520 --> 00:03:25.200
+RoboDK provides an example of a basic
+pick-and-place operation. If you run this
+
+00:03:25.200 --> 00:03:30.230
+first example you can see an ABB-robot,
+moving five parts from one table to
+
+00:03:30.230 --> 00:03:37.370
+another. With RoboDK it's very easy to
+grab and drop a part with the tool.
+
+00:03:37.370 --> 00:03:41.400
+The robot will move the target selected,
+depending on the active reference frame.
+
+00:03:41.400 --> 00:03:48.680
+In this case it can be either "Table 1"
+or "Table 2". Finally, we can output the robot
+
+00:03:48.680 --> 00:03:51.070
+program for the ABB-robot.
+

@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.615 --> 00:00:11.828
+With the sidewalks in place, you will now use them to extract surfaces for building lots.
+
+00:00:12.249 --> 00:00:21.522
+If you need to catch up, use the file named CityBlocks_Roads-lots.max which has the road infrastructure and the sidewalks in place.
+
+00:00:22.212 --> 00:00:25.862
+Zoom in on CityBlock-A on the left, you'll start with that one.
+
+00:00:26.400 --> 00:00:29.420
+Earlier you used the roads to extract the sidewalks.
+
+00:00:29.509 --> 00:00:33.284
+This time, you use the sidewalks to extract the building lots.
+
+00:00:33.597 --> 00:00:41.770
+The process is similar, yet a bit easier as the building lots are flat and don't require the extra work brought on by the Sweep modifier.
+
+00:00:42.487 --> 00:00:47.886
+Select the geometry, and in the Modify panel, enter Border mode.
+
+00:00:48.513 --> 00:00:54.301
+Hold Ctrl down for multiple selections, and then click on the borders you need to extract.
+
+00:00:55.265 --> 00:01:03.985
+Do not attempt a click and drag as each sidewalk actually has two borders. You only need the inner border selected.
+
+00:01:14.520 --> 00:01:18.370
+Create a Linear Shape from the selection as you learned to do before.
+
+00:01:18.960 --> 00:01:22.250
+Exit Border mode and select the new shape.
+
+00:01:22.900 --> 00:01:31.190
+It's made of multiple "islands". To turn it into solid flat surfaces, simply add an Edit Poly modifier.
+
+00:01:32.206 --> 00:01:38.679
+Go to the Slate Material Editor, in this tutorial you will map these surfaces with paving stones.
+
+00:01:39.272 --> 00:01:43.250
+Create a new Arch &amp; Design material using the Matte Template.
+
+00:01:43.890 --> 00:01:47.230
+Make sure the new material is set to show in the viewports.
+
+00:01:48.068 --> 00:01:55.650
+As a Diffuse map, choose the bitmap named GD_pavers_0001.jpg.
+
+00:01:56.156 --> 00:02:01.925
+There are six images of paving stones; you will use all of them to bring more variety to the environment.
+
+00:02:02.553 --> 00:02:09.541
+If you have other textures in mind such as grass or dirt, you can use the same techniques learned here to adapt them.
+
+00:02:10.321 --> 00:02:14.654
+Double-click the bitmap node and set it to Use Real-World Scale.
+
+00:02:15.210 --> 00:02:21.210
+Set the scale to about 10mx10m. You can always adjust that later if you need to.
+
+00:02:22.140 --> 00:02:29.310
+Apply the material to the new object, it still doesn't show in the viewport as you need to apply mapping coordinates.
+
+00:02:29.880 --> 00:02:36.620
+Add a UVW Map modifier to the object. You can leave it in Planar mode as you only need a projection from top.
+
+00:02:37.072 --> 00:02:42.422
+However, make sure you use Real-World Map Size to get an accurate result.
+
+00:02:43.265 --> 00:02:49.276
+All lots are now mapped with the same texture. Next you bring a bit of variety to the mix.
+
+00:02:49.750 --> 00:02:55.640
+In the Material Editor, Shift+Move the new material and its bitmap to create a clone.
+
+00:02:56.484 --> 00:03:00.930
+Repeat to create a total of six paving stones material duplicates.
+
+00:03:01.645 --> 00:03:06.500
+Make sure all the duplicated materials are also set to show in the viewport,
+
+00:03:07.245 --> 00:03:13.829
+and then replace the bitmap textures to make use of the other paving stone images.
+
+00:03:26.943 --> 00:03:33.569
+Now add a Multi/Sub-object material to the mix and set it to have 6 sub-materials.
+
+00:03:35.269 --> 00:03:40.187
+Connect the paving stones materials to the Multi/Sub-Object node.
+
+00:03:41.307 --> 00:03:50.371
+Finally, apply the top-level, multi/sub node to the object in the scene and then dismiss or move the material editor window.
+
+00:03:50.760 --> 00:03:57.290
+It does not appear to make a difference yet, but that's because all polygons are uniformly set to Face ID #1
+
+00:03:58.070 --> 00:04:05.320
+Convert the building lots object to an editable poly. This collapses the stack and bakes in the mapping coordinates.
+
+00:04:05.700 --> 00:04:10.880
+In polygon mode, note that all faces are currently set to ID #1.
+
+00:04:13.349 --> 00:04:20.760
+Select the faces that you want to affect with a different texture and choose another ID number between 2 and 6.
+
+00:04:26.730 --> 00:04:34.130
+Exit Polygon mode when done. You still need to put everything together so that the city block works as one unit.
+
+00:04:34.870 --> 00:04:41.190
+Select the roads/sidewalks object and then use Attach to attach the newly created lots.
+
+00:04:41.750 --> 00:04:46.760
+Make sure you match the material IDs to the material so you don't lose the work you have done.
+
+00:04:50.270 --> 00:04:54.630
+Finally, you need to consolidate your material as you have learned to do.
+
+00:04:55.189 --> 00:05:02.930
+In the material editor, select all nodes as they apply to the roads, sidewalks and building lots and delete them.
+
+00:05:03.850 --> 00:05:08.060
+Use the Material Picker and click the city block in the scene.
+
+00:05:08.550 --> 00:05:14.260
+You now have one large multi/sub-object material that affects all parts of the city block.
+
+00:05:15.172 --> 00:05:19.372
+Re-arrange the material nodes as you have learned to do.
+
+00:05:26.810 --> 00:05:36.949
+The paving materials are now affecting Face IDs between 14 and 19 instead of 1 through 6, courtesy of the Attach/Match ID tool.
+
+00:05:37.820 --> 00:05:46.950
+This takes care of CityBlock-A. For the other two, the procedure is similar, except you've already created the paving stones materials.
+
+00:05:47.370 --> 00:05:52.430
+This means you can extract a shape from selected borders as before,
+
+00:05:57.687 --> 00:06:03.859
+and add the Edit Poly modifier and the UVW Map modifier in Real-World Map Size.
+
+00:06:06.199 --> 00:06:13.085
+Once you have done that, you can collapse the stack by converting the object to an editable poly again.
+
+00:06:13.510 --> 00:06:19.150
+This time around though, you don't need to worry about the material as you have already created it.
+
+00:06:19.923 --> 00:06:28.876
+Select the road works and then use Attach to attach the lots. There are no prompts as both objects are still currently assigned the same material.
+
+00:06:29.684 --> 00:06:35.580
+Right-click to end the command and apply the new consolidated material to the city block.
+
+00:06:36.032 --> 00:06:48.606
+From this point on, go into polygon mode and decide which lot goes on which texture, by choosing IDs between 14 and 19.
+
+00:06:57.780 --> 00:07:00.232
+Exit polygon mode when done.
+
+00:07:01.040 --> 00:07:05.941
+Take a minute to work on the third city block following the same workflow you just went through.
+
+00:07:06.560 --> 00:07:08.510
+When you're done save your file.
+
+00:07:08.975 --> 00:07:12.948
+In the next movie, you light the scene using the Daylight System.
+

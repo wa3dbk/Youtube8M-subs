@@ -1,0 +1,161 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.730 --> 00:00:13.059
+With Google Analytics, you can collect and
+analyze data about your mobile app,
+
+00:00:13.059 --> 00:00:15.030
+just like you can with your website.
+
+00:00:15.030 --> 00:00:18.860
+However, since the technology to build and
+run mobile apps
+
+00:00:18.860 --> 00:00:21.680
+is different than the technology used to build
+websites,
+
+00:00:21.680 --> 00:00:27.130
+there are differences in how Google Analytics
+collects data from mobile apps.
+
+00:00:27.130 --> 00:00:31.119
+Instead of using JavaScript to collect data
+like you do on a website,
+
+00:00:31.119 --> 00:00:38.620
+you'll use an SDK, or Software Development
+Kit, to collect data from your mobile app.
+
+00:00:38.620 --> 00:00:44.520
+There are different SDKs for different operating
+systems, including Android and iOS.
+
+00:00:44.520 --> 00:00:48.960
+SDKs collect data about your app, like what
+users look at,
+
+00:00:48.960 --> 00:00:53.810
+the device operating system, and how often
+a user opens the app.
+
+00:00:53.810 --> 00:00:58.960
+This data gets packaged as hits, and sent
+to your Google Analytics account.
+
+00:00:58.960 --> 00:01:04.420
+This is similar to how the JavaScript code
+sends hits from a website.
+
+00:01:04.420 --> 00:01:07.890
+Data from mobile apps is not sent to Analytics
+right away.
+
+00:01:07.890 --> 00:01:09.640
+When a user navigates through an app,
+
+00:01:09.640 --> 00:01:14.530
+the Google Analytics SDK stores the hits locally
+on the device
+
+00:01:14.530 --> 00:01:17.700
+and then sends them to your Google Analytics
+account later
+
+00:01:17.700 --> 00:01:21.350
+in a batch process called dispatching.
+
+00:01:21.350 --> 00:01:24.840
+Mobile data collection uses dispatching for
+two reasons:
+
+00:01:24.840 --> 00:01:28.840
+First, mobile devices can lose network connectivity,
+
+00:01:28.840 --> 00:01:31.450
+and when a device isn't connected to the web,
+
+00:01:31.450 --> 00:01:35.000
+the SDK can't send any data hits to Google
+Analytics.
+
+00:01:35.000 --> 00:01:41.959
+Second, sending data to Google Analytics in
+real time can reduce a device's battery life.
+
+00:01:41.959 --> 00:01:45.819
+For these reasons, the SDKs automatically
+dispatch hits
+
+00:01:45.819 --> 00:01:51.380
+every 30 minutes for Android devices and every
+two minutes for iOS devices,
+
+00:01:51.380 --> 00:01:54.289
+but you can customize this time frame in your
+tracking code
+
+00:01:54.289 --> 00:01:58.010
+to control the impact on the battery life.
+
+00:01:58.010 --> 00:02:03.040
+Another important function of the mobile SDK
+is differentiating users.
+
+00:02:03.040 --> 00:02:04.899
+When an app launches for the first time
+
+00:02:04.899 --> 00:02:10.789
+the Google Analytics SDK generates an anonymous
+unique identifier for the device,
+
+00:02:10.789 --> 00:02:13.840
+similar to the way the website tracking code
+does.
+
+00:02:13.840 --> 00:02:20.530
+Each unique identifier is also counted in
+Google Analytics as a unique user.
+
+00:02:20.530 --> 00:02:26.470
+If the app gets updated to a new version,
+the identifier on the device remains the same.
+
+00:02:26.470 --> 00:02:33.480
+However, if the app gets uninstalled, the
+Google Analytics SDK deletes the identifier.
+
+00:02:33.480 --> 00:02:39.499
+If the app is then reinstalled, a new anonymous
+identifier is created on the device.
+
+00:02:39.499 --> 00:02:45.349
+The result is that the user will be identified
+as a new user, not a returning &nbsp;user,
+
+00:02:45.349 --> 00:02:49.549
+but no other data in your Google Analytics
+reports will be impacted.
+
+00:02:49.549 --> 00:02:55.920
+The mobile SDKs provide a simple way to track
+user activity from an app,
+
+00:02:55.920 --> 00:03:00.599
+and collect most of the data you'll need without
+any customization.
+
+00:03:00.599 --> 00:03:03.730
+But keep in mind, there are many ways to modify
+your code
+
+00:03:03.730 --> 00:03:07.010
+to collect additional information about your
+users,
+
+00:03:07.010 --> 00:03:09.499
+their sessions and their interactions with
+your app.
+

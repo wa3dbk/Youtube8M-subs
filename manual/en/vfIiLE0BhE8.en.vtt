@@ -1,0 +1,364 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.480 --> 00:00:05.451
+Hi. In this video we are going to interface
+a PS/2 keyboard with a microcontroller in
+
+00:00:05.451 --> 00:00:09.469
+a NerdKit and along the way we're gonna learn
+about interrupts.
+
+00:00:09.469 --> 00:00:14.360
+In microcontroller programming, as in normal
+programming for PCs, there's an inherent disconnect
+
+00:00:14.360 --> 00:00:18.670
+between the way we write code and the way
+things actually happen in real life. When
+
+00:00:18.670 --> 00:00:22.550
+you sit down to write a function or a method,
+you write a sequence of statements that all
+
+00:00:22.550 --> 00:00:26.910
+happen one after each other. Even with the
+use of control structures and calls to other
+
+00:00:26.910 --> 00:00:32.050
+functions, you can still follow a single path
+through the code starting with the main function.
+
+00:00:32.050 --> 00:00:36.690
+While this paradigm might be fine for thinking
+about simple programs and algorithms, it doesn't
+
+00:00:36.690 --> 00:00:41.620
+really work when thinking about larger systems.
+Sometimes systems need to interact with each
+
+00:00:41.620 --> 00:00:47.039
+other, and your code needs to react to outside
+events in an asynchronous way.
+
+00:00:47.039 --> 00:00:50.510
+To accomplish this in microcontrollers, we
+have something called an interrupt. Like you
+
+00:00:50.510 --> 00:00:54.730
+would expect, an interrupt looks much like
+a function, except it only executes when outside
+
+00:00:54.730 --> 00:00:58.820
+events happen, so don't have to call it directly
+from your main function. Think of it this
+
+00:00:58.820 --> 00:01:06.090
+way, say, I'm trying to add up all these numbers,
+that's my main loop: 4, 2 is 6 -- INTERRUPT!
+
+00:01:06.090 --> 00:01:11.320
+ -- I handle the interrupt and go right back
+to my main loop. There are many different
+
+00:01:11.320 --> 00:01:15.800
+types of interrupts available to you on the
+ATmega168 chip, but for the most part, you're
+
+00:01:15.800 --> 00:01:19.900
+going to find yourself using one of two main
+types of interrupts: Timer Interrupts and
+
+00:01:19.900 --> 00:01:21.720
+Pin Change Interrupts.
+
+00:01:21.720 --> 00:01:25.570
+Timer interrupts are best use when you want
+to fire up a quick task at a regular time
+
+00:01:25.570 --> 00:01:30.640
+interval. You can choose to fire a timer interrupt
+when a timer overflows or when a timer reaches
+
+00:01:30.640 --> 00:01:35.270
+a particular value. The best example of timer
+interrupts can be found in the Crystal Real
+
+00:01:35.270 --> 00:01:39.590
+Time Clock code. In that example, we wanted
+to have a way of telling real time using a
+
+00:01:39.590 --> 00:01:45.070
+microcontroller. Since our crystal runs at
+a very steady 14.7 megahertz, we use a timer
+
+00:01:45.070 --> 00:01:49.970
+interrupt to fire everyone 1/100th of a second.
+The interrupt handler simply increments a
+
+00:01:49.970 --> 00:01:54.840
+variable every time it is fired. Here, the
+timer and incrementing of the variable is
+
+00:01:54.840 --> 00:01:59.450
+handled completely outside of the main code.
+Once the interrupt is set up, it will fire
+
+00:01:59.450 --> 00:02:03.780
+an increment to variable itself, without your
+code having to worry about. This allows you
+
+00:02:03.780 --> 00:02:08.569
+to run other tasks, like updating the LCD,
+or doing whatever else your project requires,
+
+00:02:08.569 --> 00:02:13.069
+but now with the real time variable at your
+disposal. Check out our Real Time Clock video
+
+00:02:13.069 --> 00:02:15.769
+for more details on this project.
+
+00:02:15.769 --> 00:02:19.950
+The other often used type of interrupt is
+a Pin Change Interrupt. These types of interrupts
+
+00:02:19.950 --> 00:02:24.489
+are very useful when communicating with outside
+devices. To demonstrate that, we put together
+
+00:02:24.489 --> 00:02:29.329
+a quick little project that interfaces a PS/2
+keyboard with our NerdKit.
+
+00:02:29.329 --> 00:02:34.590
+The PS/2 protocol is very simple and very
+easy to interface with a NerdKit. Here, we
+
+00:02:34.590 --> 00:02:38.489
+just chopped off the connector end of the
+keyboard cable and you can see there are four
+
+00:02:38.489 --> 00:02:46.950
+wires corresponding to ground, power, a clock
+line and a data wire. The clock and data line
+
+00:02:46.950 --> 00:02:51.310
+are normally not moving until a keyboard wants
+to send a character. Each key press is sent
+
+00:02:51.310 --> 00:02:55.930
+as 11 bits right on the falling edge of the
+clock line. First the start bit, with the
+
+00:02:55.930 --> 00:03:00.840
+data line low, then 8 bits of the character,
+least significant bit first, then a parity
+
+00:03:00.840 --> 00:03:04.329
+bit, and finally a stop bit.
+
+00:03:04.329 --> 00:03:08.989
+Most keys on the keyboard are represented
+using an 8-bit scan code. Some keys are extended
+
+00:03:08.989 --> 00:03:14.040
+keys that require more then 1 byte, but for
+now we're just going to ignore those. We hooked
+
+00:03:14.040 --> 00:03:18.290
+up the keyboard to our oscilloscope so you
+can see the protocol working. When I press
+
+00:03:18.290 --> 00:03:24.450
+the F key we can see the clock and data line
+start moving. On each falling edge of the
+
+00:03:24.450 --> 00:03:31.389
+clock, the data line represents the current
+bit. Here we can see a 0 for the start bit
+
+00:03:31.389 --> 00:03:37.450
+then a one for the first bit of the data,
+then there are 8 data bits followed by one
+
+00:03:37.450 --> 00:03:41.819
+parity bit, and finally the stop bit.
+
+00:03:41.819 --> 00:03:45.469
+So now it becomes a question of reading the
+clock and data signal directly on our pins
+
+00:03:45.469 --> 00:03:49.689
+of the microcontroller with the use of pin
+change interrupts. The clock line is hooked
+
+00:03:49.689 --> 00:03:55.870
+up to PC4, which if we check on our datasheet,
+is also PCINT12.
+
+00:03:55.870 --> 00:03:59.760
+The first step is to write our initialization
+function to turn on the interrupt on that
+
+00:03:59.760 --> 00:04:04.750
+pin. Pin change interrupts are explained at
+the datasheets starting on page 70. The main
+
+00:04:04.750 --> 00:04:08.920
+registers we have to worry about are the pin
+change interrupt control register and then
+
+00:04:08.920 --> 00:04:13.650
+the corresponding pin change mask register.
+There are only three pin change interrupts
+
+00:04:13.650 --> 00:04:18.840
+controlled by the pin change interrupt control
+register. The datasheet states the pin change
+
+00:04:18.840 --> 00:04:23.260
+interrupt 1 fires on a pin change of PCINT14
+through 8.
+
+00:04:23.260 --> 00:04:29.890
+So we turn that bit high since we want to
+enable PCINT12. So now the pin change interrupt
+
+00:04:29.890 --> 00:04:36.190
+is enabled for pin changes on PCINT14 through
+8, but we have to set up the PC Mask Register
+
+00:04:36.190 --> 00:04:41.100
+to enable the individual pins to trigger the
+interrupt. Since we're setting pin change
+
+00:04:41.100 --> 00:04:48.440
+interrupt 1, we set PC Mask 1, and turn on
+the corresponding bit for PCINT12.
+
+00:04:48.440 --> 00:04:53.470
+Now that our interrupt is set to fire every
+time PCINT12 changes, we need to write the
+
+00:04:53.470 --> 00:04:58.350
+interrupt handler that will actually run.
+For that, we use the ISR notation which takes
+
+00:04:58.350 --> 00:05:03.910
+it vector as its argument. The vectors available
+can be found in the avr-libc documentation.
+
+00:05:03.910 --> 00:05:09.000
+in this case we want PCINT1_vect.
+
+00:05:09.000 --> 00:05:14.040
+Now this interrupt handler will run when there
+is a change on PCINT12. Inside the handler,
+
+00:05:14.040 --> 00:05:18.010
+we have a little logic to actually read the
+pin and verify that the clock line is currently
+
+00:05:18.010 --> 00:05:23.820
+low. Then we simply read the current value
+of the data line and read that into our variable.
+
+00:05:23.820 --> 00:05:30.090
+After 11 bits, our kbd_data variable will
+hold the scan code. Notice we have also a
+
+00:05:30.090 --> 00:05:35.110
+variable called char_waiting. This is used
+by the interrupt handler to let the main loop
+
+00:05:35.110 --> 00:05:37.720
+know when a character is ready to be read.
+
+00:05:37.720 --> 00:05:42.600
+When the character is ready the interrupt
+handler flips this bit to high. When the main
+
+00:05:42.600 --> 00:05:47.020
+program reads the character, it flips it back.
+This is a common technique to communicate
+
+00:05:47.020 --> 00:05:51.720
+between interrupt handlers and the main program.
+There is some other logic in the interrupt
+
+00:05:51.720 --> 00:05:56.760
+handler to handle key ups, which the keyboard
+also reports, and special keys like shift,
+
+00:05:56.760 --> 00:06:01.580
+enter, and backspace. Not all the keys are
+actually supported in our simple demo program,
+
+00:06:01.580 --> 00:06:06.300
+but implementing more functionality would
+be a great exercise.
+
+00:06:06.300 --> 00:06:10.490
+In this program, there's a little bit of more
+code that turns a scan code into a character
+
+00:06:10.490 --> 00:06:15.840
+that is pressed. The main program only prints
+the characters to the LCD, but you could easily
+
+00:06:15.840 --> 00:06:20.270
+imagine doing more complicated things for
+the keyboard input. See our printf and scanf
+
+00:06:20.270 --> 00:06:22.990
+tutorial for more ideas about how to do input
+and output.
+
+00:06:22.990 --> 00:06:27.970
+Now that you see how useful interrupts can
+be, you need to be aware of some of the problem
+
+00:06:27.970 --> 00:06:31.590
+they can cause. The biggest thing to be aware
+of is that you are interrupting the main code.
+
+00:06:31.590 --> 00:06:36.030
+It is way too easy to think of them as merely
+running the background. That is simply not
+
+00:06:36.030 --> 00:06:42.060
+true. Your main loop is pausing for the interrupt
+handler to run. The other thing we need to
+
+00:06:42.060 --> 00:06:45.970
+be aware of is how long your interrupt handlers
+take to run. If you take too long, you're
+
+00:06:45.970 --> 00:06:50.770
+actually going to start blocking other interrupts
+from firing that might have fired. You might
+
+00:06:50.770 --> 00:06:55.100
+even get stuck in a situation where interrupts
+are firing one after each other, and your
+
+00:06:55.100 --> 00:06:58.520
+main code never gets a chance to run.
+
+00:06:58.520 --> 00:07:01.460
+I hope you have learned a little bit more
+about interrupts and how they can be used
+
+00:07:01.460 --> 00:07:05.230
+in different situations. Our website has more
+information about potential pitfalls that
+
+00:07:05.230 --> 00:07:09.320
+you will come across when dealing with interrupts.
+For more information about this project, or
+
+00:07:09.320 --> 00:07:13.000
+more videos like this one, visit us at www.NerdKits.com.
+

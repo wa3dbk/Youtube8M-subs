@@ -1,0 +1,108 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:02.820 --> 00:00:10.019
+Finite state machines (or simply "state machines")
+are the core of every hardware design.
+
+00:00:10.019 --> 00:00:14.990
+Since you work a lot with them, it is important
+that state machines are easy to write and
+
+00:00:14.990 --> 00:00:18.140
+easy to understand.
+
+00:00:18.140 --> 00:00:23.050
+Here is a short demonstration on how to write
+a state machine:
+
+00:00:23.050 --> 00:00:29.369
+We declare an enumerated datatype with two
+states: idle and running.
+
+00:00:29.369 --> 00:00:35.330
+The trick is how to write the case statement.
+If you just type "case" and press CTRL+SPACE,
+
+00:00:35.330 --> 00:00:41.870
+Sigasi Pro will offer an autocomplete. All
+of the states are already there and all _you_
+
+00:00:41.870 --> 00:00:45.840
+have to do is fill out the behavior.
+
+00:00:45.840 --> 00:00:52.170
+If you add code to this state machine, Sigasi
+will automatically compile while you are typing.
+
+00:00:52.170 --> 00:00:57.809
+You will see error markers appear and disappear
+as you type errors and fix them.
+
+00:00:57.809 --> 00:01:03.809
+Like: if you list a state twice, that's an
+error, and you see a red marker next to your
+
+00:01:03.809 --> 00:01:05.080
+code.
+
+00:01:05.080 --> 00:01:11.490
+Now, suppose you want to add more states to
+this state machine. If you add a state without
+
+00:01:11.490 --> 00:01:18.350
+declaring it first, that's an error too! You
+see an error marker with a lightbulb.
+
+00:01:18.350 --> 00:01:23.311
+The lightbulb means that Sigasi can try and
+help you with this problem. We call this a
+
+00:01:23.311 --> 00:01:31.610
+"Quickfix". In this case, the tool can automatically
+add your new state to the datatype declaration.
+
+00:01:31.610 --> 00:01:37.200
+This also works the other way around. If you
+add a state to the type declaration, there
+
+00:01:37.200 --> 00:01:40.761
+is a quickfix that adds a new "when" clause
+to the case statement.
+
+00:01:40.761 --> 00:01:45.790
+When you finish writing a large state machine,
+or
+
+00:01:45.790 --> 00:01:50.079
+In order to understand large state machines,
+you should be able to jump from one state
+
+00:01:50.079 --> 00:01:57.880
+to the next. Two things that can help here
+are: occurrence highlighting and hyperlinks.
+
+00:01:57.880 --> 00:02:03.580
+If you place the cursor on the state signal,
+all occurrences of the signal are highlighted.
+
+00:02:03.580 --> 00:02:07.710
+This makes it easy see some structure in your
+code.
+
+00:02:07.710 --> 00:02:13.640
+If you hold the CTRL button, all names in
+your code turn into hyperlinks. Now you can
+
+00:02:13.640 --> 00:02:19.630
+jump from a state assignment to its implementation.
+
+00:02:19.630 --> 00:02:25.480
+If you want to write or read complex code,
+you need all the help you can get. Sigasi
+
+00:02:25.480 --> 00:02:34.760
+Pro helps you write and understand state machines.
+Download and try a free evaluation at www.sigasi.com.
+

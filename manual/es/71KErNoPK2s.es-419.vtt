@@ -1,0 +1,250 @@
+WEBVTT
+Kind: captions
+Language: es-419
+
+00:00:07.640 --> 00:00:09.240
+Hola amigos de youtube
+
+00:00:09.240 --> 00:00:11.260
+aca les traigo este nuevo tutorial 
+
+00:00:11.260 --> 00:00:12.840
+donde mostrare
+
+00:00:12.840 --> 00:00:14.734
+como conectar los motores paso a paso
+
+00:00:14.734 --> 00:00:16.054
+con tarjeta arduino
+
+00:00:17.835 --> 00:00:19.835
+estos motores los podemos reciclar 
+
+00:00:20.280 --> 00:00:22.840
+de impresoras en mal estado que tengamos en casa 
+
+00:00:26.817 --> 00:00:28.337
+los motores paso a paso
+
+00:00:28.720 --> 00:00:31.620
+son ideales para proyectos escolares o de robotica 
+
+00:00:31.620 --> 00:00:33.620
+debido a su precisión de giro
+
+00:00:39.480 --> 00:00:41.140
+vamos a ver como se hace
+
+00:00:42.020 --> 00:00:43.560
+esta es la forma
+
+00:00:43.560 --> 00:00:45.640
+en la cual debemos conectar el circuito
+
+00:00:46.740 --> 00:00:50.360
+para eso requerimos de un integrado "L293D"
+
+00:00:50.473 --> 00:00:52.153
+dos pulsadores
+
+00:00:52.320 --> 00:00:54.500
+y dos resistencias de 10K omh 
+
+00:00:55.760 --> 00:00:57.300
+este integrado es indispensable
+
+00:00:57.440 --> 00:00:58.700
+puesto que con este evitamos
+
+00:00:58.700 --> 00:01:00.420
+sobre cargar el arduino
+
+00:01:01.080 --> 00:01:03.240
+ya que estos integrados soportan una corriente
+
+00:01:03.240 --> 00:01:04.940
+de hasta 600 mA
+
+00:01:04.940 --> 00:01:07.320
+y un voltaje que puede variar
+
+00:01:07.320 --> 00:01:11.040
+de 4.5 a 36V DC
+
+00:01:12.880 --> 00:01:14.540
+aqui tienen una imagen mas clara
+
+00:01:14.740 --> 00:01:16.120
+del integrado
+
+00:01:16.440 --> 00:01:19.240
+el cual nos funciona como un puente H
+
+00:01:19.540 --> 00:01:24.940
+por los pines 2, 7, 10 y 15
+
+00:01:25.200 --> 00:01:28.140
+es donde conectamos las salidas del arduino 
+
+00:01:29.420 --> 00:01:35.280
+por los pines 3, 6, 11 y 14
+
+00:01:35.360 --> 00:01:38.280
+es donde conectamos nuestro motor paso a paso
+
+00:01:40.400 --> 00:01:43.520
+por los pines 1, 9 y 16 
+
+00:01:44.160 --> 00:01:47.400
+conectamos los 5V que nos entrega el arduino
+
+00:01:49.300 --> 00:01:51.760
+y por el pin 8 y tierra
+
+00:01:51.940 --> 00:01:54.800
+conectamos nuestra fuente de 12V externa
+
+00:01:55.500 --> 00:01:57.480
+voy a mostrarles diferentes códigos  
+
+00:01:57.500 --> 00:02:00.560
+con los cuales podemos controlar el motor paso a paso
+
+00:02:00.593 --> 00:02:02.153
+en este caso por ejemplo 
+
+00:02:02.260 --> 00:02:04.440
+tenemos un sistema automático 
+
+00:02:04.440 --> 00:02:06.180
+hacia adelante y hacia atras
+
+00:02:06.933 --> 00:02:08.933
+en el cual podemos variar la velocidad 
+
+00:02:09.280 --> 00:02:10.680
+y la cantidad de giros 
+
+00:02:10.680 --> 00:02:11.800
+o fracción de giro 
+
+00:02:11.980 --> 00:02:13.780
+que queremos que de el motor
+
+00:02:15.374 --> 00:02:16.914
+con esta variable 
+
+00:02:17.115 --> 00:02:19.115
+determinamos la velocidad 
+
+00:02:20.300 --> 00:02:21.500
+y con esta otra
+
+00:02:22.134 --> 00:02:24.134
+determinamos la cantidad de giros
+
+00:02:24.353 --> 00:02:26.113
+con 50 pulsos 
+
+00:02:26.353 --> 00:02:27.853
+nos da un giro completo
+
+00:02:28.660 --> 00:02:30.120
+con 25 pulsos
+
+00:02:30.120 --> 00:02:31.453
+nos da 1/2 giro
+
+00:02:31.453 --> 00:02:33.353
+y asi sucesivamente 
+
+00:02:39.354 --> 00:02:41.354
+voy a mostrarles 
+
+00:02:44.953 --> 00:02:46.953
+como pueden observar 
+
+00:02:47.940 --> 00:02:50.500
+el motor esta dando un giro de 360°
+
+00:02:50.500 --> 00:02:52.147
+en ambos sentidos 
+
+00:02:52.147 --> 00:02:53.934
+de forma automática 
+
+00:03:06.280 --> 00:03:07.600
+en este otro caso 
+
+00:03:08.140 --> 00:03:11.240
+podemos activar el motor para que nos gire en ambos sentidos 
+
+00:03:11.880 --> 00:03:13.880
+pero activando dos pulsadores
+
+00:03:14.333 --> 00:03:16.333
+la cantidad de giros logrados 
+
+00:03:17.440 --> 00:03:19.440
+depende de como lo hallamos determinado 
+
+00:03:26.500 --> 00:03:27.820
+voy a mostrarles 
+
+00:03:34.540 --> 00:03:35.460
+como ven 
+
+00:03:35.960 --> 00:03:38.760
+el motor gira hacia un lado o hacia el otro 
+
+00:03:39.254 --> 00:03:41.254
+cada vez que activamos los pulsadores
+
+00:03:50.720 --> 00:03:51.860
+en este ultimo caso 
+
+00:03:52.160 --> 00:03:54.620
+también podemos hacer girar el motor en ambos sentidos
+
+00:03:55.034 --> 00:03:57.034
+pero este durara encendido 
+
+00:03:57.280 --> 00:03:59.560
+por el tiempo que tengamos activados los pulsadores 
+
+00:04:07.300 --> 00:04:08.420
+voy a mostrarles 
+
+00:04:17.480 --> 00:04:18.960
+como pueden ver 
+
+00:04:19.071 --> 00:04:21.071
+el motor gira en ambos sentidos 
+
+00:04:22.134 --> 00:04:24.134
+cada vez que activamos el pulsador 
+
+00:04:28.002 --> 00:04:30.002
+en la descripción del vídeo  
+
+00:04:30.002 --> 00:04:31.579
+les voy a dejar el enlace 
+
+00:04:31.579 --> 00:04:33.134
+para que descarguen los códigos 
+
+00:04:33.236 --> 00:04:35.236
+y los puedan probar en casa 
+
+00:04:38.300 --> 00:04:39.460
+bueno amigos 
+
+00:04:39.913 --> 00:04:41.913
+espero que les halla gustado 
+
+00:04:42.200 --> 00:04:43.880
+que les sea de mucha utilidad 
+
+00:04:44.373 --> 00:04:46.813
+y nos vemos en un próximo vídeo. 
+

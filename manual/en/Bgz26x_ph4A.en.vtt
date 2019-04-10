@@ -1,0 +1,251 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.269 --> 00:00:04.990
+In today's tutorial i'm going to show you
+how to install Magic Zoom Plus in WebPlus
+
+00:00:04.990 --> 00:00:06.420
+x5.
+
+00:00:06.420 --> 00:00:12.110
+You can also use this video to install Magic
+Zoom, Magic Thumb, Magic Magnify Plus and
+
+00:00:12.110 --> 00:00:15.590
+Magic Magnify as the process is the same.
+
+00:00:15.590 --> 00:00:22.970
+If we go to the Magic Zoom Plus page you'll
+see we can zoom the image as well as enlarge
+
+00:00:22.970 --> 00:00:23.970
+it.
+
+00:00:23.970 --> 00:00:30.450
+To start the installation we need to download
+the demo file and save it to our computer.
+
+00:00:30.450 --> 00:00:33.340
+Extract the files.
+
+00:00:33.340 --> 00:00:36.750
+The files we'll be using are in the magiczoomplus
+folder.
+
+00:00:36.750 --> 00:00:42.730
+There's the JavaScript file and the CSS file.
+
+00:00:42.730 --> 00:00:46.170
+In the Graphics folder we'll use the buttons1
+image.
+
+00:00:46.170 --> 00:00:50.870
+The Hint gif and also the Loader gif.
+
+00:00:50.870 --> 00:00:55.900
+Before we add these files to Web Plus we need
+to edit the CSS file.
+
+00:00:55.900 --> 00:00:59.920
+At the moment all the images are referenced
+under the graphics folder which we need to
+
+00:00:59.920 --> 00:01:04.629
+delete because we'll be adding these images
+directly to the root in Web Plus.
+
+00:01:04.629 --> 00:01:10.490
+So go through the whole file and delete the
+Graphics folder reference.
+
+00:01:10.490 --> 00:01:13.119
+Once that's done, save your changes.
+
+00:01:13.119 --> 00:01:17.740
+First thing we need to do in Web Plus is add
+the Head code.
+
+00:01:17.740 --> 00:01:23.420
+To do this, right click on your page and select
+Attach HTML.
+
+00:01:23.420 --> 00:01:28.600
+We'll be pasting the Head code here over Master
+Page Head.
+
+00:01:28.600 --> 00:01:34.329
+Next go to the Magic Zoom Plus Integration
+page and copy the Head code under Point three
+
+00:01:34.329 --> 00:01:37.159
+of the Installation section.
+
+00:01:37.159 --> 00:01:44.060
+And then paste the code over the Master Page
+Head text.
+
+00:01:44.060 --> 00:01:48.889
+We need to delete the magiczoomplus reference
+because we'll be adding the CSS and JavaScript
+
+00:01:48.889 --> 00:01:52.150
+files directly to the root.
+
+00:01:52.150 --> 00:01:55.229
+When you've finished, close the Editor.
+
+00:01:55.229 --> 00:02:01.899
+Next go to Insert, Web Object, HTML and Draw
+a HTML box.
+
+00:02:01.899 --> 00:02:08.300
+We're going to insert our next bit of code
+over the Body text.
+
+00:02:08.300 --> 00:02:10.440
+Go back to the integration page.
+
+00:02:10.440 --> 00:02:13.580
+This time we'll copy the Body code.
+
+00:02:13.580 --> 00:02:17.470
+And paste it over the Body text in WebPlus.
+
+00:02:17.470 --> 00:02:23.540
+The big reference is for your large image
+which will act as the zoom and enlarge effects.
+
+00:02:23.540 --> 00:02:28.010
+The small reference is for the image which
+will appear on your website.
+
+00:02:28.010 --> 00:02:34.640
+We also need to attach the large and small
+images we've just referenced to the HTML box.
+
+00:02:34.640 --> 00:02:38.470
+I'll just reposition the box.
+
+00:02:38.470 --> 00:02:43.030
+Next we'll attach the files we need to the
+root by clicking Site Manager and make sure
+
+00:02:43.030 --> 00:02:46.550
+you're in the File section.
+
+00:02:46.550 --> 00:02:52.510
+You can see the small and larges images we've
+just attached to our HTML are showing.
+
+00:02:52.510 --> 00:02:58.510
+Next I'll add the button one, hint and loader
+graphics.
+
+00:02:58.510 --> 00:03:00.330
+The CSS file.
+
+00:03:00.330 --> 00:03:04.360
+And the JavaScript file.
+
+00:03:04.360 --> 00:03:09.400
+Now if we preview our page, you can see Magic
+Zoom Plus is working.
+
+00:03:09.400 --> 00:03:15.980
+We have the zoom and the enlarge effect.
+
+00:03:15.980 --> 00:03:20.520
+Now Magic Zoom Plus is installed i'm going
+to make a couple of changes.
+
+00:03:20.520 --> 00:03:23.930
+First i'll change the zoom size.
+
+00:03:23.930 --> 00:03:28.960
+And then change the background colour for
+my enlarged image.
+
+00:03:28.960 --> 00:03:35.200
+Go back to the Integration page, and scroll
+down to Number two – Zoom Size. and copy
+
+00:03:35.200 --> 00:03:38.440
+the rel attribute zoom width zoom height.
+
+00:03:38.440 --> 00:03:46.450
+Then if we go back into the HTML box, I'll
+paste it after the Class code in my HTML.
+
+00:03:46.450 --> 00:03:51.550
+I'm using four hundred pixels for each size
+but you can use any size you want.
+
+00:03:51.550 --> 00:03:57.600
+Next, go back to the Integration page and
+select Number fifteen - Background from the
+
+00:03:57.600 --> 00:04:00.510
+list of anchor links.
+
+00:04:00.510 --> 00:04:08.550
+As we've just added a rel attribute, i'm just
+going to copy the code starting from background.
+
+00:04:08.550 --> 00:04:13.380
+I'll enter a semi colon after four hundred
+pixels and paste my background code after
+
+00:04:13.380 --> 00:04:16.640
+it.
+
+00:04:16.640 --> 00:04:18.479
+And change the colour reference to red.
+
+00:04:18.479 --> 00:04:22.319
+You can use any color you want.
+
+00:04:22.319 --> 00:04:26.249
+Now when I preview my page you'll see the
+zoom area is larger.
+
+00:04:26.249 --> 00:04:31.680
+And my enlarged background is now red.
+
+00:04:31.680 --> 00:04:37.020
+For ideas on how to display your images, go
+to our Examples page.
+
+00:04:37.020 --> 00:04:39.919
+All the HTML code you'll need is on the Integration
+page.
+
+00:04:39.919 --> 00:04:45.969
+There's so many customizations you can make,
+try them all and see what suits your website.
+
+00:04:45.969 --> 00:04:51.520
+At the top of each page on our site, there's
+a contact us link.
+
+00:04:51.520 --> 00:04:56.330
+So if you have any questions about Magic Zoom
+Plus or any of our other tools just get in
+
+00:04:56.330 --> 00:04:57.729
+touch.
+
+00:04:57.729 --> 00:05:01.229
+If we're not online when you send your message
+through we'll get back to you the very next
+
+00:05:01.229 --> 00:05:02.960
+day.
+
+00:05:02.960 --> 00:05:05.300
+And that brings us to the end of this tutorial.
+
+00:05:05.300 --> 00:05:06.319
+Thanks for watching.
+

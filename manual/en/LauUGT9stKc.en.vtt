@@ -1,0 +1,308 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.140 --> 00:00:11.660
+I will next explain the application that we
+will use as our example and cover the hardware
+
+00:00:11.660 --> 00:00:29.800
+that was put together to make it work.
+
+00:00:29.800 --> 00:00:35.340
+We start with a cylindrical polyethylene tank
+that can hold up to ten gallons of water or
+
+00:00:35.340 --> 00:00:36.880
+other fluid.
+
+00:00:36.880 --> 00:00:42.300
+We already determined we need the ability
+to maintain a known volume within the tank
+
+00:00:42.300 --> 00:00:48.530
+that our process will rely on to accurately
+mix additive as the mixture is being used
+
+00:00:48.530 --> 00:00:51.100
+at a random rate.
+
+00:00:51.100 --> 00:00:57.059
+The volume in the tank will be handled with
+a small Diaphragm Pump controlled by a variable
+
+00:00:57.059 --> 00:01:04.230
+DC motor controller that can accept a 0 to
+10 volt DC analog signal from our Productivity
+
+00:01:04.230 --> 00:01:05.940
+3000.
+
+00:01:05.940 --> 00:01:10.700
+We will monitor the level in the tank by means
+of an Ultrasonic Sensor that will produce
+
+00:01:10.700 --> 00:01:17.280
+a 0 to 10 volt DC analog output signal that
+is proportional to the distance between the
+
+00:01:17.280 --> 00:01:20.200
+sensor and the surface of the water.
+
+00:01:20.200 --> 00:01:25.780
+The sensors output will be connected to a
+Productivity 3000 Analog Input Module.
+
+00:01:25.780 --> 00:01:29.899
+Here we see a diagram representing the working
+application.
+
+00:01:29.899 --> 00:01:34.960
+The Process and Reservoir Tanks are shown
+with the interconnecting tubing for both filling
+
+00:01:34.960 --> 00:01:37.710
+and draining the Process Tank.
+
+00:01:37.710 --> 00:01:42.630
+The Ultrasonic Sensor used to measure water
+level is shown mounted through the lid of
+
+00:01:42.630 --> 00:01:44.540
+the Process Tank.
+
+00:01:44.540 --> 00:01:49.950
+We will use the level to calculate the volume
+of water contained in the tank.
+
+00:01:49.950 --> 00:01:55.070
+In our demonstration, a manually operated
+ball valve will be used to set the rate at
+
+00:01:55.070 --> 00:02:00.430
+which the mixture is used through a siphoning
+action, with the water returned to a Reservoir
+
+00:02:00.430 --> 00:02:02.950
+Tank, so it can be reused.
+
+00:02:02.950 --> 00:02:09.230
+A hand operated Primer Bulb, as might be used
+on a gas tank for an outboard engine on a
+
+00:02:09.230 --> 00:02:15.280
+boat, is used to initially start the drainage
+flow, with a siphon tube used to prevent loss
+
+00:02:15.280 --> 00:02:19.340
+of flow once the system is primed.
+
+00:02:19.340 --> 00:02:24.730
+Much of the design that went into our example
+application was based on using products that
+
+00:02:24.730 --> 00:02:27.739
+are carried by AutomationDirect.
+
+00:02:27.739 --> 00:02:34.150
+Of course the Productivity 3000 Programmable
+Automation Controller is our main focus and
+
+00:02:34.150 --> 00:02:37.140
+feature for this tutorial.
+
+00:02:37.140 --> 00:02:42.570
+With its abilities, and the ease of adding
+a C-more Touch Panel, we are able to quickly
+
+00:02:42.570 --> 00:02:46.950
+setup, control and monitor our application.
+
+00:02:46.950 --> 00:02:53.400
+And it was a no brainer to use ADCs sensors,
+relays, push buttons, power supplies, protective
+
+00:02:53.400 --> 00:02:58.500
+devices and wiring components to round out
+the design.
+
+00:02:58.500 --> 00:03:03.650
+Here we see the components from other sources
+that were used to complete our application
+
+00:03:03.650 --> 00:03:04.650
+design.
+
+00:03:04.650 --> 00:03:11.180
+These included the polyethylene tanks, Diaphragm
+Pump, DC motor controller, float switch, the
+
+00:03:11.180 --> 00:03:16.690
+Primer Bulb, vinyl tubing, fittings, and a
+19 inch relay rack.
+
+00:03:16.690 --> 00:03:21.680
+The arrangement of the equipment used for
+the example application was designed so all
+
+00:03:21.680 --> 00:03:26.379
+of the components would fit on a portable
+relay rack.
+
+00:03:26.379 --> 00:03:32.610
+On the front includes the Productivity 3000,
+C-more Touch Panel, Power On and Emergency
+
+00:03:32.610 --> 00:03:38.950
+Stop push buttons, Process Tank with Ultrasonic
+Level Sensor and overflow float switch, and
+
+00:03:38.950 --> 00:03:43.739
+a Stack Light Tower mounted off to the side.
+
+00:03:43.739 --> 00:03:49.130
+On the rear are found the ZipLink modules,
+power supplies, Stride Ethernet switches,
+
+00:03:49.130 --> 00:03:56.870
+relays, circuit protection, DC motor controller,
+reservoir tank, and Diaphragm Pump with a
+
+00:03:56.870 --> 00:03:59.269
+12 volt DC motor.
+
+00:03:59.269 --> 00:04:04.549
+Also included are terminal blocks and wire
+duct to keep the wiring neat.
+
+00:04:04.549 --> 00:04:10.970
+ZipLink modules and cables aided in allowing
+the wiring to take minimum time.
+
+00:04:10.970 --> 00:04:16.110
+Seen next is a series of wiring diagrams,
+or if you prefer, schematics, that detail
+
+00:04:16.110 --> 00:04:19.470
+the wiring in our application example.
+
+00:04:19.470 --> 00:04:25.520
+In particular is the use of protective devices
+and separate DC power supplies for the general
+
+00:04:25.520 --> 00:04:33.290
+DC devices, analog input and output signals,
+and DC power to the Diaphragm Pump motor.
+
+00:04:33.290 --> 00:04:40.620
+The first diagram includes the Power On, Emergency
+Stop, relays, float switch and general 24
+
+00:04:40.620 --> 00:04:43.610
+volt DC circuitry.
+
+00:04:43.610 --> 00:04:50.760
+Sheet 2 of the diagrams shows power and communications
+to the Productivity 3000 and C-more Touch
+
+00:04:50.760 --> 00:04:53.410
+Panel.
+
+00:04:53.410 --> 00:05:00.100
+Also shown is the 24 volt DC power for the
+Stride Ethernet switches and the analog signals.
+
+00:05:00.100 --> 00:05:07.010
+Sheet 3 continues with the Productivity 3000
+discrete DC input and output I/O modules,
+
+00:05:07.010 --> 00:05:12.540
+and the use of ZipLink modules and cables
+to make the actual wiring clean and simple
+
+00:05:12.540 --> 00:05:14.820
+to accomplish.
+
+00:05:14.820 --> 00:05:21.300
+The last diagram includes our Productivity
+3000 analog input and output modules, ZipLink
+
+00:05:21.300 --> 00:05:27.030
+modules and cables to keep the analog signal
+wiring simple, connections to the Ultrasonic
+
+00:05:27.030 --> 00:05:34.050
+Sensor, and a Rhino 12 volt DC power supply
+for the Dart DC motor speed controller used
+
+00:05:34.050 --> 00:05:38.000
+to power the Diaphragm Pump motor.
+
+00:05:38.000 --> 00:05:44.131
+The Ultrasonic Sensors 0 to 10 volts DC signal
+is wired into the first channel of the analog
+
+00:05:44.131 --> 00:05:51.270
+input module by way of a ZipLink module and
+interconnecting cable.
+
+00:05:51.270 --> 00:05:56.710
+The first channel of the analog output module,
+using a ZipLink module and interconnecting
+
+00:05:56.710 --> 00:06:03.780
+cable, provides the 0 to 10 volts DC signal
+to the Dart DC motor speed controller, which
+
+00:06:03.780 --> 00:06:10.470
+allows the Diaphragm Pump to produce a 0 to
+1 gallon per minute flow rate to the Process
+
+00:06:10.470 --> 00:06:13.050
+Tank.
+
+00:06:13.050 --> 00:06:19.550
+Next we need to configure the jumpers on the
+analog input module so the 0 to 10 VDC signal
+
+00:06:19.550 --> 00:06:29.190
+from the Ultrasonic Sensor can be used to
+determine the water level in the Process Tank.
+
+00:06:29.190 --> 00:06:35.030
+The P3-04ADS Analog Input Module we have chosen
+has the ability to be configured to accept
+
+00:06:35.030 --> 00:06:41.100
+either voltage or current signals, and each
+type of signal can also be configured for
+
+00:06:41.100 --> 00:06:50.720
+different ranges, such as 0 to 5 volts DC,
+0 to 10 volts DC, 4 to 20 milliamps, etc.
+
+00:06:50.720 --> 00:06:56.050
+To keep it simple, we will set the Analog
+Input Module up so all four channels will
+
+00:06:56.050 --> 00:07:00.180
+accept a 0 to 10 volts DC signal.
+
+00:07:00.180 --> 00:07:08.700
+This will provide a 0 to 65,535 count range
+within our Productivity 3000 ladder logic
+
+00:07:08.700 --> 00:07:11.340
+program.
+
+00:07:11.340 --> 00:07:16.880
+Join me in Part 4 of this video series as
+I cover configuring our hardware, explain
+
+00:07:16.880 --> 00:07:23.080
+the use of Tagnames, and do some calculations
+to get our signals into understandable and
+
+00:07:23.080 --> 00:07:24.750
+useful engineering units.
+

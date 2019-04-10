@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.949 --> 00:00:08.659
+Now that you have defined various state sets, you need to output all that information to disk.
+
+00:00:09.050 --> 00:00:13.920
+In the State Sets floater, make sure the Render Outputs tab is selected.
+
+00:00:14.462 --> 00:00:18.862
+Here you can define an output path to replace the default one on the C drive.
+
+00:00:19.350 --> 00:00:26.320
+If a default path is not present, close the Render Output panel and reopen a new one from the States menu.
+
+00:00:28.144 --> 00:00:32.811
+Click the Browse button and choose a target folder on your system.
+
+00:00:33.720 --> 00:00:42.110
+In this video, I chose to render to a portable drive (F: on this system) under a folder simply named "Renders".
+
+00:00:42.932 --> 00:00:51.544
+Notice the token defined by the curly brackets. This ensures the output renders have a prefix based on the state set names.
+
+00:00:52.080 --> 00:01:01.340
+In fact, it is often a good idea to separate renders in sub-folders as well, so that each state set renders to its own sub-folder.
+
+00:01:02.340 --> 00:01:06.880
+Simply add a {stateName} token as subfolder to your output drive.
+
+00:01:07.220 --> 00:01:14.420
+This way, inside of the main Renders folder, subfolders named after each state set will be created.
+
+00:01:15.135 --> 00:01:18.672
+This is the significance of the first {stateName} token.
+
+00:01:19.235 --> 00:01:23.747
+Under each of these subfolders, output files will be created.
+
+00:01:24.598 --> 00:01:32.513
+Their names will also carry a prefix based on the state name, which is the significance of the second {stateName} token.
+
+00:01:33.630 --> 00:01:40.740
+In addition to the default "_output" suffix, sequential numbers will be added based on the rendered frames.
+
+00:01:40.965 --> 00:01:47.998
+In fact, you may find the "_output" label a bit redundant and simply make do without it.
+
+00:01:48.270 --> 00:01:50.680
+Sequential numbers will still be added.
+
+00:01:51.398 --> 00:01:58.528
+Finally, you can choose your render output file type or simply accept the TGA image type format.
+
+00:01:59.198 --> 00:02:06.968
+If you need to adjust the TGA options, simply call up the virtual frame buffer and save a temporary image to disk.
+
+00:02:08.480 --> 00:02:11.324
+Specify a name with a .tga extension.
+
+00:02:11.740 --> 00:02:19.240
+As you press enter, adjust the TGA options to ensure they are set to 32-bit to preserve Alpha information.
+
+00:02:20.571 --> 00:02:24.003
+You can delete the temporary image file you just saved to disk.
+
+00:02:24.751 --> 00:02:28.261
+This TGA setup remains active until you change it again.
+
+00:02:29.028 --> 00:02:34.007
+When you're done, click on Set Path to create the output folders.
+
+00:02:34.503 --> 00:02:36.812
+You are now ready to render your scene out.
+
+00:02:37.205 --> 00:02:43.115
+Be aware that this process will take an hour or two based on your computer speed and the output resolution you specified.
+
+00:02:43.571 --> 00:02:52.088
+On the system used to record these movies, it takes a little less than an hour to record all states at a 960x540 resolution.
+
+00:02:52.690 --> 00:02:55.730
+In full HD (1920x1024), it will take longer.
+
+00:02:56.620 --> 00:03:01.455
+When you are ready to proceed, choose States &gt; Render All States.
+
+00:03:02.018 --> 00:03:08.663
+Go grab lunch, or dinner, and come back later when the rendering is done and you're ready to proceed with the next movie.
+
+00:03:09.241 --> 00:03:17.773
+In the next movie, you take a look at your composition inside of 3ds Max, prior to exporting it to Adobe After Effects.
+

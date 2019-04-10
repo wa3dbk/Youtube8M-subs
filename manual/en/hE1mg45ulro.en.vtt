@@ -1,0 +1,249 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.580 --> 00:00:06.279
+Hello, my name is Baljit Chandhoke and I’m
+the Product Marketing Manager of Timing Products
+
+00:00:06.279 --> 00:00:07.419
+at IDT.
+
+00:00:07.419 --> 00:00:14.929
+Today, I will give you a brief introduction
+of our new low power programmable clock family,
+
+00:00:14.929 --> 00:00:16.850
+VersaClock 5.
+
+00:00:16.850 --> 00:00:23.130
+VersaClock 5 is a low power, programmable
+clock generator with best in class jitter
+
+00:00:23.130 --> 00:00:30.710
+performance with less than .7ps RMS phase
+jitter from 12KHZ to 20MHz.
+
+00:00:30.710 --> 00:00:37.500
+The highly integrated device consolidates
+four differential or eight single-ended clock
+
+00:00:37.500 --> 00:00:42.960
+generators and can store up to four different
+configuration settings, helping to minimize
+
+00:00:42.960 --> 00:00:45.970
+board space and bill of materials.
+
+00:00:45.970 --> 00:00:48.430
+It also has a buffered reference clock output.
+
+00:00:48.430 --> 00:00:57.890
+The high performance clock generator operates
+at less than 100mW core power, 50% lower than
+
+00:00:57.890 --> 00:01:04.780
+competing devices, with typical total device
+power of 300mW with all outputs operational,
+
+00:01:04.780 --> 00:01:11.250
+helping to ease system tunnel constraints
+and reduce operating power expenses.
+
+00:01:11.250 --> 00:01:16.360
+VersaClock 5 has four universal output pairs.
+
+00:01:16.360 --> 00:01:23.910
+Each output pair can be configured as HCSL,
+LVPECL, LVDS, or two LVCMOS outputs.
+
+00:01:23.910 --> 00:01:31.800
+VersaClock 5 has in-system, programmable clock
+generator via I2C as well as IDT’s Timing
+
+00:01:31.800 --> 00:01:33.630
+Commander Software.
+
+00:01:33.630 --> 00:01:38.700
+This slide shows the block diagram of VersaClock
+5.
+
+00:01:38.700 --> 00:01:43.110
+VersaClock 5 can take a crystal or clock input.
+
+00:01:43.110 --> 00:01:49.090
+It has four fractional output dividers, which
+allow programming of four independent frequencies,
+
+00:01:49.090 --> 00:01:51.400
+up to 350MHz.
+
+00:01:51.400 --> 00:01:59.549
+The four universal output pairs are independently
+configurable as HCSL, LVPECL, LVDS or dual
+
+00:01:59.549 --> 00:02:01.310
+LVCS outputs.
+
+00:02:01.310 --> 00:02:05.110
+It also features a reference clock output.
+
+00:02:05.110 --> 00:02:11.200
+The fractional output dividers driving each
+output pair are easily programmed via I2C,
+
+00:02:11.200 --> 00:02:17.220
+while the device is operating in the system,
+enabling system tuning and margin testing.
+
+00:02:17.220 --> 00:02:24.540
+Unlimited in-system reprogramming is possible
+via I2C, whereas four banks of one-time programmable
+
+00:02:24.540 --> 00:02:30.480
+non-volatile memory provide flexibility for
+multi-project imagery consolidation or design
+
+00:02:30.480 --> 00:02:32.910
+changes in field.
+
+00:02:32.910 --> 00:02:41.349
+Upon request, the devices may be factory programmed
+to customer’s desired configuration.
+
+00:02:41.349 --> 00:02:49.640
+VersaClock 5 has excellent phase jitter performance
+with 610fsec RMS phase jitter, as shown on
+
+00:02:49.640 --> 00:02:51.160
+the phase noise plot.
+
+00:02:51.160 --> 00:03:00.260
+With RMS phase jitter less than .7ps or the
+full 12KHz to 20MHz integration range, the
+
+00:03:00.260 --> 00:03:08.360
+new device meets the stringent jitter requirements
+of PCI Express Gen 1, Gen 2, and Gen 3, as
+
+00:03:08.360 --> 00:03:13.970
+well as USB3.0 and 1G/10G Ethernet.
+
+00:03:13.970 --> 00:03:22.010
+IDT’s new Timing Commander Software platform
+enables customers to configure program VersaClock
+
+00:03:22.010 --> 00:03:29.379
+5 with an intuitive and flexible graphical
+user interface, as you see on the slide.
+
+00:03:29.379 --> 00:03:33.989
+You can program the four fractional output
+dividers, providing four independent output
+
+00:03:33.989 --> 00:03:37.710
+frequencies with 0 ppm error.
+
+00:03:37.710 --> 00:03:44.090
+You can configure universal output pairs as
+differential LVDs, HCSL, LVPECL, or two single
+
+00:03:44.090 --> 00:03:53.379
+unit outputs, as well as program each output
+independently with spread spectrum, if needed.
+
+00:03:53.379 --> 00:04:01.740
+VersaClock 5 is useful in high-end consumer
+applications, networking applications, computing
+
+00:04:01.740 --> 00:04:08.459
+applications, industrial communications, broadcast
+radio and medical applications.
+
+00:04:08.459 --> 00:04:15.900
+The block diagram shows a typical application
+of VersaClock 5, which has a 125 LVPECL output
+
+00:04:15.900 --> 00:04:24.740
+for gigabit Ethernet, a 156.25MHz LVDS output
+for 10 gig Ethernet and a 100MHz HCSL output
+
+00:04:24.740 --> 00:04:30.849
+for PCIe Gen3, as well as a 25MHz reference
+output.
+
+00:04:30.849 --> 00:04:36.870
+With all the different outputs operational
+and the cross-talk – including the cross-talk,
+
+00:04:36.870 --> 00:04:43.520
+we get 700fsec integrated phase jitter from
+12KHz to 20MHz.
+
+00:04:43.520 --> 00:04:48.310
+The key application issues solved by VersaClock
+5 are shown on the slide.
+
+00:04:48.310 --> 00:04:56.270
+In summary, VersaClock 5 is a low-power, programmable
+clock generator with best-in-class performance
+
+00:04:56.270 --> 00:04:58.169
+and design flexibility.
+
+00:04:58.169 --> 00:04:59.759
+It has excellent phase jitter performance.
+
+00:04:59.759 --> 00:05:06.400
+Our wide range of frequencies provides design
+flexibility with less than .7ps RMS phase
+
+00:05:06.400 --> 00:05:09.169
+jitter from 12KHz to 20MHz.
+
+00:05:09.169 --> 00:05:15.039
+VersaClock 5 has significantly less power
+consumption, which enables easing thermal
+
+00:05:15.039 --> 00:05:16.680
+constraints in the system.
+
+00:05:16.680 --> 00:05:22.909
+IDT VersaClock 5 programmable clocks are ideal
+clocking solutions for a wide range of applications
+
+00:05:22.909 --> 00:05:28.430
+replacing crystal oscillators, clock generators
+– allowing for in-system programming, saving
+
+00:05:28.430 --> 00:05:34.360
+BOM and board space, as well as improving
+time to market and shortening design time.
+
+00:05:34.360 --> 00:05:39.879
+IDT VersaClock 5 provides industry’s most
+versatile, low-power clock generation solution
+
+00:05:39.879 --> 00:05:46.800
+for consumer, computing, industrial, communications
+and networking applications.
+
+00:05:46.800 --> 00:05:50.530
+We have complete product support for VersaClock
+5.
+
+00:05:50.530 --> 00:05:54.509
+We have a product brief, product data sheet,
+programming guide, elevation board with user’s
+
+00:05:54.509 --> 00:05:58.529
+manual, Timing Commander Software with user’s
+manual, product radio reference schematic
+
+00:05:58.529 --> 00:06:01.439
+available at the link shown on the slide.
+
+00:06:01.439 --> 00:06:03.049
+www.idt.com/go/VersaClock5
+Thank you for your time.
+

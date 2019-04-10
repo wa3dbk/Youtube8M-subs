@@ -1,0 +1,274 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.049 --> 00:00:01.049
+David Kadavy: Hi!
+
+00:00:01.049 --> 00:00:03.749
+This is David Kadavy with Kadavy.net and today
+I am going to show you how to transfer your
+
+00:00:03.749 --> 00:00:08.220
+iTunes library from one computer to another,
+without losing your song ratings or your play
+
+00:00:08.220 --> 00:00:09.220
+counts.
+
+00:00:09.220 --> 00:00:12.640
+These can be very valuable when it comes to
+actually navigating your music on the computer.
+
+00:00:12.640 --> 00:00:17.310
+There's a number of ways to actually get the
+physical files to a new computer, but retaining
+
+00:00:17.310 --> 00:00:23.990
+play counts and song ratings requires a little
+bit of hacking.
+
+00:00:23.990 --> 00:00:26.189
+First, we're on our old computer.
+
+00:00:26.189 --> 00:00:32.349
+We are going to to go to our iTunes Menu,
+File &gt; Library &gt; Export Library.
+
+00:00:32.349 --> 00:00:33.410
+This is going to create an XML file.
+
+00:00:33.410 --> 00:00:38.079
+I am just going to export this to my desktop
+and this is going to have all this information
+
+00:00:38.079 --> 00:00:42.879
+in there about my play counts and my song
+ratings.
+
+00:00:42.879 --> 00:00:47.290
+Now you're going to want to transfer the actual
+files over to the new computer.
+
+00:00:47.290 --> 00:00:48.469
+There's a number of different ways to do this.
+
+00:00:48.469 --> 00:00:50.699
+Probably the best way is with an external
+hard drive.
+
+00:00:50.699 --> 00:00:55.530
+I am not personally going to go through all
+the details of that right now, but to find
+
+00:00:55.530 --> 00:01:01.699
+out where your music is in your old computer,
+just go to your iTunes library, right-click
+
+00:01:01.699 --> 00:01:08.640
+on a song, go "Show in Finder" or if you're
+on a Windows machine it will say something
+
+00:01:08.640 --> 00:01:12.870
+else obviously, and you'll see where your
+files are.
+
+00:01:12.870 --> 00:01:17.890
+Go back through the directory structure a
+little bit, and then you'll see the root folder
+
+00:01:17.890 --> 00:01:19.470
+that holds all of your iTunes media.
+
+00:01:19.470 --> 00:01:23.700
+So this folder right here that says "iTunes
+Media," is a folder that I would want to transfer
+
+00:01:23.700 --> 00:01:28.210
+to my new computer, and I'll meet you over
+there in a second.
+
+00:01:28.210 --> 00:01:30.300
+OK, here I am over on my new computer.
+
+00:01:30.300 --> 00:01:32.300
+It looks oddly similar, doesn't it?
+
+00:01:32.300 --> 00:01:34.590
+Anyway, I've got an empty iTunes library.
+
+00:01:34.590 --> 00:01:40.560
+I've got my XML file, library.xml over here,
+and I have got my iTunes media file here on
+
+00:01:40.560 --> 00:01:41.560
+my Desktop.
+
+00:01:41.560 --> 00:01:46.500
+The first thing I want to do is going to iTunes
+&gt; Preferences &gt; Advanced.
+
+00:01:46.500 --> 00:01:53.390
+Make sure this copy files to "iTunes Media"
+folder, when adding the library, is selected.
+
+00:01:53.390 --> 00:01:54.990
+It is, that is good.
+
+00:01:54.990 --> 00:01:59.650
+Now, this "iTunes media" folder has a space
+in the name of it, that's just going to complicate
+
+00:01:59.650 --> 00:02:01.720
+things.
+
+00:02:01.720 --> 00:02:08.320
+Let's just change the name to just "iTunesmusic,"
+with no space.
+
+00:02:08.320 --> 00:02:16.500
+Now, we're going to open up the library.xml
+file.
+
+00:02:16.500 --> 00:02:21.570
+Look in here, you're going to see, this says,
+"Music folder," string file.
+
+00:02:21.570 --> 00:02:25.560
+This is the file path of where the music folder
+was on my old computer.
+
+00:02:25.560 --> 00:02:31.730
+Now, if you're doing this, you're probably
+doing this from a Windows to a Mac, so it
+
+00:02:31.730 --> 00:02:38.560
+probably says "C:\".
+
+00:02:38.560 --> 00:02:42.050
+Watch out for those back slashes, when we
+change this file path.
+
+00:02:42.050 --> 00:02:46.720
+What we're going to do is define the file
+path of our new music folder.
+
+00:02:46.720 --> 00:02:49.340
+I'm going to right click and say, "Get info."
+
+00:02:49.340 --> 00:02:56.010
+You can see the user is guest desktop, and
+then of course, it's iTunes music.
+
+00:02:56.010 --> 00:03:01.540
+What we're going to do is do a find change
+and, if you're going to a Mac, make sure you
+
+00:03:01.540 --> 00:03:06.290
+remember this "file://".
+
+00:03:06.290 --> 00:03:07.620
+We're going to do a find change.
+
+00:03:07.620 --> 00:03:14.980
+We're going to find everything that says this,
+and we're going to copy it.
+
+00:03:14.980 --> 00:03:22.340
+Go to edit, find, find, and paste that in
+there.
+
+00:03:22.340 --> 00:03:31.000
+That's command V, open Apple V, replace with,
+now we're going to type in our new file path.
+
+00:03:31.000 --> 00:03:41.490
+"File://Users/", with capitalized, "Guest/",
+capitalized, which you probably have a different
+
+00:03:41.490 --> 00:03:42.490
+user name.
+
+00:03:42.490 --> 00:03:49.790
+"Desktop/", capitalized, and another forward
+slash, "iTunesmusic/", and then one final
+
+00:03:49.790 --> 00:03:50.790
+forward slash.
+
+00:03:50.790 --> 00:03:54.709
+We're going to do replace all.
+
+00:03:54.709 --> 00:04:06.370
+That is going to change, automagically, everything
+in our whole library.xml that says that.
+
+00:04:06.370 --> 00:04:09.410
+Now, we're going to save that library.xml
+file.
+
+00:04:09.410 --> 00:04:16.129
+All right, now I'm going to actually import
+this library, using this XML file.
+
+00:04:16.129 --> 00:04:19.810
+I go to File &gt; Library &gt; Import playlist.
+
+00:04:19.810 --> 00:04:23.479
+Find my library.xml file.
+
+00:04:23.479 --> 00:04:26.740
+Wait a little and it will automatically import
+my library.
+
+00:04:26.740 --> 00:04:31.639
+Now, while I'm waiting for that, I'll tell
+you that you can also find written instructions
+
+00:04:31.639 --> 00:04:37.190
+on this at Kadavy.net, on my post "Transfer
+your iTunes library from one computer to another.:
+
+00:04:37.190 --> 00:04:40.680
+If you wanted to find this, you could just
+search for "Transfer iTunes Kadavy."
+
+00:04:40.680 --> 00:04:43.879
+Also, I have the link in the sidebar.
+
+00:04:43.879 --> 00:04:47.139
+It's finally done transferring.
+
+00:04:47.139 --> 00:04:49.729
+You can see now that I've got all my song
+ratings on here.
+
+00:04:49.729 --> 00:04:53.099
+I started with a dummy library, I would have
+play counts on there.
+
+00:04:53.099 --> 00:04:57.009
+If you're wondering why I have so many ones
+and twos in my libraries, it's because I organize
+
+00:04:57.009 --> 00:05:00.310
+it using a mood based iTunes rating system.
+
+00:05:00.310 --> 00:05:05.539
+You can also find that on Kadavy.net, by searching
+for "Mood based Kadavy," or I have the link
+
+00:05:05.539 --> 00:05:06.779
+in the sidebar for that.
+
+00:05:06.779 --> 00:05:11.449
+Anyway, I hope this helps you transfer your
+iTunes library from one computer to another.
+
+00:05:11.449 --> 00:05:16.330
+You can save all your song ratings, your play
+counts, and even your play lists, as well.
+
+00:05:16.330 --> 00:05:18.729
+This has been David Kadavy with Kadavy.net.
+

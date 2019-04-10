@@ -1,0 +1,310 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.380
+Hello, everyone
+
+00:00:01.380 --> 00:00:03.880
+Today we're taking a look at the 'Maldal' Windows Worm.
+
+00:00:04.380 --> 00:00:06.820
+I got a few requests over the past several months
+
+00:00:06.820 --> 00:00:07.900
+for a remake video of this.
+
+00:00:07.900 --> 00:00:09.380
+So, figured I'd oblige.
+
+00:00:10.280 --> 00:00:15.460
+So, first things first, take a look at the specifications we got on this virtual machine.
+
+00:00:15.720 --> 00:00:18.340
+As you can see, we got about 2GB total on the disk
+
+00:00:18.340 --> 00:00:20.340
+and about 1.5GB free.
+
+00:00:20.340 --> 00:00:22.420
+But, Maldal will certainly change that.
+
+00:00:22.420 --> 00:00:24.120
+So, we'll go ahead and run it.
+
+00:00:24.120 --> 00:00:25.780
+It is supposed to be an email worm,
+
+00:00:25.780 --> 00:00:28.040
+but, I can't get the email spreading routine to work
+
+00:00:28.040 --> 00:00:29.220
+So,
+
+00:00:29.380 --> 00:00:31.500
+So, we get this error message : "Runtime Error 71"
+
+00:00:31.500 --> 00:00:32.980
+Object Required"
+
+00:00:32.980 --> 00:00:33.960
+Alright.
+
+00:00:34.440 --> 00:00:37.060
+"Project 1", I'm assuming that means Visual Basic-
+
+00:00:37.060 --> 00:00:38.780
+Oh shit, what's happening?
+
+00:00:39.760 --> 00:00:42.600
+We got a bunch of "Sharoon.exe" files
+
+00:00:43.140 --> 00:00:45.140
+and the computer is lagging like crazy-
+
+00:00:45.960 --> 00:00:47.960
+or, at least this message box is.
+
+00:00:48.820 --> 00:00:51.000
+What is happening?
+
+00:00:51.560 --> 00:00:53.900
+Why can't I do anything?
+
+00:00:54.760 --> 00:00:56.760
+Can we open folders?
+
+00:00:56.760 --> 00:00:58.760
+Really slowly, we can.
+
+00:01:02.000 --> 00:01:04.300
+If we look in the Windows folder,
+
+00:01:05.920 --> 00:01:10.060
+I believe it drops, (There we go) "LucKey.exe"
+
+00:01:10.060 --> 00:01:13.220
+Get it? Lucky, but not actually lucky because its a worm.
+
+00:01:14.020 --> 00:01:16.240
+So, about 80KB.
+
+00:01:17.120 --> 00:01:21.320
+If we take a look, these useless files are all copies of the worm.
+
+00:01:21.320 --> 00:01:22.840
+So.
+
+00:01:23.780 --> 00:01:25.780
+But, what you don't realize
+
+00:01:26.620 --> 00:01:29.780
+Is that past your desktop, it is still filling them up.
+
+00:01:30.100 --> 00:01:33.520
+So, we got the original Maldal there executable here on your desktop
+
+00:01:33.820 --> 00:01:36.480
+And we got Sharoon.
+
+00:01:36.480 --> 00:01:37.800
+And its just going on and on and on.
+
+00:01:37.800 --> 00:01:39.480
+Sharoon.
+
+00:01:43.800 --> 00:01:45.800
+let's see how many items we have.
+
+00:01:47.200 --> 00:01:49.820
+8,904! That's quite a few shortcuts.
+
+00:01:50.260 --> 00:01:52.260
+If we refresh,
+
+00:01:52.260 --> 00:01:54.840
+Now we got a bunch of Bush.exe's
+
+00:01:56.560 --> 00:01:58.560
+'W has taken over your computer, I guess.
+
+00:01:59.360 --> 00:02:01.440
+Now we have over 10,000 items!
+
+00:02:01.580 --> 00:02:03.700
+And, these aren't just shortcuts.
+
+00:02:03.700 --> 00:02:05.500
+If we take a look at the C: Drive...
+
+00:02:05.500 --> 00:02:06.700
+Er- yeah.
+
+00:02:08.820 --> 00:02:10.920
+Our available space is rapidly diminishing!
+
+00:02:10.920 --> 00:02:13.000
+We're down to just 400MB.
+
+00:02:14.820 --> 00:02:17.760
+And since that, we're down another 50MB,
+
+00:02:17.760 --> 00:02:19.240
+To 366.
+
+00:02:19.780 --> 00:02:21.780
+So, as you can see, it is filling up your hard drive,
+
+00:02:21.780 --> 00:02:23.100
+Which is kinda bad.
+
+00:02:23.820 --> 00:02:25.940
+Eventually, we should be running out of space.
+
+00:02:29.600 --> 00:02:32.020
+Now, if you were aware of what was going on you should be able to...
+
+00:02:32.020 --> 00:02:34.180
+Can you Control-Alt-Delete?
+
+00:02:34.360 --> 00:02:36.360
+Maybe not...
+
+00:02:36.500 --> 00:02:39.440
+OK, I guess Control-Alt-Delete is disabled.
+
+00:02:41.760 --> 00:02:43.780
+Task Manager...
+
+00:02:44.000 --> 00:02:45.820
+Oh, I can't do that in this version of Windows I guess..
+
+00:02:47.860 --> 00:02:50.000
+Crap, we're almost down to 100MB!
+
+00:03:01.760 --> 00:03:03.760
+Still reducing...
+
+00:03:05.320 --> 00:03:07.980
+35MB...we have run out of disk space...Oh o!
+
+00:03:09.040 --> 00:03:11.300
+Disk Cleanup...What can we fix?
+
+00:03:11.780 --> 00:03:13.020
+We can get rid of...
+
+00:03:13.380 --> 00:03:15.400
+0MB, alright!
+
+00:03:15.520 --> 00:03:16.380
+Do it!
+
+00:03:17.040 --> 00:03:19.160
+Yes, delete all 0MB!
+
+00:03:22.700 --> 00:03:24.760
+This "Project 1" file is still frozen.
+
+00:03:24.760 --> 00:03:26.120
+Can't do anything.
+
+00:03:26.120 --> 00:03:27.880
+Can't even move it...
+
+00:03:31.400 --> 00:03:33.560
+And... we are completely out of space
+
+00:03:33.560 --> 00:03:35.040
+on the C: drive.
+
+00:03:35.040 --> 00:03:36.980
+Zero bytes available.
+
+00:03:38.560 --> 00:03:41.140
+What if we wanted to create a new...text document? What would happen?
+
+00:03:41.540 --> 00:03:43.540
+"The directory or file cannot be created"
+
+00:03:43.540 --> 00:03:45.100
+Well, shit!
+
+00:03:45.100 --> 00:03:46.760
+But, it is pretty easy to fix.
+
+00:03:47.360 --> 00:03:49.640
+Just open your favorite Command Prompt...
+
+00:03:50.120 --> 00:03:52.380
+Do a dir /w...
+
+00:03:52.640 --> 00:03:54.880
+Yeah, this is going to take awhile.
+
+00:03:54.880 --> 00:03:56.700
+To list all of these files.
+
+00:03:56.700 --> 00:03:58.240
+Maybe we should... stop?
+
+00:03:58.240 --> 00:03:59.980
+How do you break? Control-Shift-Break?
+
+00:04:00.080 --> 00:04:02.140
+Yeah, there we go.
+
+00:04:02.480 --> 00:04:04.720
+Assuming you don't have any executables on your desktop...
+
+00:04:04.720 --> 00:04:06.540
+Star.exe,
+
+00:04:08.200 --> 00:04:09.480
+And... we're good to go!
+
+00:04:12.580 --> 00:04:13.460
+Should see it disappear...
+
+00:04:13.940 --> 00:04:15.940
+F5?
+
+00:04:16.180 --> 00:04:18.180
+"ZA-Union.exe"?
+
+00:04:18.180 --> 00:04:19.640
+What is happening?
+
+00:04:19.880 --> 00:04:21.920
+Are we getting...replaced?
+
+00:04:21.920 --> 00:04:23.580
+1.18GB...
+
+00:04:24.300 --> 00:04:26.300
+Oh, it is still going!
+
+00:04:26.300 --> 00:04:27.580
+I guess we gotta restart.
+
+00:04:27.780 --> 00:04:29.920
+But, uh there's not really a point of restarting,
+
+00:04:29.920 --> 00:04:31.560
+and just showing you.
+
+00:04:31.560 --> 00:04:33.760
+So, until you can stop the worm,
+
+00:04:33.760 --> 00:04:35.780
+and delete its file from the Windows folder...
+
+00:04:35.780 --> 00:04:37.280
+Then you can clean up its mess of files.
+
+00:04:37.680 --> 00:04:40.780
+Until then, you'll have a real lack of disk space to work with.
+
+00:04:41.340 --> 00:04:43.600
+So, that's about it for the 'Maldal' Windows worm.
+

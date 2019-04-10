@@ -1,0 +1,225 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.433 --> 00:00:02.273
+&gt;&gt; Hi and welcome to the Product Design Show.
+
+00:00:02.473 --> 00:00:04.779
+I'm Allison Toepperwein.
+&gt;&gt; And I'm Vince Penman.
+
+00:00:04.979 --> 00:00:13.105
+This is the surfing episode, yeah,
+where we explore how engineers create indoor waves.
+
+00:00:20.793 --> 00:00:24.255
+&gt;&gt; Bruce McFarland, engineer inventor
+at American Wave Machines,
+
+00:00:24.455 --> 00:00:28.810
+talks to us about how they developed
+an innovative technology called SurfStream.
+
+00:00:29.010 --> 00:00:33.458
+This waterpark environment provides surfers
+with an incredible indoor ride.
+
+00:00:33.658 --> 00:00:39.105
+Bruce got his inspiration for this technology
+from the idea of surfing a standing wave on a river
+
+00:00:39.305 --> 00:00:41.513
+and the dream of an endless ride.
+
+00:00:41.713 --> 00:00:44.189
+We're going to look under the hood
+of this impressive system
+
+00:00:44.389 --> 00:00:47.497
+and explore its design from a fluid dynamics perspective.
+
+00:00:47.697 --> 00:00:51.794
+To do that, we'll need to reach all the way back
+to our university fluids class
+
+00:00:51.994 --> 00:00:56.274
+and revisit the natural phenomenon known as a hydraulic
+jump, the major principle
+
+00:00:56.474 --> 00:00:59.229
+in which the surfing wave machine is designed.
+
+00:00:59.429 --> 00:01:03.962
+&gt;&gt; Hydraulic jump is a phenomenon that naturally occurs
+in open channel water flow.
+
+00:01:04.162 --> 00:01:10.450
+When a moving flow of water releases into an area
+of lower velocity flow, it slows down very quickly.
+
+00:01:10.650 --> 00:01:14.227
+The kinetic energy of the flow
+is converted to potential energy
+
+00:01:14.427 --> 00:01:17.783
+in the form of a wave known as a hydraulic jump.
+
+00:01:17.983 --> 00:01:22.150
+An example of an everyday hydraulic jump
+is the stationary circular wave
+
+00:01:22.350 --> 00:01:28.112
+that forms around a stream of water as it flows
+out of the tap and contacts a flat surface.
+
+00:01:28.312 --> 00:01:33.995
+The jump is characterised by fast moving water
+before the jump, where there is also low water height
+
+00:01:34.195 --> 00:01:40.076
+and a smooth flow, and a slower flow after the jump,
+where there is also higher water depth
+
+00:01:40.276 --> 00:01:42.013
+and a more turbulent flow.
+
+00:01:42.213 --> 00:01:46.659
+&gt;&gt; To make a standing surf wave,
+engineers use stationary submerged objects
+
+00:01:46.859 --> 00:01:48.803
+to direct the moving water upwards.
+
+00:01:49.003 --> 00:01:52.376
+The shape of the object is altered
+to create different types of flows.
+
+00:01:52.576 --> 00:01:57.225
+The determination of this shape involves complex
+calculations which we've love to do
+
+00:01:57.425 --> 00:02:00.203
+but Vince forgot his calculator.
+
+00:02:00.403 --> 00:02:03.943
+&gt;&gt; The SurfStream system starts with a series of pumps
+in one end of a pool
+
+00:02:04.143 --> 00:02:07.056
+that push out a smooth, flat, fast flow of water.
+
+00:02:07.256 --> 00:02:11.197
+This water is forced over a contoured bottom
+that includes a spoiler
+
+00:02:11.397 --> 00:02:14.741
+that is shaped much like a spoiler on the rear of a car.
+
+00:02:14.941 --> 00:02:19.685
+The water then encounters
+a smooth bump Bruce calls a foil.
+
+00:02:19.885 --> 00:02:26.203
+When the water is forced over these contours,
+the hydraulic jump is formed between a spoiler and the foil.
+
+00:02:26.403 --> 00:02:31.552
+&gt;&gt; What really sets the man made waves apart is that
+they are standing waves, unlike the waves in the ocean.
+
+00:02:31.752 --> 00:02:36.132
+When surfing on the hydraulic jump, a rider has
+to manage the dynamic relationships
+
+00:02:36.332 --> 00:02:41.185
+between water streaming over the jump,
+the nonholonomic constraints of the board surfaces
+
+00:02:41.385 --> 00:02:43.948
+acting on the water, and the gravity vector.
+
+00:02:44.148 --> 00:02:46.425
+Now you know why we just say surfing.
+
+00:02:46.625 --> 00:02:52.078
+The result is an infinite ride in a finite space that feels
+like surfing a wave in the ocean.
+
+00:02:52.278 --> 00:02:56.680
+&gt;&gt; The standing wave can be adjusted to different shapes,
+including left and right barreling waves,
+
+00:02:56.880 --> 00:03:01.991
+stable beginner waves and natural standing waves which
+are deeper and more challenging.
+
+00:03:02.191 --> 00:03:07.788
+This is accomplished by changing parameters such
+as incoming flow rate, the incoming channel width and
+
+00:03:07.988 --> 00:03:11.431
+the contour of the bottom including the spoiler and the foil.
+
+00:03:11.631 --> 00:03:16.145
+The team at American Wave Machines selected Creo's
+direct modeling to manipulate these parameters
+
+00:03:16.345 --> 00:03:21.625
+because it allows them advanced surfacing features
+and rapid design changes.
+
+00:03:21.825 --> 00:03:25.771
+For example, if you want to change a barreling wave
+from right to left,
+
+00:03:25.971 --> 00:03:29.550
+a mirror image of an angled spoiler replaces the original.
+
+00:03:29.750 --> 00:03:34.291
+The angled barrier allows the water
+to be pushed sideways as well as forwards,
+
+00:03:34.491 --> 00:03:41.680
+creating a wave in which the water is pushed to one side in
+a curl, much like a wave found naturally in the ocean.
+
+00:03:41.880 --> 00:03:47.099
+&gt;&gt; So now you must be wondering, where does
+the water come from?
+
+00:03:47.299 --> 00:03:50.908
+The answer? The water is circulated continuously.
+
+00:03:51.108 --> 00:03:55.925
+On a curling wave, for example, the water is pushed
+to one side of the pool called the Venturi area.
+
+00:03:56.125 --> 00:04:00.400
+The water has to escape so as not to accumulate
+and destroy the wave effect.
+
+00:04:00.600 --> 00:04:04.848
+This water is forced along this Venturi channel
+and exits through a series of drains
+
+00:04:05.048 --> 00:04:08.252
+which feed back to the pumps, thus completing the cycle.
+
+00:04:08.439 --> 00:04:11.599
+&gt;&gt; You can try a free for lifetime version
+of Creo's direct modeling yourself,
+
+00:04:11.815 --> 00:04:16.619
+the same software the team at American Wave Machine
+used to design the SurfStream environments.
+
+00:04:16.800 --> 00:04:20.920
+Just go to ptc.com/go/modelingpe.
+
+00:04:21.120 --> 00:04:29.800
+&gt;&gt; If you like the show, please give it a Like on Facebook,
+subscribe on YouTube or give us a rating on iTunes.
+00:04:29.800,00:00:32.799
+We'll see you next week for more great design engineering.
+

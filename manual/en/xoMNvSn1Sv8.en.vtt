@@ -1,0 +1,226 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.600 --> 00:00:06.166
+Welcome to the Introductory Tutorial for PhotoModeler Scanner's 
+SmartMatch and Dense Surface Modeling.
+
+00:00:06.166 --> 00:00:10.166
+This tutorial shows how to create a dense surface model using 
+SmartMatch automation and multi-view stereo.
+
+00:00:10.166 --> 00:00:14.266
+This tutorial shows how to create a dense surface model using 
+SmartMatch automation and multi-view stereo.
+
+00:00:14.266 --> 00:00:16.266
+Here is the finished project created from these 9 photos.
+
+00:00:16.266 --> 00:00:18.266
+Here is the finished project created from these 9 photos.
+
+00:00:18.266 --> 00:00:22.266
+PhotoModeler Scanner has four stages to create the final textured 
+model. 
+
+00:00:22.266 --> 00:00:25.199
+These 3D views show the project after each of these stages.
+
+00:00:25.200 --> 00:00:28.933
+This 3D view shows the results of the first stage.  
+
+00:00:28.933 --> 00:00:35.399
+The SmartMatch process matches key features across the 
+photos and uses these to solve the camera positions as well as 
+creating this sparse point set.
+
+00:00:35.400 --> 00:00:41.500
+The solution from the first stage is used by the multi-view stereo 
+system - M V S for short ...
+
+00:00:41.500 --> 00:00:46.233
+...to create this dense point cloud.  Zooming in you can see the 
+points created by this step.
+
+00:00:46.233 --> 00:00:52.999
+Each point in the cloud has it's color extracted from the photos.
+
+00:00:53.000 --> 00:01:02.333
+These points are then triangulated during the modify mesh step 
+to create this shaded mesh.
+
+00:01:12.666 --> 00:01:16.666
+Finally, the triangulated mesh has textures applied from the 
+original photos.
+
+00:01:21.233 --> 00:01:25.233
+We will now show this project being created from the beginning.
+
+00:01:25.233 --> 00:01:29.233
+Open the 'Getting Started' dialog.
+
+00:01:30.900 --> 00:01:33.000
+Select a new 'Automated Project' 
+
+00:01:33.000 --> 00:01:39.266
+There are two types of automated projects, coded targets and 
+SmartMatch.
+This tutorial covers the SmartMatch technique. 
+
+00:01:39.733 --> 00:01:43.733
+Select the nine images used in the project.
+
+00:01:46.800 --> 00:01:48.600
+Hit 'Next' and a camera calibration prompt apears.
+
+00:01:48.633 --> 00:01:50.699
+Hit 'Next' and a camera calibration prompt apears.
+
+00:01:50.700 --> 00:01:59.733
+Load the calibration from the tutorial .pmr file.  If the calibration 
+was already in the library it would be matched automatically and 
+this pane of the wizard would not apear.
+
+00:01:59.733 --> 00:02:06.266
+Also, in some cases you can use an aproximate camera or 
+SmartMatch auto-calibration.
+
+00:02:06.266 --> 00:02:13.666
+Hitting 'Run' now would complete the first of the four steps.The 
+results could be reviewed, and changes made before running the 
+remaining steps.
+
+00:02:13.666 --> 00:02:25.999
+All four steps can be run independently, or they can be run 
+together by pressing the Options button, and then selecting 'Run 
+DSM'.
+
+00:02:26.000 --> 00:02:30.000
+Hit 'Run' and the SmartMatch process starts.
+
+00:02:30.000 --> 00:02:34.566
+Features are detected on each image and then matched across 
+images.  
+
+00:02:34.566 --> 00:02:38.266
+ Once the matches are complete the project is then processed.
+
+00:02:38.266 --> 00:02:42.899
+While that processes we can review some basic requirements of 
+SmartMatch projects.
+
+00:02:42.900 --> 00:02:47.533
+A SmartMatch project requires a set of low angle photos with 
+good overlap.
+
+00:02:47.533 --> 00:02:52.766
+Aim for at least 60% overlap, for example photo 1 should overlap  
+photo 2, and some of photo 3.
+
+00:02:52.766 --> 00:02:59.999
+The subject matter and/or background should contain random 
+features. For example, a feature-less, plain white wall will not 
+work. 
+
+00:03:00.000 --> 00:03:04.300
+As well, the majority of the scene should not move between 
+photos.  
+
+00:03:04.300 --> 00:03:08.033
+Avoid using blurry or out of focus photos.
+
+00:03:08.033 --> 00:03:11.733
+After the SmartMatch process has solved the camera positions, 
+the MVS steps will run.
+
+00:03:11.733 --> 00:03:17.899
+By default, MVS requires each part of the object to be visible in a 
+minimum of three photos.
+
+00:03:17.900 --> 00:03:26.033
+The following subject matter is not suited to the SmartMatch and 
+MVS process: Non-textured solid colors,  moving objects, 
+reflective objects, ...
+
+00:03:26.033 --> 00:03:29.866
+.. and thin objects that cause occlusions.
+
+00:03:29.866 --> 00:03:34.666
+After the dense point cloud has been created by MVS, the point 
+cloud will be triangulated and cleaned.
+
+00:03:34.666 --> 00:03:38.666
+Skipping ahead to when the project is complete.
+
+00:03:38.666 --> 00:03:47.499
+This shows the stages in the final meshing step which created 
+270,000 triangles. The overall process from start to finish took 7 
+minutes and 22 seconds.
+
+00:03:47.500 --> 00:03:50.833
+Changes to various parameters can increase or decrease the 
+amount of data created and the time it takes.
+
+00:03:50.833 --> 00:03:54.233
+Changes to various parameters can increase or decrease the 
+amount of data created and the time it takes to run.
+
+00:03:54.233 --> 00:03:58.833
+Save this project as "Sun Done.pmr".
+
+00:04:00.733 --> 00:04:09.766
+Open the two photos to see the 2D SmartMatch marks created 
+and matched between photos.
+
+00:04:16.766 --> 00:04:20.766
+Open a 3D view to see the same results shown at the start of this 
+tutorial
+
+00:04:22.100 --> 00:04:26.100
+Turn off point mesh visibility to see the SmartMatch points.
+
+00:04:37.800 --> 00:04:41.800
+Turn on the point clouds to show the MVS result.
+
+00:04:47.966 --> 00:04:52.632
+Adjust the display style to show the point cloud colored from the 
+photos.
+
+00:05:02.166 --> 00:05:07.232
+Turn off the point cloud and turn on the triangulated mesh to 
+show the shaded result.
+
+00:05:20.933 --> 00:05:24.933
+If photo-textures are turned on they will be created and applied to 
+the model.
+
+00:05:24.933 --> 00:05:30.966
+This last step is purely visual; it won't change the shape of the 
+mesh, or affect measurements.
+
+00:05:32.966 --> 00:05:41.532
+There are a few areas around the edge of the model that are not 
+visible in any of the photos.  These areas would not be photo-
+textured unless additional angled photos were included.
+
+00:05:42.600 --> 00:05:47.933
+This project can be exported for use in other 3D packages, or a 
+scale added and measurements taken.
+
+00:05:47.933 --> 00:05:50.766
+In summary the tutorial showed:
+
+00:05:50.766 --> 00:05:53.799
+The steps used to create a triangulated point mesh.
+
+00:05:53.800 --> 00:05:59.433
+How to run a SmartMatch project (and optionally include the MVS 
+and triangulation steps).
+
+00:05:59.433 --> 00:06:01.999
+What type of photos and subject matter are required.
+
+00:06:02.000 --> 00:06:04.466
+And lastly, how to view a mesh in 3D.
+

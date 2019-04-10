@@ -1,0 +1,243 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.399 --> 00:00:06.710
+Hey Everyone, Mike here from CrazyEconomyCraft
+hows it going? Welcome to a little plugin
+
+00:00:06.710 --> 00:00:11.429
+tutorial that i figured i would do because
+i just implemented it onto my server Crazy
+
+00:00:11.429 --> 00:00:18.750
+Economy Craft and a i figured i give you guys
+a little rundown of it. So the plugin is called
+
+00:00:18.750 --> 00:00:24.210
+Leaderheads and what is does is implements
+itself with a bunch of other plugins which
+
+00:00:24.210 --> 00:00:33.450
+ill name now uhhh so it works with scoreboardstats
+Vault GAListener Island world battle levels
+
+00:00:33.450 --> 00:00:43.330
+playerpoints killstats ultimate votes ultimate
+skyblock skywars and wicked skywars. So what
+
+00:00:43.330 --> 00:00:47.230
+it does is it pulls information from those
+plugins which you have already implemented
+
+00:00:47.230 --> 00:00:52.320
+into your server if you havent already you
+need to implement it so it can pull thos stats
+
+00:00:52.320 --> 00:00:55.901
+onto the plugin. So what this plugin is going
+to do is its going to allow you to create
+
+00:00:55.901 --> 00:01:02.430
+signs with a head above it and its going to
+pull the stat from whatever thing your pulling
+
+00:01:02.430 --> 00:01:09.000
+from so for instance right here on the top
+line here i have the top kills for my server
+
+00:01:09.000 --> 00:01:13.100
+so i have scoreboard stats implemented onto
+my server on the right side of the screen
+
+00:01:13.100 --> 00:01:19.720
+there youll see that i have the scoreboard
+so right now it has how many uh, so it has
+
+00:01:19.720 --> 00:01:26.240
+how much economy so the balance scoreboard
+is not needed for the balance to show up on
+
+00:01:26.240 --> 00:01:33.950
+signs. Uh but scoreboard does pull the balances
+from your economy plugin. So it shows the
+
+00:01:33.950 --> 00:01:40.979
+balance deaths kills and players online. So
+the scoreboard stats one will only show kills
+
+00:01:40.979 --> 00:01:48.330
+killstreaks and mobkills, so right here ahead
+of me i have kills and mobkills obviously.
+
+00:01:48.330 --> 00:01:55.091
+So the way you go about doing and creating
+signs on your server, so make sure you have
+
+00:01:55.091 --> 00:02:01.840
+your scoreboard stats plugin on your server
+and you can implement this once youve implemented
+
+00:02:01.840 --> 00:02:05.711
+the leaderheads plugin onto your server make
+sure you restart your server and allow it
+
+00:02:05.711 --> 00:02:11.670
+to pick up and then you can restart your server
+again and use the plugin. So to create these
+
+00:02:11.670 --> 00:02:20.739
+signs that you saw just a second ago place
+a head down you can create the leaderheads
+
+00:02:20.739 --> 00:02:26.409
+sign and then on the second line your going
+to put whatever plugin you want to pull the
+
+00:02:26.409 --> 00:02:31.810
+information from. So on the the leaderheads
+website which ill leave a link in the description
+
+00:02:31.810 --> 00:02:36.269
+below and you can check it out there. They
+have all the information there that you need
+
+00:02:36.269 --> 00:02:41.480
+to put on your second line which is the plugin
+that your trying to reference. So in our instance
+
+00:02:41.480 --> 00:02:50.730
+its Scoreboard stats so sbs-kills and then
+whatever place you want to put. Now on their
+
+00:02:50.730 --> 00:02:56.659
+website it says that you can put 1-9 but ive
+noticed on my server that 6 7 8 9 do not pull
+
+00:02:56.659 --> 00:03:01.700
+the information so im not sure if thats a
+glitch or a glitch on our side or a glitch
+
+00:03:01.700 --> 00:03:09.739
+on their side but uh 1 to 5 works fine. So
+lets say we want to pull the third place person
+
+00:03:09.739 --> 00:03:16.540
+of the kills scoreboard stats, so we click
+done, its going to say in the bottom left
+
+00:03:16.540 --> 00:03:22.730
+of the chat sign added update sbs kills board
+its takes a second, pulls the information
+
+00:03:22.730 --> 00:03:28.459
+and there you go. you have preddzel with 8
+kills on the server, and just like here third
+
+00:03:28.459 --> 00:03:34.330
+place person 8 kills on the server whos tied
+with another person so, im going to give you
+
+00:03:34.330 --> 00:03:38.370
+one more example which is going to be the
+balance one. so it does not need scoreboard
+
+00:03:38.370 --> 00:03:47.709
+stats. Balance only needs vault. So you place
+your head you place your sign, leaderheads
+
+00:03:47.709 --> 00:03:54.239
+bracket enter, second line is the plugin,
+so in this case were looking for balance as
+
+00:03:54.239 --> 00:04:00.269
+i said before you can check out the link below
+uh the developer has listed everything there
+
+00:04:00.269 --> 00:04:08.959
+and you can just type in balance. balnance
+balance, and once again the position is important
+
+00:04:08.959 --> 00:04:16.329
+1 to 9 all 1 to 9 works on this one so lets
+say we want 5 on the server, there we go,
+
+00:04:16.329 --> 00:04:21.989
+so on the bottom left we noticed it works
+there you go weve pulled the information 136
+
+00:04:21.989 --> 00:04:29.729
+thousand on the server, so there we go, thats
+the plugin um, in the configuration you can
+
+00:04:29.729 --> 00:04:35.680
+change the colors of the signs so actually
+what it starts off is uh, the name will actually
+
+00:04:35.680 --> 00:04:41.479
+be yellow and the money will be green. Uh
+i found it hard to read so i changed it, it
+
+00:04:41.479 --> 00:04:44.260
+worked no problem, when you restart the server
+it picks up the colors, you dont even need
+
+00:04:44.260 --> 00:04:50.470
+to remake the signs. So you can also pull
+up a GUI for each of the stats you would like
+
+00:04:50.470 --> 00:04:56.860
+to pull form the server. So lets say you want
+to checkout the uh scoreboard stats kills.
+
+00:04:56.860 --> 00:05:02.509
+So in your configuration youll setup the command
+that you need to type, you just need to type
+
+00:05:02.509 --> 00:05:09.430
+it in there and youll set it. Default its
+setup as top mob kills for the top mob kills.
+
+00:05:09.430 --> 00:05:17.919
+So you type in /topmobkills and it brings
+up a little gui one two three four five, that
+
+00:05:17.919 --> 00:05:23.110
+would actually explain he 6 7 8 and 9 dont
+exist for some reason im not sure if it only
+
+00:05:23.110 --> 00:05:31.159
+picks up the top 5 for scoreboard stats, so
+theres the name and the balan, the uh amount
+
+00:05:31.159 --> 00:05:37.490
+which is actually the uh hard to read because
+i set it to black in my configuration, which
+
+00:05:37.490 --> 00:05:45.120
+matches the sign, and about to test another
+one top balances which is the balance one
+
+00:05:45.120 --> 00:05:52.680
+and there we go, everything right there top
+9. So its a great plugin glad you guys tuned
+
+00:05:52.680 --> 00:05:57.070
+in for it hope you guys check it out, ill
+leave the plguin information down in the description
+
+00:05:57.070 --> 00:06:02.770
+below, also if you guys would like to check
+out the server cecminecraft.com is the website
+
+00:06:02.770 --> 00:06:09.900
+mc.crazyeconomycraft.com is the server. and
+as always if you guys enjoyed the video please
+
+00:06:09.900 --> 00:06:14.860
+leave a like , subscribe for more, keep on
+gaming and well see you next time, thanks
+
+00:06:14.860 --> 00:06:15.169
+for watching.
+

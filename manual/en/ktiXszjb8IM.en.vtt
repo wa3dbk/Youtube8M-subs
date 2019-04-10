@@ -1,0 +1,210 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.710 --> 00:00:20.440
+OK, so now we're gonna consider how to draw
+an isosceles right triangle using the turtle.
+
+00:00:20.440 --> 00:00:27.750
+This triangle is isosceles because these two
+sides are the same length, and it's a right
+
+00:00:27.750 --> 00:00:34.399
+triangle because we have a right angle right
+here.
+
+00:00:34.399 --> 00:00:39.820
+Let's put our turtle right over here, and
+for now I'm not gonna draw anything on the
+
+00:00:39.820 --> 00:00:50.649
+screen, I just want to see if I can get the
+turtle to follow the path of this edge.
+
+00:00:50.649 --> 00:00:59.309
+So, um I happen to know that this particular
+triangle is 100 steps on this side, and 100
+
+00:00:59.309 --> 00:01:08.590
+on this side. So, the start is easy, I can
+just say forward 100, and that takes me up
+
+00:01:08.590 --> 00:01:11.670
+to the corner.
+
+00:01:11.670 --> 00:01:24.040
+Now I want to figure out how much of a turn
+I have make here. Well, let's consider for
+
+00:01:24.040 --> 00:01:28.530
+a minute how we make a right angle isosceles
+triangle.
+
+00:01:28.530 --> 00:01:38.360
+If we look at this square, we see that this
+triangle is made by starting with a square
+
+00:01:38.360 --> 00:01:47.880
+and drawing the diagonal. Well, this diagonal
+cuts this angle right in half, doesn't it?
+
+00:01:47.880 --> 00:01:57.280
+We know that each corner of the square is
+90 degrees. If we cut that angle in half,
+
+00:01:57.280 --> 00:02:05.969
+we have 45 degrees, right here.
+
+00:02:05.969 --> 00:02:12.200
+So we know that this angle is 45 degrees.
+How much of a turn do we have to make? How
+
+00:02:12.200 --> 00:02:13.970
+much of a turn does the turtle have to make?
+
+00:02:13.970 --> 00:02:29.440
+Let's look here at the turn, OK? Now in general,
+when we're turn a corner, you see we're still
+
+00:02:29.440 --> 00:02:39.280
+facing in this direction, this, this entire
+angle, if we take the blue corner of the triangle
+
+00:02:39.280 --> 00:02:48.000
+together with this little sector is 180 degrees.
+And we know that this little blue part here,
+
+00:02:48.000 --> 00:02:55.950
+this little angle is 45 degrees. So the total
+amount of turn, the angle in this whole sector
+
+00:02:55.950 --> 00:03:07.510
+here is 180 minus 45, or 135 degrees.
+
+00:03:07.510 --> 00:03:16.510
+So let's turn right 135 degrees and see how
+that looks. OK, that looks about right. Now
+
+00:03:16.510 --> 00:03:24.030
+we have to figure out the length of this line
+right here, and that's a little bit trickier.
+
+00:03:24.030 --> 00:03:33.421
+Um, let's consider for a minute, what we're
+gonna have to look at is, well we're gonna
+
+00:03:33.421 --> 00:03:43.370
+start with two squares here, and think for
+a minute about the area of squares, and then
+
+00:03:43.370 --> 00:03:51.310
+it'll be clear in a minute why we have to
+worry about the areas. But, we said this is
+
+00:03:51.310 --> 00:04:00.790
+100 steps, actually let's make up our own
+unit, we'll say this is one hectostep, OK,
+
+00:04:00.790 --> 00:04:08.230
+a hectometer is 100 meters, a hectostep is
+100 steps. So this is one hectostep, so this
+
+00:04:08.230 --> 00:04:12.540
+square is one by one.
+
+00:04:12.540 --> 00:04:22.950
+So if each side is 1, then the area as a whole
+is 1 hectostep. And these two squares make
+
+00:04:22.950 --> 00:04:27.569
+up two square hectosteps.
+
+00:04:27.569 --> 00:04:47.740
+Now let's rearrange these pieces for a minute.
+
+00:04:47.740 --> 00:05:01.910
+OK, we know the area of this square is two
+hectosteps, because the area of this is one
+
+00:05:01.910 --> 00:05:06.969
+hectostep, the area of this square is one
+hectostep squared, so this has to be two hectosteps
+
+00:05:06.969 --> 00:05:10.770
+squared.
+
+00:05:10.770 --> 00:05:15.860
+So what does that mean about the length of
+this line? The length of this line times the
+
+00:05:15.860 --> 00:05:25.599
+length of this line is 2 hectosteps, So that
+means that one of these lines is the square
+
+00:05:25.599 --> 00:05:38.530
+root of two hectosteps. And since a hectostep
+is 100 steps, that means we want to go forward
+
+00:05:38.530 --> 00:05:44.189
+100 times the square root of 2.
+
+00:05:44.189 --> 00:05:51.330
+So if we watch this turtle when I hit return
+and we go forward, we should go all the way
+
+00:05:51.330 --> 00:05:53.490
+to the other corner. Let's see.
+
+00:05:53.490 --> 00:05:57.949
+Yes, that worked, OK?
+
+00:05:57.949 --> 00:06:11.110
+So now, let's see. Let's put our original
+triangle back in place and now we want to
+
+00:06:11.110 --> 00:06:17.390
+figure out how much of a turn we need to make
+on this side. Remember we turned 135 degrees
+
+00:06:17.390 --> 00:06:18.390
+here.
+
+00:06:18.390 --> 00:06:28.189
+Let's take a look at that turn. Well, this
+is also 45 degrees, so the turn we need to
+
+00:06:28.189 --> 00:06:36.069
+make here is also 180 minus 45, or 135 degrees.
+
+00:06:36.069 --> 00:06:55.840
+Let's go right 135. That looks right. And
+now, we knew that this was 100 steps. When
+
+00:06:55.840 --> 00:07:03.599
+we went from here to here it was 100 steps,
+and this is also 100 steps.
+
+00:07:03.599 --> 00:07:09.940
+And finally, just to get ourselves back to
+our initial state, to our starting position,
+
+00:07:09.940 --> 00:07:18.340
+we'll go right 90. And that draws it.
+
+00:07:18.340 --> 00:07:28.669
+So let's just double check. We'll move this
+guy down here, and put the pen down. Now I'll
+
+00:07:28.669 --> 00:07:37.650
+just back up and walk through all the steps
+we did before. We went forward 100, right
+
+00:07:37.650 --> 00:07:46.639
+135, forward 100 times the square root of
+2, right 135, forward 100, and right 90.
+
+00:07:46.639 --> 00:07:57.860
+And that's how you make an isosceles right
+triangle.
+

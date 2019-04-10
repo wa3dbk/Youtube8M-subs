@@ -1,0 +1,84 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.550 --> 00:00:05.670
+This video will show how to update the firmware
+on a WAGO 750 Series PLC.
+
+00:00:05.670 --> 00:00:10.180
+We'll start by opening up the trap door for
+the service cable.
+
+00:00:10.180 --> 00:00:19.210
+And with the PLC turned off, go ahead and
+connect the 750-920 service cable.
+
+00:00:19.210 --> 00:00:28.619
+If you haven't already done so, you will want
+to install the FBC Update software.
+
+00:00:28.619 --> 00:00:39.850
+And then you'll want to install the firmware
+for the target that your wanting to update.
+
+00:00:39.850 --> 00:00:48.390
+You can then start FBC Update, and click on
+options&gt;communications, select your com port.
+
+00:00:48.390 --> 00:00:52.899
+And then click identify, and you might get
+some warning messages , um, just read them
+
+00:00:52.899 --> 00:00:57.100
+and click through.
+
+00:00:57.100 --> 00:01:01.390
+After you've reviewed the new firmware, and
+you're ready to update, go ahead and click
+
+00:01:01.390 --> 00:01:04.860
+the update button and click continue.
+
+00:01:04.860 --> 00:01:11.320
+The update process will take several minutes,
+I have accelerated the process here in the
+
+00:01:11.320 --> 00:01:18.830
+video, but you definitely do not want to interrupt
+the transfer of the, ah, firmware at any point
+
+00:01:18.830 --> 00:01:26.410
+or you can permanently damage the PLC.
+
+00:01:26.410 --> 00:01:32.970
+After the transfer of the firmware is complete,
+you want to click on settings and do a 'format',
+
+00:01:32.970 --> 00:01:49.100
+followed by an 'extract', followed by a 'restart'.
+
+00:01:49.100 --> 00:01:50.920
+This next step is optional.
+
+00:01:50.920 --> 00:01:56.990
+I like to go into WAGO Ethernet Settings and
+verify that the firmware indeed transferred
+
+00:01:56.990 --> 00:02:01.020
+correctly.
+
+00:02:01.020 --> 00:02:05.280
+You can locate the firmware version on the
+controller by going to the 'identification'
+
+00:02:05.280 --> 00:02:08.860
+tab and looking at Software (SW) version.
+
+00:02:08.860 --> 00:02:12.560
+And the number in the parenthesis is the firmware
+version.
+
+00:02:12.560 --> 00:02:14.230
+And that concludes this video, thank you.
+

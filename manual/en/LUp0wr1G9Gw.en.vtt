@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.856 --> 00:00:10.912
+Mostly, your Revit model is now cleaned up and ready for transfer.
+
+00:00:11.441 --> 00:00:17.671
+There will always be some tweaks to be done, usually with materials, but these can be done in 3ds Max.
+
+00:00:18.166 --> 00:00:23.194
+However, there is still one aspect we didn't talk about, and that's lighting and cameras.
+
+00:00:23.516 --> 00:00:33.407
+Both applications have two major light distinctions: man-made lights (or artificial lights), and lights that simulate Daylight (Sun and Atmosphere).
+
+00:00:33.838 --> 00:00:40.893
+However, we'll cover lights in more detail shortly. First let's tackle the easier subject: Cameras.
+
+00:00:41.388 --> 00:00:44.075
+Both applications enable you to create camera shots.
+
+00:00:44.415 --> 00:00:51.343
+Arguably, this process is more flexible in 3ds Max but a long-time Revit user may not agree with that statement.
+
+00:00:51.685 --> 00:00:59.018
+Be that as it may, what you need to remember is that although Revit does allow you to create multiple camera shots within one scene,
+
+00:00:59.298 --> 00:01:02.983
+only one camera is transferred to 3ds Max at a time.
+
+00:01:03.371 --> 00:01:08.658
+This said, you can create and animate as many cameras as you want within 3ds Max.
+
+00:01:09.140 --> 00:01:16.739
+To demonstrate all this, we'll use a simple scene to learn about this workflow. It will be faster and make manipulation far easier.
+
+00:01:17.378 --> 00:01:27.238
+This Revit scene named room.rvt is indeed very plain. It has a simple structure made of a terrain, a couple of floors and a few walls.
+
+00:01:27.813 --> 00:01:31.310
+A curtain wall at the front lets us have a peek inside.
+
+00:01:31.997 --> 00:01:41.105
+There is also a ceiling with 4 lights attached. These are what I referred to earlier as artificial lights and they have a bearing on the workflow.
+
+00:01:41.540 --> 00:01:48.560
+At this time, you're looking at an orthographic generic 3D view. You'll add a couple of cameras in the scene:
+
+00:01:49.363 --> 00:01:53.928
+Go to the Level 1 Floor by double-clicking it in the Project Browser.
+
+00:01:54.450 --> 00:02:00.370
+&gt;From the View menu, under 3D View, choose Camera.
+
+00:02:00.958 --> 00:02:05.840
+Click a camera point in the lower left corner and then a target point inside the project.
+
+00:02:06.416 --> 00:02:09.663
+A moment later, the camera displays what it sees.
+
+00:02:10.157 --> 00:02:14.433
+You can make further framing adjustments until you are happy with the shot.
+
+00:02:15.165 --> 00:02:21.155
+It's also a good idea to give the shot a name, this translates into a specific camera name in 3ds Max.
+
+00:02:21.438 --> 00:02:25.200
+Name this one: Camera Exterior.
+
+00:02:27.615 --> 00:02:33.933
+Go back to the Level 1 Floor and create a new camera inside the room looking out.
+
+00:02:38.706 --> 00:02:42.403
+Name this one: Camera Interior.
+
+00:02:43.497 --> 00:02:49.346
+Now you can switch from one 3D view to another by double-clicking the appropriate entry in the Project Browser.
+
+00:02:49.810 --> 00:02:55.630
+As you will see in a moment, only the active 3D view is transferred with the .fbx file.
+
+00:02:56.209 --> 00:03:02.216
+Go back to the generic 3D view for the moment and export your scene to an FBX file.
+
+00:03:03.932 --> 00:03:07.083
+Name it: myroom.fbx
+
+00:03:07.910 --> 00:03:16.880
+Note: If you don't have Revit installed, a similar FBX file named "room_cam-gen.fbx" has been provided.
+
+00:03:18.650 --> 00:03:24.660
+In 3ds Max, use Import &gt; Link to link to the FBX file you just created.
+
+00:03:25.768 --> 00:03:30.100
+Use the Combine by Family Type method as you've done before.
+
+00:03:30.570 --> 00:03:34.863
+Click Yes to dismiss the Exposure Control reminder; we'll deal with that shortly.
+
+00:03:35.350 --> 00:03:38.943
+The scene is now loaded; zoom back a bit to view the contents.
+
+00:03:39.360 --> 00:03:44.915
+Obviously the geometry is there, you can also see the assembly representing the Daylight System.
+
+00:03:45.288 --> 00:03:52.183
+In addition, there is a single camera present and this camera represents the Revit viewport at export time.
+
+00:03:52.591 --> 00:04:01.220
+If you select it, you can see its name: 3D View: {3D}. This is just a generic name since you haven't renamed that shot in Revit.
+
+00:04:01.918 --> 00:04:04.618
+The two other cameras are nowhere to be seen.
+
+00:04:04.991 --> 00:04:13.290
+Press C to see what the camera is looking at; this is certainly the same shot as in Revit, albeit a bit too close to the structure.
+
+00:04:14.090 --> 00:04:17.779
+Go back to Revit and switch to the interior shot.
+
+00:04:18.170 --> 00:04:21.769
+Export the file again and overwrite your FBX file.
+
+00:04:22.373 --> 00:04:30.013
+Note: If you don't have Revit, a similar FBX file named: "room_cam-int.fbx" has been provided.
+
+00:04:32.745 --> 00:04:36.490
+Now use the Manage Links dialog to reload the scene.
+
+00:04:38.810 --> 00:04:45.923
+Notice the new camera placement. If you're having problems seeing it, press F3 to view the scene in Wireframe mode.
+
+00:04:46.408 --> 00:04:50.728
+If you need to orbit around, use Alt+MMB.
+
+00:04:51.166 --> 00:04:57.190
+In fact, select the new camera and verify that its name matches the corresponding view in Revit.
+
+00:04:57.810 --> 00:05:06.363
+Again, press C to view the new angle. It matches the Revit shot. If you want, you can use Shaded mode again using F3
+
+00:05:06.900 --> 00:05:09.700
+Let's try it one more time with the exterior shot:
+
+00:05:11.358 --> 00:05:15.253
+Set the Exterior shot in Revit current and export the file again.
+
+00:05:15.550 --> 00:05:22.695
+Note: If you don't have Revit, a similar FBX file named: "room_cam-ext.fbx" has been provided.
+
+00:05:23.828 --> 00:05:27.073
+Again, reload the file in 3ds Max.
+
+00:05:28.290 --> 00:05:36.460
+At this point, you are still inside the room but if you zoom back and orbit around, you'll notice a new camera named 3D View: Camera Exterior.
+
+00:05:36.987 --> 00:05:42.323
+Press C to take a look through its lens and you can see it matches the shot in Revit.
+
+00:05:42.866 --> 00:05:50.714
+More significantly, you'll notice that with every reload you did, a new camera replaces the old one that gets removed from the scene.
+
+00:05:51.134 --> 00:05:57.967
+However, a camera created inside 3ds Max is not affected or deleted at reload time.
+
+00:05:58.341 --> 00:06:03.444
+To demonstrate, create a Target Camera using a simple click and drag.
+
+00:06:08.260 --> 00:06:11.960
+Now reload the FBX file, even though it hasn't changed.
+
+00:06:16.684 --> 00:06:22.549
+Notice that the 3ds Max camera named Camera001 does not get deleted in the process.
+
+00:06:22.894 --> 00:06:28.852
+So, what conclusions do we draw? First, camera creation is fairly easy in both applications.
+
+00:06:29.179 --> 00:06:38.309
+Second and most importantly, although you can create multiple cameras in both applications, only one camera is transferred through FBX protocol.
+
+00:06:38.744 --> 00:06:46.044
+Which brings us to the other rendering aspect to tackle: lighting, and how it transfers from Revit to 3ds Max.
+
+00:06:46.486 --> 00:06:48.451
+This is what you do in the next movie.
+

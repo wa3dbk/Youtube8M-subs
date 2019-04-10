@@ -1,0 +1,441 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.330 --> 00:00:08.820
+Hi, and welcome to a special ValveTime Spotlight Exclusive,
+
+00:00:08.820 --> 00:00:11.850
+in which we’ll be taking a close look at one of the least discussed
+
+00:00:11.850 --> 00:00:15.710
+but most important components of Valve Corporation’s
+upcoming Source 2 engine,
+
+00:00:15.710 --> 00:00:19.770
+“Rubikon,” the engine’s physics system
+developed in-house at Valve.
+
+00:00:20.120 --> 00:00:22.650
+We’ve heard rumbles about this physics system for years,
+
+00:00:22.650 --> 00:00:26.200
+with details only becoming more and
+more concrete as time has passed.
+
+00:00:26.420 --> 00:00:29.530
+Now, with GDC 2015 taking place throughout this week
+
+00:00:29.530 --> 00:00:33.920
+and the possibility of Valve engineers bringing up
+the Source 2 engine in one of their four talks,
+
+00:00:33.920 --> 00:00:37.340
+we felt this would be the perfect opportunity
+to shed some light on Rubikon
+
+00:00:37.340 --> 00:00:41.000
+while trying to explain how we feel it
+may impact the engine as a whole.
+
+00:00:41.260 --> 00:00:43.930
+It’s worth noting that we’re not going to be foolish and lie to you
+
+00:00:43.930 --> 00:00:48.200
+by claiming this video is
+“Everything You Need to Know About Rubikon!”
+
+00:00:48.200 --> 00:00:52.500
+because the vast majority of information regarding
+both Source 2 and its physics system
+
+00:00:52.500 --> 00:00:55.620
+is simply not available to the public, and for good reason.
+
+00:00:56.010 --> 00:01:00.420
+Regardless, hopefully you’ll find this video to be
+interesting and informative, so let’s get started:
+
+00:01:00.850 --> 00:01:02.090
+So, what is Rubikon?
+
+00:01:02.200 --> 00:01:05.300
+Well, as we mentioned, Rubikon is a brand new physics system
+
+00:01:05.300 --> 00:01:10.370
+being designed and created by engineers at Valve
+specifically for use in the Source 2 engine.
+
+00:01:10.630 --> 00:01:12.530
+While we’ve sort of known about about it for years,
+
+00:01:12.530 --> 00:01:16.020
+with some evidence dating back as far as 2012 and 2013,
+
+00:01:16.020 --> 00:01:19.620
+we first learned of Rubikon’s odd name at GDC 2014,
+
+00:01:19.620 --> 00:01:23.280
+where Valve software engineers
+Dirk Gregorius and Sergiy Migdalskiy
+
+00:01:23.280 --> 00:01:26.890
+presented a pair of talks known as
+“Physics for Game Programmers: QuickHull”
+
+00:01:26.890 --> 00:01:29.730
+and “Physics for Game Programmers: Debugging Physics.”
+
+00:01:29.840 --> 00:01:32.380
+While we’re sure programmers may love both presentations,
+
+00:01:32.380 --> 00:01:36.310
+we’re going to be focusing on the
+“Debugging Physics” talk for the purposes of this video,
+
+00:01:36.310 --> 00:01:40.060
+as that’s where we find most of the
+substantial information on this topic.
+
+00:01:40.600 --> 00:01:44.000
+The presentation opens with Migdalskiy
+creating a visual metaphor
+
+00:01:44.000 --> 00:01:47.420
+by comparing Rubikon and its physics systems to this large device
+
+00:01:47.420 --> 00:01:51.230
+covered in a tangle of complex, interlocking
+cables before quickly moving on
+
+00:01:51.230 --> 00:01:54.340
+to discuss multiple topics well above our level of understanding,
+
+00:01:54.340 --> 00:01:58.940
+including collision detection, serialization,
+compiling C++ code, and so on,
+
+00:01:58.940 --> 00:02:02.060
+which are explained over the course of about 99 pages.
+
+00:02:02.250 --> 00:02:05.450
+It’s interesting to note that,
+while Migdalskiy delves into great detail
+
+00:02:05.450 --> 00:02:08.110
+regarding the debugging process and how his experiences
+
+00:02:08.110 --> 00:02:09.960
+have influenced the development of Rubikon,
+
+00:02:09.960 --> 00:02:12.820
+he is extremely careful to not give away any real details
+
+00:02:12.820 --> 00:02:15.840
+regarding its functionality or potential innovations.
+
+00:02:16.080 --> 00:02:18.140
+What we can gather from the description, however,
+
+00:02:18.140 --> 00:02:21.660
+is that Rubikon will effectively function
+as the replacement for Havok,
+
+00:02:21.660 --> 00:02:25.590
+the physics system used as a base within
+the Source engine even to this day.
+
+00:02:25.750 --> 00:02:30.650
+This means that, as far as we know, Havok will
+no longer be used in any of Valve’s future titles,
+
+00:02:30.650 --> 00:02:33.840
+potentially giving Valve a lot more freedom
+over precisely what they want
+
+00:02:33.840 --> 00:02:36.090
+from the physics systems in their games.
+
+00:02:36.400 --> 00:02:38.620
+Now, if we move further into the presentation,
+
+00:02:38.620 --> 00:02:42.530
+we can see a series of PowerPoint slides
+Migdalskiy used to support his points,
+
+00:02:42.530 --> 00:02:46.090
+which, once upon a time, would’ve featured
+videos and full resolution images,
+
+00:02:46.090 --> 00:02:48.190
+neither of which can be accessed on the PDF version
+
+00:02:48.190 --> 00:02:50.910
+we downloaded from the GDC Vault a year ago.
+
+00:02:51.240 --> 00:02:54.450
+Regardless, these slides still provide
+an interesting look at Rubikon
+
+00:02:54.450 --> 00:02:58.020
+and some of the games we could expect to see it incorporated in.
+
+00:02:58.410 --> 00:03:00.970
+The first and most well-displayed is Left 4 Dead 2,
+
+00:03:00.970 --> 00:03:06.260
+which Migdalskiy’s slides show as being the main
+game he used during the debugging process.
+
+00:03:06.580 --> 00:03:09.820
+This fits right in line with known evidence regarding Source 2,
+
+00:03:09.820 --> 00:03:13.420
+as we’ve known an in-house port of
+Left 4 Dead 2 – or at least parts of it –
+
+00:03:13.420 --> 00:03:18.350
+onto the new engine has existed for a few years now,
+although exclusively as a testing tool –
+
+00:03:18.350 --> 00:03:22.000
+not necessarily as a product or update
+set to be released to the public.
+
+00:03:22.290 --> 00:03:24.500
+This is confirmed to us later in the presentation,
+
+00:03:24.500 --> 00:03:28.300
+as a pair of slides show a single frame
+from each of the two preview videos,
+
+00:03:28.300 --> 00:03:30.940
+both of which feature a windowed version of Left 4 Dead 2
+
+00:03:30.940 --> 00:03:35.570
+running alongside the debug program
+with the title “Left 4 Dead 2 (64bit).”
+
+00:03:35.860 --> 00:03:38.860
+This may not seem important,
+but the original Source engine we still use today
+
+00:03:38.860 --> 00:03:42.930
+does not support 64bit processing,
+as even 64bit operating systems
+
+00:03:42.930 --> 00:03:45.890
+will continue to run older 32bit variants;
+
+00:03:45.890 --> 00:03:49.040
+it’s just a product of how old the engine is at this point.
+
+00:03:49.350 --> 00:03:52.020
+With the release of the Dota 2 Workshop Tools last year
+
+00:03:52.020 --> 00:03:54.720
+and the primitive version of Source 2 contained within them,
+
+00:03:54.720 --> 00:03:57.680
+the community was able to identify that the engine and its games
+
+00:03:57.680 --> 00:04:02.460
+will feature both 64bit and 32bit versions
+for the first time in Valve’s history,
+
+00:04:02.460 --> 00:04:06.780
+proving this in-house version of Left 4 Dead 2
+is most definitely running on Source 2.
+
+00:04:07.130 --> 00:04:11.620
+We want to reiterate that, while this updated,
+Source 2 version of Left 4 Dead 2 does exist,
+
+00:04:11.620 --> 00:04:14.880
+it doesn’t actually mean it will ever
+see the light of day outside of Valve,
+
+00:04:14.880 --> 00:04:19.130
+as it was likely created just to help test
+the engine at a basic level of development
+
+00:04:19.130 --> 00:04:22.710
+while also learning how ported games
+function or how they can go wrong.
+
+00:04:22.840 --> 00:04:28.190
+We may see it released at some point,
+but there is currently no evidence to support such a claim.
+
+00:04:28.500 --> 00:04:31.820
+Moving on, the debugging program
+we mentioned continues to show up
+
+00:04:31.820 --> 00:04:35.540
+throughout the rest of the presentation,
+with some slides showing more than others.
+
+00:04:35.670 --> 00:04:39.480
+The design of the program and its various
+windows feature a largely grey interface
+
+00:04:39.480 --> 00:04:42.680
+and bear a striking resemblance to
+many of Valve’s recent software,
+
+00:04:42.680 --> 00:04:46.480
+including Source Filmmaker and the
+aforementioned Dota 2 Workshop Tools,
+
+00:04:46.480 --> 00:04:50.010
+once again highlighting it as one of
+Valve’s own in-house programs.
+
+00:04:50.250 --> 00:04:53.480
+We’ve deliberately avoided using the
+testing program’s name before now,
+
+00:04:53.480 --> 00:04:58.720
+as it’s pretty significant given recent findings
+shown off in one of our recent Round-Up episodes.
+
+00:04:59.010 --> 00:05:03.330
+Some of the slides show the program’s window title,
+revealing the name: “Physics Testbed.”
+
+00:05:03.530 --> 00:05:05.980
+Light bulbs may be sparking in the minds of some viewers now,
+
+00:05:05.980 --> 00:05:11.090
+as code pertaining to this program was recently
+found within the “model_editor.dll” files
+
+00:05:11.090 --> 00:05:16.860
+used by the Dota 2 Workshop Tools, with the code
+being updated as recently as January 2015.
+
+00:05:17.170 --> 00:05:21.390
+As some of you may remember, the code
+was referenced alongside the acronym “hl3,”
+
+00:05:21.390 --> 00:05:25.280
+which we all know likely refers to the long-awaited Half-Life 3.
+
+00:05:25.580 --> 00:05:28.680
+This, of course, means the same program
+shown throughout the slides
+
+00:05:28.680 --> 00:05:32.720
+was recently used alongside a test
+build of Half-Life 3 within Valve.
+
+00:05:33.010 --> 00:05:34.530
+Aside from this one line of code,
+
+00:05:34.530 --> 00:05:38.440
+there’s no indication regarding what
+stage of development Half-Life 3 is in;
+
+00:05:38.440 --> 00:05:42.060
+it merely proves to us that the game is,
+in fact, still being worked on.
+
+00:05:42.360 --> 00:05:46.250
+As usual, we want to stress that there’s
+no reason yet to get hyped about Half-Life 3;
+
+00:05:46.250 --> 00:05:47.250
+just be patient.
+
+00:05:47.360 --> 00:05:49.960
+We’re sure the game will be ready to go
+whenever Valve is happy with it,
+
+00:05:49.960 --> 00:05:52.140
+and that’s the only way we want it.
+
+00:05:52.420 --> 00:05:56.120
+Back to Rubikon itself, there unfortunately
+isn’t really a whole lot more to say
+
+00:05:56.120 --> 00:05:58.380
+regarding the specifics of the physics system,
+
+00:05:58.380 --> 00:06:02.880
+primarily because the coding and practices discussed
+in the presentation are all pretty general.
+
+00:06:03.100 --> 00:06:06.600
+Regardless, we hope this video has helped
+shine some light on the rather obscure topic,
+
+00:06:06.600 --> 00:06:09.310
+and hopefully we’ll get to learn more very, very soon.
+
+00:06:09.610 --> 00:06:15.110
+Given both Gregorius and Migdalskiy have once again
+hosted physics-based talks at GDC 2015 this week,
+
+00:06:15.110 --> 00:06:19.690
+it’s possible references to Source 2 and Rubikon
+have been contained within their newer talks,
+
+00:06:19.690 --> 00:06:22.860
+but we have no idea since this script was written late last week.
+
+00:06:23.100 --> 00:06:27.220
+At the time of writing, we don’t think it entirely
+likely we’ll see anything too significant
+
+00:06:27.220 --> 00:06:30.010
+given how general the topics are, just like last year.
+
+00:06:30.220 --> 00:06:34.890
+Both of their talks also use the same primary title
+as last year, “Physics for Game Programmers,”
+
+00:06:34.890 --> 00:06:37.380
+with only the subtitle featuring any kind of variation,
+
+00:06:37.380 --> 00:06:42.620
+including “Physics Optimization Strategies” and
+“Robust Contact Creation for Physics Simulation.”
+
+00:06:42.820 --> 00:06:46.340
+It’s also quite possible most of this information
+will be outdated in a few weeks
+
+00:06:46.340 --> 00:06:48.570
+as we gradually learn more and more about Source 2
+
+00:06:48.570 --> 00:06:51.250
+and the future of Valve’s software and hardware technology,
+
+00:06:51.250 --> 00:06:54.040
+but we thought it was worth sharing for the time being.
+
+00:06:54.520 --> 00:06:57.840
+That’ll just about do it for this video
+covering Rubikon and Source 2,
+
+00:06:57.840 --> 00:07:00.970
+so hopefully you’ve enjoyed learning
+a little more about the future of Valve.
+
+00:07:01.070 --> 00:07:04.000
+If you like what you see, don’t forget to
+subscribe to our YouTube channel,
+
+00:07:04.000 --> 00:07:06.030
+to follow us on Facebook, Twitter, and Twitch.TV,
+
+00:07:06.030 --> 00:07:08.810
+and to sign up over on the ValveTime.net community forums
+
+00:07:08.810 --> 00:07:11.990
+to stay up-to-date with all the latest
+and greatest Valve-themed content.
+
+00:07:12.190 --> 00:07:14.280
+Thanks for watching and bye for now.
+

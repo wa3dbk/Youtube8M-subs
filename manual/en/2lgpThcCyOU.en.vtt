@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.000 --> 00:00:03.000
+“Whats up?”
+“Yo”
+
+00:00:03.000 --> 00:00:04.000
+“How’s it going?”
+
+00:00:04.000 --> 00:00:05.000
+“Chronicling optimisations.”
+
+00:00:06.000 --> 00:00:09.000
+“Oh God yea, yea it’s fun – having a great time.”
+
+00:00:14.000 --> 00:00:21.000
+RYAN WELLS - PRODUCER
+“This performance initiative is surely a team effort – every last person is currently working on something related to performance. 
+"
+
+00:00:22.000 --> 00:00:31.000
+No question, engineers have the bulk of the work and are going to be the bulk of the impact but the designers, artists, animators, audio folks… are also helping out.”
+
+00:00:32.000 --> 00:00:48.000
+“We hope to get the latest tools with Scaleform 4.3 working soon so we can get the batch profiling and the wireframes and all that stuff that we had previously, and then some, to help us figure out exactly 
+
+00:00:48.000 --> 00:01:00.000
+how many primitives we’re drawing, how many quads are being drawn and better ways to reduce that so once we can get the overdraw working that’ll be really good so I’ll be working on that today.” 
+
+00:01:00.000 --> 00:01:02.000
+AMIT PATEL – UI LEAD ENGINEER
+
+00:01:02.000 --> 00:01:10.000
+ “Hi, my name’s Amit Patel – I’m the UI Lead for PlanetSide 2. When I’m not performing spontaneous surgeries or looking for White Castle I am here optimising.”
+
+00:01:11.000 --> 00:01:16.000
+“We’re stuffing our faces with ribs, meat, bbq and Amit’s got a veggie burger.”
+
+00:01:17.000 --> 00:01:30.000
+To get 60 FPS (Frame per second) you’ve got to get 16.6 milliseconds processing per frame at least.  Just talking from the UI we’ve been spiking up to 4 or 5 milliseconds once in a while. We really want to keep that number to a minimum.”
+
+00:01:30.000 --> 00:01:36.000
+“As you can tell we’re having a fantastic time here – look at this, check out this wonderful spike: its beautiful.”
+
+00:01:37.000 --> 00:01:38.000
+“Let me zoom in on this”
+
+00:01:38.000 --> 00:01:49.000
+“Everything’s going well – no problem,, no problem, BAM 8.85 milliseconds – for no reason, except that it thinks it needs to garbage collect when I don’t think it needs to.”
+
+00:01:49.000 --> 00:01:55.000
+“Things that we do to minimise those values are we reduce the number of objects we see on the screen…
+
+00:01:55.000 --> 00:02:04.000
+“Here we have a “before” and on the right we have an “after”. We’re primarily interested in this lower right region of the vitals – (on the left) every tick is a different texture, 
+
+00:02:05.000 --> 00:02:14.000
+you’ll notice that it has it’s own quad being drawn versus something that’s very simple – the right side, each entire bar is a texture instead of every tick.”
+
+00:02:14.000 --> 00:02:26.000
+“We noticed that when we have tween collisions, array keeps building on itself and keeps getting some ridiculous number that’s why we’re getting this garbage collecting at some point and that’s why we’re seeing these 8-10 millisecond spikes.”
+
+00:02:27.000 --> 00:02:34.000
+“Some of these numbers like the HUD indicator or the minimap numbers, you’ll see them spike periodically up to 1-2 milliseconds, even up to 3 milliseconds – just that. 
+"
+
+00:02:35.000 --> 00:02:38.000
+That’s not even counting the render cost and advanced costs of Scaleform.”
+
+00:02:38.000 --> 00:02:53.000
+“I think what we’re going to do, if Jamie approves – I want to use the Process Queue for minimap and HUD indicators and encapsulate one indicator in an object so we can push them in a queue 
+"
+
+00:02:54.000 --> 00:03:02.000
+and just pop them off and process them until our frame limit is reached so it will never directly spike in those systems.
+
+00:03:03.000 --> 00:03:11.000
+We’ll just distribute processing out, so for behind a few frames with state management it’s not a huge deal. So I’m going to work with Chris on that”.
+
+00:03:11.000 --> 00:03:25.000
+“Now our next step is to take those spikes and crush them down and make this graph look more organic and in order to do that what you have to do is create a “cap” on a per-frame basis on a per-system basis, for example
+
+00:03:25.000 --> 00:03:36.000
+ – I’m not going to process more than 200 microseconds for the HUD indicator system no matter what. So once we implement that cap then we’ll be able to avoid spikes altogether”.
+
+00:03:37.000 --> 00:03:48.000
+“So what we have right now – we’ve throttled it to evaluating the client requirements around 3 times a second, 3 to 4 times, and while that helps us a lot by a millisecond or two
+
+00:03:49.000 --> 00:03:53.000
+ – it will still spike once in a while so we just want to get rid of that completely.”
+
+00:03:53.000 --> 00:04:00.000
+“I’d say we’re a good third of the way through what we really want to do. This first third has gone extremely well – we’re really happy with some of the stuff we’ve got. 
+
+00:04:01.000 --> 00:04:06.000
+"
+We’ve still got a lot of bugs to fix and a lot of issues to resolve but it’s really coming together and we’re happy with what we’ve got "
+
+00:04:07.000 --> 00:04:15.000
+and we’re working on metrics to figure out exactly how well we’ve done, but initial assessments are very good.”
+

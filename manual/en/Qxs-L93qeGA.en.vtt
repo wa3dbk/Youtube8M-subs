@@ -1,0 +1,389 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.410 --> 00:00:03.190
+0:00:00.000,0:00:09.861
+Hi, in this video tutorial i will be showing
+
+00:00:03.190 --> 00:00:04.850
+you how to add a favicon into your website.
+
+00:00:04.850 --> 00:00:10.000
+This will cover adding a favicon into a HTML
+site as well as a PHP and WordPress site.
+
+00:00:10.000 --> 00:00:12.790
+0:00:10.367,0:00:29.384
+Let me first explain what a favicon is and
+
+00:00:12.790 --> 00:00:13.790
+does.
+
+00:00:13.790 --> 00:00:17.600
+When you visit a website you will notice a
+small image next to the title in the tab,
+
+00:00:17.600 --> 00:00:18.650
+that is the favicon.
+
+00:00:18.650 --> 00:00:25.000
+Normally a logo but can be anything to identify
+that the tab has your website open.
+
+00:00:25.000 --> 00:00:29.429
+You will also see a favicon when you bookmark
+a site or when check the RSS feed.
+
+00:00:29.429 --> 00:00:32.009
+0:00:29.484,0:00:48.126
+To add a favicon to your website you will
+
+00:00:32.009 --> 00:00:33.260
+need to get two things.
+
+00:00:33.260 --> 00:00:37.611
+The image for the favicon and the HTML code
+to link to the image.
+
+00:00:37.611 --> 00:00:40.670
+To create the favicon you can use any image
+editor you like.
+
+00:00:40.670 --> 00:00:45.530
+Am going to show an example through GIMP as
+it is a free software, if you use Photoshop
+
+00:00:45.530 --> 00:00:48.210
+there is an extention you will have to download.
+
+00:00:48.210 --> 00:00:54.340
+0:00:48.628,0:01:67.926
+The extention will allow you to save files
+
+00:00:54.340 --> 00:00:56.350
+in the ".ico" format.
+
+00:00:56.350 --> 00:01:07.540
+To get the Photoshop extention visit "www.telegraphics.com.au/sw/product/ICOFormat"
+then download the version to suit your computer.
+
+00:01:07.540 --> 00:01:11.540
+0:01:68.926,0:01:100.818
+Right lets create the favicon.
+
+00:01:11.540 --> 00:01:13.580
+First open up GIMP and open a new file.
+
+00:01:13.580 --> 00:01:19.130
+We want the final image to be 32px by 32px
+but for editing an image this can be difficult
+
+00:01:19.130 --> 00:01:24.720
+to work with, so lets make the image size
+500px by 500px.
+
+00:01:24.720 --> 00:01:29.150
+Under Advanced options you should set the
+resolution is 72px per inch.
+
+00:01:29.150 --> 00:01:33.990
+The "Color space" should be set to "RGB color"
+and "Fill with" should be set to your chosen
+
+00:01:33.990 --> 00:01:35.200
+colour.
+
+00:01:35.200 --> 00:01:41.700
+Click "Ok" once ready, if you need to zoom
+in or out hold the "Ctrl" button and scroll.
+
+00:01:41.700 --> 00:01:45.391
+0:01:102.818,0:02:123.491
+Now go to "File - Open" and locate the image
+
+00:01:45.391 --> 00:01:50.490
+you want to use as a favicon and once you
+have selected it click "Open".
+
+00:01:50.490 --> 00:01:53.670
+Then right click the image and go to "Edit
+- Copy".
+
+00:01:53.670 --> 00:01:58.430
+Then switch back to the document we created
+and hit "Ctrl - V" on your keyboard.
+
+00:01:58.430 --> 00:02:03.440
+Then right click the "Floating Selection"
+under the layers panel and click "To New Layer".
+
+00:02:03.440 --> 00:02:05.890
+0:02:123.491,0:02:146.977
+Now select the "Scale Tool" from the "Toolbox".
+
+00:02:05.890 --> 00:02:10.720
+Under the "Tool Options" scroll down and make
+sure the "Keep aspect" box is checked.
+
+00:02:10.720 --> 00:02:15.400
+Then click on the image and you'll see a box
+appear, make sure the link is attached between
+
+00:02:15.400 --> 00:02:17.130
+"Width" and "Height".
+
+00:02:17.130 --> 00:02:19.770
+Now click on the down arrow until the height
+is 500px.
+
+00:02:19.770 --> 00:02:24.810
+If the width of your image was bigger than
+the height you would reverse this and hit
+
+00:02:24.810 --> 00:02:28.630
+the down arrow on the "Width" box.
+
+00:02:28.630 --> 00:02:31.750
+0:02:149.485,0:02:164.596
+After that click "Scale".
+
+00:02:31.750 --> 00:02:37.060
+Next select the "Move Tool" from the "Toolbox"
+and centre the image, to be more precise you
+
+00:02:37.060 --> 00:02:42.060
+can select the "Alignment Tool" and click
+on the image, and under "Tool Options" select
+
+00:02:42.060 --> 00:02:45.300
+"Align "Center" and "Align Middle".
+
+00:02:45.300 --> 00:02:47.310
+0:02:165.096,0:03:183.207
+Before we export the image we have to take
+
+00:02:47.310 --> 00:02:49.270
+it down to the appropriate scale.
+
+00:02:49.270 --> 00:02:56.170
+Under "Image" select "Scale Image", and replace
+the 500px value with 32px for both "Width"
+
+00:02:56.170 --> 00:02:59.180
+and "Height" and click "Scale".
+
+00:02:59.180 --> 00:03:05.080
+Then right click on the image layer and click
+"Merge Down".
+
+00:03:05.080 --> 00:03:10.880
+0:03:186.156,0:03:206.767
+Lets export the file by going to "File - Export".
+
+00:03:10.880 --> 00:03:16.200
+Name the flie "favicon.ico" and select "Microsoft
+Windows icon" as the "File Type".
+
+00:03:16.200 --> 00:03:19.650
+Chose the location you want and click Export.
+
+00:03:19.650 --> 00:03:24.840
+You'll displayed with a "Windows Icon" box,
+am just going to select the default option
+
+00:03:24.840 --> 00:03:26.890
+it has giving me and clicking "Export".
+
+00:03:26.890 --> 00:03:29.880
+0:03:206.767,0:03:218.128
+Open up the folder holding your favicon image.
+
+00:03:29.880 --> 00:03:34.500
+Single click the image and make sure the image
+dimensions are 32 x 32.
+
+00:03:34.500 --> 00:03:38.220
+If they are not you will have to back to edit
+the image.
+
+00:03:38.220 --> 00:03:41.520
+0:03:219.131,0:03:224.461
+We will now move onto the HTML code.
+
+00:03:41.520 --> 00:03:44.230
+I will first make a basic website directory.
+
+00:03:44.230 --> 00:03:47.190
+0:03:224.970,0:03:239.175
+Here you can 3 pages and 3 folders.
+
+00:03:47.190 --> 00:03:51.130
+The favicon is inside the images folder.
+
+00:03:51.130 --> 00:03:57.150
+Lets open the all the files in a editor, am
+using Notpad++ which is free and can be downloaded
+
+00:03:57.150 --> 00:03:58.150
+"notepad-plus-plus.org/".
+
+00:03:58.150 --> 00:04:05.069
+0:04:242.617,0:04:266.947
+The files don't have much in them but will
+
+00:04:05.069 --> 00:04:07.380
+do for showing how to insert the relating
+favicon code.
+
+00:04:07.380 --> 00:04:13.450
+The code will be provided below but lets have
+a look at the code on a live website.
+
+00:04:13.450 --> 00:04:18.030
+Enter "granthynddesigner.co.uk" into the url
+bar.
+
+00:04:18.030 --> 00:04:21.500
+When the page loads right click and "View
+page source".
+
+00:04:21.500 --> 00:04:26.840
+Highlight the 2 lines we need and click "Ctrl
+- C" to copy.
+
+00:04:26.840 --> 00:04:29.160
+0:04:266.947,0:04:287.402
+Then paste the code into the web page your
+
+00:04:29.160 --> 00:04:30.160
+using.
+
+00:04:30.160 --> 00:04:33.389
+Make sure that you paste the code between
+the opening HEAD tag and closing HEAD tag.
+
+00:04:33.389 --> 00:04:37.630
+Hit "Ctrl - S" to save the file and open the
+file with a browser.
+
+00:04:37.630 --> 00:04:42.740
+Notice that the favicon from granthynddesigner.co.uk
+is displayed.
+
+00:04:42.740 --> 00:04:50.800
+To change this all you have to do is change
+the href value to match your site.
+
+00:04:50.800 --> 00:04:56.550
+0:04:294.349,0:05:300.554
+You won't see the favicon display until you
+
+00:04:56.550 --> 00:05:00.770
+have upload it to the website through your
+FTP, I'll show this step later.
+
+00:05:00.770 --> 00:05:04.680
+0:05:301.558,0:05:307.388
+If you are adding the favicon to .html files
+
+00:05:04.680 --> 00:05:07.139
+you will have to add the code to the HEAD
+of every page.
+
+00:05:07.139 --> 00:05:11.810
+0:05:309.888,0:05:324.218
+If you are adding the code to a website built
+
+00:05:11.810 --> 00:05:14.500
+using PHP and the website is split into sections.
+
+00:05:14.500 --> 00:05:19.690
+Then you will only have to enter the code
+once into the "header.php" file.
+
+00:05:19.690 --> 00:05:25.610
+The file may be under a different name but
+just find the file with the HEAD tags.
+
+00:05:25.610 --> 00:05:28.330
+0:05:325.724,0:05:334.304
+WordPress is built through PHP and will be
+
+00:05:28.330 --> 00:05:29.800
+the same concept for adding the code.
+
+00:05:29.800 --> 00:05:34.410
+I will take you through a live example as
+i add a favicon to my tutorial website.
+
+00:05:34.410 --> 00:05:36.590
+0:05:334.304,0:05:351.290
+First thing i'll get you to do is login to
+
+00:05:36.590 --> 00:05:37.590
+your chosen FTP.
+
+00:05:37.590 --> 00:05:41.340
+I am using Filezilla which can be downloaded
+for free at "filezilla-project.org".
+
+00:05:41.340 --> 00:05:47.030
+Then navigate to the base level of website
+you wish to add the favicon to.
+
+00:05:47.030 --> 00:05:56.729
+Then find the favicon from your computer and
+double click it to upload to your website.
+
+00:05:56.729 --> 00:06:01.211
+0:05:359.172,0:06:378.158
+Login to your Wordpress website and click
+
+00:06:01.211 --> 00:06:03.790
+on the "Editor" link under the "Appearance"
+tab.
+
+00:06:03.790 --> 00:06:06.169
+Select the "header.php" file from the right.
+
+00:06:06.169 --> 00:06:11.210
+You can see the opening HEAD tag, and the
+closing HEAD tag, just before the closing
+
+00:06:11.210 --> 00:06:13.030
+HEAD tag add the lines of code.
+
+00:06:13.030 --> 00:06:23.440
+If not already done so you should now change
+the href value to match your domain name.
+
+00:06:23.440 --> 00:06:30.920
+0:06:388.545,0:06:404.031
+Look at the front page of your website...
+
+00:06:30.920 --> 00:06:35.110
+You might not see the favicon appear straight
+away so go into the history of your browser
+
+00:06:35.110 --> 00:06:36.110
+and clear the "cache".
+
+00:06:36.110 --> 00:06:39.700
+Go back to your website and refresh.
+
+00:06:39.700 --> 00:06:43.300
+You should now see the favicon you created
+display on every page of your website including
+
+00:06:43.300 --> 00:06:45.889
+the dashboard.
+
+00:06:45.889 --> 00:06:51.419
+0:06:408.978,0:06:417.558
+And that is it for this video tutorial, if
+
+00:06:51.419 --> 00:06:54.370
+you have any questions leave a comment and
+please like and share the video.
+

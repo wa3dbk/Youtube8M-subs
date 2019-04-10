@@ -1,0 +1,224 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.332
+[MUSIC PLAYING]
+
+00:00:05.720 --> 00:00:07.880
+Micro air vehicles
+capable of operating
+
+00:00:07.880 --> 00:00:10.070
+in constrained environments
+without the use
+
+00:00:10.070 --> 00:00:12.020
+of an external
+motion capture system
+
+00:00:12.020 --> 00:00:15.470
+are typically limited to
+slow and conservative flight.
+
+00:00:15.470 --> 00:00:17.990
+As a consequence, almost
+all of this research
+
+00:00:17.990 --> 00:00:21.690
+is done with rotorcraft
+in the hover regime.
+
+00:00:21.690 --> 00:00:24.950
+In the robust robotics
+group in CSAIL at MIT,
+
+00:00:24.950 --> 00:00:26.900
+we've developed a
+fixed-wing vehicle
+
+00:00:26.900 --> 00:00:30.050
+capable of flying at high
+speeds through obstacles
+
+00:00:30.050 --> 00:00:32.240
+using only onboard sensors.
+
+00:00:32.240 --> 00:00:34.430
+The vehicle is equipped
+with an inertial measurement
+
+00:00:34.430 --> 00:00:37.010
+unit and a laser range scanner.
+
+00:00:37.010 --> 00:00:39.950
+All the computation for
+state estimation and control
+
+00:00:39.950 --> 00:00:42.320
+is done onboard
+using an Intel Atom
+
+00:00:42.320 --> 00:00:45.230
+processor, similar to what
+is found in a commercially
+
+00:00:45.230 --> 00:00:47.930
+available netbook.
+
+00:00:47.930 --> 00:00:50.330
+We designed a custom
+airplane to carry the sensing
+
+00:00:50.330 --> 00:00:53.210
+and computation payload while
+still being able to maneuver
+
+00:00:53.210 --> 00:00:55.190
+in confined spaces.
+
+00:00:55.190 --> 00:00:57.200
+Our platform has
+a 2-meter wingspan
+
+00:00:57.200 --> 00:01:01.040
+and weighs approximately
+2 kilograms.
+
+00:01:01.040 --> 00:01:02.810
+At any given time
+the laser can only
+
+00:01:02.810 --> 00:01:05.690
+see a two-dimensional
+picture of the environment.
+
+00:01:05.690 --> 00:01:07.850
+Laser scans are depicted
+with yellow points
+
+00:01:07.850 --> 00:01:11.390
+representing obstacles, and
+blue representing free space.
+
+00:01:11.390 --> 00:01:15.020
+Even with a pre-computed
+map, individual 2D scans
+
+00:01:15.020 --> 00:01:17.810
+don't contain enough information
+to uniquely determine
+
+00:01:17.810 --> 00:01:21.980
+the 3D position, velocity, and
+orientation of the vehicle.
+
+00:01:21.980 --> 00:01:24.982
+To overcome this difficulty,
+we aggregate successive scans
+
+00:01:24.982 --> 00:01:27.440
+and combine laser information
+with the inertial measurement
+
+00:01:27.440 --> 00:01:30.740
+unit to perform
+state estimation.
+
+00:01:30.740 --> 00:01:32.960
+Another technical
+challenge is efficiently
+
+00:01:32.960 --> 00:01:36.080
+generating trajectories
+for the vehicle to follow.
+
+00:01:36.080 --> 00:01:38.060
+The complicated
+vehicle dynamics create
+
+00:01:38.060 --> 00:01:40.220
+substantial computational
+difficulties
+
+00:01:40.220 --> 00:01:42.500
+in determining a path
+to fly from point A
+
+00:01:42.500 --> 00:01:45.860
+to point B. To overcome
+this difficulty,
+
+00:01:45.860 --> 00:01:47.840
+we use an approximate
+dynamics model
+
+00:01:47.840 --> 00:01:51.170
+that makes it easy to map the
+control inputs-- elevator,
+
+00:01:51.170 --> 00:01:54.980
+rudder, aileron, and
+throttle-- to corresponding XYZ
+
+00:01:54.980 --> 00:01:56.540
+trajectories.
+
+00:01:56.540 --> 00:01:58.880
+We start by connecting a
+set of high-level waypoints
+
+00:01:58.880 --> 00:02:01.100
+with line and arc segments.
+
+00:02:01.100 --> 00:02:02.780
+We then use our
+approximate model
+
+00:02:02.780 --> 00:02:05.540
+to construct dynamically
+feasible paths
+
+00:02:05.540 --> 00:02:09.889
+by parameterizing an offset
+from this underlying trajectory.
+
+00:02:09.889 --> 00:02:12.410
+Here we demonstrate the
+accuracy and reliability
+
+00:02:12.410 --> 00:02:15.260
+of this system flying
+through a parking garage.
+
+00:02:15.260 --> 00:02:18.560
+In places, the parking garage
+is less than 2.5 meters
+
+00:02:18.560 --> 00:02:22.100
+from floor to ceiling, creating
+extremely tight tolerances
+
+00:02:22.100 --> 00:02:23.600
+for our 2-meter vehicle.
+
+00:02:23.600 --> 00:02:25.190
+Our algorithms
+allowed the vehicle
+
+00:02:25.190 --> 00:02:27.910
+to complete a 7-minute flight
+through the environment
+
+00:02:27.910 --> 00:02:31.970
+traveling at over 10 meters per
+second, or 22 miles per hour,
+
+00:02:31.970 --> 00:02:33.770
+covering almost 3
+miles of distance
+
+00:02:33.770 --> 00:02:37.960
+and repeatedly coming within a
+few centimeters of obstacles.
+

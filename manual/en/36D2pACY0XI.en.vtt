@@ -1,0 +1,499 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.191 --> 00:00:04.844
+In this video we're going to setup the
+
+00:00:04.844 --> 00:00:08.175
+animator controller for our enemy,
+
+00:00:08.175 --> 00:00:10.175
+and we're also going to add some code to the
+
+00:00:10.175 --> 00:00:13.939
+game manager to manage and move our enemies.
+
+00:00:14.757 --> 00:00:16.757
+Let's start with the animator controller.
+
+00:00:16.757 --> 00:00:19.881
+We're going to go to Animations - Animator Controller
+
+00:00:19.881 --> 00:00:22.750
+and open our animator controller Enemy1.
+
+00:00:24.789 --> 00:00:26.789
+We're going to create some transitions
+
+00:00:26.789 --> 00:00:28.789
+from our default idle state
+
+00:00:28.789 --> 00:00:30.789
+to our Enemy1Attack state
+
+00:00:30.789 --> 00:00:32.970
+by right clicking on Enemy1Idle
+
+00:00:32.970 --> 00:00:34.970
+selecting Make Transition
+
+00:00:35.553 --> 00:00:37.414
+and clicking on Enemy1Attack.
+
+00:00:37.830 --> 00:00:40.537
+We're also going to transition back to Enemy1Idle
+
+00:00:40.537 --> 00:00:42.537
+once Enemy1Attack is complete.
+
+00:00:46.018 --> 00:00:48.447
+Next we're going to set a condition
+
+00:00:48.447 --> 00:00:51.111
+for when we want to transition from Enemy1Idle
+
+00:00:51.111 --> 00:00:52.751
+to Enemy1Attack.
+
+00:00:52.751 --> 00:00:55.241
+We're going to do this using a trigger parameter
+
+00:00:55.241 --> 00:00:56.714
+as we did in the player.
+
+00:00:56.714 --> 00:00:59.648
+In our list of parameters here let's click +
+
+00:01:00.258 --> 00:01:02.258
+and we'll choose Trigger.
+
+00:01:02.799 --> 00:01:05.353
+We're going to label this EnemyAttack.
+
+00:01:06.421 --> 00:01:08.421
+And we'll add this to our list of conditions
+
+00:01:08.421 --> 00:01:11.404
+from Enemy1Idle to Enemy1Attack.
+
+00:01:12.113 --> 00:01:15.013
+Make sure that the transition is highlighted by clicking on it
+
+00:01:15.512 --> 00:01:17.512
+and then we're going to click the + button
+
+00:01:17.512 --> 00:01:19.036
+in the list of conditions.
+
+00:01:19.623 --> 00:01:22.723
+Since there's only 1 parameter Enemy1Attack will be added.
+
+00:01:24.827 --> 00:01:27.425
+We're also going to adjust the settings for this transition.
+
+00:01:27.918 --> 00:01:30.173
+We're going to uncheck Has Exit Time
+
+00:01:30.173 --> 00:01:32.635
+since we want to immediately transition
+
+00:01:32.635 --> 00:01:34.635
+when it's time for the enemy to attack.
+
+00:01:36.620 --> 00:01:38.484
+We'll unfold our settings,
+
+00:01:38.484 --> 00:01:40.484
+set the transition duration to 0.
+
+00:01:45.589 --> 00:01:47.947
+Transitioning out of Enemy1Attack
+
+00:01:47.947 --> 00:01:49.947
+we will use Has Exit Time
+
+00:01:49.947 --> 00:01:52.518
+and we'll set the exit time to 1
+
+00:01:52.518 --> 00:01:55.803
+because we want to transition at the end of the animation.
+
+00:01:59.131 --> 00:02:02.071
+We'll also set the transition duration to 0.
+
+00:02:04.698 --> 00:02:06.713
+Next let's dock out animator
+
+00:02:06.713 --> 00:02:09.326
+at the bottom of the screen and test the animation.
+
+00:02:26.133 --> 00:02:28.905
+It's worth noting, because we created our animator
+
+00:02:28.905 --> 00:02:30.905
+override controller for Enemy2
+
+00:02:30.905 --> 00:02:34.024
+and are reusing the Enemy1 animator controller
+
+00:02:34.024 --> 00:02:36.024
+we don't need to do this twice.
+
+00:02:36.024 --> 00:02:39.299
+This same state machine will be used for both enemies.
+
+00:02:41.635 --> 00:02:43.635
+Let's return to our Scripts folder
+
+00:02:44.053 --> 00:02:46.053
+and open our Game Manager.
+
+00:02:47.217 --> 00:02:49.217
+First, in Game Manager, we're going to declare
+
+00:02:49.217 --> 00:02:51.770
+a public float called TurnDelay
+
+00:02:51.770 --> 00:02:54.177
+and initialise it to 0.1 seconds.
+
+00:02:54.177 --> 00:02:57.125
+This is how long the game is going to wait between turns.
+
+00:02:57.125 --> 00:03:00.182
+We're also going to add to our namespace declarations
+
+00:03:00.182 --> 00:03:03.574
+using System.Collections.Generic
+
+00:03:03.574 --> 00:03:06.300
+We're going to do this so that we can use lists,
+
+00:03:06.300 --> 00:03:09.326
+which we're going to use to keep track of our enemies.
+
+00:03:09.326 --> 00:03:12.277
+Next we're going to declare a private list
+
+00:03:12.277 --> 00:03:15.218
+of Enemy classes called enemies.
+
+00:03:15.218 --> 00:03:17.218
+We're going to use this list enemies to keep
+
+00:03:17.218 --> 00:03:19.218
+track of our enemies and to send them
+
+00:03:19.218 --> 00:03:20.935
+their orders to move.
+
+00:03:20.935 --> 00:03:24.487
+We're also going to declare a private boolean
+
+00:03:24.487 --> 00:03:26.487
+called enemiesMoving.
+
+00:03:27.412 --> 00:03:29.994
+With that done, in awake we're going to set
+
+00:03:29.994 --> 00:03:34.011
+enemies to equal a new list of the type Enemy.
+
+00:03:34.414 --> 00:03:36.964
+In InitGame we're going to clear our list of
+
+00:03:36.964 --> 00:03:40.762
+enemies when the game starts using enemies.Clear.
+
+00:03:41.262 --> 00:03:43.262
+We need to do this because the Game Manager will
+
+00:03:43.262 --> 00:03:45.262
+not be reset when the level starts
+
+00:03:45.262 --> 00:03:48.270
+and we need to clear out any enemies from the last level.
+
+00:03:48.912 --> 00:03:51.515
+The next thing that we're going to do is declare our coroutine
+
+00:03:51.515 --> 00:03:53.091
+called MoveEnemies.
+
+00:03:53.091 --> 00:03:55.390
+We're going to use this to move our enemies
+
+00:03:55.390 --> 00:03:57.390
+one at a time in sequence.
+
+00:03:58.271 --> 00:04:00.271
+Inside our coroutine we're going to set
+
+00:04:00.271 --> 00:04:02.151
+enemiesMoving to true.
+
+00:04:02.151 --> 00:04:04.151
+Next we're going to yield and wait for the
+
+00:04:04.151 --> 00:04:06.151
+amount of time set in turnDelay,
+
+00:04:06.151 --> 00:04:08.838
+in this case 0.1 seconds.
+
+00:04:08.838 --> 00:04:11.876
+We're also going to check if no enemies have been spawned yet,
+
+00:04:11.876 --> 00:04:14.010
+which would be the case in the first level.
+
+00:04:14.010 --> 00:04:16.010
+If they haven't we're going to add
+
+00:04:16.010 --> 00:04:20.313
+an additional yield to cause our player to wait
+
+00:04:20.313 --> 00:04:22.313
+even though there's no enemy that they're waiting for.
+
+00:04:22.761 --> 00:04:24.761
+We're checking the length of our enemies list
+
+00:04:24.761 --> 00:04:27.061
+using enemies.Count.
+
+00:04:27.061 --> 00:04:30.051
+With our waiting done we're going to use a for loop
+
+00:04:30.051 --> 00:04:32.379
+to loop through our enemies list
+
+00:04:33.021 --> 00:04:35.991
+and issue the MoveEnemy command
+
+00:04:35.991 --> 00:04:37.991
+to each of these enemies by calling
+
+00:04:37.991 --> 00:04:41.140
+the MoveEnemy function in our enemy script.
+
+00:04:41.140 --> 00:04:43.140
+As we call the MoveEnemy function
+
+00:04:43.140 --> 00:04:44.947
+on each of the enemies in our list
+
+00:04:44.947 --> 00:04:46.947
+we're going to wait before we call the next one
+
+00:04:46.947 --> 00:04:50.958
+using yield, parsing in the moveTime variable
+
+00:04:50.958 --> 00:04:52.958
+of our enemies.
+
+00:04:54.645 --> 00:04:56.972
+Once we've finished our loop we're going to set
+
+00:04:56.972 --> 00:04:58.972
+playersTurn to equal true
+
+00:04:58.972 --> 00:05:01.574
+and enemiesMoving to equal false.
+
+00:05:02.763 --> 00:05:05.425
+Now that our MoveEnemies coroutine is ready to use
+
+00:05:05.425 --> 00:05:07.425
+we're going to call that from within update.
+
+00:05:08.858 --> 00:05:10.516
+The first thing we're going to do in update
+
+00:05:10.516 --> 00:05:12.846
+is we're going to check if it's the playersTurn
+
+00:05:12.846 --> 00:05:15.491
+or enemiesMoving is already true,
+
+00:05:15.491 --> 00:05:17.491
+meaning the enemies are already moving.
+
+00:05:18.655 --> 00:05:20.655
+If either of those are true we're going to return
+
+00:05:20.655 --> 00:05:23.120
+and not execute the following code.
+
+00:05:23.120 --> 00:05:25.120
+If neither are true we're going to start
+
+00:05:25.120 --> 00:05:27.120
+our coroutine MoveEnemies.
+
+00:05:29.045 --> 00:05:31.045
+Next we're going to declare a public function
+
+00:05:31.045 --> 00:05:34.057
+that returns void called AddEnemyToList.
+
+00:05:34.564 --> 00:05:38.192
+It's going to take a parameter of the type Enemy called script
+
+00:05:38.790 --> 00:05:41.700
+We're using AddEnemyToList to have the enemies
+
+00:05:41.700 --> 00:05:44.031
+register themselves with the Game Manager
+
+00:05:44.031 --> 00:05:46.031
+so that the Game Manager can issue
+
+00:05:46.031 --> 00:05:47.659
+movement orders to them.
+
+00:05:47.659 --> 00:05:49.659
+In AddEnemyToList we're just going to use
+
+00:05:49.659 --> 00:05:52.943
+the Add function of our enemies list
+
+00:05:52.943 --> 00:05:55.153
+and parse in our parameter script.
+
+00:05:55.153 --> 00:05:57.153
+And that's all we're going to need to do for now.
+
+00:05:57.153 --> 00:05:59.930
+Let's save our Game Manager and return to the editor.
+
+00:06:01.423 --> 00:06:03.423
+Now that we're added the needed functionality
+
+00:06:03.423 --> 00:06:06.454
+to the Game Manager and setup our animator controllers
+
+00:06:06.454 --> 00:06:09.366
+we're going to make 2 small additions to our Enemy script.
+
+00:06:10.053 --> 00:06:12.053
+Let's open it up in Monodevelop.
+
+00:06:12.560 --> 00:06:15.499
+The first thing that we're going to do, in the start function,
+
+00:06:15.499 --> 00:06:19.481
+is have our Enemy script add itself to
+
+00:06:19.481 --> 00:06:22.036
+our list of enemies in Game Manager.
+
+00:06:22.797 --> 00:06:25.406
+By adding our enemy to the list this way
+
+00:06:25.406 --> 00:06:27.406
+the Game Manager will now be able to call the
+
+00:06:27.406 --> 00:06:30.902
+public function we declared MoveEnemy in Enemy
+
+00:06:32.618 --> 00:06:35.564
+Lastly for the Enemy we're going to use SetTrigger
+
+00:06:35.564 --> 00:06:37.818
+to set the EnemyAttack trigger
+
+00:06:37.818 --> 00:06:39.818
+in the animator controller that we setup.
+
+00:06:41.012 --> 00:06:43.728
+Let's save our Enemy script and return to the editor.
+
+00:06:46.176 --> 00:06:50.041
+Back in the editor, let's add our Enemy script
+
+00:06:50.041 --> 00:06:51.635
+to our Enemy prefabs.
+
+00:06:51.635 --> 00:06:53.635
+We're going to go to Prefabs -
+
+00:06:54.411 --> 00:06:56.817
+shift-click to highlight the two Enemy prefabs
+
+00:06:57.563 --> 00:07:01.325
+choose Component - Scripts - Enemy.
+
+00:07:03.892 --> 00:07:06.385
+We'll set the blocking layer for both enemies
+
+00:07:07.460 --> 00:07:09.460
+to Blocking Layer
+
+00:07:10.161 --> 00:07:13.001
+and we're going to define the PlayerDamage variable separately.
+
+00:07:14.016 --> 00:07:17.243
+Enemy1 is going to do 10 damage
+
+00:07:17.243 --> 00:07:19.822
+and Enemy2 is going to do 20.
+
+00:07:19.822 --> 00:07:22.078
+This allows us to have a weaker and stronger enemy type
+
+00:07:22.078 --> 00:07:24.078
+to make the game a little more interesting
+
+00:07:24.078 --> 00:07:26.241
+Let's play our scene and give it a test.
+
+00:07:31.972 --> 00:07:33.972
+When we move the player we can see that the
+
+00:07:33.972 --> 00:07:35.972
+enemy moves every other turn,
+
+00:07:35.972 --> 00:07:37.972
+we can collect our food pickups,
+
+00:07:38.718 --> 00:07:41.125
+if we collide with the walls we can attack them
+
+00:07:41.125 --> 00:07:42.614
+and break them.
+
+00:07:43.991 --> 00:07:47.179
+And so so far everything is working nicely.
+
+00:07:47.179 --> 00:07:49.179
+We can see that the player's hit animation is
+
+00:07:49.179 --> 00:07:51.520
+playing and that the enemy attack animation
+
+00:07:51.520 --> 00:07:52.818
+is playing when it should.
+
+00:07:52.818 --> 00:07:54.818
+The next step is going to be to add some
+
+00:07:54.818 --> 00:07:59.730
+user interface elements, including title cards for the levels,
+
+00:07:59.730 --> 00:08:01.730
+and some score text so that
+
+00:08:01.730 --> 00:08:03.730
+the player can keep track of their
+
+00:08:03.730 --> 00:08:05.354
+current food point total.
+
+00:08:05.849 --> 00:08:07.849
+We'll do that in the next video.
+
+00:08:08.000 --> 00:08:11.000
+Subtitles by the Amara.org community
+

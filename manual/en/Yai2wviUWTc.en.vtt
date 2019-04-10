@@ -1,0 +1,630 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:00.833
+(upbeat rock music)
+
+00:00:00.833 --> 00:00:01.901
+- [Woman] Do it.
+(coin dinging)
+
+00:00:01.901 --> 00:00:03.120
+(typewriter keys clicking)
+
+00:00:03.120 --> 00:00:05.290
+- [Versatile] Hey, guys, this
+is Versatile from VST Power,
+
+00:00:05.290 --> 00:00:06.640
+now hosted on Project Phoenix Media.
+
+00:00:06.640 --> 00:00:08.860
+We got a really great
+PS2 game tutorial today.
+
+00:00:08.860 --> 00:00:10.930
+I'm gonna show you how to play your games
+
+00:00:10.930 --> 00:00:15.700
+from a PS2 flash drive or a
+thumb drive, any thumb drive,
+
+00:00:15.700 --> 00:00:18.960
+that you plug into PS2 that
+is modded, fat or slim,
+
+00:00:18.960 --> 00:00:20.340
+using Free MCBoot and OPM,
+
+00:00:20.340 --> 00:00:22.130
+and how does this work?
+
+00:00:22.130 --> 00:00:24.180
+In past tutorials, just as a recap,
+
+00:00:24.180 --> 00:00:27.000
+in past tutorials, there's a
+program called USB Extreme,
+
+00:00:27.000 --> 00:00:29.780
+and we would use this
+program to rip your games
+
+00:00:29.780 --> 00:00:32.140
+and convert 'em into
+the appropriate format
+
+00:00:32.140 --> 00:00:34.310
+for your external USB hard drive.
+
+00:00:34.310 --> 00:00:36.320
+For example, if I go to my computer here,
+
+00:00:36.320 --> 00:00:38.480
+my thumb drive is the letter D,
+
+00:00:38.480 --> 00:00:42.450
+but if I go onto USB Extreme
+Hard Drive section here,
+
+00:00:42.450 --> 00:00:43.560
+letter D is not showing.
+
+00:00:43.560 --> 00:00:45.720
+How do I get my thumb
+drive to show up on here?
+
+00:00:45.720 --> 00:00:47.930
+Well, the bottom answer is you don't,
+
+00:00:47.930 --> 00:00:50.220
+so we don't need this
+program for USB thumb drives,
+
+00:00:50.220 --> 00:00:52.550
+and I'll show you a
+different way of doing this.
+
+00:00:52.550 --> 00:00:54.360
+So, what you wanna do
+is go to your computer,
+
+00:00:54.360 --> 00:00:57.010
+plug in your thumb drive, go ahead,
+
+00:00:57.010 --> 00:00:58.050
+right-click your thumb drive,
+
+00:00:58.050 --> 00:01:01.150
+go to Format, and just make
+sure it is the FAT32 format.
+
+00:01:01.150 --> 00:01:03.770
+I already did that, so we're good to go.
+
+00:01:03.770 --> 00:01:05.300
+Let me go into the thumb drive here,
+
+00:01:05.300 --> 00:01:06.870
+and I'll show you the file structure.
+
+00:01:06.870 --> 00:01:09.930
+So, ultimately you need
+a CD and a DVD folder.
+
+00:01:09.930 --> 00:01:11.640
+I don't have any CD games at the moment,
+
+00:01:11.640 --> 00:01:13.230
+but if I did, I will put them in there.
+
+00:01:13.230 --> 00:01:15.880
+And then in the DVD folder,
+you would have your ISOs.
+
+00:01:16.900 --> 00:01:20.290
+Just a recap, how do you get
+your ISO of your PS2 game?
+
+00:01:20.290 --> 00:01:21.500
+So, let's say, for example,
+
+00:01:21.500 --> 00:01:24.770
+that you had a PS2 disc
+inserted in your computer.
+
+00:01:24.770 --> 00:01:26.410
+So, if you wanna make an ISO out of it,
+
+00:01:26.410 --> 00:01:28.840
+if you open up a program
+like DVD Decrypter,
+
+00:01:28.840 --> 00:01:31.080
+or you could use a program like ImgBurn,
+
+00:01:31.080 --> 00:01:32.570
+but if you're using DVD Decrypter,
+
+00:01:32.570 --> 00:01:37.090
+just go to Mode, ISO, Read
+mode, click on this button,
+
+00:01:37.090 --> 00:01:39.830
+and it's gonna rip the
+ISO to your computer.
+
+00:01:39.830 --> 00:01:42.340
+Once you have done that, go
+ahead, take that ISO file,
+
+00:01:42.340 --> 00:01:45.070
+and put it on your USB thumb
+drive in the DVD folder.
+
+00:01:45.070 --> 00:01:47.910
+99.9% of the time, your PS2 game
+
+00:01:47.910 --> 00:01:51.023
+is most likely going to be
+a DVD image, not a CD image.
+
+00:01:52.170 --> 00:01:53.150
+Let's go ahead and do that.
+
+00:01:53.150 --> 00:01:54.530
+I already did earlier today,
+
+00:01:54.530 --> 00:01:56.070
+and one thing you wanna do is
+
+00:01:56.070 --> 00:01:58.280
+you want to rename the file format
+
+00:01:58.280 --> 00:02:02.110
+in the very specific file
+format for OPL to read it.
+
+00:02:02.110 --> 00:02:02.943
+So, how does this work?
+
+00:02:02.943 --> 00:02:04.690
+So, here, let me go over the structure.
+
+00:02:04.690 --> 00:02:06.180
+The first half of the file name is
+
+00:02:06.180 --> 00:02:08.760
+like this SLUS nomenclature, right?
+
+00:02:08.760 --> 00:02:11.460
+How do you even know what these
+numbers are to begin with?
+
+00:02:11.460 --> 00:02:13.360
+So, if you mounted your ISO virtually,
+
+00:02:13.360 --> 00:02:16.770
+using like a DAEMON Tools
+or a Virtual CloneDrive,
+
+00:02:16.770 --> 00:02:18.410
+or you had your actual disc inserted
+
+00:02:18.410 --> 00:02:21.130
+in your computer disc drive,
+
+00:02:21.130 --> 00:02:22.380
+what you wanna do is just go into
+
+00:02:22.380 --> 00:02:24.030
+the file contents of that disc,
+
+00:02:24.030 --> 00:02:26.203
+and look for the file
+name that says SLUS_,
+
+00:02:27.520 --> 00:02:28.720
+and there's gonna be some digits here.
+
+00:02:28.720 --> 00:02:31.720
+So, copy that, so we go back here,
+
+00:02:31.720 --> 00:02:36.180
+so that's what I did, SLUS_217.20.,
+
+00:02:36.180 --> 00:02:38.210
+and here you type in the name of your ISO,
+
+00:02:38.210 --> 00:02:39.440
+whatever you wanna call it.
+
+00:02:39.440 --> 00:02:44.180
+I decided to call it Arcana_Heart_2.iso.
+
+00:02:44.180 --> 00:02:46.450
+I could name it whatever I want to.
+
+00:02:46.450 --> 00:02:48.150
+And then also I had this other game here,
+
+00:02:48.150 --> 00:02:50.380
+Marvel vs. Capcom 2, so you sort of see
+
+00:02:50.380 --> 00:02:53.460
+that the file structure is
+very, very similar, okay?
+
+00:02:53.460 --> 00:02:55.110
+And then after you've done that,
+
+00:02:55.110 --> 00:02:59.040
+every time you add a new game
+into your CD or DVD folder,
+
+00:02:59.040 --> 00:03:00.270
+every time you do that,
+
+00:03:00.270 --> 00:03:03.090
+you're going to have to
+defrag your thumb drive,
+
+00:03:03.090 --> 00:03:04.700
+and this is the part that really sucks
+
+00:03:04.700 --> 00:03:07.380
+because it is gonna take a
+while to defrag a thumb drive
+
+00:03:07.380 --> 00:03:09.550
+when compared to a USB
+external hard drive.
+
+00:03:09.550 --> 00:03:13.850
+So, one program I like to
+use is called Smart Defrag 3,
+
+00:03:13.850 --> 00:03:15.120
+and what you wanna do is go ahead,
+
+00:03:15.120 --> 00:03:16.620
+insert your thumb drive,
+
+00:03:16.620 --> 00:03:18.530
+and then what you wanna do is
+
+00:03:19.600 --> 00:03:21.850
+go here, go click on the Analyze button,
+
+00:03:21.850 --> 00:03:24.170
+and then it's gonna
+analyze your thumb drive,
+
+00:03:24.170 --> 00:03:27.100
+and ideally, it's gonna
+say zero fragments,
+
+00:03:27.100 --> 00:03:29.520
+fragmentation rate 0%, which is great,
+
+00:03:29.520 --> 00:03:32.330
+but if it is fragmented,
+then what you wanna do is
+
+00:03:32.330 --> 00:03:34.470
+basically click on the Defrag button here,
+
+00:03:34.470 --> 00:03:37.740
+and then click on Defrag
+and Fast Optimize,
+
+00:03:37.740 --> 00:03:39.920
+is what I do, and it's gonna
+take like half an hour,
+
+00:03:39.920 --> 00:03:41.410
+an hour, depending on
+how many games you got
+
+00:03:41.410 --> 00:03:42.740
+on your thumb drive, of course,
+
+00:03:42.740 --> 00:03:44.310
+and then once all is said and done,
+
+00:03:44.310 --> 00:03:45.980
+you can insert it in your PS2,
+
+00:03:45.980 --> 00:03:47.180
+and you're ready to rock and roll
+
+00:03:47.180 --> 00:03:48.330
+and have a lotta good times.
+
+00:03:48.330 --> 00:03:50.700
+If your game is fragmented,
+
+00:03:50.700 --> 00:03:52.470
+and when you insert it in your PS2,
+
+00:03:52.470 --> 00:03:55.330
+it may get stuck on those flashing colors
+
+00:03:55.330 --> 00:03:56.650
+when you first start the game,
+
+00:03:56.650 --> 00:03:59.833
+so it's very important to
+defrag your thumb drive,
+
+00:04:00.740 --> 00:04:01.900
+even though logic says
+
+00:04:01.900 --> 00:04:03.540
+you're not supposed to
+defrag your thumb drives
+
+00:04:03.540 --> 00:04:05.040
+because it will decrease the length
+
+00:04:05.040 --> 00:04:06.460
+of your thumb drive long-term,
+
+00:04:06.460 --> 00:04:07.710
+you got no choice here,
+
+00:04:07.710 --> 00:04:08.810
+and if you're on a budget,
+
+00:04:08.810 --> 00:04:10.330
+and you've only got like
+four-gig, eight-gig,
+
+00:04:10.330 --> 00:04:14.300
+32-gig thumb drive, then that
+is exactly what you gotta do.
+
+00:04:14.300 --> 00:04:16.850
+So, that's what you gotta do,
+
+00:04:16.850 --> 00:04:18.090
+and then that's pretty much it.
+
+00:04:18.090 --> 00:04:21.510
+So, to recap, get an
+ISO, take that ISO file,
+
+00:04:21.510 --> 00:04:25.060
+put it on your FAT32 thumb
+drive in the DVD folder,
+
+00:04:25.060 --> 00:04:27.160
+rename that ISO properly,
+
+00:04:27.160 --> 00:04:30.700
+and then defrag that thumb
+drive, and you're good to go.
+
+00:04:30.700 --> 00:04:33.680
+So, with that said, let's
+go straight to my TV,
+
+00:04:33.680 --> 00:04:35.610
+and show you living proof of this booting,
+
+00:04:35.610 --> 00:04:37.680
+and it's a lotta good
+times, let's do this.
+
+00:04:37.680 --> 00:04:39.570
+All right, in this
+portion of video tutorial,
+
+00:04:39.570 --> 00:04:40.403
+I'm gonna show you proof
+
+00:04:40.403 --> 00:04:42.620
+of loading the games
+from the USB thumb drive.
+
+00:04:42.620 --> 00:04:44.240
+So here's my PS2 Slim.
+
+00:04:44.240 --> 00:04:46.890
+It's running Free MCBoot
+1.94, so let's do this.
+
+00:04:46.890 --> 00:04:50.580
+Let's go back to the TV
+here, go down to OPL,
+
+00:04:50.580 --> 00:04:53.950
+and let me show you a
+real quick neat trick
+
+00:04:53.950 --> 00:04:55.743
+that I did with my OPL settings.
+
+00:04:56.640 --> 00:04:59.720
+If I press the Start
+button and go to Settings,
+
+00:04:59.720 --> 00:05:01.230
+go to Settings, press X,
+
+00:05:01.230 --> 00:05:02.687
+what I like to do is I like to have
+
+00:05:02.687 --> 00:05:05.550
+the USB device start mode as a Manual,
+
+00:05:05.550 --> 00:05:08.190
+so just press X, make sure
+that Manual is selected,
+
+00:05:08.190 --> 00:05:09.750
+and then when I go to Default menu,
+
+00:05:09.750 --> 00:05:11.890
+I just make sure that
+USB Games is selected.
+
+00:05:11.890 --> 00:05:15.200
+Press OK, click on Save changes,
+
+00:05:15.200 --> 00:05:16.510
+and then you're good to go.
+
+00:05:16.510 --> 00:05:17.560
+I press Circle.
+
+00:05:17.560 --> 00:05:19.096
+So now we just press X,
+
+00:05:19.096 --> 00:05:20.190
+(controller button clicks)
+
+00:05:20.190 --> 00:05:22.730
+and it's gonna recognize my
+games off the USB thumb drives.
+
+00:05:22.730 --> 00:05:24.950
+That's awesome, and so
+I've got two games here,
+
+00:05:24.950 --> 00:05:26.610
+and I'm gonna go ahead
+and play the second game,
+
+00:05:26.610 --> 00:05:28.730
+which is Marvel vs. Capcom 2.
+
+00:05:28.730 --> 00:05:31.090
+If your thumb drive is fragmented,
+
+00:05:31.090 --> 00:05:33.650
+or defrag properly, for example,
+
+00:05:33.650 --> 00:05:35.320
+then you're gonna get flashing colors,
+
+00:05:35.320 --> 00:05:36.610
+it's gonna bypass this,
+
+00:05:36.610 --> 00:05:38.803
+and then you're gonna
+have a lotta good times.
+
+00:05:39.709 --> 00:05:42.376
+(tape whirring)
+
+00:05:43.870 --> 00:05:46.500
+So one thing I do wanna
+note is, obviously,
+
+00:05:46.500 --> 00:05:49.260
+using USB external hard
+drives is the best,
+
+00:05:49.260 --> 00:05:50.480
+but if you are on a budget,
+
+00:05:50.480 --> 00:05:51.630
+and you only got thumb drives,
+
+00:05:51.630 --> 00:05:54.683
+then that's the second-best alternative.
+
+00:05:54.683 --> 00:05:55.718
+(airy music)
+
+00:05:55.718 --> 00:05:56.551
+- [Male] Capcom!
+
+00:05:56.551 --> 00:05:58.140
+- [Versatile] All right, sweet, so we got,
+
+00:05:58.140 --> 00:05:59.760
+I will go ahead into the main menu here.
+
+00:05:59.760 --> 00:06:02.840
+- [Male] Marvel Vs. Cap--
+(chord echoing)
+
+00:06:02.840 --> 00:06:03.673
+- [Versatile] I'm just gonna go ahead
+
+00:06:03.673 --> 00:06:05.010
+and try to get into the
+game real quick here,
+
+00:06:05.010 --> 00:06:06.813
+show you some quick performance.
+
+00:06:09.917 --> 00:06:12.986
+(sci-fi whooshing)
+
+00:06:12.986 --> 00:06:17.986
+(rapid high-pitched swooshing)
+(controller buttons clicking)
+
+00:06:18.519 --> 00:06:20.102
+- [Male] All right!
+
+00:06:21.541 --> 00:06:22.724
+(metal clinking)
+
+00:06:22.724 --> 00:06:24.724
+- [Versatile] All right.
+
+00:06:41.647 --> 00:06:42.680
+(character speaking in foreign language)
+
+00:06:42.680 --> 00:06:44.055
+All right, let's do this.
+
+00:06:44.055 --> 00:06:45.927
+(energetic battle music)
+
+00:06:45.927 --> 00:06:47.108
+(character announcing in foreign language)
+
+00:06:47.108 --> 00:06:48.560
+(controller buttons clicking)
+
+00:06:48.560 --> 00:06:49.640
+So anyways we can clearly see
+
+00:06:49.640 --> 00:06:52.290
+that the game works fine
+using a PS2 thumb drive,
+
+00:06:52.290 --> 00:06:53.890
+so if you guys have any
+nit-picky questions,
+
+00:06:53.890 --> 00:06:55.610
+then leave a comment
+here on the YouTube page,
+
+00:06:55.610 --> 00:06:56.990
+and I'll get back to
+you as soon as possible.
+
+00:06:56.990 --> 00:06:58.380
+Once again, thanks for watching.
+
+00:06:58.380 --> 00:06:59.883
+Take care, bye.
+
+00:07:00.791 --> 00:07:02.162
+(eerie music)
+(coin dinging)
+
+00:07:02.162 --> 00:07:03.671
+(coin dinging)
+
+00:07:03.671 --> 00:07:04.944
+(coin dinging)
+

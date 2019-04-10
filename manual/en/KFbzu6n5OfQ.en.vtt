@@ -1,0 +1,433 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.346 --> 00:00:01.586
+&gt;&gt; Hi, this is Shaun
+
+00:00:01.586 --> 00:00:03.566
+In this video, I'm
+going to go over how
+
+00:00:03.566 --> 00:00:05.356
+to get these arms moving
+
+00:00:05.356 --> 00:00:09.446
+in a nice dynamic way
+using hair curves.
+
+00:00:09.796 --> 00:00:14.606
+So first of all, let's get this
+thing aligned back up on the --
+
+00:00:14.606 --> 00:00:16.986
+so its tentacles are
+right along the axis.
+
+00:00:17.026 --> 00:00:22.316
+So we need to go in and rotate
+it on the y 20 point 5 degrees.
+
+00:00:23.086 --> 00:00:25.856
+And I'm just going
+to start off on this.
+
+00:00:26.536 --> 00:00:29.126
+And we'll create a CV curve.
+
+00:00:30.706 --> 00:00:32.956
+And snapping along the grid.
+
+00:00:33.516 --> 00:00:38.546
+[ Background Sounds ]
+
+00:00:39.046 --> 00:00:41.736
+And by making these
+arms exactly 10 units,
+
+00:00:41.736 --> 00:00:47.116
+it's really to make sure that
+my control points are right
+
+00:00:47.116 --> 00:00:50.696
+at the area where there's
+geometry for it deform.
+
+00:00:50.696 --> 00:00:52.336
+So that's also worth noting.
+
+00:00:53.086 --> 00:00:55.456
+And I'm going to -- the other
+thing is I want to nudge
+
+00:00:56.306 --> 00:01:00.966
+that control, that curve
+into the center of the arm.
+
+00:01:01.516 --> 00:01:05.936
+And so now I want to get
+-- duplicate special those,
+
+00:01:05.936 --> 00:01:10.426
+that curve and so edit,
+duplicate, special.
+
+00:01:10.946 --> 00:01:15.966
+And we want it to be every
+45 degrees and we want 7 just
+
+00:01:15.966 --> 00:01:17.226
+like we did with the arms.
+
+00:01:17.896 --> 00:01:19.636
+I'm going to hit apply.
+
+00:01:20.256 --> 00:01:24.156
+And so now I'm going to middle
+mouse, drag this into the group
+
+00:01:24.156 --> 00:01:29.506
+and we'll call this like
+octo control curves.
+
+00:01:29.546 --> 00:01:36.406
+Great. And we want those
+in dynamic air curves.
+
+00:01:36.686 --> 00:01:42.286
+So under the in dynamics
+tab, in hair we want
+
+00:01:42.286 --> 00:01:43.946
+to make those curves dynamic.
+
+00:01:44.916 --> 00:01:47.876
+So as opposed to
+the other process
+
+00:01:47.876 --> 00:01:49.086
+which is just creating hair.
+
+00:01:49.086 --> 00:01:52.866
+So we will look down here
+and say make dynamic,
+
+00:01:53.436 --> 00:01:55.216
+make selected curves dynamic.
+
+00:01:55.756 --> 00:01:59.596
+So now that we've done that
+we do a test play and it looks
+
+00:01:59.596 --> 00:02:05.176
+like they're attached on the
+start and the end depending
+
+00:02:05.176 --> 00:02:07.486
+on how you created the curve,
+that's how it's declared.
+
+00:02:08.906 --> 00:02:10.936
+So let's find out
+where that parameter.
+
+00:02:10.936 --> 00:02:16.656
+In the -- and it's
+really in the follicles.
+
+00:02:17.066 --> 00:02:22.866
+So if we open up the
+octo control curves,
+
+00:02:22.866 --> 00:02:24.736
+now you can see we've
+got all these follicles.
+
+00:02:24.736 --> 00:02:29.206
+And so now if we want to
+look in the follicle shape,
+
+00:02:29.206 --> 00:02:30.816
+I'm just selecting all of these.
+
+00:02:31.306 --> 00:02:34.046
+In the follicle shape,
+there's --
+
+00:02:34.556 --> 00:02:38.966
+it specifies how it's attached
+by the point lock so it's
+
+00:02:38.966 --> 00:02:41.386
+by default set to both
+ends but really we want
+
+00:02:41.386 --> 00:02:44.186
+to just make sure it's
+attached at the base.
+
+00:02:45.216 --> 00:02:49.696
+So it will free up the end here.
+
+00:02:49.836 --> 00:02:53.356
+And so now we can see the
+curves are swinging free
+
+00:02:53.806 --> 00:02:55.766
+but they're not deforming
+the arms and that's one
+
+00:02:55.766 --> 00:02:57.246
+of the things that we want next.
+
+00:02:57.276 --> 00:03:04.106
+So we need to figure out a
+way that will allow wires
+
+00:03:04.106 --> 00:03:05.786
+to deform this topology.
+
+00:03:06.216 --> 00:03:10.936
+And that's under the animation
+set here under create formers.
+
+00:03:11.906 --> 00:03:13.866
+And we want the wire tool.
+
+00:03:14.806 --> 00:03:18.086
+And so if we go create
+deformers, wire tool,
+
+00:03:18.086 --> 00:03:23.636
+it will ask you to select the
+shape to deform and press enter.
+
+00:03:23.636 --> 00:03:27.456
+So we want to select the
+octopus geometry and hit enter.
+
+00:03:28.406 --> 00:03:31.066
+And now it says select
+the curves
+
+00:03:31.226 --> 00:03:32.986
+that you want to deform it with.
+
+00:03:33.076 --> 00:03:36.516
+So the hair system output curves
+is what you're looking for.
+
+00:03:36.706 --> 00:03:40.136
+So I'm going to shift slight
+these curves and hit enter.
+
+00:03:40.566 --> 00:03:45.426
+And so now if we do a
+test, we should be able
+
+00:03:45.846 --> 00:03:50.136
+to see the geometry is
+playing and is looking good.
+
+00:03:51.246 --> 00:03:56.486
+So I'm going to -- yeah
+he's looking pretty nice.
+
+00:03:56.606 --> 00:03:59.206
+So what else can we do now
+
+00:03:59.206 --> 00:04:00.886
+that we've got this
+all up and running?
+
+00:04:01.316 --> 00:04:05.316
+Well, we want to add some
+nice movement and we also want
+
+00:04:05.316 --> 00:04:08.846
+to stop these from the
+geometry from inner penetrating.
+
+00:04:10.176 --> 00:04:15.816
+So that's really in some of the
+parameters of the hair system.
+
+00:04:16.426 --> 00:04:20.636
+You can adjust.
+
+00:04:21.346 --> 00:04:24.576
+Let's just open this up.
+
+00:04:24.866 --> 00:04:28.816
+So we're looking in the hair
+system and let's just look
+
+00:04:28.816 --> 00:04:35.336
+like all of these
+attributes for the shape.
+
+00:04:35.436 --> 00:04:37.396
+And let's close some
+of these windows here.
+
+00:04:41.456 --> 00:04:45.086
+So the first one might be
+collisions that you'd look at
+
+00:04:45.826 --> 00:04:51.046
+and so really we
+want these to collide
+
+00:04:51.046 --> 00:04:52.806
+with other dynamic objects
+
+00:04:52.806 --> 00:04:57.516
+but we also want
+them to self collide.
+
+00:04:57.516 --> 00:05:00.526
+And we can adjust the collision
+with offset just a little bit
+
+00:05:00.526 --> 00:05:03.966
+because by default, we've got
+this thick piece of geometry
+
+00:05:04.486 --> 00:05:08.056
+and we want just to make
+sure that there's some offset
+
+00:05:08.316 --> 00:05:10.316
+between the collisions.
+
+00:05:10.656 --> 00:05:13.306
+And so now that looks
+-- nailed it.
+
+00:05:13.746 --> 00:05:15.686
+So that's good.
+
+00:05:15.686 --> 00:05:19.126
+We can -- you know if you want
+to play with this, you can sort
+
+00:05:19.126 --> 00:05:24.316
+of play with their being some
+static cling between the legs
+
+00:05:24.906 --> 00:05:29.306
+and then, you know, they would
+stick together a little bit.
+
+00:05:30.816 --> 00:05:34.666
+You could also sort
+of push them apart
+
+00:05:35.646 --> 00:05:40.336
+by having a negative value.
+
+00:05:40.336 --> 00:05:42.966
+So now they'll come close
+to each other but push apart
+
+00:05:43.706 --> 00:05:46.126
+by using that static
+cling parameter.
+
+00:05:46.596 --> 00:05:50.596
+But we want -- we'll just
+sort of set that to 0 for now.
+
+00:05:51.906 --> 00:05:55.966
+And really going to the dynamics
+properties under like turbulence
+
+00:05:56.816 --> 00:06:03.256
+and so if we just wanted this to
+randomly flap his arms around,
+
+00:06:04.566 --> 00:06:07.226
+let's find the under forces.
+
+00:06:07.286 --> 00:06:10.226
+So we could adjust like the
+mass, how heavy those are
+
+00:06:10.226 --> 00:06:16.086
+to other objects and also like
+the intensity of the turbulence.
+
+00:06:17.506 --> 00:06:21.556
+So now we've got this octopus,
+you know, whipping its legs
+
+00:06:21.556 --> 00:06:22.976
+around in a frenzy, right?
+
+00:06:23.516 --> 00:06:26.566
+[ Background Sounds ]
+
+00:06:27.066 --> 00:06:32.216
+So do you want to overdo it
+but it's starting to get there.
+
+00:06:32.446 --> 00:06:33.696
+Awesome. Looking.
+
+00:06:34.136 --> 00:06:37.976
+So the final thing that
+you might animate or play
+
+00:06:37.976 --> 00:06:43.306
+with adjusting the start
+curve attract parameters.
+
+00:06:43.886 --> 00:06:46.546
+And these are the start
+curves right here.
+
+00:06:47.716 --> 00:06:52.146
+And so after creating this all,
+you can bend these start curves
+
+00:06:52.566 --> 00:06:57.766
+to be -- look like they're
+wrapped around some object
+
+00:06:57.766 --> 00:07:00.986
+if you want like the
+octopus to catch a fish
+
+00:07:00.986 --> 00:07:03.086
+or drag a boat into the ocean.
+
+00:07:03.086 --> 00:07:07.006
+You could animate the start
+curve by tract parameter.
+
+00:07:07.076 --> 00:07:09.316
+And so right now these
+start curves are just sort
+
+00:07:09.316 --> 00:07:14.436
+of still splayed
+out but you know,
+
+00:07:14.866 --> 00:07:17.646
+by moving these curves you
+could sort of get some really --
+
+00:07:17.826 --> 00:07:21.766
+he's look likes he's doing
+some dancing but anyways.
+
+00:07:22.236 --> 00:07:24.436
+That's a really great start
+
+00:07:24.546 --> 00:07:26.446
+and I think this is a good
+place to end the video.
+
+00:07:26.446 --> 00:07:27.626
+Thanks so much for watching.
+

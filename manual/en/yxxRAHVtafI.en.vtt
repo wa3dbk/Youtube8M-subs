@@ -1,0 +1,651 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.972 --> 00:00:04.437
+[MUSIC PLAYING]
+
+00:00:26.768 --> 00:00:29.253
+[SPEAKING IN FRENCH]
+
+00:00:34.223 --> 00:00:36.708
+[VOICES SPEAKING]
+
+00:00:36.708 --> 00:00:39.193
+[LAUGHTER]
+
+00:00:39.193 --> 00:00:41.678
+[COMPUTER NOISES]
+
+00:00:49.133 --> 00:00:51.450
+GEOFFREY HINTON: We
+come into this world
+
+00:00:51.450 --> 00:00:53.810
+with the innate
+abilities to learn
+
+00:00:53.810 --> 00:00:57.200
+to interact with
+other sentient beings.
+
+00:00:59.536 --> 00:01:01.410
+Suppose you had to
+interact with other people
+
+00:01:01.410 --> 00:01:03.330
+by writing little
+messages to them.
+
+00:01:05.090 --> 00:01:06.420
+It'd be a real pain.
+
+00:01:07.581 --> 00:01:09.330
+And that's how we
+interact with computers.
+
+00:01:09.330 --> 00:01:10.913
+It's much easier
+just to talk to them.
+
+00:01:10.913 --> 00:01:14.302
+It's just so much
+easier if the computers
+
+00:01:14.302 --> 00:01:15.760
+could understand
+what we're saying.
+
+00:01:17.870 --> 00:01:20.196
+And for that, you need really
+good speech recognition.
+
+00:01:20.196 --> 00:01:22.070
+NARRATOR: The first
+speech recognition system
+
+00:01:22.070 --> 00:01:25.080
+was developed by Bell
+Laboratories in 1952.
+
+00:01:25.080 --> 00:01:28.120
+It could only recognize
+numbers spoken by one person.
+
+00:01:28.120 --> 00:01:30.300
+In the 1970s, Carnegie
+Mellon came out
+
+00:01:30.300 --> 00:01:33.440
+with the Harpy system, which
+was able to recognize over 1,000
+
+00:01:33.440 --> 00:01:36.025
+words and could recognize
+different pronunciations
+
+00:01:36.025 --> 00:01:37.714
+of the same word.
+
+00:01:37.714 --> 00:01:38.880
+MALE COMPUTER VOICE: Tomato.
+
+00:01:38.880 --> 00:01:39.400
+FEMALE COMPUTER VOICE: Tomato.
+
+00:01:39.400 --> 00:01:40.830
+NARRATOR: Speech
+recognition continued
+
+00:01:40.830 --> 00:01:42.204
+in the '80s with
+the introduction
+
+00:01:42.204 --> 00:01:44.680
+of the hidden Markov
+model, which used a more
+
+00:01:44.680 --> 00:01:47.490
+mathematical approach
+to analyzing sound waves
+
+00:01:47.490 --> 00:01:49.730
+and led to many of the
+breakthroughs we have today.
+
+00:01:49.730 --> 00:01:52.790
+JEFF DEAN: You're taking in
+very raw audio waveforms.
+
+00:01:52.790 --> 00:01:55.490
+MALE SPEAKER: Like you get
+from a microphone on your phone
+
+00:01:55.490 --> 00:01:55.990
+or whatever.
+
+00:01:55.990 --> 00:01:56.760
+MALE COMPUTER
+VOICE: Cheeseburger.
+
+00:01:56.760 --> 00:01:58.780
+FRANCOISE BEAUFAYS: We
+chop it into small pieces
+
+00:01:58.780 --> 00:02:02.670
+and it tries to
+identify which phoneme
+
+00:02:02.670 --> 00:02:04.866
+was spoken in that
+last piece of speech.
+
+00:02:04.866 --> 00:02:06.490
+GEOFFREY HINTON: So
+a phoneme is a kind
+
+00:02:06.490 --> 00:02:09.400
+of primitive unit
+for expressing words.
+
+00:02:09.400 --> 00:02:11.490
+JEFF DEAN:
+[SOUNDING OUT PHONEMES]
+
+00:02:14.765 --> 00:02:17.140
+JEFF DEAN: And then it will
+want to stitch those together
+
+00:02:17.140 --> 00:02:19.670
+into likely words
+like Palo Alto.
+
+00:02:19.670 --> 00:02:21.270
+RAY KURZWEIL: Speech
+recognition today
+
+00:02:21.270 --> 00:02:23.740
+is quite good at transcribing
+what you've said.
+
+00:02:23.740 --> 00:02:25.215
+MALE SPEAKER: What's the
+weather like in Topeka?
+
+00:02:25.215 --> 00:02:27.173
+ROBERTO PIERACCINI: You
+can talk about travels.
+
+00:02:27.173 --> 00:02:28.710
+You can talk about
+your contacts.
+
+00:02:28.710 --> 00:02:29.880
+RAY KURZWEIL: Like
+where can I get pizza?
+
+00:02:29.880 --> 00:02:31.320
+PHONE: Here are the
+listings for pizza.
+
+00:02:31.320 --> 00:02:32.810
+RAY KURZWEIL: How tall
+is the Eiffel Tower?
+
+00:02:32.810 --> 00:02:33.977
+PHONE: The Eiffel Tower is--
+
+00:02:33.977 --> 00:02:36.226
+FRANCOISE BEAUFAYS: We've
+made tremendous improvements
+
+00:02:36.226 --> 00:02:36.830
+very quickly.
+
+00:02:36.830 --> 00:02:39.371
+MALE SPEAKER: Who is the 21st
+President of the United States?
+
+00:02:40.790 --> 00:02:42.416
+PHONE: Chester A.
+Arthur was the 21st--
+
+00:02:42.416 --> 00:02:43.456
+MALE SPEAKER: OK, Google.
+
+00:02:43.456 --> 00:02:44.320
+Where's he from?
+
+00:02:44.320 --> 00:02:46.403
+RAY KURZWEIL: Years ago,
+you had to be an engineer
+
+00:02:46.403 --> 00:02:47.920
+to interact with computers.
+
+00:02:47.920 --> 00:02:49.504
+I mean, today,
+everybody can interact.
+
+00:02:49.504 --> 00:02:51.086
+ROBERTO PIERACCINI:
+One thing, though,
+
+00:02:51.086 --> 00:02:53.170
+that is still in the infancy
+is the understanding.
+
+00:02:53.170 --> 00:02:55.585
+GEOFFREY HINTON: We need a far
+more sophisticated language
+
+00:02:55.585 --> 00:02:57.230
+understanding model
+that understands
+
+00:02:57.230 --> 00:02:58.230
+what the sentence means.
+
+00:02:58.230 --> 00:03:00.933
+And we're still a very
+long way from having that.
+
+00:03:07.370 --> 00:03:09.120
+ALISON GOPNIK: Our
+ability to use language
+
+00:03:09.120 --> 00:03:11.360
+is one of the things that
+helps us have culture.
+
+00:03:13.670 --> 00:03:16.990
+It's one of the things that
+helps us pass on traditions
+
+00:03:16.990 --> 00:03:19.670
+from one generation to another.
+
+00:03:19.670 --> 00:03:22.590
+Figuring out about how
+the system of language
+
+00:03:22.590 --> 00:03:25.550
+works, even though that seems
+like a really easy problem,
+
+00:03:25.550 --> 00:03:27.270
+it turns out to be
+one that's really
+
+00:03:27.270 --> 00:03:30.730
+hard but that every baby
+has cracked by the time
+
+00:03:30.730 --> 00:03:32.117
+they're two years old.
+
+00:03:32.117 --> 00:03:33.366
+FEMALE CHILD: There's two L's.
+
+00:03:33.366 --> 00:03:34.375
+FEMALE SPEAKER: There's two L's.
+
+00:03:34.375 --> 00:03:34.875
+Yeah.
+
+00:03:34.875 --> 00:03:36.964
+E-L-L-I and then--
+
+00:03:36.964 --> 00:03:37.630
+FEMALE CHILD: E.
+
+00:03:37.630 --> 00:03:38.780
+FEMALE SPEAKER: E.
+
+00:03:38.780 --> 00:03:39.680
+ROBERTO PIERACCINI:
+Language is extremely
+
+00:03:39.680 --> 00:03:41.130
+complex and sophisticated.
+
+00:03:41.130 --> 00:03:42.000
+BILL BYRNE: From the semantics--
+
+00:03:42.000 --> 00:03:42.580
+RAY KURZWEIL: Irony--
+
+00:03:42.580 --> 00:03:43.640
+FRANCOISE BEAUFAYS:
+Strong accents--
+
+00:03:43.640 --> 00:03:44.620
+MALE SPEAKER:
+Facial expressions--
+
+00:03:44.620 --> 00:03:45.760
+RAY KURZWEIL: Human
+emotion because that's
+
+00:03:45.760 --> 00:03:46.990
+part of how we communicate.
+
+00:03:47.675 --> 00:03:48.425
+BILL BYRNE: Humor.
+
+00:03:48.425 --> 00:03:49.780
+RAY KURZWEIL: Do I
+have to be careful not
+
+00:03:49.780 --> 00:03:50.738
+to offend the dinosaur?
+
+00:03:51.397 --> 00:03:53.480
+BILL BYRNE: Language has
+so many different layers,
+
+00:03:53.480 --> 00:03:55.677
+and that's why it's such
+a difficult problem.
+
+00:03:55.677 --> 00:03:58.260
+GEOFFREY HINTON: At present, the
+human brain, and the learning
+
+00:03:58.260 --> 00:04:00.737
+algorithms in the human
+brain, are far, far better
+
+00:04:00.737 --> 00:04:02.320
+at things like
+language understanding.
+
+00:04:02.320 --> 00:04:04.840
+And they're still a lot
+better at pattern recognition.
+
+00:04:04.840 --> 00:04:06.589
+BILL BYRNE: So whether
+or not we replicate
+
+00:04:06.589 --> 00:04:10.190
+exactly what the brain
+does to understand language
+
+00:04:10.190 --> 00:04:13.970
+and to understand speech,
+is still a question.
+
+00:04:17.360 --> 00:04:19.640
+GEOFFREY HINTON: For
+many, many years,
+
+00:04:19.640 --> 00:04:23.300
+we believed that neural
+networks should work better
+
+00:04:23.300 --> 00:04:25.690
+than the dumb existing
+technology that's
+
+00:04:25.690 --> 00:04:27.390
+basically just table lookup.
+
+00:04:27.390 --> 00:04:30.870
+And then in 2009,
+two of my students,
+
+00:04:30.870 --> 00:04:34.480
+with a little input from
+me, got it working better.
+
+00:04:34.480 --> 00:04:36.730
+And the first time it just
+worked a little bit better,
+
+00:04:36.730 --> 00:04:37.980
+but then it was
+obvious that this
+
+00:04:37.980 --> 00:04:40.313
+could be developed to something
+that worked much better.
+
+00:04:40.313 --> 00:04:42.642
+The brain has these
+gazillions of neurons
+
+00:04:42.642 --> 00:04:43.725
+all computing in parallel.
+
+00:04:44.750 --> 00:04:46.740
+And all of the
+knowledge in the brain
+
+00:04:46.740 --> 00:04:49.220
+is in the strength of the
+connection between neurons.
+
+00:04:49.220 --> 00:04:51.290
+What I mean by neural
+net is something
+
+00:04:51.290 --> 00:04:53.840
+that's simulated on a
+conventional computer,
+
+00:04:53.840 --> 00:04:57.397
+but is designed to work
+in very, very roughly
+
+00:04:57.397 --> 00:04:58.480
+the same way as the brain.
+
+00:04:59.730 --> 00:05:02.442
+So until quite recently,
+people got features
+
+00:05:02.442 --> 00:05:03.275
+by hand engineering.
+
+00:05:04.350 --> 00:05:07.390
+They looked at sound waves,
+and they did Fourier analysis.
+
+00:05:07.390 --> 00:05:09.170
+And they tried to
+figure out, what
+
+00:05:09.170 --> 00:05:11.930
+features should we feed to the
+pattern recognition system?
+
+00:05:11.930 --> 00:05:13.040
+And the thing about
+neural networks
+
+00:05:13.040 --> 00:05:14.414
+is they learn
+their own features.
+
+00:05:14.414 --> 00:05:16.587
+And in particular,
+they can learn features
+
+00:05:16.587 --> 00:05:18.420
+and then they can learn
+features of features
+
+00:05:18.420 --> 00:05:20.885
+and then they can learn features
+of features of features.
+
+00:05:20.885 --> 00:05:22.440
+And that's led to
+a huge improvement
+
+00:05:22.440 --> 00:05:23.710
+in speech recognition.
+
+00:05:23.710 --> 00:05:25.210
+JEFF DEAN: But you
+can also use them
+
+00:05:25.210 --> 00:05:26.690
+for language
+understanding tasks.
+
+00:05:26.690 --> 00:05:29.990
+And the way you do
+this is you represent
+
+00:05:29.990 --> 00:05:32.550
+words in very high
+dimensional spaces.
+
+00:05:32.550 --> 00:05:34.560
+GEOFFREY HINTON: We can
+now deal with analogies
+
+00:05:34.560 --> 00:05:37.510
+where a word is represented
+as a list of numbers.
+
+00:05:37.510 --> 00:05:40.500
+So for example, if I take
+the list of 100 numbers that
+
+00:05:40.500 --> 00:05:44.070
+represents Paris and
+I subtract from it
+
+00:05:44.070 --> 00:05:47.680
+France and I add to it
+Italy, and if I look
+
+00:05:47.680 --> 00:05:50.237
+at the numbers I've
+got, the closest thing
+
+00:05:50.237 --> 00:05:52.070
+is the list of numbers
+that represents Rome.
+
+00:05:53.190 --> 00:05:55.510
+So by first converting words
+into these numbers using
+
+00:05:55.510 --> 00:05:59.480
+a neural net, you can actually
+do this analogical reasoning.
+
+00:06:01.310 --> 00:06:03.140
+I predict that in
+the next five years,
+
+00:06:03.140 --> 00:06:06.300
+it will become clear that
+these big deep neural networks
+
+00:06:06.300 --> 00:06:08.670
+with the new learning
+algorithms are going to give us
+
+00:06:08.670 --> 00:06:10.128
+much better language
+understanding.
+
+00:06:12.962 --> 00:06:14.420
+ALISON GOPNIK: When
+we started out,
+
+00:06:14.420 --> 00:06:17.820
+we thought that things
+like chess or mathematics
+
+00:06:17.820 --> 00:06:20.160
+or logic, those were going
+to be the things that
+
+00:06:20.160 --> 00:06:21.040
+were really hard.
+
+00:06:21.040 --> 00:06:22.390
+They're not that hard.
+
+00:06:22.390 --> 00:06:24.720
+I mean, we can end up with
+a machine that actually
+
+00:06:24.720 --> 00:06:27.339
+can do chess as well as a
+grandmaster can play chess.
+
+00:06:27.339 --> 00:06:28.880
+The things that we
+thought were going
+
+00:06:28.880 --> 00:06:31.490
+to be easy for a
+computer system,
+
+00:06:31.490 --> 00:06:34.050
+like understanding
+language, those things
+
+00:06:34.050 --> 00:06:36.630
+have turned out to
+be incredibly hard.
+
+00:06:36.630 --> 00:06:39.939
+BILL BYRNE: I can't even
+imagine the "we've done it"
+
+00:06:39.939 --> 00:06:41.730
+moment quite yet, just
+because there are so
+
+00:06:41.730 --> 00:06:43.670
+many pieces of this
+puzzle that are
+
+00:06:43.670 --> 00:06:46.920
+unsolved, both from a
+science point of view,
+
+00:06:46.920 --> 00:06:50.620
+as well as from a technical
+implementation point of view.
+
+00:06:50.620 --> 00:06:51.852
+There's a lot of unknowns.
+
+00:06:51.852 --> 00:06:53.810
+ALISON GOPNIK: Those are
+the great revolutions.
+
+00:06:53.810 --> 00:06:56.400
+They're not just when we fiddle
+a little with what we already
+
+00:06:56.400 --> 00:06:58.020
+know, but when we
+discover something
+
+00:06:58.020 --> 00:07:00.360
+completely new and unexpected.
+
+00:07:00.360 --> 00:07:02.160
+JEFF DEAN: I think
+once you kind of
+
+00:07:02.160 --> 00:07:04.620
+are in the ballpark of human
+level performance, that
+
+00:07:04.620 --> 00:07:07.490
+will be pretty remarkable.
+
+00:07:07.490 --> 00:07:10.240
+[MUSIC PLAYING]
+

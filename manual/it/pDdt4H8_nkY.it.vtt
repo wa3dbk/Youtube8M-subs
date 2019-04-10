@@ -1,0 +1,334 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:04.760 position:97%
+All'interno dei nostri rendering realizzati con VRay per 3ds Max
+
+00:00:04.760 --> 00:00:09.280 position:97%
+ci possiamo accorgere più volte di vedere delle fastidiose seghettature per quanto
+
+00:00:09.280 --> 00:00:14.770 position:98%
+riguarda gli oggetti particolarmente curvi o dotati di superfici complesse.
+
+00:00:14.770 --> 00:00:17.490 position:89%
+Per poter ovviare a questo tipo di difetto VRay ha al suo
+
+00:00:17.490 --> 00:00:21.110 position:98%
+interno un controllo dell'Image Sampler e quindi dell'algoritmo
+
+00:00:21.110 --> 00:00:25.170 position:98%
+ad esso collegato per poter campionare e filtrare l'immagine realizzata
+
+00:00:25.170 --> 00:00:27.300
+con il rendering.
+
+00:00:27.300 --> 00:00:30.450 position:97%
+Andremo quindi ad aggiustare il cosiddetto Array finale di pixel
+
+00:00:30.450 --> 00:00:33.230 position:56%
+esistente all'interno dell'immagine.
+
+00:00:33.230 --> 00:00:37.220 position:97%
+Per poter cercare di controllare questo tipo di parametro è sufficiente andare
+
+00:00:37.220 --> 00:00:44.530 position:97%
+a prendere nel nostro file di esercitazione il file Esercitazione 9 - Image Sample.max
+
+00:00:44.530 --> 00:00:48.190 position:97%
+Troverete in questa scena un piano infinito, 3 oggetti caratterizzati da
+
+00:00:48.190 --> 00:00:53.120 position:91%
+superfici curve e anche un VRay Sun che illumina la scena.
+
+00:00:53.120 --> 00:00:55.520 position:92%
+In questo momento, se andiamo a creare un piccolo Render di
+
+00:00:55.520 --> 00:00:59.260 position:88%
+prova di questa scena così com'è, otteniamo un risultato
+
+00:00:59.260 --> 00:01:03.000 position:97%
+del genere, dove nel rendering finale percepiamo all'interno dei
+
+00:01:03.000 --> 00:01:06.490 position:81%
+vari oggetti queste fastidiose pixellature sui bordi
+
+00:01:06.490 --> 00:01:09.650 position:67%
+di tutti gli oggetti esistenti nella scena.
+
+00:01:09.650 --> 00:01:14.000 position:97%
+Questo restituisce all'occhio una percezione di bassa qualità del rendering,
+
+00:01:14.000 --> 00:01:17.170 position:63%
+seppur realizzato nel migliore dei modi.
+
+00:01:17.170 --> 00:01:21.760 position:98%
+Per riuscire ad ovviare a questi problemi dobbiamo posizionarci nel menu Rendering,
+
+00:01:21.760 --> 00:01:28.550 position:97%
+Render Setup o tasto F10 da tastiera per aprire la finestra di Setup inerente il Render.
+
+00:01:28.550 --> 00:01:32.040 position:78%
+Ci posizioniamo nella tab VRay e andiamo a cercare
+
+00:01:32.040 --> 00:01:35.440
+tra i vari sottomenu Image Sampler.
+
+00:01:35.440 --> 00:01:39.280 position:95%
+In questo momento l'Image Sampler è stato adottato come Fixed
+
+00:01:39.280 --> 00:01:42.070 position:91%
+e quindi l'anti aliasing che viene assegnato a questo tipo
+
+00:01:42.070 --> 00:01:46.240 position:73%
+di Sampling dell'immagine è totalmente assente.
+
+00:01:46.240 --> 00:01:49.800 position:78%
+Proviamo ad usare Adaptive DMC, vale a dire l'anti
+
+00:01:49.800 --> 00:01:55.170 position:98%
+aliasing che viene utilizzato solitamente nelle scene di media qualità.
+
+00:01:55.170 --> 00:02:02.040 position:97%
+L'Adaptive DMC Image Sampler riesce ad agire su Minimum e Maximum subdivision.
+
+00:02:02.040 --> 00:02:06.420 position:98%
+Minimum Subdivision è il numero minimo di samples per ogni pixel.
+
+00:02:06.420 --> 00:02:08.910 position:78%
+E' raro un valore che superi 1, questo per ovviare
+
+00:02:08.910 --> 00:02:14.540 position:98%
+a problemi delle tempistiche di calcolo presenti in VRay per 3ds Max.
+
+00:02:14.540 --> 00:02:19.400 position:97%
+Maximum Subdivision è il numero massimo di samples per ogni pixel.
+
+00:02:19.400 --> 00:02:23.750 position:97%
+Se noi aumentiamo questo parametro aumenterà di conseguenza anche il numero di
+
+00:02:23.750 --> 00:02:28.300 position:86%
+minuti necessari per poter calcolare l'immagine finale.
+
+00:02:28.300 --> 00:02:33.360 position:98%
+L'Adaptive DMC Image Sampler viene spesso utilizzato per piccoli dettagli
+
+00:02:33.360 --> 00:02:38.940 position:98%
+ed effetti Blurry come quelli di Motion Blur esistenti all'interno dell'immagine.
+
+00:02:38.940 --> 00:02:43.320 position:97%
+Serve molta meno memoria rispetto al processo successivo che andremo a vedere,
+
+00:02:43.320 --> 00:02:46.120
+vale a dire l'Adaptive Subdivision.
+
+00:02:46.120 --> 00:02:50.310 position:97%
+L'Adaptive DMC è estremamente utile per creare delle anteprime e
+
+00:02:50.310 --> 00:02:55.910 position:98%
+quindi valutare la qualità delle ombre e delle luci esistenti all'interno del render.
+
+00:02:55.910 --> 00:03:01.510 position:98%
+Esso crea un numero variabile di samples per pixel basandosi sulla differenza
+
+00:03:01.510 --> 00:03:05.940 position:66%
+di intensità tra il pixel e quelli vicini.
+
+00:03:05.940 --> 00:03:12.240 position:97%
+Proviamo a renderizzare per capire meglio che cosa fa esattamente l'Image Sampler.
+
+00:03:12.240 --> 00:03:15.260 position:98%
+Come possiamo vedere, già in queste particolari zone si viene a
+
+00:03:15.260 --> 00:03:20.160 position:97%
+creare una sorta di immagine e quindi si hanno delle zone franche in
+
+00:03:20.160 --> 00:03:24.160 position:92%
+cui si va a migliorare il passaggio dai pixel nero scuro ai
+
+00:03:24.160 --> 00:03:28.370 position:70%
+pixel grigi dell'oggetto che si trova dietro.
+
+00:03:28.370 --> 00:03:31.040 position:94%
+Se zoomiamo verso l'esterno dal punto di vista dell'immagine
+
+00:03:31.040 --> 00:03:36.070 position:98%
+noteremo che la qualità di questa immagine è notevolmente migliorata rispetto
+
+00:03:36.070 --> 00:03:40.300 position:84%
+a prima, quando l'Image Sampler era impostato su Fixed
+
+00:03:40.300 --> 00:03:47.050 position:98%
+e quindi fissato su un parametro totalmente assente e privo di Anti Aliasing sui bordi.
+
+00:03:47.050 --> 00:03:50.950 position:98%
+Questo tipo di risoluzione che vediamo può essere ulteriormente migliorata se andiamo
+
+00:03:50.950 --> 00:03:53.890
+ad attivare l'Adaptive Subdivision.
+
+00:03:53.890 --> 00:03:57.210 position:92%
+Quello disponibile all'interno di 3ds Max prende meno di un
+
+00:03:57.210 --> 00:04:01.710 position:98%
+sample per pixel, creando per un pixel numerosi samples che possono
+
+00:04:01.710 --> 00:04:06.680 position:97%
+andare quindi a determinare una qualità ancora maggiore della nostra immagine.
+
+00:04:06.680 --> 00:04:10.150 position:95%
+Andiamo a controllare i parametri Minimum Rate e Maximum Rate
+
+00:04:10.150 --> 00:04:15.820 position:98%
+all'interno del sottomenu di settaggio dell'Adaptive Subdivision.
+
+00:04:15.820 --> 00:04:20.230 position:66%
+Il primo, Minimum Rate, se posto a -1 crea
+
+00:04:20.230 --> 00:04:25.080 position:67%
+un sample minimo per due pixel di immagine.
+
+00:04:25.080 --> 00:04:30.240 position:97%
+Mentre invece Maximum Rate crea in sostanza, se posizionato sul 2,
+
+00:04:30.240 --> 00:04:34.970 position:77%
+8 samples per ogni pixel esistente nell'immagine.
+
+00:04:34.970 --> 00:04:39.740 position:98%
+Ciò significa che se aumentiamo notevolmente il Maximum Rate andiamo ad aumentare
+
+00:04:39.740 --> 00:04:44.870 position:97%
+il numero di Samples per pixel esistenti nel calcolo dell'immagine stessa.
+
+00:04:44.870 --> 00:04:49.480 position:98%
+Attenzione quindi a non collocare Maximum Rate su valori di 10,
+
+00:04:49.480 --> 00:04:53.900 position:94%
+poichè in tal caso si otterrebbe un numero di 2 alla 11esima
+
+00:04:53.900 --> 00:04:58.820 position:92%
+Samples per ogni pixel calcolato all'interno dell'immagine.
+
+00:04:58.820 --> 00:05:05.300 position:98%
+Come potete ben capire, ci creeremo un bel problema per il calcolo del nostro render.
+
+00:05:05.300 --> 00:05:10.020 position:98%
+Il parametro Randomize Sample, se attivo, permette di poter distribuire
+
+00:05:10.020 --> 00:05:14.040 position:97%
+a random i samples calcolati per poter creare un miglior anti aliasing
+
+00:05:14.040 --> 00:05:18.580 position:97%
+all'interno delle zone con linee particolarmente vicine, come questa
+
+00:05:18.580 --> 00:05:24.340 position:91%
+zona, dove abbiamo questo Torus Knot presente nella scena.
+
+00:05:24.340 --> 00:05:28.820 position:98%
+Object Outline invece sovracampiona i bordi di oggetti, e questo effetto,
+
+00:05:28.820 --> 00:05:31.880 position:91%
+se selezionato, non è visibile nel caso in cui utilizziamo
+
+00:05:31.880 --> 00:05:37.800 position:97%
+delle particolarità all'interno della Physical Camera come Depth of Field o Motion Blur.
+
+00:05:37.800 --> 00:05:40.720 position:98%
+Quindi mi raccomando di non utilizzarlo all'interno di questi due
+
+00:05:40.720 --> 00:05:43.940 position:61%
+effetti se abbiamo una Physical Camera.
+
+00:05:43.940 --> 00:05:49.400 position:97%
+Possiamo utilizzare anche Color Threshold per poter calcolare la sensibilità dei Samples
+
+00:05:49.400 --> 00:05:52.910
+quando muta l'intensità dei Pixel.
+
+00:05:52.910 --> 00:05:56.500 position:89%
+Ciò vuol dire che più samples ci sono, man mano aumenterà
+
+00:05:56.500 --> 00:06:00.900 position:73%
+l'intensità di pixel all'interno dell'immagine.
+
+00:06:00.900 --> 00:06:05.320 position:80%
+Se assegniamo un valore maggiore di 0,1, questo può
+
+00:06:05.320 --> 00:06:09.040 position:94%
+creare dei tempi brevi e più undersampling, vale a dire meno
+
+00:06:09.040 --> 00:06:13.340 position:97%
+campionamento di sampling all'interno della nostra immagine e dunque
+
+00:06:13.340 --> 00:06:17.970 position:89%
+meno risoluzione dal punto di vista dell'immagine finale.
+
+00:06:17.970 --> 00:06:23.090 position:97%
+Per quanto riguarda invece il cosiddetto Normal Threshold, se selezionato,
+
+00:06:23.090 --> 00:06:28.210 position:98%
+va a sovracampionare e quindi crea ulteriori sottocampionamenti delle aree con le
+
+00:06:28.210 --> 00:06:32.910 position:98%
+normali che possono avere delle forti variazioni all'interno dell'immagine.
+
+00:06:32.910 --> 00:06:38.170 position:98%
+Ovviamente più si aumenta questo valore e più il tempo di rendering andrà ad aumentare.
+
+00:06:38.170 --> 00:06:42.480 position:97%
+Per adesso quindi lasciamo stare Normal Threshold e andiamo a renderizzare
+
+00:06:42.480 --> 00:06:49.250 position:98%
+l'ultimo possibile Image Smapler esistente all'interno di VRay.
+
+00:06:49.250 --> 00:06:53.110 position:98%
+Come potete notare, la qualità di questa immagine è notevolmente migliorata
+
+00:06:53.110 --> 00:06:57.750 position:97%
+nei punti dove è stato applicato l'Image Sampler Adaptive Subdivision,
+
+00:06:57.750 --> 00:07:00.870 position:84%
+e quindi si vanno a creare ulteriori zone di pixel che
+
+00:07:00.870 --> 00:07:05.060 position:97%
+permettono un passaggio più morbido possibile dalla zona più scura alla zona
+
+00:07:05.060 --> 00:07:09.750 position:81%
+più chiara esistente all'interno di questa immagine.
+
+00:07:09.750 --> 00:07:13.260 position:97%
+Ovviamente, i tempi sono leggermente più alti per quanto riguarda la
+
+00:07:13.260 --> 00:07:17.030 position:98%
+produzione di questo rendering, ma la qualità che riusciamo ad ottenere
+
+00:07:17.030 --> 00:07:24.100 position:97%
+è estremamente elevata soprattutto se andiamo ad innalzare il Maximum Rate al valore di 4-5.
+
+00:07:24.100 --> 00:07:27.440 position:95%
+Se infatti ancora una volta lanciamo il render, e proviamo ad
+
+00:07:27.440 --> 00:07:31.670 position:98%
+andare a vedere questa immagine così creata, noteremo che la resa
+
+00:07:31.670 --> 00:07:36.920 position:98%
+di queste sfumature è notevolmente aumentata proprio grazie al sottocampionamento di quelli
+
+00:07:36.920 --> 00:07:41.290 position:92%
+che sono i vari pixel esistenti all'interno di questa zona.
+
+00:07:41.290 --> 00:07:47.760 position:97%
+Ciò significa avere una maggiore qualità ma tempo di rendering aumentato di qualche secondo.
+
+00:07:47.760 --> 00:07:51.640 position:86%
+Infatti, se prima ci ha messo 14 secondi con un Maximum
+
+00:07:51.640 --> 00:07:55.850 position:66%
+Rate di 2, in questo caso, aumentando a 4,
+
+00:07:55.850 --> 00:08:01.960 position:98%
+il tempo è quasi raddoppiato poichè si tratta di 25 secondi necessari
+
+00:08:01.960 --> 00:08:06.960 position:69%
+per poter creare l'immagine che vediamo qui.
+

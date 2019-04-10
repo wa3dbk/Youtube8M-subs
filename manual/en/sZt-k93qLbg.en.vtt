@@ -1,0 +1,226 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.630 --> 00:00:02.467
+Hello ladies and gentlemen
+
+00:00:02.467 --> 00:00:06.426
+I'm going to show you how to remote debug web pages on your mobile phone
+
+00:00:06.426 --> 00:00:09.426
+using Opera Dragonfly on your desktop.
+
+00:00:09.426 --> 00:00:14.426
+You will need a copy of Opera 10 on the desktop
+
+00:00:14.426 --> 00:00:17.426
+and a mobile phone running Opera 10 Mobile 
+
+00:00:17.426 --> 00:00:20.480
+for example I've got a Nokia here which is S60.
+
+00:00:20.547 --> 00:00:23.067
+They also both need to be on the same local network 
+
+00:00:23.067 --> 00:00:24.347
+and in advance
+
+00:00:24.347 --> 00:00:28.439
+you should get the local IP address of the desktop
+
+00:00:28.459 --> 00:00:32.419
+that's 192.xxx or maybe 10.xxx or something like that
+
+00:00:32.379 --> 00:00:38.439
+You can get that by ifconfig or ipconfig from the terminal window.
+
+00:00:38.447 --> 00:00:42.407
+So first of all we want to fire up Opera Dragonfly,
+
+00:00:42.467 --> 00:00:49.427
+which we do from the Opera menu Tools &gt; Advanced &gt; Developer Tools.
+
+00:00:49.467 --> 00:00:51.707
+And that loads up at the bottom of the page.
+
+00:00:51.707 --> 00:00:59.426
+As it is, that's perfect for debugging local pages or any page that is visible in a desktop browser
+
+00:00:59.427 --> 00:01:02.467
+but in this case we want to debug on this little chappie.
+
+00:01:03.089 --> 00:01:05.426
+So we go to Settings
+
+00:01:05.427 --> 00:01:09.425
+and we've got a 'Remote Debug' option there which we enable
+
+00:01:09.425 --> 00:01:13.946
+and that's port 7001 by default.
+
+00:01:13.947 --> 00:01:18.233
+And it says it's waiting for a connection on that port. OK, no problem.
+
+00:01:18.234 --> 00:01:20.426
+We'll go to Opera 10 Mobile
+
+00:01:20.426 --> 00:01:26.425
+and go to the URL opera:debug
+
+00:01:30.427 --> 00:01:35.426
+And that brings up this page here. Can we see that?
+
+00:01:35.427 --> 00:01:38.179
+And we go down and we enter the local IP address of the desktop.
+
+00:01:38.180 --> 00:01:42.426
+192.168.0.3 in this case.
+
+00:01:42.427 --> 00:01:46.426
+The port number I've kept a 7001 and click connect.
+
+00:01:46.426 --> 00:01:51.426
+And in the background, you may have seen, a little message pops up:
+
+00:01:51.427 --> 00:01:56.426
+"The protocol version of Opera does not match the one which Opera Dragonfly is using". 
+
+00:01:56.427 --> 00:02:02.426
+At the moment we are between protocol versions so we need to download this compatible version.
+
+00:02:02.427 --> 00:02:05.426
+It does it in a couple of seconds.
+
+00:02:05.427 --> 00:02:08.426
+And another message comes up again:
+
+00:02:08.427 --> 00:02:10.426
+"Waiting for a connection on port 7001".
+
+00:02:10.426 --> 00:02:14.426
+So again we just go to connect on the mobile phone.
+
+00:02:14.427 --> 00:02:19.426
+This is just until we get both protocols up to the same version.
+
+00:02:19.427 --> 00:02:23.426
+Connected, so we click OK again and there we go. 
+
+00:02:23.427 --> 00:02:27.039
+The connection is complete so now what we do
+
+00:02:27.134 --> 00:02:32.426
+is fire up the page we want to debug on the mobile browser.
+
+00:02:32.427 --> 00:02:34.426
+Now with Opera Mobile 10 we've got tabs,
+
+00:02:34.426 --> 00:02:39.424
+so I have open in another tab a CSS showcase,
+
+00:02:39.425 --> 00:02:42.367
+a very simple page I made earlier.
+
+00:02:42.368 --> 00:02:43.367
+Back to the desktop
+
+00:02:43.897 --> 00:02:46.426
+we now want to specify that page in Opera Dragonfly.
+
+00:02:46.427 --> 00:02:48.426
+So at the right-hand side,
+
+00:02:48.426 --> 00:02:51.426
+we click the little page menu, the window menu
+
+00:02:51.426 --> 00:02:54.426
+and we select the page that is open on the mobile.
+
+00:02:54.427 --> 00:02:59.427
+"CSS3 showcase" demonstrating background-color and background-origin. 
+
+00:02:59.428 --> 00:03:01.426
+Now when we've selected that
+
+00:03:01.979 --> 00:03:05.426
+we can choose something from the body -
+
+00:03:05.427 --> 00:03:08.400
+for example if I select the header and then the &lt;h1&gt; tag,
+
+00:03:08.401 --> 00:03:16.426
+it then shows it in blue on the mobile screen indicating that's the active area.
+
+00:03:16.427 --> 00:03:21.426
+And I can now change that text in the desktop.
+
+00:03:21.427 --> 00:03:25.426
+So I can change 'Demonstrating to 'Shmemonstrating'!
+
+00:03:25.427 --> 00:03:28.426
+But maybe that's too small for you, maybe you can't see it...
+
+00:03:28.427 --> 00:03:30.426
+So on the right-hand side we have styles -
+
+00:03:30.427 --> 00:03:34.426
+CSS is shown there and I can edit any of these.
+
+00:03:34.427 --> 00:03:37.047
+So the font size for &lt;h1&gt; is 1.4
+
+00:03:37.048 --> 00:03:40.426
+but I'm gonna push that up to 2.4
+
+00:03:40.426 --> 00:03:42.426
+Oh yeah!
+
+00:03:42.426 --> 00:03:43.426
+But that's not it, oh no...
+
+00:03:43.426 --> 00:03:45.426
+I can make it to 3.4!
+
+00:03:45.426 --> 00:03:46.426
+I'm on fire!
+
+00:03:46.426 --> 00:03:47.426
+So you can do anything
+
+00:03:47.426 --> 00:03:51.426
+and change any styles down here or add new styles
+
+00:03:51.426 --> 00:03:52.426
+so I could add a new one making it red.
+
+00:03:52.426 --> 00:03:54.426
+In fact I might just do that.
+
+00:03:54.426 --> 00:04:00.746
+Let's just change the color to red...
+
+00:04:00.746 --> 00:04:02.426
+...and it's red!
+
+00:04:02.426 --> 00:04:06.426
+And using the up and down arrow keys on the keyboard on the desktop,
+
+00:04:06.426 --> 00:04:11.426
+I can cycle through a lot of the default colors.
+
+00:04:11.426 --> 00:04:12.586
+Let's just see what looks coolest
+
+00:04:13.006 --> 00:04:16.426
+And I think lime is definitely cool.
+
+00:04:16.426 --> 00:04:18.426
+So there you go:
+
+00:04:18.426 --> 00:04:23.426
+remote debugging Opera 10 for the desktop. Opera Mobile 10 for mobile.
+
+00:04:23.426 --> 00:04:27.426
+Both available for free, from Opera.com
+

@@ -1,0 +1,117 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.390 --> 00:00:05.810
+Hi guys, squirtdude here and welcome to another
+episode of minecraft unmodded. This is where
+
+00:00:05.810 --> 00:00:10.850
+we take popular mods in the mine craft community
+and recreate certain elements of it using
+
+00:00:10.850 --> 00:00:17.199
+mechanics within the game. In this episode
+we are going to take a look at the mod terrefirmacraft.
+
+00:00:17.199 --> 00:00:22.509
+This mod basically reinvents survival mine
+craft by adding more realistic gameplay. The
+
+00:00:22.509 --> 00:00:27.730
+thing we are going to recreate from this mod
+is it's randomly appearing cave ins
+
+00:00:27.730 --> 00:00:33.300
+In the mod cave ins are rare and can trigger
+randomly whenever a player mines in a cave.
+
+00:00:33.300 --> 00:00:38.680
+Using commands, redstone, and some few workarounds
+the same effect can be duplicated in vanilla
+
+00:00:38.680 --> 00:00:42.370
+mine craft. and it looks pretty good if you
+ask me.
+
+00:00:42.370 --> 00:00:49.370
+Now, the way this works is pretty straight
+forward. The whole system has two main sections.
+
+00:00:49.429 --> 00:00:54.719
+First part detects when a cave in should happen
+by keeping track of a certain event. In this
+
+00:00:54.719 --> 00:00:59.579
+case it is using a set block clock to constantly
+check for whenever a player mines a stone
+
+00:00:59.579 --> 00:01:04.879
+block. The output of that then goes into a
+randomizer which controls the frequency of
+
+00:01:04.879 --> 00:01:10.189
+the cave ins. If the randomizer outputs a
+signal it then goes to the second part of
+
+00:01:10.189 --> 00:01:15.570
+the system which triggers the actual cave
+in and resets the whole thing. This part uses
+
+00:01:15.570 --> 00:01:21.420
+a modified version of Danda Game's clever
+method of "Using fill destroy on certain blocks"
+
+00:01:21.420 --> 00:01:27.329
+If you want more information on this particular
+concept then I suggest you check out his tutorial
+
+00:01:27.329 --> 00:01:32.430
+but as always, all of the commands I use will
+be in the description. The simple explanation
+
+00:01:32.430 --> 00:01:37.579
+of how it works is that it replaces a certain
+block with a flower. When it does this is
+
+00:01:37.579 --> 00:01:42.939
+cause the flower to immediately break into
+item form, which essentially allows you to
+
+00:01:42.939 --> 00:01:48.729
+turn a block into an entity that can then
+be tracked. This entity is then checked for
+
+00:01:48.729 --> 00:01:54.670
+stone above and if it is successful it then
+spawns falling sand to replace it. All of
+
+00:01:54.670 --> 00:01:56.840
+this happens in 1 tick
+
+00:01:56.840 --> 00:02:01.109
+What is neat about this concept is that the
+trigger can be modified to anything you want.
+
+00:02:01.109 --> 00:02:07.030
+It could be mining a particular block or even
+exploding TNT. Just crush yourself in anyway
+
+00:02:07.030 --> 00:02:08.450
+you find fulfilling.
+
+00:02:08.450 --> 00:02:14.280
+I know cave in's are a just a mere fraction
+of what mod contains so If you have suggestions
+
+00:02:14.280 --> 00:02:19.540
+on other elements from terrefirmacraft I should
+recreate, or have suggestions on concepts
+
+00:02:19.540 --> 00:02:24.470
+from other mods please let me know! Well Thats
+about it for now, appreciate you guys for
+
+00:02:24.470 --> 00:02:25.980
+watching and I will catch you next time.
+

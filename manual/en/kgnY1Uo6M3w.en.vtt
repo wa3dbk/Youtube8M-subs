@@ -1,0 +1,321 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.340 --> 00:00:06.310
+Hello and welcome back to logic
+components. Today,
+
+00:00:06.310 --> 00:00:09.490
+we only have three things to cover: NOT, AND, OR.
+
+00:00:09.490 --> 00:00:16.490
+You're watching Episode 2 of Logic Components
+
+00:00:25.830 --> 00:00:29.940
+Hello and welcome back to logic
+components
+
+00:00:29.940 --> 00:00:34.340
+yes we only have three gates to look at today.
+nothing extremely complicated
+
+00:00:34.340 --> 00:00:39.530
+but in order to facilitate this, I'm also
+gonna share with you the concept of a truth
+
+00:00:39.530 --> 00:00:40.210
+table
+
+00:00:40.210 --> 00:00:43.260
+now remember in the first episode I said
+that processing
+
+00:00:43.260 --> 00:00:47.010
+basically involves inputs, processes and
+outputs
+
+00:00:47.010 --> 00:00:50.269
+also recall that logic gates only work
+with bits
+
+00:00:50.269 --> 00:00:53.890
+and bits can only be 0 or 1. What
+this means is
+
+00:00:53.890 --> 00:00:57.250
+if a gate only takes one input then we can
+be sure that
+
+00:00:57.250 --> 00:01:01.220
+there are only grand total of two possible
+inputs that this gate can take
+
+00:01:01.220 --> 00:01:04.290
+obviously the gates we're looking at right
+now have a consistent
+
+00:01:04.290 --> 00:01:07.590
+output for every single input. To express
+this in an
+
+00:01:07.590 --> 00:01:10.940
+easy form, we actually write what is
+called a truth table
+
+00:01:10.940 --> 00:01:13.950
+well it's basically just a table saying
+that for this input
+
+00:01:13.950 --> 00:01:17.520
+I'll get this output. Now instead of
+showing you an example
+
+00:01:17.520 --> 00:01:21.090
+what I'm going to do is I'm just gonna jump
+straight in to tell you about the first
+
+00:01:21.090 --> 00:01:21.560
+gate
+
+00:01:21.560 --> 00:01:25.320
+because this gate is dead easy to
+understand, I'm gonna actually take this
+
+00:01:25.320 --> 00:01:26.290
+opportunity to
+
+00:01:26.290 --> 00:01:30.700
+also explain how truth tables work as
+well. So let us kill two birds with one
+
+00:01:30.700 --> 00:01:31.430
+stone
+
+00:01:31.430 --> 00:01:35.600
+by taking a look at the NOT gate. Now, in a
+logic diagram
+
+00:01:35.600 --> 00:01:38.710
+we actually draw out a NOT gate to look like
+this
+
+00:01:38.710 --> 00:01:41.730
+it takes one input and produces one
+output
+
+00:01:41.730 --> 00:01:44.740
+and as its name implies, it's extremely simple
+
+00:01:44.740 --> 00:01:47.860
+it is basically just an inverter. what
+this means is
+
+00:01:47.860 --> 00:01:51.130
+if it gets zero as an input, it produces
+1 as the output
+
+00:01:51.130 --> 00:01:55.090
+if it gets 1 as the input, it produces zero as
+the output
+
+00:01:55.090 --> 00:01:59.470
+so extremely simple. what you get for
+input, you just have to invert it
+
+00:01:59.470 --> 00:02:03.940
+and that is the output. So what does the
+truth table look like?
+
+00:02:03.940 --> 00:02:07.909
+now the first thing you want to consider
+is how many inputs are there
+
+00:02:07.909 --> 00:02:12.190
+well since the gate itself actually only
+takes one input
+
+00:02:12.190 --> 00:02:15.709
+therefore, there are only two possible
+inputs this gate can receive
+
+00:02:15.709 --> 00:02:20.069
+0, or 1. So when given 0 what is the
+output
+
+00:02:20.069 --> 00:02:23.720
+well, it's 1, because it's an inversion. Given 1,
+
+00:02:23.720 --> 00:02:27.260
+obviously the output is zero. Therefore, the truth table
+
+00:02:27.260 --> 00:02:32.900
+looks like this. So yeah these are
+basically two extremely simple concepts
+
+00:02:32.900 --> 00:02:38.300
+Your NOT gate simply inverts the input
+Whilst a truth table simply lists out
+
+00:02:38.300 --> 00:02:41.430
+all the input and output pairs. With that,
+
+00:02:41.430 --> 00:02:45.670
+let us now extend our understanding
+to gates that take in two inputs
+
+00:02:45.670 --> 00:02:49.080
+we start off with the AND gate. What does
+
+00:02:49.080 --> 00:02:52.790
+AND tell you? In fact, AND simply tells you
+that
+
+00:02:52.790 --> 00:02:57.280
+if input one is true, AND input two is true,
+then the output is true.
+
+00:02:57.280 --> 00:03:01.480
+So we look at zero, zero. Since neither of them are true,
+
+00:03:01.480 --> 00:03:05.230
+the output cannot possibly be true
+therefore the output is
+
+00:03:05.230 --> 00:03:08.230
+zero. Same for 10 and 01
+
+00:03:08.230 --> 00:03:11.849
+remember that we need both input one AND two
+
+00:03:11.849 --> 00:03:15.270
+to be true before we can have true as a
+result and therefore
+
+00:03:15.270 --> 00:03:18.400
+for both these entries the result is
+still false
+
+00:03:18.400 --> 00:03:21.610
+the only time can have an output that
+it's true
+
+00:03:21.610 --> 00:03:24.940
+is when both input one AND input two
+
+00:03:24.940 --> 00:03:29.630
+are true. In other words, the only time that you can write "1" in the output
+
+00:03:29.630 --> 00:03:32.700
+is at the very last row of the truth
+table
+
+00:03:32.700 --> 00:03:37.690
+this in a nutshell is the AND gate. So let's
+move on to take a look at the last gate
+
+00:03:37.690 --> 00:03:38.390
+of the day
+
+00:03:38.390 --> 00:03:43.110
+and that is the OR gate. Now based
+on what you've seen with the AND gate,
+
+00:03:43.110 --> 00:03:46.120
+you can probably put the pieces together
+and guess what
+
+00:03:46.120 --> 00:03:49.340
+the OR gate is supposed to do. If input
+
+00:03:49.340 --> 00:03:53.090
+one OR input two is true, then the output
+
+00:03:53.090 --> 00:03:56.190
+is true. So in your truth table
+
+00:03:56.190 --> 00:03:59.760
+well zero, zero means that neither
+one of them are true
+
+00:03:59.760 --> 00:04:03.510
+and therefore your output has to be false. However,
+
+00:04:03.510 --> 00:04:07.290
+for 0,1 and 1,0, well one of them are true
+
+00:04:07.290 --> 00:04:10.660
+and therefore, the output is true. Now
+
+00:04:10.660 --> 00:04:13.760
+what about the last one? Well, as long as
+
+00:04:13.760 --> 00:04:16.919
+one of the inputs are true, the output will
+be true
+
+00:04:16.919 --> 00:04:20.139
+therefore, if both are true that's been
+better
+
+00:04:20.139 --> 00:04:23.599
+The output is definitely true. And there you have it!
+
+00:04:23.599 --> 00:04:27.550
+Today we've taken a look at truth tables as
+well as three gates.
+
+00:04:27.550 --> 00:04:30.949
+The NOT gate, the AND gate, and the OR gate.
+
+00:04:30.949 --> 00:04:33.979
+everything we've talked about today
+will serve as the
+
+00:04:33.979 --> 00:04:37.210
+broad foundation for basically the
+rest of the series
+
+00:04:37.210 --> 00:04:40.800
+now just to clarify, your AND gate and your OR gate
+
+00:04:40.800 --> 00:04:43.969
+does not necessarily need to have two
+inputs
+
+00:04:43.969 --> 00:04:48.499
+they could have more than two inputs.
+Obviously they cannot have one because
+
+00:04:48.499 --> 00:04:52.259
+you know, a comparison needs to happen. If
+you have more inputs
+
+00:04:52.259 --> 00:04:55.319
+the same kind of thinking process still applies.
+
+00:04:55.319 --> 00:04:59.860
+For an AND gate, all the inputs have to be true
+before the output is actually true
+
+00:04:59.860 --> 00:05:03.960
+Whereas for an OR gate, all we need is one input to be true
+
+00:05:03.960 --> 00:05:07.189
+for the output to be true, however many
+inputs
+
+00:05:07.189 --> 00:05:11.339
+go into each gate. Well that basically
+wraps it up for this episode
+
+00:05:11.339 --> 00:05:14.599
+Thank you very much for watching. I hope you
+learned something, but until next
+
+00:05:14.599 --> 00:05:15.120
+time
+
+00:05:15.120 --> 00:05:18.419
+you're watching 0612 TV
+

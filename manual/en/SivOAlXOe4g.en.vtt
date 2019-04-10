@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.980 --> 00:00:07.870
+You're done with the hard work on the body, but there are still a few things to iron out.
+
+00:00:08.480 --> 00:00:15.410
+First, you've mostly worked on one side of the body from the waste up, so you want to mirror all the skin data to the other side.
+
+00:00:15.981 --> 00:00:21.161
+This of course, is done by entering Mirror Mode, and then using the appropriate mirror tool.
+
+00:00:21.539 --> 00:00:30.324
+In this case, you want to use the Paste Blue to Green Verts option to transfer vertex data from the character's left side to its right side.
+
+00:00:30.760 --> 00:00:32.440
+Exit Mirror mode when done.
+
+00:00:32.940 --> 00:00:41.880
+If you want, exit Edit Envelopes mode altogether and rotate a few bones on the character's right side to ensure all is ok.
+
+00:00:49.860 --> 00:00:56.970
+Actually, now that you're mostly done with the body's skinning, it would be a good idea to reset the animation length.
+
+00:00:57.572 --> 00:01:05.155
+Set it back to what you started with, frames 0 to 2600 to view the full extent of the animation.
+
+00:01:09.530 --> 00:01:13.490
+If there are any last minute adjustments, go ahead and do them now.
+
+00:01:13.857 --> 00:01:22.827
+For example, there are a couple of vertices near the center of mass that seem to have more pull to one side, whereas they should be centered.
+
+00:01:25.390 --> 00:01:28.465
+Select them individually, 
+
+00:01:33.335 --> 00:01:36.132
+and use the Weight Tool dialog to adjust the values.
+
+00:01:36.612 --> 00:01:45.085
+As explained in an earlier section, select the middle bone (right thigh) and set it to 1 or 100%.
+
+00:01:45.553 --> 00:01:51.313
+Select the last bone (left thigh) and set it to 0.5 or 50%
+
+00:01:52.040 --> 00:02:00.898
+Now select the first bone, the pelvis bone and give it back its original value, which in this case was about 0.8 or 80%.
+
+00:02:01.510 --> 00:02:07.170
+Repeat the procedure with any center vertices that may have drifted to one side or the other.
+
+00:02:08.153 --> 00:02:13.116
+Finally, remember that all the work that you've done was done on the "proxy" character,
+
+00:02:13.628 --> 00:02:17.406
+the one you have made symmetrical to make your work a bit easier.
+
+00:02:18.051 --> 00:02:24.228
+Now, you need to transfer all that work to the original mesh, the one with the shirt sticking out.
+
+00:02:26.840 --> 00:02:30.060
+Unhide the original zombie_mesh object.
+
+00:02:33.890 --> 00:02:39.800
+If you wish, change the wirecolor on one or the other mesh to differentiate them.
+
+00:02:44.613 --> 00:02:50.148
+Select the original zombie_mesh object, and apply a Skin Wrap modifier to it.
+
+00:02:53.141 --> 00:03:01.048
+Set the deformation engine to Face Deformation and the falloff to its smallest possible value of 0.001.
+
+00:03:01.520 --> 00:03:05.700
+Click the Add button and then click the proxy mesh in the viewport.
+
+00:03:06.090 --> 00:03:10.770
+After a few seconds, the data is transposed from one object to the other.
+
+00:03:11.429 --> 00:03:13.771
+Click Add again to cancel that mode.
+
+00:03:14.231 --> 00:03:16.841
+Now select the proxy mesh and hide it.
+
+00:03:17.300 --> 00:03:24.850
+You could actually delete it at this time but better keep it hidden for now until you are sure you don't need it as a backup.
+
+00:03:26.199 --> 00:03:35.371
+Scrub your animation. For the most part, it should be perfect in every way as the only differences ought to be around the right side of the waist.
+
+00:03:36.940 --> 00:03:40.990
+For that area, you may need a bit of fine-tuning.
+
+00:03:49.035 --> 00:03:53.570
+Click the Convert to Skin button so may have control over the skinning of the mesh.
+
+00:03:54.105 --> 00:04:00.325
+This creates a new Skin Modifier on top of the stack and disables the Skin Wrap modifier underneath.
+
+00:04:00.680 --> 00:04:04.205
+In fact, select the Skin Wrap modifier and delete it.
+
+00:04:04.877 --> 00:04:09.170
+Go back up to the Skin level and enter Edit Envelopes mode.
+
+00:04:09.605 --> 00:04:15.255
+The new Skin modifier takes into account all the bones used on the proxy and the vertex weights are transferred.
+
+00:04:15.645 --> 00:04:24.830
+However, you need to tell it again you want to work in Vertex mode, that you need not display the envelopes,
+
+00:04:31.818 --> 00:04:36.563
+and that the Bone Affect Limit is restricted to four bones.
+
+00:04:39.950 --> 00:04:48.580
+Once this is done, you can now select individual vertices on the shirt's exposed part and weight them accordingly.
+
+00:05:16.673 --> 00:05:18.886
+The skinning of the body is now complete.
+
+00:05:19.213 --> 00:05:25.956
+You still need to skin the head but before you get to that, I'd like to cover a little tip that could prove extremely useful.
+
+00:05:26.499 --> 00:05:31.681
+You may have noticed in the Advanced Parameters rollout two Save and Load buttons.
+
+00:05:32.489 --> 00:05:36.904
+These enable you to save envelope data and reload it at a later time.
+
+00:05:37.279 --> 00:05:43.834
+While useful, this method is mostly adaptable to save and load envelopes globally, for the whole character.
+
+00:05:44.346 --> 00:05:52.114
+The tip you will learn about in the next movie shows you how to save VERTEX skin data, and only on areas that you choose.
+

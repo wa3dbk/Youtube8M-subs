@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.756 --> 00:00:10.134
+In this tutorial, you use a particle system to break away a layer of rust on a line of text to expose what's underneath it.
+
+00:00:15.580 --> 00:00:21.080
+A basic scene is provided with simple components, a ground plane, a spot light,
+
+00:00:21.536 --> 00:00:26.794
+and a line of text meant as an ad for an imaginary rustproof product.
+
+00:00:27.854 --> 00:00:33.221
+The word was created using the Text tool, the way you have learned in previous tutorials.
+
+00:00:33.739 --> 00:00:41.114
+A Bevel modifier was added to give depth, and a UVW Map modifier was applied.
+
+00:00:41.770 --> 00:00:48.698
+The purpose of the UVW Map modifier of course is to provide proper mapping coordinates for the applied material.
+
+00:00:49.339 --> 00:00:55.810
+The material itself is a Standard material, based on a couple of bitmaps to give the illusion of clean metal.
+
+00:00:57.355 --> 00:01:02.334
+The resulting render shows the metal-like word that's meant as a final result.
+
+00:01:03.890 --> 00:01:06.660
+The animation has been set to 400 frames.
+
+00:01:07.072 --> 00:01:12.565
+Initially and at the beginning of the animation, the object is meant to be rusty.
+
+00:01:13.395 --> 00:01:17.400
+Rename the exiting text object: Text_CLEAN.
+
+00:01:20.428 --> 00:01:22.580
+Make a copy of it, 
+
+00:01:27.068 --> 00:01:30.813
+and name the copy Text_RUSTY.
+
+00:01:34.498 --> 00:01:38.768
+The new object is now selected. Right-click in the viewport and Isolate it.
+
+00:01:39.331 --> 00:01:44.478
+If you wish, change its wirecolor to differentiate it from its sibling.
+
+00:01:49.375 --> 00:01:54.483
+Use the Slate Material Editor to apply the provided Rust material to the new object.
+
+00:01:54.980 --> 00:02:00.281
+This is a simple Standard material based on a bitmap in its Diffuse and Bump channels.
+
+00:02:01.094 --> 00:02:06.353
+Enable Show Map in Viewport to see the effect. It needs a bit of adjusting.
+
+00:02:06.830 --> 00:02:12.080
+Set the mapping coordinates Length/Width/Height values to 600.
+
+00:02:15.901 --> 00:02:19.781
+It now looks better. Exit Isolate mode when done.
+
+00:02:20.728 --> 00:02:28.326
+At this time the two lines of text share the same space. You have to design a way to transition from one to the other.
+
+00:02:29.028 --> 00:02:33.633
+With the rusty text still selected, right-click and hide it temporarily.
+
+00:02:34.600 --> 00:02:39.498
+Select the "clean" line of text and add a Slice modifier to it.
+
+00:02:41.760 --> 00:02:46.316
+Expand the Slice modifier and select the Slice Plane sub-object.
+
+00:02:48.813 --> 00:02:57.283
+Using Angle Snap, rotate the slicing plane counter clock-wise exactly 90 degrees.
+
+00:03:01.671 --> 00:03:06.896
+Use the Remove Top option and notice how the right side disappears.
+
+00:03:07.954 --> 00:03:11.945
+Move the Slice plane in X and notice the effect.
+
+00:03:16.315 --> 00:03:20.458
+Move it all the way to the left until the word RUSTPROOF disappears.
+
+00:03:20.928 --> 00:03:28.340
+Next you need to animate it going from left to right over time, say between frames 60 and 300.
+
+00:03:29.337 --> 00:03:33.203
+Enable Auto Key mode and go to frame 300.
+
+00:03:35.296 --> 00:03:39.523
+Move the Slice Plane to the right until the whole word appears again.
+
+00:03:40.195 --> 00:03:43.905
+This creates two keyframes at 0 and 300.
+
+00:03:44.810 --> 00:03:51.581
+To ensure the effect only starts at frame 60, relocate the 0 keyframe to frame 60.
+
+00:03:55.778 --> 00:03:59.396
+Exit Sub-Object mode and Auto Key mode when done.
+
+00:04:00.566 --> 00:04:03.358
+Playback the animation to see the effect.
+
+00:04:04.690 --> 00:04:08.830
+Next, you need the reverse effect on the rusty line of text.
+
+00:04:09.506 --> 00:04:12.796
+Right-click to unhide the line of text you hid earlier.
+
+00:04:14.076 --> 00:04:19.099
+Drag the Slice modifier from the currently selected text object to the rusty one.
+
+00:04:19.460 --> 00:04:25.830
+This creates a copy of the modifier and therefore the two text objects are currently behaving the same way.
+
+00:04:26.466 --> 00:04:34.684
+To reverse the effect, simply change the modifier values to remove the Bottom part of the rusty text.
+
+00:04:38.880 --> 00:04:45.120
+To help with real-time display, you may want to disable Show Map in Viewport on the rust material.
+
+00:04:45.440 --> 00:04:51.960
+In the next movie, you create the particle system you will use to tear away pieces of rust to expose the clean finish.
+

@@ -1,0 +1,238 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.000 --> 00:00:09.000
+The Maya Sequencer is a pre-visualization tool that allows you to set up and play back a sequence of shots.
+
+00:00:09.000 --> 00:00:14.000
+In this lesson, we’ll use the sequencer to set up some dynamic shots for this car chase.
+
+00:00:16.000 --> 00:00:22.000
+First, let’s get a sense of what our camera shots will be by looking at the provided storyboards.
+
+00:00:23.000 --> 00:00:27.000
+These storyboards indicate the scene is composed of five shots.  
+
+00:00:27.000 --> 00:00:32.000
+Let’s go ahead and create five cameras, and name them camera 1 through 5.
+
+00:00:39.000 --> 00:00:45.000
+Now go to the Panels &gt; Saved Layouts &gt; Persp/Camera Sequencer.
+
+00:00:45.500 --> 00:00:50.500
+The sequencer appears beneath the scene with its own timeline, similar to the Trax Editor.  
+
+00:00:50.500 --> 00:00:56.000
+In this video we’ll be making the distinction between the "sequence" and the animation.
+
+00:00:56.500 --> 00:01:01.000
+Let’s create our first shot by opening the Create Shot Options.
+
+00:01:01.000 --> 00:01:04.000
+Set the Shot Camera to camera1.
+
+00:01:04.000 --> 00:01:06.000
+Now let’s set up a reference image.    
+
+00:01:06.500 --> 00:01:13.500
+A reference image allows us to overlay our hand drawn storyboard images directly onto Maya so we can line up our shots.
+
+00:01:14.000 --> 00:01:18.000
+Click the browse button and select our first storyboard image.
+
+00:01:19.500 --> 00:01:26.000
+Let’s set the opacity on this image to about 0.5 so that we can see the scene underneath it.
+
+00:01:27.000 --> 00:01:31.000
+The scene automatically switches to camera 1, but you may receive an error 
+
+00:01:31.000 --> 00:01:34.500
+that states your storyboard Image Type is set to Movie.
+
+00:01:34.500 --> 00:01:41.000
+To fix this, select camera1 in the Outliner and navigate to the imagePlane tab in the Attribute Editor. 
+
+00:01:42.000 --> 00:01:50.000
+From here, set the Type to Image File.  Also make sure the Use Image Sequence option is turned off.
+
+00:01:53.500 --> 00:01:58.000
+The storyboard overlay appears over top of your scene.  
+
+00:01:59.000 --> 00:02:03.000
+Let’s also turn on the Film Gate and Gate Mask settings. 
+
+00:02:05.500 --> 00:02:09.000
+Now you can adjust the camera to match the storyboard.  
+
+00:02:13.000 --> 00:02:18.000
+You can scrub the animation time slider a bit so the getaway car appears 
+
+00:02:18.000 --> 00:02:22.000
+in the middle of the intersection just like the storyboard if it helps.
+
+00:02:22.500 --> 00:02:28.000
+Now that we have the proper shot angle, let’s adjust the shot’s duration in the sequencer.
+
+00:02:29.000 --> 00:02:33.000
+First turn off the image plane so we can get a better look at our shot.
+
+00:02:34.500 --> 00:02:41.300
+In the Sequencer, a shot is represented by a blue track.  If we scrub all the way to the end of this track, 
+
+00:02:41.300 --> 00:02:48.000
+we can see it’s a little too short. We want the shot to last until the cars are just outside the frame.
+
+00:02:48.000 --> 00:02:52.500
+Judging from our animation time slider, this happens at about frame 100.
+
+00:02:53.500 --> 00:03:00.000
+To extend the shot, move your cursor to the upper right side of the track, until it turns into a small knife.  
+
+00:03:00.000 --> 00:03:04.000
+Now drag to the right until the numbers both read 100.
+
+00:03:05.000 --> 00:03:08.500
+Now if you scrub, the shot lasts the proper duration.  
+
+00:03:10.000 --> 00:03:15.000
+Let’s create our second shot.  Like before, go to the Create Shot Options.
+
+00:03:15.000 --> 00:03:17.500
+Set Shot Camera to Camera2.
+
+00:03:17.800 --> 00:03:24.000
+Since we ended our last shot at frame 100 of the animation, set the Start time to 101,
+
+00:03:24.000 --> 00:03:31.000
+ and the End time to something like 200.  The exact End time doesn’t matter as we’ll change this later.  
+
+00:03:31.000 --> 00:03:40.000
+Also, set the New Shot Placement to After Current Shot and select the first shot in the Sequencer so that it turns yellow.
+
+00:03:40.000 --> 00:03:46.000
+This will automatically place our new shot after our first shot, rather than on a parallel track.
+
+00:03:46.500 --> 00:03:51.000
+Set the image to our second storyboard file and then create the shot.
+
+00:03:53.500 --> 00:03:59.000
+Now scrub the timeline to the new shot and line up the camera just like you did in the first one.
+
+00:04:00.000 --> 00:04:07.000
+This shot is a little different from our first one since we want the camera to follow the police car as it 
+
+00:04:07.000 --> 00:04:11.000
+drives around the corner.  To do this we’ll need to set up a constraint.
+
+00:04:11.500 --> 00:04:17.000
+First switch back to the perspective camera and find camera2 in the scene.
+
+00:04:20.000 --> 00:04:25.000
+Now select the police car and Shift + select the camera.  Set a Parent Constraint and 
+
+00:04:25.000 --> 00:04:28.000
+be sure to turn on the Maintain Offset option.
+
+00:04:30.000 --> 00:04:35.000
+Now if you switch back to camera2 and scrub through the animation timeline 
+
+00:04:35.000 --> 00:04:37.500
+you can see that the camera follows the police car.
+
+00:04:41.500 --> 00:04:45.500
+Scrubbing through the Sequencer again, our second shot is a bit long.  
+
+00:04:45.500 --> 00:04:50.000
+We’d ideally like to jump to the next shot just as the fire truck pulls into view, 
+
+00:04:50.000 --> 00:04:53.500
+so let’s drag the duration down to frame 180. 
+
+00:04:55.000 --> 00:05:01.000
+Use what you’ve learned to set up shot3 and 4.  Make sure to set the Camera, Start time, 
+
+00:05:01.000 --> 00:05:04.000
+Shot Placement, and Image appropriately.  
+
+00:05:05.500 --> 00:05:17.000
+As you can see, we’ve set the duration of shot3 from frame 181 to 220, and of shot4 from 221 to 235.
+
+00:05:17.000 --> 00:05:21.000
+With shot4 completed, scrub through the entire sequence.    
+
+00:05:29.000 --> 00:05:36.000
+Uh oh, there’s a problem.  In the storyboard, shot4 should capture the police car skidding into the air 
+
+00:05:36.000 --> 00:05:41.000
+and crashing into the fountain.  But if we look at what we have here, the police car is
+
+00:05:41.000 --> 00:05:44.000
+already resting in the fountain by the time we reach shot4.
+
+00:05:44.500 --> 00:05:50.000
+In order to see the lead up to this, we’d have to pull this shot back to about frame 185.  
+
+00:05:50.000 --> 00:05:54.000
+But back at frame 185 we were looking at camera3.
+
+00:05:54.500 --> 00:06:00.000
+This is where the independence between the sequence and the animation really comes into use. 
+
+00:06:00.800 --> 00:06:06.000
+If you’ve noticed, as we’ve dragged the shot durations, two numbers have been changing.  
+
+00:06:06.000 --> 00:06:09.500
+These two numbers actually represent two different things.  
+
+00:06:10.300 --> 00:06:14.500
+The top number represents the start or end frame in the animation, whereas the bottom number 
+
+00:06:14.500 --> 00:06:19.000
+represents the start or end frame in the sequence.  
+
+00:06:19.500 --> 00:06:27.000
+All our previous shots occurred sequentially in the animation and the sequence, so the numbers always matched up.  
+
+00:06:27.000 --> 00:06:34.000
+However, we can use this to make a shot that is consecutive in the sequence, but that actually overlaps in the animation.
+
+00:06:34.500 --> 00:06:41.000
+First, click and drag the top left number of shot4.  If we want to capture the skid, 
+
+00:06:41.000 --> 00:06:44.000
+we’ll need to bring this back to about frame 185.
+
+00:06:44.500 --> 00:06:52.000
+Notice that when you do this, the shot jumps to a lower track.  This is because the shots now overlap in the sequence.
+
+00:06:52.000 --> 00:06:58.000
+To fix this, click the bottom left number representing the shot’s start time in the sequence, 
+
+00:06:58.000 --> 00:07:06.500
+and drag it to the right until it reads 221.  This changes only its start time in the sequence, but not in the animation.  
+
+00:07:07.000 --> 00:07:12.500
+Once you’ve done this, drag the entire shot back up to the same track as the others
+
+00:07:14.000 --> 00:07:19.000
+Now scrub through the sequence again.  Keep an eye on the animation time slider.  
+
+00:07:19.000 --> 00:07:27.000
+As you can see, when the red line transitions from shot3 to shot4 the animation time slider jumps back.  
+
+00:07:27.000 --> 00:07:32.000
+Now you can clearly see the police car swerve and leap into the fountain.
+
+00:07:32.500 --> 00:07:39.000
+To finish the scene, setup the fifth and final shot.  You don’t have to do anything special with this one 
+
+00:07:39.000 --> 00:07:45.000
+since it falls in sequence like shots 1-3.  Set it to end at frame 350.
+
+00:07:47.300 --> 00:07:52.700
+Now your sequence is complete.  You can playblast the entire sequence from the playblast menu 
+
+00:07:52.700 --> 00:07:55.000
+to see what it looks like rendered.
+

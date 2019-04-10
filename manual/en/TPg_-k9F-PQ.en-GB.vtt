@@ -1,0 +1,223 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:06.359 --> 00:00:11.610
+Hello its Neil Ball here from work with Neil
+Ball and today in this video I'm going to
+
+00:00:11.610 --> 00:00:18.480
+demonstrate how to create an image or banner
+that when you hover the mouse over it changes
+
+00:00:18.480 --> 00:00:23.750
+in some ways for example if you take this
+banner on the right hand side of my website
+
+00:00:23.750 --> 00:00:31.721
+as I hover over the mouse it causes the image
+to change like that. Now it is very straight
+
+00:00:31.721 --> 00:00:39.980
+forward to do, this is actually one image,
+its actually made up of an image like this,
+
+00:00:39.980 --> 00:00:44.511
+which is the two image side by side so you've
+got the image on the left, which is the image
+
+00:00:44.511 --> 00:00:54.149
+which is shown before the mouse hovers over,
+the right hand image is then shown. There
+
+00:00:54.149 --> 00:00:59.820
+is a little bit of code you need to make that
+happen, but it is very straight forward, so,
+
+00:00:59.820 --> 00:01:06.290
+you start off with the left and the right
+image. They both have to be exactly the same
+
+00:01:06.290 --> 00:01:14.120
+size. And what you do then is you put them
+together on a single image. With a space down
+
+00:01:14.120 --> 00:01:20.450
+the middle of something like ten. That is
+approximately what I have done, I've got so
+
+00:01:20.450 --> 00:01:24.500
+that they are not overlapping and there is
+a distinct difference between the two of them.
+
+00:01:24.500 --> 00:01:27.640
+You could probably get away with a smaller
+gap than that but I usually always work with
+
+00:01:27.640 --> 00:01:42.530
+ten so if I now create another image now,
+it's a very straightforward process, you are
+
+00:01:42.530 --> 00:01:52.659
+going to be doing, 580 and the height on this
+was 543 so I will just create a new image
+
+00:01:52.659 --> 00:02:06.200
+like that and then it is a question of them
+positioning the images to the left and the
+
+00:02:06.200 --> 00:02:14.950
+right, once you have created the larger sized
+image so again I can duplicate that and send
+
+00:02:14.950 --> 00:02:22.630
+it to a new image so here we have it, we have
+got the left image and the right image, so
+
+00:02:22.630 --> 00:02:27.819
+this one is the right image, so we are just
+going to slide that over to the right, like
+
+00:02:27.819 --> 00:02:41.140
+that until it is perfectly lined up. And then
+the left image 
+
+00:02:41.140 --> 00:02:58.560
+and this one we are just going to position
+to the left. I usually save it as PNG so that
+
+00:02:58.560 --> 00:03:06.879
+is fairly straightforward and the next thing
+you are going to do is to go into Wordpress
+
+00:03:06.879 --> 00:03:13.651
+and media and add the image to the image library
+you are just going to upload it and you are
+
+00:03:13.651 --> 00:03:19.330
+going to get URL I will just show you now
+as I have just done this fairly recently on
+
+00:03:19.330 --> 00:03:31.980
+here. So here it is and you are going to grab
+this URL here which is the URL of the image,
+
+00:03:31.980 --> 00:03:38.840
+and then there is some code which I shall
+absolutely supply to you on my website if
+
+00:03:38.840 --> 00:03:45.830
+you come to my website which is WorkWithNeilBall.com
+as you can see at the top. I'll actually put
+
+00:03:45.830 --> 00:03:50.940
+a link at the side of this video on You Tube
+or something click the link, I'll put the
+
+00:03:50.940 --> 00:03:59.730
+code on my webpage so you can grab it off
+the page and copy and paste it onto your website
+
+00:03:59.730 --> 00:04:11.550
+and put your link in there to get it working.So,
+if we now go into widgets which is in appearance.
+
+00:04:11.550 --> 00:04:23.289
+We go right side bar, what you need to do
+is, you need to drag a text box across over
+
+00:04:23.289 --> 00:04:28.740
+into the side bar widget that is going to
+be displayed. You need to be put a text widget
+
+00:04:28.740 --> 00:04:35.430
+into the side bar are and then what you will
+do is, you will then copy this code which
+
+00:04:35.430 --> 00:04:42.250
+I am showing you now on the screen into that
+box. Now a couple of things about this, you
+
+00:04:42.250 --> 00:04:49.860
+now set on here this first part of it. You
+set the size of the image that you want to
+
+00:04:49.860 --> 00:04:57.330
+display because what actually happens here
+is that as you hover the mouse over the image,
+
+00:04:57.330 --> 00:05:01.589
+it goes from showing the left hand side of
+the image to the right hand side of the image.
+
+00:05:01.589 --> 00:05:07.659
+So at any time you are only going to see the
+width of the image. The two images that I
+
+00:05:07.659 --> 00:05:14.020
+am using there on the single image are 285
+wide. So the left hand image is 285 and the
+
+00:05:14.020 --> 00:05:21.909
+right hand image is 285 and the height is
+483 so these settings here need to be the
+
+00:05:21.909 --> 00:05:28.900
+size you want to display so then what you
+are going to do here is this background setting
+
+00:05:28.900 --> 00:05:34.830
+here is where you put the URL of the image
+that you have uploaded which is the big image
+
+00:05:34.830 --> 00:05:40.229
+which I have just showed you there, that is
+the URL which we have just taken there and
+
+00:05:40.229 --> 00:05:44.479
+the only other thing you need to do is, I
+have put some extra code on here, for when
+
+00:05:44.479 --> 00:05:50.340
+you are clicking it to when you are clicking
+the image, the image, you will then be taken
+
+00:05:50.340 --> 00:05:56.161
+to another page.So what I will do is, I will
+put all of that on my websites, so that you
+
+00:05:56.161 --> 00:06:04.759
+can easily copy and paste it rather than trying
+to copy it off this video prone to mistakes
+
+00:06:04.759 --> 00:06:12.639
+and once you've done that and you save it
+then you should get an image like this. Which
+
+00:06:12.639 --> 00:06:19.520
+is really effective and really simple. There
+is nothing fancy about it at all and here
+
+00:06:19.520 --> 00:06:24.369
+are a number of people out that as I said
+earlier who are making this incredibly complicated
+
+00:06:24.369 --> 00:06:31.539
+when it isn't that is how you make an image
+that changes as a hover over as you did like
+
+00:06:31.539 --> 00:06:36.679
+that. Which is a great way of getting peoples
+attention that navigate round your website.So
+
+00:06:36.679 --> 00:06:42.750
+I am Neil Ball from work with Neil Ball, if
+you need any other hints and tricks have a
+
+00:06:42.750 --> 00:06:48.499
+look at my website which is WorkWithNeilBall.com
+and I will speak to you again. Thank you.
+
+00:06:48.499 --> 00:06:48.939
+Goodbye
+

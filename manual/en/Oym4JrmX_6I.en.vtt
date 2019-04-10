@@ -1,0 +1,149 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.710 --> 00:00:10.020
+In this last movie, you'll finish off texturing the scene with the help of a free 
+downloadable utility that will help you design Substance Maps interactively.
+
+00:00:10.720 --> 00:00:16.570
+Substance Maps in 3ds Max were originally developed by a company called Allegorithmic.
+
+00:00:17.189 --> 00:00:25.418
+Using a web browser, go to the Allegorithmic page at www.allegorithmic.com 
+
+00:00:27.848 --> 00:00:36.468
+On the Products page, choose the "player" product. This is a free utility that will simplify 
+your workflow as you work with Substance Maps.
+
+00:00:37.407 --> 00:00:40.426
+Download the application and install it on your system.
+
+00:00:40.831 --> 00:00:47.252
+Start the application and load a Substance file. Use the Stones_01 file you worked with 
+in the last movie.
+
+00:00:47.859 --> 00:00:51.775
+You get two feedback windows, one in 2D and one in 3D.
+
+00:00:52.270 --> 00:00:57.772
+You can orbit around the 3D view using Alt+MMB just like in 3ds Max.
+
+00:00:58.396 --> 00:01:04.451
+Adjust the parameters, for example the Rock Amount value to see the effect in real-time.
+
+00:01:05.300 --> 00:01:09.553
+Play with other sliders such as Rock Size or Shape Shift.
+
+00:01:10.380 --> 00:01:15.070
+Try editing color information like Saturation, Luminosity and others.
+
+00:01:15.632 --> 00:01:20.870
+The advantage of course, is that you get immediate feedback to what variations 
+you want the map to have.
+
+00:01:21.449 --> 00:01:31.420
+You can also see the other channels contained into the Substance file, such as Normal, Specular, 
+Bump, Height and Displacement.
+
+00:01:31.762 --> 00:01:41.300
+The Difference between Height and Displacement is that the Height map is not affected 
+by the Relief Balance slider but the Displacement map is.
+
+00:01:50.107 --> 00:01:54.720
+When you're done, you can proceed to 3ds Max is a couple of different ways.
+
+00:01:55.551 --> 00:02:01.051
+One way is to extract bitmaps from the Substance player and lead a conventional workflow.
+
+00:02:01.720 --> 00:02:10.023
+You can choose an image type that suits you, an image resolution and a folder 
+where to save the extracted files,
+
+00:02:14.110 --> 00:02:21.720
+and ultimately use these extracted images in the proper channel on a material 
+that you design in 3ds Max.
+
+00:02:57.730 --> 00:03:02.610
+The other method is to simply apply a Substance map in 3ds Max,
+
+00:03:05.509 --> 00:03:09.277
+load the same substance you loaded in the player,
+
+00:03:12.989 --> 00:03:20.154
+and then all you need to do is duplicate the values you end up with into 
+the Slate Material Editor in 3ds Max
+
+00:03:20.919 --> 00:03:27.355
+However, and as explained in the last movie, Substance Maps handle gamma differently from bitmaps.
+
+00:03:27.792 --> 00:03:37.443
+Ensure you add a Color Correction map at the Diffuse level, 
+and set the Lightness &gt; Advanced Gamma Contrast to 0.45~0.55.
+
+00:03:42.220 --> 00:03:48.090
+This will get you close to the display in the player, although you can adjust 
+other color correction values as well.
+
+00:03:49.079 --> 00:03:54.616
+With that in mind, go back to the Fuji house and take a look how you can design its textures.
+
+00:03:54.980 --> 00:04:01.870
+You will experiment with a substance map for the roof. In the player, 
+load the Old_Painted_Planks substance.
+
+00:04:02.484 --> 00:04:05.896
+Play with the values until you get a look that you like.
+
+00:04:17.030 --> 00:04:22.170
+In 3ds Max, create a material based on the same substance.
+
+00:04:54.727 --> 00:05:02.740
+Apart from the Diffuse channel, wire the Normal and Bump channel as you have learned 
+in the last movie.
+
+00:05:13.950 --> 00:05:19.090
+Do not forget to add a Color Correction map to adjust the gamma Correction.
+
+00:05:36.706 --> 00:05:38.981
+Render the scene to view the results.
+
+00:05:39.371 --> 00:05:44.109
+Keep on experimenting with the player and transposing the values to the Slate Material Editor.
+
+00:05:44.855 --> 00:05:48.692
+Try the Cane substance for the walls.
+
+00:05:59.381 --> 00:06:04.494
+Create a Material for this substance in 3ds Max and apply it to the walls.
+
+00:06:28.665 --> 00:06:32.966
+Add the Normal and Bump maps to the material as you have done before.
+
+00:06:40.993 --> 00:06:46.775
+In this particular case, you will need to rotate the map 90 degrees for the canes to run horizontally.
+
+00:06:47.080 --> 00:06:50.740
+With Substance Maps, you only need to do this once.
+
+00:06:51.010 --> 00:06:56.930
+With a conventional workflow, you'd need to rotate every image you created for the various channels.
+
+00:06:57.663 --> 00:07:02.775
+Add a Color Correction Map and adjust gamma correction and render the scene.
+
+00:07:19.033 --> 00:07:26.820
+Keep on working on your scene. Try the Wood_White_Cedar map for the floor, railings and wall frames.
+
+00:07:27.802 --> 00:07:31.965
+Use the Asphalt substance for the steps in the garden.
+
+00:07:32.946 --> 00:07:37.215
+Feel free to experiment with other substances if you feel like it.
+
+00:07:37.700 --> 00:07:41.830
+This concludes this three-part series on how to work with Substance Maps. 
+
+00:07:42.380 --> 00:07:44.400
+We hope you found the instruction useful.
+

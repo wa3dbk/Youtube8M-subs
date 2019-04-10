@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.120 --> 00:00:09.660
+When working in Maya, it is always best practice to keep your scene organized so you can locate your objects faster,
+
+00:00:09.660 --> 00:00:11.889
+and manipulate them more efficiently.
+
+00:00:13.320 --> 00:00:18.570
+A simple way to do this is by linking objects together, either as parents or groups.
+
+00:00:20.200 --> 00:00:24.240
+Here, we have a messy study room with lots of books that need to be put away.
+
+00:00:25.670 --> 00:00:28.220
+Let's start with the closed book on the ottoman.
+
+00:00:29.700 --> 00:00:35.790
+Although it may appear as one solid object, the Outliner shows it is actually comprised of multiple parts,
+
+00:00:36.200 --> 00:00:39.970
+such as a spine, board covers and protective corners.
+
+00:00:41.290 --> 00:00:48.160
+To move this book around the way it is right now, we would have to select all these individual parts first, which is a bit cumbersome.
+
+00:00:49.570 --> 00:00:57.990
+Also, if each object has its pivot at a different location, any transform applied to our selection will not give us the expected results.
+
+00:01:01.120 --> 00:01:06.610
+To get around these 2 problems, we'll create parent-child relationships between the different book elements.
+
+00:01:07.720 --> 00:01:12.320
+First, select one or multiple objects to be parented by holding Shift.
+
+00:01:13.710 --> 00:01:17.420
+Then, Shift + select the object that will become their parent.
+
+00:01:18.850 --> 00:01:21.330
+Select the Parent command from the Edit menu.
+
+00:01:22.660 --> 00:01:27.320
+We now have a new hierarchy in which the front board of the book, which is the parent,
+
+00:01:27.680 --> 00:01:31.740
+controls the protective corners and joint, which are now its children.
+
+00:01:33.240 --> 00:01:39.960
+In the Outliner, this new parent-child relationship is symbolized via the indentation of the children under the parent.
+
+00:01:41.630 --> 00:01:46.470
+Within this hierarchy, we can transform a child object without affecting its parent.
+
+00:01:52.810 --> 00:01:59.430
+Another way to parent objects together is by middle-mouse dragging the selected child objects onto the desired parent.
+
+00:02:00.530 --> 00:02:06.090
+Notice that as we parent the various parts of the book, we reduce the amount of clutter in the Outliner,
+
+00:02:06.090 --> 00:02:12.190
+until we’re left with only the book’s main elements: the front and back covers, and the spine.
+
+00:02:13.280 --> 00:02:16.500
+We could parent these elements together as we’ve done so far,
+
+00:02:16.500 --> 00:02:21.696
+but this would make it hard to transform any one of them without affecting all others parented to it.
+
+00:02:30.800 --> 00:02:33.780
+Instead, we’ll use groups to solve this problem.
+
+00:02:35.080 --> 00:02:40.970
+Grouping objects is similar to  parenting them, except  grouped objects are moved under a new empty node.
+
+00:02:41.740 --> 00:02:46.520
+Here, select all 3 main elements and select the Group command from the Edit menu.
+
+00:02:48.030 --> 00:02:54.790
+In the Outliner, a new group node is at the top of the hierarchy. Let’s rename it to “book_grp”.
+
+00:02:58.460 --> 00:03:05.970
+By default, a new group has its pivot at the scene’s origin. We can center it using the Center Pivot command in the Modify menu.
+
+00:03:09.590 --> 00:03:15.530
+Now our book is ready to be put away. But before we do so, notice the stack of books on the table.
+
+00:03:15.500 --> 00:03:18.070
+We might as well attend them while we’re at it.
+
+00:03:19.610 --> 00:03:23.210
+In the Outliner, parent the book group to the book stack group.
+
+00:03:24.800 --> 00:03:30.340
+Notice that once parented, the book’s transform values become local to its parent’s transforms.
+
+00:03:31.980 --> 00:03:37.180
+Now to finish up, let’s stack the book up with the rest, and put them away in the bookshelf.
+
+00:03:58.300 --> 00:04:02.200
+Now our study is more organized thanks to groups and parenting.
+

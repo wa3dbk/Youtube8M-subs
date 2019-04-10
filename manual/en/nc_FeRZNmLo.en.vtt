@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:10.629 --> 00:00:15.129
+Hi, my name is Dave Andrews, today I'm going
+to show you how to format a hard drive in
+
+00:00:15.129 --> 00:00:24.489
+Linux. Let's go to our Linux command line.
+And the very first thing we're going to do
+
+00:00:24.489 --> 00:00:35.450
+is do a change directory to the slash DEV
+folder. Let's do an LS and do SD star. This
+
+00:00:35.450 --> 00:00:39.890
+shows you the drives that are connected. I
+have SDA which is our first hard drive, the
+
+00:00:39.890 --> 00:00:46.920
+primary one, and it has several partitions.
+I then have SDB which is our second hard drive.
+
+00:00:46.920 --> 00:00:58.250
+I'm going to format SDB. To do so, let's run
+the CF disk command by saying pseudo CF disk,
+
+00:00:58.250 --> 00:01:07.479
+and then a slash S - DEV slash SDB. This opens
+up the partition drive - partition table for
+
+00:01:07.479 --> 00:01:13.780
+our second hard drive. Move an arrow over
+to select over. We want to create a primary
+
+00:01:13.780 --> 00:01:21.420
+partition. It fills the entire drive. After
+we've made that, let's just select write and
+
+00:01:21.420 --> 00:01:32.240
+say yes. That writes the partition table to
+our second disk. Once it's done writing, select
+
+00:01:32.240 --> 00:01:39.350
+quit. Now we're back to the command line.
+What we're going to do now is format that
+
+00:01:39.350 --> 00:01:49.260
+hard drive. So you want to do pseudo MKFS
+which is Make File System, space, and then
+
+00:01:49.260 --> 00:01:57.939
+SDB one, which is the first partition on hard
+drive B. That has just formatted our new hard
+
+00:01:57.939 --> 00:02:07.629
+drive. My name is Dave Andrews, and I've just
+showed you how to format a hard drive in Linux.
+

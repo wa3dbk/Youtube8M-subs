@@ -1,0 +1,298 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.820 --> 00:00:01.820
+Hello everyone.
+
+00:00:01.820 --> 00:00:03.759
+Michael here with The Daily Note II/3 YouTube
+channel.
+
+00:00:03.759 --> 00:00:09.120
+Welcome to part 1 of what's new in Android
+4.4 for the Samsung Galaxy Note 3.
+
+00:00:09.120 --> 00:00:13.099
+So I've been hard at work trying to find all
+the new and cool things that came with the
+
+00:00:13.099 --> 00:00:14.099
+update.
+
+00:00:14.099 --> 00:00:18.310
+So I'll start off these series of videos with
+what I think is the coolest feature on Android
+
+00:00:18.310 --> 00:00:21.120
+4.4 which is screen recording.
+
+00:00:21.120 --> 00:00:26.099
+So as a matter of fact this video you're watching
+this very second is a direct screen recording
+
+00:00:26.099 --> 00:00:28.060
+off my Galaxy Note 3.
+
+00:00:28.060 --> 00:00:42.579
+And as you can see, the quality is flawless.
+
+00:00:42.579 --> 00:00:45.571
+Screen recording was a feature that we first
+heard about during the announcement of the
+
+00:00:45.571 --> 00:00:50.820
+Galaxy Note 2, however, about a day into the
+launch of the device in the initial countries,
+
+00:00:50.820 --> 00:00:54.030
+the feature was removed virtually out of existence.
+
+00:00:54.030 --> 00:00:59.320
+Eventually, 3rd party apps with the screen
+recording feature became available for rooted
+
+00:00:59.320 --> 00:01:01.269
+and unrooted devices.
+
+00:01:01.269 --> 00:01:03.910
+But the quality was ok at best.
+
+00:01:03.910 --> 00:01:06.280
+Definitely not up to HD standards.
+
+00:01:06.280 --> 00:01:09.450
+Well, that has changed for the Galaxy Note
+3.
+
+00:01:09.450 --> 00:01:14.479
+With the Android 4.4 update, the screen recording
+feature is built into the OS.
+
+00:01:14.479 --> 00:01:16.840
+To get screen recording working, you need
+3 things.
+
+00:01:16.840 --> 00:01:20.010
+One, you need to have updated to Android 4.4.
+
+00:01:20.010 --> 00:01:23.970
+Second, you need to have the official USB
+drivers for your Android device.
+
+00:01:23.970 --> 00:01:28.229
+It's true that you can connect your galaxy
+note 3 to your computer with generic drivers
+
+00:01:28.229 --> 00:01:33.369
+that came with your computer, but for something
+like this, you need the official usb drivers.
+
+00:01:33.369 --> 00:01:37.680
+You can get them at samsung's support site
+by providing your model number.
+
+00:01:37.680 --> 00:01:41.140
+And last, you need a command line tool called
+adb.
+
+00:01:41.140 --> 00:01:45.960
+You can officially get them by installing
+the free android software developer kit from
+
+00:01:45.960 --> 00:01:46.960
+Google.
+
+00:01:46.960 --> 00:01:48.860
+I'll provide the links below.
+
+00:01:48.860 --> 00:01:53.570
+But it is a gigantic package for the little
+file that you need, so it may be worthwhile
+
+00:01:53.570 --> 00:01:59.180
+google searching for just the adb.exe file
+and download it from unofficial sources.
+
+00:01:59.180 --> 00:02:05.320
+Next, 2 things you need to enable on your
+Android is Developer options and usb debugging.
+
+00:02:05.320 --> 00:02:09.860
+If you haven't enabled it already, you can
+enable developer options by going to settings
+
+00:02:09.860 --> 00:02:15.230
+-&gt; general -&gt; about device and tap on the
+build number 7 times.
+
+00:02:15.230 --> 00:02:18.510
+Then go into developer options and enable
+usb debugging.
+
+00:02:18.510 --> 00:02:23.450
+If want to record and show where you are touching,
+you can enable that here.
+
+00:02:23.450 --> 00:02:26.470
+And finally connect your device to your computer.
+
+00:02:26.470 --> 00:02:29.000
+After you got that set up, open up command
+prompt.
+
+00:02:29.000 --> 00:02:31.330
+Find adb.exe.
+
+00:02:31.330 --> 00:02:35.340
+It will be where you installed the android
+sdk and in the subfolder here.
+
+00:02:35.340 --> 00:02:39.890
+Then type this command you see on the screen:
+As soon as you hit enter it silently starts
+
+00:02:39.890 --> 00:02:40.890
+recording.
+
+00:02:40.890 --> 00:02:43.050
+So perform the actions you want to record.
+
+00:02:43.050 --> 00:02:50.430
+And here are the results.
+
+00:02:50.430 --> 00:02:53.110
+So there are 3 things you can change in the
+command line.
+
+00:02:53.110 --> 00:02:56.410
+The bitrate, time limit, and filename.
+
+00:02:56.410 --> 00:03:00.040
+The bitrate, I'm not sure what the limit is,
+but higher the better.
+
+00:03:00.040 --> 00:03:03.850
+The downside obviously is that the higher
+the bitrate, the bigger the filesize.
+
+00:03:03.850 --> 00:03:09.160
+I've tried 24 megabits or 24000000 and it
+looked beautiful.
+
+00:03:09.160 --> 00:03:12.140
+You can probably even go higher if necessary.
+
+00:03:12.140 --> 00:03:17.660
+But keep in mind, this slows down the bitrate
+as well as you go up in bitrate.
+
+00:03:17.660 --> 00:03:21.680
+The time limit, you can specify up to 3 minutes
+or 180 seconds.
+
+00:03:21.680 --> 00:03:25.880
+For longer recordings, at the moment, you
+can only do it with paid apps that require
+
+00:03:25.880 --> 00:03:27.760
+your phone to be rooted.
+
+00:03:27.760 --> 00:03:31.730
+But I wouldn't be surprised to see unrooted
+apps doing this in the future as long as you
+
+00:03:31.730 --> 00:03:33.290
+are tethered to your computer.
+
+00:03:33.290 --> 00:03:35.050
+Last, the filename.
+
+00:03:35.050 --> 00:03:39.950
+From my tests, whenever you do a recording,
+always make sure you change the filename.
+
+00:03:39.950 --> 00:03:44.180
+If you start a recording and the filename
+exists, it seems to erase the file that you
+
+00:03:44.180 --> 00:03:47.740
+had before and the new recorded file never
+appears.
+
+00:03:47.740 --> 00:03:52.620
+So if you did video1.mp4, just change it to
+video2 and so on.
+
+00:03:52.620 --> 00:03:57.650
+Also, if you try to copy the file to your
+computer too quickly after it appears, especially
+
+00:03:57.650 --> 00:04:02.200
+if you're doing a high bitrate capture, the
+file seems to get corrupt.
+
+00:04:02.200 --> 00:04:06.280
+So after a screen recording, make sure you
+wait a few seconds before trying to copy the
+
+00:04:06.280 --> 00:04:07.930
+file over.
+
+00:04:07.930 --> 00:04:08.930
+One last thing.
+
+00:04:08.930 --> 00:04:10.400
+This feature does not record the audio.
+
+00:04:10.400 --> 00:04:16.290
+To record the audio, you can get one of these
+4-pole 3.5mm minjacks and route the audio
+
+00:04:16.290 --> 00:04:19.079
+channels to the appropriate channels.
+
+00:04:19.079 --> 00:04:23.280
+Samsung likes to switch these audio channels
+from the standard configuration, so you will
+
+00:04:23.280 --> 00:04:28.650
+need to try a combination of these to find
+which channel is for the right and left speakers.
+
+00:04:28.650 --> 00:04:33.170
+Then simply feed it into mic jack into your
+computer.
+
+00:04:33.170 --> 00:04:37.550
+So for some of you looking to do the highest
+quality screen recordings which is 1080p at
+
+00:04:37.550 --> 00:04:43.290
+near 60frames per second, this is the only
+way to do it, and it's free.
+
+00:04:43.290 --> 00:04:47.550
+For me, I am excited about using this feature
+to provide higher quality content for this
+
+00:04:47.550 --> 00:04:48.550
+channel.
+
+00:04:48.550 --> 00:04:53.200
+So anyway, that's the end of the first video
+of what's new on Android 4.4 for the Samsung
+
+00:04:53.200 --> 00:04:54.520
+Galaxy Note 3.
+
+00:04:54.520 --> 00:04:55.520
+Many more to come.
+
+00:04:55.520 --> 00:05:00.120
+Make sure you check out the other videos in
+this channel to subscribe for more upcoming
+
+00:05:00.120 --> 00:05:02.259
+videos. and as always, thank you for watching.
+

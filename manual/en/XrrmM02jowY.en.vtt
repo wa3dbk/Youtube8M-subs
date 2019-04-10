@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.956 --> 00:00:08.598
+If you recall, in the last movie, you created a series of controllers for the spine.
+
+00:00:09.205 --> 00:00:15.617
+To refresh your memory, the instructions were such that you were asked to freeze the transforms on the various shapes,
+
+00:00:15.836 --> 00:00:20.250
+and THEN you were asked to link the spine controllers to the main hip controller.
+
+00:00:20.813 --> 00:00:24.728
+This was done on purpose to demonstrate a potentially important problem.
+
+00:00:25.697 --> 00:00:30.878
+If you freeze transforms first, and then establish hierarchical links,
+
+00:00:30.910 --> 00:00:35.190
+you will encounter problems when you transform objects back to 0 again.
+
+00:00:35.933 --> 00:00:41.330
+Select the four blue spine controllers and Transform them back to 0.
+
+00:00:42.410 --> 00:00:50.003
+Notice how they jump up in Z, in fact by exactly double the distance the main hip controller is from the ground.
+
+00:00:50.565 --> 00:00:57.678
+This happens because of how the hierarchical linkage was evaluated, after the Freeze Transforms.
+
+00:00:58.819 --> 00:01:01.785
+Press Ctrl+Z to undo the operation.
+
+00:01:02.126 --> 00:01:07.381
+The trick then is to create the hierarchy first, and then Freeze the transforms.
+
+00:01:07.693 --> 00:01:13.126
+This way, when you transform back to 0, everything would work as expected.
+
+00:01:13.654 --> 00:01:17.772
+Unfortunately, you won't always remember to do that in the proper order.
+
+00:01:18.426 --> 00:01:23.949
+In some cases, as it is at this point, you can make the necessary corrections.
+
+00:01:24.240 --> 00:01:27.923
+This means that after ensuring the hierarchical links are in place, 
+
+00:01:28.343 --> 00:01:31.293
+you can freeze the transforms one more time.
+
+00:01:31.668 --> 00:01:37.532
+This ensures Freeze transforms is evaluated on an already-established hierarchy.
+
+00:01:40.580 --> 00:01:49.350
+Unfortunately, if you've already added wiring and expressions to the system, freezing transforms again will void all that hard work.
+
+00:01:49.963 --> 00:01:54.233
+In that case, you may want to consider Position Constraints.
+
+00:01:54.858 --> 00:01:57.263
+Let's simulate the problem one more time.
+
+00:01:57.651 --> 00:02:03.718
+With the four blue spine controllers selected, click the Unlink button on the main toolbar.
+
+00:02:06.183 --> 00:02:09.010
+Freeze the transforms again, 
+
+00:02:12.335 --> 00:02:17.035
+and then link the selection one more time to the main hip controller.
+
+00:02:22.115 --> 00:02:25.490
+Now we're back to square one with the problem shown earlier.
+
+00:02:25.973 --> 00:02:33.238
+Let's imagine you've already made a fair share of work on this and that you don't want to lose it by using Freeze Transforms again.
+
+00:02:33.585 --> 00:02:44.180
+In that case, unlink the selection and then use Position Constraint to constrain the selection to the main hip controller.
+
+00:02:45.593 --> 00:02:48.885
+This relocates some of the controllers, 
+
+00:02:50.220 --> 00:02:55.540
+you just have to select them individually and adjust their offset status in the Motion Panel.
+
+00:02:55.740 --> 00:03:02.130
+You certainly need to relocate the neck and head shapes, but the hip and spine base shapes are already in the right place.
+
+00:03:02.280 --> 00:03:06.950
+Mind you, it won't hurt to retain their original offsets either.
+
+00:03:09.270 --> 00:03:15.178
+If you test it out now and transform the controllers back to 0, 
+
+00:03:18.190 --> 00:03:21.180
+you'll notice that everything will work as expected.
+
+00:03:21.773 --> 00:03:25.080
+In the next movie, you start rigging the spine.
+

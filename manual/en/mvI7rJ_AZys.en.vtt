@@ -1,0 +1,591 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.810 --> 00:00:04.663
+Hi! I'm one of the 
+developers...
+
+00:00:04.715 --> 00:00:07.357
+behind the Apertus - Open 
+Source Cinema project.
+
+00:00:07.386 --> 00:00:09.516
+In these few videoclips, 
+I want to give you...
+
+00:00:09.574 --> 00:00:12.969
+a brief introduction of the most 
+important aspects of the project.
+
+00:00:13.194 --> 00:00:17.885
+First, what does Open Source Cinema on 
+Free Software/Open Hardware really mean.
+
+00:00:17.960 --> 00:00:21.243
+Before the Digital Cinema revolution 
+in the last couple of years...
+
+00:00:21.329 --> 00:00:25.294
+with the RED or cameras from 
+Arri and other companies...
+
+00:00:25.346 --> 00:00:29.144
+Directors of Photography had a clear 
+vision of what was going on...
+
+00:00:29.191 --> 00:00:31.091
+inside their 
+cinema camera.
+
+00:00:31.134 --> 00:00:33.459
+They had film and 
+mechanical parts...
+
+00:00:33.564 --> 00:00:37.304
+and they knew how to manipulate 
+parts of the camera...
+
+00:00:37.436 --> 00:00:39.591
+to achieve their 
+creative look...
+
+00:00:39.665 --> 00:00:42.086
+and what they wanted 
+to have on film.
+
+00:00:42.190 --> 00:00:44.520
+With the introduction 
+of digital cameras...
+
+00:00:44.570 --> 00:00:46.600
+that has changed 
+drastically.
+
+00:00:46.772 --> 00:00:50.400
+The camera turned 
+basically into black box...
+
+00:00:50.400 --> 00:00:53.320
+that had a few buttons and 
+ways to influence the image.
+
+00:00:53.320 --> 00:00:57.395
+In reality, the DOP had no idea of 
+what is going on inside the camera.
+
+00:00:57.440 --> 00:01:00.088
+With Apertus, we want to do 
+things completely different.
+
+00:01:00.220 --> 00:01:03.400
+We encourage Open Hardware development 
+as well as Free Software.
+
+00:01:03.680 --> 00:01:05.748
+We want to create 
+a tool, a camera...
+
+00:01:05.791 --> 00:01:07.772
+that we, as filmmakers, 
+love to use.
+
+00:01:07.820 --> 00:01:09.746
+With Free Software, the 
+entire source code...
+
+00:01:09.798 --> 00:01:11.178
+is published on 
+the Internet.
+
+00:01:11.249 --> 00:01:12.925
+It is freely available 
+to anyone.
+
+00:01:13.061 --> 00:01:15.798
+Even though not everyone in the 
+project is a software developer...
+
+00:01:15.825 --> 00:01:18.803
+any one benefits from the work 
+done by all contributors...
+
+00:01:18.864 --> 00:01:20.651
+forming a community.
+
+00:01:20.739 --> 00:01:22.775
+Now, let's take a 
+look at the camera.
+
+00:01:23.200 --> 00:01:26.032
+The core component is 
+manufactured by Elphel Inc.
+
+00:01:26.200 --> 00:01:28.915
+This is the main hardware 
+they produce.
+
+00:01:29.114 --> 00:01:32.277
+The key components 
+here are...
+
+00:01:32.746 --> 00:01:33.888
+the lens...
+
+00:01:33.923 --> 00:01:35.478
+the lens mount...
+
+00:01:35.555 --> 00:01:38.262
+It's a C-Mount with 
+a CS adapter ring.
+
+00:01:38.965 --> 00:01:43.769
+On the back of the camera, 
+we have a SATA port.
+
+00:01:43.974 --> 00:01:45.591
+This particular model 
+also has...
+
+00:01:45.599 --> 00:01:47.302
+ a built-in hard drive 
+in the enclosure...
+
+00:01:47.321 --> 00:01:49.163
+but this is optional.
+
+00:01:49.234 --> 00:01:50.496
+Ethernet...
+
+00:01:50.649 --> 00:01:52.232
+USB 1.0...
+
+00:01:52.738 --> 00:01:54.421
+And on the side 
+of this model...
+
+00:01:54.545 --> 00:01:56.866
+we have an additional 
+sync port...
+
+00:01:57.520 --> 00:01:59.841
+And a serial console 
+interface.
+
+00:02:00.375 --> 00:02:03.568
+The three main components 
+inside the camera are...
+
+00:02:03.749 --> 00:02:06.514
+the sensor front-end, where 
+the lens is mounted...
+
+00:02:06.599 --> 00:02:08.984
+it hosts the 
+image sensor.
+
+00:02:09.375 --> 00:02:11.314
+The image sensor 
+is connected...
+
+00:02:11.387 --> 00:02:13.755
+to the second PCB 
+inside this camera...
+
+00:02:13.780 --> 00:02:16.195
+which holds the other two 
+main components.
+
+00:02:16.455 --> 00:02:18.596
+The first one is the 
+so-called FPGA.
+
+00:02:18.664 --> 00:02:21.417
+It does the image processing 
+at high speeds.
+
+00:02:21.739 --> 00:02:24.442
+Then the third component 
+is an embedded CPU...
+
+00:02:24.639 --> 00:02:27.277
+with Linux Operating 
+System running on it.
+
+00:02:27.514 --> 00:02:30.499
+It deals with interfaces and 
+outside communication.
+
+00:02:31.180 --> 00:02:33.706
+Apertus now builds everything 
+around this core camera...
+
+00:02:33.780 --> 00:02:36.107
+to turn it into a full-featured 
+Digital Cinema camera.
+
+00:02:36.335 --> 00:02:38.221
+For example, we connect 
+the hard drive...
+
+00:02:38.236 --> 00:02:39.441
+it can also be an SSD...
+
+00:02:39.495 --> 00:02:41.678
+directly to the camera
+SATA port.
+
+00:02:41.980 --> 00:02:43.178
+We have a 
+battery pack...
+
+00:02:43.205 --> 00:02:45.609
+that powers both the
+camera and the hard drive.
+
+00:02:45.809 --> 00:02:48.403
+And over Ethernet, we have 
+a viewfinder computer...
+
+00:02:48.434 --> 00:02:50.993
+which can be any Desktop, 
+Laptop or, in this case...
+
+00:02:51.125 --> 00:02:53.159
+a Netbook with 
+touchscreen interface.
+
+00:02:53.250 --> 00:02:56.003
+It runs our custom 
+Viewfinder software...
+
+00:02:56.150 --> 00:02:59.450
+which can be used to control all 
+camera parameters in real-time...
+
+00:02:59.475 --> 00:03:02.475
+as well as view real-time 
+video feed from the camera.
+
+00:03:02.725 --> 00:03:04.839
+In the future, we also 
+want to support...
+
+00:03:04.900 --> 00:03:08.349
+an Android version, which can 
+run on your favorite tablet.
+
+00:03:11.319 --> 00:03:13.560
+This is the Apertus Viewfinder 
+software we developed.
+
+00:03:13.735 --> 00:03:16.097
+I want to give you a quick run 
+down of the main features...
+
+00:03:16.135 --> 00:03:18.043
+and show you 
+some dialogs.
+
+00:03:18.295 --> 00:03:20.733
+In the middle of the 
+main dialog we use...
+
+00:03:20.820 --> 00:03:23.258
+we have live video feed 
+from the camera.
+
+00:03:23.420 --> 00:03:24.931
+It's real-time.
+
+00:03:25.120 --> 00:03:27.157
+We have an information 
+area on top...
+
+00:03:27.239 --> 00:03:29.753
+that shows us the resolution 
+we're recording...
+
+00:03:29.867 --> 00:03:32.381
+the frame rate, 
+white balance...
+
+00:03:32.534 --> 00:03:33.740
+compression ratio...
+
+00:03:33.766 --> 00:03:36.168
+how much free space our 
+hard drive still has...
+
+00:03:36.234 --> 00:03:38.455
+and the status 
+of the camera.
+
+00:03:38.596 --> 00:03:41.269
+Currently, at stand-by, 
+not recording.
+
+00:03:41.508 --> 00:03:43.633
+On the left side...
+
+00:03:43.658 --> 00:03:48.040
+we can alter the settings marked 
+on the lower bottom side.
+
+00:03:48.387 --> 00:03:52.027
+For example, I can now 
+alter the electronic shutter.
+
+00:03:53.459 --> 00:03:56.296
+I'm increasing 
+the shutter time.
+
+00:03:56.445 --> 00:03:57.742
+The image 
+gets darker.
+
+00:03:57.864 --> 00:04:01.894
+I can increase the 
+gain to 6 dB...
+
+00:04:01.977 --> 00:04:03.485
+and it will be 
+bright again.
+
+00:04:03.530 --> 00:04:05.886
+Also introducing more 
+noise, of course.
+
+00:04:06.379 --> 00:04:09.241
+Down here, we have 
+a live histogram.
+
+00:04:09.285 --> 00:04:12.701
+The Playback button can be 
+used to view video files...
+
+00:04:12.817 --> 00:04:14.815
+that are already 
+on the hard drive.
+
+00:04:14.927 --> 00:04:18.364
+Here I can record a still image 
+or start a recording.
+
+00:04:18.757 --> 00:04:21.346
+On the right side, we have 
+the so-called 'quick menu'...
+
+00:04:21.433 --> 00:04:24.083
+for features that are 
+hidden in the menu.
+
+00:04:24.180 --> 00:04:27.885
+For example, I can scale the 
+video in the middle here...
+
+00:04:27.944 --> 00:04:29.721
+for advanced 
+focus pulling.
+
+00:04:29.879 --> 00:04:32.707
+ I can zoom to one-to-one 
+pixel mapping...
+
+00:04:32.934 --> 00:04:35.565
+or to the image fitting into 
+the screen size here.
+
+00:04:35.737 --> 00:04:37.889
+I have a datarate 
+indicator...
+
+00:04:37.995 --> 00:04:40.147
+and you can switch 
+color modes...
+
+00:04:40.165 --> 00:04:42.636
+to RAW-mode, which 
+I'll explain later.
+
+00:04:42.681 --> 00:04:45.231
+And for stereo 3D 
+rigs, we can also...
+
+00:04:45.360 --> 00:04:48.001
+switch between 
+left and right eye.
+
+00:04:48.282 --> 00:04:50.948
+Now, let's take a look 
+at the main menu.
+
+00:04:51.083 --> 00:04:53.370
+We can select 
+resolution...
+
+00:04:53.386 --> 00:04:54.854
+appropriate frame rate...
+
+00:04:54.978 --> 00:04:56.993
+Both have the 'Custom' 
+button as well...
+
+00:04:57.079 --> 00:04:59.395
+where we can set 
+advanced features...
+
+00:04:59.603 --> 00:05:02.875
+like mirroring the image 
+or shooting rotated...
+
+00:05:02.924 --> 00:05:04.160
+in portrait-mode.
+
+00:05:04.360 --> 00:05:07.558
+We can type any custom 
+resolution we want...
+
+00:05:07.681 --> 00:05:09.089
+with this touchpad here.
+
+00:05:09.166 --> 00:05:11.162
+On the second 
+settings dialog...
+
+00:05:11.203 --> 00:05:14.058
+we can adjust Gamma 
+and Black level.
+
+00:05:14.253 --> 00:05:16.877
+we also have a 
+real-time video here.
+
+00:05:17.574 --> 00:05:20.223
+There's a bunch of stuff 
+that's not implemented yet.
+
+00:05:20.363 --> 00:05:22.067
+This is just a place-holder 
+for now.
+
+00:05:22.159 --> 00:05:24.704
+Now shooting in color 
+mode is, of course...
+
+00:05:24.727 --> 00:05:27.272
+very convenient as you can 
+see a real-time image here.
+
+00:05:27.479 --> 00:05:29.917
+And it's basically what 
+you get in post as well.
+
+00:05:30.092 --> 00:05:33.408
+A much higher quality is 
+possible if shooting RAW.
+
+00:05:33.529 --> 00:05:38.023
+The RAW mode here is 
+called JP46, or just JP4.
+
+00:05:38.073 --> 00:05:39.848
+These are actually two 
+different modes.
+
+00:05:40.021 --> 00:05:42.736
+But what you see when I 
+switch the modes here...
+
+00:05:42.808 --> 00:05:45.568
+is that I lose part of my 
+real-time preview.
+
+00:05:45.642 --> 00:05:47.701
+It turns into a black-and-
+white image...
+
+00:05:47.880 --> 00:05:49.556
+that is somehow 
+distorted.
+
+00:05:49.740 --> 00:05:51.818
+This is how it is 
+actually recorded.
+
+00:05:51.876 --> 00:05:53.590
+So you get more 
+information that way...
+
+00:05:53.647 --> 00:05:55.759
+but you lose the ability 
+to view the video.
+
+00:05:55.932 --> 00:05:58.969
+Currently, we don't have any 
+software that can demosaic...
+
+00:05:58.987 --> 00:06:02.281
+this RAW image in real-time, so 
+you can also view it in color.
+
+00:06:02.434 --> 00:06:04.126
+That is planned 
+for the future.
+
+00:06:04.216 --> 00:06:06.643
+And the second, 
+the JP4 RAW mode...
+
+00:06:06.696 --> 00:06:08.667
+has an additional 
+advantage...
+
+00:06:08.866 --> 00:06:12.346
+since certain image processing steps 
+inside the camera are skipped.
+
+00:06:12.438 --> 00:06:15.627
+Therefore it allows even higher 
+quality at lower datarate.
+
+00:06:15.760 --> 00:06:18.110
+But, in this case,
+if we press it...
+
+00:06:18.195 --> 00:06:21.226
+we don't get any real-time 
+preview any more at all.
+
+00:06:21.351 --> 00:06:22.978
+it's not even 
+black-and-white.
+
+00:06:23.000 --> 00:06:25.463
+Also, the software that 
+is able to display...
+
+00:06:25.613 --> 00:06:28.027
+this mode in real-time is 
+not developed yet.
+
+00:06:28.259 --> 00:06:30.041
+With my Apertus 
+prototype here...
+
+00:06:30.163 --> 00:06:32.384
+you see that some features 
+are already implemented...
+
+00:06:32.564 --> 00:06:35.228
+some are still missing and I'm sure 
+there are bugs somewhere.
+
+00:06:35.398 --> 00:06:37.350
+But I hope I was able to 
+give you a preview...
+
+00:06:37.468 --> 00:06:38.861
+of what could be 
+possible in the future.
+

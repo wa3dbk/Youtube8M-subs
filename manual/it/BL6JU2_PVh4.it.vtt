@@ -1,0 +1,220 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:06.000
+Salve a tutti! In questo breve tutorial di base vedremo come modellare una punta da trapano 
+
+00:00:06.000 --> 00:00:12.000
+in Blender 3D utilizzando il modificatore Screw e lo strumento Bridge&amp;Loft. 
+
+00:00:12.000 --> 00:00:18.000
+Il tutorial è stato realizzato con la versione 2.68 di Blender 3D.
+
+00:00:18.000 --> 00:00:26.000
+Prima di iniziare, pianifichiamo le operazioni: inizieremo modellando la sezione della punta da trapano; 
+
+00:00:26.000 --> 00:00:32.000
+dopo, mediante Screw otterremo l'estrusione con rotazione – creando quindi la mesh della punta 
+
+00:00:32.000 --> 00:00:37.000
+vera e propria – e infine ci occuperemo della parte cilindrica e della punta, 
+
+00:00:37.000 --> 00:00:44.000
+nel primo caso mediante Bridge&amp;Loft e nel secondo con dei semplici scaling.
+
+00:00:44.000 --> 00:00:51.000
+Iniziamo, in una vista TOP ORTHO, con la definizione del profilo, inserendo un Bezier Circle, 
+
+00:00:51.000 --> 00:00:58.000
+che è un oggetto di tipo Curve con 4 punti di controllo, come si può verificare andando in Edit Mode: 
+
+00:00:58.000 --> 00:01:05.000
+4 punti di controllo ciascuno con 2 maniglie, per definire l'interpolazione tra i punti.
+
+00:01:05.000 --> 00:01:10.000
+Qui non seguirò dei progetti tecnici precisi, tuttavia se li avete potete utilizzarli 
+
+00:01:10.000 --> 00:01:16.000
+come Background Image e modellare il Bezier Circle ricalcando l'immagine.
+
+00:01:16.000 --> 00:01:21.000
+Nel mio caso, sto selezionando solo le due coppie di maniglie dei due punti di controllo superiore 
+
+00:01:21.000 --> 00:01:31.000
+e inferiore (attenzione: seleziono solo le maniglie, non i punti di controllo) e, mediante S X e il mouse, 
+
+00:01:31.000 --> 00:01:38.000
+li sto allontanando: in pratica, con S entro in modalità scaling, mentre con X vincolo lo scaling 
+
+00:01:38.000 --> 00:01:44.000
+al solo asse orizzontale della scena che, nel mio caso, è il verso orizzontale, 
+
+00:01:44.000 --> 00:01:50.000
+per cui l'effetto finale è di scalare la selezione orizzontalmente, allontanando i punti.
+
+00:01:50.000 --> 00:01:55.000
+Con lo stesso principio, ma scalando verso l'interno (e, quindi, avvicinandoli), 
+
+00:01:55.000 --> 00:02:02.000
+seleziono questa volta sia i punti di controllo che le maniglie al centro e, con S X e il mouse, 
+
+00:02:02.000 --> 00:02:09.000
+li avvicino, ottenendo la figura visibile a video.
+
+00:02:09.000 --> 00:02:16.000
+A questo punto torno in modalità oggetto e, nella scheda Modifiers, all'interno del pannello 
+
+00:02:16.000 --> 00:02:24.000
+Properties Window, seleziono un modificatore Screw, letteralmente “avvita”, appunto.
+
+00:02:24.000 --> 00:02:28.000
+Il risultato iniziale è deludente (è una specie di cerchio), ma solo perché l'avvitamento 
+
+00:02:28.000 --> 00:02:35.000
+è stato eseguito senza profondità: aumentiamo il valore del campo “Screw” e...
+
+00:02:35.000 --> 00:02:41.000
+… ecco la forma che volevamo! Variamo quindi questo parametro a piacere, sistemando 
+
+00:02:41.000 --> 00:02:48.000
+la qualità con Steps e il numero di ripetizioni con Iterations.
+
+00:02:48.000 --> 00:02:53.000
+Definita questa porzione di mesh siamo già a metà dell'opera: dobbiamo sistemare la punta 
+
+00:02:53.000 --> 00:02:59.000
+e la parte cilindrica... prima, però, dobbiamo applicare il modificatore per ottenere la mesh.
+
+00:02:59.000 --> 00:03:06.000
+Non è possibile applicare Screw ad un oggetto di tipo Curve, come il Bezier Circle, per cui 
+
+00:03:06.000 --> 00:03:13.000
+– con l'oggetto selezionato in Object Mode – premiamo ALT C e scegliamo “Mesh from Curve”.
+
+00:03:13.000 --> 00:03:20.000
+Adesso andiamo in Edit Mode e selezioniamo l'anello superiore di spigoli (Edge Loop) 
+
+00:03:20.000 --> 00:03:24.000
+con ALT e Click destro su uno spigolo.
+
+00:03:24.000 --> 00:03:30.000
+L'idea è quella di scalare la selezione a 0, facendola finire in un punto, ma per applicare
+
+00:03:30.000 --> 00:03:36.000
+l'effetto anche a un paio di Edge Loop successivi attiviamo, nell'header della 3D View,
+
+00:03:36.000 --> 00:03:41.000
+il Proportional Editing, che andrà regolato con la rotellina del mouse (per visualizzare meglio 
+
+00:03:41.000 --> 00:03:48.000
+i risultati conviene andare in una vista frontale o laterale in modalità ORTHO).
+
+00:03:48.000 --> 00:03:56.000
+Con l'anello superiore selezionato e il Proportional Editing attivo, quindi, premiamo S 0,
+
+00:03:56.000 --> 00:04:01.000
+ma prima di premere Invio per confermare ruotiamo la rotellina del mouse in modo da includere, 
+
+00:04:01.000 --> 00:04:05.000
+in maniera proporzionale, anche altri Edge Loop.
+
+00:04:05.000 --> 00:04:11.000
+Quando il risultato ci convince, premiamo Invio per confermare.
+
+00:04:11.000 --> 00:04:17.000
+Disattiviamo il Proportional Editing, nell'header della finestra.
+
+00:04:17.000 --> 00:04:23.000
+In realtà, la punta così ottenuta non è proprio “chiusa” e questo potrebbe essere un problema 
+
+00:04:23.000 --> 00:04:29.000
+per la gestione delle geometrie da parte di Blender; selezioniamo quindi i vertici che la compongono
+
+00:04:29.000 --> 00:04:35.000
+(semplicemente, con B per la selezione rettangolare), premiamo W e, dal menù Specials 
+
+00:04:35.000 --> 00:04:40.000
+che apparirà a video, selezioniamo Merge – At Center.
+
+00:04:40.000 --> 00:04:43.000
+Passiamo ora alla base inferiore.
+
+00:04:43.000 --> 00:04:49.000
+Per passare dalla forma della punta di trapano a un cerchio (sezione della base cilindrica), 
+
+00:04:49.000 --> 00:04:54.000
+useremo lo strumento Bridge che prende due anelli di spigoli (Edge Loop) 
+
+00:04:54.000 --> 00:04:59.000
+con lo stesso numero di vertici ed effettua le connessioni.
+
+00:04:59.000 --> 00:05:06.000
+In Edit Mode, quindi, selezioniamo l'Edge Loop della base con ALT e click destro su uno spigolo, 
+
+00:05:06.000 --> 00:05:14.000
+e vediamo, in alto nella finestra di Blender, alla voce “Verts”, quanti sono i vertici.
+
+00:05:14.000 --> 00:05:21.000
+Sempre in Edit Mode, aggiungiamo una Mesh Circle, che farà quindi parte dell'oggetto originale,
+
+00:05:21.000 --> 00:05:27.000
+impostando lo stesso numero di vertici dell'Edge Loop, digitando questo valore nella Tool Shelf, 
+
+00:05:27.000 --> 00:05:32.000
+in basso a sinistra, quando si aggiunge la mesh.
+
+00:05:32.000 --> 00:05:38.000
+Scaliamo questo cerchio per dargli il giusto diametro e posizioniamolo sotto l'Edge Loop; 
+
+00:05:38.000 --> 00:05:44.000
+selezioniamo anche questo elemento (con una selezione multipla, da fare con SHIFT e ALT 
+
+00:05:44.000 --> 00:05:49.000
+e click destro), quindi premiamo la barra spazio, digitiamo Bridge e selezioniamo 
+
+00:05:49.000 --> 00:05:55.000
+lo strumento Bridge Edge Loops, per effettuare il collegamento: fatto!
+
+00:05:55.000 --> 00:06:01.000
+Il risultato potrebbe essere deludente, per un semplice motivo: le connessioni tendono 
+
+00:06:01.000 --> 00:06:07.000
+a essere verticali, dritte, ignorando la curvatura della punta... per risolvere il problema, 
+
+00:06:07.000 --> 00:06:19.000
+selezioniamo l'Edge Loop circolare alla base e ruotiamolo un po' intorno all'asse verticale, con R Z.
+
+00:06:19.000 --> 00:06:28.000
+Al termine, possiamo estruderlo verso il basso per ottenere la parte cilindrica della punta da trapano.
+
+00:06:28.000 --> 00:06:34.000
+Per concludere, mancano tre piccoli passi: chiudere la base, ricalcolare le normali 
+
+00:06:34.000 --> 00:06:38.000
+e applicare l'ombreggiatura Smooth.
+
+00:06:38.000 --> 00:06:46.000
+Per chiudere la base, selezioniamo l'Edge Loop che la compone e premiamo F (per Fill, riempi).
+
+00:06:46.000 --> 00:06:51.000
+Per ricalcolare le normali, in Edit Mode selezioniamo tutto con A 
+
+00:06:51.000 --> 00:06:57.000
+e clicchiamo su Recalculate, nella Tool Shelf.
+
+00:06:57.000 --> 00:07:04.000
+Per applicare l'ombreggiatura Smooth, torniamo in Object Mode e, nella Tool Shelf, 
+
+00:07:04.000 --> 00:07:07.000
+clicchiamo su Shading Smooth.
+
+00:07:07.000 --> 00:07:12.000
+Se volete, potete applicare altri modificatori, come Subdivision Surface, 
+
+00:07:12.000 --> 00:07:18.000
+per “addolcire” ancora di più le forme, ma non dovrebbe essere necessario...
+
+00:07:18.000 --> 00:07:27.000
+Bene, per questo breve ma – spero! - utile tutorial, è tutto! A presto!
+

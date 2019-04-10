@@ -1,0 +1,190 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.202
+Hello guys, my name is eXtremhightech
+
+00:00:02.224 --> 00:00:03.854
+and today I am going to tell you
+
+00:00:03.854 --> 00:00:06.774
+how to flash the new CWM recovery.
+
+00:00:06.776 --> 00:00:14.200
+You, of course, need to watch my root tutorial video in order to fully use and understand this video.
+
+00:00:14.200 --> 00:00:17.810
+First, before we are going to install the new recovery, I am going to
+
+00:00:17.810 --> 00:00:21.527
+answer the question why you would need a new recovery.
+
+00:00:21.592 --> 00:00:24.821
+So basically if you open up the recovery you can see here:
+
+00:00:24.855 --> 00:00:27.701
+The recovery is dancing like on a danceparty.
+
+00:00:27.701 --> 00:00:30.729
+But if you see in comparison
+
+00:00:30.729 --> 00:00:35.110
+The new CWM Recovery you immediately notice
+
+00:00:35.110 --> 00:00:37.342
+that this recovery is much more user friendly
+
+00:00:37.342 --> 00:00:41.131
+and much better to use if you are debugging things
+
+00:00:41.131 --> 00:00:44.368
+and it also looks better.
+
+00:00:44.368 --> 00:00:48.261
+So I am going to tell you now how to install the new Recovery
+
+00:00:48.261 --> 00:00:52.328
+because this recovery is much better and it is
+
+00:00:52.328 --> 00:00:54.566
+really easy to accomplish.
+
+00:00:54.936 --> 00:01:00.283
+In order to do this we first have to boot the phone into the bootloader.
+
+00:01:00.292 --> 00:01:01.666
+So here we are in the Bootloader:
+
+00:01:01.666 --> 00:01:05.328
+From the Bootloader we have to select the Fastboot Mode
+
+00:01:05.328 --> 00:01:06.071
+using the power button.
+
+00:01:07.239 --> 00:01:10.936
+And after that we have to connect our phone to the PC.
+
+00:01:10.936 --> 00:01:14.041
+Now we need to do the next steps on the PC.
+
+00:01:14.041 --> 00:01:18.149
+Before we can flash the recovery we have to download it.
+
+00:01:18.152 --> 00:01:22.742
+Just simple click the link that I provide in the video description
+
+00:01:22.756 --> 00:01:25.020
+and there you will find the download link
+
+00:01:25.025 --> 00:01:28.384
+to the new CWM philz image.
+
+00:01:28.384 --> 00:01:33.066
+In Dropbox you just hit "Download", save the file
+
+00:01:33.069 --> 00:01:35.974
+and after that copy it to your fastboot-win folder.
+
+00:01:35.974 --> 00:01:42.386
+After you copied it you should have a file called
+
+00:01:42.386 --> 00:01:44.507
+"recovery_cwm.img" in this folder.
+
+00:01:44.512 --> 00:01:47.759
+Now run the run.bat in the folder.
+
+00:01:47.759 --> 00:01:50.696
+The usual "recovery.img" over here is your
+
+00:01:50.696 --> 00:01:53.037
+"dancing" CWM Recovery.
+
+00:01:53.038 --> 00:01:55.546
+What you have to do here is to run everything,
+
+00:01:55.546 --> 00:01:58.592
+Let's check if our device is being recognized
+
+00:01:58.592 --> 00:02:00.063
+so type "fastboot devices"
+
+00:02:00.063 --> 00:02:03.236
+Yeah, it detects one device in fastboot mode,
+
+00:02:03.236 --> 00:02:05.155
+that's our device, that's good.
+
+00:02:05.155 --> 00:02:08.458
+Now we need to flash the Recovery.
+
+00:02:08.458 --> 00:02:10.639
+We do this by entering:
+
+00:02:10.653 --> 00:02:21.803
+"fastboot flash recovery recovery_cwm.img"
+
+00:02:21.803 --> 00:02:24.740
+You can use the auto-complete feature here too.
+
+00:02:24.740 --> 00:02:35.729
+Just press "TAB" to auto-complete.
+
+00:02:35.729 --> 00:02:39.713
+After you did that just hit "ENTER" and it is sending the file
+
+00:02:39.713 --> 00:02:41.471
+and it is writing it.
+
+00:02:41.471 --> 00:02:46.017
+Now you are done on the PC and now let's take a look at the result:
+
+00:02:46.017 --> 00:02:50.121
+So, we now here get back to the bootloader and after that
+
+00:02:50.124 --> 00:02:57.605
+go into the Recovery and wait for it to load.
+
+00:02:57.605 --> 00:03:03.543
+Then we can instantly see the improved recovery.
+
+00:03:03.543 --> 00:03:07.332
+Let's wait for it...
+
+00:03:07.334 --> 00:03:10.632
+Yeah, and you see now, there is no dancing anymore.
+
+00:03:10.664 --> 00:03:19.200
+Everything is good.
+
+00:03:19.200 --> 00:03:22.230
+So I would recommend you to install this recovery
+
+00:03:22.230 --> 00:03:25.087
+because it is really cool that it is not dancing
+
+00:03:25.089 --> 00:03:33.983
+and you can keep better track of what is currently happening.
+
+00:03:33.983 --> 00:03:38.562
+So, that was just my quick video on how to install the new recovery.
+
+00:03:38.562 --> 00:03:40.661
+I think that this is really really useful
+
+00:03:40.661 --> 00:03:44.604
+and I think that this version of the Recovery
+
+00:03:44.604 --> 00:03:48.690
+was really necessary to make, so thank you for
+
+00:03:48.691 --> 00:03:52.398
+making this recovery and I hope that you guys
+
+00:03:52.398 --> 00:03:54.878
+enyojed my video (and subtitles :P ) and thanks for watching.
+
+00:03:54.878 --> 00:03:55.435
+Subtitles by eXtremehightech
+

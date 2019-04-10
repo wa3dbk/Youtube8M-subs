@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.000 --> 00:00:17.000
+The fundamental matrix
+
+00:00:18.000 --> 00:00:22.000
+Used in stereo geometry
+
+00:00:22.000 --> 00:00:25.000
+A matrix with nine entries
+
+00:00:25.000 --> 00:00:28.000
+It's square with size 3 by 3
+
+00:00:28.000 --> 00:00:31.000
+Has seven degrees of freedom
+
+00:00:32.000 --> 00:00:35.000
+It has a rank deficiency
+
+00:00:35.000 --> 00:00:38.000
+It's only of rank two
+
+00:00:39.000 --> 00:00:42.000
+Call the matrix F and you'll see...
+
+00:00:43.000 --> 00:00:46.000
+Two points that correspond
+
+00:00:46.000 --> 00:00:50.000
+Column vectors called x and x-prime
+
+00:00:50.000 --> 00:00:53.000
+x-prime transpose times F times x
+
+00:00:53.000 --> 00:00:58.000
+Equals zero every time
+
+00:00:58.000 --> 00:01:01.000
+The epipolar constraint
+
+00:01:01.000 --> 00:01:04.000
+Involves epipolar lines
+
+00:01:04.000 --> 00:01:08.000
+Postmultiplying F by x
+
+00:01:08.000 --> 00:01:11.000
+Results in vector l-prime
+
+00:01:11.000 --> 00:01:15.000
+It's the epipolar line
+
+00:01:15.000 --> 00:01:18.000
+In the other view passing through x-prime
+
+00:01:18.000 --> 00:01:22.000
+A three component vector
+
+00:01:22.000 --> 00:01:26.000
+Of homogeneous design
+
+00:01:26.000 --> 00:01:30.000
+The left and right nullspaces of F
+
+00:01:30.000 --> 00:01:33.000
+Are the epipoles e-prime and e
+
+00:01:33.000 --> 00:01:37.000
+All of the epipolar lines
+
+00:01:37.000 --> 00:01:40.000
+Should pass through these
+
+00:01:40.000 --> 00:01:42.000
+Here's a linear estimation example:
+
+00:01:42.000 --> 00:01:44.000
+Take a set of 8 point samples
+
+00:01:44.000 --> 00:01:46.000
+Construct a matrix, take the SVD
+
+00:01:46.000 --> 00:01:49.000
+And the elements of F are in the last column of V
+
+00:02:24.000 --> 00:02:28.000
+If you try to estimate
+
+00:02:28.000 --> 00:02:31.000
+F with a coplanar set of points
+
+00:02:31.000 --> 00:02:35.000
+Your sample set will be degenerate
+
+00:02:35.000 --> 00:02:38.000
+And will not bring you joy
+
+00:02:39.000 --> 00:02:43.000
+When doing the estimation, if you don't perform rank deprivation
+
+00:02:43.000 --> 00:02:46.000
+Your epipolar lines and the epipoles will not coincide
+
+00:02:47.000 --> 00:02:49.000
+But if your scene has three views
+
+00:02:49.000 --> 00:02:53.000
+The trifocal tensor is what you'd use
+
+00:02:53.000 --> 00:02:56.000
+Constraints from the third view act like glue
+
+00:02:56.000 --> 00:03:01.000
+That can't be determined from just two views
+

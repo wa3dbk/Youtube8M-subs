@@ -1,0 +1,304 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:00.359 --> 00:00:04.690
+Hello everyone and welcome to this week game
+development log video diary! And this week
+
+00:00:04.690 --> 00:00:08.800
+I have a huge amount to show you such as the
+improved animation system,
+
+00:00:08.800 --> 00:00:13.969
+new features in the world editor and loads
+of new models.
+
+00:00:13.969 --> 00:00:18.270
+So we'll start off with the animation system
+which I've been redoing this week in preparation
+
+00:00:18.270 --> 00:00:22.510
+for the big upcoming combat system update.
+Unfortunately I haven't
+
+00:00:22.510 --> 00:00:27.890
+changed any of the actual animations, so they're
+still as bad as ever, but I do now have a
+
+00:00:27.890 --> 00:00:33.070
+few more features to the animation system.
+Firstly, in the old system the player could
+
+00:00:33.070 --> 00:00:38.280
+only do one animation at once, so it could
+do a running animation, or it could do an
+
+00:00:38.280 --> 00:00:43.320
+attack animation, but it
+couldn't do both at once. So this week I changed
+
+00:00:43.320 --> 00:00:48.190
+the system so that there are now 2 different
+types of animations, movement animations like
+
+00:00:48.190 --> 00:00:52.760
+running, walking,
+jumping, turning, etc. and action animations
+
+00:00:52.760 --> 00:00:58.130
+which are basically everything else. At any
+time the player can now carry out one movement
+
+00:00:58.130 --> 00:01:02.969
+animation and also one action
+animation. You can still do movement animations
+
+00:01:02.969 --> 00:01:07.290
+on their own, and you can still do action
+animations on their own, but you can also
+
+00:01:07.290 --> 00:01:11.470
+now do them at the same
+time, meaning that the player can move and
+
+00:01:11.470 --> 00:01:14.580
+attack all at once.
+
+00:01:14.580 --> 00:01:18.470
+As well as that I also wanted to add a feature
+that would allow any bone in the model to
+
+00:01:18.470 --> 00:01:22.540
+have an extra rotation added to it, so that
+I could program any bone
+
+00:01:22.540 --> 00:01:27.710
+to face in any direction if necessary. And
+that's what I've done here, allowing me to
+
+00:01:27.710 --> 00:01:30.939
+control the top half of the player's body
+with the mouse, no
+
+00:01:30.939 --> 00:01:33.490
+matter what animation it is doing.
+
+00:01:33.490 --> 00:01:38.390
+Finally, I also realized that my current movement
+system wouldn't work very well in combat,
+
+00:01:38.390 --> 00:01:41.900
+because rotating the player with the A and
+D key's made it very hard
+
+00:01:41.900 --> 00:01:47.939
+to aim accurately at anything. So I programmed
+a new movement system which now uses the mouse
+
+00:01:47.939 --> 00:01:51.910
+to control the player's rotation , giving
+you much more control over
+
+00:01:51.910 --> 00:01:57.259
+your aim. You still move the player forwards
+and backwards with the W and S keys, but you
+
+00:01:57.259 --> 00:02:02.729
+can also now strafe using the A and D keys.
+And this is where that feature
+
+00:02:02.729 --> 00:02:07.259
+that I was just talking about comes into use,
+because it allowed me to rotate the player's
+
+00:02:07.259 --> 00:02:11.550
+upper body to always face forward, despite
+the lower body facing in a
+
+00:02:11.550 --> 00:02:12.640
+different direction.
+
+00:02:12.640 --> 00:02:18.720
+Away from the animation system I also added
+some new features to the world editor. Firstly,
+
+00:02:18.720 --> 00:02:22.060
+you'll see that I've implemented different
+categories in the entity's
+
+00:02:22.060 --> 00:02:27.680
+tab, making it much easier to find the entity
+that you want to place. Secondly, I also made
+
+00:02:27.680 --> 00:02:31.360
+it possible to now place mobs in the world,
+just like you would place any
+
+00:02:31.360 --> 00:02:36.290
+normal entities. This generates a text file
+with information about the mobs which I can
+
+00:02:36.290 --> 00:02:40.110
+then give to the server to read, and therefore
+it allows the server to spawn
+
+00:02:40.110 --> 00:02:43.370
+mobs in the chosen locations.
+
+00:02:43.370 --> 00:02:48.209
+As well as that entities now have a y position
+slider allowing you to change their height
+
+00:02:48.209 --> 00:02:51.510
+in the world, there's also a plane placement
+option which allows you
+
+00:02:51.510 --> 00:02:55.310
+to choose a height for all entities to be
+placed on, instead of them being automatically
+
+00:02:55.310 --> 00:03:00.810
+being placed on the terrain, and finally there's
+a randomize rotation option
+
+00:03:00.810 --> 00:03:04.790
+which is good for when you're placing plants
+and trees and you don't want to have to manually
+
+00:03:04.790 --> 00:03:07.520
+rotate each one.
+
+00:03:07.520 --> 00:03:11.540
+Back in the game, there are a huge number
+of new models that you guys have been making
+
+00:03:11.540 --> 00:03:15.030
+over the holidays, and I've been putting as
+many of them as possible into
+
+00:03:15.030 --> 00:03:19.110
+the world. So I'm just going to take you on
+a quick tour around the world to show off
+
+00:03:19.110 --> 00:03:23.710
+some of these new amazing models. Also, while
+my player makes his way over to
+
+00:03:23.710 --> 00:03:28.480
+the town, I've started up a new album on my
+Facebook page which is eventually going to
+
+00:03:28.480 --> 00:03:32.030
+contain pictures of all the models that you
+guys have been making once
+
+00:03:32.030 --> 00:03:36.020
+they're added to them game. So if you want
+to have a look at what everyone has been creating
+
+00:03:36.020 --> 00:03:39.490
+then do follow the link in the description,
+and if you want to get
+
+00:03:39.490 --> 00:03:44.040
+involved yourself then send me an email and
+I'll give you links to the dev kit and any
+
+00:03:44.040 --> 00:03:46.220
+other resources that you'll need.
+
+00:03:46.220 --> 00:03:50.650
+So here we are arriving at the town, we just
+went through the new entrance and you'll have
+
+00:03:50.650 --> 00:03:53.280
+also seen that there are now some stone walls
+going all the way
+
+00:03:53.280 --> 00:03:58.480
+around the town, and they've all been added
+in since last time. In the town itself we've
+
+00:03:58.480 --> 00:04:02.620
+got some very nice looking house models, I
+think there are 3 new ones
+
+00:04:02.620 --> 00:04:07.900
+in total and I'm slowly replacing all the
+old houses with these much better looking
+
+00:04:07.900 --> 00:04:11.540
+ones. Here on the right you can see a new
+market stall that looks like it's
+
+00:04:11.540 --> 00:04:16.269
+selling some pots and stuff. If we go past
+these old house models on the right you'll
+
+00:04:16.269 --> 00:04:21.349
+be able to see the watchtower that was added
+this week, and coming up on the left there
+
+00:04:21.349 --> 00:04:26.159
+are also a couple of new models, like that
+new lamp model there and that darker market
+
+00:04:26.159 --> 00:04:32.449
+stall. I updated the texture for the leaves
+on these trees on the right here, so that
+
+00:04:32.449 --> 00:04:36.770
+they look slightly more realistic than they
+did. A couple of new ferns on the left which
+
+00:04:36.770 --> 00:04:41.439
+you'll recognize from the tutorial series.
+That's a new lamp that we just went past,
+
+00:04:41.439 --> 00:04:47.949
+the one with the fire. We're just going to
+take a left here past the church, past that
+
+00:04:47.949 --> 00:04:52.210
+new bench, down there, which was also added
+in this week, and I think if we follow this
+
+00:04:52.210 --> 00:04:57.580
+pathway up to the top it should lead us straight
+back to the town center, just in time for
+
+00:04:57.580 --> 00:04:59.889
+the sunset!
+
+00:04:59.889 --> 00:05:04.969
+But that is it for this week, next week I'll
+be finishing my work on the animation system
+
+00:05:04.969 --> 00:05:09.800
+and I'll also be releasing the updated dev
+kit with animation support, so do let me know
+
+00:05:09.800 --> 00:05:14.550
+if you're interested in making some animations
+for the game. After that I'll be starting
+
+00:05:14.550 --> 00:05:18.580
+work on an improved weapons and armor system
+before moving on to the
+
+00:05:18.580 --> 00:05:24.050
+combat system itself, but yeah thank you guys
+very much for watching this video, thanks
+
+00:05:24.050 --> 00:05:28.479
+to everyone involved with making content for
+the game, names are in the description below,
+
+00:05:28.479 --> 00:05:33.979
+do subscribe if you haven't already, have
+a fantastic week, and I will see you all,
+
+00:05:33.979 --> 00:05:34.559
+next time!
+

@@ -1,0 +1,211 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.460
+♪♪♪
+
+00:00:05.460 --> 00:00:08.790
+(Wes Bunn) Hello everyone and welcome. My name is Wes Bunn and I am a Technical Writer
+
+00:00:08.790 --> 00:00:12.700
+here at Epic Games. Over the next several videos, we are going to be working together
+
+00:00:12.700 --> 00:00:18.400
+to build our very own 3rd person game entirely from scratch. So starting with just some FBX
+
+00:00:18.400 --> 00:00:23.320
+assets, we will go through the import process here together to get those assets inside Unreal
+
+00:00:23.320 --> 00:00:28.579
+Engine 4. Then, we will build everything else that we need around that to get our character
+
+00:00:28.579 --> 00:00:33.170
+up and running around in our level here. So this video series is aimed at beginners. So
+
+00:00:33.170 --> 00:00:37.570
+if you are new to Unreal Engine 4 and would like to learn how to get your own characters
+
+00:00:37.570 --> 00:00:41.210
+into the editor and playable then this is the video series for you.
+
+00:00:41.210 --> 00:00:46.929
+I did want to mention that we are using Unreal Engine version 4.8 for the purposes of this
+
+00:00:46.929 --> 00:00:51.749
+video series. So with that, let's actually take a look at the finished project here.
+
+00:00:51.749 --> 00:00:55.320
+So if I jump into the editor here and hit Play, we will show you what it is we are going
+
+00:00:55.320 --> 00:00:59.879
+to try to create here together. So you can see we have our character here who is idling.
+
+00:00:59.879 --> 00:01:05.140
+I can rotate a camera around him, which is pretty standard for any 3rd person game having
+
+00:01:05.140 --> 00:01:12.689
+a follow camera, essentially. So we can independently control that. We can also use the WASD keys
+
+00:01:12.689 --> 00:01:17.720
+to run around with our character. We can go back to an idle state. So we will show you
+
+00:01:17.720 --> 00:01:22.659
+how to set this up to get your character running around inside your game. Then, we can also
+
+00:01:22.659 --> 00:01:26.939
+jump with our character here. We can jump to different heights. So we can jump from
+
+00:01:26.939 --> 00:01:31.860
+here, we can jump there, we can jump all the way down here like so. So we will show you
+
+00:01:31.860 --> 00:01:35.979
+how to set that up as well. You can also see as our character is running around, he is
+
+00:01:35.979 --> 00:01:39.310
+kicking up a little bit of dust here which is kind of cool. So we will show you
+
+00:01:39.310 --> 00:01:44.420
+how to set up this particle effect that occurs whenever the player is running. So we will
+
+00:01:44.420 --> 00:01:47.210
+do that towards the end of the video. First things first, we need to get our character
+
+00:01:47.210 --> 00:01:53.430
+up and running before we do anything else. Then, we will also show you how to do some punches
+
+00:01:53.430 --> 00:01:57.640
+with a character. (Laughter) Now these punches aren't the greatest looking, but it gets the
+
+00:01:57.640 --> 00:02:01.810
+job done and it shows you how you can set this up. Or I can do like one punch at a time,
+
+00:02:01.810 --> 00:02:06.780
+or I can hold it down and do multiple punches. I can also punch and run at the same time.
+
+00:02:06.780 --> 00:02:11.720
+So if in your game you have a character that you want to run and shoot, or run and reload
+
+00:02:11.720 --> 00:02:15.410
+this will show you how to set that up. Our character can also punch stuff because that
+
+00:02:15.410 --> 00:02:20.110
+is cool. Look at that. Get out of here. So, that is what it is we want to create here
+
+00:02:20.110 --> 00:02:24.410
+together; this is the end result. There are a lot of systems that come into play here
+
+00:02:24.410 --> 00:02:27.890
+and work together that we are going to have to touch upon. So I wanted to run through
+
+00:02:27.890 --> 00:02:32.090
+those really quickly to kind of show you what it is we are going to be covering and give
+
+00:02:32.090 --> 00:02:38.070
+you a brief description on what they are before we get into them. So as you can see, we have
+
+00:02:38.070 --> 00:02:42.850
+a lot to cover. So starting from the top here to the bottom, the first thing that we are going
+
+00:02:42.850 --> 00:02:51.710
+to be taking a look at is the importing process and how you can get your FBX assets into Unreal
+
+00:02:51.710 --> 00:02:55.450
+Engine 4 and start working with them. From there, we are going to be taking a look at
+
+00:02:55.450 --> 00:03:01.120
+Skeleton assets: what they are, how they work, as well as some things to keep in mind when
+
+00:03:01.120 --> 00:03:05.690
+sharing Skeletons between characters. From there, we are going to take a look at Persona
+
+00:03:05.690 --> 00:03:11.310
+which is the animation tool inside Unreal Engine 4. Then, we will talk about how to properly
+
+00:03:11.310 --> 00:03:16.060
+set up inputs on a character; so how to go into your Project Settings and add the inputs
+
+00:03:16.060 --> 00:03:21.740
+that you need so that you can use them later. This will include setups for gamepads, touch
+
+00:03:21.740 --> 00:03:27.530
+controls, as well as the standard PC controls or mouse and keyboard style controls. We are
+
+00:03:27.530 --> 00:03:32.710
+then going to look at Blend Spaces and show a way that you can blend between multiple
+
+00:03:32.710 --> 00:03:37.980
+animations based on really a variety of factors, but we are going to do it based on the speed
+
+00:03:37.980 --> 00:03:43.200
+of the character. So you can go from like an idle state into a walk, into a run, and transition
+
+00:03:43.200 --> 00:03:48.160
+between all three states smoothly. From there, we are going to take a look at Animation Blueprints.
+
+00:03:48.160 --> 00:03:52.450
+This is how you get the data from the game or from the Character Blueprint, which is
+
+00:03:52.450 --> 00:03:57.230
+another topic for discussion, and take that data and essentially transition that into
+
+00:03:57.230 --> 00:04:02.320
+the final animation that your character is actually doing. From there, we are going to take a
+
+00:04:02.320 --> 00:04:08.350
+look at State Machines, which are a way that you can create sort of a flow chart or a graph
+
+00:04:08.350 --> 00:04:13.260
+of all the different states or things that your character is going to be doing, and smoothly
+
+00:04:13.260 --> 00:04:18.009
+move between them and set up rules to transition in between each state. A lot more information
+
+00:04:18.009 --> 00:04:22.289
+will be coming on that when we actually get to that video. It is sort of a beast of a topic, so
+
+00:04:22.289 --> 00:04:28.020
+it is going to have its own video once we get to that later in the series. Then as I
+
+00:04:28.020 --> 00:04:31.460
+mentioned, we are going to take a look at setting up a Character Blueprint and not only
+
+00:04:31.460 --> 00:04:36.120
+that, but we will look at how a Character Blueprint is different than a Pawn Blueprint. For a lot of people
+
+00:04:36.120 --> 00:04:41.639
+who are just getting into Unreal Engine 4, particularly if you had a history in UDK or
+
+00:04:41.639 --> 00:04:46.210
+Unreal Engine 3, a lot of folks don't really know which of those two to begin with when
+
+00:04:46.210 --> 00:04:50.289
+setting up a character (a Pawn or a Character Blueprint). So we are going to talk about
+
+00:04:50.289 --> 00:04:55.150
+that and help clarify some things and why you may want to choose one over the other.
+
+00:04:55.150 --> 00:04:58.930
+So as you can see, we have a lot to cover but we will try to break up these videos into
+
+00:04:58.930 --> 00:05:03.699
+bite sized chunks so that it is more easily digestible. But ultimately, our end goal is to
+
+00:05:03.699 --> 00:05:08.430
+get all the way back to here so that we have a playable character that can run around,
+
+00:05:08.430 --> 00:05:14.800
+jump, and punch. So that is going to do it for this video. In the next video, we will
+
+00:05:14.800 --> 00:05:19.300
+show you where you can get your hands on some of the assets that we will be using for the purposes
+
+00:05:19.300 --> 00:05:25.680
+of this series. In that video, we will start the FBX import process. Thank you so much
+
+00:05:25.680 --> 00:05:27.000
+and we will see you in the next video.
+
+00:05:27.000 --> 00:05:34.902
+♪♪♪
+

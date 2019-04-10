@@ -1,0 +1,323 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.250 --> 00:00:04.850
+Good day ladies and gentlemen I'm Tom and
+today I want to talk about printer calibration
+
+00:00:04.850 --> 00:00:09.530
+and especially about the way that you can
+screw thing up now first of all let me take
+
+00:00:09.530 --> 00:00:14.719
+a step back the RepRap project and therefore
+pretty much the entire hobby grade 3D printing
+
+00:00:14.719 --> 00:00:20.000
+market started out as a dive into the unknown
+nobody had done it before it was basically
+
+00:00:20.000 --> 00:00:25.230
+the idea hey this is something that is absolutley
+doable now when the patents are gone without
+
+00:00:25.230 --> 00:00:30.539
+anybody really being afraid of the complexity
+of the entire project so people started building
+
+00:00:30.539 --> 00:00:35.630
+these monstrosity of 3D printers that were
+the RepRap Darwin and later the Sells and
+
+00:00:35.630 --> 00:00:40.760
+the first Prusa Mendel and as they ran into
+problems they came up with impromptu solutions
+
+00:00:40.760 --> 00:00:45.230
+to them many of these solutions are still
+being passed around today even though there
+
+00:00:45.230 --> 00:00:50.820
+were only really intended as clutches to get
+your print quality and your parts from unusable
+
+00:00:50.820 --> 00:00:56.340
+to really bad compared to todays standards
+but they still work for that one case so they
+
+00:00:56.340 --> 00:01:01.640
+must be good right? well not so much one of
+these clutches that I would finally put to
+
+00:01:01.649 --> 00:01:07.740
+rest today is the process of calibrating your
+steps per mm setting for any axis other than
+
+00:01:07.740 --> 00:01:12.330
+the extruder now the usual
+process for that involves printing a 10mm
+
+00:01:12.330 --> 00:01:18.360
+test cube and then adjusting the firmwares
+X Y and often also Z steps per mm values
+
+00:01:18.360 --> 00:01:24.270
+until that cube measures exactly 10.00mm
+of course depending on how hard you press
+
+00:01:24.270 --> 00:01:29.480
+your calipers together now if that doesn't
+already sound wrong to you well let me bring
+
+00:01:29.480 --> 00:01:34.430
+in a car analogy I know some people hate
+those but you know haters gotta hate say you
+
+00:01:34.430 --> 00:01:39.670
+drive a car most of us do and you noticed
+that it always seems to pull to the left so
+
+00:01:39.670 --> 00:01:43.680
+obviously you adjust the steering because
+that makes you car drive in a straight line
+
+00:01:43.680 --> 00:01:48.060
+and that all fine and dandy until you also
+noticed that your car now tends to spin out
+
+00:01:48.060 --> 00:01:52.880
+in corners and completely misbehaves when
+it´s raining well turns out adjusting the
+
+00:01:52.880 --> 00:01:59.040
+steering isn´t all that smart when your drive
+around with a flat tire and that´s exactly what
+
+00:01:59.040 --> 00:02:04.270
+your doing when trying to calibrate a 10mm
+cube to exact right size not only is getting
+
+00:02:04.270 --> 00:02:09.840
+the filament diameter and extrusion multiplier
+right much more straight forward option but
+
+00:02:09.840 --> 00:02:13.520
+your also forgetting that our 3D printers
+aren´t really precision instruments that
+
+00:02:13.520 --> 00:02:20.580
+can even print that accurately just the mechanical
+parts ripple, slop, backlash can easily throw
+
+00:02:20.580 --> 00:02:26.620
+you off by a tenth of a millimeter and if you
+compensate for that one tenth of a millimeter
+
+00:02:26.620 --> 00:02:30.920
+that the 10mm cube is off well guess what
+the next time you print something that is
+
+00:02:30.920 --> 00:02:36.920
+larger say 100mm aka. 4 inches you will have
+overcompensated the entire thing and instead
+
+00:02:36.920 --> 00:02:41.709
+of a tenth of a millimeter you will end up
+with an entire millimeter off the dimensions
+
+00:02:41.709 --> 00:02:47.620
+that you where going for so what i´m saying
+here is basically use the ideal calculator
+
+00:02:47.620 --> 00:02:52.410
+steps per millimeter timing belts and threaded
+rods witch are things that usually drive X
+
+00:02:52.410 --> 00:02:57.879
+Y and Z axis of our printers are made to pretty
+tight tolerances they need to work with
+
+00:02:57.879 --> 00:03:02.810
+every other bit of the equipment that uses
+the same profile witch means that the worst
+
+00:03:02.810 --> 00:03:08.150
+case scenario for the ideal steps per millimeter
+setting is it being of by much less than half
+
+00:03:08.150 --> 00:03:13.390
+a percent to figure out the settings that you should
+ideally use head over to Prusas calculator
+
+00:03:13.390 --> 00:03:18.040
+witch I have linked to in the description
+it´s awesome I have linked to it before bit
+
+00:03:18.040 --> 00:03:22.970
+it´s just so so good of course if you are
+not using belts or using an extremely large
+
+00:03:22.970 --> 00:03:27.540
+printer it might actually be a valid idea
+to calibrate the steps per millimeter for X
+
+00:03:27.540 --> 00:03:33.140
+and Y since like I said half a % is going
+to make noticeable difference in larger parts
+
+00:03:33.140 --> 00:03:38.540
+I have uploaded some files to Youmagine witch
+you can use to properly calibrate those setting
+
+00:03:38.540 --> 00:03:44.319
+without the results being skewed by for example
+the extrusion multiplier being off by a bit
+
+00:03:44.319 --> 00:03:48.950
+so now that we have that out of the way what
+are the things about your printer that you
+
+00:03:48.950 --> 00:03:55.150
+actually need to empirically calibrate? well
+it´s not much actually there is of course the
+
+00:03:55.150 --> 00:03:59.910
+extruder steps per millimeter setting and the
+extrusion multiplier witch I show you here
+
+00:03:59.910 --> 00:04:06.290
+how to get those right then there is the entire
+topic of print speed, jerk, acceleration setting
+
+00:04:06.290 --> 00:04:10.750
+those usually boil down to how much of your
+print quality your willing to give up for
+
+00:04:10.750 --> 00:04:16.769
+faster speeds pro tip if you just can´t seem
+to get a print right slow it down like print
+
+00:04:16.769 --> 00:04:21.780
+at half the speed and you will usually end
+up with a much better print and even if not
+
+00:04:21.780 --> 00:04:26.840
+you get a better look at what else is going
+wrong for the basic speed setup thing I made
+
+00:04:26.840 --> 00:04:32.790
+a long version witch you can watch here other
+than that there really isn´t much you need
+
+00:04:32.790 --> 00:04:38.080
+to calibrate per say of course for many slicer
+setting there is only a certain range of values
+
+00:04:38.080 --> 00:04:42.889
+that makes sense but I would not consider
+that printer calibration rather it´s you
+
+00:04:42.889 --> 00:04:47.850
+who is learning how far you can go with those
+settings given experience 3D printer operator
+
+00:04:47.850 --> 00:04:52.630
+any machine that´s mechanically sound and
+well build and they will make it print extremely
+
+00:04:52.630 --> 00:04:58.060
+well also most slicers now a days will give
+you pretty darn nice prints without any tweaking
+
+00:04:58.060 --> 00:05:03.020
+or calibrating beyond simply mashing in the
+basic data about your printer and deciding
+
+00:05:03.020 --> 00:05:07.940
+how your part should be printed there are
+of course concerning about print temperature
+
+00:05:07.940 --> 00:05:12.650
+retracts and so on but most of those either
+work pretty well with the default settings
+
+00:05:12.650 --> 00:05:17.680
+or you need to be set depending on what filament
+you are using so also not really something
+
+00:05:17.680 --> 00:05:23.220
+that you need to calibrate your printer for
+since it´s rather a property of the filament
+
+00:05:23.220 --> 00:05:28.050
+so to sum things up don´t try to hard to
+calibrate every last bit of precision out
+
+00:05:28.050 --> 00:05:33.490
+of your printer the technology especially
+the software aka. slicers is still under heavy
+
+00:05:33.500 --> 00:05:38.960
+development it´s continuously being improved
+for example the new experimental build of
+
+00:05:38.960 --> 00:05:44.580
+slicer the one with 3 in it´s name so sly 3 r added a feature to compensate for fitting
+
+00:05:44.580 --> 00:05:49.280
+errors without messing everything else up
+basically exactly what the cube calibration
+
+00:05:49.289 --> 00:05:54.550
+is trying to do just with a difference that
+that is how it´s should actually be done right
+
+00:05:54.550 --> 00:05:58.360
+now that feature is still in beta but by the
+time you are watching this video it might
+
+00:05:58.360 --> 00:06:04.080
+already be in a stable build so that´s it
+for today I hope you learned something if
+
+00:06:04.080 --> 00:06:08.480
+you did please leave a like that really helps
+me out mostly because then it means I see people
+
+00:06:08.480 --> 00:06:12.410
+are actually enjoying my videos also please
+leave a comment if you have any questions
+
+00:06:12.410 --> 00:06:17.060
+left I usually don´t reply to private messages
+because those really only help out a single
+
+00:06:17.060 --> 00:06:21.479
+person if you have an issue you need help
+with please at least post publicly in the
+
+00:06:21.479 --> 00:06:27.380
+comments or preferably in a forum or in the
+google plus 3D printing community that way
+
+00:06:27.380 --> 00:06:31.780
+that knowledge gets publicly documented and
+other people who run into the same problem
+
+00:06:31.780 --> 00:06:37.650
+can at least google for it I´m probably also
+going to do another Q&amp;A soon so any question
+
+00:06:37.650 --> 00:06:43.020
+might get answered there as well one more thing
+I´m going to be at hackaday Munich on november
+
+00:06:43.020 --> 00:06:48.880
+13th so you´re there to come say hello I will
+probably be building and hacking stuff maybe
+
+00:06:48.880 --> 00:06:54.980
+not entirely 3D printing related but close
+so as always thanks for watching see you next week
+

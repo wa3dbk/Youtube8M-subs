@@ -1,0 +1,310 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.100 --> 00:00:06.700
+Hello. In this video, we're going to be looking at how to add an additional light to the scene using the window geometry here.
+
+00:00:06.700 --> 00:00:12.766
+For this example, I downloaded a 3D model from the internet, which gives us a nice interior scene to work with.
+
+00:00:13.433 --> 00:00:15.333
+Let's get started by going inside.
+
+00:00:15.333 --> 00:00:19.299
+Double-click and we're going to select the faces of the windows.
+
+00:00:19.300 --> 00:00:22.566
+Hit the 4 key to select faces and select them both.
+
+00:00:23.700 --> 00:00:25.833
+Now go to Modify &gt; Extract...
+
+00:00:25.833 --> 00:00:28.399
+we're going to make those windows into its own object,
+
+00:00:29.066 --> 00:00:33.632
+and you can see that we have a new object node from that window geometry here.
+
+00:00:33.633 --> 00:00:35.799
+Let's go back up to object level,
+
+00:00:35.833 --> 00:00:40.066
+and we're just going to rename that.
+
+00:00:40.066 --> 00:00:43.999
+And let's put it together with the other object nodes.
+
+00:00:44.000 --> 00:00:46.333
+Turn off visibility on it.
+
+00:00:46.333 --> 00:00:48.899
+and...hey, we can still see the windows!
+
+00:00:48.900 --> 00:00:51.966
+That'll be because we didn't delete the original window faces.
+
+00:00:51.966 --> 00:00:55.399
+The Extract node only duplicated the selected geometry.
+
+00:00:55.400 --> 00:00:57.866
+So, let's grab them and delete them!
+
+00:00:57.866 --> 00:01:01.832
+Go back up object level, and next we'll need a camera.
+
+00:01:02.333 --> 00:01:04.233
+Let's find an OK position.
+
+00:01:04.233 --> 00:01:08.233
+Just lock it to the camera view first.
+
+00:01:09.733 --> 00:01:12.533
+We can turn off the Lock function now.
+
+00:01:12.533 --> 00:01:14.733
+And we're back to the default camera view.
+
+00:01:15.466 --> 00:01:18.566
+One more thing we'll need a Mantra PBR node.
+
+00:01:18.566 --> 00:01:23.399
+Go to Render &gt; Create Render Node, and select Mantra - PBR.
+
+00:01:23.400 --> 00:01:25.233
+And there's our render node!
+
+00:01:25.233 --> 00:01:27.466
+Let's go to the Render View tab.
+
+00:01:27.466 --> 00:01:30.499
+Change the render camera to the one we put down earlier.
+
+00:01:30.600 --> 00:01:33.466
+And I'm going to turn off Preview and Auto-Update.
+
+00:01:33.666 --> 00:01:38.032
+Keep this on if you want to see your render update any time you make a parameter change.
+
+00:01:38.066 --> 00:01:41.566
+I'm turning off just for the purpose of optimizing video recording.
+
+00:01:41.566 --> 00:01:45.566
+Before we hit Render, we're just going to change the render image size.
+
+00:01:45.566 --> 00:01:50.366
+You can choose any of these image rescaling amounts and specify the resolution.
+
+00:01:50.366 --> 00:01:55.566
+There is a list of standard display resolutions or you can type your own.
+
+00:01:58.466 --> 00:02:00.599
+Click on Render!
+
+00:02:00.600 --> 00:02:05.633
+By the way, I've time lapsed the render, in order to keep the video shorter!
+
+00:02:10.700 --> 00:02:13.800
+So there is our scene with 2 area lights.
+
+00:02:13.800 --> 00:02:17.000
+Let's put down a Portal light and see what we get!
+
+00:02:17.000 --> 00:02:19.233
+Just going to do a snapshot of this render.
+
+00:02:19.233 --> 00:02:22.099
+Let's go back to the Scene View tab,
+
+00:02:22.100 --> 00:02:24.366
+and let's make a new tab here.
+
+00:02:24.366 --> 00:02:26.666
+Click and drag to move it to the front.
+
+00:02:26.666 --> 00:02:31.466
+And we're going to pin it, so that we can keep it on the Mantra render node.
+
+00:02:31.466 --> 00:02:34.766
+For this tab, we're going to point it to the object level nodes.
+
+00:02:34.766 --> 00:02:36.632
+Click on the pin,
+
+00:02:36.633 --> 00:02:43.466
+and now we can quickly switch back and forth between the two without having to reselect obj or out each time.
+
+00:02:43.466 --> 00:02:47.566
+So, let's click on the window_geo node and then click on Portal Light.
+
+00:02:48.300 --> 00:02:54.333
+There's our Portal Light. Let's just organize it.
+
+00:02:54.733 --> 00:02:56.866
+Change the colour...
+
+00:02:57.000 --> 00:02:58.400
+Give it a name...
+
+00:03:00.833 --> 00:03:02.499
+and back to Render View.
+
+00:03:02.500 --> 00:03:05.400
+Let's focus in on the area where the portal light is.
+
+00:03:05.400 --> 00:03:11.400
+Hold down SHIFT and left-mouse button click and drag to select a region to render.
+
+00:03:13.466 --> 00:03:17.399
+So you can see that there is light on the window area, but it's kind of dim.
+
+00:03:17.400 --> 00:03:21.300
+Let's add an environment map and boost the Light Intensity.
+
+00:03:21.300 --> 00:03:23.066
+But first - a snapshot!
+
+00:03:24.866 --> 00:03:32.566
+Just pull this out a bit. Make sure only Portal light is selected.
+
+00:03:40.333 --> 00:03:43.399
+Let's do a snapshot to compare...
+
+00:03:43.400 --> 00:03:45.466
+and you can use middle-mouse button scroll to zoom in...
+
+00:03:46.600 --> 00:03:50.166
+Yep, that's pretty noisy! Let's clean it up a bit.
+
+00:03:50.433 --> 00:03:55.399
+In the Mantra render node, in the Rendering tab, we're going to raise the Max Ray Samples count.
+
+00:03:55.400 --> 00:04:02.400
+This will increase the number of rays bouncing in our scene, which will help to give more light information as well as reduce noise.
+
+00:04:02.400 --> 00:04:06.833
+We're also going to lower the Noise Level to 0.001,
+
+00:04:08.100 --> 00:04:13.966
+and let's see what we get!
+
+00:04:14.500 --> 00:04:18.700
+There is not much difference so we're going to enable Indirect Sample Limits.
+
+00:04:18.766 --> 00:04:22.832
+This will give us independent control over the Max Ray Samples for indirect light,
+
+00:04:22.833 --> 00:04:26.166
+which is where you'll find the bulk of your noise.
+
+00:04:26.166 --> 00:04:28.299
+We're also going to match the Noise Level,
+
+00:04:28.300 --> 00:04:31.500
+keeping the direct and indirect values the same.
+
+00:04:31.500 --> 00:04:38.300
+In addition, we're going to change the Reflect and Refract Limit to 1, since we don't have any shiny or glassy materials here.
+
+00:04:38.300 --> 00:04:45.566
+Side note, the Diffuse Limit is set to 1 by default, if you create the Mantra node via the drop down menu like we did earlier.
+
+00:04:45.566 --> 00:04:51.632
+If you go the TAB key route, then Diffuse Limit is set to 0 by default - so just keep that in mind.
+
+00:04:59.833 --> 00:05:04.099
+Let's go to increase the Max Indirect Ray Sampling.
+
+00:05:04.100 --> 00:05:08.300
+Usually I increase these numbers by values of16, 32 and so on.
+
+00:05:08.300 --> 00:05:10.566
+Start low and work your way up!
+
+00:05:10.566 --> 00:05:15.499
+We're going to increase the Pixel Samples to 4, which will increase the overall sampling done per-pixel.
+
+00:05:15.500 --> 00:05:20.433
+We were at 3x3 which means 9 samples per 1 pixel in your render.
+
+00:05:20.433 --> 00:05:24.533
+4x4 means we'll be doing 16 samples on 1 pixel.
+
+00:05:24.800 --> 00:05:30.166
+Also, increasing the Sampling Quality within your light can help to reduce noise as well,
+
+00:05:30.166 --> 00:05:36.466
+and is generally less expensive for renders.
+
+00:05:43.266 --> 00:05:45.332
+It's looking cleaner now.
+
+00:05:45.333 --> 00:05:47.766
+Take a snapshot,
+
+00:05:48.633 --> 00:05:51.166
+and let's scrub through them to see the progression.
+
+00:05:51.833 --> 00:05:54.533
+Ok - let's hit the H key to go back to 1:1 scale...
+
+00:05:55.633 --> 00:05:59.733
+and now we're going to open the Render Scheduler to keep track of our render time.
+
+00:06:00.733 --> 00:06:03.933
+Just going to uncheck Clear Completed Jobs...
+
+00:06:04.533 --> 00:06:11.633
+And then hold down SHIFT and left-mouse button click outside of the render image, to clear our render region selection.
+
+00:06:18.733 --> 00:06:23.733
+So we were at about 8 min 34 sec render time.
+
+00:06:23.733 --> 00:06:31.566
+Let's take a snapshot and we're going to compare this against the render time and results of using a regular environment light.
+
+00:06:31.566 --> 00:06:36.499
+Portal Lights are basically Environment Lights with a Portal Geometry parameter option.
+
+00:06:36.500 --> 00:06:39.300
+Here, we have our window geometry we extracted earlier.
+
+00:06:39.300 --> 00:06:43.433
+You can assign other geometry in your scene as portal light by clicking here.
+
+00:06:43.866 --> 00:06:48.666
+If we disable this parameter, this will then turn it back to a regular Environment light.
+
+00:06:49.300 --> 00:06:51.866
+See? Environment light!
+
+00:06:51.933 --> 00:06:59.099
+Let's hit Render!
+
+00:07:06.800 --> 00:07:11.800
+So we took only a little bit longer than the Portal light render,
+
+00:07:13.400 --> 00:07:19.766
+but you'll notice that we have way more noise and also light in places where there shouldn't be.
+
+00:07:23.033 --> 00:07:25.633
+So, let's turn back on Portal Geometry.
+
+00:07:25.900 --> 00:07:29.700
+change our resolution to 720p,
+
+00:07:33.433 --> 00:07:37.366
+and increase the Max Indirect Ray Sampling to128,
+
+00:07:37.400 --> 00:07:41.333
+just want to see a clean final render before we wrap this up.
+
+00:07:41.366 --> 00:07:47.999
+And then click on Render to MPlay.
+
+00:08:08.133 --> 00:08:12.399
+So here is our final render, demonstrating the use of Portal Lights inside Houdini.
+
+00:08:12.400 --> 00:08:15.233
+Thanks for watching!
+

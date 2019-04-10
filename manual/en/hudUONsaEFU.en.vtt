@@ -1,0 +1,144 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.989 --> 00:00:01.989
+Hi.
+
+00:00:01.989 --> 00:00:07.919
+I want to show you how to populate a simple
+job in SAS Data Integration Studio.
+
+00:00:07.919 --> 00:00:15.009
+In the process, I'll add a transformation,
+a source table, and a target table to an empty
+
+00:00:15.009 --> 00:00:20.710
+job.
+
+00:00:20.710 --> 00:00:25.660
+As you can see, my empty job has already been
+opened on the desktop.
+
+00:00:25.660 --> 00:00:32.290
+The job will be populated in the Diagram tab
+that is located in the Job Editor window.
+
+00:00:32.290 --> 00:00:38.500
+First, I’ll select the Sort transformation
+from the Data folder in the Transformation
+
+00:00:38.500 --> 00:00:39.500
+tree.
+
+00:00:39.500 --> 00:00:50.700
+Then, I’ll drag and drop the transformation
+onto the Diagram tab.
+
+00:00:50.700 --> 00:00:55.010
+The next step is to locate the Source table
+in the Inventory tree.
+
+00:00:55.010 --> 00:01:00.750
+Now that I’ve found the source table, which
+is named ALL_EMP,
+
+00:01:00.750 --> 00:01:07.310
+I can drag and drop it on to the diagram tab
+in front of the Sort transformation.
+
+00:01:07.310 --> 00:01:11.130
+Do you see the blue icon that I’ve moved
+the mouse over?
+
+00:01:11.130 --> 00:01:15.810
+The tooltip indicates that the source table
+is a SAS database table.
+
+00:01:15.810 --> 00:01:20.850
+There are similar icons for the other kinds
+of tables.
+
+00:01:20.850 --> 00:01:26.250
+Now I’ll connect a data flow line between
+the source table and the Sort transformation.
+
+00:01:26.250 --> 00:01:32.280
+I’m simply mousing over the right side of
+the source table and drawing a line between
+
+00:01:32.280 --> 00:01:39.750
+the output port of the source table and the
+input port of the transformation.
+
+00:01:39.750 --> 00:01:45.399
+It’s time to add a target table to the job.
+
+00:01:45.399 --> 00:01:50.299
+Right-click the temporary output table that
+is attached to the Sort transformation.
+
+00:01:50.299 --> 00:01:59.639
+Then, click the Replace option in the pop-menu.
+
+00:01:59.639 --> 00:02:03.159
+The Replace option displays the Table Selector
+window.
+
+00:02:03.159 --> 00:02:10.300
+I’ll click the Inventory tab and open the
+Tables folder to see all of my tables.
+
+00:02:10.300 --> 00:02:15.530
+Because I have so many of them, I’ll type
+the first few letters of my target table,
+
+00:02:15.530 --> 00:02:22.500
+which is EMP_SORT, to populate it in the Selected
+table field.
+
+00:02:22.500 --> 00:02:27.640
+Once I click OK, I’ll see the target table
+on the Diagram tab.
+
+00:02:27.640 --> 00:02:32.170
+Note that I don’t have to connect the target
+table to the Sort transformation.
+
+00:02:32.170 --> 00:02:37.520
+That’s a nice bonus from using the Replace
+option.
+
+00:02:37.520 --> 00:02:44.190
+By the way, the Replace and Register table
+options are generally better than deleting
+
+00:02:44.190 --> 00:02:49.620
+the temporary table and dragging in an existing
+permanent table.
+
+00:02:49.620 --> 00:02:54.620
+This is because the existing mappings are
+preserved when you use these options.
+
+00:02:54.620 --> 00:02:58.290
+Finally, I want to clean up the flow.
+
+00:02:58.290 --> 00:03:03.550
+First, I’ll straighten the lines between
+the objects in the flow and pull the objects
+
+00:03:03.550 --> 00:03:04.930
+closer together.
+
+00:03:04.930 --> 00:03:10.930
+Then, I’ll select the entire flow and move
+it to a different position on the Diagram
+
+00:03:10.930 --> 00:03:12.260
+tab.
+
+00:03:12.260 --> 00:03:16.040
+These changes will be saved the next time
+that I save the job.
+

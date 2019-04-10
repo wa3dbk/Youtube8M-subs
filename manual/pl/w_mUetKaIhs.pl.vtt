@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.000 --> 00:00:03.580
+Tak wygląda cały system
+
+00:00:13.682 --> 00:00:15.682
+Wzmaniacz GSM
+
+00:00:20.860 --> 00:00:27.380
+Testowy telefon Samsung z systemem Android.
+
+00:00:29.033 --> 00:00:31.033
+Ettus USRP N210
+
+00:00:37.760 --> 00:00:39.900
+egh.. egh...
+
+00:00:40.490 --> 00:00:42.490
+Odbiornik GPS do USRP
+
+00:00:51.284 --> 00:00:55.200
+Komputer z zainstalowanym programem OpenBTS
+
+00:01:07.220 --> 00:01:13.200
+W telefonie znajduje się karta SIM T-mobile
+
+00:01:28.495 --> 00:01:34.400
+Telefon jest cały czas na razie podłączony do nadajników T-mobile. Wykonujemy testowe połączenie na dowolny numer.
+
+00:01:44.804 --> 00:01:48.800
+Nie uzupełniłem konta : )
+
+00:02:01.022 --> 00:02:07.000
+Moc odbioru z nadajnika T-mobile -57 dBm
+
+00:02:12.736 --> 00:02:19.700
+Uruchamiamy sieć GSM włączając program OpenBTS
+
+00:02:36.806 --> 00:02:40.800
+Teraz uruchamiamy konsolę OpenBTSa
+
+00:02:46.717 --> 00:02:50.637
+Polecenie "tmsis" pozwala wyświetlić numer IMSI podłączonych telefonów do mojej sieci GSM
+
+00:02:52.585 --> 00:02:57.985
+Jak widać telefon obok automatycznie zmienił sieć z T-mobile na moją, a to jego numer IMSI.  
+
+00:03:01.866 --> 00:03:17.800
+Sprawdzamy, czy można zadzwonić na jakiś zewnętrzny numer telefonu. Nie powinno być takiej możliwości, ponieważ moja sieć nie jest podpięta pod komercyjną architekturę sieci GSM
+
+00:03:29.660 --> 00:03:35.520
+Jak widać "cisza". Telefon jest połączony z moim nadajnikiem, a nie sieci T-mobile.
+
+00:03:51.574 --> 00:03:56.234
+Telefon uważa, że nadal jest w T-mobile, ale to nie prawda.
+
+00:03:59.363 --> 00:04:09.663
+Moc odbioru sygnału z nadajnika mojej sieci to -65 dBm (nie włączyłem nawet wzmacniacza). Z włączonym wzmacniaczem byłoby to około -22 dBm (w rzeczywistości przekłada się to na zasięg około 30 metrów przez ściany) 
+
+00:04:10.840 --> 00:04:15.360
+Wyślijmy SMSa z konsoli OpenBTSa na telefon.
+
+00:04:42.892 --> 00:04:48.292
+Jak widać wystarczy sam numer IMSI. Nie potrzebny jest numer telefonu.
+
+00:05:14.555 --> 00:05:18.215
+I jest :)
+
+00:05:42.540 --> 00:05:46.251
+Gites :)
+
+00:05:46.251 --> 00:06:00.391
+Dodam, że telefon wybrałby moją sieć zamiast komercyjnej także ok. 30 metrów dalej od całego systemu. Położyłem go blisko, aby łatwiej było nagrać film.
+

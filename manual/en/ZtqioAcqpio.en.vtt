@@ -1,0 +1,155 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.399 --> 00:00:18.090
+Hello and welcome to PDFsupply.com
+Today we're going to be testing a CMM321 and
+
+00:00:18.090 --> 00:00:27.759
+I'm going to be using a CPU374 IC693CPU374
+processor and power supply is our high capactiy
+
+00:00:27.759 --> 00:00:32.140
+IC693PWR330 power supply.
+
+00:00:32.140 --> 00:00:40.040
+You can use any size rack, I happen to be
+using an IC693CHS397 rack, five slot rack.
+
+00:00:40.040 --> 00:00:46.440
+and this is the only components I have in
+the rack so what I'm going to do is I'm going
+
+00:00:46.440 --> 00:00:52.970
+to go into my Proficy Machine Edition and
+I'm going to go to Slot #2 which is where
+
+00:00:52.970 --> 00:00:59.820
+the CMM is located and I'm going to select
+a CMM321 and then I'm going to go into the
+
+00:00:59.820 --> 00:01:03.430
+settings and I'm going to set my IP address
+and sub net mask.
+
+00:01:03.430 --> 00:01:08.830
+So, when you're setting the IP address, just
+set an IP address that's above anything that
+
+00:01:08.830 --> 00:01:13.780
+could be working within your network so that
+it doesn't conflict with anything else, or
+
+00:01:13.780 --> 00:01:21.100
+so more importantly you don't get a returned
+ping that you're actually end up testing something
+
+00:01:21.100 --> 00:01:25.490
+else other than you intended CMM321.
+
+00:01:25.490 --> 00:01:32.620
+So, now that I've selected that I'm going
+to download and run that and once this is
+
+00:01:32.620 --> 00:01:40.240
+done downloading I'll be able to turn on the
+outputs and test the CMM and here we go.
+
+00:01:40.240 --> 00:01:48.070
+So, we're in Run Mode and I have two ports
+that I want to test to test the Ethernet so
+
+00:01:48.070 --> 00:01:56.040
+the first one is this 10 Base T using the
+Ethernet cable I have it plugged into a local
+
+00:01:56.040 --> 00:02:01.159
+plug here on our network and what you want
+to do is once you've plugged that in you wait
+
+00:02:01.159 --> 00:02:08.179
+for this LAN LED to start blinking and once
+that's blinking which it is now, so that's
+
+00:02:08.179 --> 00:02:11.379
+okay to test.
+
+00:02:11.379 --> 00:02:15.220
+If you don't wait for that to blink, you're
+not going to get a response so now I've opened
+
+00:02:15.220 --> 00:02:22.739
+my command prompt in my lap top here and the
+function that I'm asking to do is ping and
+
+00:02:22.739 --> 00:02:29.779
+then ask to ping the address that I have chosen.
+
+00:02:29.779 --> 00:02:31.379
+And hit enter.
+
+00:02:31.379 --> 00:02:36.180
+And you can't see this but immediately I'm
+getting a response, and you should.
+
+00:02:36.180 --> 00:02:42.200
+If it's working properly, you should get an
+immediate response that it'll say reply from
+
+00:02:42.200 --> 00:02:44.389
+and then the address that you've selected.
+
+00:02:44.389 --> 00:02:50.379
+Now, I want to check the AAUI port so it's
+the same information but it's going through
+
+00:02:50.379 --> 00:02:57.129
+a different type of port and to do that I'm
+going to be using this AAUI cable which looks
+
+00:02:57.129 --> 00:03:00.120
+like what I'm showing you here.
+
+00:03:00.120 --> 00:03:16.010
+So, plug the ethernet into the bottom portion
+and the AAUI connection underneath the CMM.
+
+00:03:16.010 --> 00:03:17.189
+So that's latched on there.
+
+00:03:17.189 --> 00:03:22.769
+Again, wait for the LAN LED to start blinking.
+
+00:03:22.769 --> 00:03:28.840
+Now, for those of you who are not familiar
+with command prompt, I can give it the same
+
+00:03:28.840 --> 00:03:34.390
+command to hit the same address by just hitting
+the up arrow key and then hitting enter.
+
+00:03:34.390 --> 00:03:41.739
+And again, I have an immediate response so
+I know that this is working properly.
+
+00:03:41.739 --> 00:03:47.159
+So, if you have a situation where either of
+these two ports or both of these two ports
+
+00:03:47.159 --> 00:03:51.849
+don't respond immediately or don't respond
+at all then you definitely have a problem
+
+00:03:51.849 --> 00:03:56.719
+with your CMM and this is something that we
+can repair here at PDF Supply.
+
+00:03:56.719 --> 00:04:02.089
+We have an exchange program, we have new and
+re-manufactured products so if that interests
+
+00:04:02.089 --> 00:04:10.589
+you please see at www.PDFsupply.com Thank
+you.
+

@@ -1,0 +1,702 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.310 --> 00:00:12.010
+{QTtext}{timescale:100}{font:Verdana}{size:20}{backColor:0,0,0}
+{textColor:65280,65280,65280}{width:960}{justify:center}
+
+00:00:12.010 --> 00:00:15.360
+{plain}
+
+00:00:15.360 --> 00:00:20.310
+[00:00:00.61]
+Our Products section of the Web site
+
+00:00:20.310 --> 00:00:22.640
+has a series of somewhat static pages.
+
+00:00:22.640 --> 00:00:25.449
+[00:00:05.13]
+There is a bunch of text on these pages
+
+00:00:25.449 --> 00:00:27.199
+and there's an image associated
+
+00:00:27.199 --> 00:00:29.060
+[00:00:09.25]
+with that particular block of text.
+
+00:00:29.060 --> 00:00:30.910
+[00:00:11.29]
+We can go and we can click through all
+
+00:00:30.910 --> 00:00:32.780
+of these and you'll see there are just
+
+00:00:32.780 --> 00:00:35.239
+[00:00:15.61]
+lots and lots of images, there are
+
+00:00:35.239 --> 00:00:36.820
+little bits of text here and there.
+
+00:00:36.820 --> 00:00:38.410
+[00:00:19.11]
+What I'd like to do is I'd like to
+
+00:00:38.410 --> 00:00:40.650
+improve the look of these pages
+
+00:00:40.650 --> 00:00:42.570
+[00:00:23.61]
+by adding a little bit of style, a
+
+00:00:42.570 --> 00:00:46.000
+little pizzazz to the images themselves.
+
+00:00:46.000 --> 00:00:48.770
+[00:00:27.43]
+This is new in Joomla!.
+
+00:00:48.770 --> 00:00:49.960
+Because this version of Joomla!
+
+00:00:49.960 --> 00:00:51.800
+[00:00:32.00]
+is built with Bootstrap and because
+
+00:00:51.800 --> 00:00:53.950
+this template is integrating Bootstrap
+
+00:00:53.950 --> 00:00:56.950
+[00:00:36.00]
+as part of its design, we can leverage
+
+00:00:56.950 --> 00:01:00.380
+any of Bootstrap's classes that are
+
+00:01:00.380 --> 00:01:02.580
+[00:00:42.20]
+contained, and provided that we apply
+
+00:01:02.580 --> 00:01:04.379
+that class in the way the Bootstrap
+
+00:01:04.379 --> 00:01:06.380
+[00:00:46.40]
+is expecting, we can apply
+
+00:01:06.380 --> 00:01:08.020
+those styles to our Web pages.
+
+00:01:08.020 --> 00:01:09.890
+[00:00:49.87]
+One of the most striking ways that we can
+
+00:01:09.890 --> 00:01:12.369
+do this is where our images are concerned.
+
+00:01:12.369 --> 00:01:15.579
+[00:00:54.73]
+So right now these images are just square
+
+00:01:15.579 --> 00:01:17.159
+images that have come right down and out
+
+00:01:17.159 --> 00:01:18.159
+[00:00:59.75]
+of Photoshop and they are
+
+00:01:18.159 --> 00:01:20.030
+appearing here in our Web page.
+
+00:01:20.030 --> 00:01:21.930
+[00:01:02.25]
+But Bootstrap has three
+
+00:01:21.930 --> 00:01:24.310
+different ways you can style images.
+
+00:01:24.310 --> 00:01:27.180
+[00:01:06.51]
+And that is in the Bootstrap documentation,
+
+00:01:27.180 --> 00:01:29.640
+so if you go to getbootstrap.com,
+
+00:01:29.640 --> 00:01:32.539
+[00:01:12.31]
+you'll wind up on this home page.
+
+00:01:32.539 --> 00:01:36.119
+[00:01:14.56]
+And if you go to the base CSS navigation
+
+00:01:36.119 --> 00:01:38.950
+item and then click on images down here,
+
+00:01:38.950 --> 00:01:41.679
+[00:01:20.39]
+you'll wind up seeing a little
+
+00:01:41.679 --> 00:01:43.829
+demonstration of the way that Bootstrap
+
+00:01:43.829 --> 00:01:45.549
+[00:01:25.84]
+can style these images for you.
+
+00:01:45.549 --> 00:01:49.270
+[00:01:27.69]
+So by applying a class of img-rounded
+
+00:01:49.270 --> 00:01:52.579
+you will get rounded corners on the edges
+
+00:01:52.579 --> 00:01:54.640
+[00:01:34.49]
+of your image, and that class
+
+00:01:54.640 --> 00:01:56.450
+you have to apply to the image tag.
+
+00:01:56.450 --> 00:01:59.590
+[00:01:38.64]
+If you have img-circle applied to the
+
+00:01:59.590 --> 00:02:01.600
+image tag, you'll actually get your image
+
+00:02:01.600 --> 00:02:03.109
+[00:01:43.60]
+displayed in a circle.
+
+00:02:03.109 --> 00:02:06.400
+[00:01:45.17]
+And finally if you apply a class of img-
+
+00:02:06.400 --> 00:02:08.509
+polaroid, you'll get your image with a
+
+00:02:08.509 --> 00:02:10.630
+[00:01:50.65]
+nice little border around it and this
+
+00:02:10.630 --> 00:02:12.790
+little space in between is a white fill.
+
+00:02:12.790 --> 00:02:14.780
+[00:01:55.09]
+Not necessarily obvious here on a
+
+00:02:14.780 --> 00:02:17.129
+white background, but I have looked at this
+
+00:02:17.129 --> 00:02:19.330
+[00:01:59.20]
+effect on pages where the background was
+
+00:02:19.330 --> 00:02:21.709
+not white and that will be a white wrap
+
+00:02:21.709 --> 00:02:23.540
+[00:02:03.81]
+around that picture followed by
+
+00:02:23.540 --> 00:02:25.689
+the little gray border after that.
+
+00:02:25.689 --> 00:02:27.930
+[00:02:07.80]
+So I want to show you how we can apply these
+
+00:02:27.930 --> 00:02:31.599
+three classes to our images inside of Joomla!.
+
+00:02:31.599 --> 00:02:34.129
+[00:02:13.18]
+So here in the back end of Joomla!
+
+00:02:34.129 --> 00:02:38.010
+[00:02:16.33]
+I'm going to go to Content&gt;Article Manager
+
+00:02:38.010 --> 00:02:39.010
+and I am just going to work with
+
+00:02:39.010 --> 00:02:40.939
+[00:02:22.46]
+my Products, Articles right now so I am
+
+00:02:40.939 --> 00:02:42.939
+going to Filter by category and go to
+
+00:02:42.939 --> 00:02:46.180
+[00:02:26.21]
+Products and here are my Products
+
+00:02:46.180 --> 00:02:47.879
+pages for this particular Web site.
+
+00:02:47.879 --> 00:02:49.860
+[00:02:30.05]
+So let's say I start here with the
+
+00:02:49.860 --> 00:02:52.970
+Energy Bulbs, if I click on that, I have
+
+00:02:52.970 --> 00:02:55.220
+[00:02:35.05]
+this picture of this woman here who is
+
+00:02:55.220 --> 00:02:57.510
+looking at light bulbs at the store.
+
+00:02:57.510 --> 00:02:59.940
+[00:02:39.12]
+What I really need to do is click on the
+
+00:02:59.940 --> 00:03:02.550
+image itself to select it and then here
+
+00:03:02.550 --> 00:03:04.659
+[00:02:44.25]
+using the little tree icon here in
+
+00:03:04.659 --> 00:03:08.000
+TinyMCE if I click on that, this will allow
+
+00:03:08.000 --> 00:03:10.350
+[00:02:50.08]
+me to apply the class that I want to apply.
+
+00:03:10.350 --> 00:03:12.549
+[00:02:52.83]
+I've not shown you how to use this for
+
+00:03:12.549 --> 00:03:14.370
+inserting images because it doesn't have
+
+00:03:14.370 --> 00:03:16.219
+[00:02:56.34]
+an interface for uploading images into
+
+00:03:16.219 --> 00:03:18.480
+the Media Manager and you have to know
+
+00:03:18.480 --> 00:03:20.049
+[00:03:00.68]
+the URL for the image in order to
+
+00:03:20.049 --> 00:03:21.300
+include it in your Webpage,
+
+00:03:21.300 --> 00:03:23.500
+[00:03:04.43]
+which is definitely less convenient than the
+
+00:03:23.500 --> 00:03:25.650
+Image button at the bottom of the screen
+
+00:03:25.650 --> 00:03:26.939
+[00:03:07.86]
+which is what we've been using
+
+00:03:26.939 --> 00:03:28.780
+to work with images to this point.
+
+00:03:28.780 --> 00:03:31.409
+[00:03:11.20]
+However, this tree icon has the interface
+
+00:03:31.409 --> 00:03:34.760
+for putting a class inside of an image tag
+
+00:03:34.760 --> 00:03:36.120
+[00:03:16.36]
+and that is what
+
+00:03:36.120 --> 00:03:37.560
+we're going to do right now.
+
+00:03:37.560 --> 00:03:39.620
+[00:03:19.79]
+So if I switch over to the Appearance
+
+00:03:39.620 --> 00:03:42.620
+tab here for our pictures, here is where
+
+00:03:42.620 --> 00:03:45.689
+[00:03:24.66]
+I can apply my Class, this is the CSS
+
+00:03:45.689 --> 00:03:47.810
+Class and right now it's set to Not Set.
+
+00:03:47.810 --> 00:03:51.170
+[00:03:30.10]
+So what I want to do is pick value from right
+
+00:03:51.170 --> 00:03:53.799
+here which will allow me to type something
+in.
+
+00:03:53.799 --> 00:03:58.080
+[00:03:36.13]
+So if I type in img-rounded no dot in
+
+00:03:58.080 --> 00:04:00.890
+front of it and say Update, absolutely
+
+00:04:00.890 --> 00:04:02.940
+[00:03:42.81]
+nothing is going to happen in TinyMCE.
+
+00:04:02.940 --> 00:04:06.450
+[00:03:45.51]
+The reason why is TinyMCE is currently
+
+00:04:06.450 --> 00:04:08.760
+not hooked up to any of our Bootstrap
+
+00:04:08.760 --> 00:04:10.819
+[00:03:50.54]
+styling, so it's not going to
+
+00:04:10.819 --> 00:04:13.640
+show right here inside of TinyMCE.
+
+00:04:13.640 --> 00:04:15.280
+[00:03:55.19]
+One of the advanced things you could
+
+00:04:15.280 --> 00:04:17.489
+do with TinyMCE is have it pull
+
+00:04:17.489 --> 00:04:19.489
+[00:03:59.46]
+a stylesheet, may be that stylesheet
+
+00:04:19.489 --> 00:04:22.411
+contains these three image classes in it,
+
+00:04:22.411 --> 00:04:23.490
+[00:04:04.62]
+so that you could just pick
+
+00:04:23.490 --> 00:04:24.490
+them from the dropdown.
+
+00:04:24.490 --> 00:04:25.821
+[00:04:06.48]
+That would be a great way to
+
+00:04:25.821 --> 00:04:26.850
+handle this for your client.
+
+00:04:26.850 --> 00:04:29.530
+[00:04:09.48]
+But you're not going to see the styling
+
+00:04:29.530 --> 00:04:32.530
+here inside of TinyMCE at the moment
+
+00:04:32.530 --> 00:04:35.100
+[00:04:14.03]
+because TinyMCE doesn't know what img-rounded
+
+00:04:35.100 --> 00:04:38.210
+happens to do with this particular image.
+
+00:04:38.210 --> 00:04:41.800
+[00:04:20.32]
+But once we hit Save and we go to the
+
+00:04:41.800 --> 00:04:44.250
+front end of the Web site and we go to the
+
+00:04:44.250 --> 00:04:47.130
+[00:04:26.49]
+Energy Bulbs page, you'll see that we
+
+00:04:47.130 --> 00:04:49.250
+now have an image with rounded corners.
+
+00:04:49.250 --> 00:04:50.600
+[00:04:30.73]
+So that's quite nice.
+
+00:04:50.600 --> 00:04:52.500
+[00:04:32.82]
+If we go to the Low-Flow Showerhead,
+
+00:04:52.500 --> 00:04:54.280
+I think this one might look good with a
+
+00:04:54.280 --> 00:04:56.620
+[00:04:36.23]
+circle around it so let's hop
+
+00:04:56.620 --> 00:04:57.750
+into the back end of Joomla!
+
+00:04:57.750 --> 00:04:59.080
+[00:04:40.07]
+now I am going to hit Save &amp; Close
+
+00:04:59.080 --> 00:05:00.870
+and I am going to go to the Low-Flow
+
+00:05:00.870 --> 00:05:03.300
+[00:04:44.32]
+Showerhead article, once again click
+
+00:05:03.300 --> 00:05:06.590
+on the Low-Flow Showerhead and click on
+
+00:05:06.590 --> 00:05:08.990
+[00:04:48.49]
+the tree icon here in TinyMCE,
+
+00:05:08.990 --> 00:05:11.560
+switch to the Appearance tab, in the Class
+
+00:05:11.560 --> 00:05:13.729
+[00:04:53.47]
+dropdown choose value and this time
+
+00:05:13.729 --> 00:05:14.930
+for the value I am going to type in
+
+00:05:14.930 --> 00:05:18.570
+[00:04:58.21]
+img-circle and say Update.
+
+00:05:18.570 --> 00:05:21.360
+[00:05:00.71]
+Again I won't see it here in TinyMCE,
+
+00:05:21.360 --> 00:05:24.520
+but if I say Save &amp; Close and I refresh
+
+00:05:24.520 --> 00:05:27.259
+[00:05:06.71]
+my Low-Flow Showerhead page, I now have
+
+00:05:27.259 --> 00:05:29.800
+my image displayed in the circle style.
+
+00:05:29.800 --> 00:05:32.420
+[00:05:12.09]
+Now this particular image was a little
+
+00:05:32.420 --> 00:05:34.030
+bit wide in terms of a rectangle,
+
+00:05:34.030 --> 00:05:35.990
+[00:05:16.52]
+so it's applied the rounded corners to the
+
+00:05:35.990 --> 00:05:37.880
+edges and it looks kind of a like a oval.
+
+00:05:37.880 --> 00:05:40.139
+[00:05:20.18]
+But I have another page where this
+
+00:05:40.139 --> 00:05:41.669
+particular circle works really well,
+
+00:05:41.669 --> 00:05:44.000
+[00:05:23.88]
+it's over on the About page, this
+
+00:05:44.000 --> 00:05:46.840
+particular image is sized more like a square
+
+00:05:46.840 --> 00:05:48.639
+[00:05:29.58]
+and when you apply the circle
+
+00:05:48.639 --> 00:05:50.960
+style to it, it looks really good.
+
+00:05:50.960 --> 00:05:54.919
+[00:05:33.05]
+So if I do that now and I go to my
+
+00:05:54.919 --> 00:05:58.430
+About Articles and I click on the About
+
+00:05:58.430 --> 00:06:00.879
+[00:05:40.38]
+article and I click on this image and
+
+00:06:00.879 --> 00:06:03.810
+I click on the tree, click on Appearance,
+
+00:06:03.810 --> 00:06:06.289
+[00:05:46.14]
+click on value here in the Class dropdown
+
+00:06:06.289 --> 00:06:09.740
+and type in img-circle and say Update
+
+00:06:09.740 --> 00:06:12.730
+[00:05:51.91]
+and Save &amp; Close, here on the About page
+
+00:06:12.730 --> 00:06:14.990
+you'll get a sense of a real circle for
+
+00:06:14.990 --> 00:06:16.220
+[00:05:56.85]
+this particular image.
+
+00:06:16.220 --> 00:06:17.710
+[00:05:57.85]
+So let me show you what
+
+00:06:17.710 --> 00:06:19.161
+the Polaroid effect does now.
+
+00:06:19.161 --> 00:06:22.410
+[00:06:01.29]
+So let's go to the Products page and
+
+00:06:22.410 --> 00:06:24.240
+you see here we have this picture of this
+
+00:06:24.240 --> 00:06:26.449
+[00:06:06.14]
+girl holding a light bulb, I am going
+
+00:06:26.449 --> 00:06:28.750
+to go back to my back-end of Joomla!,
+
+00:06:28.750 --> 00:06:32.600
+[00:06:10.86]
+go back to my Products and click on
+
+00:06:32.600 --> 00:06:34.740
+the actual Products page itself.
+
+00:06:34.740 --> 00:06:37.230
+[00:06:17.35]
+I'm going to select this image right
+
+00:06:37.230 --> 00:06:39.940
+here inside of my editor, click on the
+
+00:06:39.940 --> 00:06:44.009
+[00:06:22.15]
+tree icon and under Appearance, under
+
+00:06:44.009 --> 00:06:45.949
+Class, under value I'm going to type in
+
+00:06:45.949 --> 00:06:52.180
+[00:06:28.35]
+img-polaroid and say Update, and Save &amp; Close.
+
+00:06:52.180 --> 00:06:54.470
+[00:06:34.81]
+And when I refresh the Products page
+
+00:06:54.470 --> 00:06:56.880
+here you'll see that we have this lovely
+
+00:06:56.880 --> 00:06:58.409
+[00:06:38.78]
+Polaroid effect, so you have the
+
+00:06:58.409 --> 00:07:00.400
+little bit of white space here with the nice
+
+00:07:00.400 --> 00:07:01.740
+[00:06:43.14]
+little border around it.
+
+00:07:01.740 --> 00:07:03.729
+[00:06:44.39]
+Now I wouldn't necessarily advise you
+
+00:07:03.729 --> 00:07:06.630
+to use all three effects all over every
+
+00:07:06.630 --> 00:07:07.630
+[00:06:48.20]
+page of your Web site.
+
+00:07:07.630 --> 00:07:09.300
+[00:06:50.00]
+I would recommend that you would pick
+
+00:07:09.300 --> 00:07:11.130
+one of these effects maybe, and use it
+
+00:07:11.130 --> 00:07:14.169
+[00:06:53.60]
+consistently or maybe two of these effects.
+
+00:07:14.169 --> 00:07:16.340
+[00:06:56.43]
+So like the circle effect is really
+
+00:07:16.340 --> 00:07:18.510
+quite eye-popping, maybe you want to use
+
+00:07:18.510 --> 00:07:20.229
+[00:07:00.71]
+that sparingly on a handful of pages
+
+00:07:20.229 --> 00:07:22.120
+and then every other image on your site
+
+00:07:22.120 --> 00:07:23.449
+[00:07:04.46]
+maybe you treat with the Polaroid or
+
+00:07:23.449 --> 00:07:25.879
+the rounded corner effect, that would be a
+
+00:07:25.879 --> 00:07:28.270
+[00:07:08.01]
+nice treatment for your Web site, rather
+
+00:07:28.270 --> 00:07:29.870
+than just sort of sprinkling these three
+
+00:07:29.870 --> 00:07:31.669
+[00:07:11.78]
+effects anywhere they happen to appear.
+
+00:07:31.669 --> 00:07:33.870
+[00:07:13.90]
+But I did want to show you how all of them
+
+00:07:33.870 --> 00:07:34.870
+work.
+
+00:07:34.870 --> 00:07:36.530
+[00:07:15.87]
+So if you remember from Bootstrap in
+
+00:07:36.530 --> 00:07:39.280
+the documentation, img-rounded, img-circle
+
+00:07:39.280 --> 00:07:42.009
+[00:07:19.83]
+and img-polaroid, you can add those to
+
+00:07:42.009 --> 00:07:45.539
+your image tags inside of your HTML and
+
+00:07:45.539 --> 00:07:52.880
+[00:07:27.34]
+get some great effects for your Web site.
+
+00:07:52.880 --> 00:07:57.729
+[00:07:31.40]
+

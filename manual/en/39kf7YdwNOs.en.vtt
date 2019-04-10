@@ -1,0 +1,122 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.299 --> 00:00:11.869
+So this example we will be looking at a Monod
+Growth Kinetics and the problem statement
+
+00:00:11.869 --> 00:00:18.519
+is; That if we wanted to produce a recombinant
+protein in E. Coli once the cell density has
+
+00:00:18.519 --> 00:00:25.380
+reached 400 million Cells/Liter. How long would we
+have to wait for us to reach this cell density
+
+00:00:25.380 --> 00:00:32.380
+if we started an initial inoculation density
+of 10,000 cells/L, and a glucose concentration
+
+00:00:32.730 --> 00:00:44.410
+of 100 g/L. And we know that for E. Coli growth
+on glucose Umax is 1.3 inverse hours. Ks, the Ks constant
+
+00:00:44.530 --> 00:00:54.730
+is 2.2E-5 g/L. The death constant is 0.02
+inverse hours, and we are going to assume
+
+00:00:54.820 --> 00:00:59.840
+that 1 cells is approximately 1 ng of cellular
+mass.
+
+00:01:04.400 --> 00:01:06.780
+So the first thing that we are going
+
+00:01:06.780 --> 00:01:16.860
+to do is write mole balances for the concentration
+of cells and substrate. So for our cells
+
+00:01:17.000 --> 00:01:23.510
+we are going to have a change on our concentration
+of cells over time. So since we are in a batch
+
+00:01:23.510 --> 00:01:30.510
+reactor it is going to be equal to the rate
+of growth of our cells minus the rate of death
+
+00:01:31.570 --> 00:01:40.920
+of our cells, and so for our substrate the change
+in the concentration per time will be equal
+
+00:01:40.920 --> 00:01:50.280
+to the negative rate of growth of our cells,
+and so now second we are going to define our
+
+00:01:50.290 --> 00:02:00.410
+rate law expressions. For monod growth kinetics
+the rate of growth is equal to mu max times
+
+00:02:00.410 --> 00:02:10.750
+the concentration of substrate times the concentration
+of cells over the constant ks plus the concentration
+
+00:02:10.750 --> 00:02:21.920
+of our substrate. And the rate of death is
+equal to the death constant times the concentration
+
+00:02:21.920 --> 00:02:32.500
+of cells. So third we need to calculate the
+concentrations of our cells initially and
+
+00:02:32.500 --> 00:02:39.500
+the desired concentration based off of the
+mass we assumed per cell. So our initial cell
+
+00:02:40.040 --> 00:02:53.100
+concentration in g/L is going to be the 10,000
+cells/L that we started with times 1 ng per
+
+00:02:53.100 --> 00:03:05.520
+cell, and to get it in to grams per liter we are going to
+have that 1 gram is 10 to the 9th nanograms. So we
+
+00:03:05.530 --> 00:03:16.970
+are going to have 10^-6 g/L of cells initially,
+and then the final concentration of our desired
+
+00:03:16.970 --> 00:03:31.650
+cells also in g/L will be the 400 million cells per liter
+that we want to reach. Times the same 1 ng/cell,
+
+00:03:31.650 --> 00:03:45.569
+and 1 gram per 10^9 ng. So we want to get
+to a point of 0.4 g/L of cells. So now we
+
+00:03:45.569 --> 00:03:52.349
+can plug in these mole balances for the cells
+and substrates, and then the rate laws for
+
+00:03:52.349 --> 00:03:58.220
+the growth and our death of our cells. As
+well as the initial concentrations for our
+
+00:03:58.220 --> 00:04:05.220
+cells and substrate, and then vary time to
+try to figure out how long it would take us to get to this
+
+00:04:05.230 --> 00:04:12.230
+0.4 g/L of cell. So here is the output from
+plugging in all of those expressions into
+
+00:04:13.349 --> 00:04:20.349
+polymath, and after varying the time. You
+can see that the top line of Cc. The concentration
+
+00:04:20.769 --> 00:04:27.349
+of our cells our final value is 0.40 and then
+the time it took use to get there is the last
+
+00:04:27.349 --> 00:04:32.199
+variable t, which is 8.28 hours.
+

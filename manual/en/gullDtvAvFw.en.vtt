@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.163 --> 00:00:10.697
+To create a new HTML document, launch Notepad++.
+
+00:00:11.576 --> 00:00:15.701
+In the ITS Training Program computer labs, click the Start button,
+
+00:00:16.800 --> 00:00:18.750
+point to All Programs,
+
+00:00:19.916 --> 00:00:22.416
+ point to Notepad++,
+
+00:00:22.708 --> 00:00:25.292
+and select Notepad++.
+
+00:00:26.125 --> 00:00:30.708
+If the text area is not blank, click 
+ the New button on the Tool bar.
+
+00:00:32.250 --> 00:00:35.450
+Click the File menu and select Save As.
+
+00:00:39.417 --> 00:00:41.667
+The Save As dialog box will appear.
+
+00:00:42.500 --> 00:00:46.750
+In the File name box, type index.html.
+
+00:00:46.999 --> 00:00:52.332
+We name the file index.html to set it as 
+ the default home page for our website
+
+00:00:53.625 --> 00:00:58.583
+Click the Save as type arrow and select All types (*.*) from the list.
+
+00:01:04.374 --> 00:01:08.499
+Click the Desktop button in the left pane of the Save As dialog box.
+
+00:01:09.875 --> 00:01:12.083
+Click the Create New Folder button,
+
+00:01:13.375 --> 00:01:16.915
+name the new folder Website, and then press the Enter key.
+
+00:01:19.666 --> 00:01:22.292
+Double-click the newly created folder to open it.
+
+00:01:22.875 --> 00:01:25.582
+and then click the Save button.
+
+00:01:26.750 --> 00:01:30.750
+Now that we have created the HTML file, let’s add some code to it.
+
+00:01:30.833 --> 00:01:34.125
+Pay close attention to the indentation as seen on screen.
+
+00:01:34.500 --> 00:01:37.498
+Indentation doesn’t directly affect the outcome of the page,
+
+00:01:37.498 --> 00:01:39.426
+but it makes things a lot easier to read.
+
+00:01:40.250 --> 00:01:42.540
+To indent, we use the Tab key.
+
+00:01:42.800 --> 00:01:46.420
+With index.html opened in Notepad++,
+
+00:01:46.417 --> 00:01:55.000
+type &lt;!doctype html&gt; at the top of the page,
+
+00:01:55.333 --> 00:01:57.880
+no closing tag is required for this tag.
+
+00:01:58.792 --> 00:02:02.250
+This doctype statement tells the web browser how to read the code.
+
+00:02:02.458 --> 00:02:08.170
+In this case, this statement is telling Mozilla 
+ Firefox that we are using HTML 5.
+
+00:02:09.083 --> 00:02:11.710
+Press the Enter key to create a new line.
+
+00:02:14.625 --> 00:02:27.020
+Next, type &lt;html lang="en"&gt;
+
+00:02:29.333 --> 00:02:36.120
+and then create the closing tag by typing &lt;/html&gt;.
+
+00:02:36.917 --> 00:02:43.920
+Click In-between the two tags and press enter a couple 
+ of times to make some space In-between them.
+
+00:02:45.350 --> 00:02:59.380
+In-between of our opening and closing HTML tags, type 
+ &lt;head&gt; and close it by typing &lt;/head&gt;.
+
+00:03:01.000 --> 00:03:07.710
+In-between these two tags, press enter a couple times to add some room.
+
+00:03:10.970 --> 00:03:16.220
+In-between of the head tags that we just created, we 
+ can add an opening and closing title tag,
+
+00:03:16.292 --> 00:03:26.080
+To add a title tag, type &lt;title&gt; then close it with &lt;/title&gt;.
+
+00:03:27.375 --> 00:03:29.620
+In-between the title tag we just created,
+
+00:03:30.041 --> 00:03:32.420
+type "HTML Workshop".
+
+00:03:33.167 --> 00:03:37.330
+This title will appear at the top of 
+ the window when our webpage is open.
+
+00:03:38.374 --> 00:03:44.970
+Place the cursor at the end of the line we just created 
+ and press the Enter key to create a new line.
+
+00:03:46.833 --> 00:03:52.420
+Underneath the title tags, we can add a meta tag that 
+ will tell our browser what character encoding we are using.
+
+00:03:52.750 --> 00:03:58.290
+Type, &lt;meta /&gt;. 
+
+00:03:58.750 --> 00:04:02.850
+This tag is a self-closing tag and doesn’t require a full closing tag.
+
+00:04:05.874 --> 00:04:09.790
+Next, we are going to add what is 
+ called an attribute to our meta tag.
+
+00:04:10.374 --> 00:04:13.210
+Immediately before the slash of the self-closing tag, 
+
+00:04:13.416 --> 00:04:21.040
+type charset=”utf-8” follow by a space.
+
+00:04:21.680 --> 00:04:24.850
+This is an attribute that modifies the way the tag works.
+
+00:04:25.083 --> 00:04:27.170
+We’ll get into them more in a later video.
+
+00:04:29.083 --> 00:04:33.830
+Next, we need to create a new line underneath the closing head tag.
+
+00:04:34.000 --> 00:04:35.420
+To create a new line,
+
+00:04:35.583 --> 00:04:42.750
+place the cursor at the end of the line that contains 
+ the closing head tag, and press the Enter key.
+
+00:04:44.250 --> 00:04:50.290
+Finally, on our newly created line, create the opening and closing body tags. 
+
+00:04:50.833 --> 00:04:59.670
+Type, &lt;body&gt; then close it by typing &lt;/body&gt;.
+
+00:05:00.100 --> 00:05:04.710
+In-between these body tags is where all of our visible content will be.
+
+00:05:05.082 --> 00:05:10.670
+Everything inside of the head tag will not 
+ be visible on a normal web page.
+

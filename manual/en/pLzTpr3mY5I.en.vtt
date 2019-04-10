@@ -1,0 +1,188 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.128 --> 00:00:03.696
+Snap tools give you greater accuracy when working with tranforms.
+
+00:00:04.913 --> 00:00:09.766
+Snap tools are most effective with the Move tool, although they can 
+be used with Rotate and Scale as well.
+
+00:00:12.323 --> 00:00:16.131
+The default hotkey to toggle "Move" Snap mode is S.
+
+00:00:17.028 --> 00:00:21.398
+With Rotate, Angle Snap lets you rotate objects by 5 degrees increments.
+
+00:00:22.678 --> 00:00:25.943
+The default hotkey to toggle Angle Snap is A.
+
+00:00:26.710 --> 00:00:31.140
+With Scale, Percent Snap lets you scale objects up or down
+by 10% increments.
+
+00:00:31.380 --> 00:00:34.830
+The default hotkey to toggle Percent Snap is Shift+Ctrl+P.
+
+00:00:35.730 --> 00:00:44.130
+The default incremental values for rotation and scale of 5 degrees 
+and 10% respectively can be changed by right clicking the rotation 
+or scale snap buttons.
+
+00:00:45.878 --> 00:00:50.353
+Used in conjunction with the Move tool, snap possibilities are much 
+wider in scope.
+
+00:00:50.943 --> 00:00:55.591
+The Move snap tool is actually a flyout. You will learn about its 
+various options in a moment.
+
+00:00:56.108 --> 00:00:58.993
+For now, leave the default 3D Snap mode active.
+
+00:00:59.758 --> 00:01:04.296
+When planning to use snap tools, it is usually more efficient to 
+call up the Snaps toolbar.
+
+00:01:04.943 --> 00:01:07.856
+This can be done with a right-click on an empty area of the main toolbar.
+
+00:01:08.386 --> 00:01:12.878
+Using the Snaps toolbar, you can then choose which points in space 
+you would like to snap onto.
+
+00:01:13.533 --> 00:01:17.308
+In grid mode, you can only snap to intersecting lines 
+on the construction grid.
+
+00:01:20.176 --> 00:01:24.671
+The texture map in this example has been set to match the existing 
+construction grid.
+
+00:01:27.735 --> 00:01:32.600
+Perhaps more importantly, you can snap onto geometry points such as 
+objects' pivot points, 
+
+00:01:33.100 --> 00:01:40.030
+vertex points, midpoints, edges, faces, and so on.
+
+00:01:40.588 --> 00:01:47.483
+Arguably, one of the most valuable snap options is vertex, which lets 
+you snap onto any intersecting point between two or more edges.
+
+00:01:48.035 --> 00:01:52.973
+The default 3D snap mode is best used in a 3D view, such as Perspective 
+or Camera.
+
+00:01:53.740 --> 00:01:58.320
+In this mode, you can relocate an object in all three directions, 
+X, Y and Z, 
+
+00:01:58.500 --> 00:02:03.080
+so that a point on the source object snaps onto a point 
+on the target object.
+
+00:02:13.583 --> 00:02:19.198
+In a 2D Orthographic view, such as Top or Front, 
+using 3D snap can be tricky.
+
+00:02:20.600 --> 00:02:27.710
+If there are multiple points on the same axis, such as the Z-axis 
+as seen in the top view, you can never be sure which point is taken 
+into account.
+
+00:02:28.063 --> 00:02:31.285
+This is why 3D snap is best used in a 3D view.
+
+00:02:32.428 --> 00:02:37.403
+If you need to work in a 2D Orthographic view, then you should use 
+one of the two 2D snaps available.
+
+00:02:38.100 --> 00:02:43.560
+The 2D snap mode is only useful if you are dealing exclusively with 
+2D geometry, such as Shape objects.
+
+00:02:43.688 --> 00:02:47.213
+The 2D Snap mode can only snap to objects lying on the construction grid.
+
+00:02:48.013 --> 00:02:53.973
+If an object is not lying on the construction grid (Z=0 in the Top view),
+then you cannot snap to it.
+
+00:02:54.326 --> 00:02:59.898
+Notice how you cannot snap to a "floating" object, but you can snap 
+to an object on the floor.
+
+00:03:05.560 --> 00:03:10.553
+This makes 2D Snap difficult to work with when using objects in various 
+3D locations.
+
+00:03:11.830 --> 00:03:17.460
+On the other hand, the 2.5D snap mode is very useful when you need 
+to relocate an object on one plane, 
+
+00:03:17.540 --> 00:03:19.680
+without affecting the third dimension.
+
+00:03:25.685 --> 00:03:30.163
+For example, you can move this box in the top view to align it 
+with another box.
+
+00:03:31.370 --> 00:03:34.238
+Notice how you have relocated the object on the XY plane, 
+
+00:03:34.625 --> 00:03:39.135
+while the elevation remains unchanged, even though the target object 
+in this case is higher.
+
+00:03:39.330 --> 00:03:46.380
+Notice also that unlike 2D snap, a 2.5D snap does recognize snap points 
+that are not on the construction grid.
+
+00:03:46.675 --> 00:03:51.518
+As you can see, 2.5D is a very powerful way to move objects 
+on a single plane.
+
+00:03:55.418 --> 00:04:02.315
+It is NOT advisable to use 2.5D Snap in a 3D view, as it will yield 
+unexpected results.
+
+00:04:17.120 --> 00:04:20.390
+Finally, take a look at the Use Axis Constraints option. 
+
+00:04:20.610 --> 00:04:24.140
+This is best used in 3D Snap mode with the Transform gizmo disabled.
+
+00:04:31.023 --> 00:04:34.748
+The Transform gizmo can be toggled on or off using the X key.
+
+00:04:36.070 --> 00:04:40.760
+The Use Axis Constraint lets you snap points on a single 
+or dual axis translation.
+
+00:04:40.880 --> 00:04:48.270
+To move an object in X, Y, or Z, press the F5, F6, or F7 keys 
+to enable a single direction at a time.
+
+00:04:50.238 --> 00:04:57.853
+Using 3D snap in vertex mode, notice how you can align a vertex 
+to another while the object travels in one direction only.
+
+00:05:05.218 --> 00:05:09.288
+It is important to note that this mode also works in two directions 
+simultaneously.
+
+00:05:09.821 --> 00:05:13.428
+This, in effect, replaces the 2.5D mode you learned about earlier.
+
+00:05:13.888 --> 00:05:21.286
+To set this mode to work in two axes simultaneously, use F8 to move 
+between the XY, YZ, and XZ planes.
+
+00:05:28.569 --> 00:05:33.891
+At any time, disable Use Axis Constraint to return to full 3D snap mode.
+
+00:05:38.890 --> 00:05:42.700
+Don't forget to toggle back the Transform gizmo (X key) when you're done.
+

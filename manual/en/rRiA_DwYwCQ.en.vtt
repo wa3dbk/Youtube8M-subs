@@ -1,0 +1,174 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.033 --> 00:00:13.066
+Having the beams and columns assigned , we'll 
+assign fixities to base joints and masses at the 
+Floor joints...
+
+00:00:13.066 --> 00:00:17.066
+Select the joints at the base of each column.
+
+00:00:22.066 --> 00:00:26.033
+Click the Assign tab and select Joint, and then 
+Restraint...
+
+00:00:29.033 --> 00:00:33.066
+In this example, the columns are fully restained.
+
+00:00:33.066 --> 00:00:44.000
+Select the Fast Restraint that restrains the joint 
+for both translation and rotation.
+
+00:00:45.033 --> 00:00:47.066
+Click OK.
+
+00:00:49.000 --> 00:00:56.033
+The symbol at the base of the columns changed 
+to indicate fully restrained joints.
+
+00:00:58.033 --> 00:01:05.066
+Now we'll assign the masses of each floor and 
+distribute them to the joints of each floor.
+
+00:01:05.066 --> 00:01:15.000
+Assuming the weight of each floor is 1200 kips, 
+convert units of weight to mass.
+
+00:01:16.033 --> 00:01:22.066
+So the mass is 3.11 kips seconds squared per 
+inch.
+0:01:22.066,0:01:22.033
+
+00:01:22.033 --> 00:01:30.000
+Now the floor mass may be distributed to each 
+floor
+
+00:01:30.000 --> 00:01:41.033
+The mass will be assigned to the left node of 
+each floor.
+
+00:01:41.033 --> 00:01:45.066
+Click the Assign tab and select Joint, and then 
+Masses...
+
+00:01:45.066 --> 00:01:54.000
+Go down to the mass and enter 3.11 for local 
+directions 1 and 2, which are lateral directions.
+
+00:01:54.000 --> 00:02:00.000
+The local 3 direction is the vertical direction, 
+which may cause problems in this example.
+
+00:02:00.000 --> 00:02:03.066
+Notice the units in Kip, inches.
+0:02:03.066,0:02:03.000
+
+00:02:03.000 --> 00:02:04.066
+Click OK.
+
+00:02:04.066 --> 00:02:10.033
+Now the model indicates the masses at the left 
+nodes.
+
+00:02:10.066 --> 00:02:14.066
+Next assign slab constraints.
+0:02:14.066,0:02:14.000
+
+00:02:14.000 --> 00:02:20.000
+We must do this because up to now the model 
+only knows about the beams, and not the floor 
+slabs.
+
+00:02:20.000 --> 00:02:27.033
+The slab constrains all the joints along a floor 
+level.  Which means that all these nodes must 
+move together.
+
+00:02:27.033 --> 00:02:27.066
+The slab constrains all the joints along a floor 
+level.  Which means that all these nodes must 
+move together.
+
+00:02:27.066 --> 00:02:29.066
+Select the top level of joints
+
+00:02:29.066 --> 00:02:33.066
+Go to Assign, Joint, Constraints.
+
+00:02:33.066 --> 00:02:35.399
+Choose the constraint type "Equal",
+
+00:02:33.066 --> 00:02:40.033
+Choose the constraint type "Equal",
+
+00:02:40.033 --> 00:02:43.033
+Click add new constraint...
+
+00:02:43.033 --> 00:02:55.033
+Name it Floor 5
+
+00:02:55.033 --> 00:03:01.066
+Select only translation in the X direction
+
+00:03:01.066 --> 00:03:04.000
+Click OK
+
+00:03:04.000 --> 00:03:06.000
+Click OK
+
+00:03:06.000 --> 00:03:08.066
+Click OK again
+
+00:03:08.066 --> 00:03:09.000
+Click OK again
+
+00:03:09.000 --> 00:03:16.000
+Click assign...joint...contraints
+
+00:03:16.000 --> 00:03:20.066
+Select equal from the dropdown and click add 
+new contraint
+
+00:03:20.066 --> 00:03:32.000
+Name this floor4 and select only translation in 
+the X direction... Click OK
+
+00:03:32.000 --> 00:03:34.033
+Click OK again
+
+00:03:34.033 --> 00:03:46.066
+This process should be repeated for the 
+remaining floors
+0:04:06.033,0:04:06.000
+
+00:04:06.000 --> 00:04:11.000
+Now that we have defined the material, defined 
+our members...
+
+00:04:11.000 --> 00:04:19.033
+Fixed our base, defined our masses and floor 
+constraints, we are ready to run a modal 
+analysis
+
+00:04:19.033 --> 00:04:24.000
+Click the play button on the toolbar
+ 
+
+00:04:24.000 --> 00:04:34.000
+The modal case is set to run so click Run Now
+
+00:04:34.000 --> 00:04:38.033
+The frame must be saved to run the analysis
+
+00:04:38.033 --> 00:04:49.033
+So save the frame to your favorite spot
+
+00:04:49.033 --> 00:04:57.066
+The analysis has been run as SAP is displaying 
+the deformed shape in the 3D view
+
+00:04:57.066 --> 00:05:02.000
+This concludes this video
+
