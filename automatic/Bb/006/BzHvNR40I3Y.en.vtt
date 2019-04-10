@@ -1,0 +1,1105 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.090 --> 00:00:12.089 
+
+you
+
+00:00:12.089 --> 00:00:12.099 
+
+00:00:12.099 --> 00:00:16.390 
+
+I've<00:00:13.750> changed<00:00:14.750> the<00:00:14.959> index<00:00:15.440> action<00:00:15.619> around<00:00:16.189> a
+
+00:00:16.390 --> 00:00:16.400 
+I've changed the index action around a
+
+00:00:16.400 --> 00:00:17.410 
+I've changed the index action around a
+little<00:00:16.520> bit<00:00:16.730> so<00:00:16.970> we<00:00:17.060> can<00:00:17.210> get<00:00:17.300> a<00:00:17.360> better
+
+00:00:17.410 --> 00:00:17.420 
+little bit so we can get a better
+
+00:00:17.420 --> 00:00:19.570 
+little bit so we can get a better
+understanding<00:00:17.660> of<00:00:18.289> how<00:00:18.470> a<00:00:18.650> sink<00:00:19.099> and<00:00:19.220> a<00:00:19.400> weight
+
+00:00:19.570 --> 00:00:19.580 
+understanding of how a sink and a weight
+
+00:00:19.580 --> 00:00:21.070 
+understanding of how a sink and a weight
+are<00:00:19.790> working<00:00:20.119> inside<00:00:20.419> of<00:00:20.570> this<00:00:20.660> controller
+
+00:00:21.070 --> 00:00:21.080 
+are working inside of this controller
+
+00:00:21.080 --> 00:00:22.659 
+are working inside of this controller
+action<00:00:21.560> what<00:00:22.130> I've<00:00:22.220> done<00:00:22.369> is<00:00:22.520> I've<00:00:22.610> created
+
+00:00:22.659 --> 00:00:22.669 
+action what I've done is I've created
+
+00:00:22.669 --> 00:00:24.730 
+action what I've done is I've created
+wrapper<00:00:23.419> methods<00:00:23.779> called<00:00:24.020> get<00:00:24.259> headline<00:00:24.710> a
+
+00:00:24.730 --> 00:00:24.740 
+wrapper methods called get headline a
+
+00:00:24.740 --> 00:00:27.279 
+wrapper methods called get headline a
+sink<00:00:25.220> and<00:00:25.369> get<00:00:26.029> current<00:00:26.360> temperature<00:00:26.779> a<00:00:26.930> sink
+
+00:00:27.279 --> 00:00:27.289 
+sink and get current temperature a sink
+
+00:00:27.289 --> 00:00:30.189 
+sink and get current temperature a sink
+that<00:00:27.439> are<00:00:28.160> async<00:00:28.789> method<00:00:29.019> themselves<00:00:30.019> and
+
+00:00:30.189 --> 00:00:30.199 
+that are async method themselves and
+
+00:00:30.199 --> 00:00:32.040 
+that are async method themselves and
+they're<00:00:30.619> going<00:00:30.740> to<00:00:30.890> be<00:00:30.980> responsible<00:00:31.130> for
+
+00:00:32.040 --> 00:00:32.050 
+they're going to be responsible for
+
+00:00:32.050 --> 00:00:34.090 
+they're going to be responsible for
+instantiating<00:00:33.050> the<00:00:33.140> weather<00:00:33.379> service<00:00:33.650> and
+
+00:00:34.090 --> 00:00:34.100 
+instantiating the weather service and
+
+00:00:34.100 --> 00:00:36.939 
+instantiating the weather service and
+awaiting<00:00:34.910> the<00:00:35.239> result<00:00:35.600> of<00:00:35.780> the<00:00:36.379> call<00:00:36.589> to<00:00:36.800> get
+
+00:00:36.939 --> 00:00:36.949 
+awaiting the result of the call to get
+
+00:00:36.949 --> 00:00:39.579 
+awaiting the result of the call to get
+the<00:00:37.100> current<00:00:37.400> temperature<00:00:38.110> now<00:00:39.110> this<00:00:39.260> is<00:00:39.320> not
+
+00:00:39.579 --> 00:00:39.589 
+the current temperature now this is not
+
+00:00:39.589 --> 00:00:41.229 
+the current temperature now this is not
+typically<00:00:40.010> something<00:00:40.460> that<00:00:40.580> I'd<00:00:40.699> want<00:00:40.730> to<00:00:40.970> do
+
+00:00:41.229 --> 00:00:41.239 
+typically something that I'd want to do
+
+00:00:41.239 --> 00:00:43.540 
+typically something that I'd want to do
+specifically<00:00:41.900> I<00:00:42.230> wouldn't<00:00:42.860> want<00:00:43.010> to<00:00:43.040> create<00:00:43.309> a
+
+00:00:43.540 --> 00:00:43.550 
+specifically I wouldn't want to create a
+
+00:00:43.550 --> 00:00:45.430 
+specifically I wouldn't want to create a
+sink<00:00:43.850> methods<00:00:44.239> where<00:00:44.420> I'm<00:00:44.510> passing<00:00:44.960> my<00:00:45.079> model
+
+00:00:45.430 --> 00:00:45.440 
+sink methods where I'm passing my model
+
+00:00:45.440 --> 00:00:48.130 
+sink methods where I'm passing my model
+around<00:00:45.770> I<00:00:46.129> would<00:00:46.610> rather<00:00:46.940> have<00:00:47.420> these<00:00:47.570> methods
+
+00:00:48.130 --> 00:00:48.140 
+around I would rather have these methods
+
+00:00:48.140 --> 00:00:51.279 
+around I would rather have these methods
+return<00:00:49.070> a<00:00:49.340> task<00:00:49.699> event<00:00:50.180> or<00:00:50.390> a<00:00:50.449> task<00:00:50.719> of<00:00:50.930> double
+
+00:00:51.279 --> 00:00:51.289 
+return a task event or a task of double
+
+00:00:51.289 --> 00:00:53.560 
+return a task event or a task of double
+grab<00:00:51.980> that<00:00:52.160> result<00:00:52.550> back<00:00:52.820> in<00:00:53.030> the<00:00:53.149> primary
+
+00:00:53.560 --> 00:00:53.570 
+grab that result back in the primary
+
+00:00:53.570 --> 00:00:55.540 
+grab that result back in the primary
+action<00:00:53.780> and<00:00:54.320> assign<00:00:54.770> it<00:00:54.800> to<00:00:54.949> the<00:00:55.129> model<00:00:55.399> myself
+
+00:00:55.540 --> 00:00:55.550 
+action and assign it to the model myself
+
+00:00:55.550 --> 00:00:57.700 
+action and assign it to the model myself
+I<00:00:56.059> don't<00:00:56.510> like<00:00:56.660> having<00:00:56.870> that<00:00:57.050> side<00:00:57.350> effect
+
+00:00:57.700 --> 00:00:57.710 
+I don't like having that side effect
+
+00:00:57.710 --> 00:01:00.069 
+I don't like having that side effect
+inside<00:00:58.039> of<00:00:58.160> these<00:00:58.280> methods<00:00:58.670> but<00:00:59.329> this<00:00:59.870> is<00:01:00.050> just
+
+00:01:00.069 --> 00:01:00.079 
+inside of these methods but this is just
+
+00:01:00.079 --> 00:01:02.349 
+inside of these methods but this is just
+for<00:01:00.469> demonstration<00:01:00.520> purposes<00:01:01.520> and<00:01:01.789> it<00:01:02.180> makes
+
+00:01:02.349 --> 00:01:02.359 
+for demonstration purposes and it makes
+
+00:01:02.359 --> 00:01:04.600 
+for demonstration purposes and it makes
+it<00:01:02.510> easier<00:01:02.989> for<00:01:03.230> us<00:01:03.350> to<00:01:03.379> log<00:01:03.769> when<00:01:04.430> these
+
+00:01:04.600 --> 00:01:04.610 
+it easier for us to log when these
+
+00:01:04.610 --> 00:01:06.249 
+it easier for us to log when these
+particular<00:01:04.940> methods<00:01:05.509> are<00:01:05.630> starting<00:01:06.020> and<00:01:06.170> when
+
+00:01:06.249 --> 00:01:06.259 
+particular methods are starting and when
+
+00:01:06.259 --> 00:01:07.660 
+particular methods are starting and when
+they're<00:01:06.410> finishing<00:01:06.740> and<00:01:07.070> what<00:01:07.190> thread<00:01:07.490> there
+
+00:01:07.660 --> 00:01:07.670 
+they're finishing and what thread there
+
+00:01:07.670 --> 00:01:09.490 
+they're finishing and what thread there
+on<00:01:07.820> so<00:01:08.720> currently<00:01:09.020> this<00:01:09.200> is<00:01:09.320> how<00:01:09.440> the
+
+00:01:09.490 --> 00:01:09.500 
+on so currently this is how the
+
+00:01:09.500 --> 00:01:11.380 
+on so currently this is how the
+application<00:01:10.100> is<00:01:10.220> structured<00:01:10.700> and<00:01:10.940> I<00:01:11.000> have<00:01:11.240> it
+
+00:01:11.380 --> 00:01:11.390 
+application is structured and I have it
+
+00:01:11.390 --> 00:01:13.570 
+application is structured and I have it
+built<00:01:11.570> let's<00:01:12.320> just<00:01:12.440> go<00:01:12.679> in<00:01:12.860> and<00:01:13.070> run<00:01:13.250> it<00:01:13.340> in<00:01:13.490> a
+
+00:01:13.570 --> 00:01:13.580 
+built let's just go in and run it in a
+
+00:01:13.580 --> 00:01:15.430 
+built let's just go in and run it in a
+browser<00:01:13.759> and<00:01:14.210> the<00:01:14.450> results<00:01:14.990> might<00:01:15.259> be
+
+00:01:15.430 --> 00:01:15.440 
+browser and the results might be
+
+00:01:15.440 --> 00:01:16.960 
+browser and the results might be
+surprising<00:01:15.860> unless<00:01:16.280> you<00:01:16.460> picked<00:01:16.670> up<00:01:16.820> on<00:01:16.939> a
+
+00:01:16.960 --> 00:01:16.970 
+surprising unless you picked up on a
+
+00:01:16.970 --> 00:01:19.030 
+surprising unless you picked up on a
+subtle<00:01:17.330> bug<00:01:17.509> that's<00:01:17.750> here<00:01:18.020> so<00:01:18.770> when<00:01:18.950> the
+
+00:01:19.030 --> 00:01:19.040 
+subtle bug that's here so when the
+
+00:01:19.040 --> 00:01:21.010 
+subtle bug that's here so when the
+results<00:01:19.159> display<00:01:20.000> we<00:01:20.240> do<00:01:20.390> not<00:01:20.509> have<00:01:20.780> a<00:01:20.810> news
+
+00:01:21.010 --> 00:01:21.020 
+results display we do not have a news
+
+00:01:21.020 --> 00:01:22.450 
+results display we do not have a news
+headline<00:01:21.229> we<00:01:21.680> do<00:01:21.830> not<00:01:21.950> have<00:01:22.159> a<00:01:22.220> current
+
+00:01:22.450 --> 00:01:22.460 
+headline we do not have a current
+
+00:01:22.460 --> 00:01:24.340 
+headline we do not have a current
+temperature<00:01:23.000> and<00:01:23.240> it<00:01:23.600> only<00:01:23.720> took<00:01:23.960> 27
+
+00:01:24.340 --> 00:01:24.350 
+temperature and it only took 27
+
+00:01:24.350 --> 00:01:26.320 
+temperature and it only took 27
+milliseconds<00:01:25.040> to<00:01:25.070> render<00:01:25.460> and<00:01:25.670> there<00:01:26.240> was
+
+00:01:26.320 --> 00:01:26.330 
+milliseconds to render and there was
+
+00:01:26.330 --> 00:01:28.120 
+milliseconds to render and there was
+only<00:01:26.420> a<00:01:26.540> single<00:01:26.840> thread<00:01:27.229> that<00:01:27.409> was<00:01:27.590> seen<00:01:27.860> in
+
+00:01:28.120 --> 00:01:28.130 
+only a single thread that was seen in
+
+00:01:28.130 --> 00:01:30.280 
+only a single thread that was seen in
+the<00:01:28.549> index<00:01:28.909> action<00:01:29.150> getting<00:01:29.840> the<00:01:29.930> headline
+
+00:01:30.280 --> 00:01:30.290 
+the index action getting the headline
+
+00:01:30.290 --> 00:01:31.719 
+the index action getting the headline
+getting<00:01:30.710> the<00:01:30.829> weather<00:01:31.009> and<00:01:31.250> finishing<00:01:31.700> the
+
+00:01:31.719 --> 00:01:31.729 
+getting the weather and finishing the
+
+00:01:31.729 --> 00:01:34.240 
+getting the weather and finishing the
+thread<00:01:32.090> so<00:01:32.329> what<00:01:32.900> happened<00:01:33.320> here<00:01:33.590> well<00:01:34.130> the
+
+00:01:34.240 --> 00:01:34.250 
+thread so what happened here well the
+
+00:01:34.250 --> 00:01:36.340 
+thread so what happened here well the
+NBC<00:01:34.430> runtime<00:01:35.090> knew<00:01:35.329> it<00:01:35.479> had<00:01:35.630> to<00:01:35.750> run<00:01:35.900> the<00:01:36.020> index
+
+00:01:36.340 --> 00:01:36.350 
+NBC runtime knew it had to run the index
+
+00:01:36.350 --> 00:01:38.679 
+NBC runtime knew it had to run the index
+action<00:01:36.530> so<00:01:37.070> it<00:01:37.220> picked<00:01:37.729> up<00:01:37.880> a<00:01:38.000> thread<00:01:38.270> and<00:01:38.450> told
+
+00:01:38.679 --> 00:01:38.689 
+action so it picked up a thread and told
+
+00:01:38.689 --> 00:01:41.230 
+action so it picked up a thread and told
+it<00:01:38.810> to<00:01:38.840> invoke<00:01:39.290> this<00:01:39.500> method<00:01:39.560> it<00:01:40.100> came<00:01:40.759> in<00:01:40.790> and
+
+00:01:41.230 --> 00:01:41.240 
+it to invoke this method it came in and
+
+00:01:41.240 --> 00:01:42.700 
+it to invoke this method it came in and
+it<00:01:41.420> started<00:01:41.780> to<00:01:41.899> get<00:01:42.020> the<00:01:42.229> headline
+
+00:01:42.700 --> 00:01:42.710 
+it started to get the headline
+
+00:01:42.710 --> 00:01:45.639 
+it started to get the headline
+asynchronously<00:01:43.610> and<00:01:43.970> when<00:01:44.780> it<00:01:44.930> hit<00:01:45.140> this<00:01:45.380> line
+
+00:01:45.639 --> 00:01:45.649 
+asynchronously and when it hit this line
+
+00:01:45.649 --> 00:01:48.460 
+asynchronously and when it hit this line
+it<00:01:45.950> said<00:01:46.159> oh<00:01:46.340> I<00:01:46.640> need<00:01:46.909> to<00:01:47.090> wait<00:01:47.329> or<00:01:47.750> this<00:01:47.780> task
+
+00:01:48.460 --> 00:01:48.470 
+it said oh I need to wait or this task
+
+00:01:48.470 --> 00:01:50.280 
+it said oh I need to wait or this task
+to<00:01:48.680> complete<00:01:48.710> so<00:01:49.640> I'm<00:01:49.729> going<00:01:49.909> to<00:01:50.000> suspend
+
+00:01:50.280 --> 00:01:50.290 
+to complete so I'm going to suspend
+
+00:01:50.290 --> 00:01:52.870 
+to complete so I'm going to suspend
+execution<00:01:51.290> at<00:01:51.409> this<00:01:51.590> point<00:01:51.829> in<00:01:51.950> time<00:01:51.979> and<00:01:52.460> I'm
+
+00:01:52.870 --> 00:01:52.880 
+execution at this point in time and I'm
+
+00:01:52.880 --> 00:01:55.300 
+execution at this point in time and I'm
+going<00:01:53.060> to<00:01:53.119> jump<00:01:53.390> back<00:01:53.630> up<00:01:53.869> in<00:01:54.200> my<00:01:54.710> call<00:01:54.950> stack
+
+00:01:55.300 --> 00:01:55.310 
+going to jump back up in my call stack
+
+00:01:55.310 --> 00:01:57.910 
+going to jump back up in my call stack
+and<00:01:55.570> go<00:01:56.570> to<00:01:56.630> the<00:01:56.810> next<00:01:56.930> line<00:01:57.079> of<00:01:57.140> code<00:01:57.259> will
+
+00:01:57.910 --> 00:01:57.920 
+and go to the next line of code will
+
+00:01:57.920 --> 00:01:59.889 
+and go to the next line of code will
+just<00:01:58.100> get<00:01:58.219> current<00:01:58.670> temperature<00:01:59.180> a<00:01:59.299> sink<00:01:59.630> so
+
+00:01:59.889 --> 00:01:59.899 
+just get current temperature a sink so
+
+00:01:59.899 --> 00:02:02.139 
+just get current temperature a sink so
+it<00:02:00.020> comes<00:02:00.170> into<00:02:00.469> this<00:02:00.590> method<00:02:01.060> instantiates<00:02:02.060> a
+
+00:02:02.139 --> 00:02:02.149 
+it comes into this method instantiates a
+
+00:02:02.149 --> 00:02:04.330 
+it comes into this method instantiates a
+service<00:02:02.479> client<00:02:02.899> it<00:02:03.079> finds<00:02:03.560> it<00:02:03.710> has<00:02:03.860> to<00:02:04.009> wait
+
+00:02:04.330 --> 00:02:04.340 
+service client it finds it has to wait
+
+00:02:04.340 --> 00:02:06.459 
+service client it finds it has to wait
+another<00:02:04.700> task<00:02:05.060> result<00:02:05.570> so<00:02:05.960> it<00:02:06.079> suspends
+
+00:02:06.459 --> 00:02:06.469 
+another task result so it suspends
+
+00:02:06.469 --> 00:02:09.249 
+another task result so it suspends
+execution<00:02:07.040> of<00:02:07.100> this<00:02:07.280> method<00:02:07.670> and<00:02:07.850> it<00:02:08.720> is<00:02:09.019> still
+
+00:02:09.249 --> 00:02:09.259 
+execution of this method and it is still
+
+00:02:09.259 --> 00:02:11.350 
+execution of this method and it is still
+free<00:02:09.560> now<00:02:09.769> so<00:02:10.039> we<00:02:10.130> can<00:02:10.160> jump<00:02:10.489> back<00:02:10.610> up<00:02:10.820> here<00:02:11.209> add
+
+00:02:11.350 --> 00:02:11.360 
+free now so we can jump back up here add
+
+00:02:11.360 --> 00:02:14.650 
+free now so we can jump back up here add
+this<00:02:11.420> finished<00:02:12.290> action<00:02:12.860> and<00:02:13.070> then<00:02:13.510> return<00:02:14.510> of
+
+00:02:14.650 --> 00:02:14.660 
+this finished action and then return of
+
+00:02:14.660 --> 00:02:16.840 
+this finished action and then return of
+you<00:02:14.870> so<00:02:15.410> at<00:02:15.530> that<00:02:15.680> point<00:02:15.739> even<00:02:16.430> though<00:02:16.519> we<00:02:16.670> had
+
+00:02:16.840 --> 00:02:16.850 
+you so at that point even though we had
+
+00:02:16.850 --> 00:02:19.629 
+you so at that point even though we had
+two<00:02:17.120> methods<00:02:17.630> suspended<00:02:18.380> out<00:02:18.500> here<00:02:18.829> as<00:02:19.250> far<00:02:19.549> as
+
+00:02:19.629 --> 00:02:19.639 
+two methods suspended out here as far as
+
+00:02:19.639 --> 00:02:21.640 
+two methods suspended out here as far as
+the<00:02:19.760> NBC<00:02:20.180> runtime<00:02:20.600> was<00:02:20.750> concerned<00:02:21.169> we
+
+00:02:21.640 --> 00:02:21.650 
+the NBC runtime was concerned we
+
+00:02:21.650 --> 00:02:23.770 
+the NBC runtime was concerned we
+produced<00:02:22.070> an<00:02:22.220> action<00:02:22.609> result<00:02:22.940> so<00:02:23.510> it<00:02:23.630> took
+
+00:02:23.770 --> 00:02:23.780 
+produced an action result so it took
+
+00:02:23.780 --> 00:02:24.370 
+produced an action result so it took
+that<00:02:23.930> action
+
+00:02:24.370 --> 00:02:24.380 
+that action
+
+00:02:24.380 --> 00:02:26.230 
+that action
+result<00:02:24.590> and<00:02:24.830> rendered<00:02:25.100> of<00:02:25.220> you<00:02:25.460> but<00:02:26.120> of<00:02:26.210> course
+
+00:02:26.230 --> 00:02:26.240 
+result and rendered of you but of course
+
+00:02:26.240 --> 00:02:28.150 
+result and rendered of you but of course
+the<00:02:26.600> model<00:02:26.960> wasn't<00:02:27.260> completely<00:02:27.590> built<00:02:27.920> yet
+
+00:02:28.150 --> 00:02:28.160 
+the model wasn't completely built yet
+
+00:02:28.160 --> 00:02:31.480 
+the model wasn't completely built yet
+the<00:02:28.880> problem<00:02:29.390> was<00:02:29.600> that<00:02:29.630> we<00:02:30.050> never<00:02:30.320> waited<00:02:30.890> for
+
+00:02:31.480 --> 00:02:31.490 
+the problem was that we never waited for
+
+00:02:31.490 --> 00:02:33.430 
+the problem was that we never waited for
+these<00:02:31.610> other<00:02:31.850> asynchronous<00:02:32.600> operations<00:02:33.260> to
+
+00:02:33.430 --> 00:02:33.440 
+these other asynchronous operations to
+
+00:02:33.440 --> 00:02:35.590 
+these other asynchronous operations to
+complete<00:02:33.770> and<00:02:34.010> that's<00:02:34.520> why<00:02:34.700> we<00:02:34.730> again<00:02:35.360> have<00:02:35.570> a
+
+00:02:35.590 --> 00:02:35.600 
+complete and that's why we again have a
+
+00:02:35.600 --> 00:02:37.270 
+complete and that's why we again have a
+c-sharp<00:02:36.020> compiler<00:02:36.470> warning<00:02:36.890> that<00:02:37.040> you<00:02:37.070> have
+
+00:02:37.270 --> 00:02:37.280 
+c-sharp compiler warning that you have
+
+00:02:37.280 --> 00:02:39.370 
+c-sharp compiler warning that you have
+an<00:02:37.400> async<00:02:37.790> method<00:02:37.850> without<00:02:38.630> a<00:02:39.050> no<00:02:39.230> wait
+
+00:02:39.370 --> 00:02:39.380 
+an async method without a no wait
+
+00:02:39.380 --> 00:02:42.520 
+an async method without a no wait
+operator<00:02:39.890> so<00:02:40.580> if<00:02:40.850> I<00:02:40.970> just<00:02:41.000> put<00:02:41.480> a<00:02:41.690> wait<00:02:42.050> here
+
+00:02:42.520 --> 00:02:42.530 
+operator so if I just put a wait here
+
+00:02:42.530 --> 00:02:46.330 
+operator so if I just put a wait here
+then<00:02:43.030> what<00:02:44.030> we'll<00:02:44.180> be<00:02:44.330> doing<00:02:44.510> is<00:02:44.980> as<00:02:45.980> soon<00:02:46.220> as
+
+00:02:46.330 --> 00:02:46.340 
+then what we'll be doing is as soon as
+
+00:02:46.340 --> 00:02:48.130 
+then what we'll be doing is as soon as
+we<00:02:46.490> call<00:02:46.700> that<00:02:46.940> method<00:02:47.090> we're<00:02:47.570> going<00:02:47.600> to<00:02:47.870> wait
+
+00:02:48.130 --> 00:02:48.140 
+we call that method we're going to wait
+
+00:02:48.140 --> 00:02:49.570 
+we call that method we're going to wait
+for<00:02:48.470> the<00:02:48.500> result<00:02:48.860> we're<00:02:49.070> going<00:02:49.220> to<00:02:49.340> wait<00:02:49.550> for
+
+00:02:49.570 --> 00:02:49.580 
+for the result we're going to wait for
+
+00:02:49.580 --> 00:02:51.400 
+for the result we're going to wait for
+the<00:02:49.880> task<00:02:50.120> that's<00:02:50.420> inside<00:02:50.810> of<00:02:50.840> here<00:02:51.230> to
+
+00:02:51.400 --> 00:02:51.410 
+the task that's inside of here to
+
+00:02:51.410 --> 00:02:57.880 
+the task that's inside of here to
+complete<00:02:51.760> so<00:02:52.760> now<00:02:52.910> if<00:02:53.060> I<00:02:53.150> do<00:02:53.210> a<00:02:53.330> build<00:02:56.740> then<00:02:57.740> as
+
+00:02:57.880 --> 00:02:57.890 
+complete so now if I do a build then as
+
+00:02:57.890 --> 00:02:59.290 
+complete so now if I do a build then as
+soon<00:02:58.010> as<00:02:58.190> that<00:02:58.310> completes<00:02:58.730> I<00:02:58.880> should<00:02:59.060> be<00:02:59.180> able
+
+00:02:59.290 --> 00:02:59.300 
+soon as that completes I should be able
+
+00:02:59.300 --> 00:03:01.570 
+soon as that completes I should be able
+to<00:02:59.480> refresh<00:02:59.750> the<00:02:59.990> browser<00:03:00.110> and<00:03:00.650> we<00:03:01.190> should<00:03:01.400> see
+
+00:03:01.570 --> 00:03:01.580 
+to refresh the browser and we should see
+
+00:03:01.580 --> 00:03:03.220 
+to refresh the browser and we should see
+some<00:03:01.610> different<00:03:02.090> results<00:03:02.510> this<00:03:02.630> time<00:03:02.690> and<00:03:03.140> we
+
+00:03:03.220 --> 00:03:03.230 
+some different results this time and we
+
+00:03:03.230 --> 00:03:04.780 
+some different results this time and we
+should<00:03:03.380> actually<00:03:03.620> get<00:03:04.280> some<00:03:04.610> results
+
+00:03:04.780 --> 00:03:04.790 
+should actually get some results
+
+00:03:04.790 --> 00:03:08.260 
+should actually get some results
+interview<00:03:05.600> and<00:03:06.460> here's<00:03:07.460> the<00:03:07.580> final<00:03:07.730> results
+
+00:03:08.260 --> 00:03:08.270 
+interview and here's the final results
+
+00:03:08.270 --> 00:03:10.690 
+interview and here's the final results
+so<00:03:08.990> we<00:03:09.380> now<00:03:09.530> have<00:03:09.770> a<00:03:09.800> news<00:03:10.010> headline<00:03:10.190> we<00:03:10.580> now
+
+00:03:10.690 --> 00:03:10.700 
+so we now have a news headline we now
+
+00:03:10.700 --> 00:03:12.160 
+so we now have a news headline we now
+have<00:03:10.880> the<00:03:11.000> current<00:03:11.270> temperature<00:03:11.690> because<00:03:12.020> we
+
+00:03:12.160 --> 00:03:12.170 
+have the current temperature because we
+
+00:03:12.170 --> 00:03:14.170 
+have the current temperature because we
+waited<00:03:12.650> for<00:03:12.800> those<00:03:13.040> results<00:03:13.610> to<00:03:13.760> get<00:03:13.880> set<00:03:14.150> in
+
+00:03:14.170 --> 00:03:14.180 
+waited for those results to get set in
+
+00:03:14.180 --> 00:03:16.330 
+waited for those results to get set in
+the<00:03:14.450> model<00:03:14.750> and<00:03:14.930> we<00:03:15.500> can<00:03:15.620> also<00:03:15.740> see<00:03:16.070> that<00:03:16.100> we
+
+00:03:16.330 --> 00:03:16.340 
+the model and we can also see that we
+
+00:03:16.340 --> 00:03:18.130 
+the model and we can also see that we
+started<00:03:16.850> a<00:03:16.940> lot<00:03:17.090> of<00:03:17.180> these<00:03:17.270> actions<00:03:17.720> on<00:03:17.870> thread
+
+00:03:18.130 --> 00:03:18.140 
+started a lot of these actions on thread
+
+00:03:18.140 --> 00:03:21.400 
+started a lot of these actions on thread
+119<00:03:18.770> and<00:03:19.400> we<00:03:19.610> finished<00:03:19.910> on<00:03:20.090> 120<00:03:20.690> that's<00:03:21.020> just
+
+00:03:21.400 --> 00:03:21.410 
+119 and we finished on 120 that's just
+
+00:03:21.410 --> 00:03:22.600 
+119 and we finished on 120 that's just
+the<00:03:21.560> way<00:03:21.680> it<00:03:21.800> turned<00:03:21.830> out<00:03:22.130> with<00:03:22.310> a<00:03:22.340> thread
+
+00:03:22.600 --> 00:03:22.610 
+the way it turned out with a thread
+
+00:03:22.610 --> 00:03:24.310 
+the way it turned out with a thread
+scheduler<00:03:22.850> and<00:03:23.240> what<00:03:23.720> happened<00:03:24.020> behind<00:03:24.110> the
+
+00:03:24.310 --> 00:03:24.320 
+scheduler and what happened behind the
+
+00:03:24.320 --> 00:03:26.380 
+scheduler and what happened behind the
+scenes<00:03:24.380> this<00:03:24.770> time<00:03:25.070> is<00:03:25.280> that<00:03:25.460> when<00:03:26.000> the<00:03:26.060> thread
+
+00:03:26.380 --> 00:03:26.390 
+scenes this time is that when the thread
+
+00:03:26.390 --> 00:03:28.630 
+scenes this time is that when the thread
+came<00:03:26.600> into<00:03:26.840> the<00:03:26.930> index<00:03:27.320> action<00:03:27.500> and<00:03:27.950> it<00:03:28.400> called
+
+00:03:28.630 --> 00:03:28.640 
+came into the index action and it called
+
+00:03:28.640 --> 00:03:30.670 
+came into the index action and it called
+in<00:03:28.790> to<00:03:28.910> get<00:03:29.000> headline<00:03:29.450> a<00:03:29.630> sink<00:03:30.050> it<00:03:30.500> also
+
+00:03:30.670 --> 00:03:30.680 
+in to get headline a sink it also
+
+00:03:30.680 --> 00:03:33.040 
+in to get headline a sink it also
+suspended<00:03:31.490> execution<00:03:32.120> at<00:03:32.270> that<00:03:32.480> point<00:03:32.750> and
+
+00:03:33.040 --> 00:03:33.050 
+suspended execution at that point and
+
+00:03:33.050 --> 00:03:35.260 
+suspended execution at that point and
+waited<00:03:33.830> for<00:03:33.980> that<00:03:34.040> result<00:03:34.460> the<00:03:34.670> threat<00:03:34.910> itself
+
+00:03:35.260 --> 00:03:35.270 
+waited for that result the threat itself
+
+00:03:35.270 --> 00:03:37.180 
+waited for that result the threat itself
+might<00:03:35.600> have<00:03:35.750> jumped<00:03:35.990> back<00:03:36.230> into<00:03:36.590> the<00:03:36.800> NBC
+
+00:03:37.180 --> 00:03:37.190 
+might have jumped back into the NBC
+
+00:03:37.190 --> 00:03:39.520 
+might have jumped back into the NBC
+runtime<00:03:37.610> to<00:03:37.820> do<00:03:37.970> different<00:03:38.330> work<00:03:38.510> but<00:03:39.200> at<00:03:39.320> some
+
+00:03:39.520 --> 00:03:39.530 
+runtime to do different work but at some
+
+00:03:39.530 --> 00:03:40.900 
+runtime to do different work but at some
+point<00:03:39.560> it<00:03:39.860> picked<00:03:40.100> up<00:03:40.250> where<00:03:40.460> it<00:03:40.490> left<00:03:40.580> off
+
+00:03:40.900 --> 00:03:40.910 
+point it picked up where it left off
+
+00:03:40.910 --> 00:03:43.420 
+point it picked up where it left off
+after<00:03:41.720> waiting<00:03:42.020> for<00:03:42.590> those<00:03:42.680> results<00:03:43.190> to<00:03:43.340> be
+
+00:03:43.420 --> 00:03:43.430 
+after waiting for those results to be
+
+00:03:43.430 --> 00:03:45.640 
+after waiting for those results to be
+computed<00:03:43.940> so<00:03:44.540> the<00:03:44.870> other<00:03:45.050> thing<00:03:45.140> to<00:03:45.470> notice
+
+00:03:45.640 --> 00:03:45.650 
+computed so the other thing to notice
+
+00:03:45.650 --> 00:03:47.770 
+computed so the other thing to notice
+about<00:03:45.830> this<00:03:46.240> we're<00:03:47.240> still<00:03:47.450> doing<00:03:47.570> these
+
+00:03:47.770 --> 00:03:47.780 
+about this we're still doing these
+
+00:03:47.780 --> 00:03:49.930 
+about this we're still doing these
+operations<00:03:48.440> in<00:03:48.590> serial<00:03:49.070> so<00:03:49.280> the<00:03:49.430> elapsed<00:03:49.940> time
+
+00:03:49.930 --> 00:03:49.940 
+operations in serial so the elapsed time
+
+00:03:49.940 --> 00:03:52.540 
+operations in serial so the elapsed time
+to<00:03:50.330> render<00:03:50.690> was<00:03:51.230> still<00:03:51.470> over<00:03:51.680> 4,000
+
+00:03:52.540 --> 00:03:52.550 
+to render was still over 4,000
+
+00:03:52.550 --> 00:03:54.730 
+to render was still over 4,000
+milliseconds<00:03:52.790> and<00:03:53.360> that's<00:03:54.110> because<00:03:54.320> we're
+
+00:03:54.730 --> 00:03:54.740 
+milliseconds and that's because we're
+
+00:03:54.740 --> 00:03:56.770 
+milliseconds and that's because we're
+waiting<00:03:55.610> for<00:03:55.640> the<00:03:55.880> headline<00:03:56.300> call<00:03:56.600> to
+
+00:03:56.770 --> 00:03:56.780 
+waiting for the headline call to
+
+00:03:56.780 --> 00:03:59.470 
+waiting for the headline call to
+complete<00:03:57.170> before<00:03:57.610> we<00:03:58.610> go<00:03:58.790> and<00:03:59.030> try<00:03:59.180> to<00:03:59.240> get<00:03:59.390> the
+
+00:03:59.470 --> 00:03:59.480 
+complete before we go and try to get the
+
+00:03:59.480 --> 00:04:01.780 
+complete before we go and try to get the
+current<00:03:59.810> temperature<00:04:00.290> there's<00:04:00.980> a<00:04:01.100> different
+
+00:04:01.780 --> 00:04:01.790 
+current temperature there's a different
+
+00:04:01.790 --> 00:04:03.460 
+current temperature there's a different
+way<00:04:01.880> we<00:04:02.090> could<00:04:02.240> do<00:04:02.450> this<00:04:02.480> if<00:04:02.870> we<00:04:02.900> wanted<00:04:03.230> things
+
+00:04:03.460 --> 00:04:03.470 
+way we could do this if we wanted things
+
+00:04:03.470 --> 00:04:06.160 
+way we could do this if we wanted things
+to<00:04:03.590> operate<00:04:04.190> in<00:04:04.400> parallel<00:04:04.910> and<00:04:05.180> that<00:04:05.720> is<00:04:05.930> I
+
+00:04:06.160 --> 00:04:06.170 
+to operate in parallel and that is I
+
+00:04:06.170 --> 00:04:08.890 
+to operate in parallel and that is I
+don't<00:04:06.500> want<00:04:06.680> to<00:04:06.800> await<00:04:07.490> as<00:04:08.209> soon<00:04:08.450> as<00:04:08.540> I<00:04:08.660> call
+
+00:04:08.890 --> 00:04:08.900 
+don't want to await as soon as I call
+
+00:04:08.900 --> 00:04:11.860 
+don't want to await as soon as I call
+get<00:04:09.110> headline<00:04:09.530> a<00:04:09.560> sink<00:04:10.150> instead<00:04:11.150> I<00:04:11.390> could<00:04:11.600> say
+
+00:04:11.860 --> 00:04:11.870 
+get headline a sink instead I could say
+
+00:04:11.870 --> 00:04:14.470 
+get headline a sink instead I could say
+that<00:04:11.920> we<00:04:12.920> could<00:04:13.100> store<00:04:13.430> this<00:04:13.790> into<00:04:14.330> the
+
+00:04:14.470 --> 00:04:14.480 
+that we could store this into the
+
+00:04:14.480 --> 00:04:17.560 
+that we could store this into the
+headline<00:04:14.990> task<00:04:15.440> variable<00:04:16.280> and<00:04:16.489> that<00:04:17.299> gives<00:04:17.480> me
+
+00:04:17.560 --> 00:04:17.570 
+headline task variable and that gives me
+
+00:04:17.570 --> 00:04:20.320 
+headline task variable and that gives me
+a<00:04:17.660> reference<00:04:18.140> to<00:04:18.290> the<00:04:18.410> task<00:04:18.910> that<00:04:19.910> gets<00:04:20.090> built
+
+00:04:20.320 --> 00:04:20.330 
+a reference to the task that gets built
+
+00:04:20.330 --> 00:04:23.470 
+a reference to the task that gets built
+by<00:04:20.480> get<00:04:20.630> headline<00:04:21.020> acing<00:04:21.410> and<00:04:22.360> instead<00:04:23.360> of
+
+00:04:23.470 --> 00:04:23.480 
+by get headline acing and instead of
+
+00:04:23.480 --> 00:04:27.070 
+by get headline acing and instead of
+awaiting<00:04:24.050> get<00:04:24.200> current<00:04:24.500> temperature<00:04:26.080> I'll
+
+00:04:27.070 --> 00:04:27.080 
+awaiting get current temperature I'll
+
+00:04:27.080 --> 00:04:30.280 
+awaiting get current temperature I'll
+also<00:04:27.830> assign<00:04:28.760> that<00:04:28.970> into<00:04:29.420> the<00:04:29.510> task<00:04:29.750> variable
+
+00:04:30.280 --> 00:04:30.290 
+also assign that into the task variable
+
+00:04:30.290 --> 00:04:33.100 
+also assign that into the task variable
+and<00:04:30.470> now<00:04:31.430> what<00:04:31.700> I<00:04:31.730> could<00:04:31.940> do<00:04:32.120> is<00:04:32.390> I<00:04:32.540> could<00:04:32.570> say<00:04:32.930> a
+
+00:04:33.100 --> 00:04:33.110 
+and now what I could do is I could say a
+
+00:04:33.110 --> 00:04:35.140 
+and now what I could do is I could say a
+weight<00:04:33.770> headline<00:04:34.250> task<00:04:34.580> and<00:04:34.940> a<00:04:35.000> weight
+
+00:04:35.140 --> 00:04:35.150 
+weight headline task and a weight
+
+00:04:35.150 --> 00:04:37.839 
+weight headline task and a weight
+temperature<00:04:35.660> task<00:04:35.930> or<00:04:36.229> I<00:04:36.290> could<00:04:37.070> also<00:04:37.190> combine
+
+00:04:37.839 --> 00:04:37.849 
+temperature task or I could also combine
+
+00:04:37.849 --> 00:04:42.010 
+temperature task or I could also combine
+us<00:04:37.909> together<00:04:38.089> by<00:04:38.479> saying<00:04:38.809> a<00:04:38.990> weight<00:04:40.629> task<00:04:41.629> dot
+
+00:04:42.010 --> 00:04:42.020 
+us together by saying a weight task dot
+
+00:04:42.020 --> 00:04:44.889 
+us together by saying a weight task dot
+went<00:04:42.289> all<00:04:42.469> so<00:04:43.129> in<00:04:43.249> other<00:04:43.459> words<00:04:43.789> when<00:04:44.389> all<00:04:44.629> of
+
+00:04:44.889 --> 00:04:44.899 
+went all so in other words when all of
+
+00:04:44.899 --> 00:04:47.619 
+went all so in other words when all of
+these<00:04:45.020> complete<00:04:45.439> and<00:04:46.119> inside<00:04:47.119> of<00:04:47.240> here<00:04:47.389> I<00:04:47.419> can
+
+00:04:47.619 --> 00:04:47.629 
+these complete and inside of here I can
+
+00:04:47.629 --> 00:04:49.089 
+these complete and inside of here I can
+list<00:04:47.809> multiple<00:04:47.990> tasks<00:04:48.589> so<00:04:48.679> i<00:04:48.709> could<00:04:48.919> say
+
+00:04:49.089 --> 00:04:49.099 
+list multiple tasks so i could say
+
+00:04:49.099 --> 00:04:51.779 
+list multiple tasks so i could say
+please<00:04:49.399> wait<00:04:49.639> on<00:04:49.909> the<00:04:50.270> headline<00:04:50.599> task<00:04:50.869> and
+
+00:04:51.779 --> 00:04:51.789 
+please wait on the headline task and
+
+00:04:51.789 --> 00:04:56.369 
+please wait on the headline task and
+please<00:04:52.789> wait<00:04:52.999> on<00:04:53.270> the<00:04:53.509> temperature<00:04:53.929> task<00:04:55.179> and
+
+00:04:56.369 --> 00:04:56.379 
+please wait on the temperature task and
+
+00:04:56.379 --> 00:04:58.689 
+please wait on the temperature task and
+what<00:04:57.379> tasks<00:04:57.800> that<00:04:57.919> went<00:04:58.159> all<00:04:58.249> essentially
+
+00:04:58.689 --> 00:04:58.699 
+what tasks that went all essentially
+
+00:04:58.699 --> 00:05:00.939 
+what tasks that went all essentially
+does<00:04:58.879> is<00:04:58.909> it<00:04:59.270> returns<00:04:59.569> another<00:04:59.929> task<00:05:00.259> that
+
+00:05:00.939 --> 00:05:00.949 
+does is it returns another task that
+
+00:05:00.949 --> 00:05:03.249 
+does is it returns another task that
+represents<00:05:01.580> the<00:05:02.089> combined<00:05:02.509> efforts<00:05:02.689> of<00:05:02.990> all
+
+00:05:03.249 --> 00:05:03.259 
+represents the combined efforts of all
+
+00:05:03.259 --> 00:05:04.899 
+represents the combined efforts of all
+that<00:05:03.439> outstanding<00:05:03.830> work<00:05:04.219> so<00:05:04.459> we're<00:05:04.610> going<00:05:04.699> to
+
+00:05:04.899 --> 00:05:04.909 
+that outstanding work so we're going to
+
+00:05:04.909 --> 00:05:07.149 
+that outstanding work so we're going to
+await<00:05:05.240> for<00:05:05.419> both<00:05:05.569> of<00:05:05.749> them<00:05:06.020> together<00:05:06.439> but<00:05:07.039> the
+
+00:05:07.149 --> 00:05:07.159 
+await for both of them together but the
+
+00:05:07.159 --> 00:05:09.219 
+await for both of them together but the
+important<00:05:07.520> part<00:05:07.759> here<00:05:07.909> is<00:05:08.240> that<00:05:08.419> I'm<00:05:08.629> kicking
+
+00:05:09.219 --> 00:05:09.229 
+important part here is that I'm kicking
+
+00:05:09.229 --> 00:05:11.559 
+important part here is that I'm kicking
+off<00:05:09.499> get<00:05:09.770> headline<00:05:10.189> a<00:05:10.399> sink<00:05:10.789> and<00:05:10.939> I'm<00:05:11.119> kicking
+
+00:05:11.559 --> 00:05:11.569 
+off get headline a sink and I'm kicking
+
+00:05:11.569 --> 00:05:13.359 
+off get headline a sink and I'm kicking
+off<00:05:11.719> get<00:05:12.019> current<00:05:12.349> temperature<00:05:12.769> a<00:05:12.889> sink<00:05:13.249> and
+
+00:05:13.359 --> 00:05:13.369 
+off get current temperature a sink and
+
+00:05:13.369 --> 00:05:15.939 
+off get current temperature a sink and
+not<00:05:14.029> waiting<00:05:14.509> until<00:05:14.659> both<00:05:15.110> of<00:05:15.289> those<00:05:15.409> tasks
+
+00:05:15.939 --> 00:05:15.949 
+not waiting until both of those tasks
+
+00:05:15.949 --> 00:05:17.949 
+not waiting until both of those tasks
+have<00:05:16.039> started<00:05:16.399> running<00:05:16.429> so<00:05:17.330> now<00:05:17.509> when<00:05:17.689> I<00:05:17.719> do<00:05:17.839> a
+
+00:05:17.949 --> 00:05:17.959 
+have started running so now when I do a
+
+00:05:17.959 --> 00:05:19.989 
+have started running so now when I do a
+build<00:05:18.319> and<00:05:18.589> I<00:05:18.619> refresh<00:05:18.919> the<00:05:19.129> browser<00:05:19.219> we
+
+00:05:19.989 --> 00:05:19.999 
+build and I refresh the browser we
+
+00:05:19.999 --> 00:05:21.699 
+build and I refresh the browser we
+should<00:05:20.240> see<00:05:20.509> the<00:05:20.659> time<00:05:20.869> to<00:05:21.080> render<00:05:21.379> reduce
+
+00:05:21.699 --> 00:05:21.709 
+should see the time to render reduce
+
+00:05:21.709 --> 00:05:24.609 
+should see the time to render reduce
+considerably<00:05:22.779> so<00:05:23.779> let<00:05:23.869> me<00:05:23.990> open<00:05:24.199> up<00:05:24.499> the
+
+00:05:24.609 --> 00:05:24.619 
+considerably so let me open up the
+
+00:05:24.619 --> 00:05:30.909 
+considerably so let me open up the
+browser<00:05:25.929> go<00:05:26.929> to<00:05:26.990> the<00:05:27.259> refresh<00:05:27.999> and<00:05:29.800> you<00:05:30.800> can
+
+00:05:30.909 --> 00:05:30.919 
+browser go to the refresh and you can
+
+00:05:30.919 --> 00:05:32.499 
+browser go to the refresh and you can
+see<00:05:31.069> we<00:05:31.219> still<00:05:31.429> produce<00:05:31.580> the<00:05:31.849> same<00:05:32.029> results
+
+00:05:32.499 --> 00:05:32.509 
+see we still produce the same results
+
+00:05:32.509 --> 00:05:34.089 
+see we still produce the same results
+notice<00:05:32.869> the<00:05:32.990> elapsed<00:05:33.229> time<00:05:33.349> to<00:05:33.649> render<00:05:33.949> ins
+
+00:05:34.089 --> 00:05:34.099 
+notice the elapsed time to render ins
+
+00:05:34.099 --> 00:05:36.040 
+notice the elapsed time to render ins
+drop<00:05:34.309> down<00:05:34.550> to<00:05:34.759> just<00:05:34.909> over<00:05:35.059> two<00:05:35.389> seconds<00:05:35.809> or
+
+00:05:36.040 --> 00:05:36.050 
+drop down to just over two seconds or
+
+00:05:36.050 --> 00:05:37.989 
+drop down to just over two seconds or
+twenty<00:05:36.349> one<00:05:36.469> hundred<00:05:36.499> milliseconds<00:05:37.339> and<00:05:37.789> we
+
+00:05:37.989 --> 00:05:37.999 
+twenty one hundred milliseconds and we
+
+00:05:37.999 --> 00:05:39.159 
+twenty one hundred milliseconds and we
+have<00:05:38.149> a<00:05:38.179> number<00:05:38.360> of<00:05:38.509> different<00:05:38.929> threads
+
+00:05:39.159 --> 00:05:39.169 
+have a number of different threads
+
+00:05:39.169 --> 00:05:41.169 
+have a number of different threads
+executing<00:05:39.860> inside<00:05:40.159> of<00:05:40.339> all<00:05:40.490> these<00:05:40.939> different
+
+00:05:41.169 --> 00:05:41.179 
+executing inside of all these different
+
+00:05:41.179 --> 00:05:43.540 
+executing inside of all these different
+operations<00:05:41.959> so<00:05:42.589> this<00:05:42.769> is<00:05:42.800> putting<00:05:43.129> things<00:05:43.369> in
+
+00:05:43.540 --> 00:05:43.550 
+operations so this is putting things in
+
+00:05:43.550 --> 00:05:46.089 
+operations so this is putting things in
+parallel<00:05:43.849> I<00:05:44.180> don't<00:05:44.659> want<00:05:44.869> to<00:05:45.019> await<00:05:45.499> anything
+
+00:05:46.089 --> 00:05:46.099 
+parallel I don't want to await anything
+
+00:05:46.099 --> 00:05:48.249 
+parallel I don't want to await anything
+until<00:05:46.759> after<00:05:47.180> I've<00:05:47.269> kicked<00:05:47.569> off<00:05:47.779> all<00:05:48.050> those
+
+00:05:48.249 --> 00:05:48.259 
+until after I've kicked off all those
+
+00:05:48.259 --> 00:05:50.409 
+until after I've kicked off all those
+asynchronous<00:05:48.919> tasks<00:05:49.159> they<00:05:49.879> can<00:05:50.059> happen<00:05:50.329> on
+
+00:05:50.409 --> 00:05:50.419 
+asynchronous tasks they can happen on
+
+00:05:50.419 --> 00:05:51.999 
+asynchronous tasks they can happen on
+background<00:05:50.839> threads<00:05:51.289> I'll<00:05:51.469> wait<00:05:51.709> all<00:05:51.889> the
+
+00:05:51.999 --> 00:05:52.009 
+background threads I'll wait all the
+
+00:05:52.009 --> 00:05:54.969 
+background threads I'll wait all the
+results<00:05:52.490> and<00:05:52.939> put<00:05:53.149> the<00:05:53.300> model<00:05:53.599> together<00:05:53.979> so
+
+00:05:54.969 --> 00:05:54.979 
+results and put the model together so
+
+00:05:54.979 --> 00:05:57.100 
+results and put the model together so
+async<00:05:55.490> await<00:05:55.550> doesn't<00:05:56.119> necessarily<00:05:56.779> mean
+
+00:05:57.100 --> 00:05:57.110 
+async await doesn't necessarily mean
+
+00:05:57.110 --> 00:05:59.559 
+async await doesn't necessarily mean
+that<00:05:57.610> you'll<00:05:58.610> be<00:05:58.729> running<00:05:58.879> on<00:05:59.089> a<00:05:59.119> background
+
+00:05:59.559 --> 00:05:59.569 
+that you'll be running on a background
+
+00:05:59.569 --> 00:06:01.059 
+that you'll be running on a background
+thread<00:05:59.689> doesn't<00:06:00.050> necessarily<00:06:00.709> mean<00:06:01.009> that
+
+00:06:01.059 --> 00:06:01.069 
+thread doesn't necessarily mean that
+
+00:06:01.069 --> 00:06:02.409 
+thread doesn't necessarily mean that
+you'll<00:06:01.399> be<00:06:01.519> running<00:06:01.699> a<00:06:01.879> bunch<00:06:02.149> of<00:06:02.269> different
+
+00:06:02.409 --> 00:06:02.419 
+you'll be running a bunch of different
+
+00:06:02.419 --> 00:06:04.929 
+you'll be running a bunch of different
+things<00:06:02.869> in<00:06:03.139> parallel<00:06:03.619> it<00:06:04.189> all<00:06:04.339> depends<00:06:04.699> on<00:06:04.759> how
+
+00:06:04.929 --> 00:06:04.939 
+things in parallel it all depends on how
+
+00:06:04.939 --> 00:06:06.819 
+things in parallel it all depends on how
+you<00:06:04.969> structure<00:06:05.599> your<00:06:05.629> code<00:06:05.990> and<00:06:06.289> where<00:06:06.740> you
+
+00:06:06.819 --> 00:06:06.829 
+you structure your code and where you
+
+00:06:06.829 --> 00:06:28.180 
+you structure your code and where you
+put<00:06:07.009> the<00:06:07.129> await<00:06:07.459> keyword
+
+00:06:28.180 --> 00:06:28.190 
+
+00:06:28.190 --> 00:06:31.190 
+
+30
+

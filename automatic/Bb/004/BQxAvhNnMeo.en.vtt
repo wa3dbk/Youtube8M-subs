@@ -1,0 +1,1057 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.160 --> 00:00:12.070 
+
+[Music]
+
+00:00:12.070 --> 00:00:12.080 
+[Music]
+
+00:00:12.080 --> 00:00:15.230 
+[Music]
+hi<00:00:13.080> I'm<00:00:13.410> Massimo<00:00:14.250> Banzi<00:00:14.370> and<00:00:14.700> I<00:00:14.759> like<00:00:14.940> to<00:00:15.089> make
+
+00:00:15.230 --> 00:00:15.240 
+hi I'm Massimo Banzi and I like to make
+
+00:00:15.240 --> 00:00:18.320 
+hi I'm Massimo Banzi and I like to make
+stuff<00:00:15.859> welcome<00:00:16.859> to<00:00:17.070> another<00:00:17.279> tutorial<00:00:17.760> taken
+
+00:00:18.320 --> 00:00:18.330 
+stuff welcome to another tutorial taken
+
+00:00:18.330 --> 00:00:22.370 
+stuff welcome to another tutorial taken
+from<00:00:18.480> our<00:00:18.660> Arduino<00:00:19.560> starter<00:00:19.619> kit<00:00:20.330> so<00:00:21.380> today
+
+00:00:22.370 --> 00:00:22.380 
+from our Arduino starter kit so today
+
+00:00:22.380 --> 00:00:24.439 
+from our Arduino starter kit so today
+we're<00:00:22.890> going<00:00:23.010> to<00:00:23.100> be<00:00:23.189> building<00:00:23.580> a<00:00:23.760> small
+
+00:00:24.439 --> 00:00:24.449 
+we're going to be building a small
+
+00:00:24.449 --> 00:00:27.230 
+we're going to be building a small
+musical<00:00:25.260> instrument<00:00:25.800> you<00:00:26.250> can<00:00:26.310> see<00:00:26.640> here<00:00:27.029> it's
+
+00:00:27.230 --> 00:00:27.240 
+musical instrument you can see here it's
+
+00:00:27.240 --> 00:00:30.140 
+musical instrument you can see here it's
+a<00:00:27.510> again<00:00:27.990> a<00:00:28.199> simple<00:00:28.769> circuit<00:00:29.189> we<00:00:29.670> have<00:00:29.820> four
+
+00:00:30.140 --> 00:00:30.150 
+a again a simple circuit we have four
+
+00:00:30.150 --> 00:00:33.049 
+a again a simple circuit we have four
+buttons<00:00:30.689> connected<00:00:31.619> to<00:00:31.710> the<00:00:31.800> Arduino<00:00:32.340> and<00:00:32.489> a
+
+00:00:33.049 --> 00:00:33.059 
+buttons connected to the Arduino and a
+
+00:00:33.059 --> 00:00:36.049 
+buttons connected to the Arduino and a
+small<00:00:33.360> piezo<00:00:34.079> speaker<00:00:34.260> or<00:00:34.770> Paizo<00:00:35.670> speaker
+
+00:00:36.049 --> 00:00:36.059 
+small piezo speaker or Paizo speaker
+
+00:00:36.059 --> 00:00:38.720 
+small piezo speaker or Paizo speaker
+depending<00:00:36.809> on<00:00:36.960> where<00:00:37.380> you<00:00:37.500> come<00:00:37.680> from<00:00:37.739> so
+
+00:00:38.720 --> 00:00:38.730 
+depending on where you come from so
+
+00:00:38.730 --> 00:00:40.520 
+depending on where you come from so
+let's<00:00:38.879> press<00:00:39.120> the<00:00:39.329> buttons<00:00:39.750> and<00:00:39.960> see<00:00:40.200> what
+
+00:00:40.520 --> 00:00:40.530 
+let's press the buttons and see what
+
+00:00:40.530 --> 00:00:41.170 
+let's press the buttons and see what
+happens
+
+00:00:41.170 --> 00:00:41.180 
+happens
+
+00:00:41.180 --> 00:00:44.900 
+happens
+so<00:00:42.180> each<00:00:42.510> button<00:00:43.410> is<00:00:43.620> associated<00:00:44.399> with<00:00:44.430> a<00:00:44.579> node
+
+00:00:44.900 --> 00:00:44.910 
+so each button is associated with a node
+
+00:00:44.910 --> 00:00:47.840 
+so each button is associated with a node
+so<00:00:45.690> every<00:00:45.870> time<00:00:46.050> I<00:00:46.079> press<00:00:46.410> the<00:00:46.559> button<00:00:46.850> Arduino
+
+00:00:47.840 --> 00:00:47.850 
+so every time I press the button Arduino
+
+00:00:47.850 --> 00:00:50.450 
+so every time I press the button Arduino
+produces<00:00:48.239> a<00:00:48.270> sound<00:00:48.629> through<00:00:49.440> the<00:00:49.680> piezo
+
+00:00:50.450 --> 00:00:50.460 
+produces a sound through the piezo
+
+00:00:50.460 --> 00:00:54.049 
+produces a sound through the piezo
+speaker<00:00:51.170> so<00:00:52.170> how<00:00:52.350> does<00:00:52.410> this<00:00:52.739> work<00:00:52.980> well<00:00:53.640> let's
+
+00:00:54.049 --> 00:00:54.059 
+speaker so how does this work well let's
+
+00:00:54.059 --> 00:00:56.150 
+speaker so how does this work well let's
+start<00:00:54.210> from<00:00:54.300> the<00:00:54.539> circuit<00:00:54.960> you<00:00:55.530> can<00:00:55.559> see<00:00:55.920> here
+
+00:00:56.150 --> 00:00:56.160 
+start from the circuit you can see here
+
+00:00:56.160 --> 00:00:58.279 
+start from the circuit you can see here
+there<00:00:56.340> are<00:00:56.430> four<00:00:56.730> buttons<00:00:56.940> but<00:00:57.930> the<00:00:58.050> four
+
+00:00:58.279 --> 00:00:58.289 
+there are four buttons but the four
+
+00:00:58.289 --> 00:01:00.349 
+there are four buttons but the four
+buttons<00:00:58.739> are<00:00:58.890> connected<00:00:59.399> to<00:00:59.520> the<00:00:59.640> Arduino
+
+00:01:00.349 --> 00:01:00.359 
+buttons are connected to the Arduino
+
+00:01:00.359 --> 00:01:02.479 
+buttons are connected to the Arduino
+board<00:01:00.390> with<00:01:00.719> just<00:01:00.750> one<00:01:01.140> wire<00:01:01.379> so<00:01:02.280> in<00:01:02.399> the
+
+00:01:02.479 --> 00:01:02.489 
+board with just one wire so in the
+
+00:01:02.489 --> 00:01:04.759 
+board with just one wire so in the
+previous<00:01:02.940> examples<00:01:03.750> we've<00:01:03.960> seen<00:01:03.989> that<00:01:04.470> for
+
+00:01:04.759 --> 00:01:04.769 
+previous examples we've seen that for
+
+00:01:04.769 --> 00:01:07.880 
+previous examples we've seen that for
+every<00:01:05.700> button<00:01:06.000> we<00:01:06.390> add<00:01:06.570> a<00:01:06.780> wire<00:01:07.080> going<00:01:07.110> to<00:01:07.770> the
+
+00:01:07.880 --> 00:01:07.890 
+every button we add a wire going to the
+
+00:01:07.890 --> 00:01:10.190 
+every button we add a wire going to the
+Arduino<00:01:08.280> board<00:01:08.369> we<00:01:08.670> were<00:01:08.790> using<00:01:09.030> one<00:01:09.420> digital
+
+00:01:10.190 --> 00:01:10.200 
+Arduino board we were using one digital
+
+00:01:10.200 --> 00:01:13.190 
+Arduino board we were using one digital
+pin<00:01:10.500> to<00:01:11.250> read<00:01:11.460> each<00:01:11.760> individual<00:01:12.600> button<00:01:13.020> in
+
+00:01:13.190 --> 00:01:13.200 
+pin to read each individual button in
+
+00:01:13.200 --> 00:01:16.249 
+pin to read each individual button in
+here<00:01:13.950> we<00:01:14.100> have<00:01:14.280> four<00:01:14.700> buttons<00:01:15.180> connected<00:01:16.170> to
+
+00:01:16.249 --> 00:01:16.259 
+here we have four buttons connected to
+
+00:01:16.259 --> 00:01:18.200 
+here we have four buttons connected to
+just<00:01:16.439> one<00:01:16.619> wire<00:01:16.830> because<00:01:17.340> we<00:01:17.490> have<00:01:17.640> built<00:01:17.880> what
+
+00:01:18.200 --> 00:01:18.210 
+just one wire because we have built what
+
+00:01:18.210 --> 00:01:20.719 
+just one wire because we have built what
+is<00:01:18.330> called<00:01:18.600> a<00:01:18.900> resistor<00:01:19.619> ladder<00:01:20.009> so<00:01:20.490> there's<00:01:20.670> a
+
+00:01:20.719 --> 00:01:20.729 
+is called a resistor ladder so there's a
+
+00:01:20.729 --> 00:01:23.359 
+is called a resistor ladder so there's a
+combination<00:01:20.939> of<00:01:21.540> resistors<00:01:22.470> and<00:01:22.740> buttons
+
+00:01:23.359 --> 00:01:23.369 
+combination of resistors and buttons
+
+00:01:23.369 --> 00:01:26.020 
+combination of resistors and buttons
+that<00:01:23.460> when<00:01:23.700> I<00:01:23.729> press<00:01:24.000> one<00:01:24.360> of<00:01:24.390> the<00:01:24.540> buttons<00:01:24.570> I
+
+00:01:26.020 --> 00:01:26.030 
+that when I press one of the buttons I
+
+00:01:26.030 --> 00:01:29.600 
+that when I press one of the buttons I
+create<00:01:27.030> a<00:01:27.060> combination<00:01:27.810> of<00:01:27.960> resistors<00:01:28.920> they
+
+00:01:29.600 --> 00:01:29.610 
+create a combination of resistors they
+
+00:01:29.610 --> 00:01:31.880 
+create a combination of resistors they
+like<00:01:29.820> the<00:01:29.970> current<00:01:30.420> flow<00:01:30.720> through<00:01:30.930> them<00:01:31.200> but
+
+00:01:31.880 --> 00:01:31.890 
+like the current flow through them but
+
+00:01:31.890 --> 00:01:33.969 
+like the current flow through them but
+then<00:01:32.040> the<00:01:32.159> voltage<00:01:32.369> that<00:01:33.150> the<00:01:33.299> Arduino<00:01:33.930> board
+
+00:01:33.969 --> 00:01:33.979 
+then the voltage that the Arduino board
+
+00:01:33.979 --> 00:01:36.730 
+then the voltage that the Arduino board
+measures<00:01:34.979> out<00:01:35.280> of<00:01:35.640> this<00:01:35.820> resistor<00:01:36.299> ladder
+
+00:01:36.730 --> 00:01:36.740 
+measures out of this resistor ladder
+
+00:01:36.740 --> 00:01:39.230 
+measures out of this resistor ladder
+changes<00:01:37.740> depending<00:01:38.130> on<00:01:38.220> which<00:01:38.280> button<00:01:38.729> I
+
+00:01:39.230 --> 00:01:39.240 
+changes depending on which button I
+
+00:01:39.240 --> 00:01:41.660 
+changes depending on which button I
+press<00:01:39.570> so<00:01:40.259> each<00:01:40.500> combination<00:01:40.890> of<00:01:41.250> button
+
+00:01:41.660 --> 00:01:41.670 
+press so each combination of button
+
+00:01:41.670 --> 00:01:43.850 
+press so each combination of button
+produces<00:01:42.240> a<00:01:42.270> different<00:01:42.720> voltage<00:01:42.869> and<00:01:43.409> you
+
+00:01:43.850 --> 00:01:43.860 
+produces a different voltage and you
+
+00:01:43.860 --> 00:01:46.280 
+produces a different voltage and you
+know<00:01:44.009> that<00:01:44.220> voltage<00:01:44.939> applied<00:01:45.509> to<00:01:45.810> an<00:01:45.899> analog
+
+00:01:46.280 --> 00:01:46.290 
+know that voltage applied to an analog
+
+00:01:46.290 --> 00:01:49.039 
+know that voltage applied to an analog
+input<00:01:46.470> can<00:01:47.040> be<00:01:47.189> read<00:01:47.460> from<00:01:48.210> the<00:01:48.360> Arduino<00:01:48.869> using
+
+00:01:49.039 --> 00:01:49.049 
+input can be read from the Arduino using
+
+00:01:49.049 --> 00:01:51.620 
+input can be read from the Arduino using
+analog<00:01:49.619> read<00:01:49.920> and<00:01:50.310> then<00:01:50.640> using<00:01:51.030> a<00:01:51.149> series<00:01:51.390> of
+
+00:01:51.620 --> 00:01:51.630 
+analog read and then using a series of
+
+00:01:51.630 --> 00:01:54.530 
+analog read and then using a series of
+if<00:01:51.810> statements<00:01:52.040> we<00:01:53.040> can<00:01:53.070> actually<00:01:53.490> say<00:01:53.700> okay
+
+00:01:54.530 --> 00:01:54.540 
+if statements we can actually say okay
+
+00:01:54.540 --> 00:01:56.389 
+if statements we can actually say okay
+if<00:01:54.750> the<00:01:54.960> value<00:01:55.259> is<00:01:55.350> between<00:01:55.710> this<00:01:55.950> number<00:01:56.189> and
+
+00:01:56.389 --> 00:01:56.399 
+if the value is between this number and
+
+00:01:56.399 --> 00:01:58.940 
+if the value is between this number and
+this<00:01:56.670> number<00:01:56.810> it's<00:01:57.810> I<00:01:58.140> press<00:01:58.590> the<00:01:58.740> first
+
+00:01:58.940 --> 00:01:58.950 
+this number it's I press the first
+
+00:01:58.950 --> 00:02:01.429 
+this number it's I press the first
+button<00:01:59.070> if<00:01:59.610> it<00:01:59.790> is<00:01:59.939> between<00:02:00.210> another<00:02:01.020> set<00:02:01.320> of
+
+00:02:01.429 --> 00:02:01.439 
+button if it is between another set of
+
+00:02:01.439 --> 00:02:03.109 
+button if it is between another set of
+numbers<00:02:01.799> I've<00:02:02.040> pressed<00:02:02.310> the<00:02:02.430> second<00:02:02.759> button
+
+00:02:03.109 --> 00:02:03.119 
+numbers I've pressed the second button
+
+00:02:03.119 --> 00:02:05.179 
+numbers I've pressed the second button
+and<00:02:03.329> I<00:02:03.600> can<00:02:03.659> experimentally<00:02:04.229> figure<00:02:05.009> out
+
+00:02:05.179 --> 00:02:05.189 
+and I can experimentally figure out
+
+00:02:05.189 --> 00:02:07.609 
+and I can experimentally figure out
+which<00:02:05.969> one<00:02:06.180> are<00:02:06.329> the<00:02:06.450> buttons<00:02:06.659> that<00:02:07.500> I've
+
+00:02:07.609 --> 00:02:07.619 
+which one are the buttons that I've
+
+00:02:07.619 --> 00:02:09.710 
+which one are the buttons that I've
+pressed<00:02:07.950> by<00:02:08.700> looking<00:02:09.060> at<00:02:09.149> all<00:02:09.239> the<00:02:09.360> numbers
+
+00:02:09.710 --> 00:02:09.720 
+pressed by looking at all the numbers
+
+00:02:09.720 --> 00:02:11.270 
+pressed by looking at all the numbers
+that<00:02:09.750> come<00:02:10.110> out<00:02:10.259> when<00:02:10.470> I<00:02:10.560> press<00:02:10.800> the<00:02:10.950> different
+
+00:02:11.270 --> 00:02:11.280 
+that come out when I press the different
+
+00:02:11.280 --> 00:02:13.100 
+that come out when I press the different
+buttons<00:02:11.370> that<00:02:12.330> correspond<00:02:12.870> to<00:02:12.959> the
+
+00:02:13.100 --> 00:02:13.110 
+buttons that correspond to the
+
+00:02:13.110 --> 00:02:13.730 
+buttons that correspond to the
+combination
+
+00:02:13.730 --> 00:02:13.740 
+combination
+
+00:02:13.740 --> 00:02:17.480 
+combination
+of<00:02:14.040> resistors<00:02:14.910> now<00:02:15.590> the<00:02:16.590> output<00:02:16.770> of<00:02:17.220> this
+
+00:02:17.480 --> 00:02:17.490 
+of resistors now the output of this
+
+00:02:17.490 --> 00:02:20.120 
+of resistors now the output of this
+circuit<00:02:17.730> the<00:02:18.390> activator<00:02:18.900> is<00:02:19.200> this<00:02:19.560> piezo
+
+00:02:20.120 --> 00:02:20.130 
+circuit the activator is this piezo
+
+00:02:20.130 --> 00:02:22.850 
+circuit the activator is this piezo
+speaker<00:02:20.190> the<00:02:20.820> piezo<00:02:21.090> speaker<00:02:21.270> is<00:02:21.840> a<00:02:22.500> very
+
+00:02:22.850 --> 00:02:22.860 
+speaker the piezo speaker is a very
+
+00:02:22.860 --> 00:02:25.390 
+speaker the piezo speaker is a very
+simple<00:02:23.340> device<00:02:23.550> made<00:02:24.210> of<00:02:24.290> piezo<00:02:25.290> electric
+
+00:02:25.390 --> 00:02:25.400 
+simple device made of piezo electric
+
+00:02:25.400 --> 00:02:28.910 
+simple device made of piezo electric
+material<00:02:26.400> test<00:02:26.760> this<00:02:27.060> feature<00:02:27.480> that<00:02:27.920> whenever
+
+00:02:28.910 --> 00:02:28.920 
+material test this feature that whenever
+
+00:02:28.920 --> 00:02:30.980 
+material test this feature that whenever
+you<00:02:29.130> power<00:02:29.520> it<00:02:29.640> with<00:02:29.910> electricity<00:02:30.120> it<00:02:30.750> will
+
+00:02:30.980 --> 00:02:30.990 
+you power it with electricity it will
+
+00:02:30.990 --> 00:02:34.790 
+you power it with electricity it will
+make<00:02:31.170> a<00:02:31.200> small<00:02:31.350> click<00:02:32.250> if<00:02:33.120> you<00:02:33.320> turn<00:02:34.320> on<00:02:34.620> and
+
+00:02:34.790 --> 00:02:34.800 
+make a small click if you turn on and
+
+00:02:34.800 --> 00:02:38.060 
+make a small click if you turn on and
+off<00:02:34.890> the<00:02:35.280> power<00:02:35.640> to<00:02:36.030> the<00:02:36.660> piezo<00:02:37.110> speaker<00:02:37.170> at<00:02:37.740> a
+
+00:02:38.060 --> 00:02:38.070 
+off the power to the piezo speaker at a
+
+00:02:38.070 --> 00:02:41.060 
+off the power to the piezo speaker at a
+certain<00:02:38.550> speed<00:02:38.910> you<00:02:39.840> this<00:02:40.440> sequence<00:02:40.920> of
+
+00:02:41.060 --> 00:02:41.070 
+certain speed you this sequence of
+
+00:02:41.070 --> 00:02:44.420 
+certain speed you this sequence of
+clicks<00:02:41.430> make<00:02:42.120> a<00:02:42.150> sound<00:02:42.570> so<00:02:43.110> for<00:02:43.380> example<00:02:43.830> if<00:02:44.130> I
+
+00:02:44.420 --> 00:02:44.430 
+clicks make a sound so for example if I
+
+00:02:44.430 --> 00:02:48.800 
+clicks make a sound so for example if I
+turn<00:02:44.670> on<00:02:44.970> and<00:02:45.180> off<00:02:45.270> the<00:02:45.990> power<00:02:46.730> 440<00:02:47.730> times<00:02:48.420> per
+
+00:02:48.800 --> 00:02:48.810 
+turn on and off the power 440 times per
+
+00:02:48.810 --> 00:02:52.040 
+turn on and off the power 440 times per
+second<00:02:49.770> I<00:02:49.980> produce<00:02:50.670> a<00:02:51.000> sound<00:02:51.210> which<00:02:51.630> is<00:02:51.780> a<00:02:51.810> very
+
+00:02:52.040 --> 00:02:52.050 
+second I produce a sound which is a very
+
+00:02:52.050 --> 00:02:57.080 
+second I produce a sound which is a very
+well<00:02:52.470> defined<00:02:53.400> note<00:02:53.970> so<00:02:54.930> in<00:02:55.710> our<00:02:56.070> code<00:02:56.520> as<00:02:56.820> we
+
+00:02:57.080 --> 00:02:57.090 
+well defined note so in our code as we
+
+00:02:57.090 --> 00:03:00.200 
+well defined note so in our code as we
+will<00:02:57.270> see<00:02:57.450> in<00:02:57.720> a<00:02:57.930> few<00:02:58.200> minutes<00:02:59.060> we<00:03:00.060> have
+
+00:03:00.200 --> 00:03:00.210 
+will see in a few minutes we have
+
+00:03:00.210 --> 00:03:02.510 
+will see in a few minutes we have
+defined<00:03:00.630> all<00:03:00.960> the<00:03:01.200> different<00:03:01.650> frequencies<00:03:02.490> of
+
+00:03:02.510 --> 00:03:02.520 
+defined all the different frequencies of
+
+00:03:02.520 --> 00:03:05.330 
+defined all the different frequencies of
+each<00:03:02.790> note<00:03:03.360> and<00:03:03.770> when<00:03:04.770> you<00:03:04.920> press<00:03:05.160> the<00:03:05.310> button
+
+00:03:05.330 --> 00:03:05.340 
+each note and when you press the button
+
+00:03:05.340 --> 00:03:07.760 
+each note and when you press the button
+the<00:03:06.120> Arduino<00:03:06.480> detects<00:03:07.050> which<00:03:07.230> button<00:03:07.680> has
+
+00:03:07.760 --> 00:03:07.770 
+the Arduino detects which button has
+
+00:03:07.770 --> 00:03:09.590 
+the Arduino detects which button has
+been<00:03:07.800> pressed<00:03:08.160> and<00:03:08.580> then<00:03:08.790> plays<00:03:09.150> that
+
+00:03:09.590 --> 00:03:09.600 
+been pressed and then plays that
+
+00:03:09.600 --> 00:03:12.050 
+been pressed and then plays that
+particular<00:03:10.110> note<00:03:10.380> on<00:03:10.800> the<00:03:11.460> speaker
+
+00:03:12.050 --> 00:03:12.060 
+particular note on the speaker
+
+00:03:12.060 --> 00:03:14.210 
+particular note on the speaker
+so<00:03:12.450> now<00:03:12.660> let's<00:03:13.080> have<00:03:13.200> a<00:03:13.290> look<00:03:13.380> at<00:03:13.560> the<00:03:13.680> code<00:03:13.890> and
+
+00:03:14.210 --> 00:03:14.220 
+so now let's have a look at the code and
+
+00:03:14.220 --> 00:03:16.400 
+so now let's have a look at the code and
+let's<00:03:14.580> read<00:03:14.880> it<00:03:14.910> line<00:03:15.300> by<00:03:15.330> line<00:03:15.510> to<00:03:15.930> understand
+
+00:03:16.400 --> 00:03:16.410 
+let's read it line by line to understand
+
+00:03:16.410 --> 00:03:19.220 
+let's read it line by line to understand
+exactly<00:03:16.740> how<00:03:17.370> to<00:03:17.430> implement<00:03:17.880> this<00:03:18.390> behavior
+
+00:03:19.220 --> 00:03:19.230 
+exactly how to implement this behavior
+
+00:03:19.230 --> 00:03:22.340 
+exactly how to implement this behavior
+let's<00:03:20.220> start<00:03:20.430> from<00:03:20.580> the<00:03:20.700> beginning<00:03:21.170> you<00:03:22.170> can
+
+00:03:22.340 --> 00:03:22.350 
+let's start from the beginning you can
+
+00:03:22.350 --> 00:03:24.980 
+let's start from the beginning you can
+see<00:03:22.560> on<00:03:22.740> this<00:03:22.950> line<00:03:23.190> that<00:03:23.940> we<00:03:24.090> are<00:03:24.210> defining<00:03:24.570> a
+
+00:03:24.980 --> 00:03:24.990 
+see on this line that we are defining a
+
+00:03:24.990 --> 00:03:28.790 
+see on this line that we are defining a
+new<00:03:25.590> type<00:03:25.890> of<00:03:25.920> variable<00:03:26.720> called<00:03:27.720> an<00:03:27.960> array<00:03:28.380> so
+
+00:03:28.790 --> 00:03:28.800 
+new type of variable called an array so
+
+00:03:28.800 --> 00:03:32.150 
+new type of variable called an array so
+this<00:03:29.220> is<00:03:29.520> a<00:03:29.630> variable<00:03:30.630> called<00:03:30.990> notes<00:03:31.350> that
+
+00:03:32.150 --> 00:03:32.160 
+this is a variable called notes that
+
+00:03:32.160 --> 00:03:35.450 
+this is a variable called notes that
+contains<00:03:32.610> four<00:03:33.170> different<00:03:34.170> integer<00:03:35.010> values
+
+00:03:35.450 --> 00:03:35.460 
+contains four different integer values
+
+00:03:35.460 --> 00:03:38.330 
+contains four different integer values
+each<00:03:35.820> one<00:03:36.180> of<00:03:36.330> these<00:03:37.040> integral<00:03:38.040> value
+
+00:03:38.330 --> 00:03:38.340 
+each one of these integral value
+
+00:03:38.340 --> 00:03:41.450 
+each one of these integral value
+represents<00:03:39.090> the<00:03:39.240> frequency<00:03:40.040> associated<00:03:41.040> to<00:03:41.430> a
+
+00:03:41.450 --> 00:03:41.460 
+represents the frequency associated to a
+
+00:03:41.460 --> 00:03:44.150 
+represents the frequency associated to a
+certain<00:03:41.880> node<00:03:42.060> in<00:03:42.570> particular<00:03:43.260> these<00:03:43.740> are<00:03:43.980> the
+
+00:03:44.150 --> 00:03:44.160 
+certain node in particular these are the
+
+00:03:44.160 --> 00:03:49.400 
+certain node in particular these are the
+middle<00:03:44.520> c<00:03:44.760> d<00:03:45.060> e<00:03:45.330> and<00:03:45.660> f<00:03:46.110> nodes<00:03:48.020> this<00:03:49.020> will<00:03:49.260> be
+
+00:03:49.400 --> 00:03:49.410 
+middle c d e and f nodes this will be
+
+00:03:49.410 --> 00:03:51.590 
+middle c d e and f nodes this will be
+useful<00:03:49.590> later<00:03:49.950> when<00:03:50.460> we<00:03:50.580> detect<00:03:50.970> which<00:03:51.180> button
+
+00:03:51.590 --> 00:03:51.600 
+useful later when we detect which button
+
+00:03:51.600 --> 00:03:54.140 
+useful later when we detect which button
+has<00:03:51.630> been<00:03:51.750> pressed<00:03:52.140> we<00:03:53.040> can<00:03:53.190> then<00:03:53.370> choose<00:03:53.880> the
+
+00:03:54.140 --> 00:03:54.150 
+has been pressed we can then choose the
+
+00:03:54.150 --> 00:03:57.610 
+has been pressed we can then choose the
+right<00:03:54.330> frequency<00:03:54.990> to<00:03:55.020> play<00:03:55.440> on<00:03:55.800> the<00:03:56.490> speaker
+
+00:03:57.610 --> 00:03:57.620 
+right frequency to play on the speaker
+
+00:03:57.620 --> 00:04:00.260 
+right frequency to play on the speaker
+then<00:03:58.620> we<00:03:58.860> have<00:03:59.010> the<00:03:59.160> usual<00:03:59.310> setup<00:03:59.760> where<00:04:00.150> we
+
+00:04:00.260 --> 00:04:00.270 
+then we have the usual setup where we
+
+00:04:00.270 --> 00:04:02.090 
+then we have the usual setup where we
+have<00:04:00.450> a<00:04:00.480> serial<00:04:00.990> beginning<00:04:01.440> to<00:04:01.620> begin<00:04:02.070> a
+
+00:04:02.090 --> 00:04:02.100 
+have a serial beginning to begin a
+
+00:04:02.100 --> 00:04:05.060 
+have a serial beginning to begin a
+communication<00:04:02.790> with<00:04:02.940> the<00:04:03.030> computer<00:04:03.860> so<00:04:04.860> let's
+
+00:04:05.060 --> 00:04:05.070 
+communication with the computer so let's
+
+00:04:05.070 --> 00:04:07.760 
+communication with the computer so let's
+look<00:04:05.220> at<00:04:05.370> the<00:04:05.460> loop<00:04:05.670> now<00:04:06.260> the<00:04:07.260> first<00:04:07.500> thing<00:04:07.650> we
+
+00:04:07.760 --> 00:04:07.770 
+look at the loop now the first thing we
+
+00:04:07.770 --> 00:04:10.490 
+look at the loop now the first thing we
+do<00:04:07.920> we<00:04:08.640> create<00:04:08.910> a<00:04:09.060> variable<00:04:09.510> called<00:04:09.690> sounder
+
+00:04:10.490 --> 00:04:10.500 
+do we create a variable called sounder
+
+00:04:10.500 --> 00:04:12.500 
+do we create a variable called sounder
+that<00:04:10.800> contains<00:04:11.220> the<00:04:11.430> value<00:04:11.580> read<00:04:12.000> from<00:04:12.330> the
+
+00:04:12.500 --> 00:04:12.510 
+that contains the value read from the
+
+00:04:12.510 --> 00:04:14.540 
+that contains the value read from the
+analog<00:04:12.780> input<00:04:13.140> 0<00:04:13.440> that<00:04:13.620> represents<00:04:14.370> the
+
+00:04:14.540 --> 00:04:14.550 
+analog input 0 that represents the
+
+00:04:14.550 --> 00:04:16.789 
+analog input 0 that represents the
+combination<00:04:15.240> of<00:04:15.330> keys<00:04:15.720> that<00:04:16.440> have<00:04:16.590> been
+
+00:04:16.789 --> 00:04:16.799 
+combination of keys that have been
+
+00:04:16.799 --> 00:04:20.000 
+combination of keys that have been
+pressed<00:04:17.220> on<00:04:17.640> the<00:04:17.700> keyboard<00:04:18.530> then<00:04:19.530> we<00:04:19.709> print
+
+00:04:20.000 --> 00:04:20.010 
+pressed on the keyboard then we print
+
+00:04:20.010 --> 00:04:21.979 
+pressed on the keyboard then we print
+that<00:04:20.160> value<00:04:20.580> on<00:04:20.609> the<00:04:20.940> serial<00:04:21.359> monitor<00:04:21.540> so<00:04:21.870> that
+
+00:04:21.979 --> 00:04:21.989 
+that value on the serial monitor so that
+
+00:04:21.989 --> 00:04:24.590 
+that value on the serial monitor so that
+we<00:04:22.080> can<00:04:22.260> look<00:04:22.979> at<00:04:23.100> it<00:04:23.220> on<00:04:23.400> the<00:04:23.520> computer<00:04:23.700> and
+
+00:04:24.590 --> 00:04:24.600 
+we can look at it on the computer and
+
+00:04:24.600 --> 00:04:27.240 
+we can look at it on the computer and
+then<00:04:24.780> we<00:04:24.870> start<00:04:25.080> to<00:04:25.200> understand<00:04:25.680> which<00:04:26.370> button
+
+00:04:27.240 --> 00:04:27.250 
+then we start to understand which button
+
+00:04:27.250 --> 00:04:29.550 
+then we start to understand which button
+has<00:04:27.520> been<00:04:27.850> pressed<00:04:28.210> so<00:04:28.780> we<00:04:28.960> do<00:04:29.140> this<00:04:29.290> by
+
+00:04:29.550 --> 00:04:29.560 
+has been pressed so we do this by
+
+00:04:29.560 --> 00:04:32.190 
+has been pressed so we do this by
+looking<00:04:29.590> at<00:04:30.010> the<00:04:30.160> sounder<00:04:30.670> variable<00:04:31.240> using<00:04:32.080> a
+
+00:04:32.190 --> 00:04:32.200 
+looking at the sounder variable using a
+
+00:04:32.200 --> 00:04:35.370 
+looking at the sounder variable using a
+set<00:04:32.440> of<00:04:32.470> if<00:04:32.830> and<00:04:33.280> else<00:04:33.880> if<00:04:34.150> statements<00:04:34.900> to
+
+00:04:35.370 --> 00:04:35.380 
+set of if and else if statements to
+
+00:04:35.380 --> 00:04:37.440 
+set of if and else if statements to
+segment<00:04:35.740> the<00:04:36.070> value<00:04:36.400> in<00:04:36.580> different<00:04:36.970> bands<00:04:37.180> and
+
+00:04:37.440 --> 00:04:37.450 
+segment the value in different bands and
+
+00:04:37.450 --> 00:04:40.140 
+segment the value in different bands and
+which<00:04:37.900> figure<00:04:38.290> out<00:04:38.440> in<00:04:38.830> which<00:04:39.190> band<00:04:39.520> the<00:04:39.820> value
+
+00:04:40.140 --> 00:04:40.150 
+which figure out in which band the value
+
+00:04:40.150 --> 00:04:42.690 
+which figure out in which band the value
+falls<00:04:40.480> and<00:04:40.810> each<00:04:41.590> one<00:04:41.830> of<00:04:41.950> them<00:04:42.100> corresponds
+
+00:04:42.690 --> 00:04:42.700 
+falls and each one of them corresponds
+
+00:04:42.700 --> 00:04:46.500 
+falls and each one of them corresponds
+to<00:04:42.850> a<00:04:42.970> sound<00:04:43.300> so<00:04:44.260> at<00:04:44.980> the<00:04:45.280> beginning<00:04:45.400> when<00:04:46.360> the
+
+00:04:46.500 --> 00:04:46.510 
+to a sound so at the beginning when the
+
+00:04:46.510 --> 00:04:50.250 
+to a sound so at the beginning when the
+value<00:04:46.810> is<00:04:47.070> 1023<00:04:48.070> then<00:04:48.880> we<00:04:49.270> know<00:04:49.450> that<00:04:50.020> we<00:04:50.110> have
+
+00:04:50.250 --> 00:04:50.260 
+value is 1023 then we know that we have
+
+00:04:50.260 --> 00:04:53.130 
+value is 1023 then we know that we have
+to<00:04:50.410> play<00:04:50.590> the<00:04:50.890> middle<00:04:51.130> C<00:04:51.520> we<00:04:52.450> are<00:04:52.480> using<00:04:52.930> a<00:04:52.990> new
+
+00:04:53.130 --> 00:04:53.140 
+to play the middle C we are using a new
+
+00:04:53.140 --> 00:04:56.040 
+to play the middle C we are using a new
+function<00:04:53.620> called<00:04:53.860> tone<00:04:54.220> tone<00:04:55.030> is<00:04:55.600> able<00:04:55.960> to
+
+00:04:56.040 --> 00:04:56.050 
+function called tone tone is able to
+
+00:04:56.050 --> 00:04:58.230 
+function called tone tone is able to
+produce<00:04:56.230> a<00:04:56.620> sound<00:04:56.650> on<00:04:57.190> a<00:04:57.250> small<00:04:57.640> speaker<00:04:57.940> or
+
+00:04:58.230 --> 00:04:58.240 
+produce a sound on a small speaker or
+
+00:04:58.240 --> 00:05:00.810 
+produce a sound on a small speaker or
+piezo<00:04:58.810> speaker<00:04:59.070> connected<00:05:00.070> to<00:05:00.160> a<00:05:00.220> certain<00:05:00.610> pin
+
+00:05:00.810 --> 00:05:00.820 
+piezo speaker connected to a certain pin
+
+00:05:00.820 --> 00:05:02.790 
+piezo speaker connected to a certain pin
+on<00:05:00.970> the<00:05:01.120> Arduino<00:05:01.390> the<00:05:02.050> only<00:05:02.290> thing<00:05:02.410> we<00:05:02.530> need<00:05:02.680> to
+
+00:05:02.790 --> 00:05:02.800 
+on the Arduino the only thing we need to
+
+00:05:02.800 --> 00:05:05.790 
+on the Arduino the only thing we need to
+do<00:05:02.890> with<00:05:03.070> this<00:05:03.250> we<00:05:03.490> need<00:05:03.640> to<00:05:03.790> say<00:05:04.000> this<00:05:04.840> is<00:05:05.530> the
+
+00:05:05.790 --> 00:05:05.800 
+do with this we need to say this is the
+
+00:05:05.800 --> 00:05:07.680 
+do with this we need to say this is the
+pin<00:05:06.040> where<00:05:06.340> the<00:05:06.490> speaker<00:05:06.880> is<00:05:07.060> connected<00:05:07.180> to<00:05:07.570> in
+
+00:05:07.680 --> 00:05:07.690 
+pin where the speaker is connected to in
+
+00:05:07.690 --> 00:05:10.260 
+pin where the speaker is connected to in
+our<00:05:07.810> case<00:05:08.169> number<00:05:08.680> 8<00:05:08.860> and<00:05:09.340> then<00:05:09.850> we<00:05:09.880> have<00:05:10.120> to
+
+00:05:10.260 --> 00:05:10.270 
+our case number 8 and then we have to
+
+00:05:10.270 --> 00:05:12.900 
+our case number 8 and then we have to
+specify<00:05:10.450> the<00:05:11.290> note<00:05:11.500> and<00:05:11.770> that<00:05:12.250> note<00:05:12.280> will<00:05:12.760> be
+
+00:05:12.900 --> 00:05:12.910 
+specify the note and that note will be
+
+00:05:12.910 --> 00:05:17.909 
+specify the note and that note will be
+played<00:05:13.240> on<00:05:13.750> that<00:05:14.940> pin<00:05:15.940> then<00:05:16.690> if<00:05:17.410> we<00:05:17.650> continue
+
+00:05:17.909 --> 00:05:17.919 
+played on that pin then if we continue
+
+00:05:17.919 --> 00:05:20.970 
+played on that pin then if we continue
+down<00:05:18.460> the<00:05:19.090> source<00:05:20.020> code<00:05:20.290> you<00:05:20.470> can<00:05:20.650> see<00:05:20.830> that
+
+00:05:20.970 --> 00:05:20.980 
+down the source code you can see that
+
+00:05:20.980 --> 00:05:23.370 
+down the source code you can see that
+there's<00:05:21.160> a<00:05:21.220> number<00:05:21.490> of<00:05:21.820> else<00:05:22.150> if<00:05:22.630> statement
+
+00:05:23.370 --> 00:05:23.380 
+there's a number of else if statement
+
+00:05:23.380 --> 00:05:26.100 
+there's a number of else if statement
+that<00:05:24.130> divided<00:05:24.490> the<00:05:24.910> value<00:05:25.300> of<00:05:25.450> sounder<00:05:25.960> in
+
+00:05:26.100 --> 00:05:26.110 
+that divided the value of sounder in
+
+00:05:26.110 --> 00:05:29.040 
+that divided the value of sounder in
+different<00:05:26.530> bands<00:05:26.919> so<00:05:27.550> we<00:05:28.270> have<00:05:28.390> a<00:05:28.419> band<00:05:28.720> that
+
+00:05:29.040 --> 00:05:29.050 
+different bands so we have a band that
+
+00:05:29.050 --> 00:05:32.700 
+different bands so we have a band that
+goes<00:05:29.230> between<00:05:29.669> 920<00:05:30.669> and<00:05:31.020> 1010<00:05:32.020> that
+
+00:05:32.700 --> 00:05:32.710 
+goes between 920 and 1010 that
+
+00:05:32.710 --> 00:05:35.280 
+goes between 920 and 1010 that
+corresponds<00:05:33.340> to<00:05:33.370> the<00:05:33.580> middle<00:05:33.910> D<00:05:34.120> a<00:05:34.419> band<00:05:35.080> that
+
+00:05:35.280 --> 00:05:35.290 
+corresponds to the middle D a band that
+
+00:05:35.290 --> 00:05:37.830 
+corresponds to the middle D a band that
+goes<00:05:35.440> between<00:05:35.590> 505<00:05:36.550> and<00:05:36.880> 515<00:05:37.630> that
+
+00:05:37.830 --> 00:05:37.840 
+goes between 505 and 515 that
+
+00:05:37.840 --> 00:05:40.980 
+goes between 505 and 515 that
+corresponds<00:05:38.380> to<00:05:38.440> the<00:05:38.620> middle<00:05:38.919> e<00:05:39.190> and<00:05:39.990> finally
+
+00:05:40.980 --> 00:05:40.990 
+corresponds to the middle e and finally
+
+00:05:40.990 --> 00:05:44.580 
+corresponds to the middle e and finally
+a<00:05:41.140> band<00:05:41.740> that<00:05:42.070> goes<00:05:42.310> between<00:05:42.850> 5<00:05:43.720> and<00:05:43.990> 10<00:05:44.229> they
+
+00:05:44.580 --> 00:05:44.590 
+a band that goes between 5 and 10 they
+
+00:05:44.590 --> 00:05:47.730 
+a band that goes between 5 and 10 they
+represent<00:05:45.130> the<00:05:45.430> middle<00:05:45.640> F<00:05:46.060> if<00:05:46.900> none<00:05:47.470> of<00:05:47.500> this
+
+00:05:47.730 --> 00:05:47.740 
+represent the middle F if none of this
+
+00:05:47.740 --> 00:05:51.960 
+represent the middle F if none of this
+combination<00:05:48.460> is<00:05:48.810> actually<00:05:50.220> detected<00:05:51.220> then
+
+00:05:51.960 --> 00:05:51.970 
+combination is actually detected then
+
+00:05:51.970 --> 00:05:54.390 
+combination is actually detected then
+there's<00:05:52.630> a<00:05:52.720> final<00:05:53.050> else<00:05:53.410> statement<00:05:54.160> that<00:05:54.310> you
+
+00:05:54.390 --> 00:05:54.400 
+there's a final else statement that you
+
+00:05:54.400 --> 00:05:57.210 
+there's a final else statement that you
+can<00:05:54.580> see<00:05:54.790> here<00:05:55.180> this<00:05:55.570> else<00:05:55.960> statement<00:05:56.620> calls
+
+00:05:57.210 --> 00:05:57.220 
+can see here this else statement calls
+
+00:05:57.220 --> 00:06:00.420 
+can see here this else statement calls
+this<00:05:57.460> function<00:05:57.880> called<00:05:58.090> no<00:05:58.390> tone<00:05:58.780> that<00:05:59.500> stops
+
+00:06:00.420 --> 00:06:00.430 
+this function called no tone that stops
+
+00:06:00.430 --> 00:06:02.940 
+this function called no tone that stops
+any<00:06:00.940> sound<00:06:01.419> being<00:06:01.840> produced<00:06:02.350> on<00:06:02.650> a<00:06:02.710> specific
+
+00:06:02.940 --> 00:06:02.950 
+any sound being produced on a specific
+
+00:06:02.950 --> 00:06:06.810 
+any sound being produced on a specific
+pin<00:06:03.430> so<00:06:03.700> we<00:06:03.729> say<00:06:04.060> no<00:06:04.090> tone<00:06:04.660> 8<00:06:05.050> and<00:06:05.650> this<00:06:06.280> stops
+
+00:06:06.810 --> 00:06:06.820 
+pin so we say no tone 8 and this stops
+
+00:06:06.820 --> 00:06:12.090 
+pin so we say no tone 8 and this stops
+the<00:06:07.560> the<00:06:08.560> sound<00:06:09.150> so<00:06:10.150> let's<00:06:10.630> try<00:06:10.900> again<00:06:11.680> the
+
+00:06:12.090 --> 00:06:12.100 
+the the sound so let's try again the
+
+00:06:12.100 --> 00:06:15.060 
+the the sound so let's try again the
+instrument<00:06:12.700> and<00:06:12.910> see<00:06:13.180> how<00:06:13.840> our<00:06:14.110> software<00:06:14.710> is
+
+00:06:15.060 --> 00:06:15.070 
+instrument and see how our software is
+
+00:06:15.070 --> 00:06:19.200 
+instrument and see how our software is
+actually<00:06:15.720> working<00:06:16.720> here<00:06:17.320> in<00:06:18.310> the<00:06:18.490> same<00:06:18.729> time<00:06:18.970> I
+
+00:06:19.200 --> 00:06:19.210 
+actually working here in the same time I
+
+00:06:19.210 --> 00:06:21.750 
+actually working here in the same time I
+will<00:06:19.390> open<00:06:19.630> my<00:06:19.979> serial<00:06:20.979> monitor<00:06:21.130> so<00:06:21.550> that<00:06:21.580> we
+
+00:06:21.750 --> 00:06:21.760 
+will open my serial monitor so that we
+
+00:06:21.760 --> 00:06:24.180 
+will open my serial monitor so that we
+can<00:06:21.940> see<00:06:22.120> the<00:06:22.240> numbers<00:06:22.630> while<00:06:23.470> I<00:06:23.500> press<00:06:24.010> the
+
+00:06:24.180 --> 00:06:24.190 
+can see the numbers while I press the
+
+00:06:24.190 --> 00:06:26.490 
+can see the numbers while I press the
+button<00:06:24.220> so<00:06:25.120> at<00:06:25.240> the<00:06:25.360> moment<00:06:25.510> we<00:06:25.870> see<00:06:26.080> a<00:06:26.110> value
+
+00:06:26.490 --> 00:06:26.500 
+button so at the moment we see a value
+
+00:06:26.500 --> 00:06:29.930 
+button so at the moment we see a value
+which<00:06:26.650> is<00:06:26.680> proper<00:06:27.160> very<00:06:27.640> close<00:06:28.450> to<00:06:28.660> zero<00:06:28.960> which
+
+00:06:29.930 --> 00:06:29.940 
+which is proper very close to zero which
+
+00:06:29.940 --> 00:06:32.250 
+which is proper very close to zero which
+represents<00:06:30.940> the<00:06:31.120> fact<00:06:31.330> that<00:06:31.450> no<00:06:31.720> button<00:06:32.140> has
+
+00:06:32.250 --> 00:06:32.260 
+represents the fact that no button has
+
+00:06:32.260 --> 00:06:34.920 
+represents the fact that no button has
+been<00:06:32.290> pressed<00:06:32.680> so<00:06:33.010> we<00:06:33.130> press<00:06:33.370> a<00:06:33.400> button<00:06:33.840> and<00:06:34.840> we
+
+00:06:34.920 --> 00:06:34.930 
+been pressed so we press a button and we
+
+00:06:34.930 --> 00:06:39.240 
+been pressed so we press a button and we
+get<00:06:35.280> 1023<00:06:36.310> the<00:06:37.210> second<00:06:37.570> button<00:06:37.720> is<00:06:37.930> 1002
+
+00:06:39.240 --> 00:06:39.250 
+get 1023 the second button is 1002
+
+00:06:39.250 --> 00:06:43.050 
+get 1023 the second button is 1002
+the<00:06:40.060> third<00:06:40.300> button<00:06:40.570> is<00:06:40.840> about<00:06:41.700> 512<00:06:42.700> or
+
+00:06:43.050 --> 00:06:43.060 
+the third button is about 512 or
+
+00:06:43.060 --> 00:06:47.100 
+the third button is about 512 or
+something<00:06:43.630> and<00:06:43.810> the<00:06:44.350> last<00:06:44.500> one<00:06:44.740> is<00:06:45.660> kind<00:06:46.660> of<00:06:46.780> in
+
+00:06:47.100 --> 00:06:47.110 
+something and the last one is kind of in
+
+00:06:47.110 --> 00:06:52.170 
+something and the last one is kind of in
+that<00:06:47.320> sort<00:06:47.560> of<00:06:47.640> 1520<00:06:48.640> sort<00:06:48.940> of<00:06:49.000> value<00:06:49.920> so<00:06:51.180> this
+
+00:06:52.170 --> 00:06:52.180 
+that sort of 1520 sort of value so this
+
+00:06:52.180 --> 00:06:56.810 
+that sort of 1520 sort of value so this
+is<00:06:52.720> in<00:06:53.470> a<00:06:53.620> very<00:06:53.800> simple<00:06:54.100> way<00:06:54.730> the<00:06:55.660> small
+
+00:06:56.810 --> 00:06:56.820 
+is in a very simple way the small
+
+00:06:56.820 --> 00:06:59.040 
+is in a very simple way the small
+musical<00:06:57.820> instrument<00:06:58.330> that<00:06:58.540> you<00:06:58.630> can<00:06:58.810> build
+
+00:06:59.040 --> 00:06:59.050 
+musical instrument that you can build
+
+00:06:59.050 --> 00:07:01.770 
+musical instrument that you can build
+very<00:06:59.170> quickly<00:06:59.650> with<00:07:00.340> your<00:07:00.520> Arduino<00:07:01.120> appeared
+
+00:07:01.770 --> 00:07:01.780 
+very quickly with your Arduino appeared
+
+00:07:01.780 --> 00:07:03.690 
+very quickly with your Arduino appeared
+the<00:07:01.900> speaker<00:07:02.170> a<00:07:02.500> few<00:07:02.830> resistor<00:07:03.250> and<00:07:03.370> a<00:07:03.490> few
+
+00:07:03.690 --> 00:07:03.700 
+the speaker a few resistor and a few
+
+00:07:03.700 --> 00:07:07.590 
+the speaker a few resistor and a few
+buttons<00:07:04.200> so<00:07:05.200> this<00:07:06.160> is<00:07:06.310> all<00:07:06.460> for<00:07:06.760> now<00:07:06.970> but
+
+00:07:07.590 --> 00:07:07.600 
+buttons so this is all for now but
+
+00:07:07.600 --> 00:07:11.040 
+buttons so this is all for now but
+remember<00:07:08.260> build<00:07:08.890> it<00:07:09.100> hack<00:07:09.850> it<00:07:10.150> share<00:07:10.840> it
+
+00:07:11.040 --> 00:07:11.050 
+remember build it hack it share it
+
+00:07:11.050 --> 00:07:17.630 
+remember build it hack it share it
+because<00:07:11.620> Arduino<00:07:12.310> is<00:07:12.400> you
+
+00:07:17.630 --> 00:07:17.640 
+
+00:07:17.640 --> 00:07:26.700 
+
+[Music]
+

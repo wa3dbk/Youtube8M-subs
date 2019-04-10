@@ -1,0 +1,588 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.990 
+
+from<00:00:00.690> slide<00:00:00.989> nerd<00:00:01.260> this<00:00:01.560> is<00:00:01.709> waves<00:00:02.190> in<00:00:02.669> this
+
+00:00:02.990 --> 00:00:03.000 
+from slide nerd this is waves in this
+
+00:00:03.000 --> 00:00:04.760 
+from slide nerd this is waves in this
+video<00:00:03.300> I'm<00:00:03.629> going<00:00:03.899> to<00:00:03.959> talk<00:00:04.230> about<00:00:04.380> how<00:00:04.740> to
+
+00:00:04.760 --> 00:00:04.770 
+video I'm going to talk about how to
+
+00:00:04.770 --> 00:00:07.190 
+video I'm going to talk about how to
+convert<00:00:05.190> binary<00:00:05.520> to<00:00:05.850> decimal<00:00:05.899> now<00:00:06.899> there<00:00:07.080> are
+
+00:00:07.190 --> 00:00:07.200 
+convert binary to decimal now there are
+
+00:00:07.200 --> 00:00:09.110 
+convert binary to decimal now there are
+two<00:00:07.350> ways<00:00:07.379> to<00:00:07.710> do<00:00:07.830> this<00:00:08.010> the<00:00:08.400> one<00:00:08.550> is<00:00:08.730> pretty
+
+00:00:09.110 --> 00:00:09.120 
+two ways to do this the one is pretty
+
+00:00:09.120 --> 00:00:11.299 
+two ways to do this the one is pretty
+simple<00:00:09.330> second<00:00:10.170> one<00:00:10.290> is<00:00:10.410> very<00:00:10.440> complex<00:00:11.130> so
+
+00:00:11.299 --> 00:00:11.309 
+simple second one is very complex so
+
+00:00:11.309 --> 00:00:12.799 
+simple second one is very complex so
+I've<00:00:11.429> decided<00:00:11.550> to<00:00:11.820> keep<00:00:12.059> two<00:00:12.210> separate<00:00:12.570> bits
+
+00:00:12.799 --> 00:00:12.809 
+I've decided to keep two separate bits
+
+00:00:12.809 --> 00:00:14.600 
+I've decided to keep two separate bits
+so<00:00:13.380> let's<00:00:13.590> go<00:00:13.769> ahead<00:00:13.860> and<00:00:14.130> see<00:00:14.250> how<00:00:14.400> that's
+
+00:00:14.600 --> 00:00:14.610 
+so let's go ahead and see how that's
+
+00:00:14.610 --> 00:00:17.900 
+so let's go ahead and see how that's
+done<00:00:15.710> there<00:00:16.710> are<00:00:16.740> two<00:00:16.920> things<00:00:17.190> you<00:00:17.310> can<00:00:17.430> do<00:00:17.609> you
+
+00:00:17.900 --> 00:00:17.910 
+done there are two things you can do you
+
+00:00:17.910 --> 00:00:20.420 
+done there are two things you can do you
+can<00:00:18.060> assume<00:00:18.330> a<00:00:18.449> value<00:00:18.570> then<00:00:19.529> use<00:00:19.680> the<00:00:19.830> prefix<00:00:20.250> 0
+
+00:00:20.420 --> 00:00:20.430 
+can assume a value then use the prefix 0
+
+00:00:20.430 --> 00:00:22.759 
+can assume a value then use the prefix 0
+B<00:00:21.210> now<00:00:21.480> if<00:00:21.600> you<00:00:21.689> guys<00:00:21.840> never<00:00:22.080> heard<00:00:22.350> about<00:00:22.470> this
+
+00:00:22.759 --> 00:00:22.769 
+B now if you guys never heard about this
+
+00:00:22.769 --> 00:00:24.950 
+B now if you guys never heard about this
+I'll<00:00:23.490> show<00:00:23.550> you<00:00:23.730> what<00:00:23.910> exactly<00:00:23.939> it<00:00:24.420> is<00:00:24.449> we<00:00:24.840> go
+
+00:00:24.950 --> 00:00:24.960 
+I'll show you what exactly it is we go
+
+00:00:24.960 --> 00:00:27.769 
+I'll show you what exactly it is we go
+to<00:00:25.050> NetBeans<00:00:25.230> and<00:00:25.590> see<00:00:25.949> what<00:00:26.099> the<00:00:26.250> 0b<00:00:26.609> means<00:00:26.820> so
+
+00:00:27.769 --> 00:00:27.779 
+to NetBeans and see what the 0b means so
+
+00:00:27.779 --> 00:00:29.570 
+to NetBeans and see what the 0b means so
+here<00:00:27.810> in<00:00:28.289> NetBeans<00:00:28.769> I<00:00:28.890> have<00:00:29.039> an<00:00:29.130> empty<00:00:29.369> project
+
+00:00:29.570 --> 00:00:29.580 
+here in NetBeans I have an empty project
+
+00:00:29.580 --> 00:00:31.310 
+here in NetBeans I have an empty project
+nothing<00:00:30.119> inside<00:00:30.420> I'm<00:00:30.810> going<00:00:31.019> to<00:00:31.080> simply
+
+00:00:31.310 --> 00:00:31.320 
+nothing inside I'm going to simply
+
+00:00:31.320 --> 00:00:34.360 
+nothing inside I'm going to simply
+declare<00:00:31.470> a<00:00:31.650> number<00:00:31.830> of<00:00:32.009> st.<00:00:32.279> number<00:00:32.610> equals<00:00:33.570> to
+
+00:00:34.360 --> 00:00:34.370 
+declare a number of st. number equals to
+
+00:00:34.370 --> 00:00:41.389 
+declare a number of st. number equals to
+0<00:00:35.370> V<00:00:36.090> 1<00:00:36.360> 1<00:00:37.110> 0<00:00:37.500> sorry<00:00:38.460> 1<00:00:38.700> 1<00:00:38.910> 1<00:00:39.120> 0<00:00:39.829> now<00:00:40.829> whenever<00:00:41.070> you
+
+00:00:41.389 --> 00:00:41.399 
+0 V 1 1 0 sorry 1 1 1 0 now whenever you
+
+00:00:41.399 --> 00:00:44.779 
+0 V 1 1 0 sorry 1 1 1 0 now whenever you
+write<00:00:41.579> 0<00:00:42.059> B<00:00:42.360> you<00:00:42.809> are<00:00:42.870> telling<00:00:43.200> Java<00:00:43.890> that<00:00:44.370> this
+
+00:00:44.779 --> 00:00:44.789 
+write 0 B you are telling Java that this
+
+00:00:44.789 --> 00:00:48.350 
+write 0 B you are telling Java that this
+thing<00:00:45.539> is<00:00:45.780> a<00:00:46.170> binary<00:00:46.440> number<00:00:47.120> alright<00:00:48.120> so<00:00:48.270> if
+
+00:00:48.350 --> 00:00:48.360 
+thing is a binary number alright so if
+
+00:00:48.360 --> 00:00:50.540 
+thing is a binary number alright so if
+you<00:00:48.450> put<00:00:48.629> 2<00:00:49.170> over<00:00:49.440> here<00:00:49.620> it's<00:00:50.160> going<00:00:50.309> to<00:00:50.370> be<00:00:50.460> an
+
+00:00:50.540 --> 00:00:50.550 
+you put 2 over here it's going to be an
+
+00:00:50.550 --> 00:00:52.970 
+you put 2 over here it's going to be an
+error<00:00:50.730> as<00:00:50.940> you<00:00:51.059> guys<00:00:51.180> can<00:00:51.390> see<00:00:51.510> it<00:00:52.289> says<00:00:52.500> blah
+
+00:00:52.970 --> 00:00:52.980 
+error as you guys can see it says blah
+
+00:00:52.980 --> 00:00:54.650 
+error as you guys can see it says blah
+blah<00:00:53.160> blah<00:00:53.309> something<00:00:53.629> say<00:00:54.629> something
+
+00:00:54.650 --> 00:00:54.660 
+blah blah something say something
+
+00:00:54.660 --> 00:00:57.500 
+blah blah something say something
+expected<00:00:55.489> don't<00:00:56.489> put<00:00:56.699> two<00:00:56.850> it's<00:00:57.059> binary
+
+00:00:57.500 --> 00:00:57.510 
+expected don't put two it's binary
+
+00:00:57.510 --> 00:01:00.139 
+expected don't put two it's binary
+number<00:00:57.780> Java<00:00:58.260> only<00:00:58.710> expects<00:00:59.250> these<00:00:59.699> numbers
+
+00:01:00.139 --> 00:01:00.149 
+number Java only expects these numbers
+
+00:01:00.149 --> 00:01:02.779 
+number Java only expects these numbers
+to<00:01:00.329> be<00:01:00.420> binary<00:01:00.690> if<00:01:01.020> you<00:01:01.410> put<00:01:01.620> 0<00:01:02.070> B<00:01:02.309> at<00:01:02.430> the<00:01:02.550> start
+
+00:01:02.779 --> 00:01:02.789 
+to be binary if you put 0 B at the start
+
+00:01:02.789 --> 00:01:05.450 
+to be binary if you put 0 B at the start
+so<00:01:03.420> now<00:01:03.539> if<00:01:03.690> you<00:01:03.809> simply<00:01:04.140> type<00:01:04.589> this<00:01:04.769> out<00:01:05.010> oops
+
+00:01:05.450 --> 00:01:05.460 
+so now if you simply type this out oops
+
+00:01:05.460 --> 00:01:10.100 
+so now if you simply type this out oops
+my<00:01:05.939> Enter<00:01:06.510> key<00:01:06.540> was<00:01:07.049> pressed<00:01:08.960> so<00:01:09.960> if<00:01:10.049> you
+
+00:01:10.100 --> 00:01:10.110 
+my Enter key was pressed so if you
+
+00:01:10.110 --> 00:01:11.990 
+my Enter key was pressed so if you
+simply<00:01:10.380> type<00:01:10.619> this<00:01:10.799> out<00:01:10.950> you<00:01:11.250> say<00:01:11.430> system<00:01:11.820> dot
+
+00:01:11.990 --> 00:01:12.000 
+simply type this out you say system dot
+
+00:01:12.000 --> 00:01:16.460 
+simply type this out you say system dot
+out<00:01:12.150> dot<00:01:12.270> println<00:01:13.189> and<00:01:14.299> you<00:01:15.299> say<00:01:15.450> number<00:01:15.900> you
+
+00:01:16.460 --> 00:01:16.470 
+out dot println and you say number you
+
+00:01:16.470 --> 00:01:17.749 
+out dot println and you say number you
+know<00:01:16.590> what<00:01:16.740> it's<00:01:16.890> going<00:01:17.040> to<00:01:17.100> print<00:01:17.340> can<00:01:17.700> you
+
+00:01:17.749 --> 00:01:17.759 
+know what it's going to print can you
+
+00:01:17.759 --> 00:01:20.960 
+know what it's going to print can you
+take<00:01:17.939> a<00:01:17.970> guess<00:01:19.340> it's<00:01:20.340> kind<00:01:20.490> of<00:01:20.549> print<00:01:20.820> the
+
+00:01:20.960 --> 00:01:20.970 
+take a guess it's kind of print the
+
+00:01:20.970 --> 00:01:23.539 
+take a guess it's kind of print the
+decimal<00:01:21.119> value<00:01:21.450> as<00:01:21.990> simple<00:01:22.619> as<00:01:22.710> that<00:01:22.860> this<00:01:23.369> is
+
+00:01:23.539 --> 00:01:23.549 
+decimal value as simple as that this is
+
+00:01:23.549 --> 00:01:25.490 
+decimal value as simple as that this is
+another<00:01:23.790> ways<00:01:23.970> of<00:01:24.119> converting<00:01:24.360> so<00:01:25.140> let's<00:01:25.320> go
+
+00:01:25.490 --> 00:01:25.500 
+another ways of converting so let's go
+
+00:01:25.500 --> 00:01:26.990 
+another ways of converting so let's go
+ahead<00:01:25.650> and<00:01:25.860> see<00:01:26.130> the<00:01:26.250> second<00:01:26.580> way<00:01:26.700> there's<00:01:26.939> a
+
+00:01:26.990 --> 00:01:27.000 
+ahead and see the second way there's a
+
+00:01:27.000 --> 00:01:28.850 
+ahead and see the second way there's a
+third<00:01:27.330> way<00:01:27.540> to<00:01:27.570> do<00:01:27.780> this<00:01:27.930> I<00:01:28.110> almost<00:01:28.380> forgot<00:01:28.740> to
+
+00:01:28.850 --> 00:01:28.860 
+third way to do this I almost forgot to
+
+00:01:28.860 --> 00:01:31.520 
+third way to do this I almost forgot to
+say<00:01:29.009> that<00:01:29.659> so<00:01:30.659> let's<00:01:30.840> go<00:01:30.990> ahead<00:01:31.049> and<00:01:31.170> asking
+
+00:01:31.520 --> 00:01:31.530 
+say that so let's go ahead and asking
+
+00:01:31.530 --> 00:01:35.480 
+say that so let's go ahead and asking
+the<00:01:31.619> user<00:01:31.829> use<00:01:32.549> the<00:01:32.729> parse<00:01:33.060> int<00:01:33.390> with<00:01:33.869> this<00:01:34.490> to
+
+00:01:35.480 --> 00:01:35.490 
+the user use the parse int with this to
+
+00:01:35.490 --> 00:01:38.120 
+the user use the parse int with this to
+over<00:01:36.150> here<00:01:36.420> specifically<00:01:37.229> now<00:01:37.860> what<00:01:38.009> does
+
+00:01:38.120 --> 00:01:38.130 
+over here specifically now what does
+
+00:01:38.130 --> 00:01:40.280 
+over here specifically now what does
+that<00:01:38.159> mean<00:01:38.610> that<00:01:38.820> means<00:01:39.509> that<00:01:39.780> whatever<00:01:39.960> input
+
+00:01:40.280 --> 00:01:40.290 
+that mean that means that whatever input
+
+00:01:40.290 --> 00:01:42.170 
+that mean that means that whatever input
+the<00:01:40.560> user<00:01:40.710> is<00:01:40.920> giving<00:01:41.189> consider<00:01:41.820> that<00:01:42.000> as
+
+00:01:42.170 --> 00:01:42.180 
+the user is giving consider that as
+
+00:01:42.180 --> 00:01:43.819 
+the user is giving consider that as
+binary<00:01:42.420> and<00:01:42.780> then<00:01:43.020> convert<00:01:43.409> that<00:01:43.560> to<00:01:43.710> decimal
+
+00:01:43.819 --> 00:01:43.829 
+binary and then convert that to decimal
+
+00:01:43.829 --> 00:01:45.620 
+binary and then convert that to decimal
+so<00:01:44.520> let's<00:01:44.700> go<00:01:44.850> ahead<00:01:45.000> and<00:01:45.149> see<00:01:45.270> how<00:01:45.299> that's
+
+00:01:45.620 --> 00:01:45.630 
+so let's go ahead and see how that's
+
+00:01:45.630 --> 00:01:47.960 
+so let's go ahead and see how that's
+done<00:01:45.750> in<00:01:45.960> it<00:01:46.079> beats<00:01:46.290> so<00:01:46.770> here<00:01:47.009> in<00:01:47.220> NetBeans<00:01:47.579> I
+
+00:01:47.960 --> 00:01:47.970 
+done in it beats so here in NetBeans I
+
+00:01:47.970 --> 00:01:51.740 
+done in it beats so here in NetBeans I
+have<00:01:48.329> an<00:01:48.450> empty<00:01:48.750> project<00:01:49.320> set<00:01:50.070> up<00:01:50.570> which<00:01:51.570> has<00:01:51.720> a
+
+00:01:51.740 --> 00:01:51.750 
+have an empty project set up which has a
+
+00:01:51.750 --> 00:01:54.170 
+have an empty project set up which has a
+bufferedreader<00:01:52.460> for<00:01:53.460> taking<00:01:53.700> input<00:01:53.820> from<00:01:53.970> the
+
+00:01:54.170 --> 00:01:54.180 
+bufferedreader for taking input from the
+
+00:01:54.180 --> 00:01:54.499 
+bufferedreader for taking input from the
+user
+
+00:01:54.499 --> 00:01:54.509 
+user
+
+00:01:54.509 --> 00:01:56.359 
+user
+I'll<00:01:54.780> say<00:01:54.990> system.out.println<00:01:55.950> enter<00:01:56.280> the
+
+00:01:56.359 --> 00:01:56.369 
+I'll say system.out.println enter the
+
+00:01:56.369 --> 00:01:58.280 
+I'll say system.out.println enter the
+binary<00:01:56.759> number<00:01:57.060> store<00:01:57.509> that<00:01:57.689> inside<00:01:57.930> a<00:01:57.960> number
+
+00:01:58.280 --> 00:01:58.290 
+binary number store that inside a number
+
+00:01:58.290 --> 00:02:00.859 
+binary number store that inside a number
+it's<00:01:58.409> the<00:01:58.469> same<00:01:58.979> thing<00:01:59.369> except<00:02:00.299> something
+
+00:02:00.859 --> 00:02:00.869 
+it's the same thing except something
+
+00:02:00.869 --> 00:02:02.330 
+it's the same thing except something
+weird<00:02:01.290> now<00:02:01.560> let's<00:02:01.770> see<00:02:01.890> what<00:02:02.009> that<00:02:02.040> something
+
+00:02:02.330 --> 00:02:02.340 
+weird now let's see what that something
+
+00:02:02.340 --> 00:02:05.060 
+weird now let's see what that something
+weird<00:02:02.670> is<00:02:02.790> this<00:02:03.200> bass<00:02:04.200> string<00:02:04.710> else
+
+00:02:05.060 --> 00:02:05.070 
+weird is this bass string else
+
+00:02:05.070 --> 00:02:07.580 
+weird is this bass string else
+int<00:02:05.280> radix<00:02:06.060> you<00:02:06.719> are<00:02:06.810> going<00:02:06.930> to<00:02:06.990> use<00:02:07.140> this<00:02:07.380> one
+
+00:02:07.580 --> 00:02:07.590 
+int radix you are going to use this one
+
+00:02:07.590 --> 00:02:11.330 
+int radix you are going to use this one
+will<00:02:07.770> say<00:02:07.920> reader<00:02:08.190> dot<00:02:09.030> readline<00:02:09.869> now<00:02:10.319> here<00:02:11.190> is
+
+00:02:11.330 --> 00:02:11.340 
+will say reader dot readline now here is
+
+00:02:11.340 --> 00:02:12.900 
+will say reader dot readline now here is
+the<00:02:11.459> normal<00:02:11.760> thing<00:02:11.940> right<00:02:12.120> but<00:02:12.330> this
+
+00:02:12.900 --> 00:02:12.910 
+the normal thing right but this
+
+00:02:12.910 --> 00:02:16.170 
+the normal thing right but this
+we're<00:02:13.120> here<00:02:13.270> to<00:02:13.590> tells<00:02:14.590> the<00:02:15.310> compiler<00:02:15.700> that
+
+00:02:16.170 --> 00:02:16.180 
+we're here to tells the compiler that
+
+00:02:16.180 --> 00:02:19.080 
+we're here to tells the compiler that
+read<00:02:16.510> only<00:02:17.020> a<00:02:17.050> binary<00:02:17.320> number<00:02:17.580> that<00:02:18.580> means<00:02:18.730> the
+
+00:02:19.080 --> 00:02:19.090 
+read only a binary number that means the
+
+00:02:19.090 --> 00:02:20.370 
+read only a binary number that means the
+user<00:02:19.270> is<00:02:19.450> going<00:02:19.510> to<00:02:19.630> enter<00:02:19.810> something<00:02:19.990> binary
+
+00:02:20.370 --> 00:02:20.380 
+user is going to enter something binary
+
+00:02:20.380 --> 00:02:23.340 
+user is going to enter something binary
+and<00:02:20.590> put<00:02:21.040> that<00:02:21.220> as<00:02:21.490> the<00:02:22.450> decimal<00:02:22.900> inside<00:02:23.200> the
+
+00:02:23.340 --> 00:02:23.350 
+and put that as the decimal inside the
+
+00:02:23.350 --> 00:02:25.050 
+and put that as the decimal inside the
+value<00:02:23.500> number<00:02:23.800> now<00:02:23.920> let's<00:02:24.130> just<00:02:24.490> see<00:02:24.670> and<00:02:24.880> how
+
+00:02:25.050 --> 00:02:25.060 
+value number now let's just see and how
+
+00:02:25.060 --> 00:02:27.530 
+value number now let's just see and how
+odd<00:02:25.210> it<00:02:25.330> prints<00:02:25.570> right<00:02:25.810> system<00:02:26.260> dot<00:02:26.410> out<00:02:26.620> dot
+
+00:02:27.530 --> 00:02:27.540 
+odd it prints right system dot out dot
+
+00:02:27.540 --> 00:02:33.240 
+odd it prints right system dot out dot
+println<00:02:28.980> I'll<00:02:29.980> say<00:02:30.250> number<00:02:31.020> ctrl<00:02:32.020> s<00:02:32.200> shift<00:02:32.800> f6
+
+00:02:33.240 --> 00:02:33.250 
+println I'll say number ctrl s shift f6
+
+00:02:33.250 --> 00:02:36.480 
+println I'll say number ctrl s shift f6
+now<00:02:33.940> if<00:02:34.120> I<00:02:34.240> enter<00:02:34.420> binary<00:02:35.050> number<00:02:35.320> like<00:02:35.500> 1<00:02:35.710> 1<00:02:35.980> 0
+
+00:02:36.480 --> 00:02:36.490 
+now if I enter binary number like 1 1 0
+
+00:02:36.490 --> 00:02:39.240 
+now if I enter binary number like 1 1 0
+as<00:02:36.730> you<00:02:37.300> guys<00:02:37.450> can<00:02:37.630> see<00:02:37.690> it<00:02:37.900> directly<00:02:38.440> printing
+
+00:02:39.240 --> 00:02:39.250 
+as you guys can see it directly printing
+
+00:02:39.250 --> 00:02:42.570 
+as you guys can see it directly printing
+6<00:02:39.640> because<00:02:40.240> of<00:02:40.540> this<00:02:41.110> 2<00:02:41.410> we<00:02:42.190> are<00:02:42.250> telling<00:02:42.550> the
+
+00:02:42.570 --> 00:02:42.580 
+6 because of this 2 we are telling the
+
+00:02:42.580 --> 00:02:44.280 
+6 because of this 2 we are telling the
+Java<00:02:42.880> compiler<00:02:43.060> that<00:02:43.510> user<00:02:43.870> is<00:02:44.080> entering
+
+00:02:44.280 --> 00:02:44.290 
+Java compiler that user is entering
+
+00:02:44.290 --> 00:02:46.710 
+Java compiler that user is entering
+binary<00:02:44.740> convert<00:02:45.070> that<00:02:45.250> to<00:02:45.460> decimal<00:02:45.610> and<00:02:46.030> then
+
+00:02:46.710 --> 00:02:46.720 
+binary convert that to decimal and then
+
+00:02:46.720 --> 00:02:51.090 
+binary convert that to decimal and then
+print<00:02:47.080> it<00:02:47.140> out<00:02:47.260> so<00:02:48.160> ctrl<00:02:48.490> s<00:02:48.610> ship<00:02:49.210> f6<00:02:50.100> enter
+
+00:02:51.090 --> 00:02:51.100 
+print it out so ctrl s ship f6 enter
+
+00:02:51.100 --> 00:02:54.000 
+print it out so ctrl s ship f6 enter
+only<00:02:51.220> binary<00:02:51.760> number<00:02:52.030> like<00:02:52.690> say<00:02:52.930> 1<00:02:53.140> 1<00:02:53.470> 1<00:02:53.860> 1
+
+00:02:54.000 --> 00:02:54.010 
+only binary number like say 1 1 1 1
+
+00:02:54.010 --> 00:02:56.040 
+only binary number like say 1 1 1 1
+should<00:02:54.490> be<00:02:54.550> 15<00:02:54.910> yep<00:02:55.330> it's<00:02:55.570> working<00:02:56.020> perfectly
+
+00:02:56.040 --> 00:02:56.050 
+should be 15 yep it's working perfectly
+
+00:02:56.050 --> 00:02:58.380 
+should be 15 yep it's working perfectly
+but<00:02:56.620> now<00:02:57.190> let's<00:02:57.430> see<00:02:57.610> what<00:02:57.790> happens<00:02:58.180> when<00:02:58.330> the
+
+00:02:58.380 --> 00:02:58.390 
+but now let's see what happens when the
+
+00:02:58.390 --> 00:03:00.240 
+but now let's see what happens when the
+user<00:02:58.420> doesn't<00:02:58.900> enter<00:02:59.080> a<00:02:59.110> binary<00:02:59.320> number<00:02:59.530> so
+
+00:03:00.240 --> 00:03:00.250 
+user doesn't enter a binary number so
+
+00:03:00.250 --> 00:03:02.990 
+user doesn't enter a binary number so
+we'll<00:03:00.370> say<00:03:00.490> shift<00:03:00.760> f6<00:03:01.240> and<00:03:01.450> we'll<00:03:02.110> say<00:03:02.290> 1<00:03:02.470> 2<00:03:02.650> 4
+
+00:03:02.990 --> 00:03:03.000 
+we'll say shift f6 and we'll say 1 2 4
+
+00:03:03.000 --> 00:03:06.630 
+we'll say shift f6 and we'll say 1 2 4
+you<00:03:04.000> see<00:03:04.030> this<00:03:04.330> guys<00:03:04.540> you<00:03:04.990> see<00:03:05.200> this<00:03:05.640> exception
+
+00:03:06.630 --> 00:03:06.640 
+you see this guys you see this exception
+
+00:03:06.640 --> 00:03:08.640 
+you see this guys you see this exception
+in<00:03:06.790> the<00:03:06.910> number<00:03:07.390> format<00:03:07.840> exception<00:03:08.290> blah<00:03:08.440> blah
+
+00:03:08.640 --> 00:03:08.650 
+in the number format exception blah blah
+
+00:03:08.650 --> 00:03:12.270 
+in the number format exception blah blah
+blah<00:03:08.860> so<00:03:09.700> in<00:03:09.970> this<00:03:10.150> case<00:03:10.420> if<00:03:10.660> you<00:03:11.500> asked<00:03:11.800> expect
+
+00:03:12.270 --> 00:03:12.280 
+blah so in this case if you asked expect
+
+00:03:12.280 --> 00:03:14.100 
+blah so in this case if you asked expect
+the<00:03:12.430> user<00:03:12.610> to<00:03:12.850> enter<00:03:12.940> only<00:03:13.330> binary<00:03:13.540> with<00:03:13.840> sync
+
+00:03:14.100 --> 00:03:14.110 
+the user to enter only binary with sync
+
+00:03:14.110 --> 00:03:15.900 
+the user to enter only binary with sync
+to<00:03:14.260> over<00:03:14.500> here<00:03:14.740> and<00:03:14.950> if<00:03:15.370> the<00:03:15.460> user<00:03:15.580> enter
+
+00:03:15.900 --> 00:03:15.910 
+to over here and if the user enter
+
+00:03:15.910 --> 00:03:17.130 
+to over here and if the user enter
+something<00:03:16.150> else<00:03:16.420> this<00:03:16.630> is<00:03:16.750> going<00:03:16.930> to<00:03:17.020> be<00:03:17.110> a
+
+00:03:17.130 --> 00:03:17.140 
+something else this is going to be a
+
+00:03:17.140 --> 00:03:18.780 
+something else this is going to be a
+nasty<00:03:17.410> exception<00:03:18.040> called<00:03:18.220> number<00:03:18.400> format
+
+00:03:18.780 --> 00:03:18.790 
+nasty exception called number format
+
+00:03:18.790 --> 00:03:20.820 
+nasty exception called number format
+exception<00:03:19.300> so<00:03:19.990> I<00:03:20.020> hope<00:03:20.230> you<00:03:20.320> guys<00:03:20.440> liked<00:03:20.709> what
+
+00:03:20.820 --> 00:03:20.830 
+exception so I hope you guys liked what
+
+00:03:20.830 --> 00:03:22.980 
+exception so I hope you guys liked what
+you<00:03:20.920> saw<00:03:21.100> please<00:03:22.030> subscribe<00:03:22.120> to<00:03:22.570> my<00:03:22.660> channel
+
+00:03:22.980 --> 00:03:22.990 
+you saw please subscribe to my channel
+
+00:03:22.990 --> 00:03:24.570 
+you saw please subscribe to my channel
+if<00:03:23.080> you<00:03:23.170> liked<00:03:23.380> it<00:03:23.530> comment<00:03:23.950> let<00:03:24.220> me<00:03:24.250> know<00:03:24.370> what
+
+00:03:24.570 --> 00:03:24.580 
+if you liked it comment let me know what
+
+00:03:24.580 --> 00:03:26.550 
+if you liked it comment let me know what
+you<00:03:24.670> think<00:03:24.880> thanks<00:03:25.660> for<00:03:25.870> watching<00:03:26.170> have<00:03:26.530> a
+
+00:03:26.550 --> 00:03:26.560 
+you think thanks for watching have a
+
+00:03:26.560 --> 00:03:35.770 
+you think thanks for watching have a
+nice<00:03:26.770> day<00:03:26.830> I'll<00:03:27.160> catch<00:03:27.400> you<00:03:27.520> guys<00:03:27.550> later
+
+00:03:35.770 --> 00:03:35.780 
+
+00:03:35.780 --> 00:03:37.840 
+
+you
+
