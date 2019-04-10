@@ -1,0 +1,854 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.660 --> 00:00:10.480 
+
+hey<00:00:09.170> guys<00:00:09.380> it's<00:00:09.620> Chris<00:00:09.860> here<00:00:10.160> for<00:00:10.370> another
+
+00:00:10.480 --> 00:00:10.490 
+hey guys it's Chris here for another
+
+00:00:10.490 --> 00:00:13.510 
+hey guys it's Chris here for another
+episode<00:00:10.610> of<00:00:11.300> the<00:00:11.840> Xcode<00:00:12.260> tutorial<00:00:12.800> series<00:00:13.010> so
+
+00:00:13.510 --> 00:00:13.520 
+episode of the Xcode tutorial series so
+
+00:00:13.520 --> 00:00:15.630 
+episode of the Xcode tutorial series so
+today<00:00:13.850> we're<00:00:14.059> going<00:00:14.210> to<00:00:14.510> be<00:00:14.660> talking<00:00:15.110> about
+
+00:00:15.630 --> 00:00:15.640 
+today we're going to be talking about
+
+00:00:15.640 --> 00:00:19.450 
+today we're going to be talking about
+adding<00:00:16.640> files<00:00:17.240> to<00:00:17.660> your<00:00:17.779> Xcode<00:00:18.200> project<00:00:18.460> so
+
+00:00:19.450 --> 00:00:19.460 
+adding files to your Xcode project so
+
+00:00:19.460 --> 00:00:21.510 
+adding files to your Xcode project so
+let's<00:00:19.790> get<00:00:20.060> started
+
+00:00:21.510 --> 00:00:21.520 
+let's get started
+
+00:00:21.520 --> 00:00:23.769 
+let's get started
+hey<00:00:22.520> guys<00:00:22.730> so<00:00:22.970> we're<00:00:23.119> here<00:00:23.150> talking<00:00:23.540> about
+
+00:00:23.769 --> 00:00:23.779 
+hey guys so we're here talking about
+
+00:00:23.779 --> 00:00:27.220 
+hey guys so we're here talking about
+adding<00:00:24.439> files<00:00:24.680> to<00:00:25.009> Xcode<00:00:25.430> and<00:00:26.079> you<00:00:27.079> can
+
+00:00:27.220 --> 00:00:27.230 
+adding files to Xcode and you can
+
+00:00:27.230 --> 00:00:29.740 
+adding files to Xcode and you can
+download<00:00:27.380> this<00:00:27.680> Xcode<00:00:28.160> project<00:00:28.369> in<00:00:28.910> the<00:00:29.360> link
+
+00:00:29.740 --> 00:00:29.750 
+download this Xcode project in the link
+
+00:00:29.750 --> 00:00:31.540 
+download this Xcode project in the link
+below<00:00:30.140> or<00:00:30.470> you<00:00:30.980> can<00:00:31.009> click<00:00:31.250> the<00:00:31.430> annotation
+
+00:00:31.540 --> 00:00:31.550 
+below or you can click the annotation
+
+00:00:31.550 --> 00:00:34.450 
+below or you can click the annotation
+tool<00:00:32.210> it<00:00:32.390> download<00:00:32.840> it<00:00:33.020> but<00:00:33.739> it's<00:00:34.070> just<00:00:34.280> a
+
+00:00:34.450 --> 00:00:34.460 
+tool it download it but it's just a
+
+00:00:34.460 --> 00:00:36.880 
+tool it download it but it's just a
+fresh<00:00:34.670> project<00:00:35.210> that<00:00:35.510> I<00:00:35.540> created<00:00:35.989> right<00:00:36.770> now
+
+00:00:36.880 --> 00:00:36.890 
+fresh project that I created right now
+
+00:00:36.890 --> 00:00:39.130 
+fresh project that I created right now
+so<00:00:37.190> as<00:00:37.340> you<00:00:37.489> can<00:00:37.579> see<00:00:37.850> you<00:00:38.510> know<00:00:38.600> all<00:00:38.780> the<00:00:38.930> files
+
+00:00:39.130 --> 00:00:39.140 
+so as you can see you know all the files
+
+00:00:39.140 --> 00:00:42.220 
+so as you can see you know all the files
+are<00:00:39.470> here<00:00:39.829> in<00:00:40.010> my<00:00:40.790> project<00:00:41.360> folder<00:00:41.510> and<00:00:41.840> if<00:00:42.080> I
+
+00:00:42.220 --> 00:00:42.230 
+are here in my project folder and if I
+
+00:00:42.230 --> 00:00:44.470 
+are here in my project folder and if I
+pull<00:00:42.440> up<00:00:42.560> a<00:00:42.590> finder<00:00:43.070> you<00:00:43.280> can<00:00:43.700> see<00:00:44.060> that<00:00:44.240> it's
+
+00:00:44.470 --> 00:00:44.480 
+pull up a finder you can see that it's
+
+00:00:44.480 --> 00:00:47.620 
+pull up a finder you can see that it's
+added<00:00:44.860> all<00:00:45.860> those<00:00:46.250> files<00:00:46.550> and<00:00:46.970> dumped<00:00:47.420> it<00:00:47.510> all
+
+00:00:47.620 --> 00:00:47.630 
+added all those files and dumped it all
+
+00:00:47.630 --> 00:00:49.240 
+added all those files and dumped it all
+in<00:00:47.660> one<00:00:47.930> directory<00:00:48.530> so<00:00:48.680> I<00:00:48.710> mentioned<00:00:49.130> before
+
+00:00:49.240 --> 00:00:49.250 
+in one directory so I mentioned before
+
+00:00:49.250 --> 00:00:51.640 
+in one directory so I mentioned before
+that<00:00:49.520> I<00:00:50.030> kind<00:00:50.600> of<00:00:50.630> like<00:00:50.780> to<00:00:50.930> organize<00:00:51.380> them
+
+00:00:51.640 --> 00:00:51.650 
+that I kind of like to organize them
+
+00:00:51.650 --> 00:00:57.730 
+that I kind of like to organize them
+into<00:00:52.780> different<00:00:53.780> folders<00:00:55.000> now<00:00:56.530> one<00:00:57.530> way<00:00:57.680> you
+
+00:00:57.730 --> 00:00:57.740 
+into different folders now one way you
+
+00:00:57.740 --> 00:00:59.980 
+into different folders now one way you
+might<00:00:58.010> start<00:00:58.370> to<00:00:59.030> do<00:00:59.210> it<00:00:59.390> is<00:00:59.600> you<00:00:59.810> might
+
+00:00:59.980 --> 00:00:59.990 
+might start to do it is you might
+
+00:00:59.990 --> 00:01:02.350 
+might start to do it is you might
+right-click<00:01:00.920> on<00:01:01.100> the<00:01:01.220> project<00:01:01.579> navigator<00:01:01.670> and
+
+00:01:02.350 --> 00:01:02.360 
+right-click on the project navigator and
+
+00:01:02.360 --> 00:01:04.780 
+right-click on the project navigator and
+you<00:01:02.420> might<00:01:02.600> say<00:01:02.840> a<00:01:02.870> new<00:01:03.050> group<00:01:03.430> you<00:01:04.430> know<00:01:04.549> and
+
+00:01:04.780 --> 00:01:04.790 
+you might say a new group you know and
+
+00:01:04.790 --> 00:01:08.740 
+you might say a new group you know and
+viewcontroller<00:01:05.540> and<00:01:07.030> I<00:01:08.030> mentioned<00:01:08.630> before
+
+00:01:08.740 --> 00:01:08.750 
+viewcontroller and I mentioned before
+
+00:01:08.750 --> 00:01:12.130 
+viewcontroller and I mentioned before
+that<00:01:08.990> if<00:01:09.500> you<00:01:09.799> create<00:01:10.189> that<00:01:10.570> group<00:01:11.570> and<00:01:11.780> then
+
+00:01:12.130 --> 00:01:12.140 
+that if you create that group and then
+
+00:01:12.140 --> 00:01:15.609 
+that if you create that group and then
+you<00:01:12.340> drag<00:01:13.340> your<00:01:14.299> view<00:01:14.539> controller<00:01:14.689> into<00:01:15.469> it
+
+00:01:15.609 --> 00:01:15.619 
+you drag your view controller into it
+
+00:01:15.619 --> 00:01:18.190 
+you drag your view controller into it
+your<00:01:16.189> files<00:01:16.460> there<00:01:16.819> and<00:01:17.060> you<00:01:17.630> organize<00:01:18.020> it
+
+00:01:18.190 --> 00:01:18.200 
+your files there and you organize it
+
+00:01:18.200 --> 00:01:20.559 
+your files there and you organize it
+this<00:01:18.319> way<00:01:18.499> in<00:01:18.649> the<00:01:18.740> project<00:01:19.219> that's<00:01:19.549> great<00:01:20.149> but
+
+00:01:20.559 --> 00:01:20.569 
+this way in the project that's great but
+
+00:01:20.569 --> 00:01:23.469 
+this way in the project that's great but
+it<00:01:20.810> doesn't<00:01:21.079> actually<00:01:21.409> change<00:01:22.149> any<00:01:23.149> of<00:01:23.299> the
+
+00:01:23.469 --> 00:01:23.479 
+it doesn't actually change any of the
+
+00:01:23.479 --> 00:01:25.179 
+it doesn't actually change any of the
+files<00:01:23.780> on<00:01:24.139> the<00:01:24.170> file<00:01:24.499> system<00:01:24.710> it<00:01:25.069> doesn't
+
+00:01:25.179 --> 00:01:25.189 
+files on the file system it doesn't
+
+00:01:25.189 --> 00:01:28.599 
+files on the file system it doesn't
+organize<00:01:25.639> it<00:01:25.880> there<00:01:26.509> so<00:01:26.840> you<00:01:27.799> can<00:01:27.979> imagine<00:01:28.189> if
+
+00:01:28.599 --> 00:01:28.609 
+organize it there so you can imagine if
+
+00:01:28.609 --> 00:01:30.129 
+organize it there so you can imagine if
+you<00:01:28.819> have<00:01:28.969> a<00:01:28.999> really<00:01:29.329> large<00:01:29.539> and<00:01:29.659> complex
+
+00:01:30.129 --> 00:01:30.139 
+you have a really large and complex
+
+00:01:30.139 --> 00:01:31.779 
+you have a really large and complex
+project<00:01:30.679> with<00:01:30.829> a<00:01:30.859> ton<00:01:31.100> of<00:01:31.130> files<00:01:31.399> and<00:01:31.700> you
+
+00:01:31.779 --> 00:01:31.789 
+project with a ton of files and you
+
+00:01:31.789 --> 00:01:36.760 
+project with a ton of files and you
+organize<00:01:32.179> it<00:01:32.389> this<00:01:32.509> way<00:01:32.719> then<00:01:34.990> your<00:01:35.990> source
+
+00:01:36.760 --> 00:01:36.770 
+organize it this way then your source
+
+00:01:36.770 --> 00:01:40.179 
+organize it this way then your source
+code<00:01:37.100> in<00:01:37.399> your<00:01:38.179> you<00:01:38.810> know<00:01:38.899> actual<00:01:39.469> file<00:01:39.709> system
+
+00:01:40.179 --> 00:01:40.189 
+code in your you know actual file system
+
+00:01:40.189 --> 00:01:41.559 
+code in your you know actual file system
+is<00:01:40.340> gonna<00:01:40.490> be<00:01:40.609> a<00:01:40.639> mess<00:01:40.880> it's<00:01:41.119> just<00:01:41.329> gonna<00:01:41.479> be
+
+00:01:41.559 --> 00:01:41.569 
+is gonna be a mess it's just gonna be
+
+00:01:41.569 --> 00:01:43.539 
+is gonna be a mess it's just gonna be
+one<00:01:41.689> folder<00:01:42.109> with<00:01:42.289> all<00:01:42.499> of<00:01:42.740> your<00:01:42.889> files<00:01:43.159> in<00:01:43.429> it
+
+00:01:43.539 --> 00:01:43.549 
+one folder with all of your files in it
+
+00:01:43.549 --> 00:01:47.620 
+one folder with all of your files in it
+so<00:01:44.209> what<00:01:44.899> I<00:01:44.929> usually<00:01:45.590> do<00:01:46.069> how<00:01:46.909> I<00:01:46.939> usually<00:01:47.179> start
+
+00:01:47.620 --> 00:01:47.630 
+so what I usually do how I usually start
+
+00:01:47.630 --> 00:01:50.739 
+so what I usually do how I usually start
+off<00:01:47.840> is<00:01:48.200> I<00:01:48.639> kind<00:01:49.639> of<00:01:49.700> remove<00:01:49.969> all<00:01:50.270> of<00:01:50.630> these
+
+00:01:50.739 --> 00:01:50.749 
+off is I kind of remove all of these
+
+00:01:50.749 --> 00:01:53.889 
+off is I kind of remove all of these
+files<00:01:51.109> here<00:01:51.679> and<00:01:52.149> you<00:01:53.149> don't<00:01:53.299> want<00:01:53.479> to<00:01:53.539> delete
+
+00:01:53.889 --> 00:01:53.899 
+files here and you don't want to delete
+
+00:01:53.899 --> 00:01:56.260 
+files here and you don't want to delete
+them<00:01:54.170> so<00:01:54.350> you<00:01:54.799> right-click<00:01:55.039> delete<00:01:55.549> I<00:01:55.880> mean
+
+00:01:56.260 --> 00:01:56.270 
+them so you right-click delete I mean
+
+00:01:56.270 --> 00:01:57.849 
+them so you right-click delete I mean
+you<00:01:56.389> don't<00:01:56.509> want<00:01:56.719> to<00:01:56.869> move<00:01:57.049> them<00:01:57.289> to<00:01:57.439> the<00:01:57.590> trash
+
+00:01:57.849 --> 00:01:57.859 
+you don't want to move them to the trash
+
+00:01:57.859 --> 00:01:59.379 
+you don't want to move them to the trash
+you<00:01:58.130> just<00:01:58.279> want<00:01:58.459> to<00:01:58.579> remove<00:01:58.789> the<00:01:58.999> project
+
+00:01:59.379 --> 00:01:59.389 
+you just want to remove the project
+
+00:01:59.389 --> 00:02:04.539 
+you just want to remove the project
+reference<00:01:59.779> to<00:01:59.990> it<00:02:00.109> so<00:02:02.950> then<00:02:03.950> I<00:02:04.219> will<00:02:04.369> go<00:02:04.520> into
+
+00:02:04.539 --> 00:02:04.549 
+reference to it so then I will go into
+
+00:02:04.549 --> 00:02:06.639 
+reference to it so then I will go into
+my<00:02:05.179> file<00:02:05.539> system<00:02:05.990> and<00:02:06.139> I'll<00:02:06.259> create<00:02:06.590> the
+
+00:02:06.639 --> 00:02:06.649 
+my file system and I'll create the
+
+00:02:06.649 --> 00:02:20.410 
+my file system and I'll create the
+actual<00:02:07.009> folders<00:02:17.980> now<00:02:18.980> move<00:02:19.250> the<00:02:19.430> files<00:02:19.700> into
+
+00:02:20.410 --> 00:02:20.420 
+actual folders now move the files into
+
+00:02:20.420 --> 00:02:25.600 
+actual folders now move the files into
+them<00:02:20.600> on<00:02:20.840> the<00:02:21.140> file<00:02:21.350> system<00:02:22.510> and<00:02:24.160> then<00:02:25.160> I<00:02:25.460> will
+
+00:02:25.600 --> 00:02:25.610 
+them on the file system and then I will
+
+00:02:25.610 --> 00:02:33.220 
+them on the file system and then I will
+actually<00:02:26.150> drag<00:02:26.800> it<00:02:27.800> into<00:02:29.200> my<00:02:30.200> project<00:02:31.840> so<00:02:32.840> it
+
+00:02:33.220 --> 00:02:33.230 
+actually drag it into my project so it
+
+00:02:33.230 --> 00:02:36.010 
+actually drag it into my project so it
+brings<00:02:33.410> up<00:02:33.560> a<00:02:33.650> dialog<00:02:34.070> like<00:02:34.280> this<00:02:34.520> and<00:02:35.020> it's
+
+00:02:36.010 --> 00:02:36.020 
+brings up a dialog like this and it's
+
+00:02:36.020 --> 00:02:38.590 
+brings up a dialog like this and it's
+just<00:02:36.410> saying<00:02:36.620> so<00:02:36.950> this<00:02:37.130> check<00:02:37.430> mark<00:02:37.600> sometimes
+
+00:02:38.590 --> 00:02:38.600 
+just saying so this check mark sometimes
+
+00:02:38.600 --> 00:02:41.920 
+just saying so this check mark sometimes
+if<00:02:38.810> you're<00:02:38.930> dragging<00:02:39.320> files<00:02:39.500> from<00:02:40.900> outside<00:02:41.900> of
+
+00:02:41.920 --> 00:02:41.930 
+if you're dragging files from outside of
+
+00:02:41.930 --> 00:02:43.600 
+if you're dragging files from outside of
+the<00:02:42.140> project<00:02:42.350> so<00:02:42.800> let's<00:02:43.010> say<00:02:43.130> you<00:02:43.190> had<00:02:43.460> some
+
+00:02:43.600 --> 00:02:43.610 
+the project so let's say you had some
+
+00:02:43.610 --> 00:02:45.280 
+the project so let's say you had some
+images<00:02:44.060> and<00:02:44.270> it<00:02:44.360> was<00:02:44.480> sitting<00:02:44.660> outside<00:02:44.960> of
+
+00:02:45.280 --> 00:02:45.290 
+images and it was sitting outside of
+
+00:02:45.290 --> 00:02:47.680 
+images and it was sitting outside of
+your<00:02:45.410> project<00:02:45.860> if<00:02:46.700> you<00:02:46.820> had<00:02:47.000> this<00:02:47.180> checked<00:02:47.510> off
+
+00:02:47.680 --> 00:02:47.690 
+your project if you had this checked off
+
+00:02:47.690 --> 00:02:50.560 
+your project if you had this checked off
+then<00:02:47.990> it<00:02:48.200> would<00:02:48.350> create<00:02:49.130> a<00:02:49.160> copy<00:02:49.520> of<00:02:49.880> that<00:02:49.940> item
+
+00:02:50.560 --> 00:02:50.570 
+then it would create a copy of that item
+
+00:02:50.570 --> 00:02:52.900 
+then it would create a copy of that item
+in<00:02:50.750> your<00:02:50.990> project<00:02:51.410> folder<00:02:51.560> and<00:02:51.950> you<00:02:52.760> usually
+
+00:02:52.900 --> 00:02:52.910 
+in your project folder and you usually
+
+00:02:52.910 --> 00:02:55.870 
+in your project folder and you usually
+want<00:02:53.300> to<00:02:53.480> do<00:02:53.630> this<00:02:53.810> because<00:02:54.050> if<00:02:54.530> you<00:02:54.980> don't
+
+00:02:55.870 --> 00:02:55.880 
+want to do this because if you don't
+
+00:02:55.880 --> 00:02:57.790 
+want to do this because if you don't
+copy<00:02:56.210> a<00:02:56.360> new<00:02:56.600> project<00:02:56.810> folder<00:02:57.350> and<00:02:57.380> then<00:02:57.650> you
+
+00:02:57.790 --> 00:02:57.800 
+copy a new project folder and then you
+
+00:02:57.800 --> 00:02:59.740 
+copy a new project folder and then you
+use<00:02:58.460> up<00:02:58.700> up<00:02:58.820> the<00:02:58.940> source<00:02:59.150> code<00:02:59.330> and<00:02:59.360> you<00:02:59.510> send
+
+00:02:59.740 --> 00:02:59.750 
+use up up the source code and you send
+
+00:02:59.750 --> 00:03:01.540 
+use up up the source code and you send
+it<00:02:59.870> to<00:02:59.960> someone<00:03:00.170> then<00:03:00.620> you<00:03:00.890> might<00:03:01.100> be<00:03:01.310> missing
+
+00:03:01.540 --> 00:03:01.550 
+it to someone then you might be missing
+
+00:03:01.550 --> 00:03:05.980 
+it to someone then you might be missing
+files<00:03:01.910> and<00:03:03.550> here<00:03:04.550> we<00:03:05.240> talked<00:03:05.480> about<00:03:05.600> groups
+
+00:03:05.980 --> 00:03:05.990 
+files and here we talked about groups
+
+00:03:05.990 --> 00:03:07.660 
+files and here we talked about groups
+versus<00:03:06.470> folder<00:03:06.830> references<00:03:07.340> and<00:03:07.580> I'm
+
+00:03:07.660 --> 00:03:07.670 
+versus folder references and I'm
+
+00:03:07.670 --> 00:03:09.550 
+versus folder references and I'm
+actually<00:03:07.850> gonna<00:03:08.060> go<00:03:08.300> into<00:03:08.600> that<00:03:08.720> a<00:03:09.020> little<00:03:09.410> bit
+
+00:03:09.550 --> 00:03:09.560 
+actually gonna go into that a little bit
+
+00:03:09.560 --> 00:03:11.440 
+actually gonna go into that a little bit
+more<00:03:09.830> in<00:03:09.980> the<00:03:10.070> next<00:03:10.100> video<00:03:10.520> kind<00:03:11.150> of<00:03:11.240> pros<00:03:11.420> and
+
+00:03:11.440 --> 00:03:11.450 
+more in the next video kind of pros and
+
+00:03:11.450 --> 00:03:13.690 
+more in the next video kind of pros and
+cons<00:03:11.780> of<00:03:11.960> each<00:03:12.080> but<00:03:12.740> for<00:03:12.920> now<00:03:13.010> I'm<00:03:13.250> going<00:03:13.490> to
+
+00:03:13.690 --> 00:03:13.700 
+cons of each but for now I'm going to
+
+00:03:13.700 --> 00:03:18.070 
+cons of each but for now I'm going to
+create<00:03:14.500> them<00:03:15.500> as<00:03:15.650> groups<00:03:16.180> so<00:03:17.180> add<00:03:17.420> to<00:03:17.450> targets
+
+00:03:18.070 --> 00:03:18.080 
+create them as groups so add to targets
+
+00:03:18.080 --> 00:03:20.890 
+create them as groups so add to targets
+if<00:03:18.290> you've<00:03:18.820> if<00:03:19.820> you<00:03:20.060> just<00:03:20.270> created<00:03:20.660> a<00:03:20.720> single
+
+00:03:20.890 --> 00:03:20.900 
+if you've if you just created a single
+
+00:03:20.900 --> 00:03:22.960 
+if you've if you just created a single
+application<00:03:21.470> then<00:03:22.070> you're<00:03:22.400> just<00:03:22.640> gonna<00:03:22.730> have
+
+00:03:22.960 --> 00:03:22.970 
+application then you're just gonna have
+
+00:03:22.970 --> 00:03:24.580 
+application then you're just gonna have
+this<00:03:23.180> one<00:03:23.390> target<00:03:23.810> and<00:03:23.990> it<00:03:24.170> should<00:03:24.410> be<00:03:24.470> the
+
+00:03:24.580 --> 00:03:24.590 
+this one target and it should be the
+
+00:03:24.590 --> 00:03:27.940 
+this one target and it should be the
+name<00:03:24.740> of<00:03:24.800> your<00:03:24.920> app<00:03:25.190> but<00:03:25.630> some<00:03:26.630> Xcode<00:03:27.500> projects
+
+00:03:27.940 --> 00:03:27.950 
+name of your app but some Xcode projects
+
+00:03:27.950 --> 00:03:29.800 
+name of your app but some Xcode projects
+may<00:03:28.100> have<00:03:28.310> multiple<00:03:28.550> build<00:03:29.090> targets<00:03:29.540> and
+
+00:03:29.800 --> 00:03:29.810 
+may have multiple build targets and
+
+00:03:29.810 --> 00:03:32.590 
+may have multiple build targets and
+that's<00:03:30.320> a<00:03:30.410> future<00:03:30.590> topic<00:03:31.160> so<00:03:31.610> for<00:03:31.820> now<00:03:31.940> you
+
+00:03:32.590 --> 00:03:32.600 
+that's a future topic so for now you
+
+00:03:32.600 --> 00:03:34.300 
+that's a future topic so for now you
+know<00:03:32.690> that's<00:03:32.930> checked<00:03:33.260> that's<00:03:33.620> fine<00:03:33.950> but<00:03:34.190> if
+
+00:03:34.300 --> 00:03:34.310 
+know that's checked that's fine but if
+
+00:03:34.310 --> 00:03:36.250 
+know that's checked that's fine but if
+you<00:03:34.400> had<00:03:34.490> multiple<00:03:34.700> build<00:03:35.120> targets<00:03:35.570> you<00:03:36.080> would
+
+00:03:36.250 --> 00:03:36.260 
+you had multiple build targets you would
+
+00:03:36.260 --> 00:03:38.620 
+you had multiple build targets you would
+be<00:03:36.380> able<00:03:36.590> to<00:03:36.740> select<00:03:36.950> which<00:03:37.390> target<00:03:38.390> you<00:03:38.510> want
+
+00:03:38.620 --> 00:03:38.630 
+be able to select which target you want
+
+00:03:38.630 --> 00:03:41.590 
+be able to select which target you want
+this<00:03:38.840> file<00:03:39.080> to<00:03:39.260> be<00:03:39.350> included<00:03:39.830> into<00:03:40.240> so<00:03:41.240> finish
+
+00:03:41.590 --> 00:03:41.600 
+this file to be included into so finish
+
+00:03:41.600 --> 00:03:43.900 
+this file to be included into so finish
+and<00:03:41.900> then<00:03:42.560> it<00:03:42.740> goes<00:03:42.920> ahead<00:03:43.070> and<00:03:43.370> adds<00:03:43.580> it<00:03:43.760> as<00:03:43.880> a
+
+00:03:43.900 --> 00:03:43.910 
+and then it goes ahead and adds it as a
+
+00:03:43.910 --> 00:03:46.690 
+and then it goes ahead and adds it as a
+group<00:03:44.210> and<00:03:44.510> adds<00:03:45.200> it<00:03:45.380> in<00:03:45.500> there<00:03:45.710> and<00:03:45.920> in<00:03:46.190> the
+
+00:03:46.690 --> 00:03:46.700 
+group and adds it in there and in the
+
+00:03:46.700 --> 00:03:49.660 
+group and adds it in there and in the
+future<00:03:47.090> if<00:03:47.390> I<00:03:47.600> wanted<00:03:47.960> to<00:03:48.230> create<00:03:49.160> a<00:03:49.190> new<00:03:49.370> file
+
+00:03:49.660 --> 00:03:49.670 
+future if I wanted to create a new file
+
+00:03:49.670 --> 00:03:52.030 
+future if I wanted to create a new file
+I<00:03:50.090> would<00:03:50.420> right<00:03:50.930> click<00:03:51.230> and<00:03:51.500> then<00:03:51.560> create<00:03:52.010> a
+
+00:03:52.030 --> 00:03:52.040 
+I would right click and then create a
+
+00:03:52.040 --> 00:03:56.170 
+I would right click and then create a
+new<00:03:52.100> file<00:03:53.320> let's<00:03:54.320> just<00:03:54.560> create<00:03:55.370> a<00:03:55.460> kind<00:03:56.030> of
+
+00:03:56.170 --> 00:03:56.180 
+new file let's just create a kind of
+
+00:03:56.180 --> 00:03:59.140 
+new file let's just create a kind of
+class<00:03:56.420> and<00:03:57.100> then<00:03:58.100> it<00:03:58.340> would<00:03:58.490> ask<00:03:58.670> me<00:03:58.910> where<00:03:59.090> to
+
+00:03:59.140 --> 00:03:59.150 
+class and then it would ask me where to
+
+00:03:59.150 --> 00:04:01.180 
+class and then it would ask me where to
+save<00:03:59.480> it<00:03:59.690> at<00:03:59.810> this<00:03:59.960> point<00:04:00.230> so<00:04:00.530> I<00:04:00.560> could<00:04:00.950> save<00:04:01.160> it
+
+00:04:01.180 --> 00:04:01.190 
+save it at this point so I could save it
+
+00:04:01.190 --> 00:04:02.980 
+save it at this point so I could save it
+in<00:04:01.400> the<00:04:01.550> folder<00:04:01.880> I<00:04:01.910> created<00:04:02.030> on<00:04:02.569> my<00:04:02.750> file
+
+00:04:02.980 --> 00:04:02.990 
+in the folder I created on my file
+
+00:04:02.990 --> 00:04:08.830 
+in the folder I created on my file
+system<00:04:03.640> and<00:04:05.530> then<00:04:06.530> in<00:04:06.710> this<00:04:06.860> manner<00:04:07.660> it<00:04:08.660> would
+
+00:04:08.830 --> 00:04:08.840 
+system and then in this manner it would
+
+00:04:08.840 --> 00:04:11.800 
+system and then in this manner it would
+still<00:04:09.170> be<00:04:09.430> I'll<00:04:10.430> still<00:04:10.700> be<00:04:10.819> organized<00:04:11.270> on<00:04:11.600> the
+
+00:04:11.800 --> 00:04:11.810 
+still be I'll still be organized on the
+
+00:04:11.810 --> 00:04:14.350 
+still be I'll still be organized on the
+file<00:04:11.990> system<00:04:12.260> as<00:04:12.650> it<00:04:12.890> is<00:04:13.040> in<00:04:13.310> your<00:04:13.910> project
+
+00:04:14.350 --> 00:04:14.360 
+file system as it is in your project
+
+00:04:14.360 --> 00:04:18.129 
+file system as it is in your project
+navigator<00:04:14.830> so<00:04:15.830> let<00:04:15.980> me<00:04:16.069> delete<00:04:16.340> that<00:04:17.139> this
+
+00:04:18.129 --> 00:04:18.139 
+navigator so let me delete that this
+
+00:04:18.139 --> 00:04:20.050 
+navigator so let me delete that this
+time<00:04:18.350> I<00:04:18.380> do<00:04:18.500> want<00:04:19.100> to<00:04:19.220> move<00:04:19.370> these<00:04:19.579> temporary
+
+00:04:20.050 --> 00:04:20.060 
+time I do want to move these temporary
+
+00:04:20.060 --> 00:04:22.200 
+time I do want to move these temporary
+files<00:04:20.419> to<00:04:20.810> the<00:04:20.930> trash
+
+00:04:22.200 --> 00:04:22.210 
+files to the trash
+
+00:04:22.210 --> 00:04:26.640 
+files to the trash
+now<00:04:23.190> another<00:04:24.190> way<00:04:24.430> that<00:04:24.460> you<00:04:24.670> can<00:04:24.880> add<00:04:25.150> files
+
+00:04:26.640 --> 00:04:26.650 
+now another way that you can add files
+
+00:04:26.650 --> 00:04:28.380 
+now another way that you can add files
+aside<00:04:27.190> from<00:04:27.220> drag-and-drop<00:04:27.700> is<00:04:28.090> to<00:04:28.240> right
+
+00:04:28.380 --> 00:04:28.390 
+aside from drag-and-drop is to right
+
+00:04:28.390 --> 00:04:32.670 
+aside from drag-and-drop is to right
+click<00:04:28.630> and<00:04:28.810> then<00:04:29.440> go<00:04:29.830> to<00:04:30.870> existing<00:04:31.870> so<00:04:32.470> add
+
+00:04:32.670 --> 00:04:32.680 
+click and then go to existing so add
+
+00:04:32.680 --> 00:04:37.820 
+click and then go to existing so add
+files<00:04:32.980> to<00:04:33.160> Xcode<00:04:34.320> project<00:04:35.320> and<00:04:35.920> then<00:04:36.910> I<00:04:37.270> can
+
+00:04:37.820 --> 00:04:37.830 
+files to Xcode project and then I can
+
+00:04:37.830 --> 00:04:40.740 
+files to Xcode project and then I can
+just<00:04:38.830> select<00:04:39.070> my<00:04:39.520> whole<00:04:39.910> folder<00:04:40.150> and<00:04:40.600> again
+
+00:04:40.740 --> 00:04:40.750 
+just select my whole folder and again
+
+00:04:40.750 --> 00:04:42.810 
+just select my whole folder and again
+you<00:04:40.990> have<00:04:41.020> these<00:04:41.260> options<00:04:41.500> here<00:04:41.980> so<00:04:42.730> we're
+
+00:04:42.810 --> 00:04:42.820 
+you have these options here so we're
+
+00:04:42.820 --> 00:04:46.430 
+you have these options here so we're
+going<00:04:42.940> to<00:04:43.060> add<00:04:43.180> it<00:04:43.410> and<00:04:44.410> there<00:04:44.980> it's<00:04:45.160> gonna<00:04:45.430> add
+
+00:04:46.430 --> 00:04:46.440 
+going to add it and there it's gonna add
+
+00:04:46.440 --> 00:04:51.030 
+going to add it and there it's gonna add
+my<00:04:47.440> folder<00:04:47.860> and<00:04:48.690> new<00:04:49.690> controller<00:04:50.080> so<00:04:50.680> these
+
+00:04:51.030 --> 00:04:51.040 
+my folder and new controller so these
+
+00:04:51.040 --> 00:04:52.590 
+my folder and new controller so these
+are<00:04:51.280> still<00:04:51.550> groups<00:04:51.910> don't<00:04:52.180> get<00:04:52.390> them<00:04:52.570> confused
+
+00:04:52.590 --> 00:04:52.600 
+are still groups don't get them confused
+
+00:04:52.600 --> 00:04:58.440 
+are still groups don't get them confused
+with<00:04:53.530> folders<00:04:54.340> so<00:04:55.090> for<00:04:55.300> example<00:04:55.720> if<00:04:56.020> I<00:04:57.450> you
+
+00:04:58.440 --> 00:04:58.450 
+with folders so for example if I you
+
+00:04:58.450 --> 00:05:00.000 
+with folders so for example if I you
+know<00:04:58.540> move<00:04:58.750> my<00:04:58.900> viewcontroller<00:04:59.140> files<00:04:59.740> into
+
+00:05:00.000 --> 00:05:00.010 
+know move my viewcontroller files into
+
+00:05:00.010 --> 00:05:02.760 
+know move my viewcontroller files into
+the<00:05:00.250> app<00:05:00.370> delegate<00:05:00.880> group<00:05:01.470> that's<00:05:02.470> not
+
+00:05:02.760 --> 00:05:02.770 
+the app delegate group that's not
+
+00:05:02.770 --> 00:05:05.220 
+the app delegate group that's not
+reflected<00:05:03.040> in<00:05:03.550> the<00:05:03.610> filesystem<00:05:03.940> I<00:05:04.660> just<00:05:05.050> want
+
+00:05:05.220 --> 00:05:05.230 
+reflected in the filesystem I just want
+
+00:05:05.230 --> 00:05:09.120 
+reflected in the filesystem I just want
+to<00:05:05.350> reiterate<00:05:05.590> that<00:05:07.440> so<00:05:08.440> now<00:05:08.620> you<00:05:08.680> guys<00:05:08.950> know
+
+00:05:09.120 --> 00:05:09.130 
+to reiterate that so now you guys know
+
+00:05:09.130 --> 00:05:11.250 
+to reiterate that so now you guys know
+how<00:05:09.310> to<00:05:09.370> add<00:05:09.550> files<00:05:09.910> to<00:05:10.240> Xcode<00:05:10.660> but<00:05:10.960> what<00:05:11.080> about
+
+00:05:11.250 --> 00:05:11.260 
+how to add files to Xcode but what about
+
+00:05:11.260 --> 00:05:13.320 
+how to add files to Xcode but what about
+organizing<00:05:11.920> them<00:05:12.070> in<00:05:12.550> the<00:05:12.670> next<00:05:12.880> episode
+
+00:05:13.320 --> 00:05:13.330 
+organizing them in the next episode
+
+00:05:13.330 --> 00:05:14.610 
+organizing them in the next episode
+we're<00:05:13.480> going<00:05:13.570> to<00:05:13.630> talk<00:05:13.900> about<00:05:14.050> folder
+
+00:05:14.610 --> 00:05:14.620 
+we're going to talk about folder
+
+00:05:14.620 --> 00:05:17.670 
+we're going to talk about folder
+references<00:05:15.280> versus<00:05:16.210> organizing<00:05:17.080> your<00:05:17.350> files
+
+00:05:17.670 --> 00:05:17.680 
+references versus organizing your files
+
+00:05:17.680 --> 00:05:21.150 
+references versus organizing your files
+in<00:05:18.040> the<00:05:18.190> groups<00:05:19.320> now<00:05:20.320> for<00:05:20.530> your<00:05:20.590> fun<00:05:20.800> fact<00:05:21.010> of
+
+00:05:21.150 --> 00:05:21.160 
+in the groups now for your fun fact of
+
+00:05:21.160 --> 00:05:23.550 
+in the groups now for your fun fact of
+the<00:05:21.220> day<00:05:21.310> so<00:05:21.940> did<00:05:22.240> you<00:05:22.420> know<00:05:22.570> that<00:05:22.600> the<00:05:23.320> most
+
+00:05:23.550 --> 00:05:23.560 
+the day so did you know that the most
+
+00:05:23.560 --> 00:05:26.940 
+the day so did you know that the most
+expensive<00:05:24.040> part<00:05:24.940> in<00:05:25.150> the<00:05:25.690> iPhone<00:05:26.110> is<00:05:26.380> the
+
+00:05:26.940 --> 00:05:26.950 
+expensive part in the iPhone is the
+
+00:05:26.950 --> 00:05:30.350 
+expensive part in the iPhone is the
+Retina<00:05:27.490> display<00:05:27.970> screen<00:05:28.330> and<00:05:28.540> it<00:05:29.350> only<00:05:29.530> costs
+
+00:05:30.350 --> 00:05:30.360 
+Retina display screen and it only costs
+
+00:05:30.360 --> 00:05:33.990 
+Retina display screen and it only costs
+$28<00:05:31.360> so<00:05:32.260> my<00:05:32.410> question<00:05:32.830> to<00:05:32.860> you<00:05:33.040> guys<00:05:33.160> is<00:05:33.400> do<00:05:33.940> you
+
+00:05:33.990 --> 00:05:34.000 
+$28 so my question to you guys is do you
+
+00:05:34.000 --> 00:05:36.510 
+$28 so my question to you guys is do you
+think<00:05:34.060> the<00:05:34.570> price<00:05:35.230> of<00:05:35.410> technology<00:05:36.010> has<00:05:36.190> gotten
+
+00:05:36.510 --> 00:05:36.520 
+think the price of technology has gotten
+
+00:05:36.520 --> 00:05:39.120 
+think the price of technology has gotten
+too<00:05:36.670> high<00:05:36.700> or<00:05:37.180> do<00:05:37.690> you<00:05:37.780> think<00:05:37.840> that<00:05:38.110> all<00:05:38.590> of<00:05:38.980> the
+
+00:05:39.120 --> 00:05:39.130 
+too high or do you think that all of the
+
+00:05:39.130 --> 00:05:41.159 
+too high or do you think that all of the
+branding<00:05:39.640> marketing<00:05:40.090> and<00:05:40.600> research<00:05:40.990> and
+
+00:05:41.159 --> 00:05:41.169 
+branding marketing and research and
+
+00:05:41.169 --> 00:05:44.760 
+branding marketing and research and
+development<00:05:41.740> all<00:05:41.919> of<00:05:42.490> those<00:05:42.640> costs<00:05:43.770> justifies
+
+00:05:44.760 --> 00:05:44.770 
+development all of those costs justifies
+
+00:05:44.770 --> 00:05:46.770 
+development all of those costs justifies
+the<00:05:44.980> price<00:05:45.250> that<00:05:45.520> you<00:05:46.120> know<00:05:46.240> an<00:05:46.390> iPhone
+
+00:05:46.770 --> 00:05:46.780 
+the price that you know an iPhone
+
+00:05:46.780 --> 00:05:48.630 
+the price that you know an iPhone
+commands<00:05:47.320> these<00:05:47.800> days<00:05:48.070> I<00:05:48.310> think<00:05:48.520> it's
+
+00:05:48.630 --> 00:05:48.640 
+commands these days I think it's
+
+00:05:48.640 --> 00:05:51.570 
+commands these days I think it's
+something<00:05:48.820> like<00:05:49.080> $500<00:05:50.080> or<00:05:50.440> $600<00:05:51.280> for<00:05:51.460> an
+
+00:05:51.570 --> 00:05:51.580 
+something like $500 or $600 for an
+
+00:05:51.580 --> 00:05:53.340 
+something like $500 or $600 for an
+iPhone<00:05:51.940> let<00:05:52.630> me<00:05:52.720> know<00:05:52.810> in<00:05:52.960> the<00:05:52.990> comment
+
+00:05:53.340 --> 00:05:53.350 
+iPhone let me know in the comment
+
+00:05:53.350 --> 00:05:54.990 
+iPhone let me know in the comment
+section<00:05:53.620> below<00:05:53.740> and<00:05:53.980> I'll<00:05:54.490> see<00:05:54.640> you<00:05:54.730> guys<00:05:54.820> next
+
+00:05:54.990 --> 00:05:55.000 
+section below and I'll see you guys next
+
+00:05:55.000 --> 00:06:08.080 
+section below and I'll see you guys next
+time
+
+00:06:08.080 --> 00:06:08.090 
+
+00:06:08.090 --> 00:06:10.150 
+
+you
+

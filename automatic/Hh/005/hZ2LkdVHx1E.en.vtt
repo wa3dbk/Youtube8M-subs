@@ -1,0 +1,1177 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.409 --> 00:00:04.200 
+
+welcome<00:00:02.409> everybody<00:00:02.710> to<00:00:03.070> angela<00:00:03.759> Vera's
+
+00:00:04.200 --> 00:00:04.210 
+welcome everybody to angela Vera's
+
+00:00:04.210 --> 00:00:07.170 
+welcome everybody to angela Vera's
+tutorial<00:00:04.870> on<00:00:05.080> CPU<00:00:05.830> scheduling<00:00:06.100> in<00:00:06.490> this
+
+00:00:07.170 --> 00:00:07.180 
+tutorial on CPU scheduling in this
+
+00:00:07.180 --> 00:00:09.810 
+tutorial on CPU scheduling in this
+tutorial<00:00:07.469> we<00:00:08.469> will<00:00:08.500> be<00:00:08.799> learning<00:00:09.009> the<00:00:09.219> concept
+
+00:00:09.810 --> 00:00:09.820 
+tutorial we will be learning the concept
+
+00:00:09.820 --> 00:00:13.159 
+tutorial we will be learning the concept
+of<00:00:10.030> NP<00:00:10.660> sjf<00:00:11.230> NP<00:00:11.920> is<00:00:12.099> non-preemptive
+
+00:00:13.159 --> 00:00:13.169 
+of NP sjf NP is non-preemptive
+
+00:00:13.169 --> 00:00:16.560 
+of NP sjf NP is non-preemptive
+basically<00:00:14.169> SJ<00:00:15.040> f<00:00:15.160> stands<00:00:15.519> for<00:00:15.639> shortest<00:00:16.360> job
+
+00:00:16.560 --> 00:00:16.570 
+basically SJ f stands for shortest job
+
+00:00:16.570 --> 00:00:19.380 
+basically SJ f stands for shortest job
+first<00:00:17.110> and<00:00:17.440> this<00:00:18.100> algorithm<00:00:18.460> has<00:00:18.970> two
+
+00:00:19.380 --> 00:00:19.390 
+first and this algorithm has two
+
+00:00:19.390 --> 00:00:22.050 
+first and this algorithm has two
+versions<00:00:19.740> here<00:00:20.740> we<00:00:20.980> will<00:00:21.160> discussing<00:00:21.580> one<00:00:22.030> of
+
+00:00:22.050 --> 00:00:22.060 
+versions here we will discussing one of
+
+00:00:22.060 --> 00:00:24.210 
+versions here we will discussing one of
+the<00:00:22.300> versions<00:00:22.480> which<00:00:22.960> is<00:00:23.220> non-preemptive
+
+00:00:24.210 --> 00:00:24.220 
+the versions which is non-preemptive
+
+00:00:24.220 --> 00:00:27.500 
+the versions which is non-preemptive
+shortest<00:00:24.970> job<00:00:25.060> first
+
+00:00:27.500 --> 00:00:27.510 
+shortest job first
+
+00:00:27.510 --> 00:00:30.900 
+shortest job first
+now<00:00:28.510> the<00:00:29.500> non-preemptive<00:00:30.250> version<00:00:30.790> of
+
+00:00:30.900 --> 00:00:30.910 
+now the non-preemptive version of
+
+00:00:30.910 --> 00:00:33.779 
+now the non-preemptive version of
+shortest<00:00:31.540> off<00:00:31.810> first<00:00:32.169> is<00:00:32.589> also<00:00:33.250> called<00:00:33.519> as<00:00:33.730> the
+
+00:00:33.779 --> 00:00:33.789 
+shortest off first is also called as the
+
+00:00:33.789 --> 00:00:38.400 
+shortest off first is also called as the
+shortest<00:00:34.719> process<00:00:35.289> next<00:00:36.480> now<00:00:37.480> here<00:00:37.899> the
+
+00:00:38.400 --> 00:00:38.410 
+shortest process next now here the
+
+00:00:38.410 --> 00:00:41.759 
+shortest process next now here the
+criteria<00:00:38.980> is<00:00:39.280> birth<00:00:39.879> time<00:00:40.149> that<00:00:40.749> is<00:00:40.989> execution
+
+00:00:41.759 --> 00:00:41.769 
+criteria is birth time that is execution
+
+00:00:41.769 --> 00:00:44.130 
+criteria is birth time that is execution
+time<00:00:42.010> so<00:00:42.730> what<00:00:42.969> here<00:00:43.210> we<00:00:43.420> have<00:00:43.510> to<00:00:43.660> do<00:00:43.780> is<00:00:43.929> that
+
+00:00:44.130 --> 00:00:44.140 
+time so what here we have to do is that
+
+00:00:44.140 --> 00:00:47.250 
+time so what here we have to do is that
+we<00:00:44.800> have<00:00:44.829> to<00:00:45.100> select<00:00:45.339> the<00:00:45.579> process<00:00:45.969> with<00:00:46.839> least
+
+00:00:47.250 --> 00:00:47.260 
+we have to select the process with least
+
+00:00:47.260 --> 00:00:50.700 
+we have to select the process with least
+birth<00:00:48.010> time<00:00:48.429> value<00:00:48.969> that<00:00:49.719> is<00:00:49.960> the<00:00:50.289> process
+
+00:00:50.700 --> 00:00:50.710 
+birth time value that is the process
+
+00:00:50.710 --> 00:00:53.040 
+birth time value that is the process
+which<00:00:50.980> has<00:00:51.219> the<00:00:51.429> least<00:00:51.969> worst<00:00:52.269> time<00:00:52.510> value<00:00:52.870> is
+
+00:00:53.040 --> 00:00:53.050 
+which has the least worst time value is
+
+00:00:53.050 --> 00:00:56.009 
+which has the least worst time value is
+selected<00:00:53.559> for<00:00:54.069> execution<00:00:54.819> and<00:00:54.969> in<00:00:55.539> this<00:00:55.719> way
+
+00:00:56.009 --> 00:00:56.019 
+selected for execution and in this way
+
+00:00:56.019 --> 00:00:58.649 
+selected for execution and in this way
+we<00:00:56.440> proceed<00:00:56.710> while<00:00:57.519> scheduling<00:00:58.359> various
+
+00:00:58.649 --> 00:00:58.659 
+we proceed while scheduling various
+
+00:00:58.659 --> 00:01:02.069 
+we proceed while scheduling various
+process<00:00:59.109> for<00:00:59.440> execution<00:01:00.600> mode<00:01:01.600> is<00:01:01.809> non
+
+00:01:02.069 --> 00:01:02.079 
+process for execution mode is non
+
+00:01:02.079 --> 00:01:05.270 
+process for execution mode is non
+preemption<00:01:02.739> non<00:01:03.519> preemption<00:01:04.059> means<00:01:04.300> once<00:01:05.020> a
+
+00:01:05.270 --> 00:01:05.280 
+preemption non preemption means once a
+
+00:01:05.280 --> 00:01:08.640 
+preemption non preemption means once a
+process<00:01:06.280> is<00:01:06.460> selected<00:01:07.030> for<00:01:07.210> execution<00:01:07.990> then
+
+00:01:08.640 --> 00:01:08.650 
+process is selected for execution then
+
+00:01:08.650 --> 00:01:11.550 
+process is selected for execution then
+until<00:01:09.460> that<00:01:09.730> process<00:01:10.180> is<00:01:10.390> completed<00:01:10.990> entirely
+
+00:01:11.550 --> 00:01:11.560 
+until that process is completed entirely
+
+00:01:11.560 --> 00:01:15.420 
+until that process is completed entirely
+that<00:01:12.280> process<00:01:12.790> won't<00:01:13.210> be<00:01:13.540> preempted<00:01:14.350> or<00:01:14.710> that
+
+00:01:15.420 --> 00:01:15.430 
+that process won't be preempted or that
+
+00:01:15.430 --> 00:01:18.330 
+that process won't be preempted or that
+process<00:01:15.910> won't<00:01:16.210> be<00:01:16.480> skipped<00:01:17.320> for<00:01:17.680> execution
+
+00:01:18.330 --> 00:01:18.340 
+process won't be skipped for execution
+
+00:01:18.340 --> 00:01:21.000 
+process won't be skipped for execution
+it<00:01:18.730> will<00:01:19.030> be<00:01:19.210> completed<00:01:19.900> and<00:01:20.050> then<00:01:20.650> we<00:01:20.860> will
+
+00:01:21.000 --> 00:01:21.010 
+it will be completed and then we will
+
+00:01:21.010 --> 00:01:23.040 
+it will be completed and then we will
+schedule<00:01:21.220> next<00:01:21.700> process<00:01:22.060> for<00:01:22.240> execution<00:01:22.900> in
+
+00:01:23.040 --> 00:01:23.050 
+schedule next process for execution in
+
+00:01:23.050 --> 00:01:25.320 
+schedule next process for execution in
+between<00:01:23.830> we<00:01:24.220> cannot<00:01:24.550> should<00:01:24.820> use<00:01:24.940> another
+
+00:01:25.320 --> 00:01:25.330 
+between we cannot should use another
+
+00:01:25.330 --> 00:01:28.800 
+between we cannot should use another
+process<00:01:25.810> for<00:01:25.990> execution<00:01:27.570> assumption<00:01:28.570> here<00:01:28.780> is
+
+00:01:28.800 --> 00:01:28.810 
+process for execution assumption here is
+
+00:01:28.810 --> 00:01:31.230 
+process for execution assumption here is
+that<00:01:29.110> the<00:01:29.650> context<00:01:30.400> switch<00:01:30.610> time<00:01:30.760> is
+
+00:01:31.230 --> 00:01:31.240 
+that the context switch time is
+
+00:01:31.240 --> 00:01:34.680 
+that the context switch time is
+negligible<00:01:32.050> and<00:01:32.260> also<00:01:33.010> when<00:01:33.700> the<00:01:33.940> process<00:01:34.480> is
+
+00:01:34.680 --> 00:01:34.690 
+negligible and also when the process is
+
+00:01:34.690 --> 00:01:35.610 
+negligible and also when the process is
+executing
+
+00:01:35.610 --> 00:01:35.620 
+executing
+
+00:01:35.620 --> 00:01:37.470 
+executing
+there<00:01:35.890> won't<00:01:36.220> be<00:01:36.310> any<00:01:36.520> i/o<00:01:36.880> operation
+
+00:01:37.470 --> 00:01:37.480 
+there won't be any i/o operation
+
+00:01:37.480 --> 00:01:41.510 
+there won't be any i/o operation
+involved<00:01:38.700> let<00:01:39.700> us<00:01:39.850> look<00:01:40.000> at<00:01:40.180> the<00:01:40.330> question
+
+00:01:41.510 --> 00:01:41.520 
+involved let us look at the question
+
+00:01:41.520 --> 00:01:44.220 
+involved let us look at the question
+first<00:01:42.520> column<00:01:42.880> denotes<00:01:43.090> the<00:01:43.600> process<00:01:44.020> number
+
+00:01:44.220 --> 00:01:44.230 
+first column denotes the process number
+
+00:01:44.230 --> 00:01:45.870 
+first column denotes the process number
+the<00:01:44.620> second<00:01:45.010> column<00:01:45.130> denotes<00:01:45.460> the
+
+00:01:45.870 --> 00:01:45.880 
+the second column denotes the
+
+00:01:45.880 --> 00:01:48.210 
+the second column denotes the
+corresponding<00:01:46.510> arrival<00:01:47.290> times<00:01:47.530> and<00:01:47.770> the
+
+00:01:48.210 --> 00:01:48.220 
+corresponding arrival times and the
+
+00:01:48.220 --> 00:01:50.610 
+corresponding arrival times and the
+first<00:01:48.520> third<00:01:49.060> column<00:01:49.450> denotes<00:01:49.690> the<00:01:50.110> burst
+
+00:01:50.610 --> 00:01:50.620 
+first third column denotes the burst
+
+00:01:50.620 --> 00:01:53.640 
+first third column denotes the burst
+time<00:01:50.890> or<00:01:51.070> execution<00:01:51.610> time<00:01:52.290> first<00:01:53.290> we<00:01:53.530> will
+
+00:01:53.640 --> 00:01:53.650 
+time or execution time first we will
+
+00:01:53.650 --> 00:01:57.200 
+time or execution time first we will
+calculate<00:01:53.800> Sigma<00:01:54.640> BT<00:01:55.330> which<00:01:55.660> is<00:01:55.840> equal<00:01:56.140> to<00:01:56.170> 13
+
+00:01:57.200 --> 00:01:57.210 
+calculate Sigma BT which is equal to 13
+
+00:01:57.210 --> 00:02:00.460 
+calculate Sigma BT which is equal to 13
+let<00:01:58.210> us<00:01:58.360> look<00:01:58.510> at<00:01:58.660> the<00:01:58.810> Gantt<00:01:59.050> chart
+
+00:02:00.460 --> 00:02:00.470 
+let us look at the Gantt chart
+
+00:02:00.470 --> 00:02:05.600 
+let us look at the Gantt chart
+now<00:02:01.470> at<00:02:01.740> zero<00:02:02.700> at<00:02:02.850> time<00:02:03.590> process<00:02:04.590> one<00:02:05.100> that<00:02:05.460> is
+
+00:02:05.600 --> 00:02:05.610 
+now at zero at time process one that is
+
+00:02:05.610 --> 00:02:09.290 
+now at zero at time process one that is
+p1<00:02:06.000> arrives<00:02:06.800> therefore<00:02:07.800> we<00:02:08.310> will<00:02:08.460> schedule<00:02:08.700> p1
+
+00:02:09.290 --> 00:02:09.300 
+p1 arrives therefore we will schedule p1
+
+00:02:09.300 --> 00:02:12.410 
+p1 arrives therefore we will schedule p1
+and<00:02:09.450> complete<00:02:10.140> its<00:02:10.410> execution<00:02:10.850> so<00:02:11.850> now<00:02:11.970> P<00:02:12.240> one
+
+00:02:12.410 --> 00:02:12.420 
+and complete its execution so now P one
+
+00:02:12.420 --> 00:02:15.680 
+and complete its execution so now P one
+is<00:02:12.540> completed<00:02:13.460> entirely<00:02:14.460> and<00:02:14.850> now<00:02:15.240> it<00:02:15.510> has
+
+00:02:15.680 --> 00:02:15.690 
+is completed entirely and now it has
+
+00:02:15.690 --> 00:02:17.530 
+is completed entirely and now it has
+zero<00:02:16.020> units<00:02:16.170> of<00:02:16.500> time<00:02:16.710> left
+
+00:02:17.530 --> 00:02:17.540 
+zero units of time left
+
+00:02:17.540 --> 00:02:21.440 
+zero units of time left
+next<00:02:18.540> we<00:02:19.110> see<00:02:19.290> that<00:02:19.470> till<00:02:19.800> time<00:02:20.070> unit<00:02:20.460> 3<00:02:20.700> two
+
+00:02:21.440 --> 00:02:21.450 
+next we see that till time unit 3 two
+
+00:02:21.450 --> 00:02:23.690 
+next we see that till time unit 3 two
+more<00:02:21.480> process<00:02:22.110> arrived<00:02:22.470> at<00:02:22.620> the<00:02:22.770> system<00:02:23.160> with
+
+00:02:23.690 --> 00:02:23.700 
+more process arrived at the system with
+
+00:02:23.700 --> 00:02:28.130 
+more process arrived at the system with
+value<00:02:24.560> for<00:02:25.560> n<00:02:25.800> 2<00:02:26.040> so<00:02:26.880> by<00:02:27.090> this<00:02:27.150> algorithm<00:02:27.900> we
+
+00:02:28.130 --> 00:02:28.140 
+value for n 2 so by this algorithm we
+
+00:02:28.140 --> 00:02:30.110 
+value for n 2 so by this algorithm we
+have<00:02:28.320> to<00:02:28.530> select<00:02:28.710> the<00:02:28.950> process<00:02:29.520> with<00:02:29.790> least
+
+00:02:30.110 --> 00:02:30.120 
+have to select the process with least
+
+00:02:30.120 --> 00:02:32.480 
+have to select the process with least
+worst<00:02:30.420> time<00:02:30.660> value<00:02:31.020> so<00:02:31.860> we<00:02:32.130> will<00:02:32.310> select
+
+00:02:32.480 --> 00:02:32.490 
+worst time value so we will select
+
+00:02:32.490 --> 00:02:34.370 
+worst time value so we will select
+process<00:02:32.850> 3<00:02:33.270> for<00:02:33.510> execution
+
+00:02:34.370 --> 00:02:34.380 
+process 3 for execution
+
+00:02:34.380 --> 00:02:37.040 
+process 3 for execution
+that<00:02:34.890> is<00:02:35.040> why<00:02:35.250> process<00:02:35.970> 3<00:02:36.210> is<00:02:36.390> selected<00:02:36.840> and
+
+00:02:37.040 --> 00:02:37.050 
+that is why process 3 is selected and
+
+00:02:37.050 --> 00:02:41.360 
+that is why process 3 is selected and
+its<00:02:37.200> execution<00:02:37.740> is<00:02:38.010> completed<00:02:39.110> after<00:02:40.110> this<00:02:40.370> we
+
+00:02:41.360 --> 00:02:41.370 
+its execution is completed after this we
+
+00:02:41.370 --> 00:02:44.780 
+its execution is completed after this we
+will<00:02:41.400> see<00:02:41.760> that<00:02:42.060> till<00:02:42.840> time<00:02:43.320> unit<00:02:43.650> 5<00:02:43.890> one<00:02:44.550> more
+
+00:02:44.780 --> 00:02:44.790 
+will see that till time unit 5 one more
+
+00:02:44.790 --> 00:02:47.540 
+will see that till time unit 5 one more
+process<00:02:45.000> arrives<00:02:45.540> at<00:02:45.810> time<00:02:46.110> minute<00:02:46.350> 4<00:02:46.620> with<00:02:47.520> a
+
+00:02:47.540 --> 00:02:47.550 
+process arrives at time minute 4 with a
+
+00:02:47.550 --> 00:02:49.880 
+process arrives at time minute 4 with a
+worse<00:02:47.880> time<00:02:47.910> value<00:02:48.450> of<00:02:48.630> 1<00:02:48.900> so<00:02:49.260> again<00:02:49.470> by<00:02:49.830> this
+
+00:02:49.880 --> 00:02:49.890 
+worse time value of 1 so again by this
+
+00:02:49.890 --> 00:02:52.100 
+worse time value of 1 so again by this
+algorithm<00:02:50.550> we<00:02:51.120> will<00:02:51.300> select<00:02:51.510> the<00:02:51.750> process
+
+00:02:52.100 --> 00:02:52.110 
+algorithm we will select the process
+
+00:02:52.110 --> 00:02:54.620 
+algorithm we will select the process
+with<00:02:52.590> these<00:02:52.890> births<00:02:53.160> time<00:02:53.400> value<00:02:53.730> so<00:02:54.270> among
+
+00:02:54.620 --> 00:02:54.630 
+with these births time value so among
+
+00:02:54.630 --> 00:02:56.510 
+with these births time value so among
+these<00:02:54.990> two<00:02:55.290> process<00:02:55.680> that<00:02:55.860> is<00:02:55.980> process<00:02:56.340> P<00:02:56.490> 2
+
+00:02:56.510 --> 00:02:56.520 
+these two process that is process P 2
+
+00:02:56.520 --> 00:03:00.020 
+these two process that is process P 2
+and<00:02:56.790> P<00:02:56.880> 4<00:02:57.210> P<00:02:57.420> 4<00:02:58.260> has<00:02:58.650> the<00:02:59.010> least<00:02:59.250> births<00:02:59.790> time
+
+00:03:00.020 --> 00:03:00.030 
+and P 4 P 4 has the least births time
+
+00:03:00.030 --> 00:03:03.530 
+and P 4 P 4 has the least births time
+value<00:03:00.390> therefore<00:03:00.960> P<00:03:01.350> 4<00:03:01.590> is<00:03:01.740> selected<00:03:02.390> it<00:03:03.390> is
+
+00:03:03.530 --> 00:03:03.540 
+value therefore P 4 is selected it is
+
+00:03:03.540 --> 00:03:06.500 
+value therefore P 4 is selected it is
+selected<00:03:03.960> and<00:03:04.110> it<00:03:04.350> is<00:03:04.560> executed<00:03:05.280> so<00:03:05.700> now<00:03:06.209> it
+
+00:03:06.500 --> 00:03:06.510 
+selected and it is executed so now it
+
+00:03:06.510 --> 00:03:08.860 
+selected and it is executed so now it
+has<00:03:06.540> 0<00:03:06.930> units<00:03:07.170> of<00:03:07.320> time<00:03:07.530> left
+
+00:03:08.860 --> 00:03:08.870 
+has 0 units of time left
+
+00:03:08.870 --> 00:03:12.070 
+has 0 units of time left
+similarly<00:03:09.870> till<00:03:10.650> 6<00:03:10.950> unit<00:03:11.220> of<00:03:11.340> time<00:03:11.550> again
+
+00:03:12.070 --> 00:03:12.080 
+similarly till 6 unit of time again
+
+00:03:12.080 --> 00:03:15.140 
+similarly till 6 unit of time again
+pre-process<00:03:13.080> p<00:03:13.290> 5<00:03:13.500> arrives<00:03:13.860> with<00:03:14.610> births<00:03:14.880> time
+
+00:03:15.140 --> 00:03:15.150 
+pre-process p 5 arrives with births time
+
+00:03:15.150 --> 00:03:18.680 
+pre-process p 5 arrives with births time
+value<00:03:15.810> s<00:03:15.959> 2<00:03:16.200> so<00:03:16.530> now<00:03:16.650> between<00:03:17.040> 5<00:03:17.310> and<00:03:17.580> 2<00:03:17.880> we<00:03:18.540> can
+
+00:03:18.680 --> 00:03:18.690 
+value s 2 so now between 5 and 2 we can
+
+00:03:18.690 --> 00:03:21.520 
+value s 2 so now between 5 and 2 we can
+see<00:03:18.870> that<00:03:19.080> process<00:03:19.470> p<00:03:19.709> 5<00:03:20.040> has<00:03:20.670> burst<00:03:21.120> time
+
+00:03:21.520 --> 00:03:21.530 
+see that process p 5 has burst time
+
+00:03:21.530 --> 00:03:24.740 
+see that process p 5 has burst time
+these<00:03:22.530> births<00:03:22.830> time<00:03:23.070> value<00:03:23.400> this<00:03:24.150> 2<00:03:24.360> is<00:03:24.540> less
+
+00:03:24.740 --> 00:03:24.750 
+these births time value this 2 is less
+
+00:03:24.750 --> 00:03:26.780 
+these births time value this 2 is less
+than<00:03:24.959> 4<00:03:25.200> therefore<00:03:25.500> P<00:03:25.800> 5<00:03:26.040> is<00:03:26.190> scheduled<00:03:26.580> and
+
+00:03:26.780 --> 00:03:26.790 
+than 4 therefore P 5 is scheduled and
+
+00:03:26.790 --> 00:03:32.330 
+than 4 therefore P 5 is scheduled and
+its<00:03:27.270> execution<00:03:27.660> is<00:03:28.080> completed<00:03:28.970> now<00:03:30.680> till<00:03:31.680> time
+
+00:03:32.330 --> 00:03:32.340 
+its execution is completed now till time
+
+00:03:32.340 --> 00:03:34.760 
+its execution is completed now till time
+unit<00:03:32.670> 8<00:03:32.910> we<00:03:33.330> will<00:03:33.480> see<00:03:33.720> we<00:03:34.230> can<00:03:34.380> see<00:03:34.560> that
+
+00:03:34.760 --> 00:03:34.770 
+unit 8 we will see we can see that
+
+00:03:34.770 --> 00:03:38.420 
+unit 8 we will see we can see that
+process<00:03:35.130> P<00:03:35.370> 6<00:03:35.610> arrives<00:03:35.910> now<00:03:37.130> we<00:03:38.130> have<00:03:38.280> to
+
+00:03:38.420 --> 00:03:38.430 
+process P 6 arrives now we have to
+
+00:03:38.430 --> 00:03:40.250 
+process P 6 arrives now we have to
+reduce<00:03:38.640> the<00:03:38.910> process<00:03:39.300> with<00:03:39.570> least<00:03:39.900> births
+
+00:03:40.250 --> 00:03:40.260 
+reduce the process with least births
+
+00:03:40.260 --> 00:03:42.350 
+reduce the process with least births
+time<00:03:40.500> value<00:03:40.860> therefore<00:03:41.400> we<00:03:41.820> will<00:03:42.000> shade<00:03:42.239> with
+
+00:03:42.350 --> 00:03:42.360 
+time value therefore we will shade with
+
+00:03:42.360 --> 00:03:46.310 
+time value therefore we will shade with
+P<00:03:42.660> 6<00:03:42.930> and<00:03:43.160> complete<00:03:44.160> its<00:03:44.459> execution<00:03:44.959> so<00:03:45.959> now<00:03:46.080> P
+
+00:03:46.310 --> 00:03:46.320 
+P 6 and complete its execution so now P
+
+00:03:46.320 --> 00:03:50.600 
+P 6 and complete its execution so now P
+6<00:03:46.560> completes<00:03:47.190> its<00:03:47.550> execution<00:03:48.590> similarly<00:03:49.590> P<00:03:50.400> 2
+
+00:03:50.600 --> 00:03:50.610 
+6 completes its execution similarly P 2
+
+00:03:50.610 --> 00:03:54.350 
+6 completes its execution similarly P 2
+completes<00:03:51.510> its<00:03:51.750> execution<00:03:52.350> and<00:03:52.650> now<00:03:53.459> it<00:03:53.640> has<00:03:53.790> 0
+
+00:03:54.350 --> 00:03:54.360 
+completes its execution and now it has 0
+
+00:03:54.360 --> 00:03:57.650 
+completes its execution and now it has 0
+units<00:03:54.690> of<00:03:54.870> time<00:03:55.440> available<00:03:56.090> so<00:03:57.090> we<00:03:57.239> can<00:03:57.420> say
+
+00:03:57.650 --> 00:03:57.660 
+units of time available so we can say
+
+00:03:57.660 --> 00:04:01.160 
+units of time available so we can say
+that<00:03:58.340> since<00:03:59.340> Gantt<00:03:59.820> chart<00:04:00.090> has<00:04:00.330> this<00:04:00.540> value<00:04:00.750> 30
+
+00:04:01.160 --> 00:04:01.170 
+that since Gantt chart has this value 30
+
+00:04:01.170 --> 00:04:03.710 
+that since Gantt chart has this value 30
+90<00:04:01.620> last<00:04:01.830> and<00:04:02.070> Sigma<00:04:02.550> B<00:04:02.670> T<00:04:02.820> is<00:04:02.970> equal<00:04:03.239> to<00:04:03.390> 13
+
+00:04:03.710 --> 00:04:03.720 
+90 last and Sigma B T is equal to 13
+
+00:04:03.720 --> 00:04:06.500 
+90 last and Sigma B T is equal to 13
+therefore<00:04:04.620> all<00:04:04.800> the<00:04:05.370> process<00:04:05.760> are<00:04:05.910> completed
+
+00:04:06.500 --> 00:04:06.510 
+therefore all the process are completed
+
+00:04:06.510 --> 00:04:08.880 
+therefore all the process are completed
+and<00:04:06.720> our<00:04:06.989> Gantt<00:04:07.260> chart<00:04:07.560> is<00:04:07.680> right
+
+00:04:08.880 --> 00:04:08.890 
+and our Gantt chart is right
+
+00:04:08.890 --> 00:04:13.000 
+and our Gantt chart is right
+just<00:04:09.890> now<00:04:10.610> he<00:04:10.670> will<00:04:11.030> find<00:04:11.510> out<00:04:11.810> the<00:04:12.380> value<00:04:12.920> of
+
+00:04:13.000 --> 00:04:13.010 
+just now he will find out the value of
+
+00:04:13.010 --> 00:04:15.160 
+just now he will find out the value of
+alpha<00:04:13.220> alpha<00:04:13.580> stands<00:04:14.240> for<00:04:14.420> shadow<00:04:14.810> length
+
+00:04:15.160 --> 00:04:15.170 
+alpha alpha stands for shadow length
+
+00:04:15.170 --> 00:04:19.120 
+alpha alpha stands for shadow length
+shadow<00:04:16.040> length<00:04:16.370> is<00:04:16.579> equal<00:04:17.120> to<00:04:18.040> maximum<00:04:19.040> of
+
+00:04:19.120 --> 00:04:19.130 
+shadow length is equal to maximum of
+
+00:04:19.130 --> 00:04:22.330 
+shadow length is equal to maximum of
+completion<00:04:19.760> time<00:04:20.030> -<00:04:20.900> minimum<00:04:21.560> of<00:04:21.739> arrival
+
+00:04:22.330 --> 00:04:22.340 
+completion time - minimum of arrival
+
+00:04:22.340 --> 00:04:25.030 
+completion time - minimum of arrival
+time<00:04:22.550> here<00:04:23.360> maximum<00:04:23.870> of<00:04:24.110> completion<00:04:24.680> time<00:04:24.860> is
+
+00:04:25.030 --> 00:04:25.040 
+time here maximum of completion time is
+
+00:04:25.040 --> 00:04:27.640 
+time here maximum of completion time is
+equal<00:04:25.190> to<00:04:25.370> 13<00:04:25.940> and<00:04:26.060> arrival<00:04:27.020> time<00:04:27.230> minimum
+
+00:04:27.640 --> 00:04:27.650 
+equal to 13 and arrival time minimum
+
+00:04:27.650 --> 00:04:29.860 
+equal to 13 and arrival time minimum
+arrival<00:04:28.070> time<00:04:28.280> value<00:04:29.000> is<00:04:29.180> equal<00:04:29.480> to<00:04:29.510> 0
+
+00:04:29.860 --> 00:04:29.870 
+arrival time value is equal to 0
+
+00:04:29.870 --> 00:04:32.860 
+arrival time value is equal to 0
+therefore<00:04:30.260> 13<00:04:30.800> minus<00:04:31.130> 0<00:04:31.340> is<00:04:31.490> equal<00:04:31.730> to<00:04:31.760> 13<00:04:32.210> so
+
+00:04:32.860 --> 00:04:32.870 
+therefore 13 minus 0 is equal to 13 so
+
+00:04:32.870 --> 00:04:35.560 
+therefore 13 minus 0 is equal to 13 so
+13<00:04:33.350> is<00:04:33.470> the<00:04:33.680> value<00:04:33.980> of<00:04:34.010> alpha<00:04:34.370> or<00:04:34.700> here<00:04:35.330> the
+
+00:04:35.560 --> 00:04:35.570 
+13 is the value of alpha or here the
+
+00:04:35.570 --> 00:04:38.980 
+13 is the value of alpha or here the
+shadow<00:04:35.780> length<00:04:36.140> is<00:04:36.320> 13<00:04:37.420> let<00:04:38.420> us<00:04:38.570> look<00:04:38.720> at<00:04:38.870> the
+
+00:04:38.980 --> 00:04:38.990 
+shadow length is 13 let us look at the
+
+00:04:38.990 --> 00:04:40.080 
+shadow length is 13 let us look at the
+next<00:04:39.140> question
+
+00:04:40.080 --> 00:04:40.090 
+next question
+
+00:04:40.090 --> 00:04:42.730 
+next question
+here<00:04:41.090> again<00:04:41.270> the<00:04:41.630> first<00:04:41.900> column<00:04:42.230> denotes<00:04:42.410> the
+
+00:04:42.730 --> 00:04:42.740 
+here again the first column denotes the
+
+00:04:42.740 --> 00:04:44.470 
+here again the first column denotes the
+process<00:04:43.130> number<00:04:43.490> the<00:04:43.669> second<00:04:44.030> column<00:04:44.180> denotes
+
+00:04:44.470 --> 00:04:44.480 
+process number the second column denotes
+
+00:04:44.480 --> 00:04:46.810 
+process number the second column denotes
+the<00:04:44.900> arrival<00:04:45.350> time<00:04:45.560> and<00:04:45.770> the<00:04:46.400> third<00:04:46.610> column
+
+00:04:46.810 --> 00:04:46.820 
+the arrival time and the third column
+
+00:04:46.820 --> 00:04:49.950 
+the arrival time and the third column
+denotes<00:04:47.210> the<00:04:47.600> burst<00:04:47.840> time<00:04:48.110> or<00:04:48.490> execution<00:04:49.490> time
+
+00:04:49.950 --> 00:04:49.960 
+denotes the burst time or execution time
+
+00:04:49.960 --> 00:04:52.810 
+denotes the burst time or execution time
+again<00:04:50.960> we<00:04:51.080> will<00:04:51.230> find<00:04:51.260> out<00:04:51.680> the<00:04:52.070> Sigma<00:04:52.340> Beauty
+
+00:04:52.810 --> 00:04:52.820 
+again we will find out the Sigma Beauty
+
+00:04:52.820 --> 00:04:56.100 
+again we will find out the Sigma Beauty
+value<00:04:54.040> let<00:04:55.040> us<00:04:55.070> look<00:04:55.310> at<00:04:55.460> the<00:04:55.610> Gantt<00:04:55.820> chart
+
+00:04:56.100 --> 00:04:56.110 
+value let us look at the Gantt chart
+
+00:04:56.110 --> 00:05:00.550 
+value let us look at the Gantt chart
+firstly<00:04:57.250> we<00:04:58.250> can<00:04:58.430> see<00:04:58.640> that<00:04:59.320> first<00:05:00.320> the
+
+00:05:00.550 --> 00:05:00.560 
+firstly we can see that first the
+
+00:05:00.560 --> 00:05:04.180 
+firstly we can see that first the
+process<00:05:01.040> arrived<00:05:01.490> at<00:05:02.030> time<00:05:02.480> unit<00:05:02.870> 2<00:05:03.110> at<00:05:03.410> time
+
+00:05:04.180 --> 00:05:04.190 
+process arrived at time unit 2 at time
+
+00:05:04.190 --> 00:05:07.000 
+process arrived at time unit 2 at time
+unit<00:05:04.490> 0<00:05:04.850> or<00:05:05.090> 1<00:05:05.360> none<00:05:06.020> of<00:05:06.050> the<00:05:06.350> process<00:05:06.800> is
+
+00:05:07.000 --> 00:05:07.010 
+unit 0 or 1 none of the process is
+
+00:05:07.010 --> 00:05:09.960 
+unit 0 or 1 none of the process is
+available<00:05:07.820> with<00:05:07.970> the<00:05:08.120> system<00:05:08.540> so<00:05:08.890> therefore
+
+00:05:09.960 --> 00:05:09.970 
+available with the system so therefore
+
+00:05:09.970 --> 00:05:14.200 
+available with the system so therefore
+between<00:05:10.970> time<00:05:11.630> unit<00:05:11.960> 0<00:05:11.990> and<00:05:12.500> 2<00:05:12.710> CPU<00:05:13.640> is<00:05:13.820> idle
+
+00:05:14.200 --> 00:05:14.210 
+between time unit 0 and 2 CPU is idle
+
+00:05:14.210 --> 00:05:16.060 
+between time unit 0 and 2 CPU is idle
+that<00:05:14.450> is<00:05:14.660> CPU<00:05:15.020> does<00:05:15.200> not<00:05:15.350> do<00:05:15.470> any<00:05:15.650> useful<00:05:15.830> work
+
+00:05:16.060 --> 00:05:16.070 
+that is CPU does not do any useful work
+
+00:05:16.070 --> 00:05:19.360 
+that is CPU does not do any useful work
+therefore<00:05:16.669> we<00:05:17.479> have<00:05:17.630> shaded<00:05:17.900> this<00:05:18.290> box<00:05:18.590> to<00:05:19.160> let
+
+00:05:19.360 --> 00:05:19.370 
+therefore we have shaded this box to let
+
+00:05:19.370 --> 00:05:22.060 
+therefore we have shaded this box to let
+us<00:05:19.490> indicate<00:05:19.790> that<00:05:20.540> here<00:05:20.930> the<00:05:21.140> CPU<00:05:21.530> is<00:05:21.710> idle
+
+00:05:22.060 --> 00:05:22.070 
+us indicate that here the CPU is idle
+
+00:05:22.070 --> 00:05:25.600 
+us indicate that here the CPU is idle
+and<00:05:22.250> it<00:05:23.030> doesn't<00:05:23.419> do<00:05:23.510> any<00:05:23.690> useful<00:05:24.110> work<00:05:24.610> after
+
+00:05:25.600 --> 00:05:25.610 
+and it doesn't do any useful work after
+
+00:05:25.610 --> 00:05:27.880 
+and it doesn't do any useful work after
+second<00:05:26.000> unit<00:05:26.210> of<00:05:26.240> time<00:05:26.630> it<00:05:27.020> has<00:05:27.080> to<00:05:27.440> select<00:05:27.800> a
+
+00:05:27.880 --> 00:05:27.890 
+second unit of time it has to select a
+
+00:05:27.890 --> 00:05:31.390 
+second unit of time it has to select a
+process<00:05:28.310> between<00:05:28.520> process<00:05:29.300> P<00:05:29.479> 3<00:05:29.510> and<00:05:29.720> P<00:05:29.930> 6<00:05:30.530> by
+
+00:05:31.390 --> 00:05:31.400 
+process between process P 3 and P 6 by
+
+00:05:31.400 --> 00:05:33.190 
+process between process P 3 and P 6 by
+this<00:05:31.640> algorithm<00:05:32.150> we<00:05:32.360> have<00:05:32.450> to<00:05:32.630> select<00:05:32.960> the
+
+00:05:33.190 --> 00:05:33.200 
+this algorithm we have to select the
+
+00:05:33.200 --> 00:05:35.650 
+this algorithm we have to select the
+process<00:05:33.440> with<00:05:33.919> least<00:05:34.490> burst<00:05:35.000> time<00:05:35.300> value
+
+00:05:35.650 --> 00:05:35.660 
+process with least burst time value
+
+00:05:35.660 --> 00:05:38.440 
+process with least burst time value
+which<00:05:35.900> is<00:05:36.080> process<00:05:36.500> 6<00:05:36.830> therefore<00:05:37.820> P<00:05:38.060> 6<00:05:38.300> is
+
+00:05:38.440 --> 00:05:38.450 
+which is process 6 therefore P 6 is
+
+00:05:38.450 --> 00:05:41.250 
+which is process 6 therefore P 6 is
+selected<00:05:39.020> and<00:05:39.169> its<00:05:39.650> execution<00:05:40.040> is<00:05:40.490> completed
+
+00:05:41.250 --> 00:05:41.260 
+selected and its execution is completed
+
+00:05:41.260 --> 00:05:44.950 
+selected and its execution is completed
+till<00:05:42.260> time<00:05:42.530> minute<00:05:42.860> 6<00:05:43.130> 3<00:05:44.060> more<00:05:44.270> process<00:05:44.690> arrive
+
+00:05:44.950 --> 00:05:44.960 
+till time minute 6 3 more process arrive
+
+00:05:44.960 --> 00:05:47.860 
+till time minute 6 3 more process arrive
+at<00:05:45.110> the<00:05:45.260> system<00:05:45.620> so<00:05:46.100> now<00:05:46.280> we<00:05:46.340> have<00:05:46.729> for<00:05:47.419> process
+
+00:05:47.860 --> 00:05:47.870 
+at the system so now we have for process
+
+00:05:47.870 --> 00:05:49.690 
+at the system so now we have for process
+in<00:05:48.020> the<00:05:48.169> system<00:05:48.530> remaining<00:05:48.950> for<00:05:49.130> execution
+
+00:05:49.690 --> 00:05:49.700 
+in the system remaining for execution
+
+00:05:49.700 --> 00:05:54.850 
+in the system remaining for execution
+those<00:05:50.570> processes<00:05:51.169> are<00:05:51.320> p1<00:05:51.950> p3<00:05:52.370> p4<00:05:52.820> and<00:05:53.120> p5<00:05:53.860> by
+
+00:05:54.850 --> 00:05:54.860 
+those processes are p1 p3 p4 and p5 by
+
+00:05:54.860 --> 00:05:57.370 
+those processes are p1 p3 p4 and p5 by
+non-preemptive<00:05:55.550> shortage<00:05:56.090> off<00:05:56.300> first<00:05:56.630> we
+
+00:05:57.370 --> 00:05:57.380 
+non-preemptive shortage off first we
+
+00:05:57.380 --> 00:05:59.560 
+non-preemptive shortage off first we
+have<00:05:57.530> to<00:05:57.710> select<00:05:57.890> the<00:05:58.250> process<00:05:58.700> with<00:05:59.030> least
+
+00:05:59.560 --> 00:05:59.570 
+have to select the process with least
+
+00:05:59.570 --> 00:06:03.400 
+have to select the process with least
+burst<00:05:59.930> time<00:06:00.200> value<00:06:00.620> which<00:06:01.400> is<00:06:01.550> process<00:06:01.970> p1<00:06:02.410> so
+
+00:06:03.400 --> 00:06:03.410 
+burst time value which is process p1 so
+
+00:06:03.410 --> 00:06:06.600 
+burst time value which is process p1 so
+we<00:06:03.770> select<00:06:04.370> process<00:06:04.550> p1<00:06:04.910> for<00:06:05.260> execution<00:06:06.260> and
+
+00:06:06.600 --> 00:06:06.610 
+we select process p1 for execution and
+
+00:06:06.610 --> 00:06:10.710 
+we select process p1 for execution and
+now<00:06:07.610> it<00:06:07.760> has<00:06:07.910> 2<00:06:08.270> units<00:06:08.680> 0<00:06:09.680> in<00:06:09.800> its<00:06:09.950> left
+
+00:06:10.710 --> 00:06:10.720 
+now it has 2 units 0 in its left
+
+00:06:10.720 --> 00:06:14.020 
+now it has 2 units 0 in its left
+similarly<00:06:11.720> till<00:06:12.440> 8<00:06:12.830> unit<00:06:13.280> of<00:06:13.430> time<00:06:13.610> again
+
+00:06:14.020 --> 00:06:14.030 
+similarly till 8 unit of time again
+
+00:06:14.030 --> 00:06:17.830 
+similarly till 8 unit of time again
+process<00:06:14.630> p2<00:06:14.870> arrives<00:06:15.940> it<00:06:16.940> has<00:06:17.150> 1<00:06:17.450> unit<00:06:17.479> of
+
+00:06:17.830 --> 00:06:17.840 
+process p2 arrives it has 1 unit of
+
+00:06:17.840 --> 00:06:18.700 
+process p2 arrives it has 1 unit of
+execution
+
+00:06:18.700 --> 00:06:18.710 
+execution
+
+00:06:18.710 --> 00:06:21.430 
+execution
+burst<00:06:18.979> time<00:06:19.300> by<00:06:20.300> this<00:06:20.360> algorithm<00:06:20.990> we<00:06:21.140> select
+
+00:06:21.430 --> 00:06:21.440 
+burst time by this algorithm we select
+
+00:06:21.440 --> 00:06:24.190 
+burst time by this algorithm we select
+p2<00:06:21.710> as<00:06:21.890> its<00:06:22.400> first<00:06:22.910> time<00:06:23.240> value<00:06:23.570> is<00:06:23.750> the<00:06:23.960> least
+
+00:06:24.190 --> 00:06:24.200 
+p2 as its first time value is the least
+
+00:06:24.200 --> 00:06:25.990 
+p2 as its first time value is the least
+among<00:06:24.530> all<00:06:24.710> the<00:06:25.039> process<00:06:25.400> present<00:06:25.789> in<00:06:25.880> the
+
+00:06:25.990 --> 00:06:26.000 
+among all the process present in the
+
+00:06:26.000 --> 00:06:29.110 
+among all the process present in the
+system<00:06:26.390> that<00:06:26.570> is<00:06:27.200> why<00:06:27.530> p2<00:06:28.250> is<00:06:28.460> scheduled<00:06:28.940> and
+
+00:06:29.110 --> 00:06:29.120 
+system that is why p2 is scheduled and
+
+00:06:29.120 --> 00:06:32.830 
+system that is why p2 is scheduled and
+its<00:06:29.539> execution<00:06:29.840> is<00:06:30.260> completed<00:06:30.890> after<00:06:31.240> this<00:06:32.240> we
+
+00:06:32.830 --> 00:06:32.840 
+its execution is completed after this we
+
+00:06:32.840 --> 00:06:36.250 
+its execution is completed after this we
+select<00:06:33.020> p5<00:06:33.590> as<00:06:33.880> P<00:06:34.880> 5<00:06:35.150> has<00:06:35.390> released<00:06:35.780> burst
+
+00:06:36.250 --> 00:06:36.260 
+select p5 as P 5 has released burst
+
+00:06:36.260 --> 00:06:39.430 
+select p5 as P 5 has released burst
+value<00:06:36.680> amongst<00:06:37.190> these<00:06:37.370> 3<00:06:37.729> processes<00:06:38.020> so<00:06:39.020> P<00:06:39.200> 5
+
+00:06:39.430 --> 00:06:39.440 
+value amongst these 3 processes so P 5
+
+00:06:39.440 --> 00:06:42.510 
+value amongst these 3 processes so P 5
+is<00:06:39.590> selected<00:06:40.039> and<00:06:40.280> is<00:06:40.550> executed<00:06:41.060> completely
+
+00:06:42.510 --> 00:06:42.520 
+is selected and is executed completely
+
+00:06:42.520 --> 00:06:46.150 
+is selected and is executed completely
+similarly<00:06:43.520> now<00:06:44.150> P<00:06:44.450> 4<00:06:44.660> is<00:06:44.690> selected<00:06:45.320> and<00:06:45.530> its
+
+00:06:46.150 --> 00:06:46.160 
+similarly now P 4 is selected and its
+
+00:06:46.160 --> 00:06:49.600 
+similarly now P 4 is selected and its
+execution<00:06:46.580> is<00:06:46.820> completed<00:06:47.419> at<00:06:47.900> last<00:06:48.380> P<00:06:49.340> 3<00:06:49.580> is
+
+00:06:49.600 --> 00:06:49.610 
+execution is completed at last P 3 is
+
+00:06:49.610 --> 00:06:52.029 
+execution is completed at last P 3 is
+remaining<00:06:50.000> so<00:06:50.660> we<00:06:50.810> will<00:06:50.960> select<00:06:51.260> P<00:06:51.590> 3<00:06:51.830> and
+
+00:06:52.029 --> 00:06:52.039 
+remaining so we will select P 3 and
+
+00:06:52.039 --> 00:06:55.659 
+remaining so we will select P 3 and
+complete<00:06:52.520> its<00:06:52.789> execution<00:06:53.590> now<00:06:54.590> one<00:06:55.400> thing<00:06:55.610> to
+
+00:06:55.659 --> 00:06:55.669 
+complete its execution now one thing to
+
+00:06:55.669 --> 00:06:58.960 
+complete its execution now one thing to
+be<00:06:56.060> noted<00:06:56.599> here<00:06:57.020> is<00:06:57.169> that<00:06:57.349> here<00:06:58.039> the<00:06:58.280> Gantt
+
+00:06:58.960 --> 00:06:58.970 
+be noted here is that here the Gantt
+
+00:06:58.970 --> 00:07:01.930 
+be noted here is that here the Gantt
+chart<00:06:59.240> has<00:06:59.360> maximum<00:06:59.870> values<00:07:00.200> 23<00:07:00.770> and<00:07:00.979> Sigma<00:07:01.640> B
+
+00:07:01.930 --> 00:07:01.940 
+chart has maximum values 23 and Sigma B
+
+00:07:01.940 --> 00:07:05.020 
+chart has maximum values 23 and Sigma B
+T<00:07:02.120> is<00:07:02.330> equal<00:07:02.870> to<00:07:02.900> 21<00:07:03.530> the<00:07:04.190> difference<00:07:04.700> is
+
+00:07:05.020 --> 00:07:05.030 
+T is equal to 21 the difference is
+
+00:07:05.030 --> 00:07:07.839 
+T is equal to 21 the difference is
+simply<00:07:05.450> because<00:07:05.960> of<00:07:06.140> this<00:07:06.470> box<00:07:06.710> that<00:07:07.039> is<00:07:07.220> 2
+
+00:07:07.839 --> 00:07:07.849 
+simply because of this box that is 2
+
+00:07:07.849 --> 00:07:10.420 
+simply because of this box that is 2
+units<00:07:08.210> of<00:07:08.360> idle<00:07:08.750> time<00:07:08.780> since<00:07:09.530> process<00:07:10.039> arrived
+
+00:07:10.420 --> 00:07:10.430 
+units of idle time since process arrived
+
+00:07:10.430 --> 00:07:13.570 
+units of idle time since process arrived
+at<00:07:10.550> this<00:07:10.760> system<00:07:11.240> at<00:07:11.450> second<00:07:12.289> unit<00:07:12.620> therefore
+
+00:07:13.570 --> 00:07:13.580 
+at this system at second unit therefore
+
+00:07:13.580 --> 00:07:15.460 
+at this system at second unit therefore
+there<00:07:13.849> is<00:07:13.940> a<00:07:13.970> difference<00:07:14.419> of<00:07:14.599> 2<00:07:14.870> units<00:07:15.020> between
+
+00:07:15.460 --> 00:07:15.470 
+there is a difference of 2 units between
+
+00:07:15.470 --> 00:07:17.770 
+there is a difference of 2 units between
+Sigma<00:07:16.070> V<00:07:16.220> T<00:07:16.370> and<00:07:16.490> maximum<00:07:16.940> value<00:07:17.210> of<00:07:17.240> gameshark
+
+00:07:17.770 --> 00:07:17.780 
+Sigma V T and maximum value of gameshark
+
+00:07:17.780 --> 00:07:21.070 
+Sigma V T and maximum value of gameshark
+so<00:07:18.440> this<00:07:18.650> idle<00:07:19.460> time<00:07:19.700> plus<00:07:20.150> Sigma<00:07:20.570> V<00:07:20.720> T<00:07:20.900> is
+
+00:07:21.070 --> 00:07:21.080 
+so this idle time plus Sigma V T is
+
+00:07:21.080 --> 00:07:23.860 
+so this idle time plus Sigma V T is
+equal<00:07:21.530> to<00:07:21.650> maximum<00:07:22.220> value<00:07:22.520> of<00:07:22.550> gran<00:07:22.880> chart<00:07:23.180> so
+
+00:07:23.860 --> 00:07:23.870 
+equal to maximum value of gran chart so
+
+00:07:23.870 --> 00:07:26.980 
+equal to maximum value of gran chart so
+now<00:07:24.320> we<00:07:24.380> can<00:07:24.680> say<00:07:24.919> that<00:07:25.099> all<00:07:26.060> the<00:07:26.479> process<00:07:26.840> have
+
+00:07:26.980 --> 00:07:26.990 
+now we can say that all the process have
+
+00:07:26.990 --> 00:07:29.110 
+now we can say that all the process have
+been<00:07:27.020> executed<00:07:27.590> and<00:07:28.099> this<00:07:28.520> Gantt<00:07:28.760> chart<00:07:29.000> is
+
+00:07:29.110 --> 00:07:29.120 
+been executed and this Gantt chart is
+
+00:07:29.120 --> 00:07:31.270 
+been executed and this Gantt chart is
+correct<00:07:29.450> again<00:07:30.349> we<00:07:30.500> will<00:07:30.650> calculate<00:07:30.830> the
+
+00:07:31.270 --> 00:07:31.280 
+correct again we will calculate the
+
+00:07:31.280 --> 00:07:32.980 
+correct again we will calculate the
+schedule<00:07:31.610> length<00:07:31.820> which<00:07:32.450> is<00:07:32.479> equal<00:07:32.659> to
+
+00:07:32.980 --> 00:07:32.990 
+schedule length which is equal to
+
+00:07:32.990 --> 00:07:35.230 
+schedule length which is equal to
+maximum<00:07:33.860> completion<00:07:34.400> time<00:07:34.610> which<00:07:34.849> is<00:07:34.970> equal
+
+00:07:35.230 --> 00:07:35.240 
+maximum completion time which is equal
+
+00:07:35.240 --> 00:07:39.219 
+maximum completion time which is equal
+to<00:07:35.390> 23<00:07:35.840> -<00:07:36.940> minimum<00:07:37.940> arrival<00:07:38.510> time<00:07:38.720> which<00:07:38.930> is
+
+00:07:39.219 --> 00:07:39.229 
+to 23 - minimum arrival time which is
+
+00:07:39.229 --> 00:07:42.880 
+to 23 - minimum arrival time which is
+equal<00:07:39.560> to<00:07:39.590> 2<00:07:39.919> here<00:07:40.669> it<00:07:41.479> is<00:07:41.659> not<00:07:41.870> 0<00:07:42.229> as<00:07:42.380> the
+
+00:07:42.880 --> 00:07:42.890 
+equal to 2 here it is not 0 as the
+
+00:07:42.890 --> 00:07:46.149 
+equal to 2 here it is not 0 as the
+minimum<00:07:43.159> arrival<00:07:43.729> time<00:07:43.970> is<00:07:44.180> 2<00:07:44.450> so<00:07:45.229> 23<00:07:45.740> minus<00:07:46.010> 2
+
+00:07:46.149 --> 00:07:46.159 
+minimum arrival time is 2 so 23 minus 2
+
+00:07:46.159 --> 00:07:48.610 
+minimum arrival time is 2 so 23 minus 2
+is<00:07:46.340> equal<00:07:46.580> to<00:07:46.610> 21<00:07:47.210> is<00:07:47.360> the<00:07:47.990> scheduled<00:07:48.380> length
+
+00:07:48.610 --> 00:07:48.620 
+is equal to 21 is the scheduled length
+
+00:07:48.620 --> 00:07:51.820 
+is equal to 21 is the scheduled length
+of<00:07:48.770> this<00:07:49.159> problem<00:07:50.349> thank<00:07:51.349> you<00:07:51.500> friends<00:07:51.800> for
+
+00:07:51.820 --> 00:07:51.830 
+of this problem thank you friends for
+
+00:07:51.830 --> 00:07:54.250 
+of this problem thank you friends for
+watching<00:07:52.159> this<00:07:52.520> series<00:07:53.050> please
+
+00:07:54.250 --> 00:07:54.260 
+watching this series please
+
+00:07:54.260 --> 00:07:56.740 
+watching this series please
+again<00:07:54.620> revise<00:07:54.979> this<00:07:55.310> tutorial<00:07:55.849> and<00:07:56.060> solve
+
+00:07:56.740 --> 00:07:56.750 
+again revise this tutorial and solve
+
+00:07:56.750 --> 00:07:59.110 
+again revise this tutorial and solve
+them<00:07:56.990> problems<00:07:57.800> by<00:07:58.010> your<00:07:58.220> own<00:07:58.400> so<00:07:58.729> you<00:07:58.789> can
+
+00:07:59.110 --> 00:07:59.120 
+them problems by your own so you can
+
+00:07:59.120 --> 00:08:01.930 
+them problems by your own so you can
+conceptually<00:07:59.870> understand<00:08:00.800> the<00:08:01.250> problems<00:08:01.760> and
+
+00:08:01.930 --> 00:08:01.940 
+conceptually understand the problems and
+
+00:08:01.940 --> 00:08:04.630 
+conceptually understand the problems and
+solve<00:08:02.360> them<00:08:02.599> easily<00:08:03.159> please<00:08:04.159> continue
+
+00:08:04.630 --> 00:08:04.640 
+solve them easily please continue
+
+00:08:04.640 --> 00:08:06.909 
+solve them easily please continue
+watching<00:08:04.849> the<00:08:05.539> further<00:08:05.810> tutorials<00:08:06.409> so<00:08:06.740> that
+
+00:08:06.909 --> 00:08:06.919 
+watching the further tutorials so that
+
+00:08:06.919 --> 00:08:09.399 
+watching the further tutorials so that
+we<00:08:07.099> can<00:08:07.310> learn<00:08:07.610> some<00:08:08.120> more<00:08:08.409> scheduling
+
+00:08:09.399 --> 00:08:09.409 
+we can learn some more scheduling
+
+00:08:09.409 --> 00:08:11.380 
+we can learn some more scheduling
+algorithms<00:08:09.979> which<00:08:10.250> are<00:08:10.400> more<00:08:10.610> complex<00:08:10.970> and
+
+00:08:11.380 --> 00:08:11.390 
+algorithms which are more complex and
+
+00:08:11.390 --> 00:08:15.580 
+algorithms which are more complex and
+are<00:08:11.810> more<00:08:12.080> effective<00:08:12.680> Thank<00:08:13.250> You<00:08:13.370> friends
+

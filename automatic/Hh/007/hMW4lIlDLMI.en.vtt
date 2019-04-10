@@ -1,0 +1,697 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.180 --> 00:00:02.840 
+
+this<00:00:00.900> production<00:00:01.260> is<00:00:01.739> brought<00:00:02.129> to<00:00:02.340> you<00:00:02.490> by<00:00:02.700> the
+
+00:00:02.840 --> 00:00:02.850 
+this production is brought to you by the
+
+00:00:02.850 --> 00:00:07.700 
+this production is brought to you by the
+University<00:00:03.780> of<00:00:03.810> Edinburgh
+
+00:00:07.700 --> 00:00:07.710 
+
+00:00:07.710 --> 00:00:10.770 
+
+welcome<00:00:08.710> along<00:00:08.950> in<00:00:09.180> this<00:00:10.180> session<00:00:10.450> we're
+
+00:00:10.770 --> 00:00:10.780 
+welcome along in this session we're
+
+00:00:10.780 --> 00:00:12.330 
+welcome along in this session we're
+going<00:00:10.870> to<00:00:10.930> look<00:00:11.110> at<00:00:11.230> using<00:00:11.410> functions<00:00:12.100> in
+
+00:00:12.330 --> 00:00:12.340 
+going to look at using functions in
+
+00:00:12.340 --> 00:00:15.870 
+going to look at using functions in
+MATLAB<00:00:13.440> now<00:00:14.440> functions<00:00:14.889> are<00:00:15.190> another<00:00:15.550> type<00:00:15.820> of
+
+00:00:15.870 --> 00:00:15.880 
+MATLAB now functions are another type of
+
+00:00:15.880 --> 00:00:20.670 
+MATLAB now functions are another type of
+M<00:00:16.209> file<00:00:16.540> so<00:00:17.259> similar<00:00:17.830> to<00:00:18.009> scripts<00:00:19.380> but<00:00:20.380> when<00:00:20.529> we
+
+00:00:20.670 --> 00:00:20.680 
+M file so similar to scripts but when we
+
+00:00:20.680 --> 00:00:23.279 
+M file so similar to scripts but when we
+execute<00:00:21.160> a<00:00:21.279> script<00:00:21.430> the<00:00:22.419> variables<00:00:22.960> that<00:00:23.050> we
+
+00:00:23.279 --> 00:00:23.289 
+execute a script the variables that we
+
+00:00:23.289 --> 00:00:25.410 
+execute a script the variables that we
+defined<00:00:23.680> in<00:00:23.859> the<00:00:23.949> script<00:00:24.310> exist<00:00:25.029> in<00:00:25.300> the
+
+00:00:25.410 --> 00:00:25.420 
+defined in the script exist in the
+
+00:00:25.420 --> 00:00:27.810 
+defined in the script exist in the
+current<00:00:25.600> MATLAB<00:00:26.170> workspace<00:00:26.410> so<00:00:27.400> they<00:00:27.550> can<00:00:27.730> be
+
+00:00:27.810 --> 00:00:27.820 
+current MATLAB workspace so they can be
+
+00:00:27.820 --> 00:00:30.179 
+current MATLAB workspace so they can be
+accessed<00:00:28.330> through<00:00:28.480> other<00:00:28.810> scripts<00:00:29.289> and<00:00:29.529> other
+
+00:00:30.179 --> 00:00:30.189 
+accessed through other scripts and other
+
+00:00:30.189 --> 00:00:33.150 
+accessed through other scripts and other
+functions<00:00:30.730> in<00:00:31.019> a<00:00:32.019> function<00:00:32.439> however<00:00:32.650> any
+
+00:00:33.150 --> 00:00:33.160 
+functions in a function however any
+
+00:00:33.160 --> 00:00:35.759 
+functions in a function however any
+variables<00:00:33.970> that<00:00:34.180> you<00:00:34.269> define<00:00:34.690> exist<00:00:35.559> only
+
+00:00:35.759 --> 00:00:35.769 
+variables that you define exist only
+
+00:00:35.769 --> 00:00:39.719 
+variables that you define exist only
+within<00:00:36.190> that<00:00:36.430> function<00:00:37.739> so<00:00:38.739> for<00:00:38.769> example<00:00:39.519> if
+
+00:00:39.719 --> 00:00:39.729 
+within that function so for example if
+
+00:00:39.729 --> 00:00:42.570 
+within that function so for example if
+you<00:00:40.390> try<00:00:40.600> and<00:00:40.720> access<00:00:41.409> them<00:00:41.710> from<00:00:42.159> the<00:00:42.250> command
+
+00:00:42.570 --> 00:00:42.580 
+you try and access them from the command
+
+00:00:42.580 --> 00:00:45.719 
+you try and access them from the command
+window<00:00:43.440> you'll<00:00:44.440> get<00:00:44.680> an<00:00:44.830> error<00:00:44.979> because<00:00:45.549> they
+
+00:00:45.719 --> 00:00:45.729 
+window you'll get an error because they
+
+00:00:45.729 --> 00:00:47.729 
+window you'll get an error because they
+don't<00:00:45.940> exist<00:00:46.180> in<00:00:46.659> the<00:00:46.989> current<00:00:47.170> MATLAB
+
+00:00:47.729 --> 00:00:47.739 
+don't exist in the current MATLAB
+
+00:00:47.739 --> 00:00:50.130 
+don't exist in the current MATLAB
+workspace<00:00:47.979> you<00:00:48.909> only<00:00:49.180> exist<00:00:49.629> within<00:00:49.809> that
+
+00:00:50.130 --> 00:00:50.140 
+workspace you only exist within that
+
+00:00:50.140 --> 00:00:52.740 
+workspace you only exist within that
+function<00:00:51.059> so<00:00:52.059> what<00:00:52.210> we're<00:00:52.330> going<00:00:52.420> to<00:00:52.479> do<00:00:52.629> in
+
+00:00:52.740 --> 00:00:52.750 
+function so what we're going to do in
+
+00:00:52.750 --> 00:00:55.859 
+function so what we're going to do in
+this<00:00:52.869> example<00:00:52.930> is<00:00:53.729> take<00:00:54.729> our<00:00:54.940> my<00:00:55.360> circle
+
+00:00:55.859 --> 00:00:55.869 
+this example is take our my circle
+
+00:00:55.869 --> 00:00:57.390 
+this example is take our my circle
+script<00:00:56.199> that<00:00:56.379> we<00:00:56.530> created<00:00:56.860> in<00:00:57.220> the<00:00:57.280> last
+
+00:00:57.390 --> 00:00:57.400 
+script that we created in the last
+
+00:00:57.400 --> 00:01:00.390 
+script that we created in the last
+screencast<00:00:58.089> and<00:00:58.769> convert<00:00:59.769> it<00:00:59.949> into<00:01:00.190> a
+
+00:01:00.390 --> 00:01:00.400 
+screencast and convert it into a
+
+00:01:00.400 --> 00:01:03.960 
+screencast and convert it into a
+function<00:01:01.830> so<00:01:02.830> let's<00:01:03.040> open<00:01:03.220> up<00:01:03.580> from<00:01:03.879> the
+
+00:01:03.960 --> 00:01:03.970 
+function so let's open up from the
+
+00:01:03.970 --> 00:01:09.000 
+function so let's open up from the
+current<00:01:04.180> directory<00:01:04.839> and<00:01:07.560> you<00:01:08.560> see<00:01:08.740> that<00:01:08.890> it
+
+00:01:09.000 --> 00:01:09.010 
+current directory and you see that it
+
+00:01:09.010 --> 00:01:13.710 
+current directory and you see that it
+opens<00:01:09.340> in<00:01:09.549> the<00:01:09.670> editor<00:01:09.790> window<00:01:12.510> so<00:01:13.510> in<00:01:13.630> a
+
+00:01:13.710 --> 00:01:13.720 
+opens in the editor window so in a
+
+00:01:13.720 --> 00:01:16.320 
+opens in the editor window so in a
+function<00:01:14.110> M<00:01:14.320> file<00:01:14.620> the<00:01:15.220> first<00:01:15.520> line<00:01:15.850> is<00:01:16.150> the
+
+00:01:16.320 --> 00:01:16.330 
+function M file the first line is the
+
+00:01:16.330 --> 00:01:18.390 
+function M file the first line is the
+function<00:01:16.750> definition<00:01:17.050> line<00:01:17.680> and<00:01:17.950> that<00:01:18.160> goes
+
+00:01:18.390 --> 00:01:18.400 
+function definition line and that goes
+
+00:01:18.400 --> 00:01:21.750 
+function definition line and that goes
+at<00:01:18.670> the<00:01:18.760> top<00:01:18.970> of<00:01:19.180> the<00:01:19.270> script<00:01:19.600> and<00:01:20.520> the<00:01:21.520> first
+
+00:01:21.750 --> 00:01:21.760 
+at the top of the script and the first
+
+00:01:21.760 --> 00:01:23.100 
+at the top of the script and the first
+thing<00:01:21.940> that<00:01:21.970> we<00:01:22.150> put<00:01:22.330> in<00:01:22.480> it<00:01:22.630> is<00:01:22.780> the<00:01:22.930> word
+
+00:01:23.100 --> 00:01:23.110 
+thing that we put in it is the word
+
+00:01:23.110 --> 00:01:25.800 
+thing that we put in it is the word
+function<00:01:23.740> and<00:01:23.920> that<00:01:24.610> just<00:01:24.850> tells<00:01:25.090> MATLAB<00:01:25.600> that
+
+00:01:25.800 --> 00:01:25.810 
+function and that just tells MATLAB that
+
+00:01:25.810 --> 00:01:30.030 
+function and that just tells MATLAB that
+this<00:01:25.960> is<00:01:26.140> a<00:01:26.170> function<00:01:26.680> M<00:01:26.890> file<00:01:28.560> now<00:01:29.560> we<00:01:29.740> define
+
+00:01:30.030 --> 00:01:30.040 
+this is a function M file now we define
+
+00:01:30.040 --> 00:01:32.210 
+this is a function M file now we define
+the<00:01:30.100> output<00:01:30.430> arguments<00:01:31.270> of<00:01:31.390> our<00:01:31.510> function<00:01:31.990> and
+
+00:01:32.210 --> 00:01:32.220 
+the output arguments of our function and
+
+00:01:32.220 --> 00:01:35.250 
+the output arguments of our function and
+in<00:01:33.220> this<00:01:33.370> case<00:01:33.670> the<00:01:34.090> output<00:01:34.270> arguments<00:01:35.080> are
+
+00:01:35.250 --> 00:01:35.260 
+in this case the output arguments are
+
+00:01:35.260 --> 00:01:38.450 
+in this case the output arguments are
+the<00:01:35.320> points<00:01:35.830> on<00:01:35.980> our<00:01:36.100> circle<00:01:36.610> x<00:01:37.090> and<00:01:37.600> y<00:01:37.810> so
+
+00:01:38.450 --> 00:01:38.460 
+the points on our circle x and y so
+
+00:01:38.460 --> 00:01:40.560 
+the points on our circle x and y so
+because<00:01:39.460> there's<00:01:39.700> more<00:01:39.880> than<00:01:39.940> one<00:01:40.270> output
+
+00:01:40.560 --> 00:01:40.570 
+because there's more than one output
+
+00:01:40.570 --> 00:01:42.660 
+because there's more than one output
+argument<00:01:41.260> we<00:01:41.830> need<00:01:41.980> to<00:01:42.100> use<00:01:42.250> the<00:01:42.400> square
+
+00:01:42.660 --> 00:01:42.670 
+argument we need to use the square
+
+00:01:42.670 --> 00:01:48.420 
+argument we need to use the square
+bracket<00:01:43.180> notation<00:01:44.070> X<00:01:45.070> comma<00:01:45.580> Y<00:01:47.070> now<00:01:48.070> the<00:01:48.130> name
+
+00:01:48.420 --> 00:01:48.430 
+bracket notation X comma Y now the name
+
+00:01:48.430 --> 00:01:56.460 
+bracket notation X comma Y now the name
+of<00:01:48.610> our<00:01:48.730> function<00:01:50.040> we<00:01:51.040> will<00:01:51.159> call<00:01:51.400> that<00:01:55.470> my
+
+00:01:56.460 --> 00:01:56.470 
+of our function we will call that my
+
+00:01:56.470 --> 00:02:02.130 
+of our function we will call that my
+circle<00:01:58.320> FN<00:01:59.320> for<00:01:59.680> a<00:01:59.710> function<00:02:00.100> and<00:02:00.930> then<00:02:01.930> the
+
+00:02:02.130 --> 00:02:02.140 
+circle FN for a function and then the
+
+00:02:02.140 --> 00:02:03.960 
+circle FN for a function and then the
+input<00:02:02.320> arguments<00:02:03.130> to<00:02:03.250> the<00:02:03.340> function<00:02:03.370> which
+
+00:02:03.960 --> 00:02:03.970 
+input arguments to the function which
+
+00:02:03.970 --> 00:02:07.320 
+input arguments to the function which
+are<00:02:04.120> enclosed<00:02:04.450> in<00:02:04.720> round<00:02:04.990> brackets<00:02:05.530> and<00:02:06.330> the
+
+00:02:07.320 --> 00:02:07.330 
+are enclosed in round brackets and the
+
+00:02:07.330 --> 00:02:09.539 
+are enclosed in round brackets and the
+only<00:02:07.510> input<00:02:07.960> argument<00:02:08.440> we<00:02:08.560> have<00:02:08.769> is<00:02:09.069> the
+
+00:02:09.539 --> 00:02:09.549 
+only input argument we have is the
+
+00:02:09.549 --> 00:02:14.500 
+only input argument we have is the
+radius<00:02:09.909> of<00:02:10.090> the<00:02:10.179> circle<00:02:10.450> so<00:02:10.810> that<00:02:11.230> will<00:02:11.319> be<00:02:11.440> our
+
+00:02:14.500 --> 00:02:14.510 
+
+00:02:14.510 --> 00:02:18.050 
+
+No<00:02:15.810> we'll<00:02:16.020> just<00:02:16.200> delete<00:02:16.410> our<00:02:16.739> my<00:02:17.280> circle<00:02:17.730> em
+
+00:02:18.050 --> 00:02:18.060 
+No we'll just delete our my circle em
+
+00:02:18.060 --> 00:02:20.089 
+No we'll just delete our my circle em
+comment<00:02:18.569> because<00:02:19.560> that's<00:02:19.739> no<00:02:19.920> longer
+
+00:02:20.089 --> 00:02:20.099 
+comment because that's no longer
+
+00:02:20.099 --> 00:02:23.150 
+comment because that's no longer
+appropriate<00:02:20.459> and<00:02:21.530> we'll<00:02:22.530> change<00:02:22.800> the<00:02:22.980> word
+
+00:02:23.150 --> 00:02:23.160 
+appropriate and we'll change the word
+
+00:02:23.160 --> 00:02:31.449 
+appropriate and we'll change the word
+script<00:02:23.730> to<00:02:24.209> function
+
+00:02:31.449 --> 00:02:31.459 
+
+00:02:31.459 --> 00:02:34.040 
+
+we'll<00:02:32.459> also<00:02:32.640> modify<00:02:33.269> the<00:02:33.300> description
+
+00:02:34.040 --> 00:02:34.050 
+we'll also modify the description
+
+00:02:34.050 --> 00:02:36.740 
+we'll also modify the description
+slightly<00:02:34.530> because<00:02:35.250> as<00:02:35.819> we've<00:02:36.090> already<00:02:36.300> said
+
+00:02:36.740 --> 00:02:36.750 
+slightly because as we've already said
+
+00:02:36.750 --> 00:02:38.870 
+slightly because as we've already said
+the<00:02:37.230> output<00:02:37.680> of<00:02:37.769> our<00:02:37.950> function<00:02:38.370> is<00:02:38.550> going<00:02:38.730> to
+
+00:02:38.870 --> 00:02:38.880 
+the output of our function is going to
+
+00:02:38.880 --> 00:02:45.080 
+the output of our function is going to
+be<00:02:39.030> the<00:02:39.660> X&amp;Y<00:02:40.110> points<00:02:40.709> on<00:02:40.830> the<00:02:40.950> circle<00:02:44.090> we're
+
+00:02:45.080 --> 00:02:45.090 
+be the X&amp;Y points on the circle we're
+
+00:02:45.090 --> 00:02:46.820 
+be the X&amp;Y points on the circle we're
+also<00:02:45.239> going<00:02:45.510> to<00:02:45.690> adjust<00:02:45.959> our<00:02:46.319> variable
+
+00:02:46.820 --> 00:02:46.830 
+also going to adjust our variable
+
+00:02:46.830 --> 00:02:49.280 
+also going to adjust our variable
+dictionary<00:02:47.340> slightly<00:02:47.970> so<00:02:48.540> that<00:02:48.720> we<00:02:48.810> know<00:02:48.959> what
+
+00:02:49.280 --> 00:02:49.290 
+dictionary slightly so that we know what
+
+00:02:49.290 --> 00:02:51.050 
+dictionary slightly so that we know what
+the<00:02:49.410> input<00:02:49.799> and<00:02:49.980> output<00:02:50.100> arguments<00:02:50.640> of<00:02:50.940> our
+
+00:02:51.050 --> 00:02:51.060 
+the input and output arguments of our
+
+00:02:51.060 --> 00:02:59.330 
+the input and output arguments of our
+function<00:02:51.480> R<00:02:53.180> so<00:02:54.180> R<00:02:54.209> is<00:02:54.750> an<00:02:55.110> input<00:02:55.319> and<00:02:57.920> x<00:02:58.920> and<00:02:59.190> y
+
+00:02:59.330 --> 00:02:59.340 
+function R so R is an input and x and y
+
+00:02:59.340 --> 00:03:04.009 
+function R so R is an input and x and y
+are<00:02:59.640> outputs<00:03:00.269> and<00:03:02.000> theta<00:03:03.000> is<00:03:03.330> a<00:03:03.360> local
+
+00:03:04.009 --> 00:03:04.019 
+are outputs and theta is a local
+
+00:03:04.019 --> 00:03:07.670 
+are outputs and theta is a local
+variable<00:03:04.069> to<00:03:05.069> this<00:03:05.190> function<00:03:06.380> so<00:03:07.380> the<00:03:07.470> next
+
+00:03:07.670 --> 00:03:07.680 
+variable to this function so the next
+
+00:03:07.680 --> 00:03:09.020 
+variable to this function so the next
+change<00:03:07.980> that<00:03:08.190> we<00:03:08.280> need<00:03:08.310> to<00:03:08.549> make<00:03:08.730> to<00:03:08.880> our
+
+00:03:09.020 --> 00:03:09.030 
+change that we need to make to our
+
+00:03:09.030 --> 00:03:12.880 
+change that we need to make to our
+script<00:03:09.360> is<00:03:10.069> to<00:03:11.069> remove<00:03:11.370> the<00:03:11.640> input<00:03:12.030> line
+
+00:03:12.880 --> 00:03:12.890 
+script is to remove the input line
+
+00:03:12.890 --> 00:03:16.070 
+script is to remove the input line
+because<00:03:13.890> now<00:03:14.069> our<00:03:14.430> function<00:03:14.970> will<00:03:15.180> take<00:03:15.840> in
+
+00:03:16.070 --> 00:03:16.080 
+because now our function will take in
+
+00:03:16.080 --> 00:03:19.400 
+because now our function will take in
+the<00:03:16.260> value<00:03:16.620> R<00:03:16.860> and<00:03:18.019> there's<00:03:19.019> no<00:03:19.170> need<00:03:19.350> to
+
+00:03:19.400 --> 00:03:19.410 
+the value R and there's no need to
+
+00:03:19.410 --> 00:03:22.310 
+the value R and there's no need to
+prompt<00:03:19.799> the<00:03:19.950> user<00:03:19.980> for<00:03:20.340> it<00:03:20.870> so<00:03:21.870> we<00:03:22.019> can<00:03:22.170> just
+
+00:03:22.310 --> 00:03:22.320 
+prompt the user for it so we can just
+
+00:03:22.320 --> 00:03:25.130 
+prompt the user for it so we can just
+delete<00:03:22.590> that<00:03:22.769> entire<00:03:23.160> line<00:03:23.989> from<00:03:24.989> our
+
+00:03:25.130 --> 00:03:25.140 
+delete that entire line from our
+
+00:03:25.140 --> 00:03:29.180 
+delete that entire line from our
+function<00:03:25.620> and<00:03:27.500> looking<00:03:28.500> at<00:03:28.590> the<00:03:28.680> rest<00:03:28.890> that
+
+00:03:29.180 --> 00:03:29.190 
+function and looking at the rest that
+
+00:03:29.190 --> 00:03:32.030 
+function and looking at the rest that
+should<00:03:29.400> all<00:03:29.549> work<00:03:29.790> fine<00:03:30.090> so<00:03:30.709> we<00:03:31.709> can<00:03:31.890> now
+
+00:03:32.030 --> 00:03:32.040 
+should all work fine so we can now
+
+00:03:32.040 --> 00:03:36.920 
+should all work fine so we can now
+choose<00:03:32.310> file<00:03:33.319> save<00:03:34.319> as<00:03:35.359> and<00:03:36.359> we<00:03:36.480> need<00:03:36.630> to<00:03:36.750> make
+
+00:03:36.920 --> 00:03:36.930 
+choose file save as and we need to make
+
+00:03:36.930 --> 00:03:38.990 
+choose file save as and we need to make
+sure<00:03:37.170> we<00:03:37.350> save<00:03:37.590> our<00:03:37.799> function<00:03:38.310> with<00:03:38.819> the<00:03:38.970> same
+
+00:03:38.990 --> 00:03:39.000 
+sure we save our function with the same
+
+00:03:39.000 --> 00:03:40.910 
+sure we save our function with the same
+name<00:03:39.269> that<00:03:39.780> we<00:03:39.870> used<00:03:40.170> in<00:03:40.410> the<00:03:40.530> function
+
+00:03:40.910 --> 00:03:40.920 
+name that we used in the function
+
+00:03:40.920 --> 00:03:43.840 
+name that we used in the function
+definition<00:03:40.950> line<00:03:41.760> so<00:03:42.390> that's<00:03:42.600> my<00:03:42.900> circle
+
+00:03:43.840 --> 00:03:43.850 
+definition line so that's my circle
+
+00:03:43.850 --> 00:03:49.729 
+definition line so that's my circle
+underscore<00:03:44.850> FN<00:03:47.810> now<00:03:48.810> we're<00:03:49.019> ready<00:03:49.170> to<00:03:49.350> execute
+
+00:03:49.729 --> 00:03:49.739 
+underscore FN now we're ready to execute
+
+00:03:49.739 --> 00:03:52.490 
+underscore FN now we're ready to execute
+our<00:03:50.010> function<00:03:50.459> and<00:03:50.639> with<00:03:51.630> functions<00:03:52.079> we<00:03:52.290> can't
+
+00:03:52.490 --> 00:03:52.500 
+our function and with functions we can't
+
+00:03:52.500 --> 00:03:55.220 
+our function and with functions we can't
+just<00:03:52.739> simply<00:03:53.100> press<00:03:53.340> the<00:03:53.639> play<00:03:53.880> button<00:03:54.230> from
+
+00:03:55.220 --> 00:03:55.230 
+just simply press the play button from
+
+00:03:55.230 --> 00:03:57.289 
+just simply press the play button from
+the<00:03:55.350> editor<00:03:55.709> window<00:03:55.889> we<00:03:56.549> need<00:03:56.579> to<00:03:56.730> call<00:03:57.090> them
+
+00:03:57.289 --> 00:03:57.299 
+the editor window we need to call them
+
+00:03:57.299 --> 00:04:00.590 
+the editor window we need to call them
+from<00:03:57.540> the<00:03:57.569> command<00:03:57.959> line<00:03:59.180> so<00:04:00.180> we'll<00:04:00.299> go<00:04:00.420> into
+
+00:04:00.590 --> 00:04:00.600 
+from the command line so we'll go into
+
+00:04:00.600 --> 00:04:04.610 
+from the command line so we'll go into
+the<00:04:00.810> command<00:04:01.139> window<00:04:01.380> and<00:04:02.690> we<00:04:03.690> basically<00:04:04.079> use
+
+00:04:04.610 --> 00:04:04.620 
+the command window and we basically use
+
+00:04:04.620 --> 00:04:07.520 
+the command window and we basically use
+the<00:04:04.950> same<00:04:05.220> sand<00:04:05.579> tax<00:04:05.880> as<00:04:06.180> the<00:04:07.049> function
+
+00:04:07.520 --> 00:04:07.530 
+the same sand tax as the function
+
+00:04:07.530 --> 00:04:11.449 
+the same sand tax as the function
+definition<00:04:07.739> line<00:04:09.590> so<00:04:10.590> we'll<00:04:10.799> see<00:04:11.010> that<00:04:11.190> we
+
+00:04:11.449 --> 00:04:11.459 
+definition line so we'll see that we
+
+00:04:11.459 --> 00:04:14.930 
+definition line so we'll see that we
+want<00:04:11.639> to<00:04:11.730> output<00:04:11.910> to<00:04:12.389> go<00:04:12.540> into<00:04:12.810> X&amp;Y<00:04:13.290> and<00:04:13.940> we're
+
+00:04:14.930 --> 00:04:14.940 
+want to output to go into X&amp;Y and we're
+
+00:04:14.940 --> 00:04:18.729 
+want to output to go into X&amp;Y and we're
+calling<00:04:15.299> the<00:04:15.420> function<00:04:15.600> my<00:04:16.139> circle<00:04:16.889> F<00:04:17.130> N<00:04:17.880> and
+
+00:04:18.729 --> 00:04:18.739 
+calling the function my circle F N and
+
+00:04:18.739 --> 00:04:21.259 
+calling the function my circle F N and
+we're<00:04:19.739> interested<00:04:19.950> in<00:04:20.250> plotting<00:04:20.459> a<00:04:20.760> circle<00:04:21.150> of
+
+00:04:21.259 --> 00:04:21.269 
+we're interested in plotting a circle of
+
+00:04:21.269 --> 00:04:26.170 
+we're interested in plotting a circle of
+radius<00:04:21.299> two<00:04:22.970> so<00:04:23.970> our<00:04:24.090> MP<00:04:24.360> argument<00:04:24.900> R<00:04:25.080> is<00:04:25.380> two
+
+00:04:26.170 --> 00:04:26.180 
+radius two so our MP argument R is two
+
+00:04:26.180 --> 00:04:28.490 
+radius two so our MP argument R is two
+and<00:04:27.180> we<00:04:27.300> press<00:04:27.510> Enter
+
+00:04:28.490 --> 00:04:28.500 
+and we press Enter
+
+00:04:28.500 --> 00:04:30.530 
+and we press Enter
+and<00:04:28.890> we<00:04:29.130> find<00:04:29.370> MATLAB<00:04:29.790> returns<00:04:30.180> an<00:04:30.390> error
+
+00:04:30.530 --> 00:04:30.540 
+and we find MATLAB returns an error
+
+00:04:30.540 --> 00:04:34.640 
+and we find MATLAB returns an error
+message<00:04:32.630> now<00:04:33.630> if<00:04:33.750> you<00:04:33.840> look<00:04:33.990> carefully<00:04:34.200> it's
+
+00:04:34.640 --> 00:04:34.650 
+message now if you look carefully it's
+
+00:04:34.650 --> 00:04:36.260 
+message now if you look carefully it's
+telling<00:04:35.040> us<00:04:35.160> that<00:04:35.310> there's<00:04:35.520> an<00:04:35.640> error<00:04:35.850> at<00:04:36.210> line
+
+00:04:36.260 --> 00:04:36.270 
+telling us that there's an error at line
+
+00:04:36.270 --> 00:04:39.950 
+telling us that there's an error at line
+15<00:04:37.020> of<00:04:37.320> our<00:04:37.650> function<00:04:38.280> so<00:04:39.270> we'll<00:04:39.390> click<00:04:39.660> that
+
+00:04:39.950 --> 00:04:39.960 
+15 of our function so we'll click that
+
+00:04:39.960 --> 00:04:44.630 
+15 of our function so we'll click that
+and<00:04:40.850> it's<00:04:41.850> seeing<00:04:42.150> that<00:04:42.420> R<00:04:42.960> is<00:04:43.500> not<00:04:43.770> defined<00:04:44.280> at
+
+00:04:44.630 --> 00:04:44.640 
+and it's seeing that R is not defined at
+
+00:04:44.640 --> 00:04:47.900 
+and it's seeing that R is not defined at
+this<00:04:44.880> line<00:04:45.150> and<00:04:45.890> the<00:04:46.890> reason<00:04:47.220> R<00:04:47.430> is<00:04:47.670> not
+
+00:04:47.900 --> 00:04:47.910 
+this line and the reason R is not
+
+00:04:47.910 --> 00:04:50.000 
+this line and the reason R is not
+defined<00:04:48.270> is<00:04:48.600> that<00:04:49.140> we've<00:04:49.260> left<00:04:49.530> the<00:04:49.740> clear-all
+
+00:04:50.000 --> 00:04:50.010 
+defined is that we've left the clear-all
+
+00:04:50.010 --> 00:04:53.420 
+defined is that we've left the clear-all
+command<00:04:50.730> in<00:04:51.030> our<00:04:51.720> function<00:04:52.230> and<00:04:52.430> what's
+
+00:04:53.420 --> 00:04:53.430 
+command in our function and what's
+
+00:04:53.430 --> 00:04:56.060 
+command in our function and what's
+happening<00:04:53.850> is<00:04:54.030> we<00:04:54.210> are<00:04:54.240> defining<00:04:54.720> our<00:04:55.140> as<00:04:55.440> -<00:04:55.770> in
+
+00:04:56.060 --> 00:04:56.070 
+happening is we are defining our as - in
+
+00:04:56.070 --> 00:04:59.210 
+happening is we are defining our as - in
+the<00:04:56.970> command<00:04:57.300> window<00:04:57.560> but<00:04:58.560> when<00:04:58.710> we<00:04:58.830> execute
+
+00:04:59.210 --> 00:04:59.220 
+the command window but when we execute
+
+00:04:59.220 --> 00:05:01.610 
+the command window but when we execute
+our<00:04:59.490> function<00:05:00.000> we're<00:05:00.330> clearing<00:05:00.840> that<00:05:01.050> value
+
+00:05:01.610 --> 00:05:01.620 
+our function we're clearing that value
+
+00:05:01.620 --> 00:05:04.880 
+our function we're clearing that value
+before<00:05:02.070> we<00:05:02.430> use<00:05:02.640> it<00:05:02.850> so<00:05:03.230> we<00:05:04.230> need<00:05:04.440> to<00:05:04.560> remove
+
+00:05:04.880 --> 00:05:04.890 
+before we use it so we need to remove
+
+00:05:04.890 --> 00:05:09.730 
+before we use it so we need to remove
+the<00:05:05.190> clear-all<00:05:06.470> command<00:05:07.470> from<00:05:08.100> our<00:05:08.340> function
+
+00:05:09.730 --> 00:05:09.740 
+the clear-all command from our function
+
+00:05:09.740 --> 00:05:13.580 
+the clear-all command from our function
+we'll<00:05:10.740> just<00:05:10.920> save<00:05:11.130> that<00:05:11.160> again<00:05:12.260> come<00:05:13.260> back<00:05:13.290> to
+
+00:05:13.580 --> 00:05:13.590 
+we'll just save that again come back to
+
+00:05:13.590 --> 00:05:15.920 
+we'll just save that again come back to
+the<00:05:13.710> command<00:05:13.950> window<00:05:14.210> just<00:05:15.210> use<00:05:15.480> the<00:05:15.630> up<00:05:15.750> arrow
+
+00:05:15.920 --> 00:05:15.930 
+the command window just use the up arrow
+
+00:05:15.930 --> 00:05:19.340 
+the command window just use the up arrow
+key<00:05:16.110> to<00:05:16.440> get<00:05:16.560> back<00:05:16.620> the<00:05:17.010> command<00:05:17.340> and<00:05:18.200> now<00:05:19.200> our
+
+00:05:19.340 --> 00:05:19.350 
+key to get back the command and now our
+
+00:05:19.350 --> 00:05:23.590 
+key to get back the command and now our
+function<00:05:19.560> works<00:05:20.040> as<00:05:20.280> expected
+
+00:05:23.590 --> 00:05:23.600 
+
+00:05:23.600 --> 00:05:26.659 
+
+this<00:05:24.600> production<00:05:24.960> is<00:05:25.440> copyright<00:05:26.190> the
+
+00:05:26.659 --> 00:05:26.669 
+this production is copyright the
+
+00:05:26.669 --> 00:05:29.720 
+this production is copyright the
+University<00:05:27.390> of<00:05:27.540> Edinburgh
+

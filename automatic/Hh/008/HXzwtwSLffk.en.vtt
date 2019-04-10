@@ -1,0 +1,520 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.670 --> 00:00:09.990
+ hello and happy to greet you on 
+
+00:00:07.470 --> 00:00:14.030
+ course stove pier 5 css3 
+
+00:00:09.990 --> 00:00:16.410
+ lesson theme transformation &amp; animation 
+
+00:00:14.030 --> 00:00:18.060
+ very often to do 
+
+00:00:16.410 --> 00:00:20.760
+ user interface more 
+
+00:00:18.060 --> 00:00:22.890
+ pleasant and lively designers add 
+
+00:00:20.760 --> 00:00:25.350
+ animation to individual elements 
+
+00:00:22.890 --> 00:00:26.510
+ controls add animated 
+
+00:00:25.350 --> 00:00:29.310
+ menu items 
+
+00:00:26.510 --> 00:00:32.189
+ special mouse hover effects 
+
+00:00:29.310 --> 00:00:33.770
+ smooth parts of the document 
+
+00:00:32.189 --> 00:00:37.950
+ page transitions 
+
+00:00:33.770 --> 00:00:41.399
+ the animation greatly changes the sensations from 
+
+00:00:37.950 --> 00:00:44.070
+ use the application earlier in order 
+
+00:00:41.399 --> 00:00:45.840
+ to add an animated effect to 
+
+00:00:44.070 --> 00:00:47.180
+ the document we had to use 
+
+00:00:45.840 --> 00:00:51.050
+ what's the script code 
+
+00:00:47.180 --> 00:00:53.550
+ that is, using javascript code we 
+
+00:00:51.050 --> 00:00:57.059
+ controlled as separate properties 
+
+00:00:53.550 --> 00:00:59.280
+ change their value in java time 
+
+00:00:57.059 --> 00:01:01.649
+ script code controlled object transition 
+
+00:00:59.280 --> 00:01:04.860
+ anybody some element in the document 
+
+00:01:01.649 --> 00:01:07.020
+ transition his state from one to another 
+
+00:01:04.860 --> 00:01:09.720
+ let's say a gradual increase in height there and 
+
+00:01:07.020 --> 00:01:12.659
+ width main son smooth change of light 
+
+00:01:09.720 --> 00:01:15.210
+ element and so on before us 
+
+00:01:12.659 --> 00:01:18.000
+ it was necessary to use the java script 
+
+00:01:15.210 --> 00:01:19.920
+ animation code now with css 
+
+00:01:18.000 --> 00:01:24.000
+ 3 to animate 
+
+00:01:19.920 --> 00:01:26.790
+ element we need to create multiple 
+
+00:01:24.000 --> 00:01:28.979
+ rules and have these rules using 
+
+00:01:26.790 --> 00:01:32.189
+ special property to set how 
+
+00:01:28.979 --> 00:01:34.950
+ the element will change its properties in 
+
+00:01:32.189 --> 00:01:37.590
+ time as he will be animated on 
+
+00:01:34.950 --> 00:01:39.869
+ In this lesson we will look at some of you. 
+
+00:01:37.590 --> 00:01:42.930
+ properties exist in css third for 
+
+00:01:39.869 --> 00:01:44.509
+ order to create an animation and consider 
+
+00:01:42.930 --> 00:01:47.340
+ what functions 
+
+00:01:44.509 --> 00:01:49.540
+ allowing to transform into a state 
+
+00:01:47.340 --> 00:01:51.890
+ element transform element 
+
+00:01:49.540 --> 00:01:56.290
+ in three-dimensional or two-dimensional space 
+
+00:01:51.890 --> 00:01:56.290
+ what functions can we use 
+
+00:01:56.979 --> 00:02:01.940
+ the easiest way to create an animation 
+
+00:01:59.479 --> 00:02:05.720
+ take advantage of the transitions 
+
+00:02:01.940 --> 00:02:08.330
+ or see any transitions tranzishen 
+
+00:02:05.720 --> 00:02:10.550
+ supports 78 percent of modern 
+
+00:02:08.330 --> 00:02:13.190
+ browsers first examples which we 
+
+00:02:10.550 --> 00:02:15.850
+ Now let's analyze demonstrate how 
+
+00:02:13.190 --> 00:02:21.050
+ transitions can be animated 
+
+00:02:15.850 --> 00:02:23.440
+ elements of the document let's first we 
+
+00:02:21.050 --> 00:02:28.100
+ run the example and see how it works 
+
+00:02:23.440 --> 00:02:30.790
+ example you see what's originally on 
+
+00:02:28.100 --> 00:02:33.530
+ page is an item 
+
+00:02:30.790 --> 00:02:35.450
+ circled if we are pointing tower 
+
+00:02:33.530 --> 00:02:37.880
+ on this element then it increases its 
+
+00:02:35.450 --> 00:02:40.480
+ size if the mouse is out of bounds 
+
+00:02:37.880 --> 00:02:43.370
+ item size returns to 
+
+00:02:40.480 --> 00:02:48.170
+ we have the previous now 
+
+00:02:43.370 --> 00:02:50.660
+ transition from the value of the width of the element 300 
+
+00:02:48.170 --> 00:02:52.720
+ pixels to the width of elements 
+
+00:02:50.660 --> 00:02:56.299
+ let's say 400 pixels 
+
+00:02:52.720 --> 00:02:58.610
+ it turns out that in order to change 
+
+00:02:56.299 --> 00:03:00.860
+ thus the condition of the item us 
+
+00:02:58.610 --> 00:03:03.019
+ need some object that will 
+
+00:03:00.860 --> 00:03:06.470
+ control just like Thai width 
+
+00:03:03.019 --> 00:03:08.110
+ varies in time from this value to 
+
+00:03:06.470 --> 00:03:10.340
+ new value that we need 
+
+00:03:08.110 --> 00:03:11.989
+ the easiest way to create such 
+
+00:03:10.340 --> 00:03:14.470
+ animation is use transition 
+
+00:03:11.989 --> 00:03:14.470
+ transient 
+
+00:03:14.590 --> 00:03:22.150
+ see how the example looks like we create 
+
+00:03:18.750 --> 00:03:24.819
+ the div element is specified for divo 
+
+00:03:22.150 --> 00:03:28.030
+ the default setting we specify the frame 
+
+00:03:24.819 --> 00:03:31.180
+ n dengue indents and initial width 
+
+00:03:28.030 --> 00:03:34.540
+ diva 300 pixels we want so when 
+
+00:03:31.180 --> 00:03:38.110
+ mouseover div increased its 
+
+00:03:34.540 --> 00:03:40.750
+ widths from 300 to 500 made it 
+
+00:03:38.110 --> 00:03:42.250
+ smoothly not jerk like we do it 
+
+00:03:40.750 --> 00:03:45.790
+ usually without animation 
+
+00:03:42.250 --> 00:03:48.790
+ and smoothly increased the size of the width starting 
+
+00:03:45.790 --> 00:03:51.760
+ with 300 and so on then to ask 
+
+00:03:48.790 --> 00:03:54.190
+ smooth increase in width on line 20 
+
+00:03:51.760 --> 00:03:57.209
+ property transits are created we 
+
+00:03:54.190 --> 00:03:59.950
+ specify what will happen 
+
+00:03:57.209 --> 00:04:03.970
+ smooth change of the it with property 
+
+00:03:59.950 --> 00:04:07.390
+ for two seconds if the property view 
+
+00:04:03.970 --> 00:04:10.000
+ somewhere in the css code or in the java script 
+
+00:04:07.390 --> 00:04:12.360
+ code is changed it will be given 
+
+00:04:10.000 --> 00:04:14.950
+ new browser value automatically 
+
+00:04:12.360 --> 00:04:17.949
+ will calculate both in two seconds 
+
+00:04:14.950 --> 00:04:20.829
+ you can smoothly change property values 
+
+00:04:17.949 --> 00:04:23.320
+ view from current value to new 
+
+00:04:20.829 --> 00:04:24.789
+ which was set to not 
+
+00:04:23.320 --> 00:04:28.120
+ create no extra 
+
+00:04:24.789 --> 00:04:30.820
+ scripts in the java script we specify 
+
+00:04:28.120 --> 00:04:33.550
+ that when you hover the mouse over an item 
+
+00:04:30.820 --> 00:04:36.970
+ one we have the width of the element should 
+
+00:04:33.550 --> 00:04:39.010
+ become 500 pixels and here it turns out 25 
+
+00:04:36.970 --> 00:04:41.950
+ the string is the moment of launch 
+
+00:04:39.010 --> 00:04:43.810
+ animations on line 20 we said to 
+
+00:04:41.950 --> 00:04:47.050
+ we will animate the view properties for 
+
+00:04:43.810 --> 00:04:49.360
+ two seconds at a construction site 25 we are animation 
+
+00:04:47.050 --> 00:04:51.870
+ launched here and it turns out that if we 
+
+00:04:49.360 --> 00:04:54.700
+ mouse over the element 
+
+00:04:51.870 --> 00:04:57.099
+ above element smoothly increases size 
+
+00:04:54.700 --> 00:04:59.020
+ mouse goes beyond element 
+
+00:04:57.099 --> 00:05:01.979
+ returns to your original 
+
+00:04:59.020 --> 00:05:01.979
+ condition 
+
+00:05:02.510 --> 00:05:08.390
+ this is the easiest way to set animation 
+
+00:05:06.460 --> 00:05:11.060
+ can also be animated 
+
+00:05:08.390 --> 00:05:13.180
+ simultaneously several properties let's 
+
+00:05:11.060 --> 00:05:17.330
+ Let's see what the second example looks like. 
+
+00:05:13.180 --> 00:05:19.910
+ when we mouse over the element we 
+
+00:05:17.330 --> 00:05:23.770
+ increasing element size changes 
+
+00:05:19.910 --> 00:05:23.770
+ its background and font color changes 
+
+00:05:28.240 --> 00:05:35.500
+ in order to set such an animation here 
+
+00:05:32.199 --> 00:05:38.770
+ our def on 2 waits and the line is initially 
+
+00:05:35.500 --> 00:05:41.580
+ its settings are from 7 to 13 line 
+
+00:05:38.770 --> 00:05:44.490
+ but settings 17 we indicate that to us 
+
+00:05:41.580 --> 00:05:46.990
+ we need to be a shift 
+
+00:05:44.490 --> 00:05:48.699
+ the value of the color property should change 
+
+00:05:46.990 --> 00:05:51.580
+ at 4 for four seconds 
+
+00:05:48.699 --> 00:05:53.680
+ view properties for four seconds and 
+
+00:05:51.580 --> 00:05:55.479
+ properties backgroundcolor these three 
+
+00:05:53.680 --> 00:05:58.810
+ properties we're going to animate 
+
+00:05:55.479 --> 00:06:01.120
+ so if somewhere in the current css 
+
+00:05:58.810 --> 00:06:04.270
+ document in the current rules will 
+
+00:06:01.120 --> 00:06:06.190
+ defined rules that change one 
+
+00:06:04.270 --> 00:06:08.229
+ of these properties either changes them 
+
+00:06:06.190 --> 00:06:10.930
+ at the same time the browser will start to run 
+
+00:06:08.229 --> 00:06:14.050
+ animation for 4 seconds of 
+
+00:06:10.930 --> 00:06:14.949
+ values to smoothly change value 
+
+00:06:14.050 --> 00:06:17.560
+ required properties 
+
+00:06:14.949 --> 00:06:21.250
+ well, we run an animation on 
+
+00:06:17.560 --> 00:06:23.740
+ line 20 when cn rules work 
+
+00:06:21.250 --> 00:06:26.409
+ sevda hovar class we change color 
+
+00:06:23.740 --> 00:06:28.020
+ the width and background of the element respectively 
+
+00:06:26.409 --> 00:06:31.000
+ browser true calculation smoothly 
+
+00:06:28.020 --> 00:06:32.250
+ calculates the change of all these properties for 
+
+00:06:31.000 --> 00:06:35.860
+ of our item 
+
+00:06:32.250 --> 00:06:37.479
+ but if there are too many properties 
+
+00:06:35.860 --> 00:06:39.780
+ white which we are going to animate 
+
+00:06:37.479 --> 00:06:42.780
+ you can use this 
+
+00:06:39.780 --> 00:06:42.780
+ by approach 
+
+00:06:46.790 --> 00:06:53.410
+ In this example, you see what changes are not 
+
+00:06:48.890 --> 00:06:56.090
+ only width but also height and color and background 
+
+00:06:53.410 --> 00:06:58.250
+ background color text element color 
+
+00:06:56.090 --> 00:06:59.480
+ it turns out that we are animating as 
+
+00:06:58.250 --> 00:07:00.980
+ minimum four properties 
+
+00:06:59.480 --> 00:07:04.570
+ Well, the number of properties that we 
+
+00:07:00.980 --> 00:07:04.570
+ animating can be much more 
+
+00:07:04.750 --> 00:07:10.220
+ now on line 20 
+
+00:07:07.100 --> 00:07:12.380
+ indicates that the transition should be 
+
+00:07:10.220 --> 00:07:15.590
+ occur for any property which 
+
+00:07:12.380 --> 00:07:17.270
+ supports css animation and transition 
+
+00:07:15.590 --> 00:07:19.820
+ must occur within four 
+
+00:07:17.270 --> 00:07:22.760
+ seconds so if for the item 
+
+00:07:19.820 --> 00:07:24.350
+ about food 1 at least one of them is animating them 
+
+00:07:22.760 --> 00:07:25.790
+ properties from properties that can 
+
+00:07:24.350 --> 00:07:27.830
+ keep dumb 
+
+00:07:25.790 --> 00:07:30.200
+ at least one of the funds will change it 
+
+00:07:27.830 --> 00:07:32.180
+ property will change with application 
+
+00:07:30.200 --> 00:07:34.130
+ smooth transition over four 
+
+00:07:32.180 --> 00:07:36.680
+ seconds here we have three properties 
+
+00:07:34.130 --> 00:07:38.960
+ which we change color with heads and 
+
+00:07:36.680 --> 00:07:42.670
+ backgroundcolor and all these properties we have 
+
+00:07:38.960 --> 00:07:42.670
+ animates for four seconds 
+
+00:07:44.710 --> 00:07:48.070
+ we have now seen very simple settings 
+
+00:07:46.810 --> 00:07:51.210
+ transitive properties 
+
+00:07:48.070 --> 00:07:54.370
+ we essentially only specified properties and 
+
+00:07:51.210 --> 00:07:56.940
+ some more time will be 
+
+00:07:54.370 --> 00:07:56.940
+ animate 
+

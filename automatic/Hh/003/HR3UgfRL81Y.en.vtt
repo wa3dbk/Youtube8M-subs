@@ -1,0 +1,981 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.000 --> 00:00:10.669 
+
+are<00:00:09.000> you<00:00:09.150> in<00:00:09.300> a<00:00:09.510> machine<00:00:09.929> that<00:00:10.139> can<00:00:10.290> deliver
+
+00:00:10.669 --> 00:00:10.679 
+are you in a machine that can deliver
+
+00:00:10.679 --> 00:00:12.230 
+are you in a machine that can deliver
+hundreds<00:00:11.160> of<00:00:11.280> trillions<00:00:11.639> of<00:00:11.790> floating-point
+
+00:00:12.230 --> 00:00:12.240 
+hundreds of trillions of floating-point
+
+00:00:12.240 --> 00:00:15.110 
+hundreds of trillions of floating-point
+calculations<00:00:13.139> per<00:00:13.410> second<00:00:13.799> or<00:00:13.920> are<00:00:14.730> you<00:00:14.849> in<00:00:15.000> it
+
+00:00:15.110 --> 00:00:15.120 
+calculations per second or are you in it
+
+00:00:15.120 --> 00:00:16.460 
+calculations per second or are you in it
+of<00:00:15.269> a<00:00:15.330> bar<00:00:15.540> story<00:00:15.929> about<00:00:16.199> how<00:00:16.410> the
+
+00:00:16.460 --> 00:00:16.470 
+of a bar story about how the
+
+00:00:16.470 --> 00:00:18.439 
+of a bar story about how the
+supercomputer<00:00:17.340> in<00:00:17.520> your<00:00:17.670> basement<00:00:17.880> flipped<00:00:18.330> a
+
+00:00:18.439 --> 00:00:18.449 
+supercomputer in your basement flipped a
+
+00:00:18.449 --> 00:00:20.359 
+supercomputer in your basement flipped a
+breaker<00:00:18.830> building<00:00:19.830> your<00:00:19.980> own<00:00:20.010> high
+
+00:00:20.359 --> 00:00:20.369 
+breaker building your own high
+
+00:00:20.369 --> 00:00:22.570 
+breaker building your own high
+performance<00:00:21.000> compute<00:00:21.420> cluster<00:00:21.779> aka
+
+00:00:22.570 --> 00:00:22.580 
+performance compute cluster aka
+
+00:00:22.580 --> 00:00:25.279 
+performance compute cluster aka
+supercomputer<00:00:23.580> is<00:00:23.730> a<00:00:24.000> challenge<00:00:24.570> any<00:00:24.779> expert
+
+00:00:25.279 --> 00:00:25.289 
+supercomputer is a challenge any expert
+
+00:00:25.289 --> 00:00:27.380 
+supercomputer is a challenge any expert
+geek<00:00:25.590> with<00:00:25.890> a<00:00:25.920> weekend<00:00:26.400> of<00:00:26.550> free<00:00:26.849> time<00:00:27.150> and
+
+00:00:27.380 --> 00:00:27.390 
+geek with a weekend of free time and
+
+00:00:27.390 --> 00:00:30.230 
+geek with a weekend of free time and
+some<00:00:27.750> cash<00:00:28.019> to<00:00:28.289> burn<00:00:28.500> can<00:00:28.830> tackle<00:00:29.240> technically
+
+00:00:30.230 --> 00:00:30.240 
+some cash to burn can tackle technically
+
+00:00:30.240 --> 00:00:32.540 
+some cash to burn can tackle technically
+speaking<00:00:30.510> the<00:00:31.080> modern<00:00:31.550> multiprocessor
+
+00:00:32.540 --> 00:00:32.550 
+speaking the modern multiprocessor
+
+00:00:32.550 --> 00:00:34.250 
+speaking the modern multiprocessor
+supercomputer<00:00:33.239> is<00:00:33.390> a<00:00:33.420> network<00:00:33.870> of<00:00:34.020> computers
+
+00:00:34.250 --> 00:00:34.260 
+supercomputer is a network of computers
+
+00:00:34.260 --> 00:00:36.319 
+supercomputer is a network of computers
+working<00:00:34.890> together<00:00:35.070> in<00:00:35.460> parallel<00:00:35.880> to<00:00:36.059> solve
+
+00:00:36.319 --> 00:00:36.329 
+working together in parallel to solve
+
+00:00:36.329 --> 00:00:38.630 
+working together in parallel to solve
+the<00:00:36.480> problem<00:00:36.899> this<00:00:37.680> article<00:00:38.129> will<00:00:38.309> briefly
+
+00:00:38.630 --> 00:00:38.640 
+the problem this article will briefly
+
+00:00:38.640 --> 00:00:40.420 
+the problem this article will briefly
+describe<00:00:39.030> each<00:00:39.360> step<00:00:39.690> in<00:00:39.870> the<00:00:39.899> process
+
+00:00:40.420 --> 00:00:40.430 
+describe each step in the process
+
+00:00:40.430 --> 00:00:43.459 
+describe each step in the process
+focusing<00:00:41.430> on<00:00:41.550> hardware<00:00:41.969> and<00:00:42.149> software<00:00:42.469> first
+
+00:00:43.459 --> 00:00:43.469 
+focusing on hardware and software first
+
+00:00:43.469 --> 00:00:45.110 
+focusing on hardware and software first
+determine<00:00:43.920> the<00:00:43.950> hardware<00:00:44.399> components<00:00:44.610> and
+
+00:00:45.110 --> 00:00:45.120 
+determine the hardware components and
+
+00:00:45.120 --> 00:00:47.660 
+determine the hardware components and
+resources<00:00:45.750> needed<00:00:45.930> you<00:00:46.860> will<00:00:46.980> need<00:00:47.219> one<00:00:47.430> head
+
+00:00:47.660 --> 00:00:47.670 
+resources needed you will need one head
+
+00:00:47.670 --> 00:00:50.119 
+resources needed you will need one head
+node<00:00:47.910> at<00:00:48.180> least<00:00:48.750> a<00:00:48.960> dozen<00:00:49.140> identical<00:00:49.710> compute
+
+00:00:50.119 --> 00:00:50.129 
+node at least a dozen identical compute
+
+00:00:50.129 --> 00:00:52.490 
+node at least a dozen identical compute
+nodes<00:00:50.340> an<00:00:50.550> Ethernet<00:00:51.449> switch<00:00:51.480> the<00:00:52.289> power
+
+00:00:52.490 --> 00:00:52.500 
+nodes an Ethernet switch the power
+
+00:00:52.500 --> 00:00:55.549 
+nodes an Ethernet switch the power
+distribution<00:00:52.860> unit<00:00:53.699> and<00:00:53.850> direct<00:00:54.559> determine
+
+00:00:55.549 --> 00:00:55.559 
+distribution unit and direct determine
+
+00:00:55.559 --> 00:00:57.770 
+distribution unit and direct determine
+the<00:00:55.649> electrical<00:00:56.190> demand<00:00:56.309> cooling<00:00:57.270> and<00:00:57.449> space
+
+00:00:57.770 --> 00:00:57.780 
+the electrical demand cooling and space
+
+00:00:57.780 --> 00:01:00.979 
+the electrical demand cooling and space
+required<00:00:58.430> also<00:00:59.430> decide<00:00:59.820> on<00:01:00.059> what<00:01:00.359> IP<00:01:00.510> address
+
+00:01:00.979 --> 00:01:00.989 
+required also decide on what IP address
+
+00:01:00.989 --> 00:01:03.260 
+required also decide on what IP address
+you<00:01:01.260> want<00:01:01.379> for<00:01:01.649> your<00:01:01.739> private<00:01:02.100> networks<00:01:02.489> what
+
+00:01:03.260 --> 00:01:03.270 
+you want for your private networks what
+
+00:01:03.270 --> 00:01:05.690 
+you want for your private networks what
+to<00:01:03.390> name<00:01:03.570> the<00:01:03.809> nodes<00:01:04.049> what<00:01:04.769> software<00:01:05.250> packages
+
+00:01:05.690 --> 00:01:05.700 
+to name the nodes what software packages
+
+00:01:05.700 --> 00:01:08.000 
+to name the nodes what software packages
+you<00:01:05.880> want<00:01:06.060> installed<00:01:06.510> and<00:01:06.810> what<00:01:07.380> technology
+
+00:01:08.000 --> 00:01:08.010 
+you want installed and what technology
+
+00:01:08.010 --> 00:01:09.440 
+you want installed and what technology
+you<00:01:08.159> want<00:01:08.310> to<00:01:08.430> provide<00:01:08.850> the<00:01:09.000> parallel
+
+00:01:09.440 --> 00:01:09.450 
+you want to provide the parallel
+
+00:01:09.450 --> 00:01:11.330 
+you want to provide the parallel
+computing<00:01:09.930> capabilities<00:01:10.650> more<00:01:10.950> on<00:01:11.159> this
+
+00:01:11.330 --> 00:01:11.340 
+computing capabilities more on this
+
+00:01:11.340 --> 00:01:13.550 
+computing capabilities more on this
+later<00:01:11.549> though<00:01:12.420> the<00:01:12.570> hardware<00:01:12.960> is<00:01:13.080> expensive
+
+00:01:13.550 --> 00:01:13.560 
+later though the hardware is expensive
+
+00:01:13.560 --> 00:01:15.830 
+later though the hardware is expensive
+all<00:01:13.770> software<00:01:14.520> listed<00:01:14.970> in<00:01:15.090> this<00:01:15.270> howto<00:01:15.479> is
+
+00:01:15.830 --> 00:01:15.840 
+all software listed in this howto is
+
+00:01:15.840 --> 00:01:18.920 
+all software listed in this howto is
+free<00:01:16.140> and<00:01:16.350> most<00:01:16.890> are<00:01:17.159> open<00:01:17.490> source<00:01:17.759> build<00:01:18.720> the
+
+00:01:18.920 --> 00:01:18.930 
+free and most are open source build the
+
+00:01:18.930 --> 00:01:21.440 
+free and most are open source build the
+compute<00:01:19.350> nodes<00:01:19.590> you<00:01:20.580> will<00:01:20.610> need<00:01:20.970> to<00:01:21.180> assemble
+
+00:01:21.440 --> 00:01:21.450 
+compute nodes you will need to assemble
+
+00:01:21.450 --> 00:01:23.450 
+compute nodes you will need to assemble
+the<00:01:21.600> compute<00:01:22.140> node<00:01:22.320> for<00:01:22.590> acquire<00:01:22.920> pre<00:01:23.250> build
+
+00:01:23.450 --> 00:01:23.460 
+the compute node for acquire pre build
+
+00:01:23.460 --> 00:01:25.249 
+the compute node for acquire pre build
+servers<00:01:23.909> dot<00:01:24.150> to<00:01:24.299> choose<00:01:24.509> a<00:01:24.540> computer<00:01:25.049> server
+
+00:01:25.249 --> 00:01:25.259 
+servers dot to choose a computer server
+
+00:01:25.259 --> 00:01:28.010 
+servers dot to choose a computer server
+chassis<00:01:25.799> that<00:01:25.830> maximizes<00:01:26.759> space<00:01:26.909> cooling<00:01:27.869> and
+
+00:01:28.010 --> 00:01:28.020 
+chassis that maximizes space cooling and
+
+00:01:28.020 --> 00:01:31.280 
+chassis that maximizes space cooling and
+energy<00:01:28.799> efficiency<00:01:29.369> or<00:01:29.520> you<00:01:30.329> can<00:01:30.570> utilize<00:01:30.780> the
+
+00:01:31.280 --> 00:01:31.290 
+energy efficiency or you can utilize the
+
+00:01:31.290 --> 00:01:34.100 
+energy efficiency or you can utilize the
+dozen<00:01:31.560> or<00:01:31.680> so<00:01:31.740> used<00:01:32.100> outdated<00:01:33.000> servers<00:01:33.450> whose
+
+00:01:34.100 --> 00:01:34.110 
+dozen or so used outdated servers whose
+
+00:01:34.110 --> 00:01:35.660 
+dozen or so used outdated servers whose
+whole<00:01:34.320> will<00:01:34.530> outweigh<00:01:34.920> the<00:01:35.130> sum<00:01:35.340> of<00:01:35.520> their
+
+00:01:35.660 --> 00:01:35.670 
+whole will outweigh the sum of their
+
+00:01:35.670 --> 00:01:37.609 
+whole will outweigh the sum of their
+parts<00:01:35.850> yet<00:01:36.270> save<00:01:36.540> you<00:01:36.689> a<00:01:36.720> sizable<00:01:37.049> lump<00:01:37.439> of
+
+00:01:37.609 --> 00:01:37.619 
+parts yet save you a sizable lump of
+
+00:01:37.619 --> 00:01:41.080 
+parts yet save you a sizable lump of
+cash<00:01:37.860> all<00:01:38.479> processors<00:01:39.479> network<00:01:40.259> adapters<00:01:40.860> and
+
+00:01:41.080 --> 00:01:41.090 
+cash all processors network adapters and
+
+00:01:41.090 --> 00:01:43.190 
+cash all processors network adapters and
+motherboards<00:01:42.090> should<00:01:42.390> be<00:01:42.509> identical<00:01:42.869> for<00:01:43.170> the
+
+00:01:43.190 --> 00:01:43.200 
+motherboards should be identical for the
+
+00:01:43.200 --> 00:01:45.260 
+motherboards should be identical for the
+whole<00:01:43.409> system<00:01:43.829> to<00:01:44.040> play<00:01:44.220> together<00:01:44.460> nicely<00:01:45.119> of
+
+00:01:45.260 --> 00:01:45.270 
+whole system to play together nicely of
+
+00:01:45.270 --> 00:01:47.810 
+whole system to play together nicely of
+course<00:01:45.799> don't<00:01:46.799> forget<00:01:46.920> about<00:01:47.280> RAM<00:01:47.549> and
+
+00:01:47.810 --> 00:01:47.820 
+course don't forget about RAM and
+
+00:01:47.820 --> 00:01:50.210 
+course don't forget about RAM and
+storage<00:01:48.210> for<00:01:48.570> each<00:01:48.720> node<00:01:49.020> and<00:01:49.049> at<00:01:49.500> least<00:01:49.860> one
+
+00:01:50.210 --> 00:01:50.220 
+storage for each node and at least one
+
+00:01:50.220 --> 00:01:52.910 
+storage for each node and at least one
+optical<00:01:50.729> drive<00:01:50.970> for<00:01:51.240> the<00:01:51.299> head<00:01:51.479> node<00:01:51.920> install
+
+00:01:52.910 --> 00:01:52.920 
+optical drive for the head node install
+
+00:01:52.920 --> 00:01:55.429 
+optical drive for the head node install
+the<00:01:53.130> servers<00:01:53.490> into<00:01:53.670> the<00:01:53.820> rack<00:01:54.110> start<00:01:55.110> from<00:01:55.320> the
+
+00:01:55.429 --> 00:01:55.439 
+the servers into the rack start from the
+
+00:01:55.439 --> 00:01:58.130 
+the servers into the rack start from the
+bottom<00:01:55.710> so<00:01:56.219> the<00:01:56.340> wrap<00:01:56.520> isn't<00:01:56.759> top-heavy<00:01:57.299> you
+
+00:01:58.130 --> 00:01:58.140 
+bottom so the wrap isn't top-heavy you
+
+00:01:58.140 --> 00:01:59.840 
+bottom so the wrap isn't top-heavy you
+will<00:01:58.290> need<00:01:58.500> a<00:01:58.530> friend<00:01:58.860> to<00:01:58.979> help<00:01:59.219> you<00:01:59.460> with<00:01:59.549> this
+
+00:01:59.840 --> 00:01:59.850 
+will need a friend to help you with this
+
+00:01:59.850 --> 00:02:01.969 
+will need a friend to help you with this
+the<00:02:00.390> dense<00:02:00.600> servers<00:02:01.049> can<00:02:01.290> be<00:02:01.409> very<00:02:01.619> heavy<00:02:01.860> and
+
+00:02:01.969 --> 00:02:01.979 
+the dense servers can be very heavy and
+
+00:02:01.979 --> 00:02:03.800 
+the dense servers can be very heavy and
+guiding<00:02:02.549> them<00:02:02.729> into<00:02:03.030> the<00:02:03.180> rels<00:02:03.360> that<00:02:03.570> hold
+
+00:02:03.800 --> 00:02:03.810 
+guiding them into the rels that hold
+
+00:02:03.810 --> 00:02:06.560 
+guiding them into the rels that hold
+them<00:02:04.079> into<00:02:04.290> a<00:02:04.439> rack<00:02:04.710> is<00:02:04.979> difficult<00:02:05.570> install
+
+00:02:06.560 --> 00:02:06.570 
+them into a rack is difficult install
+
+00:02:06.570 --> 00:02:08.389 
+them into a rack is difficult install
+the<00:02:06.780> Ethernet<00:02:07.259> switch<00:02:07.290> above<00:02:08.009> the<00:02:08.190> server
+
+00:02:08.389 --> 00:02:08.399 
+the Ethernet switch above the server
+
+00:02:08.399 --> 00:02:11.029 
+the Ethernet switch above the server
+chassis<00:02:08.849> take<00:02:09.690> this<00:02:09.959> moment<00:02:10.289> to<00:02:10.470> configure
+
+00:02:11.029 --> 00:02:11.039 
+chassis take this moment to configure
+
+00:02:11.039 --> 00:02:13.550 
+chassis take this moment to configure
+the<00:02:11.220> switch<00:02:11.370> allow<00:02:12.209> for<00:02:12.510> jumbo<00:02:12.690> frame<00:02:13.140> size
+
+00:02:13.550 --> 00:02:13.560 
+the switch allow for jumbo frame size
+
+00:02:13.560 --> 00:02:15.890 
+the switch allow for jumbo frame size
+of<00:02:13.920> nine<00:02:14.160> thousand<00:02:14.580> bytes<00:02:14.760> set<00:02:15.510> the<00:02:15.690> IP
+
+00:02:15.890 --> 00:02:15.900 
+of nine thousand bytes set the IP
+
+00:02:15.900 --> 00:02:18.020 
+of nine thousand bytes set the IP
+address<00:02:16.500> to<00:02:16.830> the<00:02:16.920> static<00:02:17.250> address<00:02:17.700> you
+
+00:02:18.020 --> 00:02:18.030 
+address to the static address you
+
+00:02:18.030 --> 00:02:20.420 
+address to the static address you
+decided<00:02:18.480> on<00:02:18.599> in<00:02:18.810> step<00:02:19.020> one<00:02:19.290> and<00:02:19.530> turn<00:02:20.190> off
+
+00:02:20.420 --> 00:02:20.430 
+decided on in step one and turn off
+
+00:02:20.430 --> 00:02:22.309 
+decided on in step one and turn off
+unnecessary<00:02:20.670> routing<00:02:21.510> protocols<00:02:22.050> such<00:02:22.290> as
+
+00:02:22.309 --> 00:02:22.319 
+unnecessary routing protocols such as
+
+00:02:22.319 --> 00:02:25.610 
+unnecessary routing protocols such as
+SMTP<00:02:23.099> snooping<00:02:23.690> install<00:02:24.690> the<00:02:24.930> PDU<00:02:25.200> power
+
+00:02:25.610 --> 00:02:25.620 
+SMTP snooping install the PDU power
+
+00:02:25.620 --> 00:02:28.250 
+SMTP snooping install the PDU power
+distribution<00:02:26.040> unit<00:02:26.840> depending<00:02:27.840> on<00:02:27.959> how<00:02:28.110> much
+
+00:02:28.250 --> 00:02:28.260 
+distribution unit depending on how much
+
+00:02:28.260 --> 00:02:30.170 
+distribution unit depending on how much
+current<00:02:28.680> your<00:02:28.920> nodes<00:02:29.130> may<00:02:29.370> need<00:02:29.550> at<00:02:29.670> maximum
+
+00:02:30.170 --> 00:02:30.180 
+current your nodes may need at maximum
+
+00:02:30.180 --> 00:02:32.690 
+current your nodes may need at maximum
+load<00:02:30.360> you<00:02:30.900> may<00:02:31.050> need<00:02:31.230> 220<00:02:32.190> volts<00:02:32.489> for
+
+00:02:32.690 --> 00:02:32.700 
+load you may need 220 volts for
+
+00:02:32.700 --> 00:02:34.729 
+load you may need 220 volts for
+high-performance<00:02:32.959> computing<00:02:33.959> with
+
+00:02:34.729 --> 00:02:34.739 
+high-performance computing with
+
+00:02:34.739 --> 00:02:36.949 
+high-performance computing with
+everything<00:02:35.280> installed<00:02:35.640> you<00:02:36.300> can<00:02:36.510> begin<00:02:36.720> the
+
+00:02:36.949 --> 00:02:36.959 
+everything installed you can begin the
+
+00:02:36.959 --> 00:02:39.440 
+everything installed you can begin the
+configuration<00:02:37.680> process<00:02:38.269> Linux<00:02:39.269> is<00:02:39.420> the
+
+00:02:39.440 --> 00:02:39.450 
+configuration process Linux is the
+
+00:02:39.450 --> 00:02:42.770 
+configuration process Linux is the
+de-facto<00:02:39.780> OS<00:02:40.530> for<00:02:40.860> HPC<00:02:41.459> clusters<00:02:41.910> not<00:02:42.180> only<00:02:42.630> is
+
+00:02:42.770 --> 00:02:42.780 
+de-facto OS for HPC clusters not only is
+
+00:02:42.780 --> 00:02:44.900 
+de-facto OS for HPC clusters not only is
+it<00:02:42.810> the<00:02:43.080> ideal<00:02:43.500> environment<00:02:43.709> for<00:02:44.220> scientific
+
+00:02:44.900 --> 00:02:44.910 
+it the ideal environment for scientific
+
+00:02:44.910 --> 00:02:47.150 
+it the ideal environment for scientific
+computing<00:02:45.360> but<00:02:45.840> it<00:02:46.049> doesn't<00:02:46.440> cost<00:02:46.650> the<00:02:46.950> thing
+
+00:02:47.150 --> 00:02:47.160 
+computing but it doesn't cost the thing
+
+00:02:47.160 --> 00:02:48.740 
+computing but it doesn't cost the thing
+to<00:02:47.340> install<00:02:47.489> it<00:02:47.970> on<00:02:48.120> hundreds<00:02:48.569> or<00:02:48.720> even
+
+00:02:48.740 --> 00:02:48.750 
+to install it on hundreds or even
+
+00:02:48.750 --> 00:02:51.590 
+to install it on hundreds or even
+thousands<00:02:49.470> of<00:02:49.590> notes<00:02:50.120> imagine<00:02:51.120> how<00:02:51.269> much<00:02:51.420> it
+
+00:02:51.590 --> 00:02:51.600 
+thousands of notes imagine how much it
+
+00:02:51.600 --> 00:02:53.449 
+thousands of notes imagine how much it
+would<00:02:51.780> cost<00:02:51.810> to<00:02:52.319> install<00:02:52.470> windows<00:02:53.220> on<00:02:53.400> all
+
+00:02:53.449 --> 00:02:53.459 
+would cost to install windows on all
+
+00:02:53.459 --> 00:02:56.210 
+would cost to install windows on all
+those<00:02:53.910> nodes<00:02:54.350> begin<00:02:55.350> with<00:02:55.530> installing<00:02:55.950> the
+
+00:02:56.210 --> 00:02:56.220 
+those nodes begin with installing the
+
+00:02:56.220 --> 00:02:57.770 
+those nodes begin with installing the
+latest<00:02:56.489> version<00:02:56.880> of<00:02:56.970> the<00:02:57.090> motherboard<00:02:57.330> BIOS
+
+00:02:57.770 --> 00:02:57.780 
+latest version of the motherboard BIOS
+
+00:02:57.780 --> 00:02:59.960 
+latest version of the motherboard BIOS
+and<00:02:58.110> firmware<00:02:58.380> which<00:02:59.130> should<00:02:59.340> be<00:02:59.459> the<00:02:59.580> same<00:02:59.790> on
+
+00:02:59.960 --> 00:02:59.970 
+and firmware which should be the same on
+
+00:02:59.970 --> 00:03:02.780 
+and firmware which should be the same on
+all<00:03:00.239> notes<00:03:00.739> install<00:03:01.739> your<00:03:02.010> preferred<00:03:02.400> Linux
+
+00:03:02.780 --> 00:03:02.790 
+all notes install your preferred Linux
+
+00:03:02.790 --> 00:03:05.089 
+all notes install your preferred Linux
+District<00:03:03.209> on<00:03:03.330> each<00:03:03.569> node<00:03:03.900> with<00:03:04.500> a<00:03:04.530> graphical
+
+00:03:05.089 --> 00:03:05.099 
+District on each node with a graphical
+
+00:03:05.099 --> 00:03:07.789 
+District on each node with a graphical
+UI<00:03:05.370> for<00:03:05.819> the<00:03:05.910> head<00:03:06.090> node<00:03:06.500> popular<00:03:07.500> choices
+
+00:03:07.789 --> 00:03:07.799 
+UI for the head node popular choices
+
+00:03:07.799 --> 00:03:10.280 
+UI for the head node popular choices
+include<00:03:08.340> CentOS<00:03:08.819> open<00:03:09.690> SUSE
+
+00:03:10.280 --> 00:03:10.290 
+include CentOS open SUSE
+
+00:03:10.290 --> 00:03:14.420 
+include CentOS open SUSE
+scientific<00:03:11.069> Linux<00:03:11.340> Red<00:03:11.940> Hat<00:03:12.180> and<00:03:12.420> SL<00:03:13.200> V's<00:03:13.470> this
+
+00:03:14.420 --> 00:03:14.430 
+scientific Linux Red Hat and SL V's this
+
+00:03:14.430 --> 00:03:16.309 
+scientific Linux Red Hat and SL V's this
+author<00:03:14.700> highly<00:03:15.150> recommends<00:03:15.660> using<00:03:15.810> the<00:03:16.110> rocks
+
+00:03:16.309 --> 00:03:16.319 
+author highly recommends using the rocks
+
+00:03:16.319 --> 00:03:19.039 
+author highly recommends using the rocks
+cluster<00:03:16.950> distribution<00:03:17.579> in<00:03:18.299> addition<00:03:18.810> to
+
+00:03:19.039 --> 00:03:19.049 
+cluster distribution in addition to
+
+00:03:19.049 --> 00:03:21.170 
+cluster distribution in addition to
+installing<00:03:19.440> all<00:03:19.799> the<00:03:19.950> tools<00:03:20.220> necessary<00:03:20.579> for<00:03:21.150> a
+
+00:03:21.170 --> 00:03:21.180 
+installing all the tools necessary for a
+
+00:03:21.180 --> 00:03:23.660 
+installing all the tools necessary for a
+compute<00:03:21.510> cluster<00:03:21.900> to<00:03:22.140> function<00:03:22.620> Rox<00:03:23.220> uses<00:03:23.640> a
+
+00:03:23.660 --> 00:03:23.670 
+compute cluster to function Rox uses a
+
+00:03:23.670 --> 00:03:25.340 
+compute cluster to function Rox uses a
+great<00:03:23.970> method<00:03:24.390> for<00:03:24.420> distributing<00:03:25.109> many
+
+00:03:25.340 --> 00:03:25.350 
+great method for distributing many
+
+00:03:25.350 --> 00:03:27.500 
+great method for distributing many
+instances<00:03:25.920> of<00:03:26.160> itself<00:03:26.430> to<00:03:26.700> the<00:03:26.820> nodes<00:03:27.090> very
+
+00:03:27.500 --> 00:03:27.510 
+instances of itself to the nodes very
+
+00:03:27.510 --> 00:03:29.420 
+instances of itself to the nodes very
+quickly<00:03:27.870> using<00:03:28.140> the<00:03:28.440> execute<00:03:28.769> in<00:03:29.040> the<00:03:29.190> Red<00:03:29.400> Hat
+
+00:03:29.420 --> 00:03:29.430 
+quickly using the execute in the Red Hat
+
+00:03:29.430 --> 00:03:32.539 
+quickly using the execute in the Red Hat
+kickstart<00:03:30.329> procedure<00:03:30.950> installed<00:03:31.950> a<00:03:32.160> message
+
+00:03:32.539 --> 00:03:32.549 
+kickstart procedure installed a message
+
+00:03:32.549 --> 00:03:35.090 
+kickstart procedure installed a message
+passing<00:03:32.790> interface<00:03:33.380> resource<00:03:34.380> manager<00:03:34.950> and
+
+00:03:35.090 --> 00:03:35.100 
+passing interface resource manager and
+
+00:03:35.100 --> 00:03:38.300 
+passing interface resource manager and
+other<00:03:35.700> necessary<00:03:36.329> libraries<00:03:36.930> if<00:03:37.170> you<00:03:37.980> didn't
+
+00:03:38.300 --> 00:03:38.310 
+other necessary libraries if you didn't
+
+00:03:38.310 --> 00:03:40.699 
+other necessary libraries if you didn't
+install<00:03:38.609> rocks<00:03:38.940> in<00:03:39.239> the<00:03:39.480> previous<00:03:39.900> step<00:03:40.230> you
+
+00:03:40.699 --> 00:03:40.709 
+install rocks in the previous step you
+
+00:03:40.709 --> 00:03:42.229 
+install rocks in the previous step you
+will<00:03:40.890> have<00:03:41.040> to<00:03:41.160> manually<00:03:41.489> setup<00:03:42.000> the
+
+00:03:42.229 --> 00:03:42.239 
+will have to manually setup the
+
+00:03:42.239 --> 00:03:44.090 
+will have to manually setup the
+necessary<00:03:42.750> software<00:03:43.019> to<00:03:43.560> enable<00:03:43.859> the
+
+00:03:44.090 --> 00:03:44.100 
+necessary software to enable the
+
+00:03:44.100 --> 00:03:46.819 
+necessary software to enable the
+parallel<00:03:44.519> computing<00:03:45.000> mechanisms<00:03:45.590> first<00:03:46.590> you
+
+00:03:46.819 --> 00:03:46.829 
+parallel computing mechanisms first you
+
+00:03:46.829 --> 00:03:48.530 
+parallel computing mechanisms first you
+will<00:03:46.980> need<00:03:47.100> a<00:03:47.280> portable<00:03:47.579> bash<00:03:47.910> management
+
+00:03:48.530 --> 00:03:48.540 
+will need a portable bash management
+
+00:03:48.540 --> 00:03:50.840 
+will need a portable bash management
+system<00:03:48.870> such<00:03:49.350> as<00:03:49.410> the<00:03:49.620> tork<00:03:49.889> resource<00:03:50.280> manager
+
+00:03:50.840 --> 00:03:50.850 
+system such as the tork resource manager
+
+00:03:50.850 --> 00:03:52.550 
+system such as the tork resource manager
+which<00:03:51.359> allows<00:03:51.720> you<00:03:51.900> to<00:03:52.019> break<00:03:52.200> up<00:03:52.230> and
+
+00:03:52.550 --> 00:03:52.560 
+which allows you to break up and
+
+00:03:52.560 --> 00:03:54.590 
+which allows you to break up and
+distribute<00:03:53.069> tasks<00:03:53.549> to<00:03:53.790> multiple<00:03:54.209> machines
+
+00:03:54.590 --> 00:03:54.600 
+distribute tasks to multiple machines
+
+00:03:54.600 --> 00:03:56.900 
+distribute tasks to multiple machines
+pair<00:03:55.470> toured<00:03:55.829> with<00:03:56.040> the<00:03:56.250> Maui<00:03:56.400> cluster
+
+00:03:56.900 --> 00:03:56.910 
+pair toured with the Maui cluster
+
+00:03:56.910 --> 00:03:59.479 
+pair toured with the Maui cluster
+scheduler<00:03:57.420> to<00:03:57.600> complete<00:03:57.989> the<00:03:58.200> set<00:03:58.380> up<00:03:58.560> next
+
+00:03:59.479 --> 00:03:59.489 
+scheduler to complete the set up next
+
+00:03:59.489 --> 00:04:01.370 
+scheduler to complete the set up next
+you<00:03:59.760> will<00:03:59.850> need<00:03:59.910> to<00:04:00.150> install<00:04:00.510> the<00:04:00.989> message
+
+00:04:01.370 --> 00:04:01.380 
+you will need to install the message
+
+00:04:01.380 --> 00:04:03.680 
+you will need to install the message
+passing<00:04:01.560> interface<00:04:02.329> necessary<00:04:03.329> for<00:04:03.569> the
+
+00:04:03.680 --> 00:04:03.690 
+passing interface necessary for the
+
+00:04:03.690 --> 00:04:05.360 
+passing interface necessary for the
+individual<00:04:04.170> processes<00:04:04.739> on<00:04:04.889> the<00:04:05.010> separate
+
+00:04:05.360 --> 00:04:05.370 
+individual processes on the separate
+
+00:04:05.370 --> 00:04:07.539 
+individual processes on the separate
+compute<00:04:05.850> notes<00:04:06.060> to<00:04:06.329> share<00:04:06.540> the<00:04:06.720> same<00:04:06.930> data
+
+00:04:07.539 --> 00:04:07.549 
+compute notes to share the same data
+
+00:04:07.549 --> 00:04:09.530 
+compute notes to share the same data
+OpenMP<00:04:08.549> is<00:04:08.700> a<00:04:08.730> no-brainer
+
+00:04:09.530 --> 00:04:09.540 
+OpenMP is a no-brainer
+
+00:04:09.540 --> 00:04:11.599 
+OpenMP is a no-brainer
+don't<00:04:10.260> forget<00:04:10.560> the<00:04:10.739> multi-threading<00:04:11.400> math
+
+00:04:11.599 --> 00:04:11.609 
+don't forget the multi-threading math
+
+00:04:11.609 --> 00:04:13.580 
+don't forget the multi-threading math
+library<00:04:12.180> and<00:04:12.450> compilers<00:04:13.019> to<00:04:13.200> build<00:04:13.380> your
+
+00:04:13.580 --> 00:04:13.590 
+library and compilers to build your
+
+00:04:13.590 --> 00:04:16.159 
+library and compilers to build your
+parallel<00:04:14.040> computing<00:04:14.579> programs<00:04:15.060> did<00:04:16.019> I
+
+00:04:16.159 --> 00:04:16.169 
+parallel computing programs did I
+
+00:04:16.169 --> 00:04:17.569 
+parallel computing programs did I
+mention<00:04:16.440> that<00:04:16.650> you<00:04:16.829> should<00:04:17.160> just<00:04:17.400> install
+
+00:04:17.569 --> 00:04:17.579 
+mention that you should just install
+
+00:04:17.579 --> 00:04:19.259 
+mention that you should just install
+rocks
+
+00:04:19.259 --> 00:04:19.269 
+rocks
+
+00:04:19.269 --> 00:04:21.779 
+rocks
+work<00:04:19.449> the<00:04:19.629> compute<00:04:20.049> notes<00:04:20.259> together<00:04:20.560> the<00:04:21.549> head
+
+00:04:21.779 --> 00:04:21.789 
+work the compute notes together the head
+
+00:04:21.789 --> 00:04:23.909 
+work the compute notes together the head
+node<00:04:22.030> sends<00:04:22.419> the<00:04:22.720> compute<00:04:23.169> tasks<00:04:23.590> to<00:04:23.800> the
+
+00:04:23.909 --> 00:04:23.919 
+node sends the compute tasks to the
+
+00:04:23.919 --> 00:04:26.219 
+node sends the compute tasks to the
+compute<00:04:24.310> nodes<00:04:24.340> which<00:04:25.120> in<00:04:25.270> turn<00:04:25.539> must<00:04:25.870> send
+
+00:04:26.219 --> 00:04:26.229 
+compute nodes which in turn must send
+
+00:04:26.229 --> 00:04:28.350 
+compute nodes which in turn must send
+the<00:04:26.349> result<00:04:26.680> back<00:04:26.740> as<00:04:27.129> well<00:04:27.789> as<00:04:28.000> sending
+
+00:04:28.350 --> 00:04:28.360 
+the result back as well as sending
+
+00:04:28.360 --> 00:04:30.719 
+the result back as well as sending
+messages<00:04:28.840> to<00:04:28.900> each<00:04:29.050> other<00:04:29.349> the<00:04:30.190> faster<00:04:30.550> the
+
+00:04:30.719 --> 00:04:30.729 
+messages to each other the faster the
+
+00:04:30.729 --> 00:04:33.360 
+messages to each other the faster the
+better<00:04:30.759> use<00:04:31.690> a<00:04:31.900> private<00:04:32.110> Ethernet<00:04:32.740> network<00:04:33.220> to
+
+00:04:33.360 --> 00:04:33.370 
+better use a private Ethernet network to
+
+00:04:33.370 --> 00:04:35.279 
+better use a private Ethernet network to
+connect<00:04:33.699> all<00:04:33.879> the<00:04:34.060> nodes<00:04:34.300> in<00:04:34.629> the<00:04:34.659> cluster<00:04:34.750> the
+
+00:04:35.279 --> 00:04:35.289 
+connect all the nodes in the cluster the
+
+00:04:35.289 --> 00:04:39.409 
+connect all the nodes in the cluster the
+head<00:04:36.039> node<00:04:36.280> can<00:04:36.639> also<00:04:36.849> add<00:04:37.240> to<00:04:37.449> the<00:04:37.569> NSS<00:04:38.319> exe
+
+00:04:39.409 --> 00:04:39.419 
+head node can also add to the NSS exe
+
+00:04:39.419 --> 00:04:43.469 
+head node can also add to the NSS exe
+DHCP<00:04:40.440> TFTP<00:04:41.440> and<00:04:41.699> NDP<00:04:42.699> server<00:04:43.000> over<00:04:43.389> the
+
+00:04:43.469 --> 00:04:43.479 
+DHCP TFTP and NDP server over the
+
+00:04:43.479 --> 00:04:46.230 
+DHCP TFTP and NDP server over the
+Ethernet<00:04:43.990> network<00:04:44.409> you<00:04:45.310> must<00:04:45.550> separate<00:04:46.030> this
+
+00:04:46.230 --> 00:04:46.240 
+Ethernet network you must separate this
+
+00:04:46.240 --> 00:04:48.360 
+Ethernet network you must separate this
+network<00:04:46.720> from<00:04:46.900> public<00:04:47.259> networks<00:04:47.680> which
+
+00:04:48.360 --> 00:04:48.370 
+network from public networks which
+
+00:04:48.370 --> 00:04:50.550 
+network from public networks which
+ensures<00:04:48.819> that<00:04:49.120> broadcast<00:04:49.690> packets<00:04:50.229> don't
+
+00:04:50.550 --> 00:04:50.560 
+ensures that broadcast packets don't
+
+00:04:50.560 --> 00:04:52.469 
+ensures that broadcast packets don't
+interfere<00:04:50.979> with<00:04:51.190> other<00:04:51.550> networks<00:04:52.030> in<00:04:52.360> your
+
+00:04:52.469 --> 00:04:52.479 
+interfere with other networks in your
+
+00:04:52.479 --> 00:04:55.529 
+interfere with other networks in your
+land<00:04:52.690> test<00:04:53.560> the<00:04:53.680> cluster<00:04:54.069> the<00:04:54.789> last<00:04:55.030> thing<00:04:55.360> you
+
+00:04:55.529 --> 00:04:55.539 
+land test the cluster the last thing you
+
+00:04:55.539 --> 00:04:57.540 
+land test the cluster the last thing you
+may<00:04:55.690> want<00:04:55.720> to<00:04:55.990> do<00:04:56.169> before<00:04:56.560> releasing<00:04:57.130> all<00:04:57.340> this
+
+00:04:57.540 --> 00:04:57.550 
+may want to do before releasing all this
+
+00:04:57.550 --> 00:04:59.879 
+may want to do before releasing all this
+compute<00:04:58.060> power<00:04:58.240> to<00:04:58.599> your<00:04:58.750> users<00:04:59.169> is<00:04:59.380> test<00:04:59.680> its
+
+00:04:59.879 --> 00:04:59.889 
+compute power to your users is test its
+
+00:04:59.889 --> 00:05:02.760 
+compute power to your users is test its
+performance<00:05:00.150> the<00:05:01.150> HPL<00:05:01.780> high<00:05:02.020> performance
+
+00:05:02.760 --> 00:05:02.770 
+performance the HPL high performance
+
+00:05:02.770 --> 00:05:04.409 
+performance the HPL high performance
+when<00:05:02.919> packed<00:05:03.159> benchmark<00:05:03.729> is<00:05:03.880> a<00:05:03.909> popular
+
+00:05:04.409 --> 00:05:04.419 
+when packed benchmark is a popular
+
+00:05:04.419 --> 00:05:06.420 
+when packed benchmark is a popular
+choice<00:05:04.690> for<00:05:04.750> measuring<00:05:05.500> the<00:05:05.620> computational
+
+00:05:06.420 --> 00:05:06.430 
+choice for measuring the computational
+
+00:05:06.430 --> 00:05:08.820 
+choice for measuring the computational
+speed<00:05:06.580> of<00:05:06.970> a<00:05:07.120> cluster<00:05:07.509> you<00:05:08.229> will<00:05:08.380> need<00:05:08.620> to
+
+00:05:08.820 --> 00:05:08.830 
+speed of a cluster you will need to
+
+00:05:08.830 --> 00:05:10.790 
+speed of a cluster you will need to
+compile<00:05:09.220> it<00:05:09.490> from<00:05:09.759> source<00:05:10.030> with<00:05:10.300> all<00:05:10.509> possible
+
+00:05:10.790 --> 00:05:10.800 
+compile it from source with all possible
+
+00:05:10.800 --> 00:05:13.290 
+compile it from source with all possible
+optimizations<00:05:11.800> your<00:05:12.069> compiler<00:05:12.460> offers<00:05:12.940> for
+
+00:05:13.290 --> 00:05:13.300 
+optimizations your compiler offers for
+
+00:05:13.300 --> 00:05:15.749 
+optimizations your compiler offers for
+the<00:05:13.449> architecture<00:05:14.110> you<00:05:14.229> chose<00:05:14.500> you<00:05:15.340> must<00:05:15.610> of
+
+00:05:15.749 --> 00:05:15.759 
+the architecture you chose you must of
+
+00:05:15.759 --> 00:05:18.270 
+the architecture you chose you must of
+course<00:05:16.300> compile<00:05:17.199> from<00:05:17.440> source<00:05:17.770> with<00:05:18.039> all
+
+00:05:18.270 --> 00:05:18.280 
+course compile from source with all
+
+00:05:18.280 --> 00:05:20.339 
+course compile from source with all
+possible<00:05:18.569> optimization<00:05:19.569> options<00:05:19.990> for<00:05:20.259> your
+
+00:05:20.339 --> 00:05:20.349 
+possible optimization options for your
+
+00:05:20.349 --> 00:05:24.209 
+possible optimization options for your
+platform<00:05:20.759> for<00:05:21.759> example<00:05:22.270> if<00:05:22.419> using<00:05:23.050> AMD<00:05:23.409> cpus
+
+00:05:24.209 --> 00:05:24.219 
+platform for example if using AMD cpus
+
+00:05:24.219 --> 00:05:26.999 
+platform for example if using AMD cpus
+compile<00:05:25.060> with<00:05:25.300> open<00:05:25.659> 64<00:05:26.259> with<00:05:26.440> 0<00:05:26.680> fast
+
+00:05:26.999 --> 00:05:27.009 
+compile with open 64 with 0 fast
+
+00:05:27.009 --> 00:05:29.879 
+compile with open 64 with 0 fast
+optimization<00:05:27.969> level<00:05:28.319> compare<00:05:29.319> your<00:05:29.500> results
+
+00:05:29.879 --> 00:05:29.889 
+optimization level compare your results
+
+00:05:29.889 --> 00:05:32.550 
+optimization level compare your results
+on<00:05:30.039> top<00:05:30.250> 500<00:05:30.639> org<00:05:31.360> to<00:05:31.599> compare<00:05:31.960> your<00:05:32.139> cluster
+
+00:05:32.550 --> 00:05:32.560 
+on top 500 org to compare your cluster
+
+00:05:32.560 --> 00:05:34.950 
+on top 500 org to compare your cluster
+to<00:05:32.740> the<00:05:32.830> fastest<00:05:33.340> 500<00:05:33.940> supercomputers<00:05:34.360> in<00:05:34.750> the
+
+00:05:34.950 --> 00:05:34.960 
+to the fastest 500 supercomputers in the
+
+00:05:34.960 --> 00:05:37.080 
+to the fastest 500 supercomputers in the
+world
+

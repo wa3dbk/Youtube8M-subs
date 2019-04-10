@@ -1,0 +1,1323 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:17.720 --> 00:00:20.660 
+
+hey<00:00:18.720> guys<00:00:18.900> welcome<00:00:19.410> to<00:00:19.710> another<00:00:19.859> episode<00:00:20.039> from
+
+00:00:20.660 --> 00:00:20.670 
+hey guys welcome to another episode from
+
+00:00:20.670 --> 00:00:22.550 
+hey guys welcome to another episode from
+voices<00:00:21.180> of<00:00:21.300> Mars<00:00:21.480> this<00:00:21.660> is<00:00:21.779> a<00:00:21.810> tutorial<00:00:22.080> video
+
+00:00:22.550 --> 00:00:22.560 
+voices of Mars this is a tutorial video
+
+00:00:22.560 --> 00:00:25.040 
+voices of Mars this is a tutorial video
+today<00:00:23.160> we're<00:00:23.340> going<00:00:23.460> to<00:00:23.519> talk<00:00:23.670> about<00:00:24.050> color
+
+00:00:25.040 --> 00:00:25.050 
+today we're going to talk about color
+
+00:00:25.050 --> 00:00:27.230 
+today we're going to talk about color
+theory<00:00:25.439> and<00:00:25.740> how<00:00:26.039> to<00:00:26.099> implement<00:00:26.550> them<00:00:26.970> into
+
+00:00:27.230 --> 00:00:27.240 
+theory and how to implement them into
+
+00:00:27.240 --> 00:00:30.290 
+theory and how to implement them into
+your<00:00:27.660> painting<00:00:28.080> schemes<00:00:28.760> this<00:00:29.760> started
+
+00:00:30.290 --> 00:00:30.300 
+your painting schemes this started
+
+00:00:30.300 --> 00:00:32.389 
+your painting schemes this started
+because<00:00:30.420> of<00:00:30.599> a<00:00:30.779> question<00:00:31.140> that<00:00:31.320> dan<00:00:31.529> kane<00:00:31.859> AKA
+
+00:00:32.389 --> 00:00:32.399 
+because of a question that dan kane AKA
+
+00:00:32.399 --> 00:00:35.240 
+because of a question that dan kane AKA
+Death<00:00:32.820> Bringer<00:00:33.239> from<00:00:33.450> 11th<00:00:34.020> Legion<00:00:34.380> asked<00:00:34.800> me
+
+00:00:35.240 --> 00:00:35.250 
+Death Bringer from 11th Legion asked me
+
+00:00:35.250 --> 00:00:36.830 
+Death Bringer from 11th Legion asked me
+what<00:00:35.550> color<00:00:35.730> scheme<00:00:36.090> does<00:00:36.329> attorney<00:00:36.719> needs
+
+00:00:36.830 --> 00:00:36.840 
+what color scheme does attorney needs
+
+00:00:36.840 --> 00:00:38.750 
+what color scheme does attorney needs
+need<00:00:37.200> to<00:00:37.469> look<00:00:37.649> good<00:00:37.680> you<00:00:38.160> know<00:00:38.280> to<00:00:38.340> make
+
+00:00:38.750 --> 00:00:38.760 
+need to look good you know to make
+
+00:00:38.760 --> 00:00:42.170 
+need to look good you know to make
+certain<00:00:39.059> things<00:00:39.420> stand<00:00:39.690> out<00:00:39.870> and<00:00:40.200> um<00:00:41.120> it<00:00:42.120> just
+
+00:00:42.170 --> 00:00:42.180 
+certain things stand out and um it just
+
+00:00:42.180 --> 00:00:43.729 
+certain things stand out and um it just
+happened<00:00:42.690> that<00:00:42.719> I<00:00:42.809> studied<00:00:43.440> graphic<00:00:43.590> design
+
+00:00:43.729 --> 00:00:43.739 
+happened that I studied graphic design
+
+00:00:43.739 --> 00:00:45.740 
+happened that I studied graphic design
+so<00:00:44.160> I<00:00:44.190> had<00:00:44.460> to<00:00:44.489> study<00:00:44.789> this<00:00:45.030> at<00:00:45.270> school<00:00:45.539> so<00:00:45.690> I
+
+00:00:45.740 --> 00:00:45.750 
+so I had to study this at school so I
+
+00:00:45.750 --> 00:00:47.270 
+so I had to study this at school so I
+had<00:00:45.899> the<00:00:46.020> privilege<00:00:46.379> of<00:00:46.500> actually<00:00:46.920> studying
+
+00:00:47.270 --> 00:00:47.280 
+had the privilege of actually studying
+
+00:00:47.280 --> 00:00:49.910 
+had the privilege of actually studying
+collect<00:00:47.670> theory<00:00:48.350> there's<00:00:49.350> a<00:00:49.410> couple<00:00:49.530> of<00:00:49.739> tools
+
+00:00:49.910 --> 00:00:49.920 
+collect theory there's a couple of tools
+
+00:00:49.920 --> 00:00:51.560 
+collect theory there's a couple of tools
+that<00:00:50.129> could<00:00:50.399> make<00:00:50.610> you<00:00:50.640> your<00:00:51.030> life<00:00:51.270> a<00:00:51.420> lot
+
+00:00:51.560 --> 00:00:51.570 
+that could make you your life a lot
+
+00:00:51.570 --> 00:00:53.350 
+that could make you your life a lot
+easier<00:00:51.629> when<00:00:52.199> selecting<00:00:52.680> painting<00:00:53.010> schemes
+
+00:00:53.350 --> 00:00:53.360 
+easier when selecting painting schemes
+
+00:00:53.360 --> 00:00:56.689 
+easier when selecting painting schemes
+the<00:00:54.360> first<00:00:54.600> first<00:00:55.079> and<00:00:55.350> foremost<00:00:56.070> the<00:00:56.489> most
+
+00:00:56.689 --> 00:00:56.699 
+the first first and foremost the most
+
+00:00:56.699 --> 00:00:59.060 
+the first first and foremost the most
+important<00:00:57.210> thing<00:00:57.390> is<00:00:57.660> why<00:00:58.469> am<00:00:58.680> i<00:00:58.770> doing<00:00:59.039> a
+
+00:00:59.060 --> 00:00:59.070 
+important thing is why am i doing a
+
+00:00:59.070 --> 00:01:00.830 
+important thing is why am i doing a
+tutorial<00:00:59.250> on<00:00:59.730> a<00:00:59.789> color<00:01:00.120> theory<00:01:00.510> it<00:01:00.719> might
+
+00:01:00.830 --> 00:01:00.840 
+tutorial on a color theory it might
+
+00:01:00.840 --> 00:01:02.660 
+tutorial on a color theory it might
+sound<00:01:01.020> boring<00:01:01.320> right<00:01:01.620> in<00:01:01.770> my<00:01:01.859> time<00:01:02.070> boring<00:01:02.489> or
+
+00:01:02.660 --> 00:01:02.670 
+sound boring right in my time boring or
+
+00:01:02.670 --> 00:01:05.329 
+sound boring right in my time boring or
+you<00:01:03.660> know<00:01:03.780> some<00:01:04.049> people<00:01:04.320> don't<00:01:04.799> even<00:01:04.890> want<00:01:05.220> to
+
+00:01:05.329 --> 00:01:05.339 
+you know some people don't even want to
+
+00:01:05.339 --> 00:01:06.920 
+you know some people don't even want to
+talk<00:01:05.790> about<00:01:05.850> color<00:01:06.270> theory<00:01:06.510> like<00:01:06.720> for<00:01:06.869> example
+
+00:01:06.920 --> 00:01:06.930 
+talk about color theory like for example
+
+00:01:06.930 --> 00:01:09.020 
+talk about color theory like for example
+Chun<00:01:07.470> Chun<00:01:08.280> doesn't<00:01:08.549> really<00:01:08.700> care<00:01:08.939> about
+
+00:01:09.020 --> 00:01:09.030 
+Chun Chun doesn't really care about
+
+00:01:09.030 --> 00:01:11.330 
+Chun Chun doesn't really care about
+color<00:01:09.299> theory<00:01:09.600> as<00:01:09.840> long<00:01:10.020> as<00:01:10.260> the<00:01:10.590> thing<00:01:10.860> looks
+
+00:01:11.330 --> 00:01:11.340 
+color theory as long as the thing looks
+
+00:01:11.340 --> 00:01:13.429 
+color theory as long as the thing looks
+good<00:01:11.790> the<00:01:12.030> model<00:01:12.390> looks<00:01:12.420> good<00:01:12.869> that's<00:01:13.080> all<00:01:13.320> he
+
+00:01:13.429 --> 00:01:13.439 
+good the model looks good that's all he
+
+00:01:13.439 --> 00:01:17.990 
+good the model looks good that's all he
+cares<00:01:13.650> about<00:01:13.740> so<00:01:15.350> but<00:01:16.350> I<00:01:16.619> think<00:01:17.520> color<00:01:17.729> theory
+
+00:01:17.990 --> 00:01:18.000 
+cares about so but I think color theory
+
+00:01:18.000 --> 00:01:21.920 
+cares about so but I think color theory
+is<00:01:18.180> important<00:01:18.630> because<00:01:20.210> you<00:01:21.210> have<00:01:21.450> to<00:01:21.689> know
+
+00:01:21.920 --> 00:01:21.930 
+is important because you have to know
+
+00:01:21.930 --> 00:01:25.520 
+is important because you have to know
+why<00:01:22.590> it<00:01:22.650> looks<00:01:23.070> good<00:01:23.310> and<00:01:23.549> how<00:01:24.540> can<00:01:25.110> you<00:01:25.259> copy
+
+00:01:25.520 --> 00:01:25.530 
+why it looks good and how can you copy
+
+00:01:25.530 --> 00:01:27.410 
+why it looks good and how can you copy
+it<00:01:25.740> for<00:01:26.009> the<00:01:26.130> next<00:01:26.280> time<00:01:26.640> like<00:01:27.060> you<00:01:27.210> know<00:01:27.330> how
+
+00:01:27.410 --> 00:01:27.420 
+it for the next time like you know how
+
+00:01:27.420 --> 00:01:29.270 
+it for the next time like you know how
+can<00:01:27.630> you<00:01:27.750> let's<00:01:28.439> say<00:01:28.560> you're<00:01:28.710> doing<00:01:28.740> a
+
+00:01:29.270 --> 00:01:29.280 
+can you let's say you're doing a
+
+00:01:29.280 --> 00:01:31.609 
+can you let's say you're doing a
+thousand<00:01:29.939> or<00:01:30.090> a<00:01:30.119> hundred<00:01:30.450> space<00:01:31.020> marines<00:01:31.350> and
+
+00:01:31.609 --> 00:01:31.619 
+thousand or a hundred space marines and
+
+00:01:31.619 --> 00:01:32.990 
+thousand or a hundred space marines and
+you<00:01:31.740> wanted<00:01:31.979> to<00:01:32.070> make<00:01:32.189> your<00:01:32.340> own<00:01:32.460> color<00:01:32.700> scheme
+
+00:01:32.990 --> 00:01:33.000 
+you wanted to make your own color scheme
+
+00:01:33.000 --> 00:01:34.609 
+you wanted to make your own color scheme
+and<00:01:33.210> you<00:01:33.270> don't<00:01:33.479> know<00:01:33.630> how<00:01:34.140> to<00:01:34.229> make<00:01:34.380> it<00:01:34.439> look
+
+00:01:34.609 --> 00:01:34.619 
+and you don't know how to make it look
+
+00:01:34.619 --> 00:01:36.530 
+and you don't know how to make it look
+good<00:01:34.680> so<00:01:35.430> these<00:01:35.640> tools<00:01:36.000> are<00:01:36.119> going<00:01:36.299> to<00:01:36.360> help
+
+00:01:36.530 --> 00:01:36.540 
+good so these tools are going to help
+
+00:01:36.540 --> 00:01:38.179 
+good so these tools are going to help
+you<00:01:36.689> i'm<00:01:37.200> just<00:01:37.409> going<00:01:37.530> to<00:01:37.560> list<00:01:37.770> two<00:01:37.920> tools
+
+00:01:38.179 --> 00:01:38.189 
+you i'm just going to list two tools
+
+00:01:38.189 --> 00:01:41.780 
+you i'm just going to list two tools
+that<00:01:38.369> i<00:01:38.430> usually<00:01:38.790> use<00:01:39.560> the<00:01:40.560> first<00:01:40.829> the<00:01:41.549> first
+
+00:01:41.780 --> 00:01:41.790 
+that i usually use the first the first
+
+00:01:41.790 --> 00:01:45.230 
+that i usually use the first the first
+one<00:01:42.030> is<00:01:42.060> the<00:01:42.930> color<00:01:43.140> wheel<00:01:43.380> right<00:01:44.369> here<00:01:44.399> the
+
+00:01:45.230 --> 00:01:45.240 
+one is the color wheel right here the
+
+00:01:45.240 --> 00:01:47.960 
+one is the color wheel right here the
+color<00:01:45.450> wheel<00:01:45.659> um<00:01:45.930> i'm<00:01:46.890> going<00:01:47.189> to<00:01:47.250> give<00:01:47.610> my<00:01:47.790> own
+
+00:01:47.960 --> 00:01:47.970 
+color wheel um i'm going to give my own
+
+00:01:47.970 --> 00:01:50.569 
+color wheel um i'm going to give my own
+definition<00:01:48.630> of<00:01:48.780> the<00:01:48.869> color<00:01:49.079> wheel<00:01:49.310> it<00:01:50.310> shows
+
+00:01:50.569 --> 00:01:50.579 
+definition of the color wheel it shows
+
+00:01:50.579 --> 00:01:53.030 
+definition of the color wheel it shows
+all<00:01:50.939> the<00:01:51.000> spectrum<00:01:51.600> that<00:01:51.810> you<00:01:52.350> usually<00:01:52.619> found
+
+00:01:53.030 --> 00:01:53.040 
+all the spectrum that you usually found
+
+00:01:53.040 --> 00:01:55.969 
+all the spectrum that you usually found
+find<00:01:53.729> on<00:01:53.970> a<00:01:54.030> rainbow<00:01:54.630> obviously<00:01:55.439> white<00:01:55.770> and
+
+00:01:55.969 --> 00:01:55.979 
+find on a rainbow obviously white and
+
+00:01:55.979 --> 00:01:58.429 
+find on a rainbow obviously white and
+black<00:01:56.189> as<00:01:56.460> not<00:01:56.700> here<00:01:57.210> because<00:01:57.810> white<00:01:58.259> and
+
+00:01:58.429 --> 00:01:58.439 
+black as not here because white and
+
+00:01:58.439 --> 00:02:00.410 
+black as not here because white and
+black<00:01:58.619> are<00:01:58.890> considered<00:01:59.310> a<00:01:59.399> shade<00:01:59.729> so<00:02:00.149> if<00:02:00.329> you
+
+00:02:00.410 --> 00:02:00.420 
+black are considered a shade so if you
+
+00:02:00.420 --> 00:02:02.840 
+black are considered a shade so if you
+add<00:02:00.570> white<00:02:00.840> or<00:02:01.079> black<00:02:01.439> into<00:02:02.009> these<00:02:02.189> colors<00:02:02.640> is
+
+00:02:02.840 --> 00:02:02.850 
+add white or black into these colors is
+
+00:02:02.850 --> 00:02:04.880 
+add white or black into these colors is
+just<00:02:03.090> going<00:02:03.210> to<00:02:03.299> you<00:02:03.659> know<00:02:03.780> change<00:02:04.020> the<00:02:04.290> hue<00:02:04.590> or
+
+00:02:04.880 --> 00:02:04.890 
+just going to you know change the hue or
+
+00:02:04.890 --> 00:02:08.630 
+just going to you know change the hue or
+the<00:02:05.670> actual<00:02:06.560> shading<00:02:07.560> of<00:02:07.740> the<00:02:07.799> colors<00:02:08.399> and
+
+00:02:08.630 --> 00:02:08.640 
+the actual shading of the colors and
+
+00:02:08.640 --> 00:02:11.470 
+the actual shading of the colors and
+let's<00:02:09.300> start<00:02:09.569> off<00:02:09.720> with<00:02:09.750> the<00:02:10.530> primary<00:02:10.739> colors
+
+00:02:11.470 --> 00:02:11.480 
+let's start off with the primary colors
+
+00:02:11.480 --> 00:02:14.589 
+let's start off with the primary colors
+which<00:02:11.569> are<00:02:11.840> the<00:02:11.870> blue<00:02:12.260> red<00:02:12.830> and<00:02:13.040> yellows<00:02:13.599> if
+
+00:02:14.589 --> 00:02:14.599 
+which are the blue red and yellows if
+
+00:02:14.599 --> 00:02:16.149 
+which are the blue red and yellows if
+you<00:02:14.750> can<00:02:14.930> see<00:02:15.170> it<00:02:15.319> from<00:02:15.560> the<00:02:15.709> color<00:02:15.920> wheel
+
+00:02:16.149 --> 00:02:16.159 
+you can see it from the color wheel
+
+00:02:16.159 --> 00:02:19.350 
+you can see it from the color wheel
+right<00:02:16.370> here<00:02:16.400> it<00:02:16.879> actually<00:02:17.450> makes<00:02:17.959> a<00:02:18.260> triangle
+
+00:02:19.350 --> 00:02:19.360 
+right here it actually makes a triangle
+
+00:02:19.360 --> 00:02:21.910 
+right here it actually makes a triangle
+these<00:02:20.360> are<00:02:20.540> the<00:02:20.690> three<00:02:21.049> most<00:02:21.290> of<00:02:21.590> the<00:02:21.739> colors
+
+00:02:21.910 --> 00:02:21.920 
+these are the three most of the colors
+
+00:02:21.920 --> 00:02:24.550 
+these are the three most of the colors
+that<00:02:22.310> are<00:02:22.549> really<00:02:23.480> really<00:02:23.690> hard<00:02:23.959> to<00:02:24.140> work<00:02:24.349> with
+
+00:02:24.550 --> 00:02:24.560 
+that are really really hard to work with
+
+00:02:24.560 --> 00:02:26.860 
+that are really really hard to work with
+if<00:02:24.890> you<00:02:25.549> combine<00:02:25.909> all<00:02:26.090> those<00:02:26.239> three<00:02:26.480> colors
+
+00:02:26.860 --> 00:02:26.870 
+if you combine all those three colors
+
+00:02:26.870 --> 00:02:30.220 
+if you combine all those three colors
+I've<00:02:27.470> seen<00:02:27.739> them<00:02:28.540> painted<00:02:29.540> really<00:02:29.780> well<00:02:29.959> in
+
+00:02:30.220 --> 00:02:30.230 
+I've seen them painted really well in
+
+00:02:30.230 --> 00:02:33.400 
+I've seen them painted really well in
+some<00:02:30.920> of<00:02:31.040> the<00:02:31.129> Empire<00:02:31.519> models<00:02:31.970> and<00:02:32.269> if<00:02:32.959> you
+
+00:02:33.400 --> 00:02:33.410 
+some of the Empire models and if you
+
+00:02:33.410 --> 00:02:35.380 
+some of the Empire models and if you
+know<00:02:33.590> how<00:02:33.739> to<00:02:33.769> make<00:02:33.980> it<00:02:34.160> work<00:02:34.340> it<00:02:34.549> will<00:02:34.730> work<00:02:34.760> so
+
+00:02:35.380 --> 00:02:35.390 
+know how to make it work it will work so
+
+00:02:35.390 --> 00:02:38.020 
+know how to make it work it will work so
+those<00:02:35.750> three<00:02:35.959> are<00:02:36.110> always<00:02:36.620> trying<00:02:36.920> to<00:02:37.069> grab
+
+00:02:38.020 --> 00:02:38.030 
+those three are always trying to grab
+
+00:02:38.030 --> 00:02:39.490 
+those three are always trying to grab
+your<00:02:38.269> attention<00:02:38.420> you<00:02:38.959> know<00:02:39.079> in<00:02:39.230> your<00:02:39.260> eyes
+
+00:02:39.490 --> 00:02:39.500 
+your attention you know in your eyes
+
+00:02:39.500 --> 00:02:42.520 
+your attention you know in your eyes
+always<00:02:40.360> some<00:02:41.360> colors<00:02:41.659> work<00:02:41.840> really<00:02:42.049> well<00:02:42.170> so
+
+00:02:42.520 --> 00:02:42.530 
+always some colors work really well so
+
+00:02:42.530 --> 00:02:44.140 
+always some colors work really well so
+if<00:02:42.680> you're<00:02:42.829> working<00:02:42.980> with<00:02:43.220> pairs<00:02:43.549> they<00:02:43.940> look
+
+00:02:44.140 --> 00:02:44.150 
+if you're working with pairs they look
+
+00:02:44.150 --> 00:02:47.460 
+if you're working with pairs they look
+pretty<00:02:44.299> good<00:02:44.420> like<00:02:45.459> McDonald's<00:02:46.459> in<00:02:46.640> and<00:02:46.849> out
+
+00:02:47.460 --> 00:02:47.470 
+pretty good like McDonald's in and out
+
+00:02:47.470 --> 00:02:51.099 
+pretty good like McDonald's in and out
+red<00:02:48.470> and<00:02:48.680> yellow<00:02:49.480> Burger<00:02:50.480> King<00:02:50.690> almost<00:02:51.019> all
+
+00:02:51.099 --> 00:02:51.109 
+red and yellow Burger King almost all
+
+00:02:51.109 --> 00:02:52.900 
+red and yellow Burger King almost all
+fast<00:02:51.349> food<00:02:51.440> is<00:02:51.650> like<00:02:51.680> that<00:02:52.010> it's<00:02:52.340> obviously
+
+00:02:52.900 --> 00:02:52.910 
+fast food is like that it's obviously
+
+00:02:52.910 --> 00:02:57.449 
+fast food is like that it's obviously
+because<00:02:53.390> it<00:02:53.840> works<00:02:54.730> supposedly<00:02:55.730> there<00:02:56.690> is<00:02:56.720> a
+
+00:02:57.449 --> 00:02:57.459 
+because it works supposedly there is a
+
+00:02:57.459 --> 00:03:00.490 
+because it works supposedly there is a
+study<00:02:58.459> that<00:02:58.700> says<00:02:58.760> if<00:02:59.299> you<00:02:59.599> combine<00:02:59.959> red<00:03:00.230> and
+
+00:03:00.490 --> 00:03:00.500 
+study that says if you combine red and
+
+00:03:00.500 --> 00:03:02.410 
+study that says if you combine red and
+yellow<00:03:00.680> and<00:03:00.920> make<00:03:01.250> people<00:03:01.459> hungry<00:03:01.790> or<00:03:02.209> they
+
+00:03:02.410 --> 00:03:02.420 
+yellow and make people hungry or they
+
+00:03:02.420 --> 00:03:04.869 
+yellow and make people hungry or they
+want<00:03:02.660> to<00:03:02.810> buy<00:03:03.019> stuff<00:03:03.079> so<00:03:03.739> you<00:03:04.549> know<00:03:04.609> if<00:03:04.760> you
+
+00:03:04.869 --> 00:03:04.879 
+want to buy stuff so you know if you
+
+00:03:04.879 --> 00:03:06.339 
+want to buy stuff so you know if you
+want<00:03:05.060> people<00:03:05.329> to<00:03:05.359> actually<00:03:05.720> look<00:03:06.079> at<00:03:06.230> your
+
+00:03:06.339 --> 00:03:06.349 
+want people to actually look at your
+
+00:03:06.349 --> 00:03:09.460 
+want people to actually look at your
+models<00:03:06.620> more<00:03:06.829> dude<00:03:07.160> Britt<00:03:07.459> and<00:03:07.640> yellow<00:03:08.470> also
+
+00:03:09.460 --> 00:03:09.470 
+models more dude Britt and yellow also
+
+00:03:09.470 --> 00:03:13.030 
+models more dude Britt and yellow also
+it<00:03:10.510> the<00:03:11.510> after<00:03:11.930> the<00:03:12.079> primary<00:03:12.319> colors<00:03:12.859> is
+
+00:03:13.030 --> 00:03:13.040 
+it the after the primary colors is
+
+00:03:13.040 --> 00:03:15.490 
+it the after the primary colors is
+there's<00:03:13.459> also<00:03:13.670> called<00:03:14.090> the<00:03:14.359> secondary<00:03:15.140> colors
+
+00:03:15.490 --> 00:03:15.500 
+there's also called the secondary colors
+
+00:03:15.500 --> 00:03:17.500 
+there's also called the secondary colors
+which<00:03:15.889> from<00:03:16.669> the<00:03:16.760> color<00:03:16.940> wheel<00:03:17.150> you're<00:03:17.359> going
+
+00:03:17.500 --> 00:03:17.510 
+which from the color wheel you're going
+
+00:03:17.510 --> 00:03:20.140 
+which from the color wheel you're going
+to<00:03:17.599> switch<00:03:17.810> it<00:03:17.959> up<00:03:18.019> a<00:03:18.169> little<00:03:18.380> bit<00:03:19.150> basically
+
+00:03:20.140 --> 00:03:20.150 
+to switch it up a little bit basically
+
+00:03:20.150 --> 00:03:22.509 
+to switch it up a little bit basically
+all<00:03:20.180> the<00:03:20.450> triangles<00:03:20.720> you<00:03:21.260> just<00:03:21.829> you<00:03:22.099> can<00:03:22.280> kind
+
+00:03:22.509 --> 00:03:22.519 
+all the triangles you just you can kind
+
+00:03:22.519 --> 00:03:24.970 
+all the triangles you just you can kind
+of<00:03:22.609> switch<00:03:22.849> it<00:03:23.060> and<00:03:23.209> you<00:03:23.810> see<00:03:24.019> opposite<00:03:24.650> colors
+
+00:03:24.970 --> 00:03:24.980 
+of switch it and you see opposite colors
+
+00:03:24.980 --> 00:03:27.150 
+of switch it and you see opposite colors
+as<00:03:25.160> well<00:03:25.190> so<00:03:26.060> if<00:03:26.239> you<00:03:26.359> want<00:03:26.569> to<00:03:26.660> make<00:03:26.810> certain
+
+00:03:27.150 --> 00:03:27.160 
+as well so if you want to make certain
+
+00:03:27.160 --> 00:03:29.500 
+as well so if you want to make certain
+colors<00:03:28.160> pop<00:03:28.519> up<00:03:28.730> this<00:03:28.880> is<00:03:29.030> actually<00:03:29.389> the
+
+00:03:29.500 --> 00:03:29.510 
+colors pop up this is actually the
+
+00:03:29.510 --> 00:03:31.839 
+colors pop up this is actually the
+question<00:03:29.900> that<00:03:29.930> Death<00:03:30.859> Bringer<00:03:31.069> brought<00:03:31.700> up
+
+00:03:31.839 --> 00:03:31.849 
+question that Death Bringer brought up
+
+00:03:31.849 --> 00:03:33.580 
+question that Death Bringer brought up
+to<00:03:32.000> me<00:03:32.030> and<00:03:32.480> I<00:03:32.630> showed<00:03:32.900> them<00:03:32.989> the<00:03:33.109> color<00:03:33.349> wheel
+
+00:03:33.580 --> 00:03:33.590 
+to me and I showed them the color wheel
+
+00:03:33.590 --> 00:03:35.710 
+to me and I showed them the color wheel
+Enys<00:03:33.889> like<00:03:34.099> what<00:03:34.310> is<00:03:34.400> the<00:03:34.489> color<00:03:34.700> wheel<00:03:34.940> well
+
+00:03:35.710 --> 00:03:35.720 
+Enys like what is the color wheel well
+
+00:03:35.720 --> 00:03:37.900 
+Enys like what is the color wheel well
+this<00:03:35.930> is<00:03:35.959> this<00:03:36.739> is<00:03:36.889> the<00:03:36.980> color<00:03:37.160> wheel<00:03:37.400> this<00:03:37.760> is
+
+00:03:37.900 --> 00:03:37.910 
+this is this is the color wheel this is
+
+00:03:37.910 --> 00:03:40.750 
+this is this is the color wheel this is
+all<00:03:38.120> the<00:03:38.269> colors<00:03:38.599> that<00:03:38.630> you<00:03:38.870> can<00:03:39.049> see<00:03:39.290> and<00:03:39.760> the
+
+00:03:40.750 --> 00:03:40.760 
+all the colors that you can see and the
+
+00:03:40.760 --> 00:03:42.490 
+all the colors that you can see and the
+way<00:03:40.910> that<00:03:41.090> you<00:03:41.180> use<00:03:41.329> the<00:03:41.480> color<00:03:41.690> wheel<00:03:41.930> tool<00:03:42.200> is
+
+00:03:42.490 --> 00:03:42.500 
+way that you use the color wheel tool is
+
+00:03:42.500 --> 00:03:44.979 
+way that you use the color wheel tool is
+if<00:03:43.010> you<00:03:43.700> want<00:03:43.940> me<00:03:44.120> to<00:03:44.269> make<00:03:44.389> certain<00:03:44.599> things
+
+00:03:44.979 --> 00:03:44.989 
+if you want me to make certain things
+
+00:03:44.989 --> 00:03:48.129 
+if you want me to make certain things
+pop<00:03:45.290> up<00:03:45.340> for<00:03:46.340> example<00:03:46.760> you<00:03:46.880> pop<00:03:47.090> your<00:03:47.569> painting
+
+00:03:48.129 --> 00:03:48.139 
+pop up for example you pop your painting
+
+00:03:48.139 --> 00:03:50.500 
+pop up for example you pop your painting
+red<00:03:48.440> or<00:03:48.829> your<00:03:49.099> book<00:03:49.250> let's<00:03:49.790> do<00:03:50.000> the<00:03:50.150> easy<00:03:50.239> way
+
+00:03:50.500 --> 00:03:50.510 
+red or your book let's do the easy way
+
+00:03:50.510 --> 00:03:53.770 
+red or your book let's do the easy way
+you're<00:03:51.049> doing<00:03:51.319> green<00:03:52.250> you're<00:03:53.209> painting<00:03:53.540> green
+
+00:03:53.770 --> 00:03:53.780 
+you're doing green you're painting green
+
+00:03:53.780 --> 00:03:55.830 
+you're doing green you're painting green
+and<00:03:54.049> you<00:03:54.500> want<00:03:54.709> a<00:03:54.859> certain<00:03:55.190> thing<00:03:55.400> to<00:03:55.519> pop<00:03:55.730> up
+
+00:03:55.830 --> 00:03:55.840 
+and you want a certain thing to pop up
+
+00:03:55.840 --> 00:03:59.080 
+and you want a certain thing to pop up
+go<00:03:56.840> right<00:03:57.109> across<00:03:57.319> from<00:03:57.919> that<00:03:58.010> color<00:03:58.459> wheel<00:03:58.730> so
+
+00:03:59.080 --> 00:03:59.090 
+go right across from that color wheel so
+
+00:03:59.090 --> 00:04:00.909 
+go right across from that color wheel so
+just<00:03:59.359> draw<00:03:59.569> a<00:03:59.599> line<00:03:59.870> and<00:03:59.900> you<00:04:00.349> see<00:04:00.620> what<00:04:00.769> the
+
+00:04:00.909 --> 00:04:00.919 
+just draw a line and you see what the
+
+00:04:00.919 --> 00:04:02.800 
+just draw a line and you see what the
+color<00:04:01.129> is<00:04:01.220> up<00:04:01.400> on<00:04:01.549> the<00:04:01.609> opposite<00:04:02.209> end<00:04:02.389> of<00:04:02.510> it<00:04:02.660> is
+
+00:04:02.800 --> 00:04:02.810 
+color is up on the opposite end of it is
+
+00:04:02.810 --> 00:04:06.400 
+color is up on the opposite end of it is
+red<00:04:03.400> so<00:04:04.400> if<00:04:04.760> you're<00:04:05.269> doing<00:04:05.540> dark<00:04:05.750> angels<00:04:06.200> and
+
+00:04:06.400 --> 00:04:06.410 
+red so if you're doing dark angels and
+
+00:04:06.410 --> 00:04:08.589 
+red so if you're doing dark angels and
+you<00:04:06.530> want<00:04:06.709> the<00:04:06.829> eyes<00:04:06.950> to<00:04:06.980> pop<00:04:07.370> up<00:04:07.549> painted<00:04:08.419> red
+
+00:04:08.589 --> 00:04:08.599 
+you want the eyes to pop up painted red
+
+00:04:08.599 --> 00:04:11.170 
+you want the eyes to pop up painted red
+if<00:04:08.870> you're<00:04:09.440> doing<00:04:09.980> tyranids<00:04:10.579> you're<00:04:10.910> doing
+
+00:04:11.170 --> 00:04:11.180 
+if you're doing tyranids you're doing
+
+00:04:11.180 --> 00:04:14.530 
+if you're doing tyranids you're doing
+mainly<00:04:11.569> predominantly<00:04:12.230> purple<00:04:13.150> and<00:04:14.150> you<00:04:14.359> want
+
+00:04:14.530 --> 00:04:14.540 
+mainly predominantly purple and you want
+
+00:04:14.540 --> 00:04:17.050 
+mainly predominantly purple and you want
+something<00:04:14.720> to<00:04:14.840> pop<00:04:15.019> up<00:04:15.049> paint<00:04:15.829> yellow<00:04:16.099> if<00:04:16.370> you
+
+00:04:17.050 --> 00:04:17.060 
+something to pop up paint yellow if you
+
+00:04:17.060 --> 00:04:20.560 
+something to pop up paint yellow if you
+want<00:04:17.269> to<00:04:17.389> do<00:04:17.510> blue<00:04:17.810> painted<00:04:18.560> orange<00:04:18.889> uh<00:04:19.570> I
+
+00:04:20.560 --> 00:04:20.570 
+want to do blue painted orange uh I
+
+00:04:20.570 --> 00:04:22.029 
+want to do blue painted orange uh I
+don't<00:04:20.870> even<00:04:21.019> need<00:04:21.200> to<00:04:21.380> look<00:04:21.409> at<00:04:21.709> the<00:04:21.859> color
+
+00:04:22.029 --> 00:04:22.039 
+don't even need to look at the color
+
+00:04:22.039 --> 00:04:22.930 
+don't even need to look at the color
+wheel<00:04:22.219> anymore
+
+00:04:22.930 --> 00:04:22.940 
+wheel anymore
+
+00:04:22.940 --> 00:04:25.270 
+wheel anymore
+is<00:04:23.030> I'm<00:04:23.300> already<00:04:23.540> really<00:04:24.470> really<00:04:24.860> familiar
+
+00:04:25.270 --> 00:04:25.280 
+is I'm already really really familiar
+
+00:04:25.280 --> 00:04:28.030 
+is I'm already really really familiar
+with<00:04:25.430> it<00:04:25.550> like<00:04:25.760> I<00:04:25.940> I<00:04:26.240> study<00:04:27.020> design<00:04:27.470> and<00:04:27.770> I<00:04:27.860> have
+
+00:04:28.030 --> 00:04:28.040 
+with it like I I study design and I have
+
+00:04:28.040 --> 00:04:30.310 
+with it like I I study design and I have
+to<00:04:28.250> actually<00:04:28.640> memorized<00:04:29.360> not<00:04:29.780> memorized<00:04:30.200> but
+
+00:04:30.310 --> 00:04:30.320 
+to actually memorized not memorized but
+
+00:04:30.320 --> 00:04:32.320 
+to actually memorized not memorized but
+i<00:04:30.380> understand<00:04:30.800> it<00:04:30.980> really<00:04:31.130> really<00:04:31.460> well<00:04:31.670> so
+
+00:04:32.320 --> 00:04:32.330 
+i understand it really really well so
+
+00:04:32.330 --> 00:04:34.330 
+i understand it really really well so
+hopefully<00:04:33.230> with<00:04:33.620> the<00:04:33.710> color<00:04:33.920> wheel<00:04:34.130> it<00:04:34.310> will
+
+00:04:34.330 --> 00:04:34.340 
+hopefully with the color wheel it will
+
+00:04:34.340 --> 00:04:36.970 
+hopefully with the color wheel it will
+make<00:04:34.670> your<00:04:34.820> life<00:04:35.000> a<00:04:35.150> lot<00:04:35.270> easier<00:04:35.480> and<00:04:35.750> a<00:04:36.290> couple
+
+00:04:36.970 --> 00:04:36.980 
+make your life a lot easier and a couple
+
+00:04:36.980 --> 00:04:38.890 
+make your life a lot easier and a couple
+of<00:04:37.130> other<00:04:37.280> things<00:04:37.370> that<00:04:37.820> i<00:04:37.850> want<00:04:38.090> to<00:04:38.180> add<00:04:38.360> on<00:04:38.660> to
+
+00:04:38.890 --> 00:04:38.900 
+of other things that i want to add on to
+
+00:04:38.900 --> 00:04:40.960 
+of other things that i want to add on to
+using<00:04:39.440> the<00:04:39.530> color<00:04:39.710> wheel<00:04:39.980> if<00:04:40.520> you<00:04:40.670> notice
+
+00:04:40.960 --> 00:04:40.970 
+using the color wheel if you notice
+
+00:04:40.970 --> 00:04:42.580 
+using the color wheel if you notice
+there's<00:04:41.180> every<00:04:41.720> color<00:04:41.900> that's<00:04:42.230> two<00:04:42.440> of<00:04:42.530> the
+
+00:04:42.580 --> 00:04:42.590 
+there's every color that's two of the
+
+00:04:42.590 --> 00:04:44.470 
+there's every color that's two of the
+colors<00:04:42.770> next<00:04:43.130> to<00:04:43.190> it<00:04:43.340> if<00:04:43.550> you<00:04:43.970> wanted<00:04:44.240> to<00:04:44.300> make
+
+00:04:44.470 --> 00:04:44.480 
+colors next to it if you wanted to make
+
+00:04:44.480 --> 00:04:46.540 
+colors next to it if you wanted to make
+something<00:04:44.720> that<00:04:44.990> blends<00:04:45.350> in<00:04:45.740> really<00:04:45.770> well<00:04:46.100> you
+
+00:04:46.540 --> 00:04:46.550 
+something that blends in really well you
+
+00:04:46.550 --> 00:04:50.200 
+something that blends in really well you
+can<00:04:47.300> do<00:04:47.890> you<00:04:48.890> know<00:04:49.010> one<00:04:49.220> color<00:04:49.490> on<00:04:49.730> each<00:04:49.760> sides
+
+00:04:50.200 --> 00:04:50.210 
+can do you know one color on each sides
+
+00:04:50.210 --> 00:04:52.420 
+can do you know one color on each sides
+like<00:04:50.480> for<00:04:50.630> example<00:04:50.720> you're<00:04:51.200> doing<00:04:51.500> green<00:04:51.830> you
+
+00:04:52.420 --> 00:04:52.430 
+like for example you're doing green you
+
+00:04:52.430 --> 00:04:54.490 
+like for example you're doing green you
+can<00:04:52.580> always<00:04:52.820> do<00:04:53.030> yellow<00:04:53.330> green<00:04:53.660> or<00:04:53.930> you<00:04:54.290> can
+
+00:04:54.490 --> 00:04:54.500 
+can always do yellow green or you can
+
+00:04:54.500 --> 00:04:58.270 
+can always do yellow green or you can
+always<00:04:54.650> do<00:04:54.920> blue<00:04:55.220> green<00:04:56.560> okay<00:04:57.560> as<00:04:57.830> long<00:04:58.010> as<00:04:58.190> it
+
+00:04:58.270 --> 00:04:58.280 
+always do blue green okay as long as it
+
+00:04:58.280 --> 00:05:00.700 
+always do blue green okay as long as it
+has<00:04:58.340> the<00:04:58.490> green<00:04:58.700> on<00:04:58.940> it<00:04:59.150> it<00:04:59.510> will<00:04:59.660> create<00:05:00.260> like
+
+00:05:00.700 --> 00:05:00.710 
+has the green on it it will create like
+
+00:05:00.710 --> 00:05:02.500 
+has the green on it it will create like
+they<00:05:01.160> call<00:05:01.370> it<00:05:01.520> an<00:05:01.700> A<00:05:01.880> like<00:05:02.060> this<00:05:02.210> color
+
+00:05:02.500 --> 00:05:02.510 
+they call it an A like this color
+
+00:05:02.510 --> 00:05:05.260 
+they call it an A like this color
+meaning<00:05:03.290> the<00:05:03.770> colors<00:05:04.100> are<00:05:04.220> right<00:05:04.940> next<00:05:05.120> to
+
+00:05:05.260 --> 00:05:05.270 
+meaning the colors are right next to
+
+00:05:05.270 --> 00:05:08.980 
+meaning the colors are right next to
+each<00:05:05.390> other<00:05:05.570> on<00:05:05.840> on<00:05:06.290> the<00:05:06.710> color<00:05:06.920> wheel<00:05:07.060> and<00:05:08.060> if
+
+00:05:08.980 --> 00:05:08.990 
+each other on on the color wheel and if
+
+00:05:08.990 --> 00:05:10.360 
+each other on on the color wheel and if
+you<00:05:09.110> still<00:05:09.320> wanted<00:05:09.590> to<00:05:09.650> make<00:05:09.860> something<00:05:10.070> pop
+
+00:05:10.360 --> 00:05:10.370 
+you still wanted to make something pop
+
+00:05:10.370 --> 00:05:12.730 
+you still wanted to make something pop
+up<00:05:10.580> out<00:05:10.760> of<00:05:10.850> all<00:05:11.180> those<00:05:11.330> three<00:05:11.540> colors<00:05:11.870> make<00:05:12.620> an
+
+00:05:12.730 --> 00:05:12.740 
+up out of all those three colors make an
+
+00:05:12.740 --> 00:05:15.010 
+up out of all those three colors make an
+opposite<00:05:13.160> of<00:05:13.250> it<00:05:13.370> either<00:05:14.210> the<00:05:14.600> three<00:05:14.810> colors
+
+00:05:15.010 --> 00:05:15.020 
+opposite of it either the three colors
+
+00:05:15.020 --> 00:05:16.930 
+opposite of it either the three colors
+next<00:05:15.470> to<00:05:15.560> the<00:05:15.680> two<00:05:16.040> colors<00:05:16.280> next<00:05:16.580> to<00:05:16.670> the<00:05:16.730> red
+
+00:05:16.930 --> 00:05:16.940 
+next to the two colors next to the red
+
+00:05:16.940 --> 00:05:19.000 
+next to the two colors next to the red
+it<00:05:17.180> will<00:05:17.330> make<00:05:17.510> those<00:05:17.750> those<00:05:18.320> color<00:05:18.560> pop<00:05:18.800> pop
+
+00:05:19.000 --> 00:05:19.010 
+it will make those those color pop pop
+
+00:05:19.010 --> 00:05:20.740 
+it will make those those color pop pop
+like<00:05:19.190> the<00:05:19.310> eyes<00:05:19.490> so<00:05:20.240> if<00:05:20.360> you're<00:05:20.480> doing
+
+00:05:20.740 --> 00:05:20.750 
+like the eyes so if you're doing
+
+00:05:20.750 --> 00:05:23.020 
+like the eyes so if you're doing
+yellow-green<00:05:21.290> for<00:05:21.500> example<00:05:21.920> you<00:05:22.610> can<00:05:22.760> always
+
+00:05:23.020 --> 00:05:23.030 
+yellow-green for example you can always
+
+00:05:23.030 --> 00:05:25.240 
+yellow-green for example you can always
+do<00:05:23.210> read<00:05:23.450> it<00:05:24.200> will<00:05:24.380> still<00:05:24.560> pop<00:05:24.740> up<00:05:24.950> and<00:05:25.160> or
+
+00:05:25.240 --> 00:05:25.250 
+do read it will still pop up and or
+
+00:05:25.250 --> 00:05:26.909 
+do read it will still pop up and or
+whatever<00:05:25.580> next<00:05:25.910> to<00:05:26.120> it<00:05:26.210> which<00:05:26.390> is<00:05:26.600> i<00:05:26.810> believe
+
+00:05:26.909 --> 00:05:26.919 
+whatever next to it which is i believe
+
+00:05:26.919 --> 00:05:31.930 
+whatever next to it which is i believe
+the<00:05:27.919> red<00:05:28.669> purple<00:05:28.910> or<00:05:29.470> the<00:05:30.470> blue<00:05:30.830> purple<00:05:31.010> now
+
+00:05:31.930 --> 00:05:31.940 
+the red purple or the blue purple now
+
+00:05:31.940 --> 00:05:33.280 
+the red purple or the blue purple now
+I'm<00:05:32.090> getting<00:05:32.210> lost<00:05:32.480> because<00:05:32.810> there's<00:05:33.050> there's
+
+00:05:33.280 --> 00:05:33.290 
+I'm getting lost because there's there's
+
+00:05:33.290 --> 00:05:35.710 
+I'm getting lost because there's there's
+more<00:05:33.440> colors<00:05:34.120> you<00:05:35.120> know<00:05:35.210> to<00:05:35.270> figure<00:05:35.570> it<00:05:35.660> out
+
+00:05:35.710 --> 00:05:35.720 
+more colors you know to figure it out
+
+00:05:35.720 --> 00:05:37.780 
+more colors you know to figure it out
+now<00:05:36.350> another<00:05:36.680> tool<00:05:36.950> that<00:05:36.980> I<00:05:37.160> wanted<00:05:37.460> to<00:05:37.520> show
+
+00:05:37.780 --> 00:05:37.790 
+now another tool that I wanted to show
+
+00:05:37.790 --> 00:05:40.840 
+now another tool that I wanted to show
+is<00:05:38.090> I<00:05:39.020> found<00:05:39.470> this<00:05:39.590> website<00:05:39.770> that<00:05:40.370> actually
+
+00:05:40.840 --> 00:05:40.850 
+is I found this website that actually
+
+00:05:40.850 --> 00:05:43.060 
+is I found this website that actually
+gives<00:05:41.150> you<00:05:41.330> color<00:05:41.600> schemes<00:05:41.990> for<00:05:42.230> websites<00:05:42.830> but
+
+00:05:43.060 --> 00:05:43.070 
+gives you color schemes for websites but
+
+00:05:43.070 --> 00:05:45.460 
+gives you color schemes for websites but
+you<00:05:43.190> can<00:05:43.340> always<00:05:43.490> imply<00:05:43.970> it<00:05:44.030> apply<00:05:44.990> it<00:05:45.050> not
+
+00:05:45.460 --> 00:05:45.470 
+you can always imply it apply it not
+
+00:05:45.470 --> 00:05:49.270 
+you can always imply it apply it not
+imply<00:05:45.800> it<00:05:45.860> apply<00:05:46.610> it<00:05:46.669> onto<00:05:47.030> the<00:05:47.950> your<00:05:48.950> painting
+
+00:05:49.270 --> 00:05:49.280 
+imply it apply it onto the your painting
+
+00:05:49.280 --> 00:05:51.159 
+imply it apply it onto the your painting
+scheme<00:05:49.520> so<00:05:49.790> if<00:05:50.000> you're<00:05:50.150> not<00:05:50.270> sure<00:05:50.330> what<00:05:50.870> to<00:05:51.020> do
+
+00:05:51.159 --> 00:05:51.169 
+scheme so if you're not sure what to do
+
+00:05:51.169 --> 00:05:54.850 
+scheme so if you're not sure what to do
+and<00:05:51.530> it<00:05:52.430> basically<00:05:52.940> you<00:05:53.419> click<00:05:53.630> a<00:05:53.990> main<00:05:54.590> color
+
+00:05:54.850 --> 00:05:54.860 
+and it basically you click a main color
+
+00:05:54.860 --> 00:05:57.040 
+and it basically you click a main color
+that<00:05:55.070> you<00:05:55.100> wanted<00:05:55.400> a<00:05:55.490> painted<00:05:55.790> at<00:05:55.940> and<00:05:56.180> then
+
+00:05:57.040 --> 00:05:57.050 
+that you wanted a painted at and then
+
+00:05:57.050 --> 00:05:59.409 
+that you wanted a painted at and then
+you<00:05:57.169> click<00:05:57.410> on<00:05:57.620> the<00:05:57.890> top<00:05:58.130> buttons<00:05:58.490> if<00:05:59.150> you<00:05:59.270> want
+
+00:05:59.409 --> 00:05:59.419 
+you click on the top buttons if you want
+
+00:05:59.419 --> 00:06:01.150 
+you click on the top buttons if you want
+to<00:05:59.480> do<00:05:59.600> secondary<00:06:00.169> and<00:06:00.560> now<00:06:00.860> I<00:06:00.890> guess
+
+00:06:01.150 --> 00:06:01.160 
+to do secondary and now I guess
+
+00:06:01.160 --> 00:06:03.130 
+to do secondary and now I guess
+whichever<00:06:01.490> and<00:06:01.850> it<00:06:01.970> shows<00:06:02.360> you<00:06:02.510> what<00:06:02.900> color
+
+00:06:03.130 --> 00:06:03.140 
+whichever and it shows you what color
+
+00:06:03.140 --> 00:06:04.510 
+whichever and it shows you what color
+schemes<00:06:03.470> that<00:06:03.560> actually<00:06:04.040> works<00:06:04.280> together
+
+00:06:04.510 --> 00:06:04.520 
+schemes that actually works together
+
+00:06:04.520 --> 00:06:07.060 
+schemes that actually works together
+with<00:06:04.760> it<00:06:05.030> I<00:06:05.180> think<00:06:05.870> it<00:06:06.050> it's<00:06:06.290> a<00:06:06.560> really<00:06:06.800> really
+
+00:06:07.060 --> 00:06:07.070 
+with it I think it it's a really really
+
+00:06:07.070 --> 00:06:10.510 
+with it I think it it's a really really
+great<00:06:07.340> tool<00:06:08.050> especially<00:06:09.050> you<00:06:09.800> know<00:06:09.890> if<00:06:10.100> you're
+
+00:06:10.510 --> 00:06:10.520 
+great tool especially you know if you're
+
+00:06:10.520 --> 00:06:13.870 
+great tool especially you know if you're
+doing<00:06:11.510> a<00:06:12.020> new<00:06:12.590> chapter<00:06:12.890> for<00:06:13.100> Space<00:06:13.580> Marines
+
+00:06:13.870 --> 00:06:13.880 
+doing a new chapter for Space Marines
+
+00:06:13.880 --> 00:06:15.990 
+doing a new chapter for Space Marines
+and<00:06:14.060> you're<00:06:14.210> confused<00:06:14.690> all<00:06:15.350> you<00:06:15.500> gotta<00:06:15.680> do
+
+00:06:15.990 --> 00:06:16.000 
+and you're confused all you gotta do
+
+00:06:16.000 --> 00:06:18.760 
+and you're confused all you gotta do
+using<00:06:17.000> those<00:06:17.150> to<00:06:17.450> the<00:06:18.110> link<00:06:18.320> is<00:06:18.470> down<00:06:18.710> below
+
+00:06:18.760 --> 00:06:18.770 
+using those to the link is down below
+
+00:06:18.770 --> 00:06:23.080 
+using those to the link is down below
+obviously<00:06:19.960> click<00:06:20.960> on<00:06:21.140> it<00:06:21.610> check<00:06:22.610> it<00:06:22.760> out<00:06:22.850> and
+
+00:06:23.080 --> 00:06:23.090 
+obviously click on it check it out and
+
+00:06:23.090 --> 00:06:25.690 
+obviously click on it check it out and
+hopefully<00:06:23.840> it<00:06:24.110> helps<00:06:24.440> because<00:06:24.650> color<00:06:25.280> theory
+
+00:06:25.690 --> 00:06:25.700 
+hopefully it helps because color theory
+
+00:06:25.700 --> 00:06:27.970 
+hopefully it helps because color theory
+is<00:06:25.880> technically<00:06:26.660> everything<00:06:26.930> that<00:06:27.590> were<00:06:27.800> you
+
+00:06:27.970 --> 00:06:27.980 
+is technically everything that were you
+
+00:06:27.980 --> 00:06:29.710 
+is technically everything that were you
+that's<00:06:28.370> what<00:06:28.550> you're<00:06:28.669> doing<00:06:29.060> while<00:06:29.540> you're
+
+00:06:29.710 --> 00:06:29.720 
+that's what you're doing while you're
+
+00:06:29.720 --> 00:06:31.840 
+that's what you're doing while you're
+painting<00:06:30.080> your<00:06:30.380> painting<00:06:31.220> colors<00:06:31.580> onto
+
+00:06:31.840 --> 00:06:31.850 
+painting your painting colors onto
+
+00:06:31.850 --> 00:06:34.450 
+painting your painting colors onto
+models<00:06:32.479> yes<00:06:32.990> they're<00:06:33.260> not<00:06:33.470> flat<00:06:33.919> grounds
+
+00:06:34.450 --> 00:06:34.460 
+models yes they're not flat grounds
+
+00:06:34.460 --> 00:06:34.750 
+models yes they're not flat grounds
+you're<00:06:34.580> not
+
+00:06:34.750 --> 00:06:34.760 
+you're not
+
+00:06:34.760 --> 00:06:38.230 
+you're not
+design<00:06:35.000> posters<00:06:35.540> or<00:06:35.690> anything<00:06:36.110> but<00:06:37.090> Chung<00:06:38.090> is
+
+00:06:38.230 --> 00:06:38.240 
+design posters or anything but Chung is
+
+00:06:38.240 --> 00:06:40.510 
+design posters or anything but Chung is
+right<00:06:38.480> on<00:06:38.660> one<00:06:38.840> thing<00:06:39.080> paint<00:06:39.890> whatever<00:06:40.130> that
+
+00:06:40.510 --> 00:06:40.520 
+right on one thing paint whatever that
+
+00:06:40.520 --> 00:06:43.030 
+right on one thing paint whatever that
+makes<00:06:40.760> it<00:06:40.940> looks<00:06:41.240> good<00:06:41.570> but<00:06:42.290> understanding
+
+00:06:43.030 --> 00:06:43.040 
+makes it looks good but understanding
+
+00:06:43.040 --> 00:06:45.640 
+makes it looks good but understanding
+card<00:06:43.310> theory<00:06:43.820> better<00:06:44.060> I<00:06:44.330> think<00:06:45.080> helps<00:06:45.470> you
+
+00:06:45.640 --> 00:06:45.650 
+card theory better I think helps you
+
+00:06:45.650 --> 00:06:50.170 
+card theory better I think helps you
+create<00:06:46.040> or<00:06:47.410> understand<00:06:48.410> why<00:06:48.920> it<00:06:49.250> looks<00:06:49.520> good<00:06:49.760> I
+
+00:06:50.170 --> 00:06:50.180 
+create or understand why it looks good I
+
+00:06:50.180 --> 00:06:54.460 
+create or understand why it looks good I
+think<00:06:50.840> it's<00:06:50.990> very<00:06:51.050> essential<00:06:51.530> and<00:06:52.630> um<00:06:53.630> I<00:06:53.720> mean
+
+00:06:54.460 --> 00:06:54.470 
+think it's very essential and um I mean
+
+00:06:54.470 --> 00:06:56.380 
+think it's very essential and um I mean
+hopefully<00:06:55.040> this<00:06:55.310> tutorial<00:06:55.490> helps<00:06:56.240> you<00:06:56.360> a
+
+00:06:56.380 --> 00:06:56.390 
+hopefully this tutorial helps you a
+
+00:06:56.390 --> 00:06:58.720 
+hopefully this tutorial helps you a
+little<00:06:56.660> bit<00:06:56.900> to<00:06:57.650> understand<00:06:58.130> about<00:06:58.340> color
+
+00:06:58.720 --> 00:06:58.730 
+little bit to understand about color
+
+00:06:58.730 --> 00:07:01.150 
+little bit to understand about color
+theory<00:06:59.000> I'm<00:06:59.330> just<00:06:59.690> doing<00:07:00.500> the<00:07:00.590> basics<00:07:01.010> of
+
+00:07:01.150 --> 00:07:01.160 
+theory I'm just doing the basics of
+
+00:07:01.160 --> 00:07:03.760 
+theory I'm just doing the basics of
+color<00:07:01.340> theory<00:07:01.760> obviously<00:07:02.750> there's<00:07:03.500> like
+
+00:07:03.760 --> 00:07:03.770 
+color theory obviously there's like
+
+00:07:03.770 --> 00:07:05.800 
+color theory obviously there's like
+classes<00:07:04.340> and<00:07:04.550> classes<00:07:04.760> I<00:07:05.180> mean<00:07:05.420> I<00:07:05.510> have<00:07:05.690> to
+
+00:07:05.800 --> 00:07:05.810 
+classes and classes I mean I have to
+
+00:07:05.810 --> 00:07:07.690 
+classes and classes I mean I have to
+take<00:07:05.990> color<00:07:06.170> theory<00:07:06.530> for<00:07:06.680> over<00:07:06.890> a<00:07:06.920> year<00:07:07.010> to
+
+00:07:07.690 --> 00:07:07.700 
+take color theory for over a year to
+
+00:07:07.700 --> 00:07:10.690 
+take color theory for over a year to
+actually<00:07:07.850> fully<00:07:08.330> understand<00:07:08.780> it<00:07:08.960> but<00:07:09.620> keep<00:07:10.580> in
+
+00:07:10.690 --> 00:07:10.700 
+actually fully understand it but keep in
+
+00:07:10.700 --> 00:07:12.070 
+actually fully understand it but keep in
+mind<00:07:10.730> you<00:07:11.120> know<00:07:11.240> if<00:07:11.360> it<00:07:11.480> looks<00:07:11.660> good<00:07:11.750> in<00:07:11.960> your
+
+00:07:12.070 --> 00:07:12.080 
+mind you know if it looks good in your
+
+00:07:12.080 --> 00:07:15.010 
+mind you know if it looks good in your
+eyes<00:07:12.230> it<00:07:12.500> looks<00:07:12.680> good<00:07:12.950> but<00:07:13.850> color<00:07:14.720> theory
+
+00:07:15.010 --> 00:07:15.020 
+eyes it looks good but color theory
+
+00:07:15.020 --> 00:07:18.960 
+eyes it looks good but color theory
+enhances<00:07:15.800> the<00:07:16.310> i<00:07:17.000> guess<00:07:17.660> the<00:07:17.690> theory<00:07:18.230> like<00:07:18.470> why
+
+00:07:18.960 --> 00:07:18.970 
+enhances the i guess the theory like why
+
+00:07:18.970 --> 00:07:21.700 
+enhances the i guess the theory like why
+why<00:07:19.970> does<00:07:20.150> it<00:07:20.270> look<00:07:20.390> good<00:07:20.600> how<00:07:21.260> can<00:07:21.500> i<00:07:21.590> achieve
+
+00:07:21.700 --> 00:07:21.710 
+why does it look good how can i achieve
+
+00:07:21.710 --> 00:07:24.220 
+why does it look good how can i achieve
+this<00:07:22.040> again<00:07:22.400> on<00:07:22.550> other<00:07:22.790> models<00:07:23.270> so<00:07:23.870> hopefully
+
+00:07:24.220 --> 00:07:24.230 
+this again on other models so hopefully
+
+00:07:24.230 --> 00:07:26.260 
+this again on other models so hopefully
+you<00:07:24.320> would<00:07:24.410> understand<00:07:24.890> it<00:07:25.040> but<00:07:25.250> what<00:07:26.120> do<00:07:26.210> you
+
+00:07:26.260 --> 00:07:26.270 
+you would understand it but what do you
+
+00:07:26.270 --> 00:07:27.520 
+you would understand it but what do you
+guys<00:07:26.390> think<00:07:26.450> I<00:07:26.840> want<00:07:27.110> to<00:07:27.170> know<00:07:27.260> what<00:07:27.410> you<00:07:27.500> guys
+
+00:07:27.520 --> 00:07:27.530 
+guys think I want to know what you guys
+
+00:07:27.530 --> 00:07:29.560 
+guys think I want to know what you guys
+think<00:07:27.860> do<00:07:28.040> you<00:07:28.070> think<00:07:28.160> code<00:07:29.150> theory<00:07:29.450> is
+
+00:07:29.560 --> 00:07:29.570 
+think do you think code theory is
+
+00:07:29.570 --> 00:07:30.940 
+think do you think code theory is
+important<00:07:30.050> when<00:07:30.560> you're<00:07:30.650> painting<00:07:30.860> your
+
+00:07:30.940 --> 00:07:30.950 
+important when you're painting your
+
+00:07:30.950 --> 00:07:33.250 
+important when you're painting your
+models<00:07:31.370> do<00:07:31.520> you<00:07:31.610> think<00:07:31.910> it's<00:07:32.720> just<00:07:32.840> like<00:07:33.110> you
+
+00:07:33.250 --> 00:07:33.260 
+models do you think it's just like you
+
+00:07:33.260 --> 00:07:36.340 
+models do you think it's just like you
+know<00:07:33.380> whatever's<00:07:33.860> it's<00:07:34.340> it's<00:07:35.300> too<00:07:35.570> much<00:07:35.870> stuff
+
+00:07:36.340 --> 00:07:36.350 
+know whatever's it's it's too much stuff
+
+00:07:36.350 --> 00:07:39.310 
+know whatever's it's it's too much stuff
+to<00:07:36.380> learn<00:07:36.560> about<00:07:36.920> if<00:07:37.670> I<00:07:37.850> if<00:07:38.240> I<00:07:38.420> like<00:07:38.690> a<00:07:38.930> certain
+
+00:07:39.310 --> 00:07:39.320 
+to learn about if I if I like a certain
+
+00:07:39.320 --> 00:07:40.870 
+to learn about if I if I like a certain
+color<00:07:39.710> scheme<00:07:39.980> i<00:07:40.070> will<00:07:40.220> keep<00:07:40.460> painting<00:07:40.700> it
+
+00:07:40.870 --> 00:07:40.880 
+color scheme i will keep painting it
+
+00:07:40.880 --> 00:07:43.360 
+color scheme i will keep painting it
+that<00:07:41.030> way<00:07:41.560> so<00:07:42.560> yeah<00:07:42.770> let<00:07:43.010> me<00:07:43.070> know<00:07:43.100> what<00:07:43.280> you
+
+00:07:43.360 --> 00:07:43.370 
+that way so yeah let me know what you
+
+00:07:43.370 --> 00:07:46.150 
+that way so yeah let me know what you
+think<00:07:43.520> comment<00:07:44.240> down<00:07:44.360> below<00:07:44.570> and<00:07:44.990> if<00:07:45.890> you<00:07:45.920> have
+
+00:07:46.150 --> 00:07:46.160 
+think comment down below and if you have
+
+00:07:46.160 --> 00:07:48.580 
+think comment down below and if you have
+any<00:07:46.190> you<00:07:47.060> know<00:07:47.120> like<00:07:47.720> if<00:07:47.900> you<00:07:48.020> like<00:07:48.230> of<00:07:48.530> course
+
+00:07:48.580 --> 00:07:48.590 
+any you know like if you like of course
+
+00:07:48.590 --> 00:07:51.280 
+any you know like if you like of course
+obviously<00:07:49.130> and<00:07:49.640> like<00:07:50.570> us<00:07:50.720> on<00:07:50.780> Facebook
+
+00:07:51.280 --> 00:07:51.290 
+obviously and like us on Facebook
+
+00:07:51.290 --> 00:07:54.910 
+obviously and like us on Facebook
+subscribe<00:07:52.250> and<00:07:53.000> don't<00:07:53.900> forget<00:07:54.140> to<00:07:54.530> check<00:07:54.560> out
+
+00:07:54.910 --> 00:07:54.920 
+subscribe and don't forget to check out
+
+00:07:54.920 --> 00:07:57.130 
+subscribe and don't forget to check out
+war<00:07:55.190> games<00:07:55.460> consortium<00:07:55.940> postings<00:07:56.780> as<00:07:56.930> well
+
+00:07:57.130 --> 00:07:57.140 
+war games consortium postings as well
+
+00:07:57.140 --> 00:08:00.220 
+war games consortium postings as well
+and<00:07:57.380> this<00:07:58.040> is<00:07:58.190> Mars<00:07:58.400> for<00:07:58.610> voices<00:07:58.940> of<00:07:59.060> Mars<00:07:59.240> talk
+
+00:08:00.220 --> 00:08:00.230 
+and this is Mars for voices of Mars talk
+
+00:08:00.230 --> 00:08:04.750 
+and this is Mars for voices of Mars talk
+to<00:08:00.350> you<00:08:00.440> next<00:08:00.560> time
+
+00:08:04.750 --> 00:08:04.760 
+
+00:08:04.760 --> 00:08:06.820 
+
+you
+

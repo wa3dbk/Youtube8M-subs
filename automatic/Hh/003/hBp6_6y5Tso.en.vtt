@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.520
+Drill down into a chart
+
+00:00:03.520 --> 00:00:08.480
+We can configure charts in Web Intelligence documents so that we can drill down into hierarchies of related dimensions,
+
+00:00:09.600 --> 00:00:13.600
+such as year, quarter, month, and week, provided these hierarchies exist in the data source.
+
+00:00:15.040 --> 00:00:24.000
+In this example, we will set up the query for a chart to drill down on the basis of time (year, quarter, month, and week) and location (state, city, and store name).
+
+00:00:24.080 --> 00:00:27.680
+We will then run the query and explore the drill down options in the chart.
+
+00:00:29.920 --> 00:00:34.960
+In the query, the Year and State dimensions and the Sales revenue measure are already selected.
+
+00:00:35.760 --> 00:00:38.560
+To set up drill down, we need to open the Scope of Analysis panel.
+
+00:00:40.800 --> 00:00:47.200
+The Year and State dimensions have already been added to the Scope of Analysis panel as they are eligible to be used for drill down.
+
+00:00:47.360 --> 00:00:51.360
+Next, we will define how many levels of drill down we want for the document.
+
+00:00:54.520 --> 00:00:59.400
+Note that all of the dimensions that relate to Year and State have been added to the scope of the analysis.
+
+00:01:01.920 --> 00:01:08.240
+Only the objects selected in the Result Objects panel (Year, State, and Sales revenue) are displayed in the chart.
+
+00:01:08.560 --> 00:01:12.200
+To see the other dimensions, we need to enable drill down for the document.
+
+00:01:16.720 --> 00:01:20.960
+The objects in the chart are now links, which we can use to drill down to other levels.
+
+00:01:21.360 --> 00:01:24.120
+In addition, the filter panel displays.
+
+00:01:24.440 --> 00:01:27.840
+When we drill down, a filter is automatically created based on the selection.
+
+00:01:28.240 --> 00:01:31.960
+We will drill down into values for California in 2005.
+
+00:01:34.240 --> 00:01:39.320
+Note that we have drilled down on both dimensions, and the chart now displays cities in California by quarter.
+
+00:01:41.160 --> 00:01:45.760
+Using the filters that have been created automatically, we will change the scope to 2006.
+
+00:01:49.120 --> 00:01:52.680
+Once we have concluded our analysis, we can disable the drill down functionality.
+
+00:01:56.560 --> 00:01:58.680
+The drill down feature is no longer active.
+
+00:02:01.200 --> 00:02:10.640
+Visit www.SAP.com/LearnBI for more tutorials on Web Intelligence and other SAP business intelligence products. 
+

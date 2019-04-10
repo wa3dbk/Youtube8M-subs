@@ -1,0 +1,1372 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.089 --> 00:00:03.590 
+
+in<00:00:00.659> this<00:00:00.900> segment<00:00:01.170> we<00:00:01.890> will<00:00:02.010> talk<00:00:02.070> about<00:00:02.600> CPU
+
+00:00:03.590 --> 00:00:03.600 
+in this segment we will talk about CPU
+
+00:00:03.600 --> 00:00:05.150 
+in this segment we will talk about CPU
+scheduling<00:00:03.870> and<00:00:04.380> all<00:00:04.859> the<00:00:04.980> different
+
+00:00:05.150 --> 00:00:05.160 
+scheduling and all the different
+
+00:00:05.160 --> 00:00:13.370 
+scheduling and all the different
+policies<00:00:10.790> first<00:00:11.790> we<00:00:11.969> will<00:00:12.030> talk<00:00:12.179> about<00:00:12.480> why<00:00:12.990> we
+
+00:00:13.370 --> 00:00:13.380 
+policies first we will talk about why we
+
+00:00:13.380 --> 00:00:16.730 
+policies first we will talk about why we
+need<00:00:13.410> CPU<00:00:14.040> scheduling<00:00:15.080> why<00:00:16.080> we<00:00:16.470> need<00:00:16.619> to
+
+00:00:16.730 --> 00:00:16.740 
+need CPU scheduling why we need to
+
+00:00:16.740 --> 00:00:19.160 
+need CPU scheduling why we need to
+multiplex<00:00:17.250> different<00:00:17.640> tasks<00:00:18.060> on<00:00:18.330> the<00:00:18.539> CPU<00:00:18.960> and
+
+00:00:19.160 --> 00:00:19.170 
+multiplex different tasks on the CPU and
+
+00:00:19.170 --> 00:00:21.650 
+multiplex different tasks on the CPU and
+how<00:00:19.619> are<00:00:19.680> we<00:00:19.740> gonna<00:00:19.890> do<00:00:20.130> so<00:00:20.369> and<00:00:20.730> then<00:00:21.480> we'll
+
+00:00:21.650 --> 00:00:21.660 
+how are we gonna do so and then we'll
+
+00:00:21.660 --> 00:00:23.300 
+how are we gonna do so and then we'll
+talk<00:00:21.869> about<00:00:21.930> the<00:00:22.320> different<00:00:22.619> policies<00:00:23.100> that
+
+00:00:23.300 --> 00:00:23.310 
+talk about the different policies that
+
+00:00:23.310 --> 00:00:24.490 
+talk about the different policies that
+are<00:00:23.430> possible
+
+00:00:24.490 --> 00:00:24.500 
+are possible
+
+00:00:24.500 --> 00:00:27.019 
+are possible
+the<00:00:25.500> first<00:00:25.740> reason<00:00:25.980> why<00:00:26.279> we<00:00:26.430> need<00:00:26.609> CPU
+
+00:00:27.019 --> 00:00:27.029 
+the first reason why we need CPU
+
+00:00:27.029 --> 00:00:28.330 
+the first reason why we need CPU
+scheduling<00:00:27.300> is<00:00:27.570> because<00:00:27.810> the<00:00:27.900> typicals
+
+00:00:28.330 --> 00:00:28.340 
+scheduling is because the typicals
+
+00:00:28.340 --> 00:00:32.479 
+scheduling is because the typicals
+process<00:00:29.340> does<00:00:29.550> not<00:00:29.580> just<00:00:30.179> need<00:00:30.630> the<00:00:30.779> CPU<00:00:31.489> it
+
+00:00:32.479 --> 00:00:32.489 
+process does not just need the CPU it
+
+00:00:32.489 --> 00:00:36.080 
+process does not just need the CPU it
+needs<00:00:32.850> other<00:00:34.280> sister<00:00:35.280> system<00:00:35.640> as<00:00:35.730> well<00:00:35.910> for
+
+00:00:36.080 --> 00:00:36.090 
+needs other sister system as well for
+
+00:00:36.090 --> 00:00:38.110 
+needs other sister system as well for
+example<00:00:36.149> IO<00:00:36.630> let's<00:00:37.050> say<00:00:37.200> print<00:00:37.590> on<00:00:37.739> the<00:00:37.860> disk
+
+00:00:38.110 --> 00:00:38.120 
+example IO let's say print on the disk
+
+00:00:38.120 --> 00:00:41.240 
+example IO let's say print on the disk
+so<00:00:39.120> you<00:00:39.149> write<00:00:39.840> things<00:00:40.079> to<00:00:40.260> the<00:00:40.379> disk<00:00:40.590> or<00:00:40.829> you
+
+00:00:41.240 --> 00:00:41.250 
+so you write things to the disk or you
+
+00:00:41.250 --> 00:00:43.569 
+so you write things to the disk or you
+want<00:00:41.430> to<00:00:41.520> print<00:00:41.700> things<00:00:41.850> on<00:00:42.059> the<00:00:42.239> screen<00:00:42.719> and
+
+00:00:43.569 --> 00:00:43.579 
+want to print things on the screen and
+
+00:00:43.579 --> 00:00:48.170 
+want to print things on the screen and
+few<00:00:44.579> of<00:00:44.670> the<00:00:44.730> possible<00:00:45.390> forms<00:00:45.660> of<00:00:45.780> Io<00:00:45.899> and<00:00:47.180> in
+
+00:00:48.170 --> 00:00:48.180 
+few of the possible forms of Io and in
+
+00:00:48.180 --> 00:00:51.470 
+few of the possible forms of Io and in
+general<00:00:48.930> IO<00:00:49.289> takes<00:00:49.770> IO<00:00:50.520> systems<00:00:51.090> are<00:00:51.210> much
+
+00:00:51.470 --> 00:00:51.480 
+general IO takes IO systems are much
+
+00:00:51.480 --> 00:00:54.979 
+general IO takes IO systems are much
+slower<00:00:51.780> than<00:00:52.469> CPU<00:00:53.129> so<00:00:53.850> typically<00:00:54.600> an<00:00:54.809> IO
+
+00:00:54.979 --> 00:00:54.989 
+slower than CPU so typically an IO
+
+00:00:54.989 --> 00:00:56.540 
+slower than CPU so typically an IO
+response<00:00:55.559> time<00:00:55.800> is<00:00:55.949> something<00:00:56.250> like<00:00:56.370> 10
+
+00:00:56.540 --> 00:00:56.550 
+response time is something like 10
+
+00:00:56.550 --> 00:00:58.279 
+response time is something like 10
+milliseconds<00:00:56.850> so<00:00:57.539> it<00:00:57.629> takes<00:00:57.870> about<00:00:57.989> 10
+
+00:00:58.279 --> 00:00:58.289 
+milliseconds so it takes about 10
+
+00:00:58.289 --> 00:01:01.220 
+milliseconds so it takes about 10
+milliseconds<00:00:58.530> for<00:00:59.370> the<00:00:59.460> disk<00:00:59.730> to<00:01:00.000> write<00:01:00.230> bite
+
+00:01:01.220 --> 00:01:01.230 
+milliseconds for the disk to write bite
+
+00:01:01.230 --> 00:01:04.310 
+milliseconds for the disk to write bite
+and<00:01:01.940> if<00:01:02.940> you<00:01:03.059> look<00:01:03.180> at<00:01:03.300> the<00:01:03.359> CPU<00:01:03.780> it<00:01:04.080> can
+
+00:01:04.310 --> 00:01:04.320 
+and if you look at the CPU it can
+
+00:01:04.320 --> 00:01:06.350 
+and if you look at the CPU it can
+possibly<00:01:04.799> do<00:01:05.010> an<00:01:05.339> instruction<00:01:05.850> every<00:01:06.150> matter
+
+00:01:06.350 --> 00:01:06.360 
+possibly do an instruction every matter
+
+00:01:06.360 --> 00:01:08.210 
+possibly do an instruction every matter
+second<00:01:06.840> so<00:01:07.470> there's<00:01:07.680> a<00:01:07.740> big<00:01:07.950> difference
+
+00:01:08.210 --> 00:01:08.220 
+second so there's a big difference
+
+00:01:08.220 --> 00:01:12.350 
+second so there's a big difference
+between<00:01:08.930> the<00:01:09.930> IO<00:01:10.080> and<00:01:10.590> the<00:01:10.770> CPU<00:01:11.180> so<00:01:12.180> what's
+
+00:01:12.350 --> 00:01:12.360 
+between the IO and the CPU so what's
+
+00:01:12.360 --> 00:01:16.969 
+between the IO and the CPU so what's
+gonna<00:01:12.510> happen<00:01:13.020> is<00:01:13.290> that<00:01:15.259> typically<00:01:16.259> a<00:01:16.409> process
+
+00:01:16.969 --> 00:01:16.979 
+gonna happen is that typically a process
+
+00:01:16.979 --> 00:01:20.600 
+gonna happen is that typically a process
+would<00:01:17.070> first<00:01:17.369> do<00:01:17.640> some<00:01:18.409> CPU<00:01:19.409> work<00:01:19.710> and<00:01:19.979> then
+
+00:01:20.600 --> 00:01:20.610 
+would first do some CPU work and then
+
+00:01:20.610 --> 00:01:23.690 
+would first do some CPU work and then
+it's<00:01:20.790> gonna<00:01:20.939> do<00:01:21.240> an<00:01:21.780> IO<00:01:22.290> burst<00:01:22.770> and<00:01:23.040> when<00:01:23.580> it
+
+00:01:23.690 --> 00:01:23.700 
+it's gonna do an IO burst and when it
+
+00:01:23.700 --> 00:01:24.920 
+it's gonna do an IO burst and when it
+has<00:01:24.060> an<00:01:24.240> IO<00:01:24.360> burst
+
+00:01:24.920 --> 00:01:24.930 
+has an IO burst
+
+00:01:24.930 --> 00:01:27.230 
+has an IO burst
+essentially<00:01:25.560> it<00:01:26.280> cannot<00:01:26.610> do<00:01:26.759> anything<00:01:27.090> else
+
+00:01:27.230 --> 00:01:27.240 
+essentially it cannot do anything else
+
+00:01:27.240 --> 00:01:28.850 
+essentially it cannot do anything else
+it's<00:01:27.450> gotta<00:01:27.630> wait<00:01:27.900> for<00:01:27.930> the<00:01:28.170> IO<00:01:28.290> to<00:01:28.500> complete
+
+00:01:28.850 --> 00:01:28.860 
+it's gotta wait for the IO to complete
+
+00:01:28.860 --> 00:01:32.179 
+it's gotta wait for the IO to complete
+and<00:01:29.990> then<00:01:30.990> it's<00:01:31.170> gonna<00:01:31.320> come<00:01:31.590> daya's<00:01:32.009> gonna
+
+00:01:32.179 --> 00:01:32.189 
+and then it's gonna come daya's gonna
+
+00:01:32.189 --> 00:01:34.249 
+and then it's gonna come daya's gonna
+finish<00:01:32.430> you<00:01:33.000> get<00:01:33.150> back<00:01:33.390> to<00:01:33.509> your<00:01:33.570> cpu<00:01:33.990> burst
+
+00:01:34.249 --> 00:01:34.259 
+finish you get back to your cpu burst
+
+00:01:34.259 --> 00:01:35.929 
+finish you get back to your cpu burst
+and<00:01:34.590> then<00:01:35.040> there<00:01:35.250> is<00:01:35.310> where<00:01:35.400> me<00:01:35.520> another<00:01:35.729> IO
+
+00:01:35.929 --> 00:01:35.939 
+and then there is where me another IO
+
+00:01:35.939 --> 00:01:38.960 
+and then there is where me another IO
+burst<00:01:36.299> and<00:01:36.540> again<00:01:36.750> you<00:01:36.930> CPUs<00:01:37.560> not<00:01:38.369> used<00:01:38.729> during
+
+00:01:38.960 --> 00:01:38.970 
+burst and again you CPUs not used during
+
+00:01:38.970 --> 00:01:41.090 
+burst and again you CPUs not used during
+this<00:01:39.240> time<00:01:39.450> period<00:01:39.659> so<00:01:40.320> during<00:01:40.650> your<00:01:40.680> periods
+
+00:01:41.090 --> 00:01:41.100 
+this time period so during your periods
+
+00:01:41.100 --> 00:01:42.980 
+this time period so during your periods
+of<00:01:41.189> Io<00:01:41.310> burst<00:01:41.670> your<00:01:41.850> CPU<00:01:42.210> utilization<00:01:42.450> drops
+
+00:01:42.980 --> 00:01:42.990 
+of Io burst your CPU utilization drops
+
+00:01:42.990 --> 00:01:45.950 
+of Io burst your CPU utilization drops
+to<00:01:43.229> zero<00:01:43.500> and<00:01:44.000> during<00:01:45.000> periods<00:01:45.329> of<00:01:45.390> CPU<00:01:45.750> purse
+
+00:01:45.950 --> 00:01:45.960 
+to zero and during periods of CPU purse
+
+00:01:45.960 --> 00:01:48.469 
+to zero and during periods of CPU purse
+TCP<00:01:46.530> utilization<00:01:47.040> is<00:01:47.100> a<00:01:47.220> hundred<00:01:47.460> so<00:01:47.670> the
+
+00:01:48.469 --> 00:01:48.479 
+TCP utilization is a hundred so the
+
+00:01:48.479 --> 00:01:51.020 
+TCP utilization is a hundred so the
+primary<00:01:48.780> goal<00:01:49.200> for<00:01:49.229> CPU<00:01:49.799> scheduling<00:01:50.189> is<00:01:50.729> to
+
+00:01:51.020 --> 00:01:51.030 
+primary goal for CPU scheduling is to
+
+00:01:51.030 --> 00:01:54.139 
+primary goal for CPU scheduling is to
+make<00:01:52.020> use<00:01:52.409> of<00:01:52.740> the<00:01:52.860> CPU<00:01:53.369> during<00:01:53.850> these<00:01:53.970> IO
+
+00:01:54.139 --> 00:01:54.149 
+make use of the CPU during these IO
+
+00:01:54.149 --> 00:01:56.929 
+make use of the CPU during these IO
+burst<00:01:54.540> periods<00:01:54.930> when<00:01:55.259> the<00:01:55.409> process<00:01:56.130> is<00:01:56.159> this
+
+00:01:56.929 --> 00:01:56.939 
+burst periods when the process is this
+
+00:01:56.939 --> 00:01:59.120 
+burst periods when the process is this
+specific<00:01:57.390> process<00:01:57.810> is<00:01:57.990> off<00:01:58.380> doing<00:01:58.890> something
+
+00:01:59.120 --> 00:01:59.130 
+specific process is off doing something
+
+00:01:59.130 --> 00:02:01.249 
+specific process is off doing something
+else<00:01:59.340> you<00:01:59.969> want<00:02:00.180> another<00:02:00.390> process<00:02:00.899> to<00:02:00.930> take
+
+00:02:01.249 --> 00:02:01.259 
+else you want another process to take
+
+00:02:01.259 --> 00:02:05.300 
+else you want another process to take
+advantage<00:02:01.860> of<00:02:02.070> the<00:02:02.460> CPU<00:02:02.850> in<00:02:02.969> the<00:02:03.030> meantime<00:02:04.310> so
+
+00:02:05.300 --> 00:02:05.310 
+advantage of the CPU in the meantime so
+
+00:02:05.310 --> 00:02:09.529 
+advantage of the CPU in the meantime so
+if<00:02:05.430> you<00:02:05.520> look<00:02:05.759> at<00:02:07.220> essentially<00:02:08.220> how<00:02:08.759> IO<00:02:09.060> bound
+
+00:02:09.529 --> 00:02:09.539 
+if you look at essentially how IO bound
+
+00:02:09.539 --> 00:02:12.440 
+if you look at essentially how IO bound
+there<00:02:10.289> lots<00:02:10.530> of<00:02:10.709> i/o<00:02:11.220> bound<00:02:11.520> vs.<00:02:11.910> CPU<00:02:12.090> bound
+
+00:02:12.440 --> 00:02:12.450 
+there lots of i/o bound vs. CPU bound
+
+00:02:12.450 --> 00:02:13.670 
+there lots of i/o bound vs. CPU bound
+lots<00:02:12.870> of<00:02:13.020> different<00:02:13.349> paths
+
+00:02:13.670 --> 00:02:13.680 
+lots of different paths
+
+00:02:13.680 --> 00:02:15.979 
+lots of different paths
+these<00:02:13.980> four<00:02:14.159> different<00:02:14.250> processes<00:02:14.909> so<00:02:15.540> on<00:02:15.870> the
+
+00:02:15.979 --> 00:02:15.989 
+these four different processes so on the
+
+00:02:15.989 --> 00:02:19.459 
+these four different processes so on the
+top<00:02:16.200> I've<00:02:16.469> shown<00:02:16.799> you<00:02:16.879> a<00:02:17.879> long<00:02:18.569> CPU<00:02:19.170> burst
+
+00:02:19.459 --> 00:02:19.469 
+top I've shown you a long CPU burst
+
+00:02:19.469 --> 00:02:22.910 
+top I've shown you a long CPU burst
+where<00:02:20.159> the<00:02:20.459> long<00:02:20.700> periods<00:02:21.090> of<00:02:21.180> CPU<00:02:21.599> burst<00:02:21.920> into
+
+00:02:22.910 --> 00:02:22.920 
+where the long periods of CPU burst into
+
+00:02:22.920 --> 00:02:25.220 
+where the long periods of CPU burst into
+leaves<00:02:23.280> with<00:02:23.549> IO<00:02:23.730> burs<00:02:24.090> and<00:02:24.329> then<00:02:25.049> at<00:02:25.140> the
+
+00:02:25.220 --> 00:02:25.230 
+leaves with IO burs and then at the
+
+00:02:25.230 --> 00:02:27.280 
+leaves with IO burs and then at the
+bottom<00:02:25.590> I've<00:02:25.739> shown<00:02:25.980> you<00:02:26.010> shot<00:02:26.489> CPU<00:02:27.000> burs
+
+00:02:27.280 --> 00:02:27.290 
+bottom I've shown you shot CPU burs
+
+00:02:27.290 --> 00:02:29.959 
+bottom I've shown you shot CPU burs
+interleaved<00:02:28.290> with<00:02:28.349> iron<00:02:28.739> bars
+
+00:02:29.959 --> 00:02:29.969 
+interleaved with iron bars
+
+00:02:29.969 --> 00:02:33.140 
+interleaved with iron bars
+obviously<00:02:30.780> these<00:02:31.650> two<00:02:31.709> systems<00:02:32.370> require<00:02:32.909> very
+
+00:02:33.140 --> 00:02:33.150 
+obviously these two systems require very
+
+00:02:33.150 --> 00:02:35.629 
+obviously these two systems require very
+different<00:02:33.239> scheduling<00:02:33.930> characteristics<00:02:34.650> the
+
+00:02:35.629 --> 00:02:35.639 
+different scheduling characteristics the
+
+00:02:35.639 --> 00:02:38.149 
+different scheduling characteristics the
+long<00:02:35.849> one<00:02:36.260> you<00:02:37.260> got<00:02:37.439> to<00:02:37.469> make<00:02:37.709> sure<00:02:37.920> that<00:02:37.950> the
+
+00:02:38.149 --> 00:02:38.159 
+long one you got to make sure that the
+
+00:02:38.159 --> 00:02:41.479 
+long one you got to make sure that the
+scheduler<00:02:38.609> overheads<00:02:39.329> are<00:02:39.889> not<00:02:40.889> high<00:02:41.219> and
+
+00:02:41.479 --> 00:02:41.489 
+scheduler overheads are not high and
+
+00:02:41.489 --> 00:02:44.149 
+scheduler overheads are not high and
+most<00:02:42.180> of<00:02:42.299> the<00:02:42.359> time<00:02:42.599> is<00:02:43.109> spent<00:02:43.170> by<00:02:44.099> the
+
+00:02:44.149 --> 00:02:44.159 
+most of the time is spent by the
+
+00:02:44.159 --> 00:02:46.670 
+most of the time is spent by the
+application<00:02:44.609> of<00:02:44.819> a<00:02:44.879> CPU<00:02:45.269> and<00:02:45.540> with<00:02:46.379> a<00:02:46.409> sharp
+
+00:02:46.670 --> 00:02:46.680 
+application of a CPU and with a sharp
+
+00:02:46.680 --> 00:02:49.909 
+application of a CPU and with a sharp
+one<00:02:47.000> you<00:02:48.000> got<00:02:48.180> to<00:02:48.209> make<00:02:48.480> sure<00:02:48.720> that<00:02:49.049> because
+
+00:02:49.909 --> 00:02:49.919 
+one you got to make sure that because
+
+00:02:49.919 --> 00:02:51.920 
+one you got to make sure that because
+you<00:02:50.310> kick<00:02:50.579> in<00:02:50.760> every<00:02:51.030> so<00:02:51.239> often
+
+00:02:51.920 --> 00:02:51.930 
+you kick in every so often
+
+00:02:51.930 --> 00:02:53.659 
+you kick in every so often
+he's<00:02:52.109> kicking<00:02:52.409> moron<00:02:52.919> the<00:02:53.069> scheduler<00:02:53.459> kicks
+
+00:02:53.659 --> 00:02:53.669 
+he's kicking moron the scheduler kicks
+
+00:02:53.669 --> 00:02:55.879 
+he's kicking moron the scheduler kicks
+in<00:02:53.819> more<00:02:53.970> often<00:02:54.180> than<00:02:54.629> in<00:02:54.959> the<00:02:55.379> long<00:02:55.560> bar
+
+00:02:55.879 --> 00:02:55.889 
+in more often than in the long bar
+
+00:02:55.889 --> 00:02:58.490 
+in more often than in the long bar
+system<00:02:56.159> that<00:02:56.909> it's<00:02:57.540> overheads<00:02:58.109> are<00:02:58.379> not
+
+00:02:58.490 --> 00:02:58.500 
+system that it's overheads are not
+
+00:02:58.500 --> 00:03:04.759 
+system that it's overheads are not
+overriding<00:03:01.579> in<00:03:02.579> this<00:03:02.849> 12<00:03:03.510> this<00:03:03.780> segment<00:03:04.560> I
+
+00:03:04.759 --> 00:03:04.769 
+overriding in this 12 this segment I
+
+00:03:04.769 --> 00:03:06.830 
+overriding in this 12 this segment I
+will<00:03:05.099> use<00:03:05.400> the<00:03:05.549> term<00:03:05.700> process<00:03:06.060> and<00:03:06.510> threads
+
+00:03:06.830 --> 00:03:06.840 
+will use the term process and threads
+
+00:03:06.840 --> 00:03:09.229 
+will use the term process and threads
+interchangeably<00:03:07.799> sometimes<00:03:08.280> when<00:03:08.790> I<00:03:08.819> use<00:03:09.090> the
+
+00:03:09.229 --> 00:03:09.239 
+interchangeably sometimes when I use the
+
+00:03:09.239 --> 00:03:11.300 
+interchangeably sometimes when I use the
+term<00:03:09.269> process<00:03:09.689> I<00:03:10.109> only<00:03:10.560> refer<00:03:10.859> to<00:03:10.889> a<00:03:11.010> single
+
+00:03:11.300 --> 00:03:11.310 
+term process I only refer to a single
+
+00:03:11.310 --> 00:03:13.159 
+term process I only refer to a single
+thread<00:03:11.489> process<00:03:11.969> so<00:03:12.269> I'm<00:03:12.389> only<00:03:12.540> stating<00:03:12.810> one
+
+00:03:13.159 --> 00:03:13.169 
+thread process so I'm only stating one
+
+00:03:13.169 --> 00:03:15.920 
+thread process so I'm only stating one
+third<00:03:13.409> of<00:03:13.439> time<00:03:13.799> the<00:03:14.790> scheduling<00:03:15.150> chart<00:03:15.719> can
+
+00:03:15.920 --> 00:03:15.930 
+third of time the scheduling chart can
+
+00:03:15.930 --> 00:03:17.149 
+third of time the scheduling chart can
+be<00:03:15.989> applied<00:03:16.349> to<00:03:16.379> both<00:03:16.469> threads<00:03:16.889> or<00:03:17.129> processes
+
+00:03:17.149 --> 00:03:17.159 
+be applied to both threads or processes
+
+00:03:17.159 --> 00:03:22.369 
+be applied to both threads or processes
+and<00:03:18.000> the<00:03:18.840> term<00:03:19.049> job<00:03:19.379> is<00:03:20.449> referred<00:03:21.449> to<00:03:21.659> as<00:03:21.900> a<00:03:21.930> CPU
+
+00:03:22.369 --> 00:03:22.379 
+and the term job is referred to as a CPU
+
+00:03:22.379 --> 00:03:24.699 
+and the term job is referred to as a CPU
+burster<00:03:22.739> computer<00:03:23.129> only<00:03:23.220> process<00:03:23.760> right<00:03:24.120> so
+
+00:03:24.699 --> 00:03:24.709 
+burster computer only process right so
+
+00:03:24.709 --> 00:03:26.629 
+burster computer only process right so
+when<00:03:25.709> we<00:03:25.739> talk<00:03:26.069> about<00:03:26.099> the<00:03:26.340> different
+
+00:03:26.629 --> 00:03:26.639 
+when we talk about the different
+
+00:03:26.639 --> 00:03:29.619 
+when we talk about the different
+scheduling<00:03:27.030> algorithms<00:03:28.010> the<00:03:29.010> term<00:03:29.250> job
+
+00:03:29.619 --> 00:03:29.629 
+scheduling algorithms the term job
+
+00:03:29.629 --> 00:03:31.939 
+scheduling algorithms the term job
+refers<00:03:30.629> to<00:03:30.659> a<00:03:30.780> process<00:03:30.900> it<00:03:31.290> has<00:03:31.439> on<00:03:31.650> your<00:03:31.739> CPU
+
+00:03:31.939 --> 00:03:31.949 
+refers to a process it has on your CPU
+
+00:03:31.949 --> 00:03:32.539 
+refers to a process it has on your CPU
+burs
+
+00:03:32.539 --> 00:03:32.549 
+burs
+
+00:03:32.549 --> 00:03:37.819 
+burs
+so<00:03:32.760> no<00:03:33.150> iovers<00:03:35.780> with<00:03:36.780> CPU<00:03:37.109> scheduling<00:03:37.439> in
+
+00:03:37.819 --> 00:03:37.829 
+so no iovers with CPU scheduling in
+
+00:03:37.829 --> 00:03:41.179 
+so no iovers with CPU scheduling in
+general<00:03:38.810> you<00:03:39.810> have<00:03:40.019> multiple<00:03:40.500> queues<00:03:40.859> you
+
+00:03:41.179 --> 00:03:41.189 
+general you have multiple queues you
+
+00:03:41.189 --> 00:03:46.369 
+general you have multiple queues you
+have<00:03:41.579> an<00:03:41.939> i/o<00:03:42.150> request<00:03:42.720> queue<00:03:44.870> you<00:03:45.870> have<00:03:46.049> a<00:03:46.079> few
+
+00:03:46.369 --> 00:03:46.379 
+have an i/o request queue you have a few
+
+00:03:46.379 --> 00:03:48.860 
+have an i/o request queue you have a few
+other<00:03:46.409> ones<00:03:46.829> for<00:03:47.790> example<00:03:47.879> if<00:03:48.389> you<00:03:48.509> fork<00:03:48.780> a
+
+00:03:48.860 --> 00:03:48.870 
+other ones for example if you fork a
+
+00:03:48.870 --> 00:03:50.469 
+other ones for example if you fork a
+child<00:03:49.169> interrupt
+
+00:03:50.469 --> 00:03:50.479 
+child interrupt
+
+00:03:50.479 --> 00:03:54.580 
+child interrupt
+wait<00:03:51.479> queues<00:03:51.870> and<00:03:52.229> all<00:03:52.709> of<00:03:52.859> these<00:03:53.040> queues<00:03:53.400> have
+
+00:03:54.580 --> 00:03:54.590 
+wait queues and all of these queues have
+
+00:03:54.590 --> 00:03:56.809 
+wait queues and all of these queues have
+different<00:03:55.590> processes<00:03:56.099> waiting<00:03:56.489> on<00:03:56.609> them
+
+00:03:56.809 --> 00:03:56.819 
+different processes waiting on them
+
+00:03:56.819 --> 00:03:59.030 
+different processes waiting on them
+right<00:03:57.180> so<00:03:57.509> here's<00:03:58.049> your<00:03:58.259> ready<00:03:58.470> queue<00:03:58.769> here's
+
+00:03:59.030 --> 00:03:59.040 
+right so here's your ready queue here's
+
+00:03:59.040 --> 00:04:01.460 
+right so here's your ready queue here's
+all<00:03:59.159> the<00:03:59.370> queue<00:04:00.239> here's<00:04:00.720> all<00:04:00.840> the<00:04:00.930> processes
+
+00:04:01.460 --> 00:04:01.470 
+all the queue here's all the processes
+
+00:04:01.470 --> 00:04:03.530 
+all the queue here's all the processes
+that<00:04:01.620> are<00:04:01.769> ready<00:04:01.979> to<00:04:02.250> the<00:04:02.579> CPU<00:04:03.000> and<00:04:03.150> so<00:04:03.299> then
+
+00:04:03.530 --> 00:04:03.540 
+that are ready to the CPU and so then
+
+00:04:03.540 --> 00:04:05.179 
+that are ready to the CPU and so then
+the<00:04:03.720> scheduler<00:04:03.930> can<00:04:04.139> pick<00:04:04.470> one<00:04:04.650> of<00:04:04.769> them<00:04:04.919> and
+
+00:04:05.179 --> 00:04:05.189 
+the scheduler can pick one of them and
+
+00:04:05.189 --> 00:04:07.520 
+the scheduler can pick one of them and
+then<00:04:05.579> you've<00:04:05.729> got<00:04:05.939> these<00:04:06.090> other<00:04:06.239> cues<00:04:06.720> such<00:04:07.439> as
+
+00:04:07.520 --> 00:04:07.530 
+then you've got these other cues such as
+
+00:04:07.530 --> 00:04:10.039 
+then you've got these other cues such as
+the<00:04:07.709> time<00:04:07.889> slice<00:04:08.220> those<00:04:08.970> which<00:04:09.569> are<00:04:09.750> the<00:04:09.870> time
+
+00:04:10.039 --> 00:04:10.049 
+the time slice those which are the time
+
+00:04:10.049 --> 00:04:11.960 
+the time slice those which are the time
+slice<00:04:10.290> expired<00:04:10.739> those<00:04:11.220> which<00:04:11.430> have<00:04:11.609> forked<00:04:11.909> a
+
+00:04:11.960 --> 00:04:11.970 
+slice expired those which have forked a
+
+00:04:11.970 --> 00:04:13.580 
+slice expired those which have forked a
+child<00:04:12.239> those<00:04:12.599> are<00:04:12.810> waiting<00:04:13.079> on<00:04:13.139> an<00:04:13.229> interrupt
+
+00:04:13.580 --> 00:04:13.590 
+child those are waiting on an interrupt
+
+00:04:13.590 --> 00:04:16.909 
+child those are waiting on an interrupt
+all<00:04:14.129> of<00:04:14.310> these<00:04:14.519> ones<00:04:14.879> whole<00:04:15.720> processes<00:04:16.709> are
+
+00:04:16.909 --> 00:04:16.919 
+all of these ones whole processes are
+
+00:04:16.919 --> 00:04:19.460 
+all of these ones whole processes are
+not<00:04:17.220> yet<00:04:17.609> ready<00:04:17.909> but<00:04:18.810> at<00:04:18.930> some<00:04:19.079> point<00:04:19.109> they
+
+00:04:19.460 --> 00:04:19.470 
+not yet ready but at some point they
+
+00:04:19.470 --> 00:04:21.379 
+not yet ready but at some point they
+will<00:04:19.620> become<00:04:20.009> when<00:04:20.459> they<00:04:20.549> become<00:04:20.849> ready<00:04:21.090> then
+
+00:04:21.379 --> 00:04:21.389 
+will become when they become ready then
+
+00:04:21.389 --> 00:04:23.120 
+will become when they become ready then
+they<00:04:21.570> go<00:04:21.719> back<00:04:21.930> into<00:04:22.229> the<00:04:22.409> ready<00:04:22.590> queue<00:04:22.860> and
+
+00:04:23.120 --> 00:04:23.130 
+they go back into the ready queue and
+
+00:04:23.130 --> 00:04:24.860 
+they go back into the ready queue and
+when<00:04:23.340> that<00:04:23.460> happens<00:04:23.909> then<00:04:24.120> there<00:04:24.300> you<00:04:24.510> know
+
+00:04:24.860 --> 00:04:24.870 
+when that happens then there you know
+
+00:04:24.870 --> 00:04:26.600 
+when that happens then there you know
+you<00:04:25.139> can<00:04:25.320> this<00:04:25.710> scary-lookin<00:04:26.279> kick<00:04:26.430> another
+
+00:04:26.600 --> 00:04:26.610 
+you can this scary-lookin kick another
+
+00:04:26.610 --> 00:04:27.940 
+you can this scary-lookin kick another
+point
+
+00:04:27.940 --> 00:04:27.950 
+point
+
+00:04:27.950 --> 00:04:29.590 
+point
+one<00:04:28.310> of<00:04:28.400> the<00:04:28.520> processes<00:04:29.060> from<00:04:29.270> the<00:04:29.450> ready
+
+00:04:29.590 --> 00:04:29.600 
+one of the processes from the ready
+
+00:04:29.600 --> 00:04:34.560 
+one of the processes from the ready
+queue<00:04:29.900> to<00:04:30.380> start<00:04:30.590> running<00:04:30.800> on<00:04:30.890> the<00:04:30.980> CPU
+
+00:04:34.560 --> 00:04:34.570 
+
+00:04:34.570 --> 00:04:37.630 
+
+another<00:04:35.570> notion<00:04:35.900> that's<00:04:36.800> important<00:04:37.310> is<00:04:37.490> the
+
+00:04:37.630 --> 00:04:37.640 
+another notion that's important is the
+
+00:04:37.640 --> 00:04:39.550 
+another notion that's important is the
+notion<00:04:37.850> of<00:04:38.060> preemption<00:04:38.420> was<00:04:38.870> non<00:04:39.320> pre-emptive
+
+00:04:39.550 --> 00:04:39.560 
+notion of preemption was non pre-emptive
+
+00:04:39.560 --> 00:04:43.140 
+notion of preemption was non pre-emptive
+scheduling<00:04:40.840> pre-emptive<00:04:41.840> means<00:04:42.140> just
+
+00:04:43.140 --> 00:04:43.150 
+scheduling pre-emptive means just
+
+00:04:43.150 --> 00:04:46.540 
+scheduling pre-emptive means just
+forcefully<00:04:44.150> stop<00:04:44.960> some<00:04:45.290> stop<00:04:45.800> something<00:04:46.250> and
+
+00:04:46.540 --> 00:04:46.550 
+forcefully stop some stop something and
+
+00:04:46.550 --> 00:04:50.620 
+forcefully stop some stop something and
+then<00:04:47.290> do<00:04:48.290> something<00:04:48.530> else<00:04:48.740> else<00:04:49.370> so<00:04:50.000> with
+
+00:04:50.620 --> 00:04:50.630 
+then do something else else so with
+
+00:04:50.630 --> 00:04:51.940 
+then do something else else so with
+pre-emptive<00:04:51.020> scheduling<00:04:51.230> the<00:04:51.530> OS<00:04:51.770> can
+
+00:04:51.940 --> 00:04:51.950 
+pre-emptive scheduling the OS can
+
+00:04:51.950 --> 00:04:54.100 
+pre-emptive scheduling the OS can
+forcibly<00:04:52.370> remove<00:04:52.730> a<00:04:52.850> process<00:04:53.330> with<00:04:53.900> non
+
+00:04:54.100 --> 00:04:54.110 
+forcibly remove a process with non
+
+00:04:54.110 --> 00:04:55.900 
+forcibly remove a process with non
+pre-emptive<00:04:54.320> scheduling<00:04:54.770> once<00:04:55.340> the<00:04:55.490> CPU<00:04:55.880> has
+
+00:04:55.900 --> 00:04:55.910 
+pre-emptive scheduling once the CPU has
+
+00:04:55.910 --> 00:04:58.420 
+pre-emptive scheduling once the CPU has
+been<00:04:56.210> allocated<00:04:56.510> to<00:04:56.720> a<00:04:56.780> process<00:04:57.230> unless<00:04:58.220> than
+
+00:04:58.420 --> 00:04:58.430 
+been allocated to a process unless than
+
+00:04:58.430 --> 00:05:00.550 
+been allocated to a process unless than
+otherwise<00:04:58.640> the<00:04:59.030> process<00:04:59.270> itself<00:04:59.810> yields<00:05:00.440> in
+
+00:05:00.550 --> 00:05:00.560 
+otherwise the process itself yields in
+
+00:05:00.560 --> 00:05:03.010 
+otherwise the process itself yields in
+some<00:05:00.740> fashion<00:05:00.980> by<00:05:01.880> the<00:05:01.940> either<00:05:02.300> making<00:05:02.540> system
+
+00:05:03.010 --> 00:05:03.020 
+some fashion by the either making system
+
+00:05:03.020 --> 00:05:04.720 
+some fashion by the either making system
+caliber<00:05:03.440> or<00:05:03.620> by<00:05:03.770> completing<00:05:04.130> or<00:05:04.400> last<00:05:04.610> time
+
+00:05:04.720 --> 00:05:04.730 
+caliber or by completing or last time
+
+00:05:04.730 --> 00:05:08.350 
+caliber or by completing or last time
+from<00:05:04.910> the<00:05:05.030> wire<00:05:05.150> then<00:05:05.930> the<00:05:06.250> OS<00:05:07.250> cannot<00:05:07.610> only
+
+00:05:08.350 --> 00:05:08.360 
+from the wire then the OS cannot only
+
+00:05:08.360 --> 00:05:11.050 
+from the wire then the OS cannot only
+then<00:05:08.570> can<00:05:08.750> the<00:05:08.870> OS<00:05:09.220> pick<00:05:10.220> another<00:05:10.430> process<00:05:10.940> to
+
+00:05:11.050 --> 00:05:11.060 
+then can the OS pick another process to
+
+00:05:11.060 --> 00:05:12.940 
+then can the OS pick another process to
+not<00:05:11.180> with<00:05:11.570> pre-emptive<00:05:12.020> scheduling<00:05:12.230> be<00:05:12.710> OS
+
+00:05:12.940 --> 00:05:12.950 
+not with pre-emptive scheduling be OS
+
+00:05:12.950 --> 00:05:15.490 
+not with pre-emptive scheduling be OS
+can<00:05:13.280> periodically<00:05:14.110> based<00:05:15.110> on<00:05:15.290> some
+
+00:05:15.490 --> 00:05:15.500 
+can periodically based on some
+
+00:05:15.500 --> 00:05:18.580 
+can periodically based on some
+parameters<00:05:16.340> kicking<00:05:17.120> take<00:05:17.930> other<00:05:18.140> process
+
+00:05:18.580 --> 00:05:18.590 
+parameters kicking take other process
+
+00:05:18.590 --> 00:05:20.260 
+parameters kicking take other process
+currently<00:05:18.770> on<00:05:19.070> your<00:05:19.100> CPU<00:05:19.430> and<00:05:19.880> then<00:05:20.000> put<00:05:20.180> in
+
+00:05:20.260 --> 00:05:20.270 
+currently on your CPU and then put in
+
+00:05:20.270 --> 00:05:25.510 
+currently on your CPU and then put in
+another<00:05:20.480> one<00:05:20.690> that<00:05:21.020> does<00:05:24.100> there<00:05:25.100> are<00:05:25.160> lots<00:05:25.370> of
+
+00:05:25.510 --> 00:05:25.520 
+another one that does there are lots of
+
+00:05:25.520 --> 00:05:27.820 
+another one that does there are lots of
+different<00:05:25.880> scheduling<00:05:26.300> criteria<00:05:26.840> some<00:05:27.680> of
+
+00:05:27.820 --> 00:05:27.830 
+different scheduling criteria some of
+
+00:05:27.830 --> 00:05:32.530 
+different scheduling criteria some of
+the<00:05:27.920> ones<00:05:28.100> that<00:05:30.160> we<00:05:31.160> can<00:05:31.190> explore<00:05:31.670> our<00:05:32.030> CPU
+
+00:05:32.530 --> 00:05:32.540 
+the ones that we can explore our CPU
+
+00:05:32.540 --> 00:05:34.150 
+the ones that we can explore our CPU
+utilization<00:05:32.870> which<00:05:33.380> is<00:05:33.530> the<00:05:33.590> percentage<00:05:34.010> of
+
+00:05:34.150 --> 00:05:34.160 
+utilization which is the percentage of
+
+00:05:34.160 --> 00:05:36.490 
+utilization which is the percentage of
+time<00:05:34.220> on<00:05:34.490> the<00:05:34.550> CPUs<00:05:34.940> busy<00:05:35.300> if<00:05:35.450> the<00:05:35.600> goal<00:05:35.870> is<00:05:36.230> to
+
+00:05:36.490 --> 00:05:36.500 
+time on the CPUs busy if the goal is to
+
+00:05:36.500 --> 00:05:40.750 
+time on the CPUs busy if the goal is to
+make<00:05:36.830> sure<00:05:37.040> your<00:05:37.280> CPU<00:05:37.670> is<00:05:37.730> busy<00:05:38.950> then<00:05:39.950> you<00:05:40.580> want
+
+00:05:40.750 --> 00:05:40.760 
+make sure your CPU is busy then you want
+
+00:05:40.760 --> 00:05:43.090 
+make sure your CPU is busy then you want
+to<00:05:40.850> make<00:05:41.000> sure<00:05:41.030> that<00:05:41.330> the<00:05:41.450> applications<00:05:42.140> run
+
+00:05:43.090 --> 00:05:43.100 
+to make sure that the applications run
+
+00:05:43.100 --> 00:05:45.100 
+to make sure that the applications run
+as<00:05:43.280> long<00:05:43.520> as<00:05:43.670> possible<00:05:43.820> CPU<00:05:44.390> and<00:05:44.510> skip<00:05:44.750> and<00:05:44.930> the
+
+00:05:45.100 --> 00:05:45.110 
+as long as possible CPU and skip and the
+
+00:05:45.110 --> 00:05:47.110 
+as long as possible CPU and skip and the
+scheduler<00:05:45.560> which<00:05:45.860> is<00:05:46.070> technically<00:05:46.550> overhead
+
+00:05:47.110 --> 00:05:47.120 
+scheduler which is technically overhead
+
+00:05:47.120 --> 00:05:49.120 
+scheduler which is technically overhead
+does<00:05:47.570> not<00:05:47.720> occupy<00:05:48.020> a<00:05:48.140> lot<00:05:48.350> a<00:05:48.590> large<00:05:48.830> fraction
+
+00:05:49.120 --> 00:05:49.130 
+does not occupy a lot a large fraction
+
+00:05:49.130 --> 00:05:51.790 
+does not occupy a lot a large fraction
+of<00:05:49.220> CPUs<00:05:49.640> time<00:05:50.140> CPU<00:05:51.140> utilization<00:05:51.350> is
+
+00:05:51.790 --> 00:05:51.800 
+of CPUs time CPU utilization is
+
+00:05:51.800 --> 00:05:53.110 
+of CPUs time CPU utilization is
+essentially<00:05:52.250> the<00:05:52.340> fraction<00:05:52.700> of<00:05:52.790> the<00:05:52.880> time
+
+00:05:53.110 --> 00:05:53.120 
+essentially the fraction of the time
+
+00:05:53.120 --> 00:05:55.930 
+essentially the fraction of the time
+spent<00:05:53.510> by<00:05:53.570> CPU<00:05:54.080> in<00:05:54.170> doing<00:05:54.440> useful<00:05:54.650> work<00:05:54.940> this
+
+00:05:55.930 --> 00:05:55.940 
+spent by CPU in doing useful work this
+
+00:05:55.940 --> 00:05:58.090 
+spent by CPU in doing useful work this
+is<00:05:56.090> not<00:05:56.120> only<00:05:56.420> dependent<00:05:56.960> on<00:05:57.050> this<00:05:57.680> on<00:05:57.980> the
+
+00:05:58.090 --> 00:05:58.100 
+is not only dependent on this on the
+
+00:05:58.100 --> 00:05:59.830 
+is not only dependent on this on the
+scheduler<00:05:58.550> itself<00:05:58.910> but<00:05:59.030> it's<00:05:59.180> also<00:05:59.330> dependent
+
+00:05:59.830 --> 00:05:59.840 
+scheduler itself but it's also dependent
+
+00:05:59.840 --> 00:06:01.240 
+scheduler itself but it's also dependent
+on<00:05:59.930> the<00:05:59.990> application<00:06:00.710> if<00:06:01.040> you<00:06:01.130> have<00:06:01.220> a
+
+00:06:01.240 --> 00:06:01.250 
+on the application if you have a
+
+00:06:01.250 --> 00:06:02.530 
+on the application if you have a
+application<00:06:01.760> that<00:06:01.880> I'm<00:06:01.970> gonna<00:06:02.090> do<00:06:02.240> a<00:06:02.270> lot<00:06:02.510> of
+
+00:06:02.530 --> 00:06:02.540 
+application that I'm gonna do a lot of
+
+00:06:02.540 --> 00:06:05.650 
+application that I'm gonna do a lot of
+our<00:06:02.750> tasks<00:06:03.350> then<00:06:03.800> it's<00:06:04.790> highly<00:06:05.120> unlikely<00:06:05.270> that
+
+00:06:05.650 --> 00:06:05.660 
+our tasks then it's highly unlikely that
+
+00:06:05.660 --> 00:06:06.730 
+our tasks then it's highly unlikely that
+you're<00:06:05.780> gonna<00:06:05.960> achieve<00:06:06.050> high<00:06:06.350> CPU
+
+00:06:06.730 --> 00:06:06.740 
+you're gonna achieve high CPU
+
+00:06:06.740 --> 00:06:09.700 
+you're gonna achieve high CPU
+utilization<00:06:07.810> then<00:06:08.810> there's<00:06:09.110> the<00:06:09.380> throughput
+
+00:06:09.700 --> 00:06:09.710 
+utilization then there's the throughput
+
+00:06:09.710 --> 00:06:11.650 
+utilization then there's the throughput
+argument<00:06:10.220> this<00:06:10.370> is<00:06:10.430> your<00:06:10.640> cloud<00:06:10.940> computing
+
+00:06:11.650 --> 00:06:11.660 
+argument this is your cloud computing
+
+00:06:11.660 --> 00:06:13.570 
+argument this is your cloud computing
+argument<00:06:12.110> where<00:06:12.290> you<00:06:12.800> want<00:06:13.010> to<00:06:13.100> run<00:06:13.220> as<00:06:13.430> many
+
+00:06:13.570 --> 00:06:13.580 
+argument where you want to run as many
+
+00:06:13.580 --> 00:06:16.300 
+argument where you want to run as many
+processes<00:06:14.240> as<00:06:14.600> possible<00:06:15.200> and<00:06:15.410> complete<00:06:16.100> them
+
+00:06:16.300 --> 00:06:16.310 
+processes as possible and complete them
+
+00:06:16.310 --> 00:06:17.770 
+processes as possible and complete them
+in<00:06:16.430> the<00:06:16.490> shortest<00:06:16.790> time<00:06:17.000> possible<00:06:17.210> so<00:06:17.720> you
+
+00:06:17.770 --> 00:06:17.780 
+in the shortest time possible so you
+
+00:06:17.780 --> 00:06:19.210 
+in the shortest time possible so you
+want<00:06:17.930> to<00:06:17.990> complete<00:06:18.290> all<00:06:18.470> the<00:06:18.500> tasks<00:06:19.040> in<00:06:19.130> the
+
+00:06:19.210 --> 00:06:19.220 
+want to complete all the tasks in the
+
+00:06:19.220 --> 00:06:21.370 
+want to complete all the tasks in the
+shortest<00:06:19.490> time<00:06:19.720> then<00:06:20.720> you<00:06:20.810> have<00:06:20.930> response
+
+00:06:21.370 --> 00:06:21.380 
+shortest time then you have response
+
+00:06:21.380 --> 00:06:23.500 
+shortest time then you have response
+time<00:06:21.620> which<00:06:21.800> is<00:06:21.920> like<00:06:21.950> a<00:06:22.070> web<00:06:22.340> server<00:06:22.640> which<00:06:23.420> is
+
+00:06:23.500 --> 00:06:23.510 
+time which is like a web server which is
+
+00:06:23.510 --> 00:06:24.580 
+time which is like a web server which is
+the<00:06:23.600> amount<00:06:23.720> of<00:06:23.810> time<00:06:24.050> to<00:06:24.260> finish<00:06:24.470> a
+
+00:06:24.580 --> 00:06:24.590 
+the amount of time to finish a
+
+00:06:24.590 --> 00:06:26.230 
+the amount of time to finish a
+particular<00:06:25.130> process<00:06:25.580> so<00:06:25.700> you<00:06:25.790> want<00:06:25.970> to<00:06:26.060> make
+
+00:06:26.230 --> 00:06:26.240 
+particular process so you want to make
+
+00:06:26.240 --> 00:06:29.140 
+particular process so you want to make
+sure<00:06:26.510> that<00:06:26.780> you<00:06:27.350> you<00:06:27.950> satisfy<00:06:28.550> every<00:06:28.940> web
+
+00:06:29.140 --> 00:06:29.150 
+sure that you you satisfy every web
+
+00:06:29.150 --> 00:06:31.480 
+sure that you you satisfy every web
+request<00:06:29.540> of<00:06:29.660> yours<00:06:29.870> with<00:06:30.410> a<00:06:30.440> 99<00:06:30.920> percentile<00:06:31.460> of
+
+00:06:31.480 --> 00:06:31.490 
+request of yours with a 99 percentile of
+
+00:06:31.490 --> 00:06:34.210 
+request of yours with a 99 percentile of
+a<00:06:31.730> certain<00:06:32.230> response<00:06:33.230> time<00:06:33.440> right<00:06:33.950> so<00:06:34.160> you
+
+00:06:34.210 --> 00:06:34.220 
+a certain response time right so you
+
+00:06:34.220 --> 00:06:36.670 
+a certain response time right so you
+want<00:06:34.460> to<00:06:34.610> satisfy<00:06:34.880> 99%<00:06:35.780> requests<00:06:36.350> that<00:06:36.500> come
+
+00:06:36.670 --> 00:06:36.680 
+want to satisfy 99% requests that come
+
+00:06:36.680 --> 00:06:38.350 
+want to satisfy 99% requests that come
+in<00:06:36.830> to<00:06:36.860> your<00:06:37.100> web<00:06:37.280> server<00:06:37.550> in<00:06:37.940> a<00:06:38.060> certain
+
+00:06:38.350 --> 00:06:38.360 
+in to your web server in a certain
+
+00:06:38.360 --> 00:06:40.680 
+in to your web server in a certain
+amount<00:06:38.510> of<00:06:38.630> time<00:06:38.870> so<00:06:39.110> in<00:06:39.500> this<00:06:39.680> case
+
+00:06:40.680 --> 00:06:40.690 
+amount of time so in this case
+
+00:06:40.690 --> 00:06:42.300 
+amount of time so in this case
+or<00:06:40.930> if<00:06:41.350> you<00:06:41.440> have<00:06:41.530> think<00:06:41.740> that<00:06:41.770> google<00:06:42.100> docs
+
+00:06:42.300 --> 00:06:42.310 
+or if you have think that google docs
+
+00:06:42.310 --> 00:06:44.909 
+or if you have think that google docs
+interactive<00:06:43.000> priorities<00:06:43.919> extremely
+
+00:06:44.909 --> 00:06:44.919 
+interactive priorities extremely
+
+00:06:44.919 --> 00:06:45.680 
+interactive priorities extremely
+important
+
+00:06:45.680 --> 00:06:45.690 
+important
+
+00:06:45.690 --> 00:06:48.120 
+important
+finally<00:06:46.690> there's<00:06:46.870> waiting<00:06:47.139> time<00:06:47.350> which<00:06:47.980> is
+
+00:06:48.120 --> 00:06:48.130 
+finally there's waiting time which is
+
+00:06:48.130 --> 00:06:49.469 
+finally there's waiting time which is
+the<00:06:48.220> amount<00:06:48.370> of<00:06:48.490> time<00:06:48.639> the<00:06:48.760> process<00:06:49.120> waits<00:06:49.300> in
+
+00:06:49.469 --> 00:06:49.479 
+the amount of time the process waits in
+
+00:06:49.479 --> 00:06:50.580 
+the amount of time the process waits in
+the<00:06:49.540> ready<00:06:49.690> queue<00:06:49.930> before<00:06:50.110> it<00:06:50.320> starts
+
+00:06:50.580 --> 00:06:50.590 
+the ready queue before it starts
+
+00:06:50.590 --> 00:06:52.680 
+the ready queue before it starts
+execution<00:06:51.040> this<00:06:51.850> is<00:06:52.030> very<00:06:52.240> important<00:06:52.630> for
+
+00:06:52.680 --> 00:06:52.690 
+execution this is very important for
+
+00:06:52.690 --> 00:06:54.570 
+execution this is very important for
+interactive<00:06:53.229> processes<00:06:53.740> to<00:06:53.979> make<00:06:54.130> sure<00:06:54.190> that
+
+00:06:54.570 --> 00:06:54.580 
+interactive processes to make sure that
+
+00:06:54.580 --> 00:06:56.730 
+interactive processes to make sure that
+you're<00:06:54.850> not<00:06:54.940> waiting<00:06:55.150> for<00:06:55.300> a<00:06:55.449> long<00:06:55.630> time<00:06:55.960> even
+
+00:06:56.730 --> 00:06:56.740 
+you're not waiting for a long time even
+
+00:06:56.740 --> 00:06:59.370 
+you're not waiting for a long time even
+if<00:06:57.220> all<00:06:57.490> even<00:06:58.180> if<00:06:58.330> you<00:06:58.449> maximize<00:06:58.930> throughput
+
+00:06:59.370 --> 00:06:59.380 
+if all even if you maximize throughput
+
+00:06:59.380 --> 00:07:03.060 
+if all even if you maximize throughput
+right<00:06:59.979> so<00:07:00.870> you<00:07:01.870> essentially<00:07:02.440> have<00:07:02.770> to<00:07:02.919> make
+
+00:07:03.060 --> 00:07:03.070 
+right so you essentially have to make
+
+00:07:03.070 --> 00:07:04.980 
+right so you essentially have to make
+sure<00:07:03.280> that<00:07:03.430> all<00:07:03.610> tasks<00:07:04.090> are<00:07:04.240> responsive<00:07:04.840> and
+
+00:07:04.980 --> 00:07:04.990 
+sure that all tasks are responsive and
+
+00:07:04.990 --> 00:07:07.710 
+sure that all tasks are responsive and
+that<00:07:06.180> they're<00:07:07.180> getting<00:07:07.270> the<00:07:07.479> appropriate
+
+00:07:07.710 --> 00:07:07.720 
+that they're getting the appropriate
+
+00:07:07.720 --> 00:07:09.900 
+that they're getting the appropriate
+time<00:07:08.169> to<00:07:08.410> do<00:07:08.830> the<00:07:08.979> things<00:07:09.010> the<00:07:09.370> display<00:07:09.729> or<00:07:09.880> the
+
+00:07:09.900 --> 00:07:09.910 
+time to do the things the display or the
+
+00:07:09.910 --> 00:07:11.909 
+time to do the things the display or the
+i/o<00:07:10.120> example<00:07:10.840> if<00:07:10.900> you<00:07:10.960> need<00:07:11.080> a<00:07:11.139> keystroke<00:07:11.530> it
+
+00:07:11.909 --> 00:07:11.919 
+i/o example if you need a keystroke it
+
+00:07:11.919 --> 00:07:13.440 
+i/o example if you need a keystroke it
+can<00:07:12.130> take<00:07:12.370> a<00:07:12.400> long<00:07:12.610> time<00:07:12.820> for<00:07:12.880> it<00:07:13.120> up<00:07:13.210> here<00:07:13.360> on
+
+00:07:13.440 --> 00:07:13.450 
+can take a long time for it up here on
+
+00:07:13.450 --> 00:07:17.460 
+can take a long time for it up here on
+the<00:07:13.540> screen<00:07:13.720> right<00:07:14.169> there<00:07:16.169> are<00:07:17.169> lots<00:07:17.350> of
+
+00:07:17.460 --> 00:07:17.470 
+the screen right there are lots of
+
+00:07:17.470 --> 00:07:18.900 
+the screen right there are lots of
+different<00:07:17.830> goals<00:07:18.040> obviously<00:07:18.280> as<00:07:18.580> you<00:07:18.700> spoke
+
+00:07:18.900 --> 00:07:18.910 
+different goals obviously as you spoke
+
+00:07:18.910 --> 00:07:20.670 
+different goals obviously as you spoke
+about<00:07:18.970> you<00:07:19.270> can<00:07:19.419> maximize<00:07:19.660> utilization<00:07:19.990> or
+
+00:07:20.670 --> 00:07:20.680 
+about you can maximize utilization or
+
+00:07:20.680 --> 00:07:22.620 
+about you can maximize utilization or
+through<00:07:20.919> port<00:07:21.220> or<00:07:21.490> even<00:07:21.760> response<00:07:22.150> time<00:07:22.389> and
+
+00:07:22.620 --> 00:07:22.630 
+through port or even response time and
+
+00:07:22.630 --> 00:07:24.890 
+through port or even response time and
+typically<00:07:23.470> these<00:07:23.919> goals<00:07:24.250> cannot<00:07:24.550> be<00:07:24.700> achieved
+
+00:07:24.890 --> 00:07:24.900 
+typically these goals cannot be achieved
+
+00:07:24.900 --> 00:07:29.159 
+typically these goals cannot be achieved
+simultaneously<00:07:25.900> and<00:07:26.800> so<00:07:27.960> each<00:07:28.960> of<00:07:28.990> the
+
+00:07:29.159 --> 00:07:29.169 
+simultaneously and so each of the
+
+00:07:29.169 --> 00:07:30.930 
+simultaneously and so each of the
+specific<00:07:29.350> algorithms<00:07:30.100> you<00:07:30.160> look<00:07:30.430> at<00:07:30.639> will<00:07:30.820> try
+
+00:07:30.930 --> 00:07:30.940 
+specific algorithms you look at will try
+
+00:07:30.940 --> 00:07:33.029 
+specific algorithms you look at will try
+to<00:07:30.970> optimize<00:07:31.180> one<00:07:31.930> or<00:07:32.200> more<00:07:32.380> of<00:07:32.530> these<00:07:32.620> metrics
+
+00:07:33.029 --> 00:07:33.039 
+to optimize one or more of these metrics
+
+00:07:33.039 --> 00:07:35.550 
+to optimize one or more of these metrics
+but<00:07:33.550> may<00:07:33.910> possibly<00:07:34.660> sacrifice<00:07:35.260> some<00:07:35.410> of<00:07:35.440> these
+
+00:07:35.550 --> 00:07:35.560 
+but may possibly sacrifice some of these
+
+00:07:35.560 --> 00:07:38.879 
+but may possibly sacrifice some of these
+other<00:07:35.770> metrics<00:07:36.010> and<00:07:36.479> this<00:07:37.479> Accra<00:07:37.840> is<00:07:38.020> it<00:07:38.260> based
+
+00:07:38.879 --> 00:07:38.889 
+other metrics and this Accra is it based
+
+00:07:38.889 --> 00:07:43.439 
+other metrics and this Accra is it based
+on<00:07:39.160> the<00:07:39.280> system<00:07:39.880> conditions<00:07:40.560> based<00:07:41.560> on<00:07:42.449> what
+
+00:07:43.439 --> 00:07:43.449 
+on the system conditions based on what
+
+00:07:43.449 --> 00:07:46.940 
+on the system conditions based on what
+the<00:07:44.010> average<00:07:45.010> latency<00:07:45.820> of<00:07:46.210> each<00:07:46.360> of<00:07:46.539> these
+
+00:07:46.940 --> 00:07:46.950 
+the average latency of each of these
+
+00:07:46.950 --> 00:07:49.680 
+the average latency of each of these
+tasks<00:07:47.950> are<00:07:48.130> jobs<00:07:48.460> that<00:07:48.700> come<00:07:48.880> in<00:07:49.030> are<00:07:49.210> they
+
+00:07:49.680 --> 00:07:49.690 
+tasks are jobs that come in are they
+
+00:07:49.690 --> 00:07:51.300 
+tasks are jobs that come in are they
+have<00:07:49.810> done<00:07:49.990> more<00:07:50.139> order<00:07:50.440> they<00:07:50.560> come<00:07:50.770> in<00:07:50.919> lots
+
+00:07:51.300 --> 00:07:51.310 
+have done more order they come in lots
+
+00:07:51.310 --> 00:07:53.640 
+have done more order they come in lots
+of<00:07:51.520> different<00:07:51.580> system<00:07:52.180> parameters<00:07:52.690> as<00:07:53.590> a
+
+00:07:53.640 --> 00:07:53.650 
+of different system parameters as a
+
+00:07:53.650 --> 00:07:55.379 
+of different system parameters as a
+dynamic<00:07:54.310> system<00:07:54.460> characteristics<00:07:55.210> and
+
+00:07:55.379 --> 00:07:55.389 
+dynamic system characteristics and
+
+00:07:55.389 --> 00:07:59.279 
+dynamic system characteristics and
+influence<00:07:55.900> each<00:07:56.320> of<00:07:56.530> these<00:07:56.590> parameters<00:07:58.289> so
+
+00:07:59.279 --> 00:07:59.289 
+influence each of these parameters so
+
+00:07:59.289 --> 00:08:01.320 
+influence each of these parameters so
+we're<00:07:59.860> gonna<00:08:00.010> look<00:08:00.280> at<00:08:00.520> quite<00:08:00.760> a<00:08:00.820> few<00:08:01.090> of<00:08:01.240> the
+
+00:08:01.320 --> 00:08:01.330 
+we're gonna look at quite a few of the
+
+00:08:01.330 --> 00:08:03.029 
+we're gonna look at quite a few of the
+scheduling<00:08:01.690> algorithms<00:08:02.289> we're<00:08:02.800> going<00:08:02.979> to
+
+00:08:03.029 --> 00:08:03.039 
+scheduling algorithms we're going to
+
+00:08:03.039 --> 00:08:04.310 
+scheduling algorithms we're going to
+look<00:08:03.160> at<00:08:03.310> first-come-first-served
+
+00:08:04.310 --> 00:08:04.320 
+look at first-come-first-served
+
+00:08:04.320 --> 00:08:07.700 
+look at first-come-first-served
+round-robin<00:08:05.789> shutters<00:08:06.789> champ<00:08:07.030> first
+
+00:08:07.700 --> 00:08:07.710 
+round-robin shutters champ first
+
+00:08:07.710 --> 00:08:10.560 
+round-robin shutters champ first
+priority<00:08:08.710> based<00:08:08.950> ones<00:08:09.280> and<00:08:09.639> then<00:08:10.210> finally
+
+00:08:10.560 --> 00:08:10.570 
+priority based ones and then finally
+
+00:08:10.570 --> 00:08:12.719 
+priority based ones and then finally
+largely<00:08:10.810> scheduling<00:08:11.380> we<00:08:12.039> look<00:08:12.280> at<00:08:12.430> each<00:08:12.580> of
+
+00:08:12.719 --> 00:08:12.729 
+largely scheduling we look at each of
+
+00:08:12.729 --> 00:08:14.580 
+largely scheduling we look at each of
+these<00:08:12.849> in<00:08:13.150> order<00:08:13.360> and<00:08:13.810> we<00:08:14.020> look<00:08:14.169> at<00:08:14.289> the<00:08:14.349> pros
+
+00:08:14.580 --> 00:08:14.590 
+these in order and we look at the pros
+
+00:08:14.590 --> 00:08:18.389 
+these in order and we look at the pros
+and<00:08:14.770> cons<00:08:15.010> for<00:08:15.310> each<00:08:15.880> of<00:08:16.000> the<00:08:16.060> others
+

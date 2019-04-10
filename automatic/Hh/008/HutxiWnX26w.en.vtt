@@ -1,0 +1,1071 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.459 
+
+what<00:00:00.450> is<00:00:00.539> going<00:00:00.690> on<00:00:00.780> everybody<00:00:00.989> welcome<00:00:01.439> to
+
+00:00:01.459 --> 00:00:01.469 
+what is going on everybody welcome to
+
+00:00:01.469 --> 00:00:03.530 
+what is going on everybody welcome to
+another<00:00:02.100> Python<00:00:02.610> with<00:00:02.970> raspberry<00:00:03.389> pi
+
+00:00:03.530 --> 00:00:03.540 
+another Python with raspberry pi
+
+00:00:03.540 --> 00:00:05.059 
+another Python with raspberry pi
+robotics<00:00:04.020> video<00:00:04.410> here<00:00:04.710> we're<00:00:04.830> going<00:00:04.920> to<00:00:05.009> be
+
+00:00:05.059 --> 00:00:05.069 
+robotics video here we're going to be
+
+00:00:05.069 --> 00:00:06.440 
+robotics video here we're going to be
+taking<00:00:05.310> one<00:00:05.430> step<00:00:05.549> closer<00:00:05.970> towards<00:00:06.240> the
+
+00:00:06.440 --> 00:00:06.450 
+taking one step closer towards the
+
+00:00:06.450 --> 00:00:08.589 
+taking one step closer towards the
+welcoming<00:00:06.870> of<00:00:06.990> our<00:00:07.109> new<00:00:07.259> robot<00:00:07.529> overlords
+
+00:00:08.589 --> 00:00:08.599 
+welcoming of our new robot overlords
+
+00:00:08.599 --> 00:00:10.549 
+welcoming of our new robot overlords
+anyway<00:00:09.599> what<00:00:09.870> we're<00:00:09.960> going<00:00:10.080> to<00:00:10.110> be<00:00:10.200> doing<00:00:10.380> here
+
+00:00:10.549 --> 00:00:10.559 
+anyway what we're going to be doing here
+
+00:00:10.559 --> 00:00:13.039 
+anyway what we're going to be doing here
+is<00:00:10.769> creating<00:00:11.490> a<00:00:11.550> program<00:00:11.730> to<00:00:12.059> sense<00:00:12.269> distance
+
+00:00:13.039 --> 00:00:13.049 
+is creating a program to sense distance
+
+00:00:13.049 --> 00:00:15.829 
+is creating a program to sense distance
+using<00:00:13.410> our<00:00:13.620> new<00:00:13.740> ultrasonic<00:00:14.370> sensor<00:00:14.910> if<00:00:15.269> you
+
+00:00:15.829 --> 00:00:15.839 
+using our new ultrasonic sensor if you
+
+00:00:15.839 --> 00:00:17.060 
+using our new ultrasonic sensor if you
+missed<00:00:16.020> how<00:00:16.139> we<00:00:16.199> hooked<00:00:16.440> it<00:00:16.560> up<00:00:16.650> check<00:00:16.890> out<00:00:17.010> the
+
+00:00:17.060 --> 00:00:17.070 
+missed how we hooked it up check out the
+
+00:00:17.070 --> 00:00:18.740 
+missed how we hooked it up check out the
+previous<00:00:17.279> video<00:00:17.460> in<00:00:17.730> the<00:00:17.789> playlist<00:00:17.970> the<00:00:18.539> link
+
+00:00:18.740 --> 00:00:18.750 
+previous video in the playlist the link
+
+00:00:18.750 --> 00:00:20.660 
+previous video in the playlist the link
+to<00:00:18.840> that<00:00:18.869> is<00:00:19.170> in<00:00:19.410> the<00:00:19.470> description<00:00:19.590> so<00:00:20.550> let's
+
+00:00:20.660 --> 00:00:20.670 
+to that is in the description so let's
+
+00:00:20.670 --> 00:00:22.490 
+to that is in the description so let's
+go<00:00:20.730> ahead<00:00:20.789> and<00:00:20.880> get<00:00:21.000> started<00:00:21.510> so<00:00:22.020> first<00:00:22.260> of<00:00:22.439> all
+
+00:00:22.490 --> 00:00:22.500 
+go ahead and get started so first of all
+
+00:00:22.500 --> 00:00:24.349 
+go ahead and get started so first of all
+once<00:00:23.160> you<00:00:23.250> log<00:00:23.430> into<00:00:23.609> your<00:00:23.699> pi<00:00:23.970> you'll<00:00:24.210> just
+
+00:00:24.349 --> 00:00:24.359 
+once you log into your pi you'll just
+
+00:00:24.359 --> 00:00:26.240 
+once you log into your pi you'll just
+you'll<00:00:24.600> find<00:00:24.869> yourself<00:00:25.170> here<00:00:25.439> let's<00:00:26.070> go<00:00:26.220> ahead
+
+00:00:26.240 --> 00:00:26.250 
+you'll find yourself here let's go ahead
+
+00:00:26.250 --> 00:00:33.950 
+you'll find yourself here let's go ahead
+and<00:00:26.730> CD<00:00:27.269> into<00:00:27.960> our<00:00:28.260> robotics<00:00:28.650> directory<00:00:32.960> once
+
+00:00:33.950 --> 00:00:33.960 
+and CD into our robotics directory once
+
+00:00:33.960 --> 00:00:35.150 
+and CD into our robotics directory once
+we're<00:00:34.110> in<00:00:34.200> there<00:00:34.350> let's<00:00:34.649> go<00:00:34.770> ahead<00:00:34.860> and<00:00:35.040> just
+
+00:00:35.150 --> 00:00:35.160 
+we're in there let's go ahead and just
+
+00:00:35.160 --> 00:00:36.770 
+we're in there let's go ahead and just
+make<00:00:35.340> a<00:00:35.399> new<00:00:35.610> file<00:00:35.969> and<00:00:36.300> we're<00:00:36.450> going<00:00:36.570> to<00:00:36.600> call
+
+00:00:36.770 --> 00:00:36.780 
+make a new file and we're going to call
+
+00:00:36.780 --> 00:00:43.750 
+make a new file and we're going to call
+this<00:00:37.520> sensor<00:00:38.520> so<00:00:39.090> sudo<00:00:40.050> nano<00:00:40.910> sensor<00:00:41.910> dot<00:00:42.300> pi
+
+00:00:43.750 --> 00:00:43.760 
+this sensor so sudo nano sensor dot pi
+
+00:00:43.760 --> 00:00:46.700 
+this sensor so sudo nano sensor dot pi
+now<00:00:44.760> we<00:00:44.820> need<00:00:45.090> to<00:00:45.300> program<00:00:45.750> our<00:00:46.050> sensor
+
+00:00:46.700 --> 00:00:46.710 
+now we need to program our sensor
+
+00:00:46.710 --> 00:00:48.950 
+now we need to program our sensor
+scripts<00:00:47.370> so<00:00:47.700> we're<00:00:48.120> going<00:00:48.210> to<00:00:48.300> only<00:00:48.420> need<00:00:48.629> to
+
+00:00:48.950 --> 00:00:48.960 
+scripts so we're going to only need to
+
+00:00:48.960 --> 00:00:51.850 
+scripts so we're going to only need to
+imports<00:00:49.410> here<00:00:49.649> one<00:00:50.219> we're<00:00:50.399> going<00:00:50.489> to<00:00:50.550> import
+
+00:00:51.850 --> 00:00:51.860 
+imports here one we're going to import
+
+00:00:51.860 --> 00:00:55.939 
+imports here one we're going to import
+RPI<00:00:52.860> dot<00:00:53.430> GPIO<00:00:54.059> as<00:00:54.390> usual<00:00:54.840> and<00:00:55.320> we'll<00:00:55.620> import
+
+00:00:55.939 --> 00:00:55.949 
+RPI dot GPIO as usual and we'll import
+
+00:00:55.949 --> 00:01:00.650 
+RPI dot GPIO as usual and we'll import
+that<00:00:56.070> as<00:00:57.469> GPIO<00:00:59.149> then<00:01:00.149> we're<00:01:00.239> going<00:01:00.359> to<00:01:00.390> need<00:01:00.539> to
+
+00:01:00.650 --> 00:01:00.660 
+that as GPIO then we're going to need to
+
+00:01:00.660 --> 00:01:03.020 
+that as GPIO then we're going to need to
+import<00:01:00.750> time<00:01:01.379> and<00:01:01.920> time<00:01:02.460> is<00:01:02.609> going<00:01:02.640> to<00:01:02.789> be<00:01:02.879> used
+
+00:01:03.020 --> 00:01:03.030 
+import time and time is going to be used
+
+00:01:03.030 --> 00:01:04.160 
+import time and time is going to be used
+for<00:01:03.210> a<00:01:03.239> couple<00:01:03.359> of<00:01:03.510> different<00:01:03.600> things<00:01:03.780> one
+
+00:01:04.160 --> 00:01:04.170 
+for a couple of different things one
+
+00:01:04.170 --> 00:01:06.350 
+for a couple of different things one
+will<00:01:04.350> be<00:01:04.470> literally<00:01:04.920> as<00:01:05.040> a<00:01:05.070> wait<00:01:05.339> time<00:01:05.729> but
+
+00:01:06.350 --> 00:01:06.360 
+will be literally as a wait time but
+
+00:01:06.360 --> 00:01:09.100 
+will be literally as a wait time but
+then<00:01:06.479> also<00:01:06.659> to<00:01:07.619> measure<00:01:07.860> the<00:01:08.159> time<00:01:08.369> between
+
+00:01:09.100 --> 00:01:09.110 
+then also to measure the time between
+
+00:01:09.110 --> 00:01:12.679 
+then also to measure the time between
+the<00:01:10.110> signals<00:01:10.470> that<00:01:10.530> we<00:01:10.619> send<00:01:11.270> so<00:01:12.270> now<00:01:12.420> what<00:01:12.570> we
+
+00:01:12.679 --> 00:01:12.689 
+the signals that we send so now what we
+
+00:01:12.689 --> 00:01:15.649 
+the signals that we send so now what we
+want<00:01:12.869> to<00:01:12.930> do<00:01:13.110> is<00:01:14.060> we<00:01:15.060> need<00:01:15.210> to<00:01:15.330> define<00:01:15.600> our
+
+00:01:15.649 --> 00:01:15.659 
+want to do is we need to define our
+
+00:01:15.659 --> 00:01:17.030 
+want to do is we need to define our
+function<00:01:15.960> and<00:01:16.350> I'm<00:01:16.409> just<00:01:16.530> going<00:01:16.650> to<00:01:16.710> call<00:01:16.860> this
+
+00:01:17.030 --> 00:01:17.040 
+function and I'm just going to call this
+
+00:01:17.040 --> 00:01:22.100 
+function and I'm just going to call this
+function<00:01:17.600> distance<00:01:18.600> and<00:01:20.360> then<00:01:21.360> in<00:01:21.630> distance
+
+00:01:22.100 --> 00:01:22.110 
+function distance and then in distance
+
+00:01:22.110 --> 00:01:23.240 
+function distance and then in distance
+we're<00:01:22.290> only<00:01:22.409> going<00:01:22.560> to<00:01:22.619> have<00:01:22.680> one<00:01:22.799> parameter
+
+00:01:23.240 --> 00:01:23.250 
+we're only going to have one parameter
+
+00:01:23.250 --> 00:01:25.690 
+we're only going to have one parameter
+and<00:01:23.640> I'm<00:01:24.270> going<00:01:24.420> to<00:01:24.450> call<00:01:24.570> that<00:01:24.630> measure<00:01:25.170> and
+
+00:01:25.690 --> 00:01:25.700 
+and I'm going to call that measure and
+
+00:01:25.700 --> 00:01:29.210 
+and I'm going to call that measure and
+in<00:01:26.700> here<00:01:27.150> is<00:01:27.299> where<00:01:27.630> the<00:01:27.840> user<00:01:27.990> can<00:01:28.409> specify
+
+00:01:29.210 --> 00:01:29.220 
+in here is where the user can specify
+
+00:01:29.220 --> 00:01:30.770 
+in here is where the user can specify
+whether<00:01:29.700> they<00:01:29.880> want<00:01:30.090> centimeters<00:01:30.600> or<00:01:30.750> inches
+
+00:01:30.770 --> 00:01:30.780 
+whether they want centimeters or inches
+
+00:01:30.780 --> 00:01:32.780 
+whether they want centimeters or inches
+and<00:01:31.380> I'm<00:01:31.710> going<00:01:31.860> to<00:01:31.890> set<00:01:32.040> the<00:01:32.130> default<00:01:32.280> to<00:01:32.670> be
+
+00:01:32.780 --> 00:01:32.790 
+and I'm going to set the default to be
+
+00:01:32.790 --> 00:01:35.179 
+and I'm going to set the default to be
+centimeters<00:01:33.619> so<00:01:34.619> moving<00:01:34.860> on<00:01:34.979> with<00:01:35.100> our
+
+00:01:35.179 --> 00:01:35.189 
+centimeters so moving on with our
+
+00:01:35.189 --> 00:01:38.990 
+centimeters so moving on with our
+function<00:01:35.369> 1<00:01:36.030> 2<00:01:36.210> 3<00:01:36.420> 4<00:01:37.340> what<00:01:38.340> we<00:01:38.490> want<00:01:38.640> to<00:01:38.729> do<00:01:38.820> now
+
+00:01:38.990 --> 00:01:39.000 
+function 1 2 3 4 what we want to do now
+
+00:01:39.000 --> 00:01:41.569 
+function 1 2 3 4 what we want to do now
+is<00:01:39.360> we<00:01:40.140> want<00:01:40.290> to<00:01:40.350> set<00:01:40.590> the<00:01:40.740> mode<00:01:40.890> for<00:01:41.220> our<00:01:41.310> pins
+
+00:01:41.569 --> 00:01:41.579 
+is we want to set the mode for our pins
+
+00:01:41.579 --> 00:01:43.609 
+is we want to set the mode for our pins
+so<00:01:42.000> if<00:01:42.570> you<00:01:42.689> don't<00:01:42.840> know<00:01:42.960> when<00:01:43.259> you<00:01:43.350> set<00:01:43.530> the
+
+00:01:43.609 --> 00:01:43.619 
+so if you don't know when you set the
+
+00:01:43.619 --> 00:01:45.560 
+so if you don't know when you set the
+mode<00:01:43.829> basically<00:01:44.100> it<00:01:44.369> just<00:01:44.579> it's<00:01:45.060> whether<00:01:45.420> or
+
+00:01:45.560 --> 00:01:45.570 
+mode basically it just it's whether or
+
+00:01:45.570 --> 00:01:48.679 
+mode basically it just it's whether or
+not<00:01:45.689> you<00:01:46.170> want<00:01:46.380> to<00:01:46.470> use<00:01:46.710> the<00:01:47.430> GPIO<00:01:47.970> pin<00:01:48.329> number
+
+00:01:48.679 --> 00:01:48.689 
+not you want to use the GPIO pin number
+
+00:01:48.689 --> 00:01:51.410 
+not you want to use the GPIO pin number
+or<00:01:48.899> the<00:01:49.290> actual<00:01:49.680> like<00:01:50.460> pin<00:01:50.880> number<00:01:51.180> on<00:01:51.299> the
+
+00:01:51.410 --> 00:01:51.420 
+or the actual like pin number on the
+
+00:01:51.420 --> 00:01:53.749 
+or the actual like pin number on the
+board<00:01:51.600> so<00:01:52.259> I<00:01:52.680> like<00:01:52.920> to<00:01:53.040> use<00:01:53.130> the<00:01:53.280> board<00:01:53.490> number
+
+00:01:53.749 --> 00:01:53.759 
+board so I like to use the board number
+
+00:01:53.759 --> 00:01:58.030 
+board so I like to use the board number
+so<00:01:53.939> we're<00:01:54.149> going<00:01:54.240> to<00:01:54.329> say<00:01:54.509> GPIO<00:01:55.140> dot<00:01:55.770> set<00:01:56.399> mode
+
+00:01:58.030 --> 00:01:58.040 
+so we're going to say GPIO dot set mode
+
+00:01:58.040 --> 00:02:03.640 
+so we're going to say GPIO dot set mode
+GPIO<00:01:59.040> dots<00:01:59.520> all<00:02:00.180> caps<00:02:00.540> board
+
+00:02:03.640 --> 00:02:03.650 
+
+00:02:03.650 --> 00:02:06.740 
+
+next<00:02:04.650> up<00:02:04.800> we<00:02:05.040> need<00:02:05.250> to<00:02:05.640> start<00:02:06.180> off<00:02:06.330> our<00:02:06.480> pins
+
+00:02:06.740 --> 00:02:06.750 
+next up we need to start off our pins
+
+00:02:06.750 --> 00:02:08.270 
+next up we need to start off our pins
+and<00:02:06.990> specify<00:02:07.350> what<00:02:07.380> they're<00:02:07.620> going<00:02:07.710> to<00:02:07.770> be<00:02:07.950> so
+
+00:02:08.270 --> 00:02:08.280 
+and specify what they're going to be so
+
+00:02:08.280 --> 00:02:11.330 
+and specify what they're going to be so
+we<00:02:08.729> need<00:02:08.880> to<00:02:09.090> do<00:02:09.179> the<00:02:09.360> two<00:02:09.539> set<00:02:09.810> up<00:02:09.929> so<00:02:10.200> GPIO<00:02:10.979> dot
+
+00:02:11.330 --> 00:02:11.340 
+we need to do the two set up so GPIO dot
+
+00:02:11.340 --> 00:02:16.040 
+we need to do the two set up so GPIO dot
+set<00:02:11.850> up<00:02:12.030> and<00:02:12.800> we<00:02:13.800> hooked<00:02:14.010> up<00:02:14.220> pin<00:02:14.850> 12<00:02:15.330> as<00:02:15.660> our
+
+00:02:16.040 --> 00:02:16.050 
+set up and we hooked up pin 12 as our
+
+00:02:16.050 --> 00:02:18.980 
+set up and we hooked up pin 12 as our
+output<00:02:16.230> pin<00:02:16.710> to<00:02:16.860> the<00:02:16.950> trigger<00:02:17.250> so<00:02:17.820> GPIO<00:02:18.390> dots
+
+00:02:18.980 --> 00:02:18.990 
+output pin to the trigger so GPIO dots
+
+00:02:18.990 --> 00:02:27.220 
+output pin to the trigger so GPIO dots
+out<00:02:19.490> and<00:02:20.490> then<00:02:22.459> GPIO<00:02:23.459> dot<00:02:23.850> set<00:02:24.420> up<00:02:24.950> pin<00:02:25.950> 16<00:02:26.700> and
+
+00:02:27.220 --> 00:02:27.230 
+out and then GPIO dot set up pin 16 and
+
+00:02:27.230 --> 00:02:30.230 
+out and then GPIO dot set up pin 16 and
+this<00:02:28.230> is<00:02:28.410> going<00:02:28.590> to<00:02:28.709> be<00:02:28.980> our<00:02:29.250> echo<00:02:29.640> pin<00:02:29.910> and
+
+00:02:30.230 --> 00:02:30.240 
+this is going to be our echo pin and
+
+00:02:30.240 --> 00:02:36.500 
+this is going to be our echo pin and
+that<00:02:30.480> is<00:02:30.690> a<00:02:30.720> GPIO<00:02:31.200> dot<00:02:31.670> input<00:02:32.670> pin<00:02:34.250> and<00:02:35.510> that's
+
+00:02:36.500 --> 00:02:36.510 
+that is a GPIO dot input pin and that's
+
+00:02:36.510 --> 00:02:39.229 
+that is a GPIO dot input pin and that's
+pretty<00:02:36.750> much<00:02:36.870> all<00:02:37.080> we<00:02:37.140> need<00:02:37.350> to<00:02:37.500> set<00:02:37.860> up<00:02:38.190> so<00:02:38.970> now
+
+00:02:39.229 --> 00:02:39.239 
+pretty much all we need to set up so now
+
+00:02:39.239 --> 00:02:43.610 
+pretty much all we need to set up so now
+we'll<00:02:39.959> come<00:02:40.140> over<00:02:40.290> here<00:02:40.680> and<00:02:41.000> we<00:02:42.000> want<00:02:42.239> to<00:02:42.690> make
+
+00:02:43.610 --> 00:02:43.620 
+we'll come over here and we want to make
+
+00:02:43.620 --> 00:02:45.530 
+we'll come over here and we want to make
+sure<00:02:43.650> the<00:02:43.980> GPI<00:02:44.310> output<00:02:44.850> before<00:02:45.239> we<00:02:45.330> start
+
+00:02:45.530 --> 00:02:45.540 
+sure the GPI output before we start
+
+00:02:45.540 --> 00:02:46.970 
+sure the GPI output before we start
+doing<00:02:45.720> anything<00:02:46.080> just<00:02:46.140> in<00:02:46.410> case<00:02:46.560> it<00:02:46.680> already
+
+00:02:46.970 --> 00:02:46.980 
+doing anything just in case it already
+
+00:02:46.980 --> 00:02:48.800 
+doing anything just in case it already
+had<00:02:47.100> a<00:02:47.130> value<00:02:47.520> let's<00:02:48.000> make<00:02:48.180> sure<00:02:48.209> it<00:02:48.600> doesn't
+
+00:02:48.800 --> 00:02:48.810 
+had a value let's make sure it doesn't
+
+00:02:48.810 --> 00:02:52.690 
+had a value let's make sure it doesn't
+have<00:02:49.080> a<00:02:49.110> value<00:02:49.380> and<00:02:49.739> we're<00:02:50.370> going<00:02:50.520> to<00:02:50.580> say<00:02:51.530> GPIO
+
+00:02:52.690 --> 00:02:52.700 
+have a value and we're going to say GPIO
+
+00:02:52.700 --> 00:02:59.930 
+have a value and we're going to say GPIO
+die<00:02:54.080> output<00:02:55.459> 12<00:02:57.410> false<00:02:58.610> just<00:02:59.610> to<00:02:59.760> make<00:02:59.910> sure
+
+00:02:59.930 --> 00:02:59.940 
+die output 12 false just to make sure
+
+00:02:59.940 --> 00:03:03.020 
+die output 12 false just to make sure
+now<00:03:00.900> after<00:03:01.739> we've<00:03:01.920> done<00:03:01.950> that<00:03:02.130> we're<00:03:02.489> positive
+
+00:03:03.020 --> 00:03:03.030 
+now after we've done that we're positive
+
+00:03:03.030 --> 00:03:05.780 
+now after we've done that we're positive
+what<00:03:03.480> we're<00:03:03.630> going<00:03:03.750> to<00:03:03.780> say<00:03:04.640> basically<00:03:05.640> what
+
+00:03:05.780 --> 00:03:05.790 
+what we're going to say basically what
+
+00:03:05.790 --> 00:03:07.010 
+what we're going to say basically what
+we<00:03:05.880> do<00:03:06.000> is<00:03:06.120> we're<00:03:06.239> going<00:03:06.330> to<00:03:06.420> listen<00:03:06.660> on<00:03:06.900> our
+
+00:03:07.010 --> 00:03:07.020 
+we do is we're going to listen on our
+
+00:03:07.020 --> 00:03:10.670 
+we do is we're going to listen on our
+input<00:03:07.380> pin<00:03:07.590> which<00:03:07.799> is<00:03:07.830> 16<00:03:08.610> and<00:03:09.019> as<00:03:10.019> long<00:03:10.650> as
+
+00:03:10.670 --> 00:03:10.680 
+input pin which is 16 and as long as
+
+00:03:10.680 --> 00:03:16.910 
+input pin which is 16 and as long as
+there<00:03:10.980> is<00:03:11.130> no<00:03:11.430> signal<00:03:12.110> then<00:03:13.110> um<00:03:15.019> if<00:03:16.019> it<00:03:16.560> if
+
+00:03:16.910 --> 00:03:16.920 
+there is no signal then um if it if
+
+00:03:16.920 --> 00:03:18.620 
+there is no signal then um if it if
+there's<00:03:17.190> no<00:03:17.250> signal<00:03:17.760> or<00:03:17.910> it's<00:03:18.060> false
+
+00:03:18.620 --> 00:03:18.630 
+there's no signal or it's false
+
+00:03:18.630 --> 00:03:20.870 
+there's no signal or it's false
+we're<00:03:19.140> going<00:03:19.260> to<00:03:19.320> take<00:03:19.860> the<00:03:20.040> timestamps<00:03:20.700> so
+
+00:03:20.870 --> 00:03:20.880 
+we're going to take the timestamps so
+
+00:03:20.880 --> 00:03:26.979 
+we're going to take the timestamps so
+what<00:03:21.540> we'll<00:03:21.720> do<00:03:21.870> is<00:03:21.900> Wow<00:03:22.410> GPIO<00:03:23.250> dot<00:03:23.850> input<00:03:25.640> oops
+
+00:03:26.979 --> 00:03:26.989 
+what we'll do is Wow GPIO dot input oops
+
+00:03:26.989 --> 00:03:36.440 
+what we'll do is Wow GPIO dot input oops
+while<00:03:27.989> GPIO<00:03:28.470> dot<00:03:29.150> input<00:03:32.780> 16<00:03:34.640> equals<00:03:35.640> zero<00:03:35.940> so
+
+00:03:36.440 --> 00:03:36.450 
+while GPIO dot input 16 equals zero so
+
+00:03:36.450 --> 00:03:40.490 
+while GPIO dot input 16 equals zero so
+it's<00:03:36.630> false<00:03:36.900> basically<00:03:37.650> 1<00:03:38.280> 2<00:03:38.519> 3<00:03:38.730> 4<00:03:39.060> 5<00:03:39.269> 6<00:03:39.660> 7<00:03:39.810> 8
+
+00:03:40.490 --> 00:03:40.500 
+it's false basically 1 2 3 4 5 6 7 8
+
+00:03:40.500 --> 00:03:44.180 
+it's false basically 1 2 3 4 5 6 7 8
+we're<00:03:40.920> going<00:03:41.070> to<00:03:41.130> say<00:03:41.310> no<00:03:41.580> cig<00:03:42.500> equals<00:03:43.500> time
+
+00:03:44.180 --> 00:03:44.190 
+we're going to say no cig equals time
+
+00:03:44.190 --> 00:03:47.720 
+we're going to say no cig equals time
+time<00:03:44.730> so<00:03:45.720> while<00:03:45.930> that's<00:03:46.110> the<00:03:46.380> case<00:03:46.620> no<00:03:47.310> signal
+
+00:03:47.720 --> 00:03:47.730 
+time so while that's the case no signal
+
+00:03:47.730 --> 00:03:51.289 
+time so while that's the case no signal
+is<00:03:47.880> time<00:03:48.299> time<00:03:48.870> and<00:03:49.200> as<00:03:49.530> soon<00:03:49.829> as<00:03:50.130> it<00:03:50.579> is<00:03:50.820> the
+
+00:03:51.289 --> 00:03:51.299 
+is time time and as soon as it is the
+
+00:03:51.299 --> 00:04:01.220 
+is time time and as soon as it is the
+case<00:03:51.570> for<00:03:54.170> while<00:03:55.170> GPIO<00:03:56.160> input<00:03:57.769> 16<00:03:59.030> equals<00:04:00.030> 1<00:04:00.480> 1
+
+00:04:01.220 --> 00:04:01.230 
+case for while GPIO input 16 equals 1 1
+
+00:04:01.230 --> 00:04:06.350 
+case for while GPIO input 16 equals 1 1
+2<00:04:01.440> 3<00:04:01.650> 4<00:04:01.920> 5<00:04:02.160> 6<00:04:02.370> 8<00:04:03.019> sig<00:04:04.019> for<00:04:04.739> signal<00:04:05.130> equals<00:04:05.820> time
+
+00:04:06.350 --> 00:04:06.360 
+2 3 4 5 6 8 sig for signal equals time
+
+00:04:06.360 --> 00:04:08.120 
+2 3 4 5 6 8 sig for signal equals time
+time<00:04:06.810> so<00:04:07.440> now<00:04:07.560> we're<00:04:07.709> going<00:04:07.799> to<00:04:07.890> have<00:04:07.980> 2
+
+00:04:08.120 --> 00:04:08.130 
+time so now we're going to have 2
+
+00:04:08.130 --> 00:04:09.830 
+time so now we're going to have 2
+timestamps<00:04:08.820> one's<00:04:09.030> going<00:04:09.150> to<00:04:09.180> be<00:04:09.269> signal<00:04:09.660> and
+
+00:04:09.830 --> 00:04:09.840 
+timestamps one's going to be signal and
+
+00:04:09.840 --> 00:04:11.330 
+timestamps one's going to be signal and
+the<00:04:10.170> other<00:04:10.290> ones<00:04:10.440> will<00:04:10.530> be<00:04:10.620> no<00:04:10.739> signal
+
+00:04:11.330 --> 00:04:11.340 
+the other ones will be no signal
+
+00:04:11.340 --> 00:04:13.840 
+the other ones will be no signal
+so<00:04:12.030> then<00:04:12.239> what<00:04:12.570> we'll<00:04:12.720> do<00:04:12.959> is<00:04:13.200> come<00:04:13.380> down<00:04:13.410> here
+
+00:04:13.840 --> 00:04:13.850 
+so then what we'll do is come down here
+
+00:04:13.850 --> 00:04:19.690 
+so then what we'll do is come down here
+1:54<00:04:14.630> TL<00:04:15.350> for<00:04:15.590> time<00:04:15.860> length<00:04:16.160> equals<00:04:16.820> sig<00:04:17.800> -<00:04:18.800> no
+
+00:04:19.690 --> 00:04:19.700 
+1:54 TL for time length equals sig - no
+
+00:04:19.700 --> 00:04:21.850 
+1:54 TL for time length equals sig - no
+sick<00:04:20.030> so<00:04:20.750> that's<00:04:20.930> going<00:04:21.050> to<00:04:21.110> be<00:04:21.230> how<00:04:21.410> much<00:04:21.530> time
+
+00:04:21.850 --> 00:04:21.860 
+sick so that's going to be how much time
+
+00:04:21.860 --> 00:04:24.910 
+sick so that's going to be how much time
+went<00:04:22.190> by<00:04:22.510> now<00:04:23.510> we<00:04:24.140> can<00:04:24.320> calculate<00:04:24.560> the
+
+00:04:24.910 --> 00:04:24.920 
+went by now we can calculate the
+
+00:04:24.920 --> 00:04:27.970 
+went by now we can calculate the
+distance<00:04:25.160> using<00:04:25.850> because<00:04:26.530> we<00:04:27.530> know<00:04:27.650> the<00:04:27.770> speed
+
+00:04:27.970 --> 00:04:27.980 
+distance using because we know the speed
+
+00:04:27.980 --> 00:04:30.040 
+distance using because we know the speed
+of<00:04:28.070> sound<00:04:28.100> is<00:04:28.520> a<00:04:28.550> constant<00:04:29.120> so<00:04:29.570> we<00:04:29.720> can<00:04:29.750> use
+
+00:04:30.040 --> 00:04:30.050 
+of sound is a constant so we can use
+
+00:04:30.050 --> 00:04:35.620 
+of sound is a constant so we can use
+that<00:04:30.230> to<00:04:30.470> calculate<00:04:30.620> actual<00:04:31.280> distance<00:04:31.730> so<00:04:34.630> to
+
+00:04:35.620 --> 00:04:35.630 
+that to calculate actual distance so to
+
+00:04:35.630 --> 00:04:37.780 
+that to calculate actual distance so to
+do<00:04:35.810> that<00:04:35.990> though<00:04:36.170> we<00:04:36.440> do<00:04:36.830> we<00:04:37.160> did<00:04:37.250> specify<00:04:37.520> the
+
+00:04:37.780 --> 00:04:37.790 
+do that though we do we did specify the
+
+00:04:37.790 --> 00:04:39.280 
+do that though we do we did specify the
+measurement<00:04:38.270> so<00:04:38.480> we're<00:04:38.930> gonna<00:04:39.020> ask<00:04:39.110> the
+
+00:04:39.280 --> 00:04:39.290 
+measurement so we're gonna ask the
+
+00:04:39.290 --> 00:04:45.160 
+measurement so we're gonna ask the
+question<00:04:39.650> if<00:04:39.890> measure<00:04:40.310> in<00:04:41.180> equals<00:04:43.030> cm<00:04:44.170> then
+
+00:04:45.160 --> 00:04:45.170 
+question if measure in equals cm then
+
+00:04:45.170 --> 00:04:46.990 
+question if measure in equals cm then
+the<00:04:45.380> following<00:04:45.740> calculation<00:04:46.400> is<00:04:46.520> used<00:04:46.760> one
+
+00:04:46.990 --> 00:04:47.000 
+the following calculation is used one
+
+00:04:47.000 --> 00:04:49.390 
+the following calculation is used one
+two<00:04:47.180> three<00:04:47.450> four<00:04:47.720> five<00:04:47.960> six<00:04:48.200> seven<00:04:48.440> eight<00:04:48.650> then
+
+00:04:49.390 --> 00:04:49.400 
+two three four five six seven eight then
+
+00:04:49.400 --> 00:04:55.450 
+two three four five six seven eight then
+the<00:04:49.970> distance<00:04:50.570> will<00:04:51.320> equal<00:04:52.540> to2<00:04:53.540> by<00:04:54.460> zero
+
+00:04:55.450 --> 00:04:55.460 
+the distance will equal to2 by zero
+
+00:04:55.460 --> 00:04:59.770 
+the distance will equal to2 by zero
+point<00:04:56.270> zero<00:04:56.600> zero<00:04:57.530> zero<00:04:57.980> zero<00:04:58.460> so<00:04:59.180> four<00:04:59.420> zeroes
+
+00:04:59.770 --> 00:04:59.780 
+point zero zero zero zero so four zeroes
+
+00:04:59.780 --> 00:05:03.700 
+point zero zero zero zero so four zeroes
+five<00:05:00.290> eight<00:05:01.160> and<00:05:01.520> that<00:05:02.240> will<00:05:02.420> return<00:05:02.750> distance
+
+00:05:03.700 --> 00:05:03.710 
+five eight and that will return distance
+
+00:05:03.710 --> 00:05:04.660 
+five eight and that will return distance
+in<00:05:03.860> centimeters
+
+00:05:04.660 --> 00:05:04.670 
+in centimeters
+
+00:05:04.670 --> 00:05:07.780 
+in centimeters
+next<00:05:05.570> one<00:05:05.780> two<00:05:05.990> three<00:05:06.230> four<00:05:06.560> LF<00:05:07.340> measure
+
+00:05:07.780 --> 00:05:07.790 
+next one two three four LF measure
+
+00:05:07.790 --> 00:05:12.610 
+next one two three four LF measure
+equals<00:05:09.250> in4<00:05:10.250> inches<00:05:10.810> then<00:05:11.810> one<00:05:12.260> two<00:05:12.410> three
+
+00:05:12.610 --> 00:05:12.620 
+equals in4 inches then one two three
+
+00:05:12.620 --> 00:05:14.860 
+equals in4 inches then one two three
+four<00:05:12.830> five<00:05:13.070> six<00:05:13.250> seven<00:05:13.490> eight
+
+00:05:14.860 --> 00:05:14.870 
+four five six seven eight
+
+00:05:14.870 --> 00:05:20.850 
+four five six seven eight
+distance<00:05:15.710> equals<00:05:17.200> TL<00:05:18.520> divided<00:05:19.520> by<00:05:19.640> zero<00:05:20.600> point
+
+00:05:20.850 --> 00:05:20.860 
+distance equals TL divided by zero point
+
+00:05:20.860 --> 00:05:25.150 
+distance equals TL divided by zero point
+one<00:05:21.860> two<00:05:21.890> three<00:05:22.790> one<00:05:23.420> four<00:05:23.780> eight<00:05:24.050> so<00:05:24.860> three
+
+00:05:25.150 --> 00:05:25.160 
+one two three one four eight so three
+
+00:05:25.160 --> 00:05:27.250 
+one two three one four eight so three
+zeros<00:05:25.520> one<00:05:25.970> four<00:05:26.180> eight<00:05:26.330> and<00:05:26.660> that<00:05:27.050> will
+
+00:05:27.250 --> 00:05:27.260 
+zeros one four eight and that will
+
+00:05:27.260 --> 00:05:32.470 
+zeros one four eight and that will
+return<00:05:27.530> us<00:05:27.710> a<00:05:27.830> distance<00:05:28.220> in<00:05:28.460> inches<00:05:29.620> else<00:05:31.480> in
+
+00:05:32.470 --> 00:05:32.480 
+return us a distance in inches else in
+
+00:05:32.480 --> 00:05:34.630 
+return us a distance in inches else in
+case<00:05:32.660> the<00:05:32.870> person<00:05:33.200> is<00:05:33.320> an<00:05:33.440> idiot<00:05:33.710> and<00:05:33.890> didn't
+
+00:05:34.630 --> 00:05:34.640 
+case the person is an idiot and didn't
+
+00:05:34.640 --> 00:05:36.940 
+case the person is an idiot and didn't
+write<00:05:34.820> it<00:05:34.970> write<00:05:35.180> print<00:05:35.900> we<00:05:36.620> just<00:05:36.770> want<00:05:36.890> to
+
+00:05:36.940 --> 00:05:36.950 
+write it write print we just want to
+
+00:05:36.950 --> 00:05:41.550 
+write it write print we just want to
+have<00:05:37.040> it<00:05:37.160> print<00:05:37.430> out<00:05:39.160> improper<00:05:40.160> choice<00:05:40.760> of
+
+00:05:41.550 --> 00:05:41.560 
+have it print out improper choice of
+
+00:05:41.560 --> 00:05:50.710 
+have it print out improper choice of
+measurement<00:05:45.550> in<00:05:46.660> or<00:05:47.660> cm<00:05:48.200> okay<00:05:49.190> and<00:05:49.510> that's<00:05:50.510> all
+
+00:05:50.710 --> 00:05:50.720 
+measurement in or cm okay and that's all
+
+00:05:50.720 --> 00:05:52.450 
+measurement in or cm okay and that's all
+we<00:05:50.840> need<00:05:50.990> to<00:05:51.080> do<00:05:51.200> for<00:05:51.440> that<00:05:51.500> function<00:05:51.890> oh<00:05:52.220> well
+
+00:05:52.450 --> 00:05:52.460 
+we need to do for that function oh well
+
+00:05:52.460 --> 00:05:55.420 
+we need to do for that function oh well
+we<00:05:52.610> want<00:05:52.820> one<00:05:52.940> more<00:05:53.060> thing<00:05:53.180> looking<00:05:53.480> for<00:05:53.690> a<00:05:54.430> if
+
+00:05:55.420 --> 00:05:55.430 
+we want one more thing looking for a if
+
+00:05:55.430 --> 00:05:59.850 
+we want one more thing looking for a if
+this<00:05:55.730> is<00:05:55.880> the<00:05:56.000> case<00:05:56.180> distance<00:05:57.170> equals<00:05:57.530> none
+
+00:05:59.850 --> 00:05:59.860 
+this is the case distance equals none
+
+00:05:59.860 --> 00:06:04.630 
+this is the case distance equals none
+now<00:06:01.210> what<00:06:02.210> we<00:06:02.330> want<00:06:02.570> to<00:06:02.630> do<00:06:02.810> is<00:06:03.220> run<00:06:04.220> a<00:06:04.250> GPIO
+
+00:06:04.630 --> 00:06:04.640 
+now what we want to do is run a GPIO
+
+00:06:04.640 --> 00:06:09.760 
+now what we want to do is run a GPIO
+clean<00:06:05.180> up<00:06:05.330> GPIO<00:06:06.230> dots<00:06:06.890> clean<00:06:07.790> up<00:06:07.970> and<00:06:08.770> then
+
+00:06:09.760 --> 00:06:09.770 
+clean up GPIO dots clean up and then
+
+00:06:09.770 --> 00:06:11.530 
+clean up GPIO dots clean up and then
+finally<00:06:10.340> we<00:06:10.640> want<00:06:10.790> to<00:06:11.000> actually<00:06:11.120> have<00:06:11.300> this
+
+00:06:11.530 --> 00:06:11.540 
+finally we want to actually have this
+
+00:06:11.540 --> 00:06:14.670 
+finally we want to actually have this
+function<00:06:11.960> return<00:06:12.440> whatever<00:06:13.370> the<00:06:13.520> distance<00:06:13.820> is
+
+00:06:14.670 --> 00:06:14.680 
+function return whatever the distance is
+
+00:06:14.680 --> 00:06:17.590 
+function return whatever the distance is
+now<00:06:15.680> that's<00:06:16.610> just<00:06:16.790> all<00:06:17.000> we<00:06:17.180> need<00:06:17.300> for<00:06:17.480> the
+
+00:06:17.590 --> 00:06:17.600 
+now that's just all we need for the
+
+00:06:17.600 --> 00:06:19.600 
+now that's just all we need for the
+function<00:06:18.020> but<00:06:18.830> let's<00:06:19.160> go<00:06:19.280> ahead<00:06:19.370> and<00:06:19.550> actually
+
+00:06:19.600 --> 00:06:19.610 
+function but let's go ahead and actually
+
+00:06:19.610 --> 00:06:21.990 
+function but let's go ahead and actually
+call<00:06:19.970> this<00:06:20.120> function<00:06:20.330> so<00:06:20.690> let's<00:06:20.840> just<00:06:20.990> print
+
+00:06:21.990 --> 00:06:22.000 
+call this function so let's just print
+
+00:06:22.000 --> 00:06:23.710 
+call this function so let's just print
+distance
+
+00:06:23.710 --> 00:06:23.720 
+distance
+
+00:06:23.720 --> 00:06:31.690 
+distance
+distance<00:06:28.330> in<00:06:29.330> centimeters<00:06:29.750> so<00:06:30.380> let's<00:06:31.250> exit
+
+00:06:31.690 --> 00:06:31.700 
+distance in centimeters so let's exit
+
+00:06:31.700 --> 00:06:34.930 
+distance in centimeters so let's exit
+that<00:06:31.880> save<00:06:32.420> yes<00:06:32.870> good<00:06:33.440> right<00:06:33.890> and<00:06:34.580> now<00:06:34.730> let's
+
+00:06:34.930 --> 00:06:34.940 
+that save yes good right and now let's
+
+00:06:34.940 --> 00:06:36.160 
+that save yes good right and now let's
+go<00:06:35.060> ahead<00:06:35.180> and<00:06:35.420> do<00:06:35.510> part
+
+00:06:36.160 --> 00:06:36.170 
+go ahead and do part
+
+00:06:36.170 --> 00:06:43.000 
+go ahead and do part
+sudo<00:06:37.070> python<00:06:38.020> sensor<00:06:39.020> pi<00:06:41.140> and<00:06:42.140> we<00:06:42.170> get<00:06:42.980> a
+
+00:06:43.000 --> 00:06:43.010 
+sudo python sensor pi and we get a
+
+00:06:43.010 --> 00:06:45.250 
+sudo python sensor pi and we get a
+return<00:06:43.190> of<00:06:43.370> five<00:06:43.880> centimeters<00:06:44.450> which<00:06:44.990> looks
+
+00:06:45.250 --> 00:06:45.260 
+return of five centimeters which looks
+
+00:06:45.260 --> 00:06:47.440 
+return of five centimeters which looks
+to<00:06:45.320> be<00:06:45.470> about<00:06:45.560> correct<00:06:46.100> I<00:06:46.250> place<00:06:46.640> that<00:06:46.790> box<00:06:47.120> in
+
+00:06:47.440 --> 00:06:47.450 
+to be about correct I place that box in
+
+00:06:47.450 --> 00:06:51.040 
+to be about correct I place that box in
+front<00:06:47.510> of<00:06:48.310> the<00:06:49.310> sensor<00:06:49.880> so<00:06:50.210> what<00:06:50.720> we<00:06:50.810> can<00:06:50.960> do
+
+00:06:51.040 --> 00:06:51.050 
+front of the sensor so what we can do
+
+00:06:51.050 --> 00:06:56.830 
+front of the sensor so what we can do
+now<00:06:51.260> is<00:06:51.290> we<00:06:51.590> can<00:06:51.740> move<00:06:51.830> the<00:06:51.950> box<00:06:52.130> closer<00:06:55.420> and<00:06:56.420> we
+
+00:06:56.830 --> 00:06:56.840 
+now is we can move the box closer and we
+
+00:06:56.840 --> 00:06:58.900 
+now is we can move the box closer and we
+can<00:06:56.990> run<00:06:57.110> it<00:06:57.170> again<00:06:57.290> and<00:06:57.680> now<00:06:58.580> we<00:06:58.640> get<00:06:58.850> one
+
+00:06:58.900 --> 00:06:58.910 
+can run it again and now we get one
+
+00:06:58.910 --> 00:07:01.180 
+can run it again and now we get one
+point<00:06:59.210> seven<00:06:59.600> which<00:06:59.750> is<00:06:59.810> again<00:07:00.230> pretty
+
+00:07:01.180 --> 00:07:01.190 
+point seven which is again pretty
+
+00:07:01.190 --> 00:07:03.070 
+point seven which is again pretty
+accurate<00:07:01.610> I<00:07:01.700> would<00:07:01.820> say<00:07:01.970> and<00:07:02.210> then<00:07:02.540> also<00:07:02.750> just
+
+00:07:03.070 --> 00:07:03.080 
+accurate I would say and then also just
+
+00:07:03.080 --> 00:07:05.890 
+accurate I would say and then also just
+to<00:07:03.170> show<00:07:03.200> you<00:07:03.380> guys<00:07:03.610> if<00:07:04.610> we<00:07:04.790> do<00:07:04.940> like<00:07:05.540> here
+
+00:07:05.890 --> 00:07:05.900 
+to show you guys if we do like here
+
+00:07:05.900 --> 00:07:07.960 
+to show you guys if we do like here
+let's<00:07:06.140> say<00:07:06.380> that's<00:07:06.860> not<00:07:07.010> a<00:07:07.070> totally<00:07:07.640> straight
+
+00:07:07.960 --> 00:07:07.970 
+let's say that's not a totally straight
+
+00:07:07.970 --> 00:07:11.440 
+let's say that's not a totally straight
+box<00:07:08.210> but<00:07:08.720> let's<00:07:09.410> run<00:07:09.620> it<00:07:09.820> we<00:07:10.820> get<00:07:10.940> five<00:07:11.150> point
+
+00:07:11.440 --> 00:07:11.450 
+box but let's run it we get five point
+
+00:07:11.450 --> 00:07:13.300 
+box but let's run it we get five point
+eight<00:07:11.570> nine<00:07:11.720> also<00:07:12.410> just<00:07:12.710> for<00:07:12.860> kicks<00:07:13.010> let<00:07:13.190> me
+
+00:07:13.300 --> 00:07:13.310 
+eight nine also just for kicks let me
+
+00:07:13.310 --> 00:07:14.650 
+eight nine also just for kicks let me
+show<00:07:13.430> you<00:07:13.490> will<00:07:13.700> run<00:07:13.850> it<00:07:13.940> one<00:07:14.120> more<00:07:14.270> time<00:07:14.420> and
+
+00:07:14.650 --> 00:07:14.660 
+show you will run it one more time and
+
+00:07:14.660 --> 00:07:16.960 
+show you will run it one more time and
+you<00:07:15.290> each<00:07:15.590> time<00:07:15.890> you<00:07:16.070> run<00:07:16.250> it<00:07:16.400> you<00:07:16.610> might
+
+00:07:16.960 --> 00:07:16.970 
+you each time you run it you might
+
+00:07:16.970 --> 00:07:20.170 
+you each time you run it you might
+actually<00:07:17.210> get<00:07:17.750> a<00:07:18.520> slightly<00:07:19.520> different<00:07:19.790> value
+
+00:07:20.170 --> 00:07:20.180 
+actually get a slightly different value
+
+00:07:20.180 --> 00:07:24.100 
+actually get a slightly different value
+so<00:07:20.960> some<00:07:21.470> people<00:07:21.590> might<00:07:21.919> run<00:07:22.419> two<00:07:23.419> or<00:07:23.570> three<00:07:23.900> of
+
+00:07:24.100 --> 00:07:24.110 
+so some people might run two or three of
+
+00:07:24.110 --> 00:07:28.120 
+so some people might run two or three of
+these<00:07:24.620> just<00:07:25.100> to<00:07:25.220> see<00:07:25.750> and<00:07:26.750> then<00:07:27.620> average<00:07:27.830> them
+
+00:07:28.120 --> 00:07:28.130 
+these just to see and then average them
+
+00:07:28.130 --> 00:07:30.550 
+these just to see and then average them
+together<00:07:28.250> something<00:07:28.790> like<00:07:28.910> that<00:07:29.530> alright<00:07:30.530> so
+
+00:07:30.550 --> 00:07:30.560 
+together something like that alright so
+
+00:07:30.560 --> 00:07:32.050 
+together something like that alright so
+we've<00:07:30.919> got<00:07:30.950> our<00:07:31.160> sensor<00:07:31.460> working<00:07:31.820> and<00:07:31.970> now
+
+00:07:32.050 --> 00:07:32.060 
+we've got our sensor working and now
+
+00:07:32.060 --> 00:07:34.090 
+we've got our sensor working and now
+we're<00:07:32.210> ready<00:07:32.390> to<00:07:32.720> move<00:07:33.590> on<00:07:33.740> with<00:07:33.770> the<00:07:33.980> next
+
+00:07:34.090 --> 00:07:34.100 
+we're ready to move on with the next
+
+00:07:34.100 --> 00:07:36.610 
+we're ready to move on with the next
+part<00:07:34.430> so<00:07:35.150> I'm<00:07:35.840> going<00:07:35.990> to<00:07:36.050> continue<00:07:36.260> on<00:07:36.470> in<00:07:36.560> the
+
+00:07:36.610 --> 00:07:36.620 
+part so I'm going to continue on in the
+
+00:07:36.620 --> 00:07:38.590 
+part so I'm going to continue on in the
+next<00:07:36.800> part<00:07:37.010> we'll<00:07:37.130> actually<00:07:37.310> add<00:07:38.150> some<00:07:38.480> of
+
+00:07:38.590 --> 00:07:38.600 
+next part we'll actually add some of
+
+00:07:38.600 --> 00:07:40.570 
+next part we'll actually add some of
+this<00:07:38.660> code<00:07:38.930> to<00:07:39.140> our<00:07:39.260> robot<00:07:39.470> car<00:07:39.890> and<00:07:40.100> then<00:07:40.520> we
+
+00:07:40.570 --> 00:07:40.580 
+this code to our robot car and then we
+
+00:07:40.580 --> 00:07:42.219 
+this code to our robot car and then we
+can<00:07:40.700> actually<00:07:40.820> start<00:07:41.150> to<00:07:41.270> make<00:07:41.390> our<00:07:41.540> robot<00:07:41.960> car
+
+00:07:42.219 --> 00:07:42.229 
+can actually start to make our robot car
+
+00:07:42.229 --> 00:07:44.500 
+can actually start to make our robot car
+autonomous<00:07:43.040> in<00:07:43.250> the<00:07:43.700> sense<00:07:43.940> that<00:07:44.030> if<00:07:44.240> it<00:07:44.360> gets
+
+00:07:44.500 --> 00:07:44.510 
+autonomous in the sense that if it gets
+
+00:07:44.510 --> 00:07:47.020 
+autonomous in the sense that if it gets
+too<00:07:44.750> close<00:07:44.870> to<00:07:45.140> a<00:07:45.169> wall<00:07:45.440> it<00:07:45.800> will<00:07:46.400> reverse
+
+00:07:47.020 --> 00:07:47.030 
+too close to a wall it will reverse
+
+00:07:47.030 --> 00:07:49.150 
+too close to a wall it will reverse
+maybe<00:07:47.419> something<00:07:48.110> like<00:07:48.229> that<00:07:48.260> so<00:07:48.890> anyways
+
+00:07:49.150 --> 00:07:49.160 
+maybe something like that so anyways
+
+00:07:49.160 --> 00:07:50.290 
+maybe something like that so anyways
+that's<00:07:49.310> what<00:07:49.490> you<00:07:49.610> have<00:07:49.700> to<00:07:49.729> look<00:07:49.940> forward<00:07:50.180> to
+
+00:07:50.290 --> 00:07:50.300 
+that's what you have to look forward to
+
+00:07:50.300 --> 00:07:52.030 
+that's what you have to look forward to
+thanks<00:07:50.780> for<00:07:50.900> watching<00:07:51.380> if<00:07:51.710> you<00:07:51.770> have<00:07:51.860> any
+
+00:07:52.030 --> 00:07:52.040 
+thanks for watching if you have any
+
+00:07:52.040 --> 00:07:53.260 
+thanks for watching if you have any
+questions<00:07:52.370> or<00:07:52.460> comments<00:07:52.669> feel<00:07:53.000> free<00:07:53.030> to<00:07:53.180> leave
+
+00:07:53.260 --> 00:07:53.270 
+questions or comments feel free to leave
+
+00:07:53.270 --> 00:07:55.320 
+questions or comments feel free to leave
+them<00:07:53.510> below<00:07:53.570> in<00:07:54.200> the<00:07:54.290> comments<00:07:54.650> section<00:07:54.979> and
+
+00:07:55.320 --> 00:07:55.330 
+them below in the comments section and
+
+00:07:55.330 --> 00:07:57.070 
+them below in the comments section and
+thank<00:07:56.330> you<00:07:56.419> for<00:07:56.540> your<00:07:56.690> support<00:07:56.810> your
+
+00:07:57.070 --> 00:07:57.080 
+thank you for your support your
+
+00:07:57.080 --> 00:08:00.910 
+thank you for your support your
+subscriptions<00:07:57.680> until<00:07:58.310> the<00:07:58.460> next<00:07:58.669> video
+

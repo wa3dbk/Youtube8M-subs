@@ -1,0 +1,909 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:01.880 
+
+so<00:00:00.390> another<00:00:00.659> important<00:00:01.469> thing<00:00:01.620> that<00:00:01.680> you
+
+00:00:01.880 --> 00:00:01.890 
+so another important thing that you
+
+00:00:01.890 --> 00:00:03.740 
+so another important thing that you
+probably<00:00:02.070> need<00:00:02.280> to<00:00:02.399> do<00:00:02.550> for<00:00:03.120> your<00:00:03.240> watchkit
+
+00:00:03.740 --> 00:00:03.750 
+probably need to do for your watchkit
+
+00:00:03.750 --> 00:00:05.720 
+probably need to do for your watchkit
+app<00:00:03.810> which<00:00:04.259> of<00:00:04.410> course<00:00:04.440> runs<00:00:04.770> an<00:00:04.890> extension<00:00:05.490> is
+
+00:00:05.720 --> 00:00:05.730 
+app which of course runs an extension is
+
+00:00:05.730 --> 00:00:07.909 
+app which of course runs an extension is
+shared<00:00:06.359> data<00:00:06.690> between<00:00:07.020> eight<00:00:07.440> in<00:00:07.859> your
+
+00:00:07.909 --> 00:00:07.919 
+shared data between eight in your
+
+00:00:07.919 --> 00:00:11.660 
+shared data between eight in your
+regular<00:00:08.370> iOS<00:00:09.059> app<00:00:09.330> the<00:00:10.230> easiest<00:00:10.620> way<00:00:10.769> to<00:00:11.010> well
+
+00:00:11.660 --> 00:00:11.670 
+regular iOS app the easiest way to well
+
+00:00:11.670 --> 00:00:13.339 
+regular iOS app the easiest way to well
+the<00:00:11.820> only<00:00:11.969> way<00:00:12.179> to<00:00:12.240> do<00:00:12.389> this<00:00:12.420> is<00:00:12.780> through<00:00:13.110> a
+
+00:00:13.339 --> 00:00:13.349 
+the only way to do this is through a
+
+00:00:13.349 --> 00:00:15.169 
+the only way to do this is through a
+system<00:00:13.860> that<00:00:14.009> Apple<00:00:14.280> has<00:00:14.400> introduced<00:00:14.790> an<00:00:14.880> iOS
+
+00:00:15.169 --> 00:00:15.179 
+system that Apple has introduced an iOS
+
+00:00:15.179 --> 00:00:17.870 
+system that Apple has introduced an iOS
+app<00:00:15.330> called<00:00:15.599> app<00:00:15.990> groups<00:00:16.500> in<00:00:17.130> this<00:00:17.340> turtle<00:00:17.699> I'm
+
+00:00:17.870 --> 00:00:17.880 
+app called app groups in this turtle I'm
+
+00:00:17.880 --> 00:00:19.490 
+app called app groups in this turtle I'm
+going<00:00:18.000> to<00:00:18.090> talk<00:00:18.449> about<00:00:18.480> how<00:00:18.840> to<00:00:18.900> set<00:00:19.170> up<00:00:19.199> app
+
+00:00:19.490 --> 00:00:19.500 
+going to talk about how to set up app
+
+00:00:19.500 --> 00:00:22.370 
+going to talk about how to set up app
+groups<00:00:19.859> and<00:00:20.100> then<00:00:20.640> how<00:00:21.090> to<00:00:21.150> use<00:00:21.359> NS<00:00:22.170> user
+
+00:00:22.370 --> 00:00:22.380 
+groups and then how to use NS user
+
+00:00:22.380 --> 00:00:25.429 
+groups and then how to use NS user
+defaults<00:00:22.980> which<00:00:23.730> I<00:00:23.939> was<00:00:24.119> automatically<00:00:24.869> syncs
+
+00:00:25.429 --> 00:00:25.439 
+defaults which I was automatically syncs
+
+00:00:25.439 --> 00:00:29.240 
+defaults which I was automatically syncs
+with<00:00:25.560> app<00:00:25.800> groups<00:00:26.210> to<00:00:27.210> share<00:00:27.240> a<00:00:28.070> piece<00:00:29.070> of
+
+00:00:29.240 --> 00:00:29.250 
+with app groups to share a piece of
+
+00:00:29.250 --> 00:00:31.999 
+with app groups to share a piece of
+information<00:00:29.460> between<00:00:29.880> an<00:00:30.210> iOS<00:00:30.539> app<00:00:30.720> and<00:00:31.170> your
+
+00:00:31.999 --> 00:00:32.009 
+information between an iOS app and your
+
+00:00:32.009 --> 00:00:34.670 
+information between an iOS app and your
+watch<00:00:32.219> kit<00:00:32.430> extension<00:00:32.940> this<00:00:33.390> can<00:00:33.630> be<00:00:34.050> used<00:00:34.410> for
+
+00:00:34.670 --> 00:00:34.680 
+watch kit extension this can be used for
+
+00:00:34.680 --> 00:00:36.229 
+watch kit extension this can be used for
+any<00:00:34.950> other<00:00:35.010> type<00:00:35.370> of<00:00:35.550> extension<00:00:35.850> like<00:00:36.030> a<00:00:36.090> chat
+
+00:00:36.229 --> 00:00:36.239 
+any other type of extension like a chat
+
+00:00:36.239 --> 00:00:39.290 
+any other type of extension like a chat
+a<00:00:36.390> view<00:00:36.660> extension<00:00:37.380> or<00:00:37.530> a<00:00:37.559> photo<00:00:38.300> edit
+
+00:00:39.290 --> 00:00:39.300 
+a view extension or a photo edit
+
+00:00:39.300 --> 00:00:41.630 
+a view extension or a photo edit
+extension<00:00:39.930> share<00:00:40.140> extension<00:00:40.320> but<00:00:41.309> in<00:00:41.579> this
+
+00:00:41.630 --> 00:00:41.640 
+extension share extension but in this
+
+00:00:41.640 --> 00:00:42.889 
+extension share extension but in this
+case<00:00:41.850> I'm<00:00:42.000> going<00:00:42.090> to<00:00:42.149> show<00:00:42.239> you<00:00:42.390> how<00:00:42.510> to<00:00:42.540> do<00:00:42.780> it
+
+00:00:42.889 --> 00:00:42.899 
+case I'm going to show you how to do it
+
+00:00:42.899 --> 00:00:45.139 
+case I'm going to show you how to do it
+in<00:00:43.110> a<00:00:43.260> watchkit<00:00:43.770> app<00:00:43.980> just<00:00:44.550> remember<00:00:44.820> this<00:00:44.940> can
+
+00:00:45.139 --> 00:00:45.149 
+in a watchkit app just remember this can
+
+00:00:45.149 --> 00:00:47.060 
+in a watchkit app just remember this can
+be<00:00:45.239> used<00:00:45.480> anywhere<00:00:45.719> else<00:00:45.840> as<00:00:46.200> well<00:00:46.320> so<00:00:46.980> the
+
+00:00:47.060 --> 00:00:47.070 
+be used anywhere else as well so the
+
+00:00:47.070 --> 00:00:48.860 
+be used anywhere else as well so the
+first<00:00:47.280> thing<00:00:47.460> we<00:00:47.520> need<00:00:47.670> to<00:00:47.700> do<00:00:47.850> is<00:00:48.059> set<00:00:48.480> up<00:00:48.510> our
+
+00:00:48.860 --> 00:00:48.870 
+first thing we need to do is set up our
+
+00:00:48.870 --> 00:00:52.610 
+first thing we need to do is set up our
+app<00:00:49.410> group<00:00:49.860> so<00:00:50.489> in<00:00:51.329> the<00:00:51.629> project<00:00:52.050> section<00:00:52.260> in
+
+00:00:52.610 --> 00:00:52.620 
+app group so in the project section in
+
+00:00:52.620 --> 00:00:56.299 
+app group so in the project section in
+my<00:00:52.949> iOS<00:00:53.730> app<00:00:54.050> target<00:00:55.050> we<00:00:55.829> go<00:00:56.160> into
+
+00:00:56.299 --> 00:00:56.309 
+my iOS app target we go into
+
+00:00:56.309 --> 00:00:58.490 
+my iOS app target we go into
+capabilities<00:00:57.030> and<00:00:57.239> we<00:00:57.449> go<00:00:57.600> down<00:00:57.809> to<00:00:57.870> app
+
+00:00:58.490 --> 00:00:58.500 
+capabilities and we go down to app
+
+00:00:58.500 --> 00:01:01.610 
+capabilities and we go down to app
+groups<00:00:59.390> you<00:01:00.390> can<00:01:00.449> see<00:01:00.660> just<00:01:00.899> need<00:01:01.079> a<00:01:01.109> turn<00:01:01.410> on
+
+00:01:01.610 --> 00:01:01.620 
+groups you can see just need a turn on
+
+00:01:01.620 --> 00:01:04.250 
+groups you can see just need a turn on
+this<00:01:01.829> entitlement<00:01:02.629> once<00:01:03.629> this<00:01:03.750> is<00:01:03.899> turn<00:01:04.110> on
+
+00:01:04.250 --> 00:01:04.260 
+this entitlement once this is turn on
+
+00:01:04.260 --> 00:01:06.109 
+this entitlement once this is turn on
+this<00:01:04.470> will<00:01:04.650> load<00:01:04.860> for<00:01:05.189> a<00:01:05.250> second<00:01:05.549> and<00:01:05.670> you<00:01:05.970> do
+
+00:01:06.109 --> 00:01:06.119 
+this will load for a second and you do
+
+00:01:06.119 --> 00:01:07.910 
+this will load for a second and you do
+need<00:01:06.299> an<00:01:06.420> iOS<00:01:06.930> developer<00:01:07.350> license<00:01:07.710> for<00:01:07.830> this
+
+00:01:07.910 --> 00:01:07.920 
+need an iOS developer license for this
+
+00:01:07.920 --> 00:01:10.160 
+need an iOS developer license for this
+it<00:01:08.820> gives<00:01:09.030> you<00:01:09.210> the<00:01:09.330> option<00:01:09.600> to<00:01:09.720> select<00:01:09.900> one<00:01:10.140> of
+
+00:01:10.160 --> 00:01:10.170 
+it gives you the option to select one of
+
+00:01:10.170 --> 00:01:12.020 
+it gives you the option to select one of
+the<00:01:10.290> app<00:01:10.380> groups<00:01:10.619> you<00:01:10.770> already<00:01:11.100> have<00:01:11.280> as<00:01:11.610> you
+
+00:01:12.020 --> 00:01:12.030 
+the app groups you already have as you
+
+00:01:12.030 --> 00:01:13.700 
+the app groups you already have as you
+can<00:01:12.060> see<00:01:12.150> I<00:01:12.240> already<00:01:12.479> have<00:01:12.720> an<00:01:12.930> app<00:01:13.110> group<00:01:13.350> for
+
+00:01:13.700 --> 00:01:13.710 
+can see I already have an app group for
+
+00:01:13.710 --> 00:01:15.679 
+can see I already have an app group for
+watch<00:01:13.979> kit<00:01:14.220> tutorial<00:01:14.610> if<00:01:15.000> you<00:01:15.240> don't<00:01:15.540> already
+
+00:01:15.679 --> 00:01:15.689 
+watch kit tutorial if you don't already
+
+00:01:15.689 --> 00:01:18.050 
+watch kit tutorial if you don't already
+have<00:01:15.810> an<00:01:15.990> app<00:01:16.080> group<00:01:16.320> you<00:01:17.100> can<00:01:17.280> click<00:01:17.430> a<00:01:17.820> new
+
+00:01:18.050 --> 00:01:18.060 
+have an app group you can click a new
+
+00:01:18.060 --> 00:01:20.990 
+have an app group you can click a new
+one<00:01:18.240> and<00:01:19.009> give<00:01:20.009> an<00:01:20.280> app<00:01:20.400> group<00:01:20.610> of<00:01:20.729> four<00:01:20.850> name
+
+00:01:20.990 --> 00:01:21.000 
+one and give an app group of four name
+
+00:01:21.000 --> 00:01:23.630 
+one and give an app group of four name
+you<00:01:21.150> meant<00:01:21.330> to<00:01:21.420> use<00:01:21.630> a<00:01:21.659> domain<00:01:21.960> name<00:01:22.409> and<00:01:22.650> then
+
+00:01:23.630 --> 00:01:23.640 
+you meant to use a domain name and then
+
+00:01:23.640 --> 00:01:25.969 
+you meant to use a domain name and then
+app<00:01:24.420> name<00:01:24.750> I<00:01:25.020> haven't<00:01:25.530> done<00:01:25.619> that<00:01:25.680> in<00:01:25.890> this
+
+00:01:25.969 --> 00:01:25.979 
+app name I haven't done that in this
+
+00:01:25.979 --> 00:01:28.219 
+app name I haven't done that in this
+case<00:01:26.040> because<00:01:26.400> I'm<00:01:26.820> not<00:01:27.600> that<00:01:27.810> professional
+
+00:01:28.219 --> 00:01:28.229 
+case because I'm not that professional
+
+00:01:28.229 --> 00:01:30.469 
+case because I'm not that professional
+then<00:01:29.159> I'm<00:01:29.250> just<00:01:29.310> gonna<00:01:29.490> select<00:01:29.640> the<00:01:30.210> out<00:01:30.299> group
+
+00:01:30.469 --> 00:01:30.479 
+then I'm just gonna select the out group
+
+00:01:30.479 --> 00:01:32.510 
+then I'm just gonna select the out group
+for<00:01:30.659> this<00:01:30.720> case<00:01:30.990> loads<00:01:31.770> for<00:01:31.950> a<00:01:31.979> second<00:01:32.340> and
+
+00:01:32.510 --> 00:01:32.520 
+for this case loads for a second and
+
+00:01:32.520 --> 00:01:34.670 
+for this case loads for a second and
+then<00:01:33.290> you're<00:01:34.290> done
+
+00:01:34.670 --> 00:01:34.680 
+then you're done
+
+00:01:34.680 --> 00:01:36.230 
+then you're done
+if<00:01:34.860> you<00:01:35.009> come<00:01:35.189> up<00:01:35.220> with<00:01:35.340> errors<00:01:35.759> at<00:01:35.850> this<00:01:35.970> point
+
+00:01:36.230 --> 00:01:36.240 
+if you come up with errors at this point
+
+00:01:36.240 --> 00:01:38.780 
+if you come up with errors at this point
+you<00:01:36.869> can<00:01:37.110> go<00:01:37.619> back<00:01:37.799> to<00:01:37.920> the<00:01:38.009> general<00:01:38.159> page<00:01:38.520> and
+
+00:01:38.780 --> 00:01:38.790 
+you can go back to the general page and
+
+00:01:38.790 --> 00:01:40.969 
+you can go back to the general page and
+there<00:01:38.880> will<00:01:38.970> be<00:01:39.000> a<00:01:39.090> fix<00:01:39.659> errors<00:01:40.110> button<00:01:40.470> yeah
+
+00:01:40.969 --> 00:01:40.979 
+there will be a fix errors button yeah
+
+00:01:40.979 --> 00:01:43.700 
+there will be a fix errors button yeah
+or<00:01:41.070> fix<00:01:41.520> issues<00:01:42.210> button<00:01:42.450> here<00:01:42.750> you<00:01:43.500> need<00:01:43.649> to
+
+00:01:43.700 --> 00:01:43.710 
+or fix issues button here you need to
+
+00:01:43.710 --> 00:01:45.410 
+or fix issues button here you need to
+just<00:01:43.860> click<00:01:44.040> that<00:01:44.220> and<00:01:44.549> that<00:01:44.820> should<00:01:45.030> fix<00:01:45.060> any
+
+00:01:45.410 --> 00:01:45.420 
+just click that and that should fix any
+
+00:01:45.420 --> 00:01:47.030 
+just click that and that should fix any
+errors<00:01:45.450> you<00:01:45.780> have<00:01:45.810> I<00:01:46.079> had<00:01:46.259> that<00:01:46.439> on<00:01:46.560> the<00:01:46.710> first
+
+00:01:47.030 --> 00:01:47.040 
+errors you have I had that on the first
+
+00:01:47.040 --> 00:01:49.130 
+errors you have I had that on the first
+time<00:01:47.220> through<00:01:47.579> cuz<00:01:48.360> I've<00:01:48.450> done<00:01:48.659> this<00:01:48.780> twice
+
+00:01:49.130 --> 00:01:49.140 
+time through cuz I've done this twice
+
+00:01:49.140 --> 00:01:52.880 
+time through cuz I've done this twice
+because<00:01:49.649> my<00:01:49.979> microphone<00:01:50.280> didn't<00:01:50.820> work<00:01:51.890> we
+
+00:01:52.880 --> 00:01:52.890 
+because my microphone didn't work we
+
+00:01:52.890 --> 00:01:54.800 
+because my microphone didn't work we
+need<00:01:53.040> to<00:01:53.100> change<00:01:53.369> over<00:01:53.880> to<00:01:54.060> the<00:01:54.329> watchkit
+
+00:01:54.800 --> 00:01:54.810 
+need to change over to the watchkit
+
+00:01:54.810 --> 00:01:57.050 
+need to change over to the watchkit
+extension<00:01:55.049> target<00:01:55.829> now<00:01:55.979> and<00:01:56.250> do<00:01:56.759> the<00:01:56.790> same
+
+00:01:57.050 --> 00:01:57.060 
+extension target now and do the same
+
+00:01:57.060 --> 00:01:58.730 
+extension target now and do the same
+thing<00:01:57.270> again<00:01:57.509> so<00:01:57.540> turn<00:01:57.960> on<00:01:57.990> your<00:01:58.110> entitlements
+
+00:01:58.730 --> 00:01:58.740 
+thing again so turn on your entitlements
+
+00:01:58.740 --> 00:02:00.920 
+thing again so turn on your entitlements
+and<00:01:58.920> add<00:01:59.549> this<00:01:59.820> to<00:01:59.880> the<00:02:00.180> watchkit<00:02:00.509> extension
+
+00:02:00.920 --> 00:02:00.930 
+and add this to the watchkit extension
+
+00:02:00.930 --> 00:02:05.179 
+and add this to the watchkit extension
+app<00:02:01.649> group<00:02:02.250> so<00:02:03.149> we<00:02:03.840> have<00:02:04.079> a<00:02:04.290> bar<00:02:04.649> up<00:02:04.860> group
+
+00:02:05.179 --> 00:02:05.189 
+app group so we have a bar up group
+
+00:02:05.189 --> 00:02:08.930 
+app group so we have a bar up group
+shared<00:02:05.759> between<00:02:05.939> our<00:02:06.420> two<00:02:07.369> our<00:02:08.369> app<00:02:08.580> and<00:02:08.879> our
+
+00:02:08.930 --> 00:02:08.940 
+shared between our two our app and our
+
+00:02:08.940 --> 00:02:12.229 
+shared between our two our app and our
+extension<00:02:09.450> now<00:02:09.599> we<00:02:10.440> need<00:02:10.619> to<00:02:10.830> first<00:02:11.400> store
+
+00:02:12.229 --> 00:02:12.239 
+extension now we need to first store
+
+00:02:12.239 --> 00:02:13.460 
+extension now we need to first store
+information
+
+00:02:13.460 --> 00:02:13.470 
+information
+
+00:02:13.470 --> 00:02:17.000 
+information
+ninis<00:02:14.130> shared<00:02:14.730> NS<00:02:15.120> used<00:02:15.390> a<00:02:15.570> form<00:02:15.810> so<00:02:16.440> let's<00:02:16.860> go
+
+00:02:17.000 --> 00:02:17.010 
+ninis shared NS used a form so let's go
+
+00:02:17.010 --> 00:02:19.520 
+ninis shared NS used a form so let's go
+to<00:02:17.070> our<00:02:17.130> iOS<00:02:17.580> app<00:02:17.820> and<00:02:17.940> build<00:02:18.630> a<00:02:18.780> really<00:02:19.170> simple
+
+00:02:19.520 --> 00:02:19.530 
+to our iOS app and build a really simple
+
+00:02:19.530 --> 00:02:22.850 
+to our iOS app and build a really simple
+little<00:02:20.000> interface<00:02:21.000> so<00:02:21.320> text<00:02:22.320> field<00:02:22.530> we're
+
+00:02:22.850 --> 00:02:22.860 
+little interface so text field we're
+
+00:02:22.860 --> 00:02:25.760 
+little interface so text field we're
+going<00:02:23.010> to<00:02:23.070> just<00:02:23.310> store<00:02:23.820> a<00:02:23.850> text<00:02:24.630> piece<00:02:25.290> of<00:02:25.470> text
+
+00:02:25.760 --> 00:02:25.770 
+going to just store a text piece of text
+
+00:02:25.770 --> 00:02:27.650 
+going to just store a text piece of text
+so<00:02:25.830> let's<00:02:26.220> put<00:02:26.400> our<00:02:26.490> text<00:02:26.760> field<00:02:26.940> in<00:02:27.030> there<00:02:27.180> and
+
+00:02:27.650 --> 00:02:27.660 
+so let's put our text field in there and
+
+00:02:27.660 --> 00:02:34.670 
+so let's put our text field in there and
+let's<00:02:28.380> put<00:02:28.560> a<00:02:28.590> button<00:02:32.180> open<00:02:33.180> up<00:02:33.680> assistant
+
+00:02:34.670 --> 00:02:34.680 
+let's put a button open up assistant
+
+00:02:34.680 --> 00:02:38.480 
+let's put a button open up assistant
+editor<00:02:35.060> close<00:02:36.060> that<00:02:36.620> so<00:02:37.620> bring<00:02:37.980> our<00:02:38.130> text
+
+00:02:38.480 --> 00:02:38.490 
+editor close that so bring our text
+
+00:02:38.490 --> 00:02:47.270 
+editor close that so bring our text
+field<00:02:38.810> available<00:02:44.870> and<00:02:45.870> make<00:02:46.410> a<00:02:46.590> function<00:02:46.890> for
+
+00:02:47.270 --> 00:02:47.280 
+field available and make a function for
+
+00:02:47.280 --> 00:02:57.590 
+field available and make a function for
+a<00:02:47.310> button<00:02:54.770> so<00:02:55.770> if<00:02:56.250> you<00:02:56.730> haven't<00:02:56.970> used<00:02:57.060> NS<00:02:57.390> user
+
+00:02:57.590 --> 00:02:57.600 
+a button so if you haven't used NS user
+
+00:02:57.600 --> 00:02:59.420 
+a button so if you haven't used NS user
+defaults<00:02:58.080> before<00:02:58.380> I'm<00:02:58.590> probably<00:02:59.070> going<00:02:59.250> to<00:02:59.310> do
+
+00:02:59.420 --> 00:02:59.430 
+defaults before I'm probably going to do
+
+00:02:59.430 --> 00:03:01.220 
+defaults before I'm probably going to do
+another<00:02:59.459> tutorial<00:02:59.970> explaining<00:03:00.600> how<00:03:00.810> to<00:03:00.840> use
+
+00:03:01.220 --> 00:03:01.230 
+another tutorial explaining how to use
+
+00:03:01.230 --> 00:03:03.620 
+another tutorial explaining how to use
+them<00:03:01.500> properly<00:03:01.850> but<00:03:02.850> I'm<00:03:03.060> just<00:03:03.150> going<00:03:03.300> to<00:03:03.390> skim
+
+00:03:03.620 --> 00:03:03.630 
+them properly but I'm just going to skim
+
+00:03:03.630 --> 00:03:06.740 
+them properly but I'm just going to skim
+over<00:03:03.660> it<00:03:03.900> in<00:03:04.020> this<00:03:04.140> case<00:03:04.350> and<00:03:05.630> there's<00:03:06.630> plenty
+
+00:03:06.740 --> 00:03:06.750 
+over it in this case and there's plenty
+
+00:03:06.750 --> 00:03:08.120 
+over it in this case and there's plenty
+of<00:03:06.930> other<00:03:07.050> information<00:03:07.440> if<00:03:07.770> I<00:03:07.830> haven't<00:03:08.070> done
+
+00:03:08.120 --> 00:03:08.130 
+of other information if I haven't done
+
+00:03:08.130 --> 00:03:10.670 
+of other information if I haven't done
+that<00:03:08.190> tutorial<00:03:08.550> yet<00:03:08.880> on<00:03:09.090> how<00:03:10.080> to<00:03:10.140> use<00:03:10.320> this
+
+00:03:10.670 --> 00:03:10.680 
+that tutorial yet on how to use this
+
+00:03:10.680 --> 00:03:12.290 
+that tutorial yet on how to use this
+user<00:03:11.040> default<00:03:11.430> they're<00:03:11.520> a<00:03:11.550> pretty<00:03:11.820> standard
+
+00:03:12.290 --> 00:03:12.300 
+user default they're a pretty standard
+
+00:03:12.300 --> 00:03:15.320 
+user default they're a pretty standard
+thing<00:03:12.510> so<00:03:12.990> let's<00:03:13.320> first<00:03:13.620> create<00:03:14.130> our<00:03:14.640> shared
+
+00:03:15.320 --> 00:03:15.330 
+thing so let's first create our shared
+
+00:03:15.330 --> 00:03:28.009 
+thing so let's first create our shared
+use<00:03:15.540> a<00:03:15.570> big<00:03:15.810> file<00:03:16.020> so<00:03:16.650> let<00:03:17.090> shared<00:03:24.980> and<00:03:26.810> if<00:03:27.810> you
+
+00:03:28.009 --> 00:03:28.019 
+use a big file so let shared and if you
+
+00:03:28.019 --> 00:03:30.920 
+use a big file so let shared and if you
+use<00:03:28.200> nsuserdefaults<00:03:28.709> for<00:03:29.400> now<00:03:29.670> I<00:03:30.390> can't
+
+00:03:30.920 --> 00:03:30.930 
+use nsuserdefaults for now I can't
+
+00:03:30.930 --> 00:03:32.990 
+use nsuserdefaults for now I can't
+remember<00:03:31.019> it's<00:03:31.350> cold<00:03:31.560> but<00:03:32.370> you<00:03:32.730> have<00:03:32.850> to
+
+00:03:32.990 --> 00:03:33.000 
+remember it's cold but you have to
+
+00:03:33.000 --> 00:03:35.210 
+remember it's cold but you have to
+declare<00:03:33.150> this<00:03:33.810> first<00:03:34.110> which<00:03:34.890> is<00:03:35.010> what<00:03:35.130> I'm
+
+00:03:35.210 --> 00:03:35.220 
+declare this first which is what I'm
+
+00:03:35.220 --> 00:03:37.130 
+declare this first which is what I'm
+doing<00:03:35.250> and<00:03:35.610> when<00:03:36.269> you<00:03:36.330> open<00:03:36.660> that<00:03:36.690> bracket
+
+00:03:37.130 --> 00:03:37.140 
+doing and when you open that bracket
+
+00:03:37.140 --> 00:03:39.920 
+doing and when you open that bracket
+comes<00:03:37.560> up<00:03:37.769> with<00:03:37.920> the<00:03:38.010> options<00:03:38.540> sweet<00:03:39.540> named
+
+00:03:39.920 --> 00:03:39.930 
+comes up with the options sweet named
+
+00:03:39.930 --> 00:03:42.530 
+comes up with the options sweet named
+sweet<00:03:40.590> yes<00:03:41.310> I<00:03:41.459> know<00:03:41.580> it's<00:03:41.730> not<00:03:41.850> sweet<00:03:42.239> sweet
+
+00:03:42.530 --> 00:03:42.540 
+sweet yes I know it's not sweet sweet
+
+00:03:42.540 --> 00:03:45.440 
+sweet yes I know it's not sweet sweet
+it's<00:03:42.720> new<00:03:43.320> aspect<00:03:43.680> in<00:03:44.340> here<00:03:44.640> we<00:03:45.090> want<00:03:45.209> to<00:03:45.239> put
+
+00:03:45.440 --> 00:03:45.450 
+it's new aspect in here we want to put
+
+00:03:45.450 --> 00:03:49.250 
+it's new aspect in here we want to put
+the<00:03:45.750> name<00:03:46.019> of<00:03:46.260> your<00:03:46.680> app<00:03:47.640> group<00:03:48.510> which<00:03:48.959> is<00:03:49.080> the
+
+00:03:49.250 --> 00:03:49.260 
+the name of your app group which is the
+
+00:03:49.260 --> 00:03:50.960 
+the name of your app group which is the
+container<00:03:49.590> where<00:03:50.280> your<00:03:50.400> information<00:03:50.880> is
+
+00:03:50.960 --> 00:03:50.970 
+container where your information is
+
+00:03:50.970 --> 00:04:07.640 
+container where your information is
+stored<00:03:51.269> that's<00:03:51.900> shared<00:03:52.280> so<00:04:05.660> so<00:04:06.660> this<00:04:07.080> is<00:04:07.290> our
+
+00:04:07.640 --> 00:04:07.650 
+stored that's shared so so this is our
+
+00:04:07.650 --> 00:04:09.949 
+stored that's shared so so this is our
+access<00:04:08.100> point<00:04:08.400> for<00:04:08.940> that<00:04:09.090> shared<00:04:09.450> container
+
+00:04:09.949 --> 00:04:09.959 
+access point for that shared container
+
+00:04:09.959 --> 00:04:12.710 
+access point for that shared container
+so<00:04:10.799> that's<00:04:11.040> when<00:04:11.940> this<00:04:12.030> function<00:04:12.209> runs<00:04:12.540> we're
+
+00:04:12.710 --> 00:04:12.720 
+so that's when this function runs we're
+
+00:04:12.720 --> 00:04:15.350 
+so that's when this function runs we're
+going<00:04:12.840> to<00:04:12.900> want<00:04:13.170> to<00:04:13.230> put<00:04:13.440> a<00:04:14.060> text<00:04:15.060> so<00:04:15.299> she
+
+00:04:15.350 --> 00:04:15.360 
+going to want to put a text so she
+
+00:04:15.360 --> 00:04:22.580 
+going to want to put a text so she
+shared<00:04:17.120> dot<00:04:18.200> set<00:04:19.430> object<00:04:20.430> for<00:04:20.850> K<00:04:21.500> we're<00:04:22.500> gonna
+
+00:04:22.580 --> 00:04:22.590 
+shared dot set object for K we're gonna
+
+00:04:22.590 --> 00:04:26.390 
+shared dot set object for K we're gonna
+set<00:04:23.010> our<00:04:23.160> object<00:04:23.520> is<00:04:23.700> the<00:04:23.880> text<00:04:24.180> field<00:04:24.979> text
+
+00:04:26.390 --> 00:04:26.400 
+set our object is the text field text
+
+00:04:26.400 --> 00:04:30.770 
+set our object is the text field text
+and<00:04:27.060> we<00:04:28.050> want<00:04:28.320> our<00:04:28.380> cake<00:04:28.680> to<00:04:28.710> be<00:04:29.780> shared
+
+00:04:30.770 --> 00:04:30.780 
+and we want our cake to be shared
+
+00:04:30.780 --> 00:04:33.830 
+and we want our cake to be shared
+because<00:04:31.620> we're<00:04:31.860> sharing<00:04:32.250> it<00:04:32.310> and<00:04:33.180> finally<00:04:33.690> as
+
+00:04:33.830 --> 00:04:33.840 
+because we're sharing it and finally as
+
+00:04:33.840 --> 00:04:35.480 
+because we're sharing it and finally as
+you<00:04:34.050> normally<00:04:34.169> would<00:04:34.410> with<00:04:34.650> NS<00:04:34.889> user<00:04:35.040> default
+
+00:04:35.480 --> 00:04:35.490 
+you normally would with NS user default
+
+00:04:35.490 --> 00:04:40.189 
+you normally would with NS user default
+you<00:04:36.060> just<00:04:36.300> want<00:04:36.510> to<00:04:36.600> synchronize<00:04:39.020> so<00:04:40.020> that's
+
+00:04:40.189 --> 00:04:40.199 
+you just want to synchronize so that's
+
+00:04:40.199 --> 00:04:42.710 
+you just want to synchronize so that's
+saving<00:04:40.650> that<00:04:40.979> in<00:04:41.190> that<00:04:41.699> shared<00:04:42.000> container<00:04:42.360> and
+
+00:04:42.710 --> 00:04:42.720 
+saving that in that shared container and
+
+00:04:42.720 --> 00:04:45.290 
+saving that in that shared container and
+now<00:04:42.750> we're<00:04:43.710> going<00:04:43.800> to<00:04:43.889> access<00:04:44.070> it<00:04:44.310> from<00:04:45.030> our
+
+00:04:45.290 --> 00:04:45.300 
+now we're going to access it from our
+
+00:04:45.300 --> 00:04:47.300 
+now we're going to access it from our
+watchkit<00:04:45.810> app<00:04:45.870> so<00:04:46.410> over<00:04:46.800> an<00:04:46.889> hour<00:04:46.979> watchkit
+
+00:04:47.300 --> 00:04:47.310 
+watchkit app so over an hour watchkit
+
+00:04:47.310 --> 00:04:49.030 
+watchkit app so over an hour watchkit
+app<00:04:47.370> we<00:04:47.699> go<00:04:47.820> into<00:04:48.000> our<00:04:48.120> interface<00:04:48.540> builder
+
+00:04:49.030 --> 00:04:49.040 
+app we go into our interface builder
+
+00:04:49.040 --> 00:04:53.420 
+app we go into our interface builder
+close<00:04:50.040> that<00:04:50.310> and<00:04:50.930> i'm<00:04:51.930> gonna<00:04:52.080> put<00:04:52.440> in<00:04:52.770> a<00:04:52.949> button
+
+00:04:53.420 --> 00:04:53.430 
+close that and i'm gonna put in a button
+
+00:04:53.430 --> 00:04:55.310 
+close that and i'm gonna put in a button
+and<00:04:53.639> a<00:04:54.030> text<00:04:54.060> field<00:04:54.449> say<00:04:54.810> there's<00:04:54.990> a<00:04:55.050> button
+
+00:04:55.310 --> 00:04:55.320 
+and a text field say there's a button
+
+00:04:55.320 --> 00:05:00.379 
+and a text field say there's a button
+that's<00:04:55.560> convenient<00:04:56.010> and<00:04:59.030> it's<00:05:00.030> going<00:05:00.150> to<00:05:00.210> pull
+
+00:05:00.379 --> 00:05:00.389 
+that's convenient and it's going to pull
+
+00:05:00.389 --> 00:05:01.670 
+that's convenient and it's going to pull
+that<00:05:00.539> text<00:05:00.870> out<00:05:00.960> I'm<00:05:01.110> gonna<00:05:01.199> put<00:05:01.289> it<00:05:01.530> in<00:05:01.590> the
+
+00:05:01.670 --> 00:05:01.680 
+that text out I'm gonna put it in the
+
+00:05:01.680 --> 00:05:18.050 
+that text out I'm gonna put it in the
+text<00:05:01.830> field<00:05:02.130> when<00:05:02.610> we<00:05:02.639> press<00:05:12.410> and<00:05:13.880> text<00:05:17.060> that's
+
+00:05:18.050 --> 00:05:18.060 
+text field when we press and text that's
+
+00:05:18.060 --> 00:05:20.510 
+text field when we press and text that's
+not<00:05:18.240> a<00:05:18.270> text<00:05:18.510> field<00:05:18.800> so<00:05:19.800> we're<00:05:20.130> gonna<00:05:20.220> copy
+
+00:05:20.510 --> 00:05:20.520 
+not a text field so we're gonna copy
+
+00:05:20.520 --> 00:05:24.350 
+not a text field so we're gonna copy
+over<00:05:20.850> so<00:05:21.300> again<00:05:21.660> we<00:05:21.990> need<00:05:22.139> to<00:05:22.199> access<00:05:22.729> that<00:05:23.729> NS
+
+00:05:24.350 --> 00:05:24.360 
+over so again we need to access that NS
+
+00:05:24.360 --> 00:05:32.390 
+over so again we need to access that NS
+user<00:05:24.539> default<00:05:27.470> is<00:05:29.450> defaults<00:05:30.560> and<00:05:31.560> again<00:05:32.190> the
+
+00:05:32.390 --> 00:05:32.400 
+user default is defaults and again the
+
+00:05:32.400 --> 00:05:44.779 
+user default is defaults and again the
+same<00:05:32.639> sweet<00:05:32.970> name<00:05:41.570> and<00:05:42.570> a<00:05:43.310> few<00:05:44.310> views<00:05:44.520> then<00:05:44.669> as
+
+00:05:44.779 --> 00:05:44.789 
+same sweet name and a few views then as
+
+00:05:44.789 --> 00:05:46.550 
+same sweet name and a few views then as
+soon<00:05:44.940> as<00:05:45.090> it<00:05:45.330> use<00:05:45.750> defaults<00:05:46.169> before<00:05:46.410> you'd
+
+00:05:46.550 --> 00:05:46.560 
+soon as it use defaults before you'd
+
+00:05:46.560 --> 00:05:51.279 
+soon as it use defaults before you'd
+know<00:05:46.710> you<00:05:46.770> yeah<00:05:47.960> you'd<00:05:48.960> use<00:05:49.229> object<00:05:49.979> for<00:05:50.310> K<00:05:50.580> so
+
+00:05:51.279 --> 00:05:51.289 
+know you yeah you'd use object for K so
+
+00:05:51.289 --> 00:05:59.750 
+know you yeah you'd use object for K so
+we're<00:05:52.289> going<00:05:52.410> to<00:05:52.560> go<00:05:53.330> I'm<00:05:54.330> gonna<00:05:54.479> set<00:05:58.760> people's
+
+00:05:59.750 --> 00:05:59.760 
+we're going to go I'm gonna set people's
+
+00:05:59.760 --> 00:06:02.409 
+we're going to go I'm gonna set people's
+this<00:05:59.940> is<00:06:00.060> probably<00:06:00.419> more<00:06:01.349> than<00:06:01.500> necessary
+
+00:06:02.409 --> 00:06:02.419 
+this is probably more than necessary
+
+00:06:02.419 --> 00:06:04.460 
+this is probably more than necessary
+shared<00:06:03.419> defaults<00:06:04.020> dot
+
+00:06:04.460 --> 00:06:04.470 
+shared defaults dot
+
+00:06:04.470 --> 00:06:09.710 
+shared defaults dot
+object<00:06:05.250> okay<00:06:06.240> I<00:06:08.000> think<00:06:09.000> we<00:06:09.060> call<00:06:09.210> it<00:06:09.240> shared
+
+00:06:09.710 --> 00:06:09.720 
+object okay I think we call it shared
+
+00:06:09.720 --> 00:06:17.050 
+object okay I think we call it shared
+now<00:06:10.470> we're<00:06:10.680> just<00:06:10.740> gonna<00:06:10.919> set<00:06:11.190> our<00:06:11.340> text<00:06:11.580> as
+
+00:06:17.050 --> 00:06:17.060 
+
+00:06:17.060 --> 00:06:25.040 
+
+dead<00:06:18.060> text<00:06:22.610> that's<00:06:23.610> all<00:06:23.820> happy<00:06:24.090> now<00:06:24.840> we<00:06:24.900> can
+
+00:06:25.040 --> 00:06:25.050 
+dead text that's all happy now we can
+
+00:06:25.050 --> 00:06:30.100 
+dead text that's all happy now we can
+test<00:06:25.320> run<00:06:25.530> our<00:06:25.650> app<00:06:25.800> so<00:06:26.460> iOS<00:06:26.880> app<00:06:27.180> comes<00:06:27.449> up
+
+00:06:30.100 --> 00:06:30.110 
+
+00:06:30.110 --> 00:06:32.910 
+
+that's<00:06:31.110> right<00:06:31.470> something
+
+00:06:32.910 --> 00:06:32.920 
+that's right something
+
+00:06:32.920 --> 00:06:35.860 
+that's right something
+and<00:06:33.920> button<00:06:34.250> so<00:06:34.610> that<00:06:34.760> button<00:06:35.120> saves<00:06:35.480> it<00:06:35.690> in
+
+00:06:35.860 --> 00:06:35.870 
+and button so that button saves it in
+
+00:06:35.870 --> 00:06:39.340 
+and button so that button saves it in
+our<00:06:36.170> shared<00:06:36.680> container<00:06:37.490> run<00:06:38.480> out<00:06:38.690> watchkit
+
+00:06:39.340 --> 00:06:39.350 
+our shared container run out watchkit
+
+00:06:39.350 --> 00:06:42.790 
+our shared container run out watchkit
+app<00:06:39.410> and<00:06:39.790> app<00:06:40.790> starts<00:06:41.180> up<00:06:41.300> we<00:06:42.170> press<00:06:42.680> our
+
+00:06:42.790 --> 00:06:42.800 
+app and app starts up we press our
+
+00:06:42.800 --> 00:06:45.430 
+app and app starts up we press our
+button<00:06:43.130> there<00:06:43.730> it<00:06:43.850> loads<00:06:44.060> our<00:06:44.240> text<00:06:44.720> something
+
+00:06:45.430 --> 00:06:45.440 
+button there it loads our text something
+
+00:06:45.440 --> 00:06:48.550 
+button there it loads our text something
+which<00:06:46.100> is<00:06:46.370> from<00:06:47.000> that<00:06:47.120> shared<00:06:47.420> container<00:06:47.810> so
+
+00:06:48.550 --> 00:06:48.560 
+which is from that shared container so
+
+00:06:48.560 --> 00:06:50.200 
+which is from that shared container so
+hopefully<00:06:48.920> that<00:06:49.100> shows<00:06:49.340> you<00:06:49.550> an<00:06:49.730> example<00:06:50.030> of
+
+00:06:50.200 --> 00:06:50.210 
+hopefully that shows you an example of
+
+00:06:50.210 --> 00:06:53.200 
+hopefully that shows you an example of
+how<00:06:50.330> to<00:06:50.360> use<00:06:51.100> the<00:06:52.100> shed<00:06:52.340> containers<00:06:52.850> and<00:06:53.030> app
+
+00:06:53.200 --> 00:06:53.210 
+how to use the shed containers and app
+
+00:06:53.210 --> 00:06:56.740 
+how to use the shed containers and app
+groups<00:06:53.590> with<00:06:54.590> NS<00:06:55.520> user<00:06:55.700> defaults<00:06:56.180> you<00:06:56.360> can
+
+00:06:56.740 --> 00:06:56.750 
+groups with NS user defaults you can
+
+00:06:56.750 --> 00:06:59.560 
+groups with NS user defaults you can
+also<00:06:56.930> use<00:06:57.350> these<00:06:57.620> with<00:06:58.130> actually<00:06:59.030> you<00:06:59.120> can<00:06:59.270> use
+
+00:06:59.560 --> 00:06:59.570 
+also use these with actually you can use
+
+00:06:59.570 --> 00:07:01.930 
+also use these with actually you can use
+this<00:06:59.690> with<00:07:00.370> practically<00:07:01.370> anything<00:07:01.550> you<00:07:01.790> can
+
+00:07:01.930 --> 00:07:01.940 
+this with practically anything you can
+
+00:07:01.940 --> 00:07:04.300 
+this with practically anything you can
+save<00:07:02.150> on<00:07:02.300> Twitter<00:07:02.570> iOS<00:07:02.930> device<00:07:03.230> you<00:07:03.950> just<00:07:04.190> have
+
+00:07:04.300 --> 00:07:04.310 
+save on Twitter iOS device you just have
+
+00:07:04.310 --> 00:07:06.720 
+save on Twitter iOS device you just have
+to<00:07:04.430> shut<00:07:04.640> save<00:07:04.970> it<00:07:05.060> into<00:07:05.180> that<00:07:05.360> container<00:07:05.660> and
+
+00:07:06.720 --> 00:07:06.730 
+to shut save it into that container and
+
+00:07:06.730 --> 00:07:10.390 
+to shut save it into that container and
+most<00:07:08.290> is<00:07:09.290> a<00:07:09.650> reasonable<00:07:10.160> amount<00:07:10.280> of
+
+00:07:10.390 --> 00:07:10.400 
+most is a reasonable amount of
+
+00:07:10.400 --> 00:07:14.200 
+most is a reasonable amount of
+information<00:07:10.670> out<00:07:11.030> there<00:07:11.090> on<00:07:11.630> how<00:07:11.810> to<00:07:11.840> do<00:07:12.050> that
+

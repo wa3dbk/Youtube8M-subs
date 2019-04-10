@@ -1,0 +1,1051 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.210 
+
+hello<00:00:00.840> YouTube<00:00:01.170> welcome<00:00:01.199> to<00:00:01.709> tutorial<00:00:02.190> number
+
+00:00:02.210 --> 00:00:02.220 
+hello YouTube welcome to tutorial number
+
+00:00:02.220 --> 00:00:05.120 
+hello YouTube welcome to tutorial number
+24<00:00:03.120> in<00:00:03.330> the<00:00:03.629> PHP<00:00:03.990> programming<00:00:04.170> tutorial
+
+00:00:05.120 --> 00:00:05.130 
+24 in the PHP programming tutorial
+
+00:00:05.130 --> 00:00:07.400 
+24 in the PHP programming tutorial
+series<00:00:05.370> and<00:00:05.790> in<00:00:06.540> this<00:00:06.660> video<00:00:06.930> we're<00:00:07.170> going<00:00:07.319> to
+
+00:00:07.400 --> 00:00:07.410 
+series and in this video we're going to
+
+00:00:07.410 --> 00:00:10.040 
+series and in this video we're going to
+cover<00:00:07.649> using<00:00:08.490> the<00:00:08.639> file<00:00:09.030> get<00:00:09.450> content
+
+00:00:10.040 --> 00:00:10.050 
+cover using the file get content
+
+00:00:10.050 --> 00:00:12.919 
+cover using the file get content
+contents<00:00:10.800> function<00:00:11.190> to<00:00:11.940> get<00:00:12.090> the<00:00:12.240> contents<00:00:12.780> of
+
+00:00:12.919 --> 00:00:12.929 
+contents function to get the contents of
+
+00:00:12.929 --> 00:00:16.189 
+contents function to get the contents of
+a<00:00:13.049> file<00:00:13.259> and<00:00:13.590> put<00:00:14.519> that<00:00:14.639> into<00:00:14.820> a<00:00:14.940> string<00:00:15.299> so
+
+00:00:16.189 --> 00:00:16.199 
+a file and put that into a string so
+
+00:00:16.199 --> 00:00:19.570 
+a file and put that into a string so
+we'll<00:00:16.590> start<00:00:16.859> off<00:00:17.070> our<00:00:17.430> PHP<00:00:17.970> file<00:00:18.359> I'm<00:00:19.170> going
+
+00:00:19.570 --> 00:00:19.580 
+we'll start off our PHP file I'm going
+
+00:00:19.580 --> 00:00:28.400 
+we'll start off our PHP file I'm going
+to<00:00:20.580> save<00:00:20.760> this<00:00:20.970> as<00:00:23.210> get<00:00:24.210> file<00:00:24.570> PHP<00:00:25.369> and<00:00:27.410> when
+
+00:00:28.400 --> 00:00:28.410 
+to save this as get file PHP and when
+
+00:00:28.410 --> 00:00:29.450 
+to save this as get file PHP and when
+I'm<00:00:28.500> just<00:00:28.619> going<00:00:28.740> to<00:00:28.769> put<00:00:28.920> anything<00:00:29.130> in<00:00:29.310> here
+
+00:00:29.450 --> 00:00:29.460 
+I'm just going to put anything in here
+
+00:00:29.460 --> 00:00:30.800 
+I'm just going to put anything in here
+right<00:00:29.640> now<00:00:29.670> we're<00:00:30.000> going<00:00:30.359> to<00:00:30.420> create<00:00:30.570> a<00:00:30.630> new
+
+00:00:30.800 --> 00:00:30.810 
+right now we're going to create a new
+
+00:00:30.810 --> 00:00:33.440 
+right now we're going to create a new
+file<00:00:31.019> click<00:00:31.260> the<00:00:31.410> new<00:00:31.619> one<00:00:32.340> here<00:00:32.610> and<00:00:32.790> this<00:00:33.329> is
+
+00:00:33.440 --> 00:00:33.450 
+file click the new one here and this is
+
+00:00:33.450 --> 00:00:35.600 
+file click the new one here and this is
+going<00:00:33.630> to<00:00:33.690> be<00:00:33.780> our<00:00:33.899> text<00:00:34.260> file<00:00:34.440> so<00:00:34.680> inside<00:00:35.370> here
+
+00:00:35.600 --> 00:00:35.610 
+going to be our text file so inside here
+
+00:00:35.610 --> 00:00:36.979 
+going to be our text file so inside here
+it's<00:00:35.700> going<00:00:35.790> to<00:00:35.850> be<00:00:35.969> an<00:00:36.030> old<00:00:36.210> text<00:00:36.540> file<00:00:36.660> we're
+
+00:00:36.979 --> 00:00:36.989 
+it's going to be an old text file we're
+
+00:00:36.989 --> 00:00:39.770 
+it's going to be an old text file we're
+going<00:00:37.140> to<00:00:37.260> write<00:00:37.440> and<00:00:38.059> this<00:00:39.059> is<00:00:39.300> the<00:00:39.570> first
+
+00:00:39.770 --> 00:00:39.780 
+going to write and this is the first
+
+00:00:39.780 --> 00:00:46.340 
+going to write and this is the first
+line<00:00:41.510> this<00:00:42.510> is<00:00:42.570> the<00:00:43.260> second<00:00:43.829> line<00:00:45.170> and<00:00:46.170> we'll
+
+00:00:46.340 --> 00:00:46.350 
+line this is the second line and we'll
+
+00:00:46.350 --> 00:00:48.770 
+line this is the second line and we'll
+just<00:00:46.559> have<00:00:46.770> another<00:00:47.370> space<00:00:47.640> import<00:00:48.090> this<00:00:48.480> is
+
+00:00:48.770 --> 00:00:48.780 
+just have another space import this is
+
+00:00:48.780 --> 00:00:52.610 
+just have another space import this is
+the<00:00:49.350> fourth<00:00:49.680> line<00:00:50.489> okay<00:00:51.020> so<00:00:52.020> we<00:00:52.079> have<00:00:52.199> a<00:00:52.230> nicely
+
+00:00:52.610 --> 00:00:52.620 
+the fourth line okay so we have a nicely
+
+00:00:52.620 --> 00:00:54.590 
+the fourth line okay so we have a nicely
+formatted<00:00:52.649> text<00:00:53.219> document<00:00:53.760> we<00:00:54.329> have<00:00:54.360> the
+
+00:00:54.590 --> 00:00:54.600 
+formatted text document we have the
+
+00:00:54.600 --> 00:00:57.470 
+formatted text document we have the
+first<00:00:54.870> second<00:00:55.590> third<00:00:55.980> and<00:00:56.219> fourth<00:00:56.489> line<00:00:56.699> we
+
+00:00:57.470 --> 00:00:57.480 
+first second third and fourth line we
+
+00:00:57.480 --> 00:01:00.830 
+first second third and fourth line we
+have<00:00:57.600> a<00:00:57.629> line<00:00:57.840> break<00:00:58.109> here<00:00:58.789> here<00:00:59.789> and<00:00:59.969> then
+
+00:01:00.830 --> 00:01:00.840 
+have a line break here here and then
+
+00:01:00.840 --> 00:01:02.840 
+have a line break here here and then
+again<00:01:01.289> here<00:01:01.680> to<00:01:01.890> go<00:01:02.039> into<00:01:02.250> line<00:01:02.399> four
+
+00:01:02.840 --> 00:01:02.850 
+again here to go into line four
+
+00:01:02.850 --> 00:01:08.170 
+again here to go into line four
+so<00:01:03.480> we'd<00:01:03.660> save<00:01:03.930> this<00:01:04.229> we'll<00:01:04.589> save<00:01:04.830> this<00:01:05.040> as<00:01:05.600> M
+
+00:01:08.170 --> 00:01:08.180 
+so we'd save this we'll save this as M
+
+00:01:08.180 --> 00:01:12.260 
+so we'd save this we'll save this as M
+documents<00:01:09.180> ext<00:01:10.549> okay<00:01:11.549> so<00:01:11.610> now<00:01:11.880> we<00:01:11.939> have<00:01:12.150> our
+
+00:01:12.260 --> 00:01:12.270 
+documents ext okay so now we have our
+
+00:01:12.270 --> 00:01:15.050 
+documents ext okay so now we have our
+text<00:01:12.479> document<00:01:13.020> we<00:01:13.229> want<00:01:13.409> to<00:01:13.530> read<00:01:13.740> this<00:01:14.060> using
+
+00:01:15.050 --> 00:01:15.060 
+text document we want to read this using
+
+00:01:15.060 --> 00:01:17.990 
+text document we want to read this using
+PHP<00:01:15.630> and<00:01:15.840> output<00:01:16.500> it<00:01:16.619> to<00:01:16.740> our<00:01:16.860> web<00:01:17.009> page<00:01:17.040> so<00:01:17.909> we
+
+00:01:17.990 --> 00:01:18.000 
+PHP and output it to our web page so we
+
+00:01:18.000 --> 00:01:19.370 
+PHP and output it to our web page so we
+can<00:01:18.119> do<00:01:18.270> this<00:01:18.420> using<00:01:18.689> the<00:01:18.840> file<00:01:19.110> get<00:01:19.350> contents
+
+00:01:19.370 --> 00:01:19.380 
+can do this using the file get contents
+
+00:01:19.380 --> 00:01:22.130 
+can do this using the file get contents
+function<00:01:20.280> so<00:01:20.520> we're<00:01:21.240> going<00:01:21.330> to<00:01:21.420> declare<00:01:21.540> the
+
+00:01:22.130 --> 00:01:22.140 
+function so we're going to declare the
+
+00:01:22.140 --> 00:01:24.770 
+function so we're going to declare the
+file<00:01:22.409> path<00:01:22.680> up<00:01:22.920> here<00:01:23.100> and<00:01:23.340> we're<00:01:24.299> going<00:01:24.420> to<00:01:24.509> use
+
+00:01:24.770 --> 00:01:24.780 
+file path up here and we're going to use
+
+00:01:24.780 --> 00:01:28.609 
+file path up here and we're going to use
+a<00:01:26.060> full<00:01:27.060> stop<00:01:27.119> and<00:01:27.570> then<00:01:28.020> a<00:01:28.049> forward<00:01:28.500> slash
+
+00:01:28.609 --> 00:01:28.619 
+a full stop and then a forward slash
+
+00:01:28.619 --> 00:01:29.990 
+a full stop and then a forward slash
+that's<00:01:29.040> going<00:01:29.369> to<00:01:29.430> represent<00:01:29.549> that<00:01:29.820> we're
+
+00:01:29.990 --> 00:01:30.000 
+that's going to represent that we're
+
+00:01:30.000 --> 00:01:32.300 
+that's going to represent that we're
+searching<00:01:30.329> inside<00:01:30.479> of<00:01:30.869> this<00:01:31.189> directory<00:01:32.189> that
+
+00:01:32.300 --> 00:01:32.310 
+searching inside of this directory that
+
+00:01:32.310 --> 00:01:35.120 
+searching inside of this directory that
+the<00:01:32.579> get<00:01:32.820> file<00:01:33.030> at<00:01:33.270> PHP<00:01:33.720> is<00:01:33.840> inside<00:01:34.170> and<00:01:34.470> then
+
+00:01:35.120 --> 00:01:35.130 
+the get file at PHP is inside and then
+
+00:01:35.130 --> 00:01:38.210 
+the get file at PHP is inside and then
+we're<00:01:35.400> going<00:01:35.490> to<00:01:35.610> say<00:01:35.820> document.txt<00:01:37.040> so<00:01:38.040> that
+
+00:01:38.210 --> 00:01:38.220 
+we're going to say document.txt so that
+
+00:01:38.220 --> 00:01:40.219 
+we're going to say document.txt so that
+is<00:01:38.340> going<00:01:38.549> to<00:01:38.670> be<00:01:38.790> the<00:01:39.329> file<00:01:39.540> were<00:01:39.720> looking<00:01:40.020> for
+
+00:01:40.219 --> 00:01:40.229 
+is going to be the file were looking for
+
+00:01:40.229 --> 00:01:43.819 
+is going to be the file were looking for
+save<00:01:40.619> that<00:01:41.030> okay<00:01:42.030> and<00:01:42.210> now<00:01:42.450> to<00:01:42.689> use<00:01:43.409> the<00:01:43.590> file
+
+00:01:43.819 --> 00:01:43.829 
+save that okay and now to use the file
+
+00:01:43.829 --> 00:01:45.590 
+save that okay and now to use the file
+get<00:01:44.009> contents<00:01:44.040> from<00:01:44.579> Jimny<00:01:45.030> to<00:01:45.210> create<00:01:45.570> a
+
+00:01:45.590 --> 00:01:45.600 
+get contents from Jimny to create a
+
+00:01:45.600 --> 00:01:48.889 
+get contents from Jimny to create a
+variable<00:01:45.930> to<00:01:46.140> store<00:01:46.380> the<00:01:46.890> response<00:01:47.310> or<00:01:47.899> what
+
+00:01:48.889 --> 00:01:48.899 
+variable to store the response or what
+
+00:01:48.899 --> 00:01:50.690 
+variable to store the response or what
+it<00:01:48.990> returns<00:01:49.110> sorry<00:01:49.649> so<00:01:50.220> we're<00:01:50.340> going<00:01:50.430> to<00:01:50.520> call
+
+00:01:50.690 --> 00:01:50.700 
+it returns sorry so we're going to call
+
+00:01:50.700 --> 00:01:54.859 
+it returns sorry so we're going to call
+this<00:01:52.009> document<00:01:53.390> and<00:01:54.390> we're<00:01:54.509> going<00:01:54.630> to<00:01:54.689> set<00:01:54.840> to
+
+00:01:54.859 --> 00:01:54.869 
+this document and we're going to set to
+
+00:01:54.869 --> 00:01:56.990 
+this document and we're going to set to
+the<00:01:55.079> value<00:01:55.290> as<00:01:55.409> file<00:01:55.710> on<00:01:55.950> the<00:01:56.100> score<00:01:56.340> get<00:01:56.759> on
+
+00:01:56.990 --> 00:01:57.000 
+the value as file on the score get on
+
+00:01:57.000 --> 00:02:00.139 
+the value as file on the score get on
+the<00:01:57.119> score<00:01:57.360> content<00:01:57.930> so<00:01:58.590> the<00:01:58.740> way<00:01:58.860> to<00:01:58.920> call<00:01:59.729> use
+
+00:02:00.139 --> 00:02:00.149 
+the score content so the way to call use
+
+00:02:00.149 --> 00:02:03.499 
+the score content so the way to call use
+the<00:02:00.420> get<00:02:01.350> contents<00:02:01.950> function<00:02:02.579> is<00:02:02.729> simply<00:02:03.060> type
+
+00:02:03.499 --> 00:02:03.509 
+the get contents function is simply type
+
+00:02:03.509 --> 00:02:05.300 
+the get contents function is simply type
+file<00:02:03.810> on<00:02:04.079> the<00:02:04.200> score<00:02:04.439> get<00:02:04.649> underscore
+
+00:02:05.300 --> 00:02:05.310 
+file on the score get underscore
+
+00:02:05.310 --> 00:02:07.880 
+file on the score get underscore
+contents<00:02:05.850> and<00:02:06.030> then<00:02:06.450> in<00:02:06.659> brackets<00:02:06.899> here<00:02:07.320> we
+
+00:02:07.880 --> 00:02:07.890 
+contents and then in brackets here we
+
+00:02:07.890 --> 00:02:09.410 
+contents and then in brackets here we
+need<00:02:08.009> to<00:02:08.099> specify<00:02:08.369> the<00:02:08.700> file<00:02:08.970> when<00:02:09.209> you<00:02:09.239> want
+
+00:02:09.410 --> 00:02:09.420 
+need to specify the file when you want
+
+00:02:09.420 --> 00:02:11.270 
+need to specify the file when you want
+to<00:02:09.539> get<00:02:09.660> the<00:02:09.750> contents<00:02:10.200> of<00:02:10.319> in<00:02:10.619> this<00:02:10.770> case<00:02:11.009> it
+
+00:02:11.270 --> 00:02:11.280 
+to get the contents of in this case it
+
+00:02:11.280 --> 00:02:13.730 
+to get the contents of in this case it
+is<00:02:11.310> file<00:02:11.819> so<00:02:12.599> we<00:02:12.690> do<00:02:12.810> that
+
+00:02:13.730 --> 00:02:13.740 
+is file so we do that
+
+00:02:13.740 --> 00:02:15.500 
+is file so we do that
+and<00:02:13.860> what<00:02:14.010> this<00:02:14.130> is<00:02:14.190> done<00:02:14.430> now<00:02:14.580> is<00:02:14.760> if<00:02:15.240> this
+
+00:02:15.500 --> 00:02:15.510 
+and what this is done now is if this
+
+00:02:15.510 --> 00:02:18.260 
+and what this is done now is if this
+file<00:02:15.780> exists<00:02:16.350> it<00:02:16.800> will<00:02:17.010> retain<00:02:17.370> the<00:02:17.910> entire
+
+00:02:18.260 --> 00:02:18.270 
+file exists it will retain the entire
+
+00:02:18.270 --> 00:02:21.080 
+file exists it will retain the entire
+file<00:02:18.570> as<00:02:18.870> a<00:02:18.930> string<00:02:19.350> inside<00:02:20.340> of<00:02:20.520> this<00:02:20.670> document
+
+00:02:21.080 --> 00:02:21.090 
+file as a string inside of this document
+
+00:02:21.090 --> 00:02:23.000 
+file as a string inside of this document
+variable<00:02:21.840> and<00:02:22.260> if<00:02:22.350> it<00:02:22.470> doesn't<00:02:22.770> it<00:02:22.980> will
+
+00:02:23.000 --> 00:02:23.010 
+variable and if it doesn't it will
+
+00:02:23.010 --> 00:02:25.460 
+variable and if it doesn't it will
+return<00:02:23.400> false<00:02:23.570> so<00:02:24.570> we<00:02:24.900> should<00:02:25.200> be<00:02:25.290> able<00:02:25.380> to
+
+00:02:25.460 --> 00:02:25.470 
+return false so we should be able to
+
+00:02:25.470 --> 00:02:27.200 
+return false so we should be able to
+echo<00:02:25.650> out<00:02:25.860> this<00:02:26.040> out<00:02:26.220> no<00:02:26.400> problem<00:02:26.550> so<00:02:27.030> it's
+
+00:02:27.200 --> 00:02:27.210 
+echo out this out no problem so it's
+
+00:02:27.210 --> 00:02:30.470 
+echo out this out no problem so it's
+just<00:02:27.390> a<00:02:27.540> call<00:02:27.750> document<00:02:28.560> and<00:02:29.000> then<00:02:30.000> we'll<00:02:30.210> save
+
+00:02:30.470 --> 00:02:30.480 
+just a call document and then we'll save
+
+00:02:30.480 --> 00:02:34.940 
+just a call document and then we'll save
+this<00:02:30.750> get<00:02:31.710> file<00:02:31.890> the<00:02:32.010> PHP<00:02:33.110> and<00:02:34.110> you'll<00:02:34.770> notice
+
+00:02:34.940 --> 00:02:34.950 
+this get file the PHP and you'll notice
+
+00:02:34.950 --> 00:02:36.680 
+this get file the PHP and you'll notice
+that<00:02:35.130> we<00:02:35.340> don't<00:02:35.520> have<00:02:35.640> our<00:02:35.670> line<00:02:36.030> breaks<00:02:36.360> and
+
+00:02:36.680 --> 00:02:36.690 
+that we don't have our line breaks and
+
+00:02:36.690 --> 00:02:39.200 
+that we don't have our line breaks and
+that's<00:02:37.230> because<00:02:37.590> I'm<00:02:38.130> right<00:02:38.700> what<00:02:39.030> we're
+
+00:02:39.200 --> 00:02:39.210 
+that's because I'm right what we're
+
+00:02:39.210 --> 00:02:41.030 
+that's because I'm right what we're
+doing<00:02:39.360> right<00:02:39.480> now<00:02:39.660> a<00:02:39.690> PHP<00:02:40.140> file<00:02:40.530> this<00:02:40.800> is<00:02:40.920> like
+
+00:02:41.030 --> 00:02:41.040 
+doing right now a PHP file this is like
+
+00:02:41.040 --> 00:02:43.910 
+doing right now a PHP file this is like
+HTML<00:02:41.670> document<00:02:42.090> so<00:02:42.840> we<00:02:42.870> can't<00:02:43.260> actually<00:02:43.500> use
+
+00:02:43.910 --> 00:02:43.920 
+HTML document so we can't actually use
+
+00:02:43.920 --> 00:02:46.480 
+HTML document so we can't actually use
+you'll<00:02:44.670> see<00:02:44.850> actually<00:02:45.240> when<00:02:45.660> we<00:02:45.750> go<00:02:45.840> to<00:02:45.900> our
+
+00:02:46.480 --> 00:02:46.490 
+you'll see actually when we go to our
+
+00:02:46.490 --> 00:02:49.370 
+you'll see actually when we go to our
+notepad<00:02:47.490> here<00:02:47.670> and<00:02:48.030> it's<00:02:48.840> actually<00:02:49.140> in<00:02:49.230> new
+
+00:02:49.370 --> 00:02:49.380 
+notepad here and it's actually in new
+
+00:02:49.380 --> 00:02:51.230 
+notepad here and it's actually in new
+lines<00:02:49.590> but<00:02:50.310> what<00:02:50.430> I'm<00:02:50.520> going<00:02:50.670> to<00:02:50.700> do<00:02:50.820> now<00:02:51.000> is
+
+00:02:51.230 --> 00:02:51.240 
+lines but what I'm going to do now is
+
+00:02:51.240 --> 00:02:53.150 
+lines but what I'm going to do now is
+just<00:02:51.270> I'm<00:02:51.660> going<00:02:52.200> to<00:02:52.380> loop<00:02:52.560> through<00:02:52.770> each<00:02:52.830> line
+
+00:02:53.150 --> 00:02:53.160 
+just I'm going to loop through each line
+
+00:02:53.160 --> 00:02:56.300 
+just I'm going to loop through each line
+but<00:02:53.940> I'll<00:02:54.420> show<00:02:54.630> you<00:02:54.660> actually<00:02:55.080> first<00:02:55.350> what<00:02:56.190> we
+
+00:02:56.300 --> 00:02:56.310 
+but I'll show you actually first what we
+
+00:02:56.310 --> 00:02:59.570 
+but I'll show you actually first what we
+can<00:02:56.430> do<00:02:56.610> you<00:02:57.270> can<00:02:57.420> just<00:02:57.590> specify<00:02:58.590> header<00:02:59.250> and
+
+00:02:59.570 --> 00:02:59.580 
+can do you can just specify header and
+
+00:02:59.580 --> 00:03:03.860 
+can do you can just specify header and
+then<00:03:00.090> in<00:03:00.380> puts<00:03:01.380> it<00:03:01.530> content<00:03:02.010> type<00:03:02.670> and<00:03:02.940> put<00:03:03.780> it
+
+00:03:03.860 --> 00:03:03.870 
+then in puts it content type and put it
+
+00:03:03.870 --> 00:03:06.140 
+then in puts it content type and put it
+to<00:03:03.960> text<00:03:04.200> on<00:03:04.530> sorry<00:03:05.160> text<00:03:05.640> forward<00:03:05.940> slash
+
+00:03:06.140 --> 00:03:06.150 
+to text on sorry text forward slash
+
+00:03:06.150 --> 00:03:08.510 
+to text on sorry text forward slash
+plain<00:03:06.480> and<00:03:06.720> this<00:03:07.410> will<00:03:07.620> treat<00:03:07.950> the<00:03:08.100> document
+
+00:03:08.510 --> 00:03:08.520 
+plain and this will treat the document
+
+00:03:08.520 --> 00:03:10.010 
+plain and this will treat the document
+like<00:03:08.670> it's<00:03:08.850> a<00:03:08.940> normal<00:03:09.090> text<00:03:09.420> document<00:03:09.870> like
+
+00:03:10.010 --> 00:03:10.020 
+like it's a normal text document like
+
+00:03:10.020 --> 00:03:12.830 
+like it's a normal text document like
+it's<00:03:10.170> this<00:03:10.380> so<00:03:11.070> if<00:03:11.130> we<00:03:11.220> load<00:03:11.490> this<00:03:11.730> you'll<00:03:12.660> see
+
+00:03:12.830 --> 00:03:12.840 
+it's this so if we load this you'll see
+
+00:03:12.840 --> 00:03:14.960 
+it's this so if we load this you'll see
+that<00:03:12.990> the<00:03:13.140> lines<00:03:13.350> all<00:03:13.590> formatted<00:03:14.190> nice<00:03:14.730> and
+
+00:03:14.960 --> 00:03:14.970 
+that the lines all formatted nice and
+
+00:03:14.970 --> 00:03:16.670 
+that the lines all formatted nice and
+neatly<00:03:15.150> but<00:03:15.990> we<00:03:16.140> don't<00:03:16.290> want<00:03:16.410> to<00:03:16.470> do<00:03:16.560> that
+
+00:03:16.670 --> 00:03:16.680 
+neatly but we don't want to do that
+
+00:03:16.680 --> 00:03:18.620 
+neatly but we don't want to do that
+because<00:03:16.860> if<00:03:17.280> we<00:03:17.340> do<00:03:17.520> that<00:03:17.700> then<00:03:18.090> let's<00:03:18.330> say<00:03:18.480> we
+
+00:03:18.620 --> 00:03:18.630 
+because if we do that then let's say we
+
+00:03:18.630 --> 00:03:22.670 
+because if we do that then let's say we
+want<00:03:18.780> to<00:03:19.010> you<00:03:20.010> know<00:03:20.040> echo<00:03:20.670> out<00:03:20.880> some<00:03:21.060> HTML<00:03:21.680> and
+
+00:03:22.670 --> 00:03:22.680 
+want to you know echo out some HTML and
+
+00:03:22.680 --> 00:03:28.040 
+want to you know echo out some HTML and
+echo<00:03:23.010> out<00:03:23.100> and<00:03:24.290> break<00:03:25.290> and<00:03:25.560> then<00:03:25.710> bold<00:03:26.840> this<00:03:27.840> is
+
+00:03:28.040 --> 00:03:28.050 
+echo out and break and then bold this is
+
+00:03:28.050 --> 00:03:34.370 
+echo out and break and then bold this is
+bold<00:03:30.020> and<00:03:31.020> then<00:03:31.560> end<00:03:32.250> up<00:03:32.550> there<00:03:33.080> so<00:03:34.080> if<00:03:34.170> we<00:03:34.260> want
+
+00:03:34.370 --> 00:03:34.380 
+bold and then end up there so if we want
+
+00:03:34.380 --> 00:03:36.320 
+bold and then end up there so if we want
+to<00:03:34.410> echo<00:03:34.680> that<00:03:34.950> inside<00:03:35.370> the<00:03:35.490> get<00:03:35.610> father<00:03:35.820> PHP
+
+00:03:36.320 --> 00:03:36.330 
+to echo that inside the get father PHP
+
+00:03:36.330 --> 00:03:38.300 
+to echo that inside the get father PHP
+you'll<00:03:37.050> see<00:03:37.200> that<00:03:37.320> it<00:03:37.470> doesn't<00:03:37.620> recognize<00:03:37.890> the
+
+00:03:38.300 --> 00:03:38.310 
+you'll see that it doesn't recognize the
+
+00:03:38.310 --> 00:03:40.430 
+you'll see that it doesn't recognize the
+HTML<00:03:38.790> so<00:03:39.390> we<00:03:39.540> can't<00:03:39.750> do<00:03:39.960> that<00:03:40.080> so<00:03:40.260> I'll<00:03:40.320> be
+
+00:03:40.430 --> 00:03:40.440 
+HTML so we can't do that so I'll be
+
+00:03:40.440 --> 00:03:42.470 
+HTML so we can't do that so I'll be
+practical<00:03:40.950> for<00:03:41.100> our<00:03:41.160> web<00:03:41.310> page<00:03:41.550> so<00:03:42.330> what<00:03:42.420> I'm
+
+00:03:42.470 --> 00:03:42.480 
+practical for our web page so what I'm
+
+00:03:42.480 --> 00:03:44.570 
+practical for our web page so what I'm
+going<00:03:42.660> to<00:03:42.720> do<00:03:42.900> is<00:03:43.110> going<00:03:43.920> to<00:03:43.980> create<00:03:44.160> a<00:03:44.280> simple
+
+00:03:44.570 --> 00:03:44.580 
+going to do is going to create a simple
+
+00:03:44.580 --> 00:03:49.430 
+going to do is going to create a simple
+loop<00:03:45.590> so<00:03:47.270> facing<00:03:48.270> me<00:03:48.510> to<00:03:48.630> do<00:03:48.750> is<00:03:48.990> use<00:03:49.290> the
+
+00:03:49.430 --> 00:03:49.440 
+loop so facing me to do is use the
+
+00:03:49.440 --> 00:03:50.990 
+loop so facing me to do is use the
+explode<00:03:49.800> function<00:03:49.830> from<00:03:50.520> a<00:03:50.580> previous
+
+00:03:50.990 --> 00:03:51.000 
+explode function from a previous
+
+00:03:51.000 --> 00:03:51.530 
+explode function from a previous
+tutorial
+
+00:03:51.530 --> 00:03:51.540 
+tutorial
+
+00:03:51.540 --> 00:03:53.450 
+tutorial
+now<00:03:52.110> the<00:03:52.170> explode<00:03:52.590> function<00:03:52.770> I'm<00:03:53.040> going<00:03:53.250> to<00:03:53.340> do
+
+00:03:53.450 --> 00:03:53.460 
+now the explode function I'm going to do
+
+00:03:53.460 --> 00:03:56.480 
+now the explode function I'm going to do
+we're<00:03:54.030> going<00:03:54.060> to<00:03:54.270> explode<00:03:54.870> the<00:03:55.050> file<00:03:55.290> by<00:03:55.980> a<00:03:56.250> new
+
+00:03:56.480 --> 00:03:56.490 
+we're going to explode the file by a new
+
+00:03:56.490 --> 00:03:59.060 
+we're going to explode the file by a new
+line<00:03:56.760> or<00:03:57.030> not<00:03:57.600> not<00:03:57.960> break<00:03:58.290> what<00:03:58.590> a<00:03:58.620> text<00:03:58.980> new
+
+00:03:59.060 --> 00:03:59.070 
+line or not not break what a text new
+
+00:03:59.070 --> 00:04:01.010 
+line or not not break what a text new
+line<00:03:59.280> and<00:03:59.490> we<00:03:59.580> can<00:03:59.700> do<00:03:59.790> this<00:03:59.970> using<00:04:00.210> backslash
+
+00:04:01.010 --> 00:04:01.020 
+line and we can do this using backslash
+
+00:04:01.020 --> 00:04:04.700 
+line and we can do this using backslash
+n<00:04:01.590> and<00:04:02.250> that<00:04:02.370> represents<00:04:02.940> a<00:04:03.090> new<00:04:03.240> line<00:04:03.450> so<00:04:04.380> we
+
+00:04:04.700 --> 00:04:04.710 
+n and that represents a new line so we
+
+00:04:04.710 --> 00:04:07.730 
+n and that represents a new line so we
+can<00:04:04.740> declare<00:04:05.160> a<00:04:05.400> new<00:04:05.580> variable<00:04:05.610> called<00:04:06.740> call
+
+00:04:07.730 --> 00:04:07.740 
+can declare a new variable called call
+
+00:04:07.740 --> 00:04:11.150 
+can declare a new variable called call
+it<00:04:07.800> lines<00:04:08.810> almost<00:04:09.810> set<00:04:10.050> the<00:04:10.110> value<00:04:10.350> to<00:04:10.380> explode
+
+00:04:11.150 --> 00:04:11.160 
+it lines almost set the value to explode
+
+00:04:11.160 --> 00:04:17.570 
+it lines almost set the value to explode
+and<00:04:11.550> then<00:04:12.350> the<00:04:13.459> backslash<00:04:14.459> N<00:04:14.730> and<00:04:15.410> then<00:04:16.580> the
+
+00:04:17.570 --> 00:04:17.580 
+and then the backslash N and then the
+
+00:04:17.580 --> 00:04:20.060 
+and then the backslash N and then the
+second<00:04:18.390> parameter<00:04:18.959> we<00:04:19.380> need<00:04:19.500> to<00:04:19.590> specify<00:04:20.010> is
+
+00:04:20.060 --> 00:04:20.070 
+second parameter we need to specify is
+
+00:04:20.070 --> 00:04:21.650 
+second parameter we need to specify is
+what<00:04:20.280> we<00:04:20.340> want<00:04:20.489> to<00:04:20.580> explode<00:04:20.910> and<00:04:21.180> it's<00:04:21.570> going
+
+00:04:21.650 --> 00:04:21.660 
+what we want to explode and it's going
+
+00:04:21.660 --> 00:04:23.120 
+what we want to explode and it's going
+to<00:04:21.720> be<00:04:21.840> the<00:04:22.140> document<00:04:22.620> because<00:04:22.830> that's<00:04:23.010> why
+
+00:04:23.120 --> 00:04:23.130 
+to be the document because that's why
+
+00:04:23.130 --> 00:04:25.320 
+to be the document because that's why
+we're<00:04:23.280> holding<00:04:23.610> all<00:04:24.390> of<00:04:24.630> our
+
+00:04:25.320 --> 00:04:25.330 
+we're holding all of our
+
+00:04:25.330 --> 00:04:27.570 
+we're holding all of our
+the<00:04:25.810> file<00:04:25.990> string<00:04:26.349> so<00:04:26.919> what<00:04:27.069> we've<00:04:27.400> done<00:04:27.520> here
+
+00:04:27.570 --> 00:04:27.580 
+the file string so what we've done here
+
+00:04:27.580 --> 00:04:30.570 
+the file string so what we've done here
+is<00:04:28.319> we're<00:04:29.319> just<00:04:29.470> splitting<00:04:29.680> up<00:04:30.069> this<00:04:30.280> document
+
+00:04:30.570 --> 00:04:30.580 
+is we're just splitting up this document
+
+00:04:30.580 --> 00:04:33.960 
+is we're just splitting up this document
+string<00:04:31.120> so<00:04:31.449> this<00:04:32.169> whole<00:04:32.379> text<00:04:32.860> file<00:04:33.039> by<00:04:33.699> each
+
+00:04:33.960 --> 00:04:33.970 
+string so this whole text file by each
+
+00:04:33.970 --> 00:04:36.990 
+string so this whole text file by each
+new<00:04:34.000> line<00:04:34.539> using<00:04:35.259> this<00:04:35.470> and<00:04:35.830> now<00:04:36.580> we<00:04:36.639> can<00:04:36.849> do
+
+00:04:36.990 --> 00:04:37.000 
+new line using this and now we can do
+
+00:04:37.000 --> 00:04:39.210 
+new line using this and now we can do
+what<00:04:37.659> we<00:04:37.750> want<00:04:37.780> with<00:04:38.169> those<00:04:38.319> new<00:04:38.530> lines<00:04:38.710> so<00:04:39.039> all
+
+00:04:39.210 --> 00:04:39.220 
+what we want with those new lines so all
+
+00:04:39.220 --> 00:04:42.270 
+what we want with those new lines so all
+we<00:04:39.280> need<00:04:39.400> to<00:04:39.460> do<00:04:39.669> is<00:04:40.289> we<00:04:41.289> can<00:04:41.440> just<00:04:41.650> create<00:04:42.190> a
+
+00:04:42.270 --> 00:04:42.280 
+we need to do is we can just create a
+
+00:04:42.280 --> 00:04:44.999 
+we need to do is we can just create a
+for<00:04:42.550> each<00:04:42.669> loop<00:04:42.960> the<00:04:43.960> best<00:04:44.259> way<00:04:44.409> to<00:04:44.440> do<00:04:44.680> it<00:04:44.830> okay
+
+00:04:44.999 --> 00:04:45.009 
+for each loop the best way to do it okay
+
+00:04:45.009 --> 00:04:48.990 
+for each loop the best way to do it okay
+we're<00:04:45.639> going<00:04:45.729> to<00:04:45.789> say<00:04:45.940> for<00:04:46.210> each<00:04:46.330> lines<00:04:47.259> as<00:04:48.000> a
+
+00:04:48.990 --> 00:04:49.000 
+we're going to say for each lines as a
+
+00:04:49.000 --> 00:04:53.600 
+we're going to say for each lines as a
+new<00:04:49.720> line<00:04:51.180> I'm<00:04:52.180> going<00:04:52.509> to<00:04:52.569> simply<00:04:52.870> echo<00:04:53.080> out
+
+00:04:53.600 --> 00:04:53.610 
+new line I'm going to simply echo out
+
+00:04:53.610 --> 00:04:58.020 
+new line I'm going to simply echo out
+echo<00:04:55.139> new<00:04:56.139> line<00:04:56.379> and<00:04:56.800> concatenate<00:04:57.340> a<00:04:57.759> break
+
+00:04:58.020 --> 00:04:58.030 
+echo new line and concatenate a break
+
+00:04:58.030 --> 00:05:01.469 
+echo new line and concatenate a break
+onto<00:04:58.479> that<00:04:59.340> so<00:05:00.340> let's<00:05:00.520> just<00:05:00.610> quickly<00:05:01.060> run
+
+00:05:01.469 --> 00:05:01.479 
+onto that so let's just quickly run
+
+00:05:01.479 --> 00:05:03.990 
+onto that so let's just quickly run
+through<00:05:01.509> this<00:05:01.900> so<00:05:02.620> we've<00:05:02.889> we<00:05:03.610> don't<00:05:03.789> need<00:05:03.879> this
+
+00:05:03.990 --> 00:05:04.000 
+through this so we've we don't need this
+
+00:05:04.000 --> 00:05:05.369 
+through this so we've we don't need this
+anymore<00:05:04.270> by<00:05:04.629> the<00:05:04.659> way<00:05:04.810> you<00:05:04.870> can<00:05:05.080> delete<00:05:05.259> the
+
+00:05:05.369 --> 00:05:05.379 
+anymore by the way you can delete the
+
+00:05:05.379 --> 00:05:08.939 
+anymore by the way you can delete the
+header<00:05:05.560> content<00:05:06.190> type<00:05:06.490> text<00:05:06.879> plane<00:05:07.090> so<00:05:07.990> here
+
+00:05:08.939 --> 00:05:08.949 
+header content type text plane so here
+
+00:05:08.949 --> 00:05:10.469 
+header content type text plane so here
+we've<00:05:09.129> specified<00:05:09.639> the<00:05:09.909> file<00:05:10.180> you<00:05:10.330> want<00:05:10.389> to
+
+00:05:10.469 --> 00:05:10.479 
+we've specified the file you want to
+
+00:05:10.479 --> 00:05:12.659 
+we've specified the file you want to
+search<00:05:10.750> which<00:05:11.080> is<00:05:11.110> document<00:05:11.650> dot<00:05:11.770> txt<00:05:12.129> I'm
+
+00:05:12.659 --> 00:05:12.669 
+search which is document dot txt I'm
+
+00:05:12.669 --> 00:05:14.640 
+search which is document dot txt I'm
+saying<00:05:13.000> it<00:05:13.120> inside<00:05:13.479> the<00:05:13.659> directory<00:05:14.169> that<00:05:14.199> this
+
+00:05:14.640 --> 00:05:14.650 
+saying it inside the directory that this
+
+00:05:14.650 --> 00:05:17.040 
+saying it inside the directory that this
+file<00:05:14.860> is<00:05:15.039> in<00:05:15.159> and<00:05:15.370> then<00:05:16.300> what<00:05:16.659> we're<00:05:16.780> doing<00:05:16.810> is
+
+00:05:17.040 --> 00:05:17.050 
+file is in and then what we're doing is
+
+00:05:17.050 --> 00:05:19.350 
+file is in and then what we're doing is
+getting<00:05:17.319> the<00:05:17.530> contents<00:05:18.069> of<00:05:18.190> that<00:05:18.280> file<00:05:18.879> using
+
+00:05:19.350 --> 00:05:19.360 
+getting the contents of that file using
+
+00:05:19.360 --> 00:05:21.330 
+getting the contents of that file using
+the<00:05:19.389> function<00:05:19.930> file<00:05:20.259> on<00:05:20.560> the<00:05:20.680> scroll<00:05:20.889> get<00:05:21.129> on
+
+00:05:21.330 --> 00:05:21.340 
+the function file on the scroll get on
+
+00:05:21.340 --> 00:05:23.490 
+the function file on the scroll get on
+the<00:05:21.460> scroll<00:05:21.669> contents<00:05:22.210> and<00:05:22.389> now<00:05:23.259> this
+
+00:05:23.490 --> 00:05:23.500 
+the scroll contents and now this
+
+00:05:23.500 --> 00:05:26.369 
+the scroll contents and now this
+variable<00:05:23.860> document<00:05:24.669> now<00:05:25.210> holds<00:05:25.719> this<00:05:26.080> whole
+
+00:05:26.369 --> 00:05:26.379 
+variable document now holds this whole
+
+00:05:26.379 --> 00:05:28.680 
+variable document now holds this whole
+text<00:05:26.830> file<00:05:26.979> document<00:05:27.099> dot<00:05:27.639> txt<00:05:28.000> as<00:05:28.300> a<00:05:28.330> string
+
+00:05:28.680 --> 00:05:28.690 
+text file document dot txt as a string
+
+00:05:28.690 --> 00:05:30.629 
+text file document dot txt as a string
+but<00:05:29.500> the<00:05:29.590> problem<00:05:29.889> is<00:05:30.009> that<00:05:30.039> it's<00:05:30.310> formatted
+
+00:05:30.629 --> 00:05:30.639 
+but the problem is that it's formatted
+
+00:05:30.639 --> 00:05:33.420 
+but the problem is that it's formatted
+in<00:05:30.969> a<00:05:31.060> text<00:05:31.389> file<00:05:31.539> so<00:05:31.860> new<00:05:32.860> lines<00:05:33.099> aren't
+
+00:05:33.420 --> 00:05:33.430 
+in a text file so new lines aren't
+
+00:05:33.430 --> 00:05:36.300 
+in a text file so new lines aren't
+recognized<00:05:33.849> by<00:05:34.060> the<00:05:34.120> HTML<00:05:34.719> as<00:05:34.870> it<00:05:35.830> sky<00:05:36.130> it's
+
+00:05:36.300 --> 00:05:36.310 
+recognized by the HTML as it sky it's
+
+00:05:36.310 --> 00:05:38.100 
+recognized by the HTML as it sky it's
+different<00:05:36.639> so<00:05:36.940> what<00:05:37.479> we'll<00:05:37.630> need<00:05:37.659> to<00:05:37.840> do<00:05:37.960> is
+
+00:05:38.100 --> 00:05:38.110 
+different so what we'll need to do is
+
+00:05:38.110 --> 00:05:40.439 
+different so what we'll need to do is
+make<00:05:38.440> a<00:05:38.469> new<00:05:38.650> variable<00:05:38.949> called<00:05:39.069> lines<00:05:39.460> and<00:05:40.240> we
+
+00:05:40.439 --> 00:05:40.449 
+make a new variable called lines and we
+
+00:05:40.449 --> 00:05:43.110 
+make a new variable called lines and we
+explode<00:05:40.930> that<00:05:41.199> using<00:05:41.590> works<00:05:42.430> folded<00:05:42.819> by<00:05:42.940> each
+
+00:05:43.110 --> 00:05:43.120 
+explode that using works folded by each
+
+00:05:43.120 --> 00:05:46.129 
+explode that using works folded by each
+new<00:05:43.150> line<00:05:43.509> and<00:05:44.069> we'll<00:05:45.069> exploding<00:05:45.520> documents
+
+00:05:46.129 --> 00:05:46.139 
+new line and we'll exploding documents
+
+00:05:46.139 --> 00:05:49.080 
+new line and we'll exploding documents
+then<00:05:47.139> we<00:05:47.229> simply<00:05:47.740> create<00:05:47.860> for<00:05:48.190> each<00:05:48.310> loop<00:05:48.550> to
+
+00:05:49.080 --> 00:05:49.090 
+then we simply create for each loop to
+
+00:05:49.090 --> 00:05:50.790 
+then we simply create for each loop to
+look<00:05:49.240> through<00:05:49.449> each<00:05:49.630> and<00:05:49.810> every<00:05:50.050> line<00:05:50.289> inside
+
+00:05:50.790 --> 00:05:50.800 
+look through each and every line inside
+
+00:05:50.800 --> 00:05:54.209 
+look through each and every line inside
+of<00:05:50.949> this<00:05:51.270> explode<00:05:52.270> inside<00:05:53.229> of<00:05:53.380> the<00:05:53.500> end<00:05:53.800> result
+
+00:05:54.209 --> 00:05:54.219 
+of this explode inside of the end result
+
+00:05:54.219 --> 00:05:56.459 
+of this explode inside of the end result
+we<00:05:54.310> got<00:05:54.460> from<00:05:54.639> the<00:05:54.789> explode<00:05:55.180> and<00:05:56.050> we'll<00:05:56.289> just
+
+00:05:56.459 --> 00:05:56.469 
+we got from the explode and we'll just
+
+00:05:56.469 --> 00:05:59.640 
+we got from the explode and we'll just
+echo<00:05:56.800> the<00:05:57.129> actual<00:05:57.490> line<00:05:57.789> and<00:05:58.060> then<00:05:58.719> a<00:05:58.930> break<00:05:59.169> so
+
+00:05:59.640 --> 00:05:59.650 
+echo the actual line and then a break so
+
+00:05:59.650 --> 00:06:05.999 
+echo the actual line and then a break so
+we<00:05:59.680> say<00:06:00.009> this<00:06:00.840> and<00:06:02.460> then<00:06:03.460> we<00:06:03.729> can<00:06:03.759> just<00:06:05.009> below
+
+00:06:05.999 --> 00:06:06.009 
+we say this and then we can just below
+
+00:06:06.009 --> 00:06:07.649 
+we say this and then we can just below
+this<00:06:06.250> and<00:06:06.580> you'll<00:06:06.669> see<00:06:06.849> that<00:06:06.969> I<00:06:07.029> recognizes
+
+00:06:07.649 --> 00:06:07.659 
+this and you'll see that I recognizes
+
+00:06:07.659 --> 00:06:10.439 
+this and you'll see that I recognizes
+the<00:06:07.810> new<00:06:07.930> lines<00:06:08.169> the<00:06:08.680> source<00:06:09.069> code<00:06:09.310> and<00:06:10.090> we<00:06:10.210> now
+
+00:06:10.439 --> 00:06:10.449 
+the new lines the source code and we now
+
+00:06:10.449 --> 00:06:12.959 
+the new lines the source code and we now
+have<00:06:10.690> the<00:06:10.900> breaks<00:06:11.139> so<00:06:11.639> it's<00:06:12.639> more<00:06:12.789> it's
+
+00:06:12.959 --> 00:06:12.969 
+have the breaks so it's more it's
+
+00:06:12.969 --> 00:06:15.480 
+have the breaks so it's more it's
+formatted<00:06:13.330> HTML<00:06:13.659> use<00:06:14.259> so<00:06:14.560> now<00:06:14.590> we<00:06:14.770> can<00:06:15.310> go
+
+00:06:15.480 --> 00:06:15.490 
+formatted HTML use so now we can go
+
+00:06:15.490 --> 00:06:20.510 
+formatted HTML use so now we can go
+either<00:06:16.389> hate<00:06:16.900> GML<00:06:17.289> to<00:06:17.469> it<00:06:17.590> we<00:06:17.740> can<00:06:18.779> echo<00:06:19.779> out
+
+00:06:20.510 --> 00:06:20.520 
+either hate GML to it we can echo out
+
+00:06:20.520 --> 00:06:24.830 
+either hate GML to it we can echo out
+each<00:06:21.520> line<00:06:21.759> we<00:06:21.969> want<00:06:22.150> we're<00:06:22.300> gonna<00:06:22.389> have<00:06:22.539> bold
+
+00:06:24.830 --> 00:06:24.840 
+each line we want we're gonna have bold
+
+00:06:24.840 --> 00:06:28.369 
+each line we want we're gonna have bold
+then<00:06:25.840> end<00:06:26.289> the<00:06:26.560> bold<00:06:26.770> here
+
+00:06:28.369 --> 00:06:28.379 
+then end the bold here
+
+00:06:28.379 --> 00:06:32.219 
+then end the bold here
+save<00:06:29.379> it<00:06:29.819> in<00:06:30.819> CB<00:06:31.180> now<00:06:31.360> at<00:06:31.509> bold<00:06:31.779> we<00:06:31.990> can<00:06:32.139> do
+
+00:06:32.219 --> 00:06:32.229 
+save it in CB now at bold we can do
+
+00:06:32.229 --> 00:06:33.839 
+save it in CB now at bold we can do
+whatever<00:06:32.379> you<00:06:32.529> want<00:06:32.680> with<00:06:32.800> it<00:06:32.919> so<00:06:33.550> that's<00:06:33.729> how
+
+00:06:33.839 --> 00:06:33.849 
+whatever you want with it so that's how
+
+00:06:33.849 --> 00:06:36.060 
+whatever you want with it so that's how
+to<00:06:33.880> use<00:06:34.149> the<00:06:34.300> file<00:06:34.539> get<00:06:34.810> contents<00:06:35.070> function
+
+00:06:36.060 --> 00:06:36.070 
+to use the file get contents function
+
+00:06:36.070 --> 00:06:38.790 
+to use the file get contents function
+you<00:06:36.940> can<00:06:37.089> also<00:06:37.210> use<00:06:37.419> this<00:06:37.599> to<00:06:37.810> pass
+
+00:06:38.790 --> 00:06:38.800 
+you can also use this to pass
+
+00:06:38.800 --> 00:06:40.260 
+you can also use this to pass
+web<00:06:39.039> pages<00:06:39.310> and<00:06:39.550> I'll<00:06:39.669> show<00:06:39.879> you<00:06:39.909> how<00:06:40.030> to<00:06:40.060> do
+
+00:06:40.260 --> 00:06:40.270 
+web pages and I'll show you how to do
+
+00:06:40.270 --> 00:06:43.649 
+web pages and I'll show you how to do
+that<00:06:40.389> in<00:06:40.629> a<00:06:40.900> feta<00:06:41.530> tutorial<00:06:42.099> so<00:06:42.789> please<00:06:43.479> like
+
+00:06:43.649 --> 00:06:43.659 
+that in a feta tutorial so please like
+
+00:06:43.659 --> 00:06:45.270 
+that in a feta tutorial so please like
+the<00:06:43.810> video<00:06:43.900> leave<00:06:44.440> a<00:06:44.470> comments<00:06:44.889> if<00:06:45.009> you<00:06:45.129> have<00:06:45.159> a
+
+00:06:45.270 --> 00:06:45.280 
+the video leave a comments if you have a
+
+00:06:45.280 --> 00:06:46.800 
+the video leave a comments if you have a
+question<00:06:45.699> and<00:06:45.879> subscribe<00:06:46.509> to<00:06:46.659> the<00:06:46.780> channel
+
+00:06:46.800 --> 00:06:46.810 
+question and subscribe to the channel
+
+00:06:46.810 --> 00:06:48.719 
+question and subscribe to the channel
+just<00:06:47.500> click<00:06:47.740> the<00:06:47.860> little<00:06:48.009> rotten<00:06:48.310> white
+
+00:06:48.719 --> 00:06:48.729 
+just click the little rotten white
+
+00:06:48.729 --> 00:06:51.149 
+just click the little rotten white
+button<00:06:49.030> above<00:06:49.270> this<00:06:49.389> video<00:06:49.650> for<00:06:50.650> real-time
+
+00:06:51.149 --> 00:06:51.159 
+button above this video for real-time
+
+00:06:51.159 --> 00:06:53.550 
+button above this video for real-time
+updates
+
