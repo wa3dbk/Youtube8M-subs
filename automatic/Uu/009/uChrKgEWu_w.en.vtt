@@ -1,0 +1,715 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.548 --> 00:00:01.908
+ Hello, everyone~ I am chocolate. 
+
+00:00:01.977 --> 00:00:03.474
+ I want to introduce to you today. 
+
+00:00:03.645 --> 00:00:04.457
+ XOR gate 
+
+00:00:04.685 --> 00:00:06.148
+ So what is the XOR gate? 
+
+00:00:06.320 --> 00:00:09.862
+ XOR gates are actually things that we often see in our lives... 
+
+00:00:09.860 --> 00:00:10.948
+ I will turn it into night. 
+
+00:00:13.074 --> 00:00:13.382
+ it is good 
+
+00:00:14.251 --> 00:00:15.554
+ Usually it will be like this 
+
+00:00:15.550 --> 00:00:16.468
+ There is a light here 
+
+00:00:16.731 --> 00:00:18.902
+ Then this switch can control this light 
+
+00:00:19.302 --> 00:00:20.900
+ Then at the top of the stairs 
+
+00:00:20.960 --> 00:00:22.788
+ Of course there is another switch 
+
+00:00:22.880 --> 00:00:24.411
+ Can control the same lamp 
+
+00:00:24.742 --> 00:00:25.097
+ that... 
+
+00:00:25.634 --> 00:00:27.245
+ If the above is executed... 
+
+00:00:28.491 --> 00:00:29.348
+ Open action 
+
+00:00:29.340 --> 00:00:30.331
+ For example, like this 
+
+00:00:30.937 --> 00:00:33.668
+ Downstairs, it's natural... it will turn off 
+
+00:00:34.022 --> 00:00:36.308
+ In the same way, if I was driving downstairs 
+
+00:00:36.685 --> 00:00:37.565
+ That upstairs 
+
+00:00:37.908 --> 00:00:38.937
+ It will become off 
+
+00:00:39.588 --> 00:00:41.154
+ These two are not in conflict with each other. 
+
+00:00:41.150 --> 00:00:43.657
+ What is used in this is the XOR gate. 
+
+00:00:44.857 --> 00:00:46.034
+ In the example just now 
+
+00:00:46.571 --> 00:00:49.782
+ Two switches, simultaneously controlling the same xenon lamp 
+
+00:00:50.045 --> 00:00:50.422
+ that... 
+
+00:00:50.811 --> 00:00:52.480
+ In the end result 
+
+00:00:53.405 --> 00:00:55.611
+ As long as the two switches are in phase 
+
+00:00:55.691 --> 00:00:56.571
+ Then it is off 
+
+00:00:57.005 --> 00:00:57.942
+ For example, like this 
+
+00:00:58.708 --> 00:01:00.434
+ As long as the two are in phase, it is off 
+
+00:01:00.685 --> 00:01:01.531
+ Just reverse 
+
+00:01:01.565 --> 00:01:02.262
+ Is on 
+
+00:01:03.051 --> 00:01:04.205
+ This is open 
+
+00:01:04.857 --> 00:01:05.920
+ This is also open 
+
+00:01:05.920 --> 00:01:07.348
+ As long as it is inverted, it is on 
+
+00:01:08.777 --> 00:01:10.457
+ OK, that's the most intuitive idea 
+
+00:01:10.450 --> 00:01:12.251
+ May just put two switches directly 
+
+00:01:12.422 --> 00:01:14.422
+ Both point to the same... 
+
+00:01:14.754 --> 00:01:15.165
+ light 
+
+00:01:15.702 --> 00:01:16.560
+ That's it? 
+
+00:01:16.708 --> 00:01:19.051
+ These two switches are indeed independent 
+
+00:01:19.462 --> 00:01:20.000
+ but 
+
+00:01:20.080 --> 00:01:21.142
+ When one side is open 
+
+00:01:21.140 --> 00:01:23.085
+ On the other side, there is no way to execute... 
+
+00:01:23.108 --> 00:01:24.285
+ The action to turn it off 
+
+00:01:24.742 --> 00:01:26.685
+ So, we have to make some changes. 
+
+00:01:26.994 --> 00:01:27.382
+ that... 
+
+00:01:27.565 --> 00:01:29.177
+ In terms of the final result 
+
+00:01:29.382 --> 00:01:31.170
+ These two...the biggest difficulty points 
+
+00:01:31.611 --> 00:01:32.457
+ It should be... 
+
+00:01:32.708 --> 00:01:35.462
+ These two... at the same time... when opening 
+
+00:01:35.588 --> 00:01:37.460
+ The final output is the result. 
+
+00:01:37.805 --> 00:01:38.194
+ that... 
+
+00:01:38.342 --> 00:01:40.274
+ We...just look at one side first. 
+
+00:01:40.270 --> 00:01:40.582
+ That is... 
+
+00:01:40.971 --> 00:01:42.262
+ This lamp and... 
+
+00:01:42.857 --> 00:01:44.742
+ This...this half of a switch 
+
+00:01:45.360 --> 00:01:45.988
+ Here... 
+
+00:01:46.308 --> 00:01:47.005
+ Is open 
+
+00:01:47.000 --> 00:01:48.502
+ But the result we hope is off 
+
+00:01:48.502 --> 00:01:50.500
+ So this... will definitely be used 
+
+00:01:50.902 --> 00:01:51.691
+ NOT gate 
+
+00:01:51.920 --> 00:01:53.462
+ So, let’s look at the unilateral first. 
+
+00:01:54.057 --> 00:01:55.680
+ Inside the single... 
+
+00:01:55.680 --> 00:01:57.371
+ We need to use NOT gate 
+
+00:01:57.370 --> 00:01:58.182
+ So 
+
+00:01:59.120 --> 00:02:00.342
+ Like this, you can 
+
+00:02:01.040 --> 00:02:02.422
+ But after using NOT gate 
+
+00:02:02.420 --> 00:02:04.045
+ Our initial operation 
+
+00:02:04.045 --> 00:02:06.040
+ Maybe... the answer is already the opposite, right? 
+
+00:02:06.262 --> 00:02:06.845
+ and so... 
+
+00:02:06.840 --> 00:02:10.182
+ Nothing wrong, we need to use two NOT gates in total. 
+
+00:02:10.308 --> 00:02:10.914
+ like this 
+
+00:02:14.742 --> 00:02:15.840
+ This way 
+
+00:02:15.942 --> 00:02:17.645
+ We are not only useful to NOT gate 
+
+00:02:17.782 --> 00:02:19.640
+ Then our unilateral operation also... 
+
+00:02:19.977 --> 00:02:20.685
+ No opposite 
+
+00:02:20.720 --> 00:02:21.268
+ That is... 
+
+00:02:21.508 --> 00:02:22.800
+ When it is closed, it is off. 
+
+00:02:22.971 --> 00:02:24.091
+ Open when you open 
+
+00:02:24.320 --> 00:02:24.960
+ So 
+
+00:02:25.360 --> 00:02:27.634
+ The simple way is that we put these two sides 
+
+00:02:28.125 --> 00:02:29.131
+ Changed to... 
+
+00:02:30.411 --> 00:02:31.942
+ Two NOT gate connections 
+
+00:02:32.125 --> 00:02:32.662
+ like this 
+
+00:02:38.891 --> 00:02:39.394
+ OK~ 
+
+00:02:39.817 --> 00:02:40.308
+ like this 
+
+00:02:41.782 --> 00:02:42.342
+ That's it... 
+
+00:02:43.348 --> 00:02:44.080
+ Thus 
+
+00:02:44.354 --> 00:02:46.205
+ The switch here is not affected 
+
+00:02:46.365 --> 00:02:48.697
+ The switch here is also... normal 
+
+00:02:48.868 --> 00:02:49.988
+ Next we just let... 
+
+00:02:50.422 --> 00:02:52.091
+ When these two are pressed 
+
+00:02:52.090 --> 00:02:53.154
+ The output is off 
+
+00:02:53.280 --> 00:02:54.091
+ This way you can 
+
+00:02:54.605 --> 00:02:55.028
+ that... 
+
+00:02:55.714 --> 00:02:56.548
+ Want to make it off 
+
+00:02:56.720 --> 00:02:58.982
+ It is necessary to extinguish both torches at the same time 
+
+00:02:59.680 --> 00:03:00.674
+ These two torches are extinguished 
+
+00:03:00.670 --> 00:03:01.817
+ We just have to be here 
+
+00:03:02.411 --> 00:03:04.262
+ Put another redstone torch 
+
+00:03:05.302 --> 00:03:06.260
+ and then 
+
+00:03:06.480 --> 00:03:06.857
+ Put... 
+
+00:03:07.394 --> 00:03:07.782
+ it... 
+
+00:03:08.137 --> 00:03:09.428
+ Enter into both 
+
+00:03:09.942 --> 00:03:11.177
+ This way it can be off 
+
+00:03:11.897 --> 00:03:12.914
+ But this torch 
+
+00:03:13.474 --> 00:03:14.685
+ Usually can't work 
+
+00:03:14.777 --> 00:03:17.520
+ Only when both of them are pressed 
+
+00:03:17.760 --> 00:03:18.857
+ It can work 
+
+00:03:19.211 --> 00:03:19.920
+ and so 
+
+00:03:20.251 --> 00:03:21.280
+ Our approach 
+
+00:03:21.462 --> 00:03:22.365
+ It’s like this 
+
+00:03:22.697 --> 00:03:24.360
+ Put a redstone torch here 
+
+00:03:26.411 --> 00:03:27.611
+ This redstone torch 
+
+00:03:27.691 --> 00:03:29.451
+ Usually... is being... 
+
+00:03:29.885 --> 00:03:32.754
+ These two... 
+
+00:03:33.508 --> 00:03:34.091
+ like this 
+
+00:03:35.257 --> 00:03:35.897
+ and then 
+
+00:03:36.045 --> 00:03:36.868
+ This torch 
+
+00:03:37.131 --> 00:03:38.114
+ Again... right... 
+
+00:03:38.422 --> 00:03:39.942
+ These two lines are output 
+
+00:03:40.011 --> 00:03:41.360
+ Both are entered into these torches 
+
+00:03:41.428 --> 00:03:42.125
+ This way you can 
+
+00:03:43.371 --> 00:03:43.954
+ and so 
+
+00:03:44.137 --> 00:03:45.565
+ In normal times 
+
+00:03:45.885 --> 00:03:47.062
+ Go away from x3 
+
+00:03:48.251 --> 00:03:49.508
+ In normal times 
+
+00:03:49.725 --> 00:03:51.500
+ This torch is useless. 
+
+00:03:51.500 --> 00:03:53.851
+ Because it was hit by these two redstones... 
+
+00:03:54.571 --> 00:03:55.177
+ give... 
+
+00:03:55.714 --> 00:03:56.662
+ Suppressed 
+
+00:03:56.960 --> 00:03:57.394
+ that... 
+
+00:03:57.977 --> 00:03:58.377
+ Go away 
+
+00:03:58.811 --> 00:03:59.542
+ Go ~ open 
+
+00:04:00.754 --> 00:04:01.702
+ That today 
+
+00:04:02.114 --> 00:04:02.457
+ This... 
+
+00:04:03.062 --> 00:04:04.308
+ Both sides of the switch 
+
+00:04:04.628 --> 00:04:06.537
+ Usually it works independently and is normal. 
+
+00:04:06.982 --> 00:04:09.748
+ Until it is pressed on both sides 
+
+00:04:09.942 --> 00:04:11.680
+ This suppression signal has disappeared 
+
+00:04:11.782 --> 00:04:12.834
+ Because the torch is extinguished 
+
+00:04:13.211 --> 00:04:14.388
+ So the suppression signal disappears 
+
+00:04:14.445 --> 00:04:15.302
+ This will light up 
+
+00:04:15.417 --> 00:04:17.211
+ Then replace these two redstone torches 
+
+00:04:17.588 --> 00:04:19.794
+ Put the last light... 
+
+00:04:19.965 --> 00:04:22.148
+ So this is a simple XOR threshold~ 
+
+00:04:23.474 --> 00:04:25.531
+ Then, it’s the part of the circuit that is streamlined. 
+
+00:04:25.874 --> 00:04:26.708
+ Actually 
+
+00:04:27.942 --> 00:04:29.668
+ The circuit does not need to be so complicated 
+
+00:04:29.954 --> 00:04:31.782
+ Signal input point, these two 
+
+00:04:33.234 --> 00:04:34.102
+ and then 
+
+00:04:34.502 --> 00:04:35.268
+ NOT gate 
+
+00:04:35.268 --> 00:04:37.260
+ Actually the distance is very very close 
+
+00:04:37.508 --> 00:04:38.582
+ Just be here. 
+
+00:04:38.925 --> 00:04:39.737
+ Distance 
+
+00:04:39.920 --> 00:04:40.982
+ I can put it here. 
+
+00:04:41.382 --> 00:04:41.942
+ like this 
+
+00:04:43.965 --> 00:04:44.685
+ and then 
+
+00:04:44.994 --> 00:04:46.411
+ This signal suppresses it 
+
+00:04:47.348 --> 00:04:48.022
+ like this 
+
+00:04:48.674 --> 00:04:50.160
+ Then put a here... 
+
+00:04:50.834 --> 00:04:52.160
+ The last redstone torch 
+
+00:04:53.405 --> 00:04:56.365
+ How does this Redstone torch suppress this redstone torch? 
+
+00:04:56.697 --> 00:04:57.600
+ We are using... 
+
+00:04:57.771 --> 00:05:00.034
+ Charge up this principle 
+
+00:05:00.320 --> 00:05:02.160
+ As long as this charges it up 
+
+00:05:02.297 --> 00:05:02.822
+ then 
+
+00:05:03.451 --> 00:05:04.480
+ Put redstone here 
+
+00:05:04.925 --> 00:05:06.765
+ It can suppress this redstone torch 
+
+00:05:06.971 --> 00:05:08.240
+ So of course, the same is true here. 
+
+00:05:09.074 --> 00:05:11.600
+ Finally, our signal output point is here 
+
+00:05:12.811 --> 00:05:14.845
+ So the blue is the signal output point. 
+
+00:05:15.360 --> 00:05:17.142
+ Red is the signal input point 
+
+00:05:17.474 --> 00:05:18.160
+ So this way 
+
+00:05:18.160 --> 00:05:20.160
+ Completed a simple NOT gate啰 (spoken error: XOR gate) 
+
+00:05:22.182 --> 00:05:23.245
+ Ok, both sides are open 
+
+00:05:23.394 --> 00:05:24.068
+ It will turn off 
+
+00:05:24.377 --> 00:05:25.508
+ This is a simple... 
+
+00:05:26.480 --> 00:05:27.234
+ simple 
+
+00:05:27.337 --> 00:05:28.080
+ XOR threshold 
+
+00:05:28.662 --> 00:05:31.085
+ Ok, that... there is another version of XOR gate. 
+
+00:05:32.205 --> 00:05:33.680
+ It is like this 
+
+00:05:35.508 --> 00:05:36.800
+ Here, a switch 
+
+00:05:37.405 --> 00:05:37.782
+哎唷
+
+00:05:38.560 --> 00:05:39.497
+ There is a switch here 
+
+00:05:39.748 --> 00:05:42.480
+ This switch, at the same time output two signals 
+
+00:05:42.674 --> 00:05:43.211
+ like this 
+
+00:05:44.205 --> 00:05:45.611
+ Then put a redstone torch here. 
+
+00:05:46.845 --> 00:05:47.234
+ that... 
+
+00:05:47.657 --> 00:05:48.605
+ This switch 
+
+00:05:48.960 --> 00:05:50.125
+ Between on and off 
+
+00:05:50.274 --> 00:05:52.388
+ Will let these two signals here... do switching 
+
+00:05:52.380 --> 00:05:54.891
+ It will lose... independently output two different routes 
+
+00:05:55.188 --> 00:05:55.977
+ Different signals 
+
+00:05:56.457 --> 00:05:56.811
+ that... 
+
+00:05:58.491 --> 00:06:01.257
+ This switch will control which side it will run out to. 
+
+00:06:02.285 --> 00:06:03.250
+ and then 
+
+00:06:03.428 --> 00:06:04.274
+ We are here... 
+
+00:06:04.457 --> 00:06:06.080
+ Put a square to make it charge 
+
+00:06:07.725 --> 00:06:08.537
+ This square 
+
+00:06:08.530 --> 00:06:09.897
+ At the same time being another... 
+
+00:06:10.251 --> 00:06:11.657
+ Viscous piston to push 
+
+00:06:12.502 --> 00:06:15.142
+ That sticky... sex... this sticky piston? 
+
+00:06:15.817 --> 00:06:17.140
+ Also by another 
+
+00:06:17.554 --> 00:06:18.148
+ switch 
+
+00:06:18.708 --> 00:06:19.371
+ Controlled 
+
+00:06:20.411 --> 00:06:22.080
+ So, this switch here 
+
+00:06:23.485 --> 00:06:24.137
+ can do... 
+
+00:06:24.788 --> 00:06:26.594
+ Signal switching on both sides 
+
+00:06:28.045 --> 00:06:29.131
+ Also this switch 
+
+00:06:29.668 --> 00:06:31.862
+ It will be responsible for putting this white square 
+
+00:06:32.045 --> 00:06:33.062
+ Shift left and right 
+
+00:06:33.234 --> 00:06:35.060
+ So you can also control the output of the signal. 
+
+00:06:35.920 --> 00:06:37.177
+ Ok, then we will... 
+
+00:06:37.462 --> 00:06:39.085
+ The final output point is here. 
+
+00:06:39.325 --> 00:06:39.771
+ like this 
+
+00:06:44.502 --> 00:06:46.777
+ Usually it is... when it is extinguished 
+
+00:06:47.668 --> 00:06:48.770
+ Open this switch 
+
+00:06:48.800 --> 00:06:50.822
+ Because the signal will jump to the other side 
+
+00:06:50.820 --> 00:06:51.885
+ Then recharge 
+
+00:06:51.880 --> 00:06:52.788
+ So it will light up 
+
+00:06:54.194 --> 00:06:55.062
+ That's here? 
+
+00:06:56.400 --> 00:06:57.268
+ When opened 
+
+00:06:57.260 --> 00:06:59.485
+ Will push this white square here 
+
+00:06:59.480 --> 00:07:00.880
+ Then the same, charging 
+
+00:07:00.948 --> 00:07:01.657
+ It will... 
+
+00:07:02.057 --> 00:07:02.731
+ Light up 
+
+00:07:03.291 --> 00:07:05.337
+ When the two sides are pressed at the same time 
+
+00:07:05.611 --> 00:07:06.994
+ This signal will cut to the other side. 
+
+00:07:06.990 --> 00:07:08.125
+ Then nothing is charging 
+
+00:07:08.160 --> 00:07:09.314
+ So it won't shine 
+
+00:07:09.874 --> 00:07:10.331
+ So 
+
+00:07:10.365 --> 00:07:11.748
+ This is also a simple 
+
+00:07:12.262 --> 00:07:12.960
+ XOR threshold 
+
+00:07:13.348 --> 00:07:16.342
+ That's two simple... XOR gates 
+

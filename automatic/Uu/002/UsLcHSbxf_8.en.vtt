@@ -1,0 +1,956 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.050 --> 00:00:03.050 
+
+hey<00:00:01.050> guys<00:00:01.290> welcome<00:00:01.680> back<00:00:02.040> today<00:00:02.700> we're<00:00:02.909> going
+
+00:00:03.050 --> 00:00:03.060 
+hey guys welcome back today we're going
+
+00:00:03.060 --> 00:00:07.039 
+hey guys welcome back today we're going
+to<00:00:03.210> do<00:00:03.330> a<00:00:03.360> tutorial<00:00:03.600> on<00:00:04.080> the<00:00:04.650> BH<00:00:05.540> 1750<00:00:06.540> light
+
+00:00:07.039 --> 00:00:07.049 
+to do a tutorial on the BH 1750 light
+
+00:00:07.049 --> 00:00:19.040 
+to do a tutorial on the BH 1750 light
+sensor<00:00:07.710> for<00:00:08.160> Arduino<00:00:17.300> hey<00:00:18.300> guys<00:00:18.510> welcome<00:00:18.900> back
+
+00:00:19.040 --> 00:00:19.050 
+sensor for Arduino hey guys welcome back
+
+00:00:19.050 --> 00:00:21.410 
+sensor for Arduino hey guys welcome back
+really<00:00:19.830> glad<00:00:20.010> you<00:00:20.160> could<00:00:20.250> join<00:00:20.310> me<00:00:20.699> today<00:00:20.880> for
+
+00:00:21.410 --> 00:00:21.420 
+really glad you could join me today for
+
+00:00:21.420 --> 00:00:22.849 
+really glad you could join me today for
+those<00:00:21.600> of<00:00:21.750> you<00:00:21.840> new<00:00:21.990> to<00:00:22.020> the<00:00:22.260> channel<00:00:22.590> my<00:00:22.710> name
+
+00:00:22.849 --> 00:00:22.859 
+those of you new to the channel my name
+
+00:00:22.859 --> 00:00:25.189 
+those of you new to the channel my name
+is<00:00:22.890> Eric<00:00:23.279> today<00:00:24.029> we're<00:00:24.359> going<00:00:24.510> to<00:00:24.660> go<00:00:24.779> over<00:00:24.810> a
+
+00:00:25.189 --> 00:00:25.199 
+is Eric today we're going to go over a
+
+00:00:25.199 --> 00:00:28.070 
+is Eric today we're going to go over a
+light<00:00:25.680> sensor<00:00:26.279> that<00:00:26.490> was<00:00:26.699> sent<00:00:26.970> to<00:00:27.060> me<00:00:27.240> by<00:00:27.269> IC
+
+00:00:28.070 --> 00:00:28.080 
+light sensor that was sent to me by IC
+
+00:00:28.080 --> 00:00:30.380 
+light sensor that was sent to me by IC
+station<00:00:28.650> comm<00:00:29.189> for<00:00:29.640> a<00:00:29.699> bit<00:00:29.939> of<00:00:29.970> an<00:00:30.150> online
+
+00:00:30.380 --> 00:00:30.390 
+station comm for a bit of an online
+
+00:00:30.390 --> 00:00:33.410 
+station comm for a bit of an online
+review<00:00:31.640> for<00:00:32.640> those<00:00:32.759> of<00:00:32.940> you<00:00:33.030> who<00:00:33.120> haven't<00:00:33.300> seen
+
+00:00:33.410 --> 00:00:33.420 
+review for those of you who haven't seen
+
+00:00:33.420 --> 00:00:36.049 
+review for those of you who haven't seen
+this<00:00:33.840> before<00:00:34.320> this<00:00:34.530> is<00:00:34.590> a<00:00:34.800> part<00:00:35.460> of<00:00:35.610> my<00:00:35.760> Arduino
+
+00:00:36.049 --> 00:00:36.059 
+this before this is a part of my Arduino
+
+00:00:36.059 --> 00:00:38.869 
+this before this is a part of my Arduino
+supplies<00:00:36.809> I'll<00:00:37.500> throw<00:00:37.800> a<00:00:37.829> link<00:00:38.160> down<00:00:38.640> below
+
+00:00:38.869 --> 00:00:38.879 
+supplies I'll throw a link down below
+
+00:00:38.879 --> 00:00:41.990 
+supplies I'll throw a link down below
+for<00:00:39.540> the<00:00:39.989> entire<00:00:40.350> overview<00:00:41.309> of<00:00:41.489> what<00:00:41.610> I've<00:00:41.760> got
+
+00:00:41.990 --> 00:00:42.000 
+for the entire overview of what I've got
+
+00:00:42.000 --> 00:00:43.760 
+for the entire overview of what I've got
+in<00:00:42.239> here<00:00:42.270> but<00:00:42.540> basically<00:00:43.079> I<00:00:43.230> keep<00:00:43.559> all<00:00:43.739> kinds
+
+00:00:43.760 --> 00:00:43.770 
+in here but basically I keep all kinds
+
+00:00:43.770 --> 00:00:49.010 
+in here but basically I keep all kinds
+arduino<00:00:44.579> z'<00:00:44.750> test<00:00:45.750> wires<00:00:46.610> jumper<00:00:47.610> wires<00:00:48.020> some
+
+00:00:49.010 --> 00:00:49.020 
+arduino z' test wires jumper wires some
+
+00:00:49.020 --> 00:00:51.889 
+arduino z' test wires jumper wires some
+various<00:00:49.440> odds<00:00:49.649> and<00:00:49.920> sods<00:00:50.070> servos<00:00:50.899> output
+
+00:00:51.889 --> 00:00:51.899 
+various odds and sods servos output
+
+00:00:51.899 --> 00:00:54.470 
+various odds and sods servos output
+units<00:00:52.550> which<00:00:53.550> we're<00:00:53.730> going<00:00:53.820> to<00:00:53.879> use<00:00:53.940> one<00:00:54.360> of
+
+00:00:54.470 --> 00:00:54.480 
+units which we're going to use one of
+
+00:00:54.480 --> 00:00:58.250 
+units which we're going to use one of
+these<00:00:54.629> today<00:00:55.760> this<00:00:56.760> is<00:00:56.910> the<00:00:57.030> Nokia<00:00:57.390> 5110<00:00:57.899> LCD
+
+00:00:58.250 --> 00:00:58.260 
+these today this is the Nokia 5110 LCD
+
+00:00:58.260 --> 00:01:01.459 
+these today this is the Nokia 5110 LCD
+and<00:00:59.570> various<00:01:00.570> odds<00:01:00.780> and<00:01:00.960> ends<00:01:01.079> so<00:01:01.320> you<00:01:01.350> can
+
+00:01:01.459 --> 00:01:01.469 
+and various odds and ends so you can
+
+00:01:01.469 --> 00:01:02.840 
+and various odds and ends so you can
+check<00:01:01.590> out<00:01:01.710> the<00:01:01.859> video<00:01:02.100> if<00:01:02.250> you're<00:01:02.399> interested
+
+00:01:02.840 --> 00:01:02.850 
+check out the video if you're interested
+
+00:01:02.850 --> 00:01:10.520 
+check out the video if you're interested
+here<00:01:03.629> we<00:01:03.989> have<00:01:04.379> the<00:01:05.900> the<00:01:07.040> BH<00:01:08.960> 1750<00:01:09.960> light
+
+00:01:10.520 --> 00:01:10.530 
+here we have the the BH 1750 light
+
+00:01:10.530 --> 00:01:13.940 
+here we have the the BH 1750 light
+sensor<00:01:11.040> so<00:01:11.790> let's<00:01:12.270> get<00:01:12.869> this<00:01:13.049> set<00:01:13.320> up<00:01:13.439> and<00:01:13.650> give
+
+00:01:13.940 --> 00:01:13.950 
+sensor so let's get this set up and give
+
+00:01:13.950 --> 00:01:18.560 
+sensor so let's get this set up and give
+it<00:01:14.040> a<00:01:14.100> go<00:01:15.049> so<00:01:16.049> this<00:01:16.530> is<00:01:16.920> the<00:01:17.310> sensor<00:01:17.820> I'll<00:01:18.360> go
+
+00:01:18.560 --> 00:01:18.570 
+it a go so this is the sensor I'll go
+
+00:01:18.570 --> 00:01:20.810 
+it a go so this is the sensor I'll go
+ahead<00:01:18.659> and<00:01:18.900> get<00:01:19.590> it<00:01:19.680> out<00:01:19.830> of<00:01:19.979> the<00:01:20.040> package<00:01:20.520> here
+
+00:01:20.810 --> 00:01:20.820 
+ahead and get it out of the package here
+
+00:01:20.820 --> 00:01:22.370 
+ahead and get it out of the package here
+it<00:01:20.939> looks<00:01:21.090> like<00:01:21.180> we've<00:01:21.420> got<00:01:21.540> a<00:01:21.600> little<00:01:21.900> bit<00:01:22.259> of
+
+00:01:22.370 --> 00:01:22.380 
+it looks like we've got a little bit of
+
+00:01:22.380 --> 00:01:27.590 
+it looks like we've got a little bit of
+assembly<00:01:22.650> to<00:01:22.920> do<00:01:25.759> simple<00:01:26.759> little<00:01:27.030> header<00:01:27.240> and
+
+00:01:27.590 --> 00:01:27.600 
+assembly to do simple little header and
+
+00:01:27.600 --> 00:01:31.130 
+assembly to do simple little header and
+a<00:01:28.439> nice<00:01:29.009> little<00:01:29.369> package<00:01:29.579> for<00:01:30.210> a<00:01:30.240> board<00:01:30.540> set<00:01:31.110> up
+
+00:01:31.130 --> 00:01:31.140 
+a nice little package for a board set up
+
+00:01:31.140 --> 00:01:33.859 
+a nice little package for a board set up
+and<00:01:31.500> these<00:01:32.490> are<00:01:32.670> supposed<00:01:32.939> to<00:01:33.060> be<00:01:33.240> 5<00:01:33.630> volt
+
+00:01:33.859 --> 00:01:33.869 
+and these are supposed to be 5 volt
+
+00:01:33.869 --> 00:01:35.870 
+and these are supposed to be 5 volt
+compliant<00:01:34.500> as<00:01:34.619> well<00:01:34.979> according<00:01:35.549> to<00:01:35.579> IC
+
+00:01:35.870 --> 00:01:35.880 
+compliant as well according to IC
+
+00:01:35.880 --> 00:01:37.730 
+compliant as well according to IC
+station<00:01:36.390> so<00:01:36.600> we<00:01:36.720> don't<00:01:36.869> need<00:01:36.990> to<00:01:37.170> do<00:01:37.290> any<00:01:37.500> fancy
+
+00:01:37.730 --> 00:01:37.740 
+station so we don't need to do any fancy
+
+00:01:37.740 --> 00:01:40.340 
+station so we don't need to do any fancy
+there<00:01:38.220> and<00:01:38.479> we'll<00:01:39.479> go<00:01:39.570> ahead<00:01:39.810> and<00:01:39.960> let's<00:01:40.140> get
+
+00:01:40.340 --> 00:01:40.350 
+there and we'll go ahead and let's get
+
+00:01:40.350 --> 00:01:44.300 
+there and we'll go ahead and let's get
+this<00:01:40.530> started<00:01:41.280> up<00:01:42.950> so<00:01:43.950> there's<00:01:44.159> many
+
+00:01:44.300 --> 00:01:44.310 
+this started up so there's many
+
+00:01:44.310 --> 00:01:45.830 
+this started up so there's many
+different<00:01:44.490> ways<00:01:44.820> you<00:01:45.060> can<00:01:45.180> do<00:01:45.329> this
+
+00:01:45.830 --> 00:01:45.840 
+different ways you can do this
+
+00:01:45.840 --> 00:01:48.469 
+different ways you can do this
+my<00:01:46.439> preference<00:01:47.040> for<00:01:47.460> putting<00:01:48.000> these<00:01:48.119> headers
+
+00:01:48.469 --> 00:01:48.479 
+my preference for putting these headers
+
+00:01:48.479 --> 00:01:51.950 
+my preference for putting these headers
+on<00:01:48.720> I<00:01:48.990> use<00:01:49.890> my<00:01:50.100> third<00:01:50.399> hand<00:01:50.729> alligator<00:01:51.570> clip
+
+00:01:51.950 --> 00:01:51.960 
+on I use my third hand alligator clip
+
+00:01:51.960 --> 00:01:54.380 
+on I use my third hand alligator clip
+here<00:01:52.229> and<00:01:52.610> coincidentally<00:01:53.610> when<00:01:53.790> you<00:01:53.939> do<00:01:54.149> this
+
+00:01:54.380 --> 00:01:54.390 
+here and coincidentally when you do this
+
+00:01:54.390 --> 00:01:56.870 
+here and coincidentally when you do this
+if<00:01:54.869> you<00:01:55.079> clamp<00:01:55.320> onto<00:01:55.649> the<00:01:55.770> pins<00:01:56.130> you're<00:01:56.490> also
+
+00:01:56.870 --> 00:01:56.880 
+if you clamp onto the pins you're also
+
+00:01:56.880 --> 00:01:59.660 
+if you clamp onto the pins you're also
+giving<00:01:57.180> a<00:01:57.270> heat<00:01:57.509> sink<00:01:57.869> which<00:01:58.140> will<00:01:58.860> stop<00:01:59.369> you
+
+00:01:59.660 --> 00:01:59.670 
+giving a heat sink which will stop you
+
+00:01:59.670 --> 00:02:01.280 
+giving a heat sink which will stop you
+from<00:01:59.700> melting<00:02:00.360> the<00:02:00.509> header<00:02:00.719> if<00:02:01.020> you're<00:02:01.259> a
+
+00:02:01.280 --> 00:02:01.290 
+from melting the header if you're a
+
+00:02:01.290 --> 00:02:04.370 
+from melting the header if you're a
+little<00:02:02.070> overzealous<00:02:02.430> with<00:02:03.060> the<00:02:03.210> heat<00:02:03.420> so<00:02:04.229> what
+
+00:02:04.370 --> 00:02:04.380 
+little overzealous with the heat so what
+
+00:02:04.380 --> 00:02:07.969 
+little overzealous with the heat so what
+you<00:02:04.500> do<00:02:04.649> is<00:02:05.009> just<00:02:05.460> take<00:02:06.000> this<00:02:06.560> set<00:02:07.560> it<00:02:07.710> on<00:02:07.829> the
+
+00:02:07.969 --> 00:02:07.979 
+you do is just take this set it on the
+
+00:02:07.979 --> 00:02:10.490 
+you do is just take this set it on the
+pins<00:02:08.250> and<00:02:08.789> in<00:02:09.179> our<00:02:09.330> case<00:02:09.720> this<00:02:10.050> one<00:02:10.319> is<00:02:10.410> going
+
+00:02:10.490 --> 00:02:10.500 
+pins and in our case this one is going
+
+00:02:10.500 --> 00:02:12.380 
+pins and in our case this one is going
+to<00:02:10.560> be<00:02:10.709> really<00:02:10.920> easy<00:02:11.280> it's<00:02:11.580> really<00:02:11.940> tight<00:02:12.150> fit
+
+00:02:12.380 --> 00:02:12.390 
+to be really easy it's really tight fit
+
+00:02:12.390 --> 00:02:13.200 
+to be really easy it's really tight fit
+on<00:02:12.569> the<00:02:12.690> pin
+
+00:02:13.200 --> 00:02:13.210 
+on the pin
+
+00:02:13.210 --> 00:02:14.910 
+on the pin
+so<00:02:13.600> we<00:02:13.720> don't<00:02:13.810> need<00:02:14.020> to<00:02:14.080> worry<00:02:14.440> about<00:02:14.560> our
+
+00:02:14.910 --> 00:02:14.920 
+so we don't need to worry about our
+
+00:02:14.920 --> 00:02:18.200 
+so we don't need to worry about our
+alignment<00:02:15.250> much<00:02:15.750> take<00:02:16.750> our<00:02:16.930> soldering<00:02:17.410> iron
+
+00:02:18.200 --> 00:02:18.210 
+alignment much take our soldering iron
+
+00:02:18.210 --> 00:02:22.790 
+alignment much take our soldering iron
+get<00:02:19.210> some<00:02:19.480> tin<00:02:19.840> the<00:02:19.990> tip<00:02:20.230> a<00:02:20.380> little<00:02:20.530> bit
+
+00:02:22.790 --> 00:02:22.800 
+
+00:02:22.800 --> 00:02:24.200 
+
+off-camera
+
+00:02:24.200 --> 00:02:24.210 
+off-camera
+
+00:02:24.210 --> 00:02:27.240 
+off-camera
+we<00:02:25.210> can<00:02:25.360> take<00:02:25.690> and<00:02:26.350> hopefully<00:02:26.800> I'm<00:02:26.950> not<00:02:26.980> too
+
+00:02:27.240 --> 00:02:27.250 
+we can take and hopefully I'm not too
+
+00:02:27.250 --> 00:02:33.060 
+we can take and hopefully I'm not too
+shaky<00:02:27.850> today<00:02:29.340> you<00:02:30.340> can<00:02:30.520> take<00:02:31.500> and<00:02:32.500> solder<00:02:32.770> some
+
+00:02:33.060 --> 00:02:33.070 
+shaky today you can take and solder some
+
+00:02:33.070 --> 00:02:38.070 
+shaky today you can take and solder some
+pins<00:02:33.750> it's<00:02:34.750> just<00:02:35.200> that<00:02:35.410> easy<00:02:35.650> guys<00:02:37.080> sure
+
+00:02:38.070 --> 00:02:38.080 
+pins it's just that easy guys sure
+
+00:02:38.080 --> 00:02:40.560 
+pins it's just that easy guys sure
+someone<00:02:38.530> will<00:02:38.680> knock<00:02:39.280> my<00:02:39.490> soldering<00:02:39.940> job<00:02:40.270> but
+
+00:02:40.560 --> 00:02:40.570 
+someone will knock my soldering job but
+
+00:02:40.570 --> 00:02:42.630 
+someone will knock my soldering job but
+that's<00:02:41.410> plenty<00:02:41.709> good<00:02:41.890> enough<00:02:42.130> for<00:02:42.340> what<00:02:42.490> we
+
+00:02:42.630 --> 00:02:42.640 
+that's plenty good enough for what we
+
+00:02:42.640 --> 00:02:45.030 
+that's plenty good enough for what we
+need<00:02:42.670> there<00:02:43.660> we<00:02:43.780> go<00:02:43.900> we're<00:02:44.170> all<00:02:44.290> set<00:02:44.560> let's<00:02:44.800> get
+
+00:02:45.030 --> 00:02:45.040 
+need there we go we're all set let's get
+
+00:02:45.040 --> 00:02:49.410 
+need there we go we're all set let's get
+this<00:02:45.190> on<00:02:45.370> the<00:02:45.430> breadboard<00:02:47.760> my<00:02:48.760> only<00:02:49.060> complaint
+
+00:02:49.410 --> 00:02:49.420 
+this on the breadboard my only complaint
+
+00:02:49.420 --> 00:02:52.740 
+this on the breadboard my only complaint
+with<00:02:49.810> some<00:02:50.050> of<00:02:50.200> these<00:02:50.550> sensors<00:02:51.550> they're<00:02:52.450> very
+
+00:02:52.740 --> 00:02:52.750 
+with some of these sensors they're very
+
+00:02:52.750 --> 00:02:54.540 
+with some of these sensors they're very
+clearly<00:02:53.050> labeled<00:02:53.680> what<00:02:53.950> we're<00:02:54.130> going<00:02:54.400> to<00:02:54.459> use
+
+00:02:54.540 --> 00:02:54.550 
+clearly labeled what we're going to use
+
+00:02:54.550 --> 00:02:58.140 
+clearly labeled what we're going to use
+is<00:02:54.970> VCC<00:02:55.360> ground<00:02:55.840> SCL<00:02:56.470> and<00:02:56.500> SDA<00:02:56.790> we<00:02:57.790> won't<00:02:57.970> need
+
+00:02:58.140 --> 00:02:58.150 
+is VCC ground SCL and SDA we won't need
+
+00:02:58.150 --> 00:03:01.229 
+is VCC ground SCL and SDA we won't need
+the<00:02:58.360> address<00:02:58.660> pin<00:02:58.959> today<00:02:59.320> I<00:02:59.350> don't<00:02:59.500> think<00:03:00.239> but
+
+00:03:01.229 --> 00:03:01.239 
+the address pin today I don't think but
+
+00:03:01.239 --> 00:03:03.390 
+the address pin today I don't think but
+as<00:03:01.450> usual<00:03:01.930> it's<00:03:02.380> on<00:03:02.470> the<00:03:02.590> wrong<00:03:02.770> side<00:03:03.130> of<00:03:03.340> the
+
+00:03:03.390 --> 00:03:03.400 
+as usual it's on the wrong side of the
+
+00:03:03.400 --> 00:03:06.750 
+as usual it's on the wrong side of the
+board<00:03:03.720> hey<00:03:04.720> I<00:03:05.110> wonder<00:03:05.830> whether<00:03:06.220> there's<00:03:06.580> some
+
+00:03:06.750 --> 00:03:06.760 
+board hey I wonder whether there's some
+
+00:03:06.760 --> 00:03:08.400 
+board hey I wonder whether there's some
+way<00:03:06.910> we<00:03:06.940> can<00:03:07.150> get<00:03:07.300> around<00:03:07.360> this<00:03:07.840> some<00:03:08.140> day<00:03:08.380> that
+
+00:03:08.400 --> 00:03:08.410 
+way we can get around this some day that
+
+00:03:08.410 --> 00:03:10.800 
+way we can get around this some day that
+we<00:03:09.130> can<00:03:09.310> think<00:03:09.489> ahead<00:03:09.670> on<00:03:09.970> our<00:03:10.000> silk-screening
+
+00:03:10.800 --> 00:03:10.810 
+we can think ahead on our silk-screening
+
+00:03:10.810 --> 00:03:12.600 
+we can think ahead on our silk-screening
+of<00:03:11.020> these<00:03:11.170> sensors<00:03:11.650> and<00:03:11.860> get<00:03:11.980> it<00:03:12.100> on<00:03:12.220> the<00:03:12.370> crack
+
+00:03:12.600 --> 00:03:12.610 
+of these sensors and get it on the crack
+
+00:03:12.610 --> 00:03:15.540 
+of these sensors and get it on the crack
+side<00:03:12.880> so<00:03:13.209> we<00:03:13.780> can<00:03:13.810> see<00:03:13.989> them<00:03:14.380> just<00:03:15.190> the<00:03:15.340> thought
+
+00:03:15.540 --> 00:03:15.550 
+side so we can see them just the thought
+
+00:03:15.550 --> 00:03:18.479 
+side so we can see them just the thought
+till<00:03:15.880> your<00:03:16.150> manufacturers<00:03:16.959> out<00:03:17.260> there<00:03:17.489> so
+
+00:03:18.479 --> 00:03:18.489 
+till your manufacturers out there so
+
+00:03:18.489 --> 00:03:20.280 
+till your manufacturers out there so
+we'll<00:03:18.850> go<00:03:18.970> ahead<00:03:19.000> and<00:03:19.450> we're<00:03:19.870> going<00:03:19.989> to<00:03:20.080> set
+
+00:03:20.280 --> 00:03:20.290 
+we'll go ahead and we're going to set
+
+00:03:20.290 --> 00:03:22.590 
+we'll go ahead and we're going to set
+this<00:03:20.440> up<00:03:20.500> on<00:03:20.830> the<00:03:20.860> board<00:03:20.980> we'll<00:03:21.970> set<00:03:22.299> our
+
+00:03:22.590 --> 00:03:22.600 
+this up on the board we'll set our
+
+00:03:22.600 --> 00:03:25.920 
+this up on the board we'll set our
+Arduino<00:03:23.140> into<00:03:23.620> place<00:03:23.860> and<00:03:24.280> we'll<00:03:25.090> get<00:03:25.660> started
+
+00:03:25.920 --> 00:03:25.930 
+Arduino into place and we'll get started
+
+00:03:25.930 --> 00:03:35.580 
+Arduino into place and we'll get started
+here
+
+00:03:35.580 --> 00:03:35.590 
+
+00:03:35.590 --> 00:03:39.690 
+
+so<00:03:36.069> we're<00:03:36.190> gonna<00:03:36.310> hook<00:03:36.550> the<00:03:36.819> serial<00:03:37.569> clock<00:03:38.700> to
+
+00:03:39.690 --> 00:03:39.700 
+so we're gonna hook the serial clock to
+
+00:03:39.700 --> 00:03:43.460 
+so we're gonna hook the serial clock to
+analog<00:03:40.150> a<00:03:40.540> five<00:03:41.490> should<00:03:42.490> be<00:03:42.610> right<00:03:42.819> here
+
+00:03:43.460 --> 00:03:43.470 
+analog a five should be right here
+
+00:03:43.470 --> 00:03:49.110 
+analog a five should be right here
+the<00:03:44.470> SD<00:03:44.830> a<00:03:44.860> 2<00:03:45.520> a<00:03:45.550> 4<00:03:47.550> that<00:03:48.550> should<00:03:48.730> be<00:03:48.819> all<00:03:48.940> we
+
+00:03:49.110 --> 00:03:49.120 
+the SD a 2 a 4 that should be all we
+
+00:03:49.120 --> 00:03:50.699 
+the SD a 2 a 4 that should be all we
+need<00:03:49.150> guys<00:03:49.540> let's<00:03:50.020> go<00:03:50.140> ahead<00:03:50.260> and<00:03:50.470> get<00:03:50.560> the
+
+00:03:50.699 --> 00:03:50.709 
+need guys let's go ahead and get the
+
+00:03:50.709 --> 00:03:52.680 
+need guys let's go ahead and get the
+laptop<00:03:51.220> fired<00:03:51.670> up<00:03:51.880> and<00:03:52.060> get<00:03:52.150> some<00:03:52.300> code<00:03:52.510> on
+
+00:03:52.680 --> 00:03:52.690 
+laptop fired up and get some code on
+
+00:03:52.690 --> 00:03:57.479 
+laptop fired up and get some code on
+this<00:03:52.870> thing<00:03:55.530> already<00:03:56.530> so<00:03:56.800> I<00:03:56.980> finished<00:03:57.220> hooking
+
+00:03:57.479 --> 00:03:57.489 
+this thing already so I finished hooking
+
+00:03:57.489 --> 00:04:00.449 
+this thing already so I finished hooking
+this<00:03:57.790> up<00:03:57.850> I<00:03:58.209> did<00:03:58.480> a<00:03:58.510> hook<00:03:59.050> up<00:03:59.230> the<00:03:59.350> a3<00:03:59.800> to<00:04:00.340> the
+
+00:04:00.449 --> 00:04:00.459 
+this up I did a hook up the a3 to the
+
+00:04:00.459 --> 00:04:01.800 
+this up I did a hook up the a3 to the
+address<00:04:00.790> pin<00:04:01.030> I<00:04:01.060> don't<00:04:01.330> know<00:04:01.420> why<00:04:01.510> I<00:04:01.540> thought<00:04:01.750> I
+
+00:04:01.800 --> 00:04:01.810 
+address pin I don't know why I thought I
+
+00:04:01.810 --> 00:04:04.559 
+address pin I don't know why I thought I
+didn't<00:04:02.110> need<00:04:02.200> that<00:04:02.260> but<00:04:02.910> I'll<00:04:03.910> go<00:04:04.209> ahead<00:04:04.330> and
+
+00:04:04.559 --> 00:04:04.569 
+didn't need that but I'll go ahead and
+
+00:04:04.569 --> 00:04:06.510 
+didn't need that but I'll go ahead and
+I'll<00:04:04.630> make<00:04:04.810> a<00:04:04.840> forum<00:04:05.319> post<00:04:05.350> to<00:04:05.890> explain<00:04:06.280> this
+
+00:04:06.510 --> 00:04:06.520 
+I'll make a forum post to explain this
+
+00:04:06.520 --> 00:04:09.240 
+I'll make a forum post to explain this
+because<00:04:06.880> the<00:04:07.320> screenshare<00:04:08.320> this<00:04:08.560> way<00:04:08.739> is<00:04:08.980> just
+
+00:04:09.240 --> 00:04:09.250 
+because the screenshare this way is just
+
+00:04:09.250 --> 00:04:12.030 
+because the screenshare this way is just
+going<00:04:09.489> to<00:04:09.580> suck<00:04:09.850> but<00:04:10.450> I'll<00:04:11.110> explain<00:04:11.530> where<00:04:11.920> to
+
+00:04:12.030 --> 00:04:12.040 
+going to suck but I'll explain where to
+
+00:04:12.040 --> 00:04:14.100 
+going to suck but I'll explain where to
+get<00:04:12.160> the<00:04:12.280> code<00:04:12.489> and<00:04:12.519> how<00:04:12.970> to<00:04:13.000> do<00:04:13.269> it<00:04:13.300> I've
+
+00:04:14.100 --> 00:04:14.110 
+get the code and how to do it I've
+
+00:04:14.110 --> 00:04:16.319 
+get the code and how to do it I've
+already<00:04:14.650> hit<00:04:14.890> upload<00:04:15.250> on<00:04:15.430> the<00:04:15.550> code<00:04:15.760> will<00:04:16.030> open
+
+00:04:16.319 --> 00:04:16.329 
+already hit upload on the code will open
+
+00:04:16.329 --> 00:04:19.670 
+already hit upload on the code will open
+the<00:04:16.450> serial<00:04:16.660> monitor<00:04:16.900> here<00:04:17.680> and<00:04:18.489> we'll<00:04:19.209> see
+
+00:04:19.670 --> 00:04:19.680 
+the serial monitor here and we'll see
+
+00:04:19.680 --> 00:04:22.590 
+the serial monitor here and we'll see
+perfect<00:04:20.680> looks<00:04:21.100> like<00:04:21.310> we're<00:04:21.549> getting<00:04:21.730> varying
+
+00:04:22.590 --> 00:04:22.600 
+perfect looks like we're getting varying
+
+00:04:22.600 --> 00:04:25.440 
+perfect looks like we're getting varying
+luxe<00:04:22.870> readings<00:04:23.350> put<00:04:24.310> my<00:04:24.430> finger<00:04:24.760> over<00:04:24.790> it<00:04:25.210> and
+
+00:04:25.440 --> 00:04:25.450 
+luxe readings put my finger over it and
+
+00:04:25.450 --> 00:04:27.990 
+luxe readings put my finger over it and
+we<00:04:26.080> should<00:04:26.260> see<00:04:26.500> that<00:04:26.530> drop<00:04:26.950> down<00:04:27.000> perfect
+
+00:04:27.990 --> 00:04:28.000 
+we should see that drop down perfect
+
+00:04:28.000 --> 00:04:30.180 
+we should see that drop down perfect
+look<00:04:28.419> at<00:04:28.540> that<00:04:28.690> so<00:04:29.110> I<00:04:29.350> know<00:04:29.590> that's<00:04:29.979> a<00:04:30.100> little
+
+00:04:30.180 --> 00:04:30.190 
+look at that so I know that's a little
+
+00:04:30.190 --> 00:04:32.870 
+look at that so I know that's a little
+hard<00:04:30.520> to<00:04:30.669> read<00:04:30.880> so<00:04:31.630> let's<00:04:32.050> go<00:04:32.320> ahead<00:04:32.470> and
+
+00:04:32.870 --> 00:04:32.880 
+hard to read so let's go ahead and
+
+00:04:32.880 --> 00:04:35.610 
+hard to read so let's go ahead and
+remake<00:04:33.880> this<00:04:34.240> so<00:04:34.840> you<00:04:34.930> can<00:04:35.110> read<00:04:35.320> it<00:04:35.440> a<00:04:35.500> little
+
+00:04:35.610 --> 00:04:35.620 
+remake this so you can read it a little
+
+00:04:35.620 --> 00:04:40.980 
+remake this so you can read it a little
+bit<00:04:35.860> better<00:04:37.889> alrighty<00:04:38.889> guys<00:04:39.510> so<00:04:40.510> what<00:04:40.630> it<00:04:40.780> did
+
+00:04:40.980 --> 00:04:40.990 
+bit better alrighty guys so what it did
+
+00:04:40.990 --> 00:04:44.690 
+bit better alrighty guys so what it did
+as<00:04:41.620> I<00:04:41.800> hooked<00:04:42.010> up<00:04:42.190> the<00:04:43.180> sensor<00:04:43.600> same<00:04:43.870> as<00:04:44.080> before
+
+00:04:44.690 --> 00:04:44.700 
+as I hooked up the sensor same as before
+
+00:04:44.700 --> 00:04:47.940 
+as I hooked up the sensor same as before
+to<00:04:45.700> the<00:04:45.820> Arduino<00:04:46.180> Nano<00:04:46.300> but<00:04:47.080> I<00:04:47.110> added<00:04:47.410> the
+
+00:04:47.940 --> 00:04:47.950 
+to the Arduino Nano but I added the
+
+00:04:47.950 --> 00:04:52.050 
+to the Arduino Nano but I added the
+Nokia<00:04:48.370> 5110<00:04:49.090> LCD<00:04:49.630> screen<00:04:50.500> and<00:04:50.860> as<00:04:51.280> any<00:04:51.669> of<00:04:51.850> my
+
+00:04:52.050 --> 00:04:52.060 
+Nokia 5110 LCD screen and as any of my
+
+00:04:52.060 --> 00:04:54.750 
+Nokia 5110 LCD screen and as any of my
+subscribers<00:04:52.510> know<00:04:53.140> I<00:04:53.410> simply<00:04:53.860> love<00:04:54.460> these
+
+00:04:54.750 --> 00:04:54.760 
+subscribers know I simply love these
+
+00:04:54.760 --> 00:04:57.659 
+subscribers know I simply love these
+screens<00:04:55.210> for<00:04:55.510> the<00:04:55.630> price<00:04:55.930> so<00:04:56.830> we'll<00:04:57.340> see<00:04:57.550> if
+
+00:04:57.659 --> 00:04:57.669 
+screens for the price so we'll see if
+
+00:04:57.669 --> 00:04:59.700 
+screens for the price so we'll see if
+that<00:04:57.700> lets<00:04:58.510> you<00:04:58.780> view<00:04:59.020> this<00:04:59.229> a<00:04:59.289> little<00:04:59.470> bit
+
+00:04:59.700 --> 00:04:59.710 
+that lets you view this a little bit
+
+00:04:59.710 --> 00:05:02.580 
+that lets you view this a little bit
+better<00:04:59.860> i<00:05:00.070> modded<00:05:00.700> up<00:05:00.820> the<00:05:01.000> code<00:05:01.270> and<00:05:01.630> I'll
+
+00:05:02.580 --> 00:05:02.590 
+better i modded up the code and I'll
+
+00:05:02.590 --> 00:05:05.490 
+better i modded up the code and I'll
+post<00:05:02.830> the<00:05:03.100> code<00:05:03.250> on<00:05:03.520> the<00:05:03.550> on<00:05:03.970> the<00:05:04.300> on<00:05:04.930> the<00:05:05.080> forum
+
+00:05:05.490 --> 00:05:05.500 
+post the code on the on the on the forum
+
+00:05:05.500 --> 00:05:08.940 
+post the code on the on the on the forum
+so<00:05:06.190> everyone<00:05:06.580> can<00:05:06.760> have<00:05:06.970> it<00:05:07.210> and<00:05:07.770> let's<00:05:08.770> see
+
+00:05:08.940 --> 00:05:08.950 
+so everyone can have it and let's see
+
+00:05:08.950 --> 00:05:10.130 
+so everyone can have it and let's see
+what<00:05:09.100> we<00:05:09.220> get
+
+00:05:10.130 --> 00:05:10.140 
+what we get
+
+00:05:10.140 --> 00:05:12.420 
+what we get
+hopefully<00:05:11.140> this<00:05:11.470> should<00:05:11.710> fire<00:05:11.950> up<00:05:12.190> with<00:05:12.400> a
+
+00:05:12.420 --> 00:05:12.430 
+hopefully this should fire up with a
+
+00:05:12.430 --> 00:05:13.520 
+hopefully this should fire up with a
+splash<00:05:12.789> screen
+
+00:05:13.520 --> 00:05:13.530 
+splash screen
+
+00:05:13.530 --> 00:05:18.029 
+splash screen
+anylock<00:05:14.880> and<00:05:15.880> we've<00:05:16.600> got<00:05:16.810> a<00:05:17.050> light<00:05:17.410> sensor<00:05:17.860> and
+
+00:05:18.029 --> 00:05:18.039 
+anylock and we've got a light sensor and
+
+00:05:18.039 --> 00:05:20.670 
+anylock and we've got a light sensor and
+sure<00:05:18.550> enough<00:05:18.850> we've<00:05:19.180> got<00:05:19.330> a<00:05:19.360> lux<00:05:19.660> value<00:05:20.260> so
+
+00:05:20.670 --> 00:05:20.680 
+sure enough we've got a lux value so
+
+00:05:20.680 --> 00:05:22.020 
+sure enough we've got a lux value so
+let's<00:05:20.830> go<00:05:20.979> ahead<00:05:21.100> and<00:05:21.310> put<00:05:21.430> our<00:05:21.460> finger<00:05:21.850> over
+
+00:05:22.020 --> 00:05:22.030 
+let's go ahead and put our finger over
+
+00:05:22.030 --> 00:05:26.070 
+let's go ahead and put our finger over
+the<00:05:22.390> sensor<00:05:23.020> ah<00:05:23.610> perfect<00:05:24.610> look<00:05:25.000> that<00:05:25.240> works
+
+00:05:26.070 --> 00:05:26.080 
+the sensor ah perfect look that works
+
+00:05:26.080 --> 00:05:28.800 
+the sensor ah perfect look that works
+like<00:05:26.289> a<00:05:26.350> champ<00:05:26.650> so<00:05:26.950> right<00:05:27.910> here<00:05:28.210> on<00:05:28.240> the<00:05:28.570> bench
+
+00:05:28.800 --> 00:05:28.810 
+like a champ so right here on the bench
+
+00:05:28.810 --> 00:05:32.460 
+like a champ so right here on the bench
+we're<00:05:29.350> looking<00:05:29.650> at<00:05:29.770> about<00:05:30.090> 770<00:05:31.090> lux<00:05:31.390> I'll<00:05:32.229> take
+
+00:05:32.460 --> 00:05:32.470 
+we're looking at about 770 lux I'll take
+
+00:05:32.470 --> 00:05:36.060 
+we're looking at about 770 lux I'll take
+flashlight<00:05:33.250> and<00:05:33.539> let's<00:05:34.680> start<00:05:35.680> hitting<00:05:36.010> it
+
+00:05:36.060 --> 00:05:36.070 
+flashlight and let's start hitting it
+
+00:05:36.070 --> 00:05:38.370 
+flashlight and let's start hitting it
+and<00:05:36.250> you<00:05:36.340> can<00:05:36.490> see<00:05:36.760> the<00:05:37.539> value<00:05:37.930> goes<00:05:38.110> up
+
+00:05:38.370 --> 00:05:38.380 
+and you can see the value goes up
+
+00:05:38.380 --> 00:05:41.219 
+and you can see the value goes up
+exponentially<00:05:39.039> and<00:05:39.600> there's<00:05:40.600> a<00:05:40.690> laser<00:05:40.960> in
+
+00:05:41.219 --> 00:05:41.229 
+exponentially and there's a laser in
+
+00:05:41.229 --> 00:05:42.980 
+exponentially and there's a laser in
+this<00:05:41.410> flashlight<00:05:41.740> too<00:05:42.100> but<00:05:42.370> I
+
+00:05:42.980 --> 00:05:42.990 
+this flashlight too but I
+
+00:05:42.990 --> 00:05:44.180 
+this flashlight too but I
+know<00:05:43.169> whether<00:05:43.319> I'll<00:05:43.530> hit<00:05:43.710> it<00:05:43.740> with<00:05:43.860> that<00:05:44.009> I
+
+00:05:44.180 --> 00:05:44.190 
+know whether I'll hit it with that I
+
+00:05:44.190 --> 00:05:46.730 
+know whether I'll hit it with that I
+sure<00:05:44.759> how<00:05:44.880> good<00:05:45.060> that<00:05:45.270> would<00:05:45.419> be<00:05:45.600> for<00:05:45.900> us<00:05:45.930> but
+
+00:05:46.730 --> 00:05:46.740 
+sure how good that would be for us but
+
+00:05:46.740 --> 00:05:49.070 
+sure how good that would be for us but
+we<00:05:46.919> can<00:05:47.069> get<00:05:47.220> it<00:05:47.340> up<00:05:47.490> into<00:05:47.669> the<00:05:47.880> 16,000<00:05:48.840> range
+
+00:05:49.070 --> 00:05:49.080 
+we can get it up into the 16,000 range
+
+00:05:49.080 --> 00:05:52.510 
+we can get it up into the 16,000 range
+with<00:05:49.319> this<00:05:49.440> flashlight<00:05:49.710> no<00:05:50.190> problem<00:05:51.199> I've<00:05:52.199> got
+
+00:05:52.510 --> 00:05:52.520 
+with this flashlight no problem I've got
+
+00:05:52.520 --> 00:05:55.249 
+with this flashlight no problem I've got
+pretty<00:05:53.520> fast<00:05:53.819> reaction<00:05:54.509> time<00:05:54.539> in<00:05:54.960> the<00:05:55.050> code
+
+00:05:55.249 --> 00:05:55.259 
+pretty fast reaction time in the code
+
+00:05:55.259 --> 00:05:57.950 
+pretty fast reaction time in the code
+and<00:05:55.580> yeah<00:05:56.580> you<00:05:56.940> can<00:05:57.060> display<00:05:57.360> it<00:05:57.449> out<00:05:57.660> to<00:05:57.840> an
+
+00:05:57.950 --> 00:05:57.960 
+and yeah you can display it out to an
+
+00:05:57.960 --> 00:06:00.469 
+and yeah you can display it out to an
+LCD<00:05:58.319> screen<00:05:58.470> or<00:05:58.979> do<00:05:59.160> whatever<00:05:59.610> you<00:06:00.030> like<00:06:00.060> with
+
+00:06:00.469 --> 00:06:00.479 
+LCD screen or do whatever you like with
+
+00:06:00.479 --> 00:06:03.050 
+LCD screen or do whatever you like with
+it<00:06:00.750> with<00:06:01.110> the<00:06:01.229> values<00:06:01.680> a<00:06:01.949> pretty<00:06:02.490> handy<00:06:03.030> for
+
+00:06:03.050 --> 00:06:03.060 
+it with the values a pretty handy for
+
+00:06:03.060 --> 00:06:06.189 
+it with the values a pretty handy for
+say<00:06:03.599> a<00:06:03.630> robot<00:06:04.199> or<00:06:04.500> whatever<00:06:04.970> or<00:06:05.970> anything
+
+00:06:06.189 --> 00:06:06.199 
+say a robot or whatever or anything
+
+00:06:06.199 --> 00:06:09.529 
+say a robot or whatever or anything
+solar-powered<00:06:07.490> to<00:06:08.490> do<00:06:08.580> any<00:06:08.729> switching<00:06:09.330> on
+
+00:06:09.529 --> 00:06:09.539 
+solar-powered to do any switching on
+
+00:06:09.539 --> 00:06:12.620 
+solar-powered to do any switching on
+supplies<00:06:09.960> or<00:06:10.470> just<00:06:11.430> about<00:06:11.580> anything<00:06:11.910> really
+
+00:06:12.620 --> 00:06:12.630 
+supplies or just about anything really
+
+00:06:12.630 --> 00:06:15.140 
+supplies or just about anything really
+really<00:06:12.900> powerful<00:06:13.080> little<00:06:13.620> sensor<00:06:14.009> seeing<00:06:14.910> by
+
+00:06:15.140 --> 00:06:15.150 
+really powerful little sensor seeing by
+
+00:06:15.150 --> 00:06:18.320 
+really powerful little sensor seeing by
+that<00:06:15.330> at<00:06:15.479> IC<00:06:15.810> station<00:06:16.289> comm<00:06:16.970> post<00:06:17.970> a<00:06:18.090> link<00:06:18.240> in
+
+00:06:18.320 --> 00:06:18.330 
+that at IC station comm post a link in
+
+00:06:18.330 --> 00:06:19.999 
+that at IC station comm post a link in
+the<00:06:18.479> description<00:06:18.570> and<00:06:19.259> really<00:06:19.590> glad<00:06:19.740> you<00:06:19.889> guys
+
+00:06:19.999 --> 00:06:20.009 
+the description and really glad you guys
+
+00:06:20.009 --> 00:06:22.010 
+the description and really glad you guys
+can<00:06:20.220> join<00:06:20.400> me<00:06:20.580> today<00:06:20.820> guys<00:06:21.000> I<00:06:21.060> hope<00:06:21.479> this<00:06:21.509> helps
+
+00:06:22.010 --> 00:06:22.020 
+can join me today guys I hope this helps
+
+00:06:22.020 --> 00:06:25.070 
+can join me today guys I hope this helps
+someone<00:06:22.440> and<00:06:22.770> take<00:06:23.610> the<00:06:23.759> code<00:06:23.970> use<00:06:24.389> it<00:06:24.570> make<00:06:24.930> it
+
+00:06:25.070 --> 00:06:25.080 
+someone and take the code use it make it
+
+00:06:25.080 --> 00:06:27.230 
+someone and take the code use it make it
+better<00:06:25.229> thanks<00:06:26.009> guys<00:06:26.220> good<00:06:26.580> luck<00:06:26.940> in<00:06:27.090> all<00:06:27.180> your
+
+00:06:27.230 --> 00:06:27.240 
+better thanks guys good luck in all your
+
+00:06:27.240 --> 00:06:30.050 
+better thanks guys good luck in all your
+electronics<00:06:28.050> ventures<00:06:28.470> and<00:06:28.740> if<00:06:28.830> you<00:06:28.979> if<00:06:29.849> you
+
+00:06:30.050 --> 00:06:30.060 
+electronics ventures and if you if you
+
+00:06:30.060 --> 00:06:32.870 
+electronics ventures and if you if you
+found<00:06:30.240> this<00:06:30.419> interesting<00:06:30.660> please<00:06:31.849> give<00:06:32.849> a
+
+00:06:32.870 --> 00:06:32.880 
+found this interesting please give a
+
+00:06:32.880 --> 00:06:35.140 
+found this interesting please give a
+thumbs<00:06:33.210> up<00:06:33.389> down<00:06:33.930> in<00:06:33.990> the<00:06:34.139> description<00:06:34.860> and
+
+00:06:35.140 --> 00:06:35.150 
+thumbs up down in the description and
+
+00:06:35.150 --> 00:06:37.279 
+thumbs up down in the description and
+look<00:06:36.150> forward<00:06:36.509> to<00:06:36.599> hearing<00:06:36.840> from<00:06:36.870> you<00:06:37.020> in<00:06:37.199> the
+
+00:06:37.279 --> 00:06:37.289 
+look forward to hearing from you in the
+
+00:06:37.289 --> 00:06:54.080 
+look forward to hearing from you in the
+future<00:06:37.580> thanks<00:06:38.580> for<00:06:38.699> watching
+
+00:06:54.080 --> 00:06:54.090 
+
+00:06:54.090 --> 00:07:11.370 
+
+you
+
+00:07:11.370 --> 00:07:11.380 
+
+00:07:11.380 --> 00:07:13.440 
+
+you
+

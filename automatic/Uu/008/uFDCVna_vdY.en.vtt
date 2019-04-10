@@ -1,0 +1,519 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.360 
+
+hi<00:00:00.930> in<00:00:01.199> this<00:00:01.319> video<00:00:01.500> I'm<00:00:01.770> going<00:00:01.949> to<00:00:02.070> show<00:00:02.340> you
+
+00:00:02.360 --> 00:00:02.370 
+hi in this video I'm going to show you
+
+00:00:02.370 --> 00:00:05.059 
+hi in this video I'm going to show you
+how<00:00:02.700> to<00:00:02.760> activate<00:00:03.300> DHCP<00:00:03.870> failover<00:00:04.290> it's<00:00:04.710> a<00:00:04.859> new
+
+00:00:05.059 --> 00:00:05.069 
+how to activate DHCP failover it's a new
+
+00:00:05.069 --> 00:00:07.610 
+how to activate DHCP failover it's a new
+feature<00:00:05.310> in<00:00:05.549> Windows<00:00:05.580> 2012<00:00:06.270> an<00:00:06.750> earlier
+
+00:00:07.610 --> 00:00:07.620 
+feature in Windows 2012 an earlier
+
+00:00:07.620 --> 00:00:09.339 
+feature in Windows 2012 an earlier
+version<00:00:07.770> of<00:00:08.069> Windows<00:00:08.519> servers
+
+00:00:09.339 --> 00:00:09.349 
+version of Windows servers
+
+00:00:09.349 --> 00:00:13.310 
+version of Windows servers
+you<00:00:10.349> should<00:00:10.860> base<00:00:11.460> our<00:00:11.670> scope<00:00:12.240> in<00:00:12.450> two<00:00:12.809> parts
+
+00:00:13.310 --> 00:00:13.320 
+you should base our scope in two parts
+
+00:00:13.320 --> 00:00:16.460 
+you should base our scope in two parts
+for<00:00:14.009> example<00:00:14.370> 70%<00:00:15.150> on<00:00:15.269> primary<00:00:15.900> server<00:00:16.170> and
+
+00:00:16.460 --> 00:00:16.470 
+for example 70% on primary server and
+
+00:00:16.470 --> 00:00:22.640 
+for example 70% on primary server and
+30%<00:00:17.250> on<00:00:17.720> second<00:00:18.720> server<00:00:19.189> or<00:00:21.020> machine<00:00:22.020> use<00:00:22.289> the
+
+00:00:22.640 --> 00:00:22.650 
+30% on second server or machine use the
+
+00:00:22.650 --> 00:00:25.880 
+30% on second server or machine use the
+HTTP<00:00:23.340> cluster<00:00:24.029> but<00:00:24.869> it<00:00:25.080> is<00:00:25.230> very<00:00:25.410> easy<00:00:25.740> to
+
+00:00:25.880 --> 00:00:25.890 
+HTTP cluster but it is very easy to
+
+00:00:25.890 --> 00:00:32.780 
+HTTP cluster but it is very easy to
+deploy<00:00:26.369> on<00:00:26.699> Windows<00:00:27.510> 2012<00:00:28.699> okay<00:00:29.699> to<00:00:30.830> do<00:00:31.830> this<00:00:32.009> I
+
+00:00:32.780 --> 00:00:32.790 
+deploy on Windows 2012 okay to do this I
+
+00:00:32.790 --> 00:00:35.990 
+deploy on Windows 2012 okay to do this I
+have<00:00:33.390> two<00:00:33.690> DHCP<00:00:34.320> servers<00:00:34.800> node<00:00:35.250> 1<00:00:35.520> and<00:00:35.730> node<00:00:35.760> 2
+
+00:00:35.990 --> 00:00:36.000 
+have two DHCP servers node 1 and node 2
+
+00:00:36.000 --> 00:00:39.850 
+have two DHCP servers node 1 and node 2
+node<00:00:36.809> 1<00:00:37.050> is<00:00:37.170> my<00:00:37.350> local<00:00:37.770> server<00:00:38.100> and<00:00:38.370> no<00:00:38.610> 2<00:00:38.670> is<00:00:39.149> my
+
+00:00:39.850 --> 00:00:39.860 
+node 1 is my local server and no 2 is my
+
+00:00:39.860 --> 00:00:46.700 
+node 1 is my local server and no 2 is my
+partner<00:00:40.860> server<00:00:44.510> to<00:00:45.510> do<00:00:45.629> this<00:00:45.780> I'm<00:00:46.379> going<00:00:46.620> to
+
+00:00:46.700 --> 00:00:46.710 
+partner server to do this I'm going to
+
+00:00:46.710 --> 00:00:50.750 
+partner server to do this I'm going to
+right<00:00:47.039> click<00:00:47.070> on<00:00:47.489> ipv4<00:00:48.980> configure<00:00:49.980> failover<00:00:50.430> I
+
+00:00:50.750 --> 00:00:50.760 
+right click on ipv4 configure failover I
+
+00:00:50.760 --> 00:00:52.400 
+right click on ipv4 configure failover I
+should<00:00:51.270> mention<00:00:51.510> we<00:00:51.870> don't<00:00:52.079> have<00:00:52.230> this
+
+00:00:52.400 --> 00:00:52.410 
+should mention we don't have this
+
+00:00:52.410 --> 00:00:56.979 
+should mention we don't have this
+feature<00:00:52.710> on<00:00:53.239> windows<00:00:54.239> outside<00:00:54.870> on<00:00:55.440> ipv6
+
+00:00:56.979 --> 00:00:56.989 
+feature on windows outside on ipv6
+
+00:00:56.989 --> 00:00:59.779 
+feature on windows outside on ipv6
+configure<00:00:57.989> sale<00:00:58.199> over<00:00:58.440> we<00:00:58.620> can<00:00:58.800> select<00:00:59.160> all
+
+00:00:59.779 --> 00:00:59.789 
+configure sale over we can select all
+
+00:00:59.789 --> 00:01:03.590 
+configure sale over we can select all
+let's<00:01:00.120> go<00:01:00.300> or<00:01:00.480> one<00:01:01.379> of<00:01:01.500> them<00:01:01.879> for<00:01:02.879> each<00:01:03.120> scope
+
+00:01:03.590 --> 00:01:03.600 
+let's go or one of them for each scope
+
+00:01:03.600 --> 00:01:07.940 
+let's go or one of them for each scope
+we<00:01:03.989> can<00:01:04.729> have<00:01:05.729> two<00:01:06.330> servers<00:01:06.689> I'm<00:01:07.530> going<00:01:07.799> to
+
+00:01:07.940 --> 00:01:07.950 
+we can have two servers I'm going to
+
+00:01:07.950 --> 00:01:10.340 
+we can have two servers I'm going to
+select<00:01:08.310> all<00:01:08.520> and<00:01:08.880> put<00:01:09.060> all<00:01:09.240> of<00:01:09.299> my<00:01:09.479> scopes<00:01:10.110> on
+
+00:01:10.340 --> 00:01:10.350 
+select all and put all of my scopes on
+
+00:01:10.350 --> 00:01:14.120 
+select all and put all of my scopes on
+to<00:01:10.799> servers<00:01:11.570> here<00:01:12.570> I<00:01:12.810> can<00:01:13.020> select<00:01:13.229> my<00:01:13.590> partner
+
+00:01:14.120 --> 00:01:14.130 
+to servers here I can select my partner
+
+00:01:14.130 --> 00:01:17.690 
+to servers here I can select my partner
+server<00:01:14.490> add<00:01:14.820> server<00:01:15.450> from<00:01:16.140> authorize<00:01:16.680> it<00:01:16.950> DHCP
+
+00:01:17.690 --> 00:01:17.700 
+server add server from authorize it DHCP
+
+00:01:17.700 --> 00:01:21.020 
+server add server from authorize it DHCP
+server<00:01:18.000> select<00:01:18.659> node<00:01:18.930> 2<00:01:19.229> as<00:01:19.799> you<00:01:20.220> know<00:01:20.369> just<00:01:20.670> a
+
+00:01:21.020 --> 00:01:21.030 
+server select node 2 as you know just a
+
+00:01:21.030 --> 00:01:23.719 
+server select node 2 as you know just a
+try<00:01:21.600> to<00:01:21.659> DHCP<00:01:22.470> server<00:01:22.770> can<00:01:23.159> release<00:01:23.490> IP
+
+00:01:23.719 --> 00:01:23.729 
+try to DHCP server can release IP
+
+00:01:23.729 --> 00:01:26.440 
+try to DHCP server can release IP
+address<00:01:24.270> in<00:01:24.509> Active<00:01:25.170> Directory<00:01:25.200> environment
+
+00:01:26.440 --> 00:01:26.450 
+address in Active Directory environment
+
+00:01:26.450 --> 00:01:30.640 
+address in Active Directory environment
+next<00:01:27.770> relation<00:01:28.770> name<00:01:28.979> the<00:01:29.700> relationship<00:01:30.360> name
+
+00:01:30.640 --> 00:01:30.650 
+next relation name the relationship name
+
+00:01:30.650 --> 00:01:35.120 
+next relation name the relationship name
+and<00:01:32.570> maximum<00:01:33.570> client<00:01:34.049> lead<00:01:34.290> times<00:01:34.650> maximum
+
+00:01:35.120 --> 00:01:35.130 
+and maximum client lead times maximum
+
+00:01:35.130 --> 00:01:37.249 
+and maximum client lead times maximum
+client<00:01:35.729> lead<00:01:35.880> time<00:01:36.119> which<00:01:36.299> defines<00:01:36.900> the
+
+00:01:37.249 --> 00:01:37.259 
+client lead time which defines the
+
+00:01:37.259 --> 00:01:39.319 
+client lead time which defines the
+temporary<00:01:37.860> lease<00:01:38.159> period<00:01:38.460> given<00:01:39.060> by<00:01:39.270> the
+
+00:01:39.319 --> 00:01:39.329 
+temporary lease period given by the
+
+00:01:39.329 --> 00:01:42.770 
+temporary lease period given by the
+failover<00:01:40.189> failover<00:01:41.189> to<00:01:41.340> server<00:01:41.729> to<00:01:42.119> the<00:01:42.150> two
+
+00:01:42.770 --> 00:01:42.780 
+failover failover to server to the two
+
+00:01:42.780 --> 00:01:45.800 
+failover failover to server to the two
+new<00:01:42.990> clients<00:01:43.549> mode<00:01:44.549> we<00:01:44.880> have<00:01:44.909> too<00:01:45.329> much<00:01:45.509> here
+
+00:01:45.800 --> 00:01:45.810 
+new clients mode we have too much here
+
+00:01:45.810 --> 00:01:48.859 
+new clients mode we have too much here
+hot<00:01:46.680> standby<00:01:47.100> and<00:01:47.490> load<00:01:47.729> balance<00:01:48.180> load
+
+00:01:48.859 --> 00:01:48.869 
+hot standby and load balance load
+
+00:01:48.869 --> 00:01:51.580 
+hot standby and load balance load
+balance<00:01:49.259> it's<00:01:49.409> going<00:01:49.799> to<00:01:50.040> split<00:01:50.670> traffic
+
+00:01:51.580 --> 00:01:51.590 
+balance it's going to split traffic
+
+00:01:51.590 --> 00:01:54.950 
+balance it's going to split traffic
+between<00:01:52.590> two<00:01:53.100> servers<00:01:53.460> and<00:01:53.850> hottest<00:01:54.540> and<00:01:54.780> boy
+
+00:01:54.950 --> 00:01:54.960 
+between two servers and hottest and boy
+
+00:01:54.960 --> 00:01:59.780 
+between two servers and hottest and boy
+is<00:01:55.350> just<00:01:56.100> one<00:01:56.610> active<00:01:57.149> server<00:01:57.420> and<00:01:57.689> then<00:01:58.790> pass
+
+00:01:59.780 --> 00:01:59.790 
+is just one active server and then pass
+
+00:01:59.790 --> 00:02:02.959 
+is just one active server and then pass
+and<00:02:00.119> one<00:02:00.390> passive<00:02:00.990> server<00:02:01.350> I'm<00:02:02.070> going<00:02:02.369> if<00:02:02.759> you
+
+00:02:02.959 --> 00:02:02.969 
+and one passive server I'm going if you
+
+00:02:02.969 --> 00:02:06.260 
+and one passive server I'm going if you
+if<00:02:03.299> you're<00:02:03.930> both<00:02:04.290> server<00:02:04.649> are<00:02:04.979> the<00:02:05.969> same
+
+00:02:06.260 --> 00:02:06.270 
+if you're both server are the same
+
+00:02:06.270 --> 00:02:10.249 
+if you're both server are the same
+subnet<00:02:06.630> load<00:02:07.140> balance<00:02:07.590> in<00:02:07.829> bitter<00:02:09.259> select
+
+00:02:10.249 --> 00:02:10.259 
+subnet load balance in bitter select
+
+00:02:10.259 --> 00:02:13.699 
+subnet load balance in bitter select
+load<00:02:10.410> balance<00:02:11.000> okay<00:02:12.000> we<00:02:12.150> can<00:02:12.440> define<00:02:13.440> load
+
+00:02:13.699 --> 00:02:13.709 
+load balance okay we can define load
+
+00:02:13.709 --> 00:02:17.210 
+load balance okay we can define load
+balance<00:02:14.129> percentage<00:02:15.170> local<00:02:16.170> server<00:02:16.410> 50%
+
+00:02:17.210 --> 00:02:17.220 
+balance percentage local server 50%
+
+00:02:17.220 --> 00:02:20.390 
+balance percentage local server 50%
+partner<00:02:17.670> server<00:02:18.000> is<00:02:18.569> 50<00:02:19.230> percent<00:02:19.650> as<00:02:19.800> well<00:02:20.069> you
+
+00:02:20.390 --> 00:02:20.400 
+partner server is 50 percent as well you
+
+00:02:20.400 --> 00:02:23.300 
+partner server is 50 percent as well you
+can<00:02:20.550> change<00:02:20.879> these<00:02:21.090> based<00:02:21.720> on<00:02:21.840> your<00:02:22.379> policy<00:02:22.709> or
+
+00:02:23.300 --> 00:02:23.310 
+can change these based on your policy or
+
+00:02:23.310 --> 00:02:25.750 
+can change these based on your policy or
+your<00:02:23.730> server<00:02:24.599> hardware
+
+00:02:25.750 --> 00:02:25.760 
+your server hardware
+
+00:02:25.760 --> 00:02:30.170 
+your server hardware
+state<00:02:26.760> switch<00:02:27.360> over<00:02:27.780> interval<00:02:28.670> it<00:02:29.670> meant<00:02:30.120> a
+
+00:02:30.170 --> 00:02:30.180 
+state switch over interval it meant a
+
+00:02:30.180 --> 00:02:31.820 
+state switch over interval it meant a
+server<00:02:30.540> lose<00:02:30.840> communication<00:02:31.590> with<00:02:31.709> its
+
+00:02:31.820 --> 00:02:31.830 
+server lose communication with its
+
+00:02:31.830 --> 00:02:34.670 
+server lose communication with its
+partner<00:02:32.459> and<00:02:32.870> the<00:02:33.870> current<00:02:34.379> server
+
+00:02:34.670 --> 00:02:34.680 
+partner and the current server
+
+00:02:34.680 --> 00:02:38.059 
+partner and the current server
+determines<00:02:35.400> its<00:02:35.810> partners<00:02:36.810> done<00:02:37.349> it's<00:02:37.769> going
+
+00:02:38.059 --> 00:02:38.069 
+determines its partners done it's going
+
+00:02:38.069 --> 00:02:41.900 
+determines its partners done it's going
+to<00:02:38.190> take<00:02:38.489> over<00:02:39.050> entire<00:02:40.050> scope<00:02:40.560> if<00:02:41.430> I<00:02:41.550> select
+
+00:02:41.900 --> 00:02:41.910 
+to take over entire scope if I select
+
+00:02:41.910 --> 00:02:44.240 
+to take over entire scope if I select
+this<00:02:42.030> after<00:02:42.510> 60<00:02:42.900> minutes<00:02:42.930> it's<00:02:43.620> going<00:02:43.920> to<00:02:44.129> be
+
+00:02:44.240 --> 00:02:44.250 
+this after 60 minutes it's going to be
+
+00:02:44.250 --> 00:02:49.100 
+this after 60 minutes it's going to be
+happen<00:02:44.730> but<00:02:45.390> if<00:02:45.690> I<00:02:45.959> didn't<00:02:46.769> if<00:02:47.129> I<00:02:47.810> don't<00:02:48.810> select
+
+00:02:49.100 --> 00:02:49.110 
+happen but if I didn't if I don't select
+
+00:02:49.110 --> 00:02:52.210 
+happen but if I didn't if I don't select
+this<00:02:49.760> administrator<00:02:50.760> should<00:02:51.269> do<00:02:51.450> this
+
+00:02:52.210 --> 00:02:52.220 
+this administrator should do this
+
+00:02:52.220 --> 00:02:54.800 
+this administrator should do this
+manually<00:02:53.220> enable<00:02:53.879> message<00:02:54.480> authentication
+
+00:02:54.800 --> 00:02:54.810 
+manually enable message authentication
+
+00:02:54.810 --> 00:02:58.430 
+manually enable message authentication
+is<00:02:55.379> a<00:02:55.410> shared<00:02:55.830> secret<00:02:56.129> key<00:02:56.540> between<00:02:57.540> DHCP
+
+00:02:58.430 --> 00:02:58.440 
+is a shared secret key between DHCP
+
+00:02:58.440 --> 00:03:01.009 
+is a shared secret key between DHCP
+servers<00:02:58.950> if<00:02:59.190> you<00:02:59.400> like<00:02:59.640> to<00:02:59.790> add<00:02:59.970> new<00:03:00.269> DHCP
+
+00:03:01.009 --> 00:03:01.019 
+servers if you like to add new DHCP
+
+00:03:01.019 --> 00:03:03.160 
+servers if you like to add new DHCP
+servers<00:03:01.470> in<00:03:01.650> your<00:03:01.890> scope<00:03:02.220> you<00:03:02.459> should<00:03:02.640> type
+
+00:03:03.160 --> 00:03:03.170 
+servers in your scope you should type
+
+00:03:03.170 --> 00:03:07.100 
+servers in your scope you should type
+this<00:03:04.170> shared<00:03:04.800> secret<00:03:05.580> key<00:03:05.610> it's<00:03:06.480> optional<00:03:06.989> and
+
+00:03:07.100 --> 00:03:07.110 
+this shared secret key it's optional and
+
+00:03:07.110 --> 00:03:09.850 
+this shared secret key it's optional and
+I'm<00:03:07.440> going<00:03:07.739> to<00:03:07.800> unselect<00:03:08.310> that<00:03:08.629> next<00:03:09.629> and
+
+00:03:09.850 --> 00:03:09.860 
+I'm going to unselect that next and
+
+00:03:09.860 --> 00:03:13.100 
+I'm going to unselect that next and
+finish<00:03:11.120> it's<00:03:12.120> configured<00:03:12.690> failover
+
+00:03:13.100 --> 00:03:13.110 
+finish it's configured failover
+
+00:03:13.110 --> 00:03:18.699 
+finish it's configured failover
+successful<00:03:14.090> close<00:03:15.290> I'm<00:03:16.290> going<00:03:16.620> to<00:03:16.940> refresh
+
+00:03:18.699 --> 00:03:18.709 
+successful close I'm going to refresh
+
+00:03:18.709 --> 00:03:22.220 
+successful close I'm going to refresh
+ipv4<00:03:19.709> and<00:03:20.010> no<00:03:20.250> 2<00:03:20.310> as<00:03:20.760> you<00:03:21.000> can<00:03:21.060> see<00:03:21.390> both<00:03:21.720> Cisco
+
+00:03:22.220 --> 00:03:22.230 
+ipv4 and no 2 as you can see both Cisco
+
+00:03:22.230 --> 00:03:30.949 
+ipv4 and no 2 as you can see both Cisco
+are<00:03:22.409> added<00:03:23.220> two<00:03:23.700> new<00:03:24.470> servers<00:03:29.060> and<00:03:30.060> scrub
+
+00:03:30.949 --> 00:03:30.959 
+are added two new servers and scrub
+
+00:03:30.959 --> 00:03:33.410 
+are added two new servers and scrub
+option<00:03:31.319> in<00:03:31.409> here<00:03:31.680> if<00:03:32.280> you<00:03:32.489> change<00:03:33.000> something
+
+00:03:33.410 --> 00:03:33.420 
+option in here if you change something
+
+00:03:33.420 --> 00:03:38.380 
+option in here if you change something
+in<00:03:33.750> in<00:03:34.230> scope<00:03:34.680> option<00:03:35.129> for<00:03:35.489> example<00:03:36.290> add<00:03:37.290> new
+
+00:03:38.380 --> 00:03:38.390 
+in in scope option for example add new
+
+00:03:38.390 --> 00:03:48.440 
+in in scope option for example add new
+option<00:03:39.409> but<00:03:40.409> for<00:03:41.659> example<00:03:42.659> new<00:03:42.989> router<00:03:47.450> add
+
+00:03:48.440 --> 00:03:48.450 
+option but for example new router add
+
+00:03:48.450 --> 00:03:54.240 
+option but for example new router add
+and<00:03:49.110> ok<00:03:52.220> it<00:03:53.220> doesn't<00:03:53.730> rip
+
+00:03:54.240 --> 00:03:54.250 
+and ok it doesn't rip
+
+00:03:54.250 --> 00:04:00.660 
+and ok it doesn't rip
+-<00:03:55.410> second<00:03:56.410> server<00:03:56.740> or<00:03:57.070> -<00:03:57.490> partner<00:03:58.030> server<00:03:59.670> you
+
+00:04:00.660 --> 00:04:00.670 
+- second server or - partner server you
+
+00:04:00.670 --> 00:04:03.780 
+- second server or - partner server you
+should<00:04:00.780> right-click<00:04:01.780> on<00:04:01.990> a<00:04:02.320> scope<00:04:02.590> and<00:04:02.830> then
+
+00:04:03.780 --> 00:04:03.790 
+should right-click on a scope and then
+
+00:04:03.790 --> 00:04:12.390 
+should right-click on a scope and then
+replicate<00:04:04.480> it's<00:04:04.660> cool<00:04:07.020> it's<00:04:08.020> done<00:04:10.920> the<00:04:11.920> option
+
+00:04:12.390 --> 00:04:12.400 
+replicate it's cool it's done the option
+
+00:04:12.400 --> 00:04:17.789 
+replicate it's cool it's done the option
+is<00:04:12.610> added<00:04:13.150> to<00:04:14.580> the<00:04:15.580> disco<00:04:16.200> if<00:04:17.200> you<00:04:17.380> like<00:04:17.590> to
+
+00:04:17.789 --> 00:04:17.799 
+is added to the disco if you like to
+
+00:04:17.799 --> 00:04:21.300 
+is added to the disco if you like to
+change<00:04:18.130> your<00:04:19.530> configuration<00:04:20.530> right<00:04:20.859> click<00:04:21.160> on
+
+00:04:21.300 --> 00:04:21.310 
+change your configuration right click on
+
+00:04:21.310 --> 00:04:25.800 
+change your configuration right click on
+ipv4<00:04:22.170> properties<00:04:23.640> go<00:04:24.640> to<00:04:24.670> failover<00:04:25.210> tab<00:04:25.570> with
+
+00:04:25.800 --> 00:04:25.810 
+ipv4 properties go to failover tab with
+
+00:04:25.810 --> 00:04:31.830 
+ipv4 properties go to failover tab with
+a<00:04:25.840> new<00:04:26.200> tab<00:04:26.830> in<00:04:28.080> DHCP<00:04:29.080> server<00:04:29.520> edit<00:04:30.520> and<00:04:30.880> then
+
+00:04:31.830 --> 00:04:31.840 
+a new tab in DHCP server edit and then
+
+00:04:31.840 --> 00:04:35.160 
+a new tab in DHCP server edit and then
+here<00:04:32.500> you<00:04:32.740> can<00:04:32.890> change<00:04:33.520> all<00:04:34.120> of<00:04:34.180> your<00:04:34.690> settings
+
+00:04:35.160 --> 00:04:35.170 
+here you can change all of your settings
+
+00:04:35.170 --> 00:04:38.390 
+here you can change all of your settings
+I<00:04:35.560> hope<00:04:36.370> this<00:04:36.580> video<00:04:36.790> is<00:04:37.180> useful<00:04:37.240> for<00:04:37.990> you<00:04:38.140> and
+
+00:04:38.390 --> 00:04:38.400 
+I hope this video is useful for you and
+
+00:04:38.400 --> 00:04:44.460 
+I hope this video is useful for you and
+see<00:04:39.400> you<00:04:39.550> on<00:04:39.820> my<00:04:40.270> next<00:04:40.690> video<00:04:41.460> bye
+

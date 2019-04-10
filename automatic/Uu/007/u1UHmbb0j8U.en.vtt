@@ -1,0 +1,854 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.969 
+
+this<00:00:00.149> is<00:00:00.329> nathan<00:00:00.840> and<00:00:01.079> i<00:00:01.469> am<00:00:01.530> bringing<00:00:01.829> you
+
+00:00:01.969 --> 00:00:01.979 
+this is nathan and i am bringing you
+
+00:00:01.979 --> 00:00:06.769 
+this is nathan and i am bringing you
+part<00:00:02.370> 5<00:00:02.879> of<00:00:02.909> the<00:00:03.480> SPS<00:00:04.049> tutorial<00:00:04.560> so<00:00:05.279> uh<00:00:05.450> this<00:00:06.450> in
+
+00:00:06.769 --> 00:00:06.779 
+part 5 of the SPS tutorial so uh this in
+
+00:00:06.779 --> 00:00:09.879 
+part 5 of the SPS tutorial so uh this in
+this<00:00:07.109> tutorial<00:00:07.319> we<00:00:07.770> are<00:00:07.799> going<00:00:07.950> to<00:00:08.870> optimize
+
+00:00:09.879 --> 00:00:09.889 
+this tutorial we are going to optimize
+
+00:00:09.889 --> 00:00:13.610 
+this tutorial we are going to optimize
+the<00:00:10.889> frame<00:00:11.849> rate<00:00:12.120> for<00:00:12.719> our<00:00:12.960> little<00:00:13.290> game<00:00:13.590> here
+
+00:00:13.610 --> 00:00:13.620 
+the frame rate for our little game here
+
+00:00:13.620 --> 00:00:16.189 
+the frame rate for our little game here
+or<00:00:14.490> at<00:00:14.549> least<00:00:15.299> for<00:00:15.450> the<00:00:15.540> beginning<00:00:15.929> we<00:00:16.020> might
+
+00:00:16.189 --> 00:00:16.199 
+or at least for the beginning we might
+
+00:00:16.199 --> 00:00:19.370 
+or at least for the beginning we might
+get<00:00:16.410> to<00:00:16.590> more<00:00:16.770> later<00:00:17.100> on<00:00:17.190> but<00:00:17.609> for<00:00:18.020> most<00:00:19.020> of<00:00:19.230> you
+
+00:00:19.370 --> 00:00:19.380 
+get to more later on but for most of you
+
+00:00:19.380 --> 00:00:22.460 
+get to more later on but for most of you
+we<00:00:19.890> I<00:00:20.220> have<00:00:21.210> a<00:00:21.270> pretty<00:00:21.600> good<00:00:21.689> computer<00:00:22.170> and<00:00:22.410> I'm
+
+00:00:22.460 --> 00:00:22.470 
+we I have a pretty good computer and I'm
+
+00:00:22.470 --> 00:00:25.640 
+we I have a pretty good computer and I'm
+running<00:00:22.830> this<00:00:22.980> at<00:00:23.189> like<00:00:24.140> 15<00:00:25.140> frames<00:00:25.439> per
+
+00:00:25.640 --> 00:00:25.650 
+running this at like 15 frames per
+
+00:00:25.650 --> 00:00:28.990 
+running this at like 15 frames per
+second<00:00:26.220> so<00:00:26.939> that's<00:00:27.330> that's<00:00:27.630> not<00:00:27.779> very<00:00:28.109> good<00:00:28.260> so
+
+00:00:28.990 --> 00:00:29.000 
+second so that's that's not very good so
+
+00:00:29.000 --> 00:00:31.490 
+second so that's that's not very good so
+I'm<00:00:30.000> just<00:00:30.210> going<00:00:30.330> to<00:00:30.390> show<00:00:30.570> you<00:00:30.630> guys<00:00:30.750> a<00:00:30.900> quick
+
+00:00:31.490 --> 00:00:31.500 
+I'm just going to show you guys a quick
+
+00:00:31.500 --> 00:00:33.620 
+I'm just going to show you guys a quick
+tip<00:00:31.890> on<00:00:32.130> how<00:00:32.430> to<00:00:32.460> make<00:00:32.730> it<00:00:32.910> run<00:00:33.149> a<00:00:33.180> little<00:00:33.300> bit
+
+00:00:33.620 --> 00:00:33.630 
+tip on how to make it run a little bit
+
+00:00:33.630 --> 00:00:38.150 
+tip on how to make it run a little bit
+faster<00:00:34.370> and<00:00:35.540> so<00:00:36.540> let's<00:00:36.780> get<00:00:36.899> to<00:00:37.079> coding<00:00:37.410> it<00:00:37.530> so
+
+00:00:38.150 --> 00:00:38.160 
+faster and so let's get to coding it so
+
+00:00:38.160 --> 00:00:40.130 
+faster and so let's get to coding it so
+we're<00:00:38.550> going<00:00:38.610> to<00:00:38.730> go<00:00:38.790> into<00:00:39.030> our<00:00:39.210> movement
+
+00:00:40.130 --> 00:00:40.140 
+we're going to go into our movement
+
+00:00:40.140 --> 00:00:42.619 
+we're going to go into our movement
+scripts<00:00:40.530> over<00:00:40.829> here<00:00:41.010> and<00:00:41.390> just<00:00:42.390> at<00:00:42.510> the<00:00:42.600> very
+
+00:00:42.619 --> 00:00:42.629 
+scripts over here and just at the very
+
+00:00:42.629 --> 00:00:45.369 
+scripts over here and just at the very
+bottom<00:00:43.050> we're<00:00:43.590> going<00:00:43.890> to<00:00:44.040> type<00:00:44.250> the<00:00:44.910> game
+
+00:00:45.369 --> 00:00:45.379 
+bottom we're going to type the game
+
+00:00:45.379 --> 00:00:54.290 
+bottom we're going to type the game
+logic<00:00:46.789> set<00:00:48.140> logic<00:00:51.079> tic<00:00:52.079> rate<00:00:52.559> and<00:00:53.090> then<00:00:54.090> we're
+
+00:00:54.290 --> 00:00:54.300 
+logic set logic tic rate and then we're
+
+00:00:54.300 --> 00:00:58.459 
+logic set logic tic rate and then we're
+going<00:00:54.510> to<00:00:54.629> put<00:00:54.780> 30<00:00:55.489> this<00:00:56.489> is<00:00:56.670> going<00:00:56.850> to<00:00:56.969> cut<00:00:57.780> how
+
+00:00:58.459 --> 00:00:58.469 
+going to put 30 this is going to cut how
+
+00:00:58.469 --> 00:01:02.840 
+going to put 30 this is going to cut how
+many<00:00:58.680> times<00:00:59.010> the<00:01:00.000> game<00:01:00.570> is<00:01:00.870> checking<00:01:01.590> the<00:01:02.550> game
+
+00:01:02.840 --> 00:01:02.850 
+many times the game is checking the game
+
+00:01:02.850 --> 00:01:05.149 
+many times the game is checking the game
+logic<00:01:03.359> so<00:01:03.899> in<00:01:04.140> its<00:01:04.500> going<00:01:04.680> to<00:01:04.739> cut<00:01:04.949> it<00:01:05.040> in<00:01:05.129> half
+
+00:01:05.149 --> 00:01:05.159 
+logic so in its going to cut it in half
+
+00:01:05.159 --> 00:01:07.370 
+logic so in its going to cut it in half
+so<00:01:05.820> this<00:01:05.970> is<00:01:06.000> going<00:01:06.240> to<00:01:06.330> pretty<00:01:06.659> much<00:01:06.840> almost
+
+00:01:07.370 --> 00:01:07.380 
+so this is going to pretty much almost
+
+00:01:07.380 --> 00:01:11.359 
+so this is going to pretty much almost
+double<00:01:08.130> our<00:01:08.280> frame<00:01:08.549> way<00:01:08.760> so<00:01:09.740> let's<00:01:10.740> just<00:01:11.159> start
+
+00:01:11.359 --> 00:01:11.369 
+double our frame way so let's just start
+
+00:01:11.369 --> 00:01:14.420 
+double our frame way so let's just start
+up<00:01:11.490> the<00:01:11.610> game<00:01:11.760> engine<00:01:12.119> here<00:01:12.390> and<00:01:12.890> right<00:01:13.890> now<00:01:13.920> I
+
+00:01:14.420 --> 00:01:14.430 
+up the game engine here and right now I
+
+00:01:14.430 --> 00:01:19.280 
+up the game engine here and right now I
+am<00:01:14.610> running<00:01:15.090> it<00:01:15.390> at<00:01:16.820> 14<00:01:17.820> just<00:01:18.240> about<00:01:18.420> 14<00:01:18.960> frames
+
+00:01:19.280 --> 00:01:19.290 
+am running it at 14 just about 14 frames
+
+00:01:19.290 --> 00:01:22.370 
+am running it at 14 just about 14 frames
+per<00:01:19.619> second<00:01:20.100> and<00:01:20.220> this<00:01:20.369> is<00:01:20.580> with<00:01:20.790> my<00:01:21.380> Camtasia
+
+00:01:22.370 --> 00:01:22.380 
+per second and this is with my Camtasia
+
+00:01:22.380 --> 00:01:25.160 
+per second and this is with my Camtasia
+recorder<00:01:23.220> going<00:01:24.060> and<00:01:24.390> that<00:01:24.509> kind<00:01:24.869> of<00:01:24.930> kills
+
+00:01:25.160 --> 00:01:25.170 
+recorder going and that kind of kills
+
+00:01:25.170 --> 00:01:27.830 
+recorder going and that kind of kills
+the<00:01:25.350> frame<00:01:25.590> rate<00:01:25.830> too<00:01:26.070> so<00:01:26.909> now<00:01:27.420> we're<00:01:27.659> going<00:01:27.780> to
+
+00:01:27.830 --> 00:01:27.840 
+the frame rate too so now we're going to
+
+00:01:27.840 --> 00:01:31.010 
+the frame rate too so now we're going to
+lower<00:01:28.680> the<00:01:28.920> physics<00:01:29.460> a<00:01:29.579> little<00:01:29.850> bit<00:01:30.000> game<00:01:30.750> lot
+
+00:01:31.010 --> 00:01:31.020 
+lower the physics a little bit game lot
+
+00:01:31.020 --> 00:01:33.499 
+lower the physics a little bit game lot
+we're<00:01:31.590> going<00:01:31.680> to<00:01:31.770> type<00:01:32.189> after<00:01:32.430> that<00:01:32.729> game
+
+00:01:33.499 --> 00:01:33.509 
+we're going to type after that game
+
+00:01:33.509 --> 00:01:39.469 
+we're going to type after that game
+logic<00:01:34.049> dot<00:01:34.439> set<00:01:35.570> physics<00:01:36.650> tick<00:01:37.650> rate<00:01:38.479> and
+
+00:01:39.469 --> 00:01:39.479 
+logic dot set physics tick rate and
+
+00:01:39.479 --> 00:01:41.710 
+logic dot set physics tick rate and
+we're<00:01:39.630> going<00:01:39.750> to<00:01:39.780> set<00:01:39.990> it<00:01:40.020> to<00:01:40.200> 30
+
+00:01:41.710 --> 00:01:41.720 
+we're going to set it to 30
+
+00:01:41.720 --> 00:01:44.490 
+we're going to set it to 30
+and<00:01:41.810> now<00:01:42.560> let's<00:01:42.800> start<00:01:43.070> up<00:01:43.160> the<00:01:43.280> game<00:01:43.400> engine
+
+00:01:44.490 --> 00:01:44.500 
+and now let's start up the game engine
+
+00:01:44.500 --> 00:01:48.400 
+and now let's start up the game engine
+now<00:01:45.500> I'm<00:01:45.740> I'm<00:01:46.520> running<00:01:47.030> it<00:01:47.150> at<00:01:47.300> 14<00:01:47.870> frames<00:01:48.140> per
+
+00:01:48.400 --> 00:01:48.410 
+now I'm I'm running it at 14 frames per
+
+00:01:48.410 --> 00:01:52.210 
+now I'm I'm running it at 14 frames per
+second<00:01:48.830> still<00:01:49.210> but<00:01:50.410> you<00:01:51.410> will<00:01:51.620> be<00:01:51.650> running<00:01:52.010> it
+
+00:01:52.210 --> 00:01:52.220 
+second still but you will be running it
+
+00:01:52.220 --> 00:01:55.060 
+second still but you will be running it
+probably<00:01:52.790> like<00:01:53.120> 30<00:01:53.570> frames<00:01:53.930> per<00:01:54.080> second<00:01:54.590> just
+
+00:01:55.060 --> 00:01:55.070 
+probably like 30 frames per second just
+
+00:01:55.070 --> 00:01:58.450 
+probably like 30 frames per second just
+because<00:01:55.690> i<00:01:56.690> have<00:01:57.230> my<00:01:57.440> recorder<00:01:57.950> going<00:01:58.130> and
+
+00:01:58.450 --> 00:01:58.460 
+because i have my recorder going and
+
+00:01:58.460 --> 00:02:00.790 
+because i have my recorder going and
+that<00:01:58.670> just<00:01:59.030> it's<00:01:59.270> it's<00:01:59.630> just<00:01:59.960> like<00:02:00.140> youtube<00:02:00.590> it
+
+00:02:00.790 --> 00:02:00.800 
+that just it's it's just like youtube it
+
+00:02:00.800 --> 00:02:04.480 
+that just it's it's just like youtube it
+kind<00:02:00.950> of<00:02:01.010> kills<00:02:01.310> everything<00:02:01.700> but<00:02:03.040> so<00:02:04.040> there's
+
+00:02:04.480 --> 00:02:04.490 
+kind of kills everything but so there's
+
+00:02:04.490 --> 00:02:07.420 
+kind of kills everything but so there's
+that<00:02:04.700> so<00:02:05.240> now<00:02:05.990> a<00:02:06.020> lot<00:02:06.530> of<00:02:06.560> you<00:02:06.800> wanted<00:02:07.100> to<00:02:07.250> know
+
+00:02:07.420 --> 00:02:07.430 
+that so now a lot of you wanted to know
+
+00:02:07.430 --> 00:02:13.810 
+that so now a lot of you wanted to know
+how<00:02:07.730> to<00:02:07.929> add<00:02:08.929> a<00:02:09.800> a<00:02:11.680> crosshair<00:02:12.680> so<00:02:13.010> let's<00:02:13.460> do
+
+00:02:13.810 --> 00:02:13.820 
+how to add a a crosshair so let's do
+
+00:02:13.820 --> 00:02:17.130 
+how to add a a crosshair so let's do
+that<00:02:13.850> real<00:02:14.209> quick<00:02:14.270> so<00:02:15.200> i'm<00:02:15.560> going<00:02:15.890> to<00:02:16.160> put<00:02:16.910> our
+
+00:02:17.130 --> 00:02:17.140 
+that real quick so i'm going to put our
+
+00:02:17.140 --> 00:02:21.640 
+that real quick so i'm going to put our
+cursor<00:02:18.140> right<00:02:18.410> in<00:02:18.950> front<00:02:19.340> of<00:02:19.610> our<00:02:20.090> camera<00:02:21.080> just
+
+00:02:21.640 --> 00:02:21.650 
+cursor right in front of our camera just
+
+00:02:21.650 --> 00:02:26.800 
+cursor right in front of our camera just
+in<00:02:21.830> there<00:02:22.250> a<00:02:22.280> little<00:02:22.490> bit<00:02:24.310> ok<00:02:25.310> now<00:02:26.120> we're<00:02:26.750> going
+
+00:02:26.800 --> 00:02:26.810 
+in there a little bit ok now we're going
+
+00:02:26.810 --> 00:02:28.330 
+in there a little bit ok now we're going
+to<00:02:26.959> go<00:02:27.020> into<00:02:27.260> the<00:02:27.410> camera<00:02:27.650> view<00:02:27.800> when<00:02:28.130> i<00:02:28.160> go<00:02:28.310> to
+
+00:02:28.330 --> 00:02:28.340 
+to go into the camera view when i go to
+
+00:02:28.340 --> 00:02:31.449 
+to go into the camera view when i go to
+we're<00:02:29.060> going<00:02:29.180> to<00:02:29.240> press<00:02:29.450> space<00:02:29.870> add<00:02:30.459> mesh
+
+00:02:31.449 --> 00:02:31.459 
+we're going to press space add mesh
+
+00:02:31.459 --> 00:02:35.530 
+we're going to press space add mesh
+plane<00:02:32.320> we're<00:02:33.320> going<00:02:33.650> to<00:02:33.830> size<00:02:34.250> it<00:02:34.520> down<00:02:34.550> like
+
+00:02:35.530 --> 00:02:35.540 
+plane we're going to size it down like
+
+00:02:35.540 --> 00:02:40.060 
+plane we're going to size it down like
+quite<00:02:36.260> a<00:02:36.290> bit<00:02:36.620> a<00:02:36.860> little<00:02:37.690> bit<00:02:38.690> more<00:02:39.010> now<00:02:40.010> we
+
+00:02:40.060 --> 00:02:40.070 
+quite a bit a little bit more now we
+
+00:02:40.070 --> 00:02:46.650 
+quite a bit a little bit more now we
+need<00:02:40.640> to<00:02:42.220> go<00:02:43.220> into<00:02:43.520> our<00:02:44.000> UV<00:02:44.959> mapper<00:02:45.590> and
+
+00:02:46.650 --> 00:02:46.660 
+need to go into our UV mapper and
+
+00:02:46.660 --> 00:02:52.320 
+need to go into our UV mapper and
+already<00:02:47.660> have<00:02:47.900> this<00:02:48.440> up<00:02:48.709> here<00:02:48.980> and<00:02:49.330> if<00:02:50.330> if<00:02:51.200> the
+
+00:02:52.320 --> 00:02:52.330 
+already have this up here and if if the
+
+00:02:52.330 --> 00:02:56.680 
+already have this up here and if if the
+texture<00:02:53.330> doesn't<00:02:53.600> show<00:02:53.750> up<00:02:53.780> go<00:02:54.380> into<00:02:54.830> the<00:02:55.730> just
+
+00:02:56.680 --> 00:02:56.690 
+texture doesn't show up go into the just
+
+00:02:56.690 --> 00:03:00.040 
+texture doesn't show up go into the just
+press<00:02:56.900> f9<00:02:57.170> and<00:02:57.769> go<00:02:58.430> to<00:02:58.489> UV<00:02:59.120> texture<00:02:59.510> and<00:02:59.780> click
+
+00:03:00.040 --> 00:03:00.050 
+press f9 and go to UV texture and click
+
+00:03:00.050 --> 00:03:03.160 
+press f9 and go to UV texture and click
+new<00:03:00.410> now<00:03:01.250> we<00:03:01.310> can<00:03:01.610> go<00:03:01.820> back<00:03:02.090> to<00:03:02.330> our<00:03:02.570> crosshair
+
+00:03:03.160 --> 00:03:03.170 
+new now we can go back to our crosshair
+
+00:03:03.170 --> 00:03:07.300 
+new now we can go back to our crosshair
+and<00:03:03.290> there<00:03:03.980> we<00:03:04.100> go<00:03:04.330> so<00:03:05.330> um<00:03:05.860> we're<00:03:06.860> going<00:03:07.130> to
+
+00:03:07.300 --> 00:03:07.310 
+and there we go so um we're going to
+
+00:03:07.310 --> 00:03:09.880 
+and there we go so um we're going to
+size<00:03:07.550> it<00:03:07.790> down<00:03:07.820> a<00:03:07.970> little<00:03:08.180> bit<00:03:08.360> more<00:03:08.660> i<00:03:08.900> am
+
+00:03:09.880 --> 00:03:09.890 
+size it down a little bit more i am
+
+00:03:09.890 --> 00:03:15.430 
+size it down a little bit more i am
+going<00:03:10.370> to<00:03:10.489> parent<00:03:11.299> it<00:03:11.510> to<00:03:11.930> the<00:03:12.790> camera<00:03:14.049> so<00:03:15.049> now
+
+00:03:15.430 --> 00:03:15.440 
+going to parent it to the camera so now
+
+00:03:15.440 --> 00:03:19.020 
+going to parent it to the camera so now
+we<00:03:15.500> have<00:03:15.650> that<00:03:16.660> now<00:03:17.660> we<00:03:17.720> have<00:03:17.900> our<00:03:17.930> cross<00:03:18.320> hair
+
+00:03:19.020 --> 00:03:19.030 
+we have that now we have our cross hair
+
+00:03:19.030 --> 00:03:28.840 
+we have that now we have our cross hair
+so<00:03:20.170> now<00:03:21.170> we<00:03:21.260> can<00:03:21.680> set<00:03:22.340> up<00:03:26.110> ar-ar-ar<00:03:27.670> we'll<00:03:28.670> just
+
+00:03:28.840 --> 00:03:28.850 
+so now we can set up ar-ar-ar we'll just
+
+00:03:28.850 --> 00:03:31.000 
+so now we can set up ar-ar-ar we'll just
+set<00:03:29.570> up<00:03:29.720> much
+
+00:03:31.000 --> 00:03:31.010 
+set up much
+
+00:03:31.010 --> 00:03:36.280 
+set up much
+so<00:03:31.730> we<00:03:32.180> need<00:03:32.540> to<00:03:32.780> go<00:03:33.590> and<00:03:33.950> put<00:03:34.939> the<00:03:35.090> cursor<00:03:35.599> the
+
+00:03:36.280 --> 00:03:36.290 
+so we need to go and put the cursor the
+
+00:03:36.290 --> 00:03:40.149 
+so we need to go and put the cursor the
+cursor<00:03:36.709> is<00:03:36.920> already<00:03:37.599> like<00:03:38.599> right<00:03:39.110> next<00:03:39.739> to
+
+00:03:40.149 --> 00:03:40.159 
+cursor is already like right next to
+
+00:03:40.159 --> 00:03:44.860 
+cursor is already like right next to
+thee<00:03:41.170> to<00:03:42.170> the<00:03:42.640> crosshair<00:03:43.640> which<00:03:44.360> is<00:03:44.569> going<00:03:44.750> to
+
+00:03:44.860 --> 00:03:44.870 
+thee to the crosshair which is going to
+
+00:03:44.870 --> 00:03:46.539 
+thee to the crosshair which is going to
+be<00:03:44.989> right<00:03:45.349> there<00:03:45.590> I'll<00:03:45.709> zoom<00:03:45.920> in<00:03:46.099> for<00:03:46.280> you<00:03:46.340> guys
+
+00:03:46.539 --> 00:03:46.549 
+be right there I'll zoom in for you guys
+
+00:03:46.549 --> 00:03:51.330 
+be right there I'll zoom in for you guys
+and<00:03:46.819> we<00:03:47.659> need<00:03:47.780> to<00:03:47.870> go<00:03:47.959> to<00:03:48.019> space<00:03:48.409> add<00:03:48.940> empty<00:03:49.940> and
+
+00:03:51.330 --> 00:03:51.340 
+and we need to go to space add empty and
+
+00:03:51.340 --> 00:03:55.630 
+and we need to go to space add empty and
+it<00:03:52.750> got<00:03:53.750> to<00:03:53.870> zoom<00:03:54.019> out<00:03:54.200> a<00:03:54.260> little<00:03:54.319> bit<00:03:54.560> there<00:03:54.799> so
+
+00:03:55.630 --> 00:03:55.640 
+it got to zoom out a little bit there so
+
+00:03:55.640 --> 00:04:01.199 
+it got to zoom out a little bit there so
+there<00:03:56.540> we<00:03:56.720> go<00:03:56.750> and<00:03:57.140> you<00:03:57.799> should<00:03:58.069> have<00:03:59.079> one<00:04:00.079> axis
+
+00:04:01.199 --> 00:04:01.209 
+there we go and you should have one axis
+
+00:04:01.209 --> 00:04:05.710 
+there we go and you should have one axis
+pointing<00:04:02.209> at<00:04:02.450> either<00:04:03.400> back<00:04:04.400> of<00:04:04.700> you<00:04:05.060> or<00:04:05.299> net<00:04:05.540> or
+
+00:04:05.710 --> 00:04:05.720 
+pointing at either back of you or net or
+
+00:04:05.720 --> 00:04:07.599 
+pointing at either back of you or net or
+in<00:04:06.049> front<00:04:06.440> of<00:04:06.620> you<00:04:06.769> so<00:04:07.010> right<00:04:07.280> now<00:04:07.310> I've<00:04:07.579> got
+
+00:04:07.599 --> 00:04:07.609 
+in front of you so right now I've got
+
+00:04:07.609 --> 00:04:10.930 
+in front of you so right now I've got
+the<00:04:07.970> x<00:04:08.870> axis<00:04:09.620> pointing<00:04:10.010> in<00:04:10.159> back<00:04:10.400> of<00:04:10.430> me<00:04:10.760> I'll
+
+00:04:10.930 --> 00:04:10.940 
+the x axis pointing in back of me I'll
+
+00:04:10.940 --> 00:04:13.740 
+the x axis pointing in back of me I'll
+back<00:04:11.629> of<00:04:11.780> the<00:04:11.840> player<00:04:12.079> so<00:04:12.409> I'm<00:04:12.620> going<00:04:12.980> to<00:04:13.040> just
+
+00:04:13.740 --> 00:04:13.750 
+back of the player so I'm going to just
+
+00:04:13.750 --> 00:04:19.599 
+back of the player so I'm going to just
+parent<00:04:14.750> this<00:04:16.209> the<00:04:17.709> empty<00:04:18.709> we<00:04:18.889> just<00:04:19.070> added<00:04:19.250> to
+
+00:04:19.599 --> 00:04:19.609 
+parent this the empty we just added to
+
+00:04:19.609 --> 00:04:23.439 
+parent this the empty we just added to
+the<00:04:20.060> crosshair<00:04:20.840> so<00:04:21.799> now<00:04:21.889> we've<00:04:22.070> got<00:04:22.280> that<00:04:22.520> now
+
+00:04:23.439 --> 00:04:23.449 
+the crosshair so now we've got that now
+
+00:04:23.449 --> 00:04:26.439 
+the crosshair so now we've got that now
+we<00:04:23.510> need<00:04:23.660> to<00:04:23.840> click<00:04:24.530> on<00:04:24.770> just<00:04:25.490> only<00:04:25.970> on<00:04:26.150> the
+
+00:04:26.439 --> 00:04:26.449 
+we need to click on just only on the
+
+00:04:26.449 --> 00:04:29.860 
+we need to click on just only on the
+empty<00:04:27.260> we<00:04:27.440> just<00:04:27.710> added<00:04:27.970> we<00:04:28.970> are<00:04:29.030> going<00:04:29.300> to<00:04:29.539> add
+
+00:04:29.860 --> 00:04:29.870 
+empty we just added we are going to add
+
+00:04:29.870 --> 00:04:35.020 
+empty we just added we are going to add
+a<00:04:31.120> sensor<00:04:32.120> and<00:04:33.070> it's<00:04:34.070> going<00:04:34.430> to<00:04:34.580> be<00:04:34.729> a<00:04:34.760> race
+
+00:04:35.020 --> 00:04:35.030 
+a sensor and it's going to be a race
+
+00:04:35.030 --> 00:04:38.050 
+a sensor and it's going to be a race
+answer<00:04:35.570> we're<00:04:36.440> going<00:04:36.590> to<00:04:36.650> look<00:04:37.220> for<00:04:37.280> property
+
+00:04:38.050 --> 00:04:38.060 
+answer we're going to look for property
+
+00:04:38.060 --> 00:04:41.770 
+answer we're going to look for property
+of<00:04:38.270> an<00:04:38.539> object<00:04:39.010> this<00:04:40.010> is<00:04:40.419> you'll<00:04:41.419> see<00:04:41.630> what
+
+00:04:41.770 --> 00:04:41.780 
+of an object this is you'll see what
+
+00:04:41.780 --> 00:04:43.480 
+of an object this is you'll see what
+we're<00:04:41.900> doing<00:04:42.139> this<00:04:42.260> later<00:04:42.560> we're<00:04:43.310> going<00:04:43.400> to
+
+00:04:43.480 --> 00:04:43.490 
+we're doing this later we're going to
+
+00:04:43.490 --> 00:04:46.240 
+we're doing this later we're going to
+call<00:04:43.760> this<00:04:43.789> um<00:04:44.710> we're<00:04:45.710> just<00:04:45.830> going<00:04:45.949> to<00:04:46.010> call
+
+00:04:46.240 --> 00:04:46.250 
+call this um we're just going to call
+
+00:04:46.250 --> 00:04:51.010 
+call this um we're just going to call
+this<00:04:46.930> the<00:04:47.930> ray<00:04:48.400> just<00:04:49.400> for<00:04:49.849> being<00:04:50.479> a<00:04:50.599> little<00:04:50.750> big
+
+00:04:51.010 --> 00:04:51.020 
+this the ray just for being a little big
+
+00:04:51.020 --> 00:04:53.080 
+this the ray just for being a little big
+there<00:04:51.260> and<00:04:51.470> we're<00:04:52.370> going<00:04:52.490> to<00:04:52.520> set<00:04:52.729> the<00:04:52.849> range
+
+00:04:53.080 --> 00:04:53.090 
+there and we're going to set the range
+
+00:04:53.090 --> 00:04:57.550 
+there and we're going to set the range
+to<00:04:53.510> like<00:04:54.160> 150<00:04:55.160> and<00:04:55.449> we're<00:04:56.449> going<00:04:56.780> to<00:04:56.990> set<00:04:57.530> it
+
+00:04:57.550 --> 00:04:57.560 
+to like 150 and we're going to set it
+
+00:04:57.560 --> 00:05:00.580 
+to like 150 and we're going to set it
+for<00:04:58.490> me<00:04:58.639> it's<00:04:58.910> the<00:04:59.120> negative<00:04:59.599> x<00:04:59.840> axis<00:05:00.349> because
+
+00:05:00.580 --> 00:05:00.590 
+for me it's the negative x axis because
+
+00:05:00.590 --> 00:05:05.560 
+for me it's the negative x axis because
+we<00:05:00.889> want<00:05:01.070> it<00:05:01.160> to<00:05:01.310> go<00:05:01.460> forward<00:05:02.000> and<00:05:04.210> yeah<00:05:05.210> make
+
+00:05:05.560 --> 00:05:05.570 
+we want it to go forward and yeah make
+
+00:05:05.570 --> 00:05:09.219 
+we want it to go forward and yeah make
+sure<00:05:05.599> that<00:05:06.260> if<00:05:06.490> if<00:05:07.490> you<00:05:07.729> can<00:05:07.880> visualize<00:05:08.229> the
+
+00:05:09.219 --> 00:05:09.229 
+sure that if if you can visualize the
+
+00:05:09.229 --> 00:05:12.400 
+sure that if if you can visualize the
+negative<00:05:09.620> x<00:05:09.830> axis<00:05:10.340> this<00:05:10.880> right<00:05:11.240> here<00:05:11.570> it<00:05:11.750> would
+
+00:05:12.400 --> 00:05:12.410 
+negative x axis this right here it would
+
+00:05:12.410 --> 00:05:16.779 
+negative x axis this right here it would
+be<00:05:12.590> going<00:05:12.949> that<00:05:13.550> way<00:05:13.930> so<00:05:14.930> make<00:05:15.349> sure<00:05:15.380> it<00:05:15.949> the<00:05:16.490> it
+
+00:05:16.779 --> 00:05:16.789 
+be going that way so make sure it the it
+
+00:05:16.789 --> 00:05:20.529 
+be going that way so make sure it the it
+would<00:05:17.210> not<00:05:17.449> be<00:05:17.830> hitting<00:05:18.830> any<00:05:19.099> guns<00:05:19.940> or<00:05:20.150> nothing
+
+00:05:20.529 --> 00:05:20.539 
+would not be hitting any guns or nothing
+
+00:05:20.539 --> 00:05:23.469 
+would not be hitting any guns or nothing
+and<00:05:20.690> it's<00:05:21.080> not<00:05:21.320> as<00:05:21.500> in<00:05:21.650> not<00:05:21.979> in<00:05:22.070> the<00:05:22.130> way<00:05:22.310> so<00:05:23.180> I'm
+
+00:05:23.469 --> 00:05:23.479 
+and it's not as in not in the way so I'm
+
+00:05:23.479 --> 00:05:26.170 
+and it's not as in not in the way so I'm
+going<00:05:23.630> to<00:05:23.690> set<00:05:23.930> this<00:05:24.139> to<00:05:24.440> negative<00:05:25.099> x<00:05:25.340> axis<00:05:26.000> and
+
+00:05:26.170 --> 00:05:26.180 
+going to set this to negative x axis and
+
+00:05:26.180 --> 00:05:28.659 
+going to set this to negative x axis and
+we're<00:05:26.479> going<00:05:26.599> to<00:05:26.659> check<00:05:27.530> this<00:05:27.770> dot<00:05:28.099> dot<00:05:28.400> dot
+
+00:05:28.659 --> 00:05:28.669 
+we're going to check this dot dot dot
+
+00:05:28.669 --> 00:05:32.999 
+we're going to check this dot dot dot
+here
+
+00:05:32.999 --> 00:05:33.009 
+
+00:05:33.009 --> 00:05:38.020 
+
+okay<00:05:34.009> so<00:05:34.069> now<00:05:35.259> we<00:05:36.259> are<00:05:36.500> going<00:05:37.069> to<00:05:37.370> set<00:05:37.669> up<00:05:37.819> our
+
+00:05:38.020 --> 00:05:38.030 
+okay so now we are going to set up our
+
+00:05:38.030 --> 00:05:44.350 
+okay so now we are going to set up our
+basic<00:05:39.460> oh<00:05:40.599> wait<00:05:41.599> I<00:05:41.810> forgot<00:05:42.050> we<00:05:42.410> need<00:05:42.560> to<00:05:42.710> add<00:05:43.360> we
+
+00:05:44.350 --> 00:05:44.360 
+basic oh wait I forgot we need to add we
+
+00:05:44.360 --> 00:05:46.900 
+basic oh wait I forgot we need to add we
+need<00:05:44.479> to<00:05:44.569> go<00:05:44.720> into<00:05:44.930> another<00:05:45.500> layer<00:05:45.860> I<00:05:46.130> think<00:05:46.759> we
+
+00:05:46.900 --> 00:05:46.910 
+need to go into another layer I think we
+
+00:05:46.910 --> 00:05:48.159 
+need to go into another layer I think we
+already<00:05:47.030> did<00:05:47.270> this<00:05:47.419> and<00:05:47.690> one<00:05:47.930> of<00:05:48.020> the<00:05:48.110> other
+
+00:05:48.159 --> 00:05:48.169 
+already did this and one of the other
+
+00:05:48.169 --> 00:05:52.510 
+already did this and one of the other
+tutorials<00:05:48.860> but<00:05:49.669> we<00:05:49.819> are<00:05:49.940> going<00:05:50.330> to<00:05:50.919> we<00:05:51.919> I<00:05:52.130> just
+
+00:05:52.510 --> 00:05:52.520 
+tutorials but we are going to we I just
+
+00:05:52.520 --> 00:05:58.210 
+tutorials but we are going to we I just
+basically<00:05:53.000> added<00:05:53.569> a<00:05:54.160> cube<00:05:55.160> and<00:05:56.830> put<00:05:57.830> check
+
+00:05:58.210 --> 00:05:58.220 
+basically added a cube and put check
+
+00:05:58.220 --> 00:06:00.700 
+basically added a cube and put check
+actor<00:05:58.759> and<00:05:59.030> dynamic<00:05:59.630> and<00:05:59.810> made<00:06:00.020> the<00:06:00.229> radius
+
+00:06:00.700 --> 00:06:00.710 
+actor and dynamic and made the radius
+
+00:06:00.710 --> 00:06:03.790 
+actor and dynamic and made the radius
+like<00:06:01.250> five<00:06:01.910> times<00:06:02.270> bigger<00:06:02.599> than<00:06:02.780> the<00:06:03.110> cube
+
+00:06:03.790 --> 00:06:03.800 
+like five times bigger than the cube
+
+00:06:03.800 --> 00:06:05.830 
+like five times bigger than the cube
+make<00:06:04.370> sure<00:06:04.400> the<00:06:04.699> cube<00:06:04.970> is<00:06:05.120> fairly<00:06:05.389> small
+
+00:06:05.830 --> 00:06:05.840 
+make sure the cube is fairly small
+
+00:06:05.840 --> 00:06:07.450 
+make sure the cube is fairly small
+though<00:06:06.080> as<00:06:06.289> this<00:06:06.470> is<00:06:06.650> going<00:06:06.860> to<00:06:07.009> act<00:06:07.160> as<00:06:07.340> our
+
+00:06:07.450 --> 00:06:07.460 
+though as this is going to act as our
+
+00:06:07.460 --> 00:06:13.890 
+though as this is going to act as our
+bullet<00:06:07.880> so<00:06:08.810> I'm<00:06:09.289> going<00:06:09.770> to<00:06:09.830> click<00:06:10.639> back<00:06:10.940> on<00:06:11.479> our
+
+00:06:13.890 --> 00:06:13.900 
+bullet so I'm going to click back on our
+
+00:06:13.900 --> 00:06:16.749 
+bullet so I'm going to click back on our
+empty<00:06:14.900> there<00:06:15.139> that<00:06:15.349> we<00:06:15.470> just<00:06:15.650> created<00:06:15.860> I'm
+
+00:06:16.749 --> 00:06:16.759 
+empty there that we just created I'm
+
+00:06:16.759 --> 00:06:20.409 
+empty there that we just created I'm
+going<00:06:16.910> to<00:06:17.000> go<00:06:17.150> ad<00:06:17.449> an<00:06:17.750> actuator<00:06:18.289> and<00:06:18.970> I'm<00:06:19.970> going
+
+00:06:20.409 --> 00:06:20.419 
+going to go ad an actuator and I'm going
+
+00:06:20.419 --> 00:06:23.290 
+going to go ad an actuator and I'm going
+to<00:06:20.630> go<00:06:20.900> to<00:06:20.960> edit<00:06:21.380> object<00:06:21.919> make<00:06:22.729> sure<00:06:22.940> that's<00:06:23.090> to
+
+00:06:23.290 --> 00:06:23.300 
+to go to edit object make sure that's to
+
+00:06:23.300 --> 00:06:26.350 
+to go to edit object make sure that's to
+add<00:06:23.419> object<00:06:23.990> and<00:06:24.199> we're<00:06:25.009> going<00:06:25.130> to<00:06:25.190> go<00:06:25.400> to<00:06:25.430> type
+
+00:06:26.350 --> 00:06:26.360 
+add object and we're going to go to type
+
+00:06:26.360 --> 00:06:30.010 
+add object and we're going to go to type
+in<00:06:26.599> bullet<00:06:27.319> here<00:06:27.620> is<00:06:27.770> the<00:06:28.159> name<00:06:28.370> and<00:06:29.020> we're
+
+00:06:30.010 --> 00:06:30.020 
+in bullet here is the name and we're
+
+00:06:30.020 --> 00:06:32.790 
+in bullet here is the name and we're
+going<00:06:30.139> to<00:06:30.199> set<00:06:30.440> the<00:06:30.560> time<00:06:30.800> to<00:06:31.159> like<00:06:31.449> four
+
+00:06:32.790 --> 00:06:32.800 
+going to set the time to like four
+
+00:06:32.800 --> 00:06:35.670 
+going to set the time to like four
+they're<00:06:33.800> actually<00:06:34.490> two<00:06:34.759> would<00:06:34.909> be<00:06:35.030> better<00:06:35.180> and
+
+00:06:35.670 --> 00:06:35.680 
+they're actually two would be better and
+
+00:06:35.680 --> 00:06:38.499 
+they're actually two would be better and
+don't<00:06:36.680> set<00:06:37.039> any<00:06:37.250> of<00:06:37.400> these<00:06:37.520> here<00:06:37.849> we're<00:06:38.389> going
+
+00:06:38.499 --> 00:06:38.509 
+don't set any of these here we're going
+
+00:06:38.509 --> 00:06:45.580 
+don't set any of these here we're going
+to<00:06:38.570> call<00:06:38.840> this<00:06:39.050> ad<00:06:42.039> fold<00:06:43.039> it<00:06:43.810> so<00:06:44.810> now<00:06:45.199> we've<00:06:45.380> got
+
+00:06:45.580 --> 00:06:45.590 
+to call this ad fold it so now we've got
+
+00:06:45.590 --> 00:06:50.499 
+to call this ad fold it so now we've got
+that<00:06:45.860> and<00:06:48.009> now<00:06:49.009> just<00:06:49.340> to<00:06:49.520> let<00:06:49.639> you<00:06:49.789> guys<00:06:49.820> know<00:06:50.240> a
+
+00:06:50.499 --> 00:06:50.509 
+that and now just to let you guys know a
+
+00:06:50.509 --> 00:06:52.990 
+that and now just to let you guys know a
+lot<00:06:51.229> of<00:06:51.259> other<00:06:51.530> FPS<00:06:51.800> tutorials<00:06:52.610> you've<00:06:52.789> got
+
+00:06:52.990 --> 00:06:53.000 
+lot of other FPS tutorials you've got
+
+00:06:53.000 --> 00:06:56.350 
+lot of other FPS tutorials you've got
+bowls<00:06:53.360> that<00:06:53.570> are<00:06:53.719> coming<00:06:54.080> out<00:06:54.169> of<00:06:54.310> the<00:06:55.360> that
+
+00:06:56.350 --> 00:06:56.360 
+bowls that are coming out of the that
+
+00:06:56.360 --> 00:06:58.240 
+bowls that are coming out of the that
+are<00:06:56.509> just<00:06:56.659> coming<00:06:56.870> out<00:06:57.050> of<00:06:57.110> empties<00:06:57.590> it's<00:06:57.949> not
+
+00:06:58.240 --> 00:06:58.250 
+are just coming out of empties it's not
+
+00:06:58.250 --> 00:07:00.490 
+are just coming out of empties it's not
+going<00:06:58.370> to<00:06:58.460> happen<00:06:58.610> here<00:06:59.030> don't<00:06:59.599> don't<00:06:59.930> just
+
+00:07:00.490 --> 00:07:00.500 
+going to happen here don't don't just
+
+00:07:00.500 --> 00:07:02.170 
+going to happen here don't don't just
+stop<00:07:00.710> this<00:07:00.919> tutorial<00:07:01.490> because<00:07:01.820> you've
+
+00:07:02.170 --> 00:07:02.180 
+stop this tutorial because you've
+
+00:07:02.180 --> 00:07:03.879 
+stop this tutorial because you've
+already<00:07:02.360> done<00:07:02.630> this<00:07:02.810> before<00:07:03.199> you<00:07:03.380> have<00:07:03.650> not
+
+00:07:03.879 --> 00:07:03.889 
+already done this before you have not
+
+00:07:03.889 --> 00:07:08.050 
+already done this before you have not
+this<00:07:04.550> is<00:07:04.789> of<00:07:05.060> this<00:07:05.960> is<00:07:06.110> going<00:07:06.259> to<00:07:06.320> be<00:07:06.469> a<00:07:06.889> this<00:07:07.400> is
+
+00:07:08.050 --> 00:07:08.060 
+this is of this is going to be a this is
+
+00:07:08.060 --> 00:07:10.990 
+this is of this is going to be a this is
+I<00:07:08.270> actually<00:07:08.449> learned<00:07:08.810> this<00:07:08.990> way<00:07:09.229> from<00:07:10.000> socials
+
+00:07:10.990 --> 00:07:11.000 
+I actually learned this way from socials
+
+00:07:11.000 --> 00:07:16.120 
+I actually learned this way from socials
+FPS<00:07:11.479> tutorial<00:07:11.990> and<00:07:13.659> there<00:07:14.659> we<00:07:14.750> have<00:07:14.780> it<00:07:14.930> so<00:07:15.289> we
+
+00:07:16.120 --> 00:07:16.130 
+FPS tutorial and there we have it so we
+
+00:07:16.130 --> 00:07:19.149 
+FPS tutorial and there we have it so we
+are<00:07:16.190> going<00:07:16.460> to<00:07:16.729> go<00:07:17.180> into<00:07:17.389> text<00:07:17.840> editor<00:07:18.199> we're
+
+00:07:19.149 --> 00:07:19.159 
+are going to go into text editor we're
+
+00:07:19.159 --> 00:07:23.139 
+are going to go into text editor we're
+going<00:07:19.310> to<00:07:19.430> add<00:07:19.759> a<00:07:20.300> new<00:07:20.719> script
+

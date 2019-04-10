@@ -1,0 +1,399 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.220 --> 00:00:05.440 
+
+so<00:00:04.220> that<00:00:04.370> was<00:00:04.490> a<00:00:04.520> little<00:00:04.730> disappointing<00:00:05.330> we
+
+00:00:05.440 --> 00:00:05.450 
+so that was a little disappointing we
+
+00:00:05.450 --> 00:00:07.330 
+so that was a little disappointing we
+kind<00:00:05.660> of<00:00:05.720> took<00:00:05.840> a<00:00:05.900> step<00:00:05.990> back<00:00:06.380> our<00:00:06.800> speech<00:00:07.160> is
+
+00:00:07.330 --> 00:00:07.340 
+kind of took a step back our speech is
+
+00:00:07.340 --> 00:00:09.010 
+kind of took a step back our speech is
+no<00:00:07.490> longer<00:00:07.730> being<00:00:08.030> preserved<00:00:08.389> between<00:00:08.900> the
+
+00:00:09.010 --> 00:00:09.020 
+no longer being preserved between the
+
+00:00:09.020 --> 00:00:10.330 
+no longer being preserved between the
+flip<00:00:09.200> side<00:00:09.230> and<00:00:09.530> the<00:00:09.590> main<00:00:09.710> view<00:00:09.889> controllers
+
+00:00:10.330 --> 00:00:10.340 
+flip side and the main view controllers
+
+00:00:10.340 --> 00:00:12.039 
+flip side and the main view controllers
+so<00:00:10.610> let's<00:00:10.880> get<00:00:11.030> out<00:00:11.150> of<00:00:11.240> the<00:00:11.299> simulator<00:00:11.690> and
+
+00:00:12.039 --> 00:00:12.049 
+so let's get out of the simulator and
+
+00:00:12.049 --> 00:00:13.930 
+so let's get out of the simulator and
+let's<00:00:12.289> have<00:00:12.469> a<00:00:12.500> look<00:00:12.650> at<00:00:12.740> our<00:00:12.799> code<00:00:13.010> again<00:00:13.219> all
+
+00:00:13.930 --> 00:00:13.940 
+let's have a look at our code again all
+
+00:00:13.940 --> 00:00:17.260 
+let's have a look at our code again all
+we<00:00:14.270> did<00:00:14.450> was<00:00:14.510> write<00:00:14.900> our<00:00:15.049> own<00:00:15.230> setter<00:00:15.920> for<00:00:16.730> the
+
+00:00:17.260 --> 00:00:17.270 
+we did was write our own setter for the
+
+00:00:17.270 --> 00:00:19.029 
+we did was write our own setter for the
+new<00:00:17.390> speech<00:00:17.660> for<00:00:18.110> the<00:00:18.199> current<00:00:18.740> speech
+
+00:00:19.029 --> 00:00:19.039 
+new speech for the current speech
+
+00:00:19.039 --> 00:00:21.099 
+new speech for the current speech
+property<00:00:19.429> and<00:00:19.609> we<00:00:20.300> started<00:00:20.630> saving<00:00:20.840> it<00:00:21.019> to<00:00:21.080> a
+
+00:00:21.099 --> 00:00:21.109 
+property and we started saving it to a
+
+00:00:21.109 --> 00:00:23.589 
+property and we started saving it to a
+file<00:00:21.380> well<00:00:21.980> the<00:00:22.550> thing<00:00:22.730> we<00:00:22.880> didn't<00:00:23.179> do<00:00:23.300> is<00:00:23.480> we
+
+00:00:23.589 --> 00:00:23.599 
+file well the thing we didn't do is we
+
+00:00:23.599 --> 00:00:25.749 
+file well the thing we didn't do is we
+didn't<00:00:23.929> update<00:00:24.170> the<00:00:24.589> member<00:00:24.949> variable<00:00:25.369> which
+
+00:00:25.749 --> 00:00:25.759 
+didn't update the member variable which
+
+00:00:25.759 --> 00:00:27.970 
+didn't update the member variable which
+is<00:00:25.789> the<00:00:26.330> actual<00:00:26.929> storage<00:00:27.380> location<00:00:27.830> in<00:00:27.919> the
+
+00:00:27.970 --> 00:00:27.980 
+is the actual storage location in the
+
+00:00:27.980 --> 00:00:29.439 
+is the actual storage location in the
+object<00:00:28.099> so<00:00:28.429> what<00:00:28.939> we're<00:00:29.060> going<00:00:29.150> to<00:00:29.240> do<00:00:29.330> is
+
+00:00:29.439 --> 00:00:29.449 
+object so what we're going to do is
+
+00:00:29.449 --> 00:00:32.100 
+object so what we're going to do is
+current<00:00:29.779> speech<00:00:30.019> equals<00:00:30.589> new<00:00:30.949> speech<00:00:31.220> and
+
+00:00:32.100 --> 00:00:32.110 
+current speech equals new speech and
+
+00:00:32.110 --> 00:00:37.030 
+current speech equals new speech and
+save<00:00:33.110> that<00:00:33.350> and<00:00:33.680> let's<00:00:34.670> go<00:00:34.850> run<00:00:35.120> our<00:00:35.510> app<00:00:36.040> once
+
+00:00:37.030 --> 00:00:37.040 
+save that and let's go run our app once
+
+00:00:37.040 --> 00:00:38.650 
+save that and let's go run our app once
+again<00:00:37.280> we<00:00:37.430> go<00:00:37.550> in<00:00:37.700> here<00:00:37.970> and<00:00:38.000> say<00:00:38.330> you<00:00:38.390> know
+
+00:00:38.650 --> 00:00:38.660 
+again we go in here and say you know
+
+00:00:38.660 --> 00:00:44.800 
+again we go in here and say you know
+this<00:00:39.290> is<00:00:39.590> our<00:00:40.070> great<00:00:40.820> speech<00:00:41.480> and<00:00:42.400> be<00:00:43.400> done<00:00:43.810> now
+
+00:00:44.800 --> 00:00:44.810 
+this is our great speech and be done now
+
+00:00:44.810 --> 00:00:49.530 
+this is our great speech and be done now
+we<00:00:44.870> come<00:00:45.140> back<00:00:45.260> in<00:00:45.440> here<00:00:45.830> oh<00:00:47.230> it<00:00:48.230> crashed<00:00:48.770> I
+
+00:00:49.530 --> 00:00:49.540 
+we come back in here oh it crashed I
+
+00:00:49.540 --> 00:00:53.140 
+we come back in here oh it crashed I
+wonder<00:00:50.540> why<00:00:50.750> that<00:00:50.780> is<00:00:51.730> let's<00:00:52.730> go<00:00:52.880> ahead<00:00:52.910> and
+
+00:00:53.140 --> 00:00:53.150 
+wonder why that is let's go ahead and
+
+00:00:53.150 --> 00:00:56.920 
+wonder why that is let's go ahead and
+exit<00:00:54.020> the<00:00:54.050> simulator<00:00:54.560> well<00:00:55.280> I<00:00:55.630> will<00:00:56.630> make<00:00:56.900> a
+
+00:00:56.920 --> 00:00:56.930 
+exit the simulator well I will make a
+
+00:00:56.930 --> 00:00:58.240 
+exit the simulator well I will make a
+long<00:00:57.140> story<00:00:57.290> short<00:00:57.650> I<00:00:57.800> went<00:00:58.010> through<00:00:58.160> this
+
+00:00:58.240 --> 00:00:58.250 
+long story short I went through this
+
+00:00:58.250 --> 00:01:00.070 
+long story short I went through this
+problem<00:00:58.610> when<00:00:59.240> I<00:00:59.270> was<00:00:59.450> first<00:00:59.570> learning<00:00:59.750> iphone
+
+00:01:00.070 --> 00:01:00.080 
+problem when I was first learning iphone
+
+00:01:00.080 --> 00:01:01.840 
+problem when I was first learning iphone
+apps<00:01:00.440> because<00:01:00.680> I<00:01:00.830> was<00:01:01.100> used<00:01:01.310> to<00:01:01.430> things<00:01:01.700> like
+
+00:01:01.840 --> 00:01:01.850 
+apps because I was used to things like
+
+00:01:01.850 --> 00:01:04.649 
+apps because I was used to things like
+C++<00:01:02.510> or<00:01:02.780> C<00:01:02.840> sharp<00:01:03.350> we're<00:01:03.590> basically<00:01:03.920> memory
+
+00:01:04.649 --> 00:01:04.659 
+C++ or C sharp we're basically memory
+
+00:01:04.659 --> 00:01:07.420 
+C++ or C sharp we're basically memory
+reference<00:01:05.659> counting<00:01:05.930> was<00:01:06.049> automatic<00:01:06.500> in<00:01:06.680> this
+
+00:01:07.420 --> 00:01:07.430 
+reference counting was automatic in this
+
+00:01:07.430 --> 00:01:09.940 
+reference counting was automatic in this
+case<00:01:07.670> we're<00:01:08.630> assigning<00:01:08.930> this<00:01:09.410> new<00:01:09.650> speech
+
+00:01:09.940 --> 00:01:09.950 
+case we're assigning this new speech
+
+00:01:09.950 --> 00:01:13.270 
+case we're assigning this new speech
+string<00:01:10.580> object<00:01:11.030> to<00:01:11.270> our<00:01:11.300> member<00:01:12.250> to<00:01:13.250> our
+
+00:01:13.270 --> 00:01:13.280 
+string object to our member to our
+
+00:01:13.280 --> 00:01:14.290 
+string object to our member to our
+member<00:01:13.580> variable<00:01:13.910> but<00:01:14.000> we're<00:01:14.150> not
+
+00:01:14.290 --> 00:01:14.300 
+member variable but we're not
+
+00:01:14.300 --> 00:01:15.850 
+member variable but we're not
+incrementing<00:01:14.810> its<00:01:14.930> reference<00:01:15.230> count<00:01:15.440> so<00:01:15.650> it
+
+00:01:15.850 --> 00:01:15.860 
+incrementing its reference count so it
+
+00:01:15.860 --> 00:01:18.100 
+incrementing its reference count so it
+is<00:01:16.430> being<00:01:16.610> garbage<00:01:16.880> collected<00:01:17.420> so<00:01:17.810> what<00:01:18.020> we
+
+00:01:18.100 --> 00:01:18.110 
+is being garbage collected so what we
+
+00:01:18.110 --> 00:01:21.310 
+is being garbage collected so what we
+need<00:01:18.290> to<00:01:18.380> do<00:01:18.530> is<00:01:18.770> call<00:01:19.760> the<00:01:19.820> retain<00:01:20.450> selector
+
+00:01:21.310 --> 00:01:21.320 
+need to do is call the retain selector
+
+00:01:21.320 --> 00:01:25.570 
+need to do is call the retain selector
+on<00:01:21.580> on<00:01:22.580> our<00:01:23.300> new<00:01:23.990> speech<00:01:24.230> object<00:01:24.620> if<00:01:24.830> you<00:01:25.400> look
+
+00:01:25.570 --> 00:01:25.580 
+on on our new speech object if you look
+
+00:01:25.580 --> 00:01:27.910 
+on on our new speech object if you look
+here<00:01:26.000> in<00:01:26.180> the<00:01:26.330> header<00:01:26.480> file<00:01:26.720> that's<00:01:27.500> what<00:01:27.740> some
+
+00:01:27.910 --> 00:01:27.920 
+here in the header file that's what some
+
+00:01:27.920 --> 00:01:29.200 
+here in the header file that's what some
+of<00:01:27.950> these<00:01:28.070> little<00:01:28.340> key<00:01:28.460> words<00:01:28.670> in<00:01:28.790> here<00:01:29.030> mean
+
+00:01:29.200 --> 00:01:29.210 
+of these little key words in here mean
+
+00:01:29.210 --> 00:01:32.580 
+of these little key words in here mean
+when<00:01:29.360> we<00:01:29.450> say<00:01:30.130> property<00:01:31.130> not<00:01:31.490> atomic<00:01:31.729> retain
+
+00:01:32.580 --> 00:01:32.590 
+when we say property not atomic retain
+
+00:01:32.590 --> 00:01:36.130 
+when we say property not atomic retain
+that's<00:01:33.590> telling<00:01:34.010> the<00:01:34.400> EC<00:01:34.760> the<00:01:35.120> objective<00:01:35.990> c
+
+00:01:36.130 --> 00:01:36.140 
+that's telling the EC the objective c
+
+00:01:36.140 --> 00:01:38.850 
+that's telling the EC the objective c
+compiler<00:01:36.560> to<00:01:36.710> automatically<00:01:37.220> retain<00:01:37.700> the<00:01:38.240> new
+
+00:01:38.850 --> 00:01:38.860 
+compiler to automatically retain the new
+
+00:01:38.860 --> 00:01:40.870 
+compiler to automatically retain the new
+object<00:01:39.860> when<00:01:39.979> it<00:01:40.070> gets<00:01:40.190> assigned<00:01:40.430> into<00:01:40.729> the
+
+00:01:40.870 --> 00:01:40.880 
+object when it gets assigned into the
+
+00:01:40.880 --> 00:01:42.700 
+object when it gets assigned into the
+member<00:01:41.090> variable<00:01:41.450> since<00:01:42.200> we<00:01:42.350> wrote<00:01:42.530> our<00:01:42.560> own
+
+00:01:42.700 --> 00:01:42.710 
+member variable since we wrote our own
+
+00:01:42.710 --> 00:01:45.640 
+member variable since we wrote our own
+we<00:01:43.490> need<00:01:43.640> to<00:01:43.729> do<00:01:43.850> that<00:01:44.000> ourselves<00:01:44.090> so<00:01:44.630> let's<00:01:45.500> go
+
+00:01:45.640 --> 00:01:45.650 
+we need to do that ourselves so let's go
+
+00:01:45.650 --> 00:01:51.639 
+we need to do that ourselves so let's go
+ahead<00:01:45.680> and<00:01:45.890> run<00:01:46.100> this<00:01:47.140> this<00:01:48.140> time
+
+00:01:51.639 --> 00:01:51.649 
+
+00:01:51.649 --> 00:01:55.310 
+
+this<00:01:52.649> is<00:01:52.829> our<00:01:52.979> masterpiece<00:01:53.490> again<00:01:53.850> and<00:01:54.320> we
+
+00:01:55.310 --> 00:01:55.320 
+this is our masterpiece again and we
+
+00:01:55.320 --> 00:01:58.880 
+this is our masterpiece again and we
+come<00:01:55.500> back<00:01:55.619> over<00:01:55.950> here<00:01:55.979> and<00:01:56.729> ah<00:01:57.689> this<00:01:58.469> time<00:01:58.679> it
+
+00:01:58.880 --> 00:01:58.890 
+come back over here and ah this time it
+
+00:01:58.890 --> 00:02:02.300 
+come back over here and ah this time it
+is<00:01:59.039> there<00:01:59.210> which<00:02:00.210> is<00:02:00.240> great<00:02:00.539> and<00:02:00.719> so<00:02:01.710> although
+
+00:02:02.300 --> 00:02:02.310 
+is there which is great and so although
+
+00:02:02.310 --> 00:02:05.990 
+is there which is great and so although
+our<00:02:02.929> speech<00:02:03.929> is<00:02:04.140> now<00:02:04.319> being<00:02:04.740> kept<00:02:05.310> there's
+
+00:02:05.990 --> 00:02:06.000 
+our speech is now being kept there's
+
+00:02:06.000 --> 00:02:08.410 
+our speech is now being kept there's
+another<00:02:06.420> thing<00:02:06.719> that<00:02:06.959> we've<00:02:07.079> just<00:02:07.350> done<00:02:07.530> which
+
+00:02:08.410 --> 00:02:08.420 
+another thing that we've just done which
+
+00:02:08.420 --> 00:02:10.910 
+another thing that we've just done which
+with<00:02:09.420> something<00:02:09.450> the<00:02:09.810> size<00:02:09.959> of<00:02:10.229> a<00:02:10.319> string<00:02:10.590> that
+
+00:02:10.910 --> 00:02:10.920 
+with something the size of a string that
+
+00:02:10.920 --> 00:02:13.309 
+with something the size of a string that
+small<00:02:11.430> we<00:02:11.910> might<00:02:12.150> not<00:02:12.299> ever<00:02:12.480> notice<00:02:12.930> we<00:02:13.230> had
+
+00:02:13.309 --> 00:02:13.319 
+small we might not ever notice we had
+
+00:02:13.319 --> 00:02:14.570 
+small we might not ever notice we had
+done<00:02:13.440> it<00:02:13.590> but<00:02:13.769> when<00:02:13.980> you<00:02:14.069> start<00:02:14.310> getting<00:02:14.340> into
+
+00:02:14.570 --> 00:02:14.580 
+done it but when you start getting into
+
+00:02:14.580 --> 00:02:16.430 
+done it but when you start getting into
+graphics<00:02:15.120> applications<00:02:15.690> you<00:02:15.930> definitely
+
+00:02:16.430 --> 00:02:16.440 
+graphics applications you definitely
+
+00:02:16.440 --> 00:02:19.070 
+graphics applications you definitely
+will<00:02:16.620> realize<00:02:17.010> it<00:02:17.209> we<00:02:18.209> have<00:02:18.480> introduced<00:02:18.900> a
+
+00:02:19.070 --> 00:02:19.080 
+will realize it we have introduced a
+
+00:02:19.080 --> 00:02:21.289 
+will realize it we have introduced a
+memory<00:02:19.410> leak<00:02:19.560> into<00:02:19.890> our<00:02:19.980> application<00:02:20.549> so<00:02:20.910> in
+
+00:02:21.289 --> 00:02:21.299 
+memory leak into our application so in
+
+00:02:21.299 --> 00:02:23.240 
+memory leak into our application so in
+the<00:02:21.390> next<00:02:21.510> segment<00:02:21.780> we're<00:02:22.230> going<00:02:22.260> to<00:02:22.650> look<00:02:23.069> at
+
+00:02:23.240 --> 00:02:23.250 
+the next segment we're going to look at
+
+00:02:23.250 --> 00:02:25.610 
+the next segment we're going to look at
+some<00:02:23.549> of<00:02:23.579> the<00:02:23.790> more<00:02:23.940> advanced<00:02:24.420> tools<00:02:25.260> that<00:02:25.560> are
+
+00:02:25.610 --> 00:02:25.620 
+some of the more advanced tools that are
+
+00:02:25.620 --> 00:02:28.460 
+some of the more advanced tools that are
+available<00:02:25.680> with<00:02:26.069> Xcode<00:02:26.430> such<00:02:27.030> as<00:02:27.269> leaks<00:02:27.810> which
+
+00:02:28.460 --> 00:02:28.470 
+available with Xcode such as leaks which
+
+00:02:28.470 --> 00:02:30.890 
+available with Xcode such as leaks which
+lets<00:02:28.799> us<00:02:28.950> detect<00:02:29.400> leaks<00:02:29.849> memory<00:02:30.510> leaks<00:02:30.690> in<00:02:30.810> our
+
+00:02:30.890 --> 00:02:30.900 
+lets us detect leaks memory leaks in our
+
+00:02:30.900 --> 00:02:33.079 
+lets us detect leaks memory leaks in our
+code
+

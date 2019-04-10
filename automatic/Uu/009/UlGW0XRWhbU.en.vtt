@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:08.890
+ This time, mounted in even degrees 8 multi 
+
+00:00:04.089 --> 00:00:12.850
+ I will explain how to wear the nodal shading 
+
+00:00:08.890 --> 00:00:17.260
+ Mod Hatch Marichi features modal shading 
+
+00:00:12.850 --> 00:00:18.340
+ You can now set the material by concentration in the schematic view 
+
+00:00:17.260 --> 00:00:24.950
+ The 
+
+00:00:18.340 --> 00:00:30.920
+ This allows for more flexible setting of detailed materials 
+
+00:00:24.950 --> 00:00:34.130
+ Even though it is possible to set the material by concentration , it is possible to use the conventional shader tree 
+
+00:00:30.920 --> 00:00:37.790
+ The material setting is not abolished 
+
+00:00:34.130 --> 00:00:42.750
+ With material setting and hybrid by shader tree 
+
+00:00:37.790 --> 00:00:48.810
+ You will be able to set the material even in concentration 
+
+00:00:42.750 --> 00:00:50.140
+ Let's look at the functions added to make this setting for matialial with this concentration. 
+
+00:00:48.810 --> 00:00:53.370
+ Let's go 
+
+00:00:50.140 --> 00:00:58.230
+ First of all, let's look at the render tab 
+
+00:00:53.370 --> 00:01:02.430
+ In the window at the lower left of the Render tab , check in the preview 
+
+00:00:58.230 --> 00:01:04.250
+ Incorporates a schematic view so you can go through the modes 
+
+00:01:02.430 --> 00:01:08.150
+ is 
+
+00:01:04.250 --> 00:01:15.280
+ If you look at the add popup of the schematic view 
+
+00:01:08.150 --> 00:01:21.580
+ Two new categories of shader input shader density are added 
+
+00:01:15.280 --> 00:01:27.430
+ Shader input In this category there are densities for getting shading information 
+
+00:01:21.580 --> 00:01:30.030
+ In addition, the shader density expresses various textures familiar in the shader tree 
+
+00:01:27.430 --> 00:01:34.380
+ Node has housed 
+
+00:01:30.030 --> 00:01:38.920
+ On the basis of actually these newly added farm roads in 
+
+00:01:34.380 --> 00:01:45.580
+ Let 's set the material by concentration 
+
+00:01:38.920 --> 00:01:49.420
+ The sample scene is simply a ball and floor mesh 
+
+00:01:45.580 --> 00:01:55.130
+ The shadow of the ball is falling on the floor 
+
+00:01:49.420 --> 00:02:02.270
+ Let's put a halftone effect only on this shadow part 
+
+00:01:55.130 --> 00:02:06.610
+ First of all, the floor material Add a layer to this material custom material 
+
+00:02:02.270 --> 00:02:06.610
+ Apply halftone material from 
+
+00:02:07.060 --> 00:02:18.300
+ You can see that the halftone has been applied to the entire floor 
+
+00:02:12.880 --> 00:02:18.300
+ Let's change the pattern of futon a little 
+
+00:02:22.310 --> 00:02:31.300
+ Pattern of halftone is in the texture layer 
+
+00:02:25.489 --> 00:02:31.300
+ Because it appears in the property of this pattern alpha 
+
+00:02:31.540 --> 00:02:36.629
+ Since it has become to appear in such a feeling 
+
+00:02:37.240 --> 00:02:47.300
+ Only for shadows 
+
+00:02:40.970 --> 00:02:49.060
+ Putter there looks good and to apply the fur Nutter to 100% only for the portion of the shadow 
+
+00:02:47.300 --> 00:02:53.290
+ is 
+
+00:02:49.060 --> 00:02:55.800
+ Now drag this halftone material into the schematic view 
+
+00:02:53.290 --> 00:02:55.800
+ Drop 
+
+00:02:56.300 --> 00:03:04.600
+ Then shader input from additional popup 
+
+00:03:00.590 --> 00:03:06.710
+ Add the irradiation concentration here node 
+
+00:03:04.600 --> 00:03:09.060
+ Then 
+
+00:03:06.710 --> 00:03:15.630
+ The concentration of this winner 
+
+00:03:09.060 --> 00:03:16.790
+ Two nodes are added automatically : here and the shader input connected to it 
+
+00:03:15.630 --> 00:03:21.990
+ Was 
+
+00:03:16.790 --> 00:03:28.410
+ This is the density for acquiring shading information 
+
+00:03:21.990 --> 00:03:32.440
+ The winner density is the color and brightness of the shaded area 
+
+00:03:28.410 --> 00:03:36.480
+ You can get shadow information etc. 
+
+00:03:32.440 --> 00:03:40.100
+ Looking at the properties of the winner concentration 
+
+00:03:36.480 --> 00:03:46.569
+ The board is the front light here 
+
+00:03:40.100 --> 00:03:53.469
+ That is that to get the winner information from all of the lights on the trust 
+
+00:03:46.569 --> 00:03:58.090
+ If you want this to get winner information only from certain lights, 
+
+00:03:53.469 --> 00:03:58.930
+ Drag and drop to the schematic view and it is in the input part of the winner concentration 
+
+00:03:58.090 --> 00:04:04.040
+ Light 
+
+00:03:58.930 --> 00:04:08.719
+ It will be connected It is here and here 
+
+00:04:04.040 --> 00:04:13.590
+ This time there is only directional light as default . 
+
+00:04:08.719 --> 00:04:21.030
+ Leave the concentration before light this setting 
+
+00:04:13.590 --> 00:04:22.229
+ This time , information on which part of the floor is in the shadow can be obtained from the winner concentration road 
+
+00:04:21.030 --> 00:04:26.400
+ By can you of 
+
+00:04:22.229 --> 00:04:28.720
+ Fight the output of the road with a pattern of halftone material 
+
+00:04:26.400 --> 00:04:36.310
+ Try to connect 
+
+00:04:28.720 --> 00:04:41.340
+ Then , only to the part where the shadow from the sphere had fallen to the floor originally 
+
+00:04:36.310 --> 00:04:47.210
+ You can now express the effects of halftone patterns 
+
+00:04:41.340 --> 00:04:50.910
+ In this way set of Matty real itself of half-tone is carried out here of the shader tree 
+
+00:04:47.210 --> 00:04:58.370
+ Putter alpha of the property in it 
+
+00:04:50.910 --> 00:04:58.370
+ It becomes possible, such as performing a control at a concentration of only hand for this property 
+
