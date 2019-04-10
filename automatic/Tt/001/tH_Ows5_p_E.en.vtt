@@ -1,0 +1,496 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:13.139 --> 00:00:18.039
+ Talk that guys are the wagner branches of the 
+
+00:00:15.549 --> 00:00:19.869
+ channel wr kit this is another video from 
+
+00:00:18.039 --> 00:00:21.940
+ robotics series 
+
+00:00:19.869 --> 00:00:24.880
+ Let's continue some more with the 
+
+00:00:21.940 --> 00:00:27.099
+ arm programming fayfi asked to 
+
+00:00:24.880 --> 00:00:29.859
+ explain a little better about the 
+
+00:00:27.099 --> 00:00:32.580
+ step-by-step algorithm programming 
+
+00:00:29.859 --> 00:00:37.000
+ that makes the alarm range the robotic arm 
+
+00:00:32.580 --> 00:00:39.490
+ is to position the cubes with the letters 
+
+00:00:37.000 --> 00:00:42.070
+ form words so I'm here with a 
+
+00:00:39.490 --> 00:00:45.700
+ algorithm used for those who did not see the 
+
+00:00:42.070 --> 00:00:47.080
+ video is still the tenth episode of 
+
+00:00:45.700 --> 00:00:49.600
+ season one then gives a 
+
+00:00:47.080 --> 00:00:52.990
+ that the video is very interesting. 
+
+00:00:49.600 --> 00:00:55.330
+ of the muffin air running then all 
+
+00:00:52.990 --> 00:00:58.060
+ this algorithm I have already explained a 
+
+00:00:55.330 --> 00:01:00.040
+ episode of the third season of a 
+
+00:00:58.060 --> 00:01:02.980
+ on the channel you will understand 
+
+00:01:00.040 --> 00:01:05.770
+ all right but then some more 
+
+00:01:02.980 --> 00:01:08.049
+ details about the algorithm 
+
+00:01:05.770 --> 00:01:09.700
+ so here are the prototypes of the 
+
+00:01:08.049 --> 00:01:13.030
+ auxiliary functions 
+
+00:01:09.700 --> 00:01:15.880
+ we have these here that are for movement 
+
+00:01:13.030 --> 00:01:19.090
+ sweaty and I already explained 
+
+00:01:15.880 --> 00:01:21.160
+ using loops outside we can 
+
+00:01:19.090 --> 00:01:25.000
+ move the servos far more 
+
+00:01:21.160 --> 00:01:28.690
+ slow through a loop then the 
+
+00:01:25.000 --> 00:01:31.210
+ from the interactions of each degree step 
+
+00:01:28.690 --> 00:01:35.650
+ by then the arm moves well 
+
+00:01:31.210 --> 00:01:38.260
+ I slowly have an example here 
+
+00:01:35.650 --> 00:01:40.900
+ morphy stamp then we have a loop outside 
+
+00:01:38.260 --> 00:01:44.620
+ that makes the interactions as a 
+
+00:01:40.900 --> 00:01:47.620
+ variable i and starts at an angle 
+
+00:01:44.620 --> 00:01:49.840
+ beginning here and goes to the 
+
+00:01:47.620 --> 00:01:52.299
+ final angle that is to end with a 
+
+00:01:49.840 --> 00:01:54.820
+ variable end-end and start-end variables are the 
+
+00:01:52.299 --> 00:01:56.650
+ parameters to my function then to the 
+
+00:01:54.820 --> 00:01:58.229
+ beginning of the movement towards the end of 
+
+00:01:56.650 --> 00:02:00.940
+ movement 
+
+00:01:58.229 --> 00:02:03.610
+ this way the wrist movement of the arm 
+
+00:02:00.940 --> 00:02:06.420
+ upward then I increment in one 
+
+00:02:03.610 --> 00:02:10.030
+ drive the variable i 
+
+00:02:06.420 --> 00:02:13.239
+ I apply the variable and the tape servo function 
+
+00:02:10.030 --> 00:02:14.830
+ right point that the point servo library 
+
+00:02:13.239 --> 00:02:16.930
+ H 
+
+00:02:14.830 --> 00:02:21.210
+ so its increase by 
+
+00:02:16.930 --> 00:02:23.550
+ example from zero up to 90 degrees 
+
+00:02:21.210 --> 00:02:27.000
+ instead of going straight to the 90 he 
+
+00:02:23.550 --> 00:02:29.670
+ will add 1 en1 until it reaches 90 then 
+
+00:02:27.000 --> 00:02:31.800
+ This detail makes the brain 
+
+00:02:29.670 --> 00:02:35.340
+ move more subtly and more 
+
+00:02:31.800 --> 00:02:38.310
+ gentle but at what time do I have these 
+
+00:02:35.340 --> 00:02:41.040
+ interactions to the time of law that is the 
+
+00:02:38.310 --> 00:02:43.170
+ first parameter of the function so I 
+
+00:02:41.040 --> 00:02:46.350
+ determine time of law for example 10 
+
+00:02:43.170 --> 00:02:49.470
+ 5 milliseconds or as we here 
+
+00:02:46.350 --> 00:02:52.170
+ suggestion in comment and every 5 
+
+00:02:49.470 --> 00:02:54.390
+ milliseconds and increments variable and 
+
+00:02:52.170 --> 00:02:59.160
+ starting angle up to the final year I 
+
+00:02:54.390 --> 00:03:01.620
+ I want to die, or I want to die. 
+
+00:02:59.160 --> 00:03:04.080
+ for example the opposite direction of 90 
+
+00:03:01.620 --> 00:03:06.990
+ for 10 then I have to decree with 
+
+00:03:04.080 --> 00:03:10.490
+ the command is less - so the function 
+
+00:03:06.990 --> 00:03:10.490
+ muffins gives a 
+
+00:03:16.210 --> 00:03:21.750
+ aquino void cetanp then I have the 
+
+00:03:18.760 --> 00:03:24.550
+ my declared outputs for each servo 
+
+00:03:21.750 --> 00:03:28.440
+ including the treadmill that was the theme of 
+
+00:03:24.550 --> 00:03:30.970
+ last video right then declare a pin 
+
+00:03:28.440 --> 00:03:32.710
+ extra for treadmill because I want to 
+
+00:03:30.970 --> 00:03:36.070
+ move there too 
+
+00:03:32.710 --> 00:03:39.160
+ and here the point to you from the library 
+
+00:03:36.070 --> 00:03:41.950
+ servo, I determine which pin will be 
+
+00:03:39.160 --> 00:03:46.140
+ used for each servo of the treadmill 
+
+00:03:41.950 --> 00:03:48.220
+ then it was placed on pin 4 of the Arduino 
+
+00:03:46.140 --> 00:03:52.840
+ there I determine a positioning 
+
+00:03:48.220 --> 00:03:55.060
+ The initial 80 was the angle determined for 
+
+00:03:52.840 --> 00:03:58.180
+ hysteria being stopped then depends on the 
+
+00:03:55.060 --> 00:03:59.860
+ used this angle of 80 degrees 
+
+00:03:58.180 --> 00:04:03.120
+ here you have to determine in a way 
+
+00:03:59.860 --> 00:04:06.190
+ empirical because normally a servant of 
+
+00:04:03.120 --> 00:04:08.950
+ 360 degrees that was the case of the used 
+
+00:04:06.190 --> 00:04:09.670
+ it was not a deer converted to 360 
+
+00:04:08.950 --> 00:04:11.980
+ degrees 
+
+00:04:09.670 --> 00:04:15.250
+ use 90 degrees for it to be 
+
+00:04:11.980 --> 00:04:17.980
+ stopped 180 to move to one side and 
+
+00:04:15.250 --> 00:04:20.950
+ and zero to move to another but 
+
+00:04:17.980 --> 00:04:24.250
+ these data should be obtained in Pirica 
+
+00:04:20.950 --> 00:04:27.340
+ mind then it will not loop we have the 
+
+00:04:24.250 --> 00:04:28.270
+ letter-by-letter mapping in case 
+
+00:04:27.340 --> 00:04:31.570
+ it's six 
+
+00:04:28.270 --> 00:04:34.690
+ so each letter a cube it initiates 
+
+00:04:31.570 --> 00:04:37.000
+ here and there you put 
+
+00:04:34.690 --> 00:04:39.220
+ mat is to the destination that is the point 
+
+00:04:37.000 --> 00:04:41.710
+ end this all has to be determined 
+
+00:04:39.220 --> 00:04:43.450
+ in a practical way as I have already demonstrated here 
+
+00:04:41.710 --> 00:04:45.940
+ in the third season 
+
+00:04:43.450 --> 00:04:48.160
+ then this is the simplest programming 
+
+00:04:45.940 --> 00:04:50.170
+ of a robotic arm as I have already mentioned 
+
+00:04:48.160 --> 00:04:54.130
+ other resources as matrices already 
+
+00:04:50.170 --> 00:04:56.140
+ Colombian and xyz positions that are well 
+
+00:04:54.130 --> 00:04:59.800
+ more complicated 
+
+00:04:56.140 --> 00:05:01.870
+ then it goes and delivers the letter 1 after 
+
+00:04:59.800 --> 00:05:04.690
+ the letter u comes the letter two in a new 
+
+00:05:01.870 --> 00:05:05.680
+ mapping is done to get the letter 2 
+
+00:05:04.690 --> 00:05:08.170
+ and position 
+
+00:05:05.680 --> 00:05:10.380
+ on the side of letter 1 until word 
+
+00:05:08.170 --> 00:05:12.790
+ then we have the letter 3 
+
+00:05:10.380 --> 00:05:16.750
+ I realize that I'm using the functions 
+
+00:05:12.790 --> 00:05:19.900
+ created right now and it hurts that already 
+
+00:05:16.750 --> 00:05:22.390
+ I explained in another video so it's okay 
+
+00:05:19.900 --> 00:05:26.340
+ even after letter three 
+
+00:05:22.390 --> 00:05:28.510
+ have the letter 4 then 5 and then 6 
+
+00:05:26.340 --> 00:05:30.129
+ ending the word then always 
+
+00:05:28.510 --> 00:05:31.929
+ moving the treadmill and stop 
+
+00:05:30.129 --> 00:05:33.969
+ when she has to be careful to 
+
+00:05:31.929 --> 00:05:37.509
+ see an arm synchronization with the 
+
+00:05:33.969 --> 00:05:41.409
+ I also place an arm in the 
+
+00:05:37.509 --> 00:05:43.989
+ starting position again and gave the 
+
+00:05:41.409 --> 00:05:47.229
+ delay of 10 seconds to power 
+
+00:05:43.989 --> 00:05:49.509
+ shut down the system then algorithm that 
+
+00:05:47.229 --> 00:05:51.159
+ allows the arm to do this task is 
+
+00:05:49.509 --> 00:05:53.559
+ there 
+
+00:05:51.159 --> 00:05:56.110
+ I hope I have clarified a number of doubts there. 
+
+00:05:53.559 --> 00:05:58.360
+ staff and if you have not yet 
+
+00:05:56.110 --> 00:06:00.279
+ other videos of the third season of 
+
+00:05:58.360 --> 00:06:03.639
+ an assisted to learn even more 
+
+00:06:00.279 --> 00:06:06.369
+ on the construction and programming of a 
+
+00:06:03.639 --> 00:06:08.949
+ robotic arm is quite interesting 
+
+00:06:06.369 --> 00:06:12.069
+ next week we will have the closure of 
+
+00:06:08.949 --> 00:06:14.319
+ third season so do not lose 
+
+00:06:12.069 --> 00:06:17.080
+ the arm to the fae will perform a task 
+
+00:06:14.319 --> 00:06:19.419
+ Pretty cool, you guys are going to enjoy the video. 
+
+00:06:17.080 --> 00:06:21.279
+ next week for sure is a 
+
+00:06:19.419 --> 00:06:23.379
+ quite different from what has already been 
+
+00:06:21.279 --> 00:06:25.659
+ we show so far so do not miss the 
+
+00:06:23.379 --> 00:06:29.919
+ closure of the third season of 
+
+00:06:25.659 --> 00:06:31.629
+ robots series aquino wr kitchener now 
+
+00:06:29.919 --> 00:06:34.719
+ enjoy this video share with your 
+
+00:06:31.629 --> 00:06:36.759
+ friends and if you are not a channel subscriber 
+
+00:06:34.719 --> 00:06:40.269
+ apply for prizes is 
+
+00:06:36.759 --> 00:06:42.969
+ Of course not lose any news of wr 
+
+00:06:40.269 --> 00:06:45.879
+ chanel kits short our page at 
+
+00:06:42.969 --> 00:06:48.339
+ facebook as we give previews of the next 
+
+00:06:45.879 --> 00:06:49.779
+ videos through photos and we have 
+
+00:06:48.339 --> 00:06:52.329
+ daily photos 
+
+00:06:49.779 --> 00:06:55.360
+ so this is it, I'm going to stay here 
+
+00:06:52.329 --> 00:06:58.990
+ Any doubts still leave seival 
+
+00:06:55.360 --> 00:07:00.360
+ shows as always that hug and even the 
+
+00:06:58.990 --> 00:07:02.589
+ next 
+
+00:07:00.360 --> 00:07:04.779
+ Thank you for watching another video. 
+
+00:07:02.589 --> 00:07:06.849
+ now click liked to spread the word 
+
+00:07:04.779 --> 00:07:09.069
+ our work on your social networks 
+
+00:07:06.849 --> 00:07:10.419
+ subscribe to channel wr kits so do not 
+
+00:07:09.069 --> 00:07:12.550
+ will lose nothing new and 
+
+00:07:10.419 --> 00:07:14.949
+ sharing our content will be 
+
+00:07:12.550 --> 00:07:18.610
+ competing for prizes short our page 
+
+00:07:14.949 --> 00:07:20.800
+ on facebook facebook.com bar wr wanted 
+
+00:07:18.610 --> 00:07:22.689
+ follow us on twitter wagner clothing rambo 
+
+00:07:20.800 --> 00:07:25.449
+ send us emails with critical questions 
+
+00:07:22.689 --> 00:07:28.539
+ suggestions and compliments for wr kits at 
+
+00:07:25.449 --> 00:07:35.019
+ wr kits point com.br access our 
+
+00:07:28.539 --> 00:07:36.389
+ www3 website that we have 
+
+00:07:35.019 --> 00:07:42.539
+ to offer 
+
+00:07:36.389 --> 00:07:42.539
+ wr robotic kits without obstacles 
+

@@ -1,0 +1,304 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.540 --> 00:00:05.790
+ hello everyone and welcome to the video 
+
+00:00:03.149 --> 00:00:08.580
+ number 11 of game programming in 
+
+00:00:05.790 --> 00:00:11.969
+ this video we are going to make this 
+
+00:00:08.580 --> 00:00:12.480
+ rectangle move with the keys of the 
+
+00:00:11.969 --> 00:00:14.160
+ keyboard 
+
+00:00:12.480 --> 00:00:16.830
+ Unlike the previous video where 
+
+00:00:14.160 --> 00:00:20.190
+ we moved them with the mouse they would see what 
+
+00:00:16.830 --> 00:00:22.380
+ important that is these classes and the 
+
+00:00:20.190 --> 00:00:25.140
+ time that we take to create these 
+
+00:00:22.380 --> 00:00:27.900
+ the listeners classes because it's going to be very 
+
+00:00:25.140 --> 00:00:33.060
+ fast very easy to change so that it 
+
+00:00:27.900 --> 00:00:35.990
+ move with the keys well basically 
+
+00:00:33.060 --> 00:00:38.430
+ here we had the yei frame 
+
+00:00:35.990 --> 00:00:41.040
+ swing 
+
+00:00:38.430 --> 00:00:43.920
+ denounced constructor the game look 
+
+00:00:41.040 --> 00:00:46.130
+ we render that still this myth 
+
+00:00:43.920 --> 00:00:49.640
+ does not do anything or we're not using it 
+
+00:00:46.130 --> 00:00:49.640
+ we saw it a little 
+
+00:00:49.950 --> 00:00:56.830
+ then we have the render that we draw 
+
+00:00:54.430 --> 00:01:00.630
+ a black color and then we draw a 
+
+00:00:56.830 --> 00:01:00.630
+ rectangle in a coordinate of x 
+
+00:01:00.690 --> 00:01:05.570
+ well let's do now is let's 
+
+00:01:02.660 --> 00:01:08.070
+ open the keyboard listener that is 
+
+00:01:05.570 --> 00:01:11.120
+ just the kirchner that will be 
+
+00:01:08.070 --> 00:01:15.300
+ listening to this game 
+
+00:01:11.120 --> 00:01:18.450
+ and we're going to see that this start has 
+
+00:01:15.300 --> 00:01:20.970
+ three methods and we will import more 
+
+00:01:18.450 --> 00:01:23.760
+ that nothing these two teams and the one that 
+
+00:01:20.970 --> 00:01:27.980
+ uses this method is called when a 
+
+00:01:23.760 --> 00:01:29.960
+ key is pressed on the keyboard 
+
+00:01:27.980 --> 00:01:32.950
+ and this one when we release a key we're going 
+
+00:01:29.960 --> 00:01:35.180
+ to make the rectangle show 
+
+00:01:32.950 --> 00:01:37.870
+ but let's see 
+
+00:01:35.180 --> 00:01:40.930
+ other types of movement better 
+
+00:01:37.870 --> 00:01:44.380
+ the course but this is going to look like this 
+
+00:01:40.930 --> 00:01:45.790
+ because it is very simple and important 
+
+00:01:44.380 --> 00:01:48.220
+ It is that we understood what 
+
+00:01:45.790 --> 00:01:51.070
+ let's do everything perfect wave 2 good 
+
+00:01:48.220 --> 00:01:57.510
+ this method that impress receives a 
+
+00:01:51.070 --> 00:01:57.510
+ event parameter of class i vents 
+
+00:01:58.640 --> 00:02:04.050
+ has a couple of interesting methods 
+
+00:02:00.680 --> 00:02:07.130
+ have enough interesting minutes 
+
+00:02:04.050 --> 00:02:10.149
+ and what are we going to use us is 
+
+00:02:07.130 --> 00:02:13.640
+ get boy 
+
+00:02:10.149 --> 00:02:16.250
+ this gives me back a code with him 
+
+00:02:13.640 --> 00:02:19.160
+ the key that caused the event if the 
+
+00:02:16.250 --> 00:02:22.340
+ key that has been pressed has a code 
+
+00:02:19.160 --> 00:02:25.610
+ now we also have all the codes 
+
+00:02:22.340 --> 00:02:27.860
+ of the keys if we access the class 
+
+00:02:25.610 --> 00:02:29.630
+ write point 
+
+00:02:27.860 --> 00:02:32.690
+ here we have all the codes as per 
+
+00:02:29.630 --> 00:02:35.020
+ example here 
+
+00:02:32.690 --> 00:02:37.750
+ if it is a number 
+
+00:02:35.020 --> 00:02:39.180
+ has the number of elected what we are going 
+
+00:02:37.750 --> 00:02:43.650
+ to do is 
+
+00:02:39.180 --> 00:02:47.939
+ if the event was the key code 
+
+00:02:43.650 --> 00:02:52.020
+ that consoles event is the same here and see 
+
+00:02:47.939 --> 00:02:55.130
+ left wing that left 
+
+00:02:52.020 --> 00:02:59.340
+ then we are going to do 
+
+00:02:55.130 --> 00:03:02.150
+ for example game point woman 
+
+00:02:59.340 --> 00:03:02.150
+ left 
+
+00:03:05.250 --> 00:03:09.410
+ let's program this function let's 
+
+00:03:07.800 --> 00:03:12.520
+ put here 
+
+00:03:09.410 --> 00:03:14.830
+ and remembering our rectangle 
+
+00:03:12.520 --> 00:03:16.980
+ is printed in an x in one and what 
+
+00:03:14.830 --> 00:03:18.989
+ let's do is 
+
+00:03:16.980 --> 00:03:21.620
+ if you have to move to the left that is 
+
+00:03:18.989 --> 00:03:21.620
+ you resist 
+
+00:03:21.780 --> 00:03:25.760
+ a certain number for example 10 
+
+00:03:26.030 --> 00:03:32.510
+ the X will be more to the left 
+
+00:03:28.540 --> 00:03:34.310
+ let's try it quickly and here 
+
+00:03:32.510 --> 00:03:39.020
+ we see that it moves to the left 
+
+00:03:34.310 --> 00:03:43.030
+ let's repeat the same for others 
+
+00:03:39.020 --> 00:03:46.740
+ yes for the right up and down 
+
+00:03:43.030 --> 00:03:46.740
+ let's put baker 
+
+00:03:49.680 --> 00:03:53.480
+ right I think so 
+
+00:03:53.560 --> 00:03:56.489
+ I think it is 
+
+00:03:58.720 --> 00:04:07.410
+ and we are going to create other meters by right 
+
+00:04:02.340 --> 00:04:07.410
+ move up and move 
+
+00:04:08.060 --> 00:04:14.890
+ let's create this is going to be the same 
+
+00:04:10.730 --> 00:04:14.890
+ but instead of subtracting it he will add 
+
+00:04:15.610 --> 00:04:18.959
+ and we're going to make the other two that are missing 
+
+00:04:17.440 --> 00:04:21.440
+ as well 
+
+00:04:18.959 --> 00:04:21.440
+ you 
+
+00:04:29.760 --> 00:04:35.930
+ as I have seen it does the same but with the 
+
+00:04:31.620 --> 00:04:35.930
+ coordinate and this will subtract 10 
+
+00:04:36.470 --> 00:04:41.050
+ and this is going to add 10 
+
+00:04:42.460 --> 00:04:48.280
+ then now we can move the 
+
+00:04:45.110 --> 00:04:51.890
+ rectangle for what we want 
+
+00:04:48.280 --> 00:04:54.440
+ and with the keyboard keys of the doctor 
+
+00:04:51.890 --> 00:04:57.890
+ we leave if then we learned there 
+
+00:04:54.440 --> 00:05:00.590
+ how can we use and how to manage the 
+
+00:04:57.890 --> 00:05:03.020
+ keyboard events using the listener 
+
+00:05:00.590 --> 00:05:05.780
+ of keyboard that we created in the days 
+
+00:05:03.020 --> 00:05:08.750
+ Earlier remember that you are free to 
+
+00:05:05.780 --> 00:05:10.650
+ get off the listeners get off all 
+
+00:05:08.750 --> 00:05:13.290
+ actually 
+
+00:05:10.650 --> 00:05:17.120
+ so they can learn faster if 
+
+00:05:13.290 --> 00:05:21.760
+ they try and play for a while with that 
+
+00:05:17.120 --> 00:05:21.760
+ so come it feels video greetings 
+

@@ -1,0 +1,412 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.350 --> 00:00:03.280
+Dear friends welcome back! In this video we build
+
+00:00:03.280 --> 00:00:06.730
+yet another temperature monitor using Arduino.
+
+00:00:06.730 --> 00:00:11.510
+But this project is different! It can
+last in batteries for almost 1.5 years!
+
+00:00:11.769 --> 00:00:15.120
+Yes that's correct, the battery life of
+the project is
+
+00:00:15.120 --> 00:00:18.699
+over one year on three rechargeable AA batteries!
+
+00:00:18.699 --> 00:00:21.910
+Let's see how to build it and how we can achieve
+
+00:00:21.910 --> 00:00:26.869
+such a long battery life. Let's do it! In this project we use
+
+00:00:26.869 --> 00:00:31.269
+a DS18B20 temperature sensor in order to measure temperature,
+
+00:00:31.269 --> 00:00:35.389
+a Nokia 5110 LCD display in order to display the temperature,
+
+00:00:35.610 --> 00:00:39.930
+a photoresistor in order to detect night, and disable the LCD display
+
+00:00:39.930 --> 00:00:43.180
+to conserve power, and of course an ATMEGA 328
+
+00:00:43.180 --> 00:00:46.399
+microcontroller with Arduino Uno
+
+00:00:46.399 --> 00:00:50.250
+bootloader. The power consumption is reduced to minimal by putting
+
+00:00:50.250 --> 00:00:52.940
+Arduino on sleep when it is not measuring the temperature,
+
+00:00:53.440 --> 00:00:58.840
+and by disabling the LCD display at night. Also the Nokia 5110 LCD display
+
+00:00:59.040 --> 00:01:02.100
+is ideal because with the backlight off it needs
+
+00:01:02.109 --> 00:01:06.430
+around 0.2 mA of current! Arduino spends
+
+00:01:06.430 --> 00:01:09.760
+more than 99 percent of its time
+sleeping and
+
+00:01:09.760 --> 00:01:12.780
+only wakes up for a few ms
+every two minutes.
+
+00:01:12.780 --> 00:01:15.950
+That's why we can achieve such a long battery life.
+
+00:01:15.950 --> 00:01:20.140
+Let's now measure the actual current draw and calculate the battery life of
+
+00:01:20.140 --> 00:01:24.330
+this project. As you can see when Arduino is sleeping it only needs
+
+00:01:24.330 --> 00:01:27.150
+around 0.26 mA of current.
+
+00:01:31.400 --> 00:01:34.560
+As you saw, Arduino woke up for a few ms
+
+00:01:34.560 --> 00:01:37.600
+and went back to sleep. The current draw went up to
+
+00:01:37.600 --> 00:01:42.520
+11-12 mA and now it's back to 0.28 mA.
+
+00:01:42.900 --> 00:01:45.380
+If I cover the LDR in order to
+
+00:01:45.400 --> 00:01:48.740
+emulate night, the LCD goes off
+
+00:01:48.740 --> 00:01:52.260
+and as you can see Arduino is sleeping and the power consumption
+
+00:01:52.300 --> 00:01:56.100
+the current draw is 0.07 mA!
+
+00:01:56.340 --> 00:01:59.340
+In order to quicly calculate the battery life of the project
+
+00:01:59.580 --> 00:02:01.420
+I have prepared and Excel file.
+
+00:02:01.420 --> 00:02:05.030
+As you can see we enter the data from
+the multimeter here
+
+00:02:05.030 --> 00:02:09.520
+we can then change the parameters in Green, and we have the battery life in
+
+00:02:09.520 --> 00:02:12.340
+days calculated in this cell here.
+
+00:02:13.160 --> 00:02:18.060
+So, if we use a battery pack with a capacity of 2.500 mAhs
+
+00:02:18.260 --> 00:02:22.200
+like the one I use,  if we measure
+the temperature
+
+00:02:22.200 --> 00:02:25.720
+every two minutes and if the display is
+off at night
+
+00:02:25.720 --> 00:02:29.420
+for around 8 hours we can achieve a battery life
+
+00:02:29.420 --> 00:02:32.470
+of 518 days! Impressive
+
+00:02:32.470 --> 00:02:37.750
+isn't it? We can change the parameters and see how they affect the battery life.
+
+00:02:37.750 --> 00:02:41.250
+If for example we measure the
+temperature every minute instead of
+
+00:02:41.510 --> 00:02:45.110
+every two minutes we have 11 days less battery life.
+
+00:02:45.110 --> 00:02:48.520
+So with this tool we can easily make the project to fit
+
+00:02:48.520 --> 00:02:51.860
+our needs about power consumption and interval
+
+00:02:51.860 --> 00:02:55.610
+of measurements. Of course these
+calculations are only theoretical.
+
+00:02:55.610 --> 00:02:58.940
+In practice the battery life of the
+project will be less
+
+00:02:58.940 --> 00:03:03.530
+because batteries discharge even when they are not used! The eneloop pro batteries that
+
+00:03:03.530 --> 00:03:07.430
+I use claim that they only loose 25% of their power
+
+00:03:07.430 --> 00:03:12.450
+after one-year of no use. Cheaper batteries have of course worse self dischare rate.
+
+00:03:12.760 --> 00:03:16.470
+So the use of good batteries is crucial in order to achieve
+
+00:03:16.470 --> 00:03:20.670
+long battery life to your project. Now
+let's see how to connect all the parts together
+
+00:03:20.989 --> 00:03:25.969
+in order to build this project. The parts needed for this project are these:
+
+00:03:26.600 --> 00:03:30.740
+An ATMEGA328 chip with Arduino Uno bootloader.
+
+00:03:31.460 --> 00:03:34.060
+2 22pF capacitors,
+
+00:03:34.060 --> 00:03:36.920
+A 16MHz crystal
+
+00:03:36.920 --> 00:03:41.830
+a DS18B20 sensor module, a photoresistor
+
+00:03:41.830 --> 00:03:45.160
+a 10K resistor, and of course
+
+00:03:45.160 --> 00:03:50.230
+a Nokia 5110 LCD display. The cost of the project is very low,
+
+00:03:50.230 --> 00:03:53.540
+less than 10 euros. 3 euros for the
+
+00:03:53.540 --> 00:03:56.930
+ATMEGA328 chip, 2.5 euros for the Nokia
+
+00:03:56.930 --> 00:04:00.860
+5110 LCD display, around 2 euros for the
+
+00:04:00.860 --> 00:04:03.870
+DS18B20 temperature module,
+
+00:04:03.870 --> 00:04:08.890
+and a few cents for the other parts. Let's now see how to connect
+
+00:04:08.890 --> 00:04:10.190
+or these parts together.
+
+00:04:15.700 --> 00:04:19.680
+First we build our own Arduino. Please check our detail tutorial
+
+00:04:19.690 --> 00:04:23.120
+on how to build your own Arduino Uno on a breadboard.
+
+00:04:23.120 --> 00:04:25.780
+Then we connect the temperature sensor.
+
+00:04:26.120 --> 00:04:30.580
+Minus goes to Ground, Plus goes to Vcc
+
+00:04:30.590 --> 00:04:34.210
+and output goes to digital pin 7 on our Arduino.
+
+00:04:35.120 --> 00:04:37.020
+Then we connect the photoresistor.
+
+00:04:37.520 --> 00:04:42.690
+We connect this leg to the Ground, the other one via the resistor goes
+
+00:04:42.690 --> 00:04:46.990
+to digital pin 6 because this is the pin that is going to power on
+
+00:04:47.240 --> 00:04:49.840
+LDR, only at specific times,
+
+00:04:51.140 --> 00:04:56.380
+and we connect the other pin to analog pin 0 in order to measure light.
+
+00:04:56.760 --> 00:04:59.720
+Then we connect the Nokia 5110 LCD display and
+
+00:04:59.720 --> 00:05:03.160
+we are ready to go, let's try it. As you can see
+
+00:05:03.160 --> 00:05:06.700
+although that I have powered on Arduino via this power bank
+
+00:05:06.700 --> 00:05:09.860
+the LCD display is off and it seems
+
+00:05:09.860 --> 00:05:14.550
+that is not working. What's going on? look what happens if we remove the capacitors
+
+00:05:14.550 --> 00:05:15.520
+from The breadboard.
+
+00:05:15.520 --> 00:05:19.520
+The circuit works fine. But why is this happening?
+
+00:05:19.520 --> 00:05:22.800
+Breadboard pins have their own capacitance. They act
+
+00:05:22.800 --> 00:05:27.380
+as small capacitors themselves! So we add more total capacitance to the crystal
+
+00:05:27.580 --> 00:05:31.930
+so it does not work correctly. The
+breadboard pins capacitance depends
+
+00:05:31.930 --> 00:05:34.970
+on breadboard I think, so try your own circuit with or
+
+00:05:34.970 --> 00:05:38.479
+without the 22pF capacitors to
+
+00:05:38.479 --> 00:05:42.479
+see what works for your project. Now in order to see how to program
+
+00:05:42.479 --> 00:05:46.310
+the ATMEGA238 chip check our previous tutorial, but
+
+00:05:46.310 --> 00:05:49.900
+I have found another easy way to program the chip.
+
+00:05:49.900 --> 00:05:53.699
+Let's see. If you have a standard Arduino board you can remove the
+
+00:05:53.699 --> 00:05:56.860
+ATMEGA chip from here and use it
+
+00:05:56.860 --> 00:06:00.430
+to your breadboard Arduino project. So you can use your
+
+00:06:00.430 --> 00:06:03.960
+Arduino Uno as a programming
+environment for your
+
+00:06:03.960 --> 00:06:07.500
+bare Arduino projects. For example we can enter our
+
+00:06:07.500 --> 00:06:11.340
+ATMEGA chip here, plug it in
+
+00:06:11.340 --> 00:06:14.610
+to our computer and program it with our software.
+
+00:06:14.610 --> 00:06:18.000
+Then we can easily remove it, and add it
+
+00:06:18.000 --> 00:06:21.210
+to our breadboard. It's that easy! Be careful, the Reset pin
+
+00:06:21.210 --> 00:06:24.370
+goes this way down. In the breadboard
+
+00:06:24.370 --> 00:06:27.910
+we put it the other way. So it is
+
+00:06:27.910 --> 00:06:30.990
+so easy. The code of the project is simple and
+
+00:06:30.990 --> 00:06:34.539
+easy to understand. We are using the low power library,
+
+00:06:34.539 --> 00:06:37.599
+the DS18B20 library and
+
+00:06:37.599 --> 00:06:41.259
+and of course the Nokia 5110 LCD display library.
+
+00:06:41.259 --> 00:06:45.620
+Please check our previous videos in order to see more details about how to
+
+00:06:45.620 --> 00:06:46.910
+use those libraries.
+
+00:06:46.910 --> 00:06:50.430
+if you need your project to display degrees F instead
+
+00:06:50.430 --> 00:06:52.120
+degrees C, change this
+
+00:06:52.120 --> 00:06:56.849
+c here into an f. At first we initialize the sensor
+
+00:06:56.849 --> 00:07:00.960
+and the display. Then in the loop we
+first power on
+
+00:07:00.960 --> 00:07:05.970
+the LDR. In order to further decrease the power consumption of the project
+
+00:07:05.970 --> 00:07:07.880
+we don't provide power to the LDR
+
+00:07:07.880 --> 00:07:10.940
+all the time, only when we want to
+measure light.
+
+00:07:10.940 --> 00:07:16.620
+Every two minutes for 10 ms. So
+we read the value from the LDR,
+
+00:07:16.620 --> 00:07:20.979
+if there is enough light we measure
+temperature we display it on the screen
+
+00:07:20.979 --> 00:07:24.330
+and we go to sleep for two minutes. Else
+
+00:07:24.330 --> 00:07:27.490
+if it is night with disable the LCD
+display
+
+00:07:27.490 --> 00:07:31.220
+and we go immediately to sleep without measuring the temperature.
+
+00:07:31.220 --> 00:07:35.300
+That's the code of the project, please post any comments or questions
+
+00:07:35.300 --> 00:07:38.030
+about it in the comments section below.
+
+00:07:38.030 --> 00:07:41.160
+That's todays project. We finally achieved to make
+
+00:07:41.160 --> 00:07:44.750
+an Arduino project than can run on batteries for over a year!
+
+00:07:44.750 --> 00:07:49.150
+now we can move on to more advanced
+project that can run on batteries for a
+
+00:07:49.150 --> 00:07:50.360
+long period of time.
+
+00:07:50.360 --> 00:07:53.870
+The weather station project will be the first one to benefit so
+
+00:07:53.870 --> 00:07:59.090
+stay tuned! Please feel free to post any questions or ideas to comments section below,
+
+00:07:59.360 --> 00:08:03.240
+press the like button if you like the
+project and subscribe to our channel
+
+00:08:03.480 --> 00:08:07.620
+in order to watch our future videos.
+Thank you very much and see you next week!
+

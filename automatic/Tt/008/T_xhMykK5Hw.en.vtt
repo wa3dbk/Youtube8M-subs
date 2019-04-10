@@ -1,0 +1,608 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.950 --> 00:00:08.570 
+
+you
+
+00:00:08.570 --> 00:00:08.580 
+
+00:00:08.580 --> 00:00:32.040 
+
+yeah
+
+00:00:32.040 --> 00:00:32.050 
+
+00:00:32.050 --> 00:00:34.180 
+
+understanding<00:00:33.050> the<00:00:33.170> component<00:00:33.740> solver
+
+00:00:34.180 --> 00:00:34.190 
+understanding the component solver
+
+00:00:34.190 --> 00:00:36.340 
+understanding the component solver
+depends<00:00:35.150> on<00:00:35.270> some<00:00:35.540> understanding<00:00:36.200> of<00:00:36.290> the
+
+00:00:36.340 --> 00:00:36.350 
+depends on some understanding of the
+
+00:00:36.350 --> 00:00:40.630 
+depends on some understanding of the
+kind<00:00:36.650> of<00:00:36.770> problem<00:00:37.160> it<00:00:37.280> solves<00:00:39.100> as<00:00:40.100> an<00:00:40.340> example
+
+00:00:40.630 --> 00:00:40.640 
+kind of problem it solves as an example
+
+00:00:40.640 --> 00:00:44.049 
+kind of problem it solves as an example
+we'll<00:00:40.970> use<00:00:41.000> this<00:00:41.330> simple<00:00:41.630> situation<00:00:43.059> the
+
+00:00:44.049 --> 00:00:44.059 
+we'll use this simple situation the
+
+00:00:44.059 --> 00:00:46.840 
+we'll use this simple situation the
+target<00:00:44.480> is<00:00:44.660> stationary<00:00:44.870> and<00:00:45.489> own<00:00:46.489> ships
+
+00:00:46.840 --> 00:00:46.850 
+target is stationary and own ships
+
+00:00:46.850 --> 00:00:50.229 
+target is stationary and own ships
+course<00:00:47.090> and<00:00:47.330> speed<00:00:47.420> are<00:00:47.870> constant<00:00:49.210> with<00:00:50.210> the
+
+00:00:50.229 --> 00:00:50.239 
+course and speed are constant with the
+
+00:00:50.239 --> 00:00:52.479 
+course and speed are constant with the
+ship's<00:00:50.570> movement<00:00:50.809> range<00:00:51.770> changes
+
+00:00:52.479 --> 00:00:52.489 
+ship's movement range changes
+
+00:00:52.489 --> 00:01:02.319 
+ship's movement range changes
+continuously<00:00:59.740> target<00:01:00.740> bearing<00:01:01.100> 2<00:01:01.340> is<00:01:01.700> always
+
+00:01:02.319 --> 00:01:02.329 
+continuously target bearing 2 is always
+
+00:01:02.329 --> 00:01:08.770 
+continuously target bearing 2 is always
+changing<00:01:06.280> furthermore<00:01:07.280> not<00:01:07.970> only<00:01:08.030> our<00:01:08.479> range
+
+00:01:08.770 --> 00:01:08.780 
+changing furthermore not only our range
+
+00:01:08.780 --> 00:01:11.260 
+changing furthermore not only our range
+and<00:01:08.990> target<00:01:09.380> bearing<00:01:09.740> changing<00:01:10.220> but<00:01:11.119> the
+
+00:01:11.260 --> 00:01:11.270 
+and target bearing changing but the
+
+00:01:11.270 --> 00:01:12.910 
+and target bearing changing but the
+rates<00:01:11.509> at<00:01:11.750> which<00:01:11.780> they<00:01:12.080> change<00:01:12.440> are<00:01:12.680> not
+
+00:01:12.910 --> 00:01:12.920 
+rates at which they change are not
+
+00:01:12.920 --> 00:01:18.070 
+rates at which they change are not
+constant<00:01:14.290> to<00:01:15.290> illustrate<00:01:16.600> these<00:01:17.600> poor<00:01:17.960> ship
+
+00:01:18.070 --> 00:01:18.080 
+constant to illustrate these poor ship
+
+00:01:18.080 --> 00:01:20.050 
+constant to illustrate these poor ship
+positions<00:01:18.710> are<00:01:18.950> spaced<00:01:19.430> at<00:01:19.610> equal<00:01:19.940> intervals
+
+00:01:20.050 --> 00:01:20.060 
+positions are spaced at equal intervals
+
+00:01:20.060 --> 00:01:24.730 
+positions are spaced at equal intervals
+of<00:01:20.450> time<00:01:22.210> during<00:01:23.210> the<00:01:23.479> time<00:01:23.690> between<00:01:23.899> a<00:01:24.110> and<00:01:24.560> B
+
+00:01:24.730 --> 00:01:24.740 
+of time during the time between a and B
+
+00:01:24.740 --> 00:01:27.520 
+of time during the time between a and B
+the<00:01:25.610> change<00:01:25.910> in<00:01:26.119> range<00:01:26.390> is<00:01:26.720> greater<00:01:27.110> than<00:01:27.350> it
+
+00:01:27.520 --> 00:01:27.530 
+the change in range is greater than it
+
+00:01:27.530 --> 00:01:32.140 
+the change in range is greater than it
+is<00:01:27.649> during<00:01:27.890> the<00:01:28.130> time<00:01:28.369> between<00:01:28.610> C<00:01:29.180> and<00:01:29.210> D<00:01:31.150> thus
+
+00:01:32.140 --> 00:01:32.150 
+is during the time between C and D thus
+
+00:01:32.150 --> 00:01:34.539 
+is during the time between C and D thus
+the<00:01:32.360> rate<00:01:32.570> at<00:01:32.750> which<00:01:32.780> range<00:01:33.229> changes<00:01:33.770> is<00:01:34.010> not
+
+00:01:34.539 --> 00:01:34.549 
+the rate at which range changes is not
+
+00:01:34.549 --> 00:01:38.350 
+the rate at which range changes is not
+constant<00:01:35.120> and<00:01:35.920> note<00:01:36.920> too<00:01:37.190> that<00:01:37.220> between<00:01:37.820> a<00:01:37.970> and
+
+00:01:38.350 --> 00:01:38.360 
+constant and note too that between a and
+
+00:01:38.360 --> 00:01:41.050 
+constant and note too that between a and
+B<00:01:38.570> the<00:01:38.870> change<00:01:39.560> in<00:01:39.770> target<00:01:40.190> bearing<00:01:40.580> is<00:01:40.760> less
+
+00:01:41.050 --> 00:01:41.060 
+B the change in target bearing is less
+
+00:01:41.060 --> 00:01:44.770 
+B the change in target bearing is less
+than<00:01:41.240> it<00:01:41.390> is<00:01:41.540> between<00:01:41.960> C<00:01:42.290> and<00:01:42.320> D<00:01:43.360> thus<00:01:44.360> the<00:01:44.600> rate
+
+00:01:44.770 --> 00:01:44.780 
+than it is between C and D thus the rate
+
+00:01:44.780 --> 00:01:46.750 
+than it is between C and D thus the rate
+at<00:01:44.930> which<00:01:44.960> target<00:01:45.500> bearing<00:01:45.860> changes<00:01:46.340> is<00:01:46.490> not
+
+00:01:46.750 --> 00:01:46.760 
+at which target bearing changes is not
+
+00:01:46.760 --> 00:01:51.609 
+at which target bearing changes is not
+constant<00:01:50.290> solving<00:01:51.290> the<00:01:51.380> fire-control
+
+00:01:51.609 --> 00:01:51.619 
+constant solving the fire-control
+
+00:01:51.619 --> 00:01:54.250 
+constant solving the fire-control
+problem<00:01:52.460> requires<00:01:53.030> continuous<00:01:53.659> information
+
+00:01:54.250 --> 00:01:54.260 
+problem requires continuous information
+
+00:01:54.260 --> 00:02:01.870 
+problem requires continuous information
+of<00:01:54.409> the<00:01:54.500> existing<00:01:55.040> rates<00:01:55.310> of<00:01:55.490> change<00:02:00.700> this<00:02:01.700> is
+
+00:02:01.870 --> 00:02:01.880 
+of the existing rates of change this is
+
+00:02:01.880 --> 00:02:03.670 
+of the existing rates of change this is
+a<00:02:01.909> vector<00:02:02.330> problem<00:02:02.570> in<00:02:02.900> which<00:02:03.049> we<00:02:03.229> know<00:02:03.409> own
+
+00:02:03.670 --> 00:02:03.680 
+a vector problem in which we know own
+
+00:02:03.680 --> 00:02:06.399 
+a vector problem in which we know own
+ships<00:02:04.100> course<00:02:04.369> and<00:02:04.610> speed<00:02:04.900> shown<00:02:05.900> here<00:02:06.229> by<00:02:06.350> the
+
+00:02:06.399 --> 00:02:06.409 
+ships course and speed shown here by the
+
+00:02:06.409 --> 00:02:09.840 
+ships course and speed shown here by the
+length<00:02:06.740> and<00:02:06.950> direction<00:02:07.400> of<00:02:07.549> its<00:02:07.700> speed<00:02:08.000> vector
+
+00:02:09.840 --> 00:02:09.850 
+length and direction of its speed vector
+
+00:02:09.850 --> 00:02:12.400 
+length and direction of its speed vector
+we<00:02:10.850> also<00:02:11.030> know<00:02:11.360> the<00:02:11.540> line<00:02:11.720> of<00:02:11.900> sight<00:02:12.080> to<00:02:12.290> the
+
+00:02:12.400 --> 00:02:12.410 
+we also know the line of sight to the
+
+00:02:12.410 --> 00:02:16.360 
+we also know the line of sight to the
+target<00:02:13.870> the<00:02:14.870> rate<00:02:15.049> of<00:02:15.200> change<00:02:15.230> in<00:02:15.709> range<00:02:15.980> or
+
+00:02:16.360 --> 00:02:16.370 
+target the rate of change in range or
+
+00:02:16.370 --> 00:02:19.600 
+target the rate of change in range or
+range<00:02:17.030> rate<00:02:17.390> is<00:02:17.660> the<00:02:18.470> component<00:02:19.040> along<00:02:19.100> the
+
+00:02:19.600 --> 00:02:19.610 
+range rate is the component along the
+
+00:02:19.610 --> 00:02:23.620 
+range rate is the component along the
+line<00:02:19.790> of<00:02:19.940> sight<00:02:21.850> the<00:02:22.850> rate<00:02:23.030> of<00:02:23.180> change<00:02:23.209> in
+
+00:02:23.620 --> 00:02:23.630 
+line of sight the rate of change in
+
+00:02:23.630 --> 00:02:26.680 
+line of sight the rate of change in
+target<00:02:24.019> bearing<00:02:24.410> or<00:02:24.620> bearing<00:02:25.400> rate<00:02:25.640> is<00:02:25.880> the
+
+00:02:26.680 --> 00:02:26.690 
+target bearing or bearing rate is the
+
+00:02:26.690 --> 00:02:28.509 
+target bearing or bearing rate is the
+component<00:02:27.230> perpendicular<00:02:27.560> to<00:02:28.100> the<00:02:28.310> line<00:02:28.489> of
+
+00:02:28.509 --> 00:02:28.519 
+component perpendicular to the line of
+
+00:02:28.519 --> 00:02:31.229 
+component perpendicular to the line of
+sight
+
+00:02:31.229 --> 00:02:31.239 
+
+00:02:31.239 --> 00:02:33.819 
+
+comparing<00:02:32.239> vector<00:02:32.570> diagrams<00:02:33.110> at<00:02:33.380> to<00:02:33.590> ship
+
+00:02:33.819 --> 00:02:33.829 
+comparing vector diagrams at to ship
+
+00:02:33.829 --> 00:02:35.920 
+comparing vector diagrams at to ship
+positions<00:02:34.340> the<00:02:35.300> difference<00:02:35.690> in<00:02:35.810> the
+
+00:02:35.920 --> 00:02:35.930 
+positions the difference in the
+
+00:02:35.930 --> 00:02:39.339 
+positions the difference in the
+components<00:02:36.530> of<00:02:36.650> bearing<00:02:37.040> rate<00:02:37.280> and<00:02:38.020> also<00:02:39.020> the
+
+00:02:39.339 --> 00:02:39.349 
+components of bearing rate and also the
+
+00:02:39.349 --> 00:02:40.150 
+components of bearing rate and also the
+difference<00:02:39.709> in<00:02:39.860> the
+
+00:02:40.150 --> 00:02:40.160 
+difference in the
+
+00:02:40.160 --> 00:02:42.880 
+difference in the
+opponents<00:02:40.550> of<00:02:40.640> range<00:02:40.910> rate<00:02:41.260> show<00:02:42.260> again<00:02:42.620> how
+
+00:02:42.880 --> 00:02:42.890 
+opponents of range rate show again how
+
+00:02:42.890 --> 00:02:45.670 
+opponents of range rate show again how
+these<00:02:43.130> rates<00:02:43.460> may<00:02:43.670> change<00:02:44.060> even<00:02:44.960> though<00:02:45.290> ships
+
+00:02:45.670 --> 00:02:45.680 
+these rates may change even though ships
+
+00:02:45.680 --> 00:02:50.920 
+these rates may change even though ships
+course<00:02:45.980> and<00:02:46.250> speed<00:02:46.370> are<00:02:46.790> constant<00:02:49.930> these
+
+00:02:50.920 --> 00:02:50.930 
+course and speed are constant these
+
+00:02:50.930 --> 00:02:52.780 
+course and speed are constant these
+rates<00:02:51.230> also<00:02:51.470> change<00:02:52.010> with<00:02:52.220> a<00:02:52.280> change<00:02:52.640> in
+
+00:02:52.780 --> 00:02:52.790 
+rates also change with a change in
+
+00:02:52.790 --> 00:03:01.830 
+rates also change with a change in
+course
+
+00:03:01.830 --> 00:03:01.840 
+
+00:03:01.840 --> 00:03:13.600 
+
+they<00:03:02.410> also<00:03:02.620> change<00:03:03.129> with<00:03:03.340> a<00:03:03.400> change<00:03:03.760> in<00:03:03.910> speed
+
+00:03:13.600 --> 00:03:13.610 
+
+00:03:13.610 --> 00:03:16.270 
+
+the<00:03:14.120> problem<00:03:14.510> is<00:03:14.660> how<00:03:14.930> to<00:03:14.990> provide<00:03:15.410> continuous
+
+00:03:16.270 --> 00:03:16.280 
+the problem is how to provide continuous
+
+00:03:16.280 --> 00:03:19.930 
+the problem is how to provide continuous
+up-to-the-moment<00:03:17.000> solutions<00:03:18.550> this<00:03:19.550> is<00:03:19.610> done
+
+00:03:19.930 --> 00:03:19.940 
+up-to-the-moment solutions this is done
+
+00:03:19.940 --> 00:03:24.160 
+up-to-the-moment solutions this is done
+by<00:03:20.150> the<00:03:20.210> component<00:03:20.900> solver<00:03:22.450> it<00:03:23.450> continuously
+
+00:03:24.160 --> 00:03:24.170 
+by the component solver it continuously
+
+00:03:24.170 --> 00:03:26.920 
+by the component solver it continuously
+forms<00:03:24.650> the<00:03:24.800> vector<00:03:25.130> diagram<00:03:25.780> measures<00:03:26.780> the
+
+00:03:26.920 --> 00:03:26.930 
+forms the vector diagram measures the
+
+00:03:26.930 --> 00:03:29.530 
+forms the vector diagram measures the
+components<00:03:27.500> and<00:03:27.730> transmits<00:03:28.730> their<00:03:28.940> values<00:03:29.300> to
+
+00:03:29.530 --> 00:03:29.540 
+components and transmits their values to
+
+00:03:29.540 --> 00:03:33.460 
+components and transmits their values to
+other<00:03:29.720> parts<00:03:30.080> of<00:03:30.170> the<00:03:30.260> computer<00:03:30.530> to<00:03:32.440> see<00:03:33.440> how
+
+00:03:33.460 --> 00:03:33.470 
+other parts of the computer to see how
+
+00:03:33.470 --> 00:03:36.160 
+other parts of the computer to see how
+it<00:03:33.770> forms<00:03:34.070> the<00:03:34.220> vector<00:03:34.490> diagram<00:03:34.840> we'll<00:03:35.840> start
+
+00:03:36.160 --> 00:03:36.170 
+it forms the vector diagram we'll start
+
+00:03:36.170 --> 00:03:38.290 
+it forms the vector diagram we'll start
+with<00:03:36.350> the<00:03:36.440> speed<00:03:36.680> vector<00:03:37.130> considering<00:03:38.000> first
+
+00:03:38.290 --> 00:03:38.300 
+with the speed vector considering first
+
+00:03:38.300 --> 00:03:43.180 
+with the speed vector considering first
+its<00:03:38.570> direction<00:03:41.050> Direction<00:03:42.050> is<00:03:42.260> measured
+
+00:03:43.180 --> 00:03:43.190 
+its direction Direction is measured
+
+00:03:43.190 --> 00:03:44.910 
+its direction Direction is measured
+relative<00:03:43.220> to<00:03:43.730> this<00:03:44.030> center<00:03:44.360> line<00:03:44.390> which
+
+00:03:44.910 --> 00:03:44.920 
+relative to this center line which
+
+00:03:44.920 --> 00:03:50.800 
+relative to this center line which
+represents<00:03:45.920> the<00:03:46.370> line<00:03:46.460> of<00:03:46.760> sight<00:03:49.540> the<00:03:50.540> speed
+
+00:03:50.800 --> 00:03:50.810 
+represents the line of sight the speed
+
+00:03:50.810 --> 00:03:53.110 
+represents the line of sight the speed
+vector<00:03:51.230> lies<00:03:51.709> along<00:03:52.160> the<00:03:52.370> slot<00:03:52.610> in<00:03:52.850> the<00:03:52.970> vector
+
+00:03:53.110 --> 00:03:53.120 
+vector lies along the slot in the vector
+
+00:03:53.120 --> 00:04:07.230 
+vector lies along the slot in the vector
+gear<00:03:54.820> an<00:03:57.100> input<00:03:58.100> gear<00:03:58.459> turns<00:03:59.180> the<00:03:59.420> vector<00:03:59.780> gear
+
+00:04:07.230 --> 00:04:07.240 
+
+00:04:07.240 --> 00:04:09.430 
+
+direction<00:04:08.240> of<00:04:08.360> the<00:04:08.450> slot<00:04:08.690> relative<00:04:09.200> to<00:04:09.320> the
+
+00:04:09.430 --> 00:04:09.440 
+direction of the slot relative to the
+
+00:04:09.440 --> 00:04:11.860 
+direction of the slot relative to the
+center<00:04:09.709> line<00:04:10.209> reproduces<00:04:11.209> the<00:04:11.240> direction<00:04:11.780> of
+
+00:04:11.860 --> 00:04:11.870 
+center line reproduces the direction of
+
+00:04:11.870 --> 00:04:13.810 
+center line reproduces the direction of
+ship's<00:04:12.170> motion<00:04:12.620> relative<00:04:13.010> to<00:04:13.280> the<00:04:13.490> line<00:04:13.670> of
+
+00:04:13.810 --> 00:04:13.820 
+ship's motion relative to the line of
+
+00:04:13.820 --> 00:04:28.930 
+ship's motion relative to the line of
+sight
+
+00:04:28.930 --> 00:04:28.940 
+
+00:04:28.940 --> 00:04:31.000 
+
+now<00:04:29.540> let's<00:04:29.780> see<00:04:29.960> how<00:04:30.110> vector<00:04:30.530> length<00:04:30.830> is
+
+00:04:31.000 --> 00:04:31.010 
+now let's see how vector length is
+
+00:04:31.010 --> 00:04:38.650 
+now let's see how vector length is
+obtained<00:04:36.310> under<00:04:37.310> the<00:04:37.640> slotted<00:04:38.030> vector<00:04:38.390> gear
+
+00:04:38.650 --> 00:04:38.660 
+obtained under the slotted vector gear
+
+00:04:38.660 --> 00:04:44.920 
+obtained under the slotted vector gear
+is<00:04:38.870> a<00:04:38.900> cam<00:04:42.460> the<00:04:43.460> cam<00:04:43.700> surface<00:04:44.030> is<00:04:44.420> a<00:04:44.480> spiral
+
+00:04:44.920 --> 00:04:44.930 
+is a cam the cam surface is a spiral
+
+00:04:44.930 --> 00:04:49.450 
+is a cam the cam surface is a spiral
+groove<00:04:45.320> cut<00:04:45.680> in<00:04:45.830> the<00:04:45.950> face<00:04:46.130> of<00:04:46.310> a<00:04:46.400> gear<00:04:48.220> the<00:04:49.220> cam
+
+00:04:49.450 --> 00:04:49.460 
+groove cut in the face of a gear the cam
+
+00:04:49.460 --> 00:04:54.390 
+groove cut in the face of a gear the cam
+is<00:04:49.640> positioned<00:04:50.120> by<00:04:50.330> this<00:04:50.390> input<00:04:50.840> gear<00:04:51.290> a
+
+00:04:54.390 --> 00:04:54.400 
+
+00:04:54.400 --> 00:04:58.690 
+
+follower<00:04:55.480> with<00:04:56.480> a<00:04:56.510> projecting<00:04:57.080> pin<00:04:57.460> rides<00:04:58.460> in
+
+00:04:58.690 --> 00:04:58.700 
+follower with a projecting pin rides in
+
+00:04:58.700 --> 00:05:03.970 
+follower with a projecting pin rides in
+the<00:04:58.820> groove<00:05:01.720> the<00:05:02.720> pin<00:05:02.990> extends<00:05:03.530> up<00:05:03.680> through
+
+00:05:03.970 --> 00:05:03.980 
+the groove the pin extends up through
+
+00:05:03.980 --> 00:05:06.310 
+the groove the pin extends up through
+the<00:05:04.100> slot<00:05:04.340> in<00:05:04.520> the<00:05:04.610> vector<00:05:04.760> gear<00:05:05.240> so<00:05:05.900> that<00:05:05.930> pin
+
+00:05:06.310 --> 00:05:06.320 
+the slot in the vector gear so that pin
+
+00:05:06.320 --> 00:05:08.200 
+the slot in the vector gear so that pin
+and<00:05:06.500> follower<00:05:06.830> can<00:05:07.130> move<00:05:07.370> only<00:05:07.640> along<00:05:08.150> the
+
+00:05:08.200 --> 00:05:08.210 
+and follower can move only along the
+
+00:05:08.210 --> 00:05:13.510 
+and follower can move only along the
+slot<00:05:11.080> chip<00:05:12.080> speed<00:05:12.440> is<00:05:12.710> entered<00:05:13.010> through<00:05:13.280> this
+
+00:05:13.510 --> 00:05:13.520 
+slot chip speed is entered through this
+
+00:05:13.520 --> 00:05:17.980 
+slot chip speed is entered through this
+input<00:05:13.790> gear<00:05:16.000> with<00:05:17.000> a<00:05:17.030> transparent<00:05:17.690> vector
+
+00:05:17.980 --> 00:05:17.990 
+input gear with a transparent vector
+
+00:05:17.990 --> 00:05:20.170 
+input gear with a transparent vector
+gear<00:05:18.230> you<00:05:18.830> can<00:05:18.860> see<00:05:19.130> how<00:05:19.310> the<00:05:19.370> spiral<00:05:19.940> groove
+
+00:05:20.170 --> 00:05:20.180 
+gear you can see how the spiral groove
+
+00:05:20.180 --> 00:05:22.120 
+gear you can see how the spiral groove
+moves<00:05:20.660> the<00:05:20.840> follower<00:05:21.200> and<00:05:21.410> pin<00:05:21.680> along<00:05:21.980> the
+
+00:05:22.120 --> 00:05:22.130 
+moves the follower and pin along the
+
+00:05:22.130 --> 00:05:34.480 
+moves the follower and pin along the
+slot
+
+00:05:34.480 --> 00:05:34.490 
+
+00:05:34.490 --> 00:05:36.850 
+
+the<00:05:35.030> distance<00:05:35.449> from<00:05:35.569> gear<00:05:35.870> center<00:05:36.229> to<00:05:36.350> pin<00:05:36.620> is
+
+00:05:36.850 --> 00:05:36.860 
+the distance from gear center to pin is
+
+00:05:36.860 --> 00:05:41.890 
+the distance from gear center to pin is
+the<00:05:37.430> length<00:05:37.610> of<00:05:37.850> the<00:05:37.940> speed<00:05:38.180> vector<00:05:40.780> when<00:05:41.780> the
+
+00:05:41.890 --> 00:05:41.900 
+the length of the speed vector when the
+
+00:05:41.900 --> 00:05:46.450 
+the length of the speed vector when the
+speed<00:05:42.169> is<00:05:42.199> zero<00:05:42.639> the<00:05:43.639> pin<00:05:43.849> is<00:05:44.000> at<00:05:44.120> centre<00:05:45.460> at
+
+00:05:46.450 --> 00:05:46.460 
+speed is zero the pin is at centre at
+
+00:05:46.460 --> 00:05:49.390 
+speed is zero the pin is at centre at
+low<00:05:47.389> speeds<00:05:47.750> the<00:05:48.410> distance<00:05:48.800> from<00:05:48.919> pin<00:05:49.220> to
+
+00:05:49.390 --> 00:05:49.400 
+low speeds the distance from pin to
+
+00:05:49.400 --> 00:05:49.960 
+low speeds the distance from pin to
+Center
+
+00:05:49.960 --> 00:05:49.970 
+Center
+
+00:05:49.970 --> 00:05:56.589 
+Center
+the<00:05:50.479> vector<00:05:50.810> length<00:05:51.050> is<00:05:51.470> small<00:05:54.639> as<00:05:55.639> higher
+
+00:05:56.589 --> 00:05:56.599 
+the vector length is small as higher
+
+00:05:56.599 --> 00:05:58.450 
+the vector length is small as higher
+speeds<00:05:57.020> are<00:05:57.169> introduced<00:05:57.590> the<00:05:58.099> vector
+
+00:05:58.450 --> 00:05:58.460 
+speeds are introduced the vector
+
+00:05:58.460 --> 00:06:05.800 
+speeds are introduced the vector
+increases<00:06:03.669> the<00:06:04.669> vector<00:06:05.000> is<00:06:05.120> maximum<00:06:05.630> when
+
+00:06:05.800 --> 00:06:05.810 
+increases the vector is maximum when
+
+00:06:05.810 --> 00:06:11.170 
+increases the vector is maximum when
+full<00:06:06.110> speed<00:06:06.410> is<00:06:06.590> reached<00:06:09.759> now<00:06:10.759> that<00:06:10.940> we<00:06:11.030> know
+
+00:06:11.170 --> 00:06:11.180 
+full speed is reached now that we know
+
+00:06:11.180 --> 00:06:13.960 
+full speed is reached now that we know
+how<00:06:11.449> the<00:06:11.509> speed<00:06:11.900> vector<00:06:12.259> is<00:06:12.349> produced<00:06:12.800> we<00:06:13.669> next
+
+00:06:13.960 --> 00:06:13.970 
+how the speed vector is produced we next
+
+00:06:13.970 --> 00:06:16.360 
+how the speed vector is produced we next
+want<00:06:14.000> to<00:06:14.240> see
+

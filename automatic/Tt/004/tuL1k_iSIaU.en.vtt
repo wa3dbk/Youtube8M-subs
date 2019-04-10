@@ -1,0 +1,384 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.610 --> 00:00:04.190 
+
+hey<00:00:02.610> there<00:00:02.820> i'm<00:00:03.000> tesla<00:00:03.419> and<00:00:03.540> i'm<00:00:03.720> back<00:00:03.870> with<00:00:03.929> an
+
+00:00:04.190 --> 00:00:04.200 
+hey there i'm tesla and i'm back with an
+
+00:00:04.200 --> 00:00:06.710 
+hey there i'm tesla and i'm back with an
+updated<00:00:04.680> Unreal<00:00:05.130> Engine<00:00:05.279> 4<00:00:05.490> tutorial<00:00:05.700> in<00:00:06.420> this
+
+00:00:06.710 --> 00:00:06.720 
+updated Unreal Engine 4 tutorial in this
+
+00:00:06.720 --> 00:00:08.120 
+updated Unreal Engine 4 tutorial in this
+one<00:00:06.930> we're<00:00:07.170> going<00:00:07.319> to<00:00:07.440> create<00:00:07.620> a<00:00:07.680> flashlight
+
+00:00:08.120 --> 00:00:08.130 
+one we're going to create a flashlight
+
+00:00:08.130 --> 00:00:09.830 
+one we're going to create a flashlight
+the<00:00:08.580> flashlight<00:00:08.610> will<00:00:09.120> always<00:00:09.360> point<00:00:09.630> in<00:00:09.750> the
+
+00:00:09.830 --> 00:00:09.840 
+the flashlight will always point in the
+
+00:00:09.840 --> 00:00:11.749 
+the flashlight will always point in the
+direction<00:00:10.290> the<00:00:10.380> camera<00:00:10.500> is<00:00:10.710> facing<00:00:10.860> and<00:00:11.309> we
+
+00:00:11.749 --> 00:00:11.759 
+direction the camera is facing and we
+
+00:00:11.759 --> 00:00:13.339 
+direction the camera is facing and we
+will<00:00:11.910> add<00:00:12.059> the<00:00:12.210> functionality<00:00:12.599> to<00:00:12.840> turn<00:00:13.139> it<00:00:13.230> on
+
+00:00:13.339 --> 00:00:13.349 
+will add the functionality to turn it on
+
+00:00:13.349 --> 00:00:15.919 
+will add the functionality to turn it on
+and<00:00:13.559> off<00:00:13.830> so<00:00:14.099> it's<00:00:14.670> really<00:00:14.969> quick<00:00:15.089> and<00:00:15.240> easy<00:00:15.330> so
+
+00:00:15.919 --> 00:00:15.929 
+and off so it's really quick and easy so
+
+00:00:15.929 --> 00:00:18.019 
+and off so it's really quick and easy so
+let's<00:00:16.080> begin<00:00:16.520> okay<00:00:17.520> so<00:00:17.580> the<00:00:17.760> first<00:00:17.880> thing
+
+00:00:18.019 --> 00:00:18.029 
+let's begin okay so the first thing
+
+00:00:18.029 --> 00:00:19.970 
+let's begin okay so the first thing
+we're<00:00:18.270> going<00:00:18.359> to<00:00:18.420> do<00:00:18.570> is<00:00:18.750> add<00:00:18.960> our<00:00:19.320> action
+
+00:00:19.970 --> 00:00:19.980 
+we're going to do is add our action
+
+00:00:19.980 --> 00:00:21.950 
+we're going to do is add our action
+mappings<00:00:20.160> for<00:00:20.550> our<00:00:20.699> flashlight<00:00:21.270> so<00:00:21.840> we're
+
+00:00:21.950 --> 00:00:21.960 
+mappings for our flashlight so we're
+
+00:00:21.960 --> 00:00:23.720 
+mappings for our flashlight so we're
+going<00:00:22.050> to<00:00:22.109> help<00:00:22.260> set<00:00:22.470> edit<00:00:22.740> project<00:00:23.550> settings
+
+00:00:23.720 --> 00:00:23.730 
+going to help set edit project settings
+
+00:00:23.730 --> 00:00:27.349 
+going to help set edit project settings
+and<00:00:24.240> then<00:00:24.689> input<00:00:25.699> drop<00:00:26.699> down<00:00:26.849> action<00:00:27.090> mappings
+
+00:00:27.349 --> 00:00:27.359 
+and then input drop down action mappings
+
+00:00:27.359 --> 00:00:29.150 
+and then input drop down action mappings
+and<00:00:27.750> I've<00:00:28.199> already<00:00:28.410> got<00:00:28.500> some<00:00:28.619> set<00:00:28.800> up<00:00:28.890> here<00:00:29.070> we
+
+00:00:29.150 --> 00:00:29.160 
+and I've already got some set up here we
+
+00:00:29.160 --> 00:00:30.710 
+and I've already got some set up here we
+got<00:00:29.250> run<00:00:29.460> crouch<00:00:29.760> and<00:00:29.880> jump<00:00:29.970> and<00:00:30.449> we're<00:00:30.599> going
+
+00:00:30.710 --> 00:00:30.720 
+got run crouch and jump and we're going
+
+00:00:30.720 --> 00:00:32.720 
+got run crouch and jump and we're going
+to<00:00:30.779> add<00:00:30.900> one<00:00:31.050> for<00:00:31.260> our<00:00:31.380> flashlight<00:00:31.949> so<00:00:32.579> we'll
+
+00:00:32.720 --> 00:00:32.730 
+to add one for our flashlight so we'll
+
+00:00:32.730 --> 00:00:35.270 
+to add one for our flashlight so we'll
+click<00:00:32.940> this<00:00:33.120> little<00:00:33.270> plus<00:00:33.360> icon<00:00:34.070> let's<00:00:35.070> name
+
+00:00:35.270 --> 00:00:35.280 
+click this little plus icon let's name
+
+00:00:35.280 --> 00:00:38.389 
+click this little plus icon let's name
+this<00:00:35.430> flashlight<00:00:36.800> and<00:00:37.800> we<00:00:38.010> can<00:00:38.129> drop<00:00:38.309> this
+
+00:00:38.389 --> 00:00:38.399 
+this flashlight and we can drop this
+
+00:00:38.399 --> 00:00:40.729 
+this flashlight and we can drop this
+down<00:00:38.640> and<00:00:38.700> now<00:00:39.300> you<00:00:39.360> choose<00:00:39.930> the<00:00:40.110> key<00:00:40.290> we<00:00:40.559> want
+
+00:00:40.729 --> 00:00:40.739 
+down and now you choose the key we want
+
+00:00:40.739 --> 00:00:42.740 
+down and now you choose the key we want
+to<00:00:40.829> use<00:00:41.010> for<00:00:41.219> our<00:00:41.250> flashlight<00:00:41.850> so<00:00:42.480> I'm<00:00:42.600> going
+
+00:00:42.740 --> 00:00:42.750 
+to use for our flashlight so I'm going
+
+00:00:42.750 --> 00:00:45.500 
+to use for our flashlight so I'm going
+to<00:00:42.809> use<00:00:43.020> f<00:00:43.910> that's<00:00:44.910> all<00:00:45.030> we<00:00:45.090> need<00:00:45.210> to<00:00:45.300> do<00:00:45.390> here
+
+00:00:45.500 --> 00:00:45.510 
+to use f that's all we need to do here
+
+00:00:45.510 --> 00:00:47.569 
+to use f that's all we need to do here
+so<00:00:45.690> let's<00:00:45.840> close<00:00:46.230> this<00:00:46.410> and<00:00:46.590> now<00:00:47.280> let's<00:00:47.460> add
+
+00:00:47.569 --> 00:00:47.579 
+so let's close this and now let's add
+
+00:00:47.579 --> 00:00:49.400 
+so let's close this and now let's add
+the<00:00:47.969> flashlight<00:00:48.570> to<00:00:48.750> our<00:00:48.930> character
+
+00:00:49.400 --> 00:00:49.410 
+the flashlight to our character
+
+00:00:49.410 --> 00:00:51.950 
+the flashlight to our character
+blueprint<00:00:49.770> so<00:00:50.280> to<00:00:50.340> do<00:00:50.579> this<00:00:50.789> or<00:00:51.390> lopa<00:00:51.660> up<00:00:51.809> our
+
+00:00:51.950 --> 00:00:51.960 
+blueprint so to do this or lopa up our
+
+00:00:51.960 --> 00:00:55.760 
+blueprint so to do this or lopa up our
+character<00:00:52.410> will<00:00:53.190> come<00:00:53.430> to<00:00:53.520> components<00:00:54.120> and<00:00:54.770> we
+
+00:00:55.760 --> 00:00:55.770 
+character will come to components and we
+
+00:00:55.770 --> 00:00:58.099 
+character will come to components and we
+can<00:00:55.920> just<00:00:56.129> add<00:00:56.460> component<00:00:57.059> and<00:00:57.180> add<00:00:58.079> a
+
+00:00:58.099 --> 00:00:58.109 
+can just add component and add a
+
+00:00:58.109 --> 00:01:02.150 
+can just add component and add a
+spotlight<00:01:00.350> and<00:01:01.350> I'm<00:01:01.559> just<00:01:01.680> going<00:01:01.800> to<00:01:01.859> move<00:01:02.010> it
+
+00:01:02.150 --> 00:01:02.160 
+spotlight and I'm just going to move it
+
+00:01:02.160 --> 00:01:06.859 
+spotlight and I'm just going to move it
+to<00:01:02.340> about<00:01:02.670> there<00:01:03.239> and<00:01:05.060> we<00:01:06.060> also<00:01:06.390> need<00:01:06.630> to<00:01:06.689> add<00:01:06.840> a
+
+00:01:06.859 --> 00:01:06.869 
+to about there and we also need to add a
+
+00:01:06.869 --> 00:01:08.570 
+to about there and we also need to add a
+camera<00:01:07.200> so<00:01:07.530> we're<00:01:07.650> going<00:01:07.740> to<00:01:07.830> add<00:01:08.010> component
+
+00:01:08.570 --> 00:01:08.580 
+camera so we're going to add component
+
+00:01:08.580 --> 00:01:15.410 
+camera so we're going to add component
+and<00:01:08.720> add<00:01:09.720> a<00:01:09.780> camera<00:01:12.170> and<00:01:13.790> so<00:01:14.790> if<00:01:14.939> we<00:01:15.090> jump<00:01:15.270> in
+
+00:01:15.410 --> 00:01:15.420 
+and add a camera and so if we jump in
+
+00:01:15.420 --> 00:01:16.750 
+and add a camera and so if we jump in
+now
+
+00:01:16.750 --> 00:01:16.760 
+now
+
+00:01:16.760 --> 00:01:18.640 
+now
+you<00:01:17.420> see<00:01:17.600> we<00:01:17.720> have<00:01:17.840> a<00:01:17.870> flashlight<00:01:18.170> but<00:01:18.530> it's
+
+00:01:18.640 --> 00:01:18.650 
+you see we have a flashlight but it's
+
+00:01:18.650 --> 00:01:21.940 
+you see we have a flashlight but it's
+not<00:01:18.770> moving<00:01:19.100> up<00:01:19.340> and<00:01:19.490> down<00:01:19.600> so<00:01:20.600> to<00:01:20.660> do<00:01:20.870> that<00:01:20.950> we
+
+00:01:21.940 --> 00:01:21.950 
+not moving up and down so to do that we
+
+00:01:21.950 --> 00:01:25.930 
+not moving up and down so to do that we
+just<00:01:21.980> simply<00:01:22.520> attach<00:01:24.160> the<00:01:25.160> spotlight<00:01:25.580> to<00:01:25.820> the
+
+00:01:25.930 --> 00:01:25.940 
+just simply attach the spotlight to the
+
+00:01:25.940 --> 00:01:29.910 
+just simply attach the spotlight to the
+camera<00:01:26.560> and<00:01:27.560> we<00:01:27.650> close<00:01:27.830> this<00:01:28.010> go<00:01:28.640> back<00:01:28.790> in<00:01:28.970> and
+
+00:01:29.910 --> 00:01:29.920 
+camera and we close this go back in and
+
+00:01:29.920 --> 00:01:32.110 
+camera and we close this go back in and
+now<00:01:30.920> the<00:01:30.980> flashlight<00:01:31.430> is<00:01:31.550> looking<00:01:31.820> exactly
+
+00:01:32.110 --> 00:01:32.120 
+now the flashlight is looking exactly
+
+00:01:32.120 --> 00:01:36.700 
+now the flashlight is looking exactly
+where<00:01:32.540> our<00:01:32.930> camera<00:01:33.170> is<00:01:33.470> pointing<00:01:34.040> and<00:01:35.530> to<00:01:36.530> set
+
+00:01:36.700 --> 00:01:36.710 
+where our camera is pointing and to set
+
+00:01:36.710 --> 00:01:39.640 
+where our camera is pointing and to set
+it<00:01:36.830> so<00:01:37.010> we<00:01:37.130> can<00:01:37.340> toggle<00:01:38.150> the<00:01:38.330> flashlight<00:01:38.750> we'll
+
+00:01:39.640 --> 00:01:39.650 
+it so we can toggle the flashlight we'll
+
+00:01:39.650 --> 00:01:42.760 
+it so we can toggle the flashlight we'll
+just<00:01:40.090> drag<00:01:41.090> out<00:01:41.300> the<00:01:41.720> spotlight<00:01:42.200> here<00:01:42.440> I'll
+
+00:01:42.760 --> 00:01:42.770 
+just drag out the spotlight here I'll
+
+00:01:42.770 --> 00:01:46.180 
+just drag out the spotlight here I'll
+click<00:01:43.010> get<00:01:43.660> I'll<00:01:44.660> drag<00:01:44.900> this<00:01:45.050> out<00:01:45.260> and<00:01:45.440> we'll
+
+00:01:46.180 --> 00:01:46.190 
+click get I'll drag this out and we'll
+
+00:01:46.190 --> 00:01:50.410 
+click get I'll drag this out and we'll
+type<00:01:46.340> in<00:01:46.490> toggle<00:01:46.940> visibility<00:01:47.740> and<00:01:49.270> we<00:01:50.270> can
+
+00:01:50.410 --> 00:01:50.420 
+type in toggle visibility and we can
+
+00:01:50.420 --> 00:01:52.180 
+type in toggle visibility and we can
+call<00:01:50.570> our<00:01:50.780> action<00:01:51.229> mapping<00:01:51.530> now<00:01:51.650> so<00:01:51.860> we'll
+
+00:01:52.180 --> 00:01:52.190 
+call our action mapping now so we'll
+
+00:01:52.190 --> 00:01:56.110 
+call our action mapping now so we'll
+right-click<00:01:52.430> come<00:01:53.360> to<00:01:53.830> input<00:01:54.830> action<00:01:55.790> events
+
+00:01:56.110 --> 00:01:56.120 
+right-click come to input action events
+
+00:01:56.120 --> 00:01:58.690 
+right-click come to input action events
+and<00:01:56.720> we<00:01:56.840> have<00:01:56.870> flashlight<00:01:57.410> so<00:01:58.280> when<00:01:58.430> we<00:01:58.520> press
+
+00:01:58.690 --> 00:01:58.700 
+and we have flashlight so when we press
+
+00:01:58.700 --> 00:02:06.000 
+and we have flashlight so when we press
+it<00:01:58.910> we're<00:01:59.150> going<00:01:59.300> to<00:01:59.360> toggle<00:01:59.540> the<00:01:59.750> visibility
+
+00:02:06.000 --> 00:02:06.010 
+
+00:02:06.010 --> 00:02:08.440 
+
+okay<00:02:07.010> and<00:02:07.190> we<00:02:07.280> can<00:02:07.400> also<00:02:07.520> change<00:02:08.330> the
+
+00:02:08.440 --> 00:02:08.450 
+okay and we can also change the
+
+00:02:08.450 --> 00:02:11.440 
+okay and we can also change the
+brightness<00:02:08.660> and<00:02:09.490> how<00:02:10.490> far<00:02:10.790> their<00:02:11.030> flashlight
+
+00:02:11.440 --> 00:02:11.450 
+brightness and how far their flashlight
+
+00:02:11.450 --> 00:02:14.590 
+brightness and how far their flashlight
+shines<00:02:12.290> in<00:02:12.560> the<00:02:13.340> settings<00:02:13.700> on<00:02:13.940> the<00:02:14.000> components
+
+00:02:14.590 --> 00:02:14.600 
+shines in the settings on the components
+
+00:02:14.600 --> 00:02:21.490 
+shines in the settings on the components
+tab<00:02:15.550> so<00:02:16.550> we<00:02:16.670> can<00:02:17.800> get<00:02:18.800> in<00:02:19.010> a<00:02:19.100> cone<00:02:20.380> change<00:02:21.380> the
+
+00:02:21.490 --> 00:02:21.500 
+tab so we can get in a cone change the
+
+00:02:21.500 --> 00:02:23.770 
+tab so we can get in a cone change the
+length<00:02:21.709> of<00:02:21.950> it<00:02:22.100> and<00:02:22.340> we<00:02:23.180> can<00:02:23.300> also<00:02:23.420> change<00:02:23.600> the
+
+00:02:23.770 --> 00:02:23.780 
+length of it and we can also change the
+
+00:02:23.780 --> 00:02:30.899 
+length of it and we can also change the
+intensity
+
+00:02:30.899 --> 00:02:30.909 
+
+00:02:30.909 --> 00:02:33.130 
+
+okay<00:02:31.909> guys<00:02:32.060> so<00:02:32.120> it's<00:02:32.359> as<00:02:32.450> simple<00:02:32.480> as<00:02:32.780> that<00:02:32.810> I
+
+00:02:33.130 --> 00:02:33.140 
+okay guys so it's as simple as that I
+
+00:02:33.140 --> 00:02:34.690 
+okay guys so it's as simple as that I
+hope<00:02:33.290> you<00:02:33.379> enjoyed<00:02:33.409> this<00:02:33.739> tutorial<00:02:33.920> thanks
+
+00:02:34.690 --> 00:02:34.700 
+hope you enjoyed this tutorial thanks
+
+00:02:34.700 --> 00:02:36.039 
+hope you enjoyed this tutorial thanks
+for<00:02:34.760> checking<00:02:34.939> out<00:02:35.150> and<00:02:35.390> make<00:02:35.659> sure<00:02:35.689> you<00:02:35.870> stay
+
+00:02:36.039 --> 00:02:36.049 
+for checking out and make sure you stay
+
+00:02:36.049 --> 00:02:37.599 
+for checking out and make sure you stay
+subscribed<00:02:36.230> for<00:02:36.620> my<00:02:36.739> future<00:02:36.980> tutorials
+
+00:02:37.599 --> 00:02:37.609 
+subscribed for my future tutorials
+
+00:02:37.609 --> 00:02:40.299 
+subscribed for my future tutorials
+cheers<00:02:38.180> guys
+
