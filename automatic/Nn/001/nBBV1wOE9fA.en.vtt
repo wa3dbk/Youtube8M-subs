@@ -1,0 +1,992 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:10.459 --> 00:00:13.850 
+
+hi<00:00:11.459> guys<00:00:11.789> welcome<00:00:12.660> to<00:00:13.020> the<00:00:13.139> assembly<00:00:13.500> language
+
+00:00:13.850 --> 00:00:13.860 
+hi guys welcome to the assembly language
+
+00:00:13.860 --> 00:00:15.980 
+hi guys welcome to the assembly language
+tutorial<00:00:14.400> in<00:00:14.639> this<00:00:15.299> tutorial<00:00:15.360> we<00:00:15.840> will<00:00:15.869> be
+
+00:00:15.980 --> 00:00:15.990 
+tutorial in this tutorial we will be
+
+00:00:15.990 --> 00:00:18.500 
+tutorial in this tutorial we will be
+learning<00:00:16.350> some<00:00:16.830> assembly<00:00:17.250> language<00:00:17.670> and<00:00:17.699> we
+
+00:00:18.500 --> 00:00:18.510 
+learning some assembly language and we
+
+00:00:18.510 --> 00:00:20.810 
+learning some assembly language and we
+will<00:00:18.630> be<00:00:18.810> discussing<00:00:19.200> registers<00:00:19.920> and<00:00:20.160> their
+
+00:00:20.810 --> 00:00:20.820 
+will be discussing registers and their
+
+00:00:20.820 --> 00:00:24.380 
+will be discussing registers and their
+usages<00:00:22.460> if<00:00:23.460> you<00:00:23.700> have<00:00:23.820> a<00:00:23.850> knowledge<00:00:24.240> of
+
+00:00:24.380 --> 00:00:24.390 
+usages if you have a knowledge of
+
+00:00:24.390 --> 00:00:27.740 
+usages if you have a knowledge of
+languages<00:00:24.930> like<00:00:25.140> C<00:00:25.440> Pascal<00:00:26.130> Java<00:00:26.790> then<00:00:27.420> it<00:00:27.570> is
+
+00:00:27.740 --> 00:00:27.750 
+languages like C Pascal Java then it is
+
+00:00:27.750 --> 00:00:30.050 
+languages like C Pascal Java then it is
+good<00:00:28.080> if<00:00:28.800> you<00:00:29.010> don't<00:00:29.280> then<00:00:29.520> it<00:00:29.640> does<00:00:29.820> not<00:00:29.850> have
+
+00:00:30.050 --> 00:00:30.060 
+good if you don't then it does not have
+
+00:00:30.060 --> 00:00:34.369 
+good if you don't then it does not have
+that<00:00:30.830> much<00:00:31.830> impact<00:00:32.780> if<00:00:33.780> you<00:00:34.050> are<00:00:34.140> learning
+
+00:00:34.369 --> 00:00:34.379 
+that much impact if you are learning
+
+00:00:34.379 --> 00:00:36.529 
+that much impact if you are learning
+some<00:00:34.710> other<00:00:34.829> language<00:00:35.519> that<00:00:35.730> architecture<00:00:36.420> is
+
+00:00:36.529 --> 00:00:36.539 
+some other language that architecture is
+
+00:00:36.539 --> 00:00:38.540 
+some other language that architecture is
+not<00:00:36.570> so<00:00:37.050> important<00:00:37.530> but<00:00:37.559> in<00:00:37.980> assembly<00:00:38.399> line
+
+00:00:38.540 --> 00:00:38.550 
+not so important but in assembly line
+
+00:00:38.550 --> 00:00:40.970 
+not so important but in assembly line
+with<00:00:38.760> architecture<00:00:39.359> is<00:00:39.510> very<00:00:39.690> important<00:00:40.499> so
+
+00:00:40.970 --> 00:00:40.980 
+with architecture is very important so
+
+00:00:40.980 --> 00:00:42.889 
+with architecture is very important so
+we<00:00:41.159> will<00:00:41.280> be<00:00:41.429> discussing<00:00:41.940> that<00:00:42.239> detector<00:00:42.780> of
+
+00:00:42.889 --> 00:00:42.899 
+we will be discussing that detector of
+
+00:00:42.899 --> 00:00:45.470 
+we will be discussing that detector of
+the<00:00:42.929> eight<00:00:43.170> zero<00:00:43.559> eight<00:00:43.739> six<00:00:44.480> microprocessor
+
+00:00:45.470 --> 00:00:45.480 
+the eight zero eight six microprocessor
+
+00:00:45.480 --> 00:00:48.439 
+the eight zero eight six microprocessor
+first<00:00:46.489> well<00:00:47.489> if<00:00:47.670> you<00:00:47.819> are<00:00:47.879> looking<00:00:48.239> for
+
+00:00:48.439 --> 00:00:48.449 
+first well if you are looking for
+
+00:00:48.449 --> 00:00:50.119 
+first well if you are looking for
+assembly<00:00:48.870> language<00:00:49.170> tutorial<00:00:49.589> then<00:00:49.769> you<00:00:49.890> must
+
+00:00:50.119 --> 00:00:50.129 
+assembly language tutorial then you must
+
+00:00:50.129 --> 00:00:51.529 
+assembly language tutorial then you must
+have<00:00:50.309> some<00:00:50.519> knowledge<00:00:50.699> about<00:00:50.909> the<00:00:51.210> number
+
+00:00:51.529 --> 00:00:51.539 
+have some knowledge about the number
+
+00:00:51.539 --> 00:00:55.610 
+have some knowledge about the number
+system<00:00:51.719> and<00:00:52.050> I<00:00:52.379> think<00:00:52.890> you<00:00:53.039> have<00:00:53.609> it<00:00:54.409> for<00:00:55.409> those
+
+00:00:55.610 --> 00:00:55.620 
+system and I think you have it for those
+
+00:00:55.620 --> 00:00:57.229 
+system and I think you have it for those
+who<00:00:55.649> don't<00:00:56.010> know<00:00:56.100> assembly<00:00:56.609> the<00:00:56.879> low-level
+
+00:00:57.229 --> 00:00:57.239 
+who don't know assembly the low-level
+
+00:00:57.239 --> 00:00:59.660 
+who don't know assembly the low-level
+language<00:00:57.769> means<00:00:58.769> it<00:00:59.069> does<00:00:59.219> not<00:00:59.370> have<00:00:59.639> that
+
+00:00:59.660 --> 00:00:59.670 
+language means it does not have that
+
+00:00:59.670 --> 00:01:02.559 
+language means it does not have that
+English<00:01:00.239> centers<00:01:00.600> that<00:01:00.899> a<00:01:00.929> C++<00:01:01.769> Java<00:01:01.799> have
+
+00:01:02.559 --> 00:01:02.569 
+English centers that a C++ Java have
+
+00:01:02.569 --> 00:01:05.660 
+English centers that a C++ Java have
+well<00:01:03.569> a<00:01:03.809> computer<00:01:04.409> system<00:01:04.769> is<00:01:04.949> made<00:01:05.159> of<00:01:05.309> three
+
+00:01:05.660 --> 00:01:05.670 
+well a computer system is made of three
+
+00:01:05.670 --> 00:01:08.270 
+well a computer system is made of three
+main<00:01:06.000> blocks<00:01:06.450> a<00:01:06.780> memory<00:01:07.740> system<00:01:07.890> are
+
+00:01:08.270 --> 00:01:08.280 
+main blocks a memory system are
+
+00:01:08.280 --> 00:01:10.760 
+main blocks a memory system are
+microprocessor<00:01:09.150> and<00:01:09.390> i/o<00:01:09.600> system<00:01:10.230> these<00:01:10.530> are
+
+00:01:10.760 --> 00:01:10.770 
+microprocessor and i/o system these are
+
+00:01:10.770 --> 00:01:13.430 
+microprocessor and i/o system these are
+interconnected<00:01:11.280> with<00:01:11.880> the<00:01:11.940> buses<00:01:12.510> and<00:01:12.840> what
+
+00:01:13.430 --> 00:01:13.440 
+interconnected with the buses and what
+
+00:01:13.440 --> 00:01:15.350 
+interconnected with the buses and what
+does<00:01:13.590> a<00:01:13.620> memory<00:01:14.070> system<00:01:14.220> a<00:01:14.520> memory<00:01:14.910> system<00:01:15.030> the
+
+00:01:15.350 --> 00:01:15.360 
+does a memory system a memory system the
+
+00:01:15.360 --> 00:01:19.270 
+does a memory system a memory system the
+RAM<00:01:15.630> Rome<00:01:16.500> cachet<00:01:17.460> and<00:01:17.640> all<00:01:18.150> kind<00:01:18.420> of<00:01:18.540> the<00:01:18.660> Rams
+
+00:01:19.270 --> 00:01:19.280 
+RAM Rome cachet and all kind of the Rams
+
+00:01:19.280 --> 00:01:23.270 
+RAM Rome cachet and all kind of the Rams
+such<00:01:20.280> as<00:01:20.430> DDR<00:01:21.120> and<00:01:21.420> et<00:01:22.020> Rome
+
+00:01:23.270 --> 00:01:23.280 
+such as DDR and et Rome
+
+00:01:23.280 --> 00:01:26.070 
+such as DDR and et Rome
+etcetera<00:01:24.360> microprocessor<00:01:25.360> is<00:01:25.509> the<00:01:25.600> heart<00:01:25.869> of
+
+00:01:26.070 --> 00:01:26.080 
+etcetera microprocessor is the heart of
+
+00:01:26.080 --> 00:01:30.870 
+etcetera microprocessor is the heart of
+the<00:01:26.200> system<00:01:27.840> the<00:01:28.840> oded<00:01:29.340> computer<00:01:30.340> system<00:01:30.729> is
+
+00:01:30.870 --> 00:01:30.880 
+the system the oded computer system is
+
+00:01:30.880 --> 00:01:33.149 
+the system the oded computer system is
+nothing<00:01:31.560> example<00:01:32.560> of<00:01:32.710> the<00:01:32.799> microprocessor
+
+00:01:33.149 --> 00:01:33.159 
+nothing example of the microprocessor
+
+00:01:33.159 --> 00:01:35.249 
+nothing example of the microprocessor
+aids<00:01:33.729> rate<00:01:34.060> six<00:01:34.360> eight<00:01:34.570> zero<00:01:34.600> eight<00:01:34.990> eight
+
+00:01:35.249 --> 00:01:35.259 
+aids rate six eight zero eight eight
+
+00:01:35.259 --> 00:01:37.920 
+aids rate six eight zero eight eight
+eight<00:01:35.439> zero<00:01:35.950> one<00:01:36.040> eight<00:01:36.250> six<00:01:36.610> pentium<00:01:37.509> pentium
+
+00:01:37.920 --> 00:01:37.930 
+eight zero one eight six pentium pentium
+
+00:01:37.930 --> 00:01:41.130 
+eight zero one eight six pentium pentium
+3<00:01:37.960> equal<00:01:38.500> to<00:01:38.740> etcetera<00:01:39.090> etcetera<00:01:40.090> and<00:01:40.630> IO
+
+00:01:41.130 --> 00:01:41.140 
+3 equal to etcetera etcetera and IO
+
+00:01:41.140 --> 00:01:43.550 
+3 equal to etcetera etcetera and IO
+system<00:01:41.710> are<00:01:41.890> the<00:01:41.979> printer<00:01:42.399> floppy<00:01:42.940> mouse
+
+00:01:43.550 --> 00:01:43.560 
+system are the printer floppy mouse
+
+00:01:43.560 --> 00:01:47.760 
+system are the printer floppy mouse
+serial<00:01:44.560> communication<00:01:45.310> tape<00:01:45.850> backup<00:01:46.390> etc<00:01:46.930> but
+
+00:01:47.760 --> 00:01:47.770 
+serial communication tape backup etc but
+
+00:01:47.770 --> 00:01:50.670 
+serial communication tape backup etc but
+see<00:01:48.149> let's<00:01:49.149> talk<00:01:49.420> about<00:01:49.570> buses<00:01:50.110> a<00:01:50.140> little<00:01:50.470> bit
+
+00:01:50.670 --> 00:01:50.680 
+see let's talk about buses a little bit
+
+00:01:50.680 --> 00:01:53.249 
+see let's talk about buses a little bit
+more<00:01:50.920> there<00:01:51.610> are<00:01:51.700> three<00:01:51.970> type<00:01:52.210> of<00:01:52.240> buses<00:01:52.810> data
+
+00:01:53.249 --> 00:01:53.259 
+more there are three type of buses data
+
+00:01:53.259 --> 00:01:56.999 
+more there are three type of buses data
+bus<00:01:53.619> address<00:01:54.100> bus<00:01:54.549> and<00:01:54.820> control<00:01:55.450> bus<00:01:55.690> data<00:01:56.679> bus
+
+00:01:56.999 --> 00:01:57.009 
+bus address bus and control bus data bus
+
+00:01:57.009 --> 00:01:59.010 
+bus address bus and control bus data bus
+can<00:01:57.250> be<00:01:57.280> bi-directional<00:01:57.640> mean<00:01:58.420> it<00:01:58.659> can<00:01:58.869> be
+
+00:01:59.010 --> 00:01:59.020 
+can be bi-directional mean it can be
+
+00:01:59.020 --> 00:02:01.230 
+can be bi-directional mean it can be
+used<00:01:59.229> to<00:01:59.409> send<00:01:59.679> or<00:01:59.860> receive<00:01:59.920> the<00:02:00.280> data<00:02:00.340> address
+
+00:02:01.230 --> 00:02:01.240 
+used to send or receive the data address
+
+00:02:01.240 --> 00:02:03.719 
+used to send or receive the data address
+bus<00:02:01.509> address<00:02:02.259> bus<00:02:02.560> is<00:02:02.710> a<00:02:02.770> unidirectional<00:02:03.100> that
+
+00:02:03.719 --> 00:02:03.729 
+bus address bus is a unidirectional that
+
+00:02:03.729 --> 00:02:05.639 
+bus address bus is a unidirectional that
+a<00:02:03.909> microprocessor<00:02:04.659> will<00:02:05.049> generate<00:02:05.409> the
+
+00:02:05.639 --> 00:02:05.649 
+a microprocessor will generate the
+
+00:02:05.649 --> 00:02:07.350 
+a microprocessor will generate the
+address<00:02:06.009> and<00:02:06.159> it<00:02:06.250> will<00:02:06.369> send<00:02:06.759> it<00:02:06.970> to<00:02:07.179> them
+
+00:02:07.350 --> 00:02:07.360 
+address and it will send it to them
+
+00:02:07.360 --> 00:02:10.590 
+address and it will send it to them
+memory<00:02:08.080> system<00:02:08.470> and<00:02:08.950> a<00:02:09.519> control<00:02:09.970> bus<00:02:10.179> control
+
+00:02:10.590 --> 00:02:10.600 
+memory system and a control bus control
+
+00:02:10.600 --> 00:02:12.240 
+memory system and a control bus control
+bus<00:02:10.840> can<00:02:11.140> be<00:02:11.170> unit<00:02:11.650> ratio<00:02:11.830> or<00:02:12.100> the
+
+00:02:12.240 --> 00:02:12.250 
+bus can be unit ratio or the
+
+00:02:12.250 --> 00:02:13.850 
+bus can be unit ratio or the
+bi-directional
+
+00:02:13.850 --> 00:02:13.860 
+bi-directional
+
+00:02:13.860 --> 00:02:17.340 
+bi-directional
+means<00:02:14.860> a<00:02:15.569> microprocessor<00:02:16.569> will<00:02:16.959> issue<00:02:17.170> a
+
+00:02:17.340 --> 00:02:17.350 
+means a microprocessor will issue a
+
+00:02:17.350 --> 00:02:19.350 
+means a microprocessor will issue a
+control<00:02:17.920> signal<00:02:18.160> that<00:02:18.459> a<00:02:18.489> summer<00:02:18.819> device<00:02:19.180> is
+
+00:02:19.350 --> 00:02:19.360 
+control signal that a summer device is
+
+00:02:19.360 --> 00:02:21.900 
+control signal that a summer device is
+read-only<00:02:19.600> or<00:02:20.140> write<00:02:20.380> only<00:02:20.620> and<00:02:20.920> device<00:02:21.730> can
+
+00:02:21.900 --> 00:02:21.910 
+read-only or write only and device can
+
+00:02:21.910 --> 00:02:23.309 
+read-only or write only and device can
+also<00:02:22.060> issue<00:02:22.360> some<00:02:22.690> signals<00:02:23.170> through<00:02:23.290> the
+
+00:02:23.309 --> 00:02:23.319 
+also issue some signals through the
+
+00:02:23.319 --> 00:02:25.559 
+also issue some signals through the
+microprocessor<00:02:23.920> so<00:02:24.489> it<00:02:24.549> can<00:02:24.760> be<00:02:24.940> unit<00:02:25.269> Russian
+
+00:02:25.559 --> 00:02:25.569 
+microprocessor so it can be unit Russian
+
+00:02:25.569 --> 00:02:27.720 
+microprocessor so it can be unit Russian
+on<00:02:25.720> the<00:02:25.840> bike<00:02:26.049> ration<00:02:26.769> depends<00:02:27.250> upon<00:02:27.370> its
+
+00:02:27.720 --> 00:02:27.730 
+on the bike ration depends upon its
+
+00:02:27.730 --> 00:02:33.210 
+on the bike ration depends upon its
+usages<00:02:29.910> now<00:02:30.910> we<00:02:31.359> will<00:02:31.540> look<00:02:31.720> inside<00:02:32.049> the<00:02:32.709> CPU
+
+00:02:33.210 --> 00:02:33.220 
+usages now we will look inside the CPU
+
+00:02:33.220 --> 00:02:35.610 
+usages now we will look inside the CPU
+we<00:02:33.910> will<00:02:34.000> be<00:02:34.150> discussing<00:02:34.600> eight<00:02:34.959> zero<00:02:35.410> eight
+
+00:02:35.610 --> 00:02:35.620 
+we will be discussing eight zero eight
+
+00:02:35.620 --> 00:02:39.240 
+we will be discussing eight zero eight
+six<00:02:35.920> so<00:02:36.190> here<00:02:36.459> are<00:02:36.760> the<00:02:36.970> its<00:02:37.450> registers<00:02:38.109> it<00:02:38.739> has
+
+00:02:39.240 --> 00:02:39.250 
+six so here are the its registers it has
+
+00:02:39.250 --> 00:02:41.910 
+six so here are the its registers it has
+some<00:02:39.430> general-purpose<00:02:40.180> registers<00:02:40.709> which<00:02:41.709> are
+
+00:02:41.910 --> 00:02:41.920 
+some general-purpose registers which are
+
+00:02:41.920 --> 00:02:46.040 
+some general-purpose registers which are
+ax<00:02:42.519> BX<00:02:42.940> CX<00:02:43.450> DX
+
+00:02:46.040 --> 00:02:46.050 
+
+00:02:46.050 --> 00:02:49.070 
+
+or<00:02:46.440> other<00:02:46.830> now<00:02:47.490> let<00:02:47.790> us<00:02:47.820> talk<00:02:48.060> about<00:02:48.120> the<00:02:48.480> ax<00:02:48.810> ax
+
+00:02:49.070 --> 00:02:49.080 
+or other now let us talk about the ax ax
+
+00:02:49.080 --> 00:02:51.350 
+or other now let us talk about the ax ax
+is<00:02:49.350> the<00:02:49.440> accumulator<00:02:50.010> register<00:02:50.160> mean<00:02:51.060> it<00:02:51.240> is
+
+00:02:51.350 --> 00:02:51.360 
+is the accumulator register mean it is
+
+00:02:51.360 --> 00:02:54.440 
+is the accumulator register mean it is
+used<00:02:51.600> to<00:02:51.840> store<00:02:52.260> the<00:02:52.290> result<00:02:52.710> of<00:02:53.360> addition<00:02:54.360> or
+
+00:02:54.440 --> 00:02:54.450 
+used to store the result of addition or
+
+00:02:54.450 --> 00:02:56.120 
+used to store the result of addition or
+subtraction<00:02:54.600> but<00:02:55.140> it<00:02:55.320> is<00:02:55.410> a<00:02:55.500> general<00:02:55.710> purpose
+
+00:02:56.120 --> 00:02:56.130 
+subtraction but it is a general purpose
+
+00:02:56.130 --> 00:02:58.520 
+subtraction but it is a general purpose
+register<00:02:56.910> it<00:02:57.150> depends<00:02:57.660> upon<00:02:57.750> the<00:02:58.080> programmer
+
+00:02:58.520 --> 00:02:58.530 
+register it depends upon the programmer
+
+00:02:58.530 --> 00:03:02.420 
+register it depends upon the programmer
+to<00:02:58.680> say<00:02:59.040> what<00:02:59.760> it<00:03:00.000> wants<00:03:00.600> in<00:03:00.720> it<00:03:00.840> well<00:03:01.650> it<00:03:02.010> is<00:03:02.220> a
+
+00:03:02.420 --> 00:03:02.430 
+to say what it wants in it well it is a
+
+00:03:02.430 --> 00:03:05.600 
+to say what it wants in it well it is a
+16-bit<00:03:03.270> register<00:03:03.810> and<00:03:03.990> it's<00:03:04.410> lower<00:03:05.100> but<00:03:05.430> is
+
+00:03:05.600 --> 00:03:05.610 
+16-bit register and it's lower but is
+
+00:03:05.610 --> 00:03:08.420 
+16-bit register and it's lower but is
+called<00:03:05.880> al<00:03:06.450> its<00:03:06.690> upper<00:03:07.230> by<00:03:07.380> descarte<00:03:07.890> H<00:03:08.160> mean
+
+00:03:08.420 --> 00:03:08.430 
+called al its upper by descarte H mean
+
+00:03:08.430 --> 00:03:10.730 
+called al its upper by descarte H mean
+if<00:03:08.640> you<00:03:08.850> want<00:03:09.060> or<00:03:09.240> -<00:03:09.390> its<00:03:09.660> lower<00:03:09.960> but<00:03:10.200> you<00:03:10.590> can
+
+00:03:10.730 --> 00:03:10.740 
+if you want or - its lower but you can
+
+00:03:10.740 --> 00:03:12.920 
+if you want or - its lower but you can
+just<00:03:10.920> put<00:03:11.160> Al<00:03:11.640> and<00:03:11.850> it<00:03:12.000> the<00:03:12.300> data<00:03:12.510> will<00:03:12.780> be
+
+00:03:12.920 --> 00:03:12.930 
+just put Al and it the data will be
+
+00:03:12.930 --> 00:03:14.690 
+just put Al and it the data will be
+stored<00:03:12.990> or<00:03:13.440> retrieved<00:03:13.860> from<00:03:14.010> the<00:03:14.130> air<00:03:14.340> and
+
+00:03:14.690 --> 00:03:14.700 
+stored or retrieved from the air and
+
+00:03:14.700 --> 00:03:16.940 
+stored or retrieved from the air and
+similarly<00:03:15.360> similar<00:03:16.140> is<00:03:16.290> the<00:03:16.440> case<00:03:16.650> with<00:03:16.860> the
+
+00:03:16.940 --> 00:03:16.950 
+similarly similar is the case with the
+
+00:03:16.950 --> 00:03:17.390 
+similarly similar is the case with the
+aah
+
+00:03:17.390 --> 00:03:17.400 
+aah
+
+00:03:17.400 --> 00:03:20.690 
+aah
+similarly<00:03:18.120> the<00:03:18.720> BX<00:03:19.110> is<00:03:19.320> also<00:03:20.010> general<00:03:20.400> purpose
+
+00:03:20.690 --> 00:03:20.700 
+similarly the BX is also general purpose
+
+00:03:20.700 --> 00:03:22.340 
+similarly the BX is also general purpose
+register<00:03:21.120> and<00:03:21.330> it's<00:03:21.720> hole<00:03:21.960> the<00:03:22.170> base
+
+00:03:22.340 --> 00:03:22.350 
+register and it's hole the base
+
+00:03:22.350 --> 00:03:24.770 
+register and it's hole the base
+addresses<00:03:22.890> all<00:03:23.190> that<00:03:23.400> stuff<00:03:23.640> and<00:03:23.880> important
+
+00:03:24.770 --> 00:03:24.780 
+addresses all that stuff and important
+
+00:03:24.780 --> 00:03:27.440 
+addresses all that stuff and important
+one<00:03:24.900> is<00:03:25.020> CX<00:03:25.440> it<00:03:25.710> holds<00:03:26.550> account<00:03:26.880> for<00:03:27.120> various
+
+00:03:27.440 --> 00:03:27.450 
+one is CX it holds account for various
+
+00:03:27.450 --> 00:03:29.300 
+one is CX it holds account for various
+instruction<00:03:28.080> means<00:03:28.530> if<00:03:28.770> you<00:03:28.920> are<00:03:29.010> generating
+
+00:03:29.300 --> 00:03:29.310 
+instruction means if you are generating
+
+00:03:29.310 --> 00:03:32.210 
+instruction means if you are generating
+a<00:03:29.580> loop<00:03:29.790> it<00:03:30.480> will<00:03:30.720> hold<00:03:31.050> the<00:03:31.710> current<00:03:32.010> loop
+
+00:03:32.210 --> 00:03:32.220 
+a loop it will hold the current loop
+
+00:03:32.220 --> 00:03:35.990 
+a loop it will hold the current loop
+status<00:03:32.790> or<00:03:33.170> like<00:03:34.170> see<00:03:34.530> if<00:03:35.040> u<00:03:35.190> is<00:03:35.580> equal<00:03:35.610> to<00:03:35.850> I
+
+00:03:35.990 --> 00:03:36.000 
+status or like see if u is equal to I
+
+00:03:36.000 --> 00:03:38.000 
+status or like see if u is equal to I
+plus<00:03:36.030> plus<00:03:36.600> and<00:03:36.870> I<00:03:37.110> is<00:03:37.170> the<00:03:37.290> variable<00:03:37.860> which
+
+00:03:38.000 --> 00:03:38.010 
+plus plus and I is the variable which
+
+00:03:38.010 --> 00:03:40.400 
+plus plus and I is the variable which
+counts<00:03:38.460> how<00:03:39.090> many<00:03:39.120> times<00:03:39.660> the<00:03:39.840> loop<00:03:40.020> will<00:03:40.260> be
+
+00:03:40.400 --> 00:03:40.410 
+counts how many times the loop will be
+
+00:03:40.410 --> 00:03:43.520 
+counts how many times the loop will be
+executed<00:03:40.500> in<00:03:41.430> assembly<00:03:41.910> the<00:03:42.330> CX<00:03:42.780> can<00:03:43.050> do<00:03:43.320> the
+
+00:03:43.520 --> 00:03:43.530 
+executed in assembly the CX can do the
+
+00:03:43.530 --> 00:03:46.910 
+executed in assembly the CX can do the
+same<00:03:43.800> stuff<00:03:44.190> and<00:03:44.600> the<00:03:45.600> DX<00:03:45.990> DX<00:03:46.440> is<00:03:46.590> a<00:03:46.680> data
+
+00:03:46.910 --> 00:03:46.920 
+same stuff and the DX DX is a data
+
+00:03:46.920 --> 00:03:49.550 
+same stuff and the DX DX is a data
+register<00:03:47.460> and<00:03:47.640> also<00:03:48.600> a<00:03:48.630> multi-purpose<00:03:49.230> it<00:03:49.470> is
+
+00:03:49.550 --> 00:03:49.560 
+register and also a multi-purpose it is
+
+00:03:49.560 --> 00:03:51.500 
+register and also a multi-purpose it is
+red<00:03:49.800> it<00:03:50.100> is<00:03:50.250> Japan<00:03:50.490> for<00:03:50.700> the<00:03:50.760> programmer<00:03:51.090> to<00:03:51.180> do
+
+00:03:51.500 --> 00:03:51.510 
+red it is Japan for the programmer to do
+
+00:03:51.510 --> 00:03:53.270 
+red it is Japan for the programmer to do
+whatever<00:03:51.750> you<00:03:52.110> want<00:03:52.470> with<00:03:53.100> it
+
+00:03:53.270 --> 00:03:53.280 
+whatever you want with it
+
+00:03:53.280 --> 00:03:55.580 
+whatever you want with it
+source<00:03:54.150> in<00:03:54.330> this<00:03:54.450> resistor<00:03:54.930> destination
+
+00:03:55.580 --> 00:03:55.590 
+source in this resistor destination
+
+00:03:55.590 --> 00:03:59.530 
+source in this resistor destination
+index<00:03:55.740> base<00:03:56.459> pointer<00:03:57.090> and<00:03:57.330> stack<00:03:58.200> pointer
+
+00:03:59.530 --> 00:03:59.540 
+index base pointer and stack pointer
+
+00:03:59.540 --> 00:04:02.660 
+index base pointer and stack pointer
+some<00:04:00.540> people<00:04:00.930> call<00:04:01.560> the<00:04:01.770> strike<00:04:02.160> Wanderers
+
+00:04:02.660 --> 00:04:02.670 
+some people call the strike Wanderers
+
+00:04:02.670 --> 00:04:04.040 
+some people call the strike Wanderers
+also<00:04:03.000> as<00:04:03.090> a
+
+00:04:04.040 --> 00:04:04.050 
+also as a
+
+00:04:04.050 --> 00:04:06.890 
+also as a
+bass<00:04:04.850> general<00:04:05.850> purpose<00:04:06.150> register<00:04:06.540> and<00:04:06.690> some
+
+00:04:06.890 --> 00:04:06.900 
+bass general purpose register and some
+
+00:04:06.900 --> 00:04:09.050 
+bass general purpose register and some
+cards<00:04:07.200> special<00:04:07.680> purpose<00:04:08.040> register<00:04:08.400> and<00:04:08.820> we
+
+00:04:09.050 --> 00:04:09.060 
+cards special purpose register and we
+
+00:04:09.060 --> 00:04:11.990 
+cards special purpose register and we
+will<00:04:09.210> talk<00:04:09.870> about<00:04:09.900> the<00:04:10.320> stack<00:04:10.590> pointer<00:04:11.000> letter
+
+00:04:11.990 --> 00:04:12.000 
+will talk about the stack pointer letter
+
+00:04:12.000 --> 00:04:15.470 
+will talk about the stack pointer letter
+and<00:04:13.520> there<00:04:14.520> are<00:04:14.640> some<00:04:14.790> special<00:04:15.120> purpose
+
+00:04:15.470 --> 00:04:15.480 
+and there are some special purpose
+
+00:04:15.480 --> 00:04:19.910 
+and there are some special purpose
+registers<00:04:16.200> true<00:04:17.570> before<00:04:18.570> that<00:04:18.959> let<00:04:19.680> us<00:04:19.709> have<00:04:19.800> a
+
+00:04:19.910 --> 00:04:19.920 
+registers true before that let us have a
+
+00:04:19.920 --> 00:04:24.710 
+registers true before that let us have a
+look<00:04:20.100> at<00:04:20.250> the<00:04:20.430> segment<00:04:21.000> register<00:04:22.850> well<00:04:23.850> CS<00:04:24.570> is
+
+00:04:24.710 --> 00:04:24.720 
+look at the segment register well CS is
+
+00:04:24.720 --> 00:04:26.870 
+look at the segment register well CS is
+called<00:04:24.960> the<00:04:25.110> code<00:04:25.380> segment<00:04:25.770> it's<00:04:26.160> point<00:04:26.580> at
+
+00:04:26.870 --> 00:04:26.880 
+called the code segment it's point at
+
+00:04:26.880 --> 00:04:28.760 
+called the code segment it's point at
+the<00:04:27.060> segment<00:04:27.270> containing<00:04:27.870> the<00:04:28.350> current
+
+00:04:28.760 --> 00:04:28.770 
+the segment containing the current
+
+00:04:28.770 --> 00:04:31.010 
+the segment containing the current
+program<00:04:29.250> means<00:04:29.550> the<00:04:30.180> code<00:04:30.450> segment<00:04:30.720> is<00:04:30.930> a
+
+00:04:31.010 --> 00:04:31.020 
+program means the code segment is a
+
+00:04:31.020 --> 00:04:34.610 
+program means the code segment is a
+section<00:04:31.530> of<00:04:31.650> memory<00:04:31.980> that<00:04:32.010> holds<00:04:32.760> the<00:04:32.880> code<00:04:33.620> by
+
+00:04:34.610 --> 00:04:34.620 
+section of memory that holds the code by
+
+00:04:34.620 --> 00:04:37.580 
+section of memory that holds the code by
+corvy<00:04:35.160> means<00:04:35.400> programs<00:04:36.000> and<00:04:36.270> procedure<00:04:36.720> that
+
+00:04:37.580 --> 00:04:37.590 
+corvy means programs and procedure that
+
+00:04:37.590 --> 00:04:42.320 
+corvy means programs and procedure that
+are<00:04:37.740> used<00:04:38.040> by<00:04:38.220> the<00:04:38.340> microprocessor<00:04:41.150> we<00:04:42.150> will
+
+00:04:42.320 --> 00:04:42.330 
+are used by the microprocessor we will
+
+00:04:42.330 --> 00:04:44.510 
+are used by the microprocessor we will
+not<00:04:42.510> go<00:04:42.750> into<00:04:42.870> the<00:04:43.020> further<00:04:43.290> detail<00:04:43.800> of<00:04:43.980> the<00:04:44.100> CS
+
+00:04:44.510 --> 00:04:44.520 
+not go into the further detail of the CS
+
+00:04:44.520 --> 00:04:46.310 
+not go into the further detail of the CS
+that<00:04:44.820> how<00:04:45.000> it<00:04:45.210> operates<00:04:45.600> in<00:04:45.720> the<00:04:45.840> real<00:04:46.020> mode
+
+00:04:46.310 --> 00:04:46.320 
+that how it operates in the real mode
+
+00:04:46.320 --> 00:04:49.130 
+that how it operates in the real mode
+protected<00:04:46.800> mode<00:04:47.010> it's<00:04:48.000> basically<00:04:48.600> idea<00:04:48.990> to
+
+00:04:49.130 --> 00:04:49.140 
+protected mode it's basically idea to
+
+00:04:49.140 --> 00:04:52.700 
+protected mode it's basically idea to
+give<00:04:49.350> an<00:04:49.520> overview<00:04:50.520> about<00:04:51.000> that<00:04:51.270> the<00:04:51.840> DES<00:04:52.260> that
+
+00:04:52.700 --> 00:04:52.710 
+give an overview about that the DES that
+
+00:04:52.710 --> 00:04:56.750 
+give an overview about that the DES that
+data<00:04:52.950> segment<00:04:54.500> it<00:04:55.500> usually<00:04:56.220> points<00:04:56.610> at<00:04:56.730> a
+
+00:04:56.750 --> 00:04:56.760 
+data segment it usually points at a
+
+00:04:56.760 --> 00:04:59.410 
+data segment it usually points at a
+segment<00:04:57.210> where<00:04:57.330> the<00:04:57.390> variables<00:04:58.050> are<00:04:58.290> defined
+
+00:04:59.410 --> 00:04:59.420 
+segment where the variables are defined
+
+00:04:59.420 --> 00:05:02.990 
+segment where the variables are defined
+you<00:05:00.420> will<00:05:00.600> know<00:05:00.780> it<00:05:01.040> in<00:05:02.040> more<00:05:02.370> detail<00:05:02.670> when<00:05:02.820> you
+
+00:05:02.990 --> 00:05:03.000 
+you will know it in more detail when you
+
+00:05:03.000 --> 00:05:04.760 
+you will know it in more detail when you
+will<00:05:03.120> be<00:05:03.300> doing<00:05:03.780> some<00:05:03.990> assembly<00:05:04.410> languages
+
+00:05:04.760 --> 00:05:04.770 
+will be doing some assembly languages
+
+00:05:04.770 --> 00:05:07.220 
+will be doing some assembly languages
+you<00:05:04.950> are<00:05:05.010> making<00:05:05.250> some<00:05:05.550> program<00:05:05.940> you<00:05:06.450> will<00:05:06.600> be
+
+00:05:07.220 --> 00:05:07.230 
+you are making some program you will be
+
+00:05:07.230 --> 00:05:09.830 
+you are making some program you will be
+doing<00:05:07.800> the<00:05:08.040> exact<00:05:08.400> how<00:05:09.030> the<00:05:09.090> these<00:05:09.630> are.this
+
+00:05:09.830 --> 00:05:09.840 
+doing the exact how the these are.this
+
+00:05:09.840 --> 00:05:13.460 
+doing the exact how the these are.this
+operate<00:05:10.530> and<00:05:10.740> their<00:05:11.280> usages<00:05:11.880> and<00:05:12.200> the<00:05:13.200> next
+
+00:05:13.460 --> 00:05:13.470 
+operate and their usages and the next
+
+00:05:13.470 --> 00:05:15.230 
+operate and their usages and the next
+are<00:05:13.620> special<00:05:14.070> about<00:05:14.310> by<00:05:14.430> the<00:05:14.490> register<00:05:15.000> and
+
+00:05:15.230 --> 00:05:15.240 
+are special about by the register and
+
+00:05:15.240 --> 00:05:17.990 
+are special about by the register and
+one<00:05:16.140> of<00:05:16.290> them<00:05:16.470> is<00:05:16.650> the<00:05:16.800> IP<00:05:17.010> and<00:05:17.490> it<00:05:17.820> is<00:05:17.970> a
+
+00:05:17.990 --> 00:05:18.000 
+one of them is the IP and it is a
+
+00:05:18.000 --> 00:05:19.520 
+one of them is the IP and it is a
+important<00:05:18.540> one<00:05:18.720> it<00:05:18.960> is<00:05:19.050> called<00:05:19.290> the
+
+00:05:19.520 --> 00:05:19.530 
+important one it is called the
+
+00:05:19.530 --> 00:05:22.370 
+important one it is called the
+instruction<00:05:20.190> pointer<00:05:20.430> it<00:05:21.330> means<00:05:21.630> that<00:05:22.140> it's
+
+00:05:22.370 --> 00:05:22.380 
+instruction pointer it means that it's
+
+00:05:22.380 --> 00:05:24.230 
+instruction pointer it means that it's
+point<00:05:22.740> to<00:05:22.860> the<00:05:23.010> next<00:05:23.250> instruction<00:05:23.940> that<00:05:23.970> the
+
+00:05:24.230 --> 00:05:24.240 
+point to the next instruction that the
+
+00:05:24.240 --> 00:05:28.820 
+point to the next instruction that the
+CPU<00:05:24.630> is<00:05:24.900> going<00:05:25.560> to<00:05:25.740> execute
+
+00:05:28.820 --> 00:05:28.830 
+
+00:05:28.830 --> 00:05:31.820 
+
+I<00:05:29.060> pee<00:05:30.060> register<00:05:30.540> work<00:05:30.870> together<00:05:31.050> with<00:05:31.470> ASEA
+
+00:05:31.820 --> 00:05:31.830 
+I pee register work together with ASEA
+
+00:05:31.830 --> 00:05:34.129 
+I pee register work together with ASEA
+that<00:05:32.250> a/c<00:05:32.580> is<00:05:32.699> defined<00:05:33.150> that<00:05:33.389> the<00:05:33.540> way<00:05:33.900> in
+
+00:05:34.129 --> 00:05:34.139 
+that a/c is defined that the way in
+
+00:05:34.139 --> 00:05:37.159 
+that a/c is defined that the way in
+which<00:05:35.060> segments<00:05:36.060> of<00:05:36.150> the<00:05:36.240> memory<00:05:36.570> the<00:05:36.720> code<00:05:36.960> is
+
+00:05:37.159 --> 00:05:37.169 
+which segments of the memory the code is
+
+00:05:37.169 --> 00:05:39.500 
+which segments of the memory the code is
+placed<00:05:37.410> and<00:05:37.740> the<00:05:37.800> IPS<00:05:38.639> then<00:05:38.940> appended<00:05:39.479> with
+
+00:05:39.500 --> 00:05:39.510 
+placed and the IPS then appended with
+
+00:05:39.510 --> 00:05:42.290 
+placed and the IPS then appended with
+the<00:05:39.750> CA<00:05:40.020> and<00:05:40.320> it's<00:05:40.889> and<00:05:41.190> tells<00:05:42.120> the
+
+00:05:42.290 --> 00:05:42.300 
+the CA and it's and tells the
+
+00:05:42.300 --> 00:05:44.360 
+the CA and it's and tells the
+microprocessor<00:05:42.810> which<00:05:43.350> instruction<00:05:44.130> should
+
+00:05:44.360 --> 00:05:44.370 
+microprocessor which instruction should
+
+00:05:44.370 --> 00:05:47.659 
+microprocessor which instruction should
+be<00:05:44.550> executed<00:05:45.120> next<00:05:45.830> and<00:05:46.830> the<00:05:47.010> next<00:05:47.250> one<00:05:47.400> is<00:05:47.550> the
+
+00:05:47.659 --> 00:05:47.669 
+be executed next and the next one is the
+
+00:05:47.669 --> 00:05:50.600 
+be executed next and the next one is the
+flag<00:05:47.970> register<00:05:48.570> flag<00:05:48.840> register<00:05:49.380> is<00:05:49.590> a<00:05:49.620> 16-bit
+
+00:05:50.600 --> 00:05:50.610 
+flag register flag register is a 16-bit
+
+00:05:50.610 --> 00:05:53.170 
+flag register flag register is a 16-bit
+register<00:05:51.300> and<00:05:51.540> it<00:05:52.470> is<00:05:52.620> modified
+
+00:05:53.170 --> 00:05:53.180 
+register and it is modified
+
+00:05:53.180 --> 00:05:56.120 
+register and it is modified
+automatically<00:05:54.180> by<00:05:54.330> CPU<00:05:54.780> after<00:05:55.130> mathematical
+
+00:05:56.120 --> 00:05:56.130 
+automatically by CPU after mathematical
+
+00:05:56.130 --> 00:05:58.100 
+automatically by CPU after mathematical
+of<00:05:56.340> computation<00:05:57.210> like<00:05:57.479> addition<00:05:58.080> subtraction
+
+00:05:58.100 --> 00:05:58.110 
+of computation like addition subtraction
+
+00:05:58.110 --> 00:06:01.700 
+of computation like addition subtraction
+a<00:05:58.889> comparison<00:05:59.699> of<00:05:59.820> two<00:05:59.880> numbers<00:06:00.510> and<00:06:00.870> it<00:06:01.470> has
+
+00:06:01.700 --> 00:06:01.710 
+a comparison of two numbers and it has
+
+00:06:01.710 --> 00:06:04.570 
+a comparison of two numbers and it has
+sixteen<00:06:02.190> bits<00:06:02.700> like<00:06:03.120> parity<00:06:03.660> periods<00:06:04.020> carob
+
+00:06:04.570 --> 00:06:04.580 
+sixteen bits like parity periods carob
+
+00:06:04.580 --> 00:06:07.460 
+sixteen bits like parity periods carob
+bit<00:06:05.580> which<00:06:05.970> shows<00:06:06.180> that<00:06:06.210> a<00:06:06.540> Care<00:06:06.840> is<00:06:06.990> generated
+
+00:06:07.460 --> 00:06:07.470 
+bit which shows that a Care is generated
+
+00:06:07.470 --> 00:06:10.490 
+bit which shows that a Care is generated
+or<00:06:07.620> no<00:06:07.830> overflow<00:06:08.790> bed<00:06:09.270> that<00:06:09.660> shows<00:06:10.020> that<00:06:10.350> the
+
+00:06:10.490 --> 00:06:10.500 
+or no overflow bed that shows that the
+
+00:06:10.500 --> 00:06:13.070 
+or no overflow bed that shows that the
+other<00:06:10.650> flows<00:06:10.950> occurred<00:06:11.430> a<00:06:11.700> sign<00:06:12.150> build<00:06:12.540> there
+
+00:06:13.070 --> 00:06:13.080 
+other flows occurred a sign build there
+
+00:06:13.080 --> 00:06:14.860 
+other flows occurred a sign build there
+sure<00:06:13.320> the<00:06:13.500> number<00:06:13.770> is<00:06:13.919> signed<00:06:14.190> or<00:06:14.490> unsigned
+
+00:06:14.860 --> 00:06:14.870 
+sure the number is signed or unsigned
+
+00:06:14.870 --> 00:06:18.350 
+sure the number is signed or unsigned
+and<00:06:15.870> like<00:06:16.500> zero<00:06:16.860> bit<00:06:17.130> which<00:06:17.610> shows<00:06:17.880> that<00:06:18.210> the
+
+00:06:18.350 --> 00:06:18.360 
+and like zero bit which shows that the
+
+00:06:18.360 --> 00:06:20.540 
+and like zero bit which shows that the
+result<00:06:18.660> of<00:06:18.810> some<00:06:19.020> operation<00:06:19.500> is<00:06:19.620> zero<00:06:20.100> or<00:06:20.250> not
+
+00:06:20.540 --> 00:06:20.550 
+result of some operation is zero or not
+
+00:06:20.550 --> 00:06:22.850 
+result of some operation is zero or not
+and<00:06:20.820> all<00:06:21.300> that<00:06:21.539> stop<00:06:21.870> we<00:06:21.990> will<00:06:22.110> be<00:06:22.320> discussing
+
+00:06:22.850 --> 00:06:22.860 
+and all that stop we will be discussing
+
+00:06:22.860 --> 00:06:25.969 
+and all that stop we will be discussing
+it<00:06:23.160> later<00:06:23.430> for<00:06:24.060> now<00:06:24.300> I<00:06:24.539> think<00:06:24.870> it<00:06:25.080> is<00:06:25.350> enough
+
+00:06:25.969 --> 00:06:25.979 
+it later for now I think it is enough
+
+00:06:25.979 --> 00:06:28.010 
+it later for now I think it is enough
+for<00:06:26.220> you<00:06:26.400> and<00:06:26.669> you<00:06:26.820> have<00:06:26.970> gained<00:06:27.270> enough
+
+00:06:28.010 --> 00:06:28.020 
+for you and you have gained enough
+
+00:06:28.020 --> 00:06:31.600 
+for you and you have gained enough
+knowledge<00:06:28.639> about<00:06:29.639> the<00:06:29.850> register<00:06:30.330> of<00:06:30.360> the<00:06:30.510> 8:06
+
+00:06:31.600 --> 00:06:31.610 
+knowledge about the register of the 8:06
+
+00:06:31.610 --> 00:06:43.679 
+knowledge about the register of the 8:06
+thank<00:06:32.610> you<00:06:32.789> for<00:06:33.030> listening
+
+00:06:43.679 --> 00:06:43.689 
+
+00:06:43.689 --> 00:06:45.749 
+
+you
+

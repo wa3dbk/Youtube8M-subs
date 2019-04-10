@@ -1,0 +1,1240 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.260 --> 00:00:03.080 
+
+in<00:00:01.260> this<00:00:01.979> tutorial<00:00:02.159> we're<00:00:02.669> gonna<00:00:02.790> quickly
+
+00:00:03.080 --> 00:00:03.090 
+in this tutorial we're gonna quickly
+
+00:00:03.090 --> 00:00:04.970 
+in this tutorial we're gonna quickly
+look<00:00:03.389> at<00:00:03.480> how<00:00:03.629> to<00:00:03.689> add<00:00:03.899> specular<00:00:04.500> highlights
+
+00:00:04.970 --> 00:00:04.980 
+look at how to add specular highlights
+
+00:00:04.980 --> 00:00:06.680 
+look at how to add specular highlights
+to<00:00:05.190> a<00:00:05.220> scene<00:00:05.549> and<00:00:05.819> we'll<00:00:06.240> do<00:00:06.359> this<00:00:06.509> by
+
+00:00:06.680 --> 00:00:06.690 
+to a scene and we'll do this by
+
+00:00:06.690 --> 00:00:07.909 
+to a scene and we'll do this by
+extending<00:00:06.930> the<00:00:07.170> code<00:00:07.350> from<00:00:07.470> the<00:00:07.620> diffuse
+
+00:00:07.909 --> 00:00:07.919 
+extending the code from the diffuse
+
+00:00:07.919 --> 00:00:10.129 
+extending the code from the diffuse
+lighting<00:00:08.220> tutorial<00:00:08.820> to<00:00:09.660> keep<00:00:09.809> things<00:00:10.019> as
+
+00:00:10.129 --> 00:00:10.139 
+lighting tutorial to keep things as
+
+00:00:10.139 --> 00:00:11.660 
+lighting tutorial to keep things as
+simple<00:00:10.290> as<00:00:10.440> possible<00:00:10.500> we're<00:00:11.370> gonna<00:00:11.460> be<00:00:11.639> a
+
+00:00:11.660 --> 00:00:11.670 
+simple as possible we're gonna be a
+
+00:00:11.670 --> 00:00:13.100 
+simple as possible we're gonna be a
+little<00:00:11.880> bit<00:00:12.090> sloppy<00:00:12.300> with<00:00:12.599> our<00:00:12.719> code<00:00:12.900> in
+
+00:00:13.100 --> 00:00:13.110 
+little bit sloppy with our code in
+
+00:00:13.110 --> 00:00:14.660 
+little bit sloppy with our code in
+several<00:00:13.469> ways<00:00:13.620> and<00:00:13.950> then<00:00:14.160> we'll<00:00:14.280> clean<00:00:14.460> it<00:00:14.580> up
+
+00:00:14.660 --> 00:00:14.670 
+several ways and then we'll clean it up
+
+00:00:14.670 --> 00:00:17.779 
+several ways and then we'll clean it up
+later<00:00:15.139> so<00:00:16.139> to<00:00:16.230> begin<00:00:16.379> with<00:00:16.650> look<00:00:17.190> on<00:00:17.310> line<00:00:17.520> five
+
+00:00:17.779 --> 00:00:17.789 
+later so to begin with look on line five
+
+00:00:17.789 --> 00:00:18.950 
+later so to begin with look on line five
+and<00:00:18.060> you<00:00:18.119> can<00:00:18.150> see<00:00:18.359> that<00:00:18.480> we've<00:00:18.600> imported
+
+00:00:18.950 --> 00:00:18.960 
+and you can see that we've imported
+
+00:00:18.960 --> 00:00:21.560 
+and you can see that we've imported
+information<00:00:19.350> about<00:00:19.830> a<00:00:19.859> different<00:00:20.250> model<00:00:20.570> so
+
+00:00:21.560 --> 00:00:21.570 
+information about a different model so
+
+00:00:21.570 --> 00:00:23.000 
+information about a different model so
+if<00:00:21.630> we<00:00:21.750> jump<00:00:21.900> over<00:00:22.109> to<00:00:22.199> Buddha<00:00:22.439> eight<00:00:22.769> real
+
+00:00:23.000 --> 00:00:23.010 
+if we jump over to Buddha eight real
+
+00:00:23.010 --> 00:00:24.320 
+if we jump over to Buddha eight real
+quick<00:00:23.189> you<00:00:23.369> can<00:00:23.460> see<00:00:23.640> that<00:00:23.760> we<00:00:23.850> still<00:00:24.150> have
+
+00:00:24.320 --> 00:00:24.330 
+quick you can see that we still have
+
+00:00:24.330 --> 00:00:26.390 
+quick you can see that we still have
+those<00:00:24.510> three<00:00:24.779> variables<00:00:25.019> num<00:00:25.439> indices<00:00:25.980> num
+
+00:00:26.390 --> 00:00:26.400 
+those three variables num indices num
+
+00:00:26.400 --> 00:00:28.310 
+those three variables num indices num
+vertices<00:00:26.820> and<00:00:27.000> num<00:00:27.150> normals<00:00:27.570> and<00:00:27.779> you<00:00:28.170> can
+
+00:00:28.310 --> 00:00:28.320 
+vertices and num normals and you can
+
+00:00:28.320 --> 00:00:29.750 
+vertices and num normals and you can
+also<00:00:28.500> see<00:00:28.769> that<00:00:28.800> we<00:00:28.980> have<00:00:29.130> those<00:00:29.279> three<00:00:29.460> arrays
+
+00:00:29.750 --> 00:00:29.760 
+also see that we have those three arrays
+
+00:00:29.760 --> 00:00:32.870 
+also see that we have those three arrays
+vertices<00:00:30.330> normals<00:00:30.929> and<00:00:31.140> indices<00:00:31.679> so<00:00:32.669> let's<00:00:32.790> go
+
+00:00:32.870 --> 00:00:32.880 
+vertices normals and indices so let's go
+
+00:00:32.880 --> 00:00:35.299 
+vertices normals and indices so let's go
+back<00:00:33.000> here<00:00:33.090> to<00:00:33.149> main<00:00:33.649> will<00:00:34.649> drop<00:00:34.860> down<00:00:35.010> just<00:00:35.250> a
+
+00:00:35.299 --> 00:00:35.309 
+back here to main will drop down just a
+
+00:00:35.309 --> 00:00:35.830 
+back here to main will drop down just a
+bit
+
+00:00:35.830 --> 00:00:35.840 
+bit
+
+00:00:35.840 --> 00:00:38.000 
+bit
+now<00:00:36.840> another<00:00:37.260> early<00:00:37.469> change<00:00:37.770> that<00:00:37.920> you<00:00:37.980> can
+
+00:00:38.000 --> 00:00:38.010 
+now another early change that you can
+
+00:00:38.010 --> 00:00:39.080 
+now another early change that you can
+see<00:00:38.160> is<00:00:38.399> that<00:00:38.430> we<00:00:38.579> have<00:00:38.700> a<00:00:38.730> couple<00:00:39.030> of
+
+00:00:39.080 --> 00:00:39.090 
+see is that we have a couple of
+
+00:00:39.090 --> 00:00:41.350 
+see is that we have a couple of
+different<00:00:39.329> variables<00:00:39.600> in<00:00:39.930> lines<00:00:40.200> 49<00:00:40.710> and<00:00:40.860> 50
+
+00:00:41.350 --> 00:00:41.360 
+different variables in lines 49 and 50
+
+00:00:41.360 --> 00:00:44.479 
+different variables in lines 49 and 50
+specifically<00:00:42.360> we<00:00:42.480> have<00:00:42.600> cam<00:00:42.840> X<00:00:43.050> cam<00:00:43.350> ym<00:00:43.680> KMZ<00:00:44.219> as
+
+00:00:44.479 --> 00:00:44.489 
+specifically we have cam X cam ym KMZ as
+
+00:00:44.489 --> 00:00:46.490 
+specifically we have cam X cam ym KMZ as
+well<00:00:44.820> as<00:00:44.969> yaw<00:00:45.149> pitch<00:00:45.360> and<00:00:45.539> roll<00:00:45.629> and<00:00:46.079> these
+
+00:00:46.490 --> 00:00:46.500 
+well as yaw pitch and roll and these
+
+00:00:46.500 --> 00:00:47.779 
+well as yaw pitch and roll and these
+variables<00:00:46.980> are<00:00:47.070> going<00:00:47.219> to<00:00:47.280> be<00:00:47.340> used<00:00:47.520> to<00:00:47.640> hold
+
+00:00:47.779 --> 00:00:47.789 
+variables are going to be used to hold
+
+00:00:47.789 --> 00:00:49.520 
+variables are going to be used to hold
+the<00:00:47.910> position<00:00:48.090> and<00:00:48.629> orientation<00:00:49.230> of<00:00:49.440> the
+
+00:00:49.520 --> 00:00:49.530 
+the position and orientation of the
+
+00:00:49.530 --> 00:00:51.830 
+the position and orientation of the
+camera<00:00:50.000> now<00:00:51.000> realize<00:00:51.300> that<00:00:51.329> this<00:00:51.539> is<00:00:51.690> not
+
+00:00:51.830 --> 00:00:51.840 
+camera now realize that this is not
+
+00:00:51.840 --> 00:00:53.600 
+camera now realize that this is not
+normally<00:00:52.170> how<00:00:52.260> we<00:00:52.289> would<00:00:52.500> do<00:00:52.649> that<00:00:52.680> typically
+
+00:00:53.600 --> 00:00:53.610 
+normally how we would do that typically
+
+00:00:53.610 --> 00:00:54.889 
+normally how we would do that typically
+you<00:00:53.640> would<00:00:53.820> store<00:00:54.030> that<00:00:54.180> information<00:00:54.690> in<00:00:54.809> a
+
+00:00:54.889 --> 00:00:54.899 
+you would store that information in a
+
+00:00:54.899 --> 00:00:56.600 
+you would store that information in a
+matrix<00:00:55.140> but<00:00:55.890> in<00:00:56.010> this<00:00:56.100> case<00:00:56.280> we're<00:00:56.460> going<00:00:56.550> to
+
+00:00:56.600 --> 00:00:56.610 
+matrix but in this case we're going to
+
+00:00:56.610 --> 00:00:58.160 
+matrix but in this case we're going to
+use<00:00:56.670> those<00:00:56.969> variables<00:00:57.270> to<00:00:57.510> move<00:00:57.690> that<00:00:57.870> camera
+
+00:00:58.160 --> 00:00:58.170 
+use those variables to move that camera
+
+00:00:58.170 --> 00:01:00.830 
+use those variables to move that camera
+around<00:00:58.350> just<00:00:58.620> a<00:00:58.680> little<00:00:58.710> bit<00:00:59.570> you<00:01:00.570> can<00:01:00.719> see
+
+00:01:00.830 --> 00:01:00.840 
+around just a little bit you can see
+
+00:01:00.840 --> 00:01:02.270 
+around just a little bit you can see
+that<00:01:00.960> we<00:01:01.050> use<00:01:01.350> those<00:01:01.559> variables<00:01:01.890> in<00:01:02.160> this
+
+00:01:02.270 --> 00:01:02.280 
+that we use those variables in this
+
+00:01:02.280 --> 00:01:03.799 
+that we use those variables in this
+keyboard<00:01:02.760> function<00:01:03.180> and<00:01:03.329> that<00:01:03.750> function
+
+00:01:03.799 --> 00:01:03.809 
+keyboard function and that function
+
+00:01:03.809 --> 00:01:06.679 
+keyboard function and that function
+begins<00:01:04.229> here<00:01:04.530> on<00:01:04.619> line<00:01:04.769> 148<00:01:05.430> now<00:01:06.390> this<00:01:06.540> is<00:01:06.659> a
+
+00:01:06.679 --> 00:01:06.689 
+begins here on line 148 now this is a
+
+00:01:06.689 --> 00:01:08.060 
+begins here on line 148 now this is a
+callback<00:01:06.930> function<00:01:07.290> that<00:01:07.560> glutes<00:01:07.830> going<00:01:08.010> to
+
+00:01:08.060 --> 00:01:08.070 
+callback function that glutes going to
+
+00:01:08.070 --> 00:01:09.230 
+callback function that glutes going to
+be<00:01:08.159> aware<00:01:08.369> of<00:01:08.430> and<00:01:08.640> I'll<00:01:08.729> show<00:01:08.850> you<00:01:08.880> that<00:01:08.970> code
+
+00:01:09.230 --> 00:01:09.240 
+be aware of and I'll show you that code
+
+00:01:09.240 --> 00:01:10.969 
+be aware of and I'll show you that code
+a<00:01:09.270> little<00:01:09.450> bit<00:01:09.630> later<00:01:09.780> on<00:01:09.869> but<00:01:10.590> if<00:01:10.680> you<00:01:10.770> look<00:01:10.890> on
+
+00:01:10.969 --> 00:01:10.979 
+a little bit later on but if you look on
+
+00:01:10.979 --> 00:01:12.859 
+a little bit later on but if you look on
+the<00:01:11.070> inside<00:01:11.250> you<00:01:11.729> can<00:01:11.850> see<00:01:11.909> that<00:01:12.030> we<00:01:12.240> switch<00:01:12.600> on
+
+00:01:12.859 --> 00:01:12.869 
+the inside you can see that we switch on
+
+00:01:12.869 --> 00:01:15.050 
+the inside you can see that we switch on
+the<00:01:12.930> key<00:01:13.290> that<00:01:13.500> was<00:01:13.619> pressed<00:01:13.850> now<00:01:14.850> if<00:01:14.970> they
+
+00:01:15.050 --> 00:01:15.060 
+the key that was pressed now if they
+
+00:01:15.060 --> 00:01:17.270 
+the key that was pressed now if they
+press<00:01:15.270> the<00:01:15.390> Escape<00:01:15.780> key<00:01:15.810> which<00:01:16.170> is<00:01:16.320> that<00:01:16.439> o<00:01:16.560> 3<00:01:16.950> 3
+
+00:01:17.270 --> 00:01:17.280 
+press the Escape key which is that o 3 3
+
+00:01:17.280 --> 00:01:19.370 
+press the Escape key which is that o 3 3
+or<00:01:17.549> the<00:01:17.790> Q<00:01:18.030> key<00:01:18.299> the<00:01:18.810> program<00:01:19.170> is<00:01:19.229> going<00:01:19.320> to
+
+00:01:19.370 --> 00:01:19.380 
+or the Q key the program is going to
+
+00:01:19.380 --> 00:01:22.429 
+or the Q key the program is going to
+exit<00:01:19.790> otherwise<00:01:20.790> if<00:01:21.000> it's<00:01:21.150> W<00:01:21.450> a<00:01:21.479> s<00:01:21.630> or<00:01:21.869> D<00:01:22.020> we're
+
+00:01:22.429 --> 00:01:22.439 
+exit otherwise if it's W a s or D we're
+
+00:01:22.439 --> 00:01:23.690 
+exit otherwise if it's W a s or D we're
+going<00:01:22.590> to<00:01:22.650> change<00:01:22.950> the<00:01:23.159> position<00:01:23.520> of<00:01:23.640> the
+
+00:01:23.690 --> 00:01:23.700 
+going to change the position of the
+
+00:01:23.700 --> 00:01:26.330 
+going to change the position of the
+camera<00:01:23.820> just<00:01:24.030> a<00:01:24.299> little<00:01:24.509> bit<00:01:25.040> similarly<00:01:26.040> if
+
+00:01:26.330 --> 00:01:26.340 
+camera just a little bit similarly if
+
+00:01:26.340 --> 00:01:28.130 
+camera just a little bit similarly if
+they<00:01:26.490> press<00:01:26.729> the<00:01:26.909> e<00:01:26.939> or<00:01:27.240> R<00:01:27.479> keys
+
+00:01:28.130 --> 00:01:28.140 
+they press the e or R keys
+
+00:01:28.140 --> 00:01:29.840 
+they press the e or R keys
+we're<00:01:28.380> going<00:01:28.500> to<00:01:28.560> change<00:01:28.799> the<00:01:28.979> Y<00:01:29.159> rotation<00:01:29.430> of
+
+00:01:29.840 --> 00:01:29.850 
+we're going to change the Y rotation of
+
+00:01:29.850 --> 00:01:32.690 
+we're going to change the Y rotation of
+the<00:01:29.909> camera<00:01:30.180> just<00:01:30.329> a<00:01:30.450> little<00:01:30.630> bit<00:01:31.549> all<00:01:32.549> right
+
+00:01:32.690 --> 00:01:32.700 
+the camera just a little bit all right
+
+00:01:32.700 --> 00:01:34.520 
+the camera just a little bit all right
+good<00:01:32.909> so<00:01:33.329> let's<00:01:33.630> drop<00:01:33.810> down<00:01:33.869> to<00:01:34.170> the<00:01:34.259> render
+
+00:01:34.520 --> 00:01:34.530 
+good so let's drop down to the render
+
+00:01:34.530 --> 00:01:37.580 
+good so let's drop down to the render
+function<00:01:34.680> and<00:01:35.960> these<00:01:36.960> lines<00:01:37.200> are<00:01:37.350> where<00:01:37.439> we're
+
+00:01:37.580 --> 00:01:37.590 
+function and these lines are where we're
+
+00:01:37.590 --> 00:01:38.810 
+function and these lines are where we're
+setting<00:01:37.890> the<00:01:37.979> rotations<00:01:38.549> and<00:01:38.759> the
+
+00:01:38.810 --> 00:01:38.820 
+setting the rotations and the
+
+00:01:38.820 --> 00:01:40.160 
+setting the rotations and the
+translations<00:01:39.420> of<00:01:39.540> the<00:01:39.630> camera
+
+00:01:40.160 --> 00:01:40.170 
+translations of the camera
+
+00:01:40.170 --> 00:01:42.620 
+translations of the camera
+notice<00:01:41.159> that<00:01:41.250> in<00:01:41.400> line<00:01:41.549> 186<00:01:42.180> we're<00:01:42.360> putting
+
+00:01:42.620 --> 00:01:42.630 
+notice that in line 186 we're putting
+
+00:01:42.630 --> 00:01:44.210 
+notice that in line 186 we're putting
+that<00:01:42.720> information<00:01:42.930> into<00:01:43.439> the<00:01:43.560> variable<00:01:43.860> V
+
+00:01:44.210 --> 00:01:44.220 
+that information into the variable V
+
+00:01:44.220 --> 00:01:45.859 
+that information into the variable V
+which<00:01:44.670> is<00:01:44.700> then<00:01:44.909> passed<00:01:45.119> off<00:01:45.329> to<00:01:45.360> the<00:01:45.600> shader
+
+00:01:45.859 --> 00:01:45.869 
+which is then passed off to the shader
+
+00:01:45.869 --> 00:01:49.160 
+which is then passed off to the shader
+in<00:01:46.079> line<00:01:46.229> 190<00:01:47.540> so<00:01:48.540> let's<00:01:48.689> go<00:01:48.810> ahead<00:01:48.869> and<00:01:49.049> jump
+
+00:01:49.160 --> 00:01:49.170 
+in line 190 so let's go ahead and jump
+
+00:01:49.170 --> 00:01:51.590 
+in line 190 so let's go ahead and jump
+over<00:01:49.320> to<00:01:49.560> the<00:01:49.680> vertex<00:01:50.040> shader<00:01:50.369> and<00:01:50.640> you<00:01:51.479> can
+
+00:01:51.590 --> 00:01:51.600 
+over to the vertex shader and you can
+
+00:01:51.600 --> 00:01:53.030 
+over to the vertex shader and you can
+see<00:01:51.720> it's<00:01:51.840> really<00:01:52.049> similar<00:01:52.259> to<00:01:52.409> last<00:01:52.710> time
+
+00:01:53.030 --> 00:01:53.040 
+see it's really similar to last time
+
+00:01:53.040 --> 00:01:55.520 
+see it's really similar to last time
+except<00:01:53.759> on<00:01:53.909> line<00:01:54.090> 16<00:01:54.720> we've<00:01:54.960> declared<00:01:55.320> another
+
+00:01:55.520 --> 00:01:55.530 
+except on line 16 we've declared another
+
+00:01:55.530 --> 00:01:57.859 
+except on line 16 we've declared another
+out<00:01:55.829> variable<00:01:56.250> called<00:01:56.520> F<00:01:56.700> E<00:01:57.119> and<00:01:57.360> this<00:01:57.750> is
+
+00:01:57.859 --> 00:01:57.869 
+out variable called F E and this is
+
+00:01:57.869 --> 00:01:59.060 
+out variable called F E and this is
+going<00:01:57.960> to<00:01:58.020> represent<00:01:58.200> the<00:01:58.530> vector<00:01:58.890> between
+
+00:01:59.060 --> 00:01:59.070 
+going to represent the vector between
+
+00:01:59.070 --> 00:02:01.060 
+going to represent the vector between
+the<00:01:59.399> camera<00:01:59.850> and<00:02:00.030> the<00:02:00.149> pixel<00:02:00.479> in<00:02:00.600> the<00:02:00.689> scene
+
+00:02:01.060 --> 00:02:01.070 
+the camera and the pixel in the scene
+
+00:02:01.070 --> 00:02:04.100 
+the camera and the pixel in the scene
+now<00:02:02.070> if<00:02:02.189> you<00:02:02.280> jump<00:02:02.490> down<00:02:02.610> on<00:02:02.759> line<00:02:02.880> 23<00:02:03.210> you<00:02:03.960> can
+
+00:02:04.100 --> 00:02:04.110 
+now if you jump down on line 23 you can
+
+00:02:04.110 --> 00:02:05.719 
+now if you jump down on line 23 you can
+see<00:02:04.259> that<00:02:04.380> we've<00:02:04.500> calculated<00:02:04.890> the<00:02:05.159> value<00:02:05.579> of
+
+00:02:05.719 --> 00:02:05.729 
+see that we've calculated the value of
+
+00:02:05.729 --> 00:02:07.609 
+see that we've calculated the value of
+this<00:02:05.820> variable<00:02:06.000> by<00:02:06.420> taking<00:02:06.899> the<00:02:06.990> position<00:02:07.530> of
+
+00:02:07.609 --> 00:02:07.619 
+this variable by taking the position of
+
+00:02:07.619 --> 00:02:09.350 
+this variable by taking the position of
+the<00:02:07.680> vertex<00:02:08.069> and<00:02:08.340> multiplying<00:02:08.910> it<00:02:09.030> by<00:02:09.090> both
+
+00:02:09.350 --> 00:02:09.360 
+the vertex and multiplying it by both
+
+00:02:09.360 --> 00:02:11.360 
+the vertex and multiplying it by both
+the<00:02:09.539> model<00:02:09.899> matrix<00:02:10.080> and<00:02:10.500> view<00:02:10.739> matrix<00:02:10.890> and
+
+00:02:11.360 --> 00:02:11.370 
+the model matrix and view matrix and
+
+00:02:11.370 --> 00:02:13.730 
+the model matrix and view matrix and
+because<00:02:12.030> it's<00:02:12.150> an<00:02:12.270> out<00:02:12.420> variable<00:02:12.870> its
+
+00:02:13.730 --> 00:02:13.740 
+because it's an out variable its
+
+00:02:13.740 --> 00:02:15.230 
+because it's an out variable its
+related<00:02:13.980> for<00:02:14.160> all<00:02:14.310> the<00:02:14.490> pixels<00:02:14.880> that<00:02:14.940> need<00:02:15.150> to
+
+00:02:15.230 --> 00:02:15.240 
+related for all the pixels that need to
+
+00:02:15.240 --> 00:02:17.360 
+related for all the pixels that need to
+be<00:02:15.300> rendered<00:02:15.750> and<00:02:16.130> just<00:02:17.130> to<00:02:17.220> reiterate
+
+00:02:17.360 --> 00:02:17.370 
+be rendered and just to reiterate
+
+00:02:17.370 --> 00:02:19.130 
+be rendered and just to reiterate
+remember<00:02:18.090> this<00:02:18.240> is<00:02:18.390> going<00:02:18.510> to<00:02:18.570> represent<00:02:18.720> the
+
+00:02:19.130 --> 00:02:19.140 
+remember this is going to represent the
+
+00:02:19.140 --> 00:02:21.020 
+remember this is going to represent the
+relationship<00:02:19.740> between<00:02:19.890> the<00:02:20.190> pixel<00:02:20.610> and<00:02:20.820> the
+
+00:02:21.020 --> 00:02:21.030 
+relationship between the pixel and the
+
+00:02:21.030 --> 00:02:24.170 
+relationship between the pixel and the
+camera<00:02:22.460> all<00:02:23.460> right<00:02:23.520> so<00:02:23.700> let's<00:02:23.880> go<00:02:23.940> ahead<00:02:24.000> and
+
+00:02:24.170 --> 00:02:24.180 
+camera all right so let's go ahead and
+
+00:02:24.180 --> 00:02:27.350 
+camera all right so let's go ahead and
+jump<00:02:24.270> over<00:02:24.450> to<00:02:24.540> the<00:02:24.630> fragment<00:02:24.990> shader<00:02:25.020> and<00:02:26.360> if
+
+00:02:27.350 --> 00:02:27.360 
+jump over to the fragment shader and if
+
+00:02:27.360 --> 00:02:28.400 
+jump over to the fragment shader and if
+you<00:02:27.480> look<00:02:27.660> you<00:02:27.840> can<00:02:27.930> see<00:02:28.140> that<00:02:28.290> this
+
+00:02:28.400 --> 00:02:28.410 
+you look you can see that this
+
+00:02:28.410 --> 00:02:30.230 
+you look you can see that this
+information<00:02:28.560> is<00:02:28.980> coming<00:02:29.130> in<00:02:29.370> in<00:02:29.460> Line<00:02:29.640> six<00:02:30.000> and
+
+00:02:30.230 --> 00:02:30.240 
+information is coming in in Line six and
+
+00:02:30.240 --> 00:02:32.510 
+information is coming in in Line six and
+then<00:02:30.570> we<00:02:30.600> actually<00:02:31.050> use<00:02:31.350> it<00:02:31.530> in<00:02:31.620> lines<00:02:31.830> 14<00:02:32.340> and
+
+00:02:32.510 --> 00:02:32.520 
+then we actually use it in lines 14 and
+
+00:02:32.520 --> 00:02:35.750 
+then we actually use it in lines 14 and
+15<00:02:33.740> so<00:02:34.740> in<00:02:34.830> the<00:02:34.890> previous<00:02:35.220> tutorial<00:02:35.670> we
+
+00:02:35.750 --> 00:02:35.760 
+15 so in the previous tutorial we
+
+00:02:35.760 --> 00:02:37.730 
+15 so in the previous tutorial we
+calculated<00:02:36.240> those<00:02:36.420> variables<00:02:36.870> in<00:02:36.990> an<00:02:37.200> L<00:02:37.410> in
+
+00:02:37.730 --> 00:02:37.740 
+calculated those variables in an L in
+
+00:02:37.740 --> 00:02:39.890 
+calculated those variables in an L in
+lines<00:02:38.040> 11<00:02:38.490> and<00:02:38.610> 12<00:02:38.880> and<00:02:39.450> we're<00:02:39.600> going<00:02:39.720> to<00:02:39.750> do<00:02:39.870> a
+
+00:02:39.890 --> 00:02:39.900 
+lines 11 and 12 and we're going to do a
+
+00:02:39.900 --> 00:02:43.310 
+lines 11 and 12 and we're going to do a
+similar<00:02:40.200> thing<00:02:40.350> in<00:02:40.680> lines<00:02:40.860> 14<00:02:41.280> and<00:02:41.430> 15<00:02:41.790> in<00:02:42.320> line
+
+00:02:43.310 --> 00:02:43.320 
+similar thing in lines 14 and 15 in line
+
+00:02:43.320 --> 00:02:45.470 
+similar thing in lines 14 and 15 in line
+14<00:02:43.830> we<00:02:44.250> reverse<00:02:44.640> the<00:02:44.850> direction<00:02:45.000> of<00:02:45.420> that
+
+00:02:45.470 --> 00:02:45.480 
+14 we reverse the direction of that
+
+00:02:45.480 --> 00:02:47.420 
+14 we reverse the direction of that
+vector<00:02:45.540> Fe<00:02:46.230> just<00:02:46.470> to<00:02:46.530> make<00:02:46.650> the<00:02:46.770> math<00:02:46.950> work<00:02:46.980> out
+
+00:02:47.420 --> 00:02:47.430 
+vector Fe just to make the math work out
+
+00:02:47.430 --> 00:02:50.060 
+vector Fe just to make the math work out
+and<00:02:47.640> then<00:02:48.390> in<00:02:48.480> line<00:02:48.600> 15<00:02:49.170> we<00:02:49.470> calculate<00:02:49.920> the
+
+00:02:50.060 --> 00:02:50.070 
+and then in line 15 we calculate the
+
+00:02:50.070 --> 00:02:51.890 
+and then in line 15 we calculate the
+half<00:02:50.280> vector<00:02:50.700> and<00:02:50.910> if<00:02:51.360> you've<00:02:51.480> forgotten<00:02:51.750> what
+
+00:02:51.890 --> 00:02:51.900 
+half vector and if you've forgotten what
+
+00:02:51.900 --> 00:02:53.480 
+half vector and if you've forgotten what
+the<00:02:51.960> half<00:02:52.140> vector<00:02:52.500> is<00:02:52.650> that's<00:02:53.040> the<00:02:53.190> one<00:02:53.310> that's
+
+00:02:53.480 --> 00:02:53.490 
+the half vector is that's the one that's
+
+00:02:53.490 --> 00:02:55.310 
+the half vector is that's the one that's
+halfway<00:02:53.670> between<00:02:53.850> the<00:02:54.240> view<00:02:54.450> vector<00:02:54.660> and<00:02:55.020> the
+
+00:02:55.310 --> 00:02:55.320 
+halfway between the view vector and the
+
+00:02:55.320 --> 00:02:57.950 
+halfway between the view vector and the
+light<00:02:55.530> vector<00:02:56.420> all<00:02:57.420> right<00:02:57.600> good
+
+00:02:57.950 --> 00:02:57.960 
+light vector all right good
+
+00:02:57.960 --> 00:03:00.140 
+light vector all right good
+now<00:02:58.110> in<00:02:58.320> line<00:02:58.560> 18<00:02:59.040> we<00:02:59.220> still<00:02:59.460> calculate<00:03:00.000> the
+
+00:03:00.140 --> 00:03:00.150 
+now in line 18 we still calculate the
+
+00:03:00.150 --> 00:03:01.880 
+now in line 18 we still calculate the
+diffuse<00:03:00.510> in<00:03:00.660> tensity<00:03:01.050> just<00:03:01.350> like<00:03:01.440> we<00:03:01.560> did<00:03:01.710> last
+
+00:03:01.880 --> 00:03:01.890 
+diffuse in tensity just like we did last
+
+00:03:01.890 --> 00:03:04.310 
+diffuse in tensity just like we did last
+time<00:03:02.100> but<00:03:02.880> notice<00:03:03.180> that<00:03:03.210> in<00:03:03.420> line<00:03:03.570> 19<00:03:04.140> we're
+
+00:03:04.310 --> 00:03:04.320 
+time but notice that in line 19 we're
+
+00:03:04.320 --> 00:03:06.350 
+time but notice that in line 19 we're
+using<00:03:04.620> that<00:03:04.830> intensity<00:03:05.340> and<00:03:05.580> multiplying<00:03:06.180> it
+
+00:03:06.350 --> 00:03:06.360 
+using that intensity and multiplying it
+
+00:03:06.360 --> 00:03:09.290 
+using that intensity and multiplying it
+by<00:03:06.420> an<00:03:06.630> actual<00:03:06.900> color<00:03:07.580> so<00:03:08.580> in<00:03:08.700> this<00:03:08.850> case<00:03:09.120> the
+
+00:03:09.290 --> 00:03:09.300 
+by an actual color so in this case the
+
+00:03:09.300 --> 00:03:12.530 
+by an actual color so in this case the
+color<00:03:09.480> is<00:03:09.690> point<00:03:09.990> 1<00:03:10.170> 4<00:03:10.410> red<00:03:10.650> 0.8<00:03:11.520> 4<00:03:11.880> green<00:03:12.180> and
+
+00:03:12.530 --> 00:03:12.540 
+color is point 1 4 red 0.8 4 green and
+
+00:03:12.540 --> 00:03:14.840 
+color is point 1 4 red 0.8 4 green and
+point<00:03:12.930> 1<00:03:13.110> 4<00:03:13.350> blue<00:03:13.620> in<00:03:14.340> other<00:03:14.520> words<00:03:14.670> the
+
+00:03:14.840 --> 00:03:14.850 
+point 1 4 blue in other words the
+
+00:03:14.850 --> 00:03:16.430 
+point 1 4 blue in other words the
+diffuse<00:03:15.210> color<00:03:15.420> is<00:03:15.660> going<00:03:15.780> to<00:03:15.840> be<00:03:15.930> a<00:03:15.960> mostly
+
+00:03:16.430 --> 00:03:16.440 
+diffuse color is going to be a mostly
+
+00:03:16.440 --> 00:03:19.430 
+diffuse color is going to be a mostly
+green<00:03:16.710> color<00:03:17.750> now<00:03:18.750> if<00:03:18.810> you<00:03:18.900> drop<00:03:19.080> down<00:03:19.200> on<00:03:19.320> line
+
+00:03:19.430 --> 00:03:19.440 
+green color now if you drop down on line
+
+00:03:19.440 --> 00:03:21.110 
+green color now if you drop down on line
+23<00:03:20.040> this<00:03:20.400> is<00:03:20.580> where<00:03:20.700> we're<00:03:20.790> gonna<00:03:20.850> calculate
+
+00:03:21.110 --> 00:03:21.120 
+23 this is where we're gonna calculate
+
+00:03:21.120 --> 00:03:22.940 
+23 this is where we're gonna calculate
+the<00:03:21.510> specular<00:03:21.990> component<00:03:22.500> of<00:03:22.590> the<00:03:22.650> lighting
+
+00:03:22.940 --> 00:03:22.950 
+the specular component of the lighting
+
+00:03:22.950 --> 00:03:24.980 
+the specular component of the lighting
+equation<00:03:23.370> now<00:03:24.150> the<00:03:24.210> math<00:03:24.360> behind<00:03:24.720> this<00:03:24.840> has
+
+00:03:24.980 --> 00:03:24.990 
+equation now the math behind this has
+
+00:03:24.990 --> 00:03:26.570 
+equation now the math behind this has
+already<00:03:25.110> been<00:03:25.290> explained<00:03:25.740> but<00:03:26.190> notice<00:03:26.550> that
+
+00:03:26.570 --> 00:03:26.580 
+already been explained but notice that
+
+00:03:26.580 --> 00:03:28.580 
+already been explained but notice that
+we're<00:03:26.790> taking<00:03:27.090> the<00:03:27.240> dot<00:03:27.480> product<00:03:27.870> between<00:03:28.170> N
+
+00:03:28.580 --> 00:03:28.590 
+we're taking the dot product between N
+
+00:03:28.590 --> 00:03:30.770 
+we're taking the dot product between N
+and<00:03:28.770> H<00:03:28.890> and<00:03:29.160> then<00:03:29.790> we're<00:03:29.910> taking<00:03:30.030> the<00:03:30.300> max<00:03:30.570> of
+
+00:03:30.770 --> 00:03:30.780 
+and H and then we're taking the max of
+
+00:03:30.780 --> 00:03:32.600 
+and H and then we're taking the max of
+that<00:03:30.900> dot<00:03:31.110> product<00:03:31.380> with<00:03:31.650> zero<00:03:32.070> because
+
+00:03:32.600 --> 00:03:32.610 
+that dot product with zero because
+
+00:03:32.610 --> 00:03:33.950 
+that dot product with zero because
+remember<00:03:32.640> dot<00:03:33.150> products<00:03:33.570> can<00:03:33.690> return
+
+00:03:33.950 --> 00:03:33.960 
+remember dot products can return
+
+00:03:33.960 --> 00:03:36.980 
+remember dot products can return
+negative<00:03:34.140> values<00:03:35.330> finally<00:03:36.330> we're<00:03:36.540> taking<00:03:36.780> all
+
+00:03:36.980 --> 00:03:36.990 
+negative values finally we're taking all
+
+00:03:36.990 --> 00:03:38.630 
+negative values finally we're taking all
+of<00:03:37.020> that<00:03:37.170> stuff<00:03:37.560> and<00:03:37.770> we're<00:03:37.950> raising<00:03:38.190> it<00:03:38.490> to
+
+00:03:38.630 --> 00:03:38.640 
+of that stuff and we're raising it to
+
+00:03:38.640 --> 00:03:41.120 
+of that stuff and we're raising it to
+the<00:03:38.760> 30th<00:03:39.180> power<00:03:39.470> now<00:03:40.470> we'll<00:03:40.620> tow<00:03:40.770> around<00:03:41.040> with
+
+00:03:41.120 --> 00:03:41.130 
+the 30th power now we'll tow around with
+
+00:03:41.130 --> 00:03:43.040 
+the 30th power now we'll tow around with
+other<00:03:41.220> values<00:03:41.610> later<00:03:41.850> but<00:03:42.360> notice<00:03:42.720> this<00:03:42.900> is
+
+00:03:43.040 --> 00:03:43.050 
+other values later but notice this is
+
+00:03:43.050 --> 00:03:44.270 
+other values later but notice this is
+going<00:03:43.170> to<00:03:43.230> return<00:03:43.530> us<00:03:43.650> the<00:03:43.680> specular
+
+00:03:44.270 --> 00:03:44.280 
+going to return us the specular
+
+00:03:44.280 --> 00:03:46.940 
+going to return us the specular
+intensity<00:03:44.810> we<00:03:45.810> then<00:03:45.960> use<00:03:46.230> that<00:03:46.260> specular
+
+00:03:46.940 --> 00:03:46.950 
+intensity we then use that specular
+
+00:03:46.950 --> 00:03:49.430 
+intensity we then use that specular
+intensity<00:03:47.340> in<00:03:47.520> line<00:03:47.700> 24<00:03:48.300> by<00:03:48.720> multiplying<00:03:49.290> it
+
+00:03:49.430 --> 00:03:49.440 
+intensity in line 24 by multiplying it
+
+00:03:49.440 --> 00:03:51.770 
+intensity in line 24 by multiplying it
+by<00:03:49.470> a<00:03:49.620> color<00:03:49.980> and<00:03:50.250> in<00:03:50.730> this<00:03:50.850> case<00:03:51.120> the<00:03:51.330> specular
+
+00:03:51.770 --> 00:03:51.780 
+by a color and in this case the specular
+
+00:03:51.780 --> 00:03:54.770 
+by a color and in this case the specular
+color<00:03:51.810> is<00:03:52.140> going<00:03:52.230> to<00:03:52.290> be<00:03:52.350> 0.7<00:03:53.100> for<00:03:53.130> red<00:03:53.580> 0.9<00:03:54.510> for
+
+00:03:54.770 --> 00:03:54.780 
+color is going to be 0.7 for red 0.9 for
+
+00:03:54.780 --> 00:03:58.310 
+color is going to be 0.7 for red 0.9 for
+green<00:03:54.990> and<00:03:55.170> 0.7<00:03:55.710> for<00:03:55.740> blue<00:03:56.100> and<00:03:56.870> then<00:03:57.870> finally
+
+00:03:58.310 --> 00:03:58.320 
+green and 0.7 for blue and then finally
+
+00:03:58.320 --> 00:03:59.750 
+green and 0.7 for blue and then finally
+since<00:03:58.590> I've<00:03:58.770> already<00:03:59.070> calculated<00:03:59.400> the
+
+00:03:59.750 --> 00:03:59.760 
+since I've already calculated the
+
+00:03:59.760 --> 00:04:01.220 
+since I've already calculated the
+diffuse<00:04:00.090> component<00:04:00.240> and<00:04:00.750> the<00:04:00.870> specular
+
+00:04:01.220 --> 00:04:01.230 
+diffuse component and the specular
+
+00:04:01.230 --> 00:04:02.840 
+diffuse component and the specular
+component<00:04:01.860> I<00:04:02.040> add<00:04:02.400> those<00:04:02.640> two<00:04:02.820> things
+
+00:04:02.840 --> 00:04:02.850 
+component I add those two things
+
+00:04:02.850 --> 00:04:05.180 
+component I add those two things
+together<00:04:03.210> in<00:04:03.660> line<00:04:03.810> 27<00:04:04.500> to<00:04:04.680> generate<00:04:05.040> the
+
+00:04:05.180 --> 00:04:05.190 
+together in line 27 to generate the
+
+00:04:05.190 --> 00:04:07.790 
+together in line 27 to generate the
+final<00:04:05.340> color<00:04:05.900> now<00:04:06.900> to<00:04:06.960> prove<00:04:07.170> a<00:04:07.320> point<00:04:07.530> I'll
+
+00:04:07.790 --> 00:04:07.800 
+final color now to prove a point I'll
+
+00:04:07.800 --> 00:04:09.410 
+final color now to prove a point I'll
+change<00:04:08.160> the<00:04:08.370> specular<00:04:08.820> color<00:04:08.850> from<00:04:09.330> this
+
+00:04:09.410 --> 00:04:09.420 
+change the specular color from this
+
+00:04:09.420 --> 00:04:16.699 
+change the specular color from this
+light<00:04:09.690> green<00:04:10.050> to<00:04:10.440> red
+
+00:04:16.699 --> 00:04:16.709 
+
+00:04:16.709 --> 00:04:19.050 
+
+you<00:04:17.709> can<00:04:17.860> see<00:04:18.010> that<00:04:18.160> the<00:04:18.280> diffuse<00:04:18.640> color<00:04:18.850> is
+
+00:04:19.050 --> 00:04:19.060 
+you can see that the diffuse color is
+
+00:04:19.060 --> 00:04:21.090 
+you can see that the diffuse color is
+still<00:04:19.270> green<00:04:19.630> but<00:04:19.989> the<00:04:20.290> specular<00:04:20.739> color<00:04:20.770> is
+
+00:04:21.090 --> 00:04:21.100 
+still green but the specular color is
+
+00:04:21.100 --> 00:04:23.370 
+still green but the specular color is
+yellow<00:04:21.280> because<00:04:21.700> red<00:04:22.210> plus<00:04:22.540> green<00:04:22.630> equals
+
+00:04:23.370 --> 00:04:23.380 
+yellow because red plus green equals
+
+00:04:23.380 --> 00:04:26.820 
+yellow because red plus green equals
+yellow<00:04:25.230> so<00:04:26.230> we're<00:04:26.320> going<00:04:26.410> to<00:04:26.470> shut<00:04:26.650> this<00:04:26.770> down
+
+00:04:26.820 --> 00:04:26.830 
+yellow so we're going to shut this down
+
+00:04:26.830 --> 00:04:31.230 
+yellow so we're going to shut this down
+now<00:04:29.160> to<00:04:30.160> make<00:04:30.340> the<00:04:30.460> specular<00:04:30.850> highlights<00:04:31.180> a
+
+00:04:31.230 --> 00:04:31.240 
+now to make the specular highlights a
+
+00:04:31.240 --> 00:04:32.850 
+now to make the specular highlights a
+little<00:04:31.420> bit<00:04:31.510> more<00:04:31.660> noticeable<00:04:32.170> let<00:04:32.500> me<00:04:32.590> change
+
+00:04:32.850 --> 00:04:32.860 
+little bit more noticeable let me change
+
+00:04:32.860 --> 00:04:35.820 
+little bit more noticeable let me change
+that<00:04:32.950> back<00:04:34.110> and<00:04:35.110> then<00:04:35.170> I'll<00:04:35.320> come<00:04:35.470> up<00:04:35.500> here<00:04:35.770> and
+
+00:04:35.820 --> 00:04:35.830 
+that back and then I'll come up here and
+
+00:04:35.830 --> 00:04:39.870 
+that back and then I'll come up here and
+I'll<00:04:35.920> change<00:04:36.220> the<00:04:36.430> diffuse<00:04:36.760> color<00:04:37.440> and<00:04:38.880> in
+
+00:04:39.870 --> 00:04:39.880 
+I'll change the diffuse color and in
+
+00:04:39.880 --> 00:04:41.160 
+I'll change the diffuse color and in
+this<00:04:40.000> case<00:04:40.210> you<00:04:40.330> can<00:04:40.480> see<00:04:40.600> that<00:04:40.630> the<00:04:40.840> diffuse
+
+00:04:41.160 --> 00:04:41.170 
+this case you can see that the diffuse
+
+00:04:41.170 --> 00:04:44.400 
+this case you can see that the diffuse
+color<00:04:41.350> is<00:04:41.530> actually<00:04:41.650> really<00:04:41.980> dark<00:04:42.340> gray<00:04:43.290> so<00:04:44.290> if
+
+00:04:44.400 --> 00:04:44.410 
+color is actually really dark gray so if
+
+00:04:44.410 --> 00:04:48.510 
+color is actually really dark gray so if
+I<00:04:44.500> were<00:04:44.620> to<00:04:44.650> run<00:04:44.830> it<00:04:44.920> now<00:04:47.040> you<00:04:48.040> can<00:04:48.190> see<00:04:48.340> that<00:04:48.460> we
+
+00:04:48.510 --> 00:04:48.520 
+I were to run it now you can see that we
+
+00:04:48.520 --> 00:04:54.770 
+I were to run it now you can see that we
+get<00:04:48.670> something<00:04:48.910> that<00:04:49.060> looks<00:04:49.210> almost<00:04:49.540> metallic
+
+00:04:54.770 --> 00:04:54.780 
+
+00:04:54.780 --> 00:04:58.680 
+
+alright<00:04:55.780> so<00:04:55.900> I'll<00:04:56.020> shut<00:04:56.140> this<00:04:56.290> down<00:04:56.470> I<00:04:57.690> could
+
+00:04:58.680 --> 00:04:58.690 
+alright so I'll shut this down I could
+
+00:04:58.690 --> 00:05:00.480 
+alright so I'll shut this down I could
+also<00:04:58.810> go<00:04:59.020> back<00:04:59.200> in<00:04:59.350> and<00:04:59.470> change<00:04:59.710> the<00:04:59.800> specular
+
+00:05:00.480 --> 00:05:00.490 
+also go back in and change the specular
+
+00:05:00.490 --> 00:05:03.600 
+also go back in and change the specular
+highlight<00:05:00.940> color<00:05:01.500> back<00:05:02.500> to<00:05:02.530> red<00:05:02.950> and<00:05:03.310> if<00:05:03.550> I
+
+00:05:03.600 --> 00:05:03.610 
+highlight color back to red and if I
+
+00:05:03.610 --> 00:05:06.900 
+highlight color back to red and if I
+were<00:05:03.730> to<00:05:03.790> run<00:05:03.970> it<00:05:04.090> again<00:05:05.430> you<00:05:06.430> can<00:05:06.550> see<00:05:06.670> we<00:05:06.790> get
+
+00:05:06.900 --> 00:05:06.910 
+were to run it again you can see we get
+
+00:05:06.910 --> 00:05:13.980 
+were to run it again you can see we get
+a<00:05:06.940> different<00:05:07.300> effect<00:05:12.600> it's<00:05:13.600> pretty<00:05:13.840> cool
+
+00:05:13.980 --> 00:05:13.990 
+a different effect it's pretty cool
+
+00:05:13.990 --> 00:05:17.780 
+a different effect it's pretty cool
+stuff<00:05:14.320> so<00:05:14.620> let<00:05:15.040> me<00:05:15.130> shut<00:05:15.340> this<00:05:15.370> down
+
+00:05:17.780 --> 00:05:17.790 
+
+00:05:17.790 --> 00:05:19.830 
+
+all<00:05:18.790> right<00:05:18.940> good<00:05:19.120> so<00:05:19.330> let's<00:05:19.510> come<00:05:19.660> back<00:05:19.690> and
+
+00:05:19.830 --> 00:05:19.840 
+all right good so let's come back and
+
+00:05:19.840 --> 00:05:22.050 
+all right good so let's come back and
+look<00:05:20.020> at<00:05:20.140> line<00:05:20.290> 23<00:05:20.830> again<00:05:21.100> you<00:05:21.700> can<00:05:21.850> see<00:05:21.940> that
+
+00:05:22.050 --> 00:05:22.060 
+look at line 23 again you can see that
+
+00:05:22.060 --> 00:05:23.730 
+look at line 23 again you can see that
+we<00:05:22.120> currently<00:05:22.330> have<00:05:22.630> the<00:05:22.750> power<00:05:22.930> raised<00:05:23.260> to<00:05:23.380> 30
+
+00:05:23.730 --> 00:05:23.740 
+we currently have the power raised to 30
+
+00:05:23.740 --> 00:05:25.380 
+we currently have the power raised to 30
+but<00:05:24.340> let's<00:05:24.460> change<00:05:24.700> that<00:05:24.880> down<00:05:25.060> to<00:05:25.210> something
+
+00:05:25.380 --> 00:05:25.390 
+but let's change that down to something
+
+00:05:25.390 --> 00:05:29.280 
+but let's change that down to something
+like<00:05:25.600> 3<00:05:26.020> and<00:05:26.830> if<00:05:26.920> I<00:05:27.010> were<00:05:27.130> to<00:05:27.160> run<00:05:27.400> it<00:05:27.550> you<00:05:28.290> can
+
+00:05:29.280 --> 00:05:29.290 
+like 3 and if I were to run it you can
+
+00:05:29.290 --> 00:05:30.570 
+like 3 and if I were to run it you can
+see<00:05:29.350> it<00:05:29.560> still<00:05:29.800> looks<00:05:29.980> metallic
+
+00:05:30.570 --> 00:05:30.580 
+see it still looks metallic
+
+00:05:30.580 --> 00:05:37.790 
+see it still looks metallic
+but<00:05:30.850> the<00:05:30.940> specular<00:05:31.360> highlight<00:05:31.750> is<00:05:31.900> massive
+
+00:05:37.790 --> 00:05:37.800 
+
+00:05:37.800 --> 00:05:42.650 
+
+all<00:05:38.520> right<00:05:40.849> now<00:05:41.849> if<00:05:41.910> we<00:05:42.000> were<00:05:42.120> to<00:05:42.150> change<00:05:42.389> this
+
+00:05:42.650 --> 00:05:42.660 
+all right now if we were to change this
+
+00:05:42.660 --> 00:05:44.930 
+all right now if we were to change this
+three<00:05:42.930> to<00:05:43.139> something<00:05:43.470> like<00:05:43.590> 200<00:05:44.310> and<00:05:44.460> run<00:05:44.789> it
+
+00:05:44.930 --> 00:05:44.940 
+three to something like 200 and run it
+
+00:05:44.940 --> 00:05:49.219 
+three to something like 200 and run it
+you<00:05:47.120> can<00:05:48.120> see<00:05:48.240> that<00:05:48.389> the<00:05:48.479> specular<00:05:48.870> highlights
+
+00:05:49.219 --> 00:05:49.229 
+you can see that the specular highlights
+
+00:05:49.229 --> 00:05:50.960 
+you can see that the specular highlights
+are<00:05:49.379> smaller<00:05:49.680> which<00:05:50.129> makes<00:05:50.370> the<00:05:50.490> surface<00:05:50.819> look
+
+00:05:50.960 --> 00:05:50.970 
+are smaller which makes the surface look
+
+00:05:50.970 --> 00:06:00.059 
+are smaller which makes the surface look
+harder
+
+00:06:00.059 --> 00:06:00.069 
+
+00:06:00.069 --> 00:06:02.680 
+
+all<00:06:01.069> right<00:06:01.190> so<00:06:01.340> we'll<00:06:01.490> set<00:06:01.639> this<00:06:01.729> back<00:06:01.940> to<00:06:02.150> 30
+
+00:06:02.680 --> 00:06:02.690 
+all right so we'll set this back to 30
+
+00:06:02.690 --> 00:06:07.740 
+all right so we'll set this back to 30
+and<00:06:03.669> then<00:06:04.669> jump<00:06:04.970> back<00:06:05.120> over<00:06:05.300> to<00:06:05.449> main.cpp
+
+00:06:07.740 --> 00:06:07.750 
+and then jump back over to main.cpp
+
+00:06:07.750 --> 00:06:09.700 
+and then jump back over to main.cpp
+and<00:06:08.750> one<00:06:08.870> last<00:06:09.020> thing<00:06:09.199> that<00:06:09.289> you<00:06:09.440> might<00:06:09.530> want
+
+00:06:09.700 --> 00:06:09.710 
+and one last thing that you might want
+
+00:06:09.710 --> 00:06:11.230 
+and one last thing that you might want
+to<00:06:09.740> do<00:06:09.889> just<00:06:09.919> to<00:06:10.190> play<00:06:10.400> around<00:06:10.699> is<00:06:10.970> to
+
+00:06:11.230 --> 00:06:11.240 
+to do just to play around is to
+
+00:06:11.240 --> 00:06:15.460 
+to do just to play around is to
+uncomment<00:06:11.930> this<00:06:12.020> line<00:06:12.099> 195<00:06:14.139> now<00:06:15.139> if<00:06:15.229> you<00:06:15.319> do
+
+00:06:15.460 --> 00:06:15.470 
+uncomment this line 195 now if you do
+
+00:06:15.470 --> 00:06:16.689 
+uncomment this line 195 now if you do
+this<00:06:15.620> it's<00:06:15.860> gonna<00:06:15.949> render<00:06:16.220> it<00:06:16.370> in<00:06:16.430> wireframe
+
+00:06:16.689 --> 00:06:16.699 
+this it's gonna render it in wireframe
+
+00:06:16.699 --> 00:06:20.890 
+this it's gonna render it in wireframe
+so<00:06:17.509> let's<00:06:17.720> go<00:06:17.810> ahead<00:06:17.870> and<00:06:18.020> run<00:06:18.110> that<00:06:18.319> and<00:06:19.900> the
+
+00:06:20.890 --> 00:06:20.900 
+so let's go ahead and run that and the
+
+00:06:20.900 --> 00:06:22.149 
+so let's go ahead and run that and the
+reason<00:06:21.139> that<00:06:21.169> I<00:06:21.289> wanted<00:06:21.560> to<00:06:21.620> show<00:06:21.860> you<00:06:21.919> this
+
+00:06:22.149 --> 00:06:22.159 
+reason that I wanted to show you this
+
+00:06:22.159 --> 00:06:23.649 
+reason that I wanted to show you this
+was<00:06:22.520> so<00:06:22.669> that<00:06:22.789> you<00:06:22.849> could<00:06:22.909> see<00:06:23.240> the<00:06:23.389> color
+
+00:06:23.649 --> 00:06:23.659 
+was so that you could see the color
+
+00:06:23.659 --> 00:06:31.050 
+was so that you could see the color
+interpolation<00:06:24.470> between<00:06:24.590> the<00:06:25.009> vertices
+
+00:06:31.050 --> 00:06:31.060 
+
+00:06:31.060 --> 00:06:35.469 
+
+alright<00:06:33.490> so<00:06:34.490> let's<00:06:34.610> go<00:06:34.699> and<00:06:34.789> change<00:06:35.030> that<00:06:35.240> back
+
+00:06:35.469 --> 00:06:35.479 
+alright so let's go and change that back
+
+00:06:35.479 --> 00:06:37.420 
+alright so let's go and change that back
+and<00:06:35.810> then<00:06:36.530> the<00:06:36.620> last<00:06:36.800> thing<00:06:37.039> that<00:06:37.069> I'll<00:06:37.250> do<00:06:37.400> is
+
+00:06:37.420 --> 00:06:37.430 
+and then the last thing that I'll do is
+
+00:06:37.430 --> 00:06:38.800 
+and then the last thing that I'll do is
+I'll<00:06:37.639> restrict<00:06:38.120> it<00:06:38.240> so<00:06:38.389> that<00:06:38.539> it<00:06:38.629> doesn't
+
+00:06:38.800 --> 00:06:38.810 
+I'll restrict it so that it doesn't
+
+00:06:38.810 --> 00:06:43.529 
+I'll restrict it so that it doesn't
+actually<00:06:39.050> rotate<00:06:40.389> commenting<00:06:41.389> out<00:06:41.479> line<00:06:41.780> 169
+
+00:06:43.529 --> 00:06:43.539 
+actually rotate commenting out line 169
+
+00:06:43.539 --> 00:06:47.350 
+actually rotate commenting out line 169
+don't<00:06:44.539> me<00:06:44.599> go<00:06:44.659> ahead<00:06:44.780> and<00:06:44.870> run<00:06:44.960> it<00:06:46.180> now<00:06:47.180> what<00:06:47.330> I
+
+00:06:47.350 --> 00:06:47.360 
+don't me go ahead and run it now what I
+
+00:06:47.360 --> 00:06:49.240 
+don't me go ahead and run it now what I
+want<00:06:47.569> you<00:06:47.659> to<00:06:47.719> notice<00:06:47.990> here<00:06:48.229> is<00:06:48.289> that<00:06:48.469> as<00:06:48.860> I
+
+00:06:49.240 --> 00:06:49.250 
+want you to notice here is that as I
+
+00:06:49.250 --> 00:06:51.610 
+want you to notice here is that as I
+move<00:06:49.490> the<00:06:49.699> camera<00:06:49.729> the<00:06:50.659> specular<00:06:51.169> highlights
+
+00:06:51.610 --> 00:06:51.620 
+move the camera the specular highlights
+
+00:06:51.620 --> 00:06:54.189 
+move the camera the specular highlights
+change<00:06:52.009> position<00:06:52.840> so<00:06:53.840> you<00:06:53.930> can<00:06:53.990> see
+
+00:06:54.189 --> 00:06:54.199 
+change position so you can see
+
+00:06:54.199 --> 00:06:55.689 
+change position so you can see
+especially<00:06:54.379> on<00:06:54.680> that<00:06:54.889> curvy<00:06:55.219> section<00:06:55.520> on<00:06:55.610> the
+
+00:06:55.689 --> 00:06:55.699 
+especially on that curvy section on the
+
+00:06:55.699 --> 00:06:57.490 
+especially on that curvy section on the
+bottom<00:06:56.060> you<00:06:56.599> can<00:06:56.629> see<00:06:56.780> that<00:06:56.900> the<00:06:57.139> specular
+
+00:06:57.490 --> 00:06:57.500 
+bottom you can see that the specular
+
+00:06:57.500 --> 00:06:59.320 
+bottom you can see that the specular
+highlight<00:06:57.830> moves<00:06:58.310> left<00:06:58.610> and<00:06:58.729> right<00:06:58.940> as<00:06:59.090> I<00:06:59.180> move
+
+00:06:59.320 --> 00:06:59.330 
+highlight moves left and right as I move
+
+00:06:59.330 --> 00:07:05.869 
+highlight moves left and right as I move
+the<00:06:59.449> camera
+
+00:07:05.869 --> 00:07:05.879 
+
+00:07:05.879 --> 00:07:08.299 
+
+so<00:07:06.449> that's<00:07:06.629> it<00:07:06.839> hopefully<00:07:07.679> you<00:07:07.830> can<00:07:08.009> see<00:07:08.189> that
+
+00:07:08.299 --> 00:07:08.309 
+so that's it hopefully you can see that
+
+00:07:08.309 --> 00:07:09.889 
+so that's it hopefully you can see that
+adding<00:07:08.610> specular<00:07:08.969> highlights<00:07:09.270> contributes<00:07:09.809> a
+
+00:07:09.889 --> 00:07:09.899 
+adding specular highlights contributes a
+
+00:07:09.899 --> 00:07:11.899 
+adding specular highlights contributes a
+lot<00:07:10.080> to<00:07:10.139> the<00:07:10.409> quality<00:07:10.770> of<00:07:10.860> the<00:07:10.979> scene<00:07:11.219> and<00:07:11.550> it
+
+00:07:11.899 --> 00:07:11.909 
+lot to the quality of the scene and it
+
+00:07:11.909 --> 00:07:15.289 
+lot to the quality of the scene and it
+only<00:07:11.999> takes<00:07:12.240> a<00:07:12.389> couple<00:07:12.569> of<00:07:12.749> lines<00:07:12.959> of<00:07:13.110> code
+

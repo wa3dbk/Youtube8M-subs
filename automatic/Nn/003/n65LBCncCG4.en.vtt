@@ -1,0 +1,526 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.889 --> 00:00:10.829 
+
+hello<00:00:09.400> and<00:00:09.670> welcome<00:00:09.940> to<00:00:09.969> a<00:00:10.090> minute<00:00:10.389> Maya<00:00:10.540> in
+
+00:00:10.829 --> 00:00:10.839 
+hello and welcome to a minute Maya in
+
+00:00:10.839 --> 00:00:12.360 
+hello and welcome to a minute Maya in
+this<00:00:11.230> tutorial<00:00:11.349> I'm<00:00:11.920> going<00:00:12.039> to<00:00:12.099> show<00:00:12.160> you<00:00:12.280> how
+
+00:00:12.360 --> 00:00:12.370 
+this tutorial I'm going to show you how
+
+00:00:12.370 --> 00:00:15.029 
+this tutorial I'm going to show you how
+to<00:00:12.400> bake<00:00:12.670> ambient<00:00:13.209> occlusion<00:00:13.619> onto<00:00:14.619> a<00:00:14.650> texture
+
+00:00:15.029 --> 00:00:15.039 
+to bake ambient occlusion onto a texture
+
+00:00:15.039 --> 00:00:17.909 
+to bake ambient occlusion onto a texture
+map<00:00:15.330> okay<00:00:16.330> so<00:00:16.390> we've<00:00:16.779> got<00:00:16.810> a<00:00:16.990> pretty<00:00:17.500> simple
+
+00:00:17.909 --> 00:00:17.919 
+map okay so we've got a pretty simple
+
+00:00:17.919 --> 00:00:20.370 
+map okay so we've got a pretty simple
+asset<00:00:18.220> here<00:00:18.480> so<00:00:19.480> good<00:00:19.689> not<00:00:19.779> been<00:00:19.960> working<00:00:20.259> on
+
+00:00:20.370 --> 00:00:20.380 
+asset here so good not been working on
+
+00:00:20.380 --> 00:00:23.730 
+asset here so good not been working on
+it's<00:00:20.560> just<00:00:20.800> the<00:00:21.660> low<00:00:22.660> poly<00:00:22.960> model<00:00:23.050> without<00:00:23.529> any
+
+00:00:23.730 --> 00:00:23.740 
+it's just the low poly model without any
+
+00:00:23.740 --> 00:00:29.339 
+it's just the low poly model without any
+detail<00:00:24.189> so<00:00:24.849> if<00:00:25.000> I<00:00:25.119> take<00:00:25.270> a<00:00:25.300> quick<00:00:25.540> render<00:00:28.349> as
+
+00:00:29.339 --> 00:00:29.349 
+detail so if I take a quick render as
+
+00:00:29.349 --> 00:00:30.569 
+detail so if I take a quick render as
+you<00:00:29.559> can<00:00:29.710> see<00:00:29.919> it's<00:00:30.070> gotten<00:00:30.250> up<00:00:30.399> in<00:00:30.520> an
+
+00:00:30.569 --> 00:00:30.579 
+you can see it's gotten up in an
+
+00:00:30.579 --> 00:00:33.660 
+you can see it's gotten up in an
+occlusion<00:00:31.000> shader<00:00:31.239> on<00:00:31.509> it<00:00:32.370> if<00:00:33.370> you<00:00:33.460> want<00:00:33.579> to
+
+00:00:33.660 --> 00:00:33.670 
+occlusion shader on it if you want to
+
+00:00:33.670 --> 00:00:34.799 
+occlusion shader on it if you want to
+know<00:00:33.790> how<00:00:33.940> to<00:00:34.000> do<00:00:34.210> the<00:00:34.360> ambient<00:00:34.660> occlusion
+
+00:00:34.799 --> 00:00:34.809 
+know how to do the ambient occlusion
+
+00:00:34.809 --> 00:00:36.900 
+know how to do the ambient occlusion
+shader<00:00:35.260> I've<00:00:35.680> got<00:00:36.190> another<00:00:36.370> tutorial<00:00:36.700> that
+
+00:00:36.900 --> 00:00:36.910 
+shader I've got another tutorial that
+
+00:00:36.910 --> 00:00:39.090 
+shader I've got another tutorial that
+I've<00:00:37.059> put<00:00:37.239> in<00:00:37.390> in<00:00:37.690> the<00:00:37.719> description<00:00:38.469> a<00:00:38.649> few
+
+00:00:39.090 --> 00:00:39.100 
+I've put in in the description a few
+
+00:00:39.100 --> 00:00:41.760 
+I've put in in the description a few
+guys<00:00:39.280> to<00:00:39.309> follow<00:00:39.930> first<00:00:40.930> he<00:00:41.140> needs<00:00:41.290> to<00:00:41.380> do<00:00:41.500> is
+
+00:00:41.760 --> 00:00:41.770 
+guys to follow first he needs to do is
+
+00:00:41.770 --> 00:00:45.690 
+guys to follow first he needs to do is
+to<00:00:41.800> have<00:00:42.100> a<00:00:42.400> model<00:00:43.000> with<00:00:43.660> UVs<00:00:44.340> so<00:00:45.340> as<00:00:45.490> you<00:00:45.610> can
+
+00:00:45.690 --> 00:00:45.700 
+to have a model with UVs so as you can
+
+00:00:45.700 --> 00:00:47.569 
+to have a model with UVs so as you can
+see<00:00:45.760> mumbles<00:00:46.210> good<00:00:46.360> movies<00:00:46.690> here
+
+00:00:47.569 --> 00:00:47.579 
+see mumbles good movies here
+
+00:00:47.579 --> 00:00:50.130 
+see mumbles good movies here
+so<00:00:48.579> the<00:00:48.730> yamaneika<00:00:49.060> should<00:00:49.360> be<00:00:49.450> baked<00:00:49.690> onto<00:00:49.989> it
+
+00:00:50.130 --> 00:00:50.140 
+so the yamaneika should be baked onto it
+
+00:00:50.140 --> 00:00:56.030 
+so the yamaneika should be baked onto it
+okay<00:00:50.590> so<00:00:51.690> these<00:00:52.690> go<00:00:52.900> into<00:00:53.079> the<00:00:53.310> render<00:00:54.310> panel
+
+00:00:56.030 --> 00:00:56.040 
+okay so these go into the render panel
+
+00:00:56.040 --> 00:00:59.310 
+okay so these go into the render panel
+going<00:00:57.040> to<00:00:57.190> lighting<00:00:57.579> and<00:00:57.730> shading<00:00:58.170> and<00:00:59.170> then
+
+00:00:59.310 --> 00:00:59.320 
+going to lighting and shading and then
+
+00:00:59.320 --> 00:01:02.340 
+going to lighting and shading and then
+go<00:00:59.440> down<00:00:59.620> to<00:00:59.680> a<00:00:59.860> batch<00:01:00.010> baked<00:01:00.630> mental<00:01:01.630> ray<00:01:01.780> and
+
+00:01:02.340 --> 00:01:02.350 
+go down to a batch baked mental ray and
+
+00:01:02.350 --> 00:01:05.789 
+go down to a batch baked mental ray and
+click<00:01:02.590> the<00:01:02.770> square<00:01:03.750> okay<00:01:04.750> well<00:01:05.560> I've<00:01:05.649> already
+
+00:01:05.789 --> 00:01:05.799 
+click the square okay well I've already
+
+00:01:05.799 --> 00:01:08.340 
+click the square okay well I've already
+got<00:01:05.950> the<00:01:06.130> settings<00:01:06.549> already<00:01:06.700> set<00:01:06.969> up<00:01:07.110> to<00:01:08.110> do<00:01:08.259> it
+
+00:01:08.340 --> 00:01:08.350 
+got the settings already set up to do it
+
+00:01:08.350 --> 00:01:11.219 
+got the settings already set up to do it
+quite<00:01:08.560> long<00:01:08.799> and<00:01:09.659> Bimini's<00:01:10.659> make<00:01:10.840> sure<00:01:10.990> I<00:01:11.020> send
+
+00:01:11.219 --> 00:01:11.229 
+quite long and Bimini's make sure I send
+
+00:01:11.229 --> 00:01:15.450 
+quite long and Bimini's make sure I send
+selected<00:01:11.579> texture<00:01:12.990> single<00:01:13.990> object<00:01:14.460> baked
+
+00:01:15.450 --> 00:01:15.460 
+selected texture single object baked
+
+00:01:15.460 --> 00:01:17.580 
+selected texture single object baked
+shadows<00:01:15.909> perspective<00:01:16.750> camera<00:01:16.990> you<00:01:17.470> can
+
+00:01:17.580 --> 00:01:17.590 
+shadows perspective camera you can
+
+00:01:17.590 --> 00:01:19.890 
+shadows perspective camera you can
+either<00:01:17.770> decide<00:01:18.100> whether<00:01:18.400> it<00:01:18.610> wants<00:01:18.700> to<00:01:19.060> make<00:01:19.840> a
+
+00:01:19.890 --> 00:01:19.900 
+either decide whether it wants to make a
+
+00:01:19.900 --> 00:01:21.360 
+either decide whether it wants to make a
+new<00:01:20.080> shader<00:01:20.380> with<00:01:20.799> the<00:01:20.950> ambient<00:01:21.310> occlusion
+
+00:01:21.360 --> 00:01:21.370 
+new shader with the ambient occlusion
+
+00:01:21.370 --> 00:01:23.910 
+new shader with the ambient occlusion
+attached<00:01:22.299> or<00:01:22.630> use<00:01:23.049> your<00:01:23.260> existing<00:01:23.470> shades
+
+00:01:23.910 --> 00:01:23.920 
+attached or use your existing shades
+
+00:01:23.920 --> 00:01:27.630 
+attached or use your existing shades
+that<00:01:24.040> you've<00:01:24.159> got<00:01:24.369> on<00:01:24.520> your<00:01:24.580> model<00:01:25.330> I<00:01:26.490> need<00:01:27.490> to
+
+00:01:27.630 --> 00:01:27.640 
+that you've got on your model I need to
+
+00:01:27.640 --> 00:01:28.920 
+that you've got on your model I need to
+make<00:01:27.820> sure<00:01:28.030> the<00:01:28.150> color<00:01:28.330> mode<00:01:28.540> is<00:01:28.570> set<00:01:28.869> to
+
+00:01:28.920 --> 00:01:28.930 
+make sure the color mode is set to
+
+00:01:28.930 --> 00:01:33.330 
+make sure the color mode is set to
+occlusion<00:01:29.560> um<00:01:31.380> find<00:01:32.380> this<00:01:32.590> works<00:01:32.830> pretty<00:01:33.040> well
+
+00:01:33.330 --> 00:01:33.340 
+occlusion um find this works pretty well
+
+00:01:33.340 --> 00:01:36.600 
+occlusion um find this works pretty well
+inclusion<00:01:34.270> rays<00:01:34.600> and<00:01:35.220> here<00:01:36.220> name<00:01:36.460> your
+
+00:01:36.600 --> 00:01:36.610 
+inclusion rays and here name your
+
+00:01:36.610 --> 00:01:39.800 
+inclusion rays and here name your
+occlusion<00:01:37.090> map<00:01:37.119> and<00:01:37.770> then<00:01:38.770> set<00:01:39.070> its
+
+00:01:39.800 --> 00:01:39.810 
+occlusion map and then set its
+
+00:01:39.810 --> 00:01:44.190 
+occlusion map and then set its
+resolution<00:01:40.810> a<00:01:40.990> new<00:01:41.710> file<00:01:41.950> format<00:01:42.630> TIFF<00:01:43.630> works
+
+00:01:44.190 --> 00:01:44.200 
+resolution a new file format TIFF works
+
+00:01:44.200 --> 00:01:46.800 
+resolution a new file format TIFF works
+pretty<00:01:44.439> well<00:01:44.560> for<00:01:44.710> me<00:01:44.979> when<00:01:45.270> baking<00:01:46.270> multiple
+
+00:01:46.800 --> 00:01:46.810 
+pretty well for me when baking multiple
+
+00:01:46.810 --> 00:01:48.420 
+pretty well for me when baking multiple
+objects<00:01:47.140> you<00:01:47.290> can<00:01:47.409> either<00:01:47.680> set<00:01:47.860> it<00:01:47.890> so<00:01:48.189> big
+
+00:01:48.420 --> 00:01:48.430 
+objects you can either set it so big
+
+00:01:48.430 --> 00:01:52.050 
+objects you can either set it so big
+storm<00:01:48.790> app<00:01:48.970> or<00:01:49.270> multiple<00:01:49.930> maps<00:01:50.140> and<00:01:50.880> I<00:01:51.880> don't
+
+00:01:52.050 --> 00:01:52.060 
+storm app or multiple maps and I don't
+
+00:01:52.060 --> 00:01:52.980 
+storm app or multiple maps and I don't
+think<00:01:52.270> you<00:01:52.330> really<00:01:52.509> need<00:01:52.570> to<00:01:52.720> bother<00:01:52.869> with
+
+00:01:52.980 --> 00:01:52.990 
+think you really need to bother with
+
+00:01:52.990 --> 00:01:55.170 
+think you really need to bother with
+anything<00:01:53.320> else<00:01:53.590> and<00:01:54.520> these<00:01:54.670> settings<00:01:54.909> to
+
+00:01:55.170 --> 00:01:55.180 
+anything else and these settings to
+
+00:01:55.180 --> 00:01:58.620 
+anything else and these settings to
+which<00:01:55.390> you've<00:01:55.600> done<00:01:55.750> that<00:01:56.430> mean<00:01:57.430> seduce<00:01:57.790> click
+
+00:01:58.620 --> 00:01:58.630 
+which you've done that mean seduce click
+
+00:01:58.630 --> 00:02:00.719 
+which you've done that mean seduce click
+convert<00:01:59.159> now<00:02:00.159> it's<00:02:00.280> going<00:02:00.490> through<00:02:00.610> the
+
+00:02:00.719 --> 00:02:00.729 
+convert now it's going through the
+
+00:02:00.729 --> 00:02:02.730 
+convert now it's going through the
+process<00:02:00.820> of<00:02:01.270> calculating<00:02:01.990> the<00:02:02.439> ambient
+
+00:02:02.730 --> 00:02:02.740 
+process of calculating the ambient
+
+00:02:02.740 --> 00:02:05.550 
+process of calculating the ambient
+occlusion<00:02:02.950> and<00:02:03.520> baking<00:02:04.330> out<00:02:04.540> onto<00:02:05.049> a<00:02:05.079> texture
+
+00:02:05.550 --> 00:02:05.560 
+occlusion and baking out onto a texture
+
+00:02:05.560 --> 00:02:07.950 
+occlusion and baking out onto a texture
+map<00:02:05.740> this<00:02:06.400> may<00:02:06.670> take<00:02:06.880> a<00:02:06.939> while<00:02:07.180> depending<00:02:07.509> on
+
+00:02:07.950 --> 00:02:07.960 
+map this may take a while depending on
+
+00:02:07.960 --> 00:02:09.539 
+map this may take a while depending on
+the<00:02:08.079> size<00:02:08.319> of<00:02:08.409> the<00:02:08.500> might<00:02:08.619> be<00:02:08.799> you<00:02:08.890> make<00:02:09.099> if
+
+00:02:09.539 --> 00:02:09.549 
+the size of the might be you make if
+
+00:02:09.549 --> 00:02:11.100 
+the size of the might be you make if
+you're<00:02:09.670> making<00:02:09.879> a<00:02:09.909> 4k<00:02:10.329> rap<00:02:10.539> it's<00:02:10.720> gonna<00:02:10.840> take<00:02:11.079> a
+
+00:02:11.100 --> 00:02:11.110 
+you're making a 4k rap it's gonna take a
+
+00:02:11.110 --> 00:02:12.809 
+you're making a 4k rap it's gonna take a
+long<00:02:11.319> time<00:02:11.349> and<00:02:11.860> a<00:02:11.980> lot<00:02:12.189> of<00:02:12.250> the<00:02:12.370> time<00:02:12.579> it<00:02:12.730> will
+
+00:02:12.809 --> 00:02:12.819 
+long time and a lot of the time it will
+
+00:02:12.819 --> 00:02:15.270 
+long time and a lot of the time it will
+stop<00:02:13.269> at<00:02:13.420> 5%<00:02:13.780> or<00:02:14.560> 0%
+
+00:02:15.270 --> 00:02:15.280 
+stop at 5% or 0%
+
+00:02:15.280 --> 00:02:17.580 
+stop at 5% or 0%
+if<00:02:15.519> you<00:02:15.610> click<00:02:15.879> it's<00:02:16.239> gonna<00:02:16.689> crash<00:02:17.020> so<00:02:17.349> just
+
+00:02:17.580 --> 00:02:17.590 
+if you click it's gonna crash so just
+
+00:02:17.590 --> 00:02:19.830 
+if you click it's gonna crash so just
+leave<00:02:17.739> its<00:02:17.920> think<00:02:18.280> it<00:02:18.760> is<00:02:18.940> working<00:02:19.480> you<00:02:19.810> just
+
+00:02:19.830 --> 00:02:19.840 
+leave its think it is working you just
+
+00:02:19.840 --> 00:02:22.170 
+leave its think it is working you just
+gotta<00:02:20.110> be<00:02:20.200> patient<00:02:20.230> I<00:02:20.800> think<00:02:21.040> I've<00:02:21.370> done
+
+00:02:22.170 --> 00:02:22.180 
+gotta be patient I think I've done
+
+00:02:22.180 --> 00:02:24.240 
+gotta be patient I think I've done
+put'em<00:02:22.540> up<00:02:22.659> before<00:02:23.019> it<00:02:23.140> has<00:02:23.230> taken<00:02:23.560> an<00:02:23.650> hour<00:02:23.829> it
+
+00:02:24.240 --> 00:02:24.250 
+put'em up before it has taken an hour it
+
+00:02:24.250 --> 00:02:26.819 
+put'em up before it has taken an hour it
+is<00:02:24.430> a<00:02:24.459> long<00:02:24.700> process<00:02:24.849> and<00:02:25.659> it<00:02:25.780> is<00:02:25.870> doing<00:02:26.230> it<00:02:26.349> to
+
+00:02:26.819 --> 00:02:26.829 
+is a long process and it is doing it to
+
+00:02:26.829 --> 00:02:28.319 
+is a long process and it is doing it to
+cancel<00:02:27.189> a<00:02:27.340> you've<00:02:27.609> done<00:02:27.760> something<00:02:28.060> wrong<00:02:28.180> in
+
+00:02:28.319 --> 00:02:28.329 
+cancel a you've done something wrong in
+
+00:02:28.329 --> 00:02:30.690 
+cancel a you've done something wrong in
+the<00:02:28.420> settings<00:02:28.780> or<00:02:28.900> you<00:02:28.989> don't<00:02:29.170> want<00:02:29.579> to<00:02:30.579> make
+
+00:02:30.690 --> 00:02:30.700 
+the settings or you don't want to make
+
+00:02:30.700 --> 00:02:32.550 
+the settings or you don't want to make
+any<00:02:30.879> more<00:02:30.969> press<00:02:31.299> escape<00:02:31.599> and<00:02:31.629> I'll<00:02:31.989> cancel<00:02:32.439> it
+
+00:02:32.550 --> 00:02:32.560 
+any more press escape and I'll cancel it
+
+00:02:32.560 --> 00:02:34.830 
+any more press escape and I'll cancel it
+I<00:02:32.739> such<00:02:33.340> finished<00:02:33.700> I<00:02:33.969> went<00:02:34.420> ahead<00:02:34.689> and
+
+00:02:34.830 --> 00:02:34.840 
+I such finished I went ahead and
+
+00:02:34.840 --> 00:02:38.250 
+I such finished I went ahead and
+cancelled<00:02:35.439> it<00:02:35.590> and<00:02:36.359> rear-ended<00:02:37.359> a<00:02:37.510> 1k
+
+00:02:38.250 --> 00:02:38.260 
+cancelled it and rear-ended a 1k
+
+00:02:38.260 --> 00:02:40.349 
+cancelled it and rear-ended a 1k
+resolution<00:02:38.889> texture<00:02:39.760> just<00:02:40.150> for
+
+00:02:40.349 --> 00:02:40.359 
+resolution texture just for
+
+00:02:40.359 --> 00:02:42.539 
+resolution texture just for
+demonstration<00:02:40.989> sake<00:02:41.260> so<00:02:41.950> once<00:02:42.159> he<00:02:42.250> renders
+
+00:02:42.539 --> 00:02:42.549 
+demonstration sake so once he renders
+
+00:02:42.549 --> 00:02:43.979 
+demonstration sake so once he renders
+out<00:02:42.670> the<00:02:42.790> map<00:02:42.969> you<00:02:43.239> should<00:02:43.420> be<00:02:43.540> able<00:02:43.599> to<00:02:43.719> find
+
+00:02:43.979 --> 00:02:43.989 
+out the map you should be able to find
+
+00:02:43.989 --> 00:02:46.800 
+out the map you should be able to find
+the<00:02:44.620> texture<00:02:45.280> within<00:02:45.849> your<00:02:45.969> project<00:02:46.329> files<00:02:46.569> if
+
+00:02:46.800 --> 00:02:46.810 
+the texture within your project files if
+
+00:02:46.810 --> 00:02:52.559 
+the texture within your project files if
+you<00:02:46.840> go<00:02:47.019> to<00:02:47.250> render<00:02:48.250> data<00:02:49.829> mentalray<00:02:51.569> light
+
+00:02:52.559 --> 00:02:52.569 
+you go to render data mentalray light
+
+00:02:52.569 --> 00:02:54.839 
+you go to render data mentalray light
+maps<00:02:52.840> and<00:02:53.170> there's<00:02:53.590> our<00:02:53.799> big<00:02:53.950> dark<00:02:54.250> map<00:02:54.459> if<00:02:54.730> we
+
+00:02:54.839 --> 00:02:54.849 
+maps and there's our big dark map if we
+
+00:02:54.849 --> 00:02:56.729 
+maps and there's our big dark map if we
+open<00:02:55.150> it<00:02:55.239> in<00:02:55.329> Photoshop<00:02:55.480> and<00:02:55.989> now<00:02:56.379> here<00:02:56.620> we
+
+00:02:56.729 --> 00:02:56.739 
+open it in Photoshop and now here we
+
+00:02:56.739 --> 00:02:58.530 
+open it in Photoshop and now here we
+have<00:02:56.769> the<00:02:56.980> a<00:02:57.430> beam<00:02:57.669> occlusion<00:02:58.090> map<00:02:58.120> with<00:02:58.450> you
+
+00:02:58.530 --> 00:02:58.540 
+have the a beam occlusion map with you
+
+00:02:58.540 --> 00:03:03.179 
+have the a beam occlusion map with you
+in<00:02:58.599> Photoshop<00:03:00.810> you<00:03:01.810> ensure<00:03:02.139> about<00:03:02.439> where<00:03:02.680> your
+
+00:03:03.179 --> 00:03:03.189 
+in Photoshop you ensure about where your
+
+00:03:03.189 --> 00:03:05.399 
+in Photoshop you ensure about where your
+map<00:03:03.400> is<00:03:03.639> a<00:03:03.939> quick<00:03:04.419> way<00:03:04.540> of<00:03:04.689> finding<00:03:04.900> it<00:03:05.169> is<00:03:05.260> if
+
+00:03:05.399 --> 00:03:05.409 
+map is a quick way of finding it is if
+
+00:03:05.409 --> 00:03:09.119 
+map is a quick way of finding it is if
+you<00:03:05.500> go<00:03:05.650> to<00:03:05.730> the<00:03:06.730> script<00:03:07.030> editor<00:03:07.799> as<00:03:08.799> you<00:03:09.010> can
+
+00:03:09.119 --> 00:03:09.129 
+you go to the script editor as you can
+
+00:03:09.129 --> 00:03:10.890 
+you go to the script editor as you can
+see<00:03:09.310> here<00:03:09.579> this<00:03:09.969> is<00:03:10.120> where<00:03:10.299> the<00:03:10.329> maps<00:03:10.629> been
+
+00:03:10.890 --> 00:03:10.900 
+see here this is where the maps been
+
+00:03:10.900 --> 00:03:15.929 
+see here this is where the maps been
+baked<00:03:11.049> that<00:03:11.260> too<00:03:11.530> so<00:03:11.980> if<00:03:12.040> you<00:03:12.659> highlight<00:03:14.939> this
+
+00:03:15.929 --> 00:03:15.939 
+baked that too so if you highlight this
+
+00:03:15.939 --> 00:03:21.569 
+baked that too so if you highlight this
+part<00:03:16.239> of<00:03:16.329> the<00:03:16.480> script<00:03:18.209> copy<00:03:19.260> and<00:03:20.370> just<00:03:21.370> click
+
+00:03:21.569 --> 00:03:21.579 
+part of the script copy and just click
+
+00:03:21.579 --> 00:03:24.659 
+part of the script copy and just click
+here<00:03:21.790> and<00:03:21.849> paste<00:03:22.209> the<00:03:22.750> address<00:03:23.250> you<00:03:24.250> get<00:03:24.430> to<00:03:24.579> it
+
+00:03:24.659 --> 00:03:24.669 
+here and paste the address you get to it
+
+00:03:24.669 --> 00:03:25.520 
+here and paste the address you get to it
+straight<00:03:24.879> away
+
+00:03:25.520 --> 00:03:25.530 
+straight away
+
+00:03:25.530 --> 00:03:29.819 
+straight away
+there<00:03:26.530> we<00:03:26.590> go<00:03:28.049> that's<00:03:29.049> how<00:03:29.260> you<00:03:29.319> become<00:03:29.650> an
+
+00:03:29.819 --> 00:03:29.829 
+there we go that's how you become an
+
+00:03:29.829 --> 00:03:32.250 
+there we go that's how you become an
+occlusion
+
