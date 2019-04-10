@@ -1,0 +1,575 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.740 --> 00:00:10.879 
+
+in<00:00:08.179> our<00:00:09.179> last<00:00:09.389> lesson<00:00:09.719> we<00:00:10.080> took<00:00:10.349> a<00:00:10.500> look<00:00:10.650> at
+
+00:00:10.879 --> 00:00:10.889 
+in our last lesson we took a look at
+
+00:00:10.889 --> 00:00:13.430 
+in our last lesson we took a look at
+enabling<00:00:11.130> basic<00:00:11.790> touch<00:00:12.030> interactivity<00:00:12.840> with
+
+00:00:13.430 --> 00:00:13.440 
+enabling basic touch interactivity with
+
+00:00:13.440 --> 00:00:16.039 
+enabling basic touch interactivity with
+display<00:00:13.860> objects<00:00:14.389> there's<00:00:15.389> a<00:00:15.480> button<00:00:15.719> on<00:00:15.960> our
+
+00:00:16.039 --> 00:00:16.049 
+display objects there's a button on our
+
+00:00:16.049 --> 00:00:18.680 
+display objects there's a button on our
+stage<00:00:16.650> and<00:00:17.460> when<00:00:17.580> we<00:00:17.699> press<00:00:17.940> the<00:00:18.119> button<00:00:18.390> we
+
+00:00:18.680 --> 00:00:18.690 
+stage and when we press the button we
+
+00:00:18.690 --> 00:00:21.679 
+stage and when we press the button we
+receive<00:00:19.080> the<00:00:19.740> began<00:00:20.070> phase<00:00:20.340> for<00:00:20.609> the<00:00:20.699> touch<00:00:20.910> we
+
+00:00:21.679 --> 00:00:21.689 
+receive the began phase for the touch we
+
+00:00:21.689 --> 00:00:23.929 
+receive the began phase for the touch we
+can<00:00:21.900> move<00:00:22.380> the<00:00:22.740> touch<00:00:22.980> and<00:00:23.010> receive<00:00:23.580> the<00:00:23.730> moved
+
+00:00:23.929 --> 00:00:23.939 
+can move the touch and receive the moved
+
+00:00:23.939 --> 00:00:27.230 
+can move the touch and receive the moved
+phase<00:00:24.269> and<00:00:24.600> then<00:00:25.340> release<00:00:26.340> the<00:00:26.519> touch<00:00:26.699> to<00:00:27.090> get
+
+00:00:27.230 --> 00:00:27.240 
+phase and then release the touch to get
+
+00:00:27.240 --> 00:00:30.050 
+phase and then release the touch to get
+the<00:00:27.359> ended<00:00:27.689> phase<00:00:27.930> however<00:00:28.920> if<00:00:29.279> we<00:00:29.640> begin<00:00:29.820> the
+
+00:00:30.050 --> 00:00:30.060 
+the ended phase however if we begin the
+
+00:00:30.060 --> 00:00:33.410 
+the ended phase however if we begin the
+touch<00:00:30.650> inside<00:00:31.650> of<00:00:31.859> the<00:00:31.980> button<00:00:32.219> area<00:00:32.369> and<00:00:32.730> then
+
+00:00:33.410 --> 00:00:33.420 
+touch inside of the button area and then
+
+00:00:33.420 --> 00:00:35.930 
+touch inside of the button area and then
+release<00:00:33.690> it<00:00:33.719> outside<00:00:34.260> we<00:00:35.130> won't<00:00:35.370> get<00:00:35.640> the
+
+00:00:35.930 --> 00:00:35.940 
+release it outside we won't get the
+
+00:00:35.940 --> 00:00:38.600 
+release it outside we won't get the
+ended<00:00:36.450> phase<00:00:36.719> to<00:00:37.649> do<00:00:37.770> this<00:00:37.950> we<00:00:38.160> have<00:00:38.190> to<00:00:38.370> add<00:00:38.579> a
+
+00:00:38.600 --> 00:00:38.610 
+ended phase to do this we have to add a
+
+00:00:38.610 --> 00:00:41.869 
+ended phase to do this we have to add a
+little<00:00:38.730> more<00:00:39.059> code<00:00:39.329> to<00:00:39.930> our<00:00:40.079> logic<00:00:40.730> we'll<00:00:41.730> head
+
+00:00:41.869 --> 00:00:41.879 
+little more code to our logic we'll head
+
+00:00:41.879 --> 00:00:44.270 
+little more code to our logic we'll head
+back<00:00:41.910> into<00:00:42.360> our<00:00:42.570> code<00:00:42.870> and<00:00:43.140> under<00:00:43.860> the<00:00:43.980> began
+
+00:00:44.270 --> 00:00:44.280 
+back into our code and under the began
+
+00:00:44.280 --> 00:00:46.430 
+back into our code and under the began
+portion<00:00:44.850> of<00:00:44.969> our<00:00:45.030> logic<00:00:45.480> will<00:00:46.079> type<00:00:46.289> the
+
+00:00:46.430 --> 00:00:46.440 
+portion of our logic will type the
+
+00:00:46.440 --> 00:00:51.729 
+portion of our logic will type the
+following<00:00:47.090> display<00:00:48.090> dot<00:00:48.899> get<00:00:49.500> current<00:00:50.309> stage
+
+00:00:51.729 --> 00:00:51.739 
+following display dot get current stage
+
+00:00:51.739 --> 00:00:54.790 
+following display dot get current stage
+open<00:00:52.739> and<00:00:52.860> closed<00:00:53.010> parenthesis<00:00:53.190> and<00:00:53.940> colon
+
+00:00:54.790 --> 00:00:54.800 
+open and closed parenthesis and colon
+
+00:00:54.800 --> 00:01:00.680 
+open and closed parenthesis and colon
+now<00:00:56.000> set<00:00:57.000> focus<00:00:57.859> open<00:00:58.859> and<00:00:58.980> close<00:00:59.190> and<00:00:59.690> within
+
+00:01:00.680 --> 00:01:00.690 
+now set focus open and close and within
+
+00:01:00.690 --> 00:01:02.660 
+now set focus open and close and within
+the<00:01:00.930> brackets<00:01:01.379> or<00:01:01.710> the<00:01:01.859> parenthesis<00:01:02.370> will
+
+00:01:02.660 --> 00:01:02.670 
+the brackets or the parenthesis will
+
+00:01:02.670 --> 00:01:10.250 
+the brackets or the parenthesis will
+type<00:01:02.850> II<00:01:03.030> target<00:01:04.640> comma<00:01:05.640> e<00:01:05.909> dot<00:01:07.070> ID<00:01:09.110> so<00:01:10.110> what
+
+00:01:10.250 --> 00:01:10.260 
+type II target comma e dot ID so what
+
+00:01:10.260 --> 00:01:11.929 
+type II target comma e dot ID so what
+this<00:01:10.380> line<00:01:10.619> of<00:01:10.799> code<00:01:10.950> does<00:01:11.220> is<00:01:11.490> it<00:01:11.610> gets<00:01:11.760> the
+
+00:01:11.929 --> 00:01:11.939 
+this line of code does is it gets the
+
+00:01:11.939 --> 00:01:14.600 
+this line of code does is it gets the
+current<00:01:12.270> stage<00:01:12.570> and<00:01:12.990> it<00:01:13.439> sets<00:01:13.710> its<00:01:13.920> focus<00:01:14.340> so
+
+00:01:14.600 --> 00:01:14.610 
+current stage and it sets its focus so
+
+00:01:14.610 --> 00:01:17.480 
+current stage and it sets its focus so
+the<00:01:14.729> current<00:01:14.939> stage<00:01:15.240> here<00:01:15.570> is<00:01:15.780> the<00:01:16.680> referring
+
+00:01:17.480 --> 00:01:17.490 
+the current stage here is the referring
+
+00:01:17.490 --> 00:01:20.050 
+the current stage here is the referring
+to<00:01:17.700> the<00:01:17.909> button<00:01:18.299> which<00:01:18.630> is<00:01:18.659> e<00:01:19.020> dot<00:01:19.200> target<00:01:19.650> and
+
+00:01:20.050 --> 00:01:20.060 
+to the button which is e dot target and
+
+00:01:20.060 --> 00:01:23.950 
+to the button which is e dot target and
+then<00:01:21.060> e<00:01:21.420> dot<00:01:21.780> ID<00:01:22.049> is<00:01:22.470> referring<00:01:22.950> to<00:01:23.189> the<00:01:23.549> touch
+
+00:01:23.950 --> 00:01:23.960 
+then e dot ID is referring to the touch
+
+00:01:23.960 --> 00:01:28.190 
+then e dot ID is referring to the touch
+so<00:01:24.960> this<00:01:25.140> will<00:01:25.290> allow<00:01:25.500> us<00:01:25.530> to<00:01:25.740> lock<00:01:26.460> in<00:01:27.200> the
+
+00:01:28.190 --> 00:01:28.200 
+so this will allow us to lock in the
+
+00:01:28.200 --> 00:01:30.109 
+so this will allow us to lock in the
+button<00:01:28.470> is<00:01:28.619> a<00:01:28.650> target<00:01:29.100> with<00:01:29.250> for<00:01:29.700> our<00:01:29.820> touch
+
+00:01:30.109 --> 00:01:30.119 
+button is a target with for our touch
+
+00:01:30.119 --> 00:01:33.710 
+button is a target with for our touch
+now<00:01:30.979> take<00:01:31.979> that<00:01:32.189> same<00:01:32.520> code<00:01:32.880> and<00:01:33.390> we<00:01:33.479> need<00:01:33.630> to
+
+00:01:33.710 --> 00:01:33.720 
+now take that same code and we need to
+
+00:01:33.720 --> 00:01:37.190 
+now take that same code and we need to
+release<00:01:34.020> it<00:01:34.229> at<00:01:34.380> the<00:01:35.040> ended<00:01:35.369> phase<00:01:35.990> paste<00:01:36.990> it
+
+00:01:37.190 --> 00:01:37.200 
+release it at the ended phase paste it
+
+00:01:37.200 --> 00:01:41.870 
+release it at the ended phase paste it
+and<00:01:38.390> then<00:01:39.390> set<00:01:40.079> nil<00:01:40.740> for<00:01:41.430> the<00:01:41.549> second
+
+00:01:41.870 --> 00:01:41.880 
+and then set nil for the second
+
+00:01:41.880 --> 00:01:45.819 
+and then set nil for the second
+parameter<00:01:42.710> now<00:01:43.710> when<00:01:43.920> we<00:01:43.950> relaunch<00:01:44.729> the<00:01:44.909> code
+
+00:01:45.819 --> 00:01:45.829 
+parameter now when we relaunch the code
+
+00:01:45.829 --> 00:01:50.030 
+parameter now when we relaunch the code
+will<00:01:46.829> touch<00:01:47.460> move<00:01:48.329> and<00:01:48.720> release<00:01:49.229> outside<00:01:49.680> and
+
+00:01:50.030 --> 00:01:50.040 
+will touch move and release outside and
+
+00:01:50.040 --> 00:01:53.990 
+will touch move and release outside and
+then<00:01:50.280> we<00:01:50.399> receive<00:01:50.820> the<00:01:51.149> ended<00:01:51.540> phase<00:01:51.869> and<00:01:53.000> this
+
+00:01:53.990 --> 00:01:54.000 
+then we receive the ended phase and this
+
+00:01:54.000 --> 00:01:57.200 
+then we receive the ended phase and this
+is<00:01:54.240> easily<00:01:55.200> scalable<00:01:55.710> to<00:01:56.070> multi-touch<00:01:56.579> so<00:01:57.060> we
+
+00:01:57.200 --> 00:01:57.210 
+is easily scalable to multi-touch so we
+
+00:01:57.210 --> 00:02:01.910 
+is easily scalable to multi-touch so we
+can<00:01:57.329> use<00:01:57.479> this<00:01:57.689> code<00:01:58.469> later<00:01:59.810> okay<00:02:00.810> if<00:02:01.170> we
+
+00:02:01.910 --> 00:02:01.920 
+can use this code later okay if we
+
+00:02:01.920 --> 00:02:04.010 
+can use this code later okay if we
+wanted<00:02:02.189> to<00:02:02.310> move<00:02:02.490> the<00:02:02.729> button<00:02:03.030> to<00:02:03.450> wherever<00:02:03.719> we
+
+00:02:04.010 --> 00:02:04.020 
+wanted to move the button to wherever we
+
+00:02:04.020 --> 00:02:07.340 
+wanted to move the button to wherever we
+release<00:02:04.520> this<00:02:05.520> is<00:02:05.729> pretty<00:02:05.939> easy<00:02:06.229> we'll<00:02:07.229> go
+
+00:02:07.340 --> 00:02:07.350 
+release this is pretty easy we'll go
+
+00:02:07.350 --> 00:02:09.529 
+release this is pretty easy we'll go
+back<00:02:07.469> to<00:02:07.530> the<00:02:07.710> code<00:02:08.009> and<00:02:08.280> then<00:02:09.119> the<00:02:09.149> ended
+
+00:02:09.529 --> 00:02:09.539 
+back to the code and then the ended
+
+00:02:09.539 --> 00:02:13.090 
+back to the code and then the ended
+portion<00:02:10.700> right<00:02:11.700> before<00:02:12.120> we<00:02:12.270> just<00:02:12.540> declared
+
+00:02:13.090 --> 00:02:13.100 
+portion right before we just declared
+
+00:02:13.100 --> 00:02:15.340 
+portion right before we just declared
+the<00:02:13.190> display<00:02:13.940> that<00:02:14.000> get<00:02:14.330> current<00:02:14.630> stage<00:02:14.900> will
+
+00:02:15.340 --> 00:02:15.350 
+the display that get current stage will
+
+00:02:15.350 --> 00:02:19.810 
+the display that get current stage will
+do<00:02:15.470> the<00:02:15.590> following<00:02:17.620> self<00:02:18.620> because<00:02:19.610> we're
+
+00:02:19.810 --> 00:02:19.820 
+do the following self because we're
+
+00:02:19.820 --> 00:02:22.750 
+do the following self because we're
+calling<00:02:20.240> the<00:02:20.780> button<00:02:21.530> object<00:02:21.740> here<00:02:22.430> with<00:02:22.640> the
+
+00:02:22.750 --> 00:02:22.760 
+calling the button object here with the
+
+00:02:22.760 --> 00:02:28.350 
+calling the button object here with the
+event<00:02:23.030> listener<00:02:23.420> self<00:02:24.380> dot<00:02:24.860> x<00:02:25.190> equals<00:02:26.120> e<00:02:26.360> dot<00:02:27.200> x
+
+00:02:28.350 --> 00:02:28.360 
+event listener self dot x equals e dot x
+
+00:02:28.360 --> 00:02:33.940 
+event listener self dot x equals e dot x
+self<00:02:29.360> dot<00:02:29.750> y<00:02:30.130> equals<00:02:31.130> e<00:02:31.540> dot<00:02:32.540> y<00:02:32.840> now<00:02:33.740> this<00:02:33.890> is
+
+00:02:33.940 --> 00:02:33.950 
+self dot y equals e dot y now this is
+
+00:02:33.950 --> 00:02:37.420 
+self dot y equals e dot y now this is
+only<00:02:34.280> going<00:02:34.670> to<00:02:34.850> move<00:02:35.710> the<00:02:36.710> button<00:02:36.980> it's<00:02:37.220> not
+
+00:02:37.420 --> 00:02:37.430 
+only going to move the button it's not
+
+00:02:37.430 --> 00:02:39.700 
+only going to move the button it's not
+going<00:02:37.550> to<00:02:37.640> move<00:02:37.700> the<00:02:37.880> text<00:02:38.120> so<00:02:38.720> we<00:02:39.320> didn't<00:02:39.530> put
+
+00:02:39.700 --> 00:02:39.710 
+going to move the text so we didn't put
+
+00:02:39.710 --> 00:02:41.680 
+going to move the text so we didn't put
+this<00:02:39.830> in<00:02:39.980> the<00:02:40.070> display<00:02:40.370> group<00:02:40.730> that<00:02:41.510> would<00:02:41.600> be
+
+00:02:41.680 --> 00:02:41.690 
+this in the display group that would be
+
+00:02:41.690 --> 00:02:43.210 
+this in the display group that would be
+the<00:02:41.780> cleanest<00:02:42.020> way<00:02:42.290> to<00:02:42.350> group<00:02:42.650> the<00:02:42.830> objects
+
+00:02:43.210 --> 00:02:43.220 
+the cleanest way to group the objects
+
+00:02:43.220 --> 00:02:44.830 
+the cleanest way to group the objects
+and<00:02:43.340> move<00:02:43.460> them<00:02:43.610> together<00:02:43.940> I'm<00:02:44.450> going<00:02:44.690> to<00:02:44.750> be
+
+00:02:44.830 --> 00:02:44.840 
+and move them together I'm going to be
+
+00:02:44.840 --> 00:02:46.270 
+and move them together I'm going to be
+rather<00:02:45.020> lazy<00:02:45.320> and<00:02:45.680> just<00:02:45.710> move<00:02:46.100> them
+
+00:02:46.270 --> 00:02:46.280 
+rather lazy and just move them
+
+00:02:46.280 --> 00:02:53.280 
+rather lazy and just move them
+separately<00:02:46.790> so<00:02:47.630> txt<00:02:48.440> x<00:02:49.430> equals<00:02:49.910> y<00:02:50.660> dot<00:02:51.110> X<00:02:51.410> and
+
+00:02:53.280 --> 00:02:53.290 
+separately so txt x equals y dot X and
+
+00:02:53.290 --> 00:03:00.580 
+separately so txt x equals y dot X and
+txt<00:02:54.290> dot<00:02:54.590> y<00:02:54.860> equals<00:02:55.700> e<00:02:55.940> dot<00:02:56.540> y<00:02:58.570> ok<00:02:59.570> so<00:02:59.630> now<00:03:00.050> we'll
+
+00:03:00.580 --> 00:03:00.590 
+txt dot y equals e dot y ok so now we'll
+
+00:03:00.590 --> 00:03:05.140 
+txt dot y equals e dot y ok so now we'll
+relaunch<00:03:01.010> and<00:03:01.810> click<00:03:02.810> hold<00:03:03.230> drag<00:03:04.150> release
+
+00:03:05.140 --> 00:03:05.150 
+relaunch and click hold drag release
+
+00:03:05.150 --> 00:03:09.220 
+relaunch and click hold drag release
+click<00:03:06.110> hold<00:03:06.410> drag<00:03:06.860> release<00:03:07.550> if<00:03:07.880> we<00:03:08.870> wanted<00:03:09.170> to
+
+00:03:09.220 --> 00:03:09.230 
+click hold drag release if we wanted to
+
+00:03:09.230 --> 00:03:11.410 
+click hold drag release if we wanted to
+see<00:03:09.530> this<00:03:09.680> animate<00:03:10.310> it'd<00:03:10.490> be<00:03:10.670> pretty<00:03:10.910> easy<00:03:11.030> to
+
+00:03:11.410 --> 00:03:11.420 
+see this animate it'd be pretty easy to
+
+00:03:11.420 --> 00:03:16.690 
+see this animate it'd be pretty easy to
+do<00:03:12.550> what<00:03:13.550> we'll<00:03:13.700> do<00:03:13.910> is<00:03:15.010> delete<00:03:16.010> the<00:03:16.190> old<00:03:16.340> code
+
+00:03:16.690 --> 00:03:16.700 
+do what we'll do is delete the old code
+
+00:03:16.700 --> 00:03:22.330 
+do what we'll do is delete the old code
+and<00:03:17.540> we'll<00:03:17.990> use<00:03:18.260> the<00:03:18.760> transition<00:03:19.870> to<00:03:21.100> then<00:03:22.100> the
+
+00:03:22.330 --> 00:03:22.340 
+and we'll use the transition to then the
+
+00:03:22.340 --> 00:03:26.370 
+and we'll use the transition to then the
+object<00:03:22.820> to<00:03:22.910> be<00:03:23.260> transition<00:03:24.260> so<00:03:24.650> self<00:03:25.430> comma
+
+00:03:26.370 --> 00:03:26.380 
+object to be transition so self comma
+
+00:03:26.380 --> 00:03:29.020 
+object to be transition so self comma
+open<00:03:27.380> and<00:03:27.470> close<00:03:27.650> brackets<00:03:28.250> close<00:03:28.880> your
+
+00:03:29.020 --> 00:03:29.030 
+open and close brackets close your
+
+00:03:29.030 --> 00:03:32.110 
+open and close brackets close your
+parenthesis<00:03:30.130> now<00:03:31.130> these<00:03:31.280> brackets<00:03:31.520> indicate
+
+00:03:32.110 --> 00:03:32.120 
+parenthesis now these brackets indicate
+
+00:03:32.120 --> 00:03:34.780 
+parenthesis now these brackets indicate
+an<00:03:32.240> object<00:03:32.660> that<00:03:32.780> is<00:03:32.900> fed<00:03:33.200> to<00:03:33.230> the<00:03:34.220> transition
+
+00:03:34.780 --> 00:03:34.790 
+an object that is fed to the transition
+
+00:03:34.790 --> 00:03:36.610 
+an object that is fed to the transition
+to<00:03:34.820> method<00:03:35.330> and<00:03:35.510> these<00:03:36.230> are<00:03:36.380> the<00:03:36.470> parameters
+
+00:03:36.610 --> 00:03:36.620 
+to method and these are the parameters
+
+00:03:36.620 --> 00:03:39.010 
+to method and these are the parameters
+that<00:03:37.070> you<00:03:37.220> want<00:03:37.460> to<00:03:37.610> animate<00:03:37.880> so<00:03:38.870> we'll
+
+00:03:39.010 --> 00:03:39.020 
+that you want to animate so we'll
+
+00:03:39.020 --> 00:03:45.820 
+that you want to animate so we'll
+animate<00:03:39.320> x<00:03:39.760> equals<00:03:40.760> y<00:03:41.260> X<00:03:43.030> time<00:03:44.030> equals<00:03:44.930> and
+
+00:03:45.820 --> 00:03:45.830 
+animate x equals y X time equals and
+
+00:03:45.830 --> 00:03:47.500 
+animate x equals y X time equals and
+this<00:03:45.950> is<00:03:46.130> time<00:03:46.370> in<00:03:46.520> milliseconds<00:03:46.700> let's<00:03:47.300> say
+
+00:03:47.500 --> 00:03:47.510 
+this is time in milliseconds let's say
+
+00:03:47.510 --> 00:03:49.810 
+this is time in milliseconds let's say
+fifteen<00:03:47.990> hundred<00:03:48.320> milliseconds<00:03:48.980> so<00:03:49.010> a<00:03:49.310> second
+
+00:03:49.810 --> 00:03:49.820 
+fifteen hundred milliseconds so a second
+
+00:03:49.820 --> 00:03:54.190 
+fifteen hundred milliseconds so a second
+and<00:03:50.000> a<00:03:50.090> half<00:03:50.680> okay<00:03:51.680> copy<00:03:52.070> that<00:03:52.250> line<00:03:52.990> paste<00:03:53.990> it
+
+00:03:54.190 --> 00:03:54.200 
+and a half okay copy that line paste it
+
+00:03:54.200 --> 00:03:57.700 
+and a half okay copy that line paste it
+and<00:03:55.210> instead<00:03:56.210> of<00:03:56.270> self<00:03:56.660> we're<00:03:57.350> going<00:03:57.590> to
+
+00:03:57.700 --> 00:03:57.710 
+and instead of self we're going to
+
+00:03:57.710 --> 00:04:02.560 
+and instead of self we're going to
+animate<00:03:58.570> the<00:03:59.570> text<00:04:00.260> object<00:04:00.740> so<00:04:01.400> that's<00:04:01.610> the<00:04:02.420> UM
+
+00:04:02.560 --> 00:04:02.570 
+animate the text object so that's the UM
+
+00:04:02.570 --> 00:04:05.830 
+animate the text object so that's the UM
+text<00:04:02.960> here<00:04:03.170> and<00:04:03.320> the<00:04:04.160> same<00:04:04.370> properties<00:04:04.880> and<00:04:05.150> I
+
+00:04:05.830 --> 00:04:05.840 
+text here and the same properties and I
+
+00:04:05.840 --> 00:04:08.350 
+text here and the same properties and I
+should<00:04:06.080> actually<00:04:06.230> put<00:04:06.470> the<00:04:06.620> Y<00:04:06.770> in<00:04:07.070> all<00:04:07.430> so<00:04:07.670> y
+
+00:04:08.350 --> 00:04:08.360 
+should actually put the Y in all so y
+
+00:04:08.360 --> 00:04:16.900 
+should actually put the Y in all so y
+equals<00:04:08.900> e<00:04:09.110> dot<00:04:09.410> y<00:04:12.340> comma<00:04:13.340> and<00:04:15.160> same<00:04:16.160> thing<00:04:16.190> here
+
+00:04:16.900 --> 00:04:16.910 
+equals e dot y comma and same thing here
+
+00:04:16.910 --> 00:04:21.090 
+equals e dot y comma and same thing here
+y<00:04:17.530> equals<00:04:18.530> e<00:04:18.890> dot<00:04:19.549> y
+
+00:04:21.090 --> 00:04:21.100 
+y equals e dot y
+
+00:04:21.100 --> 00:04:27.690 
+y equals e dot y
+save<00:04:21.910> it<00:04:22.090> and<00:04:22.240> re<00:04:22.810> lunch<00:04:23.820> okay<00:04:26.070> touch<00:04:27.070> move
+
+00:04:27.690 --> 00:04:27.700 
+save it and re lunch okay touch move
+
+00:04:27.700 --> 00:04:34.380 
+save it and re lunch okay touch move
+release<00:04:29.760> touchmove<00:04:30.760> release<00:04:31.830> and<00:04:33.390> it's
+
+00:04:34.380 --> 00:04:34.390 
+release touchmove release and it's
+
+00:04:34.390 --> 00:04:36.150 
+release touchmove release and it's
+pretty<00:04:34.540> apparent<00:04:34.870> how<00:04:35.140> this<00:04:35.560> would<00:04:35.740> be<00:04:35.920> used
+
+00:04:36.150 --> 00:04:36.160 
+pretty apparent how this would be used
+
+00:04:36.160 --> 00:04:37.860 
+pretty apparent how this would be used
+in<00:04:36.280> a<00:04:36.340> lot<00:04:36.460> of<00:04:36.520> different<00:04:36.610> games<00:04:37.540> and
+
+00:04:37.860 --> 00:04:37.870 
+in a lot of different games and
+
+00:04:37.870 --> 00:04:39.470 
+in a lot of different games and
+applications<00:04:37.990> and<00:04:38.710> in<00:04:38.800> fact<00:04:38.950> as<00:04:39.130> we<00:04:39.280> go<00:04:39.430> on
+
+00:04:39.470 --> 00:04:39.480 
+applications and in fact as we go on
+
+00:04:39.480 --> 00:04:43.280 
+applications and in fact as we go on
+we'll<00:04:40.480> find<00:04:40.780> that<00:04:40.900> this<00:04:41.200> basic<00:04:41.800> means<00:04:42.400> of
+
+00:04:43.280 --> 00:04:43.290 
+we'll find that this basic means of
+
+00:04:43.290 --> 00:04:46.080 
+we'll find that this basic means of
+touching<00:04:44.290> an<00:04:44.380> object<00:04:44.470> dragging<00:04:45.160> to<00:04:45.670> a
+
+00:04:46.080 --> 00:04:46.090 
+touching an object dragging to a
+
+00:04:46.090 --> 00:04:49.650 
+touching an object dragging to a
+destination<00:04:46.840> and<00:04:47.410> releasing<00:04:47.970> is<00:04:48.970> going<00:04:49.450> to<00:04:49.540> be
+
+00:04:49.650 --> 00:04:49.660 
+destination and releasing is going to be
+
+00:04:49.660 --> 00:04:51.780 
+destination and releasing is going to be
+a<00:04:49.690> basic<00:04:50.230> building<00:04:50.440> block<00:04:50.830> of<00:04:51.070> a<00:04:51.520> lot<00:04:51.760> of
+
+00:04:51.780 --> 00:04:51.790 
+a basic building block of a lot of
+
+00:04:51.790 --> 00:04:56.190 
+a basic building block of a lot of
+different<00:04:51.970> types<00:04:52.900> of<00:04:53.140> games<00:04:53.920> and<00:04:54.100> activities
+

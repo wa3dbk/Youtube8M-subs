@@ -1,0 +1,1366 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.870 --> 00:00:02.660 
+
+hello<00:00:01.770> and<00:00:01.829> welcome<00:00:02.010> to<00:00:02.220> this<00:00:02.370> training
+
+00:00:02.660 --> 00:00:02.670 
+hello and welcome to this training
+
+00:00:02.670 --> 00:00:04.519 
+hello and welcome to this training
+session<00:00:02.820> my<00:00:03.210> name<00:00:03.389> is<00:00:03.480> Asha<00:00:03.570> Fayed<00:00:03.989> and<00:00:04.200> i'll
+
+00:00:04.519 --> 00:00:04.529 
+session my name is Asha Fayed and i'll
+
+00:00:04.529 --> 00:00:06.199 
+session my name is Asha Fayed and i'll
+be<00:00:04.650> working<00:00:04.950> with<00:00:05.069> you<00:00:05.220> today<00:00:05.370> in<00:00:05.700> one<00:00:05.970> of<00:00:06.000> the
+
+00:00:06.199 --> 00:00:06.209 
+be working with you today in one of the
+
+00:00:06.209 --> 00:00:08.870 
+be working with you today in one of the
+production<00:00:06.749> library<00:00:07.379> shaders<00:00:07.740> is<00:00:08.189> called<00:00:08.430> MIP
+
+00:00:08.870 --> 00:00:08.880 
+production library shaders is called MIP
+
+00:00:08.880 --> 00:00:12.110 
+production library shaders is called MIP
+motion<00:00:09.509> vectors<00:00:09.870> so<00:00:10.559> let's<00:00:10.830> get<00:00:10.950> started<00:00:11.120> the
+
+00:00:12.110 --> 00:00:12.120 
+motion vectors so let's get started the
+
+00:00:12.120 --> 00:00:15.200 
+motion vectors so let's get started the
+idea<00:00:12.420> behind<00:00:12.690> motion<00:00:13.500> vectors<00:00:13.889> is<00:00:14.129> that<00:00:14.490> you
+
+00:00:15.200 --> 00:00:15.210 
+idea behind motion vectors is that you
+
+00:00:15.210 --> 00:00:18.500 
+idea behind motion vectors is that you
+want<00:00:15.419> to<00:00:15.509> take<00:00:15.719> out<00:00:15.929> the<00:00:16.740> motion<00:00:17.310> blur<00:00:17.640> from
+
+00:00:18.500 --> 00:00:18.510 
+want to take out the motion blur from
+
+00:00:18.510 --> 00:00:20.900 
+want to take out the motion blur from
+the<00:00:18.720> actual<00:00:19.230> rendering<00:00:19.620> and<00:00:19.980> do<00:00:20.190> that<00:00:20.430> in<00:00:20.670> post
+
+00:00:20.900 --> 00:00:20.910 
+the actual rendering and do that in post
+
+00:00:20.910 --> 00:00:24.290 
+the actual rendering and do that in post
+that<00:00:21.720> will<00:00:22.080> be<00:00:22.290> done<00:00:22.530> via<00:00:22.950> motion<00:00:23.490> vectors<00:00:23.850> if
+
+00:00:24.290 --> 00:00:24.300 
+that will be done via motion vectors if
+
+00:00:24.300 --> 00:00:26.270 
+that will be done via motion vectors if
+you<00:00:24.600> look<00:00:24.750> at<00:00:24.930> my<00:00:25.050> scene<00:00:25.290> here<00:00:25.560> I<00:00:25.740> have<00:00:26.220> a
+
+00:00:26.270 --> 00:00:26.280 
+you look at my scene here I have a
+
+00:00:26.280 --> 00:00:28.790 
+you look at my scene here I have a
+simple<00:00:26.670> animation<00:00:27.150> of<00:00:27.870> character<00:00:28.380> running<00:00:28.680> of
+
+00:00:28.790 --> 00:00:28.800 
+simple animation of character running of
+
+00:00:28.800 --> 00:00:32.330 
+simple animation of character running of
+a<00:00:28.890> building<00:00:29.220> and<00:00:29.720> the<00:00:30.720> render<00:00:31.620> time<00:00:31.890> is<00:00:32.130> about
+
+00:00:32.330 --> 00:00:32.340 
+a building and the render time is about
+
+00:00:32.340 --> 00:00:38.450 
+a building and the render time is about
+one<00:00:32.940> minute<00:00:33.149> 14<00:00:33.660> seconds<00:00:36.769> so<00:00:37.769> if<00:00:37.890> I<00:00:38.039> come<00:00:38.280> here
+
+00:00:38.450 --> 00:00:38.460 
+one minute 14 seconds so if I come here
+
+00:00:38.460 --> 00:00:40.279 
+one minute 14 seconds so if I come here
+for<00:00:38.519> example<00:00:38.789> back<00:00:39.210> to<00:00:39.359> the<00:00:39.449> same<00:00:39.660> friend<00:00:40.170> of
+
+00:00:40.279 --> 00:00:40.289 
+for example back to the same friend of
+
+00:00:40.289 --> 00:00:42.349 
+for example back to the same friend of
+that<00:00:40.320> was<00:00:40.440> that<00:00:40.589> but<00:00:41.280> this<00:00:41.429> time<00:00:41.670> I<00:00:41.969> want<00:00:42.239> to
+
+00:00:42.349 --> 00:00:42.359 
+that was that but this time I want to
+
+00:00:42.359 --> 00:00:45.860 
+that was that but this time I want to
+see<00:00:42.629> my<00:00:43.079> animation<00:00:43.679> and<00:00:43.920> motion<00:00:44.399> blur<00:00:44.789> so<00:00:45.780> what
+
+00:00:45.860 --> 00:00:45.870 
+see my animation and motion blur so what
+
+00:00:45.870 --> 00:00:47.119 
+see my animation and motion blur so what
+I'm<00:00:45.989> going<00:00:46.140> to<00:00:46.199> do<00:00:46.379> now<00:00:46.589> I'm<00:00:46.769> just<00:00:46.920> going<00:00:47.010> to
+
+00:00:47.119 --> 00:00:47.129 
+I'm going to do now I'm just going to
+
+00:00:47.129 --> 00:00:51.259 
+I'm going to do now I'm just going to
+enable<00:00:47.339> my<00:00:47.670> regular<00:00:48.539> motion<00:00:48.749> blur<00:00:50.089> and<00:00:51.089> I'm
+
+00:00:51.259 --> 00:00:51.269 
+enable my regular motion blur and I'm
+
+00:00:51.269 --> 00:00:55.880 
+enable my regular motion blur and I'm
+just<00:00:51.420> using<00:00:51.629> all<00:00:51.870> the<00:00:52.019> default<00:00:52.319> values<00:00:54.890> I'm
+
+00:00:55.880 --> 00:00:55.890 
+just using all the default values I'm
+
+00:00:55.890 --> 00:00:57.500 
+just using all the default values I'm
+just<00:00:56.129> going<00:00:56.249> to<00:00:56.280> keep<00:00:56.460> this<00:00:56.609> image<00:00:56.940> for<00:00:57.120> future
+
+00:00:57.500 --> 00:00:57.510 
+just going to keep this image for future
+
+00:00:57.510 --> 00:01:00.020 
+just going to keep this image for future
+comparison<00:00:57.719> and<00:00:58.230> render<00:00:59.129> time<00:00:59.339> again<00:00:59.640> is<00:00:59.789> one
+
+00:01:00.020 --> 00:01:00.030 
+comparison and render time again is one
+
+00:01:00.030 --> 00:01:03.439 
+comparison and render time again is one
+minute<00:01:00.269> 14<00:01:00.839> seconds<00:01:01.699> so<00:01:02.699> here's<00:01:03.059> the<00:01:03.179> render
+
+00:01:03.439 --> 00:01:03.449 
+minute 14 seconds so here's the render
+
+00:01:03.449 --> 00:01:05.540 
+minute 14 seconds so here's the render
+for<00:01:03.659> the<00:01:03.870> motion<00:01:04.500> blur<00:01:04.710> and<00:01:04.920> you'll<00:01:05.190> notice
+
+00:01:05.540 --> 00:01:05.550 
+for the motion blur and you'll notice
+
+00:01:05.550 --> 00:01:08.570 
+for the motion blur and you'll notice
+here<00:01:05.850> let's<00:01:06.360> start<00:01:06.480> adding<00:01:06.870> blur<00:01:07.530> and<00:01:07.800> the
+
+00:01:08.570 --> 00:01:08.580 
+here let's start adding blur and the
+
+00:01:08.580 --> 00:01:10.250 
+here let's start adding blur and the
+blur<00:01:08.760> is<00:01:08.970> an<00:01:09.120> actual<00:01:09.480> process<00:01:10.050> in<00:01:10.200> the
+
+00:01:10.250 --> 00:01:10.260 
+blur is an actual process in the
+
+00:01:10.260 --> 00:01:12.500 
+blur is an actual process in the
+rendering<00:01:10.740> because<00:01:11.550> what<00:01:11.760> we<00:01:11.910> will<00:01:12.060> see<00:01:12.270> in
+
+00:01:12.500 --> 00:01:12.510 
+rendering because what we will see in
+
+00:01:12.510 --> 00:01:15.740 
+rendering because what we will see in
+the<00:01:12.930> motion<00:01:13.890> vectors<00:01:14.250> it's<00:01:14.880> a<00:01:15.030> post-process
+
+00:01:15.740 --> 00:01:15.750 
+the motion vectors it's a post-process
+
+00:01:15.750 --> 00:01:17.990 
+the motion vectors it's a post-process
+same<00:01:16.140> that<00:01:16.350> was<00:01:16.470> done<00:01:16.740> with<00:01:17.040> the<00:01:17.190> MIP<00:01:17.430> motion
+
+00:01:17.990 --> 00:01:18.000 
+same that was done with the MIP motion
+
+00:01:18.000 --> 00:01:20.390 
+same that was done with the MIP motion
+blur<00:01:18.180> and<00:01:19.110> i'm<00:01:19.260> having<00:01:19.440> final<00:01:19.920> gather<00:01:20.100> here
+
+00:01:20.390 --> 00:01:20.400 
+blur and i'm having final gather here
+
+00:01:20.400 --> 00:01:22.400 
+blur and i'm having final gather here
+for<00:01:20.610> the<00:01:20.730> reigning<00:01:21.030> just<00:01:21.330> to<00:01:21.540> eliminate<00:01:22.080> the
+
+00:01:22.400 --> 00:01:22.410 
+for the reigning just to eliminate the
+
+00:01:22.410 --> 00:01:24.170 
+for the reigning just to eliminate the
+scene<00:01:22.620> nothing<00:01:22.950> more<00:01:23.130> so<00:01:23.730> you<00:01:23.790> can<00:01:24.030> see
+
+00:01:24.170 --> 00:01:24.180 
+scene nothing more so you can see
+
+00:01:24.180 --> 00:01:26.600 
+scene nothing more so you can see
+starting<00:01:24.420> to<00:01:24.570> see<00:01:24.810> here<00:01:24.960> the<00:01:25.080> motion<00:01:25.380> blur<00:01:25.610> and
+
+00:01:26.600 --> 00:01:26.610 
+starting to see here the motion blur and
+
+00:01:26.610 --> 00:01:28.520 
+starting to see here the motion blur and
+you<00:01:27.150> can<00:01:27.330> see<00:01:27.510> now<00:01:27.660> there<00:01:27.840> is<00:01:27.900> a<00:01:27.930> lot<00:01:28.170> of<00:01:28.200> blur
+
+00:01:28.520 --> 00:01:28.530 
+you can see now there is a lot of blur
+
+00:01:28.530 --> 00:01:30.080 
+you can see now there is a lot of blur
+happening<00:01:29.070> on<00:01:29.190> around<00:01:29.430> specially<00:01:29.910> and<00:01:30.000> on
+
+00:01:30.080 --> 00:01:30.090 
+happening on around specially and on
+
+00:01:30.090 --> 00:01:33.200 
+happening on around specially and on
+their<00:01:30.240> head<00:01:30.450> area<00:01:30.630> and<00:01:31.070> the<00:01:32.070> render<00:01:32.670> time<00:01:32.940> has
+
+00:01:33.200 --> 00:01:33.210 
+their head area and the render time has
+
+00:01:33.210 --> 00:01:34.880 
+their head area and the render time has
+increased<00:01:33.660> dramatically<00:01:34.140> to<00:01:34.500> four<00:01:34.710> minutes
+
+00:01:34.880 --> 00:01:34.890 
+increased dramatically to four minutes
+
+00:01:34.890 --> 00:01:38.360 
+increased dramatically to four minutes
+it<00:01:35.250> was<00:01:35.630> one<00:01:36.630> minute<00:01:36.840> before<00:01:37.080> so<00:01:38.010> let's<00:01:38.250> keep
+
+00:01:38.360 --> 00:01:38.370 
+it was one minute before so let's keep
+
+00:01:38.370 --> 00:01:39.980 
+it was one minute before so let's keep
+this<00:01:38.520> image<00:01:38.760> one<00:01:38.910> more<00:01:39.060> time<00:01:39.240> I'm<00:01:39.630> going<00:01:39.780> to<00:01:39.870> do
+
+00:01:39.980 --> 00:01:39.990 
+this image one more time I'm going to do
+
+00:01:39.990 --> 00:01:42.380 
+this image one more time I'm going to do
+right<00:01:40.170> now<00:01:40.230> I'm<00:01:40.620> just<00:01:40.680> going<00:01:41.040> to<00:01:41.130> close<00:01:41.970> the
+
+00:01:42.380 --> 00:01:42.390 
+right now I'm just going to close the
+
+00:01:42.390 --> 00:01:46.580 
+right now I'm just going to close the
+shutter<00:01:42.660> in<00:01:43.020> the<00:01:43.260> motion<00:01:43.410> blur<00:01:45.410> so<00:01:46.410> the
+
+00:01:46.580 --> 00:01:46.590 
+shutter in the motion blur so the
+
+00:01:46.590 --> 00:01:48.110 
+shutter in the motion blur so the
+shutter<00:01:46.800> open<00:01:46.980> is<00:01:47.250> zero<00:01:47.490> and<00:01:47.640> closes<00:01:48.030> the
+
+00:01:48.110 --> 00:01:48.120 
+shutter open is zero and closes the
+
+00:01:48.120 --> 00:01:51.260 
+shutter open is zero and closes the
+0ther<00:01:48.570> means<00:01:49.050> there<00:01:49.740> will<00:01:49.860> be<00:01:50.040> no<00:01:50.670> motion<00:01:51.060> blur
+
+00:01:51.260 --> 00:01:51.270 
+0ther means there will be no motion blur
+
+00:01:51.270 --> 00:01:53.540 
+0ther means there will be no motion blur
+we<00:01:51.600> just<00:01:51.870> triggered<00:01:52.290> the<00:01:53.010> motion<00:01:53.340> blur
+
+00:01:53.540 --> 00:01:53.550 
+we just triggered the motion blur
+
+00:01:53.550 --> 00:01:57.620 
+we just triggered the motion blur
+command<00:01:54.830> surrender<00:01:55.880> so<00:01:56.880> now<00:01:57.030> you<00:01:57.090> see<00:01:57.390> there
+
+00:01:57.620 --> 00:01:57.630 
+command surrender so now you see there
+
+00:01:57.630 --> 00:01:59.660 
+command surrender so now you see there
+is<00:01:57.720> no<00:01:57.840> motion<00:01:58.050> blur<00:01:58.410> even<00:01:59.100> though<00:01:59.280> that<00:01:59.490> we
+
+00:01:59.660 --> 00:01:59.670 
+is no motion blur even though that we
+
+00:01:59.670 --> 00:02:01.910 
+is no motion blur even though that we
+have<00:01:59.880> motion<00:02:00.150> blur<00:02:00.480> triggered<00:02:00.930> just<00:02:01.620> because
+
+00:02:01.910 --> 00:02:01.920 
+have motion blur triggered just because
+
+00:02:01.920 --> 00:02:03.320 
+have motion blur triggered just because
+we<00:02:01.950> had<00:02:02.220> the<00:02:02.340> shutter<00:02:02.520> open<00:02:02.670> shutter<00:02:03.060> closed
+
+00:02:03.320 --> 00:02:03.330 
+we had the shutter open shutter closed
+
+00:02:03.330 --> 00:02:05.480 
+we had the shutter open shutter closed
+at<00:02:03.570> the<00:02:03.660> value<00:02:03.930> of<00:02:04.050> zero<00:02:04.290> and<00:02:04.470> notice<00:02:05.160> again
+
+00:02:05.480 --> 00:02:05.490 
+at the value of zero and notice again
+
+00:02:05.490 --> 00:02:08.389 
+at the value of zero and notice again
+the<00:02:05.520> render<00:02:05.910> time<00:02:06.180> has<00:02:06.480> dropped<00:02:07.039> what<00:02:08.039> we<00:02:08.190> need
+
+00:02:08.389 --> 00:02:08.399 
+the render time has dropped what we need
+
+00:02:08.399 --> 00:02:10.550 
+the render time has dropped what we need
+to<00:02:08.550> do<00:02:08.700> now<00:02:08.909> is<00:02:08.939> to<00:02:09.299> extract<00:02:09.749> the<00:02:10.200> motion
+
+00:02:10.550 --> 00:02:10.560 
+to do now is to extract the motion
+
+00:02:10.560 --> 00:02:13.339 
+to do now is to extract the motion
+vectors<00:02:10.979> so<00:02:11.640> we<00:02:11.760> can<00:02:11.939> use<00:02:12.120> that<00:02:12.150> and<00:02:12.540> post<00:02:12.749> for
+
+00:02:13.339 --> 00:02:13.349 
+vectors so we can use that and post for
+
+00:02:13.349 --> 00:02:14.540 
+vectors so we can use that and post for
+example<00:02:13.769> and<00:02:13.980> using
+
+00:02:14.540 --> 00:02:14.550 
+example and using
+
+00:02:14.550 --> 00:02:16.700 
+example and using
+applications<00:02:15.180> such<00:02:15.300> as<00:02:15.330> combustion<00:02:15.990> or<00:02:16.170> after
+
+00:02:16.700 --> 00:02:16.710 
+applications such as combustion or after
+
+00:02:16.710 --> 00:02:20.030 
+applications such as combustion or after
+effects<00:02:17.190> or<00:02:17.670> toxic<00:02:18.320> this<00:02:19.320> application<00:02:19.500> can
+
+00:02:20.030 --> 00:02:20.040 
+effects or toxic this application can
+
+00:02:20.040 --> 00:02:21.890 
+effects or toxic this application can
+calculate<00:02:20.400> the<00:02:20.550> motion<00:02:20.880> vectors<00:02:21.180> on<00:02:21.390> the<00:02:21.660> fly
+
+00:02:21.890 --> 00:02:21.900 
+calculate the motion vectors on the fly
+
+00:02:21.900 --> 00:02:24.950 
+calculate the motion vectors on the fly
+and<00:02:22.200> give<00:02:22.980> you<00:02:23.100> a<00:02:23.130> motion<00:02:23.430> blur<00:02:23.640> and<00:02:23.880> post<00:02:24.360> so
+
+00:02:24.950 --> 00:02:24.960 
+and give you a motion blur and post so
+
+00:02:24.960 --> 00:02:26.330 
+and give you a motion blur and post so
+let's<00:02:25.140> see<00:02:25.230> how<00:02:25.260> we're<00:02:25.500> going<00:02:25.590> to<00:02:25.650> do<00:02:25.770> that<00:02:25.980> one
+
+00:02:26.330 --> 00:02:26.340 
+let's see how we're going to do that one
+
+00:02:26.340 --> 00:02:27.710 
+let's see how we're going to do that one
+thing<00:02:26.370> I<00:02:26.640> might<00:02:26.850> want<00:02:27.120> to<00:02:27.240> mention<00:02:27.540> here
+
+00:02:27.710 --> 00:02:27.720 
+thing I might want to mention here
+
+00:02:27.720 --> 00:02:31.400 
+thing I might want to mention here
+because<00:02:28.170> this<00:02:28.380> i'm<00:02:28.530> using<00:02:28.830> to<00:02:28.980> my<00:02:29.190> ax<00:02:29.220> 2009<00:02:30.410> it
+
+00:02:31.400 --> 00:02:31.410 
+because this i'm using to my ax 2009 it
+
+00:02:31.410 --> 00:02:35.450 
+because this i'm using to my ax 2009 it
+has<00:02:31.740> built<00:02:32.460> and<00:02:32.760> render<00:02:33.630> passes<00:02:34.070> that<00:02:35.070> three
+
+00:02:35.450 --> 00:02:35.460 
+has built and render passes that three
+
+00:02:35.460 --> 00:02:38.060 
+has built and render passes that three
+of<00:02:35.640> them<00:02:35.790> are<00:02:36.380> related<00:02:37.380> to<00:02:37.410> motion<00:02:37.770> vectors
+
+00:02:38.060 --> 00:02:38.070 
+of them are related to motion vectors
+
+00:02:38.070 --> 00:02:40.010 
+of them are related to motion vectors
+the<00:02:38.280> 2d<00:02:38.580> motion<00:02:38.730> vector<00:02:39.120> 3d<00:02:39.450> motion<00:02:39.600> vector
+
+00:02:40.010 --> 00:02:40.020 
+the 2d motion vector 3d motion vector
+
+00:02:40.020 --> 00:02:43.730 
+the 2d motion vector 3d motion vector
+and<00:02:40.790> normalized<00:02:41.790> to<00:02:42.180> the<00:02:42.480> motion<00:02:42.780> vectors<00:02:43.110> the
+
+00:02:43.730 --> 00:02:43.740 
+and normalized to the motion vectors the
+
+00:02:43.740 --> 00:02:46.040 
+and normalized to the motion vectors the
+MIP<00:02:43.950> motion<00:02:44.490> vectors<00:02:44.850> were<00:02:45.240> introduced<00:02:45.870> in
+
+00:02:46.040 --> 00:02:46.050 
+MIP motion vectors were introduced in
+
+00:02:46.050 --> 00:02:48.830 
+MIP motion vectors were introduced in
+maya<00:02:46.200> 2008<00:02:47.010> actually<00:02:47.490> it<00:02:47.790> was<00:02:48.030> a<00:02:48.060> head<00:02:48.690> and
+
+00:02:48.830 --> 00:02:48.840 
+maya 2008 actually it was a head and
+
+00:02:48.840 --> 00:02:50.780 
+maya 2008 actually it was a head and
+shader<00:02:49.020> as<00:02:49.260> we<00:02:49.410> already<00:02:49.950> knew<00:02:50.190> in<00:02:50.580> this
+
+00:02:50.780 --> 00:02:50.790 
+shader as we already knew in this
+
+00:02:50.790 --> 00:02:52.580 
+shader as we already knew in this
+particular<00:02:51.060> exercise<00:02:51.600> we're<00:02:52.230> just<00:02:52.410> going<00:02:52.560> to
+
+00:02:52.580 --> 00:02:52.590 
+particular exercise we're just going to
+
+00:02:52.590 --> 00:02:54.500 
+particular exercise we're just going to
+work<00:02:52.740> with<00:02:52.980> it<00:02:53.190> just<00:02:53.640> to<00:02:53.760> see<00:02:54.000> how<00:02:54.150> it<00:02:54.330> works
+
+00:02:54.500 --> 00:02:54.510 
+work with it just to see how it works
+
+00:02:54.510 --> 00:02:56.300 
+work with it just to see how it works
+you<00:02:55.140> can<00:02:55.320> easily<00:02:55.740> go<00:02:55.860> with<00:02:55.980> the<00:02:56.070> red<00:02:56.160> their
+
+00:02:56.300 --> 00:02:56.310 
+you can easily go with the red their
+
+00:02:56.310 --> 00:02:58.880 
+you can easily go with the red their
+passes<00:02:56.720> but<00:02:57.720> in<00:02:58.020> case<00:02:58.320> if<00:02:58.470> you<00:02:58.590> want<00:02:58.710> to<00:02:58.800> know
+
+00:02:58.880 --> 00:02:58.890 
+passes but in case if you want to know
+
+00:02:58.890 --> 00:03:01.160 
+passes but in case if you want to know
+need<00:02:59.310> to<00:02:59.370> know<00:02:59.520> how<00:02:59.760> to<00:02:59.790> use<00:03:00.030> this<00:03:00.270> we're<00:03:01.050> going
+
+00:03:01.160 --> 00:03:01.170 
+need to know how to use this we're going
+
+00:03:01.170 --> 00:03:03.260 
+need to know how to use this we're going
+to<00:03:01.260> go<00:03:01.410> just<00:03:02.100> with<00:03:02.250> the<00:03:02.400> MIP<00:03:02.640> portion<00:03:03.090> boy
+
+00:03:03.260 --> 00:03:03.270 
+to go just with the MIP portion boy
+
+00:03:03.270 --> 00:03:06.740 
+to go just with the MIP portion boy
+sorry<00:03:03.690> the<00:03:04.050> MIP<00:03:04.320> motion<00:03:05.130> vectors<00:03:05.490> so<00:03:06.360> grab<00:03:06.570> my
+
+00:03:06.740 --> 00:03:06.750 
+sorry the MIP motion vectors so grab my
+
+00:03:06.750 --> 00:03:07.990 
+sorry the MIP motion vectors so grab my
+note<00:03:06.960> i'm<00:03:07.080> going<00:03:07.230> to<00:03:07.290> go<00:03:07.380> to<00:03:07.440> the<00:03:07.530> hypershade
+
+00:03:07.990 --> 00:03:08.000 
+note i'm going to go to the hypershade
+
+00:03:08.000 --> 00:03:12.260 
+note i'm going to go to the hypershade
+select<00:03:09.000> my<00:03:09.120> camera<00:03:09.770> here<00:03:10.770> it<00:03:10.860> is<00:03:10.980> and<00:03:11.270> i'm
+
+00:03:12.260 --> 00:03:12.270 
+select my camera here it is and i'm
+
+00:03:12.270 --> 00:03:14.180 
+select my camera here it is and i'm
+going<00:03:12.450> to<00:03:12.510> grab<00:03:12.750> under<00:03:13.110> the<00:03:13.260> mental<00:03:13.560> ray<00:03:13.710> note
+
+00:03:14.180 --> 00:03:14.190 
+going to grab under the mental ray note
+
+00:03:14.190 --> 00:03:17.300 
+going to grab under the mental ray note
+we<00:03:14.520> already<00:03:14.670> know<00:03:14.940> it's<00:03:15.150> a<00:03:15.270> post<00:03:16.010> process<00:03:17.010> so
+
+00:03:17.300 --> 00:03:17.310 
+we already know it's a post process so
+
+00:03:17.310 --> 00:03:18.500 
+we already know it's a post process so
+I'm<00:03:17.400> just<00:03:17.550> going<00:03:17.700> to<00:03:17.760> go<00:03:17.850> to<00:03:17.970> the<00:03:18.180> output
+
+00:03:18.500 --> 00:03:18.510 
+I'm just going to go to the output
+
+00:03:18.510 --> 00:03:23.030 
+I'm just going to go to the output
+shaders<00:03:19.260> and<00:03:19.440> grab<00:03:20.190> the<00:03:20.640> emotion<00:03:21.000> victors<00:03:22.040> so
+
+00:03:23.030 --> 00:03:23.040 
+shaders and grab the emotion victors so
+
+00:03:23.040 --> 00:03:25.880 
+shaders and grab the emotion victors so
+I<00:03:23.070> have<00:03:23.340> my<00:03:23.520> MIB<00:03:24.209> motion<00:03:24.600> vector<00:03:25.050> and<00:03:25.260> the
+
+00:03:25.880 --> 00:03:25.890 
+I have my MIB motion vector and the
+
+00:03:25.890 --> 00:03:28.810 
+I have my MIB motion vector and the
+prospective<00:03:26.400> shape<00:03:26.580> don't<00:03:26.970> you<00:03:27.170> grab<00:03:28.170> this<00:03:28.320> up
+
+00:03:28.810 --> 00:03:28.820 
+prospective shape don't you grab this up
+
+00:03:28.820 --> 00:03:33.020 
+prospective shape don't you grab this up
+now<00:03:29.820> go<00:03:30.030> middle<00:03:30.300> mouse<00:03:30.600> drag<00:03:31.670> the<00:03:32.670> motion
+
+00:03:33.020 --> 00:03:33.030 
+now go middle mouse drag the motion
+
+00:03:33.030 --> 00:03:36.260 
+now go middle mouse drag the motion
+vector<00:03:33.239> on<00:03:34.020> top<00:03:34.320> of<00:03:34.620> the<00:03:34.890> perspective<00:03:35.160> and<00:03:35.850> I'm
+
+00:03:36.260 --> 00:03:36.270 
+vector on top of the perspective and I'm
+
+00:03:36.270 --> 00:03:38.570 
+vector on top of the perspective and I'm
+going<00:03:36.480> to<00:03:36.510> choose<00:03:37.110> other<00:03:37.590> want<00:03:38.340> to<00:03:38.430> make<00:03:38.550> sure
+
+00:03:38.570 --> 00:03:38.580 
+going to choose other want to make sure
+
+00:03:38.580 --> 00:03:43.400 
+going to choose other want to make sure
+on<00:03:38.910> both<00:03:39.120> left<00:03:39.450> and<00:03:39.600> right<00:03:39.720> to<00:03:40.080> show<00:03:40.230> hidden<00:03:42.410> so
+
+00:03:43.400 --> 00:03:43.410 
+on both left and right to show hidden so
+
+00:03:43.410 --> 00:03:44.720 
+on both left and right to show hidden so
+I'm<00:03:43.500> going<00:03:43.560> to<00:03:43.680> take<00:03:43.800> the<00:03:43.980> message<00:03:44.160> out<00:03:44.459> of<00:03:44.550> the
+
+00:03:44.720 --> 00:03:44.730 
+I'm going to take the message out of the
+
+00:03:44.730 --> 00:03:47.180 
+I'm going to take the message out of the
+Imam<00:03:45.000> a<00:03:45.120> motion<00:03:45.510> vector<00:03:45.739> and<00:03:46.739> I'm<00:03:46.860> going<00:03:47.010> to<00:03:47.070> go
+
+00:03:47.180 --> 00:03:47.190 
+Imam a motion vector and I'm going to go
+
+00:03:47.190 --> 00:03:50.030 
+Imam a motion vector and I'm going to go
+look<00:03:47.400> for<00:03:47.610> the<00:03:47.880> mi<00:03:48.209> or<00:03:49.170> the<00:03:49.410> mental<00:03:49.680> images
+
+00:03:50.030 --> 00:03:50.040 
+look for the mi or the mental images
+
+00:03:50.040 --> 00:03:51.949 
+look for the mi or the mental images
+section<00:03:50.220> where<00:03:51.000> you<00:03:51.150> go<00:03:51.270> the<00:03:51.540> mental<00:03:51.840> rape
+
+00:03:51.949 --> 00:03:51.959 
+section where you go the mental rape
+
+00:03:51.959 --> 00:03:54.110 
+section where you go the mental rape
+controls<00:03:52.410> and<00:03:52.709> since<00:03:53.370> this<00:03:53.489> is<00:03:53.640> an<00:03:53.790> output
+
+00:03:54.110 --> 00:03:54.120 
+controls and since this is an output
+
+00:03:54.120 --> 00:03:55.810 
+controls and since this is an output
+shader<00:03:54.390> i'm<00:03:54.660> just<00:03:54.720> going<00:03:54.900> to<00:03:54.930> collect<00:03:55.260> it<00:03:55.440> in
+
+00:03:55.810 --> 00:03:55.820 
+shader i'm just going to collect it in
+
+00:03:55.820 --> 00:04:00.380 
+shader i'm just going to collect it in
+here<00:03:57.230> get<00:03:58.230> close<00:03:58.530> now<00:03:59.310> if<00:03:59.790> we<00:03:59.970> look<00:04:00.000> at<00:04:00.270> the
+
+00:04:00.380 --> 00:04:00.390 
+here get close now if we look at the
+
+00:04:00.390 --> 00:04:05.120 
+here get close now if we look at the
+parameters<00:04:00.750> of<00:04:01.020> the<00:04:01.350> MIP<00:04:01.739> motion<00:04:02.520> vector<00:04:04.130> we
+
+00:04:05.120 --> 00:04:05.130 
+parameters of the MIP motion vector we
+
+00:04:05.130 --> 00:04:08.330 
+parameters of the MIP motion vector we
+have<00:04:05.310> a<00:04:05.340> bunch<00:04:05.550> of<00:04:05.670> them<00:04:05.850> that<00:04:06.060> are<00:04:06.320> similar<00:04:07.340> to
+
+00:04:08.330 --> 00:04:08.340 
+have a bunch of them that are similar to
+
+00:04:08.340 --> 00:04:12.050 
+have a bunch of them that are similar to
+the<00:04:08.550> MIP<00:04:09.050> motion<00:04:10.050> blur<00:04:10.260> but<00:04:11.100> other<00:04:11.550> different
+
+00:04:12.050 --> 00:04:12.060 
+the MIP motion blur but other different
+
+00:04:12.060 --> 00:04:13.940 
+the MIP motion blur but other different
+values<00:04:12.390> so<00:04:12.720> just<00:04:13.019> let's<00:04:13.290> render<00:04:13.500> this<00:04:13.769> by
+
+00:04:13.940 --> 00:04:13.950 
+values so just let's render this by
+
+00:04:13.950 --> 00:04:15.280 
+values so just let's render this by
+default<00:04:14.250> and<00:04:14.400> see<00:04:14.519> how<00:04:14.610> it<00:04:14.670> will<00:04:14.880> look<00:04:14.910> like
+
+00:04:15.280 --> 00:04:15.290 
+default and see how it will look like
+
+00:04:15.290 --> 00:04:18.830 
+default and see how it will look like
+get<00:04:16.290> this<00:04:16.440> image<00:04:16.650> render<00:04:17.400> see<00:04:18.269> now<00:04:18.450> the<00:04:18.510> render
+
+00:04:18.830 --> 00:04:18.840 
+get this image render see now the render
+
+00:04:18.840 --> 00:04:21.440 
+get this image render see now the render
+is<00:04:18.989> going<00:04:19.260> very<00:04:19.440> quickly<00:04:19.590> and<00:04:20.130> since<00:04:21.060> this<00:04:21.239> is
+
+00:04:21.440 --> 00:04:21.450 
+is going very quickly and since this is
+
+00:04:21.450 --> 00:04:24.650 
+is going very quickly and since this is
+a<00:04:21.600> post<00:04:22.080> process<00:04:22.729> the<00:04:23.729> image<00:04:24.030> will<00:04:24.240> display
+
+00:04:24.650 --> 00:04:24.660 
+a post process the image will display
+
+00:04:24.660 --> 00:04:25.780 
+a post process the image will display
+after<00:04:24.900> the<00:04:25.260> renders<00:04:25.500> come
+
+00:04:25.780 --> 00:04:25.790 
+after the renders come
+
+00:04:25.790 --> 00:04:29.290 
+after the renders come
+sweet<00:04:26.380> so<00:04:27.380> the<00:04:27.560> render<00:04:27.800> is<00:04:27.890> complete<00:04:28.060> but<00:04:29.060> it
+
+00:04:29.290 --> 00:04:29.300 
+sweet so the render is complete but it
+
+00:04:29.300 --> 00:04:32.200 
+sweet so the render is complete but it
+did<00:04:29.480> not<00:04:29.630> flip<00:04:29.960> to<00:04:30.410> the<00:04:30.830> MIP<00:04:31.370> motion<00:04:31.820> vectors
+
+00:04:32.200 --> 00:04:32.210 
+did not flip to the MIP motion vectors
+
+00:04:32.210 --> 00:04:33.940 
+did not flip to the MIP motion vectors
+or<00:04:32.780> actually<00:04:33.200> it<00:04:33.230> did<00:04:33.470> not<00:04:33.620> give<00:04:33.830> me<00:04:33.920> the
+
+00:04:33.940 --> 00:04:33.950 
+or actually it did not give me the
+
+00:04:33.950 --> 00:04:35.470 
+or actually it did not give me the
+motion<00:04:34.280> vector<00:04:34.340> and<00:04:34.730> I<00:04:34.760> think<00:04:35.000> I<00:04:35.120> know<00:04:35.150> why
+
+00:04:35.470 --> 00:04:35.480 
+motion vector and I think I know why
+
+00:04:35.480 --> 00:04:37.390 
+motion vector and I think I know why
+because<00:04:35.720> i<00:04:35.840> forgot<00:04:36.170> to<00:04:36.200> enable<00:04:36.920> a<00:04:36.950> couple<00:04:37.310> of
+
+00:04:37.390 --> 00:04:37.400 
+because i forgot to enable a couple of
+
+00:04:37.400 --> 00:04:41.110 
+because i forgot to enable a couple of
+items<00:04:37.730> in<00:04:38.240> the<00:04:39.080> actual<00:04:39.410> output<00:04:39.830> so<00:04:40.700> let's
+
+00:04:41.110 --> 00:04:41.120 
+items in the actual output so let's
+
+00:04:41.120 --> 00:04:42.820 
+items in the actual output so let's
+minimize<00:04:41.480> that<00:04:41.870> for<00:04:42.080> a<00:04:42.110> second<00:04:42.440> and<00:04:42.530> select
+
+00:04:42.820 --> 00:04:42.830 
+minimize that for a second and select
+
+00:04:42.830 --> 00:04:46.030 
+minimize that for a second and select
+the<00:04:42.860> camera<00:04:43.250> if<00:04:43.970> you<00:04:44.120> go<00:04:44.270> down<00:04:44.510> here<00:04:45.170> under<00:04:45.830> the
+
+00:04:46.030 --> 00:04:46.040 
+the camera if you go down here under the
+
+00:04:46.040 --> 00:04:50.860 
+the camera if you go down here under the
+manta<00:04:46.460> ray<00:04:48.940> now<00:04:49.940> you<00:04:50.000> have<00:04:50.300> that<00:04:50.480> legacy
+
+00:04:50.860 --> 00:04:50.870 
+manta ray now you have that legacy
+
+00:04:50.870 --> 00:04:52.180 
+manta ray now you have that legacy
+output<00:04:51.260> you<00:04:51.350> that<00:04:51.470> has<00:04:51.620> been<00:04:51.740> added<00:04:51.890> just
+
+00:04:52.180 --> 00:04:52.190 
+output you that has been added just
+
+00:04:52.190 --> 00:04:53.260 
+output you that has been added just
+because<00:04:52.400> of<00:04:52.520> the<00:04:52.610> connection<00:04:52.970> that<00:04:53.090> we<00:04:53.180> just
+
+00:04:53.260 --> 00:04:53.270 
+because of the connection that we just
+
+00:04:53.270 --> 00:04:56.050 
+because of the connection that we just
+made<00:04:53.650> by<00:04:54.650> default<00:04:55.040> it<00:04:55.220> only<00:04:55.400> gives<00:04:55.640> you<00:04:55.790> color
+
+00:04:56.050 --> 00:04:56.060 
+made by default it only gives you color
+
+00:04:56.060 --> 00:04:59.710 
+made by default it only gives you color
+we<00:04:56.390> want<00:04:56.570> depth<00:04:56.960> and<00:04:58.090> motion<00:04:59.090> vector<00:04:59.420> as<00:04:59.510> well
+
+00:04:59.710 --> 00:04:59.720 
+we want depth and motion vector as well
+
+00:04:59.720 --> 00:05:02.380 
+we want depth and motion vector as well
+if<00:05:00.710> you're<00:05:00.920> going<00:05:01.040> to<00:05:01.100> be<00:05:01.220> rendering<00:05:01.580> float<00:05:02.090> or
+
+00:05:02.380 --> 00:05:02.390 
+if you're going to be rendering float or
+
+00:05:02.390 --> 00:05:04.780 
+if you're going to be rendering float or
+short<00:05:02.780> where<00:05:03.320> which<00:05:03.560> is<00:05:03.740> a<00:05:03.770> different<00:05:04.640> type<00:05:04.670> of
+
+00:05:04.780 --> 00:05:04.790 
+short where which is a different type of
+
+00:05:04.790 --> 00:05:07.330 
+short where which is a different type of
+bits<00:05:05.150> like<00:05:05.870> this<00:05:06.080> is<00:05:06.200> eight<00:05:06.380> bits<00:05:06.620> this<00:05:07.190> could
+
+00:05:07.330 --> 00:05:07.340 
+bits like this is eight bits this could
+
+00:05:07.340 --> 00:05:10.720 
+bits like this is eight bits this could
+be<00:05:07.370> 16<00:05:07.910> or<00:05:08.120> 32<00:05:09.080> for<00:05:09.290> float<00:05:09.500> we<00:05:10.040> can<00:05:10.250> adjust<00:05:10.610> it
+
+00:05:10.720 --> 00:05:10.730 
+be 16 or 32 for float we can adjust it
+
+00:05:10.730 --> 00:05:12.850 
+be 16 or 32 for float we can adjust it
+accordingly<00:05:11.210> so<00:05:12.020> let's<00:05:12.290> render<00:05:12.470> that<00:05:12.680> one
+
+00:05:12.850 --> 00:05:12.860 
+accordingly so let's render that one
+
+00:05:12.860 --> 00:05:15.430 
+accordingly so let's render that one
+more<00:05:13.040> time<00:05:13.450> to<00:05:14.450> the<00:05:14.480> final<00:05:14.900> step<00:05:15.170> of<00:05:15.290> the
+
+00:05:15.430 --> 00:05:15.440 
+more time to the final step of the
+
+00:05:15.440 --> 00:05:19.540 
+more time to the final step of the
+render<00:05:17.500> and<00:05:18.500> here<00:05:18.740> we<00:05:18.770> go<00:05:18.890> that's<00:05:19.250> what<00:05:19.340> I<00:05:19.370> was
+
+00:05:19.540 --> 00:05:19.550 
+render and here we go that's what I was
+
+00:05:19.550 --> 00:05:21.940 
+render and here we go that's what I was
+expecting<00:05:19.880> so<00:05:20.510> this<00:05:20.810> pretty<00:05:21.230> much<00:05:21.350> is<00:05:21.680> the
+
+00:05:21.940 --> 00:05:21.950 
+expecting so this pretty much is the
+
+00:05:21.950 --> 00:05:25.870 
+expecting so this pretty much is the
+variation<00:05:22.310> of<00:05:23.050> green<00:05:24.050> and<00:05:24.230> red<00:05:25.040> colors<00:05:25.670> and
+
+00:05:25.870 --> 00:05:25.880 
+variation of green and red colors and
+
+00:05:25.880 --> 00:05:28.450 
+variation of green and red colors and
+this<00:05:26.450> what<00:05:26.660> we<00:05:26.810> get<00:05:27.110> used<00:05:27.350> to<00:05:27.650> calculate<00:05:27.950> the
+
+00:05:28.450 --> 00:05:28.460 
+this what we get used to calculate the
+
+00:05:28.460 --> 00:05:31.240 
+this what we get used to calculate the
+motion<00:05:28.910> vectors<00:05:29.270> and<00:05:29.510> post<00:05:30.050> so<00:05:30.950> what<00:05:31.130> you
+
+00:05:31.240 --> 00:05:31.250 
+motion vectors and post so what you
+
+00:05:31.250 --> 00:05:34.000 
+motion vectors and post so what you
+happening<00:05:31.670> here<00:05:32.060> is<00:05:32.240> that<00:05:32.270> all<00:05:33.230> these<00:05:33.470> pixels
+
+00:05:34.000 --> 00:05:34.010 
+happening here is that all these pixels
+
+00:05:34.010 --> 00:05:37.900 
+happening here is that all these pixels
+get<00:05:34.790> a<00:05:34.970> value<00:05:35.300> of<00:05:35.660> red<00:05:36.410> and<00:05:36.620> green<00:05:37.190> according
+
+00:05:37.900 --> 00:05:37.910 
+get a value of red and green according
+
+00:05:37.910 --> 00:05:40.870 
+get a value of red and green according
+to<00:05:38.090> their<00:05:38.710> position<00:05:39.710> and<00:05:39.890> the<00:05:39.950> in<00:05:40.460> the<00:05:40.610> screen
+
+00:05:40.870 --> 00:05:40.880 
+to their position and the in the screen
+
+00:05:40.880 --> 00:05:43.270 
+to their position and the in the screen
+so<00:05:41.390> the<00:05:41.660> x<00:05:41.930> axis<00:05:42.320> for<00:05:42.470> example<00:05:42.860> will<00:05:42.980> take<00:05:43.160> the
+
+00:05:43.270 --> 00:05:43.280 
+so the x axis for example will take the
+
+00:05:43.280 --> 00:05:46.320 
+so the x axis for example will take the
+red<00:05:43.460> and<00:05:43.700> the<00:05:44.360> green<00:05:44.540> will<00:05:44.780> go<00:05:44.930> for<00:05:45.140> dia<00:05:45.260> y<00:05:45.470> axis
+
+00:05:46.320 --> 00:05:46.330 
+red and the green will go for dia y axis
+
+00:05:46.330 --> 00:05:50.020 
+red and the green will go for dia y axis
+production<00:05:47.830> applications<00:05:48.830> such<00:05:49.040> as<00:05:49.070> toxic<00:05:49.580> or
+
+00:05:50.020 --> 00:05:50.030 
+production applications such as toxic or
+
+00:05:50.030 --> 00:05:52.600 
+production applications such as toxic or
+after<00:05:50.720> effects<00:05:51.140> we'll<00:05:51.650> look<00:05:51.860> at<00:05:52.040> these<00:05:52.160> values
+
+00:05:52.600 --> 00:05:52.610 
+after effects we'll look at these values
+
+00:05:52.610 --> 00:05:55.120 
+after effects we'll look at these values
+and<00:05:52.790> calculate<00:05:53.240> the<00:05:53.510> motion<00:05:53.840> blur<00:05:54.140> drive<00:05:54.890> it
+
+00:05:55.120 --> 00:05:55.130 
+and calculate the motion blur drive it
+
+00:05:55.130 --> 00:05:58.510 
+and calculate the motion blur drive it
+from<00:05:55.340> it<00:05:55.520> so<00:05:56.390> in<00:05:56.510> order<00:05:56.630> to<00:05:56.780> get<00:05:57.080> more<00:05:57.350> of<00:05:57.650> these
+
+00:05:58.510 --> 00:05:58.520 
+from it so in order to get more of these
+
+00:05:58.520 --> 00:06:00.460 
+from it so in order to get more of these
+color<00:05:58.850> information<00:05:59.210> embedded<00:05:59.750> in<00:06:00.320> your
+
+00:06:00.460 --> 00:06:00.470 
+color information embedded in your
+
+00:06:00.470 --> 00:06:02.740 
+color information embedded in your
+render<00:06:00.830> it<00:06:01.310> would<00:06:01.550> be<00:06:01.670> recommended<00:06:02.270> to<00:06:02.300> render
+
+00:06:02.740 --> 00:06:02.750 
+render it would be recommended to render
+
+00:06:02.750 --> 00:06:05.080 
+render it would be recommended to render
+at<00:06:03.230> the<00:06:03.350> floating<00:06:03.590> point<00:06:04.130> so<00:06:04.610> you<00:06:04.670> can<00:06:04.910> have
+
+00:06:05.080 --> 00:06:05.090 
+at the floating point so you can have
+
+00:06:05.090 --> 00:06:07.840 
+at the floating point so you can have
+more<00:06:05.330> color<00:06:06.080> embedded<00:06:06.740> rather<00:06:07.100> than<00:06:07.310> just<00:06:07.520> 0
+
+00:06:07.840 --> 00:06:07.850 
+more color embedded rather than just 0
+
+00:06:07.850 --> 00:06:11.050 
+more color embedded rather than just 0
+to<00:06:08.000> 2<00:06:08.120> 25<00:06:08.600> you<00:06:09.410> will<00:06:09.530> have<00:06:09.710> more<00:06:10.250> colors<00:06:10.700> or
+
+00:06:11.050 --> 00:06:11.060 
+to 2 25 you will have more colors or
+
+00:06:11.060 --> 00:06:12.640 
+to 2 25 you will have more colors or
+more<00:06:11.270> calculation<00:06:11.780> for<00:06:11.930> the<00:06:11.990> colors<00:06:12.260> that<00:06:12.470> can
+
+00:06:12.640 --> 00:06:12.650 
+more calculation for the colors that can
+
+00:06:12.650 --> 00:06:14.500 
+more calculation for the colors that can
+be<00:06:12.800> embedded<00:06:13.070> in<00:06:13.310> that<00:06:13.340> image<00:06:13.610> but<00:06:14.180> for<00:06:14.360> the
+
+00:06:14.500 --> 00:06:14.510 
+be embedded in that image but for the
+
+00:06:14.510 --> 00:06:15.970 
+be embedded in that image but for the
+sake<00:06:14.660> of<00:06:14.690> simplicity<00:06:14.960> I'm<00:06:15.530> just<00:06:15.710> going<00:06:15.830> to<00:06:15.860> be
+
+00:06:15.970 --> 00:06:15.980 
+sake of simplicity I'm just going to be
+
+00:06:15.980 --> 00:06:18.400 
+sake of simplicity I'm just going to be
+using<00:06:16.160> the<00:06:16.400> 8-bit<00:06:16.730> for<00:06:17.000> this<00:06:17.180> demo<00:06:17.510> so<00:06:18.140> let's
+
+00:06:18.400 --> 00:06:18.410 
+using the 8-bit for this demo so let's
+
+00:06:18.410 --> 00:06:19.930 
+using the 8-bit for this demo so let's
+have<00:06:18.530> a<00:06:18.560> quick<00:06:18.800> look<00:06:18.830> at<00:06:19.130> our<00:06:19.250> parameters<00:06:19.820> that
+
+00:06:19.930 --> 00:06:19.940 
+have a quick look at our parameters that
+
+00:06:19.940 --> 00:06:22.060 
+have a quick look at our parameters that
+we<00:06:20.090> have<00:06:20.240> in<00:06:20.390> them<00:06:20.510> MIP<00:06:20.960> motion<00:06:21.290> vectors<00:06:21.590> so
+
+00:06:22.060 --> 00:06:22.070 
+we have in them MIP motion vectors so
+
+00:06:22.070 --> 00:06:22.870 
+we have in them MIP motion vectors so
+the<00:06:22.130> first<00:06:22.340> thing<00:06:22.400> we're<00:06:22.580> going<00:06:22.670> to<00:06:22.730> be
+
+00:06:22.870 --> 00:06:22.880 
+the first thing we're going to be
+
+00:06:22.880 --> 00:06:24.730 
+the first thing we're going to be
+looking<00:06:23.120> at<00:06:23.270> is<00:06:23.420> the<00:06:23.600> maximum<00:06:24.050> displace<00:06:24.500> and
+
+00:06:24.730 --> 00:06:24.740 
+looking at is the maximum displace and
+
+00:06:24.740 --> 00:06:28.540 
+looking at is the maximum displace and
+this<00:06:25.310> value<00:06:25.640> is<00:06:25.730> by<00:06:25.910> default<00:06:26.270> is<00:06:26.680> 50<00:06:27.680> however
+
+00:06:28.540 --> 00:06:28.550 
+this value is by default is 50 however
+
+00:06:28.550 --> 00:06:30.040 
+this value is by default is 50 however
+you<00:06:28.700> can<00:06:28.730> adjust<00:06:29.150> this<00:06:29.240> value<00:06:29.570> according<00:06:29.780> to
+
+00:06:30.040 --> 00:06:30.050 
+you can adjust this value according to
+
+00:06:30.050 --> 00:06:32.170 
+you can adjust this value according to
+need<00:06:30.200> and<00:06:30.380> what<00:06:30.500> this<00:06:30.710> actually<00:06:30.980> does<00:06:31.460> it<00:06:31.940> will
+
+00:06:32.170 --> 00:06:32.180 
+need and what this actually does it will
+
+00:06:32.180 --> 00:06:34.540 
+need and what this actually does it will
+set<00:06:32.420> the<00:06:32.600> maximum<00:06:33.020> encode<00:06:33.680> value<00:06:34.370> or<00:06:34.520> that
+
+00:06:34.540 --> 00:06:34.550 
+set the maximum encode value or that
+
+00:06:34.550 --> 00:06:37.150 
+set the maximum encode value or that
+number<00:06:35.120> that<00:06:35.810> will<00:06:35.990> be<00:06:36.050> for<00:06:36.380> the<00:06:36.440> victor<00:06:36.860> link
+
+00:06:37.150 --> 00:06:37.160 
+number that will be for the victor link
+
+00:06:37.160 --> 00:06:38.030 
+number that will be for the victor link
+and
+
+00:06:38.030 --> 00:06:38.040 
+and
+
+00:06:38.040 --> 00:06:40.130 
+and
+that<00:06:38.160> the<00:06:38.640> length<00:06:38.880> is<00:06:39.180> that<00:06:39.630> one<00:06:39.810> going<00:06:39.930> to<00:06:40.050> be
+
+00:06:40.130 --> 00:06:40.140 
+that the length is that one going to be
+
+00:06:40.140 --> 00:06:41.810 
+that the length is that one going to be
+decided<00:06:40.440> or<00:06:40.770> actually<00:06:41.100> going<00:06:41.310> to<00:06:41.400> be<00:06:41.490> encoded
+
+00:06:41.810 --> 00:06:41.820 
+decided or actually going to be encoded
+
+00:06:41.820 --> 00:06:44.620 
+decided or actually going to be encoded
+in<00:06:42.180> the<00:06:42.470> motion<00:06:43.470> vector<00:06:43.500> itself<00:06:44.040> as<00:06:44.490> the
+
+00:06:44.620 --> 00:06:44.630 
+in the motion vector itself as the
+
+00:06:44.630 --> 00:06:48.770 
+in the motion vector itself as the
+maximum<00:06:45.630> movement<00:06:46.350> of<00:06:47.190> these<00:06:47.490> pixels<00:06:47.910> so<00:06:48.600> if
+
+00:06:48.770 --> 00:06:48.780 
+maximum movement of these pixels so if
+
+00:06:48.780 --> 00:06:50.360 
+maximum movement of these pixels so if
+you<00:06:48.930> want<00:06:49.140> these<00:06:49.470> pixels<00:06:49.830> to<00:06:50.010> move<00:06:50.130> a<00:06:50.160> little
+
+00:06:50.360 --> 00:06:50.370 
+you want these pixels to move a little
+
+00:06:50.370 --> 00:06:52.250 
+you want these pixels to move a little
+bit<00:06:50.520> further<00:06:50.880> than<00:06:51.390> this<00:06:51.600> in<00:06:51.840> your<00:06:51.930> motion
+
+00:06:52.250 --> 00:06:52.260 
+bit further than this in your motion
+
+00:06:52.260 --> 00:06:54.410 
+bit further than this in your motion
+blur<00:06:52.470> you<00:06:52.950> will<00:06:53.130> have<00:06:53.310> to<00:06:53.460> increase<00:06:53.610> this
+
+00:06:54.410 --> 00:06:54.420 
+blur you will have to increase this
+
+00:06:54.420 --> 00:06:56.990 
+blur you will have to increase this
+maximum<00:06:54.960> distance<00:06:55.350> and<00:06:55.620> since<00:06:56.550> we're<00:06:56.700> working
+
+00:06:56.990 --> 00:06:57.000 
+maximum distance and since we're working
+
+00:06:57.000 --> 00:07:00.200 
+maximum distance and since we're working
+with<00:06:57.090> 8-bit<00:06:57.530> we<00:06:58.530> should<00:06:58.740> be<00:06:58.890> using<00:06:59.100> the<00:06:59.610> 50<00:07:00.030> as
+
+00:07:00.200 --> 00:07:00.210 
+with 8-bit we should be using the 50 as
+
+00:07:00.210 --> 00:07:03.260 
+with 8-bit we should be using the 50 as
+the<00:07:00.480> value<00:07:00.870> of<00:07:01.080> choice<00:07:01.910> however<00:07:02.910> if<00:07:03.120> you're
+
+00:07:03.260 --> 00:07:03.270 
+the value of choice however if you're
+
+00:07:03.270 --> 00:07:05.720 
+the value of choice however if you're
+going<00:07:03.390> to<00:07:03.450> be<00:07:03.510> using<00:07:03.690> the<00:07:04.500> 16-bit<00:07:04.920> or<00:07:05.310> a<00:07:05.370> float
+
+00:07:05.720 --> 00:07:05.730 
+going to be using the 16-bit or a float
+
+00:07:05.730 --> 00:07:08.000 
+going to be using the 16-bit or a float
+or<00:07:06.000> half<00:07:06.420> that<00:07:06.690> is<00:07:06.720> actually<00:07:07.170> have<00:07:07.290> you<00:07:07.830> should
+
+00:07:08.000 --> 00:07:08.010 
+or half that is actually have you should
+
+00:07:08.010 --> 00:07:10.670 
+or half that is actually have you should
+be<00:07:08.130> using<00:07:08.310> 2000<00:07:09.300> as<00:07:09.420> the<00:07:09.690> value<00:07:10.050> you<00:07:10.410> can<00:07:10.500> even
+
+00:07:10.670 --> 00:07:10.680 
+be using 2000 as the value you can even
+
+00:07:10.680 --> 00:07:12.650 
+be using 2000 as the value you can even
+put<00:07:10.800> it<00:07:11.070> in<00:07:11.190> here<00:07:11.400> as<00:07:11.820> you<00:07:12.030> see<00:07:12.270> it<00:07:12.360> will<00:07:12.510> adjust
+
+00:07:12.650 --> 00:07:12.660 
+put it in here as you see it will adjust
+
+00:07:12.660 --> 00:07:15.890 
+put it in here as you see it will adjust
+so<00:07:13.650> it's<00:07:13.770> not<00:07:14.040> really<00:07:14.100> hard<00:07:14.550> coded<00:07:14.940> to<00:07:15.060> 50<00:07:15.390> but
+
+00:07:15.890 --> 00:07:15.900 
+so it's not really hard coded to 50 but
+
+00:07:15.900 --> 00:07:17.660 
+so it's not really hard coded to 50 but
+again<00:07:16.170> like<00:07:16.410> I<00:07:16.530> said<00:07:16.560> for<00:07:17.160> this<00:07:17.340> simple
+
+00:07:17.660 --> 00:07:17.670 
+again like I said for this simple
+
+00:07:17.670 --> 00:07:19.130 
+again like I said for this simple
+exercise<00:07:17.790> we're<00:07:18.330> going<00:07:18.360> to<00:07:18.510> be<00:07:18.570> using<00:07:18.690> 8-bit
+
+00:07:19.130 --> 00:07:19.140 
+exercise we're going to be using 8-bit
+
+00:07:19.140 --> 00:07:20.600 
+exercise we're going to be using 8-bit
+so<00:07:19.590> therefore<00:07:19.920> I'm<00:07:20.040> going<00:07:20.070> to<00:07:20.220> be<00:07:20.310> choosing
+
+00:07:20.600 --> 00:07:20.610 
+so therefore I'm going to be choosing
+
+00:07:20.610 --> 00:07:22.100 
+so therefore I'm going to be choosing
+fifth<00:07:20.880> if<00:07:21.090> you're<00:07:21.390> wondering<00:07:21.600> how<00:07:21.870> did<00:07:22.050> they
+
+00:07:22.100 --> 00:07:22.110 
+fifth if you're wondering how did they
+
+00:07:22.110 --> 00:07:24.110 
+fifth if you're wondering how did they
+come<00:07:22.290> up<00:07:22.350> with<00:07:22.500> these<00:07:22.770> number<00:07:23.130> 50<00:07:23.460> or<00:07:23.580> 2000
+
+00:07:24.110 --> 00:07:24.120 
+come up with these number 50 or 2000
+
+00:07:24.120 --> 00:07:26.360 
+come up with these number 50 or 2000
+it's<00:07:24.420> actually<00:07:24.900> zap<00:07:25.110> Anderson<00:07:25.650> rotors<00:07:25.980> in<00:07:26.190> his
+
+00:07:26.360 --> 00:07:26.370 
+it's actually zap Anderson rotors in his
+
+00:07:26.370 --> 00:07:29.480 
+it's actually zap Anderson rotors in his
+PDF<00:07:27.230> regarding<00:07:28.230> the<00:07:28.440> production<00:07:29.070> library
+
+00:07:29.480 --> 00:07:29.490 
+PDF regarding the production library
+
+00:07:29.490 --> 00:07:30.740 
+PDF regarding the production library
+that's<00:07:29.640> why<00:07:29.850> I<00:07:29.910> get<00:07:30.120> these<00:07:30.240> numbers<00:07:30.600> from
+
+00:07:30.740 --> 00:07:30.750 
+that's why I get these numbers from
+
+00:07:30.750 --> 00:07:33.770 
+that's why I get these numbers from
+however<00:07:31.370> if<00:07:32.370> you<00:07:32.550> leave<00:07:32.730> a<00:07:32.760> value<00:07:33.210> of<00:07:33.240> zero<00:07:33.360> in
+
+00:07:33.770 --> 00:07:33.780 
+however if you leave a value of zero in
+
+00:07:33.780 --> 00:07:34.640 
+however if you leave a value of zero in
+here<00:07:33.960> if<00:07:34.080> you<00:07:34.170> give<00:07:34.380> the<00:07:34.500> maximum
+
+00:07:34.640 --> 00:07:34.650 
+here if you give the maximum
+
+00:07:34.650 --> 00:07:36.530 
+here if you give the maximum
+displacement<00:07:35.040> the<00:07:35.400> value<00:07:35.700> of<00:07:35.820> zero<00:07:36.060> that
+
+00:07:36.530 --> 00:07:36.540 
+displacement the value of zero that
+
+00:07:36.540 --> 00:07:37.880 
+displacement the value of zero that
+means<00:07:36.600> these<00:07:36.960> pics<00:07:37.230> of<00:07:37.350> movement<00:07:37.650> or<00:07:37.740> the
+
+00:07:37.880 --> 00:07:37.890 
+means these pics of movement or the
+
+00:07:37.890 --> 00:07:40.220 
+means these pics of movement or the
+encoded<00:07:38.310> of<00:07:38.430> this<00:07:38.600> movement<00:07:39.600> is<00:07:39.840> going<00:07:40.080> to<00:07:40.140> be
+
+00:07:40.220 --> 00:07:40.230 
+encoded of this movement is going to be
+
+00:07:40.230 --> 00:07:42.140 
+encoded of this movement is going to be
+relative<00:07:40.800> to<00:07:40.980> the<00:07:41.070> image<00:07:41.340> size<00:07:41.520> for<00:07:41.790> example
+
+00:07:42.140 --> 00:07:42.150 
+relative to the image size for example
+
+00:07:42.150 --> 00:07:46.490 
+relative to the image size for example
+my<00:07:42.270> image<00:07:42.540> here<00:07:42.720> is<00:07:42.840> 720<00:07:43.410> x<00:07:44.310> 480<00:07:44.700> six<00:07:45.000> so<00:07:45.570> 720<00:07:46.380> in
+
+00:07:46.490 --> 00:07:46.500 
+my image here is 720 x 480 six so 720 in
+
+00:07:46.500 --> 00:07:49.160 
+my image here is 720 x 480 six so 720 in
+the<00:07:46.620> X<00:07:46.800> that<00:07:47.580> means<00:07:47.760> if<00:07:48.030> the<00:07:48.060> movement<00:07:48.750> happens
+
+00:07:49.160 --> 00:07:49.170 
+the X that means if the movement happens
+
+00:07:49.170 --> 00:07:52.160 
+the X that means if the movement happens
+within<00:07:49.440> 7<00:07:49.860> 20<00:07:50.190> and<00:07:50.370> the<00:07:50.970> X<00:07:51.210> that<00:07:51.750> will<00:07:51.810> be
+
+00:07:52.160 --> 00:07:52.170 
+within 7 20 and the X that will be
+
+00:07:52.170 --> 00:07:54.230 
+within 7 20 and the X that will be
+encoded<00:07:52.740> as<00:07:52.920> one<00:07:53.400> in<00:07:53.640> the<00:07:53.880> maximum
+
+00:07:54.230 --> 00:07:54.240 
+encoded as one in the maximum
+
+00:07:54.240 --> 00:07:57.530 
+encoded as one in the maximum
+displacement<00:07:54.450> and<00:07:55.020> so<00:07:55.560> on<00:07:55.740> if<00:07:56.060> we<00:07:57.060> check<00:07:57.270> blue
+
+00:07:57.530 --> 00:07:57.540 
+displacement and so on if we check blue
+
+00:07:57.540 --> 00:08:01.520 
+displacement and so on if we check blue
+is<00:07:57.720> magnitude<00:07:58.230> that<00:07:59.160> means<00:07:59.490> the<00:08:00.150> blue<00:08:00.600> color
+
+00:08:01.520 --> 00:08:01.530 
+is magnitude that means the blue color
+
+00:08:01.530 --> 00:08:03.530 
+is magnitude that means the blue color
+in<00:08:01.800> the<00:08:01.920> channel<00:08:02.280> represent<00:08:02.940> the<00:08:03.030> magnitude
+
+00:08:03.530 --> 00:08:03.540 
+in the channel represent the magnitude
+
+00:08:03.540 --> 00:08:06.380 
+in the channel represent the magnitude
+of<00:08:03.660> the<00:08:03.720> blur<00:08:04.080> and<00:08:04.320> the<00:08:04.980> red<00:08:05.220> when<00:08:06.060> the<00:08:06.210> green
+
+00:08:06.380 --> 00:08:06.390 
+of the blur and the red when the green
+
+00:08:06.390 --> 00:08:08.300 
+of the blur and the red when the green
+only<00:08:06.690> includes<00:08:07.080> the<00:08:07.350> second<00:08:07.800> direction<00:08:08.010> only
+
+00:08:08.300 --> 00:08:08.310 
+only includes the second direction only
+
+00:08:08.310 --> 00:08:10.700 
+only includes the second direction only
+if<00:08:08.970> this<00:08:09.210> is<00:08:09.390> off<00:08:09.570> then<00:08:09.930> obviously<00:08:10.080> we're<00:08:10.620> not
+
+00:08:10.700 --> 00:08:10.710 
+if this is off then obviously we're not
+
+00:08:10.710 --> 00:08:13.280 
+if this is off then obviously we're not
+going<00:08:10.890> to<00:08:10.950> be<00:08:11.040> using<00:08:11.280> the<00:08:11.580> blue<00:08:11.900> channel<00:08:12.900> so
+
+00:08:13.280 --> 00:08:13.290 
+going to be using the blue channel so
+
+00:08:13.290 --> 00:08:15.290 
+going to be using the blue channel so
+let's<00:08:13.560> render<00:08:13.770> it<00:08:13.920> with<00:08:14.100> on<00:08:14.370> to<00:08:14.910> see<00:08:15.090> how<00:08:15.120> it
+
+00:08:15.290 --> 00:08:15.300 
+let's render it with on to see how it
+
+00:08:15.300 --> 00:08:17.600 
+let's render it with on to see how it
+will<00:08:15.420> look<00:08:15.450> like
+

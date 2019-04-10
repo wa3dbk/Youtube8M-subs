@@ -1,0 +1,909 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.629 
+
+all<00:00:00.599> righty<00:00:01.079> guys<00:00:01.170> welcome<00:00:01.860> back<00:00:01.890> and<00:00:02.370> in<00:00:02.550> this
+
+00:00:02.629 --> 00:00:02.639 
+all righty guys welcome back and in this
+
+00:00:02.639 --> 00:00:03.919 
+all righty guys welcome back and in this
+video<00:00:02.820> I'm<00:00:03.330> going<00:00:03.480> to<00:00:03.540> show<00:00:03.659> you<00:00:03.750> how<00:00:03.870> to
+
+00:00:03.919 --> 00:00:03.929 
+video I'm going to show you how to
+
+00:00:03.929 --> 00:00:05.480 
+video I'm going to show you how to
+secure<00:00:04.350> PHP<00:00:04.920> myadmin
+
+00:00:05.480 --> 00:00:05.490 
+secure PHP myadmin
+
+00:00:05.490 --> 00:00:09.919 
+secure PHP myadmin
+using<00:00:06.180> HT<00:00:06.990> access<00:00:07.680> so<00:00:08.639> the<00:00:09.300> reason<00:00:09.599> I<00:00:09.690> want<00:00:09.870> to
+
+00:00:09.919 --> 00:00:09.929 
+using HT access so the reason I want to
+
+00:00:09.929 --> 00:00:11.930 
+using HT access so the reason I want to
+do<00:00:10.050> this<00:00:10.230> is<00:00:10.469> because<00:00:10.620> if<00:00:11.099> a<00:00:11.340> hacker<00:00:11.550> ever
+
+00:00:11.930 --> 00:00:11.940 
+do this is because if a hacker ever
+
+00:00:11.940 --> 00:00:14.299 
+do this is because if a hacker ever
+tries<00:00:12.300> to<00:00:12.330> target<00:00:12.780> your<00:00:12.900> website<00:00:13.290> one<00:00:14.130> of<00:00:14.250> the
+
+00:00:14.299 --> 00:00:14.309 
+tries to target your website one of the
+
+00:00:14.309 --> 00:00:16.010 
+tries to target your website one of the
+most<00:00:14.490> common<00:00:14.759> things<00:00:14.940> they<00:00:15.120> always<00:00:15.389> do<00:00:15.780> is
+
+00:00:16.010 --> 00:00:16.020 
+most common things they always do is
+
+00:00:16.020 --> 00:00:18.560 
+most common things they always do is
+they<00:00:16.170> go<00:00:16.289> to<00:00:16.350> this<00:00:16.590> URL<00:00:16.800> and<00:00:17.279> they<00:00:18.240> start
+
+00:00:18.560 --> 00:00:18.570 
+they go to this URL and they start
+
+00:00:18.570 --> 00:00:20.359 
+they go to this URL and they start
+trying<00:00:18.750> to<00:00:18.900> guess<00:00:19.109> your<00:00:19.260> PHP<00:00:19.859> my<00:00:20.010> admin
+
+00:00:20.359 --> 00:00:20.369 
+trying to guess your PHP my admin
+
+00:00:20.369 --> 00:00:23.210 
+trying to guess your PHP my admin
+password<00:00:20.970> now<00:00:21.600> if<00:00:21.840> they<00:00:21.990> can<00:00:22.199> guess<00:00:22.470> it<00:00:22.710> then
+
+00:00:23.210 --> 00:00:23.220 
+password now if they can guess it then
+
+00:00:23.220 --> 00:00:25.040 
+password now if they can guess it then
+they<00:00:23.430> have<00:00:23.460> access<00:00:23.910> to<00:00:24.090> your<00:00:24.210> database<00:00:24.570> all
+
+00:00:25.040 --> 00:00:25.050 
+they have access to your database all
+
+00:00:25.050 --> 00:00:28.759 
+they have access to your database all
+the<00:00:25.350> user<00:00:25.560> data<00:00:25.680> and<00:00:26.720> clearly<00:00:27.720> not<00:00:28.109> a<00:00:28.439> good
+
+00:00:28.759 --> 00:00:28.769 
+the user data and clearly not a good
+
+00:00:28.769 --> 00:00:30.400 
+the user data and clearly not a good
+thing<00:00:29.010> not<00:00:29.400> something<00:00:29.609> you<00:00:29.880> want<00:00:30.090> to<00:00:30.150> happen
+
+00:00:30.400 --> 00:00:30.410 
+thing not something you want to happen
+
+00:00:30.410 --> 00:00:32.840 
+thing not something you want to happen
+so<00:00:31.410> what<00:00:31.740> we're<00:00:31.830> gonna<00:00:31.890> be<00:00:32.099> doing<00:00:32.399> is<00:00:32.550> we're
+
+00:00:32.840 --> 00:00:32.850 
+so what we're gonna be doing is we're
+
+00:00:32.850 --> 00:00:35.120 
+so what we're gonna be doing is we're
+gonna<00:00:32.910> be<00:00:33.120> setting<00:00:33.329> up<00:00:33.570> a<00:00:33.690> gateway<00:00:34.200> through<00:00:34.649> HD
+
+00:00:35.120 --> 00:00:35.130 
+gonna be setting up a gateway through HD
+
+00:00:35.130 --> 00:00:37.160 
+gonna be setting up a gateway through HD
+access<00:00:35.550> and<00:00:35.790> what<00:00:36.210> this<00:00:36.329> is<00:00:36.510> gonna<00:00:36.630> do<00:00:36.899> is
+
+00:00:37.160 --> 00:00:37.170 
+access and what this is gonna do is
+
+00:00:37.170 --> 00:00:39.530 
+access and what this is gonna do is
+whenever<00:00:37.500> the<00:00:37.860> user<00:00:37.890> or<00:00:38.430> a<00:00:38.640> hacker<00:00:38.940> tries<00:00:39.420> to
+
+00:00:39.530 --> 00:00:39.540 
+whenever the user or a hacker tries to
+
+00:00:39.540 --> 00:00:41.600 
+whenever the user or a hacker tries to
+access<00:00:39.690> this<00:00:40.050> page<00:00:40.190> unless<00:00:41.190> they<00:00:41.399> know<00:00:41.579> the
+
+00:00:41.600 --> 00:00:41.610 
+access this page unless they know the
+
+00:00:41.610 --> 00:00:43.400 
+access this page unless they know the
+password<00:00:41.760> to<00:00:42.719> get<00:00:42.870> through<00:00:43.020> that<00:00:43.170> gateway
+
+00:00:43.400 --> 00:00:43.410 
+password to get through that gateway
+
+00:00:43.410 --> 00:00:45.529 
+password to get through that gateway
+they<00:00:44.040> aren't<00:00:44.399> even<00:00:44.460> going<00:00:44.760> to<00:00:44.850> be<00:00:44.910> able<00:00:45.120> to<00:00:45.270> see
+
+00:00:45.529 --> 00:00:45.539 
+they aren't even going to be able to see
+
+00:00:45.539 --> 00:00:48.380 
+they aren't even going to be able to see
+this<00:00:46.530> form<00:00:46.860> right<00:00:47.100> here<00:00:47.129> so<00:00:47.940> they<00:00:48.090> can't<00:00:48.270> even
+
+00:00:48.380 --> 00:00:48.390 
+this form right here so they can't even
+
+00:00:48.390 --> 00:00:50.090 
+this form right here so they can't even
+try<00:00:48.809> to<00:00:48.870> guess<00:00:49.079> your<00:00:49.200> password<00:00:49.379> it's<00:00:49.890> pretty
+
+00:00:50.090 --> 00:00:50.100 
+try to guess your password it's pretty
+
+00:00:50.100 --> 00:00:52.569 
+try to guess your password it's pretty
+cool<00:00:50.309> so<00:00:51.090> let's<00:00:51.329> go<00:00:51.480> ahead<00:00:51.570> and<00:00:51.930> get<00:00:52.079> started
+
+00:00:52.569 --> 00:00:52.579 
+cool so let's go ahead and get started
+
+00:00:52.579 --> 00:00:56.180 
+cool so let's go ahead and get started
+so<00:00:53.579> open<00:00:53.940> up<00:00:54.030> putty<00:00:54.270> and<00:00:54.649> what<00:00:55.649> we<00:00:55.770> have<00:00:55.920> to<00:00:56.039> do
+
+00:00:56.180 --> 00:00:56.190 
+so open up putty and what we have to do
+
+00:00:56.190 --> 00:00:57.950 
+so open up putty and what we have to do
+first<00:00:56.430> is<00:00:56.670> we<00:00:56.789> have<00:00:56.820> to<00:00:57.000> say<00:00:57.149> hey<00:00:57.360> PHP<00:00:57.809> myadmin
+
+00:00:57.950 --> 00:00:57.960 
+first is we have to say hey PHP myadmin
+
+00:00:57.960 --> 00:01:01.430 
+first is we have to say hey PHP myadmin
+you<00:00:58.710> have<00:00:59.010> to<00:00:59.190> allow<00:00:59.660> HT<00:01:00.660> access<00:01:00.989> the<00:01:01.350> ability
+
+00:01:01.430 --> 00:01:01.440 
+you have to allow HT access the ability
+
+00:01:01.440 --> 00:01:05.299 
+you have to allow HT access the ability
+to<00:01:01.980> override<00:01:02.370> the<00:01:02.730> default<00:01:03.000> settings<00:01:03.719> so<00:01:04.309> sudo
+
+00:01:05.299 --> 00:01:05.309 
+to override the default settings so sudo
+
+00:01:05.309 --> 00:01:13.399 
+to override the default settings so sudo
+nano<00:01:08.270> Apache<00:01:09.270> -<00:01:12.229> Kampf
+
+00:01:13.399 --> 00:01:13.409 
+nano Apache - Kampf
+
+00:01:13.409 --> 00:01:18.460 
+nano Apache - Kampf
+-<00:01:13.920> enabled<00:01:14.580> and<00:01:14.820> it's<00:01:15.450> PHP<00:01:17.060> myadmin
+
+00:01:18.460 --> 00:01:18.470 
+- enabled and it's PHP myadmin
+
+00:01:18.470 --> 00:01:25.300 
+- enabled and it's PHP myadmin
+configuration<00:01:19.470> file<00:01:19.939> conf<00:01:20.939> so<00:01:21.689> hit<00:01:21.869> enter<00:01:23.060> and
+
+00:01:25.300 --> 00:01:25.310 
+configuration file conf so hit enter and
+
+00:01:25.310 --> 00:01:30.170 
+configuration file conf so hit enter and
+alright<00:01:26.310> so<00:01:26.610> right<00:01:26.820> here<00:01:28.549> in<00:01:29.549> this<00:01:29.939> little
+
+00:01:30.170 --> 00:01:30.180 
+alright so right here in this little
+
+00:01:30.180 --> 00:01:33.830 
+alright so right here in this little
+directory<00:01:31.170> tag<00:01:31.590> rights<00:01:32.460> under<00:01:32.840> directory
+
+00:01:33.830 --> 00:01:33.840 
+directory tag rights under directory
+
+00:01:33.840 --> 00:01:35.840 
+directory tag rights under directory
+index<00:01:34.229> and<00:01:34.439> next<00:01:34.710> up<00:01:34.829> PHP<00:01:35.280> we're<00:01:35.490> going<00:01:35.610> to<00:01:35.670> add
+
+00:01:35.840 --> 00:01:35.850 
+index and next up PHP we're going to add
+
+00:01:35.850 --> 00:01:39.800 
+index and next up PHP we're going to add
+one<00:01:36.270> simple<00:01:37.020> line<00:01:37.229> and<00:01:37.530> that<00:01:37.680> is<00:01:38.479> let<00:01:39.479> me<00:01:39.509> make
+
+00:01:39.800 --> 00:01:39.810 
+one simple line and that is let me make
+
+00:01:39.810 --> 00:01:44.179 
+one simple line and that is let me make
+it<00:01:39.840> a<00:01:39.960> little<00:01:39.990> bit<00:01:40.229> cleaner<00:01:41.570> allow<00:01:43.189> override
+
+00:01:44.179 --> 00:01:44.189 
+it a little bit cleaner allow override
+
+00:01:44.189 --> 00:01:47.780 
+it a little bit cleaner allow override
+its<00:01:44.820> override<00:01:45.210> have<00:01:45.390> one<00:01:45.600> art<00:01:45.840> or<00:01:46.110> -<00:01:46.409> I<00:01:46.740> think<00:01:47.399> -
+
+00:01:47.780 --> 00:01:47.790 
+its override have one art or - I think -
+
+00:01:47.790 --> 00:01:51.889 
+its override have one art or - I think -
+let's<00:01:48.630> hope<00:01:48.810> so<00:01:48.990> so<00:01:49.200> allow<00:01:49.920> override<00:01:50.759> all<00:01:51.060> so
+
+00:01:51.889 --> 00:01:51.899 
+let's hope so so allow override all so
+
+00:01:51.899 --> 00:01:53.539 
+let's hope so so allow override all so
+now<00:01:52.140> you're<00:01:52.380> giving<00:01:52.500> PHP<00:01:53.070> myadmin
+
+00:01:53.539 --> 00:01:53.549 
+now you're giving PHP myadmin
+
+00:01:53.549 --> 00:01:57.499 
+now you're giving PHP myadmin
+you're<00:01:54.210> saying<00:01:54.479> okay<00:01:54.860> we<00:01:55.860> allow<00:01:56.219> HT<00:01:56.850> access<00:01:57.240> to
+
+00:01:57.499 --> 00:01:57.509 
+you're saying okay we allow HT access to
+
+00:01:57.509 --> 00:02:00.740 
+you're saying okay we allow HT access to
+override<00:01:57.869> default<00:01:58.590> settings<00:01:58.979> for<00:01:59.670> your<00:02:00.270> setup
+
+00:02:00.740 --> 00:02:00.750 
+override default settings for your setup
+
+00:02:00.750 --> 00:02:02.899 
+override default settings for your setup
+so<00:02:01.439> that's<00:02:01.680> all<00:02:01.829> we<00:02:01.950> have<00:02:02.040> to<00:02:02.159> do<00:02:02.310> like<00:02:02.729> I<00:02:02.850> said
+
+00:02:02.899 --> 00:02:02.909 
+so that's all we have to do like I said
+
+00:02:02.909 --> 00:02:05.270 
+so that's all we have to do like I said
+one<00:02:03.450> simple<00:02:03.840> line<00:02:03.960> of<00:02:03.990> code<00:02:04.110> control<00:02:04.619> X<00:02:04.860> Y
+
+00:02:05.270 --> 00:02:05.280 
+one simple line of code control X Y
+
+00:02:05.280 --> 00:02:09.650 
+one simple line of code control X Y
+enter<00:02:05.850> and<00:02:06.119> boom<00:02:06.899> there<00:02:07.530> we<00:02:07.680> go<00:02:07.910> so<00:02:08.910> in<00:02:09.330> order
+
+00:02:09.650 --> 00:02:09.660 
+enter and boom there we go so in order
+
+00:02:09.660 --> 00:02:12.140 
+enter and boom there we go so in order
+for<00:02:09.899> these<00:02:10.020> changes<00:02:10.259> take<00:02:10.590> into<00:02:10.830> effect
+
+00:02:12.140 --> 00:02:12.150 
+for these changes take into effect
+
+00:02:12.150 --> 00:02:21.589 
+for these changes take into effect
+sudo<00:02:13.040> service<00:02:14.510> apache2<00:02:16.670> restarts<00:02:20.299> all<00:02:21.299> right
+
+00:02:21.589 --> 00:02:21.599 
+sudo service apache2 restarts all right
+
+00:02:21.599 --> 00:02:24.199 
+sudo service apache2 restarts all right
+so<00:02:22.290> we<00:02:22.530> made<00:02:22.709> some<00:02:22.890> changes<00:02:23.250> we<00:02:23.430> said<00:02:23.640> hey<00:02:23.790> PHP
+
+00:02:24.199 --> 00:02:24.209 
+so we made some changes we said hey PHP
+
+00:02:24.209 --> 00:02:24.710 
+so we made some changes we said hey PHP
+myadmin
+
+00:02:24.710 --> 00:02:24.720 
+myadmin
+
+00:02:24.720 --> 00:02:27.140 
+myadmin
+allow<00:02:25.470> for<00:02:25.890> us<00:02:26.010> to<00:02:26.310> make<00:02:26.549> this<00:02:26.700> file<00:02:26.939> which
+
+00:02:27.140 --> 00:02:27.150 
+allow for us to make this file which
+
+00:02:27.150 --> 00:02:29.119 
+allow for us to make this file which
+we're<00:02:27.329> gonna<00:02:27.390> make<00:02:27.599> in<00:02:27.720> just<00:02:27.840> a<00:02:27.989> second<00:02:28.349> and<00:02:28.560> we
+
+00:02:29.119 --> 00:02:29.129 
+we're gonna make in just a second and we
+
+00:02:29.129 --> 00:02:31.789 
+we're gonna make in just a second and we
+were<00:02:29.310> started<00:02:29.760> apache<00:02:30.120> so<00:02:30.900> now<00:02:31.170> we<00:02:31.230> have<00:02:31.680> to
+
+00:02:31.789 --> 00:02:31.799 
+were started apache so now we have to
+
+00:02:31.799 --> 00:02:34.250 
+were started apache so now we have to
+actually<00:02:32.099> create<00:02:32.340> that<00:02:32.670> htaccess<00:02:33.180> file<00:02:33.750> to
+
+00:02:34.250 --> 00:02:34.260 
+actually create that htaccess file to
+
+00:02:34.260 --> 00:02:35.839 
+actually create that htaccess file to
+say<00:02:34.500> this<00:02:34.859> is<00:02:35.040> what<00:02:35.220> we're<00:02:35.340> trying<00:02:35.430> to<00:02:35.640> setup
+
+00:02:35.839 --> 00:02:35.849 
+say this is what we're trying to setup
+
+00:02:35.849 --> 00:02:39.020 
+say this is what we're trying to setup
+now<00:02:36.720> for<00:02:36.989> that<00:02:37.079> file<00:02:37.349> you<00:02:37.620> want<00:02:38.099> to<00:02:38.189> created<00:02:38.790> it
+
+00:02:39.020 --> 00:02:39.030 
+now for that file you want to created it
+
+00:02:39.030 --> 00:02:43.309 
+now for that file you want to created it
+sudo<00:02:39.480> nano<00:02:40.370> us<00:02:41.370> our<00:02:41.670> share<00:02:42.659> since<00:02:43.049> it's<00:02:43.230> gonna
+
+00:02:43.309 --> 00:02:43.319 
+sudo nano us our share since it's gonna
+
+00:02:43.319 --> 00:02:46.869 
+sudo nano us our share since it's gonna
+be<00:02:43.500> shared<00:02:43.769> among<00:02:44.069> every<00:02:44.340> user<00:02:45.319> phpMyAdmin
+
+00:02:46.869 --> 00:02:46.879 
+be shared among every user phpMyAdmin
+
+00:02:46.879 --> 00:02:53.869 
+be shared among every user phpMyAdmin
+dot<00:02:47.909> HT<00:02:50.299> access<00:02:51.709> so<00:02:52.709> this<00:02:52.980> is<00:02:53.190> the<00:02:53.310> file<00:02:53.579> where
+
+00:02:53.869 --> 00:02:53.879 
+dot HT access so this is the file where
+
+00:02:53.879 --> 00:02:55.789 
+dot HT access so this is the file where
+we're<00:02:54.000> gonna<00:02:54.060> be<00:02:54.269> writing<00:02:54.599> all<00:02:54.750> of<00:02:54.780> the<00:02:55.019> HT<00:02:55.409> x<00:02:55.590> s
+
+00:02:55.789 --> 00:02:55.799 
+we're gonna be writing all of the HT x s
+
+00:02:55.799 --> 00:02:58.069 
+we're gonna be writing all of the HT x s
+roll<00:02:56.280> x'<00:02:56.310> whatever<00:02:56.700> we<00:02:56.879> want<00:02:57.060> it<00:02:57.180> to<00:02:57.269> do<00:02:57.420> now
+
+00:02:58.069 --> 00:02:58.079 
+roll x' whatever we want it to do now
+
+00:02:58.079 --> 00:02:59.629 
+roll x' whatever we want it to do now
+I'm<00:02:58.230> just<00:02:58.409> gonna<00:02:58.500> set<00:02:58.829> up<00:02:58.950> really<00:02:59.220> basic
+
+00:02:59.629 --> 00:02:59.639 
+I'm just gonna set up really basic
+
+00:02:59.639 --> 00:03:02.089 
+I'm just gonna set up really basic
+authentication<00:02:59.939> and<00:03:00.540> from<00:03:01.349> a<00:03:01.500> user's<00:03:01.859> point
+
+00:03:02.089 --> 00:03:02.099 
+authentication and from a user's point
+
+00:03:02.099 --> 00:03:04.580 
+authentication and from a user's point
+of<00:03:02.220> view<00:03:02.430> what<00:03:03.239> this<00:03:03.420> means<00:03:03.659> is<00:03:03.989> that<00:03:04.049> whenever
+
+00:03:04.580 --> 00:03:04.590 
+of view what this means is that whenever
+
+00:03:04.590 --> 00:03:07.339 
+of view what this means is that whenever
+they<00:03:05.010> go<00:03:05.159> to<00:03:05.220> this<00:03:05.459> URL<00:03:05.700> right<00:03:06.120> here<00:03:06.540> instead
+
+00:03:07.339 --> 00:03:07.349 
+they go to this URL right here instead
+
+00:03:07.349 --> 00:03:09.500 
+they go to this URL right here instead
+of<00:03:07.470> just<00:03:07.739> seeing<00:03:07.920> this<00:03:08.189> login<00:03:08.609> form<00:03:08.879> they're
+
+00:03:09.500 --> 00:03:09.510 
+of just seeing this login form they're
+
+00:03:09.510 --> 00:03:10.759 
+of just seeing this login form they're
+gonna<00:03:09.629> have<00:03:09.840> a<00:03:09.870> little<00:03:10.049> pop-up<00:03:10.590> that<00:03:10.620> appears
+
+00:03:10.759 --> 00:03:10.769 
+gonna have a little pop-up that appears
+
+00:03:10.769 --> 00:03:13.849 
+gonna have a little pop-up that appears
+and<00:03:11.340> that's<00:03:11.730> the<00:03:12.060> HT<00:03:12.359> access<00:03:12.659> gateway<00:03:12.989> now
+
+00:03:13.849 --> 00:03:13.859 
+and that's the HT access gateway now
+
+00:03:13.859 --> 00:03:16.369 
+and that's the HT access gateway now
+unless<00:03:14.189> we<00:03:14.519> know<00:03:14.700> the<00:03:14.819> password<00:03:15.209> to<00:03:15.359> that<00:03:15.389> then
+
+00:03:16.369 --> 00:03:16.379 
+unless we know the password to that then
+
+00:03:16.379 --> 00:03:20.449 
+unless we know the password to that then
+this<00:03:17.370> isn't<00:03:18.329> going<00:03:18.720> to<00:03:18.870> even<00:03:19.139> show<00:03:19.349> now<00:03:20.129> since
+
+00:03:20.449 --> 00:03:20.459 
+this isn't going to even show now since
+
+00:03:20.459 --> 00:03:21.470 
+this isn't going to even show now since
+we're<00:03:20.579> gonna<00:03:20.669> be<00:03:20.819> setting<00:03:21.060> up<00:03:21.180> the<00:03:21.299> password
+
+00:03:21.470 --> 00:03:21.480 
+we're gonna be setting up the password
+
+00:03:21.480 --> 00:03:23.900 
+we're gonna be setting up the password
+and<00:03:22.019> where<00:03:22.379> the<00:03:22.530> system<00:03:22.829> administrator<00:03:23.400> we
+
+00:03:23.900 --> 00:03:23.910 
+and where the system administrator we
+
+00:03:23.910 --> 00:03:25.400 
+and where the system administrator we
+obviously<00:03:24.060> know<00:03:24.449> it<00:03:24.599> so<00:03:25.019> we're<00:03:25.139> gonna<00:03:25.230> hit
+
+00:03:25.400 --> 00:03:25.410 
+obviously know it so we're gonna hit
+
+00:03:25.410 --> 00:03:26.750 
+obviously know it so we're gonna hit
+enter<00:03:25.590> and<00:03:25.919> then<00:03:26.099> we're<00:03:26.280> gonna<00:03:26.400> have<00:03:26.579> access
+
+00:03:26.750 --> 00:03:26.760 
+enter and then we're gonna have access
+
+00:03:26.760 --> 00:03:28.729 
+enter and then we're gonna have access
+to<00:03:27.120> this<00:03:27.269> sounds<00:03:27.989> confusing<00:03:28.379> but<00:03:28.500> it's
+
+00:03:28.729 --> 00:03:28.739 
+to this sounds confusing but it's
+
+00:03:28.739 --> 00:03:31.610 
+to this sounds confusing but it's
+actually<00:03:28.949> incredibly<00:03:29.370> easy<00:03:29.609> so<00:03:30.409> that's<00:03:31.409> what
+
+00:03:31.610 --> 00:03:31.620 
+actually incredibly easy so that's what
+
+00:03:31.620 --> 00:03:32.629 
+actually incredibly easy so that's what
+we're<00:03:31.739> gonna<00:03:31.799> be<00:03:31.980> doing<00:03:32.220> that's<00:03:32.370> the<00:03:32.489> real
+
+00:03:32.629 --> 00:03:32.639 
+we're gonna be doing that's the real
+
+00:03:32.639 --> 00:03:41.360 
+we're gonna be doing that's the real
+basics<00:03:33.060> OAuth<00:03:33.359> type<00:03:34.519> basic<00:03:35.519> auth<00:03:36.180> name
+
+00:03:41.360 --> 00:03:41.370 
+
+00:03:41.370 --> 00:03:45.509 
+
+restricted<00:03:42.370> files<00:03:42.670> off<00:03:43.260> user<00:03:44.260> file<00:03:44.739> alright
+
+00:03:45.509 --> 00:03:45.519 
+restricted files off user file alright
+
+00:03:45.519 --> 00:03:47.430 
+restricted files off user file alright
+so<00:03:46.209> you<00:03:46.269> know<00:03:46.420> how<00:03:46.569> I<00:03:46.599> said<00:03:46.720> we're<00:03:47.080> essentially
+
+00:03:47.430 --> 00:03:47.440 
+so you know how I said we're essentially
+
+00:03:47.440 --> 00:03:49.080 
+so you know how I said we're essentially
+you're<00:03:47.530> gonna<00:03:47.680> have<00:03:47.890> another<00:03:48.340> login<00:03:48.940> before
+
+00:03:49.080 --> 00:03:49.090 
+you're gonna have another login before
+
+00:03:49.090 --> 00:03:52.199 
+you're gonna have another login before
+you<00:03:49.390> can<00:03:49.510> get<00:03:49.599> the<00:03:49.750> PHP<00:03:50.170> myadmin<00:03:50.349> well<00:03:51.340> we<00:03:51.940> need
+
+00:03:52.199 --> 00:03:52.209 
+you can get the PHP myadmin well we need
+
+00:03:52.209 --> 00:03:54.089 
+you can get the PHP myadmin well we need
+to<00:03:52.450> set<00:03:52.690> that<00:03:52.720> login<00:03:53.260> information<00:03:53.500> somewhere
+
+00:03:54.089 --> 00:03:54.099 
+to set that login information somewhere
+
+00:03:54.099 --> 00:03:56.400 
+to set that login information somewhere
+the<00:03:54.280> users<00:03:54.670> and<00:03:55.000> their<00:03:55.120> passwords<00:03:55.690> so<00:03:56.260> we're
+
+00:03:56.400 --> 00:03:56.410 
+the users and their passwords so we're
+
+00:03:56.410 --> 00:03:58.170 
+the users and their passwords so we're
+actually<00:03:56.530> going<00:03:56.769> to<00:03:56.830> be<00:03:56.920> sticking<00:03:57.310> that<00:03:57.489> not
+
+00:03:58.170 --> 00:03:58.180 
+actually going to be sticking that not
+
+00:03:58.180 --> 00:03:59.130 
+actually going to be sticking that not
+in<00:03:58.360> this<00:03:58.599> file
+
+00:03:59.130 --> 00:03:59.140 
+in this file
+
+00:03:59.140 --> 00:04:02.910 
+in this file
+but<00:03:59.440> another<00:03:59.739> password<00:04:00.370> file<00:04:00.610> so<00:04:00.970> etc'<00:04:01.920> PHP
+
+00:04:02.910 --> 00:04:02.920 
+but another password file so etc' PHP
+
+00:04:02.920 --> 00:04:04.160 
+but another password file so etc' PHP
+myadmin
+
+00:04:04.160 --> 00:04:04.170 
+myadmin
+
+00:04:04.170 --> 00:04:09.690 
+myadmin
+dot<00:04:05.170> h<00:04:05.470> t<00:04:07.049> password<00:04:08.049> but<00:04:08.590> you<00:04:09.040> leave<00:04:09.250> a<00:04:09.280> couple
+
+00:04:09.690 --> 00:04:09.700 
+dot h t password but you leave a couple
+
+00:04:09.700 --> 00:04:12.930 
+dot h t password but you leave a couple
+letters<00:04:09.970> out<00:04:10.209> so<00:04:11.080> the<00:04:11.830> last<00:04:12.069> line<00:04:12.370> you<00:04:12.580> need<00:04:12.700> in
+
+00:04:12.930 --> 00:04:12.940 
+letters out so the last line you need in
+
+00:04:12.940 --> 00:04:15.030 
+letters out so the last line you need in
+this<00:04:13.209> which<00:04:13.510> is<00:04:13.540> remember<00:04:14.260> the<00:04:14.380> overall<00:04:14.680> rules
+
+00:04:15.030 --> 00:04:15.040 
+this which is remember the overall rules
+
+00:04:15.040 --> 00:04:19.560 
+this which is remember the overall rules
+is<00:04:15.220> require<00:04:15.989> valid<00:04:16.989> user<00:04:17.739> so<00:04:18.729> now<00:04:18.970> we<00:04:19.030> set<00:04:19.419> the
+
+00:04:19.560 --> 00:04:19.570 
+is require valid user so now we set the
+
+00:04:19.570 --> 00:04:21.360 
+is require valid user so now we set the
+main<00:04:19.840> rules<00:04:20.169> the<00:04:20.440> only<00:04:20.829> other<00:04:20.950> thing<00:04:21.190> we<00:04:21.280> have
+
+00:04:21.360 --> 00:04:21.370 
+main rules the only other thing we have
+
+00:04:21.370 --> 00:04:24.420 
+main rules the only other thing we have
+to<00:04:21.489> do<00:04:21.639> is<00:04:21.880> we<00:04:22.479> need<00:04:22.750> to<00:04:22.810> set<00:04:23.530> up<00:04:23.680> our<00:04:23.860> passwords
+
+00:04:24.420 --> 00:04:24.430 
+to do is we need to set up our passwords
+
+00:04:24.430 --> 00:04:27.150 
+to do is we need to set up our passwords
+for<00:04:24.970> that<00:04:25.060> HT<00:04:25.389> access<00:04:25.720> gateway<00:04:25.990> so<00:04:26.860> let<00:04:27.070> me
+
+00:04:27.150 --> 00:04:27.160 
+for that HT access gateway so let me
+
+00:04:27.160 --> 00:04:31.230 
+for that HT access gateway so let me
+save<00:04:27.310> this<00:04:27.510> draw<00:04:28.510> X<00:04:28.720> Y<00:04:29.050> enter<00:04:29.590> and<00:04:29.940> we<00:04:30.940> need<00:04:31.120> to
+
+00:04:31.230 --> 00:04:31.240 
+save this draw X Y enter and we need to
+
+00:04:31.240 --> 00:04:33.120 
+save this draw X Y enter and we need to
+download<00:04:31.419> one<00:04:31.840> more<00:04:31.990> package<00:04:32.260> in<00:04:32.590> order<00:04:32.950> to
+
+00:04:33.120 --> 00:04:33.130 
+download one more package in order to
+
+00:04:33.130 --> 00:04:35.010 
+download one more package in order to
+use<00:04:33.340> that<00:04:33.370> auth<00:04:33.729> user<00:04:34.120> file<00:04:34.450> directive<00:04:34.990> that
+
+00:04:35.010 --> 00:04:35.020 
+use that auth user file directive that
+
+00:04:35.020 --> 00:04:37.050 
+use that auth user file directive that
+we<00:04:35.290> just<00:04:35.470> wrote<00:04:35.710> because<00:04:36.490> it<00:04:36.639> doesn't<00:04:36.880> come
+
+00:04:37.050 --> 00:04:37.060 
+we just wrote because it doesn't come
+
+00:04:37.060 --> 00:04:42.320 
+we just wrote because it doesn't come
+with<00:04:37.240> a<00:04:37.270> core<00:04:37.600> Apache<00:04:38.080> to<00:04:38.380> package<00:04:38.800> so<00:04:39.990> sudo
+
+00:04:42.320 --> 00:04:42.330 
+with a core Apache to package so sudo
+
+00:04:42.330 --> 00:04:48.560 
+with a core Apache to package so sudo
+apt-get<00:04:43.330> install<00:04:45.090> apache2<00:04:46.090> -<00:04:46.750> utils
+
+00:04:48.560 --> 00:04:48.570 
+apt-get install apache2 - utils
+
+00:04:48.570 --> 00:04:51.659 
+apt-get install apache2 - utils
+dunt-da-daaaaa<00:04:50.080> there<00:04:50.470> we<00:04:50.590> go<00:04:50.770> let<00:04:51.190> me<00:04:51.310> clear
+
+00:04:51.659 --> 00:04:51.669 
+dunt-da-daaaaa there we go let me clear
+
+00:04:51.669 --> 00:04:54.060 
+dunt-da-daaaaa there we go let me clear
+this<00:04:51.850> and<00:04:52.350> let's<00:04:53.350> go<00:04:53.500> ahead<00:04:53.620> and<00:04:53.770> create<00:04:53.979> that
+
+00:04:54.060 --> 00:04:54.070 
+this and let's go ahead and create that
+
+00:04:54.070 --> 00:05:06.070 
+this and let's go ahead and create that
+file<00:04:54.610> now<00:04:54.880> so<00:04:55.389> sudo<00:04:59.669> see
+
+00:05:06.070 --> 00:05:06.080 
+
+00:05:06.080 --> 00:05:13.280 
+
+my<00:05:07.080> admin<00:05:09.500> HT<00:05:11.480> password<00:05:12.480> and<00:05:12.750> I'm<00:05:12.810> gonna<00:05:12.960> set
+
+00:05:13.280 --> 00:05:13.290 
+my admin HT password and I'm gonna set
+
+00:05:13.290 --> 00:05:16.610 
+my admin HT password and I'm gonna set
+this<00:05:13.470> for<00:05:14.010> Bucky<00:05:14.670> so<00:05:15.270> this<00:05:15.570> again<00:05:16.260> is<00:05:16.320> the
+
+00:05:16.610 --> 00:05:16.620 
+this for Bucky so this again is the
+
+00:05:16.620 --> 00:05:18.680 
+this for Bucky so this again is the
+password<00:05:17.130> file<00:05:17.340> for<00:05:17.640> the<00:05:17.730> credentials<00:05:18.240> hit
+
+00:05:18.680 --> 00:05:18.690 
+password file for the credentials hit
+
+00:05:18.690 --> 00:05:20.960 
+password file for the credentials hit
+center<00:05:19.080> and<00:05:19.350> what's<00:05:20.040> the<00:05:20.220> password<00:05:20.460> and
+
+00:05:20.960 --> 00:05:20.970 
+center and what's the password and
+
+00:05:20.970 --> 00:05:23.120 
+center and what's the password and
+remember<00:05:21.420> this<00:05:21.660> isn't<00:05:21.870> for<00:05:22.110> PHP<00:05:22.500> my<00:05:22.830> admin
+
+00:05:23.120 --> 00:05:23.130 
+remember this isn't for PHP my admin
+
+00:05:23.130 --> 00:05:25.760 
+remember this isn't for PHP my admin
+login<00:05:23.310> this<00:05:23.970> is<00:05:24.150> for<00:05:24.360> the<00:05:24.540> HT<00:05:24.930> access<00:05:25.320> gateway
+
+00:05:25.760 --> 00:05:25.770 
+login this is for the HT access gateway
+
+00:05:25.770 --> 00:05:27.860 
+login this is for the HT access gateway
+that<00:05:26.130> we're<00:05:26.250> gonna<00:05:26.340> see<00:05:26.610> so<00:05:27.330> enter<00:05:27.540> whatever
+
+00:05:27.860 --> 00:05:27.870 
+that we're gonna see so enter whatever
+
+00:05:27.870 --> 00:05:31.700 
+that we're gonna see so enter whatever
+password<00:05:28.110> you<00:05:28.350> wants<00:05:29.120> and<00:05:30.200> there<00:05:31.200> you<00:05:31.320> go<00:05:31.440> so
+
+00:05:31.700 --> 00:05:31.710 
+password you wants and there you go so
+
+00:05:31.710 --> 00:05:34.970 
+password you wants and there you go so
+now<00:05:32.580> if<00:05:33.030> we<00:05:33.270> go<00:05:33.420> back<00:05:33.630> to<00:05:33.660> our<00:05:33.930> websites<00:05:34.620> check
+
+00:05:34.970 --> 00:05:34.980 
+now if we go back to our websites check
+
+00:05:34.980 --> 00:05:38.300 
+now if we go back to our websites check
+it<00:05:35.850> out<00:05:35.940> I'm<00:05:36.090> gonna<00:05:36.240> hit<00:05:36.420> refresh<00:05:37.040> instead<00:05:38.040> of
+
+00:05:38.300 --> 00:05:38.310 
+it out I'm gonna hit refresh instead of
+
+00:05:38.310 --> 00:05:40.760 
+it out I'm gonna hit refresh instead of
+just<00:05:39.030> having<00:05:39.330> access<00:05:39.780> to<00:05:39.840> this<00:05:40.080> main<00:05:40.290> PHP
+
+00:05:40.760 --> 00:05:40.770 
+just having access to this main PHP
+
+00:05:40.770 --> 00:05:42.680 
+just having access to this main PHP
+myadmin<00:05:40.950> form<00:05:41.460> I'm<00:05:41.910> gonna<00:05:42.150> have<00:05:42.330> to<00:05:42.480> type
+
+00:05:42.680 --> 00:05:42.690 
+myadmin form I'm gonna have to type
+
+00:05:42.690 --> 00:05:44.600 
+myadmin form I'm gonna have to type
+those<00:05:43.050> credentials<00:05:43.440> that<00:05:43.830> we<00:05:43.950> just<00:05:44.100> set<00:05:44.280> up
+
+00:05:44.600 --> 00:05:44.610 
+those credentials that we just set up
+
+00:05:44.610 --> 00:05:47.210 
+those credentials that we just set up
+now<00:05:45.120> remember<00:05:45.600> right<00:05:45.930> if<00:05:46.530> I<00:05:46.620> still<00:05:46.860> have<00:05:47.040> it
+
+00:05:47.210 --> 00:05:47.220 
+now remember right if I still have it
+
+00:05:47.220 --> 00:05:49.760 
+now remember right if I still have it
+whenever<00:05:48.000> we<00:05:48.330> added<00:05:48.900> this<00:05:49.020> password<00:05:49.260> it<00:05:49.680> was
+
+00:05:49.760 --> 00:05:49.770 
+whenever we added this password it was
+
+00:05:49.770 --> 00:05:50.630 
+whenever we added this password it was
+for<00:05:49.980> the<00:05:50.100> user
+
+00:05:50.630 --> 00:05:50.640 
+for the user
+
+00:05:50.640 --> 00:05:54.680 
+for the user
+Bucky<00:05:51.240> so<00:05:52.550> pop<00:05:53.550> that<00:05:53.760> back<00:05:53.910> up<00:05:54.090> so<00:05:54.570> the
+
+00:05:54.680 --> 00:05:54.690 
+Bucky so pop that back up so the
+
+00:05:54.690 --> 00:05:56.960 
+Bucky so pop that back up so the
+username<00:05:54.990> is<00:05:55.320> Bucky<00:05:55.680> and<00:05:55.860> the<00:05:56.280> password<00:05:56.790> is
+
+00:05:56.960 --> 00:05:56.970 
+username is Bucky and the password is
+
+00:05:56.970 --> 00:06:00.020 
+username is Bucky and the password is
+whatever<00:05:57.960> password<00:05:58.320> that<00:05:58.710> you<00:05:58.830> used<00:05:59.130> so<00:05:59.760> now
+
+00:06:00.020 --> 00:06:00.030 
+whatever password that you used so now
+
+00:06:00.030 --> 00:06:02.750 
+whatever password that you used so now
+I'm<00:06:00.300> gonna<00:06:00.450> log<00:06:00.720> in<00:06:01.190> do<00:06:02.190> I<00:06:02.220> want<00:06:02.460> to<00:06:02.550> save<00:06:02.730> that
+
+00:06:02.750 --> 00:06:02.760 
+I'm gonna log in do I want to save that
+
+00:06:02.760 --> 00:06:06.470 
+I'm gonna log in do I want to save that
+nope<00:06:03.270> and<00:06:03.540> now<00:06:04.380> I<00:06:04.410> have<00:06:04.770> access<00:06:05.040> to<00:06:05.490> phpMyAdmin
+
+00:06:06.470 --> 00:06:06.480 
+nope and now I have access to phpMyAdmin
+
+00:06:06.480 --> 00:06:09.350 
+nope and now I have access to phpMyAdmin
+which<00:06:06.690> a<00:06:06.870> hacker<00:06:07.140> would<00:06:07.890> not<00:06:08.130> get<00:06:08.400> so<00:06:09.060> now<00:06:09.300> we
+
+00:06:09.350 --> 00:06:09.360 
+which a hacker would not get so now we
+
+00:06:09.360 --> 00:06:13.730 
+which a hacker would not get so now we
+can<00:06:09.600> just<00:06:09.720> log<00:06:09.990> in<00:06:10.200> as<00:06:10.440> usual<00:06:11.960> so<00:06:12.960> boom<00:06:13.230> check
+
+00:06:13.730 --> 00:06:13.740 
+can just log in as usual so boom check
+
+00:06:13.740 --> 00:06:14.240 
+can just log in as usual so boom check
+it<00:06:13.919> out
+
+00:06:14.240 --> 00:06:14.250 
+it out
+
+00:06:14.250 --> 00:06:17.720 
+it out
+so<00:06:14.700> it's<00:06:15.690> essentially<00:06:16.290> just<00:06:16.440> another<00:06:17.100> step
+
+00:06:17.720 --> 00:06:17.730 
+so it's essentially just another step
+
+00:06:17.730 --> 00:06:20.090 
+so it's essentially just another step
+another<00:06:18.060> precaution<00:06:18.510> that<00:06:18.840> you<00:06:18.900> can<00:06:19.050> take<00:06:19.260> to
+
+00:06:20.090 --> 00:06:20.100 
+another precaution that you can take to
+
+00:06:20.100 --> 00:06:23.180 
+another precaution that you can take to
+defend<00:06:20.730> off<00:06:21.030> hackers<00:06:21.630> so<00:06:22.200> there<00:06:22.740> you<00:06:22.830> go<00:06:22.980> now
+
+00:06:23.180 --> 00:06:23.190 
+defend off hackers so there you go now
+
+00:06:23.190 --> 00:06:25.310 
+defend off hackers so there you go now
+you<00:06:23.669> understand<00:06:24.270> how<00:06:24.450> to<00:06:24.480> use<00:06:24.600> it<00:06:24.750> why<00:06:25.169> it's
+
+00:06:25.310 --> 00:06:25.320 
+you understand how to use it why it's
+
+00:06:25.320 --> 00:06:29.270 
+you understand how to use it why it's
+useful<00:06:25.470> and<00:06:26.010> yeah<00:06:26.280> see<00:06:26.640> you<00:06:26.730> guys<00:06:26.760> next<00:06:26.970> video
+

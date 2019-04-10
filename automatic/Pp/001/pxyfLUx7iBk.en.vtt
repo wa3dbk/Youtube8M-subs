@@ -1,0 +1,1157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.319 --> 00:00:09.860 
+
+hi<00:00:07.319> my<00:00:07.890> name<00:00:08.099> is<00:00:08.130> Sachin<00:00:08.370> Burt<00:00:08.610> Nagar<00:00:08.880> in<00:00:09.090> this
+
+00:00:09.860 --> 00:00:09.870 
+hi my name is Sachin Burt Nagar in this
+
+00:00:09.870 --> 00:00:12.259 
+hi my name is Sachin Burt Nagar in this
+video<00:00:10.200> we'll<00:00:10.620> use<00:00:10.650> jQuery<00:00:11.370> z'<00:00:11.460> fade<00:00:11.940> in<00:00:12.120> and
+
+00:00:12.259 --> 00:00:12.269 
+video we'll use jQuery z' fade in and
+
+00:00:12.269 --> 00:00:14.480 
+video we'll use jQuery z' fade in and
+fade<00:00:12.330> out<00:00:12.690> methods<00:00:13.259> to<00:00:13.650> create<00:00:13.980> a<00:00:14.160> photo
+
+00:00:14.480 --> 00:00:14.490 
+fade out methods to create a photo
+
+00:00:14.490 --> 00:00:16.360 
+fade out methods to create a photo
+slideshow
+
+00:00:16.360 --> 00:00:16.370 
+slideshow
+
+00:00:16.370 --> 00:00:19.810 
+slideshow
+in<00:00:17.060> this<00:00:17.660> screencast<00:00:17.990> we'll<00:00:18.800> create<00:00:19.040> a<00:00:19.310> simple
+
+00:00:19.810 --> 00:00:19.820 
+in this screencast we'll create a simple
+
+00:00:19.820 --> 00:00:22.840 
+in this screencast we'll create a simple
+photo<00:00:20.180> slideshow<00:00:20.869> using<00:00:21.410> the<00:00:22.070> fade<00:00:22.369> in<00:00:22.580> and
+
+00:00:22.840 --> 00:00:22.850 
+photo slideshow using the fade in and
+
+00:00:22.850 --> 00:00:25.720 
+photo slideshow using the fade in and
+fade<00:00:22.910> out<00:00:23.150> methods<00:00:23.690> this<00:00:24.590> slideshow<00:00:24.950> will
+
+00:00:25.720 --> 00:00:25.730 
+fade out methods this slideshow will
+
+00:00:25.730 --> 00:00:27.940 
+fade out methods this slideshow will
+loop<00:00:25.939> through<00:00:25.970> a<00:00:26.270> given<00:00:26.570> set<00:00:26.900> of<00:00:26.930> images<00:00:27.500> by
+
+00:00:27.940 --> 00:00:27.950 
+loop through a given set of images by
+
+00:00:27.950 --> 00:00:30.670 
+loop through a given set of images by
+fading<00:00:28.310> them<00:00:28.610> in<00:00:28.790> and<00:00:29.119> out<00:00:29.510> in<00:00:29.869> a<00:00:30.110> layout<00:00:30.320> that
+
+00:00:30.670 --> 00:00:30.680 
+fading them in and out in a layout that
+
+00:00:30.680 --> 00:00:31.540 
+fading them in and out in a layout that
+looks<00:00:30.950> like<00:00:31.130> this
+
+00:00:31.540 --> 00:00:31.550 
+looks like this
+
+00:00:31.550 --> 00:00:34.840 
+looks like this
+the<00:00:32.510> actual<00:00:33.050> HTML<00:00:33.290> layout<00:00:34.070> of<00:00:34.220> the<00:00:34.550> slideshow
+
+00:00:34.840 --> 00:00:34.850 
+the actual HTML layout of the slideshow
+
+00:00:34.850 --> 00:00:37.780 
+the actual HTML layout of the slideshow
+structure<00:00:35.570> mainly<00:00:36.410> contains<00:00:36.860> an<00:00:37.100> unordered
+
+00:00:37.780 --> 00:00:37.790 
+structure mainly contains an unordered
+
+00:00:37.790 --> 00:00:40.689 
+structure mainly contains an unordered
+list<00:00:37.850> where<00:00:38.629> each<00:00:38.930> list<00:00:39.320> item<00:00:39.489> contains<00:00:40.489> an
+
+00:00:40.689 --> 00:00:40.699 
+list where each list item contains an
+
+00:00:40.699 --> 00:00:43.930 
+list where each list item contains an
+image<00:00:41.000> tag<00:00:41.300> with<00:00:41.870> a<00:00:41.900> given<00:00:42.230> image<00:00:42.410> I<00:00:42.800> am<00:00:43.610> using
+
+00:00:43.930 --> 00:00:43.940 
+image tag with a given image I am using
+
+00:00:43.940 --> 00:00:46.299 
+image tag with a given image I am using
+five<00:00:44.420> images<00:00:44.960> here<00:00:45.230> but<00:00:45.739> you<00:00:45.830> are<00:00:45.920> free<00:00:46.129> to
+
+00:00:46.299 --> 00:00:46.309 
+five images here but you are free to
+
+00:00:46.309 --> 00:00:48.100 
+five images here but you are free to
+increase<00:00:46.760> or<00:00:47.000> decrease<00:00:47.239> the<00:00:47.540> number<00:00:47.989> of
+
+00:00:48.100 --> 00:00:48.110 
+increase or decrease the number of
+
+00:00:48.110 --> 00:00:50.950 
+increase or decrease the number of
+images<00:00:48.410> as<00:00:48.739> you<00:00:49.370> wish<00:00:49.579> without<00:00:50.090> making<00:00:50.720> any
+
+00:00:50.950 --> 00:00:50.960 
+images as you wish without making any
+
+00:00:50.960 --> 00:00:53.830 
+images as you wish without making any
+changes<00:00:51.050> to<00:00:51.620> the<00:00:51.739> script<00:00:52.239> to<00:00:53.239> build<00:00:53.600> this
+
+00:00:53.830 --> 00:00:53.840 
+changes to the script to build this
+
+00:00:53.840 --> 00:00:56.260 
+changes to the script to build this
+slideshow<00:00:54.110> we<00:00:55.070> require<00:00:55.430> two<00:00:55.730> kinds<00:00:56.180> of
+
+00:00:56.260 --> 00:00:56.270 
+slideshow we require two kinds of
+
+00:00:56.270 --> 00:00:59.290 
+slideshow we require two kinds of
+functions<00:00:56.719> the<00:00:57.710> preloader<00:00:58.280> method<00:00:58.760> first
+
+00:00:59.290 --> 00:00:59.300 
+functions the preloader method first
+
+00:00:59.300 --> 00:01:02.709 
+functions the preloader method first
+loads<00:01:00.050> and<00:01:00.320> caches<00:01:00.920> the<00:01:00.950> images<00:01:01.520> in<00:01:01.730> before
+
+00:01:02.709 --> 00:01:02.719 
+loads and caches the images in before
+
+00:01:02.719 --> 00:01:05.499 
+loads and caches the images in before
+the<00:01:02.870> slideshow<00:01:03.170> starts<00:01:03.770> playing<00:01:04.070> if<00:01:04.339> we<00:01:05.239> do
+
+00:01:05.499 --> 00:01:05.509 
+the slideshow starts playing if we do
+
+00:01:05.509 --> 00:01:08.800 
+the slideshow starts playing if we do
+not<00:01:05.720> use<00:01:06.080> a<00:01:06.320> pre<00:01:06.649> loader<00:01:06.860> then<00:01:07.610> images<00:01:08.270> may<00:01:08.570> or
+
+00:01:08.800 --> 00:01:08.810 
+not use a pre loader then images may or
+
+00:01:08.810 --> 00:01:11.590 
+not use a pre loader then images may or
+may<00:01:09.140> not<00:01:09.170> load<00:01:09.680> up<00:01:09.860> on<00:01:10.070> time<00:01:10.399> to<00:01:10.970> show<00:01:11.210> up<00:01:11.390> in
+
+00:01:11.590 --> 00:01:11.600 
+may not load up on time to show up in
+
+00:01:11.600 --> 00:01:15.279 
+may not load up on time to show up in
+the<00:01:11.810> slideshow<00:01:12.280> leading<00:01:13.280> to<00:01:13.430> empty<00:01:13.880> slides<00:01:14.289> by
+
+00:01:15.279 --> 00:01:15.289 
+the slideshow leading to empty slides by
+
+00:01:15.289 --> 00:01:17.560 
+the slideshow leading to empty slides by
+using<00:01:15.560> the<00:01:15.800> pre<00:01:16.039> loader<00:01:16.280> the<00:01:16.880> images<00:01:17.390> are
+
+00:01:17.560 --> 00:01:17.570 
+using the pre loader the images are
+
+00:01:17.570 --> 00:01:20.590 
+using the pre loader the images are
+first<00:01:18.050> downloaded<00:01:18.770> and<00:01:19.070> cached<00:01:19.550> and<00:01:19.850> then<00:01:20.450> the
+
+00:01:20.590 --> 00:01:20.600 
+first downloaded and cached and then the
+
+00:01:20.600 --> 00:01:22.749 
+first downloaded and cached and then the
+slideshow<00:01:20.869> begins<00:01:21.410> we<00:01:22.340> have<00:01:22.459> already
+
+00:01:22.749 --> 00:01:22.759 
+slideshow begins we have already
+
+00:01:22.759 --> 00:01:25.480 
+slideshow begins we have already
+included<00:01:23.270> the<00:01:23.660> preloader<00:01:24.110> method<00:01:24.590> so<00:01:25.100> you
+
+00:01:25.480 --> 00:01:25.490 
+included the preloader method so you
+
+00:01:25.490 --> 00:01:27.969 
+included the preloader method so you
+don't<00:01:25.700> have<00:01:25.850> to<00:01:26.030> build<00:01:26.240> one<00:01:26.330> yourself<00:01:26.979> though
+
+00:01:27.969 --> 00:01:27.979 
+don't have to build one yourself though
+
+00:01:27.979 --> 00:01:29.499 
+don't have to build one yourself though
+I<00:01:28.250> will<00:01:28.459> walk<00:01:28.670> you<00:01:28.700> through<00:01:29.090> this<00:01:29.270> function
+
+00:01:29.499 --> 00:01:29.509 
+I will walk you through this function
+
+00:01:29.509 --> 00:01:31.359 
+I will walk you through this function
+before<00:01:30.140> we<00:01:30.289> begin<00:01:30.619> with<00:01:30.950> the<00:01:31.100> slideshow
+
+00:01:31.359 --> 00:01:31.369 
+before we begin with the slideshow
+
+00:01:31.369 --> 00:01:35.320 
+before we begin with the slideshow
+method<00:01:32.110> the<00:01:33.110> slideshow<00:01:33.440> method<00:01:34.009> itself<00:01:34.580> runs
+
+00:01:35.320 --> 00:01:35.330 
+method the slideshow method itself runs
+
+00:01:35.330 --> 00:01:37.900 
+method the slideshow method itself runs
+the<00:01:35.599> actual<00:01:36.110> slideshow<00:01:36.649> and<00:01:36.920> uses<00:01:37.759> the
+
+00:01:37.900 --> 00:01:37.910 
+the actual slideshow and uses the
+
+00:01:37.910 --> 00:01:40.779 
+the actual slideshow and uses the
+fade-in<00:01:38.330> and<00:01:38.509> fade-out<00:01:38.539> methods<00:01:39.610> open<00:01:40.610> the
+
+00:01:40.779 --> 00:01:40.789 
+fade-in and fade-out methods open the
+
+00:01:40.789 --> 00:01:43.419 
+fade-in and fade-out methods open the
+slide<00:01:41.119> show<00:01:41.390> underscore<00:01:41.869> begin<00:01:42.380> dot<00:01:42.619> HTM<00:01:43.160> file
+
+00:01:43.419 --> 00:01:43.429 
+slide show underscore begin dot HTM file
+
+00:01:43.429 --> 00:01:45.699 
+slide show underscore begin dot HTM file
+from<00:01:43.789> the<00:01:43.940> accompanying<00:01:44.509> SIP<00:01:44.750> archive<00:01:45.289> to
+
+00:01:45.699 --> 00:01:45.709 
+from the accompanying SIP archive to
+
+00:01:45.709 --> 00:01:50.859 
+from the accompanying SIP archive to
+begin<00:01:47.979> the<00:01:48.979> actual<00:01:49.250> slideshow<00:01:50.030> element<00:01:50.509> is<00:01:50.630> an
+
+00:01:50.859 --> 00:01:50.869 
+begin the actual slideshow element is an
+
+00:01:50.869 --> 00:01:52.690 
+begin the actual slideshow element is an
+unordered<00:01:51.380> list<00:01:51.440> where<00:01:51.920> each<00:01:52.099> list<00:01:52.550> item
+
+00:01:52.690 --> 00:01:52.700 
+unordered list where each list item
+
+00:01:52.700 --> 00:01:55.080 
+unordered list where each list item
+contains<00:01:53.360> an<00:01:53.539> image<00:01:53.869> tag<00:01:54.050> with<00:01:54.319> the<00:01:54.410> images<00:01:54.830> I
+
+00:01:55.080 --> 00:01:55.090 
+contains an image tag with the images I
+
+00:01:55.090 --> 00:01:57.460 
+contains an image tag with the images I
+already<00:01:56.090> have<00:01:56.300> a<00:01:56.330> portion<00:01:56.840> of<00:01:56.990> the<00:01:57.229> code
+
+00:01:57.460 --> 00:01:57.470 
+already have a portion of the code
+
+00:01:57.470 --> 00:01:59.710 
+already have a portion of the code
+pre-built<00:01:58.130> for<00:01:58.190> you<00:01:58.520> and<00:01:58.759> I<00:01:59.179> am<00:01:59.239> going<00:01:59.330> to<00:01:59.509> walk
+
+00:01:59.710 --> 00:01:59.720 
+pre-built for you and I am going to walk
+
+00:01:59.720 --> 00:02:01.540 
+pre-built for you and I am going to walk
+you<00:01:59.780> through<00:01:59.929> it<00:02:00.259> so<00:02:00.709> you<00:02:00.770> understand<00:02:01.429> it
+
+00:02:01.540 --> 00:02:01.550 
+you through it so you understand it
+
+00:02:01.550 --> 00:02:03.940 
+you through it so you understand it
+completely<00:02:01.729> before<00:02:02.660> we<00:02:02.810> build<00:02:03.110> our<00:02:03.289> slideshow
+
+00:02:03.940 --> 00:02:03.950 
+completely before we build our slideshow
+
+00:02:03.950 --> 00:02:07.089 
+completely before we build our slideshow
+functionality<00:02:04.929> first<00:02:05.929> up<00:02:06.170> we<00:02:06.619> have<00:02:06.649> a<00:02:06.830> couple
+
+00:02:07.089 --> 00:02:07.099 
+functionality first up we have a couple
+
+00:02:07.099 --> 00:02:09.400 
+functionality first up we have a couple
+of<00:02:07.220> variables<00:02:07.729> the<00:02:08.509> slides<00:02:08.869> variable
+
+00:02:09.400 --> 00:02:09.410 
+of variables the slides variable
+
+00:02:09.410 --> 00:02:11.589 
+of variables the slides variable
+accesses<00:02:10.310> the<00:02:10.459> list<00:02:10.700> items<00:02:11.120> within<00:02:11.390> the
+
+00:02:11.589 --> 00:02:11.599 
+accesses the list items within the
+
+00:02:11.599 --> 00:02:13.990 
+accesses the list items within the
+slideshow<00:02:11.870> unordered<00:02:12.650> list<00:02:12.890> since<00:02:13.520> that<00:02:13.819> is
+
+00:02:13.990 --> 00:02:14.000 
+slideshow unordered list since that is
+
+00:02:14.000 --> 00:02:15.400 
+slideshow unordered list since that is
+what<00:02:14.180> we<00:02:14.390> would<00:02:14.540> be<00:02:14.720> playing<00:02:14.930> with<00:02:15.200> all
+
+00:02:15.400 --> 00:02:15.410 
+what we would be playing with all
+
+00:02:15.410 --> 00:02:18.010 
+what we would be playing with all
+throughout<00:02:16.069> this<00:02:16.250> example<00:02:16.870> instead<00:02:17.870> of
+
+00:02:18.010 --> 00:02:18.020 
+throughout this example instead of
+
+00:02:18.020 --> 00:02:20.229 
+throughout this example instead of
+calling<00:02:18.380> the<00:02:18.590> selector<00:02:19.010> again<00:02:19.280> and<00:02:19.430> again<00:02:19.670> we
+
+00:02:20.229 --> 00:02:20.239 
+calling the selector again and again we
+
+00:02:20.239 --> 00:02:23.350 
+calling the selector again and again we
+have<00:02:20.330> cached<00:02:20.630> it<00:02:20.870> in<00:02:21.050> a<00:02:21.230> variable<00:02:21.910> next<00:02:22.910> we<00:02:23.300> are
+
+00:02:23.350 --> 00:02:23.360 
+have cached it in a variable next we are
+
+00:02:23.360 --> 00:02:25.059 
+have cached it in a variable next we are
+using<00:02:23.660> a<00:02:23.750> variable<00:02:24.080> called<00:02:24.349> slide<00:02:24.709> count
+
+00:02:25.059 --> 00:02:25.069 
+using a variable called slide count
+
+00:02:25.069 --> 00:02:28.000 
+using a variable called slide count
+which<00:02:25.579> is<00:02:25.700> set<00:02:25.909> to<00:02:26.060> zero<00:02:26.409> this<00:02:27.409> would<00:02:27.590> be<00:02:27.769> used
+
+00:02:28.000 --> 00:02:28.010 
+which is set to zero this would be used
+
+00:02:28.010 --> 00:02:30.199 
+which is set to zero this would be used
+to<00:02:28.219> iterate<00:02:28.849> through<00:02:29.090> the<00:02:29.150> list<00:02:29.329> items
+
+00:02:30.199 --> 00:02:30.209 
+to iterate through the list items
+
+00:02:30.209 --> 00:02:33.020 
+to iterate through the list items
+the<00:02:30.930> total<00:02:31.410> slides<00:02:31.709> variable<00:02:32.280> is<00:02:32.430> set<00:02:32.790> to
+
+00:02:33.020 --> 00:02:33.030 
+the total slides variable is set to
+
+00:02:33.030 --> 00:02:35.089 
+the total slides variable is set to
+obtain<00:02:33.450> the<00:02:33.599> number<00:02:33.780> of<00:02:33.959> list<00:02:34.290> items<00:02:34.709> in<00:02:34.890> the
+
+00:02:35.089 --> 00:02:35.099 
+obtain the number of list items in the
+
+00:02:35.099 --> 00:02:37.339 
+obtain the number of list items in the
+unordered<00:02:35.430> list<00:02:35.760> by<00:02:36.300> accessing<00:02:36.840> the<00:02:37.080> length
+
+00:02:37.339 --> 00:02:37.349 
+unordered list by accessing the length
+
+00:02:37.349 --> 00:02:39.910 
+unordered list by accessing the length
+property<00:02:37.860> of<00:02:38.040> the<00:02:38.310> slides<00:02:38.610> variable<00:02:39.300> and
+
+00:02:39.910 --> 00:02:39.920 
+property of the slides variable and
+
+00:02:39.920 --> 00:02:42.890 
+property of the slides variable and
+finally<00:02:40.920> we<00:02:41.340> have<00:02:41.550> an<00:02:41.670> empty<00:02:42.000> array<00:02:42.300> with<00:02:42.780> the
+
+00:02:42.890 --> 00:02:42.900 
+finally we have an empty array with the
+
+00:02:42.900 --> 00:02:45.470 
+finally we have an empty array with the
+variable<00:02:43.290> name<00:02:43.440> of<00:02:43.650> slide<00:02:44.010> cache<00:02:44.340> which<00:02:45.150> will
+
+00:02:45.470 --> 00:02:45.480 
+variable name of slide cache which will
+
+00:02:45.480 --> 00:02:48.320 
+variable name of slide cache which will
+be<00:02:45.630> used<00:02:45.900> to<00:02:46.110> cache<00:02:46.440> all<00:02:46.800> the<00:02:46.950> images<00:02:47.340> in<00:02:47.459> by
+
+00:02:48.320 --> 00:02:48.330 
+be used to cache all the images in by
+
+00:02:48.330 --> 00:02:51.350 
+be used to cache all the images in by
+the<00:02:48.720> preloader<00:02:49.110> function<00:02:49.730> the<00:02:50.730> preload<00:02:51.239> of
+
+00:02:51.350 --> 00:02:51.360 
+the preloader function the preload of
+
+00:02:51.360 --> 00:02:53.630 
+the preloader function the preload of
+function<00:02:51.750> is<00:02:51.900> in<00:02:52.380> fact<00:02:52.680> quite<00:02:52.920> simple<00:02:53.550> to
+
+00:02:53.630 --> 00:02:53.640 
+function is in fact quite simple to
+
+00:02:53.640 --> 00:02:55.970 
+function is in fact quite simple to
+understand<00:02:54.120> this<00:02:54.989> function<00:02:55.440> is<00:02:55.590> an
+
+00:02:55.970 --> 00:02:55.980 
+understand this function is an
+
+00:02:55.980 --> 00:02:58.580 
+understand this function is an
+immediately<00:02:56.819> invoked<00:02:57.390> function<00:02:57.590> expression
+
+00:02:58.580 --> 00:02:58.590 
+immediately invoked function expression
+
+00:02:58.590 --> 00:03:02.090 
+immediately invoked function expression
+or<00:02:58.709> an<00:02:58.920> Fe<00:02:59.280> if<00:03:00.239> he's<00:03:00.569> run<00:03:01.050> automatically<00:03:01.920> when
+
+00:03:02.090 --> 00:03:02.100 
+or an Fe if he's run automatically when
+
+00:03:02.100 --> 00:03:04.250 
+or an Fe if he's run automatically when
+the<00:03:02.130> page<00:03:02.430> loads<00:03:02.790> up<00:03:03.030> and<00:03:03.330> the<00:03:03.510> jQuery<00:03:03.959> ready
+
+00:03:04.250 --> 00:03:04.260 
+the page loads up and the jQuery ready
+
+00:03:04.260 --> 00:03:07.309 
+the page loads up and the jQuery ready
+method<00:03:04.620> fires<00:03:05.090> what<00:03:06.090> we<00:03:06.540> are<00:03:06.630> doing<00:03:06.810> here<00:03:07.140> in
+
+00:03:07.309 --> 00:03:07.319 
+method fires what we are doing here in
+
+00:03:07.319 --> 00:03:09.740 
+method fires what we are doing here in
+the<00:03:07.680> preloader<00:03:08.069> function<00:03:08.700> is<00:03:08.850> checking<00:03:09.660> to
+
+00:03:09.740 --> 00:03:09.750 
+the preloader function is checking to
+
+00:03:09.750 --> 00:03:12.050 
+the preloader function is checking to
+see<00:03:10.080> if<00:03:10.110> our<00:03:10.500> slide<00:03:10.799> count<00:03:11.160> variable<00:03:11.610> is<00:03:11.760> less
+
+00:03:12.050 --> 00:03:12.060 
+see if our slide count variable is less
+
+00:03:12.060 --> 00:03:14.120 
+see if our slide count variable is less
+than<00:03:12.239> the<00:03:12.390> number<00:03:12.540> of<00:03:12.780> slides<00:03:13.080> or<00:03:13.350> list<00:03:13.650> items
+
+00:03:14.120 --> 00:03:14.130 
+than the number of slides or list items
+
+00:03:14.130 --> 00:03:17.080 
+than the number of slides or list items
+and<00:03:14.280> if<00:03:15.030> so<00:03:15.390> we<00:03:15.900> are<00:03:16.019> instantiating<00:03:16.440> a<00:03:17.010> new
+
+00:03:17.080 --> 00:03:17.090 
+and if so we are instantiating a new
+
+00:03:17.090 --> 00:03:20.449 
+and if so we are instantiating a new
+javascript<00:03:18.090> image<00:03:18.510> object<00:03:19.140> and<00:03:19.319> assigning<00:03:20.190> it
+
+00:03:20.449 --> 00:03:20.459 
+javascript image object and assigning it
+
+00:03:20.459 --> 00:03:23.180 
+javascript image object and assigning it
+to<00:03:20.610> the<00:03:20.819> slide<00:03:21.090> cache<00:03:21.390> at<00:03:21.660> a<00:03:21.720> variable<00:03:22.190> where
+
+00:03:23.180 --> 00:03:23.190 
+to the slide cache at a variable where
+
+00:03:23.190 --> 00:03:26.180 
+to the slide cache at a variable where
+the<00:03:23.220> arrays<00:03:24.000> index<00:03:24.630> value<00:03:25.230> is<00:03:25.440> equal<00:03:25.920> to<00:03:25.950> the
+
+00:03:26.180 --> 00:03:26.190 
+the arrays index value is equal to the
+
+00:03:26.190 --> 00:03:29.479 
+the arrays index value is equal to the
+slide<00:03:26.459> count<00:03:26.790> variable<00:03:27.560> once<00:03:28.560> instantiated
+
+00:03:29.479 --> 00:03:29.489 
+slide count variable once instantiated
+
+00:03:29.489 --> 00:03:32.630 
+slide count variable once instantiated
+we<00:03:30.180> then<00:03:30.450> set<00:03:30.780> the<00:03:31.049> source<00:03:31.410> attribute<00:03:31.680> of<00:03:32.190> this
+
+00:03:32.630 --> 00:03:32.640 
+we then set the source attribute of this
+
+00:03:32.640 --> 00:03:35.530 
+we then set the source attribute of this
+image<00:03:33.030> object<00:03:33.690> to<00:03:34.170> the<00:03:34.320> image<00:03:34.709> file<00:03:35.070> as
+
+00:03:35.530 --> 00:03:35.540 
+image object to the image file as
+
+00:03:35.540 --> 00:03:38.479 
+image object to the image file as
+fetched<00:03:36.540> from<00:03:36.930> the<00:03:37.079> image<00:03:37.440> tag<00:03:37.739> within<00:03:38.190> our
+
+00:03:38.479 --> 00:03:38.489 
+fetched from the image tag within our
+
+00:03:38.489 --> 00:03:41.300 
+fetched from the image tag within our
+list<00:03:38.850> item<00:03:39.350> the<00:03:40.350> first<00:03:40.590> time<00:03:40.890> that<00:03:41.160> this
+
+00:03:41.300 --> 00:03:41.310 
+list item the first time that this
+
+00:03:41.310 --> 00:03:43.520 
+list item the first time that this
+sequence<00:03:41.609> runs<00:03:41.970> the<00:03:42.540> slide<00:03:42.840> count<00:03:43.109> variable
+
+00:03:43.520 --> 00:03:43.530 
+sequence runs the slide count variable
+
+00:03:43.530 --> 00:03:46.130 
+sequence runs the slide count variable
+is<00:03:43.620> set<00:03:43.769> to<00:03:43.920> 0<00:03:44.220> hence<00:03:44.850> by<00:03:45.090> using<00:03:45.359> the<00:03:45.630> equals
+
+00:03:46.130 --> 00:03:46.140 
+is set to 0 hence by using the equals
+
+00:03:46.140 --> 00:03:48.949 
+is set to 0 hence by using the equals
+method<00:03:46.260> on<00:03:46.829> the<00:03:47.280> slide<00:03:47.519> selector<00:03:48.030> with<00:03:48.750> the
+
+00:03:48.949 --> 00:03:48.959 
+method on the slide selector with the
+
+00:03:48.959 --> 00:03:50.720 
+method on the slide selector with the
+slight<00:03:49.170> count<00:03:49.440> variable<00:03:49.920> we<00:03:50.340> are<00:03:50.459> fetching
+
+00:03:50.720 --> 00:03:50.730 
+slight count variable we are fetching
+
+00:03:50.730 --> 00:03:53.300 
+slight count variable we are fetching
+the<00:03:51.030> first<00:03:51.420> list<00:03:51.780> item<00:03:51.959> and<00:03:52.440> we<00:03:52.950> are<00:03:53.010> getting
+
+00:03:53.300 --> 00:03:53.310 
+the first list item and we are getting
+
+00:03:53.310 --> 00:03:56.330 
+the first list item and we are getting
+hold<00:03:53.579> of<00:03:53.700> its<00:03:54.090> image<00:03:54.540> tags<00:03:54.900> source<00:03:55.650> attribute
+
+00:03:56.330 --> 00:03:56.340 
+hold of its image tags source attribute
+
+00:03:56.340 --> 00:03:59.809 
+hold of its image tags source attribute
+value<00:03:57.079> next<00:03:58.079> the<00:03:58.319> onload<00:03:58.799> function<00:03:58.859> executes
+
+00:03:59.809 --> 00:03:59.819 
+value next the onload function executes
+
+00:03:59.819 --> 00:04:02.240 
+value next the onload function executes
+when<00:04:00.450> the<00:04:00.600> image<00:04:00.870> is<00:04:01.019> loaded<00:04:01.290> and<00:04:01.560> cached<00:04:01.950> in
+
+00:04:02.240 --> 00:04:02.250 
+when the image is loaded and cached in
+
+00:04:02.250 --> 00:04:04.940 
+when the image is loaded and cached in
+the<00:04:02.459> previous<00:04:02.790> step<00:04:03.060> this<00:04:04.049> is<00:04:04.109> where<00:04:04.530> we
+
+00:04:04.940 --> 00:04:04.950 
+the previous step this is where we
+
+00:04:04.950 --> 00:04:06.830 
+the previous step this is where we
+simply<00:04:05.430> increment<00:04:05.940> the<00:04:06.209> slide<00:04:06.569> count
+
+00:04:06.830 --> 00:04:06.840 
+simply increment the slide count
+
+00:04:06.840 --> 00:04:09.080 
+simply increment the slide count
+variable<00:04:07.260> by<00:04:07.380> one<00:04:07.410> and<00:04:07.950> we<00:04:08.579> reload<00:04:09.060> the
+
+00:04:09.080 --> 00:04:09.090 
+variable by one and we reload the
+
+00:04:09.090 --> 00:04:12.710 
+variable by one and we reload the
+preloader<00:04:09.720> function<00:04:10.200> again<00:04:10.880> since<00:04:11.880> the<00:04:12.209> slide
+
+00:04:12.710 --> 00:04:12.720 
+preloader function again since the slide
+
+00:04:12.720 --> 00:04:15.559 
+preloader function again since the slide
+count<00:04:13.049> value<00:04:13.560> has<00:04:13.859> incremented<00:04:14.790> the<00:04:15.389> if
+
+00:04:15.559 --> 00:04:15.569 
+count value has incremented the if
+
+00:04:15.569 --> 00:04:17.659 
+count value has incremented the if
+statement<00:04:16.260> again<00:04:16.769> checks<00:04:17.070> to<00:04:17.220> see<00:04:17.430> if<00:04:17.459> the
+
+00:04:17.659 --> 00:04:17.669 
+statement again checks to see if the
+
+00:04:17.669 --> 00:04:19.400 
+statement again checks to see if the
+value<00:04:18.150> is<00:04:18.329> less<00:04:18.539> than<00:04:18.600> the<00:04:18.780> total<00:04:19.079> number<00:04:19.380> of
+
+00:04:19.400 --> 00:04:19.410 
+value is less than the total number of
+
+00:04:19.410 --> 00:04:22.969 
+value is less than the total number of
+slides<00:04:19.739> and<00:04:20.010> the<00:04:20.549> process<00:04:20.970> repeats<00:04:21.740> once<00:04:22.740> all
+
+00:04:22.969 --> 00:04:22.979 
+slides and the process repeats once all
+
+00:04:22.979 --> 00:04:25.580 
+slides and the process repeats once all
+images<00:04:23.520> are<00:04:23.789> cached<00:04:24.090> this<00:04:24.450> way<00:04:24.660> in<00:04:24.870> line
+
+00:04:25.580 --> 00:04:25.590 
+images are cached this way in line
+
+00:04:25.590 --> 00:04:29.240 
+images are cached this way in line
+numbers<00:04:25.979> 26<00:04:26.760> and<00:04:27.000> 27<00:04:27.570> we<00:04:28.410> are<00:04:28.530> resetting<00:04:28.950> the
+
+00:04:29.240 --> 00:04:29.250 
+numbers 26 and 27 we are resetting the
+
+00:04:29.250 --> 00:04:31.610 
+numbers 26 and 27 we are resetting the
+slide<00:04:29.490> count<00:04:29.789> variable<00:04:30.270> to<00:04:30.419> zero<00:04:30.450> since<00:04:31.380> it
+
+00:04:31.610 --> 00:04:31.620 
+slide count variable to zero since it
+
+00:04:31.620 --> 00:04:33.230 
+slide count variable to zero since it
+would<00:04:31.800> be<00:04:32.010> reused<00:04:32.490> in<00:04:32.700> the<00:04:32.880> slideshow
+
+00:04:33.230 --> 00:04:33.240 
+would be reused in the slideshow
+
+00:04:33.240 --> 00:04:35.629 
+would be reused in the slideshow
+function<00:04:33.900> and<00:04:34.110> we<00:04:35.100> are<00:04:35.160> calling<00:04:35.430> the
+
+00:04:35.629 --> 00:04:35.639 
+function and we are calling the
+
+00:04:35.639 --> 00:04:39.290 
+function and we are calling the
+slideshow<00:04:35.910> function<00:04:36.570> immediately<00:04:37.530> and<00:04:38.300> this
+
+00:04:39.290 --> 00:04:39.300 
+slideshow function immediately and this
+
+00:04:39.300 --> 00:04:42.890 
+slideshow function immediately and this
+is<00:04:39.479> what<00:04:39.810> we<00:04:40.200> will<00:04:40.349> build<00:04:41.150> one<00:04:42.150> small<00:04:42.479> thing<00:04:42.510> to
+
+00:04:42.890 --> 00:04:42.900 
+is what we will build one small thing to
+
+00:04:42.900 --> 00:04:43.580 
+is what we will build one small thing to
+note<00:04:43.110> here
+
+00:04:43.580 --> 00:04:43.590 
+note here
+
+00:04:43.590 --> 00:04:45.590 
+note here
+is<00:04:43.650> that<00:04:43.920> typically<00:04:44.400> JavaScript<00:04:45.090> functions
+
+00:04:45.590 --> 00:04:45.600 
+is that typically JavaScript functions
+
+00:04:45.600 --> 00:04:47.150 
+is that typically JavaScript functions
+should<00:04:46.200> begin<00:04:46.590> with<00:04:46.770> the<00:04:46.860> lowercase
+
+00:04:47.150 --> 00:04:47.160 
+should begin with the lowercase
+
+00:04:47.160 --> 00:04:49.610 
+should begin with the lowercase
+character<00:04:47.910> and<00:04:48.090> here<00:04:48.900> the<00:04:49.320> slideshow
+
+00:04:49.610 --> 00:04:49.620 
+character and here the slideshow
+
+00:04:49.620 --> 00:04:52.370 
+character and here the slideshow
+function<00:04:50.280> has<00:04:50.490> been<00:04:50.730> so<00:04:51.030> named<00:04:51.330> only<00:04:51.840> to<00:04:52.230> make
+
+00:04:52.370 --> 00:04:52.380 
+function has been so named only to make
+
+00:04:52.380 --> 00:04:56.930 
+function has been so named only to make
+it<00:04:52.530> obvious<00:04:52.680> and<00:04:53.250> readable<00:04:55.100> so<00:04:56.100> start<00:04:56.700> by
+
+00:04:56.930 --> 00:04:56.940 
+it obvious and readable so start by
+
+00:04:56.940 --> 00:04:59.240 
+it obvious and readable so start by
+accessing<00:04:57.420> the<00:04:57.750> list<00:04:58.020> items<00:04:58.530> by<00:04:58.710> using<00:04:58.950> the
+
+00:04:59.240 --> 00:04:59.250 
+accessing the list items by using the
+
+00:04:59.250 --> 00:05:02.960 
+accessing the list items by using the
+cached<00:04:59.580> selector<00:05:00.270> variable<00:05:00.720> slides<00:05:01.970> followed
+
+00:05:02.960 --> 00:05:02.970 
+cached selector variable slides followed
+
+00:05:02.970 --> 00:05:05.390 
+cached selector variable slides followed
+by<00:05:03.120> the<00:05:03.180> equals<00:05:03.900> operator<00:05:04.140> where<00:05:04.920> the<00:05:05.040> index
+
+00:05:05.390 --> 00:05:05.400 
+by the equals operator where the index
+
+00:05:05.400 --> 00:05:07.310 
+by the equals operator where the index
+value<00:05:05.700> would<00:05:05.850> be<00:05:05.910> fetched<00:05:06.450> using<00:05:06.870> the<00:05:06.990> slide
+
+00:05:07.310 --> 00:05:07.320 
+value would be fetched using the slide
+
+00:05:07.320 --> 00:05:10.040 
+value would be fetched using the slide
+count<00:05:07.650> variable<00:05:08.010> which<00:05:08.910> you<00:05:09.360> should<00:05:09.570> note<00:05:09.840> is
+
+00:05:10.040 --> 00:05:10.050 
+count variable which you should note is
+
+00:05:10.050 --> 00:05:12.890 
+count variable which you should note is
+currently<00:05:10.560> set<00:05:10.830> to<00:05:10.860> zero<00:05:11.280> since<00:05:11.940> we<00:05:12.390> reset<00:05:12.870> it
+
+00:05:12.890 --> 00:05:12.900 
+currently set to zero since we reset it
+
+00:05:12.900 --> 00:05:15.740 
+currently set to zero since we reset it
+in<00:05:13.170> the<00:05:13.380> preloader<00:05:13.860> once<00:05:14.550> all<00:05:14.880> images<00:05:15.390> were
+
+00:05:15.740 --> 00:05:15.750 
+in the preloader once all images were
+
+00:05:15.750 --> 00:05:19.340 
+in the preloader once all images were
+cashed<00:05:16.020> in<00:05:16.820> next<00:05:17.820> we<00:05:18.060> will<00:05:18.180> simply<00:05:18.570> use<00:05:18.600> fade
+
+00:05:19.340 --> 00:05:19.350 
+cashed in next we will simply use fade
+
+00:05:19.350 --> 00:05:26.310 
+cashed in next we will simply use fade
+in<00:05:19.590> with<00:05:20.400> the<00:05:20.490> duration<00:05:20.760> set<00:05:21.120> to<00:05:21.270> one<00:05:21.510> second
+
+00:05:26.310 --> 00:05:26.320 
+
+00:05:26.320 --> 00:05:29.740 
+
+followed<00:05:27.320> by<00:05:27.530> the<00:05:28.340> delay<00:05:28.610> method<00:05:29.030> which<00:05:29.570> will
+
+00:05:29.740 --> 00:05:29.750 
+followed by the delay method which will
+
+00:05:29.750 --> 00:05:32.409 
+followed by the delay method which will
+pause<00:05:30.080> this<00:05:30.380> statement<00:05:30.710> further<00:05:31.699> execution
+
+00:05:32.409 --> 00:05:32.419 
+pause this statement further execution
+
+00:05:32.419 --> 00:05:35.650 
+pause this statement further execution
+for<00:05:32.630> two<00:05:32.810> seconds<00:05:33.370> then<00:05:34.370> we<00:05:34.789> will<00:05:34.910> pipe<00:05:35.150> in<00:05:35.449> a
+
+00:05:35.650 --> 00:05:35.660 
+for two seconds then we will pipe in a
+
+00:05:35.660 --> 00:05:38.110 
+for two seconds then we will pipe in a
+fade-out<00:05:36.080> with<00:05:36.830> its<00:05:36.979> duration<00:05:37.340> set<00:05:37.729> to<00:05:37.880> one
+
+00:05:38.110 --> 00:05:38.120 
+fade-out with its duration set to one
+
+00:05:38.120 --> 00:05:40.570 
+fade-out with its duration set to one
+second<00:05:38.509> and<00:05:38.720> we'll<00:05:39.500> also<00:05:39.770> write<00:05:40.100> out<00:05:40.160> its
+
+00:05:40.570 --> 00:05:40.580 
+second and we'll also write out its
+
+00:05:40.580 --> 00:05:43.570 
+second and we'll also write out its
+complete<00:05:41.300> event<00:05:41.840> handler<00:05:42.289> function<00:05:42.710> which
+
+00:05:43.570 --> 00:05:43.580 
+complete event handler function which
+
+00:05:43.580 --> 00:05:45.219 
+complete event handler function which
+will<00:05:43.729> be<00:05:43.759> executed<00:05:44.419> once<00:05:44.660> the<00:05:44.870> fade-out
+
+00:05:45.219 --> 00:05:45.229 
+will be executed once the fade-out
+
+00:05:45.229 --> 00:05:48.310 
+will be executed once the fade-out
+animation<00:05:45.919> ends<00:05:46.360> inside<00:05:47.360> this<00:05:47.570> function<00:05:48.050> we
+
+00:05:48.310 --> 00:05:48.320 
+animation ends inside this function we
+
+00:05:48.320 --> 00:05:51.100 
+animation ends inside this function we
+will<00:05:48.470> use<00:05:48.530> a<00:05:48.949> ternary<00:05:49.340> operator<00:05:50.000> to<00:05:50.539> check<00:05:50.870> if
+
+00:05:51.100 --> 00:05:51.110 
+will use a ternary operator to check if
+
+00:05:51.110 --> 00:05:53.170 
+will use a ternary operator to check if
+the<00:05:51.350> value<00:05:51.560> of<00:05:51.770> our<00:05:52.190> slight<00:05:52.550> count<00:05:52.850> variable
+
+00:05:53.170 --> 00:05:53.180 
+the value of our slight count variable
+
+00:05:53.180 --> 00:05:56.409 
+the value of our slight count variable
+is<00:05:53.479> less<00:05:54.440> than<00:05:54.770> the<00:05:54.979> value<00:05:55.340> of<00:05:55.370> the<00:05:56.210> total
+
+00:05:56.409 --> 00:05:56.419 
+is less than the value of the total
+
+00:05:56.419 --> 00:06:04.659 
+is less than the value of the total
+number<00:05:56.780> of<00:05:56.810> slides<00:05:57.169> minus<00:05:57.860> one
+
+00:06:04.659 --> 00:06:04.669 
+
+00:06:04.669 --> 00:06:08.350 
+
+if<00:06:05.599> so<00:06:06.199> then<00:06:06.830> we<00:06:06.979> increment<00:06:07.460> the<00:06:07.879> slide<00:06:08.120> count
+
+00:06:08.350 --> 00:06:08.360 
+if so then we increment the slide count
+
+00:06:08.360 --> 00:06:15.070 
+if so then we increment the slide count
+variable<00:06:08.629> by<00:06:08.900> one
+
+00:06:15.070 --> 00:06:15.080 
+
+00:06:15.080 --> 00:06:23.080 
+
+or<00:06:15.189> else<00:06:16.189> we'll<00:06:16.460> reset<00:06:16.849> it<00:06:16.970> back<00:06:17.120> to<00:06:17.180> zero
+
+00:06:23.080 --> 00:06:23.090 
+
+00:06:23.090 --> 00:06:25.530 
+
+you
+
+00:06:25.530 --> 00:06:25.540 
+
+00:06:25.540 --> 00:06:28.660 
+
+we<00:06:26.540> then<00:06:26.750> simply<00:06:27.020> call<00:06:27.530> the<00:06:27.740> slideshow<00:06:28.040> method
+
+00:06:28.660 --> 00:06:28.670 
+we then simply call the slideshow method
+
+00:06:28.670 --> 00:06:31.150 
+we then simply call the slideshow method
+itself<00:06:29.210> in<00:06:29.420> a<00:06:29.540> recursive<00:06:29.840> and<00:06:30.260> self<00:06:30.680> invoked
+
+00:06:31.150 --> 00:06:31.160 
+itself in a recursive and self invoked
+
+00:06:31.160 --> 00:06:34.420 
+itself in a recursive and self invoked
+manner<00:06:31.550> by<00:06:32.450> doing<00:06:32.900> this<00:06:33.170> we<00:06:33.800> have<00:06:33.919> essentially
+
+00:06:34.420 --> 00:06:34.430 
+manner by doing this we have essentially
+
+00:06:34.430 --> 00:06:37.870 
+manner by doing this we have essentially
+created<00:06:34.820> a<00:06:35.300> looping<00:06:36.200> function<00:06:36.680> which<00:06:37.400> keeps
+
+00:06:37.870 --> 00:06:37.880 
+created a looping function which keeps
+
+00:06:37.880 --> 00:06:40.840 
+created a looping function which keeps
+calling<00:06:38.300> itself<00:06:38.690> again<00:06:39.110> and<00:06:39.230> again<00:06:39.590> and<00:06:39.850> the
+
+00:06:40.840 --> 00:06:40.850 
+calling itself again and again and the
+
+00:06:40.850 --> 00:06:42.879 
+calling itself again and again and the
+ternary<00:06:41.300> operator<00:06:41.750> increments<00:06:42.530> the<00:06:42.680> slide
+
+00:06:42.879 --> 00:06:42.889 
+ternary operator increments the slide
+
+00:06:42.889 --> 00:06:45.300 
+ternary operator increments the slide
+count<00:06:43.160> variable<00:06:43.430> such<00:06:44.120> that<00:06:44.150> we<00:06:44.810> access
+
+00:06:45.300 --> 00:06:45.310 
+count variable such that we access
+
+00:06:45.310 --> 00:06:48.400 
+count variable such that we access
+successive<00:06:46.310> list<00:06:46.580> items<00:06:47.060> to<00:06:47.210> fade<00:06:47.480> in<00:06:47.690> and<00:06:48.050> out
+
+00:06:48.400 --> 00:06:48.410 
+successive list items to fade in and out
+
+00:06:48.410 --> 00:06:51.010 
+successive list items to fade in and out
+from<00:06:48.740> the<00:06:48.919> display<00:06:49.280> when<00:06:49.970> all<00:06:50.180> slides<00:06:50.660> have
+
+00:06:51.010 --> 00:06:51.020 
+from the display when all slides have
+
+00:06:51.020 --> 00:06:53.110 
+from the display when all slides have
+been<00:06:51.260> shown<00:06:51.560> the<00:06:52.100> slide<00:06:52.340> count<00:06:52.610> variable<00:06:52.880> is
+
+00:06:53.110 --> 00:06:53.120 
+been shown the slide count variable is
+
+00:06:53.120 --> 00:06:55.659 
+been shown the slide count variable is
+reset<00:06:53.600> to<00:06:53.750> zero<00:06:54.050> thus<00:06:54.800> restarting<00:06:55.550> the
+
+00:06:55.659 --> 00:06:55.669 
+reset to zero thus restarting the
+
+00:06:55.669 --> 00:06:58.690 
+reset to zero thus restarting the
+slideshow<00:06:55.910> from<00:06:56.300> the<00:06:56.480> first<00:06:56.780> image<00:06:57.430> so<00:06:58.430> go
+
+00:06:58.690 --> 00:06:58.700 
+slideshow from the first image so go
+
+00:06:58.700 --> 00:07:01.510 
+slideshow from the first image so go
+ahead<00:06:58.880> and<00:06:59.150> try<00:06:59.510> this<00:06:59.570> out<00:06:59.840> now<00:07:00.110> feel<00:07:00.919> free<00:07:00.980> to
+
+00:07:01.510 --> 00:07:01.520 
+ahead and try this out now feel free to
+
+00:07:01.520 --> 00:07:03.790 
+ahead and try this out now feel free to
+watch<00:07:01.760> the<00:07:02.030> screencast<00:07:02.600> again<00:07:03.110> if<00:07:03.320> the
+
+00:07:03.790 --> 00:07:03.800 
+watch the screencast again if the
+
+00:07:03.800 --> 00:07:06.340 
+watch the screencast again if the
+concepts<00:07:04.370> presented<00:07:04.430> here<00:07:05.210> are<00:07:05.390> not<00:07:05.780> clear<00:07:06.110> at
+
+00:07:06.340 --> 00:07:06.350 
+concepts presented here are not clear at
+
+00:07:06.350 --> 00:07:12.429 
+concepts presented here are not clear at
+the<00:07:06.650> first<00:07:06.919> instance
+
+00:07:12.429 --> 00:07:12.439 
+
+00:07:12.439 --> 00:07:15.519 
+
+so<00:07:13.439> that<00:07:13.650> wasn't<00:07:13.979> too<00:07:14.219> difficult<00:07:14.460> was<00:07:14.939> it<00:07:14.969> to
+
+00:07:15.519 --> 00:07:15.529 
+so that wasn't too difficult was it to
+
+00:07:15.529 --> 00:07:18.769 
+so that wasn't too difficult was it to
+summarize<00:07:16.529> we<00:07:17.159> used<00:07:17.430> a<00:07:17.639> preload<00:07:18.180> of<00:07:18.360> function
+
+00:07:18.769 --> 00:07:18.779 
+summarize we used a preload of function
+
+00:07:18.779 --> 00:07:21.170 
+summarize we used a preload of function
+that<00:07:19.169> loops<00:07:19.469> through<00:07:19.860> the<00:07:19.979> unordered<00:07:20.490> list<00:07:20.699> to
+
+00:07:21.170 --> 00:07:21.180 
+that loops through the unordered list to
+
+00:07:21.180 --> 00:07:23.540 
+that loops through the unordered list to
+load<00:07:21.419> up<00:07:21.599> and<00:07:21.779> cache<00:07:22.110> all<00:07:22.379> images<00:07:22.830> before
+
+00:07:23.540 --> 00:07:23.550 
+load up and cache all images before
+
+00:07:23.550 --> 00:07:26.719 
+load up and cache all images before
+firing<00:07:24.449> up<00:07:24.569> the<00:07:24.719> slideshow<00:07:24.990> function<00:07:25.620> and<00:07:25.800> we
+
+00:07:26.719 --> 00:07:26.729 
+firing up the slideshow function and we
+
+00:07:26.729 --> 00:07:28.969 
+firing up the slideshow function and we
+used<00:07:27.029> the<00:07:27.360> fade<00:07:27.659> in<00:07:27.839> and<00:07:28.110> fade<00:07:28.169> out<00:07:28.409> methods
+
+00:07:28.969 --> 00:07:28.979 
+used the fade in and fade out methods
+
+00:07:28.979 --> 00:07:34.670 
+used the fade in and fade out methods
+for<00:07:29.550> building<00:07:29.789> the<00:07:30.270> actual<00:07:30.479> slideshow<00:07:33.680> so
+
+00:07:34.670 --> 00:07:34.680 
+for building the actual slideshow so
+
+00:07:34.680 --> 00:07:36.290 
+for building the actual slideshow so
+this<00:07:34.889> is<00:07:35.009> how<00:07:35.189> you<00:07:35.249> can<00:07:35.580> create<00:07:35.699> a<00:07:35.879> photo
+
+00:07:36.290 --> 00:07:36.300 
+this is how you can create a photo
+
+00:07:36.300 --> 00:07:38.600 
+this is how you can create a photo
+slideshow<00:07:36.419> using<00:07:37.110> jQuery<00:07:37.800> fade<00:07:38.189> in<00:07:38.370> and<00:07:38.520> fade
+
+00:07:38.600 --> 00:07:38.610 
+slideshow using jQuery fade in and fade
+
+00:07:38.610 --> 00:07:41.629 
+slideshow using jQuery fade in and fade
+out<00:07:38.879> methods<00:07:39.499> this<00:07:40.499> was<00:07:40.710> just<00:07:40.889> a<00:07:41.009> sample<00:07:41.370> of<00:07:41.460> my
+
+00:07:41.629 --> 00:07:41.639 
+out methods this was just a sample of my
+
+00:07:41.639 --> 00:07:44.360 
+out methods this was just a sample of my
+course<00:07:41.909> jQuery<00:07:42.689> beyond<00:07:43.110> the<00:07:43.229> basics<00:07:43.650> now
+
+00:07:44.360 --> 00:07:44.370 
+course jQuery beyond the basics now
+
+00:07:44.370 --> 00:07:47.059 
+course jQuery beyond the basics now
+available<00:07:44.849> on<00:07:44.999> learning<00:07:45.509> if<00:07:46.050> you<00:07:46.680> like<00:07:46.860> this
+
+00:07:47.059 --> 00:07:47.069 
+available on learning if you like this
+
+00:07:47.069 --> 00:07:49.100 
+available on learning if you like this
+screencast<00:07:47.370> then<00:07:48.210> head<00:07:48.389> over<00:07:48.419> to<00:07:48.599> learn<00:07:48.870> ibill
+
+00:07:49.100 --> 00:07:49.110 
+screencast then head over to learn ibill
+
+00:07:49.110 --> 00:07:52.519 
+screencast then head over to learn ibill
+and<00:07:49.289> I<00:07:49.860> hope<00:07:50.159> to<00:07:50.309> see<00:07:50.520> you<00:07:50.610> in<00:07:50.789> the<00:07:50.909> course<00:07:51.529> do
+
+00:07:52.519 --> 00:07:52.529 
+and I hope to see you in the course do
+
+00:07:52.529 --> 00:07:54.949 
+and I hope to see you in the course do
+check<00:07:52.740> it<00:07:52.770> out
+

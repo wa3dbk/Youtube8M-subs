@@ -1,0 +1,977 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.429 --> 00:00:05.030 
+
+ok<00:00:02.429> here<00:00:02.700> we<00:00:02.730> are<00:00:03.440> starting<00:00:04.440> to<00:00:04.560> lay<00:00:04.710> out<00:00:04.859> the
+
+00:00:05.030 --> 00:00:05.040 
+ok here we are starting to lay out the
+
+00:00:05.040 --> 00:00:08.270 
+ok here we are starting to lay out the
+parts<00:00:05.370> for<00:00:05.640> this<00:00:06.049> H<00:00:07.049> bridge<00:00:07.410> driver<00:00:07.770> for<00:00:08.130> those
+
+00:00:08.270 --> 00:00:08.280 
+parts for this H bridge driver for those
+
+00:00:08.280 --> 00:00:11.839 
+parts for this H bridge driver for those
+robotic<00:00:08.940> arms<00:00:09.269> now<00:00:10.019> each<00:00:10.320> arm<00:00:10.769> has<00:00:11.070> a<00:00:11.460> total<00:00:11.790> of
+
+00:00:11.839 --> 00:00:11.849 
+robotic arms now each arm has a total of
+
+00:00:11.849 --> 00:00:16.220 
+robotic arms now each arm has a total of
+five<00:00:13.250> DC<00:00:14.250> motors<00:00:14.639> so<00:00:15.120> we'll<00:00:15.240> use<00:00:15.360> three<00:00:15.780> chips
+
+00:00:16.220 --> 00:00:16.230 
+five DC motors so we'll use three chips
+
+00:00:16.230 --> 00:00:20.029 
+five DC motors so we'll use three chips
+three<00:00:17.070> quad<00:00:17.699> half<00:00:18.600> H<00:00:18.990> driver<00:00:19.289> chips<00:00:19.590> will<00:00:19.920> have
+
+00:00:20.029 --> 00:00:20.039 
+three quad half H driver chips will have
+
+00:00:20.039 --> 00:00:22.460 
+three quad half H driver chips will have
+one<00:00:20.279> square<00:00:20.730> left<00:00:20.760> over<00:00:21.240> now<00:00:22.050> I'm<00:00:22.140> going<00:00:22.410> to
+
+00:00:22.460 --> 00:00:22.470 
+one square left over now I'm going to
+
+00:00:22.470 --> 00:00:24.790 
+one square left over now I'm going to
+lay<00:00:22.560> this<00:00:22.740> out<00:00:22.920> on<00:00:23.220> some<00:00:23.519> perforated<00:00:24.510> board
+
+00:00:24.790 --> 00:00:24.800 
+lay this out on some perforated board
+
+00:00:24.800 --> 00:00:28.070 
+lay this out on some perforated board
+kind<00:00:25.800> of<00:00:25.830> a<00:00:25.920> universal<00:00:26.460> breadboard<00:00:26.910> thing<00:00:27.210> we
+
+00:00:28.070 --> 00:00:28.080 
+kind of a universal breadboard thing we
+
+00:00:28.080 --> 00:00:31.700 
+kind of a universal breadboard thing we
+could<00:00:28.320> create<00:00:28.619> a<00:00:28.769> custom<00:00:30.349> print<00:00:31.349> circuit
+
+00:00:31.700 --> 00:00:31.710 
+could create a custom print circuit
+
+00:00:31.710 --> 00:00:36.049 
+could create a custom print circuit
+board<00:00:31.920> but<00:00:32.219> for<00:00:33.090> the<00:00:33.210> first<00:00:33.480> one<00:00:33.780> just<00:00:34.760> off<00:00:35.760> off
+
+00:00:36.049 --> 00:00:36.059 
+board but for the first one just off off
+
+00:00:36.059 --> 00:00:38.540 
+board but for the first one just off off
+the<00:00:36.120> shelf<00:00:36.660> here<00:00:36.989> this<00:00:37.680> should<00:00:37.829> work<00:00:37.890> fine<00:00:38.280> and
+
+00:00:38.540 --> 00:00:38.550 
+the shelf here this should work fine and
+
+00:00:38.550 --> 00:00:40.160 
+the shelf here this should work fine and
+I'll<00:00:38.670> show<00:00:38.850> you<00:00:38.940> how<00:00:39.059> to<00:00:39.149> do<00:00:39.719> this<00:00:39.870> kind<00:00:40.079> of
+
+00:00:40.160 --> 00:00:40.170 
+I'll show you how to do this kind of
+
+00:00:40.170 --> 00:00:42.830 
+I'll show you how to do this kind of
+wiring<00:00:40.640> first<00:00:41.640> step<00:00:41.910> is<00:00:42.120> simply<00:00:42.480> kind<00:00:42.750> of
+
+00:00:42.830 --> 00:00:42.840 
+wiring first step is simply kind of
+
+00:00:42.840 --> 00:00:44.630 
+wiring first step is simply kind of
+layout<00:00:43.050> where<00:00:43.620> things<00:00:43.950> go<00:00:44.190> and<00:00:44.430> where<00:00:44.610> you
+
+00:00:44.630 --> 00:00:44.640 
+layout where things go and where you
+
+00:00:44.640 --> 00:00:50.180 
+layout where things go and where you
+want<00:00:44.910> them<00:00:45.320> you<00:00:46.320> have<00:00:46.460> three<00:00:47.460> chips<00:00:47.789> I<00:00:49.160> have<00:00:50.160> a
+
+00:00:50.180 --> 00:00:50.190 
+want them you have three chips I have a
+
+00:00:50.190 --> 00:00:53.090 
+want them you have three chips I have a
+set<00:00:50.460> of<00:00:50.579> pins<00:00:50.820> here<00:00:51.239> and<00:00:51.590> what<00:00:52.590> I'll<00:00:52.680> do<00:00:52.860> is
+
+00:00:53.090 --> 00:00:53.100 
+set of pins here and what I'll do is
+
+00:00:53.100 --> 00:00:57.580 
+set of pins here and what I'll do is
+I'll<00:00:53.190> make<00:00:53.370> each<00:00:53.640> row<00:00:54.449> going<00:00:54.840> this<00:00:54.989> way<00:00:55.430> be<00:00:56.430> the
+
+00:00:57.580 --> 00:00:57.590 
+I'll make each row going this way be the
+
+00:00:57.590 --> 00:01:03.850 
+I'll make each row going this way be the
+enable<00:00:58.590> forward<00:00:59.430> and<00:00:59.640> reverse<00:00:59.940> for<00:01:00.660> one<00:01:02.390> half
+
+00:01:03.850 --> 00:01:03.860 
+enable forward and reverse for one half
+
+00:01:03.860 --> 00:01:06.859 
+enable forward and reverse for one half
+enable<00:01:04.860> forward<00:01:05.309> reverse<00:01:05.460> for<00:01:06.090> the<00:01:06.180> next<00:01:06.540> and
+
+00:01:06.859 --> 00:01:06.869 
+enable forward reverse for the next and
+
+00:01:06.869 --> 00:01:09.730 
+enable forward reverse for the next and
+so<00:01:07.170> on<00:01:07.200> down<00:01:07.470> the<00:01:07.530> row<00:01:07.830> so<00:01:08.070> I<00:01:08.159> cover<00:01:08.430> all<00:01:08.640> six
+
+00:01:09.730 --> 00:01:09.740 
+so on down the row so I cover all six
+
+00:01:09.740 --> 00:01:16.520 
+so on down the row so I cover all six
+motors<00:01:11.810> there<00:01:12.810> are<00:01:13.020> four<00:01:15.290> potentiometers<00:01:16.290> on
+
+00:01:16.520 --> 00:01:16.530 
+motors there are four potentiometers on
+
+00:01:16.530 --> 00:01:20.390 
+motors there are four potentiometers on
+the<00:01:16.890> on<00:01:17.729> the<00:01:17.790> robot<00:01:18.210> arm<00:01:18.479> so<00:01:19.200> i<00:01:19.259> will<00:01:19.560> bring<00:01:20.250> out
+
+00:01:20.390 --> 00:01:20.400 
+the on the robot arm so i will bring out
+
+00:01:20.400 --> 00:01:22.609 
+the on the robot arm so i will bring out
+the<00:01:20.790> signal<00:01:21.270> from<00:01:21.360> each<00:01:21.570> potentiometer<00:01:22.439> one
+
+00:01:22.609 --> 00:01:22.619 
+the signal from each potentiometer one
+
+00:01:22.619 --> 00:01:24.830 
+the signal from each potentiometer one
+two<00:01:22.979> three<00:01:23.369> four<00:01:23.670> on<00:01:23.909> this<00:01:24.060> set<00:01:24.299> of<00:01:24.420> breakout
+
+00:01:24.830 --> 00:01:24.840 
+two three four on this set of breakout
+
+00:01:24.840 --> 00:01:29.090 
+two three four on this set of breakout
+or<00:01:25.530> set<00:01:25.920> of<00:01:26.040> header<00:01:26.430> pins<00:01:27.860> now<00:01:28.860> they<00:01:29.040> will
+
+00:01:29.090 --> 00:01:29.100 
+or set of header pins now they will
+
+00:01:29.100 --> 00:01:31.940 
+or set of header pins now they will
+actually<00:01:29.340> be<00:01:29.700> connected<00:01:30.210> to<00:01:30.750> the<00:01:30.960> robot<00:01:31.650> arm
+
+00:01:31.940 --> 00:01:31.950 
+actually be connected to the robot arm
+
+00:01:31.950 --> 00:01:34.550 
+actually be connected to the robot arm
+through<00:01:32.490> a<00:01:32.520> multi-conductor<00:01:33.240> cable<00:01:33.930> i'll
+
+00:01:34.550 --> 00:01:34.560 
+through a multi-conductor cable i'll
+
+00:01:34.560 --> 00:01:36.469 
+through a multi-conductor cable i'll
+also<00:01:34.710> have<00:01:34.890> a<00:01:35.070> multi-conductor<00:01:35.670> cable<00:01:36.270> coming
+
+00:01:36.469 --> 00:01:36.479 
+also have a multi-conductor cable coming
+
+00:01:36.479 --> 00:01:38.260 
+also have a multi-conductor cable coming
+out<00:01:36.720> to<00:01:36.960> make<00:01:37.079> it<00:01:37.200> easy<00:01:37.350> to<00:01:37.530> hook<00:01:37.619> up<00:01:37.829> to<00:01:38.070> our
+
+00:01:38.260 --> 00:01:38.270 
+out to make it easy to hook up to our
+
+00:01:38.270 --> 00:01:41.719 
+out to make it easy to hook up to our
+national<00:01:39.270> instruments<00:01:39.930> devices<00:01:40.380> but<00:01:41.369> having
+
+00:01:41.719 --> 00:01:41.729 
+national instruments devices but having
+
+00:01:41.729 --> 00:01:44.420 
+national instruments devices but having
+these<00:01:41.850> headers<00:01:42.119> available<00:01:42.780> lets<00:01:43.439> me<00:01:43.680> makes<00:01:44.280> it
+
+00:01:44.420 --> 00:01:44.430 
+these headers available lets me makes it
+
+00:01:44.430 --> 00:01:46.249 
+these headers available lets me makes it
+easy<00:01:44.579> to<00:01:44.729> hook<00:01:44.909> up<00:01:45.119> scopes<00:01:45.479> or<00:01:45.750> volt<00:01:45.960> meters
+
+00:01:46.249 --> 00:01:46.259 
+easy to hook up scopes or volt meters
+
+00:01:46.259 --> 00:01:48.950 
+easy to hook up scopes or volt meters
+and<00:01:46.409> things<00:01:46.560> like<00:01:46.710> that<00:01:47.149> these<00:01:48.149> pins<00:01:48.600> i'm
+
+00:01:48.950 --> 00:01:48.960 
+and things like that these pins i'm
+
+00:01:48.960 --> 00:01:52.730 
+and things like that these pins i'm
+planning<00:01:49.470> on<00:01:49.649> for<00:01:50.610> the<00:01:50.790> 5<00:01:51.689> volt<00:01:51.720> reference<00:01:52.110> and
+
+00:01:52.730 --> 00:01:52.740 
+planning on for the 5 volt reference and
+
+00:01:52.740 --> 00:01:56.090 
+planning on for the 5 volt reference and
+ground<00:01:53.390> the<00:01:54.390> paying<00:01:54.659> upon<00:01:54.899> what<00:01:55.200> kind<00:01:55.979> of
+
+00:01:56.090 --> 00:01:56.100 
+ground the paying upon what kind of
+
+00:01:56.100 --> 00:01:58.100 
+ground the paying upon what kind of
+device<00:01:56.399> I'm<00:01:56.640> connectiveness<00:01:57.210> to<00:01:57.540> i<00:01:57.570> may<00:01:57.869> want
+
+00:01:58.100 --> 00:01:58.110 
+device I'm connectiveness to i may want
+
+00:01:58.110 --> 00:02:01.399 
+device I'm connectiveness to i may want
+to<00:01:58.290> have<00:01:58.439> to<00:01:59.189> use<00:01:59.369> the<00:01:59.579> Bible<00:02:00.200> regulated<00:02:01.200> power
+
+00:02:01.399 --> 00:02:01.409 
+to have to use the Bible regulated power
+
+00:02:01.409 --> 00:02:04.459 
+to have to use the Bible regulated power
+here<00:02:02.009> as<00:02:02.219> the<00:02:02.909> analog<00:02:03.360> reference<00:02:03.899> and<00:02:04.200> ground
+
+00:02:04.459 --> 00:02:04.469 
+here as the analog reference and ground
+
+00:02:04.469 --> 00:02:08.570 
+here as the analog reference and ground
+or<00:02:05.009> I<00:02:05.070> may<00:02:05.310> want<00:02:05.549> to<00:02:05.640> use<00:02:05.670> by<00:02:06.149> volts<00:02:06.630> from<00:02:07.580> say
+
+00:02:08.570 --> 00:02:08.580 
+or I may want to use by volts from say
+
+00:02:08.580 --> 00:02:10.169 
+or I may want to use by volts from say
+an<00:02:08.700> Arduino
+
+00:02:10.169 --> 00:02:10.179 
+an Arduino
+
+00:02:10.179 --> 00:02:12.149 
+an Arduino
+the<00:02:10.390> referencing<00:02:10.989> ground<00:02:11.260> for<00:02:11.560> our<00:02:11.680> sensors
+
+00:02:12.149 --> 00:02:12.159 
+the referencing ground for our sensors
+
+00:02:12.159 --> 00:02:17.849 
+the referencing ground for our sensors
+so<00:02:12.819> I'm<00:02:13.090> going<00:02:13.120> to<00:02:13.560> connect<00:02:14.560> the<00:02:16.469> pins<00:02:17.469> here
+
+00:02:17.849 --> 00:02:17.859 
+so I'm going to connect the pins here
+
+00:02:17.859 --> 00:02:21.449 
+so I'm going to connect the pins here
+through<00:02:18.549> these<00:02:18.760> pins<00:02:19.090> to<00:02:19.890> power<00:02:20.890> and<00:02:21.219> ground
+
+00:02:21.449 --> 00:02:21.459 
+through these pins to power and ground
+
+00:02:21.459 --> 00:02:24.569 
+through these pins to power and ground
+from<00:02:22.560> from<00:02:23.560> the<00:02:23.709> regulated<00:02:24.310> power<00:02:24.459> supply
+
+00:02:24.569 --> 00:02:24.579 
+from from the regulated power supply
+
+00:02:24.579 --> 00:02:27.119 
+from from the regulated power supply
+here<00:02:25.209> and<00:02:25.450> the<00:02:26.019> other<00:02:26.170> two<00:02:26.439> pins<00:02:26.769> will<00:02:27.010> be
+
+00:02:27.119 --> 00:02:27.129 
+here and the other two pins will be
+
+00:02:27.129 --> 00:02:29.849 
+here and the other two pins will be
+connected<00:02:27.639> to<00:02:27.849> power<00:02:28.299> and<00:02:28.689> ground<00:02:28.930> that<00:02:29.680> goes
+
+00:02:29.849 --> 00:02:29.859 
+connected to power and ground that goes
+
+00:02:29.859 --> 00:02:34.649 
+connected to power and ground that goes
+to<00:02:30.310> the<00:02:31.530> potentiometers<00:02:32.530> and<00:02:32.799> by<00:02:33.659> shorting
+
+00:02:34.649 --> 00:02:34.659 
+to the potentiometers and by shorting
+
+00:02:34.659 --> 00:02:38.309 
+to the potentiometers and by shorting
+these<00:02:34.840> pairs<00:02:35.409> together<00:02:35.680> I<00:02:35.980> can<00:02:36.129> use<00:02:37.079> the<00:02:38.079> power
+
+00:02:38.309 --> 00:02:38.319 
+these pairs together I can use the power
+
+00:02:38.319 --> 00:02:41.550 
+these pairs together I can use the power
+and<00:02:38.530> ground<00:02:38.709> from<00:02:38.950> this<00:02:39.420> board<00:02:40.420> or<00:02:40.719> by<00:02:41.379> leaving
+
+00:02:41.550 --> 00:02:41.560 
+and ground from this board or by leaving
+
+00:02:41.560 --> 00:02:44.490 
+and ground from this board or by leaving
+them<00:02:41.769> separate<00:02:42.250> I<00:02:42.370> can<00:02:42.609> use<00:02:42.930> the<00:02:43.930> power<00:02:44.139> in
+
+00:02:44.490 --> 00:02:44.500 
+them separate I can use the power in
+
+00:02:44.500 --> 00:02:47.699 
+them separate I can use the power in
+ground<00:02:44.829> from<00:02:45.069> another<00:02:45.340> source<00:02:46.530> I'll<00:02:47.530> have<00:02:47.680> a
+
+00:02:47.699 --> 00:02:47.709 
+ground from another source I'll have a
+
+00:02:47.709 --> 00:02:53.009 
+ground from another source I'll have a
+breakout<00:02:48.519> here<00:02:48.730> for<00:02:48.970> 12<00:02:49.239> volts<00:02:51.030> this<00:02:52.030> is<00:02:52.239> the
+
+00:02:53.009 --> 00:02:53.019 
+breakout here for 12 volts this is the
+
+00:02:53.019 --> 00:02:55.199 
+breakout here for 12 volts this is the
+Bible<00:02:53.859> regulator<00:02:54.400> to<00:02:54.549> give<00:02:54.700> me<00:02:54.819> the<00:02:54.939> 5<00:02:55.180> volt
+
+00:02:55.199 --> 00:02:55.209 
+Bible regulator to give me the 5 volt
+
+00:02:55.209 --> 00:02:58.319 
+Bible regulator to give me the 5 volt
+supply<00:02:55.719> for<00:02:56.709> each<00:02:56.919> of<00:02:57.069> these<00:02:57.189> chips<00:02:57.549> they're
+
+00:02:58.319 --> 00:02:58.329 
+supply for each of these chips they're
+
+00:02:58.329 --> 00:03:00.659 
+supply for each of these chips they're
+also<00:02:58.510> be<00:02:58.750> the<00:02:58.959> unregulated<00:02:59.500> supply<00:03:00.280> that<00:03:00.519> will
+
+00:03:00.659 --> 00:03:00.669 
+also be the unregulated supply that will
+
+00:03:00.669 --> 00:03:03.479 
+also be the unregulated supply that will
+go<00:03:00.760> to<00:03:00.819> the<00:03:01.000> motor<00:03:01.230> control<00:03:02.230> side<00:03:02.560> a<00:03:02.829> couple
+
+00:03:03.479 --> 00:03:03.489 
+go to the motor control side a couple
+
+00:03:03.489 --> 00:03:07.170 
+go to the motor control side a couple
+filter<00:03:03.909> capacitors<00:03:04.599> to<00:03:04.709> keep<00:03:05.709> the<00:03:06.180> voltage
+
+00:03:07.170 --> 00:03:07.180 
+filter capacitors to keep the voltage
+
+00:03:07.180 --> 00:03:12.740 
+filter capacitors to keep the voltage
+claim<00:03:07.510> and<00:03:07.780> these<00:03:08.709> will<00:03:08.950> be<00:03:09.099> the<00:03:09.129> six<00:03:10.200> outputs
+
+00:03:12.740 --> 00:03:12.750 
+claim and these will be the six outputs
+
+00:03:12.750 --> 00:03:22.260 
+claim and these will be the six outputs
+going<00:03:13.750> to<00:03:13.840> each<00:03:13.959> motor<00:03:14.729> forward<00:03:15.729> reverse<00:03:18.780> now
+
+00:03:22.260 --> 00:03:22.270 
+
+00:03:22.270 --> 00:03:26.940 
+
+these<00:03:23.020> will<00:03:23.260> go<00:03:23.410> directly<00:03:23.680> to<00:03:24.190> the<00:03:24.220> 25<00:03:25.090> pin<00:03:25.950> sub
+
+00:03:26.940 --> 00:03:26.950 
+these will go directly to the 25 pin sub
+
+00:03:26.950 --> 00:03:31.500 
+these will go directly to the 25 pin sub
+miniature<00:03:27.880> subject<00:03:28.450> connector<00:03:28.990> on<00:03:29.320> the<00:03:30.510> on
+
+00:03:31.500 --> 00:03:31.510 
+miniature subject connector on the on
+
+00:03:31.510 --> 00:03:32.970 
+miniature subject connector on the on
+the<00:03:31.570> rope<00:03:31.900> to<00:03:32.260> connect<00:03:32.530> direct<00:03:32.770> with<00:03:32.890> the
+
+00:03:32.970 --> 00:03:32.980 
+the rope to connect direct with the
+
+00:03:32.980 --> 00:03:35.220 
+the rope to connect direct with the
+robot<00:03:33.340> you<00:03:34.240> could<00:03:34.420> argue<00:03:34.450> that<00:03:34.780> I<00:03:34.930> don't<00:03:35.080> need
+
+00:03:35.220 --> 00:03:35.230 
+robot you could argue that I don't need
+
+00:03:35.230 --> 00:03:36.900 
+robot you could argue that I don't need
+these<00:03:35.500> with<00:03:36.100> the<00:03:36.220> nice<00:03:36.400> thing<00:03:36.670> about<00:03:36.700> having
+
+00:03:36.900 --> 00:03:36.910 
+these with the nice thing about having
+
+00:03:36.910 --> 00:03:41.490 
+these with the nice thing about having
+these<00:03:37.510> is<00:03:37.870> that<00:03:38.650> I<00:03:38.770> can<00:03:39.390> hook<00:03:40.390> up<00:03:40.630> easily<00:03:40.960> to<00:03:41.470> a
+
+00:03:41.490 --> 00:03:41.500 
+these is that I can hook up easily to a
+
+00:03:41.500 --> 00:03:45.180 
+these is that I can hook up easily to a
+scope<00:03:41.830> and<00:03:42.070> look<00:03:42.250> at<00:03:42.460> the<00:03:43.620> voltages<00:03:44.620> and<00:03:44.860> see
+
+00:03:45.180 --> 00:03:45.190 
+scope and look at the voltages and see
+
+00:03:45.190 --> 00:03:48.210 
+scope and look at the voltages and see
+how<00:03:45.340> how<00:03:46.000> well<00:03:46.630> we're<00:03:46.780> clamping<00:03:47.050> the<00:03:47.320> flyback
+
+00:03:48.210 --> 00:03:48.220 
+how how well we're clamping the flyback
+
+00:03:48.220 --> 00:03:50.850 
+how how well we're clamping the flyback
+voltage<00:03:48.670> is<00:03:48.820> the<00:03:48.850> back<00:03:49.180> EMF<00:03:49.210> and<00:03:49.930> look<00:03:50.650> for
+
+00:03:50.850 --> 00:03:50.860 
+voltage is the back EMF and look for
+
+00:03:50.860 --> 00:03:53.220 
+voltage is the back EMF and look for
+noise<00:03:51.090> and<00:03:52.090> then<00:03:52.210> I<00:03:52.240> have<00:03:52.450> some<00:03:52.690> resistors
+
+00:03:53.220 --> 00:03:53.230 
+noise and then I have some resistors
+
+00:03:53.230 --> 00:03:57.780 
+noise and then I have some resistors
+that<00:03:53.290> i'll<00:03:53.830> put<00:03:54.610> in<00:03:54.790> between<00:03:55.380> the<00:03:56.380> input<00:03:57.040> pins
+
+00:03:57.780 --> 00:03:57.790 
+that i'll put in between the input pins
+
+00:03:57.790 --> 00:04:00.630 
+that i'll put in between the input pins
+and<00:03:58.150> my<00:03:58.450> signals<00:03:58.990> here<00:03:59.230> to<00:03:59.980> isolate<00:04:00.430> those
+
+00:04:00.630 --> 00:04:00.640 
+and my signals here to isolate those
+
+00:04:00.640 --> 00:04:06.000 
+and my signals here to isolate those
+would<00:04:01.390> be<00:04:01.600> a<00:04:01.630> LED<00:04:02.590> indicator<00:04:03.660> this<00:04:04.830> tells<00:04:05.830> me
+
+00:04:06.000 --> 00:04:06.010 
+would be a LED indicator this tells me
+
+00:04:06.010 --> 00:04:08.580 
+would be a LED indicator this tells me
+one<00:04:06.160> of<00:04:06.190> the<00:04:06.340> powers<00:04:06.640> I<00:04:06.990> and<00:04:07.990> another<00:04:08.290> thing
+
+00:04:08.580 --> 00:04:08.590 
+one of the powers I and another thing
+
+00:04:08.590 --> 00:04:10.290 
+one of the powers I and another thing
+I'm<00:04:08.830> going<00:04:08.950> to<00:04:09.010> do<00:04:09.190> about<00:04:09.310> this<00:04:09.640> you<00:04:09.970> know<00:04:10.060> if<00:04:10.150> I
+
+00:04:10.290 --> 00:04:10.300 
+I'm going to do about this you know if I
+
+00:04:10.300 --> 00:04:12.600 
+I'm going to do about this you know if I
+wire<00:04:10.510> it<00:04:10.690> up<00:04:10.780> like<00:04:11.020> this<00:04:11.260> and<00:04:11.560> I<00:04:12.100> put<00:04:12.370> it<00:04:12.490> in<00:04:12.520> the
+
+00:04:12.600 --> 00:04:12.610 
+wire it up like this and I put it in the
+
+00:04:12.610 --> 00:04:16.250 
+wire it up like this and I put it in the
+box<00:04:12.850> and<00:04:13.240> put<00:04:13.990> the<00:04:14.110> top<00:04:14.290> on<00:04:14.500> the<00:04:14.620> box<00:04:14.860> now<00:04:15.700> these
+
+00:04:16.250 --> 00:04:16.260 
+box and put the top on the box now these
+
+00:04:16.260 --> 00:04:19.590 
+box and put the top on the box now these
+breakout<00:04:17.260> or<00:04:18.160> header<00:04:18.850> pins<00:04:19.120> are<00:04:19.360> going<00:04:19.480> to<00:04:19.540> be
+
+00:04:19.590 --> 00:04:19.600 
+breakout or header pins are going to be
+
+00:04:19.600 --> 00:04:21.960 
+breakout or header pins are going to be
+buried<00:04:20.260> pretty<00:04:20.560> deep<00:04:20.709> so<00:04:21.430> what<00:04:21.610> I'm<00:04:21.700> going<00:04:21.880> to
+
+00:04:21.960 --> 00:04:21.970 
+buried pretty deep so what I'm going to
+
+00:04:21.970 --> 00:04:24.120 
+buried pretty deep so what I'm going to
+do<00:04:22.120> is<00:04:22.330> when<00:04:22.450> I<00:04:22.480> actually<00:04:22.720> solder<00:04:23.200> this<00:04:23.500> I'll
+
+00:04:24.120 --> 00:04:24.130 
+do is when I actually solder this I'll
+
+00:04:24.130 --> 00:04:28.980 
+do is when I actually solder this I'll
+take<00:04:24.460> them<00:04:24.760> and<00:04:25.020> put<00:04:26.020> them<00:04:26.980> on<00:04:27.250> the<00:04:27.430> board<00:04:27.990> from
+
+00:04:28.980 --> 00:04:28.990 
+take them and put them on the board from
+
+00:04:28.990 --> 00:04:34.140 
+take them and put them on the board from
+the<00:04:29.080> back<00:04:29.460> this<00:04:30.460> way<00:04:32.310> hard<00:04:33.310> to<00:04:33.460> see<00:04:33.610> there<00:04:34.030> you
+
+00:04:34.140 --> 00:04:34.150 
+the back this way hard to see there you
+
+00:04:34.150 --> 00:04:37.200 
+the back this way hard to see there you
+go<00:04:34.180> this<00:04:34.900> way<00:04:35.110> so<00:04:35.650> then<00:04:35.830> on<00:04:36.040> the<00:04:36.220> bottom<00:04:36.820> of
+
+00:04:37.200 --> 00:04:37.210 
+go this way so then on the bottom of
+
+00:04:37.210 --> 00:04:40.770 
+go this way so then on the bottom of
+this<00:04:37.650> box<00:04:38.650> which<00:04:39.130> fits<00:04:39.400> the<00:04:39.580> sport<00:04:39.970> I'll<00:04:40.570> be
+
+00:04:40.770 --> 00:04:40.780 
+this box which fits the sport I'll be
+
+00:04:40.780 --> 00:04:42.510 
+this box which fits the sport I'll be
+able<00:04:40.810> to<00:04:40.990> make<00:04:41.080> the<00:04:41.260> cut<00:04:41.470> outs<00:04:41.650> in<00:04:41.890> the<00:04:42.010> box<00:04:42.250> and
+
+00:04:42.510 --> 00:04:42.520 
+able to make the cut outs in the box and
+
+00:04:42.520 --> 00:04:46.320 
+able to make the cut outs in the box and
+it<00:04:43.180> access<00:04:43.900> those<00:04:44.080> pretty<00:04:44.350> easily<00:04:44.560> but<00:04:45.330> be
+
+00:04:46.320 --> 00:04:46.330 
+it access those pretty easily but be
+
+00:04:46.330 --> 00:04:47.520 
+it access those pretty easily but be
+careful<00:04:46.690> not<00:04:46.780> to<00:04:46.900> chip<00:04:47.080> with<00:04:47.260> everything
+
+00:04:47.520 --> 00:04:47.530 
+careful not to chip with everything
+
+00:04:47.530 --> 00:04:51.930 
+careful not to chip with everything
+falls<00:04:47.770> out<00:04:47.950> so<00:04:48.610> I'm<00:04:48.820> going<00:04:49.090> to<00:04:50.760> take<00:04:51.760> the
+
+00:04:51.930 --> 00:04:51.940 
+falls out so I'm going to take the
+
+00:04:51.940 --> 00:04:54.210 
+falls out so I'm going to take the
+headers<00:04:52.210> out<00:04:52.390> for<00:04:52.570> the<00:04:52.660> moment<00:04:52.840> and<00:04:53.200> start<00:04:53.950> by
+
+00:04:54.210 --> 00:04:54.220 
+headers out for the moment and start by
+
+00:04:54.220 --> 00:04:57.780 
+headers out for the moment and start by
+soldering<00:04:54.520> in<00:04:54.940> these<00:04:55.230> chips<00:04:56.230> sockets<00:04:56.950> each
+
+00:04:57.780 --> 00:04:57.790 
+soldering in these chips sockets each
+
+00:04:57.790 --> 00:05:00.750 
+soldering in these chips sockets each
+chip<00:04:58.150> socket<00:04:58.600> will<00:04:58.690> hold<00:04:58.870> one<00:04:59.080> of<00:04:59.230> the<00:04:59.640> one<00:05:00.640> of
+
+00:05:00.750 --> 00:05:00.760 
+chip socket will hold one of the one of
+
+00:05:00.760 --> 00:05:02.880 
+chip socket will hold one of the one of
+these<00:05:00.910> quadruple<00:05:01.510> H<00:05:01.660> drivers<00:05:02.140> and<00:05:02.560> will
+
+00:05:02.880 --> 00:05:02.890 
+these quadruple H drivers and will
+
+00:05:02.890 --> 00:05:04.530 
+these quadruple H drivers and will
+solder<00:05:03.130> in<00:05:03.400> the<00:05:03.520> power<00:05:03.730> supplies<00:05:04.180> and<00:05:04.510> things
+
+00:05:04.530 --> 00:05:04.540 
+solder in the power supplies and things
+
+00:05:04.540 --> 00:05:10.320 
+solder in the power supplies and things
+like<00:05:04.780> that<00:05:04.840> and<00:05:06.180> go<00:05:07.180> from<00:05:07.330> there<00:05:08.910> okay<00:05:09.910> start
+
+00:05:10.320 --> 00:05:10.330 
+like that and go from there okay start
+
+00:05:10.330 --> 00:05:12.420 
+like that and go from there okay start
+with<00:05:10.510> I've<00:05:10.720> got<00:05:10.900> the<00:05:11.110> three<00:05:11.440> chip<00:05:11.800> sockets<00:05:12.310> in
+
+00:05:12.420 --> 00:05:12.430 
+with I've got the three chip sockets in
+
+00:05:12.430 --> 00:05:15.000 
+with I've got the three chip sockets in
+place<00:05:12.960> probably<00:05:13.960> difficult<00:05:14.200> to<00:05:14.590> see<00:05:14.800> on<00:05:14.830> the
+
+00:05:15.000 --> 00:05:15.010 
+place probably difficult to see on the
+
+00:05:15.010 --> 00:05:18.360 
+place probably difficult to see on the
+screen<00:05:15.240> I'm<00:05:16.240> going<00:05:16.600> to<00:05:16.720> just<00:05:17.020> basically<00:05:17.530> by<00:05:18.340> a
+
+00:05:18.360 --> 00:05:18.370 
+screen I'm going to just basically by a
+
+00:05:18.370 --> 00:05:19.380 
+screen I'm going to just basically by a
+little<00:05:18.700> bit
+
+00:05:19.380 --> 00:05:19.390 
+little bit
+
+00:05:19.390 --> 00:05:22.890 
+little bit
+a<00:05:19.420> little<00:05:19.690> bit<00:05:19.810> of<00:05:19.840> solder<00:05:20.790> the<00:05:21.790> heat<00:05:22.030> to<00:05:22.690> this
+
+00:05:22.890 --> 00:05:22.900 
+a little bit of solder the heat to this
+
+00:05:22.900 --> 00:05:30.720 
+a little bit of solder the heat to this
+sadder<00:05:23.230> and<00:05:23.650> sadder<00:05:24.610> each<00:05:25.210> of<00:05:25.570> those<00:05:25.840> pins<00:05:29.730> to
+
+00:05:30.720 --> 00:05:30.730 
+sadder and sadder each of those pins to
+
+00:05:30.730 --> 00:05:34.950 
+sadder and sadder each of those pins to
+the<00:05:30.880> breadboard<00:05:31.470> we<00:05:32.470> don't<00:05:32.650> have<00:05:32.890> to<00:05:33.960> they
+
+00:05:34.950 --> 00:05:34.960 
+the breadboard we don't have to they
+
+00:05:34.960 --> 00:05:41.790 
+the breadboard we don't have to they
+don't<00:05:35.140> fall<00:05:35.410> out
+
+00:05:41.790 --> 00:05:41.800 
+
+00:05:41.800 --> 00:05:44.020 
+
+touch<00:05:42.800> this<00:05:43.070> once<00:05:43.340> it<00:05:43.520> doesn't<00:05:43.820> fall<00:05:44.000> out
+
+00:05:44.020 --> 00:05:44.030 
+touch this once it doesn't fall out
+
+00:05:44.030 --> 00:05:48.310 
+touch this once it doesn't fall out
+white<00:05:44.390> bone<00:05:44.600> things<00:05:44.870> around<00:05:46.450> the<00:05:47.450> soldering
+
+00:05:48.310 --> 00:05:48.320 
+white bone things around the soldering
+
+00:05:48.320 --> 00:05:51.820 
+white bone things around the soldering
+is<00:05:48.560> not<00:05:48.830> too<00:05:49.490> much<00:05:49.670> solder<00:05:50.320> enough<00:05:51.320> but<00:05:51.710> not
+
+00:05:51.820 --> 00:05:51.830 
+is not too much solder enough but not
+
+00:05:51.830 --> 00:05:53.560 
+is not too much solder enough but not
+too<00:05:51.890> much<00:05:52.100> and<00:05:52.520> I'll<00:05:52.610> keep<00:05:52.880> enough<00:05:53.240> too<00:05:53.420> much
+
+00:05:53.560 --> 00:05:53.570 
+too much and I'll keep enough too much
+
+00:05:53.570 --> 00:05:57.250 
+too much and I'll keep enough too much
+heat<00:05:55.180> there's<00:05:56.180> nothing<00:05:56.570> particularly
+
+00:05:57.250 --> 00:05:57.260 
+heat there's nothing particularly
+
+00:05:57.260 --> 00:06:04.410 
+heat there's nothing particularly
+difficult<00:06:00.520> practice
+
+00:06:04.410 --> 00:06:04.420 
+
+00:06:04.420 --> 00:06:06.450 
+
+and<00:06:04.990> I'll<00:06:05.140> go<00:06:05.290> sadder<00:06:05.620> up<00:06:05.830> the<00:06:05.980> rest<00:06:06.160> of<00:06:06.340> those
+
+00:06:06.450 --> 00:06:06.460 
+and I'll go sadder up the rest of those
+
+00:06:06.460 --> 00:06:08.130 
+and I'll go sadder up the rest of those
+but<00:06:06.790> I'm<00:06:07.030> sure<00:06:07.270> you<00:06:07.450> don't<00:06:07.630> really<00:06:07.810> want<00:06:08.080> to
+
+00:06:08.130 --> 00:06:08.140 
+but I'm sure you don't really want to
+
+00:06:08.140 --> 00:06:13.050 
+but I'm sure you don't really want to
+watch<00:06:09.600> at<00:06:10.600> this<00:06:10.810> point<00:06:11.110> I<00:06:11.320> have<00:06:11.530> the<00:06:12.060> sockets
+
+00:06:13.050 --> 00:06:13.060 
+watch at this point I have the sockets
+
+00:06:13.060 --> 00:06:15.990 
+watch at this point I have the sockets
+amount<00:06:13.330> of<00:06:13.540> the<00:06:14.190> components<00:06:15.190> for<00:06:15.340> the<00:06:15.400> 5<00:06:15.970> volt
+
+00:06:15.990 --> 00:06:16.000 
+amount of the components for the 5 volt
+
+00:06:16.000 --> 00:06:18.630 
+amount of the components for the 5 volt
+regulated<00:06:16.810> power<00:06:17.020> supplier<00:06:17.440> mounted<00:06:17.890> the
+
+00:06:18.630 --> 00:06:18.640 
+regulated power supplier mounted the
+
+00:06:18.640 --> 00:06:20.520 
+regulated power supplier mounted the
+headers<00:06:19.000> are<00:06:19.240> mounted<00:06:19.600> on<00:06:19.720> the<00:06:19.900> back<00:06:19.930> as<00:06:20.410> I
+
+00:06:20.520 --> 00:06:20.530 
+headers are mounted on the back as I
+
+00:06:20.530 --> 00:06:22.800 
+headers are mounted on the back as I
+said<00:06:20.800> so<00:06:21.040> that<00:06:21.160> when<00:06:21.280> we<00:06:21.460> put<00:06:21.670> this<00:06:22.420> in<00:06:22.720> the
+
+00:06:22.800 --> 00:06:22.810 
+said so that when we put this in the
+
+00:06:22.810 --> 00:06:25.160 
+said so that when we put this in the
+case<00:06:23.050> i<00:06:23.320> can<00:06:23.500> put<00:06:23.710> it<00:06:23.800> in<00:06:23.890> the<00:06:23.950> case<00:06:24.130> this<00:06:24.400> way
+
+00:06:25.160 --> 00:06:25.170 
+case i can put it in the case this way
+
+00:06:25.170 --> 00:06:27.600 
+case i can put it in the case this way
+make<00:06:26.170> the<00:06:26.350> cut<00:06:26.560> outs<00:06:26.740> in<00:06:27.040> this<00:06:27.160> side<00:06:27.400> of<00:06:27.520> the
+
+00:06:27.600 --> 00:06:27.610 
+make the cut outs in this side of the
+
+00:06:27.610 --> 00:06:30.660 
+make the cut outs in this side of the
+case<00:06:27.820> and<00:06:27.850> those<00:06:28.420> are<00:06:28.570> all<00:06:28.690> accessible<00:06:29.670> next
+
+00:06:30.660 --> 00:06:30.670 
+case and those are all accessible next
+
+00:06:30.670 --> 00:06:33.570 
+case and those are all accessible next
+step<00:06:30.880> is<00:06:31.320> start<00:06:32.320> stringing<00:06:32.740> wire<00:06:33.010> actually
+
+00:06:33.570 --> 00:06:33.580 
+step is start stringing wire actually
+
+00:06:33.580 --> 00:06:36.930 
+step is start stringing wire actually
+now<00:06:34.210> I've<00:06:34.420> run<00:06:34.900> a<00:06:35.200> couple<00:06:35.530> copper<00:06:36.130> pieces<00:06:36.670> of
+
+00:06:36.930 --> 00:06:36.940 
+now I've run a couple copper pieces of
+
+00:06:36.940 --> 00:06:39.300 
+now I've run a couple copper pieces of
+copper<00:06:37.150> wire<00:06:37.330> here<00:06:37.810> down<00:06:38.080> the<00:06:38.230> middle<00:06:38.440> make<00:06:39.280> a
+
+00:06:39.300 --> 00:06:39.310 
+copper wire here down the middle make a
+
+00:06:39.310 --> 00:06:43.170 
+copper wire here down the middle make a
+ground<00:06:39.790> bus<00:06:40.380> if<00:06:41.380> you<00:06:41.560> look<00:06:41.710> at<00:06:41.890> the<00:06:42.180> diagram
+
+00:06:43.170 --> 00:06:43.180 
+ground bus if you look at the diagram
+
+00:06:43.180 --> 00:06:50.040 
+ground bus if you look at the diagram
+for<00:06:43.960> the<00:06:44.110> chip<00:06:44.470> on<00:06:44.710> the<00:06:47.790> on<00:06:48.790> the<00:06:48.850> datasheet<00:06:49.240> you
+
+00:06:50.040 --> 00:06:50.050 
+for the chip on the on the datasheet you
+
+00:06:50.050 --> 00:06:52.260 
+for the chip on the on the datasheet you
+see<00:06:50.290> that<00:06:50.500> these<00:06:50.740> middle<00:06:51.220> pins<00:06:51.490> on<00:06:51.730> both<00:06:51.940> sides
+
+00:06:52.260 --> 00:06:52.270 
+see that these middle pins on both sides
+
+00:06:52.270 --> 00:06:56.220 
+see that these middle pins on both sides
+pins<00:06:52.930> for<00:06:53.290> 5<00:06:53.590> 13<00:06:54.430> 12<00:06:54.730> hour<00:06:55.390> heatsink<00:06:56.020> and
+
+00:06:56.220 --> 00:06:56.230 
+pins for 5 13 12 hour heatsink and
+
+00:06:56.230 --> 00:06:59.340 
+pins for 5 13 12 hour heatsink and
+ground<00:06:56.590> so<00:06:57.010> I<00:06:57.250> need<00:06:57.940> to<00:06:58.090> get<00:06:58.270> connected<00:06:58.930> to<00:06:59.290> all
+
+00:06:59.340 --> 00:06:59.350 
+ground so I need to get connected to all
+
+00:06:59.350 --> 00:07:01.890 
+ground so I need to get connected to all
+four<00:06:59.710> of<00:06:59.740> those<00:06:59.920> and<00:07:00.250> I'm<00:07:00.340> using<00:07:00.550> two<00:07:01.510> lengths
+
+00:07:01.890 --> 00:07:01.900 
+four of those and I'm using two lengths
+
+00:07:01.900 --> 00:07:04.020 
+four of those and I'm using two lengths
+of<00:07:02.020> wire<00:07:02.200> so<00:07:02.800> it<00:07:02.830> at<00:07:03.010> least<00:07:03.130> has<00:07:03.430> a<00:07:03.460> little<00:07:03.880> bit
+
+00:07:04.020 --> 00:07:04.030 
+of wire so it at least has a little bit
+
+00:07:04.030 --> 00:07:06.530 
+of wire so it at least has a little bit
+of<00:07:04.060> mass<00:07:04.330> to<00:07:04.630> carry<00:07:04.870> away<00:07:04.990> some<00:07:05.320> of<00:07:05.350> the<00:07:05.530> heat
+
+00:07:06.530 --> 00:07:06.540 
+of mass to carry away some of the heat
+
+00:07:06.540 --> 00:07:08.820 
+of mass to carry away some of the heat
+ideally<00:07:07.540> it<00:07:07.570> would<00:07:07.630> be<00:07:07.810> connected<00:07:08.290> to<00:07:08.440> a<00:07:08.470> large
+
+00:07:08.820 --> 00:07:08.830 
+ideally it would be connected to a large
+
+00:07:08.830 --> 00:07:11.280 
+ideally it would be connected to a large
+copper<00:07:09.730> ground<00:07:10.180> plane<00:07:10.630> to<00:07:10.840> carry<00:07:11.080> away<00:07:11.200> the
+
+00:07:11.280 --> 00:07:11.290 
+copper ground plane to carry away the
+
+00:07:11.290 --> 00:07:14.010 
+copper ground plane to carry away the
+heat<00:07:11.620> but<00:07:12.280> we<00:07:13.060> don't<00:07:13.240> have<00:07:13.300> that<00:07:13.480> with<00:07:13.900> this
+
+00:07:14.010 --> 00:07:14.020 
+heat but we don't have that with this
+
+00:07:14.020 --> 00:07:16.140 
+heat but we don't have that with this
+kind<00:07:14.320> of<00:07:14.380> perf<00:07:14.740> board<00:07:15.040> so<00:07:15.280> I'll<00:07:15.430> just<00:07:15.460> solder
+
+00:07:16.140 --> 00:07:16.150 
+kind of perf board so I'll just solder
+
+00:07:16.150 --> 00:07:18.210 
+kind of perf board so I'll just solder
+it<00:07:16.360> to<00:07:16.570> a<00:07:16.600> couple<00:07:17.050> wires<00:07:17.230> and<00:07:17.650> we'll<00:07:18.040> see<00:07:18.190> if
+
+00:07:18.210 --> 00:07:18.220 
+it to a couple wires and we'll see if
+
+00:07:18.220 --> 00:07:21.750 
+it to a couple wires and we'll see if
+that<00:07:18.310> successful<00:07:19.230> starts<00:07:20.310> starts<00:07:21.310> at<00:07:21.550> this
+
+00:07:21.750 --> 00:07:21.760 
+that successful starts starts at this
+
+00:07:21.760 --> 00:07:25.110 
+that successful starts starts at this
+header<00:07:22.000> pin<00:07:22.920> connects<00:07:23.920> to<00:07:24.130> the<00:07:24.220> ground<00:07:24.490> pin<00:07:24.850> on
+
+00:07:25.110 --> 00:07:25.120 
+header pin connects to the ground pin on
+
+00:07:25.120 --> 00:07:27.300 
+header pin connects to the ground pin on
+that<00:07:25.300> voltage<00:07:25.570> regulator<00:07:26.200> the<00:07:26.830> ground<00:07:27.100> of
+
+00:07:27.300 --> 00:07:27.310 
+that voltage regulator the ground of
+
+00:07:27.310 --> 00:07:28.920 
+that voltage regulator the ground of
+those<00:07:27.430> filter<00:07:27.790> capacitors<00:07:28.420> through<00:07:28.780> those
+
+00:07:28.920 --> 00:07:28.930 
+those filter capacitors through those
+
+00:07:28.930 --> 00:07:31.620 
+those filter capacitors through those
+browns<00:07:29.320> then<00:07:30.100> I<00:07:30.190> can't<00:07:30.400> I<00:07:30.580> in<00:07:30.850> other<00:07:31.060> grounds
+
+00:07:31.620 --> 00:07:31.630 
+browns then I can't I in other grounds
+
+00:07:31.630 --> 00:07:37.279 
+browns then I can't I in other grounds
+along<00:07:32.410> the<00:07:32.590> way<00:07:32.710> where<00:07:32.980> I<00:07:33.010> need<00:07:33.280> them
+
+00:07:37.279 --> 00:07:37.289 
+
+00:07:37.289 --> 00:07:39.349 
+
+you
+

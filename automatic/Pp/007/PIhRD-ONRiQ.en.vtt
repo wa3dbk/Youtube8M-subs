@@ -1,0 +1,1086 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.149 
+
+in<00:00:00.179> this<00:00:00.359> video<00:00:00.539> we're<00:00:00.960> going<00:00:01.110> to<00:00:01.230> look<00:00:01.530> at<00:00:01.770> the
+
+00:00:02.149 --> 00:00:02.159 
+in this video we're going to look at the
+
+00:00:02.159 --> 00:00:04.519 
+in this video we're going to look at the
+problems<00:00:03.000> that<00:00:03.149> you<00:00:03.360> might<00:00:03.570> face<00:00:03.870> with<00:00:04.140> str
+
+00:00:04.519 --> 00:00:04.529 
+problems that you might face with str
+
+00:00:04.529 --> 00:00:07.460 
+problems that you might face with str
+len<00:00:04.859> in<00:00:05.190> PHP<00:00:05.819> and<00:00:06.480> look<00:00:06.660> at<00:00:06.779> some<00:00:06.870> alternatives
+
+00:00:07.460 --> 00:00:07.470 
+len in PHP and look at some alternatives
+
+00:00:07.470 --> 00:00:10.490 
+len in PHP and look at some alternatives
+like<00:00:07.620> MBS<00:00:08.309> tln<00:00:08.820> but<00:00:09.630> first<00:00:09.870> of<00:00:10.019> all<00:00:10.110> let's<00:00:10.349> talk
+
+00:00:10.490 --> 00:00:10.500 
+like MBS tln but first of all let's talk
+
+00:00:10.500 --> 00:00:13.100 
+like MBS tln but first of all let's talk
+about<00:00:10.860> why<00:00:11.639> there's<00:00:12.000> a<00:00:12.059> problem<00:00:12.300> or<00:00:12.599> potential
+
+00:00:13.100 --> 00:00:13.110 
+about why there's a problem or potential
+
+00:00:13.110 --> 00:00:15.110 
+about why there's a problem or potential
+problem<00:00:13.410> with<00:00:13.440> str<00:00:13.860> len<00:00:14.130> now<00:00:14.910> you've<00:00:15.000> probably
+
+00:00:15.110 --> 00:00:15.120 
+problem with str len now you've probably
+
+00:00:15.120 --> 00:00:18.340 
+problem with str len now you've probably
+used<00:00:15.330> SQL<00:00:15.900> em<00:00:16.320> before<00:00:16.470> or<00:00:16.859> string<00:00:17.340> length<00:00:17.670> to
+
+00:00:18.340 --> 00:00:18.350 
+used SQL em before or string length to
+
+00:00:18.350 --> 00:00:20.960 
+used SQL em before or string length to
+actually<00:00:19.350> you<00:00:20.010> know<00:00:20.130> count<00:00:20.460> the<00:00:20.699> amount<00:00:20.789> of
+
+00:00:20.960 --> 00:00:20.970 
+actually you know count the amount of
+
+00:00:20.970 --> 00:00:22.939 
+actually you know count the amount of
+characters<00:00:21.210> in<00:00:21.510> a<00:00:21.570> string<00:00:21.810> so<00:00:22.590> as<00:00:22.710> the<00:00:22.800> name
+
+00:00:22.939 --> 00:00:22.949 
+characters in a string so as the name
+
+00:00:22.949 --> 00:00:25.609 
+characters in a string so as the name
+suggests<00:00:23.449> you'd<00:00:24.449> think<00:00:24.480> that<00:00:25.050> it<00:00:25.140> count<00:00:25.380> the
+
+00:00:25.609 --> 00:00:25.619 
+suggests you'd think that it count the
+
+00:00:25.619 --> 00:00:27.830 
+suggests you'd think that it count the
+amount<00:00:25.680> of<00:00:25.859> characters<00:00:26.130> in<00:00:26.400> a<00:00:26.490> string<00:00:26.840> now
+
+00:00:27.830 --> 00:00:27.840 
+amount of characters in a string now
+
+00:00:27.840 --> 00:00:31.009 
+amount of characters in a string now
+this<00:00:28.349> is<00:00:28.410> sort<00:00:29.039> of<00:00:29.250> correct<00:00:29.670> however<00:00:30.330> in
+
+00:00:31.009 --> 00:00:31.019 
+this is sort of correct however in
+
+00:00:31.019 --> 00:00:33.139 
+this is sort of correct however in
+reality<00:00:31.349> actually<00:00:32.099> works<00:00:32.430> can<00:00:32.669> be<00:00:32.700> different
+
+00:00:33.139 --> 00:00:33.149 
+reality actually works can be different
+
+00:00:33.149 --> 00:00:34.930 
+reality actually works can be different
+to<00:00:33.270> this<00:00:33.420> so<00:00:33.989> we'll<00:00:34.079> be<00:00:34.170> taking<00:00:34.469> a<00:00:34.559> look<00:00:34.739> at
+
+00:00:34.930 --> 00:00:34.940 
+to this so we'll be taking a look at
+
+00:00:34.940 --> 00:00:37.910 
+to this so we'll be taking a look at
+some<00:00:35.940> examples<00:00:36.570> and<00:00:36.690> how<00:00:37.140> this<00:00:37.739> actually
+
+00:00:37.910 --> 00:00:37.920 
+some examples and how this actually
+
+00:00:37.920 --> 00:00:40.310 
+some examples and how this actually
+works<00:00:38.210> now<00:00:39.210> actually<00:00:39.570> counting<00:00:40.079> amount<00:00:40.230> of
+
+00:00:40.310 --> 00:00:40.320 
+works now actually counting amount of
+
+00:00:40.320 --> 00:00:42.860 
+works now actually counting amount of
+bytes<00:00:40.620> in<00:00:41.010> a<00:00:41.100> string<00:00:41.460> so<00:00:42.059> it's<00:00:42.450> not<00:00:42.629> anything
+
+00:00:42.860 --> 00:00:42.870 
+bytes in a string so it's not anything
+
+00:00:42.870 --> 00:00:44.720 
+bytes in a string so it's not anything
+you<00:00:43.410> know<00:00:43.710> that's<00:00:43.980> been<00:00:44.219> hidden<00:00:44.430> away<00:00:44.579> from
+
+00:00:44.720 --> 00:00:44.730 
+you know that's been hidden away from
+
+00:00:44.730 --> 00:00:47.029 
+you know that's been hidden away from
+you<00:00:45.059> or<00:00:45.300> it's<00:00:45.450> nothing<00:00:45.840> secretive<00:00:46.350> it<00:00:46.559> is
+
+00:00:47.029 --> 00:00:47.039 
+you or it's nothing secretive it is
+
+00:00:47.039 --> 00:00:48.740 
+you or it's nothing secretive it is
+actually<00:00:47.190> explained<00:00:47.670> in<00:00:47.789> the<00:00:47.879> PHP<00:00:48.210> manuals<00:00:48.690> a
+
+00:00:48.740 --> 00:00:48.750 
+actually explained in the PHP manuals a
+
+00:00:48.750 --> 00:00:51.260 
+actually explained in the PHP manuals a
+note<00:00:48.960> but<00:00:49.140> it's<00:00:49.289> pretty<00:00:49.469> hard<00:00:49.710> to<00:00:49.829> miss<00:00:50.100> so<00:00:50.940> if
+
+00:00:51.260 --> 00:00:51.270 
+note but it's pretty hard to miss so if
+
+00:00:51.270 --> 00:00:52.670 
+note but it's pretty hard to miss so if
+you're<00:00:51.420> wondering<00:00:51.570> what<00:00:52.110> we<00:00:52.260> took<00:00:52.410> them<00:00:52.559> out
+
+00:00:52.670 --> 00:00:52.680 
+you're wondering what we took them out
+
+00:00:52.680 --> 00:00:54.830 
+you're wondering what we took them out
+here<00:00:53.300> let's<00:00:54.300> take<00:00:54.390> a<00:00:54.480> look<00:00:54.629> at<00:00:54.660> an<00:00:54.780> example
+
+00:00:54.830 --> 00:00:54.840 
+here let's take a look at an example
+
+00:00:54.840 --> 00:00:57.380 
+here let's take a look at an example
+using<00:00:55.530> a<00:00:55.559> single<00:00:55.860> character<00:00:56.340> let's<00:00:57.120> go<00:00:57.210> ahead
+
+00:00:57.380 --> 00:00:57.390 
+using a single character let's go ahead
+
+00:00:57.390 --> 00:00:59.240 
+using a single character let's go ahead
+and<00:00:57.510> create<00:00:57.660> a<00:00:57.750> variable<00:00:58.079> here<00:00:58.440> called<00:00:58.500> string
+
+00:00:59.240 --> 00:00:59.250 
+and create a variable here called string
+
+00:00:59.250 --> 00:01:01.549 
+and create a variable here called string
+and<00:00:59.520> we'll<00:01:00.210> just<00:01:00.390> go<00:01:00.480> ahead<00:01:00.570> and<00:01:00.690> type<00:01:00.960> a<00:01:01.109> for
+
+00:01:01.549 --> 00:01:01.559 
+and we'll just go ahead and type a for
+
+00:01:01.559 --> 00:01:04.100 
+and we'll just go ahead and type a for
+the<00:01:01.680> thing<00:01:02.460> so<00:01:02.609> we're<00:01:02.730> going<00:01:02.820> to<00:01:02.910> assign<00:01:03.210> a<00:01:03.539> or
+
+00:01:04.100 --> 00:01:04.110 
+the thing so we're going to assign a or
+
+00:01:04.110 --> 00:01:06.260 
+the thing so we're going to assign a or
+a<00:01:04.170> lowercase<00:01:04.500> a<00:01:04.890> character<00:01:05.460> to<00:01:05.610> this<00:01:05.760> variable
+
+00:01:06.260 --> 00:01:06.270 
+a lowercase a character to this variable
+
+00:01:06.270 --> 00:01:09.740 
+a lowercase a character to this variable
+so<00:01:07.170> let's<00:01:07.530> go<00:01:07.650> ahead<00:01:07.680> and<00:01:07.950> echo<00:01:08.549> out<00:01:08.700> str<00:01:09.390> len
+
+00:01:09.740 --> 00:01:09.750 
+so let's go ahead and echo out str len
+
+00:01:09.750 --> 00:01:12.469 
+so let's go ahead and echo out str len
+of<00:01:10.049> this<00:01:10.590> string<00:01:10.950> now<00:01:11.790> you'd<00:01:12.060> probably<00:01:12.299> go
+
+00:01:12.469 --> 00:01:12.479 
+of this string now you'd probably go
+
+00:01:12.479 --> 00:01:14.719 
+of this string now you'd probably go
+ahead<00:01:12.630> and<00:01:12.869> expect<00:01:13.560> this<00:01:13.710> to<00:01:13.920> output<00:01:14.250> 1<00:01:14.490> and
+
+00:01:14.719 --> 00:01:14.729 
+ahead and expect this to output 1 and
+
+00:01:14.729 --> 00:01:16.039 
+ahead and expect this to output 1 and
+you'd<00:01:14.820> be<00:01:14.970> right<00:01:15.000> so<00:01:15.450> let's<00:01:15.600> take<00:01:15.780> a<00:01:15.810> look<00:01:15.960> in
+
+00:01:16.039 --> 00:01:16.049 
+you'd be right so let's take a look in
+
+00:01:16.049 --> 00:01:18.410 
+you'd be right so let's take a look in
+the<00:01:16.140> browser<00:01:16.350> and<00:01:16.740> this<00:01:17.280> outputs<00:01:17.640> 1<00:01:17.850> so<00:01:18.299> you'd
+
+00:01:18.410 --> 00:01:18.420 
+the browser and this outputs 1 so you'd
+
+00:01:18.420 --> 00:01:20.450 
+the browser and this outputs 1 so you'd
+expect<00:01:18.750> this<00:01:18.840> to<00:01:19.020> happen<00:01:19.049> and<00:01:19.530> the<00:01:20.009> same<00:01:20.189> if<00:01:20.340> i
+
+00:01:20.450 --> 00:01:20.460 
+expect this to happen and the same if i
+
+00:01:20.460 --> 00:01:23.960 
+expect this to happen and the same if i
+was<00:01:20.610> to<00:01:20.640> type<00:01:21.000> for<00:01:21.180> example<00:01:22.400> hello<00:01:23.400> you'd
+
+00:01:23.960 --> 00:01:23.970 
+was to type for example hello you'd
+
+00:01:23.970 --> 00:01:27.560 
+was to type for example hello you'd
+expect<00:01:24.360> this<00:01:24.420> to<00:01:24.600> output<00:01:24.900> 5<00:01:25.170> which<00:01:26.040> it<00:01:26.189> does<00:01:26.570> so
+
+00:01:27.560 --> 00:01:27.570 
+expect this to output 5 which it does so
+
+00:01:27.570 --> 00:01:30.200 
+expect this to output 5 which it does so
+what<00:01:28.229> would<00:01:28.350> now<00:01:28.650> do<00:01:28.710> is<00:01:29.250> go<00:01:29.430> ahead<00:01:29.549> and<00:01:29.790> look
+
+00:01:30.200 --> 00:01:30.210 
+what would now do is go ahead and look
+
+00:01:30.210 --> 00:01:32.060 
+what would now do is go ahead and look
+at<00:01:30.390> changing<00:01:30.930> this<00:01:31.110> slightly<00:01:31.409> and<00:01:31.770> change
+
+00:01:32.060 --> 00:01:32.070 
+at changing this slightly and change
+
+00:01:32.070 --> 00:01:35.859 
+at changing this slightly and change
+this<00:01:32.250> to<00:01:32.400> a<00:01:32.460> special<00:01:32.909> character<00:01:33.420> now
+
+00:01:35.859 --> 00:01:35.869 
+this to a special character now
+
+00:01:35.869 --> 00:01:38.719 
+this to a special character now
+basically<00:01:36.869> with<00:01:37.140> UTF<00:01:37.560> encoding<00:01:38.130> a<00:01:38.250> character
+
+00:01:38.719 --> 00:01:38.729 
+basically with UTF encoding a character
+
+00:01:38.729 --> 00:01:41.359 
+basically with UTF encoding a character
+can<00:01:38.909> be<00:01:38.939> up<00:01:39.210> to<00:01:39.240> 4<00:01:39.630> bytes<00:01:39.930> long<00:01:40.290> now<00:01:41.070> if<00:01:41.189> this
+
+00:01:41.359 --> 00:01:41.369 
+can be up to 4 bytes long now if this
+
+00:01:41.369 --> 00:01:44.359 
+can be up to 4 bytes long now if this
+str<00:01:42.150> Len<00:01:42.420> function<00:01:42.689> counts<00:01:43.350> bytes<00:01:43.649> and<00:01:44.040> not
+
+00:01:44.359 --> 00:01:44.369 
+str Len function counts bytes and not
+
+00:01:44.369 --> 00:01:46.819 
+str Len function counts bytes and not
+actual<00:01:44.610> characters<00:01:45.420> then<00:01:46.140> let's<00:01:46.320> take<00:01:46.500> a<00:01:46.530> look
+
+00:01:46.819 --> 00:01:46.829 
+actual characters then let's take a look
+
+00:01:46.829 --> 00:01:49.490 
+actual characters then let's take a look
+at<00:01:47.070> how<00:01:47.310> this<00:01:47.549> sort<00:01:48.329> of<00:01:48.360> handles<00:01:48.720> it<00:01:48.899> this
+
+00:01:49.490 --> 00:01:49.500 
+at how this sort of handles it this
+
+00:01:49.500 --> 00:01:51.710 
+at how this sort of handles it this
+actually<00:01:49.680> returns<00:01:50.220> to<00:01:50.759> now<00:01:51.299> you<00:01:51.420> might<00:01:51.570> be<00:01:51.689> a
+
+00:01:51.710 --> 00:01:51.720 
+actually returns to now you might be a
+
+00:01:51.720 --> 00:01:53.480 
+actually returns to now you might be a
+little<00:01:51.869> bit<00:01:52.020> shocked<00:01:52.350> that<00:01:52.680> that's<00:01:53.130> returning
+
+00:01:53.480 --> 00:01:53.490 
+little bit shocked that that's returning
+
+00:01:53.490 --> 00:01:55.460 
+little bit shocked that that's returning
+to<00:01:53.790> you<00:01:54.479> might<00:01:54.630> feel<00:01:54.810> a<00:01:54.840> little<00:01:54.960> bit<00:01:55.110> cheated
+
+00:01:55.460 --> 00:01:55.470 
+to you might feel a little bit cheated
+
+00:01:55.470 --> 00:01:57.139 
+to you might feel a little bit cheated
+and<00:01:55.950> thinking<00:01:56.310> wow<00:01:56.490> I've<00:01:56.670> been<00:01:56.729> doing<00:01:57.030> it
+
+00:01:57.139 --> 00:01:57.149 
+and thinking wow I've been doing it
+
+00:01:57.149 --> 00:01:59.179 
+and thinking wow I've been doing it
+wrong<00:01:57.180> all<00:01:57.450> along<00:01:57.479> but<00:01:58.380> don't<00:01:58.590> worry<00:01:58.740> it's
+
+00:01:59.179 --> 00:01:59.189 
+wrong all along but don't worry it's
+
+00:01:59.189 --> 00:02:00.560 
+wrong all along but don't worry it's
+probably<00:01:59.670> not<00:01:59.820> the<00:01:59.909> end<00:02:00.030> of<00:02:00.119> the<00:02:00.180> world<00:02:00.329> it
+
+00:02:00.560 --> 00:02:00.570 
+probably not the end of the world it
+
+00:02:00.570 --> 00:02:01.850 
+probably not the end of the world it
+just<00:02:00.600> means<00:02:00.930> that<00:02:01.020> you<00:02:01.200> may<00:02:01.380> get<00:02:01.619> slightly
+
+00:02:01.850 --> 00:02:01.860 
+just means that you may get slightly
+
+00:02:01.860 --> 00:02:03.350 
+just means that you may get slightly
+inconsistent<00:02:02.729> results<00:02:02.820> when<00:02:03.240> you're
+
+00:02:03.350 --> 00:02:03.360 
+inconsistent results when you're
+
+00:02:03.360 --> 00:02:05.749 
+inconsistent results when you're
+outputting<00:02:03.509> things<00:02:04.579> obviously<00:02:05.579> of<00:02:05.700> course
+
+00:02:05.749 --> 00:02:05.759 
+outputting things obviously of course
+
+00:02:05.759 --> 00:02:07.399 
+outputting things obviously of course
+unless<00:02:06.180> your<00:02:06.360> application<00:02:06.899> relies<00:02:07.380> heavily
+
+00:02:07.399 --> 00:02:07.409 
+unless your application relies heavily
+
+00:02:07.409 --> 00:02:10.790 
+unless your application relies heavily
+on<00:02:08.009> str<00:02:08.729> len<00:02:09.000> to<00:02:09.239> perform<00:02:09.629> correctly<00:02:09.780> which<00:02:10.649> is
+
+00:02:10.790 --> 00:02:10.800 
+on str len to perform correctly which is
+
+00:02:10.800 --> 00:02:13.220 
+on str len to perform correctly which is
+probably<00:02:11.160> doubtful<00:02:11.819> but<00:02:11.940> it's<00:02:12.090> a<00:02:12.180> good<00:02:12.330> idea
+
+00:02:13.220 --> 00:02:13.230 
+probably doubtful but it's a good idea
+
+00:02:13.230 --> 00:02:15.470 
+probably doubtful but it's a good idea
+to<00:02:13.349> go<00:02:13.440> ahead<00:02:13.560> and<00:02:13.950> revise<00:02:14.670> any<00:02:14.940> way<00:02:15.330> you've
+
+00:02:15.470 --> 00:02:15.480 
+to go ahead and revise any way you've
+
+00:02:15.480 --> 00:02:18.020 
+to go ahead and revise any way you've
+used<00:02:15.690> this<00:02:15.900> so<00:02:16.769> obviously<00:02:17.459> we<00:02:17.670> know<00:02:17.790> that<00:02:17.940> this
+
+00:02:18.020 --> 00:02:18.030 
+used this so obviously we know that this
+
+00:02:18.030 --> 00:02:20.330 
+used this so obviously we know that this
+is<00:02:18.209> a<00:02:18.239> problem<00:02:18.450> however<00:02:19.440> let's<00:02:19.980> look<00:02:20.129> at<00:02:20.250> some
+
+00:02:20.330 --> 00:02:20.340 
+is a problem however let's look at some
+
+00:02:20.340 --> 00:02:22.970 
+is a problem however let's look at some
+alternatives<00:02:21.110> now<00:02:22.110> we've<00:02:22.680> got<00:02:22.830> one
+
+00:02:22.970 --> 00:02:22.980 
+alternatives now we've got one
+
+00:02:22.980 --> 00:02:26.000 
+alternatives now we've got one
+alternative<00:02:23.459> called<00:02:23.760> mb<00:02:24.330> str<00:02:25.080> len<00:02:25.349> so<00:02:25.920> it
+
+00:02:26.000 --> 00:02:26.010 
+alternative called mb str len so it
+
+00:02:26.010 --> 00:02:27.530 
+alternative called mb str len so it
+works<00:02:26.159> exactly<00:02:26.370> well<00:02:26.819> pretty<00:02:27.090> much<00:02:27.269> exactly
+
+00:02:27.530 --> 00:02:27.540 
+works exactly well pretty much exactly
+
+00:02:27.540 --> 00:02:29.149 
+works exactly well pretty much exactly
+the<00:02:27.780> same<00:02:27.959> as<00:02:28.080> str<00:02:28.409> linen<00:02:28.650> the<00:02:28.709> fact<00:02:28.920> that<00:02:28.980> it
+
+00:02:29.149 --> 00:02:29.159 
+the same as str linen the fact that it
+
+00:02:29.159 --> 00:02:31.400 
+the same as str linen the fact that it
+you<00:02:29.549> know<00:02:29.670> is<00:02:29.790> counting<00:02:30.209> characters<00:02:30.690> let's
+
+00:02:31.400 --> 00:02:31.410 
+you know is counting characters let's
+
+00:02:31.410 --> 00:02:32.930 
+you know is counting characters let's
+take<00:02:31.530> a<00:02:31.590> look<00:02:31.799> at<00:02:31.860> using<00:02:32.069> on<00:02:32.310> its<00:02:32.489> own<00:02:32.640> without
+
+00:02:32.930 --> 00:02:32.940 
+take a look at using on its own without
+
+00:02:32.940 --> 00:02:37.009 
+take a look at using on its own without
+any<00:02:33.239> options<00:02:34.940> so<00:02:35.940> it's<00:02:36.060> still<00:02:36.299> returning<00:02:36.720> to
+
+00:02:37.009 --> 00:02:37.019 
+any options so it's still returning to
+
+00:02:37.019 --> 00:02:38.660 
+any options so it's still returning to
+so<00:02:37.440> you<00:02:37.920> know<00:02:38.040> you<00:02:38.099> might<00:02:38.310> be<00:02:38.340> thinking<00:02:38.489> well
+
+00:02:38.660 --> 00:02:38.670 
+so you know you might be thinking well
+
+00:02:38.670 --> 00:02:40.220 
+so you know you might be thinking well
+what's<00:02:39.030> the<00:02:39.120> difference<00:02:39.209> here<00:02:39.540> the
+
+00:02:40.220 --> 00:02:40.230 
+what's the difference here the
+
+00:02:40.230 --> 00:02:41.150 
+what's the difference here the
+difference<00:02:40.590> is<00:02:40.680> that<00:02:40.709> we<00:02:40.920> can<00:02:41.040> actually
+
+00:02:41.150 --> 00:02:41.160 
+difference is that we can actually
+
+00:02:41.160 --> 00:02:43.160 
+difference is that we can actually
+specifically<00:02:42.000> define<00:02:42.480> the<00:02:42.659> character
+
+00:02:43.160 --> 00:02:43.170 
+specifically define the character
+
+00:02:43.170 --> 00:02:45.440 
+specifically define the character
+encoding<00:02:43.560> that<00:02:44.069> we're<00:02:44.220> using<00:02:44.459> so<00:02:45.239> in<00:02:45.360> this
+
+00:02:45.440 --> 00:02:45.450 
+encoding that we're using so in this
+
+00:02:45.450 --> 00:02:47.780 
+encoding that we're using so in this
+case<00:02:45.660> i<00:02:45.840> can<00:02:45.959> go<00:02:46.049> ahead<00:02:46.170> and<00:02:46.500> provide<00:02:46.790> utf-8
+
+00:02:47.780 --> 00:02:47.790 
+case i can go ahead and provide utf-8
+
+00:02:47.790 --> 00:02:50.180 
+case i can go ahead and provide utf-8
+here<00:02:48.269> and<00:02:48.599> this<00:02:49.019> will<00:02:49.200> go<00:02:49.290> ahead<00:02:49.410> and<00:02:49.769> actually
+
+00:02:50.180 --> 00:02:50.190 
+here and this will go ahead and actually
+
+00:02:50.190 --> 00:02:52.849 
+here and this will go ahead and actually
+take<00:02:51.000> into<00:02:51.269> account<00:02:51.540> the<00:02:51.780> fact<00:02:51.810> that<00:02:52.140> you<00:02:52.739> know
+
+00:02:52.849 --> 00:02:52.859 
+take into account the fact that you know
+
+00:02:52.859 --> 00:02:54.530 
+take into account the fact that you know
+we're<00:02:53.069> not<00:02:53.190> counting<00:02:53.430> bytes<00:02:53.879> anymore<00:02:54.390> we
+
+00:02:54.530 --> 00:02:54.540 
+we're not counting bytes anymore we
+
+00:02:54.540 --> 00:02:55.699 
+we're not counting bytes anymore we
+actually<00:02:54.840> want<00:02:54.989> to<00:02:55.079> go<00:02:55.170> ahead<00:02:55.260> and<00:02:55.500> count
+
+00:02:55.699 --> 00:02:55.709 
+actually want to go ahead and count
+
+00:02:55.709 --> 00:02:57.949 
+actually want to go ahead and count
+actual<00:02:56.250> characters<00:02:56.760> so<00:02:57.480> what<00:02:57.599> this<00:02:57.690> is<00:02:57.810> going
+
+00:02:57.949 --> 00:02:57.959 
+actual characters so what this is going
+
+00:02:57.959 --> 00:02:59.449 
+actual characters so what this is going
+to<00:02:58.019> do<00:02:58.140> is<00:02:58.260> it's<00:02:58.290> going<00:02:58.560> to<00:02:58.650> say<00:02:58.829> well<00:02:59.099> yeah
+
+00:02:59.449 --> 00:02:59.459 
+to do is it's going to say well yeah
+
+00:02:59.459 --> 00:03:01.460 
+to do is it's going to say well yeah
+this<00:02:59.640> is<00:02:59.819> made<00:02:59.970> up<00:03:00.120> of<00:03:00.180> two<00:03:00.390> bites<00:03:00.720> but<00:03:01.109> in
+
+00:03:01.460 --> 00:03:01.470 
+this is made up of two bites but in
+
+00:03:01.470 --> 00:03:03.530 
+this is made up of two bites but in
+reality<00:03:01.890> this<00:03:02.489> is<00:03:02.549> actually<00:03:03.060> a<00:03:03.090> single
+
+00:03:03.530 --> 00:03:03.540 
+reality this is actually a single
+
+00:03:03.540 --> 00:03:05.479 
+reality this is actually a single
+character<00:03:04.049> so<00:03:04.799> now<00:03:04.920> when<00:03:05.099> i<00:03:05.129> go<00:03:05.190> ahead<00:03:05.370> and
+
+00:03:05.479 --> 00:03:05.489 
+character so now when i go ahead and
+
+00:03:05.489 --> 00:03:07.250 
+character so now when i go ahead and
+refresh<00:03:05.819> we<00:03:06.120> get<00:03:06.269> the<00:03:06.390> expected<00:03:06.660> result<00:03:07.140> of
+
+00:03:07.250 --> 00:03:07.260 
+refresh we get the expected result of
+
+00:03:07.260 --> 00:03:09.589 
+refresh we get the expected result of
+one<00:03:07.560> so<00:03:08.250> we're<00:03:08.370> now<00:03:08.430> looking<00:03:08.609> at<00:03:08.849> an<00:03:08.970> accurate
+
+00:03:09.589 --> 00:03:09.599 
+one so we're now looking at an accurate
+
+00:03:09.599 --> 00:03:12.470 
+one so we're now looking at an accurate
+way<00:03:09.780> to<00:03:09.810> count<00:03:10.319> characters<00:03:10.859> like<00:03:11.040> this<00:03:11.390> so<00:03:12.390> if
+
+00:03:12.470 --> 00:03:12.480 
+way to count characters like this so if
+
+00:03:12.480 --> 00:03:15.559 
+way to count characters like this so if
+i<00:03:12.599> was<00:03:12.750> to<00:03:12.780> say<00:03:13.079> just<00:03:13.739> rather<00:03:14.040> an<00:03:14.430> example<00:03:15.299> type
+
+00:03:15.559 --> 00:03:15.569 
+i was to say just rather an example type
+
+00:03:15.569 --> 00:03:17.750 
+i was to say just rather an example type
+my<00:03:15.750> name<00:03:15.810> but<00:03:16.319> with<00:03:16.500> this<00:03:16.590> accent<00:03:17.069> character
+
+00:03:17.750 --> 00:03:17.760 
+my name but with this accent character
+
+00:03:17.760 --> 00:03:19.280 
+my name but with this accent character
+we'll<00:03:18.359> go<00:03:18.480> ahead<00:03:18.599> and<00:03:18.780> we'll<00:03:18.900> get<00:03:19.079> the
+
+00:03:19.280 --> 00:03:19.290 
+we'll go ahead and we'll get the
+
+00:03:19.290 --> 00:03:22.069 
+we'll go ahead and we'll get the
+expected<00:03:19.620> results<00:03:20.220> for<00:03:21.030> and<00:03:21.299> again<00:03:21.930> if<00:03:22.049> we
+
+00:03:22.069 --> 00:03:22.079 
+expected results for and again if we
+
+00:03:22.079 --> 00:03:24.080 
+expected results for and again if we
+sort<00:03:22.440> of<00:03:22.500> double<00:03:22.889> this<00:03:22.980> up<00:03:23.160> just<00:03:23.519> for<00:03:23.790> the<00:03:23.880> sake
+
+00:03:24.080 --> 00:03:24.090 
+sort of double this up just for the sake
+
+00:03:24.090 --> 00:03:28.550 
+sort of double this up just for the sake
+of<00:03:24.120> it<00:03:26.269> we<00:03:27.269> go<00:03:27.389> ahead<00:03:27.510> and<00:03:27.599> get<00:03:27.780> five<00:03:28.079> so<00:03:28.410> we're
+
+00:03:28.550 --> 00:03:28.560 
+of it we go ahead and get five so we're
+
+00:03:28.560 --> 00:03:30.530 
+of it we go ahead and get five so we're
+seeing<00:03:28.739> the<00:03:29.220> results<00:03:29.849> that<00:03:29.880> we<00:03:30.030> would<00:03:30.209> expect
+
+00:03:30.530 --> 00:03:30.540 
+seeing the results that we would expect
+
+00:03:30.540 --> 00:03:33.680 
+seeing the results that we would expect
+here<00:03:30.870> now<00:03:31.859> you<00:03:32.220> may<00:03:32.340> be<00:03:32.370> thinking<00:03:32.519> well<00:03:33.090> you
+
+00:03:33.680 --> 00:03:33.690 
+here now you may be thinking well you
+
+00:03:33.690 --> 00:03:35.960 
+here now you may be thinking well you
+know<00:03:33.840> do<00:03:34.169> I<00:03:34.230> really<00:03:34.680> need<00:03:34.829> to<00:03:35.010> define<00:03:35.370> all<00:03:35.760> of
+
+00:03:35.960 --> 00:03:35.970 
+know do I really need to define all of
+
+00:03:35.970 --> 00:03:37.879 
+know do I really need to define all of
+this<00:03:36.209> every<00:03:36.750> single<00:03:36.930> time<00:03:37.139> I<00:03:37.319> want<00:03:37.620> to<00:03:37.680> count
+
+00:03:37.879 --> 00:03:37.889 
+this every single time I want to count
+
+00:03:37.889 --> 00:03:40.580 
+this every single time I want to count
+characters<00:03:38.400> well<00:03:39.030> no<00:03:39.329> you<00:03:39.389> don't<00:03:39.750> you<00:03:40.049> can<00:03:40.230> use
+
+00:03:40.580 --> 00:03:40.590 
+characters well no you don't you can use
+
+00:03:40.590 --> 00:03:44.509 
+characters well no you don't you can use
+in<00:03:41.030> MBS<00:03:42.030> coln<00:03:42.480> eyes<00:03:42.630> own<00:03:43.220> instead<00:03:44.220> what<00:03:44.400> you
+
+00:03:44.509 --> 00:03:44.519 
+in MBS coln eyes own instead what you
+
+00:03:44.519 --> 00:03:46.819 
+in MBS coln eyes own instead what you
+can<00:03:44.639> do<00:03:44.849> is<00:03:45.060> set<00:03:45.510> the<00:03:45.540> internal<00:03:46.079> encoding<00:03:46.680> of
+
+00:03:46.819 --> 00:03:46.829 
+can do is set the internal encoding of
+
+00:03:46.829 --> 00:03:49.009 
+can do is set the internal encoding of
+your<00:03:47.400> scripts<00:03:47.760> so<00:03:48.030> you<00:03:48.120> can<00:03:48.239> go<00:03:48.359> ahead<00:03:48.480> and<00:03:48.660> say
+
+00:03:49.009 --> 00:03:49.019 
+your scripts so you can go ahead and say
+
+00:03:49.019 --> 00:03:53.030 
+your scripts so you can go ahead and say
+mb<00:03:49.819> internal<00:03:50.819> encoding<00:03:51.780> and<00:03:52.709> what<00:03:52.889> this<00:03:52.980> will
+
+00:03:53.030 --> 00:03:53.040 
+mb internal encoding and what this will
+
+00:03:53.040 --> 00:03:54.860 
+mb internal encoding and what this will
+let<00:03:53.250> you<00:03:53.340> do<00:03:53.489> is<00:03:53.700> do<00:03:54.180> exactly<00:03:54.419> what<00:03:54.599> we've<00:03:54.840> just
+
+00:03:54.860 --> 00:03:54.870 
+let you do is do exactly what we've just
+
+00:03:54.870 --> 00:03:57.379 
+let you do is do exactly what we've just
+done<00:03:55.079> here<00:03:55.680> with<00:03:55.859> a<00:03:55.889> second<00:03:56.340> argument<00:03:56.549> but<00:03:57.269> it
+
+00:03:57.379 --> 00:03:57.389 
+done here with a second argument but it
+
+00:03:57.389 --> 00:03:59.240 
+done here with a second argument but it
+will<00:03:57.480> let<00:03:57.599> us<00:03:57.720> go<00:03:57.870> ahead<00:03:57.989> and<00:03:58.290> provide<00:03:58.560> it<00:03:58.950> just
+
+00:03:59.240 --> 00:03:59.250 
+will let us go ahead and provide it just
+
+00:03:59.250 --> 00:04:01.129 
+will let us go ahead and provide it just
+once<00:03:59.579> and<00:04:00.060> then<00:04:00.209> not<00:04:00.419> have<00:04:00.540> to<00:04:00.720> bother<00:04:00.870> again
+
+00:04:01.129 --> 00:04:01.139 
+once and then not have to bother again
+
+00:04:01.139 --> 00:04:03.530 
+once and then not have to bother again
+so<00:04:01.859> in<00:04:01.980> this<00:04:02.099> case<00:04:02.340> this<00:04:02.669> will<00:04:02.910> automatically
+
+00:04:03.530 --> 00:04:03.540 
+so in this case this will automatically
+
+00:04:03.540 --> 00:04:06.440 
+so in this case this will automatically
+tell<00:04:03.930> us<00:04:04.139> that<00:04:04.769> the<00:04:04.889> in<00:04:04.980> mb<00:04:05.639> internal<00:04:05.790> encoding
+
+00:04:06.440 --> 00:04:06.450 
+tell us that the in mb internal encoding
+
+00:04:06.450 --> 00:04:08.750 
+tell us that the in mb internal encoding
+is<00:04:06.540> set<00:04:06.720> to<00:04:06.840> utf-8<00:04:07.379> and<00:04:07.650> if<00:04:08.459> you're<00:04:08.579> not<00:04:08.700> sure
+
+00:04:08.750 --> 00:04:08.760 
+is set to utf-8 and if you're not sure
+
+00:04:08.760 --> 00:04:10.759 
+is set to utf-8 and if you're not sure
+for<00:04:09.419> any<00:04:09.540> reason<00:04:09.930> at<00:04:09.989> all<00:04:10.139> you<00:04:10.379> can<00:04:10.500> go<00:04:10.650> ahead
+
+00:04:10.759 --> 00:04:10.769 
+for any reason at all you can go ahead
+
+00:04:10.769 --> 00:04:12.949 
+for any reason at all you can go ahead
+and<00:04:10.919> you<00:04:11.069> can<00:04:11.220> check<00:04:11.430> this<00:04:11.669> by<00:04:11.879> echoing<00:04:12.720> out
+
+00:04:12.949 --> 00:04:12.959 
+and you can check this by echoing out
+
+00:04:12.959 --> 00:04:14.750 
+and you can check this by echoing out
+the<00:04:13.139> value<00:04:13.500> of<00:04:13.709> this<00:04:13.949> function<00:04:14.010> without<00:04:14.459> any
+
+00:04:14.750 --> 00:04:14.760 
+the value of this function without any
+
+00:04:14.760 --> 00:04:16.699 
+the value of this function without any
+arguments<00:04:15.419> let's<00:04:16.049> go<00:04:16.169> ahead<00:04:16.289> and<00:04:16.380> get<00:04:16.530> rid<00:04:16.650> of
+
+00:04:16.699 --> 00:04:16.709 
+arguments let's go ahead and get rid of
+
+00:04:16.709 --> 00:04:18.589 
+arguments let's go ahead and get rid of
+this<00:04:16.859> for<00:04:17.099> now<00:04:17.220> and<00:04:17.400> go<00:04:17.489> ahead<00:04:17.880> and<00:04:18.030> check<00:04:18.239> and
+
+00:04:18.589 --> 00:04:18.599 
+this for now and go ahead and check and
+
+00:04:18.599 --> 00:04:21.529 
+this for now and go ahead and check and
+you<00:04:19.260> can<00:04:19.380> see<00:04:19.560> that<00:04:19.590> it<00:04:19.829> says<00:04:19.949> utf-8<00:04:20.609> so<00:04:21.390> we
+
+00:04:21.529 --> 00:04:21.539 
+you can see that it says utf-8 so we
+
+00:04:21.539 --> 00:04:23.510 
+you can see that it says utf-8 so we
+know<00:04:21.690> that<00:04:21.719> that's<00:04:22.049> been<00:04:22.229> set<00:04:22.440> to<00:04:22.560> utf-8<00:04:23.070> if<00:04:23.280> we
+
+00:04:23.510 --> 00:04:23.520 
+know that that's been set to utf-8 if we
+
+00:04:23.520 --> 00:04:26.839 
+know that that's been set to utf-8 if we
+go<00:04:23.640> ahead<00:04:23.729> and<00:04:23.940> get<00:04:24.030> rid<00:04:24.210> of<00:04:24.240> this<00:04:24.390> line<00:04:25.669> we<00:04:26.669> get
+
+00:04:26.839 --> 00:04:26.849 
+go ahead and get rid of this line we get
+
+00:04:26.849 --> 00:04:27.440 
+go ahead and get rid of this line we get
+the
+
+00:04:27.440 --> 00:04:27.450 
+the
+
+00:04:27.450 --> 00:04:29.900 
+the
+fault<00:04:27.600> so<00:04:28.560> let's<00:04:29.040> go<00:04:29.160> ahead<00:04:29.190> and<00:04:29.340> just<00:04:29.700> put
+
+00:04:29.900 --> 00:04:29.910 
+fault so let's go ahead and just put
+
+00:04:29.910 --> 00:04:31.760 
+fault so let's go ahead and just put
+that<00:04:30.120> back<00:04:30.480> and<00:04:31.050> go<00:04:31.170> ahead<00:04:31.290> and<00:04:31.440> get<00:04:31.560> rid<00:04:31.680> of
+
+00:04:31.760 --> 00:04:31.770 
+that back and go ahead and get rid of
+
+00:04:31.770 --> 00:04:35.750 
+that back and go ahead and get rid of
+this<00:04:31.980> and<00:04:32.630> just<00:04:33.630> use<00:04:33.960> the<00:04:34.140> mb<00:04:34.590> stl<00:04:35.340> n<00:04:35.430> function
+
+00:04:35.750 --> 00:04:35.760 
+this and just use the mb stl n function
+
+00:04:35.760 --> 00:04:38.780 
+this and just use the mb stl n function
+on<00:04:35.970> its<00:04:36.060> own<00:04:36.420> and<00:04:37.130> there<00:04:38.130> we<00:04:38.220> go<00:04:38.250> we<00:04:38.550> get<00:04:38.700> the
+
+00:04:38.780 --> 00:04:38.790 
+on its own and there we go we get the
+
+00:04:38.790 --> 00:04:40.340 
+on its own and there we go we get the
+expected<00:04:39.060> result<00:04:39.540> again<00:04:39.780> so<00:04:39.960> we've<00:04:40.080> done<00:04:40.230> this
+
+00:04:40.340 --> 00:04:40.350 
+expected result again so we've done this
+
+00:04:40.350 --> 00:04:42.650 
+expected result again so we've done this
+in<00:04:40.470> a<00:04:40.560> short<00:04:40.860> sort<00:04:41.490> of<00:04:41.550> short<00:04:41.970> away<00:04:42.300> where<00:04:42.570> we
+
+00:04:42.650 --> 00:04:42.660 
+in a short sort of short away where we
+
+00:04:42.660 --> 00:04:44.090 
+in a short sort of short away where we
+don't<00:04:42.840> have<00:04:43.020> to<00:04:43.110> keep<00:04:43.260> defining<00:04:43.740> this<00:04:43.830> over
+
+00:04:44.090 --> 00:04:44.100 
+don't have to keep defining this over
+
+00:04:44.100 --> 00:04:46.910 
+don't have to keep defining this over
+and<00:04:44.190> over<00:04:44.250> again<00:04:44.600> now<00:04:45.710> there<00:04:46.710> is<00:04:46.800> an
+
+00:04:46.910 --> 00:04:46.920 
+and over again now there is an
+
+00:04:46.920 --> 00:04:48.890 
+and over again now there is an
+alternative<00:04:47.040> so<00:04:47.880> we<00:04:48.150> can<00:04:48.270> go<00:04:48.390> ahead<00:04:48.540> and
+
+00:04:48.890 --> 00:04:48.900 
+alternative so we can go ahead and
+
+00:04:48.900 --> 00:04:52.670 
+alternative so we can go ahead and
+actually<00:04:49.400> UTF<00:04:50.400> decode<00:04:51.000> strings<00:04:51.930> before<00:04:52.230> we
+
+00:04:52.670 --> 00:04:52.680 
+actually UTF decode strings before we
+
+00:04:52.680 --> 00:04:55.730 
+actually UTF decode strings before we
+use<00:04:52.890> str<00:04:53.520> len<00:04:53.790> if<00:04:54.060> you<00:04:54.990> know<00:04:55.110> you<00:04:55.170> absolutely
+
+00:04:55.730 --> 00:04:55.740 
+use str len if you know you absolutely
+
+00:04:55.740 --> 00:04:57.710 
+use str len if you know you absolutely
+want<00:04:55.920> to<00:04:56.220> use<00:04:56.310> left<00:04:56.520> str<00:04:57.150> len<00:04:57.330> you<00:04:57.480> can<00:04:57.600> go
+
+00:04:57.710 --> 00:04:57.720 
+want to use left str len you can go
+
+00:04:57.720 --> 00:04:59.000 
+want to use left str len you can go
+ahead<00:04:57.810> and<00:04:57.930> do<00:04:58.110> this<00:04:58.230> let's<00:04:58.530> go<00:04:58.650> ahead<00:04:58.830> and<00:04:58.950> get
+
+00:04:59.000 --> 00:04:59.010 
+ahead and do this let's go ahead and get
+
+00:04:59.010 --> 00:05:01.340 
+ahead and do this let's go ahead and get
+this<00:04:59.220> mb<00:04:59.670> internal<00:05:00.120> encoding<00:05:00.660> and<00:05:01.110> we'll<00:05:01.260> go
+
+00:05:01.340 --> 00:05:01.350 
+this mb internal encoding and we'll go
+
+00:05:01.350 --> 00:05:02.930 
+this mb internal encoding and we'll go
+ahead<00:05:01.470> and<00:05:01.590> continue<00:05:01.860> to<00:05:02.190> use<00:05:02.400> this<00:05:02.520> accent
+
+00:05:02.930 --> 00:05:02.940 
+ahead and continue to use this accent
+
+00:05:02.940 --> 00:05:04.640 
+ahead and continue to use this accent
+two<00:05:03.060> character<00:05:03.510> we'll<00:05:03.690> go<00:05:04.230> ahead<00:05:04.350> and<00:05:04.500> we'll
+
+00:05:04.640 --> 00:05:04.650 
+two character we'll go ahead and we'll
+
+00:05:04.650 --> 00:05:07.580 
+two character we'll go ahead and we'll
+use<00:05:05.130> str<00:05:05.790> len<00:05:06.060> but<00:05:06.870> what<00:05:06.990> we'll<00:05:07.140> do<00:05:07.290> is<00:05:07.440> we'll
+
+00:05:07.580 --> 00:05:07.590 
+use str len but what we'll do is we'll
+
+00:05:07.590 --> 00:05:13.580 
+use str len but what we'll do is we'll
+go<00:05:07.710> ahead<00:05:07.830> and<00:05:08.450> utf-8<00:05:09.680> decode<00:05:10.680> this<00:05:11.010> and<00:05:12.590> then
+
+00:05:13.580 --> 00:05:13.590 
+go ahead and utf-8 decode this and then
+
+00:05:13.590 --> 00:05:15.230 
+go ahead and utf-8 decode this and then
+go<00:05:13.770> ahead<00:05:13.890> and<00:05:14.040> just<00:05:14.280> provide<00:05:14.610> the<00:05:14.730> utf-8
+
+00:05:15.230 --> 00:05:15.240 
+go ahead and just provide the utf-8
+
+00:05:15.240 --> 00:05:17.360 
+go ahead and just provide the utf-8
+encoded<00:05:15.780> string<00:05:15.930> within<00:05:16.740> the<00:05:16.830> STR<00:05:17.190> Len
+
+00:05:17.360 --> 00:05:17.370 
+encoded string within the STR Len
+
+00:05:17.370 --> 00:05:20.510 
+encoded string within the STR Len
+function<00:05:17.580> again<00:05:18.000> and<00:05:18.510> you<00:05:18.750> see<00:05:18.990> we<00:05:19.290> get<00:05:19.500> one<00:05:20.070> so
+
+00:05:20.510 --> 00:05:20.520 
+function again and you see we get one so
+
+00:05:20.520 --> 00:05:22.760 
+function again and you see we get one so
+that's<00:05:20.760> another<00:05:21.090> option<00:05:21.560> now<00:05:22.560> there<00:05:22.740> are
+
+00:05:22.760 --> 00:05:22.770 
+that's another option now there are
+
+00:05:22.770 --> 00:05:25.310 
+that's another option now there are
+other<00:05:23.160> ways<00:05:23.430> to<00:05:23.460> do<00:05:23.820> this<00:05:23.850> I<00:05:24.240> think<00:05:25.080> probably
+
+00:05:25.310 --> 00:05:25.320 
+other ways to do this I think probably
+
+00:05:25.320 --> 00:05:28.430 
+other ways to do this I think probably
+the<00:05:25.650> most<00:05:26.280> efficient<00:05:27.000> way<00:05:27.060> however<00:05:27.510> would<00:05:28.290> be
+
+00:05:28.430 --> 00:05:28.440 
+the most efficient way however would be
+
+00:05:28.440 --> 00:05:29.960 
+the most efficient way however would be
+to<00:05:28.590> go<00:05:28.710> ahead<00:05:28.830> and<00:05:29.130> create<00:05:29.370> some<00:05:29.670> kind<00:05:29.820> of
+
+00:05:29.960 --> 00:05:29.970 
+to go ahead and create some kind of
+
+00:05:29.970 --> 00:05:32.720 
+to go ahead and create some kind of
+rapper<00:05:30.330> functionality<00:05:31.320> in<00:05:32.070> your<00:05:32.220> current<00:05:32.610> or
+
+00:05:32.720 --> 00:05:32.730 
+rapper functionality in your current or
+
+00:05:32.730 --> 00:05:35.000 
+rapper functionality in your current or
+next<00:05:33.030> application<00:05:33.450> so<00:05:34.020> for<00:05:34.590> example<00:05:34.650> you
+
+00:05:35.000 --> 00:05:35.010 
+next application so for example you
+
+00:05:35.010 --> 00:05:36.830 
+next application so for example you
+could<00:05:35.280> provide<00:05:35.580> a<00:05:35.640> function<00:05:36.180> or<00:05:36.330> method<00:05:36.360> as
+
+00:05:36.830 --> 00:05:36.840 
+could provide a function or method as
+
+00:05:36.840 --> 00:05:38.600 
+could provide a function or method as
+part<00:05:37.080> of<00:05:37.110> a<00:05:37.170> class<00:05:37.410> to<00:05:37.740> just<00:05:37.950> contain<00:05:38.370> all<00:05:38.520> of
+
+00:05:38.600 --> 00:05:38.610 
+part of a class to just contain all of
+
+00:05:38.610 --> 00:05:40.790 
+part of a class to just contain all of
+this<00:05:38.790> functionality<00:05:39.240> so<00:05:40.020> basically<00:05:40.440> then<00:05:40.650> you
+
+00:05:40.790 --> 00:05:40.800 
+this functionality so basically then you
+
+00:05:40.800 --> 00:05:43.730 
+this functionality so basically then you
+don't<00:05:41.010> have<00:05:41.100> to<00:05:41.340> keep<00:05:41.460> using<00:05:41.700> mb/s<00:05:42.690> tln<00:05:43.260> or
+
+00:05:43.730 --> 00:05:43.740 
+don't have to keep using mb/s tln or
+
+00:05:43.740 --> 00:05:46.010 
+don't have to keep using mb/s tln or
+utf-8<00:05:44.460> decode<00:05:44.880> or<00:05:45.210> any<00:05:45.360> other<00:05:45.630> methods<00:05:45.930> that
+
+00:05:46.010 --> 00:05:46.020 
+utf-8 decode or any other methods that
+
+00:05:46.020 --> 00:05:48.140 
+utf-8 decode or any other methods that
+you<00:05:46.140> can<00:05:46.170> use<00:05:46.440> that's<00:05:46.860> available<00:05:47.040> to<00:05:47.820> go<00:05:47.940> ahead
+
+00:05:48.140 --> 00:05:48.150 
+you can use that's available to go ahead
+
+00:05:48.150 --> 00:05:50.300 
+you can use that's available to go ahead
+count<00:05:48.510> characters<00:05:48.990> properly<00:05:49.350> so<00:05:49.980> the<00:05:50.100> wrapper
+
+00:05:50.300 --> 00:05:50.310 
+count characters properly so the wrapper
+
+00:05:50.310 --> 00:05:52.430 
+count characters properly so the wrapper
+functionality<00:05:51.000> is<00:05:51.060> a<00:05:51.150> good<00:05:51.300> way<00:05:51.420> to<00:05:51.480> go<00:05:51.780> but<00:05:52.350> in
+
+00:05:52.430 --> 00:05:52.440 
+functionality is a good way to go but in
+
+00:05:52.440 --> 00:05:53.930 
+functionality is a good way to go but in
+terms<00:05:52.620> of<00:05:52.740> just<00:05:52.920> demonstrating<00:05:53.610> this<00:05:53.700> we've
+
+00:05:53.930 --> 00:05:53.940 
+terms of just demonstrating this we've
+
+00:05:53.940 --> 00:05:56.750 
+terms of just demonstrating this we've
+seen<00:05:54.210> how<00:05:54.420> str<00:05:55.020> Len<00:05:55.200> is<00:05:55.350> not<00:05:55.770> reliable<00:05:56.070> for
+
+00:05:56.750 --> 00:05:56.760 
+seen how str Len is not reliable for
+
+00:05:56.760 --> 00:05:58.790 
+seen how str Len is not reliable for
+counting<00:05:57.150> character<00:05:57.780> length<00:05:57.960> and<00:05:58.260> you<00:05:58.650> should
+
+00:05:58.790 --> 00:05:58.800 
+counting character length and you should
+
+00:05:58.800 --> 00:06:00.020 
+counting character length and you should
+go<00:05:58.890> ahead<00:05:58.920> and<00:05:59.160> use<00:05:59.520> one<00:05:59.700> of<00:05:59.730> the<00:05:59.910> alternatives
+
+00:06:00.020 --> 00:06:00.030 
+go ahead and use one of the alternatives
+
+00:06:00.030 --> 00:06:03.140 
+go ahead and use one of the alternatives
+to<00:06:00.570> be<00:06:00.660> spoken<00:06:00.870> about
+
