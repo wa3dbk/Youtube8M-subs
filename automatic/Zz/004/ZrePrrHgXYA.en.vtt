@@ -1,0 +1,616 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:05.589 --> 00:00:08.220 
+
+today<00:00:06.589> I'm<00:00:06.680> going<00:00:06.799> to<00:00:06.890> be<00:00:06.950> showing<00:00:07.190> you<00:00:07.370> how<00:00:07.399> to
+
+00:00:08.220 --> 00:00:08.230 
+today I'm going to be showing you how to
+
+00:00:08.230 --> 00:00:14.050 
+today I'm going to be showing you how to
+make<00:00:09.230> a<00:00:10.930> simple<00:00:11.930> map<00:00:12.440> application<00:00:13.400> with<00:00:13.790> the
+
+00:00:14.050 --> 00:00:14.060 
+make a simple map application with the
+
+00:00:14.060 --> 00:00:20.080 
+make a simple map application with the
+MK<00:00:14.540> map<00:00:14.750> kit<00:00:17.200> foundation<00:00:18.580> just<00:00:19.580> a<00:00:19.670> basic
+
+00:00:20.080 --> 00:00:20.090 
+MK map kit foundation just a basic
+
+00:00:20.090 --> 00:00:24.279 
+MK map kit foundation just a basic
+simple<00:00:21.760> map<00:00:22.760> that<00:00:23.090> shows<00:00:23.360> what<00:00:23.600> your<00:00:23.690> location
+
+00:00:24.279 --> 00:00:24.289 
+simple map that shows what your location
+
+00:00:24.289 --> 00:00:28.080 
+simple map that shows what your location
+is<00:00:24.550> let's<00:00:25.550> get<00:00:25.700> started<00:00:26.180> going<00:00:26.780> Xcode<00:00:27.200> file
+
+00:00:28.080 --> 00:00:28.090 
+is let's get started going Xcode file
+
+00:00:28.090 --> 00:00:33.970 
+is let's get started going Xcode file
+new<00:00:29.090> project<00:00:29.119> and<00:00:30.520> new<00:00:31.520> base<00:00:31.730> will<00:00:32.150> be<00:00:32.270> fine<00:00:32.980> we
+
+00:00:33.970 --> 00:00:33.980 
+new project and new base will be fine we
+
+00:00:33.980 --> 00:00:38.170 
+new project and new base will be fine we
+can<00:00:34.070> call<00:00:34.280> it<00:00:34.400> math<00:00:35.110> whatever<00:00:36.110> you<00:00:36.200> want<00:00:37.180> okay
+
+00:00:38.170 --> 00:00:38.180 
+can call it math whatever you want okay
+
+00:00:38.180 --> 00:00:40.740 
+can call it math whatever you want okay
+first<00:00:38.570> we<00:00:38.960> want<00:00:39.110> to<00:00:39.200> go<00:00:39.290> into<00:00:39.410> free<00:00:39.680> months<00:00:40.070> and
+
+00:00:40.740 --> 00:00:40.750 
+first we want to go into free months and
+
+00:00:40.750 --> 00:00:43.600 
+first we want to go into free months and
+we<00:00:41.750> want<00:00:41.960> to<00:00:42.140> click<00:00:42.290> on<00:00:42.440> this<00:00:42.649> actually<00:00:43.340> right
+
+00:00:43.600 --> 00:00:43.610 
+we want to click on this actually right
+
+00:00:43.610 --> 00:00:46.870 
+we want to click on this actually right
+click<00:00:43.880> on<00:00:44.030> that<00:00:44.060> and<00:00:44.440> click<00:00:45.440> reveal<00:00:46.309> and<00:00:46.520> find
+
+00:00:46.870 --> 00:00:46.880 
+click on that and click reveal and find
+
+00:00:46.880 --> 00:00:50.380 
+click on that and click reveal and find
+her<00:00:47.290> so<00:00:48.290> we<00:00:48.649> want<00:00:48.950> to<00:00:49.040> go<00:00:49.280> and<00:00:49.579> find<00:00:49.970> the<00:00:50.120> map
+
+00:00:50.380 --> 00:00:50.390 
+her so we want to go and find the map
+
+00:00:50.390 --> 00:00:53.830 
+her so we want to go and find the map
+kit<00:00:50.690> framework<00:00:51.610> so<00:00:52.610> we<00:00:52.910> drag<00:00:53.180> the<00:00:53.329> map<00:00:53.510> kit
+
+00:00:53.830 --> 00:00:53.840 
+kit framework so we drag the map kit
+
+00:00:53.840 --> 00:00:56.410 
+kit framework so we drag the map kit
+framework<00:00:54.320> right<00:00:54.829> into<00:00:55.100> there<00:00:55.250> so<00:00:55.969> that<00:00:56.149> maps
+
+00:00:56.410 --> 00:00:56.420 
+framework right into there so that maps
+
+00:00:56.420 --> 00:00:59.220 
+framework right into there so that maps
+will<00:00:56.960> work<00:00:57.200> and<00:00:57.440> that's<00:00:58.250> so<00:00:58.460> need<00:00:58.730> right<00:00:58.969> there
+
+00:00:59.220 --> 00:00:59.230 
+will work and that's so need right there
+
+00:00:59.230 --> 00:01:03.130 
+will work and that's so need right there
+now<00:01:00.230> the<00:01:00.590> code<00:01:00.860> is<00:01:00.940> really<00:01:01.940> really<00:01:02.360> simple
+
+00:01:03.130 --> 00:01:03.140 
+now the code is really really simple
+
+00:01:03.140 --> 00:01:09.510 
+now the code is really really simple
+for<00:01:03.800> a<00:01:03.829> basic<00:01:04.189> just<00:01:05.350> choose<00:01:06.350> your<00:01:06.469> location<00:01:07.990> so
+
+00:01:09.510 --> 00:01:09.520 
+for a basic just choose your location so
+
+00:01:09.520 --> 00:01:14.999 
+for a basic just choose your location so
+before<00:01:10.520> here<00:01:10.759> we're<00:01:11.299> going<00:01:11.630> to<00:01:12.819> import<00:01:13.840> the
+
+00:01:14.999 --> 00:01:15.009 
+before here we're going to import the
+
+00:01:15.009 --> 00:01:24.519 
+before here we're going to import the
+empty<00:01:16.009> market<00:01:19.929> map<00:01:20.929> kit<00:01:22.179> slash<00:01:23.179> map<00:01:23.479> cake<00:01:23.719> dot
+
+00:01:24.519 --> 00:01:24.529 
+empty market map kit slash map cake dot
+
+00:01:24.529 --> 00:01:27.269 
+empty market map kit slash map cake dot
+H<00:01:24.799> and<00:01:25.159> we'll<00:01:25.520> just<00:01:25.639> close<00:01:25.819> that<00:01:25.880> off<00:01:26.060> with<00:01:26.539> the
+
+00:01:27.269 --> 00:01:27.279 
+H and we'll just close that off with the
+
+00:01:27.279 --> 00:01:32.410 
+H and we'll just close that off with the
+these<00:01:28.279> and<00:01:29.560> now<00:01:30.560> we're<00:01:30.770> gonna<00:01:30.859> do<00:01:31.240> in<00:01:32.240> between
+
+00:01:32.410 --> 00:01:32.420 
+these and now we're gonna do in between
+
+00:01:32.420 --> 00:01:39.999 
+these and now we're gonna do in between
+the<00:01:32.689> brackets<00:01:34.359> MK<00:01:35.359> map<00:01:36.909> view<00:01:37.909> and<00:01:38.829> we'll<00:01:39.829> call
+
+00:01:39.999 --> 00:01:40.009 
+the brackets MK map view and we'll call
+
+00:01:40.009 --> 00:01:44.109 
+the brackets MK map view and we'll call
+it<00:01:40.240> map<00:01:41.649> view
+
+00:01:44.109 --> 00:01:44.119 
+it map view
+
+00:01:44.119 --> 00:01:48.190 
+it map view
+yeah<00:01:44.509> I'm<00:01:44.599> not<00:01:44.719> views<00:01:45.020> the<00:01:45.289> easiest<00:01:45.679> and<00:01:47.079> so<00:01:48.079> we
+
+00:01:48.190 --> 00:01:48.200 
+yeah I'm not views the easiest and so we
+
+00:01:48.200 --> 00:01:51.279 
+yeah I'm not views the easiest and so we
+just<00:01:48.439> made<00:01:48.829> a<00:01:49.759> map<00:01:50.090> view<00:01:50.119> and<00:01:50.599> now<00:01:50.779> we're<00:01:51.139> gonna
+
+00:01:51.279 --> 00:01:51.289 
+just made a map view and now we're gonna
+
+00:01:51.289 --> 00:01:59.099 
+just made a map view and now we're gonna
+do<00:01:51.560> an<00:01:52.340> app<00:01:52.700> property<00:01:55.689> non-atomic<00:01:56.689> retain
+
+00:01:59.099 --> 00:01:59.109 
+do an app property non-atomic retain
+
+00:01:59.109 --> 00:02:11.050 
+do an app property non-atomic retain
+iboutlet<00:02:01.060> MK<00:02:02.060> map<00:02:02.899> view<00:02:04.959> sorry<00:02:06.279> map<00:02:08.410> okay<00:02:10.060> so
+
+00:02:11.050 --> 00:02:11.060 
+iboutlet MK map view sorry map okay so
+
+00:02:11.060 --> 00:02:12.590 
+iboutlet MK map view sorry map okay so
+that's<00:02:11.210> all<00:02:11.390> you<00:02:11.480> need<00:02:11.630> in<00:02:11.780> here
+
+00:02:12.590 --> 00:02:12.600 
+that's all you need in here
+
+00:02:12.600 --> 00:02:18.600 
+that's all you need in here
+save<00:02:13.600> that<00:02:13.870> going<00:02:14.680> to<00:02:14.800> the<00:02:14.890> dot<00:02:15.040> em<00:02:15.280> and<00:02:17.610> now
+
+00:02:18.600 --> 00:02:18.610 
+save that going to the dot em and now
+
+00:02:18.610 --> 00:02:19.580 
+save that going to the dot em and now
+we're<00:02:18.760> gonna<00:02:18.880> have<00:02:19.030> to<00:02:19.180> sense<00:02:19.480> the
+
+00:02:19.580 --> 00:02:19.590 
+we're gonna have to sense the
+
+00:02:19.590 --> 00:02:21.390 
+we're gonna have to sense the
+synthesized<00:02:20.590> it<00:02:20.830> under<00:02:21.130> the<00:02:21.250> at
+
+00:02:21.390 --> 00:02:21.400 
+synthesized it under the at
+
+00:02:21.400 --> 00:02:23.810 
+synthesized it under the at
+implementation<00:02:22.110> so<00:02:23.110> you<00:02:23.230> can<00:02:23.350> do<00:02:23.500> act
+
+00:02:23.810 --> 00:02:23.820 
+implementation so you can do act
+
+00:02:23.820 --> 00:02:27.780 
+implementation so you can do act
+synthesized<00:02:25.380> by<00:02:26.380> Matthew<00:02:27.100> or<00:02:27.400> whatever<00:02:27.670> you
+
+00:02:27.780 --> 00:02:27.790 
+synthesized by Matthew or whatever you
+
+00:02:27.790 --> 00:02:32.430 
+synthesized by Matthew or whatever you
+call<00:02:28.000> it<00:02:28.030> it<00:02:28.590> so<00:02:30.090> and<00:02:31.090> now<00:02:31.330> you<00:02:32.080> don't<00:02:32.260> have<00:02:32.320> to
+
+00:02:32.430 --> 00:02:32.440 
+call it it so and now you don't have to
+
+00:02:32.440 --> 00:02:34.050 
+call it it so and now you don't have to
+mess<00:02:32.590> around<00:02:32.740> with<00:02:32.890> this<00:02:33.130> it's<00:02:33.370> one<00:02:33.760> simple
+
+00:02:34.050 --> 00:02:34.060 
+mess around with this it's one simple
+
+00:02:34.060 --> 00:02:38.870 
+mess around with this it's one simple
+very<00:02:34.450> simple<00:02:34.690> on<00:02:34.960> a<00:02:34.990> code<00:02:35.760> uncomment<00:02:36.760> this<00:02:37.320> and
+
+00:02:38.870 --> 00:02:38.880 
+very simple on a code uncomment this and
+
+00:02:38.880 --> 00:02:40.980 
+very simple on a code uncomment this and
+remember<00:02:39.880> this<00:02:40.000> is<00:02:40.150> just<00:02:40.180> there<00:02:40.720> will
+
+00:02:40.980 --> 00:02:40.990 
+remember this is just there will
+
+00:02:40.990 --> 00:02:45.210 
+remember this is just there will
+definitely<00:02:41.710> be<00:02:42.130> a<00:02:42.310> part<00:02:42.610> two<00:02:42.880> with<00:02:43.180> like<00:02:44.220> more
+
+00:02:45.210 --> 00:02:45.220 
+definitely be a part two with like more
+
+00:02:45.220 --> 00:02:52.050 
+definitely be a part two with like more
+actions<00:02:45.910> and<00:02:47.220> stuff<00:02:48.300> like<00:02:49.300> that<00:02:49.570> so<00:02:50.820> out<00:02:51.820> of
+
+00:02:52.050 --> 00:02:52.060 
+actions and stuff like that so out of
+
+00:02:52.060 --> 00:02:54.480 
+actions and stuff like that so out of
+this<00:02:52.660> right<00:02:53.020> after<00:02:53.290> these<00:02:53.560> press<00:02:54.100> man<00:02:54.280> here
+
+00:02:54.480 --> 00:02:54.490 
+this right after these press man here
+
+00:02:54.490 --> 00:02:56.370 
+this right after these press man here
+and<00:02:54.670> we'll<00:02:55.600> do<00:02:55.780> Matt
+
+00:02:56.370 --> 00:02:56.380 
+and we'll do Matt
+
+00:02:56.380 --> 00:03:01.470 
+and we'll do Matt
+vo<00:02:56.740> dot<00:02:57.730> show<00:02:58.660> shows<00:02:59.590> user<00:03:00.040> location<00:03:00.480> pretty
+
+00:03:01.470 --> 00:03:01.480 
+vo dot show shows user location pretty
+
+00:03:01.480 --> 00:03:04.500 
+vo dot show shows user location pretty
+much<00:03:01.690> self-explanatory<00:03:02.490> it<00:03:03.490> means<00:03:03.730> it's
+
+00:03:04.500 --> 00:03:04.510 
+much self-explanatory it means it's
+
+00:03:04.510 --> 00:03:07.130 
+much self-explanatory it means it's
+going<00:03:04.750> to<00:03:04.840> show<00:03:05.050> where<00:03:05.620> your<00:03:05.770> location<00:03:06.130> is<00:03:06.370> and
+
+00:03:07.130 --> 00:03:07.140 
+going to show where your location is and
+
+00:03:07.140 --> 00:03:18.530 
+going to show where your location is and
+equals<00:03:08.140> yes<00:03:08.680> you<00:03:09.340> want<00:03:09.640> it<00:03:09.730> to<00:03:09.880> do<00:03:10.000> that<00:03:15.180> and
+
+00:03:18.530 --> 00:03:18.540 
+
+00:03:18.540 --> 00:03:21.300 
+
+close<00:03:19.540> that<00:03:19.870> make<00:03:20.230> sure<00:03:20.380> it's<00:03:20.769> already<00:03:21.070> close
+
+00:03:21.300 --> 00:03:21.310 
+close that make sure it's already close
+
+00:03:21.310 --> 00:03:24.780 
+close that make sure it's already close
+and<00:03:21.730> now<00:03:22.690> I'll<00:03:22.870> go<00:03:23.050> down<00:03:23.230> here<00:03:23.560> and<00:03:23.769> we<00:03:24.760> can
+
+00:03:24.780 --> 00:03:24.790 
+and now I'll go down here and we can
+
+00:03:24.790 --> 00:03:28.290 
+and now I'll go down here and we can
+release<00:03:25.239> the<00:03:25.810> map<00:03:26.019> view<00:03:26.790> so<00:03:27.790> you<00:03:27.910> can<00:03:28.030> your<00:03:28.120> map
+
+00:03:28.290 --> 00:03:28.300 
+release the map view so you can your map
+
+00:03:28.300 --> 00:03:36.300 
+release the map view so you can your map
+you<00:03:28.870> release<00:03:32.940> and<00:03:34.650> that's<00:03:35.650> all<00:03:36.010> we<00:03:36.130> need<00:03:36.280> for
+
+00:03:36.300 --> 00:03:36.310 
+you release and that's all we need for
+
+00:03:36.310 --> 00:03:39.360 
+you release and that's all we need for
+the<00:03:36.550> coding<00:03:36.910> production<00:03:37.360> pretty<00:03:37.870> simple<00:03:38.370> so
+
+00:03:39.360 --> 00:03:39.370 
+the coding production pretty simple so
+
+00:03:39.370 --> 00:03:41.100 
+the coding production pretty simple so
+save<00:03:39.610> that<00:03:39.820> and<00:03:40.120> build<00:03:40.480> it<00:03:40.630> just<00:03:40.900> to<00:03:40.959> make<00:03:41.050> sure
+
+00:03:41.100 --> 00:03:41.110 
+save that and build it just to make sure
+
+00:03:41.110 --> 00:03:46.949 
+save that and build it just to make sure
+there's<00:03:41.440> no<00:03:41.590> errors<00:03:42.959> there<00:03:43.959> is<00:03:44.260> an<00:03:44.440> error<00:03:45.959> no
+
+00:03:46.949 --> 00:03:46.959 
+there's no errors there is an error no
+
+00:03:46.959 --> 00:03:52.590 
+there's no errors there is an error no
+declaration<00:03:47.709> of<00:03:47.860> Matt<00:03:48.100> B<00:03:48.310> oh<00:03:49.739> oops<00:03:51.420> got<00:03:52.420> to
+
+00:03:52.590 --> 00:03:52.600 
+declaration of Matt B oh oops got to
+
+00:03:52.600 --> 00:03:54.180 
+declaration of Matt B oh oops got to
+capitalize<00:03:52.810> that<00:03:53.080> and<00:03:53.500> be<00:03:53.709> careful<00:03:54.070> with
+
+00:03:54.180 --> 00:03:54.190 
+capitalize that and be careful with
+
+00:03:54.190 --> 00:03:58.290 
+capitalize that and be careful with
+those<00:03:54.510> say<00:03:55.510> that<00:03:55.750> and<00:03:56.100> succeeded<00:03:57.100> so<00:03:58.000> we'll<00:03:58.180> go
+
+00:03:58.290 --> 00:03:58.300 
+those say that and succeeded so we'll go
+
+00:03:58.300 --> 00:04:01.350 
+those say that and succeeded so we'll go
+into<00:03:58.800> resources<00:03:59.800> and<00:04:00.100> we'll<00:04:00.280> go<00:04:00.400> into<00:04:00.550> map<00:04:00.790> you
+
+00:04:01.350 --> 00:04:01.360 
+into resources and we'll go into map you
+
+00:04:01.360 --> 00:04:04.920 
+into resources and we'll go into map you
+controller<00:04:01.780> that<00:04:01.900> XIV<00:04:02.530> and<00:04:03.660> we're<00:04:04.660> just<00:04:04.810> gonna
+
+00:04:04.920 --> 00:04:04.930 
+controller that XIV and we're just gonna
+
+00:04:04.930 --> 00:04:11.310 
+controller that XIV and we're just gonna
+build<00:04:05.140> interface<00:04:06.130> um<00:04:06.580> really<00:04:07.300> easy<00:04:09.810> okay<00:04:10.810> now
+
+00:04:11.310 --> 00:04:11.320 
+build interface um really easy okay now
+
+00:04:11.320 --> 00:04:17.820 
+build interface um really easy okay now
+obviously<00:04:11.940> we're<00:04:12.940> gonna<00:04:13.030> pick<00:04:13.720> a<00:04:14.489> map<00:04:15.489> view<00:04:16.830> we
+
+00:04:17.820 --> 00:04:17.830 
+obviously we're gonna pick a map view we
+
+00:04:17.830 --> 00:04:24.390 
+obviously we're gonna pick a map view we
+can<00:04:18.160> drag<00:04:18.640> in<00:04:19.000> and<00:04:22.050> we<00:04:23.050> can<00:04:23.169> you<00:04:23.740> can<00:04:24.010> drag<00:04:24.220> that
+
+00:04:24.390 --> 00:04:24.400 
+can drag in and we can you can drag that
+
+00:04:24.400 --> 00:04:26.340 
+can drag in and we can you can drag that
+in<00:04:24.580> but<00:04:24.789> I'm<00:04:24.910> not<00:04:25.060> going<00:04:25.390> to
+
+00:04:26.340 --> 00:04:26.350 
+in but I'm not going to
+
+00:04:26.350 --> 00:04:30.750 
+in but I'm not going to
+so<00:04:26.860> now<00:04:27.130> click<00:04:27.280> on<00:04:28.170> files<00:04:29.170> owner<00:04:29.530> go<00:04:30.430> into<00:04:30.670> the
+
+00:04:30.750 --> 00:04:30.760 
+so now click on files owner go into the
+
+00:04:30.760 --> 00:04:34.110 
+so now click on files owner go into the
+connections<00:04:31.270> and<00:04:31.630> drag<00:04:32.380> the<00:04:32.530> Matthew<00:04:33.120> its
+
+00:04:34.110 --> 00:04:34.120 
+connections and drag the Matthew its
+
+00:04:34.120 --> 00:04:38.070 
+connections and drag the Matthew its
+Matthew<00:04:34.980> save<00:04:35.980> that<00:04:36.250> and<00:04:36.940> quit<00:04:37.330> and<00:04:37.480> we're
+
+00:04:38.070 --> 00:04:38.080 
+Matthew save that and quit and we're
+
+00:04:38.080 --> 00:04:40.700 
+Matthew save that and quit and we're
+done<00:04:38.350> so<00:04:38.920> let's<00:04:39.160> build<00:04:39.400> an<00:04:39.550> on<00:04:39.700> test<00:04:40.030> this<00:04:40.210> app
+
+00:04:40.700 --> 00:04:40.710 
+done so let's build an on test this app
+
+00:04:40.710 --> 00:04:43.380 
+done so let's build an on test this app
+it<00:04:41.710> will<00:04:41.800> not<00:04:42.010> show<00:04:42.400> it'll<00:04:42.790> just<00:04:43.000> show<00:04:43.060> the
+
+00:04:43.380 --> 00:04:43.390 
+it will not show it'll just show the
+
+00:04:43.390 --> 00:04:46.470 
+it will not show it'll just show the
+default<00:04:43.780> location<00:04:43.900> on<00:04:44.710> the<00:04:45.310> simulator<00:04:45.730> but<00:04:45.970> I
+
+00:04:46.470 --> 00:04:46.480 
+default location on the simulator but I
+
+00:04:46.480 --> 00:04:50.310 
+default location on the simulator but I
+did<00:04:46.720> try<00:04:46.990> it<00:04:47.050> on<00:04:47.320> the<00:04:47.530> phone<00:04:47.770> and<00:04:48.070> it<00:04:48.220> works<00:04:49.320> so
+
+00:04:50.310 --> 00:04:50.320 
+did try it on the phone and it works so
+
+00:04:50.320 --> 00:04:54.510 
+did try it on the phone and it works so
+you<00:04:50.350> can<00:04:50.620> try<00:04:50.800> that<00:04:52.350> so<00:04:53.350> you<00:04:53.440> see<00:04:53.590> it<00:04:54.040> pops<00:04:54.340> up
+
+00:04:54.510 --> 00:04:54.520 
+you can try that so you see it pops up
+
+00:04:54.520 --> 00:04:58.770 
+you can try that so you see it pops up
+with<00:04:54.820> the<00:04:56.850> default<00:04:57.850> location<00:04:57.970> because<00:04:58.660> it
+
+00:04:58.770 --> 00:04:58.780 
+with the default location because it
+
+00:04:58.780 --> 00:05:00.870 
+with the default location because it
+doesn't<00:04:59.050> work<00:04:59.170> on<00:04:59.350> the<00:04:59.470> simulator<00:04:59.920> and<00:05:00.130> you
+
+00:05:00.870 --> 00:05:00.880 
+doesn't work on the simulator and you
+
+00:05:00.880 --> 00:05:04.050 
+doesn't work on the simulator and you
+see<00:05:01.150> you<00:05:01.510> see<00:05:01.750> that<00:05:01.780> you<00:05:02.050> can<00:05:02.640> double<00:05:03.640> tap<00:05:03.820> to
+
+00:05:04.050 --> 00:05:04.060 
+see you see that you can double tap to
+
+00:05:04.060 --> 00:05:12.390 
+see you see that you can double tap to
+zoom<00:05:04.270> in<00:05:07.560> or<00:05:09.180> to<00:05:10.180> finger<00:05:10.540> pinch<00:05:10.840> and<00:05:11.170> it<00:05:12.010> shows
+
+00:05:12.390 --> 00:05:12.400 
+zoom in or to finger pinch and it shows
+
+00:05:12.400 --> 00:05:17.870 
+zoom in or to finger pinch and it shows
+like<00:05:13.440> somewhere<00:05:14.440> in<00:05:14.500> California<00:05:15.160> I<00:05:15.810> also<00:05:16.810> um
+
+00:05:17.870 --> 00:05:17.880 
+like somewhere in California I also um
+
+00:05:17.880 --> 00:05:20.580 
+like somewhere in California I also um
+you<00:05:18.880> can<00:05:19.000> go<00:05:19.120> back<00:05:19.300> into<00:05:19.510> go<00:05:20.050> into<00:05:20.500> the
+
+00:05:20.580 --> 00:05:20.590 
+you can go back into go into the
+
+00:05:20.590 --> 00:05:27.390 
+you can go back into go into the
+controller<00:05:21.540> and<00:05:24.750> you<00:05:25.750> can<00:05:25.870> click<00:05:26.050> on<00:05:26.170> that<00:05:26.400> you
+
+00:05:27.390 --> 00:05:27.400 
+controller and you can click on that you
+
+00:05:27.400 --> 00:05:31.500 
+controller and you can click on that you
+can<00:05:27.520> go<00:05:27.640> into<00:05:27.760> the<00:05:28.000> attributes<00:05:28.660> and<00:05:29.610> you<00:05:30.610> can
+
+00:05:31.500 --> 00:05:31.510 
+can go into the attributes and you can
+
+00:05:31.510 --> 00:05:34.860 
+can go into the attributes and you can
+do<00:05:31.780> a<00:05:31.810> satellite<00:05:32.410> or<00:05:32.590> a<00:05:32.650> hybrid<00:05:33.360> so<00:05:34.360> let's<00:05:34.570> do<00:05:34.840> a
+
+00:05:34.860 --> 00:05:34.870 
+do a satellite or a hybrid so let's do a
+
+00:05:34.870 --> 00:05:38.970 
+do a satellite or a hybrid so let's do a
+hybrid<00:05:35.410> and<00:05:36.690> it<00:05:37.690> shows<00:05:37.960> loose<00:05:38.200> location<00:05:38.800> just
+
+00:05:38.970 --> 00:05:38.980 
+hybrid and it shows loose location just
+
+00:05:38.980 --> 00:05:42.270 
+hybrid and it shows loose location just
+make<00:05:39.100> sure<00:05:39.280> you<00:05:40.060> yeah<00:05:40.810> multiple<00:05:41.800> touch<00:05:42.010> make
+
+00:05:42.270 --> 00:05:42.280 
+make sure you yeah multiple touch make
+
+00:05:42.280 --> 00:05:48.800 
+make sure you yeah multiple touch make
+sure<00:05:42.460> save<00:05:43.450> click<00:05:43.870> build<00:05:44.710> and<00:05:44.860> run<00:05:46.470> so<00:05:47.470> now
+
+00:05:48.800 --> 00:05:48.810 
+sure save click build and run so now
+
+00:05:48.810 --> 00:05:51.870 
+sure save click build and run so now
+when<00:05:49.810> it<00:05:49.900> loads<00:05:50.050> up<00:05:50.350> you'll<00:05:51.130> see<00:05:51.370> you<00:05:51.490> get<00:05:51.640> the
+
+00:05:51.870 --> 00:05:51.880 
+when it loads up you'll see you get the
+
+00:05:51.880 --> 00:05:54.600 
+when it loads up you'll see you get the
+satellite<00:05:52.570> version<00:05:53.050> and<00:05:53.260> it<00:05:54.130> will<00:05:54.370> show
+
+00:05:54.600 --> 00:05:54.610 
+satellite version and it will show
+
+00:05:54.610 --> 00:05:57.860 
+satellite version and it will show
+wherever<00:05:55.480> you<00:05:55.780> are<00:05:55.840> I<00:05:55.990> am<00:05:56.320> NOT<00:05:56.560> in<00:05:56.800> California
+
+00:05:57.860 --> 00:05:57.870 
+wherever you are I am NOT in California
+
+00:05:57.870 --> 00:06:02.970 
+wherever you are I am NOT in California
+if<00:05:58.870> it<00:05:59.290> is<00:05:59.680> on<00:05:59.950> the<00:06:00.070> phone<00:06:01.680> so<00:06:02.680> that's
+
+00:06:02.970 --> 00:06:02.980 
+if it is on the phone so that's
+
+00:06:02.980 --> 00:06:06.110 
+if it is on the phone so that's
+basically<00:06:03.400> how<00:06:03.550> to<00:06:03.610> make<00:06:03.820> a<00:06:03.850> simple<00:06:05.070> map
+
+00:06:06.110 --> 00:06:06.120 
+basically how to make a simple map
+
+00:06:06.120 --> 00:06:08.490 
+basically how to make a simple map
+application<00:06:07.120> there<00:06:07.300> will<00:06:07.330> be<00:06:07.570> a<00:06:07.810> second<00:06:08.440> part
+
+00:06:08.490 --> 00:06:08.500 
+application there will be a second part
+
+00:06:08.500 --> 00:06:11.460 
+application there will be a second part
+or<00:06:08.890> another<00:06:09.460> video<00:06:09.760> and<00:06:10.450> a<00:06:10.540> more<00:06:10.750> detailed<00:06:11.260> one
+
+00:06:11.460 --> 00:06:11.470 
+or another video and a more detailed one
+
+00:06:11.470 --> 00:06:15.120 
+or another video and a more detailed one
+thank<00:06:12.370> you<00:06:12.460> for<00:06:12.550> watching<00:06:12.670> goodbye
+

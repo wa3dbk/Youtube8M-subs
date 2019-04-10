@@ -1,0 +1,154 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.420 --> 00:00:06.840
+In part 1 of the companion video, I gave a
+very simple explanation of Expect, or E-values,
+
+00:00:06.840 --> 00:00:08.230
+and how they are used.
+
+00:00:08.230 --> 00:00:14.030
+Here, I’ll answer a few common questions
+about E-values that we get at NCBI.
+
+00:00:14.030 --> 00:00:18.000
+Question #1:
+How are scores and E-values related?
+
+00:00:18.000 --> 00:00:22.130
+In simple terms, the higher the score the
+lower the E-value.
+
+00:00:22.130 --> 00:00:26.960
+This makes sense in light of the simple definition
+of E-value, the number of hits you expect
+
+00:00:26.960 --> 00:00:28.190
+to see by chance.
+
+00:00:28.190 --> 00:00:33.239
+It also makes sense if you think of E-values
+as a false positive rate.
+
+00:00:33.239 --> 00:00:39.120
+Take a look at formula #3 in “The Statistics
+of Sequence Similarity Scores”, which has
+
+00:00:39.120 --> 00:00:41.879
+a link on the BLAST Help page.
+
+00:00:41.879 --> 00:00:48.089
+In addtion to defining a normalized, or bit,
+score, formula #3 also states that E-values
+
+00:00:48.089 --> 00:00:52.850
+are proportional to the product of the query
+and database lengths.
+
+00:00:52.850 --> 00:00:57.800
+The current blast programs subsume this product
+in a calculation called the effective search
+
+00:00:57.800 --> 00:00:59.069
+space.
+
+00:00:59.069 --> 00:01:03.539
+The practical implication is that E-values
+cannot be directly compared when searching
+
+00:01:03.539 --> 00:01:05.710
+different databases.
+
+00:01:05.710 --> 00:01:10.530
+Even identical alignments from searches of
+different databases will receive different
+
+00:01:10.530 --> 00:01:14.240
+E-values; the bit scores, however, will remain
+the same.
+
+00:01:14.240 --> 00:01:19.200
+Quesstion #2:
+What is the highest, or poorest, E-value that
+
+00:01:19.200 --> 00:01:21.590
+I should consider as significant?
+
+00:01:21.590 --> 00:01:26.990
+This is one of the most frequently asked questions
+about E-values, and the least answerable.
+
+00:01:26.990 --> 00:01:31.820
+There is no magic cutoff, you will have to
+decide what is significant based upon your
+
+00:01:31.820 --> 00:01:33.689
+goals and sequences.
+
+00:01:33.689 --> 00:01:38.829
+Let’s look at a couple examples that may
+help clarify this point.
+
+00:01:38.829 --> 00:01:44.579
+In a typical blastp search with a query of
+100 amino acids against a large database like
+
+00:01:44.579 --> 00:01:52.719
+refseq_protein, the full-length, 100% identical
+alignments might have E-values of 2x10-61
+
+00:01:52.719 --> 00:01:54.079
+or lower.
+
+00:01:54.079 --> 00:01:58.189
+Note that in BLAST we tend to use the notation,
+2e-61.
+
+00:01:58.189 --> 00:02:03.780
+But, what if you search a large database with
+an 8 amino acid query?
+
+00:02:03.780 --> 00:02:09.110
+The best alignment you can get is 100% identical
+over 8 residues, and that is likely to have
+
+00:02:09.110 --> 00:02:11.940
+an E-value around 1 or higher.
+
+00:02:11.940 --> 00:02:18.069
+If what you know, or hypothesize, about that
+motif is consistent with the biological function
+
+00:02:18.069 --> 00:02:23.150
+of the database sequence, then the alignment
+may indicate biological relevance, even though
+
+00:02:23.150 --> 00:02:27.500
+such relevance can not be inferred on statistical
+grounds alone.
+
+00:02:27.500 --> 00:02:35.310
+I mentioned in part 1 of the companion video
+that at NCBI we use a cutoff of 1x10-6 for
+
+00:02:35.310 --> 00:02:41.709
+some internal processes using blastp against
+the BLAST nr database, but that may be too
+
+00:02:41.709 --> 00:02:43.879
+restrictive for your purposes.
+
+00:02:43.879 --> 00:02:49.459
+Quesstion #3:
+What is an E-value of 0.0?
+
+00:02:49.459 --> 00:02:58.310
+E-values are written as 0.0 if the calculated
+value is less than 1x10-179.
+
+00:02:58.310 --> 00:03:06.959
+If you have other questions about BLAST, write
+to: blast-help@ncbi.nlm.nih.gov
+
