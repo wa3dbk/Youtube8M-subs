@@ -1,0 +1,1181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.380 --> 00:00:01.510 
+
+what<00:00:00.979> we're<00:00:01.069> going<00:00:01.160> to<00:00:01.250> do<00:00:01.339> in<00:00:01.430> this
+
+00:00:01.510 --> 00:00:01.520 
+what we're going to do in this
+
+00:00:01.520 --> 00:00:04.240 
+what we're going to do in this
+demonstration<00:00:02.030> is<00:00:02.210> a<00:00:02.360> quick<00:00:02.659> overview<00:00:02.810> of<00:00:03.319> DFS
+
+00:00:04.240 --> 00:00:04.250 
+demonstration is a quick overview of DFS
+
+00:00:04.250 --> 00:00:07.269 
+demonstration is a quick overview of DFS
+distributed<00:00:05.150> file<00:00:05.360> system<00:00:05.950> now<00:00:06.950> the<00:00:07.009> whole
+
+00:00:07.269 --> 00:00:07.279 
+distributed file system now the whole
+
+00:00:07.279 --> 00:00:11.290 
+distributed file system now the whole
+point<00:00:07.550> of<00:00:07.730> DFS<00:00:08.299> is<00:00:08.660> too<00:00:09.350> abstract<00:00:10.300> shared
+
+00:00:11.290 --> 00:00:11.300 
+point of DFS is too abstract shared
+
+00:00:11.300 --> 00:00:13.660 
+point of DFS is too abstract shared
+folders<00:00:11.780> out<00:00:11.960> on<00:00:12.080> the<00:00:12.139> network<00:00:12.670> normally
+
+00:00:13.660 --> 00:00:13.670 
+folders out on the network normally
+
+00:00:13.670 --> 00:00:15.580 
+folders out on the network normally
+users<00:00:14.000> have<00:00:14.240> to<00:00:14.360> go<00:00:14.480> to<00:00:14.540> a<00:00:14.690> large<00:00:15.139> number<00:00:15.230> of
+
+00:00:15.580 --> 00:00:15.590 
+users have to go to a large number of
+
+00:00:15.590 --> 00:00:17.560 
+users have to go to a large number of
+servers<00:00:15.950> to<00:00:16.340> find<00:00:16.609> all<00:00:16.789> their<00:00:16.939> shared<00:00:17.210> folders
+
+00:00:17.560 --> 00:00:17.570 
+servers to find all their shared folders
+
+00:00:17.570 --> 00:00:20.649 
+servers to find all their shared folders
+with<00:00:18.380> DFS<00:00:19.009> you<00:00:19.249> can<00:00:19.400> centralize<00:00:19.999> all<00:00:20.359> the
+
+00:00:20.649 --> 00:00:20.659 
+with DFS you can centralize all the
+
+00:00:20.659 --> 00:00:22.870 
+with DFS you can centralize all the
+shared<00:00:20.869> folders<00:00:21.169> they<00:00:21.289> need<00:00:21.439> to<00:00:21.529> access<00:00:21.880> into
+
+00:00:22.870 --> 00:00:22.880 
+shared folders they need to access into
+
+00:00:22.880 --> 00:00:26.019 
+shared folders they need to access into
+one<00:00:23.119> simple<00:00:23.569> hierarchy<00:00:24.230> so<00:00:25.130> DFS<00:00:25.609> will<00:00:25.849> open
+
+00:00:26.019 --> 00:00:26.029 
+one simple hierarchy so DFS will open
+
+00:00:26.029 --> 00:00:28.179 
+one simple hierarchy so DFS will open
+that<00:00:26.060> up<00:00:26.300> distributed<00:00:26.689> file<00:00:26.839> system<00:00:27.039> to<00:00:28.039> set
+
+00:00:28.179 --> 00:00:28.189 
+that up distributed file system to set
+
+00:00:28.189 --> 00:00:30.669 
+that up distributed file system to set
+up<00:00:28.279> DFS<00:00:28.669> you<00:00:28.880> first<00:00:29.060> set<00:00:29.239> up<00:00:29.329> a<00:00:29.479> route<00:00:29.749> a<00:00:30.050> DFS
+
+00:00:30.669 --> 00:00:30.679 
+up DFS you first set up a route a DFS
+
+00:00:30.679 --> 00:00:33.160 
+up DFS you first set up a route a DFS
+route<00:00:31.009> and<00:00:31.360> users<00:00:32.360> would<00:00:32.480> connect<00:00:32.870> to<00:00:32.930> the
+
+00:00:33.160 --> 00:00:33.170 
+route and users would connect to the
+
+00:00:33.170 --> 00:00:36.190 
+route and users would connect to the
+route<00:00:33.410> and<00:00:33.670> then<00:00:34.670> see<00:00:35.000> all<00:00:35.270> these<00:00:35.900> shared
+
+00:00:36.190 --> 00:00:36.200 
+route and then see all these shared
+
+00:00:36.200 --> 00:00:39.590 
+route and then see all these shared
+folders<00:00:36.620> underneath<00:00:37.010> the<00:00:37.220> root
+
+00:00:39.590 --> 00:00:39.600 
+
+00:00:39.600 --> 00:00:42.650 
+
+this<00:00:40.289> example<00:00:40.649> were<00:00:40.829> to<00:00:40.949> setup<00:00:41.160> a<00:00:41.250> domain<00:00:41.660> DFS
+
+00:00:42.650 --> 00:00:42.660 
+this example were to setup a domain DFS
+
+00:00:42.660 --> 00:00:46.130 
+this example were to setup a domain DFS
+root<00:00:43.050> if<00:00:43.940> that's<00:00:44.940> the<00:00:45.120> case<00:00:45.300> then<00:00:45.359> it<00:00:45.809> asks<00:00:46.109> for
+
+00:00:46.130 --> 00:00:46.140 
+root if that's the case then it asks for
+
+00:00:46.140 --> 00:00:48.889 
+root if that's the case then it asks for
+which<00:00:46.440> domain<00:00:46.890> we<00:00:47.250> want<00:00:47.460> to<00:00:47.610> set<00:00:47.760> up<00:00:47.850> a<00:00:47.969> DFS
+
+00:00:48.889 --> 00:00:48.899 
+which domain we want to set up a DFS
+
+00:00:48.899 --> 00:00:51.200 
+which domain we want to set up a DFS
+root<00:00:49.140> for<00:00:49.379> so<00:00:50.159> our<00:00:50.250> domain<00:00:50.370> here<00:00:50.699> is<00:00:50.789> West<00:00:51.000> sim
+
+00:00:51.200 --> 00:00:51.210 
+root for so our domain here is West sim
+
+00:00:51.210 --> 00:00:54.410 
+root for so our domain here is West sim
+Dot<00:00:51.359> private<00:00:52.250> which<00:00:53.250> server<00:00:53.699> will<00:00:53.940> host<00:00:54.149> the
+
+00:00:54.410 --> 00:00:54.420 
+Dot private which server will host the
+
+00:00:54.420 --> 00:00:58.100 
+Dot private which server will host the
+route<00:00:54.600> I'm<00:00:54.839> on<00:00:54.989> server<00:00:55.260> sls<00:00:55.949> RV<00:00:56.280> three<00:00:57.110> dot
+
+00:00:58.100 --> 00:00:58.110 
+route I'm on server sls RV three dot
+
+00:00:58.110 --> 00:01:00.620 
+route I'm on server sls RV three dot
+west<00:00:58.530> sim
+
+00:01:00.620 --> 00:01:00.630 
+west sim
+
+00:01:00.630 --> 00:01:04.390 
+west sim
+private
+
+00:01:04.390 --> 00:01:04.400 
+
+00:01:04.400 --> 00:01:07.060 
+
+what's<00:01:05.030> the<00:01:05.239> root<00:01:05.450> name<00:01:05.750> going<00:01:06.080> to<00:01:06.170> be<00:01:06.320> now<00:01:07.010> you
+
+00:01:07.060 --> 00:01:07.070 
+what's the root name going to be now you
+
+00:01:07.070 --> 00:01:08.470 
+what's the root name going to be now you
+wanna<00:01:07.370> be<00:01:07.430> careful<00:01:07.820> here<00:01:08.000> look<00:01:08.300> at<00:01:08.420> the
+
+00:01:08.470 --> 00:01:08.480 
+wanna be careful here look at the
+
+00:01:08.480 --> 00:01:11.050 
+wanna be careful here look at the
+preview<00:01:08.960> this<00:01:09.650> is<00:01:09.770> what<00:01:09.890> users<00:01:10.280> will<00:01:10.490> type<00:01:10.760> in
+
+00:01:11.050 --> 00:01:11.060 
+preview this is what users will type in
+
+00:01:11.060 --> 00:01:14.200 
+preview this is what users will type in
+to<00:01:11.390> get<00:01:11.570> to<00:01:11.690> the<00:01:11.780> DFS<00:01:12.260> route<00:01:12.760> so<00:01:13.760> we<00:01:13.910> could<00:01:14.090> just
+
+00:01:14.200 --> 00:01:14.210 
+to get to the DFS route so we could just
+
+00:01:14.210 --> 00:01:17.520 
+to get to the DFS route so we could just
+put<00:01:14.420> how<00:01:15.080> about<00:01:15.230> info
+
+00:01:17.520 --> 00:01:17.530 
+put how about info
+
+00:01:17.530 --> 00:01:19.830 
+put how about info
+so<00:01:18.190> if<00:01:18.250> users<00:01:18.580> want<00:01:18.760> to<00:01:18.790> access<00:01:19.119> the<00:01:19.210> DFS<00:01:19.570> route
+
+00:01:19.830 --> 00:01:19.840 
+so if users want to access the DFS route
+
+00:01:19.840 --> 00:01:21.810 
+so if users want to access the DFS route
+they'll<00:01:20.470> type<00:01:20.740> in<00:01:20.920> whack<00:01:21.190> whack<00:01:21.400> West<00:01:21.670> sim
+
+00:01:21.810 --> 00:01:21.820 
+they'll type in whack whack West sim
+
+00:01:21.820 --> 00:01:24.690 
+they'll type in whack whack West sim
+type<00:01:22.000> private<00:01:22.180> whack<00:01:22.600> info<00:01:23.170> or<00:01:23.490> what's<00:01:24.490> more
+
+00:01:24.690 --> 00:01:24.700 
+type private whack info or what's more
+
+00:01:24.700 --> 00:01:26.219 
+type private whack info or what's more
+likely<00:01:25.060> is<00:01:25.270> that<00:01:25.420> you<00:01:25.690> will<00:01:25.780> map<00:01:26.020> a<00:01:26.200> network
+
+00:01:26.219 --> 00:01:26.229 
+likely is that you will map a network
+
+00:01:26.229 --> 00:01:29.219 
+likely is that you will map a network
+drive<00:01:26.590> to<00:01:27.159> that<00:01:27.310> location<00:01:27.460> for<00:01:28.000> them<00:01:28.240> she<00:01:29.110> can
+
+00:01:29.219 --> 00:01:29.229 
+drive to that location for them she can
+
+00:01:29.229 --> 00:01:31.020 
+drive to that location for them she can
+call<00:01:29.320> info<00:01:29.740> you<00:01:29.890> can<00:01:29.920> call<00:01:30.040> it<00:01:30.190> DFS<00:01:30.640> and<00:01:30.670> call
+
+00:01:31.020 --> 00:01:31.030 
+call info you can call it DFS and call
+
+00:01:31.030 --> 00:01:32.550 
+call info you can call it DFS and call
+it<00:01:31.090> whatever<00:01:31.210> you<00:01:31.360> want<00:01:31.540> but<00:01:31.720> be<00:01:32.290> aware<00:01:32.380> that
+
+00:01:32.550 --> 00:01:32.560 
+it whatever you want but be aware that
+
+00:01:32.560 --> 00:01:36.510 
+it whatever you want but be aware that
+this<00:01:32.799> is<00:01:32.920> the<00:01:32.979> name<00:01:33.159> the<00:01:33.340> users<00:01:33.640> will<00:01:33.820> see
+
+00:01:36.510 --> 00:01:36.520 
+
+00:01:36.520 --> 00:01:38.490 
+
+also<00:01:37.149> notice<00:01:37.420> that<00:01:37.539> the<00:01:37.630> share<00:01:37.930> to<00:01:38.170> be<00:01:38.259> used
+
+00:01:38.490 --> 00:01:38.500 
+also notice that the share to be used
+
+00:01:38.500 --> 00:01:41.279 
+also notice that the share to be used
+will<00:01:38.679> be<00:01:38.740> called<00:01:38.979> info<00:01:39.460> and<00:01:39.700> the<00:01:40.390> share<00:01:40.780> called
+
+00:01:41.279 --> 00:01:41.289 
+will be called info and the share called
+
+00:01:41.289 --> 00:01:44.190 
+will be called info and the share called
+info<00:01:41.710> will<00:01:41.890> be<00:01:41.979> placed<00:01:42.310> on<00:01:42.609> the<00:01:43.149> computer<00:01:44.079> in
+
+00:01:44.190 --> 00:01:44.200 
+info will be placed on the computer in
+
+00:01:44.200 --> 00:01:46.889 
+info will be placed on the computer in
+question<00:01:44.649> so<00:01:44.799> we<00:01:44.860> said<00:01:45.070> the<00:01:45.299> SLS<00:01:46.299> RV<00:01:46.630> three
+
+00:01:46.889 --> 00:01:46.899 
+question so we said the SLS RV three
+
+00:01:46.899 --> 00:01:49.440 
+question so we said the SLS RV three
+computer<00:01:47.289> will<00:01:47.920> have<00:01:48.189> the<00:01:48.460> DFS<00:01:49.000> root<00:01:49.210> share
+
+00:01:49.440 --> 00:01:49.450 
+computer will have the DFS root share
+
+00:01:49.450 --> 00:01:52.250 
+computer will have the DFS root share
+called<00:01:49.689> info
+
+00:01:52.250 --> 00:01:52.260 
+
+00:01:52.260 --> 00:01:56.360 
+
+and<00:01:53.010> we<00:01:53.220> finish
+
+00:01:56.360 --> 00:01:56.370 
+
+00:01:56.370 --> 00:01:59.180 
+
+and<00:01:56.460> there<00:01:57.150> we<00:01:57.240> go<00:01:57.390> there's<00:01:57.600> our<00:01:57.780> route<00:01:58.190> now
+
+00:01:59.180 --> 00:01:59.190 
+and there we go there's our route now
+
+00:01:59.190 --> 00:02:02.930 
+and there we go there's our route now
+the<00:01:59.700> route<00:02:00.290> the<00:02:01.290> users<00:02:01.830> will<00:02:02.100> see<00:02:02.130> this<00:02:02.580> on<00:02:02.820> the
+
+00:02:02.930 --> 00:02:02.940 
+the route the users will see this on the
+
+00:02:02.940 --> 00:02:04.520 
+the route the users will see this on the
+right<00:02:03.120> hand<00:02:03.300> side<00:02:03.390> that's<00:02:03.720> what<00:02:03.870> the<00:02:04.050> actual
+
+00:02:04.520 --> 00:02:04.530 
+right hand side that's what the actual
+
+00:02:04.530 --> 00:02:09.650 
+right hand side that's what the actual
+route<00:02:05.520> is<00:02:05.790> it's<00:02:06.750> actually<00:02:07.290> on<00:02:07.440> sls<00:02:07.890> rb3<00:02:08.670> /<00:02:09.240> info
+
+00:02:09.650 --> 00:02:09.660 
+route is it's actually on sls rb3 / info
+
+00:02:09.660 --> 00:02:11.630 
+route is it's actually on sls rb3 / info
+but<00:02:10.440> the<00:02:10.560> users<00:02:10.830> only<00:02:10.979> have<00:02:11.130> to<00:02:11.220> type<00:02:11.340> it<00:02:11.520> is
+
+00:02:11.630 --> 00:02:11.640 
+but the users only have to type it is
+
+00:02:11.640 --> 00:02:14.060 
+but the users only have to type it is
+West<00:02:11.850> sim<00:02:12.000> that<00:02:12.150> private<00:02:12.510> /<00:02:12.720> info<00:02:13.050> let's<00:02:13.950> take
+
+00:02:14.060 --> 00:02:14.070 
+West sim that private / info let's take
+
+00:02:14.070 --> 00:02:18.090 
+West sim that private / info let's take
+a<00:02:14.100> look<00:02:14.220> at<00:02:14.280> the<00:02:14.340> file<00:02:14.520> system
+
+00:02:18.090 --> 00:02:18.100 
+
+00:02:18.100 --> 00:02:20.820 
+
+on<00:02:18.160> my<00:02:18.370> ex<00:02:18.670> drive<00:02:19.030> I<00:02:19.360> made<00:02:19.600> a<00:02:19.630> folder<00:02:20.200> a<00:02:20.410> shared
+
+00:02:20.820 --> 00:02:20.830 
+on my ex drive I made a folder a shared
+
+00:02:20.830 --> 00:02:23.490 
+on my ex drive I made a folder a shared
+folder<00:02:20.980> called<00:02:21.280> DFS<00:02:21.850> root<00:02:22.150> and<00:02:22.420> looking<00:02:23.380> at
+
+00:02:23.490 --> 00:02:23.500 
+folder called DFS root and looking at
+
+00:02:23.500 --> 00:02:25.410 
+folder called DFS root and looking at
+the<00:02:23.590> sharing<00:02:23.980> of<00:02:24.070> that<00:02:24.250> folder<00:02:24.640> I<00:02:24.820> share<00:02:25.390> that
+
+00:02:25.410 --> 00:02:25.420 
+the sharing of that folder I share that
+
+00:02:25.420 --> 00:02:27.030 
+the sharing of that folder I share that
+as<00:02:25.660> info<00:02:26.140> so<00:02:26.200> that<00:02:26.410> was<00:02:26.500> already<00:02:26.710> taken<00:02:27.010> care
+
+00:02:27.030 --> 00:02:27.040 
+as info so that was already taken care
+
+00:02:27.040 --> 00:02:29.860 
+as info so that was already taken care
+of<00:02:27.280> before<00:02:27.430> i<00:02:27.640> got<00:02:27.820> the<00:02:28.090> wizard
+
+00:02:29.860 --> 00:02:29.870 
+of before i got the wizard
+
+00:02:29.870 --> 00:02:32.680 
+of before i got the wizard
+so<00:02:30.650> let's<00:02:31.010> clarify<00:02:31.310> a<00:02:31.519> few<00:02:31.640> things<00:02:31.790> here<00:02:32.180> we
+
+00:02:32.680 --> 00:02:32.690 
+so let's clarify a few things here we
+
+00:02:32.690 --> 00:02:36.039 
+so let's clarify a few things here we
+have<00:02:32.810> a<00:02:32.840> folder<00:02:33.200> name<00:02:33.860> of<00:02:34.330> DFS<00:02:35.330> underscore
+
+00:02:36.039 --> 00:02:36.049 
+have a folder name of DFS underscore
+
+00:02:36.049 --> 00:02:40.030 
+have a folder name of DFS underscore
+root<00:02:36.500> that<00:02:37.489> folder<00:02:37.970> name<00:02:38.180> is<00:02:38.390> a<00:02:38.470> share<00:02:39.470> name<00:02:39.739> of
+
+00:02:40.030 --> 00:02:40.040 
+root that folder name is a share name of
+
+00:02:40.040 --> 00:02:43.140 
+root that folder name is a share name of
+info
+
+00:02:43.140 --> 00:02:43.150 
+
+00:02:43.150 --> 00:02:47.190 
+
+the<00:02:43.269> DFS<00:02:44.730> version<00:02:45.730> of<00:02:45.879> that<00:02:45.909> is<00:02:46.360> less<00:02:46.840> simdi
+
+00:02:47.190 --> 00:02:47.200 
+the DFS version of that is less simdi
+
+00:02:47.200 --> 00:02:50.470 
+the DFS version of that is less simdi
+private<00:02:47.680> /<00:02:47.950> info
+
+00:02:50.470 --> 00:02:50.480 
+private / info
+
+00:02:50.480 --> 00:02:54.640 
+private / info
+just<00:02:51.140> to<00:02:51.260> test<00:02:51.500> this<00:02:51.709> out<00:02:52.510> we<00:02:53.510> can<00:02:53.659> go<00:02:54.200> to<00:02:54.230> start
+
+00:02:54.640 --> 00:02:54.650 
+just to test this out we can go to start
+
+00:02:54.650 --> 00:02:58.060 
+just to test this out we can go to start
+run<00:02:54.890> and<00:02:55.040> type<00:02:55.510> in
+
+00:02:58.060 --> 00:02:58.070 
+run and type in
+
+00:02:58.070 --> 00:03:04.910 
+run and type in
+West<00:02:59.070> simdi<00:02:59.430> private<00:02:59.790> /<00:02:59.970> info
+
+00:03:04.910 --> 00:03:04.920 
+
+00:03:04.920 --> 00:03:08.450 
+
+and<00:03:05.040> there<00:03:05.670> we<00:03:05.730> go<00:03:05.849> it<00:03:06.030> opens<00:03:06.270> up<00:03:06.390> the<00:03:06.569> DFS<00:03:07.080> root
+
+00:03:08.450 --> 00:03:08.460 
+and there we go it opens up the DFS root
+
+00:03:08.460 --> 00:03:10.190 
+and there we go it opens up the DFS root
+a document<00:03:09.030> in<00:03:09.090> the<00:03:09.120> root<00:03:09.360> share<00:03:09.630> just<00:03:09.930> for<00:03:10.170> a
+
+00:03:10.190 --> 00:03:10.200 
+a document in the root share just for a
+
+00:03:10.200 --> 00:03:12.440 
+a document in the root share just for a
+test<00:03:10.500> example<00:03:11.100> and<00:03:11.280> going<00:03:12.030> back<00:03:12.210> to<00:03:12.240> the
+
+00:03:12.440 --> 00:03:12.450 
+test example and going back to the
+
+00:03:12.450 --> 00:03:15.560 
+test example and going back to the
+actual<00:03:12.810> file<00:03:13.140> system<00:03:13.760> the<00:03:14.760> fs<00:03:15.060> route<00:03:15.270> there's
+
+00:03:15.560 --> 00:03:15.570 
+actual file system the fs route there's
+
+00:03:15.570 --> 00:03:19.380 
+actual file system the fs route there's
+the<00:03:15.750> test<00:03:16.080> document<00:03:16.650> in<00:03:16.830> the<00:03:16.890> root<00:03:17.100> share
+
+00:03:19.380 --> 00:03:19.390 
+
+00:03:19.390 --> 00:03:20.970 
+
+the<00:03:19.750> thing<00:03:19.990> to<00:03:20.080> notice<00:03:20.290> is<00:03:20.470> that<00:03:20.530> we<00:03:20.710> went<00:03:20.890> to
+
+00:03:20.970 --> 00:03:20.980 
+the thing to notice is that we went to
+
+00:03:20.980 --> 00:03:23.730 
+the thing to notice is that we went to
+the<00:03:21.069> run<00:03:21.400> dialog<00:03:21.760> box<00:03:22.200> we<00:03:23.200> didn't<00:03:23.410> type<00:03:23.590> in
+
+00:03:23.730 --> 00:03:23.740 
+the run dialog box we didn't type in
+
+00:03:23.740 --> 00:03:26.220 
+the run dialog box we didn't type in
+whack<00:03:23.920> whack<00:03:24.160> server<00:03:24.670> name<00:03:25.209> whack<00:03:25.660> share<00:03:25.990> name
+
+00:03:26.220 --> 00:03:26.230 
+whack whack server name whack share name
+
+00:03:26.230 --> 00:03:29.640 
+whack whack server name whack share name
+we<00:03:26.920> typed<00:03:27.130> in<00:03:27.250> whack<00:03:27.430> whack<00:03:27.640> domain<00:03:28.360> name<00:03:28.650> back
+
+00:03:29.640 --> 00:03:29.650 
+we typed in whack whack domain name back
+
+00:03:29.650 --> 00:03:32.010 
+we typed in whack whack domain name back
+cher<00:03:30.040> name<00:03:30.280> and<00:03:30.520> therein<00:03:31.360> lies<00:03:31.510> part<00:03:31.870> of<00:03:31.959> the
+
+00:03:32.010 --> 00:03:32.020 
+cher name and therein lies part of the
+
+00:03:32.020 --> 00:03:35.940 
+cher name and therein lies part of the
+magic<00:03:32.350> of<00:03:32.440> DFS
+
+00:03:35.940 --> 00:03:35.950 
+
+00:03:35.950 --> 00:03:38.490 
+
+okay<00:03:36.580> now<00:03:36.760> lost<00:03:36.910> part<00:03:37.180> of<00:03:37.209> DFS<00:03:37.660> is<00:03:37.930> that<00:03:38.410> we're
+
+00:03:38.490 --> 00:03:38.500 
+okay now lost part of DFS is that we're
+
+00:03:38.500 --> 00:03:40.860 
+okay now lost part of DFS is that we're
+going<00:03:38.620> to<00:03:38.709> create<00:03:38.890> some<00:03:39.040> DFS<00:03:39.489> links<00:03:40.030> so<00:03:40.750> when
+
+00:03:40.860 --> 00:03:40.870 
+going to create some DFS links so when
+
+00:03:40.870 --> 00:03:43.259 
+going to create some DFS links so when
+someone<00:03:41.050> accesses<00:03:41.530> the<00:03:41.830> route<00:03:42.129> they'll<00:03:42.849> see
+
+00:03:43.259 --> 00:03:43.269 
+someone accesses the route they'll see
+
+00:03:43.269 --> 00:03:46.110 
+someone accesses the route they'll see
+what<00:03:43.690> appears<00:03:44.110> to<00:03:44.260> be<00:03:44.290> subfolders<00:03:45.160> when<00:03:46.000> in
+
+00:03:46.110 --> 00:03:46.120 
+what appears to be subfolders when in
+
+00:03:46.120 --> 00:03:48.360 
+what appears to be subfolders when in
+fact<00:03:46.150> those<00:03:46.599> subfolders<00:03:47.170> could<00:03:47.860> be<00:03:47.950> pointed
+
+00:03:48.360 --> 00:03:48.370 
+fact those subfolders could be pointed
+
+00:03:48.370 --> 00:03:50.400 
+fact those subfolders could be pointed
+towards<00:03:48.670> shared<00:03:48.940> folder<00:03:49.300> spread<00:03:49.540> out<00:03:49.900> on<00:03:50.140> the
+
+00:03:50.400 --> 00:03:50.410 
+towards shared folder spread out on the
+
+00:03:50.410 --> 00:03:52.559 
+towards shared folder spread out on the
+network<00:03:50.670> so<00:03:51.670> you<00:03:51.730> right-click<00:03:52.060> the<00:03:52.090> root<00:03:52.330> you
+
+00:03:52.559 --> 00:03:52.569 
+network so you right-click the root you
+
+00:03:52.569 --> 00:03:55.559 
+network so you right-click the root you
+say<00:03:52.750> new<00:03:52.930> link
+
+00:03:55.559 --> 00:03:55.569 
+
+00:03:55.569 --> 00:03:57.989 
+
+so<00:03:56.260> the<00:03:56.379> link<00:03:56.680> name<00:03:57.010> be<00:03:57.430> careful<00:03:57.819> here<00:03:57.939> because
+
+00:03:57.989 --> 00:03:57.999 
+so the link name be careful here because
+
+00:03:57.999 --> 00:03:59.489 
+so the link name be careful here because
+the<00:03:58.329> link<00:03:58.510> name<00:03:58.689> is<00:03:58.840> what<00:03:58.959> the<00:03:59.079> users<00:03:59.319> would
+
+00:03:59.489 --> 00:03:59.499 
+the link name is what the users would
+
+00:03:59.499 --> 00:04:01.739 
+the link name is what the users would
+type<00:03:59.709> in<00:03:59.829> or<00:03:59.950> with<00:04:00.069> the<00:04:00.159> users<00:04:00.430> would<00:04:00.609> see<00:04:00.849> will
+
+00:04:01.739 --> 00:04:01.749 
+type in or with the users would see will
+
+00:04:01.749 --> 00:04:04.280 
+type in or with the users would see will
+do<00:04:01.870> link<00:04:02.139> name<00:04:02.319> of<00:04:02.530> sales
+
+00:04:04.280 --> 00:04:04.290 
+do link name of sales
+
+00:04:04.290 --> 00:04:10.880 
+do link name of sales
+data
+
+00:04:10.880 --> 00:04:10.890 
+
+00:04:10.890 --> 00:04:12.590 
+
+okay<00:04:11.580> so<00:04:11.640> it's<00:04:11.819> asking<00:04:11.940> us<00:04:12.150> which<00:04:12.360> shared
+
+00:04:12.590 --> 00:04:12.600 
+okay so it's asking us which shared
+
+00:04:12.600 --> 00:04:14.480 
+okay so it's asking us which shared
+folder<00:04:12.840> to<00:04:12.960> use<00:04:13.170> let's<00:04:13.710> go<00:04:13.830> back<00:04:13.980> to<00:04:14.010> the<00:04:14.220> file
+
+00:04:14.480 --> 00:04:14.490 
+folder to use let's go back to the file
+
+00:04:14.490 --> 00:04:17.330 
+folder to use let's go back to the file
+system<00:04:14.850> for<00:04:15.780> this<00:04:15.900> computer<00:04:16.320> in<00:04:16.470> the<00:04:17.160> file
+
+00:04:17.330 --> 00:04:17.340 
+system for this computer in the file
+
+00:04:17.340 --> 00:04:18.830 
+system for this computer in the file
+system<00:04:17.370> I<00:04:17.820> set<00:04:18.000> up<00:04:18.090> a<00:04:18.150> shared<00:04:18.390> folder<00:04:18.540> already
+
+00:04:18.830 --> 00:04:18.840 
+system I set up a shared folder already
+
+00:04:18.840 --> 00:04:22.190 
+system I set up a shared folder already
+called<00:04:19.530> sales<00:04:20.070> data<00:04:20.400> and<00:04:20.700> in<00:04:21.660> the<00:04:21.780> sales<00:04:21.989> data
+
+00:04:22.190 --> 00:04:22.200 
+called sales data and in the sales data
+
+00:04:22.200 --> 00:04:23.600 
+called sales data and in the sales data
+folder<00:04:22.410> I<00:04:22.590> put<00:04:22.740> a<00:04:22.770> couple<00:04:22.950> quarterly<00:04:23.400> sales
+
+00:04:23.600 --> 00:04:23.610 
+folder I put a couple quarterly sales
+
+00:04:23.610 --> 00:04:28.120 
+folder I put a couple quarterly sales
+reports<00:04:24.290> and<00:04:25.290> I<00:04:25.410> shared<00:04:25.740> out<00:04:25.890> sales<00:04:26.250> data<00:04:26.580> as
+
+00:04:28.120 --> 00:04:28.130 
+reports and I shared out sales data as
+
+00:04:28.130 --> 00:04:30.980 
+reports and I shared out sales data as
+just<00:04:29.130> sales<00:04:29.640> that's<00:04:30.090> the<00:04:30.240> share<00:04:30.510> names<00:04:30.750> the
+
+00:04:30.980 --> 00:04:30.990 
+just sales that's the share names the
+
+00:04:30.990 --> 00:04:33.330 
+just sales that's the share names the
+share<00:04:31.260> name<00:04:31.440> is<00:04:31.590> sales
+
+00:04:33.330 --> 00:04:33.340 
+share name is sales
+
+00:04:33.340 --> 00:04:38.559 
+share name is sales
+sales<00:04:34.240> data<00:04:34.780> is<00:04:35.169> the<00:04:35.560> folder<00:04:36.310> name
+
+00:04:38.559 --> 00:04:38.569 
+
+00:04:38.569 --> 00:04:40.749 
+
+and<00:04:38.659> for<00:04:38.990> link<00:04:39.229> name<00:04:39.589> let's<00:04:40.099> change<00:04:40.460> that
+
+00:04:40.749 --> 00:04:40.759 
+and for link name let's change that
+
+00:04:40.759 --> 00:04:43.480 
+and for link name let's change that
+let's<00:04:41.059> change<00:04:41.240> that<00:04:41.479> to
+
+00:04:43.480 --> 00:04:43.490 
+let's change that to
+
+00:04:43.490 --> 00:04:47.380 
+let's change that to
+sales<00:04:44.419> information
+
+00:04:47.380 --> 00:04:47.390 
+
+00:04:47.390 --> 00:04:49.710 
+
+so<00:04:48.050> the<00:04:48.140> path<00:04:48.350> is<00:04:48.590> going<00:04:48.740> to<00:04:48.800> be<00:04:48.860> whack<00:04:49.040> whack
+
+00:04:49.710 --> 00:04:49.720 
+so the path is going to be whack whack
+
+00:04:49.720 --> 00:04:53.400 
+so the path is going to be whack whack
+sls<00:04:50.720> RV<00:04:51.020> three<00:04:51.320> is<00:04:51.470> the<00:04:51.710> server<00:04:51.980> name<00:04:52.070> black
+
+00:04:53.400 --> 00:04:53.410 
+sls RV three is the server name black
+
+00:04:53.410 --> 00:04:56.810 
+sls RV three is the server name black
+sails<00:04:54.410> was<00:04:54.770> the<00:04:54.920> share<00:04:55.250> name
+
+00:04:56.810 --> 00:04:56.820 
+sails was the share name
+
+00:04:56.820 --> 00:04:59.720 
+sails was the share name
+so<00:04:57.480> again<00:04:57.660> let's<00:04:57.810> clarify<00:04:58.050> this<00:04:58.460> the<00:04:59.460> actual
+
+00:04:59.720 --> 00:04:59.730 
+so again let's clarify this the actual
+
+00:04:59.730 --> 00:05:01.910 
+so again let's clarify this the actual
+folder<00:05:00.420> containing<00:05:01.170> the<00:05:01.290> data<00:05:01.320> is<00:05:01.680> called
+
+00:05:01.910 --> 00:05:01.920 
+folder containing the data is called
+
+00:05:01.920 --> 00:05:06.050 
+folder containing the data is called
+sales<00:05:02.190> data<00:05:03.170> the<00:05:04.170> share<00:05:04.620> folder<00:05:05.370> name<00:05:05.820> is
+
+00:05:06.050 --> 00:05:06.060 
+sales data the share folder name is
+
+00:05:06.060 --> 00:05:09.180 
+sales data the share folder name is
+different<00:05:06.510> the<00:05:06.720> share<00:05:06.990> name<00:05:07.200> is<00:05:07.320> just<00:05:07.530> sales
+
+00:05:09.180 --> 00:05:09.190 
+different the share name is just sales
+
+00:05:09.190 --> 00:05:12.120 
+different the share name is just sales
+the<00:05:09.430> DFS<00:05:09.940> link<00:05:10.420> name<00:05:10.750> is<00:05:10.990> sales<00:05:11.290> information
+
+00:05:12.120 --> 00:05:12.130 
+the DFS link name is sales information
+
+00:05:12.130 --> 00:05:13.770 
+the DFS link name is sales information
+so<00:05:12.310> we<00:05:12.370> have<00:05:12.460> three<00:05:12.790> different<00:05:12.820> names<00:05:13.420> to<00:05:13.630> keep
+
+00:05:13.770 --> 00:05:13.780 
+so we have three different names to keep
+
+00:05:13.780 --> 00:05:16.650 
+so we have three different names to keep
+track<00:05:14.020> of<00:05:14.520> sales<00:05:15.520> information<00:05:16.270> is<00:05:16.390> what<00:05:16.540> the
+
+00:05:16.650 --> 00:05:16.660 
+track of sales information is what the
+
+00:05:16.660 --> 00:05:19.560 
+track of sales information is what the
+users<00:05:17.020> will<00:05:17.230> see<00:05:17.670> sales<00:05:18.670> is<00:05:19.060> what<00:05:19.210> someone
+
+00:05:19.560 --> 00:05:19.570 
+users will see sales is what someone
+
+00:05:19.570 --> 00:05:23.340 
+users will see sales is what someone
+browsing<00:05:20.380> the<00:05:20.410> network<00:05:20.860> would<00:05:21.130> see<00:05:22.350> sales
+
+00:05:23.340 --> 00:05:23.350 
+browsing the network would see sales
+
+00:05:23.350 --> 00:05:25.080 
+browsing the network would see sales
+data<00:05:23.740> is<00:05:24.040> with<00:05:24.190> somebody<00:05:24.490> sitting<00:05:24.760> at<00:05:24.940> this
+
+00:05:25.080 --> 00:05:25.090 
+data is with somebody sitting at this
+
+00:05:25.090 --> 00:05:27.360 
+data is with somebody sitting at this
+computer<00:05:25.170> accessing<00:05:26.170> these<00:05:26.290> hard<00:05:27.100> drives
+
+00:05:27.360 --> 00:05:27.370 
+computer accessing these hard drives
+
+00:05:27.370 --> 00:05:30.340 
+computer accessing these hard drives
+would<00:05:27.760> see
+
+00:05:30.340 --> 00:05:30.350 
+
+00:05:30.350 --> 00:05:33.520 
+
+so<00:05:30.950> back<00:05:31.130> to<00:05:31.280> our<00:05:31.310> DFS<00:05:31.850> link<00:05:32.180> wizard<00:05:32.510> here<00:05:32.780> so
+
+00:05:33.520 --> 00:05:33.530 
+so back to our DFS link wizard here so
+
+00:05:33.530 --> 00:05:36.400 
+so back to our DFS link wizard here so
+there's<00:05:33.830> the<00:05:34.010> path<00:05:34.280> to<00:05:34.580> our<00:05:34.610> target<00:05:35.000> and<00:05:35.480> will
+
+00:05:36.400 --> 00:05:36.410 
+there's the path to our target and will
+
+00:05:36.410 --> 00:05:44.860 
+there's the path to our target and will
+say<00:05:36.530> this<00:05:36.650> is<00:05:36.860> our<00:05:37.190> DFS<00:05:38.090> link
+
+00:05:44.860 --> 00:05:44.870 
+
+00:05:44.870 --> 00:05:48.010 
+
+so<00:05:45.500> there's<00:05:45.770> the<00:05:45.980> DFS<00:05:46.400> link<00:05:46.810> there<00:05:47.810> is<00:05:47.900> the
+
+00:05:48.010 --> 00:05:48.020 
+so there's the DFS link there is the
+
+00:05:48.020 --> 00:05:50.440 
+so there's the DFS link there is the
+actual<00:05:48.350> target<00:05:48.980> black<00:05:49.550> wax<00:05:49.820> servername<00:05:50.150> wax
+
+00:05:50.440 --> 00:05:50.450 
+actual target black wax servername wax
+
+00:05:50.450 --> 00:05:52.060 
+actual target black wax servername wax
+share<00:05:50.690> name<00:05:50.870> let's<00:05:51.500> share<00:05:51.680> name<00:05:51.860> can<00:05:52.040> be
+
+00:05:52.060 --> 00:05:52.070 
+share name let's share name can be
+
+00:05:52.070 --> 00:05:54.250 
+share name let's share name can be
+anywhere<00:05:52.880> on<00:05:53.090> the<00:05:53.240> network<00:05:53.420> doesn't<00:05:53.930> have<00:05:54.140> to
+
+00:05:54.250 --> 00:05:54.260 
+anywhere on the network doesn't have to
+
+00:05:54.260 --> 00:05:57.490 
+anywhere on the network doesn't have to
+be<00:05:54.380> on<00:05:54.500> this<00:05:54.650> Sam<00:05:55.100> computer<00:05:55.720> and<00:05:56.720> let's<00:05:57.470> go
+
+00:05:57.490 --> 00:05:57.500 
+be on this Sam computer and let's go
+
+00:05:57.500 --> 00:05:59.440 
+be on this Sam computer and let's go
+ahead<00:05:57.590> and<00:05:57.710> test<00:05:57.920> everything<00:05:58.100> out<00:05:58.460> then<00:05:58.730> then
+
+00:05:59.440 --> 00:05:59.450 
+ahead and test everything out then then
+
+00:05:59.450 --> 00:06:01.000 
+ahead and test everything out then then
+the<00:05:59.570> file<00:05:59.780> system<00:06:00.080> I<00:06:00.350> have<00:06:00.500> the<00:06:00.680> shared<00:06:00.950> folder
+
+00:06:01.000 --> 00:06:01.010 
+the file system I have the shared folder
+
+00:06:01.010 --> 00:06:02.620 
+the file system I have the shared folder
+sales<00:06:01.460> data<00:06:01.670> with<00:06:01.790> four<00:06:02.000> quarterly<00:06:02.390> sales
+
+00:06:02.620 --> 00:06:02.630 
+sales data with four quarterly sales
+
+00:06:02.630 --> 00:06:04.270 
+sales data with four quarterly sales
+reports<00:06:03.080> we'll<00:06:03.530> see<00:06:03.680> if<00:06:03.740> that's<00:06:03.830> what<00:06:04.010> we<00:06:04.100> get
+
+00:06:04.270 --> 00:06:04.280 
+reports we'll see if that's what we get
+
+00:06:04.280 --> 00:06:08.140 
+reports we'll see if that's what we get
+we<00:06:04.490> browse<00:06:04.970> the<00:06:05.240> shared<00:06:05.480> folder<00:06:05.920> in<00:06:06.920> the<00:06:07.910> root
+
+00:06:08.140 --> 00:06:08.150 
+we browse the shared folder in the root
+
+00:06:08.150 --> 00:06:09.970 
+we browse the shared folder in the root
+we<00:06:08.570> see<00:06:08.750> the<00:06:08.870> document<00:06:09.350> in<00:06:09.470> the<00:06:09.560> root<00:06:09.710> share
+
+00:06:09.970 --> 00:06:09.980 
+we see the document in the root share
+
+00:06:09.980 --> 00:06:13.000 
+we see the document in the root share
+and<00:06:10.190> we<00:06:10.700> see<00:06:10.880> sales<00:06:11.210> information<00:06:11.920> opening<00:06:12.920> up
+
+00:06:13.000 --> 00:06:13.010 
+and we see sales information opening up
+
+00:06:13.010 --> 00:06:14.650 
+and we see sales information opening up
+sales<00:06:13.250> information<00:06:13.490> we<00:06:13.940> see<00:06:14.120> the<00:06:14.270> quarterly
+
+00:06:14.650 --> 00:06:14.660 
+sales information we see the quarterly
+
+00:06:14.660 --> 00:06:17.830 
+sales information we see the quarterly
+sales<00:06:14.840> reports<00:06:15.640> now<00:06:16.640> to<00:06:16.700> the<00:06:17.000> user<00:06:17.270> again<00:06:17.690> it
+
+00:06:17.830 --> 00:06:17.840 
+sales reports now to the user again it
+
+00:06:17.840 --> 00:06:19.900 
+sales reports now to the user again it
+appears<00:06:17.960> as<00:06:18.560> though<00:06:18.590> sales<00:06:19.220> information<00:06:19.490> is<00:06:19.880> a
+
+00:06:19.900 --> 00:06:19.910 
+appears as though sales information is a
+
+00:06:19.910 --> 00:06:23.020 
+appears as though sales information is a
+subfolder<00:06:20.590> right<00:06:21.590> there<00:06:21.860> at<00:06:21.950> the<00:06:22.010> root<00:06:22.280> when
+
+00:06:23.020 --> 00:06:23.030 
+subfolder right there at the root when
+
+00:06:23.030 --> 00:06:25.990 
+subfolder right there at the root when
+in<00:06:23.150> fact<00:06:23.260> that<00:06:24.260> share<00:06:24.770> information<00:06:25.610> could
+
+00:06:25.990 --> 00:06:26.000 
+in fact that share information could
+
+00:06:26.000 --> 00:06:27.720 
+in fact that share information could
+have<00:06:26.150> come<00:06:26.390> from<00:06:26.420> anywhere<00:06:26.900> on<00:06:27.080> the<00:06:27.350> network
+
+00:06:27.720 --> 00:06:27.730 
+have come from anywhere on the network
+
+00:06:27.730 --> 00:06:30.250 
+have come from anywhere on the network
+so<00:06:28.730> it's<00:06:28.850> making<00:06:29.120> things<00:06:29.150> look<00:06:29.420> very<00:06:29.540> nice<00:06:30.020> and
+
+00:06:30.250 --> 00:06:30.260 
+so it's making things look very nice and
+
+00:06:30.260 --> 00:06:32.350 
+so it's making things look very nice and
+easy<00:06:30.380> for<00:06:30.680> the<00:06:30.740> users<00:06:31.040> when<00:06:31.880> behind<00:06:32.240> the
+
+00:06:32.350 --> 00:06:32.360 
+easy for the users when behind the
+
+00:06:32.360 --> 00:06:34.660 
+easy for the users when behind the
+scenes<00:06:32.600> dfx<00:06:33.140> is<00:06:33.380> actually<00:06:33.800> going<00:06:33.920> across<00:06:34.310> the
+
+00:06:34.660 --> 00:06:34.670 
+scenes dfx is actually going across the
+
+00:06:34.670 --> 00:06:37.780 
+scenes dfx is actually going across the
+network<00:06:34.850> and<00:06:35.090> grabbing<00:06:35.450> the<00:06:35.540> information
+
+00:06:37.780 --> 00:06:37.790 
+network and grabbing the information
+
+00:06:37.790 --> 00:06:40.960 
+network and grabbing the information
+actually<00:06:38.360> technically<00:06:39.200> DFS<00:06:40.040> is<00:06:40.220> redirecting
+
+00:06:40.960 --> 00:06:40.970 
+actually technically DFS is redirecting
+
+00:06:40.970 --> 00:06:43.150 
+actually technically DFS is redirecting
+the<00:06:41.120> user<00:06:41.150> across<00:06:41.990> the<00:06:42.200> network<00:06:42.380> to<00:06:43.070> the
+
+00:06:43.150 --> 00:06:43.160 
+the user across the network to the
+
+00:06:43.160 --> 00:06:46.540 
+the user across the network to the
+shared<00:06:43.400> folder<00:06:43.460> to<00:06:43.850> the<00:06:43.880> information
+
+00:06:46.540 --> 00:06:46.550 
+
+00:06:46.550 --> 00:06:50.020 
+
+so<00:06:47.210> we'll<00:06:47.330> set<00:06:47.450> up<00:06:47.480> a<00:06:47.600> second<00:06:48.050> link
+
+00:06:50.020 --> 00:06:50.030 
+so we'll set up a second link
+
+00:06:50.030 --> 00:06:56.010 
+so we'll set up a second link
+this<00:06:50.630> will<00:06:50.780> be<00:06:50.930> accounting<00:06:51.440> data
+
+00:06:56.010 --> 00:06:56.020 
+
+00:06:56.020 --> 00:06:58.770 
+
+path<00:06:56.680> to<00:06:56.889> the<00:06:56.919> target<00:06:57.190> share<00:06:57.520> on<00:06:57.780> this
+
+00:06:58.770 --> 00:06:58.780 
+path to the target share on this
+
+00:06:58.780 --> 00:07:00.210 
+path to the target share on this
+computer<00:06:58.990> i<00:06:59.169> set<00:06:59.349> up<00:06:59.410> another<00:06:59.560> shared<00:06:59.889> folder
+
+00:07:00.210 --> 00:07:00.220 
+computer i set up another shared folder
+
+00:07:00.220 --> 00:07:03.410 
+computer i set up another shared folder
+on<00:07:00.340> the<00:07:00.430> c<00:07:00.580> drive<00:07:00.699> called<00:07:01.030> accounting<00:07:01.449> data
+
+00:07:03.410 --> 00:07:03.420 
+on the c drive called accounting data
+
+00:07:03.420 --> 00:07:04.400 
+on the c drive called accounting data
+counting<00:07:03.630> data<00:07:03.810> I<00:07:03.900> set<00:07:04.140> up<00:07:04.230> a<00:07:04.290> couple
+
+00:07:04.400 --> 00:07:04.410 
+counting data I set up a couple
+
+00:07:04.410 --> 00:07:07.839 
+counting data I set up a couple
+subfolders<00:07:05.160> quickbook<00:07:05.730> files<00:07:06.000> for<00:07:06.270> example
+
+00:07:07.839 --> 00:07:07.849 
+subfolders quickbook files for example
+
+00:07:07.849 --> 00:07:09.929 
+subfolders quickbook files for example
+so<00:07:08.509> the<00:07:08.629> folder<00:07:09.050> name<00:07:09.080> is<00:07:09.319> accounting<00:07:09.709> data
+
+00:07:09.929 --> 00:07:09.939 
+so the folder name is accounting data
+
+00:07:09.939 --> 00:07:15.959 
+so the folder name is accounting data
+the<00:07:10.939> share<00:07:11.209> name<00:07:11.449> is<00:07:11.599> acct<00:07:12.319> data
+
+00:07:15.959 --> 00:07:15.969 
+
+00:07:15.969 --> 00:07:20.710 
+
+so<00:07:16.629> shared<00:07:16.929> a<00:07:17.049> went<00:07:17.289> back<00:07:17.499> SL<00:07:17.889> s<00:07:18.069> rb3
+
+00:07:20.710 --> 00:07:20.720 
+
+00:07:20.720 --> 00:07:29.399 
+
+acct<00:07:21.720> da<00:07:22.050> ta<00:07:22.380> the<00:07:23.160> sheer<00:07:23.370> day
+
+00:07:29.399 --> 00:07:29.409 
+
+00:07:29.409 --> 00:07:31.990 
+
+you
+
+00:07:31.990 --> 00:07:32.000 
+
+00:07:32.000 --> 00:07:33.820 
+
+and<00:07:32.540> there's<00:07:32.870> our<00:07:32.960> second<00:07:33.290> link<00:07:33.440> let's<00:07:33.650> test
+
+00:07:33.820 --> 00:07:33.830 
+and there's our second link let's test
+
+00:07:33.830 --> 00:07:36.550 
+and there's our second link let's test
+that<00:07:33.980> out<00:07:34.930> accessing<00:07:35.930> the<00:07:36.050> web
+
+00:07:36.550 --> 00:07:36.560 
+that out accessing the web
+
+00:07:36.560 --> 00:07:40.390 
+that out accessing the web
+private<00:07:37.010> /<00:07:37.250> info<00:07:37.669> DFS<00:07:38.240> root<00:07:39.250> we<00:07:40.250> see
+
+00:07:40.390 --> 00:07:40.400 
+private / info DFS root we see
+
+00:07:40.400 --> 00:07:41.650 
+private / info DFS root we see
+accounting<00:07:40.790> information<00:07:40.970> and<00:07:41.389> sales
+
+00:07:41.650 --> 00:07:41.660 
+accounting information and sales
+
+00:07:41.660 --> 00:07:45.460 
+accounting information and sales
+information
+
+00:07:45.460 --> 00:07:45.470 
+
+00:07:45.470 --> 00:07:47.260 
+
+opening<00:07:46.100> up<00:07:46.190> accounting<00:07:46.610> information<00:07:46.820> will
+
+00:07:47.260 --> 00:07:47.270 
+opening up accounting information will
+
+00:07:47.270 --> 00:07:49.420 
+opening up accounting information will
+see<00:07:47.420> there<00:07:47.600> we<00:07:47.690> go<00:07:47.810> took<00:07:48.500> us<00:07:48.620> right<00:07:48.830> there<00:07:49.100> to
+
+00:07:49.420 --> 00:07:49.430 
+see there we go took us right there to
+
+00:07:49.430 --> 00:07:50.770 
+see there we go took us right there to
+go<00:07:49.520> to<00:07:49.610> the<00:07:49.700> Peachtree<00:07:50.060> files<00:07:50.270> folder<00:07:50.600> and<00:07:50.690> the
+
+00:07:50.770 --> 00:07:50.780 
+go to the Peachtree files folder and the
+
+00:07:50.780 --> 00:07:52.420 
+go to the Peachtree files folder and the
+quickbooks<00:07:51.110> file<00:07:51.320> folder<00:07:51.590> and<00:07:51.740> there<00:07:52.220> is<00:07:52.310> our
+
+00:07:52.420 --> 00:07:52.430 
+quickbooks file folder and there is our
+
+00:07:52.430 --> 00:07:57.510 
+quickbooks file folder and there is our
+quick<00:07:52.610> book<00:07:52.790> files
+
+00:07:57.510 --> 00:07:57.520 
+
+00:07:57.520 --> 00:08:00.200 
+
+so<00:07:58.120> again<00:07:58.300> the<00:07:58.389> thing<00:07:58.569> to<00:07:58.660> notice<00:07:58.840> is<00:07:59.110> with<00:07:59.440> DFS
+
+00:08:00.200 --> 00:08:00.210 
+so again the thing to notice is with DFS
+
+00:08:00.210 --> 00:08:02.400 
+so again the thing to notice is with DFS
+everything<00:08:01.210> appears<00:08:01.599> to<00:08:01.660> be<00:08:01.780> in<00:08:01.870> one<00:08:02.110> spot
+
+00:08:02.400 --> 00:08:02.410 
+everything appears to be in one spot
+
+00:08:02.410 --> 00:08:05.070 
+everything appears to be in one spot
+when<00:08:02.740> in<00:08:02.860> fact<00:08:02.889> the<00:08:03.849> targets<00:08:04.419> the<00:08:04.750> target
+
+00:08:05.070 --> 00:08:05.080 
+when in fact the targets the target
+
+00:08:05.080 --> 00:08:06.330 
+when in fact the targets the target
+information<00:08:05.349> can<00:08:05.800> actually<00:08:06.039> come<00:08:06.159> from
+
+00:08:06.330 --> 00:08:06.340 
+information can actually come from
+
+00:08:06.340 --> 00:08:07.710 
+information can actually come from
+different<00:08:06.490> spots<00:08:06.849> on<00:08:07.000> the<00:08:07.060> network<00:08:07.270> different
+
+00:08:07.710 --> 00:08:07.720 
+different spots on the network different
+
+00:08:07.720 --> 00:08:10.349 
+different spots on the network different
+chairs<00:08:07.930> on<00:08:08.110> the<00:08:08.139> network
+

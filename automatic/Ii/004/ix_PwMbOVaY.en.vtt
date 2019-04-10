@@ -1,0 +1,882 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.919 --> 00:00:11.350 
+
+hi<00:00:09.919> my<00:00:10.190> name<00:00:10.370> is<00:00:10.400> cliff<00:00:10.790> Wooley<00:00:11.059> I'm<00:00:11.269> a
+
+00:00:11.350 --> 00:00:11.360 
+hi my name is cliff Wooley I'm a
+
+00:00:11.360 --> 00:00:12.909 
+hi my name is cliff Wooley I'm a
+developer<00:00:11.809> technology<00:00:12.379> engineer<00:00:12.799> with
+
+00:00:12.909 --> 00:00:12.919 
+developer technology engineer with
+
+00:00:12.919 --> 00:00:14.709 
+developer technology engineer with
+Nvidia<00:00:13.309> I'm<00:00:13.879> here<00:00:14.059> today<00:00:14.269> to<00:00:14.330> tell<00:00:14.599> you<00:00:14.690> about
+
+00:00:14.709 --> 00:00:14.719 
+Nvidia I'm here today to tell you about
+
+00:00:14.719 --> 00:00:16.810 
+Nvidia I'm here today to tell you about
+Nvidia's<00:00:15.320> CUDA<00:00:15.349> technology<00:00:16.250> and<00:00:16.460> help<00:00:16.610> you<00:00:16.700> to
+
+00:00:16.810 --> 00:00:16.820 
+Nvidia's CUDA technology and help you to
+
+00:00:16.820 --> 00:00:18.730 
+Nvidia's CUDA technology and help you to
+get<00:00:16.910> an<00:00:17.060> idea<00:00:17.150> of<00:00:17.420> what<00:00:17.599> CUDA<00:00:17.869> can<00:00:18.019> do<00:00:18.170> for<00:00:18.410> you
+
+00:00:18.730 --> 00:00:18.740 
+get an idea of what CUDA can do for you
+
+00:00:18.740 --> 00:00:21.550 
+get an idea of what CUDA can do for you
+so<00:00:19.279> what<00:00:19.460> is<00:00:19.580> good<00:00:20.119> Nvidia<00:00:20.810> introduced<00:00:21.230> CUDA
+
+00:00:21.550 --> 00:00:21.560 
+so what is good Nvidia introduced CUDA
+
+00:00:21.560 --> 00:00:24.550 
+so what is good Nvidia introduced CUDA
+in<00:00:21.679> 2006<00:00:22.550> the<00:00:23.510> term<00:00:23.689> refers<00:00:23.990> to<00:00:24.019> two<00:00:24.259> things
+
+00:00:24.550 --> 00:00:24.560 
+in 2006 the term refers to two things
+
+00:00:24.560 --> 00:00:26.560 
+in 2006 the term refers to two things
+first<00:00:25.340> it<00:00:25.490> refers<00:00:25.759> to<00:00:25.789> the<00:00:26.119> massively
+
+00:00:26.560 --> 00:00:26.570 
+first it refers to the massively
+
+00:00:26.570 --> 00:00:28.540 
+first it refers to the massively
+parallel<00:00:26.869> architecture<00:00:27.679> of<00:00:27.830> modern<00:00:28.070> GPUs
+
+00:00:28.540 --> 00:00:28.550 
+parallel architecture of modern GPUs
+
+00:00:28.550 --> 00:00:30.700 
+parallel architecture of modern GPUs
+with<00:00:28.820> hundreds<00:00:29.150> of<00:00:29.269> cores<00:00:29.589> second<00:00:30.589> there
+
+00:00:30.700 --> 00:00:30.710 
+with hundreds of cores second there
+
+00:00:30.710 --> 00:00:32.470 
+with hundreds of cores second there
+refers<00:00:30.980> to<00:00:31.009> the<00:00:31.339> CUDA<00:00:31.640> parallel<00:00:32.029> programming
+
+00:00:32.470 --> 00:00:32.480 
+refers to the CUDA parallel programming
+
+00:00:32.480 --> 00:00:35.290 
+refers to the CUDA parallel programming
+model<00:00:32.840> used<00:00:33.080> to<00:00:33.200> program<00:00:33.560> these<00:00:33.710> GPUs<00:00:34.160> we<00:00:35.150> need
+
+00:00:35.290 --> 00:00:35.300 
+model used to program these GPUs we need
+
+00:00:35.300 --> 00:00:37.150 
+model used to program these GPUs we need
+some<00:00:35.510> way<00:00:35.630> that<00:00:35.660> we<00:00:35.960> can<00:00:36.200> program<00:00:36.650> all<00:00:37.010> these
+
+00:00:37.150 --> 00:00:37.160 
+some way that we can program all these
+
+00:00:37.160 --> 00:00:39.910 
+some way that we can program all these
+cores<00:00:37.460> efficiently<00:00:38.240> and<00:00:38.360> easily<00:00:38.740> so<00:00:39.740> now<00:00:39.860> we
+
+00:00:39.910 --> 00:00:39.920 
+cores efficiently and easily so now we
+
+00:00:39.920 --> 00:00:41.950 
+cores efficiently and easily so now we
+have<00:00:40.130> CPUs<00:00:40.640> with<00:00:40.910> several<00:00:41.300> cores<00:00:41.540> and<00:00:41.720> we<00:00:41.810> have
+
+00:00:41.950 --> 00:00:41.960 
+have CPUs with several cores and we have
+
+00:00:41.960 --> 00:00:44.380 
+have CPUs with several cores and we have
+GPUs<00:00:42.410> with<00:00:42.590> hundreds<00:00:42.920> of<00:00:42.980> cores<00:00:43.280> and<00:00:43.520> we<00:00:44.240> can
+
+00:00:44.380 --> 00:00:44.390 
+GPUs with hundreds of cores and we can
+
+00:00:44.390 --> 00:00:46.330 
+GPUs with hundreds of cores and we can
+use<00:00:44.510> the<00:00:44.660> two<00:00:44.840> processors<00:00:45.350> together<00:00:45.770> as<00:00:46.070> a
+
+00:00:46.330 --> 00:00:46.340 
+use the two processors together as a
+
+00:00:46.340 --> 00:00:47.950 
+use the two processors together as a
+heterogeneous<00:00:46.820> system<00:00:47.360> and<00:00:47.540> get<00:00:47.660> the<00:00:47.780> best
+
+00:00:47.950 --> 00:00:47.960 
+heterogeneous system and get the best
+
+00:00:47.960 --> 00:00:49.680 
+heterogeneous system and get the best
+advantage<00:00:48.380> out<00:00:48.530> of<00:00:48.560> each<00:00:48.770> kind<00:00:48.980> of<00:00:49.100> processor
+
+00:00:49.680 --> 00:00:49.690 
+advantage out of each kind of processor
+
+00:00:49.690 --> 00:00:52.720 
+advantage out of each kind of processor
+so<00:00:50.690> what<00:00:50.840> are<00:00:50.930> the<00:00:50.990> benefits<00:00:51.170> of<00:00:51.500> CUDA<00:00:51.830> first
+
+00:00:52.720 --> 00:00:52.730 
+so what are the benefits of CUDA first
+
+00:00:52.730 --> 00:00:54.630 
+so what are the benefits of CUDA first
+CUDA<00:00:53.150> gives<00:00:53.360> us<00:00:53.540> a<00:00:53.570> way<00:00:53.810> that<00:00:54.050> we<00:00:54.170> can
+
+00:00:54.630 --> 00:00:54.640 
+CUDA gives us a way that we can
+
+00:00:54.640 --> 00:00:56.980 
+CUDA gives us a way that we can
+efficiently<00:00:55.640> process<00:00:56.270> thousands<00:00:56.840> of
+
+00:00:56.980 --> 00:00:56.990 
+efficiently process thousands of
+
+00:00:56.990 --> 00:00:58.720 
+efficiently process thousands of
+elements<00:00:57.380> for<00:00:57.650> a<00:00:57.740> particular<00:00:58.220> task<00:00:58.430> in
+
+00:00:58.720 --> 00:00:58.730 
+elements for a particular task in
+
+00:00:58.730 --> 00:01:00.880 
+elements for a particular task in
+parallel<00:00:59.120> second<00:01:00.110> it<00:01:00.200> gives<00:01:00.290> us<00:01:00.470> a<00:01:00.590> way<00:01:00.680> that
+
+00:01:00.880 --> 00:01:00.890 
+parallel second it gives us a way that
+
+00:01:00.890 --> 00:01:02.500 
+parallel second it gives us a way that
+nearby<00:01:01.220> tasks<00:01:01.670> can<00:01:01.820> communicate<00:01:02.300> and
+
+00:01:02.500 --> 00:01:02.510 
+nearby tasks can communicate and
+
+00:01:02.510 --> 00:01:05.740 
+nearby tasks can communicate and
+collaborate<00:01:02.630> efficiently<00:01:03.790> so<00:01:04.790> in<00:01:05.119> these
+
+00:01:05.740 --> 00:01:05.750 
+collaborate efficiently so in these
+
+00:01:05.750 --> 00:01:08.109 
+collaborate efficiently so in these
+heterogeneous<00:01:05.929> systems<00:01:06.679> we<00:01:07.039> have<00:01:07.280> CPUs<00:01:07.939> and
+
+00:01:08.109 --> 00:01:08.119 
+heterogeneous systems we have CPUs and
+
+00:01:08.119 --> 00:01:08.649 
+heterogeneous systems we have CPUs and
+GPUs
+
+00:01:08.649 --> 00:01:08.659 
+GPUs
+
+00:01:08.659 --> 00:01:12.700 
+GPUs
+which<00:01:09.380> together<00:01:10.039> can<00:01:10.909> process<00:01:11.479> many<00:01:12.350> elements
+
+00:01:12.700 --> 00:01:12.710 
+which together can process many elements
+
+00:01:12.710 --> 00:01:15.069 
+which together can process many elements
+although<00:01:13.340> on<00:01:13.609> a<00:01:13.640> CPU<00:01:14.060> with<00:01:14.420> several<00:01:14.750> cores
+
+00:01:15.069 --> 00:01:15.079 
+although on a CPU with several cores
+
+00:01:15.079 --> 00:01:18.099 
+although on a CPU with several cores
+each<00:01:15.380> core<00:01:16.280> is<00:01:16.460> operating<00:01:17.119> on<00:01:17.210> perhaps<00:01:17.420> one<00:01:17.869> or
+
+00:01:18.099 --> 00:01:18.109 
+each core is operating on perhaps one or
+
+00:01:18.109 --> 00:01:20.319 
+each core is operating on perhaps one or
+two<00:01:18.380> threads<00:01:19.280> at<00:01:19.520> any<00:01:19.640> given<00:01:19.850> moment
+
+00:01:20.319 --> 00:01:20.329 
+two threads at any given moment
+
+00:01:20.329 --> 00:01:22.660 
+two threads at any given moment
+whereas<00:01:20.960> with<00:01:21.200> GPUs<00:01:21.799> hundreds<00:01:22.280> of<00:01:22.429> course
+
+00:01:22.660 --> 00:01:22.670 
+whereas with GPUs hundreds of course
+
+00:01:22.670 --> 00:01:26.050 
+whereas with GPUs hundreds of course
+each<00:01:22.909> core<00:01:23.359> is<00:01:23.600> working<00:01:23.810> on<00:01:24.310> tens<00:01:25.310> or<00:01:25.640> hundreds
+
+00:01:26.050 --> 00:01:26.060 
+each core is working on tens or hundreds
+
+00:01:26.060 --> 00:01:28.330 
+each core is working on tens or hundreds
+of<00:01:26.179> threads<00:01:26.539> simultaneously<00:01:27.189> juggling<00:01:28.189> them
+
+00:01:28.330 --> 00:01:28.340 
+of threads simultaneously juggling them
+
+00:01:28.340 --> 00:01:30.669 
+of threads simultaneously juggling them
+so<00:01:28.850> overall<00:01:29.240> we<00:01:29.570> have<00:01:29.749> thousands<00:01:30.350> of<00:01:30.530> threads
+
+00:01:30.669 --> 00:01:30.679 
+so overall we have thousands of threads
+
+00:01:30.679 --> 00:01:33.279 
+so overall we have thousands of threads
+that<00:01:31.009> the<00:01:31.100> GPU<00:01:31.460> is<00:01:31.850> working<00:01:32.509> with<00:01:32.659> at<00:01:32.869> any
+
+00:01:33.279 --> 00:01:33.289 
+that the GPU is working with at any
+
+00:01:33.289 --> 00:01:36.279 
+that the GPU is working with at any
+given<00:01:33.469> time<00:01:33.819> so<00:01:34.819> CUDA<00:01:35.060> provides<00:01:35.420> a<00:01:35.600> scalable
+
+00:01:36.279 --> 00:01:36.289 
+given time so CUDA provides a scalable
+
+00:01:36.289 --> 00:01:38.800 
+given time so CUDA provides a scalable
+intuitive<00:01:36.799> way<00:01:36.950> to<00:01:36.979> express<00:01:37.579> parallelism<00:01:38.149> we
+
+00:01:38.800 --> 00:01:38.810 
+intuitive way to express parallelism we
+
+00:01:38.810 --> 00:01:41.469 
+intuitive way to express parallelism we
+simply<00:01:39.170> write<00:01:39.439> a<00:01:39.740> program<00:01:40.369> for<00:01:40.819> one<00:01:41.240> data
+
+00:01:41.469 --> 00:01:41.479 
+simply write a program for one data
+
+00:01:41.479 --> 00:01:43.059 
+simply write a program for one data
+element<00:01:41.899> and<00:01:41.990> it<00:01:42.350> gets<00:01:42.499> automatically
+
+00:01:43.059 --> 00:01:43.069 
+element and it gets automatically
+
+00:01:43.069 --> 00:01:44.590 
+element and it gets automatically
+distributed<00:01:43.609> across<00:01:43.909> our<00:01:44.090> hundreds<00:01:44.450> of
+
+00:01:44.590 --> 00:01:44.600 
+distributed across our hundreds of
+
+00:01:44.600 --> 00:01:47.440 
+distributed across our hundreds of
+course<00:01:44.869> for<00:01:45.259> thousands<00:01:45.649> of<00:01:45.710> threads<00:01:46.299> so<00:01:47.299> as
+
+00:01:47.440 --> 00:01:47.450 
+course for thousands of threads so as
+
+00:01:47.450 --> 00:01:49.480 
+course for thousands of threads so as
+cooter<00:01:47.719> right<00:01:47.869> for<00:01:48.049> you<00:01:48.170> well<00:01:48.859> what<00:01:49.100> kinds<00:01:49.399> of
+
+00:01:49.480 --> 00:01:49.490 
+cooter right for you well what kinds of
+
+00:01:49.490 --> 00:01:51.010 
+cooter right for you well what kinds of
+workloads<00:01:49.909> does<00:01:50.090> your<00:01:50.210> application<00:01:50.719> require
+
+00:01:51.010 --> 00:01:51.020 
+workloads does your application require
+
+00:01:51.020 --> 00:01:53.919 
+workloads does your application require
+if<00:01:51.499> you<00:01:52.369> have<00:01:52.520> a<00:01:52.549> task<00:01:52.850> oriented<00:01:53.329> application
+
+00:01:53.919 --> 00:01:53.929 
+if you have a task oriented application
+
+00:01:53.929 --> 00:01:56.080 
+if you have a task oriented application
+for<00:01:54.319> example<00:01:54.499> one<00:01:54.829> that<00:01:55.100> needs<00:01:55.670> to<00:01:55.880> update
+
+00:01:56.080 --> 00:01:56.090 
+for example one that needs to update
+
+00:01:56.090 --> 00:01:57.789 
+for example one that needs to update
+five<00:01:56.450> records<00:01:56.780> in<00:01:56.899> a<00:01:56.960> database<00:01:57.079> then<00:01:57.649> do<00:01:57.740> you
+
+00:01:57.789 --> 00:01:57.799 
+five records in a database then do you
+
+00:01:57.799 --> 00:01:59.139 
+five records in a database then do you
+computing<00:01:58.310> probably<00:01:58.700> isn't<00:01:58.969> the<00:01:58.999> right
+
+00:01:59.139 --> 00:01:59.149 
+computing probably isn't the right
+
+00:01:59.149 --> 00:02:01.539 
+computing probably isn't the right
+choice<00:01:59.299> on<00:01:59.659> the<00:02:00.380> other<00:02:00.499> hand<00:02:00.740> if<00:02:00.889> you<00:02:01.009> have<00:02:01.219> a
+
+00:02:01.539 --> 00:02:01.549 
+choice on the other hand if you have a
+
+00:02:01.549 --> 00:02:02.830 
+choice on the other hand if you have a
+large<00:02:01.880> amount<00:02:02.119> of<00:02:02.179> data<00:02:02.329> that<00:02:02.420> you<00:02:02.600> need<00:02:02.719> to
+
+00:02:02.830 --> 00:02:02.840 
+large amount of data that you need to
+
+00:02:02.840 --> 00:02:05.949 
+large amount of data that you need to
+process<00:02:03.079> for<00:02:03.950> example<00:02:04.399> searching<00:02:05.119> through<00:02:05.600> a
+
+00:02:05.949 --> 00:02:05.959 
+process for example searching through a
+
+00:02:05.959 --> 00:02:08.670 
+process for example searching through a
+terabyte<00:02:06.469> of<00:02:06.530> data<00:02:06.770> for<00:02:07.100> a<00:02:07.130> string<00:02:07.459> or<00:02:07.700> a
+
+00:02:08.670 --> 00:02:08.680 
+terabyte of data for a string or a
+
+00:02:08.680 --> 00:02:11.740 
+terabyte of data for a string or a
+massively<00:02:09.680> parallel<00:02:10.090> molecular<00:02:11.090> simulation
+
+00:02:11.740 --> 00:02:11.750 
+massively parallel molecular simulation
+
+00:02:11.750 --> 00:02:14.620 
+massively parallel molecular simulation
+or<00:02:12.050> engineering<00:02:12.950> simulation<00:02:13.670> then<00:02:14.270> GPU
+
+00:02:14.620 --> 00:02:14.630 
+or engineering simulation then GPU
+
+00:02:14.630 --> 00:02:15.230 
+or engineering simulation then GPU
+computing<00:02:15.020> can
+
+00:02:15.230 --> 00:02:15.240 
+computing can
+
+00:02:15.240 --> 00:02:17.420 
+computing can
+be<00:02:15.300> a<00:02:15.330> very<00:02:15.480> good<00:02:15.750> fit<00:02:15.990> the<00:02:16.770> hundreds<00:02:17.070> of<00:02:17.190> cores
+
+00:02:17.420 --> 00:02:17.430 
+be a very good fit the hundreds of cores
+
+00:02:17.430 --> 00:02:19.280 
+be a very good fit the hundreds of cores
+of<00:02:17.490> the<00:02:17.610> GPU<00:02:18.090> give<00:02:18.390> us<00:02:18.510> a<00:02:18.600> high<00:02:18.750> throughput<00:02:18.990> way
+
+00:02:19.280 --> 00:02:19.290 
+of the GPU give us a high throughput way
+
+00:02:19.290 --> 00:02:22.280 
+of the GPU give us a high throughput way
+to<00:02:19.350> process<00:02:20.280> our<00:02:20.400> computing<00:02:20.820> job<00:02:21.060> and<00:02:21.300> most<00:02:22.110> of
+
+00:02:22.280 --> 00:02:22.290 
+to process our computing job and most of
+
+00:02:22.290 --> 00:02:23.750 
+to process our computing job and most of
+the<00:02:22.380> interesting<00:02:22.830> computer<00:02:23.370> tasks<00:02:23.580> these
+
+00:02:23.750 --> 00:02:23.760 
+the interesting computer tasks these
+
+00:02:23.760 --> 00:02:26.750 
+the interesting computer tasks these
+days<00:02:24.030> our<00:02:24.390> throughput<00:02:24.870> problems<00:02:25.580> so<00:02:26.580> how<00:02:26.700> does
+
+00:02:26.750 --> 00:02:26.760 
+days our throughput problems so how does
+
+00:02:26.760 --> 00:02:29.360 
+days our throughput problems so how does
+it<00:02:26.880> work<00:02:27.320> well<00:02:28.320> the<00:02:28.470> days<00:02:28.590> of<00:02:28.770> free<00:02:28.950> scaling
+
+00:02:29.360 --> 00:02:29.370 
+it work well the days of free scaling
+
+00:02:29.370 --> 00:02:31.580 
+it work well the days of free scaling
+are<00:02:29.490> over<00:02:29.790> you<00:02:30.180> have<00:02:30.330> to<00:02:30.360> go<00:02:30.540> parallel<00:02:30.870> so<00:02:31.320> CUDA
+
+00:02:31.580 --> 00:02:31.590 
+are over you have to go parallel so CUDA
+
+00:02:31.590 --> 00:02:32.990 
+are over you have to go parallel so CUDA
+gives<00:02:31.770> you<00:02:31.860> a<00:02:31.890> way<00:02:32.040> that<00:02:32.070> you<00:02:32.280> can<00:02:32.520> express
+
+00:02:32.990 --> 00:02:33.000 
+gives you a way that you can express
+
+00:02:33.000 --> 00:02:34.880 
+gives you a way that you can express
+parallelism<00:02:33.810> in<00:02:34.200> a<00:02:34.260> way<00:02:34.380> that<00:02:34.530> will<00:02:34.650> scale
+
+00:02:34.880 --> 00:02:34.890 
+parallelism in a way that will scale
+
+00:02:34.890 --> 00:02:36.590 
+parallelism in a way that will scale
+with<00:02:35.130> future<00:02:35.400> architectures<00:02:35.970> in<00:02:36.150> languages
+
+00:02:36.590 --> 00:02:36.600 
+with future architectures in languages
+
+00:02:36.600 --> 00:02:38.900 
+with future architectures in languages
+you<00:02:36.750> already<00:02:36.960> know<00:02:37.110> like<00:02:37.140> C<00:02:37.620> C++<00:02:37.980> Fortran<00:02:38.790> and
+
+00:02:38.900 --> 00:02:38.910 
+you already know like C C++ Fortran and
+
+00:02:38.910 --> 00:02:41.390 
+you already know like C C++ Fortran and
+so<00:02:39.060> on<00:02:39.240> it<00:02:40.230> will<00:02:40.380> allow<00:02:40.620> you<00:02:40.680> to<00:02:40.860> take
+
+00:02:41.390 --> 00:02:41.400 
+so on it will allow you to take
+
+00:02:41.400 --> 00:02:43.190 
+so on it will allow you to take
+advantage<00:02:41.460> of<00:02:42.060> libraries<00:02:42.510> like<00:02:42.750> our<00:02:42.930> blast
+
+00:02:43.190 --> 00:02:43.200 
+advantage of libraries like our blast
+
+00:02:43.200 --> 00:02:45.950 
+advantage of libraries like our blast
+and<00:02:43.530> FFT<00:02:44.220> libraries<00:02:44.760> and<00:02:45.000> others<00:02:45.180> to<00:02:45.840> get
+
+00:02:45.950 --> 00:02:45.960 
+and FFT libraries and others to get
+
+00:02:45.960 --> 00:02:48.860 
+and FFT libraries and others to get
+best-in-class<00:02:46.350> GPU<00:02:46.920> performance<00:02:47.460> and<00:02:47.870> it
+
+00:02:48.860 --> 00:02:48.870 
+best-in-class GPU performance and it
+
+00:02:48.870 --> 00:02:51.170 
+best-in-class GPU performance and it
+will<00:02:49.020> give<00:02:49.170> you<00:02:49.260> an<00:02:49.410> ecosystem<00:02:50.160> of<00:02:50.550> developer
+
+00:02:51.170 --> 00:02:51.180 
+will give you an ecosystem of developer
+
+00:02:51.180 --> 00:02:52.790 
+will give you an ecosystem of developer
+tools<00:02:51.390> and<00:02:51.720> solutions<00:02:51.990> that<00:02:52.410> allow<00:02:52.590> you<00:02:52.650> to
+
+00:02:52.790 --> 00:02:52.800 
+tools and solutions that allow you to
+
+00:02:52.800 --> 00:02:55.010 
+tools and solutions that allow you to
+fine<00:02:53.130> tune<00:02:53.160> your<00:02:53.580> own<00:02:53.730> code<00:02:54.000> to<00:02:54.660> get<00:02:54.810> best
+
+00:02:55.010 --> 00:02:55.020 
+fine tune your own code to get best
+
+00:02:55.020 --> 00:02:57.620 
+fine tune your own code to get best
+performance<00:02:55.590> out<00:02:55.680> of<00:02:55.770> the<00:02:55.830> GPU<00:02:56.310> so<00:02:57.300> let's<00:02:57.480> take
+
+00:02:57.620 --> 00:02:57.630 
+performance out of the GPU so let's take
+
+00:02:57.630 --> 00:02:59.510 
+performance out of the GPU so let's take
+a<00:02:57.690> look<00:02:57.840> at<00:02:57.930> an<00:02:58.020> example<00:02:58.110> that'll<00:02:58.680> show<00:02:58.890> how<00:02:59.370> it
+
+00:02:59.510 --> 00:02:59.520 
+a look at an example that'll show how it
+
+00:02:59.520 --> 00:03:00.950 
+a look at an example that'll show how it
+is<00:02:59.550> that<00:02:59.670> CUDA<00:03:00.060> makes<00:03:00.240> it<00:03:00.390> easy<00:03:00.510> for<00:03:00.690> us<00:03:00.870> to
+
+00:03:00.950 --> 00:03:00.960 
+is that CUDA makes it easy for us to
+
+00:03:00.960 --> 00:03:02.720 
+is that CUDA makes it easy for us to
+express<00:03:01.500> all<00:03:01.650> this<00:03:01.800> parallelism<00:03:02.310> we've<00:03:02.580> been
+
+00:03:02.720 --> 00:03:02.730 
+express all this parallelism we've been
+
+00:03:02.730 --> 00:03:04.730 
+express all this parallelism we've been
+talking<00:03:03.000> about<00:03:03.290> consider<00:03:04.290> a<00:03:04.320> case<00:03:04.470> where<00:03:04.650> we
+
+00:03:04.730 --> 00:03:04.740 
+talking about consider a case where we
+
+00:03:04.740 --> 00:03:06.680 
+talking about consider a case where we
+have<00:03:04.890> three<00:03:05.190> Becker's<00:03:05.550> a<00:03:05.700> B<00:03:05.910> and<00:03:06.060> C<00:03:06.270> and<00:03:06.630> we
+
+00:03:06.680 --> 00:03:06.690 
+have three Becker's a B and C and we
+
+00:03:06.690 --> 00:03:09.230 
+have three Becker's a B and C and we
+simply<00:03:07.500> want<00:03:07.680> to<00:03:07.710> add<00:03:07.920> these<00:03:08.310> vectors<00:03:08.700> a<00:03:08.940> and<00:03:08.970> B
+
+00:03:09.230 --> 00:03:09.240 
+simply want to add these vectors a and B
+
+00:03:09.240 --> 00:03:12.520 
+simply want to add these vectors a and B
+and<00:03:09.510> store<00:03:09.600> the<00:03:09.840> result<00:03:09.960> then<00:03:10.260> to<00:03:10.350> see<00:03:10.850> well<00:03:11.850> in
+
+00:03:12.520 --> 00:03:12.530 
+and store the result then to see well in
+
+00:03:12.530 --> 00:03:16.340 
+and store the result then to see well in
+C<00:03:13.530> normally<00:03:14.450> in<00:03:15.450> the<00:03:15.540> sequential<00:03:15.840> case<00:03:16.140> this
+
+00:03:16.340 --> 00:03:16.350 
+C normally in the sequential case this
+
+00:03:16.350 --> 00:03:18.050 
+C normally in the sequential case this
+would<00:03:16.560> simply<00:03:16.890> look<00:03:17.190> like<00:03:17.460> a<00:03:17.490> loop<00:03:17.790> that<00:03:18.000> says
+
+00:03:18.050 --> 00:03:18.060 
+would simply look like a loop that says
+
+00:03:18.060 --> 00:03:23.030 
+would simply look like a loop that says
+for<00:03:18.720> I<00:03:18.930> equals<00:03:19.560> 0<00:03:19.880> to<00:03:20.880> n<00:03:21.060> minus<00:03:21.090> 1<00:03:21.830> where<00:03:22.830> n<00:03:23.010> is
+
+00:03:23.030 --> 00:03:23.040 
+for I equals 0 to n minus 1 where n is
+
+00:03:23.040 --> 00:03:27.470 
+for I equals 0 to n minus 1 where n is
+the<00:03:23.220> length<00:03:23.580> of<00:03:23.820> the<00:03:23.970> vector<00:03:26.210> then<00:03:27.210> one
+
+00:03:27.470 --> 00:03:27.480 
+the length of the vector then one
+
+00:03:27.480 --> 00:03:32.320 
+the length of the vector then one
+element<00:03:27.960> at<00:03:28.050> a<00:03:28.140> time<00:03:28.170> I<00:03:30.200> add<00:03:31.200> the<00:03:31.830> 0th<00:03:32.100> element
+
+00:03:32.320 --> 00:03:32.330 
+element at a time I add the 0th element
+
+00:03:32.330 --> 00:03:34.700 
+element at a time I add the 0th element
+to<00:03:33.330> the<00:03:33.510> zeroth<00:03:33.780> element<00:03:33.870> and<00:03:34.290> then<00:03:34.380> the<00:03:34.500> first
+
+00:03:34.700 --> 00:03:34.710 
+to the zeroth element and then the first
+
+00:03:34.710 --> 00:03:36.650 
+to the zeroth element and then the first
+and<00:03:34.980> then<00:03:35.160> the<00:03:35.280> second<00:03:35.580> and<00:03:35.640> so<00:03:35.820> on<00:03:36.030> down<00:03:36.600> the
+
+00:03:36.650 --> 00:03:36.660 
+and then the second and so on down the
+
+00:03:36.660 --> 00:03:40.010 
+and then the second and so on down the
+chain<00:03:36.990> one<00:03:37.350> at<00:03:37.470> a<00:03:37.560> time<00:03:37.740> in<00:03:37.920> series<00:03:38.570> so<00:03:39.570> in<00:03:39.690> CUDA
+
+00:03:40.010 --> 00:03:40.020 
+chain one at a time in series so in CUDA
+
+00:03:40.020 --> 00:03:42.020 
+chain one at a time in series so in CUDA
+instead<00:03:40.410> what<00:03:40.590> we<00:03:40.680> consider<00:03:41.070> is<00:03:41.550> each<00:03:41.970> of
+
+00:03:42.020 --> 00:03:42.030 
+instead what we consider is each of
+
+00:03:42.030 --> 00:03:44.780 
+instead what we consider is each of
+these<00:03:42.420> in<00:03:43.010> individual<00:03:44.010> additions<00:03:44.490> is<00:03:44.730> a
+
+00:03:44.780 --> 00:03:44.790 
+these in individual additions is a
+
+00:03:44.790 --> 00:03:47.660 
+these in individual additions is a
+thread<00:03:45.540> and<00:03:45.780> a<00:03:46.290> thread<00:03:46.530> operates<00:03:47.010> it<00:03:47.190> from<00:03:47.580> the
+
+00:03:47.660 --> 00:03:47.670 
+thread and a thread operates it from the
+
+00:03:47.670 --> 00:03:50.420 
+thread and a thread operates it from the
+perspective<00:03:48.150> of<00:03:48.330> one<00:03:48.720> data<00:03:48.960> element<00:03:49.430> so
+
+00:03:50.420 --> 00:03:50.430 
+perspective of one data element so
+
+00:03:50.430 --> 00:03:54.200 
+perspective of one data element so
+instead<00:03:50.700> of<00:03:50.790> this<00:03:50.880> being<00:03:51.090> a<00:03:51.270> loop<00:03:52.940> we<00:03:53.940> write<00:03:54.090> it
+
+00:03:54.200 --> 00:03:54.210 
+instead of this being a loop we write it
+
+00:03:54.210 --> 00:03:57.699 
+instead of this being a loop we write it
+like<00:03:54.300> a<00:03:54.360> function
+
+00:03:57.699 --> 00:03:57.709 
+
+00:03:57.709 --> 00:04:03.339 
+
+to<00:03:58.709> which<00:03:58.860> we<00:03:59.040> pass<00:03:59.250> these<00:03:59.580> three<00:04:00.420> vectors<00:04:00.650> and
+
+00:04:03.339 --> 00:04:03.349 
+to which we pass these three vectors and
+
+00:04:03.349 --> 00:04:15.140 
+to which we pass these three vectors and
+each<00:04:04.349> threat<00:04:04.709> has<00:04:04.890> an<00:04:05.040> index<00:04:05.310> so<00:04:13.819> now<00:04:14.819> each
+
+00:04:15.140 --> 00:04:15.150 
+each threat has an index so now each
+
+00:04:15.150 --> 00:04:17.960 
+each threat has an index so now each
+thread<00:04:15.660> is<00:04:16.320> operating<00:04:17.070> on<00:04:17.160> exactly<00:04:17.669> one
+
+00:04:17.960 --> 00:04:17.970 
+thread is operating on exactly one
+
+00:04:17.970 --> 00:04:22.940 
+thread is operating on exactly one
+element<00:04:18.180> and<00:04:18.630> we<00:04:18.900> simply<00:04:19.079> need<00:04:19.410> in<00:04:19.590> threads<00:04:21.950> so
+
+00:04:22.940 --> 00:04:22.950 
+element and we simply need in threads so
+
+00:04:22.950 --> 00:04:25.490 
+element and we simply need in threads so
+we<00:04:23.070> add<00:04:23.220> a<00:04:23.250> little<00:04:23.490> bit<00:04:23.700> of<00:04:23.729> syntax<00:04:24.350> to<00:04:25.350> our
+
+00:04:25.490 --> 00:04:25.500 
+we add a little bit of syntax to our
+
+00:04:25.500 --> 00:04:27.650 
+we add a little bit of syntax to our
+function<00:04:25.889> call<00:04:26.100> which<00:04:26.729> otherwise<00:04:27.000> looks<00:04:27.450> just
+
+00:04:27.650 --> 00:04:27.660 
+function call which otherwise looks just
+
+00:04:27.660 --> 00:04:29.060 
+function call which otherwise looks just
+the<00:04:27.750> same<00:04:27.840> as<00:04:28.110> an<00:04:28.229> ordinary<00:04:28.410> function<00:04:28.889> call
+
+00:04:29.060 --> 00:04:29.070 
+the same as an ordinary function call
+
+00:04:29.070 --> 00:04:31.940 
+the same as an ordinary function call
+this<00:04:29.970> extra<00:04:30.330> a<00:04:30.360> little<00:04:30.389> bit<00:04:30.660> of<00:04:30.750> syntax<00:04:31.169> to
+
+00:04:31.940 --> 00:04:31.950 
+this extra a little bit of syntax to
+
+00:04:31.950 --> 00:04:34.370 
+this extra a little bit of syntax to
+simplify<00:04:32.400> a<00:04:32.430> little<00:04:32.700> bit<00:04:33.200> basically<00:04:34.200> just
+
+00:04:34.370 --> 00:04:34.380 
+simplify a little bit basically just
+
+00:04:34.380 --> 00:04:36.520 
+simplify a little bit basically just
+tells<00:04:34.590> us<00:04:34.710> how<00:04:34.889> many<00:04:35.070> threads<00:04:35.280> we<00:04:35.490> need<00:04:35.639> so
+
+00:04:36.520 --> 00:04:36.530 
+tells us how many threads we need so
+
+00:04:36.530 --> 00:04:39.260 
+tells us how many threads we need so
+then<00:04:37.530> our<00:04:37.650> function<00:04:38.010> call<00:04:38.220> instead<00:04:39.120> of
+
+00:04:39.260 --> 00:04:39.270 
+then our function call instead of
+
+00:04:39.270 --> 00:04:42.530 
+then our function call instead of
+executing<00:04:39.870> exactly<00:04:40.500> once<00:04:40.710> per<00:04:41.400> call<00:04:41.639> executes
+
+00:04:42.530 --> 00:04:42.540 
+executing exactly once per call executes
+
+00:04:42.540 --> 00:04:45.379 
+executing exactly once per call executes
+n<00:04:42.780> times<00:04:43.050> as<00:04:43.380> in<00:04:44.220> separate<00:04:44.639> threads<00:04:44.880> one
+
+00:04:45.379 --> 00:04:45.389 
+n times as in separate threads one
+
+00:04:45.389 --> 00:04:48.110 
+n times as in separate threads one
+thread<00:04:45.660> per<00:04:45.690> data<00:04:45.990> element<00:04:46.669> this<00:04:47.669> gives<00:04:47.880> us<00:04:48.000> an
+
+00:04:48.110 --> 00:04:48.120 
+thread per data element this gives us an
+
+00:04:48.120 --> 00:04:50.180 
+thread per data element this gives us an
+easy<00:04:48.240> way<00:04:48.360> to<00:04:48.479> express<00:04:48.960> this<00:04:49.139> parallelism<00:04:49.590> and
+
+00:04:50.180 --> 00:04:50.190 
+easy way to express this parallelism and
+
+00:04:50.190 --> 00:04:52.879 
+easy way to express this parallelism and
+n<00:04:51.060> can<00:04:51.479> become<00:04:51.750> very<00:04:51.900> large<00:04:52.200> thousands
+
+00:04:52.879 --> 00:04:52.889 
+n can become very large thousands
+
+00:04:52.889 --> 00:04:54.680 
+n can become very large thousands
+perhaps<00:04:53.220> even<00:04:53.400> millions<00:04:53.639> allowing<00:04:54.510> us<00:04:54.660> to
+
+00:04:54.680 --> 00:04:54.690 
+perhaps even millions allowing us to
+
+00:04:54.690 --> 00:04:56.210 
+perhaps even millions allowing us to
+scale<00:04:55.050> up<00:04:55.229> to<00:04:55.350> even<00:04:55.590> greater<00:04:55.740> levels<00:04:56.130> of
+
+00:04:56.210 --> 00:04:56.220 
+scale up to even greater levels of
+
+00:04:56.220 --> 00:04:58.790 
+scale up to even greater levels of
+parallelism<00:04:56.639> in<00:04:57.540> conclusion<00:04:58.169> Koot<00:04:58.560> is<00:04:58.680> all
+
+00:04:58.790 --> 00:04:58.800 
+parallelism in conclusion Koot is all
+
+00:04:58.800 --> 00:05:00.590 
+parallelism in conclusion Koot is all
+about<00:04:59.040> high<00:04:59.190> performance<00:04:59.250> if<00:05:00.150> you<00:05:00.270> have<00:05:00.360> a<00:05:00.419> lot
+
+00:05:00.590 --> 00:05:00.600 
+about high performance if you have a lot
+
+00:05:00.600 --> 00:05:02.870 
+about high performance if you have a lot
+of<00:05:00.690> data<00:05:00.840> to<00:05:00.930> process<00:05:01.200> if<00:05:02.190> you<00:05:02.370> have<00:05:02.520> a<00:05:02.550> compute
+
+00:05:02.870 --> 00:05:02.880 
+of data to process if you have a compute
+
+00:05:02.880 --> 00:05:05.240 
+of data to process if you have a compute
+intensive<00:05:03.060> problem<00:05:03.630> Kudus<00:05:04.169> for<00:05:04.380> you<00:05:04.500> here's
+
+00:05:05.240 --> 00:05:05.250 
+intensive problem Kudus for you here's
+
+00:05:05.250 --> 00:05:07.909 
+intensive problem Kudus for you here's
+how<00:05:05.370> you<00:05:05.460> can<00:05:05.580> get<00:05:05.669> started<00:05:06.169> first<00:05:07.169> go<00:05:07.530> to<00:05:07.560> CUDA
+
+00:05:07.909 --> 00:05:07.919 
+how you can get started first go to CUDA
+
+00:05:07.919 --> 00:05:10.180 
+how you can get started first go to CUDA
+zone<00:05:08.100> at<00:05:08.280> and<00:05:08.430> video.com<00:05:08.820> slash<00:05:09.450> CUDA<00:05:09.840> zone
+
+00:05:10.180 --> 00:05:10.190 
+zone at and video.com slash CUDA zone
+
+00:05:10.190 --> 00:05:12.590 
+zone at and video.com slash CUDA zone
+then<00:05:11.190> you<00:05:11.310> can<00:05:11.460> download<00:05:11.669> the<00:05:11.940> CUDA<00:05:12.180> toolkit
+
+00:05:12.590 --> 00:05:12.600 
+then you can download the CUDA toolkit
+
+00:05:12.600 --> 00:05:15.890 
+then you can download the CUDA toolkit
+edit<00:05:12.930> video<00:05:13.139> comm<00:05:13.560> slash<00:05:13.919> get<00:05:14.250> CUDA<00:05:14.580> and<00:05:14.900> then
+
+00:05:15.890 --> 00:05:15.900 
+edit video comm slash get CUDA and then
+
+00:05:15.900 --> 00:05:17.480 
+edit video comm slash get CUDA and then
+you<00:05:15.990> can<00:05:16.110> watch<00:05:16.229> the<00:05:16.410> CUDA<00:05:16.680> webinars<00:05:17.070> in<00:05:17.280> video
+
+00:05:17.480 --> 00:05:17.490 
+you can watch the CUDA webinars in video
+
+00:05:17.490 --> 00:05:20.570 
+you can watch the CUDA webinars in video
+comm<00:05:17.910> slash<00:05:18.240> webinars<00:05:19.100> thanks<00:05:20.100> for<00:05:20.250> watching
+
+00:05:20.570 --> 00:05:20.580 
+comm slash webinars thanks for watching
+
+00:05:20.580 --> 00:05:21.890 
+comm slash webinars thanks for watching
+and<00:05:20.700> I<00:05:20.760> look<00:05:20.789> forward<00:05:20.970> to<00:05:21.330> seeing<00:05:21.630> the<00:05:21.750> great
+
+00:05:21.890 --> 00:05:21.900 
+and I look forward to seeing the great
+
+00:05:21.900 --> 00:05:24.830 
+and I look forward to seeing the great
+things<00:05:22.139> you<00:05:22.260> do<00:05:22.410> with<00:05:22.530> CUDA
+

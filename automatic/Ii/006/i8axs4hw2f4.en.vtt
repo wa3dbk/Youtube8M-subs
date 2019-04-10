@@ -1,0 +1,910 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.680 --> 00:00:03.139 
+
+hello<00:00:01.680> and<00:00:01.920> welcome<00:00:02.429> to<00:00:02.580> this<00:00:02.700> silence
+
+00:00:03.139 --> 00:00:03.149 
+hello and welcome to this silence
+
+00:00:03.149 --> 00:00:05.800 
+hello and welcome to this silence
+cricket<00:00:03.570> video<00:00:03.929> which<00:00:04.710> will<00:00:04.950> briefly<00:00:05.580> cover
+
+00:00:05.800 --> 00:00:05.810 
+cricket video which will briefly cover
+
+00:00:05.810 --> 00:00:08.179 
+cricket video which will briefly cover
+programming<00:00:06.810> and<00:00:06.960> real-time<00:00:07.500> debugging<00:00:08.099> you
+
+00:00:08.179 --> 00:00:08.189 
+programming and real-time debugging you
+
+00:00:08.189 --> 00:00:13.089 
+programming and real-time debugging you
+design<00:00:08.550> after<00:00:09.480> probing<00:00:09.900> and<00:00:10.019> implementation
+
+00:00:13.089 --> 00:00:13.099 
+
+00:00:13.099 --> 00:00:16.580 
+
+you<00:00:14.099> can<00:00:14.130> connect<00:00:14.750> to<00:00:15.750> hardware<00:00:16.170> by<00:00:16.350> using
+
+00:00:16.580 --> 00:00:16.590 
+you can connect to hardware by using
+
+00:00:16.590 --> 00:00:19.609 
+you can connect to hardware by using
+either<00:00:16.949> the<00:00:17.130> bravado<00:00:17.609> IDE<00:00:18.590> graphical<00:00:19.590> user
+
+00:00:19.609 --> 00:00:19.619 
+either the bravado IDE graphical user
+
+00:00:19.619 --> 00:00:23.480 
+either the bravado IDE graphical user
+interface<00:00:20.340> or<00:00:20.609> by<00:00:21.240> ticker<00:00:21.600> commands<00:00:22.490> in
+
+00:00:23.480 --> 00:00:23.490 
+interface or by ticker commands in
+
+00:00:23.490 --> 00:00:26.300 
+interface or by ticker commands in
+either<00:00:24.119> case<00:00:24.449> the<00:00:25.199> step<00:00:25.500> to<00:00:25.769> connect<00:00:26.070> to<00:00:26.189> the
+
+00:00:26.300 --> 00:00:26.310 
+either case the step to connect to the
+
+00:00:26.310 --> 00:00:28.790 
+either case the step to connect to the
+hardware<00:00:26.640> and<00:00:26.849> program<00:00:27.570> the<00:00:27.750> target<00:00:28.140> FPGA
+
+00:00:28.790 --> 00:00:28.800 
+hardware and program the target FPGA
+
+00:00:28.800 --> 00:00:32.110 
+hardware and program the target FPGA
+device<00:00:29.189> are<00:00:29.460> the<00:00:30.000> same
+
+00:00:32.110 --> 00:00:32.120 
+device are the same
+
+00:00:32.120 --> 00:00:34.610 
+device are the same
+during<00:00:33.120> this<00:00:33.239> Bovard<00:00:33.719> Oakley<00:00:34.020> tech<00:00:34.260> video
+
+00:00:34.610 --> 00:00:34.620 
+during this Bovard Oakley tech video
+
+00:00:34.620 --> 00:00:38.090 
+during this Bovard Oakley tech video
+will<00:00:35.370> cover<00:00:35.610> these<00:00:36.030> steps<00:00:36.420> and<00:00:36.710> show<00:00:37.710> you<00:00:37.770> how
+
+00:00:38.090 --> 00:00:38.100 
+will cover these steps and show you how
+
+00:00:38.100 --> 00:00:40.580 
+will cover these steps and show you how
+to<00:00:38.160> quickly<00:00:38.690> connect<00:00:39.690> to<00:00:40.079> the<00:00:40.200> target
+
+00:00:40.580 --> 00:00:40.590 
+to quickly connect to the target
+
+00:00:40.590 --> 00:00:44.229 
+to quickly connect to the target
+hardware<00:00:40.980> and<00:00:41.219> debug<00:00:42.120> your<00:00:42.270> design<00:00:43.160> first
+
+00:00:44.229 --> 00:00:44.239 
+hardware and debug your design first
+
+00:00:44.239 --> 00:00:46.700 
+hardware and debug your design first
+we'll<00:00:45.239> show<00:00:45.329> you<00:00:45.510> how<00:00:45.750> to<00:00:45.870> connect<00:00:46.320> to<00:00:46.680> the
+
+00:00:46.700 --> 00:00:46.710 
+we'll show you how to connect to the
+
+00:00:46.710 --> 00:00:49.880 
+we'll show you how to connect to the
+hardware<00:00:47.160> and<00:00:47.399> program<00:00:48.360> the<00:00:48.539> FPGA<00:00:49.140> with<00:00:49.770> the
+
+00:00:49.880 --> 00:00:49.890 
+hardware and program the FPGA with the
+
+00:00:49.890 --> 00:00:54.740 
+hardware and program the FPGA with the
+bit<00:00:50.070> file<00:00:51.050> next<00:00:52.190> we'll<00:00:53.190> show<00:00:53.370> you<00:00:53.640> how<00:00:54.390> to<00:00:54.449> set
+
+00:00:54.740 --> 00:00:54.750 
+bit file next we'll show you how to set
+
+00:00:54.750 --> 00:00:57.110 
+bit file next we'll show you how to set
+up<00:00:54.780> different<00:00:55.110> triggers<00:00:55.710> in<00:00:56.190> an<00:00:56.370> iOS<00:00:56.730> debug
+
+00:00:57.110 --> 00:00:57.120 
+up different triggers in an iOS debug
+
+00:00:57.120 --> 00:01:00.290 
+up different triggers in an iOS debug
+forum<00:00:57.510> and<00:00:57.629> capture<00:00:58.590> data<00:00:59.370> in<00:00:59.730> the<00:00:59.910> common
+
+00:01:00.290 --> 00:01:00.300 
+forum and capture data in the common
+
+00:01:00.300 --> 00:01:08.810 
+forum and capture data in the common
+waveform<00:01:00.719> window<00:01:02.629> let's<00:01:03.629> get<00:01:03.840> started<00:01:07.820> the
+
+00:01:08.810 --> 00:01:08.820 
+waveform window let's get started the
+
+00:01:08.820 --> 00:01:11.570 
+waveform window let's get started the
+project<00:01:09.119> that<00:01:09.750> is<00:01:09.930> used<00:01:10.290> in<00:01:10.530> this<00:01:11.159> pavada
+
+00:01:11.570 --> 00:01:11.580 
+project that is used in this pavada
+
+00:01:11.580 --> 00:01:14.840 
+project that is used in this pavada
+click<00:01:12.240> tech<00:01:12.450> video<00:01:12.810> is<00:01:13.140> a<00:01:13.500> simple<00:01:13.799> DSP<00:01:14.490> design
+
+00:01:14.840 --> 00:01:14.850 
+click tech video is a simple DSP design
+
+00:01:14.850 --> 00:01:18.260 
+click tech video is a simple DSP design
+that<00:01:15.509> uses<00:01:15.750> a<00:01:15.960> push<00:01:16.439> button<00:01:16.799> on<00:01:17.040> the<00:01:17.220> KC<00:01:17.640> 705
+
+00:01:18.260 --> 00:01:18.270 
+that uses a push button on the KC 705
+
+00:01:18.270 --> 00:01:21.499 
+that uses a push button on the KC 705
+board<00:01:18.570> to<00:01:19.320> select<00:01:19.680> between<00:01:19.970> various<00:01:20.970> sides
+
+00:01:21.499 --> 00:01:21.509 
+board to select between various sides
+
+00:01:21.509 --> 00:01:24.800 
+board to select between various sides
+generated<00:01:22.470> by<00:01:22.619> three<00:01:23.159> different<00:01:23.810> directly
+
+00:01:24.800 --> 00:01:24.810 
+generated by three different directly
+
+00:01:24.810 --> 00:01:29.270 
+generated by three different directly
+ito<00:01:25.080> synthesis<00:01:25.650> or<00:01:25.890> DD<00:01:26.610> as<00:01:26.820> I<00:01:27.090> P<00:01:27.360> horse<00:01:28.280> before
+
+00:01:29.270 --> 00:01:29.280 
+ito synthesis or DD as I P horse before
+
+00:01:29.280 --> 00:01:31.670 
+ito synthesis or DD as I P horse before
+proceeding<00:01:29.880> make<00:01:30.659> sure<00:01:30.840> that<00:01:31.049> you<00:01:31.290> connect
+
+00:01:31.670 --> 00:01:31.680 
+proceeding make sure that you connect
+
+00:01:31.680 --> 00:01:34.700 
+proceeding make sure that you connect
+with<00:01:32.040> the<00:01:32.220> Dylan<00:01:32.520> USB<00:01:33.509> jack<00:01:33.960> cable<00:01:34.259> from<00:01:34.650> your
+
+00:01:34.700 --> 00:01:34.710 
+with the Dylan USB jack cable from your
+
+00:01:34.710 --> 00:01:39.499 
+with the Dylan USB jack cable from your
+KC<00:01:35.280> 705<00:01:36.000> board<00:01:36.299> to<00:01:36.990> a<00:01:37.020> bindle<00:01:37.880> machines<00:01:38.880> USB
+
+00:01:39.499 --> 00:01:39.509 
+KC 705 board to a bindle machines USB
+
+00:01:39.509 --> 00:01:42.590 
+KC 705 board to a bindle machines USB
+port<00:01:39.810> and<00:01:40.520> also<00:01:41.520> make<00:01:41.820> sure<00:01:41.850> that<00:01:42.030> the<00:01:42.390> board
+
+00:01:42.590 --> 00:01:42.600 
+port and also make sure that the board
+
+00:01:42.600 --> 00:01:48.530 
+port and also make sure that the board
+is<00:01:42.780> plug<00:01:43.049> in<00:01:43.259> and<00:01:43.500> Power<00:01:44.250> on<00:01:47.060> for<00:01:48.060> the<00:01:48.149> next<00:01:48.270> few
+
+00:01:48.530 --> 00:01:48.540 
+is plug in and Power on for the next few
+
+00:01:48.540 --> 00:01:50.630 
+is plug in and Power on for the next few
+steps<00:01:48.810> will<00:01:49.320> follow<00:01:49.590> instruction<00:01:50.189> on<00:01:50.430> the
+
+00:01:50.630 --> 00:01:50.640 
+steps will follow instruction on the
+
+00:01:50.640 --> 00:01:54.080 
+steps will follow instruction on the
+dialog<00:01:51.030> windows<00:01:52.549> click<00:01:53.549> open<00:01:53.850> hardware
+
+00:01:54.080 --> 00:01:54.090 
+dialog windows click open hardware
+
+00:01:54.090 --> 00:01:56.539 
+dialog windows click open hardware
+session<00:01:54.600> and<00:01:54.780> notice<00:01:55.350> them<00:01:55.560> the<00:01:56.250> window
+
+00:01:56.539 --> 00:01:56.549 
+session and notice them the window
+
+00:01:56.549 --> 00:01:58.880 
+session and notice them the window
+layout<00:01:56.729> is<00:01:57.270> default<00:01:57.780> to<00:01:58.439> the<00:01:58.560> hardware
+
+00:01:58.880 --> 00:01:58.890 
+layout is default to the hardware
+
+00:01:58.890 --> 00:02:02.420 
+layout is default to the hardware
+session<00:02:00.079> click<00:02:01.079> open<00:02:01.439> new<00:02:01.590> hardware<00:02:01.979> target
+
+00:02:02.420 --> 00:02:02.430 
+session click open new hardware target
+
+00:02:02.430 --> 00:02:05.090 
+session click open new hardware target
+and<00:02:02.670> the<00:02:03.299> next<00:02:03.719> to<00:02:04.259> open<00:02:04.530> the<00:02:04.649> new<00:02:04.799> hardware
+
+00:02:05.090 --> 00:02:05.100 
+and the next to open the new hardware
+
+00:02:05.100 --> 00:02:07.190 
+and the next to open the new hardware
+target
+
+00:02:07.190 --> 00:02:07.200 
+target
+
+00:02:07.200 --> 00:02:11.190 
+target
+leave<00:02:08.200> the<00:02:08.350> server<00:02:08.619> name<00:02:08.890> as<00:02:09.300> localhost<00:02:10.300> since
+
+00:02:11.190 --> 00:02:11.200 
+leave the server name as localhost since
+
+00:02:11.200 --> 00:02:14.100 
+leave the server name as localhost since
+we<00:02:11.380> are<00:02:11.500> connecting<00:02:12.010> locally<00:02:12.720> you<00:02:13.720> will<00:02:13.900> have
+
+00:02:14.100 --> 00:02:14.110 
+we are connecting locally you will have
+
+00:02:14.110 --> 00:02:17.250 
+we are connecting locally you will have
+to<00:02:14.350> specify<00:02:14.620> host<00:02:15.280> name<00:02:15.730> and<00:02:15.970> port<00:02:16.060> number<00:02:16.900> if
+
+00:02:17.250 --> 00:02:17.260 
+to specify host name and port number if
+
+00:02:17.260 --> 00:02:21.690 
+to specify host name and port number if
+you<00:02:17.530> were<00:02:17.650> to<00:02:17.800> connect<00:02:18.130> remotely<00:02:20.370> click<00:02:21.370> Next
+
+00:02:21.690 --> 00:02:21.700 
+you were to connect remotely click Next
+
+00:02:21.700 --> 00:02:25.220 
+you were to connect remotely click Next
+to<00:02:21.910> go<00:02:22.569> ahead<00:02:22.660> and<00:02:23.020> connect<00:02:23.950> to<00:02:24.010> the<00:02:24.190> server
+
+00:02:25.220 --> 00:02:25.230 
+to go ahead and connect to the server
+
+00:02:25.230 --> 00:02:28.620 
+to go ahead and connect to the server
+next<00:02:26.230> is<00:02:26.590> to<00:02:27.370> select<00:02:27.670> the<00:02:27.819> hardware<00:02:28.120> target
+
+00:02:28.620 --> 00:02:28.630 
+next is to select the hardware target
+
+00:02:28.630 --> 00:02:31.410 
+next is to select the hardware target
+and<00:02:28.890> hardware<00:02:29.890> device<00:02:30.160> that<00:02:30.940> you<00:02:31.090> want<00:02:31.239> to
+
+00:02:31.410 --> 00:02:31.420 
+and hardware device that you want to
+
+00:02:31.420 --> 00:02:36.000 
+and hardware device that you want to
+connect<00:02:31.780> to<00:02:33.000> at<00:02:34.000> the<00:02:34.959> bottom<00:02:35.319> of<00:02:35.470> the<00:02:35.590> dialog
+
+00:02:36.000 --> 00:02:36.010 
+connect to at the bottom of the dialog
+
+00:02:36.010 --> 00:02:38.760 
+connect to at the bottom of the dialog
+window<00:02:36.069> the<00:02:37.000> tool<00:02:37.239> indicates<00:02:38.020> the<00:02:38.470> server
+
+00:02:38.760 --> 00:02:38.770 
+window the tool indicates the server
+
+00:02:38.770 --> 00:02:44.070 
+window the tool indicates the server
+name<00:02:39.010> and<00:02:39.450> software<00:02:40.450> version<00:02:42.690> click<00:02:43.690> Next<00:02:44.050> to
+
+00:02:44.070 --> 00:02:44.080 
+name and software version click Next to
+
+00:02:44.080 --> 00:02:45.920 
+name and software version click Next to
+continue
+
+00:02:45.920 --> 00:02:45.930 
+continue
+
+00:02:45.930 --> 00:02:53.820 
+continue
+and<00:02:48.780> click<00:02:49.780> Next<00:02:50.050> again<00:02:50.170> to<00:02:50.560> continue<00:02:52.590> here<00:02:53.590> is
+
+00:02:53.820 --> 00:02:53.830 
+and click Next again to continue here is
+
+00:02:53.830 --> 00:02:56.720 
+and click Next again to continue here is
+the<00:02:54.519> open<00:02:54.850> hardware<00:02:55.120> target<00:02:55.569> summary<00:02:55.959> page
+
+00:02:56.720 --> 00:02:56.730 
+the open hardware target summary page
+
+00:02:56.730 --> 00:03:02.970 
+the open hardware target summary page
+showing<00:02:57.730> server<00:02:58.300> and<00:02:58.600> target<00:02:59.470> settings<00:03:01.980> click
+
+00:03:02.970 --> 00:03:02.980 
+showing server and target settings click
+
+00:03:02.980 --> 00:03:05.040 
+showing server and target settings click
+finish<00:03:03.340> to<00:03:03.790> go<00:03:03.970> ahead<00:03:04.060> and<00:03:04.390> open<00:03:04.510> Hardware
+
+00:03:05.040 --> 00:03:05.050 
+finish to go ahead and open Hardware
+
+00:03:05.050 --> 00:03:09.090 
+finish to go ahead and open Hardware
+target<00:03:05.410> at<00:03:06.810> this<00:03:07.810> point<00:03:08.170> you<00:03:08.920> have
+
+00:03:09.090 --> 00:03:09.100 
+target at this point you have
+
+00:03:09.100 --> 00:03:11.840 
+target at this point you have
+successfully<00:03:09.550> connected<00:03:10.300> to<00:03:10.870> the<00:03:10.989> hardware
+
+00:03:11.840 --> 00:03:11.850 
+successfully connected to the hardware
+
+00:03:11.850 --> 00:03:16.050 
+successfully connected to the hardware
+next<00:03:12.850> is<00:03:13.000> to<00:03:13.329> program<00:03:13.540> the<00:03:13.870> device<00:03:14.700> you<00:03:15.700> can<00:03:15.880> do
+
+00:03:16.050 --> 00:03:16.060 
+next is to program the device you can do
+
+00:03:16.060 --> 00:03:20.759 
+next is to program the device you can do
+this<00:03:16.269> by<00:03:16.480> right<00:03:16.750> clicking<00:03:16.780> on<00:03:17.370> the<00:03:18.370> X<00:03:19.110> e7k<00:03:20.110> 25t
+
+00:03:20.759 --> 00:03:20.769 
+this by right clicking on the X e7k 25t
+
+00:03:20.769 --> 00:03:25.259 
+this by right clicking on the X e7k 25t
+and<00:03:21.070> select<00:03:21.850> program<00:03:22.239> device<00:03:23.880> make<00:03:24.880> sure<00:03:25.030> that
+
+00:03:25.259 --> 00:03:25.269 
+and select program device make sure that
+
+00:03:25.269 --> 00:03:27.210 
+and select program device make sure that
+this<00:03:25.780> is<00:03:25.959> the<00:03:26.110> bit<00:03:26.290> file<00:03:26.530> that<00:03:26.769> you<00:03:26.890> want<00:03:27.040> to
+
+00:03:27.210 --> 00:03:27.220 
+this is the bit file that you want to
+
+00:03:27.220 --> 00:03:29.640 
+this is the bit file that you want to
+program<00:03:27.970> and<00:03:28.209> download<00:03:28.570> to<00:03:28.720> the<00:03:28.840> FPGA<00:03:29.200> device
+
+00:03:29.640 --> 00:03:29.650 
+program and download to the FPGA device
+
+00:03:29.650 --> 00:03:34.640 
+program and download to the FPGA device
+and<00:03:29.920> then<00:03:30.730> click<00:03:31.000> on<00:03:31.180> program<00:03:31.870> to<00:03:32.590> continue
+
+00:03:34.640 --> 00:03:34.650 
+and then click on program to continue
+
+00:03:34.650 --> 00:03:37.440 
+and then click on program to continue
+once<00:03:35.650> the<00:03:35.859> download<00:03:35.980> has<00:03:36.340> finished<00:03:36.400> you<00:03:37.329> are
+
+00:03:37.440 --> 00:03:37.450 
+once the download has finished you are
+
+00:03:37.450 --> 00:03:39.599 
+once the download has finished you are
+able<00:03:37.630> to<00:03:37.750> see<00:03:38.049> the<00:03:38.200> available<00:03:38.500> hardware<00:03:39.160> IO<00:03:39.400> a
+
+00:03:39.599 --> 00:03:39.609 
+able to see the available hardware IO a
+
+00:03:39.609 --> 00:03:42.210 
+able to see the available hardware IO a
+debug<00:03:40.060> core<00:03:40.359> that<00:03:41.350> you<00:03:41.470> inserted<00:03:41.890> in<00:03:42.160> your
+
+00:03:42.210 --> 00:03:42.220 
+debug core that you inserted in your
+
+00:03:42.220 --> 00:03:46.860 
+debug core that you inserted in your
+design<00:03:44.370> you<00:03:45.370> also<00:03:45.549> see<00:03:45.910> all<00:03:46.120> the<00:03:46.269> debug<00:03:46.600> nets
+
+00:03:46.860 --> 00:03:46.870 
+design you also see all the debug nets
+
+00:03:46.870 --> 00:03:49.470 
+design you also see all the debug nets
+that<00:03:47.170> you<00:03:47.920> have<00:03:48.100> added<00:03:48.519> during<00:03:48.940> the<00:03:49.090> probing
+
+00:03:49.470 --> 00:03:49.480 
+that you have added during the probing
+
+00:03:49.480 --> 00:03:55.240 
+that you have added during the probing
+fish
+
+00:03:55.240 --> 00:03:55.250 
+
+00:03:55.250 --> 00:03:57.680 
+
+after<00:03:56.250> we<00:03:56.430> have<00:03:56.580> connected<00:03:57.030> to<00:03:57.180> the<00:03:57.300> hardware
+
+00:03:57.680 --> 00:03:57.690 
+after we have connected to the hardware
+
+00:03:57.690 --> 00:04:01.339 
+after we have connected to the hardware
+and<00:03:57.959> programmed<00:03:58.920> the<00:03:59.280> device<00:03:59.959> we<00:04:00.959> do<00:04:01.140> some
+
+00:04:01.339 --> 00:04:01.349 
+and programmed the device we do some
+
+00:04:01.349 --> 00:04:03.860 
+and programmed the device we do some
+simple<00:04:01.770> settings<00:04:02.340> on<00:04:02.550> the<00:04:02.849> ILA<00:04:03.270> debug<00:04:03.630> or
+
+00:04:03.860 --> 00:04:03.870 
+simple settings on the ILA debug or
+
+00:04:03.870 --> 00:04:08.050 
+simple settings on the ILA debug or
+trigger<00:04:04.170> and<00:04:04.470> probe<00:04:05.280> compare<00:04:06.150> conditions
+
+00:04:08.050 --> 00:04:08.060 
+trigger and probe compare conditions
+
+00:04:08.060 --> 00:04:11.150 
+trigger and probe compare conditions
+first<00:04:09.060> let's<00:04:09.930> go<00:04:10.140> ahead<00:04:10.230> and<00:04:10.530> click<00:04:10.770> on<00:04:10.920> run
+
+00:04:11.150 --> 00:04:11.160 
+first let's go ahead and click on run
+
+00:04:11.160 --> 00:04:14.180 
+first let's go ahead and click on run
+Twitter<00:04:11.519> immediately<00:04:12.150> button<00:04:13.110> to<00:04:13.920> Twitter
+
+00:04:14.180 --> 00:04:14.190 
+Twitter immediately button to Twitter
+
+00:04:14.190 --> 00:04:16.580 
+Twitter immediately button to Twitter
+and<00:04:14.489> compare<00:04:14.849> data<00:04:15.030> immediately<00:04:15.840> regardless
+
+00:04:16.580 --> 00:04:16.590 
+and compare data immediately regardless
+
+00:04:16.590 --> 00:04:18.890 
+and compare data immediately regardless
+to<00:04:17.070> the<00:04:17.190> setting<00:04:17.579> of<00:04:17.700> the<00:04:17.970> il<00:04:18.209> cuore<00:04:18.570> trigger
+
+00:04:18.890 --> 00:04:18.900 
+to the setting of the il cuore trigger
+
+00:04:18.900 --> 00:04:22.520 
+to the setting of the il cuore trigger
+condition<00:04:19.410> and<00:04:19.590> probe<00:04:20.310> compare<00:04:20.760> values<00:04:21.530> this
+
+00:04:22.520 --> 00:04:22.530 
+condition and probe compare values this
+
+00:04:22.530 --> 00:04:24.530 
+condition and probe compare values this
+command<00:04:22.919> is<00:04:23.070> useful<00:04:23.310> for<00:04:23.790> capturing<00:04:24.030> any
+
+00:04:24.530 --> 00:04:24.540 
+command is useful for capturing any
+
+00:04:24.540 --> 00:04:27.620 
+command is useful for capturing any
+values<00:04:25.470> that<00:04:25.710> present<00:04:26.220> at<00:04:26.400> the<00:04:26.940> probe<00:04:27.180> inputs
+
+00:04:27.620 --> 00:04:27.630 
+values that present at the probe inputs
+
+00:04:27.630 --> 00:04:32.659 
+values that present at the probe inputs
+of<00:04:27.810> the<00:04:28.080> i/o<00:04:28.169> a<00:04:28.320> call<00:04:30.860> here<00:04:31.860> is<00:04:32.040> the<00:04:32.220> digital
+
+00:04:32.659 --> 00:04:32.669 
+of the i/o a call here is the digital
+
+00:04:32.669 --> 00:04:35.240 
+of the i/o a call here is the digital
+side<00:04:32.910> wave<00:04:33.090> at<00:04:33.360> the<00:04:34.260> output<00:04:34.350> of<00:04:34.740> the<00:04:35.010> SAR
+
+00:04:35.240 --> 00:04:35.250 
+side wave at the output of the SAR
+
+00:04:35.250 --> 00:04:42.450 
+side wave at the output of the SAR
+generated<00:04:35.790> circuit
+
+00:04:42.450 --> 00:04:42.460 
+
+00:04:42.460 --> 00:04:45.670 
+
+you<00:04:43.460> can<00:04:43.669> also<00:04:43.850> change<00:04:44.180> the<00:04:44.449> waveform<00:04:44.660> star<00:04:45.230> to
+
+00:04:45.670 --> 00:04:45.680 
+you can also change the waveform star to
+
+00:04:45.680 --> 00:04:51.760 
+you can also change the waveform star to
+the<00:04:45.830> analog<00:04:46.550> signal<00:04:46.910> type<00:04:49.479> well<00:04:50.590> that<00:04:51.590> doesn't
+
+00:04:51.760 --> 00:04:51.770 
+the analog signal type well that doesn't
+
+00:04:51.770 --> 00:04:55.090 
+the analog signal type well that doesn't
+look<00:04:51.979> like<00:04:52.190> a<00:04:52.460> Sybase<00:04:53.090> and<00:04:53.380> it<00:04:54.380> is<00:04:54.500> because<00:04:54.889> we
+
+00:04:55.090 --> 00:04:55.100 
+look like a Sybase and it is because we
+
+00:04:55.100 --> 00:04:57.790 
+look like a Sybase and it is because we
+need<00:04:55.220> to<00:04:55.370> change<00:04:55.610> the<00:04:55.970> radix<00:04:56.330> to<00:04:57.050> side<00:04:57.290> decimal
+
+00:04:57.790 --> 00:04:57.800 
+need to change the radix to side decimal
+
+00:04:57.800 --> 00:05:08.070 
+need to change the radix to side decimal
+to<00:04:58.460> display<00:04:58.850> the<00:04:58.970> proper<00:04:59.270> side<00:04:59.510> wave
+
+00:05:08.070 --> 00:05:08.080 
+
+00:05:08.080 --> 00:05:11.950 
+
+next<00:05:09.130> set<00:05:10.130> to<00:05:10.250> tweak<00:05:10.460> a<00:05:10.490> position<00:05:11.000> of<00:05:11.150> the<00:05:11.480> IRL
+
+00:05:11.950 --> 00:05:11.960 
+next set to tweak a position of the IRL
+
+00:05:11.960 --> 00:05:15.010 
+next set to tweak a position of the IRL
+core<00:05:12.200> to<00:05:12.410> 512<00:05:12.950> at<00:05:13.850> the<00:05:14.090> midway<00:05:14.420> point<00:05:14.660> of<00:05:14.930> the
+
+00:05:15.010 --> 00:05:15.020 
+core to 512 at the midway point of the
+
+00:05:15.020 --> 00:05:18.850 
+core to 512 at the midway point of the
+1024<00:05:15.920> sample<00:05:16.430> deep<00:05:16.580> capture<00:05:17.090> window<00:05:17.360> and<00:05:17.860> then
+
+00:05:18.850 --> 00:05:18.860 
+1024 sample deep capture window and then
+
+00:05:18.860 --> 00:05:26.500 
+1024 sample deep capture window and then
+click<00:05:19.190> apply<00:05:24.220> set<00:05:25.220> compare<00:05:25.670> value<00:05:26.030> on<00:05:26.210> the
+
+00:05:26.500 --> 00:05:26.510 
+click apply set compare value on the
+
+00:05:26.510 --> 00:05:30.730 
+click apply set compare value on the
+GPIO<00:05:27.080> button<00:05:27.650> above<00:05:28.400> probe<00:05:28.910> bit<00:05:29.810> 1<00:05:30.050> to<00:05:30.380> rising
+
+00:05:30.730 --> 00:05:30.740 
+GPIO button above probe bit 1 to rising
+
+00:05:30.740 --> 00:05:36.700 
+GPIO button above probe bit 1 to rising
+edge<00:05:34.030> with<00:05:35.030> these<00:05:35.270> settings<00:05:35.570> we<00:05:36.140> are<00:05:36.290> simply
+
+00:05:36.700 --> 00:05:36.710 
+edge with these settings we are simply
+
+00:05:36.710 --> 00:05:39.160 
+edge with these settings we are simply
+looking<00:05:37.010> for<00:05:37.310> our<00:05:37.550> Twitter<00:05:37.880> Commission<00:05:38.420> with
+
+00:05:39.160 --> 00:05:39.170 
+looking for our Twitter Commission with
+
+00:05:39.170 --> 00:05:41.770 
+looking for our Twitter Commission with
+a<00:05:39.200> low<00:05:39.470> to<00:05:39.530> high<00:05:39.770> transition<00:05:40.600> generated<00:05:41.600> by
+
+00:05:41.770 --> 00:05:41.780 
+a low to high transition generated by
+
+00:05:41.780 --> 00:05:44.320 
+a low to high transition generated by
+the<00:05:42.530> GP<00:05:42.890> IO<00:05:43.460> button
+
+00:05:44.320 --> 00:05:44.330 
+the GP IO button
+
+00:05:44.330 --> 00:05:50.830 
+the GP IO button
+I<00:05:44.360> bought<00:05:44.750> signal<00:05:45.230> when<00:05:45.950> it<00:05:46.070> is<00:05:46.190> pressed<00:05:49.840> click
+
+00:05:50.830 --> 00:05:50.840 
+I bought signal when it is pressed click
+
+00:05:50.840 --> 00:05:53.740 
+I bought signal when it is pressed click
+run<00:05:51.050> click<00:05:51.080> a<00:05:51.320> button<00:05:51.590> to<00:05:52.120> arm<00:05:53.120> the<00:05:53.270> Twitter<00:05:53.480> in
+
+00:05:53.740 --> 00:05:53.750 
+run click a button to arm the Twitter in
+
+00:05:53.750 --> 00:05:58.720 
+run click a button to arm the Twitter in
+the<00:05:53.900> debug<00:05:54.230> view<00:05:56.950> here<00:05:57.950> you<00:05:57.980> can<00:05:58.280> verify<00:05:58.460> the
+
+00:05:58.720 --> 00:05:58.730 
+the debug view here you can verify the
+
+00:05:58.730 --> 00:06:00.790 
+the debug view here you can verify the
+Twitter<00:05:59.000> occur<00:05:59.960> on<00:06:00.200> the<00:06:00.320> low<00:06:00.500> to<00:06:00.560> high
+
+00:06:00.790 --> 00:06:00.800 
+Twitter occur on the low to high
+
+00:06:00.800 --> 00:06:03.940 
+Twitter occur on the low to high
+transition<00:06:01.100> of<00:06:01.550> the<00:06:01.850> GPIO<00:06:02.630> button<00:06:03.260> above<00:06:03.680> at
+
+00:06:03.940 --> 00:06:03.950 
+transition of the GPIO button above at
+
+00:06:03.950 --> 00:06:12.760 
+transition of the GPIO button above at
+the<00:06:04.310> trigger<00:06:04.700> version<00:06:05.180> of<00:06:05.330> 512
+
+00:06:12.760 --> 00:06:12.770 
+
+00:06:12.770 --> 00:06:15.939 
+
+next<00:06:13.580> we'll<00:06:14.270> show<00:06:14.300> you<00:06:14.509> how<00:06:14.660> to<00:06:14.810> trigger<00:06:15.139> in
+
+00:06:15.939 --> 00:06:15.949 
+next we'll show you how to trigger in
+
+00:06:15.949 --> 00:06:18.520 
+next we'll show you how to trigger in
+the<00:06:16.069> output<00:06:16.400> size<00:06:16.639> signals<00:06:17.120> equal<00:06:18.020> to<00:06:18.139> the<00:06:18.259> hex
+
+00:06:18.520 --> 00:06:18.530 
+the output size signals equal to the hex
+
+00:06:18.530 --> 00:06:22.930 
+the output size signals equal to the hex
+value<00:06:18.710> of<00:06:19.280> e<00:06:19.550> 0<00:06:20.180> 0<00:06:20.449> to<00:06:20.870> 9<00:06:21.080> at<00:06:21.460> 512<00:06:22.460> trigger
+
+00:06:22.930 --> 00:06:22.940 
+value of e 0 0 to 9 at 512 trigger
+
+00:06:22.940 --> 00:06:26.860 
+value of e 0 0 to 9 at 512 trigger
+position<00:06:24.069> to<00:06:25.069> do<00:06:25.190> this<00:06:25.569> set<00:06:26.569> the<00:06:26.690> trigger
+
+00:06:26.860 --> 00:06:26.870 
+position to do this set the trigger
+
+00:06:26.870 --> 00:06:30.189 
+position to do this set the trigger
+position<00:06:27.470> and<00:06:27.910> compare<00:06:28.910> value<00:06:29.300> of<00:06:29.479> the<00:06:29.960> size
+
+00:06:30.189 --> 00:06:30.199 
+position and compare value of the size
+
+00:06:30.199 --> 00:06:42.390 
+position and compare value of the size
+signal<00:06:30.560> accordingly
+
+00:06:42.390 --> 00:06:42.400 
+
+00:06:42.400 --> 00:06:45.990 
+
+click<00:06:43.120> run<00:06:43.360> Tweaker<00:06:43.690> and<00:06:44.040> zooming<00:06:45.040> to<00:06:45.880> the
+
+00:06:45.990 --> 00:06:46.000 
+click run Tweaker and zooming to the
+
+00:06:46.000 --> 00:06:48.540 
+click run Tweaker and zooming to the
+Twitter<00:06:46.240> mark<00:06:46.570> to<00:06:47.050> observe<00:06:47.410> bad<00:06:47.710> the<00:06:48.160> trickle
+
+00:06:48.540 --> 00:06:48.550 
+Twitter mark to observe bad the trickle
+
+00:06:48.550 --> 00:06:51.150 
+Twitter mark to observe bad the trickle
+compare<00:06:48.910> value<00:06:49.270> of<00:06:49.479> the<00:06:49.660> size<00:06:49.900> signals<00:06:50.350> was
+
+00:06:51.150 --> 00:06:51.160 
+compare value of the size signals was
+
+00:06:51.160 --> 00:06:57.429 
+compare value of the size signals was
+correct
+
+00:06:57.429 --> 00:06:57.439 
+
+00:06:57.439 --> 00:07:00.100 
+
+the<00:06:57.979> IRA<00:06:58.489> probe<00:06:58.909> trigger<00:06:59.269> comparators<00:06:59.869> are
+
+00:07:00.100 --> 00:07:00.110 
+the IRA probe trigger comparators are
+
+00:07:00.110 --> 00:07:03.369 
+the IRA probe trigger comparators are
+used<00:07:00.889> to<00:07:01.459> detect<00:07:01.789> specific<00:07:02.169> equality<00:07:03.169> or
+
+00:07:03.369 --> 00:07:03.379 
+used to detect specific equality or
+
+00:07:03.379 --> 00:07:06.489 
+used to detect specific equality or
+inequality<00:07:04.119> conditions<00:07:05.119> on<00:07:05.360> the<00:07:06.259> probe
+
+00:07:06.489 --> 00:07:06.499 
+inequality conditions on the probe
+
+00:07:06.499 --> 00:07:10.779 
+inequality conditions on the probe
+inputs<00:07:06.949> to<00:07:07.939> dial<00:07:08.239> 800<00:07:08.599> for<00:07:09.550> your<00:07:10.550> trigger
+
+00:07:10.779 --> 00:07:10.789 
+inputs to dial 800 for your trigger
+
+00:07:10.789 --> 00:07:13.989 
+inputs to dial 800 for your trigger
+condition<00:07:11.330> is<00:07:12.229> the<00:07:12.499> result<00:07:12.649> of<00:07:13.009> a<00:07:13.369> boolean<00:07:13.849> and
+
+00:07:13.989 --> 00:07:13.999 
+condition is the result of a boolean and
+
+00:07:13.999 --> 00:07:18.399 
+condition is the result of a boolean and
+or<00:07:15.249> calculation<00:07:16.249> of<00:07:16.429> each<00:07:17.330> of<00:07:17.479> the<00:07:17.629> Iowa<00:07:18.019> probe
+
+00:07:18.399 --> 00:07:18.409 
+or calculation of each of the Iowa probe
+
+00:07:18.409 --> 00:07:22.329 
+or calculation of each of the Iowa probe
+trigger<00:07:18.709> compare<00:07:19.159> the<00:07:19.309> results<00:07:21.159> one<00:07:22.159> thing
+
+00:07:22.329 --> 00:07:22.339 
+trigger compare the results one thing
+
+00:07:22.339 --> 00:07:24.609 
+trigger compare the results one thing
+that<00:07:22.519> is<00:07:22.639> worth<00:07:22.879> to<00:07:23.330> mention<00:07:23.479> here<00:07:23.959> is<00:07:24.139> that
+
+00:07:24.609 --> 00:07:24.619 
+that is worth to mention here is that
+
+00:07:24.619 --> 00:07:28.749 
+that is worth to mention here is that
+Bovard<00:07:25.369> Odaiba<00:07:25.849> allows<00:07:26.689> user<00:07:27.379> to<00:07:27.759> changed
+
+00:07:28.749 --> 00:07:28.759 
+Bovard Odaiba allows user to changed
+
+00:07:28.759 --> 00:07:31.269 
+Bovard Odaiba allows user to changed
+Iowa<00:07:29.179> properties<00:07:29.809> as<00:07:30.050> well<00:07:30.649> as<00:07:30.829> compare
+
+00:07:31.269 --> 00:07:31.279 
+Iowa properties as well as compare
+
+00:07:31.279 --> 00:07:34.379 
+Iowa properties as well as compare
+coalition<00:07:31.879> suggest<00:07:32.839> tweak<00:07:33.679> a<00:07:33.709> position
+
+00:07:34.379 --> 00:07:34.389 
+coalition suggest tweak a position
+
+00:07:34.389 --> 00:07:37.779 
+coalition suggest tweak a position
+capture<00:07:35.389> the<00:07:35.509> depth<00:07:36.129> compare<00:07:37.159> operator<00:07:37.579> types
+
+00:07:37.779 --> 00:07:37.789 
+capture the depth compare operator types
+
+00:07:37.789 --> 00:07:42.069 
+capture the depth compare operator types
+and<00:07:38.059> etc<00:07:39.129> on<00:07:40.129> the<00:07:40.369> fly<00:07:40.579> in<00:07:41.029> real<00:07:41.300> time<00:07:41.569> without
+
+00:07:42.069 --> 00:07:42.079 
+and etc on the fly in real time without
+
+00:07:42.079 --> 00:07:44.489 
+and etc on the fly in real time without
+having<00:07:42.409> to<00:07:42.619> regenerate<00:07:43.279> IOA<00:07:43.579> netlist
+
+00:07:44.489 --> 00:07:44.499 
+having to regenerate IOA netlist
+
+00:07:44.499 --> 00:07:50.549 
+having to regenerate IOA netlist
+resynthesize<00:07:45.499> or<00:07:45.769> we<00:07:46.159> implement<00:07:46.550> the<00:07:46.610> design
+
+00:07:50.549 --> 00:07:50.559 
+
+00:07:50.559 --> 00:07:53.649 
+
+for<00:07:51.559> more<00:07:51.739> information<00:07:52.309> you<00:07:52.669> can<00:07:52.819> visit<00:07:52.879> the
+
+00:07:53.649 --> 00:07:53.659 
+for more information you can visit the
+
+00:07:53.659 --> 00:07:57.489 
+for more information you can visit the
+Vivaro<00:07:54.019> landing<00:07:54.529> page<00:07:54.739> and<00:07:55.039> xylenes<00:07:55.669> comm<00:07:56.539> for
+
+00:07:57.489 --> 00:07:57.499 
+Vivaro landing page and xylenes comm for
+
+00:07:57.499 --> 00:08:00.749 
+Vivaro landing page and xylenes comm for
+links<00:07:57.889> to<00:07:58.069> documentation<00:07:58.899> tutorials<00:07:59.899> and
+
+00:08:00.749 --> 00:08:00.759 
+links to documentation tutorials and
+
+00:08:00.759 --> 00:08:03.189 
+links to documentation tutorials and
+additional<00:08:01.759> video<00:08:01.909> available<00:08:02.839> on<00:08:02.990> other
+
+00:08:03.189 --> 00:08:03.199 
+additional video available on other
+
+00:08:03.199 --> 00:08:09.579 
+additional video available on other
+topics<00:08:05.949> thank<00:08:06.949> you<00:08:07.069> for<00:08:07.249> watching
+

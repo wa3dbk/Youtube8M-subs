@@ -1,0 +1,440 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.389 
+
+now<00:00:00.329> that<00:00:00.570> we<00:00:00.690> have<00:00:00.900> the<00:00:01.050> conditions<00:00:01.650> all<00:00:01.800> set
+
+00:00:02.389 --> 00:00:02.399 
+now that we have the conditions all set
+
+00:00:02.399 --> 00:00:04.280 
+now that we have the conditions all set
+for<00:00:02.610> launching<00:00:03.000> missiles<00:00:03.360> we<00:00:03.750> need<00:00:03.990> to<00:00:04.110> take
+
+00:00:04.280 --> 00:00:04.290 
+for launching missiles we need to take
+
+00:00:04.290 --> 00:00:06.019 
+for launching missiles we need to take
+care<00:00:04.560> of<00:00:04.620> updating<00:00:05.250> the<00:00:05.370> missiles<00:00:05.759> that<00:00:05.879> are
+
+00:00:06.019 --> 00:00:06.029 
+care of updating the missiles that are
+
+00:00:06.029 --> 00:00:09.080 
+care of updating the missiles that are
+in<00:00:06.150> the<00:00:06.299> air<00:00:06.450> like<00:00:06.980> in<00:00:07.980> the<00:00:08.099> 2d<00:00:08.519> game<00:00:08.820> tutorial
+
+00:00:09.080 --> 00:00:09.090 
+in the air like in the 2d game tutorial
+
+00:00:09.090 --> 00:00:11.509 
+in the air like in the 2d game tutorial
+we<00:00:09.900> need<00:00:10.200> to<00:00:10.349> have<00:00:10.559> a<00:00:10.590> method<00:00:10.920> that<00:00:11.250> loops
+
+00:00:11.509 --> 00:00:11.519 
+we need to have a method that loops
+
+00:00:11.519 --> 00:00:13.459 
+we need to have a method that loops
+through<00:00:11.820> all<00:00:12.000> of<00:00:12.420> the<00:00:12.540> missiles<00:00:12.840> and<00:00:13.019> updates
+
+00:00:13.459 --> 00:00:13.469 
+through all of the missiles and updates
+
+00:00:13.469 --> 00:00:15.499 
+through all of the missiles and updates
+their<00:00:13.650> position<00:00:14.219> by<00:00:14.460> their<00:00:14.700> velocity<00:00:15.330> and
+
+00:00:15.499 --> 00:00:15.509 
+their position by their velocity and
+
+00:00:15.509 --> 00:00:18.170 
+their position by their velocity and
+also<00:00:16.260> checks<00:00:16.619> if<00:00:16.770> they<00:00:16.859> need<00:00:17.039> to<00:00:17.220> die<00:00:17.430> in<00:00:17.730> the
+
+00:00:18.170 --> 00:00:18.180 
+also checks if they need to die in the
+
+00:00:18.180 --> 00:00:20.810 
+also checks if they need to die in the
+case<00:00:18.390> that<00:00:18.600> they're<00:00:18.750> out<00:00:18.900> of<00:00:18.930> bounds<00:00:19.820> let's
+
+00:00:20.810 --> 00:00:20.820 
+case that they're out of bounds let's
+
+00:00:20.820 --> 00:00:23.570 
+case that they're out of bounds let's
+make<00:00:21.060> this<00:00:21.240> method<00:00:21.660> now<00:00:22.039> find<00:00:23.039> the<00:00:23.279> get
+
+00:00:23.570 --> 00:00:23.580 
+make this method now find the get
+
+00:00:23.580 --> 00:00:25.580 
+make this method now find the get
+missile<00:00:24.150> muzzle<00:00:24.660> position<00:00:25.109> method<00:00:25.470> you
+
+00:00:25.580 --> 00:00:25.590 
+missile muzzle position method you
+
+00:00:25.590 --> 00:00:29.060 
+missile muzzle position method you
+created<00:00:26.570> go<00:00:27.570> to<00:00:27.599> the<00:00:27.779> end<00:00:28.109> of<00:00:28.380> that<00:00:28.740> method
+
+00:00:29.060 --> 00:00:29.070 
+created go to the end of that method
+
+00:00:29.070 --> 00:00:31.730 
+created go to the end of that method
+pass<00:00:29.699> the<00:00:30.000> last<00:00:30.240> red<00:00:30.510> curly<00:00:30.929> brace<00:00:31.170> and<00:00:31.349> add<00:00:31.710> a
+
+00:00:31.730 --> 00:00:31.740 
+pass the last red curly brace and add a
+
+00:00:31.740 --> 00:00:36.010 
+pass the last red curly brace and add a
+new<00:00:32.130> line<00:00:32.369> and<00:00:32.640> create<00:00:33.270> this<00:00:33.840> method<00:00:34.790> void
+
+00:00:36.010 --> 00:00:36.020 
+new line and create this method void
+
+00:00:36.020 --> 00:00:38.600 
+new line and create this method void
+update<00:00:37.020> missiles
+
+00:00:38.600 --> 00:00:38.610 
+update missiles
+
+00:00:38.610 --> 00:00:41.510 
+update missiles
+this<00:00:39.240> is<00:00:39.510> a<00:00:39.540> void<00:00:39.960> method<00:00:40.290> it<00:00:40.680> doesn't<00:00:41.190> need<00:00:41.370> to
+
+00:00:41.510 --> 00:00:41.520 
+this is a void method it doesn't need to
+
+00:00:41.520 --> 00:00:44.150 
+this is a void method it doesn't need to
+return<00:00:41.850> anything<00:00:42.240> the<00:00:43.140> first<00:00:43.500> thing<00:00:43.740> we'll<00:00:43.920> do
+
+00:00:44.150 --> 00:00:44.160 
+return anything the first thing we'll do
+
+00:00:44.160 --> 00:00:46.190 
+return anything the first thing we'll do
+is<00:00:44.190> loop<00:00:44.670> through<00:00:44.970> all<00:00:45.000> of<00:00:45.180> the<00:00:45.570> missiles<00:00:45.960> add
+
+00:00:46.190 --> 00:00:46.200 
+is loop through all of the missiles add
+
+00:00:46.200 --> 00:00:51.080 
+is loop through all of the missiles add
+the<00:00:46.950> following<00:00:47.690> for<00:00:48.690> each<00:00:49.370> game<00:00:50.370> object
+
+00:00:51.080 --> 00:00:51.090 
+the following for each game object
+
+00:00:51.090 --> 00:00:54.890 
+the following for each game object
+missile<00:00:52.020> in<00:00:52.460> missiles<00:00:53.660> will<00:00:54.660> loop<00:00:54.870> through
+
+00:00:54.890 --> 00:00:54.900 
+missile in missiles will loop through
+
+00:00:54.900 --> 00:00:57.080 
+missile in missiles will loop through
+each<00:00:55.380> of<00:00:55.559> the<00:00:55.650> missiles<00:00:56.040> now<00:00:56.640> add<00:00:56.850> the
+
+00:00:57.080 --> 00:00:57.090 
+each of the missiles now add the
+
+00:00:57.090 --> 00:01:03.229 
+each of the missiles now add the
+following<00:00:57.410> if<00:00:58.410> missile<00:00:59.370> dot<00:00:59.790> alive
+
+00:01:03.229 --> 00:01:03.239 
+
+00:01:03.239 --> 00:01:07.420 
+
+missile<00:01:03.930> dot<00:01:04.170> position<00:01:04.640> plus<00:01:05.640> equals<00:01:06.330> missile
+
+00:01:07.420 --> 00:01:07.430 
+missile dot position plus equals missile
+
+00:01:07.430 --> 00:01:10.050 
+missile dot position plus equals missile
+velocity
+
+00:01:10.050 --> 00:01:10.060 
+velocity
+
+00:01:10.060 --> 00:01:16.940 
+velocity
+if<00:01:10.799> missile<00:01:11.850> position<00:01:13.080> Z<00:01:14.220> less<00:01:15.220> than<00:01:15.299> negative
+
+00:01:16.940 --> 00:01:16.950 
+if missile position Z less than negative
+
+00:01:16.950 --> 00:01:22.800 
+if missile position Z less than negative
+6000<00:01:17.950> point<00:01:18.549> zero<00:01:20.130> missile<00:01:21.130> dot<00:01:21.490> alive<00:01:21.970> equals
+
+00:01:22.800 --> 00:01:22.810 
+6000 point zero missile dot alive equals
+
+00:01:22.810 --> 00:01:28.090 
+6000 point zero missile dot alive equals
+false
+
+00:01:28.090 --> 00:01:28.100 
+
+00:01:28.100 --> 00:01:30.730 
+
+we'll<00:01:28.700> check<00:01:29.120> if<00:01:29.360> the<00:01:29.510> missile<00:01:29.870> is<00:01:29.990> alive<00:01:30.380> if
+
+00:01:30.730 --> 00:01:30.740 
+we'll check if the missile is alive if
+
+00:01:30.740 --> 00:01:33.730 
+we'll check if the missile is alive if
+it<00:01:31.520> is<00:01:31.700> we'll<00:01:32.060> move<00:01:32.390> it<00:01:32.570> along<00:01:32.690> in<00:01:33.170> the<00:01:33.260> 3d
+
+00:01:33.730 --> 00:01:33.740 
+it is we'll move it along in the 3d
+
+00:01:33.740 --> 00:01:36.100 
+it is we'll move it along in the 3d
+world<00:01:34.040> by<00:01:34.340> adding<00:01:34.760> the<00:01:34.880> velocity<00:01:35.510> vector<00:01:35.900> to
+
+00:01:36.100 --> 00:01:36.110 
+world by adding the velocity vector to
+
+00:01:36.110 --> 00:01:38.590 
+world by adding the velocity vector to
+its<00:01:36.260> current<00:01:36.650> position<00:01:36.830> vector<00:01:37.700> remember
+
+00:01:38.590 --> 00:01:38.600 
+its current position vector remember
+
+00:01:38.600 --> 00:01:40.870 
+its current position vector remember
+adding<00:01:39.229> vectors<00:01:39.620> is<00:01:39.800> like<00:01:40.010> moving<00:01:40.460> along<00:01:40.850> a
+
+00:01:40.870 --> 00:01:40.880 
+adding vectors is like moving along a
+
+00:01:40.880 --> 00:01:44.020 
+adding vectors is like moving along a
+path<00:01:41.240> we're<00:01:42.050> moving<00:01:42.470> the<00:01:42.590> position<00:01:43.159> along<00:01:43.310> the
+
+00:01:44.020 --> 00:01:44.030 
+path we're moving the position along the
+
+00:01:44.030 --> 00:01:46.800 
+path we're moving the position along the
+velocity<00:01:44.300> vector<00:01:44.960> to<00:01:45.410> a<00:01:45.440> new<00:01:45.770> position
+
+00:01:46.800 --> 00:01:46.810 
+velocity vector to a new position
+
+00:01:46.810 --> 00:01:49.450 
+velocity vector to a new position
+finally<00:01:47.810> we<00:01:47.990> need<00:01:48.200> to<00:01:48.259> see<00:01:48.650> if<00:01:48.830> the<00:01:48.950> position
+
+00:01:49.450 --> 00:01:49.460 
+finally we need to see if the position
+
+00:01:49.460 --> 00:01:52.690 
+finally we need to see if the position
+has<00:01:49.610> gone<00:01:49.850> out<00:01:50.090> of<00:01:50.240> bounds<00:01:51.100> this<00:01:52.100> is<00:01:52.280> sort<00:01:52.580> of
+
+00:01:52.690 --> 00:01:52.700 
+has gone out of bounds this is sort of
+
+00:01:52.700 --> 00:01:55.690 
+has gone out of bounds this is sort of
+arbitrary<00:01:53.360> we<00:01:54.080> define<00:01:54.560> what<00:01:54.979> out-of-bounds
+
+00:01:55.690 --> 00:01:55.700 
+arbitrary we define what out-of-bounds
+
+00:01:55.700 --> 00:01:59.249 
+arbitrary we define what out-of-bounds
+is<00:01:56.650> negative<00:01:57.650> Z<00:01:57.860> is<00:01:58.070> away<00:01:58.520> from<00:01:58.790> the<00:01:58.910> screen
+
+00:01:59.249 --> 00:01:59.259 
+is negative Z is away from the screen
+
+00:01:59.259 --> 00:02:01.930 
+is negative Z is away from the screen
+based<00:02:00.259> on<00:02:00.470> the<00:02:00.560> clamping<00:02:01.039> values<00:02:01.399> we<00:02:01.550> gave<00:02:01.759> the
+
+00:02:01.930 --> 00:02:01.940 
+based on the clamping values we gave the
+
+00:02:01.940 --> 00:02:03.999 
+based on the clamping values we gave the
+missile<00:02:02.330> launcher<00:02:02.720> head<00:02:02.960> all<00:02:03.170> missiles<00:02:03.770> have
+
+00:02:03.999 --> 00:02:04.009 
+missile launcher head all missiles have
+
+00:02:04.009 --> 00:02:06.160 
+missile launcher head all missiles have
+to<00:02:04.160> head<00:02:04.399> in<00:02:04.580> the<00:02:04.700> negative<00:02:05.210> Z<00:02:05.390> direction<00:02:05.420> to
+
+00:02:06.160 --> 00:02:06.170 
+to head in the negative Z direction to
+
+00:02:06.170 --> 00:02:08.529 
+to head in the negative Z direction to
+some<00:02:06.440> extent<00:02:06.920> so<00:02:07.520> having<00:02:07.759> a<00:02:07.970> value<00:02:08.360> of
+
+00:02:08.529 --> 00:02:08.539 
+some extent so having a value of
+
+00:02:08.539 --> 00:02:11.410 
+some extent so having a value of
+negative<00:02:08.780> 6,000<00:02:09.770> for<00:02:09.890> Z<00:02:10.220> which<00:02:10.729> is<00:02:10.880> pretty<00:02:11.120> far
+
+00:02:11.410 --> 00:02:11.420 
+negative 6,000 for Z which is pretty far
+
+00:02:11.420 --> 00:02:14.140 
+negative 6,000 for Z which is pretty far
+out<00:02:11.600> there<00:02:11.840> is<00:02:12.020> a<00:02:12.260> good<00:02:12.590> choice<00:02:12.910> if<00:02:13.910> it's
+
+00:02:14.140 --> 00:02:14.150 
+out there is a good choice if it's
+
+00:02:14.150 --> 00:02:16.780 
+out there is a good choice if it's
+farther<00:02:14.480> out<00:02:14.720> than<00:02:14.750> negative<00:02:15.470> 6000<00:02:16.250> on<00:02:16.370> the<00:02:16.520> z
+
+00:02:16.780 --> 00:02:16.790 
+farther out than negative 6000 on the z
+
+00:02:16.790 --> 00:02:18.449 
+farther out than negative 6000 on the z
+axis<00:02:17.300> then<00:02:17.660> kill<00:02:18.110> it
+
+00:02:18.449 --> 00:02:18.459 
+axis then kill it
+
+00:02:18.459 --> 00:02:20.590 
+axis then kill it
+that'll<00:02:19.459> do<00:02:19.610> for<00:02:19.790> our<00:02:19.880> update<00:02:20.239> missiles
+
+00:02:20.590 --> 00:02:20.600 
+that'll do for our update missiles
+
+00:02:20.600 --> 00:02:23.320 
+that'll do for our update missiles
+method<00:02:20.959> and<00:02:21.190> we're<00:02:22.190> short<00:02:22.370> to<00:02:22.670> write<00:02:22.910> curly
+
+00:02:23.320 --> 00:02:23.330 
+method and we're short to write curly
+
+00:02:23.330 --> 00:02:25.630 
+method and we're short to write curly
+braces<00:02:23.600> so<00:02:24.019> add<00:02:24.230> those<00:02:24.650> to<00:02:24.920> close<00:02:25.190> the<00:02:25.400> four
+
+00:02:25.630 --> 00:02:25.640 
+braces so add those to close the four
+
+00:02:25.640 --> 00:02:28.810 
+braces so add those to close the four
+each<00:02:25.880> and<00:02:26.150> the<00:02:26.570> method<00:02:27.100> last<00:02:28.100> piece<00:02:28.430> is<00:02:28.670> to
+
+00:02:28.810 --> 00:02:28.820 
+each and the method last piece is to
+
+00:02:28.820 --> 00:02:30.970 
+each and the method last piece is to
+make<00:02:29.030> sure<00:02:29.269> we<00:02:29.480> call<00:02:29.780> this<00:02:30.050> update<00:02:30.590> missiles
+
+00:02:30.970 --> 00:02:30.980 
+make sure we call this update missiles
+
+00:02:30.980 --> 00:02:34.660 
+make sure we call this update missiles
+method<00:02:31.370> so<00:02:31.640> find<00:02:32.060> the<00:02:32.299> update<00:02:32.690> method<00:02:33.670> find
+
+00:02:34.660 --> 00:02:34.670 
+method so find the update method find
+
+00:02:34.670 --> 00:02:37.420 
+method so find the update method find
+your<00:02:34.910> calls<00:02:35.180> to<00:02:35.420> fire<00:02:35.690> missile<00:02:36.170> don't<00:02:37.040> go<00:02:37.220> down
+
+00:02:37.420 --> 00:02:37.430 
+your calls to fire missile don't go down
+
+00:02:37.430 --> 00:02:39.070 
+your calls to fire missile don't go down
+further<00:02:37.790> than<00:02:38.090> that<00:02:38.269> you<00:02:38.630> want<00:02:38.810> to<00:02:38.930> make<00:02:39.049> sure
+
+00:02:39.070 --> 00:02:39.080 
+further than that you want to make sure
+
+00:02:39.080 --> 00:02:41.380 
+further than that you want to make sure
+those<00:02:39.470> calls<00:02:39.799> to<00:02:40.040> previous<00:02:40.580> state<00:02:40.880> equals
+
+00:02:41.380 --> 00:02:41.390 
+those calls to previous state equals
+
+00:02:41.390 --> 00:02:43.630 
+those calls to previous state equals
+gamepad<00:02:41.959> state<00:02:42.320> are<00:02:42.500> the<00:02:42.680> last<00:02:42.920> things<00:02:43.280> you<00:02:43.430> do
+
+00:02:43.630 --> 00:02:43.640 
+gamepad state are the last things you do
+
+00:02:43.640 --> 00:02:47.229 
+gamepad state are the last things you do
+add<00:02:43.850> a<00:02:44.049> new<00:02:45.049> line<00:02:45.290> just<00:02:45.769> before<00:02:46.239> previous
+
+00:02:47.229 --> 00:02:47.239 
+add a new line just before previous
+
+00:02:47.239 --> 00:02:49.390 
+add a new line just before previous
+state<00:02:47.480> equals<00:02:47.900> gamepad<00:02:48.410> state<00:02:48.739> and<00:02:48.920> add<00:02:49.220> the
+
+00:02:49.390 --> 00:02:49.400 
+state equals gamepad state and add the
+
+00:02:49.400 --> 00:02:51.360 
+state equals gamepad state and add the
+following<00:02:49.880> call
+
+00:02:51.360 --> 00:02:51.370 
+following call
+
+00:02:51.370 --> 00:02:53.950 
+following call
+Update<00:02:52.150> missiles
+
+00:02:53.950 --> 00:02:53.960 
+Update missiles
+
+00:02:53.960 --> 00:02:56.980 
+Update missiles
+that<00:02:54.680> was<00:02:54.830> easy<00:02:55.010> huh<00:02:55.450> okay<00:02:56.450> we're<00:02:56.780> nearly
+
+00:02:56.980 --> 00:02:56.990 
+that was easy huh okay we're nearly
+
+00:02:56.990 --> 00:02:59.650 
+that was easy huh okay we're nearly
+there<00:02:57.140> last<00:02:58.100> step<00:02:58.460> is<00:02:58.670> to<00:02:58.820> draw<00:02:59.090> the<00:02:59.150> missiles
+
+00:02:59.650 --> 00:02:59.660 
+there last step is to draw the missiles
+
+00:02:59.660 --> 00:03:02.500 
+there last step is to draw the missiles
+on<00:02:59.840> the<00:03:00.110> screen
+

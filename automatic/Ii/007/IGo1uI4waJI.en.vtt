@@ -1,0 +1,532 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.819 --> 00:00:07.130 
+
+hi<00:00:05.819> my<00:00:06.060> name<00:00:06.180> is<00:00:06.240> Matthew<00:00:06.420> Pearce<00:00:06.839> I'm<00:00:07.109> a
+
+00:00:07.130 --> 00:00:07.140 
+hi my name is Matthew Pearce I'm a
+
+00:00:07.140 --> 00:00:09.169 
+hi my name is Matthew Pearce I'm a
+software<00:00:07.620> engineer<00:00:07.710> and<00:00:08.400> today<00:00:08.790> I'm<00:00:09.000> going<00:00:09.090> to
+
+00:00:09.169 --> 00:00:09.179 
+software engineer and today I'm going to
+
+00:00:09.179 --> 00:00:10.910 
+software engineer and today I'm going to
+show<00:00:09.360> you<00:00:09.389> how<00:00:09.690> to<00:00:09.750> declare<00:00:10.380> an<00:00:10.620> array<00:00:10.740> of
+
+00:00:10.910 --> 00:00:10.920 
+show you how to declare an array of
+
+00:00:10.920 --> 00:00:14.660 
+show you how to declare an array of
+allocator<00:00:11.610> in<00:00:11.820> the<00:00:12.150> java<00:00:12.420> language<00:00:12.740> now<00:00:13.740> in
+
+00:00:14.660 --> 00:00:14.670 
+allocator in the java language now in
+
+00:00:14.670 --> 00:00:18.490 
+allocator in the java language now in
+java<00:00:15.240> the<00:00:16.230> arrays<00:00:16.560> typically<00:00:17.220> you<00:00:18.150> have<00:00:18.330> to
+
+00:00:18.490 --> 00:00:18.500 
+java the arrays typically you have to
+
+00:00:18.500 --> 00:00:21.590 
+java the arrays typically you have to
+you<00:00:19.500> have<00:00:19.529> to<00:00:19.859> declare<00:00:20.640> them<00:00:21.150> and<00:00:21.480> then
+
+00:00:21.590 --> 00:00:21.600 
+you have to declare them and then
+
+00:00:21.600 --> 00:00:23.349 
+you have to declare them and then
+allocate<00:00:22.109> them<00:00:22.320> and<00:00:22.560> you<00:00:22.920> can<00:00:23.100> either
+
+00:00:23.349 --> 00:00:23.359 
+allocate them and you can either
+
+00:00:23.359 --> 00:00:25.910 
+allocate them and you can either
+manually<00:00:24.359> initialize<00:00:24.960> the<00:00:25.140> contents<00:00:25.680> or<00:00:25.800> you
+
+00:00:25.910 --> 00:00:25.920 
+manually initialize the contents or you
+
+00:00:25.920 --> 00:00:27.830 
+manually initialize the contents or you
+can<00:00:26.070> automatically<00:00:26.670> initialize<00:00:27.269> them<00:00:27.480> when
+
+00:00:27.830 --> 00:00:27.840 
+can automatically initialize them when
+
+00:00:27.840 --> 00:00:29.570 
+can automatically initialize them when
+you<00:00:27.930> allocate<00:00:28.109> them<00:00:28.590> so<00:00:29.160> i've<00:00:29.250> got<00:00:29.429> an<00:00:29.490> example
+
+00:00:29.570 --> 00:00:29.580 
+you allocate them so i've got an example
+
+00:00:29.580 --> 00:00:33.830 
+you allocate them so i've got an example
+here<00:00:30.060> that<00:00:30.570> i<00:00:31.050> wrote<00:00:31.529> in<00:00:32.070> java<00:00:32.489> using<00:00:33.270> the
+
+00:00:33.830 --> 00:00:33.840 
+here that i wrote in java using the
+
+00:00:33.840 --> 00:00:37.370 
+here that i wrote in java using the
+eclipse<00:00:34.770> ide<00:00:35.100> and<00:00:35.790> what<00:00:36.780> I<00:00:36.809> have<00:00:37.020> here<00:00:37.050> is
+
+00:00:37.370 --> 00:00:37.380 
+eclipse ide and what I have here is
+
+00:00:37.380 --> 00:00:39.860 
+eclipse ide and what I have here is
+first<00:00:37.590> I'm<00:00:37.829> gonna<00:00:37.980> I'm<00:00:38.910> gonna<00:00:39.030> allocate<00:00:39.629> and
+
+00:00:39.860 --> 00:00:39.870 
+first I'm gonna I'm gonna allocate and
+
+00:00:39.870 --> 00:00:42.229 
+first I'm gonna I'm gonna allocate and
+I'm<00:00:40.770> gonna<00:00:40.890> declare<00:00:41.190> an<00:00:41.309> allocate<00:00:41.730> an<00:00:41.879> array
+
+00:00:42.229 --> 00:00:42.239 
+I'm gonna declare an allocate an array
+
+00:00:42.239 --> 00:00:45.049 
+I'm gonna declare an allocate an array
+of<00:00:42.570> integers<00:00:43.050> and<00:00:43.290> so<00:00:43.649> typically<00:00:44.040> the<00:00:44.610> pattern
+
+00:00:45.049 --> 00:00:45.059 
+of integers and so typically the pattern
+
+00:00:45.059 --> 00:00:47.690 
+of integers and so typically the pattern
+is<00:00:45.300> you<00:00:45.600> have<00:00:46.020> to<00:00:46.140> declare<00:00:46.289> a<00:00:46.469> type<00:00:46.829> and<00:00:47.520> then
+
+00:00:47.690 --> 00:00:47.700 
+is you have to declare a type and then
+
+00:00:47.700 --> 00:00:48.830 
+is you have to declare a type and then
+you<00:00:47.789> have<00:00:47.910> square<00:00:48.239> brackets<00:00:48.719> to<00:00:48.809> indicate
+
+00:00:48.830 --> 00:00:48.840 
+you have square brackets to indicate
+
+00:00:48.840 --> 00:00:52.670 
+you have square brackets to indicate
+that<00:00:49.260> it's<00:00:49.590> an<00:00:49.710> array<00:00:49.920> and<00:00:50.300> then<00:00:51.300> you<00:00:52.260> give<00:00:52.590> it
+
+00:00:52.670 --> 00:00:52.680 
+that it's an array and then you give it
+
+00:00:52.680 --> 00:00:55.340 
+that it's an array and then you give it
+a<00:00:52.739> name<00:00:52.949> and<00:00:53.280> then<00:00:53.730> you<00:00:53.850> say<00:00:54.059> equals<00:00:54.480> new<00:00:54.989> and
+
+00:00:55.340 --> 00:00:55.350 
+a name and then you say equals new and
+
+00:00:55.350 --> 00:00:57.830 
+a name and then you say equals new and
+then<00:00:55.770> you<00:00:55.920> say<00:00:56.129> in<00:00:56.370> the<00:00:56.460> type<00:00:56.670> inch<00:00:57.030> size<00:00:57.510> and
+
+00:00:57.830 --> 00:00:57.840 
+then you say in the type inch size and
+
+00:00:57.840 --> 00:01:00.290 
+then you say in the type inch size and
+that<00:00:58.440> allocates<00:00:58.949> an<00:00:59.129> array<00:00:59.309> of<00:00:59.640> 10<00:01:00.270> integers
+
+00:01:00.290 --> 00:01:00.300 
+that allocates an array of 10 integers
+
+00:01:00.300 --> 00:01:03.889 
+that allocates an array of 10 integers
+and<00:01:01.170> those<00:01:01.829> are<00:01:02.039> primitive<00:01:02.219> types<00:01:02.670> so<00:01:03.359> there's
+
+00:01:03.889 --> 00:01:03.899 
+and those are primitive types so there's
+
+00:01:03.899 --> 00:01:05.390 
+and those are primitive types so there's
+not<00:01:04.019> a<00:01:04.080> whole<00:01:04.320> lot<00:01:04.379> to<00:01:04.680> do<00:01:04.799> beyond<00:01:05.040> that<00:01:05.070> you
+
+00:01:05.390 --> 00:01:05.400 
+not a whole lot to do beyond that you
+
+00:01:05.400 --> 00:01:07.310 
+not a whole lot to do beyond that you
+can<00:01:05.430> just<00:01:05.640> stuff<00:01:05.850> in<00:01:06.060> values<00:01:06.600> if<00:01:06.750> you<00:01:06.869> want<00:01:07.080> and
+
+00:01:07.310 --> 00:01:07.320 
+can just stuff in values if you want and
+
+00:01:07.320 --> 00:01:10.370 
+can just stuff in values if you want and
+that's<00:01:07.680> what<00:01:07.830> I<00:01:07.860> do<00:01:07.950> in<00:01:08.250> this<00:01:08.460> next<00:01:09.320> this<00:01:10.320> next
+
+00:01:10.370 --> 00:01:10.380 
+that's what I do in this next this next
+
+00:01:10.380 --> 00:01:12.530 
+that's what I do in this next this next
+loop<00:01:10.950> right<00:01:11.220> here<00:01:11.369> I've<00:01:11.460> got<00:01:11.580> a<00:01:11.610> for<00:01:11.939> loop<00:01:12.180> I<00:01:12.360> go
+
+00:01:12.530 --> 00:01:12.540 
+loop right here I've got a for loop I go
+
+00:01:12.540 --> 00:01:16.399 
+loop right here I've got a for loop I go
+through<00:01:12.900> and<00:01:13.380> I<00:01:13.799> put<00:01:14.040> in<00:01:14.220> the<00:01:15.000> the<00:01:15.509> values<00:01:15.900> now
+
+00:01:16.399 --> 00:01:16.409 
+through and I put in the the values now
+
+00:01:16.409 --> 00:01:20.179 
+through and I put in the the values now
+you<00:01:16.470> can<00:01:16.680> also<00:01:17.210> auto<00:01:18.210> initialize<00:01:19.020> the<00:01:19.799> array
+
+00:01:20.179 --> 00:01:20.189 
+you can also auto initialize the array
+
+00:01:20.189 --> 00:01:22.910 
+you can also auto initialize the array
+as<00:01:20.880> I've<00:01:21.210> done<00:01:21.360> here<00:01:21.420> I've<00:01:21.930> said<00:01:22.200> int<00:01:22.439> you<00:01:22.860> know
+
+00:01:22.910 --> 00:01:22.920 
+as I've done here I've said int you know
+
+00:01:22.920 --> 00:01:25.249 
+as I've done here I've said int you know
+integers<00:01:23.400> but<00:01:24.090> then<00:01:24.240> in<00:01:24.330> curly<00:01:24.450> braces<00:01:24.810> I<00:01:25.080> put
+
+00:01:25.249 --> 00:01:25.259 
+integers but then in curly braces I put
+
+00:01:25.259 --> 00:01:28.249 
+integers but then in curly braces I put
+the<00:01:25.350> values<00:01:25.710> that<00:01:25.950> I<00:01:26.009> want<00:01:26.310> to<00:01:26.820> go<00:01:27.000> into<00:01:27.259> the
+
+00:01:28.249 --> 00:01:28.259 
+the values that I want to go into the
+
+00:01:28.259 --> 00:01:30.679 
+the values that I want to go into the
+integers<00:01:28.799> within<00:01:29.549> that<00:01:29.670> array<00:01:29.970> and<00:01:30.270> so<00:01:30.600> you
+
+00:01:30.679 --> 00:01:30.689 
+integers within that array and so you
+
+00:01:30.689 --> 00:01:32.569 
+integers within that array and so you
+can<00:01:30.810> automatically<00:01:31.350> do<00:01:31.530> that<00:01:31.740> take<00:01:32.100> two<00:01:32.340> steps
+
+00:01:32.569 --> 00:01:32.579 
+can automatically do that take two steps
+
+00:01:32.579 --> 00:01:34.340 
+can automatically do that take two steps
+down<00:01:32.850> into<00:01:33.060> one<00:01:33.240> it<00:01:33.540> makes<00:01:33.720> it<00:01:33.930> easier<00:01:34.320> and
+
+00:01:34.340 --> 00:01:34.350 
+down into one it makes it easier and
+
+00:01:34.350 --> 00:01:36.830 
+down into one it makes it easier and
+convenient<00:01:34.740> and<00:01:35.130> he<00:01:35.939> can<00:01:36.150> you<00:01:36.420> know<00:01:36.479> read<00:01:36.689> your
+
+00:01:36.830 --> 00:01:36.840 
+convenient and he can you know read your
+
+00:01:36.840 --> 00:01:40.819 
+convenient and he can you know read your
+code<00:01:36.960> better<00:01:37.229> sometimes<00:01:38.150> and<00:01:39.560> what<00:01:40.560> I<00:01:40.590> have
+
+00:01:40.819 --> 00:01:40.829 
+code better sometimes and what I have
+
+00:01:40.829 --> 00:01:43.160 
+code better sometimes and what I have
+here<00:01:40.860> this<00:01:41.820> is<00:01:42.030> an<00:01:42.119> array<00:01:42.329> of<00:01:42.360> strings<00:01:42.630> now
+
+00:01:43.160 --> 00:01:43.170 
+here this is an array of strings now
+
+00:01:43.170 --> 00:01:46.639 
+here this is an array of strings now
+strings<00:01:43.619> are<00:01:44.399> different<00:01:45.270> than<00:01:45.960> primitives
+
+00:01:46.639 --> 00:01:46.649 
+strings are different than primitives
+
+00:01:46.649 --> 00:01:48.950 
+strings are different than primitives
+like<00:01:46.950> integers<00:01:47.280> and<00:01:47.759> characters<00:01:47.960> whatnot
+
+00:01:48.950 --> 00:01:48.960 
+like integers and characters whatnot
+
+00:01:48.960 --> 00:01:52.840 
+like integers and characters whatnot
+strings<00:01:49.290> or<00:01:49.470> objects<00:01:50.040> so<00:01:50.880> unlike<00:01:51.630> an<00:01:52.259> array<00:01:52.710> of
+
+00:01:52.840 --> 00:01:52.850 
+strings or objects so unlike an array of
+
+00:01:52.850 --> 00:01:55.609 
+strings or objects so unlike an array of
+primitives<00:01:53.850> which<00:01:54.270> contain<00:01:54.720> values<00:01:55.409> that's
+
+00:01:55.609 --> 00:01:55.619 
+primitives which contain values that's
+
+00:01:55.619 --> 00:01:57.260 
+primitives which contain values that's
+an<00:01:55.799> array<00:01:55.950> of<00:01:55.979> values<00:01:56.430> like<00:01:56.460> the<00:01:56.880> array<00:01:57.149> of
+
+00:01:57.260 --> 00:01:57.270 
+an array of values like the array of
+
+00:01:57.270 --> 00:01:58.880 
+an array of values like the array of
+integers<00:01:57.659> will<00:01:57.810> have<00:01:57.930> integer<00:01:58.290> values<00:01:58.680> in<00:01:58.829> the
+
+00:01:58.880 --> 00:01:58.890 
+integers will have integer values in the
+
+00:01:58.890 --> 00:02:01.490 
+integers will have integer values in the
+array<00:01:59.040> an<00:01:59.880> array<00:02:00.090> of<00:02:00.329> objects<00:02:00.960> have
+
+00:02:01.490 --> 00:02:01.500 
+array an array of objects have
+
+00:02:01.500 --> 00:02:04.880 
+array an array of objects have
+references<00:02:02.399> to<00:02:02.850> objects<00:02:03.360> so<00:02:04.020> typically<00:02:04.560> what
+
+00:02:04.880 --> 00:02:04.890 
+references to objects so typically what
+
+00:02:04.890 --> 00:02:08.150 
+references to objects so typically what
+you'll<00:02:05.009> do<00:02:05.280> is<00:02:05.610> you'll<00:02:06.210> declare<00:02:06.920> the<00:02:07.920> array
+
+00:02:08.150 --> 00:02:08.160 
+you'll do is you'll declare the array
+
+00:02:08.160 --> 00:02:10.760 
+you'll do is you'll declare the array
+and<00:02:08.369> allocate<00:02:08.879> it<00:02:08.910> and<00:02:09.209> then<00:02:09.629> you'll<00:02:09.810> go<00:02:09.929> back
+
+00:02:10.760 --> 00:02:10.770 
+and allocate it and then you'll go back
+
+00:02:10.770 --> 00:02:13.820 
+and allocate it and then you'll go back
+you<00:02:10.980> will<00:02:11.220> initialize<00:02:12.030> the<00:02:12.090> objects<00:02:13.050> that<00:02:13.140> the
+
+00:02:13.820 --> 00:02:13.830 
+you will initialize the objects that the
+
+00:02:13.830 --> 00:02:17.480 
+you will initialize the objects that the
+array<00:02:14.070> points<00:02:14.610> to<00:02:14.960> but<00:02:15.960> with<00:02:16.080> strings<00:02:16.490> since
+
+00:02:17.480 --> 00:02:17.490 
+array points to but with strings since
+
+00:02:17.490 --> 00:02:19.400 
+array points to but with strings since
+the<00:02:17.670> strings<00:02:17.940> are<00:02:18.120> objects<00:02:18.630> however<00:02:18.810> you<00:02:19.260> do
+
+00:02:19.400 --> 00:02:19.410 
+the strings are objects however you do
+
+00:02:19.410 --> 00:02:21.440 
+the strings are objects however you do
+have<00:02:19.620> the<00:02:19.830> ability<00:02:19.920> to<00:02:20.340> do<00:02:20.460> something<00:02:20.760> like
+
+00:02:21.440 --> 00:02:21.450 
+have the ability to do something like
+
+00:02:21.450 --> 00:02:23.570 
+have the ability to do something like
+right<00:02:21.780> here<00:02:22.170> where<00:02:22.440> curly<00:02:22.890> braces<00:02:23.130> you<00:02:23.460> could
+
+00:02:23.570 --> 00:02:23.580 
+right here where curly braces you could
+
+00:02:23.580 --> 00:02:26.900 
+right here where curly braces you could
+put<00:02:23.760> strings<00:02:24.570> in<00:02:24.960> there<00:02:25.170> instead<00:02:26.070> of<00:02:26.310> just
+
+00:02:26.900 --> 00:02:26.910 
+put strings in there instead of just
+
+00:02:26.910 --> 00:02:28.400 
+put strings in there instead of just
+references<00:02:27.450> and<00:02:27.600> then<00:02:27.690> go<00:02:27.780> back<00:02:27.960> and<00:02:28.170> fill
+
+00:02:28.400 --> 00:02:28.410 
+references and then go back and fill
+
+00:02:28.410 --> 00:02:30.380 
+references and then go back and fill
+them<00:02:28.500> in<00:02:28.590> but<00:02:29.070> if<00:02:29.160> you<00:02:29.220> see<00:02:29.370> right<00:02:29.520> here<00:02:29.580> this
+
+00:02:30.380 --> 00:02:30.390 
+them in but if you see right here this
+
+00:02:30.390 --> 00:02:32.630 
+them in but if you see right here this
+is<00:02:30.510> how<00:02:30.630> I<00:02:30.660> did<00:02:30.870> with<00:02:30.990> strings<00:02:31.320> I<00:02:31.530> I<00:02:31.770> declared
+
+00:02:32.630 --> 00:02:32.640 
+is how I did with strings I I declared
+
+00:02:32.640 --> 00:02:34.790 
+is how I did with strings I I declared
+an<00:02:32.790> allocated<00:02:33.420> an<00:02:33.600> array<00:02:33.960> of<00:02:34.080> strings<00:02:34.500> and
+
+00:02:34.790 --> 00:02:34.800 
+an allocated an array of strings and
+
+00:02:34.800 --> 00:02:37.070 
+an allocated an array of strings and
+then<00:02:35.550> I<00:02:35.760> went<00:02:35.970> through<00:02:36.060> and<00:02:36.390> I<00:02:36.420> stuffed<00:02:36.840> the
+
+00:02:37.070 --> 00:02:37.080 
+then I went through and I stuffed the
+
+00:02:37.080 --> 00:02:40.880 
+then I went through and I stuffed the
+array<00:02:38.330> references<00:02:39.330> with<00:02:39.540> strings<00:02:39.900> so<00:02:40.560> that<00:02:40.740> it
+
+00:02:40.880 --> 00:02:40.890 
+array references with strings so that it
+
+00:02:40.890 --> 00:02:43.730 
+array references with strings so that it
+has<00:02:41.070> references<00:02:41.340> to<00:02:41.850> objects<00:02:42.420> but<00:02:43.170> again<00:02:43.500> you
+
+00:02:43.730 --> 00:02:43.740 
+has references to objects but again you
+
+00:02:43.740 --> 00:02:45.950 
+has references to objects but again you
+don't<00:02:43.950> have<00:02:44.100> to<00:02:44.250> do<00:02:44.520> it<00:02:44.640> that<00:02:44.790> way<00:02:44.970> you<00:02:45.180> can<00:02:45.750> do
+
+00:02:45.950 --> 00:02:45.960 
+don't have to do it that way you can do
+
+00:02:45.960 --> 00:02:48.080 
+don't have to do it that way you can do
+it<00:02:45.990> like<00:02:46.290> I've<00:02:46.470> done<00:02:46.650> right<00:02:46.950> here<00:02:47.370> I<00:02:47.490> said
+
+00:02:48.080 --> 00:02:48.090 
+it like I've done right here I said
+
+00:02:48.090 --> 00:02:51.080 
+it like I've done right here I said
+string<00:02:48.510> and<00:02:49.110> knitted<00:02:49.500> strings<00:02:49.860> and<00:02:50.130> I<00:02:50.220> stuffed
+
+00:02:51.080 --> 00:02:51.090 
+string and knitted strings and I stuffed
+
+00:02:51.090 --> 00:02:53.450 
+string and knitted strings and I stuffed
+it<00:02:51.180> in<00:02:51.330> with<00:02:51.510> arrays<00:02:52.080> but<00:02:52.320> there<00:02:52.860> with<00:02:53.100> strings
+
+00:02:53.450 --> 00:02:53.460 
+it in with arrays but there with strings
+
+00:02:53.460 --> 00:02:55.580 
+it in with arrays but there with strings
+but<00:02:54.180> if<00:02:54.300> you<00:02:54.420> had<00:02:54.630> an<00:02:54.720> array<00:02:54.960> of<00:02:55.110> complex
+
+00:02:55.580 --> 00:02:55.590 
+but if you had an array of complex
+
+00:02:55.590 --> 00:02:58.070 
+but if you had an array of complex
+objects<00:02:56.340> you<00:02:56.670> know<00:02:56.760> say<00:02:57.000> it<00:02:57.120> was<00:02:57.240> a<00:02:57.270> some<00:02:57.900> sort
+
+00:02:58.070 --> 00:02:58.080 
+objects you know say it was a some sort
+
+00:02:58.080 --> 00:03:01.400 
+objects you know say it was a some sort
+of<00:02:58.140> object<00:02:59.090> initialized<00:03:00.090> from<00:03:00.270> a<00:03:00.510> from<00:03:00.930> a<00:03:01.050> from
+
+00:03:01.400 --> 00:03:01.410 
+of object initialized from a from a from
+
+00:03:01.410 --> 00:03:02.960 
+of object initialized from a from a from
+a<00:03:01.890> class<00:03:02.100> or<00:03:02.340> something<00:03:02.520> else<00:03:02.730> that<00:03:02.910> you
+
+00:03:02.960 --> 00:03:02.970 
+a class or something else that you
+
+00:03:02.970 --> 00:03:05.360 
+a class or something else that you
+instantiate<00:03:03.570> it<00:03:03.710> you<00:03:04.710> wouldn't<00:03:04.920> be<00:03:05.010> able<00:03:05.250> to
+
+00:03:05.360 --> 00:03:05.370 
+instantiate it you wouldn't be able to
+
+00:03:05.370 --> 00:03:06.740 
+instantiate it you wouldn't be able to
+do<00:03:05.490> it<00:03:05.610> this<00:03:05.730> way<00:03:05.940> you'd<00:03:06.090> have<00:03:06.270> to<00:03:06.390> go<00:03:06.480> through
+
+00:03:06.740 --> 00:03:06.750 
+do it this way you'd have to go through
+
+00:03:06.750 --> 00:03:08.420 
+do it this way you'd have to go through
+first<00:03:07.020> and<00:03:07.230> allocate<00:03:07.710> the<00:03:07.890> array<00:03:07.980> and<00:03:08.340> then
+
+00:03:08.420 --> 00:03:08.430 
+first and allocate the array and then
+
+00:03:08.430 --> 00:03:11.660 
+first and allocate the array and then
+initialize<00:03:09.080> the<00:03:10.080> contents<00:03:10.620> -<00:03:11.340> math
+
+00:03:11.660 --> 00:03:11.670 
+initialize the contents - math
+
+00:03:11.670 --> 00:03:12.830 
+initialize the contents - math
+appearance<00:03:12.060> today<00:03:12.240> I<00:03:12.330> showed<00:03:12.600> you<00:03:12.690> how<00:03:12.810> to
+
+00:03:12.830 --> 00:03:12.840 
+appearance today I showed you how to
+
+00:03:12.840 --> 00:03:14.960 
+appearance today I showed you how to
+declare<00:03:13.080> an<00:03:13.560> array<00:03:13.800> and<00:03:14.160> allocate<00:03:14.550> it<00:03:14.640> in<00:03:14.730> Java
+
+00:03:14.960 --> 00:03:14.970 
+declare an array and allocate it in Java
+
+00:03:14.970 --> 00:03:18.990 
+declare an array and allocate it in Java
+thanks<00:03:15.480> for<00:03:15.630> watching
+
+00:03:18.990 --> 00:03:19.000 
+
+00:03:19.000 --> 00:03:21.060 
+
+you
+

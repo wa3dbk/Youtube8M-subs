@@ -1,0 +1,505 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:10.640 --> 00:00:16.349
+ Hello everyone in this video I will tell you 
+
+00:00:13.470 --> 00:00:17.939
+ Pro progressive rendering method 
+
+00:00:16.349 --> 00:00:20.669
+ this is one of the algorithms that can 
+
+00:00:17.939 --> 00:00:22.529
+ use the beasts now like you 
+
+00:00:20.669 --> 00:00:25.230
+ remember in the main course our where we are 
+
+00:00:22.529 --> 00:00:29.489
+ create interior we use algorithms 
+
+00:00:25.230 --> 00:00:31.409
+ which is called adaptive I told them 
+
+00:00:29.489 --> 00:00:33.200
+ already in one of the lessons he completely 
+
+00:00:31.409 --> 00:00:37.050
+ adapts in here switches 
+
+00:00:33.200 --> 00:00:39.020
+ antialiasing image sampler we were with 
+
+00:00:37.050 --> 00:00:42.120
+ you consider another algorithm 
+
+00:00:39.020 --> 00:00:45.090
+ progressive what is it first 
+
+00:00:42.120 --> 00:00:46.740
+ I'll show you a scene as such 
+
+00:00:45.090 --> 00:00:48.990
+ unpretentious as you see completely 
+
+00:00:46.740 --> 00:00:51.990
+ consists of primitive in standard 
+
+00:00:48.990 --> 00:00:54.420
+ the only thing with this box is i 
+
+00:00:51.990 --> 00:00:57.360
+ applied a chanter that is smoothing the chamfer 
+
+00:00:54.420 --> 00:00:58.950
+ the rest all standard primitives will 
+
+00:00:57.360 --> 00:01:01.890
+ use a vertical camera to 
+
+00:00:58.950 --> 00:01:02.670
+ render but she and unchecked 
+
+00:01:01.890 --> 00:01:05.990
+ xp 
+
+00:01:02.670 --> 00:01:08.460
+ in order not to suffer with the settings 
+
+00:01:05.990 --> 00:01:10.649
+ shutter speed aperture and 
+
+00:01:08.460 --> 00:01:13.380
+ film sensitivity by turning off this 
+
+00:01:10.649 --> 00:01:15.719
+ tick we do so to faith and not 
+
+00:01:13.380 --> 00:01:18.869
+ I calculated these parameters 
+
+00:01:15.719 --> 00:01:20.909
+ exposure and so as a source 
+
+00:01:18.869 --> 00:01:21.869
+ of the world I used this 2 
+
+00:01:20.909 --> 00:01:25.740
+ Raif source 
+
+00:01:21.869 --> 00:01:27.899
+ faith light type his house it is such 
+
+00:01:25.740 --> 00:01:30.119
+ bought light source to this 
+
+00:01:27.899 --> 00:01:34.139
+ light source i applied texture 
+
+00:01:30.119 --> 00:01:35.639
+ she is here represents 
+
+00:01:34.139 --> 00:01:37.859
+ a warrant and a card 
+
+00:01:35.639 --> 00:01:40.710
+ thanks to this map our light source 
+
+00:01:37.859 --> 00:01:41.369
+ will not evenly illuminates our 
+
+00:01:40.710 --> 00:01:46.549
+ objects 
+
+00:01:41.369 --> 00:01:50.249
+ and on this map it looks like this 
+
+00:01:46.549 --> 00:01:51.030
+ the brightest areas will be the brightest 
+
+00:01:50.249 --> 00:01:53.189
+ lighting 
+
+00:01:51.030 --> 00:01:56.909
+ that is, these windows will be cast away 
+
+00:01:53.189 --> 00:01:59.429
+ light on our object and at the same time objects 
+
+00:01:56.909 --> 00:02:01.469
+ will all cast shadows now i'm 
+
+00:01:59.429 --> 00:02:04.439
+ switch to the installed camera 
+
+00:02:01.469 --> 00:02:08.689
+ take physics and someone and go into settings 
+
+00:02:04.439 --> 00:02:11.280
+ render rendering setup f10 keys 
+
+00:02:08.689 --> 00:02:12.900
+ go to the scroll and majd sampler 
+
+00:02:11.280 --> 00:02:13.740
+ which is on the faith tab and 
+
+00:02:12.900 --> 00:02:17.220
+ choose 
+
+00:02:13.740 --> 00:02:19.110
+ the progressive algorithm is now ours 
+
+00:02:17.220 --> 00:02:20.880
+ sampling antialiasing will 
+
+00:02:19.110 --> 00:02:24.240
+ happen thanks to this 
+
+00:02:20.880 --> 00:02:26.310
+ the algorithm to go to its settings 
+
+00:02:24.240 --> 00:02:29.700
+ need to open progressive scroll and sword 
+
+00:02:26.310 --> 00:02:31.590
+ sampler the first two parameters i think 
+
+00:02:29.700 --> 00:02:34.410
+ no need to explain minimum partitioning 
+
+00:02:31.590 --> 00:02:36.420
+ we will not change the maximum value 
+
+00:02:34.410 --> 00:02:39.690
+ because for maximum splitting 
+
+00:02:36.420 --> 00:02:43.560
+ 100 is quite enough the next parameter 
+
+00:02:39.690 --> 00:02:47.880
+ render time is the render time in minutes 
+
+00:02:43.560 --> 00:02:50.460
+ if we set the value to 60 minutes to 
+
+00:02:47.880 --> 00:02:53.880
+ our render will last exactly 60 minutes 
+
+00:02:50.460 --> 00:02:55.350
+ the quality of the resulting picture 
+
+00:02:53.880 --> 00:02:58.260
+ will depend on your power 
+
+00:02:55.350 --> 00:03:01.380
+ computer what does it mean you why so 
+
+00:02:58.260 --> 00:03:03.660
+ will happen with this algorithm take 
+
+00:03:01.380 --> 00:03:06.600
+ Renders our image by 
+
+00:03:03.660 --> 00:03:09.630
+ a certain passage that is 
+
+00:03:06.600 --> 00:03:11.490
+ pass by pass 1 2 3 and with each 
+
+00:03:09.630 --> 00:03:14.130
+ new pass quality picture all 
+
+00:03:11.490 --> 00:03:17.570
+ getting better and getting better 
+
+00:03:14.130 --> 00:03:20.040
+ is improving and you should understand that what 
+
+00:03:17.570 --> 00:03:23.010
+ more pass in the final 
+
+00:03:20.040 --> 00:03:25.800
+ the image will get better on the weak 
+
+00:03:23.010 --> 00:03:29.100
+ computer may be suppose 20 
+
+00:03:25.800 --> 00:03:31.560
+ 60 minutes of powerful passes 
+
+00:03:29.100 --> 00:03:32.480
+ the computer will have time to make 200 passes in 
+
+00:03:31.560 --> 00:03:35.100
+ same time 
+
+00:03:32.480 --> 00:03:38.280
+ naturally on a powerful computer 
+
+00:03:35.100 --> 00:03:40.500
+ the quality of the final will be better if 
+
+00:03:38.280 --> 00:03:41.370
+ we put a value equal to zero this 
+
+00:03:40.500 --> 00:03:43.560
+ means what 
+
+00:03:41.370 --> 00:03:46.400
+ faith is the trend of speech is the picture while we 
+
+00:03:43.560 --> 00:03:47.970
+ let's not stop it let's substitute 0 
+
+00:03:46.400 --> 00:03:51.120
+ next parameter 
+
+00:03:47.970 --> 00:03:54.960
+ but out come off means threshold 
+
+00:03:51.120 --> 00:03:57.630
+ the default noise is 0 better 
+
+00:03:54.960 --> 00:04:00.360
+ put one thousandth in fact 
+
+00:03:57.630 --> 00:04:01.730
+ no need to touch anything anymore 
+
+00:04:00.360 --> 00:04:04.740
+ just render 
+
+00:04:01.730 --> 00:04:07.800
+ as you can see here are very simple settings 
+
+00:04:04.740 --> 00:04:09.660
+ few of them and they understood me now 
+
+00:04:07.800 --> 00:04:11.760
+ as secondary bounces worth 
+
+00:04:09.660 --> 00:04:14.280
+ light cache algorithm 
+
+00:04:11.760 --> 00:04:17.520
+ so the first thing that happens to me when 
+
+00:04:14.280 --> 00:04:19.350
+ Render is rendering a light map like 
+
+00:04:17.520 --> 00:04:23.310
+ only the miscalculation will end will begin 
+
+00:04:19.350 --> 00:04:25.200
+ already directly rand now we 
+
+00:04:23.310 --> 00:04:26.950
+ we see the process itself already 
+
+00:04:25.200 --> 00:04:30.750
+ rendering our picture 
+
+00:04:26.950 --> 00:04:36.160
+ in brackets we write the current passage 
+
+00:04:30.750 --> 00:04:37.900
+ now here it is 8 9 will be 10 and so on with 
+
+00:04:36.160 --> 00:04:39.400
+ every new passage you will be in 
+
+00:04:37.900 --> 00:04:41.290
+ real time watch how 
+
+00:04:39.400 --> 00:04:44.230
+ improving the quality of your picture 
+
+00:04:41.290 --> 00:04:46.750
+ now she is pretty bad as well 
+
+00:04:44.230 --> 00:04:49.210
+ seen when approaching a lot of noise and 
+
+00:04:46.750 --> 00:04:50.770
+ a lot of things not read about 
+
+00:04:49.210 --> 00:04:52.990
+ one hundredth of our miscalculation 
+
+00:04:50.770 --> 00:04:56.320
+ You will see that the quality will be very 
+
+00:04:52.990 --> 00:04:58.570
+ good note on the background 
+
+00:04:56.320 --> 00:05:01.570
+ in my scene I really am 
+
+00:04:58.570 --> 00:05:03.600
+ used without even connecting the card to 
+
+00:05:01.570 --> 00:05:05.950
+ our surroundings kangaroo us that 
+
+00:05:03.600 --> 00:05:08.500
+ as you remember it is generally done here 
+
+00:05:05.950 --> 00:05:11.920
+ here in the rendering environment menu and there 
+
+00:05:08.500 --> 00:05:14.560
+ we indicate the card now I have not there 
+
+00:05:11.920 --> 00:05:18.340
+ No card is indicated here 
+
+00:05:14.560 --> 00:05:20.020
+ background is just my hd paradise 
+
+00:05:18.340 --> 00:05:25.470
+ the map that I showed 
+
+00:05:20.020 --> 00:05:27.570
+ tuned to its source of light dome 
+
+00:05:25.470 --> 00:05:31.870
+ texture view 
+
+00:05:27.570 --> 00:05:34.810
+ that is, this texture card 
+
+00:05:31.870 --> 00:05:37.780
+ now as if stretched on our dome on 
+
+00:05:34.810 --> 00:05:40.380
+ light source if you are interested in it 
+
+00:05:37.780 --> 00:05:42.730
+ and you do not know how it is done then I tell you 
+
+00:05:40.380 --> 00:05:44.400
+ I will gladly take off a separate 
+
+00:05:42.730 --> 00:05:47.490
+ lesson about this 
+
+00:05:44.400 --> 00:05:54.430
+ now pay attention I'm already coming 
+
+00:05:47.490 --> 00:05:58.720
+ 31 pass already 32 and in the amount of time 
+
+00:05:54.430 --> 00:06:00.700
+ it took five and a half minutes now 
+
+00:05:58.720 --> 00:06:04.300
+ Suppose we are tired of waiting for our 
+
+00:06:00.700 --> 00:06:07.240
+ render either we don’t have time at all 
+
+00:06:04.300 --> 00:06:09.730
+ either we are completely satisfied with the result 
+
+00:06:07.240 --> 00:06:10.210
+ we press the consol button to 
+
+00:06:09.730 --> 00:06:14.110
+ to cancel 
+
+00:06:10.210 --> 00:06:16.150
+ our render it stops exactly on 
+
+00:06:14.110 --> 00:06:18.610
+ that moment to what counted 
+
+00:06:16.150 --> 00:06:20.440
+ due to the fact that the render is not a block 
+
+00:06:18.610 --> 00:06:23.110
+ not by small squares but entirely 
+
+00:06:20.440 --> 00:06:25.810
+ right the whole picture is improving by 
+
+00:06:23.110 --> 00:06:28.240
+ quality, then you see that we do not have 
+
+00:06:25.810 --> 00:06:32.080
+ no unnecessary squares so 
+
+00:06:28.240 --> 00:06:35.800
+ we can safely keep pushing this image 
+
+00:06:32.080 --> 00:06:37.120
+ that is, save the picture and enter it 
+
+00:06:35.800 --> 00:06:39.699
+ title 
+
+00:06:37.120 --> 00:06:40.780
+ here you can immediately select quickly and 
+
+00:06:39.699 --> 00:06:44.260
+ name by type 
+
+00:06:40.780 --> 00:06:46.180
+ Germans plate that is for example the name 
+
+00:06:44.260 --> 00:06:47.770
+ the scene will be used this is our 
+
+00:06:46.180 --> 00:06:50.889
+ saved project saved 
+
+00:06:47.770 --> 00:06:55.360
+ project name or you can choose 
+
+00:06:50.889 --> 00:06:59.080
+ immediately scene plus camera view scene 
+
+00:06:55.360 --> 00:07:02.050
+ camera + date is generally very convenient 
+
+00:06:59.080 --> 00:07:05.979
+ Immediately select the type you want to not 
+
+00:07:02.050 --> 00:07:07.810
+ enter manually click save well and 
+
+00:07:05.979 --> 00:07:11.530
+ pharmacy answer we need jay 
+
+00:07:07.810 --> 00:07:15.130
+ pack for example click ok 
+
+00:07:11.530 --> 00:07:18.639
+ all picture saved render ready for 
+
+00:07:15.130 --> 00:07:20.680
+ the stage at which he was stopped 
+
+00:07:18.639 --> 00:07:22.570
+ very convenient this algorithm will remind you 
+
+00:07:20.680 --> 00:07:24.940
+ you can use it often well 
+
+00:07:22.570 --> 00:07:27.039
+ the only thing in the interiors is he probably 
+
+00:07:24.940 --> 00:07:29.500
+ less commonly used in scenes 
+
+00:07:27.039 --> 00:07:32.229
+ exterior in the subject visualization of it 
+
+00:07:29.500 --> 00:07:36.270
+ you can use a very handy thing on 
+
+00:07:32.229 --> 00:07:36.270
+ that's all thanks for watching everyone bye 
+
