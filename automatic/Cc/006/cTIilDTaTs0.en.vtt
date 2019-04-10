@@ -1,0 +1,249 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:07.220 --> 00:00:13.080
+Hey guys this is Eddie the Magic Monk
+welcome to another technology tutorial
+
+00:00:13.080 --> 00:00:21.180
+today I want to introduce you guys to
+Microsoft DOS commands now you might be
+
+00:00:21.180 --> 00:00:27.560
+asking or what are they and do I need
+them while back in the old days before
+
+00:00:27.560 --> 00:00:32.189
+Microsoft Windows
+there was an operating system called
+
+00:00:32.189 --> 00:00:40.500
+Microsoft DOS and basically it was just
+Windows without any sort of graphical
+
+00:00:40.500 --> 00:00:46.680
+user interface so you couldn't drag and
+drop anything and basically everything
+
+00:00:46.680 --> 00:00:52.770
+had to be typed in on the keyboard so
+for example if you wanted to go to a
+
+00:00:52.770 --> 00:00:57.960
+certain folder you had to type that in
+if you had to run a program you had to
+
+00:00:57.960 --> 00:01:05.220
+type in the file name of the program and
+so on so you might ask well why do we
+
+00:01:05.220 --> 00:01:11.850
+need to learn that now now that we have
+Windows and for those Apple users now
+
+00:01:11.850 --> 00:01:18.299
+that we have Mac OS where everything is
+done with the mouse why do we need to go
+
+00:01:18.299 --> 00:01:24.930
+back to Microsoft DOS commands and
+that's because when you encounter a
+
+00:01:24.930 --> 00:01:34.829
+problem for example let's say your hard
+drive space has run out or your computer
+
+00:01:34.829 --> 00:01:41.549
+is infected with a virus and all those
+sorts of problems it's a lot easier to
+
+00:01:41.549 --> 00:01:49.950
+fix when you have some Microsoft DOS
+knowledge so how do we get into command
+
+00:01:49.950 --> 00:01:55.409
+prompt that's the first thing we'll go
+through so basically all you do is you
+
+00:01:55.409 --> 00:02:01.500
+right click on the bottom left hand
+corner of your windows 8 and you click
+
+00:02:01.500 --> 00:02:08.399
+command prompt admin so you click that
+and then do you want to allow this
+
+00:02:08.399 --> 00:02:13.510
+program
+click yes and then you are in Microsoft
+
+00:02:13.510 --> 00:02:23.770
+DOS which is run under administrator
+mode command prompts ok so here is where
+
+00:02:23.770 --> 00:02:28.900
+pretty much you can do everything like
+you did in Microsoft DOS back in
+
+00:02:28.900 --> 00:02:38.160
+nineteen ninety three or four or
+whatever ok so another thing you want to
+
+00:02:38.160 --> 00:02:44.650
+know is if you weren't in Windows 8 if
+you were in Windows 7 you can also go in
+
+00:02:44.650 --> 00:02:51.069
+to it through clicking the start button
+and then clicking run and then type in
+
+00:02:51.069 --> 00:02:59.980
+CMD and then press ok and you can also
+get into command prompt that way just
+
+00:02:59.980 --> 00:03:05.500
+make sure that when you go into it that
+it says administrator access at the top
+
+00:03:05.500 --> 00:03:12.370
+of the title bar because you kind of
+need administrator access if you want to
+
+00:03:12.370 --> 00:03:23.500
+do anything important ok so now the
+first thing we'll do is learn how to
+
+00:03:23.500 --> 00:03:27.370
+change folders you can see that right
+now
+
+00:03:27.370 --> 00:03:33.609
+we're inside the windows folder and
+we're inside the system32 folder within
+
+00:03:33.609 --> 00:03:38.769
+the windows folder so normally if
+you want it to get into this folder you
+
+00:03:38.769 --> 00:03:48.040
+go to Windows Explorer go to C Drive
+windows and then you would go to system
+
+00:03:48.040 --> 00:03:56.620
+32 you go into it that way right but
+here in dos we this means that we're
+
+00:03:56.620 --> 00:04:02.019
+already inside that folder so if you
+want to get out of that folder if you
+
+00:04:02.019 --> 00:04:10.180
+want to go back up one level you would
+type cd.. and this represents
+
+00:04:10.180 --> 00:04:18.190
+that we've just got out of the system 32
+folder and if you type cd.. again
+
+00:04:18.190 --> 00:04:24.690
+you would then go back up one more level
+and now you're in the root folder so
+
+00:04:24.690 --> 00:04:28.650
+what if you want to get inside the
+windows folder again you would type cd
+
+00:04:28.650 --> 00:04:37.050
+space windows by the way cd stands for
+change directory and then if you want to
+
+00:04:37.050 --> 00:04:45.420
+get into the system32 folder you would
+type cd space system 32 so now this will
+
+00:04:45.420 --> 00:04:53.070
+get you out of the folder and this will
+get you in the folder okay the next
+
+00:04:53.070 --> 00:04:59.820
+thing you guys need to know is what if I
+want to jump back up two or three
+
+00:04:59.820 --> 00:05:09.870
+folders I'm not going to type cd.. cd..
+instead of typing it twice I can just
+
+00:05:09.870 --> 00:05:18.690
+type in cd\ and that will get me
+out a lot quicker similarly if I want to
+
+00:05:18.690 --> 00:05:24.450
+go inside system 32 instead of typing 2
+cd comments I can just type cd space
+
+00:05:24.450 --> 00:05:33.300
+windows\system 32 and I can get
+inside that folder really quickly okay
+
+00:05:33.300 --> 00:05:40.800
+so what can you do once you're inside
+the folder well you can type dir which
+
+00:05:40.800 --> 00:05:49.110
+lists all the files in that folder or in
+that directory now you can see that it
+
+00:05:49.110 --> 00:05:56.460
+lists all of it in one column and if you
+want to list the files sideways you can
+
+00:05:56.460 --> 00:06:08.970
+type dir space/w and that will
+list the files oh it used to anyway
+
+00:06:08.970 --> 00:06:13.760
+listening more horizontally but
+
+00:06:15.770 --> 00:06:24.949
+now it doesn't now just list them without
+any file info so anyway or you can also
+
+00:06:24.949 --> 00:06:33.410
+type in dir space / s and what that
+does is not only does it list all the
+
+00:06:33.410 --> 00:06:41.300
+files in the system32 directory it'll
+also list any files in any folders
+
+00:06:41.300 --> 00:06:48.590
+within the system32 folder so all the
+files in the subfolders so if you type
+
+00:06:48.590 --> 00:06:55.900
+that you can see that a lot more files
+come up and it has listed all the files
+
+00:06:55.900 --> 00:07:03.830
+within the subfolders of system32 and
+you notice that at the end of it it
+
+00:07:03.830 --> 00:07:06.650
+tells you how many files there have been
+listed
+
+00:07:06.650 --> 00:07:17.780
+how many folders there are and how big
+the files are in total and how much
+
+00:07:17.780 --> 00:07:28.009
+space we have left right so we have 35
+gigabytes left ok so this concludes our
+
+00:07:28.009 --> 00:07:32.680
+first tutorial I'll see you guys next
+time.
+
+00:07:33.610 --> 00:07:35.669
+

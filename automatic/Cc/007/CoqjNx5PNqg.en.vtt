@@ -1,0 +1,645 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.280 --> 00:00:03.860 
+
+hey<00:00:02.280> everyone<00:00:02.610> welcome<00:00:02.820> to<00:00:03.030> the<00:00:03.240> first<00:00:03.510> part
+
+00:00:03.860 --> 00:00:03.870 
+hey everyone welcome to the first part
+
+00:00:03.870 --> 00:00:06.950 
+hey everyone welcome to the first part
+of<00:00:04.050> our<00:00:04.830> power<00:00:05.129> grid<00:00:05.490> power<00:00:06.000> user<00:00:06.299> tutorial
+
+00:00:06.950 --> 00:00:06.960 
+of our power grid power user tutorial
+
+00:00:06.960 --> 00:00:08.990 
+of our power grid power user tutorial
+series<00:00:07.200> this<00:00:08.010> is<00:00:08.130> the<00:00:08.250> first<00:00:08.460> video<00:00:08.670> in<00:00:08.910> our
+
+00:00:08.990 --> 00:00:09.000 
+series this is the first video in our
+
+00:00:09.000 --> 00:00:11.030 
+series this is the first video in our
+power<00:00:09.270> grid<00:00:09.540> power<00:00:10.050> user<00:00:10.320> series<00:00:10.740> where<00:00:10.920> we
+
+00:00:11.030 --> 00:00:11.040 
+power grid power user series where we
+
+00:00:11.040 --> 00:00:12.890 
+power grid power user series where we
+walk<00:00:11.280> you<00:00:11.490> guys<00:00:11.670> through<00:00:11.730> creating<00:00:12.420> functions
+
+00:00:12.890 --> 00:00:12.900 
+walk you guys through creating functions
+
+00:00:12.900 --> 00:00:15.890 
+walk you guys through creating functions
+that<00:00:13.500> go<00:00:13.710> beyond<00:00:14.100> the<00:00:14.280> main<00:00:14.460> editor<00:00:15.000> this
+
+00:00:15.890 --> 00:00:15.900 
+that go beyond the main editor this
+
+00:00:15.900 --> 00:00:17.750 
+that go beyond the main editor this
+guide<00:00:16.199> is<00:00:16.410> for<00:00:16.440> experienced<00:00:17.130> power<00:00:17.490> grid
+
+00:00:17.750 --> 00:00:17.760 
+guide is for experienced power grid
+
+00:00:17.760 --> 00:00:19.940 
+guide is for experienced power grid
+users<00:00:18.180> and<00:00:18.420> we'll<00:00:19.200> assume<00:00:19.560> that<00:00:19.620> you<00:00:19.920> are
+
+00:00:19.940 --> 00:00:19.950 
+users and we'll assume that you are
+
+00:00:19.950 --> 00:00:21.830 
+users and we'll assume that you are
+familiar<00:00:20.100> with<00:00:20.610> making<00:00:21.000> grids<00:00:21.390> in<00:00:21.540> the<00:00:21.630> power
+
+00:00:21.830 --> 00:00:21.840 
+familiar with making grids in the power
+
+00:00:21.840 --> 00:00:24.050 
+familiar with making grids in the power
+grid<00:00:21.900> editor<00:00:22.440> if<00:00:22.590> you're<00:00:23.039> not<00:00:23.190> you<00:00:23.760> can<00:00:23.850> click
+
+00:00:24.050 --> 00:00:24.060 
+grid editor if you're not you can click
+
+00:00:24.060 --> 00:00:25.460 
+grid editor if you're not you can click
+on<00:00:24.180> this<00:00:24.300> video<00:00:24.480> which<00:00:25.080> will<00:00:25.230> get<00:00:25.350> you<00:00:25.410> started
+
+00:00:25.460 --> 00:00:25.470 
+on this video which will get you started
+
+00:00:25.470 --> 00:00:27.260 
+on this video which will get you started
+today<00:00:26.070> we're<00:00:26.610> going<00:00:26.730> to<00:00:26.789> start<00:00:27.030> off<00:00:27.119> with<00:00:27.240> a
+
+00:00:27.260 --> 00:00:27.270 
+today we're going to start off with a
+
+00:00:27.270 --> 00:00:29.240 
+today we're going to start off with a
+simple<00:00:27.539> tutorial<00:00:28.230> to<00:00:28.350> get<00:00:28.440> you<00:00:28.560> accustomed<00:00:28.860> to
+
+00:00:29.240 --> 00:00:29.250 
+simple tutorial to get you accustomed to
+
+00:00:29.250 --> 00:00:30.890 
+simple tutorial to get you accustomed to
+the<00:00:29.340> file<00:00:29.580> directories<00:00:30.150> of<00:00:30.300> power<00:00:30.510> grid<00:00:30.780> and
+
+00:00:30.890 --> 00:00:30.900 
+the file directories of power grid and
+
+00:00:30.900 --> 00:00:33.590 
+the file directories of power grid and
+weird<00:00:31.320> graphic<00:00:31.770> assets<00:00:32.009> are<00:00:32.430> stored<00:00:32.700> we'll
+
+00:00:33.590 --> 00:00:33.600 
+weird graphic assets are stored we'll
+
+00:00:33.600 --> 00:00:35.150 
+weird graphic assets are stored we'll
+also<00:00:33.750> be<00:00:33.989> showing<00:00:34.200> you<00:00:34.440> how<00:00:34.470> to<00:00:34.650> make<00:00:34.829> a<00:00:34.860> grid
+
+00:00:35.150 --> 00:00:35.160 
+also be showing you how to make a grid
+
+00:00:35.160 --> 00:00:38.020 
+also be showing you how to make a grid
+in<00:00:35.340> the<00:00:35.370> much<00:00:35.700> asked<00:00:36.210> for<00:00:36.390> landscape<00:00:37.079> mode
+
+00:00:38.020 --> 00:00:38.030 
+in the much asked for landscape mode
+
+00:00:38.030 --> 00:00:40.430 
+in the much asked for landscape mode
+landscape<00:00:39.030> mode<00:00:39.300> isn't<00:00:39.690> an<00:00:39.780> embedded<00:00:40.200> feature
+
+00:00:40.430 --> 00:00:40.440 
+landscape mode isn't an embedded feature
+
+00:00:40.440 --> 00:00:42.229 
+landscape mode isn't an embedded feature
+this<00:00:41.070> is<00:00:41.130> because<00:00:41.550> making<00:00:41.850> graphics
+
+00:00:42.229 --> 00:00:42.239 
+this is because making graphics
+
+00:00:42.239 --> 00:00:44.120 
+this is because making graphics
+vertically<00:00:42.930> would<00:00:43.140> make<00:00:43.290> more<00:00:43.470> sense<00:00:43.530> rather
+
+00:00:44.120 --> 00:00:44.130 
+vertically would make more sense rather
+
+00:00:44.130 --> 00:00:46.190 
+vertically would make more sense rather
+than<00:00:44.280> to<00:00:44.430> limit<00:00:44.730> people's<00:00:45.059> creativity<00:00:45.750> by
+
+00:00:46.190 --> 00:00:46.200 
+than to limit people's creativity by
+
+00:00:46.200 --> 00:00:48.049 
+than to limit people's creativity by
+forcing<00:00:46.649> them<00:00:46.739> to<00:00:46.890> make<00:00:47.040> both<00:00:47.309> portrait<00:00:47.910> and
+
+00:00:48.049 --> 00:00:48.059 
+forcing them to make both portrait and
+
+00:00:48.059 --> 00:00:50.750 
+forcing them to make both portrait and
+landscape<00:00:48.780> versions<00:00:49.530> of<00:00:49.620> their<00:00:49.770> grid<00:00:50.040> so<00:00:50.670> the
+
+00:00:50.750 --> 00:00:50.760 
+landscape versions of their grid so the
+
+00:00:50.760 --> 00:00:52.910 
+landscape versions of their grid so the
+work<00:00:50.880> around<00:00:51.030> this<00:00:51.329> is<00:00:51.480> simple<00:00:51.899> just<00:00:52.739> flip
+
+00:00:52.910 --> 00:00:52.920 
+work around this is simple just flip
+
+00:00:52.920 --> 00:00:54.970 
+work around this is simple just flip
+your<00:00:53.040> phone<00:00:53.340> and<00:00:53.910> your<00:00:54.210> grid<00:00:54.390> on<00:00:54.480> its<00:00:54.660> side
+
+00:00:54.970 --> 00:00:54.980 
+your phone and your grid on its side
+
+00:00:54.980 --> 00:00:57.290 
+your phone and your grid on its side
+make<00:00:55.980> sure<00:00:56.010> that<00:00:56.370> you<00:00:56.460> plan<00:00:56.700> your<00:00:56.969> grid<00:00:57.149> before
+
+00:00:57.290 --> 00:00:57.300 
+make sure that you plan your grid before
+
+00:00:57.300 --> 00:00:59.690 
+make sure that you plan your grid before
+you<00:00:57.570> get<00:00:57.750> started<00:00:58.020> we<00:00:58.890> also<00:00:59.040> have<00:00:59.340> a<00:00:59.370> sheet<00:00:59.670> you
+
+00:00:59.690 --> 00:00:59.700 
+you get started we also have a sheet you
+
+00:00:59.700 --> 00:01:01.880 
+you get started we also have a sheet you
+can<00:00:59.969> print<00:01:00.239> out<00:01:00.450> so<00:01:01.079> you<00:01:01.170> can<00:01:01.350> sketch<00:01:01.620> out<00:01:01.860> what
+
+00:01:01.880 --> 00:01:01.890 
+can print out so you can sketch out what
+
+00:01:01.890 --> 00:01:05.209 
+can print out so you can sketch out what
+you're<00:01:02.219> trying<00:01:02.250> to<00:01:02.760> achieve<00:01:03.889> we've<00:01:04.889> provided
+
+00:01:05.209 --> 00:01:05.219 
+you're trying to achieve we've provided
+
+00:01:05.219 --> 00:01:08.270 
+you're trying to achieve we've provided
+some<00:01:05.399> PSD<00:01:06.119> graphic<00:01:06.780> templates<00:01:07.289> and<00:01:07.619> these
+
+00:01:08.270 --> 00:01:08.280 
+some PSD graphic templates and these
+
+00:01:08.280 --> 00:01:11.090 
+some PSD graphic templates and these
+templates<00:01:08.909> the<00:01:09.539> cells<00:01:09.840> are<00:01:10.079> laid<00:01:10.289> out<00:01:10.319> to<00:01:11.009> the
+
+00:01:11.090 --> 00:01:11.100 
+templates the cells are laid out to the
+
+00:01:11.100 --> 00:01:13.129 
+templates the cells are laid out to the
+correct<00:01:11.429> dimensions<00:01:11.969> so<00:01:12.569> that<00:01:12.600> way<00:01:12.840> you<00:01:12.899> can
+
+00:01:13.129 --> 00:01:13.139 
+correct dimensions so that way you can
+
+00:01:13.139 --> 00:01:14.840 
+correct dimensions so that way you can
+create<00:01:13.289> your<00:01:13.530> own<00:01:13.590> graphics<00:01:13.979> without<00:01:14.429> having
+
+00:01:14.840 --> 00:01:14.850 
+create your own graphics without having
+
+00:01:14.850 --> 00:01:16.789 
+create your own graphics without having
+to<00:01:14.999> worry<00:01:15.209> about<00:01:15.299> them<00:01:15.990> not<00:01:16.049> matching<00:01:16.679> the
+
+00:01:16.789 --> 00:01:16.799 
+to worry about them not matching the
+
+00:01:16.799 --> 00:01:18.349 
+to worry about them not matching the
+size<00:01:17.039> of<00:01:17.249> the<00:01:17.340> grid<00:01:17.520> there's<00:01:17.969> a<00:01:18.060> link<00:01:18.299> to
+
+00:01:18.349 --> 00:01:18.359 
+size of the grid there's a link to
+
+00:01:18.359 --> 00:01:20.539 
+size of the grid there's a link to
+download<00:01:18.659> the<00:01:18.990> power<00:01:19.229> grid<00:01:19.469> template<00:01:19.920> pack<00:01:20.219> in
+
+00:01:20.539 --> 00:01:20.549 
+download the power grid template pack in
+
+00:01:20.549 --> 00:01:22.879 
+download the power grid template pack in
+the<00:01:20.789> description<00:01:21.359> the<00:01:21.719> ideal<00:01:22.079> resolution<00:01:22.770> for
+
+00:01:22.879 --> 00:01:22.889 
+the description the ideal resolution for
+
+00:01:22.889 --> 00:01:27.019 
+the description the ideal resolution for
+the<00:01:22.950> graphics<00:01:23.310> in<00:01:23.429> each<00:01:23.579> shell<00:01:23.909> is<00:01:25.009> 270<00:01:26.009> by<00:01:26.189> 270
+
+00:01:27.019 --> 00:01:27.029 
+the graphics in each shell is 270 by 270
+
+00:01:27.029 --> 00:01:29.269 
+the graphics in each shell is 270 by 270
+pixels<00:01:27.209> for<00:01:27.719> high-definition<00:01:28.079> or<00:01:28.770> Android
+
+00:01:29.269 --> 00:01:29.279 
+pixels for high-definition or Android
+
+00:01:29.279 --> 00:01:34.550 
+pixels for high-definition or Android
+devices<00:01:29.990> and<00:01:31.039> 135<00:01:32.039> by<00:01:32.399> 135<00:01:33.299> pixels<00:01:33.929> for<00:01:34.139> iOS
+
+00:01:34.550 --> 00:01:34.560 
+devices and 135 by 135 pixels for iOS
+
+00:01:34.560 --> 00:01:38.239 
+devices and 135 by 135 pixels for iOS
+and<00:01:34.859> for<00:01:35.029> universal<00:01:36.029> support<00:01:37.069> this<00:01:38.069> is<00:01:38.219> a
+
+00:01:38.239 --> 00:01:38.249 
+and for universal support this is a
+
+00:01:38.249 --> 00:01:39.289 
+and for universal support this is a
+group<00:01:38.399> we've<00:01:38.579> made<00:01:38.729> for<00:01:38.909> crypt<00:01:39.149> of<00:01:39.270> the
+
+00:01:39.289 --> 00:01:39.299 
+group we've made for crypt of the
+
+00:01:39.299 --> 00:01:42.739 
+group we've made for crypt of the
+necrodancer<00:01:39.389> that<00:01:40.109> uses<00:01:40.380> landscape<00:01:40.979> mode<00:01:41.749> for
+
+00:01:42.739 --> 00:01:42.749 
+necrodancer that uses landscape mode for
+
+00:01:42.749 --> 00:01:44.569 
+necrodancer that uses landscape mode for
+the<00:01:42.840> crypt<00:01:43.109> of<00:01:43.229> the<00:01:43.259> necrodancer<00:01:43.409> grid<00:01:44.340> I
+
+00:01:44.569 --> 00:01:44.579 
+the crypt of the necrodancer grid I
+
+00:01:44.579 --> 00:01:46.730 
+the crypt of the necrodancer grid I
+found<00:01:45.329> a<00:01:45.479> lot<00:01:45.689> easier<00:01:46.109> to<00:01:46.319> work<00:01:46.469> on<00:01:46.619> the
+
+00:01:46.730 --> 00:01:46.740 
+found a lot easier to work on the
+
+00:01:46.740 --> 00:01:49.879 
+found a lot easier to work on the
+graphics<00:01:47.130> and<00:01:47.310> landscape<00:01:47.849> like<00:01:48.359> this<00:01:48.889> for
+
+00:01:49.879 --> 00:01:49.889 
+graphics and landscape like this for
+
+00:01:49.889 --> 00:01:52.399 
+graphics and landscape like this for
+landscape<00:01:50.399> grids<00:01:50.729> I<00:01:50.999> find<00:01:51.659> it<00:01:51.810> easier<00:01:52.169> to<00:01:52.259> work
+
+00:01:52.399 --> 00:01:52.409 
+landscape grids I find it easier to work
+
+00:01:52.409 --> 00:01:54.529 
+landscape grids I find it easier to work
+with<00:01:52.469> the<00:01:52.709> landscape<00:01:53.219> template<00:01:53.759> and<00:01:54.029> then
+
+00:01:54.529 --> 00:01:54.539 
+with the landscape template and then
+
+00:01:54.539 --> 00:01:56.419 
+with the landscape template and then
+flip<00:01:54.810> it<00:01:54.840> 90<00:01:55.289> degrees<00:01:55.649> clockwise<00:01:55.919> or
+
+00:01:56.419 --> 00:01:56.429 
+flip it 90 degrees clockwise or
+
+00:01:56.429 --> 00:01:59.029 
+flip it 90 degrees clockwise or
+anticlockwise<00:01:56.959> that<00:01:57.959> way<00:01:58.109> when<00:01:58.259> I<00:01:58.380> export<00:01:58.829> the
+
+00:01:59.029 --> 00:01:59.039 
+anticlockwise that way when I export the
+
+00:01:59.039 --> 00:02:00.440 
+anticlockwise that way when I export the
+buttons<00:01:59.369> they'll<00:01:59.669> be<00:01:59.759> facing<00:01:59.999> the<00:02:00.270> right<00:02:00.419> way
+
+00:02:00.440 --> 00:02:00.450 
+buttons they'll be facing the right way
+
+00:02:00.450 --> 00:02:03.379 
+buttons they'll be facing the right way
+when<00:02:01.079> I<00:02:01.169> import<00:02:01.349> them<00:02:01.739> into<00:02:01.889> the<00:02:02.099> grid<00:02:02.389> once
+
+00:02:03.379 --> 00:02:03.389 
+when I import them into the grid once
+
+00:02:03.389 --> 00:02:05.059 
+when I import them into the grid once
+I've<00:02:03.539> got<00:02:03.719> the<00:02:03.840> style<00:02:04.049> done<00:02:04.319> for<00:02:04.560> each<00:02:04.679> buttons
+
+00:02:05.059 --> 00:02:05.069 
+I've got the style done for each buttons
+
+00:02:05.069 --> 00:02:08.570 
+I've got the style done for each buttons
+active<00:02:05.520> state<00:02:05.819> and<00:02:06.049> inactive<00:02:07.049> state<00:02:07.319> I<00:02:07.679> create
+
+00:02:08.570 --> 00:02:08.580 
+active state and inactive state I create
+
+00:02:08.580 --> 00:02:10.580 
+active state and inactive state I create
+two<00:02:08.850> flattened<00:02:09.300> layers<00:02:09.450> one<00:02:10.080> with<00:02:10.259> all<00:02:10.470> the
+
+00:02:10.580 --> 00:02:10.590 
+two flattened layers one with all the
+
+00:02:10.590 --> 00:02:11.770 
+two flattened layers one with all the
+buttons<00:02:10.860> off<00:02:11.040> and<00:02:11.430> one
+
+00:02:11.770 --> 00:02:11.780 
+buttons off and one
+
+00:02:11.780 --> 00:02:13.960 
+buttons off and one
+all<00:02:11.900> the<00:02:12.080> buttons<00:02:12.350> on<00:02:12.560> being<00:02:13.459> all<00:02:13.580> I<00:02:13.610> have<00:02:13.850> to
+
+00:02:13.960 --> 00:02:13.970 
+all the buttons on being all I have to
+
+00:02:13.970 --> 00:02:16.180 
+all the buttons on being all I have to
+do<00:02:14.150> is<00:02:14.630> select<00:02:14.900> the<00:02:15.140> correct<00:02:15.350> cell<00:02:15.770> for<00:02:16.100> each
+
+00:02:16.180 --> 00:02:16.190 
+do is select the correct cell for each
+
+00:02:16.190 --> 00:02:20.080 
+do is select the correct cell for each
+button<00:02:16.610> copy<00:02:17.450> the<00:02:17.720> graphics<00:02:18.490> paste<00:02:19.490> it<00:02:19.730> into<00:02:19.910> a
+
+00:02:20.080 --> 00:02:20.090 
+button copy the graphics paste it into a
+
+00:02:20.090 --> 00:02:22.770 
+button copy the graphics paste it into a
+new<00:02:20.360> file<00:02:20.690> and<00:02:20.990> then<00:02:21.530> save<00:02:21.830> it<00:02:21.860> as<00:02:22.040> a<00:02:22.190> PNG
+
+00:02:22.770 --> 00:02:22.780 
+new file and then save it as a PNG
+
+00:02:22.780 --> 00:02:25.330 
+new file and then save it as a PNG
+always<00:02:23.780> remembering<00:02:24.260> to<00:02:24.410> have<00:02:24.560> an<00:02:24.650> on<00:02:24.920> state
+
+00:02:25.330 --> 00:02:25.340 
+always remembering to have an on state
+
+00:02:25.340 --> 00:02:28.479 
+always remembering to have an on state
+in<00:02:25.670> an<00:02:26.000> off<00:02:26.180> state<00:02:26.510> for<00:02:27.050> each<00:02:27.140> button<00:02:27.489> using
+
+00:02:28.479 --> 00:02:28.489 
+in an off state for each button using
+
+00:02:28.489 --> 00:02:30.340 
+in an off state for each button using
+this<00:02:28.610> method<00:02:29.060> it's<00:02:29.209> also<00:02:29.360> recommended<00:02:29.660> that
+
+00:02:30.340 --> 00:02:30.350 
+this method it's also recommended that
+
+00:02:30.350 --> 00:02:32.229 
+this method it's also recommended that
+you<00:02:30.500> also<00:02:30.530> create<00:02:31.220> graphics<00:02:31.790> for<00:02:31.880> the
+
+00:02:32.229 --> 00:02:32.239 
+you also create graphics for the
+
+00:02:32.239 --> 00:02:34.449 
+you also create graphics for the
+inactive<00:02:32.780> parts<00:02:33.110> of<00:02:33.260> the<00:02:33.380> grid<00:02:33.560> once<00:02:34.160> I<00:02:34.310> have
+
+00:02:34.449 --> 00:02:34.459 
+inactive parts of the grid once I have
+
+00:02:34.459 --> 00:02:37.000 
+inactive parts of the grid once I have
+all<00:02:34.489> my<00:02:34.700> buttons<00:02:34.940> I<00:02:35.330> can<00:02:35.540> easily<00:02:36.230> import<00:02:36.800> them
+
+00:02:37.000 --> 00:02:37.010 
+all my buttons I can easily import them
+
+00:02:37.010 --> 00:02:39.640 
+all my buttons I can easily import them
+into<00:02:37.430> the<00:02:37.550> editor<00:02:38.170> once<00:02:39.170> you've<00:02:39.319> imported
+
+00:02:39.640 --> 00:02:39.650 
+into the editor once you've imported
+
+00:02:39.650 --> 00:02:41.320 
+into the editor once you've imported
+your<00:02:39.920> graphics<00:02:40.310> they're<00:02:40.760> going<00:02:40.910> to<00:02:40.970> show<00:02:41.150> up
+
+00:02:41.320 --> 00:02:41.330 
+your graphics they're going to show up
+
+00:02:41.330 --> 00:02:43.750 
+your graphics they're going to show up
+here<00:02:41.720> however<00:02:42.680> this<00:02:43.250> crypt<00:02:43.610> of<00:02:43.730> the
+
+00:02:43.750 --> 00:02:43.760 
+here however this crypt of the
+
+00:02:43.760 --> 00:02:46.690 
+here however this crypt of the
+necrodancer<00:02:43.850> grid<00:02:44.780> requires<00:02:45.500> a<00:02:45.620> bit<00:02:45.860> more<00:02:45.890> TLC
+
+00:02:46.690 --> 00:02:46.700 
+necrodancer grid requires a bit more TLC
+
+00:02:46.700 --> 00:02:49.540 
+necrodancer grid requires a bit more TLC
+this<00:02:47.600> is<00:02:47.750> because<00:02:48.110> it<00:02:48.290> has<00:02:48.320> some<00:02:48.620> awesome<00:02:48.860> edit
+
+00:02:49.540 --> 00:02:49.550 
+this is because it has some awesome edit
+
+00:02:49.550 --> 00:02:51.610 
+this is because it has some awesome edit
+functions<00:02:50.000> but<00:02:50.570> we<00:02:50.630> can<00:02:50.870> use<00:02:51.019> it<00:02:51.200> to<00:02:51.350> light<00:02:51.500> up
+
+00:02:51.610 --> 00:02:51.620 
+functions but we can use it to light up
+
+00:02:51.620 --> 00:02:54.310 
+functions but we can use it to light up
+our<00:02:51.800> rocket<00:02:52.220> toolkit<00:02:52.760> fix<00:02:52.970> products<00:02:53.420> or<00:02:54.080> the
+
+00:02:54.310 --> 00:02:54.320 
+our rocket toolkit fix products or the
+
+00:02:54.320 --> 00:02:56.290 
+our rocket toolkit fix products or the
+plugin<00:02:54.680> graphics<00:02:55.130> are<00:02:55.340> stored<00:02:55.670> in<00:02:55.910> their<00:02:56.090> own
+
+00:02:56.290 --> 00:02:56.300 
+plugin graphics are stored in their own
+
+00:02:56.300 --> 00:02:58.840 
+plugin graphics are stored in their own
+separate<00:02:56.810> folder<00:02:57.260> and<00:02:58.040> you<00:02:58.160> can't<00:02:58.430> use<00:02:58.700> the
+
+00:02:58.840 --> 00:02:58.850 
+separate folder and you can't use the
+
+00:02:58.850 --> 00:03:01.479 
+separate folder and you can't use the
+editor<00:02:59.300> to<00:02:59.350> import<00:03:00.350> them<00:03:00.560> this<00:03:01.100> has<00:03:01.250> to<00:03:01.400> be
+
+00:03:01.479 --> 00:03:01.489 
+editor to import them this has to be
+
+00:03:01.489 --> 00:03:04.440 
+editor to import them this has to be
+manually<00:03:01.910> done<00:03:02.269> inside<00:03:03.260> the<00:03:03.470> json<00:03:03.890> files
+
+00:03:04.440 --> 00:03:04.450 
+manually done inside the json files
+
+00:03:04.450 --> 00:03:07.509 
+manually done inside the json files
+so<00:03:05.450> who's<00:03:05.630> jason<00:03:06.230> and<00:03:06.680> why<00:03:06.860> you<00:03:06.920> need<00:03:07.220> to<00:03:07.310> care
+
+00:03:07.509 --> 00:03:07.519 
+so who's jason and why you need to care
+
+00:03:07.519 --> 00:03:09.759 
+so who's jason and why you need to care
+about<00:03:07.550> him<00:03:07.940> well<00:03:08.300> don't<00:03:09.019> worry<00:03:09.230> we're<00:03:09.680> gonna
+
+00:03:09.759 --> 00:03:09.769 
+about him well don't worry we're gonna
+
+00:03:09.769 --> 00:03:11.710 
+about him well don't worry we're gonna
+be<00:03:09.920> looking<00:03:10.130> at<00:03:10.220> that<00:03:10.340> next<00:03:10.640> time<00:03:10.880> we've
+
+00:03:11.710 --> 00:03:11.720 
+be looking at that next time we've
+
+00:03:11.720 --> 00:03:13.840 
+be looking at that next time we've
+already<00:03:11.840> seen<00:03:12.110> some<00:03:12.350> fantastic<00:03:12.610> examples<00:03:13.610> of
+
+00:03:13.840 --> 00:03:13.850 
+already seen some fantastic examples of
+
+00:03:13.850 --> 00:03:16.120 
+already seen some fantastic examples of
+landscape<00:03:14.390> grids<00:03:14.739> especially<00:03:15.739> from<00:03:15.980> the
+
+00:03:16.120 --> 00:03:16.130 
+landscape grids especially from the
+
+00:03:16.130 --> 00:03:18.280 
+landscape grids especially from the
+elite<00:03:16.370> dangerous<00:03:16.640> community<00:03:17.360> and<00:03:17.570> the<00:03:18.019> star
+
+00:03:18.280 --> 00:03:18.290 
+elite dangerous community and the star
+
+00:03:18.290 --> 00:03:20.830 
+elite dangerous community and the star
+citizen<00:03:18.590> community<00:03:19.040> not<00:03:19.970> to<00:03:20.120> mention<00:03:20.299> a<00:03:20.600> bunch
+
+00:03:20.830 --> 00:03:20.840 
+citizen community not to mention a bunch
+
+00:03:20.840 --> 00:03:22.210 
+citizen community not to mention a bunch
+of<00:03:20.930> other<00:03:21.140> grids<00:03:21.470> from<00:03:21.680> simulator
+
+00:03:22.210 --> 00:03:22.220 
+of other grids from simulator
+
+00:03:22.220 --> 00:03:24.520 
+of other grids from simulator
+enthusiasts<00:03:23.000> and<00:03:23.299> from<00:03:23.660> other<00:03:23.810> games<00:03:24.110> as<00:03:24.350> well
+
+00:03:24.520 --> 00:03:24.530 
+enthusiasts and from other games as well
+
+00:03:24.530 --> 00:03:26.560 
+enthusiasts and from other games as well
+also<00:03:25.070> remember<00:03:25.610> that<00:03:25.790> any<00:03:26.060> grid<00:03:26.360> that<00:03:26.450> you
+
+00:03:26.560 --> 00:03:26.570 
+also remember that any grid that you
+
+00:03:26.570 --> 00:03:28.180 
+also remember that any grid that you
+download<00:03:27.049> from<00:03:27.230> the<00:03:27.380> store<00:03:27.650> that<00:03:27.860> is<00:03:27.950> not<00:03:28.160> a
+
+00:03:28.180 --> 00:03:28.190 
+download from the store that is not a
+
+00:03:28.190 --> 00:03:30.250 
+download from the store that is not a
+plugin<00:03:28.640> can<00:03:28.820> be<00:03:28.940> edited<00:03:29.090> by<00:03:29.510> you<00:03:29.570> as<00:03:29.780> well
+
+00:03:30.250 --> 00:03:30.260 
+plugin can be edited by you as well
+
+00:03:30.260 --> 00:03:32.530 
+plugin can be edited by you as well
+so<00:03:30.470> don't<00:03:30.650> be<00:03:30.739> shy<00:03:30.950> to<00:03:30.980> put<00:03:31.280> your<00:03:31.430> own<00:03:31.610> spin<00:03:32.000> on
+
+00:03:32.530 --> 00:03:32.540 
+so don't be shy to put your own spin on
+
+00:03:32.540 --> 00:03:34.810 
+so don't be shy to put your own spin on
+some<00:03:32.810> of<00:03:32.930> these<00:03:33.049> fantastic<00:03:33.560> grids<00:03:34.040> thanks<00:03:34.700> for
+
+00:03:34.810 --> 00:03:34.820 
+some of these fantastic grids thanks for
+
+00:03:34.820 --> 00:03:38.350 
+some of these fantastic grids thanks for
+watching<00:03:35.209> I'll<00:03:35.630> catch<00:03:35.690> you<00:03:35.870> next<00:03:36.079> time
+

@@ -1,0 +1,866 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.469 --> 00:00:03.050 
+
+this<00:00:01.469> little<00:00:01.860> video<00:00:02.159> is<00:00:02.340> going<00:00:02.669> to<00:00:02.730> cover<00:00:02.939> how
+
+00:00:03.050 --> 00:00:03.060 
+this little video is going to cover how
+
+00:00:03.060 --> 00:00:06.619 
+this little video is going to cover how
+Windows<00:00:03.659> Server<00:00:03.959> 2012<00:00:04.770> essentials<00:00:05.629> handles
+
+00:00:06.619 --> 00:00:06.629 
+Windows Server 2012 essentials handles
+
+00:00:06.629 --> 00:00:09.290 
+Windows Server 2012 essentials handles
+those<00:00:06.899> nightly<00:00:07.440> backups<00:00:08.220> of<00:00:08.730> a<00:00:08.970> sleeping
+
+00:00:09.290 --> 00:00:09.300 
+those nightly backups of a sleeping
+
+00:00:09.300 --> 00:00:11.990 
+those nightly backups of a sleeping
+computer<00:00:09.719> and<00:00:10.460> right<00:00:11.460> now<00:00:11.610> you're<00:00:11.730> looking<00:00:11.820> at
+
+00:00:11.990 --> 00:00:12.000 
+computer and right now you're looking at
+
+00:00:12.000 --> 00:00:15.950 
+computer and right now you're looking at
+the<00:00:12.090> desktop<00:00:12.300> of<00:00:12.660> a<00:00:13.019> Windows<00:00:13.980> 8<00:00:14.450> 64-bit<00:00:15.450> system
+
+00:00:15.950 --> 00:00:15.960 
+the desktop of a Windows 8 64-bit system
+
+00:00:15.960 --> 00:00:20.179 
+the desktop of a Windows 8 64-bit system
+it's<00:00:16.109> a<00:00:16.260> Lenovo<00:00:16.640> W<00:00:17.640> 520<00:00:18.150> laptop<00:00:18.740> and<00:00:19.740> it's<00:00:19.980> set
+
+00:00:20.179 --> 00:00:20.189 
+it's a Lenovo W 520 laptop and it's set
+
+00:00:20.189 --> 00:00:21.200 
+it's a Lenovo W 520 laptop and it's set
+to<00:00:20.220> go<00:00:20.430> to<00:00:20.490> sleep<00:00:20.760> every<00:00:21.000> night
+
+00:00:21.200 --> 00:00:21.210 
+to go to sleep every night
+
+00:00:21.210 --> 00:00:24.349 
+to go to sleep every night
+when<00:00:21.600> I'm<00:00:21.689> not<00:00:21.840> using<00:00:22.050> it<00:00:22.260> so<00:00:23.000> for<00:00:24.000> this<00:00:24.119> little
+
+00:00:24.349 --> 00:00:24.359 
+when I'm not using it so for this little
+
+00:00:24.359 --> 00:00:26.570 
+when I'm not using it so for this little
+lesson<00:00:25.080> here<00:00:25.109> which<00:00:25.590> I've<00:00:25.800> covered<00:00:26.130> in<00:00:26.430> the
+
+00:00:26.570 --> 00:00:26.580 
+lesson here which I've covered in the
+
+00:00:26.580 --> 00:00:28.550 
+lesson here which I've covered in the
+accompanying<00:00:27.029> article<00:00:27.180> over<00:00:27.930> at<00:00:28.080> tinker<00:00:28.410> Troy
+
+00:00:28.550 --> 00:00:28.560 
+accompanying article over at tinker Troy
+
+00:00:28.560 --> 00:00:32.799 
+accompanying article over at tinker Troy
+calm<00:00:28.890> we're<00:00:29.760> going<00:00:29.880> to<00:00:29.939> go<00:00:30.029> through<00:00:30.859> of<00:00:31.859> a
+
+00:00:32.799 --> 00:00:32.809 
+calm we're going to go through of a
+
+00:00:32.809 --> 00:00:36.170 
+calm we're going to go through of a
+somewhat<00:00:33.809> deep<00:00:33.989> dive<00:00:34.200> of<00:00:34.410> how<00:00:35.370> this<00:00:35.610> works<00:00:35.850> how
+
+00:00:36.170 --> 00:00:36.180 
+somewhat deep dive of how this works how
+
+00:00:36.180 --> 00:00:38.840 
+somewhat deep dive of how this works how
+the<00:00:36.239> backup<00:00:36.600> process<00:00:36.930> works<00:00:37.460> all<00:00:38.460> right<00:00:38.520> so
+
+00:00:38.840 --> 00:00:38.850 
+the backup process works all right so
+
+00:00:38.850 --> 00:00:40.700 
+the backup process works all right so
+let's<00:00:39.059> get<00:00:39.239> started<00:00:39.690> first<00:00:40.350> thing<00:00:40.500> we're
+
+00:00:40.700 --> 00:00:40.710 
+let's get started first thing we're
+
+00:00:40.710 --> 00:00:44.240 
+let's get started first thing we're
+bringing<00:00:40.980> B<00:00:41.309> to<00:00:41.399> bring<00:00:41.550> up<00:00:41.640> the<00:00:41.760> dashboard<00:00:43.250> the
+
+00:00:44.240 --> 00:00:44.250 
+bringing B to bring up the dashboard the
+
+00:00:44.250 --> 00:00:47.290 
+bringing B to bring up the dashboard the
+purposes<00:00:44.640> demo<00:00:45.000> whenever<00:00:45.510> I<00:00:45.570> jump<00:00:46.170> over<00:00:46.469> to<00:00:46.710> my
+
+00:00:47.290 --> 00:00:47.300 
+purposes demo whenever I jump over to my
+
+00:00:47.300 --> 00:00:49.310 
+purposes demo whenever I jump over to my
+Windows<00:00:48.300> Server<00:00:48.420> essentials<00:00:48.660> I'm<00:00:49.079> just<00:00:49.200> going
+
+00:00:49.310 --> 00:00:49.320 
+Windows Server essentials I'm just going
+
+00:00:49.320 --> 00:00:50.600 
+Windows Server essentials I'm just going
+to<00:00:49.379> go<00:00:49.500> to<00:00:49.530> a<00:00:49.620> full<00:00:49.980> screen
+
+00:00:50.600 --> 00:00:50.610 
+to go to a full screen
+
+00:00:50.610 --> 00:00:54.080 
+to go to a full screen
+remote<00:00:50.879> desktop<00:00:51.239> session<00:00:52.100> okay<00:00:53.100> so<00:00:53.850> now<00:00:53.969> we're
+
+00:00:54.080 --> 00:00:54.090 
+remote desktop session okay so now we're
+
+00:00:54.090 --> 00:00:57.439 
+remote desktop session okay so now we're
+looking<00:00:54.180> at<00:00:54.480> my<00:00:54.629> remote<00:00:55.140> system<00:00:56.000> and<00:00:57.000> of
+
+00:00:57.439 --> 00:00:57.449 
+looking at my remote system and of
+
+00:00:57.449 --> 00:00:58.760 
+looking at my remote system and of
+course<00:00:57.660> we<00:00:57.780> can<00:00:57.899> bring<00:00:58.020> up<00:00:58.140> dashboard<00:00:58.350> right
+
+00:00:58.760 --> 00:00:58.770 
+course we can bring up dashboard right
+
+00:00:58.770 --> 00:01:06.890 
+course we can bring up dashboard right
+there<00:01:04.670> so<00:01:05.670> in<00:01:05.790> the<00:01:05.880> dashboard<00:01:06.390> we'll<00:01:06.780> get
+
+00:01:06.890 --> 00:01:06.900 
+there so in the dashboard we'll get
+
+00:01:06.900 --> 00:01:10.130 
+there so in the dashboard we'll get
+started<00:01:07.140> with<00:01:07.439> looking<00:01:07.590> at<00:01:08.060> when<00:01:09.060> is<00:01:09.360> my
+
+00:01:10.130 --> 00:01:10.140 
+started with looking at when is my
+
+00:01:10.140 --> 00:01:15.170 
+started with looking at when is my
+server<00:01:11.119> signaling<00:01:12.650> the<00:01:13.650> start<00:01:13.680> of<00:01:14.220> daily
+
+00:01:15.170 --> 00:01:15.180 
+server signaling the start of daily
+
+00:01:15.180 --> 00:01:17.480 
+server signaling the start of daily
+backups<00:01:15.600> so<00:01:16.530> if<00:01:16.590> we<00:01:16.680> head<00:01:16.860> on<00:01:16.950> over<00:01:17.100> to<00:01:17.130> devices
+
+00:01:17.480 --> 00:01:17.490 
+backups so if we head on over to devices
+
+00:01:17.490 --> 00:01:19.820 
+backups so if we head on over to devices
+tab<00:01:17.930> over<00:01:18.930> here<00:01:19.080> you<00:01:19.170> see<00:01:19.320> customized
+
+00:01:19.820 --> 00:01:19.830 
+tab over here you see customized
+
+00:01:19.830 --> 00:01:21.050 
+tab over here you see customized
+computer<00:01:20.220> backup<00:01:20.549> and<00:01:20.700> file<00:01:20.850> history
+
+00:01:21.050 --> 00:01:21.060 
+computer backup and file history
+
+00:01:21.060 --> 00:01:23.420 
+computer backup and file history
+settings<00:01:21.650> click<00:01:22.650> on<00:01:22.740> that<00:01:22.890> and<00:01:23.070> right<00:01:23.250> there
+
+00:01:23.420 --> 00:01:23.430 
+settings click on that and right there
+
+00:01:23.430 --> 00:01:25.490 
+settings click on that and right there
+1:00<00:01:23.700> a.m.<00:01:23.880> to<00:01:24.060> 8:00<00:01:24.150> a.m.<00:01:24.270> every<00:01:24.420> day<00:01:24.540> that's
+
+00:01:25.490 --> 00:01:25.500 
+1:00 a.m. to 8:00 a.m. every day that's
+
+00:01:25.500 --> 00:01:33.460 
+1:00 a.m. to 8:00 a.m. every day that's
+my<00:01:25.799> backup<00:01:26.040> window<00:01:27.110> great<00:01:29.360> what's<00:01:30.360> next<00:01:32.270> well
+
+00:01:33.460 --> 00:01:33.470 
+my backup window great what's next well
+
+00:01:33.470 --> 00:01:39.499 
+my backup window great what's next well
+let's<00:01:34.470> look<00:01:34.770> at<00:01:34.979> my<00:01:35.460> local<00:01:35.700> machine<00:01:35.880> now<00:01:38.509> and
+
+00:01:39.499 --> 00:01:39.509 
+let's look at my local machine now and
+
+00:01:39.509 --> 00:01:47.770 
+let's look at my local machine now and
+hit<00:01:39.689> the<00:01:39.780> windows<00:01:40.110> plus<00:01:40.290> X<00:01:40.560> key
+
+00:01:47.770 --> 00:01:47.780 
+
+00:01:47.780 --> 00:01:50.090 
+
+let's<00:01:48.780> try<00:01:48.930> that<00:01:48.990> again<00:01:49.110> didn't<00:01:49.950> mean<00:01:50.040> to
+
+00:01:50.090 --> 00:01:50.100 
+let's try that again didn't mean to
+
+00:01:50.100 --> 00:01:52.280 
+let's try that again didn't mean to
+bring<00:01:50.220> up<00:01:50.340> my<00:01:50.430> browser<00:01:50.610> ok<00:01:51.090> windows<00:01:51.479> +<00:01:51.780> X<00:01:52.020> keys
+
+00:01:52.280 --> 00:01:52.290 
+bring up my browser ok windows + X keys
+
+00:01:52.290 --> 00:01:55.310 
+bring up my browser ok windows + X keys
+now<00:01:52.500> on<00:01:52.740> this<00:01:52.920> monitor<00:01:53.310> and<00:01:54.300> we're<00:01:55.020> gonna<00:01:55.110> go
+
+00:01:55.310 --> 00:01:55.320 
+now on this monitor and we're gonna go
+
+00:01:55.320 --> 00:02:00.740 
+now on this monitor and we're gonna go
+to<00:01:55.380> the<00:01:55.590> Event<00:01:55.979> Viewer<00:01:59.180> alright<00:02:00.180> to<00:02:00.450> get<00:02:00.540> into
+
+00:02:00.740 --> 00:02:00.750 
+to the Event Viewer alright to get into
+
+00:02:00.750 --> 00:02:02.090 
+to the Event Viewer alright to get into
+the<00:02:00.840> right<00:02:00.930> spot<00:02:01.350> in<00:02:01.470> Event<00:02:01.680> Viewer<00:02:01.740> you<00:02:01.979> want
+
+00:02:02.090 --> 00:02:02.100 
+the right spot in Event Viewer you want
+
+00:02:02.100 --> 00:02:08.300 
+the right spot in Event Viewer you want
+to<00:02:02.159> click<00:02:02.310> on<00:02:02.400> windows<00:02:02.729> logs<00:02:04.700> system<00:02:07.310> and
+
+00:02:08.300 --> 00:02:08.310 
+to click on windows logs system and
+
+00:02:08.310 --> 00:02:11.050 
+to click on windows logs system and
+let's<00:02:08.940> go<00:02:09.060> back<00:02:09.090> in<00:02:09.390> time<00:02:09.600> to<00:02:09.840> last<00:02:10.140> night
+
+00:02:11.050 --> 00:02:11.060 
+let's go back in time to last night
+
+00:02:11.060 --> 00:02:13.850 
+let's go back in time to last night
+well<00:02:12.060> actually<00:02:12.420> early<00:02:12.990> this<00:02:13.230> morning<00:02:13.650> maybe
+
+00:02:13.850 --> 00:02:13.860 
+well actually early this morning maybe
+
+00:02:13.860 --> 00:02:15.070 
+well actually early this morning maybe
+29
+
+00:02:15.070 --> 00:02:15.080 
+29
+
+00:02:15.080 --> 00:02:23.750 
+29
+so<00:02:16.080> if<00:02:16.170> we<00:02:16.260> look<00:02:16.380> at<00:02:16.500> early<00:02:16.590> this<00:02:16.800> morning<00:02:22.760> here
+
+00:02:23.750 --> 00:02:23.760 
+so if we look at early this morning here
+
+00:02:23.760 --> 00:02:27.980 
+so if we look at early this morning here
+it<00:02:23.850> is<00:02:25.820> the
+
+00:02:27.980 --> 00:02:27.990 
+it is the
+
+00:02:27.990 --> 00:02:31.400 
+it is the
+woke<00:02:28.530> up<00:02:28.700> from<00:02:29.700> a<00:02:29.819> low-power<00:02:30.180> state<00:02:30.599> at<00:02:30.780> 104
+
+00:02:31.400 --> 00:02:31.410 
+woke up from a low-power state at 104
+
+00:02:31.410 --> 00:02:34.490 
+woke up from a low-power state at 104
+a.m.<00:02:32.360> and<00:02:33.360> here<00:02:33.930> it<00:02:33.989> went<00:02:34.080> right<00:02:34.260> back<00:02:34.440> to
+
+00:02:34.490 --> 00:02:34.500 
+a.m. and here it went right back to
+
+00:02:34.500 --> 00:02:38.210 
+a.m. and here it went right back to
+sleep<00:02:35.090> half<00:02:36.090> an<00:02:36.239> hour<00:02:36.360> later<00:02:36.950> okay<00:02:37.950> so<00:02:38.010> now
+
+00:02:38.210 --> 00:02:38.220 
+sleep half an hour later okay so now
+
+00:02:38.220 --> 00:02:39.320 
+sleep half an hour later okay so now
+we're<00:02:38.340> starting<00:02:38.459> to<00:02:38.580> build<00:02:38.700> the<00:02:38.849> timeline
+
+00:02:39.320 --> 00:02:39.330 
+we're starting to build the timeline
+
+00:02:39.330 --> 00:02:41.089 
+we're starting to build the timeline
+that<00:02:39.360> my<00:02:39.870> backup<00:02:40.230> window<00:02:40.470> started<00:02:40.800> at<00:02:40.920> 1:00
+
+00:02:41.089 --> 00:02:41.099 
+that my backup window started at 1:00
+
+00:02:41.099 --> 00:02:42.830 
+that my backup window started at 1:00
+and<00:02:41.310> at<00:02:41.970> 104
+
+00:02:42.830 --> 00:02:42.840 
+and at 104
+
+00:02:42.840 --> 00:02:44.540 
+and at 104
+the<00:02:42.959> first<00:02:43.170> machine<00:02:43.470> started<00:02:43.830> backing<00:02:43.980> up<00:02:44.280> so
+
+00:02:44.540 --> 00:02:44.550 
+the first machine started backing up so
+
+00:02:44.550 --> 00:02:46.190 
+the first machine started backing up so
+this<00:02:44.700> is<00:02:45.209> apparently<00:02:45.510> the<00:02:45.810> very<00:02:45.989> first
+
+00:02:46.190 --> 00:02:46.200 
+this is apparently the very first
+
+00:02:46.200 --> 00:02:48.350 
+this is apparently the very first
+machine<00:02:46.350> that<00:02:46.530> backed<00:02:46.860> up<00:02:47.010> last<00:02:47.250> night<00:02:47.489> of<00:02:48.209> all
+
+00:02:48.350 --> 00:02:48.360 
+machine that backed up last night of all
+
+00:02:48.360 --> 00:02:54.290 
+machine that backed up last night of all
+my<00:02:48.510> systems<00:02:50.989> okay<00:02:52.819> so<00:02:53.819> now<00:02:54.000> we<00:02:54.060> have
+
+00:02:54.290 --> 00:02:54.300 
+my systems okay so now we have
+
+00:02:54.300 --> 00:02:56.449 
+my systems okay so now we have
+established<00:02:54.569> the<00:02:54.870> timeline<00:02:55.350> how<00:02:56.220> does<00:02:56.340> that
+
+00:02:56.449 --> 00:02:56.459 
+established the timeline how does that
+
+00:02:56.459 --> 00:03:01.820 
+established the timeline how does that
+compare<00:02:56.880> to<00:02:57.769> backup<00:02:58.769> properties<00:03:00.650> it's<00:03:01.650> on<00:03:01.739> a
+
+00:03:01.820 --> 00:03:01.830 
+compare to backup properties it's on a
+
+00:03:01.830 --> 00:03:04.580 
+compare to backup properties it's on a
+client<00:03:02.250> side<00:03:03.080> let<00:03:04.080> me<00:03:04.170> just<00:03:04.319> show<00:03:04.410> you<00:03:04.500> the
+
+00:03:04.580 --> 00:03:04.590 
+client side let me just show you the
+
+00:03:04.590 --> 00:03:07.059 
+client side let me just show you the
+properties<00:03:04.950> of<00:03:05.040> this<00:03:05.480> that<00:03:06.480> we're<00:03:06.690> running
+
+00:03:07.059 --> 00:03:07.069 
+properties of this that we're running
+
+00:03:07.069 --> 00:03:11.360 
+properties of this that we're running
+this<00:03:08.420> backup<00:03:09.420> launchpad<00:03:10.049> dot<00:03:10.200> exe<00:03:10.370> very
+
+00:03:11.360 --> 00:03:11.370 
+this backup launchpad dot exe very
+
+00:03:11.370 --> 00:03:12.830 
+this backup launchpad dot exe very
+quickly<00:03:11.610> if<00:03:11.790> you<00:03:11.850> have<00:03:11.940> a<00:03:12.000> shortcut<00:03:12.390> pin<00:03:12.660> to
+
+00:03:12.830 --> 00:03:12.840 
+quickly if you have a shortcut pin to
+
+00:03:12.840 --> 00:03:14.420 
+quickly if you have a shortcut pin to
+that<00:03:12.870> you<00:03:13.530> could<00:03:13.650> just<00:03:13.799> bring<00:03:13.920> up<00:03:14.100> and<00:03:14.250> you<00:03:14.310> can
+
+00:03:14.420 --> 00:03:14.430 
+that you could just bring up and you can
+
+00:03:14.430 --> 00:03:16.400 
+that you could just bring up and you can
+see<00:03:14.610> when<00:03:14.970> my<00:03:15.060> last<00:03:15.180> backup<00:03:15.569> was<00:03:15.720> so<00:03:15.900> 1:05<00:03:16.380> a.m.
+
+00:03:16.400 --> 00:03:16.410 
+see when my last backup was so 1:05 a.m.
+
+00:03:16.410 --> 00:03:19.520 
+see when my last backup was so 1:05 a.m.
+is<00:03:16.920> when<00:03:17.519> it<00:03:17.700> is<00:03:17.730> logging<00:03:18.390> that<00:03:18.420> it<00:03:18.660> started<00:03:19.170> my
+
+00:03:19.520 --> 00:03:19.530 
+is when it is logging that it started my
+
+00:03:19.530 --> 00:03:22.729 
+is when it is logging that it started my
+last<00:03:19.799> successful<00:03:20.489> backup<00:03:21.110> ok<00:03:22.110> so<00:03:22.590> we're<00:03:22.709> done
+
+00:03:22.729 --> 00:03:22.739 
+last successful backup ok so we're done
+
+00:03:22.739 --> 00:03:24.380 
+last successful backup ok so we're done
+looking<00:03:23.100> at<00:03:23.130> Event<00:03:23.400> Viewer<00:03:23.430> we're<00:03:24.150> done
+
+00:03:24.380 --> 00:03:24.390 
+looking at Event Viewer we're done
+
+00:03:24.390 --> 00:03:29.170 
+looking at Event Viewer we're done
+looking<00:03:24.690> at<00:03:24.810> the<00:03:24.989> backup<00:03:25.950> properties<00:03:26.400> and
+
+00:03:29.170 --> 00:03:29.180 
+
+00:03:29.180 --> 00:03:36.800 
+
+let's<00:03:30.180> go<00:03:30.420> back<00:03:30.690> to<00:03:30.959> the<00:03:31.200> server<00:03:35.359> back<00:03:36.359> as<00:03:36.750> you
+
+00:03:36.800 --> 00:03:36.810 
+let's go back to the server back as you
+
+00:03:36.810 --> 00:03:38.180 
+let's go back to the server back as you
+can<00:03:36.930> get<00:03:37.049> by<00:03:37.170> double-clicking<00:03:37.440> there<00:03:37.890> as<00:03:37.980> well
+
+00:03:38.180 --> 00:03:38.190 
+can get by double-clicking there as well
+
+00:03:38.190 --> 00:03:39.440 
+can get by double-clicking there as well
+and<00:03:38.519> then<00:03:38.609> double<00:03:38.880> click<00:03:39.030> here<00:03:39.060> in<00:03:39.239> the<00:03:39.299> last
+
+00:03:39.440 --> 00:03:39.450 
+and then double click here in the last
+
+00:03:39.450 --> 00:03:46.060 
+and then double click here in the last
+entry<00:03:43.310> but<00:03:44.310> notice<00:03:44.609> you<00:03:44.730> don't<00:03:44.850> get<00:03:45.150> the<00:03:45.329> the
+
+00:03:46.060 --> 00:03:46.070 
+entry but notice you don't get the the
+
+00:03:46.070 --> 00:03:48.530 
+entry but notice you don't get the the
+time<00:03:47.070> of<00:03:47.220> glass<00:03:47.459> backup<00:03:47.880> other<00:03:48.090> than<00:03:48.299> right
+
+00:03:48.530 --> 00:03:48.540 
+time of glass backup other than right
+
+00:03:48.540 --> 00:03:49.880 
+time of glass backup other than right
+there<00:03:48.750> that<00:03:49.049> code<00:03:49.200> at<00:03:49.290> the<00:03:49.380> top<00:03:49.410> of<00:03:49.620> the<00:03:49.680> list
+
+00:03:49.880 --> 00:03:49.890 
+there that code at the top of the list
+
+00:03:49.890 --> 00:03:51.680 
+there that code at the top of the list
+and<00:03:50.459> you<00:03:50.549> can<00:03:50.609> see<00:03:50.730> it<00:03:50.880> moves<00:03:51.060> around<00:03:51.239> for<00:03:51.630> the
+
+00:03:51.680 --> 00:03:51.690 
+and you can see it moves around for the
+
+00:03:51.690 --> 00:03:53.440 
+and you can see it moves around for the
+night<00:03:51.810> so<00:03:52.260> each<00:03:52.350> night<00:03:52.590> a<00:03:52.620> little<00:03:52.890> different
+
+00:03:53.440 --> 00:03:53.450 
+night so each night a little different
+
+00:03:53.450 --> 00:03:56.840 
+night so each night a little different
+okay<00:03:54.450> so<00:03:54.840> on<00:03:55.470> that<00:03:55.829> same<00:03:56.070> survey<00:03:56.430> it's<00:03:56.549> local
+
+00:03:56.840 --> 00:03:56.850 
+okay so on that same survey it's local
+
+00:03:56.850 --> 00:03:58.699 
+okay so on that same survey it's local
+file<00:03:57.030> system<00:03:57.450> has<00:03:57.540> client<00:03:58.019> computer<00:03:58.350> backups
+
+00:03:58.699 --> 00:03:58.709 
+file system has client computer backups
+
+00:03:58.709 --> 00:04:03.319 
+file system has client computer backups
+and<00:03:59.220> if<00:04:00.090> we<00:04:00.269> log<00:04:00.600> here<00:04:01.410> and<00:04:01.820> scroll<00:04:02.820> back<00:04:02.880> to
+
+00:04:03.319 --> 00:04:03.329 
+and if we log here and scroll back to
+
+00:04:03.329 --> 00:04:07.630 
+and if we log here and scroll back to
+the<00:04:03.480> early<00:04:04.850> morning<00:04:05.850> hours<00:04:06.000> there<00:04:06.600> as<00:04:06.840> well
+
+00:04:07.630 --> 00:04:07.640 
+the early morning hours there as well
+
+00:04:07.640 --> 00:04:10.370 
+the early morning hours there as well
+you<00:04:08.640> can<00:04:08.940> see<00:04:09.090> I've<00:04:09.209> highlighted<00:04:09.480> a
+
+00:04:10.370 --> 00:04:10.380 
+you can see I've highlighted a
+
+00:04:10.380 --> 00:04:13.190 
+you can see I've highlighted a
+clustering<00:04:11.310> of<00:04:11.519> files<00:04:11.850> it<00:04:12.090> wrote<00:04:12.299> during<00:04:12.989> that
+
+00:04:13.190 --> 00:04:13.200 
+clustering of files it wrote during that
+
+00:04:13.200 --> 00:04:16.099 
+clustering of files it wrote during that
+half<00:04:13.319> hour<00:04:13.500> interval<00:04:14.660> ok<00:04:15.660> so<00:04:15.720> again<00:04:15.900> this
+
+00:04:16.099 --> 00:04:16.109 
+half hour interval ok so again this
+
+00:04:16.109 --> 00:04:20.229 
+half hour interval ok so again this
+matches<00:04:16.470> the<00:04:16.590> timeline<00:04:16.799> pretty<00:04:17.190> well<00:04:17.370> as<00:04:17.549> well
+
+00:04:20.229 --> 00:04:20.239 
+
+00:04:20.239 --> 00:04:24.150 
+
+ok<00:04:21.239> what's<00:04:21.510> left<00:04:21.750> to<00:04:21.840> look<00:04:21.989> at<00:04:22.310> well
+
+00:04:24.150 --> 00:04:24.160 
+ok what's left to look at well
+
+00:04:24.160 --> 00:04:26.100 
+ok what's left to look at well
+it's<00:04:24.310> done<00:04:24.520> doing<00:04:24.730> that<00:04:24.850> work<00:04:25.120> how<00:04:25.720> does<00:04:25.780> it
+
+00:04:26.100 --> 00:04:26.110 
+it's done doing that work how does it
+
+00:04:26.110 --> 00:04:27.840 
+it's done doing that work how does it
+trigger<00:04:26.320> the<00:04:26.560> back<00:04:26.710> up<00:04:26.890> the<00:04:27.010> next<00:04:27.070> day<00:04:27.280> well
+
+00:04:27.840 --> 00:04:27.850 
+trigger the back up the next day well
+
+00:04:27.850 --> 00:04:29.910 
+trigger the back up the next day well
+it's<00:04:28.060> not<00:04:28.180> doing<00:04:28.330> wiggling<00:04:28.900> or<00:04:29.230> magic<00:04:29.530> packets
+
+00:04:29.910 --> 00:04:29.920 
+it's not doing wiggling or magic packets
+
+00:04:29.920 --> 00:04:31.980 
+it's not doing wiggling or magic packets
+any<00:04:30.160> of<00:04:30.250> that<00:04:30.400> kind<00:04:30.580> of<00:04:30.700> stuff<00:04:31.390> it's<00:04:31.870> not
+
+00:04:31.980 --> 00:04:31.990 
+any of that kind of stuff it's not
+
+00:04:31.990 --> 00:04:33.960 
+any of that kind of stuff it's not
+relying<00:04:32.230> that<00:04:32.410> at<00:04:32.530> all<00:04:32.650> it's<00:04:33.250> just<00:04:33.490> using<00:04:33.670> good
+
+00:04:33.960 --> 00:04:33.970 
+relying that at all it's just using good
+
+00:04:33.970 --> 00:04:37.110 
+relying that at all it's just using good
+old<00:04:34.120> task<00:04:34.990> scheduler<00:04:35.770> so<00:04:36.580> we're<00:04:36.730> done<00:04:36.820> looking
+
+00:04:37.110 --> 00:04:37.120 
+old task scheduler so we're done looking
+
+00:04:37.120 --> 00:04:40.740 
+old task scheduler so we're done looking
+at<00:04:37.180> the<00:04:37.300> server<00:04:37.540> and<00:04:38.550> back<00:04:39.550> on<00:04:39.790> the<00:04:39.880> client<00:04:40.360> PC
+
+00:04:40.740 --> 00:04:40.750 
+at the server and back on the client PC
+
+00:04:40.750 --> 00:04:43.320 
+at the server and back on the client PC
+that<00:04:41.020> has<00:04:41.140> the<00:04:41.290> connector<00:04:41.830> installed<00:04:42.180> if<00:04:43.180> we
+
+00:04:43.320 --> 00:04:43.330 
+that has the connector installed if we
+
+00:04:43.330 --> 00:04:46.740 
+that has the connector installed if we
+hit<00:04:43.420> the<00:04:43.800> Windows<00:04:44.800> key<00:04:44.830> and<00:04:45.490> just<00:04:45.750> sorry
+
+00:04:46.740 --> 00:04:46.750 
+hit the Windows key and just sorry
+
+00:04:46.750 --> 00:04:54.540 
+hit the Windows key and just sorry
+Windows<00:04:47.260> +<00:04:48.300> W<00:04:49.300> key<00:04:49.980> and<00:04:51.480> type<00:04:52.480> tasks<00:04:52.870> at<00:04:53.410> CH<00:04:53.890> hit
+
+00:04:54.540 --> 00:04:54.550 
+Windows + W key and type tasks at CH hit
+
+00:04:54.550 --> 00:04:55.770 
+Windows + W key and type tasks at CH hit
+enter<00:04:54.760> we're<00:04:54.910> gonna<00:04:55.000> get<00:04:55.150> the<00:04:55.240> scheduled
+
+00:04:55.770 --> 00:04:55.780 
+enter we're gonna get the scheduled
+
+00:04:55.780 --> 00:04:58.530 
+enter we're gonna get the scheduled
+tasks<00:04:56.250> interface<00:04:57.250> here<00:04:57.490> let's<00:04:58.090> bring<00:04:58.120> that<00:04:58.300> up
+
+00:04:58.530 --> 00:04:58.540 
+tasks interface here let's bring that up
+
+00:04:58.540 --> 00:05:00.780 
+tasks interface here let's bring that up
+full<00:04:58.750> screen<00:04:59.190> opening<00:05:00.190> up<00:05:00.310> the<00:05:00.400> scheduled
+
+00:05:00.780 --> 00:05:00.790 
+full screen opening up the scheduled
+
+00:05:00.790 --> 00:05:03.060 
+full screen opening up the scheduled
+tasks<00:05:01.030> library<00:05:01.840> on<00:05:02.050> the<00:05:02.110> client<00:05:02.620> machine<00:05:02.650> that
+
+00:05:03.060 --> 00:05:03.070 
+tasks library on the client machine that
+
+00:05:03.070 --> 00:05:05.220 
+tasks library on the client machine that
+gets<00:05:03.160> backed<00:05:03.430> up<00:05:03.550> every<00:05:03.850> night<00:05:04.030> any<00:05:04.510> of<00:05:05.110> them
+
+00:05:05.220 --> 00:05:05.230 
+gets backed up every night any of them
+
+00:05:05.230 --> 00:05:06.360 
+gets backed up every night any of them
+didn't<00:05:05.470> really<00:05:05.620> matter<00:05:05.770> which<00:05:05.920> you<00:05:06.220> got<00:05:06.340> a
+
+00:05:06.360 --> 00:05:06.370 
+didn't really matter which you got a
+
+00:05:06.370 --> 00:05:11.850 
+didn't really matter which you got a
+microsoft<00:05:06.940> windows<00:05:08.550> window<00:05:09.550> server<00:05:10.470> and<00:05:11.470> here
+
+00:05:11.850 --> 00:05:11.860 
+microsoft windows window server and here
+
+00:05:11.860 --> 00:05:13.860 
+microsoft windows window server and here
+it<00:05:11.950> is<00:05:12.690> backup
+
+00:05:13.860 --> 00:05:13.870 
+it is backup
+
+00:05:13.870 --> 00:05:15.600 
+it is backup
+this<00:05:14.320> machine<00:05:14.680> is<00:05:14.710> queued<00:05:15.100> up<00:05:15.190> and<00:05:15.340> ready<00:05:15.430> to
+
+00:05:15.600 --> 00:05:15.610 
+this machine is queued up and ready to
+
+00:05:15.610 --> 00:05:18.930 
+this machine is queued up and ready to
+go<00:05:15.850> at<00:05:16.180> 126<00:05:16.930> a.m.<00:05:17.140> tonight<00:05:17.410> so<00:05:18.130> not<00:05:18.310> at<00:05:18.430> 105
+
+00:05:18.930 --> 00:05:18.940 
+go at 126 a.m. tonight so not at 105
+
+00:05:18.940 --> 00:05:21.240 
+go at 126 a.m. tonight so not at 105
+it's<00:05:19.750> a<00:05:19.840> little<00:05:20.020> later<00:05:20.200> so<00:05:20.560> apparently<00:05:21.070> some
+
+00:05:21.240 --> 00:05:21.250 
+it's a little later so apparently some
+
+00:05:21.250 --> 00:05:23.400 
+it's a little later so apparently some
+other<00:05:21.400> machine<00:05:21.790> has<00:05:22.000> snuck<00:05:22.600> in<00:05:22.810> before<00:05:23.110> me<00:05:23.230> for
+
+00:05:23.400 --> 00:05:23.410 
+other machine has snuck in before me for
+
+00:05:23.410 --> 00:05:25.170 
+other machine has snuck in before me for
+tonight<00:05:23.560> so<00:05:24.310> it<00:05:24.400> seems<00:05:24.580> to<00:05:24.640> have<00:05:24.790> some<00:05:24.940> sort<00:05:25.150> of
+
+00:05:25.170 --> 00:05:25.180 
+tonight so it seems to have some sort of
+
+00:05:25.180 --> 00:05:27.870 
+tonight so it seems to have some sort of
+algorithm<00:05:25.630> to<00:05:25.980> move<00:05:26.980> around<00:05:27.160> when<00:05:27.640> a<00:05:27.670> machine
+
+00:05:27.870 --> 00:05:27.880 
+algorithm to move around when a machine
+
+00:05:27.880 --> 00:05:32.010 
+algorithm to move around when a machine
+is<00:05:28.210> backed<00:05:28.450> up<00:05:28.600> each<00:05:28.780> night<00:05:29.050> you<00:05:30.810> just<00:05:31.810> have<00:05:31.930> a
+
+00:05:32.010 --> 00:05:32.020 
+is backed up each night you just have a
+
+00:05:32.020 --> 00:05:34.370 
+is backed up each night you just have a
+quick<00:05:32.170> look<00:05:32.440> here<00:05:32.490> it's<00:05:33.490> saying<00:05:33.760> every<00:05:34.120> day
+
+00:05:34.370 --> 00:05:34.380 
+quick look here it's saying every day
+
+00:05:34.380 --> 00:05:37.200 
+quick look here it's saying every day
+but<00:05:35.380> again<00:05:35.680> if<00:05:36.370> we<00:05:36.520> look<00:05:36.640> at<00:05:36.730> this<00:05:36.820> tomorrow
+
+00:05:37.200 --> 00:05:37.210 
+but again if we look at this tomorrow
+
+00:05:37.210 --> 00:05:39.690 
+but again if we look at this tomorrow
+it'll<00:05:37.510> be<00:05:37.630> different<00:05:38.110> it<00:05:38.500> just<00:05:38.530> changes<00:05:39.340> every
+
+00:05:39.690 --> 00:05:39.700 
+it'll be different it just changes every
+
+00:05:39.700 --> 00:05:42.180 
+it'll be different it just changes every
+time<00:05:40.110> so<00:05:41.110> it<00:05:41.200> seems<00:05:41.440> the<00:05:41.530> agent<00:05:41.860> is<00:05:41.950> kind<00:05:42.130> of
+
+00:05:42.180 --> 00:05:42.190 
+time so it seems the agent is kind of
+
+00:05:42.190 --> 00:05:43.770 
+time so it seems the agent is kind of
+rewriting<00:05:42.490> a<00:05:42.640> schedule<00:05:43.030> tasks<00:05:43.210> serving<00:05:43.690> in
+
+00:05:43.770 --> 00:05:43.780 
+rewriting a schedule tasks serving in
+
+00:05:43.780 --> 00:05:47.130 
+rewriting a schedule tasks serving in
+this<00:05:43.900> case<00:05:44.169> the<00:05:44.530> rescheduling<00:05:45.370> or<00:05:46.240> changing
+
+00:05:47.130 --> 00:05:47.140 
+this case the rescheduling or changing
+
+00:05:47.140 --> 00:05:50.690 
+this case the rescheduling or changing
+scheduled<00:05:47.740> tasks<00:05:47.980> every<00:05:48.370> night<00:05:48.870> altering<00:05:49.870> it
+
+00:05:50.690 --> 00:05:50.700 
+scheduled tasks every night altering it
+
+00:05:50.700 --> 00:05:53.310 
+scheduled tasks every night altering it
+and<00:05:51.700> right<00:05:51.820> here<00:05:52.030> start<00:05:52.480> the<00:05:52.600> task<00:05:52.780> only<00:05:53.260> if
+
+00:05:53.310 --> 00:05:53.320 
+and right here start the task only if
+
+00:05:53.320 --> 00:05:58.140 
+and right here start the task only if
+the<00:05:53.380> computers<00:05:53.770> on<00:05:53.919> AC<00:05:54.100> power<00:05:56.880> and<00:05:57.880> he'll<00:05:58.030> go
+
+00:05:58.140 --> 00:05:58.150 
+the computers on AC power and he'll go
+
+00:05:58.150 --> 00:05:59.400 
+the computers on AC power and he'll go
+right<00:05:58.240> back<00:05:58.419> to<00:05:58.540> sleep<00:05:58.630> when<00:05:58.840> it's<00:05:58.990> done<00:05:59.169> it
+
+00:05:59.400 --> 00:05:59.410 
+right back to sleep when it's done it
+
+00:05:59.410 --> 00:06:01.080 
+right back to sleep when it's done it
+doesn't<00:05:59.680> seem<00:05:59.830> to<00:06:00.010> wait<00:06:00.160> 15<00:06:00.580> minutes<00:06:00.850> to<00:06:00.940> go<00:06:01.030> to
+
+00:06:01.080 --> 00:06:01.090 
+doesn't seem to wait 15 minutes to go to
+
+00:06:01.090 --> 00:06:02.730 
+doesn't seem to wait 15 minutes to go to
+sleep<00:06:01.360> it<00:06:01.750> does<00:06:01.900> it<00:06:02.020> back<00:06:02.169> up<00:06:02.380> and<00:06:02.530> then<00:06:02.620> goes
+
+00:06:02.730 --> 00:06:02.740 
+sleep it does it back up and then goes
+
+00:06:02.740 --> 00:06:05.100 
+sleep it does it back up and then goes
+right<00:06:02.860> back<00:06:02.980> to<00:06:03.130> bed<00:06:03.600> so<00:06:04.600> that's<00:06:04.750> the<00:06:04.900> end<00:06:04.990> of
+
+00:06:05.100 --> 00:06:05.110 
+right back to bed so that's the end of
+
+00:06:05.110 --> 00:06:06.650 
+right back to bed so that's the end of
+what<00:06:05.200> I<00:06:05.230> wanted<00:06:05.440> to<00:06:05.530> show<00:06:05.650> you<00:06:05.710> in<00:06:05.860> this<00:06:05.919> video
+
+00:06:06.650 --> 00:06:06.660 
+what I wanted to show you in this video
+
+00:06:06.660 --> 00:06:09.510 
+what I wanted to show you in this video
+hopefully<00:06:07.660> you<00:06:08.320> found<00:06:08.530> helpful<00:06:08.890> thank<00:06:09.490> you
+
+00:06:09.510 --> 00:06:09.520 
+hopefully you found helpful thank you
+
+00:06:09.520 --> 00:06:11.820 
+hopefully you found helpful thank you
+for<00:06:09.610> watching<00:06:09.730> and<00:06:10.240> for<00:06:10.390> visiting<00:06:10.810> tinker<00:06:11.590> try
+
+00:06:11.820 --> 00:06:11.830 
+for watching and for visiting tinker try
+
+00:06:11.830 --> 00:06:14.640 
+for watching and for visiting tinker try
+calm
+

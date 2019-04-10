@@ -1,0 +1,554 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.760 --> 00:00:09.820 
+
+hey<00:00:07.760> guys<00:00:08.029> what's<00:00:08.420> up<00:00:08.600> its<00:00:08.780> melmer<00:00:09.380> here<00:00:09.590> and
+
+00:00:09.820 --> 00:00:09.830 
+hey guys what's up its melmer here and
+
+00:00:09.830 --> 00:00:13.060 
+hey guys what's up its melmer here and
+welcome<00:00:10.220> to<00:00:10.640> another<00:00:10.870> xcode<00:00:11.870> tutorial<00:00:12.380> this
+
+00:00:13.060 --> 00:00:13.070 
+welcome to another xcode tutorial this
+
+00:00:13.070 --> 00:00:15.100 
+welcome to another xcode tutorial this
+tutorial<00:00:13.280> is<00:00:13.670> going<00:00:13.760> to<00:00:14.030> be<00:00:14.120> on<00:00:14.210> the<00:00:14.330> basics<00:00:14.870> of
+
+00:00:15.100 --> 00:00:15.110 
+tutorial is going to be on the basics of
+
+00:00:15.110 --> 00:00:18.420 
+tutorial is going to be on the basics of
+a<00:00:15.379> web<00:00:15.559> view<00:00:15.830> and<00:00:16.039> how<00:00:16.190> to<00:00:16.250> load<00:00:16.850> a<00:00:17.180> web<00:00:17.869> site
+
+00:00:18.420 --> 00:00:18.430 
+a web view and how to load a web site
+
+00:00:18.430 --> 00:00:20.650 
+a web view and how to load a web site
+and<00:00:19.430> then<00:00:19.699> i'll<00:00:19.880> be<00:00:20.000> going<00:00:20.240> into<00:00:20.330> more
+
+00:00:20.650 --> 00:00:20.660 
+and then i'll be going into more
+
+00:00:20.660 --> 00:00:23.349 
+and then i'll be going into more
+advanced<00:00:20.960> tutorials<00:00:21.160> later<00:00:22.160> so<00:00:23.119> without
+
+00:00:23.349 --> 00:00:23.359 
+advanced tutorials later so without
+
+00:00:23.359 --> 00:00:25.839 
+advanced tutorials later so without
+further<00:00:23.420> ado<00:00:23.990> let's<00:00:24.259> open<00:00:24.590> up<00:00:24.679> xcode<00:00:25.160> new
+
+00:00:25.839 --> 00:00:25.849 
+further ado let's open up xcode new
+
+00:00:25.849 --> 00:00:29.439 
+further ado let's open up xcode new
+project<00:00:27.039> view<00:00:28.039> based<00:00:28.250> for<00:00:28.519> iphone<00:00:28.939> is<00:00:28.970> fine
+
+00:00:29.439 --> 00:00:29.449 
+project view based for iphone is fine
+
+00:00:29.449 --> 00:00:33.460 
+project view based for iphone is fine
+and<00:00:30.320> i'm<00:00:30.500> going<00:00:30.650> to<00:00:30.710> call<00:00:30.919> mine<00:00:31.189> where<00:00:31.849> you<00:00:32.470> say
+
+00:00:33.460 --> 00:00:33.470 
+and i'm going to call mine where you say
+
+00:00:33.470 --> 00:00:36.040 
+and i'm going to call mine where you say
+that<00:00:33.680> to<00:00:33.800> my<00:00:33.890> desktop<00:00:34.630> make<00:00:35.630> the<00:00:35.780> screen
+
+00:00:36.040 --> 00:00:36.050 
+that to my desktop make the screen
+
+00:00:36.050 --> 00:00:39.220 
+that to my desktop make the screen
+bigger<00:00:36.400> go<00:00:37.400> into<00:00:37.730> the<00:00:37.850> classes<00:00:38.090> and<00:00:38.600> go<00:00:38.810> to<00:00:38.870> the
+
+00:00:39.220 --> 00:00:39.230 
+bigger go into the classes and go to the
+
+00:00:39.230 --> 00:00:42.550 
+bigger go into the classes and go to the
+dot<00:00:39.950> h<00:00:40.370> or<00:00:40.670> the<00:00:40.820> header<00:00:41.060> file<00:00:41.390> now<00:00:42.200> we're<00:00:42.410> only
+
+00:00:42.550 --> 00:00:42.560 
+dot h or the header file now we're only
+
+00:00:42.560 --> 00:00:45.160 
+dot h or the header file now we're only
+going<00:00:42.830> to<00:00:42.950> need<00:00:42.980> one<00:00:43.160> with<00:00:43.910> one<00:00:44.630> outlet<00:00:44.990> for
+
+00:00:45.160 --> 00:00:45.170 
+going to need one with one outlet for
+
+00:00:45.170 --> 00:00:48.970 
+going to need one with one outlet for
+this<00:00:45.320> and<00:00:45.590> that's<00:00:46.460> going<00:00:46.760> to<00:00:46.910> be<00:00:47.060> the<00:00:47.980> webview
+
+00:00:48.970 --> 00:00:48.980 
+this and that's going to be the webview
+
+00:00:48.980 --> 00:00:51.250 
+this and that's going to be the webview
+so<00:00:49.280> go<00:00:49.430> into<00:00:49.610> the<00:00:49.730> app<00:00:49.820> interface<00:00:50.150> and<00:00:50.600> I<00:00:50.870> be
+
+00:00:51.250 --> 00:00:51.260 
+so go into the app interface and I be
+
+00:00:51.260 --> 00:00:56.920 
+so go into the app interface and I be
+outlets<00:00:51.620> uiwebview<00:00:53.620> start<00:00:54.620> web<00:00:55.100> you<00:00:55.840> open<00:00:56.840> up
+
+00:00:56.920 --> 00:00:56.930 
+outlets uiwebview start web you open up
+
+00:00:56.930 --> 00:01:00.340 
+outlets uiwebview start web you open up
+web<00:00:57.170> fue<00:00:57.590> el<00:00:57.740> web<00:00:58.190> view<00:00:58.490> there<00:00:58.850> you<00:00:58.910> go<00:00:59.000> now<00:00:59.840> go
+
+00:01:00.340 --> 00:01:00.350 
+web fue el web view there you go now go
+
+00:01:00.350 --> 00:01:01.900 
+web fue el web view there you go now go
+into<00:01:00.530> the<00:01:00.620> resources<00:01:01.340> and<00:01:01.550> web<00:01:01.730> view
+
+00:01:01.900 --> 00:01:01.910 
+into the resources and web view
+
+00:01:01.910 --> 00:01:06.580 
+into the resources and web view
+controller<00:01:02.270> nib<00:01:04.059> now<00:01:05.059> all<00:01:05.390> you<00:01:05.509> need<00:01:05.540> is<00:01:05.930> the
+
+00:01:06.580 --> 00:01:06.590 
+controller nib now all you need is the
+
+00:01:06.590 --> 00:01:09.039 
+controller nib now all you need is the
+web<00:01:06.740> view<00:01:07.009> which<00:01:07.220> can<00:01:07.460> be<00:01:07.549> found<00:01:07.790> in<00:01:08.180> the
+
+00:01:09.039 --> 00:01:09.049 
+web view which can be found in the
+
+00:01:09.049 --> 00:01:11.860 
+web view which can be found in the
+library<00:01:09.320> so<00:01:09.920> drag<00:01:10.189> that<00:01:10.340> out<00:01:10.400> let<00:01:11.300> its<00:01:11.450> size<00:01:11.510> to
+
+00:01:11.860 --> 00:01:11.870 
+library so drag that out let its size to
+
+00:01:11.870 --> 00:01:15.640 
+library so drag that out let its size to
+fullscreen<00:01:12.880> just<00:01:13.880> a<00:01:13.910> bit<00:01:14.030> off<00:01:14.120> there<00:01:14.450> now<00:01:15.350> go
+
+00:01:15.640 --> 00:01:15.650 
+fullscreen just a bit off there now go
+
+00:01:15.650 --> 00:01:19.600 
+fullscreen just a bit off there now go
+into<00:01:15.800> the<00:01:15.980> document<00:01:16.360> files<00:01:17.360> owner<00:01:17.630> and<00:01:18.610> link
+
+00:01:19.600 --> 00:01:19.610 
+into the document files owner and link
+
+00:01:19.610 --> 00:01:23.260 
+into the document files owner and link
+up<00:01:19.790> the<00:01:20.090> webview<00:01:20.860> once<00:01:21.860> that's<00:01:22.070> done<00:01:22.220> save<00:01:22.700> ib
+
+00:01:23.260 --> 00:01:23.270 
+up the webview once that's done save ib
+
+00:01:23.270 --> 00:01:27.420 
+up the webview once that's done save ib
+go<00:01:23.870> back<00:01:24.140> to<00:01:24.560> Xcode<00:01:25.400> and<00:01:25.820> go<00:01:26.090> into<00:01:26.330> the<00:01:26.450> main
+
+00:01:27.420 --> 00:01:27.430 
+go back to Xcode and go into the main
+
+00:01:27.430 --> 00:01:32.500 
+go back to Xcode and go into the main
+window<00:01:28.430> main<00:01:29.330> folder<00:01:29.630> sorry<00:01:30.130> now<00:01:31.130> find<00:01:32.090> the
+
+00:01:32.500 --> 00:01:32.510 
+window main folder sorry now find the
+
+00:01:32.510 --> 00:01:35.620 
+window main folder sorry now find the
+code<00:01:32.750> that<00:01:33.110> says<00:01:33.350> that's<00:01:33.950> green<00:01:34.280> now<00:01:34.550> and<00:01:34.820> it
+
+00:01:35.620 --> 00:01:35.630 
+code that says that's green now and it
+
+00:01:35.630 --> 00:01:39.250 
+code that says that's green now and it
+says<00:01:35.900> void<00:01:36.320> viewdidload<00:01:37.780> bhangra<00:01:38.780> it<00:01:39.050> by
+
+00:01:39.250 --> 00:01:39.260 
+says void viewdidload bhangra it by
+
+00:01:39.260 --> 00:01:42.399 
+says void viewdidload bhangra it by
+deleting<00:01:39.590> the<00:01:39.920> two<00:01:40.159> /<00:01:40.550> nap<00:01:40.850> asterixis<00:01:41.409> before
+
+00:01:42.399 --> 00:01:42.409 
+deleting the two / nap asterixis before
+
+00:01:42.409 --> 00:01:45.160 
+deleting the two / nap asterixis before
+and<00:01:42.650> after<00:01:42.950> the<00:01:43.070> green<00:01:43.360> now<00:01:44.360> we're<00:01:44.810> going<00:01:44.990> to
+
+00:01:45.160 --> 00:01:45.170 
+and after the green now we're going to
+
+00:01:45.170 --> 00:01:48.070 
+and after the green now we're going to
+go<00:01:45.290> inside<00:01:45.830> the<00:01:45.890> curly<00:01:46.640> brackets<00:01:47.000> but<00:01:47.540> before
+
+00:01:48.070 --> 00:01:48.080 
+go inside the curly brackets but before
+
+00:01:48.080 --> 00:01:50.170 
+go inside the curly brackets but before
+the<00:01:48.409> super<00:01:48.740> viewdidload<00:01:48.979> we're<00:01:49.880> going<00:01:50.120> to
+
+00:01:50.170 --> 00:01:50.180 
+the super viewdidload we're going to
+
+00:01:50.180 --> 00:01:54.130 
+the super viewdidload we're going to
+press<00:01:50.360> ENTER<00:01:50.960> and<00:01:51.229> we're<00:01:51.860> going<00:01:52.010> to<00:01:52.070> type<00:01:53.140> with
+
+00:01:54.130 --> 00:01:54.140 
+press ENTER and we're going to type with
+
+00:01:54.140 --> 00:01:58.420 
+press ENTER and we're going to type with
+you<00:01:55.060> just<00:01:56.060> like<00:01:56.240> we<00:01:56.360> typed<00:01:56.600> in<00:01:56.810> the<00:01:56.930> doc<00:01:57.110> H<00:01:57.430> then
+
+00:01:58.420 --> 00:01:58.430 
+you just like we typed in the doc H then
+
+00:01:58.430 --> 00:02:01.899 
+you just like we typed in the doc H then
+we're<00:01:58.670> going<00:01:58.820> to<00:01:58.880> go<00:01:58.940> load<00:01:59.600> request<00:02:00.909> open
+
+00:02:01.899 --> 00:02:01.909 
+we're going to go load request open
+
+00:02:01.909 --> 00:02:07.630 
+we're going to go load request open
+another<00:02:02.090> square<00:02:02.270> bracket<00:02:02.810> NS<00:02:04.600> URL<00:02:05.600> request<00:02:06.640> no
+
+00:02:07.630 --> 00:02:07.640 
+another square bracket NS URL request no
+
+00:02:07.640 --> 00:02:12.759 
+another square bracket NS URL request no
+not<00:02:08.060> the<00:02:08.360> autocomplete<00:02:09.610> request<00:02:11.769> request
+
+00:02:12.759 --> 00:02:12.769 
+not the autocomplete request request
+
+00:02:12.769 --> 00:02:15.190 
+not the autocomplete request request
+with<00:02:13.489> URL
+
+00:02:15.190 --> 00:02:15.200 
+with URL
+
+00:02:15.200 --> 00:02:16.780 
+with URL
+then<00:02:15.500> we're<00:02:15.650> going<00:02:15.770> to<00:02:15.860> go<00:02:15.920> another<00:02:16.520> square
+
+00:02:16.780 --> 00:02:16.790 
+then we're going to go another square
+
+00:02:16.790 --> 00:02:22.990 
+then we're going to go another square
+bracket<00:02:17.180> in<00:02:17.450> s<00:02:17.720> url<00:02:18.500> url<00:02:20.260> with<00:02:21.260> string<00:02:22.000> then
+
+00:02:22.990 --> 00:02:23.000 
+bracket in s url url with string then
+
+00:02:23.000 --> 00:02:25.270 
+bracket in s url url with string then
+we're<00:02:23.269> going<00:02:23.360> to<00:02:23.420> do<00:02:23.959> at<00:02:24.200> quotes<00:02:24.709> and<00:02:25.129> then
+
+00:02:25.270 --> 00:02:25.280 
+we're going to do at quotes and then
+
+00:02:25.280 --> 00:02:26.530 
+we're going to do at quotes and then
+we're<00:02:25.400> going<00:02:25.519> to<00:02:25.580> put<00:02:25.790> in<00:02:25.940> our<00:02:26.030> website
+
+00:02:26.530 --> 00:02:26.540 
+we're going to put in our website
+
+00:02:26.540 --> 00:02:29.259 
+we're going to put in our website
+address<00:02:27.080> now<00:02:27.950> I've<00:02:28.160> already<00:02:28.370> got<00:02:28.610> mine<00:02:28.819> copied
+
+00:02:29.259 --> 00:02:29.269 
+address now I've already got mine copied
+
+00:02:29.269 --> 00:02:30.880 
+address now I've already got mine copied
+because<00:02:29.450> it's<00:02:29.780> google's<00:02:30.319> so<00:02:30.620> i'm<00:02:30.680> going<00:02:30.800> to
+
+00:02:30.880 --> 00:02:30.890 
+because it's google's so i'm going to
+
+00:02:30.890 --> 00:02:33.729 
+because it's google's so i'm going to
+paste<00:02:31.340> that<00:02:31.459> in<00:02:31.670> there<00:02:32.050> now<00:02:33.050> make<00:02:33.440> sure<00:02:33.470> you
+
+00:02:33.729 --> 00:02:33.739 
+paste that in there now make sure you
+
+00:02:33.739 --> 00:02:36.670 
+paste that in there now make sure you
+have<00:02:34.040> this<00:02:34.540> HTTP<00:02:35.540> colon<00:02:35.959> forward<00:02:36.560> slash
+
+00:02:36.670 --> 00:02:36.680 
+have this HTTP colon forward slash
+
+00:02:36.680 --> 00:02:40.630 
+have this HTTP colon forward slash
+forward<00:02:37.310> slash<00:02:37.660> because<00:02:39.250> sometimes<00:02:40.250> it<00:02:40.430> works
+
+00:02:40.630 --> 00:02:40.640 
+forward slash because sometimes it works
+
+00:02:40.640 --> 00:02:42.670 
+forward slash because sometimes it works
+sometimes<00:02:40.760> it<00:02:41.239> doesn't<00:02:41.299> so<00:02:42.110> make<00:02:42.410> sure<00:02:42.440> you
+
+00:02:42.670 --> 00:02:42.680 
+sometimes it doesn't so make sure you
+
+00:02:42.680 --> 00:02:44.259 
+sometimes it doesn't so make sure you
+have<00:02:42.769> that<00:02:42.920> in<00:02:43.069> there<00:02:43.250> anyway<00:02:43.640> just<00:02:44.150> because
+
+00:02:44.259 --> 00:02:44.269 
+have that in there anyway just because
+
+00:02:44.269 --> 00:02:47.350 
+have that in there anyway just because
+sometimes<00:02:44.959> the<00:02:45.140> webview<00:02:45.470> overload<00:02:46.000> then<00:02:47.000> n
+
+00:02:47.350 --> 00:02:47.360 
+sometimes the webview overload then n
+
+00:02:47.360 --> 00:02:52.449 
+sometimes the webview overload then n
+the<00:02:47.750> coats<00:02:48.549> ends<00:02:49.549> the<00:02:49.760> three<00:02:51.099> square<00:02:52.099> brackets
+
+00:02:52.449 --> 00:02:52.459 
+the coats ends the three square brackets
+
+00:02:52.459 --> 00:02:56.289 
+the coats ends the three square brackets
+put<00:02:53.000> a<00:02:53.030> semicolon<00:02:53.799> save<00:02:54.799> and<00:02:55.190> we<00:02:55.940> should<00:02:56.180> be
+
+00:02:56.289 --> 00:02:56.299 
+put a semicolon save and we should be
+
+00:02:56.299 --> 00:02:59.319 
+put a semicolon save and we should be
+able<00:02:56.329> to<00:02:56.599> build<00:02:56.900> and<00:02:57.140> run<00:02:57.319> and<00:02:58.030> see<00:02:59.030> how<00:02:59.180> it
+
+00:02:59.319 --> 00:02:59.329 
+able to build and run and see how it
+
+00:02:59.329 --> 00:03:04.140 
+able to build and run and see how it
+goes<00:02:59.590> so<00:03:00.590> I<00:03:00.620> just<00:03:01.220> pop<00:03:01.430> over<00:03:01.640> to<00:03:01.760> the<00:03:02.030> thing<00:03:02.959> and
+
+00:03:04.140 --> 00:03:04.150 
+goes so I just pop over to the thing and
+
+00:03:04.150 --> 00:03:07.630 
+goes so I just pop over to the thing and
+my<00:03:05.150> internet<00:03:05.420> works<00:03:06.099> Google<00:03:07.099> should<00:03:07.250> load<00:03:07.430> and
+
+00:03:07.630 --> 00:03:07.640 
+my internet works Google should load and
+
+00:03:07.640 --> 00:03:09.670 
+my internet works Google should load and
+as<00:03:08.000> you<00:03:08.120> can<00:03:08.239> see<00:03:08.269> there's<00:03:08.630> Google<00:03:08.959> and<00:03:09.140> it's<00:03:09.590> a
+
+00:03:09.670 --> 00:03:09.680 
+as you can see there's Google and it's a
+
+00:03:09.680 --> 00:03:11.170 
+as you can see there's Google and it's a
+fully<00:03:09.890> functioning<00:03:10.370> webview<00:03:10.730> it's<00:03:10.880> got<00:03:11.060> the
+
+00:03:11.170 --> 00:03:11.180 
+fully functioning webview it's got the
+
+00:03:11.180 --> 00:03:13.569 
+fully functioning webview it's got the
+scroll<00:03:11.599> and<00:03:11.630> everything<00:03:12.230> working<00:03:12.410> that<00:03:12.739> go
+
+00:03:13.569 --> 00:03:13.579 
+scroll and everything working that go
+
+00:03:13.579 --> 00:03:17.470 
+scroll and everything working that go
+into<00:03:13.819> the<00:03:14.390> Google<00:03:15.019> bar<00:03:15.560> here<00:03:15.950> and<00:03:16.190> type<00:03:17.030> so<00:03:17.329> I'm
+
+00:03:17.470 --> 00:03:17.480 
+into the Google bar here and type so I'm
+
+00:03:17.480 --> 00:03:21.069 
+into the Google bar here and type so I'm
+going<00:03:17.630> to<00:03:17.690> search<00:03:17.870> a<00:03:18.110> new<00:03:18.260> high<00:03:19.810> insert<00:03:20.810> soon
+
+00:03:21.069 --> 00:03:21.079 
+going to search a new high insert soon
+
+00:03:21.079 --> 00:03:25.180 
+going to search a new high insert soon
+as<00:03:21.200> you<00:03:21.290> can<00:03:21.410> see<00:03:21.590> we've<00:03:21.769> got<00:03:21.799> hi<00:03:22.609> there<00:03:23.590> so<00:03:24.590> yep
+
+00:03:25.180 --> 00:03:25.190 
+as you can see we've got hi there so yep
+
+00:03:25.190 --> 00:03:27.129 
+as you can see we've got hi there so yep
+the<00:03:25.760> reason<00:03:26.090> why<00:03:26.180> we<00:03:26.299> didn't<00:03:26.510> need<00:03:26.600> a<00:03:26.660> button
+
+00:03:27.129 --> 00:03:27.139 
+the reason why we didn't need a button
+
+00:03:27.139 --> 00:03:28.840 
+the reason why we didn't need a button
+for<00:03:27.319> this<00:03:27.470> is<00:03:27.709> because<00:03:27.739> we<00:03:28.160> use<00:03:28.310> the<00:03:28.459> view<00:03:28.700> did
+
+00:03:28.840 --> 00:03:28.850 
+for this is because we use the view did
+
+00:03:28.850 --> 00:03:34.080 
+for this is because we use the view did
+load<00:03:28.880> and<00:03:29.739> the<00:03:30.739> view<00:03:31.280> did<00:03:31.430> load<00:03:31.840> allows<00:03:32.840> us<00:03:33.109> to
+
+00:03:34.080 --> 00:03:34.090 
+load and the view did load allows us to
+
+00:03:34.090 --> 00:03:36.580 
+load and the view did load allows us to
+basically<00:03:35.090> what<00:03:35.569> it<00:03:35.630> is<00:03:35.780> as<00:03:35.900> soon<00:03:36.139> as<00:03:36.290> a<00:03:36.319> few
+
+00:03:36.580 --> 00:03:36.590 
+basically what it is as soon as a few
+
+00:03:36.590 --> 00:03:39.220 
+basically what it is as soon as a few
+loads<00:03:36.829> he<00:03:37.160> should<00:03:37.400> do<00:03:37.579> this<00:03:37.790> code<00:03:38.120> so<00:03:38.930> we<00:03:38.959> don't
+
+00:03:39.220 --> 00:03:39.230 
+loads he should do this code so we don't
+
+00:03:39.230 --> 00:03:43.030 
+loads he should do this code so we don't
+need<00:03:39.380> any<00:03:39.530> button<00:03:40.010> for<00:03:40.220> it<00:03:40.420> so<00:03:41.470> in<00:03:42.470> the<00:03:42.769> next
+
+00:03:43.030 --> 00:03:43.040 
+need any button for it so in the next
+
+00:03:43.040 --> 00:03:44.920 
+need any button for it so in the next
+tutorial<00:03:43.370> the<00:03:43.940> more<00:03:44.120> advanced<00:03:44.540> on<00:03:44.660> i'll<00:03:44.810> be
+
+00:03:44.920 --> 00:03:44.930 
+tutorial the more advanced on i'll be
+
+00:03:44.930 --> 00:03:46.599 
+tutorial the more advanced on i'll be
+going<00:03:45.200> over<00:03:45.290> how<00:03:45.440> you<00:03:45.530> can<00:03:45.889> implement<00:03:46.160> back
+
+00:03:46.599 --> 00:03:46.609 
+going over how you can implement back
+
+00:03:46.609 --> 00:03:49.059 
+going over how you can implement back
+buttons<00:03:47.060> forward<00:03:47.630> buttons<00:03:47.959> refresh<00:03:48.680> buttons
+
+00:03:49.059 --> 00:03:49.069 
+buttons forward buttons refresh buttons
+
+00:03:49.069 --> 00:03:52.000 
+buttons forward buttons refresh buttons
+and<00:03:49.280> all<00:03:49.819> sorts<00:03:50.150> of<00:03:50.239> stuff<00:03:50.420> like<00:03:50.450> that<00:03:51.010> into
+
+00:03:52.000 --> 00:03:52.010 
+and all sorts of stuff like that into
+
+00:03:52.010 --> 00:03:53.770 
+and all sorts of stuff like that into
+the<00:03:52.130> web<00:03:52.280> view<00:03:52.489> so<00:03:52.790> you<00:03:52.819> can<00:03:52.940> go<00:03:53.510> back<00:03:53.540> and
+
+00:03:53.770 --> 00:03:53.780 
+the web view so you can go back and
+
+00:03:53.780 --> 00:03:56.949 
+the web view so you can go back and
+forward<00:03:54.410> between<00:03:54.590> pages<00:03:55.569> that<00:03:56.569> link<00:03:56.600> should
+
+00:03:56.949 --> 00:03:56.959 
+forward between pages that link should
+
+00:03:56.959 --> 00:04:00.930 
+forward between pages that link should
+appear<00:03:57.350> here<00:03:57.970> so<00:03:58.970> thanks<00:03:59.780> for<00:03:59.870> watching<00:04:00.200> guys
+
+00:04:00.930 --> 00:04:00.940 
+appear here so thanks for watching guys
+
+00:04:00.940 --> 00:04:04.150 
+appear here so thanks for watching guys
+see<00:04:01.940> you<00:04:02.060> in<00:04:02.209> the<00:04:02.299> next<00:04:02.450> tutorial<00:04:02.769> if<00:04:03.769> you<00:04:03.980> like
+
+00:04:04.150 --> 00:04:04.160 
+see you in the next tutorial if you like
+
+00:04:04.160 --> 00:04:06.940 
+see you in the next tutorial if you like
+my<00:04:04.340> videos<00:04:04.670> give<00:04:05.269> me<00:04:05.420> a<00:04:05.450> comment<00:04:05.750> and<00:04:06.019> tell<00:04:06.590> me
+
+00:04:06.940 --> 00:04:06.950 
+my videos give me a comment and tell me
+
+00:04:06.950 --> 00:04:08.860 
+my videos give me a comment and tell me
+what<00:04:07.220> other<00:04:07.370> videos<00:04:07.760> you<00:04:07.790> would<00:04:08.060> like<00:04:08.150> to<00:04:08.690> see
+
+00:04:08.860 --> 00:04:08.870 
+what other videos you would like to see
+
+00:04:08.870 --> 00:04:12.430 
+what other videos you would like to see
+from<00:04:09.109> me<00:04:09.519> so<00:04:10.519> thanks<00:04:10.970> for<00:04:11.060> watching<00:04:11.440> please
+
+00:04:12.430 --> 00:04:12.440 
+from me so thanks for watching please
+
+00:04:12.440 --> 00:04:15.430 
+from me so thanks for watching please
+comment<00:04:12.769> rate<00:04:12.950> and<00:04:13.370> subscribe
+

@@ -1,0 +1,355 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.110 --> 00:00:05.160
+ hi everyone my name is kuprienko artem 
+
+00:00:02.939 --> 00:00:06.990
+ not now we learn to make a plan 
+
+00:00:05.160 --> 00:00:09.120
+ candles and so us for that 
+
+00:00:06.990 --> 00:00:12.389
+ need of course harvested 
+
+00:00:09.120 --> 00:00:14.820
+ model and conditions that will be 
+
+00:00:12.389 --> 00:00:16.859
+ stimulate evening lighting i.e. 
+
+00:00:14.820 --> 00:00:18.930
+ now without any additional 
+
+00:00:16.859 --> 00:00:22.470
+ light sources only with the game gen 
+
+00:00:18.930 --> 00:00:25.609
+ tramp on the moment we get such here 
+
+00:00:22.470 --> 00:00:29.189
+ effect that is the feeling that we 
+
+00:00:25.609 --> 00:00:31.560
+ we are somewhere in the evening and so 
+
+00:00:29.189 --> 00:00:33.690
+ what do we need for this in order 
+
+00:00:31.560 --> 00:00:34.760
+ to hand over the flame of a candle flame of a candle to us 
+
+00:00:33.690 --> 00:00:36.899
+ will need 
+
+00:00:34.760 --> 00:00:38.730
+ appropriate play which will be 
+
+00:00:36.899 --> 00:00:44.180
+ determine the approximate dimensions of this 
+
+00:00:38.730 --> 00:00:46.379
+ flame and so we build plain it is normal 
+
+00:00:44.180 --> 00:00:50.250
+ maybe a rectangle maybe 
+
+00:00:46.379 --> 00:00:52.500
+ square depending on which one 
+
+00:00:50.250 --> 00:00:56.010
+ you texture such aspect ratio 
+
+00:00:52.500 --> 00:00:57.960
+ your textures and set it to flame 
+
+00:00:56.010 --> 00:01:01.559
+ the corresponding position that is if u 
+
+00:00:57.960 --> 00:01:06.740
+ us the candle is in the popular camera 
+
+00:01:01.559 --> 00:01:09.150
+ in this way this square 
+
+00:01:06.740 --> 00:01:12.390
+ then we put this glue in the same way 
+
+00:01:09.150 --> 00:01:13.939
+ perpendicular to the camera if you don't know 
+
+00:01:12.390 --> 00:01:17.400
+ the accuracy of which side will be rendered 
+
+00:01:13.939 --> 00:01:19.890
+ your candle that is possible, or 
+
+00:01:17.400 --> 00:01:22.920
+ renders options from different angles then i 
+
+00:01:19.890 --> 00:01:24.570
+ I recommend to put 2 play on detailed 
+
+00:01:22.920 --> 00:01:27.150
+ at an angle of 90 degrees relative 
+
+00:01:24.570 --> 00:01:29.850
+ each other since tweens when in 
+
+00:01:27.150 --> 00:01:31.079
+ principle from almost any side with 
+
+00:01:29.850 --> 00:01:33.810
+ a side of your flame will 
+
+00:01:31.079 --> 00:01:34.740
+ seem correct volumetric and so 
+
+00:01:33.810 --> 00:01:37.380
+ set plain 
+
+00:01:34.740 --> 00:01:40.070
+ Now we create a shader which will be 
+
+00:01:37.380 --> 00:01:47.750
+ feign the flame of our candles so 
+
+00:01:40.070 --> 00:01:49.820
+ create a new king of intel and you need views 
+
+00:01:47.750 --> 00:01:51.160
+ put the appropriate texture me 
+
+00:01:49.820 --> 00:01:53.240
+ prepared texture 
+
+00:01:51.160 --> 00:01:56.110
+ has a flowing texture which 
+
+00:01:53.240 --> 00:01:59.090
+ simulates the flame of a candle 
+
+00:01:56.110 --> 00:02:01.729
+ apply this texture of course 
+
+00:01:59.090 --> 00:02:04.880
+ enable checker required 
+
+00:02:01.729 --> 00:02:09.830
+ we decompose it modifier movie wmf 
+
+00:02:04.880 --> 00:02:15.550
+ and it turns out such here such here 
+
+00:02:09.830 --> 00:02:18.650
+ flame simulation of course is not enough 
+
+00:02:15.550 --> 00:02:21.050
+ now it's just a bitmap need to suzy us 
+
+00:02:18.650 --> 00:02:25.370
+ need to do so that this candle burned 
+
+00:02:21.050 --> 00:02:29.750
+ and also we need to remove the highlight gives 
+
+00:02:25.370 --> 00:02:30.560
+ dark dark sides on the dark part 
+
+00:02:29.750 --> 00:02:34.910
+ of our 
+
+00:02:30.560 --> 00:02:39.380
+ our cards for this we exist 
+
+00:02:34.910 --> 00:02:42.440
+ the opacity map we turn on and use 
+
+00:02:39.380 --> 00:02:45.770
+ corresponding card that is we 
+
+00:02:42.440 --> 00:02:47.900
+ this card denotes what is white 
+
+00:02:45.770 --> 00:02:49.730
+ part of us will be rendered 
+
+00:02:47.900 --> 00:02:58.030
+ about the black part will be transparent 
+
+00:02:49.730 --> 00:03:02.120
+ absolutely get a picture like this 
+
+00:02:58.030 --> 00:03:03.590
+ but the candle is not ready now we need 
+
+00:03:02.120 --> 00:03:05.959
+ make it so that the candle burned 
+
+00:03:03.590 --> 00:03:09.320
+ because if i start rendering my 
+
+00:03:05.959 --> 00:03:15.320
+ image let's see for us 
+
+00:03:09.320 --> 00:03:17.510
+ just see a map so she could barely 
+
+00:03:15.320 --> 00:03:20.810
+ Noticeably but she still not shine 
+
+00:03:17.510 --> 00:03:23.269
+ now we clamp it and the next 
+
+00:03:20.810 --> 00:03:27.049
+ the way we use the sales card 
+
+00:03:23.269 --> 00:03:29.420
+ illuminations with multiplayer unit with 
+
+00:03:27.049 --> 00:03:31.730
+ meaning that is our candle night 
+
+00:03:29.420 --> 00:03:33.049
+ get burnt and as a map we 
+
+00:03:31.730 --> 00:03:36.280
+ use the same card which 
+
+00:03:33.049 --> 00:03:36.280
+ used hills 
+
+00:03:37.420 --> 00:03:41.980
+ let's see how it looks like 
+
+00:03:39.560 --> 00:03:41.980
+ renderer 
+
+00:03:45.010 --> 00:03:51.350
+ here there is such a flame again 
+
+00:03:49.040 --> 00:03:53.600
+ its not enough why because if we 
+
+00:03:51.350 --> 00:03:57.730
+ look at the prototype photo and 
+
+00:03:53.600 --> 00:03:59.240
+ candles we will be able to notice the fact that the light 
+
+00:03:57.730 --> 00:04:01.730
+ burning wick 
+
+00:03:59.240 --> 00:04:05.510
+ it spreads much more widely 
+
+00:04:01.730 --> 00:04:07.720
+ illuminates the object and nearby to the candle and 
+
+00:04:05.510 --> 00:04:10.180
+ directly highlight the wax itself 
+
+00:04:07.720 --> 00:04:12.290
+ what do i do for this i 
+
+00:04:10.180 --> 00:04:15.350
+ I will make an additional light source 
+
+00:04:12.290 --> 00:04:21.020
+ which will be presented in the form of a crown 
+
+00:04:15.350 --> 00:04:27.890
+ lite-on in sphere mode i will leave 
+
+00:04:21.020 --> 00:04:32.230
+ a small top which will illuminate 
+
+00:04:27.890 --> 00:04:34.370
+ my son is setting him up and her somewhere 
+
+00:04:32.230 --> 00:04:36.080
+ to the place where we wicks 
+
+00:04:34.370 --> 00:04:38.210
+ in contact with the flame that is 
+
+00:04:36.080 --> 00:04:41.270
+ the brightest point of light will be exactly 
+
+00:04:38.210 --> 00:04:42.400
+ here the size can be put a little 
+
+00:04:41.270 --> 00:04:44.390
+ more 
+
+00:04:42.400 --> 00:04:47.030
+ the intensity of me is high since 
+
+00:04:44.390 --> 00:04:49.970
+ radius is quite small temperature 
+
+00:04:47.030 --> 00:04:54.470
+ colors now me two thousand kelvins and 
+
+00:04:49.970 --> 00:04:56.960
+ I removed all the checkboxes of communication was that is 
+
+00:04:54.470 --> 00:04:59.690
+ so that this ball is not reflected anywhere 
+
+00:04:56.960 --> 00:05:03.400
+ refracted and was invisible and so 
+
+00:04:59.690 --> 00:05:03.400
+ we look at what we do with it 
+
+00:05:06.550 --> 00:05:14.020
+ here we can see what appears such 
+
+00:05:09.280 --> 00:05:15.070
+ ambient light which is generated 
+
+00:05:14.020 --> 00:05:17.680
+ precisely this sphere 
+
+00:05:15.070 --> 00:05:21.390
+ he highlights our surroundings and he 
+
+00:05:17.680 --> 00:05:26.260
+ highlights the candle wax and which we have 
+
+00:05:21.390 --> 00:05:27.720
+ essentially are with material in the crown 
+
+00:05:26.260 --> 00:05:31.660
+ still no 
+
+00:05:27.720 --> 00:05:33.700
+ simulated zoom effect sss we 
+
+00:05:31.660 --> 00:05:36.580
+ we get such a translucent effect to 
+
+00:05:33.700 --> 00:05:39.480
+ the scattering of light we actually get 
+
+00:05:36.580 --> 00:05:41.380
+ the candle itself is a flame burning on the wick and 
+
+00:05:39.480 --> 00:05:42.940
+ ambient light which 
+
+00:05:41.380 --> 00:05:45.370
+ light us additional objects 
+
+00:05:42.940 --> 00:05:48.370
+ what is it all hope you have a lesson 
+
+00:05:45.370 --> 00:05:50.550
+ helpful with you was bought to artem all 
+
+00:05:48.370 --> 00:05:50.550
+ until 
+

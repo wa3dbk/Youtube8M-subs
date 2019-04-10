@@ -1,0 +1,1061 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.119 
+
+hey<00:00:00.810> guys<00:00:01.050> this<00:00:01.230> is<00:00:01.290> the<00:00:01.530> audience<00:00:01.860> and
+
+00:00:02.119 --> 00:00:02.129 
+hey guys this is the audience and
+
+00:00:02.129 --> 00:00:04.190 
+hey guys this is the audience and
+welcome<00:00:02.639> to<00:00:02.820> our<00:00:02.939> tutorial<00:00:03.120> in<00:00:03.990> this<00:00:04.140> tutorial
+
+00:00:04.190 --> 00:00:04.200 
+welcome to our tutorial in this tutorial
+
+00:00:04.200 --> 00:00:06.280 
+welcome to our tutorial in this tutorial
+I'm<00:00:04.799> gonna<00:00:04.980> show<00:00:05.069> you<00:00:05.250> guys<00:00:05.310> how<00:00:05.490> to<00:00:05.730> animate
+
+00:00:06.280 --> 00:00:06.290 
+I'm gonna show you guys how to animate
+
+00:00:06.290 --> 00:00:09.560 
+I'm gonna show you guys how to animate
+an<00:00:07.290> object<00:00:07.610> along<00:00:08.610> a<00:00:09.030> path
+
+00:00:09.560 --> 00:00:09.570 
+an object along a path
+
+00:00:09.570 --> 00:00:12.049 
+an object along a path
+alright<00:00:10.019> so<00:00:10.650> we'll<00:00:10.830> put<00:00:11.040> this<00:00:11.160> plane<00:00:11.550> he<00:00:11.880> might
+
+00:00:12.049 --> 00:00:12.059 
+alright so we'll put this plane he might
+
+00:00:12.059 --> 00:00:13.940 
+alright so we'll put this plane he might
+open<00:00:12.240> up<00:00:12.360> I'm<00:00:12.450> gonna<00:00:12.630> show<00:00:12.870> you<00:00:12.929> two<00:00:13.200> examples
+
+00:00:13.940 --> 00:00:13.950 
+open up I'm gonna show you two examples
+
+00:00:13.950 --> 00:00:16.700 
+open up I'm gonna show you two examples
+imagine<00:00:14.639> this<00:00:14.910> plane<00:00:15.240> was<00:00:15.480> a<00:00:15.509> car<00:00:15.839> to<00:00:16.320> animate
+
+00:00:16.700 --> 00:00:16.710 
+imagine this plane was a car to animate
+
+00:00:16.710 --> 00:00:19.160 
+imagine this plane was a car to animate
+a<00:00:16.740> car<00:00:17.070> along<00:00:17.400> the<00:00:17.460> path<00:00:17.850> we<00:00:18.480> have<00:00:18.600> to<00:00:18.779> use<00:00:18.930> what
+
+00:00:19.160 --> 00:00:19.170 
+a car along the path we have to use what
+
+00:00:19.170 --> 00:00:22.910 
+a car along the path we have to use what
+is<00:00:19.199> called<00:00:19.580> NURBS<00:00:20.750> surface<00:00:21.750> all<00:00:22.289> right<00:00:22.470> we
+
+00:00:22.910 --> 00:00:22.920 
+is called NURBS surface all right we
+
+00:00:22.920 --> 00:00:24.560 
+is called NURBS surface all right we
+might<00:00:23.100> have<00:00:23.279> the<00:00:23.430> NURBS<00:00:23.640> surface<00:00:24.060> of<00:00:24.240> the<00:00:24.330> road
+
+00:00:24.560 --> 00:00:24.570 
+might have the NURBS surface of the road
+
+00:00:24.570 --> 00:00:26.480 
+might have the NURBS surface of the road
+anyway<00:00:24.810> I'm<00:00:25.170> just<00:00:25.320> gonna<00:00:25.619> we<00:00:26.099> don't<00:00:26.130> have<00:00:26.369> to
+
+00:00:26.480 --> 00:00:26.490 
+anyway I'm just gonna we don't have to
+
+00:00:26.490 --> 00:00:27.950 
+anyway I'm just gonna we don't have to
+use<00:00:26.640> that<00:00:26.820> but<00:00:26.880> just<00:00:27.150> imagine<00:00:27.300> the<00:00:27.660> middle
+
+00:00:27.950 --> 00:00:27.960 
+use that but just imagine the middle
+
+00:00:27.960 --> 00:00:29.990 
+use that but just imagine the middle
+surface<00:00:28.410> the<00:00:28.769> world<00:00:28.949> you<00:00:29.580> want<00:00:29.730> to<00:00:29.760> animate
+
+00:00:29.990 --> 00:00:30.000 
+surface the world you want to animate
+
+00:00:30.000 --> 00:00:34.040 
+surface the world you want to animate
+that<00:00:30.840> along<00:00:31.320> a<00:00:31.619> path<00:00:32.430> on<00:00:32.700> the<00:00:32.880> road<00:00:33.059> so<00:00:33.780> it
+
+00:00:34.040 --> 00:00:34.050 
+that along a path on the road so it
+
+00:00:34.050 --> 00:00:36.020 
+that along a path on the road so it
+would<00:00:34.170> be<00:00:34.290> weird<00:00:34.620> to<00:00:34.649> actually<00:00:35.010> draw<00:00:35.219> a<00:00:35.250> Bezier
+
+00:00:36.020 --> 00:00:36.030 
+would be weird to actually draw a Bezier
+
+00:00:36.030 --> 00:00:38.690 
+would be weird to actually draw a Bezier
+curve<00:00:36.450> a<00:00:36.780> CV<00:00:37.140> curve<00:00:37.350> or<00:00:37.620> just<00:00:37.800> a<00:00:37.890> pen<00:00:38.129> curve<00:00:38.399> on
+
+00:00:38.690 --> 00:00:38.700 
+curve a CV curve or just a pen curve on
+
+00:00:38.700 --> 00:00:42.139 
+curve a CV curve or just a pen curve on
+the<00:00:39.090> road<00:00:39.270> because<00:00:39.690> it's<00:00:40.110> not<00:00:40.379> live<00:00:40.860> but<00:00:41.730> to<00:00:42.059> be
+
+00:00:42.139 --> 00:00:42.149 
+the road because it's not live but to be
+
+00:00:42.149 --> 00:00:43.970 
+the road because it's not live but to be
+able<00:00:42.239> to<00:00:42.390> draw<00:00:42.629> a<00:00:42.780> curve<00:00:43.050> on<00:00:43.379> a<00:00:43.410> road<00:00:43.710> you<00:00:43.739> have
+
+00:00:43.970 --> 00:00:43.980 
+able to draw a curve on a road you have
+
+00:00:43.980 --> 00:00:46.520 
+able to draw a curve on a road you have
+to<00:00:44.100> make<00:00:44.250> the<00:00:44.640> road<00:00:44.879> live<00:00:45.510> and<00:00:45.930> imagine<00:00:46.410> this
+
+00:00:46.520 --> 00:00:46.530 
+to make the road live and imagine this
+
+00:00:46.530 --> 00:00:48.590 
+to make the road live and imagine this
+is<00:00:46.710> the<00:00:46.800> road<00:00:47.039> to<00:00:47.370> make<00:00:47.820> it<00:00:47.969> live<00:00:48.149> you<00:00:48.180> have<00:00:48.420> to
+
+00:00:48.590 --> 00:00:48.600 
+is the road to make it live you have to
+
+00:00:48.600 --> 00:00:51.319 
+is the road to make it live you have to
+put<00:00:48.809> this<00:00:49.020> little<00:00:49.379> magnet<00:00:49.770> here<00:00:50.039> that<00:00:50.329> says
+
+00:00:51.319 --> 00:00:51.329 
+put this little magnet here that says
+
+00:00:51.329 --> 00:00:53.360 
+put this little magnet here that says
+make<00:00:51.690> the<00:00:51.870> selected<00:00:52.260> object<00:00:52.590> life<00:00:52.770> and<00:00:53.160> just
+
+00:00:53.360 --> 00:00:53.370 
+make the selected object life and just
+
+00:00:53.370 --> 00:00:55.970 
+make the selected object life and just
+click<00:00:53.699> on<00:00:53.820> that<00:00:53.879> that<00:00:54.449> enables<00:00:55.260> the<00:00:55.410> object<00:00:55.920> to
+
+00:00:55.970 --> 00:00:55.980 
+click on that that enables the object to
+
+00:00:55.980 --> 00:00:58.610 
+click on that that enables the object to
+be<00:00:56.100> like<00:00:56.280> you<00:00:56.820> be<00:00:57.059> you<00:00:57.570> notice<00:00:57.960> if<00:00:58.379> you<00:00:58.440> have
+
+00:00:58.610 --> 00:00:58.620 
+be like you be you notice if you have
+
+00:00:58.620 --> 00:01:01.880 
+be like you be you notice if you have
+there<00:00:58.800> like<00:00:59.010> a<00:00:59.039> dark<00:00:59.730> green<00:01:00.420> thing<00:01:01.320> around<00:01:01.649> it
+
+00:01:01.880 --> 00:01:01.890 
+there like a dark green thing around it
+
+00:01:01.890 --> 00:01:05.770 
+there like a dark green thing around it
+all<00:01:02.039> right<00:01:02.250> dark<00:01:02.820> green<00:01:03.480> border<00:01:04.140> on<00:01:04.409> the<00:01:04.650> NURBS
+
+00:01:05.770 --> 00:01:05.780 
+all right dark green border on the NURBS
+
+00:01:05.780 --> 00:01:09.770 
+all right dark green border on the NURBS
+surface<00:01:06.780> so<00:01:07.729> we've<00:01:08.729> made<00:01:08.939> this<00:01:09.150> life<00:01:09.450> and<00:01:09.720> to
+
+00:01:09.770 --> 00:01:09.780 
+surface so we've made this life and to
+
+00:01:09.780 --> 00:01:11.870 
+surface so we've made this life and to
+actually<00:01:10.380> draw<00:01:10.890> on<00:01:10.920> this<00:01:11.220> surface<00:01:11.460> we<00:01:11.760> have<00:01:11.790> to
+
+00:01:11.870 --> 00:01:11.880 
+actually draw on this surface we have to
+
+00:01:11.880 --> 00:01:14.380 
+actually draw on this surface we have to
+actually<00:01:12.780> go<00:01:12.930> to<00:01:12.990> our<00:01:13.200> curves<00:01:13.500> create<00:01:13.890> a<00:01:14.070> curve
+
+00:01:14.380 --> 00:01:14.390 
+actually go to our curves create a curve
+
+00:01:14.390 --> 00:01:22.130 
+actually go to our curves create a curve
+so<00:01:15.390> bank<00:01:15.960> then<00:01:16.590> bang<00:01:17.659> bang<00:01:18.659> bang<00:01:20.299> bang<00:01:21.299> bang
+
+00:01:22.130 --> 00:01:22.140 
+so bank then bang bang bang bang bang
+
+00:01:22.140 --> 00:01:26.240 
+so bank then bang bang bang bang bang
+bang<00:01:22.200> bang<00:01:23.189> and<00:01:23.700> and<00:01:24.740> we've<00:01:25.740> actually<00:01:25.890> created
+
+00:01:26.240 --> 00:01:26.250 
+bang bang and and we've actually created
+
+00:01:26.250 --> 00:01:28.789 
+bang bang and and we've actually created
+a<00:01:26.580> created<00:01:27.060> curve<00:01:27.360> and<00:01:27.630> we<00:01:28.320> can<00:01:28.590> actually
+
+00:01:28.789 --> 00:01:28.799 
+a created curve and we can actually
+
+00:01:28.799 --> 00:01:32.210 
+a created curve and we can actually
+animate<00:01:29.460> this<00:01:29.670> plane<00:01:30.000> along<00:01:30.479> this<00:01:30.869> path<00:01:31.409> but
+
+00:01:32.210 --> 00:01:32.220 
+animate this plane along this path but
+
+00:01:32.220 --> 00:01:34.760 
+animate this plane along this path but
+that<00:01:32.700> puts<00:01:33.090> a<00:01:33.360> plane<00:01:33.600> why<00:01:33.990> make<00:01:34.229> it<00:01:34.259> applicable
+
+00:01:34.760 --> 00:01:34.770 
+that puts a plane why make it applicable
+
+00:01:34.770 --> 00:01:37.190 
+that puts a plane why make it applicable
+when<00:01:35.280> we<00:01:35.400> can<00:01:35.579> drive<00:01:36.030> on<00:01:36.270> a<00:01:36.299> road<00:01:36.390> like<00:01:36.600> a<00:01:36.840> car
+
+00:01:37.190 --> 00:01:37.200 
+when we can drive on a road like a car
+
+00:01:37.200 --> 00:01:39.380 
+when we can drive on a road like a car
+when<00:01:37.500> it<00:01:37.650> can<00:01:37.799> fly<00:01:38.070> all<00:01:38.400> right<00:01:38.579> so<00:01:39.150> we're<00:01:39.299> not
+
+00:01:39.380 --> 00:01:39.390 
+when it can fly all right so we're not
+
+00:01:39.390 --> 00:01:41.179 
+when it can fly all right so we're not
+gonna<00:01:39.540> animate<00:01:39.780> this<00:01:40.049> from<00:01:40.229> this<00:01:40.409> on<00:01:40.890> this<00:01:41.130> is
+
+00:01:41.179 --> 00:01:41.189 
+gonna animate this from this on this is
+
+00:01:41.189 --> 00:01:43.370 
+gonna animate this from this on this is
+our<00:01:41.460> to<00:01:41.640> the<00:01:41.909> surface<00:01:42.360> by<00:01:42.540> trying<00:01:42.869> to<00:01:43.079> show<00:01:43.320> you
+
+00:01:43.370 --> 00:01:43.380 
+our to the surface by trying to show you
+
+00:01:43.380 --> 00:01:46.249 
+our to the surface by trying to show you
+that's<00:01:43.799> how<00:01:44.009> you<00:01:44.070> would<00:01:44.250> do<00:01:44.430> it<00:01:44.460> it<00:01:45.090> was<00:01:45.420> on<00:01:46.200> a
+
+00:01:46.249 --> 00:01:46.259 
+that's how you would do it it was on a
+
+00:01:46.259 --> 00:01:48.170 
+that's how you would do it it was on a
+road<00:01:46.590> but<00:01:46.950> it's<00:01:47.100> a<00:01:47.159> play<00:01:47.369> I'm<00:01:47.520> gonna<00:01:47.700> do<00:01:47.880> it<00:01:48.000> a
+
+00:01:48.170 --> 00:01:48.180 
+road but it's a play I'm gonna do it a
+
+00:01:48.180 --> 00:01:50.330 
+road but it's a play I'm gonna do it a
+different<00:01:48.360> way<00:01:48.630> because<00:01:49.530> the<00:01:49.860> plane<00:01:50.070> is<00:01:50.100> gonna
+
+00:01:50.330 --> 00:01:50.340 
+different way because the plane is gonna
+
+00:01:50.340 --> 00:01:51.950 
+different way because the plane is gonna
+fly<00:01:50.640> and<00:01:50.700> we're<00:01:50.970> gonna<00:01:51.090> draw<00:01:51.299> this<00:01:51.450> curve<00:01:51.689> in
+
+00:01:51.950 --> 00:01:51.960 
+fly and we're gonna draw this curve in
+
+00:01:51.960 --> 00:01:53.870 
+fly and we're gonna draw this curve in
+the<00:01:52.110> air<00:01:52.320> and<00:01:52.619> I've<00:01:52.860> got<00:01:53.189> a<00:01:53.220> scene<00:01:53.549> that
+
+00:01:53.870 --> 00:01:53.880 
+the air and I've got a scene that
+
+00:01:53.880 --> 00:01:56.749 
+the air and I've got a scene that
+already<00:01:53.939> has<00:01:54.420> a<00:01:54.450> curve<00:01:54.869> drawn<00:01:55.439> in<00:01:55.710> there<00:01:55.890> to
+
+00:01:56.749 --> 00:01:56.759 
+already has a curve drawn in there to
+
+00:01:56.759 --> 00:02:08.930 
+already has a curve drawn in there to
+save<00:01:57.030> time<00:01:57.329> I'm<00:01:57.869> going<00:01:58.200> to<00:01:59.030> recent<00:02:00.030> files
+
+00:02:08.930 --> 00:02:08.940 
+
+00:02:08.940 --> 00:02:11.790 
+
+put<00:02:09.940> that<00:02:10.149> one<00:02:10.390> we<00:02:11.110> don't<00:02:11.260> want<00:02:11.380> to<00:02:11.470> save<00:02:11.680> this
+
+00:02:11.790 --> 00:02:11.800 
+put that one we don't want to save this
+
+00:02:11.800 --> 00:02:15.150 
+put that one we don't want to save this
+bad<00:02:12.070> boy<00:02:12.370> so<00:02:13.000> but<00:02:13.300> that<00:02:13.330> plane<00:02:13.840> that<00:02:14.160> that
+
+00:02:15.150 --> 00:02:15.160 
+bad boy so but that plane that that
+
+00:02:15.160 --> 00:02:18.000 
+bad boy so but that plane that that
+already<00:02:15.460> has<00:02:15.640> occurred<00:02:16.150> so<00:02:16.870> let<00:02:17.020> me<00:02:17.080> just<00:02:17.230> make
+
+00:02:18.000 --> 00:02:18.010 
+already has occurred so let me just make
+
+00:02:18.010 --> 00:02:21.690 
+already has occurred so let me just make
+this<00:02:18.570> graph<00:02:19.570> disappear<00:02:20.320> the<00:02:20.620> grid<00:02:20.890> disappear
+
+00:02:21.690 --> 00:02:21.700 
+this graph disappear the grid disappear
+
+00:02:21.700 --> 00:02:23.820 
+this graph disappear the grid disappear
+I'm<00:02:22.150> going<00:02:22.420> to<00:02:22.510> get<00:02:22.630> this<00:02:22.780> plane<00:02:23.110> and<00:02:23.350> just
+
+00:02:23.820 --> 00:02:23.830 
+I'm going to get this plane and just
+
+00:02:23.830 --> 00:02:27.060 
+I'm going to get this plane and just
+move<00:02:24.280> him<00:02:24.430> on<00:02:24.550> the<00:02:24.670> side<00:02:25.680> so<00:02:26.680> as<00:02:26.770> you<00:02:26.890> can<00:02:27.010> see
+
+00:02:27.060 --> 00:02:27.070 
+move him on the side so as you can see
+
+00:02:27.070 --> 00:02:29.520 
+move him on the side so as you can see
+that's<00:02:27.460> just<00:02:27.550> a<00:02:27.790> normal<00:02:28.330> curve<00:02:28.720> nothing
+
+00:02:29.520 --> 00:02:29.530 
+that's just a normal curve nothing
+
+00:02:29.530 --> 00:02:32.820 
+that's just a normal curve nothing
+special<00:02:29.770> just<00:02:29.980> a<00:02:30.160> normal<00:02:30.430> curve<00:02:31.290> so<00:02:32.290> to
+
+00:02:32.820 --> 00:02:32.830 
+special just a normal curve so to
+
+00:02:32.830 --> 00:02:34.350 
+special just a normal curve so to
+animate<00:02:33.220> along<00:02:33.490> this<00:02:33.640> curve<00:02:33.910> I'm<00:02:34.090> going<00:02:34.270> to
+
+00:02:34.350 --> 00:02:34.360 
+animate along this curve I'm going to
+
+00:02:34.360 --> 00:02:37.260 
+animate along this curve I'm going to
+create<00:02:34.480> what<00:02:34.780> is<00:02:34.900> code<00:02:35.760> I'm<00:02:36.760> going<00:02:36.940> to<00:02:37.000> create
+
+00:02:37.260 --> 00:02:37.270 
+create what is code I'm going to create
+
+00:02:37.270 --> 00:02:42.360 
+create what is code I'm going to create
+what<00:02:37.510> is<00:02:37.540> called<00:02:39.270> locator<00:02:40.270> all<00:02:40.930> right<00:02:41.140> so<00:02:41.740> um
+
+00:02:42.360 --> 00:02:42.370 
+what is called locator all right so um
+
+00:02:42.370 --> 00:02:45.900 
+what is called locator all right so um
+to<00:02:43.240> create<00:02:43.510> a<00:02:43.570> locator<00:02:44.020> just<00:02:44.620> go<00:02:45.100> to<00:02:45.160> create
+
+00:02:45.900 --> 00:02:45.910 
+to create a locator just go to create
+
+00:02:45.910 --> 00:02:49.410 
+to create a locator just go to create
+then<00:02:46.780> you<00:02:46.810> have<00:02:47.320> a<00:02:47.530> locator<00:02:48.070> here<00:02:48.430> so<00:02:49.060> create<00:02:49.390> a
+
+00:02:49.410 --> 00:02:49.420 
+then you have a locator here so create a
+
+00:02:49.420 --> 00:02:54.120 
+then you have a locator here so create a
+locator<00:02:50.520> you<00:02:51.520> got<00:02:51.760> it<00:02:51.910> locator<00:02:52.420> but<00:02:53.140> then<00:02:53.440> go
+
+00:02:54.120 --> 00:02:54.130 
+locator you got it locator but then go
+
+00:02:54.130 --> 00:02:56.310 
+locator you got it locator but then go
+to<00:02:54.190> Windows<00:02:54.910> to<00:02:55.330> actually<00:02:55.600> see<00:02:55.870> them<00:02:56.020> properly
+
+00:02:56.310 --> 00:02:56.320 
+to Windows to actually see them properly
+
+00:02:56.320 --> 00:02:58.410 
+to Windows to actually see them properly
+because<00:02:56.530> I<00:02:56.709> locate<00:02:57.670> it<00:02:57.820> can<00:02:57.940> be<00:02:58.030> too<00:02:58.180> small
+
+00:02:58.410 --> 00:02:58.420 
+because I locate it can be too small
+
+00:02:58.420 --> 00:03:00.990 
+because I locate it can be too small
+some<00:02:58.600> child<00:02:58.870> depending<00:02:59.470> on<00:02:59.560> our<00:02:59.820> zoomed<00:03:00.820> out
+
+00:03:00.990 --> 00:03:01.000 
+some child depending on our zoomed out
+
+00:03:01.000 --> 00:03:02.850 
+some child depending on our zoomed out
+you<00:03:01.300> seen<00:03:01.540> you<00:03:01.690> are<00:03:01.900> you<00:03:02.140> won't<00:03:02.470> be<00:03:02.590> able<00:03:02.770> to
+
+00:03:02.850 --> 00:03:02.860 
+you seen you are you won't be able to
+
+00:03:02.860 --> 00:03:05.820 
+you seen you are you won't be able to
+see<00:03:03.070> it<00:03:03.630> so<00:03:04.630> input<00:03:04.780> the<00:03:05.020> locator<00:03:05.380> and<00:03:05.650> you've
+
+00:03:05.820 --> 00:03:05.830 
+see it so input the locator and you've
+
+00:03:05.830 --> 00:03:08.250 
+see it so input the locator and you've
+got<00:03:06.040> the<00:03:06.459> path<00:03:06.700> so<00:03:07.360> what<00:03:07.540> you're<00:03:07.750> gonna<00:03:07.989> do<00:03:08.170> is
+
+00:03:08.250 --> 00:03:08.260 
+got the path so what you're gonna do is
+
+00:03:08.260 --> 00:03:11.130 
+got the path so what you're gonna do is
+select<00:03:08.410> the<00:03:08.680> path<00:03:08.890> shift<00:03:09.610> select<00:03:09.970> the<00:03:10.690> locator
+
+00:03:11.130 --> 00:03:11.140 
+select the path shift select the locator
+
+00:03:11.140 --> 00:03:20.210 
+select the path shift select the locator
+go<00:03:11.830> to<00:03:11.890> animate<00:03:12.519> then<00:03:14.160> we<00:03:15.160> go<00:03:15.610> to<00:03:15.640> animate<00:03:16.560> then
+
+00:03:20.210 --> 00:03:20.220 
+
+00:03:20.220 --> 00:03:25.470 
+
+motion<00:03:21.220> tab<00:03:21.480> then<00:03:22.480> touch<00:03:23.049> to<00:03:23.950> motion<00:03:24.519> path<00:03:24.820> but
+
+00:03:25.470 --> 00:03:25.480 
+motion tab then touch to motion path but
+
+00:03:25.480 --> 00:03:27.690 
+motion tab then touch to motion path but
+just<00:03:25.780> don't<00:03:25.930> say<00:03:26.380> attach<00:03:26.890> to<00:03:27.040> motion<00:03:27.400> motion
+
+00:03:27.690 --> 00:03:27.700 
+just don't say attach to motion motion
+
+00:03:27.700 --> 00:03:29.490 
+just don't say attach to motion motion
+path<00:03:28.060> to<00:03:28.330> let<00:03:28.480> me<00:03:28.600> click<00:03:28.780> on<00:03:28.870> this<00:03:29.049> little<00:03:29.230> box
+
+00:03:29.490 --> 00:03:29.500 
+path to let me click on this little box
+
+00:03:29.500 --> 00:03:31.410 
+path to let me click on this little box
+so<00:03:29.709> you<00:03:29.769> can<00:03:29.860> see<00:03:30.160> what<00:03:30.430> exactly<00:03:30.670> is<00:03:31.060> going<00:03:31.239> on
+
+00:03:31.410 --> 00:03:31.420 
+so you can see what exactly is going on
+
+00:03:31.420 --> 00:03:35.880 
+so you can see what exactly is going on
+his<00:03:31.600> background<00:03:33.870> so<00:03:34.870> a<00:03:34.900> time<00:03:35.350> range<00:03:35.560> you've
+
+00:03:35.880 --> 00:03:35.890 
+his background so a time range you've
+
+00:03:35.890 --> 00:03:38.130 
+his background so a time range you've
+got<00:03:36.160> an<00:03:36.220> option<00:03:36.400> to<00:03:36.610> Circuit<00:03:37.120> where<00:03:37.810> I<00:03:37.870> want<00:03:38.080> to
+
+00:03:38.130 --> 00:03:38.140 
+got an option to Circuit where I want to
+
+00:03:38.140 --> 00:03:40.830 
+got an option to Circuit where I want to
+animate<00:03:38.440> these<00:03:39.310> seen<00:03:39.910> along<00:03:40.209> the<00:03:40.239> time<00:03:40.570> slider
+
+00:03:40.830 --> 00:03:40.840 
+animate these seen along the time slider
+
+00:03:40.840 --> 00:03:44.130 
+animate these seen along the time slider
+or<00:03:41.230> you<00:03:41.890> have<00:03:42.100> a<00:03:42.459> long<00:03:42.940> start<00:03:43.360> or<00:03:43.570> start<00:03:43.930> and
+
+00:03:44.130 --> 00:03:44.140 
+or you have a long start or start and
+
+00:03:44.140 --> 00:03:47.789 
+or you have a long start or start and
+end<00:03:44.290> specific<00:03:44.890> start<00:03:45.280> and<00:03:45.459> end<00:03:45.930> time<00:03:46.930> and<00:03:47.260> you
+
+00:03:47.789 --> 00:03:47.799 
+end specific start and end time and you
+
+00:03:47.799 --> 00:03:50.729 
+end specific start and end time and you
+also<00:03:47.890> have<00:03:48.250> an<00:03:48.370> option<00:03:48.820> to<00:03:49.230> override<00:03:50.230> emission
+
+00:03:50.729 --> 00:03:50.739 
+also have an option to override emission
+
+00:03:50.739 --> 00:03:51.539 
+also have an option to override emission
+all<00:03:50.920> right
+
+00:03:51.539 --> 00:03:51.549 
+all right
+
+00:03:51.549 --> 00:03:54.509 
+all right
+animating<00:03:52.540> along<00:03:52.720> the<00:03:52.840> X<00:03:53.049> Y<00:03:53.470> or<00:03:53.500> z<00:03:53.890> axis<00:03:54.310> it's
+
+00:03:54.509 --> 00:03:54.519 
+animating along the X Y or z axis it's
+
+00:03:54.519 --> 00:03:58.890 
+animating along the X Y or z axis it's
+up<00:03:54.670> to<00:03:54.850> you<00:03:56.010> and<00:03:57.010> if<00:03:57.220> you<00:03:57.340> want<00:03:57.430> to<00:03:57.730> Bank<00:03:58.000> you
+
+00:03:58.890 --> 00:03:58.900 
+up to you and if you want to Bank you
+
+00:03:58.900 --> 00:04:01.229 
+up to you and if you want to Bank you
+can<00:03:59.110> bank<00:03:59.680> it<00:03:59.890> going<00:04:00.220> to<00:04:00.310> between<00:04:00.580> per<00:04:00.880> second
+
+00:04:01.229 --> 00:04:01.239 
+can bank it going to between per second
+
+00:04:01.239 --> 00:04:04.170 
+can bank it going to between per second
+that<00:04:01.810> means<00:04:01.870> very<00:04:02.350> much<00:04:02.500> like<00:04:03.040> leaning<00:04:03.700> Moloch
+
+00:04:04.170 --> 00:04:04.180 
+that means very much like leaning Moloch
+
+00:04:04.180 --> 00:04:07.560 
+that means very much like leaning Moloch
+leaning<00:04:04.720> towards<00:04:05.560> the<00:04:06.130> curve<00:04:06.400> along<00:04:07.269> corners
+
+00:04:07.560 --> 00:04:07.570 
+leaning towards the curve along corners
+
+00:04:07.570 --> 00:04:11.610 
+leaning towards the curve along corners
+and<00:04:07.840> stuff<00:04:08.110> so<00:04:08.850> luckily<00:04:09.850> got<00:04:10.630> that<00:04:11.080> and<00:04:11.380> just
+
+00:04:11.610 --> 00:04:11.620 
+and stuff so luckily got that and just
+
+00:04:11.620 --> 00:04:13.190 
+and stuff so luckily got that and just
+say<00:04:11.890> attach
+
+00:04:13.190 --> 00:04:13.200 
+say attach
+
+00:04:13.200 --> 00:04:16.039 
+say attach
+so<00:04:13.680> put<00:04:14.340> that<00:04:14.370> attached<00:04:15.030> then<00:04:15.630> it<00:04:15.750> follows
+
+00:04:16.039 --> 00:04:16.049 
+so put that attached then it follows
+
+00:04:16.049 --> 00:04:23.420 
+so put that attached then it follows
+that<00:04:16.079> this<00:04:16.350> outliner<00:04:17.010> a<00:04:17.430> touch<00:04:18.150> then<00:04:22.190> let's<00:04:23.190> go
+
+00:04:23.420 --> 00:04:23.430 
+that this outliner a touch then let's go
+
+00:04:23.430 --> 00:04:26.810 
+that this outliner a touch then let's go
+there<00:04:23.730> it<00:04:24.270> is<00:04:24.450> animate<00:04:25.170> along<00:04:25.680> the<00:04:26.220> path<00:04:26.460> but
+
+00:04:26.810 --> 00:04:26.820 
+there it is animate along the path but
+
+00:04:26.820 --> 00:04:29.750 
+there it is animate along the path but
+this<00:04:27.000> is<00:04:27.090> not<00:04:27.240> a<00:04:27.270> plane<00:04:27.600> I<00:04:27.930> taught<00:04:28.830> you<00:04:29.190> before
+
+00:04:29.750 --> 00:04:29.760 
+this is not a plane I taught you before
+
+00:04:29.760 --> 00:04:32.030 
+this is not a plane I taught you before
+I<00:04:30.120> before<00:04:30.480> like<00:04:30.990> I<00:04:31.169> can't<00:04:31.620> remember<00:04:31.770> how<00:04:31.980> long
+
+00:04:32.030 --> 00:04:32.040 
+I before like I can't remember how long
+
+00:04:32.040 --> 00:04:36.260 
+I before like I can't remember how long
+ago<00:04:32.220> but<00:04:33.210> I<00:04:33.240> told<00:04:33.630> you<00:04:33.870> how<00:04:34.050> to<00:04:34.190> how<00:04:35.190> to<00:04:35.270> have
+
+00:04:36.260 --> 00:04:36.270 
+ago but I told you how to how to have
+
+00:04:36.270 --> 00:04:39.080 
+ago but I told you how to how to have
+traded<00:04:36.600> mother<00:04:36.960> some<00:04:38.090> mother-child
+
+00:04:39.080 --> 00:04:39.090 
+traded mother some mother-child
+
+00:04:39.090 --> 00:04:41.300 
+traded mother some mother-child
+relationship<00:04:39.240> going<00:04:40.140> on<00:04:40.290> in<00:04:40.470> the<00:04:40.650> animation
+
+00:04:41.300 --> 00:04:41.310 
+relationship going on in the animation
+
+00:04:41.310 --> 00:04:43.610 
+relationship going on in the animation
+so<00:04:41.850> the<00:04:41.970> mother<00:04:42.150> controls<00:04:42.660> the<00:04:42.780> kid<00:04:43.020> but<00:04:43.500> the
+
+00:04:43.610 --> 00:04:43.620 
+so the mother controls the kid but the
+
+00:04:43.620 --> 00:04:45.860 
+so the mother controls the kid but the
+kid<00:04:43.830> can<00:04:44.070> control<00:04:44.460> the<00:04:44.550> my<00:04:44.700> back<00:04:44.940> that's<00:04:45.720> how
+
+00:04:45.860 --> 00:04:45.870 
+kid can control the my back that's how
+
+00:04:45.870 --> 00:04:47.420 
+kid can control the my back that's how
+it<00:04:46.020> is<00:04:46.140> in<00:04:46.260> real<00:04:46.320> life<00:04:46.470> anyway<00:04:47.010> so<00:04:47.190> it's<00:04:47.340> the
+
+00:04:47.420 --> 00:04:47.430 
+it is in real life anyway so it's the
+
+00:04:47.430 --> 00:04:50.390 
+it is in real life anyway so it's the
+same<00:04:47.610> in<00:04:47.790> animation<00:04:48.260> too<00:04:49.290> let's<00:04:49.950> create<00:04:50.220> in
+
+00:04:50.390 --> 00:04:50.400 
+same in animation too let's create in
+
+00:04:50.400 --> 00:04:52.490 
+same in animation too let's create in
+anyway<00:04:50.820> let's<00:04:51.060> create<00:04:51.270> a<00:04:51.360> mother<00:04:51.630> ki<00:04:52.440> the
+
+00:04:52.490 --> 00:04:52.500 
+anyway let's create a mother ki the
+
+00:04:52.500 --> 00:04:55.430 
+anyway let's create a mother ki the
+relationship<00:04:53.280> between<00:04:53.790> this<00:04:54.600> mother<00:04:54.960> which
+
+00:04:55.430 --> 00:04:55.440 
+relationship between this mother which
+
+00:04:55.440 --> 00:04:57.050 
+relationship between this mother which
+is<00:04:55.470> a<00:04:55.620> locator<00:04:56.040> and<00:04:56.220> the<00:04:56.370> kid<00:04:56.610> which<00:04:56.820> is<00:04:56.850> the
+
+00:04:57.050 --> 00:04:57.060 
+is a locator and the kid which is the
+
+00:04:57.060 --> 00:05:00.850 
+is a locator and the kid which is the
+plane<00:04:57.330> so<00:04:58.220> let<00:04:59.220> me<00:04:59.340> just<00:04:59.490> go<00:04:59.940> to<00:05:00.000> my<00:05:00.180> windows
+
+00:05:00.850 --> 00:05:00.860 
+plane so let me just go to my windows
+
+00:05:00.860 --> 00:05:05.930 
+plane so let me just go to my windows
+outline<00:05:01.860> again<00:05:04.310> windows<00:05:05.310> outliner<00:05:05.700> and
+
+00:05:05.930 --> 00:05:05.940 
+outline again windows outliner and
+
+00:05:05.940 --> 00:05:10.880 
+outline again windows outliner and
+create<00:05:06.530> click<00:05:07.530> on<00:05:07.650> the<00:05:07.740> air<00:05:07.860> and<00:05:08.690> crouch<00:05:09.890> let
+
+00:05:10.880 --> 00:05:10.890 
+create click on the air and crouch let
+
+00:05:10.890 --> 00:05:15.320 
+create click on the air and crouch let
+me<00:05:11.160> move<00:05:11.490> him<00:05:11.910> there<00:05:13.130> click<00:05:14.130> on<00:05:14.250> the<00:05:14.370> aircraft
+
+00:05:15.320 --> 00:05:15.330 
+me move him there click on the aircraft
+
+00:05:15.330 --> 00:05:19.390 
+me move him there click on the aircraft
+I<00:05:15.570> can't<00:05:15.840> say<00:05:15.990> that<00:05:16.140> word<00:05:16.350> hey<00:05:16.740> James
+
+00:05:19.390 --> 00:05:19.400 
+
+00:05:19.400 --> 00:05:22.340 
+
+click<00:05:20.400> on<00:05:20.550> the<00:05:20.640> aircraft<00:05:21.450> also<00:05:21.900> I'll<00:05:22.169> say
+
+00:05:22.340 --> 00:05:22.350 
+click on the aircraft also I'll say
+
+00:05:22.350 --> 00:05:24.530 
+click on the aircraft also I'll say
+plane<00:05:22.680> ok<00:05:23.100> ok<00:05:23.370> Frank<00:05:23.790> click<00:05:24.030> on<00:05:24.180> the<00:05:24.270> plane
+
+00:05:24.530 --> 00:05:24.540 
+plane ok ok Frank click on the plane
+
+00:05:24.540 --> 00:05:29.230 
+plane ok ok Frank click on the plane
+middle<00:05:25.530> click<00:05:26.270> drag<00:05:27.270> it<00:05:27.540> down<00:05:27.930> to<00:05:27.960> the<00:05:28.290> locator
+
+00:05:29.230 --> 00:05:29.240 
+middle click drag it down to the locator
+
+00:05:29.240 --> 00:05:32.990 
+middle click drag it down to the locator
+let<00:05:30.240> it<00:05:30.390> go<00:05:30.830> then<00:05:31.830> when<00:05:32.370> you<00:05:32.460> do<00:05:32.580> that<00:05:32.729> you<00:05:32.880> can
+
+00:05:32.990 --> 00:05:33.000 
+let it go then when you do that you can
+
+00:05:33.000 --> 00:05:34.580 
+let it go then when you do that you can
+see<00:05:33.210> the<00:05:33.510> orientation<00:05:33.750> is<00:05:34.080> still<00:05:34.229> the<00:05:34.320> same
+
+00:05:34.580 --> 00:05:34.590 
+see the orientation is still the same
+
+00:05:34.590 --> 00:05:37.900 
+see the orientation is still the same
+alright<00:05:35.160> so<00:05:35.700> what<00:05:36.030> we're<00:05:36.180> gonna<00:05:36.330> do<00:05:36.600> is<00:05:37.080> say<00:05:37.410> ok
+
+00:05:37.900 --> 00:05:37.910 
+alright so what we're gonna do is say ok
+
+00:05:37.910 --> 00:05:41.630 
+alright so what we're gonna do is say ok
+this<00:05:38.910> little<00:05:39.390> back<00:05:40.020> go<00:05:40.500> to<00:05:40.530> start<00:05:40.950> of<00:05:41.190> playback
+
+00:05:41.630 --> 00:05:41.640 
+this little back go to start of playback
+
+00:05:41.640 --> 00:05:43.750 
+this little back go to start of playback
+range<00:05:41.970> when<00:05:42.450> you<00:05:42.540> do<00:05:42.750> that<00:05:42.960> the<00:05:43.380> plane
+
+00:05:43.750 --> 00:05:43.760 
+range when you do that the plane
+
+00:05:43.760 --> 00:05:46.450 
+range when you do that the plane
+switches<00:05:44.760> flips<00:05:45.360> to<00:05:45.750> the<00:05:45.900> opposite<00:05:46.320> direction
+
+00:05:46.450 --> 00:05:46.460 
+switches flips to the opposite direction
+
+00:05:46.460 --> 00:05:48.920 
+switches flips to the opposite direction
+so<00:05:47.460> we're<00:05:47.610> gonna<00:05:47.729> animate<00:05:48.000> this<00:05:48.300> remember<00:05:48.780> I
+
+00:05:48.920 --> 00:05:48.930 
+so we're gonna animate this remember I
+
+00:05:48.930 --> 00:05:52.430 
+so we're gonna animate this remember I
+said<00:05:49.200> animating<00:05:49.680> from<00:05:49.919> I<00:05:50.520> think<00:05:51.330> from<00:05:51.690> Chan<00:05:52.110> I
+
+00:05:52.430 --> 00:05:52.440 
+said animating from I think from Chan I
+
+00:05:52.440 --> 00:05:57.290 
+said animating from I think from Chan I
+think<00:05:53.130> to<00:05:54.030> 90<00:05:54.750> so<00:05:55.320> it's<00:05:56.310> gonna<00:05:56.520> delay<00:05:56.880> for<00:05:57.120> 10
+
+00:05:57.290 --> 00:05:57.300 
+think to 90 so it's gonna delay for 10
+
+00:05:57.300 --> 00:06:05.210 
+think to 90 so it's gonna delay for 10
+frames<00:05:57.630> so<00:05:58.320> let's<00:05:58.530> go
+
+00:06:05.210 --> 00:06:05.220 
+
+00:06:05.220 --> 00:06:08.990 
+
+then<00:06:05.880> so<00:06:06.630> this<00:06:07.280> plane<00:06:08.280> is<00:06:08.430> already<00:06:08.610> animated
+
+00:06:08.990 --> 00:06:09.000 
+then so this plane is already animated
+
+00:06:09.000 --> 00:06:13.070 
+then so this plane is already animated
+is<00:06:09.660> that<00:06:09.870> some<00:06:10.140> SATs<00:06:10.710> on<00:06:10.890> slow<00:06:11.600> gains<00:06:12.600> speed
+
+00:06:13.070 --> 00:06:13.080 
+is that some SATs on slow gains speed
+
+00:06:13.080 --> 00:06:16.940 
+is that some SATs on slow gains speed
+and<00:06:13.500> slows<00:06:13.800> down<00:06:14.220> at<00:06:14.850> the<00:06:15.060> end<00:06:15.270> so<00:06:16.050> let<00:06:16.380> me<00:06:16.530> show
+
+00:06:16.940 --> 00:06:16.950 
+and slows down at the end so let me show
+
+00:06:16.950 --> 00:06:20.420 
+and slows down at the end so let me show
+you<00:06:17.010> exactly<00:06:17.640> how<00:06:17.880> that<00:06:18.540> is<00:06:19.040> it's<00:06:20.040> going<00:06:20.310> to
+
+00:06:20.420 --> 00:06:20.430 
+you exactly how that is it's going to
+
+00:06:20.430 --> 00:06:29.090 
+you exactly how that is it's going to
+window<00:06:20.790> by<00:06:21.680> graph<00:06:22.680> editors<00:06:23.340> of<00:06:23.670> eyes<00:06:27.920> we<00:06:28.920> can
+
+00:06:29.090 --> 00:06:29.100 
+window by graph editors of eyes we can
+
+00:06:29.100 --> 00:06:31.730 
+window by graph editors of eyes we can
+ha<00:06:29.640> ha<00:06:30.240> no<00:06:30.570> not<00:06:30.840> in<00:06:30.960> this<00:06:31.050> tutorial<00:06:31.530> anyway
+
+00:06:31.730 --> 00:06:31.740 
+ha ha no not in this tutorial anyway
+
+00:06:31.740 --> 00:06:36.560 
+ha ha no not in this tutorial anyway
+guys<00:06:31.920> let's<00:06:32.250> go<00:06:32.430> to<00:06:32.490> windows<00:06:35.570> animation
+
+00:06:36.560 --> 00:06:36.570 
+guys let's go to windows animation
+
+00:06:36.570 --> 00:06:46.570 
+guys let's go to windows animation
+editors<00:06:37.080> graph<00:06:37.770> editor<00:06:44.660> frame<00:06:45.660> or<00:06:45.840> if
+
+00:06:46.570 --> 00:06:46.580 
+editors graph editor frame or if
+
+00:06:46.580 --> 00:06:49.600 
+editors graph editor frame or if
+actually<00:06:47.580> I<00:06:47.610> forgot<00:06:48.030> we<00:06:48.390> put<00:06:48.690> mother
+
+00:06:49.600 --> 00:06:49.610 
+actually I forgot we put mother
+
+00:06:49.610 --> 00:06:52.070 
+actually I forgot we put mother
+relationship<00:06:50.610> going<00:06:51.210> on<00:06:51.360> some<00:06:51.600> cars<00:06:51.810> a<00:06:51.960> little
+
+00:06:52.070 --> 00:06:52.080 
+relationship going on some cars a little
+
+00:06:52.080 --> 00:06:56.390 
+relationship going on some cars a little
+mother<00:06:52.760> brings<00:06:53.760> our<00:06:53.940> liner<00:06:55.340> selecting<00:06:56.340> the
+
+00:06:56.390 --> 00:06:56.400 
+mother brings our liner selecting the
+
+00:06:56.400 --> 00:07:00.950 
+mother brings our liner selecting the
+locator<00:06:57.500> frame<00:06:58.500> or<00:06:59.510> take<00:07:00.510> a<00:07:00.540> left
+
+00:07:00.950 --> 00:07:00.960 
+locator frame or take a left
+
+00:07:00.960 --> 00:07:06.640 
+locator frame or take a left
+pull<00:07:01.140> them<00:07:01.910> bring<00:07:02.910> that<00:07:03.090> in<00:07:03.950> my<00:07:04.950> zoom<00:07:05.400> in<00:07:05.630> so
+
+00:07:06.640 --> 00:07:06.650 
+pull them bring that in my zoom in so
+
+00:07:06.650 --> 00:07:09.440 
+pull them bring that in my zoom in so
+we'll<00:07:07.650> put<00:07:07.800> this<00:07:07.919> curve<00:07:08.220> so<00:07:08.430> it's<00:07:08.550> it<00:07:08.850> sort<00:07:09.360> of
+
+00:07:09.440 --> 00:07:09.450 
+we'll put this curve so it's it sort of
+
+00:07:09.450 --> 00:07:15.650 
+we'll put this curve so it's it sort of
+slowly<00:07:10.140> gains<00:07:10.860> speed<00:07:11.900> then<00:07:13.760> slows<00:07:14.760> down<00:07:15.150> buddy
+
+00:07:15.650 --> 00:07:15.660 
+slowly gains speed then slows down buddy
+
+00:07:15.660 --> 00:07:17.900 
+slowly gains speed then slows down buddy
+there<00:07:16.590> the<00:07:16.800> billy<00:07:16.980> there<00:07:17.280> are<00:07:17.400> the<00:07:17.490> speed<00:07:17.760> as
+
+00:07:17.900 --> 00:07:17.910 
+there the billy there are the speed as
+
+00:07:17.910 --> 00:07:19.400 
+there the billy there are the speed as
+you<00:07:17.940> can<00:07:18.150> see<00:07:18.390> that<00:07:18.540> the<00:07:18.810> speed<00:07:19.050> is<00:07:19.200> constant
+
+00:07:19.400 --> 00:07:19.410 
+you can see that the speed is constant
+
+00:07:19.410 --> 00:07:21.890 
+you can see that the speed is constant
+constantly<00:07:20.250> increasing<00:07:20.820> that<00:07:21.210> slows<00:07:21.570> down
+
+00:07:21.890 --> 00:07:21.900 
+constantly increasing that slows down
+
+00:07:21.900 --> 00:07:26.080 
+constantly increasing that slows down
+and<00:07:22.640> all<00:07:23.640> the<00:07:24.090> way<00:07:24.180> to<00:07:24.210> stop<00:07:24.630> which<00:07:25.050> is<00:07:25.260> 9<00:07:25.710> G
+
+00:07:26.080 --> 00:07:26.090 
+and all the way to stop which is 9 G
+
+00:07:26.090 --> 00:07:29.500 
+and all the way to stop which is 9 G
+friends<00:07:27.090> so<00:07:27.780> you<00:07:28.080> can<00:07:28.410> meet<00:07:28.650> a<00:07:28.710> click<00:07:29.010> and
+
+00:07:29.500 --> 00:07:29.510 
+friends so you can meet a click and
+
+00:07:29.510 --> 00:07:31.909 
+friends so you can meet a click and
+actually<00:07:30.510> play<00:07:30.870> with<00:07:31.080> this<00:07:31.169> bad<00:07:31.500> boy<00:07:31.530> if<00:07:31.890> you
+
+00:07:31.909 --> 00:07:31.919 
+actually play with this bad boy if you
+
+00:07:31.919 --> 00:07:35.480 
+actually play with this bad boy if you
+want<00:07:32.310> and<00:07:33.140> prolong<00:07:34.140> the<00:07:34.380> the<00:07:34.620> animation<00:07:35.250> if
+
+00:07:35.480 --> 00:07:35.490 
+want and prolong the the animation if
+
+00:07:35.490 --> 00:07:38.120 
+want and prolong the the animation if
+you<00:07:35.700> want<00:07:36.000> it's<00:07:36.330> up<00:07:36.540> to<00:07:36.780> you<00:07:36.930> by<00:07:37.380> for<00:07:37.620> tutorial
+
+00:07:38.120 --> 00:07:38.130 
+you want it's up to you by for tutorial
+
+00:07:38.130 --> 00:07:39.620 
+you want it's up to you by for tutorial
+purposes<00:07:38.160> I<00:07:38.820> don't<00:07:38.940> want<00:07:39.060> to<00:07:39.150> keep<00:07:39.270> it<00:07:39.390> too
+
+00:07:39.620 --> 00:07:39.630 
+purposes I don't want to keep it too
+
+00:07:39.630 --> 00:07:43.490 
+purposes I don't want to keep it too
+long<00:07:39.810> I<00:07:40.110> excited<00:07:41.100> to<00:07:41.190> elevated<00:07:41.640> to<00:07:42.000> 90<00:07:42.900> frames
+
+00:07:43.490 --> 00:07:43.500 
+long I excited to elevated to 90 frames
+
+00:07:43.500 --> 00:07:47.390 
+long I excited to elevated to 90 frames
+and<00:07:44.510> again<00:07:45.510> you<00:07:46.050> can<00:07:46.229> actually<00:07:46.350> mess<00:07:47.190> around
+
+00:07:47.390 --> 00:07:47.400 
+and again you can actually mess around
+
+00:07:47.400 --> 00:07:49.460 
+and again you can actually mess around
+with<00:07:47.729> your<00:07:47.940> translations<00:07:48.900> and<00:07:49.080> stuff<00:07:49.290> like
+
+00:07:49.460 --> 00:07:49.470 
+with your translations and stuff like
+
+00:07:49.470 --> 00:07:51.860 
+with your translations and stuff like
+that<00:07:49.740> you<00:07:50.550> I'm<00:07:51.090> sure<00:07:51.270> you've<00:07:51.450> already<00:07:51.570> done
+
+00:07:51.860 --> 00:07:51.870 
+that you I'm sure you've already done
+
+00:07:51.870 --> 00:07:53.780 
+that you I'm sure you've already done
+this<00:07:52.110> by<00:07:52.350> now<00:07:52.560> I<00:07:52.590> taught<00:07:52.919> you<00:07:53.130> guys<00:07:53.280> how<00:07:53.340> to<00:07:53.550> do
+
+00:07:53.780 --> 00:07:53.790 
+this by now I taught you guys how to do
+
+00:07:53.790 --> 00:07:56.240 
+this by now I taught you guys how to do
+this<00:07:54.030> a<00:07:54.270> couple<00:07:54.720> of<00:07:55.320> my<00:07:55.620> month<00:07:55.860> ago<00:07:56.130> or
+
+00:07:56.240 --> 00:07:56.250 
+this a couple of my month ago or
+
+00:07:56.250 --> 00:07:58.870 
+this a couple of my month ago or
+something<00:07:56.490> like<00:07:56.700> that<00:07:56.760> so<00:07:57.330> that's<00:07:58.080> our
+
+00:07:58.870 --> 00:07:58.880 
+something like that so that's our
+
+00:07:58.880 --> 00:08:03.950 
+something like that so that's our
+animation<00:07:59.880> so<00:08:00.570> close<00:08:01.350> that<00:08:01.650> and<00:08:02.479> yeah<00:08:03.479> that's
+
+00:08:03.950 --> 00:08:03.960 
+animation so close that and yeah that's
+
+00:08:03.960 --> 00:08:05.719 
+animation so close that and yeah that's
+our<00:08:04.080> animation<00:08:04.560> guys<00:08:04.770> along<00:08:05.160> the<00:08:05.250> path<00:08:05.460> and
+
+00:08:05.719 --> 00:08:05.729 
+our animation guys along the path and
+
+00:08:05.729 --> 00:08:08.810 
+our animation guys along the path and
+let's<00:08:06.030> go<00:08:06.210> to<00:08:06.270> the<00:08:06.390> next<00:08:06.570> chart
+

@@ -1,0 +1,1205 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.540 
+
+this<00:00:00.089> is<00:00:00.240> part<00:00:00.480> 31<00:00:00.960> of<00:00:01.110> wucf<00:00:01.620> video<00:00:01.890> series<00:00:02.280> in
+
+00:00:02.540 --> 00:00:02.550 
+this is part 31 of wucf video series in
+
+00:00:02.550 --> 00:00:05.240 
+this is part 31 of wucf video series in
+this<00:00:03.060> video<00:00:03.270> we'll<00:00:03.929> discuss<00:00:03.959> hosting<00:00:04.710> WC<00:00:05.160> of
+
+00:00:05.240 --> 00:00:05.250 
+this video we'll discuss hosting WC of
+
+00:00:05.250 --> 00:00:08.150 
+this video we'll discuss hosting WC of
+service<00:00:05.670> in<00:00:05.879> IAS<00:00:06.240> 7<00:00:06.839> and<00:00:07.049> enabling<00:00:07.799> Windows
+
+00:00:08.150 --> 00:00:08.160 
+service in IAS 7 and enabling Windows
+
+00:00:08.160 --> 00:00:11.120 
+service in IAS 7 and enabling Windows
+activation<00:00:08.639> service<00:00:09.269> to<00:00:09.780> support<00:00:09.990> known<00:00:10.410> HTTP
+
+00:00:11.120 --> 00:00:11.130 
+activation service to support known HTTP
+
+00:00:11.130 --> 00:00:13.910 
+activation service to support known HTTP
+protocols<00:00:11.670> like<00:00:11.969> TCP<00:00:12.290> this<00:00:13.290> is<00:00:13.440> continuation
+
+00:00:13.910 --> 00:00:13.920 
+protocols like TCP this is continuation
+
+00:00:13.920 --> 00:00:16.640 
+protocols like TCP this is continuation
+to<00:00:14.190> part<00:00:14.400> 30<00:00:14.700> so<00:00:15.299> please<00:00:15.509> watch<00:00:15.780> for<00:00:15.809> 30<00:00:16.350> before
+
+00:00:16.640 --> 00:00:16.650 
+to part 30 so please watch for 30 before
+
+00:00:16.650 --> 00:00:20.689 
+to part 30 so please watch for 30 before
+proceeding<00:00:17.750> by<00:00:18.750> default<00:00:19.260> is<00:00:19.680> supports<00:00:20.520> only
+
+00:00:20.689 --> 00:00:20.699 
+proceeding by default is supports only
+
+00:00:20.699 --> 00:00:23.630 
+proceeding by default is supports only
+HTTP<00:00:21.660> protocol<00:00:22.230> if<00:00:22.529> you<00:00:22.980> recollect<00:00:23.279> from<00:00:23.430> the
+
+00:00:23.630 --> 00:00:23.640 
+HTTP protocol if you recollect from the
+
+00:00:23.640 --> 00:00:26.450 
+HTTP protocol if you recollect from the
+previous<00:00:24.000> section<00:00:24.420> we<00:00:24.769> have<00:00:25.769> hosted<00:00:26.310> this
+
+00:00:26.450 --> 00:00:26.460 
+previous section we have hosted this
+
+00:00:26.460 --> 00:00:29.779 
+previous section we have hosted this
+hello<00:00:26.849> service<00:00:27.390> in<00:00:27.710> is<00:00:28.710> if<00:00:29.220> you<00:00:29.519> look<00:00:29.640> at<00:00:29.730> the
+
+00:00:29.779 --> 00:00:29.789 
+hello service in is if you look at the
+
+00:00:29.789 --> 00:00:32.780 
+hello service in is if you look at the
+web<00:00:29.939> config<00:00:30.539> file<00:00:31.160> notice<00:00:32.160> that<00:00:32.520> at<00:00:32.700> the
+
+00:00:32.780 --> 00:00:32.790 
+web config file notice that at the
+
+00:00:32.790 --> 00:00:35.569 
+web config file notice that at the
+moment<00:00:32.969> we<00:00:33.630> are<00:00:33.690> using<00:00:34.079> basic<00:00:34.620> HTTP<00:00:35.370> binding
+
+00:00:35.569 --> 00:00:35.579 
+moment we are using basic HTTP binding
+
+00:00:35.579 --> 00:00:38.209 
+moment we are using basic HTTP binding
+this<00:00:36.390> means<00:00:36.660> that<00:00:36.930> the<00:00:37.230> underlying<00:00:37.530> protocol
+
+00:00:38.209 --> 00:00:38.219 
+this means that the underlying protocol
+
+00:00:38.219 --> 00:00:41.780 
+this means that the underlying protocol
+for<00:00:38.460> communication<00:00:39.030> is<00:00:39.710> HTTP<00:00:40.710> now<00:00:41.250> let's<00:00:41.489> try
+
+00:00:41.780 --> 00:00:41.790 
+for communication is HTTP now let's try
+
+00:00:41.790 --> 00:00:45.560 
+for communication is HTTP now let's try
+and<00:00:41.940> use<00:00:42.239> net<00:00:43.110> TCP<00:00:43.860> binding<00:00:44.399> instead<00:00:45.030> of<00:00:45.149> basic
+
+00:00:45.560 --> 00:00:45.570 
+and use net TCP binding instead of basic
+
+00:00:45.570 --> 00:00:47.389 
+and use net TCP binding instead of basic
+HTTP<00:00:46.200> binding<00:00:46.379> and<00:00:46.770> see<00:00:46.890> what's<00:00:47.100> going<00:00:47.340> to
+
+00:00:47.389 --> 00:00:47.399 
+HTTP binding and see what's going to
+
+00:00:47.399 --> 00:00:50.299 
+HTTP binding and see what's going to
+happen<00:00:47.820> so<00:00:48.539> here<00:00:48.750> we<00:00:48.899> are<00:00:48.930> using<00:00:49.140> net<00:00:49.590> TCP
+
+00:00:50.299 --> 00:00:50.309 
+happen so here we are using net TCP
+
+00:00:50.309 --> 00:00:52.610 
+happen so here we are using net TCP
+binding<00:00:50.789> meaning<00:00:51.480> the<00:00:51.629> underlying<00:00:52.110> protocol
+
+00:00:52.610 --> 00:00:52.620 
+binding meaning the underlying protocol
+
+00:00:52.620 --> 00:00:55.340 
+binding meaning the underlying protocol
+is<00:00:52.770> going<00:00:52.829> to<00:00:53.280> be<00:00:53.449> TCP<00:00:54.449> protocol<00:00:54.930> and<00:00:55.170> let's
+
+00:00:55.340 --> 00:00:55.350 
+is going to be TCP protocol and let's
+
+00:00:55.350 --> 00:00:57.170 
+is going to be TCP protocol and let's
+see<00:00:55.440> what's<00:00:55.649> going<00:00:55.800> to<00:00:55.920> happen<00:00:56.370> since<00:00:56.940> we<00:00:57.090> have
+
+00:00:57.170 --> 00:00:57.180 
+see what's going to happen since we have
+
+00:00:57.180 --> 00:00:59.599 
+see what's going to happen since we have
+specified<00:00:57.390> the<00:00:57.629> binding<00:00:58.140> as<00:00:58.320> net<00:00:58.590> TCP<00:00:59.160> binding
+
+00:00:59.599 --> 00:00:59.609 
+specified the binding as net TCP binding
+
+00:00:59.609 --> 00:01:02.000 
+specified the binding as net TCP binding
+we<00:01:00.120> need<00:01:00.270> to<00:01:00.449> add<00:01:00.629> another<00:01:00.899> base<00:01:01.379> address<00:01:01.859> to
+
+00:01:02.000 --> 00:01:02.010 
+we need to add another base address to
+
+00:01:02.010 --> 00:01:05.690 
+we need to add another base address to
+support<00:01:02.370> TCP<00:01:02.850> protocol<00:01:03.359> so<00:01:04.110> let's<00:01:04.700> change
+
+00:01:05.690 --> 00:01:05.700 
+support TCP protocol so let's change
+
+00:01:05.700 --> 00:01:10.609 
+support TCP protocol so let's change
+this<00:01:06.000> HTTP<00:01:06.840> to<00:01:07.170> net<00:01:08.030> TCP<00:01:09.030> and<00:01:09.350> let's<00:01:10.350> change
+
+00:01:10.609 --> 00:01:10.619 
+this HTTP to net TCP and let's change
+
+00:01:10.619 --> 00:01:14.899 
+this HTTP to net TCP and let's change
+the<00:01:10.770> port<00:01:11.100> number<00:01:11.460> to<00:01:12.060> 80<00:01:12.750> 90<00:01:13.470> all<00:01:14.100> right<00:01:14.340> with
+
+00:01:14.899 --> 00:01:14.909 
+the port number to 80 90 all right with
+
+00:01:14.909 --> 00:01:17.770 
+the port number to 80 90 all right with
+this<00:01:15.090> change<00:01:15.360> let's<00:01:16.140> save<00:01:16.680> the<00:01:16.890> changes<00:01:16.920> and
+
+00:01:17.770 --> 00:01:17.780 
+this change let's save the changes and
+
+00:01:17.780 --> 00:01:21.890 
+this change let's save the changes and
+let's<00:01:18.780> open<00:01:19.070> IAS<00:01:20.070> so<00:01:20.909> within<00:01:21.119> the<00:01:21.360> run<00:01:21.540> window
+
+00:01:21.890 --> 00:01:21.900 
+let's open IAS so within the run window
+
+00:01:21.900 --> 00:01:25.070 
+let's open IAS so within the run window
+type<00:01:22.200> I<00:01:22.470> net<00:01:22.830> MGR<00:01:23.490> and<00:01:23.729> click<00:01:24.509> ok<00:01:24.810> this<00:01:25.020> should
+
+00:01:25.070 --> 00:01:25.080 
+type I net MGR and click ok this should
+
+00:01:25.080 --> 00:01:26.990 
+type I net MGR and click ok this should
+open<00:01:25.380> up<00:01:25.619> at<00:01:25.830> the<00:01:25.950> Internet<00:01:26.400> Information
+
+00:01:26.990 --> 00:01:27.000 
+open up at the Internet Information
+
+00:01:27.000 --> 00:01:30.350 
+open up at the Internet Information
+Services<00:01:27.270> and<00:01:27.869> here<00:01:28.799> we<00:01:28.950> already<00:01:29.100> have<00:01:29.610> an
+
+00:01:30.350 --> 00:01:30.360 
+Services and here we already have an
+
+00:01:30.360 --> 00:01:34.429 
+Services and here we already have an
+application<00:01:31.400> so<00:01:32.400> hollow<00:01:32.939> service<00:01:33.479> right
+
+00:01:34.429 --> 00:01:34.439 
+application so hollow service right
+
+00:01:34.439 --> 00:01:36.230 
+application so hollow service right
+click<00:01:34.650> on<00:01:34.829> hello<00:01:35.100> service<00:01:35.579> and<00:01:35.759> select<00:01:36.060> switch
+
+00:01:36.230 --> 00:01:36.240 
+click on hello service and select switch
+
+00:01:36.240 --> 00:01:38.569 
+click on hello service and select switch
+to<00:01:36.570> content<00:01:37.079> view<00:01:37.439> and<00:01:37.680> that<00:01:38.070> should<00:01:38.280> display
+
+00:01:38.569 --> 00:01:38.579 
+to content view and that should display
+
+00:01:38.579 --> 00:01:41.030 
+to content view and that should display
+the<00:01:38.610> content<00:01:39.150> or<00:01:39.299> you<00:01:39.720> know<00:01:39.869> of<00:01:40.170> the<00:01:40.619> physical
+
+00:01:41.030 --> 00:01:41.040 
+the content or you know of the physical
+
+00:01:41.040 --> 00:01:42.740 
+the content or you know of the physical
+directory<00:01:41.490> to<00:01:41.640> which<00:01:41.820> this<00:01:42.270> virtual
+
+00:01:42.740 --> 00:01:42.750 
+directory to which this virtual
+
+00:01:42.750 --> 00:01:45.139 
+directory to which this virtual
+directory<00:01:42.869> is<00:01:43.259> pointing<00:01:43.770> to<00:01:43.979> so<00:01:44.549> here<00:01:44.820> we<00:01:45.000> have
+
+00:01:45.139 --> 00:01:45.149 
+directory is pointing to so here we have
+
+00:01:45.149 --> 00:01:47.539 
+directory is pointing to so here we have
+hollow<00:01:45.390> service<00:01:45.869> dot<00:01:46.049> SBC<00:01:46.590> right<00:01:47.189> click<00:01:47.399> on
+
+00:01:47.539 --> 00:01:47.549 
+hollow service dot SBC right click on
+
+00:01:47.549 --> 00:01:52.399 
+hollow service dot SBC right click on
+that<00:01:47.759> and<00:01:48.000> browse<00:01:48.509> to<00:01:48.810> it<00:01:49.100> and<00:01:51.110> notice<00:01:52.110> that<00:01:52.259> we
+
+00:01:52.399 --> 00:01:52.409 
+that and browse to it and notice that we
+
+00:01:52.409 --> 00:01:53.030 
+that and browse to it and notice that we
+get<00:01:52.590> an<00:01:52.740> error
+
+00:01:53.030 --> 00:01:53.040 
+get an error
+
+00:01:53.040 --> 00:01:55.120 
+get an error
+okay<00:01:53.549> that's<00:01:53.759> basically<00:01:54.329> because<00:01:54.600> by<00:01:54.930> default
+
+00:01:55.120 --> 00:01:55.130 
+okay that's basically because by default
+
+00:01:55.130 --> 00:01:59.660 
+okay that's basically because by default
+is<00:01:56.130> supports<00:01:57.060> only<00:01:57.479> HTTP<00:01:58.439> protocol<00:01:58.920> if<00:01:59.159> you
+
+00:01:59.660 --> 00:01:59.670 
+is supports only HTTP protocol if you
+
+00:01:59.670 --> 00:02:02.560 
+is supports only HTTP protocol if you
+want<00:01:59.909> to<00:02:00.060> use<00:02:00.299> non<00:02:00.780> HTTP<00:02:01.500> protocols<00:02:02.009> like<00:02:02.250> TCP
+
+00:02:02.560 --> 00:02:02.570 
+want to use non HTTP protocols like TCP
+
+00:02:02.570 --> 00:02:05.359 
+want to use non HTTP protocols like TCP
+we<00:02:03.570> need<00:02:03.719> to<00:02:03.869> install<00:02:04.350> windows<00:02:05.070> communication
+
+00:02:05.359 --> 00:02:05.369 
+we need to install windows communication
+
+00:02:05.369 --> 00:02:09.499 
+we need to install windows communication
+foundation<00:02:07.220> non-http<00:02:08.220> activation<00:02:08.879> component
+
+00:02:09.499 --> 00:02:09.509 
+foundation non-http activation component
+
+00:02:09.509 --> 00:02:14.119 
+foundation non-http activation component
+and<00:02:09.890> was<00:02:10.890> component<00:02:11.849> was<00:02:12.450> stands<00:02:13.050> for<00:02:13.410> windows
+
+00:02:14.119 --> 00:02:14.129 
+and was component was stands for windows
+
+00:02:14.129 --> 00:02:16.760 
+and was component was stands for windows
+process<00:02:14.610> activation<00:02:15.300> service<00:02:15.780> what<00:02:16.530> is
+
+00:02:16.760 --> 00:02:16.770 
+process activation service what is
+
+00:02:16.770 --> 00:02:20.479 
+process activation service what is
+supported<00:02:17.400> on<00:02:17.580> these<00:02:17.989> platforms<00:02:18.989> with<00:02:19.440> is<00:02:19.920> 7
+
+00:02:20.479 --> 00:02:20.489 
+supported on these platforms with is 7
+
+00:02:20.489 --> 00:02:23.479 
+supported on these platforms with is 7
+and<00:02:20.730> above<00:02:21.450> versions<00:02:22.260> so<00:02:22.860> it's<00:02:22.980> supported<00:02:23.400> on
+
+00:02:23.479 --> 00:02:23.489 
+and above versions so it's supported on
+
+00:02:23.489 --> 00:02:25.190 
+and above versions so it's supported on
+Windows<00:02:23.849> Vista<00:02:23.879> Windows<00:02:24.480> 7<00:02:24.629> and<00:02:25.020> Windows
+
+00:02:25.190 --> 00:02:25.200 
+Windows Vista Windows 7 and Windows
+
+00:02:25.200 --> 00:02:28.339 
+Windows Vista Windows 7 and Windows
+Server<00:02:25.950> 2008<00:02:26.790> now<00:02:27.420> if<00:02:27.569> you<00:02:27.750> want<00:02:27.959> to<00:02:28.050> find<00:02:28.230> out
+
+00:02:28.339 --> 00:02:28.349 
+Server 2008 now if you want to find out
+
+00:02:28.349 --> 00:02:30.320 
+Server 2008 now if you want to find out
+which<00:02:28.560> version<00:02:28.620> of<00:02:29.099> iOS<00:02:29.280> you<00:02:29.730> have<00:02:29.940> on<00:02:30.120> your
+
+00:02:30.320 --> 00:02:30.330 
+which version of iOS you have on your
+
+00:02:30.330 --> 00:02:34.520 
+which version of iOS you have on your
+machine<00:02:30.590> simply<00:02:31.590> within<00:02:32.010> is<00:02:32.450> click<00:02:33.450> help<00:02:33.989> menu
+
+00:02:34.520 --> 00:02:34.530 
+machine simply within is click help menu
+
+00:02:34.530 --> 00:02:36.500 
+machine simply within is click help menu
+item<00:02:34.830> and<00:02:34.950> then<00:02:35.069> select<00:02:35.370> this<00:02:35.459> option<00:02:35.670> about
+
+00:02:36.500 --> 00:02:36.510 
+item and then select this option about
+
+00:02:36.510 --> 00:02:38.660 
+item and then select this option about
+Internet<00:02:36.930> Information<00:02:37.440> Services<00:02:37.769> and<00:02:38.129> that
+
+00:02:38.660 --> 00:02:38.670 
+Internet Information Services and that
+
+00:02:38.670 --> 00:02:40.940 
+Internet Information Services and that
+should<00:02:39.000> display<00:02:39.420> there<00:02:39.780> the<00:02:40.260> version<00:02:40.650> of<00:02:40.769> iOS
+
+00:02:40.940 --> 00:02:40.950 
+should display there the version of iOS
+
+00:02:40.950 --> 00:02:43.040 
+should display there the version of iOS
+you<00:02:41.370> have<00:02:41.640> at<00:02:42.030> the<00:02:42.120> moment<00:02:42.269> on<00:02:42.480> my<00:02:42.510> machine<00:02:42.930> the
+
+00:02:43.040 --> 00:02:43.050 
+you have at the moment on my machine the
+
+00:02:43.050 --> 00:02:45.100 
+you have at the moment on my machine the
+version<00:02:43.410> is<00:02:43.590> 7.5
+
+00:02:45.100 --> 00:02:45.110 
+version is 7.5
+
+00:02:45.110 --> 00:02:48.380 
+version is 7.5
+alright<00:02:46.110> now<00:02:46.709> to<00:02:47.280> support<00:02:47.459> non<00:02:47.819> HTTP
+
+00:02:48.380 --> 00:02:48.390 
+alright now to support non HTTP
+
+00:02:48.390 --> 00:02:50.509 
+alright now to support non HTTP
+protocols<00:02:48.870> in<00:02:49.050> is<00:02:49.379> we<00:02:49.620> need<00:02:49.769> to<00:02:49.890> do<00:02:50.040> two<00:02:50.489> things
+
+00:02:50.509 --> 00:02:50.519 
+protocols in is we need to do two things
+
+00:02:50.519 --> 00:02:52.820 
+protocols in is we need to do two things
+that<00:02:51.330> is<00:02:51.420> the<00:02:51.510> first<00:02:51.810> one<00:02:52.080> is<00:02:52.260> to<00:02:52.440> install
+
+00:02:52.820 --> 00:02:52.830 
+that is the first one is to install
+
+00:02:52.830 --> 00:02:55.460 
+that is the first one is to install
+walls<00:02:53.480> and<00:02:54.480> windows<00:02:55.230> communication
+
+00:02:55.460 --> 00:02:55.470 
+walls and windows communication
+
+00:02:55.470 --> 00:02:58.729 
+walls and windows communication
+foundation<00:02:55.980> on<00:02:56.790> HTTP<00:02:57.510> activation<00:02:58.080> components
+
+00:02:58.729 --> 00:02:58.739 
+foundation on HTTP activation components
+
+00:02:58.739 --> 00:03:02.059 
+foundation on HTTP activation components
+and<00:02:58.890> then<00:02:59.400> we<00:02:59.519> also<00:02:59.640> need<00:02:59.940> to<00:03:00.060> enable<00:03:00.420> non<00:03:01.319> HTTP
+
+00:03:02.059 --> 00:03:02.069 
+and then we also need to enable non HTTP
+
+00:03:02.069 --> 00:03:04.130 
+and then we also need to enable non HTTP
+protocol<00:03:02.519> support<00:03:03.000> in<00:03:03.120> is<00:03:03.510> forever
+
+00:03:04.130 --> 00:03:04.140 
+protocol support in is forever
+
+00:03:04.140 --> 00:03:06.619 
+protocol support in is forever
+application<00:03:05.129> ok<00:03:05.760> let's<00:03:06.180> go<00:03:06.330> ahead<00:03:06.390> and<00:03:06.540> look
+
+00:03:06.619 --> 00:03:06.629 
+application ok let's go ahead and look
+
+00:03:06.629 --> 00:03:09.979 
+application ok let's go ahead and look
+at<00:03:06.750> these<00:03:06.930> steps<00:03:07.260> in<00:03:07.470> detail<00:03:07.500> now<00:03:08.330> so<00:03:09.330> step
+
+00:03:09.979 --> 00:03:09.989 
+at these steps in detail now so step
+
+00:03:09.989 --> 00:03:12.080 
+at these steps in detail now so step
+here<00:03:10.349> are<00:03:10.500> the<00:03:10.590> steps<00:03:10.830> to<00:03:10.950> install<00:03:11.430> you<00:03:11.940> know
+
+00:03:12.080 --> 00:03:12.090 
+here are the steps to install you know
+
+00:03:12.090 --> 00:03:14.509 
+here are the steps to install you know
+was<00:03:12.690> component<00:03:13.409> and<00:03:13.650> windows<00:03:14.310> communication
+
+00:03:14.509 --> 00:03:14.519 
+was component and windows communication
+
+00:03:14.519 --> 00:03:17.630 
+was component and windows communication
+foundation<00:03:15.030> on<00:03:15.720> HTTP<00:03:16.379> activation<00:03:17.010> component
+
+00:03:17.630 --> 00:03:17.640 
+foundation on HTTP activation component
+
+00:03:17.640 --> 00:03:19.580 
+foundation on HTTP activation component
+so<00:03:18.180> basically<00:03:18.569> we<00:03:18.750> need<00:03:18.900> to<00:03:18.930> go<00:03:19.110> to<00:03:19.170> control
+
+00:03:19.580 --> 00:03:19.590 
+so basically we need to go to control
+
+00:03:19.590 --> 00:03:22.100 
+so basically we need to go to control
+panel<00:03:19.620> and<00:03:20.099> to<00:03:20.640> get<00:03:20.819> to<00:03:21.060> control<00:03:21.390> panel<00:03:21.840> within
+
+00:03:22.100 --> 00:03:22.110 
+panel and to get to control panel within
+
+00:03:22.110 --> 00:03:25.039 
+panel and to get to control panel within
+the<00:03:22.319> run<00:03:22.470> window<00:03:22.860> type<00:03:23.550> control<00:03:24.209> so<00:03:24.870> that
+
+00:03:25.039 --> 00:03:25.049 
+the run window type control so that
+
+00:03:25.049 --> 00:03:26.509 
+the run window type control so that
+should<00:03:25.230> open<00:03:25.349> up<00:03:25.560> the<00:03:25.709> control<00:03:26.069> panel<00:03:26.400> and
+
+00:03:26.509 --> 00:03:26.519 
+should open up the control panel and
+
+00:03:26.519 --> 00:03:28.460 
+should open up the control panel and
+here<00:03:26.790> you<00:03:26.940> should<00:03:26.970> find<00:03:27.390> programs<00:03:28.019> and
+
+00:03:28.460 --> 00:03:28.470 
+here you should find programs and
+
+00:03:28.470 --> 00:03:30.619 
+here you should find programs and
+features<00:03:28.590> click<00:03:29.310> on<00:03:29.489> that<00:03:29.670> link<00:03:29.940> and<00:03:30.150> then
+
+00:03:30.619 --> 00:03:30.629 
+features click on that link and then
+
+00:03:30.629 --> 00:03:32.449 
+features click on that link and then
+click<00:03:30.840> on<00:03:30.959> this<00:03:31.230> link<00:03:31.470> turn<00:03:31.830> Windows<00:03:32.250> Features
+
+00:03:32.449 --> 00:03:32.459 
+click on this link turn Windows Features
+
+00:03:32.459 --> 00:03:36.050 
+click on this link turn Windows Features
+on<00:03:32.909> or<00:03:32.970> off<00:03:33.209> so<00:03:33.900> this<00:03:34.200> should<00:03:34.620> bring<00:03:34.799> up<00:03:35.129> you
+
+00:03:36.050 --> 00:03:36.060 
+on or off so this should bring up you
+
+00:03:36.060 --> 00:03:39.380 
+on or off so this should bring up you
+know<00:03:36.180> the<00:03:36.390> Windows<00:03:36.690> Features<00:03:36.930> window<00:03:38.330> this<00:03:39.330> is
+
+00:03:39.380 --> 00:03:39.390 
+know the Windows Features window this is
+
+00:03:39.390 --> 00:03:42.110 
+know the Windows Features window this is
+going<00:03:39.720> to<00:03:39.870> take<00:03:40.080> you<00:03:40.890> know<00:03:41.010> a<00:03:41.040> few<00:03:41.370> seconds<00:03:41.970> to
+
+00:03:42.110 --> 00:03:42.120 
+going to take you know a few seconds to
+
+00:03:42.120 --> 00:03:44.410 
+going to take you know a few seconds to
+load<00:03:42.330> all<00:03:42.599> the<00:03:42.870> proof<00:03:43.080> all<00:03:43.530> windows<00:03:43.950> features
+
+00:03:44.410 --> 00:03:44.420 
+load all the proof all windows features
+
+00:03:44.420 --> 00:03:47.930 
+load all the proof all windows features
+ok<00:03:45.420> so<00:03:45.930> if<00:03:46.170> you<00:03:46.319> scroll<00:03:46.709> down<00:03:46.769> notice<00:03:47.220> that<00:03:47.610> I
+
+00:03:47.930 --> 00:03:47.940 
+ok so if you scroll down notice that I
+
+00:03:47.940 --> 00:03:50.240 
+ok so if you scroll down notice that I
+already<00:03:48.390> have<00:03:48.840> windows<00:03:49.140> process<00:03:49.590> activation
+
+00:03:50.240 --> 00:03:50.250 
+already have windows process activation
+
+00:03:50.250 --> 00:03:53.720 
+already have windows process activation
+service<00:03:50.670> already<00:03:51.480> installed<00:03:51.989> and<00:03:52.730> under
+
+00:03:53.720 --> 00:03:53.730 
+service already installed and under
+
+00:03:53.730 --> 00:03:57.500 
+service already installed and under
+dotnet<00:03:54.510> framework<00:03:54.930> 3.5<00:03:55.769> point<00:03:56.159> one<00:03:56.519> notice
+
+00:03:57.500 --> 00:03:57.510 
+dotnet framework 3.5 point one notice
+
+00:03:57.510 --> 00:04:00.250 
+dotnet framework 3.5 point one notice
+that<00:03:57.540> windows<00:03:58.170> communication<00:03:58.500> foundation
+
+00:04:00.250 --> 00:04:00.260 
+that windows communication foundation
+
+00:04:00.260 --> 00:04:02.509 
+that windows communication foundation
+non-http<00:04:01.260> activation<00:04:01.830> component<00:04:02.340> this<00:04:02.459> is
+
+00:04:02.509 --> 00:04:02.519 
+non-http activation component this is
+
+00:04:02.519 --> 00:04:05.210 
+non-http activation component this is
+what<00:04:02.879> we<00:04:03.060> need<00:04:03.209> to<00:04:03.239> install<00:04:03.720> so<00:04:04.379> select<00:04:04.920> that
+
+00:04:05.210 --> 00:04:05.220 
+what we need to install so select that
+
+00:04:05.220 --> 00:04:08.660 
+what we need to install so select that
+and<00:04:05.459> click<00:04:06.209> ok<00:04:06.780> so<00:04:07.500> this<00:04:07.799> is<00:04:08.040> going<00:04:08.280> to<00:04:08.459> take
+
+00:04:08.660 --> 00:04:08.670 
+and click ok so this is going to take
+
+00:04:08.670 --> 00:04:11.210 
+and click ok so this is going to take
+several<00:04:09.090> minutes<00:04:09.480> to<00:04:09.750> install<00:04:10.019> so<00:04:10.920> let<00:04:11.099> me
+
+00:04:11.210 --> 00:04:11.220 
+several minutes to install so let me
+
+00:04:11.220 --> 00:04:15.920 
+several minutes to install so let me
+pause<00:04:11.459> the<00:04:11.670> video<00:04:11.790> at<00:04:12.090> this<00:04:12.299> point<00:04:14.209> so<00:04:15.209> Debbie
+
+00:04:15.920 --> 00:04:15.930 
+pause the video at this point so Debbie
+
+00:04:15.930 --> 00:04:19.189 
+pause the video at this point so Debbie
+is<00:04:16.139> here<00:04:17.000> non-http<00:04:18.000> activation<00:04:18.600> component<00:04:19.109> is
+
+00:04:19.189 --> 00:04:19.199 
+is here non-http activation component is
+
+00:04:19.199 --> 00:04:21.110 
+is here non-http activation component is
+now<00:04:19.350> successfully<00:04:19.979> installed<00:04:20.009> so<00:04:20.910> let's
+
+00:04:21.110 --> 00:04:21.120 
+now successfully installed so let's
+
+00:04:21.120 --> 00:04:24.620 
+now successfully installed so let's
+click<00:04:21.329> ok<00:04:21.750> and<00:04:22.460> the<00:04:23.460> second<00:04:23.970> step<00:04:24.210> is
+
+00:04:24.620 --> 00:04:24.630 
+click ok and the second step is
+
+00:04:24.630 --> 00:04:27.890 
+click ok and the second step is
+to<00:04:24.750> enable<00:04:25.110> you<00:04:25.920> know<00:04:26.100> the<00:04:26.970> non<00:04:27.270> HTTP
+
+00:04:27.890 --> 00:04:27.900 
+to enable you know the non HTTP
+
+00:04:27.900 --> 00:04:30.200 
+to enable you know the non HTTP
+protocols<00:04:28.500> support<00:04:29.190> for<00:04:29.400> the<00:04:29.490> application
+
+00:04:30.200 --> 00:04:30.210 
+protocols support for the application
+
+00:04:30.210 --> 00:04:33.290 
+protocols support for the application
+and<00:04:30.390> to<00:04:30.900> do<00:04:31.050> that<00:04:31.290> you<00:04:31.680> know<00:04:31.950> simply<00:04:32.400> go<00:04:32.580> to<00:04:32.610> IAS
+
+00:04:33.290 --> 00:04:33.300 
+and to do that you know simply go to IAS
+
+00:04:33.300 --> 00:04:35.950 
+and to do that you know simply go to IAS
+and<00:04:33.540> within<00:04:33.930> is<00:04:34.350> this<00:04:34.710> our<00:04:34.920> application
+
+00:04:35.950 --> 00:04:35.960 
+and within is this our application
+
+00:04:35.960 --> 00:04:38.510 
+and within is this our application
+directory<00:04:36.960> so<00:04:37.290> right<00:04:37.440> click<00:04:37.590> on<00:04:37.830> that<00:04:38.040> and
+
+00:04:38.510 --> 00:04:38.520 
+directory so right click on that and
+
+00:04:38.520 --> 00:04:41.330 
+directory so right click on that and
+then<00:04:39.180> select<00:04:39.630> manage<00:04:39.870> application<00:04:40.680> advanced
+
+00:04:41.330 --> 00:04:41.340 
+then select manage application advanced
+
+00:04:41.340 --> 00:04:44.720 
+then select manage application advanced
+settings<00:04:41.820> and<00:04:42.440> he<00:04:43.440> notice<00:04:43.800> that<00:04:43.980> enable<00:04:44.610> the
+
+00:04:44.720 --> 00:04:44.730 
+settings and he notice that enable the
+
+00:04:44.730 --> 00:04:46.880 
+settings and he notice that enable the
+protocols<00:04:45.240> at<00:04:45.420> the<00:04:45.510> moment<00:04:45.810> it's<00:04:45.930> only<00:04:46.080> HTTP
+
+00:04:46.880 --> 00:04:46.890 
+protocols at the moment it's only HTTP
+
+00:04:46.890 --> 00:04:50.360 
+protocols at the moment it's only HTTP
+so<00:04:47.520> let's<00:04:48.510> also<00:04:48.750> say<00:04:49.050> we<00:04:49.260> want<00:04:49.560> support<00:04:50.160> for
+
+00:04:50.360 --> 00:04:50.370 
+so let's also say we want support for
+
+00:04:50.370 --> 00:04:53.330 
+so let's also say we want support for
+net<00:04:50.690> TCP<00:04:51.690> protocols<00:04:52.290> who<00:04:52.500> put<00:04:52.770> in<00:04:52.890> there
+
+00:04:53.330 --> 00:04:53.340 
+net TCP protocols who put in there
+
+00:04:53.340 --> 00:04:55.070 
+net TCP protocols who put in there
+if<00:04:53.610> you<00:04:53.790> want<00:04:53.970> to<00:04:54.120> have<00:04:54.360> the<00:04:54.540> support<00:04:54.900> for
+
+00:04:55.070 --> 00:04:55.080 
+if you want to have the support for
+
+00:04:55.080 --> 00:04:58.130 
+if you want to have the support for
+another<00:04:55.380> other<00:04:56.370> protocols<00:04:57.060> just<00:04:57.750> specify
+
+00:04:58.130 --> 00:04:58.140 
+another other protocols just specify
+
+00:04:58.140 --> 00:05:00.200 
+another other protocols just specify
+them<00:04:58.380> with<00:04:58.590> you<00:04:59.250> know<00:04:59.400> a<00:04:59.430> comma<00:04:59.880> separated
+
+00:05:00.200 --> 00:05:00.210 
+them with you know a comma separated
+
+00:05:00.210 --> 00:05:04.640 
+them with you know a comma separated
+list<00:05:00.650> so<00:05:01.650> let's<00:05:02.340> click<00:05:02.580> OK<00:05:02.790> and<00:05:03.240> at<00:05:03.990> this<00:05:04.260> point
+
+00:05:04.640 --> 00:05:04.650 
+list so let's click OK and at this point
+
+00:05:04.650 --> 00:05:08.090 
+list so let's click OK and at this point
+you<00:05:05.400> know<00:05:05.670> we<00:05:05.970> should<00:05:06.210> be<00:05:06.240> able<00:05:06.540> to<00:05:06.780> use<00:05:07.100> TCP
+
+00:05:08.090 --> 00:05:08.100 
+you know we should be able to use TCP
+
+00:05:08.100 --> 00:05:12.220 
+you know we should be able to use TCP
+protocol<00:05:08.640> so<00:05:09.210> let's<00:05:09.600> actually<00:05:09.810> go<00:05:10.050> to<00:05:10.230> is<00:05:10.950> and
+
+00:05:12.220 --> 00:05:12.230 
+protocol so let's actually go to is and
+
+00:05:12.230 --> 00:05:14.630 
+protocol so let's actually go to is and
+browse<00:05:13.230> this<00:05:13.590> service<00:05:13.950> file<00:05:14.190> and<00:05:14.340> see<00:05:14.460> what's
+
+00:05:14.630 --> 00:05:14.640 
+browse this service file and see what's
+
+00:05:14.640 --> 00:05:16.580 
+browse this service file and see what's
+going<00:05:14.850> to<00:05:14.910> happen<00:05:15.270> and<00:05:15.450> look<00:05:16.080> at<00:05:16.200> that<00:05:16.350> it
+
+00:05:16.580 --> 00:05:16.590 
+going to happen and look at that it
+
+00:05:16.590 --> 00:05:18.050 
+going to happen and look at that it
+works<00:05:16.920> as<00:05:17.190> expected
+
+00:05:18.050 --> 00:05:18.060 
+works as expected
+
+00:05:18.060 --> 00:05:20.210 
+works as expected
+okay<00:05:18.630> now<00:05:19.140> let's<00:05:19.650> go<00:05:19.800> to<00:05:19.860> the<00:05:19.980> client
+
+00:05:20.210 --> 00:05:20.220 
+okay now let's go to the client
+
+00:05:20.220 --> 00:05:22.970 
+okay now let's go to the client
+application<00:05:20.810> so<00:05:21.810> here<00:05:22.050> we<00:05:22.230> have<00:05:22.410> the<00:05:22.560> client
+
+00:05:22.970 --> 00:05:22.980 
+application so here we have the client
+
+00:05:22.980 --> 00:05:25.220 
+application so here we have the client
+application<00:05:23.130> and<00:05:23.790> if<00:05:24.240> we<00:05:24.330> look<00:05:24.540> at<00:05:24.780> the
+
+00:05:25.220 --> 00:05:25.230 
+application and if we look at the
+
+00:05:25.230 --> 00:05:27.260 
+application and if we look at the
+configuration<00:05:26.100> file<00:05:26.400> of<00:05:26.730> the<00:05:26.880> client
+
+00:05:27.260 --> 00:05:27.270 
+configuration file of the client
+
+00:05:27.270 --> 00:05:29.270 
+configuration file of the client
+application<00:05:27.620> notice<00:05:28.620> that<00:05:28.740> at<00:05:28.890> the<00:05:28.980> moment
+
+00:05:29.270 --> 00:05:29.280 
+application notice that at the moment
+
+00:05:29.280 --> 00:05:30.860 
+application notice that at the moment
+the<00:05:29.370> client<00:05:29.700> application<00:05:29.820> is<00:05:30.300> still<00:05:30.510> using
+
+00:05:30.860 --> 00:05:30.870 
+the client application is still using
+
+00:05:30.870 --> 00:05:33.500 
+the client application is still using
+basic<00:05:31.230> HTTP<00:05:31.860> binding<00:05:32.040> so<00:05:32.790> we<00:05:32.940> need<00:05:33.120> to<00:05:33.270> update
+
+00:05:33.500 --> 00:05:33.510 
+basic HTTP binding so we need to update
+
+00:05:33.510 --> 00:05:36.680 
+basic HTTP binding so we need to update
+the<00:05:34.200> service<00:05:34.650> reference<00:05:35.160> ok<00:05:35.760> so<00:05:36.120> let's<00:05:36.300> go<00:05:36.510> and
+
+00:05:36.680 --> 00:05:36.690 
+the service reference ok so let's go and
+
+00:05:36.690 --> 00:05:39.890 
+the service reference ok so let's go and
+do<00:05:36.900> that<00:05:37.080> right<00:05:37.380> now<00:05:37.410> so<00:05:38.510> update<00:05:39.510> service
+
+00:05:39.890 --> 00:05:39.900 
+do that right now so update service
+
+00:05:39.900 --> 00:05:42.830 
+do that right now so update service
+reference<00:05:40.380> so<00:05:41.340> this<00:05:41.670> should<00:05:42.090> change<00:05:42.450> the
+
+00:05:42.830 --> 00:05:42.840 
+reference so this should change the
+
+00:05:42.840 --> 00:05:47.810 
+reference so this should change the
+binding<00:05:43.320> now<00:05:43.560> to<00:05:44.220> net<00:05:44.490> TCP<00:05:45.270> binding<00:05:46.430> ok<00:05:47.430> so
+
+00:05:47.810 --> 00:05:47.820 
+binding now to net TCP binding ok so
+
+00:05:47.820 --> 00:05:49.790 
+binding now to net TCP binding ok so
+notice<00:05:48.060> that<00:05:48.390> at<00:05:48.660> the<00:05:48.810> moment<00:05:49.110> it's<00:05:49.230> using<00:05:49.620> net
+
+00:05:49.790 --> 00:05:49.800 
+notice that at the moment it's using net
+
+00:05:49.800 --> 00:05:53.810 
+notice that at the moment it's using net
+TCP<00:05:50.340> binding<00:05:50.730> so<00:05:51.060> let's<00:05:51.270> go<00:05:51.450> and<00:05:51.600> test<00:05:51.870> our<00:05:52.820> WCF
+
+00:05:53.810 --> 00:05:53.820 
+TCP binding so let's go and test our WCF
+
+00:05:53.820 --> 00:05:56.810 
+TCP binding so let's go and test our WCF
+service<00:05:54.270> and<00:05:54.510> see<00:05:54.990> if<00:05:55.080> it<00:05:55.230> supports<00:05:55.740> non<00:05:56.220> HTTP
+
+00:05:56.810 --> 00:05:56.820 
+service and see if it supports non HTTP
+
+00:05:56.820 --> 00:05:58.730 
+service and see if it supports non HTTP
+protocols<00:05:57.300> that<00:05:57.510> is<00:05:57.660> TCP<00:05:58.110> that's<00:05:58.440> what<00:05:58.590> we
+
+00:05:58.730 --> 00:05:58.740 
+protocols that is TCP that's what we
+
+00:05:58.740 --> 00:06:02.120 
+protocols that is TCP that's what we
+have<00:05:58.860> specified<00:05:59.330> ok<00:06:00.330> so<00:06:00.930> let's<00:06:01.230> say<00:06:01.470> test<00:06:01.890> as
+
+00:06:02.120 --> 00:06:02.130 
+have specified ok so let's say test as
+
+00:06:02.130 --> 00:06:05.210 
+have specified ok so let's say test as
+the<00:06:02.310> name<00:06:02.490> click<00:06:02.910> get<00:06:03.210> message<00:06:03.690> and<00:06:03.990> it<00:06:04.950> should
+
+00:06:05.210 --> 00:06:05.220 
+the name click get message and it should
+
+00:06:05.220 --> 00:06:10.850 
+the name click get message and it should
+work<00:06:05.250> now<00:06:08.960> now<00:06:09.960> look<00:06:10.200> at<00:06:10.320> this<00:06:10.410> we<00:06:10.590> have<00:06:10.620> an
+
+00:06:10.850 --> 00:06:10.860 
+work now now look at this we have an
+
+00:06:10.860 --> 00:06:12.710 
+work now now look at this we have an
+exception<00:06:11.430> and<00:06:11.610> if<00:06:12.270> you<00:06:12.390> look<00:06:12.510> at<00:06:12.630> the
+
+00:06:12.710 --> 00:06:12.720 
+exception and if you look at the
+
+00:06:12.720 --> 00:06:14.780 
+exception and if you look at the
+exception<00:06:13.320> let's<00:06:13.440> actually<00:06:13.680> press<00:06:14.070> f5<00:06:14.520> and
+
+00:06:14.780 --> 00:06:14.790 
+exception let's actually press f5 and
+
+00:06:14.790 --> 00:06:18.200 
+exception let's actually press f5 and
+see<00:06:14.940> what<00:06:15.210> is<00:06:15.480> the<00:06:15.810> exception<00:06:16.430> so<00:06:17.430> if<00:06:17.670> you<00:06:17.910> get
+
+00:06:18.200 --> 00:06:18.210 
+see what is the exception so if you get
+
+00:06:18.210 --> 00:06:23.240 
+see what is the exception so if you get
+this<00:06:18.750> exception<00:06:19.710> you<00:06:19.860> know<00:06:20.010> then<00:06:22.070> run<00:06:23.070> this
+
+00:06:23.240 --> 00:06:23.250 
+this exception you know then run this
+
+00:06:23.250 --> 00:06:26.870 
+this exception you know then run this
+command<00:06:23.520> ok<00:06:24.450> so<00:06:24.840> if<00:06:25.230> you<00:06:25.290> get<00:06:25.800> this<00:06:26.280> error<00:06:26.550> you
+
+00:06:26.870 --> 00:06:26.880 
+command ok so if you get this error you
+
+00:06:26.880 --> 00:06:28.880 
+command ok so if you get this error you
+know<00:06:27.300> run<00:06:27.510> we<00:06:27.660> just<00:06:27.840> recommend<00:06:28.350> prompt<00:06:28.650> as<00:06:28.770> an
+
+00:06:28.880 --> 00:06:28.890 
+know run we just recommend prompt as an
+
+00:06:28.890 --> 00:06:30.590 
+know run we just recommend prompt as an
+administrator<00:06:29.490> and<00:06:29.610> execute<00:06:30.180> this<00:06:30.390> command
+
+00:06:30.590 --> 00:06:30.600 
+administrator and execute this command
+
+00:06:30.600 --> 00:06:32.840 
+administrator and execute this command
+if<00:06:31.020> you<00:06:31.470> get<00:06:31.680> this<00:06:31.950> error<00:06:32.190> that's<00:06:32.430> what<00:06:32.610> we<00:06:32.760> are
+
+00:06:32.840 --> 00:06:32.850 
+if you get this error that's what we are
+
+00:06:32.850 --> 00:06:35.700 
+if you get this error that's what we are
+getting<00:06:33.120> at<00:06:33.240> the<00:06:33.330> moment<00:06:33.360> then<00:06:34.260> execute<00:06:34.950> this
+
+00:06:35.700 --> 00:06:35.710 
+getting at the moment then execute this
+
+00:06:35.710 --> 00:06:39.180 
+getting at the moment then execute this
+and<00:06:35.800> service<00:06:36.400> model<00:06:36.730> registration<00:06:37.510> -<00:06:38.290> are<00:06:38.500> so
+
+00:06:39.180 --> 00:06:39.190 
+and service model registration - are so
+
+00:06:39.190 --> 00:06:40.650 
+and service model registration - are so
+what<00:06:39.370> is<00:06:39.490> this<00:06:39.670> going<00:06:39.910> to<00:06:40.030> do<00:06:40.150> it<00:06:40.270> going<00:06:40.540> to
+
+00:06:40.650 --> 00:06:40.660 
+what is this going to do it going to
+
+00:06:40.660 --> 00:06:43.320 
+what is this going to do it going to
+repair<00:06:40.990> the<00:06:41.170> service<00:06:41.530> model<00:06:41.800> registration<00:06:42.640> in
+
+00:06:43.320 --> 00:06:43.330 
+repair the service model registration in
+
+00:06:43.330 --> 00:06:45.330 
+repair the service model registration in
+case<00:06:43.600> if<00:06:43.750> there<00:06:43.930> are<00:06:44.020> any<00:06:44.170> problems<00:06:44.440> so<00:06:45.160> let's
+
+00:06:45.330 --> 00:06:45.340 
+case if there are any problems so let's
+
+00:06:45.340 --> 00:06:46.950 
+case if there are any problems so let's
+go<00:06:45.490> ahead<00:06:45.550> and<00:06:45.700> do<00:06:45.820> that<00:06:45.850> and<00:06:46.210> speed<00:06:46.510> things<00:06:46.690> up
+
+00:06:46.950 --> 00:06:46.960 
+go ahead and do that and speed things up
+
+00:06:46.960 --> 00:06:49.110 
+go ahead and do that and speed things up
+I<00:06:47.050> have<00:06:47.200> already<00:06:47.500> typed<00:06:47.740> that<00:06:47.950> part<00:06:48.400> so<00:06:49.090> let's
+
+00:06:49.110 --> 00:06:49.120 
+I have already typed that part so let's
+
+00:06:49.120 --> 00:06:51.660 
+I have already typed that part so let's
+copy<00:06:49.660> that<00:06:49.840> let's<00:06:50.830> go<00:06:51.070> to<00:06:51.130> visual<00:06:51.340> studio
+
+00:06:51.660 --> 00:06:51.670 
+copy that let's go to visual studio
+
+00:06:51.670 --> 00:06:55.770 
+copy that let's go to visual studio
+command<00:06:52.150> prompt<00:06:52.630> and<00:06:53.370> then<00:06:54.370> actually<00:06:55.270> act<00:06:55.450> we
+
+00:06:55.770 --> 00:06:55.780 
+command prompt and then actually act we
+
+00:06:55.780 --> 00:06:59.010 
+command prompt and then actually act we
+are<00:06:55.870> right<00:06:56.080> there<00:06:56.410> so<00:06:56.680> let's<00:06:57.070> execute<00:06:58.020> service
+
+00:06:59.010 --> 00:06:59.020 
+are right there so let's execute service
+
+00:06:59.020 --> 00:07:04.460 
+are right there so let's execute service
+model<00:06:59.710> registration<00:07:00.520> tool<00:07:00.790> so<00:07:01.600> service<00:07:02.200> model
+
+00:07:04.460 --> 00:07:04.470 
+model registration tool so service model
+
+00:07:04.470 --> 00:07:09.330 
+model registration tool so service model
+registration<00:07:05.470> dot<00:07:05.680> exe<00:07:06.150> -<00:07:07.150> R<00:07:07.360> for<00:07:08.320> repair<00:07:08.740> so
+
+00:07:09.330 --> 00:07:09.340 
+registration dot exe - R for repair so
+
+00:07:09.340 --> 00:07:14.700 
+registration dot exe - R for repair so
+when<00:07:09.490> we<00:07:09.610> press<00:07:09.850> ENTER<00:07:12.660> it<00:07:13.660> should<00:07:13.990> you<00:07:14.560> know
+
+00:07:14.700 --> 00:07:14.710 
+when we press ENTER it should you know
+
+00:07:14.710 --> 00:07:19.620 
+when we press ENTER it should you know
+look<00:07:14.980> at<00:07:15.070> that<00:07:16.500> it<00:07:17.500> has<00:07:17.950> you<00:07:18.670> know<00:07:18.700> changed
+
+00:07:19.620 --> 00:07:19.630 
+look at that it has you know changed
+
+00:07:19.630 --> 00:07:21.510 
+look at that it has you know changed
+service<00:07:20.020> config<00:07:20.440> -<00:07:20.650> you<00:07:20.890> know<00:07:21.010> everything
+
+00:07:21.510 --> 00:07:21.520 
+service config - you know everything
+
+00:07:21.520 --> 00:07:25.470 
+service config - you know everything
+it's<00:07:21.670> a<00:07:21.820> success<00:07:22.360> now<00:07:22.900> let's<00:07:23.290> go<00:07:23.650> ahead<00:07:24.480> close
+
+00:07:25.470 --> 00:07:25.480 
+it's a success now let's go ahead close
+
+00:07:25.480 --> 00:07:27.740 
+it's a success now let's go ahead close
+this<00:07:25.690> client<00:07:26.110> application<00:07:26.650> that's<00:07:26.830> running
+
+00:07:27.740 --> 00:07:27.750 
+this client application that's running
+
+00:07:27.750 --> 00:07:30.690 
+this client application that's running
+let's<00:07:28.750> run<00:07:29.050> the<00:07:29.230> Windows<00:07:29.590> client<00:07:29.830> application
+
+00:07:30.690 --> 00:07:30.700 
+let's run the Windows client application
+
+00:07:30.700 --> 00:07:34.410 
+let's run the Windows client application
+one<00:07:30.910> more<00:07:31.210> once<00:07:31.570> more<00:07:31.810> and<00:07:32.490> let's<00:07:33.490> enter<00:07:34.030> test
+
+00:07:34.410 --> 00:07:34.420 
+one more once more and let's enter test
+
+00:07:34.420 --> 00:07:38.220 
+one more once more and let's enter test
+as<00:07:34.690> the<00:07:34.840> name<00:07:35.020> click<00:07:35.380> get<00:07:35.650> message<00:07:36.130> and<00:07:37.230> it
+
+00:07:38.220 --> 00:07:38.230 
+as the name click get message and it
+
+00:07:38.230 --> 00:07:40.590 
+as the name click get message and it
+should<00:07:38.530> work<00:07:38.560> now<00:07:39.040> look<00:07:39.580> at<00:07:39.700> that<00:07:39.730> hello<00:07:40.150> test
+
+00:07:40.590 --> 00:07:40.600 
+should work now look at that hello test
+
+00:07:40.600 --> 00:07:44.550 
+should work now look at that hello test
+and<00:07:40.960> let's<00:07:41.470> say<00:07:41.620> hello<00:07:41.800> test<00:07:43.080> one<00:07:44.080> two<00:07:44.290> three
+
+00:07:44.550 --> 00:07:44.560 
+and let's say hello test one two three
+
+00:07:44.560 --> 00:07:48.600 
+and let's say hello test one two three
+all<00:07:45.370> right<00:07:46.140> so<00:07:47.140> these<00:07:47.380> days<00:07:47.680> most<00:07:48.370> of<00:07:48.550> the
+
+00:07:48.600 --> 00:07:48.610 
+all right so these days most of the
+
+00:07:48.610 --> 00:07:51.180 
+all right so these days most of the
+companies<00:07:49.090> host<00:07:49.420> their<00:07:49.630> WCF<00:07:50.140> services<00:07:50.620> in<00:07:50.800> is
+
+00:07:51.180 --> 00:07:51.190 
+companies host their WCF services in is
+
+00:07:51.190 --> 00:07:53.790 
+companies host their WCF services in is
+with<00:07:51.910> windows<00:07:52.420> process<00:07:52.870> activation<00:07:53.440> service
+
+00:07:53.790 --> 00:07:53.800 
+with windows process activation service
+
+00:07:53.800 --> 00:07:56.340 
+with windows process activation service
+enabled<00:07:54.340> as<00:07:54.490> it<00:07:54.970> has<00:07:55.150> these<00:07:55.450> advantages<00:07:56.200> that
+
+00:07:56.340 --> 00:07:56.350 
+enabled as it has these advantages that
+
+00:07:56.350 --> 00:07:58.710 
+enabled as it has these advantages that
+you<00:07:56.470> see<00:07:56.650> here<00:07:56.950> no<00:07:57.670> code<00:07:57.970> required<00:07:58.390> to<00:07:58.510> host
+
+00:07:58.710 --> 00:07:58.720 
+you see here no code required to host
+
+00:07:58.720 --> 00:08:00.900 
+you see here no code required to host
+the<00:07:58.870> service<00:07:59.260> is<00:07:59.710> provides<00:08:00.460> process
+
+00:08:00.900 --> 00:08:00.910 
+the service is provides process
+
+00:08:00.910 --> 00:08:03.000 
+the service is provides process
+recycling<00:08:01.540> automatic<00:08:02.410> message<00:08:02.710> based
+
+00:08:03.000 --> 00:08:03.010 
+recycling automatic message based
+
+00:08:03.010 --> 00:08:06.450 
+recycling automatic message based
+activation<00:08:03.760> idle<00:08:04.480> time<00:08:04.660> management<00:08:05.260> etc<00:08:05.470> and
+
+00:08:06.450 --> 00:08:06.460 
+activation idle time management etc and
+
+00:08:06.460 --> 00:08:08.750 
+activation idle time management etc and
+it<00:08:06.640> also<00:08:06.790> supports<00:08:07.060> all<00:08:07.450> transport<00:08:08.200> protocols
+
+00:08:08.750 --> 00:08:08.760 
+it also supports all transport protocols
+
+00:08:08.760 --> 00:08:11.490 
+it also supports all transport protocols
+including<00:08:09.760> the<00:08:09.910> non<00:08:10.150> HTTP<00:08:10.840> protocols<00:08:11.320> like
+
+00:08:11.490 --> 00:08:11.500 
+including the non HTTP protocols like
+
+00:08:11.500 --> 00:08:16.200 
+including the non HTTP protocols like
+TCP<00:08:11.560> named<00:08:12.460> pipes<00:08:12.820> etc<00:08:14.700> that's<00:08:15.700> it<00:08:15.880> for<00:08:16.030> today
+
+00:08:16.200 --> 00:08:16.210 
+TCP named pipes etc that's it for today
+
+00:08:16.210 --> 00:08:19.830 
+TCP named pipes etc that's it for today
+think<00:08:16.480> it's<00:08:16.600> listening<00:08:17.020> have<00:08:17.290> a<00:08:17.320> great<00:08:17.410> day
+

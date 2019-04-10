@@ -1,0 +1,364 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.600 --> 00:00:05.939
+ and how are you all welcome to a 
+
+00:00:02.909 --> 00:00:09.090
+ new tutorial then in this video the 
+
+00:00:05.939 --> 00:00:11.130
+ weekend we will learn to validate 
+
+00:00:09.090 --> 00:00:14.520
+ text boxes to accept only 
+
+00:00:11.130 --> 00:00:17.280
+ numbers and only letters because everything is going 
+
+00:00:14.520 --> 00:00:20.390
+ to perform in Caesar then we go to 
+
+00:00:17.280 --> 00:00:20.390
+ give him a new project 
+
+00:00:23.730 --> 00:00:30.199
+ and it will be a windows force application 
+
+00:00:26.310 --> 00:00:30.199
+ by name validations 
+
+00:00:30.700 --> 00:00:34.940
+ and we are going to accept it so that it 
+
+00:00:33.310 --> 00:00:37.460
+ believe us 
+
+00:00:34.940 --> 00:00:41.300
+ well what we need would be two boxes 
+
+00:00:37.460 --> 00:00:43.969
+ of texts one for the numbers and others 
+
+00:00:41.300 --> 00:00:46.820
+ for the letters then let's go to 
+
+00:00:43.969 --> 00:00:48.920
+ each toolbox and we're going to 
+
+00:00:46.820 --> 00:00:51.190
+ look for the text books then we go to 
+
+00:00:48.920 --> 00:00:51.190
+ add 
+
+00:00:52.350 --> 00:00:56.500
+ and now we are looking for a lay bowl and what 
+
+00:00:54.480 --> 00:00:58.900
+ we add 
+
+00:00:56.500 --> 00:01:01.600
+ and here we are going to need two 'label 
+
+00:00:58.900 --> 00:01:04.379
+ then here we have them and of equal 
+
+00:01:01.600 --> 00:01:06.780
+ form two xbox 
+
+00:01:04.379 --> 00:01:09.509
+ so now this bold law we are going to 
+
+00:01:06.780 --> 00:01:11.219
+ give right click properties and in your 
+
+00:01:09.509 --> 00:01:14.810
+ text property let's write to you 
+
+00:01:11.219 --> 00:01:14.810
+ example here letters 
+
+00:01:16.600 --> 00:01:19.860
+ to these numbers 
+
+00:01:24.990 --> 00:01:30.080
+ and here in this house I hate fashion 
+
+00:01:28.110 --> 00:01:33.100
+ right click 
+
+00:01:30.080 --> 00:01:37.920
+ and in the name property 
+
+00:01:33.100 --> 00:01:37.920
+ we are going to write txt lyrics 
+
+00:01:41.350 --> 00:01:45.780
+ and to the other txt numbers 
+
+00:01:51.330 --> 00:01:56.880
+ ok then now what are we going to do 
+
+00:01:53.250 --> 00:01:58.770
+ is to go to the solutions explorer and 
+
+00:01:56.880 --> 00:02:02.130
+ in our project we are going to click 
+
+00:01:58.770 --> 00:02:03.930
+ right to add and we will add a 
+
+00:02:02.130 --> 00:02:06.390
+ class which will contain the methods 
+
+00:02:03.930 --> 00:02:08.100
+ to validate letters and numbers 
+
+00:02:06.390 --> 00:02:10.020
+ then we are going to call this class 
+
+00:02:08.100 --> 00:02:12.440
+ validate 
+
+00:02:10.020 --> 00:02:15.260
+ and we are going to create it 
+
+00:02:12.440 --> 00:02:17.960
+ and here enters the key we are going to type the 
+
+00:02:15.260 --> 00:02:20.030
+ code to which I already have created it and 
+
+00:02:17.960 --> 00:02:21.950
+ I'm just going to copy it 
+
+00:02:20.030 --> 00:02:23.840
+ and you can not worry because 
+
+00:02:21.950 --> 00:02:26.390
+ I will leave the project on my blog 
+
+00:02:23.840 --> 00:02:28.250
+ so they can download it then 
+
+00:02:26.390 --> 00:02:30.680
+ are two methods one that serves to 
+
+00:02:28.250 --> 00:02:32.540
+ validate the numbers here is the method 
+
+00:02:30.680 --> 00:02:36.020
+ it's called just numbers and others just 
+
+00:02:32.540 --> 00:02:39.770
+ letters and here marks us an error because 
+
+00:02:36.020 --> 00:02:45.319
+ we must import the library using 
+
+00:02:39.770 --> 00:02:48.620
+ system point windows dot forms for 
+
+00:02:45.319 --> 00:02:51.470
+ be able to use them 
+
+00:02:48.620 --> 00:02:55.310
+ events 
+
+00:02:51.470 --> 00:02:57.980
+ then now here in the box 
+
+00:02:55.310 --> 00:03:00.260
+ text let's give it right click and we're going 
+
+00:02:57.980 --> 00:03:02.510
+ to work with the key press event or 
+
+00:03:00.260 --> 00:03:04.810
+ when selected, press a 
+
+00:03:02.510 --> 00:03:04.810
+ key 
+
+00:03:05.410 --> 00:03:09.430
+ each key press element we will give 
+
+00:03:07.450 --> 00:03:11.680
+ Double click 
+
+00:03:09.430 --> 00:03:16.239
+ and here we are going to call the class that 
+
+00:03:11.680 --> 00:03:18.099
+ call validate here is point and like this 
+
+00:03:16.239 --> 00:03:21.380
+ this x of letters then we want that 
+
+00:03:18.099 --> 00:03:24.140
+ only letters to car we pass only letters 
+
+00:03:21.380 --> 00:03:26.440
+ we visit the one that is equivalent to 
+
+00:03:24.140 --> 00:03:30.280
+ event there are 3 
+
+00:03:26.440 --> 00:03:32.250
+ and we close parentheses and semicolons and 
+
+00:03:30.280 --> 00:03:34.810
+ that would be everything and likewise here in 
+
+00:03:32.250 --> 00:03:38.950
+ number we are going to give right click to 
+
+00:03:34.810 --> 00:03:41.410
+ properties and we're going to select the 
+
+00:03:38.950 --> 00:03:44.950
+ event there are three since of equal 
+
+00:03:41.410 --> 00:03:48.160
+ way validate point here would be only 
+
+00:03:44.950 --> 00:03:50.290
+ numbers and we always spent the e that 
+
+00:03:48.160 --> 00:03:54.720
+ It would be like I already told you the key event 
+
+00:03:50.290 --> 00:03:54.720
+ press then now let's debug 
+
+00:04:01.770 --> 00:04:06.240
+ and here for example if we want 
+
+00:04:03.570 --> 00:04:07.920
+ typing numbers is blocked because 
+
+00:04:06.240 --> 00:04:09.240
+ is working with elements when it 
+
+00:04:07.920 --> 00:04:10.830
+ press the key then it is not 
+
+00:04:09.240 --> 00:04:13.080
+ necessary to show a message but 
+
+00:04:10.830 --> 00:04:15.810
+ it's just being blocked but if 
+
+00:04:13.080 --> 00:04:17.970
+ we visit lyrics all the same here if 
+
+00:04:15.810 --> 00:04:19.830
+ I try to type letters you can not 
+
+00:04:17.970 --> 00:04:21.840
+ here I am pressing and he does not accept me 
+
+00:04:19.830 --> 00:04:25.200
+ none but when we need numbers 
+
+00:04:21.840 --> 00:04:26.520
+ all right then 
+
+00:04:25.200 --> 00:04:28.440
+ in this way you can do it 
+
+00:04:26.520 --> 00:04:30.940
+ can add another text box for 
+
+00:04:28.440 --> 00:04:33.370
+ example here 
+
+00:04:30.940 --> 00:04:34.840
+ we are going to give you the properties and we are 
+
+00:04:33.370 --> 00:04:37.450
+ to believe that for example always also 
+
+00:04:34.840 --> 00:04:41.340
+ are the numbers and just call a class 
+
+00:04:37.450 --> 00:04:41.340
+ validate points or numbers 
+
+00:04:41.520 --> 00:04:44.270
+ it's here 
+
+00:04:47.910 --> 00:04:53.180
+ and we're going to debug it so they can see that 
+
+00:04:50.130 --> 00:04:53.180
+ it works 
+
+00:04:53.360 --> 00:04:56.750
+ so for example to this also you 
+
+00:04:55.189 --> 00:04:58.310
+ I try to type letters and they can not 
+
+00:04:56.750 --> 00:05:00.169
+ then it 's so easy 
+
+00:04:58.310 --> 00:05:01.810
+ using the programming oriented to 
+
+00:05:00.169 --> 00:05:04.930
+ objects 
+
+00:05:01.810 --> 00:05:07.000
+ save us code and be able to reuse 
+
+00:05:04.930 --> 00:05:09.220
+ all this code and not just typing in 
+
+00:05:07.000 --> 00:05:10.870
+ each event because unlike no 
+
+00:05:09.220 --> 00:05:15.280
+ create the class we should be 
+
+00:05:10.870 --> 00:05:17.800
+ typing here where we call the method 
+
+00:05:15.280 --> 00:05:20.470
+ only numbers we would have to type everything 
+
+00:05:17.800 --> 00:05:23.050
+ this code all this code we would have 
+
+00:05:20.470 --> 00:05:26.620
+ to edit there then I hope that they 
+
+00:05:23.050 --> 00:05:29.440
+ serve the tutorial and subscribe to my 
+
+00:05:26.620 --> 00:05:31.300
+ channel if they are not subscribed 
+
+00:05:29.440 --> 00:05:33.610
+ leave your comments with 
+
+00:05:31.300 --> 00:05:37.030
+ suggestions and with things that can 
+
+00:05:33.610 --> 00:05:39.310
+ improve so I hope it helps them 
+
+00:05:37.030 --> 00:05:42.580
+ the tutorial and see you in a next 
+
+00:05:39.310 --> 00:05:45.580
+ video of next weekend if it is 
+
+00:05:42.580 --> 00:05:48.090
+ what a happy weekend for all and 
+
+00:05:45.580 --> 00:05:48.090
+ goodbye 
+
