@@ -1,0 +1,1086 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.310 --> 00:00:03.379 
+
+hello<00:00:02.310> and<00:00:02.520> welcome<00:00:02.820> to<00:00:02.850> this<00:00:03.030> minecraft
+
+00:00:03.379 --> 00:00:03.389 
+hello and welcome to this minecraft
+
+00:00:03.389 --> 00:00:06.170 
+hello and welcome to this minecraft
+forge<00:00:03.959> modeling<00:00:04.380> tutorial<00:00:04.560> I'm<00:00:05.160> Saiga<00:00:05.609> 1121
+
+00:00:06.170 --> 00:00:06.180 
+forge modeling tutorial I'm Saiga 1121
+
+00:00:06.180 --> 00:00:08.030 
+forge modeling tutorial I'm Saiga 1121
+and<00:00:06.540> in<00:00:06.660> this<00:00:06.810> tutorial<00:00:07.049> I<00:00:07.529> will<00:00:07.560> be<00:00:07.890> teaching
+
+00:00:08.030 --> 00:00:08.040 
+and in this tutorial I will be teaching
+
+00:00:08.040 --> 00:00:09.799 
+and in this tutorial I will be teaching
+you<00:00:08.370> how<00:00:08.400> to<00:00:08.580> create<00:00:08.849> a<00:00:08.940> custom<00:00:09.389> crafting
+
+00:00:09.799 --> 00:00:09.809 
+you how to create a custom crafting
+
+00:00:09.809 --> 00:00:12.799 
+you how to create a custom crafting
+recipe<00:00:10.200> now<00:00:10.830> I'm<00:00:11.460> starting<00:00:12.450> off<00:00:12.570> with<00:00:12.750> a
+
+00:00:12.799 --> 00:00:12.809 
+recipe now I'm starting off with a
+
+00:00:12.809 --> 00:00:15.589 
+recipe now I'm starting off with a
+custom<00:00:13.340> item<00:00:14.340> and<00:00:14.549> a<00:00:14.610> custom<00:00:14.969> block<00:00:15.179> you<00:00:15.420> don't
+
+00:00:15.589 --> 00:00:15.599 
+custom item and a custom block you don't
+
+00:00:15.599 --> 00:00:18.200 
+custom item and a custom block you don't
+necessarily<00:00:15.719> have<00:00:16.230> to<00:00:16.410> but<00:00:17.039> I'm<00:00:17.310> doing<00:00:18.000> this
+
+00:00:18.200 --> 00:00:18.210 
+necessarily have to but I'm doing this
+
+00:00:18.210 --> 00:00:20.599 
+necessarily have to but I'm doing this
+for<00:00:18.270> demonstration<00:00:19.050> purposes<00:00:19.529> and<00:00:20.369> the<00:00:20.490> way
+
+00:00:20.599 --> 00:00:20.609 
+for demonstration purposes and the way
+
+00:00:20.609 --> 00:00:22.900 
+for demonstration purposes and the way
+we<00:00:20.730> actually<00:00:21.090> create<00:00:21.420> a<00:00:21.449> crafting<00:00:21.900> recipe<00:00:22.350> is
+
+00:00:22.900 --> 00:00:22.910 
+we actually create a crafting recipe is
+
+00:00:22.910 --> 00:00:25.820 
+we actually create a crafting recipe is
+that<00:00:23.910> there's<00:00:24.720> a<00:00:24.810> single<00:00:25.170> method<00:00:25.320> we<00:00:25.560> have<00:00:25.680> to
+
+00:00:25.820 --> 00:00:25.830 
+that there's a single method we have to
+
+00:00:25.830 --> 00:00:28.250 
+that there's a single method we have to
+call<00:00:26.039> inside<00:00:26.550> of<00:00:26.789> our<00:00:26.910> load<00:00:27.300> method<00:00:27.480> now<00:00:28.109> it
+
+00:00:28.250 --> 00:00:28.260 
+call inside of our load method now it
+
+00:00:28.260 --> 00:00:29.720 
+call inside of our load method now it
+doesn't<00:00:28.529> have<00:00:28.680> to<00:00:28.800> be<00:00:28.830> called<00:00:29.160> inside<00:00:29.460> of<00:00:29.609> our
+
+00:00:29.720 --> 00:00:29.730 
+doesn't have to be called inside of our
+
+00:00:29.730 --> 00:00:31.310 
+doesn't have to be called inside of our
+load<00:00:29.970> method<00:00:30.150> we<00:00:30.420> can<00:00:30.570> call<00:00:30.750> it<00:00:30.900> inside<00:00:31.199> of
+
+00:00:31.310 --> 00:00:31.320 
+load method we can call it inside of
+
+00:00:31.320 --> 00:00:33.500 
+load method we can call it inside of
+another<00:00:31.439> method<00:00:32.040> and<00:00:32.759> then<00:00:32.910> call<00:00:33.149> that<00:00:33.360> method
+
+00:00:33.500 --> 00:00:33.510 
+another method and then call that method
+
+00:00:33.510 --> 00:00:35.389 
+another method and then call that method
+inside<00:00:33.989> of<00:00:34.140> the<00:00:34.230> load<00:00:34.380> method<00:00:34.590> which<00:00:34.950> I<00:00:35.100> like
+
+00:00:35.389 --> 00:00:35.399 
+inside of the load method which I like
+
+00:00:35.399 --> 00:00:38.450 
+inside of the load method which I like
+to<00:00:35.520> do<00:00:35.670> for<00:00:36.329> the<00:00:36.510> sake<00:00:36.719> of<00:00:36.890> organization<00:00:37.890> so
+
+00:00:38.450 --> 00:00:38.460 
+to do for the sake of organization so
+
+00:00:38.460 --> 00:00:40.220 
+to do for the sake of organization so
+I'm<00:00:38.610> going<00:00:38.879> to<00:00:38.910> create<00:00:39.180> a<00:00:39.450> new<00:00:39.480> method<00:00:40.079> down
+
+00:00:40.220 --> 00:00:40.230 
+I'm going to create a new method down
+
+00:00:40.230 --> 00:00:45.490 
+I'm going to create a new method down
+here<00:00:40.440> and<00:00:40.590> it'll<00:00:40.950> be<00:00:42.260> private<00:00:43.260> static<00:00:43.820> void
+
+00:00:45.490 --> 00:00:45.500 
+here and it'll be private static void
+
+00:00:45.500 --> 00:00:50.860 
+here and it'll be private static void
+crafting<00:00:46.789> recipes<00:00:47.789> with<00:00:48.600> no<00:00:48.780> parameters<00:00:48.989> and
+
+00:00:50.860 --> 00:00:50.870 
+crafting recipes with no parameters and
+
+00:00:50.870 --> 00:00:53.240 
+crafting recipes with no parameters and
+inside<00:00:51.870> of<00:00:51.989> our<00:00:52.110> load<00:00:52.379> method<00:00:52.559> i'm<00:00:52.829> just<00:00:53.070> going
+
+00:00:53.240 --> 00:00:53.250 
+inside of our load method i'm just going
+
+00:00:53.250 --> 00:01:00.020 
+inside of our load method i'm just going
+to<00:00:53.370> say<00:00:53.660> crafting<00:00:54.660> recipes<00:00:57.620> so<00:00:58.620> now<00:00:59.070> we<00:00:59.879> can
+
+00:01:00.020 --> 00:01:00.030 
+to say crafting recipes so now we can
+
+00:01:00.030 --> 00:01:01.700 
+to say crafting recipes so now we can
+just<00:01:00.239> put<00:01:00.480> all<00:01:00.510> of<00:01:00.660> our<00:01:00.899> crafting<00:01:01.289> recipes
+
+00:01:01.700 --> 00:01:01.710 
+just put all of our crafting recipes
+
+00:01:01.710 --> 00:01:05.060 
+just put all of our crafting recipes
+inside<00:01:02.039> of<00:01:02.160> this<00:01:02.280> method<00:01:02.699> and<00:01:02.899> it's<00:01:03.899> very<00:01:04.860> good
+
+00:01:05.060 --> 00:01:05.070 
+inside of this method and it's very good
+
+00:01:05.070 --> 00:01:07.070 
+inside of this method and it's very good
+for<00:01:05.129> organization<00:01:05.970> because<00:01:06.479> I<00:01:06.600> can<00:01:06.750> just<00:01:06.930> go
+
+00:01:07.070 --> 00:01:07.080 
+for organization because I can just go
+
+00:01:07.080 --> 00:01:10.219 
+for organization because I can just go
+ahead<00:01:07.200> and<00:01:07.290> minimize<00:01:07.590> this<00:01:08.070> and<00:01:08.180> it<00:01:09.180> all<00:01:09.360> goes
+
+00:01:10.219 --> 00:01:10.229 
+ahead and minimize this and it all goes
+
+00:01:10.229 --> 00:01:13.429 
+ahead and minimize this and it all goes
+away<00:01:10.409> temporarily<00:01:11.010> so<00:01:11.909> the<00:01:12.780> way<00:01:12.900> we<00:01:13.080> actually
+
+00:01:13.429 --> 00:01:13.439 
+away temporarily so the way we actually
+
+00:01:13.439 --> 00:01:16.010 
+away temporarily so the way we actually
+create<00:01:13.799> a<00:01:13.830> crafting<00:01:14.250> recipe<00:01:14.869> for<00:01:15.869> this
+
+00:01:16.010 --> 00:01:16.020 
+create a crafting recipe for this
+
+00:01:16.020 --> 00:01:17.600 
+create a crafting recipe for this
+example<00:01:16.350> I'm<00:01:16.590> going<00:01:16.619> to<00:01:16.950> be<00:01:17.070> creating<00:01:17.250> a
+
+00:01:17.600 --> 00:01:17.610 
+example I'm going to be creating a
+
+00:01:17.610 --> 00:01:20.240 
+example I'm going to be creating a
+crafting<00:01:18.030> recipe<00:01:18.420> for<00:01:18.659> our<00:01:18.689> block<00:01:19.680> tutorial
+
+00:01:20.240 --> 00:01:20.250 
+crafting recipe for our block tutorial
+
+00:01:20.250 --> 00:01:22.670 
+crafting recipe for our block tutorial
+using<00:01:20.670> the<00:01:20.820> item<00:01:21.119> tutorial<00:01:21.600> diamonds<00:01:22.439> and
+
+00:01:22.670 --> 00:01:22.680 
+using the item tutorial diamonds and
+
+00:01:22.680 --> 00:01:25.160 
+using the item tutorial diamonds and
+dirt<00:01:23.310> block<00:01:23.580> I<00:01:23.850> don't<00:01:24.630> know<00:01:24.720> why<00:01:24.869> I<00:01:24.900> chose
+
+00:01:25.160 --> 00:01:25.170 
+dirt block I don't know why I chose
+
+00:01:25.170 --> 00:01:30.190 
+dirt block I don't know why I chose
+those<00:01:25.439> I<00:01:25.680> just<00:01:25.920> did<00:01:26.130> if<00:01:26.939> we<00:01:27.420> say<00:01:27.630> game<00:01:28.700> registry
+
+00:01:30.190 --> 00:01:30.200 
+those I just did if we say game registry
+
+00:01:30.200 --> 00:01:35.179 
+those I just did if we say game registry
+dot<00:01:31.200> add<00:01:32.450> recipe<00:01:33.450> and<00:01:33.770> we're<00:01:34.770> going<00:01:34.950> to<00:01:34.979> say
+
+00:01:35.179 --> 00:01:35.189 
+dot add recipe and we're going to say
+
+00:01:35.189 --> 00:01:38.840 
+dot add recipe and we're going to say
+new<00:01:35.460> itemstack<00:01:36.409> so<00:01:37.409> the<00:01:38.159> way<00:01:38.250> you<00:01:38.280> create<00:01:38.670> an
+
+00:01:38.840 --> 00:01:38.850 
+new itemstack so the way you create an
+
+00:01:38.850 --> 00:01:43.100 
+new itemstack so the way you create an
+item<00:01:39.150> stack<00:01:39.450> is<00:01:39.689> you'll<00:01:40.259> say<00:01:41.119> either<00:01:42.119> an<00:01:42.659> item
+
+00:01:43.100 --> 00:01:43.110 
+item stack is you'll say either an item
+
+00:01:43.110 --> 00:01:44.780 
+item stack is you'll say either an item
+or<00:01:43.259> a<00:01:43.320> block<00:01:43.619> in<00:01:43.860> this<00:01:44.040> case<00:01:44.280> we're<00:01:44.520> going<00:01:44.549> to
+
+00:01:44.780 --> 00:01:44.790 
+or a block in this case we're going to
+
+00:01:44.790 --> 00:01:48.469 
+or a block in this case we're going to
+say<00:01:45.030> lock<00:01:45.840> tutorial<00:01:46.770> and<00:01:46.979> then<00:01:47.759> you<00:01:47.970> define<00:01:48.119> a
+
+00:01:48.469 --> 00:01:48.479 
+say lock tutorial and then you define a
+
+00:01:48.479 --> 00:01:51.109 
+say lock tutorial and then you define a
+number<00:01:48.960> of<00:01:49.170> that<00:01:49.500> item<00:01:49.890> or<00:01:50.159> block<00:01:50.430> in<00:01:51.000> this
+
+00:01:51.109 --> 00:01:51.119 
+number of that item or block in this
+
+00:01:51.119 --> 00:01:53.990 
+number of that item or block in this
+case<00:01:51.390> we'll<00:01:51.600> just<00:01:51.810> say<00:01:51.960> four<00:01:52.320> and<00:01:52.790> we're<00:01:53.790> going
+
+00:01:53.990 --> 00:01:54.000 
+case we'll just say four and we're going
+
+00:01:54.000 --> 00:01:57.649 
+case we'll just say four and we're going
+to<00:01:54.090> put<00:01:54.240> a<00:01:54.710> semicolon<00:01:55.710> after<00:01:56.219> it<00:01:56.490> but<00:01:57.210> inside
+
+00:01:57.649 --> 00:01:57.659 
+to put a semicolon after it but inside
+
+00:01:57.659 --> 00:01:59.510 
+to put a semicolon after it but inside
+of<00:01:57.780> it<00:01:57.899> we're<00:01:58.049> going<00:01:58.259> to<00:01:58.380> do<00:01:58.500> what<00:01:58.890> we<00:01:58.920> did<00:01:59.189> for
+
+00:01:59.510 --> 00:01:59.520 
+of it we're going to do what we did for
+
+00:01:59.520 --> 00:02:01.730 
+of it we're going to do what we did for
+the<00:01:59.719> custom<00:02:00.719> creative<00:02:01.110> tab<00:02:01.290> if<00:02:01.469> you<00:02:01.590> watch
+
+00:02:01.730 --> 00:02:01.740 
+the custom creative tab if you watch
+
+00:02:01.740 --> 00:02:03.560 
+the custom creative tab if you watch
+that<00:02:01.770> tutorial<00:02:02.189> and<00:02:02.670> we're<00:02:03.149> going<00:02:03.360> to<00:02:03.450> add
+
+00:02:03.560 --> 00:02:03.570 
+that tutorial and we're going to add
+
+00:02:03.570 --> 00:02:06.950 
+that tutorial and we're going to add
+these<00:02:04.049> braces<00:02:04.649> right<00:02:05.040> here<00:02:05.280> and<00:02:05.430> then<00:02:06.329> we<00:02:06.689> can
+
+00:02:06.950 --> 00:02:06.960 
+these braces right here and then we can
+
+00:02:06.960 --> 00:02:09.229 
+these braces right here and then we can
+go<00:02:07.560> down<00:02:07.740> here<00:02:07.770> now<00:02:08.459> before<00:02:08.670> we<00:02:08.819> do<00:02:09.030> that<00:02:09.060> we
+
+00:02:09.229 --> 00:02:09.239 
+go down here now before we do that we
+
+00:02:09.239 --> 00:02:12.800 
+go down here now before we do that we
+actually<00:02:09.660> have<00:02:09.750> to<00:02:09.869> add<00:02:09.959> a<00:02:09.989> comma<00:02:10.319> or<00:02:11.660> yeah<00:02:12.660> a
+
+00:02:12.800 --> 00:02:12.810 
+actually have to add a comma or yeah a
+
+00:02:12.810 --> 00:02:13.370 
+actually have to add a comma or yeah a
+comma
+
+00:02:13.370 --> 00:02:13.380 
+comma
+
+00:02:13.380 --> 00:02:19.330 
+comma
+and<00:02:13.640> say<00:02:14.640> new<00:02:15.290> object<00:02:16.290> with<00:02:16.950> brackets<00:02:17.780> now<00:02:18.780> i
+
+00:02:19.330 --> 00:02:19.340 
+and say new object with brackets now i
+
+00:02:19.340 --> 00:02:22.340 
+and say new object with brackets now i
+already<00:02:20.340> have<00:02:20.580> itemstack<00:02:21.230> imported<00:02:22.230> you
+
+00:02:22.340 --> 00:02:22.350 
+already have itemstack imported you
+
+00:02:22.350 --> 00:02:25.100 
+already have itemstack imported you
+might<00:02:22.560> have<00:02:22.740> to<00:02:22.860> import<00:02:23.190> items<00:02:23.460> stack<00:02:23.820> so<00:02:24.600> the
+
+00:02:25.100 --> 00:02:25.110 
+might have to import items stack so the
+
+00:02:25.110 --> 00:02:26.630 
+might have to import items stack so the
+way<00:02:25.200> we<00:02:25.350> actually<00:02:25.740> create<00:02:26.010> the<00:02:26.100> recipe<00:02:26.490> is
+
+00:02:26.630 --> 00:02:26.640 
+way we actually create the recipe is
+
+00:02:26.640 --> 00:02:29.060 
+way we actually create the recipe is
+we're<00:02:27.210> going<00:02:27.390> to<00:02:27.630> create<00:02:27.990> a<00:02:28.080> series<00:02:28.440> of<00:02:28.590> three
+
+00:02:29.060 --> 00:02:29.070 
+we're going to create a series of three
+
+00:02:29.070 --> 00:02:33.650 
+we're going to create a series of three
+strings<00:02:29.430> and<00:02:31.130> with<00:02:32.130> commas<00:02:32.970> after<00:02:33.270> all<00:02:33.390> three
+
+00:02:33.650 --> 00:02:33.660 
+strings and with commas after all three
+
+00:02:33.660 --> 00:02:36.410 
+strings and with commas after all three
+now<00:02:34.260> you<00:02:35.130> don't<00:02:35.250> necessarily<00:02:35.460> have<00:02:35.970> to<00:02:36.240> have
+
+00:02:36.410 --> 00:02:36.420 
+now you don't necessarily have to have
+
+00:02:36.420 --> 00:02:39.500 
+now you don't necessarily have to have
+three<00:02:36.900> strings<00:02:37.200> i<00:02:37.410> will<00:02:38.340> be<00:02:38.490> showing<00:02:38.640> you<00:02:38.940> sort
+
+00:02:39.500 --> 00:02:39.510 
+three strings i will be showing you sort
+
+00:02:39.510 --> 00:02:41.360 
+three strings i will be showing you sort
+of<00:02:39.630> how<00:02:39.810> to<00:02:39.870> customize<00:02:40.500> the<00:02:40.680> recipe<00:02:41.070> and<00:02:41.190> make
+
+00:02:41.360 --> 00:02:41.370 
+of how to customize the recipe and make
+
+00:02:41.370 --> 00:02:44.330 
+of how to customize the recipe and make
+it<00:02:41.550> not<00:02:41.850> require<00:02:42.270> a<00:02:42.300> full<00:02:42.920> three<00:02:43.920> by<00:02:44.070> three
+
+00:02:44.330 --> 00:02:44.340 
+it not require a full three by three
+
+00:02:44.340 --> 00:02:46.670 
+it not require a full three by three
+crafting<00:02:44.760> table<00:02:45.060> but<00:02:45.720> for<00:02:46.110> now<00:02:46.140> we're<00:02:46.650> just
+
+00:02:46.670 --> 00:02:46.680 
+crafting table but for now we're just
+
+00:02:46.680 --> 00:02:49.010 
+crafting table but for now we're just
+going<00:02:47.160> to<00:02:47.190> do<00:02:47.370> this<00:02:47.550> so<00:02:47.850> the<00:02:48.450> way<00:02:48.570> I<00:02:48.600> want<00:02:48.900> the
+
+00:02:49.010 --> 00:02:49.020 
+going to do this so the way I want the
+
+00:02:49.020 --> 00:02:52.310 
+going to do this so the way I want the
+recipe<00:02:49.200> to<00:02:49.530> be<00:02:49.560> is<00:02:49.830> I<00:02:50.550> want<00:02:50.910> it<00:02:51.060> to<00:02:51.240> have<00:02:51.750> our
+
+00:02:52.310 --> 00:02:52.320 
+recipe to be is I want it to have our
+
+00:02:52.320 --> 00:02:54.710 
+recipe to be is I want it to have our
+item<00:02:53.010> tutorial<00:02:53.490> down<00:02:53.700> the<00:02:53.850> sides<00:02:54.060> and<00:02:54.360> in<00:02:54.600> the
+
+00:02:54.710 --> 00:02:54.720 
+item tutorial down the sides and in the
+
+00:02:54.720 --> 00:02:56.690 
+item tutorial down the sides and in the
+middle<00:02:54.870> with<00:02:55.410> the<00:02:55.530> diamond<00:02:55.920> in<00:02:56.100> the<00:02:56.490> top
+
+00:02:56.690 --> 00:02:56.700 
+middle with the diamond in the top
+
+00:02:56.700 --> 00:02:59.630 
+middle with the diamond in the top
+center<00:02:56.970> and<00:02:57.300> dirt<00:02:58.080> in<00:02:58.290> the<00:02:58.440> bottom<00:02:58.710> center<00:02:59.070> so
+
+00:02:59.630 --> 00:02:59.640 
+center and dirt in the bottom center so
+
+00:02:59.640 --> 00:03:01.370 
+center and dirt in the bottom center so
+the<00:02:59.820> way<00:02:59.940> we're<00:03:00.120> going<00:03:00.240> to<00:03:00.330> do<00:03:00.480> this<00:03:00.660> is<00:03:00.870> each
+
+00:03:01.370 --> 00:03:01.380 
+the way we're going to do this is each
+
+00:03:01.380 --> 00:03:04.250 
+the way we're going to do this is each
+of<00:03:01.770> these<00:03:02.310> three<00:03:02.370> strings<00:03:03.060> represents<00:03:03.810> a<00:03:03.900> row
+
+00:03:04.250 --> 00:03:04.260 
+of these three strings represents a row
+
+00:03:04.260 --> 00:03:08.450 
+of these three strings represents a row
+in<00:03:04.560> the<00:03:04.770> crafting<00:03:05.070> table<00:03:05.130> and<00:03:06.980> we're<00:03:07.980> going<00:03:08.280> to
+
+00:03:08.450 --> 00:03:08.460 
+in the crafting table and we're going to
+
+00:03:08.460 --> 00:03:11.530 
+in the crafting table and we're going to
+define<00:03:08.640> these<00:03:08.940> rows<00:03:09.180> so<00:03:09.570> I'm<00:03:09.900> going<00:03:10.470> to<00:03:10.590> with
+
+00:03:11.530 --> 00:03:11.540 
+define these rows so I'm going to with
+
+00:03:11.540 --> 00:03:14.360 
+define these rows so I'm going to with
+letters<00:03:12.540> that<00:03:12.870> we<00:03:12.990> choose<00:03:13.170> to<00:03:13.230> represent<00:03:13.890> the
+
+00:03:14.360 --> 00:03:14.370 
+letters that we choose to represent the
+
+00:03:14.370 --> 00:03:18.700 
+letters that we choose to represent the
+items<00:03:14.670> and<00:03:14.910> blocks<00:03:15.000> so<00:03:15.840> i'm<00:03:15.960> going<00:03:16.110> to<00:03:16.320> say<00:03:16.470> t
+
+00:03:18.700 --> 00:03:18.710 
+items and blocks so i'm going to say t
+
+00:03:18.710 --> 00:03:22.490 
+items and blocks so i'm going to say t
+dt4<00:03:19.710> the<00:03:19.830> top<00:03:20.070> row<00:03:20.780> and<00:03:21.780> then<00:03:21.930> i'm<00:03:22.170> going<00:03:22.410> to
+
+00:03:22.490 --> 00:03:22.500 
+dt4 the top row and then i'm going to
+
+00:03:22.500 --> 00:03:27.850 
+dt4 the top row and then i'm going to
+say<00:03:23.660> TTT<00:03:24.660> for<00:03:25.320> the<00:03:25.440> middle<00:03:25.680> row<00:03:25.830> and<00:03:26.070> then<00:03:26.610> t
+
+00:03:27.850 --> 00:03:27.860 
+say TTT for the middle row and then t
+
+00:03:27.860 --> 00:03:32.530 
+say TTT for the middle row and then t
+lowercase<00:03:28.860> t<00:03:29.070> t<00:03:29.610> for<00:03:30.330> the<00:03:30.480> bottom<00:03:30.750> row<00:03:31.010> now
+
+00:03:32.530 --> 00:03:32.540 
+lowercase t t for the bottom row now
+
+00:03:32.540 --> 00:03:35.120 
+lowercase t t for the bottom row now
+what<00:03:33.540> do<00:03:33.840> these<00:03:33.990> letters<00:03:34.050> me<00:03:34.560> well<00:03:34.860> these
+
+00:03:35.120 --> 00:03:35.130 
+what do these letters me well these
+
+00:03:35.130 --> 00:03:37.370 
+what do these letters me well these
+letters<00:03:35.550> are<00:03:35.700> completely<00:03:36.300> arbitrary<00:03:36.510> and<00:03:37.140> I
+
+00:03:37.370 --> 00:03:37.380 
+letters are completely arbitrary and I
+
+00:03:37.380 --> 00:03:39.020 
+letters are completely arbitrary and I
+just<00:03:37.650> chose<00:03:37.890> them<00:03:38.220> to<00:03:38.400> represent<00:03:38.910> the
+
+00:03:39.020 --> 00:03:39.030 
+just chose them to represent the
+
+00:03:39.030 --> 00:03:40.370 
+just chose them to represent the
+different<00:03:39.150> items<00:03:39.570> and<00:03:39.780> blocks<00:03:39.840> that<00:03:40.200> we're
+
+00:03:40.370 --> 00:03:40.380 
+different items and blocks that we're
+
+00:03:40.380 --> 00:03:42.760 
+different items and blocks that we're
+using<00:03:40.560> but<00:03:41.490> we<00:03:41.610> actually<00:03:41.790> have<00:03:42.209> to<00:03:42.360> tell
+
+00:03:42.760 --> 00:03:42.770 
+using but we actually have to tell
+
+00:03:42.770 --> 00:03:47.000 
+using but we actually have to tell
+minecraft<00:03:43.770> what<00:03:44.580> these<00:03:45.290> letters<00:03:46.290> represent
+
+00:03:47.000 --> 00:03:47.010 
+minecraft what these letters represent
+
+00:03:47.010 --> 00:03:49.970 
+minecraft what these letters represent
+so<00:03:47.550> the<00:03:47.700> way<00:03:47.790> we<00:03:47.940> do<00:03:48.090> this<00:03:48.120> is<00:03:48.300> we<00:03:48.480> use<00:03:48.810> a<00:03:48.980> char
+
+00:03:49.970 --> 00:03:49.980 
+so the way we do this is we use a char
+
+00:03:49.980 --> 00:03:53.570 
+so the way we do this is we use a char
+value<00:03:50.880> which<00:03:51.510> is<00:03:51.750> using<00:03:52.560> apostrophes<00:03:52.800> instead
+
+00:03:53.570 --> 00:03:53.580 
+value which is using apostrophes instead
+
+00:03:53.580 --> 00:03:56.030 
+value which is using apostrophes instead
+of<00:03:53.670> quotation<00:03:54.209> marks<00:03:54.450> and<00:03:54.630> we'll<00:03:55.200> say<00:03:55.410> capital
+
+00:03:56.030 --> 00:03:56.040 
+of quotation marks and we'll say capital
+
+00:03:56.040 --> 00:04:02.360 
+of quotation marks and we'll say capital
+T<00:03:56.310> comma<00:03:57.440> this<00:03:58.580> dot<00:04:00.200> well<00:04:01.200> not<00:04:01.680> even<00:04:01.709> this<00:04:02.160> stop
+
+00:04:02.360 --> 00:04:02.370 
+T comma this dot well not even this stop
+
+00:04:02.370 --> 00:04:05.270 
+T comma this dot well not even this stop
+we<00:04:02.490> can<00:04:02.640> just<00:04:02.790> say<00:04:02.970> item<00:04:03.600> tutorial<00:04:04.410> and<00:04:04.590> then
+
+00:04:05.270 --> 00:04:05.280 
+we can just say item tutorial and then
+
+00:04:05.280 --> 00:04:07.610 
+we can just say item tutorial and then
+we<00:04:05.400> add<00:04:05.550> a<00:04:05.580> comma<00:04:05.850> and<00:04:06.060> what<00:04:06.959> this<00:04:07.110> is<00:04:07.260> doing<00:04:07.410> is
+
+00:04:07.610 --> 00:04:07.620 
+we add a comma and what this is doing is
+
+00:04:07.620 --> 00:04:09.440 
+we add a comma and what this is doing is
+it<00:04:07.800> saying<00:04:08.040> that<00:04:08.310> whenever<00:04:08.700> it<00:04:09.000> encounters<00:04:09.420> a
+
+00:04:09.440 --> 00:04:09.450 
+it saying that whenever it encounters a
+
+00:04:09.450 --> 00:04:14.210 
+it saying that whenever it encounters a
+tea<00:04:09.750> it<00:04:10.020> should<00:04:10.820> be<00:04:11.990> an<00:04:12.990> item<00:04:13.530> tutorial<00:04:14.040> and
+
+00:04:14.210 --> 00:04:14.220 
+tea it should be an item tutorial and
+
+00:04:14.220 --> 00:04:16.880 
+tea it should be an item tutorial and
+now<00:04:14.970> we<00:04:15.030> go<00:04:15.330> below<00:04:15.780> it<00:04:15.959> and<00:04:16.049> we'll<00:04:16.590> add<00:04:16.739> another
+
+00:04:16.880 --> 00:04:16.890 
+now we go below it and we'll add another
+
+00:04:16.890 --> 00:04:20.979 
+now we go below it and we'll add another
+char<00:04:17.580> value<00:04:17.940> and<00:04:18.120> we'll<00:04:18.270> say<00:04:18.450> capital<00:04:18.989> D<00:04:19.230> and
+
+00:04:20.979 --> 00:04:20.989 
+char value and we'll say capital D and
+
+00:04:20.989 --> 00:04:25.300 
+char value and we'll say capital D and
+we'll<00:04:21.989> say<00:04:22.169> item<00:04:22.560> dot<00:04:22.970> diamond<00:04:23.970> and<00:04:24.229> then
+
+00:04:25.300 --> 00:04:25.310 
+we'll say item dot diamond and then
+
+00:04:25.310 --> 00:04:27.560 
+we'll say item dot diamond and then
+another<00:04:26.310> chart<00:04:26.729> and<00:04:26.910> we'll<00:04:27.030> say<00:04:27.180> lower
+
+00:04:27.560 --> 00:04:27.570 
+another chart and we'll say lower
+
+00:04:27.570 --> 00:04:30.590 
+another chart and we'll say lower
+tasty<00:04:27.840> note<00:04:28.200> that<00:04:28.500> cap<00:04:29.370> that<00:04:29.730> capital<00:04:30.360> and
+
+00:04:30.590 --> 00:04:30.600 
+tasty note that cap that capital and
+
+00:04:30.600 --> 00:04:34.370 
+tasty note that cap that capital and
+lowercase<00:04:30.780> all<00:04:31.490> are<00:04:32.750> there<00:04:33.750> two<00:04:33.960> different
+
+00:04:34.370 --> 00:04:34.380 
+lowercase all are there two different
+
+00:04:34.380 --> 00:04:40.340 
+lowercase all are there two different
+values<00:04:35.130> and<00:04:35.400> we<00:04:36.150> can<00:04:36.360> say<00:04:36.600> lock<00:04:37.410> dot<00:04:39.050> now<00:04:40.050> if
+
+00:04:40.340 --> 00:04:40.350 
+values and we can say lock dot now if
+
+00:04:40.350 --> 00:04:43.550 
+values and we can say lock dot now if
+you<00:04:40.500> were<00:04:40.650> using<00:04:40.800> a<00:04:41.210> custom<00:04:42.210> block<00:04:42.600> then<00:04:42.990> you
+
+00:04:43.550 --> 00:04:43.560 
+you were using a custom block then you
+
+00:04:43.560 --> 00:04:46.430 
+you were using a custom block then you
+would<00:04:44.280> just<00:04:44.460> do<00:04:44.790> what<00:04:45.030> we<00:04:45.150> did<00:04:45.360> with<00:04:46.080> this<00:04:46.230> item
+
+00:04:46.430 --> 00:04:46.440 
+would just do what we did with this item
+
+00:04:46.440 --> 00:04:50.300 
+would just do what we did with this item
+tutorial<00:04:47.100> so<00:04:48.290> this<00:04:49.290> is<00:04:49.500> going<00:04:49.740> to<00:04:49.860> create<00:04:50.160> a
+
+00:04:50.300 --> 00:04:50.310 
+tutorial so this is going to create a
+
+00:04:50.310 --> 00:04:52.430 
+tutorial so this is going to create a
+crafting<00:04:50.820> recipe<00:04:51.240> if<00:04:51.420> I<00:04:51.600> go<00:04:51.780> ahead<00:04:52.020> and<00:04:52.200> run
+
+00:04:52.430 --> 00:04:52.440 
+crafting recipe if I go ahead and run
+
+00:04:52.440 --> 00:04:56.000 
+crafting recipe if I go ahead and run
+the<00:04:52.620> game<00:04:53.510> that<00:04:54.510> uses<00:04:54.720> the<00:04:55.170> entire<00:04:55.290> three<00:04:55.860> by
+
+00:04:56.000 --> 00:04:56.010 
+the game that uses the entire three by
+
+00:04:56.010 --> 00:04:59.900 
+the game that uses the entire three by
+three<00:04:56.340> crafting<00:04:57.150> grid<00:04:58.190> but<00:04:59.190> sometimes<00:04:59.520> you're
+
+00:04:59.900 --> 00:04:59.910 
+three crafting grid but sometimes you're
+
+00:04:59.910 --> 00:05:02.240 
+three crafting grid but sometimes you're
+not<00:04:59.970> always<00:05:00.330> going<00:05:00.600> to<00:05:00.720> want<00:05:00.900> to<00:05:01.140> do<00:05:01.890> that<00:05:02.040> and
+
+00:05:02.240 --> 00:05:02.250 
+not always going to want to do that and
+
+00:05:02.250 --> 00:05:03.650 
+not always going to want to do that and
+i'm<00:05:02.370> going<00:05:02.580> to<00:05:02.640> show<00:05:02.790> you<00:05:02.820> in<00:05:03.060> a<00:05:03.150> second<00:05:03.510> after
+
+00:05:03.650 --> 00:05:03.660 
+i'm going to show you in a second after
+
+00:05:03.660 --> 00:05:07.310 
+i'm going to show you in a second after
+i<00:05:04.110> demonstrate<00:05:04.710> this<00:05:04.890> um<00:05:05.570> how<00:05:06.570> you<00:05:06.630> can<00:05:07.140> make
+
+00:05:07.310 --> 00:05:07.320 
+i demonstrate this um how you can make
+
+00:05:07.320 --> 00:05:15.050 
+i demonstrate this um how you can make
+it<00:05:07.530> use<00:05:08.100> a<00:05:08.130> smaller<00:05:09.020> area<00:05:10.020> I<00:05:10.740> guess<00:05:13.550> yeah<00:05:14.550> so<00:05:14.850> if
+
+00:05:15.050 --> 00:05:15.060 
+it use a smaller area I guess yeah so if
+
+00:05:15.060 --> 00:05:20.240 
+it use a smaller area I guess yeah so if
+we<00:05:15.980> go<00:05:16.980> ahead<00:05:17.250> and<00:05:18.110> get<00:05:19.110> a<00:05:19.170> crafting<00:05:19.740> table<00:05:19.770> out
+
+00:05:20.240 --> 00:05:20.250 
+we go ahead and get a crafting table out
+
+00:05:20.250 --> 00:05:25.130 
+we go ahead and get a crafting table out
+we<00:05:20.910> need<00:05:21.150> dirt<00:05:22.400> we<00:05:23.400> have<00:05:23.520> the<00:05:23.700> diamond<00:05:24.240> and<00:05:24.540> we
+
+00:05:25.130 --> 00:05:25.140 
+we need dirt we have the diamond and we
+
+00:05:25.140 --> 00:05:29.420 
+we need dirt we have the diamond and we
+have<00:05:25.320> plenty<00:05:26.010> of<00:05:26.190> our<00:05:27.350> tutorial<00:05:28.350> items<00:05:28.680> then
+
+00:05:29.420 --> 00:05:29.430 
+have plenty of our tutorial items then
+
+00:05:29.430 --> 00:05:32.620 
+have plenty of our tutorial items then
+we're<00:05:30.090> going<00:05:30.270> to<00:05:30.530> go<00:05:31.530> ahead<00:05:31.560> and<00:05:31.980> lay<00:05:32.190> out
+
+00:05:32.620 --> 00:05:32.630 
+we're going to go ahead and lay out
+
+00:05:32.630 --> 00:05:37.640 
+we're going to go ahead and lay out
+these<00:05:33.770> with<00:05:34.770> the<00:05:34.920> diamond<00:05:35.370> and<00:05:35.610> the<00:05:36.470> dirt<00:05:37.470> and
+
+00:05:37.640 --> 00:05:37.650 
+these with the diamond and the dirt and
+
+00:05:37.650 --> 00:05:39.260 
+these with the diamond and the dirt and
+you'll<00:05:38.100> see<00:05:38.280> it's<00:05:38.400> going<00:05:38.520> to<00:05:38.700> give<00:05:38.850> us<00:05:38.880> four
+
+00:05:39.260 --> 00:05:39.270 
+you'll see it's going to give us four
+
+00:05:39.270 --> 00:05:42.170 
+you'll see it's going to give us four
+tutorial<00:05:39.870> blocks<00:05:40.140> which<00:05:40.920> I<00:05:41.310> can<00:05:41.640> go<00:05:41.970> ahead<00:05:42.060> and
+
+00:05:42.170 --> 00:05:42.180 
+tutorial blocks which I can go ahead and
+
+00:05:42.180 --> 00:05:46.040 
+tutorial blocks which I can go ahead and
+place<00:05:42.480> and<00:05:42.810> all<00:05:43.320> of<00:05:43.890> that<00:05:43.920> goodness<00:05:44.310> now<00:05:45.300> if<00:05:45.600> we
+
+00:05:46.040 --> 00:05:46.050 
+place and all of that goodness now if we
+
+00:05:46.050 --> 00:05:50.060 
+place and all of that goodness now if we
+wanted<00:05:46.590> to<00:05:46.650> actually<00:05:46.860> create<00:05:47.370> a<00:05:47.550> smaller<00:05:49.070> area
+
+00:05:50.060 --> 00:05:50.070 
+wanted to actually create a smaller area
+
+00:05:50.070 --> 00:05:55.780 
+wanted to actually create a smaller area
+I<00:05:50.840> guess<00:05:51.840> then<00:05:52.260> we<00:05:52.770> could<00:05:53.010> say<00:05:53.900> completely
+
+00:05:55.780 --> 00:05:55.790 
+I guess then we could say completely
+
+00:05:55.790 --> 00:05:59.360 
+I guess then we could say completely
+eliminate<00:05:56.790> this<00:05:56.940> middle<00:05:57.270> row<00:05:57.420> and<00:05:58.250> what<00:05:59.250> this
+
+00:05:59.360 --> 00:05:59.370 
+eliminate this middle row and what this
+
+00:05:59.370 --> 00:06:01.910 
+eliminate this middle row and what this
+will<00:05:59.580> do<00:05:59.760> is<00:05:59.910> it's<00:06:00.480> going<00:06:00.720> to<00:06:00.810> tell<00:06:01.140> minecraft
+
+00:06:01.910 --> 00:06:01.920 
+will do is it's going to tell minecraft
+
+00:06:01.920 --> 00:06:04.670 
+will do is it's going to tell minecraft
+okay<00:06:02.280> you<00:06:02.730> only<00:06:02.970> need<00:06:03.300> two<00:06:03.600> out<00:06:03.900> of<00:06:03.930> three<00:06:04.410> rows
+
+00:06:04.670 --> 00:06:04.680 
+okay you only need two out of three rows
+
+00:06:04.680 --> 00:06:08.480 
+okay you only need two out of three rows
+and<00:06:05.390> they're<00:06:06.390> going<00:06:06.690> to<00:06:06.810> be<00:06:07.050> with<00:06:07.920> the<00:06:08.040> top<00:06:08.250> row
+
+00:06:08.480 --> 00:06:08.490 
+and they're going to be with the top row
+
+00:06:08.490 --> 00:06:10.250 
+and they're going to be with the top row
+being<00:06:08.910> like<00:06:09.120> this<00:06:09.300> and<00:06:09.510> the<00:06:09.630> bottom<00:06:09.900> row<00:06:10.050> being
+
+00:06:10.250 --> 00:06:10.260 
+being like this and the bottom row being
+
+00:06:10.260 --> 00:06:12.500 
+being like this and the bottom row being
+like<00:06:10.470> this<00:06:10.650> now<00:06:11.340> it<00:06:11.460> doesn't<00:06:11.730> matter<00:06:11.760> where<00:06:12.270> in
+
+00:06:12.500 --> 00:06:12.510 
+like this now it doesn't matter where in
+
+00:06:12.510 --> 00:06:14.180 
+like this now it doesn't matter where in
+the<00:06:12.630> crafting<00:06:12.960> table<00:06:13.020> we<00:06:13.380> place<00:06:13.650> those<00:06:13.920> two
+
+00:06:14.180 --> 00:06:14.190 
+the crafting table we place those two
+
+00:06:14.190 --> 00:06:18.260 
+the crafting table we place those two
+rows<00:06:14.460> but<00:06:15.150> they're<00:06:15.750> going<00:06:16.020> to<00:06:16.140> be<00:06:16.230> placed<00:06:17.270> they
+
+00:06:18.260 --> 00:06:18.270 
+rows but they're going to be placed they
+
+00:06:18.270 --> 00:06:20.210 
+rows but they're going to be placed they
+just<00:06:18.510> have<00:06:18.660> to<00:06:18.780> be<00:06:18.900> too<00:06:19.050> rough<00:06:19.290> like<00:06:19.530> that<00:06:19.710> now
+
+00:06:20.210 --> 00:06:20.220 
+just have to be too rough like that now
+
+00:06:20.220 --> 00:06:22.400 
+just have to be too rough like that now
+if<00:06:20.520> we<00:06:20.670> wanted<00:06:20.970> it<00:06:21.090> to<00:06:21.210> be<00:06:21.330> like<00:06:21.600> a<00:06:21.630> two<00:06:22.230> by<00:06:22.380> two
+
+00:06:22.400 --> 00:06:22.410 
+if we wanted it to be like a two by two
+
+00:06:22.410 --> 00:06:26.900 
+if we wanted it to be like a two by two
+we<00:06:22.860> could<00:06:23.070> just<00:06:23.250> do<00:06:24.000> this<00:06:24.210> and<00:06:24.420> any<00:06:25.380> if<00:06:26.310> it's
+
+00:06:26.900 --> 00:06:26.910 
+we could just do this and any if it's
+
+00:06:26.910 --> 00:06:29.510 
+we could just do this and any if it's
+only<00:06:27.090> two<00:06:27.480> values<00:06:28.170> in<00:06:28.650> the<00:06:28.770> string<00:06:29.070> then<00:06:29.370> it's
+
+00:06:29.510 --> 00:06:29.520 
+only two values in the string then it's
+
+00:06:29.520 --> 00:06:32.560 
+only two values in the string then it's
+only<00:06:29.670> going<00:06:30.030> to<00:06:30.120> require<00:06:30.450> two<00:06:30.750> columns<00:06:31.230> so
+
+00:06:32.560 --> 00:06:32.570 
+only going to require two columns so
+
+00:06:32.570 --> 00:06:36.010 
+only going to require two columns so
+this<00:06:33.570> time<00:06:33.810> it's<00:06:34.110> only<00:06:34.410> going<00:06:34.560> to<00:06:34.650> require<00:06:34.980> a
+
+00:06:36.010 --> 00:06:36.020 
+this time it's only going to require a
+
+00:06:36.020 --> 00:06:39.080 
+this time it's only going to require a
+tutorial<00:06:37.020> ingot<00:06:37.500> tutorial<00:06:37.980> ingot<00:06:38.310> diamond
+
+00:06:39.080 --> 00:06:39.090 
+tutorial ingot tutorial ingot diamond
+
+00:06:39.090 --> 00:06:40.320 
+tutorial ingot tutorial ingot diamond
+dirt
+
+00:06:40.320 --> 00:06:40.330 
+dirt
+
+00:06:40.330 --> 00:06:42.089 
+dirt
+um<00:06:40.419> but<00:06:41.020> it<00:06:41.169> can<00:06:41.319> be<00:06:41.439> anywhere<00:06:41.889> in<00:06:41.949> the
+
+00:06:42.089 --> 00:06:42.099 
+um but it can be anywhere in the
+
+00:06:42.099 --> 00:06:45.059 
+um but it can be anywhere in the
+crafting<00:06:42.430> table<00:06:42.490> and<00:06:42.939> if<00:06:43.750> we<00:06:43.900> wanted<00:06:44.289> to<00:06:44.349> say
+
+00:06:45.059 --> 00:06:45.069 
+crafting table and if we wanted to say
+
+00:06:45.069 --> 00:06:47.249 
+crafting table and if we wanted to say
+have<00:06:45.400> an<00:06:45.669> empty<00:06:46.000> space<00:06:46.360> then<00:06:46.900> we're<00:06:47.229> just
+
+00:06:47.249 --> 00:06:47.259 
+have an empty space then we're just
+
+00:06:47.259 --> 00:06:50.760 
+have an empty space then we're just
+going<00:06:47.620> to<00:06:48.009> add<00:06:48.789> a<00:06:49.539> space<00:06:49.990> inside<00:06:50.500> of<00:06:50.650> the
+
+00:06:50.760 --> 00:06:50.770 
+going to add a space inside of the
+
+00:06:50.770 --> 00:06:53.159 
+going to add a space inside of the
+crafting<00:06:51.159> recipe<00:06:51.669> and<00:06:51.819> that'll<00:06:52.629> be<00:06:53.020> in
+
+00:06:53.159 --> 00:06:53.169 
+crafting recipe and that'll be in
+
+00:06:53.169 --> 00:06:55.649 
+crafting recipe and that'll be in
+empting<00:06:53.680> an<00:06:53.889> empty<00:06:54.759> space<00:06:55.030> in<00:06:55.210> the<00:06:55.300> crafting
+
+00:06:55.649 --> 00:06:55.659 
+empting an empty space in the crafting
+
+00:06:55.659 --> 00:07:01.409 
+empting an empty space in the crafting
+recipe<00:06:56.050> oh<00:06:57.090> there's<00:06:58.090> my<00:06:58.360> dog<00:06:58.539> barking<00:07:00.419> sorry
+
+00:07:01.409 --> 00:07:01.419 
+recipe oh there's my dog barking sorry
+
+00:07:01.419 --> 00:07:07.830 
+recipe oh there's my dog barking sorry
+about<00:07:01.689> him<00:07:01.870> um<00:07:02.439> Frodo<00:07:03.280> be<00:07:03.580> quiet<00:07:05.939> good<00:07:06.939> boy<00:07:07.090> all
+
+00:07:07.830 --> 00:07:07.840 
+about him um Frodo be quiet good boy all
+
+00:07:07.840 --> 00:07:10.200 
+about him um Frodo be quiet good boy all
+right<00:07:07.960> yeah<00:07:08.409> my<00:07:08.710> dog<00:07:08.889> likes<00:07:09.639> to<00:07:09.879> bark<00:07:10.000> at
+
+00:07:10.200 --> 00:07:10.210 
+right yeah my dog likes to bark at
+
+00:07:10.210 --> 00:07:12.360 
+right yeah my dog likes to bark at
+people<00:07:10.419> walking<00:07:11.080> by<00:07:11.469> that<00:07:11.770> he<00:07:12.069> can<00:07:12.219> see
+
+00:07:12.360 --> 00:07:12.370 
+people walking by that he can see
+
+00:07:12.370 --> 00:07:14.580 
+people walking by that he can see
+through<00:07:12.550> the<00:07:12.699> window<00:07:12.969> okay<00:07:13.599> so<00:07:13.659> now<00:07:13.990> if<00:07:14.199> we<00:07:14.500> go
+
+00:07:14.580 --> 00:07:14.590 
+through the window okay so now if we go
+
+00:07:14.590 --> 00:07:16.559 
+through the window okay so now if we go
+into<00:07:14.800> the<00:07:14.979> crafting<00:07:15.280> recipe<00:07:15.669> we<00:07:16.240> need<00:07:16.419> more
+
+00:07:16.559 --> 00:07:16.569 
+into the crafting recipe we need more
+
+00:07:16.569 --> 00:07:20.129 
+into the crafting recipe we need more
+dirt<00:07:17.190> if<00:07:18.190> we<00:07:19.000> go<00:07:19.180> into<00:07:19.300> the<00:07:19.479> crafting<00:07:19.750> recipe
+
+00:07:20.129 --> 00:07:20.139 
+dirt if we go into the crafting recipe
+
+00:07:20.139 --> 00:07:25.170 
+dirt if we go into the crafting recipe
+and<00:07:20.289> we<00:07:20.800> just<00:07:21.039> add<00:07:23.190> like<00:07:24.190> this<00:07:24.370> you'll<00:07:24.819> see<00:07:25.030> we
+
+00:07:25.170 --> 00:07:25.180 
+and we just add like this you'll see we
+
+00:07:25.180 --> 00:07:26.969 
+and we just add like this you'll see we
+have<00:07:25.270> the<00:07:25.300> empty<00:07:26.169> space<00:07:26.379> in<00:07:26.530> the<00:07:26.590> middle<00:07:26.860> and
+
+00:07:26.969 --> 00:07:26.979 
+have the empty space in the middle and
+
+00:07:26.979 --> 00:07:31.499 
+have the empty space in the middle and
+we<00:07:27.849> could<00:07:28.090> put<00:07:28.360> this<00:07:28.960> in<00:07:29.199> any<00:07:29.759> row<00:07:30.759> that<00:07:31.360> we
+
+00:07:31.499 --> 00:07:31.509 
+we could put this in any row that we
+
+00:07:31.509 --> 00:07:37.589 
+we could put this in any row that we
+want<00:07:31.800> and<00:07:33.569> it'll<00:07:34.569> still<00:07:35.500> work<00:07:35.529> now<00:07:36.520> finally<00:07:37.419> if
+
+00:07:37.589 --> 00:07:37.599 
+want and it'll still work now finally if
+
+00:07:37.599 --> 00:07:40.320 
+want and it'll still work now finally if
+you<00:07:38.110> wanted<00:07:38.770> to<00:07:38.860> have<00:07:38.979> an<00:07:39.099> entire<00:07:39.430> row<00:07:39.849> be
+
+00:07:40.320 --> 00:07:40.330 
+you wanted to have an entire row be
+
+00:07:40.330 --> 00:07:42.570 
+you wanted to have an entire row be
+empty<00:07:40.659> then<00:07:41.139> you're<00:07:41.289> just<00:07:41.319> going<00:07:41.650> to<00:07:41.830> add<00:07:41.979> say
+
+00:07:42.570 --> 00:07:42.580 
+empty then you're just going to add say
+
+00:07:42.580 --> 00:07:45.149 
+empty then you're just going to add say
+we<00:07:42.729> want<00:07:42.909> the<00:07:43.060> center<00:07:43.300> row<00:07:43.449> to<00:07:43.509> be<00:07:43.689> empty<00:07:44.159> we're
+
+00:07:45.149 --> 00:07:45.159 
+we want the center row to be empty we're
+
+00:07:45.159 --> 00:07:47.749 
+we want the center row to be empty we're
+good<00:07:45.340> we're<00:07:46.090> going<00:07:46.330> to<00:07:46.419> add<00:07:46.539> just<00:07:47.080> blank
+
+00:07:47.749 --> 00:07:47.759 
+good we're going to add just blank
+
+00:07:47.759 --> 00:07:51.689 
+good we're going to add just blank
+quotation<00:07:48.759> marks<00:07:49.029> so<00:07:49.870> that<00:07:50.199> is<00:07:50.409> how<00:07:50.620> you<00:07:50.919> add<00:07:51.370> a
+
+00:07:51.689 --> 00:07:51.699 
+quotation marks so that is how you add a
+
+00:07:51.699 --> 00:07:53.490 
+quotation marks so that is how you add a
+custom<00:07:52.090> crafting<00:07:52.690> recipe<00:07:53.050> to<00:07:53.199> the<00:07:53.229> game
+
+00:07:53.490 --> 00:07:53.500 
+custom crafting recipe to the game
+
+00:07:53.500 --> 00:07:55.170 
+custom crafting recipe to the game
+source<00:07:54.039> code<00:07:54.310> will<00:07:54.520> be<00:07:54.550> in<00:07:54.909> the<00:07:55.029> description
+
+00:07:55.170 --> 00:07:55.180 
+source code will be in the description
+
+00:07:55.180 --> 00:07:59.040 
+source code will be in the description
+as<00:07:55.810> usual<00:07:56.639> don't<00:07:57.639> forget<00:07:57.759> to<00:07:58.120> subscribe<00:07:58.150> and<00:07:58.810> I
+
+00:07:59.040 --> 00:07:59.050 
+as usual don't forget to subscribe and I
+
+00:07:59.050 --> 00:08:02.129 
+as usual don't forget to subscribe and I
+will<00:07:59.080> see<00:07:59.319> you<00:07:59.529> next<00:07:59.680> time<00:07:59.919> bye
+

@@ -1,0 +1,442 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.240 --> 00:00:03.960 
+
+welcome<00:00:02.170> to<00:00:02.320> this<00:00:02.440> video<00:00:02.679> tutorial<00:00:03.100> from<00:00:03.700> core
+
+00:00:03.960 --> 00:00:03.970 
+welcome to this video tutorial from core
+
+00:00:03.970 --> 00:00:06.690 
+welcome to this video tutorial from core
+technologies<00:00:04.660> comm<00:00:05.170> today<00:00:05.980> we<00:00:06.250> are<00:00:06.340> going<00:00:06.580> to
+
+00:00:06.690 --> 00:00:06.700 
+technologies comm today we are going to
+
+00:00:06.700 --> 00:00:08.940 
+technologies comm today we are going to
+show<00:00:06.880> you<00:00:06.940> how<00:00:07.360> to<00:00:07.390> run<00:00:07.600> any<00:00:07.839> Python<00:00:08.170> script<00:00:08.770> as
+
+00:00:08.940 --> 00:00:08.950 
+show you how to run any Python script as
+
+00:00:08.950 --> 00:00:11.580 
+show you how to run any Python script as
+a<00:00:08.980> window<00:00:09.309> service<00:00:09.849> with<00:00:10.059> always<00:00:10.300> up<00:00:10.750> once<00:00:11.500> we
+
+00:00:11.580 --> 00:00:11.590 
+a window service with always up once we
+
+00:00:11.590 --> 00:00:13.740 
+a window service with always up once we
+are<00:00:11.830> done<00:00:12.099> your<00:00:12.550> Python<00:00:12.940> script<00:00:13.330> will<00:00:13.480> start
+
+00:00:13.740 --> 00:00:13.750 
+are done your Python script will start
+
+00:00:13.750 --> 00:00:15.930 
+are done your Python script will start
+immediately<00:00:14.290> when<00:00:14.620> your<00:00:14.769> PC<00:00:14.950> boots<00:00:15.429> and<00:00:15.759> will
+
+00:00:15.930 --> 00:00:15.940 
+immediately when your PC boots and will
+
+00:00:15.940 --> 00:00:18.479 
+immediately when your PC boots and will
+keep<00:00:16.090> running<00:00:16.529> 24/7<00:00:17.529> in<00:00:17.650> the<00:00:17.770> background<00:00:18.310> or
+
+00:00:18.479 --> 00:00:18.489 
+keep running 24/7 in the background or
+
+00:00:18.489 --> 00:00:20.970 
+keep running 24/7 in the background or
+run<00:00:19.060> periodically<00:00:19.779> several<00:00:20.259> times<00:00:20.439> a<00:00:20.619> day<00:00:20.649> if
+
+00:00:20.970 --> 00:00:20.980 
+run periodically several times a day if
+
+00:00:20.980 --> 00:00:23.749 
+run periodically several times a day if
+you<00:00:21.009> prefer<00:00:21.550> even<00:00:21.970> if<00:00:22.390> no<00:00:22.599> one<00:00:22.810> ever<00:00:23.020> logs<00:00:23.439> on
+
+00:00:23.749 --> 00:00:23.759 
+you prefer even if no one ever logs on
+
+00:00:23.759 --> 00:00:27.359 
+you prefer even if no one ever logs on
+let's<00:00:24.759> get<00:00:25.000> started<00:00:25.540> first<00:00:26.529> if<00:00:26.860> you<00:00:27.130> haven't
+
+00:00:27.359 --> 00:00:27.369 
+let's get started first if you haven't
+
+00:00:27.369 --> 00:00:30.450 
+let's get started first if you haven't
+already<00:00:27.640> done<00:00:28.119> so<00:00:28.230> download<00:00:29.230> and<00:00:29.500> install<00:00:30.220> the
+
+00:00:30.450 --> 00:00:30.460 
+already done so download and install the
+
+00:00:30.460 --> 00:00:32.400 
+already done so download and install the
+Windows<00:00:30.730> version<00:00:30.939> of<00:00:31.270> Python<00:00:31.779> and<00:00:32.020> any
+
+00:00:32.400 --> 00:00:32.410 
+Windows version of Python and any
+
+00:00:32.410 --> 00:00:35.099 
+Windows version of Python and any
+extensions<00:00:33.190> your<00:00:33.399> script<00:00:33.760> requires<00:00:34.239> we
+
+00:00:35.099 --> 00:00:35.109 
+extensions your script requires we
+
+00:00:35.109 --> 00:00:37.680 
+extensions your script requires we
+recommend<00:00:35.620> Python<00:00:36.070> version<00:00:36.100> 3<00:00:36.910> but<00:00:37.420> things
+
+00:00:37.680 --> 00:00:37.690 
+recommend Python version 3 but things
+
+00:00:37.690 --> 00:00:39.660 
+recommend Python version 3 but things
+should<00:00:37.780> work<00:00:38.170> just<00:00:38.500> as<00:00:38.649> well<00:00:38.679> with<00:00:39.010> version<00:00:39.429> 2
+
+00:00:39.660 --> 00:00:39.670 
+should work just as well with version 2
+
+00:00:39.670 --> 00:00:41.759 
+should work just as well with version 2
+of<00:00:39.940> the<00:00:40.300> commercial<00:00:40.839> active<00:00:41.260> python
+
+00:00:41.759 --> 00:00:41.769 
+of the commercial active python
+
+00:00:41.769 --> 00:00:44.220 
+of the commercial active python
+distribution<00:00:42.670> we<00:00:43.449> have<00:00:43.570> installed<00:00:43.870> Python
+
+00:00:44.220 --> 00:00:44.230 
+distribution we have installed Python
+
+00:00:44.230 --> 00:00:48.029 
+distribution we have installed Python
+version<00:00:44.859> 3.2<00:00:45.640> in<00:00:45.940> C<00:00:46.329> colon<00:00:46.839> backslash<00:00:47.039> Python
+
+00:00:48.029 --> 00:00:48.039 
+version 3.2 in C colon backslash Python
+
+00:00:48.039 --> 00:00:51.810 
+version 3.2 in C colon backslash Python
+32<00:00:48.670> for<00:00:49.300> this<00:00:49.420> tutorial<00:00:50.309> please<00:00:51.309> ensure<00:00:51.789> that
+
+00:00:51.810 --> 00:00:51.820 
+32 for this tutorial please ensure that
+
+00:00:51.820 --> 00:00:54.149 
+32 for this tutorial please ensure that
+your<00:00:52.149> script<00:00:52.510> works<00:00:52.749> as<00:00:52.929> expected<00:00:53.230> when<00:00:53.890> it<00:00:54.010> is
+
+00:00:54.149 --> 00:00:54.159 
+your script works as expected when it is
+
+00:00:54.159 --> 00:00:56.790 
+your script works as expected when it is
+run<00:00:54.460> from<00:00:54.640> the<00:00:54.730> command<00:00:55.149> prompt<00:00:55.800> next
+
+00:00:56.790 --> 00:00:56.800 
+run from the command prompt next
+
+00:00:56.800 --> 00:00:59.910 
+run from the command prompt next
+download<00:00:57.429> and<00:00:57.879> install<00:00:58.420> always<00:00:58.989> up<00:00:59.230> from<00:00:59.679> core
+
+00:00:59.910 --> 00:00:59.920 
+download and install always up from core
+
+00:00:59.920 --> 00:01:04.259 
+download and install always up from core
+technologies<00:01:00.699> comm<00:01:01.620> start<00:01:02.620> always<00:01:03.249> up<00:01:03.489> select
+
+00:01:04.259 --> 00:01:04.269 
+technologies comm start always up select
+
+00:01:04.269 --> 00:01:06.990 
+technologies comm start always up select
+application<00:01:05.140> add<00:01:05.350> to<00:01:06.280> open<00:01:06.700> the<00:01:06.850> add
+
+00:01:06.990 --> 00:01:07.000 
+application add to open the add
+
+00:01:07.000 --> 00:01:10.410 
+application add to open the add
+application<00:01:07.899> window<00:01:08.259> on<00:01:08.470> the<00:01:09.430> general<00:01:09.880> tab<00:01:10.149> in
+
+00:01:10.410 --> 00:01:10.420 
+application window on the general tab in
+
+00:01:10.420 --> 00:01:12.749 
+application window on the general tab in
+the<00:01:10.720> application<00:01:11.439> field<00:01:11.710> enter<00:01:12.399> the<00:01:12.430> full
+
+00:01:12.749 --> 00:01:12.759 
+the application field enter the full
+
+00:01:12.759 --> 00:01:16.139 
+the application field enter the full
+path<00:01:13.000> to<00:01:13.030> the<00:01:13.329> Python<00:01:13.630> executable<00:01:14.560> Python<00:01:15.280> exe
+
+00:01:16.139 --> 00:01:16.149 
+path to the Python executable Python exe
+
+00:01:16.149 --> 00:01:20.999 
+path to the Python executable Python exe
+this<00:01:16.930> is<00:01:17.200> C<00:01:17.530> Python<00:01:18.070> 32<00:01:18.909> PI<00:01:19.540> thawne<00:01:19.810> exe<00:01:20.680> for
+
+00:01:20.999 --> 00:01:21.009 
+this is C Python 32 PI thawne exe for
+
+00:01:21.009 --> 00:01:23.850 
+this is C Python 32 PI thawne exe for
+our<00:01:21.130> installation<00:01:21.640> in<00:01:22.149> the<00:01:23.020> arguments<00:01:23.619> field
+
+00:01:23.850 --> 00:01:23.860 
+our installation in the arguments field
+
+00:01:23.860 --> 00:01:25.980 
+our installation in the arguments field
+enter<00:01:24.579> the<00:01:24.610> full<00:01:24.880> path<00:01:25.149> to<00:01:25.450> your<00:01:25.540> python
+
+00:01:25.980 --> 00:01:25.990 
+enter the full path to your python
+
+00:01:25.990 --> 00:01:28.319 
+enter the full path to your python
+script<00:01:26.409> we<00:01:26.799> want<00:01:27.070> to<00:01:27.219> run<00:01:27.399> our<00:01:27.430> sample<00:01:27.969> script
+
+00:01:28.319 --> 00:01:28.329 
+script we want to run our sample script
+
+00:01:28.329 --> 00:01:33.990 
+script we want to run our sample script
+C<00:01:29.079> Python<00:01:29.500> 32<00:01:30.399> copy<00:01:30.939> files<00:01:31.500> py<00:01:32.500> so<00:01:33.189> we'll<00:01:33.640> enter
+
+00:01:33.990 --> 00:01:34.000 
+C Python 32 copy files py so we'll enter
+
+00:01:34.000 --> 00:01:36.840 
+C Python 32 copy files py so we'll enter
+that<00:01:34.030> in<00:01:34.479> the<00:01:35.409> name<00:01:35.619> field<00:01:35.979> enter<00:01:36.159> the<00:01:36.729> name
+
+00:01:36.840 --> 00:01:36.850 
+that in the name field enter the name
+
+00:01:36.850 --> 00:01:38.789 
+that in the name field enter the name
+that<00:01:37.210> you<00:01:37.360> will<00:01:37.479> call<00:01:37.689> this<00:01:37.840> application<00:01:38.590> in
+
+00:01:38.789 --> 00:01:38.799 
+that you will call this application in
+
+00:01:38.799 --> 00:01:41.940 
+that you will call this application in
+always<00:01:39.039> up<00:01:39.460> we<00:01:40.329> have<00:01:40.450> used<00:01:40.689> my<00:01:40.960> python<00:01:41.500> script
+
+00:01:41.940 --> 00:01:41.950 
+always up we have used my python script
+
+00:01:41.950 --> 00:01:44.459 
+always up we have used my python script
+but<00:01:42.430> you<00:01:42.520> can<00:01:42.700> specify<00:01:42.969> Chua<00:01:43.659> li<00:01:43.780> anything<00:01:44.350> you
+
+00:01:44.459 --> 00:01:44.469 
+but you can specify Chua li anything you
+
+00:01:44.469 --> 00:01:47.760 
+but you can specify Chua li anything you
+like<00:01:44.710> if<00:01:45.329> you<00:01:46.329> only<00:01:46.570> want<00:01:46.930> your<00:01:47.049> script<00:01:47.500> to<00:01:47.649> run
+
+00:01:47.760 --> 00:01:47.770 
+like if you only want your script to run
+
+00:01:47.770 --> 00:01:51.990 
+like if you only want your script to run
+periodically<00:01:48.369> that<00:01:49.119> is<00:01:49.359> not<00:01:49.930> 24<00:01:50.680> by<00:01:50.829> 7<00:01:51.340> click
+
+00:01:51.990 --> 00:01:52.000 
+periodically that is not 24 by 7 click
+
+00:01:52.000 --> 00:01:54.330 
+periodically that is not 24 by 7 click
+over<00:01:52.299> to<00:01:52.420> the<00:01:52.539> restart<00:01:52.899> tab<00:01:53.259> and<00:01:53.560> choose<00:01:54.070> when
+
+00:01:54.330 --> 00:01:54.340 
+over to the restart tab and choose when
+
+00:01:54.340 --> 00:01:56.459 
+over to the restart tab and choose when
+to<00:01:54.369> run<00:01:54.759> we<00:01:55.450> would<00:01:55.600> like<00:01:55.810> our<00:01:55.960> script<00:01:56.320> to<00:01:56.439> be
+
+00:01:56.459 --> 00:01:56.469 
+to run we would like our script to be
+
+00:01:56.469 --> 00:01:59.580 
+to run we would like our script to be
+run<00:01:56.770> every<00:01:57.219> day<00:01:57.460> at<00:01:57.670> 3<00:01:58.060> a.m.<00:01:58.229> we<00:01:59.229> are<00:01:59.350> now<00:01:59.530> done
+
+00:01:59.580 --> 00:01:59.590 
+run every day at 3 a.m. we are now done
+
+00:01:59.590 --> 00:02:02.370 
+run every day at 3 a.m. we are now done
+configuring<00:02:00.280> always<00:02:00.909> up<00:02:01.149> so<00:02:01.659> click<00:02:01.899> the<00:02:02.109> Save
+
+00:02:02.370 --> 00:02:02.380 
+configuring always up so click the Save
+
+00:02:02.380 --> 00:02:04.709 
+configuring always up so click the Save
+button<00:02:02.409> to<00:02:02.890> record<00:02:03.460> the<00:02:03.609> settings<00:02:04.000> in<00:02:04.240> a
+
+00:02:04.709 --> 00:02:04.719 
+button to record the settings in a
+
+00:02:04.719 --> 00:02:06.959 
+button to record the settings in a
+couple<00:02:05.049> of<00:02:05.140> seconds<00:02:05.619> an<00:02:05.859> application<00:02:06.759> called
+
+00:02:06.959 --> 00:02:06.969 
+couple of seconds an application called
+
+00:02:06.969 --> 00:02:09.150 
+couple of seconds an application called
+my<00:02:07.240> Python<00:02:07.719> script<00:02:08.200> will<00:02:08.440> show<00:02:08.710> up<00:02:08.920> in<00:02:09.070> the
+
+00:02:09.150 --> 00:02:09.160 
+my Python script will show up in the
+
+00:02:09.160 --> 00:02:11.640 
+my Python script will show up in the
+always<00:02:09.370> up<00:02:09.760> window<00:02:10.180> it<00:02:10.720> is<00:02:10.780> not<00:02:11.110> yet<00:02:11.410> running
+
+00:02:11.640 --> 00:02:11.650 
+always up window it is not yet running
+
+00:02:11.650 --> 00:02:12.570 
+always up window it is not yet running
+though
+
+00:02:12.570 --> 00:02:12.580 
+though
+
+00:02:12.580 --> 00:02:15.210 
+though
+to<00:02:13.330> start<00:02:13.660> the<00:02:13.840> service<00:02:14.320> which<00:02:14.650> will<00:02:14.800> kick<00:02:15.040> off
+
+00:02:15.210 --> 00:02:15.220 
+to start the service which will kick off
+
+00:02:15.220 --> 00:02:17.640 
+to start the service which will kick off
+our<00:02:15.400> Python<00:02:15.850> script<00:02:16.240> at<00:02:16.390> 3:00<00:02:16.690> a.m.<00:02:16.720> choose
+
+00:02:17.640 --> 00:02:17.650 
+our Python script at 3:00 a.m. choose
+
+00:02:17.650 --> 00:02:21.090 
+our Python script at 3:00 a.m. choose
+application<00:02:18.420> start<00:02:19.420> my<00:02:20.140> Python<00:02:20.710> script
+
+00:02:21.090 --> 00:02:21.100 
+application start my Python script
+
+00:02:21.100 --> 00:02:23.820 
+application start my Python script
+that's<00:02:21.790> it<00:02:22.150> next<00:02:22.840> time<00:02:22.960> your<00:02:23.170> computer<00:02:23.290> boots
+
+00:02:23.820 --> 00:02:23.830 
+that's it next time your computer boots
+
+00:02:23.830 --> 00:02:25.590 
+that's it next time your computer boots
+your<00:02:24.310> Python<00:02:24.670> service<00:02:25.000> will<00:02:25.150> be<00:02:25.270> launched
+
+00:02:25.590 --> 00:02:25.600 
+your Python service will be launched
+
+00:02:25.600 --> 00:02:27.990 
+your Python service will be launched
+immediately<00:02:25.930> before<00:02:26.830> anyone<00:02:27.220> logs<00:02:27.460> on<00:02:27.730> of
+
+00:02:27.990 --> 00:02:28.000 
+immediately before anyone logs on of
+
+00:02:28.000 --> 00:02:30.450 
+immediately before anyone logs on of
+course<00:02:28.540> your<00:02:29.410> script<00:02:29.710> won't<00:02:29.890> actually<00:02:30.100> start
+
+00:02:30.450 --> 00:02:30.460 
+course your script won't actually start
+
+00:02:30.460 --> 00:02:32.850 
+course your script won't actually start
+until<00:02:31.000> 3:00<00:02:31.240> a.m.<00:02:31.270> but<00:02:32.080> that<00:02:32.230> behavior<00:02:32.710> is
+
+00:02:32.850 --> 00:02:32.860 
+until 3:00 a.m. but that behavior is
+
+00:02:32.860 --> 00:02:35.370 
+until 3:00 a.m. but that behavior is
+easily<00:02:33.430> changeable<00:02:33.880> on<00:02:34.120> always<00:02:34.360> ups<00:02:34.810> restart
+
+00:02:35.370 --> 00:02:35.380 
+easily changeable on always ups restart
+
+00:02:35.380 --> 00:02:38.010 
+easily changeable on always ups restart
+tab<00:02:35.620> we<00:02:36.610> encourage<00:02:37.120> you<00:02:37.300> to<00:02:37.330> edit<00:02:37.600> the<00:02:37.900> entry
+
+00:02:38.010 --> 00:02:38.020 
+tab we encourage you to edit the entry
+
+00:02:38.020 --> 00:02:40.470 
+tab we encourage you to edit the entry
+in<00:02:38.380> always<00:02:38.590> up<00:02:38.980> and<00:02:39.220> explore<00:02:39.880> the<00:02:40.030> many<00:02:40.210> other
+
+00:02:40.470 --> 00:02:40.480 
+in always up and explore the many other
+
+00:02:40.480 --> 00:02:42.150 
+in always up and explore the many other
+settings<00:02:40.900> that<00:02:41.050> may<00:02:41.260> be<00:02:41.320> appropriate<00:02:41.980> for
+
+00:02:42.150 --> 00:02:42.160 
+settings that may be appropriate for
+
+00:02:42.160 --> 00:02:44.970 
+settings that may be appropriate for
+your<00:02:42.460> environment<00:02:42.720> for<00:02:43.720> example<00:02:44.260> run<00:02:44.860> the
+
+00:02:44.970 --> 00:02:44.980 
+your environment for example run the
+
+00:02:44.980 --> 00:02:47.100 
+your environment for example run the
+script<00:02:45.310> every<00:02:45.640> hour<00:02:45.820> work<00:02:46.570> with<00:02:46.750> network
+
+00:02:47.100 --> 00:02:47.110 
+script every hour work with network
+
+00:02:47.110 --> 00:02:49.710 
+script every hour work with network
+drives<00:02:47.440> and<00:02:47.770> much<00:02:48.400> more<00:02:48.760> thank<00:02:49.510> you<00:02:49.690> for
+
+00:02:49.710 --> 00:02:49.720 
+drives and much more thank you for
+
+00:02:49.720 --> 00:02:51.960 
+drives and much more thank you for
+watching
+

@@ -1,0 +1,117 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.140 --> 00:00:04.460
+Dear friends welcome back! Today and I'm going to show you how to receive phone
+
+00:00:04.460 --> 00:00:05.450
+calls with your
+
+00:00:05.450 --> 00:00:09.210
+Arduino using the TinySine GSM
+
+00:00:09.210 --> 00:00:13.120
+shield. Let's start! We are using an Arduino Uno
+
+00:00:13.120 --> 00:00:16.330
+along with the GSM shield from TinySine.
+
+00:00:16.330 --> 00:00:19.980
+I have prepared detailed tutorials about that shield
+
+00:00:19.980 --> 00:00:22.980
+in previous videos. You can check them out.
+
+00:00:22.980 --> 00:00:26.039
+I have connected a small speaker to the speaker output
+
+00:00:26.039 --> 00:00:29.849
+of the shield which is the green one. The other one
+
+00:00:29.849 --> 00:00:33.210
+is that microphone input. If you connect a microphone
+
+00:00:33.210 --> 00:00:36.829
+in that input you can send sound as well. Not only
+
+00:00:36.829 --> 00:00:40.530
+receive sound. In order to test the project I will go
+
+00:00:40.530 --> 00:00:44.190
+outside and call Arduino. I will try to speak
+
+00:00:44.190 --> 00:00:48.140
+but expect a lot of interference from the GSM shield
+
+00:00:48.140 --> 00:00:53.399
+to the camera's microphone. That noise does not exist in reality.
+
+00:00:53.399 --> 00:00:55.319
+It's only a camera's fault.
+
+00:01:01.220 --> 00:01:05.220
+I am now testing the GSM shield. As you can see
+
+00:01:05.220 --> 00:01:11.810
+Arduino can auto pick up the call. I am hanging up now. Bye.
+
+00:01:11.810 --> 00:01:15.030
+Let's now go to the computer and see the
+software side
+
+00:01:15.030 --> 00:01:18.830
+of the project. As you can see the code
+of a project is very simple.
+
+00:01:18.830 --> 00:01:22.220
+We are using the library from TinySine the designer
+
+00:01:22.220 --> 00:01:26.680
+of the shield. In this program at first we connect to the GSM network,
+
+00:01:26.680 --> 00:01:30.570
+with this line of code here. Next in the loop function,
+
+00:01:30.570 --> 00:01:33.670
+we check the status of the shield every second
+
+00:01:33.670 --> 00:01:37.970
+with this command. If there is an incoming call
+
+00:01:37.970 --> 00:01:41.270
+we immediately pick up that call with this line here.
+
+00:01:41.270 --> 00:01:45.840
+It's that easy! With 40 lines of code we can receice phone calls from
+
+00:01:45.840 --> 00:01:48.460
+our Arduino projects. Really impressive.
+
+00:01:48.800 --> 00:01:52.440
+That's the real power of Arduino and open software!
+
+00:01:52.450 --> 00:01:56.729
+That's today's video! As you can see
+receiving phone calls from Arduino
+
+00:01:56.729 --> 00:02:00.920
+is really simple. In a future video we
+are going to see how to make phone calls
+
+00:02:01.369 --> 00:02:04.390
+from Arduino and how to connect to the GPRS network
+
+00:02:04.390 --> 00:02:07.700
+in order to send and receive data from
+the internet.
+
+00:02:07.700 --> 00:02:11.940
+So, stay tuned! If you find this video useful please press the like button
+
+00:02:11.940 --> 00:02:16.109
+or share it to your favorite social networks. Thank you very much for watching and
+
+00:02:16.109 --> 00:02:17.309
+see you next week!
+

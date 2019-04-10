@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.730 --> 00:00:13.059
+ With Google Analytics, you can collect and analyze data about mobile apps 
+
+00:00:13.059 --> 00:00:15.029
+ This is similar to the data collection and analysis of the website. 
+
+00:00:15.029 --> 00:00:18.860
+ However, the technology behind developing and running mobile apps 
+
+00:00:18.860 --> 00:00:21.680
+ Not the same technology as building a website 
+
+00:00:21.680 --> 00:00:27.130
+ So Google Analytics collects data from mobile apps in a different way. 
+
+00:00:27.130 --> 00:00:31.119
+ We use JavaScript to collect data on our website. 
+
+00:00:31.119 --> 00:00:38.119
+ For mobile apps, we use the SDK, the software development kit, to collect data. 
+
+00:00:38.620 --> 00:00:44.520
+ Different operating systems have different SDKs, including Android and iOS SDKs. 
+
+00:00:44.520 --> 00:00:48.960
+ The SDK collects data about the app, such as what the user viewed. 
+
+00:00:48.960 --> 00:00:53.809
+ The operating system of the device and the frequency at which the user launches the application 
+
+00:00:53.809 --> 00:00:58.960
+ This data will be packaged into a match and sent to your Google Analytics account. 
+
+00:00:58.960 --> 00:01:04.420
+ This is similar to how JavaScript code sends matches from websites. 
+
+00:01:04.420 --> 00:01:07.890
+ Data from mobile apps is not immediately sent to Google Analytics 
+
+00:01:07.890 --> 00:01:09.640
+ When the user navigates through the app 
+
+00:01:09.640 --> 00:01:14.530
+ The Google Analytics SDK saves the match locally on the device 
+
+00:01:14.530 --> 00:01:17.700
+ Then send it to your Google Analytics account via a batch operation 
+
+00:01:17.700 --> 00:01:21.349
+ This operation is called "dispatch" 
+
+00:01:21.349 --> 00:01:24.840
+ There are two reasons why mobile data collection uses the "dispatch" method. 
+
+00:01:24.840 --> 00:01:28.840
+ First, the mobile device's network connection may be interrupted. 
+
+00:01:28.840 --> 00:01:31.450
+ If the device is not connected to the network 
+
+00:01:31.450 --> 00:01:35.000
+ SDK can't send any data match to Google Analytics 
+
+00:01:35.000 --> 00:01:41.959
+ Second, sending data to Google Analytics in real time may shorten your device’s battery life. 
+
+00:01:41.959 --> 00:01:45.819
+ Therefore, the Android device's SDK will dispatch a match every 30 minutes. 
+
+00:01:45.819 --> 00:01:51.379
+ The iOS device's SDK is dispatched every 2 minutes. 
+
+00:01:51.379 --> 00:01:54.289
+ But you can customize the time interval in your tracking code. 
+
+00:01:54.289 --> 00:01:58.009
+ Thereby controlling the impact on battery life 
+
+00:01:58.009 --> 00:02:03.039
+ Another important feature of the mobile SDK is to differentiate users. 
+
+00:02:03.039 --> 00:02:04.899
+ When the app is first launched 
+
+00:02:04.899 --> 00:02:10.789
+ The Google Analytics SDK generates a unique anonymous identifier for the device 
+
+00:02:10.789 --> 00:02:13.840
+ This is similar to how website tracking code works. 
+
+00:02:13.840 --> 00:02:20.530
+ Each unique identifier is also counted as a unique user in Google Analytics 
+
+00:02:20.530 --> 00:02:26.469
+ Even if the app is updated to an identifier on the new version of the device, it will not change. 
+
+00:02:26.469 --> 00:02:33.469
+ However, if the app is uninstalled, the Google Analytics SDK will remove the identifier. 
+
+00:02:33.480 --> 00:02:39.499
+ A new anonymous identifier will be created on the device when you reinstall this app in the future 
+
+00:02:39.499 --> 00:02:45.349
+ As a result, the user will be identified as a new user instead of a returning user. 
+
+00:02:45.349 --> 00:02:49.549
+ But any other data in your Google Analytics reports will not be affected. 
+
+00:02:49.549 --> 00:02:55.920
+ With the mobile SDK, we can use an easy way to track user activity in the app. 
+
+00:02:55.920 --> 00:03:00.599
+ And collect most of the data you need without customizing 
+
+00:03:00.599 --> 00:03:03.730
+ But please note that there are many ways you can do it. 
+
+00:03:03.730 --> 00:03:07.010
+ To modify your code to collect information about users as well 
+
+00:03:07.010 --> 00:03:09.499
+ More information about the conversations and interactions users have with your app 
+

@@ -1,0 +1,355 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.080 --> 00:00:08.850
+ Good all the time of day you are watching 
+
+00:00:05.790 --> 00:00:11.220
+ podcast company vps to her and today I 
+
+00:00:08.850 --> 00:00:12.360
+ I'll tell you how to install open vpn on 
+
+00:00:11.220 --> 00:00:14.760
+ windows vps 
+
+00:00:12.360 --> 00:00:16.679
+ I will do this in order to go 
+
+00:00:14.760 --> 00:00:19.560
+ Internet with virtual IP address 
+
+00:00:16.679 --> 00:00:21.480
+ servers, let's start first 
+
+00:00:19.560 --> 00:00:24.300
+ connecting to remote desktop 
+
+00:00:21.480 --> 00:00:26.849
+ server by the way about this we have 
+
+00:00:24.300 --> 00:00:29.579
+ separate video that can be seen by 
+
+00:00:26.849 --> 00:00:31.980
+ link to the side after connecting to the server 
+
+00:00:29.579 --> 00:00:34.650
+ I launch a browser and go to the site 
+
+00:00:31.980 --> 00:00:35.400
+ open vpn. No, I turn to the section 
+
+00:00:34.650 --> 00:00:37.920
+ community 
+
+00:00:35.400 --> 00:00:41.820
+ in the downloads tab clicking on comments 
+
+00:00:37.920 --> 00:00:43.800
+ dohc on my vps 64-bit operating system 
+
+00:00:41.820 --> 00:00:44.880
+ so choose the appropriate 
+
+00:00:43.800 --> 00:00:47.100
+ installation file 
+
+00:00:44.880 --> 00:00:50.130
+ I run the downloaded installation file and 
+
+00:00:47.100 --> 00:00:52.500
+ click next in the component selection step 
+
+00:00:50.130 --> 00:00:55.140
+ put a tick near the windows with salt tell 
+
+00:00:52.500 --> 00:00:57.210
+ flight and open vpn area certificate 
+
+00:00:55.140 --> 00:00:59.670
+ management scripts so that in the future I 
+
+00:00:57.210 --> 00:01:01.710
+ could generate ssn certificate for 
+
+00:00:59.670 --> 00:01:03.000
+ encrypted connection in progress 
+
+00:01:01.710 --> 00:01:05.429
+ installations may be requested 
+
+00:01:03.000 --> 00:01:08.039
+ confirmation to install the driver tab 
+
+00:01:05.429 --> 00:01:10.140
+ I confirm its installation on this 
+
+00:01:08.039 --> 00:01:12.990
+ the installation process is complete and now 
+
+00:01:10.140 --> 00:01:15.270
+ go to setting up setting up first 
+
+00:01:12.990 --> 00:01:17.850
+ on the server side I will use 
+
+00:01:15.270 --> 00:01:20.280
+ the most signed ssr certificate since 
+
+00:01:17.850 --> 00:01:22.770
+ I use vpn just for personal use. 
+
+00:01:20.280 --> 00:01:25.140
+ Immediately, I note that all the necessary commands 
+
+00:01:22.770 --> 00:01:26.130
+ You can find it on the wiki using the link in. 
+
+00:01:25.140 --> 00:01:29.609
+ video description 
+
+00:01:26.130 --> 00:01:32.069
+ so click windows + r and open 
+
+00:01:29.609 --> 00:01:34.079
+ command line by entering families 
+
+00:01:32.069 --> 00:01:37.020
+ I move to the necessary directory and 
+
+00:01:34.079 --> 00:01:39.719
+ I run the file and net config baht after 
+
+00:01:37.020 --> 00:01:42.119
+ the file wars baht will be created to start the file 
+
+00:01:39.719 --> 00:01:44.999
+ This file must be opened in text 
+
+00:01:42.119 --> 00:01:47.249
+ editor for example in a notebook opening 
+
+00:01:44.999 --> 00:01:49.770
+ his and change the data for signing keys 
+
+00:01:47.249 --> 00:01:52.139
+ on my personal and also add one 
+
+00:01:49.770 --> 00:01:55.109
+ string with configuration path 
+
+00:01:52.139 --> 00:01:57.770
+ I then create the file and Yandex and 
+
+00:01:55.109 --> 00:01:57.770
+ TV series 
+
+00:01:58.570 --> 00:02:04.180
+ further created si hey key which will be 
+
+00:02:01.930 --> 00:02:06.670
+ subscribe future ussr certificate 
+
+00:02:04.180 --> 00:02:08.920
+ if earlier in the configuration file 
+
+00:02:06.670 --> 00:02:11.530
+ changed the data now you can leave it 
+
+00:02:08.920 --> 00:02:13.240
+ no change and just press enter on 
+
+00:02:11.530 --> 00:02:14.410
+ the next step is to create a key 
+
+00:02:13.240 --> 00:02:16.840
+ diffie-hellman 
+
+00:02:14.410 --> 00:02:19.540
+ and then create a certificate and key for 
+
+00:02:16.840 --> 00:02:22.810
+ server pressing enter and confirming 
+
+00:02:19.540 --> 00:02:25.630
+ command line requests later create 
+
+00:02:22.810 --> 00:02:28.270
+ I enter a separate key for each client 
+
+00:02:25.630 --> 00:02:31.209
+ necessary contact information in the team 
+
+00:02:28.270 --> 00:02:33.670
+ I point the client to van now transfer 
+
+00:02:31.209 --> 00:02:36.580
+ files from the case folder to the config folder 
+
+00:02:33.670 --> 00:02:38.890
+ from the sample folder config file copy 
+
+00:02:36.580 --> 00:02:41.380
+ vpn server in config folder 
+
+00:02:38.890 --> 00:02:43.120
+ Next I need to configure the firewall to 
+
+00:02:41.380 --> 00:02:45.730
+ server via start menu 
+
+00:02:43.120 --> 00:02:48.040
+ go to the firewall settings in the left 
+
+00:02:45.730 --> 00:02:50.800
+ parts of the window go to the incoming rules 
+
+00:02:48.040 --> 00:02:53.470
+ and click create rule as a result 
+
+00:02:50.800 --> 00:02:56.920
+ a setup wizard appeared where and 
+
+00:02:53.470 --> 00:02:59.530
+ I configure the rules for the port people 50 194 
+
+00:02:56.920 --> 00:03:02.140
+ which I allow the connection to 
+
+00:02:59.530 --> 00:03:04.570
+ the fourth step of change is not found found 
+
+00:03:02.140 --> 00:03:07.209
+ name your rule and click done 
+
+00:03:04.570 --> 00:03:09.610
+ after which I am doing a similar 
+
+00:03:07.209 --> 00:03:14.250
+ actions for port 1194 
+
+00:03:09.610 --> 00:03:14.250
+ and for both ports in outgoing rules 
+
+00:03:20.590 --> 00:03:25.580
+ setup is complete and I turn to 
+
+00:03:23.480 --> 00:03:28.670
+ starting the server by pressing the right 
+
+00:03:25.580 --> 00:03:30.800
+ click on the vpn server file and in 
+
+00:03:28.670 --> 00:03:33.890
+ context menu, select the item to become 
+
+00:03:30.800 --> 00:03:35.959
+ open vpn aldis config file as seen 
+
+00:03:33.890 --> 00:03:38.269
+ command line was displayed where 
+
+00:03:35.959 --> 00:03:40.780
+ displayed string and start graceful sequins 
+
+00:03:38.269 --> 00:03:44.180
+ completing means the launch was successful 
+
+00:03:40.780 --> 00:03:44.870
+ now I configure open vpn on the side 
+
+00:03:44.180 --> 00:03:46.940
+ customer 
+
+00:03:44.870 --> 00:03:49.549
+ First you need to set yourself on 
+
+00:03:46.940 --> 00:03:52.010
+ computer experience gpn client i have it already 
+
+00:03:49.549 --> 00:03:54.530
+ installed so I skip this step 
+
+00:03:52.010 --> 00:03:57.590
+ from the sample folder config on the server 
+
+00:03:54.530 --> 00:04:01.220
+ I download a vpn client file to my computer 
+
+00:03:57.590 --> 00:04:03.620
+ open vpn folder config from folder config on 
+
+00:04:01.220 --> 00:04:06.860
+ server download certificates by sion and 
+
+00:04:03.620 --> 00:04:09.950
+ Clyde van and key Clayne Tuan on computer 
+
+00:04:06.860 --> 00:04:12.530
+ in the open vpn folder config open 
+
+00:04:09.950 --> 00:04:13.459
+ downloaded vpn client in notepad and in 
+
+00:04:12.530 --> 00:04:16.070
+ records can 
+
+00:04:13.459 --> 00:04:17.780
+ I specify my vps ip and change 
+
+00:04:16.070 --> 00:04:20.870
+ certificate name and key on those 
+
+00:04:17.780 --> 00:04:23.510
+ which i use i run 
+
+00:04:20.870 --> 00:04:25.760
+ label up in viking and system tray 
+
+00:04:23.510 --> 00:04:28.280
+ Click the right mouse button on the icon. 
+
+00:04:25.760 --> 00:04:31.220
+ He vpn and select in the context menu 
+
+00:04:28.280 --> 00:04:33.440
+ edit config because configuration 
+
+00:04:31.220 --> 00:04:35.240
+ Corresponds to the one that I asked again 
+
+00:04:33.440 --> 00:04:38.150
+ I right click on the icon in 
+
+00:04:35.240 --> 00:04:40.280
+ system tray and select connect 
+
+00:04:38.150 --> 00:04:42.440
+ apparently the connection can be considered 
+
+00:04:40.280 --> 00:04:45.380
+ successful and now you can connect to 
+
+00:04:42.440 --> 00:04:47.300
+ local ip server for today all 
+
+00:04:45.380 --> 00:04:50.570
+ in the next video I will tell you how 
+
+00:04:47.300 --> 00:04:52.760
+ configure tipi tipi client on windows not 
+
+00:04:50.570 --> 00:04:53.270
+ switch and subscribe to our 
+
+00:04:52.760 --> 00:04:55.340
+ channel 
+
+00:04:53.270 --> 00:04:57.820
+ let your connection always be 
+
+00:04:55.340 --> 00:04:57.820
+ protected by 
+

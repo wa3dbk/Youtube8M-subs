@@ -1,0 +1,770 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.000 --> 00:00:06.250 
+
+hi<00:00:05.000> there<00:00:05.180> so<00:00:05.480> today<00:00:05.899> I'm<00:00:06.020> going<00:00:06.200> to
+
+00:00:06.250 --> 00:00:06.260 
+hi there so today I'm going to
+
+00:00:06.260 --> 00:00:09.000 
+hi there so today I'm going to
+demonstrate<00:00:06.380> how<00:00:06.859> to<00:00:06.890> use<00:00:07.330> Robo<00:00:08.330> glass
+
+00:00:09.000 --> 00:00:09.010 
+demonstrate how to use Robo glass
+
+00:00:09.010 --> 00:00:13.839 
+demonstrate how to use Robo glass
+inverse<00:00:10.010> kinematic<00:00:10.549> function<00:00:12.760> before<00:00:13.760> we
+
+00:00:13.839 --> 00:00:13.849 
+inverse kinematic function before we
+
+00:00:13.849 --> 00:00:16.990 
+inverse kinematic function before we
+begin<00:00:14.410> let's<00:00:15.410> try<00:00:15.980> to<00:00:16.040> understand<00:00:16.610> what<00:00:16.880> is
+
+00:00:16.990 --> 00:00:17.000 
+begin let's try to understand what is
+
+00:00:17.000 --> 00:00:20.800 
+begin let's try to understand what is
+inverse<00:00:17.480> kinematic<00:00:19.029> we<00:00:20.029> have<00:00:20.119> a<00:00:20.150> robot<00:00:20.539> here
+
+00:00:20.800 --> 00:00:20.810 
+inverse kinematic we have a robot here
+
+00:00:20.810 --> 00:00:25.540 
+inverse kinematic we have a robot here
+and<00:00:21.820> inverse<00:00:22.820> kinematic<00:00:23.359> is<00:00:24.250> helps<00:00:25.250> you<00:00:25.369> to
+
+00:00:25.540 --> 00:00:25.550 
+and inverse kinematic is helps you to
+
+00:00:25.550 --> 00:00:28.300 
+and inverse kinematic is helps you to
+calculate<00:00:25.820> the<00:00:26.720> different<00:00:27.140> angles<00:00:27.710> of<00:00:28.010> the
+
+00:00:28.300 --> 00:00:28.310 
+calculate the different angles of the
+
+00:00:28.310 --> 00:00:33.340 
+calculate the different angles of the
+circles<00:00:28.789> of<00:00:29.420> the<00:00:29.779> joints<00:00:31.629> so<00:00:32.629> basically<00:00:33.050> you
+
+00:00:33.340 --> 00:00:33.350 
+circles of the joints so basically you
+
+00:00:33.350 --> 00:00:36.190 
+circles of the joints so basically you
+tell<00:00:33.620> the<00:00:33.800> program<00:00:34.540> where<00:00:35.540> you<00:00:35.750> want<00:00:35.930> the<00:00:36.020> end
+
+00:00:36.190 --> 00:00:36.200 
+tell the program where you want the end
+
+00:00:36.200 --> 00:00:38.889 
+tell the program where you want the end
+point<00:00:36.559> or<00:00:36.829> the<00:00:36.980> foot<00:00:37.190> to<00:00:37.640> be<00:00:37.820> let's<00:00:38.480> say<00:00:38.600> here
+
+00:00:38.889 --> 00:00:38.899 
+point or the foot to be let's say here
+
+00:00:38.899 --> 00:00:42.100 
+point or the foot to be let's say here
+and<00:00:39.170> it<00:00:40.010> will<00:00:40.130> calculate<00:00:40.370> for<00:00:40.730> you<00:00:41.120> or<00:00:41.690> angle
+
+00:00:42.100 --> 00:00:42.110 
+and it will calculate for you or angle
+
+00:00:42.110 --> 00:00:46.420 
+and it will calculate for you or angle
+to<00:00:42.230> apply<00:00:42.440> two<00:00:42.500> different<00:00:43.450> joints<00:00:45.430> the
+
+00:00:46.420 --> 00:00:46.430 
+to apply two different joints the
+
+00:00:46.430 --> 00:00:49.299 
+to apply two different joints the
+advantage<00:00:46.940> of<00:00:47.090> this<00:00:47.180> is<00:00:47.860> let's<00:00:48.860> say<00:00:48.920> you<00:00:49.039> have
+
+00:00:49.299 --> 00:00:49.309 
+advantage of this is let's say you have
+
+00:00:49.309 --> 00:00:51.880 
+advantage of this is let's say you have
+the<00:00:49.399> robot<00:00:49.700> standing<00:00:50.149> up<00:00:50.239> like<00:00:50.420> this<00:00:50.570> and<00:00:50.890> you
+
+00:00:51.880 --> 00:00:51.890 
+the robot standing up like this and you
+
+00:00:51.890 --> 00:00:55.420 
+the robot standing up like this and you
+want<00:00:52.129> to<00:00:52.399> wash<00:00:52.899> shifter<00:00:53.899> foot<00:00:54.170> forward<00:00:54.680> and
+
+00:00:55.420 --> 00:00:55.430 
+want to wash shifter foot forward and
+
+00:00:55.430 --> 00:00:57.939 
+want to wash shifter foot forward and
+keeping<00:00:55.640> the<00:00:55.789> foot<00:00:55.969> flat<00:00:56.300> on<00:00:56.510> the<00:00:56.890> on<00:00:57.890> the
+
+00:00:57.939 --> 00:00:57.949 
+keeping the foot flat on the on the
+
+00:00:57.949 --> 00:01:00.729 
+keeping the foot flat on the on the
+ground<00:00:58.270> you<00:00:59.270> can<00:00:59.329> just<00:00:59.660> basically<00:00:59.780> say<00:01:00.440> I<00:01:00.469> want
+
+00:01:00.729 --> 00:01:00.739 
+ground you can just basically say I want
+
+00:01:00.739 --> 00:01:04.240 
+ground you can just basically say I want
+the<00:01:00.829> foot<00:01:01.010> to<00:01:01.039> be<00:01:01.719> to<00:01:02.719> move<00:01:02.899> forward<00:01:03.469> by<00:01:03.680> X
+
+00:01:04.240 --> 00:01:04.250 
+the foot to be to move forward by X
+
+00:01:04.250 --> 00:01:06.580 
+the foot to be to move forward by X
+amount<00:01:04.399> and<00:01:05.270> it'll<00:01:05.539> basically<00:01:05.720> calculate<00:01:06.410> all
+
+00:01:06.580 --> 00:01:06.590 
+amount and it'll basically calculate all
+
+00:01:06.590 --> 00:01:08.530 
+amount and it'll basically calculate all
+these<00:01:06.860> different<00:01:07.250> joint<00:01:07.460> angles<00:01:07.880> there<00:01:08.090> so
+
+00:01:08.530 --> 00:01:08.540 
+these different joint angles there so
+
+00:01:08.540 --> 00:01:09.730 
+these different joint angles there so
+you<00:01:08.630> don't<00:01:08.869> have<00:01:09.080> to<00:01:09.170> worry<00:01:09.320> about<00:01:09.439> keeping
+
+00:01:09.730 --> 00:01:09.740 
+you don't have to worry about keeping
+
+00:01:09.740 --> 00:01:14.260 
+you don't have to worry about keeping
+the<00:01:10.189> foot<00:01:10.340> flat<00:01:12.460> similarly<00:01:13.460> you<00:01:13.640> can<00:01:13.850> change
+
+00:01:14.260 --> 00:01:14.270 
+the foot flat similarly you can change
+
+00:01:14.270 --> 00:01:18.190 
+the foot flat similarly you can change
+the<00:01:14.479> z-axis<00:01:15.470> so<00:01:15.650> then<00:01:16.159> turn<00:01:16.549> the<00:01:16.700> robot<00:01:17.200> turn
+
+00:01:18.190 --> 00:01:18.200 
+the z-axis so then turn the robot turn
+
+00:01:18.200 --> 00:01:20.950 
+the z-axis so then turn the robot turn
+the<00:01:18.350> computer<00:01:18.770> how<00:01:18.950> high<00:01:19.240> you<00:01:20.240> want<00:01:20.270> robot<00:01:20.810> to
+
+00:01:20.950 --> 00:01:20.960 
+the computer how high you want robot to
+
+00:01:20.960 --> 00:01:23.679 
+the computer how high you want robot to
+be<00:01:21.189> yeah<00:01:22.189> so<00:01:22.430> if<00:01:22.520> you<00:01:22.610> change<00:01:22.850> the<00:01:22.939> z-axis<00:01:23.270> it
+
+00:01:23.679 --> 00:01:23.689 
+be yeah so if you change the z-axis it
+
+00:01:23.689 --> 00:01:26.260 
+be yeah so if you change the z-axis it
+will<00:01:23.810> change<00:01:23.990> the<00:01:24.140> height<00:01:24.290> like<00:01:24.590> this<00:01:25.030> you<00:01:26.030> can
+
+00:01:26.260 --> 00:01:26.270 
+will change the height like this you can
+
+00:01:26.270 --> 00:01:28.990 
+will change the height like this you can
+also<00:01:26.930> change<00:01:27.320> the<00:01:27.530> theater<00:01:28.220> and<00:01:28.549> stuff<00:01:28.850> I
+
+00:01:28.990 --> 00:01:29.000 
+also change the theater and stuff I
+
+00:01:29.000 --> 00:01:30.880 
+also change the theater and stuff I
+think<00:01:29.030> that<00:01:29.390> changed<00:01:29.840> telling<00:01:30.290> you<00:01:30.470> how<00:01:30.680> much
+
+00:01:30.880 --> 00:01:30.890 
+think that changed telling you how much
+
+00:01:30.890 --> 00:01:33.190 
+think that changed telling you how much
+be<00:01:31.189> on<00:01:31.520> side<00:01:31.880> wait<00:01:32.150> like<00:01:32.329> this<00:01:32.509> and<00:01:32.750> back<00:01:33.020> and
+
+00:01:33.190 --> 00:01:33.200 
+be on side wait like this and back and
+
+00:01:33.200 --> 00:01:39.030 
+be on side wait like this and back and
+forth<00:01:33.820> so<00:01:34.930> normally<00:01:35.930> you<00:01:36.170> would<00:01:36.880> put<00:01:37.880> the
+
+00:01:39.030 --> 00:01:39.040 
+forth so normally you would put the
+
+00:01:39.040 --> 00:01:41.649 
+forth so normally you would put the
+center<00:01:40.040> of<00:01:40.070> origin<00:01:40.220> in<00:01:40.579> the<00:01:40.640> middle<00:01:40.909> you<00:01:41.420> want
+
+00:01:41.649 --> 00:01:41.659 
+center of origin in the middle you want
+
+00:01:41.659 --> 00:01:44.950 
+center of origin in the middle you want
+to<00:01:41.780> have<00:01:41.930> a<00:01:41.960> walking<00:01:42.890> motion<00:01:43.009> and<00:01:43.780> you<00:01:44.780> can
+
+00:01:44.950 --> 00:01:44.960 
+to have a walking motion and you can
+
+00:01:44.960 --> 00:01:47.170 
+to have a walking motion and you can
+also<00:01:45.140> be<00:01:45.439> robot<00:01:45.770> eyes<00:01:45.950> you<00:01:46.369> can<00:01:46.549> also<00:01:46.670> put<00:01:47.000> the
+
+00:01:47.170 --> 00:01:47.180 
+also be robot eyes you can also put the
+
+00:01:47.180 --> 00:01:49.660 
+also be robot eyes you can also put the
+center<00:01:47.509> of<00:01:47.689> it<00:01:47.899> onto<00:01:48.049> one<00:01:48.170> foot<00:01:48.530> like<00:01:49.220> here<00:01:49.460> and
+
+00:01:49.660 --> 00:01:49.670 
+center of it onto one foot like here and
+
+00:01:49.670 --> 00:01:53.260 
+center of it onto one foot like here and
+that<00:01:50.360> way<00:01:50.479> you<00:01:50.540> change<00:01:50.930> the<00:01:52.240> y-axis
+
+00:01:53.260 --> 00:01:53.270 
+that way you change the y-axis
+
+00:01:53.270 --> 00:01:56.520 
+that way you change the y-axis
+everything<00:01:54.040> surrounds<00:01:55.040> this<00:01:55.220> point<00:01:55.520> here<00:01:55.790> so
+
+00:01:56.520 --> 00:01:56.530 
+everything surrounds this point here so
+
+00:01:56.530 --> 00:02:00.160 
+everything surrounds this point here so
+this<00:01:57.530> is<00:01:58.030> inverse<00:01:59.030> kinematic<00:01:59.540> now<00:01:59.840> let's<00:02:00.020> get
+
+00:02:00.160 --> 00:02:00.170 
+this is inverse kinematic now let's get
+
+00:02:00.170 --> 00:02:02.319 
+this is inverse kinematic now let's get
+back<00:02:00.439> to<00:02:00.590> robust<00:02:01.040> so<00:02:01.579> first<00:02:01.850> of<00:02:01.969> all<00:02:02.090> I<00:02:02.270> just
+
+00:02:02.319 --> 00:02:02.329 
+back to robust so first of all I just
+
+00:02:02.329 --> 00:02:06.550 
+back to robust so first of all I just
+gonna<00:02:02.869> load<00:02:04.000> a<00:02:05.000> motion<00:02:05.600> that<00:02:05.840> I<00:02:05.899> want<00:02:06.110> to<00:02:06.290> start
+
+00:02:06.550 --> 00:02:06.560 
+gonna load a motion that I want to start
+
+00:02:06.560 --> 00:02:09.729 
+gonna load a motion that I want to start
+off<00:02:06.740> with<00:02:07.899> I'm<00:02:08.899> gonna<00:02:09.079> have<00:02:09.320> a<00:02:09.350> stand<00:02:09.679> up
+
+00:02:09.729 --> 00:02:09.739 
+off with I'm gonna have a stand up
+
+00:02:09.739 --> 00:02:12.280 
+off with I'm gonna have a stand up
+motion<00:02:10.130> to<00:02:10.220> start<00:02:10.489> off<00:02:10.610> with<00:02:10.790> so<00:02:11.030> I<00:02:11.060> click<00:02:11.329> load
+
+00:02:12.280 --> 00:02:12.290 
+motion to start off with so I click load
+
+00:02:12.290 --> 00:02:13.500 
+motion to start off with so I click load
+of<00:02:12.410> static<00:02:12.709> motion
+
+00:02:13.500 --> 00:02:13.510 
+of static motion
+
+00:02:13.510 --> 00:02:18.149 
+of static motion
+so<00:02:14.370> first<00:02:15.370> I<00:02:15.640> will<00:02:16.360> go<00:02:16.599> to<00:02:16.659> the<00:02:17.080> post<00:02:17.530> utility
+
+00:02:18.149 --> 00:02:18.159 
+so first I will go to the post utility
+
+00:02:18.159 --> 00:02:22.080 
+so first I will go to the post utility
+tab<00:02:18.400> and<00:02:19.230> then<00:02:20.230> I<00:02:20.470> will<00:02:20.799> click<00:02:21.400> the<00:02:21.580> post<00:02:21.790> of
+
+00:02:22.080 --> 00:02:22.090 
+tab and then I will click the post of
+
+00:02:22.090 --> 00:02:25.740 
+tab and then I will click the post of
+robot<00:02:22.659> and<00:02:23.650> I<00:02:24.190> will<00:02:24.340> also<00:02:24.610> select<00:02:25.090> a<00:02:25.390> walking
+
+00:02:25.740 --> 00:02:25.750 
+robot and I will also select a walking
+
+00:02:25.750 --> 00:02:29.699 
+robot and I will also select a walking
+step<00:02:27.239> ok<00:02:28.239> now<00:02:28.480> you<00:02:28.540> have<00:02:28.750> all<00:02:29.019> these<00:02:29.230> values
+
+00:02:29.699 --> 00:02:29.709 
+step ok now you have all these values
+
+00:02:29.709 --> 00:02:32.190 
+step ok now you have all these values
+here<00:02:30.390> basically<00:02:31.390> you<00:02:31.510> can<00:02:31.629> just<00:02:31.660> change<00:02:31.989> these
+
+00:02:32.190 --> 00:02:32.200 
+here basically you can just change these
+
+00:02:32.200 --> 00:02:34.559 
+here basically you can just change these
+values<00:02:32.709> so<00:02:33.340> for<00:02:33.370> example<00:02:33.790> if<00:02:33.879> I<00:02:33.970> don't<00:02:34.030> change
+
+00:02:34.559 --> 00:02:34.569 
+values so for example if I don't change
+
+00:02:34.569 --> 00:02:41.089 
+values so for example if I don't change
+the<00:02:35.430> the<00:02:36.430> Z<00:02:37.209> value<00:02:37.780> from<00:02:38.379> 3<00:02:38.830> to<00:02:39.129> something<00:02:39.519> like
+
+00:02:41.089 --> 00:02:41.099 
+the the Z value from 3 to something like
+
+00:02:41.099 --> 00:02:44.900 
+the the Z value from 3 to something like
+15<00:02:43.170> press<00:02:44.170> Enter
+
+00:02:44.900 --> 00:02:44.910 
+15 press Enter
+
+00:02:44.910 --> 00:02:47.910 
+15 press Enter
+see<00:02:45.910> I<00:02:46.209> mean<00:02:46.629> go<00:02:46.780> down<00:02:46.810> ok<00:02:47.680> I'm<00:02:47.769> going<00:02:47.860> to
+
+00:02:47.910 --> 00:02:47.920 
+see I mean go down ok I'm going to
+
+00:02:47.920 --> 00:02:53.460 
+see I mean go down ok I'm going to
+change<00:02:48.160> it<00:02:48.310> to<00:02:48.340> let's<00:02:49.060> say<00:02:50.849> 225<00:02:51.849> from<00:02:52.120> 1525<00:02:52.690> go
+
+00:02:53.460 --> 00:02:53.470 
+change it to let's say 225 from 1525 go
+
+00:02:53.470 --> 00:02:54.390 
+change it to let's say 225 from 1525 go
+down<00:02:53.620> even<00:02:53.709> further
+
+00:02:54.390 --> 00:02:54.400 
+down even further
+
+00:02:54.400 --> 00:03:01.860 
+down even further
+okay<00:02:54.879> next<00:02:55.090> I'm<00:02:55.299> gonna<00:02:55.420> try<00:02:55.840> the<00:02:58.980> the<00:03:00.450> this<00:03:01.450> one
+
+00:03:01.860 --> 00:03:01.870 
+okay next I'm gonna try the the this one
+
+00:03:01.870 --> 00:03:02.339 
+okay next I'm gonna try the the this one
+here
+
+00:03:02.339 --> 00:03:02.349 
+here
+
+00:03:02.349 --> 00:03:06.449 
+here
+enter<00:03:02.940> so<00:03:03.940> you<00:03:04.030> see<00:03:04.209> it<00:03:04.480> needs<00:03:05.200> to<00:03:05.379> one<00:03:05.530> side<00:03:05.799> 15
+
+00:03:06.449 --> 00:03:06.459 
+enter so you see it needs to one side 15
+
+00:03:06.459 --> 00:03:09.410 
+enter so you see it needs to one side 15
+bit<00:03:06.700> too<00:03:06.879> much<00:03:07.060> so<00:03:07.450> I<00:03:07.480> try<00:03:07.780> something<00:03:08.079> like<00:03:08.250> 5
+
+00:03:09.410 --> 00:03:09.420 
+bit too much so I try something like 5
+
+00:03:09.420 --> 00:03:12.599 
+bit too much so I try something like 5
+so<00:03:10.420> it<00:03:10.629> goes<00:03:10.870> back<00:03:11.140> up<00:03:11.349> so<00:03:12.160> it's<00:03:12.340> trying<00:03:12.489> to
+
+00:03:12.599 --> 00:03:12.609 
+so it goes back up so it's trying to
+
+00:03:12.609 --> 00:03:14.819 
+so it goes back up so it's trying to
+lean<00:03:12.790> to<00:03:13.000> one<00:03:13.030> side<00:03:13.209> as<00:03:13.629> you<00:03:13.750> can<00:03:13.959> see<00:03:14.200> it's
+
+00:03:14.819 --> 00:03:14.829 
+lean to one side as you can see it's
+
+00:03:14.829 --> 00:03:16.979 
+lean to one side as you can see it's
+particularly<00:03:15.190> useful<00:03:15.519> if<00:03:15.879> you<00:03:15.970> want<00:03:16.180> shift
+
+00:03:16.979 --> 00:03:16.989 
+particularly useful if you want shift
+
+00:03:16.989 --> 00:03:18.569 
+particularly useful if you want shift
+the<00:03:17.140> weight<00:03:17.319> the<00:03:17.650> robot<00:03:17.919> to<00:03:18.040> one<00:03:18.190> side<00:03:18.430> and
+
+00:03:18.569 --> 00:03:18.579 
+the weight the robot to one side and
+
+00:03:18.579 --> 00:03:20.670 
+the weight the robot to one side and
+then<00:03:18.669> lift<00:03:18.910> the<00:03:19.030> foot<00:03:19.239> for<00:03:19.569> walking<00:03:20.530> motion
+
+00:03:20.670 --> 00:03:20.680 
+then lift the foot for walking motion
+
+00:03:20.680 --> 00:03:26.900 
+then lift the foot for walking motion
+now<00:03:21.579> try<00:03:22.180> the<00:03:22.239> let's<00:03:23.139> try<00:03:23.349> something<00:03:23.730> like<00:03:24.730> the
+
+00:03:26.900 --> 00:03:26.910 
+now try the let's try something like the
+
+00:03:26.910 --> 00:03:32.879 
+now try the let's try something like the
+this<00:03:27.910> one<00:03:28.150> here<00:03:28.450> that<00:03:29.700> is<00:03:30.900> this<00:03:31.900> so<00:03:32.620> imma<00:03:32.769> show
+
+00:03:32.879 --> 00:03:32.889 
+this one here that is this so imma show
+
+00:03:32.889 --> 00:03:37.099 
+this one here that is this so imma show
+you<00:03:32.950> from<00:03:33.130> 2<00:03:33.430> to<00:03:34.019> 15<00:03:35.019> see<00:03:35.590> what<00:03:35.709> happens
+
+00:03:37.099 --> 00:03:37.109 
+you from 2 to 15 see what happens
+
+00:03:37.109 --> 00:03:42.750 
+you from 2 to 15 see what happens
+hit<00:03:38.109> the<00:03:38.200> enter<00:03:39.239> so<00:03:40.239> you<00:03:40.299> can<00:03:40.510> see<00:03:40.720> it<00:03:41.579> the<00:03:42.579> legs
+
+00:03:42.750 --> 00:03:42.760 
+hit the enter so you can see it the legs
+
+00:03:42.760 --> 00:03:50.699 
+hit the enter so you can see it the legs
+still<00:03:43.000> wider<00:03:43.530> try<00:03:44.530> the<00:03:47.220> this<00:03:48.220> one<00:03:48.489> here<00:03:49.680> let<00:03:50.680> me
+
+00:03:50.699 --> 00:03:50.709 
+still wider try the this one here let me
+
+00:03:50.709 --> 00:03:54.409 
+still wider try the this one here let me
+try<00:03:50.859> it<00:03:50.950> about<00:03:51.310> 15<00:03:51.819> see<00:03:52.120> what<00:03:52.209> happens
+
+00:03:54.409 --> 00:03:54.419 
+try it about 15 see what happens
+
+00:03:54.419 --> 00:03:57.629 
+try it about 15 see what happens
+something<00:03:55.419> happened<00:03:55.810> but<00:03:55.959> I<00:03:56.169> can't<00:03:56.530> see<00:03:56.950> try
+
+00:03:57.629 --> 00:03:57.639 
+something happened but I can't see try
+
+00:03:57.639 --> 00:03:59.129 
+something happened but I can't see try
+225<00:03:58.329> bit<00:03:58.629> higher
+
+00:03:59.129 --> 00:03:59.139 
+225 bit higher
+
+00:03:59.139 --> 00:04:02.879 
+225 bit higher
+ok<00:03:59.980> so<00:04:00.040> you<00:04:00.220> can<00:04:00.280> see<00:04:00.430> the<00:04:00.760> legs<00:04:01.000> like<00:04:01.590> it<00:04:02.590> shift
+
+00:04:02.879 --> 00:04:02.889 
+ok so you can see the legs like it shift
+
+00:04:02.889 --> 00:04:05.339 
+ok so you can see the legs like it shift
+back<00:04:03.190> and<00:04:03.220> forth<00:04:03.639> like<00:04:03.819> that<00:04:04.209> so<00:04:04.569> let<00:04:04.959> me<00:04:05.109> try
+
+00:04:05.339 --> 00:04:05.349 
+back and forth like that so let me try
+
+00:04:05.349 --> 00:04:08.129 
+back and forth like that so let me try
+the<00:04:05.410> Y<00:04:06.280> value<00:04:06.910> to<00:04:07.239> see<00:04:07.450> what<00:04:07.690> happens<00:04:07.989> if<00:04:08.079> I
+
+00:04:08.129 --> 00:04:08.139 
+the Y value to see what happens if I
+
+00:04:08.139 --> 00:04:15.800 
+the Y value to see what happens if I
+change<00:04:08.319> the<00:04:08.530> Y<00:04:08.650> values<00:04:09.099> from<00:04:09.250> minus<00:04:09.519> 2<00:04:09.910> to<00:04:12.629> 10
+
+00:04:15.800 --> 00:04:15.810 
+
+00:04:15.810 --> 00:04:17.069 
+
+ok
+
+00:04:17.069 --> 00:04:17.079 
+ok
+
+00:04:17.079 --> 00:04:21.930 
+ok
+again<00:04:17.680> try<00:04:18.519> to<00:04:18.549> shift<00:04:18.849> to<00:04:19.030> one<00:04:19.209> side<00:04:20.940> alright
+
+00:04:21.930 --> 00:04:21.940 
+again try to shift to one side alright
+
+00:04:21.940 --> 00:04:23.310 
+again try to shift to one side alright
+so<00:04:22.150> basically<00:04:22.300> this<00:04:22.750> is<00:04:22.810> what<00:04:23.020> you<00:04:23.080> can<00:04:23.200> do
+
+00:04:23.310 --> 00:04:23.320 
+so basically this is what you can do
+
+00:04:23.320 --> 00:04:26.940 
+so basically this is what you can do
+this<00:04:23.530> is<00:04:23.650> the<00:04:23.770> walking<00:04:24.099> step<00:04:25.650> control<00:04:26.650> point
+
+00:04:26.940 --> 00:04:26.950 
+this is the walking step control point
+
+00:04:26.950 --> 00:04:27.390 
+this is the walking step control point
+so
+
+00:04:27.390 --> 00:04:27.400 
+so
+
+00:04:27.400 --> 00:04:29.100 
+so
+let<00:04:27.490> me<00:04:27.550> try<00:04:27.820> to<00:04:27.850> shift<00:04:28.150> the<00:04:28.240> control<00:04:28.630> point<00:04:28.870> to
+
+00:04:29.100 --> 00:04:29.110 
+let me try to shift the control point to
+
+00:04:29.110 --> 00:04:33.450 
+let me try to shift the control point to
+the<00:04:29.229> right<00:04:29.380> foot<00:04:30.540> and<00:04:31.770> it<00:04:32.770> got<00:04:32.889> some<00:04:33.070> default
+
+00:04:33.450 --> 00:04:33.460 
+the right foot and it got some default
+
+00:04:33.460 --> 00:04:36.870 
+the right foot and it got some default
+value<00:04:34.110> again<00:04:35.110> maybe<00:04:35.320> trying<00:04:35.800> to<00:04:36.190> sum<00:04:36.400> XY<00:04:36.820> is
+
+00:04:36.870 --> 00:04:36.880 
+value again maybe trying to sum XY is
+
+00:04:36.880 --> 00:04:39.120 
+value again maybe trying to sum XY is
+there<00:04:37.150> and<00:04:37.419> then<00:04:37.570> this<00:04:37.750> -<00:04:38.080> I<00:04:38.320> think<00:04:38.410> these<00:04:38.830> twos
+
+00:04:39.120 --> 00:04:39.130 
+there and then this - I think these twos
+
+00:04:39.130 --> 00:04:41.969 
+there and then this - I think these twos
+are<00:04:39.340> referring<00:04:39.729> now<00:04:40.210> to<00:04:40.240> the<00:04:40.660> angles<00:04:41.590> of<00:04:41.770> the
+
+00:04:41.969 --> 00:04:41.979 
+are referring now to the angles of the
+
+00:04:41.979 --> 00:04:46.080 
+are referring now to the angles of the
+of<00:04:42.340> the<00:04:42.940> server<00:04:43.840> at<00:04:44.050> the<00:04:44.280> this<00:04:45.280> point<00:04:45.610> here<00:04:45.880> so
+
+00:04:46.080 --> 00:04:46.090 
+of the server at the this point here so
+
+00:04:46.090 --> 00:04:52.170 
+of the server at the this point here so
+this<00:04:47.080> is<00:04:47.260> the<00:04:47.290> right<00:04:47.770> foot<00:04:49.949> okay<00:04:50.949> so<00:04:51.010> this<00:04:51.970> is<00:04:52.150> a
+
+00:04:52.170 --> 00:04:52.180 
+this is the right foot okay so this is a
+
+00:04:52.180 --> 00:04:54.750 
+this is the right foot okay so this is a
+walking<00:04:52.570> motion<00:04:52.720> as<00:04:52.990> you<00:04:53.020> can<00:04:53.199> see<00:04:53.520> so<00:04:54.520> put
+
+00:04:54.750 --> 00:04:54.760 
+walking motion as you can see so put
+
+00:04:54.760 --> 00:04:59.250 
+walking motion as you can see so put
+back<00:04:54.910> to<00:04:55.060> zero<00:04:55.320> both<00:04:56.320> foot<00:04:56.770> parallel<00:04:58.020> okay<00:04:59.020> now
+
+00:04:59.250 --> 00:04:59.260 
+back to zero both foot parallel okay now
+
+00:04:59.260 --> 00:05:03.240 
+back to zero both foot parallel okay now
+it's<00:04:59.410> trying<00:04:59.620> to<00:04:59.740> your<00:04:59.919> wine<00:05:00.100> values<00:05:00.699> to<00:05:02.250> two
+
+00:05:03.240 --> 00:05:03.250 
+it's trying to your wine values to two
+
+00:05:03.250 --> 00:05:06.090 
+it's trying to your wine values to two
+from<00:05:04.180> zero<00:05:04.419> to<00:05:04.570> ten<00:05:04.870> so<00:05:05.500> obviously<00:05:05.800> what<00:05:06.010> it's
+
+00:05:06.090 --> 00:05:06.100 
+from zero to ten so obviously what it's
+
+00:05:06.100 --> 00:05:07.890 
+from zero to ten so obviously what it's
+doing<00:05:06.340> is<00:05:06.490> it's<00:05:06.729> now<00:05:06.910> having<00:05:07.330> the<00:05:07.449> right<00:05:07.690> foot
+
+00:05:07.890 --> 00:05:07.900 
+doing is it's now having the right foot
+
+00:05:07.900 --> 00:05:10.200 
+doing is it's now having the right foot
+as<00:05:07.990> the<00:05:08.110> center<00:05:08.530> and<00:05:08.710> then<00:05:09.250> moving<00:05:09.669> the
+
+00:05:10.200 --> 00:05:10.210 
+as the center and then moving the
+
+00:05:10.210 --> 00:05:12.210 
+as the center and then moving the
+everything<00:05:10.780> else<00:05:10.990> around<00:05:11.260> it<00:05:11.560> so<00:05:12.100> I'm<00:05:12.190> trying
+
+00:05:12.210 --> 00:05:12.220 
+everything else around it so I'm trying
+
+00:05:12.220 --> 00:05:15.719 
+everything else around it so I'm trying
+to<00:05:12.490> change<00:05:12.880> the<00:05:13.150> Y<00:05:13.330> now<00:05:13.600> from<00:05:13.810> zero<00:05:14.080> to<00:05:14.139> ten<00:05:14.729> so
+
+00:05:15.719 --> 00:05:15.729 
+to change the Y now from zero to ten so
+
+00:05:15.729 --> 00:05:19.680 
+to change the Y now from zero to ten so
+the<00:05:16.600> left<00:05:16.900> foot<00:05:17.139> shift<00:05:17.650> to<00:05:18.639> the<00:05:18.760> y<00:05:18.910> axis<00:05:18.940> here
+
+00:05:19.680 --> 00:05:19.690 
+the left foot shift to the y axis here
+
+00:05:19.690 --> 00:05:26.070 
+the left foot shift to the y axis here
+let<00:05:20.410> me<00:05:20.440> change<00:05:20.710> it<00:05:20.860> to<00:05:21.039> minus<00:05:22.560> minus<00:05:23.560> 20<00:05:25.080> so
+
+00:05:26.070 --> 00:05:26.080 
+let me change it to minus minus 20 so
+
+00:05:26.080 --> 00:05:28.500 
+let me change it to minus minus 20 so
+lifting<00:05:26.500> Adal<00:05:26.889> as<00:05:27.760> you<00:05:27.940> can<00:05:28.060> see<00:05:28.240> the<00:05:28.360> angle
+
+00:05:28.500 --> 00:05:28.510 
+lifting Adal as you can see the angle
+
+00:05:28.510 --> 00:05:32.190 
+lifting Adal as you can see the angle
+the<00:05:29.350> ankle<00:05:29.770> also<00:05:30.250> changes<00:05:30.970> to<00:05:31.660> make<00:05:31.780> the<00:05:31.960> foot
+
+00:05:32.190 --> 00:05:32.200 
+the ankle also changes to make the foot
+
+00:05:32.200 --> 00:05:34.020 
+the ankle also changes to make the foot
+flat<00:05:32.560> on<00:05:32.800> the<00:05:32.979> ground<00:05:33.190> which<00:05:33.340> is<00:05:33.460> very<00:05:33.820> useful
+
+00:05:34.020 --> 00:05:34.030 
+flat on the ground which is very useful
+
+00:05:34.030 --> 00:05:37.350 
+flat on the ground which is very useful
+so<00:05:34.889> this<00:05:35.889> will<00:05:36.070> be<00:05:36.190> very<00:05:36.370> useful<00:05:36.880> if<00:05:37.150> you<00:05:37.180> want
+
+00:05:37.350 --> 00:05:37.360 
+so this will be very useful if you want
+
+00:05:37.360 --> 00:05:40.770 
+so this will be very useful if you want
+to<00:05:37.660> program<00:05:38.110> the<00:05:38.349> the<00:05:38.979> robot<00:05:39.340> to<00:05:39.490> walk<00:05:40.000> on<00:05:40.360> and
+
+00:05:40.770 --> 00:05:40.780 
+to program the the robot to walk on and
+
+00:05:40.780 --> 00:05:45.420 
+to program the the robot to walk on and
+keeping<00:05:41.260> the<00:05:41.440> foot<00:05:41.979> flat<00:05:43.110> okay<00:05:44.110> so<00:05:44.169> I<00:05:44.889> hope<00:05:45.280> you
+
+00:05:45.420 --> 00:05:45.430 
+keeping the foot flat okay so I hope you
+
+00:05:45.430 --> 00:05:49.290 
+keeping the foot flat okay so I hope you
+get<00:05:45.580> the<00:05:45.700> point<00:05:45.880> and<00:05:46.260> I<00:05:47.760> guess<00:05:48.760> whenever
+
+00:05:49.290 --> 00:05:49.300 
+get the point and I guess whenever
+
+00:05:49.300 --> 00:05:49.830 
+get the point and I guess whenever
+you're<00:05:49.510> ready
+
+00:05:49.830 --> 00:05:49.840 
+you're ready
+
+00:05:49.840 --> 00:05:52.440 
+you're ready
+you<00:05:50.560> press<00:05:50.830> this<00:05:51.070> and<00:05:51.310> then<00:05:51.789> it<00:05:51.940> will<00:05:52.000> save<00:05:52.270> it
+
+00:05:52.440 --> 00:05:52.450 
+you press this and then it will save it
+
+00:05:52.450 --> 00:05:55.469 
+you press this and then it will save it
+to<00:05:52.599> the<00:05:53.139> motion<00:05:53.590> here<00:05:54.060> so<00:05:55.060> thanks<00:05:55.419> for
+
+00:05:55.469 --> 00:05:55.479 
+to the motion here so thanks for
+
+00:05:55.479 --> 00:05:56.909 
+to the motion here so thanks for
+watching<00:05:55.539> I<00:05:56.080> hope<00:05:56.349> you<00:05:56.380> learned<00:05:56.680> something
+
+00:05:56.909 --> 00:05:56.919 
+watching I hope you learned something
+
+00:05:56.919 --> 00:05:59.279 
+watching I hope you learned something
+and<00:05:57.160> I<00:05:57.669> just<00:05:57.940> figured<00:05:58.780> this<00:05:58.840> out<00:05:58.990> by<00:05:59.139> myself
+
+00:05:59.279 --> 00:05:59.289 
+and I just figured this out by myself
+
+00:05:59.289 --> 00:06:00.930 
+and I just figured this out by myself
+and<00:05:59.650> I<00:05:59.800> just<00:06:00.039> thought<00:06:00.220> I<00:06:00.280> want<00:06:00.520> to<00:06:00.610> share<00:06:00.820> with
+
+00:06:00.930 --> 00:06:00.940 
+and I just thought I want to share with
+
+00:06:00.940 --> 00:06:04.349 
+and I just thought I want to share with
+you<00:06:01.060> guys<00:06:01.090> thank<00:06:01.690> you<00:06:01.750> for<00:06:01.870> watching<00:06:02.110> bye<00:06:02.320> bye
+

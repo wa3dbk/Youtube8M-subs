@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.910 --> 00:00:06.340 
+
+hi<00:00:04.910> I'm<00:00:05.060> Bob<00:00:05.240> Tabor<00:00:05.569> with<00:00:05.720> learn<00:00:05.930> visual
+
+00:00:06.340 --> 00:00:06.350 
+hi I'm Bob Tabor with learn visual
+
+00:00:06.350 --> 00:00:08.410 
+hi I'm Bob Tabor with learn visual
+studio.net<00:00:06.710> in<00:00:07.430> this<00:00:07.609> lesson<00:00:07.850> we'll<00:00:08.120> make<00:00:08.269> our
+
+00:00:08.410 --> 00:00:08.420 
+studio.net in this lesson we'll make our
+
+00:00:08.420 --> 00:00:11.259 
+studio.net in this lesson we'll make our
+app<00:00:08.630> bar<00:00:08.930> more<00:00:09.350> than<00:00:09.620> just<00:00:09.920> for<00:00:10.130> show<00:00:10.370> by
+
+00:00:11.259 --> 00:00:11.269 
+app bar more than just for show by
+
+00:00:11.269 --> 00:00:13.839 
+app bar more than just for show by
+adding<00:00:11.719> photo<00:00:11.960> capture<00:00:12.349> capability<00:00:13.009> in<00:00:13.190> fact
+
+00:00:13.839 --> 00:00:13.849 
+adding photo capture capability in fact
+
+00:00:13.849 --> 00:00:16.090 
+adding photo capture capability in fact
+in<00:00:14.030> order<00:00:14.269> to<00:00:14.360> enable<00:00:14.719> your<00:00:15.410> app<00:00:15.679> to<00:00:15.710> access
+
+00:00:16.090 --> 00:00:16.100 
+in order to enable your app to access
+
+00:00:16.100 --> 00:00:19.120 
+in order to enable your app to access
+the<00:00:16.520> webcam<00:00:17.000> to<00:00:17.450> take<00:00:17.690> a<00:00:17.720> photo<00:00:18.140> it's<00:00:18.890> really
+
+00:00:19.120 --> 00:00:19.130 
+the webcam to take a photo it's really
+
+00:00:19.130 --> 00:00:20.950 
+the webcam to take a photo it's really
+just<00:00:19.310> one<00:00:19.519> or<00:00:19.609> two<00:00:19.640> lines<00:00:19.910> of<00:00:20.060> code<00:00:20.300> the<00:00:20.750> only
+
+00:00:20.950 --> 00:00:20.960 
+just one or two lines of code the only
+
+00:00:20.960 --> 00:00:22.599 
+just one or two lines of code the only
+real<00:00:21.109> complexity<00:00:21.650> is<00:00:22.010> where<00:00:22.279> you're<00:00:22.430> going<00:00:22.519> to
+
+00:00:22.599 --> 00:00:22.609 
+real complexity is where you're going to
+
+00:00:22.609 --> 00:00:24.460 
+real complexity is where you're going to
+save<00:00:22.910> it<00:00:22.939> and<00:00:23.180> display<00:00:23.539> it<00:00:23.630> or<00:00:23.930> in<00:00:24.320> our<00:00:24.439> case
+
+00:00:24.460 --> 00:00:24.470 
+save it and display it or in our case
+
+00:00:24.470 --> 00:00:26.230 
+save it and display it or in our case
+how<00:00:24.920> you're<00:00:25.130> going<00:00:25.220> to<00:00:25.310> actually<00:00:25.519> share<00:00:26.029> it
+
+00:00:26.230 --> 00:00:26.240 
+how you're going to actually share it
+
+00:00:26.240 --> 00:00:28.029 
+how you're going to actually share it
+since<00:00:26.810> we've<00:00:27.019> done<00:00:27.050> that<00:00:27.230> before<00:00:27.679> it<00:00:27.830> should
+
+00:00:28.029 --> 00:00:28.039 
+since we've done that before it should
+
+00:00:28.039 --> 00:00:30.880 
+since we've done that before it should
+should<00:00:28.550> make<00:00:28.730> some<00:00:28.910> sense<00:00:29.119> but<00:00:29.960> let's<00:00:30.740> go
+
+00:00:30.880 --> 00:00:30.890 
+should make some sense but let's go
+
+00:00:30.890 --> 00:00:32.320 
+should make some sense but let's go
+ahead<00:00:30.949> and<00:00:31.099> get<00:00:31.429> started<00:00:31.550> we're<00:00:32.000> in<00:00:32.090> lap
+
+00:00:32.320 --> 00:00:32.330 
+ahead and get started we're in lap
+
+00:00:32.330 --> 00:00:35.110 
+ahead and get started we're in lap
+number<00:00:32.630> four<00:00:33.320> at<00:00:33.650> bars<00:00:34.010> and<00:00:34.280> media<00:00:34.490> capture<00:00:34.730> in
+
+00:00:35.110 --> 00:00:35.120 
+number four at bars and media capture in
+
+00:00:35.120 --> 00:00:39.100 
+number four at bars and media capture in
+exercise<00:00:35.750> to<00:00:35.989> add<00:00:36.290> photo<00:00:36.770> capture<00:00:37.250> and<00:00:37.780> so<00:00:38.780> as
+
+00:00:39.100 --> 00:00:39.110 
+exercise to add photo capture and so as
+
+00:00:39.110 --> 00:00:41.049 
+exercise to add photo capture and so as
+you<00:00:39.260> can<00:00:39.379> see<00:00:39.649> we're<00:00:40.430> going<00:00:40.550> to<00:00:40.610> modify<00:00:40.910> the
+
+00:00:41.049 --> 00:00:41.059 
+you can see we're going to modify the
+
+00:00:41.059 --> 00:00:43.029 
+you can see we're going to modify the
+code<00:00:41.360> to<00:00:41.750> allow<00:00:41.870> the<00:00:42.020> user<00:00:42.320> to<00:00:42.410> take<00:00:42.680> a<00:00:42.710> photo
+
+00:00:43.029 --> 00:00:43.039 
+code to allow the user to take a photo
+
+00:00:43.039 --> 00:00:45.639 
+code to allow the user to take a photo
+and<00:00:43.329> to<00:00:44.329> begin<00:00:44.450> we're<00:00:44.870> going<00:00:45.110> to<00:00:45.200> import<00:00:45.559> some
+
+00:00:45.639 --> 00:00:45.649 
+and to begin we're going to import some
+
+00:00:45.649 --> 00:00:47.889 
+and to begin we're going to import some
+namespaces<00:00:46.340> that<00:00:46.489> we<00:00:46.610> need<00:00:46.850> windows<00:00:47.300> media<00:00:47.660> to
+
+00:00:47.889 --> 00:00:47.899 
+namespaces that we need windows media to
+
+00:00:47.899 --> 00:00:50.260 
+namespaces that we need windows media to
+capture<00:00:48.379> and<00:00:48.620> windows<00:00:49.070> storage<00:00:49.670> makes<00:00:50.059> sense
+
+00:00:50.260 --> 00:00:50.270 
+capture and windows storage makes sense
+
+00:00:50.270 --> 00:00:53.229 
+capture and windows storage makes sense
+we're<00:00:50.420> going<00:00:50.539> to<00:00:50.600> capture<00:00:51.460> an<00:00:52.460> image<00:00:52.699> and<00:00:53.120> then
+
+00:00:53.229 --> 00:00:53.239 
+we're going to capture an image and then
+
+00:00:53.239 --> 00:00:55.360 
+we're going to capture an image and then
+store<00:00:53.539> it<00:00:53.570> somewhere<00:00:53.809> so<00:00:54.260> I<00:00:54.559> would<00:00:55.070> expect
+
+00:00:55.360 --> 00:00:55.370 
+store it somewhere so I would expect
+
+00:00:55.370 --> 00:00:57.610 
+store it somewhere so I would expect
+classes<00:00:55.989> that<00:00:56.989> are<00:00:57.109> used<00:00:57.289> for<00:00:57.440> that<00:00:57.590> purpose
+
+00:00:57.610 --> 00:00:57.620 
+classes that are used for that purpose
+
+00:00:57.620 --> 00:01:02.290 
+classes that are used for that purpose
+to<00:00:57.980> be<00:00:58.250> in<00:00:58.399> those<00:00:58.870> namespaces<00:01:00.820> all<00:01:01.820> right<00:01:02.059> next
+
+00:01:02.290 --> 00:01:02.300 
+to be in those namespaces all right next
+
+00:01:02.300 --> 00:01:04.810 
+to be in those namespaces all right next
+up<00:01:02.600> we're<00:01:03.289> going<00:01:03.500> to<00:01:03.769> add<00:01:03.980> the<00:01:04.580> following
+
+00:01:04.810 --> 00:01:04.820 
+up we're going to add the following
+
+00:01:04.820 --> 00:01:09.010 
+up we're going to add the following
+field<00:01:05.600> to<00:01:06.560> the<00:01:06.590> items<00:01:07.220> detail<00:01:07.880> page<00:01:08.270> alright
+
+00:01:09.010 --> 00:01:09.020 
+field to the items detail page alright
+
+00:01:09.020 --> 00:01:11.560 
+field to the items detail page alright
+so<00:01:09.230> we're<00:01:09.350> going<00:01:09.440> to<00:01:09.530> create<00:01:09.830> a<00:01:10.570> private
+
+00:01:11.560 --> 00:01:11.570 
+so we're going to create a private
+
+00:01:11.570 --> 00:01:16.750 
+so we're going to create a private
+member<00:01:12.140> called<00:01:12.470> underscore<00:01:13.130> photo<00:01:15.250> up<00:01:16.250> type
+
+00:01:16.750 --> 00:01:16.760 
+member called underscore photo up type
+
+00:01:16.760 --> 00:01:20.740 
+member called underscore photo up type
+storage<00:01:17.360> file<00:01:18.970> which<00:01:19.970> is<00:01:20.120> in<00:01:20.270> the<00:01:20.360> windows
+
+00:01:20.740 --> 00:01:20.750 
+storage file which is in the windows
+
+00:01:20.750 --> 00:01:23.710 
+storage file which is in the windows
+storage<00:01:21.410> storage<00:01:21.980> file<00:01:22.330> represents<00:01:23.330> a<00:01:23.390> file
+
+00:01:23.710 --> 00:01:23.720 
+storage storage file represents a file
+
+00:01:23.720 --> 00:01:26.560 
+storage storage file represents a file
+okay<00:01:24.470> great<00:01:24.860> and<00:01:25.790> you<00:01:25.970> can<00:01:26.090> see<00:01:26.270> that<00:01:26.300> it<00:01:26.540> has
+
+00:01:26.560 --> 00:01:26.570 
+okay great and you can see that it has
+
+00:01:26.570 --> 00:01:28.690 
+okay great and you can see that it has
+associated<00:01:27.230> capabilities<00:01:27.950> pictures<00:01:28.490> library
+
+00:01:28.690 --> 00:01:28.700 
+associated capabilities pictures library
+
+00:01:28.700 --> 00:01:30.730 
+associated capabilities pictures library
+videos<00:01:29.210> library<00:01:29.600> music<00:01:29.900> library<00:01:30.290> documents
+
+00:01:30.730 --> 00:01:30.740 
+videos library music library documents
+
+00:01:30.740 --> 00:01:31.960 
+videos library music library documents
+library<00:01:30.860> so<00:01:31.160> I'll<00:01:31.220> be<00:01:31.310> interesting<00:01:31.730> to<00:01:31.790> see
+
+00:01:31.960 --> 00:01:31.970 
+library so I'll be interesting to see
+
+00:01:31.970 --> 00:01:35.260 
+library so I'll be interesting to see
+how<00:01:32.360> this<00:01:32.660> plays<00:01:33.110> into<00:01:33.230> it<00:01:33.820> alright<00:01:34.820> then<00:01:35.060> what
+
+00:01:35.260 --> 00:01:35.270 
+how this plays into it alright then what
+
+00:01:35.270 --> 00:01:37.330 
+how this plays into it alright then what
+we<00:01:35.390> want<00:01:35.540> to<00:01:35.630> do<00:01:35.780> is<00:01:36.110> find<00:01:36.350> the<00:01:36.470> on<00:01:36.620> capture
+
+00:01:37.330 --> 00:01:37.340 
+we want to do is find the on capture
+
+00:01:37.340 --> 00:01:38.680 
+we want to do is find the on capture
+photo<00:01:37.580> method<00:01:38.000> that<00:01:38.120> you<00:01:38.270> add<00:01:38.450> in<00:01:38.630> the
+
+00:01:38.680 --> 00:01:38.690 
+photo method that you add in the
+
+00:01:38.690 --> 00:01:40.420 
+photo method that you add in the
+previous<00:01:38.930> exercise<00:01:39.440> got<00:01:39.890> it<00:01:40.070> we<00:01:40.190> know<00:01:40.310> where
+
+00:01:40.420 --> 00:01:40.430 
+previous exercise got it we know where
+
+00:01:40.430 --> 00:01:42.280 
+previous exercise got it we know where
+that's<00:01:40.580> at<00:01:40.760> and<00:01:41.060> then<00:01:41.600> what<00:01:41.780> we<00:01:41.840> want<00:01:41.990> to<00:01:42.080> do<00:01:42.170> is
+
+00:01:42.280 --> 00:01:42.290 
+that's at and then what we want to do is
+
+00:01:42.290 --> 00:01:44.020 
+that's at and then what we want to do is
+modify<00:01:42.620> that<00:01:42.860> method<00:01:43.190> to<00:01:43.280> look<00:01:43.460> like<00:01:43.610> this<00:01:43.820> be
+
+00:01:44.020 --> 00:01:44.030 
+modify that method to look like this be
+
+00:01:44.030 --> 00:01:45.820 
+modify that method to look like this be
+sure<00:01:44.060> to<00:01:44.360> add<00:01:44.480> the<00:01:44.630> async<00:01:45.140> keyword<00:01:45.530> remember
+
+00:01:45.820 --> 00:01:45.830 
+sure to add the async keyword remember
+
+00:01:45.830 --> 00:01:47.470 
+sure to add the async keyword remember
+because<00:01:45.980> we<00:01:46.010> talked<00:01:46.310> about<00:01:46.430> if<00:01:46.970> you're<00:01:47.150> going
+
+00:01:47.470 --> 00:01:47.480 
+because we talked about if you're going
+
+00:01:47.480 --> 00:01:49.540 
+because we talked about if you're going
+to<00:01:47.600> have<00:01:47.780> the<00:01:48.140> away<00:01:48.440> keyword<00:01:48.920> we<00:01:49.130> have<00:01:49.340> to
+
+00:01:49.540 --> 00:01:49.550 
+to have the away keyword we have to
+
+00:01:49.550 --> 00:01:52.000 
+to have the away keyword we have to
+decorate<00:01:50.420> the<00:01:50.840> method<00:01:51.170> with<00:01:51.320> the<00:01:51.440> async
+
+00:01:52.000 --> 00:01:52.010 
+decorate the method with the async
+
+00:01:52.010 --> 00:01:54.550 
+decorate the method with the async
+modifier<00:01:52.940> so<00:01:53.690> let's<00:01:53.870> go<00:01:53.960> and<00:01:54.080> just<00:01:54.170> capture
+
+00:01:54.550 --> 00:01:54.560 
+modifier so let's go and just capture
+
+00:01:54.560 --> 00:01:58.750 
+modifier so let's go and just capture
+this<00:01:54.680> whole<00:01:54.920> thing<00:01:55.220> and<00:01:57.430> we're<00:01:58.430> going<00:01:58.700> to
+
+00:01:58.750 --> 00:01:58.760 
+this whole thing and we're going to
+
+00:01:58.760 --> 00:02:01.360 
+this whole thing and we're going to
+replace<00:01:59.390> the<00:01:59.660> existing<00:01:59.780> on<00:02:00.440> capture<00:02:01.100> photo
+
+00:02:01.360 --> 00:02:01.370 
+replace the existing on capture photo
+
+00:02:01.370 --> 00:02:08.290 
+replace the existing on capture photo
+and<00:02:03.190> so<00:02:04.190> the<00:02:04.840> interesting<00:02:06.070> bits<00:02:07.070> are<00:02:07.430> here<00:02:08.030> the
+
+00:02:08.290 --> 00:02:08.300 
+and so the interesting bits are here the
+
+00:02:08.300 --> 00:02:11.170 
+and so the interesting bits are here the
+cat<00:02:08.840> camera<00:02:09.590> capture<00:02:10.069> you<00:02:10.310> I<00:02:10.340> create<00:02:10.970> a<00:02:11.000> new
+
+00:02:11.170 --> 00:02:11.180 
+cat camera capture you I create a new
+
+00:02:11.180 --> 00:02:13.420 
+cat camera capture you I create a new
+camera<00:02:11.480> capture<00:02:11.870> UI<00:02:12.050> object<00:02:12.650> associated
+
+00:02:13.420 --> 00:02:13.430 
+camera capture UI object associated
+
+00:02:13.430 --> 00:02:15.250 
+camera capture UI object associated
+capabilities<00:02:14.330> webcam<00:02:14.780> and<00:02:14.930> mic
+
+00:02:15.250 --> 00:02:15.260 
+capabilities webcam and mic
+
+00:02:15.260 --> 00:02:17.020 
+capabilities webcam and mic
+phone<00:02:15.379> okay<00:02:15.680> that's<00:02:15.890> interesting<00:02:16.010> and<00:02:16.489> so
+
+00:02:17.020 --> 00:02:17.030 
+phone okay that's interesting and so
+
+00:02:17.030 --> 00:02:20.949 
+phone okay that's interesting and so
+then<00:02:17.239> capture<00:02:17.750> file<00:02:18.019> a<00:02:18.349> sink<00:02:18.939> is<00:02:19.939> awaited<00:02:20.750> so
+
+00:02:20.949 --> 00:02:20.959 
+then capture file a sink is awaited so
+
+00:02:20.959 --> 00:02:26.920 
+then capture file a sink is awaited so
+we're<00:02:21.140> going<00:02:21.379> to<00:02:21.680> expect<00:02:22.220> back<00:02:22.640> a<00:02:25.480> task<00:02:26.480> of
+
+00:02:26.920 --> 00:02:26.930 
+we're going to expect back a task of
+
+00:02:26.930 --> 00:02:33.220 
+we're going to expect back a task of
+type<00:02:27.890> storage<00:02:28.549> file<00:02:29.950> okay<00:02:30.950> and<00:02:31.540> then<00:02:32.540> if<00:02:32.989> the
+
+00:02:33.220 --> 00:02:33.230 
+type storage file okay and then if the
+
+00:02:33.230 --> 00:02:35.259 
+type storage file okay and then if the
+files<00:02:33.440> not<00:02:33.709> know<00:02:34.010> then<00:02:34.400> we're<00:02:34.579> going<00:02:34.760> to<00:02:34.849> show
+
+00:02:35.259 --> 00:02:35.269 
+files not know then we're going to show
+
+00:02:35.269 --> 00:02:39.069 
+files not know then we're going to show
+the<00:02:35.450> share<00:02:35.690> you<00:02:35.900> I<00:02:35.930> great<00:02:37.750> alright<00:02:38.750> let's<00:02:38.959> see
+
+00:02:39.069 --> 00:02:39.079 
+the share you I great alright let's see
+
+00:02:39.079 --> 00:02:41.979 
+the share you I great alright let's see
+what<00:02:39.200> else<00:02:39.230> we<00:02:39.890> need<00:02:40.159> to<00:02:40.220> do<00:02:40.400> here<00:02:40.810> replace<00:02:41.810> the
+
+00:02:41.979 --> 00:02:41.989 
+what else we need to do here replace the
+
+00:02:41.989 --> 00:02:44.140 
+what else we need to do here replace the
+on<00:02:42.140> data<00:02:42.530> requested<00:02:43.129> method<00:02:43.489> which<00:02:43.609> you<00:02:43.700> added
+
+00:02:44.140 --> 00:02:44.150 
+on data requested method which you added
+
+00:02:44.150 --> 00:02:47.020 
+on data requested method which you added
+to<00:02:45.049> the<00:02:45.230> items<00:02:45.590> detail<00:02:46.010> page<00:02:46.280> in<00:02:46.640> the<00:02:46.730> previous
+
+00:02:47.020 --> 00:02:47.030 
+to the items detail page in the previous
+
+00:02:47.030 --> 00:02:49.270 
+to the items detail page in the previous
+lab<00:02:47.299> with<00:02:47.569> the<00:02:47.659> one<00:02:47.810> below<00:02:48.109> these<00:02:48.769> changes<00:02:49.010> are
+
+00:02:49.270 --> 00:02:49.280 
+lab with the one below these changes are
+
+00:02:49.280 --> 00:02:52.509 
+lab with the one below these changes are
+needed<00:02:49.430> to<00:02:49.609> share<00:02:49.879> a<00:02:50.120> recipe<00:02:50.480> if<00:02:51.049> photo<00:02:52.010> is<00:02:52.280> no
+
+00:02:52.509 --> 00:02:52.519 
+needed to share a recipe if photo is no
+
+00:02:52.519 --> 00:02:55.149 
+needed to share a recipe if photo is no
+or<00:02:52.849> share<00:02:53.299> a<00:02:53.329> photo<00:02:53.629> if<00:02:53.959> it's<00:02:54.170> not<00:02:54.349> know<00:02:54.590> okay
+
+00:02:55.149 --> 00:02:55.159 
+or share a photo if it's not know okay
+
+00:02:55.159 --> 00:02:58.509 
+or share a photo if it's not know okay
+so<00:02:55.760> either<00:02:56.120> we're<00:02:56.450> sharing<00:02:56.870> a<00:02:57.200> recipe<00:02:58.190> or
+
+00:02:58.509 --> 00:02:58.519 
+so either we're sharing a recipe or
+
+00:02:58.519 --> 00:03:01.210 
+so either we're sharing a recipe or
+we're<00:02:59.060> sharing<00:02:59.629> a<00:02:59.840> photo<00:03:00.290> that<00:03:00.799> we're<00:03:01.010> taking
+
+00:03:01.210 --> 00:03:01.220 
+we're sharing a photo that we're taking
+
+00:03:01.220 --> 00:03:03.490 
+we're sharing a photo that we're taking
+of<00:03:01.579> a<00:03:01.760> recipe<00:03:02.239> so<00:03:02.870> we're<00:03:03.019> going<00:03:03.079> to<00:03:03.200> just<00:03:03.260> go
+
+00:03:03.490 --> 00:03:03.500 
+of a recipe so we're going to just go
+
+00:03:03.500 --> 00:03:04.960 
+of a recipe so we're going to just go
+ahead<00:03:03.590> and<00:03:03.680> blow<00:03:04.010> away<00:03:04.040> that<00:03:04.400> on<00:03:04.549> data
+
+00:03:04.960 --> 00:03:04.970 
+ahead and blow away that on data
+
+00:03:04.970 --> 00:03:06.039 
+ahead and blow away that on data
+requested<00:03:05.540> work<00:03:05.720> that<00:03:05.900> we've<00:03:06.019> done
+
+00:03:06.039 --> 00:03:06.049 
+requested work that we've done
+
+00:03:06.049 --> 00:03:11.020 
+requested work that we've done
+previously<00:03:07.629> here<00:03:08.739> and<00:03:09.739> we're<00:03:10.609> going<00:03:10.700> to<00:03:10.760> paste
+
+00:03:11.020 --> 00:03:11.030 
+previously here and we're going to paste
+
+00:03:11.030 --> 00:03:13.629 
+previously here and we're going to paste
+in<00:03:11.269> the<00:03:11.299> new<00:03:11.629> version<00:03:11.840> and<00:03:12.260> so<00:03:13.069> you<00:03:13.129> can<00:03:13.340> see
+
+00:03:13.629 --> 00:03:13.639 
+in the new version and so you can see
+
+00:03:13.639 --> 00:03:19.930 
+in the new version and so you can see
+that<00:03:13.879> check<00:03:14.599> if<00:03:15.200> the<00:03:16.129> photo<00:03:18.639> that<00:03:19.639> we've<00:03:19.790> added
+
+00:03:19.930 --> 00:03:19.940 
+that check if the photo that we've added
+
+00:03:19.940 --> 00:03:23.530 
+that check if the photo that we've added
+here<00:03:21.160> after<00:03:22.160> it's<00:03:22.220> been<00:03:22.400> taken<00:03:22.849> is<00:03:23.000> not<00:03:23.239> know
+
+00:03:23.530 --> 00:03:23.540 
+here after it's been taken is not know
+
+00:03:23.540 --> 00:03:26.140 
+here after it's been taken is not know
+then<00:03:24.109> we're<00:03:24.290> going<00:03:24.379> to<00:03:24.470> go<00:03:24.590> ahead<00:03:24.620> and<00:03:25.150> we're
+
+00:03:26.140 --> 00:03:26.150 
+then we're going to go ahead and we're
+
+00:03:26.150 --> 00:03:28.119 
+then we're going to go ahead and we're
+going<00:03:26.180> to<00:03:26.480> add<00:03:26.720> that<00:03:26.750> to<00:03:27.470> the<00:03:27.590> share<00:03:27.859> you<00:03:28.099> I
+
+00:03:28.119 --> 00:03:28.129 
+going to add that to the share you I
+
+00:03:28.129 --> 00:03:31.720 
+going to add that to the share you I
+otherwise<00:03:28.849> we<00:03:29.720> will<00:03:30.010> perform<00:03:31.010> the<00:03:31.340> code<00:03:31.549> that
+
+00:03:31.720 --> 00:03:31.730 
+otherwise we will perform the code that
+
+00:03:31.730 --> 00:03:33.819 
+otherwise we will perform the code that
+we<00:03:31.819> already<00:03:32.359> had<00:03:32.629> in<00:03:32.840> from<00:03:33.109> a<00:03:33.199> previous<00:03:33.590> lab
+
+00:03:33.819 --> 00:03:33.829 
+we already had in from a previous lab
+
+00:03:33.829 --> 00:03:36.369 
+we already had in from a previous lab
+which<00:03:34.549> gives<00:03:35.239> us<00:03:35.449> the<00:03:35.599> ingredients<00:03:36.260> the
+
+00:03:36.369 --> 00:03:36.379 
+which gives us the ingredients the
+
+00:03:36.379 --> 00:03:41.349 
+which gives us the ingredients the
+directions<00:03:36.919> and<00:03:37.220> the<00:03:37.910> photo<00:03:38.209> from<00:03:38.780> our<00:03:40.359> from
+
+00:03:41.349 --> 00:03:41.359 
+directions and the photo from our from
+
+00:03:41.359 --> 00:03:46.390 
+directions and the photo from our from
+our<00:03:41.449> project<00:03:42.019> from<00:03:42.680> our<00:03:42.859> app<00:03:43.010> okay<00:03:44.500> all<00:03:45.500> right
+
+00:03:46.390 --> 00:03:46.400 
+our project from our app okay all right
+
+00:03:46.400 --> 00:03:49.780 
+our project from our app okay all right
+let's<00:03:46.579> see<00:03:46.730> what<00:03:46.760> else<00:03:46.940> we<00:03:47.120> need<00:03:47.269> here<00:03:48.730> okay<00:03:49.730> so
+
+00:03:49.780 --> 00:03:49.790 
+let's see what else we need here okay so
+
+00:03:49.790 --> 00:03:52.360 
+let's see what else we need here okay so
+the<00:03:50.060> next<00:03:50.090> step<00:03:50.480> is<00:03:50.720> to<00:03:50.780> run<00:03:51.109> the<00:03:51.230> app<00:03:51.379> but<00:03:52.190> this
+
+00:03:52.360 --> 00:03:52.370 
+the next step is to run the app but this
+
+00:03:52.370 --> 00:03:54.069 
+the next step is to run the app but this
+is<00:03:52.519> merely<00:03:52.819> to<00:03:53.060> show<00:03:53.269> that<00:03:53.480> it<00:03:53.629> won't<00:03:53.870> work
+
+00:03:54.069 --> 00:03:54.079 
+is merely to show that it won't work
+
+00:03:54.079 --> 00:03:57.460 
+is merely to show that it won't work
+until<00:03:54.470> we<00:03:55.129> set<00:03:55.370> the<00:03:55.489> package<00:03:56.030> apex<00:03:56.840> manifest
+
+00:03:57.460 --> 00:03:57.470 
+until we set the package apex manifest
+
+00:03:57.470 --> 00:04:00.460 
+until we set the package apex manifest
+capabilities<00:03:58.430> to<00:03:58.609> request<00:03:59.030> permission<00:03:59.690> for
+
+00:04:00.460 --> 00:04:00.470 
+capabilities to request permission for
+
+00:04:00.470 --> 00:04:03.789 
+capabilities to request permission for
+use<00:04:00.889> of<00:04:01.159> the<00:04:01.430> users<00:04:01.819> web<00:04:02.060> cam<00:04:02.470> so<00:04:03.470> let's<00:04:03.650> go
+
+00:04:03.789 --> 00:04:03.799 
+use of the users web cam so let's go
+
+00:04:03.799 --> 00:04:05.890 
+use of the users web cam so let's go
+ahead<00:04:03.829> and<00:04:04.010> open<00:04:04.190> up<00:04:04.430> the<00:04:04.489> package<00:04:04.909> apex
+
+00:04:05.890 --> 00:04:05.900 
+ahead and open up the package apex
+
+00:04:05.900 --> 00:04:09.460 
+ahead and open up the package apex
+manifest<00:04:06.500> designer<00:04:07.629> now<00:04:08.629> we'll<00:04:08.870> flip<00:04:09.109> over<00:04:09.440> to
+
+00:04:09.460 --> 00:04:09.470 
+manifest designer now we'll flip over to
+
+00:04:09.470 --> 00:04:13.240 
+manifest designer now we'll flip over to
+the<00:04:09.739> capabilities<00:04:10.370> tab<00:04:10.669> and<00:04:11.229> modify<00:04:12.250> the
+
+00:04:13.240 --> 00:04:13.250 
+the capabilities tab and modify the
+
+00:04:13.250 --> 00:04:15.369 
+the capabilities tab and modify the
+capabilities<00:04:13.970> so<00:04:14.239> that<00:04:14.269> our<00:04:14.479> app<00:04:14.690> will<00:04:15.049> ask
+
+00:04:15.369 --> 00:04:15.379 
+capabilities so that our app will ask
+
+00:04:15.379 --> 00:04:17.890 
+capabilities so that our app will ask
+windows<00:04:15.949> 8<00:04:16.130> for<00:04:16.340> permission<00:04:16.880> from<00:04:17.510> the<00:04:17.690> user
+
+00:04:17.890 --> 00:04:17.900 
+windows 8 for permission from the user
+
+00:04:17.900 --> 00:04:22.330 
+windows 8 for permission from the user
+to<00:04:18.199> use<00:04:18.500> the<00:04:18.769> webcam<00:04:20.560> okay<00:04:21.560> so<00:04:21.620> now<00:04:21.949> that<00:04:21.979> we've
+
+00:04:22.330 --> 00:04:22.340 
+to use the webcam okay so now that we've
+
+00:04:22.340 --> 00:04:24.370 
+to use the webcam okay so now that we've
+done<00:04:22.520> all<00:04:22.699> that<00:04:22.729> let's<00:04:23.270> go<00:04:23.450> ahead<00:04:23.479> and<00:04:23.719> run<00:04:24.229> the
+
+00:04:24.370 --> 00:04:24.380 
+done all that let's go ahead and run the
+
+00:04:24.380 --> 00:04:28.320 
+done all that let's go ahead and run the
+app
+
+00:04:28.320 --> 00:04:28.330 
+
+00:04:28.330 --> 00:04:33.089 
+
+and<00:04:30.060> we're<00:04:31.060> going<00:04:31.419> to<00:04:31.750> right<00:04:32.319> click<00:04:32.349> open<00:04:32.979> up
+
+00:04:33.089 --> 00:04:33.099 
+and we're going to right click open up
+
+00:04:33.099 --> 00:04:36.570 
+and we're going to right click open up
+the<00:04:33.220> Bragg<00:04:33.490> select<00:04:34.240> photo<00:04:34.539> and<00:04:35.020> it<00:04:35.889> asks<00:04:36.310> can
+
+00:04:36.570 --> 00:04:36.580 
+the Bragg select photo and it asks can
+
+00:04:36.580 --> 00:04:38.760 
+the Bragg select photo and it asks can
+Contessa<00:04:36.939> cookbook<00:04:37.330> use<00:04:37.509> your<00:04:37.659> webcam<00:04:37.840> yes
+
+00:04:38.760 --> 00:04:38.770 
+Contessa cookbook use your webcam yes
+
+00:04:38.770 --> 00:04:42.149 
+Contessa cookbook use your webcam yes
+allow<00:04:39.159> it<00:04:39.370> and<00:04:40.680> you<00:04:41.680> can<00:04:41.770> click<00:04:41.889> anywhere
+
+00:04:42.149 --> 00:04:42.159 
+allow it and you can click anywhere
+
+00:04:42.159 --> 00:04:44.580 
+allow it and you can click anywhere
+inside<00:04:42.370> here<00:04:42.789> and<00:04:43.449> now<00:04:43.990> we've<00:04:44.139> got<00:04:44.259> a<00:04:44.289> crazy
+
+00:04:44.580 --> 00:04:44.590 
+inside here and now we've got a crazy
+
+00:04:44.590 --> 00:04:47.010 
+inside here and now we've got a crazy
+picture<00:04:44.979> and<00:04:45.849> we're<00:04:45.969> gonna<00:04:46.060> say<00:04:46.330> let's<00:04:46.750> crop
+
+00:04:47.010 --> 00:04:47.020 
+picture and we're gonna say let's crop
+
+00:04:47.020 --> 00:04:54.270 
+picture and we're gonna say let's crop
+it<00:04:47.199> and<00:04:47.699> just<00:04:49.680> that's<00:04:50.680> scary<00:04:53.099> alright<00:04:54.099> and
+
+00:04:54.270 --> 00:04:54.280 
+it and just that's scary alright and
+
+00:04:54.280 --> 00:04:57.779 
+it and just that's scary alright and
+we'll<00:04:54.610> click<00:04:54.819> OK<00:04:55.120> and<00:04:56.069> we<00:04:57.069> can<00:04:57.250> share<00:04:57.490> it<00:04:57.669> out
+
+00:04:57.779 --> 00:04:57.789 
+we'll click OK and we can share it out
+
+00:04:57.789 --> 00:05:01.980 
+we'll click OK and we can share it out
+then<00:04:58.120> up<00:04:58.900> with<00:04:59.199> the<00:04:59.349> share<00:04:59.610> target<00:05:00.610> app<00:05:00.990> for
+
+00:05:01.980 --> 00:05:01.990 
+then up with the share target app for
+
+00:05:01.990 --> 00:05:05.760 
+then up with the share target app for
+example<00:05:02.020> okay<00:05:03.840> all<00:05:04.840> right<00:05:05.080> there<00:05:05.379> we<00:05:05.409> go
+
+00:05:05.760 --> 00:05:05.770 
+example okay all right there we go
+
+00:05:05.770 --> 00:05:07.619 
+example okay all right there we go
+that's<00:05:06.550> about<00:05:06.819> the<00:05:06.969> craziest<00:05:07.330> thing<00:05:07.509> I've
+
+00:05:07.619 --> 00:05:07.629 
+that's about the craziest thing I've
+
+00:05:07.629 --> 00:05:10.260 
+that's about the craziest thing I've
+seen<00:05:07.810> in<00:05:07.960> quite<00:05:08.110> some<00:05:08.409> time<00:05:08.440> all<00:05:09.099> right<00:05:09.310> so<00:05:10.120> now
+
+00:05:10.260 --> 00:05:10.270 
+seen in quite some time all right so now
+
+00:05:10.270 --> 00:05:14.070 
+seen in quite some time all right so now
+let's<00:05:10.449> go<00:05:10.599> back<00:05:10.629> to<00:05:10.840> the<00:05:11.199> instructions<00:05:11.740> of<00:05:13.080> of
+
+00:05:14.070 --> 00:05:14.080 
+let's go back to the instructions of of
+
+00:05:14.080 --> 00:05:20.550 
+let's go back to the instructions of of
+our<00:05:14.590> lab<00:05:15.520> here<00:05:17.250> alright<00:05:18.250> so<00:05:19.000> um<00:05:19.300> it<00:05:20.050> says<00:05:20.289> so
+
+00:05:20.550 --> 00:05:20.560 
+our lab here alright so um it says so
+
+00:05:20.560 --> 00:05:22.170 
+our lab here alright so um it says so
+when<00:05:20.770> the<00:05:20.889> share<00:05:21.099> you<00:05:21.279> i<00:05:21.400> appear<00:05:21.759> select<00:05:21.969> to
+
+00:05:22.170 --> 00:05:22.180 
+when the share you i appear select to
+
+00:05:22.180 --> 00:05:24.360 
+when the share you i appear select to
+share<00:05:22.210> target<00:05:22.810> and<00:05:23.080> confirm<00:05:23.919> that<00:05:24.069> the<00:05:24.190> photo
+
+00:05:24.360 --> 00:05:24.370 
+share target and confirm that the photo
+
+00:05:24.370 --> 00:05:27.149 
+share target and confirm that the photo
+you<00:05:24.460> just<00:05:24.669> captured<00:05:25.090> we're<00:05:25.389> good<00:05:25.599> there<00:05:25.900> ok<00:05:26.620> so
+
+00:05:27.149 --> 00:05:27.159 
+you just captured we're good there ok so
+
+00:05:27.159 --> 00:05:28.649 
+you just captured we're good there ok so
+you<00:05:27.250> can't<00:05:27.430> see<00:05:27.610> me<00:05:27.759> right<00:05:27.789> now<00:05:28.090> and<00:05:28.449> that's
+
+00:05:28.649 --> 00:05:28.659 
+you can't see me right now and that's
+
+00:05:28.659 --> 00:05:29.790 
+you can't see me right now and that's
+probably<00:05:28.840> good<00:05:29.139> thing<00:05:29.289> i<00:05:29.349> may<00:05:29.529> have<00:05:29.590> scared
+
+00:05:29.790 --> 00:05:29.800 
+probably good thing i may have scared
+
+00:05:29.800 --> 00:05:32.129 
+probably good thing i may have scared
+you<00:05:29.979> off<00:05:30.009> after<00:05:30.340> that<00:05:30.490> picture<00:05:30.789> but<00:05:31.569> we'll
+
+00:05:32.129 --> 00:05:32.139 
+you off after that picture but we'll
+
+00:05:32.139 --> 00:05:33.749 
+you off after that picture but we'll
+pick<00:05:32.349> it<00:05:32.379> back<00:05:32.560> up<00:05:32.620> in<00:05:32.889> the<00:05:33.069> next<00:05:33.250> lesson<00:05:33.430> where
+
+00:05:33.749 --> 00:05:33.759 
+pick it back up in the next lesson where
+
+00:05:33.759 --> 00:05:35.730 
+pick it back up in the next lesson where
+we're<00:05:33.879> going<00:05:34.000> to<00:05:34.060> add<00:05:34.210> video<00:05:34.599> oh<00:05:34.930> oh<00:05:35.259> maybe
+
+00:05:35.730 --> 00:05:35.740 
+we're going to add video oh oh maybe
+
+00:05:35.740 --> 00:05:37.260 
+we're going to add video oh oh maybe
+i'll<00:05:35.889> get<00:05:36.009> my<00:05:36.159> cat<00:05:36.430> or<00:05:36.639> somebody<00:05:36.969> to<00:05:37.029> help<00:05:37.180> me
+
+00:05:37.260 --> 00:05:37.270 
+i'll get my cat or somebody to help me
+
+00:05:37.270 --> 00:05:38.879 
+i'll get my cat or somebody to help me
+out<00:05:37.449> all<00:05:37.690> right<00:05:38.139> we'll<00:05:38.229> see<00:05:38.379> you<00:05:38.409> then<00:05:38.590> thank
+
+00:05:38.879 --> 00:05:38.889 
+out all right we'll see you then thank
+
+00:05:38.889 --> 00:05:44.930 
+out all right we'll see you then thank
+you
+
+00:05:44.930 --> 00:05:44.940 
+
+00:05:44.940 --> 00:05:47.000 
+
+you
+

@@ -1,0 +1,179 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.200 --> 00:00:06.839
+Researchers from the University of California,
+Berkeley have developed a new ‘deep learning’
+
+00:00:06.839 --> 00:00:13.389
+technique that enables robots to learn motor
+tasks through trial and error using a process
+
+00:00:13.389 --> 00:00:19.880
+that more closely approximates the way humans
+learn, marking a major milestone in the field
+
+00:00:19.880 --> 00:00:22.310
+of artificial intelligence.
+
+00:00:22.310 --> 00:00:27.860
+They demonstrated their technique, a type
+of reinforcement learning, by having a robot
+
+00:00:27.860 --> 00:00:34.260
+complete various tasks — putting a clothes
+hanger on a rack, assembling a toy plane,
+
+00:00:34.260 --> 00:00:40.320
+screwing a cap on a water bottle, and more
+— without pre-programmed details about its
+
+00:00:40.320 --> 00:00:41.320
+surroundings.
+
+00:00:41.320 --> 00:00:48.350
+The challenge of putting robots into real-life
+settings, like homes or offices, is that those
+
+00:00:48.350 --> 00:00:50.730
+environments are constantly changing.
+
+00:00:50.730 --> 00:00:56.170
+The robot must be able to perceive and adapt
+to its surroundings
+
+00:00:56.170 --> 00:01:01.040
+There are various Conventional approaches
+for helping a robot make its way through a
+
+00:01:01.040 --> 00:01:02.040
+3D world.
+
+00:01:02.040 --> 00:01:08.700
+One approach is pre-programming the robot
+to handle the vast range of possible scenarios,
+
+00:01:08.700 --> 00:01:14.510
+and another approach is creating simulated
+environments within which the robot operates.
+
+00:01:14.510 --> 00:01:17.810
+But these approaches are impractical.
+
+00:01:17.810 --> 00:01:23.369
+So now the UC Berkeley researchers turned
+to a new branch of artificial intelligence
+
+00:01:23.369 --> 00:01:30.279
+known as deep learning, which is loosely inspired
+by the neural circuitry of the human brain
+
+00:01:30.279 --> 00:01:33.390
+when it perceives and interacts with the world.
+
+00:01:33.390 --> 00:01:38.969
+In the world of artificial intelligence, deep
+learning programs create “neural nets”
+
+00:01:38.969 --> 00:01:45.429
+in which layers of artificial neurons process
+overlapping raw sensory data, whether it be
+
+00:01:45.429 --> 00:01:48.170
+sound waves or image pixels.
+
+00:01:48.170 --> 00:01:55.729
+This helps the robot recognize patterns and
+categories among the data it is receiving.
+
+00:01:55.729 --> 00:02:02.389
+People who use Siri on their iPhones, Google’s
+speech-to-text program or Google Street View
+
+00:02:02.389 --> 00:02:08.780
+might already have benefited from the significant
+advances deep learning has provided in speech
+
+00:02:08.780 --> 00:02:10.289
+and vision recognition.
+
+00:02:10.289 --> 00:02:16.200
+In the experiments, the UC Berkeley researchers
+worked with a Willow Garage Personal Robot
+
+00:02:16.200 --> 00:02:25.989
+2 (PR2), which they nicknamed BRETT, B.R.E.T.T
+ie Berkeley Robot for the Elimination of Tedious
+
+00:02:25.989 --> 00:02:26.989
+Tasks.
+
+00:02:26.989 --> 00:02:32.819
+They presented BRETT with a series of motor
+tasks, such as placing blocks into matching
+
+00:02:32.819 --> 00:02:36.019
+openings or stacking Lego blocks.
+
+00:02:36.019 --> 00:02:41.590
+The algorithm controlling BRETT’s learning
+included a reward function that provided a
+
+00:02:41.590 --> 00:02:45.769
+score based upon how well the robot was doing
+with the task.
+
+00:02:45.769 --> 00:02:51.810
+BRETT takes in the scene, including the position
+of its own arms and hands, as viewed by the
+
+00:02:51.810 --> 00:02:52.940
+camera.
+
+00:02:52.940 --> 00:02:59.280
+The algorithm provides real-time feedback
+via the score based upon the robot’s movements.
+
+00:02:59.280 --> 00:03:05.819
+Movements that bring the robot closer to completing
+the task will score higher than those that
+
+00:03:05.819 --> 00:03:06.819
+do not.
+
+00:03:06.819 --> 00:03:10.629
+The score feeds back through the neural net,
+so the robot can learn which movements are
+
+00:03:10.629 --> 00:03:13.260
+better for the task at hand.
+
+00:03:13.260 --> 00:03:18.989
+This end-to-end training process underlies
+the robot’s ability to learn on its own.
+
+00:03:18.989 --> 00:03:25.159
+As the PR2 moves its joints and manipulates
+objects, the algorithm calculates good values
+
+00:03:25.159 --> 00:03:29.609
+for the 92,000 parameters of the neural net
+it needs to learn.
+
+00:03:29.609 --> 00:03:35.959
+With this approach, when given the relevant
+coordinates for the beginning and end of the
+
+00:03:35.959 --> 00:03:41.370
+task, the PR2 could master a typical assignment
+in about 10 minutes.
+
+00:03:41.370 --> 00:03:46.260
+When the robot is not given the location for
+the objects in the scene and needs to learn
+
+00:03:46.260 --> 00:03:49.699
+vision and control together, the learning
+process takes about three hours.
+

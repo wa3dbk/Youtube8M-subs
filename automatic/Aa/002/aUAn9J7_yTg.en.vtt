@@ -1,0 +1,1131 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.100 --> 00:00:03.830 
+
+hi<00:00:02.100> guys<00:00:02.280> I'm<00:00:02.790> going<00:00:03.330> to<00:00:03.419> show<00:00:03.540> you<00:00:03.600> how<00:00:03.689> to
+
+00:00:03.830 --> 00:00:03.840 
+hi guys I'm going to show you how to
+
+00:00:03.840 --> 00:00:06.410 
+hi guys I'm going to show you how to
+build<00:00:04.560> an<00:00:04.950> item<00:00:05.549> sorting<00:00:05.879> device<00:00:06.089> like<00:00:06.330> the
+
+00:00:06.410 --> 00:00:06.420 
+build an item sorting device like the
+
+00:00:06.420 --> 00:00:07.760 
+build an item sorting device like the
+one<00:00:06.540> that's<00:00:06.750> running<00:00:06.899> in<00:00:07.170> front<00:00:07.410> of<00:00:07.529> me<00:00:07.589> here
+
+00:00:07.760 --> 00:00:07.770 
+one that's running in front of me here
+
+00:00:07.770 --> 00:00:11.150 
+one that's running in front of me here
+today<00:00:07.950> and<00:00:08.330> it's<00:00:09.330> currently<00:00:09.510> sorting<00:00:10.160> just
+
+00:00:11.150 --> 00:00:11.160 
+today and it's currently sorting just
+
+00:00:11.160 --> 00:00:12.860 
+today and it's currently sorting just
+tree<00:00:11.429> items<00:00:11.790> but<00:00:12.120> I'll<00:00:12.240> talk<00:00:12.450> you<00:00:12.480> through<00:00:12.599> two
+
+00:00:12.860 --> 00:00:12.870 
+tree items but I'll talk you through two
+
+00:00:12.870 --> 00:00:14.570 
+tree items but I'll talk you through two
+different<00:00:12.990> components<00:00:13.740> that<00:00:13.889> are<00:00:13.950> used<00:00:14.309> to
+
+00:00:14.570 --> 00:00:14.580 
+different components that are used to
+
+00:00:14.580 --> 00:00:16.930 
+different components that are used to
+build<00:00:14.790> it<00:00:14.969> and<00:00:15.150> exactly<00:00:15.870> how<00:00:16.049> they<00:00:16.230> work<00:00:16.410> and
+
+00:00:16.930 --> 00:00:16.940 
+build it and exactly how they work and
+
+00:00:16.940 --> 00:00:18.950 
+build it and exactly how they work and
+then<00:00:17.940> talk<00:00:18.180> you<00:00:18.300> through<00:00:18.480> the<00:00:18.660> actual
+
+00:00:18.950 --> 00:00:18.960 
+then talk you through the actual
+
+00:00:18.960 --> 00:00:21.439 
+then talk you through the actual
+construction<00:00:19.230> of<00:00:19.560> it<00:00:19.910> so<00:00:20.910> we'll<00:00:21.060> come<00:00:21.180> back<00:00:21.330> to
+
+00:00:21.439 --> 00:00:21.449 
+construction of it so we'll come back to
+
+00:00:21.449 --> 00:00:23.840 
+construction of it so we'll come back to
+this<00:00:21.480> in<00:00:21.810> a<00:00:22.080> little<00:00:22.199> while<00:00:22.500> next<00:00:23.010> I'll<00:00:23.490> turn<00:00:23.730> it
+
+00:00:23.840 --> 00:00:23.850 
+this in a little while next I'll turn it
+
+00:00:23.850 --> 00:00:27.470 
+this in a little while next I'll turn it
+off<00:00:23.970> just<00:00:24.180> ran<00:00:24.420> out<00:00:24.740> so<00:00:25.740> patch<00:00:26.160> 1.5<00:00:26.730> added<00:00:27.420> a
+
+00:00:27.470 --> 00:00:27.480 
+off just ran out so patch 1.5 added a
+
+00:00:27.480 --> 00:00:30.620 
+off just ran out so patch 1.5 added a
+few<00:00:27.660> new<00:00:27.720> items<00:00:28.019> we<00:00:28.800> have<00:00:28.830> the<00:00:29.609> hopper<00:00:30.359> which
+
+00:00:30.620 --> 00:00:30.630 
+few new items we have the hopper which
+
+00:00:30.630 --> 00:00:34.760 
+few new items we have the hopper which
+has<00:00:31.130> five<00:00:32.130> iron<00:00:32.340> ingots<00:00:32.759> and<00:00:33.000> a<00:00:33.329> chest<00:00:33.770> the
+
+00:00:34.760 --> 00:00:34.770 
+has five iron ingots and a chest the
+
+00:00:34.770 --> 00:00:38.180 
+has five iron ingots and a chest the
+comparator<00:00:35.640> which<00:00:35.670> has<00:00:36.530> three<00:00:37.530> redstone
+
+00:00:38.180 --> 00:00:38.190 
+comparator which has three redstone
+
+00:00:38.190 --> 00:00:40.970 
+comparator which has three redstone
+torches<00:00:38.579> three<00:00:39.390> stone<00:00:39.690> and<00:00:40.020> a<00:00:40.350> nether<00:00:40.680> quartz
+
+00:00:40.970 --> 00:00:40.980 
+torches three stone and a nether quartz
+
+00:00:40.980 --> 00:00:42.680 
+torches three stone and a nether quartz
+you'll<00:00:41.520> need<00:00:41.700> to<00:00:41.790> get<00:00:41.940> yourself<00:00:42.059> into<00:00:42.510> the
+
+00:00:42.680 --> 00:00:42.690 
+you'll need to get yourself into the
+
+00:00:42.690 --> 00:00:44.060 
+you'll need to get yourself into the
+nether<00:00:42.930> to<00:00:43.140> get<00:00:43.260> that<00:00:43.379> but<00:00:43.649> once<00:00:43.800> you<00:00:43.920> do
+
+00:00:44.060 --> 00:00:44.070 
+nether to get that but once you do
+
+00:00:44.070 --> 00:00:45.529 
+nether to get that but once you do
+there's<00:00:44.280> an<00:00:44.370> awful<00:00:44.610> lot<00:00:44.640> of<00:00:44.760> Metro<00:00:45.180> Court<00:00:45.420> or
+
+00:00:45.529 --> 00:00:45.539 
+there's an awful lot of Metro Court or
+
+00:00:45.539 --> 00:00:47.090 
+there's an awful lot of Metro Court or
+they're<00:00:45.870> so<00:00:46.170> it's<00:00:46.200> easy<00:00:46.469> enough<00:00:46.590> to<00:00:46.710> come<00:00:46.950> by
+
+00:00:47.090 --> 00:00:47.100 
+they're so it's easy enough to come by
+
+00:00:47.100 --> 00:00:50.450 
+they're so it's easy enough to come by
+and<00:00:48.110> for<00:00:49.110> the<00:00:49.170> purposes<00:00:49.500> of<00:00:49.559> explaining<00:00:50.340> some
+
+00:00:50.450 --> 00:00:50.460 
+and for the purposes of explaining some
+
+00:00:50.460 --> 00:00:52.220 
+and for the purposes of explaining some
+of<00:00:50.489> the<00:00:50.610> items<00:00:50.730> I'm<00:00:51.180> going<00:00:51.510> to<00:00:51.600> use<00:00:51.750> this<00:00:51.930> item
+
+00:00:52.220 --> 00:00:52.230 
+of the items I'm going to use this item
+
+00:00:52.230 --> 00:00:53.869 
+of the items I'm going to use this item
+which<00:00:52.350> is<00:00:52.500> the<00:00:52.620> daylight<00:00:52.920> detector<00:00:53.399> basically
+
+00:00:53.869 --> 00:00:53.879 
+which is the daylight detector basically
+
+00:00:53.879 --> 00:00:56.180 
+which is the daylight detector basically
+it<00:00:54.750> will<00:00:54.960> send<00:00:55.440> out<00:00:55.530> a<00:00:55.590> redstone<00:00:55.890> signal
+
+00:00:56.180 --> 00:00:56.190 
+it will send out a redstone signal
+
+00:00:56.190 --> 00:00:59.660 
+it will send out a redstone signal
+during<00:00:56.730> the<00:00:57.030> daytime<00:00:57.530> so<00:00:58.530> for<00:00:58.710> that<00:00:58.800> it's<00:00:59.070> tree
+
+00:00:59.660 --> 00:00:59.670 
+during the daytime so for that it's tree
+
+00:00:59.670 --> 00:01:01.900 
+during the daytime so for that it's tree
+wooden<00:00:59.969> slabs<00:01:00.239> tree<00:01:00.690> nether<00:01:00.930> quartz<00:01:01.260> and
+
+00:01:01.900 --> 00:01:01.910 
+wooden slabs tree nether quartz and
+
+00:01:01.910 --> 00:01:06.109 
+wooden slabs tree nether quartz and
+three<00:01:02.910> glass<00:01:03.510> blocks<00:01:04.040> so<00:01:05.040> the<00:01:05.700> hopper<00:01:05.970> will
+
+00:01:06.109 --> 00:01:06.119 
+three glass blocks so the hopper will
+
+00:01:06.119 --> 00:01:08.240 
+three glass blocks so the hopper will
+basically<00:01:06.450> if<00:01:06.840> there's<00:01:07.320> items<00:01:07.680> above<00:01:07.920> it<00:01:08.070> it
+
+00:01:08.240 --> 00:01:08.250 
+basically if there's items above it it
+
+00:01:08.250 --> 00:01:10.850 
+basically if there's items above it it
+will<00:01:08.340> attempt<00:01:08.760> to<00:01:08.850> suck<00:01:09.119> them<00:01:09.270> in<00:01:09.450> and<00:01:09.860> if
+
+00:01:10.850 --> 00:01:10.860 
+will attempt to suck them in and if
+
+00:01:10.860 --> 00:01:13.219 
+will attempt to suck them in and if
+there<00:01:11.369> is<00:01:11.460> a<00:01:11.490> container<00:01:12.119> below<00:01:12.540> it<00:01:12.600> will<00:01:12.990> push
+
+00:01:13.219 --> 00:01:13.229 
+there is a container below it will push
+
+00:01:13.229 --> 00:01:18.289 
+there is a container below it will push
+those<00:01:13.470> items<00:01:13.710> into<00:01:14.130> the<00:01:15.350> container<00:01:17.299> and
+
+00:01:18.289 --> 00:01:18.299 
+those items into the container and
+
+00:01:18.299 --> 00:01:19.609 
+those items into the container and
+that's<00:01:18.479> basically<00:01:18.689> what<00:01:19.080> it<00:01:19.110> does<00:01:19.200> but
+
+00:01:19.609 --> 00:01:19.619 
+that's basically what it does but
+
+00:01:19.619 --> 00:01:22.700 
+that's basically what it does but
+there's<00:01:19.830> an<00:01:20.070> additional<00:01:21.049> feature<00:01:22.049> that<00:01:22.500> when
+
+00:01:22.700 --> 00:01:22.710 
+there's an additional feature that when
+
+00:01:22.710 --> 00:01:25.399 
+there's an additional feature that when
+you<00:01:22.860> place<00:01:23.130> a<00:01:23.159> comparator<00:01:24.110> next<00:01:25.110> to<00:01:25.380> a
+
+00:01:25.399 --> 00:01:25.409 
+you place a comparator next to a
+
+00:01:25.409 --> 00:01:27.320 
+you place a comparator next to a
+container<00:01:25.890> and<00:01:26.159> in<00:01:26.400> this<00:01:26.520> instance<00:01:26.729> a<00:01:27.000> hopper
+
+00:01:27.320 --> 00:01:27.330 
+container and in this instance a hopper
+
+00:01:27.330 --> 00:01:30.260 
+container and in this instance a hopper
+the<00:01:27.560> comparator<00:01:28.560> sets<00:01:29.400> out<00:01:29.700> sends<00:01:30.150> out<00:01:30.240> a
+
+00:01:30.260 --> 00:01:30.270 
+the comparator sets out sends out a
+
+00:01:30.270 --> 00:01:34.130 
+the comparator sets out sends out a
+signal<00:01:30.509> based<00:01:31.290> on<00:01:31.619> the<00:01:31.770> percentage<00:01:32.070> and<00:01:33.140> fall
+
+00:01:34.130 --> 00:01:34.140 
+signal based on the percentage and fall
+
+00:01:34.140 --> 00:01:36.770 
+signal based on the percentage and fall
+that<00:01:34.650> the<00:01:34.860> container<00:01:35.250> is<00:01:35.520> so<00:01:36.240> at<00:01:36.479> the<00:01:36.600> moment
+
+00:01:36.770 --> 00:01:36.780 
+that the container is so at the moment
+
+00:01:36.780 --> 00:01:38.420 
+that the container is so at the moment
+this<00:01:37.200> comparator<00:01:37.710> is<00:01:37.799> sending<00:01:38.040> out<00:01:38.159> a<00:01:38.220> signal
+
+00:01:38.420 --> 00:01:38.430 
+this comparator is sending out a signal
+
+00:01:38.430 --> 00:01:40.160 
+this comparator is sending out a signal
+which<00:01:39.119> is<00:01:39.270> lighting<00:01:39.600> up<00:01:39.689> a<00:01:39.810> whole<00:01:39.960> load<00:01:40.140> of
+
+00:01:40.160 --> 00:01:40.170 
+which is lighting up a whole load of
+
+00:01:40.170 --> 00:01:43.700 
+which is lighting up a whole load of
+these<00:01:40.439> redstone<00:01:41.070> lamps<00:01:41.490> and<00:01:41.729> if<00:01:42.420> we<00:01:42.600> go<00:01:43.170> to<00:01:43.229> the
+
+00:01:43.700 --> 00:01:43.710 
+these redstone lamps and if we go to the
+
+00:01:43.710 --> 00:01:45.730 
+these redstone lamps and if we go to the
+hopper<00:01:44.040> and
+
+00:01:45.730 --> 00:01:45.740 
+hopper and
+
+00:01:45.740 --> 00:01:48.100 
+hopper and
+and<00:01:45.860> we<00:01:46.520> remove<00:01:46.970> some<00:01:47.390> of<00:01:47.420> those<00:01:47.540> items<00:01:47.810> you
+
+00:01:48.100 --> 00:01:48.110 
+and we remove some of those items you
+
+00:01:48.110 --> 00:01:49.990 
+and we remove some of those items you
+can<00:01:48.200> see<00:01:48.409> that<00:01:48.590> the<00:01:48.710> signal<00:01:49.040> is<00:01:49.369> less<00:01:49.700> strong
+
+00:01:49.990 --> 00:01:50.000 
+can see that the signal is less strong
+
+00:01:50.000 --> 00:01:52.359 
+can see that the signal is less strong
+so<00:01:50.240> we're<00:01:50.390> only<00:01:50.509> having<00:01:51.229> a<00:01:51.409> few<00:01:51.439> alarms<00:01:51.920> let<00:01:52.250> up
+
+00:01:52.359 --> 00:01:52.369 
+so we're only having a few alarms let up
+
+00:01:52.369 --> 00:01:56.440 
+so we're only having a few alarms let up
+and<00:01:52.850> it's<00:01:53.030> this<00:01:53.920> strength<00:01:54.920> to<00:01:55.450> percentage
+
+00:01:56.440 --> 00:01:56.450 
+and it's this strength to percentage
+
+00:01:56.450 --> 00:01:59.889 
+and it's this strength to percentage
+full<00:01:57.460> ratio<00:01:58.460> and<00:01:58.759> the<00:01:58.789> signal<00:01:59.270> being<00:01:59.539> sent<00:01:59.630> out
+
+00:01:59.889 --> 00:01:59.899 
+full ratio and the signal being sent out
+
+00:01:59.899 --> 00:02:02.800 
+full ratio and the signal being sent out
+that<00:02:00.530> the<00:02:00.890> sorter<00:02:01.670> actually<00:02:02.030> uses<00:02:02.420> and<00:02:02.689> we'll
+
+00:02:02.800 --> 00:02:02.810 
+that the sorter actually uses and we'll
+
+00:02:02.810 --> 00:02:04.179 
+that the sorter actually uses and we'll
+get<00:02:02.960> to<00:02:03.110> that<00:02:03.140> when<00:02:03.380> we<00:02:03.530> actually<00:02:03.619> demonstrate
+
+00:02:04.179 --> 00:02:04.189 
+get to that when we actually demonstrate
+
+00:02:04.189 --> 00:02:07.029 
+get to that when we actually demonstrate
+this<00:02:04.340> order<00:02:04.700> well<00:02:05.539> the<00:02:05.990> other<00:02:06.320> thing<00:02:06.560> which<00:02:06.860> we
+
+00:02:07.029 --> 00:02:07.039 
+this order well the other thing which we
+
+00:02:07.039 --> 00:02:10.839 
+this order well the other thing which we
+use<00:02:07.280> am<00:02:07.729> is<00:02:08.149> a<00:02:08.660> not<00:02:09.019> gate<00:02:09.229> and<00:02:09.640> basically<00:02:10.640> this
+
+00:02:10.839 --> 00:02:10.849 
+use am is a not gate and basically this
+
+00:02:10.849 --> 00:02:13.479 
+use am is a not gate and basically this
+inverse<00:02:11.360> a<00:02:11.630> signal<00:02:12.050> being<00:02:12.200> sent<00:02:12.290> into<00:02:12.680> it<00:02:12.920> so
+
+00:02:13.479 --> 00:02:13.489 
+inverse a signal being sent into it so
+
+00:02:13.489 --> 00:02:15.520 
+inverse a signal being sent into it so
+here<00:02:13.819> we<00:02:13.849> have<00:02:13.910> our<00:02:14.000> daylight<00:02:14.450> detector<00:02:14.959> with
+
+00:02:15.520 --> 00:02:15.530 
+here we have our daylight detector with
+
+00:02:15.530 --> 00:02:18.160 
+here we have our daylight detector with
+a<00:02:15.560> redstone<00:02:16.459> signal<00:02:16.760> coming<00:02:17.090> out<00:02:17.269> of<00:02:17.300> it<00:02:17.510> this
+
+00:02:18.160 --> 00:02:18.170 
+a redstone signal coming out of it this
+
+00:02:18.170 --> 00:02:20.350 
+a redstone signal coming out of it this
+is<00:02:18.350> the<00:02:18.590> stone<00:02:19.340> and<00:02:19.370> a<00:02:19.640> redstone<00:02:19.880> lamp<00:02:20.150> and<00:02:20.269> the
+
+00:02:20.350 --> 00:02:20.360 
+is the stone and a redstone lamp and the
+
+00:02:20.360 --> 00:02:21.880 
+is the stone and a redstone lamp and the
+red<00:02:20.510> Sun<00:02:20.630> lamp<00:02:20.870> would<00:02:20.989> normally<00:02:21.440> be<00:02:21.560> on<00:02:21.650> but
+
+00:02:21.880 --> 00:02:21.890 
+red Sun lamp would normally be on but
+
+00:02:21.890 --> 00:02:22.990 
+red Sun lamp would normally be on but
+when<00:02:21.980> the<00:02:22.069> signal<00:02:22.250> goes<00:02:22.489> into<00:02:22.760> the<00:02:22.850> back<00:02:22.940> of
+
+00:02:22.990 --> 00:02:23.000 
+when the signal goes into the back of
+
+00:02:23.000 --> 00:02:24.880 
+when the signal goes into the back of
+this<00:02:23.180> block<00:02:23.420> the<00:02:24.080> redstone<00:02:24.470> lamp<00:02:24.650> will<00:02:24.769> be
+
+00:02:24.880 --> 00:02:24.890 
+this block the redstone lamp will be
+
+00:02:24.890 --> 00:02:26.920 
+this block the redstone lamp will be
+forced<00:02:25.220> off<00:02:25.459> so<00:02:25.670> there's<00:02:25.910> no<00:02:26.060> signal<00:02:26.569> going<00:02:26.780> to
+
+00:02:26.920 --> 00:02:26.930 
+forced off so there's no signal going to
+
+00:02:26.930 --> 00:02:29.259 
+forced off so there's no signal going to
+this<00:02:27.049> redstone<00:02:27.410> lamp<00:02:27.769> if<00:02:28.280> I<00:02:28.760> set<00:02:29.120> it<00:02:29.239> to
+
+00:02:29.259 --> 00:02:29.269 
+this redstone lamp if I set it to
+
+00:02:29.269 --> 00:02:35.559 
+this redstone lamp if I set it to
+nighttime<00:02:33.280> we<00:02:34.280> now<00:02:34.430> have<00:02:34.459> no<00:02:34.819> signal<00:02:35.209> going<00:02:35.450> in
+
+00:02:35.559 --> 00:02:35.569 
+nighttime we now have no signal going in
+
+00:02:35.569 --> 00:02:37.840 
+nighttime we now have no signal going in
+here<00:02:35.870> so<00:02:36.049> a<00:02:36.080> redstone<00:02:36.470> lamp<00:02:36.769> a<00:02:36.890> light<00:02:37.100> up<00:02:37.280> and<00:02:37.519> a
+
+00:02:37.840 --> 00:02:37.850 
+here so a redstone lamp a light up and a
+
+00:02:37.850 --> 00:02:40.059 
+here so a redstone lamp a light up and a
+redstone<00:02:38.150> lamp<00:02:38.420> goes<00:02:38.569> on<00:02:38.750> and<00:02:39.350> that<00:02:39.470> there<00:02:39.769> is
+
+00:02:40.059 --> 00:02:40.069 
+redstone lamp goes on and that there is
+
+00:02:40.069 --> 00:02:42.340 
+redstone lamp goes on and that there is
+the<00:02:40.250> basis<00:02:40.610> for<00:02:41.030> how<00:02:41.390> would<00:02:41.540> you<00:02:41.690> have<00:02:42.200> you
+
+00:02:42.340 --> 00:02:42.350 
+the basis for how would you have you
+
+00:02:42.350 --> 00:02:44.100 
+the basis for how would you have you
+build<00:02:42.680> a<00:02:42.769> system<00:02:42.950> to<00:02:43.340> turn<00:02:43.549> on<00:02:43.730> all<00:02:43.880> the<00:02:43.910> lights
+
+00:02:44.100 --> 00:02:44.110 
+build a system to turn on all the lights
+
+00:02:44.110 --> 00:02:48.580 
+build a system to turn on all the lights
+and<00:02:45.819> around<00:02:46.819> your<00:02:47.030> house<00:02:47.510> or<00:02:47.810> whatever<00:02:48.380> it<00:02:48.500> is
+
+00:02:48.580 --> 00:02:48.590 
+and around your house or whatever it is
+
+00:02:48.590 --> 00:02:51.280 
+and around your house or whatever it is
+that<00:02:49.069> you<00:02:49.160> have<00:02:49.190> built<00:02:49.549> at<00:02:50.329> nighttime<00:02:50.780> so
+
+00:02:51.280 --> 00:02:51.290 
+that you have built at nighttime so
+
+00:02:51.290 --> 00:02:54.430 
+that you have built at nighttime so
+we'll<00:02:51.440> set<00:02:51.620> up<00:02:51.650> back<00:02:51.829> to<00:02:51.950> daytime<00:02:52.280> and<00:02:53.440> and
+
+00:02:54.430 --> 00:02:54.440 
+we'll set up back to daytime and and
+
+00:02:54.440 --> 00:02:57.280 
+we'll set up back to daytime and and
+we'll<00:02:54.650> go<00:02:54.739> and<00:02:54.920> have<00:02:54.950> a<00:02:55.070> look<00:02:55.130> at<00:02:55.670> exactly<00:02:56.290> what
+
+00:02:57.280 --> 00:02:57.290 
+we'll go and have a look at exactly what
+
+00:02:57.290 --> 00:03:00.009 
+we'll go and have a look at exactly what
+our<00:02:57.320> sorter<00:02:57.799> is<00:02:57.890> doing<00:02:58.130> so<00:02:58.280> here<00:02:58.519> is<00:02:58.670> a<00:02:59.019> sorter
+
+00:03:00.009 --> 00:03:00.019 
+our sorter is doing so here is a sorter
+
+00:03:00.019 --> 00:03:02.410 
+our sorter is doing so here is a sorter
+just<00:03:00.260> from<00:03:00.410> one<00:03:00.590> item<00:03:00.890> so<00:03:01.579> basically<00:03:02.150> we<00:03:02.390> have
+
+00:03:02.410 --> 00:03:02.420 
+just from one item so basically we have
+
+00:03:02.420 --> 00:03:04.930 
+just from one item so basically we have
+the<00:03:02.690> top<00:03:03.260> hopper<00:03:03.590> which<00:03:03.859> will<00:03:04.070> suck<00:03:04.430> items<00:03:04.790> in
+
+00:03:04.930 --> 00:03:04.940 
+the top hopper which will suck items in
+
+00:03:04.940 --> 00:03:07.930 
+the top hopper which will suck items in
+a<00:03:05.030> move<00:03:05.650> and<00:03:06.650> because<00:03:07.160> it's<00:03:07.340> connected<00:03:07.760> to<00:03:07.790> the
+
+00:03:07.930 --> 00:03:07.940 
+a move and because it's connected to the
+
+00:03:07.940 --> 00:03:10.270 
+a move and because it's connected to the
+last<00:03:08.299> block<00:03:08.510> it<00:03:09.170> won't<00:03:09.500> actually<00:03:09.709> be<00:03:09.980> able<00:03:10.160> to
+
+00:03:10.270 --> 00:03:10.280 
+last block it won't actually be able to
+
+00:03:10.280 --> 00:03:12.460 
+last block it won't actually be able to
+push<00:03:10.489> them<00:03:10.670> out<00:03:10.760> so<00:03:11.000> the<00:03:11.180> items<00:03:11.570> will<00:03:11.750> just<00:03:11.959> sit
+
+00:03:12.460 --> 00:03:12.470 
+push them out so the items will just sit
+
+00:03:12.470 --> 00:03:16.000 
+push them out so the items will just sit
+there<00:03:13.989> and<00:03:14.989> then<00:03:15.170> we<00:03:15.290> have<00:03:15.410> our<00:03:15.530> comparator
+
+00:03:16.000 --> 00:03:16.010 
+there and then we have our comparator
+
+00:03:16.010 --> 00:03:18.270 
+there and then we have our comparator
+which<00:03:16.190> sends<00:03:16.970> a<00:03:17.030> signal<00:03:17.180> based<00:03:17.540> on<00:03:17.780> this
+
+00:03:18.270 --> 00:03:18.280 
+which sends a signal based on this
+
+00:03:18.280 --> 00:03:21.160 
+which sends a signal based on this
+helpful<00:03:19.280> the<00:03:19.910> comparator<00:03:20.420> is<00:03:20.600> and<00:03:20.959> I'm<00:03:21.019> going
+
+00:03:21.160 --> 00:03:21.170 
+helpful the comparator is and I'm going
+
+00:03:21.170 --> 00:03:23.020 
+helpful the comparator is and I'm going
+to<00:03:21.230> come<00:03:21.380> back<00:03:21.500> to<00:03:21.560> that<00:03:21.680> in<00:03:21.799> a<00:03:21.980> moment<00:03:22.100> but<00:03:22.459> as
+
+00:03:23.020 --> 00:03:23.030 
+to come back to that in a moment but as
+
+00:03:23.030 --> 00:03:24.430 
+to come back to that in a moment but as
+you<00:03:23.180> can<00:03:23.269> see<00:03:23.420> at<00:03:23.480> the<00:03:23.540> moment<00:03:23.690> the<00:03:23.930> signal<00:03:24.290> is
+
+00:03:24.430 --> 00:03:24.440 
+you can see at the moment the signal is
+
+00:03:24.440 --> 00:03:26.410 
+you can see at the moment the signal is
+only<00:03:24.620> actually<00:03:24.980> going<00:03:25.100> one<00:03:25.370> block<00:03:25.609> away<00:03:25.640> it's
+
+00:03:26.410 --> 00:03:26.420 
+only actually going one block away it's
+
+00:03:26.420 --> 00:03:28.870 
+only actually going one block away it's
+not<00:03:26.660> coming<00:03:26.959> down<00:03:27.170> further<00:03:27.500> so<00:03:28.340> the<00:03:28.579> signal
+
+00:03:28.870 --> 00:03:28.880 
+not coming down further so the signal
+
+00:03:28.880 --> 00:03:30.280 
+not coming down further so the signal
+will<00:03:28.940> basically<00:03:29.239> come<00:03:29.540> down<00:03:29.690> this<00:03:29.870> way<00:03:30.049> and
+
+00:03:30.280 --> 00:03:30.290 
+will basically come down this way and
+
+00:03:30.290 --> 00:03:32.920 
+will basically come down this way and
+then<00:03:30.709> into<00:03:31.489> a<00:03:31.519> repeater<00:03:31.970> here<00:03:32.090> the<00:03:32.600> repeater
+
+00:03:32.920 --> 00:03:32.930 
+then into a repeater here the repeater
+
+00:03:32.930 --> 00:03:35.440 
+then into a repeater here the repeater
+is<00:03:33.019> just<00:03:33.319> to<00:03:33.440> give<00:03:33.650> the<00:03:33.980> signal<00:03:34.190> an<00:03:34.819> extra<00:03:35.269> bit
+
+00:03:35.440 --> 00:03:35.450 
+is just to give the signal an extra bit
+
+00:03:35.450 --> 00:03:41.170 
+is just to give the signal an extra bit
+of<00:03:35.480> duration<00:03:35.900> on<00:03:36.549> to<00:03:37.720> this<00:03:38.720> not<00:03:39.139> gate<00:03:39.380> here<00:03:40.180> now
+
+00:03:41.170 --> 00:03:41.180 
+of duration on to this not gate here now
+
+00:03:41.180 --> 00:03:44.280 
+of duration on to this not gate here now
+at<00:03:41.359> the<00:03:41.450> moment<00:03:41.840> this<00:03:42.079> redstone<00:03:43.069> lamp<00:03:43.370> is
+
+00:03:44.280 --> 00:03:44.290 
+at the moment this redstone lamp is
+
+00:03:44.290 --> 00:03:48.970 
+at the moment this redstone lamp is
+powering<00:03:45.290> the<00:03:46.100> hopper<00:03:46.819> below<00:03:47.750> and<00:03:48.410> when<00:03:48.650> power
+
+00:03:48.970 --> 00:03:48.980 
+powering the hopper below and when power
+
+00:03:48.980 --> 00:03:51.699 
+powering the hopper below and when power
+is<00:03:49.069> sent<00:03:49.549> into<00:03:49.940> a<00:03:50.269> hopper<00:03:50.540> what<00:03:51.230> happens<00:03:51.590> is
+
+00:03:51.699 --> 00:03:51.709 
+is sent into a hopper what happens is
+
+00:03:51.709 --> 00:03:54.580 
+is sent into a hopper what happens is
+that<00:03:51.739> hopper<00:03:52.340> stops<00:03:52.940> working<00:03:53.450> so<00:03:54.079> the<00:03:54.290> moment
+
+00:03:54.580 --> 00:03:54.590 
+that hopper stops working so the moment
+
+00:03:54.590 --> 00:03:56.650 
+that hopper stops working so the moment
+this<00:03:54.680> hopper<00:03:55.070> is<00:03:55.220> not<00:03:55.549> going<00:03:55.820> to<00:03:55.940> try<00:03:56.180> and<00:03:56.209> pull
+
+00:03:56.650 --> 00:03:56.660 
+this hopper is not going to try and pull
+
+00:03:56.660 --> 00:03:59.290 
+this hopper is not going to try and pull
+any<00:03:56.900> items<00:03:57.260> from<00:03:57.799> the<00:03:58.010> hopper<00:03:58.310> above
+
+00:03:59.290 --> 00:03:59.300 
+any items from the hopper above
+
+00:03:59.300 --> 00:04:01.030 
+any items from the hopper above
+now<00:03:59.480> what<00:04:00.110> will<00:04:00.230> happen<00:04:00.500> is<00:04:00.620> when<00:04:00.800> the<00:04:00.860> signal
+
+00:04:01.030 --> 00:04:01.040 
+now what will happen is when the signal
+
+00:04:01.040 --> 00:04:03.310 
+now what will happen is when the signal
+strength<00:04:01.340> gets<00:04:01.760> strong<00:04:02.600> enough<00:04:02.720> from<00:04:03.260> the
+
+00:04:03.310 --> 00:04:03.320 
+strength gets strong enough from the
+
+00:04:03.320 --> 00:04:05.320 
+strength gets strong enough from the
+hopper<00:04:03.650> above<00:04:03.920> signal<00:04:04.880> will<00:04:04.970> come<00:04:05.120> down<00:04:05.300> and
+
+00:04:05.320 --> 00:04:05.330 
+hopper above signal will come down and
+
+00:04:05.330 --> 00:04:08.680 
+hopper above signal will come down and
+around<00:04:05.690> and<00:04:06.050> switch<00:04:06.410> off<00:04:06.590> this<00:04:07.480> which<00:04:08.480> will
+
+00:04:08.680 --> 00:04:08.690 
+around and switch off this which will
+
+00:04:08.690 --> 00:04:11.230 
+around and switch off this which will
+then<00:04:09.050> turn<00:04:09.500> on<00:04:09.560> the<00:04:09.890> bottom<00:04:10.250> hopper<00:04:10.580> which<00:04:11.090> at
+
+00:04:11.230 --> 00:04:11.240 
+then turn on the bottom hopper which at
+
+00:04:11.240 --> 00:04:12.910 
+then turn on the bottom hopper which at
+that<00:04:11.270> point<00:04:11.360> will<00:04:11.750> try<00:04:11.960> and<00:04:12.020> suck<00:04:12.380> out<00:04:12.530> some<00:04:12.590> of
+
+00:04:12.910 --> 00:04:12.920 
+that point will try and suck out some of
+
+00:04:12.920 --> 00:04:15.220 
+that point will try and suck out some of
+the<00:04:13.010> items<00:04:13.700> from<00:04:14.120> the<00:04:14.300> upper<00:04:14.510> hopper<00:04:14.810> and<00:04:14.990> push
+
+00:04:15.220 --> 00:04:15.230 
+the items from the upper hopper and push
+
+00:04:15.230 --> 00:04:17.710 
+the items from the upper hopper and push
+them<00:04:15.440> into<00:04:15.590> this<00:04:15.920> chest<00:04:16.340> and<00:04:16.760> the<00:04:17.239> trick<00:04:17.540> in
+
+00:04:17.710 --> 00:04:17.720 
+them into this chest and the trick in
+
+00:04:17.720 --> 00:04:19.360 
+them into this chest and the trick in
+making<00:04:18.049> the<00:04:18.170> sorter<00:04:18.530> work<00:04:18.739> if<00:04:18.950> we<00:04:19.010> come<00:04:19.250> back
+
+00:04:19.360 --> 00:04:19.370 
+making the sorter work if we come back
+
+00:04:19.370 --> 00:04:22.690 
+making the sorter work if we come back
+up<00:04:19.580> here<00:04:19.610> is<00:04:19.970> that<00:04:20.720> you<00:04:20.870> fill<00:04:21.110> it<00:04:21.230> up<00:04:21.320> with<00:04:21.700> 22
+
+00:04:22.690 --> 00:04:22.700 
+up here is that you fill it up with 22
+
+00:04:22.700 --> 00:04:25.090 
+up here is that you fill it up with 22
+items<00:04:22.910> as<00:04:23.300> soon<00:04:23.720> as<00:04:24.020> the<00:04:24.230> twenty-third<00:04:24.740> item
+
+00:04:25.090 --> 00:04:25.100 
+items as soon as the twenty-third item
+
+00:04:25.100 --> 00:04:27.670 
+items as soon as the twenty-third item
+goes<00:04:25.250> in<00:04:25.520> there<00:04:25.760> it's<00:04:26.240> going<00:04:26.450> to<00:04:26.600> cause<00:04:27.260> and
+
+00:04:27.670 --> 00:04:27.680 
+goes in there it's going to cause and
+
+00:04:27.680 --> 00:04:30.880 
+goes in there it's going to cause and
+the<00:04:28.610> parrot<00:04:28.850> ago<00:04:29.090> and<00:04:29.330> the<00:04:29.630> lower<00:04:29.840> helper<00:04:30.620> will
+
+00:04:30.880 --> 00:04:30.890 
+the parrot ago and the lower helper will
+
+00:04:30.890 --> 00:04:33.340 
+the parrot ago and the lower helper will
+start<00:04:31.130> working<00:04:31.520> and<00:04:31.640> suck<00:04:32.480> the<00:04:32.660> excess<00:04:33.170> out
+
+00:04:33.340 --> 00:04:33.350 
+start working and suck the excess out
+
+00:04:33.350 --> 00:04:35.680 
+start working and suck the excess out
+and<00:04:33.530> push<00:04:33.710> them<00:04:33.830> into<00:04:33.980> the<00:04:34.160> chest<00:04:34.430> so<00:04:35.360> if<00:04:35.540> I
+
+00:04:35.680 --> 00:04:35.690 
+and push them into the chest so if I
+
+00:04:35.690 --> 00:04:38.830 
+and push them into the chest so if I
+take<00:04:36.140> out<00:04:36.320> those<00:04:36.530> mushrooms<00:04:37.520> there<00:04:37.850> and<00:04:38.540> then
+
+00:04:38.830 --> 00:04:38.840 
+take out those mushrooms there and then
+
+00:04:38.840 --> 00:04:40.840 
+take out those mushrooms there and then
+push<00:04:39.260> them<00:04:39.470> in<00:04:39.560> you<00:04:40.130> can<00:04:40.220> see<00:04:40.400> them<00:04:40.520> straight
+
+00:04:40.840 --> 00:04:40.850 
+push them in you can see them straight
+
+00:04:40.850 --> 00:04:43.390 
+push them in you can see them straight
+away<00:04:40.880> being<00:04:41.270> sucked<00:04:41.540> out<00:04:41.690> and<00:04:42.280> and<00:04:43.280> they'll
+
+00:04:43.390 --> 00:04:43.400 
+away being sucked out and and they'll
+
+00:04:43.400 --> 00:04:44.860 
+away being sucked out and and they'll
+keep<00:04:43.610> getting<00:04:43.910> sucked<00:04:44.150> into<00:04:44.330> the<00:04:44.480> lower<00:04:44.690> one
+
+00:04:44.860 --> 00:04:44.870 
+keep getting sucked into the lower one
+
+00:04:44.870 --> 00:04:48.190 
+keep getting sucked into the lower one
+and<00:04:46.000> there's<00:04:47.000> always<00:04:47.330> one<00:04:47.510> in<00:04:47.570> the<00:04:47.690> lower<00:04:48.050> one
+
+00:04:48.190 --> 00:04:48.200 
+and there's always one in the lower one
+
+00:04:48.200 --> 00:04:50.560 
+and there's always one in the lower one
+and<00:04:48.320> then<00:04:48.740> slowly<00:04:49.040> they<00:04:49.430> fill<00:04:49.670> up<00:04:49.790> again<00:04:49.910> and
+
+00:04:50.560 --> 00:04:50.570 
+and then slowly they fill up again and
+
+00:04:50.570 --> 00:04:53.950 
+and then slowly they fill up again and
+that's<00:04:50.930> basically<00:04:51.320> how<00:04:51.830> it<00:04:52.430> works<00:04:52.820> so<00:04:53.510> when<00:04:53.840> we
+
+00:04:53.950 --> 00:04:53.960 
+that's basically how it works so when we
+
+00:04:53.960 --> 00:04:58.870 
+that's basically how it works so when we
+want<00:04:54.140> to<00:04:54.200> build<00:04:54.410> one<00:04:56.440> we<00:04:57.440> just<00:04:57.700> bought<00:04:58.700> the
+
+00:04:58.870 --> 00:04:58.880 
+want to build one we just bought the
+
+00:04:58.880 --> 00:05:01.600 
+want to build one we just bought the
+additional<00:04:59.300> items<00:04:59.570> beside<00:04:59.930> it<00:05:00.080> now<00:05:00.230> to<00:05:00.920> line
+
+00:05:01.600 --> 00:05:01.610 
+additional items beside it now to line
+
+00:05:01.610 --> 00:05:03.580 
+additional items beside it now to line
+up<00:05:01.760> a<00:05:01.880> whole<00:05:02.000> load<00:05:02.150> of<00:05:02.180> chess<00:05:02.480> side<00:05:02.750> by<00:05:02.900> side<00:05:03.170> if
+
+00:05:03.580 --> 00:05:03.590 
+up a whole load of chess side by side if
+
+00:05:03.590 --> 00:05:05.920 
+up a whole load of chess side by side if
+you<00:05:03.950> alternate<00:05:04.430> between<00:05:04.460> regular<00:05:05.150> chests<00:05:05.690> and
+
+00:05:05.920 --> 00:05:05.930 
+you alternate between regular chests and
+
+00:05:05.930 --> 00:05:09.640 
+you alternate between regular chests and
+trapped<00:05:06.860> chests<00:05:07.370> and<00:05:07.990> you<00:05:08.990> could<00:05:09.200> build<00:05:09.350> wider
+
+00:05:09.640 --> 00:05:09.650 
+trapped chests and you could build wider
+
+00:05:09.650 --> 00:05:15.279 
+trapped chests and you could build wider
+chests<00:05:10.160> you<00:05:10.940> wanted<00:05:11.330> em
+
+00:05:15.279 --> 00:05:15.289 
+
+00:05:15.289 --> 00:05:16.959 
+
+and<00:05:15.409> when<00:05:16.339> you're<00:05:16.460> placing<00:05:16.610> the<00:05:16.819> hover
+
+00:05:16.959 --> 00:05:16.969 
+and when you're placing the hover
+
+00:05:16.969 --> 00:05:20.049 
+and when you're placing the hover
+against<00:05:17.629> the<00:05:17.719> chest<00:05:18.020> shift<00:05:18.529> click<00:05:18.830> to<00:05:19.789> place
+
+00:05:20.049 --> 00:05:20.059 
+against the chest shift click to place
+
+00:05:20.059 --> 00:05:26.790 
+against the chest shift click to place
+it<00:05:20.270> and<00:05:20.979> we<00:05:21.979> will<00:05:22.129> put<00:05:22.339> our<00:05:22.399> it<00:05:23.029> stone<00:05:23.300> torch
+
+00:05:26.790 --> 00:05:26.800 
+
+00:05:26.800 --> 00:05:31.659 
+
+our<00:05:27.800> repeater<00:05:29.649> to<00:05:30.649> do<00:05:30.770> the<00:05:30.919> comparator<00:05:31.490> you
+
+00:05:31.659 --> 00:05:31.669 
+our repeater to do the comparator you
+
+00:05:31.669 --> 00:05:36.909 
+our repeater to do the comparator you
+want<00:05:31.819> to<00:05:31.909> place<00:05:32.119> it<00:05:32.300> like<00:05:32.449> this
+
+00:05:36.909 --> 00:05:36.919 
+
+00:05:36.919 --> 00:05:42.350 
+
+redstone<00:05:37.919> and<00:05:39.499> redstone<00:05:40.499> and<00:05:41.059> what<00:05:42.059> I'm<00:05:42.179> going
+
+00:05:42.350 --> 00:05:42.360 
+redstone and redstone and what I'm going
+
+00:05:42.360 --> 00:05:44.449 
+redstone and redstone and what I'm going
+to<00:05:42.389> do<00:05:42.539> is<00:05:42.719> I'm<00:05:42.869> going<00:05:42.899> to<00:05:43.049> load<00:05:43.289> up<00:05:43.439> this<00:05:44.189> one
+
+00:05:44.449 --> 00:05:44.459 
+to do is I'm going to load up this one
+
+00:05:44.459 --> 00:05:48.109 
+to do is I'm going to load up this one
+with<00:05:44.849> one<00:05:45.809> two<00:05:46.110> three<00:05:46.559> four<00:05:47.039> and<00:05:47.069> the<00:05:47.669> excess
+
+00:05:48.109 --> 00:05:48.119 
+with one two three four and the excess
+
+00:05:48.119 --> 00:05:50.029 
+with one two three four and the excess
+no<00:05:48.449> there<00:05:48.659> and<00:05:49.289> they're<00:05:49.409> going<00:05:49.589> to<00:05:49.649> get<00:05:49.709> sucked
+
+00:05:50.029 --> 00:05:50.039 
+no there and they're going to get sucked
+
+00:05:50.039 --> 00:05:52.519 
+no there and they're going to get sucked
+down<00:05:50.099> and<00:05:50.549> the<00:05:51.360> gravel<00:05:51.749> will<00:05:51.989> be<00:05:52.139> filtered
+
+00:05:52.519 --> 00:05:52.529 
+down and the gravel will be filtered
+
+00:05:52.529 --> 00:06:00.080 
+down and the gravel will be filtered
+true<00:05:53.569> into<00:05:54.569> this<00:05:54.689> one<00:05:54.929> and<00:05:57.049> that's<00:05:58.049> happened
+
+00:06:00.080 --> 00:06:00.090 
+true into this one and that's happened
+
+00:06:00.090 --> 00:06:03.909 
+true into this one and that's happened
+fairly<00:06:00.930> quickly<00:06:01.490> yeah<00:06:02.490> it's<00:06:02.669> going<00:06:02.850> up<00:06:02.970> there
+
+00:06:03.909 --> 00:06:03.919 
+fairly quickly yeah it's going up there
+
+00:06:03.919 --> 00:06:06.890 
+fairly quickly yeah it's going up there
+2729<00:06:04.919> yet<00:06:05.250> so<00:06:05.430> that's<00:06:05.550> working<00:06:05.940> ground<00:06:06.180> now
+
+00:06:06.890 --> 00:06:06.900 
+2729 yet so that's working ground now
+
+00:06:06.900 --> 00:06:10.040 
+2729 yet so that's working ground now
+and<00:06:07.169> that's<00:06:07.620> basically<00:06:07.830> your<00:06:08.100> hopper<00:06:09.050> what
+
+00:06:10.040 --> 00:06:10.050 
+and that's basically your hopper what
+
+00:06:10.050 --> 00:06:12.200 
+and that's basically your hopper what
+I've<00:06:10.199> done<00:06:10.350> here<00:06:10.410> I<00:06:10.919> have<00:06:11.460> trained<00:06:11.880> them<00:06:11.940> side
+
+00:06:12.200 --> 00:06:12.210 
+I've done here I have trained them side
+
+00:06:12.210 --> 00:06:15.830 
+I've done here I have trained them side
+by<00:06:12.240> side<00:06:12.389> I've<00:06:12.810> added<00:06:13.110> a<00:06:14.000> train<00:06:15.000> card<00:06:15.240> with<00:06:15.810> a
+
+00:06:15.830 --> 00:06:15.840 
+by side I've added a train card with a
+
+00:06:15.840 --> 00:06:17.659 
+by side I've added a train card with a
+hopper<00:06:16.139> inside<00:06:16.500> it<00:06:16.680> so<00:06:16.830> I<00:06:16.860> feel<00:06:17.220> everything<00:06:17.490> I
+
+00:06:17.659 --> 00:06:17.669 
+hopper inside it so I feel everything I
+
+00:06:17.669 --> 00:06:20.180 
+hopper inside it so I feel everything I
+want<00:06:17.850> into<00:06:18.210> the<00:06:18.330> chest<00:06:18.630> flick<00:06:19.350> the<00:06:19.470> switch<00:06:19.710> and
+
+00:06:20.180 --> 00:06:20.190 
+want into the chest flick the switch and
+
+00:06:20.190 --> 00:06:21.409 
+want into the chest flick the switch and
+I<00:06:20.280> will<00:06:20.400> just<00:06:20.520> go<00:06:20.580> back<00:06:20.669> and<00:06:21.000> forth<00:06:21.120> to<00:06:21.360> the
+
+00:06:21.409 --> 00:06:21.419 
+I will just go back and forth to the
+
+00:06:21.419 --> 00:06:23.090 
+I will just go back and forth to the
+power<00:06:21.780> drain<00:06:21.900> on<00:06:22.139> either<00:06:22.260> side<00:06:22.560> and<00:06:22.590> bounce
+
+00:06:23.090 --> 00:06:23.100 
+power drain on either side and bounce
+
+00:06:23.100 --> 00:06:25.040 
+power drain on either side and bounce
+back<00:06:23.310> and<00:06:23.490> forward<00:06:23.729> and<00:06:23.880> the<00:06:24.389> items<00:06:24.690> will<00:06:24.870> go
+
+00:06:25.040 --> 00:06:25.050 
+back and forward and the items will go
+
+00:06:25.050 --> 00:06:27.110 
+back and forward and the items will go
+into<00:06:25.560> the<00:06:25.830> Harper's<00:06:26.130> accordingly<00:06:26.580> and
+
+00:06:27.110 --> 00:06:27.120 
+into the Harper's accordingly and
+
+00:06:27.120 --> 00:06:28.969 
+into the Harper's accordingly and
+basically<00:06:27.479> because<00:06:27.840> every<00:06:28.500> one<00:06:28.650> of<00:06:28.740> these<00:06:28.800> is
+
+00:06:28.969 --> 00:06:28.979 
+basically because every one of these is
+
+00:06:28.979 --> 00:06:31.430 
+basically because every one of these is
+lined<00:06:29.190> up<00:06:29.340> with<00:06:29.400> one<00:06:30.210> gun<00:06:30.389> powder<00:06:30.630> no<00:06:31.260> other
+
+00:06:31.430 --> 00:06:31.440 
+lined up with one gun powder no other
+
+00:06:31.440 --> 00:06:33.500 
+lined up with one gun powder no other
+items<00:06:31.889> can<00:06:32.070> go<00:06:32.220> in<00:06:32.340> there<00:06:32.520> the<00:06:33.000> items<00:06:33.389> are
+
+00:06:33.500 --> 00:06:33.510 
+items can go in there the items are
+
+00:06:33.510 --> 00:06:35.360 
+items can go in there the items are
+always<00:06:33.720> hook<00:06:33.900> that<00:06:34.080> from<00:06:34.290> the<00:06:34.410> first<00:06:34.440> one<00:06:34.800> and
+
+00:06:35.360 --> 00:06:35.370 
+always hook that from the first one and
+
+00:06:35.370 --> 00:06:37.120 
+always hook that from the first one and
+that's<00:06:35.550> basically<00:06:35.790> the<00:06:36.090> trick<00:06:36.450> behind<00:06:36.600> it<00:06:36.900> so
+
+00:06:37.120 --> 00:06:37.130 
+that's basically the trick behind it so
+
+00:06:37.130 --> 00:06:41.480 
+that's basically the trick behind it so
+I'll<00:06:38.130> set<00:06:38.370> this<00:06:38.520> one<00:06:39.090> going<00:06:39.360> here<00:06:40.310> remove<00:06:41.310> the
+
+00:06:41.480 --> 00:06:41.490 
+I'll set this one going here remove the
+
+00:06:41.490 --> 00:06:50.170 
+I'll set this one going here remove the
+Gunpowder<00:06:42.320> phone<00:06:44.389> run<00:06:45.389> the<00:06:45.540> flesh<00:06:46.910> just<00:06:47.910> put
+
+00:06:50.170 --> 00:06:50.180 
+
+00:06:50.180 --> 00:06:54.610 
+
+few<00:06:50.900> of<00:06:50.930> those<00:06:51.080> in<00:06:52.449> there<00:06:53.449> all<00:06:53.539> going<00:06:53.840> actually
+
+00:06:54.610 --> 00:06:54.620 
+few of those in there all going actually
+
+00:06:54.620 --> 00:06:57.310 
+few of those in there all going actually
+into<00:06:55.130> the<00:06:55.250> chest<00:06:55.520> below<00:06:55.910> straight<00:06:56.810> away<00:06:57.080> as
+
+00:06:57.310 --> 00:06:57.320 
+into the chest below straight away as
+
+00:06:57.320 --> 00:06:59.800 
+into the chest below straight away as
+soon<00:06:57.440> as<00:06:57.620> I<00:06:57.710> put<00:06:57.949> them<00:06:58.100> in<00:06:58.300> right<00:06:59.300> click<00:06:59.509> here
+
+00:06:59.800 --> 00:06:59.810 
+soon as I put them in right click here
+
+00:06:59.810 --> 00:07:02.350 
+soon as I put them in right click here
+we<00:07:00.020> can<00:07:00.139> see<00:07:00.320> them<00:07:00.410> in<00:07:00.560> the<00:07:00.650> item<00:07:00.949> hopper<00:07:01.360> and
+
+00:07:02.350 --> 00:07:02.360 
+we can see them in the item hopper and
+
+00:07:02.360 --> 00:07:04.210 
+we can see them in the item hopper and
+flip<00:07:03.199> that<00:07:03.320> on<00:07:03.380> its<00:07:03.500> going<00:07:03.770> to<00:07:03.830> bounce<00:07:03.979> back
+
+00:07:04.210 --> 00:07:04.220 
+flip that on its going to bounce back
+
+00:07:04.220 --> 00:07:08.800 
+flip that on its going to bounce back
+and<00:07:04.400> forth<00:07:05.800> and<00:07:07.060> you<00:07:08.060> should<00:07:08.270> start<00:07:08.600> to<00:07:08.780> see
+
+00:07:08.800 --> 00:07:08.810 
+and forth and you should start to see
+
+00:07:08.810 --> 00:07:11.580 
+and forth and you should start to see
+some<00:07:08.990> items<00:07:09.560> appearing<00:07:09.979> in<00:07:10.070> those<00:07:10.220> chests
+
+00:07:11.580 --> 00:07:11.590 
+some items appearing in those chests
+
+00:07:11.590 --> 00:07:14.800 
+some items appearing in those chests
+yeah<00:07:12.590> there<00:07:12.770> we<00:07:12.860> go<00:07:12.889> 11<00:07:13.340> 12<00:07:13.699> 13<00:07:13.729> so<00:07:14.360> it's
+
+00:07:14.800 --> 00:07:14.810 
+yeah there we go 11 12 13 so it's
+
+00:07:14.810 --> 00:07:18.520 
+yeah there we go 11 12 13 so it's
+working<00:07:15.259> and<00:07:15.490> that's<00:07:16.490> basically<00:07:16.699> the<00:07:17.530> hopper
+
+00:07:18.520 --> 00:07:18.530 
+working and that's basically the hopper
+
+00:07:18.530 --> 00:07:20.439 
+working and that's basically the hopper
+item<00:07:18.979> sorter<00:07:19.220> so<00:07:19.759> that's<00:07:20.180> what<00:07:20.360> you're
+
+00:07:20.439 --> 00:07:20.449 
+item sorter so that's what you're
+
+00:07:20.449 --> 00:07:23.080 
+item sorter so that's what you're
+looking<00:07:20.750> to<00:07:20.780> build<00:07:20.990> just<00:07:21.919> a<00:07:22.009> rodos<00:07:22.460> I<00:07:22.699> hope
+
+00:07:23.080 --> 00:07:23.090 
+looking to build just a rodos I hope
+
+00:07:23.090 --> 00:07:26.110 
+looking to build just a rodos I hope
+this<00:07:23.300> has<00:07:23.599> been<00:07:23.870> informative<00:07:24.199> and<00:07:25.099> there<00:07:25.280> you
+
+00:07:26.110 --> 00:07:26.120 
+this has been informative and there you
+
+00:07:26.120 --> 00:07:28.029 
+this has been informative and there you
+all<00:07:26.270> do<00:07:26.449> some<00:07:26.660> cool<00:07:27.050> item<00:07:27.590> sorting<00:07:27.889> way<00:07:27.979> to
+
+00:07:28.029 --> 00:07:28.039 
+all do some cool item sorting way to
+
+00:07:28.039 --> 00:07:31.120 
+all do some cool item sorting way to
+take<00:07:28.759> care<00:07:28.940> bye<00:07:29.090> bye
+
